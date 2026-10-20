@@ -27,7 +27,7 @@ Todo el camino está en [`HablaBase/Content/curriculum.json`](HablaBase/Content/
 
 La app lee ese archivo para dibujar la ruta. Para cambiar el orden o los títulos basta con editar el JSON; los ejercicios de cada lección se añaden en `Content/`.
 
-## Qué hay ahora (v0.4)
+## Qué hay ahora (v0.5)
 
 - **Bienvenida**: nombre, ciudad, trabajo, idioma (English / Italiano), objetivo y minutos al día.
 - **Inicio**: racha, XP, energía, botón Continuar con el nivel y la unidad actuales, y la unidad en curso.
@@ -36,7 +36,10 @@ La app lee ese archivo para dibujar la ruta. Para cambiar el orden o los título
 - **Vocabulario primero**: cada palabra nueva se presenta en slides (palabra y traducción) y luego se une con su traducción antes de usarla en un ejercicio. Un test automático comprueba que ninguna lección usa palabras sin presentar.
 - **Lección 1, Yo, tú, él**: las terminaciones de yo, tú y él/ella con Lego Snap y huecos para escribir el verbo, y un mix final.
 - **Lección 2, Me presento**: frases con tus datos (Sentence Builder) y una frase final escrita con *y*.
-- **Test de unidad**: 10 preguntas sin explicaciones. Con 8 aciertos la unidad (y todo lo anterior) queda superada, así quien ya sabe español puede avanzar rápido. Por ahora existe el de la Unidad 1.
+- **Unidades 1 a 10 completas** (A0–A2): 50 lecciones y 10 bosses. Las lecciones 1 y 2 están en `Content/Unit1.swift`; el resto en `Content/lessons-u{n}.json`, con el formato y las reglas en `docs/content-format.md`. `python3 tools/validate_content.py` comprueba que ninguna lección usa una palabra antes de presentarla, el máximo de 15 preguntas y que cada ejercicio tiene solución. El plan de vocabulario está en `docs/vocab-plan.json`.
+- **Apuntes**: explicaciones y vocabulario de la unidad actual y de las anteriores.
+- **Hablar**: dices en voz alta frases de tus lecciones y ves qué palabras se han entendido (reconocimiento de voz en el iPhone).
+- **Test de unidad**: 10 preguntas sin explicaciones. Con 8 aciertos la unidad (y todo lo anterior) queda superada, así quien ya sabe español puede avanzar rápido. Se genera con preguntas de todas las lecciones de la unidad.
 - **Conjugation Lab**: dos botones. *Repasar tablas* (tabla del presente que se ilumina con el dominio y banco Lego) y *Jugar* (Parejas: unir cada verbo con su persona; los demás juegos se abren por nivel).
 - **Progreso guardado en el teléfono**: se guarda en un archivo de la app después de cada cambio, sobrevive a las actualizaciones y entra en la copia de seguridad del iPhone. Está detrás de `ProgressStorage`, así que más adelante se puede añadir una cuenta en la nube (por ejemplo Supabase) sin tocar el resto.
 
@@ -56,7 +59,7 @@ La app lee ese archivo para dibujar la ruta. Para cambiar el orden o los título
 - **Solo lo que funciona**: la pestaña Talk y los minijuegos que aún no existen no se muestran; cuando alguien termina las lecciones disponibles ve una tarjeta «Estás al día» en lugar de botones desactivados.
 - **Accesibilidad**: VoiceOver lee el estado de cada paso (hecho, siguiente, bloqueado), los textos crecen con el tamaño de letra del sistema y las bandejas de piezas pasan a otra línea si no caben.
 - **Icono provisional** (`hablo` en un bocadillo) y `ITSAppUsesNonExemptEncryption = NO`, así que no hay que contestar la pregunta de cifrado en cada subida.
-- **Pendiente antes de publicar**: tu equipo de desarrollo en Signing & Capabilities, confirmar el bundle ID `com.withoutprojects.hablabase` y el nombre en la tienda, un icono diseñado si quieres sustituir el provisional, capturas de pantalla, una URL de política de privacidad y más lecciones (ahora hay 2 lecciones y el test de la Unidad 1).
+- **Pendiente antes de publicar**: tu equipo de desarrollo en Signing & Capabilities, confirmar el bundle ID `com.withoutprojects.hablabase` y el nombre en la tienda, un icono diseñado si quieres sustituir el provisional, capturas de pantalla, una URL de política de privacidad y más unidades (ahora llegan hasta la 10).
 
 ## Estructura
 

@@ -1,0 +1,670 @@
+{
+  "unit": "u2",
+  "lessons": [
+    {
+      "id": "u2l1",
+      "goal": {"en": "Talk about what you and your people do together, with nosotros.", "it": "Racconta cosa fate tu e le persone a cui tieni, con nosotros."},
+      "target": {"es": "Hoy comemos pizza juntos y hablamos español.", "en": "Today we're eating pizza together and speaking Spanish.", "it": "Oggi mangiamo la pizza insieme e parliamo spagnolo."},
+      "items": [
+        {"type": "words", "words": [
+          {"es": "nosotros", "en": "we", "it": "noi", "kind": "ending"},
+          {"es": "nosotras", "en": "we (all women)", "it": "noi (donne)", "kind": "ending"},
+          {"es": "juntos", "en": "together", "it": "insieme", "kind": "chunk"},
+          {"es": "hoy", "en": "today", "it": "oggi", "kind": "time"}
+        ]},
+        {"type": "words", "words": [
+          {"es": "comprar", "en": "to buy", "it": "comprare", "kind": "stem"},
+          {"es": "aprender", "en": "to learn", "it": "imparare", "kind": "stem"},
+          {"es": "pizza", "en": "pizza", "it": "pizza", "kind": "chunk"},
+          {"es": "vino", "en": "wine", "it": "vino", "kind": "chunk"}
+        ]},
+
+        {"type": "explain",
+         "bricks": [{"text": "habl-", "kind": "stem"}, {"text": "-amos", "kind": "ending"}],
+         "result": {"stem": "habl", "ending": "amos"},
+         "rule": {"en": "For nosotros (we), AR verbs end in -amos. comprar is a new AR verb: compro, compras, compra, compramos.",
+                  "it": "Con nosotros (noi), i verbi in AR finiscono in -amos. comprar è un nuovo verbo in AR: compro, compras, compra, compramos."},
+         "examples": [
+           {"es": "Nosotros hablamos español.", "en": "We speak Spanish.", "it": "Noi parliamo spagnolo."},
+           {"es": "Hoy compramos vino.", "en": "Today we're buying wine.", "it": "Oggi compriamo il vino."},
+           {"es": "Cocinamos juntos.", "en": "We cook together.", "it": "Cuciniamo insieme."}
+         ],
+         "teaches": [
+           {"es": "hablamos", "en": "we speak", "it": "parliamo"},
+           {"es": "trabajamos", "en": "we work", "it": "lavoriamo"},
+           {"es": "estudiamos", "en": "we study", "it": "studiamo"},
+           {"es": "cocinamos", "en": "we cook", "it": "cuciniamo"},
+           {"es": "viajamos", "en": "we travel", "it": "viaggiamo"},
+           {"es": "escuchamos", "en": "we listen to", "it": "ascoltiamo"},
+           {"es": "bailamos", "en": "we dance", "it": "balliamo"},
+           {"es": "compro", "en": "I buy", "it": "compro"},
+           {"es": "compras", "en": "you buy", "it": "compri"},
+           {"es": "compra", "en": "he/she buys", "it": "compra"},
+           {"es": "compramos", "en": "we buy", "it": "compriamo"}
+         ]},
+        {"type": "snap", "beat": "forge", "person": "nosotros",
+         "prompt": {"en": "we buy", "it": "compriamo"},
+         "stems": ["compr", "com", "viv"], "endings": ["o", "as", "amos"],
+         "answer": {"stem": "compr", "ending": "amos"},
+         "hint": {"en": "AR verbs: -amos with nosotros.", "it": "Verbi in AR: -amos con nosotros."}},
+        {"type": "gap", "beat": "forge", "before": "Hoy nosotros ", "after": " juntos.", "label": "cocinar",
+         "accepted": ["cocinamos"], "en": "Today we're cooking together.", "it": "Oggi cuciniamo insieme.",
+         "hint": {"en": "cocin- + -amos.", "it": "cocin- + -amos."}},
+
+        {"type": "explain",
+         "bricks": [{"text": "com-", "kind": "stem"}, {"text": "-emos", "kind": "ending"}],
+         "result": {"stem": "com", "ending": "emos"},
+         "rule": {"en": "ER verbs end in -emos for nosotros. aprender is a new ER verb, just like comer.",
+                  "it": "I verbi in ER finiscono in -emos con nosotros. aprender è un nuovo verbo in ER, proprio come comer."},
+         "examples": [
+           {"es": "Comemos pizza juntos.", "en": "We eat pizza together.", "it": "Mangiamo la pizza insieme."},
+           {"es": "Nosotras bebemos vino.", "en": "We drink wine.", "it": "Noi beviamo vino."},
+           {"es": "Aprendemos español.", "en": "We're learning Spanish.", "it": "Impariamo lo spagnolo."}
+         ],
+         "teaches": [
+           {"es": "comemos", "en": "we eat", "it": "mangiamo"},
+           {"es": "bebemos", "en": "we drink", "it": "beviamo"},
+           {"es": "leemos", "en": "we read", "it": "leggiamo"},
+           {"es": "aprendo", "en": "I learn", "it": "imparo"},
+           {"es": "aprendes", "en": "you learn", "it": "impari"},
+           {"es": "aprende", "en": "he/she learns", "it": "impara"},
+           {"es": "aprendemos", "en": "we learn", "it": "impariamo"}
+         ]},
+        {"type": "snap", "beat": "forge", "person": "nosotros",
+         "prompt": {"en": "we learn", "it": "impariamo"},
+         "stems": ["aprend", "compr", "escuch"], "endings": ["amos", "emos", "es"],
+         "answer": {"stem": "aprend", "ending": "emos"},
+         "hint": {"en": "aprender is ER: -emos.", "it": "aprender è in ER: -emos."}},
+        {"type": "gap", "beat": "fire", "before": "Hoy ", "after": " vino.", "label": "beber",
+         "accepted": ["bebemos"], "en": "Today we're drinking wine.", "it": "Oggi beviamo vino.",
+         "hint": {"en": "We: beb- + -emos.", "it": "Noi: beb- + -emos."}},
+
+        {"type": "explain",
+         "bricks": [{"text": "viv-", "kind": "stem"}, {"text": "-imos", "kind": "ending"}],
+         "result": {"stem": "viv", "ending": "imos"},
+         "rule": {"en": "IR verbs end in -imos for nosotros. 'Mi hermano y yo' is also nosotros.",
+                  "it": "I verbi in IR finiscono in -imos con nosotros. Anche 'mi hermano y yo' è nosotros."},
+         "examples": [
+           {"es": "Vivimos en {city}.", "en": "We live in {city}.", "it": "Viviamo a {city}."},
+           {"es": "Mi hermana y yo escribimos mucho.", "en": "My sister and I write a lot.", "it": "Io e mia sorella scriviamo molto."}
+         ],
+         "teaches": [
+           {"es": "vivimos", "en": "we live", "it": "viviamo"},
+           {"es": "escribimos", "en": "we write", "it": "scriviamo"}
+         ]},
+        {"type": "snap", "beat": "forge", "person": "nosotros",
+         "prompt": {"en": "we write", "it": "scriviamo"},
+         "stems": ["com", "escrib", "habl"], "endings": ["amos", "emos", "imos"],
+         "answer": {"stem": "escrib", "ending": "imos"},
+         "hint": {"en": "escribir is IR: -imos.", "it": "escribir è in IR: -imos."}},
+        {"type": "gap", "beat": "fire", "before": "Mi hermano y yo ", "after": " en {city}.", "label": "vivir",
+         "accepted": ["vivimos"], "en": "My brother and I live in {city}.", "it": "Io e mio fratello viviamo a {city}.",
+         "hint": {"en": "Mi hermano y yo = nosotros: viv- + -imos.", "it": "Mi hermano y yo = nosotros: viv- + -imos."}},
+
+        {"type": "choose", "beat": "mix", "before": "Mi amigo y yo ", "after": " español juntos.",
+         "options": ["aprendemos", "aprende", "aprendo"], "answer": "aprendemos",
+         "en": "My friend and I are learning Spanish together.", "it": "Io e il mio amico impariamo lo spagnolo insieme.",
+         "hint": {"en": "Two people including you = nosotros: -emos.", "it": "Due persone, tu compreso = nosotros: -emos."}},
+        {"type": "snap", "beat": "mix", "person": "nosotros",
+         "prompt": {"en": "we read", "it": "leggiamo"},
+         "stems": ["escrib", "le", "viaj"], "endings": ["amos", "emos", "imos"],
+         "answer": {"stem": "le", "ending": "emos"},
+         "hint": {"en": "leer is ER: le- + -emos.", "it": "leer è in ER: le- + -emos."}},
+        {"type": "build", "beat": "mix",
+         "intention": {"en": "Say that today you and your friends are eating pizza together.", "it": "Di' che oggi tu e i tuoi amici mangiate la pizza insieme."},
+         "accepted": ["Hoy comemos pizza juntos.", "Hoy nosotros comemos pizza juntos.", "Comemos pizza juntos hoy."],
+         "tiles": ["Hoy", "comemos", "pizza", "juntos", "como", "vino"],
+         "en": "Today we're eating pizza together.", "it": "Oggi mangiamo la pizza insieme.",
+         "hint": {"en": "We eat: com- + -emos.", "it": "Noi mangiamo: com- + -emos."}},
+        {"type": "write", "beat": "mix",
+         "instruction": {"en": "Say two things you and someone close to you do together, joined with y.",
+                         "it": "Di' due cose che fai insieme a una persona vicina a te, unite con y."},
+         "required": ["juntos", "y"],
+         "model": {"es": "Mi amigo y yo estudiamos español juntos y comemos pizza.",
+                   "en": "My friend and I study Spanish together and eat pizza.",
+                   "it": "Io e il mio amico studiamo spagnolo insieme e mangiamo la pizza."}}
+      ]
+    },
+
+    {
+      "id": "u2l2",
+      "goal": {"en": "Say what other people do, with ellos and ellas.", "it": "Di' cosa fanno gli altri, con ellos ed ellas."},
+      "target": {"es": "Mi hermano y un amigo corren en el parque temprano.", "en": "My brother and a friend run in the park early.", "it": "Mio fratello e un amico corrono al parco presto."},
+      "items": [
+        {"type": "words", "words": [
+          {"es": "ellos", "en": "they", "it": "loro", "kind": "ending"},
+          {"es": "ellas", "en": "they (all women)", "it": "loro (donne)", "kind": "ending"},
+          {"es": "amigos", "en": "friends", "it": "amici", "kind": "chunk"},
+          {"es": "temprano", "en": "early", "it": "presto", "kind": "time"},
+          {"es": "tarde", "en": "late", "it": "tardi", "kind": "time"}
+        ]},
+        {"type": "words", "words": [
+          {"es": "correr", "en": "to run", "it": "correre", "kind": "stem"},
+          {"es": "abrir", "en": "to open", "it": "aprire", "kind": "stem"},
+          {"es": "en el parque", "en": "in the park", "it": "al parco", "kind": "chunk"}
+        ]},
+
+        {"type": "explain",
+         "bricks": [{"text": "habl-", "kind": "stem"}, {"text": "-an", "kind": "ending"}],
+         "result": {"stem": "habl", "ending": "an"},
+         "rule": {"en": "For ellos and ellas (they), AR verbs end in -an. It's the ella form plus -n.",
+                  "it": "Con ellos ed ellas (loro), i verbi in AR finiscono in -an. È la forma di ella più -n."},
+         "examples": [
+           {"es": "Ellos viajan mucho.", "en": "They travel a lot.", "it": "Loro viaggiano molto."},
+           {"es": "Mi padre y mi madre trabajan tarde.", "en": "My father and my mother work late.", "it": "Mio padre e mia madre lavorano fino a tardi."},
+           {"es": "Ellas bailan todos los días.", "en": "They dance every day.", "it": "Loro ballano tutti i giorni."}
+         ],
+         "teaches": [
+           {"es": "hablan", "en": "they speak", "it": "parlano"},
+           {"es": "trabajan", "en": "they work", "it": "lavorano"},
+           {"es": "estudian", "en": "they study", "it": "studiano"},
+           {"es": "cocinan", "en": "they cook", "it": "cucinano"},
+           {"es": "viajan", "en": "they travel", "it": "viaggiano"},
+           {"es": "escuchan", "en": "they listen to", "it": "ascoltano"},
+           {"es": "bailan", "en": "they dance", "it": "ballano"},
+           {"es": "compran", "en": "they buy", "it": "comprano"}
+         ]},
+        {"type": "snap", "beat": "forge", "person": "ellos",
+         "prompt": {"en": "they work", "it": "lavorano"},
+         "stems": ["com", "trabaj", "viv"], "endings": ["a", "amos", "an"],
+         "answer": {"stem": "trabaj", "ending": "an"},
+         "hint": {"en": "AR verbs: -an with ellos.", "it": "Verbi in AR: -an con ellos."}},
+        {"type": "gap", "beat": "forge", "before": "Mi padre y mi madre ", "after": " en casa.", "label": "cocinar",
+         "accepted": ["cocinan"], "en": "My father and my mother cook at home.", "it": "Mio padre e mia madre cucinano a casa.",
+         "hint": {"en": "Two other people = ellos: cocin- + -an.", "it": "Due altre persone = ellos: cocin- + -an."}},
+
+        {"type": "explain",
+         "bricks": [{"text": "com- / viv-", "kind": "stem"}, {"text": "-en", "kind": "ending"}],
+         "result": {"stem": "com", "ending": "en"},
+         "rule": {"en": "ER and IR verbs both end in -en for ellos and ellas.",
+                  "it": "I verbi in ER e in IR finiscono entrambi in -en con ellos ed ellas."},
+         "examples": [
+           {"es": "Ellos comen con amigos.", "en": "They eat with friends.", "it": "Loro mangiano con gli amici."},
+           {"es": "Ellas viven en {city}.", "en": "They live in {city}.", "it": "Loro vivono a {city}."}
+         ],
+         "teaches": [
+           {"es": "comen", "en": "they eat", "it": "mangiano"},
+           {"es": "beben", "en": "they drink", "it": "bevono"},
+           {"es": "leen", "en": "they read", "it": "leggono"},
+           {"es": "aprenden", "en": "they learn", "it": "imparano"},
+           {"es": "viven", "en": "they live", "it": "vivono"},
+           {"es": "escriben", "en": "they write", "it": "scrivono"}
+         ]},
+        {"type": "snap", "beat": "forge", "person": "ellos",
+         "prompt": {"en": "they drink", "it": "bevono"},
+         "stems": ["beb", "escrib", "habl"], "endings": ["an", "en", "emos"],
+         "answer": {"stem": "beb", "ending": "en"},
+         "hint": {"en": "ER verbs: -en with ellos.", "it": "Verbi in ER: -en con ellos."}},
+        {"type": "gap", "beat": "fire", "before": "Mi hermano y mi hermana ", "after": " mucho.", "label": "escribir",
+         "accepted": ["escriben"], "en": "My brother and my sister write a lot.", "it": "Mio fratello e mia sorella scrivono molto.",
+         "hint": {"en": "IR verbs take -en too: escrib- + -en.", "it": "Anche i verbi in IR prendono -en: escrib- + -en."}},
+
+        {"type": "explain",
+         "bricks": [{"text": "corr-", "kind": "stem"}, {"text": "abr-", "kind": "stem"}],
+         "rule": {"en": "correr (to run) works like comer; abrir (to open) works like vivir. Same endings you already know.",
+                  "it": "correr (correre) funziona come comer; abrir (aprire) funziona come vivir. Le desinenze le conosci già."},
+         "examples": [
+           {"es": "Corro en el parque.", "en": "I run in the park.", "it": "Corro al parco."},
+           {"es": "Ellos corren temprano.", "en": "They run early.", "it": "Loro corrono presto."},
+           {"es": "Abrimos tarde.", "en": "We open late.", "it": "Apriamo tardi."}
+         ],
+         "teaches": [
+           {"es": "corro", "en": "I run", "it": "corro"},
+           {"es": "corres", "en": "you run", "it": "corri"},
+           {"es": "corre", "en": "he/she runs", "it": "corre"},
+           {"es": "corremos", "en": "we run", "it": "corriamo"},
+           {"es": "corren", "en": "they run", "it": "corrono"},
+           {"es": "abro", "en": "I open", "it": "apro"},
+           {"es": "abres", "en": "you open", "it": "apri"},
+           {"es": "abre", "en": "he/she opens", "it": "apre"},
+           {"es": "abrimos", "en": "we open", "it": "apriamo"},
+           {"es": "abren", "en": "they open", "it": "aprono"}
+         ]},
+        {"type": "snap", "beat": "forge", "person": "el",
+         "prompt": {"en": "she opens", "it": "apre"},
+         "stems": ["abr", "cocin", "corr"], "endings": ["a", "e", "en"],
+         "answer": {"stem": "abr", "ending": "e"},
+         "hint": {"en": "abrir is IR: -e with él/ella.", "it": "abrir è in IR: -e con él/ella."}},
+        {"type": "gap", "beat": "fire", "before": "Nosotros ", "after": " en el parque.", "label": "correr",
+         "accepted": ["corremos"], "en": "We run in the park.", "it": "Corriamo al parco.",
+         "hint": {"en": "correr is ER: -emos with nosotros.", "it": "correr è in ER: -emos con nosotros."}},
+
+        {"type": "choose", "beat": "mix", "before": "Mi hermana y un amigo ", "after": " tarde.",
+         "options": ["trabajan", "trabajamos", "trabaja"], "answer": "trabajan",
+         "en": "My sister and a friend work late.", "it": "Mia sorella e un amico lavorano fino a tardi.",
+         "hint": {"en": "Two other people, not you: ellos, -an.", "it": "Due altre persone, non tu: ellos, -an."}},
+        {"type": "choose", "beat": "mix", "before": "Mi madre y mi hermana corren en el parque. ", "after": " corren temprano.",
+         "options": ["Ellas", "Ellos", "Nosotras"], "answer": "Ellas",
+         "en": "My mother and my sister run in the park. They run early.", "it": "Mia madre e mia sorella corrono al parco. Corrono presto.",
+         "hint": {"en": "All women: ellas.", "it": "Tutte donne: ellas."}},
+        {"type": "build", "beat": "mix",
+         "intention": {"en": "Say that your brother and a friend run in the park.", "it": "Di' che tuo fratello e un amico corrono al parco."},
+         "accepted": ["Mi hermano y un amigo corren en el parque."],
+         "tiles": ["Mi", "hermano", "y", "un amigo", "corren", "en el parque", "corre"],
+         "en": "My brother and a friend run in the park.", "it": "Mio fratello e un amico corrono al parco.",
+         "hint": {"en": "Two people = ellos: corr- + -en.", "it": "Due persone = ellos: corr- + -en."}},
+        {"type": "write", "beat": "mix",
+         "instruction": {"en": "Talk about two people you know (mi ... y mi ...): what they do and when, temprano or tarde.",
+                         "it": "Parla di due persone che conosci (mi ... y mi ...): cosa fanno e quando, temprano o tarde."},
+         "required": ["mi", "y"],
+         "model": {"es": "Mi madre y mi hermana viven en {city} y corren en el parque temprano.",
+                   "en": "My mother and my sister live in {city} and run in the park early.",
+                   "it": "Mia madre e mia sorella vivono a {city} e corrono al parco presto."}}
+      ]
+    },
+
+    {
+      "id": "u2l3",
+      "goal": {"en": "Talk to a group of friends with vosotros, and to people you don't know with usted and ustedes.", "it": "Parla a un gruppo di amici con vosotros, e alle persone che non conosci con usted e ustedes."},
+      "target": {"es": "¿Vosotros habláis español? Habláis muy bien.", "en": "Do you all speak Spanish? You speak very well.", "it": "Voi parlate spagnolo? Parlate molto bene."},
+      "names": ["Ana", "Marta", "Madrid"],
+      "items": [
+        {"type": "words", "words": [
+          {"es": "vosotros", "en": "you all", "it": "voi", "kind": "ending"},
+          {"es": "vosotras", "en": "you all (all women)", "it": "voi (donne)", "kind": "ending"},
+          {"es": "usted", "en": "you (polite)", "it": "Lei", "kind": "ending"},
+          {"es": "ustedes", "en": "you all (polite)", "it": "voi (di cortesia), Loro", "kind": "ending"}
+        ]},
+        {"type": "words", "words": [
+          {"es": "bien", "en": "well", "it": "bene", "kind": "chunk"},
+          {"es": "muy", "en": "very", "it": "molto", "kind": "chunk"},
+          {"es": "¿verdad?", "en": "right?", "it": "vero?", "kind": "chunk"}
+        ]},
+
+        {"type": "explain",
+         "bricks": [{"text": "habl-", "kind": "stem"}, {"text": "-áis", "kind": "ending"}],
+         "result": {"stem": "habl", "ending": "áis"},
+         "rule": {"en": "In Spain, to talk to a group of friends you use vosotros. AR verbs end in -áis, with an accent.",
+                  "it": "In Spagna, per parlare a un gruppo di amici si usa vosotros. I verbi in AR finiscono in -áis, con l'accento."},
+         "examples": [
+           {"es": "Vosotros habláis muy bien.", "en": "You all speak very well.", "it": "Voi parlate molto bene."},
+           {"es": "¿Trabajáis juntos?", "en": "Do you work together?", "it": "Lavorate insieme?"}
+         ],
+         "teaches": [
+           {"es": "habláis", "en": "you all speak", "it": "parlate"},
+           {"es": "trabajáis", "en": "you all work", "it": "lavorate"},
+           {"es": "estudiáis", "en": "you all study", "it": "studiate"},
+           {"es": "cocináis", "en": "you all cook", "it": "cucinate"},
+           {"es": "viajáis", "en": "you all travel", "it": "viaggiate"},
+           {"es": "escucháis", "en": "you all listen to", "it": "ascoltate"},
+           {"es": "bailáis", "en": "you all dance", "it": "ballate"},
+           {"es": "compráis", "en": "you all buy", "it": "comprate"}
+         ]},
+        {"type": "snap", "beat": "forge", "person": "vosotros",
+         "prompt": {"en": "you all travel", "it": "viaggiate"},
+         "stems": ["com", "viaj", "viv"], "endings": ["amos", "an", "áis"],
+         "answer": {"stem": "viaj", "ending": "áis"},
+         "hint": {"en": "AR verbs: -áis with vosotros.", "it": "Verbi in AR: -áis con vosotros."}},
+        {"type": "gap", "beat": "forge", "before": "¿Vosotros ", "after": " en casa?", "label": "cocinar",
+         "accepted": ["cocináis"], "en": "Do you all cook at home?", "it": "Cucinate a casa?",
+         "hint": {"en": "cocin- + -áis, with the accent.", "it": "cocin- + -áis, con l'accento."}},
+
+        {"type": "explain",
+         "bricks": [{"text": "com-", "kind": "stem"}, {"text": "-éis", "kind": "ending"}, {"text": "viv-", "kind": "stem"}, {"text": "-ís", "kind": "ending"}],
+         "result": {"stem": "com", "ending": "éis"},
+         "rule": {"en": "ER verbs end in -éis and IR verbs in -ís for vosotros. Always with an accent.",
+                  "it": "Con vosotros, i verbi in ER finiscono in -éis e quelli in IR in -ís. Sempre con l'accento."},
+         "examples": [
+           {"es": "¿Coméis juntos hoy?", "en": "Are you eating together today?", "it": "Mangiate insieme oggi?"},
+           {"es": "¿Bebéis vino?", "en": "Do you drink wine?", "it": "Bevete vino?"},
+           {"es": "Vosotras vivís en Madrid, ¿verdad?", "en": "You live in Madrid, right?", "it": "Voi vivete a Madrid, vero?"}
+         ],
+         "teaches": [
+           {"es": "coméis", "en": "you all eat", "it": "mangiate"},
+           {"es": "bebéis", "en": "you all drink", "it": "bevete"},
+           {"es": "leéis", "en": "you all read", "it": "leggete"},
+           {"es": "aprendéis", "en": "you all learn", "it": "imparate"},
+           {"es": "corréis", "en": "you all run", "it": "correte"},
+           {"es": "vivís", "en": "you all live", "it": "vivete"},
+           {"es": "escribís", "en": "you all write", "it": "scrivete"},
+           {"es": "abrís", "en": "you all open", "it": "aprite"}
+         ]},
+        {"type": "snap", "beat": "forge", "person": "vosotros",
+         "prompt": {"en": "you all live", "it": "vivete"},
+         "stems": ["beb", "cocin", "viv"], "endings": ["áis", "éis", "ís"],
+         "answer": {"stem": "viv", "ending": "ís"},
+         "hint": {"en": "vivir is IR: -ís.", "it": "vivir è in IR: -ís."}},
+        {"type": "gap", "beat": "fire", "before": "¿Vosotras ", "after": " vino?", "label": "beber",
+         "accepted": ["bebéis"], "en": "Do you drink wine?", "it": "Bevete vino?",
+         "hint": {"en": "beber is ER: beb- + -éis.", "it": "beber è in ER: beb- + -éis."}},
+
+        {"type": "explain",
+         "bricks": [{"text": "usted", "kind": "ending"}, {"text": "= él", "kind": "chunk"}, {"text": "ustedes", "kind": "ending"}, {"text": "= ellos", "kind": "chunk"}],
+         "rule": {"en": "usted and ustedes are the polite 'you', for people you don't know. usted takes the él form; ustedes takes the ellos form.",
+                  "it": "usted e ustedes sono il 'Lei' e il 'voi' di cortesia, per chi non conosci. usted prende la forma di él; ustedes quella di ellos."},
+         "examples": [
+           {"es": "Usted vive aquí, ¿verdad?", "en": "You live here, right?", "it": "Lei vive qui, vero?"},
+           {"es": "¿Ustedes hablan español?", "en": "Do you speak Spanish?", "it": "Parlate spagnolo?"}
+         ]},
+        {"type": "choose", "beat": "forge", "before": "¿Ustedes ", "after": " en Madrid?",
+         "options": ["viven", "vivís", "vivimos"], "answer": "viven",
+         "en": "Do you live in Madrid? (polite)", "it": "Vivete a Madrid? (di cortesia)",
+         "hint": {"en": "ustedes takes the ellos form: -en.", "it": "ustedes prende la forma di ellos: -en."}},
+        {"type": "choose", "beat": "fire", "before": "Usted ", "after": " muy bien.",
+         "options": ["habla", "hablas", "habláis"], "answer": "habla",
+         "en": "You speak very well. (polite)", "it": "Lei parla molto bene.",
+         "hint": {"en": "usted takes the él form: -a.", "it": "usted prende la forma di él: -a."}},
+
+        {"type": "choose", "beat": "mix", "before": "Ana y Marta, ¿vosotras ", "after": " aquí?",
+         "options": ["trabajáis", "trabajan", "trabajamos"], "answer": "trabajáis",
+         "en": "Ana and Marta, do you work here?", "it": "Ana e Marta, lavorate qui?",
+         "hint": {"en": "Talking to two friends: vosotras, -áis.", "it": "Parli a due amiche: vosotras, -áis."}},
+        {"type": "snap", "beat": "mix", "person": "vosotros",
+         "prompt": {"en": "you all read", "it": "leggete"},
+         "stems": ["abr", "corr", "le"], "endings": ["áis", "éis", "ís"],
+         "answer": {"stem": "le", "ending": "éis"},
+         "hint": {"en": "leer is ER: le- + -éis.", "it": "leer è in ER: le- + -éis."}},
+        {"type": "build", "beat": "mix",
+         "intention": {"en": "You think two friends live here. Check with them.", "it": "Pensi che due amici vivano qui. Chiedi conferma."},
+         "accepted": ["Vivís aquí, ¿verdad?", "Vosotros vivís aquí, ¿verdad?", "Vosotras vivís aquí, ¿verdad?"],
+         "tiles": ["Vivís", "aquí,", "¿verdad?", "viven", "vivimos"],
+         "en": "You live here, right?", "it": "Vivete qui, vero?",
+         "hint": {"en": "Friends: vosotros, viv- + -ís; ¿verdad? goes at the end.", "it": "Amici: vosotros, viv- + -ís; ¿verdad? va alla fine."}},
+        {"type": "write", "beat": "mix",
+         "instruction": {"en": "You meet two new friends. Ask them two questions with vosotros: which language they speak and where they live.",
+                         "it": "Conosci due nuovi amici. Fagli due domande con vosotros: che lingua parlano e dove vivono."},
+         "required": ["vosotros", "dónde"],
+         "model": {"es": "¿Vosotros habláis español? ¿Dónde vivís?",
+                   "en": "Do you speak Spanish? Where do you live?",
+                   "it": "Voi parlate spagnolo? Dove vivete?"}}
+      ]
+    },
+
+    {
+      "id": "u2l4",
+      "goal": {"en": "Use el, la, los, las and unos, unas, and make words plural.", "it": "Usa el, la, los, las e unos, unas, e metti le parole al plurale."},
+      "target": {"es": "Quiero unas manzanas y un kilo de naranjas, por favor.", "en": "I'd like some apples and a kilo of oranges, please.", "it": "Vorrei delle mele e un chilo di arance, per favore."},
+      "names": ["Madrid"],
+      "items": [
+        {"type": "words", "words": [
+          {"es": "libro", "en": "book", "it": "libro", "kind": "chunk"},
+          {"es": "chico", "en": "boy, young man", "it": "ragazzo", "kind": "chunk"},
+          {"es": "chica", "en": "girl, young woman", "it": "ragazza", "kind": "chunk"},
+          {"es": "ciudad", "en": "city", "it": "città", "kind": "chunk"}
+        ]},
+        {"type": "words", "words": [
+          {"es": "manzana", "en": "apple", "it": "mela", "kind": "chunk"},
+          {"es": "naranja", "en": "orange", "it": "arancia", "kind": "chunk"},
+          {"es": "plátano", "en": "banana", "it": "banana", "kind": "chunk"}
+        ]},
+
+        {"type": "explain",
+         "bricks": [{"text": "el", "kind": "chunk"}, {"text": "chico", "kind": "chunk"}, {"text": "la", "kind": "chunk"}, {"text": "chica", "kind": "chunk"}],
+         "rule": {"en": "Every word is masculine or feminine. 'The' is el for masculine words (often -o) and la for feminine ones (often -a). ciudad is feminine: la ciudad.",
+                  "it": "Ogni parola è maschile o femminile. 'Il/la' si dice el per le maschili (spesso in -o) e la per le femminili (spesso in -a). ciudad è femminile: la ciudad."},
+         "examples": [
+           {"es": "El chico lee un libro.", "en": "The boy is reading a book.", "it": "Il ragazzo legge un libro."},
+           {"es": "La chica come una manzana.", "en": "The girl is eating an apple.", "it": "La ragazza mangia una mela."},
+           {"es": "Me gusta la ciudad.", "en": "I like the city.", "it": "Mi piace la città."}
+         ],
+         "teaches": [
+           {"es": "el", "en": "the (masculine)", "it": "il, lo"},
+           {"es": "la", "en": "the (feminine)", "it": "la"}
+         ]},
+        {"type": "choose", "beat": "forge", "before": "", "after": " chica vive en Madrid.",
+         "options": ["El", "La"], "answer": "La",
+         "en": "The girl lives in Madrid.", "it": "La ragazza vive a Madrid.",
+         "hint": {"en": "chica ends in -a: feminine, la.", "it": "chica finisce in -a: femminile, la."}},
+        {"type": "choose", "beat": "fire", "before": "Me gusta ", "after": " ciudad.",
+         "options": ["el", "la"], "answer": "la",
+         "en": "I like the city.", "it": "Mi piace la città.",
+         "hint": {"en": "ciudad is feminine, even without -a.", "it": "ciudad è femminile, anche se non finisce in -a."}},
+
+        {"type": "explain",
+         "bricks": [{"text": "libro", "kind": "chunk"}, {"text": "-s", "kind": "ending"}, {"text": "ciudad", "kind": "chunk"}, {"text": "-es", "kind": "ending"}],
+         "rule": {"en": "For more than one, add -s after a vowel and -es after a consonant. el becomes los, la becomes las.",
+                  "it": "Per il plurale, aggiungi -s dopo una vocale ed -es dopo una consonante. el diventa los, la diventa las."},
+         "examples": [
+           {"es": "Los chicos comen manzanas.", "en": "The boys eat apples.", "it": "I ragazzi mangiano mele."},
+           {"es": "Las chicas leen libros.", "en": "The girls read books.", "it": "Le ragazze leggono libri."},
+           {"es": "Me gusta viajar a las ciudades.", "en": "I like travelling to cities.", "it": "Mi piace viaggiare nelle città."}
+         ],
+         "teaches": [
+           {"es": "los", "en": "the (masculine plural)", "it": "i, gli"},
+           {"es": "las", "en": "the (feminine plural)", "it": "le"},
+           {"es": "libros", "en": "books", "it": "libri"},
+           {"es": "manzanas", "en": "apples", "it": "mele"},
+           {"es": "naranjas", "en": "oranges", "it": "arance"},
+           {"es": "plátanos", "en": "bananas", "it": "banane"},
+           {"es": "chicos", "en": "boys; guys", "it": "ragazzi"},
+           {"es": "chicas", "en": "girls", "it": "ragazze"},
+           {"es": "ciudades", "en": "cities", "it": "città"}
+         ]},
+        {"type": "choose", "beat": "forge", "before": "", "after": " chicas bailan.",
+         "options": ["Los", "Las", "La"], "answer": "Las",
+         "en": "The girls are dancing.", "it": "Le ragazze ballano.",
+         "hint": {"en": "Feminine and more than one: las.", "it": "Femminile e plurale: las."}},
+        {"type": "gap", "beat": "fire", "before": "Quiero un kilo de ", "after": ", por favor.", "label": "plátano",
+         "accepted": ["plátanos"], "en": "I'd like a kilo of bananas, please.", "it": "Vorrei un chilo di banane, per favore.",
+         "hint": {"en": "Ends in a vowel: add -s.", "it": "Finisce in vocale: aggiungi -s."}},
+
+        {"type": "explain",
+         "bricks": [{"text": "un → unos", "kind": "chunk"}, {"text": "una → unas", "kind": "chunk"}],
+         "rule": {"en": "un and una have plurals too: unos and unas mean some.",
+                  "it": "Anche un e una hanno il plurale: unos e unas vogliono dire dei, delle."},
+         "examples": [
+           {"es": "Quiero unas manzanas, por favor.", "en": "I'd like some apples, please.", "it": "Vorrei delle mele, per favore."},
+           {"es": "Unos chicos corren en el parque.", "en": "Some boys are running in the park.", "it": "Dei ragazzi corrono al parco."}
+         ],
+         "teaches": [
+           {"es": "unos", "en": "some (masculine)", "it": "dei, degli"},
+           {"es": "unas", "en": "some (feminine)", "it": "delle"}
+         ]},
+        {"type": "choose", "beat": "forge", "before": "Quiero ", "after": " naranjas, por favor.",
+         "options": ["unos", "unas", "un"], "answer": "unas",
+         "en": "I'd like some oranges, please.", "it": "Vorrei delle arance, per favore.",
+         "hint": {"en": "naranjas is feminine plural: unas.", "it": "naranjas è femminile plurale: unas."}},
+        {"type": "build", "beat": "fire",
+         "intention": {"en": "Say that some boys are running in the park.", "it": "Di' che dei ragazzi corrono al parco."},
+         "accepted": ["Unos chicos corren en el parque."],
+         "tiles": ["Unos", "chicos", "corren", "en el parque", "Unas", "corre"],
+         "en": "Some boys are running in the park.", "it": "Dei ragazzi corrono al parco.",
+         "hint": {"en": "chicos is masculine plural: unos; they run: corren.", "it": "chicos è maschile plurale: unos; loro corrono: corren."}},
+
+        {"type": "choose", "beat": "mix", "before": "Me gusta leer ", "after": " libros de mi madre.",
+         "options": ["los", "las", "el"], "answer": "los",
+         "en": "I like reading my mother's books.", "it": "Mi piace leggere i libri di mia madre.",
+         "hint": {"en": "libros is masculine plural: los.", "it": "libros è maschile plurale: los."}},
+        {"type": "build", "beat": "mix",
+         "intention": {"en": "At the market, ask the seller if they have oranges.", "it": "Al mercato, chiedi al venditore se ha delle arance."},
+         "accepted": ["¿Tiene naranjas?"],
+         "tiles": ["¿Tiene", "naranjas?", "naranja", "quiere"],
+         "en": "Do you have oranges?", "it": "Ha delle arance?",
+         "hint": {"en": "More than one orange: naranjas.", "it": "Più di un'arancia: naranjas."}},
+        {"type": "write", "beat": "mix",
+         "instruction": {"en": "At the fruit stall, ask for two kinds of fruit: some of one (unos/unas) and a kilo of another.",
+                         "it": "Al banco della frutta, chiedi due tipi di frutta: un po' di una (unos/unas) e un chilo di un'altra."},
+         "required": ["quiero", "un kilo de", "por favor"],
+         "model": {"es": "Quiero unas manzanas y un kilo de naranjas, por favor.",
+                   "en": "I'd like some apples and a kilo of oranges, please.",
+                   "it": "Vorrei delle mele e un chilo di arance, per favore."}}
+      ]
+    },
+
+    {
+      "id": "u2l5",
+      "goal": {"en": "Talk about your family and other people's with mi, tu, su and nuestro.", "it": "Parla della tua famiglia e di quella degli altri con mi, tu, su e nuestro."},
+      "target": {"es": "Mi hermana y su marido viven en {city} con sus hijos.", "en": "My sister and her husband live in {city} with their children.", "it": "Mia sorella e suo marito vivono a {city} con i loro figli."},
+      "names": ["Pablo", "Ana", "Madrid"],
+      "items": [
+        {"type": "words", "words": [
+          {"es": "familia", "en": "family", "it": "famiglia", "kind": "chunk"},
+          {"es": "padres", "en": "parents", "it": "genitori", "kind": "chunk"},
+          {"es": "hermanos", "en": "brothers and sisters", "it": "fratelli", "kind": "chunk"},
+          {"es": "hijo", "en": "son", "it": "figlio", "kind": "chunk"},
+          {"es": "hija", "en": "daughter", "it": "figlia", "kind": "chunk"}
+        ]},
+        {"type": "words", "words": [
+          {"es": "marido", "en": "husband", "it": "marito", "kind": "chunk"},
+          {"es": "mujer", "en": "wife; woman", "it": "moglie; donna", "kind": "chunk"},
+          {"es": "novio", "en": "boyfriend", "it": "fidanzato", "kind": "chunk"},
+          {"es": "novia", "en": "girlfriend", "it": "fidanzata", "kind": "chunk"}
+        ]},
+
+        {"type": "explain",
+         "bricks": [{"text": "mi / tu", "kind": "chunk"}, {"text": "-s", "kind": "ending"}, {"text": "mis / tus", "kind": "chunk"}],
+         "rule": {"en": "mi is my, tu is your. For more than one thing, add -s: mis, tus. Careful: tu (your) has no accent; tú (you) does.",
+                  "it": "mi vuol dire mio/mia, tu vuol dire tuo/tua. Al plurale aggiungi -s: mis, tus. Attenzione: tu (tuo) non ha l'accento; tú (tu) sì."},
+         "examples": [
+           {"es": "Mis padres viven en {city}.", "en": "My parents live in {city}.", "it": "I miei genitori vivono a {city}."},
+           {"es": "¿Tu novio habla español?", "en": "Does your boyfriend speak Spanish?", "it": "Il tuo fidanzato parla spagnolo?"},
+           {"es": "¿Dónde viven tus hermanos?", "en": "Where do your brothers and sisters live?", "it": "Dove vivono i tuoi fratelli?"}
+         ],
+         "teaches": [
+           {"es": "mis", "en": "my (plural)", "it": "miei, mie"},
+           {"es": "tu", "en": "your", "it": "tuo, tua"},
+           {"es": "tus", "en": "your (plural)", "it": "tuoi, tue"}
+         ]},
+        {"type": "choose", "beat": "forge", "before": "", "after": " padres viven en Madrid.",
+         "options": ["Mi", "Mis"], "answer": "Mis",
+         "en": "My parents live in Madrid.", "it": "I miei genitori vivono a Madrid.",
+         "hint": {"en": "padres is plural: mis.", "it": "padres è plurale: mis."}},
+        {"type": "choose", "beat": "fire", "before": "¿Dónde trabaja ", "after": " novia?",
+         "options": ["tu", "tus", "tú"], "answer": "tu",
+         "en": "Where does your girlfriend work?", "it": "Dove lavora la tua fidanzata?",
+         "hint": {"en": "One person, and 'your' has no accent: tu.", "it": "Una persona, e 'tuo/tua' non ha l'accento: tu."}},
+
+        {"type": "explain",
+         "bricks": [{"text": "su", "kind": "chunk"}, {"text": "-s", "kind": "ending"}, {"text": "sus", "kind": "chunk"}],
+         "rule": {"en": "su means his, her or their (and polite your). Add -s for more than one thing: sus.",
+                  "it": "su vuol dire suo, sua o loro (e anche il Suo di cortesia). Al plurale aggiungi -s: sus."},
+         "examples": [
+           {"es": "Ana y su marido viven aquí.", "en": "Ana and her husband live here.", "it": "Ana e suo marito vivono qui."},
+           {"es": "Pablo come con sus hijos.", "en": "Pablo eats with his children.", "it": "Pablo mangia con i suoi figli."}
+         ],
+         "teaches": [
+           {"es": "su", "en": "his, her, their; your (polite)", "it": "suo, sua; loro"},
+           {"es": "sus", "en": "his, her, their (plural)", "it": "suoi, sue; loro"},
+           {"es": "hijos", "en": "children (sons and daughters)", "it": "figli"}
+         ]},
+        {"type": "choose", "beat": "forge", "before": "Mi hermana y ", "after": " marido viven en Madrid.",
+         "options": ["su", "sus", "mi"], "answer": "su",
+         "en": "My sister and her husband live in Madrid.", "it": "Mia sorella e suo marito vivono a Madrid.",
+         "hint": {"en": "Her husband, just one: su.", "it": "Suo marito, uno solo: su."}},
+        {"type": "build", "beat": "fire",
+         "intention": {"en": "Say that Pablo lives with his children.", "it": "Di' che Pablo vive con i suoi figli."},
+         "accepted": ["Pablo vive con sus hijos."],
+         "tiles": ["Pablo", "vive", "con", "sus", "hijos", "su"],
+         "en": "Pablo lives with his children.", "it": "Pablo vive con i suoi figli.",
+         "hint": {"en": "His children, more than one: sus.", "it": "I suoi figli, più di uno: sus."}},
+
+        {"type": "explain",
+         "bricks": [{"text": "nuestr-", "kind": "stem"}, {"text": "-o / -a / -os / -as", "kind": "ending"}],
+         "rule": {"en": "nuestro (our) changes to match the thing, like an adjective: nuestro, nuestra, nuestros, nuestras. vuestro (your, for vosotros) works the same way.",
+                  "it": "nuestro (nostro) si accorda con la cosa posseduta, come un aggettivo: nuestro, nuestra, nuestros, nuestras. vuestro (vostro) funziona allo stesso modo."},
+         "examples": [
+           {"es": "Nuestra familia vive en {city}.", "en": "Our family lives in {city}.", "it": "La nostra famiglia vive a {city}."},
+           {"es": "Nuestros padres cocinan muy bien.", "en": "Our parents cook very well.", "it": "I nostri genitori cucinano molto bene."},
+           {"es": "¿Vuestra hija habla español?", "en": "Does your daughter speak Spanish?", "it": "Vostra figlia parla spagnolo?"}
+         ],
+         "teaches": [
+           {"es": "nuestro", "en": "our (masculine)", "it": "nostro"},
+           {"es": "nuestra", "en": "our (feminine)", "it": "nostra"},
+           {"es": "nuestros", "en": "our (masc. plural)", "it": "nostri"},
+           {"es": "nuestras", "en": "our (fem. plural)", "it": "nostre"},
+           {"es": "vuestro", "en": "your (you all, masculine)", "it": "vostro"},
+           {"es": "vuestra", "en": "your (you all, feminine)", "it": "vostra"}
+         ]},
+        {"type": "choose", "beat": "forge", "before": "", "after": " familia vive en {city}.",
+         "options": ["Nuestro", "Nuestra", "Nuestros"], "answer": "Nuestra",
+         "en": "Our family lives in {city}.", "it": "La nostra famiglia vive a {city}.",
+         "hint": {"en": "familia is feminine and only one: nuestra.", "it": "familia è femminile e singolare: nuestra."}},
+        {"type": "choose", "beat": "fire", "before": "Mi hermano y yo: ", "after": " padres trabajan mucho.",
+         "options": ["nuestros", "nuestras", "nuestro"], "answer": "nuestros",
+         "en": "My brother and me: our parents work a lot.", "it": "Io e mio fratello: i nostri genitori lavorano molto.",
+         "hint": {"en": "padres is masculine plural: nuestros.", "it": "padres è maschile plurale: nuestros."}},
+
+        {"type": "gap", "beat": "mix", "before": "Mis hermanos y yo vivimos con ", "after": " padres.", "label": "nuestro",
+         "accepted": ["nuestros"], "en": "My brothers and sisters and I live with our parents.", "it": "Io e i miei fratelli viviamo con i nostri genitori.",
+         "hint": {"en": "Our parents: masculine plural, nuestros.", "it": "I nostri genitori: maschile plurale, nuestros."}},
+        {"type": "build", "beat": "mix",
+         "intention": {"en": "Ask a friend what their sister's name is.", "it": "Chiedi a un amico come si chiama sua sorella."},
+         "accepted": ["¿Cómo se llama tu hermana?"],
+         "tiles": ["¿Cómo", "se llama", "tu", "hermana?", "tus", "te llamas"],
+         "en": "What's your sister's name?", "it": "Come si chiama tua sorella?",
+         "hint": {"en": "She is called: se llama; your sister, one: tu.", "it": "Lei si chiama: se llama; tua sorella, una: tu."}},
+        {"type": "choose", "beat": "mix", "before": "Pablo y Ana viven con ", "after": " hijos.",
+         "options": ["su", "sus", "nuestros"], "answer": "sus",
+         "en": "Pablo and Ana live with their children.", "it": "Pablo e Ana vivono con i loro figli.",
+         "hint": {"en": "Their children, more than one: sus.", "it": "I loro figli, più di uno: sus."}},
+        {"type": "write", "beat": "mix",
+         "instruction": {"en": "Introduce your family: say where they live and what one of them is called. Use mi or mis, and se llama.",
+                         "it": "Presenta la tua famiglia: di' dove vivono e come si chiama uno di loro. Usa mi o mis, e se llama."},
+         "required": ["se llama"],
+         "model": {"es": "Mis padres viven en {city}. Mi hermana se llama Ana y vive en Madrid con su novio.",
+                   "en": "My parents live in {city}. My sister is called Ana and she lives in Madrid with her boyfriend.",
+                   "it": "I miei genitori vivono a {city}. Mia sorella si chiama Ana e vive a Madrid con il suo fidanzato."}}
+      ]
+    }
+  ],
+
+  "boss": {
+    "id": "u2boss",
+    "goal": {"en": "You're hosting dinner at home. Your friends Ana and Pablo don't know each other yet: introduce them, chat, and raise a glass.",
+             "it": "Hai invitato degli amici a cena a casa tua. Ana e Pablo non si conoscono ancora: presentali, chiacchierate e fate un brindisi."},
+    "target": {"es": "Se llama Pablo. Vive en Madrid, pero trabaja aquí.", "en": "His name is Pablo. He lives in Madrid, but he works here.", "it": "Si chiama Pablo. Vive a Madrid, ma lavora qui."},
+    "names": ["Ana", "Pablo", "Madrid", "Roma"],
+    "items": [
+      {"type": "words", "words": [
+        {"es": "encantado", "en": "nice to meet you (said by a man)", "it": "piacere (detto da un uomo)", "kind": "chunk"},
+        {"es": "encantada", "en": "nice to meet you (said by a woman)", "it": "piacere (detto da una donna)", "kind": "chunk"},
+        {"es": "la cena", "en": "dinner", "it": "la cena", "kind": "chunk"},
+        {"es": "¡salud!", "en": "cheers!", "it": "salute!", "kind": "chunk"}
+      ]},
+      {"type": "build", "beat": "fire",
+       "intention": {"en": "Ana whispers: «¿Cómo se llama tu amigo?» Tell her his name.", "it": "Ana sussurra: «¿Cómo se llama tu amigo?» Dille come si chiama."},
+       "accepted": ["Se llama Pablo.", "Mi amigo se llama Pablo."],
+       "tiles": ["Se llama", "Pablo", "Me llamo", "Ana"],
+       "en": "His name is Pablo.", "it": "Si chiama Pablo.",
+       "hint": {"en": "About him: se llama.", "it": "Parli di lui: se llama."}},
+      {"type": "choose", "beat": "fire", "before": "Pablo: ¡", "after": ", Ana!",
+       "options": ["Encantado", "Encantada"], "answer": "Encantado",
+       "en": "Pablo: Nice to meet you, Ana!", "it": "Pablo: Piacere, Ana!",
+       "hint": {"en": "Pablo is a man: encantado.", "it": "Pablo è un uomo: encantado."}},
+      {"type": "choose", "beat": "fire", "before": "Ana: ¡", "after": ", Pablo!",
+       "options": ["Encantado", "Encantada"], "answer": "Encantada",
+       "en": "Ana: Nice to meet you, Pablo!", "it": "Ana: Piacere, Pablo!",
+       "hint": {"en": "Ana is a woman: encantada.", "it": "Ana è una donna: encantada."}},
+      {"type": "build", "beat": "fire",
+       "intention": {"en": "Tell Ana that Pablo lives in Madrid, but works here.", "it": "Di' ad Ana che Pablo vive a Madrid, ma lavora qui."},
+       "accepted": ["Pablo vive en Madrid, pero trabaja aquí.", "Vive en Madrid, pero trabaja aquí."],
+       "tiles": ["Pablo", "vive", "en", "Madrid,", "pero", "trabaja", "aquí", "porque"],
+       "en": "Pablo lives in Madrid, but he works here.", "it": "Pablo vive a Madrid, ma lavora qui.",
+       "hint": {"en": "pero joins the two ideas; Pablo is él: -e, -a.", "it": "pero unisce le due idee; Pablo è él: -e, -a."}},
+      {"type": "choose", "beat": "fire", "before": "Ana: ¿Trabajáis juntos? Tú: Sí, ", "after": " juntos.",
+       "options": ["trabajamos", "trabajáis", "trabajan"], "answer": "trabajamos",
+       "en": "Ana: Do you work together? You: Yes, we work together.", "it": "Ana: Lavorate insieme? Tu: Sì, lavoriamo insieme.",
+       "hint": {"en": "She asks with vosotros; you answer with nosotros: -amos.", "it": "Lei chiede con vosotros; tu rispondi con nosotros: -amos."}},
+      {"type": "gap", "beat": "fire", "before": "Pablo: ¿Y vosotras? ¿Dónde vivís? Tú: Ana y yo ", "after": " en {city}.", "label": "vivir",
+       "accepted": ["vivimos"], "en": "Pablo: And you two? Where do you live? You: Ana and I live in {city}.", "it": "Pablo: E voi? Dove vivete? Tu: Io e Ana viviamo a {city}.",
+       "hint": {"en": "Ana y yo = nosotros: viv- + -imos.", "it": "Ana y yo = nosotros: viv- + -imos."}},
+      {"type": "build", "beat": "fire",
+       "intention": {"en": "Dinner is ready. Ask your two friends if they eat pizza.", "it": "La cena è pronta. Chiedi ai tuoi due amici se mangiano la pizza."},
+       "accepted": ["¿Coméis pizza?", "¿Vosotros coméis pizza?"],
+       "tiles": ["¿Coméis", "pizza?", "Comen", "vino"],
+       "en": "Do you eat pizza?", "it": "Mangiate la pizza?",
+       "hint": {"en": "Two friends: vosotros, com- + -éis.", "it": "Due amici: vosotros, com- + -éis."}},
+      {"type": "choose", "beat": "fire", "before": "Ana: ¡Me gusta la cena! Tú: Gracias. Pablo y ", "after": " novia cocinan muy bien.",
+       "options": ["su", "sus", "tu"], "answer": "su",
+       "en": "Ana: I like the dinner! You: Thanks. Pablo and his girlfriend cook very well.", "it": "Ana: Mi piace la cena! Tu: Grazie. Pablo e la sua fidanzata cucinano molto bene.",
+       "hint": {"en": "His girlfriend, one person: su.", "it": "La sua fidanzata, una persona: su."}},
+      {"type": "build", "beat": "fire",
+       "intention": {"en": "Pablo asks about Ana's family. Tell him her parents live in Rome.", "it": "Pablo chiede della famiglia di Ana. Digli che i suoi genitori vivono a Roma."},
+       "accepted": ["Sus padres viven en Roma."],
+       "tiles": ["Sus", "padres", "viven", "en", "Roma", "Su", "vive"],
+       "en": "Her parents live in Rome.", "it": "I suoi genitori vivono a Roma.",
+       "hint": {"en": "Her parents, more than one: sus; they live: viven.", "it": "I suoi genitori, più di uno: sus; vivono: viven."}},
+      {"type": "choose", "beat": "fire", "before": "Todos juntos: ¡", "after": "!",
+       "options": ["Salud", "Adiós", "Gracias"], "answer": "Salud",
+       "en": "All together: Cheers!", "it": "Tutti insieme: Salute!",
+       "hint": {"en": "Raising a glass: ¡salud!", "it": "Per brindare: ¡salud!"}},
+      {"type": "write", "beat": "mix",
+       "instruction": {"en": "Another friend arrives late. Introduce Ana to him: her name, where she lives and what she does.",
+                       "it": "Arriva un altro amico in ritardo. Presentagli Ana: come si chiama, dove vive e cosa fa."},
+       "required": ["se llama", "vive en"],
+       "model": {"es": "Ella se llama Ana. Vive en {city} y habla español muy bien.",
+                 "en": "Her name is Ana. She lives in {city} and speaks Spanish very well.",
+                 "it": "Si chiama Ana. Vive a {city} e parla spagnolo molto bene."}}
+    ]
+  }
+}
