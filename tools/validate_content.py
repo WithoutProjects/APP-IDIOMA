@@ -225,7 +225,7 @@ def main(selected):
     curriculum = json.loads((CONTENT / "curriculum.json").read_text())
     plan = json.loads(PLAN.read_text()) if PLAN.exists() else {}
     checker = Checker()
-    units = [u for level in curriculum["levels"] for u in level["units"]][:10]
+    units = [u for level in curriculum["levels"] for u in level["units"]]
     for unit in units:
         uid = unit["id"]
         path = CONTENT / f"lessons-{uid}.json"
