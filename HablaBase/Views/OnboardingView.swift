@@ -4,13 +4,13 @@ import SwiftUI
 struct OnboardingView: View {
     @EnvironmentObject private var store: AppStore
     @State private var draft = Profile(name: "", city: "", workplace: .oficina,
-                                       nativeLanguage: .english, goal: .travel, dailyMinutes: 10)
+                                       nativeLanguage: .deviceDefault, goal: .travel, dailyMinutes: 10)
 
     var body: some View {
         NavigationStack {
             ProfileForm(profile: $draft)
                 .safeAreaInset(edge: .bottom) {
-                    Button("Empezar") { store.completeOnboarding(cleaned) }
+                    Button("Start") { store.completeOnboarding(cleaned) }
                         .buttonStyle(PrimaryButtonStyle())
                         .disabled(!isValid)
                         .opacity(isValid ? 1 : 0.4)
@@ -40,7 +40,7 @@ struct ProfileForm: View {
     var body: some View {
         Form {
             Section {
-                Picker("I speak", selection: $profile.nativeLanguage) {
+                Picker("Translations in", selection: $profile.nativeLanguage) {
                     ForEach(NativeLanguage.allCases) { Text($0.label).tag($0) }
                 }
                 Picker("Goal", selection: $profile.goal) {

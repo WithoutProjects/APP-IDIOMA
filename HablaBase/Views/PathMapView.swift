@@ -34,11 +34,11 @@ struct PathMapView: View {
                     PathNodeRow(id: level.checkpoint.id, title: level.checkpoint.title,
                                 subtitle: level.checkpoint.gloss.text(store.language), kind: .checkpoint)
                 } header: {
-                    Text("Nivel \(level.number) · \(level.name) · \(level.cefr)")
+                    Text("Level \(level.number) · \(level.name) · \(level.cefr)")
                 }
             }
         }
-        .navigationTitle("Recorrido A0–C2")
+        .navigationTitle("Full path: A0–C2")
         .fullScreenCover(item: $activeLesson) { lesson in
             LessonView(lesson: lesson)
                 .environmentObject(store)
@@ -53,9 +53,10 @@ struct PathMapView: View {
         let done = steps.filter { store.isCompleted($0) }.count
         return VStack(alignment: .leading, spacing: 2) {
             HStack {
-                Text("Unidad \(unit.number) · \(unit.title)").font(.body.weight(.semibold))
+                Text("Unit \(unit.number) · \(unit.title)").font(.body.weight(.semibold))
                 Spacer()
                 Text("\(done)/\(steps.count)").font(.caption).foregroundStyle(.secondary)
+                    .accessibilityLabel("\(done) of \(steps.count) steps done")
             }
             Text(unit.grammar.joined(separator: " · "))
                 .font(.caption)

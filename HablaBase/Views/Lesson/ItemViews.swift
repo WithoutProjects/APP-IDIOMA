@@ -19,12 +19,16 @@ struct VocabSlidesView: View {
                 ForEach(Array(set.words.enumerated()), id: \.offset) { index, word in
                     VStack(spacing: 14) {
                         Text(word.es)
-                            .font(.system(size: 40, weight: .bold, design: .rounded))
+                            .font(.system(.largeTitle, design: .rounded).weight(.bold))
+                            .multilineTextAlignment(.center)
+                            .minimumScaleFactor(0.6)
                             .foregroundStyle(word.kind.color)
                         Text(word.gloss.text(language))
                             .font(.title2)
                             .foregroundStyle(.secondary)
+                            .multilineTextAlignment(.center)
                     }
+                    .padding()
                     .frame(maxWidth: .infinity, maxHeight: .infinity)
                     .background(RoundedRectangle(cornerRadius: 24).fill(Palette.card))
                     .padding(.horizontal, 4)
@@ -36,7 +40,7 @@ struct VocabSlidesView: View {
             .indexViewStyle(.page(backgroundDisplayMode: .always))
             .frame(height: 280)
 
-            Button(page < set.words.count - 1 ? "Next" : "Practise these words") {
+            Button(page < set.words.count - 1 ? String(localized: "Next") : String(localized: "Practise these words")) {
                 if page < set.words.count - 1 {
                     withAnimation { page += 1 }
                 } else {
@@ -103,6 +107,7 @@ struct VocabMatchView: View {
         .buttonStyle(.plain)
         .opacity(done ? 0.25 : 1)
         .disabled(done)
+        .accessibilityAddTraits(highlighted ? .isSelected : [])
     }
 
     private func pick(_ translation: VocabWord) {
@@ -144,12 +149,12 @@ struct FrameCardView: View {
             FlowLayout(spacing: 10) {
                 ForEach(Array(card.bricks.enumerated()), id: \.offset) { index, brick in
                     if index > 0 {
-                        Text("+").font(.title2.bold())
+                        Text(verbatim: "+").font(.title2.bold())
                     }
                     BrickView(text: brick.text, kind: brick.kind)
                 }
                 if let result = card.result {
-                    Text("=").font(.title2.bold())
+                    Text(verbatim: "=").font(.title2.bold())
                     ColoredForm(form: result, font: .title.bold())
                         .opacity(snapped ? 1 : 0)
                         .scaleEffect(snapped ? 1 : 0.6)
@@ -195,6 +200,7 @@ struct LegoSnapView: View {
         VStack(alignment: .leading, spacing: 24) {
             HStack {
                 Image(systemName: "person.fill")
+                    .accessibilityHidden(true)
                 Text(snap.person.label).font(.headline)
             }
             .padding(.horizontal, 14)
@@ -206,10 +212,10 @@ struct LegoSnapView: View {
 
             HStack(spacing: 10) {
                 BrickView(text: stem.map { $0 + "-" } ?? "?", kind: .stem, isGhost: stem == nil)
-                Text("+").font(.title2.bold())
+                Text(verbatim: "+").font(.title2.bold())
                 BrickView(text: ending.map { "-" + $0 } ?? "?", kind: .ending, isGhost: ending == nil)
                 if let stem, let ending {
-                    Text("=").font(.title2.bold())
+                    Text(verbatim: "=").font(.title2.bold())
                     ColoredForm(form: VerbForm(stem: stem, ending: ending), font: .title2.bold())
                 }
             }
@@ -229,15 +235,16 @@ struct LegoSnapView: View {
         }
     }
 
-    private func tray(_ title: String, items: [String], kind: Brick, selected: String?, pick: @escaping (String) -> Void) -> some View {
+    private func tray(_ title: LocalizedStringKey, items: [String], kind: Brick, selected: String?, pick: @escaping (String) -> Void) -> some View {
         VStack(alignment: .leading, spacing: 8) {
             Text(title).font(.caption.weight(.bold)).foregroundStyle(.secondary)
-            HStack(spacing: 8) {
+            FlowLayout(spacing: 8) {
                 ForEach(items, id: \.self) { item in
                     Button { pick(item) } label: {
                         BrickView(text: kind == .stem ? item + "-" : "-" + item, kind: kind, isGhost: selected != item)
                     }
                     .buttonStyle(.plain)
+                    .accessibilityAddTraits(selected == item ? .isSelected : [])
                 }
             }
         }
@@ -248,9 +255,12 @@ struct LegoSnapView: View {
         if stem == snap.answer.stem && ending == snap.answer.ending {
             onSubmit(.correct)
         } else if stem != snap.answer.stem, let other = Unit1.verbs.first(where: { $0.stem == stem }) {
-            onSubmit(.wrong(hint: "\(stem)- means \u{201C}\(other.meaning.text(language))\u{201D}. Find the stem for \u{201C}\(snap.prompt.text(language))\u{201D}."))
+            let meaning = other.meaning.text(language), goal = snap.prompt.text(language)
+            onSubmit(.wrong(hint: Gloss(en: "\(stem)- means \u{201C}\(meaning)\u{201D}. Find the stem for \u{201C}\(goal)\u{201D}.",
+                                        it: "\(stem)- significa \u{201C}\(meaning)\u{201D}. Trova la radice per \u{201C}\(goal)\u{201D}.").text(language)))
         } else {
-            onSubmit(.wrong(hint: "With \(snap.person.label), the ending is -\(snap.answer.ending)."))
+            onSubmit(.wrong(hint: Gloss(en: "With \(snap.person.label), the ending is -\(snap.answer.ending).",
+                                        it: "Con \(snap.person.label), la desinenza è -\(snap.answer.ending).").text(language)))
         }
     }
 }
@@ -267,11 +277,11 @@ struct GapFillView: View {
 
     var body: some View {
         VStack(alignment: .leading, spacing: 24) {
-            Text(language == .english ? "Complete the sentence." : "Completa la frase.")
+            Text("Complete the sentence.")
                 .font(.title2.weight(.semibold))
 
             VStack(alignment: .leading, spacing: 8) {
-                (Text(gap.before) + Text("_____").foregroundColor(Brick.ending.color) + Text(gap.after))
+                (Text(gap.before) + Text(verbatim: "_____").foregroundColor(Brick.ending.color) + Text(gap.after))
                     .font(.title3.weight(.medium))
                 Text(gap.gloss.text(language))
                     .font(.footnote)
@@ -396,8 +406,10 @@ struct FreeWriteView: View {
             Button("Check") {
                 focused = false
                 if let missing = Grader.missingChunk(in: text, required: write.requiredChunks) {
-                    let hint = missing == "y" ? "Join the parts with y." : "Missing: \u{201C}\(missing)\u{201D}"
-                    onSubmit(.wrong(hint: hint))
+                    let hint = missing == "y"
+                        ? Gloss(en: "Join the parts with y.", it: "Unisci le parti con y.")
+                        : Gloss(en: "Missing: \u{201C}\(missing)\u{201D}", it: "Manca: \u{201C}\(missing)\u{201D}")
+                    onSubmit(.wrong(hint: hint.text(language)))
                 } else {
                     onSubmit(.correct)
                 }

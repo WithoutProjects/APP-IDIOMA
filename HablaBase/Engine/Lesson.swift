@@ -5,15 +5,15 @@ import Foundation
 enum Beat: String {
     case words, frame, forge, fire, mix, fix, test
 
+    /// The small label above each item, in the learner's interface language.
     var title: String {
         switch self {
-        case .words: return "Vocabulario"
-        case .frame: return "Frame"
-        case .forge: return "Forge"
-        case .fire: return "Fire"
-        case .mix: return "Mix"
-        case .fix: return "Fix"
-        case .test: return "Test"
+        case .words: return String(localized: "New words")
+        case .frame: return String(localized: "How it works")
+        case .forge, .fire: return String(localized: "Practice")
+        case .mix: return String(localized: "Mix")
+        case .fix: return String(localized: "Second chance")
+        case .test: return String(localized: "Unit test")
         }
     }
 }

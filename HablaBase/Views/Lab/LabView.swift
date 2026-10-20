@@ -32,41 +32,47 @@ struct LabView: View {
     private func door(title: String, detail: Gloss, icon: String, color: Color) -> some View {
         HStack(spacing: 16) {
             Image(systemName: icon)
-                .font(.system(size: 34))
+                .font(.largeTitle)
                 .frame(width: 56)
+                .accessibilityHidden(true)
             VStack(alignment: .leading, spacing: 4) {
                 Text(title).font(.title2.bold())
                 Text(detail.text(store.language)).font(.subheadline).opacity(0.9)
             }
             Spacer()
             Image(systemName: "chevron.right")
+                .accessibilityHidden(true)
         }
         .foregroundStyle(.white)
         .padding(24)
         .frame(maxWidth: .infinity, minHeight: 130)
         .background(RoundedRectangle(cornerRadius: 24, style: .continuous).fill(color.gradient))
+        .accessibilityElement(children: .combine)
     }
 }
 
-/// "Jugar": the minigames, each opening at its point on the path.
+/// "Jugar": the minigames that are ready, each opening at its point on the path.
 struct GamesView: View {
     @EnvironmentObject private var store: AppStore
 
     var body: some View {
-        List(LabGame.all) { game in
-            let unlocked = store.isCompleted(game.unlockedBy)
-            if unlocked && game.isBuilt {
+        List(LabGame.built) { game in
+            if store.isCompleted(game.unlockedBy) {
                 NavigationLink {
                     PairsGameView()
                 } label: {
                     row(game, status: nil)
                 }
             } else {
-                row(game, status: game.isBuilt ? "Opens at \(game.unlockLabel)" : "Coming soon · \(game.unlockLabel)")
+                row(game, status: String(localized: "Opens after \u{201C}\(unlockTitle(game))\u{201D}"))
                     .opacity(0.55)
             }
         }
         .navigationTitle("Jugar")
+    }
+
+    private func unlockTitle(_ game: LabGame) -> String {
+        Curriculum.sharedPath.first { $0.id == game.unlockedBy }?.title ?? game.unlockedBy
     }
 
     private func row(_ game: LabGame, status: String?) -> some View {
@@ -75,6 +81,7 @@ struct GamesView: View {
                 .font(.title2)
                 .foregroundStyle(Brick.ending.color)
                 .frame(width: 36)
+                .accessibilityHidden(true)
             VStack(alignment: .leading, spacing: 2) {
                 Text(game.title).font(.headline)
                 Text(game.gloss.text(store.language)).font(.subheadline).foregroundStyle(.secondary)
@@ -84,5 +91,6 @@ struct GamesView: View {
             }
         }
         .padding(.vertical, 6)
+        .accessibilityElement(children: .combine)
     }
 }

@@ -22,7 +22,7 @@ struct PairsGameView: View {
             } else if round < rounds.count {
                 ProgressView(value: Double(round), total: Double(rounds.count))
                     .tint(Brick.ending.color)
-                Text(store.language == .english ? "Match each verb to its person." : "Abbina ogni verbo alla sua persona.")
+                Text("Match each verb to its person.")
                     .font(.headline)
                 HStack(alignment: .top, spacing: 16) {
                     VStack(spacing: 12) {
@@ -60,6 +60,8 @@ struct PairsGameView: View {
         .buttonStyle(.plain)
         .opacity(done ? 0.2 : 1)
         .disabled(done)
+        .accessibilityLabel(card.form.text)
+        .accessibilityAddTraits(isSelected ? .isSelected : [])
     }
 
     private func personCard(_ person: Person) -> some View {
@@ -135,9 +137,10 @@ struct PairsGameView: View {
             Image(systemName: mistakes == 0 ? "star.circle.fill" : "checkmark.circle.fill")
                 .font(.system(size: 64))
                 .foregroundStyle(mistakes == 0 ? .yellow : Palette.success)
+                .accessibilityHidden(true)
             Text(mistakes == 0 ? "¡Perfecto!" : "¡Bien hecho!")
                 .font(.title.bold())
-            Text("\(matched.count) pairs · \(mistakes) mistakes · \(seconds) s · +\(xp) XP")
+            Text("Pairs: \(matched.count) · Mistakes: \(mistakes) · \(seconds) s · +\(xp) XP")
                 .foregroundStyle(.secondary)
             Spacer()
             Button("Play again") {

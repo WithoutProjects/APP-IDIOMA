@@ -24,10 +24,10 @@ struct TablesView: View {
     private var rack: some View {
         let unlocked = Unit1.unlockedPersons(completed: store.state.completedLessons)
         return VStack(alignment: .leading, spacing: 10) {
-            Text("PRESENTE RACK").font(.caption.weight(.bold)).foregroundStyle(.secondary)
+            Text("Present tense").textCase(.uppercase).font(.caption.weight(.bold)).foregroundStyle(.secondary)
             Grid(horizontalSpacing: 6, verticalSpacing: 6) {
                 GridRow {
-                    Text("")
+                    Color.clear.frame(width: 1, height: 1)
                     ForEach(rackPersons) { person in
                         Text(person.label).font(.caption.weight(.semibold))
                     }
@@ -67,10 +67,10 @@ struct TablesView: View {
         let verb = Unit1.verb(benchLemma)
         let form = Conjugator.conjugate(verb, .presente, benchPerson)
         return VStack(alignment: .leading, spacing: 14) {
-            Text("LEGO BENCH").font(.caption.weight(.bold)).foregroundStyle(.secondary)
+            Text("Lego bench").textCase(.uppercase).font(.caption.weight(.bold)).foregroundStyle(.secondary)
             Picker("Verb", selection: $benchLemma) {
                 ForEach(Unit1.coreVerbs) { verb in
-                    Text("\(verb.lemma) · \(verb.meaning.text(store.language))").tag(verb.lemma)
+                    Text(verbatim: "\(verb.lemma) · \(verb.meaning.text(store.language))").tag(verb.lemma)
                 }
             }
             .pickerStyle(.menu)
@@ -78,6 +78,7 @@ struct TablesView: View {
                 HStack {
                     ForEach(Person.allCases) { person in
                         Button(person.label) { benchPerson = person }
+                            .accessibilityAddTraits(person == benchPerson ? .isSelected : [])
                             .buttonStyle(.bordered)
                             .tint(person == benchPerson ? Brick.ending.color : .secondary)
                     }
@@ -85,9 +86,9 @@ struct TablesView: View {
             }
             HStack(spacing: 10) {
                 BrickView(text: form.stem + "-", kind: .stem)
-                Text("+").font(.title2.bold())
+                Text(verbatim: "+").font(.title2.bold())
                 BrickView(text: "-" + form.ending, kind: .ending)
-                Text("=").font(.title2.bold())
+                Text(verbatim: "=").font(.title2.bold())
                 ColoredForm(form: form, font: .title2.bold())
             }
             .frame(maxWidth: .infinity)

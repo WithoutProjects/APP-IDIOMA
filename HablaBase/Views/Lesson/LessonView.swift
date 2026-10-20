@@ -48,6 +48,7 @@ struct LessonView: View {
                 Image(systemName: "xmark").font(.headline)
             }
             .tint(.secondary)
+            .frame(minWidth: 44, minHeight: 44)
             .accessibilityLabel("Close lesson")
             ProgressView(value: finished ? 1 : session.progress)
                 .tint(Palette.success)
@@ -134,14 +135,14 @@ struct FeedbackBar: View {
         switch feedback.outcome {
         case .correct: return "¡Perfecto!"
         case .accent: return "¡Casi perfecto!"
-        case .wrong: return "Not quite"
+        case .wrong: return String(localized: "Not quite")
         }
     }
 
     private var note: String? {
         switch feedback.outcome {
         case .correct: return nil
-        case .accent(let expected): return "Watch the accents: \(expected)"
+        case .accent(let expected): return String(localized: "Watch the accents: \(expected)")
         case .wrong(let hint): return hint
         }
     }
@@ -161,6 +162,7 @@ struct LessonCompleteView: View {
             Spacer()
             Image(systemName: testPassed == false ? "arrow.counterclockwise.circle.fill" : "trophy.fill")
                 .font(.system(size: 64))
+                .accessibilityHidden(true)
                 .foregroundStyle(testPassed == false ? Brick.stem.color : .yellow)
             Text(headline)
                 .font(.title.bold())
@@ -195,12 +197,12 @@ struct LessonCompleteView: View {
     private var detail: String {
         switch testPassed {
         case .none: return lesson.title
-        case .some(true): return "You can jump to the next unit."
-        case .some(false): return "You need \(Lesson.testPassMark) of \(Lesson.testQuestions). The lessons will get you there."
+        case .some(true): return String(localized: "You can jump to the next unit.")
+        case .some(false): return String(localized: "You need \(Lesson.testPassMark) of \(Lesson.testQuestions). The lessons will get you there.")
         }
     }
 
-    private func stat(_ value: String, _ label: String) -> some View {
+    private func stat(_ value: String, _ label: LocalizedStringKey) -> some View {
         VStack {
             Text(value).font(.title2.bold())
             Text(label).font(.caption).foregroundStyle(.secondary)
@@ -208,5 +210,6 @@ struct LessonCompleteView: View {
         .frame(width: 110)
         .padding(.vertical, 14)
         .background(RoundedRectangle(cornerRadius: 14).fill(Palette.card))
+        .accessibilityElement(children: .combine)
     }
 }

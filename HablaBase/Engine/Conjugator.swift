@@ -13,6 +13,11 @@ enum NativeLanguage: String, Codable, CaseIterable, Identifiable {
         }
     }
 
+    /// Italian when the device is in Italian, English otherwise.
+    static var deviceDefault: NativeLanguage {
+        Locale.current.language.languageCode == .italian ? .italian : .english
+    }
+
     /// How the learner names their own language in Spanish ("Hablo italiano").
     var spanishName: String {
         switch self {

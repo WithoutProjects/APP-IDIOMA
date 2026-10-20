@@ -24,8 +24,6 @@ struct RootView: View {
                     .tabItem { Label("Path", systemImage: "map") }
                 LabView()
                     .tabItem { Label("Lab", systemImage: "square.stack.3d.up") }
-                TalkView()
-                    .tabItem { Label("Talk", systemImage: "bubble.left.and.bubble.right") }
                 ProfileView()
                     .tabItem { Label("Profile", systemImage: "person.crop.circle") }
             }
