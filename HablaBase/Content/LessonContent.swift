@@ -57,8 +57,9 @@ enum LessonContent {
         return Lesson(
             id: "\(unitId)test",
             title: unit.test.title,
-            titleGloss: Gloss(en: "Unit \(unit.number) test", it: "Test dell'unità \(unit.number)"),
-            goal: Gloss(en: "Get 8 out of 10 right to skip the unit.", it: "Rispondi bene a 8 domande su 10 per saltare l'unità."),
+            titleGloss: Gloss(en: "Unit \(unit.number) test", it: "Test dell'unità \(unit.number)", uk: "Тест розділу \(unit.number)"),
+            goal: Gloss(en: "Get 8 out of 10 right to skip the unit.", it: "Rispondi bene a 8 domande su 10 per saltare l'unità.",
+                       uk: "Дай 8 правильних відповідей із 10, щоб пропустити розділ."),
             mode: .unitTest(unitId: unitId),
             items: items.shuffled(using: &rng)
         )
@@ -103,20 +104,24 @@ struct ContentFile: Decodable {
 struct GlossSpec: Decodable {
     let en: String
     let it: String
+    /// Required by tools/validate_content.py; English stands in if one is ever missing.
+    let uk: String?
 
-    var gloss: Gloss { Gloss(en: en, it: it) }
+    var gloss: Gloss { Gloss(en: en, it: it, uk: uk ?? en) }
 }
 
 struct ExampleSpec: Decodable {
     let es: String
     let en: String
     let it: String
+    let uk: String?
 }
 
 struct WordSpec: Decodable {
     let es: String
     let en: String
     let it: String
+    let uk: String?
     let kind: String?
 }
 
@@ -148,7 +153,7 @@ struct LessonSpec: Decodable {
         return Lesson(
             id: id,
             title: title ?? node?.title ?? id,
-            titleGloss: titleGloss?.gloss ?? node?.gloss ?? Gloss(en: "", it: ""),
+            titleGloss: titleGloss?.gloss ?? node?.gloss ?? Gloss(en: "", it: "", uk: ""),
             goal: goal.gloss,
             mode: .lesson,
             items: built,
@@ -157,7 +162,7 @@ struct LessonSpec: Decodable {
     }
 }
 
-/// {name}, {city}, {work} (the place after "Trabajo en"), {language} (inglés / italiano)
+/// {name}, {city}, {work} (the place after "Trabajo en"), {language} (inglés / italiano / ucraniano)
 /// make sentences personal, as in Lesson 2.
 struct Placeholders {
     let profile: Profile
@@ -169,14 +174,16 @@ struct Placeholders {
             .replacingOccurrences(of: "{language}", with: profile.nativeLanguage.spanishName)
             .replacingOccurrences(of: "{workEn}", with: profile.workplace.gloss.en)
             .replacingOccurrences(of: "{workIt}", with: profile.workplace.gloss.it)
-            .replacingOccurrences(of: "{languageEn}", with: profile.nativeLanguage == .english ? "English" : "Italian")
-            .replacingOccurrences(of: "{languageIt}", with: profile.nativeLanguage == .english ? "inglese" : "italiano")
+            .replacingOccurrences(of: "{workUk}", with: profile.workplace.gloss.uk)
+            .replacingOccurrences(of: "{languageEn}", with: profile.nativeLanguage.spokenName.en)
+            .replacingOccurrences(of: "{languageIt}", with: profile.nativeLanguage.spokenName.it)
+            .replacingOccurrences(of: "{languageUk}", with: profile.nativeLanguage.spokenName.uk)
     }
 
-    func gloss(_ spec: GlossSpec) -> Gloss { Gloss(en: self(spec.en), it: self(spec.it)) }
+    func gloss(_ spec: GlossSpec) -> Gloss { Gloss(en: self(spec.en), it: self(spec.it), uk: self(spec.uk ?? spec.en)) }
 
     func example(_ spec: ExampleSpec) -> Example {
-        Example(es: self(spec.es), gloss: Gloss(en: self(spec.en), it: self(spec.it)))
+        Example(es: self(spec.es), gloss: Gloss(en: self(spec.en), it: self(spec.it), uk: self(spec.uk ?? spec.en)))
     }
 }
 
@@ -205,6 +212,7 @@ struct ItemSpec: Decodable {
     let options: [String]?
     let en: String?
     let it: String?
+    let uk: String?
     let hint: GlossSpec?
     // build and write
     let intention: GlossSpec?
@@ -228,13 +236,13 @@ struct ItemSpec: Decodable {
         }
     }
 
-    private var sentenceGloss: Gloss { Gloss(en: en ?? "", it: it ?? "") }
+    private var sentenceGloss: Gloss { Gloss(en: en ?? "", it: it ?? "", uk: uk ?? en ?? "") }
 
     func items(id: String, fill: Placeholders) -> [LessonItem] {
         let itemBeat = self.beat.flatMap(Beat.init(rawValue:))
         let formKeys = self.keys ?? []
-        let hintGloss = self.hint.map(fill.gloss) ?? Gloss(en: "", it: "")
-        let gloss = fill.gloss(GlossSpec(en: en ?? "", it: it ?? ""))
+        let hintGloss = self.hint.map(fill.gloss) ?? Gloss(en: "", it: "", uk: "")
+        let gloss = fill.gloss(GlossSpec(en: en ?? "", it: it ?? "", uk: uk))
 
         switch type {
         case "words":
@@ -247,7 +255,7 @@ struct ItemSpec: Decodable {
             let card = FrameCard(
                 bricks: (bricks ?? []).map { FrameBrick(text: fill($0.text), kind: Brick(name: $0.kind)) },
                 result: result.map { VerbForm(stem: $0.stem, ending: $0.ending) },
-                rule: rule.map(fill.gloss) ?? Gloss(en: "", it: ""),
+                rule: rule.map(fill.gloss) ?? Gloss(en: "", it: "", uk: ""),
                 examples: (examples ?? []).map(fill.example),
                 teaches: (teaches ?? []).map { $0.vocab(fill) }
             )
@@ -291,7 +299,7 @@ struct ItemSpec: Decodable {
 
 private extension WordSpec {
     func vocab(_ fill: Placeholders) -> VocabWord {
-        VocabWord(es: fill(es), gloss: Gloss(en: fill(en), it: fill(it)), kind: Brick(name: kind ?? "chunk"))
+        VocabWord(es: fill(es), gloss: Gloss(en: fill(en), it: fill(it), uk: fill(uk ?? en)), kind: Brick(name: kind ?? "chunk"))
     }
 }
 

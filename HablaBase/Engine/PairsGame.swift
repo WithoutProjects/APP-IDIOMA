@@ -43,19 +43,19 @@ struct LabGame: Identifiable {
 
     static let all: [LabGame] = [
         LabGame(id: "pairs", title: "Parejas",
-                gloss: Gloss(en: "Match each verb to the right person.", it: "Abbina ogni verbo alla persona giusta."),
+                gloss: Gloss(en: "Match each verb to the right person.", it: "Abbina ogni verbo alla persona giusta.", uk: "З'єднай кожне дієслово з правильною особою."),
                 icon: "rectangle.on.rectangle", unlockedBy: "u1l1", isBuilt: true),
         LabGame(id: "rush", title: "Ending Rush",
-                gloss: Gloss(en: "60 seconds: flick each stem into the right person lane.", it: "60 secondi: lancia ogni radice nella corsia giusta."),
+                gloss: Gloss(en: "60 seconds: flick each stem into the right person lane.", it: "60 secondi: lancia ogni radice nella corsia giusta.", uk: "60 секунд: кидай кожну основу на доріжку правильної особи."),
                 icon: "bolt.fill", unlockedBy: "u2l1", isBuilt: false),
         LabGame(id: "hunt", title: "Caza de errores",
-                gloss: Gloss(en: "Spot and fix the wrong forms in a chat.", it: "Trova e correggi le forme sbagliate in una chat."),
+                gloss: Gloss(en: "Spot and fix the wrong forms in a chat.", it: "Trova e correggi le forme sbagliate in una chat.", uk: "Знайди й виправ неправильні форми в чаті."),
                 icon: "magnifyingglass", unlockedBy: "u7l1", isBuilt: false),
         LabGame(id: "tenses", title: "Presente, pasado o futuro",
-                gloss: Gloss(en: "Match each verb to its tense.", it: "Abbina ogni verbo al suo tempo."),
+                gloss: Gloss(en: "Match each verb to its tense.", it: "Abbina ogni verbo al suo tempo.", uk: "З'єднай кожне дієслово з його часом."),
                 icon: "clock.arrow.circlepath", unlockedBy: "u14l1", isBuilt: false),
         LabGame(id: "timemachine", title: "Máquina del tiempo",
-                gloss: Gloss(en: "Turn the time dial and re-conjugate the sentence.", it: "Gira la manopola del tempo e coniuga di nuovo la frase."),
+                gloss: Gloss(en: "Turn the time dial and re-conjugate the sentence.", it: "Gira la manopola del tempo e coniuga di nuovo la frase.", uk: "Поверни перемикач часу й переміни речення."),
                 icon: "dial.medium", unlockedBy: "u21l1", isBuilt: false),
     ]
 

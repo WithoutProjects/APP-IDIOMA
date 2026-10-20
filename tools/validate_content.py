@@ -17,6 +17,8 @@ CONTENT = ROOT / "HablaBase" / "Content"
 PLAN = ROOT / "docs" / "vocab-plan.json"
 
 PUNCT = re.compile(r"[¿?¡!.,;:\"'()«»…]")
+# The learner's languages: every explanation and translation exists in each.
+LANGS = ("en", "it", "uk")
 PERSONS = {"yo", "tu", "el", "nosotros", "vosotros", "ellos"}
 KINDS = {"stem", "ending", "time", "rail", "chunk"}
 BEATS = {"forge", "fire", "mix"}
@@ -67,8 +69,8 @@ class Checker:
         self.warnings.append(f"{where}: {message}")
 
     def gloss(self, where, value, name):
-        if not isinstance(value, dict) or not value.get("en", "").strip() or not value.get("it", "").strip():
-            self.error(where, f"{name} needs non-empty en and it")
+        if not isinstance(value, dict) or not all((value.get(lang) or "").strip() for lang in LANGS):
+            self.error(where, f"{name} needs non-empty en, it and uk")
 
     def uses(self, where, text, known):
         for word in words(text):
@@ -82,8 +84,8 @@ class Checker:
         self.gloss(lid, spec.get("goal"), "goal")
         target = spec.get("target")
         if target is not None:
-            if not target.get("es") or not target.get("en") or not target.get("it"):
-                self.error(lid, "target needs es, en and it")
+            if not all(target.get(k) for k in ("es",) + LANGS):
+                self.error(lid, "target needs es, en, it and uk")
         known = self.known | {w for n in spec.get("names", []) for w in words(n)}
         items = spec.get("items", [])
         if not items:
@@ -118,8 +120,8 @@ class Checker:
                 if not 2 <= len(ws) <= 6:
                     self.error(where, f"{len(ws)} words; a set has 2 to 6")
                 for w in ws:
-                    if not w.get("es") or not w.get("en") or not w.get("it"):
-                        self.error(where, f"word {w} needs es, en and it")
+                    if not all(w.get(k) for k in ("es",) + LANGS):
+                        self.error(where, f"word {w} needs es, en, it and uk")
                     if w.get("kind", "chunk") not in KINDS:
                         self.error(where, f"kind {w.get('kind')} not in {sorted(KINDS)}")
                     known.update(words(w.get("es", "")))
@@ -129,15 +131,15 @@ class Checker:
                 since_explain = 0
                 self.gloss(where, item.get("rule"), "rule")
                 for t in item.get("teaches", []):
-                    if not t.get("es") or not t.get("en") or not t.get("it"):
-                        self.error(where, f"teaches entry {t} needs es, en and it")
+                    if not all(t.get(k) for k in ("es",) + LANGS):
+                        self.error(where, f"teaches entry {t} needs es, en, it and uk")
                     known.update(words(t.get("es", "")))
                 examples = item.get("examples", [])
                 if not examples:
                     self.error(where, "an explanation needs at least one example")
                 for ex in examples:
-                    if not ex.get("en") or not ex.get("it"):
-                        self.error(where, f"example {ex.get('es')} needs en and it")
+                    if not all(ex.get(k) for k in LANGS):
+                        self.error(where, f"example {ex.get('es')} needs en, it and uk")
                     self.uses(where, ex.get("es", ""), known)
                 for b in item.get("bricks", []):
                     if b.get("kind") not in KINDS:
@@ -159,7 +161,7 @@ class Checker:
                 if not accepted or not item.get("label"):
                     self.error(where, "needs accepted answers and a label")
                     continue
-                self.gloss(where, {"en": item.get("en"), "it": item.get("it")}, "translation")
+                self.gloss(where, {lang: item.get(lang) for lang in LANGS}, "translation")
                 self.uses(where, item.get("before", "") + accepted[0] + item.get("after", ""), known)
             elif kind == "choose":
                 options, answer = item.get("options", []), item.get("answer")
@@ -167,7 +169,7 @@ class Checker:
                     self.error(where, "the answer must be one of the options")
                 if not 2 <= len(options) <= 4 or len(set(options)) != len(options):
                     self.error(where, "2 to 4 different options")
-                self.gloss(where, {"en": item.get("en"), "it": item.get("it")}, "translation")
+                self.gloss(where, {lang: item.get(lang) for lang in LANGS}, "translation")
                 self.uses(where, item.get("before", "") + " " + item.get("after", "") + " " + " ".join(options), known)
             elif kind == "build":
                 accepted, tiles = item.get("accepted", []), item.get("tiles", [])
@@ -175,7 +177,7 @@ class Checker:
                     self.error(where, "needs accepted sentences")
                     continue
                 self.gloss(where, item.get("intention"), "intention")
-                self.gloss(where, {"en": item.get("en"), "it": item.get("it")}, "translation")
+                self.gloss(where, {lang: item.get(lang) for lang in LANGS}, "translation")
                 if not can_build(normalize(accepted[0]), tiles):
                     self.error(where, f'tiles can\'t build "{accepted[0]}"')
                 if len(tiles) <= len(normalize(accepted[0]).split()) - 0 and len(tiles) < 3:
@@ -185,14 +187,14 @@ class Checker:
             elif kind == "write":
                 model = item.get("model", {})
                 self.gloss(where, item.get("instruction"), "instruction")
-                if not model.get("es") or not model.get("en") or not model.get("it"):
-                    self.error(where, "model needs es, en and it")
+                if not all(model.get(k) for k in ("es",) + LANGS):
+                    self.error(where, "model needs es, en, it and uk")
                 # Carla: an open prompt ("say two things you do") can't be checked. Every write
                 # gives the exact meaning to translate, in quotes, and the sentences it accepts.
                 accepted = item.get("accepted", [])
                 if not accepted or normalize(accepted[0]) != normalize(model.get("es", "")):
                     self.error(where, "a write needs accepted sentences, the first one being the model")
-                for lang in ("en", "it"):
+                for lang in LANGS:
                     if "«" not in (item.get("instruction") or {}).get(lang, ""):
                         self.error(where, f"instruction ({lang}) must give the exact sentence to translate in «…»")
                 for text in accepted:

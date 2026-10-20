@@ -278,10 +278,12 @@ struct LegoSnapView: View {
         } else if stem != snap.answer.stem, let other = Unit1.verbs.first(where: { $0.stem == stem }) {
             let meaning = other.meaning.text(language), goal = snap.prompt.text(language)
             onSubmit(.wrong(hint: Gloss(en: "\(stem)- means \u{201C}\(meaning)\u{201D}. Find the stem for \u{201C}\(goal)\u{201D}.",
-                                        it: "\(stem)- significa \u{201C}\(meaning)\u{201D}. Trova la radice per \u{201C}\(goal)\u{201D}.").text(language)))
+                                        it: "\(stem)- significa \u{201C}\(meaning)\u{201D}. Trova la radice per \u{201C}\(goal)\u{201D}.",
+                                        uk: "\(stem)- означає \u{201C}\(meaning)\u{201D}. Знайди основу для \u{201C}\(goal)\u{201D}.").text(language)))
         } else {
             onSubmit(.wrong(hint: Gloss(en: "With \(snap.person.label), the ending is -\(snap.answer.ending).",
-                                        it: "Con \(snap.person.label), la desinenza è -\(snap.answer.ending).").text(language)))
+                                        it: "Con \(snap.person.label), la desinenza è -\(snap.answer.ending).",
+                                        uk: "Для \(snap.person.label) закінчення -\(snap.answer.ending).").text(language)))
         }
     }
 }
@@ -658,14 +660,14 @@ struct FreeWriteView: View {
 
     private func grade() -> GradeOutcome {
         if !write.accepted.isEmpty {
-            let hint = Gloss(en: "Compare with the right answer below.", it: "Confronta con la risposta giusta qui sotto.").text(language)
+            let hint = Gloss(en: "Compare with the right answer below.", it: "Confronta con la risposta giusta qui sotto.", uk: "Порівняй із правильною відповіддю нижче.").text(language)
             return byVoice ? Grader.compareSpokenSentence(text, accepted: write.accepted, hint: hint)
                            : Grader.compare(text, accepted: write.accepted, hint: hint)
         }
         if let missing = Grader.missingChunk(in: text, required: write.requiredChunks) {
             let hint = missing == "y"
-                ? Gloss(en: "Join the parts with y.", it: "Unisci le parti con y.")
-                : Gloss(en: "Missing: \u{201C}\(missing)\u{201D}", it: "Manca: \u{201C}\(missing)\u{201D}")
+                ? Gloss(en: "Join the parts with y.", it: "Unisci le parti con y.", uk: "З'єднай частини за допомогою y.")
+                : Gloss(en: "Missing: \u{201C}\(missing)\u{201D}", it: "Manca: \u{201C}\(missing)\u{201D}", uk: "Бракує: \u{201C}\(missing)\u{201D}")
             return .wrong(hint: hint.text(language))
         }
         return .correct
@@ -678,7 +680,7 @@ struct TranslationPrompt {
     let context: String
     let sentence: String?
 
-    private static let markers = ["Write in Spanish:", "Scrivi in spagnolo:"]
+    private static let markers = ["Write in Spanish:", "Scrivi in spagnolo:", "Напиши іспанською:"]
 
     init(_ instruction: String) {
         guard let open = instruction.range(of: "«", options: .backwards),

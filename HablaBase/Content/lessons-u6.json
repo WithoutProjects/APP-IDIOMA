@@ -5,12 +5,14 @@
    "id": "u6l1",
    "goal": {
     "en": "Ask and tell the time, and say at what time you do things.",
-    "it": "Chiedere e dire l'ora, e dire a che ora fai le cose."
+    "it": "Chiedere e dire l'ora, e dire a che ora fai le cose.",
+    "uk": "Запитай і скажи, котра година, і скажи, о котрій ти щось робиш."
    },
    "target": {
     "es": "¿A qué hora trabajas? Trabajo a las nueve por la mañana.",
     "en": "What time do you work? I work at nine in the morning.",
-    "it": "A che ora lavori? Lavoro alle nove di mattina."
+    "it": "A che ora lavori? Lavoro alle nove di mattina.",
+    "uk": "О котрій ти працюєш? Я працюю о дев'ятій ранку."
    },
    "items": [
     {
@@ -20,24 +22,28 @@
        "es": "¿qué hora es?",
        "en": "what time is it?",
        "it": "che ore sono?",
+       "uk": "котра година?",
        "kind": "chunk"
       },
       {
        "es": "es la una",
        "en": "it's one o'clock",
        "it": "è l'una",
+       "uk": "перша година",
        "kind": "chunk"
       },
       {
        "es": "son las...",
        "en": "it's ... o'clock",
        "it": "sono le...",
+       "uk": "зараз ... година",
        "kind": "chunk"
       },
       {
        "es": "en punto",
        "en": "on the dot, o'clock",
        "it": "in punto",
+       "uk": "рівно",
        "kind": "chunk"
       }
      ]
@@ -49,18 +55,21 @@
        "es": "y media",
        "en": "half past",
        "it": "e mezza",
+       "uk": "і пів (:30)",
        "kind": "chunk"
       },
       {
        "es": "y cuarto",
        "en": "quarter past",
        "it": "e un quarto",
+       "uk": "і чверть (:15)",
        "kind": "chunk"
       },
       {
        "es": "menos cuarto",
        "en": "quarter to",
        "it": "meno un quarto",
+       "uk": "без чверті (:45)",
        "kind": "chunk"
       }
      ]
@@ -79,23 +88,27 @@
      ],
      "rule": {
       "en": "For one o'clock say es la una. For every other hour: son las + the number, just like Italian sono le due.",
-      "it": "Per l'una di' es la una. Per tutte le altre ore: son las + il numero, proprio come sono le due."
+      "it": "Per l'una di' es la una. Per tutte le altre ore: son las + il numero, proprio come sono le due.",
+      "uk": "Про першу годину кажи es la una. Про всі інші години: son las + число."
      },
      "examples": [
       {
        "es": "¿Qué hora es? Es la una.",
        "en": "What time is it? It's one o'clock.",
-       "it": "Che ore sono? È l'una."
+       "it": "Che ore sono? È l'una.",
+       "uk": "Котра година? Перша."
       },
       {
        "es": "Son las dos.",
        "en": "It's two o'clock.",
-       "it": "Sono le due."
+       "it": "Sono le due.",
+       "uk": "Друга година."
       },
       {
        "es": "Son las diez en punto.",
        "en": "It's ten o'clock on the dot.",
-       "it": "Sono le dieci in punto."
+       "it": "Sono le dieci in punto.",
+       "uk": "Рівно десята."
       }
      ]
     },
@@ -111,9 +124,11 @@
      "answer": "Son",
      "en": "It's four o'clock.",
      "it": "Sono le quattro.",
+     "uk": "Четверта година.",
      "hint": {
       "en": "Every hour except one: son las.",
-      "it": "Tutte le ore tranne l'una: son las."
+      "it": "Tutte le ore tranne l'una: son las.",
+      "uk": "Усі години, крім першої: son las."
      }
     },
     {
@@ -127,9 +142,11 @@
      ],
      "en": "It's seven o'clock.",
      "it": "Sono le sette.",
+     "uk": "Сьома година.",
      "hint": {
       "en": "Write the number as a word: siete.",
-      "it": "Scrivi il numero in lettere: siete."
+      "it": "Scrivi il numero in lettere: siete.",
+      "uk": "Напиши число словом: siete."
      }
     },
     {
@@ -146,23 +163,27 @@
      ],
      "rule": {
       "en": "After the hour add y cuarto (:15) or y media (:30). For :45, take the next hour and say menos cuarto.",
-      "it": "Dopo l'ora aggiungi y cuarto (:15) o y media (:30). Per :45 prendi l'ora dopo e di' menos cuarto."
+      "it": "Dopo l'ora aggiungi y cuarto (:15) o y media (:30). Per :45 prendi l'ora dopo e di' menos cuarto.",
+      "uk": "Після години додай y cuarto (:15) або y media (:30). Для :45 візьми наступну годину і скажи menos cuarto."
      },
      "examples": [
       {
        "es": "Son las dos y media.",
        "en": "It's half past two.",
-       "it": "Sono le due e mezza."
+       "it": "Sono le due e mezza.",
+       "uk": "Пів на третю."
       },
       {
        "es": "Es la una y cuarto.",
        "en": "It's quarter past one.",
-       "it": "È l'una e un quarto."
+       "it": "È l'una e un quarto.",
+       "uk": "Чверть на другу."
       },
       {
        "es": "Son las tres menos cuarto.",
        "en": "It's quarter to three.",
-       "it": "Sono le tre meno un quarto."
+       "it": "Sono le tre meno un quarto.",
+       "uk": "За чверть третя."
       }
      ]
     },
@@ -179,9 +200,11 @@
      "answer": "y media",
      "en": "It's half past eight.",
      "it": "Sono le otto e mezza.",
+     "uk": "Пів на дев'яту.",
      "hint": {
       "en": ":30 is y media.",
-      "it": ":30 è y media."
+      "it": ":30 è y media.",
+      "uk": ":30 — це y media."
      }
     },
     {
@@ -189,7 +212,8 @@
      "beat": "fire",
      "intention": {
       "en": "It's 6:45. Say the time.",
-      "it": "Sono le 6:45. Di' l'ora."
+      "it": "Sono le 6:45. Di' l'ora.",
+      "uk": "За чверть сьома."
      },
      "accepted": [
       "Son las siete menos cuarto."
@@ -204,9 +228,11 @@
      ],
      "en": "It's quarter to seven.",
      "it": "Sono le sette meno un quarto.",
+     "uk": "Зараз 6:45. Скажи, котра година.",
      "hint": {
       "en": ":45 = the next hour (siete) menos cuarto.",
-      "it": ":45 = l'ora dopo (siete) menos cuarto."
+      "it": ":45 = l'ora dopo (siete) menos cuarto.",
+      "uk": ":45 = наступна година (siete) menos cuarto."
      }
     },
     {
@@ -216,30 +242,35 @@
        "es": "¿a qué hora?",
        "en": "at what time?",
        "it": "a che ora?",
+       "uk": "о котрій?",
        "kind": "chunk"
       },
       {
        "es": "a las...",
        "en": "at ... o'clock",
        "it": "alle...",
+       "uk": "о ... годині",
        "kind": "chunk"
       },
       {
        "es": "por la mañana",
        "en": "in the morning",
        "it": "di mattina",
+       "uk": "вранці",
        "kind": "time"
       },
       {
        "es": "por la tarde",
        "en": "in the afternoon/evening",
        "it": "di pomeriggio",
+       "uk": "вдень, увечері",
        "kind": "time"
       },
       {
        "es": "por la noche",
        "en": "at night",
        "it": "di sera, di notte",
+       "uk": "увечері, вночі",
        "kind": "time"
       }
      ]
@@ -262,30 +293,35 @@
      ],
      "rule": {
       "en": "To say when, use a las + hour (a la una for one o'clock). Add por la mañana, por la tarde or por la noche.",
-      "it": "Per dire quando, usa a las + l'ora (a la una per l'una). Aggiungi por la mañana, por la tarde o por la noche."
+      "it": "Per dire quando, usa a las + l'ora (a la una per l'una). Aggiungi por la mañana, por la tarde o por la noche.",
+      "uk": "Щоб сказати коли, вживай a las + година (a la una — о першій). Додай por la mañana, por la tarde або por la noche."
      },
      "examples": [
       {
        "es": "¿A qué hora trabajas? A las nueve.",
        "en": "What time do you work? At nine.",
-       "it": "A che ora lavori? Alle nove."
+       "it": "A che ora lavori? Alle nove.",
+       "uk": "О котрій ти працюєш? О дев'ятій."
       },
       {
        "es": "Como a la una.",
        "en": "I eat at one.",
-       "it": "Mangio all'una."
+       "it": "Mangio all'una.",
+       "uk": "Я обідаю о першій."
       },
       {
        "es": "Estudio a las diez por la noche.",
        "en": "I study at ten at night.",
-       "it": "Studio alle dieci di sera."
+       "it": "Studio alle dieci di sera.",
+       "uk": "Я вчуся о десятій вечора."
       }
      ],
      "teaches": [
       {
        "es": "a la una",
        "en": "at one o'clock",
-       "it": "all'una"
+       "it": "all'una",
+       "uk": "о першій"
       }
      ]
     },
@@ -302,9 +338,11 @@
      "answer": "a la",
      "en": "I eat at one.",
      "it": "Mangio all'una.",
+     "uk": "Я обідаю о першій.",
      "hint": {
       "en": "At one o'clock: a la una (singular).",
-      "it": "All'una: a la una (singolare)."
+      "it": "All'una: a la una (singolare).",
+      "uk": "О першій: a la una (однина)."
      }
     },
     {
@@ -312,7 +350,8 @@
      "beat": "fire",
      "intention": {
       "en": "Say that you work at eight in the morning.",
-      "it": "Di che lavori alle otto di mattina."
+      "it": "Di che lavori alle otto di mattina.",
+      "uk": "Я працюю о восьмій ранку."
      },
      "accepted": [
       "Trabajo a las ocho por la mañana.",
@@ -328,9 +367,11 @@
      ],
      "en": "I work at eight in the morning.",
      "it": "Lavoro alle otto di mattina.",
+     "uk": "Скажи, що ти працюєш о восьмій ранку.",
      "hint": {
       "en": "When: a las + hour, then por la mañana.",
-      "it": "Quando: a las + ora, poi por la mañana."
+      "it": "Quando: a las + ora, poi por la mañana.",
+      "uk": "Коли: a las + година, потім por la mañana."
      }
     },
     {
@@ -344,9 +385,11 @@
      ],
      "en": "I have dinner at nine at night.",
      "it": "Ceno alle nove di sera.",
+     "uk": "Я вечеряю о дев'ятій вечора.",
      "hint": {
       "en": "Write the number as a word: nueve.",
-      "it": "Scrivi il numero in lettere: nueve."
+      "it": "Scrivi il numero in lettere: nueve.",
+      "uk": "Напиши число словом: nueve."
      }
     },
     {
@@ -362,9 +405,11 @@
      "answer": "y cuarto",
      "en": "It's quarter past one.",
      "it": "È l'una e un quarto.",
+     "uk": "Чверть на другу.",
      "hint": {
       "en": ":15 is y cuarto.",
-      "it": ":15 è y cuarto."
+      "it": ":15 è y cuarto.",
+      "uk": ":15 — це y cuarto."
      }
     },
     {
@@ -372,7 +417,8 @@
      "beat": "mix",
      "intention": {
       "en": "Ask a friend at what time they have dinner.",
-      "it": "Chiedi a un amico a che ora cena."
+      "it": "Chiedi a un amico a che ora cena.",
+      "uk": "О котрій ти вечеряєш?"
      },
      "accepted": [
       "¿A qué hora cenas?"
@@ -385,9 +431,11 @@
      ],
      "en": "What time do you have dinner?",
      "it": "A che ora ceni?",
+     "uk": "Запитай друга, о котрій він вечеряє.",
      "hint": {
       "en": "Asking when: ¿a qué hora? + the tú form.",
-      "it": "Per chiedere quando: ¿a qué hora? + la forma di tú."
+      "it": "Per chiedere quando: ¿a qué hora? + la forma di tú.",
+      "uk": "Щоб запитати коли: ¿a qué hora? + форма для tú."
      }
     },
     {
@@ -395,7 +443,8 @@
      "beat": "mix",
      "instruction": {
       "en": "Write in Spanish: «I work {workEn} at nine and I eat at two.»",
-      "it": "Scrivi in spagnolo: «Lavoro {workIt} alle nove e mangio alle due.»"
+      "it": "Scrivi in spagnolo: «Lavoro {workIt} alle nove e mangio alle due.»",
+      "uk": "Напиши іспанською: «Я працюю {workUk} о дев'ятій і обідаю о другій.»"
      },
      "accepted": [
       "Trabajo en {work} a las nueve y como a las dos.",
@@ -407,7 +456,8 @@
      "model": {
       "es": "Trabajo en {work} a las nueve y como a las dos.",
       "en": "I work {workEn} at nine and I eat at two.",
-      "it": "Lavoro {workIt} alle nove e mangio alle due."
+      "it": "Lavoro {workIt} alle nove e mangio alle due.",
+      "uk": "Я працюю {workUk} о дев'ятій і обідаю о другій."
      }
     }
    ]
@@ -416,12 +466,14 @@
    "id": "u6l2",
    "goal": {
     "en": "Say what you do on each day of the week, once or every week.",
-    "it": "Dire cosa fai ogni giorno della settimana, una volta o tutte le settimane."
+    "it": "Dire cosa fai ogni giorno della settimana, una volta o tutte le settimane.",
+    "uk": "Розкажи, що ти робиш у кожен день тижня: один раз або щотижня."
    },
    "target": {
     "es": "Los lunes trabajo y los sábados descanso.",
     "en": "On Mondays I work and on Saturdays I rest.",
-    "it": "Il lunedì lavoro e il sabato mi riposo."
+    "it": "Il lunedì lavoro e il sabato mi riposo.",
+    "uk": "По понеділках я працюю, а по суботах відпочиваю."
    },
    "items": [
     {
@@ -431,24 +483,28 @@
        "es": "lunes",
        "en": "Monday",
        "it": "lunedì",
+       "uk": "понеділок",
        "kind": "time"
       },
       {
        "es": "martes",
        "en": "Tuesday",
        "it": "martedì",
+       "uk": "вівторок",
        "kind": "time"
       },
       {
        "es": "miércoles",
        "en": "Wednesday",
        "it": "mercoledì",
+       "uk": "середа",
        "kind": "time"
       },
       {
        "es": "jueves",
        "en": "Thursday",
        "it": "giovedì",
+       "uk": "четвер",
        "kind": "time"
       }
      ]
@@ -460,24 +516,28 @@
        "es": "viernes",
        "en": "Friday",
        "it": "venerdì",
+       "uk": "п'ятниця",
        "kind": "time"
       },
       {
        "es": "sábado",
        "en": "Saturday",
        "it": "sabato",
+       "uk": "субота",
        "kind": "time"
       },
       {
        "es": "domingo",
        "en": "Sunday",
        "it": "domenica",
+       "uk": "неділя",
        "kind": "time"
       },
       {
        "es": "la semana",
        "en": "the week",
        "it": "la settimana",
+       "uk": "тиждень",
        "kind": "time"
       }
      ]
@@ -496,30 +556,35 @@
      ],
      "rule": {
       "en": "For one day, put el before it, with no 'on' word: el viernes = on Friday. Days are written in small letters.",
-      "it": "Per un giorno preciso metti el davanti: el viernes = venerdì (questo venerdì). I giorni si scrivono con la minuscola."
+      "it": "Per un giorno preciso metti el davanti: el viernes = venerdì (questo venerdì). I giorni si scrivono con la minuscola.",
+      "uk": "Про один конкретний день став перед ним el, без жодного прийменника: el viernes = у п'ятницю. Дні тижня пишуться з малої літери."
      },
      "examples": [
       {
        "es": "El lunes trabajo.",
        "en": "On Monday I'm working.",
-       "it": "Lunedì lavoro."
+       "it": "Lunedì lavoro.",
+       "uk": "У понеділок я працюю."
       },
       {
        "es": "Voy al cine el viernes.",
        "en": "I'm going to the cinema on Friday.",
-       "it": "Venerdì vado al cinema."
+       "it": "Venerdì vado al cinema.",
+       "uk": "У п'ятницю я йду в кіно."
       },
       {
        "es": "El sábado como con mi familia.",
        "en": "On Saturday I'm eating with my family.",
-       "it": "Sabato mangio con la mia famiglia."
+       "it": "Sabato mangio con la mia famiglia.",
+       "uk": "У суботу я обідаю з родиною."
       }
      ],
      "teaches": [
       {
        "es": "el lunes",
        "en": "on Monday",
-       "it": "lunedì"
+       "it": "lunedì",
+       "uk": "у понеділок"
       }
      ]
     },
@@ -536,9 +601,11 @@
      "answer": "el",
      "en": "I'm going to the gym on Tuesday.",
      "it": "Martedì vado in palestra.",
+     "uk": "У вівторок я йду в спортзал.",
      "hint": {
       "en": "Days take el, never en.",
-      "it": "I giorni vogliono el, mai en."
+      "it": "I giorni vogliono el, mai en.",
+      "uk": "З днями — el, ніколи не en."
      }
     },
     {
@@ -546,7 +613,8 @@
      "beat": "fire",
      "intention": {
       "en": "Say that you're going to the beach on Saturday.",
-      "it": "Di che sabato vai in spiaggia."
+      "it": "Di che sabato vai in spiaggia.",
+      "uk": "У суботу я йду на пляж."
      },
      "accepted": [
       "El sábado voy a la playa.",
@@ -562,9 +630,11 @@
      ],
      "en": "On Saturday I'm going to the beach.",
      "it": "Sabato vado in spiaggia.",
+     "uk": "Скажи, що в суботу ти йдеш на пляж.",
      "hint": {
       "en": "El sábado, no en: then voy a la playa.",
-      "it": "El sábado, senza en: poi voy a la playa."
+      "it": "El sábado, senza en: poi voy a la playa.",
+      "uk": "El sábado, без en: потім voy a la playa."
      }
     },
     {
@@ -581,45 +651,53 @@
      ],
      "rule": {
       "en": "For something you do every week, use los: los lunes = on Mondays. Sábado and domingo add -s; lunes to viernes stay the same.",
-      "it": "Per una cosa che fai tutte le settimane usa los: los lunes = il lunedì (ogni lunedì). Sábado e domingo aggiungono -s; da lunes a viernes non cambiano."
+      "it": "Per una cosa che fai tutte le settimane usa los: los lunes = il lunedì (ogni lunedì). Sábado e domingo aggiungono -s; da lunes a viernes non cambiano.",
+      "uk": "Про те, що ти робиш щотижня, вживай los: los lunes = по понеділках. Sábado і domingo додають -s; від lunes до viernes не змінюються."
      },
      "examples": [
       {
        "es": "Los lunes estudio español.",
        "en": "On Mondays I study Spanish.",
-       "it": "Il lunedì studio spagnolo."
+       "it": "Il lunedì studio spagnolo.",
+       "uk": "По понеділках я вчу іспанську."
       },
       {
        "es": "Los domingos como con mis padres.",
        "en": "On Sundays I eat with my parents.",
-       "it": "La domenica mangio con i miei genitori."
+       "it": "La domenica mangio con i miei genitori.",
+       "uk": "По неділях я обідаю з батьками."
       },
       {
        "es": "Los fines de semana descanso.",
        "en": "At weekends I rest.",
-       "it": "Nel fine settimana mi riposo."
+       "it": "Nel fine settimana mi riposo.",
+       "uk": "На вихідних я відпочиваю."
       }
      ],
      "teaches": [
       {
        "es": "los lunes",
        "en": "on Mondays",
-       "it": "il lunedì, ogni lunedì"
+       "it": "il lunedì, ogni lunedì",
+       "uk": "по понеділках"
       },
       {
        "es": "los sábados",
        "en": "on Saturdays",
-       "it": "il sabato, ogni sabato"
+       "it": "il sabato, ogni sabato",
+       "uk": "по суботах"
       },
       {
        "es": "los domingos",
        "en": "on Sundays",
-       "it": "la domenica, ogni domenica"
+       "it": "la domenica, ogni domenica",
+       "uk": "по неділях"
       },
       {
        "es": "los fines de semana",
        "en": "at weekends",
-       "it": "nei fine settimana"
+       "it": "nei fine settimana",
+       "uk": "на вихідних"
       }
      ]
     },
@@ -635,9 +713,11 @@
      "answer": "Los",
      "en": "On Mondays I work from home.",
      "it": "Il lunedì lavoro da casa.",
+     "uk": "По понеділках я працюю з дому.",
      "hint": {
       "en": "Every Monday, a habit: los lunes.",
-      "it": "Ogni lunedì, un'abitudine: los lunes."
+      "it": "Ogni lunedì, un'abitudine: los lunes.",
+      "uk": "Щопонеділка, звичка: los lunes."
      }
     },
     {
@@ -651,9 +731,11 @@
      ],
      "en": "On Sundays I eat with my family.",
      "it": "La domenica mangio con la mia famiglia.",
+     "uk": "По неділях я обідаю з родиною.",
      "hint": {
       "en": "Los + domingo needs -s: domingos.",
-      "it": "Los + domingo vuole la -s: domingos."
+      "it": "Los + domingo vuole la -s: domingos.",
+      "uk": "Los + domingo потребує -s: domingos."
      }
     },
     {
@@ -670,23 +752,27 @@
      ],
      "rule": {
       "en": "To say what day it is, use hoy es + the day, with no el.",
-      "it": "Per dire che giorno è, usa hoy es + il giorno, senza el."
+      "it": "Per dire che giorno è, usa hoy es + il giorno, senza el.",
+      "uk": "Щоб сказати, який сьогодні день, вживай hoy es + день, без el."
      },
      "examples": [
       {
        "es": "Hoy es lunes.",
        "en": "Today is Monday.",
-       "it": "Oggi è lunedì."
+       "it": "Oggi è lunedì.",
+       "uk": "Сьогодні понеділок."
       },
       {
        "es": "Mañana es sábado.",
        "en": "Tomorrow is Saturday.",
-       "it": "Domani è sabato."
+       "it": "Domani è sabato.",
+       "uk": "Завтра субота."
       },
       {
        "es": "¡Hoy es viernes!",
        "en": "Today is Friday!",
-       "it": "Oggi è venerdì!"
+       "it": "Oggi è venerdì!",
+       "uk": "Сьогодні п'ятниця!"
       }
      ]
     },
@@ -703,9 +789,11 @@
      "answer": "martes",
      "en": "Today is Monday. Tomorrow is Tuesday.",
      "it": "Oggi è lunedì. Domani è martedì.",
+     "uk": "Сьогодні понеділок. Завтра вівторок.",
      "hint": {
       "en": "After lunes comes martes.",
-      "it": "Dopo lunes viene martes."
+      "it": "Dopo lunes viene martes.",
+      "uk": "Після lunes іде martes."
      }
     },
     {
@@ -713,7 +801,8 @@
      "beat": "fire",
      "intention": {
       "en": "Say that today is Wednesday and that you're studying Spanish.",
-      "it": "Di che oggi è mercoledì e che studi spagnolo."
+      "it": "Di che oggi è mercoledì e che studi spagnolo.",
+      "uk": "Сьогодні середа, і я вчу іспанську."
      },
      "accepted": [
       "Hoy es miércoles y estudio español."
@@ -729,9 +818,11 @@
      ],
      "en": "Today is Wednesday and I'm studying Spanish.",
      "it": "Oggi è mercoledì e studio spagnolo.",
+     "uk": "Скажи, що сьогодні середа і що ти вчиш іспанську.",
      "hint": {
       "en": "Hoy es + the day, no el.",
-      "it": "Hoy es + il giorno, senza el."
+      "it": "Hoy es + il giorno, senza el.",
+      "uk": "Hoy es + день, без el."
      }
     },
     {
@@ -746,9 +837,11 @@
      "answer": "El",
      "en": "Today is Wednesday. On Thursday I'm going to the cinema.",
      "it": "Oggi è mercoledì. Giovedì vado al cinema.",
+     "uk": "Сьогодні середа. У четвер я йду в кіно.",
      "hint": {
       "en": "Just this Thursday: el jueves.",
-      "it": "Solo questo giovedì: el jueves."
+      "it": "Solo questo giovedì: el jueves.",
+      "uk": "Тільки цього четверга: el jueves."
      }
     },
     {
@@ -762,9 +855,11 @@
      ],
      "en": "On Saturdays and Sundays I rest.",
      "it": "Il sabato e la domenica mi riposo.",
+     "uk": "По суботах і неділях я відпочиваю.",
      "hint": {
       "en": "Los + sábado needs -s.",
-      "it": "Los + sábado vuole la -s."
+      "it": "Los + sábado vuole la -s.",
+      "uk": "Los + sábado потребує -s."
      }
     },
     {
@@ -772,7 +867,8 @@
      "beat": "mix",
      "intention": {
       "en": "Say that on Mondays you work at your job.",
-      "it": "Di che il lunedì lavori nel tuo posto di lavoro."
+      "it": "Di che il lunedì lavori nel tuo posto di lavoro.",
+      "uk": "По понеділках я працюю {workUk}."
      },
      "accepted": [
       "Los lunes trabajo en {work}.",
@@ -788,9 +884,11 @@
      ],
      "en": "On Mondays I work {workEn}.",
      "it": "Il lunedì lavoro {workIt}.",
+     "uk": "Скажи, що по понеділках ти працюєш на своїй роботі.",
      "hint": {
       "en": "Every Monday: los lunes.",
-      "it": "Ogni lunedì: los lunes."
+      "it": "Ogni lunedì: los lunes.",
+      "uk": "Щопонеділка: los lunes."
      }
     },
     {
@@ -798,7 +896,8 @@
      "beat": "mix",
      "instruction": {
       "en": "Write in Spanish: «On Mondays I work {workEn} and on Saturdays I go to the beach.»",
-      "it": "Scrivi in spagnolo: «Il lunedì lavoro {workIt} e il sabato vado in spiaggia.»"
+      "it": "Scrivi in spagnolo: «Il lunedì lavoro {workIt} e il sabato vado in spiaggia.»",
+      "uk": "Напиши іспанською: «По понеділках я працюю {workUk}, а по суботах ходжу на пляж.»"
      },
      "accepted": [
       "Los lunes trabajo en {work} y los sábados voy a la playa.",
@@ -811,7 +910,8 @@
      "model": {
       "es": "Los lunes trabajo en {work} y los sábados voy a la playa.",
       "en": "On Mondays I work {workEn} and on Saturdays I go to the beach.",
-      "it": "Il lunedì lavoro {workIt} e il sabato vado in spiaggia."
+      "it": "Il lunedì lavoro {workIt} e il sabato vado in spiaggia.",
+      "uk": "По понеділках я працюю {workUk}, а по суботах ходжу на пляж."
      }
     }
    ]
@@ -820,12 +920,14 @@
    "id": "u6l3",
    "goal": {
     "en": "Say how often you do things: always, sometimes, never, once a week.",
-    "it": "Dire quanto spesso fai le cose: sempre, a volte, mai, una volta a settimana."
+    "it": "Dire quanto spesso fai le cose: sempre, a volte, mai, una volta a settimana.",
+    "uk": "Скажи, як часто ти щось робиш: завжди, іноді, ніколи, раз на тиждень."
    },
    "target": {
     "es": "Siempre desayuno en casa y a veces tomo un café en el trabajo.",
     "en": "I always have breakfast at home and sometimes I have a coffee at work.",
-    "it": "Faccio sempre colazione a casa e a volte prendo un caffè al lavoro."
+    "it": "Faccio sempre colazione a casa e a volte prendo un caffè al lavoro.",
+    "uk": "Я завжди снідаю вдома, а іноді п'ю каву на роботі."
    },
    "items": [
     {
@@ -835,30 +937,35 @@
        "es": "siempre",
        "en": "always",
        "it": "sempre",
+       "uk": "завжди",
        "kind": "time"
       },
       {
        "es": "a veces",
        "en": "sometimes",
        "it": "a volte",
+       "uk": "іноді",
        "kind": "time"
       },
       {
        "es": "nunca",
        "en": "never",
        "it": "mai",
+       "uk": "ніколи",
        "kind": "time"
       },
       {
        "es": "normalmente",
        "en": "usually",
        "it": "di solito",
+       "uk": "зазвичай",
        "kind": "time"
       },
       {
        "es": "casi",
        "en": "almost",
        "it": "quasi",
+       "uk": "майже",
        "kind": "time"
       }
      ]
@@ -870,24 +977,28 @@
        "es": "una vez",
        "en": "once",
        "it": "una volta",
+       "uk": "один раз",
        "kind": "time"
       },
       {
        "es": "de vez en cuando",
        "en": "from time to time",
        "it": "ogni tanto",
+       "uk": "час від часу",
        "kind": "time"
       },
       {
        "es": "desayunar",
        "en": "to have breakfast",
        "it": "fare colazione",
+       "uk": "снідати",
        "kind": "stem"
       },
       {
        "es": "tomar",
        "en": "to have (a drink), to take",
        "it": "prendere",
+       "uk": "пити (напій), брати",
        "kind": "stem"
       }
      ]
@@ -910,85 +1021,101 @@
      },
      "rule": {
       "en": "Desayunar (to have breakfast) and tomar (to have a drink) are regular AR verbs.",
-      "it": "Desayunar (fare colazione) e tomar (prendere, da bere) sono verbi regolari in AR."
+      "it": "Desayunar (fare colazione) e tomar (prendere, da bere) sono verbi regolari in AR.",
+      "uk": "Desayunar (снідати) і tomar (пити, брати) — правильні дієслова на AR."
      },
      "examples": [
       {
        "es": "Desayuno en casa.",
        "en": "I have breakfast at home.",
-       "it": "Faccio colazione a casa."
+       "it": "Faccio colazione a casa.",
+       "uk": "Я снідаю вдома."
       },
       {
        "es": "Tomo un café.",
        "en": "I have a coffee.",
-       "it": "Prendo un caffè."
+       "it": "Prendo un caffè.",
+       "uk": "Я п'ю каву."
       },
       {
        "es": "¿Tomas té?",
        "en": "Do you have tea?",
-       "it": "Prendi il tè?"
+       "it": "Prendi il tè?",
+       "uk": "Ти п'єш чай?"
       }
      ],
      "teaches": [
       {
        "es": "desayuno",
        "en": "I have breakfast",
-       "it": "faccio colazione"
+       "it": "faccio colazione",
+       "uk": "я снідаю"
       },
       {
        "es": "desayunas",
        "en": "you have breakfast",
-       "it": "fai colazione"
+       "it": "fai colazione",
+       "uk": "ти снідаєш"
       },
       {
        "es": "desayuna",
        "en": "he/she has breakfast",
-       "it": "fa colazione"
+       "it": "fa colazione",
+       "uk": "він/вона снідає"
       },
       {
        "es": "desayunamos",
        "en": "we have breakfast",
-       "it": "facciamo colazione"
+       "it": "facciamo colazione",
+       "uk": "ми снідаємо"
       },
       {
        "es": "desayunáis",
        "en": "you all have breakfast",
-       "it": "fate colazione"
+       "it": "fate colazione",
+       "uk": "ви снідаєте"
       },
       {
        "es": "desayunan",
        "en": "they have breakfast",
-       "it": "fanno colazione"
+       "it": "fanno colazione",
+       "uk": "вони снідають"
       },
       {
        "es": "tomo",
        "en": "I have",
-       "it": "prendo"
+       "it": "prendo",
+       "uk": "я п'ю"
       },
       {
        "es": "tomas",
        "en": "you have",
-       "it": "prendi"
+       "it": "prendi",
+       "uk": "ти п'єш"
       },
       {
        "es": "toma",
        "en": "he/she has",
-       "it": "prende"
+       "it": "prende",
+       "uk": "він/вона п'є"
       },
       {
        "es": "tomamos",
        "en": "we have",
-       "it": "prendiamo"
+       "it": "prendiamo",
+       "uk": "ми п'ємо"
       },
       {
        "es": "tomáis",
        "en": "you all have",
-       "it": "prendete"
+       "it": "prendete",
+       "uk": "ви п'єте"
       },
       {
        "es": "toman",
        "en": "they have",
-       "it": "prendono"
+       "it": "prendono",
+       "uk": "вони п'ють"
       }
      ]
     },
@@ -998,7 +1125,8 @@
      "person": "yo",
      "prompt": {
       "en": "I have breakfast",
-      "it": "faccio colazione"
+      "it": "faccio colazione",
+      "uk": "я снідаю"
      },
      "stems": [
       "cen",
@@ -1026,9 +1154,11 @@
      ],
      "en": "We have coffee.",
      "it": "Prendiamo il caffè.",
+     "uk": "Ми п'ємо каву.",
      "hint": {
       "en": "Nosotros: AR verbs end in -amos.",
-      "it": "Nosotros: i verbi in AR finiscono in -amos."
+      "it": "Nosotros: i verbi in AR finiscono in -amos.",
+      "uk": "Nosotros: дієслова на AR закінчуються на -amos."
      }
     },
     {
@@ -1045,30 +1175,35 @@
      ],
      "rule": {
       "en": "Siempre, normalmente, a veces and nunca usually go at the start, before the verb. Casi nunca means 'hardly ever'.",
-      "it": "Siempre, normalmente, a veces e nunca di solito vanno all'inizio, prima del verbo. Casi nunca vuol dire 'quasi mai'."
+      "it": "Siempre, normalmente, a veces e nunca di solito vanno all'inizio, prima del verbo. Casi nunca vuol dire 'quasi mai'.",
+      "uk": "Siempre, normalmente, a veces і nunca зазвичай стоять на початку, перед дієсловом. Casi nunca означає «майже ніколи»."
      },
      "examples": [
       {
        "es": "Siempre desayuno en casa.",
        "en": "I always have breakfast at home.",
-       "it": "Faccio sempre colazione a casa."
+       "it": "Faccio sempre colazione a casa.",
+       "uk": "Я завжди снідаю вдома."
       },
       {
        "es": "A veces tomo té.",
        "en": "Sometimes I have tea.",
-       "it": "A volte prendo il tè."
+       "it": "A volte prendo il tè.",
+       "uk": "Іноді я п'ю чай."
       },
       {
        "es": "Nunca como carne.",
        "en": "I never eat meat.",
-       "it": "Non mangio mai carne."
+       "it": "Non mangio mai carne.",
+       "uk": "Я ніколи не їм м'яса."
       }
      ],
      "teaches": [
       {
        "es": "casi nunca",
        "en": "hardly ever",
-       "it": "quasi mai"
+       "it": "quasi mai",
+       "uk": "майже ніколи"
       }
      ]
     },
@@ -1085,9 +1220,11 @@
      "answer": "Nunca",
      "en": "I don't like coffee. I never have coffee.",
      "it": "Non mi piace il caffè. Non prendo mai il caffè.",
+     "uk": "Мені не подобається кава. Я ніколи не п'ю каву.",
      "hint": {
       "en": "You don't like it, so: nunca.",
-      "it": "Non ti piace, quindi: nunca."
+      "it": "Non ti piace, quindi: nunca.",
+      "uk": "Тобі не подобається, тому: nunca."
      }
     },
     {
@@ -1095,7 +1232,8 @@
      "beat": "fire",
      "intention": {
       "en": "Say that you usually have breakfast at eight.",
-      "it": "Di che di solito fai colazione alle otto."
+      "it": "Di che di solito fai colazione alle otto.",
+      "uk": "Зазвичай я снідаю о восьмій."
      },
      "accepted": [
       "Normalmente desayuno a las ocho."
@@ -1110,9 +1248,11 @@
      ],
      "en": "I usually have breakfast at eight.",
      "it": "Di solito faccio colazione alle otto.",
+     "uk": "Скажи, що зазвичай ти снідаєш о восьмій.",
      "hint": {
       "en": "Normalmente first, then the verb.",
-      "it": "Prima normalmente, poi il verbo."
+      "it": "Prima normalmente, poi il verbo.",
+      "uk": "Спочатку normalmente, потім дієслово."
      }
     },
     {
@@ -1129,30 +1269,35 @@
      ],
      "rule": {
       "en": "To count how often, say una vez (once), dos veces (twice) + a la semana. De vez en cuando means 'from time to time'.",
-      "it": "Per contare quante volte, di' una vez, dos veces + a la semana. De vez en cuando vuol dire 'ogni tanto'."
+      "it": "Per contare quante volte, di' una vez, dos veces + a la semana. De vez en cuando vuol dire 'ogni tanto'.",
+      "uk": "Щоб порахувати, як часто, скажи una vez (один раз), dos veces (двічі) + a la semana. De vez en cuando означає «час від часу»."
      },
      "examples": [
       {
        "es": "Voy al gimnasio una vez a la semana.",
        "en": "I go to the gym once a week.",
-       "it": "Vado in palestra una volta a settimana."
+       "it": "Vado in palestra una volta a settimana.",
+       "uk": "Я ходжу в спортзал раз на тиждень."
       },
       {
        "es": "Ceno en un restaurante dos veces a la semana.",
        "en": "I have dinner at a restaurant twice a week.",
-       "it": "Ceno al ristorante due volte a settimana."
+       "it": "Ceno al ristorante due volte a settimana.",
+       "uk": "Я вечеряю в ресторані двічі на тиждень."
       },
       {
        "es": "Voy al cine de vez en cuando.",
        "en": "I go to the cinema from time to time.",
-       "it": "Vado al cinema ogni tanto."
+       "it": "Vado al cinema ogni tanto.",
+       "uk": "Я час від часу ходжу в кіно."
       }
      ],
      "teaches": [
       {
        "es": "dos veces",
        "en": "twice",
-       "it": "due volte"
+       "it": "due volte",
+       "uk": "двічі"
       }
      ]
     },
@@ -1168,9 +1313,11 @@
      "answer": "veces",
      "en": "I go to the gym twice a week.",
      "it": "Vado in palestra due volte a settimana.",
+     "uk": "Я ходжу в спортзал двічі на тиждень.",
      "hint": {
       "en": "More than one: veces (z becomes c).",
-      "it": "Più di una: veces (la z diventa c)."
+      "it": "Più di una: veces (la z diventa c).",
+      "uk": "Більше ніж один раз: veces (z стає c)."
      }
     },
     {
@@ -1178,7 +1325,8 @@
      "beat": "fire",
      "intention": {
       "en": "Say that you go to the cinema from time to time.",
-      "it": "Di che vai al cinema ogni tanto."
+      "it": "Di che vai al cinema ogni tanto.",
+      "uk": "Я час від часу ходжу в кіно."
      },
      "accepted": [
       "Voy al cine de vez en cuando.",
@@ -1193,9 +1341,11 @@
      ],
      "en": "I go to the cinema from time to time.",
      "it": "Vado al cinema ogni tanto.",
+     "uk": "Скажи, що ти час від часу ходиш у кіно.",
      "hint": {
       "en": "De vez en cuando is one block: keep it together.",
-      "it": "De vez en cuando è un blocco unico: tienilo insieme."
+      "it": "De vez en cuando è un blocco unico: tienilo insieme.",
+      "uk": "De vez en cuando — це один блок: не розривай його."
      }
     },
     {
@@ -1209,9 +1359,11 @@
      ],
      "en": "My mother has a tea in the afternoon.",
      "it": "Mia madre prende un tè il pomeriggio.",
+     "uk": "Моя мама вдень п'є чай.",
      "hint": {
       "en": "Mi madre = ella: -a.",
-      "it": "Mi madre = ella: -a."
+      "it": "Mi madre = ella: -a.",
+      "uk": "Mi madre = ella: -a."
      }
     },
     {
@@ -1227,9 +1379,11 @@
      "answer": "Siempre",
      "en": "I love chocolate. I always eat chocolate.",
      "it": "Adoro il cioccolato. Mangio sempre cioccolato.",
+     "uk": "Я обожнюю шоколад. Я завжди їм шоколад.",
      "hint": {
       "en": "You love it, so: siempre.",
-      "it": "Lo adori, quindi: siempre."
+      "it": "Lo adori, quindi: siempre.",
+      "uk": "Ти його обожнюєш, тому: siempre."
      }
     },
     {
@@ -1237,7 +1391,8 @@
      "beat": "mix",
      "intention": {
       "en": "Say that sometimes you have breakfast at work.",
-      "it": "Di che a volte fai colazione al lavoro."
+      "it": "Di che a volte fai colazione al lavoro.",
+      "uk": "Іноді я снідаю на роботі."
      },
      "accepted": [
       "A veces desayuno en el trabajo.",
@@ -1252,9 +1407,11 @@
      ],
      "en": "Sometimes I have breakfast at work.",
      "it": "A volte faccio colazione al lavoro.",
+     "uk": "Скажи, що іноді ти снідаєш на роботі.",
      "hint": {
       "en": "A veces first, then the yo form.",
-      "it": "Prima a veces, poi la forma di yo."
+      "it": "Prima a veces, poi la forma di yo.",
+      "uk": "Спочатку a veces, потім форма для yo."
      }
     },
     {
@@ -1262,7 +1419,8 @@
      "beat": "mix",
      "instruction": {
       "en": "Write in Spanish: «I always have breakfast at home, sometimes I have a tea and I never drink wine.»",
-      "it": "Scrivi in spagnolo: «Faccio sempre colazione a casa, a volte prendo un tè e non bevo mai vino.»"
+      "it": "Scrivi in spagnolo: «Faccio sempre colazione a casa, a volte prendo un tè e non bevo mai vino.»",
+      "uk": "Напиши іспанською: «Я завжди снідаю вдома, іноді п'ю чай і ніколи не п'ю вина.»"
      },
      "accepted": [
       "Siempre desayuno en casa, a veces tomo un té y nunca bebo vino.",
@@ -1275,7 +1433,8 @@
      "model": {
       "es": "Siempre desayuno en casa, a veces tomo un té y nunca bebo vino.",
       "en": "I always have breakfast at home, sometimes I have a tea and I never drink wine.",
-      "it": "Faccio sempre colazione a casa, a volte prendo un tè e non bevo mai vino."
+      "it": "Faccio sempre colazione a casa, a volte prendo un tè e non bevo mai vino.",
+      "uk": "Я завжди снідаю вдома, іноді п'ю чай і ніколи не п'ю вина."
      }
     }
    ]
@@ -1284,12 +1443,14 @@
    "id": "u6l4",
    "goal": {
     "en": "Ask questions with what, where, when, who, why and how much.",
-    "it": "Fare domande con cosa, dove, quando, chi, perché e quanto."
+    "it": "Fare domande con cosa, dove, quando, chi, perché e quanto.",
+    "uk": "Став запитання зі словами що, де, коли, хто, чому і скільки."
    },
    "target": {
     "es": "¿Dónde vives y por qué estudias español?",
     "en": "Where do you live and why are you studying Spanish?",
-    "it": "Dove vivi e perché studi spagnolo?"
+    "it": "Dove vivi e perché studi spagnolo?",
+    "uk": "Де ти живеш і чому ти вчиш іспанську?"
    },
    "items": [
     {
@@ -1299,18 +1460,21 @@
        "es": "¿cuándo?",
        "en": "when?",
        "it": "quando?",
+       "uk": "коли?",
        "kind": "chunk"
       },
       {
        "es": "¿quién?",
        "en": "who?",
        "it": "chi?",
+       "uk": "хто?",
        "kind": "chunk"
       },
       {
        "es": "¿por qué?",
        "en": "why?",
        "it": "perché?",
+       "uk": "чому?",
        "kind": "chunk"
       }
      ]
@@ -1322,18 +1486,21 @@
        "es": "¿cuál?",
        "en": "which?",
        "it": "quale?",
+       "uk": "який? котрий?",
        "kind": "chunk"
       },
       {
        "es": "¿adónde?",
        "en": "where to?",
        "it": "dove? (verso dove)",
+       "uk": "куди?",
        "kind": "chunk"
       },
       {
        "es": "cuando",
        "en": "when (not a question)",
        "it": "quando",
+       "uk": "коли (не в запитанні)",
        "kind": "rail"
       }
      ]
@@ -1352,35 +1519,41 @@
      ],
      "rule": {
       "en": "Question words carry an accent and go first, then the verb: ¿qué...? ¿dónde...? ¿cuándo...? ¿cómo...?",
-      "it": "Le parole interrogative hanno l'accento e vanno all'inizio, poi il verbo: ¿qué...? ¿dónde...? ¿cuándo...? ¿cómo...?"
+      "it": "Le parole interrogative hanno l'accento e vanno all'inizio, poi il verbo: ¿qué...? ¿dónde...? ¿cuándo...? ¿cómo...?",
+      "uk": "Питальні слова мають знак наголосу і стоять на початку, а потім дієслово: ¿qué...? ¿dónde...? ¿cuándo...? ¿cómo...?"
      },
      "examples": [
       {
        "es": "¿Qué comes?",
        "en": "What do you eat?",
-       "it": "Cosa mangi?"
+       "it": "Cosa mangi?",
+       "uk": "Що ти їси?"
       },
       {
        "es": "¿Dónde vives?",
        "en": "Where do you live?",
-       "it": "Dove vivi?"
+       "it": "Dove vivi?",
+       "uk": "Де ти живеш?"
       },
       {
        "es": "¿Cuándo estudias?",
        "en": "When do you study?",
-       "it": "Quando studi?"
+       "it": "Quando studi?",
+       "uk": "Коли ти вчишся?"
       }
      ],
      "teaches": [
       {
        "es": "¿qué?",
        "en": "what?",
-       "it": "cosa? che?"
+       "it": "cosa? che?",
+       "uk": "що?"
       },
       {
        "es": "¿cómo?",
        "en": "how?",
-       "it": "come?"
+       "it": "come?",
+       "uk": "як?"
       }
      ]
     },
@@ -1397,9 +1570,11 @@
      "answer": "Dónde",
      "en": "Where do you live? In {city}.",
      "it": "Dove vivi? A {city}.",
+     "uk": "Де ти живеш? У місті {city}.",
      "hint": {
       "en": "The answer is a place: dónde.",
-      "it": "La risposta è un luogo: dónde."
+      "it": "La risposta è un luogo: dónde.",
+      "uk": "Відповідь — це місце: dónde."
      }
     },
     {
@@ -1407,7 +1582,8 @@
      "beat": "fire",
      "intention": {
       "en": "Ask a friend when they go to the gym.",
-      "it": "Chiedi a un amico quando va in palestra."
+      "it": "Chiedi a un amico quando va in palestra.",
+      "uk": "Коли ти ходиш у спортзал?"
      },
      "accepted": [
       "¿Cuándo vas al gimnasio?"
@@ -1421,9 +1597,11 @@
      ],
      "en": "When do you go to the gym?",
      "it": "Quando vai in palestra?",
+     "uk": "Запитай друга, коли він ходить у спортзал.",
      "hint": {
       "en": "Question word first: ¿cuándo? + vas.",
-      "it": "Prima la parola interrogativa: ¿cuándo? + vas."
+      "it": "Prima la parola interrogativa: ¿cuándo? + vas.",
+      "uk": "Спочатку питальне слово: ¿cuándo? + vas."
      }
     },
     {
@@ -1440,23 +1618,27 @@
      ],
      "rule": {
       "en": "¿Dónde? asks where something is. With ir (going somewhere) use ¿adónde?: where to.",
-      "it": "¿Dónde? chiede dove si trova qualcosa. Con ir (andare da qualche parte) usa ¿adónde?: verso dove."
+      "it": "¿Dónde? chiede dove si trova qualcosa. Con ir (andare da qualche parte) usa ¿adónde?: verso dove.",
+      "uk": "¿Dónde? питає, де щось є. З ir (йти кудись) вживай ¿adónde?: куди."
      },
      "examples": [
       {
        "es": "¿Dónde estás?",
        "en": "Where are you?",
-       "it": "Dove sei?"
+       "it": "Dove sei?",
+       "uk": "Де ти?"
       },
       {
        "es": "¿Adónde vas? Voy a la playa.",
        "en": "Where are you going? To the beach.",
-       "it": "Dove vai? Vado in spiaggia."
+       "it": "Dove vai? Vado in spiaggia.",
+       "uk": "Куди ти йдеш? На пляж."
       },
       {
        "es": "¿Adónde vais el sábado?",
        "en": "Where are you all going on Saturday?",
-       "it": "Dove andate sabato?"
+       "it": "Dove andate sabato?",
+       "uk": "Куди ви йдете в суботу?"
       }
      ]
     },
@@ -1472,9 +1654,11 @@
      "answer": "Adónde",
      "en": "Where are you going on Friday? To the cinema.",
      "it": "Dove vai venerdì? Al cinema.",
+     "uk": "Куди ти йдеш у п'ятницю? У кіно.",
      "hint": {
       "en": "Going somewhere (ir): adónde.",
-      "it": "Andare da qualche parte (ir): adónde."
+      "it": "Andare da qualche parte (ir): adónde.",
+      "uk": "Йти кудись (ir): adónde."
      }
     },
     {
@@ -1489,9 +1673,11 @@
      "answer": "Dónde",
      "en": "Where is the bank?",
      "it": "Dov'è la banca?",
+     "uk": "Де банк?",
      "hint": {
       "en": "Where something is (estar): dónde.",
-      "it": "Dove si trova (estar): dónde."
+      "it": "Dove si trova (estar): dónde.",
+      "uk": "Де щось є (estar): dónde."
      }
     },
     {
@@ -1508,45 +1694,53 @@
      ],
      "rule": {
       "en": "Some question words have a plural: ¿quién? for one person, ¿quiénes? for more. Same with ¿cuál? / ¿cuáles?, and ¿cuánto? / ¿cuántas? for la words.",
-      "it": "Alcune parole interrogative hanno il plurale: ¿quién? per una persona, ¿quiénes? per più persone. Lo stesso con ¿cuál? / ¿cuáles?, e ¿cuánto? / ¿cuántas? con le parole femminili."
+      "it": "Alcune parole interrogative hanno il plurale: ¿quién? per una persona, ¿quiénes? per più persone. Lo stesso con ¿cuál? / ¿cuáles?, e ¿cuánto? / ¿cuántas? con le parole femminili.",
+      "uk": "Деякі питальні слова мають множину: ¿quién? — про одну людину, ¿quiénes? — про кількох. Так само ¿cuál? / ¿cuáles?, і ¿cuánto? / ¿cuántas? для слів з la."
      },
      "examples": [
       {
        "es": "¿Quién es? ¿Quiénes son?",
        "en": "Who is it? Who are they?",
-       "it": "Chi è? Chi sono?"
+       "it": "Chi è? Chi sono?",
+       "uk": "Хто це? Хто вони?"
       },
       {
        "es": "¿Cuál prefieres?",
        "en": "Which one do you prefer?",
-       "it": "Quale preferisci?"
+       "it": "Quale preferisci?",
+       "uk": "Котрий тобі більше подобається?"
       },
       {
        "es": "¿Cuántas manzanas quieres?",
        "en": "How many apples do you want?",
-       "it": "Quante mele vuoi?"
+       "it": "Quante mele vuoi?",
+       "uk": "Скільки яблук ти хочеш?"
       }
      ],
      "teaches": [
       {
        "es": "¿quiénes?",
        "en": "who? (more than one)",
-       "it": "chi? (più persone)"
+       "it": "chi? (più persone)",
+       "uk": "хто? (кілька людей)"
       },
       {
        "es": "¿cuáles?",
        "en": "which ones?",
-       "it": "quali?"
+       "it": "quali?",
+       "uk": "які? котрі?"
       },
       {
        "es": "¿cuánto?",
        "en": "how much?",
-       "it": "quanto?"
+       "it": "quanto?",
+       "uk": "скільки?"
       },
       {
        "es": "¿cuántas?",
        "en": "how many? (la words)",
-       "it": "quante?"
+       "it": "quante?",
+       "uk": "скільки? (слова з la)"
       }
      ]
     },
@@ -1562,9 +1756,11 @@
      "answer": "Quiénes",
      "en": "Who are your friends?",
      "it": "Chi sono i tuoi amici?",
+     "uk": "Хто твої друзі?",
      "hint": {
       "en": "More than one person: quiénes.",
-      "it": "Più persone: quiénes."
+      "it": "Più persone: quiénes.",
+      "uk": "Кілька людей: quiénes."
      }
     },
     {
@@ -1580,9 +1776,11 @@
      "answer": "Cuántas",
      "en": "How many apples do you want?",
      "it": "Quante mele vuoi?",
+     "uk": "Скільки яблук ти хочеш?",
      "hint": {
       "en": "Las manzanas: cuántas.",
-      "it": "Las manzanas: cuántas."
+      "it": "Las manzanas: cuántas.",
+      "uk": "Las manzanas: cuántas."
      }
     },
     {
@@ -1599,23 +1797,27 @@
      ],
      "rule": {
       "en": "With an accent it's a question: ¿por qué? (why?), ¿cuándo? (when?). Without it, it joins sentences: porque (because), cuando (when).",
-      "it": "Con l'accento è una domanda: ¿por qué?, ¿cuándo?. Senza, unisce le frasi: porque (perché, risposta), cuando (quando)."
+      "it": "Con l'accento è una domanda: ¿por qué?, ¿cuándo?. Senza, unisce le frasi: porque (perché, risposta), cuando (quando).",
+      "uk": "З наголосом це запитання: ¿por qué? (чому?), ¿cuándo? (коли?). Без наголосу це слово поєднує речення: porque (бо, тому що), cuando (коли)."
      },
      "examples": [
       {
        "es": "¿Por qué estudias español? Porque me gusta.",
        "en": "Why are you studying Spanish? Because I like it.",
-       "it": "Perché studi spagnolo? Perché mi piace."
+       "it": "Perché studi spagnolo? Perché mi piace.",
+       "uk": "Чому ти вчиш іспанську? Бо мені подобається."
       },
       {
        "es": "¿Cuándo descansas? Cuando no trabajo.",
        "en": "When do you rest? When I'm not working.",
-       "it": "Quando ti riposi? Quando non lavoro."
+       "it": "Quando ti riposi? Quando non lavoro.",
+       "uk": "Коли ти відпочиваєш? Коли не працюю."
       },
       {
        "es": "Cuando tengo hambre, como pizza.",
        "en": "When I'm hungry, I eat pizza.",
-       "it": "Quando ho fame, mangio la pizza."
+       "it": "Quando ho fame, mangio la pizza.",
+       "uk": "Коли я голодний(-а), я їм піцу."
       }
      ]
     },
@@ -1631,9 +1833,11 @@
      "answer": "Porque",
      "en": "Why aren't you eating? Because I'm not hungry.",
      "it": "Perché non mangi? Perché non ho fame.",
+     "uk": "Чому ти не їси? Бо я не голодний(-а).",
      "hint": {
       "en": "It's the answer, not the question: porque.",
-      "it": "È la risposta, non la domanda: porque."
+      "it": "È la risposta, non la domanda: porque.",
+      "uk": "Це відповідь, а не запитання: porque."
      }
     },
     {
@@ -1641,7 +1845,8 @@
      "beat": "fire",
      "intention": {
       "en": "Say that when you're hungry, you eat pizza.",
-      "it": "Di che quando hai fame mangi la pizza."
+      "it": "Di che quando hai fame mangi la pizza.",
+      "uk": "Коли я голодний(-а), я їм піцу."
      },
      "accepted": [
       "Cuando tengo hambre, como pizza.",
@@ -1657,9 +1862,11 @@
      ],
      "en": "When I'm hungry, I eat pizza.",
      "it": "Quando ho fame, mangio la pizza.",
+     "uk": "Скажи, що коли ти голодний(-а), ти їси піцу.",
      "hint": {
       "en": "Not a question, so cuando without an accent.",
-      "it": "Non è una domanda, quindi cuando senza accento."
+      "it": "Non è una domanda, quindi cuando senza accento.",
+      "uk": "Це не запитання, тому cuando без наголосу."
      }
     },
     {
@@ -1675,9 +1882,11 @@
      "answer": "Cómo",
      "en": "What's your name?",
      "it": "Come ti chiami?",
+     "uk": "Як тебе звати?",
      "hint": {
       "en": "Asking a name: ¿cómo te llamas?",
-      "it": "Per chiedere il nome: ¿cómo te llamas?"
+      "it": "Per chiedere il nome: ¿cómo te llamas?",
+      "uk": "Щоб запитати ім'я: ¿cómo te llamas?"
      }
     },
     {
@@ -1693,9 +1902,11 @@
      "answer": "Cuánto",
      "en": "How much is the bread?",
      "it": "Quanto costa il pane?",
+     "uk": "Скільки коштує хліб?",
      "hint": {
       "en": "A price: ¿cuánto cuesta?",
-      "it": "Un prezzo: ¿cuánto cuesta?"
+      "it": "Un prezzo: ¿cuánto cuesta?",
+      "uk": "Ціна: ¿cuánto cuesta?"
      }
     },
     {
@@ -1703,7 +1914,8 @@
      "beat": "mix",
      "intention": {
       "en": "Ask a friend where they're going on Saturday.",
-      "it": "Chiedi a un'amica dove va sabato."
+      "it": "Chiedi a un'amica dove va sabato.",
+      "uk": "Куди ти йдеш у суботу?"
      },
      "accepted": [
       "¿Adónde vas el sábado?",
@@ -1718,9 +1930,11 @@
      ],
      "en": "Where are you going on Saturday?",
      "it": "Dove vai sabato?",
+     "uk": "Запитай подругу, куди вона йде в суботу.",
      "hint": {
       "en": "Going somewhere: adónde + vas.",
-      "it": "Andare da qualche parte: adónde + vas."
+      "it": "Andare da qualche parte: adónde + vas.",
+      "uk": "Йти кудись: adónde + vas."
      }
     },
     {
@@ -1728,7 +1942,8 @@
      "beat": "mix",
      "instruction": {
       "en": "You meet someone new. Write in Spanish: «Where do you live? What do you like? When do you study Spanish?»",
-      "it": "Conosci una persona nuova. Scrivi in spagnolo: «Dove vivi? Cosa ti piace? Quando studi spagnolo?»"
+      "it": "Conosci una persona nuova. Scrivi in spagnolo: «Dove vivi? Cosa ti piace? Quando studi spagnolo?»",
+      "uk": "Ти знайомишся з новою людиною. Напиши іспанською: «Де ти живеш? Що тобі подобається? Коли ти вчиш іспанську?»"
      },
      "accepted": [
       "¿Dónde vives? ¿Qué te gusta? ¿Cuándo estudias español?",
@@ -1738,7 +1953,8 @@
      "model": {
       "es": "¿Dónde vives? ¿Qué te gusta? ¿Cuándo estudias español?",
       "en": "Where do you live? What do you like? When do you study Spanish?",
-      "it": "Dove vivi? Cosa ti piace? Quando studi spagnolo?"
+      "it": "Dove vivi? Cosa ti piace? Quando studi spagnolo?",
+      "uk": "Де ти живеш? Що тобі подобається? Коли ти вчиш іспанську?"
      }
     }
    ]
@@ -1747,12 +1963,14 @@
    "id": "u6l5",
    "goal": {
     "en": "Tell someone about your week in 6 linked sentences.",
-    "it": "Raccontare la tua settimana in 6 frasi collegate."
+    "it": "Raccontare la tua settimana in 6 frasi collegate.",
+    "uk": "Розкажи комусь про свій тиждень у 6 пов'язаних реченнях."
    },
    "target": {
     "es": "Los lunes termino a las cinco y llego a casa a las seis.",
     "en": "On Mondays I finish at five and get home at six.",
-    "it": "Il lunedì finisco alle cinque e arrivo a casa alle sei."
+    "it": "Il lunedì finisco alle cinque e arrivo a casa alle sei.",
+    "uk": "По понеділках я закінчую о п'ятій і приходжу додому о шостій."
    },
    "items": [
     {
@@ -1762,18 +1980,21 @@
        "es": "terminar",
        "en": "to finish",
        "it": "finire",
+       "uk": "закінчувати",
        "kind": "stem"
       },
       {
        "es": "llegar",
        "en": "to arrive, to get to",
        "it": "arrivare",
+       "uk": "приходити, приїжджати, діставатися",
        "kind": "stem"
       },
       {
        "es": "a casa",
        "en": "home (going home)",
        "it": "a casa",
+       "uk": "додому",
        "kind": "chunk"
       }
      ]
@@ -1785,18 +2006,21 @@
        "es": "el desayuno",
        "en": "breakfast",
        "it": "la colazione",
+       "uk": "сніданок",
        "kind": "chunk"
       },
       {
        "es": "la comida",
        "en": "lunch (the main meal)",
        "it": "il pranzo",
+       "uk": "обід (головна їжа дня)",
        "kind": "chunk"
       },
       {
        "es": "una clase",
        "en": "a class, a lesson",
        "it": "una lezione",
+       "uk": "заняття, урок",
        "kind": "chunk"
       }
      ]
@@ -1819,85 +2043,101 @@
      },
      "rule": {
       "en": "Terminar (to finish) and llegar (to arrive) are regular AR verbs. Llegar a casa = to get home.",
-      "it": "Terminar (finire) e llegar (arrivare) sono verbi regolari in AR. Llegar a casa = arrivare a casa."
+      "it": "Terminar (finire) e llegar (arrivare) sono verbi regolari in AR. Llegar a casa = arrivare a casa.",
+      "uk": "Terminar (закінчувати) і llegar (приходити) — правильні дієслова на AR. Llegar a casa = приходити додому."
      },
      "examples": [
       {
        "es": "Termino a las cinco.",
        "en": "I finish at five.",
-       "it": "Finisco alle cinque."
+       "it": "Finisco alle cinque.",
+       "uk": "Я закінчую о п'ятій."
       },
       {
        "es": "Llego a casa a las seis.",
        "en": "I get home at six.",
-       "it": "Arrivo a casa alle sei."
+       "it": "Arrivo a casa alle sei.",
+       "uk": "Я приходжу додому о шостій."
       },
       {
        "es": "¿A qué hora llegas al trabajo?",
        "en": "What time do you get to work?",
-       "it": "A che ora arrivi al lavoro?"
+       "it": "A che ora arrivi al lavoro?",
+       "uk": "О котрій ти приходиш на роботу?"
       }
      ],
      "teaches": [
       {
        "es": "termino",
        "en": "I finish",
-       "it": "finisco"
+       "it": "finisco",
+       "uk": "я закінчую"
       },
       {
        "es": "terminas",
        "en": "you finish",
-       "it": "finisci"
+       "it": "finisci",
+       "uk": "ти закінчуєш"
       },
       {
        "es": "termina",
        "en": "he/she finishes",
-       "it": "finisce"
+       "it": "finisce",
+       "uk": "він/вона закінчує"
       },
       {
        "es": "terminamos",
        "en": "we finish",
-       "it": "finiamo"
+       "it": "finiamo",
+       "uk": "ми закінчуємо"
       },
       {
        "es": "termináis",
        "en": "you all finish",
-       "it": "finite"
+       "it": "finite",
+       "uk": "ви закінчуєте"
       },
       {
        "es": "terminan",
        "en": "they finish",
-       "it": "finiscono"
+       "it": "finiscono",
+       "uk": "вони закінчують"
       },
       {
        "es": "llego",
        "en": "I arrive",
-       "it": "arrivo"
+       "it": "arrivo",
+       "uk": "я приходжу"
       },
       {
        "es": "llegas",
        "en": "you arrive",
-       "it": "arrivi"
+       "it": "arrivi",
+       "uk": "ти приходиш"
       },
       {
        "es": "llega",
        "en": "he/she arrives",
-       "it": "arriva"
+       "it": "arriva",
+       "uk": "він/вона приходить"
       },
       {
        "es": "llegamos",
        "en": "we arrive",
-       "it": "arriviamo"
+       "it": "arriviamo",
+       "uk": "ми приходимо"
       },
       {
        "es": "llegáis",
        "en": "you all arrive",
-       "it": "arrivate"
+       "it": "arrivate",
+       "uk": "ви приходите"
       },
       {
        "es": "llegan",
        "en": "they arrive",
-       "it": "arrivano"
+       "it": "arrivano",
+       "uk": "вони приходять"
       }
      ]
     },
@@ -1907,7 +2147,8 @@
      "person": "yo",
      "prompt": {
       "en": "I arrive",
-      "it": "arrivo"
+      "it": "arrivo",
+      "uk": "я приходжу"
      },
      "stems": [
       "lleg",
@@ -1935,9 +2176,11 @@
      ],
      "en": "My sister finishes at five.",
      "it": "Mia sorella finisce alle cinque.",
+     "uk": "Моя сестра закінчує о п'ятій.",
      "hint": {
       "en": "Mi hermana = ella: -a.",
-      "it": "Mi hermana = ella: -a."
+      "it": "Mi hermana = ella: -a.",
+      "uk": "Mi hermana = ella: -a."
      }
     },
     {
@@ -1958,23 +2201,27 @@
      ],
      "rule": {
       "en": "Link short sentences with y, pero, porque and cuando. Six small sentences, well linked, already tell a whole week.",
-      "it": "Collega le frasi brevi con y, pero, porque e cuando. Sei frasi piccole, ben collegate, raccontano già una settimana intera."
+      "it": "Collega le frasi brevi con y, pero, porque e cuando. Sei frasi piccole, ben collegate, raccontano già una settimana intera.",
+      "uk": "Поєднуй короткі речення словами y, pero, porque і cuando. Шість маленьких, добре пов'язаних речень — це вже розповідь про цілий тиждень."
      },
      "examples": [
       {
        "es": "Termino a las cinco y llego a casa a las seis.",
        "en": "I finish at five and get home at six.",
-       "it": "Finisco alle cinque e arrivo a casa alle sei."
+       "it": "Finisco alle cinque e arrivo a casa alle sei.",
+       "uk": "Я закінчую о п'ятій і приходжу додому о шостій."
       },
       {
        "es": "Los lunes estudio, pero los martes descanso.",
        "en": "On Mondays I study, but on Tuesdays I rest.",
-       "it": "Il lunedì studio, ma il martedì mi riposo."
+       "it": "Il lunedì studio, ma il martedì mi riposo.",
+       "uk": "По понеділках я вчуся, а по вівторках відпочиваю."
       },
       {
        "es": "Cuando llego a casa, ceno.",
        "en": "When I get home, I have dinner.",
-       "it": "Quando arrivo a casa, ceno."
+       "it": "Quando arrivo a casa, ceno.",
+       "uk": "Коли я приходжу додому, я вечеряю."
       }
      ]
     },
@@ -1991,9 +2238,11 @@
      "answer": "porque",
      "en": "I eat at work because I finish late.",
      "it": "Mangio al lavoro perché finisco tardi.",
+     "uk": "Я обідаю на роботі, бо закінчую пізно.",
      "hint": {
       "en": "The second part is the reason: porque.",
-      "it": "La seconda parte è il motivo: porque."
+      "it": "La seconda parte è il motivo: porque.",
+      "uk": "Друга частина — це причина: porque."
      }
     },
     {
@@ -2001,7 +2250,8 @@
      "beat": "fire",
      "intention": {
       "en": "Say that when you get home, you rest.",
-      "it": "Di che quando arrivi a casa ti riposi."
+      "it": "Di che quando arrivi a casa ti riposi.",
+      "uk": "Коли я приходжу додому, я відпочиваю."
      },
      "accepted": [
       "Cuando llego a casa, descanso.",
@@ -2017,9 +2267,11 @@
      ],
      "en": "When I get home, I rest.",
      "it": "Quando arrivo a casa, mi riposo.",
+     "uk": "Скажи, що коли ти приходиш додому, ти відпочиваєш.",
      "hint": {
       "en": "Not a question: cuando without an accent.",
-      "it": "Non è una domanda: cuando senza accento."
+      "it": "Non è una domanda: cuando senza accento.",
+      "uk": "Не запитання: cuando без наголосу."
      }
     },
     {
@@ -2036,23 +2288,27 @@
      ],
      "rule": {
       "en": "In Spain la comida (lunch) is the big meal of the day, around two. El desayuno is small.",
-      "it": "In Spagna la comida (il pranzo) è il pasto principale, verso le due. El desayuno è leggero."
+      "it": "In Spagna la comida (il pranzo) è il pasto principale, verso le due. El desayuno è leggero.",
+      "uk": "В Іспанії la comida (обід) — головна їжа дня, десь о другій. El desayuno невеликий."
      },
      "examples": [
       {
        "es": "El desayuno es a las ocho.",
        "en": "Breakfast is at eight.",
-       "it": "La colazione è alle otto."
+       "it": "La colazione è alle otto.",
+       "uk": "Сніданок о восьмій."
       },
       {
        "es": "La comida es a las dos.",
        "en": "Lunch is at two.",
-       "it": "Il pranzo è alle due."
+       "it": "Il pranzo è alle due.",
+       "uk": "Обід о другій."
       },
       {
        "es": "Tengo una clase de español los jueves.",
        "en": "I have a Spanish class on Thursdays.",
-       "it": "Ho lezione di spagnolo il giovedì."
+       "it": "Ho lezione di spagnolo il giovedì.",
+       "uk": "По четвергах у мене заняття з іспанської."
       }
      ]
     },
@@ -2068,9 +2324,11 @@
      "answer": "la comida",
      "en": "In Spain, lunch is at two.",
      "it": "In Spagna il pranzo è alle due.",
+     "uk": "В Іспанії обід о другій.",
      "hint": {
       "en": "The big meal around two: la comida.",
-      "it": "Il pasto grande verso le due: la comida."
+      "it": "Il pasto grande verso le due: la comida.",
+      "uk": "Головна їжа десь о другій: la comida."
      }
     },
     {
@@ -2078,7 +2336,8 @@
      "beat": "fire",
      "intention": {
       "en": "Say that you have a Spanish class on Thursdays.",
-      "it": "Di che hai lezione di spagnolo il giovedì."
+      "it": "Di che hai lezione di spagnolo il giovedì.",
+      "uk": "По четвергах у мене заняття з іспанської."
      },
      "accepted": [
       "Tengo una clase de español los jueves.",
@@ -2095,9 +2354,11 @@
      ],
      "en": "I have a Spanish class on Thursdays.",
      "it": "Ho lezione di spagnolo il giovedì.",
+     "uk": "Скажи, що по четвергах у тебе заняття з іспанської.",
      "hint": {
       "en": "Every Thursday: los jueves.",
-      "it": "Ogni giovedì: los jueves."
+      "it": "Ogni giovedì: los jueves.",
+      "uk": "Щочетверга: los jueves."
      }
     },
     {
@@ -2111,9 +2372,11 @@
      ],
      "en": "What time do you get home?",
      "it": "A che ora arrivi a casa?",
+     "uk": "О котрій ти приходиш додому?",
      "hint": {
       "en": "Tú: AR verbs end in -as.",
-      "it": "Tú: i verbi in AR finiscono in -as."
+      "it": "Tú: i verbi in AR finiscono in -as.",
+      "uk": "Tú: дієслова на AR закінчуються на -as."
      }
     },
     {
@@ -2129,9 +2392,11 @@
      "answer": "Cuando",
      "en": "When I finish work, I go to the gym.",
      "it": "Quando finisco di lavorare, vado in palestra.",
+     "uk": "Коли я закінчую роботу, я йду в спортзал.",
      "hint": {
       "en": "Not a question: cuando without an accent.",
-      "it": "Non è una domanda: cuando senza accento."
+      "it": "Non è una domanda: cuando senza accento.",
+      "uk": "Не запитання: cuando без наголосу."
      }
     },
     {
@@ -2139,7 +2404,8 @@
      "beat": "mix",
      "intention": {
       "en": "Say that on Fridays you finish at three.",
-      "it": "Di che il venerdì finisci alle tre."
+      "it": "Di che il venerdì finisci alle tre.",
+      "uk": "По п'ятницях я закінчую о третій."
      },
      "accepted": [
       "Los viernes termino a las tres.",
@@ -2155,9 +2421,11 @@
      ],
      "en": "On Fridays I finish at three.",
      "it": "Il venerdì finisco alle tre.",
+     "uk": "Скажи, що по п'ятницях ти закінчуєш о третій.",
      "hint": {
       "en": "Every Friday: los viernes, then termino.",
-      "it": "Ogni venerdì: los viernes, poi termino."
+      "it": "Ogni venerdì: los viernes, poi termino.",
+      "uk": "Щоп'ятниці: los viernes, потім termino."
      }
     },
     {
@@ -2165,7 +2433,8 @@
      "beat": "mix",
      "instruction": {
       "en": "Tell a friend about your week. Write in Spanish: «On Mondays I arrive at nine and finish at five. On Tuesdays I have a Spanish class because I love it.»",
-      "it": "Racconta a un amico la tua settimana. Scrivi in spagnolo: «Il lunedì arrivo alle nove e finisco alle cinque. Il martedì ho lezione di spagnolo perché mi piace tantissimo.»"
+      "it": "Racconta a un amico la tua settimana. Scrivi in spagnolo: «Il lunedì arrivo alle nove e finisco alle cinque. Il martedì ho lezione di spagnolo perché mi piace tantissimo.»",
+      "uk": "Розкажи другові про свій тиждень. Напиши іспанською: «По понеділках я приходжу о дев'ятій і закінчую о п'ятій. По вівторках у мене заняття з іспанської, бо я її обожнюю.»"
      },
      "accepted": [
       "Los lunes llego a las nueve y termino a las cinco. Los martes tengo una clase de español porque me encanta.",
@@ -2177,7 +2446,8 @@
      "model": {
       "es": "Los lunes llego a las nueve y termino a las cinco. Los martes tengo una clase de español porque me encanta.",
       "en": "On Mondays I arrive at nine and finish at five. On Tuesdays I have a Spanish class because I love it.",
-      "it": "Il lunedì arrivo alle nove e finisco alle cinque. Il martedì ho lezione di spagnolo perché mi piace tantissimo."
+      "it": "Il lunedì arrivo alle nove e finisco alle cinque. Il martedì ho lezione di spagnolo perché mi piace tantissimo.",
+      "uk": "По понеділках я приходжу о дев'ятій і закінчую о п'ятій. По вівторках у мене заняття з іспанської, бо я її обожнюю."
      }
     }
    ]
@@ -2187,7 +2457,8 @@
   "id": "u6boss",
   "goal": {
    "en": "You're at a language exchange in Madrid. Answer your exchange partner's questions and tell her about your week.",
-   "it": "Sei a uno scambio linguistico a Madrid. Rispondi alle domande della tua compagna di scambio e raccontale la tua settimana."
+   "it": "Sei a uno scambio linguistico a Madrid. Rispondi alle domande della tua compagna di scambio e raccontale la tua settimana.",
+   "uk": "Ти на мовному обміні в Мадриді. Відповідай на запитання своєї партнерки по обміну і розкажи їй про свій тиждень."
   },
   "items": [
    {
@@ -2197,12 +2468,14 @@
       "es": "el intercambio",
       "en": "the (language) exchange",
       "it": "lo scambio linguistico",
+      "uk": "мовний обмін",
       "kind": "chunk"
      },
      {
       "es": "más despacio",
       "en": "more slowly",
       "it": "più piano",
+      "uk": "повільніше",
       "kind": "chunk"
      }
     ]
@@ -2212,7 +2485,8 @@
     "beat": "fire",
     "intention": {
      "en": "Your exchange partner says «¡Hola! ¿Cómo te llamas?». Say hello and tell her your name.",
-     "it": "La tua compagna di scambio dice «¡Hola! ¿Cómo te llamas?». Salutala e dille come ti chiami."
+     "it": "La tua compagna di scambio dice «¡Hola! ¿Cómo te llamas?». Salutala e dille come ti chiami.",
+     "uk": "Привіт, мене звати {name}."
     },
     "accepted": [
      "Hola, me llamo {name}.",
@@ -2227,9 +2501,11 @@
     ],
     "en": "Hi, my name is {name}.",
     "it": "Ciao, mi chiamo {name}.",
+    "uk": "Твоя партнерка по обміну каже «¡Hola! ¿Cómo te llamas?». Привітайся і скажи, як тебе звати.",
     "hint": {
      "en": "About yourself: me llamo.",
-     "it": "Parli di te: me llamo."
+     "it": "Parli di te: me llamo.",
+     "uk": "Про себе: me llamo."
     }
    },
    {
@@ -2244,9 +2520,11 @@
     ],
     "en": "Do you speak English or Italian? I speak {languageEn} and a little Spanish.",
     "it": "Parli inglese o italiano? Parlo {languageIt} e un po' di spagnolo.",
+    "uk": "Ти розмовляєш англійською чи італійською? Я розмовляю {languageUk} і трохи іспанською.",
     "hint": {
      "en": "About yourself: habl- + -o.",
-     "it": "Parli di te: habl- + -o."
+     "it": "Parli di te: habl- + -o.",
+     "uk": "Про себе: habl- + -o."
     }
    },
    {
@@ -2254,7 +2532,8 @@
     "beat": "fire",
     "intention": {
      "en": "She speaks very fast. Ask her to speak more slowly, please.",
-     "it": "Parla molto veloce. Chiedile di parlare più piano, per favore."
+     "it": "Parla molto veloce. Chiedile di parlare più piano, per favore.",
+     "uk": "Повільніше, будь ласка."
     },
     "accepted": [
      "Más despacio, por favor.",
@@ -2267,9 +2546,11 @@
     ],
     "en": "More slowly, please.",
     "it": "Più piano, per favore.",
+    "uk": "Вона говорить дуже швидко. Попроси її говорити повільніше, будь ласка.",
     "hint": {
      "en": "Más despacio + por favor.",
-     "it": "Más despacio + por favor."
+     "it": "Más despacio + por favor.",
+     "uk": "Más despacio + por favor."
     }
    },
    {
@@ -2277,7 +2558,8 @@
     "beat": "fire",
     "intention": {
      "en": "She asks «¿Dónde trabajas?». Tell her.",
-     "it": "Ti chiede «¿Dónde trabajas?». Rispondile."
+     "it": "Ti chiede «¿Dónde trabajas?». Rispondile.",
+     "uk": "Я працюю {workUk}."
     },
     "accepted": [
      "Trabajo en {work}.",
@@ -2291,9 +2573,11 @@
     ],
     "en": "I work {workEn}.",
     "it": "Lavoro {workIt}.",
+    "uk": "Вона питає «¿Dónde trabajas?». Скажи їй.",
     "hint": {
      "en": "About yourself: trabajo en + the place.",
-     "it": "Parli di te: trabajo en + il luogo."
+     "it": "Parli di te: trabajo en + il luogo.",
+     "uk": "Про себе: trabajo en + місце."
     }
    },
    {
@@ -2309,9 +2593,11 @@
     "answer": "a las",
     "en": "What time do you get to work? I get there at nine.",
     "it": "A che ora arrivi al lavoro? Arrivo alle nove.",
+    "uk": "О котрій ти приходиш на роботу? Я приходжу о дев'ятій.",
     "hint": {
      "en": "At an hour: a las (a la only for one o'clock).",
-     "it": "A un'ora: a las (a la solo per l'una)."
+     "it": "A un'ora: a las (a la solo per l'una).",
+     "uk": "О певній годині: a las (a la тільки для першої)."
     }
    },
    {
@@ -2326,9 +2612,11 @@
     ],
     "en": "And what time do you finish? I finish at five.",
     "it": "E a che ora finisci? Finisco alle cinque.",
+    "uk": "А о котрій ти закінчуєш? Я закінчую о п'ятій.",
     "hint": {
      "en": "About yourself: termin- + -o.",
-     "it": "Parli di te: termin- + -o."
+     "it": "Parli di te: termin- + -o.",
+     "uk": "Про себе: termin- + -o."
     }
    },
    {
@@ -2336,7 +2624,8 @@
     "beat": "fire",
     "intention": {
      "en": "She asks «¿Trabajas los sábados?». Say no, on Saturdays you rest.",
-     "it": "Ti chiede «¿Trabajas los sábados?». Di di no, il sabato ti riposi."
+     "it": "Ti chiede «¿Trabajas los sábados?». Di di no, il sabato ti riposi.",
+     "uk": "Ні, по суботах я відпочиваю."
     },
     "accepted": [
      "No, los sábados descanso.",
@@ -2351,9 +2640,11 @@
     ],
     "en": "No, on Saturdays I rest.",
     "it": "No, il sabato mi riposo.",
+    "uk": "Вона питає «¿Trabajas los sábados?». Скажи «ні», по суботах ти відпочиваєш.",
     "hint": {
      "en": "Every Saturday: los sábados.",
-     "it": "Ogni sabato: los sábados."
+     "it": "Ogni sabato: los sábados.",
+     "uk": "Щосуботи: los sábados."
     }
    },
    {
@@ -2368,9 +2659,11 @@
     "answer": "veces",
     "en": "When do you study Spanish? I study twice a week.",
     "it": "Quando studi spagnolo? Studio due volte a settimana.",
+    "uk": "Коли ти вчиш іспанську? Я вчу двічі на тиждень.",
     "hint": {
      "en": "More than one time: veces.",
-     "it": "Più di una volta: veces."
+     "it": "Più di una volta: veces.",
+     "uk": "Більше ніж один раз: veces."
     }
    },
    {
@@ -2378,7 +2671,8 @@
     "beat": "mix",
     "intention": {
      "en": "She asks «¿Por qué estudias español?». Say it's because you love Spanish.",
-     "it": "Ti chiede «¿Por qué estudias español?». Di che è perché adori lo spagnolo."
+     "it": "Ti chiede «¿Por qué estudias español?». Di che è perché adori lo spagnolo.",
+     "uk": "Бо я обожнюю іспанську."
     },
     "accepted": [
      "Porque me encanta el español.",
@@ -2392,9 +2686,11 @@
     ],
     "en": "Because I love Spanish.",
     "it": "Perché adoro lo spagnolo.",
+    "uk": "Вона питає «¿Por qué estudias español?». Скажи, що це тому, що ти обожнюєш іспанську.",
     "hint": {
      "en": "The answer: porque, one word, no accent.",
-     "it": "La risposta: porque, una parola, senza accento."
+     "it": "La risposta: porque, una parola, senza accento.",
+     "uk": "Відповідь: porque, одним словом, без наголосу."
     }
    },
    {
@@ -2409,9 +2705,11 @@
     "answer": "nunca",
     "en": "Do you cook a lot? No, I hardly ever cook. I'd rather go to a restaurant.",
     "it": "Cucini molto? No, non cucino quasi mai. Preferisco andare al ristorante.",
+    "uk": "Ти багато готуєш? Ні, я майже ніколи не готую. Я краще піду в ресторан.",
     "hint": {
      "en": "Hardly ever: casi nunca.",
-     "it": "Quasi mai: casi nunca."
+     "it": "Quasi mai: casi nunca.",
+     "uk": "Майже ніколи: casi nunca."
     }
    },
    {
@@ -2426,9 +2724,11 @@
     ],
     "en": "Where do you go at weekends? I go to the beach.",
     "it": "Dove vai nel fine settimana? Vado al mare.",
+    "uk": "Куди ти ходиш на вихідних? Я ходжу на пляж.",
     "hint": {
      "en": "Ir is irregular: yo voy.",
-     "it": "Ir è irregolare: yo voy."
+     "it": "Ir è irregolare: yo voy.",
+     "uk": "Ir — неправильне дієслово: yo voy."
     }
    },
    {
@@ -2436,7 +2736,8 @@
     "beat": "mix",
     "instruction": {
      "en": "She asks about your week. Write in Spanish: «On Tuesdays I have a Spanish class because I love it. On Fridays I go to the cinema, but on Saturdays I rest.»",
-     "it": "Ti chiede della tua settimana. Scrivi in spagnolo: «Il martedì ho lezione di spagnolo perché mi piace tantissimo. Il venerdì vado al cinema, ma il sabato mi riposo.»"
+     "it": "Ti chiede della tua settimana. Scrivi in spagnolo: «Il martedì ho lezione di spagnolo perché mi piace tantissimo. Il venerdì vado al cinema, ma il sabato mi riposo.»",
+     "uk": "Вона питає про твій тиждень. Напиши іспанською: «По вівторках у мене заняття з іспанської, бо я її обожнюю. По п'ятницях я ходжу в кіно, а по суботах відпочиваю.»"
     },
     "accepted": [
      "Los martes tengo una clase de español porque me encanta. Los viernes voy al cine, pero los sábados descanso.",
@@ -2448,7 +2749,8 @@
     "model": {
      "es": "Los martes tengo una clase de español porque me encanta. Los viernes voy al cine, pero los sábados descanso.",
      "en": "On Tuesdays I have a Spanish class because I love it. On Fridays I go to the cinema, but on Saturdays I rest.",
-     "it": "Il martedì ho lezione di spagnolo perché mi piace tantissimo. Il venerdì vado al cinema, ma il sabato mi riposo."
+     "it": "Il martedì ho lezione di spagnolo perché mi piace tantissimo. Il venerdì vado al cinema, ma il sabato mi riposo.",
+     "uk": "По вівторках у мене заняття з іспанської, бо я її обожнюю. По п'ятницях я ходжу в кіно, а по суботах відпочиваю."
     }
    }
   ]

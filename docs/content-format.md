@@ -8,6 +8,12 @@ python3 tools/validate_content.py            # all units
 python3 tools/validate_content.py u3 u4      # only these units (earlier units still count for vocabulary)
 ```
 
+Learners' languages: every text for the learner exists in English (`en`), Italian (`it`) and Ukrainian (`uk`).
+Wherever an object has `en` and `it`, it also has `uk`; the validator rejects a missing one. Placeholders:
+`{workEn}` / `{workIt}` / `{workUk}` (where the learner works), `{languageEn}` / `{languageIt}` / `{languageUk}`
+(their language as in "I speak …"; in Ukrainian the instrumental, "українською"). Ukrainian writing
+instructions read "Напиши іспанською: «…»".
+
 ## Carla's lesson rules (non-negotiable)
 
 1. **Go slowly. No word is used before it is introduced.** Every Spanish word in an exercise or an
@@ -131,7 +137,7 @@ the subject pronoun, other word orders…); the first is the model answer. Accen
 
 ```json
 {"type": "write", "beat": "mix",
- "instruction": {"en": "Write in Spanish: «We speak Spanish and we eat a lot.»", "it": "Scrivi in spagnolo: «Parliamo spagnolo e mangiamo molto.»"},
+ "instruction": {"en": "Write in Spanish: «We speak Spanish and we eat a lot.»", "it": "Scrivi in spagnolo: «Parliamo spagnolo e mangiamo molto.»", "uk": "Напиши іспанською: «Ми розмовляємо іспанською і багато їмо.»"},
  "accepted": ["Nosotros hablamos español y comemos mucho.", "Hablamos español y comemos mucho.", "Nosotros hablamos español y nosotros comemos mucho."],
  "model": {"es": "Nosotros hablamos español y comemos mucho.", "en": "We speak Spanish and we eat a lot.", "it": "Parliamo spagnolo e mangiamo molto."}}
 ```

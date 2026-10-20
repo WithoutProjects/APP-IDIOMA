@@ -5,12 +5,14 @@
       "id": "u8l1",
       "goal": {
         "en": "Say what you do and when you go out.",
-        "it": "Di cosa fai e quando esci."
+        "it": "Di cosa fai e quando esci.",
+        "uk": "Скажи, що ти робиш і коли виходиш з дому."
       },
       "target": {
         "es": "Los sábados hago la compra y por la noche salgo con mis amigos.",
         "en": "On Saturdays I do the food shopping and at night I go out with my friends.",
-        "it": "Il sabato faccio la spesa e la sera esco con i miei amici."
+        "it": "Il sabato faccio la spesa e la sera esco con i miei amici.",
+        "uk": "По суботах я купую продукти, а ввечері йду гуляти з друзями."
       },
       "items": [
         {
@@ -20,30 +22,35 @@
               "es": "hacer",
               "en": "to do, to make",
               "it": "fare",
+              "uk": "робити",
               "kind": "stem"
             },
             {
               "es": "salir",
               "en": "to go out, to leave",
               "it": "uscire",
+              "uk": "виходити, іти гуляти",
               "kind": "stem"
             },
             {
               "es": "la compra",
               "en": "the food shopping",
               "it": "la spesa",
+              "uk": "покупки продуктів",
               "kind": "chunk"
             },
             {
               "es": "ejercicio",
               "en": "exercise",
               "it": "esercizio fisico",
+              "uk": "фізичні вправи",
               "kind": "chunk"
             },
             {
               "es": "entonces",
               "en": "so, then",
               "it": "allora",
+              "uk": "отже, тоді",
               "kind": "rail"
             }
           ]
@@ -70,55 +77,65 @@
           },
           "rule": {
             "en": "Some verbs are irregular only with yo. hacer (to do, to make) gives hago; the rest is regular: haces, hace, hacemos.",
-            "it": "Alcuni verbi sono irregolari solo con yo. hacer (fare) dà hago; il resto è regolare: haces, hace, hacemos."
+            "it": "Alcuni verbi sono irregolari solo con yo. hacer (fare) dà hago; il resto è regolare: haces, hace, hacemos.",
+            "uk": "Деякі дієслова неправильні лише з yo. hacer (робити) дає hago; решта форм правильні: haces, hace, hacemos."
           },
           "examples": [
             {
               "es": "Hago la compra los sábados.",
               "en": "I do the food shopping on Saturdays.",
-              "it": "Faccio la spesa il sabato."
+              "it": "Faccio la spesa il sabato.",
+              "uk": "Я купую продукти по суботах."
             },
             {
               "es": "¿Qué haces hoy?",
               "en": "What are you doing today?",
-              "it": "Cosa fai oggi?"
+              "it": "Cosa fai oggi?",
+              "uk": "Що ти робиш сьогодні?"
             },
             {
               "es": "Ella hace ejercicio por la mañana.",
               "en": "She exercises in the morning.",
-              "it": "Lei fa esercizio fisico la mattina."
+              "it": "Lei fa esercizio fisico la mattina.",
+              "uk": "Вона робить вправи вранці."
             }
           ],
           "teaches": [
             {
               "es": "hago",
               "en": "I do",
-              "it": "faccio"
+              "it": "faccio",
+              "uk": "я роблю"
             },
             {
               "es": "haces",
               "en": "you do",
-              "it": "fai"
+              "it": "fai",
+              "uk": "ти робиш"
             },
             {
               "es": "hace",
               "en": "he/she does",
-              "it": "fa"
+              "it": "fa",
+              "uk": "він/вона робить"
             },
             {
               "es": "hacemos",
               "en": "we do",
-              "it": "facciamo"
+              "it": "facciamo",
+              "uk": "ми робимо"
             },
             {
               "es": "hacéis",
               "en": "you all do",
-              "it": "fate"
+              "it": "fate",
+              "uk": "ви робите"
             },
             {
               "es": "hacen",
               "en": "they do",
-              "it": "fanno"
+              "it": "fanno",
+              "uk": "вони роблять"
             }
           ]
         },
@@ -128,7 +145,8 @@
           "person": "yo",
           "prompt": {
             "en": "I do",
-            "it": "faccio"
+            "it": "faccio",
+            "uk": "я роблю"
           },
           "stems": [
             "hac",
@@ -154,9 +172,11 @@
           ],
           "en": "We do the food shopping on Mondays.",
           "it": "Facciamo la spesa il lunedì.",
+          "uk": "Ми купуємо продукти по понеділках.",
           "hint": {
             "en": "Only yo is irregular: hac- + -emos.",
-            "it": "Solo yo è irregolare: hac- + -emos."
+            "it": "Solo yo è irregolare: hac- + -emos.",
+            "uk": "Неправильна лише форма yo: hac- + -emos."
           }
         },
         {
@@ -181,55 +201,65 @@
           },
           "rule": {
             "en": "salir (to go out, to leave) is the same: salgo with yo, regular for everyone else. salir de = to leave a place; salir con = to go out with.",
-            "it": "salir (uscire) è uguale: salgo con yo, regolare per tutti gli altri. salir de = uscire da un posto; salir con = uscire con."
+            "it": "salir (uscire) è uguale: salgo con yo, regolare per tutti gli altri. salir de = uscire da un posto; salir con = uscire con.",
+            "uk": "salir (виходити) — так само: salgo з yo, правильні форми для всіх інших. salir de = вийти звідкись; salir con = гуляти з кимось."
           },
           "examples": [
             {
               "es": "Salgo de casa a las ocho.",
               "en": "I leave home at eight.",
-              "it": "Esco di casa alle otto."
+              "it": "Esco di casa alle otto.",
+              "uk": "Я виходжу з дому о восьмій."
             },
             {
               "es": "¿Sales con tus amigos el viernes?",
               "en": "Are you going out with your friends on Friday?",
-              "it": "Esci con i tuoi amici venerdì?"
+              "it": "Esci con i tuoi amici venerdì?",
+              "uk": "Ти йдеш гуляти з друзями в п'ятницю?"
             },
             {
               "es": "Salimos por la noche.",
               "en": "We go out at night.",
-              "it": "Usciamo la sera."
+              "it": "Usciamo la sera.",
+              "uk": "Ми ходимо гуляти ввечері."
             }
           ],
           "teaches": [
             {
               "es": "salgo",
               "en": "I go out",
-              "it": "esco"
+              "it": "esco",
+              "uk": "я виходжу"
             },
             {
               "es": "sales",
               "en": "you go out",
-              "it": "esci"
+              "it": "esci",
+              "uk": "ти виходиш"
             },
             {
               "es": "sale",
               "en": "he/she goes out",
-              "it": "esce"
+              "it": "esce",
+              "uk": "він/вона виходить"
             },
             {
               "es": "salimos",
               "en": "we go out",
-              "it": "usciamo"
+              "it": "usciamo",
+              "uk": "ми виходимо"
             },
             {
               "es": "salís",
               "en": "you all go out",
-              "it": "uscite"
+              "it": "uscite",
+              "uk": "ви виходите"
             },
             {
               "es": "salen",
               "en": "they go out",
-              "it": "escono"
+              "it": "escono",
+              "uk": "вони виходять"
             }
           ]
         },
@@ -239,7 +269,8 @@
           "person": "yo",
           "prompt": {
             "en": "I go out",
-            "it": "esco"
+            "it": "esco",
+            "uk": "я виходжу"
           },
           "stems": [
             "sal",
@@ -267,9 +298,11 @@
           "answer": "salen",
           "en": "My friends go out on Saturday nights.",
           "it": "I miei amici escono il sabato sera.",
+          "uk": "Мої друзі ходять гуляти в суботу ввечері.",
           "hint": {
             "en": "Mis amigos = ellos: sal- + -en, regular.",
-            "it": "Mis amigos = ellos: sal- + -en, regolare."
+            "it": "Mis amigos = ellos: sal- + -en, regolare.",
+            "uk": "Mis amigos = ellos: sal- + -en, правильна форма."
           }
         },
         {
@@ -290,18 +323,21 @@
           ],
           "rule": {
             "en": "entonces (so) joins a situation to what you do because of it.",
-            "it": "entonces (allora, quindi) unisce una situazione a quello che fai di conseguenza."
+            "it": "entonces (allora, quindi) unisce una situazione a quello che fai di conseguenza.",
+            "uk": "entonces (отже, тому) поєднує ситуацію з тим, що ти робиш через неї."
           },
           "examples": [
             {
               "es": "No hay pan, entonces hago la compra.",
               "en": "There's no bread, so I do the food shopping.",
-              "it": "Non c'è pane, quindi faccio la spesa."
+              "it": "Non c'è pane, quindi faccio la spesa.",
+              "uk": "Хліба немає, тому я йду по продукти."
             },
             {
               "es": "Hoy no trabajo, entonces salgo con mis amigos.",
               "en": "I'm not working today, so I'm going out with my friends.",
-              "it": "Oggi non lavoro, allora esco con i miei amici."
+              "it": "Oggi non lavoro, allora esco con i miei amici.",
+              "uk": "Сьогодні я не працюю, тож іду гуляти з друзями."
             }
           ],
           "teaches": []
@@ -319,9 +355,11 @@
           "answer": "entonces",
           "en": "I'm hungry, so I'll eat something.",
           "it": "Ho fame, quindi mangio qualcosa.",
+          "uk": "Я голодний(-а), тому щось з'їм.",
           "hint": {
             "en": "Eating is what you do because you're hungry: entonces.",
-            "it": "Mangi perché hai fame: entonces."
+            "it": "Mangi perché hai fame: entonces.",
+            "uk": "Ти їси, бо голодний(-а): entonces."
           }
         },
         {
@@ -329,7 +367,8 @@
           "beat": "fire",
           "intention": {
             "en": "Say that you're tired, so you're not going out today.",
-            "it": "Di che sei stanco o stanca, quindi oggi non esci."
+            "it": "Di che sei stanco o stanca, quindi oggi non esci.",
+            "uk": "Скажи, що ти втомлений або втомлена, тому сьогодні нікуди не йдеш."
           },
           "accepted": [
             "Estoy cansado, entonces no salgo hoy.",
@@ -347,9 +386,11 @@
           ],
           "en": "I'm tired, so I'm not going out today.",
           "it": "Sono stanco, quindi oggi non esco.",
+          "uk": "Я втомлений(-а), тому сьогодні нікуди не йду.",
           "hint": {
             "en": "Situation, then entonces, then no salgo.",
-            "it": "Situazione, poi entonces, poi no salgo."
+            "it": "Situazione, poi entonces, poi no salgo.",
+            "uk": "Ситуація, потім entonces, потім no salgo."
           }
         },
         {
@@ -363,9 +404,11 @@
           ],
           "en": "What do you do on Sundays?",
           "it": "Tu cosa fai la domenica?",
+          "uk": "Що ти робиш по неділях?",
           "hint": {
             "en": "Tú is regular: hac- + -es.",
-            "it": "Tú è regolare: hac- + -es."
+            "it": "Tú è regolare: hac- + -es.",
+            "uk": "Tú — правильна форма: hac- + -es."
           }
         },
         {
@@ -381,9 +424,11 @@
           "answer": "hace",
           "en": "She exercises every day.",
           "it": "Lei fa esercizio fisico tutti i giorni.",
+          "uk": "Вона робить вправи щодня.",
           "hint": {
             "en": "Ella: hac- + -e.",
-            "it": "Ella: hac- + -e."
+            "it": "Ella: hac- + -e.",
+            "uk": "Ella: hac- + -e."
           }
         },
         {
@@ -392,7 +437,8 @@
           "person": "vosotros",
           "prompt": {
             "en": "you all go out",
-            "it": "uscite"
+            "it": "uscite",
+            "uk": "ви виходите"
           },
           "stems": [
             "sal",
@@ -412,7 +458,8 @@
           "beat": "mix",
           "instruction": {
             "en": "Write in Spanish: «On Saturdays I do the food shopping and at night I go out with my friends.»",
-            "it": "Scrivi in spagnolo: «Il sabato faccio la spesa e la sera esco con i miei amici.»"
+            "it": "Scrivi in spagnolo: «Il sabato faccio la spesa e la sera esco con i miei amici.»",
+            "uk": "Напиши іспанською: «По суботах я купую продукти, а ввечері йду гуляти з друзями.»"
           },
           "accepted": [
             "Los sábados hago la compra y por la noche salgo con mis amigos.",
@@ -423,7 +470,8 @@
           "model": {
             "es": "Los sábados hago la compra y por la noche salgo con mis amigos.",
             "en": "On Saturdays I do the food shopping and at night I go out with my friends.",
-            "it": "Il sabato faccio la spesa e la sera esco con i miei amici."
+            "it": "Il sabato faccio la spesa e la sera esco con i miei amici.",
+            "uk": "По суботах я купую продукти, а ввечері йду гуляти з друзями."
           }
         }
       ]
@@ -432,12 +480,14 @@
       "id": "u8l2",
       "goal": {
         "en": "Say what you put and bring, and what comes later.",
-        "it": "Di cosa metti e cosa porti, e cosa viene dopo."
+        "it": "Di cosa metti e cosa porti, e cosa viene dopo.",
+        "uk": "Скажи, що ти кладеш і приносиш, і що буде потім."
       },
       "target": {
         "es": "Traigo una tarta y luego pongo la mesa.",
         "en": "I'll bring a cake and then I'll set the table.",
-        "it": "Porto una torta e poi apparecchio la tavola."
+        "it": "Porto una torta e poi apparecchio la tavola.",
+        "uk": "Я принесу торт, а потім накрию на стіл."
       },
       "items": [
         {
@@ -447,18 +497,21 @@
               "es": "poner",
               "en": "to put",
               "it": "mettere",
+              "uk": "класти, ставити",
               "kind": "stem"
             },
             {
               "es": "traer",
               "en": "to bring",
               "it": "portare",
+              "uk": "приносити",
               "kind": "stem"
             },
             {
               "es": "luego",
               "en": "later, then",
               "it": "poi",
+              "uk": "потім, згодом",
               "kind": "rail"
             }
           ]
@@ -470,24 +523,28 @@
               "es": "la mesa",
               "en": "the table",
               "it": "la tavola",
+              "uk": "стіл",
               "kind": "chunk"
             },
             {
               "es": "la tele",
               "en": "the TV",
               "it": "la tv",
+              "uk": "телевізор",
               "kind": "chunk"
             },
             {
               "es": "las bebidas",
               "en": "the drinks",
               "it": "le bevande",
+              "uk": "напої",
               "kind": "chunk"
             },
             {
               "es": "una tarta",
               "en": "a cake",
               "it": "una torta",
+              "uk": "торт",
               "kind": "chunk"
             }
           ]
@@ -514,55 +571,65 @@
           },
           "rule": {
             "en": "poner (to put) is irregular only with yo: pongo. poner la mesa = to set the table; poner la tele = to turn on the TV.",
-            "it": "poner (mettere) è irregolare solo con yo: pongo. poner la mesa = apparecchiare; poner la tele = accendere la tv."
+            "it": "poner (mettere) è irregolare solo con yo: pongo. poner la mesa = apparecchiare; poner la tele = accendere la tv.",
+            "uk": "poner (класти, ставити) неправильне лише з yo: pongo. poner la mesa = накривати на стіл; poner la tele = вмикати телевізор."
           },
           "examples": [
             {
               "es": "Pongo la mesa.",
               "en": "I set the table.",
-              "it": "Apparecchio la tavola."
+              "it": "Apparecchio la tavola.",
+              "uk": "Я накриваю на стіл."
             },
             {
               "es": "¿Pones la tele?",
               "en": "Can you turn on the TV?",
-              "it": "Accendi la tv?"
+              "it": "Accendi la tv?",
+              "uk": "Увімкнеш телевізор?"
             },
             {
               "es": "Ponemos el pan en la mesa.",
               "en": "We put the bread on the table.",
-              "it": "Mettiamo il pane in tavola."
+              "it": "Mettiamo il pane in tavola.",
+              "uk": "Ми кладемо хліб на стіл."
             }
           ],
           "teaches": [
             {
               "es": "pongo",
               "en": "I put",
-              "it": "metto"
+              "it": "metto",
+              "uk": "я кладу"
             },
             {
               "es": "pones",
               "en": "you put",
-              "it": "metti"
+              "it": "metti",
+              "uk": "ти кладеш"
             },
             {
               "es": "pone",
               "en": "he/she puts",
-              "it": "mette"
+              "it": "mette",
+              "uk": "він/вона кладе"
             },
             {
               "es": "ponemos",
               "en": "we put",
-              "it": "mettiamo"
+              "it": "mettiamo",
+              "uk": "ми кладемо"
             },
             {
               "es": "ponéis",
               "en": "you all put",
-              "it": "mettete"
+              "it": "mettete",
+              "uk": "ви кладете"
             },
             {
               "es": "ponen",
               "en": "they put",
-              "it": "mettono"
+              "it": "mettono",
+              "uk": "вони кладуть"
             }
           ]
         },
@@ -572,7 +639,8 @@
           "person": "yo",
           "prompt": {
             "en": "I put",
-            "it": "metto"
+            "it": "metto",
+            "uk": "я кладу"
           },
           "stems": [
             "pon",
@@ -598,9 +666,11 @@
           ],
           "en": "My son sets the table every day.",
           "it": "Mio figlio apparecchia la tavola tutti i giorni.",
+          "uk": "Мій син щодня накриває на стіл.",
           "hint": {
             "en": "Only yo is irregular: pon- + -e.",
-            "it": "Solo yo è irregolare: pon- + -e."
+            "it": "Solo yo è irregolare: pon- + -e.",
+            "uk": "Неправильна лише форма yo: pon- + -e."
           }
         },
         {
@@ -625,55 +695,65 @@
           },
           "rule": {
             "en": "traer (to bring) is irregular only with yo too: traigo. The others are regular: traes, trae, traemos.",
-            "it": "Anche traer (portare) è irregolare solo con yo: traigo. Gli altri sono regolari: traes, trae, traemos."
+            "it": "Anche traer (portare) è irregolare solo con yo: traigo. Gli altri sono regolari: traes, trae, traemos.",
+            "uk": "traer (приносити) теж неправильне лише з yo: traigo. Інші форми правильні: traes, trae, traemos."
           },
           "examples": [
             {
               "es": "Traigo una tarta.",
               "en": "I'll bring a cake.",
-              "it": "Porto una torta."
+              "it": "Porto una torta.",
+              "uk": "Я принесу торт."
             },
             {
               "es": "¿Qué traes?",
               "en": "What are you bringing?",
-              "it": "Cosa porti?"
+              "it": "Cosa porti?",
+              "uk": "Що ти принесеш?"
             },
             {
               "es": "Ellos traen las bebidas.",
               "en": "They're bringing the drinks.",
-              "it": "Loro portano le bevande."
+              "it": "Loro portano le bevande.",
+              "uk": "Вони приносять напої."
             }
           ],
           "teaches": [
             {
               "es": "traigo",
               "en": "I bring",
-              "it": "porto"
+              "it": "porto",
+              "uk": "я приношу"
             },
             {
               "es": "traes",
               "en": "you bring",
-              "it": "porti"
+              "it": "porti",
+              "uk": "ти приносиш"
             },
             {
               "es": "trae",
               "en": "he/she brings",
-              "it": "porta"
+              "it": "porta",
+              "uk": "він/вона приносить"
             },
             {
               "es": "traemos",
               "en": "we bring",
-              "it": "portiamo"
+              "it": "portiamo",
+              "uk": "ми приносимо"
             },
             {
               "es": "traéis",
               "en": "you all bring",
-              "it": "portate"
+              "it": "portate",
+              "uk": "ви приносите"
             },
             {
               "es": "traen",
               "en": "they bring",
-              "it": "portano"
+              "it": "portano",
+              "uk": "вони приносять"
             }
           ]
         },
@@ -690,9 +770,11 @@
           "answer": "traigo",
           "en": "I'll bring the drinks.",
           "it": "Io porto le bevande.",
+          "uk": "Я принесу напої.",
           "hint": {
             "en": "Yo: traigo, the irregular one.",
-            "it": "Yo: traigo, quello irregolare."
+            "it": "Yo: traigo, quello irregolare.",
+            "uk": "Yo: traigo, неправильна форма."
           }
         },
         {
@@ -701,7 +783,8 @@
           "person": "ellos",
           "prompt": {
             "en": "they bring",
-            "it": "portano"
+            "it": "portano",
+            "uk": "вони приносять"
           },
           "stems": [
             "tra",
@@ -738,18 +821,21 @@
           ],
           "rule": {
             "en": "luego (later, then) works like después: it introduces what comes next.",
-            "it": "luego (poi, dopo) funziona come después: introduce quello che viene dopo."
+            "it": "luego (poi, dopo) funziona come después: introduce quello che viene dopo.",
+            "uk": "luego (потім, згодом) працює, як después: вводить те, що буде далі."
           },
           "examples": [
             {
               "es": "Primero pongo la mesa y luego cenamos.",
               "en": "First I set the table and then we have dinner.",
-              "it": "Prima apparecchio e poi ceniamo."
+              "it": "Prima apparecchio e poi ceniamo.",
+              "uk": "Спочатку я накриваю на стіл, а потім ми вечеряємо."
             },
             {
               "es": "Luego vamos al cine.",
               "en": "Later we're going to the cinema.",
-              "it": "Dopo andiamo al cinema."
+              "it": "Dopo andiamo al cinema.",
+              "uk": "Потім ми йдемо в кіно."
             }
           ],
           "teaches": []
@@ -766,9 +852,11 @@
           "answer": "luego",
           "en": "Now I'm working and later I'm going to the gym.",
           "it": "Ora lavoro e dopo vado in palestra.",
+          "uk": "Зараз я працюю, а потім іду в спортзал.",
           "hint": {
             "en": "What comes next: luego.",
-            "it": "Quello che viene dopo: luego."
+            "it": "Quello che viene dopo: luego.",
+            "uk": "Те, що буде далі: luego."
           }
         },
         {
@@ -776,7 +864,8 @@
           "beat": "fire",
           "intention": {
             "en": "Say that first you set the table and then you all have lunch.",
-            "it": "Di che prima apparecchi e poi pranzate."
+            "it": "Di che prima apparecchi e poi pranzate.",
+            "uk": "Скажи, що спочатку накриваєш на стіл, а потім ви обідаєте."
           },
           "accepted": [
             "Primero pongo la mesa y luego comemos."
@@ -792,9 +881,11 @@
           ],
           "en": "First I set the table and then we have lunch.",
           "it": "Prima apparecchio e poi pranziamo.",
+          "uk": "Спочатку я накриваю на стіл, а потім ми обідаємо.",
           "hint": {
             "en": "Primero + first action, y luego + next action.",
-            "it": "Primero + prima azione, y luego + azione successiva."
+            "it": "Primero + prima azione, y luego + azione successiva.",
+            "uk": "Primero + перша дія, y luego + наступна дія."
           }
         },
         {
@@ -809,9 +900,11 @@
           ],
           "en": "Are you all bringing a cake?",
           "it": "Portate una torta?",
+          "uk": "Ви принесете торт?",
           "hint": {
             "en": "Vosotros is regular: tra- + -éis.",
-            "it": "Vosotros è regolare: tra- + -éis."
+            "it": "Vosotros è regolare: tra- + -éis.",
+            "uk": "Vosotros — правильна форма: tra- + -éis."
           }
         },
         {
@@ -825,9 +918,11 @@
           ],
           "en": "I put the drinks on the table.",
           "it": "Metto le bevande in tavola.",
+          "uk": "Я ставлю напої на стіл.",
           "hint": {
             "en": "Yo: pong- + -o.",
-            "it": "Yo: pong- + -o."
+            "it": "Yo: pong- + -o.",
+            "uk": "Yo: pong- + -o."
           }
         },
         {
@@ -835,7 +930,8 @@
           "beat": "mix",
           "instruction": {
             "en": "You're going to a dinner with friends. Write in Spanish: «I'll bring a cake and then I'll set the table.»",
-            "it": "Vai a una cena con amici. Scrivi in spagnolo: «Porto una torta e poi apparecchio la tavola.»"
+            "it": "Vai a una cena con amici. Scrivi in spagnolo: «Porto una torta e poi apparecchio la tavola.»",
+            "uk": "Ти йдеш на вечерю з друзями. Напиши іспанською: «Я принесу торт, а потім накрию на стіл.»"
           },
           "accepted": [
             "Traigo una tarta y luego pongo la mesa.",
@@ -846,7 +942,8 @@
           "model": {
             "es": "Traigo una tarta y luego pongo la mesa.",
             "en": "I'll bring a cake and then I'll set the table.",
-            "it": "Porto una torta e poi apparecchio la tavola."
+            "it": "Porto una torta e poi apparecchio la tavola.",
+            "uk": "Я принесу торт, а потім накрию на стіл."
           }
         }
       ]
@@ -855,12 +952,14 @@
       "id": "u8l3",
       "goal": {
         "en": "Say who and what you know, and what you know how to do.",
-        "it": "Di chi e cosa conosci, e cosa sai fare."
+        "it": "Di chi e cosa conosci, e cosa sai fare.",
+        "uk": "Скажи, кого і що ти знаєш і що вмієш робити."
       },
       "target": {
         "es": "Conozco a tu hermano, pero no sé su dirección.",
         "en": "I know your brother, but I don't know his address.",
-        "it": "Conosco tuo fratello, ma non so il suo indirizzo."
+        "it": "Conosco tuo fratello, ma non so il suo indirizzo.",
+        "uk": "Я знаю твого брата, але не знаю його адреси."
       },
       "names": [
         "Madrid"
@@ -873,18 +972,21 @@
               "es": "conocer",
               "en": "to know (people, places)",
               "it": "conoscere",
+              "uk": "знати (людей, місця)",
               "kind": "stem"
             },
             {
               "es": "saber",
               "en": "to know (facts), to know how to",
               "it": "sapere",
+              "uk": "знати (факти), уміти",
               "kind": "stem"
             },
             {
               "es": "conducir",
               "en": "to drive",
               "it": "guidare",
+              "uk": "водити машину",
               "kind": "stem"
             }
           ]
@@ -896,12 +998,14 @@
               "es": "el barrio",
               "en": "the neighbourhood",
               "it": "il quartiere",
+              "uk": "район",
               "kind": "chunk"
             },
             {
               "es": "la dirección",
               "en": "the address",
               "it": "l'indirizzo",
+              "uk": "адреса",
               "kind": "chunk"
             }
           ]
@@ -928,55 +1032,65 @@
           },
           "rule": {
             "en": "conocer is to know people and places. Yo is conozco, the rest is regular. Before a person, put a: conozco a tu hermano.",
-            "it": "conocer è conoscere persone e luoghi. Yo è conozco, il resto è regolare. Prima di una persona, metti a: conozco a tu hermano."
+            "it": "conocer è conoscere persone e luoghi. Yo è conozco, il resto è regolare. Prima di una persona, metti a: conozco a tu hermano.",
+            "uk": "conocer — це знати людей і місця. Yo — conozco, решта форм правильні. Перед людиною постав a: conozco a tu hermano."
           },
           "examples": [
             {
               "es": "Conozco bien el barrio.",
               "en": "I know the neighbourhood well.",
-              "it": "Conosco bene il quartiere."
+              "it": "Conosco bene il quartiere.",
+              "uk": "Я добре знаю цей район."
             },
             {
               "es": "¿Conoces a mis padres?",
               "en": "Do you know my parents?",
-              "it": "Conosci i miei genitori?"
+              "it": "Conosci i miei genitori?",
+              "uk": "Ти знаєш моїх батьків?"
             },
             {
               "es": "Conocemos Madrid.",
               "en": "We know Madrid.",
-              "it": "Conosciamo Madrid."
+              "it": "Conosciamo Madrid.",
+              "uk": "Ми знаємо Мадрид."
             }
           ],
           "teaches": [
             {
               "es": "conozco",
               "en": "I know",
-              "it": "conosco"
+              "it": "conosco",
+              "uk": "я знаю"
             },
             {
               "es": "conoces",
               "en": "you know",
-              "it": "conosci"
+              "it": "conosci",
+              "uk": "ти знаєш"
             },
             {
               "es": "conoce",
               "en": "he/she knows",
-              "it": "conosce"
+              "it": "conosce",
+              "uk": "він/вона знає"
             },
             {
               "es": "conocemos",
               "en": "we know",
-              "it": "conosciamo"
+              "it": "conosciamo",
+              "uk": "ми знаємо"
             },
             {
               "es": "conocéis",
               "en": "you all know",
-              "it": "conoscete"
+              "it": "conoscete",
+              "uk": "ви знаєте"
             },
             {
               "es": "conocen",
               "en": "they know",
-              "it": "conoscono"
+              "it": "conoscono",
+              "uk": "вони знають"
             }
           ]
         },
@@ -986,7 +1100,8 @@
           "person": "yo",
           "prompt": {
             "en": "I know (a place)",
-            "it": "conosco"
+            "it": "conosco",
+            "uk": "я знаю (місце)"
           },
           "stems": [
             "conoc",
@@ -1014,9 +1129,11 @@
           "answer": "conoces",
           "en": "Do you know my sister?",
           "it": "Conosci mia sorella?",
+          "uk": "Ти знаєш мою сестру?",
           "hint": {
             "en": "Tú is regular: conoc- + -es.",
-            "it": "Tú è regolare: conoc- + -es."
+            "it": "Tú è regolare: conoc- + -es.",
+            "uk": "Tú — правильна форма: conoc- + -es."
           }
         },
         {
@@ -1037,55 +1154,65 @@
           ],
           "rule": {
             "en": "saber is to know facts, and with a verb, to know how to do it. Yo is sé (with an accent); the rest is regular: sabes, sabe.",
-            "it": "saber è sapere un'informazione e, con un verbo, saper fare qualcosa. Yo è sé (con l'accento); il resto è regolare: sabes, sabe."
+            "it": "saber è sapere un'informazione e, con un verbo, saper fare qualcosa. Yo è sé (con l'accento); il resto è regolare: sabes, sabe.",
+            "uk": "saber — це знати факти, а з дієсловом — уміти щось робити. Yo — sé (зі знаком наголосу); решта форм правильні: sabes, sabe."
           },
           "examples": [
             {
               "es": "Sé conducir.",
               "en": "I can drive.",
-              "it": "So guidare."
+              "it": "So guidare.",
+              "uk": "Я вмію водити машину."
             },
             {
               "es": "¿Sabes la dirección?",
               "en": "Do you know the address?",
-              "it": "Sai l'indirizzo?"
+              "it": "Sai l'indirizzo?",
+              "uk": "Ти знаєш адресу?"
             },
             {
               "es": "No sé.",
               "en": "I don't know.",
-              "it": "Non lo so."
+              "it": "Non lo so.",
+              "uk": "Я не знаю."
             }
           ],
           "teaches": [
             {
               "es": "sé",
               "en": "I know",
-              "it": "so"
+              "it": "so",
+              "uk": "я знаю"
             },
             {
               "es": "sabes",
               "en": "you know",
-              "it": "sai"
+              "it": "sai",
+              "uk": "ти знаєш"
             },
             {
               "es": "sabe",
               "en": "he/she knows",
-              "it": "sa"
+              "it": "sa",
+              "uk": "він/вона знає"
             },
             {
               "es": "sabemos",
               "en": "we know",
-              "it": "sappiamo"
+              "it": "sappiamo",
+              "uk": "ми знаємо"
             },
             {
               "es": "sabéis",
               "en": "you all know",
-              "it": "sapete"
+              "it": "sapete",
+              "uk": "ви знаєте"
             },
             {
               "es": "saben",
               "en": "they know",
-              "it": "sanno"
+              "it": "sanno",
+              "uk": "вони знають"
             }
           ]
         },
@@ -1100,9 +1227,11 @@
           ],
           "en": "My brother can't cook.",
           "it": "Mio fratello non sa cucinare.",
+          "uk": "Мій брат не вміє готувати.",
           "hint": {
             "en": "Knowing how to: saber + verb. Él: sab- + -e.",
-            "it": "Saper fare: saber + verbo. Él: sab- + -e."
+            "it": "Saper fare: saber + verbo. Él: sab- + -e.",
+            "uk": "Уміти щось робити: saber + дієслово. Él: sab- + -e."
           }
         },
         {
@@ -1118,9 +1247,11 @@
           "answer": "sé",
           "en": "I don't know the address.",
           "it": "Non so l'indirizzo.",
+          "uk": "Я не знаю адреси.",
           "hint": {
             "en": "An address is a fact: saber. Yo: sé.",
-            "it": "Un indirizzo è un'informazione: saber. Yo: sé."
+            "it": "Un indirizzo è un'informazione: saber. Yo: sé.",
+            "uk": "Адреса — це факт: saber. Yo: sé."
           }
         },
         {
@@ -1145,50 +1276,59 @@
           },
           "rule": {
             "en": "conducir (to drive) works like conocer: conduzco with yo, regular for the rest.",
-            "it": "conducir (guidare) funziona come conocer: conduzco con yo, regolare per il resto."
+            "it": "conducir (guidare) funziona come conocer: conduzco con yo, regolare per il resto.",
+            "uk": "conducir (водити машину) працює, як conocer: conduzco з yo, правильні форми для решти."
           },
           "examples": [
             {
               "es": "Conduzco al trabajo.",
               "en": "I drive to work.",
-              "it": "Vado al lavoro in macchina."
+              "it": "Vado al lavoro in macchina.",
+              "uk": "Я їжджу на роботу машиною."
             },
             {
               "es": "¿Conduces bien?",
               "en": "Do you drive well?",
-              "it": "Guidi bene?"
+              "it": "Guidi bene?",
+              "uk": "Ти добре водиш машину?"
             }
           ],
           "teaches": [
             {
               "es": "conduzco",
               "en": "I drive",
-              "it": "guido"
+              "it": "guido",
+              "uk": "я воджу"
             },
             {
               "es": "conduces",
               "en": "you drive",
-              "it": "guidi"
+              "it": "guidi",
+              "uk": "ти водиш"
             },
             {
               "es": "conduce",
               "en": "he/she drives",
-              "it": "guida"
+              "it": "guida",
+              "uk": "він/вона водить"
             },
             {
               "es": "conducimos",
               "en": "we drive",
-              "it": "guidiamo"
+              "it": "guidiamo",
+              "uk": "ми водимо"
             },
             {
               "es": "conducís",
               "en": "you all drive",
-              "it": "guidate"
+              "it": "guidate",
+              "uk": "ви водите"
             },
             {
               "es": "conducen",
               "en": "they drive",
-              "it": "guidano"
+              "it": "guidano",
+              "uk": "вони водять"
             }
           ]
         },
@@ -1198,7 +1338,8 @@
           "person": "yo",
           "prompt": {
             "en": "I drive",
-            "it": "guido"
+            "it": "guido",
+            "uk": "я воджу"
           },
           "stems": [
             "conduc",
@@ -1224,9 +1365,11 @@
           ],
           "en": "My parents drive very well.",
           "it": "I miei genitori guidano molto bene.",
+          "uk": "Мої батьки дуже добре водять машину.",
           "hint": {
             "en": "Only yo is irregular: conduc- + -en.",
-            "it": "Solo yo è irregolare: conduc- + -en."
+            "it": "Solo yo è irregolare: conduc- + -en.",
+            "uk": "Неправильна лише форма yo: conduc- + -en."
           }
         },
         {
@@ -1241,9 +1384,11 @@
           "answer": "Conoces",
           "en": "Do you know the neighbourhood?",
           "it": "Conosci il quartiere?",
+          "uk": "Ти знаєш цей район?",
           "hint": {
             "en": "A place you've been to: conocer.",
-            "it": "Un posto dove sei stato: conocer."
+            "it": "Un posto dove sei stato: conocer.",
+            "uk": "Місце, де ти бував(-ла): conocer."
           }
         },
         {
@@ -1258,9 +1403,11 @@
           "answer": "Sabes",
           "en": "Do you know where the station is?",
           "it": "Sai dov'è la stazione?",
+          "uk": "Ти знаєш, де вокзал?",
           "hint": {
             "en": "Where something is, is a fact: saber.",
-            "it": "Dove si trova una cosa è un'informazione: saber."
+            "it": "Dove si trova una cosa è un'informazione: saber.",
+            "uk": "Де щось знаходиться — це факт: saber."
           }
         },
         {
@@ -1268,7 +1415,8 @@
           "beat": "mix",
           "intention": {
             "en": "Tell your friend that you know their brother, but you don't know his address.",
-            "it": "Di' al tuo amico che conosci suo fratello, ma non sai il suo indirizzo."
+            "it": "Di' al tuo amico che conosci suo fratello, ma non sai il suo indirizzo.",
+            "uk": "Скажи другові, що знаєш його брата, але не знаєш його адреси."
           },
           "accepted": [
             "Conozco a tu hermano, pero no sé su dirección."
@@ -1285,9 +1433,11 @@
           ],
           "en": "I know your brother, but I don't know his address.",
           "it": "Conosco tuo fratello, ma non so il suo indirizzo.",
+          "uk": "Я знаю твого брата, але не знаю його адреси.",
           "hint": {
             "en": "A person: conozco a; a fact: sé.",
-            "it": "Una persona: conozco a; un'informazione: sé."
+            "it": "Una persona: conozco a; un'informazione: sé.",
+            "uk": "Людина: conozco a; факт: sé."
           }
         },
         {
@@ -1295,7 +1445,8 @@
           "beat": "mix",
           "instruction": {
             "en": "Write in Spanish: «I know how to cook and I know {city} well.»",
-            "it": "Scrivi in spagnolo: «So cucinare e conosco bene {city}.»"
+            "it": "Scrivi in spagnolo: «So cucinare e conosco bene {city}.»",
+            "uk": "Напиши іспанською: «Я вмію готувати і добре знаю {city}.»"
           },
           "accepted": [
             "Sé cocinar y conozco bien {city}.",
@@ -1306,7 +1457,8 @@
           "model": {
             "es": "Sé cocinar y conozco bien {city}.",
             "en": "I know how to cook and I know {city} well.",
-            "it": "So cucinare e conosco bene {city}."
+            "it": "So cucinare e conosco bene {city}.",
+            "uk": "Я вмію готувати і добре знаю {city}."
           }
         }
       ]
@@ -1315,12 +1467,14 @@
       "id": "u8l4",
       "goal": {
         "en": "Say what people say and who's coming tonight.",
-        "it": "Di cosa dice la gente e chi viene stasera."
+        "it": "Di cosa dice la gente e chi viene stasera.",
+        "uk": "Скажи, що кажуть люди і хто приходить сьогодні ввечері."
       },
       "target": {
         "es": "¿Vienes a la fiesta esta noche? Mis hermanos vienen también.",
         "en": "Are you coming to the party tonight? My brothers are coming too.",
-        "it": "Vieni alla festa stasera? Vengono anche i miei fratelli."
+        "it": "Vieni alla festa stasera? Vengono anche i miei fratelli.",
+        "uk": "Ти прийдеш на вечірку сьогодні ввечері? Мої брати теж прийдуть."
       },
       "items": [
         {
@@ -1330,30 +1484,35 @@
               "es": "decir",
               "en": "to say",
               "it": "dire",
+              "uk": "казати",
               "kind": "stem"
             },
             {
               "es": "venir",
               "en": "to come",
               "it": "venire",
+              "uk": "приходити",
               "kind": "stem"
             },
             {
               "es": "la verdad",
               "en": "the truth",
               "it": "la verità",
+              "uk": "правда",
               "kind": "chunk"
             },
             {
               "es": "la fiesta",
               "en": "the party",
               "it": "la festa",
+              "uk": "вечірка",
               "kind": "chunk"
             },
             {
               "es": "esta noche",
               "en": "tonight",
               "it": "stasera",
+              "uk": "сьогодні ввечері",
               "kind": "time"
             }
           ]
@@ -1380,55 +1539,65 @@
           },
           "rule": {
             "en": "decir (to say) has two changes: yo is digo, and e → i for tú, él and ellos: dices, dice, dicen. decir que = to say that.",
-            "it": "decir (dire) ha due cambi: yo è digo, ed e → i per tú, él ed ellos: dices, dice, dicen. decir que = dire che."
+            "it": "decir (dire) ha due cambi: yo è digo, ed e → i per tú, él ed ellos: dices, dice, dicen. decir que = dire che.",
+            "uk": "decir (казати) має дві зміни: yo — digo, а e → i для tú, él і ellos: dices, dice, dicen. decir que = казати, що."
           },
           "examples": [
             {
               "es": "Digo la verdad.",
               "en": "I'm telling the truth.",
-              "it": "Dico la verità."
+              "it": "Dico la verità.",
+              "uk": "Я кажу правду."
             },
             {
               "es": "¿Qué dices?",
               "en": "What are you saying?",
-              "it": "Cosa dici?"
+              "it": "Cosa dici?",
+              "uk": "Що ти кажеш?"
             },
             {
               "es": "Ella dice que está cansada.",
               "en": "She says she's tired.",
-              "it": "Lei dice che è stanca."
+              "it": "Lei dice che è stanca.",
+              "uk": "Вона каже, що втомилася."
             }
           ],
           "teaches": [
             {
               "es": "digo",
               "en": "I say",
-              "it": "dico"
+              "it": "dico",
+              "uk": "я кажу"
             },
             {
               "es": "dices",
               "en": "you say",
-              "it": "dici"
+              "it": "dici",
+              "uk": "ти кажеш"
             },
             {
               "es": "dice",
               "en": "he/she says",
-              "it": "dice"
+              "it": "dice",
+              "uk": "він/вона каже"
             },
             {
               "es": "decimos",
               "en": "we say",
-              "it": "diciamo"
+              "it": "diciamo",
+              "uk": "ми кажемо"
             },
             {
               "es": "decís",
               "en": "you all say",
-              "it": "dite"
+              "it": "dite",
+              "uk": "ви кажете"
             },
             {
               "es": "dicen",
               "en": "they say",
-              "it": "dicono"
+              "it": "dicono",
+              "uk": "вони кажуть"
             }
           ]
         },
@@ -1438,7 +1607,8 @@
           "person": "yo",
           "prompt": {
             "en": "I say",
-            "it": "dico"
+            "it": "dico",
+            "uk": "я кажу"
           },
           "stems": [
             "dec",
@@ -1464,9 +1634,11 @@
           ],
           "en": "My mother says dinner is ready.",
           "it": "Mia madre dice che la cena è pronta.",
+          "uk": "Мама каже, що вечеря готова.",
           "hint": {
             "en": "Ella: e → i, dic- + -e.",
-            "it": "Ella: e → i, dic- + -e."
+            "it": "Ella: e → i, dic- + -e.",
+            "uk": "Ella: e → i, dic- + -e."
           }
         },
         {
@@ -1491,55 +1663,65 @@
           },
           "rule": {
             "en": "venir (to come) is like tener: vengo with yo, and e → ie for tú, él and ellos: vienes, viene, vienen.",
-            "it": "venir (venire) è come tener: vengo con yo, ed e → ie per tú, él ed ellos: vienes, viene, vienen."
+            "it": "venir (venire) è come tener: vengo con yo, ed e → ie per tú, él ed ellos: vienes, viene, vienen.",
+            "uk": "venir (приходити) — як tener: vengo з yo, а e → ie для tú, él і ellos: vienes, viene, vienen."
           },
           "examples": [
             {
               "es": "Vengo en tren.",
               "en": "I'm coming by train.",
-              "it": "Vengo in treno."
+              "it": "Vengo in treno.",
+              "uk": "Я приїду потягом."
             },
             {
               "es": "¿Vienes a la fiesta esta noche?",
               "en": "Are you coming to the party tonight?",
-              "it": "Vieni alla festa stasera?"
+              "it": "Vieni alla festa stasera?",
+              "uk": "Ти прийдеш на вечірку сьогодні ввечері?"
             },
             {
               "es": "Mis amigos vienen a casa.",
               "en": "My friends are coming over.",
-              "it": "I miei amici vengono a casa."
+              "it": "I miei amici vengono a casa.",
+              "uk": "Мої друзі приходять у гості."
             }
           ],
           "teaches": [
             {
               "es": "vengo",
               "en": "I come",
-              "it": "vengo"
+              "it": "vengo",
+              "uk": "я приходжу"
             },
             {
               "es": "vienes",
               "en": "you come",
-              "it": "vieni"
+              "it": "vieni",
+              "uk": "ти приходиш"
             },
             {
               "es": "viene",
               "en": "he/she comes",
-              "it": "viene"
+              "it": "viene",
+              "uk": "він/вона приходить"
             },
             {
               "es": "venimos",
               "en": "we come",
-              "it": "veniamo"
+              "it": "veniamo",
+              "uk": "ми приходимо"
             },
             {
               "es": "venís",
               "en": "you all come",
-              "it": "venite"
+              "it": "venite",
+              "uk": "ви приходите"
             },
             {
               "es": "vienen",
               "en": "they come",
-              "it": "vengono"
+              "it": "vengono",
+              "uk": "вони приходять"
             }
           ]
         },
@@ -1556,9 +1738,11 @@
           "answer": "vengo",
           "en": "I'm coming at nine.",
           "it": "Vengo alle nove.",
+          "uk": "Я прийду о дев'ятій.",
           "hint": {
             "en": "Yo: vengo, like tengo.",
-            "it": "Yo: vengo, come tengo."
+            "it": "Yo: vengo, come tengo.",
+            "uk": "Yo: vengo, як tengo."
           }
         },
         {
@@ -1574,9 +1758,11 @@
           "answer": "venís",
           "en": "Are you all coming to the party?",
           "it": "Venite alla festa?",
+          "uk": "Ви прийдете на вечірку?",
           "hint": {
             "en": "Vosotros keeps the e: ven- + -ís.",
-            "it": "Vosotros tiene la e: ven- + -ís."
+            "it": "Vosotros tiene la e: ven- + -ís.",
+            "uk": "Vosotros зберігає e: ven- + -ís."
           }
         },
         {
@@ -1593,18 +1779,21 @@
           ],
           "rule": {
             "en": "venir is moving to where the speaker is; ir is going somewhere else.",
-            "it": "venir è muoversi verso dove si trova chi parla; ir è andare da un'altra parte."
+            "it": "venir è muoversi verso dove si trova chi parla; ir è andare da un'altra parte.",
+            "uk": "venir — це рух туди, де той, хто говорить; ir — іти кудись в інше місце."
           },
           "examples": [
             {
               "es": "¿Vienes a casa esta noche?",
               "en": "Are you coming over tonight?",
-              "it": "Vieni a casa stasera?"
+              "it": "Vieni a casa stasera?",
+              "uk": "Ти прийдеш до мене сьогодні ввечері?"
             },
             {
               "es": "Esta noche voy al cine.",
               "en": "Tonight I'm going to the cinema.",
-              "it": "Stasera vado al cinema."
+              "it": "Stasera vado al cinema.",
+              "uk": "Сьогодні ввечері я йду в кіно."
             }
           ],
           "teaches": []
@@ -1621,9 +1810,11 @@
           "answer": "Vienes",
           "en": "I'm at home. Are you coming over tonight?",
           "it": "Sono a casa. Vieni da me stasera?",
+          "uk": "Я вдома. Прийдеш до мене сьогодні ввечері?",
           "hint": {
             "en": "Coming to where I am: venir.",
-            "it": "Venire dove sono io: venir."
+            "it": "Venire dove sono io: venir.",
+            "uk": "Прийти туди, де я: venir."
           }
         },
         {
@@ -1637,9 +1828,11 @@
           ],
           "en": "Tonight I'm going to the cinema.",
           "it": "Stasera vado al cinema.",
+          "uk": "Сьогодні ввечері я йду в кіно.",
           "hint": {
             "en": "Going somewhere else: ir. Yo: voy.",
-            "it": "Andare da un'altra parte: ir. Yo: voy."
+            "it": "Andare da un'altra parte: ir. Yo: voy.",
+            "uk": "Іти в інше місце: ir. Yo: voy."
           }
         },
         {
@@ -1653,9 +1846,11 @@
           ],
           "en": "We're telling the truth.",
           "it": "Diciamo la verità.",
+          "uk": "Ми кажемо правду.",
           "hint": {
             "en": "Nosotros keeps the e: dec- + -imos.",
-            "it": "Nosotros tiene la e: dec- + -imos."
+            "it": "Nosotros tiene la e: dec- + -imos.",
+            "uk": "Nosotros зберігає e: dec- + -imos."
           }
         },
         {
@@ -1671,9 +1866,11 @@
           "answer": "dices",
           "en": "What are you saying?",
           "it": "Tu cosa dici?",
+          "uk": "Що ти кажеш?",
           "hint": {
             "en": "Tú: e → i, dic- + -es.",
-            "it": "Tú: e → i, dic- + -es."
+            "it": "Tú: e → i, dic- + -es.",
+            "uk": "Tú: e → i, dic- + -es."
           }
         },
         {
@@ -1681,7 +1878,8 @@
           "beat": "mix",
           "intention": {
             "en": "Say that your friends are coming over tonight.",
-            "it": "Di che i tuoi amici vengono a casa stasera."
+            "it": "Di che i tuoi amici vengono a casa stasera.",
+            "uk": "Скажи, що твої друзі прийдуть у гості сьогодні ввечері."
           },
           "accepted": [
             "Mis amigos vienen a casa esta noche.",
@@ -1696,9 +1894,11 @@
           ],
           "en": "My friends are coming over tonight.",
           "it": "I miei amici vengono a casa stasera.",
+          "uk": "Мої друзі прийдуть у гості сьогодні ввечері.",
           "hint": {
             "en": "Mis amigos = ellos: vienen.",
-            "it": "Mis amigos = ellos: vienen."
+            "it": "Mis amigos = ellos: vienen.",
+            "uk": "Mis amigos = ellos: vienen."
           }
         },
         {
@@ -1706,7 +1906,8 @@
           "beat": "mix",
           "instruction": {
             "en": "Invite a friend to a party. Write in Spanish: «Are you coming to the party tonight? My brothers are coming too.»",
-            "it": "Invita un amico a una festa. Scrivi in spagnolo: «Vieni alla festa stasera? Vengono anche i miei fratelli.»"
+            "it": "Invita un amico a una festa. Scrivi in spagnolo: «Vieni alla festa stasera? Vengono anche i miei fratelli.»",
+            "uk": "Запроси друга на вечірку. Напиши іспанською: «Ти прийдеш на вечірку сьогодні ввечері? Мої брати теж прийдуть.»"
           },
           "accepted": [
             "¿Vienes a la fiesta esta noche? Mis hermanos vienen también.",
@@ -1719,7 +1920,8 @@
           "model": {
             "es": "¿Vienes a la fiesta esta noche? Mis hermanos vienen también.",
             "en": "Are you coming to the party tonight? My brothers are coming too.",
-            "it": "Vieni alla festa stasera? Vengono anche i miei fratelli."
+            "it": "Vieni alla festa stasera? Vengono anche i miei fratelli.",
+            "uk": "Ти прийдеш на вечірку сьогодні ввечері? Мої брати теж прийдуть."
           }
         }
       ]
@@ -1728,12 +1930,14 @@
       "id": "u8l5",
       "goal": {
         "en": "Say what you give and what you watch, with the yo forms ending in -oy.",
-        "it": "Di cosa regali e cosa guardi, con le forme di yo che finiscono in -oy."
+        "it": "Di cosa regali e cosa guardi, con le forme di yo che finiscono in -oy.",
+        "uk": "Скажи, що ти даруєш і що дивишся, з формами yo на -oy."
       },
       "target": {
         "es": "Estoy en casa y veo una serie.",
         "en": "I'm at home watching a series.",
-        "it": "Sono a casa e guardo una serie."
+        "it": "Sono a casa e guardo una serie.",
+        "uk": "Я вдома, дивлюся серіал."
       },
       "items": [
         {
@@ -1743,36 +1947,42 @@
               "es": "dar",
               "en": "to give",
               "it": "dare",
+              "uk": "давати",
               "kind": "stem"
             },
             {
               "es": "ver",
               "en": "to see, to watch",
               "it": "vedere, guardare",
+              "uk": "бачити, дивитися",
               "kind": "stem"
             },
             {
               "es": "un regalo",
               "en": "a present",
               "it": "un regalo",
+              "uk": "подарунок",
               "kind": "chunk"
             },
             {
               "es": "una serie",
               "en": "a TV series",
               "it": "una serie tv",
+              "uk": "серіал",
               "kind": "chunk"
             },
             {
               "es": "las noticias",
               "en": "the news",
               "it": "il telegiornale, le notizie",
+              "uk": "новини",
               "kind": "chunk"
             },
             {
               "es": "un mensaje",
               "en": "a message",
               "it": "un messaggio",
+              "uk": "повідомлення",
               "kind": "chunk"
             }
           ]
@@ -1795,55 +2005,65 @@
           },
           "rule": {
             "en": "dar (to give) has yo in -oy, like estoy, voy and soy: doy. The rest is regular and short: das, da, damos, dais, dan.",
-            "it": "dar (dare) ha yo in -oy, come estoy, voy e soy: doy. Il resto è regolare e corto: das, da, damos, dais, dan."
+            "it": "dar (dare) ha yo in -oy, come estoy, voy e soy: doy. Il resto è regolare e corto: das, da, damos, dais, dan.",
+            "uk": "dar (давати) має yo на -oy, як estoy, voy і soy: doy. Решта форм правильні й короткі: das, da, damos, dais, dan."
           },
           "examples": [
             {
               "es": "Doy un regalo a mi madre.",
               "en": "I give my mother a present.",
-              "it": "Faccio un regalo a mia madre."
+              "it": "Faccio un regalo a mia madre.",
+              "uk": "Я дарую мамі подарунок."
             },
             {
               "es": "Estoy en casa.",
               "en": "I'm at home.",
-              "it": "Sono a casa."
+              "it": "Sono a casa.",
+              "uk": "Я вдома."
             },
             {
               "es": "Mis padres dan un regalo a mi hermano.",
               "en": "My parents give my brother a present.",
-              "it": "I miei genitori fanno un regalo a mio fratello."
+              "it": "I miei genitori fanno un regalo a mio fratello.",
+              "uk": "Мої батьки дарують братові подарунок."
             }
           ],
           "teaches": [
             {
               "es": "doy",
               "en": "I give",
-              "it": "do"
+              "it": "do",
+              "uk": "я даю"
             },
             {
               "es": "das",
               "en": "you give",
-              "it": "dai"
+              "it": "dai",
+              "uk": "ти даєш"
             },
             {
               "es": "da",
               "en": "he/she gives",
-              "it": "dà"
+              "it": "dà",
+              "uk": "він/вона дає"
             },
             {
               "es": "damos",
               "en": "we give",
-              "it": "diamo"
+              "it": "diamo",
+              "uk": "ми даємо"
             },
             {
               "es": "dais",
               "en": "you all give",
-              "it": "date"
+              "it": "date",
+              "uk": "ви даєте"
             },
             {
               "es": "dan",
               "en": "they give",
-              "it": "danno"
+              "it": "danno",
+              "uk": "вони дають"
             }
           ]
         },
@@ -1860,9 +2080,11 @@
           "answer": "estoy",
           "en": "I'm at work now.",
           "it": "Ora sono al lavoro.",
+          "uk": "Я зараз на роботі.",
           "hint": {
             "en": "Where you are: estar. Yo: estoy.",
-            "it": "Dove sei: estar. Yo: estoy."
+            "it": "Dove sei: estar. Yo: estoy.",
+            "uk": "Де ти: estar. Yo: estoy."
           }
         },
         {
@@ -1876,9 +2098,11 @@
           ],
           "en": "We give Grandma a present.",
           "it": "Facciamo un regalo alla nonna.",
+          "uk": "Ми даруємо бабусі подарунок.",
           "hint": {
             "en": "Regular: d- + -amos.",
-            "it": "Regolare: d- + -amos."
+            "it": "Regolare: d- + -amos.",
+            "uk": "Правильна форма: d- + -amos."
           }
         },
         {
@@ -1899,60 +2123,71 @@
           },
           "rule": {
             "en": "ver (to see, to watch) keeps the e with yo: veo. The rest is short: ves, ve, vemos, veis, ven.",
-            "it": "ver (vedere, guardare) tiene la e con yo: veo. Il resto è corto: ves, ve, vemos, veis, ven."
+            "it": "ver (vedere, guardare) tiene la e con yo: veo. Il resto è corto: ves, ve, vemos, veis, ven.",
+            "uk": "ver (бачити, дивитися) зберігає e з yo: veo. Решта форм короткі: ves, ve, vemos, veis, ven."
           },
           "examples": [
             {
               "es": "Veo la tele por la noche.",
               "en": "I watch TV at night.",
-              "it": "Guardo la tv la sera."
+              "it": "Guardo la tv la sera.",
+              "uk": "Я дивлюся телевізор увечері."
             },
             {
               "es": "¿Ves las noticias?",
               "en": "Do you watch the news?",
-              "it": "Guardi il telegiornale?"
+              "it": "Guardi il telegiornale?",
+              "uk": "Ти дивишся новини?"
             },
             {
               "es": "Vemos una película.",
               "en": "We're watching a film.",
-              "it": "Guardiamo un film."
+              "it": "Guardiamo un film.",
+              "uk": "Ми дивимося фільм."
             }
           ],
           "teaches": [
             {
               "es": "veo",
               "en": "I see",
-              "it": "vedo"
+              "it": "vedo",
+              "uk": "я бачу"
             },
             {
               "es": "ves",
               "en": "you see",
-              "it": "vedi"
+              "it": "vedi",
+              "uk": "ти бачиш"
             },
             {
               "es": "ve",
               "en": "he/she sees",
-              "it": "vede"
+              "it": "vede",
+              "uk": "він/вона бачить"
             },
             {
               "es": "vemos",
               "en": "we see",
-              "it": "vediamo"
+              "it": "vediamo",
+              "uk": "ми бачимо"
             },
             {
               "es": "veis",
               "en": "you all see",
-              "it": "vedete"
+              "it": "vedete",
+              "uk": "ви бачите"
             },
             {
               "es": "ven",
               "en": "they see",
-              "it": "vedono"
+              "it": "vedono",
+              "uk": "вони бачать"
             },
             {
               "es": "una película",
               "en": "a film",
-              "it": "un film"
+              "it": "un film",
+              "uk": "фільм"
             }
           ]
         },
@@ -1967,9 +2202,11 @@
           ],
           "en": "I watch a series at night.",
           "it": "La sera guardo una serie.",
+          "uk": "Увечері я дивлюся серіал.",
           "hint": {
             "en": "Yo: veo, it keeps the e.",
-            "it": "Yo: veo, tiene la e."
+            "it": "Yo: veo, tiene la e.",
+            "uk": "Yo: veo, зберігає e."
           }
         },
         {
@@ -1985,9 +2222,11 @@
           "answer": "veis",
           "en": "Do you all watch the news?",
           "it": "Guardate il telegiornale?",
+          "uk": "Ви дивитеся новини?",
           "hint": {
             "en": "Vosotros: veis, no accent.",
-            "it": "Vosotros: veis, senza accento."
+            "it": "Vosotros: veis, senza accento.",
+            "uk": "Vosotros: veis, без знака наголосу."
           }
         },
         {
@@ -2008,18 +2247,21 @@
           ],
           "rule": {
             "en": "With people, ver also needs a, like conocer: veo a mis padres.",
-            "it": "Con le persone, anche ver vuole a, come conocer: veo a mis padres."
+            "it": "Con le persone, anche ver vuole a, come conocer: veo a mis padres.",
+            "uk": "З людьми ver теж потребує a, як conocer: veo a mis padres."
           },
           "examples": [
             {
               "es": "Veo a mis padres los domingos.",
               "en": "I see my parents on Sundays.",
-              "it": "Vedo i miei genitori la domenica."
+              "it": "Vedo i miei genitori la domenica.",
+              "uk": "Я бачуся з батьками по неділях."
             },
             {
               "es": "Veo un mensaje de mi hermana.",
               "en": "I see a message from my sister.",
-              "it": "Vedo un messaggio di mia sorella."
+              "it": "Vedo un messaggio di mia sorella.",
+              "uk": "Я бачу повідомлення від сестри."
             }
           ],
           "teaches": []
@@ -2029,7 +2271,8 @@
           "beat": "fire",
           "intention": {
             "en": "Say that you see your parents on Sundays.",
-            "it": "Di che vedi i tuoi genitori la domenica."
+            "it": "Di che vedi i tuoi genitori la domenica.",
+            "uk": "Скажи, що бачишся з батьками по неділях."
           },
           "accepted": [
             "Veo a mis padres los domingos.",
@@ -2044,9 +2287,11 @@
           ],
           "en": "I see my parents on Sundays.",
           "it": "Vedo i miei genitori la domenica.",
+          "uk": "Я бачуся з батьками по неділях.",
           "hint": {
             "en": "A person: veo a.",
-            "it": "Una persona: veo a."
+            "it": "Una persona: veo a.",
+            "uk": "Людина: veo a."
           }
         },
         {
@@ -2062,9 +2307,11 @@
           "answer": "veo",
           "en": "On Sundays I see my grandmother.",
           "it": "La domenica vedo mia nonna.",
+          "uk": "По неділях я бачуся з бабусею.",
           "hint": {
             "en": "Yo: veo.",
-            "it": "Yo: veo."
+            "it": "Yo: veo.",
+            "uk": "Yo: veo."
           }
         },
         {
@@ -2078,9 +2325,11 @@
           ],
           "en": "Do you watch TV at night?",
           "it": "Guardi la tv la sera?",
+          "uk": "Ти дивишся телевізор увечері?",
           "hint": {
             "en": "Tú: v- + -es.",
-            "it": "Tú: v- + -es."
+            "it": "Tú: v- + -es.",
+            "uk": "Tú: v- + -es."
           }
         },
         {
@@ -2096,9 +2345,11 @@
           "answer": "estás",
           "en": "Where are you?",
           "it": "Dove sei?",
+          "uk": "Де ти?",
           "hint": {
             "en": "Where someone is: estar. Tú: estás.",
-            "it": "Dove si trova qualcuno: estar. Tú: estás."
+            "it": "Dove si trova qualcuno: estar. Tú: estás.",
+            "uk": "Де хтось знаходиться: estar. Tú: estás."
           }
         },
         {
@@ -2106,7 +2357,8 @@
           "beat": "mix",
           "intention": {
             "en": "Say that you're at home watching a series.",
-            "it": "Di che sei a casa e guardi una serie."
+            "it": "Di che sei a casa e guardi una serie.",
+            "uk": "Скажи, що ти вдома і дивишся серіал."
           },
           "accepted": [
             "Estoy en casa y veo una serie."
@@ -2121,9 +2373,11 @@
           ],
           "en": "I'm at home watching a series.",
           "it": "Sono a casa e guardo una serie.",
+          "uk": "Я вдома, дивлюся серіал.",
           "hint": {
             "en": "Where you are: estoy. Watching: veo.",
-            "it": "Dove sei: estoy. Guardare: veo."
+            "it": "Dove sei: estoy. Guardare: veo.",
+            "uk": "Де ти: estoy. Дивитися: veo."
           }
         },
         {
@@ -2131,7 +2385,8 @@
           "beat": "mix",
           "instruction": {
             "en": "Write in Spanish: «At night I watch a series, and on Sunday I'm giving my mother a present.»",
-            "it": "Scrivi in spagnolo: «La sera guardo una serie e domenica faccio un regalo a mia madre.»"
+            "it": "Scrivi in spagnolo: «La sera guardo una serie e domenica faccio un regalo a mia madre.»",
+            "uk": "Напиши іспанською: «Увечері я дивлюся серіал, а в неділю дарую мамі подарунок.»"
           },
           "accepted": [
             "Por la noche veo una serie y el domingo doy un regalo a mi madre.",
@@ -2143,7 +2398,8 @@
           "model": {
             "es": "Por la noche veo una serie y el domingo doy un regalo a mi madre.",
             "en": "At night I watch a series, and on Sunday I'm giving my mother a present.",
-            "it": "La sera guardo una serie e domenica faccio un regalo a mia madre."
+            "it": "La sera guardo una serie e domenica faccio un regalo a mia madre.",
+            "uk": "Увечері я дивлюся серіал, а в неділю дарую мамі подарунок."
           }
         }
       ]
@@ -2153,7 +2409,8 @@
     "id": "u8boss",
     "goal": {
       "en": "You're having a party at home tonight. Organise it with your friends: who's coming and who brings what.",
-      "it": "Stasera fai una festa a casa. Organizzala con i tuoi amici: chi viene e chi porta cosa."
+      "it": "Stasera fai una festa a casa. Organizzala con i tuoi amici: chi viene e chi porta cosa.",
+      "uk": "Сьогодні ввечері в тебе вдома вечірка. Організуй її з друзями: хто прийде і хто що принесе."
     },
     "items": [
       {
@@ -2163,12 +2420,14 @@
             "es": "los vasos",
             "en": "the glasses",
             "it": "i bicchieri",
+            "uk": "склянки",
             "kind": "chunk"
           },
           {
             "es": "el hielo",
             "en": "ice",
             "it": "il ghiaccio",
+            "uk": "лід",
             "kind": "chunk"
           }
         ]
@@ -2178,7 +2437,8 @@
         "beat": "fire",
         "intention": {
           "en": "Your friend asks «¿Qué hacemos esta noche?». Suggest a party at home.",
-          "it": "Il tuo amico chiede «¿Qué hacemos esta noche?». Proponi una festa a casa."
+          "it": "Il tuo amico chiede «¿Qué hacemos esta noche?». Proponi una festa a casa.",
+          "uk": "Твій друг питає «¿Qué hacemos esta noche?». Запропонуй вечірку вдома."
         },
         "accepted": [
           "Hacemos una fiesta en casa.",
@@ -2192,9 +2452,11 @@
         ],
         "en": "Let's have a party at home.",
         "it": "Facciamo una festa a casa.",
+        "uk": "Влаштуймо вечірку вдома.",
         "hint": {
           "en": "You and your friends: hacemos.",
-          "it": "Tu e i tuoi amici: hacemos."
+          "it": "Tu e i tuoi amici: hacemos.",
+          "uk": "Ти і твої друзі: hacemos."
         }
       },
       {
@@ -2210,9 +2472,11 @@
         "answer": "dice",
         "en": "My friend says he's coming with his girlfriend.",
         "it": "Il mio amico dice che viene con la sua ragazza.",
+        "uk": "Мій друг каже, що прийде зі своєю дівчиною.",
         "hint": {
           "en": "Mi amigo = él: dice.",
-          "it": "Mi amigo = él: dice."
+          "it": "Mi amigo = él: dice.",
+          "uk": "Mi amigo = él: dice."
         }
       },
       {
@@ -2228,9 +2492,11 @@
         "answer": "vienen",
         "en": "My brothers are coming too.",
         "it": "Vengono anche i miei fratelli.",
+        "uk": "Мої брати теж прийдуть.",
         "hint": {
           "en": "Mis hermanos = ellos: vienen.",
-          "it": "Mis hermanos = ellos: vienen."
+          "it": "Mis hermanos = ellos: vienen.",
+          "uk": "Mis hermanos = ellos: vienen."
         }
       },
       {
@@ -2244,9 +2510,11 @@
         ],
         "en": "You bring the drinks.",
         "it": "Tu porti le bevande.",
+        "uk": "Ти приносиш напої.",
         "hint": {
           "en": "Tú is regular: tra- + -es.",
-          "it": "Tú è regolare: tra- + -es."
+          "it": "Tú è regolare: tra- + -es.",
+          "uk": "Tú — правильна форма: tra- + -es."
         }
       },
       {
@@ -2262,9 +2530,11 @@
         "answer": "trae",
         "en": "My flatmate's bringing the glasses and the ice.",
         "it": "Il mio coinquilino porta i bicchieri e il ghiaccio.",
+        "uk": "Мій сусід по квартирі принесе склянки і лід.",
         "hint": {
           "en": "Mi compañero de piso = él: trae.",
-          "it": "Mi compañero de piso = él: trae."
+          "it": "Mi compañero de piso = él: trae.",
+          "uk": "Mi compañero de piso = él: trae."
         }
       },
       {
@@ -2278,9 +2548,11 @@
         ],
         "en": "And I'll make a cake.",
         "it": "E io faccio una torta.",
+        "uk": "А я спечу торт.",
         "hint": {
           "en": "Yo: hago.",
-          "it": "Yo: hago."
+          "it": "Yo: hago.",
+          "uk": "Yo: hago."
         }
       },
       {
@@ -2296,9 +2568,11 @@
         "answer": "conoce",
         "en": "My brother doesn't know the neighbourhood.",
         "it": "Mio fratello non conosce il quartiere.",
+        "uk": "Мій брат не знає цього району.",
         "hint": {
           "en": "A place: conocer.",
-          "it": "Un posto: conocer."
+          "it": "Un posto: conocer.",
+          "uk": "Місце: conocer."
         }
       },
       {
@@ -2306,7 +2580,8 @@
         "beat": "fire",
         "intention": {
           "en": "Your friend asks «¿Y la dirección?». Say that your brother doesn't know the address.",
-          "it": "Il tuo amico chiede «¿Y la dirección?». Di che tuo fratello non sa l'indirizzo."
+          "it": "Il tuo amico chiede «¿Y la dirección?». Di che tuo fratello non sa l'indirizzo.",
+          "uk": "Твій друг питає «¿Y la dirección?». Скажи, що твій брат не знає адреси."
         },
         "accepted": [
           "Mi hermano no sabe la dirección.",
@@ -2321,9 +2596,11 @@
         ],
         "en": "My brother doesn't know the address.",
         "it": "Mio fratello non sa l'indirizzo.",
+        "uk": "Мій брат не знає адреси.",
         "hint": {
           "en": "A fact: saber.",
-          "it": "Un'informazione: saber."
+          "it": "Un'informazione: saber.",
+          "uk": "Факт: saber."
         }
       },
       {
@@ -2331,7 +2608,8 @@
         "beat": "fire",
         "intention": {
           "en": "Plan your afternoon: first the food shopping, then you set the table.",
-          "it": "Organizza il pomeriggio: prima la spesa, poi apparecchi la tavola."
+          "it": "Organizza il pomeriggio: prima la spesa, poi apparecchi la tavola.",
+          "uk": "Сплануй свій день: спочатку покупки продуктів, потім накриваєш на стіл."
         },
         "accepted": [
           "Primero hago la compra y luego pongo la mesa."
@@ -2348,9 +2626,11 @@
         ],
         "en": "First I do the food shopping and then I set the table.",
         "it": "Prima faccio la spesa e poi apparecchio la tavola.",
+        "uk": "Спочатку я купую продукти, а потім накриваю на стіл.",
         "hint": {
           "en": "Yo: hago and pongo.",
-          "it": "Yo: hago e pongo."
+          "it": "Yo: hago e pongo.",
+          "uk": "Yo: hago і pongo."
         }
       },
       {
@@ -2364,9 +2644,11 @@
         ],
         "en": "I put the ice in the glasses.",
         "it": "Metto il ghiaccio nei bicchieri.",
+        "uk": "Я кладу лід у склянки.",
         "hint": {
           "en": "Yo: pongo.",
-          "it": "Yo: pongo."
+          "it": "Yo: pongo.",
+          "uk": "Yo: pongo."
         }
       },
       {
@@ -2382,9 +2664,11 @@
         "answer": "salgo",
         "en": "I leave work at six, so I'll be back early.",
         "it": "Esco dal lavoro alle sei, quindi torno presto.",
+        "uk": "Я виходжу з роботи о шостій, тож повернуся рано.",
         "hint": {
           "en": "Yo: salgo.",
-          "it": "Yo: salgo."
+          "it": "Yo: salgo.",
+          "uk": "Yo: salgo."
         }
       },
       {
@@ -2392,7 +2676,8 @@
         "beat": "mix",
         "instruction": {
           "en": "Send your friends a message. Write in Spanish: «There's a party at my place tonight. I'm bringing a cake and my brothers are coming too.»",
-          "it": "Manda un messaggio ai tuoi amici. Scrivi in spagnolo: «Stasera c'è una festa a casa mia. Io porto una torta e vengono anche i miei fratelli.»"
+          "it": "Manda un messaggio ai tuoi amici. Scrivi in spagnolo: «Stasera c'è una festa a casa mia. Io porto una torta e vengono anche i miei fratelli.»",
+          "uk": "Надішли друзям повідомлення. Напиши іспанською: «Сьогодні ввечері в мене вечірка. Я принесу торт, і мої брати теж прийдуть.»"
         },
         "accepted": [
           "Hay una fiesta en mi casa esta noche. Yo traigo una tarta y mis hermanos vienen también.",
@@ -2405,7 +2690,8 @@
         "model": {
           "es": "Hay una fiesta en mi casa esta noche. Yo traigo una tarta y mis hermanos vienen también.",
           "en": "There's a party at my place tonight. I'm bringing a cake and my brothers are coming too.",
-          "it": "Stasera c'è una festa a casa mia. Io porto una torta e vengono anche i miei fratelli."
+          "it": "Stasera c'è una festa a casa mia. Io porto una torta e vengono anche i miei fratelli.",
+          "uk": "Сьогодні ввечері в мене вечірка. Я принесу торт, і мої брати теж прийдуть."
         }
       }
     ]

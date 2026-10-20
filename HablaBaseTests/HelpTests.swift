@@ -34,7 +34,7 @@ final class HelpTests: XCTestCase {
 
     func testGlossaryOnlyKnowsIntroducedWordsAndTheirForms() {
         let glossary = Glossary(words: Unit1.lesson1().vocabulary)
-        XCTAssertEqual(glossary.lookup("¿Hablas")?.gloss, Gloss(en: "you speak", it: "parli"))
+        XCTAssertEqual(glossary.lookup("¿Hablas")?.gloss, Gloss(en: "you speak", it: "parli", uk: "ти розмовляєш"))
         XCTAssertEqual(glossary.lookup("café.")?.es, "café")
         XCTAssertNil(glossary.lookup("en"), "en is introduced in Lesson 2")
         XCTAssertNotNil(Glossary(words: Unit1.lesson2(profile: profile).vocabulary).lookup("llamo"))
@@ -43,7 +43,7 @@ final class HelpTests: XCTestCase {
     func testTwoMissesInARowOnTheSamePointBringAQuickReview() {
         let all = Unit1.lesson1().items
         let start = all.firstIndex { $0.id == "u1l1-yo" }!
-        let lesson = Lesson(id: "t", title: "", titleGloss: Gloss(en: "", it: ""), goal: Gloss(en: "", it: ""),
+        let lesson = Lesson(id: "t", title: "", titleGloss: Gloss(en: "", it: "", uk: ""), goal: Gloss(en: "", it: "", uk: ""),
                             mode: .lesson, items: Array(all[start...]))
         let store = AppStore(storage: InMemoryProgressStorage())
         let session = LessonSession(lesson: lesson)
@@ -151,5 +151,20 @@ final class SpokenAnswerTests: XCTestCase {
         XCTAssertEqual(prompt.context, "A friend asks «¿Qué tal?».")
         XCTAssertEqual(prompt.sentence, "Today I'm tired.")
         XCTAssertNil(TranslationPrompt("Say hello.").sentence)
+    }
+}
+
+final class UkrainianTests: XCTestCase {
+    func testProgressSavedBeforeUkrainianStillLoads() throws {
+        let gloss = try JSONDecoder().decode(Gloss.self, from: Data(#"{"en": "to speak", "it": "parlare"}"#.utf8))
+        XCTAssertEqual(gloss.text(.ukrainian), "to speak")
+    }
+
+    func testUkrainianLearnersGetUkrainianLessons() {
+        let profile = Profile(name: "Olena", city: "Kyiv", workplace: .oficina,
+                              nativeLanguage: .ukrainian, goal: .travel, dailyMinutes: 10)
+        let lesson = Unit1.lesson(id: "u1l2", profile: profile)
+        XCTAssertEqual(lesson?.target?.gloss.text(.ukrainian), "Мене звати Olena, я живу в місті Kyiv і працюю в офісі.")
+        XCTAssertEqual(Placeholders(profile: profile)("Hablo {language}. {languageUk}"), "Hablo ucraniano. українською")
     }
 }

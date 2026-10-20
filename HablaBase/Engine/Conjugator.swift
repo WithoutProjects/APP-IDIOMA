@@ -1,8 +1,8 @@
 import Foundation
 
-/// The learner's own language. Every Spanish example carries a gloss in both.
+/// The learner's own language. Every Spanish example carries a gloss in each.
 enum NativeLanguage: String, Codable, CaseIterable, Identifiable {
-    case english, italian
+    case english, italian, ukrainian
 
     var id: String { rawValue }
 
@@ -10,15 +10,24 @@ enum NativeLanguage: String, Codable, CaseIterable, Identifiable {
         switch self {
         case .english: return "English"
         case .italian: return "Italiano"
+        case .ukrainian: return "Українська"
+        }
+    }
+
+    /// The localization code: en, it or uk.
+    var code: String {
+        switch self {
+        case .english: return "en"
+        case .italian: return "it"
+        case .ukrainian: return "uk"
         }
     }
 
     /// The whole interface speaks the learner's language, whatever the device language is.
-    var locale: Locale { Locale(identifier: self == .english ? "en" : "it") }
+    var locale: Locale { Locale(identifier: code) }
 
     /// A UI string in this language, for code that builds strings rather than Text views.
     func localized(_ key: String.LocalizationValue) -> String {
-        let code = self == .english ? "en" : "it"
         if let path = Bundle.main.path(forResource: code, ofType: "lproj"), let bundle = Bundle(path: path) {
             return String(localized: key, bundle: bundle)
         }
@@ -26,9 +35,13 @@ enum NativeLanguage: String, Codable, CaseIterable, Identifiable {
         return String(localized: key, table: "SourceLanguage")
     }
 
-    /// Italian when the device is in Italian, English otherwise.
+    /// The device language when the app speaks it, English otherwise.
     static var deviceDefault: NativeLanguage {
-        Locale.current.language.languageCode == .italian ? .italian : .english
+        switch Locale.current.language.languageCode {
+        case .italian: return .italian
+        case .ukrainian: return .ukrainian
+        default: return .english
+        }
     }
 
     /// How the learner names their own language in Spanish ("Hablo italiano").
@@ -36,6 +49,26 @@ enum NativeLanguage: String, Codable, CaseIterable, Identifiable {
         switch self {
         case .english: return "inglés"
         case .italian: return "italiano"
+        case .ukrainian: return "ucraniano"
+        }
+    }
+
+    /// This language's name on its own, as the meaning of "inglés" on a vocabulary slide.
+    var languageNameGloss: Gloss {
+        switch self {
+        case .english: return Gloss(en: "English", it: "inglese", uk: "англійська")
+        case .italian: return Gloss(en: "Italian", it: "italiano", uk: "італійська")
+        case .ukrainian: return Gloss(en: "Ukrainian", it: "ucraino", uk: "українська")
+        }
+    }
+
+    /// This language's name as it fits in "I speak …" in each learner language
+    /// (Ukrainian: "Я розмовляю англійською").
+    var spokenName: Gloss {
+        switch self {
+        case .english: return Gloss(en: "English", it: "inglese", uk: "англійською")
+        case .italian: return Gloss(en: "Italian", it: "italiano", uk: "італійською")
+        case .ukrainian: return Gloss(en: "Ukrainian", it: "ucraino", uk: "українською")
         }
     }
 }
@@ -44,9 +77,28 @@ enum NativeLanguage: String, Codable, CaseIterable, Identifiable {
 struct Gloss: Hashable, Codable {
     let en: String
     let it: String
+    let uk: String
+
+    init(en: String, it: String, uk: String) {
+        self.en = en
+        self.it = it
+        self.uk = uk
+    }
+
+    /// Progress saved before Ukrainian existed has no uk: it falls back to English.
+    init(from decoder: Decoder) throws {
+        let container = try decoder.container(keyedBy: CodingKeys.self)
+        en = try container.decode(String.self, forKey: .en)
+        it = try container.decode(String.self, forKey: .it)
+        uk = try container.decodeIfPresent(String.self, forKey: .uk) ?? en
+    }
 
     func text(_ language: NativeLanguage) -> String {
-        language == .english ? en : it
+        switch language {
+        case .english: return en
+        case .italian: return it
+        case .ukrainian: return uk
+        }
     }
 }
 
@@ -78,12 +130,12 @@ enum Person: String, CaseIterable, Codable, Identifiable {
 
     var gloss: Gloss {
         switch self {
-        case .yo: return Gloss(en: "I", it: "io")
-        case .tu: return Gloss(en: "you", it: "tu")
-        case .el: return Gloss(en: "he / she", it: "lui / lei")
-        case .nosotros: return Gloss(en: "we", it: "noi")
-        case .vosotros: return Gloss(en: "you all", it: "voi")
-        case .ellos: return Gloss(en: "they", it: "loro")
+        case .yo: return Gloss(en: "I", it: "io", uk: "я")
+        case .tu: return Gloss(en: "you", it: "tu", uk: "ти")
+        case .el: return Gloss(en: "he / she", it: "lui / lei", uk: "він / вона")
+        case .nosotros: return Gloss(en: "we", it: "noi", uk: "ми")
+        case .vosotros: return Gloss(en: "you all", it: "voi", uk: "ви")
+        case .ellos: return Gloss(en: "they", it: "loro", uk: "вони")
         }
     }
 }
