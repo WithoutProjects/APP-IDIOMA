@@ -124,12 +124,14 @@ or 2 distractor tiles. `accepted[0]` is the model answer and must be buildable f
  "hint": {"en": "viv- + -imos.", "it": "..."}}
 ```
 
-**write**: free output, usually the last mix item. Every `required` chunk (lowercase) must appear;
-order is free.
+**write**: write a whole sentence, usually the last mix item. Never an open prompt ("say two
+things you do"): people can write anything, so it can't be checked. The instruction gives the exact
+meaning to translate, in «…», and `accepted` lists every natural way to say it (with and without
+the subject pronoun, other word orders…); the first is the model answer. Accents are forgiven.
 
 ```json
 {"type": "write", "beat": "mix",
- "instruction": {"en": "Say what you and a friend do: two things, joined with y.", "it": "..."},
- "required": ["nosotros", "y"],
- "model": {"es": "Nosotros hablamos español y comemos mucho.", "en": "...", "it": "..."}}
+ "instruction": {"en": "Write in Spanish: «We speak Spanish and we eat a lot.»", "it": "Scrivi in spagnolo: «Parliamo spagnolo e mangiamo molto.»"},
+ "accepted": ["Nosotros hablamos español y comemos mucho.", "Hablamos español y comemos mucho.", "Nosotros hablamos español y nosotros comemos mucho."],
+ "model": {"es": "Nosotros hablamos español y comemos mucho.", "en": "We speak Spanish and we eat a lot.", "it": "Parliamo spagnolo e mangiamo molto."}}
 ```

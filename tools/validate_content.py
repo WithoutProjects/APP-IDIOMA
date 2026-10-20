@@ -187,6 +187,16 @@ class Checker:
                 self.gloss(where, item.get("instruction"), "instruction")
                 if not model.get("es") or not model.get("en") or not model.get("it"):
                     self.error(where, "model needs es, en and it")
+                # Carla: an open prompt ("say two things you do") can't be checked. Every write
+                # gives the exact meaning to translate, in quotes, and the sentences it accepts.
+                accepted = item.get("accepted", [])
+                if not accepted or normalize(accepted[0]) != normalize(model.get("es", "")):
+                    self.error(where, "a write needs accepted sentences, the first one being the model")
+                for lang in ("en", "it"):
+                    if "«" not in (item.get("instruction") or {}).get(lang, ""):
+                        self.error(where, f"instruction ({lang}) must give the exact sentence to translate in «…»")
+                for text in accepted:
+                    self.uses(where, text, known)
                 padded = f" {normalize(model.get('es', ''))} "
                 for chunk in item.get("required", []):
                     c = normalize(chunk)

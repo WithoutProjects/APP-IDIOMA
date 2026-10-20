@@ -121,10 +121,14 @@ struct SentenceBuilder: Hashable {
 }
 
 /// Write it all in one go. Any order is fine as long as every chunk is there.
+/// Write a whole sentence. With `accepted`, the instruction gives the exact meaning to translate
+/// and the answer must match one accepted sentence (accents forgiven). Without it (Lesson 2's
+/// personal output), any order is fine as long as every required chunk is there.
 struct FreeWrite: Hashable {
     let instruction: Gloss
     let requiredChunks: [String]
     let model: Example
+    var accepted: [String] = []
 }
 
 enum ItemKind: Hashable {

@@ -572,7 +572,10 @@ struct FreeWriteView: View {
 
             Button("Check") {
                 focused = false
-                if let missing = Grader.missingChunk(in: text, required: write.requiredChunks) {
+                if !write.accepted.isEmpty {
+                    let hint = Gloss(en: "Compare with the right answer below.", it: "Confronta con la risposta giusta qui sotto.")
+                    onSubmit(Grader.compare(text, accepted: write.accepted, hint: hint.text(language)))
+                } else if let missing = Grader.missingChunk(in: text, required: write.requiredChunks) {
                     let hint = missing == "y"
                         ? Gloss(en: "Join the parts with y.", it: "Unisci le parti con y.")
                         : Gloss(en: "Missing: \u{201C}\(missing)\u{201D}", it: "Manca: \u{201C}\(missing)\u{201D}")

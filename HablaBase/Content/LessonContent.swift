@@ -279,7 +279,8 @@ struct ItemSpec: Decodable {
         case "write":
             let write = FreeWrite(instruction: instruction.map(fill.gloss) ?? gloss,
                                   requiredChunks: (required ?? []).map { fill($0).lowercased() },
-                                  model: model.map(fill.example) ?? Example(es: "", gloss: gloss))
+                                  model: model.map(fill.example) ?? Example(es: "", gloss: gloss),
+                                  accepted: (accepted ?? []).map { fill($0) })
             return [LessonItem(id: id, beat: itemBeat ?? .mix, kind: .freeWrite(write), heartsAtRisk: true, formKeys: formKeys)]
         default:
             assertionFailure("Unknown item type \(type) in \(id)")
