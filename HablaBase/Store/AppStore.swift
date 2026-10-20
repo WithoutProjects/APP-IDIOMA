@@ -92,6 +92,43 @@ final class AppStore: ObservableObject {
         return Glossary(words: words)
     }
 
+    /// Notes for every unit the learner has reached, current unit first: the lessons they
+    /// have finished or are on now, with their explanations and vocabulary.
+    var notes: [UnitNotes] {
+        guard let profile else { return [] }
+        let current = nextNode?.id
+        var result: [UnitNotes] = []
+        for level in Curriculum.shared.levels {
+            for unit in level.units {
+                let lessons = unit.lessons
+                    .filter { isCompleted($0.id) || $0.id == current }
+                    .compactMap { Unit1.lesson(id: $0.id, profile: profile) }
+                if !lessons.isEmpty { result.append(UnitNotes(unit: unit, lessons: lessons)) }
+            }
+        }
+        return result.reversed()
+    }
+
+    /// Sentences to say aloud: only from finished lessons, so every word has been introduced.
+    var speakingSentences: [Example] {
+        guard let profile else { return [] }
+        var sentences: [Example] = []
+        for node in Curriculum.sharedPath where isCompleted(node.id) {
+            guard let lesson = Unit1.lesson(id: node.id, profile: profile), case .lesson = lesson.mode else { continue }
+            if let target = lesson.target { sentences.append(target) }
+            for item in lesson.items {
+                switch item.kind {
+                case .frame(let card): sentences += card.examples
+                case .builder(let builder): sentences.append(builder.model)
+                case .freeWrite(let write): sentences.append(write.model)
+                default: break
+                }
+            }
+        }
+        var seen: Set<String> = []
+        return sentences.filter { seen.insert($0.es).inserted }
+    }
+
     // MARK: Practice events
 
     func addXP(_ amount: Int) {
@@ -171,4 +208,12 @@ final class AppStore: ObservableObject {
         let parts = Calendar.current.dateComponents([.year, .month, .day], from: date)
         return String(format: "%04d-%02d-%02d", parts.year ?? 0, parts.month ?? 0, parts.day ?? 0)
     }
+}
+
+/// One unit's notes: the explanations and words of the lessons reached so far.
+struct UnitNotes: Identifiable {
+    let unit: CurriculumUnit
+    let lessons: [Lesson]
+
+    var id: String { unit.id }
 }

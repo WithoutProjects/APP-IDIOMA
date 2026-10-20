@@ -24,6 +24,10 @@ struct RootView: View {
                     .tabItem { Label("Path", systemImage: "map") }
                 LabView()
                     .tabItem { Label("Lab", systemImage: "square.stack.3d.up") }
+                NotesView()
+                    .tabItem { Label("Notes", systemImage: "book.closed") }
+                TalkView()
+                    .tabItem { Label("Speak", systemImage: "mic.fill") }
                 ProfileView()
                     .tabItem { Label("Profile", systemImage: "person.crop.circle") }
             }

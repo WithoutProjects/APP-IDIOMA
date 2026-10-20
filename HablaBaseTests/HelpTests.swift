@@ -95,3 +95,31 @@ final class HelpTests: XCTestCase {
         XCTAssertLessThanOrEqual(review.questionCount, Lesson.maxQuestions)
     }
 }
+
+@MainActor
+final class NotesAndSpeakingTests: XCTestCase {
+    private let profile = Profile(name: "Ana", city: "Milán", workplace: .hospital,
+                                  nativeLanguage: .english, goal: .travel, dailyMinutes: 10)
+
+    func testSpeakingIgnoresAccentsAndPunctuation() {
+        let words = SpeakingScore.words(said: "tu hablas espanol", target: "¿Tú hablas español?")
+        XCTAssertTrue(words.allSatisfy(\.heard))
+        XCTAssertTrue(SpeakingScore.passed(words))
+    }
+
+    func testSpeakingMarksMissingWords() {
+        let words = SpeakingScore.words(said: "yo hablo", target: "Yo hablo español.")
+        XCTAssertEqual(words.map(\.heard), [true, true, false])
+        XCTAssertFalse(SpeakingScore.passed(words))
+    }
+
+    func testNotesShowReachedUnitsOnly() {
+        let store = AppStore(storage: InMemoryProgressStorage())
+        store.completeOnboarding(profile)
+        XCTAssertEqual(store.notes.map(\.unit.id), ["u1"])
+        XCTAssertEqual(store.notes.first?.lessons.map(\.id), ["u1l1"])
+        XCTAssertTrue(store.speakingSentences.isEmpty, "nothing to say before the first lesson is done")
+        store.completeLesson("u1l1", xp: 10)
+        XCTAssertFalse(store.speakingSentences.isEmpty)
+    }
+}
