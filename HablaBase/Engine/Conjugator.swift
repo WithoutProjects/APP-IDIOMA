@@ -2,7 +2,7 @@ import Foundation
 
 /// The learner's own language. Every Spanish example carries a gloss in each.
 enum NativeLanguage: String, Codable, CaseIterable, Identifiable {
-    case english, italian, ukrainian, german, french
+    case english, italian, ukrainian, german, french, portuguese
 
     var id: String { rawValue }
 
@@ -13,6 +13,7 @@ enum NativeLanguage: String, Codable, CaseIterable, Identifiable {
         case .ukrainian: return "Українська"
         case .german: return "Deutsch"
         case .french: return "Français"
+        case .portuguese: return "Português (Brasil)"
         }
     }
 
@@ -24,12 +25,14 @@ enum NativeLanguage: String, Codable, CaseIterable, Identifiable {
         case .ukrainian: return "uk"
         case .german: return "de"
         case .french: return "fr"
+        case .portuguese: return "pt"
         }
     }
 
     /// The app localization: Brazilian Portuguese and Simplified Chinese.
     var localization: String {
         switch self {
+        case .portuguese: return "pt-BR"
         default: return code
         }
     }
@@ -53,6 +56,7 @@ enum NativeLanguage: String, Codable, CaseIterable, Identifiable {
         case .ukrainian: return .ukrainian
         case .german: return .german
         case .french: return .french
+        case .portuguese: return .portuguese
         default: return .english
         }
     }
@@ -65,17 +69,19 @@ enum NativeLanguage: String, Codable, CaseIterable, Identifiable {
         case .ukrainian: return "ucraniano"
         case .german: return "alemán"
         case .french: return "francés"
+        case .portuguese: return "portugués"
         }
     }
 
     /// This language's name on its own, as the meaning of "inglés" on a vocabulary slide.
     var languageNameGloss: Gloss {
         switch self {
-        case .english: return Gloss(en: "English", it: "inglese", uk: "англійська", de: "Englisch", fr: "anglais")
-        case .italian: return Gloss(en: "Italian", it: "italiano", uk: "італійська", de: "Italienisch", fr: "italien")
-        case .ukrainian: return Gloss(en: "Ukrainian", it: "ucraino", uk: "українська", de: "Ukrainisch", fr: "ukrainien")
-        case .german: return Gloss(en: "German", it: "tedesco", uk: "німецька", de: "Deutsch", fr: "allemand")
-        case .french: return Gloss(en: "French", it: "francese", uk: "французька", de: "Französisch", fr: "français")
+        case .english: return Gloss(en: "English", it: "inglese", uk: "англійська", de: "Englisch", fr: "anglais", pt: "inglês")
+        case .italian: return Gloss(en: "Italian", it: "italiano", uk: "італійська", de: "Italienisch", fr: "italien", pt: "italiano")
+        case .ukrainian: return Gloss(en: "Ukrainian", it: "ucraino", uk: "українська", de: "Ukrainisch", fr: "ukrainien", pt: "ucraniano")
+        case .german: return Gloss(en: "German", it: "tedesco", uk: "німецька", de: "Deutsch", fr: "allemand", pt: "alemão")
+        case .french: return Gloss(en: "French", it: "francese", uk: "французька", de: "Französisch", fr: "français", pt: "francês")
+        case .portuguese: return Gloss(en: "Portuguese", it: "portoghese", uk: "португальська", de: "Portugiesisch", fr: "portugais", pt: "português")
         }
     }
 
@@ -83,11 +89,12 @@ enum NativeLanguage: String, Codable, CaseIterable, Identifiable {
     /// (Ukrainian: "Я розмовляю англійською").
     var spokenName: Gloss {
         switch self {
-        case .english: return Gloss(en: "English", it: "inglese", uk: "англійською", de: "Englisch", fr: "anglais")
-        case .italian: return Gloss(en: "Italian", it: "italiano", uk: "італійською", de: "Italienisch", fr: "italien")
-        case .ukrainian: return Gloss(en: "Ukrainian", it: "ucraino", uk: "українською", de: "Ukrainisch", fr: "ukrainien")
-        case .german: return Gloss(en: "German", it: "tedesco", uk: "німецькою", de: "Deutsch", fr: "allemand")
-        case .french: return Gloss(en: "French", it: "francese", uk: "французькою", de: "Französisch", fr: "français")
+        case .english: return Gloss(en: "English", it: "inglese", uk: "англійською", de: "Englisch", fr: "anglais", pt: "inglês")
+        case .italian: return Gloss(en: "Italian", it: "italiano", uk: "італійською", de: "Italienisch", fr: "italien", pt: "italiano")
+        case .ukrainian: return Gloss(en: "Ukrainian", it: "ucraino", uk: "українською", de: "Ukrainisch", fr: "ukrainien", pt: "ucraniano")
+        case .german: return Gloss(en: "German", it: "tedesco", uk: "німецькою", de: "Deutsch", fr: "allemand", pt: "alemão")
+        case .french: return Gloss(en: "French", it: "francese", uk: "французькою", de: "Französisch", fr: "français", pt: "francês")
+        case .portuguese: return Gloss(en: "Portuguese", it: "portoghese", uk: "португальською", de: "Portugiesisch", fr: "portugais", pt: "português")
         }
     }
 }
@@ -133,6 +140,7 @@ struct Gloss: Hashable, Codable {
         case .ukrainian: return uk
         case .german: return de ?? en
         case .french: return fr ?? en
+        case .portuguese: return pt ?? en
         }
     }
 }
@@ -165,12 +173,12 @@ enum Person: String, CaseIterable, Codable, Identifiable {
 
     var gloss: Gloss {
         switch self {
-        case .yo: return Gloss(en: "I", it: "io", uk: "я", de: "ich", fr: "je")
-        case .tu: return Gloss(en: "you", it: "tu", uk: "ти", de: "du", fr: "tu")
-        case .el: return Gloss(en: "he / she", it: "lui / lei", uk: "він / вона", de: "er / sie", fr: "il / elle")
-        case .nosotros: return Gloss(en: "we", it: "noi", uk: "ми", de: "wir", fr: "nous")
-        case .vosotros: return Gloss(en: "you all", it: "voi", uk: "ви", de: "ihr", fr: "vous")
-        case .ellos: return Gloss(en: "they", it: "loro", uk: "вони", de: "sie", fr: "ils / elles")
+        case .yo: return Gloss(en: "I", it: "io", uk: "я", de: "ich", fr: "je", pt: "eu")
+        case .tu: return Gloss(en: "you", it: "tu", uk: "ти", de: "du", fr: "tu", pt: "você")
+        case .el: return Gloss(en: "he / she", it: "lui / lei", uk: "він / вона", de: "er / sie", fr: "il / elle", pt: "ele / ela")
+        case .nosotros: return Gloss(en: "we", it: "noi", uk: "ми", de: "wir", fr: "nous", pt: "nós")
+        case .vosotros: return Gloss(en: "you all", it: "voi", uk: "ви", de: "ihr", fr: "vous", pt: "vocês")
+        case .ellos: return Gloss(en: "they", it: "loro", uk: "вони", de: "sie", fr: "ils / elles", pt: "eles / elas")
         }
     }
 }

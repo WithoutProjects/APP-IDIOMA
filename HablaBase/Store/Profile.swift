@@ -20,21 +20,21 @@ enum Workplace: String, Codable, CaseIterable, Identifiable {
     /// The place on its own, for the vocabulary slides.
     var nounGloss: Gloss {
         switch self {
-        case .hospital: return Gloss(en: "a hospital", it: "un ospedale", uk: "лікарня", de: "ein Krankenhaus", fr: "un hôpital")
-        case .oficina: return Gloss(en: "an office", it: "un ufficio", uk: "офіс", de: "ein Büro", fr: "un bureau")
-        case .escuela: return Gloss(en: "a school", it: "una scuola", uk: "школа", de: "eine Schule", fr: "une école")
-        case .casa: return Gloss(en: "home", it: "casa", uk: "дім", de: "Zuhause", fr: "la maison")
-        case .tienda: return Gloss(en: "a shop", it: "un negozio", uk: "магазин", de: "ein Geschäft", fr: "un magasin")
+        case .hospital: return Gloss(en: "a hospital", it: "un ospedale", uk: "лікарня", de: "ein Krankenhaus", fr: "un hôpital", pt: "um hospital")
+        case .oficina: return Gloss(en: "an office", it: "un ufficio", uk: "офіс", de: "ein Büro", fr: "un bureau", pt: "um escritório")
+        case .escuela: return Gloss(en: "a school", it: "una scuola", uk: "школа", de: "eine Schule", fr: "une école", pt: "uma escola")
+        case .casa: return Gloss(en: "home", it: "casa", uk: "дім", de: "Zuhause", fr: "la maison", pt: "casa")
+        case .tienda: return Gloss(en: "a shop", it: "un negozio", uk: "магазин", de: "ein Geschäft", fr: "un magasin", pt: "uma loja")
         }
     }
 
     var gloss: Gloss {
         switch self {
-        case .hospital: return Gloss(en: "in a hospital", it: "in un ospedale", uk: "в лікарні", de: "in einem Krankenhaus", fr: "dans un hôpital")
-        case .oficina: return Gloss(en: "in an office", it: "in un ufficio", uk: "в офісі", de: "in einem Büro", fr: "dans un bureau")
-        case .escuela: return Gloss(en: "at a school", it: "in una scuola", uk: "у школі", de: "an einer Schule", fr: "dans une école")
-        case .casa: return Gloss(en: "from home", it: "a casa", uk: "з дому", de: "von zu Hause aus", fr: "de chez moi")
-        case .tienda: return Gloss(en: "in a shop", it: "in un negozio", uk: "в магазині", de: "in einem Geschäft", fr: "dans un magasin")
+        case .hospital: return Gloss(en: "in a hospital", it: "in un ospedale", uk: "в лікарні", de: "in einem Krankenhaus", fr: "dans un hôpital", pt: "em um hospital")
+        case .oficina: return Gloss(en: "in an office", it: "in un ufficio", uk: "в офісі", de: "in einem Büro", fr: "dans un bureau", pt: "em um escritório")
+        case .escuela: return Gloss(en: "at a school", it: "in una scuola", uk: "у школі", de: "an einer Schule", fr: "dans une école", pt: "em uma escola")
+        case .casa: return Gloss(en: "from home", it: "a casa", uk: "з дому", de: "von zu Hause aus", fr: "de chez moi", pt: "em casa")
+        case .tienda: return Gloss(en: "in a shop", it: "in un negozio", uk: "в магазині", de: "in einem Geschäft", fr: "dans un magasin", pt: "em uma loja")
         }
     }
 }
@@ -46,11 +46,11 @@ enum LearningGoal: String, Codable, CaseIterable, Identifiable {
 
     var gloss: Gloss {
         switch self {
-        case .travel: return Gloss(en: "Travel", it: "Viaggiare", uk: "Подорожі", de: "Reisen", fr: "Voyager")
-        case .work: return Gloss(en: "Work", it: "Lavoro", uk: "Робота", de: "Arbeit", fr: "Travail")
-        case .family: return Gloss(en: "Family", it: "Famiglia", uk: "Сім'я", de: "Familie", fr: "Famille")
-        case .partner: return Gloss(en: "Partner", it: "Partner", uk: "Партнер", de: "Partner", fr: "Couple")
-        case .move: return Gloss(en: "Move abroad", it: "Trasferirmi", uk: "Переїзд за кордон", de: "Auswandern", fr: "Vivre à l'étranger")
+        case .travel: return Gloss(en: "Travel", it: "Viaggiare", uk: "Подорожі", de: "Reisen", fr: "Voyager", pt: "Viajar")
+        case .work: return Gloss(en: "Work", it: "Lavoro", uk: "Робота", de: "Arbeit", fr: "Travail", pt: "Trabalho")
+        case .family: return Gloss(en: "Family", it: "Famiglia", uk: "Сім'я", de: "Familie", fr: "Famille", pt: "Família")
+        case .partner: return Gloss(en: "Partner", it: "Partner", uk: "Партнер", de: "Partner", fr: "Couple", pt: "Relacionamento")
+        case .move: return Gloss(en: "Move abroad", it: "Trasferirmi", uk: "Переїзд за кордон", de: "Auswandern", fr: "Vivre à l'étranger", pt: "Morar fora")
         }
     }
 }
