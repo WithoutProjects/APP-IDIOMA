@@ -310,15 +310,15 @@
           "type": "choose",
           "beat": "forge",
           "before": "Tengo hambre, ",
-          "after": " como.",
+          "after": " como algo.",
           "options": [
             "entonces",
             "pero",
             "porque"
           ],
           "answer": "entonces",
-          "en": "I'm hungry, so I eat.",
-          "it": "Ho fame, quindi mangio.",
+          "en": "I'm hungry, so I'll eat something.",
+          "it": "Ho fame, quindi mangio qualcosa.",
           "hint": {
             "en": "Eating is what you do because you're hungry: entonces.",
             "it": "Mangi perché hai fame: entonces."
@@ -854,12 +854,11 @@
         "it": "Di chi e cosa conosci, e cosa sai fare."
       },
       "target": {
-        "es": "Conozco a Marta, pero no sé su dirección.",
-        "en": "I know Marta, but I don't know her address.",
-        "it": "Conosco Marta, ma non so il suo indirizzo."
+        "es": "Conozco a tu hermano, pero no sé su dirección.",
+        "en": "I know your brother, but I don't know his address.",
+        "it": "Conosco tuo fratello, ma non so il suo indirizzo."
       },
       "names": [
-        "Marta",
         "Madrid"
       ],
       "items": [
@@ -924,8 +923,8 @@
             "ending": "o"
           },
           "rule": {
-            "en": "conocer is to know people and places. Yo is conozco, the rest is regular. Before a person, put a: conozco a Marta.",
-            "it": "conocer è conoscere persone e luoghi. Yo è conozco, il resto è regolare. Prima di una persona, metti a: conozco a Marta."
+            "en": "conocer is to know people and places. Yo is conozco, the rest is regular. Before a person, put a: conozco a tu hermano.",
+            "it": "conocer è conoscere persone e luoghi. Yo è conozco, il resto è regolare. Prima di una persona, metti a: conozco a tu hermano."
           },
           "examples": [
             {
@@ -934,9 +933,9 @@
               "it": "Conosco bene il quartiere."
             },
             {
-              "es": "¿Conoces a Marta?",
-              "en": "Do you know Marta?",
-              "it": "Conosci Marta?"
+              "es": "¿Conoces a mis padres?",
+              "en": "Do you know my parents?",
+              "it": "Conosci i miei genitori?"
             },
             {
               "es": "Conocemos Madrid.",
@@ -1264,24 +1263,24 @@
           "type": "build",
           "beat": "mix",
           "intention": {
-            "en": "Say that you know Marta, but you don't know her address.",
-            "it": "Di che conosci Marta, ma non sai il suo indirizzo."
+            "en": "Tell your friend that you know their brother, but you don't know his address.",
+            "it": "Di' al tuo amico che conosci suo fratello, ma non sai il suo indirizzo."
           },
           "accepted": [
-            "Conozco a Marta, pero no sé su dirección."
+            "Conozco a tu hermano, pero no sé su dirección."
           ],
           "tiles": [
             "Conozco",
             "a",
-            "Marta",
+            "tu hermano",
             "pero",
             "no",
             "sé",
             "su dirección",
             "sabe"
           ],
-          "en": "I know Marta, but I don't know her address.",
-          "it": "Conosco Marta, ma non so il suo indirizzo.",
+          "en": "I know your brother, but I don't know his address.",
+          "it": "Conosco tuo fratello, ma non so il suo indirizzo.",
           "hint": {
             "en": "A person: conozco a; a fact: sé.",
             "it": "Una persona: conozco a; un'informazione: sé."
@@ -2144,11 +2143,6 @@
       "en": "You're having a party at home tonight. Organise it with your friends: who's coming and who brings what.",
       "it": "Stasera fai una festa a casa. Organizzala con i tuoi amici: chi viene e chi porta cosa."
     },
-    "names": [
-      "Ana",
-      "Marta",
-      "Pablo"
-    ],
     "items": [
       {
         "type": "words",
@@ -2194,19 +2188,19 @@
       {
         "type": "choose",
         "beat": "fire",
-        "before": "Ana ",
-        "after": " que viene con su novio.",
+        "before": "Mi amigo ",
+        "after": " que viene con su novia.",
         "options": [
           "dice",
           "digo",
           "dicen"
         ],
         "answer": "dice",
-        "en": "Ana says she's coming with her boyfriend.",
-        "it": "Ana dice che viene con il suo ragazzo.",
+        "en": "My friend says he's coming with his girlfriend.",
+        "it": "Il mio amico dice che viene con la sua ragazza.",
         "hint": {
-          "en": "Ana = ella: dice.",
-          "it": "Ana = ella: dice."
+          "en": "Mi amigo = él: dice.",
+          "it": "Mi amigo = él: dice."
         }
       },
       {
@@ -2246,7 +2240,7 @@
       {
         "type": "choose",
         "beat": "fire",
-        "before": "Marta ",
+        "before": "Mi compañero de piso ",
         "after": " los vasos y el hielo.",
         "options": [
           "trae",
@@ -2254,11 +2248,11 @@
           "traen"
         ],
         "answer": "trae",
-        "en": "Marta brings the glasses and the ice.",
-        "it": "Marta porta i bicchieri e il ghiaccio.",
+        "en": "My flatmate's bringing the glasses and the ice.",
+        "it": "Il mio coinquilino porta i bicchieri e il ghiaccio.",
         "hint": {
-          "en": "Marta = ella: trae.",
-          "it": "Marta = ella: trae."
+          "en": "Mi compañero de piso = él: trae.",
+          "it": "Mi compañero de piso = él: trae."
         }
       },
       {
@@ -2280,7 +2274,7 @@
       {
         "type": "choose",
         "beat": "fire",
-        "before": "Pablo no ",
+        "before": "Mi hermano no ",
         "after": " el barrio.",
         "options": [
           "conoce",
@@ -2288,8 +2282,8 @@
           "conozco"
         ],
         "answer": "conoce",
-        "en": "Pablo doesn't know the neighbourhood.",
-        "it": "Pablo non conosce il quartiere.",
+        "en": "My brother doesn't know the neighbourhood.",
+        "it": "Mio fratello non conosce il quartiere.",
         "hint": {
           "en": "A place: conocer.",
           "it": "Un posto: conocer."
@@ -2299,21 +2293,22 @@
         "type": "build",
         "beat": "fire",
         "intention": {
-          "en": "Your friend asks «¿Y la dirección?». Say that Pablo doesn't know the address.",
-          "it": "Il tuo amico chiede «¿Y la dirección?». Di che Pablo non sa l'indirizzo."
+          "en": "Your friend asks «¿Y la dirección?». Say that your brother doesn't know the address.",
+          "it": "Il tuo amico chiede «¿Y la dirección?». Di che tuo fratello non sa l'indirizzo."
         },
         "accepted": [
-          "Pablo no sabe la dirección."
+          "Mi hermano no sabe la dirección.",
+          "No, mi hermano no sabe la dirección."
         ],
         "tiles": [
-          "Pablo",
+          "Mi hermano",
           "no",
           "sabe",
           "la dirección",
           "conoce"
         ],
-        "en": "Pablo doesn't know the address.",
-        "it": "Pablo non sa l'indirizzo.",
+        "en": "My brother doesn't know the address.",
+        "it": "Mio fratello non sa l'indirizzo.",
         "hint": {
           "en": "A fact: saber.",
           "it": "Un'informazione: saber."

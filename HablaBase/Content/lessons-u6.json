@@ -2172,12 +2172,9 @@
  "boss": {
   "id": "u6boss",
   "goal": {
-   "en": "You're at a language exchange with Marta from Madrid. Answer her questions and tell her about your week.",
-   "it": "Sei a uno scambio linguistico con Marta, di Madrid. Rispondi alle sue domande e raccontale la tua settimana."
+   "en": "You're at a language exchange in Madrid. Answer your exchange partner's questions and tell her about your week.",
+   "it": "Sei a uno scambio linguistico a Madrid. Rispondi alle domande della tua compagna di scambio e raccontale la tua settimana."
   },
-  "names": [
-   "Marta"
-  ],
   "items": [
    {
     "type": "words",
@@ -2200,22 +2197,22 @@
     "type": "build",
     "beat": "fire",
     "intention": {
-     "en": "Marta says: ¡Hola! Me llamo Marta. ¿Y tú? Say hello and tell her your name.",
-     "it": "Marta dice: ¡Hola! Me llamo Marta. ¿Y tú? Salutala e dille come ti chiami."
+     "en": "Your exchange partner says «¡Hola! ¿Cómo te llamas?». Say hello and tell her your name.",
+     "it": "La tua compagna di scambio dice «¡Hola! ¿Cómo te llamas?». Salutala e dille come ti chiami."
     },
     "accepted": [
-     "Hola, Marta. Me llamo {name}.",
-     "Hola. Me llamo {name}."
+     "Hola, me llamo {name}.",
+     "Hola. Me llamo {name}.",
+     "Me llamo {name}."
     ],
     "tiles": [
      "Hola",
-     "Marta",
      "Me llamo",
      "{name}",
      "Te llamas"
     ],
-    "en": "Hi, Marta. My name is {name}.",
-    "it": "Ciao, Marta. Mi chiamo {name}.",
+    "en": "Hi, my name is {name}.",
+    "it": "Ciao, mi chiamo {name}.",
     "hint": {
      "en": "About yourself: me llamo.",
      "it": "Parli di te: me llamo."
@@ -2224,7 +2221,7 @@
    {
     "type": "gap",
     "beat": "fire",
-    "before": "Marta: ¿Hablas inglés o italiano? Tú: ",
+    "before": "¿Hablas inglés o italiano? ",
     "after": " {language} y un poco de español.",
     "label": "hablar",
     "accepted": [
@@ -2242,8 +2239,8 @@
     "type": "build",
     "beat": "fire",
     "intention": {
-     "en": "Marta speaks very fast. Ask her to speak more slowly, please.",
-     "it": "Marta parla molto veloce. Chiedile di parlare più piano, per favore."
+     "en": "She speaks very fast. Ask her to speak more slowly, please.",
+     "it": "Parla molto veloce. Chiedile di parlare più piano, per favore."
     },
     "accepted": [
      "Más despacio, por favor.",
@@ -2265,8 +2262,8 @@
     "type": "build",
     "beat": "fire",
     "intention": {
-     "en": "Marta asks: ¿Dónde trabajas? Tell her.",
-     "it": "Marta chiede: ¿Dónde trabajas? Rispondile."
+     "en": "She asks «¿Dónde trabajas?». Tell her.",
+     "it": "Ti chiede «¿Dónde trabajas?». Rispondile."
     },
     "accepted": [
      "Trabajo en {work}.",
@@ -2288,7 +2285,7 @@
    {
     "type": "choose",
     "beat": "fire",
-    "before": "Marta: ¿A qué hora llegas al trabajo? Tú: Llego ",
+    "before": "¿A qué hora llegas al trabajo? Llego ",
     "after": " nueve.",
     "options": [
      "a las",
@@ -2306,7 +2303,7 @@
    {
     "type": "gap",
     "beat": "fire",
-    "before": "Marta: ¿Y a qué hora terminas? Tú: ",
+    "before": "¿Y a qué hora terminas? ",
     "after": " a las cinco.",
     "label": "terminar",
     "accepted": [
@@ -2324,8 +2321,8 @@
     "type": "build",
     "beat": "fire",
     "intention": {
-     "en": "Marta asks: ¿Trabajas los sábados? Say no, on Saturdays you rest.",
-     "it": "Marta chiede: ¿Trabajas los sábados? Di di no, il sabato ti riposi."
+     "en": "She asks «¿Trabajas los sábados?». Say no, on Saturdays you rest.",
+     "it": "Ti chiede «¿Trabajas los sábados?». Di di no, il sabato ti riposi."
     },
     "accepted": [
      "No, los sábados descanso.",
@@ -2348,7 +2345,7 @@
    {
     "type": "choose",
     "beat": "mix",
-    "before": "Marta: ¿Cuándo estudias español? Tú: Estudio dos ",
+    "before": "¿Cuándo estudias español? Estudio dos ",
     "after": " a la semana.",
     "options": [
      "vez",
@@ -2366,8 +2363,8 @@
     "type": "build",
     "beat": "mix",
     "intention": {
-     "en": "Marta asks: ¿Por qué estudias español? Say it's because you love Spanish.",
-     "it": "Marta chiede: ¿Por qué estudias español? Di che è perché adori lo spagnolo."
+     "en": "She asks «¿Por qué estudias español?». Say it's because you love Spanish.",
+     "it": "Ti chiede «¿Por qué estudias español?». Di che è perché adori lo spagnolo."
     },
     "accepted": [
      "Porque me encanta el español.",
@@ -2389,15 +2386,15 @@
    {
     "type": "choose",
     "beat": "mix",
-    "before": "Marta: ¿Cocinas mucho? Tú: No, casi ",
-    "after": " cocino. Prefiero el restaurante.",
+    "before": "¿Cocinas mucho? No, casi ",
+    "after": " cocino. Prefiero ir a un restaurante.",
     "options": [
      "nunca",
      "siempre"
     ],
     "answer": "nunca",
-    "en": "Do you cook a lot? No, I hardly ever cook. I prefer the restaurant.",
-    "it": "Cucini molto? No, non cucino quasi mai. Preferisco il ristorante.",
+    "en": "Do you cook a lot? No, I hardly ever cook. I'd rather go to a restaurant.",
+    "it": "Cucini molto? No, non cucino quasi mai. Preferisco andare al ristorante.",
     "hint": {
      "en": "Hardly ever: casi nunca.",
      "it": "Quasi mai: casi nunca."
@@ -2406,14 +2403,15 @@
    {
     "type": "gap",
     "beat": "mix",
-    "before": "Marta: ¿Adónde vas los fines de semana? Tú: Los fines de semana ",
+    "before": "¿Adónde vas los fines de semana? ",
     "after": " a la playa.",
     "label": "ir",
     "accepted": [
+     "Voy",
      "voy"
     ],
-    "en": "Where do you go at weekends? At weekends I go to the beach.",
-    "it": "Dove vai nel fine settimana? Nel fine settimana vado in spiaggia.",
+    "en": "Where do you go at weekends? I go to the beach.",
+    "it": "Dove vai nel fine settimana? Vado al mare.",
     "hint": {
      "en": "Ir is irregular: yo voy.",
      "it": "Ir è irregolare: yo voy."
@@ -2423,8 +2421,8 @@
     "type": "write",
     "beat": "mix",
     "instruction": {
-     "en": "Marta says: ¡Genial! ¿Y tu semana? Tell her about your week in 6 linked sentences, with y, pero and porque.",
-     "it": "Marta dice: ¡Genial! ¿Y tu semana? Raccontale la tua settimana in 6 frasi collegate, con y, pero e porque."
+     "en": "She says «¡Genial! ¿Y tu semana?». Tell her about your week in 6 linked sentences, with y, pero and porque.",
+     "it": "Ti dice «¡Genial! ¿Y tu semana?». Raccontale la tua settimana in 6 frasi collegate, con y, pero e porque."
     },
     "required": [
      "los",

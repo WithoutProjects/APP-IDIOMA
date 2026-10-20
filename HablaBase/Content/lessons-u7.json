@@ -8,9 +8,9 @@
         "it": "Di cosa vuoi, preferisci e pensi con i verbi in cui la e diventa ie."
       },
       "target": {
-        "es": "Quiero un viaje, pero prefiero ir en tren.",
-        "en": "I want a trip, but I prefer to go by train.",
-        "it": "Voglio fare un viaggio, ma preferisco andare in treno."
+        "es": "Quiero viajar, pero prefiero ir en tren.",
+        "en": "I want to travel, but I'd rather go by train.",
+        "it": "Voglio viaggiare, ma preferisco andare in treno."
       },
       "items": [
         {
@@ -85,9 +85,9 @@
           },
           "examples": [
             {
-              "es": "Quiero un viaje.",
-              "en": "I want a trip.",
-              "it": "Voglio fare un viaggio."
+              "es": "Quiero viajar.",
+              "en": "I want to travel.",
+              "it": "Voglio viaggiare."
             },
             {
               "es": "¿Quieres ir de compras?",
@@ -178,9 +178,9 @@
           },
           "examples": [
             {
-              "es": "Queremos un viaje juntos.",
-              "en": "We want a trip together.",
-              "it": "Vogliamo fare un viaggio insieme."
+              "es": "Queremos viajar juntos.",
+              "en": "We want to travel together.",
+              "it": "Vogliamo viaggiare insieme."
             },
             {
               "es": "¿Queréis ir de compras?",
@@ -281,9 +281,9 @@
               "it": "Preferisco il tè."
             },
             {
-              "es": "Pienso que es una buena idea.",
-              "en": "I think it's a good idea.",
-              "it": "Penso che sia una buona idea."
+              "es": "Pienso que un viaje es una buena idea.",
+              "en": "I think a trip is a good idea.",
+              "it": "Penso che un viaggio sia una buona idea."
             },
             {
               "es": "Preferimos ir en tren.",
@@ -427,24 +427,24 @@
           "type": "build",
           "beat": "mix",
           "intention": {
-            "en": "Say that you want a trip, but you prefer to go by train.",
-            "it": "Di che vuoi fare un viaggio, ma preferisci andare in treno."
+            "en": "Say that you want to travel, but you'd rather go by train.",
+            "it": "Di che vuoi viaggiare, ma preferisci andare in treno."
           },
           "accepted": [
-            "Quiero un viaje, pero prefiero ir en tren.",
-            "Yo quiero un viaje, pero prefiero ir en tren."
+            "Quiero viajar, pero prefiero ir en tren.",
+            "Yo quiero viajar, pero prefiero ir en tren."
           ],
           "tiles": [
             "Quiero",
-            "un viaje",
+            "viajar",
             "pero",
             "prefiero",
             "ir",
             "en tren",
             "prefiere"
           ],
-          "en": "I want a trip, but I prefer to go by train.",
-          "it": "Voglio fare un viaggio, ma preferisco andare in treno.",
+          "en": "I want to travel, but I'd rather go by train.",
+          "it": "Voglio viaggiare, ma preferisco andare in treno.",
           "hint": {
             "en": "Yo: quiero and prefiero, both with ie.",
             "it": "Yo: quiero e prefiero, tutti e due con ie."
@@ -891,8 +891,8 @@
         {
           "type": "choose",
           "beat": "mix",
-          "before": "¿Tú ",
-          "after": " la puerta, por favor?",
+          "before": "¿",
+          "after": " tú la puerta, por favor?",
           "options": [
             "cierras",
             "cierran",
@@ -1821,7 +1821,7 @@
         {
           "type": "choose",
           "beat": "forge",
-          "before": "Ella duerme cuatro horas: duerme ",
+          "before": "Ella duerme cuatro horas. Duerme ",
           "after": ".",
           "options": [
             "poco",
@@ -1829,8 +1829,8 @@
             "mucho"
           ],
           "answer": "poco",
-          "en": "She sleeps four hours: she doesn't sleep much.",
-          "it": "Dorme quattro ore: dorme poco.",
+          "en": "She sleeps four hours. She doesn't sleep much.",
+          "it": "Dorme quattro ore. Dorme poco.",
           "hint": {
             "en": "Four hours is not much: poco.",
             "it": "Quattro ore non sono tante: poco."
