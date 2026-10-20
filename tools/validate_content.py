@@ -238,6 +238,10 @@ def main(selected):
                     checker.known.update(words(w["es"]))
                 if check and data is not None:
                     checker.error(lid, "missing from " + path.name)
+        if data is None or data.get("boss") is None:
+            planned = plan.get(f"{uid}boss", {})
+            for w in planned.get("words", []) + planned.get("teaches", []):
+                checker.known.update(words(w["es"]))
         if data is not None:
             boss = data.get("boss")
             if boss is None:

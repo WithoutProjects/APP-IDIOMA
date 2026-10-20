@@ -1,0 +1,2403 @@
+{
+  "unit": "u8",
+  "lessons": [
+    {
+      "id": "u8l1",
+      "goal": {
+        "en": "Say what you do and when you go out.",
+        "it": "Di cosa fai e quando esci."
+      },
+      "target": {
+        "es": "Los sábados hago la compra y por la noche salgo con mis amigos.",
+        "en": "On Saturdays I do the food shopping and at night I go out with my friends.",
+        "it": "Il sabato faccio la spesa e la sera esco con i miei amici."
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "hacer",
+              "en": "to do, to make",
+              "it": "fare",
+              "kind": "stem"
+            },
+            {
+              "es": "salir",
+              "en": "to go out, to leave",
+              "it": "uscire",
+              "kind": "stem"
+            },
+            {
+              "es": "la compra",
+              "en": "the food shopping",
+              "it": "la spesa",
+              "kind": "chunk"
+            },
+            {
+              "es": "ejercicio",
+              "en": "exercise",
+              "it": "esercizio fisico",
+              "kind": "chunk"
+            },
+            {
+              "es": "entonces",
+              "en": "so, then",
+              "it": "allora",
+              "kind": "rail"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "hac-",
+              "kind": "stem"
+            },
+            {
+              "text": "hag-",
+              "kind": "stem"
+            },
+            {
+              "text": "-o",
+              "kind": "ending"
+            }
+          ],
+          "result": {
+            "stem": "hag",
+            "ending": "o"
+          },
+          "rule": {
+            "en": "Some verbs are irregular only with yo. hacer (to do, to make) gives hago; the rest is regular: haces, hace, hacemos.",
+            "it": "Alcuni verbi sono irregolari solo con yo. hacer (fare) dà hago; il resto è regolare: haces, hace, hacemos."
+          },
+          "examples": [
+            {
+              "es": "Hago la compra los sábados.",
+              "en": "I do the food shopping on Saturdays.",
+              "it": "Faccio la spesa il sabato."
+            },
+            {
+              "es": "¿Qué haces hoy?",
+              "en": "What are you doing today?",
+              "it": "Cosa fai oggi?"
+            },
+            {
+              "es": "Ella hace ejercicio por la mañana.",
+              "en": "She exercises in the morning.",
+              "it": "Lei fa esercizio fisico la mattina."
+            }
+          ],
+          "teaches": [
+            {
+              "es": "hago",
+              "en": "I do",
+              "it": "faccio"
+            },
+            {
+              "es": "haces",
+              "en": "you do",
+              "it": "fai"
+            },
+            {
+              "es": "hace",
+              "en": "he/she does",
+              "it": "fa"
+            },
+            {
+              "es": "hacemos",
+              "en": "we do",
+              "it": "facciamo"
+            },
+            {
+              "es": "hacéis",
+              "en": "you all do",
+              "it": "fate"
+            },
+            {
+              "es": "hacen",
+              "en": "they do",
+              "it": "fanno"
+            }
+          ]
+        },
+        {
+          "type": "snap",
+          "beat": "forge",
+          "person": "yo",
+          "prompt": {
+            "en": "I do",
+            "it": "faccio"
+          },
+          "stems": [
+            "hac",
+            "hag"
+          ],
+          "endings": [
+            "o",
+            "es"
+          ],
+          "answer": {
+            "stem": "hag",
+            "ending": "o"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "forge",
+          "before": "Nosotros ",
+          "after": " la compra los lunes.",
+          "label": "hacer",
+          "accepted": [
+            "hacemos"
+          ],
+          "en": "We do the food shopping on Mondays.",
+          "it": "Facciamo la spesa il lunedì.",
+          "hint": {
+            "en": "Only yo is irregular: hac- + -emos.",
+            "it": "Solo yo è irregolare: hac- + -emos."
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "sal-",
+              "kind": "stem"
+            },
+            {
+              "text": "salg-",
+              "kind": "stem"
+            },
+            {
+              "text": "-o",
+              "kind": "ending"
+            }
+          ],
+          "result": {
+            "stem": "salg",
+            "ending": "o"
+          },
+          "rule": {
+            "en": "salir (to go out, to leave) is the same: salgo with yo, regular for everyone else. salir de = to leave a place; salir con = to go out with.",
+            "it": "salir (uscire) è uguale: salgo con yo, regolare per tutti gli altri. salir de = uscire da un posto; salir con = uscire con."
+          },
+          "examples": [
+            {
+              "es": "Salgo de casa a las ocho.",
+              "en": "I leave home at eight.",
+              "it": "Esco di casa alle otto."
+            },
+            {
+              "es": "¿Sales con tus amigos el viernes?",
+              "en": "Are you going out with your friends on Friday?",
+              "it": "Esci con i tuoi amici venerdì?"
+            },
+            {
+              "es": "Salimos por la noche.",
+              "en": "We go out at night.",
+              "it": "Usciamo la sera."
+            }
+          ],
+          "teaches": [
+            {
+              "es": "salgo",
+              "en": "I go out",
+              "it": "esco"
+            },
+            {
+              "es": "sales",
+              "en": "you go out",
+              "it": "esci"
+            },
+            {
+              "es": "sale",
+              "en": "he/she goes out",
+              "it": "esce"
+            },
+            {
+              "es": "salimos",
+              "en": "we go out",
+              "it": "usciamo"
+            },
+            {
+              "es": "salís",
+              "en": "you all go out",
+              "it": "uscite"
+            },
+            {
+              "es": "salen",
+              "en": "they go out",
+              "it": "escono"
+            }
+          ]
+        },
+        {
+          "type": "snap",
+          "beat": "forge",
+          "person": "yo",
+          "prompt": {
+            "en": "I go out",
+            "it": "esco"
+          },
+          "stems": [
+            "sal",
+            "salg"
+          ],
+          "endings": [
+            "o",
+            "imos"
+          ],
+          "answer": {
+            "stem": "salg",
+            "ending": "o"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "fire",
+          "before": "Mis amigos ",
+          "after": " los sábados por la noche.",
+          "options": [
+            "salen",
+            "salgo",
+            "salimos"
+          ],
+          "answer": "salen",
+          "en": "My friends go out on Saturday nights.",
+          "it": "I miei amici escono il sabato sera.",
+          "hint": {
+            "en": "Mis amigos = ellos: sal- + -en, regular.",
+            "it": "Mis amigos = ellos: sal- + -en, regolare."
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "No hay pan",
+              "kind": "chunk"
+            },
+            {
+              "text": "entonces",
+              "kind": "rail"
+            },
+            {
+              "text": "hago la compra",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "entonces (so) joins a situation to what you do because of it.",
+            "it": "entonces (allora, quindi) unisce una situazione a quello che fai di conseguenza."
+          },
+          "examples": [
+            {
+              "es": "No hay pan, entonces hago la compra.",
+              "en": "There's no bread, so I do the food shopping.",
+              "it": "Non c'è pane, quindi faccio la spesa."
+            },
+            {
+              "es": "Hoy no trabajo, entonces salgo con mis amigos.",
+              "en": "I'm not working today, so I'm going out with my friends.",
+              "it": "Oggi non lavoro, allora esco con i miei amici."
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Tengo hambre, ",
+          "after": " como.",
+          "options": [
+            "entonces",
+            "pero",
+            "porque"
+          ],
+          "answer": "entonces",
+          "en": "I'm hungry, so I eat.",
+          "it": "Ho fame, quindi mangio.",
+          "hint": {
+            "en": "Eating is what you do because you're hungry: entonces.",
+            "it": "Mangi perché hai fame: entonces."
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "Say that you're tired, so you're not going out today.",
+            "it": "Di che sei stanco o stanca, quindi oggi non esci."
+          },
+          "accepted": [
+            "Estoy cansado, entonces no salgo hoy.",
+            "Estoy cansada, entonces no salgo hoy."
+          ],
+          "tiles": [
+            "Estoy",
+            "cansado",
+            "cansada",
+            "entonces",
+            "no",
+            "salgo",
+            "hoy",
+            "sale"
+          ],
+          "en": "I'm tired, so I'm not going out today.",
+          "it": "Sono stanco, quindi oggi non esco.",
+          "hint": {
+            "en": "Situation, then entonces, then no salgo.",
+            "it": "Situazione, poi entonces, poi no salgo."
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "mix",
+          "before": "¿Qué ",
+          "after": " tú los domingos?",
+          "label": "hacer",
+          "accepted": [
+            "haces"
+          ],
+          "en": "What do you do on Sundays?",
+          "it": "Tu cosa fai la domenica?",
+          "hint": {
+            "en": "Tú is regular: hac- + -es.",
+            "it": "Tú è regolare: hac- + -es."
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "Ella ",
+          "after": " ejercicio todos los días.",
+          "options": [
+            "hace",
+            "hago",
+            "hacen"
+          ],
+          "answer": "hace",
+          "en": "She exercises every day.",
+          "it": "Lei fa esercizio fisico tutti i giorni.",
+          "hint": {
+            "en": "Ella: hac- + -e.",
+            "it": "Ella: hac- + -e."
+          }
+        },
+        {
+          "type": "snap",
+          "beat": "mix",
+          "person": "vosotros",
+          "prompt": {
+            "en": "you all go out",
+            "it": "uscite"
+          },
+          "stems": [
+            "sal",
+            "salg"
+          ],
+          "endings": [
+            "ís",
+            "en"
+          ],
+          "answer": {
+            "stem": "sal",
+            "ending": "ís"
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "Say two things you do on Saturdays, with hago and salgo.",
+            "it": "Di due cose che fai il sabato, con hago e salgo."
+          },
+          "required": [
+            "hago",
+            "salgo"
+          ],
+          "model": {
+            "es": "Los sábados hago la compra y por la noche salgo con mis amigos.",
+            "en": "On Saturdays I do the food shopping and at night I go out with my friends.",
+            "it": "Il sabato faccio la spesa e la sera esco con i miei amici."
+          }
+        }
+      ]
+    },
+    {
+      "id": "u8l2",
+      "goal": {
+        "en": "Say what you put and bring, and what comes later.",
+        "it": "Di cosa metti e cosa porti, e cosa viene dopo."
+      },
+      "target": {
+        "es": "Traigo una tarta y luego pongo la mesa.",
+        "en": "I'll bring a cake and then I'll set the table.",
+        "it": "Porto una torta e poi apparecchio la tavola."
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "poner",
+              "en": "to put",
+              "it": "mettere",
+              "kind": "stem"
+            },
+            {
+              "es": "traer",
+              "en": "to bring",
+              "it": "portare",
+              "kind": "stem"
+            },
+            {
+              "es": "luego",
+              "en": "later, then",
+              "it": "poi",
+              "kind": "rail"
+            }
+          ]
+        },
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "la mesa",
+              "en": "the table",
+              "it": "la tavola",
+              "kind": "chunk"
+            },
+            {
+              "es": "la tele",
+              "en": "the TV",
+              "it": "la tv",
+              "kind": "chunk"
+            },
+            {
+              "es": "las bebidas",
+              "en": "the drinks",
+              "it": "le bevande",
+              "kind": "chunk"
+            },
+            {
+              "es": "una tarta",
+              "en": "a cake",
+              "it": "una torta",
+              "kind": "chunk"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "pon-",
+              "kind": "stem"
+            },
+            {
+              "text": "pong-",
+              "kind": "stem"
+            },
+            {
+              "text": "-o",
+              "kind": "ending"
+            }
+          ],
+          "result": {
+            "stem": "pong",
+            "ending": "o"
+          },
+          "rule": {
+            "en": "poner (to put) is irregular only with yo: pongo. poner la mesa = to set the table; poner la tele = to turn on the TV.",
+            "it": "poner (mettere) è irregolare solo con yo: pongo. poner la mesa = apparecchiare; poner la tele = accendere la tv."
+          },
+          "examples": [
+            {
+              "es": "Pongo la mesa.",
+              "en": "I set the table.",
+              "it": "Apparecchio la tavola."
+            },
+            {
+              "es": "¿Pones la tele?",
+              "en": "Can you turn on the TV?",
+              "it": "Accendi la tv?"
+            },
+            {
+              "es": "Ponemos el pan en la mesa.",
+              "en": "We put the bread on the table.",
+              "it": "Mettiamo il pane in tavola."
+            }
+          ],
+          "teaches": [
+            {
+              "es": "pongo",
+              "en": "I put",
+              "it": "metto"
+            },
+            {
+              "es": "pones",
+              "en": "you put",
+              "it": "metti"
+            },
+            {
+              "es": "pone",
+              "en": "he/she puts",
+              "it": "mette"
+            },
+            {
+              "es": "ponemos",
+              "en": "we put",
+              "it": "mettiamo"
+            },
+            {
+              "es": "ponéis",
+              "en": "you all put",
+              "it": "mettete"
+            },
+            {
+              "es": "ponen",
+              "en": "they put",
+              "it": "mettono"
+            }
+          ]
+        },
+        {
+          "type": "snap",
+          "beat": "forge",
+          "person": "yo",
+          "prompt": {
+            "en": "I put",
+            "it": "metto"
+          },
+          "stems": [
+            "pon",
+            "pong"
+          ],
+          "endings": [
+            "o",
+            "es"
+          ],
+          "answer": {
+            "stem": "pong",
+            "ending": "o"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "forge",
+          "before": "Mi hijo ",
+          "after": " la mesa todos los días.",
+          "label": "poner",
+          "accepted": [
+            "pone"
+          ],
+          "en": "My son sets the table every day.",
+          "it": "Mio figlio apparecchia la tavola tutti i giorni.",
+          "hint": {
+            "en": "Only yo is irregular: pon- + -e.",
+            "it": "Solo yo è irregolare: pon- + -e."
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "tra-",
+              "kind": "stem"
+            },
+            {
+              "text": "traig-",
+              "kind": "stem"
+            },
+            {
+              "text": "-o",
+              "kind": "ending"
+            }
+          ],
+          "result": {
+            "stem": "traig",
+            "ending": "o"
+          },
+          "rule": {
+            "en": "traer (to bring) is irregular only with yo too: traigo. The others are regular: traes, trae, traemos.",
+            "it": "Anche traer (portare) è irregolare solo con yo: traigo. Gli altri sono regolari: traes, trae, traemos."
+          },
+          "examples": [
+            {
+              "es": "Traigo una tarta.",
+              "en": "I'll bring a cake.",
+              "it": "Porto una torta."
+            },
+            {
+              "es": "¿Qué traes?",
+              "en": "What are you bringing?",
+              "it": "Cosa porti?"
+            },
+            {
+              "es": "Ellos traen las bebidas.",
+              "en": "They're bringing the drinks.",
+              "it": "Loro portano le bevande."
+            }
+          ],
+          "teaches": [
+            {
+              "es": "traigo",
+              "en": "I bring",
+              "it": "porto"
+            },
+            {
+              "es": "traes",
+              "en": "you bring",
+              "it": "porti"
+            },
+            {
+              "es": "trae",
+              "en": "he/she brings",
+              "it": "porta"
+            },
+            {
+              "es": "traemos",
+              "en": "we bring",
+              "it": "portiamo"
+            },
+            {
+              "es": "traéis",
+              "en": "you all bring",
+              "it": "portate"
+            },
+            {
+              "es": "traen",
+              "en": "they bring",
+              "it": "portano"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Yo ",
+          "after": " las bebidas.",
+          "options": [
+            "traigo",
+            "trae",
+            "traes"
+          ],
+          "answer": "traigo",
+          "en": "I'll bring the drinks.",
+          "it": "Io porto le bevande.",
+          "hint": {
+            "en": "Yo: traigo, the irregular one.",
+            "it": "Yo: traigo, quello irregolare."
+          }
+        },
+        {
+          "type": "snap",
+          "beat": "fire",
+          "person": "ellos",
+          "prompt": {
+            "en": "they bring",
+            "it": "portano"
+          },
+          "stems": [
+            "tra",
+            "traig"
+          ],
+          "endings": [
+            "en",
+            "o"
+          ],
+          "answer": {
+            "stem": "tra",
+            "ending": "en"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "Primero",
+              "kind": "rail"
+            },
+            {
+              "text": "pongo la mesa",
+              "kind": "chunk"
+            },
+            {
+              "text": "y luego",
+              "kind": "rail"
+            },
+            {
+              "text": "cenamos",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "luego (later, then) works like después: it introduces what comes next.",
+            "it": "luego (poi, dopo) funziona come después: introduce quello che viene dopo."
+          },
+          "examples": [
+            {
+              "es": "Primero pongo la mesa y luego cenamos.",
+              "en": "First I set the table and then we have dinner.",
+              "it": "Prima apparecchio e poi ceniamo."
+            },
+            {
+              "es": "Luego vamos al cine.",
+              "en": "Later we're going to the cinema.",
+              "it": "Dopo andiamo al cinema."
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Ahora trabajo y ",
+          "after": " voy al gimnasio.",
+          "options": [
+            "luego",
+            "primero"
+          ],
+          "answer": "luego",
+          "en": "Now I'm working and later I'm going to the gym.",
+          "it": "Ora lavoro e dopo vado in palestra.",
+          "hint": {
+            "en": "What comes next: luego.",
+            "it": "Quello che viene dopo: luego."
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "Say that first you set the table and then you all have lunch.",
+            "it": "Di che prima apparecchi e poi pranzate."
+          },
+          "accepted": [
+            "Primero pongo la mesa y luego comemos."
+          ],
+          "tiles": [
+            "Primero",
+            "pongo",
+            "la mesa",
+            "y",
+            "luego",
+            "comemos",
+            "pone"
+          ],
+          "en": "First I set the table and then we have lunch.",
+          "it": "Prima apparecchio e poi pranziamo.",
+          "hint": {
+            "en": "Primero + first action, y luego + next action.",
+            "it": "Primero + prima azione, y luego + azione successiva."
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "mix",
+          "before": "¿Vosotros ",
+          "after": " una tarta?",
+          "label": "traer",
+          "accepted": [
+            "traéis",
+            "traeis"
+          ],
+          "en": "Are you all bringing a cake?",
+          "it": "Portate una torta?",
+          "hint": {
+            "en": "Vosotros is regular: tra- + -éis.",
+            "it": "Vosotros è regolare: tra- + -éis."
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "mix",
+          "before": "Yo ",
+          "after": " las bebidas en la mesa.",
+          "label": "poner",
+          "accepted": [
+            "pongo"
+          ],
+          "en": "I put the drinks on the table.",
+          "it": "Metto le bevande in tavola.",
+          "hint": {
+            "en": "Yo: pong- + -o.",
+            "it": "Yo: pong- + -o."
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "You're going to a dinner with friends: say what you bring and what you do then, with luego.",
+            "it": "Vai a una cena con amici: di cosa porti e cosa fai dopo, con luego."
+          },
+          "required": [
+            "traigo",
+            "luego"
+          ],
+          "model": {
+            "es": "Traigo una tarta y luego pongo la mesa.",
+            "en": "I'll bring a cake and then I'll set the table.",
+            "it": "Porto una torta e poi apparecchio la tavola."
+          }
+        }
+      ]
+    },
+    {
+      "id": "u8l3",
+      "goal": {
+        "en": "Say who and what you know, and what you know how to do.",
+        "it": "Di chi e cosa conosci, e cosa sai fare."
+      },
+      "target": {
+        "es": "Conozco a Marta, pero no sé su dirección.",
+        "en": "I know Marta, but I don't know her address.",
+        "it": "Conosco Marta, ma non so il suo indirizzo."
+      },
+      "names": [
+        "Marta",
+        "Madrid"
+      ],
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "conocer",
+              "en": "to know (people, places)",
+              "it": "conoscere",
+              "kind": "stem"
+            },
+            {
+              "es": "saber",
+              "en": "to know (facts), to know how to",
+              "it": "sapere",
+              "kind": "stem"
+            },
+            {
+              "es": "conducir",
+              "en": "to drive",
+              "it": "guidare",
+              "kind": "stem"
+            }
+          ]
+        },
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "el barrio",
+              "en": "the neighbourhood",
+              "it": "il quartiere",
+              "kind": "chunk"
+            },
+            {
+              "es": "la dirección",
+              "en": "the address",
+              "it": "l'indirizzo",
+              "kind": "chunk"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "conoc-",
+              "kind": "stem"
+            },
+            {
+              "text": "conozc-",
+              "kind": "stem"
+            },
+            {
+              "text": "-o",
+              "kind": "ending"
+            }
+          ],
+          "result": {
+            "stem": "conozc",
+            "ending": "o"
+          },
+          "rule": {
+            "en": "conocer is to know people and places. Yo is conozco, the rest is regular. Before a person, put a: conozco a Marta.",
+            "it": "conocer è conoscere persone e luoghi. Yo è conozco, il resto è regolare. Prima di una persona, metti a: conozco a Marta."
+          },
+          "examples": [
+            {
+              "es": "Conozco bien el barrio.",
+              "en": "I know the neighbourhood well.",
+              "it": "Conosco bene il quartiere."
+            },
+            {
+              "es": "¿Conoces a Marta?",
+              "en": "Do you know Marta?",
+              "it": "Conosci Marta?"
+            },
+            {
+              "es": "Conocemos Madrid.",
+              "en": "We know Madrid.",
+              "it": "Conosciamo Madrid."
+            }
+          ],
+          "teaches": [
+            {
+              "es": "conozco",
+              "en": "I know",
+              "it": "conosco"
+            },
+            {
+              "es": "conoces",
+              "en": "you know",
+              "it": "conosci"
+            },
+            {
+              "es": "conoce",
+              "en": "he/she knows",
+              "it": "conosce"
+            },
+            {
+              "es": "conocemos",
+              "en": "we know",
+              "it": "conosciamo"
+            },
+            {
+              "es": "conocéis",
+              "en": "you all know",
+              "it": "conoscete"
+            },
+            {
+              "es": "conocen",
+              "en": "they know",
+              "it": "conoscono"
+            }
+          ]
+        },
+        {
+          "type": "snap",
+          "beat": "forge",
+          "person": "yo",
+          "prompt": {
+            "en": "I know (a place)",
+            "it": "conosco"
+          },
+          "stems": [
+            "conoc",
+            "conozc"
+          ],
+          "endings": [
+            "o",
+            "es"
+          ],
+          "answer": {
+            "stem": "conozc",
+            "ending": "o"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "fire",
+          "before": "¿Tú ",
+          "after": " a mi hermana?",
+          "options": [
+            "conoces",
+            "conoce",
+            "conozco"
+          ],
+          "answer": "conoces",
+          "en": "Do you know my sister?",
+          "it": "Conosci mia sorella?",
+          "hint": {
+            "en": "Tú is regular: conoc- + -es.",
+            "it": "Tú è regolare: conoc- + -es."
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "sé",
+              "kind": "stem"
+            },
+            {
+              "text": "+",
+              "kind": "rail"
+            },
+            {
+              "text": "conducir",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "saber is to know facts, and with a verb, to know how to do it. Yo is sé (with an accent); the rest is regular: sabes, sabe.",
+            "it": "saber è sapere un'informazione e, con un verbo, saper fare qualcosa. Yo è sé (con l'accento); il resto è regolare: sabes, sabe."
+          },
+          "examples": [
+            {
+              "es": "Sé conducir.",
+              "en": "I can drive.",
+              "it": "So guidare."
+            },
+            {
+              "es": "¿Sabes la dirección?",
+              "en": "Do you know the address?",
+              "it": "Sai l'indirizzo?"
+            },
+            {
+              "es": "No sé.",
+              "en": "I don't know.",
+              "it": "Non lo so."
+            }
+          ],
+          "teaches": [
+            {
+              "es": "sé",
+              "en": "I know",
+              "it": "so"
+            },
+            {
+              "es": "sabes",
+              "en": "you know",
+              "it": "sai"
+            },
+            {
+              "es": "sabe",
+              "en": "he/she knows",
+              "it": "sa"
+            },
+            {
+              "es": "sabemos",
+              "en": "we know",
+              "it": "sappiamo"
+            },
+            {
+              "es": "sabéis",
+              "en": "you all know",
+              "it": "sapete"
+            },
+            {
+              "es": "saben",
+              "en": "they know",
+              "it": "sanno"
+            }
+          ]
+        },
+        {
+          "type": "gap",
+          "beat": "forge",
+          "before": "Mi hermano no ",
+          "after": " cocinar.",
+          "label": "saber",
+          "accepted": [
+            "sabe"
+          ],
+          "en": "My brother can't cook.",
+          "it": "Mio fratello non sa cucinare.",
+          "hint": {
+            "en": "Knowing how to: saber + verb. Él: sab- + -e.",
+            "it": "Saper fare: saber + verbo. Él: sab- + -e."
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "fire",
+          "before": "Yo no ",
+          "after": " la dirección.",
+          "options": [
+            "sé",
+            "conozco",
+            "sabe"
+          ],
+          "answer": "sé",
+          "en": "I don't know the address.",
+          "it": "Non so l'indirizzo.",
+          "hint": {
+            "en": "An address is a fact: saber. Yo: sé.",
+            "it": "Un indirizzo è un'informazione: saber. Yo: sé."
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "conduc-",
+              "kind": "stem"
+            },
+            {
+              "text": "conduzc-",
+              "kind": "stem"
+            },
+            {
+              "text": "-o",
+              "kind": "ending"
+            }
+          ],
+          "result": {
+            "stem": "conduzc",
+            "ending": "o"
+          },
+          "rule": {
+            "en": "conducir (to drive) works like conocer: conduzco with yo, regular for the rest.",
+            "it": "conducir (guidare) funziona come conocer: conduzco con yo, regolare per il resto."
+          },
+          "examples": [
+            {
+              "es": "Conduzco al trabajo.",
+              "en": "I drive to work.",
+              "it": "Vado al lavoro in macchina."
+            },
+            {
+              "es": "¿Conduces bien?",
+              "en": "Do you drive well?",
+              "it": "Guidi bene?"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "conduzco",
+              "en": "I drive",
+              "it": "guido"
+            },
+            {
+              "es": "conduces",
+              "en": "you drive",
+              "it": "guidi"
+            },
+            {
+              "es": "conduce",
+              "en": "he/she drives",
+              "it": "guida"
+            },
+            {
+              "es": "conducimos",
+              "en": "we drive",
+              "it": "guidiamo"
+            },
+            {
+              "es": "conducís",
+              "en": "you all drive",
+              "it": "guidate"
+            },
+            {
+              "es": "conducen",
+              "en": "they drive",
+              "it": "guidano"
+            }
+          ]
+        },
+        {
+          "type": "snap",
+          "beat": "forge",
+          "person": "yo",
+          "prompt": {
+            "en": "I drive",
+            "it": "guido"
+          },
+          "stems": [
+            "conduc",
+            "conduzc"
+          ],
+          "endings": [
+            "o",
+            "imos"
+          ],
+          "answer": {
+            "stem": "conduzc",
+            "ending": "o"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "fire",
+          "before": "Mis padres ",
+          "after": " muy bien.",
+          "label": "conducir",
+          "accepted": [
+            "conducen"
+          ],
+          "en": "My parents drive very well.",
+          "it": "I miei genitori guidano molto bene.",
+          "hint": {
+            "en": "Only yo is irregular: conduc- + -en.",
+            "it": "Solo yo è irregolare: conduc- + -en."
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "¿",
+          "after": " el barrio?",
+          "options": [
+            "Conoces",
+            "Sabes"
+          ],
+          "answer": "Conoces",
+          "en": "Do you know the neighbourhood?",
+          "it": "Conosci il quartiere?",
+          "hint": {
+            "en": "A place you've been to: conocer.",
+            "it": "Un posto dove sei stato: conocer."
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "¿",
+          "after": " dónde está la estación?",
+          "options": [
+            "Sabes",
+            "Conoces"
+          ],
+          "answer": "Sabes",
+          "en": "Do you know where the station is?",
+          "it": "Sai dov'è la stazione?",
+          "hint": {
+            "en": "Where something is, is a fact: saber.",
+            "it": "Dove si trova una cosa è un'informazione: saber."
+          }
+        },
+        {
+          "type": "build",
+          "beat": "mix",
+          "intention": {
+            "en": "Say that you know Marta, but you don't know her address.",
+            "it": "Di che conosci Marta, ma non sai il suo indirizzo."
+          },
+          "accepted": [
+            "Conozco a Marta, pero no sé su dirección."
+          ],
+          "tiles": [
+            "Conozco",
+            "a",
+            "Marta",
+            "pero",
+            "no",
+            "sé",
+            "su dirección",
+            "sabe"
+          ],
+          "en": "I know Marta, but I don't know her address.",
+          "it": "Conosco Marta, ma non so il suo indirizzo.",
+          "hint": {
+            "en": "A person: conozco a; a fact: sé.",
+            "it": "Una persona: conozco a; un'informazione: sé."
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "Say something you know how to do and a place you know well.",
+            "it": "Di una cosa che sai fare e un posto che conosci bene."
+          },
+          "required": [
+            "sé",
+            "conozco"
+          ],
+          "model": {
+            "es": "Sé cocinar y conozco bien {city}.",
+            "en": "I can cook and I know {city} well.",
+            "it": "So cucinare e conosco bene {city}."
+          }
+        }
+      ]
+    },
+    {
+      "id": "u8l4",
+      "goal": {
+        "en": "Say what people say and who's coming tonight.",
+        "it": "Di cosa dice la gente e chi viene stasera."
+      },
+      "target": {
+        "es": "¿Vienes a la fiesta esta noche? Mis hermanos vienen también.",
+        "en": "Are you coming to the party tonight? My brothers are coming too.",
+        "it": "Vieni alla festa stasera? Vengono anche i miei fratelli."
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "decir",
+              "en": "to say",
+              "it": "dire",
+              "kind": "stem"
+            },
+            {
+              "es": "venir",
+              "en": "to come",
+              "it": "venire",
+              "kind": "stem"
+            },
+            {
+              "es": "la verdad",
+              "en": "the truth",
+              "it": "la verità",
+              "kind": "chunk"
+            },
+            {
+              "es": "la fiesta",
+              "en": "the party",
+              "it": "la festa",
+              "kind": "chunk"
+            },
+            {
+              "es": "esta noche",
+              "en": "tonight",
+              "it": "stasera",
+              "kind": "time"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "dec-",
+              "kind": "stem"
+            },
+            {
+              "text": "dig-",
+              "kind": "stem"
+            },
+            {
+              "text": "-o",
+              "kind": "ending"
+            }
+          ],
+          "result": {
+            "stem": "dig",
+            "ending": "o"
+          },
+          "rule": {
+            "en": "decir (to say) has two changes: yo is digo, and e → i for tú, él and ellos: dices, dice, dicen. decir que = to say that.",
+            "it": "decir (dire) ha due cambi: yo è digo, ed e → i per tú, él ed ellos: dices, dice, dicen. decir que = dire che."
+          },
+          "examples": [
+            {
+              "es": "Digo la verdad.",
+              "en": "I'm telling the truth.",
+              "it": "Dico la verità."
+            },
+            {
+              "es": "¿Qué dices?",
+              "en": "What are you saying?",
+              "it": "Cosa dici?"
+            },
+            {
+              "es": "Ella dice que está cansada.",
+              "en": "She says she's tired.",
+              "it": "Lei dice che è stanca."
+            }
+          ],
+          "teaches": [
+            {
+              "es": "digo",
+              "en": "I say",
+              "it": "dico"
+            },
+            {
+              "es": "dices",
+              "en": "you say",
+              "it": "dici"
+            },
+            {
+              "es": "dice",
+              "en": "he/she says",
+              "it": "dice"
+            },
+            {
+              "es": "decimos",
+              "en": "we say",
+              "it": "diciamo"
+            },
+            {
+              "es": "decís",
+              "en": "you all say",
+              "it": "dite"
+            },
+            {
+              "es": "dicen",
+              "en": "they say",
+              "it": "dicono"
+            }
+          ]
+        },
+        {
+          "type": "snap",
+          "beat": "forge",
+          "person": "yo",
+          "prompt": {
+            "en": "I say",
+            "it": "dico"
+          },
+          "stems": [
+            "dec",
+            "dig"
+          ],
+          "endings": [
+            "o",
+            "imos"
+          ],
+          "answer": {
+            "stem": "dig",
+            "ending": "o"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "forge",
+          "before": "Mi madre ",
+          "after": " que la cena está lista.",
+          "label": "decir",
+          "accepted": [
+            "dice"
+          ],
+          "en": "My mother says dinner is ready.",
+          "it": "Mia madre dice che la cena è pronta.",
+          "hint": {
+            "en": "Ella: e → i, dic- + -e.",
+            "it": "Ella: e → i, dic- + -e."
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "ven-",
+              "kind": "stem"
+            },
+            {
+              "text": "veng-",
+              "kind": "stem"
+            },
+            {
+              "text": "-o",
+              "kind": "ending"
+            }
+          ],
+          "result": {
+            "stem": "veng",
+            "ending": "o"
+          },
+          "rule": {
+            "en": "venir (to come) is like tener: vengo with yo, and e → ie for tú, él and ellos: vienes, viene, vienen.",
+            "it": "venir (venire) è come tener: vengo con yo, ed e → ie per tú, él ed ellos: vienes, viene, vienen."
+          },
+          "examples": [
+            {
+              "es": "Vengo en tren.",
+              "en": "I'm coming by train.",
+              "it": "Vengo in treno."
+            },
+            {
+              "es": "¿Vienes a la fiesta esta noche?",
+              "en": "Are you coming to the party tonight?",
+              "it": "Vieni alla festa stasera?"
+            },
+            {
+              "es": "Mis amigos vienen a casa.",
+              "en": "My friends are coming over.",
+              "it": "I miei amici vengono a casa."
+            }
+          ],
+          "teaches": [
+            {
+              "es": "vengo",
+              "en": "I come",
+              "it": "vengo"
+            },
+            {
+              "es": "vienes",
+              "en": "you come",
+              "it": "vieni"
+            },
+            {
+              "es": "viene",
+              "en": "he/she comes",
+              "it": "viene"
+            },
+            {
+              "es": "venimos",
+              "en": "we come",
+              "it": "veniamo"
+            },
+            {
+              "es": "venís",
+              "en": "you all come",
+              "it": "venite"
+            },
+            {
+              "es": "vienen",
+              "en": "they come",
+              "it": "vengono"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Yo ",
+          "after": " a las nueve.",
+          "options": [
+            "vengo",
+            "viene",
+            "vienes"
+          ],
+          "answer": "vengo",
+          "en": "I'm coming at nine.",
+          "it": "Vengo alle nove.",
+          "hint": {
+            "en": "Yo: vengo, like tengo.",
+            "it": "Yo: vengo, come tengo."
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "fire",
+          "before": "¿Vosotros ",
+          "after": " a la fiesta?",
+          "options": [
+            "venís",
+            "vienen",
+            "venimos"
+          ],
+          "answer": "venís",
+          "en": "Are you all coming to the party?",
+          "it": "Venite alla festa?",
+          "hint": {
+            "en": "Vosotros keeps the e: ven- + -ís.",
+            "it": "Vosotros tiene la e: ven- + -ís."
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "vengo",
+              "kind": "stem"
+            },
+            {
+              "text": "voy",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "venir is moving to where the speaker is; ir is going somewhere else.",
+            "it": "venir è muoversi verso dove si trova chi parla; ir è andare da un'altra parte."
+          },
+          "examples": [
+            {
+              "es": "¿Vienes a casa esta noche?",
+              "en": "Are you coming over tonight?",
+              "it": "Vieni a casa stasera?"
+            },
+            {
+              "es": "Esta noche voy al cine.",
+              "en": "Tonight I'm going to the cinema.",
+              "it": "Stasera vado al cinema."
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Estoy en casa. ¿",
+          "after": " a casa esta noche?",
+          "options": [
+            "Vienes",
+            "Vas"
+          ],
+          "answer": "Vienes",
+          "en": "I'm at home. Are you coming over tonight?",
+          "it": "Sono a casa. Vieni da me stasera?",
+          "hint": {
+            "en": "Coming to where I am: venir.",
+            "it": "Venire dove sono io: venir."
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "fire",
+          "before": "Esta noche yo ",
+          "after": " al cine.",
+          "label": "ir",
+          "accepted": [
+            "voy"
+          ],
+          "en": "Tonight I'm going to the cinema.",
+          "it": "Stasera vado al cinema.",
+          "hint": {
+            "en": "Going somewhere else: ir. Yo: voy.",
+            "it": "Andare da un'altra parte: ir. Yo: voy."
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "mix",
+          "before": "Nosotros ",
+          "after": " la verdad.",
+          "label": "decir",
+          "accepted": [
+            "decimos"
+          ],
+          "en": "We're telling the truth.",
+          "it": "Diciamo la verità.",
+          "hint": {
+            "en": "Nosotros keeps the e: dec- + -imos.",
+            "it": "Nosotros tiene la e: dec- + -imos."
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "¿Qué ",
+          "after": " tú?",
+          "options": [
+            "dices",
+            "dice",
+            "digo"
+          ],
+          "answer": "dices",
+          "en": "What are you saying?",
+          "it": "Tu cosa dici?",
+          "hint": {
+            "en": "Tú: e → i, dic- + -es.",
+            "it": "Tú: e → i, dic- + -es."
+          }
+        },
+        {
+          "type": "build",
+          "beat": "mix",
+          "intention": {
+            "en": "Say that your friends are coming over tonight.",
+            "it": "Di che i tuoi amici vengono a casa stasera."
+          },
+          "accepted": [
+            "Mis amigos vienen a casa esta noche.",
+            "Esta noche mis amigos vienen a casa."
+          ],
+          "tiles": [
+            "Mis amigos",
+            "vienen",
+            "a casa",
+            "esta noche",
+            "venimos"
+          ],
+          "en": "My friends are coming over tonight.",
+          "it": "I miei amici vengono a casa stasera.",
+          "hint": {
+            "en": "Mis amigos = ellos: vienen.",
+            "it": "Mis amigos = ellos: vienen."
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "Invite a friend to a party tonight and say who else is coming.",
+            "it": "Invita un amico a una festa stasera e di chi altro viene."
+          },
+          "required": [
+            "vienes",
+            "esta noche",
+            "vienen"
+          ],
+          "model": {
+            "es": "¿Vienes a la fiesta esta noche? Mis hermanos vienen también.",
+            "en": "Are you coming to the party tonight? My brothers are coming too.",
+            "it": "Vieni alla festa stasera? Vengono anche i miei fratelli."
+          }
+        }
+      ]
+    },
+    {
+      "id": "u8l5",
+      "goal": {
+        "en": "Say what you give and what you watch, with the yo forms ending in -oy.",
+        "it": "Di cosa regali e cosa guardi, con le forme di yo che finiscono in -oy."
+      },
+      "target": {
+        "es": "Estoy en casa y veo una serie.",
+        "en": "I'm at home watching a series.",
+        "it": "Sono a casa e guardo una serie."
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "dar",
+              "en": "to give",
+              "it": "dare",
+              "kind": "stem"
+            },
+            {
+              "es": "ver",
+              "en": "to see, to watch",
+              "it": "vedere, guardare",
+              "kind": "stem"
+            },
+            {
+              "es": "un regalo",
+              "en": "a present",
+              "it": "un regalo",
+              "kind": "chunk"
+            },
+            {
+              "es": "una serie",
+              "en": "a TV series",
+              "it": "una serie tv",
+              "kind": "chunk"
+            },
+            {
+              "es": "las noticias",
+              "en": "the news",
+              "it": "il telegiornale, le notizie",
+              "kind": "chunk"
+            },
+            {
+              "es": "un mensaje",
+              "en": "a message",
+              "it": "un messaggio",
+              "kind": "chunk"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "d-",
+              "kind": "stem"
+            },
+            {
+              "text": "-oy",
+              "kind": "ending"
+            }
+          ],
+          "result": {
+            "stem": "d",
+            "ending": "oy"
+          },
+          "rule": {
+            "en": "dar (to give) has yo in -oy, like estoy, voy and soy: doy. The rest is regular and short: das, da, damos, dais, dan.",
+            "it": "dar (dare) ha yo in -oy, come estoy, voy e soy: doy. Il resto è regolare e corto: das, da, damos, dais, dan."
+          },
+          "examples": [
+            {
+              "es": "Doy un regalo a mi madre.",
+              "en": "I give my mother a present.",
+              "it": "Faccio un regalo a mia madre."
+            },
+            {
+              "es": "Estoy en casa.",
+              "en": "I'm at home.",
+              "it": "Sono a casa."
+            },
+            {
+              "es": "Mis padres dan un regalo a mi hermano.",
+              "en": "My parents give my brother a present.",
+              "it": "I miei genitori fanno un regalo a mio fratello."
+            }
+          ],
+          "teaches": [
+            {
+              "es": "doy",
+              "en": "I give",
+              "it": "do"
+            },
+            {
+              "es": "das",
+              "en": "you give",
+              "it": "dai"
+            },
+            {
+              "es": "da",
+              "en": "he/she gives",
+              "it": "dà"
+            },
+            {
+              "es": "damos",
+              "en": "we give",
+              "it": "diamo"
+            },
+            {
+              "es": "dais",
+              "en": "you all give",
+              "it": "date"
+            },
+            {
+              "es": "dan",
+              "en": "they give",
+              "it": "danno"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Ahora yo ",
+          "after": " en el trabajo.",
+          "options": [
+            "estoy",
+            "doy",
+            "soy"
+          ],
+          "answer": "estoy",
+          "en": "I'm at work now.",
+          "it": "Ora sono al lavoro.",
+          "hint": {
+            "en": "Where you are: estar. Yo: estoy.",
+            "it": "Dove sei: estar. Yo: estoy."
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "forge",
+          "before": "Nosotros ",
+          "after": " un regalo a la abuela.",
+          "label": "dar",
+          "accepted": [
+            "damos"
+          ],
+          "en": "We give Grandma a present.",
+          "it": "Facciamo un regalo alla nonna.",
+          "hint": {
+            "en": "Regular: d- + -amos.",
+            "it": "Regolare: d- + -amos."
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "v-",
+              "kind": "stem"
+            },
+            {
+              "text": "-eo",
+              "kind": "ending"
+            }
+          ],
+          "result": {
+            "stem": "v",
+            "ending": "eo"
+          },
+          "rule": {
+            "en": "ver (to see, to watch) keeps the e with yo: veo. The rest is short: ves, ve, vemos, veis, ven.",
+            "it": "ver (vedere, guardare) tiene la e con yo: veo. Il resto è corto: ves, ve, vemos, veis, ven."
+          },
+          "examples": [
+            {
+              "es": "Veo la tele por la noche.",
+              "en": "I watch TV at night.",
+              "it": "Guardo la tv la sera."
+            },
+            {
+              "es": "¿Ves las noticias?",
+              "en": "Do you watch the news?",
+              "it": "Guardi il telegiornale?"
+            },
+            {
+              "es": "Vemos una película.",
+              "en": "We're watching a film.",
+              "it": "Guardiamo un film."
+            }
+          ],
+          "teaches": [
+            {
+              "es": "veo",
+              "en": "I see",
+              "it": "vedo"
+            },
+            {
+              "es": "ves",
+              "en": "you see",
+              "it": "vedi"
+            },
+            {
+              "es": "ve",
+              "en": "he/she sees",
+              "it": "vede"
+            },
+            {
+              "es": "vemos",
+              "en": "we see",
+              "it": "vediamo"
+            },
+            {
+              "es": "veis",
+              "en": "you all see",
+              "it": "vedete"
+            },
+            {
+              "es": "ven",
+              "en": "they see",
+              "it": "vedono"
+            },
+            {
+              "es": "una película",
+              "en": "a film",
+              "it": "un film"
+            }
+          ]
+        },
+        {
+          "type": "gap",
+          "beat": "forge",
+          "before": "Yo ",
+          "after": " una serie por la noche.",
+          "label": "ver",
+          "accepted": [
+            "veo"
+          ],
+          "en": "I watch a series at night.",
+          "it": "La sera guardo una serie.",
+          "hint": {
+            "en": "Yo: veo, it keeps the e.",
+            "it": "Yo: veo, tiene la e."
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "fire",
+          "before": "¿Vosotros ",
+          "after": " las noticias?",
+          "options": [
+            "veis",
+            "vemos",
+            "ven"
+          ],
+          "answer": "veis",
+          "en": "Do you all watch the news?",
+          "it": "Guardate il telegiornale?",
+          "hint": {
+            "en": "Vosotros: veis, no accent.",
+            "it": "Vosotros: veis, senza accento."
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "Veo",
+              "kind": "stem"
+            },
+            {
+              "text": "a",
+              "kind": "rail"
+            },
+            {
+              "text": "mis padres",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "With people, ver also needs a, like conocer: veo a mis padres.",
+            "it": "Con le persone, anche ver vuole a, come conocer: veo a mis padres."
+          },
+          "examples": [
+            {
+              "es": "Veo a mis padres los domingos.",
+              "en": "I see my parents on Sundays.",
+              "it": "Vedo i miei genitori la domenica."
+            },
+            {
+              "es": "Veo un mensaje de mi hermana.",
+              "en": "I see a message from my sister.",
+              "it": "Vedo un messaggio di mia sorella."
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "Say that you see your parents on Sundays.",
+            "it": "Di che vedi i tuoi genitori la domenica."
+          },
+          "accepted": [
+            "Veo a mis padres los domingos.",
+            "Los domingos veo a mis padres."
+          ],
+          "tiles": [
+            "Veo",
+            "a",
+            "mis padres",
+            "los domingos",
+            "ve"
+          ],
+          "en": "I see my parents on Sundays.",
+          "it": "Vedo i miei genitori la domenica.",
+          "hint": {
+            "en": "A person: veo a.",
+            "it": "Una persona: veo a."
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "fire",
+          "before": "Los domingos yo ",
+          "after": " a mi abuela.",
+          "options": [
+            "veo",
+            "ve",
+            "ven"
+          ],
+          "answer": "veo",
+          "en": "On Sundays I see my grandmother.",
+          "it": "La domenica vedo mia nonna.",
+          "hint": {
+            "en": "Yo: veo.",
+            "it": "Yo: veo."
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "mix",
+          "before": "¿Tú ",
+          "after": " la tele por la noche?",
+          "label": "ver",
+          "accepted": [
+            "ves"
+          ],
+          "en": "Do you watch TV at night?",
+          "it": "Guardi la tv la sera?",
+          "hint": {
+            "en": "Tú: v- + -es.",
+            "it": "Tú: v- + -es."
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "¿Dónde ",
+          "after": " tú?",
+          "options": [
+            "estás",
+            "eres",
+            "das"
+          ],
+          "answer": "estás",
+          "en": "Where are you?",
+          "it": "Dove sei?",
+          "hint": {
+            "en": "Where someone is: estar. Tú: estás.",
+            "it": "Dove si trova qualcuno: estar. Tú: estás."
+          }
+        },
+        {
+          "type": "build",
+          "beat": "mix",
+          "intention": {
+            "en": "Say that you're at home watching a series.",
+            "it": "Di che sei a casa e guardi una serie."
+          },
+          "accepted": [
+            "Estoy en casa y veo una serie."
+          ],
+          "tiles": [
+            "Estoy",
+            "en casa",
+            "y",
+            "veo",
+            "una serie",
+            "soy"
+          ],
+          "en": "I'm at home watching a series.",
+          "it": "Sono a casa e guardo una serie.",
+          "hint": {
+            "en": "Where you are: estoy. Watching: veo.",
+            "it": "Dove sei: estoy. Guardare: veo."
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "Say what you watch at night and what present you give to someone.",
+            "it": "Di cosa guardi la sera e che regalo fai a qualcuno."
+          },
+          "required": [
+            "veo",
+            "doy"
+          ],
+          "model": {
+            "es": "Por la noche veo una serie y el domingo doy un regalo a mi madre.",
+            "en": "At night I watch a series, and on Sunday I'm giving my mother a present.",
+            "it": "La sera guardo una serie e domenica faccio un regalo a mia madre."
+          }
+        }
+      ]
+    }
+  ],
+  "boss": {
+    "id": "u8boss",
+    "goal": {
+      "en": "You're having a party at home tonight. Organise it with your friends: who's coming and who brings what.",
+      "it": "Stasera fai una festa a casa. Organizzala con i tuoi amici: chi viene e chi porta cosa."
+    },
+    "names": [
+      "Ana",
+      "Marta",
+      "Pablo"
+    ],
+    "items": [
+      {
+        "type": "words",
+        "words": [
+          {
+            "es": "los vasos",
+            "en": "the glasses",
+            "it": "i bicchieri",
+            "kind": "chunk"
+          },
+          {
+            "es": "el hielo",
+            "en": "ice",
+            "it": "il ghiaccio",
+            "kind": "chunk"
+          }
+        ]
+      },
+      {
+        "type": "build",
+        "beat": "fire",
+        "intention": {
+          "en": "Your friend asks «¿Qué hacemos esta noche?». Suggest a party at home.",
+          "it": "Il tuo amico chiede «¿Qué hacemos esta noche?». Proponi una festa a casa."
+        },
+        "accepted": [
+          "Hacemos una fiesta en casa.",
+          "¿Hacemos una fiesta en casa?"
+        ],
+        "tiles": [
+          "Hacemos",
+          "una fiesta",
+          "en casa",
+          "hago"
+        ],
+        "en": "Let's have a party at home.",
+        "it": "Facciamo una festa a casa.",
+        "hint": {
+          "en": "You and your friends: hacemos.",
+          "it": "Tu e i tuoi amici: hacemos."
+        }
+      },
+      {
+        "type": "choose",
+        "beat": "fire",
+        "before": "Ana ",
+        "after": " que viene con su novio.",
+        "options": [
+          "dice",
+          "digo",
+          "dicen"
+        ],
+        "answer": "dice",
+        "en": "Ana says she's coming with her boyfriend.",
+        "it": "Ana dice che viene con il suo ragazzo.",
+        "hint": {
+          "en": "Ana = ella: dice.",
+          "it": "Ana = ella: dice."
+        }
+      },
+      {
+        "type": "choose",
+        "beat": "fire",
+        "before": "Mis hermanos ",
+        "after": " también.",
+        "options": [
+          "vienen",
+          "venimos",
+          "viene"
+        ],
+        "answer": "vienen",
+        "en": "My brothers are coming too.",
+        "it": "Vengono anche i miei fratelli.",
+        "hint": {
+          "en": "Mis hermanos = ellos: vienen.",
+          "it": "Mis hermanos = ellos: vienen."
+        }
+      },
+      {
+        "type": "gap",
+        "beat": "fire",
+        "before": "Tú ",
+        "after": " las bebidas.",
+        "label": "traer",
+        "accepted": [
+          "traes"
+        ],
+        "en": "You bring the drinks.",
+        "it": "Tu porti le bevande.",
+        "hint": {
+          "en": "Tú is regular: tra- + -es.",
+          "it": "Tú è regolare: tra- + -es."
+        }
+      },
+      {
+        "type": "choose",
+        "beat": "fire",
+        "before": "Marta ",
+        "after": " los vasos y el hielo.",
+        "options": [
+          "trae",
+          "traigo",
+          "traen"
+        ],
+        "answer": "trae",
+        "en": "Marta brings the glasses and the ice.",
+        "it": "Marta porta i bicchieri e il ghiaccio.",
+        "hint": {
+          "en": "Marta = ella: trae.",
+          "it": "Marta = ella: trae."
+        }
+      },
+      {
+        "type": "gap",
+        "beat": "fire",
+        "before": "Y yo ",
+        "after": " una tarta.",
+        "label": "hacer",
+        "accepted": [
+          "hago"
+        ],
+        "en": "And I'll make a cake.",
+        "it": "E io faccio una torta.",
+        "hint": {
+          "en": "Yo: hago.",
+          "it": "Yo: hago."
+        }
+      },
+      {
+        "type": "choose",
+        "beat": "fire",
+        "before": "Pablo no ",
+        "after": " el barrio.",
+        "options": [
+          "conoce",
+          "sabe",
+          "conozco"
+        ],
+        "answer": "conoce",
+        "en": "Pablo doesn't know the neighbourhood.",
+        "it": "Pablo non conosce il quartiere.",
+        "hint": {
+          "en": "A place: conocer.",
+          "it": "Un posto: conocer."
+        }
+      },
+      {
+        "type": "build",
+        "beat": "fire",
+        "intention": {
+          "en": "Your friend asks «¿Y la dirección?». Say that Pablo doesn't know the address.",
+          "it": "Il tuo amico chiede «¿Y la dirección?». Di che Pablo non sa l'indirizzo."
+        },
+        "accepted": [
+          "Pablo no sabe la dirección."
+        ],
+        "tiles": [
+          "Pablo",
+          "no",
+          "sabe",
+          "la dirección",
+          "conoce"
+        ],
+        "en": "Pablo doesn't know the address.",
+        "it": "Pablo non sa l'indirizzo.",
+        "hint": {
+          "en": "A fact: saber.",
+          "it": "Un'informazione: saber."
+        }
+      },
+      {
+        "type": "build",
+        "beat": "fire",
+        "intention": {
+          "en": "Plan your afternoon: first the food shopping, then you set the table.",
+          "it": "Organizza il pomeriggio: prima la spesa, poi apparecchi la tavola."
+        },
+        "accepted": [
+          "Primero hago la compra y luego pongo la mesa."
+        ],
+        "tiles": [
+          "Primero",
+          "hago",
+          "la compra",
+          "y",
+          "luego",
+          "pongo",
+          "la mesa",
+          "pone"
+        ],
+        "en": "First I do the food shopping and then I set the table.",
+        "it": "Prima faccio la spesa e poi apparecchio la tavola.",
+        "hint": {
+          "en": "Yo: hago and pongo.",
+          "it": "Yo: hago e pongo."
+        }
+      },
+      {
+        "type": "gap",
+        "beat": "mix",
+        "before": "Yo ",
+        "after": " el hielo en los vasos.",
+        "label": "poner",
+        "accepted": [
+          "pongo"
+        ],
+        "en": "I put the ice in the glasses.",
+        "it": "Metto il ghiaccio nei bicchieri.",
+        "hint": {
+          "en": "Yo: pongo.",
+          "it": "Yo: pongo."
+        }
+      },
+      {
+        "type": "choose",
+        "beat": "mix",
+        "before": "Yo ",
+        "after": " del trabajo a las seis, entonces vuelvo pronto.",
+        "options": [
+          "salgo",
+          "sale",
+          "salimos"
+        ],
+        "answer": "salgo",
+        "en": "I leave work at six, so I'll be back early.",
+        "it": "Esco dal lavoro alle sei, quindi torno presto.",
+        "hint": {
+          "en": "Yo: salgo.",
+          "it": "Yo: salgo."
+        }
+      },
+      {
+        "type": "write",
+        "beat": "mix",
+        "instruction": {
+          "en": "Send your friends a message: there's a party tonight, say what you bring and who's coming.",
+          "it": "Manda un messaggio ai tuoi amici: c'è una festa stasera, di cosa porti e chi viene."
+        },
+        "required": [
+          "esta noche",
+          "traigo",
+          "vienen"
+        ],
+        "model": {
+          "es": "Hay una fiesta en mi casa esta noche. Yo traigo una tarta y mis hermanos vienen también.",
+          "en": "There's a party at my place tonight. I'm bringing a cake and my brothers are coming too.",
+          "it": "Stasera c'è una festa a casa mia. Io porto una torta e vengono anche i miei fratelli."
+        }
+      }
+    ]
+  }
+}

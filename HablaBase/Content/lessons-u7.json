@@ -1,0 +1,2704 @@
+{
+  "unit": "u7",
+  "lessons": [
+    {
+      "id": "u7l1",
+      "goal": {
+        "en": "Say what you want, prefer and think with verbs whose e becomes ie.",
+        "it": "Di cosa vuoi, preferisci e pensi con i verbi in cui la e diventa ie."
+      },
+      "target": {
+        "es": "Quiero un viaje, pero prefiero ir en tren.",
+        "en": "I want a trip, but I prefer to go by train.",
+        "it": "Voglio fare un viaggio, ma preferisco andare in treno."
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "querer",
+              "en": "to want",
+              "it": "volere",
+              "kind": "stem"
+            },
+            {
+              "es": "preferir",
+              "en": "to prefer",
+              "it": "preferire",
+              "kind": "stem"
+            },
+            {
+              "es": "pensar",
+              "en": "to think",
+              "it": "pensare",
+              "kind": "stem"
+            }
+          ]
+        },
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "una idea",
+              "en": "an idea",
+              "it": "un'idea",
+              "kind": "chunk"
+            },
+            {
+              "es": "un viaje",
+              "en": "a trip",
+              "it": "un viaggio",
+              "kind": "chunk"
+            },
+            {
+              "es": "de compras",
+              "en": "shopping",
+              "it": "a fare shopping",
+              "kind": "chunk"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "quer-",
+              "kind": "stem"
+            },
+            {
+              "text": "quier-",
+              "kind": "stem"
+            },
+            {
+              "text": "-o",
+              "kind": "ending"
+            }
+          ],
+          "result": {
+            "stem": "quier",
+            "ending": "o"
+          },
+          "rule": {
+            "en": "Some verbs change inside: in querer the e of the stem becomes ie. The endings stay the regular ones: quiero, quieres, quiere.",
+            "it": "Alcuni verbi cambiano dentro: in querer la e della radice diventa ie. Le desinenze restano quelle regolari: quiero, quieres, quiere."
+          },
+          "examples": [
+            {
+              "es": "Quiero un viaje.",
+              "en": "I want a trip.",
+              "it": "Voglio fare un viaggio."
+            },
+            {
+              "es": "¿Quieres ir de compras?",
+              "en": "Do you want to go shopping?",
+              "it": "Vuoi andare a fare shopping?"
+            },
+            {
+              "es": "Ella quiere un café.",
+              "en": "She wants a coffee.",
+              "it": "Lei vuole un caffè."
+            }
+          ],
+          "teaches": [
+            {
+              "es": "quiero",
+              "en": "I want",
+              "it": "voglio"
+            },
+            {
+              "es": "quieres",
+              "en": "you want",
+              "it": "vuoi"
+            },
+            {
+              "es": "quiere",
+              "en": "he/she wants",
+              "it": "vuole"
+            }
+          ]
+        },
+        {
+          "type": "snap",
+          "beat": "forge",
+          "person": "tu",
+          "prompt": {
+            "en": "you want",
+            "it": "vuoi"
+          },
+          "stems": [
+            "quer",
+            "quier"
+          ],
+          "endings": [
+            "o",
+            "es",
+            "e"
+          ],
+          "answer": {
+            "stem": "quier",
+            "ending": "es"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "forge",
+          "before": "Mi hermana ",
+          "after": " ir de compras.",
+          "label": "querer",
+          "accepted": [
+            "quiere"
+          ],
+          "en": "My sister wants to go shopping.",
+          "it": "Mia sorella vuole andare a fare shopping.",
+          "hint": {
+            "en": "Ella: e → ie, then the regular ending -e.",
+            "it": "Ella: e → ie, poi la desinenza regolare -e."
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "quer-",
+              "kind": "stem"
+            },
+            {
+              "text": "-emos",
+              "kind": "ending"
+            }
+          ],
+          "result": {
+            "stem": "quer",
+            "ending": "emos"
+          },
+          "rule": {
+            "en": "With nosotros and vosotros the stem does not change: queremos, queréis. Ellos changes like yo, tú and él: quieren.",
+            "it": "Con nosotros e vosotros la radice non cambia: queremos, queréis. Ellos cambia come yo, tú ed él: quieren."
+          },
+          "examples": [
+            {
+              "es": "Queremos un viaje juntos.",
+              "en": "We want a trip together.",
+              "it": "Vogliamo fare un viaggio insieme."
+            },
+            {
+              "es": "¿Queréis ir de compras?",
+              "en": "Do you all want to go shopping?",
+              "it": "Volete andare a fare shopping?"
+            },
+            {
+              "es": "Ellos quieren pizza.",
+              "en": "They want pizza.",
+              "it": "Loro vogliono la pizza."
+            }
+          ],
+          "teaches": [
+            {
+              "es": "queremos",
+              "en": "we want",
+              "it": "vogliamo"
+            },
+            {
+              "es": "queréis",
+              "en": "you all want",
+              "it": "volete"
+            },
+            {
+              "es": "quieren",
+              "en": "they want",
+              "it": "vogliono"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Nosotros ",
+          "after": " ir a la playa.",
+          "options": [
+            "queremos",
+            "quieren",
+            "quiere"
+          ],
+          "answer": "queremos",
+          "en": "We want to go to the beach.",
+          "it": "Vogliamo andare al mare.",
+          "hint": {
+            "en": "Nosotros keeps the e: quer- + -emos.",
+            "it": "Nosotros tiene la e: quer- + -emos."
+          }
+        },
+        {
+          "type": "snap",
+          "beat": "fire",
+          "person": "ellos",
+          "prompt": {
+            "en": "they want",
+            "it": "vogliono"
+          },
+          "stems": [
+            "quer",
+            "quier"
+          ],
+          "endings": [
+            "en",
+            "emos"
+          ],
+          "answer": {
+            "stem": "quier",
+            "ending": "en"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "pens-",
+              "kind": "stem"
+            },
+            {
+              "text": "piens-",
+              "kind": "stem"
+            },
+            {
+              "text": "-o",
+              "kind": "ending"
+            }
+          ],
+          "result": {
+            "stem": "piens",
+            "ending": "o"
+          },
+          "rule": {
+            "en": "preferir and pensar change in the same way: e → ie, but not with nosotros and vosotros. pensar que means to think that.",
+            "it": "preferir e pensar cambiano allo stesso modo: e → ie, ma non con nosotros e vosotros. pensar que vuol dire pensare che."
+          },
+          "examples": [
+            {
+              "es": "Prefiero el té.",
+              "en": "I prefer tea.",
+              "it": "Preferisco il tè."
+            },
+            {
+              "es": "Pienso que es una buena idea.",
+              "en": "I think it's a good idea.",
+              "it": "Penso che sia una buona idea."
+            },
+            {
+              "es": "Preferimos ir en tren.",
+              "en": "We prefer to go by train.",
+              "it": "Preferiamo andare in treno."
+            }
+          ],
+          "teaches": [
+            {
+              "es": "prefiero",
+              "en": "I prefer",
+              "it": "preferisco"
+            },
+            {
+              "es": "prefieres",
+              "en": "you prefer",
+              "it": "preferisci"
+            },
+            {
+              "es": "prefiere",
+              "en": "he/she prefers",
+              "it": "preferisce"
+            },
+            {
+              "es": "preferimos",
+              "en": "we prefer",
+              "it": "preferiamo"
+            },
+            {
+              "es": "preferís",
+              "en": "you all prefer",
+              "it": "preferite"
+            },
+            {
+              "es": "prefieren",
+              "en": "they prefer",
+              "it": "preferiscono"
+            },
+            {
+              "es": "pienso",
+              "en": "I think",
+              "it": "penso"
+            },
+            {
+              "es": "piensas",
+              "en": "you think",
+              "it": "pensi"
+            },
+            {
+              "es": "piensa",
+              "en": "he/she thinks",
+              "it": "pensa"
+            },
+            {
+              "es": "pensamos",
+              "en": "we think",
+              "it": "pensiamo"
+            },
+            {
+              "es": "pensáis",
+              "en": "you all think",
+              "it": "pensate"
+            },
+            {
+              "es": "piensan",
+              "en": "they think",
+              "it": "pensano"
+            }
+          ]
+        },
+        {
+          "type": "gap",
+          "beat": "fire",
+          "before": "Yo ",
+          "after": " que es una buena idea.",
+          "label": "pensar",
+          "accepted": [
+            "pienso"
+          ],
+          "en": "I think it's a good idea.",
+          "it": "Penso che sia una buona idea.",
+          "hint": {
+            "en": "Yo: e → ie, pens- becomes piens- + -o.",
+            "it": "Yo: e → ie, pens- diventa piens- + -o."
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "fire",
+          "before": "Mis padres ",
+          "after": " el vino.",
+          "options": [
+            "prefieren",
+            "preferimos",
+            "prefiere"
+          ],
+          "answer": "prefieren",
+          "en": "My parents prefer wine.",
+          "it": "I miei genitori preferiscono il vino.",
+          "hint": {
+            "en": "Mis padres = ellos: e → ie and -en.",
+            "it": "Mis padres = ellos: e → ie e -en."
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "mix",
+          "before": "¿Vosotros ",
+          "after": " ir de compras hoy?",
+          "label": "querer",
+          "accepted": [
+            "queréis",
+            "quereis"
+          ],
+          "en": "Do you all want to go shopping today?",
+          "it": "Volete andare a fare shopping oggi?",
+          "hint": {
+            "en": "Vosotros keeps the e: quer- + -éis.",
+            "it": "Vosotros tiene la e: quer- + -éis."
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "¿Tú qué ",
+          "after": "?",
+          "options": [
+            "piensas",
+            "pensáis",
+            "piensa"
+          ],
+          "answer": "piensas",
+          "en": "What do you think?",
+          "it": "Tu che ne pensi?",
+          "hint": {
+            "en": "Tú: piens- + -as.",
+            "it": "Tú: piens- + -as."
+          }
+        },
+        {
+          "type": "build",
+          "beat": "mix",
+          "intention": {
+            "en": "Say that you want a trip, but you prefer to go by train.",
+            "it": "Di che vuoi fare un viaggio, ma preferisci andare in treno."
+          },
+          "accepted": [
+            "Quiero un viaje, pero prefiero ir en tren.",
+            "Yo quiero un viaje, pero prefiero ir en tren."
+          ],
+          "tiles": [
+            "Quiero",
+            "un viaje",
+            "pero",
+            "prefiero",
+            "ir",
+            "en tren",
+            "prefiere"
+          ],
+          "en": "I want a trip, but I prefer to go by train.",
+          "it": "Voglio fare un viaggio, ma preferisco andare in treno.",
+          "hint": {
+            "en": "Yo: quiero and prefiero, both with ie.",
+            "it": "Yo: quiero e prefiero, tutti e due con ie."
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "Say something you want and something you prefer, joined with pero.",
+            "it": "Di una cosa che vuoi e una che preferisci, unite con pero."
+          },
+          "required": [
+            "quiero",
+            "prefiero",
+            "pero"
+          ],
+          "model": {
+            "es": "Quiero ir de compras, pero prefiero ir a la playa.",
+            "en": "I want to go shopping, but I prefer to go to the beach.",
+            "it": "Voglio andare a fare shopping, ma preferisco andare al mare."
+          }
+        }
+      ]
+    },
+    {
+      "id": "u7l2",
+      "goal": {
+        "en": "Say when things start and close, and put your actions in order.",
+        "it": "Di quando le cose cominciano e chiudono, e metti in ordine le tue azioni."
+      },
+      "target": {
+        "es": "Primero desayuno y después empiezo a trabajar.",
+        "en": "First I have breakfast and then I start work.",
+        "it": "Prima faccio colazione e poi comincio a lavorare."
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "empezar",
+              "en": "to start",
+              "it": "cominciare",
+              "kind": "stem"
+            },
+            {
+              "es": "cerrar",
+              "en": "to close",
+              "it": "chiudere",
+              "kind": "stem"
+            },
+            {
+              "es": "entender",
+              "en": "to understand",
+              "it": "capire",
+              "kind": "stem"
+            }
+          ]
+        },
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "la tienda",
+              "en": "the shop",
+              "it": "il negozio",
+              "kind": "chunk"
+            },
+            {
+              "es": "la reunión",
+              "en": "the meeting",
+              "it": "la riunione",
+              "kind": "chunk"
+            },
+            {
+              "es": "la puerta",
+              "en": "the door",
+              "it": "la porta",
+              "kind": "chunk"
+            },
+            {
+              "es": "primero",
+              "en": "first",
+              "it": "prima",
+              "kind": "rail"
+            },
+            {
+              "es": "después",
+              "en": "then, afterwards",
+              "it": "dopo",
+              "kind": "rail"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "empez-",
+              "kind": "stem"
+            },
+            {
+              "text": "empiez-",
+              "kind": "stem"
+            },
+            {
+              "text": "-a",
+              "kind": "ending"
+            }
+          ],
+          "result": {
+            "stem": "empiez",
+            "ending": "a"
+          },
+          "rule": {
+            "en": "empezar (to start) changes like querer: e → ie, except with nosotros and vosotros. empezar a + a verb = to start doing it.",
+            "it": "empezar (cominciare) cambia come querer: e → ie, tranne con nosotros e vosotros. empezar a + un verbo = cominciare a fare."
+          },
+          "examples": [
+            {
+              "es": "La reunión empieza a las nueve.",
+              "en": "The meeting starts at nine.",
+              "it": "La riunione comincia alle nove."
+            },
+            {
+              "es": "Empiezo a trabajar a las ocho.",
+              "en": "I start work at eight.",
+              "it": "Comincio a lavorare alle otto."
+            },
+            {
+              "es": "Empezamos mañana.",
+              "en": "We start tomorrow.",
+              "it": "Cominciamo domani."
+            }
+          ],
+          "teaches": [
+            {
+              "es": "empiezo",
+              "en": "I start",
+              "it": "comincio"
+            },
+            {
+              "es": "empiezas",
+              "en": "you start",
+              "it": "cominci"
+            },
+            {
+              "es": "empieza",
+              "en": "he/she starts",
+              "it": "comincia"
+            },
+            {
+              "es": "empezamos",
+              "en": "we start",
+              "it": "cominciamo"
+            },
+            {
+              "es": "empezáis",
+              "en": "you all start",
+              "it": "cominciate"
+            },
+            {
+              "es": "empiezan",
+              "en": "they start",
+              "it": "cominciano"
+            }
+          ]
+        },
+        {
+          "type": "snap",
+          "beat": "forge",
+          "person": "el",
+          "prompt": {
+            "en": "she starts",
+            "it": "comincia"
+          },
+          "stems": [
+            "empez",
+            "empiez"
+          ],
+          "endings": [
+            "a",
+            "an",
+            "amos"
+          ],
+          "answer": {
+            "stem": "empiez",
+            "ending": "a"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "forge",
+          "before": "Yo ",
+          "after": " a trabajar a las nueve.",
+          "label": "empezar",
+          "accepted": [
+            "empiezo"
+          ],
+          "en": "I start work at nine.",
+          "it": "Comincio a lavorare alle nove.",
+          "hint": {
+            "en": "Yo: empez- becomes empiez- + -o.",
+            "it": "Yo: empez- diventa empiez- + -o."
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "cerr-",
+              "kind": "stem"
+            },
+            {
+              "text": "cierr-",
+              "kind": "stem"
+            },
+            {
+              "text": "-o",
+              "kind": "ending"
+            }
+          ],
+          "result": {
+            "stem": "cierr",
+            "ending": "o"
+          },
+          "rule": {
+            "en": "cerrar (to close) and entender (to understand) change the same way: cierro, entiendo. Nosotros and vosotros keep the e.",
+            "it": "cerrar (chiudere) ed entender (capire) cambiano allo stesso modo: cierro, entiendo. Nosotros e vosotros tengono la e."
+          },
+          "examples": [
+            {
+              "es": "La tienda cierra a las ocho.",
+              "en": "The shop closes at eight.",
+              "it": "Il negozio chiude alle otto."
+            },
+            {
+              "es": "No entiendo.",
+              "en": "I don't understand.",
+              "it": "Non capisco."
+            },
+            {
+              "es": "¿Entiendes español?",
+              "en": "Do you understand Spanish?",
+              "it": "Capisci lo spagnolo?"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "cierro",
+              "en": "I close",
+              "it": "chiudo"
+            },
+            {
+              "es": "cierras",
+              "en": "you close",
+              "it": "chiudi"
+            },
+            {
+              "es": "cierra",
+              "en": "he/she closes",
+              "it": "chiude"
+            },
+            {
+              "es": "cerramos",
+              "en": "we close",
+              "it": "chiudiamo"
+            },
+            {
+              "es": "cerráis",
+              "en": "you all close",
+              "it": "chiudete"
+            },
+            {
+              "es": "cierran",
+              "en": "they close",
+              "it": "chiudono"
+            },
+            {
+              "es": "entiendo",
+              "en": "I understand",
+              "it": "capisco"
+            },
+            {
+              "es": "entiendes",
+              "en": "you understand",
+              "it": "capisci"
+            },
+            {
+              "es": "entiende",
+              "en": "he/she understands",
+              "it": "capisce"
+            },
+            {
+              "es": "entendemos",
+              "en": "we understand",
+              "it": "capiamo"
+            },
+            {
+              "es": "entendéis",
+              "en": "you all understand",
+              "it": "capite"
+            },
+            {
+              "es": "entienden",
+              "en": "they understand",
+              "it": "capiscono"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "La farmacia ",
+          "after": " los domingos.",
+          "options": [
+            "cierra",
+            "cierran",
+            "cerramos"
+          ],
+          "answer": "cierra",
+          "en": "The pharmacy closes on Sundays.",
+          "it": "La farmacia chiude la domenica.",
+          "hint": {
+            "en": "La farmacia = ella: cierr- + -a.",
+            "it": "La farmacia = ella: cierr- + -a."
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "fire",
+          "before": "Mis padres no ",
+          "after": " español.",
+          "label": "entender",
+          "accepted": [
+            "entienden"
+          ],
+          "en": "My parents don't understand Spanish.",
+          "it": "I miei genitori non capiscono lo spagnolo.",
+          "hint": {
+            "en": "Mis padres = ellos: e → ie, then -en.",
+            "it": "Mis padres = ellos: e → ie, poi -en."
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "Primero",
+              "kind": "rail"
+            },
+            {
+              "text": "desayuno",
+              "kind": "chunk"
+            },
+            {
+              "text": "y después",
+              "kind": "rail"
+            },
+            {
+              "text": "empiezo",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "primero (first) and después (then, afterwards) put your actions in order. Join the two parts with y.",
+            "it": "primero (prima) e después (poi, dopo) mettono in ordine le tue azioni. Unisci le due parti con y."
+          },
+          "examples": [
+            {
+              "es": "Primero desayuno y después empiezo a trabajar.",
+              "en": "First I have breakfast and then I start work.",
+              "it": "Prima faccio colazione e poi comincio a lavorare."
+            },
+            {
+              "es": "Primero cierro la puerta y después voy al trabajo.",
+              "en": "First I close the door and then I go to work.",
+              "it": "Prima chiudo la porta e poi vado al lavoro."
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "Say that first you close the shop and then you go home.",
+            "it": "Di che prima chiudi il negozio e poi vai a casa."
+          },
+          "accepted": [
+            "Primero cierro la tienda y después voy a casa."
+          ],
+          "tiles": [
+            "Primero",
+            "cierro",
+            "la tienda",
+            "y",
+            "después",
+            "voy",
+            "a casa",
+            "cierra"
+          ],
+          "en": "First I close the shop and then I go home.",
+          "it": "Prima chiudo il negozio e poi vado a casa.",
+          "hint": {
+            "en": "Primero + first action, y después + second action.",
+            "it": "Primero + prima azione, y después + seconda azione."
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "fire",
+          "before": "Primero estudio y ",
+          "after": " ceno.",
+          "options": [
+            "después",
+            "primero"
+          ],
+          "answer": "después",
+          "en": "First I study and then I have dinner.",
+          "it": "Prima studio e poi ceno.",
+          "hint": {
+            "en": "The second action comes with después.",
+            "it": "La seconda azione va con después."
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "mix",
+          "before": "Nosotros ",
+          "after": " a las nueve.",
+          "label": "empezar",
+          "accepted": [
+            "empezamos"
+          ],
+          "en": "We start at nine.",
+          "it": "Cominciamo alle nove.",
+          "hint": {
+            "en": "Nosotros keeps the e: empez- + -amos.",
+            "it": "Nosotros tiene la e: empez- + -amos."
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "¿Tú ",
+          "after": " la puerta, por favor?",
+          "options": [
+            "cierras",
+            "cierran",
+            "cerráis"
+          ],
+          "answer": "cierras",
+          "en": "Can you close the door, please?",
+          "it": "Chiudi la porta, per favore?",
+          "hint": {
+            "en": "Tú: cierr- + -as.",
+            "it": "Tú: cierr- + -as."
+          }
+        },
+        {
+          "type": "build",
+          "beat": "mix",
+          "intention": {
+            "en": "Say that you don't understand, but you're learning Spanish.",
+            "it": "Di che non capisci, ma stai imparando lo spagnolo."
+          },
+          "accepted": [
+            "No entiendo, pero aprendo español."
+          ],
+          "tiles": [
+            "No",
+            "entiendo",
+            "pero",
+            "aprendo",
+            "español",
+            "entiende"
+          ],
+          "en": "I don't understand, but I'm learning Spanish.",
+          "it": "Non capisco, ma sto imparando lo spagnolo.",
+          "hint": {
+            "en": "Yo: entiend- + -o; no goes before the verb.",
+            "it": "Yo: entiend- + -o; no va prima del verbo."
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "Describe the start of your working day with primero and después.",
+            "it": "Racconta l'inizio della tua giornata di lavoro con primero e después."
+          },
+          "required": [
+            "primero",
+            "después",
+            "empiezo"
+          ],
+          "model": {
+            "es": "Primero desayuno y después empiezo a trabajar en {work}.",
+            "en": "First I have breakfast and then I start work {workEn}.",
+            "it": "Prima faccio colazione e poi comincio a lavorare {workIt}."
+          }
+        }
+      ]
+    },
+    {
+      "id": "u7l3",
+      "goal": {
+        "en": "Say what you can do, when you come back and how much things cost.",
+        "it": "Di cosa puoi fare, quando torni e quanto costano le cose."
+      },
+      "target": {
+        "es": "No puedo volver pronto porque trabajo mucho.",
+        "en": "I can't come back early because I work a lot.",
+        "it": "Non posso tornare presto perché lavoro molto."
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "poder",
+              "en": "can, to be able to",
+              "it": "potere",
+              "kind": "stem"
+            },
+            {
+              "es": "volver",
+              "en": "to come back",
+              "it": "tornare",
+              "kind": "stem"
+            },
+            {
+              "es": "costar",
+              "en": "to cost",
+              "it": "costare",
+              "kind": "stem"
+            },
+            {
+              "es": "ayudar",
+              "en": "to help",
+              "it": "aiutare",
+              "kind": "stem"
+            }
+          ]
+        },
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "el billete",
+              "en": "the ticket",
+              "it": "il biglietto",
+              "kind": "chunk"
+            },
+            {
+              "es": "pronto",
+              "en": "soon",
+              "it": "presto",
+              "kind": "time"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "pod-",
+              "kind": "stem"
+            },
+            {
+              "text": "pued-",
+              "kind": "stem"
+            },
+            {
+              "text": "-o",
+              "kind": "ending"
+            }
+          ],
+          "result": {
+            "stem": "pued",
+            "ending": "o"
+          },
+          "rule": {
+            "en": "In poder the o of the stem becomes ue, except with nosotros and vosotros. After poder, the next verb stays as it is: puedo ir.",
+            "it": "In poder la o della radice diventa ue, tranne con nosotros e vosotros. Dopo poder, il verbo che segue resta all'infinito: puedo ir."
+          },
+          "examples": [
+            {
+              "es": "Puedo ir mañana.",
+              "en": "I can go tomorrow.",
+              "it": "Posso andare domani."
+            },
+            {
+              "es": "¿Puedes ayudar a mi madre?",
+              "en": "Can you help my mother?",
+              "it": "Puoi aiutare mia madre?"
+            },
+            {
+              "es": "No podemos comer pan.",
+              "en": "We can't eat bread.",
+              "it": "Non possiamo mangiare il pane."
+            }
+          ],
+          "teaches": [
+            {
+              "es": "puedo",
+              "en": "I can",
+              "it": "posso"
+            },
+            {
+              "es": "puedes",
+              "en": "you can",
+              "it": "puoi"
+            },
+            {
+              "es": "puede",
+              "en": "he/she can",
+              "it": "può"
+            },
+            {
+              "es": "podemos",
+              "en": "we can",
+              "it": "possiamo"
+            },
+            {
+              "es": "podéis",
+              "en": "you all can",
+              "it": "potete"
+            },
+            {
+              "es": "pueden",
+              "en": "they can",
+              "it": "possono"
+            }
+          ]
+        },
+        {
+          "type": "snap",
+          "beat": "forge",
+          "person": "tu",
+          "prompt": {
+            "en": "you can",
+            "it": "puoi"
+          },
+          "stems": [
+            "pod",
+            "pued"
+          ],
+          "endings": [
+            "o",
+            "es",
+            "emos"
+          ],
+          "answer": {
+            "stem": "pued",
+            "ending": "es"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "fire",
+          "before": "Nosotros no ",
+          "after": " ir hoy.",
+          "options": [
+            "podemos",
+            "pueden",
+            "puedo"
+          ],
+          "answer": "podemos",
+          "en": "We can't go today.",
+          "it": "Oggi non possiamo andare.",
+          "hint": {
+            "en": "Nosotros keeps the o: pod- + -emos.",
+            "it": "Nosotros tiene la o: pod- + -emos."
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "volv-",
+              "kind": "stem"
+            },
+            {
+              "text": "vuelv-",
+              "kind": "stem"
+            },
+            {
+              "text": "-e",
+              "kind": "ending"
+            }
+          ],
+          "result": {
+            "stem": "vuelv",
+            "ending": "e"
+          },
+          "rule": {
+            "en": "volver (to come back) changes like poder: o → ue. volver a casa = to go back home.",
+            "it": "volver (tornare) cambia come poder: o → ue. volver a casa = tornare a casa."
+          },
+          "examples": [
+            {
+              "es": "Vuelvo a casa a las siete.",
+              "en": "I come back home at seven.",
+              "it": "Torno a casa alle sette."
+            },
+            {
+              "es": "¿Vuelves pronto?",
+              "en": "Are you coming back soon?",
+              "it": "Torni presto?"
+            },
+            {
+              "es": "Volvemos el lunes.",
+              "en": "We're coming back on Monday.",
+              "it": "Torniamo lunedì."
+            }
+          ],
+          "teaches": [
+            {
+              "es": "vuelvo",
+              "en": "I come back",
+              "it": "torno"
+            },
+            {
+              "es": "vuelves",
+              "en": "you come back",
+              "it": "torni"
+            },
+            {
+              "es": "vuelve",
+              "en": "he/she comes back",
+              "it": "torna"
+            },
+            {
+              "es": "volvemos",
+              "en": "we come back",
+              "it": "torniamo"
+            },
+            {
+              "es": "volvéis",
+              "en": "you all come back",
+              "it": "tornate"
+            },
+            {
+              "es": "vuelven",
+              "en": "they come back",
+              "it": "tornano"
+            }
+          ]
+        },
+        {
+          "type": "gap",
+          "beat": "forge",
+          "before": "Mi padre ",
+          "after": " a casa a las siete.",
+          "label": "volver",
+          "accepted": [
+            "vuelve"
+          ],
+          "en": "My father comes back home at seven.",
+          "it": "Mio padre torna a casa alle sette.",
+          "hint": {
+            "en": "Él: o → ue, vuelv- + -e.",
+            "it": "Él: o → ue, vuelv- + -e."
+          }
+        },
+        {
+          "type": "snap",
+          "beat": "fire",
+          "person": "vosotros",
+          "prompt": {
+            "en": "you all come back",
+            "it": "tornate"
+          },
+          "stems": [
+            "volv",
+            "vuelv"
+          ],
+          "endings": [
+            "éis",
+            "en"
+          ],
+          "answer": {
+            "stem": "volv",
+            "ending": "éis"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "¿Cuánto",
+              "kind": "chunk"
+            },
+            {
+              "text": "cuesta / cuestan",
+              "kind": "stem"
+            },
+            {
+              "text": "?",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "costar (to cost) is o → ue too. Use cuesta for one thing and cuestan for more than one.",
+            "it": "Anche costar (costare) fa o → ue. Usa cuesta per una cosa e cuestan per più cose."
+          },
+          "examples": [
+            {
+              "es": "¿Cuánto cuesta el billete?",
+              "en": "How much is the ticket?",
+              "it": "Quanto costa il biglietto?"
+            },
+            {
+              "es": "Los billetes cuestan veinte euros.",
+              "en": "The tickets cost twenty euros.",
+              "it": "I biglietti costano venti euro."
+            }
+          ],
+          "teaches": [
+            {
+              "es": "cuestan",
+              "en": "they cost",
+              "it": "costano"
+            },
+            {
+              "es": "los billetes",
+              "en": "the tickets",
+              "it": "i biglietti"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "¿Cuánto ",
+          "after": " los billetes?",
+          "options": [
+            "cuesta",
+            "cuestan"
+          ],
+          "answer": "cuestan",
+          "en": "How much are the tickets?",
+          "it": "Quanto costano i biglietti?",
+          "hint": {
+            "en": "Los billetes are more than one: cuestan.",
+            "it": "I biglietti sono più di uno: cuestan."
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "fire",
+          "before": "¿Cuánto ",
+          "after": " el billete?",
+          "label": "costar",
+          "accepted": [
+            "cuesta"
+          ],
+          "en": "How much is the ticket?",
+          "it": "Quanto costa il biglietto?",
+          "hint": {
+            "en": "One ticket: cuesta.",
+            "it": "Un biglietto: cuesta."
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "ayud-",
+              "kind": "stem"
+            },
+            {
+              "text": "-o",
+              "kind": "ending"
+            },
+            {
+              "text": "a",
+              "kind": "rail"
+            },
+            {
+              "text": "mi madre",
+              "kind": "chunk"
+            }
+          ],
+          "result": {
+            "stem": "ayud",
+            "ending": "o"
+          },
+          "rule": {
+            "en": "Not every verb changes: ayudar (to help) is regular. When you help a person, put a before them.",
+            "it": "Non tutti i verbi cambiano: ayudar (aiutare) è regolare. Quando aiuti una persona, metti a prima della persona."
+          },
+          "examples": [
+            {
+              "es": "Ayudo a mi madre en casa.",
+              "en": "I help my mother at home.",
+              "it": "Aiuto mia madre in casa."
+            },
+            {
+              "es": "¿Ayudas a tu hermano?",
+              "en": "Do you help your brother?",
+              "it": "Aiuti tuo fratello?"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "ayudo",
+              "en": "I help",
+              "it": "aiuto"
+            },
+            {
+              "es": "ayudas",
+              "en": "you help",
+              "it": "aiuti"
+            },
+            {
+              "es": "ayuda",
+              "en": "he/she helps",
+              "it": "aiuta"
+            },
+            {
+              "es": "ayudamos",
+              "en": "we help",
+              "it": "aiutiamo"
+            },
+            {
+              "es": "ayudáis",
+              "en": "you all help",
+              "it": "aiutate"
+            },
+            {
+              "es": "ayudan",
+              "en": "they help",
+              "it": "aiutano"
+            }
+          ]
+        },
+        {
+          "type": "gap",
+          "beat": "forge",
+          "before": "Yo ",
+          "after": " a mi hermana con el español.",
+          "label": "ayudar",
+          "accepted": [
+            "ayudo"
+          ],
+          "en": "I help my sister with Spanish.",
+          "it": "Aiuto mia sorella con lo spagnolo.",
+          "hint": {
+            "en": "ayudar is regular: ayud- + -o.",
+            "it": "ayudar è regolare: ayud- + -o."
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "Ask a friend if they can help your brother.",
+            "it": "Chiedi a un amico se può aiutare tuo fratello."
+          },
+          "accepted": [
+            "¿Puedes ayudar a mi hermano?",
+            "¿Tú puedes ayudar a mi hermano?"
+          ],
+          "tiles": [
+            "Puedes",
+            "ayudar",
+            "a",
+            "mi hermano",
+            "ayudas"
+          ],
+          "en": "Can you help my brother?",
+          "it": "Puoi aiutare mio fratello?",
+          "hint": {
+            "en": "puedes + ayudar as it is, then a + the person.",
+            "it": "puedes + ayudar all'infinito, poi a + la persona."
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "mix",
+          "before": "¿Vosotros ",
+          "after": " pronto?",
+          "label": "volver",
+          "accepted": [
+            "volvéis",
+            "volveis"
+          ],
+          "en": "Are you all coming back soon?",
+          "it": "Tornate presto?",
+          "hint": {
+            "en": "Vosotros keeps the o: volv- + -éis.",
+            "it": "Vosotros tiene la o: volv- + -éis."
+          }
+        },
+        {
+          "type": "build",
+          "beat": "mix",
+          "intention": {
+            "en": "Say that you can't come back early because you work a lot.",
+            "it": "Di che non puoi tornare presto perché lavori molto."
+          },
+          "accepted": [
+            "No puedo volver pronto porque trabajo mucho."
+          ],
+          "tiles": [
+            "No",
+            "puedo",
+            "volver",
+            "pronto",
+            "porque",
+            "trabajo",
+            "mucho",
+            "vuelvo"
+          ],
+          "en": "I can't come back early because I work a lot.",
+          "it": "Non posso tornare presto perché lavoro molto.",
+          "hint": {
+            "en": "puedo + volver as it is.",
+            "it": "puedo + volver all'infinito."
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "Say what you can do today and when you come back home.",
+            "it": "Di cosa puoi fare oggi e quando torni a casa."
+          },
+          "required": [
+            "puedo",
+            "vuelvo"
+          ],
+          "model": {
+            "es": "Hoy puedo ayudar a mi hermana y vuelvo a casa pronto.",
+            "en": "Today I can help my sister and I'll come back home early.",
+            "it": "Oggi posso aiutare mia sorella e torno a casa presto."
+          }
+        }
+      ]
+    },
+    {
+      "id": "u7l4",
+      "goal": {
+        "en": "Say how much you sleep and what you play.",
+        "it": "Di quanto dormi e a cosa giochi."
+      },
+      "target": {
+        "es": "Duermo poco, pero los sábados juego al tenis.",
+        "en": "I don't sleep much, but on Saturdays I play tennis.",
+        "it": "Dormo poco, ma il sabato gioco a tennis."
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "dormir",
+              "en": "to sleep",
+              "it": "dormire",
+              "kind": "stem"
+            },
+            {
+              "es": "jugar",
+              "en": "to play",
+              "it": "giocare",
+              "kind": "stem"
+            },
+            {
+              "es": "poco",
+              "en": "not much, little",
+              "it": "poco",
+              "kind": "chunk"
+            },
+            {
+              "es": "bastante",
+              "en": "quite a lot, enough",
+              "it": "abbastanza",
+              "kind": "chunk"
+            }
+          ]
+        },
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "la siesta",
+              "en": "the nap",
+              "it": "il pisolino",
+              "kind": "chunk"
+            },
+            {
+              "es": "las cartas",
+              "en": "cards",
+              "it": "le carte",
+              "kind": "chunk"
+            },
+            {
+              "es": "los videojuegos",
+              "en": "video games",
+              "it": "i videogiochi",
+              "kind": "chunk"
+            },
+            {
+              "es": "el tenis",
+              "en": "tennis",
+              "it": "il tennis",
+              "kind": "chunk"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "dorm-",
+              "kind": "stem"
+            },
+            {
+              "text": "duerm-",
+              "kind": "stem"
+            },
+            {
+              "text": "-o",
+              "kind": "ending"
+            }
+          ],
+          "result": {
+            "stem": "duerm",
+            "ending": "o"
+          },
+          "rule": {
+            "en": "dormir (to sleep) is o → ue, like poder: duermo, duermes, duerme. Nosotros and vosotros keep the o: dormimos.",
+            "it": "dormir (dormire) fa o → ue, come poder: duermo, duermes, duerme. Nosotros e vosotros tengono la o: dormimos."
+          },
+          "examples": [
+            {
+              "es": "Duermo ocho horas.",
+              "en": "I sleep eight hours.",
+              "it": "Dormo otto ore."
+            },
+            {
+              "es": "Los domingos duermo la siesta.",
+              "en": "On Sundays I have a nap.",
+              "it": "La domenica faccio il pisolino."
+            },
+            {
+              "es": "Dormimos bien.",
+              "en": "We sleep well.",
+              "it": "Dormiamo bene."
+            }
+          ],
+          "teaches": [
+            {
+              "es": "duermo",
+              "en": "I sleep",
+              "it": "dormo"
+            },
+            {
+              "es": "duermes",
+              "en": "you sleep",
+              "it": "dormi"
+            },
+            {
+              "es": "duerme",
+              "en": "he/she sleeps",
+              "it": "dorme"
+            },
+            {
+              "es": "dormimos",
+              "en": "we sleep",
+              "it": "dormiamo"
+            },
+            {
+              "es": "dormís",
+              "en": "you all sleep",
+              "it": "dormite"
+            },
+            {
+              "es": "duermen",
+              "en": "they sleep",
+              "it": "dormono"
+            },
+            {
+              "es": "horas",
+              "en": "hours",
+              "it": "ore"
+            }
+          ]
+        },
+        {
+          "type": "snap",
+          "beat": "forge",
+          "person": "el",
+          "prompt": {
+            "en": "he sleeps",
+            "it": "dorme"
+          },
+          "stems": [
+            "dorm",
+            "duerm"
+          ],
+          "endings": [
+            "e",
+            "imos"
+          ],
+          "answer": {
+            "stem": "duerm",
+            "ending": "e"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "forge",
+          "before": "Los niños ",
+          "after": " mucho.",
+          "label": "dormir",
+          "accepted": [
+            "duermen"
+          ],
+          "en": "The children sleep a lot.",
+          "it": "I bambini dormono molto.",
+          "hint": {
+            "en": "Los niños = ellos: duerm- + -en.",
+            "it": "Los niños = ellos: duerm- + -en."
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "jug-",
+              "kind": "stem"
+            },
+            {
+              "text": "jueg-",
+              "kind": "stem"
+            },
+            {
+              "text": "-o",
+              "kind": "ending"
+            }
+          ],
+          "result": {
+            "stem": "jueg",
+            "ending": "o"
+          },
+          "rule": {
+            "en": "jugar (to play) is the only verb where u becomes ue: juego, juegas, juega. For a game or sport, add a: juego al tenis, juego a las cartas.",
+            "it": "jugar (giocare) è l'unico verbo in cui la u diventa ue: juego, juegas, juega. Per un gioco o uno sport, aggiungi a: juego al tenis, juego a las cartas."
+          },
+          "examples": [
+            {
+              "es": "Juego al tenis los sábados.",
+              "en": "I play tennis on Saturdays.",
+              "it": "Gioco a tennis il sabato."
+            },
+            {
+              "es": "¿Juegas a los videojuegos?",
+              "en": "Do you play video games?",
+              "it": "Giochi ai videogiochi?"
+            },
+            {
+              "es": "Jugamos a las cartas.",
+              "en": "We play cards.",
+              "it": "Giochiamo a carte."
+            }
+          ],
+          "teaches": [
+            {
+              "es": "juego",
+              "en": "I play",
+              "it": "gioco"
+            },
+            {
+              "es": "juegas",
+              "en": "you play",
+              "it": "giochi"
+            },
+            {
+              "es": "juega",
+              "en": "he/she plays",
+              "it": "gioca"
+            },
+            {
+              "es": "jugamos",
+              "en": "we play",
+              "it": "giochiamo"
+            },
+            {
+              "es": "jugáis",
+              "en": "you all play",
+              "it": "giocate"
+            },
+            {
+              "es": "juegan",
+              "en": "they play",
+              "it": "giocano"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Nosotros ",
+          "after": " a las cartas.",
+          "options": [
+            "jugamos",
+            "juegan",
+            "juego"
+          ],
+          "answer": "jugamos",
+          "en": "We play cards.",
+          "it": "Giochiamo a carte.",
+          "hint": {
+            "en": "Nosotros keeps the u: jug- + -amos.",
+            "it": "Nosotros tiene la u: jug- + -amos."
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "fire",
+          "before": "Mi hermano ",
+          "after": " a los videojuegos.",
+          "label": "jugar",
+          "accepted": [
+            "juega"
+          ],
+          "en": "My brother plays video games.",
+          "it": "Mio fratello gioca ai videogiochi.",
+          "hint": {
+            "en": "Él: u → ue, jueg- + -a.",
+            "it": "Él: u → ue, jueg- + -a."
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "Duermo",
+              "kind": "stem"
+            },
+            {
+              "text": "poco / bastante / mucho",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "poco (not much), bastante (quite a lot) and mucho (a lot) say how much. They go after the verb.",
+            "it": "poco, bastante e mucho dicono quanto. Vanno dopo il verbo."
+          },
+          "examples": [
+            {
+              "es": "Duermo poco.",
+              "en": "I don't sleep much.",
+              "it": "Dormo poco."
+            },
+            {
+              "es": "Juego bastante al tenis.",
+              "en": "I play tennis quite a lot.",
+              "it": "Gioco abbastanza a tennis."
+            },
+            {
+              "es": "Trabajas mucho.",
+              "en": "You work a lot.",
+              "it": "Lavori molto."
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Ella duerme cuatro horas: duerme ",
+          "after": ".",
+          "options": [
+            "poco",
+            "bastante",
+            "mucho"
+          ],
+          "answer": "poco",
+          "en": "She sleeps four hours: she doesn't sleep much.",
+          "it": "Dorme quattro ore: dorme poco.",
+          "hint": {
+            "en": "Four hours is not much: poco.",
+            "it": "Quattro ore non sono tante: poco."
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "Say that you don't sleep much because you work a lot.",
+            "it": "Di che dormi poco perché lavori molto."
+          },
+          "accepted": [
+            "Duermo poco porque trabajo mucho."
+          ],
+          "tiles": [
+            "Duermo",
+            "poco",
+            "porque",
+            "trabajo",
+            "mucho",
+            "duerme"
+          ],
+          "en": "I don't sleep much because I work a lot.",
+          "it": "Dormo poco perché lavoro molto.",
+          "hint": {
+            "en": "Yo: duerm- + -o, then poco after the verb.",
+            "it": "Yo: duerm- + -o, poi poco dopo il verbo."
+          }
+        },
+        {
+          "type": "snap",
+          "beat": "mix",
+          "person": "ellos",
+          "prompt": {
+            "en": "they play",
+            "it": "giocano"
+          },
+          "stems": [
+            "jug",
+            "jueg"
+          ],
+          "endings": [
+            "an",
+            "amos"
+          ],
+          "answer": {
+            "stem": "jueg",
+            "ending": "an"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "¿Tú ",
+          "after": " la siesta los domingos?",
+          "options": [
+            "duermes",
+            "dormís",
+            "duerme"
+          ],
+          "answer": "duermes",
+          "en": "Do you have a nap on Sundays?",
+          "it": "Fai il pisolino la domenica?",
+          "hint": {
+            "en": "Tú: duerm- + -es.",
+            "it": "Tú: duerm- + -es."
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "mix",
+          "before": "¿Vosotros ",
+          "after": " bien?",
+          "label": "dormir",
+          "accepted": [
+            "dormís",
+            "dormis"
+          ],
+          "en": "Do you all sleep well?",
+          "it": "Dormite bene?",
+          "hint": {
+            "en": "Vosotros keeps the o: dorm- + -ís.",
+            "it": "Vosotros tiene la o: dorm- + -ís."
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "Say how many hours you sleep and what you play, and when.",
+            "it": "Di quante ore dormi e a cosa giochi, e quando."
+          },
+          "required": [
+            "duermo",
+            "juego"
+          ],
+          "model": {
+            "es": "Duermo siete horas y los sábados juego al tenis con mis amigos.",
+            "en": "I sleep seven hours and on Saturdays I play tennis with my friends.",
+            "it": "Dormo sette ore e il sabato gioco a tennis con i miei amici."
+          }
+        }
+      ]
+    },
+    {
+      "id": "u7l5",
+      "goal": {
+        "en": "Order a set menu and ask people to repeat.",
+        "it": "Ordina un menù del giorno e chiedi di ripetere."
+      },
+      "target": {
+        "es": "De primero pido la sopa y de segundo, el pescado.",
+        "en": "For the first course I'll have the soup, and for the main course, the fish.",
+        "it": "Di primo prendo la zuppa e di secondo il pesce."
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "pedir",
+              "en": "to order, to ask for",
+              "it": "ordinare, chiedere",
+              "kind": "stem"
+            },
+            {
+              "es": "repetir",
+              "en": "to repeat",
+              "it": "ripetere",
+              "kind": "stem"
+            },
+            {
+              "es": "servir",
+              "en": "to serve",
+              "it": "servire",
+              "kind": "stem"
+            },
+            {
+              "es": "la sopa",
+              "en": "soup",
+              "it": "la zuppa",
+              "kind": "chunk"
+            },
+            {
+              "es": "la ensalada",
+              "en": "salad",
+              "it": "l'insalata",
+              "kind": "chunk"
+            }
+          ]
+        },
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "el menú del día",
+              "en": "the set menu",
+              "it": "il menù del giorno",
+              "kind": "chunk"
+            },
+            {
+              "es": "de primero",
+              "en": "for the first course",
+              "it": "di primo",
+              "kind": "chunk"
+            },
+            {
+              "es": "de segundo",
+              "en": "for the main course",
+              "it": "di secondo",
+              "kind": "chunk"
+            },
+            {
+              "es": "de postre",
+              "en": "for dessert",
+              "it": "di dolce",
+              "kind": "chunk"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "ped-",
+              "kind": "stem"
+            },
+            {
+              "text": "pid-",
+              "kind": "stem"
+            },
+            {
+              "text": "-o",
+              "kind": "ending"
+            }
+          ],
+          "result": {
+            "stem": "pid",
+            "ending": "o"
+          },
+          "rule": {
+            "en": "In pedir (to order, to ask for) the e becomes i: pido, pides, pide. Nosotros and vosotros keep the e: pedimos.",
+            "it": "In pedir (ordinare, chiedere) la e diventa i: pido, pides, pide. Nosotros e vosotros tengono la e: pedimos."
+          },
+          "examples": [
+            {
+              "es": "Pido la sopa.",
+              "en": "I'll have the soup.",
+              "it": "Prendo la zuppa."
+            },
+            {
+              "es": "¿Qué pides?",
+              "en": "What are you having?",
+              "it": "Tu cosa prendi?"
+            },
+            {
+              "es": "Pedimos el menú del día.",
+              "en": "We order the set menu.",
+              "it": "Prendiamo il menù del giorno."
+            }
+          ],
+          "teaches": [
+            {
+              "es": "pido",
+              "en": "I order",
+              "it": "chiedo"
+            },
+            {
+              "es": "pides",
+              "en": "you order",
+              "it": "chiedi"
+            },
+            {
+              "es": "pide",
+              "en": "he/she orders",
+              "it": "chiede"
+            },
+            {
+              "es": "pedimos",
+              "en": "we order",
+              "it": "chiediamo"
+            },
+            {
+              "es": "pedís",
+              "en": "you all order",
+              "it": "chiedete"
+            },
+            {
+              "es": "piden",
+              "en": "they order",
+              "it": "chiedono"
+            }
+          ]
+        },
+        {
+          "type": "snap",
+          "beat": "forge",
+          "person": "yo",
+          "prompt": {
+            "en": "I order",
+            "it": "ordino"
+          },
+          "stems": [
+            "ped",
+            "pid"
+          ],
+          "endings": [
+            "o",
+            "imos"
+          ],
+          "answer": {
+            "stem": "pid",
+            "ending": "o"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "forge",
+          "before": "Mis amigos ",
+          "after": " pizza.",
+          "label": "pedir",
+          "accepted": [
+            "piden"
+          ],
+          "en": "My friends order pizza.",
+          "it": "I miei amici ordinano la pizza.",
+          "hint": {
+            "en": "Mis amigos = ellos: e → i, pid- + -en.",
+            "it": "Mis amigos = ellos: e → i, pid- + -en."
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "De primero",
+              "kind": "chunk"
+            },
+            {
+              "text": "De segundo",
+              "kind": "chunk"
+            },
+            {
+              "text": "De postre",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "In Spain the menú del día has three parts: de primero, de segundo and de postre. Say the part, then what you want.",
+            "it": "In Spagna il menù del giorno ha tre parti: de primero, de segundo e de postre. Di la parte, poi cosa vuoi."
+          },
+          "examples": [
+            {
+              "es": "De primero, pido la ensalada.",
+              "en": "For the first course, I'll have the salad.",
+              "it": "Di primo prendo l'insalata."
+            },
+            {
+              "es": "De segundo, quiero el pescado.",
+              "en": "For the main course, I'd like the fish.",
+              "it": "Di secondo vorrei il pesce."
+            },
+            {
+              "es": "De postre, un helado.",
+              "en": "For dessert, an ice cream.",
+              "it": "Come dolce, un gelato."
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "Order the soup as your first course.",
+            "it": "Ordina la zuppa come primo."
+          },
+          "accepted": [
+            "De primero, pido la sopa."
+          ],
+          "tiles": [
+            "De primero",
+            "pido",
+            "la sopa",
+            "de postre",
+            "pide"
+          ],
+          "en": "For the first course, I'll have the soup.",
+          "it": "Di primo prendo la zuppa.",
+          "hint": {
+            "en": "The first course: de primero.",
+            "it": "Il primo: de primero."
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "fire",
+          "before": "",
+          "after": " quiero un helado.",
+          "options": [
+            "De postre",
+            "De primero",
+            "De segundo"
+          ],
+          "answer": "De postre",
+          "en": "For dessert I'd like an ice cream.",
+          "it": "Come dolce vorrei un gelato.",
+          "hint": {
+            "en": "Ice cream comes at the end: de postre.",
+            "it": "Il gelato arriva alla fine: de postre."
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "repet-",
+              "kind": "stem"
+            },
+            {
+              "text": "repit-",
+              "kind": "stem"
+            },
+            {
+              "text": "-o",
+              "kind": "ending"
+            }
+          ],
+          "result": {
+            "stem": "repit",
+            "ending": "o"
+          },
+          "rule": {
+            "en": "repetir (to repeat) and servir (to serve) change like pedir: e → i. ¿Puedes repetir? is very useful when you don't understand.",
+            "it": "repetir (ripetere) e servir (servire) cambiano come pedir: e → i. ¿Puedes repetir? è utilissimo quando non capisci."
+          },
+          "examples": [
+            {
+              "es": "¿Puedes repetir, por favor?",
+              "en": "Can you repeat, please?",
+              "it": "Puoi ripetere, per favore?"
+            },
+            {
+              "es": "El camarero sirve la sopa.",
+              "en": "The waiter serves the soup.",
+              "it": "Il cameriere serve la zuppa."
+            },
+            {
+              "es": "¿Aquí sirven el menú del día?",
+              "en": "Do they serve a set menu here?",
+              "it": "Qui servono il menù del giorno?"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "repito",
+              "en": "I repeat",
+              "it": "ripeto"
+            },
+            {
+              "es": "repites",
+              "en": "you repeat",
+              "it": "ripeti"
+            },
+            {
+              "es": "repite",
+              "en": "he/she repeats",
+              "it": "ripete"
+            },
+            {
+              "es": "repetimos",
+              "en": "we repeat",
+              "it": "ripetiamo"
+            },
+            {
+              "es": "repetís",
+              "en": "you all repeat",
+              "it": "ripetete"
+            },
+            {
+              "es": "repiten",
+              "en": "they repeat",
+              "it": "ripetono"
+            },
+            {
+              "es": "sirvo",
+              "en": "I serve",
+              "it": "servo"
+            },
+            {
+              "es": "sirves",
+              "en": "you serve",
+              "it": "servi"
+            },
+            {
+              "es": "sirve",
+              "en": "he/she serves",
+              "it": "serve"
+            },
+            {
+              "es": "servimos",
+              "en": "we serve",
+              "it": "serviamo"
+            },
+            {
+              "es": "servís",
+              "en": "you all serve",
+              "it": "servite"
+            },
+            {
+              "es": "sirven",
+              "en": "they serve",
+              "it": "servono"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "¿Puedes ",
+          "after": ", por favor?",
+          "options": [
+            "repetir",
+            "repites",
+            "repite"
+          ],
+          "answer": "repetir",
+          "en": "Can you repeat, please?",
+          "it": "Puoi ripetere, per favore?",
+          "hint": {
+            "en": "After poder the verb stays as it is.",
+            "it": "Dopo poder il verbo resta all'infinito."
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "fire",
+          "before": "¿Aquí ",
+          "after": " el menú del día?",
+          "label": "servir",
+          "accepted": [
+            "sirven"
+          ],
+          "en": "Do they serve a set menu here?",
+          "it": "Qui servono il menù del giorno?",
+          "hint": {
+            "en": "They serve: e → i, sirv- + -en.",
+            "it": "Servono: e → i, sirv- + -en."
+          }
+        },
+        {
+          "type": "snap",
+          "beat": "mix",
+          "person": "vosotros",
+          "prompt": {
+            "en": "you all order",
+            "it": "ordinate"
+          },
+          "stems": [
+            "ped",
+            "pid"
+          ],
+          "endings": [
+            "ís",
+            "en"
+          ],
+          "answer": {
+            "stem": "ped",
+            "ending": "ís"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "El camarero ",
+          "after": " el vino.",
+          "options": [
+            "sirve",
+            "servimos",
+            "sirven"
+          ],
+          "answer": "sirve",
+          "en": "The waiter serves the wine.",
+          "it": "Il cameriere serve il vino.",
+          "hint": {
+            "en": "El camarero = él: sirv- + -e.",
+            "it": "El camarero = él: sirv- + -e."
+          }
+        },
+        {
+          "type": "build",
+          "beat": "mix",
+          "intention": {
+            "en": "Say that you don't understand and ask them to repeat.",
+            "it": "Di che non capisci e chiedi di ripetere."
+          },
+          "accepted": [
+            "No entiendo. ¿Puedes repetir, por favor?"
+          ],
+          "tiles": [
+            "No",
+            "entiendo",
+            "Puedes",
+            "repetir",
+            "por favor",
+            "repites"
+          ],
+          "en": "I don't understand. Can you repeat, please?",
+          "it": "Non capisco. Puoi ripetere, per favore?",
+          "hint": {
+            "en": "puedes + repetir as it is.",
+            "it": "puedes + repetir all'infinito."
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "Order a whole set menu: first course, main course and dessert.",
+            "it": "Ordina un menù del giorno completo: primo, secondo e dolce."
+          },
+          "required": [
+            "pido",
+            "de primero",
+            "de segundo",
+            "de postre"
+          ],
+          "model": {
+            "es": "De primero pido la ensalada, de segundo el pescado y de postre un helado.",
+            "en": "For the first course I'll have the salad, for the main course the fish and for dessert an ice cream.",
+            "it": "Di primo prendo l'insalata, di secondo il pesce e come dolce un gelato."
+          }
+        }
+      ]
+    }
+  ],
+  "boss": {
+    "id": "u7boss",
+    "goal": {
+      "en": "You and a friend are having lunch at a restaurant in {city}. Order the set menu, and change your order when a dish has run out.",
+      "it": "Tu e un amico pranzate in un ristorante a {city}. Ordinate il menù del giorno e cambiate l'ordine quando un piatto è finito."
+    },
+    "items": [
+      {
+        "type": "words",
+        "words": [
+          {
+            "es": "la carta",
+            "en": "the menu",
+            "it": "il menù",
+            "kind": "chunk"
+          },
+          {
+            "es": "no queda",
+            "en": "there's none left",
+            "it": "non è rimasto",
+            "kind": "chunk"
+          },
+          {
+            "es": "en vez de",
+            "en": "instead of",
+            "it": "invece di",
+            "kind": "rail"
+          }
+        ]
+      },
+      {
+        "type": "build",
+        "beat": "fire",
+        "intention": {
+          "en": "The waiter says «¡Hola! ¿Qué tal?». Greet him and ask for the menu.",
+          "it": "Il cameriere dice «¡Hola! ¿Qué tal?». Salutalo e chiedi il menù."
+        },
+        "accepted": [
+          "Hola. ¿Tiene la carta, por favor?"
+        ],
+        "tiles": [
+          "Hola",
+          "Tiene",
+          "la carta",
+          "por favor",
+          "tienen"
+        ],
+        "en": "Hello. Do you have the menu, please?",
+        "it": "Buongiorno. Ha il menù, per favore?",
+        "hint": {
+          "en": "With a waiter, use usted: tiene.",
+          "it": "Con un cameriere usa usted: tiene."
+        }
+      },
+      {
+        "type": "choose",
+        "beat": "fire",
+        "before": "Sí, nosotros ",
+        "after": " el menú del día.",
+        "options": [
+          "queremos",
+          "quieren",
+          "queréis"
+        ],
+        "answer": "queremos",
+        "en": "Yes, we'd like the set menu.",
+        "it": "Sì, vogliamo il menù del giorno.",
+        "hint": {
+          "en": "You and your friend = nosotros: queremos, no ie.",
+          "it": "Tu e il tuo amico = nosotros: queremos, senza ie."
+        }
+      },
+      {
+        "type": "gap",
+        "beat": "fire",
+        "before": "De primero, yo ",
+        "after": " la sopa.",
+        "label": "pedir",
+        "accepted": [
+          "pido"
+        ],
+        "en": "For the first course, I'll have the soup.",
+        "it": "Di primo prendo la zuppa.",
+        "hint": {
+          "en": "Yo: e → i, pid- + -o.",
+          "it": "Yo: e → i, pid- + -o."
+        }
+      },
+      {
+        "type": "build",
+        "beat": "fire",
+        "intention": {
+          "en": "The waiter says «No queda sopa». Order the salad instead of the soup.",
+          "it": "Il cameriere dice «No queda sopa». Ordina l'insalata invece della zuppa."
+        },
+        "accepted": [
+          "Pido la ensalada en vez de la sopa."
+        ],
+        "tiles": [
+          "Pido",
+          "la ensalada",
+          "en vez de",
+          "la sopa",
+          "pide"
+        ],
+        "en": "I'll have the salad instead of the soup.",
+        "it": "Prendo l'insalata invece della zuppa.",
+        "hint": {
+          "en": "What you want, then en vez de + what's missing.",
+          "it": "Quello che vuoi, poi en vez de + quello che manca."
+        }
+      },
+      {
+        "type": "choose",
+        "beat": "fire",
+        "before": "De segundo, mi amigo ",
+        "after": " la carne.",
+        "options": [
+          "prefiere",
+          "prefiero",
+          "preferimos"
+        ],
+        "answer": "prefiere",
+        "en": "For the main course, my friend prefers the meat.",
+        "it": "Di secondo, il mio amico preferisce la carne.",
+        "hint": {
+          "en": "Mi amigo = él: prefier- + -e.",
+          "it": "Mi amigo = él: prefier- + -e."
+        }
+      },
+      {
+        "type": "gap",
+        "beat": "fire",
+        "before": "Y yo ",
+        "after": " el pescado.",
+        "label": "querer",
+        "accepted": [
+          "quiero"
+        ],
+        "en": "And I'd like the fish.",
+        "it": "E io vorrei il pesce.",
+        "hint": {
+          "en": "Yo: e → ie, quier- + -o.",
+          "it": "Yo: e → ie, quier- + -o."
+        }
+      },
+      {
+        "type": "build",
+        "beat": "fire",
+        "intention": {
+          "en": "The waiter speaks very fast. Say you don't understand and ask him to repeat.",
+          "it": "Il cameriere parla velocissimo. Di che non capisci e chiedigli di ripetere."
+        },
+        "accepted": [
+          "No entiendo. ¿Puede repetir, por favor?"
+        ],
+        "tiles": [
+          "No",
+          "entiendo",
+          "Puede",
+          "repetir",
+          "por favor",
+          "puedo"
+        ],
+        "en": "I don't understand. Could you repeat, please?",
+        "it": "Non capisco. Può ripetere, per favore?",
+        "hint": {
+          "en": "To the waiter (usted): puede + repetir.",
+          "it": "Al cameriere (usted): puede + repetir."
+        }
+      },
+      {
+        "type": "build",
+        "beat": "fire",
+        "intention": {
+          "en": "The waiter says «No queda pescado». Order the meat instead of the fish.",
+          "it": "Il cameriere dice «No queda pescado». Ordina la carne invece del pesce."
+        },
+        "accepted": [
+          "Pido la carne en vez del pescado."
+        ],
+        "tiles": [
+          "Pido",
+          "la carne",
+          "en vez del",
+          "pescado",
+          "pide"
+        ],
+        "en": "I'll have the meat instead of the fish.",
+        "it": "Prendo la carne invece del pesce.",
+        "hint": {
+          "en": "de + el becomes del: en vez del pescado.",
+          "it": "de + el diventa del: en vez del pescado."
+        }
+      },
+      {
+        "type": "choose",
+        "beat": "fire",
+        "before": "De postre, nosotros ",
+        "after": " un helado.",
+        "options": [
+          "pedimos",
+          "piden",
+          "pedís"
+        ],
+        "answer": "pedimos",
+        "en": "For dessert, we'll have an ice cream.",
+        "it": "Come dolce prendiamo un gelato.",
+        "hint": {
+          "en": "Nosotros keeps the e: pedimos.",
+          "it": "Nosotros tiene la e: pedimos."
+        }
+      },
+      {
+        "type": "gap",
+        "beat": "mix",
+        "before": "¿Cuánto ",
+        "after": " el menú del día?",
+        "label": "costar",
+        "accepted": [
+          "cuesta"
+        ],
+        "en": "How much is the set menu?",
+        "it": "Quanto costa il menù del giorno?",
+        "hint": {
+          "en": "One menu: o → ue, cuesta.",
+          "it": "Un menù: o → ue, cuesta."
+        }
+      },
+      {
+        "type": "build",
+        "beat": "mix",
+        "intention": {
+          "en": "The waiter asks «¿Algo más?». Say no thanks, and ask for the bill.",
+          "it": "Il cameriere chiede «¿Algo más?». Di no grazie e chiedi il conto."
+        },
+        "accepted": [
+          "No, gracias. La cuenta, por favor."
+        ],
+        "tiles": [
+          "No",
+          "gracias",
+          "La cuenta",
+          "por favor",
+          "La carta"
+        ],
+        "en": "No, thank you. The bill, please.",
+        "it": "No, grazie. Il conto, per favore.",
+        "hint": {
+          "en": "The bill is la cuenta; la carta is the menu.",
+          "it": "Il conto è la cuenta; la carta è il menù."
+        }
+      },
+      {
+        "type": "write",
+        "beat": "mix",
+        "instruction": {
+          "en": "Tell the waiter your whole order, with one change: use en vez de.",
+          "it": "Di al cameriere tutto il tuo ordine, con un cambio: usa en vez de."
+        },
+        "required": [
+          "de primero",
+          "de segundo",
+          "en vez de"
+        ],
+        "model": {
+          "es": "De primero pido la ensalada en vez de la sopa y de segundo, la carne.",
+          "en": "For the first course I'll have the salad instead of the soup, and for the main course, the meat.",
+          "it": "Di primo prendo l'insalata invece della zuppa e di secondo la carne."
+        }
+      }
+    ]
+  }
+}
