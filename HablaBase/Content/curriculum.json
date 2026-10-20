@@ -1,0 +1,4269 @@
+{
+ "version": 1,
+ "levels": [
+  {
+   "id": "level1",
+   "number": 1,
+   "cefr": "A0–A1",
+   "name": "Arranque",
+   "gloss": {
+    "en": "Ignition",
+    "it": "Avvio"
+   },
+   "canDo": {
+    "en": "Introduce yourself, your routine and what you like in 6 linked sentences.",
+    "it": "Presentarti, raccontare la tua routine e cosa ti piace in 6 frasi collegate."
+   },
+   "units": [
+    {
+     "id": "u1",
+     "number": 1,
+     "title": "El presente",
+     "gloss": {
+      "en": "The present tense",
+      "it": "Il presente"
+     },
+     "grammar": [
+      "presente regular AR/ER/IR: yo, tú, él/ella"
+     ],
+     "connectors": [
+      "y",
+      "pero",
+      "también",
+      "porque",
+      "a",
+      "en",
+      "de",
+      "con"
+     ],
+     "lessons": [
+      {
+       "id": "u1l1",
+       "title": "Me presento",
+       "gloss": {
+        "en": "I introduce myself",
+        "it": "Mi presento"
+       },
+       "focus": "yo: -o"
+      },
+      {
+       "id": "u1l2",
+       "title": "¿Y tú?",
+       "gloss": {
+        "en": "And you?",
+        "it": "E tu?"
+       },
+       "focus": "tú: -as / -es"
+      },
+      {
+       "id": "u1l3",
+       "title": "Mi rutina",
+       "gloss": {
+        "en": "My routine",
+        "it": "La mia routine"
+       },
+       "focus": "y, también; por la mañana"
+      },
+      {
+       "id": "u1l4",
+       "title": "Él, ella y mi familia",
+       "gloss": {
+        "en": "He, she and my family",
+        "it": "Lui, lei e la mia famiglia"
+       },
+       "focus": "él/ella: -a / -e"
+      },
+      {
+       "id": "u1l5",
+       "title": "Pero y porque",
+       "gloss": {
+        "en": "But and because",
+        "it": "Ma e perché"
+       },
+       "focus": "pero, porque; me gusta + infinitivo"
+      },
+      {
+       "id": "u1l6",
+       "title": "En el mercado",
+       "gloss": {
+        "en": "At the market",
+        "it": "Al mercato"
+       },
+       "focus": "quiero, ¿cuánto cuesta?, ¿tiene...?"
+      }
+     ],
+     "boss": {
+      "id": "u1boss",
+      "title": "El mercado de San Miguel",
+      "gloss": {
+       "en": "Buy dinner from Don Paco at a busy market stall.",
+       "it": "Compra la cena da Don Paco in un mercato affollato."
+      }
+     }
+    },
+    {
+     "id": "u2",
+     "number": 2,
+     "title": "Todos juntos",
+     "gloss": {
+      "en": "All together",
+      "it": "Tutti insieme"
+     },
+     "grammar": [
+      "presente: nosotros, vosotros, ellos",
+      "artículos y género",
+      "posesivos"
+     ],
+     "connectors": [
+      "y",
+      "pero"
+     ],
+     "lessons": [
+      {
+       "id": "u2l1",
+       "title": "Nosotros",
+       "gloss": {
+        "en": "We",
+        "it": "Noi"
+       },
+       "focus": "-amos / -emos / -imos"
+      },
+      {
+       "id": "u2l2",
+       "title": "Ellos y ellas",
+       "gloss": {
+        "en": "They",
+        "it": "Loro"
+       },
+       "focus": "-an / -en"
+      },
+      {
+       "id": "u2l3",
+       "title": "Vosotros y ustedes",
+       "gloss": {
+        "en": "You all",
+        "it": "Voi"
+       },
+       "focus": "-áis / -éis / -ís; ustedes"
+      },
+      {
+       "id": "u2l4",
+       "title": "El, la, los, las",
+       "gloss": {
+        "en": "The",
+        "it": "Gli articoli"
+       },
+       "focus": "género y número"
+      },
+      {
+       "id": "u2l5",
+       "title": "Mi gente",
+       "gloss": {
+        "en": "My people",
+        "it": "La mia gente"
+       },
+       "focus": "mi, tu, su, nuestro"
+      }
+     ],
+     "boss": {
+      "id": "u2boss",
+      "title": "La cena con amigos",
+      "gloss": {
+       "en": "Introduce your friends to each other at a dinner.",
+       "it": "Presenta i tuoi amici tra loro a una cena."
+      }
+     }
+    },
+    {
+     "id": "u3",
+     "number": 3,
+     "title": "Ser y estar",
+     "gloss": {
+      "en": "Two ways to be",
+      "it": "Due modi di essere"
+     },
+     "grammar": [
+      "ser",
+      "estar",
+      "concordancia de adjetivos"
+     ],
+     "connectors": [
+      "pero",
+      "porque"
+     ],
+     "lessons": [
+      {
+       "id": "u3l1",
+       "title": "Soy de...",
+       "gloss": {
+        "en": "I'm from...",
+        "it": "Sono di..."
+       },
+       "focus": "ser: origen y profesión"
+      },
+      {
+       "id": "u3l2",
+       "title": "¿Cómo eres?",
+       "gloss": {
+        "en": "What are you like?",
+        "it": "Come sei?"
+       },
+       "focus": "ser + adjetivo"
+      },
+      {
+       "id": "u3l3",
+       "title": "¿Cómo estás?",
+       "gloss": {
+        "en": "How are you?",
+        "it": "Come stai?"
+       },
+       "focus": "estar: estados"
+      },
+      {
+       "id": "u3l4",
+       "title": "¿Dónde está?",
+       "gloss": {
+        "en": "Where is it?",
+        "it": "Dov'è?"
+       },
+       "focus": "estar: ubicación"
+      },
+      {
+       "id": "u3l5",
+       "title": "¿Ser o estar?",
+       "gloss": {
+        "en": "Ser or estar?",
+        "it": "Ser o estar?"
+       },
+       "focus": "contraste"
+      }
+     ],
+     "boss": {
+      "id": "u3boss",
+      "title": "Primer día en la oficina",
+      "gloss": {
+       "en": "Introduce yourself and describe your new colleagues.",
+       "it": "Presentati e descrivi i tuoi nuovi colleghi."
+      }
+     }
+    },
+    {
+     "id": "u4",
+     "number": 4,
+     "title": "Tener e ir",
+     "gloss": {
+      "en": "To have and to go",
+      "it": "Avere e andare"
+     },
+     "grammar": [
+      "tener",
+      "ir",
+      "hay",
+      "números 0–100"
+     ],
+     "connectors": [
+      "a",
+      "al",
+      "del"
+     ],
+     "lessons": [
+      {
+       "id": "u4l1",
+       "title": "Tengo...",
+       "gloss": {
+        "en": "I have...",
+        "it": "Ho..."
+       },
+       "focus": "tener: posesión y edad"
+      },
+      {
+       "id": "u4l2",
+       "title": "Tengo que...",
+       "gloss": {
+        "en": "I have to...",
+        "it": "Devo..."
+       },
+       "focus": "tener que + infinitivo"
+      },
+      {
+       "id": "u4l3",
+       "title": "Voy a la playa",
+       "gloss": {
+        "en": "I'm going to the beach",
+        "it": "Vado al mare"
+       },
+       "focus": "ir a; al, del"
+      },
+      {
+       "id": "u4l4",
+       "title": "Hay",
+       "gloss": {
+        "en": "There is",
+        "it": "C'è"
+       },
+       "focus": "hay vs está"
+      },
+      {
+       "id": "u4l5",
+       "title": "Números y precios",
+       "gloss": {
+        "en": "Numbers and prices",
+        "it": "Numeri e prezzi"
+       },
+       "focus": "0–100; euros"
+      }
+     ],
+     "boss": {
+      "id": "u4boss",
+      "title": "El piso nuevo",
+      "gloss": {
+       "en": "Visit a flat to rent and ask what it has.",
+       "it": "Visita un appartamento in affitto e chiedi cosa c'è."
+      }
+     }
+    },
+    {
+     "id": "u5",
+     "number": 5,
+     "title": "Me gusta",
+     "gloss": {
+      "en": "I like it",
+      "it": "Mi piace"
+     },
+     "grammar": [
+      "me gusta / me gustan",
+      "querer y preferir (bloques)"
+     ],
+     "connectors": [
+      "porque",
+      "también",
+      "tampoco"
+     ],
+     "lessons": [
+      {
+       "id": "u5l1",
+       "title": "Me gusta, me gustan",
+       "gloss": {
+        "en": "I like",
+        "it": "Mi piace, mi piacciono"
+       },
+       "focus": "singular y plural"
+      },
+      {
+       "id": "u5l2",
+       "title": "¿Te gusta?",
+       "gloss": {
+        "en": "Do you like it?",
+        "it": "Ti piace?"
+       },
+       "focus": "te, le"
+      },
+      {
+       "id": "u5l3",
+       "title": "A mi madre le gusta",
+       "gloss": {
+        "en": "My mother likes",
+        "it": "A mia madre piace"
+       },
+       "focus": "a + persona + le"
+      },
+      {
+       "id": "u5l4",
+       "title": "Quiero y prefiero",
+       "gloss": {
+        "en": "I want and I prefer",
+        "it": "Voglio e preferisco"
+       },
+       "focus": "bloques: quiero, prefiero"
+      },
+      {
+       "id": "u5l5",
+       "title": "Porque me encanta",
+       "gloss": {
+        "en": "Because I love it",
+        "it": "Perché mi piace tantissimo"
+       },
+       "focus": "opiniones con porque"
+      }
+     ],
+     "boss": {
+      "id": "u5boss",
+      "title": "Planes con una amiga",
+      "gloss": {
+       "en": "Agree with a friend on what to do this weekend.",
+       "it": "Mettiti d'accordo con un'amica su cosa fare nel weekend."
+      }
+     }
+    },
+    {
+     "id": "u6",
+     "number": 6,
+     "title": "Mi día",
+     "gloss": {
+      "en": "My day",
+      "it": "La mia giornata"
+     },
+     "grammar": [
+      "la hora",
+      "días de la semana",
+      "frecuencia",
+      "palabras interrogativas"
+     ],
+     "connectors": [
+      "cuando",
+      "y",
+      "pero",
+      "porque"
+     ],
+     "lessons": [
+      {
+       "id": "u6l1",
+       "title": "¿Qué hora es?",
+       "gloss": {
+        "en": "What time is it?",
+        "it": "Che ore sono?"
+       },
+       "focus": "la hora"
+      },
+      {
+       "id": "u6l2",
+       "title": "Los días de la semana",
+       "gloss": {
+        "en": "The days of the week",
+        "it": "I giorni della settimana"
+       },
+       "focus": "los lunes, el martes"
+      },
+      {
+       "id": "u6l3",
+       "title": "Siempre, a veces, nunca",
+       "gloss": {
+        "en": "Always, sometimes, never",
+        "it": "Sempre, a volte, mai"
+       },
+       "focus": "frecuencia"
+      },
+      {
+       "id": "u6l4",
+       "title": "Qué, dónde, cuándo",
+       "gloss": {
+        "en": "What, where, when",
+        "it": "Cosa, dove, quando"
+       },
+       "focus": "preguntas"
+      },
+      {
+       "id": "u6l5",
+       "title": "Mi semana en 6 frases",
+       "gloss": {
+        "en": "My week in 6 sentences",
+        "it": "La mia settimana in 6 frasi"
+       },
+       "focus": "repaso de nivel"
+      }
+     ],
+     "boss": {
+      "id": "u6boss",
+      "title": "Intercambio de idiomas",
+      "gloss": {
+       "en": "Tell a language partner about your week in 6 linked sentences.",
+       "it": "Racconta la tua settimana a un partner linguistico in 6 frasi collegate."
+      }
+     }
+    }
+   ],
+   "checkpoint": {
+    "id": "level1check",
+    "title": "Examen de Arranque",
+    "gloss": {
+     "en": "6-minute speaking exam: introduce yourself, your day and your tastes.",
+     "it": "Esame orale di 6 minuti: presentati, racconta la tua giornata e i tuoi gusti."
+    }
+   }
+  },
+  {
+   "id": "level2",
+   "number": 2,
+   "cefr": "A1–A2",
+   "name": "Motor",
+   "gloss": {
+    "en": "Engine",
+    "it": "Motore"
+   },
+   "canDo": {
+    "en": "Plan a weekend, order food, and ask for and give directions.",
+    "it": "Organizzare un weekend, ordinare da mangiare, chiedere e dare indicazioni."
+   },
+   "units": [
+    {
+     "id": "u7",
+     "number": 7,
+     "title": "Verbos que cambian",
+     "gloss": {
+      "en": "Verbs that change",
+      "it": "Verbi che cambiano"
+     },
+     "grammar": [
+      "e>ie",
+      "o>ue",
+      "e>i"
+     ],
+     "connectors": [
+      "primero",
+      "después"
+     ],
+     "lessons": [
+      {
+       "id": "u7l1",
+       "title": "Quiero y prefiero",
+       "gloss": {
+        "en": "I want and I prefer",
+        "it": "Voglio e preferisco"
+       },
+       "focus": "e>ie: querer, preferir, pensar"
+      },
+      {
+       "id": "u7l2",
+       "title": "Empiezo y cierro",
+       "gloss": {
+        "en": "I start and I close",
+        "it": "Comincio e chiudo"
+       },
+       "focus": "e>ie: empezar, cerrar, entender"
+      },
+      {
+       "id": "u7l3",
+       "title": "Puedo y vuelvo",
+       "gloss": {
+        "en": "I can and I come back",
+        "it": "Posso e torno"
+       },
+       "focus": "o>ue: poder, volver, costar"
+      },
+      {
+       "id": "u7l4",
+       "title": "Duermo y juego",
+       "gloss": {
+        "en": "I sleep and I play",
+        "it": "Dormo e gioco"
+       },
+       "focus": "o>ue, u>ue: dormir, jugar"
+      },
+      {
+       "id": "u7l5",
+       "title": "Pido y repito",
+       "gloss": {
+        "en": "I ask for and I repeat",
+        "it": "Chiedo e ripeto"
+       },
+       "focus": "e>i: pedir, repetir, servir"
+      }
+     ],
+     "boss": {
+      "id": "u7boss",
+      "title": "En el restaurante",
+      "gloss": {
+       "en": "Order a meal and change your order when something is missing.",
+       "it": "Ordina un pasto e cambia l'ordine quando manca qualcosa."
+      }
+     }
+    },
+    {
+     "id": "u8",
+     "number": 8,
+     "title": "Yo irregular",
+     "gloss": {
+      "en": "Irregular I",
+      "it": "Io irregolare"
+     },
+     "grammar": [
+      "yo irregular"
+     ],
+     "connectors": [
+      "entonces",
+      "luego"
+     ],
+     "lessons": [
+      {
+       "id": "u8l1",
+       "title": "Hago y salgo",
+       "gloss": {
+        "en": "I do and I go out",
+        "it": "Faccio ed esco"
+       },
+       "focus": "hacer, salir"
+      },
+      {
+       "id": "u8l2",
+       "title": "Pongo y traigo",
+       "gloss": {
+        "en": "I put and I bring",
+        "it": "Metto e porto"
+       },
+       "focus": "poner, traer"
+      },
+      {
+       "id": "u8l3",
+       "title": "Conozco y sé",
+       "gloss": {
+        "en": "I know",
+        "it": "Conosco e so"
+       },
+       "focus": "conocer vs saber"
+      },
+      {
+       "id": "u8l4",
+       "title": "Digo y vengo",
+       "gloss": {
+        "en": "I say and I come",
+        "it": "Dico e vengo"
+       },
+       "focus": "decir, venir"
+      },
+      {
+       "id": "u8l5",
+       "title": "Doy, veo, estoy",
+       "gloss": {
+        "en": "I give, I see, I am",
+        "it": "Do, vedo, sto"
+       },
+       "focus": "dar, ver, estar"
+      }
+     ],
+     "boss": {
+      "id": "u8boss",
+      "title": "Una fiesta en casa",
+      "gloss": {
+       "en": "Organise a party: who brings what and who comes.",
+       "it": "Organizza una festa: chi porta cosa e chi viene."
+      }
+     }
+    },
+    {
+     "id": "u9",
+     "number": 9,
+     "title": "Mi rutina completa",
+     "gloss": {
+      "en": "My full routine",
+      "it": "La mia routine completa"
+     },
+     "grammar": [
+      "verbos reflexivos",
+      "estar + gerundio"
+     ],
+     "connectors": [
+      "primero",
+      "luego",
+      "después",
+      "al final"
+     ],
+     "lessons": [
+      {
+       "id": "u9l1",
+       "title": "Me levanto",
+       "gloss": {
+        "en": "I get up",
+        "it": "Mi alzo"
+       },
+       "focus": "me, te, se"
+      },
+      {
+       "id": "u9l2",
+       "title": "Me ducho y me visto",
+       "gloss": {
+        "en": "I shower and get dressed",
+        "it": "Mi faccio la doccia e mi vesto"
+       },
+       "focus": "rutina reflexiva"
+      },
+      {
+       "id": "u9l3",
+       "title": "Nos vemos",
+       "gloss": {
+        "en": "See you",
+        "it": "Ci vediamo"
+       },
+       "focus": "nos, os, se"
+      },
+      {
+       "id": "u9l4",
+       "title": "Estoy trabajando",
+       "gloss": {
+        "en": "I'm working",
+        "it": "Sto lavorando"
+       },
+       "focus": "estar + gerundio"
+      },
+      {
+       "id": "u9l5",
+       "title": "Primero, luego, después",
+       "gloss": {
+        "en": "First, then, after",
+        "it": "Prima, poi, dopo"
+       },
+       "focus": "secuencia"
+      }
+     ],
+     "boss": {
+      "id": "u9boss",
+      "title": "Compañeros de piso",
+      "gloss": {
+       "en": "Agree on the house routine with your flatmates.",
+       "it": "Mettiti d'accordo sulla routine di casa con i coinquilini."
+      }
+     }
+    },
+    {
+     "id": "u10",
+     "number": 10,
+     "title": "Planes",
+     "gloss": {
+      "en": "Plans",
+      "it": "Piani"
+     },
+     "grammar": [
+      "ir a + infinitivo",
+      "quedar",
+      "cuando + presente"
+     ],
+     "connectors": [
+      "cuando",
+      "entonces"
+     ],
+     "lessons": [
+      {
+       "id": "u10l1",
+       "title": "Voy a viajar",
+       "gloss": {
+        "en": "I'm going to travel",
+        "it": "Viaggerò"
+       },
+       "focus": "ir a + infinitivo"
+      },
+      {
+       "id": "u10l2",
+       "title": "Este fin de semana",
+       "gloss": {
+        "en": "This weekend",
+        "it": "Questo fine settimana"
+       },
+       "focus": "marcadores de futuro"
+      },
+      {
+       "id": "u10l3",
+       "title": "¿Quedamos?",
+       "gloss": {
+        "en": "Shall we meet?",
+        "it": "Ci vediamo?"
+       },
+       "focus": "quedar, a las..."
+      },
+      {
+       "id": "u10l4",
+       "title": "Cuando salgo del trabajo",
+       "gloss": {
+        "en": "When I leave work",
+        "it": "Quando esco dal lavoro"
+       },
+       "focus": "cuando + presente"
+      },
+      {
+       "id": "u10l5",
+       "title": "Mi plan perfecto",
+       "gloss": {
+        "en": "My perfect plan",
+        "it": "Il mio piano perfetto"
+       },
+       "focus": "repaso"
+      }
+     ],
+     "boss": {
+      "id": "u10boss",
+      "title": "Fin de semana en Barcelona",
+      "gloss": {
+       "en": "Plan a weekend trip with a friend: transport, places, times.",
+       "it": "Organizza un weekend con un amico: trasporti, luoghi, orari."
+      }
+     }
+    },
+    {
+     "id": "u11",
+     "number": 11,
+     "title": "La ciudad",
+     "gloss": {
+      "en": "The city",
+      "it": "La città"
+     },
+     "grammar": [
+      "direcciones",
+      "preposiciones de lugar"
+     ],
+     "connectors": [
+      "desde",
+      "hasta",
+      "luego"
+     ],
+     "lessons": [
+      {
+       "id": "u11l1",
+       "title": "¿Dónde está el museo?",
+       "gloss": {
+        "en": "Where is the museum?",
+        "it": "Dov'è il museo?"
+       },
+       "focus": "preguntar direcciones"
+      },
+      {
+       "id": "u11l2",
+       "title": "Todo recto",
+       "gloss": {
+        "en": "Straight ahead",
+        "it": "Sempre dritto"
+       },
+       "focus": "a la derecha, a la izquierda"
+      },
+      {
+       "id": "u11l3",
+       "title": "En metro, a pie",
+       "gloss": {
+        "en": "By metro, on foot",
+        "it": "In metro, a piedi"
+       },
+       "focus": "en, a + transporte"
+      },
+      {
+       "id": "u11l4",
+       "title": "Desde aquí hasta allí",
+       "gloss": {
+        "en": "From here to there",
+        "it": "Da qui a lì"
+       },
+       "focus": "desde, hasta"
+      },
+      {
+       "id": "u11l5",
+       "title": "Cerca y lejos",
+       "gloss": {
+        "en": "Near and far",
+        "it": "Vicino e lontano"
+       },
+       "focus": "al lado de, enfrente de"
+      }
+     ],
+     "boss": {
+      "id": "u11boss",
+      "title": "Perdido en Sevilla",
+      "gloss": {
+       "en": "Ask locals the way and guide a tourist back.",
+       "it": "Chiedi la strada e guida un turista."
+      }
+     }
+    },
+    {
+     "id": "u12",
+     "number": 12,
+     "title": "De compras",
+     "gloss": {
+      "en": "Shopping",
+      "it": "Fare shopping"
+     },
+     "grammar": [
+      "demostrativos",
+      "lo, la (objeto directo básico)",
+      "para + persona"
+     ],
+     "connectors": [
+      "para",
+      "pero"
+     ],
+     "lessons": [
+      {
+       "id": "u12l1",
+       "title": "Este, ese, aquel",
+       "gloss": {
+        "en": "This, that",
+        "it": "Questo, quello"
+       },
+       "focus": "demostrativos"
+      },
+      {
+       "id": "u12l2",
+       "title": "Lo quiero",
+       "gloss": {
+        "en": "I want it",
+        "it": "Lo voglio"
+       },
+       "focus": "lo, la, los, las"
+      },
+      {
+       "id": "u12l3",
+       "title": "Tallas y colores",
+       "gloss": {
+        "en": "Sizes and colours",
+        "it": "Taglie e colori"
+       },
+       "focus": "concordancia"
+      },
+      {
+       "id": "u12l4",
+       "title": "Para mi hermana",
+       "gloss": {
+        "en": "For my sister",
+        "it": "Per mia sorella"
+       },
+       "focus": "para + persona"
+      },
+      {
+       "id": "u12l5",
+       "title": "Pagar y devolver",
+       "gloss": {
+        "en": "Pay and return",
+        "it": "Pagare e restituire"
+       },
+       "focus": "en efectivo, con tarjeta"
+      }
+     ],
+     "boss": {
+      "id": "u12boss",
+      "title": "La tienda de ropa",
+      "gloss": {
+       "en": "Return a jumper that does not fit and choose another.",
+       "it": "Restituisci un maglione che non va bene e scegline un altro."
+      }
+     }
+    },
+    {
+     "id": "u13",
+     "number": 13,
+     "title": "Comer fuera",
+     "gloss": {
+      "en": "Eating out",
+      "it": "Mangiare fuori"
+     },
+     "grammar": [
+      "comparativos",
+      "muy / mucho",
+      "pedir con cortesía"
+     ],
+     "connectors": [
+      "porque",
+      "entonces",
+      "para"
+     ],
+     "lessons": [
+      {
+       "id": "u13l1",
+       "title": "Para mí, la sopa",
+       "gloss": {
+        "en": "The soup for me",
+        "it": "Per me la zuppa"
+       },
+       "focus": "pedir en el bar"
+      },
+      {
+       "id": "u13l2",
+       "title": "¿Me trae...?",
+       "gloss": {
+        "en": "Could you bring me...?",
+        "it": "Mi porta...?"
+       },
+       "focus": "peticiones"
+      },
+      {
+       "id": "u13l3",
+       "title": "Más grande que",
+       "gloss": {
+        "en": "Bigger than",
+        "it": "Più grande di"
+       },
+       "focus": "comparativos"
+      },
+      {
+       "id": "u13l4",
+       "title": "Muy, mucho, demasiado",
+       "gloss": {
+        "en": "Very, a lot, too much",
+        "it": "Molto, troppo"
+       },
+       "focus": "cantidad"
+      },
+      {
+       "id": "u13l5",
+       "title": "La cuenta, por favor",
+       "gloss": {
+        "en": "The bill, please",
+        "it": "Il conto, per favore"
+       },
+       "focus": "pagar y propina"
+      }
+     ],
+     "boss": {
+      "id": "u13boss",
+      "title": "Cena para seis",
+      "gloss": {
+       "en": "Book a table and order for a group with special requests.",
+       "it": "Prenota un tavolo e ordina per un gruppo con richieste speciali."
+      }
+     }
+    }
+   ],
+   "checkpoint": {
+    "id": "level2check",
+    "title": "Examen de Motor",
+    "gloss": {
+     "en": "Plan a weekend, order at a restaurant and find your way in a city.",
+     "it": "Organizza un weekend, ordina al ristorante e orientati in città."
+    }
+   }
+  },
+  {
+   "id": "level3",
+   "number": 3,
+   "cefr": "A2",
+   "name": "Memoria",
+   "gloss": {
+    "en": "Memory",
+    "it": "Memoria"
+   },
+   "canDo": {
+    "en": "Say what you did today and last weekend, and complain politely.",
+    "it": "Raccontare cosa hai fatto oggi e lo scorso weekend, e lamentarti con educazione."
+   },
+   "units": [
+    {
+     "id": "u14",
+     "number": 14,
+     "title": "Hoy he...",
+     "gloss": {
+      "en": "Today I have...",
+      "it": "Oggi ho..."
+     },
+     "grammar": [
+      "pretérito perfecto",
+      "participios irregulares"
+     ],
+     "connectors": [
+      "ya",
+      "todavía no",
+      "hoy",
+      "esta semana"
+     ],
+     "lessons": [
+      {
+       "id": "u14l1",
+       "title": "He hablado",
+       "gloss": {
+        "en": "I have spoken",
+        "it": "Ho parlato"
+       },
+       "focus": "haber + -ado / -ido"
+      },
+      {
+       "id": "u14l2",
+       "title": "Hoy y esta semana",
+       "gloss": {
+        "en": "Today and this week",
+        "it": "Oggi e questa settimana"
+       },
+       "focus": "marcadores"
+      },
+      {
+       "id": "u14l3",
+       "title": "Ya y todavía no",
+       "gloss": {
+        "en": "Already and not yet",
+        "it": "Già e non ancora"
+       },
+       "focus": "ya, todavía no"
+      },
+      {
+       "id": "u14l4",
+       "title": "Hecho, dicho, visto",
+       "gloss": {
+        "en": "Done, said, seen",
+        "it": "Fatto, detto, visto"
+       },
+       "focus": "participios irregulares"
+      },
+      {
+       "id": "u14l5",
+       "title": "¿Alguna vez has...?",
+       "gloss": {
+        "en": "Have you ever...?",
+        "it": "Hai mai...?"
+       },
+       "focus": "experiencias"
+      }
+     ],
+     "boss": {
+      "id": "u14boss",
+      "title": "La entrevista de trabajo",
+      "gloss": {
+       "en": "Talk about your experience in a job interview.",
+       "it": "Parla delle tue esperienze in un colloquio di lavoro."
+      }
+     }
+    },
+    {
+     "id": "u15",
+     "number": 15,
+     "title": "Ayer",
+     "gloss": {
+      "en": "Yesterday",
+      "it": "Ieri"
+     },
+     "grammar": [
+      "indefinido regular"
+     ],
+     "connectors": [
+      "ayer",
+      "la semana pasada",
+      "después"
+     ],
+     "lessons": [
+      {
+       "id": "u15l1",
+       "title": "Ayer hablé",
+       "gloss": {
+        "en": "Yesterday I spoke",
+        "it": "Ieri ho parlato"
+       },
+       "focus": "AR: -é, -aste, -ó"
+      },
+      {
+       "id": "u15l2",
+       "title": "Comí y viví",
+       "gloss": {
+        "en": "I ate and I lived",
+        "it": "Ho mangiato e ho vissuto"
+       },
+       "focus": "ER/IR: -í, -iste, -ió"
+      },
+      {
+       "id": "u15l3",
+       "title": "El lunes, en 2019",
+       "gloss": {
+        "en": "On Monday, in 2019",
+        "it": "Lunedì, nel 2019"
+       },
+       "focus": "marcadores de pasado"
+      },
+      {
+       "id": "u15l4",
+       "title": "Busqué, llegué, empecé",
+       "gloss": {
+        "en": "I looked, arrived, started",
+        "it": "Ho cercato, sono arrivato, ho iniziato"
+       },
+       "focus": "ortografía"
+      },
+      {
+       "id": "u15l5",
+       "title": "Mi fin de semana",
+       "gloss": {
+        "en": "My weekend",
+        "it": "Il mio weekend"
+       },
+       "focus": "relato corto"
+      }
+     ],
+     "boss": {
+      "id": "u15boss",
+      "title": "Lunes en la oficina",
+      "gloss": {
+       "en": "Tell your colleagues about your weekend.",
+       "it": "Racconta ai colleghi il tuo weekend."
+      }
+     }
+    },
+    {
+     "id": "u16",
+     "number": 16,
+     "title": "Los irregulares",
+     "gloss": {
+      "en": "The irregulars",
+      "it": "Gli irregolari"
+     },
+     "grammar": [
+      "indefinido irregular"
+     ],
+     "connectors": [
+      "por eso",
+      "luego"
+     ],
+     "lessons": [
+      {
+       "id": "u16l1",
+       "title": "Fui",
+       "gloss": {
+        "en": "I went / I was",
+        "it": "Sono andato / sono stato"
+       },
+       "focus": "ser e ir"
+      },
+      {
+       "id": "u16l2",
+       "title": "Tuve, estuve",
+       "gloss": {
+        "en": "I had, I was",
+        "it": "Ho avuto, sono stato"
+       },
+       "focus": "grupo -uv-"
+      },
+      {
+       "id": "u16l3",
+       "title": "Hice, quise, vine",
+       "gloss": {
+        "en": "I did, wanted, came",
+        "it": "Ho fatto, voluto, sono venuto"
+       },
+       "focus": "grupo -i-"
+      },
+      {
+       "id": "u16l4",
+       "title": "Dije, traje",
+       "gloss": {
+        "en": "I said, I brought",
+        "it": "Ho detto, ho portato"
+       },
+       "focus": "grupo -j-"
+      },
+      {
+       "id": "u16l5",
+       "title": "Pude, puse, supe",
+       "gloss": {
+        "en": "I could, put, found out",
+        "it": "Ho potuto, messo, saputo"
+       },
+       "focus": "grupo -u-"
+      }
+     ],
+     "boss": {
+      "id": "u16boss",
+      "title": "El viaje desastroso",
+      "gloss": {
+       "en": "Tell a friend about a trip where everything went wrong.",
+       "it": "Racconta a un amico un viaggio andato tutto storto."
+      }
+     }
+    },
+    {
+     "id": "u17",
+     "number": 17,
+     "title": "¿Perfecto o indefinido?",
+     "gloss": {
+      "en": "Which past?",
+      "it": "Quale passato?"
+     },
+     "grammar": [
+      "perfecto vs indefinido"
+     ],
+     "connectors": [
+      "por eso",
+      "primero",
+      "al final"
+     ],
+     "lessons": [
+      {
+       "id": "u17l1",
+       "title": "Hoy he... / ayer...",
+       "gloss": {
+        "en": "Today I have... / yesterday I...",
+        "it": "Oggi ho... / ieri..."
+       },
+       "focus": "contraste"
+      },
+      {
+       "id": "u17l2",
+       "title": "Por eso",
+       "gloss": {
+        "en": "That's why",
+        "it": "Per questo"
+       },
+       "focus": "consecuencia"
+      },
+      {
+       "id": "u17l3",
+       "title": "Contar en orden",
+       "gloss": {
+        "en": "Telling in order",
+        "it": "Raccontare in ordine"
+       },
+       "focus": "secuencia"
+      },
+      {
+       "id": "u17l4",
+       "title": "Lo siento mucho",
+       "gloss": {
+        "en": "I'm very sorry",
+        "it": "Mi dispiace molto"
+       },
+       "focus": "disculpas"
+      },
+      {
+       "id": "u17l5",
+       "title": "Quejarse con educación",
+       "gloss": {
+        "en": "Complaining politely",
+        "it": "Lamentarsi con educazione"
+       },
+       "focus": "reclamaciones"
+      }
+     ],
+     "boss": {
+      "id": "u17boss",
+      "title": "La reclamación en el hotel",
+      "gloss": {
+       "en": "Complain politely about your room and get it changed.",
+       "it": "Lamentati con educazione della camera e ottieni un cambio."
+      }
+     }
+    },
+    {
+     "id": "u18",
+     "number": 18,
+     "title": "Por y para",
+     "gloss": {
+      "en": "Por and para",
+      "it": "Por e para"
+     },
+     "grammar": [
+      "por vs para"
+     ],
+     "connectors": [
+      "por",
+      "para"
+     ],
+     "lessons": [
+      {
+       "id": "u18l1",
+       "title": "Para: la meta",
+       "gloss": {
+        "en": "Para: the goal",
+        "it": "Para: lo scopo"
+       },
+       "focus": "destino, finalidad, plazo"
+      },
+      {
+       "id": "u18l2",
+       "title": "Por: la causa",
+       "gloss": {
+        "en": "Por: the reason",
+        "it": "Por: la causa"
+       },
+       "focus": "causa"
+      },
+      {
+       "id": "u18l3",
+       "title": "Por: el camino",
+       "gloss": {
+        "en": "Por: the way",
+        "it": "Por: il percorso"
+       },
+       "focus": "lugar y tiempo"
+      },
+      {
+       "id": "u18l4",
+       "title": "Gracias por todo",
+       "gloss": {
+        "en": "Thanks for everything",
+        "it": "Grazie di tutto"
+       },
+       "focus": "expresiones fijas"
+      },
+      {
+       "id": "u18l5",
+       "title": "Flecha o camino",
+       "gloss": {
+        "en": "Arrow or path",
+        "it": "Freccia o percorso"
+       },
+       "focus": "minijuego"
+      }
+     ],
+     "boss": {
+      "id": "u18boss",
+      "title": "La agencia de viajes",
+      "gloss": {
+       "en": "Book a trip and explain your reasons and budget.",
+       "it": "Prenota un viaggio spiegando motivi e budget."
+      }
+     }
+    },
+    {
+     "id": "u19",
+     "number": 19,
+     "title": "Mi vida",
+     "gloss": {
+      "en": "My life",
+      "it": "La mia vita"
+     },
+     "grammar": [
+      "indefinido en biografías",
+      "hace + tiempo"
+     ],
+     "connectors": [
+      "hace",
+      "desde",
+      "luego"
+     ],
+     "lessons": [
+      {
+       "id": "u19l1",
+       "title": "Nací en...",
+       "gloss": {
+        "en": "I was born in...",
+        "it": "Sono nato a..."
+       },
+       "focus": "nacer, crecer"
+      },
+      {
+       "id": "u19l2",
+       "title": "Viví en...",
+       "gloss": {
+        "en": "I lived in...",
+        "it": "Ho vissuto a..."
+       },
+       "focus": "lugares"
+      },
+      {
+       "id": "u19l3",
+       "title": "Estudié y trabajé",
+       "gloss": {
+        "en": "I studied and worked",
+        "it": "Ho studiato e lavorato"
+       },
+       "focus": "etapas"
+      },
+      {
+       "id": "u19l4",
+       "title": "Hace dos años",
+       "gloss": {
+        "en": "Two years ago",
+        "it": "Due anni fa"
+       },
+       "focus": "hace + tiempo"
+      },
+      {
+       "id": "u19l5",
+       "title": "Mi historia en 6 frases",
+       "gloss": {
+        "en": "My story in 6 sentences",
+        "it": "La mia storia in 6 frasi"
+       },
+       "focus": "repaso"
+      }
+     ],
+     "boss": {
+      "id": "u19boss",
+      "title": "Conocer a la familia",
+      "gloss": {
+       "en": "Meet your partner's family and tell them your story.",
+       "it": "Conosci la famiglia del tuo partner e racconta la tua storia."
+      }
+     }
+    },
+    {
+     "id": "u20",
+     "number": 20,
+     "title": "Salud",
+     "gloss": {
+      "en": "Health",
+      "it": "Salute"
+     },
+     "grammar": [
+      "doler",
+      "tener que / deber"
+     ],
+     "connectors": [
+      "porque",
+      "por eso"
+     ],
+     "lessons": [
+      {
+       "id": "u20l1",
+       "title": "Me duele la cabeza",
+       "gloss": {
+        "en": "My head hurts",
+        "it": "Mi fa male la testa"
+       },
+       "focus": "doler"
+      },
+      {
+       "id": "u20l2",
+       "title": "¿Qué te pasó?",
+       "gloss": {
+        "en": "What happened to you?",
+        "it": "Cosa ti è successo?"
+       },
+       "focus": "pasar"
+      },
+      {
+       "id": "u20l3",
+       "title": "Tienes que descansar",
+       "gloss": {
+        "en": "You have to rest",
+        "it": "Devi riposare"
+       },
+       "focus": "consejos"
+      },
+      {
+       "id": "u20l4",
+       "title": "En la farmacia",
+       "gloss": {
+        "en": "At the pharmacy",
+        "it": "In farmacia"
+       },
+       "focus": "pedir medicinas"
+      },
+      {
+       "id": "u20l5",
+       "title": "Ayer me sentí mal",
+       "gloss": {
+        "en": "Yesterday I felt ill",
+        "it": "Ieri mi sono sentito male"
+       },
+       "focus": "repaso"
+      }
+     ],
+     "boss": {
+      "id": "u20boss",
+      "title": "En el médico",
+      "gloss": {
+       "en": "Explain your symptoms and understand the advice.",
+       "it": "Spiega i sintomi e capisci i consigli."
+      }
+     }
+    }
+   ],
+   "checkpoint": {
+    "id": "level3check",
+    "title": "Examen de Memoria",
+    "gloss": {
+     "en": "Tell your day and your weekend, then make a polite complaint.",
+     "it": "Racconta la tua giornata e il tuo weekend, poi fai un reclamo con educazione."
+    }
+   }
+  },
+  {
+   "id": "level4",
+   "number": 4,
+   "cefr": "A2–B1",
+   "name": "Historia",
+   "gloss": {
+    "en": "Story",
+    "it": "Storia"
+   },
+   "canDo": {
+    "en": "Tell a 90-second story with background and events.",
+    "it": "Raccontare una storia di 90 secondi con sfondo ed eventi."
+   },
+   "units": [
+    {
+     "id": "u21",
+     "number": 21,
+     "title": "Cuando era niño",
+     "gloss": {
+      "en": "When I was a child",
+      "it": "Quando ero bambino"
+     },
+     "grammar": [
+      "imperfecto"
+     ],
+     "connectors": [
+      "antes",
+      "ahora",
+      "siempre"
+     ],
+     "lessons": [
+      {
+       "id": "u21l1",
+       "title": "Vivía y comía",
+       "gloss": {
+        "en": "I lived and I ate",
+        "it": "Vivevo e mangiavo"
+       },
+       "focus": "-aba, -ía"
+      },
+      {
+       "id": "u21l2",
+       "title": "Era, iba, veía",
+       "gloss": {
+        "en": "I was, went, saw",
+        "it": "Ero, andavo, vedevo"
+       },
+       "focus": "3 irregulares"
+      },
+      {
+       "id": "u21l3",
+       "title": "Antes y ahora",
+       "gloss": {
+        "en": "Before and now",
+        "it": "Prima e adesso"
+       },
+       "focus": "contraste"
+      },
+      {
+       "id": "u21l4",
+       "title": "Siempre jugaba",
+       "gloss": {
+        "en": "I always played",
+        "it": "Giocavo sempre"
+       },
+       "focus": "hábitos pasados"
+      },
+      {
+       "id": "u21l5",
+       "title": "Describir el pasado",
+       "gloss": {
+        "en": "Describing the past",
+        "it": "Descrivere il passato"
+       },
+       "focus": "descripción"
+      }
+     ],
+     "boss": {
+      "id": "u21boss",
+      "title": "Fotos antiguas",
+      "gloss": {
+       "en": "Look at old photos with your grandmother and talk about the past.",
+       "it": "Guarda vecchie foto con la nonna e parla del passato."
+      }
+     }
+    },
+    {
+     "id": "u22",
+     "number": 22,
+     "title": "La escena y la acción",
+     "gloss": {
+      "en": "Scene and action",
+      "it": "Scena e azione"
+     },
+     "grammar": [
+      "imperfecto vs indefinido",
+      "estaba + gerundio"
+     ],
+     "connectors": [
+      "mientras",
+      "de repente"
+     ],
+     "lessons": [
+      {
+       "id": "u22l1",
+       "title": "La escena",
+       "gloss": {
+        "en": "The scene",
+        "it": "La scena"
+       },
+       "focus": "imperfecto de fondo"
+      },
+      {
+       "id": "u22l2",
+       "title": "La acción",
+       "gloss": {
+        "en": "The action",
+        "it": "L'azione"
+       },
+       "focus": "indefinido de acción"
+      },
+      {
+       "id": "u22l3",
+       "title": "Mientras",
+       "gloss": {
+        "en": "While",
+        "it": "Mentre"
+       },
+       "focus": "simultaneidad"
+      },
+      {
+       "id": "u22l4",
+       "title": "De repente",
+       "gloss": {
+        "en": "Suddenly",
+        "it": "All'improvviso"
+       },
+       "focus": "interrupción"
+      },
+      {
+       "id": "u22l5",
+       "title": "Estaba leyendo",
+       "gloss": {
+        "en": "I was reading",
+        "it": "Stavo leggendo"
+       },
+       "focus": "estaba + gerundio"
+      }
+     ],
+     "boss": {
+      "id": "u22boss",
+      "title": "Testigo de un robo",
+      "gloss": {
+       "en": "Tell the police exactly what you saw.",
+       "it": "Racconta alla polizia esattamente cosa hai visto."
+      }
+     }
+    },
+    {
+     "id": "u23",
+     "number": 23,
+     "title": "Pronombres",
+     "gloss": {
+      "en": "Pronouns",
+      "it": "Pronomi"
+     },
+     "grammar": [
+      "objeto directo",
+      "objeto indirecto",
+      "se lo"
+     ],
+     "connectors": [
+      "y",
+      "pero"
+     ],
+     "lessons": [
+      {
+       "id": "u23l1",
+       "title": "Lo, la, los, las",
+       "gloss": {
+        "en": "It, them",
+        "it": "Lo, la, li, le"
+       },
+       "focus": "objeto directo"
+      },
+      {
+       "id": "u23l2",
+       "title": "Le, les",
+       "gloss": {
+        "en": "To him, to them",
+        "it": "Gli, le"
+       },
+       "focus": "objeto indirecto"
+      },
+      {
+       "id": "u23l3",
+       "title": "Se lo doy",
+       "gloss": {
+        "en": "I give it to him",
+        "it": "Glielo do"
+       },
+       "focus": "dos pronombres"
+      },
+      {
+       "id": "u23l4",
+       "title": "Voy a comprarlo",
+       "gloss": {
+        "en": "I'm going to buy it",
+        "it": "Lo compro"
+       },
+       "focus": "con infinitivo"
+      },
+      {
+       "id": "u23l5",
+       "title": "¿Me lo dejas?",
+       "gloss": {
+        "en": "Will you lend it to me?",
+        "it": "Me lo presti?"
+       },
+       "focus": "peticiones"
+      }
+     ],
+     "boss": {
+      "id": "u23boss",
+      "title": "La mudanza",
+      "gloss": {
+       "en": "Organise a house move: who gives what to whom.",
+       "it": "Organizza un trasloco: chi dà cosa a chi."
+      }
+     }
+    },
+    {
+     "id": "u24",
+     "number": 24,
+     "title": "Contar historias",
+     "gloss": {
+      "en": "Telling stories",
+      "it": "Raccontare storie"
+     },
+     "grammar": [
+      "narración"
+     ],
+     "connectors": [
+      "al principio",
+      "al final",
+      "sin embargo",
+      "aunque"
+     ],
+     "lessons": [
+      {
+       "id": "u24l1",
+       "title": "Había una vez",
+       "gloss": {
+        "en": "Once upon a time",
+        "it": "C'era una volta"
+       },
+       "focus": "inicio"
+      },
+      {
+       "id": "u24l2",
+       "title": "Al principio, al final",
+       "gloss": {
+        "en": "At first, in the end",
+        "it": "All'inizio, alla fine"
+       },
+       "focus": "estructura"
+      },
+      {
+       "id": "u24l3",
+       "title": "Sin embargo",
+       "gloss": {
+        "en": "However",
+        "it": "Tuttavia"
+       },
+       "focus": "contraste"
+      },
+      {
+       "id": "u24l4",
+       "title": "Aunque",
+       "gloss": {
+        "en": "Although",
+        "it": "Anche se"
+       },
+       "focus": "concesión"
+      },
+      {
+       "id": "u24l5",
+       "title": "Mi mejor viaje",
+       "gloss": {
+        "en": "My best trip",
+        "it": "Il mio viaggio migliore"
+       },
+       "focus": "relato de 90 segundos"
+      }
+     ],
+     "boss": {
+      "id": "u24boss",
+      "title": "Noche de cuentos",
+      "gloss": {
+       "en": "Tell a 90-second story to a group of friends.",
+       "it": "Racconta una storia di 90 secondi a un gruppo di amici."
+      }
+     }
+    },
+    {
+     "id": "u25",
+     "number": 25,
+     "title": "Opiniones",
+     "gloss": {
+      "en": "Opinions",
+      "it": "Opinioni"
+     },
+     "grammar": [
+      "creo que",
+      "superlativos"
+     ],
+     "connectors": [
+      "aunque",
+      "para mí",
+      "además"
+     ],
+     "lessons": [
+      {
+       "id": "u25l1",
+       "title": "Creo que...",
+       "gloss": {
+        "en": "I think that...",
+        "it": "Credo che..."
+       },
+       "focus": "opinar"
+      },
+      {
+       "id": "u25l2",
+       "title": "Estoy de acuerdo",
+       "gloss": {
+        "en": "I agree",
+        "it": "Sono d'accordo"
+       },
+       "focus": "acuerdo y desacuerdo"
+      },
+      {
+       "id": "u25l3",
+       "title": "Para mí...",
+       "gloss": {
+        "en": "For me...",
+        "it": "Per me..."
+       },
+       "focus": "punto de vista"
+      },
+      {
+       "id": "u25l4",
+       "title": "El mejor, el peor",
+       "gloss": {
+        "en": "The best, the worst",
+        "it": "Il migliore, il peggiore"
+       },
+       "focus": "superlativos"
+      },
+      {
+       "id": "u25l5",
+       "title": "Además",
+       "gloss": {
+        "en": "Besides",
+        "it": "Inoltre"
+       },
+       "focus": "añadir argumentos"
+      }
+     ],
+     "boss": {
+      "id": "u25boss",
+      "title": "Debate en el bar",
+      "gloss": {
+       "en": "Defend your favourite city against a friend's.",
+       "it": "Difendi la tua città preferita contro quella di un amico."
+      }
+     }
+    },
+    {
+     "id": "u26",
+     "number": 26,
+     "title": "Trabajo y estudios",
+     "gloss": {
+      "en": "Work and study",
+      "it": "Lavoro e studio"
+     },
+     "grammar": [
+      "llevar + gerundio",
+      "se impersonal",
+      "usted"
+     ],
+     "connectors": [
+      "además",
+      "por eso"
+     ],
+     "lessons": [
+      {
+       "id": "u26l1",
+       "title": "Mi experiencia",
+       "gloss": {
+        "en": "My experience",
+        "it": "La mia esperienza"
+       },
+       "focus": "currículum"
+      },
+      {
+       "id": "u26l2",
+       "title": "Llevo dos años",
+       "gloss": {
+        "en": "I've been... for two years",
+        "it": "Da due anni..."
+       },
+       "focus": "llevar + gerundio"
+      },
+      {
+       "id": "u26l3",
+       "title": "Se busca",
+       "gloss": {
+        "en": "Wanted",
+        "it": "Cercasi"
+       },
+       "focus": "se impersonal"
+      },
+      {
+       "id": "u26l4",
+       "title": "Estimado señor",
+       "gloss": {
+        "en": "Dear Sir",
+        "it": "Gentile signore"
+       },
+       "focus": "usted y correos formales"
+      },
+      {
+       "id": "u26l5",
+       "title": "La reunión",
+       "gloss": {
+        "en": "The meeting",
+        "it": "La riunione"
+       },
+       "focus": "participar"
+      }
+     ],
+     "boss": {
+      "id": "u26boss",
+      "title": "Entrevista en español",
+      "gloss": {
+       "en": "Pass a full job interview in Spanish.",
+       "it": "Supera un colloquio di lavoro completo in spagnolo."
+      }
+     }
+    },
+    {
+     "id": "u27",
+     "number": 27,
+     "title": "Problemas de viaje",
+     "gloss": {
+      "en": "Travel trouble",
+      "it": "Problemi di viaggio"
+     },
+     "grammar": [
+      "pluscuamperfecto",
+      "se accidental"
+     ],
+     "connectors": [
+      "cuando",
+      "porque",
+      "así que"
+     ],
+     "lessons": [
+      {
+       "id": "u27l1",
+       "title": "Perdí el vuelo",
+       "gloss": {
+        "en": "I missed the flight",
+        "it": "Ho perso il volo"
+       },
+       "focus": "indefinido"
+      },
+      {
+       "id": "u27l2",
+       "title": "Se me olvidó",
+       "gloss": {
+        "en": "I forgot",
+        "it": "Me ne sono dimenticato"
+       },
+       "focus": "se accidental"
+      },
+      {
+       "id": "u27l3",
+       "title": "Ya había salido",
+       "gloss": {
+        "en": "It had already left",
+        "it": "Era già partito"
+       },
+       "focus": "pluscuamperfecto"
+      },
+      {
+       "id": "u27l4",
+       "title": "Pedir ayuda",
+       "gloss": {
+        "en": "Asking for help",
+        "it": "Chiedere aiuto"
+       },
+       "focus": "peticiones"
+      },
+      {
+       "id": "u27l5",
+       "title": "Encontrar una solución",
+       "gloss": {
+        "en": "Finding a solution",
+        "it": "Trovare una soluzione"
+       },
+       "focus": "negociar"
+      }
+     ],
+     "boss": {
+      "id": "u27boss",
+      "title": "Maleta perdida",
+      "gloss": {
+       "en": "Report your lost suitcase at the airport desk.",
+       "it": "Denuncia la valigia persa al banco dell'aeroporto."
+      }
+     }
+    },
+    {
+     "id": "u28",
+     "number": 28,
+     "title": "Fiestas y costumbres",
+     "gloss": {
+      "en": "Festivals and customs",
+      "it": "Feste e tradizioni"
+     },
+     "grammar": [
+      "lo + adjetivo",
+      "recomendar"
+     ],
+     "connectors": [
+      "en cambio",
+      "mientras"
+     ],
+     "lessons": [
+      {
+       "id": "u28l1",
+       "title": "Las fiestas de mi país",
+       "gloss": {
+        "en": "My country's festivals",
+        "it": "Le feste del mio paese"
+       },
+       "focus": "describir"
+      },
+      {
+       "id": "u28l2",
+       "title": "Comparar costumbres",
+       "gloss": {
+        "en": "Comparing customs",
+        "it": "Confrontare usanze"
+       },
+       "focus": "comparar"
+      },
+      {
+       "id": "u28l3",
+       "title": "Cuando era joven",
+       "gloss": {
+        "en": "When I was young",
+        "it": "Quando ero giovane"
+       },
+       "focus": "repaso de imperfecto"
+      },
+      {
+       "id": "u28l4",
+       "title": "Lo mejor es...",
+       "gloss": {
+        "en": "The best thing is...",
+        "it": "La cosa migliore è..."
+       },
+       "focus": "lo + adjetivo"
+      },
+      {
+       "id": "u28l5",
+       "title": "Te recomiendo",
+       "gloss": {
+        "en": "I recommend",
+        "it": "Ti consiglio"
+       },
+       "focus": "recomendar"
+      }
+     ],
+     "boss": {
+      "id": "u28boss",
+      "title": "Guía por un día",
+      "gloss": {
+       "en": "Show a visitor around your city and tell its stories.",
+       "it": "Fai da guida a un visitatore e racconta le storie della città."
+      }
+     }
+    }
+   ],
+   "checkpoint": {
+    "id": "level4check",
+    "title": "Examen de Historia",
+    "gloss": {
+     "en": "Tell a 90-second story and answer questions about it.",
+     "it": "Racconta una storia di 90 secondi e rispondi alle domande."
+    }
+   }
+  },
+  {
+   "id": "level5",
+   "number": 5,
+   "cefr": "B1–B2",
+   "name": "Fluidez",
+   "gloss": {
+    "en": "Flow",
+    "it": "Fluidità"
+   },
+   "canDo": {
+    "en": "Argue an opinion, negotiate and handle a problem by phone.",
+    "it": "Argomentare un'opinione, negoziare e risolvere un problema al telefono."
+   },
+   "units": [
+    {
+     "id": "u29",
+     "number": 29,
+     "title": "El futuro",
+     "gloss": {
+      "en": "The future",
+      "it": "Il futuro"
+     },
+     "grammar": [
+      "futuro simple",
+      "futuro de probabilidad"
+     ],
+     "connectors": [
+      "cuando",
+      "seguramente"
+     ],
+     "lessons": [
+      {
+       "id": "u29l1",
+       "title": "Hablaré",
+       "gloss": {
+        "en": "I will speak",
+        "it": "Parlerò"
+       },
+       "focus": "futuro regular"
+      },
+      {
+       "id": "u29l2",
+       "title": "Tendré, haré, podré",
+       "gloss": {
+        "en": "I'll have, do, be able",
+        "it": "Avrò, farò, potrò"
+       },
+       "focus": "futuro irregular"
+      },
+      {
+       "id": "u29l3",
+       "title": "Serán las tres",
+       "gloss": {
+        "en": "It must be three",
+        "it": "Saranno le tre"
+       },
+       "focus": "probabilidad"
+      },
+      {
+       "id": "u29l4",
+       "title": "Planes y predicciones",
+       "gloss": {
+        "en": "Plans and predictions",
+        "it": "Piani e previsioni"
+       },
+       "focus": "ir a vs futuro"
+      },
+      {
+       "id": "u29l5",
+       "title": "Mi vida en diez años",
+       "gloss": {
+        "en": "My life in ten years",
+        "it": "La mia vita tra dieci anni"
+       },
+       "focus": "repaso"
+      }
+     ],
+     "boss": {
+      "id": "u29boss",
+      "title": "Plan de vida",
+      "gloss": {
+       "en": "Talk through your five-year plan with a life coach.",
+       "it": "Parla del tuo piano a cinque anni con un life coach."
+      }
+     }
+    },
+    {
+     "id": "u30",
+     "number": 30,
+     "title": "Imperativo",
+     "gloss": {
+      "en": "Imperative",
+      "it": "Imperativo"
+     },
+     "grammar": [
+      "imperativo afirmativo y negativo"
+     ],
+     "connectors": [
+      "primero",
+      "luego",
+      "al final"
+     ],
+     "lessons": [
+      {
+       "id": "u30l1",
+       "title": "Habla, come, escribe",
+       "gloss": {
+        "en": "Speak, eat, write",
+        "it": "Parla, mangia, scrivi"
+       },
+       "focus": "tú afirmativo"
+      },
+      {
+       "id": "u30l2",
+       "title": "Hable, coma",
+       "gloss": {
+        "en": "Speak, eat (formal)",
+        "it": "Parli, mangi"
+       },
+       "focus": "usted"
+      },
+      {
+       "id": "u30l3",
+       "title": "No hables",
+       "gloss": {
+        "en": "Don't speak",
+        "it": "Non parlare"
+       },
+       "focus": "negativo"
+      },
+      {
+       "id": "u30l4",
+       "title": "Dímelo",
+       "gloss": {
+        "en": "Tell me",
+        "it": "Dimmelo"
+       },
+       "focus": "con pronombres"
+      },
+      {
+       "id": "u30l5",
+       "title": "Recetas",
+       "gloss": {
+        "en": "Recipes",
+        "it": "Ricette"
+       },
+       "focus": "instrucciones"
+      }
+     ],
+     "boss": {
+      "id": "u30boss",
+      "title": "Clase de cocina",
+      "gloss": {
+       "en": "Teach a friend to cook your favourite dish.",
+       "it": "Insegna a un amico a cucinare il tuo piatto preferito."
+      }
+     }
+    },
+    {
+     "id": "u31",
+     "number": 31,
+     "title": "Deseos",
+     "gloss": {
+      "en": "Wishes",
+      "it": "Desideri"
+     },
+     "grammar": [
+      "presente de subjuntivo"
+     ],
+     "connectors": [
+      "ojalá",
+      "que"
+     ],
+     "lessons": [
+      {
+       "id": "u31l1",
+       "title": "Quiero que vengas",
+       "gloss": {
+        "en": "I want you to come",
+        "it": "Voglio che tu venga"
+       },
+       "focus": "querer que"
+      },
+      {
+       "id": "u31l2",
+       "title": "Espero que...",
+       "gloss": {
+        "en": "I hope that...",
+        "it": "Spero che..."
+       },
+       "focus": "esperar que"
+      },
+      {
+       "id": "u31l3",
+       "title": "Ojalá",
+       "gloss": {
+        "en": "I hope / if only",
+        "it": "Magari"
+       },
+       "focus": "ojalá"
+      },
+      {
+       "id": "u31l4",
+       "title": "Formas regulares",
+       "gloss": {
+        "en": "Regular forms",
+        "it": "Forme regolari"
+       },
+       "focus": "-e / -a"
+      },
+      {
+       "id": "u31l5",
+       "title": "Sea, vaya, tenga",
+       "gloss": {
+        "en": "Irregular forms",
+        "it": "Forme irregolari"
+       },
+       "focus": "irregulares"
+      }
+     ],
+     "boss": {
+      "id": "u31boss",
+      "title": "El brindis",
+      "gloss": {
+       "en": "Give a toast at a friend's wedding.",
+       "it": "Fai un brindisi al matrimonio di un amico."
+      }
+     }
+    },
+    {
+     "id": "u32",
+     "number": 32,
+     "title": "Emociones y dudas",
+     "gloss": {
+      "en": "Feelings and doubts",
+      "it": "Emozioni e dubbi"
+     },
+     "grammar": [
+      "subjuntivo con emoción, valoración y duda"
+     ],
+     "connectors": [
+      "quizás",
+      "tal vez"
+     ],
+     "lessons": [
+      {
+       "id": "u32l1",
+       "title": "Me alegra que",
+       "gloss": {
+        "en": "I'm glad that",
+        "it": "Sono contento che"
+       },
+       "focus": "emoción"
+      },
+      {
+       "id": "u32l2",
+       "title": "Es importante que",
+       "gloss": {
+        "en": "It's important that",
+        "it": "È importante che"
+       },
+       "focus": "valoración"
+      },
+      {
+       "id": "u32l3",
+       "title": "No creo que",
+       "gloss": {
+        "en": "I don't think that",
+        "it": "Non credo che"
+       },
+       "focus": "negación de opinión"
+      },
+      {
+       "id": "u32l4",
+       "title": "Dudo que",
+       "gloss": {
+        "en": "I doubt that",
+        "it": "Dubito che"
+       },
+       "focus": "duda"
+      },
+      {
+       "id": "u32l5",
+       "title": "Es posible que",
+       "gloss": {
+        "en": "It's possible that",
+        "it": "È possibile che"
+       },
+       "focus": "probabilidad"
+      }
+     ],
+     "boss": {
+      "id": "u32boss",
+      "title": "Consejos para un amigo",
+      "gloss": {
+       "en": "Help a friend decide whether to change jobs.",
+       "it": "Aiuta un amico a decidere se cambiare lavoro."
+      }
+     }
+    },
+    {
+     "id": "u33",
+     "number": 33,
+     "title": "Para que",
+     "gloss": {
+      "en": "So that",
+      "it": "Affinché"
+     },
+     "grammar": [
+      "subjuntivo en oraciones temporales y finales"
+     ],
+     "connectors": [
+      "para que",
+      "cuando",
+      "antes de que",
+      "a menos que",
+      "hasta que"
+     ],
+     "lessons": [
+      {
+       "id": "u33l1",
+       "title": "Para que",
+       "gloss": {
+        "en": "So that",
+        "it": "Affinché"
+       },
+       "focus": "finalidad"
+      },
+      {
+       "id": "u33l2",
+       "title": "Cuando llegues",
+       "gloss": {
+        "en": "When you arrive",
+        "it": "Quando arrivi"
+       },
+       "focus": "cuando + subjuntivo"
+      },
+      {
+       "id": "u33l3",
+       "title": "Antes de que",
+       "gloss": {
+        "en": "Before",
+        "it": "Prima che"
+       },
+       "focus": "anterioridad"
+      },
+      {
+       "id": "u33l4",
+       "title": "A menos que",
+       "gloss": {
+        "en": "Unless",
+        "it": "A meno che"
+       },
+       "focus": "condición"
+      },
+      {
+       "id": "u33l5",
+       "title": "Hasta que",
+       "gloss": {
+        "en": "Until",
+        "it": "Finché"
+       },
+       "focus": "límite"
+      }
+     ],
+     "boss": {
+      "id": "u33boss",
+      "title": "Negociar con el casero",
+      "gloss": {
+       "en": "Negotiate repairs and rent with your landlord.",
+       "it": "Negozia riparazioni e affitto con il padrone di casa."
+      }
+     }
+    },
+    {
+     "id": "u34",
+     "number": 34,
+     "title": "Condicional",
+     "gloss": {
+      "en": "Conditional",
+      "it": "Condizionale"
+     },
+     "grammar": [
+      "condicional",
+      "si + presente"
+     ],
+     "connectors": [
+      "si",
+      "en ese caso"
+     ],
+     "lessons": [
+      {
+       "id": "u34l1",
+       "title": "Me gustaría",
+       "gloss": {
+        "en": "I would like",
+        "it": "Mi piacerebbe"
+       },
+       "focus": "deseos corteses"
+      },
+      {
+       "id": "u34l2",
+       "title": "Podría, debería",
+       "gloss": {
+        "en": "Could, should",
+        "it": "Potrei, dovrei"
+       },
+       "focus": "sugerencias"
+      },
+      {
+       "id": "u34l3",
+       "title": "Yo que tú",
+       "gloss": {
+        "en": "If I were you",
+        "it": "Se fossi in te"
+       },
+       "focus": "consejos"
+      },
+      {
+       "id": "u34l4",
+       "title": "Si tengo tiempo, voy",
+       "gloss": {
+        "en": "If I have time, I'll go",
+        "it": "Se ho tempo, vado"
+       },
+       "focus": "condición real"
+      },
+      {
+       "id": "u34l5",
+       "title": "¿Le importaría...?",
+       "gloss": {
+        "en": "Would you mind...?",
+        "it": "Le dispiacerebbe...?"
+       },
+       "focus": "cortesía"
+      }
+     ],
+     "boss": {
+      "id": "u34boss",
+      "title": "La reclamación",
+      "gloss": {
+       "en": "Get a refund for a broken product, politely but firmly.",
+       "it": "Ottieni un rimborso per un prodotto rotto, con gentilezza e fermezza."
+      }
+     }
+    },
+    {
+     "id": "u35",
+     "number": 35,
+     "title": "Argumentar",
+     "gloss": {
+      "en": "Arguing a point",
+      "it": "Argomentare"
+     },
+     "grammar": [
+      "estructura del argumento"
+     ],
+     "connectors": [
+      "en cambio",
+      "o sea",
+      "es decir",
+      "por un lado",
+      "por otro"
+     ],
+     "lessons": [
+      {
+       "id": "u35l1",
+       "title": "En cambio",
+       "gloss": {
+        "en": "On the other hand",
+        "it": "Invece"
+       },
+       "focus": "contraste"
+      },
+      {
+       "id": "u35l2",
+       "title": "O sea, es decir",
+       "gloss": {
+        "en": "That is",
+        "it": "Cioè"
+       },
+       "focus": "reformular"
+      },
+      {
+       "id": "u35l3",
+       "title": "Por un lado, por otro",
+       "gloss": {
+        "en": "On one hand, on the other",
+        "it": "Da un lato, dall'altro"
+       },
+       "focus": "equilibrio"
+      },
+      {
+       "id": "u35l4",
+       "title": "Por ejemplo",
+       "gloss": {
+        "en": "For example",
+        "it": "Per esempio"
+       },
+       "focus": "ejemplificar"
+      },
+      {
+       "id": "u35l5",
+       "title": "En conclusión",
+       "gloss": {
+        "en": "In conclusion",
+        "it": "In conclusione"
+       },
+       "focus": "concluir"
+      }
+     ],
+     "boss": {
+      "id": "u35boss",
+      "title": "Ciudad o pueblo",
+      "gloss": {
+       "en": "Debate: city life or village life.",
+       "it": "Dibattito: vita in città o in paese."
+      }
+     }
+    },
+    {
+     "id": "u36",
+     "number": 36,
+     "title": "Al teléfono",
+     "gloss": {
+      "en": "On the phone",
+      "it": "Al telefono"
+     },
+     "grammar": [
+      "registro telefónico"
+     ],
+     "connectors": [
+      "entonces",
+      "o sea"
+     ],
+     "lessons": [
+      {
+       "id": "u36l1",
+       "title": "¿Diga?",
+       "gloss": {
+        "en": "Hello?",
+        "it": "Pronto?"
+       },
+       "focus": "contestar y presentarse"
+      },
+      {
+       "id": "u36l2",
+       "title": "Dejar un mensaje",
+       "gloss": {
+        "en": "Leaving a message",
+        "it": "Lasciare un messaggio"
+       },
+       "focus": "recados"
+      },
+      {
+       "id": "u36l3",
+       "title": "¿Me lo repite?",
+       "gloss": {
+        "en": "Could you repeat?",
+        "it": "Me lo ripete?"
+       },
+       "focus": "entender rápido"
+      },
+      {
+       "id": "u36l4",
+       "title": "Resolver el problema",
+       "gloss": {
+        "en": "Solving the problem",
+        "it": "Risolvere il problema"
+       },
+       "focus": "gestiones"
+      },
+      {
+       "id": "u36l5",
+       "title": "Despedirse",
+       "gloss": {
+        "en": "Saying goodbye",
+        "it": "Salutare"
+       },
+       "focus": "cerrar la llamada"
+      }
+     ],
+     "boss": {
+      "id": "u36boss",
+      "title": "La compañía de internet",
+      "gloss": {
+       "en": "Fix your internet contract in an audio-only call.",
+       "it": "Sistema il contratto internet in una chiamata solo audio."
+      }
+     }
+    }
+   ],
+   "checkpoint": {
+    "id": "level5check",
+    "title": "Examen de Fluidez",
+    "gloss": {
+     "en": "Argue, negotiate and solve a problem in an audio-only call.",
+     "it": "Argomenta, negozia e risolvi un problema in una chiamata solo audio."
+    }
+   }
+  },
+  {
+   "id": "level6",
+   "number": 6,
+   "cefr": "B2",
+   "name": "Matiz",
+   "gloss": {
+    "en": "Nuance",
+    "it": "Sfumatura"
+   },
+   "canDo": {
+    "en": "Discuss hypotheses, report what others said and argue with nuance.",
+    "it": "Discutere ipotesi, riferire cosa hanno detto altri e argomentare con sfumature."
+   },
+   "units": [
+    {
+     "id": "u37",
+     "number": 37,
+     "title": "Si tuviera",
+     "gloss": {
+      "en": "If I had",
+      "it": "Se avessi"
+     },
+     "grammar": [
+      "imperfecto de subjuntivo",
+      "si + imperfecto de subjuntivo"
+     ],
+     "connectors": [
+      "si",
+      "como si",
+      "ojalá"
+     ],
+     "lessons": [
+      {
+       "id": "u37l1",
+       "title": "Hablara, comiera",
+       "gloss": {
+        "en": "Imperfect subjunctive",
+        "it": "Congiuntivo imperfetto"
+       },
+       "focus": "formas"
+      },
+      {
+       "id": "u37l2",
+       "title": "Si tuviera dinero",
+       "gloss": {
+        "en": "If I had money",
+        "it": "Se avessi soldi"
+       },
+       "focus": "condición irreal"
+      },
+      {
+       "id": "u37l3",
+       "title": "Ojalá pudiera",
+       "gloss": {
+        "en": "I wish I could",
+        "it": "Magari potessi"
+       },
+       "focus": "deseos imposibles"
+      },
+      {
+       "id": "u37l4",
+       "title": "Como si",
+       "gloss": {
+        "en": "As if",
+        "it": "Come se"
+       },
+       "focus": "comparación irreal"
+      },
+      {
+       "id": "u37l5",
+       "title": "Quería que vinieras",
+       "gloss": {
+        "en": "I wanted you to come",
+        "it": "Volevo che venissi"
+       },
+       "focus": "concordancia de tiempos"
+      }
+     ],
+     "boss": {
+      "id": "u37boss",
+      "title": "Ganar la lotería",
+      "gloss": {
+       "en": "A radio interview: what would you do with the prize?",
+       "it": "Un'intervista radio: cosa faresti con il premio?"
+      }
+     }
+    },
+    {
+     "id": "u38",
+     "number": 38,
+     "title": "Estilo indirecto",
+     "gloss": {
+      "en": "Reported speech",
+      "it": "Discorso indiretto"
+     },
+     "grammar": [
+      "estilo indirecto"
+     ],
+     "connectors": [
+      "que",
+      "si"
+     ],
+     "lessons": [
+      {
+       "id": "u38l1",
+       "title": "Dice que...",
+       "gloss": {
+        "en": "She says that...",
+        "it": "Dice che..."
+       },
+       "focus": "presente"
+      },
+      {
+       "id": "u38l2",
+       "title": "Dijo que venía",
+       "gloss": {
+        "en": "She said she was coming",
+        "it": "Ha detto che veniva"
+       },
+       "focus": "cambio de tiempos"
+      },
+      {
+       "id": "u38l3",
+       "title": "Me pidió que",
+       "gloss": {
+        "en": "He asked me to",
+        "it": "Mi ha chiesto di"
+       },
+       "focus": "peticiones"
+      },
+      {
+       "id": "u38l4",
+       "title": "Preguntó si",
+       "gloss": {
+        "en": "She asked whether",
+        "it": "Ha chiesto se"
+       },
+       "focus": "preguntas"
+      },
+      {
+       "id": "u38l5",
+       "title": "Contar una conversación",
+       "gloss": {
+        "en": "Retelling a conversation",
+        "it": "Raccontare una conversazione"
+       },
+       "focus": "repaso"
+      }
+     ],
+     "boss": {
+      "id": "u38boss",
+      "title": "El chisme de la oficina",
+      "gloss": {
+       "en": "Retell an office conversation accurately.",
+       "it": "Riferisci con precisione una conversazione in ufficio."
+      }
+     }
+    },
+    {
+     "id": "u39",
+     "number": 39,
+     "title": "Relativos",
+     "gloss": {
+      "en": "Relative clauses",
+      "it": "Relative"
+     },
+     "grammar": [
+      "pronombres relativos"
+     ],
+     "connectors": [
+      "que",
+      "donde",
+      "cuyo"
+     ],
+     "lessons": [
+      {
+       "id": "u39l1",
+       "title": "Que y quien",
+       "gloss": {
+        "en": "That and who",
+        "it": "Che e chi"
+       },
+       "focus": "básicos"
+      },
+      {
+       "id": "u39l2",
+       "title": "El que, lo que",
+       "gloss": {
+        "en": "The one that, what",
+        "it": "Quello che, ciò che"
+       },
+       "focus": "con artículo"
+      },
+      {
+       "id": "u39l3",
+       "title": "Donde, cuando, como",
+       "gloss": {
+        "en": "Where, when, how",
+        "it": "Dove, quando, come"
+       },
+       "focus": "relativos adverbiales"
+      },
+      {
+       "id": "u39l4",
+       "title": "Cuyo",
+       "gloss": {
+        "en": "Whose",
+        "it": "Il cui"
+       },
+       "focus": "posesión"
+      },
+      {
+       "id": "u39l5",
+       "title": "Busco a alguien que sepa",
+       "gloss": {
+        "en": "I'm looking for someone who knows",
+        "it": "Cerco qualcuno che sappia"
+       },
+       "focus": "relativo + subjuntivo"
+      }
+     ],
+     "boss": {
+      "id": "u39boss",
+      "title": "El juego de las definiciones",
+      "gloss": {
+       "en": "Make your team guess words without saying them.",
+       "it": "Fai indovinare parole alla tua squadra senza dirle."
+      }
+     }
+    },
+    {
+     "id": "u40",
+     "number": 40,
+     "title": "Pasiva y se",
+     "gloss": {
+      "en": "Passive and se",
+      "it": "Passivo e si"
+     },
+     "grammar": [
+      "voz pasiva",
+      "pasiva refleja"
+     ],
+     "connectors": [
+      "según",
+      "por lo visto"
+     ],
+     "lessons": [
+      {
+       "id": "u40l1",
+       "title": "Fue construido",
+       "gloss": {
+        "en": "It was built",
+        "it": "Fu costruito"
+       },
+       "focus": "ser + participio"
+      },
+      {
+       "id": "u40l2",
+       "title": "Se venden pisos",
+       "gloss": {
+        "en": "Flats for sale",
+        "it": "Si vendono appartamenti"
+       },
+       "focus": "pasiva refleja"
+      },
+      {
+       "id": "u40l3",
+       "title": "Se dice que",
+       "gloss": {
+        "en": "It is said that",
+        "it": "Si dice che"
+       },
+       "focus": "impersonal"
+      },
+      {
+       "id": "u40l4",
+       "title": "Las noticias",
+       "gloss": {
+        "en": "The news",
+        "it": "Le notizie"
+       },
+       "focus": "titulares"
+      },
+      {
+       "id": "u40l5",
+       "title": "Cómo se hace",
+       "gloss": {
+        "en": "How it's done",
+        "it": "Come si fa"
+       },
+       "focus": "procesos"
+      }
+     ],
+     "boss": {
+      "id": "u40boss",
+      "title": "Las noticias de la radio",
+      "gloss": {
+       "en": "Present three news stories on air.",
+       "it": "Presenta tre notizie in diretta radio."
+      }
+     }
+    },
+    {
+     "id": "u41",
+     "number": 41,
+     "title": "Perífrasis",
+     "gloss": {
+      "en": "Verb phrases",
+      "it": "Perifrasi"
+     },
+     "grammar": [
+      "perífrasis verbales"
+     ],
+     "connectors": [
+      "todavía",
+      "ya no"
+     ],
+     "lessons": [
+      {
+       "id": "u41l1",
+       "title": "Acabar de, volver a",
+       "gloss": {
+        "en": "To have just, to do again",
+        "it": "Avere appena, rifare"
+       },
+       "focus": "acabar de, volver a"
+      },
+      {
+       "id": "u41l2",
+       "title": "Seguir y llevar",
+       "gloss": {
+        "en": "To keep, to have been",
+        "it": "Continuare, da tempo"
+       },
+       "focus": "seguir / llevar + gerundio"
+      },
+      {
+       "id": "u41l3",
+       "title": "Dejar de, ponerse a",
+       "gloss": {
+        "en": "To stop, to start",
+        "it": "Smettere, mettersi a"
+       },
+       "focus": "inicio y fin"
+      },
+      {
+       "id": "u41l4",
+       "title": "Estar a punto de",
+       "gloss": {
+        "en": "To be about to",
+        "it": "Stare per"
+       },
+       "focus": "inminencia"
+      },
+      {
+       "id": "u41l5",
+       "title": "Hay que, tener que, deber",
+       "gloss": {
+        "en": "Must and have to",
+        "it": "Bisogna, dovere"
+       },
+       "focus": "obligación"
+      }
+     ],
+     "boss": {
+      "id": "u41boss",
+      "title": "Cambio de vida",
+      "gloss": {
+       "en": "Tell a friend about the big change you just made.",
+       "it": "Racconta a un amico il grande cambiamento che hai appena fatto."
+      }
+     }
+    },
+    {
+     "id": "u42",
+     "number": 42,
+     "title": "Conectores avanzados",
+     "gloss": {
+      "en": "Advanced connectors",
+      "it": "Connettivi avanzati"
+     },
+     "grammar": [
+      "causa, consecuencia y concesión"
+     ],
+     "connectors": [
+      "ya que",
+      "puesto que",
+      "por lo tanto",
+      "a pesar de que",
+      "siempre que",
+      "no obstante"
+     ],
+     "lessons": [
+      {
+       "id": "u42l1",
+       "title": "Ya que, puesto que",
+       "gloss": {
+        "en": "Since",
+        "it": "Dato che, poiché"
+       },
+       "focus": "causa"
+      },
+      {
+       "id": "u42l2",
+       "title": "Por lo tanto",
+       "gloss": {
+        "en": "Therefore",
+        "it": "Pertanto"
+       },
+       "focus": "consecuencia"
+      },
+      {
+       "id": "u42l3",
+       "title": "A pesar de que",
+       "gloss": {
+        "en": "Despite",
+        "it": "Nonostante"
+       },
+       "focus": "concesión"
+      },
+      {
+       "id": "u42l4",
+       "title": "Siempre que",
+       "gloss": {
+        "en": "As long as",
+        "it": "Purché"
+       },
+       "focus": "condición"
+      },
+      {
+       "id": "u42l5",
+       "title": "No obstante",
+       "gloss": {
+        "en": "Nevertheless",
+        "it": "Tuttavia"
+       },
+       "focus": "contraste formal"
+      }
+     ],
+     "boss": {
+      "id": "u42boss",
+      "title": "Presentar un proyecto",
+      "gloss": {
+       "en": "Pitch a project to a panel and answer objections.",
+       "it": "Presenta un progetto a una commissione e rispondi alle obiezioni."
+      }
+     }
+    },
+    {
+     "id": "u43",
+     "number": 43,
+     "title": "Hipótesis en el pasado",
+     "gloss": {
+      "en": "Past hypotheses",
+      "it": "Ipotesi nel passato"
+     },
+     "grammar": [
+      "pluscuamperfecto de subjuntivo",
+      "condicional compuesto"
+     ],
+     "connectors": [
+      "si",
+      "de haberlo sabido"
+     ],
+     "lessons": [
+      {
+       "id": "u43l1",
+       "title": "Hubiera hecho",
+       "gloss": {
+        "en": "I would have done",
+        "it": "Avessi fatto"
+       },
+       "focus": "pluscuamperfecto de subjuntivo"
+      },
+      {
+       "id": "u43l2",
+       "title": "Habría ido",
+       "gloss": {
+        "en": "I would have gone",
+        "it": "Sarei andato"
+       },
+       "focus": "condicional compuesto"
+      },
+      {
+       "id": "u43l3",
+       "title": "Si hubiera sabido",
+       "gloss": {
+        "en": "If I had known",
+        "it": "Se avessi saputo"
+       },
+       "focus": "condición pasada"
+      },
+      {
+       "id": "u43l4",
+       "title": "Me arrepiento",
+       "gloss": {
+        "en": "I regret",
+        "it": "Mi pento"
+       },
+       "focus": "lamentos"
+      },
+      {
+       "id": "u43l5",
+       "title": "Deberías haber...",
+       "gloss": {
+        "en": "You should have...",
+        "it": "Avresti dovuto..."
+       },
+       "focus": "reproches suaves"
+      }
+     ],
+     "boss": {
+      "id": "u43boss",
+      "title": "La segunda oportunidad",
+      "gloss": {
+       "en": "Talk through a decision you would make differently.",
+       "it": "Parla di una decisione che prenderesti in modo diverso."
+      }
+     }
+    }
+   ],
+   "checkpoint": {
+    "id": "level6check",
+    "title": "Examen de Matiz",
+    "gloss": {
+     "en": "A nuanced debate plus retelling a conversation you heard.",
+     "it": "Un dibattito con sfumature e il racconto di una conversazione ascoltata."
+    }
+   }
+  },
+  {
+   "id": "level7",
+   "number": 7,
+   "cefr": "C1",
+   "name": "Dominio",
+   "gloss": {
+    "en": "Command",
+    "it": "Padronanza"
+   },
+   "canDo": {
+    "en": "Switch register at will, sound natural and write professionally.",
+    "it": "Cambiare registro a piacere, suonare naturale e scrivere in modo professionale."
+   },
+   "units": [
+    {
+     "id": "u44",
+     "number": 44,
+     "title": "Registro",
+     "gloss": {
+      "en": "Register",
+      "it": "Registro"
+     },
+     "grammar": [
+      "tú, usted, vos",
+      "atenuación"
+     ],
+     "connectors": [
+      "quería",
+      "si no es molestia"
+     ],
+     "lessons": [
+      {
+       "id": "u44l1",
+       "title": "Tú, usted, vos",
+       "gloss": {
+        "en": "Ways to say you",
+        "it": "Tu, Lei, vos"
+       },
+       "focus": "tratamiento"
+      },
+      {
+       "id": "u44l2",
+       "title": "Formal o coloquial",
+       "gloss": {
+        "en": "Formal or casual",
+        "it": "Formale o colloquiale"
+       },
+       "focus": "registro"
+      },
+      {
+       "id": "u44l3",
+       "title": "Correos profesionales",
+       "gloss": {
+        "en": "Professional emails",
+        "it": "Email professionali"
+       },
+       "focus": "escritura"
+      },
+      {
+       "id": "u44l4",
+       "title": "Quería pedirte",
+       "gloss": {
+        "en": "I wanted to ask you",
+        "it": "Volevo chiederti"
+       },
+       "focus": "atenuar"
+      },
+      {
+       "id": "u44l5",
+       "title": "Cambiar de registro",
+       "gloss": {
+        "en": "Switching register",
+        "it": "Cambiare registro"
+       },
+       "focus": "práctica"
+      }
+     ],
+     "boss": {
+      "id": "u44boss",
+      "title": "Reunión con la directora",
+      "gloss": {
+       "en": "Ask your director for a raise.",
+       "it": "Chiedi un aumento alla direttrice."
+      }
+     }
+    },
+    {
+     "id": "u45",
+     "number": 45,
+     "title": "Marcadores",
+     "gloss": {
+      "en": "Discourse markers",
+      "it": "Segnali discorsivi"
+     },
+     "grammar": [
+      "marcadores conversacionales"
+     ],
+     "connectors": [
+      "pues",
+      "bueno",
+      "en fin",
+      "de hecho",
+      "encima"
+     ],
+     "lessons": [
+      {
+       "id": "u45l1",
+       "title": "Pues, bueno, vamos",
+       "gloss": {
+        "en": "Well, so",
+        "it": "Beh, dunque"
+       },
+       "focus": "muletillas"
+      },
+      {
+       "id": "u45l2",
+       "title": "Es que...",
+       "gloss": {
+        "en": "The thing is...",
+        "it": "È che..."
+       },
+       "focus": "justificar"
+      },
+      {
+       "id": "u45l3",
+       "title": "De hecho",
+       "gloss": {
+        "en": "In fact",
+        "it": "In effetti"
+       },
+       "focus": "matizar"
+      },
+      {
+       "id": "u45l4",
+       "title": "Encima, para colmo",
+       "gloss": {
+        "en": "On top of that",
+        "it": "Per di più"
+       },
+       "focus": "intensificar"
+      },
+      {
+       "id": "u45l5",
+       "title": "En fin",
+       "gloss": {
+        "en": "Anyway",
+        "it": "Insomma"
+       },
+       "focus": "cerrar un tema"
+      }
+     ],
+     "boss": {
+      "id": "u45boss",
+      "title": "Cena con amigos",
+      "gloss": {
+       "en": "Keep a lively dinner conversation going naturally.",
+       "it": "Tieni viva in modo naturale una conversazione a cena."
+      }
+     }
+    },
+    {
+     "id": "u46",
+     "number": 46,
+     "title": "Expresiones",
+     "gloss": {
+      "en": "Idioms",
+      "it": "Modi di dire"
+     },
+     "grammar": [
+      "expresiones idiomáticas"
+     ],
+     "connectors": [
+      "como quien dice"
+     ],
+     "lessons": [
+      {
+       "id": "u46l1",
+       "title": "Estar en las nubes",
+       "gloss": {
+        "en": "Head in the clouds",
+        "it": "Avere la testa tra le nuvole"
+       },
+       "focus": "estados"
+      },
+      {
+       "id": "u46l2",
+       "title": "Tomar el pelo",
+       "gloss": {
+        "en": "To pull someone's leg",
+        "it": "Prendere in giro"
+       },
+       "focus": "relaciones"
+      },
+      {
+       "id": "u46l3",
+       "title": "Costar un ojo de la cara",
+       "gloss": {
+        "en": "To cost an arm and a leg",
+        "it": "Costare un occhio della testa"
+       },
+       "focus": "dinero"
+      },
+      {
+       "id": "u46l4",
+       "title": "Ponerse las pilas",
+       "gloss": {
+        "en": "To get your act together",
+        "it": "Darsi una mossa"
+       },
+       "focus": "acción"
+      },
+      {
+       "id": "u46l5",
+       "title": "En su contexto",
+       "gloss": {
+        "en": "In context",
+        "it": "Nel loro contesto"
+       },
+       "focus": "uso"
+      }
+     ],
+     "boss": {
+      "id": "u46boss",
+      "title": "Tertulia",
+      "gloss": {
+       "en": "Join a lively round-table chat full of idioms.",
+       "it": "Partecipa a una tavola rotonda piena di modi di dire."
+      }
+     }
+    },
+    {
+     "id": "u47",
+     "number": 47,
+     "title": "Subjuntivo fino",
+     "gloss": {
+      "en": "Fine-tuned subjunctive",
+      "it": "Congiuntivo raffinato"
+     },
+     "grammar": [
+      "alternancia indicativo / subjuntivo"
+     ],
+     "connectors": [
+      "aunque",
+      "por mucho que",
+      "el hecho de que"
+     ],
+     "lessons": [
+      {
+       "id": "u47l1",
+       "title": "Aunque llueve / llueva",
+       "gloss": {
+        "en": "Although it rains",
+        "it": "Anche se piove"
+       },
+       "focus": "aunque + modo"
+      },
+      {
+       "id": "u47l2",
+       "title": "El hecho de que",
+       "gloss": {
+        "en": "The fact that",
+        "it": "Il fatto che"
+       },
+       "focus": "subjuntivo"
+      },
+      {
+       "id": "u47l3",
+       "title": "Lo que quieras",
+       "gloss": {
+        "en": "Whatever you want",
+        "it": "Quello che vuoi"
+       },
+       "focus": "relativas abiertas"
+      },
+      {
+       "id": "u47l4",
+       "title": "Por mucho que",
+       "gloss": {
+        "en": "However much",
+        "it": "Per quanto"
+       },
+       "focus": "concesión intensiva"
+      },
+      {
+       "id": "u47l5",
+       "title": "¿Indicativo o subjuntivo?",
+       "gloss": {
+        "en": "Indicative or subjunctive?",
+        "it": "Indicativo o congiuntivo?"
+       },
+       "focus": "contraste"
+      }
+     ],
+     "boss": {
+      "id": "u47boss",
+      "title": "Mediación",
+      "gloss": {
+       "en": "Mediate a conflict between two colleagues.",
+       "it": "Fai da mediatore in un conflitto tra due colleghi."
+      }
+     }
+    },
+    {
+     "id": "u48",
+     "number": 48,
+     "title": "Variedades del español",
+     "gloss": {
+      "en": "Varieties of Spanish",
+      "it": "Varietà dello spagnolo"
+     },
+     "grammar": [
+      "variación regional",
+      "voseo"
+     ],
+     "connectors": [
+      "che",
+      "órale",
+      "vale"
+     ],
+     "lessons": [
+      {
+       "id": "u48l1",
+       "title": "España, México, Argentina",
+       "gloss": {
+        "en": "Three Spanishes",
+        "it": "Tre spagnoli"
+       },
+       "focus": "panorama"
+      },
+      {
+       "id": "u48l2",
+       "title": "Vosotros y ustedes",
+       "gloss": {
+        "en": "You all, two ways",
+        "it": "Voi in due modi"
+       },
+       "focus": "plural"
+      },
+      {
+       "id": "u48l3",
+       "title": "Vos sabés",
+       "gloss": {
+        "en": "Voseo",
+        "it": "Voseo"
+       },
+       "focus": "voseo rioplatense"
+      },
+      {
+       "id": "u48l4",
+       "title": "Coche, carro, auto",
+       "gloss": {
+        "en": "Car, car, car",
+        "it": "Macchina in tre modi"
+       },
+       "focus": "léxico regional"
+      },
+      {
+       "id": "u48l5",
+       "title": "Entender acentos",
+       "gloss": {
+        "en": "Understanding accents",
+        "it": "Capire gli accenti"
+       },
+       "focus": "comprensión"
+      }
+     ],
+     "boss": {
+      "id": "u48boss",
+      "title": "Videollamada internacional",
+      "gloss": {
+       "en": "Join a call with people from three countries.",
+       "it": "Partecipa a una videochiamata con persone di tre paesi."
+      }
+     }
+    },
+    {
+     "id": "u49",
+     "number": 49,
+     "title": "Escribir bien",
+     "gloss": {
+      "en": "Writing well",
+      "it": "Scrivere bene"
+     },
+     "grammar": [
+      "cohesión",
+      "nominalización",
+      "puntuación"
+     ],
+     "connectors": [
+      "en primer lugar",
+      "asimismo",
+      "en definitiva"
+     ],
+     "lessons": [
+      {
+       "id": "u49l1",
+       "title": "Párrafos con cohesión",
+       "gloss": {
+        "en": "Cohesive paragraphs",
+        "it": "Paragrafi coesi"
+       },
+       "focus": "cohesión"
+      },
+      {
+       "id": "u49l2",
+       "title": "Nominalizar",
+       "gloss": {
+        "en": "Nominalising",
+        "it": "Nominalizzare"
+       },
+       "focus": "estilo"
+      },
+      {
+       "id": "u49l3",
+       "title": "La puntuación",
+       "gloss": {
+        "en": "Punctuation",
+        "it": "La punteggiatura"
+       },
+       "focus": "comas y puntos"
+      },
+      {
+       "id": "u49l4",
+       "title": "Resumir",
+       "gloss": {
+        "en": "Summarising",
+        "it": "Riassumere"
+       },
+       "focus": "síntesis"
+      },
+      {
+       "id": "u49l5",
+       "title": "Argumentar por escrito",
+       "gloss": {
+        "en": "Written argument",
+        "it": "Argomentare per iscritto"
+       },
+       "focus": "ensayo"
+      }
+     ],
+     "boss": {
+      "id": "u49boss",
+      "title": "Carta al ayuntamiento",
+      "gloss": {
+       "en": "Write a formal complaint to the city council.",
+       "it": "Scrivi un reclamo formale al comune."
+      }
+     }
+    },
+    {
+     "id": "u50",
+     "number": 50,
+     "title": "Español profesional",
+     "gloss": {
+      "en": "Professional Spanish",
+      "it": "Spagnolo professionale"
+     },
+     "grammar": [
+      "lenguaje profesional"
+     ],
+     "connectors": [
+      "en cuanto a",
+      "respecto a"
+     ],
+     "lessons": [
+      {
+       "id": "u50l1",
+       "title": "Presentaciones",
+       "gloss": {
+        "en": "Presentations",
+        "it": "Presentazioni"
+       },
+       "focus": "estructura"
+      },
+      {
+       "id": "u50l2",
+       "title": "Negociar",
+       "gloss": {
+        "en": "Negotiating",
+        "it": "Negoziare"
+       },
+       "focus": "ofertas"
+      },
+      {
+       "id": "u50l3",
+       "title": "Dar feedback",
+       "gloss": {
+        "en": "Giving feedback",
+        "it": "Dare feedback"
+       },
+       "focus": "cortesía"
+      },
+      {
+       "id": "u50l4",
+       "title": "Reuniones difíciles",
+       "gloss": {
+        "en": "Hard meetings",
+        "it": "Riunioni difficili"
+       },
+       "focus": "desacuerdo"
+      },
+      {
+       "id": "u50l5",
+       "title": "Networking",
+       "gloss": {
+        "en": "Networking",
+        "it": "Networking"
+       },
+       "focus": "presentarse"
+      }
+     ],
+     "boss": {
+      "id": "u50boss",
+      "title": "Cerrar un trato",
+      "gloss": {
+       "en": "Close a deal with a demanding client.",
+       "it": "Chiudi un accordo con un cliente esigente."
+      }
+     }
+    }
+   ],
+   "checkpoint": {
+    "id": "level7check",
+    "title": "Examen de Dominio",
+    "gloss": {
+     "en": "A 10-minute discussion plus a formal written piece.",
+     "it": "Una discussione di 10 minuti e un testo formale scritto."
+    }
+   }
+  },
+  {
+   "id": "level8",
+   "number": 8,
+   "cefr": "C2",
+   "name": "Maestría",
+   "gloss": {
+    "en": "Mastery",
+    "it": "Maestria"
+   },
+   "canDo": {
+    "en": "Speak and write with precision, humour and spontaneity on any topic.",
+    "it": "Parlare e scrivere con precisione, umorismo e spontaneità su qualsiasi tema."
+   },
+   "units": [
+    {
+     "id": "u51",
+     "number": 51,
+     "title": "Humor e ironía",
+     "gloss": {
+      "en": "Humour and irony",
+      "it": "Umorismo e ironia"
+     },
+     "grammar": [
+      "ironía",
+      "dobles sentidos"
+     ],
+     "connectors": [
+      "vamos",
+      "ni que"
+     ],
+     "lessons": [
+      {
+       "id": "u51l1",
+       "title": "La ironía",
+       "gloss": {
+        "en": "Irony",
+        "it": "L'ironia"
+       },
+       "focus": "entonación"
+      },
+      {
+       "id": "u51l2",
+       "title": "Dobles sentidos",
+       "gloss": {
+        "en": "Double meanings",
+        "it": "Doppi sensi"
+       },
+       "focus": "ambigüedad"
+      },
+      {
+       "id": "u51l3",
+       "title": "Contar un chiste",
+       "gloss": {
+        "en": "Telling a joke",
+        "it": "Raccontare una barzelletta"
+       },
+       "focus": "ritmo"
+      },
+      {
+       "id": "u51l4",
+       "title": "Sarcasmo cortés",
+       "gloss": {
+        "en": "Polite sarcasm",
+        "it": "Sarcasmo cortese"
+       },
+       "focus": "matiz"
+      },
+      {
+       "id": "u51l5",
+       "title": "Juegos de palabras",
+       "gloss": {
+        "en": "Wordplay",
+        "it": "Giochi di parole"
+       },
+       "focus": "creatividad"
+      }
+     ],
+     "boss": {
+      "id": "u51boss",
+      "title": "Monólogo",
+      "gloss": {
+       "en": "Perform a 2-minute comic monologue.",
+       "it": "Esegui un monologo comico di 2 minuti."
+      }
+     }
+    },
+    {
+     "id": "u52",
+     "number": 52,
+     "title": "Literatura",
+     "gloss": {
+      "en": "Literature",
+      "it": "Letteratura"
+     },
+     "grammar": [
+      "tiempos literarios",
+      "futuro de subjuntivo"
+     ],
+     "connectors": [
+      "así pues",
+      "por ende"
+     ],
+     "lessons": [
+      {
+       "id": "u52l1",
+       "title": "Cuentos cortos",
+       "gloss": {
+        "en": "Short stories",
+        "it": "Racconti brevi"
+       },
+       "focus": "lectura"
+      },
+      {
+       "id": "u52l2",
+       "title": "Poesía y ritmo",
+       "gloss": {
+        "en": "Poetry and rhythm",
+        "it": "Poesia e ritmo"
+       },
+       "focus": "métrica"
+      },
+      {
+       "id": "u52l3",
+       "title": "El narrador",
+       "gloss": {
+        "en": "The narrator",
+        "it": "Il narratore"
+       },
+       "focus": "punto de vista"
+      },
+      {
+       "id": "u52l4",
+       "title": "Quien fuere",
+       "gloss": {
+        "en": "Whoever it may be",
+        "it": "Chiunque sia"
+       },
+       "focus": "futuro de subjuntivo"
+      },
+      {
+       "id": "u52l5",
+       "title": "Comentar un texto",
+       "gloss": {
+        "en": "Commenting on a text",
+        "it": "Commentare un testo"
+       },
+       "focus": "análisis"
+      }
+     ],
+     "boss": {
+      "id": "u52boss",
+      "title": "Club de lectura",
+      "gloss": {
+       "en": "Lead a book club discussion.",
+       "it": "Guida la discussione di un club del libro."
+      }
+     }
+    },
+    {
+     "id": "u53",
+     "number": 53,
+     "title": "Medios y debate",
+     "gloss": {
+      "en": "Media and debate",
+      "it": "Media e dibattito"
+     },
+     "grammar": [
+      "lenguaje periodístico",
+      "refutación"
+     ],
+     "connectors": [
+      "ahora bien",
+      "cabe señalar"
+     ],
+     "lessons": [
+      {
+       "id": "u53l1",
+       "title": "Leer la prensa",
+       "gloss": {
+        "en": "Reading the press",
+        "it": "Leggere la stampa"
+       },
+       "focus": "géneros"
+      },
+      {
+       "id": "u53l2",
+       "title": "Sesgo y matiz",
+       "gloss": {
+        "en": "Bias and nuance",
+        "it": "Pregiudizio e sfumatura"
+       },
+       "focus": "análisis"
+      },
+      {
+       "id": "u53l3",
+       "title": "Discursos",
+       "gloss": {
+        "en": "Speeches",
+        "it": "Discorsi"
+       },
+       "focus": "retórica"
+      },
+      {
+       "id": "u53l4",
+       "title": "Refutar",
+       "gloss": {
+        "en": "Rebutting",
+        "it": "Confutare"
+       },
+       "focus": "argumentación"
+      },
+      {
+       "id": "u53l5",
+       "title": "Moderar",
+       "gloss": {
+        "en": "Moderating",
+        "it": "Moderare"
+       },
+       "focus": "turnos"
+      }
+     ],
+     "boss": {
+      "id": "u53boss",
+      "title": "Debate televisado",
+      "gloss": {
+       "en": "Hold your own in a live TV debate.",
+       "it": "Tieni testa in un dibattito televisivo in diretta."
+      }
+     }
+    },
+    {
+     "id": "u54",
+     "number": 54,
+     "title": "Precisión",
+     "gloss": {
+      "en": "Precision",
+      "it": "Precisione"
+     },
+     "grammar": [
+      "matiz léxico",
+      "colocaciones"
+     ],
+     "connectors": [
+      "en rigor",
+      "dicho de otro modo"
+     ],
+     "lessons": [
+      {
+       "id": "u54l1",
+       "title": "Sinónimos con matiz",
+       "gloss": {
+        "en": "Nuanced synonyms",
+        "it": "Sinonimi con sfumature"
+       },
+       "focus": "léxico"
+      },
+      {
+       "id": "u54l2",
+       "title": "Colocaciones",
+       "gloss": {
+        "en": "Collocations",
+        "it": "Collocazioni"
+       },
+       "focus": "combinaciones"
+      },
+      {
+       "id": "u54l3",
+       "title": "Falsos amigos",
+       "gloss": {
+        "en": "False friends",
+        "it": "Falsi amici"
+       },
+       "focus": "inglés e italiano"
+      },
+      {
+       "id": "u54l4",
+       "title": "Registro culto",
+       "gloss": {
+        "en": "Formal style",
+        "it": "Registro colto"
+       },
+       "focus": "estilo"
+      },
+      {
+       "id": "u54l5",
+       "title": "La palabra exacta",
+       "gloss": {
+        "en": "The exact word",
+        "it": "La parola esatta"
+       },
+       "focus": "precisión"
+      }
+     ],
+     "boss": {
+      "id": "u54boss",
+      "title": "Interpretar un discurso",
+      "gloss": {
+       "en": "Interpret a short speech between Spanish and your language.",
+       "it": "Interpreta un breve discorso tra lo spagnolo e la tua lingua."
+      }
+     }
+    },
+    {
+     "id": "u55",
+     "number": 55,
+     "title": "Espontaneidad",
+     "gloss": {
+      "en": "Spontaneity",
+      "it": "Spontaneità"
+     },
+     "grammar": [
+      "estrategias de conversación"
+     ],
+     "connectors": [
+      "a ver",
+      "o sea",
+      "digamos"
+     ],
+     "lessons": [
+      {
+       "id": "u55l1",
+       "title": "Improvisar",
+       "gloss": {
+        "en": "Improvising",
+        "it": "Improvvisare"
+       },
+       "focus": "respuesta rápida"
+      },
+      {
+       "id": "u55l2",
+       "title": "Interrumpir con educación",
+       "gloss": {
+        "en": "Interrupting politely",
+        "it": "Interrompere con educazione"
+       },
+       "focus": "turnos"
+      },
+      {
+       "id": "u55l3",
+       "title": "Reformular",
+       "gloss": {
+        "en": "Rephrasing",
+        "it": "Riformulare"
+       },
+       "focus": "estrategias"
+      },
+      {
+       "id": "u55l4",
+       "title": "Ganar tiempo",
+       "gloss": {
+        "en": "Buying time",
+        "it": "Prendere tempo"
+       },
+       "focus": "muletillas"
+      },
+      {
+       "id": "u55l5",
+       "title": "Contar anécdotas",
+       "gloss": {
+        "en": "Telling anecdotes",
+        "it": "Raccontare aneddoti"
+       },
+       "focus": "narración oral"
+      }
+     ],
+     "boss": {
+      "id": "u55boss",
+      "title": "Entrevista en directo",
+      "gloss": {
+       "en": "Answer unexpected questions in a live radio interview.",
+       "it": "Rispondi a domande inattese in un'intervista radio in diretta."
+      }
+     }
+    },
+    {
+     "id": "u56",
+     "number": 56,
+     "title": "Proyecto final",
+     "gloss": {
+      "en": "Final project",
+      "it": "Progetto finale"
+     },
+     "grammar": [
+      "integración de todo el recorrido"
+     ],
+     "connectors": [
+      "todos"
+     ],
+     "lessons": [
+      {
+       "id": "u56l1",
+       "title": "Elegir un tema",
+       "gloss": {
+        "en": "Choosing a topic",
+        "it": "Scegliere un tema"
+       },
+       "focus": "planificar"
+      },
+      {
+       "id": "u56l2",
+       "title": "Investigar",
+       "gloss": {
+        "en": "Researching",
+        "it": "Ricercare"
+       },
+       "focus": "fuentes"
+      },
+      {
+       "id": "u56l3",
+       "title": "Escribir el guion",
+       "gloss": {
+        "en": "Writing the script",
+        "it": "Scrivere il copione"
+       },
+       "focus": "estructura"
+      },
+      {
+       "id": "u56l4",
+       "title": "Ensayar",
+       "gloss": {
+        "en": "Rehearsing",
+        "it": "Provare"
+       },
+       "focus": "pronunciación y ritmo"
+      },
+      {
+       "id": "u56l5",
+       "title": "Responder preguntas",
+       "gloss": {
+        "en": "Answering questions",
+        "it": "Rispondere alle domande"
+       },
+       "focus": "improvisación"
+      }
+     ],
+     "boss": {
+      "id": "u56boss",
+      "title": "La charla",
+      "gloss": {
+       "en": "Give a 10-minute talk and take questions.",
+       "it": "Tieni un intervento di 10 minuti e rispondi alle domande."
+      }
+     }
+    }
+   ],
+   "checkpoint": {
+    "id": "level8check",
+    "title": "Examen de Maestría",
+    "gloss": {
+     "en": "A 15-minute open conversation plus a 10-minute talk.",
+     "it": "Una conversazione libera di 15 minuti e un intervento di 10 minuti."
+    }
+   }
+  }
+ ]
+}

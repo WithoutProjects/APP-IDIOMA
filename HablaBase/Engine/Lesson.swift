@@ -79,11 +79,3 @@ struct Lesson: Identifiable {
     let goal: Gloss
     let items: [LessonItem]
 }
-
-/// A slot on the Unit path. Lessons without items are shown locked until their content ships.
-struct PathNode: Identifiable {
-    let id: String
-    let title: String
-    let gloss: Gloss
-    let isBoss: Bool
-}

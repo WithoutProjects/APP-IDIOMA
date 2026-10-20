@@ -29,17 +29,7 @@ enum Unit1 {
         return persons
     }
 
-    static let path: [PathNode] = [
-        PathNode(id: "u1l1", title: "Me presento", gloss: Gloss(en: "I introduce myself", it: "Mi presento"), isBoss: false),
-        PathNode(id: "u1l2", title: "¿Y tú?", gloss: Gloss(en: "And you?", it: "E tu?"), isBoss: false),
-        PathNode(id: "u1l3", title: "Mi rutina", gloss: Gloss(en: "My routine", it: "La mia routine"), isBoss: false),
-        PathNode(id: "u1l4", title: "Él, ella y mi familia", gloss: Gloss(en: "He, she and my family", it: "Lui, lei e la mia famiglia"), isBoss: false),
-        PathNode(id: "u1l5", title: "Pero y porque", gloss: Gloss(en: "But and because", it: "Ma e perché"), isBoss: false),
-        PathNode(id: "u1l6", title: "En el mercado", gloss: Gloss(en: "At the market", it: "Al mercato"), isBoss: false),
-        PathNode(id: "u1boss", title: "El mercado de San Miguel", gloss: Gloss(en: "Boss: buy dinner from Don Paco", it: "Boss: compra la cena da Don Paco"), isBoss: true),
-    ]
-
-    /// Lessons whose content exists in the app. The rest of the path shows as "coming soon".
+    /// Lessons whose exercises exist in the app. The rest of the curriculum shows as "coming soon".
     static func lesson(id: String, profile: Profile) -> Lesson? {
         switch id {
         case "u1l1": return lesson1(profile: profile)

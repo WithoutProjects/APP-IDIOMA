@@ -5,6 +5,8 @@ struct DashboardView: View {
     @EnvironmentObject private var store: AppStore
     @State private var activeLesson: Lesson?
 
+    private let curriculum = Curriculum.shared
+
     var body: some View {
         NavigationStack {
             ScrollView {
@@ -12,7 +14,7 @@ struct DashboardView: View {
                     statsRow
                     continueCard
                     fluencyCard
-                    pathList
+                    currentUnit
                 }
                 .padding(20)
             }
@@ -38,17 +40,22 @@ struct DashboardView: View {
 
     @ViewBuilder
     private var continueCard: some View {
-        let language = store.language
-        if let node = store.nextNode {
+        if let node = store.nextNode, let level = curriculum.level(id: node.levelId) {
             let lesson = store.profile.flatMap { Unit1.lesson(id: node.id, profile: $0) }
+            let unit = node.unitId.flatMap { curriculum.unit(id: $0) }
             VStack(alignment: .leading, spacing: 12) {
-                Text(node.isBoss ? "BOSS" : "UNIT 1 · LEVEL 1 ARRANQUE")
+                Text("NIVEL \(level.number) · \(level.name.uppercased()) · \(level.cefr)")
                     .font(.caption.weight(.bold))
                     .foregroundStyle(.white.opacity(0.8))
+                if let unit {
+                    Text("Unidad \(unit.number) · \(unit.title)")
+                        .font(.subheadline.weight(.semibold))
+                        .foregroundStyle(.white.opacity(0.9))
+                }
                 Text(node.title)
                     .font(.title.bold())
                     .foregroundStyle(.white)
-                Text(node.gloss.text(language))
+                Text(node.gloss.text(store.language))
                     .foregroundStyle(.white.opacity(0.9))
                 Button(lesson == nil ? "Coming soon" : "Continue") {
                     activeLesson = lesson
@@ -61,7 +68,7 @@ struct DashboardView: View {
             .frame(maxWidth: .infinity, alignment: .leading)
             .background(RoundedRectangle(cornerRadius: 24, style: .continuous).fill(Brick.stem.color.gradient))
         } else {
-            Text("Unit 1 complete. ¡Enhorabuena!")
+            Text("¡Maestría! You have finished the whole path.")
                 .font(.title2.bold())
         }
     }
@@ -73,7 +80,7 @@ struct DashboardView: View {
             Divider()
             metric("\(mastered)", "forms mastered")
             Divider()
-            metric("\(store.state.completedLessons.count)", "lessons")
+            metric("\(store.state.completedLessons.count)", "steps done")
         }
         .padding()
         .background(RoundedRectangle(cornerRadius: 16).fill(Palette.card))
@@ -87,36 +94,70 @@ struct DashboardView: View {
         .frame(maxWidth: .infinity)
     }
 
-    private var pathList: some View {
+    @ViewBuilder
+    private var currentUnit: some View {
         VStack(alignment: .leading, spacing: 12) {
-            Text("Unit 1 · El presente")
-                .font(.headline)
-            ForEach(Unit1.path) { node in
-                HStack(spacing: 14) {
-                    Image(systemName: icon(for: node))
-                        .font(.title2)
-                        .foregroundStyle(color(for: node))
-                        .frame(width: 32)
-                    VStack(alignment: .leading) {
-                        Text(node.title).font(.body.weight(.semibold))
-                        Text(node.gloss.text(store.language)).font(.footnote).foregroundStyle(.secondary)
-                    }
-                    Spacer()
+            if let unitId = store.nextNode?.unitId, let unit = curriculum.unit(id: unitId) {
+                Text("Unidad \(unit.number) · \(unit.title)")
+                    .font(.headline)
+                ForEach(unit.lessons) { lesson in
+                    PathNodeRow(id: lesson.id, title: lesson.title, subtitle: lesson.gloss.text(store.language), kind: .lesson)
                 }
-                .padding(.vertical, 6)
+                PathNodeRow(id: unit.boss.id, title: unit.boss.title, subtitle: unit.boss.gloss.text(store.language), kind: .boss)
             }
+            NavigationLink {
+                PathMapView()
+            } label: {
+                Label("See the full path: 8 levels, A0 to C2", systemImage: "map")
+                    .font(.subheadline.weight(.semibold))
+            }
+            .padding(.top, 4)
+        }
+    }
+}
+
+/// One step on the path with its state: done, current or locked.
+struct PathNodeRow: View {
+    // Not private: a private wrapped property would make the memberwise init private.
+    @EnvironmentObject var store: AppStore
+    let id: String
+    let title: String
+    let subtitle: String
+    let kind: PathNode.Kind
+    var detail: String?
+
+    var body: some View {
+        HStack(spacing: 14) {
+            Image(systemName: icon)
+                .font(.title2)
+                .foregroundStyle(color)
+                .frame(width: 32)
+            VStack(alignment: .leading, spacing: 2) {
+                Text(title).font(.body.weight(.semibold))
+                Text(subtitle).font(.footnote).foregroundStyle(.secondary)
+                if let detail {
+                    Text(detail).font(.caption).foregroundStyle(Brick.stem.color)
+                }
+            }
+            Spacer()
+        }
+        .padding(.vertical, 4)
+    }
+
+    private var isCurrent: Bool { store.nextNode?.id == id }
+
+    private var icon: String {
+        if store.isCompleted(id) { return "checkmark.seal.fill" }
+        switch kind {
+        case .lesson: return isCurrent ? "play.circle.fill" : "lock.circle"
+        case .boss: return "flag.checkered"
+        case .checkpoint: return "rosette"
         }
     }
 
-    private func icon(for node: PathNode) -> String {
-        if store.isCompleted(node.id) { return "checkmark.seal.fill" }
-        if node.id == store.nextNode?.id { return node.isBoss ? "flag.checkered" : "play.circle.fill" }
-        return node.isBoss ? "flag.checkered" : "lock.circle"
-    }
-
-    private func color(for node: PathNode) -> Color {
-        if store.isCompleted(node.id) { return Palette.success }
-        if node.id == store.nextNode?.id { return Brick.stem.color }
-        return .secondary
+    private var color: Color {
+        if store.isCompleted(id) { return Palette.success }
+        if isCurrent { return Brick.stem.color }
+        return kind == .lesson ? .secondary : Brick.rail.color.opacity(0.6)
     }
 }

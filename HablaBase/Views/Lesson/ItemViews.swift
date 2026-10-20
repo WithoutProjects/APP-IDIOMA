@@ -7,7 +7,7 @@ struct FrameCardView: View {
     let card: FrameCard
     let language: NativeLanguage
     let onContinue: () -> Void
-    @State private var snapped = false
+    @State var snapped = false
 
     var body: some View {
         VStack(alignment: .leading, spacing: 24) {
@@ -53,8 +53,8 @@ struct LegoSnapView: View {
     let snap: LegoSnap
     let language: NativeLanguage
     let onSubmit: (GradeOutcome) -> Void
-    @State private var stem: String?
-    @State private var ending: String?
+    @State var stem: String?
+    @State var ending: String?
 
     var body: some View {
         VStack(alignment: .leading, spacing: 24) {
@@ -128,7 +128,7 @@ struct SentenceBuilderView: View {
     let language: NativeLanguage
     let onSubmit: (GradeOutcome) -> Void
     /// Indices into builder.tiles, in the order the learner placed them.
-    @State private var placed: [Int] = []
+    @State var placed: [Int] = []
 
     var body: some View {
         VStack(alignment: .leading, spacing: 24) {
@@ -182,8 +182,8 @@ struct FreeWriteView: View {
     let write: FreeWrite
     let language: NativeLanguage
     let onSubmit: (GradeOutcome) -> Void
-    @State private var text = ""
-    @FocusState private var focused: Bool
+    @State var text = ""
+    @FocusState var focused: Bool
 
     var body: some View {
         VStack(alignment: .leading, spacing: 24) {

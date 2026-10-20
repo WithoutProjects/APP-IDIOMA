@@ -93,3 +93,41 @@ final class Lesson1Tests: XCTestCase {
         }
     }
 }
+
+final class CurriculumTests: XCTestCase {
+    private let curriculum = Curriculum.shared
+
+    func testGoesFromZeroToExpert() {
+        XCTAssertEqual(curriculum.levels.count, 8)
+        XCTAssertEqual(curriculum.levels.first?.cefr, "A0–A1")
+        XCTAssertEqual(curriculum.levels.last?.cefr, "C2")
+        XCTAssertEqual(curriculum.levels.map(\.number), Array(1...8))
+    }
+
+    func testEveryStepHasAUniqueId() {
+        let ids = Curriculum.sharedPath.map(\.id)
+        XCTAssertEqual(Set(ids).count, ids.count)
+    }
+
+    func testEveryUnitHasLessonsAndABoss() {
+        for unit in curriculum.levels.flatMap(\.units) {
+            XCTAssertGreaterThanOrEqual(unit.lessons.count, 5, unit.id)
+            XCTAssertEqual(unit.boss.id, "\(unit.id)boss")
+            XCTAssertFalse(unit.grammar.isEmpty, unit.id)
+        }
+    }
+
+    func testEveryLevelEndsWithItsCheckpoint() {
+        for level in curriculum.levels {
+            let last = Curriculum.sharedPath.last { $0.levelId == level.id }
+            XCTAssertEqual(last?.kind, .checkpoint, level.id)
+        }
+    }
+
+    func testUnit1MatchesTheBuiltLessons() {
+        let unit1 = curriculum.levels[0].units[0]
+        XCTAssertEqual(unit1.lessons.map(\.id), ["u1l1", "u1l2", "u1l3", "u1l4", "u1l5", "u1l6"])
+        let profile = Profile(name: "Ana", city: "Milán", workplace: .hospital, nativeLanguage: .english, goal: .travel, dailyMinutes: 10)
+        XCTAssertNotNil(Unit1.lesson(id: Curriculum.sharedPath[0].id, profile: profile))
+    }
+}

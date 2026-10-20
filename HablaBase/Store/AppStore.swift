@@ -57,7 +57,7 @@ final class AppStore: ObservableObject {
 
     /// The first node on the path that is not finished yet.
     var nextNode: PathNode? {
-        Unit1.path.first { !isCompleted($0.id) }
+        Curriculum.sharedPath.first { !isCompleted($0.id) }
     }
 
     // MARK: Practice events
