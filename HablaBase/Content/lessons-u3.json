@@ -1,0 +1,619 @@
+{
+  "unit": "u3",
+  "lessons": [
+    {
+      "id": "u3l1",
+      "goal": {"en": "Say where you and others are from and what you do, with ser.", "it": "Di di dove siete tu e gli altri e che lavoro fate, con ser."},
+      "target": {"es": "Hola, soy {name}. Vivo en {city}. ¿De dónde eres?", "en": "Hi, I'm {name}. I live in {city}. Where are you from?", "it": "Ciao, sono {name}. Vivo a {city}. Tu di dove sei?"},
+      "names": ["Ana", "Marco"],
+      "items": [
+        {"type": "words", "words": [
+          {"es": "ser", "en": "to be (who/what you are)", "it": "essere", "kind": "stem"},
+          {"es": "¿de dónde?", "en": "where from?", "it": "di dove?", "kind": "chunk"},
+          {"es": "España", "en": "Spain", "it": "Spagna", "kind": "chunk"},
+          {"es": "Italia", "en": "Italy", "it": "Italia", "kind": "chunk"},
+          {"es": "estudiante", "en": "student", "it": "studente, studentessa", "kind": "chunk"}
+        ]},
+        {"type": "words", "words": [
+          {"es": "médico", "en": "doctor (man)", "it": "medico", "kind": "chunk"},
+          {"es": "médica", "en": "doctor (woman)", "it": "medica, dottoressa", "kind": "chunk"},
+          {"es": "profesor", "en": "teacher (man)", "it": "insegnante (uomo)", "kind": "chunk"},
+          {"es": "profesora", "en": "teacher (woman)", "it": "insegnante (donna)", "kind": "chunk"},
+          {"es": "camarero", "en": "waiter", "it": "cameriere", "kind": "chunk"},
+          {"es": "camarera", "en": "waitress", "it": "cameriera", "kind": "chunk"}
+        ]},
+        {"type": "explain",
+         "bricks": [{"text": "Soy", "kind": "stem"}, {"text": "de", "kind": "rail"}, {"text": "Italia", "kind": "chunk"}],
+         "rule": {"en": "ser (to be) is irregular: soy, eres, es. Use it to say who you are, and with de, where you are from.", "it": "ser (essere) è irregolare: soy, eres, es. Si usa per dire chi sei e, con de, di dove sei."},
+         "examples": [
+           {"es": "Soy {name}.", "en": "I'm {name}.", "it": "Sono {name}."},
+           {"es": "¿De dónde eres?", "en": "Where are you from?", "it": "Di dove sei?"},
+           {"es": "Él es de Inglaterra.", "en": "He's from England.", "it": "Lui viene dall'Inghilterra."}
+         ],
+         "teaches": [
+           {"es": "soy", "en": "I am", "it": "sono"},
+           {"es": "eres", "en": "you are", "it": "sei"},
+           {"es": "es", "en": "he/she is", "it": "è"},
+           {"es": "Inglaterra", "en": "England", "it": "Inghilterra"}
+         ]},
+        {"type": "choose", "beat": "forge", "before": "Yo ", "after": " de Italia.",
+         "options": ["soy", "eres", "es"], "answer": "soy",
+         "en": "I'm from Italy.", "it": "Vengo dall'Italia.",
+         "hint": {"en": "Talking about yourself: yo soy.", "it": "Parli di te: yo soy."}},
+        {"type": "choose", "beat": "fire", "before": "¿De dónde ", "after": " tú?",
+         "options": ["soy", "eres", "es"], "answer": "eres",
+         "en": "Where are you from?", "it": "Tu di dove sei?",
+         "hint": {"en": "Talking to someone: tú eres.", "it": "Parli con qualcuno: tú eres."}},
+
+        {"type": "explain",
+         "bricks": [{"text": "Ella es", "kind": "stem"}, {"text": "médica", "kind": "chunk"}],
+         "rule": {"en": "For jobs, use ser with no un or una. Most jobs end in -o for a man and -a for a woman.", "it": "Per i mestieri usa ser senza un o una. Molti mestieri finiscono in -o per un uomo e in -a per una donna."},
+         "examples": [
+           {"es": "Soy profesora.", "en": "I'm a teacher.", "it": "Sono insegnante."},
+           {"es": "Él es camarero.", "en": "He's a waiter.", "it": "Fa il cameriere."},
+           {"es": "Ella es médica.", "en": "She's a doctor.", "it": "Fa la dottoressa."}
+         ],
+         "teaches": []},
+        {"type": "choose", "beat": "forge", "before": "Ana es ", "after": ".",
+         "options": ["médico", "médica"], "answer": "médica",
+         "en": "Ana is a doctor.", "it": "Ana fa la dottoressa.",
+         "hint": {"en": "Ana is a woman: -a.", "it": "Ana è una donna: -a."}},
+        {"type": "build", "beat": "fire",
+         "intention": {"en": "Say that you are a student.", "it": "Di che sei studente."},
+         "accepted": ["Soy estudiante.", "Yo soy estudiante."],
+         "tiles": ["Soy", "estudiante", "un", "Es"],
+         "en": "I'm a student.", "it": "Sono studente.",
+         "hint": {"en": "Jobs and studies: ser, with no un.", "it": "Lavoro e studi: ser, senza un."}},
+
+        {"type": "explain",
+         "bricks": [{"text": "Somos", "kind": "stem"}, {"text": "de", "kind": "rail"}, {"text": "España", "kind": "chunk"}],
+         "rule": {"en": "For more than one person: somos (we are), sois (you all are), son (they are). Plural jobs add -s.", "it": "Per più persone: somos (siamo), sois (siete), son (sono). I mestieri al plurale aggiungono -s."},
+         "examples": [
+           {"es": "Nosotros somos de España.", "en": "We're from Spain.", "it": "Veniamo dalla Spagna."},
+           {"es": "¿Vosotros sois de Italia?", "en": "Are you two from Italy?", "it": "Voi siete italiani?"},
+           {"es": "Ellos son estudiantes.", "en": "They're students.", "it": "Sono studenti."}
+         ],
+         "teaches": [
+           {"es": "somos", "en": "we are", "it": "siamo"},
+           {"es": "sois", "en": "you all are", "it": "siete"},
+           {"es": "son", "en": "they are", "it": "sono"},
+           {"es": "estudiantes", "en": "students", "it": "studenti"}
+         ]},
+        {"type": "choose", "beat": "forge", "before": "Nosotros ", "after": " de España.",
+         "options": ["somos", "sois", "son"], "answer": "somos",
+         "en": "We're from Spain.", "it": "Siamo spagnoli.",
+         "hint": {"en": "nosotros goes with somos.", "it": "nosotros va con somos."}},
+        {"type": "gap", "beat": "fire", "before": "Mis amigos ", "after": " estudiantes.", "label": "ser",
+         "accepted": ["son"], "en": "My friends are students.", "it": "I miei amici sono studenti.",
+         "hint": {"en": "Mis amigos = ellos, so son.", "it": "Mis amigos = ellos, quindi son."}},
+
+        {"type": "gap", "beat": "mix", "before": "¿Tú ", "after": " de Italia?", "label": "ser",
+         "accepted": ["eres"], "en": "Are you from Italy?", "it": "Sei italiano?",
+         "hint": {"en": "Talking to someone: eres.", "it": "Parli con qualcuno: eres."}},
+        {"type": "choose", "beat": "mix", "before": "Mi madre ", "after": " profesora.",
+         "options": ["soy", "es", "son"], "answer": "es",
+         "en": "My mother is a teacher.", "it": "Mia madre fa l'insegnante.",
+         "hint": {"en": "One person (ella): es.", "it": "Una persona (ella): es."}},
+        {"type": "build", "beat": "mix",
+         "intention": {"en": "Ask someone where they are from.", "it": "Chiedi a qualcuno di dove è."},
+         "accepted": ["¿De dónde eres?", "¿De dónde eres tú?"],
+         "tiles": ["De dónde", "eres", "es", "soy"],
+         "en": "Where are you from?", "it": "Di dove sei?",
+         "hint": {"en": "¿De dónde...? then the tú form of ser.", "it": "¿De dónde...? poi la forma di ser per tú."}},
+        {"type": "write", "beat": "mix",
+         "instruction": {"en": "Introduce yourself: your name with soy, where you are from and where you live.", "it": "Presentati: il tuo nome con soy, di dove sei e dove vivi."},
+         "required": ["soy", "de", "vivo en"],
+         "model": {"es": "Soy {name}. Soy de Italia, pero vivo en {city}.", "en": "I'm {name}. I'm from Italy, but I live in {city}.", "it": "Sono {name}. Sono italiano, ma vivo a {city}."}}
+      ]
+    },
+
+    {
+      "id": "u3l2",
+      "goal": {"en": "Describe what people are like, with ser and adjectives that match.", "it": "Descrivi come sono le persone, con ser e aggettivi concordati."},
+      "target": {"es": "Mi hermana es alta, simpática y un poco tímida.", "en": "My sister is tall, friendly and a bit shy.", "it": "Mia sorella è alta, simpatica e un po' timida."},
+      "names": ["Ana", "Marco", "Madrid"],
+      "items": [
+        {"type": "words", "words": [
+          {"es": "alto", "en": "tall", "it": "alto", "kind": "chunk"},
+          {"es": "bajo", "en": "short", "it": "basso", "kind": "chunk"},
+          {"es": "joven", "en": "young", "it": "giovane", "kind": "chunk"},
+          {"es": "simpático", "en": "nice, friendly", "it": "simpatico", "kind": "chunk"}
+        ]},
+        {"type": "words", "words": [
+          {"es": "divertido", "en": "fun", "it": "divertente", "kind": "chunk"},
+          {"es": "tímido", "en": "shy", "it": "timido", "kind": "chunk"},
+          {"es": "inteligente", "en": "clever", "it": "intelligente", "kind": "chunk"},
+          {"es": "trabajador", "en": "hard-working", "it": "gran lavoratore", "kind": "chunk"}
+        ]},
+
+        {"type": "explain",
+         "bricks": [{"text": "Es", "kind": "stem"}, {"text": "alto", "kind": "chunk"}],
+         "rule": {"en": "To say what someone is like, use ser + a describing word. To ask, say ¿Cómo eres?", "it": "Per dire com'è una persona, usa ser + un aggettivo. Per chiederlo, di' ¿Cómo eres?"},
+         "examples": [
+           {"es": "¿Cómo eres?", "en": "What are you like?", "it": "Come sei?"},
+           {"es": "Soy muy trabajador.", "en": "I'm very hard-working.", "it": "Sono un gran lavoratore."},
+           {"es": "Mi hermano es tímido.", "en": "My brother is shy.", "it": "Mio fratello è timido."}
+         ],
+         "teaches": []},
+        {"type": "choose", "beat": "forge", "before": "Mi padre ", "after": " muy alto.",
+         "options": ["soy", "eres", "es"], "answer": "es",
+         "en": "My father is very tall.", "it": "Mio padre è molto alto.",
+         "hint": {"en": "Mi padre = él, so es.", "it": "Mi padre = él, quindi es."}},
+        {"type": "build", "beat": "fire",
+         "intention": {"en": "Describe your brother: tall and fun.", "it": "Descrivi tuo fratello: alto e divertente."},
+         "accepted": ["Mi hermano es alto y divertido."],
+         "tiles": ["Mi hermano", "es", "alto", "y", "divertido", "eres"],
+         "en": "My brother is tall and fun.", "it": "Mio fratello è alto e divertente.",
+         "hint": {"en": "ser + the two words, joined with y.", "it": "ser + le due parole, unite da y."}},
+
+        {"type": "explain",
+         "bricks": [{"text": "alt-", "kind": "stem"}, {"text": "-a", "kind": "ending"}],
+         "result": {"stem": "alt", "ending": "a"},
+         "rule": {"en": "For a woman, -o becomes -a. Words ending in -e, like joven or inteligente, stay the same; trabajador adds -a.", "it": "Per una donna, -o diventa -a. Le parole in -e come inteligente, e anche joven, restano uguali; trabajador aggiunge -a."},
+         "examples": [
+           {"es": "Mi hermana es alta.", "en": "My sister is tall.", "it": "Mia sorella è alta."},
+           {"es": "Ella es inteligente.", "en": "She's clever.", "it": "Lei è intelligente."},
+           {"es": "Mi madre es muy trabajadora.", "en": "My mother is very hard-working.", "it": "Mia madre è una gran lavoratrice."}
+         ],
+         "teaches": [
+           {"es": "alta", "en": "tall (feminine)", "it": "alta"},
+           {"es": "baja", "en": "short (feminine)", "it": "bassa"},
+           {"es": "simpática", "en": "nice (feminine)", "it": "simpatica"},
+           {"es": "divertida", "en": "fun (feminine)", "it": "divertente"},
+           {"es": "tímida", "en": "shy (feminine)", "it": "timida"},
+           {"es": "trabajadora", "en": "hard-working (feminine)", "it": "lavoratrice"}
+         ]},
+        {"type": "choose", "beat": "forge", "before": "Mi hermana es ", "after": ".",
+         "options": ["tímido", "tímida"], "answer": "tímida",
+         "en": "My sister is shy.", "it": "Mia sorella è timida.",
+         "hint": {"en": "Mi hermana is a woman: -a.", "it": "Mi hermana è una donna: -a."}},
+        {"type": "gap", "beat": "fire", "before": "Ana es muy ", "after": ".", "label": "simpático",
+         "accepted": ["simpática"], "en": "Ana is very nice.", "it": "Ana è molto simpatica.",
+         "hint": {"en": "Ana is a woman: simpátic- + -a.", "it": "Ana è una donna: simpátic- + -a."}},
+
+        {"type": "explain",
+         "bricks": [{"text": "simpático", "kind": "chunk"}, {"text": "-s", "kind": "ending"}],
+         "result": {"stem": "simpático", "ending": "s"},
+         "rule": {"en": "For more than one, add -s after a vowel and -es after a consonant: altos, jóvenes.", "it": "Al plurale aggiungi -s dopo una vocale e -es dopo una consonante: altos, jóvenes."},
+         "examples": [
+           {"es": "Mis padres son simpáticos.", "en": "My parents are nice.", "it": "I miei genitori sono simpatici."},
+           {"es": "Mis hermanos son altos.", "en": "My brothers are tall.", "it": "I miei fratelli sono alti."},
+           {"es": "Somos jóvenes.", "en": "We're young.", "it": "Siamo giovani."}
+         ],
+         "teaches": [
+           {"es": "altos", "en": "tall (plural)", "it": "alti"},
+           {"es": "altas", "en": "tall (fem. plural)", "it": "alte"},
+           {"es": "simpáticos", "en": "nice (plural)", "it": "simpatici"},
+           {"es": "simpáticas", "en": "nice (fem. plural)", "it": "simpatiche"},
+           {"es": "divertidos", "en": "fun (plural)", "it": "divertenti"},
+           {"es": "jóvenes", "en": "young (plural)", "it": "giovani"},
+           {"es": "inteligentes", "en": "clever (plural)", "it": "intelligenti"}
+         ]},
+        {"type": "choose", "beat": "forge", "before": "Mis amigos son ", "after": ".",
+         "options": ["divertido", "divertidos", "divertida"], "answer": "divertidos",
+         "en": "My friends are fun.", "it": "I miei amici sono divertenti.",
+         "hint": {"en": "More than one: add -s.", "it": "Più di uno: aggiungi -s."}},
+        {"type": "gap", "beat": "fire", "before": "Nosotros somos ", "after": ".", "label": "joven",
+         "accepted": ["jóvenes"], "en": "We're young.", "it": "Siamo giovani.",
+         "hint": {"en": "joven ends in a consonant: add -es (and an accent: jóvenes).", "it": "joven finisce in consonante: aggiungi -es (e l'accento: jóvenes)."}},
+
+        {"type": "explain",
+         "bricks": [{"text": "Ella es", "kind": "stem"}, {"text": "italiana", "kind": "chunk"}],
+         "rule": {"en": "Nationalities work the same way and are written in lower case: italiano, italiana; español, española; inglés, inglesa.", "it": "Le nazionalità funzionano allo stesso modo e si scrivono in minuscolo: italiano, italiana; español, española; inglés, inglesa."},
+         "examples": [
+           {"es": "Marco es italiano.", "en": "Marco is Italian.", "it": "Marco è italiano."},
+           {"es": "Él es inglés y ella es inglesa.", "en": "He's English and she's English.", "it": "Lui è inglese e anche lei è inglese."},
+           {"es": "Mis amigos son españoles.", "en": "My friends are Spanish.", "it": "I miei amici sono spagnoli."}
+         ],
+         "teaches": [
+           {"es": "inglés", "en": "English (man)", "it": "inglese"},
+           {"es": "inglesa", "en": "English (woman)", "it": "inglese"},
+           {"es": "italiano", "en": "Italian (man)", "it": "italiano"},
+           {"es": "italiana", "en": "Italian (woman)", "it": "italiana"},
+           {"es": "española", "en": "Spanish (woman)", "it": "spagnola"},
+           {"es": "españoles", "en": "Spanish (plural)", "it": "spagnoli"}
+         ]},
+        {"type": "choose", "beat": "forge", "before": "Ella es de Inglaterra: es ", "after": ".",
+         "options": ["inglés", "inglesa"], "answer": "inglesa",
+         "en": "She's from England: she's English.", "it": "È dell'Inghilterra: è inglese.",
+         "hint": {"en": "Ella: inglés becomes inglesa (no accent).", "it": "Ella: inglés diventa inglesa (senza accento)."}},
+        {"type": "choose", "beat": "fire", "before": "Mis amigos de Madrid son ", "after": ".",
+         "options": ["español", "española", "españoles"], "answer": "españoles",
+         "en": "My friends from Madrid are Spanish.", "it": "I miei amici di Madrid sono spagnoli.",
+         "hint": {"en": "Plural after a consonant: -es.", "it": "Plurale dopo una consonante: -es."}},
+
+        {"type": "build", "beat": "mix",
+         "intention": {"en": "Describe your friend: Italian and very fun.", "it": "Descrivi il tuo amico: italiano e molto divertente."},
+         "accepted": ["Mi amigo es italiano y muy divertido."],
+         "tiles": ["Mi amigo", "es", "italiano", "y", "muy", "divertido", "divertida"],
+         "en": "My friend is Italian and very fun.", "it": "Il mio amico è italiano e molto divertente.",
+         "hint": {"en": "Mi amigo is a man: every word ends in -o.", "it": "Mi amigo è un uomo: tutte le parole finiscono in -o."}},
+        {"type": "gap", "beat": "mix", "before": "Ana y su hermana son muy ", "after": ".", "label": "simpático",
+         "accepted": ["simpáticas"], "en": "Ana and her sister are very nice.", "it": "Ana e sua sorella sono molto simpatiche.",
+         "hint": {"en": "Women, more than one: -as.", "it": "Donne, più di una: -as."}},
+        {"type": "write", "beat": "mix",
+         "instruction": {"en": "Describe someone in your family with ser: two words joined with y.", "it": "Descrivi qualcuno della tua famiglia con ser: due parole unite da y."},
+         "required": ["es", "y"],
+         "model": {"es": "Mi madre es italiana y muy simpática.", "en": "My mother is Italian and very nice.", "it": "Mia madre è italiana e molto simpatica."}}
+      ]
+    },
+
+    {
+      "id": "u3l3",
+      "goal": {"en": "Say how you and others feel today, with estar.", "it": "Di come state oggi tu e gli altri, con estar."},
+      "target": {"es": "¿Qué tal? Estoy bien, pero un poco cansada.", "en": "How's it going? I'm fine, but a bit tired.", "it": "Come va? Sto bene, ma sono un po' stanca."},
+      "names": ["Ana"],
+      "items": [
+        {"type": "words", "words": [
+          {"es": "estar", "en": "to be (how or where)", "it": "stare, essere", "kind": "stem"},
+          {"es": "¿qué tal?", "en": "how are you?", "it": "come va?", "kind": "chunk"},
+          {"es": "cansado", "en": "tired", "it": "stanco", "kind": "chunk"},
+          {"es": "contento", "en": "happy", "it": "contento", "kind": "chunk"}
+        ]},
+        {"type": "words", "words": [
+          {"es": "ocupado", "en": "busy", "it": "occupato", "kind": "chunk"},
+          {"es": "enfermo", "en": "ill", "it": "malato", "kind": "chunk"},
+          {"es": "nervioso", "en": "nervous", "it": "nervoso", "kind": "chunk"},
+          {"es": "triste", "en": "sad", "it": "triste", "kind": "chunk"}
+        ]},
+
+        {"type": "explain",
+         "bricks": [{"text": "Estoy", "kind": "stem"}, {"text": "cansado", "kind": "chunk"}],
+         "rule": {"en": "estar is the other 'to be': it says how you feel right now. It is irregular: estoy, estás, está.", "it": "estar è l'altro 'essere': dice come ti senti in questo momento. È irregolare: estoy, estás, está."},
+         "examples": [
+           {"es": "¿Cómo estás?", "en": "How are you?", "it": "Come stai?"},
+           {"es": "Estoy cansado.", "en": "I'm tired.", "it": "Sono stanco."},
+           {"es": "Mi padre está enfermo.", "en": "My father is ill.", "it": "Mio padre è malato."}
+         ],
+         "teaches": [
+           {"es": "estoy", "en": "I am", "it": "sto"},
+           {"es": "estás", "en": "you are", "it": "stai"},
+           {"es": "está", "en": "he/she is", "it": "sta"},
+           {"es": "¿cómo estás?", "en": "how are you?", "it": "come stai?"}
+         ]},
+        {"type": "choose", "beat": "forge", "before": "Hola, ¿cómo ", "after": "?",
+         "options": ["estoy", "estás", "está"], "answer": "estás",
+         "en": "Hi, how are you?", "it": "Ciao, come stai?",
+         "hint": {"en": "Asking someone: tú estás.", "it": "Chiedi a qualcuno: tú estás."}},
+        {"type": "choose", "beat": "fire", "before": "Hoy ", "after": " muy contento.",
+         "options": ["estoy", "estás", "está"], "answer": "estoy",
+         "en": "Today I'm very happy.", "it": "Oggi sono molto contento.",
+         "hint": {"en": "Talking about yourself: estoy.", "it": "Parli di te: estoy."}},
+
+        {"type": "explain",
+         "bricks": [{"text": "cansad-", "kind": "stem"}, {"text": "-a", "kind": "ending"}],
+         "result": {"stem": "cansad", "ending": "a"},
+         "rule": {"en": "These words change for a woman too: -o becomes -a. triste stays the same.", "it": "Anche queste parole cambiano per una donna: -o diventa -a. triste resta uguale."},
+         "examples": [
+           {"es": "Ella está cansada.", "en": "She's tired.", "it": "Lei è stanca."},
+           {"es": "Estoy nerviosa hoy.", "en": "I'm nervous today.", "it": "Oggi sono nervosa."},
+           {"es": "Mi hermana está ocupada.", "en": "My sister is busy.", "it": "Mia sorella è occupata."}
+         ],
+         "teaches": [
+           {"es": "cansada", "en": "tired (feminine)", "it": "stanca"},
+           {"es": "contenta", "en": "happy (feminine)", "it": "contenta"},
+           {"es": "ocupada", "en": "busy (feminine)", "it": "occupata"},
+           {"es": "enferma", "en": "ill (feminine)", "it": "malata"},
+           {"es": "nerviosa", "en": "nervous (feminine)", "it": "nervosa"}
+         ]},
+        {"type": "choose", "beat": "forge", "before": "Ana está ", "after": " hoy.",
+         "options": ["contento", "contenta"], "answer": "contenta",
+         "en": "Ana is happy today.", "it": "Oggi Ana è contenta.",
+         "hint": {"en": "Ana is a woman: -a.", "it": "Ana è una donna: -a."}},
+        {"type": "gap", "beat": "fire", "before": "Mi madre está ", "after": ".", "label": "enfermo",
+         "accepted": ["enferma"], "en": "My mother is ill.", "it": "Mia madre è malata.",
+         "hint": {"en": "Mi madre is a woman: enferm- + -a.", "it": "Mi madre è una donna: enferm- + -a."}},
+
+        {"type": "explain",
+         "bricks": [{"text": "Estamos", "kind": "stem"}, {"text": "cansados", "kind": "chunk"}],
+         "rule": {"en": "For more than one: estamos, estáis, están. The describing word adds -s.", "it": "Per più persone: estamos, estáis, están. L'aggettivo aggiunge -s."},
+         "examples": [
+           {"es": "Estamos cansados.", "en": "We're tired.", "it": "Siamo stanchi."},
+           {"es": "¿Estáis bien?", "en": "Are you all OK?", "it": "State bene?"},
+           {"es": "Mis padres están contentos.", "en": "My parents are happy.", "it": "I miei genitori sono contenti."}
+         ],
+         "teaches": [
+           {"es": "estamos", "en": "we are", "it": "stiamo"},
+           {"es": "estáis", "en": "you all are", "it": "state"},
+           {"es": "están", "en": "they are", "it": "stanno"},
+           {"es": "cansados", "en": "tired (plural)", "it": "stanchi"},
+           {"es": "contentos", "en": "happy (plural)", "it": "contenti"},
+           {"es": "ocupados", "en": "busy (plural)", "it": "occupati"}
+         ]},
+        {"type": "choose", "beat": "forge", "before": "Nosotros ", "after": " muy ocupados.",
+         "options": ["estamos", "estáis", "están"], "answer": "estamos",
+         "en": "We're very busy.", "it": "Siamo molto occupati.",
+         "hint": {"en": "nosotros: estamos.", "it": "nosotros: estamos."}},
+        {"type": "gap", "beat": "fire", "before": "Mis amigos ", "after": " contentos.", "label": "estar",
+         "accepted": ["están"], "en": "My friends are happy.", "it": "I miei amici sono contenti.",
+         "hint": {"en": "Mis amigos = ellos: están.", "it": "Mis amigos = ellos: están."}},
+
+        {"type": "build", "beat": "mix",
+         "intention": {"en": "A friend asks «¿Qué tal?». Say you're fine, but a bit tired.", "it": "Un amico ti chiede «¿Qué tal?». Di che stai bene, ma sei un po' stanco/a."},
+         "accepted": ["Estoy bien, pero un poco cansado.", "Estoy bien, pero un poco cansada.", "Bien, pero un poco cansado.", "Bien, pero un poco cansada."],
+         "tiles": ["Estoy", "bien", "pero", "un poco", "cansado", "cansada", "Soy"],
+         "en": "I'm fine, but a bit tired.", "it": "Sto bene, ma sono un po' stanco.",
+         "hint": {"en": "How you feel now: estar. Pick -o or -a for yourself.", "it": "Come ti senti ora: estar. Scegli -o o -a per te."}},
+        {"type": "gap", "beat": "mix", "before": "¿Vosotros ", "after": " cansados?", "label": "estar",
+         "accepted": ["estáis"], "en": "Are you two tired?", "it": "Siete stanchi?",
+         "hint": {"en": "vosotros: estáis.", "it": "vosotros: estáis."}},
+        {"type": "choose", "beat": "mix", "before": "Mis padres están ", "after": ".",
+         "options": ["ocupado", "ocupados"], "answer": "ocupados",
+         "en": "My parents are busy.", "it": "I miei genitori sono occupati.",
+         "hint": {"en": "Two people: add -s.", "it": "Due persone: aggiungi -s."}},
+        {"type": "write", "beat": "mix",
+         "instruction": {"en": "Answer «¿Qué tal?»: say how you are today and why, with porque.", "it": "Rispondi a «¿Qué tal?»: di come stai oggi e perché, con porque."},
+         "required": ["estoy", "porque"],
+         "model": {"es": "Hoy estoy cansada porque trabajo mucho.", "en": "Today I'm tired because I work a lot.", "it": "Oggi sono stanca perché lavoro molto."}}
+      ]
+    },
+
+    {
+      "id": "u3l4",
+      "goal": {"en": "Ask and say where places and people are, with estar.", "it": "Chiedi e di' dove sono luoghi e persone, con estar."},
+      "target": {"es": "¿Dónde está la farmacia? Está cerca de la estación.", "en": "Where's the chemist's? It's near the station.", "it": "Dov'è la farmacia? È vicino alla stazione."},
+      "items": [
+        {"type": "words", "words": [
+          {"es": "cerca de", "en": "near", "it": "vicino a", "kind": "rail"},
+          {"es": "lejos de", "en": "far from", "it": "lontano da", "kind": "rail"},
+          {"es": "el centro", "en": "the town centre", "it": "il centro", "kind": "chunk"},
+          {"es": "la estación", "en": "the station", "it": "la stazione", "kind": "chunk"}
+        ]},
+        {"type": "words", "words": [
+          {"es": "el supermercado", "en": "the supermarket", "it": "il supermercato", "kind": "chunk"},
+          {"es": "la farmacia", "en": "the chemist's", "it": "la farmacia", "kind": "chunk"},
+          {"es": "el banco", "en": "the bank", "it": "la banca", "kind": "chunk"},
+          {"es": "el baño", "en": "the bathroom, the toilet", "it": "il bagno", "kind": "chunk"}
+        ]},
+
+        {"type": "explain",
+         "bricks": [{"text": "¿Dónde", "kind": "chunk"}, {"text": "está", "kind": "stem"}, {"text": "el baño?", "kind": "chunk"}],
+         "rule": {"en": "To say where something is, always use estar. ¿Dónde está...? asks where one thing is.", "it": "Per dire dove si trova qualcosa usa sempre estar. ¿Dónde está...? chiede dov'è una cosa."},
+         "examples": [
+           {"es": "¿Dónde está el baño?", "en": "Where's the toilet?", "it": "Dov'è il bagno?"},
+           {"es": "La farmacia está aquí.", "en": "The chemist's is here.", "it": "La farmacia è qui."},
+           {"es": "¿Dónde está la estación?", "en": "Where's the station?", "it": "Dov'è la stazione?"}
+         ],
+         "teaches": [
+           {"es": "¿dónde está?", "en": "where is it?", "it": "dov'è?"}
+         ]},
+        {"type": "build", "beat": "forge",
+         "intention": {"en": "Ask where the toilet is.", "it": "Chiedi dov'è il bagno."},
+         "accepted": ["¿Dónde está el baño?"],
+         "tiles": ["Dónde", "está", "el baño", "es"],
+         "en": "Where's the toilet?", "it": "Dov'è il bagno?",
+         "hint": {"en": "Where something is: estar.", "it": "Dove si trova qualcosa: estar."}},
+        {"type": "choose", "beat": "fire", "before": "El banco ", "after": " aquí.",
+         "options": ["está", "es"], "answer": "está",
+         "en": "The bank is here.", "it": "La banca è qui.",
+         "hint": {"en": "Location always takes estar.", "it": "Il luogo vuole sempre estar."}},
+
+        {"type": "explain",
+         "bricks": [{"text": "está", "kind": "stem"}, {"text": "cerca de", "kind": "rail"}, {"text": "la estación", "kind": "chunk"}],
+         "rule": {"en": "cerca de (near) and lejos de (far from) go before the place.", "it": "cerca de (vicino a) e lejos de (lontano da) vanno prima del luogo."},
+         "examples": [
+           {"es": "El supermercado está cerca de la estación.", "en": "The supermarket is near the station.", "it": "Il supermercato è vicino alla stazione."},
+           {"es": "La farmacia está lejos de aquí.", "en": "The chemist's is far from here.", "it": "La farmacia è lontana da qui."},
+           {"es": "Vivo cerca de la farmacia.", "en": "I live near the chemist's.", "it": "Abito vicino alla farmacia."}
+         ],
+         "teaches": []},
+        {"type": "choose", "beat": "forge", "before": "Mi casa está ", "after": " la estación.",
+         "options": ["cerca de", "lejos de"], "answer": "cerca de",
+         "en": "My house is near the station.", "it": "Casa mia è vicino alla stazione.",
+         "hint": {"en": "near = cerca de.", "it": "vicino a = cerca de."}},
+        {"type": "build", "beat": "fire",
+         "intention": {"en": "Say that the supermarket is far from here.", "it": "Di che il supermercato è lontano da qui."},
+         "accepted": ["El supermercado está lejos de aquí."],
+         "tiles": ["El supermercado", "está", "lejos de", "aquí", "cerca de", "es"],
+         "en": "The supermarket is far from here.", "it": "Il supermercato è lontano da qui.",
+         "hint": {"en": "Place + está + lejos de + aquí.", "it": "Luogo + está + lejos de + aquí."}},
+
+        {"type": "explain",
+         "bricks": [{"text": "Estoy", "kind": "stem"}, {"text": "en", "kind": "rail"}, {"text": "casa", "kind": "chunk"}],
+         "rule": {"en": "People are somewhere with estar too, in every person: estoy, estás, estamos, están...", "it": "Anche per dire dove sono le persone si usa estar, con tutte le persone: estoy, estás, estamos, están..."},
+         "examples": [
+           {"es": "Estoy en casa.", "en": "I'm at home.", "it": "Sono a casa."},
+           {"es": "¿Dónde estás?", "en": "Where are you?", "it": "Dove sei?"},
+           {"es": "Mis padres están en Italia.", "en": "My parents are in Italy.", "it": "I miei genitori sono in Italia."}
+         ],
+         "teaches": []},
+        {"type": "gap", "beat": "forge", "before": "Mis amigos ", "after": " en el centro.", "label": "estar",
+         "accepted": ["están"], "en": "My friends are in the town centre.", "it": "I miei amici sono in centro.",
+         "hint": {"en": "Where people are: estar. Ellos: están.", "it": "Dove sono le persone: estar. Ellos: están."}},
+        {"type": "build", "beat": "fire",
+         "intention": {"en": "Tell a friend you're at the station.", "it": "Di' a un amico che sei in stazione."},
+         "accepted": ["Estoy en la estación.", "Yo estoy en la estación."],
+         "tiles": ["Estoy", "en", "la estación", "Soy", "está"],
+         "en": "I'm at the station.", "it": "Sono in stazione.",
+         "hint": {"en": "Where you are: estoy en...", "it": "Dove sei: estoy en..."}},
+
+        {"type": "choose", "beat": "mix", "before": "¿Dónde ", "after": " tú?",
+         "options": ["estoy", "estás", "está"], "answer": "estás",
+         "en": "Where are you?", "it": "Dove sei?",
+         "hint": {"en": "Asking someone: estás.", "it": "Chiedi a qualcuno: estás."}},
+        {"type": "gap", "beat": "mix", "before": "Nosotros ", "after": " en el banco.", "label": "estar",
+         "accepted": ["estamos"], "en": "We're at the bank.", "it": "Siamo in banca.",
+         "hint": {"en": "nosotros: estamos.", "it": "nosotros: estamos."}},
+        {"type": "build", "beat": "mix",
+         "intention": {"en": "Ask if the bank is near here.", "it": "Chiedi se la banca è vicino a qui."},
+         "accepted": ["¿El banco está cerca de aquí?", "¿Está el banco cerca de aquí?"],
+         "tiles": ["El banco", "está", "cerca de", "aquí", "lejos de"],
+         "en": "Is the bank near here?", "it": "La banca è qui vicino?",
+         "hint": {"en": "A question is the same sentence between ¿ and ?.", "it": "Una domanda è la stessa frase tra ¿ e ?."}},
+        {"type": "write", "beat": "mix",
+         "instruction": {"en": "Say where you live and what is near your home.", "it": "Di dove vivi e cosa c'è vicino a casa tua."},
+         "required": ["vivo en", "cerca de"],
+         "model": {"es": "Vivo en {city} y mi casa está cerca de la estación.", "en": "I live in {city} and my house is near the station.", "it": "Vivo a {city} e casa mia è vicino alla stazione."}}
+      ]
+    },
+
+    {
+      "id": "u3l5",
+      "goal": {"en": "Choose between ser and estar, and describe people and places with both.", "it": "Scegli tra ser ed estar, e descrivi persone e luoghi con tutti e due."},
+      "target": {"es": "Mi amigo es muy divertido, pero hoy está triste.", "en": "My friend is really fun, but today he's sad.", "it": "Il mio amico è molto divertente, ma oggi è triste."},
+      "names": ["Ana"],
+      "items": [
+        {"type": "words", "words": [
+          {"es": "ahora", "en": "now", "it": "adesso", "kind": "time"},
+          {"es": "abierto", "en": "open", "it": "aperto", "kind": "chunk"},
+          {"es": "cerrado", "en": "closed", "it": "chiuso", "kind": "chunk"}
+        ]},
+        {"type": "words", "words": [
+          {"es": "bueno", "en": "good", "it": "buono", "kind": "chunk"},
+          {"es": "malo", "en": "bad", "it": "cattivo", "kind": "chunk"},
+          {"es": "listo", "en": "clever (ser); ready (estar)", "it": "intelligente (ser); pronto (estar)", "kind": "chunk"},
+          {"es": "aburrido", "en": "boring (ser); bored (estar)", "it": "noioso (ser); annoiato (estar)", "kind": "chunk"}
+        ]},
+
+        {"type": "explain",
+         "bricks": [{"text": "es", "kind": "stem"}, {"text": "pero", "kind": "rail"}, {"text": "está", "kind": "stem"}],
+         "rule": {"en": "ser says what someone is: origin, job, character. estar says how they are now, or where.", "it": "ser dice cos'è una persona: origine, lavoro, carattere. estar dice come sta adesso, o dove si trova."},
+         "examples": [
+           {"es": "Ana es simpática, pero hoy está triste.", "en": "Ana is nice, but today she's sad.", "it": "Ana è simpatica, ma oggi è triste."},
+           {"es": "Mi hermano es médico y está en Italia.", "en": "My brother is a doctor and he's in Italy.", "it": "Mio fratello fa il medico ed è in Italia."},
+           {"es": "Soy de España, pero ahora estoy en {city}.", "en": "I'm from Spain, but now I'm in {city}.", "it": "Sono spagnolo, ma adesso sono a {city}."}
+         ],
+         "teaches": []},
+        {"type": "choose", "beat": "forge", "before": "Mi hermano ", "after": " médico.",
+         "options": ["es", "está"], "answer": "es",
+         "en": "My brother is a doctor.", "it": "Mio fratello fa il medico.",
+         "hint": {"en": "A job: ser.", "it": "Un lavoro: ser."}},
+        {"type": "choose", "beat": "fire", "before": "Hoy ", "after": " muy cansado.",
+         "options": ["soy", "estoy"], "answer": "estoy",
+         "en": "Today I'm very tired.", "it": "Oggi sono molto stanco.",
+         "hint": {"en": "How you feel today: estar.", "it": "Come ti senti oggi: estar."}},
+
+        {"type": "explain",
+         "bricks": [{"text": "está", "kind": "stem"}, {"text": "cerrado", "kind": "chunk"}, {"text": "ahora", "kind": "time"}],
+         "rule": {"en": "Open and closed are states that change, so they go with estar.", "it": "Aperto e chiuso sono stati che cambiano, quindi vanno con estar."},
+         "examples": [
+           {"es": "El banco está cerrado ahora.", "en": "The bank is closed now.", "it": "Adesso la banca è chiusa."},
+           {"es": "La farmacia está abierta.", "en": "The chemist's is open.", "it": "La farmacia è aperta."},
+           {"es": "¿El supermercado está abierto?", "en": "Is the supermarket open?", "it": "Il supermercato è aperto?"}
+         ],
+         "teaches": [
+           {"es": "abierta", "en": "open (feminine)", "it": "aperta"},
+           {"es": "cerrada", "en": "closed (feminine)", "it": "chiusa"}
+         ]},
+        {"type": "choose", "beat": "forge", "before": "La farmacia ", "after": " cerrada ahora.",
+         "options": ["es", "está"], "answer": "está",
+         "en": "The chemist's is closed now.", "it": "Adesso la farmacia è chiusa.",
+         "hint": {"en": "Closed now is a state: estar.", "it": "Chiuso adesso è uno stato: estar."}},
+        {"type": "gap", "beat": "fire", "before": "La estación está ", "after": " ahora.", "label": "cerrado",
+         "accepted": ["cerrada"], "en": "The station is closed now.", "it": "Adesso la stazione è chiusa.",
+         "hint": {"en": "la estación is feminine: -a.", "it": "la estación è femminile: -a."}},
+
+        {"type": "explain",
+         "bricks": [{"text": "es listo", "kind": "chunk"}, {"text": "≠", "kind": "rail"}, {"text": "está listo", "kind": "chunk"}],
+         "rule": {"en": "Some words change meaning: ser listo = clever, estar listo = ready; ser aburrido = boring, estar aburrido = bored. bueno and malo describe what something is like, with ser.", "it": "Alcune parole cambiano significato: ser listo = intelligente, estar listo = pronto; ser aburrido = noioso, estar aburrido = annoiato. bueno e malo descrivono com'è una cosa, con ser."},
+         "examples": [
+           {"es": "Mi hermana es muy lista.", "en": "My sister is very clever.", "it": "Mia sorella è molto intelligente."},
+           {"es": "¿Estás listo?", "en": "Are you ready?", "it": "Sei pronto?"},
+           {"es": "El libro es aburrido, pero la pizza es buena.", "en": "The book is boring, but the pizza is good.", "it": "Il libro è noioso, ma la pizza è buona."}
+         ],
+         "teaches": [
+           {"es": "lista", "en": "clever; ready (feminine)", "it": "intelligente; pronta"},
+           {"es": "aburrida", "en": "boring; bored (feminine)", "it": "noiosa; annoiata"},
+           {"es": "buena", "en": "good (feminine)", "it": "buona"},
+           {"es": "mala", "en": "bad (feminine)", "it": "cattiva"}
+         ]},
+        {"type": "choose", "beat": "forge", "before": "¿", "after": " listo? Es tarde.",
+         "options": ["Eres", "Estás"], "answer": "Estás",
+         "en": "Are you ready? It's late.", "it": "Sei pronto? È tardi.",
+         "hint": {"en": "Ready (right now) is estar listo.", "it": "Pronto (adesso) è estar listo."}},
+        {"type": "choose", "beat": "fire", "before": "El libro ", "after": " muy aburrido.",
+         "options": ["es", "está"], "answer": "es",
+         "en": "The book is very boring.", "it": "Il libro è molto noioso.",
+         "hint": {"en": "Boring is what the book is like: ser.", "it": "Noioso è com'è il libro: ser."}},
+
+        {"type": "choose", "beat": "mix", "before": "Mis padres ", "after": " en Italia ahora.",
+         "options": ["son", "están"], "answer": "están",
+         "en": "My parents are in Italy now.", "it": "Adesso i miei genitori sono in Italia.",
+         "hint": {"en": "Where people are: estar.", "it": "Dove sono le persone: estar."}},
+        {"type": "gap", "beat": "mix", "before": "Ana ", "after": " muy simpática.", "label": "ser",
+         "accepted": ["es"], "en": "Ana is very nice.", "it": "Ana è molto simpatica.",
+         "hint": {"en": "Character: ser.", "it": "Il carattere: ser."}},
+        {"type": "build", "beat": "mix",
+         "intention": {"en": "Say the bank is closed now, but the chemist's is open.", "it": "Di che adesso la banca è chiusa, ma la farmacia è aperta."},
+         "accepted": ["El banco está cerrado ahora, pero la farmacia está abierta.", "Ahora el banco está cerrado, pero la farmacia está abierta."],
+         "tiles": ["El banco", "está", "cerrado", "ahora", "pero", "la farmacia", "está", "abierta", "es"],
+         "en": "The bank is closed now, but the chemist's is open.", "it": "Adesso la banca è chiusa, ma la farmacia è aperta.",
+         "hint": {"en": "Open and closed: estar, both times.", "it": "Aperto e chiuso: estar, tutte e due le volte."}},
+        {"type": "write", "beat": "mix",
+         "instruction": {"en": "Describe a friend: what they are like (ser) and how they are today (estar), joined with pero.", "it": "Descrivi un amico: com'è (ser) e come sta oggi (estar), unendo con pero."},
+         "required": ["es", "está", "pero"],
+         "model": {"es": "Mi amigo es muy divertido, pero hoy está triste.", "en": "My friend is really fun, but today he's sad.", "it": "Il mio amico è molto divertente, ma oggi è triste."}}
+      ]
+    }
+  ],
+  "boss": {
+    "id": "u3boss",
+    "goal": {"en": "It's your first day at a new office in Madrid. Carmen, the boss, welcomes you. Introduce yourself, meet your colleagues, then tell your sister what they are like.", "it": "È il tuo primo giorno in un nuovo ufficio a Madrid. Carmen, la capa, ti accoglie. Presentati, conosci i colleghi e poi racconta a tua sorella come sono."},
+    "target": {"es": "Mi compañera es muy simpática, pero ahora estoy cansado.", "en": "My colleague is really nice, but now I'm tired.", "it": "La mia collega è molto simpatica, ma adesso sono stanco."},
+    "names": ["Carmen", "Luis", "Marta", "Madrid"],
+    "items": [
+      {"type": "words", "words": [
+        {"es": "compañero", "en": "colleague (man)", "it": "collega (uomo)", "kind": "chunk"},
+        {"es": "compañera", "en": "colleague (woman)", "it": "collega (donna)", "kind": "chunk"},
+        {"es": "compañeros", "en": "colleagues", "it": "colleghi", "kind": "chunk"}
+      ]},
+      {"type": "words", "words": [
+        {"es": "el jefe", "en": "the boss (man)", "it": "il capo", "kind": "chunk"},
+        {"es": "la jefa", "en": "the boss (woman)", "it": "la capa", "kind": "chunk"},
+        {"es": "nuevo", "en": "new", "it": "nuovo", "kind": "chunk"},
+        {"es": "nueva", "en": "new (feminine)", "it": "nuova", "kind": "chunk"}
+      ]},
+      {"type": "build",
+       "intention": {"en": "Carmen says: «¡Hola! Soy Carmen, la jefa.» Say hello, your name, and that you're new.", "it": "Carmen dice: «¡Hola! Soy Carmen, la jefa.» Saluta, di' il tuo nome e che sei nuovo/a."},
+       "accepted": ["Hola, soy {name}. Soy nuevo.", "Hola, soy {name}. Soy nueva.", "Hola, me llamo {name}. Soy nuevo.", "Hola, me llamo {name}. Soy nueva."],
+       "tiles": ["Hola", "soy", "{name}", "Soy", "nuevo", "nueva", "estoy"],
+       "en": "Hi, I'm {name}. I'm new.", "it": "Ciao, sono {name}. Sono nuovo.",
+       "hint": {"en": "Who you are and what you are: ser.", "it": "Chi sei e cosa sei: ser."}},
+      {"type": "choose", "before": "«¿De dónde eres?» ", "after": " de Inglaterra, pero vivo en {city}.",
+       "options": ["Soy", "Estoy", "Es"], "answer": "Soy",
+       "en": "Where are you from? — I'm from England, but I live in {city}.", "it": "Di dove sei? — Sono dell'Inghilterra, ma vivo a {city}.",
+       "hint": {"en": "Origin: ser.", "it": "L'origine: ser."}},
+      {"type": "choose", "before": "«¿Estás nervioso?» Sí, ", "after": " un poco nervioso.",
+       "options": ["soy", "estoy", "está"], "answer": "estoy",
+       "en": "Are you nervous? — Yes, I'm a bit nervous.", "it": "Sei nervoso? — Sì, sono un po' nervoso.",
+       "hint": {"en": "How you feel now: estar.", "it": "Come ti senti adesso: estar."}},
+      {"type": "gap", "before": "«Tu compañero se llama Luis.» ¿Y dónde ", "after": " Luis?", "label": "estar",
+       "accepted": ["está"], "en": "Your colleague is called Luis. — And where is Luis?", "it": "Il tuo collega si chiama Luis. — E dov'è Luis?",
+       "hint": {"en": "Where someone is: estar, él está.", "it": "Dove si trova qualcuno: estar, él está."}},
+      {"type": "build",
+       "intention": {"en": "Luis asks: «¿Dónde vives?» Say you live in your city, near the station.", "it": "Luis chiede: «¿Dónde vives?» Di che vivi nella tua città, vicino alla stazione."},
+       "accepted": ["Vivo en {city}, cerca de la estación.", "Vivo en {city}, lejos de la estación."],
+       "tiles": ["Vivo", "en", "{city}", "cerca de", "la estación", "lejos de"],
+       "en": "I live in {city}, near the station.", "it": "Vivo a {city}, vicino alla stazione.",
+       "hint": {"en": "Vivo en..., then cerca de + the place.", "it": "Vivo en..., poi cerca de + il luogo."}},
+      {"type": "gap", "before": "«Marta y yo somos de Madrid.» ¿Vosotros ", "after": " de Madrid? ¡Yo vivo en el centro!", "label": "ser",
+       "accepted": ["sois"], "en": "Marta and I are from Madrid. — You two are from Madrid? I live in the centre!", "it": "Marta e io siamo di Madrid. — Siete di Madrid? Io vivo in centro!",
+       "hint": {"en": "Origin with vosotros: sois.", "it": "Origine con vosotros: sois."}},
+      {"type": "choose", "before": "¿Qué tal? ¿", "after": " ocupados hoy?",
+       "options": ["Sois", "Estáis", "Están"], "answer": "Estáis",
+       "en": "How's it going? Are you two busy today?", "it": "Come va? Siete occupati oggi?",
+       "hint": {"en": "Busy today is a state: estar, vosotros estáis.", "it": "Occupato oggi è uno stato: estar, vosotros estáis."}},
+      {"type": "build",
+       "intention": {"en": "In the evening your sister asks: «¿Cómo son tus compañeros?» Say they are very nice.", "it": "La sera tua sorella chiede: «¿Cómo son tus compañeros?» Di che sono molto simpatici."},
+       "accepted": ["Mis compañeros son muy simpáticos.", "Son muy simpáticos."],
+       "tiles": ["Mis compañeros", "son", "muy", "simpáticos", "simpático", "están"],
+       "en": "My colleagues are very nice.", "it": "I miei colleghi sono molto simpatici.",
+       "hint": {"en": "Character: ser. More than one: -s.", "it": "Carattere: ser. Più di uno: -s."}},
+      {"type": "choose", "before": "«¿Y la jefa?» La jefa ", "after": " muy trabajadora.",
+       "options": ["es", "está", "son"], "answer": "es",
+       "en": "And the boss? — The boss is very hard-working.", "it": "E la capa? — La capa è una gran lavoratrice.",
+       "hint": {"en": "What she is like: ser.", "it": "Com'è lei: ser."}},
+      {"type": "gap", "before": "Marta es simpática, pero un poco ", "after": ".", "label": "tímido",
+       "accepted": ["tímida"], "en": "Marta is nice, but a bit shy.", "it": "Marta è simpatica, ma un po' timida.",
+       "hint": {"en": "Marta is a woman: -a.", "it": "Marta è una donna: -a."}},
+      {"type": "choose", "before": "Y Luis es alto y muy ", "after": ".",
+       "options": ["divertido", "divertida", "divertidos"], "answer": "divertido",
+       "en": "And Luis is tall and very fun.", "it": "E Luis è alto e molto divertente.",
+       "hint": {"en": "One man: -o.", "it": "Un uomo: -o."}},
+      {"type": "write",
+       "instruction": {"en": "Sum up your day: what a colleague is like (ser) and how you are now (estar), joined with pero.", "it": "Riassumi la giornata: com'è un collega (ser) e come stai adesso (estar), unendo con pero."},
+       "required": ["es", "estoy", "pero"],
+       "model": {"es": "Mi compañera es muy simpática, pero ahora estoy cansado.", "en": "My colleague is really nice, but now I'm tired.", "it": "La mia collega è molto simpatica, ma adesso sono stanco."}}
+    ]
+  }
+}

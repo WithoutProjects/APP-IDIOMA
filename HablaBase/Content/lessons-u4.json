@@ -1,0 +1,662 @@
+{
+  "unit": "u4",
+  "lessons": [
+    {
+      "id": "u4l1",
+      "goal": {"en": "Say what you have, how old you are, and when you're hungry or thirsty.", "it": "Di cosa hai, quanti anni hai e quando hai fame o sete."},
+      "target": {"es": "¿Cuántos años tienes? Tengo 30 años y tengo un perro.", "en": "How old are you? I'm 30 and I have a dog.", "it": "Quanti anni hai? Ho 30 anni e ho un cane."},
+      "names": ["Ana"],
+      "items": [
+        {"type": "words", "words": [
+          {"es": "tener", "en": "to have", "it": "avere", "kind": "stem"},
+          {"es": "¿cuántos años tienes?", "en": "how old are you?", "it": "quanti anni hai?", "kind": "chunk"},
+          {"es": "años", "en": "years (old)", "it": "anni", "kind": "chunk"},
+          {"es": "hambre", "en": "hunger (tener hambre: to be hungry)", "it": "fame (avere fame)", "kind": "chunk"},
+          {"es": "sed", "en": "thirst (tener sed: to be thirsty)", "it": "sete (avere sete)", "kind": "chunk"}
+        ]},
+        {"type": "words", "words": [
+          {"es": "un coche", "en": "a car", "it": "una macchina", "kind": "chunk"},
+          {"es": "un perro", "en": "a dog", "it": "un cane", "kind": "chunk"},
+          {"es": "un gato", "en": "a cat", "it": "un gatto", "kind": "chunk"},
+          {"es": "un piso", "en": "a flat", "it": "un appartamento", "kind": "chunk"}
+        ]},
+
+        {"type": "explain",
+         "bricks": [{"text": "Tengo", "kind": "stem"}, {"text": "un perro", "kind": "chunk"}],
+         "rule": {"en": "tener (to have) is irregular: tengo, tienes, tiene.", "it": "tener (avere) è irregolare: tengo, tienes, tiene."},
+         "examples": [
+           {"es": "Tengo un perro.", "en": "I have a dog.", "it": "Ho un cane."},
+           {"es": "¿Tienes un coche?", "en": "Do you have a car?", "it": "Hai la macchina?"},
+           {"es": "Mi hermana tiene un gato.", "en": "My sister has a cat.", "it": "Mia sorella ha un gatto."}
+         ],
+         "teaches": [
+           {"es": "tengo", "en": "I have", "it": "ho"},
+           {"es": "tienes", "en": "you have", "it": "hai"},
+           {"es": "tiene", "en": "he/she has", "it": "ha"}
+         ]},
+        {"type": "choose", "beat": "forge", "before": "¿", "after": " un coche?",
+         "options": ["Tengo", "Tienes", "Tiene"], "answer": "Tienes",
+         "en": "Do you have a car?", "it": "Hai la macchina?",
+         "hint": {"en": "Asking someone: tú tienes.", "it": "Chiedi a qualcuno: tú tienes."}},
+        {"type": "build", "beat": "fire",
+         "intention": {"en": "Say that you have a dog and a cat.", "it": "Di che hai un cane e un gatto."},
+         "accepted": ["Tengo un perro y un gato.", "Yo tengo un perro y un gato."],
+         "tiles": ["Tengo", "un perro", "y", "un gato", "Tiene"],
+         "en": "I have a dog and a cat.", "it": "Ho un cane e un gatto.",
+         "hint": {"en": "Talking about yourself: tengo.", "it": "Parli di te: tengo."}},
+
+        {"type": "explain",
+         "bricks": [{"text": "Tengo", "kind": "stem"}, {"text": "30", "kind": "chunk"}, {"text": "años", "kind": "chunk"}],
+         "rule": {"en": "In Spanish you have your age, you don't 'be' it: tener + number + años.", "it": "Come in italiano, l'età si ha: tener + numero + años."},
+         "examples": [
+           {"es": "¿Cuántos años tienes?", "en": "How old are you?", "it": "Quanti anni hai?"},
+           {"es": "Tengo 30 años.", "en": "I'm 30.", "it": "Ho 30 anni."},
+           {"es": "Mi padre tiene 60 años.", "en": "My father is 60.", "it": "Mio padre ha 60 anni."}
+         ],
+         "teaches": []},
+        {"type": "build", "beat": "forge",
+         "intention": {"en": "Someone asks «¿Cuántos años tienes?». Say you are 25.", "it": "Ti chiedono «¿Cuántos años tienes?». Di che hai 25 anni."},
+         "accepted": ["Tengo 25 años."],
+         "tiles": ["Tengo", "25", "años", "Soy"],
+         "en": "I'm 25.", "it": "Ho 25 anni.",
+         "hint": {"en": "Age uses tener, not ser.", "it": "L'età vuole tener, non ser."}},
+        {"type": "gap", "beat": "fire", "before": "Mi madre ", "after": " 58 años.", "label": "tener",
+         "accepted": ["tiene"], "en": "My mother is 58.", "it": "Mia madre ha 58 anni.",
+         "hint": {"en": "Mi madre = ella: tiene.", "it": "Mi madre = ella: tiene."}},
+
+        {"type": "explain",
+         "bricks": [{"text": "Tengo", "kind": "stem"}, {"text": "hambre", "kind": "chunk"}],
+         "rule": {"en": "Hungry and thirsty use tener too: tengo hambre, tengo sed.", "it": "Anche fame e sete vogliono tener: tengo hambre, tengo sed. Proprio come in italiano!"},
+         "examples": [
+           {"es": "Tengo hambre.", "en": "I'm hungry.", "it": "Ho fame."},
+           {"es": "¿Tienes sed?", "en": "Are you thirsty?", "it": "Hai sete?"},
+           {"es": "Ana tiene hambre y sed.", "en": "Ana is hungry and thirsty.", "it": "Ana ha fame e sete."}
+         ],
+         "teaches": []},
+        {"type": "choose", "beat": "forge", "before": "Yo ", "after": " sed.",
+         "options": ["tengo", "estoy", "soy"], "answer": "tengo",
+         "en": "I'm thirsty.", "it": "Ho sete.",
+         "hint": {"en": "In Spanish you have thirst: tengo sed.", "it": "In spagnolo la sete si ha: tengo sed."}},
+        {"type": "build", "beat": "fire",
+         "intention": {"en": "Say you're hungry, then ask your friend if they're thirsty.", "it": "Di che hai fame, poi chiedi al tuo amico se ha sete."},
+         "accepted": ["Tengo hambre. ¿Tienes sed?", "Tengo hambre. ¿Tú tienes sed?"],
+         "tiles": ["Tengo", "hambre", "Tienes", "sed", "Estoy"],
+         "en": "I'm hungry. Are you thirsty?", "it": "Ho fame. Hai sete?",
+         "hint": {"en": "tengo for you, tienes for your friend.", "it": "tengo per te, tienes per il tuo amico."}},
+
+        {"type": "explain",
+         "bricks": [{"text": "Tenemos", "kind": "stem"}, {"text": "un piso", "kind": "chunk"}],
+         "rule": {"en": "For more than one: tenemos, tenéis, tienen. Plural animals add -s: perros, gatos.", "it": "Per più persone: tenemos, tenéis, tienen. Gli animali al plurale aggiungono -s: perros, gatos."},
+         "examples": [
+           {"es": "Tenemos un piso en el centro.", "en": "We have a flat in the town centre.", "it": "Abbiamo un appartamento in centro."},
+           {"es": "¿Tenéis hambre?", "en": "Are you two hungry?", "it": "Avete fame?"},
+           {"es": "Mis padres tienen perros y gatos.", "en": "My parents have dogs and cats.", "it": "I miei genitori hanno cani e gatti."}
+         ],
+         "teaches": [
+           {"es": "tenemos", "en": "we have", "it": "abbiamo"},
+           {"es": "tenéis", "en": "you all have", "it": "avete"},
+           {"es": "tienen", "en": "they have", "it": "hanno"},
+           {"es": "perros", "en": "dogs", "it": "cani"},
+           {"es": "gatos", "en": "cats", "it": "gatti"}
+         ]},
+        {"type": "choose", "beat": "forge", "before": "Nosotros ", "after": " un gato.",
+         "options": ["tenemos", "tenéis", "tienen"], "answer": "tenemos",
+         "en": "We have a cat.", "it": "Abbiamo un gatto.",
+         "hint": {"en": "nosotros: tenemos.", "it": "nosotros: tenemos."}},
+        {"type": "gap", "beat": "fire", "before": "Mis amigos ", "after": " perros.", "label": "tener",
+         "accepted": ["tienen"], "en": "My friends have dogs.", "it": "I miei amici hanno dei cani.",
+         "hint": {"en": "Mis amigos = ellos: tienen.", "it": "Mis amigos = ellos: tienen."}},
+
+        {"type": "gap", "beat": "mix", "before": "¿Vosotros ", "after": " sed?", "label": "tener",
+         "accepted": ["tenéis"], "en": "Are you two thirsty?", "it": "Avete sete?",
+         "hint": {"en": "vosotros: tenéis.", "it": "vosotros: tenéis."}},
+        {"type": "build", "beat": "mix",
+         "intention": {"en": "Ask someone how old they are.", "it": "Chiedi a qualcuno quanti anni ha."},
+         "accepted": ["¿Cuántos años tienes?", "¿Cuántos años tienes tú?"],
+         "tiles": ["Cuántos", "años", "tienes", "eres"],
+         "en": "How old are you?", "it": "Quanti anni hai?",
+         "hint": {"en": "Age uses tener: tienes.", "it": "L'età vuole tener: tienes."}},
+        {"type": "write", "beat": "mix",
+         "instruction": {"en": "Talk about you: say how old you are and something you have.", "it": "Parla di te: quanti anni hai e qualcosa che hai."},
+         "required": ["tengo", "años"],
+         "model": {"es": "Tengo 30 años y tengo un gato.", "en": "I'm 30 and I have a cat.", "it": "Ho 30 anni e ho un gatto."}}
+      ]
+    },
+
+    {
+      "id": "u4l2",
+      "goal": {"en": "Say what you have to do, with tener que + a verb.", "it": "Di cosa devi fare, con tener que + un verbo."},
+      "target": {"es": "Mañana tengo que trabajar y llamar a mi madre.", "en": "Tomorrow I have to work and call my mother.", "it": "Domani devo lavorare e chiamare mia madre."},
+      "names": ["Ana"],
+      "items": [
+        {"type": "words", "words": [
+          {"es": "tener que", "en": "to have to", "it": "dovere", "kind": "chunk"},
+          {"es": "limpiar", "en": "to clean", "it": "pulire", "kind": "stem"},
+          {"es": "llamar", "en": "to call", "it": "chiamare", "kind": "stem"},
+          {"es": "esperar", "en": "to wait", "it": "aspettare", "kind": "stem"},
+          {"es": "pagar", "en": "to pay", "it": "pagare", "kind": "stem"}
+        ]},
+        {"type": "words", "words": [
+          {"es": "mañana", "en": "tomorrow", "it": "domani", "kind": "time"},
+          {"es": "la cuenta", "en": "the bill", "it": "il conto", "kind": "chunk"},
+          {"es": "el autobús", "en": "the bus", "it": "l'autobus", "kind": "chunk"}
+        ]},
+
+        {"type": "explain",
+         "bricks": [{"text": "pag-", "kind": "stem"}, {"text": "-amos", "kind": "ending"}],
+         "result": {"stem": "pag", "ending": "amos"},
+         "rule": {"en": "limpiar, llamar, esperar and pagar are regular AR verbs: same endings as hablar.", "it": "limpiar, llamar, esperar e pagar sono verbi regolari in AR: stesse desinenze di hablar."},
+         "examples": [
+           {"es": "Limpio la casa.", "en": "I clean the house.", "it": "Pulisco la casa."},
+           {"es": "¿Llamas a tu madre?", "en": "Are you calling your mother?", "it": "Chiami tua madre?"},
+           {"es": "Esperamos el autobús.", "en": "We're waiting for the bus.", "it": "Aspettiamo l'autobus."}
+         ],
+         "teaches": [
+           {"es": "limpio", "en": "I clean", "it": "pulisco"},
+           {"es": "limpias", "en": "you clean", "it": "pulisci"},
+           {"es": "limpia", "en": "he/she cleans", "it": "pulisce"},
+           {"es": "limpiamos", "en": "we clean", "it": "puliamo"},
+           {"es": "limpiáis", "en": "you all clean", "it": "pulite"},
+           {"es": "limpian", "en": "they clean", "it": "puliscono"},
+           {"es": "llamo", "en": "I call", "it": "chiamo"},
+           {"es": "llamas", "en": "you call", "it": "chiami"},
+           {"es": "llama", "en": "he/she calls", "it": "chiama"},
+           {"es": "llamamos", "en": "we call", "it": "chiamiamo"},
+           {"es": "llamáis", "en": "you all call", "it": "chiamate"},
+           {"es": "llaman", "en": "they call", "it": "chiamano"},
+           {"es": "espero", "en": "I wait", "it": "aspetto"},
+           {"es": "esperas", "en": "you wait", "it": "aspetti"},
+           {"es": "espera", "en": "he/she waits", "it": "aspetta"},
+           {"es": "esperamos", "en": "we wait", "it": "aspettiamo"},
+           {"es": "esperáis", "en": "you all wait", "it": "aspettate"},
+           {"es": "esperan", "en": "they wait", "it": "aspettano"},
+           {"es": "pago", "en": "I pay", "it": "pago"},
+           {"es": "pagas", "en": "you pay", "it": "paghi"},
+           {"es": "paga", "en": "he/she pays", "it": "paga"},
+           {"es": "pagamos", "en": "we pay", "it": "paghiamo"},
+           {"es": "pagáis", "en": "you all pay", "it": "pagate"},
+           {"es": "pagan", "en": "they pay", "it": "pagano"}
+         ]},
+        {"type": "snap", "beat": "forge", "person": "nosotros",
+         "prompt": {"en": "we pay", "it": "paghiamo"},
+         "stems": ["pag", "limpi", "llam"], "endings": ["amos", "emos", "imos"],
+         "answer": {"stem": "pag", "ending": "amos"}},
+        {"type": "snap", "beat": "fire", "person": "ellos",
+         "prompt": {"en": "they wait", "it": "aspettano"},
+         "stems": ["esper", "pag", "llam"], "endings": ["an", "en", "as"],
+         "answer": {"stem": "esper", "ending": "an"}},
+
+        {"type": "explain",
+         "bricks": [{"text": "Tengo", "kind": "stem"}, {"text": "que", "kind": "rail"}, {"text": "trabajar", "kind": "chunk"}],
+         "rule": {"en": "To say what you must do: tener que + the verb as it is in the dictionary (-ar, -er, -ir).", "it": "Per dire cosa devi fare: tener que + il verbo all'infinito (-ar, -er, -ir)."},
+         "examples": [
+           {"es": "Tengo que trabajar.", "en": "I have to work.", "it": "Devo lavorare."},
+           {"es": "Tienes que pagar la cuenta.", "en": "You have to pay the bill.", "it": "Devi pagare il conto."},
+           {"es": "Mañana tengo que limpiar la casa.", "en": "Tomorrow I have to clean the house.", "it": "Domani devo pulire la casa."}
+         ],
+         "teaches": []},
+        {"type": "choose", "beat": "forge", "before": "Tengo que ", "after": " el autobús.",
+         "options": ["esperar", "espero"], "answer": "esperar",
+         "en": "I have to wait for the bus.", "it": "Devo aspettare l'autobus.",
+         "hint": {"en": "After tener que, the verb stays in -ar.", "it": "Dopo tener que, il verbo resta in -ar."}},
+        {"type": "build", "beat": "fire",
+         "intention": {"en": "Say that you have to call your mother.", "it": "Di che devi chiamare tua madre."},
+         "accepted": ["Tengo que llamar a mi madre."],
+         "tiles": ["Tengo", "que", "llamar", "a", "mi madre", "llamo"],
+         "en": "I have to call my mother.", "it": "Devo chiamare mia madre.",
+         "hint": {"en": "tengo que + llamar; before a person, add a.", "it": "tengo que + llamar; prima di una persona, aggiungi a."}},
+
+        {"type": "explain",
+         "bricks": [{"text": "Tienen", "kind": "stem"}, {"text": "que", "kind": "rail"}, {"text": "pagar", "kind": "chunk"}],
+         "rule": {"en": "Only tener changes with the person. The second verb never changes.", "it": "Solo tener cambia con la persona. Il secondo verbo non cambia mai."},
+         "examples": [
+           {"es": "Mis padres tienen que trabajar mañana.", "en": "My parents have to work tomorrow.", "it": "Domani i miei genitori devono lavorare."},
+           {"es": "¿Tenéis que pagar ahora?", "en": "Do you two have to pay now?", "it": "Dovete pagare adesso?"},
+           {"es": "Ana tiene que esperar el autobús.", "en": "Ana has to wait for the bus.", "it": "Ana deve aspettare l'autobus."}
+         ],
+         "teaches": []},
+        {"type": "gap", "beat": "forge", "before": "Ellos ", "after": " que limpiar la casa.", "label": "tener",
+         "accepted": ["tienen"], "en": "They have to clean the house.", "it": "Devono pulire la casa.",
+         "hint": {"en": "ellos: tienen que.", "it": "ellos: tienen que."}},
+        {"type": "gap", "beat": "fire", "before": "Mañana nosotros tenemos que ", "after": " la cuenta.", "label": "pagar",
+         "accepted": ["pagar"], "en": "Tomorrow we have to pay the bill.", "it": "Domani dobbiamo pagare il conto.",
+         "hint": {"en": "tenemos changes; pagar stays as it is.", "it": "tenemos cambia; pagar resta com'è."}},
+
+        {"type": "snap", "beat": "mix", "person": "yo",
+         "prompt": {"en": "I clean", "it": "pulisco"},
+         "stems": ["limpi", "llam", "pag"], "endings": ["o", "as", "a"],
+         "answer": {"stem": "limpi", "ending": "o"}},
+        {"type": "gap", "beat": "mix", "before": "¿Tú ", "after": " la cuenta hoy?", "label": "pagar",
+         "accepted": ["pagas"], "en": "Are you paying the bill today?", "it": "Paghi tu il conto oggi?",
+         "hint": {"en": "tú with an AR verb: -as.", "it": "tú con un verbo in AR: -as."}},
+        {"type": "build", "beat": "mix",
+         "intention": {"en": "Tell a friend you have to wait for the bus.", "it": "Di' a un amico che devi aspettare l'autobus."},
+         "accepted": ["Tengo que esperar el autobús."],
+         "tiles": ["Tengo", "que", "esperar", "el autobús", "espero"],
+         "en": "I have to wait for the bus.", "it": "Devo aspettare l'autobus.",
+         "hint": {"en": "tengo que + the verb in -ar.", "it": "tengo que + il verbo in -ar."}},
+        {"type": "write", "beat": "mix",
+         "instruction": {"en": "Say what you have to do tomorrow: two things, joined with y.", "it": "Di cosa devi fare domani: due cose, unite da y."},
+         "required": ["mañana", "tengo que", "y"],
+         "model": {"es": "Mañana tengo que trabajar en {work} y limpiar la casa.", "en": "Tomorrow I have to work {workEn} and clean the house.", "it": "Domani devo lavorare {workIt} e pulire la casa."}}
+      ]
+    },
+
+    {
+      "id": "u4l3",
+      "goal": {"en": "Say where you go and how, with ir a, al and del.", "it": "Di dove vai e come, con ir a, al e del."},
+      "target": {"es": "Hoy voy a la playa en tren.", "en": "Today I'm going to the beach by train.", "it": "Oggi vado al mare in treno."},
+      "items": [
+        {"type": "words", "words": [
+          {"es": "ir", "en": "to go", "it": "andare", "kind": "stem"},
+          {"es": "la playa", "en": "the beach", "it": "il mare, la spiaggia", "kind": "chunk"},
+          {"es": "el cine", "en": "the cinema", "it": "il cinema", "kind": "chunk"},
+          {"es": "el gimnasio", "en": "the gym", "it": "la palestra", "kind": "chunk"}
+        ]},
+        {"type": "words", "words": [
+          {"es": "el trabajo", "en": "work (the place)", "it": "il lavoro", "kind": "chunk"},
+          {"es": "el restaurante", "en": "the restaurant", "it": "il ristorante", "kind": "chunk"},
+          {"es": "en tren", "en": "by train", "it": "in treno", "kind": "chunk"},
+          {"es": "a pie", "en": "on foot", "it": "a piedi", "kind": "chunk"}
+        ]},
+
+        {"type": "explain",
+         "bricks": [{"text": "Voy", "kind": "stem"}, {"text": "a", "kind": "rail"}, {"text": "la playa", "kind": "chunk"}],
+         "rule": {"en": "ir (to go) is irregular: voy, vas, va. Put a before the place you go to.", "it": "ir (andare) è irregolare: voy, vas, va. Metti a prima del posto dove vai."},
+         "examples": [
+           {"es": "Voy a la playa.", "en": "I'm going to the beach.", "it": "Vado al mare."},
+           {"es": "¿Vas a la estación?", "en": "Are you going to the station?", "it": "Vai in stazione?"},
+           {"es": "Ella va a la farmacia.", "en": "She's going to the chemist's.", "it": "Lei va in farmacia."}
+         ],
+         "teaches": [
+           {"es": "voy", "en": "I go", "it": "vado"},
+           {"es": "vas", "en": "you go", "it": "vai"},
+           {"es": "va", "en": "he/she goes", "it": "va"}
+         ]},
+        {"type": "choose", "beat": "forge", "before": "Yo ", "after": " a la playa.",
+         "options": ["voy", "vas", "va"], "answer": "voy",
+         "en": "I'm going to the beach.", "it": "Vado al mare.",
+         "hint": {"en": "Talking about yourself: voy.", "it": "Parli di te: voy."}},
+        {"type": "choose", "beat": "fire", "before": "¿Tú ", "after": " a la estación?",
+         "options": ["voy", "vas", "va"], "answer": "vas",
+         "en": "Are you going to the station?", "it": "Vai in stazione?",
+         "hint": {"en": "Talking to someone: vas.", "it": "Parli con qualcuno: vas."}},
+
+        {"type": "explain",
+         "bricks": [{"text": "a", "kind": "rail"}, {"text": "+", "kind": "rail"}, {"text": "el", "kind": "chunk"}, {"text": "= al", "kind": "rail"}],
+         "rule": {"en": "a + el always becomes al, and de + el becomes del. With la, nothing changes.", "it": "a + el diventa sempre al, e de + el diventa del. Con la non cambia niente."},
+         "examples": [
+           {"es": "Voy al cine.", "en": "I'm going to the cinema.", "it": "Vado al cinema."},
+           {"es": "Ella va al gimnasio.", "en": "She goes to the gym.", "it": "Lei va in palestra."},
+           {"es": "Vivo cerca del centro.", "en": "I live near the town centre.", "it": "Abito vicino al centro."}
+         ],
+         "teaches": [
+           {"es": "al", "en": "to the (a + el)", "it": "al"},
+           {"es": "del", "en": "of/from the (de + el)", "it": "del, dal"}
+         ]},
+        {"type": "choose", "beat": "forge", "before": "Voy ", "after": " trabajo.",
+         "options": ["al", "a el", "a la"], "answer": "al",
+         "en": "I'm going to work.", "it": "Vado al lavoro.",
+         "hint": {"en": "el trabajo: a + el = al.", "it": "el trabajo: a + el = al."}},
+        {"type": "choose", "beat": "fire", "before": "La farmacia está cerca ", "after": " banco.",
+         "options": ["del", "de el", "de la"], "answer": "del",
+         "en": "The chemist's is near the bank.", "it": "La farmacia è vicino alla banca.",
+         "hint": {"en": "el banco: de + el = del.", "it": "el banco: de + el = del."}},
+
+        {"type": "explain",
+         "bricks": [{"text": "Vamos", "kind": "stem"}, {"text": "a la playa", "kind": "chunk"}, {"text": "en tren", "kind": "chunk"}],
+         "rule": {"en": "For more than one: vamos, vais, van. Say how you go with en tren or a pie.", "it": "Per più persone: vamos, vais, van. Di come vai con en tren o a pie."},
+         "examples": [
+           {"es": "Vamos a la playa en tren.", "en": "We're going to the beach by train.", "it": "Andiamo al mare in treno."},
+           {"es": "¿Vais al cine?", "en": "Are you two going to the cinema?", "it": "Andate al cinema?"},
+           {"es": "Mis padres van al trabajo a pie.", "en": "My parents walk to work.", "it": "I miei genitori vanno al lavoro a piedi."}
+         ],
+         "teaches": [
+           {"es": "vamos", "en": "we go", "it": "andiamo"},
+           {"es": "vais", "en": "you all go", "it": "andate"},
+           {"es": "van", "en": "they go", "it": "vanno"}
+         ]},
+        {"type": "gap", "beat": "forge", "before": "Nosotros ", "after": " al restaurante.", "label": "ir",
+         "accepted": ["vamos"], "en": "We're going to the restaurant.", "it": "Andiamo al ristorante.",
+         "hint": {"en": "nosotros: vamos.", "it": "nosotros: vamos."}},
+        {"type": "build", "beat": "fire",
+         "intention": {"en": "Say that you go to work on foot.", "it": "Di che vai al lavoro a piedi."},
+         "accepted": ["Voy al trabajo a pie.", "Voy a pie al trabajo."],
+         "tiles": ["Voy", "al", "trabajo", "a pie", "en tren", "va"],
+         "en": "I walk to work.", "it": "Vado al lavoro a piedi.",
+         "hint": {"en": "voy + al + the place, then how.", "it": "voy + al + il posto, poi come."}},
+
+        {"type": "gap", "beat": "mix", "before": "¿Vosotros ", "after": " al gimnasio hoy?", "label": "ir",
+         "accepted": ["vais"], "en": "Are you two going to the gym today?", "it": "Andate in palestra oggi?",
+         "hint": {"en": "vosotros: vais.", "it": "vosotros: vais."}},
+        {"type": "choose", "beat": "mix", "before": "Mis amigos ", "after": " al cine.",
+         "options": ["va", "vamos", "van"], "answer": "van",
+         "en": "My friends are going to the cinema.", "it": "I miei amici vanno al cinema.",
+         "hint": {"en": "Mis amigos = ellos: van.", "it": "Mis amigos = ellos: van."}},
+        {"type": "build", "beat": "mix",
+         "intention": {"en": "Ask your friend if they're going to the beach by train.", "it": "Chiedi al tuo amico se va al mare in treno."},
+         "accepted": ["¿Vas a la playa en tren?", "¿Tú vas a la playa en tren?"],
+         "tiles": ["Vas", "a", "la playa", "en tren", "al", "Voy"],
+         "en": "Are you going to the beach by train?", "it": "Vai al mare in treno?",
+         "hint": {"en": "la playa is feminine: a la, not al.", "it": "la playa è femminile: a la, non al."}},
+        {"type": "write", "beat": "mix",
+         "instruction": {"en": "Say where you go today and how: en tren or a pie.", "it": "Di dove vai oggi e come: en tren o a pie."},
+         "required": ["hoy", "voy"],
+         "model": {"es": "Hoy voy al trabajo en tren y voy al gimnasio a pie.", "en": "Today I'm going to work by train and walking to the gym.", "it": "Oggi vado al lavoro in treno e vado in palestra a piedi."}}
+      ]
+    },
+
+    {
+      "id": "u4l4",
+      "goal": {"en": "Say what there is in a home or a town, with hay.", "it": "Di cosa c'è in una casa o in una città, con hay."},
+      "target": {"es": "En mi piso hay un salón grande y muchas ventanas.", "en": "In my flat there's a big living room and lots of windows.", "it": "Nel mio appartamento c'è un soggiorno grande e ci sono tante finestre."},
+      "items": [
+        {"type": "words", "words": [
+          {"es": "hay", "en": "there is, there are", "it": "c'è, ci sono", "kind": "chunk"},
+          {"es": "la cocina", "en": "the kitchen", "it": "la cucina", "kind": "chunk"},
+          {"es": "el dormitorio", "en": "the bedroom", "it": "la camera da letto", "kind": "chunk"},
+          {"es": "el salón", "en": "the living room", "it": "il soggiorno", "kind": "chunk"},
+          {"es": "el balcón", "en": "the balcony", "it": "il balcone", "kind": "chunk"}
+        ]},
+        {"type": "words", "words": [
+          {"es": "una cama", "en": "a bed", "it": "un letto", "kind": "chunk"},
+          {"es": "un sofá", "en": "a sofa", "it": "un divano", "kind": "chunk"},
+          {"es": "una ventana", "en": "a window", "it": "una finestra", "kind": "chunk"},
+          {"es": "grande", "en": "big", "it": "grande", "kind": "chunk"},
+          {"es": "pequeño", "en": "small", "it": "piccolo", "kind": "chunk"}
+        ]},
+
+        {"type": "explain",
+         "bricks": [{"text": "Hay", "kind": "stem"}, {"text": "un sofá", "kind": "chunk"}],
+         "rule": {"en": "hay means there is and there are: one word for both. no hay = there isn't, there aren't.", "it": "hay significa c'è e ci sono: una sola parola per tutti e due. no hay = non c'è, non ci sono."},
+         "examples": [
+           {"es": "Hay un sofá en el salón.", "en": "There's a sofa in the living room.", "it": "In soggiorno c'è un divano."},
+           {"es": "En la cocina hay una ventana.", "en": "There's a window in the kitchen.", "it": "In cucina c'è una finestra."},
+           {"es": "No hay balcón.", "en": "There's no balcony.", "it": "Non c'è il balcone."}
+         ],
+         "teaches": [
+           {"es": "no hay", "en": "there isn't, there aren't", "it": "non c'è, non ci sono"}
+         ]},
+        {"type": "build", "beat": "forge",
+         "intention": {"en": "Say there's a bed in the bedroom.", "it": "Di che in camera da letto c'è un letto."},
+         "accepted": ["Hay una cama en el dormitorio.", "En el dormitorio hay una cama."],
+         "tiles": ["Hay", "una cama", "en", "el dormitorio", "está"],
+         "en": "There's a bed in the bedroom.", "it": "In camera da letto c'è un letto.",
+         "hint": {"en": "There is = hay.", "it": "C'è = hay."}},
+        {"type": "choose", "beat": "fire", "before": "En el salón ", "after": " un sofá y una ventana.",
+         "options": ["hay", "es", "tiene"], "answer": "hay",
+         "en": "In the living room there's a sofa and a window.", "it": "In soggiorno ci sono un divano e una finestra.",
+         "hint": {"en": "There is / there are: always hay.", "it": "C'è / ci sono: sempre hay."}},
+
+        {"type": "explain",
+         "bricks": [{"text": "hay", "kind": "stem"}, {"text": "un/una", "kind": "chunk"}, {"text": "≠", "kind": "rail"}, {"text": "el/la", "kind": "chunk"}, {"text": "está", "kind": "stem"}],
+         "rule": {"en": "hay + un/una says that something exists. está + el/la says where a thing you already know is.", "it": "hay + un/una dice che una cosa esiste. el/la + está dice dove si trova una cosa che già conosci."},
+         "examples": [
+           {"es": "Hay una farmacia cerca de aquí.", "en": "There's a chemist's near here.", "it": "C'è una farmacia qui vicino."},
+           {"es": "La farmacia está cerca de la estación.", "en": "The chemist's is near the station.", "it": "La farmacia è vicino alla stazione."},
+           {"es": "¿Dónde está el baño?", "en": "Where's the toilet?", "it": "Dov'è il bagno?"}
+         ],
+         "teaches": []},
+        {"type": "choose", "beat": "forge", "before": "¿", "after": " un supermercado cerca de aquí?",
+         "options": ["Hay", "Está"], "answer": "Hay",
+         "en": "Is there a supermarket near here?", "it": "C'è un supermercato qui vicino?",
+         "hint": {"en": "un supermercado: is there one at all? hay.", "it": "un supermercato: ce n'è uno? hay."}},
+        {"type": "choose", "beat": "fire", "before": "El sofá ", "after": " en el salón.",
+         "options": ["hay", "está"], "answer": "está",
+         "en": "The sofa is in the living room.", "it": "Il divano è in soggiorno.",
+         "hint": {"en": "el sofá: a thing you know, so where it is: está.", "it": "el sofá: una cosa che conosci, quindi dove si trova: está."}},
+
+        {"type": "explain",
+         "bricks": [{"text": "pequeñ-", "kind": "stem"}, {"text": "-a", "kind": "ending"}],
+         "result": {"stem": "pequeñ", "ending": "a"},
+         "rule": {"en": "pequeño changes like alto: pequeña. grande is the same for both, and grandes in the plural. Things in the plural add -s.", "it": "pequeño cambia come alto: pequeña. grande è uguale per tutti e due, e grandes al plurale. Le cose al plurale aggiungono -s."},
+         "examples": [
+           {"es": "La cocina es pequeña.", "en": "The kitchen is small.", "it": "La cucina è piccola."},
+           {"es": "Los dormitorios son grandes.", "en": "The bedrooms are big.", "it": "Le camere da letto sono grandi."},
+           {"es": "Hay ventanas en el salón.", "en": "There are windows in the living room.", "it": "In soggiorno ci sono delle finestre."}
+         ],
+         "teaches": [
+           {"es": "pequeña", "en": "small (feminine)", "it": "piccola"},
+           {"es": "grandes", "en": "big (plural)", "it": "grandi"},
+           {"es": "dormitorios", "en": "bedrooms", "it": "camere da letto"},
+           {"es": "ventanas", "en": "windows", "it": "finestre"}
+         ]},
+        {"type": "choose", "beat": "forge", "before": "La cocina es muy ", "after": ".",
+         "options": ["pequeño", "pequeña"], "answer": "pequeña",
+         "en": "The kitchen is very small.", "it": "La cucina è molto piccola.",
+         "hint": {"en": "la cocina is feminine: -a.", "it": "la cocina è femminile: -a."}},
+        {"type": "gap", "beat": "fire", "before": "Los dormitorios son ", "after": ".", "label": "grande",
+         "accepted": ["grandes"], "en": "The bedrooms are big.", "it": "Le camere da letto sono grandi.",
+         "hint": {"en": "Plural: grande + -s.", "it": "Plurale: grande + -s."}},
+
+        {"type": "explain",
+         "bricks": [{"text": "much-", "kind": "stem"}, {"text": "-as", "kind": "ending"}, {"text": "ventanas", "kind": "chunk"}],
+         "result": {"stem": "much", "ending": "as"},
+         "rule": {"en": "Before a thing, mucho (a lot of) matches it: mucho, mucha, muchos, muchas.", "it": "Prima di una cosa, mucho (molto) si accorda: mucho, mucha, muchos, muchas."},
+         "examples": [
+           {"es": "Hay muchas ventanas.", "en": "There are lots of windows.", "it": "Ci sono molte finestre."},
+           {"es": "Tengo muchos libros.", "en": "I have lots of books.", "it": "Ho molti libri."},
+           {"es": "No hay mucha agua.", "en": "There isn't much water.", "it": "Non c'è molta acqua."}
+         ],
+         "teaches": [
+           {"es": "mucha", "en": "a lot of (feminine)", "it": "molta"},
+           {"es": "muchos", "en": "many (masculine)", "it": "molti"},
+           {"es": "muchas", "en": "many (feminine)", "it": "molte"}
+         ]},
+        {"type": "choose", "beat": "forge", "before": "En el piso hay ", "after": " ventanas.",
+         "options": ["mucho", "muchos", "muchas"], "answer": "muchas",
+         "en": "There are lots of windows in the flat.", "it": "Nell'appartamento ci sono molte finestre.",
+         "hint": {"en": "ventanas: feminine plural, so muchas.", "it": "ventanas: femminile plurale, quindi muchas."}},
+        {"type": "gap", "beat": "fire", "before": "En el salón hay ", "after": " libros.", "label": "mucho",
+         "accepted": ["muchos"], "en": "There are lots of books in the living room.", "it": "In soggiorno ci sono molti libri.",
+         "hint": {"en": "libros: masculine plural, so muchos.", "it": "libros: maschile plurale, quindi muchos."}},
+
+        {"type": "build", "beat": "mix",
+         "intention": {"en": "Say there's no balcony, but the living room is big.", "it": "Di che non c'è il balcone, ma il soggiorno è grande."},
+         "accepted": ["No hay balcón, pero el salón es grande."],
+         "tiles": ["No hay", "balcón", "pero", "el salón", "es", "grande", "está"],
+         "en": "There's no balcony, but the living room is big.", "it": "Non c'è il balcone, ma il soggiorno è grande.",
+         "hint": {"en": "no hay for what's missing; ser to describe.", "it": "no hay per quello che manca; ser per descrivere."}},
+        {"type": "choose", "beat": "mix", "before": "¿Dónde ", "after": " la cocina?",
+         "options": ["hay", "está"], "answer": "está",
+         "en": "Where's the kitchen?", "it": "Dov'è la cucina?",
+         "hint": {"en": "Where a known thing is: está.", "it": "Dove si trova una cosa nota: está."}},
+        {"type": "write", "beat": "mix",
+         "instruction": {"en": "Describe your home: what there is (hay) and what it's like (es).", "it": "Descrivi casa tua: cosa c'è (hay) e com'è (es)."},
+         "required": ["hay", "es"],
+         "model": {"es": "En mi piso hay un salón grande, pero la cocina es pequeña.", "en": "In my flat there's a big living room, but the kitchen is small.", "it": "Nel mio appartamento c'è un soggiorno grande, ma la cucina è piccola."}}
+      ]
+    },
+
+    {
+      "id": "u4l5",
+      "goal": {"en": "Count to 100, say ages and understand prices in euros.", "it": "Conta fino a 100, di' l'età e capisci i prezzi in euro."},
+      "target": {"es": "¿Cuánto cuesta? Son veinticinco euros.", "en": "How much is it? It's twenty-five euros.", "it": "Quanto costa? Sono venticinque euro."},
+      "items": [
+        {"type": "words", "words": [
+          {"es": "uno", "en": "one", "it": "uno", "kind": "chunk"},
+          {"es": "dos", "en": "two", "it": "due", "kind": "chunk"},
+          {"es": "tres", "en": "three", "it": "tre", "kind": "chunk"},
+          {"es": "cuatro", "en": "four", "it": "quattro", "kind": "chunk"},
+          {"es": "cinco", "en": "five", "it": "cinque", "kind": "chunk"}
+        ]},
+        {"type": "words", "words": [
+          {"es": "seis", "en": "six", "it": "sei", "kind": "chunk"},
+          {"es": "siete", "en": "seven", "it": "sette", "kind": "chunk"},
+          {"es": "ocho", "en": "eight", "it": "otto", "kind": "chunk"},
+          {"es": "nueve", "en": "nine", "it": "nove", "kind": "chunk"},
+          {"es": "diez", "en": "ten", "it": "dieci", "kind": "chunk"}
+        ]},
+        {"type": "words", "words": [
+          {"es": "veinte", "en": "twenty", "it": "venti", "kind": "chunk"},
+          {"es": "cien", "en": "a hundred", "it": "cento", "kind": "chunk"},
+          {"es": "céntimos", "en": "cents", "it": "centesimi", "kind": "chunk"}
+        ]},
+
+        {"type": "explain",
+         "bricks": [{"text": "dieci", "kind": "stem"}, {"text": "+", "kind": "rail"}, {"text": "seis", "kind": "ending"}],
+         "rule": {"en": "Zero is cero. 11 to 15 have their own names: once, doce, trece, catorce, quince. 16 to 19 are dieci + the number: dieciséis.", "it": "Zero è cero. Da 11 a 15 hanno un nome proprio: once, doce, trece, catorce, quince. Da 16 a 19 sono dieci + il numero: dieciséis."},
+         "examples": [
+           {"es": "Mi hermano tiene doce años.", "en": "My brother is twelve.", "it": "Mio fratello ha dodici anni."},
+           {"es": "Son dieciocho euros.", "en": "That's eighteen euros.", "it": "Sono diciotto euro."},
+           {"es": "Mi hija tiene quince años.", "en": "My daughter is fifteen.", "it": "Mia figlia ha quindici anni."}
+         ],
+         "teaches": [
+           {"es": "cero", "en": "zero", "it": "zero"},
+           {"es": "once", "en": "eleven", "it": "undici"},
+           {"es": "doce", "en": "twelve", "it": "dodici"},
+           {"es": "trece", "en": "thirteen", "it": "tredici"},
+           {"es": "catorce", "en": "fourteen", "it": "quattordici"},
+           {"es": "quince", "en": "fifteen", "it": "quindici"},
+           {"es": "dieciséis", "en": "sixteen", "it": "sedici"},
+           {"es": "diecisiete", "en": "seventeen", "it": "diciassette"},
+           {"es": "dieciocho", "en": "eighteen", "it": "diciotto"},
+           {"es": "diecinueve", "en": "nineteen", "it": "diciannove"}
+         ]},
+        {"type": "choose", "beat": "forge", "before": "Mi hermano tiene ", "after": " años. (12)",
+         "options": ["once", "doce", "trece"], "answer": "doce",
+         "en": "My brother is twelve.", "it": "Mio fratello ha dodici anni.",
+         "hint": {"en": "12 = doce.", "it": "12 = doce."}},
+        {"type": "gap", "beat": "fire", "before": "Son ", "after": " euros.", "label": "18",
+         "accepted": ["dieciocho"], "en": "That's eighteen euros.", "it": "Sono diciotto euro.",
+         "hint": {"en": "16 to 19: dieci + the number, one word.", "it": "Da 16 a 19: dieci + il numero, una parola."}},
+
+        {"type": "explain",
+         "bricks": [{"text": "treinta", "kind": "stem"}, {"text": "y", "kind": "rail"}, {"text": "cinco", "kind": "ending"}],
+         "rule": {"en": "21 to 29 are one word: veintiuno, veintidós... From 31, join tens and units with y: treinta y cinco.", "it": "Da 21 a 29 si scrive tutto attaccato: veintiuno, veintidós... Da 31 in poi, decine e unità si uniscono con y: treinta y cinco."},
+         "examples": [
+           {"es": "Tengo treinta y cinco años.", "en": "I'm thirty-five.", "it": "Ho trentacinque anni."},
+           {"es": "Son cuarenta euros.", "en": "That's forty euros.", "it": "Sono quaranta euro."},
+           {"es": "Mi padre tiene sesenta y ocho años.", "en": "My father is sixty-eight.", "it": "Mio padre ha sessantotto anni."}
+         ],
+         "teaches": [
+           {"es": "veintiuno", "en": "twenty-one", "it": "ventuno"},
+           {"es": "veintidós", "en": "twenty-two", "it": "ventidue"},
+           {"es": "veintitrés", "en": "twenty-three", "it": "ventitré"},
+           {"es": "veinticinco", "en": "twenty-five", "it": "venticinque"},
+           {"es": "treinta", "en": "thirty", "it": "trenta"},
+           {"es": "cuarenta", "en": "forty", "it": "quaranta"},
+           {"es": "cincuenta", "en": "fifty", "it": "cinquanta"},
+           {"es": "sesenta", "en": "sixty", "it": "sessanta"},
+           {"es": "setenta", "en": "seventy", "it": "settanta"},
+           {"es": "ochenta", "en": "eighty", "it": "ottanta"},
+           {"es": "noventa", "en": "ninety", "it": "novanta"}
+         ]},
+        {"type": "gap", "beat": "forge", "before": "Mi madre tiene ", "after": " años.", "label": "50",
+         "accepted": ["cincuenta"], "en": "My mother is fifty.", "it": "Mia madre ha cinquant'anni.",
+         "hint": {"en": "50 = cinco → cincuenta.", "it": "50 = cinco → cincuenta."}},
+        {"type": "choose", "beat": "fire", "before": "Son ", "after": " euros. (32)",
+         "options": ["treinta y dos", "veintidós", "trece"], "answer": "treinta y dos",
+         "en": "That's thirty-two euros.", "it": "Sono trentadue euro.",
+         "hint": {"en": "From 31: tens + y + units.", "it": "Da 31: decine + y + unità."}},
+
+        {"type": "explain",
+         "bricks": [{"text": "cuesta", "kind": "stem"}, {"text": "un euro", "kind": "chunk"}],
+         "rule": {"en": "Before a noun, uno becomes un: un euro. Prices: cuesta for one thing; son for a total.", "it": "Davanti a un nome, uno diventa un: un euro. Prezzi: cuesta per una cosa; son per un totale."},
+         "examples": [
+           {"es": "¿Cuánto cuesta el pan? Un euro.", "en": "How much is the bread? One euro.", "it": "Quanto costa il pane? Un euro."},
+           {"es": "El queso cuesta cinco euros con cincuenta.", "en": "The cheese costs five euros fifty.", "it": "Il formaggio costa cinque euro e cinquanta."},
+           {"es": "Son veinte euros con diez céntimos.", "en": "That's twenty euros and ten cents.", "it": "Sono venti euro e dieci centesimi."}
+         ],
+         "teaches": [
+           {"es": "un euro", "en": "one euro", "it": "un euro"}
+         ]},
+        {"type": "build", "beat": "forge",
+         "intention": {"en": "Ask how much the cheese is.", "it": "Chiedi quanto costa il formaggio."},
+         "accepted": ["¿Cuánto cuesta el queso?"],
+         "tiles": ["Cuánto", "cuesta", "el queso", "son", "la"],
+         "en": "How much is the cheese?", "it": "Quanto costa il formaggio?",
+         "hint": {"en": "¿Cuánto cuesta + the thing?", "it": "¿Cuánto cuesta + la cosa?"}},
+        {"type": "choose", "beat": "fire", "before": "El café cuesta ", "after": " euro.",
+         "options": ["un", "uno"], "answer": "un",
+         "en": "The coffee costs one euro.", "it": "Il caffè costa un euro.",
+         "hint": {"en": "Before a noun: un.", "it": "Davanti a un nome: un."}},
+
+        {"type": "choose", "beat": "mix", "before": "Tengo ", "after": " años. (40)",
+         "options": ["catorce", "cuatro", "cuarenta"], "answer": "cuarenta",
+         "en": "I'm forty.", "it": "Ho quarant'anni.",
+         "hint": {"en": "40 = cuarenta; catorce is 14.", "it": "40 = cuarenta; catorce è 14."}},
+        {"type": "gap", "beat": "mix", "before": "La cuenta: son ", "after": " euros.", "label": "75",
+         "accepted": ["setenta y cinco"], "en": "The bill: that's seventy-five euros.", "it": "Il conto: sono settantacinque euro.",
+         "hint": {"en": "70 + y + 5.", "it": "70 + y + 5."}},
+        {"type": "build", "beat": "mix",
+         "intention": {"en": "Say the bread costs two euros twenty.", "it": "Di che il pane costa due euro e venti."},
+         "accepted": ["El pan cuesta dos euros con veinte."],
+         "tiles": ["El pan", "cuesta", "dos", "euros", "con", "veinte", "doce"],
+         "en": "The bread costs two euros twenty.", "it": "Il pane costa due euro e venti.",
+         "hint": {"en": "euros, then con + the cents.", "it": "euros, poi con + i centesimi."}},
+        {"type": "write", "beat": "mix",
+         "instruction": {"en": "Write your age in words, then how much a coffee costs in {city}.", "it": "Scrivi la tua età in lettere, poi quanto costa un caffè a {city}."},
+         "required": ["tengo", "años", "cuesta"],
+         "model": {"es": "Tengo treinta años. En {city}, un café cuesta un euro con cincuenta.", "en": "I'm thirty. In {city}, a coffee costs one euro fifty.", "it": "Ho trent'anni. A {city} un caffè costa un euro e cinquanta."}}
+      ]
+    }
+  ],
+  "boss": {
+    "id": "u4boss",
+    "goal": {"en": "You're visiting a flat to rent. Rosa, the owner, shows you around. Ask what it has, how much it costs, and tell her about you.", "it": "Visiti un appartamento in affitto. Rosa, la proprietaria, te lo mostra. Chiedi cosa c'è, quanto costa e parlale di te."},
+    "target": {"es": "¿Cuántos dormitorios hay? ¿Cuánto cuesta el alquiler al mes?", "en": "How many bedrooms are there? How much is the rent a month?", "it": "Quante camere da letto ci sono? Quanto costa l'affitto al mese?"},
+    "names": ["Rosa"],
+    "items": [
+      {"type": "words", "words": [
+        {"es": "el alquiler", "en": "the rent", "it": "l'affitto", "kind": "chunk"},
+        {"es": "al mes", "en": "a month", "it": "al mese", "kind": "chunk"},
+        {"es": "pequeños", "en": "small (plural)", "it": "piccoli", "kind": "chunk"}
+      ]},
+      {"type": "build",
+       "intention": {"en": "Rosa opens the door: «Hola, soy Rosa. ¿Tú eres {name}?» Say hello and yes, that's you.", "it": "Rosa apre la porta: «Hola, soy Rosa. ¿Tú eres {name}?» Saluta e di' di sì, sei tu."},
+       "accepted": ["Hola, Rosa. Sí, soy {name}.", "Hola. Sí, soy {name}."],
+       "tiles": ["Hola", "Rosa", "Sí", "soy", "{name}", "estoy"],
+       "en": "Hi, Rosa. Yes, I'm {name}.", "it": "Ciao, Rosa. Sì, sono {name}.",
+       "hint": {"en": "Who you are: ser, soy.", "it": "Chi sei: ser, soy."}},
+      {"type": "build",
+       "intention": {"en": "Ask how many bedrooms there are.", "it": "Chiedi quante camere da letto ci sono."},
+       "accepted": ["¿Cuántos dormitorios hay?", "¿Cuántos dormitorios tiene?"],
+       "tiles": ["Cuántos", "dormitorios", "hay", "está"],
+       "en": "How many bedrooms are there?", "it": "Quante camere da letto ci sono?",
+       "hint": {"en": "Is there / are there: hay.", "it": "C'è / ci sono: hay."}},
+      {"type": "choose", "before": "«Hay dos dormitorios.» ¿Y dónde ", "after": " el baño?",
+       "options": ["hay", "está"], "answer": "está",
+       "en": "There are two bedrooms. — And where's the bathroom?", "it": "Ci sono due camere da letto. — E dov'è il bagno?",
+       "hint": {"en": "el baño: where a known thing is, está.", "it": "el baño: dove si trova una cosa nota, está."}},
+      {"type": "choose", "before": "¿", "after": " balcón?",
+       "options": ["Hay", "Está", "Es"], "answer": "Hay",
+       "en": "Is there a balcony?", "it": "C'è un balcone?",
+       "hint": {"en": "Asking if something exists: hay.", "it": "Chiedi se una cosa esiste: hay."}},
+      {"type": "gap", "before": "«Y la cocina está aquí.» La cocina es muy ", "after": ".", "label": "pequeño",
+       "accepted": ["pequeña"], "en": "And the kitchen is here. — The kitchen is very small.", "it": "E qui c'è la cucina. — La cucina è molto piccola.",
+       "hint": {"en": "la cocina is feminine: -a.", "it": "la cocina è femminile: -a."}},
+      {"type": "choose", "before": "Y los dormitorios son ", "after": ", ¿verdad?",
+       "options": ["pequeño", "pequeña", "pequeños"], "answer": "pequeños",
+       "en": "And the bedrooms are small, aren't they?", "it": "E le camere da letto sono piccole, vero?",
+       "hint": {"en": "los dormitorios: masculine plural, -os.", "it": "los dormitorios: maschile plurale, -os."}},
+      {"type": "build",
+       "intention": {"en": "Ask how much the rent is a month.", "it": "Chiedi quanto costa l'affitto al mese."},
+       "accepted": ["¿Cuánto cuesta el alquiler al mes?", "¿Cuánto cuesta el alquiler?"],
+       "tiles": ["Cuánto", "cuesta", "el alquiler", "al mes", "es"],
+       "en": "How much is the rent a month?", "it": "Quanto costa l'affitto al mese?",
+       "hint": {"en": "¿Cuánto cuesta + the thing?", "it": "¿Cuánto cuesta + la cosa?"}},
+      {"type": "gap", "before": "«Son 900 euros al mes.» ¿", "after": " que pagar hoy?", "label": "tener",
+       "accepted": ["Tengo", "tengo"], "en": "It's 900 euros a month. — Do I have to pay today?", "it": "Sono 900 euro al mese. — Devo pagare oggi?",
+       "hint": {"en": "You must do it: tengo que.", "it": "Lo devi fare tu: tengo que."}},
+      {"type": "choose", "before": "¿El piso ", "after": " cerca de la estación?",
+       "options": ["hay", "está", "es"], "answer": "está",
+       "en": "Is the flat near the station?", "it": "L'appartamento è vicino alla stazione?",
+       "hint": {"en": "Where something is: estar.", "it": "Dove si trova qualcosa: estar."}},
+      {"type": "build",
+       "intention": {"en": "Rosa says: «Sí, está muy cerca.» Tell her you go to work by train.", "it": "Rosa dice: «Sí, está muy cerca.» Dille che vai al lavoro in treno."},
+       "accepted": ["Voy al trabajo en tren.", "Yo voy al trabajo en tren."],
+       "tiles": ["Voy", "al", "trabajo", "en tren", "a la", "va"],
+       "en": "I go to work by train.", "it": "Vado al lavoro in treno.",
+       "hint": {"en": "el trabajo: a + el = al.", "it": "el trabajo: a + el = al."}},
+      {"type": "choose", "before": "Mi novia y yo ", "after": " un perro. ¿Está bien?",
+       "options": ["tenemos", "tienen", "somos"], "answer": "tenemos",
+       "en": "My girlfriend and I have a dog. Is that OK?", "it": "La mia ragazza e io abbiamo un cane. Va bene?",
+       "hint": {"en": "Mi novia y yo = nosotros: tenemos.", "it": "Mi novia y yo = nosotros: tenemos."}},
+      {"type": "write",
+       "instruction": {"en": "Text your sister about the flat: what there is, what it's like, and the rent.", "it": "Scrivi a tua sorella dell'appartamento: cosa c'è, com'è e quanto costa l'affitto."},
+       "required": ["hay", "el alquiler", "al mes"],
+       "model": {"es": "El piso es pequeño, pero hay un balcón grande. El alquiler es de 900 euros al mes.", "en": "The flat is small, but there's a big balcony. The rent is 900 euros a month.", "it": "L'appartamento è piccolo, ma c'è un balcone grande. L'affitto è di 900 euro al mese."}}
+    ]
+  }
+}
