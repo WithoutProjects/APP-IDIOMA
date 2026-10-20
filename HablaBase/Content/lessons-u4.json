@@ -116,8 +116,8 @@
          "en": "How old are you?", "it": "Quanti anni hai?",
          "hint": {"en": "Age uses tener: tienes.", "it": "L'età vuole tener: tienes."}},
         {"type": "write", "beat": "mix",
-         "instruction": {"en": "Talk about you: say how old you are and something you have.", "it": "Parla di te: quanti anni hai e qualcosa che hai."},
-         "required": ["tengo", "años"],
+         "instruction": {"en": "Write in Spanish: «I'm 30 and I have a cat.»", "it": "Scrivi in spagnolo: «Ho 30 anni e ho un gatto.»"},
+         "accepted": ["Tengo 30 años y tengo un gato.", "Tengo 30 años y también tengo un gato.", "Yo tengo 30 años y tengo un gato.", "Yo tengo 30 años y también tengo un gato."],
          "model": {"es": "Tengo 30 años y tengo un gato.", "en": "I'm 30 and I have a cat.", "it": "Ho 30 anni e ho un gatto."}}
       ]
     },
@@ -234,8 +234,8 @@
          "en": "I have to wait for the bus.", "it": "Devo aspettare l'autobus.",
          "hint": {"en": "tengo que + the verb in -ar.", "it": "tengo que + il verbo in -ar."}},
         {"type": "write", "beat": "mix",
-         "instruction": {"en": "Say what you have to do tomorrow: two things, joined with y.", "it": "Di cosa devi fare domani: due cose, unite da y."},
-         "required": ["mañana", "tengo que", "y"],
+         "instruction": {"en": "Write in Spanish: «Tomorrow I have to work {workEn} and clean the house.»", "it": "Scrivi in spagnolo: «Domani devo lavorare {workIt} e pulire la casa.»"},
+         "accepted": ["Mañana tengo que trabajar en {work} y limpiar la casa.", "Mañana tengo que limpiar la casa y trabajar en {work}.", "Mañana yo tengo que trabajar en {work} y limpiar la casa.", "Mañana yo tengo que limpiar la casa y trabajar en {work}.", "Tengo que trabajar en {work} y limpiar la casa mañana.", "Yo tengo que trabajar en {work} y limpiar la casa mañana."],
          "model": {"es": "Mañana tengo que trabajar en {work} y limpiar la casa.", "en": "Tomorrow I have to work {workEn} and clean the house.", "it": "Domani devo lavorare {workIt} e pulire la casa."}}
       ]
     },
@@ -338,9 +338,9 @@
          "en": "Are you going to the beach by train?", "it": "Vai al mare in treno?",
          "hint": {"en": "la playa is feminine: a la, not al.", "it": "la playa è femminile: a la, non al."}},
         {"type": "write", "beat": "mix",
-         "instruction": {"en": "Say where you go today and how: en tren or a pie.", "it": "Di dove vai oggi e come: en tren o a pie."},
-         "required": ["hoy", "voy"],
-         "model": {"es": "Hoy voy al trabajo en tren y voy al gimnasio a pie.", "en": "Today I'm going to work by train and walking to the gym.", "it": "Oggi vado al lavoro in treno e vado in palestra a piedi."}}
+         "instruction": {"en": "Write in Spanish: «Today I go to work by train and I go to the gym on foot.»", "it": "Scrivi in spagnolo: «Oggi vado al lavoro in treno e vado in palestra a piedi.»"},
+         "accepted": ["Hoy voy al trabajo en tren y voy al gimnasio a pie.", "Hoy voy al trabajo en tren y voy a pie al gimnasio.", "Hoy voy al trabajo en tren y al gimnasio voy a pie.", "Hoy yo voy al trabajo en tren y voy al gimnasio a pie.", "Hoy yo voy al trabajo en tren y voy a pie al gimnasio.", "Hoy yo voy al trabajo en tren y al gimnasio voy a pie."],
+         "model": {"es": "Hoy voy al trabajo en tren y voy al gimnasio a pie.", "en": "Today I go to work by train and I go to the gym on foot.", "it": "Oggi vado al lavoro in treno e vado in palestra a piedi."}}
       ]
     },
 
@@ -460,8 +460,8 @@
          "en": "Where's the kitchen?", "it": "Dov'è la cucina?",
          "hint": {"en": "Where a known thing is: está.", "it": "Dove si trova una cosa nota: está."}},
         {"type": "write", "beat": "mix",
-         "instruction": {"en": "Describe your home: what there is (hay) and what it's like (es).", "it": "Descrivi casa tua: cosa c'è (hay) e com'è (es)."},
-         "required": ["hay", "es"],
+         "instruction": {"en": "Write in Spanish: «In my flat there's a big living room, but the kitchen is small.»", "it": "Scrivi in spagnolo: «Nel mio appartamento c'è un soggiorno grande, ma la cucina è piccola.»"},
+         "accepted": ["En mi piso hay un salón grande, pero la cocina es pequeña.", "Hay un salón grande en mi piso, pero la cocina es pequeña."],
          "model": {"es": "En mi piso hay un salón grande, pero la cocina es pequeña.", "en": "In my flat there's a big living room, but the kitchen is small.", "it": "Nel mio appartamento c'è un soggiorno grande, ma la cucina è piccola."}}
       ]
     },
@@ -584,8 +584,8 @@
          "en": "The bread costs two euros twenty.", "it": "Il pane costa due euro e venti.",
          "hint": {"en": "euros, then con + the cents.", "it": "euros, poi con + i centesimi."}},
         {"type": "write", "beat": "mix",
-         "instruction": {"en": "Write your age in words, then how much a coffee costs in {city}.", "it": "Scrivi la tua età in lettere, poi quanto costa un caffè a {city}."},
-         "required": ["tengo", "años", "cuesta"],
+         "instruction": {"en": "Write the numbers in words. Write in Spanish: «I'm thirty. In {city}, a coffee costs one euro fifty.»", "it": "Scrivi i numeri in lettere. Scrivi in spagnolo: «Ho trent'anni. A {city} un caffè costa un euro e cinquanta.»"},
+         "accepted": ["Tengo treinta años. En {city}, un café cuesta un euro con cincuenta.", "Tengo treinta años. En {city}, un café cuesta un euro cincuenta.", "Tengo treinta años. Un café cuesta un euro con cincuenta en {city}.", "Yo tengo treinta años. En {city}, un café cuesta un euro con cincuenta.", "Yo tengo treinta años. En {city}, un café cuesta un euro cincuenta.", "Yo tengo treinta años. Un café cuesta un euro con cincuenta en {city}."],
          "model": {"es": "Tengo treinta años. En {city}, un café cuesta un euro con cincuenta.", "en": "I'm thirty. In {city}, a coffee costs one euro fifty.", "it": "Ho trent'anni. A {city} un caffè costa un euro e cinquanta."}}
       ]
     }
@@ -651,8 +651,8 @@
        "en": "My girlfriend and I have a dog. Is that OK?", "it": "La mia ragazza e io abbiamo un cane. Va bene?",
        "hint": {"en": "Mi novia y yo = nosotros: tenemos.", "it": "Mi novia y yo = nosotros: tenemos."}},
       {"type": "write",
-       "instruction": {"en": "Text your sister about the flat: what there is, what it's like, and the rent.", "it": "Scrivi a tua sorella dell'appartamento: cosa c'è, com'è e quanto costa l'affitto."},
-       "required": ["hay", "el alquiler", "al mes"],
+       "instruction": {"en": "Text your sister about the flat. Write in Spanish: «The flat is small, but there's a big balcony. The rent is 900 euros a month.»", "it": "Scrivi a tua sorella dell'appartamento. Scrivi in spagnolo: «L'appartamento è piccolo, ma c'è un balcone grande. L'affitto è di 900 euro al mese.»"},
+       "accepted": ["El piso es pequeño, pero hay un balcón grande. El alquiler es de 900 euros al mes.", "El piso es pequeño, pero hay un balcón grande. El alquiler es 900 euros al mes.", "El piso es pequeño, pero hay un balcón grande. El alquiler cuesta 900 euros al mes."],
        "model": {"es": "El piso es pequeño, pero hay un balcón grande. El alquiler es de 900 euros al mes.", "en": "The flat is small, but there's a big balcony. The rent is 900 euros a month.", "it": "L'appartamento è piccolo, ma c'è un balcone grande. L'affitto è di 900 euro al mese."}}
     ]
   }

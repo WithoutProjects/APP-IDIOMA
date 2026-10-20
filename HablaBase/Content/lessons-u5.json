@@ -357,19 +357,18 @@
      "type": "write",
      "beat": "mix",
      "instruction": {
-      "en": "Say one thing you like and one thing you don't, joined with pero.",
-      "it": "Di una cosa che ti piace e una che non ti piace, unite con pero."
+      "en": "Write in Spanish: «I like chocolate, but I don't like vegetables.»",
+      "it": "Scrivi in spagnolo: «Mi piace il cioccolato, ma non mi piacciono le verdure.»"
      },
-     "required": [
-      "me gusta",
-      "pero",
-      "no me"
-     ],
      "model": {
       "es": "Me gusta el chocolate, pero no me gustan las verduras.",
       "en": "I like chocolate, but I don't like vegetables.",
       "it": "Mi piace il cioccolato, ma non mi piacciono le verdure."
-     }
+     },
+     "accepted": [
+      "Me gusta el chocolate, pero no me gustan las verduras.",
+      "Me gusta el chocolate, pero las verduras no me gustan."
+     ]
     }
    ]
   },
@@ -809,18 +808,17 @@
      "type": "write",
      "beat": "mix",
      "instruction": {
-      "en": "Ask a new friend two questions about what they like: one thing and many things.",
-      "it": "Fai due domande a un nuovo amico su cosa gli piace: una cosa e più cose."
+      "en": "Ask a new friend. Write in Spanish: «Do you like football? Do you like films?»",
+      "it": "Chiedi a un nuovo amico. Scrivi in spagnolo: «Ti piace il calcio? Ti piacciono i film?»"
      },
-     "required": [
-      "te gusta",
-      "te gustan"
-     ],
      "model": {
       "es": "¿Te gusta el fútbol? ¿Te gustan las películas?",
       "en": "Do you like football? Do you like films?",
       "it": "Ti piace il calcio? Ti piacciono i film?"
-     }
+     },
+     "accepted": [
+      "¿Te gusta el fútbol? ¿Te gustan las películas?"
+     ]
     }
    ]
   },
@@ -1311,18 +1309,20 @@
      "type": "write",
      "beat": "mix",
      "instruction": {
-      "en": "Say what two people in your family like, joined with y or pero.",
-      "it": "Di cosa piace a due persone della tua famiglia, unendo con y o pero."
+      "en": "Write in Spanish: «My mother likes the theatre and my father likes football.»",
+      "it": "Scrivi in spagnolo: «A mia madre piace il teatro e a mio padre piace il calcio.»"
      },
-     "required": [
-      "a mi",
-      "le"
-     ],
      "model": {
       "es": "A mi madre le gusta el teatro y a mi padre le gusta el fútbol.",
       "en": "My mother likes the theatre and my father likes football.",
       "it": "A mia madre piace il teatro e a mio padre piace il calcio."
-     }
+     },
+     "accepted": [
+      "A mi madre le gusta el teatro y a mi padre le gusta el fútbol.",
+      "A mi madre le gusta el teatro y a mi padre el fútbol.",
+      "A mi padre le gusta el fútbol y a mi madre le gusta el teatro.",
+      "A mi padre le gusta el fútbol y a mi madre el teatro."
+     ]
     }
    ]
   },
@@ -1753,19 +1753,20 @@
      "type": "write",
      "beat": "mix",
      "instruction": {
-      "en": "Ask a friend to choose between two plans with o, then say what you prefer.",
-      "it": "Chiedi a un amico di scegliere tra due piani con o, poi di' cosa preferisci tu."
+      "en": "Write in Spanish: «Do you prefer the beach or the pool? I prefer the beach.»",
+      "it": "Scrivi in spagnolo: «Preferisci la spiaggia o la piscina? Io preferisco la spiaggia.»"
      },
-     "required": [
-      "prefieres",
-      "o",
-      "prefiero"
-     ],
      "model": {
       "es": "¿Prefieres la playa o la piscina? Yo prefiero la playa.",
       "en": "Do you prefer the beach or the pool? I prefer the beach.",
       "it": "Preferisci la spiaggia o la piscina? Io preferisco la spiaggia."
-     }
+     },
+     "accepted": [
+      "¿Prefieres la playa o la piscina? Yo prefiero la playa.",
+      "¿Prefieres la playa o la piscina? Prefiero la playa.",
+      "¿Tú prefieres la playa o la piscina? Yo prefiero la playa.",
+      "¿Tú prefieres la playa o la piscina? Prefiero la playa."
+     ]
     }
    ]
   },
@@ -2196,17 +2197,18 @@
      "type": "write",
      "beat": "mix",
      "instruction": {
-      "en": "Give your opinion on two things, each with a reason after porque.",
-      "it": "Dai la tua opinione su due cose, ognuna con un motivo dopo porque."
+      "en": "Write in Spanish: «I love fish because it's really tasty, but I don't like meat because it's expensive.»",
+      "it": "Scrivi in spagnolo: «Adoro il pesce perché è buonissimo, ma non mi piace la carne perché è cara.»"
      },
-     "required": [
-      "porque"
-     ],
      "model": {
       "es": "Me encanta el pescado porque es muy rico, pero no me gusta la carne porque es cara.",
       "en": "I love fish because it's really tasty, but I don't like meat because it's expensive.",
       "it": "Adoro il pesce perché è buonissimo, ma non mi piace la carne perché è cara."
-     }
+     },
+     "accepted": [
+      "Me encanta el pescado porque es muy rico, pero no me gusta la carne porque es cara.",
+      "Me encanta el pescado porque está muy rico, pero no me gusta la carne porque es cara."
+     ]
     }
    ]
   }
@@ -2453,18 +2455,24 @@
     "type": "write",
     "beat": "mix",
     "instruction": {
-     "en": "Send your friend a message with the plan: where you go this weekend and where you have dinner.",
-     "it": "Manda alla tua amica un messaggio con il piano: dove andate questo weekend e dove cenate."
+     "en": "Send your friend a message with the plan. Write in Spanish: «At the weekend we're going to the mountains by train and we're having dinner at a cheap restaurant.»",
+     "it": "Manda alla tua amica un messaggio con il piano. Scrivi in spagnolo: «Nel weekend andiamo in montagna in treno e ceniamo in un ristorante economico.»"
     },
-    "required": [
-     "el fin de semana",
-     "vamos"
-    ],
     "model": {
-     "es": "El fin de semana vamos a la montaña en tren y cenamos pizza en un restaurante barato. ¡Genial!",
-     "en": "At the weekend we're going to the mountains by train and having pizza for dinner at a cheap restaurant. Great!",
-     "it": "Nel weekend andiamo in montagna in treno e ceniamo con una pizza in un ristorante economico. Fantastico!"
-    }
+     "es": "El fin de semana vamos a la montaña en tren y cenamos en un restaurante barato.",
+     "en": "At the weekend we're going to the mountains by train and we're having dinner at a cheap restaurant.",
+     "it": "Nel weekend andiamo in montagna in treno e ceniamo in un ristorante economico."
+    },
+    "accepted": [
+     "El fin de semana vamos a la montaña en tren y cenamos en un restaurante barato.",
+     "El fin de semana vamos en tren a la montaña y cenamos en un restaurante barato.",
+     "El fin de semana nosotros vamos a la montaña en tren y cenamos en un restaurante barato.",
+     "El fin de semana nosotros vamos en tren a la montaña y cenamos en un restaurante barato.",
+     "Vamos a la montaña en tren el fin de semana y cenamos en un restaurante barato.",
+     "Vamos en tren a la montaña el fin de semana y cenamos en un restaurante barato.",
+     "Nosotros vamos a la montaña en tren el fin de semana y cenamos en un restaurante barato.",
+     "Nosotros vamos en tren a la montaña el fin de semana y cenamos en un restaurante barato."
+    ]
    }
   ]
  }

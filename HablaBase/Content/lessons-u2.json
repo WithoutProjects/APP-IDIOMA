@@ -117,12 +117,9 @@
          "en": "Today we're eating pizza together.", "it": "Oggi mangiamo la pizza insieme.",
          "hint": {"en": "We eat: com- + -emos.", "it": "Noi mangiamo: com- + -emos."}},
         {"type": "write", "beat": "mix",
-         "instruction": {"en": "Say two things you and someone close to you do together, joined with y.",
-                         "it": "Di' due cose che fai insieme a una persona vicina a te, unite con y."},
-         "required": ["juntos", "y"],
-         "model": {"es": "Mi amigo y yo estudiamos español juntos y comemos pizza.",
-                   "en": "My friend and I study Spanish together and eat pizza.",
-                   "it": "Io e il mio amico studiamo spagnolo insieme e mangiamo la pizza."}}
+         "instruction": {"en": "Write in Spanish: «My friend and I study Spanish together and we eat pizza.»", "it": "Scrivi in spagnolo: «Io e il mio amico studiamo spagnolo insieme e mangiamo la pizza.»"},
+         "accepted": ["Mi amigo y yo estudiamos español juntos y comemos pizza.", "Mi amigo y yo estudiamos juntos español y comemos pizza.", "Mi amigo y yo comemos pizza y estudiamos español juntos.", "Mi amigo y yo comemos pizza y estudiamos juntos español."],
+         "model": {"es": "Mi amigo y yo estudiamos español juntos y comemos pizza.", "en": "My friend and I study Spanish together and we eat pizza.", "it": "Io e il mio amico studiamo spagnolo insieme e mangiamo la pizza."}}
       ]
     },
 
@@ -244,12 +241,9 @@
          "en": "My brother and a friend run in the park.", "it": "Mio fratello e un amico corrono al parco.",
          "hint": {"en": "Two people = ellos: corr- + -en.", "it": "Due persone = ellos: corr- + -en."}},
         {"type": "write", "beat": "mix",
-         "instruction": {"en": "Talk about two people you know (mi ... y mi ...): what they do and when, temprano or tarde.",
-                         "it": "Parla di due persone che conosci (mi ... y mi ...): cosa fanno e quando, temprano o tarde."},
-         "required": ["mi", "y"],
-         "model": {"es": "Mi madre y mi hermana viven en {city} y corren en el parque temprano.",
-                   "en": "My mother and my sister live in {city} and run in the park early.",
-                   "it": "Mia madre e mia sorella vivono a {city} e corrono al parco presto."}}
+         "instruction": {"en": "Write in Spanish: «My mother and my sister live in {city} and run in the park early.»", "it": "Scrivi in spagnolo: «Mia madre e mia sorella vivono a {city} e corrono al parco presto.»"},
+         "accepted": ["Mi madre y mi hermana viven en {city} y corren en el parque temprano.", "Mi madre y mi hermana viven en {city} y corren temprano en el parque.", "Mi madre y mi hermana viven en {city} y temprano corren en el parque."],
+         "model": {"es": "Mi madre y mi hermana viven en {city} y corren en el parque temprano.", "en": "My mother and my sister live in {city} and run in the park early.", "it": "Mia madre e mia sorella vivono a {city} e corrono al parco presto."}}
       ]
     },
 
@@ -361,12 +355,9 @@
          "en": "You live here, right?", "it": "Vivete qui, vero?",
          "hint": {"en": "Friends: vosotros, viv- + -ís; ¿verdad? goes at the end.", "it": "Amici: vosotros, viv- + -ís; ¿verdad? va alla fine."}},
         {"type": "write", "beat": "mix",
-         "instruction": {"en": "You meet two new friends. Ask them two questions with vosotros: which language they speak and where they live.",
-                         "it": "Conosci due nuovi amici. Fagli due domande con vosotros: che lingua parlano e dove vivono."},
-         "required": ["vosotros", "dónde"],
-         "model": {"es": "¿Vosotros habláis español? ¿Dónde vivís?",
-                   "en": "Do you speak Spanish? Where do you live?",
-                   "it": "Voi parlate spagnolo? Dove vivete?"}}
+         "instruction": {"en": "You meet two new friends. Use vosotros. Write in Spanish: «Do you speak Spanish? Where do you live?»", "it": "Conosci due nuovi amici. Usa vosotros. Scrivi in spagnolo: «Voi parlate spagnolo? Dove vivete?»"},
+         "accepted": ["¿Vosotros habláis español? ¿Dónde vivís?", "¿Vosotros habláis español? ¿Dónde vivís vosotros?", "¿Habláis español? ¿Dónde vivís?", "¿Habláis español? ¿Dónde vivís vosotros?", "¿Habláis vosotros español? ¿Dónde vivís?", "¿Habláis vosotros español? ¿Dónde vivís vosotros?", "¿Habláis español vosotros? ¿Dónde vivís?", "¿Habláis español vosotros? ¿Dónde vivís vosotros?"],
+         "model": {"es": "¿Vosotros habláis español? ¿Dónde vivís?", "en": "Do you speak Spanish? Where do you live?", "it": "Voi parlate spagnolo? Dove vivete?"}}
       ]
     },
 
@@ -472,12 +463,9 @@
          "en": "Do you have oranges?", "it": "Ha delle arance?",
          "hint": {"en": "More than one orange: naranjas.", "it": "Più di un'arancia: naranjas."}},
         {"type": "write", "beat": "mix",
-         "instruction": {"en": "At the fruit stall, ask for two kinds of fruit: some of one (unos/unas) and a kilo of another.",
-                         "it": "Al banco della frutta, chiedi due tipi di frutta: un po' di una (unos/unas) e un chilo di un'altra."},
-         "required": ["quiero", "un kilo de", "por favor"],
-         "model": {"es": "Quiero unas manzanas y un kilo de naranjas, por favor.",
-                   "en": "I'd like some apples and a kilo of oranges, please.",
-                   "it": "Vorrei delle mele e un chilo di arance, per favore."}}
+         "instruction": {"en": "At the fruit stall. Write in Spanish: «I'd like some apples and a kilo of oranges, please.»", "it": "Al banco della frutta. Scrivi in spagnolo: «Vorrei delle mele e un chilo di arance, per favore.»"},
+         "accepted": ["Quiero unas manzanas y un kilo de naranjas, por favor.", "Quiero un kilo de naranjas y unas manzanas, por favor.", "Yo quiero unas manzanas y un kilo de naranjas, por favor.", "Yo quiero un kilo de naranjas y unas manzanas, por favor."],
+         "model": {"es": "Quiero unas manzanas y un kilo de naranjas, por favor.", "en": "I'd like some apples and a kilo of oranges, please.", "it": "Vorrei delle mele e un chilo di arance, per favore."}}
       ]
     },
 
@@ -588,12 +576,9 @@
          "en": "My sister and her husband live with their children.", "it": "Mia sorella e suo marito vivono con i loro figli.",
          "hint": {"en": "Their children, more than one: sus.", "it": "I loro figli, più di uno: sus."}},
         {"type": "write", "beat": "mix",
-         "instruction": {"en": "Talk about your family: say where they live and who they live with. Use mis and su.",
-                         "it": "Parla della tua famiglia: di' dove vivono e con chi vivono. Usa mis e su."},
-         "required": ["mis", "su"],
-         "model": {"es": "Mis padres viven en {city}. Mi hermana vive en Madrid con su novio.",
-                   "en": "My parents live in {city}. My sister lives in Madrid with her boyfriend.",
-                   "it": "I miei genitori vivono a {city}. Mia sorella vive a Madrid con il suo fidanzato."}}
+         "instruction": {"en": "Write in Spanish: «My parents live in {city}. My sister lives in Madrid with her boyfriend.»", "it": "Scrivi in spagnolo: «I miei genitori vivono a {city}. Mia sorella vive a Madrid con il suo fidanzato.»"},
+         "accepted": ["Mis padres viven en {city}. Mi hermana vive en Madrid con su novio.", "Mis padres viven en {city}. Mi hermana vive con su novio en Madrid."],
+         "model": {"es": "Mis padres viven en {city}. Mi hermana vive en Madrid con su novio.", "en": "My parents live in {city}. My sister lives in Madrid with her boyfriend.", "it": "I miei genitori vivono a {city}. Mia sorella vive a Madrid con il suo fidanzato."}}
       ]
     }
   ],
@@ -661,12 +646,9 @@
        "en": "To us! Cheers!", "it": "A noi! Salute!",
        "hint": {"en": "Raising a glass: ¡salud!", "it": "Per brindare: ¡salud!"}},
       {"type": "write", "beat": "mix",
-       "instruction": {"en": "Another friend arrives late. Tell him about your sister: where she lives and what she does.",
-                       "it": "Arriva un altro amico in ritardo. Parlagli di tua sorella: dove vive e cosa fa."},
-       "required": ["mi hermana", "vive en"],
-       "model": {"es": "Mi hermana vive en {city}, trabaja mucho y habla español muy bien.",
-                 "en": "My sister lives in {city}, works a lot and speaks Spanish very well.",
-                 "it": "Mia sorella vive a {city}, lavora molto e parla spagnolo molto bene."}}
+       "instruction": {"en": "Another friend arrives late and asks about your sister. Write in Spanish: «My sister lives in {city}, works a lot and speaks Spanish very well.»", "it": "Arriva un altro amico in ritardo e ti chiede di tua sorella. Scrivi in spagnolo: «Mia sorella vive a {city}, lavora molto e parla spagnolo molto bene.»"},
+       "accepted": ["Mi hermana vive en {city}, trabaja mucho y habla español muy bien.", "Mi hermana vive en {city}, trabaja mucho y habla muy bien español."],
+       "model": {"es": "Mi hermana vive en {city}, trabaja mucho y habla español muy bien.", "en": "My sister lives in {city}, works a lot and speaks Spanish very well.", "it": "Mia sorella vive a {city}, lavora molto e parla spagnolo molto bene."}}
     ]
   }
 }

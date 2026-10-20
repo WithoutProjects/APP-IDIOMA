@@ -111,12 +111,9 @@
          "en": "Do you drink water?", "it": "Bevi acqua?",
          "hint": {"en": "Same sentence as an answer, with the tú form and ¿ ?.", "it": "La stessa frase di una risposta, con la forma di tú e ¿ ?."}},
         {"type": "write", "beat": "mix",
-         "instruction": {"en": "You meet someone new. Say hi, ask their name and where they live, then say where you live.",
-                         "it": "Conosci una persona nuova. Saluta, chiedi come si chiama e dove vive, poi di' dove vivi tu."},
-         "required": ["hola", "cómo te llamas", "dónde vives", "vivo en"],
-         "model": {"es": "Hola, ¿cómo te llamas? ¿Dónde vives? Yo vivo en {city}.",
-                   "en": "Hi, what's your name? Where do you live? I live in {city}.",
-                   "it": "Ciao, come ti chiami? Dove vivi? Io vivo a {city}."}}
+         "instruction": {"en": "You meet someone new. Write in Spanish: «Hi, what's your name? Where do you live? I live in {city}.»", "it": "Conosci una persona nuova. Scrivi in spagnolo: «Ciao, come ti chiami? Dove vivi? Io vivo a {city}.»"},
+         "accepted": ["Hola, ¿cómo te llamas? ¿Dónde vives? Yo vivo en {city}.", "Hola, ¿cómo te llamas? ¿Dónde vives? Vivo en {city}."],
+         "model": {"es": "Hola, ¿cómo te llamas? ¿Dónde vives? Yo vivo en {city}.", "en": "Hi, what's your name? Where do you live? I live in {city}.", "it": "Ciao, come ti chiami? Dove vivi? Io vivo a {city}."}}
       ]
     },
 
@@ -238,12 +235,9 @@
          "en": "My mother lives in {city} and she studies Spanish.", "it": "Mia madre vive a {city} e studia spagnolo.",
          "hint": {"en": "Mi madre is ella: vive, estudia.", "it": "Mi madre è ella: vive, estudia."}},
         {"type": "write", "beat": "mix",
-         "instruction": {"en": "Say something you do every day, and that someone in your family does it too. Use mi, y and también.",
-                         "it": "Di' una cosa che fai tutti i giorni, e che anche qualcuno della tua famiglia la fa. Usa mi, y e también."},
-         "required": ["mi", "y", "también"],
-         "model": {"es": "Estudio español todos los días y mi hermana también estudia español.",
-                   "en": "I study Spanish every day and my sister studies Spanish too.",
-                   "it": "Studio spagnolo tutti i giorni e anche mia sorella studia spagnolo."}}
+         "instruction": {"en": "Write in Spanish: «I study Spanish every day and my sister studies Spanish too.»", "it": "Scrivi in spagnolo: «Studio spagnolo tutti i giorni e anche mia sorella studia spagnolo.»"},
+         "accepted": ["Estudio español todos los días y mi hermana también estudia español", "Estudio español todos los días y mi hermana estudia español también", "Estudio español todos los días y también mi hermana estudia español", "Estudio español todos los días y mi hermana también", "Yo estudio español todos los días y mi hermana también estudia español", "Yo estudio español todos los días y mi hermana estudia español también", "Yo estudio español todos los días y también mi hermana estudia español", "Yo estudio español todos los días y mi hermana también", "Todos los días estudio español y mi hermana también estudia español", "Todos los días estudio español y mi hermana estudia español también", "Todos los días estudio español y también mi hermana estudia español", "Todos los días estudio español y mi hermana también", "Todos los días yo estudio español y mi hermana también estudia español", "Todos los días yo estudio español y mi hermana estudia español también", "Todos los días yo estudio español y también mi hermana estudia español", "Todos los días yo estudio español y mi hermana también"],
+         "model": {"es": "Estudio español todos los días y mi hermana también estudia español", "en": "I study Spanish every day and my sister studies Spanish too.", "it": "Studio spagnolo tutti i giorni e anche mia sorella studia spagnolo."}}
       ]
     },
 
@@ -368,12 +362,9 @@
          "en": "I study Spanish because I like travelling.", "it": "Studio spagnolo perché mi piace viaggiare.",
          "hint": {"en": "porque brings the reason; after me gusta, viajar stays as it is.", "it": "porque introduce il motivo; dopo me gusta, viajar resta com'è."}},
         {"type": "write", "beat": "mix",
-         "instruction": {"en": "Say what you like doing and add a 'but' with pero. Then say why you study Spanish with porque.",
-                         "it": "Di' cosa ti piace fare e aggiungi un 'ma' con pero. Poi di' perché studi spagnolo con porque."},
-         "required": ["me gusta", "pero", "porque"],
-         "model": {"es": "Me gusta viajar, pero trabajo mucho. Estudio español porque me gusta hablar con un amigo.",
-                   "en": "I like travelling, but I work a lot. I study Spanish because I like talking with a friend.",
-                   "it": "Mi piace viaggiare, ma lavoro molto. Studio spagnolo perché mi piace parlare con un amico."}}
+         "instruction": {"en": "Write in Spanish: «I like travelling, but I work a lot. I study Spanish because I like talking with a friend.»", "it": "Scrivi in spagnolo: «Mi piace viaggiare, ma lavoro molto. Studio spagnolo perché mi piace parlare con un amico.»"},
+         "accepted": ["Me gusta viajar, pero trabajo mucho. Estudio español porque me gusta hablar con un amigo.", "Me gusta viajar, pero trabajo mucho. Yo estudio español porque me gusta hablar con un amigo.", "Me gusta viajar, pero yo trabajo mucho. Estudio español porque me gusta hablar con un amigo.", "Me gusta viajar, pero yo trabajo mucho. Yo estudio español porque me gusta hablar con un amigo."],
+         "model": {"es": "Me gusta viajar, pero trabajo mucho. Estudio español porque me gusta hablar con un amigo.", "en": "I like travelling, but I work a lot. I study Spanish because I like talking with a friend.", "it": "Mi piace viaggiare, ma lavoro molto. Studio spagnolo perché mi piace parlare con un amico."}}
       ]
     },
 
@@ -491,12 +482,9 @@
          "accepted": ["quiere"], "en": "My mother wants a kilo of tomatoes.", "it": "Mia madre vuole un chilo di pomodori.",
          "hint": {"en": "Mi madre is ella: quiere, like the polite form.", "it": "Mi madre è ella: quiere, come la forma di cortesia."}},
         {"type": "write", "beat": "mix",
-         "instruction": {"en": "You're at the market. Say hi, ask for two things, ask the price and say thank you.",
-                         "it": "Sei al mercato. Saluta, chiedi due cose, chiedi il prezzo e ringrazia."},
-         "required": ["hola", "quiero", "por favor", "cuánto cuesta", "gracias"],
-         "model": {"es": "Hola. Quiero un kilo de tomates y una barra de pan, por favor. ¿Cuánto cuesta? Gracias, adiós.",
-                   "en": "Hi. I'd like a kilo of tomatoes and a baguette, please. How much is it? Thank you, goodbye.",
-                   "it": "Ciao. Vorrei un chilo di pomodori e una baguette, per favore. Quanto costa? Grazie, arrivederci."}}
+         "instruction": {"en": "You're at the market. Write in Spanish: «Hi. I'd like a kilo of tomatoes and a baguette, please. How much is it? Thank you, goodbye.»", "it": "Sei al mercato. Scrivi in spagnolo: «Ciao. Vorrei un chilo di pomodori e una baguette, per favore. Quanto costa? Grazie, arrivederci.»"},
+         "accepted": ["Hola. Quiero un kilo de tomates y una barra de pan, por favor. ¿Cuánto cuesta? Gracias, adiós.", "Hola. Quiero una barra de pan y un kilo de tomates, por favor. ¿Cuánto cuesta? Gracias, adiós.", "Hola. Yo quiero un kilo de tomates y una barra de pan, por favor. ¿Cuánto cuesta? Gracias, adiós.", "Hola. Yo quiero una barra de pan y un kilo de tomates, por favor. ¿Cuánto cuesta? Gracias, adiós."],
+         "model": {"es": "Hola. Quiero un kilo de tomates y una barra de pan, por favor. ¿Cuánto cuesta? Gracias, adiós.", "en": "Hi. I'd like a kilo of tomatoes and a baguette, please. How much is it? Thank you, goodbye.", "it": "Ciao. Vorrei un chilo di pomodori e una baguette, per favore. Quanto costa? Grazie, arrivederci."}}
       ]
     }
   ],
@@ -569,12 +557,9 @@
        "en": "It's 9 euros. Here you are. Thank you. Goodbye!", "it": "Costa 9 euro. Ecco a Lei. Grazie. Arrivederci!",
        "hint": {"en": "He gives you the bag: say thank you.", "it": "Ti dà la busta: ringrazia."}},
       {"type": "write", "beat": "mix",
-       "instruction": {"en": "Next morning you're back at the stall. Greet the seller, ask for two things and ask the price, all on your own.",
-                       "it": "La mattina dopo torni al banco. Saluta il venditore, chiedi due cose e chiedi il prezzo, tutto da solo."},
-       "required": ["buenos días", "quiero", "por favor", "cuánto cuesta"],
-       "model": {"es": "Buenos días. Quiero pan y queso, por favor. ¿Cuánto cuesta?",
-                 "en": "Good morning. I'd like bread and cheese, please. How much is it?",
-                 "it": "Buongiorno. Vorrei pane e formaggio, per favore. Quanto costa?"}}
+       "instruction": {"en": "Next morning you're back at the stall, on your own. Write in Spanish: «Good morning. I'd like bread and cheese, please. How much is it?»", "it": "La mattina dopo torni al banco, da solo. Scrivi in spagnolo: «Buongiorno. Vorrei pane e formaggio, per favore. Quanto costa?»"},
+       "accepted": ["Buenos días. Quiero pan y queso, por favor. ¿Cuánto cuesta?", "Buenos días. Quiero queso y pan, por favor. ¿Cuánto cuesta?", "Buenos días. Yo quiero pan y queso, por favor. ¿Cuánto cuesta?", "Buenos días. Yo quiero queso y pan, por favor. ¿Cuánto cuesta?"],
+       "model": {"es": "Buenos días. Quiero pan y queso, por favor. ¿Cuánto cuesta?", "en": "Good morning. I'd like bread and cheese, please. How much is it?", "it": "Buongiorno. Vorrei pane e formaggio, per favore. Quanto costa?"}}
     ]
   }
 }
