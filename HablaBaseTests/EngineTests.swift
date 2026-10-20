@@ -136,6 +136,7 @@ final class Unit1Tests: XCTestCase {
         case .frame(let card): return card.examples.map(\.es)
         case .legoSnap(let snap): return [snap.answer.text]
         case .gapFill(let gap): return [gap.sentence]
+        case .choice(let choice): return [choice.sentence]
         case .builder(let builder): return builder.accepted + builder.tiles
         case .freeWrite(let write): return [write.model.es]
         }

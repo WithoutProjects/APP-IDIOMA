@@ -382,6 +382,93 @@ struct GapFillView: View {
     }
 }
 
+// MARK: - Choice
+
+/// Pick the word that completes the sentence. Hints grey out wrong options, one per step.
+struct ChoiceView: View {
+    let choice: Choice
+    let language: NativeLanguage
+    let onSubmit: (GradeOutcome) -> Void
+    var onHint: () -> Void = {}
+    @State var selected: String?
+    @State var hintLevel = 0
+    @State var options: [String] = []
+
+    private static let blank = "\u{0}"
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 24) {
+            Text("Choose the right word.")
+                .font(.title2.weight(.semibold))
+
+            VStack(alignment: .leading, spacing: 8) {
+                FlowLayout(spacing: 5) {
+                    ForEach(Array(sentenceWords.enumerated()), id: \.offset) { _, word in
+                        if word == Self.blank {
+                            Text(verbatim: selected ?? "_____")
+                                .foregroundStyle(Brick.ending.color)
+                                .font(.title3.weight(.semibold))
+                        } else {
+                            GlossedWord(word: word, font: .title3.weight(.medium))
+                        }
+                    }
+                }
+                Text(choice.gloss.text(language))
+                    .font(.footnote)
+                    .foregroundStyle(.secondary)
+            }
+            .padding()
+            .frame(maxWidth: .infinity, alignment: .leading)
+            .background(RoundedRectangle(cornerRadius: 16).fill(Palette.card))
+
+            VStack(spacing: 10) {
+                ForEach(options, id: \.self) { option in
+                    let ruledOut = ruledOutOptions.contains(option)
+                    Button { selected = option } label: {
+                        Text(option)
+                            .font(.title3.weight(.semibold))
+                            .frame(maxWidth: .infinity, minHeight: 52)
+                            .background(RoundedRectangle(cornerRadius: 14).fill(selected == option ? Brick.ending.color.opacity(0.2) : Palette.card))
+                            .overlay(RoundedRectangle(cornerRadius: 14).strokeBorder(selected == option ? Brick.ending.color : .clear, lineWidth: 2))
+                    }
+                    .buttonStyle(.plain)
+                    .opacity(ruledOut ? 0.3 : 1)
+                    .disabled(ruledOut)
+                    .accessibilityAddTraits(selected == option ? .isSelected : [])
+                }
+            }
+
+            if options.count > 2 {
+                HintButton(level: $hintLevel, onUse: onHint)
+            }
+
+            Button("Check") {
+                guard let selected else { return }
+                onSubmit(selected == choice.answer ? .correct : .wrong(hint: choice.hint.text(language)))
+            }
+            .buttonStyle(PrimaryButtonStyle())
+            .disabled(selected == nil)
+            .opacity(selected == nil ? 0.4 : 1)
+        }
+        .onAppear {
+            if options.isEmpty { options = choice.options.shuffled() }
+        }
+        .onChange(of: hintLevel) { _, _ in
+            if let selected, ruledOutOptions.contains(selected) { self.selected = nil }
+        }
+    }
+
+    private var sentenceWords: [String] {
+        choice.before.split(separator: " ").map(String.init) + [Self.blank] + choice.after.split(separator: " ").map(String.init)
+    }
+
+    /// Each hint step rules out one wrong option, always leaving at least two.
+    private var ruledOutOptions: [String] {
+        let wrong = choice.options.filter { $0 != choice.answer }
+        return Array(wrong.prefix(min(hintLevel, choice.options.count - 2)))
+    }
+}
+
 // MARK: - Sentence Builder
 
 /// The Builder Bar: tap chunk tiles into place to say what the prompt asks for.

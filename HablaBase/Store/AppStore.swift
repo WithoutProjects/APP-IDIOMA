@@ -78,15 +78,17 @@ final class AppStore: ObservableObject {
 
     /// The exercises for a path step, if they exist in the app yet.
     func playableLesson(_ id: String) -> Lesson? {
-        profile.flatMap { Unit1.lesson(id: id, profile: $0) }
+        profile.flatMap { LessonContent.lesson(id: id, profile: $0) }
     }
 
     /// Words met in finished lessons plus the ones this lesson introduces, for tap-to-translate.
     func glossary(including lesson: Lesson? = nil) -> Glossary {
-        var words: [VocabWord] = lesson?.vocabulary ?? []
+        var words: [VocabWord] = (lesson?.vocabulary ?? []) + (lesson?.taughtForms ?? [])
         if let profile {
-            for id in state.completedLessons.sorted() {
-                words += Unit1.lesson(id: id, profile: profile)?.vocabulary ?? []
+            for node in Curriculum.sharedPath where isCompleted(node.id) && node.kind == .lesson {
+                if let done = LessonContent.lesson(id: node.id, profile: profile) {
+                    words += done.vocabulary + done.taughtForms
+                }
             }
         }
         return Glossary(words: words)
@@ -102,7 +104,7 @@ final class AppStore: ObservableObject {
             for unit in level.units {
                 let lessons = unit.lessons
                     .filter { isCompleted($0.id) || $0.id == current }
-                    .compactMap { Unit1.lesson(id: $0.id, profile: profile) }
+                    .compactMap { LessonContent.lesson(id: $0.id, profile: profile) }
                 if !lessons.isEmpty { result.append(UnitNotes(unit: unit, lessons: lessons)) }
             }
         }
@@ -114,7 +116,7 @@ final class AppStore: ObservableObject {
         guard let profile else { return [] }
         var sentences: [Example] = []
         for node in Curriculum.sharedPath where isCompleted(node.id) {
-            guard let lesson = Unit1.lesson(id: node.id, profile: profile), case .lesson = lesson.mode else { continue }
+            guard let lesson = LessonContent.lesson(id: node.id, profile: profile), case .lesson = lesson.mode else { continue }
             if let target = lesson.target { sentences.append(target) }
             for item in lesson.items {
                 switch item.kind {

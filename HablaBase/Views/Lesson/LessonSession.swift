@@ -132,7 +132,7 @@ final class LessonSession: ObservableObject {
     /// Whole sentences only: a snapped verb form on its own is not something you "can say".
     private static func sentence(for kind: ItemKind) -> Example? {
         switch kind {
-        case .gapFill, .builder, .freeWrite: return model(for: kind)
+        case .gapFill, .choice, .builder, .freeWrite: return model(for: kind)
         default: return nil
         }
     }
@@ -142,6 +142,7 @@ final class LessonSession: ObservableObject {
         case .slides, .match, .frame: return nil
         case .legoSnap(let snap): return Example(es: snap.answer.text, gloss: snap.prompt)
         case .gapFill(let gap): return Example(es: gap.sentence, gloss: gap.gloss)
+        case .choice(let choice): return Example(es: choice.sentence, gloss: choice.gloss)
         case .builder(let builder): return builder.model
         case .freeWrite(let write): return write.model
         }

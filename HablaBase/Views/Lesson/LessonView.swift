@@ -113,6 +113,8 @@ struct LessonView: View {
             LegoSnapView(snap: snap, language: store.language, onSubmit: submit, onHint: hint)
         case .gapFill(let gap):
             GapFillView(gap: gap, language: store.language, onSubmit: submit, onHint: hint)
+        case .choice(let choice):
+            ChoiceView(choice: choice, language: store.language, onSubmit: submit, onHint: hint)
         case .builder(let builder):
             SentenceBuilderView(builder: builder, language: store.language, onSubmit: submit, onHint: hint)
         case .freeWrite(let write):

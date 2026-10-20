@@ -47,6 +47,9 @@ struct FrameCard: Hashable {
     let result: VerbForm?
     let rule: Gloss
     let examples: [Example]
+    /// Forms this explanation teaches (e.g. hablamos, comemos), with their meaning. From here on
+    /// exercises may use them, and they join the learner's tap-to-translate glossary.
+    var teaches: [VocabWord] = []
 
     /// The usual case: a stem and an ending that make a verb form.
     static func form(_ stem: String, _ ending: String, rule: Gloss, examples: [Example]) -> FrameCard {
@@ -74,6 +77,18 @@ struct GapFill: Hashable {
     let hint: Gloss
 
     var sentence: String { before + accepted[0] + after }
+}
+
+/// Pick the word that completes the sentence: for irregular forms, ser or estar, articles…
+struct Choice: Hashable {
+    let before: String
+    let after: String
+    let options: [String]
+    let answer: String
+    let gloss: Gloss
+    let hint: Gloss
+
+    var sentence: String { before + answer + after }
 }
 
 /// Build a sentence from chunk tiles; the prompt is an intention, not a translation.
@@ -118,6 +133,7 @@ enum ItemKind: Hashable {
     case frame(FrameCard)
     case legoSnap(LegoSnap)
     case gapFill(GapFill)
+    case choice(Choice)
     case builder(SentenceBuilder)
     case freeWrite(FreeWrite)
 
@@ -201,6 +217,14 @@ struct Lesson: Identifiable {
     static func person(of key: FormKey?) -> String? {
         guard let parts = key?.split(separator: "."), parts.count == 3 else { return nil }
         return String(parts[2])
+    }
+
+    /// Forms taught inside explanations (e.g. hablamos), for the glossary and the notes.
+    var taughtForms: [VocabWord] {
+        items.flatMap { item -> [VocabWord] in
+            if case .frame(let card) = item.kind { return card.teaches }
+            return []
+        }
     }
 
     /// The words this lesson introduces on its slides.
