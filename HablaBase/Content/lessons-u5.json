@@ -835,9 +835,6 @@
     "en": "My grandmother likes going for walks, and so do I.",
     "it": "A mia nonna piace passeggiare, e anche a me."
    },
-   "names": [
-    "Ana"
-   ],
    "items": [
     {
      "type": "words",
@@ -929,9 +926,9 @@
        "it": "A mio nonno piacciono i cani."
       },
       {
-       "es": "A Ana le gusta el campo.",
-       "en": "Ana likes the countryside.",
-       "it": "Ad Ana piace la campagna."
+       "es": "A mi hermana le gusta el campo.",
+       "en": "My sister likes the countryside.",
+       "it": "A mia sorella piace la campagna."
       }
      ]
     },
@@ -2217,12 +2214,9 @@
  "boss": {
   "id": "u5boss",
   "goal": {
-   "en": "Your friend Lucía wants to make plans for the weekend. Agree on where to go and where to have dinner.",
-   "it": "La tua amica Lucía vuole fare programmi per il weekend. Mettetevi d'accordo su dove andare e dove cenare."
+   "en": "A friend wants to make plans for the weekend. Agree on where to go and where to have dinner.",
+   "it": "Un'amica vuole fare programmi per il weekend. Mettetevi d'accordo su dove andare e dove cenare."
   },
-  "names": [
-   "Lucía"
-  ],
   "items": [
    {
     "type": "words",
@@ -2251,23 +2245,22 @@
     "type": "build",
     "beat": "fire",
     "intention": {
-     "en": "Lucía says: ¡Hola, {name}! ¿Qué tal? Say hello and that you're fine, and ask her back.",
-     "it": "Lucía dice: ¡Hola, {name}! ¿Qué tal? Salutala, di che stai bene e chiedile come sta."
+     "en": "Your friend calls you: «¡Hola, {name}! ¿Qué tal?» Say hello and that you're fine, and ask her back.",
+     "it": "La tua amica ti chiama: «¡Hola, {name}! ¿Qué tal?» Salutala, di' che stai bene e chiedile come sta."
     },
     "accepted": [
-     "Hola, Lucía. Estoy bien, ¿y tú?",
-     "Hola, Lucía. Bien, ¿y tú?"
+     "Hola. Estoy bien, ¿y tú?",
+     "Hola. Bien, ¿y tú?"
     ],
     "tiles": [
      "Hola",
-     "Lucía",
      "Estoy",
      "bien",
      "¿y tú?",
      "Soy"
     ],
-    "en": "Hi, Lucía. I'm fine, and you?",
-    "it": "Ciao, Lucía. Sto bene, e tu?",
+    "en": "Hi. I'm fine, and you?",
+    "it": "Ciao. Sto bene, e tu?",
     "hint": {
      "en": "How you feel uses estar: estoy bien.",
      "it": "Come stai si dice con estar: estoy bien."
@@ -2276,7 +2269,7 @@
    {
     "type": "choose",
     "beat": "fire",
-    "before": "Lucía: ¿Te gusta el mar? Tú: Sí, ",
+    "before": "¿Te gusta el mar? Sí, ",
     "after": " gusta mucho.",
     "options": [
      "me",
@@ -2295,8 +2288,8 @@
     "type": "build",
     "beat": "fire",
     "intention": {
-     "en": "Lucía asks: ¿Quieres ir a la playa el fin de semana? Say that you prefer the mountains.",
-     "it": "Lucía chiede: ¿Quieres ir a la playa el fin de semana? Di che preferisci la montagna."
+     "en": "Your friend asks: «¿Quieres ir a la playa el fin de semana?» Say that you prefer the mountains.",
+     "it": "La tua amica chiede: «¿Quieres ir a la playa el fin de semana?» Di' che preferisci la montagna."
     },
     "accepted": [
      "Prefiero la montaña.",
@@ -2337,8 +2330,8 @@
     "type": "build",
     "beat": "fire",
     "intention": {
-     "en": "Lucía says: Vale, la montaña. ¿Cenamos en un restaurante? Say great, and ask if she likes fish.",
-     "it": "Lucía dice: Vale, la montaña. ¿Cenamos en un restaurante? Di che è fantastico e chiedile se le piace il pesce."
+     "en": "Your friend says: «Vale, la montaña. ¿Cenamos en un restaurante?» Say great, and ask if she likes fish.",
+     "it": "La tua amica dice: «Vale, la montaña. ¿Cenamos en un restaurante?» Di' che è fantastico e chiedile se le piace il pesce."
     },
     "accepted": [
      "¡Genial! ¿Te gusta el pescado?"
@@ -2359,15 +2352,15 @@
    {
     "type": "choose",
     "beat": "fire",
-    "before": "Lucía: No me gusta nada el pescado. Tú: A mí ",
+    "before": "«No me gusta nada el pescado.» A mí ",
     "after": ". Prefiero la carne.",
     "options": [
      "también",
      "tampoco"
     ],
     "answer": "tampoco",
-    "en": "I don't like fish at all. Me neither. I prefer meat.",
-    "it": "Non mi piace per niente il pesce. Neanche a me. Preferisco la carne.",
+    "en": "I don't like fish at all. — Me neither. I prefer meat.",
+    "it": "Non mi piace per niente il pesce. — Neanche a me. Preferisco la carne.",
     "hint": {
      "en": "Agreeing with a no: tampoco.",
      "it": "D'accordo con un no: tampoco."
@@ -2376,7 +2369,7 @@
    {
     "type": "gap",
     "beat": "fire",
-    "before": "Lucía: ¿Y la pizza? Tú: ¡Sí, me ",
+    "before": "¿Y la pizza? ¡Sí, me ",
     "after": " la pizza!",
     "label": "encantar",
     "accepted": [
@@ -2392,7 +2385,7 @@
    {
     "type": "choose",
     "beat": "mix",
-    "before": "Lucía: Hay un restaurante italiano en el centro, pero es caro. Tú: Prefiero un restaurante ",
+    "before": "«Hay un restaurante italiano en el centro, pero es caro.» Prefiero un restaurante ",
     "after": ".",
     "options": [
      "barato",
@@ -2400,8 +2393,8 @@
      "baratos"
     ],
     "answer": "barato",
-    "en": "There's an Italian restaurant in the centre, but it's expensive. I'd rather have a cheap restaurant.",
-    "it": "C'è un ristorante italiano in centro, ma è caro. Preferisco un ristorante economico.",
+    "en": "There's an Italian restaurant in the centre, but it's expensive. — I'd rather go to a cheap one.",
+    "it": "C'è un ristorante italiano in centro, ma è caro. — Preferisco un ristorante economico.",
     "hint": {
      "en": "Un restaurante: -o.",
      "it": "Un restaurante: -o."
@@ -2411,8 +2404,8 @@
     "type": "build",
     "beat": "mix",
     "intention": {
-     "en": "Lucía says: Mi hermano también quiere ir. Say OK, and ask if he likes the mountains.",
-     "it": "Lucía dice: Mi hermano también quiere ir. Di va bene e chiedi se a lui piace la montagna."
+     "en": "Your friend says: «Mi hermano también quiere ir.» Say OK, and ask if he likes the mountains.",
+     "it": "La tua amica dice: «Mi hermano también quiere ir.» Di' che va bene e chiedi se a lui piace la montagna."
     },
     "accepted": [
      "Vale. ¿Le gusta la montaña?",
@@ -2435,8 +2428,8 @@
     "type": "build",
     "beat": "mix",
     "intention": {
-     "en": "Lucía asks: ¿Vamos en tren o a pie? Say that you prefer to go by train.",
-     "it": "Lucía chiede: ¿Vamos en tren o a pie? Di che preferisci andare in treno."
+     "en": "Your friend asks: «¿Vamos en tren o a pie?» Say that you prefer to go by train.",
+     "it": "La tua amica chiede: «¿Vamos en tren o a pie?» Di' che preferisci andare in treno."
     },
     "accepted": [
      "Prefiero ir en tren.",
@@ -2460,8 +2453,8 @@
     "type": "write",
     "beat": "mix",
     "instruction": {
-     "en": "Sum up the plan for Lucía: where you go this weekend and where you have dinner.",
-     "it": "Riassumi il piano per Lucía: dove andate questo weekend e dove cenate."
+     "en": "Send your friend a message with the plan: where you go this weekend and where you have dinner.",
+     "it": "Manda alla tua amica un messaggio con il piano: dove andate questo weekend e dove cenate."
     },
     "required": [
      "el fin de semana",

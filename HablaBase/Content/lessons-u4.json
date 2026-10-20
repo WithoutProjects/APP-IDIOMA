@@ -5,7 +5,6 @@
       "id": "u4l1",
       "goal": {"en": "Say what you have, how old you are, and when you're hungry or thirsty.", "it": "Di cosa hai, quanti anni hai e quando hai fame o sete."},
       "target": {"es": "¿Cuántos años tienes? Tengo 30 años y tengo un perro.", "en": "How old are you? I'm 30 and I have a dog.", "it": "Quanti anni hai? Ho 30 anni e ho un cane."},
-      "names": ["Ana"],
       "items": [
         {"type": "words", "words": [
           {"es": "tener", "en": "to have", "it": "avere", "kind": "stem"},
@@ -70,7 +69,7 @@
          "examples": [
            {"es": "Tengo hambre.", "en": "I'm hungry.", "it": "Ho fame."},
            {"es": "¿Tienes sed?", "en": "Are you thirsty?", "it": "Hai sete?"},
-           {"es": "Ana tiene hambre y sed.", "en": "Ana is hungry and thirsty.", "it": "Ana ha fame e sete."}
+           {"es": "Mi hermano tiene hambre y sed.", "en": "My brother is hungry and thirsty.", "it": "Mio fratello ha fame e sete."}
          ],
          "teaches": []},
         {"type": "choose", "beat": "forge", "before": "Yo ", "after": " sed.",
@@ -127,7 +126,6 @@
       "id": "u4l2",
       "goal": {"en": "Say what you have to do, with tener que + a verb.", "it": "Di cosa devi fare, con tener que + un verbo."},
       "target": {"es": "Mañana tengo que trabajar y llamar a mi madre.", "en": "Tomorrow I have to work and call my mother.", "it": "Domani devo lavorare e chiamare mia madre."},
-      "names": ["Ana"],
       "items": [
         {"type": "words", "words": [
           {"es": "tener que", "en": "to have to", "it": "dovere", "kind": "chunk"},
@@ -212,7 +210,7 @@
          "examples": [
            {"es": "Mis padres tienen que trabajar mañana.", "en": "My parents have to work tomorrow.", "it": "Domani i miei genitori devono lavorare."},
            {"es": "¿Tenéis que pagar ahora?", "en": "Do you two have to pay now?", "it": "Dovete pagare adesso?"},
-           {"es": "Ana tiene que esperar el autobús.", "en": "Ana has to wait for the bus.", "it": "Ana deve aspettare l'autobus."}
+           {"es": "Mi madre tiene que esperar el autobús.", "en": "My mother has to wait for the bus.", "it": "Mia madre deve aspettare l'autobus."}
          ],
          "teaches": []},
         {"type": "gap", "beat": "forge", "before": "Ellos ", "after": " que limpiar la casa.", "label": "tener",
@@ -576,8 +574,8 @@
          "options": ["catorce", "cuatro", "cuarenta"], "answer": "cuarenta",
          "en": "I'm forty.", "it": "Ho quarant'anni.",
          "hint": {"en": "40 = cuarenta; catorce is 14.", "it": "40 = cuarenta; catorce è 14."}},
-        {"type": "gap", "beat": "mix", "before": "La cuenta: son ", "after": " euros.", "label": "75",
-         "accepted": ["setenta y cinco"], "en": "The bill: that's seventy-five euros.", "it": "Il conto: sono settantacinque euro.",
+        {"type": "gap", "beat": "mix", "before": "¿La cuenta? Son ", "after": " euros.", "label": "75",
+         "accepted": ["setenta y cinco"], "en": "The bill? That's seventy-five euros.", "it": "Il conto? Sono settantacinque euro.",
          "hint": {"en": "70 + y + 5.", "it": "70 + y + 5."}},
         {"type": "build", "beat": "mix",
          "intention": {"en": "Say the bread costs two euros twenty.", "it": "Di che il pane costa due euro e venti."},
@@ -594,9 +592,8 @@
   ],
   "boss": {
     "id": "u4boss",
-    "goal": {"en": "You're visiting a flat to rent. Rosa, the owner, shows you around. Ask what it has, how much it costs, and tell her about you.", "it": "Visiti un appartamento in affitto. Rosa, la proprietaria, te lo mostra. Chiedi cosa c'è, quanto costa e parlale di te."},
+    "goal": {"en": "You're visiting a flat to rent and the owner shows you around. Ask what it has, how much it costs, and tell her about you.", "it": "Visiti un appartamento in affitto e la proprietaria te lo mostra. Chiedi cosa c'è, quanto costa e parlale di te."},
     "target": {"es": "¿Cuántos dormitorios hay? ¿Cuánto cuesta el alquiler al mes?", "en": "How many bedrooms are there? How much is the rent a month?", "it": "Quante camere da letto ci sono? Quanto costa l'affitto al mese?"},
-    "names": ["Rosa"],
     "items": [
       {"type": "words", "words": [
         {"es": "el alquiler", "en": "the rent", "it": "l'affitto", "kind": "chunk"},
@@ -604,10 +601,10 @@
         {"es": "pequeños", "en": "small (plural)", "it": "piccoli", "kind": "chunk"}
       ]},
       {"type": "build",
-       "intention": {"en": "Rosa opens the door: «Hola, soy Rosa. ¿Tú eres {name}?» Say hello and yes, that's you.", "it": "Rosa apre la porta: «Hola, soy Rosa. ¿Tú eres {name}?» Saluta e di' di sì, sei tu."},
-       "accepted": ["Hola, Rosa. Sí, soy {name}.", "Hola. Sí, soy {name}."],
-       "tiles": ["Hola", "Rosa", "Sí", "soy", "{name}", "estoy"],
-       "en": "Hi, Rosa. Yes, I'm {name}.", "it": "Ciao, Rosa. Sì, sono {name}.",
+       "intention": {"en": "The owner opens the door: «Hola. ¿Eres {name}?» Say hello and yes, that's you.", "it": "La proprietaria apre la porta: «Hola. ¿Eres {name}?» Saluta e di' di sì, sei tu."},
+       "accepted": ["Hola. Sí, soy {name}.", "Hola, sí, soy {name}."],
+       "tiles": ["Hola", "Sí", "soy", "{name}", "estoy", "eres"],
+       "en": "Hi. Yes, I'm {name}.", "it": "Ciao. Sì, sono {name}.",
        "hint": {"en": "Who you are: ser, soy.", "it": "Chi sei: ser, soy."}},
       {"type": "build",
        "intention": {"en": "Ask how many bedrooms there are.", "it": "Chiedi quante camere da letto ci sono."},
@@ -644,7 +641,7 @@
        "en": "Is the flat near the station?", "it": "L'appartamento è vicino alla stazione?",
        "hint": {"en": "Where something is: estar.", "it": "Dove si trova qualcosa: estar."}},
       {"type": "build",
-       "intention": {"en": "Rosa says: «Sí, está muy cerca.» Tell her you go to work by train.", "it": "Rosa dice: «Sí, está muy cerca.» Dille che vai al lavoro in treno."},
+       "intention": {"en": "The owner says: «Sí, está muy cerca.» Tell her you go to work by train.", "it": "La proprietaria dice: «Sí, está muy cerca.» Dille che vai al lavoro in treno."},
        "accepted": ["Voy al trabajo en tren.", "Yo voy al trabajo en tren."],
        "tiles": ["Voy", "al", "trabajo", "en tren", "a la", "va"],
        "en": "I go to work by train.", "it": "Vado al lavoro in treno.",
