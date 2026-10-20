@@ -1,0 +1,553 @@
+{
+  "unit": "u10",
+  "lessons": [
+    {
+      "id": "u10l1",
+      "goal": {"en": "Talk about your plans with ir a + a verb.", "it": "Parla dei tuoi piani con ir a + un verbo."},
+      "target": {"es": "En vacaciones voy a viajar en avión y voy a reservar un hotel.", "en": "On holiday I'm going to travel by plane and I'm going to book a hotel.", "it": "In vacanza viaggerò in aereo e prenoterò un albergo."},
+      "names": ["Madrid"],
+      "items": [
+        {"type": "words", "words": [
+          {"es": "visitar", "en": "to visit", "it": "visitare", "kind": "stem"},
+          {"es": "reservar", "en": "to book", "it": "prenotare", "kind": "stem"},
+          {"es": "las vacaciones", "en": "the holidays", "it": "le vacanze", "kind": "chunk"}
+        ]},
+        {"type": "words", "words": [
+          {"es": "el museo", "en": "the museum", "it": "il museo", "kind": "chunk"},
+          {"es": "el avión", "en": "the plane", "it": "l'aereo", "kind": "chunk"},
+          {"es": "un hotel", "en": "a hotel", "it": "un albergo", "kind": "chunk"}
+        ]},
+
+        {"type": "explain",
+         "bricks": [{"text": "voy", "kind": "ending"}, {"text": "a", "kind": "rail"}, {"text": "viajar", "kind": "stem"}],
+         "rule": {"en": "For plans, use voy a + the verb as it is in the dictionary: voy a viajar (I'm going to travel).",
+                  "it": "Per i piani, usa voy a + il verbo all'infinito: voy a viajar (viaggerò, ho intenzione di viaggiare)."},
+         "examples": [
+           {"es": "Voy a viajar a España.", "en": "I'm going to travel to Spain.", "it": "Viaggerò in Spagna."},
+           {"es": "Voy a visitar el museo.", "en": "I'm going to visit the museum.", "it": "Visiterò il museo."},
+           {"es": "Voy a reservar un hotel.", "en": "I'm going to book a hotel.", "it": "Prenoterò un albergo."}
+         ]},
+        {"type": "choose", "beat": "forge", "before": "Voy ", "after": " viajar en avión.",
+         "options": ["a", "de", "en"], "answer": "a",
+         "en": "I'm going to travel by plane.", "it": "Viaggerò in aereo.",
+         "hint": {"en": "Plans: voy a + verb.", "it": "Piani: voy a + verbo."}},
+        {"type": "build", "beat": "fire",
+         "intention": {"en": "Say you're going to book a hotel.", "it": "Di che prenoterai un albergo."},
+         "accepted": ["Voy a reservar un hotel.", "Yo voy a reservar un hotel."],
+         "tiles": ["Voy", "a", "reservar", "un hotel", "visitar"],
+         "en": "I'm going to book a hotel.", "it": "Prenoterò un albergo.",
+         "hint": {"en": "voy a + the verb that says the action: reservar.", "it": "voy a + il verbo che dice l'azione: reservar."}},
+
+        {"type": "explain",
+         "bricks": [{"text": "van", "kind": "ending"}, {"text": "a", "kind": "rail"}, {"text": "visitar", "kind": "stem"}],
+         "rule": {"en": "Only ir changes with the person: voy, vas, va, vamos, vais, van. The second verb never changes. Visitar and reservar are regular AR verbs.",
+                  "it": "Cambia solo ir, secondo la persona: voy, vas, va, vamos, vais, van. Il secondo verbo non cambia mai. Visitar e reservar sono verbi regolari in AR."},
+         "examples": [
+           {"es": "¿Vas a viajar en vacaciones?", "en": "Are you going to travel on holiday?", "it": "Viaggerai in vacanza?"},
+           {"es": "Mis padres van a visitar Madrid.", "en": "My parents are going to visit Madrid.", "it": "I miei genitori visiteranno Madrid."},
+           {"es": "Siempre reservo el hotel.", "en": "I always book the hotel.", "it": "Prenoto sempre io l'albergo."}
+         ],
+         "teaches": [
+           {"es": "visito", "en": "I visit", "it": "visito"},
+           {"es": "visitas", "en": "you visit", "it": "visiti"},
+           {"es": "visita", "en": "he/she visits", "it": "visita"},
+           {"es": "visitamos", "en": "we visit", "it": "visitiamo"},
+           {"es": "visitáis", "en": "you all visit", "it": "visitate"},
+           {"es": "visitan", "en": "they visit", "it": "visitano"},
+           {"es": "reservo", "en": "I book", "it": "prenoto"},
+           {"es": "reservas", "en": "you book", "it": "prenoti"},
+           {"es": "reserva", "en": "he/she books", "it": "prenota"},
+           {"es": "reservamos", "en": "we book", "it": "prenotiamo"},
+           {"es": "reserváis", "en": "you all book", "it": "prenotate"},
+           {"es": "reservan", "en": "they book", "it": "prenotano"}
+         ]},
+        {"type": "choose", "beat": "forge", "before": "Mis padres ", "after": " a visitar Madrid.",
+         "options": ["van", "vamos", "va"], "answer": "van",
+         "en": "My parents are going to visit Madrid.", "it": "I miei genitori visiteranno Madrid.",
+         "hint": {"en": "Mis padres = ellos: van.", "it": "Mis padres = ellos: van."}},
+        {"type": "gap", "beat": "fire", "before": "¿Tú ", "after": " a reservar el hotel?", "label": "ir",
+         "accepted": ["vas"], "en": "Are you going to book the hotel?", "it": "Prenoti tu l'albergo?",
+         "hint": {"en": "Tú: vas a + verb.", "it": "Tú: vas a + verbo."}},
+
+        {"type": "gap", "beat": "mix", "before": "Nosotros vamos a ", "after": " el museo.", "label": "visitar",
+         "accepted": ["visitar"], "en": "We're going to visit the museum.", "it": "Visiteremo il museo.",
+         "hint": {"en": "After vamos a, the verb doesn't change.", "it": "Dopo vamos a, il verbo non cambia."}},
+        {"type": "choose", "beat": "mix", "before": "¿Qué ", "after": " a hacer en vacaciones?",
+         "options": ["vas", "voy", "va"], "answer": "vas",
+         "en": "What are you going to do on holiday?", "it": "Cosa farai in vacanza?",
+         "hint": {"en": "Asking a friend (tú): vas.", "it": "Chiedi a un amico (tú): vas."}},
+        {"type": "build", "beat": "mix",
+         "intention": {"en": "Say that you and your family are going to travel to Spain by plane.", "it": "Di che tu e la tua famiglia viaggerete in Spagna in aereo."},
+         "accepted": ["Vamos a viajar a España en avión.", "Vamos a viajar en avión a España."],
+         "tiles": ["Vamos", "a", "viajar", "a", "España", "en", "avión", "vais"],
+         "en": "We're going to travel to Spain by plane.", "it": "Viaggeremo in Spagna in aereo.",
+         "hint": {"en": "Nosotros: vamos a + viajar.", "it": "Nosotros: vamos a + viajar."}},
+        {"type": "write", "beat": "mix",
+         "instruction": {"en": "Say what you're going to do on holiday: two plans with voy a, joined with y.", "it": "Di cosa farai in vacanza: due piani con voy a, uniti con y."},
+         "required": ["voy a", "y"],
+         "model": {"es": "En vacaciones voy a viajar a España y voy a visitar un museo.",
+                   "en": "On holiday I'm going to travel to Spain and I'm going to visit a museum.",
+                   "it": "In vacanza viaggerò in Spagna e visiterò un museo."}}
+      ]
+    },
+
+    {
+      "id": "u10l2",
+      "goal": {"en": "Say when your plans happen: this afternoon, this weekend, next week, next year.", "it": "Di quando succedono i tuoi piani: oggi pomeriggio, questo fine settimana, la settimana prossima, l'anno prossimo."},
+      "target": {"es": "Este fin de semana voy a descansar y el próximo verano voy a viajar.", "en": "This weekend I'm going to rest and next summer I'm going to travel.", "it": "Questo fine settimana mi riposerò e l'estate prossima viaggerò."},
+      "names": ["Madrid"],
+      "items": [
+        {"type": "words", "words": [
+          {"es": "este fin de semana", "en": "this weekend", "it": "questo fine settimana", "kind": "time"},
+          {"es": "esta tarde", "en": "this afternoon/evening", "it": "oggi pomeriggio, stasera", "kind": "time"},
+          {"es": "pasado mañana", "en": "the day after tomorrow", "it": "dopodomani", "kind": "time"},
+          {"es": "este verano", "en": "this summer", "it": "quest'estate", "kind": "time"}
+        ]},
+        {"type": "words", "words": [
+          {"es": "la semana que viene", "en": "next week", "it": "la settimana prossima", "kind": "time"},
+          {"es": "el mes que viene", "en": "next month", "it": "il mese prossimo", "kind": "time"},
+          {"es": "el próximo año", "en": "next year", "it": "l'anno prossimo", "kind": "time"}
+        ]},
+
+        {"type": "explain",
+         "bricks": [{"text": "esta tarde", "kind": "time"}, {"text": "voy a", "kind": "ending"}, {"text": "descansar", "kind": "stem"}],
+         "rule": {"en": "Put the time word at the start or at the end of your plan.",
+                  "it": "Metti l'espressione di tempo all'inizio o alla fine del tuo piano."},
+         "examples": [
+           {"es": "Esta tarde voy a descansar.", "en": "This afternoon I'm going to rest.", "it": "Oggi pomeriggio mi riposerò."},
+           {"es": "Voy a viajar este verano.", "en": "I'm going to travel this summer.", "it": "Quest'estate viaggerò."},
+           {"es": "Pasado mañana vamos a la playa.", "en": "The day after tomorrow we're going to the beach.", "it": "Dopodomani andiamo al mare."}
+         ]},
+        {"type": "choose", "beat": "forge", "before": "Esta tarde yo ", "after": " a descansar.",
+         "options": ["voy", "va", "vamos"], "answer": "voy",
+         "en": "This afternoon I'm going to rest.", "it": "Oggi pomeriggio mi riposerò.",
+         "hint": {"en": "Yo: voy a + verb.", "it": "Yo: voy a + verbo."}},
+        {"type": "build", "beat": "fire",
+         "intention": {"en": "Say you're going to go to the cinema this afternoon.", "it": "Di che oggi pomeriggio andrai al cinema."},
+         "accepted": ["Esta tarde voy a ir al cine.", "Voy a ir al cine esta tarde."],
+         "tiles": ["Esta tarde", "voy", "a", "ir", "al cine", "este"],
+         "en": "This afternoon I'm going to go to the cinema.", "it": "Oggi pomeriggio andrò al cinema.",
+         "hint": {"en": "Time word + voy a ir + al cine.", "it": "Tempo + voy a ir + al cine."}},
+
+        {"type": "explain",
+         "bricks": [{"text": "la semana que viene", "kind": "time"}, {"text": "=", "kind": "rail"}, {"text": "la próxima semana", "kind": "time"}],
+         "rule": {"en": "'Next' has two forms that mean the same: ... que viene after the word, or próximo/próxima before it.",
+                  "it": "'Prossimo' ha due forme con lo stesso significato: ... que viene dopo la parola, o próximo/próxima prima."},
+         "examples": [
+           {"es": "La próxima semana voy a trabajar mucho.", "en": "Next week I'm going to work a lot.", "it": "La prossima settimana lavorerò molto."},
+           {"es": "El año que viene voy a estudiar en Madrid.", "en": "Next year I'm going to study in Madrid.", "it": "L'anno prossimo studierò a Madrid."}
+         ],
+         "teaches": [
+           {"es": "la próxima semana", "en": "next week", "it": "la prossima settimana"},
+           {"es": "el año que viene", "en": "next year", "it": "l'anno prossimo"},
+           {"es": "el próximo mes", "en": "next month", "it": "il prossimo mese"}
+         ]},
+        {"type": "choose", "beat": "forge", "before": "Voy a viajar ", "after": " semana.",
+         "options": ["la próxima", "el próximo", "la que viene"], "answer": "la próxima",
+         "en": "I'm going to travel next week.", "it": "Viaggerò la prossima settimana.",
+         "hint": {"en": "semana is feminine and próxima goes before it.", "it": "semana è femminile e próxima va prima."}},
+        {"type": "choose", "beat": "fire", "before": "Vamos a reservar el hotel el mes ", "after": ".",
+         "options": ["que viene", "próximo", "próxima"], "answer": "que viene",
+         "en": "We're going to book the hotel next month.", "it": "Prenoteremo l'albergo il mese prossimo.",
+         "hint": {"en": "After the word, use que viene.", "it": "Dopo la parola, usa que viene."}},
+
+        {"type": "gap", "beat": "mix", "before": "Pasado mañana yo ", "after": " a trabajar en casa.", "label": "ir",
+         "accepted": ["voy"], "en": "The day after tomorrow I'm going to work from home.", "it": "Dopodomani lavorerò da casa.",
+         "hint": {"en": "Yo: voy a.", "it": "Yo: voy a."}},
+        {"type": "build", "beat": "mix",
+         "intention": {"en": "Ask a friend what they're going to do this weekend.", "it": "Chiedi a un amico cosa farà questo fine settimana."},
+         "accepted": ["¿Qué vas a hacer este fin de semana?"],
+         "tiles": ["¿Qué", "vas", "a", "hacer", "este fin de semana", "voy"],
+         "en": "What are you going to do this weekend?", "it": "Cosa fai questo fine settimana?",
+         "hint": {"en": "Tú: vas a + hacer.", "it": "Tú: vas a + hacer."}},
+        {"type": "choose", "beat": "mix", "before": "El próximo ", "after": " voy a estudiar en Madrid.",
+         "options": ["año", "semana", "mañana"], "answer": "año",
+         "en": "Next year I'm going to study in Madrid.", "it": "L'anno prossimo studierò a Madrid.",
+         "hint": {"en": "próximo is masculine: año.", "it": "próximo è maschile: año."}},
+        {"type": "write", "beat": "mix",
+         "instruction": {"en": "Write two plans: one for this weekend and one for next year.", "it": "Scrivi due piani: uno per questo fine settimana e uno per l'anno prossimo."},
+         "required": ["este fin de semana", "voy a"],
+         "model": {"es": "Este fin de semana voy a descansar y el próximo año voy a viajar a España.",
+                   "en": "This weekend I'm going to rest and next year I'm going to travel to Spain.",
+                   "it": "Questo fine settimana mi riposerò e l'anno prossimo viaggerò in Spagna."}}
+      ]
+    },
+
+    {
+      "id": "u10l3",
+      "goal": {"en": "Arrange to meet someone: day, time and place.", "it": "Organizza un incontro con qualcuno: giorno, ora e luogo."},
+      "target": {"es": "¿Quedamos el sábado a las ocho en la plaza? ¿Te viene bien?", "en": "Shall we meet on Saturday at eight in the square? Does that suit you?", "it": "Ci vediamo sabato alle otto in piazza? Ti va bene?"},
+      "names": ["Ana"],
+      "items": [
+        {"type": "words", "words": [
+          {"es": "quedar", "en": "to meet up", "it": "vedersi", "kind": "stem"},
+          {"es": "la plaza", "en": "the square", "it": "la piazza", "kind": "chunk"},
+          {"es": "delante de", "en": "in front of", "it": "davanti a", "kind": "rail"}
+        ]},
+        {"type": "words", "words": [
+          {"es": "¿te viene bien?", "en": "does that suit you?", "it": "ti va bene?", "kind": "chunk"},
+          {"es": "de acuerdo", "en": "agreed, OK", "it": "d'accordo", "kind": "chunk"},
+          {"es": "perfecto", "en": "perfect", "it": "perfetto", "kind": "chunk"}
+        ]},
+
+        {"type": "explain",
+         "bricks": [{"text": "qued-", "kind": "stem"}, {"text": "-amos", "kind": "ending"}],
+         "result": {"stem": "qued", "ending": "amos"},
+         "rule": {"en": "quedar (to meet up) is a regular AR verb. ¿Quedamos? means 'shall we meet?', and you meet con someone.",
+                  "it": "quedar (vedersi) è un verbo regolare in AR. ¿Quedamos? vuol dire 'ci vediamo?', e si queda con qualcuno."},
+         "examples": [
+           {"es": "¿Quedamos el sábado?", "en": "Shall we meet on Saturday?", "it": "Ci vediamo sabato?"},
+           {"es": "Quedo con mis amigos los viernes.", "en": "I meet up with my friends on Fridays.", "it": "Il venerdì vedo i miei amici."},
+           {"es": "¿Con quién quedas?", "en": "Who are you meeting?", "it": "Con chi ti vedi?"}
+         ],
+         "teaches": [
+           {"es": "quedo", "en": "I meet up", "it": "mi vedo"},
+           {"es": "quedas", "en": "you meet up", "it": "ti vedi"},
+           {"es": "queda", "en": "he/she meets up", "it": "si vede"},
+           {"es": "quedamos", "en": "we meet up", "it": "ci vediamo"},
+           {"es": "quedáis", "en": "you all meet up", "it": "vi vedete"},
+           {"es": "quedan", "en": "they meet up", "it": "si vedono"}
+         ]},
+        {"type": "gap", "beat": "forge", "before": "Los viernes ", "after": " con mis amigos.", "label": "quedar",
+         "accepted": ["quedo"], "en": "On Fridays I meet up with my friends.", "it": "Il venerdì vedo i miei amici.",
+         "hint": {"en": "Yo: qued- + -o.", "it": "Yo: qued- + -o."}},
+        {"type": "choose", "beat": "forge", "before": "¿", "after": " el sábado?",
+         "options": ["Quedamos", "Quedan", "Queda"], "answer": "Quedamos",
+         "en": "Shall we meet on Saturday?", "it": "Ci vediamo sabato?",
+         "hint": {"en": "You and your friend = nosotros: quedamos.", "it": "Tu e il tuo amico = nosotros: quedamos."}},
+
+        {"type": "explain",
+         "bricks": [{"text": "quedamos", "kind": "stem"}, {"text": "a las ocho", "kind": "time"}, {"text": "delante del cine", "kind": "rail"}],
+         "rule": {"en": "Say the time with a las and the place with en or delante de. Remember de + el = del.",
+                  "it": "Di l'ora con a las e il luogo con en o delante de. Ricorda: de + el = del."},
+         "examples": [
+           {"es": "Quedamos a las siete en la plaza.", "en": "Let's meet at seven in the square.", "it": "Ci vediamo alle sette in piazza."},
+           {"es": "Quedamos delante de la estación.", "en": "Let's meet in front of the station.", "it": "Ci vediamo davanti alla stazione."},
+           {"es": "¿Quedamos a las ocho delante del cine?", "en": "Shall we meet at eight in front of the cinema?", "it": "Ci vediamo alle otto davanti al cinema?"}
+         ]},
+        {"type": "choose", "beat": "forge", "before": "Quedamos ", "after": " las ocho.",
+         "options": ["a", "en", "de"], "answer": "a",
+         "en": "Let's meet at eight.", "it": "Ci vediamo alle otto.",
+         "hint": {"en": "Times take a las.", "it": "Le ore vogliono a las."}},
+        {"type": "build", "beat": "fire",
+         "intention": {"en": "Suggest meeting in front of the cinema.", "it": "Proponi di vedervi davanti al cinema."},
+         "accepted": ["¿Quedamos delante del cine?"],
+         "tiles": ["¿Quedamos", "delante", "del", "cine", "de la", "quedo"],
+         "en": "Shall we meet in front of the cinema?", "it": "Ci vediamo davanti al cinema?",
+         "hint": {"en": "delante de + el cine = delante del cine.", "it": "delante de + el cine = delante del cine."}},
+
+        {"type": "explain",
+         "bricks": [{"text": "¿te viene bien?", "kind": "chunk"}, {"text": "de acuerdo", "kind": "chunk"}],
+         "rule": {"en": "To check a plan, ask ¿Te viene bien? To say yes: De acuerdo or Perfecto. If you can't, say No puedo and offer another time.",
+                  "it": "Per controllare un piano, chiedi ¿Te viene bien? Per dire di sì: De acuerdo o Perfecto. Se non puoi, di' No puedo e proponi un'altra ora."},
+         "examples": [
+           {"es": "¿Quedamos a las siete? ¿Te viene bien?", "en": "Shall we meet at seven? Does that suit you?", "it": "Ci vediamo alle sette? Ti va bene?"},
+           {"es": "¡Perfecto! Nos vemos a las siete.", "en": "Perfect! See you at seven.", "it": "Perfetto! Ci vediamo alle sette."},
+           {"es": "No puedo. ¿A las ocho?", "en": "I can't. At eight?", "it": "Non posso. Alle otto?"}
+         ]},
+        {"type": "choose", "beat": "forge", "before": "¿Quedamos a las siete? ", "after": ", nos vemos a las siete.",
+         "options": ["De acuerdo", "No puedo", "¿Te viene bien?"], "answer": "De acuerdo",
+         "en": "Shall we meet at seven? OK, see you at seven.", "it": "Ci vediamo alle sette? D'accordo, ci vediamo alle sette.",
+         "hint": {"en": "You agree: de acuerdo.", "it": "Sei d'accordo: de acuerdo."}},
+        {"type": "build", "beat": "fire",
+         "intention": {"en": "Say you can't, and ask if nine o'clock suits them.", "it": "Di che non puoi, e chiedi se le nove vanno bene."},
+         "accepted": ["No puedo. ¿Te viene bien a las nueve?"],
+         "tiles": ["No", "puedo", "¿Te viene bien?", "a las", "nueve", "puedes"],
+         "en": "I can't. Does nine suit you?", "it": "Non posso. Ti vanno bene le nove?",
+         "hint": {"en": "No puedo, then the new time with ¿Te viene bien?", "it": "No puedo, poi la nuova ora con ¿Te viene bien?"}},
+
+        {"type": "build", "beat": "mix",
+         "intention": {"en": "Ask a friend to meet on Saturday at eight in the square.", "it": "Chiedi a un amico di vedervi sabato alle otto in piazza."},
+         "accepted": ["¿Quedamos el sábado a las ocho en la plaza?", "¿Quedamos a las ocho en la plaza el sábado?"],
+         "tiles": ["¿Quedamos", "el sábado", "a las", "ocho", "en", "la plaza", "quedo"],
+         "en": "Shall we meet on Saturday at eight in the square?", "it": "Ci vediamo sabato alle otto in piazza?",
+         "hint": {"en": "Quedamos + day + a las + place.", "it": "Quedamos + giorno + a las + luogo."}},
+        {"type": "gap", "beat": "mix", "before": "Mis amigos ", "after": " en el centro los domingos.", "label": "quedar",
+         "accepted": ["quedan"], "en": "My friends meet up in the town centre on Sundays.", "it": "La domenica i miei amici si vedono in centro.",
+         "hint": {"en": "Mis amigos = ellos: qued- + -an.", "it": "Mis amigos = ellos: qued- + -an."}},
+        {"type": "choose", "beat": "mix", "before": "Esta tarde ", "after": " con Ana en la plaza.",
+         "options": ["quedo", "quedas", "quedan"], "answer": "quedo",
+         "en": "This afternoon I'm meeting Ana in the square.", "it": "Oggi pomeriggio vedo Ana in piazza.",
+         "hint": {"en": "Talking about you: quedo.", "it": "Parli di te: quedo."}},
+        {"type": "write", "beat": "mix",
+         "instruction": {"en": "A friend writes: «¿Quedamos esta tarde?» Say yes, and say when and where.", "it": "Un amico ti scrive: «¿Quedamos esta tarde?» Di di sì, e di' quando e dove."},
+         "required": ["quedamos", "a las"],
+         "model": {"es": "¡Perfecto! Quedamos a las seis delante de la estación.",
+                   "en": "Perfect! Let's meet at six in front of the station.",
+                   "it": "Perfetto! Ci vediamo alle sei davanti alla stazione."}}
+      ]
+    },
+
+    {
+      "id": "u10l4",
+      "goal": {"en": "Say what you do when something happens: after work, when it rains, when it's hot.", "it": "Di cosa fai quando succede qualcosa: dopo il lavoro, quando piove, quando fa caldo."},
+      "target": {"es": "Cuando salgo del trabajo, voy al gimnasio. Cuando llueve, me quedo en casa.", "en": "When I leave work, I go to the gym. When it rains, I stay at home.", "it": "Quando esco dal lavoro, vado in palestra. Quando piove, resto a casa."},
+      "names": ["Madrid", "Ana"],
+      "items": [
+        {"type": "words", "words": [
+          {"es": "el tiempo libre", "en": "free time", "it": "il tempo libero", "kind": "chunk"},
+          {"es": "hace buen tiempo", "en": "the weather is nice", "it": "fa bel tempo", "kind": "chunk"},
+          {"es": "hace calor", "en": "it's hot", "it": "fa caldo", "kind": "chunk"},
+          {"es": "hace frío", "en": "it's cold", "it": "fa freddo", "kind": "chunk"}
+        ]},
+        {"type": "words", "words": [
+          {"es": "llover", "en": "to rain", "it": "piovere", "kind": "stem"},
+          {"es": "quedarse", "en": "to stay", "it": "restare", "kind": "stem"}
+        ]},
+
+        {"type": "explain",
+         "bricks": [{"text": "cuando", "kind": "rail"}, {"text": "salgo del trabajo", "kind": "chunk"}, {"text": "voy al gimnasio", "kind": "chunk"}],
+         "rule": {"en": "cuando (when) + the present says what you do every time something happens.",
+                  "it": "cuando (quando) + il presente dice cosa fai ogni volta che succede qualcosa."},
+         "examples": [
+           {"es": "Cuando salgo del trabajo, voy al gimnasio.", "en": "When I leave work, I go to the gym.", "it": "Quando esco dal lavoro, vado in palestra."},
+           {"es": "Cuando tengo tiempo libre, leo.", "en": "When I have free time, I read.", "it": "Quando ho tempo libero, leggo."},
+           {"es": "Cuando hace calor, voy a la playa.", "en": "When it's hot, I go to the beach.", "it": "Quando fa caldo, vado al mare."}
+         ]},
+        {"type": "choose", "beat": "forge", "before": "Cuando ", "after": " del trabajo, voy a casa.",
+         "options": ["salgo", "sale", "salir"], "answer": "salgo",
+         "en": "When I leave work, I go home.", "it": "Quando esco dal lavoro, vado a casa.",
+         "hint": {"en": "cuando + present: yo salgo.", "it": "cuando + presente: yo salgo."}},
+        {"type": "build", "beat": "fire",
+         "intention": {"en": "Say that when it's hot, you go to the beach.", "it": "Di che quando fa caldo vai al mare."},
+         "accepted": ["Cuando hace calor, voy a la playa.", "Voy a la playa cuando hace calor."],
+         "tiles": ["Cuando", "hace calor", "voy", "a la playa", "hace frío"],
+         "en": "When it's hot, I go to the beach.", "it": "Quando fa caldo, vado al mare.",
+         "hint": {"en": "Cuando + the situation, then what you do.", "it": "Cuando + la situazione, poi cosa fai."}},
+
+        {"type": "explain",
+         "bricks": [{"text": "hace", "kind": "stem"}, {"text": "calor", "kind": "chunk"}],
+         "rule": {"en": "For the weather, Spanish uses hace: hace calor, hace frío, hace buen tiempo. For rain, just llueve (it rains).",
+                  "it": "Per il tempo, lo spagnolo usa hace, come il nostro 'fa': hace calor, hace frío, hace buen tiempo. Per la pioggia, solo llueve (piove)."},
+         "examples": [
+           {"es": "Hoy hace frío.", "en": "It's cold today.", "it": "Oggi fa freddo."},
+           {"es": "En Madrid hace calor.", "en": "It's hot in Madrid.", "it": "A Madrid fa caldo."},
+           {"es": "Cuando llueve, leo en casa.", "en": "When it rains, I read at home.", "it": "Quando piove, leggo a casa."}
+         ],
+         "teaches": [
+           {"es": "llueve", "en": "it rains, it's raining", "it": "piove"}
+         ]},
+        {"type": "choose", "beat": "forge", "before": "Hoy ", "after": " frío.",
+         "options": ["hace", "es", "está"], "answer": "hace",
+         "en": "It's cold today.", "it": "Oggi fa freddo.",
+         "hint": {"en": "Weather takes hace.", "it": "Il tempo vuole hace."}},
+        {"type": "gap", "beat": "fire", "before": "Cuando ", "after": ", leo en casa.", "label": "llover",
+         "accepted": ["llueve"], "en": "When it rains, I read at home.", "it": "Quando piove, leggo a casa.",
+         "hint": {"en": "o becomes ue: llueve.", "it": "La o diventa ue: llueve."}},
+
+        {"type": "explain",
+         "bricks": [{"text": "me", "kind": "ending"}, {"text": "qued-", "kind": "stem"}, {"text": "-o", "kind": "ending"}],
+         "result": {"stem": "qued", "ending": "o"},
+         "rule": {"en": "quedarse (to stay) works like levantarse: me quedo, te quedas, se queda… Careful: without me, te, se, quedar means to meet up.",
+                  "it": "quedarse (restare) funziona come levantarse: me quedo, te quedas, se queda… Attenzione: senza me, te, se, quedar vuol dire vedersi."},
+         "examples": [
+           {"es": "Cuando llueve, me quedo en casa.", "en": "When it rains, I stay at home.", "it": "Quando piove, resto a casa."},
+           {"es": "¿Te quedas en casa hoy?", "en": "Are you staying at home today?", "it": "Resti a casa oggi?"},
+           {"es": "Los domingos nos quedamos en casa.", "en": "On Sundays we stay at home.", "it": "La domenica restiamo a casa."}
+         ],
+         "teaches": [
+           {"es": "me quedo", "en": "I stay", "it": "resto"},
+           {"es": "te quedas", "en": "you stay", "it": "resti"},
+           {"es": "se queda", "en": "he/she stays", "it": "resta"},
+           {"es": "nos quedamos", "en": "we stay", "it": "restiamo"},
+           {"es": "os quedáis", "en": "you all stay", "it": "restate"},
+           {"es": "se quedan", "en": "they stay", "it": "restano"}
+         ]},
+        {"type": "choose", "beat": "forge", "before": "Cuando hace frío, ", "after": " quedo en casa.",
+         "options": ["me", "te", "se"], "answer": "me",
+         "en": "When it's cold, I stay at home.", "it": "Quando fa freddo, resto a casa.",
+         "hint": {"en": "quedo is yo, so me.", "it": "quedo è yo, quindi me."}},
+        {"type": "gap", "beat": "fire", "before": "Hoy nosotros nos ", "after": " en casa.", "label": "quedarse",
+         "accepted": ["quedamos"], "en": "Today we're staying at home.", "it": "Oggi restiamo a casa.",
+         "hint": {"en": "nos + qued- + -amos.", "it": "nos + qued- + -amos."}},
+
+        {"type": "choose", "beat": "mix", "before": "Esta tarde ", "after": " con Ana en la plaza.",
+         "options": ["quedo", "me quedo"], "answer": "quedo",
+         "en": "This afternoon I'm meeting Ana in the square.", "it": "Oggi pomeriggio vedo Ana in piazza.",
+         "hint": {"en": "Meeting someone: quedar, without me.", "it": "Vedere qualcuno: quedar, senza me."}},
+        {"type": "build", "beat": "mix",
+         "intention": {"en": "Say that when it rains, you stay at home.", "it": "Di che quando piove resti a casa."},
+         "accepted": ["Cuando llueve, me quedo en casa.", "Me quedo en casa cuando llueve."],
+         "tiles": ["Cuando", "llueve", "me", "quedo", "en casa", "quedamos"],
+         "en": "When it rains, I stay at home.", "it": "Quando piove, resto a casa.",
+         "hint": {"en": "Cuando llueve, then me quedo.", "it": "Cuando llueve, poi me quedo."}},
+        {"type": "write", "beat": "mix",
+         "instruction": {"en": "Say what you do in your free time: two sentences with cuando.", "it": "Di cosa fai nel tempo libero: due frasi con cuando."},
+         "required": ["cuando"],
+         "model": {"es": "Cuando salgo del trabajo, voy al gimnasio. Cuando hace buen tiempo, paseo por el parque.",
+                   "en": "When I leave work, I go to the gym. When the weather is nice, I go for a walk in the park.",
+                   "it": "Quando esco dal lavoro, vado in palestra. Quando fa bel tempo, faccio una passeggiata al parco."}}
+      ]
+    },
+
+    {
+      "id": "u10l5",
+      "goal": {"en": "Describe your perfect plan, step by step, with everything from this unit.", "it": "Descrivi il tuo piano perfetto, passo dopo passo, con tutto quello che hai imparato nell'unità."},
+      "target": {"es": "Primero vamos a hacer una excursión y luego vamos a comer en la playa.", "en": "First we're going to go on a day trip and then we're going to have lunch on the beach.", "it": "Prima faremo una gita e poi pranzeremo in spiaggia."},
+      "items": [
+        {"type": "words", "words": [
+          {"es": "el plan", "en": "the plan", "it": "il programma", "kind": "chunk"},
+          {"es": "una excursión", "en": "a day trip", "it": "una gita", "kind": "chunk"},
+          {"es": "el sol", "en": "the sun", "it": "il sole", "kind": "chunk"},
+          {"es": "tranquilo", "en": "quiet, calm", "it": "tranquillo", "kind": "chunk"},
+          {"es": "alquilar", "en": "to rent", "it": "affittare", "kind": "stem"}
+        ]},
+
+        {"type": "explain",
+         "bricks": [{"text": "alquil-", "kind": "stem"}, {"text": "-amos", "kind": "ending"}],
+         "result": {"stem": "alquil", "ending": "amos"},
+         "rule": {"en": "alquilar is a regular AR verb. Use it with ir a for your plans: vamos a alquilar.",
+                  "it": "alquilar è un verbo regolare in AR. Usalo con ir a per i tuoi piani: vamos a alquilar."},
+         "examples": [
+           {"es": "Vamos a alquilar un coche.", "en": "We're going to rent a car.", "it": "Noleggeremo una macchina."},
+           {"es": "Alquilo un piso en el centro.", "en": "I rent a flat in the town centre.", "it": "Affitto un appartamento in centro."}
+         ],
+         "teaches": [
+           {"es": "alquilo", "en": "I rent", "it": "affitto"},
+           {"es": "alquilas", "en": "you rent", "it": "affitti"},
+           {"es": "alquila", "en": "he/she rents", "it": "affitta"},
+           {"es": "alquilamos", "en": "we rent", "it": "affittiamo"},
+           {"es": "alquiláis", "en": "you all rent", "it": "affittate"},
+           {"es": "alquilan", "en": "they rent", "it": "affittano"}
+         ]},
+        {"type": "gap", "beat": "forge", "before": "Este verano vamos a ", "after": " un coche.", "label": "alquilar",
+         "accepted": ["alquilar"], "en": "This summer we're going to rent a car.", "it": "Quest'estate noleggeremo una macchina.",
+         "hint": {"en": "After vamos a, the verb stays as it is.", "it": "Dopo vamos a, il verbo resta all'infinito."}},
+        {"type": "choose", "beat": "fire", "before": "Mis padres ", "after": " un piso en la playa.",
+         "options": ["alquilan", "alquila", "alquilamos"], "answer": "alquilan",
+         "en": "My parents rent a flat by the beach.", "it": "I miei genitori affittano un appartamento al mare.",
+         "hint": {"en": "Mis padres = ellos: -an.", "it": "Mis padres = ellos: -an."}},
+
+        {"type": "explain",
+         "bricks": [{"text": "una excursión", "kind": "chunk"}, {"text": "tranquila", "kind": "ending"}],
+         "rule": {"en": "Like all adjectives, tranquilo matches its word: un plan tranquilo, una excursión tranquila.",
+                  "it": "Come tutti gli aggettivi, tranquilo si accorda con la sua parola: un plan tranquilo, una excursión tranquila."},
+         "examples": [
+           {"es": "Es un plan tranquilo.", "en": "It's a quiet plan.", "it": "È un programma tranquillo."},
+           {"es": "Es una ciudad tranquila.", "en": "It's a quiet city.", "it": "È una città tranquilla."}
+         ],
+         "teaches": [
+           {"es": "tranquila", "en": "quiet, calm (feminine)", "it": "tranquilla"}
+         ]},
+        {"type": "choose", "beat": "forge", "before": "Es una excursión ", "after": ".",
+         "options": ["tranquila", "tranquilo"], "answer": "tranquila",
+         "en": "It's a relaxed day trip.", "it": "È una gita tranquilla.",
+         "hint": {"en": "excursión is feminine: tranquila.", "it": "excursión è femminile: tranquila."}},
+        {"type": "choose", "beat": "fire", "before": "Mi barrio es muy ", "after": ".",
+         "options": ["tranquilo", "tranquila"], "answer": "tranquilo",
+         "en": "My neighbourhood is very quiet.", "it": "Il mio quartiere è molto tranquillo.",
+         "hint": {"en": "barrio is masculine: tranquilo.", "it": "barrio è maschile: tranquilo."}},
+
+        {"type": "explain",
+         "bricks": [{"text": "primero", "kind": "rail"}, {"text": "vamos a", "kind": "ending"}, {"text": "luego", "kind": "rail"}, {"text": "entonces", "kind": "rail"}],
+         "rule": {"en": "Join your plans with primero, luego and al final. Use entonces (so) for what follows from something.",
+                  "it": "Collega i tuoi piani con primero, luego e al final. Usa entonces (allora) per una conseguenza."},
+         "examples": [
+           {"es": "Primero vamos a hacer una excursión y luego vamos a comer.", "en": "First we're going to go on a day trip and then we're going to have lunch.", "it": "Prima faremo una gita e poi pranzeremo."},
+           {"es": "Hace sol, entonces vamos a la playa.", "en": "It's sunny, so we're going to the beach.", "it": "C'è il sole, allora andiamo al mare."}
+         ]},
+        {"type": "choose", "beat": "forge", "before": "Hace sol, ", "after": " vamos a la playa.",
+         "options": ["entonces", "pero", "mientras"], "answer": "entonces",
+         "en": "It's sunny, so we're going to the beach.", "it": "C'è il sole, allora andiamo al mare.",
+         "hint": {"en": "The beach follows from the sun: entonces.", "it": "Il mare è una conseguenza del sole: entonces."}},
+        {"type": "build", "beat": "fire",
+         "intention": {"en": "Say that first you're going to go on a day trip and then you're going to have lunch.", "it": "Di che prima farete una gita e poi pranzerete."},
+         "accepted": ["Primero vamos a hacer una excursión y luego vamos a comer."],
+         "tiles": ["Primero", "vamos a", "hacer", "una excursión", "y", "luego", "vamos a", "comer", "al final"],
+         "en": "First we're going to go on a day trip and then we're going to have lunch.", "it": "Prima faremo una gita e poi pranzeremo.",
+         "hint": {"en": "primero for the first plan, luego for the next.", "it": "primero per il primo piano, luego per il successivo."}},
+
+        {"type": "gap", "beat": "mix", "before": "Cuando hace sol, ", "after": " a la playa.", "label": "ir",
+         "accepted": ["voy"], "en": "When it's sunny, I go to the beach.", "it": "Quando c'è il sole, vado al mare.",
+         "hint": {"en": "cuando + present, and yo voy.", "it": "cuando + presente, e yo voy."}},
+        {"type": "choose", "beat": "mix", "before": "El sábado ", "after": " a alquilar un coche.",
+         "options": ["vamos", "quedamos", "nos quedamos"], "answer": "vamos",
+         "en": "On Saturday we're going to rent a car.", "it": "Sabato noleggeremo una macchina.",
+         "hint": {"en": "A plan: vamos a + verb.", "it": "Un piano: vamos a + verbo."}},
+        {"type": "build", "beat": "mix",
+         "intention": {"en": "Ask a friend if the plan suits them.", "it": "Chiedi a un amico se il programma gli va bene."},
+         "accepted": ["¿Te viene bien el plan?"],
+         "tiles": ["¿Te viene bien", "el plan", "la", "vienes"],
+         "en": "Does the plan suit you?", "it": "Ti va bene il programma?",
+         "hint": {"en": "¿Te viene bien? + el plan.", "it": "¿Te viene bien? + el plan."}},
+        {"type": "write", "beat": "mix",
+         "instruction": {"en": "Describe your perfect weekend: use voy a or vamos a, with primero, luego and al final.", "it": "Descrivi il tuo fine settimana perfetto: usa voy a o vamos a, con primero, luego e al final."},
+         "required": ["primero", "luego", "al final"],
+         "model": {"es": "El sábado primero voy a dormir mucho, luego voy a hacer una excursión con mis amigos y al final vamos a cenar en un restaurante tranquilo.",
+                   "en": "On Saturday first I'm going to sleep a lot, then I'm going to go on a day trip with my friends and finally we're going to have dinner in a quiet restaurant.",
+                   "it": "Sabato prima dormirò tanto, poi farò una gita con i miei amici e alla fine ceneremo in un ristorante tranquillo."}}
+      ]
+    }
+  ],
+
+  "boss": {
+    "id": "u10boss",
+    "goal": {"en": "Your friend Pablo wants to spend the weekend in Barcelona with you. Plan the trip together: transport, hotel, places and times.",
+             "it": "Il tuo amico Pablo vuole passare il fine settimana a Barcellona con te. Organizzate il viaggio insieme: trasporti, albergo, luoghi e orari."},
+    "target": {"es": "Vamos a ir a Barcelona en tren y vamos a visitar la Sagrada Familia.", "en": "We're going to go to Barcelona by train and we're going to visit the Sagrada Familia.", "it": "Andremo a Barcellona in treno e visiteremo la Sagrada Familia."},
+    "names": ["Pablo", "Barcelona", "Sagrada Familia"],
+    "items": [
+      {"type": "words", "words": [
+        {"es": "ida y vuelta", "en": "return (ticket)", "it": "andata e ritorno", "kind": "chunk"},
+        {"es": "solo ida", "en": "one way", "it": "solo andata", "kind": "chunk"},
+        {"es": "los billetes", "en": "the tickets", "it": "i biglietti", "kind": "chunk"}
+      ]},
+      {"type": "build",
+       "intention": {"en": "Pablo asks: «¿Vamos a Barcelona este fin de semana?» Say yes, perfect, and ask: by train or by plane?", "it": "Pablo chiede: «¿Vamos a Barcelona este fin de semana?» Di di sì, perfetto, e chiedi: in treno o in aereo?"},
+       "accepted": ["¡Perfecto! ¿Vamos en tren o en avión?"],
+       "tiles": ["¡Perfecto!", "¿Vamos", "en tren", "o", "en avión", "voy"],
+       "en": "Perfect! Shall we go by train or by plane?", "it": "Perfetto! Andiamo in treno o in aereo?",
+       "hint": {"en": "Two options joined with o.", "it": "Due opzioni unite con o."}},
+      {"type": "choose", "before": "¿Reservas tú los billetes? Sí, yo ", "after": " los billetes.",
+       "options": ["reservo", "reserva", "reservas"], "answer": "reservo",
+       "en": "Will you book the tickets? Yes, I'll book the tickets.", "it": "Prenoti tu i biglietti? Sì, prenoto io i biglietti.",
+       "hint": {"en": "About you: reserv- + -o.", "it": "Su di te: reserv- + -o."}},
+      {"type": "choose", "before": "Dos billetes de ", "after": ", por favor.",
+       "options": ["ida y vuelta", "solo ida"], "answer": "ida y vuelta",
+       "en": "Two return tickets, please.", "it": "Due biglietti di andata e ritorno, per favore.",
+       "hint": {"en": "You're coming back on Sunday: ida y vuelta.", "it": "Tornate domenica: ida y vuelta."}},
+      {"type": "choose", "before": "¿A qué hora sale el tren? ", "after": " a las nueve y media.",
+       "options": ["Sale", "Salgo", "Salen"], "answer": "Sale",
+       "en": "What time does the train leave? It leaves at half past nine.", "it": "A che ora parte il treno? Parte alle nove e mezza.",
+       "hint": {"en": "El tren is él: sale.", "it": "El tren è él: sale."}},
+      {"type": "build",
+       "intention": {"en": "Pablo asks: «¿Dónde quedamos?» Say you'll meet at nine in front of the station.", "it": "Pablo chiede: «¿Dónde quedamos?» Di che vi vedete alle nove davanti alla stazione."},
+       "accepted": ["Quedamos a las nueve delante de la estación.", "Quedamos delante de la estación a las nueve."],
+       "tiles": ["Quedamos", "a las", "nueve", "delante de", "la estación", "quedo"],
+       "en": "Let's meet at nine in front of the station.", "it": "Ci vediamo alle nove davanti alla stazione.",
+       "hint": {"en": "Quedamos + a las + delante de.", "it": "Quedamos + a las + delante de."}},
+      {"type": "gap", "before": "¿Y el hotel? Vamos a ", "after": " un hotel cerca del centro.", "label": "reservar",
+       "accepted": ["reservar"], "en": "And the hotel? We're going to book a hotel near the centre.", "it": "E l'albergo? Prenoteremo un albergo vicino al centro.",
+       "hint": {"en": "After vamos a, the verb stays as it is.", "it": "Dopo vamos a, il verbo resta all'infinito."}},
+      {"type": "build",
+       "intention": {"en": "Pablo asks: «¿Qué vamos a hacer el sábado?» Say first you'll visit the Sagrada Familia and then go to the beach.", "it": "Pablo chiede: «¿Qué vamos a hacer el sábado?» Di che prima visiterete la Sagrada Familia e poi andrete al mare."},
+       "accepted": ["Primero vamos a visitar la Sagrada Familia y luego vamos a la playa."],
+       "tiles": ["Primero", "vamos a", "visitar", "la Sagrada Familia", "y", "luego", "vamos", "a la playa", "voy"],
+       "en": "First we're going to visit the Sagrada Familia and then we're going to the beach.", "it": "Prima visiteremo la Sagrada Familia e poi andiamo al mare.",
+       "hint": {"en": "primero …, luego …", "it": "primero …, luego …"}},
+      {"type": "choose", "before": "El sábado llueve. Cuando llueve, ", "after": " al museo.",
+       "options": ["vamos", "quedamos", "nos quedamos"], "answer": "vamos",
+       "en": "It's raining on Saturday. When it rains, we go to the museum.", "it": "Sabato piove. Quando piove, andiamo al museo.",
+       "hint": {"en": "Going somewhere: ir, vamos.", "it": "Andare da qualche parte: ir, vamos."}},
+      {"type": "choose", "before": "El domingo hace buen tiempo, ", "after": " vamos a la playa.",
+       "options": ["entonces", "mientras", "antes de"], "answer": "entonces",
+       "en": "On Sunday the weather is nice, so we're going to the beach.", "it": "Domenica fa bel tempo, allora andiamo al mare.",
+       "hint": {"en": "A consequence: entonces.", "it": "Una conseguenza: entonces."}},
+      {"type": "build",
+       "intention": {"en": "Pablo asks: «¿Cenamos el sábado en un restaurante?» Say OK, and ask if nine suits him.", "it": "Pablo chiede: «¿Cenamos el sábado en un restaurante?» Di d'accordo, e chiedi se le nove gli vanno bene."},
+       "accepted": ["De acuerdo. ¿Te viene bien a las nueve?"],
+       "tiles": ["De acuerdo", "¿Te viene bien?", "a las", "nueve", "quedas"],
+       "en": "OK. Does nine suit you?", "it": "D'accordo. Ti vanno bene le nove?",
+       "hint": {"en": "Agree, then check the time with ¿Te viene bien?", "it": "Accetta, poi controlla l'ora con ¿Te viene bien?"}},
+      {"type": "gap", "before": "¿A qué hora volvemos el domingo? ", "after": " el domingo por la tarde.", "label": "volver",
+       "accepted": ["Volvemos", "volvemos"], "en": "What time are we coming back on Sunday? We're coming back on Sunday afternoon.", "it": "A che ora torniamo domenica? Torniamo domenica pomeriggio.",
+       "hint": {"en": "Nosotros: the stem doesn't change, volv- + -emos.", "it": "Nosotros: la radice non cambia, volv- + -emos."}},
+      {"type": "write",
+       "instruction": {"en": "Send Pablo a message with the plan: transport, hotel and one thing you're going to do. Use vamos a.", "it": "Manda a Pablo un messaggio con il piano: trasporto, albergo e una cosa che farete. Usa vamos a."},
+       "required": ["vamos a"],
+       "model": {"es": "Vamos a ir a Barcelona en tren, vamos a reservar un hotel cerca del centro y el sábado vamos a visitar la Sagrada Familia.",
+                 "en": "We're going to go to Barcelona by train, we're going to book a hotel near the centre and on Saturday we're going to visit the Sagrada Familia.",
+                 "it": "Andremo a Barcellona in treno, prenoteremo un albergo vicino al centro e sabato visiteremo la Sagrada Familia."}}
+    ]
+  }
+}
