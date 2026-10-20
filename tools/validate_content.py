@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """Checks the lesson files against docs/content-format.md.
 
-Usage: python3 tools/validate_content.py [u2 u3 ...]
+Usage: python3 tools/validate_content.py [u2 u3 ...] [--langs en,it]
+
+--langs checks only those learner languages: for a unit whose other translations aren't written yet.
 
 Walks the path in order, so the vocabulary check knows every word introduced by earlier
 lessons. Lessons not written yet count with the words and forms planned for them in docs/vocab-plan.json.
@@ -278,4 +280,9 @@ def main(selected):
 
 
 if __name__ == "__main__":
-    sys.exit(main(set(sys.argv[1:])))
+    args = sys.argv[1:]
+    if "--langs" in args:
+        i = args.index("--langs")
+        LANGS = tuple(args[i + 1].split(","))
+        del args[i:i + 2]
+    sys.exit(main(set(args)))
