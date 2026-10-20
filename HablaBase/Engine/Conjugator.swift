@@ -13,6 +13,19 @@ enum NativeLanguage: String, Codable, CaseIterable, Identifiable {
         }
     }
 
+    /// The whole interface speaks the learner's language, whatever the device language is.
+    var locale: Locale { Locale(identifier: self == .english ? "en" : "it") }
+
+    /// A UI string in this language, for code that builds strings rather than Text views.
+    func localized(_ key: String.LocalizationValue) -> String {
+        let code = self == .english ? "en" : "it"
+        if let path = Bundle.main.path(forResource: code, ofType: "lproj"), let bundle = Bundle(path: path) {
+            return String(localized: key, bundle: bundle)
+        }
+        // No compiled table for the source language: a missing table returns the English text.
+        return String(localized: key, table: "SourceLanguage")
+    }
+
     /// Italian when the device is in Italian, English otherwise.
     static var deviceDefault: NativeLanguage {
         Locale.current.language.languageCode == .italian ? .italian : .english

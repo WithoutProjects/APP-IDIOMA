@@ -40,9 +40,18 @@ La app lee ese archivo para dibujar la ruta. Para cambiar el orden o los título
 - **Conjugation Lab**: dos botones. *Repasar tablas* (tabla del presente que se ilumina con el dominio y banco Lego) y *Jugar* (Parejas: unir cada verbo con su persona; los demás juegos se abren por nivel).
 - **Progreso guardado en el teléfono**: se guarda en un archivo de la app después de cada cambio, sobrevive a las actualizaciones y entra en la copia de seguridad del iPhone. Está detrás de `ProgressStorage`, así que más adelante se puede añadir una cuenta en la nube (por ejemplo Supabase) sin tocar el resto.
 
+## Para no perderse y seguir motivado
+
+- **Ver explicación**: en cada ejercicio un botón reabre la explicación de ese punto sin perder el ejercicio.
+- **Pista en dos pasos**: primero la raíz (azul) o el comienzo de la frase, después la terminación o un trozo más. No quita corazones, solo da menos XP.
+- **«Hoy vas a aprender a decir…» / «Ya puedes decir…»**: cada lección empieza con su frase objetivo y termina con las frases que has dicho, con audio en español (voz del iPhone, sin internet).
+- **Tocar una palabra para ver su traducción**: solo las palabras ya presentadas en las diapositivas.
+- **Minirepaso si te atascas**: dos fallos seguidos en el mismo punto muestran la regla con un ejemplo y una pregunta gemela más fácil. No quita corazones.
+- **Corazones que no castigan**: los fallos al escribir quitan un corazón, la «Segunda oportunidad» lo devuelve, se rellenan cada día y nunca bloquean. Con 0 aparece «Recupera tus corazones», un repaso de tus errores.
+
 ## Preparada para la App Store
 
-- **Idiomas**: la interfaz está en inglés, español e italiano (`Localizable.xcstrings`) y sigue el idioma del iPhone. Las traducciones de los ejercicios siguen el idioma elegido en el perfil (English / Italiano), que por defecto es el del iPhone.
+- **Idiomas**: toda la app (botones, explicaciones, pistas y traducciones) está en el idioma nativo del usuario, el que elige en el perfil (English / Italiano, por defecto el del iPhone). Los textos de la interfaz están en `Localizable.xcstrings`.
 - **Privacidad**: sin cuentas, sin anuncios, sin seguimiento; todo se guarda en el teléfono. `PrivacyInfo.xcprivacy` lo declara. En App Store Connect la etiqueta de privacidad es «Datos no recopilados».
 - **Solo lo que funciona**: la pestaña Talk y los minijuegos que aún no existen no se muestran; cuando alguien termina las lecciones disponibles ve una tarjeta «Estás al día» en lugar de botones desactivados.
 - **Accesibilidad**: VoiceOver lee el estado de cada paso (hecho, siguiente, bloqueado), los textos crecen con el tamaño de letra del sistema y las bandejas de piezas pasan a otra línea si no caben.

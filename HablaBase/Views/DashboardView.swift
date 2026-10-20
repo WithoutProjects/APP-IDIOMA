@@ -12,17 +12,22 @@ struct DashboardView: View {
             ScrollView {
                 VStack(alignment: .leading, spacing: 20) {
                     statsRow
+                    if store.state.energy == 0 {
+                        rechargeCard
+                    }
                     continueCard
                     fluencyCard
                     currentUnit
                 }
                 .padding(20)
             }
+            .onAppear { store.refillEnergyIfNewDay() }
             .navigationTitle("¡Hola, \(store.profile?.name ?? "")!")
         }
         .fullScreenCover(item: $activeLesson) { lesson in
             LessonView(lesson: lesson)
                 .environmentObject(store)
+                .environment(\.locale, store.language.locale)
         }
     }
 
@@ -72,6 +77,31 @@ struct DashboardView: View {
             Text("You have finished the whole path. ¡Enhorabuena!")
                 .font(.title2.bold())
         }
+    }
+
+    /// Energy never blocks a lesson; at zero, it invites a short review of the mistakes.
+    private var rechargeCard: some View {
+        Button {
+            activeLesson = Unit1.reviewLesson(weakForms: store.weakForms, completed: store.state.completedLessons)
+        } label: {
+            HStack(spacing: 14) {
+                Image(systemName: "heart.fill")
+                    .font(.title)
+                    .foregroundStyle(.red)
+                    .accessibilityHidden(true)
+                VStack(alignment: .leading, spacing: 2) {
+                    Text("Win your hearts back").font(.headline)
+                    Text("Review your mistakes: every right answer gives you a heart.")
+                        .font(.subheadline)
+                        .foregroundStyle(.secondary)
+                }
+                Spacer(minLength: 0)
+                Image(systemName: "chevron.right").foregroundStyle(.secondary).accessibilityHidden(true)
+            }
+            .padding(16)
+            .background(RoundedRectangle(cornerRadius: 18).fill(Color.red.opacity(0.1)))
+        }
+        .buttonStyle(.plain)
     }
 
     /// Shown when the next step is not in this version of the app yet.
@@ -166,9 +196,9 @@ struct PathNodeRow: View {
     }
 
     private var status: String {
-        if store.isCompleted(id) { return String(localized: "Done") }
-        if isCurrent { return String(localized: "Next") }
-        return String(localized: "Locked")
+        if store.isCompleted(id) { return store.language.localized("Done") }
+        if isCurrent { return store.language.localized("Next") }
+        return store.language.localized("Locked")
     }
 
     private var isCurrent: Bool { store.nextNode?.id == id }

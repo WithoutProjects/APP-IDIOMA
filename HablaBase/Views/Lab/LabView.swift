@@ -64,7 +64,7 @@ struct GamesView: View {
                     row(game, status: nil)
                 }
             } else {
-                row(game, status: String(localized: "Opens after \u{201C}\(unlockTitle(game))\u{201D}"))
+                row(game, status: store.language.localized("Opens after \u{201C}\(unlockTitle(game))\u{201D}"))
                     .opacity(0.55)
             }
         }

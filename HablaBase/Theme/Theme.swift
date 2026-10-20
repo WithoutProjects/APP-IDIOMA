@@ -81,11 +81,11 @@ struct EnergyView: View {
     var body: some View {
         HStack(spacing: 2) {
             ForEach(0..<SavedState.maxEnergy, id: \.self) { index in
-                Image(systemName: index < energy ? "bolt.fill" : "bolt")
-                    .foregroundStyle(index < energy ? Color.yellow : Color.secondary)
+                Image(systemName: index < energy ? "heart.fill" : "heart")
+                    .foregroundStyle(index < energy ? Color.red : Color.secondary)
             }
         }
         .font(.caption)
-        .accessibilityLabel("Energy \(energy) of \(SavedState.maxEnergy)")
+        .accessibilityLabel("Hearts: \(energy) of \(SavedState.maxEnergy)")
     }
 }

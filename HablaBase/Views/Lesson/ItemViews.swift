@@ -40,7 +40,7 @@ struct VocabSlidesView: View {
             .indexViewStyle(.page(backgroundDisplayMode: .always))
             .frame(height: 280)
 
-            Button(page < set.words.count - 1 ? String(localized: "Next") : String(localized: "Practise these words")) {
+            Button(page < set.words.count - 1 ? language.localized("Next") : language.localized("Practise these words")) {
                 if page < set.words.count - 1 {
                     withAnimation { page += 1 }
                 } else {
@@ -143,6 +143,8 @@ struct FrameCardView: View {
     let language: NativeLanguage
     let onContinue: () -> Void
     @State var snapped = false
+    /// False when the card is reopened from an exercise ("See explanation").
+    var showsButton = true
 
     var body: some View {
         VStack(alignment: .leading, spacing: 24) {
@@ -170,9 +172,13 @@ struct FrameCardView: View {
 
             VStack(alignment: .leading, spacing: 12) {
                 ForEach(card.examples, id: \.self) { example in
-                    VStack(alignment: .leading, spacing: 2) {
-                        Text(example.es).font(.body.weight(.medium))
-                        Text(example.gloss.text(language)).font(.footnote).foregroundStyle(.secondary)
+                    HStack(alignment: .top) {
+                        VStack(alignment: .leading, spacing: 2) {
+                            GlossedText(text: example.es, font: .body.weight(.medium))
+                            Text(example.gloss.text(language)).font(.footnote).foregroundStyle(.secondary)
+                        }
+                        Spacer(minLength: 0)
+                        SpeakButton(text: example.es)
                     }
                 }
             }
@@ -180,8 +186,10 @@ struct FrameCardView: View {
             .frame(maxWidth: .infinity, alignment: .leading)
             .background(RoundedRectangle(cornerRadius: 16).fill(Palette.card))
 
-            Button("Got it", action: onContinue)
-                .buttonStyle(PrimaryButtonStyle())
+            if showsButton {
+                Button("Got it", action: onContinue)
+                    .buttonStyle(PrimaryButtonStyle())
+            }
         }
     }
 }
@@ -193,8 +201,10 @@ struct LegoSnapView: View {
     let snap: LegoSnap
     let language: NativeLanguage
     let onSubmit: (GradeOutcome) -> Void
+    var onHint: () -> Void = {}
     @State var stem: String?
     @State var ending: String?
+    @State var hintLevel = 0
 
     var body: some View {
         VStack(alignment: .leading, spacing: 24) {
@@ -227,6 +237,17 @@ struct LegoSnapView: View {
 
             tray("Stems", items: snap.stems, kind: .stem, selected: stem) { stem = $0 }
             tray("Endings", items: snap.endings, kind: .ending, selected: ending) { ending = $0 }
+
+            if hintLevel > 0 {
+                HintBox {
+                    BrickView(text: snap.answer.stem + "-", kind: .stem)
+                    if hintLevel > 1 {
+                        Text(verbatim: "+").font(.title3.bold())
+                        BrickView(text: "-" + snap.answer.ending, kind: .ending)
+                    }
+                }
+            }
+            HintButton(level: $hintLevel, onUse: onHint)
 
             Button("Check") { check() }
                 .buttonStyle(PrimaryButtonStyle())
@@ -272,8 +293,12 @@ struct GapFillView: View {
     let gap: GapFill
     let language: NativeLanguage
     let onSubmit: (GradeOutcome) -> Void
+    var onHint: () -> Void = {}
     @State var text = ""
     @FocusState var focused: Bool
+    @State var hintLevel = 0
+
+    private static let blank = "\u{0}"
 
     var body: some View {
         VStack(alignment: .leading, spacing: 24) {
@@ -281,8 +306,15 @@ struct GapFillView: View {
                 .font(.title2.weight(.semibold))
 
             VStack(alignment: .leading, spacing: 8) {
-                (Text(gap.before) + Text(verbatim: "_____").foregroundColor(Brick.ending.color) + Text(gap.after))
-                    .font(.title3.weight(.medium))
+                FlowLayout(spacing: 5) {
+                    ForEach(Array(sentenceWords.enumerated()), id: \.offset) { _, word in
+                        if word == Self.blank {
+                            Text(verbatim: "_____").foregroundStyle(Brick.ending.color).font(.title3.weight(.medium))
+                        } else {
+                            GlossedWord(word: word, font: .title3.weight(.medium))
+                        }
+                    }
+                }
                 Text(gap.gloss.text(language))
                     .font(.footnote)
                     .foregroundStyle(.secondary)
@@ -308,12 +340,37 @@ struct GapFillView: View {
             .padding()
             .background(RoundedRectangle(cornerRadius: 16).strokeBorder(Color.secondary.opacity(0.4)))
 
+            if hintLevel > 0, let form = answerForm {
+                HintBox {
+                    BrickView(text: form.stem + "-", kind: .stem)
+                    if hintLevel > 1, let first = form.ending.first {
+                        Text(verbatim: "+").font(.title3.bold())
+                        BrickView(text: "-\(first)…", kind: .ending)
+                    }
+                }
+            }
+            if answerForm != nil {
+                HintButton(level: $hintLevel, onUse: onHint)
+            }
+
             Button("Check", action: check)
                 .buttonStyle(PrimaryButtonStyle())
                 .disabled(isEmpty)
                 .opacity(isEmpty ? 0.4 : 1)
         }
         .onAppear { focused = true }
+    }
+
+    private var sentenceWords: [String] {
+        gap.before.split(separator: " ").map(String.init) + [Self.blank] + gap.after.split(separator: " ").map(String.init)
+    }
+
+    /// The answer split into stem and ending, for hints.
+    private var answerForm: VerbForm? {
+        let stem = String(gap.lemma.dropLast(2))
+        let answer = gap.accepted[0]
+        guard answer.hasPrefix(stem), answer.count > stem.count else { return nil }
+        return VerbForm(stem: stem, ending: String(answer.dropFirst(stem.count)))
     }
 
     private var isEmpty: Bool { text.trimmingCharacters(in: .whitespaces).isEmpty }
@@ -332,8 +389,10 @@ struct SentenceBuilderView: View {
     let builder: SentenceBuilder
     let language: NativeLanguage
     let onSubmit: (GradeOutcome) -> Void
+    var onHint: () -> Void = {}
     /// Indices into builder.tiles, in the order the learner placed them.
     @State var placed: [Int] = []
+    @State var hintLevel = 0
 
     var body: some View {
         VStack(alignment: .leading, spacing: 24) {
@@ -357,6 +416,16 @@ struct SentenceBuilderView: View {
                         .buttonStyle(.plain)
                         .disabled(used)
                 }
+            }
+
+            if hintLevel > 0, let ordered = builder.orderedTiles {
+                HintBox {
+                    Text("Start with:")
+                    Text(verbatim: ordered.prefix(hintLevel).joined(separator: " ") + " …").fontWeight(.semibold)
+                }
+            }
+            if builder.orderedTiles != nil {
+                HintButton(level: $hintLevel, onUse: onHint)
             }
 
             Button("Check") {
@@ -387,8 +456,10 @@ struct FreeWriteView: View {
     let write: FreeWrite
     let language: NativeLanguage
     let onSubmit: (GradeOutcome) -> Void
+    var onHint: () -> Void = {}
     @State var text = ""
     @FocusState var focused: Bool
+    @State var hintLevel = 0
 
     var body: some View {
         VStack(alignment: .leading, spacing: 24) {
@@ -402,6 +473,15 @@ struct FreeWriteView: View {
                 .focused($focused)
                 .padding()
                 .background(RoundedRectangle(cornerRadius: 16).fill(Palette.card))
+
+            if hintLevel > 0 {
+                HintBox {
+                    Text(verbatim: hintLevel == 1
+                         ? write.requiredChunks.filter { $0 != "y" }.joined(separator: " · ")
+                         : write.model.es)
+                }
+            }
+            HintButton(level: $hintLevel, onUse: onHint)
 
             Button("Check") {
                 focused = false

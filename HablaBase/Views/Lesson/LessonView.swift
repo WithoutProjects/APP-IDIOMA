@@ -5,26 +5,46 @@ struct LessonView: View {
     @Environment(\.dismiss) private var dismiss
     @StateObject private var session: LessonSession
     @State private var finished = false
+    @State private var showIntro: Bool
+    @State private var explanation: FrameCard?
 
     init(lesson: Lesson) {
         _session = StateObject(wrappedValue: LessonSession(lesson: lesson))
+        _showIntro = State(initialValue: lesson.target != nil)
     }
 
     var body: some View {
         VStack(spacing: 0) {
             header
-            if finished {
+            if showIntro, let target = session.lesson.target {
+                LessonIntroView(lesson: session.lesson, target: target, language: store.language) {
+                    withAnimation { showIntro = false }
+                }
+            } else if finished {
                 LessonCompleteView(lesson: session.lesson,
                                    xp: session.completionXP,
                                    correct: session.correct,
                                    answered: session.answered,
-                                   testPassed: session.isTest ? session.passedTest : nil) { dismiss() }
+                                   testPassed: session.isTest ? session.passedTest : nil,
+                                   sentences: session.saidSentences,
+                                   language: store.language) { dismiss() }
             } else if let item = session.current {
                 ScrollView {
                     VStack(alignment: .leading, spacing: 20) {
-                        Text(item.beat.title.uppercased())
-                            .font(.caption.weight(.bold))
-                            .foregroundStyle(.secondary)
+                        HStack {
+                            Text(item.beat.title(store.language).uppercased())
+                                .font(.caption.weight(.bold))
+                                .foregroundStyle(.secondary)
+                            Spacer()
+                            if let card = session.currentExplanation {
+                                Button { explanation = card } label: {
+                                    Label("See explanation", systemImage: "book.fill")
+                                        .font(.caption.weight(.semibold))
+                                }
+                                .buttonStyle(.bordered)
+                                .tint(Brick.stem.color)
+                            }
+                        }
                         itemView(item)
                             .id("\(item.id)-\(session.index)")
                     }
@@ -40,6 +60,24 @@ struct LessonView: View {
             }
         }
         .animation(.easeOut(duration: 0.25), value: session.feedback != nil)
+        .environment(\.glossary, store.glossary(including: session.lesson))
+        .environment(\.learnerLanguage, store.language)
+        .sheet(item: $explanation) { card in
+            NavigationStack {
+                ScrollView {
+                    FrameCardView(card: card, language: store.language, onContinue: {}, showsButton: false)
+                        .padding(20)
+                }
+                .toolbar {
+                    ToolbarItem(placement: .confirmationAction) {
+                        Button("Back to the exercise") { explanation = nil }
+                    }
+                }
+            }
+            .environment(\.glossary, store.glossary(including: session.lesson))
+            .environment(\.learnerLanguage, store.language)
+            .presentationDetents([.medium, .large])
+        }
     }
 
     private var header: some View {
@@ -63,6 +101,7 @@ struct LessonView: View {
             session.submit(outcome, store: store)
             if session.isFinished { finish() }
         }
+        let hint = { session.useHint() }
         switch item.kind {
         case .slides(let set):
             VocabSlidesView(set: set, language: store.language) { submit(.correct) }
@@ -71,13 +110,13 @@ struct LessonView: View {
         case .frame(let card):
             FrameCardView(card: card, language: store.language) { submit(.correct) }
         case .legoSnap(let snap):
-            LegoSnapView(snap: snap, language: store.language, onSubmit: submit)
+            LegoSnapView(snap: snap, language: store.language, onSubmit: submit, onHint: hint)
         case .gapFill(let gap):
-            GapFillView(gap: gap, language: store.language, onSubmit: submit)
+            GapFillView(gap: gap, language: store.language, onSubmit: submit, onHint: hint)
         case .builder(let builder):
-            SentenceBuilderView(builder: builder, language: store.language, onSubmit: submit)
+            SentenceBuilderView(builder: builder, language: store.language, onSubmit: submit, onHint: hint)
         case .freeWrite(let write):
-            FreeWriteView(write: write, language: store.language, onSubmit: submit)
+            FreeWriteView(write: write, language: store.language, onSubmit: submit, onHint: hint)
         }
     }
 
@@ -94,6 +133,8 @@ struct LessonView: View {
         case .unitTest(let unitId):
             // Passing skips the unit: everything up to its end counts as done.
             if session.passedTest { store.completeUnit(unitId) }
+            store.addXP(session.completionXP)
+        case .review:
             store.addXP(session.completionXP)
         }
         finished = true
@@ -116,7 +157,10 @@ struct FeedbackBar: View {
             }
             if let model = feedback.model {
                 VStack(alignment: .leading, spacing: 2) {
-                    Text(model.es).font(.body.weight(.semibold))
+                    HStack {
+                        GlossedText(text: model.es, font: .body.weight(.semibold))
+                        SpeakButton(text: model.es)
+                    }
                     Text(model.gloss.text(language)).font(.footnote).foregroundStyle(.secondary)
                 }
             }
@@ -135,14 +179,14 @@ struct FeedbackBar: View {
         switch feedback.outcome {
         case .correct: return "¡Perfecto!"
         case .accent: return "¡Casi perfecto!"
-        case .wrong: return String(localized: "Not quite")
+        case .wrong: return language.localized("Not quite")
         }
     }
 
     private var note: String? {
         switch feedback.outcome {
         case .correct: return nil
-        case .accent(let expected): return String(localized: "Watch the accents: \(expected)")
+        case .accent(let expected): return language.localized("Watch the accents: \(expected)")
         case .wrong(let hint): return hint
         }
     }
@@ -155,6 +199,9 @@ struct LessonCompleteView: View {
     let answered: Int
     /// nil for a lesson; for a unit test, whether it was passed.
     let testPassed: Bool?
+    /// Sentences said right in this lesson: "Now you can say…".
+    let sentences: [Example]
+    let language: NativeLanguage
     let onDone: () -> Void
 
     var body: some View {
@@ -171,6 +218,24 @@ struct LessonCompleteView: View {
                 .font(.title3)
                 .foregroundStyle(.secondary)
                 .multilineTextAlignment(.center)
+            if testPassed == nil && !sentences.isEmpty {
+                VStack(alignment: .leading, spacing: 10) {
+                    Text("Now you can say:").font(.headline)
+                    ForEach(sentences.suffix(4), id: \.self) { sentence in
+                        HStack {
+                            VStack(alignment: .leading, spacing: 2) {
+                                Text(sentence.es).font(.body.weight(.semibold))
+                                Text(sentence.gloss.text(language)).font(.footnote).foregroundStyle(.secondary)
+                            }
+                            Spacer(minLength: 0)
+                            SpeakButton(text: sentence.es)
+                        }
+                    }
+                }
+                .padding()
+                .frame(maxWidth: .infinity, alignment: .leading)
+                .background(RoundedRectangle(cornerRadius: 16).fill(Palette.card))
+            }
             HStack(spacing: 16) {
                 stat("+\(xp)", "XP")
                 if testPassed != nil {
@@ -196,9 +261,9 @@ struct LessonCompleteView: View {
 
     private var detail: String {
         switch testPassed {
-        case .none: return lesson.title
-        case .some(true): return String(localized: "You can jump to the next unit.")
-        case .some(false): return String(localized: "You need \(Lesson.testPassMark) of \(Lesson.testQuestions). The lessons will get you there.")
+        case .none: return lesson.mode.isReview ? language.localized("Your hearts are back.") : lesson.title
+        case .some(true): return language.localized("You can jump to the next unit.")
+        case .some(false): return language.localized("You need \(Lesson.testPassMark) of \(Lesson.testQuestions). The lessons will get you there.")
         }
     }
 

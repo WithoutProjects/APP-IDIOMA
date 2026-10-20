@@ -19,6 +19,8 @@ struct OnboardingView: View {
                 }
                 .navigationTitle("HablaBase")
         }
+        // The form switches language as soon as the learner picks theirs.
+        .environment(\.locale, draft.nativeLanguage.locale)
     }
 
     private var cleaned: Profile {
@@ -40,7 +42,7 @@ struct ProfileForm: View {
     var body: some View {
         Form {
             Section {
-                Picker("Translations in", selection: $profile.nativeLanguage) {
+                Picker("My language", selection: $profile.nativeLanguage) {
                     ForEach(NativeLanguage.allCases) { Text($0.label).tag($0) }
                 }
                 Picker("Goal", selection: $profile.goal) {

@@ -10,6 +10,8 @@ struct SavedState: Codable, Equatable {
     var streak = 0
     var lastPracticeDay: String?
     var energy = SavedState.maxEnergy
+    /// The day energy was last refilled; it fills up again every new day.
+    var energyDay: String?
     /// Every finished path step: lessons, bosses, unit tests and checkpoints.
     var completedLessons: Set<String> = []
     /// Mastery 0...5 per verb x tense x person cell (the verb SRS).
@@ -27,6 +29,7 @@ struct SavedState: Codable, Equatable {
         streak = try c.decodeIfPresent(Int.self, forKey: .streak) ?? 0
         lastPracticeDay = try c.decodeIfPresent(String.self, forKey: .lastPracticeDay)
         energy = try c.decodeIfPresent(Int.self, forKey: .energy) ?? SavedState.maxEnergy
+        energyDay = try c.decodeIfPresent(String.self, forKey: .energyDay)
         completedLessons = try c.decodeIfPresent(Set<String>.self, forKey: .completedLessons) ?? []
         mastery = try c.decodeIfPresent([FormKey: Int].self, forKey: .mastery) ?? [:]
         sentencesBuilt = try c.decodeIfPresent(Int.self, forKey: .sentencesBuilt) ?? 0
@@ -44,6 +47,7 @@ final class AppStore: ObservableObject {
     init(storage: ProgressStorage = FileProgressStorage()) {
         self.storage = storage
         state = storage.load() ?? SavedState()
+        refillEnergyIfNewDay()
     }
 
     var profile: Profile? { state.profile }
@@ -77,6 +81,17 @@ final class AppStore: ObservableObject {
         profile.flatMap { Unit1.lesson(id: id, profile: $0) }
     }
 
+    /// Words met in finished lessons plus the ones this lesson introduces, for tap-to-translate.
+    func glossary(including lesson: Lesson? = nil) -> Glossary {
+        var words: [VocabWord] = lesson?.vocabulary ?? []
+        if let profile {
+            for id in state.completedLessons.sorted() {
+                words += Unit1.lesson(id: id, profile: profile)?.vocabulary ?? []
+            }
+        }
+        return Glossary(words: words)
+    }
+
     // MARK: Practice events
 
     func addXP(_ amount: Int) {
@@ -94,8 +109,22 @@ final class AppStore: ObservableObject {
         state.sentencesBuilt += 1
     }
 
+    /// Energy never blocks a lesson. It shows how a session is going and fills up every day.
     func spendEnergy() {
+        refillEnergyIfNewDay()
         state.energy = max(0, state.energy - 1)
+    }
+
+    func refillEnergyIfNewDay(today: Date = .now) {
+        let todayKey = Self.dayKey(today)
+        guard state.energyDay != todayKey else { return }
+        state.energy = SavedState.maxEnergy
+        state.energyDay = todayKey
+    }
+
+    /// Forms the learner has missed and not yet mastered, weakest first.
+    var weakForms: [FormKey] {
+        state.mastery.filter { $0.value < 3 }.sorted { $0.value < $1.value }.map(\.key)
     }
 
     /// Fixing a mistake earns a bolt back: errors are the path back, not a punishment.

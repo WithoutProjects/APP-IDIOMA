@@ -152,7 +152,9 @@ enum Unit1 {
             goal: Gloss(en: "Learn 14 words and build present-tense forms for yo, tú and él/ella.",
                         it: "Impara 14 parole e costruisci il presente per yo, tú ed él/ella."),
             mode: .lesson,
-            items: items
+            items: items,
+            target: Example(es: "Yo hablo español. ¿Tú hablas español?",
+                            gloss: Gloss(en: "I speak Spanish. Do you speak Spanish?", it: "Io parlo spagnolo. Tu parli spagnolo?"))
         )
     }
 
@@ -257,7 +259,12 @@ enum Unit1 {
             titleGloss: Gloss(en: "I introduce myself", it: "Mi presento"),
             goal: Gloss(en: "Say 3 true sentences about yourself.", it: "Di 3 frasi vere su di te."),
             mode: .lesson,
-            items: items
+            items: items,
+            target: Example(
+                es: "Me llamo \(profile.name), vivo en \(profile.city) y trabajo en \(workplace).",
+                gloss: Gloss(en: "My name is \(profile.name), I live in \(profile.city) and I work \(profile.workplace.gloss.en).",
+                             it: "Mi chiamo \(profile.name), vivo a \(profile.city) e lavoro \(profile.workplace.gloss.it).")
+            )
         )
     }
 
@@ -298,6 +305,59 @@ enum Unit1 {
             mode: .unitTest(unitId: "u1"),
             items: items.shuffled(using: &rng)
         )
+    }
+
+    // MARK: - Review and twins
+
+    /// "Recupera energía": short practice on the forms the learner missed. Every right answer wins a bolt back.
+    static func reviewLesson(weakForms: [FormKey], completed: Set<String>) -> Lesson {
+        let persons = unlockedPersons(completed: completed)
+        var keys = weakForms.filter { key in
+            guard let parsed = parse(key) else { return false }
+            return coreLemmas.contains(parsed.verb.lemma) && persons.contains(parsed.person)
+        }
+        if keys.count < 5 {
+            keys += coreVerbs.shuffled().prefix(5).map { Conjugator.key($0, .presente, persons.randomElement()!) }
+        }
+        var items: [LessonItem] = []
+        for (index, key) in keys.prefix(6).enumerated() {
+            guard let parsed = parse(key) else { continue }
+            let target = parsed.verb, person = parsed.person
+            if index.isMultiple(of: 2) {
+                let others = coreVerbs.filter { $0.lemma != target.lemma }.shuffled().prefix(3).map(\.lemma)
+                items.append(snap("review-\(index)", .fix, target.lemma, person,
+                                  stemsFrom: [target.lemma] + others, endings: ["o", "as", "es", "a", "e"]))
+            } else {
+                items.append(gap("review-\(index)", .fix, target.lemma, person))
+            }
+        }
+        return Lesson(
+            id: "review",
+            title: "Repaso",
+            titleGloss: Gloss(en: "Review", it: "Ripasso"),
+            goal: Gloss(en: "Fix your mistakes and win your hearts back.", it: "Correggi i tuoi errori e recupera i cuori."),
+            mode: .review,
+            items: items
+        )
+    }
+
+    /// An easier question on the same pattern with another verb of the same family, right after
+    /// someone gets stuck: one stem to choose and two endings.
+    static func easyTwin(of key: FormKey, id: String) -> LessonItem? {
+        guard let parsed = parse(key) else { return nil }
+        let original = parsed.verb, person = parsed.person
+        let twin = coreVerbs.first { $0.family == original.family && $0.lemma != original.lemma } ?? original
+        let right = Conjugator.conjugate(twin, .presente, person).ending
+        let wrong = ["o", "as", "es", "a", "e"].filter { $0 != right }.randomElement()!
+        return snap(id, .review, twin.lemma, person, stemsFrom: [twin.lemma], endings: [right, wrong].shuffled())
+    }
+
+    /// "hablar.presente.yo" -> (hablar, yo), for Unit 1 verbs.
+    static func parse(_ key: FormKey) -> (verb: Verb, person: Person)? {
+        let parts = key.split(separator: ".")
+        guard parts.count == 3, let verb = verbs.first(where: { $0.lemma == parts[0] }),
+              let person = Person(rawValue: String(parts[2])) else { return nil }
+        return (verb, person)
     }
 
     // MARK: - Item builders

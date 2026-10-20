@@ -4,16 +4,19 @@ import Foundation
 /// with short practice runs, a mixed block closes the lesson, and unit tests have no explanations.
 enum Beat: String {
     case words, frame, forge, fire, mix, fix, test
+    /// A quick review after two misses in a row on the same point.
+    case review
 
-    /// The small label above each item, in the learner's interface language.
-    var title: String {
+    /// The small label above each item, in the learner's language.
+    func title(_ language: NativeLanguage) -> String {
         switch self {
-        case .words: return String(localized: "New words")
-        case .frame: return String(localized: "How it works")
-        case .forge, .fire: return String(localized: "Practice")
-        case .mix: return String(localized: "Mix")
-        case .fix: return String(localized: "Second chance")
-        case .test: return String(localized: "Unit test")
+        case .words: return language.localized("New words")
+        case .frame: return language.localized("How it works")
+        case .forge, .fire: return language.localized("Practice")
+        case .mix: return language.localized("Mix")
+        case .fix: return language.localized("Second chance")
+        case .test: return language.localized("Unit test")
+        case .review: return language.localized("Quick review")
         }
     }
 }
@@ -80,6 +83,26 @@ struct SentenceBuilder: Hashable {
     let accepted: [String]
     let model: Example
     let hint: Gloss
+
+    /// The tiles in the order of the model answer, for hints. Nil if the tiles can't spell it.
+    var orderedTiles: [String]? {
+        var remaining = Grader.normalize(accepted[0])
+        var unused = Array(tiles.indices)
+        var ordered: [String] = []
+        while !remaining.isEmpty {
+            let fits = unused.filter { index in
+                let tile = Grader.normalize(tiles[index])
+                return !tile.isEmpty && remaining.hasPrefix(tile)
+                    && (remaining.count == tile.count || remaining.dropFirst(tile.count).first == " ")
+            }
+            guard let best = fits.max(by: { tiles[$0].count < tiles[$1].count }) else { return nil }
+            ordered.append(tiles[best])
+            unused.removeAll { $0 == best }
+            remaining = String(remaining.dropFirst(Grader.normalize(tiles[best]).count))
+                .trimmingCharacters(in: .whitespaces)
+        }
+        return ordered
+    }
 }
 
 /// Write it all in one go. Any order is fine as long as every chunk is there.
@@ -121,6 +144,13 @@ struct Lesson: Identifiable {
         case lesson
         /// A unit test: no explanations, no energy cost, pass to skip the unit.
         case unitTest(unitId: String)
+        /// Practise missed forms: every right answer wins back a bolt of energy.
+        case review
+
+        var isReview: Bool {
+            if case .review = self { return true }
+            return false
+        }
     }
 
     /// A block never asks more than this, mistakes replayed in Fix included, so lessons stay short.
@@ -135,8 +165,43 @@ struct Lesson: Identifiable {
     let goal: Gloss
     let mode: Mode
     let items: [LessonItem]
+    /// "Today you'll learn to say…": the sentence the lesson builds up to.
+    var target: Example? = nil
 
     var questionCount: Int { items.filter { $0.kind.isQuestion }.count }
+
+    /// The explanation that teaches what an item practises: the last one before it, or for a
+    /// Mix item, the one whose first exercise practises the same person. Replays and twins
+    /// ("-fix", "-twin") point back to their original item.
+    func explanationIndex(for item: LessonItem) -> Int? {
+        let baseId = item.id.components(separatedBy: "-fix")[0].components(separatedBy: "-twin")[0]
+        let frames = items.indices.filter { if case .frame = items[$0].kind { return true } else { return false } }
+        guard !frames.isEmpty else { return nil }
+        guard let index = items.firstIndex(where: { $0.id == baseId }) else {
+            // A twin made from scratch: match by person.
+            return frames.first { practisedPerson(after: $0) == Self.person(of: item.formKeys.first) }
+        }
+        if items[index].beat == .mix, let person = Self.person(of: items[index].formKeys.first),
+           let frame = frames.first(where: { practisedPerson(after: $0) == person }) {
+            return frame
+        }
+        return frames.last { $0 < index }
+    }
+
+    func explanation(for item: LessonItem) -> FrameCard? {
+        guard let index = explanationIndex(for: item), case .frame(let card) = items[index].kind else { return nil }
+        return card
+    }
+
+    private func practisedPerson(after frame: Int) -> String? {
+        items[(frame + 1)...].first { $0.kind.isQuestion }.flatMap { Self.person(of: $0.formKeys.first) }
+    }
+
+    /// "hablar.presente.yo" -> "yo"
+    static func person(of key: FormKey?) -> String? {
+        guard let parts = key?.split(separator: "."), parts.count == 3 else { return nil }
+        return String(parts[2])
+    }
 
     /// The words this lesson introduces on its slides.
     var vocabulary: [VocabWord] {

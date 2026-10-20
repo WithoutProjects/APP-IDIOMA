@@ -42,6 +42,7 @@ struct PathMapView: View {
         .fullScreenCover(item: $activeLesson) { lesson in
             LessonView(lesson: lesson)
                 .environmentObject(store)
+                .environment(\.locale, store.language.locale)
         }
         .onAppear {
             if let unitId = store.nextNode?.unitId { expanded.insert(unitId) }
