@@ -1,0 +1,2478 @@
+{
+ "unit": "u5",
+ "lessons": [
+  {
+   "id": "u5l1",
+   "goal": {
+    "en": "Say what you like and what you don't: one thing or many.",
+    "it": "Dire cosa ti piace e cosa no: una cosa o tante."
+   },
+   "target": {
+    "es": "Me gusta el chocolate, pero no me gustan las verduras.",
+    "en": "I like chocolate, but I don't like vegetables.",
+    "it": "Mi piace il cioccolato, ma non mi piacciono le verdure."
+   },
+   "items": [
+    {
+     "type": "words",
+     "words": [
+      {
+       "es": "la carne",
+       "en": "meat",
+       "it": "la carne",
+       "kind": "chunk"
+      },
+      {
+       "es": "el pescado",
+       "en": "fish",
+       "it": "il pesce",
+       "kind": "chunk"
+      },
+      {
+       "es": "las verduras",
+       "en": "vegetables",
+       "it": "le verdure",
+       "kind": "chunk"
+      },
+      {
+       "es": "el chocolate",
+       "en": "chocolate",
+       "it": "il cioccolato",
+       "kind": "chunk"
+      }
+     ]
+    },
+    {
+     "type": "words",
+     "words": [
+      {
+       "es": "el deporte",
+       "en": "sport",
+       "it": "lo sport",
+       "kind": "chunk"
+      },
+      {
+       "es": "las películas",
+       "en": "films, movies",
+       "it": "i film",
+       "kind": "chunk"
+      },
+      {
+       "es": "me gustan",
+       "en": "I like (more than one thing)",
+       "it": "mi piacciono",
+       "kind": "chunk"
+      }
+     ]
+    },
+    {
+     "type": "explain",
+     "bricks": [
+      {
+       "text": "me gusta",
+       "kind": "chunk"
+      },
+      {
+       "text": "el chocolate",
+       "kind": "chunk"
+      }
+     ],
+     "rule": {
+      "en": "You know me gusta + a verb (me gusta bailar). With a thing it works the same: me gusta + the thing. Keep el or la in front of it.",
+      "it": "Conosci già me gusta + verbo (me gusta bailar). Con una cosa funziona uguale: me gusta + la cosa. Tieni el o la davanti."
+     },
+     "examples": [
+      {
+       "es": "Me gusta el chocolate.",
+       "en": "I like chocolate.",
+       "it": "Mi piace il cioccolato."
+      },
+      {
+       "es": "Me gusta la carne.",
+       "en": "I like meat.",
+       "it": "Mi piace la carne."
+      },
+      {
+       "es": "Me gusta el café.",
+       "en": "I like coffee.",
+       "it": "Mi piace il caffè."
+      }
+     ]
+    },
+    {
+     "type": "gap",
+     "beat": "forge",
+     "before": "Me ",
+     "after": " el deporte.",
+     "label": "gustar",
+     "accepted": [
+      "gusta"
+     ],
+     "en": "I like sport.",
+     "it": "Mi piace lo sport.",
+     "hint": {
+      "en": "One thing (el deporte): me gusta.",
+      "it": "Una cosa (el deporte): me gusta."
+     }
+    },
+    {
+     "type": "build",
+     "beat": "forge",
+     "intention": {
+      "en": "Say that you like fish.",
+      "it": "Di che ti piace il pesce."
+     },
+     "accepted": [
+      "Me gusta el pescado."
+     ],
+     "tiles": [
+      "Me",
+      "gusta",
+      "el pescado",
+      "gustan"
+     ],
+     "en": "I like fish.",
+     "it": "Mi piace il pesce.",
+     "hint": {
+      "en": "One thing: me gusta + el pescado.",
+      "it": "Una cosa: me gusta + el pescado."
+     }
+    },
+    {
+     "type": "explain",
+     "bricks": [
+      {
+       "text": "me gustan",
+       "kind": "chunk"
+      },
+      {
+       "text": "las películas",
+       "kind": "chunk"
+      }
+     ],
+     "rule": {
+      "en": "When you like more than one thing (a plural word), add -n: me gustan. Just like Italian mi piace / mi piacciono.",
+      "it": "Quando ti piacciono più cose (una parola al plurale), aggiungi -n: me gustan. Proprio come mi piace / mi piacciono."
+     },
+     "examples": [
+      {
+       "es": "Me gustan las verduras.",
+       "en": "I like vegetables.",
+       "it": "Mi piacciono le verdure."
+      },
+      {
+       "es": "Me gustan las películas.",
+       "en": "I like films.",
+       "it": "Mi piacciono i film."
+      },
+      {
+       "es": "Me gustan los libros.",
+       "en": "I like books.",
+       "it": "Mi piacciono i libri."
+      }
+     ]
+    },
+    {
+     "type": "choose",
+     "beat": "fire",
+     "before": "Me ",
+     "after": " las películas.",
+     "options": [
+      "gusta",
+      "gustan"
+     ],
+     "answer": "gustan",
+     "en": "I like films.",
+     "it": "Mi piacciono i film.",
+     "hint": {
+      "en": "Las películas is plural, so gustan.",
+      "it": "Las películas è plurale, quindi gustan."
+     }
+    },
+    {
+     "type": "gap",
+     "beat": "fire",
+     "before": "Me ",
+     "after": " los plátanos.",
+     "label": "gustar",
+     "accepted": [
+      "gustan"
+     ],
+     "en": "I like bananas.",
+     "it": "Mi piacciono le banane.",
+     "hint": {
+      "en": "Los plátanos is plural: gustan with -n.",
+      "it": "Los plátanos è plurale: gustan con la -n."
+     }
+    },
+    {
+     "type": "explain",
+     "bricks": [
+      {
+       "text": "no",
+       "kind": "chunk"
+      },
+      {
+       "text": "me gusta",
+       "kind": "chunk"
+      },
+      {
+       "text": "nada",
+       "kind": "chunk"
+      }
+     ],
+     "rule": {
+      "en": "Put no in front to say you don't like it. Add nada at the end to say you don't like it at all.",
+      "it": "Metti no davanti per dire che non ti piace. Aggiungi nada alla fine per dire che non ti piace per niente."
+     },
+     "examples": [
+      {
+       "es": "No me gusta el pescado.",
+       "en": "I don't like fish.",
+       "it": "Non mi piace il pesce."
+      },
+      {
+       "es": "No me gustan las verduras.",
+       "en": "I don't like vegetables.",
+       "it": "Non mi piacciono le verdure."
+      },
+      {
+       "es": "No me gusta nada el deporte.",
+       "en": "I don't like sport at all.",
+       "it": "Non mi piace per niente lo sport."
+      }
+     ],
+     "teaches": [
+      {
+       "es": "no me gusta nada",
+       "en": "I don't like it at all",
+       "it": "non mi piace per niente"
+      }
+     ]
+    },
+    {
+     "type": "build",
+     "beat": "forge",
+     "intention": {
+      "en": "Say that you don't like meat at all.",
+      "it": "Di che la carne non ti piace per niente."
+     },
+     "accepted": [
+      "No me gusta nada la carne.",
+      "No me gusta la carne nada."
+     ],
+     "tiles": [
+      "No",
+      "me",
+      "gusta",
+      "nada",
+      "la carne",
+      "gustan"
+     ],
+     "en": "I don't like meat at all.",
+     "it": "Non mi piace per niente la carne.",
+     "hint": {
+      "en": "No goes first, nada right after gusta.",
+      "it": "No va all'inizio, nada subito dopo gusta."
+     }
+    },
+    {
+     "type": "choose",
+     "beat": "fire",
+     "before": "No me ",
+     "after": " nada las verduras.",
+     "options": [
+      "gusta",
+      "gustan"
+     ],
+     "answer": "gustan",
+     "en": "I don't like vegetables at all.",
+     "it": "Non mi piacciono per niente le verdure.",
+     "hint": {
+      "en": "With no it's the same rule: plural thing, gustan.",
+      "it": "Con no la regola è la stessa: cosa plurale, gustan."
+     }
+    },
+    {
+     "type": "gap",
+     "beat": "mix",
+     "before": "Me ",
+     "after": " la música.",
+     "label": "gustar",
+     "accepted": [
+      "gusta"
+     ],
+     "en": "I like music.",
+     "it": "Mi piace la musica.",
+     "hint": {
+      "en": "La música is one thing: gusta.",
+      "it": "La música è una cosa sola: gusta."
+     }
+    },
+    {
+     "type": "choose",
+     "beat": "mix",
+     "before": "No me gustan ",
+     "after": ".",
+     "options": [
+      "el chocolate",
+      "las verduras",
+      "la carne"
+     ],
+     "answer": "las verduras",
+     "en": "I don't like vegetables.",
+     "it": "Non mi piacciono le verdure.",
+     "hint": {
+      "en": "Gustan needs a plural word after it.",
+      "it": "Gustan vuole una parola al plurale."
+     }
+    },
+    {
+     "type": "build",
+     "beat": "mix",
+     "intention": {
+      "en": "Say that you like coffee but not tea.",
+      "it": "Di che ti piace il caffè ma non il tè."
+     },
+     "accepted": [
+      "Me gusta el café, pero no me gusta el té."
+     ],
+     "tiles": [
+      "Me gusta",
+      "el café",
+      "pero",
+      "no",
+      "me gusta",
+      "el té",
+      "gustan"
+     ],
+     "en": "I like coffee, but I don't like tea.",
+     "it": "Mi piace il caffè, ma non mi piace il tè.",
+     "hint": {
+      "en": "pero joins the yes and the no.",
+      "it": "pero unisce il sì e il no."
+     }
+    },
+    {
+     "type": "write",
+     "beat": "mix",
+     "instruction": {
+      "en": "Say one thing you like and one thing you don't, joined with pero.",
+      "it": "Di una cosa che ti piace e una che non ti piace, unite con pero."
+     },
+     "required": [
+      "me gusta",
+      "pero",
+      "no me"
+     ],
+     "model": {
+      "es": "Me gusta el chocolate, pero no me gustan las verduras.",
+      "en": "I like chocolate, but I don't like vegetables.",
+      "it": "Mi piace il cioccolato, ma non mi piacciono le verdure."
+     }
+    }
+   ]
+  },
+  {
+   "id": "u5l2",
+   "goal": {
+    "en": "Ask someone what they like, and talk about what he or she likes.",
+    "it": "Chiedere a qualcuno cosa gli piace e dire cosa piace a lui o a lei."
+   },
+   "target": {
+    "es": "¿Te gusta el mar? Sí, me gusta mucho.",
+    "en": "Do you like the sea? Yes, I like it a lot.",
+    "it": "Ti piace il mare? Sì, mi piace molto."
+   },
+   "items": [
+    {
+     "type": "words",
+     "words": [
+      {
+       "es": "te gusta",
+       "en": "you like",
+       "it": "ti piace",
+       "kind": "chunk"
+      },
+      {
+       "es": "le gusta",
+       "en": "he/she likes",
+       "it": "gli/le piace",
+       "kind": "chunk"
+      },
+      {
+       "es": "cantar",
+       "en": "to sing",
+       "it": "cantare",
+       "kind": "stem"
+      },
+      {
+       "es": "nadar",
+       "en": "to swim",
+       "it": "nuotare",
+       "kind": "stem"
+      }
+     ]
+    },
+    {
+     "type": "words",
+     "words": [
+      {
+       "es": "el fútbol",
+       "en": "football",
+       "it": "il calcio",
+       "kind": "chunk"
+      },
+      {
+       "es": "la montaña",
+       "en": "the mountains",
+       "it": "la montagna",
+       "kind": "chunk"
+      },
+      {
+       "es": "el mar",
+       "en": "the sea",
+       "it": "il mare",
+       "kind": "chunk"
+      },
+      {
+       "es": "el teatro",
+       "en": "the theatre",
+       "it": "il teatro",
+       "kind": "chunk"
+      }
+     ]
+    },
+    {
+     "type": "explain",
+     "bricks": [
+      {
+       "text": "¿te gusta",
+       "kind": "chunk"
+      },
+      {
+       "text": "el fútbol?",
+       "kind": "chunk"
+      }
+     ],
+     "rule": {
+      "en": "To ask someone if they like something, change me to te: ¿te gusta...? For plural things: ¿te gustan...?",
+      "it": "Per chiedere a qualcuno se gli piace qualcosa, cambia me con te: ¿te gusta...? Per le cose al plurale: ¿te gustan...?"
+     },
+     "examples": [
+      {
+       "es": "¿Te gusta el fútbol? Sí, me gusta.",
+       "en": "Do you like football? Yes, I do.",
+       "it": "Ti piace il calcio? Sì, mi piace."
+      },
+      {
+       "es": "¿Te gustan las películas?",
+       "en": "Do you like films?",
+       "it": "Ti piacciono i film?"
+      },
+      {
+       "es": "¿Te gusta cantar?",
+       "en": "Do you like singing?",
+       "it": "Ti piace cantare?"
+      }
+     ],
+     "teaches": [
+      {
+       "es": "te gustan",
+       "en": "you like (more than one thing)",
+       "it": "ti piacciono"
+      }
+     ]
+    },
+    {
+     "type": "choose",
+     "beat": "forge",
+     "before": "¿",
+     "after": " gusta el mar? Sí, me gusta mucho.",
+     "options": [
+      "Te",
+      "Me"
+     ],
+     "answer": "Te",
+     "en": "Do you like the sea? Yes, I like it a lot.",
+     "it": "Ti piace il mare? Sì, mi piace molto.",
+     "hint": {
+      "en": "You're asking the other person: te.",
+      "it": "Stai chiedendo all'altra persona: te."
+     }
+    },
+    {
+     "type": "build",
+     "beat": "forge",
+     "intention": {
+      "en": "Ask a friend if they like films.",
+      "it": "Chiedi a un amico se gli piacciono i film."
+     },
+     "accepted": [
+      "¿Te gustan las películas?"
+     ],
+     "tiles": [
+      "Te",
+      "gustan",
+      "las películas",
+      "gusta"
+     ],
+     "en": "Do you like films?",
+     "it": "Ti piacciono i film?",
+     "hint": {
+      "en": "Te for 'you', gustan because las películas is plural.",
+      "it": "Te per 'tu', gustan perché las películas è plurale."
+     }
+    },
+    {
+     "type": "explain",
+     "bricks": [
+      {
+       "text": "le gusta",
+       "kind": "chunk"
+      },
+      {
+       "text": "el teatro",
+       "kind": "chunk"
+      }
+     ],
+     "rule": {
+      "en": "For him or her, use le: le gusta, le gustan. Le also works for usted, the polite 'you'.",
+      "it": "Per lui o lei usa le: le gusta, le gustan. Le vale anche per usted, il 'lei' di cortesia."
+     },
+     "examples": [
+      {
+       "es": "Le gusta el teatro.",
+       "en": "He likes the theatre.",
+       "it": "Gli piace il teatro."
+      },
+      {
+       "es": "Le gustan los gatos.",
+       "en": "She likes cats.",
+       "it": "Le piacciono i gatti."
+      },
+      {
+       "es": "¿Le gusta el mar?",
+       "en": "Do you like the sea? (polite)",
+       "it": "Le piace il mare?"
+      }
+     ],
+     "teaches": [
+      {
+       "es": "le gustan",
+       "en": "he/she likes (more than one thing)",
+       "it": "gli/le piacciono"
+      }
+     ]
+    },
+    {
+     "type": "choose",
+     "beat": "fire",
+     "before": "Ella escucha música todos los días. ",
+     "after": " gusta la música.",
+     "options": [
+      "Me",
+      "Te",
+      "Le"
+     ],
+     "answer": "Le",
+     "en": "She listens to music every day. She likes music.",
+     "it": "Lei ascolta musica tutti i giorni. Le piace la musica.",
+     "hint": {
+      "en": "For she or he: le.",
+      "it": "Per lei o lui: le."
+     }
+    },
+    {
+     "type": "gap",
+     "beat": "fire",
+     "before": "Él vive aquí. Le ",
+     "after": " los perros.",
+     "label": "gustar",
+     "accepted": [
+      "gustan"
+     ],
+     "en": "He lives here. He likes dogs.",
+     "it": "Lui vive qui. Gli piacciono i cani.",
+     "hint": {
+      "en": "Los perros is plural: le gustan.",
+      "it": "Los perros è plurale: le gustan."
+     }
+    },
+    {
+     "type": "explain",
+     "bricks": [
+      {
+       "text": "cant-",
+       "kind": "stem"
+      },
+      {
+       "text": "-o",
+       "kind": "ending"
+      }
+     ],
+     "result": {
+      "stem": "cant",
+      "ending": "o"
+     },
+     "rule": {
+      "en": "Cantar and nadar are regular AR verbs, just like hablar: same endings.",
+      "it": "Cantar e nadar sono verbi regolari in AR, proprio come hablar: stesse desinenze."
+     },
+     "examples": [
+      {
+       "es": "Canto en casa.",
+       "en": "I sing at home.",
+       "it": "Canto a casa."
+      },
+      {
+       "es": "¿Nadas en el mar?",
+       "en": "Do you swim in the sea?",
+       "it": "Nuoti nel mare?"
+      },
+      {
+       "es": "Nosotros nadamos todos los días.",
+       "en": "We swim every day.",
+       "it": "Nuotiamo tutti i giorni."
+      }
+     ],
+     "teaches": [
+      {
+       "es": "canto",
+       "en": "I sing",
+       "it": "canto"
+      },
+      {
+       "es": "cantas",
+       "en": "you sing",
+       "it": "canti"
+      },
+      {
+       "es": "canta",
+       "en": "he/she sings",
+       "it": "canta"
+      },
+      {
+       "es": "cantamos",
+       "en": "we sing",
+       "it": "cantiamo"
+      },
+      {
+       "es": "cantáis",
+       "en": "you all sing",
+       "it": "cantate"
+      },
+      {
+       "es": "cantan",
+       "en": "they sing",
+       "it": "cantano"
+      },
+      {
+       "es": "nado",
+       "en": "I swim",
+       "it": "nuoto"
+      },
+      {
+       "es": "nadas",
+       "en": "you swim",
+       "it": "nuoti"
+      },
+      {
+       "es": "nada",
+       "en": "he/she swims",
+       "it": "nuota"
+      },
+      {
+       "es": "nadamos",
+       "en": "we swim",
+       "it": "nuotiamo"
+      },
+      {
+       "es": "nadáis",
+       "en": "you all swim",
+       "it": "nuotate"
+      },
+      {
+       "es": "nadan",
+       "en": "they swim",
+       "it": "nuotano"
+      }
+     ]
+    },
+    {
+     "type": "snap",
+     "beat": "forge",
+     "person": "nosotros",
+     "prompt": {
+      "en": "we swim",
+      "it": "nuotiamo"
+     },
+     "stems": [
+      "cant",
+      "habl",
+      "nad"
+     ],
+     "endings": [
+      "amos",
+      "an",
+      "as"
+     ],
+     "answer": {
+      "stem": "nad",
+      "ending": "amos"
+     }
+    },
+    {
+     "type": "gap",
+     "beat": "fire",
+     "before": "Ellos ",
+     "after": " en el mar.",
+     "label": "nadar",
+     "accepted": [
+      "nadan"
+     ],
+     "en": "They swim in the sea.",
+     "it": "Loro nuotano nel mare.",
+     "hint": {
+      "en": "Ellos: AR verbs end in -an.",
+      "it": "Ellos: i verbi in AR finiscono in -an."
+     }
+    },
+    {
+     "type": "choose",
+     "beat": "mix",
+     "before": "¿Te gusta nadar? Sí, ",
+     "after": " gusta.",
+     "options": [
+      "me",
+      "te",
+      "le"
+     ],
+     "answer": "me",
+     "en": "Do you like swimming? Yes, I do.",
+     "it": "Ti piace nuotare? Sì, mi piace.",
+     "hint": {
+      "en": "You answer about yourself: me.",
+      "it": "Rispondi su di te: me."
+     }
+    },
+    {
+     "type": "snap",
+     "beat": "mix",
+     "person": "el",
+     "prompt": {
+      "en": "she sings",
+      "it": "lei canta"
+     },
+     "stems": [
+      "cant",
+      "nad",
+      "com"
+     ],
+     "endings": [
+      "a",
+      "e",
+      "o"
+     ],
+     "answer": {
+      "stem": "cant",
+      "ending": "a"
+     }
+    },
+    {
+     "type": "build",
+     "beat": "mix",
+     "intention": {
+      "en": "Your friend asks: ¿Te gusta el teatro? Say yes, and that you also like the cinema.",
+      "it": "Un amico ti chiede: ¿Te gusta el teatro? Rispondi di sì e che ti piace anche il cinema."
+     },
+     "accepted": [
+      "Sí, me gusta. También me gusta el cine.",
+      "Sí, me gusta y también me gusta el cine."
+     ],
+     "tiles": [
+      "Sí",
+      "me gusta",
+      "También",
+      "me gusta",
+      "el cine",
+      "te gusta"
+     ],
+     "en": "Yes, I like it. I also like the cinema.",
+     "it": "Sì, mi piace. Mi piace anche il cinema.",
+     "hint": {
+      "en": "Answer with me, then add también.",
+      "it": "Rispondi con me, poi aggiungi también."
+     }
+    },
+    {
+     "type": "write",
+     "beat": "mix",
+     "instruction": {
+      "en": "Ask a new friend two questions about what they like: one thing and many things.",
+      "it": "Fai due domande a un nuovo amico su cosa gli piace: una cosa e più cose."
+     },
+     "required": [
+      "te gusta",
+      "te gustan"
+     ],
+     "model": {
+      "es": "¿Te gusta el fútbol? ¿Te gustan las películas?",
+      "en": "Do you like football? Do you like films?",
+      "it": "Ti piace il calcio? Ti piacciono i film?"
+     }
+    }
+   ]
+  },
+  {
+   "id": "u5l3",
+   "goal": {
+    "en": "Say what the people in your family like, and agree with 'me too' and 'me neither'.",
+    "it": "Dire cosa piace alle persone della tua famiglia e rispondere 'anche a me' e 'neanche a me'."
+   },
+   "target": {
+    "es": "A mi abuela le gusta pasear y a mí también.",
+    "en": "My grandmother likes going for walks, and so do I.",
+    "it": "A mia nonna piace passeggiare, e anche a me."
+   },
+   "names": [
+    "Ana"
+   ],
+   "items": [
+    {
+     "type": "words",
+     "words": [
+      {
+       "es": "la abuela",
+       "en": "grandmother",
+       "it": "la nonna",
+       "kind": "chunk"
+      },
+      {
+       "es": "el abuelo",
+       "en": "grandfather",
+       "it": "il nonno",
+       "kind": "chunk"
+      },
+      {
+       "es": "los niños",
+       "en": "the children",
+       "it": "i bambini",
+       "kind": "chunk"
+      },
+      {
+       "es": "el campo",
+       "en": "the countryside",
+       "it": "la campagna",
+       "kind": "chunk"
+      }
+     ]
+    },
+    {
+     "type": "words",
+     "words": [
+      {
+       "es": "a mí",
+       "en": "(to) me",
+       "it": "a me",
+       "kind": "chunk"
+      },
+      {
+       "es": "a ti",
+       "en": "(to) you",
+       "it": "a te",
+       "kind": "chunk"
+      },
+      {
+       "es": "tampoco",
+       "en": "neither, not either",
+       "it": "neanche",
+       "kind": "chunk"
+      },
+      {
+       "es": "pasear",
+       "en": "to go for a walk",
+       "it": "passeggiare",
+       "kind": "stem"
+      }
+     ]
+    },
+    {
+     "type": "explain",
+     "bricks": [
+      {
+       "text": "a",
+       "kind": "rail"
+      },
+      {
+       "text": "mi madre",
+       "kind": "chunk"
+      },
+      {
+       "text": "le gusta",
+       "kind": "chunk"
+      }
+     ],
+     "rule": {
+      "en": "To say who likes it, start with a + the person, then le gusta. The le stays, like Italian 'a mia madre piace'.",
+      "it": "Per dire a chi piace, inizia con a + la persona, poi le gusta. Il le resta: è come 'a mia madre piace'."
+     },
+     "examples": [
+      {
+       "es": "A mi madre le gusta el teatro.",
+       "en": "My mother likes the theatre.",
+       "it": "A mia madre piace il teatro."
+      },
+      {
+       "es": "A mi abuelo le gustan los perros.",
+       "en": "My grandfather likes dogs.",
+       "it": "A mio nonno piacciono i cani."
+      },
+      {
+       "es": "A Ana le gusta el campo.",
+       "en": "Ana likes the countryside.",
+       "it": "Ad Ana piace la campagna."
+      }
+     ]
+    },
+    {
+     "type": "choose",
+     "beat": "forge",
+     "before": "A mi abuela ",
+     "after": " gusta el campo.",
+     "options": [
+      "me",
+      "te",
+      "le"
+     ],
+     "answer": "le",
+     "en": "My grandmother likes the countryside.",
+     "it": "A mia nonna piace la campagna.",
+     "hint": {
+      "en": "A + one person, then le.",
+      "it": "A + una persona, poi le."
+     }
+    },
+    {
+     "type": "build",
+     "beat": "forge",
+     "intention": {
+      "en": "Say that your sister likes films.",
+      "it": "Di che a tua sorella piacciono i film."
+     },
+     "accepted": [
+      "A mi hermana le gustan las películas."
+     ],
+     "tiles": [
+      "A",
+      "mi hermana",
+      "le",
+      "gustan",
+      "las películas",
+      "gusta"
+     ],
+     "en": "My sister likes films.",
+     "it": "A mia sorella piacciono i film.",
+     "hint": {
+      "en": "A mi hermana + le, and gustan for a plural thing.",
+      "it": "A mi hermana + le, e gustan per una cosa plurale."
+     }
+    },
+    {
+     "type": "explain",
+     "bricks": [
+      {
+       "text": "a",
+       "kind": "rail"
+      },
+      {
+       "text": "los niños",
+       "kind": "chunk"
+      },
+      {
+       "text": "les gusta",
+       "kind": "chunk"
+      }
+     ],
+     "rule": {
+      "en": "For more people: nos (us), os (you all), les (them). The verb still follows the thing: gusta or gustan.",
+      "it": "Per più persone: nos (a noi), os (a voi), les (a loro). Il verbo segue sempre la cosa: gusta o gustan."
+     },
+     "examples": [
+      {
+       "es": "Nos gusta el campo.",
+       "en": "We like the countryside.",
+       "it": "Ci piace la campagna."
+      },
+      {
+       "es": "A los niños les gusta el chocolate.",
+       "en": "The children like chocolate.",
+       "it": "Ai bambini piace il cioccolato."
+      },
+      {
+       "es": "¿Os gusta el mar?",
+       "en": "Do you all like the sea?",
+       "it": "Vi piace il mare?"
+      }
+     ],
+     "teaches": [
+      {
+       "es": "nos gusta",
+       "en": "we like",
+       "it": "ci piace"
+      },
+      {
+       "es": "nos gustan",
+       "en": "we like (more than one thing)",
+       "it": "ci piacciono"
+      },
+      {
+       "es": "os gusta",
+       "en": "you all like",
+       "it": "vi piace"
+      },
+      {
+       "es": "les gusta",
+       "en": "they like",
+       "it": "gli piace, a loro piace"
+      },
+      {
+       "es": "les gustan",
+       "en": "they like (more than one thing)",
+       "it": "gli piacciono, a loro piacciono"
+      }
+     ]
+    },
+    {
+     "type": "choose",
+     "beat": "fire",
+     "before": "A mis padres ",
+     "after": " gusta el campo.",
+     "options": [
+      "le",
+      "les",
+      "nos"
+     ],
+     "answer": "les",
+     "en": "My parents like the countryside.",
+     "it": "Ai miei genitori piace la campagna.",
+     "hint": {
+      "en": "Mis padres are two people: les.",
+      "it": "Mis padres sono due persone: les."
+     }
+    },
+    {
+     "type": "gap",
+     "beat": "fire",
+     "before": "Nos ",
+     "after": " las películas.",
+     "label": "gustar",
+     "accepted": [
+      "gustan"
+     ],
+     "en": "We like films.",
+     "it": "Ci piacciono i film.",
+     "hint": {
+      "en": "Gustan goes with the thing (las películas), not with nos.",
+      "it": "Gustan va con la cosa (las películas), non con nos."
+     }
+    },
+    {
+     "type": "explain",
+     "bricks": [
+      {
+       "text": "a mí",
+       "kind": "chunk"
+      },
+      {
+       "text": "también",
+       "kind": "rail"
+      },
+      {
+       "text": "tampoco",
+       "kind": "rail"
+      }
+     ],
+     "rule": {
+      "en": "To agree, answer with a mí también (me too). If the sentence has no, answer a mí tampoco (me neither). Ask back with ¿y a ti?",
+      "it": "Per essere d'accordo, rispondi a mí también (anche a me). Se la frase ha no, rispondi a mí tampoco (neanche a me). Per chiedere: ¿y a ti?"
+     },
+     "examples": [
+      {
+       "es": "Me gusta el campo. A mí también.",
+       "en": "I like the countryside. Me too.",
+       "it": "Mi piace la campagna. Anche a me."
+      },
+      {
+       "es": "No me gusta el fútbol. A mí tampoco.",
+       "en": "I don't like football. Me neither.",
+       "it": "Non mi piace il calcio. Neanche a me."
+      },
+      {
+       "es": "A mí me gusta el mar, ¿y a ti?",
+       "en": "I like the sea, and you?",
+       "it": "A me piace il mare, e a te?"
+      }
+     ]
+    },
+    {
+     "type": "choose",
+     "beat": "forge",
+     "before": "No me gustan las verduras. A mí ",
+     "after": ".",
+     "options": [
+      "también",
+      "tampoco"
+     ],
+     "answer": "tampoco",
+     "en": "I don't like vegetables. Me neither.",
+     "it": "Non mi piacciono le verdure. Neanche a me.",
+     "hint": {
+      "en": "The first sentence has no, so tampoco.",
+      "it": "La prima frase ha no, quindi tampoco."
+     }
+    },
+    {
+     "type": "build",
+     "beat": "fire",
+     "intention": {
+      "en": "Your friend says: No me gusta nada el pescado. Say you don't either.",
+      "it": "Un'amica dice: No me gusta nada el pescado. Di che neanche a te."
+     },
+     "accepted": [
+      "A mí tampoco."
+     ],
+     "tiles": [
+      "A",
+      "mí",
+      "tampoco",
+      "también"
+     ],
+     "en": "Me neither.",
+     "it": "Neanche a me.",
+     "hint": {
+      "en": "Agreeing with a no: a mí tampoco.",
+      "it": "D'accordo con un no: a mí tampoco."
+     }
+    },
+    {
+     "type": "explain",
+     "bricks": [
+      {
+       "text": "pase-",
+       "kind": "stem"
+      },
+      {
+       "text": "-o",
+       "kind": "ending"
+      }
+     ],
+     "result": {
+      "stem": "pase",
+      "ending": "o"
+     },
+     "rule": {
+      "en": "Pasear (to go for a walk) is a regular AR verb. Its stem is pase-, then the usual endings.",
+      "it": "Pasear (passeggiare) è un verbo regolare in AR. La radice è pase-, poi le solite desinenze."
+     },
+     "examples": [
+      {
+       "es": "Paseo en el parque.",
+       "en": "I go for a walk in the park.",
+       "it": "Passeggio nel parco."
+      },
+      {
+       "es": "Los niños pasean en el campo.",
+       "en": "The children go for walks in the countryside.",
+       "it": "I bambini passeggiano in campagna."
+      },
+      {
+       "es": "¿Paseamos?",
+       "en": "Shall we go for a walk?",
+       "it": "Facciamo una passeggiata?"
+      }
+     ],
+     "teaches": [
+      {
+       "es": "paseo",
+       "en": "I go for a walk",
+       "it": "passeggio"
+      },
+      {
+       "es": "paseas",
+       "en": "you go for a walk",
+       "it": "passeggi"
+      },
+      {
+       "es": "pasea",
+       "en": "he/she goes for a walk",
+       "it": "passeggia"
+      },
+      {
+       "es": "paseamos",
+       "en": "we go for a walk",
+       "it": "passeggiamo"
+      },
+      {
+       "es": "paseáis",
+       "en": "you all go for a walk",
+       "it": "passeggiate"
+      },
+      {
+       "es": "pasean",
+       "en": "they go for a walk",
+       "it": "passeggiano"
+      }
+     ]
+    },
+    {
+     "type": "snap",
+     "beat": "forge",
+     "person": "yo",
+     "prompt": {
+      "en": "I go for a walk",
+      "it": "passeggio"
+     },
+     "stems": [
+      "cant",
+      "nad",
+      "pase"
+     ],
+     "endings": [
+      "o",
+      "a",
+      "an"
+     ],
+     "answer": {
+      "stem": "pase",
+      "ending": "o"
+     }
+    },
+    {
+     "type": "gap",
+     "beat": "fire",
+     "before": "Mi abuela ",
+     "after": " todos los días.",
+     "label": "pasear",
+     "accepted": [
+      "pasea"
+     ],
+     "en": "My grandmother goes for a walk every day.",
+     "it": "Mia nonna passeggia tutti i giorni.",
+     "hint": {
+      "en": "Mi abuela = ella: -a.",
+      "it": "Mi abuela = ella: -a."
+     }
+    },
+    {
+     "type": "choose",
+     "beat": "mix",
+     "before": "A los niños ",
+     "after": " gusta el chocolate.",
+     "options": [
+      "le",
+      "les",
+      "nos"
+     ],
+     "answer": "les",
+     "en": "The children like chocolate.",
+     "it": "Ai bambini piace il cioccolato.",
+     "hint": {
+      "en": "Los niños: more than one person, les.",
+      "it": "Los niños: più persone, les."
+     }
+    },
+    {
+     "type": "build",
+     "beat": "mix",
+     "intention": {
+      "en": "Say that your mother likes walking, but your father doesn't.",
+      "it": "Di che a tua madre piace passeggiare, ma a tuo padre no."
+     },
+     "accepted": [
+      "A mi madre le gusta pasear, pero a mi padre no."
+     ],
+     "tiles": [
+      "A",
+      "mi madre",
+      "le gusta",
+      "pasear",
+      "pero",
+      "a",
+      "mi padre",
+      "no",
+      "les gusta"
+     ],
+     "en": "My mother likes going for walks, but my father doesn't.",
+     "it": "A mia madre piace passeggiare, ma a mio padre no.",
+     "hint": {
+      "en": "A + person + le gusta; pero a mi padre no for the contrast.",
+      "it": "A + persona + le gusta; pero a mi padre no per il contrasto."
+     }
+    },
+    {
+     "type": "write",
+     "beat": "mix",
+     "instruction": {
+      "en": "Say what two people in your family like, joined with y or pero.",
+      "it": "Di cosa piace a due persone della tua famiglia, unendo con y o pero."
+     },
+     "required": [
+      "a mi",
+      "le"
+     ],
+     "model": {
+      "es": "A mi madre le gusta el teatro y a mi padre le gusta el fútbol.",
+      "en": "My mother likes the theatre and my father likes football.",
+      "it": "A mia madre piace il teatro e a mio padre piace il calcio."
+     }
+    }
+   ]
+  },
+  {
+   "id": "u5l4",
+   "goal": {
+    "en": "Say what you want and what you prefer, and offer a choice with o.",
+    "it": "Dire cosa vuoi e cosa preferisci, e proporre una scelta con o."
+   },
+   "target": {
+    "es": "¿Prefieres la playa o la piscina? Yo prefiero la piscina.",
+    "en": "Do you prefer the beach or the pool? I prefer the pool.",
+    "it": "Preferisci la spiaggia o la piscina? Io preferisco la piscina."
+   },
+   "items": [
+    {
+     "type": "words",
+     "words": [
+      {
+       "es": "prefiero",
+       "en": "I prefer",
+       "it": "preferisco",
+       "kind": "chunk"
+      },
+      {
+       "es": "¿quieres?",
+       "en": "do you want?",
+       "it": "vuoi?",
+       "kind": "chunk"
+      },
+      {
+       "es": "¿prefieres?",
+       "en": "do you prefer?",
+       "it": "preferisci?",
+       "kind": "chunk"
+      },
+      {
+       "es": "o",
+       "en": "or",
+       "it": "o",
+       "kind": "rail"
+      }
+     ]
+    },
+    {
+     "type": "words",
+     "words": [
+      {
+       "es": "descansar",
+       "en": "to rest",
+       "it": "riposare",
+       "kind": "stem"
+      },
+      {
+       "es": "cenar",
+       "en": "to have dinner",
+       "it": "cenare",
+       "kind": "stem"
+      },
+      {
+       "es": "un helado",
+       "en": "an ice cream",
+       "it": "un gelato",
+       "kind": "chunk"
+      },
+      {
+       "es": "la piscina",
+       "en": "the swimming pool",
+       "it": "la piscina",
+       "kind": "chunk"
+      }
+     ]
+    },
+    {
+     "type": "explain",
+     "bricks": [
+      {
+       "text": "quiero",
+       "kind": "chunk"
+      },
+      {
+       "text": "descansar",
+       "kind": "stem"
+      }
+     ],
+     "rule": {
+      "en": "After quiero (I want) put a thing, or a verb exactly as it is in the dictionary. To ask, use ¿quieres...?",
+      "it": "Dopo quiero (voglio) metti una cosa, oppure un verbo così com'è nel dizionario. Per chiedere usa ¿quieres...?"
+     },
+     "examples": [
+      {
+       "es": "Quiero un helado.",
+       "en": "I want an ice cream.",
+       "it": "Voglio un gelato."
+      },
+      {
+       "es": "Quiero descansar.",
+       "en": "I want to rest.",
+       "it": "Voglio riposare."
+      },
+      {
+       "es": "¿Quieres un café?",
+       "en": "Do you want a coffee?",
+       "it": "Vuoi un caffè?"
+      }
+     ]
+    },
+    {
+     "type": "build",
+     "beat": "forge",
+     "intention": {
+      "en": "Offer a friend an ice cream.",
+      "it": "Offri un gelato a un'amica."
+     },
+     "accepted": [
+      "¿Quieres un helado?"
+     ],
+     "tiles": [
+      "Quieres",
+      "un helado",
+      "Quiero"
+     ],
+     "en": "Do you want an ice cream?",
+     "it": "Vuoi un gelato?",
+     "hint": {
+      "en": "Asking someone: quieres.",
+      "it": "Chiedi a qualcuno: quieres."
+     }
+    },
+    {
+     "type": "gap",
+     "beat": "forge",
+     "before": "Hoy quiero ",
+     "after": " en casa.",
+     "label": "descansar",
+     "accepted": [
+      "descansar"
+     ],
+     "en": "Today I want to rest at home.",
+     "it": "Oggi voglio riposare a casa.",
+     "hint": {
+      "en": "After quiero the verb stays as it is: descansar.",
+      "it": "Dopo quiero il verbo resta com'è: descansar."
+     }
+    },
+    {
+     "type": "explain",
+     "bricks": [
+      {
+       "text": "¿prefieres",
+       "kind": "chunk"
+      },
+      {
+       "text": "el mar",
+       "kind": "chunk"
+      },
+      {
+       "text": "o",
+       "kind": "rail"
+      },
+      {
+       "text": "la montaña?",
+       "kind": "chunk"
+      }
+     ],
+     "rule": {
+      "en": "To offer a choice, put o (or) between the two. Answer with prefiero (I prefer).",
+      "it": "Per proporre una scelta, metti o tra le due cose. Rispondi con prefiero (preferisco)."
+     },
+     "examples": [
+      {
+       "es": "¿Prefieres el mar o la montaña? Prefiero el mar.",
+       "en": "Do you prefer the sea or the mountains? I prefer the sea.",
+       "it": "Preferisci il mare o la montagna? Preferisco il mare."
+      },
+      {
+       "es": "¿Quieres té o café?",
+       "en": "Do you want tea or coffee?",
+       "it": "Vuoi tè o caffè?"
+      },
+      {
+       "es": "Prefiero cenar en casa.",
+       "en": "I prefer to have dinner at home.",
+       "it": "Preferisco cenare a casa."
+      }
+     ]
+    },
+    {
+     "type": "choose",
+     "beat": "forge",
+     "before": "¿Prefieres la playa ",
+     "after": " la piscina?",
+     "options": [
+      "o",
+      "y",
+      "pero"
+     ],
+     "answer": "o",
+     "en": "Do you prefer the beach or the pool?",
+     "it": "Preferisci la spiaggia o la piscina?",
+     "hint": {
+      "en": "A choice between two: o.",
+      "it": "Una scelta tra due: o."
+     }
+    },
+    {
+     "type": "build",
+     "beat": "fire",
+     "intention": {
+      "en": "Your friend asks: ¿Prefieres el cine o el teatro? Say you prefer the theatre.",
+      "it": "Un amico ti chiede: ¿Prefieres el cine o el teatro? Di che preferisci il teatro."
+     },
+     "accepted": [
+      "Prefiero el teatro.",
+      "Yo prefiero el teatro."
+     ],
+     "tiles": [
+      "Prefiero",
+      "el teatro",
+      "el cine",
+      "Prefieres"
+     ],
+     "en": "I prefer the theatre.",
+     "it": "Preferisco il teatro.",
+     "hint": {
+      "en": "About yourself: prefiero.",
+      "it": "Parli di te: prefiero."
+     }
+    },
+    {
+     "type": "explain",
+     "bricks": [
+      {
+       "text": "cen-",
+       "kind": "stem"
+      },
+      {
+       "text": "-amos",
+       "kind": "ending"
+      }
+     ],
+     "result": {
+      "stem": "cen",
+      "ending": "amos"
+     },
+     "rule": {
+      "en": "Cenar (to have dinner) and descansar (to rest) are regular AR verbs: the endings you already know.",
+      "it": "Cenar e descansar sono verbi regolari in AR: le desinenze che già conosci."
+     },
+     "examples": [
+      {
+       "es": "Ceno en casa.",
+       "en": "I have dinner at home.",
+       "it": "Ceno a casa."
+      },
+      {
+       "es": "Hoy descansamos.",
+       "en": "Today we rest.",
+       "it": "Oggi riposiamo."
+      },
+      {
+       "es": "¿Cenáis en el restaurante?",
+       "en": "Are you all having dinner at the restaurant?",
+       "it": "Cenate al ristorante?"
+      }
+     ],
+     "teaches": [
+      {
+       "es": "descanso",
+       "en": "I rest",
+       "it": "riposo"
+      },
+      {
+       "es": "descansas",
+       "en": "you rest",
+       "it": "riposi"
+      },
+      {
+       "es": "descansa",
+       "en": "he/she rests",
+       "it": "riposa"
+      },
+      {
+       "es": "descansamos",
+       "en": "we rest",
+       "it": "riposiamo"
+      },
+      {
+       "es": "descansáis",
+       "en": "you all rest",
+       "it": "riposate"
+      },
+      {
+       "es": "descansan",
+       "en": "they rest",
+       "it": "riposano"
+      },
+      {
+       "es": "ceno",
+       "en": "I have dinner",
+       "it": "ceno"
+      },
+      {
+       "es": "cenas",
+       "en": "you have dinner",
+       "it": "ceni"
+      },
+      {
+       "es": "cena",
+       "en": "he/she has dinner",
+       "it": "cena"
+      },
+      {
+       "es": "cenamos",
+       "en": "we have dinner",
+       "it": "ceniamo"
+      },
+      {
+       "es": "cenáis",
+       "en": "you all have dinner",
+       "it": "cenate"
+      },
+      {
+       "es": "cenan",
+       "en": "they have dinner",
+       "it": "cenano"
+      }
+     ]
+    },
+    {
+     "type": "snap",
+     "beat": "forge",
+     "person": "tu",
+     "prompt": {
+      "en": "you have dinner",
+      "it": "ceni"
+     },
+     "stems": [
+      "cen",
+      "descans",
+      "nad"
+     ],
+     "endings": [
+      "o",
+      "as",
+      "an"
+     ],
+     "answer": {
+      "stem": "cen",
+      "ending": "as"
+     }
+    },
+    {
+     "type": "gap",
+     "beat": "fire",
+     "before": "Mis padres ",
+     "after": " temprano.",
+     "label": "cenar",
+     "accepted": [
+      "cenan"
+     ],
+     "en": "My parents have dinner early.",
+     "it": "I miei genitori cenano presto.",
+     "hint": {
+      "en": "Mis padres = ellos: -an.",
+      "it": "Mis padres = ellos: -an."
+     }
+    },
+    {
+     "type": "choose",
+     "beat": "mix",
+     "before": "¿Quieres cenar? No, gracias, ",
+     "after": " descansar.",
+     "options": [
+      "prefiero",
+      "prefieres",
+      "quieres"
+     ],
+     "answer": "prefiero",
+     "en": "Do you want to have dinner? No thanks, I'd rather rest.",
+     "it": "Vuoi cenare? No grazie, preferisco riposare.",
+     "hint": {
+      "en": "You're talking about yourself: prefiero.",
+      "it": "Parli di te: prefiero."
+     }
+    },
+    {
+     "type": "gap",
+     "beat": "mix",
+     "before": "¿Tú ",
+     "after": " en casa o en el restaurante?",
+     "label": "cenar",
+     "accepted": [
+      "cenas"
+     ],
+     "en": "Do you have dinner at home or at the restaurant?",
+     "it": "Ceni a casa o al ristorante?",
+     "hint": {
+      "en": "Tú: AR verbs end in -as.",
+      "it": "Tú: i verbi in AR finiscono in -as."
+     }
+    },
+    {
+     "type": "build",
+     "beat": "mix",
+     "intention": {
+      "en": "Say that you want to go to the pool.",
+      "it": "Di che vuoi andare in piscina."
+     },
+     "accepted": [
+      "Quiero ir a la piscina."
+     ],
+     "tiles": [
+      "Quiero",
+      "ir",
+      "a la piscina",
+      "voy",
+      "Quieres"
+     ],
+     "en": "I want to go to the pool.",
+     "it": "Voglio andare in piscina.",
+     "hint": {
+      "en": "Quiero + ir, as it is in the dictionary.",
+      "it": "Quiero + ir, così com'è nel dizionario."
+     }
+    },
+    {
+     "type": "write",
+     "beat": "mix",
+     "instruction": {
+      "en": "Ask a friend to choose between two plans with o, then say what you prefer.",
+      "it": "Chiedi a un amico di scegliere tra due piani con o, poi di' cosa preferisci tu."
+     },
+     "required": [
+      "prefieres",
+      "o",
+      "prefiero"
+     ],
+     "model": {
+      "es": "¿Prefieres la playa o la piscina? Yo prefiero la playa.",
+      "en": "Do you prefer the beach or the pool? I prefer the beach.",
+      "it": "Preferisci la spiaggia o la piscina? Io preferisco la spiaggia."
+     }
+    }
+   ]
+  },
+  {
+   "id": "u5l5",
+   "goal": {
+    "en": "Give your opinion and the reason for it with porque.",
+    "it": "Dare la tua opinione e il motivo con porque."
+   },
+   "target": {
+    "es": "Me encanta el mar porque es muy bonito.",
+    "en": "I love the sea because it's really beautiful.",
+    "it": "Adoro il mare perché è bellissimo."
+   },
+   "items": [
+    {
+     "type": "words",
+     "words": [
+      {
+       "es": "me encanta",
+       "en": "I love",
+       "it": "adoro, mi piace tantissimo",
+       "kind": "chunk"
+      },
+      {
+       "es": "me encantan",
+       "en": "I love (more than one thing)",
+       "it": "adoro, mi piacciono tantissimo",
+       "kind": "chunk"
+      },
+      {
+       "es": "interesante",
+       "en": "interesting",
+       "it": "interessante",
+       "kind": "chunk"
+      },
+      {
+       "es": "bonito",
+       "en": "beautiful, nice",
+       "it": "bello",
+       "kind": "chunk"
+      },
+      {
+       "es": "rico",
+       "en": "tasty",
+       "it": "buono, gustoso",
+       "kind": "chunk"
+      }
+     ]
+    },
+    {
+     "type": "words",
+     "words": [
+      {
+       "es": "caro",
+       "en": "expensive",
+       "it": "caro",
+       "kind": "chunk"
+      },
+      {
+       "es": "barato",
+       "en": "cheap",
+       "it": "economico",
+       "kind": "chunk"
+      },
+      {
+       "es": "fácil",
+       "en": "easy",
+       "it": "facile",
+       "kind": "chunk"
+      },
+      {
+       "es": "difícil",
+       "en": "difficult",
+       "it": "difficile",
+       "kind": "chunk"
+      }
+     ]
+    },
+    {
+     "type": "explain",
+     "bricks": [
+      {
+       "text": "me encanta",
+       "kind": "chunk"
+      },
+      {
+       "text": "el chocolate",
+       "kind": "chunk"
+      }
+     ],
+     "rule": {
+      "en": "Me encanta means 'I love it': it works exactly like me gusta, just stronger. Plural: me encantan. Also te, le, nos encanta.",
+      "it": "Me encanta vuol dire 'mi piace tantissimo': funziona come me gusta, solo più forte. Plurale: me encantan. Anche te, le, nos encanta."
+     },
+     "examples": [
+      {
+       "es": "Me encanta el chocolate.",
+       "en": "I love chocolate.",
+       "it": "Adoro il cioccolato."
+      },
+      {
+       "es": "Me encantan las películas.",
+       "en": "I love films.",
+       "it": "Adoro i film."
+      },
+      {
+       "es": "¿Te encanta el mar?",
+       "en": "Do you love the sea?",
+       "it": "Ti piace tantissimo il mare?"
+      }
+     ],
+     "teaches": [
+      {
+       "es": "te encanta",
+       "en": "you love",
+       "it": "ti piace tantissimo"
+      },
+      {
+       "es": "le encanta",
+       "en": "he/she loves",
+       "it": "gli/le piace tantissimo"
+      },
+      {
+       "es": "nos encanta",
+       "en": "we love",
+       "it": "ci piace tantissimo"
+      }
+     ]
+    },
+    {
+     "type": "choose",
+     "beat": "forge",
+     "before": "Me ",
+     "after": " los libros.",
+     "options": [
+      "encanta",
+      "encantan"
+     ],
+     "answer": "encantan",
+     "en": "I love books.",
+     "it": "Adoro i libri.",
+     "hint": {
+      "en": "Los libros is plural: encantan.",
+      "it": "Los libros è plurale: encantan."
+     }
+    },
+    {
+     "type": "build",
+     "beat": "fire",
+     "intention": {
+      "en": "Say that your brother loves football.",
+      "it": "Di che tuo fratello adora il calcio."
+     },
+     "accepted": [
+      "A mi hermano le encanta el fútbol."
+     ],
+     "tiles": [
+      "A",
+      "mi hermano",
+      "le encanta",
+      "el fútbol",
+      "me encanta"
+     ],
+     "en": "My brother loves football.",
+     "it": "Mio fratello adora il calcio.",
+     "hint": {
+      "en": "Like gustar: a mi hermano + le encanta.",
+      "it": "Come gustar: a mi hermano + le encanta."
+     }
+    },
+    {
+     "type": "explain",
+     "bricks": [
+      {
+       "text": "la pizza",
+       "kind": "chunk"
+      },
+      {
+       "text": "es",
+       "kind": "chunk"
+      },
+      {
+       "text": "barata",
+       "kind": "chunk"
+      }
+     ],
+     "rule": {
+      "en": "Give an opinion with es or son + a describing word. It matches the thing: -o for el words, -a for la words, + -s for plural. Interesante, fácil and difícil don't change for el or la.",
+      "it": "Dai un'opinione con es o son + un aggettivo. Si accorda con la cosa: -o con el, -a con la, + -s al plurale. Interesante, fácil e difícil non cambiano con el o la."
+     },
+     "examples": [
+      {
+       "es": "El mar es bonito.",
+       "en": "The sea is beautiful.",
+       "it": "Il mare è bello."
+      },
+      {
+       "es": "La pizza es barata.",
+       "en": "Pizza is cheap.",
+       "it": "La pizza è economica."
+      },
+      {
+       "es": "Los libros son caros.",
+       "en": "Books are expensive.",
+       "it": "I libri sono cari."
+      }
+     ],
+     "teaches": [
+      {
+       "es": "bonita",
+       "en": "beautiful (la)",
+       "it": "bella"
+      },
+      {
+       "es": "rica",
+       "en": "tasty (la)",
+       "it": "buona"
+      },
+      {
+       "es": "cara",
+       "en": "expensive (la)",
+       "it": "cara"
+      },
+      {
+       "es": "barata",
+       "en": "cheap (la)",
+       "it": "economica"
+      },
+      {
+       "es": "bonitos",
+       "en": "beautiful (plural)",
+       "it": "belli"
+      },
+      {
+       "es": "caros",
+       "en": "expensive (plural)",
+       "it": "cari"
+      },
+      {
+       "es": "baratos",
+       "en": "cheap (plural)",
+       "it": "economici"
+      },
+      {
+       "es": "interesantes",
+       "en": "interesting (plural)",
+       "it": "interessanti"
+      }
+     ]
+    },
+    {
+     "type": "choose",
+     "beat": "forge",
+     "before": "La ciudad es muy ",
+     "after": ".",
+     "options": [
+      "bonito",
+      "bonita",
+      "bonitos"
+     ],
+     "answer": "bonita",
+     "en": "The city is very beautiful.",
+     "it": "La città è molto bella.",
+     "hint": {
+      "en": "La ciudad: -a.",
+      "it": "La ciudad: -a."
+     }
+    },
+    {
+     "type": "gap",
+     "beat": "fire",
+     "before": "Los plátanos son ",
+     "after": ".",
+     "label": "barato",
+     "accepted": [
+      "baratos"
+     ],
+     "en": "Bananas are cheap.",
+     "it": "Le banane sono economiche.",
+     "hint": {
+      "en": "Los plátanos: plural with -o words, so -os.",
+      "it": "Los plátanos: plurale di una parola in -o, quindi -os."
+     }
+    },
+    {
+     "type": "explain",
+     "bricks": [
+      {
+       "text": "me gusta",
+       "kind": "chunk"
+      },
+      {
+       "text": "porque",
+       "kind": "rail"
+      },
+      {
+       "text": "es fácil",
+       "kind": "chunk"
+      }
+     ],
+     "rule": {
+      "en": "Add the reason with porque (because): first what you think, then porque and why.",
+      "it": "Aggiungi il motivo con porque (perché): prima cosa pensi, poi porque e il perché."
+     },
+     "examples": [
+      {
+       "es": "Me encanta el pescado porque es muy rico.",
+       "en": "I love fish because it's really tasty.",
+       "it": "Adoro il pesce perché è buonissimo."
+      },
+      {
+       "es": "No me gusta el teatro porque es caro.",
+       "en": "I don't like the theatre because it's expensive.",
+       "it": "Non mi piace il teatro perché è caro."
+      },
+      {
+       "es": "El español es difícil, pero me encanta.",
+       "en": "Spanish is difficult, but I love it.",
+       "it": "Lo spagnolo è difficile, ma lo adoro."
+      }
+     ]
+    },
+    {
+     "type": "choose",
+     "beat": "forge",
+     "before": "No me gusta el fútbol ",
+     "after": " es aburrido.",
+     "options": [
+      "porque",
+      "pero",
+      "o"
+     ],
+     "answer": "porque",
+     "en": "I don't like football because it's boring.",
+     "it": "Non mi piace il calcio perché è noioso.",
+     "hint": {
+      "en": "A reason comes after porque.",
+      "it": "Un motivo arriva dopo porque."
+     }
+    },
+    {
+     "type": "build",
+     "beat": "fire",
+     "intention": {
+      "en": "Say you like learning Spanish because it's interesting.",
+      "it": "Di che ti piace imparare lo spagnolo perché è interessante."
+     },
+     "accepted": [
+      "Me gusta aprender español porque es interesante."
+     ],
+     "tiles": [
+      "Me gusta",
+      "aprender",
+      "español",
+      "porque",
+      "es",
+      "interesante",
+      "pero"
+     ],
+     "en": "I like learning Spanish because it's interesting.",
+     "it": "Mi piace imparare lo spagnolo perché è interessante.",
+     "hint": {
+      "en": "Opinion first, then porque + the reason.",
+      "it": "Prima l'opinione, poi porque + il motivo."
+     }
+    },
+    {
+     "type": "choose",
+     "beat": "mix",
+     "before": "¿Te ",
+     "after": " el chocolate? ¡Sí, me encanta!",
+     "options": [
+      "encanta",
+      "encantan"
+     ],
+     "answer": "encanta",
+     "en": "Do you love chocolate? Yes, I love it!",
+     "it": "Ti piace tantissimo il cioccolato? Sì, lo adoro!",
+     "hint": {
+      "en": "El chocolate is one thing: encanta.",
+      "it": "El chocolate è una cosa sola: encanta."
+     }
+    },
+    {
+     "type": "gap",
+     "beat": "mix",
+     "before": "La pizza es muy ",
+     "after": ".",
+     "label": "rico",
+     "accepted": [
+      "rica"
+     ],
+     "en": "The pizza is really tasty.",
+     "it": "La pizza è buonissima.",
+     "hint": {
+      "en": "La pizza: -a.",
+      "it": "La pizza: -a."
+     }
+    },
+    {
+     "type": "build",
+     "beat": "mix",
+     "intention": {
+      "en": "Say that you love the sea because it's beautiful.",
+      "it": "Di che adori il mare perché è bello."
+     },
+     "accepted": [
+      "Me encanta el mar porque es bonito.",
+      "Me encanta el mar porque es muy bonito."
+     ],
+     "tiles": [
+      "Me encanta",
+      "el mar",
+      "porque",
+      "es",
+      "bonito",
+      "bonita"
+     ],
+     "en": "I love the sea because it's beautiful.",
+     "it": "Adoro il mare perché è bello.",
+     "hint": {
+      "en": "El mar: bonito with -o.",
+      "it": "El mar: bonito con la -o."
+     }
+    },
+    {
+     "type": "write",
+     "beat": "mix",
+     "instruction": {
+      "en": "Give your opinion on two things, each with a reason after porque.",
+      "it": "Dai la tua opinione su due cose, ognuna con un motivo dopo porque."
+     },
+     "required": [
+      "porque"
+     ],
+     "model": {
+      "es": "Me encanta el pescado porque es muy rico, pero no me gusta la carne porque es cara.",
+      "en": "I love fish because it's really tasty, but I don't like meat because it's expensive.",
+      "it": "Adoro il pesce perché è buonissimo, ma non mi piace la carne perché è cara."
+     }
+    }
+   ]
+  }
+ ],
+ "boss": {
+  "id": "u5boss",
+  "goal": {
+   "en": "Your friend Lucía wants to make plans for the weekend. Agree on where to go and where to have dinner.",
+   "it": "La tua amica Lucía vuole fare programmi per il weekend. Mettetevi d'accordo su dove andare e dove cenare."
+  },
+  "names": [
+   "Lucía"
+  ],
+  "items": [
+   {
+    "type": "words",
+    "words": [
+     {
+      "es": "el fin de semana",
+      "en": "the weekend",
+      "it": "il fine settimana",
+      "kind": "time"
+     },
+     {
+      "es": "vale",
+      "en": "OK",
+      "it": "va bene",
+      "kind": "chunk"
+     },
+     {
+      "es": "¡genial!",
+      "en": "great!",
+      "it": "fantastico!",
+      "kind": "chunk"
+     }
+    ]
+   },
+   {
+    "type": "build",
+    "beat": "fire",
+    "intention": {
+     "en": "Lucía says: ¡Hola, {name}! ¿Qué tal? Say hello and that you're fine, and ask her back.",
+     "it": "Lucía dice: ¡Hola, {name}! ¿Qué tal? Salutala, di che stai bene e chiedile come sta."
+    },
+    "accepted": [
+     "Hola, Lucía. Estoy bien, ¿y tú?",
+     "Hola, Lucía. Bien, ¿y tú?"
+    ],
+    "tiles": [
+     "Hola",
+     "Lucía",
+     "Estoy",
+     "bien",
+     "¿y tú?",
+     "Soy"
+    ],
+    "en": "Hi, Lucía. I'm fine, and you?",
+    "it": "Ciao, Lucía. Sto bene, e tu?",
+    "hint": {
+     "en": "How you feel uses estar: estoy bien.",
+     "it": "Come stai si dice con estar: estoy bien."
+    }
+   },
+   {
+    "type": "choose",
+    "beat": "fire",
+    "before": "Lucía: ¿Te gusta el mar? Tú: Sí, ",
+    "after": " gusta mucho.",
+    "options": [
+     "me",
+     "te",
+     "le"
+    ],
+    "answer": "me",
+    "en": "Do you like the sea? Yes, I like it a lot.",
+    "it": "Ti piace il mare? Sì, mi piace molto.",
+    "hint": {
+     "en": "You answer about yourself: me gusta.",
+     "it": "Rispondi su di te: me gusta."
+    }
+   },
+   {
+    "type": "build",
+    "beat": "fire",
+    "intention": {
+     "en": "Lucía asks: ¿Quieres ir a la playa el fin de semana? Say that you prefer the mountains.",
+     "it": "Lucía chiede: ¿Quieres ir a la playa el fin de semana? Di che preferisci la montagna."
+    },
+    "accepted": [
+     "Prefiero la montaña.",
+     "Yo prefiero la montaña."
+    ],
+    "tiles": [
+     "Prefiero",
+     "la montaña",
+     "la playa",
+     "Prefieres"
+    ],
+    "en": "I prefer the mountains.",
+    "it": "Preferisco la montagna.",
+    "hint": {
+     "en": "About yourself: prefiero.",
+     "it": "Parli di te: prefiero."
+    }
+   },
+   {
+    "type": "choose",
+    "beat": "fire",
+    "before": "Prefiero la montaña ",
+    "after": " es muy bonita.",
+    "options": [
+     "porque",
+     "pero",
+     "o"
+    ],
+    "answer": "porque",
+    "en": "I prefer the mountains because they're really beautiful.",
+    "it": "Preferisco la montagna perché è bellissima.",
+    "hint": {
+     "en": "Give the reason with porque.",
+     "it": "Dai il motivo con porque."
+    }
+   },
+   {
+    "type": "build",
+    "beat": "fire",
+    "intention": {
+     "en": "Lucía says: Vale, la montaña. ¿Cenamos en un restaurante? Say great, and ask if she likes fish.",
+     "it": "Lucía dice: Vale, la montaña. ¿Cenamos en un restaurante? Di che è fantastico e chiedile se le piace il pesce."
+    },
+    "accepted": [
+     "¡Genial! ¿Te gusta el pescado?"
+    ],
+    "tiles": [
+     "Genial",
+     "Te gusta",
+     "el pescado",
+     "Le gustan"
+    ],
+    "en": "Great! Do you like fish?",
+    "it": "Fantastico! Ti piace il pesce?",
+    "hint": {
+     "en": "Asking her directly: te gusta.",
+     "it": "Lo chiedi a lei direttamente: te gusta."
+    }
+   },
+   {
+    "type": "choose",
+    "beat": "fire",
+    "before": "Lucía: No me gusta nada el pescado. Tú: A mí ",
+    "after": ". Prefiero la carne.",
+    "options": [
+     "también",
+     "tampoco"
+    ],
+    "answer": "tampoco",
+    "en": "I don't like fish at all. Me neither. I prefer meat.",
+    "it": "Non mi piace per niente il pesce. Neanche a me. Preferisco la carne.",
+    "hint": {
+     "en": "Agreeing with a no: tampoco.",
+     "it": "D'accordo con un no: tampoco."
+    }
+   },
+   {
+    "type": "gap",
+    "beat": "fire",
+    "before": "Lucía: ¿Y la pizza? Tú: ¡Sí, me ",
+    "after": " la pizza!",
+    "label": "encantar",
+    "accepted": [
+     "encanta"
+    ],
+    "en": "And pizza? Yes, I love pizza!",
+    "it": "E la pizza? Sì, adoro la pizza!",
+    "hint": {
+     "en": "La pizza is one thing: me encanta.",
+     "it": "La pizza è una cosa sola: me encanta."
+    }
+   },
+   {
+    "type": "choose",
+    "beat": "mix",
+    "before": "Lucía: Hay un restaurante italiano en el centro, pero es caro. Tú: Prefiero un restaurante ",
+    "after": ".",
+    "options": [
+     "barato",
+     "barata",
+     "baratos"
+    ],
+    "answer": "barato",
+    "en": "There's an Italian restaurant in the centre, but it's expensive. I'd rather have a cheap restaurant.",
+    "it": "C'è un ristorante italiano in centro, ma è caro. Preferisco un ristorante economico.",
+    "hint": {
+     "en": "Un restaurante: -o.",
+     "it": "Un restaurante: -o."
+    }
+   },
+   {
+    "type": "build",
+    "beat": "mix",
+    "intention": {
+     "en": "Lucía says: Mi hermano también quiere ir. Say OK, and ask if he likes the mountains.",
+     "it": "Lucía dice: Mi hermano también quiere ir. Di va bene e chiedi se a lui piace la montagna."
+    },
+    "accepted": [
+     "Vale. ¿Le gusta la montaña?",
+     "¡Vale! ¿Le gusta la montaña?"
+    ],
+    "tiles": [
+     "Vale",
+     "Le gusta",
+     "la montaña",
+     "Te gusta"
+    ],
+    "en": "OK. Does he like the mountains?",
+    "it": "Va bene. Gli piace la montagna?",
+    "hint": {
+     "en": "About him: le gusta.",
+     "it": "Parli di lui: le gusta."
+    }
+   },
+   {
+    "type": "build",
+    "beat": "mix",
+    "intention": {
+     "en": "Lucía asks: ¿Vamos en tren o a pie? Say that you prefer to go by train.",
+     "it": "Lucía chiede: ¿Vamos en tren o a pie? Di che preferisci andare in treno."
+    },
+    "accepted": [
+     "Prefiero ir en tren.",
+     "Yo prefiero ir en tren."
+    ],
+    "tiles": [
+     "Prefiero",
+     "ir",
+     "en tren",
+     "a pie",
+     "voy"
+    ],
+    "en": "I'd rather go by train.",
+    "it": "Preferisco andare in treno.",
+    "hint": {
+     "en": "Prefiero + ir, as it is in the dictionary.",
+     "it": "Prefiero + ir, così com'è nel dizionario."
+    }
+   },
+   {
+    "type": "write",
+    "beat": "mix",
+    "instruction": {
+     "en": "Sum up the plan for Lucía: where you go this weekend and where you have dinner.",
+     "it": "Riassumi il piano per Lucía: dove andate questo weekend e dove cenate."
+    },
+    "required": [
+     "el fin de semana",
+     "vamos"
+    ],
+    "model": {
+     "es": "El fin de semana vamos a la montaña en tren y cenamos pizza en un restaurante barato. ¡Genial!",
+     "en": "At the weekend we're going to the mountains by train and having pizza for dinner at a cheap restaurant. Great!",
+     "it": "Nel weekend andiamo in montagna in treno e ceniamo con una pizza in un ristorante economico. Fantastico!"
+    }
+   }
+  ]
+ }
+}

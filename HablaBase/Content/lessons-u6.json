@@ -1,0 +1,2444 @@
+{
+ "unit": "u6",
+ "lessons": [
+  {
+   "id": "u6l1",
+   "goal": {
+    "en": "Ask and tell the time, and say at what time you do things.",
+    "it": "Chiedere e dire l'ora, e dire a che ora fai le cose."
+   },
+   "target": {
+    "es": "¿A qué hora trabajas? Trabajo a las nueve por la mañana.",
+    "en": "What time do you work? I work at nine in the morning.",
+    "it": "A che ora lavori? Lavoro alle nove di mattina."
+   },
+   "items": [
+    {
+     "type": "words",
+     "words": [
+      {
+       "es": "¿qué hora es?",
+       "en": "what time is it?",
+       "it": "che ore sono?",
+       "kind": "chunk"
+      },
+      {
+       "es": "es la una",
+       "en": "it's one o'clock",
+       "it": "è l'una",
+       "kind": "chunk"
+      },
+      {
+       "es": "son las...",
+       "en": "it's ... o'clock",
+       "it": "sono le...",
+       "kind": "chunk"
+      },
+      {
+       "es": "en punto",
+       "en": "on the dot, o'clock",
+       "it": "in punto",
+       "kind": "chunk"
+      }
+     ]
+    },
+    {
+     "type": "words",
+     "words": [
+      {
+       "es": "y media",
+       "en": "half past",
+       "it": "e mezza",
+       "kind": "chunk"
+      },
+      {
+       "es": "y cuarto",
+       "en": "quarter past",
+       "it": "e un quarto",
+       "kind": "chunk"
+      },
+      {
+       "es": "menos cuarto",
+       "en": "quarter to",
+       "it": "meno un quarto",
+       "kind": "chunk"
+      }
+     ]
+    },
+    {
+     "type": "explain",
+     "bricks": [
+      {
+       "text": "son las",
+       "kind": "chunk"
+      },
+      {
+       "text": "dos",
+       "kind": "chunk"
+      }
+     ],
+     "rule": {
+      "en": "For one o'clock say es la una. For every other hour: son las + the number, just like Italian sono le due.",
+      "it": "Per l'una di' es la una. Per tutte le altre ore: son las + il numero, proprio come sono le due."
+     },
+     "examples": [
+      {
+       "es": "¿Qué hora es? Es la una.",
+       "en": "What time is it? It's one o'clock.",
+       "it": "Che ore sono? È l'una."
+      },
+      {
+       "es": "Son las dos.",
+       "en": "It's two o'clock.",
+       "it": "Sono le due."
+      },
+      {
+       "es": "Son las diez en punto.",
+       "en": "It's ten o'clock on the dot.",
+       "it": "Sono le dieci in punto."
+      }
+     ]
+    },
+    {
+     "type": "choose",
+     "beat": "forge",
+     "before": "",
+     "after": " las cuatro.",
+     "options": [
+      "Es",
+      "Son"
+     ],
+     "answer": "Son",
+     "en": "It's four o'clock.",
+     "it": "Sono le quattro.",
+     "hint": {
+      "en": "Every hour except one: son las.",
+      "it": "Tutte le ore tranne l'una: son las."
+     }
+    },
+    {
+     "type": "gap",
+     "beat": "forge",
+     "before": "(7:00) Son las ",
+     "after": ".",
+     "label": "7",
+     "accepted": [
+      "siete"
+     ],
+     "en": "It's seven o'clock.",
+     "it": "Sono le sette.",
+     "hint": {
+      "en": "Write the number as a word: siete.",
+      "it": "Scrivi il numero in lettere: siete."
+     }
+    },
+    {
+     "type": "explain",
+     "bricks": [
+      {
+       "text": "son las dos",
+       "kind": "chunk"
+      },
+      {
+       "text": "y media",
+       "kind": "chunk"
+      }
+     ],
+     "rule": {
+      "en": "After the hour add y cuarto (:15) or y media (:30). For :45, take the next hour and say menos cuarto.",
+      "it": "Dopo l'ora aggiungi y cuarto (:15) o y media (:30). Per :45 prendi l'ora dopo e di' menos cuarto."
+     },
+     "examples": [
+      {
+       "es": "Son las dos y media.",
+       "en": "It's half past two.",
+       "it": "Sono le due e mezza."
+      },
+      {
+       "es": "Es la una y cuarto.",
+       "en": "It's quarter past one.",
+       "it": "È l'una e un quarto."
+      },
+      {
+       "es": "Son las tres menos cuarto.",
+       "en": "It's quarter to three.",
+       "it": "Sono le tre meno un quarto."
+      }
+     ]
+    },
+    {
+     "type": "choose",
+     "beat": "forge",
+     "before": "(8:30) Son las ocho ",
+     "after": ".",
+     "options": [
+      "y media",
+      "y cuarto",
+      "menos cuarto"
+     ],
+     "answer": "y media",
+     "en": "It's half past eight.",
+     "it": "Sono le otto e mezza.",
+     "hint": {
+      "en": ":30 is y media.",
+      "it": ":30 è y media."
+     }
+    },
+    {
+     "type": "build",
+     "beat": "fire",
+     "intention": {
+      "en": "It's 6:45. Say the time.",
+      "it": "Sono le 6:45. Di' l'ora."
+     },
+     "accepted": [
+      "Son las siete menos cuarto."
+     ],
+     "tiles": [
+      "Son",
+      "las",
+      "siete",
+      "seis",
+      "menos cuarto",
+      "y cuarto"
+     ],
+     "en": "It's quarter to seven.",
+     "it": "Sono le sette meno un quarto.",
+     "hint": {
+      "en": ":45 = the next hour (siete) menos cuarto.",
+      "it": ":45 = l'ora dopo (siete) menos cuarto."
+     }
+    },
+    {
+     "type": "words",
+     "words": [
+      {
+       "es": "¿a qué hora?",
+       "en": "at what time?",
+       "it": "a che ora?",
+       "kind": "chunk"
+      },
+      {
+       "es": "a las...",
+       "en": "at ... o'clock",
+       "it": "alle...",
+       "kind": "chunk"
+      },
+      {
+       "es": "por la mañana",
+       "en": "in the morning",
+       "it": "di mattina",
+       "kind": "time"
+      },
+      {
+       "es": "por la tarde",
+       "en": "in the afternoon/evening",
+       "it": "di pomeriggio",
+       "kind": "time"
+      },
+      {
+       "es": "por la noche",
+       "en": "at night",
+       "it": "di sera, di notte",
+       "kind": "time"
+      }
+     ]
+    },
+    {
+     "type": "explain",
+     "bricks": [
+      {
+       "text": "a las",
+       "kind": "chunk"
+      },
+      {
+       "text": "nueve",
+       "kind": "chunk"
+      },
+      {
+       "text": "por la mañana",
+       "kind": "time"
+      }
+     ],
+     "rule": {
+      "en": "To say when, use a las + hour (a la una for one o'clock). Add por la mañana, por la tarde or por la noche.",
+      "it": "Per dire quando, usa a las + l'ora (a la una per l'una). Aggiungi por la mañana, por la tarde o por la noche."
+     },
+     "examples": [
+      {
+       "es": "¿A qué hora trabajas? A las nueve.",
+       "en": "What time do you work? At nine.",
+       "it": "A che ora lavori? Alle nove."
+      },
+      {
+       "es": "Como a la una.",
+       "en": "I eat at one.",
+       "it": "Mangio all'una."
+      },
+      {
+       "es": "Estudio a las diez por la noche.",
+       "en": "I study at ten at night.",
+       "it": "Studio alle dieci di sera."
+      }
+     ],
+     "teaches": [
+      {
+       "es": "a la una",
+       "en": "at one o'clock",
+       "it": "all'una"
+      }
+     ]
+    },
+    {
+     "type": "choose",
+     "beat": "forge",
+     "before": "Como ",
+     "after": " una.",
+     "options": [
+      "a la",
+      "a las",
+      "es la"
+     ],
+     "answer": "a la",
+     "en": "I eat at one.",
+     "it": "Mangio all'una.",
+     "hint": {
+      "en": "At one o'clock: a la una (singular).",
+      "it": "All'una: a la una (singolare)."
+     }
+    },
+    {
+     "type": "build",
+     "beat": "fire",
+     "intention": {
+      "en": "Say that you work at eight in the morning.",
+      "it": "Di che lavori alle otto di mattina."
+     },
+     "accepted": [
+      "Trabajo a las ocho por la mañana.",
+      "Por la mañana trabajo a las ocho."
+     ],
+     "tiles": [
+      "Trabajo",
+      "a las",
+      "ocho",
+      "por la mañana",
+      "por la noche",
+      "Son"
+     ],
+     "en": "I work at eight in the morning.",
+     "it": "Lavoro alle otto di mattina.",
+     "hint": {
+      "en": "When: a las + hour, then por la mañana.",
+      "it": "Quando: a las + ora, poi por la mañana."
+     }
+    },
+    {
+     "type": "gap",
+     "beat": "mix",
+     "before": "Ceno a las ",
+     "after": " por la noche.",
+     "label": "9",
+     "accepted": [
+      "nueve"
+     ],
+     "en": "I have dinner at nine at night.",
+     "it": "Ceno alle nove di sera.",
+     "hint": {
+      "en": "Write the number as a word: nueve.",
+      "it": "Scrivi il numero in lettere: nueve."
+     }
+    },
+    {
+     "type": "choose",
+     "beat": "mix",
+     "before": "(1:15) Es la una ",
+     "after": ".",
+     "options": [
+      "y cuarto",
+      "menos cuarto",
+      "en punto"
+     ],
+     "answer": "y cuarto",
+     "en": "It's quarter past one.",
+     "it": "È l'una e un quarto.",
+     "hint": {
+      "en": ":15 is y cuarto.",
+      "it": ":15 è y cuarto."
+     }
+    },
+    {
+     "type": "build",
+     "beat": "mix",
+     "intention": {
+      "en": "Ask a friend at what time they have dinner.",
+      "it": "Chiedi a un amico a che ora cena."
+     },
+     "accepted": [
+      "¿A qué hora cenas?"
+     ],
+     "tiles": [
+      "A qué hora",
+      "cenas",
+      "ceno",
+      "Qué hora es"
+     ],
+     "en": "What time do you have dinner?",
+     "it": "A che ora ceni?",
+     "hint": {
+      "en": "Asking when: ¿a qué hora? + the tú form.",
+      "it": "Per chiedere quando: ¿a qué hora? + la forma di tú."
+     }
+    },
+    {
+     "type": "write",
+     "beat": "mix",
+     "instruction": {
+      "en": "Say at what time you start work and at what time you eat.",
+      "it": "Di a che ora lavori e a che ora mangi."
+     },
+     "required": [
+      "a las"
+     ],
+     "model": {
+      "es": "Trabajo en {work} a las nueve y como a las dos.",
+      "en": "I work {workEn} at nine and I eat at two.",
+      "it": "Lavoro {workIt} alle nove e mangio alle due."
+     }
+    }
+   ]
+  },
+  {
+   "id": "u6l2",
+   "goal": {
+    "en": "Say what you do on each day of the week, once or every week.",
+    "it": "Dire cosa fai ogni giorno della settimana, una volta o tutte le settimane."
+   },
+   "target": {
+    "es": "Los lunes trabajo y los sábados descanso.",
+    "en": "On Mondays I work and on Saturdays I rest.",
+    "it": "Il lunedì lavoro e il sabato mi riposo."
+   },
+   "items": [
+    {
+     "type": "words",
+     "words": [
+      {
+       "es": "lunes",
+       "en": "Monday",
+       "it": "lunedì",
+       "kind": "time"
+      },
+      {
+       "es": "martes",
+       "en": "Tuesday",
+       "it": "martedì",
+       "kind": "time"
+      },
+      {
+       "es": "miércoles",
+       "en": "Wednesday",
+       "it": "mercoledì",
+       "kind": "time"
+      },
+      {
+       "es": "jueves",
+       "en": "Thursday",
+       "it": "giovedì",
+       "kind": "time"
+      }
+     ]
+    },
+    {
+     "type": "words",
+     "words": [
+      {
+       "es": "viernes",
+       "en": "Friday",
+       "it": "venerdì",
+       "kind": "time"
+      },
+      {
+       "es": "sábado",
+       "en": "Saturday",
+       "it": "sabato",
+       "kind": "time"
+      },
+      {
+       "es": "domingo",
+       "en": "Sunday",
+       "it": "domenica",
+       "kind": "time"
+      },
+      {
+       "es": "la semana",
+       "en": "the week",
+       "it": "la settimana",
+       "kind": "time"
+      }
+     ]
+    },
+    {
+     "type": "explain",
+     "bricks": [
+      {
+       "text": "el",
+       "kind": "chunk"
+      },
+      {
+       "text": "viernes",
+       "kind": "time"
+      }
+     ],
+     "rule": {
+      "en": "For one day, put el before it, with no 'on' word: el viernes = on Friday. Days are written in small letters.",
+      "it": "Per un giorno preciso metti el davanti: el viernes = venerdì (questo venerdì). I giorni si scrivono con la minuscola."
+     },
+     "examples": [
+      {
+       "es": "El lunes trabajo.",
+       "en": "On Monday I'm working.",
+       "it": "Lunedì lavoro."
+      },
+      {
+       "es": "Voy al cine el viernes.",
+       "en": "I'm going to the cinema on Friday.",
+       "it": "Venerdì vado al cinema."
+      },
+      {
+       "es": "El sábado como con mi familia.",
+       "en": "On Saturday I'm eating with my family.",
+       "it": "Sabato mangio con la mia famiglia."
+      }
+     ],
+     "teaches": [
+      {
+       "es": "el lunes",
+       "en": "on Monday",
+       "it": "lunedì"
+      }
+     ]
+    },
+    {
+     "type": "choose",
+     "beat": "forge",
+     "before": "Voy al gimnasio ",
+     "after": " martes.",
+     "options": [
+      "el",
+      "en",
+      "a"
+     ],
+     "answer": "el",
+     "en": "I'm going to the gym on Tuesday.",
+     "it": "Martedì vado in palestra.",
+     "hint": {
+      "en": "Days take el, never en.",
+      "it": "I giorni vogliono el, mai en."
+     }
+    },
+    {
+     "type": "build",
+     "beat": "fire",
+     "intention": {
+      "en": "Say that you're going to the beach on Saturday.",
+      "it": "Di che sabato vai in spiaggia."
+     },
+     "accepted": [
+      "El sábado voy a la playa.",
+      "Voy a la playa el sábado."
+     ],
+     "tiles": [
+      "El",
+      "sábado",
+      "voy",
+      "a la playa",
+      "en",
+      "va"
+     ],
+     "en": "On Saturday I'm going to the beach.",
+     "it": "Sabato vado in spiaggia.",
+     "hint": {
+      "en": "El sábado, no en: then voy a la playa.",
+      "it": "El sábado, senza en: poi voy a la playa."
+     }
+    },
+    {
+     "type": "explain",
+     "bricks": [
+      {
+       "text": "los",
+       "kind": "chunk"
+      },
+      {
+       "text": "lunes",
+       "kind": "time"
+      }
+     ],
+     "rule": {
+      "en": "For something you do every week, use los: los lunes = on Mondays. Sábado and domingo add -s; lunes to viernes stay the same.",
+      "it": "Per una cosa che fai tutte le settimane usa los: los lunes = il lunedì (ogni lunedì). Sábado e domingo aggiungono -s; da lunes a viernes non cambiano."
+     },
+     "examples": [
+      {
+       "es": "Los lunes estudio español.",
+       "en": "On Mondays I study Spanish.",
+       "it": "Il lunedì studio spagnolo."
+      },
+      {
+       "es": "Los domingos como con mis padres.",
+       "en": "On Sundays I eat with my parents.",
+       "it": "La domenica mangio con i miei genitori."
+      },
+      {
+       "es": "Los fines de semana descanso.",
+       "en": "At weekends I rest.",
+       "it": "Nel fine settimana mi riposo."
+      }
+     ],
+     "teaches": [
+      {
+       "es": "los lunes",
+       "en": "on Mondays",
+       "it": "il lunedì, ogni lunedì"
+      },
+      {
+       "es": "los sábados",
+       "en": "on Saturdays",
+       "it": "il sabato, ogni sabato"
+      },
+      {
+       "es": "los domingos",
+       "en": "on Sundays",
+       "it": "la domenica, ogni domenica"
+      },
+      {
+       "es": "los fines de semana",
+       "en": "at weekends",
+       "it": "nei fine settimana"
+      }
+     ]
+    },
+    {
+     "type": "choose",
+     "beat": "forge",
+     "before": "",
+     "after": " lunes trabajo en casa.",
+     "options": [
+      "El",
+      "Los"
+     ],
+     "answer": "Los",
+     "en": "On Mondays I work from home.",
+     "it": "Il lunedì lavoro da casa.",
+     "hint": {
+      "en": "Every Monday, a habit: los lunes.",
+      "it": "Ogni lunedì, un'abitudine: los lunes."
+     }
+    },
+    {
+     "type": "gap",
+     "beat": "fire",
+     "before": "Los ",
+     "after": " como con mi familia.",
+     "label": "domingo",
+     "accepted": [
+      "domingos"
+     ],
+     "en": "On Sundays I eat with my family.",
+     "it": "La domenica mangio con la mia famiglia.",
+     "hint": {
+      "en": "Los + domingo needs -s: domingos.",
+      "it": "Los + domingo vuole la -s: domingos."
+     }
+    },
+    {
+     "type": "explain",
+     "bricks": [
+      {
+       "text": "hoy es",
+       "kind": "chunk"
+      },
+      {
+       "text": "lunes",
+       "kind": "time"
+      }
+     ],
+     "rule": {
+      "en": "To say what day it is, use hoy es + the day, with no el.",
+      "it": "Per dire che giorno è, usa hoy es + il giorno, senza el."
+     },
+     "examples": [
+      {
+       "es": "Hoy es lunes.",
+       "en": "Today is Monday.",
+       "it": "Oggi è lunedì."
+      },
+      {
+       "es": "Mañana es sábado.",
+       "en": "Tomorrow is Saturday.",
+       "it": "Domani è sabato."
+      },
+      {
+       "es": "¡Hoy es viernes!",
+       "en": "Today is Friday!",
+       "it": "Oggi è venerdì!"
+      }
+     ]
+    },
+    {
+     "type": "choose",
+     "beat": "forge",
+     "before": "Hoy es lunes. Mañana es ",
+     "after": ".",
+     "options": [
+      "martes",
+      "domingo",
+      "jueves"
+     ],
+     "answer": "martes",
+     "en": "Today is Monday. Tomorrow is Tuesday.",
+     "it": "Oggi è lunedì. Domani è martedì.",
+     "hint": {
+      "en": "After lunes comes martes.",
+      "it": "Dopo lunes viene martes."
+     }
+    },
+    {
+     "type": "build",
+     "beat": "fire",
+     "intention": {
+      "en": "Say that today is Wednesday and that you're studying Spanish.",
+      "it": "Di che oggi è mercoledì e che studi spagnolo."
+     },
+     "accepted": [
+      "Hoy es miércoles y estudio español."
+     ],
+     "tiles": [
+      "Hoy",
+      "es",
+      "miércoles",
+      "y",
+      "estudio",
+      "español",
+      "el"
+     ],
+     "en": "Today is Wednesday and I'm studying Spanish.",
+     "it": "Oggi è mercoledì e studio spagnolo.",
+     "hint": {
+      "en": "Hoy es + the day, no el.",
+      "it": "Hoy es + il giorno, senza el."
+     }
+    },
+    {
+     "type": "choose",
+     "beat": "mix",
+     "before": "Hoy es miércoles. ",
+     "after": " jueves voy al cine.",
+     "options": [
+      "El",
+      "Los"
+     ],
+     "answer": "El",
+     "en": "Today is Wednesday. On Thursday I'm going to the cinema.",
+     "it": "Oggi è mercoledì. Giovedì vado al cinema.",
+     "hint": {
+      "en": "Just this Thursday: el jueves.",
+      "it": "Solo questo giovedì: el jueves."
+     }
+    },
+    {
+     "type": "gap",
+     "beat": "mix",
+     "before": "Los ",
+     "after": " y los domingos descanso.",
+     "label": "sábado",
+     "accepted": [
+      "sábados"
+     ],
+     "en": "On Saturdays and Sundays I rest.",
+     "it": "Il sabato e la domenica mi riposo.",
+     "hint": {
+      "en": "Los + sábado needs -s.",
+      "it": "Los + sábado vuole la -s."
+     }
+    },
+    {
+     "type": "build",
+     "beat": "mix",
+     "intention": {
+      "en": "Say that on Mondays you work at your job.",
+      "it": "Di che il lunedì lavori nel tuo posto di lavoro."
+     },
+     "accepted": [
+      "Los lunes trabajo en {work}.",
+      "El lunes trabajo en {work}."
+     ],
+     "tiles": [
+      "Los",
+      "lunes",
+      "trabajo",
+      "en",
+      "{work}",
+      "trabaja"
+     ],
+     "en": "On Mondays I work {workEn}.",
+     "it": "Il lunedì lavoro {workIt}.",
+     "hint": {
+      "en": "Every Monday: los lunes.",
+      "it": "Ogni lunedì: los lunes."
+     }
+    },
+    {
+     "type": "write",
+     "beat": "mix",
+     "instruction": {
+      "en": "Describe your week: what you do on two different days, joined with y.",
+      "it": "Descrivi la tua settimana: cosa fai in due giorni diversi, uniti con y."
+     },
+     "required": [
+      "los",
+      "y"
+     ],
+     "model": {
+      "es": "Los lunes trabajo en {work} y los sábados voy a la playa.",
+      "en": "On Mondays I work {workEn} and on Saturdays I go to the beach.",
+      "it": "Il lunedì lavoro {workIt} e il sabato vado in spiaggia."
+     }
+    }
+   ]
+  },
+  {
+   "id": "u6l3",
+   "goal": {
+    "en": "Say how often you do things: always, sometimes, never, once a week.",
+    "it": "Dire quanto spesso fai le cose: sempre, a volte, mai, una volta a settimana."
+   },
+   "target": {
+    "es": "Siempre desayuno en casa y a veces tomo un café en el trabajo.",
+    "en": "I always have breakfast at home and sometimes I have a coffee at work.",
+    "it": "Faccio sempre colazione a casa e a volte prendo un caffè al lavoro."
+   },
+   "items": [
+    {
+     "type": "words",
+     "words": [
+      {
+       "es": "siempre",
+       "en": "always",
+       "it": "sempre",
+       "kind": "time"
+      },
+      {
+       "es": "a veces",
+       "en": "sometimes",
+       "it": "a volte",
+       "kind": "time"
+      },
+      {
+       "es": "nunca",
+       "en": "never",
+       "it": "mai",
+       "kind": "time"
+      },
+      {
+       "es": "normalmente",
+       "en": "usually",
+       "it": "di solito",
+       "kind": "time"
+      },
+      {
+       "es": "casi",
+       "en": "almost",
+       "it": "quasi",
+       "kind": "time"
+      }
+     ]
+    },
+    {
+     "type": "words",
+     "words": [
+      {
+       "es": "una vez",
+       "en": "once",
+       "it": "una volta",
+       "kind": "time"
+      },
+      {
+       "es": "de vez en cuando",
+       "en": "from time to time",
+       "it": "ogni tanto",
+       "kind": "time"
+      },
+      {
+       "es": "desayunar",
+       "en": "to have breakfast",
+       "it": "fare colazione",
+       "kind": "stem"
+      },
+      {
+       "es": "tomar",
+       "en": "to have (a drink), to take",
+       "it": "prendere",
+       "kind": "stem"
+      }
+     ]
+    },
+    {
+     "type": "explain",
+     "bricks": [
+      {
+       "text": "desayun-",
+       "kind": "stem"
+      },
+      {
+       "text": "-o",
+       "kind": "ending"
+      }
+     ],
+     "result": {
+      "stem": "desayun",
+      "ending": "o"
+     },
+     "rule": {
+      "en": "Desayunar (to have breakfast) and tomar (to have a drink) are regular AR verbs.",
+      "it": "Desayunar (fare colazione) e tomar (prendere, da bere) sono verbi regolari in AR."
+     },
+     "examples": [
+      {
+       "es": "Desayuno en casa.",
+       "en": "I have breakfast at home.",
+       "it": "Faccio colazione a casa."
+      },
+      {
+       "es": "Tomo un café.",
+       "en": "I have a coffee.",
+       "it": "Prendo un caffè."
+      },
+      {
+       "es": "¿Tomas té?",
+       "en": "Do you have tea?",
+       "it": "Prendi il tè?"
+      }
+     ],
+     "teaches": [
+      {
+       "es": "desayuno",
+       "en": "I have breakfast",
+       "it": "faccio colazione"
+      },
+      {
+       "es": "desayunas",
+       "en": "you have breakfast",
+       "it": "fai colazione"
+      },
+      {
+       "es": "desayuna",
+       "en": "he/she has breakfast",
+       "it": "fa colazione"
+      },
+      {
+       "es": "desayunamos",
+       "en": "we have breakfast",
+       "it": "facciamo colazione"
+      },
+      {
+       "es": "desayunáis",
+       "en": "you all have breakfast",
+       "it": "fate colazione"
+      },
+      {
+       "es": "desayunan",
+       "en": "they have breakfast",
+       "it": "fanno colazione"
+      },
+      {
+       "es": "tomo",
+       "en": "I have",
+       "it": "prendo"
+      },
+      {
+       "es": "tomas",
+       "en": "you have",
+       "it": "prendi"
+      },
+      {
+       "es": "toma",
+       "en": "he/she has",
+       "it": "prende"
+      },
+      {
+       "es": "tomamos",
+       "en": "we have",
+       "it": "prendiamo"
+      },
+      {
+       "es": "tomáis",
+       "en": "you all have",
+       "it": "prendete"
+      },
+      {
+       "es": "toman",
+       "en": "they have",
+       "it": "prendono"
+      }
+     ]
+    },
+    {
+     "type": "snap",
+     "beat": "forge",
+     "person": "yo",
+     "prompt": {
+      "en": "I have breakfast",
+      "it": "faccio colazione"
+     },
+     "stems": [
+      "cen",
+      "desayun",
+      "tom"
+     ],
+     "endings": [
+      "o",
+      "as",
+      "a"
+     ],
+     "answer": {
+      "stem": "desayun",
+      "ending": "o"
+     }
+    },
+    {
+     "type": "gap",
+     "beat": "fire",
+     "before": "Nosotros ",
+     "after": " café.",
+     "label": "tomar",
+     "accepted": [
+      "tomamos"
+     ],
+     "en": "We have coffee.",
+     "it": "Prendiamo il caffè.",
+     "hint": {
+      "en": "Nosotros: AR verbs end in -amos.",
+      "it": "Nosotros: i verbi in AR finiscono in -amos."
+     }
+    },
+    {
+     "type": "explain",
+     "bricks": [
+      {
+       "text": "siempre",
+       "kind": "time"
+      },
+      {
+       "text": "desayuno",
+       "kind": "stem"
+      }
+     ],
+     "rule": {
+      "en": "Siempre, normalmente, a veces and nunca usually go at the start, before the verb. Casi nunca means 'hardly ever'.",
+      "it": "Siempre, normalmente, a veces e nunca di solito vanno all'inizio, prima del verbo. Casi nunca vuol dire 'quasi mai'."
+     },
+     "examples": [
+      {
+       "es": "Siempre desayuno en casa.",
+       "en": "I always have breakfast at home.",
+       "it": "Faccio sempre colazione a casa."
+      },
+      {
+       "es": "A veces tomo té.",
+       "en": "Sometimes I have tea.",
+       "it": "A volte prendo il tè."
+      },
+      {
+       "es": "Nunca como carne.",
+       "en": "I never eat meat.",
+       "it": "Non mangio mai carne."
+      }
+     ],
+     "teaches": [
+      {
+       "es": "casi nunca",
+       "en": "hardly ever",
+       "it": "quasi mai"
+      }
+     ]
+    },
+    {
+     "type": "choose",
+     "beat": "forge",
+     "before": "No me gusta el café. ",
+     "after": " tomo café.",
+     "options": [
+      "Siempre",
+      "Nunca",
+      "Normalmente"
+     ],
+     "answer": "Nunca",
+     "en": "I don't like coffee. I never have coffee.",
+     "it": "Non mi piace il caffè. Non prendo mai il caffè.",
+     "hint": {
+      "en": "You don't like it, so: nunca.",
+      "it": "Non ti piace, quindi: nunca."
+     }
+    },
+    {
+     "type": "build",
+     "beat": "fire",
+     "intention": {
+      "en": "Say that you usually have breakfast at eight.",
+      "it": "Di che di solito fai colazione alle otto."
+     },
+     "accepted": [
+      "Normalmente desayuno a las ocho."
+     ],
+     "tiles": [
+      "Normalmente",
+      "desayuno",
+      "a las",
+      "ocho",
+      "desayunas",
+      "nunca"
+     ],
+     "en": "I usually have breakfast at eight.",
+     "it": "Di solito faccio colazione alle otto.",
+     "hint": {
+      "en": "Normalmente first, then the verb.",
+      "it": "Prima normalmente, poi il verbo."
+     }
+    },
+    {
+     "type": "explain",
+     "bricks": [
+      {
+       "text": "dos veces",
+       "kind": "time"
+      },
+      {
+       "text": "a la semana",
+       "kind": "time"
+      }
+     ],
+     "rule": {
+      "en": "To count how often, say una vez (once), dos veces (twice) + a la semana. De vez en cuando means 'from time to time'.",
+      "it": "Per contare quante volte, di' una vez, dos veces + a la semana. De vez en cuando vuol dire 'ogni tanto'."
+     },
+     "examples": [
+      {
+       "es": "Voy al gimnasio una vez a la semana.",
+       "en": "I go to the gym once a week.",
+       "it": "Vado in palestra una volta a settimana."
+      },
+      {
+       "es": "Ceno en un restaurante dos veces a la semana.",
+       "en": "I have dinner at a restaurant twice a week.",
+       "it": "Ceno al ristorante due volte a settimana."
+      },
+      {
+       "es": "Voy al cine de vez en cuando.",
+       "en": "I go to the cinema from time to time.",
+       "it": "Vado al cinema ogni tanto."
+      }
+     ],
+     "teaches": [
+      {
+       "es": "dos veces",
+       "en": "twice",
+       "it": "due volte"
+      }
+     ]
+    },
+    {
+     "type": "choose",
+     "beat": "forge",
+     "before": "Voy al gimnasio dos ",
+     "after": " a la semana.",
+     "options": [
+      "vez",
+      "veces"
+     ],
+     "answer": "veces",
+     "en": "I go to the gym twice a week.",
+     "it": "Vado in palestra due volte a settimana.",
+     "hint": {
+      "en": "More than one: veces (z becomes c).",
+      "it": "Più di una: veces (la z diventa c)."
+     }
+    },
+    {
+     "type": "build",
+     "beat": "fire",
+     "intention": {
+      "en": "Say that you go to the cinema from time to time.",
+      "it": "Di che vai al cinema ogni tanto."
+     },
+     "accepted": [
+      "Voy al cine de vez en cuando.",
+      "De vez en cuando voy al cine."
+     ],
+     "tiles": [
+      "Voy",
+      "al cine",
+      "de vez en cuando",
+      "veces",
+      "va"
+     ],
+     "en": "I go to the cinema from time to time.",
+     "it": "Vado al cinema ogni tanto.",
+     "hint": {
+      "en": "De vez en cuando is one block: keep it together.",
+      "it": "De vez en cuando è un blocco unico: tienilo insieme."
+     }
+    },
+    {
+     "type": "gap",
+     "beat": "mix",
+     "before": "Mi madre ",
+     "after": " un té por la tarde.",
+     "label": "tomar",
+     "accepted": [
+      "toma"
+     ],
+     "en": "My mother has a tea in the afternoon.",
+     "it": "Mia madre prende un tè il pomeriggio.",
+     "hint": {
+      "en": "Mi madre = ella: -a.",
+      "it": "Mi madre = ella: -a."
+     }
+    },
+    {
+     "type": "choose",
+     "beat": "mix",
+     "before": "Me encanta el chocolate. ",
+     "after": " como chocolate.",
+     "options": [
+      "Nunca",
+      "Siempre",
+      "Casi nunca"
+     ],
+     "answer": "Siempre",
+     "en": "I love chocolate. I always eat chocolate.",
+     "it": "Adoro il cioccolato. Mangio sempre cioccolato.",
+     "hint": {
+      "en": "You love it, so: siempre.",
+      "it": "Lo adori, quindi: siempre."
+     }
+    },
+    {
+     "type": "build",
+     "beat": "mix",
+     "intention": {
+      "en": "Say that sometimes you have breakfast at work.",
+      "it": "Di che a volte fai colazione al lavoro."
+     },
+     "accepted": [
+      "A veces desayuno en el trabajo.",
+      "Desayuno en el trabajo a veces."
+     ],
+     "tiles": [
+      "A veces",
+      "desayuno",
+      "en el trabajo",
+      "desayuna",
+      "una vez"
+     ],
+     "en": "Sometimes I have breakfast at work.",
+     "it": "A volte faccio colazione al lavoro.",
+     "hint": {
+      "en": "A veces first, then the yo form.",
+      "it": "Prima a veces, poi la forma di yo."
+     }
+    },
+    {
+     "type": "write",
+     "beat": "mix",
+     "instruction": {
+      "en": "Say how often you do three things: use siempre and nunca.",
+      "it": "Di quanto spesso fai tre cose: usa siempre e nunca."
+     },
+     "required": [
+      "siempre",
+      "nunca"
+     ],
+     "model": {
+      "es": "Siempre desayuno en casa, a veces tomo un té y nunca bebo vino.",
+      "en": "I always have breakfast at home, sometimes I have a tea and I never drink wine.",
+      "it": "Faccio sempre colazione a casa, a volte prendo un tè e non bevo mai vino."
+     }
+    }
+   ]
+  },
+  {
+   "id": "u6l4",
+   "goal": {
+    "en": "Ask questions with what, where, when, who, why and how much.",
+    "it": "Fare domande con cosa, dove, quando, chi, perché e quanto."
+   },
+   "target": {
+    "es": "¿Dónde vives y por qué estudias español?",
+    "en": "Where do you live and why are you studying Spanish?",
+    "it": "Dove vivi e perché studi spagnolo?"
+   },
+   "items": [
+    {
+     "type": "words",
+     "words": [
+      {
+       "es": "¿cuándo?",
+       "en": "when?",
+       "it": "quando?",
+       "kind": "chunk"
+      },
+      {
+       "es": "¿quién?",
+       "en": "who?",
+       "it": "chi?",
+       "kind": "chunk"
+      },
+      {
+       "es": "¿por qué?",
+       "en": "why?",
+       "it": "perché?",
+       "kind": "chunk"
+      }
+     ]
+    },
+    {
+     "type": "words",
+     "words": [
+      {
+       "es": "¿cuál?",
+       "en": "which?",
+       "it": "quale?",
+       "kind": "chunk"
+      },
+      {
+       "es": "¿adónde?",
+       "en": "where to?",
+       "it": "dove? (verso dove)",
+       "kind": "chunk"
+      },
+      {
+       "es": "cuando",
+       "en": "when (not a question)",
+       "it": "quando",
+       "kind": "rail"
+      }
+     ]
+    },
+    {
+     "type": "explain",
+     "bricks": [
+      {
+       "text": "¿dónde",
+       "kind": "chunk"
+      },
+      {
+       "text": "vives?",
+       "kind": "stem"
+      }
+     ],
+     "rule": {
+      "en": "Question words carry an accent and go first, then the verb: ¿qué...? ¿dónde...? ¿cuándo...? ¿cómo...?",
+      "it": "Le parole interrogative hanno l'accento e vanno all'inizio, poi il verbo: ¿qué...? ¿dónde...? ¿cuándo...? ¿cómo...?"
+     },
+     "examples": [
+      {
+       "es": "¿Qué comes?",
+       "en": "What do you eat?",
+       "it": "Cosa mangi?"
+      },
+      {
+       "es": "¿Dónde vives?",
+       "en": "Where do you live?",
+       "it": "Dove vivi?"
+      },
+      {
+       "es": "¿Cuándo estudias?",
+       "en": "When do you study?",
+       "it": "Quando studi?"
+      }
+     ],
+     "teaches": [
+      {
+       "es": "¿qué?",
+       "en": "what?",
+       "it": "cosa? che?"
+      },
+      {
+       "es": "¿cómo?",
+       "en": "how?",
+       "it": "come?"
+      }
+     ]
+    },
+    {
+     "type": "choose",
+     "beat": "forge",
+     "before": "¿",
+     "after": " vives? En {city}.",
+     "options": [
+      "Dónde",
+      "Cuándo",
+      "Qué"
+     ],
+     "answer": "Dónde",
+     "en": "Where do you live? In {city}.",
+     "it": "Dove vivi? A {city}.",
+     "hint": {
+      "en": "The answer is a place: dónde.",
+      "it": "La risposta è un luogo: dónde."
+     }
+    },
+    {
+     "type": "build",
+     "beat": "fire",
+     "intention": {
+      "en": "Ask a friend when they go to the gym.",
+      "it": "Chiedi a un amico quando va in palestra."
+     },
+     "accepted": [
+      "¿Cuándo vas al gimnasio?"
+     ],
+     "tiles": [
+      "Cuándo",
+      "vas",
+      "al gimnasio",
+      "voy",
+      "Dónde"
+     ],
+     "en": "When do you go to the gym?",
+     "it": "Quando vai in palestra?",
+     "hint": {
+      "en": "Question word first: ¿cuándo? + vas.",
+      "it": "Prima la parola interrogativa: ¿cuándo? + vas."
+     }
+    },
+    {
+     "type": "explain",
+     "bricks": [
+      {
+       "text": "¿adónde",
+       "kind": "chunk"
+      },
+      {
+       "text": "vas?",
+       "kind": "stem"
+      }
+     ],
+     "rule": {
+      "en": "¿Dónde? asks where something is. With ir (going somewhere) use ¿adónde?: where to.",
+      "it": "¿Dónde? chiede dove si trova qualcosa. Con ir (andare da qualche parte) usa ¿adónde?: verso dove."
+     },
+     "examples": [
+      {
+       "es": "¿Dónde estás?",
+       "en": "Where are you?",
+       "it": "Dove sei?"
+      },
+      {
+       "es": "¿Adónde vas? Voy a la playa.",
+       "en": "Where are you going? To the beach.",
+       "it": "Dove vai? Vado in spiaggia."
+      },
+      {
+       "es": "¿Adónde vais el sábado?",
+       "en": "Where are you all going on Saturday?",
+       "it": "Dove andate sabato?"
+      }
+     ]
+    },
+    {
+     "type": "choose",
+     "beat": "forge",
+     "before": "¿",
+     "after": " vas el viernes? Al cine.",
+     "options": [
+      "Dónde",
+      "Adónde"
+     ],
+     "answer": "Adónde",
+     "en": "Where are you going on Friday? To the cinema.",
+     "it": "Dove vai venerdì? Al cinema.",
+     "hint": {
+      "en": "Going somewhere (ir): adónde.",
+      "it": "Andare da qualche parte (ir): adónde."
+     }
+    },
+    {
+     "type": "choose",
+     "beat": "fire",
+     "before": "¿",
+     "after": " está el banco?",
+     "options": [
+      "Dónde",
+      "Adónde"
+     ],
+     "answer": "Dónde",
+     "en": "Where is the bank?",
+     "it": "Dov'è la banca?",
+     "hint": {
+      "en": "Where something is (estar): dónde.",
+      "it": "Dove si trova (estar): dónde."
+     }
+    },
+    {
+     "type": "explain",
+     "bricks": [
+      {
+       "text": "¿quién?",
+       "kind": "chunk"
+      },
+      {
+       "text": "¿quiénes?",
+       "kind": "chunk"
+      }
+     ],
+     "rule": {
+      "en": "Some question words have a plural: ¿quién? for one person, ¿quiénes? for more. Same with ¿cuál? / ¿cuáles?, and ¿cuánto? / ¿cuántas? for la words.",
+      "it": "Alcune parole interrogative hanno il plurale: ¿quién? per una persona, ¿quiénes? per più persone. Lo stesso con ¿cuál? / ¿cuáles?, e ¿cuánto? / ¿cuántas? con le parole femminili."
+     },
+     "examples": [
+      {
+       "es": "¿Quién es? ¿Quiénes son?",
+       "en": "Who is it? Who are they?",
+       "it": "Chi è? Chi sono?"
+      },
+      {
+       "es": "¿Cuál prefieres?",
+       "en": "Which one do you prefer?",
+       "it": "Quale preferisci?"
+      },
+      {
+       "es": "¿Cuántas manzanas quieres?",
+       "en": "How many apples do you want?",
+       "it": "Quante mele vuoi?"
+      }
+     ],
+     "teaches": [
+      {
+       "es": "¿quiénes?",
+       "en": "who? (more than one)",
+       "it": "chi? (più persone)"
+      },
+      {
+       "es": "¿cuáles?",
+       "en": "which ones?",
+       "it": "quali?"
+      },
+      {
+       "es": "¿cuánto?",
+       "en": "how much?",
+       "it": "quanto?"
+      },
+      {
+       "es": "¿cuántas?",
+       "en": "how many? (la words)",
+       "it": "quante?"
+      }
+     ]
+    },
+    {
+     "type": "choose",
+     "beat": "forge",
+     "before": "¿",
+     "after": " son tus amigos?",
+     "options": [
+      "Quién",
+      "Quiénes"
+     ],
+     "answer": "Quiénes",
+     "en": "Who are your friends?",
+     "it": "Chi sono i tuoi amici?",
+     "hint": {
+      "en": "More than one person: quiénes.",
+      "it": "Più persone: quiénes."
+     }
+    },
+    {
+     "type": "choose",
+     "beat": "fire",
+     "before": "¿",
+     "after": " manzanas quieres?",
+     "options": [
+      "Cuánto",
+      "Cuántos",
+      "Cuántas"
+     ],
+     "answer": "Cuántas",
+     "en": "How many apples do you want?",
+     "it": "Quante mele vuoi?",
+     "hint": {
+      "en": "Las manzanas: cuántas.",
+      "it": "Las manzanas: cuántas."
+     }
+    },
+    {
+     "type": "explain",
+     "bricks": [
+      {
+       "text": "¿por qué?",
+       "kind": "chunk"
+      },
+      {
+       "text": "porque",
+       "kind": "rail"
+      }
+     ],
+     "rule": {
+      "en": "With an accent it's a question: ¿por qué? (why?), ¿cuándo? (when?). Without it, it joins sentences: porque (because), cuando (when).",
+      "it": "Con l'accento è una domanda: ¿por qué?, ¿cuándo?. Senza, unisce le frasi: porque (perché, risposta), cuando (quando)."
+     },
+     "examples": [
+      {
+       "es": "¿Por qué estudias español? Porque me gusta.",
+       "en": "Why are you studying Spanish? Because I like it.",
+       "it": "Perché studi spagnolo? Perché mi piace."
+      },
+      {
+       "es": "¿Cuándo descansas? Cuando no trabajo.",
+       "en": "When do you rest? When I'm not working.",
+       "it": "Quando ti riposi? Quando non lavoro."
+      },
+      {
+       "es": "Cuando tengo hambre, como pizza.",
+       "en": "When I'm hungry, I eat pizza.",
+       "it": "Quando ho fame, mangio la pizza."
+      }
+     ]
+    },
+    {
+     "type": "choose",
+     "beat": "forge",
+     "before": "¿Por qué no comes? ",
+     "after": " no tengo hambre.",
+     "options": [
+      "Porque",
+      "Por qué"
+     ],
+     "answer": "Porque",
+     "en": "Why aren't you eating? Because I'm not hungry.",
+     "it": "Perché non mangi? Perché non ho fame.",
+     "hint": {
+      "en": "It's the answer, not the question: porque.",
+      "it": "È la risposta, non la domanda: porque."
+     }
+    },
+    {
+     "type": "build",
+     "beat": "fire",
+     "intention": {
+      "en": "Say that when you're hungry, you eat pizza.",
+      "it": "Di che quando hai fame mangi la pizza."
+     },
+     "accepted": [
+      "Cuando tengo hambre, como pizza.",
+      "Como pizza cuando tengo hambre."
+     ],
+     "tiles": [
+      "Cuando",
+      "tengo",
+      "hambre",
+      "como",
+      "pizza",
+      "Cuándo"
+     ],
+     "en": "When I'm hungry, I eat pizza.",
+     "it": "Quando ho fame, mangio la pizza.",
+     "hint": {
+      "en": "Not a question, so cuando without an accent.",
+      "it": "Non è una domanda, quindi cuando senza accento."
+     }
+    },
+    {
+     "type": "choose",
+     "beat": "mix",
+     "before": "¿",
+     "after": " te llamas?",
+     "options": [
+      "Cómo",
+      "Qué",
+      "Cuál"
+     ],
+     "answer": "Cómo",
+     "en": "What's your name?",
+     "it": "Come ti chiami?",
+     "hint": {
+      "en": "Asking a name: ¿cómo te llamas?",
+      "it": "Per chiedere il nome: ¿cómo te llamas?"
+     }
+    },
+    {
+     "type": "choose",
+     "beat": "mix",
+     "before": "¿",
+     "after": " cuesta el pan?",
+     "options": [
+      "Cuánto",
+      "Cuántas",
+      "Cuándo"
+     ],
+     "answer": "Cuánto",
+     "en": "How much is the bread?",
+     "it": "Quanto costa il pane?",
+     "hint": {
+      "en": "A price: ¿cuánto cuesta?",
+      "it": "Un prezzo: ¿cuánto cuesta?"
+     }
+    },
+    {
+     "type": "build",
+     "beat": "mix",
+     "intention": {
+      "en": "Ask a friend where they're going on Saturday.",
+      "it": "Chiedi a un'amica dove va sabato."
+     },
+     "accepted": [
+      "¿Adónde vas el sábado?",
+      "¿El sábado adónde vas?"
+     ],
+     "tiles": [
+      "Adónde",
+      "vas",
+      "el sábado",
+      "Dónde",
+      "los sábados"
+     ],
+     "en": "Where are you going on Saturday?",
+     "it": "Dove vai sabato?",
+     "hint": {
+      "en": "Going somewhere: adónde + vas.",
+      "it": "Andare da qualche parte: adónde + vas."
+     }
+    },
+    {
+     "type": "write",
+     "beat": "mix",
+     "instruction": {
+      "en": "You meet someone new. Ask three questions: use ¿dónde? and ¿qué?.",
+      "it": "Conosci una persona nuova. Fai tre domande: usa ¿dónde? e ¿qué?."
+     },
+     "required": [
+      "dónde",
+      "qué"
+     ],
+     "model": {
+      "es": "¿Dónde vives? ¿Qué te gusta? ¿Cuándo estudias español?",
+      "en": "Where do you live? What do you like? When do you study Spanish?",
+      "it": "Dove vivi? Cosa ti piace? Quando studi spagnolo?"
+     }
+    }
+   ]
+  },
+  {
+   "id": "u6l5",
+   "goal": {
+    "en": "Tell someone about your week in 6 linked sentences.",
+    "it": "Raccontare la tua settimana in 6 frasi collegate."
+   },
+   "target": {
+    "es": "Los lunes termino a las cinco y llego a casa a las seis.",
+    "en": "On Mondays I finish at five and get home at six.",
+    "it": "Il lunedì finisco alle cinque e arrivo a casa alle sei."
+   },
+   "items": [
+    {
+     "type": "words",
+     "words": [
+      {
+       "es": "terminar",
+       "en": "to finish",
+       "it": "finire",
+       "kind": "stem"
+      },
+      {
+       "es": "llegar",
+       "en": "to arrive, to get to",
+       "it": "arrivare",
+       "kind": "stem"
+      },
+      {
+       "es": "a casa",
+       "en": "home (going home)",
+       "it": "a casa",
+       "kind": "chunk"
+      }
+     ]
+    },
+    {
+     "type": "words",
+     "words": [
+      {
+       "es": "el desayuno",
+       "en": "breakfast",
+       "it": "la colazione",
+       "kind": "chunk"
+      },
+      {
+       "es": "la comida",
+       "en": "lunch (the main meal)",
+       "it": "il pranzo",
+       "kind": "chunk"
+      },
+      {
+       "es": "una clase",
+       "en": "a class, a lesson",
+       "it": "una lezione",
+       "kind": "chunk"
+      }
+     ]
+    },
+    {
+     "type": "explain",
+     "bricks": [
+      {
+       "text": "lleg-",
+       "kind": "stem"
+      },
+      {
+       "text": "-o",
+       "kind": "ending"
+      }
+     ],
+     "result": {
+      "stem": "lleg",
+      "ending": "o"
+     },
+     "rule": {
+      "en": "Terminar (to finish) and llegar (to arrive) are regular AR verbs. Llegar a casa = to get home.",
+      "it": "Terminar (finire) e llegar (arrivare) sono verbi regolari in AR. Llegar a casa = arrivare a casa."
+     },
+     "examples": [
+      {
+       "es": "Termino a las cinco.",
+       "en": "I finish at five.",
+       "it": "Finisco alle cinque."
+      },
+      {
+       "es": "Llego a casa a las seis.",
+       "en": "I get home at six.",
+       "it": "Arrivo a casa alle sei."
+      },
+      {
+       "es": "¿A qué hora llegas al trabajo?",
+       "en": "What time do you get to work?",
+       "it": "A che ora arrivi al lavoro?"
+      }
+     ],
+     "teaches": [
+      {
+       "es": "termino",
+       "en": "I finish",
+       "it": "finisco"
+      },
+      {
+       "es": "terminas",
+       "en": "you finish",
+       "it": "finisci"
+      },
+      {
+       "es": "termina",
+       "en": "he/she finishes",
+       "it": "finisce"
+      },
+      {
+       "es": "terminamos",
+       "en": "we finish",
+       "it": "finiamo"
+      },
+      {
+       "es": "termináis",
+       "en": "you all finish",
+       "it": "finite"
+      },
+      {
+       "es": "terminan",
+       "en": "they finish",
+       "it": "finiscono"
+      },
+      {
+       "es": "llego",
+       "en": "I arrive",
+       "it": "arrivo"
+      },
+      {
+       "es": "llegas",
+       "en": "you arrive",
+       "it": "arrivi"
+      },
+      {
+       "es": "llega",
+       "en": "he/she arrives",
+       "it": "arriva"
+      },
+      {
+       "es": "llegamos",
+       "en": "we arrive",
+       "it": "arriviamo"
+      },
+      {
+       "es": "llegáis",
+       "en": "you all arrive",
+       "it": "arrivate"
+      },
+      {
+       "es": "llegan",
+       "en": "they arrive",
+       "it": "arrivano"
+      }
+     ]
+    },
+    {
+     "type": "snap",
+     "beat": "forge",
+     "person": "yo",
+     "prompt": {
+      "en": "I arrive",
+      "it": "arrivo"
+     },
+     "stems": [
+      "lleg",
+      "termin",
+      "tom"
+     ],
+     "endings": [
+      "o",
+      "as",
+      "an"
+     ],
+     "answer": {
+      "stem": "lleg",
+      "ending": "o"
+     }
+    },
+    {
+     "type": "gap",
+     "beat": "fire",
+     "before": "Mi hermana ",
+     "after": " a las cinco.",
+     "label": "terminar",
+     "accepted": [
+      "termina"
+     ],
+     "en": "My sister finishes at five.",
+     "it": "Mia sorella finisce alle cinque.",
+     "hint": {
+      "en": "Mi hermana = ella: -a.",
+      "it": "Mi hermana = ella: -a."
+     }
+    },
+    {
+     "type": "explain",
+     "bricks": [
+      {
+       "text": "llego a casa",
+       "kind": "chunk"
+      },
+      {
+       "text": "y",
+       "kind": "rail"
+      },
+      {
+       "text": "ceno",
+       "kind": "stem"
+      }
+     ],
+     "rule": {
+      "en": "Link short sentences with y, pero, porque and cuando. Six small sentences, well linked, already tell a whole week.",
+      "it": "Collega le frasi brevi con y, pero, porque e cuando. Sei frasi piccole, ben collegate, raccontano già una settimana intera."
+     },
+     "examples": [
+      {
+       "es": "Termino a las cinco y llego a casa a las seis.",
+       "en": "I finish at five and get home at six.",
+       "it": "Finisco alle cinque e arrivo a casa alle sei."
+      },
+      {
+       "es": "Los lunes estudio, pero los martes descanso.",
+       "en": "On Mondays I study, but on Tuesdays I rest.",
+       "it": "Il lunedì studio, ma il martedì mi riposo."
+      },
+      {
+       "es": "Cuando llego a casa, ceno.",
+       "en": "When I get home, I have dinner.",
+       "it": "Quando arrivo a casa, ceno."
+      }
+     ]
+    },
+    {
+     "type": "choose",
+     "beat": "forge",
+     "before": "Como en el trabajo ",
+     "after": " termino tarde.",
+     "options": [
+      "y",
+      "pero",
+      "porque"
+     ],
+     "answer": "porque",
+     "en": "I eat at work because I finish late.",
+     "it": "Mangio al lavoro perché finisco tardi.",
+     "hint": {
+      "en": "The second part is the reason: porque.",
+      "it": "La seconda parte è il motivo: porque."
+     }
+    },
+    {
+     "type": "build",
+     "beat": "fire",
+     "intention": {
+      "en": "Say that when you get home, you rest.",
+      "it": "Di che quando arrivi a casa ti riposi."
+     },
+     "accepted": [
+      "Cuando llego a casa, descanso.",
+      "Descanso cuando llego a casa."
+     ],
+     "tiles": [
+      "Cuando",
+      "llego",
+      "a casa",
+      "descanso",
+      "Cuándo",
+      "llegas"
+     ],
+     "en": "When I get home, I rest.",
+     "it": "Quando arrivo a casa, mi riposo.",
+     "hint": {
+      "en": "Not a question: cuando without an accent.",
+      "it": "Non è una domanda: cuando senza accento."
+     }
+    },
+    {
+     "type": "explain",
+     "bricks": [
+      {
+       "text": "la comida",
+       "kind": "chunk"
+      },
+      {
+       "text": "a las dos",
+       "kind": "chunk"
+      }
+     ],
+     "rule": {
+      "en": "In Spain la comida (lunch) is the big meal of the day, around two. El desayuno is small.",
+      "it": "In Spagna la comida (il pranzo) è il pasto principale, verso le due. El desayuno è leggero."
+     },
+     "examples": [
+      {
+       "es": "El desayuno es a las ocho.",
+       "en": "Breakfast is at eight.",
+       "it": "La colazione è alle otto."
+      },
+      {
+       "es": "La comida es a las dos.",
+       "en": "Lunch is at two.",
+       "it": "Il pranzo è alle due."
+      },
+      {
+       "es": "Tengo una clase de español los jueves.",
+       "en": "I have a Spanish class on Thursdays.",
+       "it": "Ho lezione di spagnolo il giovedì."
+      }
+     ]
+    },
+    {
+     "type": "choose",
+     "beat": "forge",
+     "before": "En España, ",
+     "after": " es a las dos.",
+     "options": [
+      "el desayuno",
+      "la comida"
+     ],
+     "answer": "la comida",
+     "en": "In Spain, lunch is at two.",
+     "it": "In Spagna il pranzo è alle due.",
+     "hint": {
+      "en": "The big meal around two: la comida.",
+      "it": "Il pasto grande verso le due: la comida."
+     }
+    },
+    {
+     "type": "build",
+     "beat": "fire",
+     "intention": {
+      "en": "Say that you have a Spanish class on Thursdays.",
+      "it": "Di che hai lezione di spagnolo il giovedì."
+     },
+     "accepted": [
+      "Tengo una clase de español los jueves.",
+      "Los jueves tengo una clase de español."
+     ],
+     "tiles": [
+      "Tengo",
+      "una clase",
+      "de",
+      "español",
+      "los jueves",
+      "el jueves",
+      "tienes"
+     ],
+     "en": "I have a Spanish class on Thursdays.",
+     "it": "Ho lezione di spagnolo il giovedì.",
+     "hint": {
+      "en": "Every Thursday: los jueves.",
+      "it": "Ogni giovedì: los jueves."
+     }
+    },
+    {
+     "type": "gap",
+     "beat": "mix",
+     "before": "¿A qué hora ",
+     "after": " a casa?",
+     "label": "llegar",
+     "accepted": [
+      "llegas"
+     ],
+     "en": "What time do you get home?",
+     "it": "A che ora arrivi a casa?",
+     "hint": {
+      "en": "Tú: AR verbs end in -as.",
+      "it": "Tú: i verbi in AR finiscono in -as."
+     }
+    },
+    {
+     "type": "choose",
+     "beat": "mix",
+     "before": "",
+     "after": " termino el trabajo, voy al gimnasio.",
+     "options": [
+      "Cuando",
+      "Cuándo",
+      "Porque"
+     ],
+     "answer": "Cuando",
+     "en": "When I finish work, I go to the gym.",
+     "it": "Quando finisco di lavorare, vado in palestra.",
+     "hint": {
+      "en": "Not a question: cuando without an accent.",
+      "it": "Non è una domanda: cuando senza accento."
+     }
+    },
+    {
+     "type": "build",
+     "beat": "mix",
+     "intention": {
+      "en": "Say that on Fridays you finish at three.",
+      "it": "Di che il venerdì finisci alle tre."
+     },
+     "accepted": [
+      "Los viernes termino a las tres.",
+      "Termino a las tres los viernes."
+     ],
+     "tiles": [
+      "Los viernes",
+      "termino",
+      "a las",
+      "tres",
+      "terminas",
+      "el"
+     ],
+     "en": "On Fridays I finish at three.",
+     "it": "Il venerdì finisco alle tre.",
+     "hint": {
+      "en": "Every Friday: los viernes, then termino.",
+      "it": "Ogni venerdì: los viernes, poi termino."
+     }
+    },
+    {
+     "type": "write",
+     "beat": "mix",
+     "instruction": {
+      "en": "Tell your week in 6 linked sentences: days, times, how often, and why. Use y and porque.",
+      "it": "Racconta la tua settimana in 6 frasi collegate: giorni, orari, quanto spesso e perché. Usa y e porque."
+     },
+     "required": [
+      "los",
+      "a las",
+      "y",
+      "porque"
+     ],
+     "model": {
+      "es": "Los lunes trabajo en {work}. Llego a las nueve y termino a las cinco. Los martes tengo una clase de español porque me encanta. Normalmente como a las dos. Los viernes ceno con amigos. Los fines de semana descanso.",
+      "en": "On Mondays I work {workEn}. I arrive at nine and finish at five. On Tuesdays I have a Spanish class because I love it. I usually have lunch at two. On Fridays I have dinner with friends. At weekends I rest.",
+      "it": "Il lunedì lavoro {workIt}. Arrivo alle nove e finisco alle cinque. Il martedì ho lezione di spagnolo perché mi piace tantissimo. Di solito pranzo alle due. Il venerdì ceno con gli amici. Nel fine settimana mi riposo."
+     }
+    }
+   ]
+  }
+ ],
+ "boss": {
+  "id": "u6boss",
+  "goal": {
+   "en": "You're at a language exchange with Marta from Madrid. Answer her questions and tell her about your week.",
+   "it": "Sei a uno scambio linguistico con Marta, di Madrid. Rispondi alle sue domande e raccontale la tua settimana."
+  },
+  "names": [
+   "Marta"
+  ],
+  "items": [
+   {
+    "type": "words",
+    "words": [
+     {
+      "es": "el intercambio",
+      "en": "the (language) exchange",
+      "it": "lo scambio linguistico",
+      "kind": "chunk"
+     },
+     {
+      "es": "más despacio",
+      "en": "more slowly",
+      "it": "più piano",
+      "kind": "chunk"
+     }
+    ]
+   },
+   {
+    "type": "build",
+    "beat": "fire",
+    "intention": {
+     "en": "Marta says: ¡Hola! Me llamo Marta. ¿Y tú? Say hello and tell her your name.",
+     "it": "Marta dice: ¡Hola! Me llamo Marta. ¿Y tú? Salutala e dille come ti chiami."
+    },
+    "accepted": [
+     "Hola, Marta. Me llamo {name}.",
+     "Hola. Me llamo {name}."
+    ],
+    "tiles": [
+     "Hola",
+     "Marta",
+     "Me llamo",
+     "{name}",
+     "Te llamas"
+    ],
+    "en": "Hi, Marta. My name is {name}.",
+    "it": "Ciao, Marta. Mi chiamo {name}.",
+    "hint": {
+     "en": "About yourself: me llamo.",
+     "it": "Parli di te: me llamo."
+    }
+   },
+   {
+    "type": "gap",
+    "beat": "fire",
+    "before": "Marta: ¿Hablas inglés o italiano? Tú: ",
+    "after": " {language} y un poco de español.",
+    "label": "hablar",
+    "accepted": [
+     "Hablo",
+     "hablo"
+    ],
+    "en": "Do you speak English or Italian? I speak {languageEn} and a little Spanish.",
+    "it": "Parli inglese o italiano? Parlo {languageIt} e un po' di spagnolo.",
+    "hint": {
+     "en": "About yourself: habl- + -o.",
+     "it": "Parli di te: habl- + -o."
+    }
+   },
+   {
+    "type": "build",
+    "beat": "fire",
+    "intention": {
+     "en": "Marta speaks very fast. Ask her to speak more slowly, please.",
+     "it": "Marta parla molto veloce. Chiedile di parlare più piano, per favore."
+    },
+    "accepted": [
+     "Más despacio, por favor.",
+     "Por favor, más despacio."
+    ],
+    "tiles": [
+     "Más despacio",
+     "por favor",
+     "gracias"
+    ],
+    "en": "More slowly, please.",
+    "it": "Più piano, per favore.",
+    "hint": {
+     "en": "Más despacio + por favor.",
+     "it": "Más despacio + por favor."
+    }
+   },
+   {
+    "type": "build",
+    "beat": "fire",
+    "intention": {
+     "en": "Marta asks: ¿Dónde trabajas? Tell her.",
+     "it": "Marta chiede: ¿Dónde trabajas? Rispondile."
+    },
+    "accepted": [
+     "Trabajo en {work}.",
+     "Yo trabajo en {work}."
+    ],
+    "tiles": [
+     "Trabajo",
+     "en",
+     "{work}",
+     "Trabajas"
+    ],
+    "en": "I work {workEn}.",
+    "it": "Lavoro {workIt}.",
+    "hint": {
+     "en": "About yourself: trabajo en + the place.",
+     "it": "Parli di te: trabajo en + il luogo."
+    }
+   },
+   {
+    "type": "choose",
+    "beat": "fire",
+    "before": "Marta: ¿A qué hora llegas al trabajo? Tú: Llego ",
+    "after": " nueve.",
+    "options": [
+     "a las",
+     "a la",
+     "son las"
+    ],
+    "answer": "a las",
+    "en": "What time do you get to work? I get there at nine.",
+    "it": "A che ora arrivi al lavoro? Arrivo alle nove.",
+    "hint": {
+     "en": "At an hour: a las (a la only for one o'clock).",
+     "it": "A un'ora: a las (a la solo per l'una)."
+    }
+   },
+   {
+    "type": "gap",
+    "beat": "fire",
+    "before": "Marta: ¿Y a qué hora terminas? Tú: ",
+    "after": " a las cinco.",
+    "label": "terminar",
+    "accepted": [
+     "Termino",
+     "termino"
+    ],
+    "en": "And what time do you finish? I finish at five.",
+    "it": "E a che ora finisci? Finisco alle cinque.",
+    "hint": {
+     "en": "About yourself: termin- + -o.",
+     "it": "Parli di te: termin- + -o."
+    }
+   },
+   {
+    "type": "build",
+    "beat": "fire",
+    "intention": {
+     "en": "Marta asks: ¿Trabajas los sábados? Say no, on Saturdays you rest.",
+     "it": "Marta chiede: ¿Trabajas los sábados? Di di no, il sabato ti riposi."
+    },
+    "accepted": [
+     "No, los sábados descanso.",
+     "No, descanso los sábados."
+    ],
+    "tiles": [
+     "No",
+     "los sábados",
+     "descanso",
+     "el sábado",
+     "descansas"
+    ],
+    "en": "No, on Saturdays I rest.",
+    "it": "No, il sabato mi riposo.",
+    "hint": {
+     "en": "Every Saturday: los sábados.",
+     "it": "Ogni sabato: los sábados."
+    }
+   },
+   {
+    "type": "choose",
+    "beat": "mix",
+    "before": "Marta: ¿Cuándo estudias español? Tú: Estudio dos ",
+    "after": " a la semana.",
+    "options": [
+     "vez",
+     "veces"
+    ],
+    "answer": "veces",
+    "en": "When do you study Spanish? I study twice a week.",
+    "it": "Quando studi spagnolo? Studio due volte a settimana.",
+    "hint": {
+     "en": "More than one time: veces.",
+     "it": "Più di una volta: veces."
+    }
+   },
+   {
+    "type": "build",
+    "beat": "mix",
+    "intention": {
+     "en": "Marta asks: ¿Por qué estudias español? Say it's because you love Spanish.",
+     "it": "Marta chiede: ¿Por qué estudias español? Di che è perché adori lo spagnolo."
+    },
+    "accepted": [
+     "Porque me encanta el español.",
+     "Porque me encanta."
+    ],
+    "tiles": [
+     "Porque",
+     "me encanta",
+     "el español",
+     "Por qué"
+    ],
+    "en": "Because I love Spanish.",
+    "it": "Perché adoro lo spagnolo.",
+    "hint": {
+     "en": "The answer: porque, one word, no accent.",
+     "it": "La risposta: porque, una parola, senza accento."
+    }
+   },
+   {
+    "type": "choose",
+    "beat": "mix",
+    "before": "Marta: ¿Cocinas mucho? Tú: No, casi ",
+    "after": " cocino. Prefiero el restaurante.",
+    "options": [
+     "nunca",
+     "siempre"
+    ],
+    "answer": "nunca",
+    "en": "Do you cook a lot? No, I hardly ever cook. I prefer the restaurant.",
+    "it": "Cucini molto? No, non cucino quasi mai. Preferisco il ristorante.",
+    "hint": {
+     "en": "Hardly ever: casi nunca.",
+     "it": "Quasi mai: casi nunca."
+    }
+   },
+   {
+    "type": "gap",
+    "beat": "mix",
+    "before": "Marta: ¿Adónde vas los fines de semana? Tú: Los fines de semana ",
+    "after": " a la playa.",
+    "label": "ir",
+    "accepted": [
+     "voy"
+    ],
+    "en": "Where do you go at weekends? At weekends I go to the beach.",
+    "it": "Dove vai nel fine settimana? Nel fine settimana vado in spiaggia.",
+    "hint": {
+     "en": "Ir is irregular: yo voy.",
+     "it": "Ir è irregolare: yo voy."
+    }
+   },
+   {
+    "type": "write",
+    "beat": "mix",
+    "instruction": {
+     "en": "Marta says: ¡Genial! ¿Y tu semana? Tell her about your week in 6 linked sentences, with y, pero and porque.",
+     "it": "Marta dice: ¡Genial! ¿Y tu semana? Raccontale la tua settimana in 6 frasi collegate, con y, pero e porque."
+    },
+    "required": [
+     "los",
+     "a las",
+     "y",
+     "pero",
+     "porque"
+    ],
+    "model": {
+     "es": "Los lunes trabajo en {work}. Llego a las nueve y termino a las cinco. Los martes tengo una clase de español porque me encanta. Siempre como a las dos. Los viernes voy al cine, pero los sábados descanso. Los domingos paseo con mi familia.",
+     "en": "On Mondays I work {workEn}. I arrive at nine and finish at five. On Tuesdays I have a Spanish class because I love it. I always have lunch at two. On Fridays I go to the cinema, but on Saturdays I rest. On Sundays I go for a walk with my family.",
+     "it": "Il lunedì lavoro {workIt}. Arrivo alle nove e finisco alle cinque. Il martedì ho lezione di spagnolo perché mi piace tantissimo. Pranzo sempre alle due. Il venerdì vado al cinema, ma il sabato mi riposo. La domenica passeggio con la mia famiglia."
+    }
+   }
+  ]
+ }
+}
