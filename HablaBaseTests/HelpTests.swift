@@ -123,3 +123,31 @@ final class NotesAndSpeakingTests: XCTestCase {
         XCTAssertFalse(store.speakingSentences.isEmpty)
     }
 }
+
+final class SpokenQuestionTests: XCTestCase {
+    func testQuestionExercisesBecomeSpokenQuestions() {
+        let gap = GapFill(before: "¿Comes mucho? No, no ", after: " mucho.", lemma: "comer", accepted: ["como"],
+                          gloss: Gloss(en: "", it: ""), hint: Gloss(en: "", it: ""))
+        let question = SpokenQuestion.from(.gapFill(gap))
+        XCTAssertEqual(question?.question, "¿Comes mucho?")
+        XCTAssertEqual(question?.answers, ["No, no como mucho."])
+    }
+
+    func testGapsInsideTheQuestionAreNotSpokenQuestions() {
+        let gap = GapFill(before: "¿Dónde ", after: "? Trabajo aquí.", lemma: "trabajar", accepted: ["trabajas"],
+                          gloss: Gloss(en: "", it: ""), hint: Gloss(en: "", it: ""))
+        XCTAssertNil(SpokenQuestion.from(.gapFill(gap)))
+    }
+
+    func testAnswerCheckCorrectsTheWrongForm() {
+        let check = SpeakingScore.check(said: "no no comes mucho", answers: ["No, no como mucho."])
+        XCTAssertFalse(check.passed)
+        XCTAssertEqual(check.fixes.first?.said, "comes")
+        XCTAssertEqual(check.fixes.first?.correct, "como")
+    }
+
+    func testAnswerCheckForgivesShortWordsAndAccents() {
+        XCTAssertTrue(SpeakingScore.check(said: "vivo madrid", answers: ["Vivo en Madrid."]).passed)
+        XCTAssertTrue(SpeakingScore.check(said: "si hablo un poco de espanol", answers: ["Sí, hablo un poco de español."]).passed)
+    }
+}

@@ -8,21 +8,170 @@ struct TalkView: View {
     @State private var index = 0
     @State private var rewarded: Set<String> = []
 
+    enum Mode: Hashable {
+        case answer, repeatAfter
+    }
+
+    @State private var mode = Mode.answer
+    @State private var questionIndex = 0
+    @State private var showAnswer = false
+    @State private var corrected: Set<String> = []
+
     var body: some View {
         NavigationStack {
-            let sentences = store.speakingSentences
-            Group {
-                if sentences.isEmpty {
-                    ContentUnavailableView("Nothing to say yet", systemImage: "mic",
-                                           description: Text("Finish your first lesson and its sentences will be here to practise out loud."))
-                } else {
-                    practice(sentences[index % sentences.count], count: sentences.count)
+            VStack(spacing: 0) {
+                Picker("Mode", selection: $mode) {
+                    Text("Answer questions").tag(Mode.answer)
+                    Text("Repeat").tag(Mode.repeatAfter)
+                }
+                .pickerStyle(.segmented)
+                .padding(.horizontal, 20)
+                .padding(.top, 8)
+
+                switch mode {
+                case .answer:
+                    let questions = store.speakingQuestions
+                    if questions.isEmpty {
+                        empty
+                    } else {
+                        answerPractice(questions[questionIndex % questions.count], count: questions.count)
+                    }
+                case .repeatAfter:
+                    let sentences = store.speakingSentences
+                    if sentences.isEmpty {
+                        empty
+                    } else {
+                        practice(sentences[index % sentences.count], count: sentences.count)
+                    }
                 }
             }
             .navigationTitle("Speak")
+            .onChange(of: mode) { _, _ in listener.reset() }
         }
         .onDisappear { listener.stop() }
     }
+
+    private var empty: some View {
+        ContentUnavailableView("Nothing to say yet", systemImage: "mic",
+                               description: Text("Finish your first lesson and its sentences will be here to practise out loud."))
+    }
+
+    // MARK: Answer questions
+
+    /// The app asks aloud; you answer from memory (or read the answer), and it checks and corrects you.
+    private func answerPractice(_ question: SpokenQuestion, count: Int) -> some View {
+        let hasTry = !listener.transcript.isEmpty && listener.status != .listening
+        let check = SpeakingScore.check(said: listener.transcript, answers: question.answers)
+        let passed = hasTry && check.passed
+
+        return ScrollView {
+            VStack(alignment: .leading, spacing: 20) {
+                Text("Listen to the question and answer out loud.")
+                    .font(.headline)
+                    .foregroundStyle(.secondary)
+
+                HStack(alignment: .top) {
+                    Text(question.question)
+                        .font(.title.weight(.semibold))
+                        .foregroundStyle(Brick.stem.color)
+                    Spacer(minLength: 0)
+                    SpeakButton(text: question.question)
+                }
+                .padding(20)
+                .background(RoundedRectangle(cornerRadius: 20).fill(Palette.card))
+
+                if showAnswer || hasTry {
+                    answerCard(question, check: check, hasTry: hasTry)
+                } else {
+                    Button {
+                        withAnimation { showAnswer = true }
+                    } label: {
+                        Label("Show the answer to read it", systemImage: "eye")
+                            .font(.subheadline.weight(.semibold))
+                    }
+                    .buttonStyle(.bordered)
+                    Text("Or answer from memory.")
+                        .font(.footnote)
+                        .foregroundStyle(.secondary)
+                }
+
+                if !listener.transcript.isEmpty {
+                    VStack(alignment: .leading, spacing: 4) {
+                        Text("I heard:").font(.caption.weight(.bold)).foregroundStyle(.secondary)
+                        Text(listener.transcript)
+                    }
+                }
+
+                if hasTry {
+                    if passed {
+                        Label("Correct!", systemImage: "checkmark.circle.fill")
+                            .font(.headline)
+                            .foregroundStyle(Palette.success)
+                    } else {
+                        VStack(alignment: .leading, spacing: 8) {
+                            Label("Not quite. Listen to the right answer and try again.", systemImage: "arrow.counterclockwise.circle.fill")
+                                .font(.headline)
+                                .foregroundStyle(Palette.warning)
+                            ForEach(Array(check.fixes.enumerated()), id: \.offset) { _, fix in
+                                HStack(spacing: 8) {
+                                    Text(verbatim: fix.said).strikethrough().foregroundStyle(.secondary)
+                                    Image(systemName: "arrow.right").accessibilityHidden(true)
+                                    Text(verbatim: fix.correct).fontWeight(.semibold).foregroundStyle(Palette.success)
+                                }
+                            }
+                        }
+                    }
+                }
+
+                statusNote
+
+                micButton
+                    .frame(maxWidth: .infinity)
+
+                Button("Next question") {
+                    listener.reset()
+                    showAnswer = false
+                    questionIndex = (questionIndex + 1) % count
+                }
+                .buttonStyle(PrimaryButtonStyle(color: passed ? Palette.success : .accentColor))
+            }
+            .padding(20)
+        }
+        .task(id: questionIndex) { Speaker.say(question.question) }
+        .onChange(of: hasTry) { _, tried in
+            guard tried else { return }
+            if passed {
+                if rewarded.insert(question.question + question.answers[0]).inserted { store.addXP(2) }
+            } else if corrected.insert(listener.transcript).inserted {
+                // Say the right answer once, so the learner hears the correction.
+                Speaker.say(check.answer)
+            }
+        }
+    }
+
+    private func answerCard(_ question: SpokenQuestion, check: SpeakingScore.Check, hasTry: Bool) -> some View {
+        let words = hasTry ? check.words : question.answers[0].split(separator: " ").map { SpeakingScore.Word(text: String($0), heard: true) }
+        return VStack(alignment: .leading, spacing: 8) {
+            HStack(alignment: .top) {
+                FlowLayout(spacing: 6) {
+                    ForEach(Array(words.enumerated()), id: \.offset) { _, word in
+                        Text(word.text)
+                            .font(.title3.weight(.semibold))
+                            .foregroundStyle(!hasTry ? Color.primary : word.heard ? Palette.success : Palette.warning)
+                    }
+                }
+                SpeakButton(text: hasTry ? check.answer : question.answers[0])
+            }
+            Text(question.gloss.text(store.language))
+                .font(.footnote)
+                .foregroundStyle(.secondary)
+        }
+        .padding(16)
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .background(RoundedRectangle(cornerRadius: 16).strokeBorder(Color.secondary.opacity(0.3)))
+    }
+
+    // MARK: Repeat after me
 
     private func practice(_ sentence: Example, count: Int) -> some View {
         let words = SpeakingScore.words(said: listener.transcript, target: sentence.es)
@@ -73,7 +222,7 @@ struct TalkView: View {
                     .frame(maxWidth: .infinity)
 
                 Button("Next sentence") {
-                    listener.stop()
+                    listener.reset()
                     index = (index + 1) % count
                 }
                 .buttonStyle(PrimaryButtonStyle(color: passed ? Palette.success : .accentColor))

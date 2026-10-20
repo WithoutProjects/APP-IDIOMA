@@ -67,6 +67,13 @@ final class SpeechListener: ObservableObject {
         }
     }
 
+    /// Stops and clears what was heard, for the next sentence.
+    func reset() {
+        stop()
+        transcript = ""
+        if status != .denied { status = .idle }
+    }
+
     func stop() {
         if engine.isRunning {
             engine.stop()
