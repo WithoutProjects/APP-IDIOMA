@@ -20,21 +20,21 @@ enum Workplace: String, Codable, CaseIterable, Identifiable {
     /// The place on its own, for the vocabulary slides.
     var nounGloss: Gloss {
         switch self {
-        case .hospital: return Gloss(en: "a hospital", it: "un ospedale", uk: "лікарня", de: "ein Krankenhaus")
-        case .oficina: return Gloss(en: "an office", it: "un ufficio", uk: "офіс", de: "ein Büro")
-        case .escuela: return Gloss(en: "a school", it: "una scuola", uk: "школа", de: "eine Schule")
-        case .casa: return Gloss(en: "home", it: "casa", uk: "дім", de: "Zuhause")
-        case .tienda: return Gloss(en: "a shop", it: "un negozio", uk: "магазин", de: "ein Geschäft")
+        case .hospital: return Gloss(en: "a hospital", it: "un ospedale", uk: "лікарня", de: "ein Krankenhaus", fr: "un hôpital")
+        case .oficina: return Gloss(en: "an office", it: "un ufficio", uk: "офіс", de: "ein Büro", fr: "un bureau")
+        case .escuela: return Gloss(en: "a school", it: "una scuola", uk: "школа", de: "eine Schule", fr: "une école")
+        case .casa: return Gloss(en: "home", it: "casa", uk: "дім", de: "Zuhause", fr: "la maison")
+        case .tienda: return Gloss(en: "a shop", it: "un negozio", uk: "магазин", de: "ein Geschäft", fr: "un magasin")
         }
     }
 
     var gloss: Gloss {
         switch self {
-        case .hospital: return Gloss(en: "in a hospital", it: "in un ospedale", uk: "в лікарні", de: "in einem Krankenhaus")
-        case .oficina: return Gloss(en: "in an office", it: "in un ufficio", uk: "в офісі", de: "in einem Büro")
-        case .escuela: return Gloss(en: "at a school", it: "in una scuola", uk: "у школі", de: "an einer Schule")
-        case .casa: return Gloss(en: "from home", it: "a casa", uk: "з дому", de: "von zu Hause aus")
-        case .tienda: return Gloss(en: "in a shop", it: "in un negozio", uk: "в магазині", de: "in einem Geschäft")
+        case .hospital: return Gloss(en: "in a hospital", it: "in un ospedale", uk: "в лікарні", de: "in einem Krankenhaus", fr: "dans un hôpital")
+        case .oficina: return Gloss(en: "in an office", it: "in un ufficio", uk: "в офісі", de: "in einem Büro", fr: "dans un bureau")
+        case .escuela: return Gloss(en: "at a school", it: "in una scuola", uk: "у школі", de: "an einer Schule", fr: "dans une école")
+        case .casa: return Gloss(en: "from home", it: "a casa", uk: "з дому", de: "von zu Hause aus", fr: "de chez moi")
+        case .tienda: return Gloss(en: "in a shop", it: "in un negozio", uk: "в магазині", de: "in einem Geschäft", fr: "dans un magasin")
         }
     }
 }
@@ -46,11 +46,11 @@ enum LearningGoal: String, Codable, CaseIterable, Identifiable {
 
     var gloss: Gloss {
         switch self {
-        case .travel: return Gloss(en: "Travel", it: "Viaggiare", uk: "Подорожі", de: "Reisen")
-        case .work: return Gloss(en: "Work", it: "Lavoro", uk: "Робота", de: "Arbeit")
-        case .family: return Gloss(en: "Family", it: "Famiglia", uk: "Сім'я", de: "Familie")
-        case .partner: return Gloss(en: "Partner", it: "Partner", uk: "Партнер", de: "Partner")
-        case .move: return Gloss(en: "Move abroad", it: "Trasferirmi", uk: "Переїзд за кордон", de: "Auswandern")
+        case .travel: return Gloss(en: "Travel", it: "Viaggiare", uk: "Подорожі", de: "Reisen", fr: "Voyager")
+        case .work: return Gloss(en: "Work", it: "Lavoro", uk: "Робота", de: "Arbeit", fr: "Travail")
+        case .family: return Gloss(en: "Family", it: "Famiglia", uk: "Сім'я", de: "Familie", fr: "Famille")
+        case .partner: return Gloss(en: "Partner", it: "Partner", uk: "Партнер", de: "Partner", fr: "Couple")
+        case .move: return Gloss(en: "Move abroad", it: "Trasferirmi", uk: "Переїзд за кордон", de: "Auswandern", fr: "Vivre à l'étranger")
         }
     }
 }

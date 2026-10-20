@@ -18,7 +18,7 @@ PLAN = ROOT / "docs" / "vocab-plan.json"
 
 PUNCT = re.compile(r"[¿?¡!.,;:\"'()«»…]")
 # The learner's languages: every explanation and translation exists in each.
-LANGS = ("en", "it", "uk", "de")
+LANGS = ("en", "it", "uk", "de", "fr")
 PERSONS = {"yo", "tu", "el", "nosotros", "vosotros", "ellos"}
 KINDS = {"stem", "ending", "time", "rail", "chunk"}
 BEATS = {"forge", "fire", "mix"}

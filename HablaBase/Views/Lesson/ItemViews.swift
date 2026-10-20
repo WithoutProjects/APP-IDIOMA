@@ -280,12 +280,14 @@ struct LegoSnapView: View {
             onSubmit(.wrong(hint: Gloss(en: "\(stem)- means \u{201C}\(meaning)\u{201D}. Find the stem for \u{201C}\(goal)\u{201D}.",
                                         it: "\(stem)- significa \u{201C}\(meaning)\u{201D}. Trova la radice per \u{201C}\(goal)\u{201D}.",
                                         uk: "\(stem)- означає \u{201C}\(meaning)\u{201D}. Знайди основу для \u{201C}\(goal)\u{201D}.",
-                                        de: "\(stem)- bedeutet \u{201E}\(meaning)\u{201C}. Finde den Stamm für \u{201E}\(goal)\u{201C}.").text(language)))
+                                        de: "\(stem)- bedeutet \u{201E}\(meaning)\u{201C}. Finde den Stamm für \u{201E}\(goal)\u{201C}.",
+                                        fr: "\(stem)- signifie \u{201C}\(meaning)\u{201D}. Trouve le radical pour \u{201C}\(goal)\u{201D}.").text(language)))
         } else {
             onSubmit(.wrong(hint: Gloss(en: "With \(snap.person.label), the ending is -\(snap.answer.ending).",
                                         it: "Con \(snap.person.label), la desinenza è -\(snap.answer.ending).",
                                         uk: "Для \(snap.person.label) закінчення -\(snap.answer.ending).",
-                                        de: "Bei \(snap.person.label) lautet die Endung -\(snap.answer.ending).").text(language)))
+                                        de: "Bei \(snap.person.label) lautet die Endung -\(snap.answer.ending).",
+                                        fr: "Avec \(snap.person.label), la terminaison est -\(snap.answer.ending).").text(language)))
         }
     }
 }
@@ -662,14 +664,14 @@ struct FreeWriteView: View {
 
     private func grade() -> GradeOutcome {
         if !write.accepted.isEmpty {
-            let hint = Gloss(en: "Compare with the right answer below.", it: "Confronta con la risposta giusta qui sotto.", uk: "Порівняй із правильною відповіддю нижче.", de: "Vergleiche mit der richtigen Antwort unten.").text(language)
+            let hint = Gloss(en: "Compare with the right answer below.", it: "Confronta con la risposta giusta qui sotto.", uk: "Порівняй із правильною відповіддю нижче.", de: "Vergleiche mit der richtigen Antwort unten.", fr: "Compare avec la bonne réponse ci-dessous.").text(language)
             return byVoice ? Grader.compareSpokenSentence(text, accepted: write.accepted, hint: hint)
                            : Grader.compare(text, accepted: write.accepted, hint: hint)
         }
         if let missing = Grader.missingChunk(in: text, required: write.requiredChunks) {
             let hint = missing == "y"
-                ? Gloss(en: "Join the parts with y.", it: "Unisci le parti con y.", uk: "З'єднай частини за допомогою y.", de: "Verbinde die Teile mit y.")
-                : Gloss(en: "Missing: \u{201C}\(missing)\u{201D}", it: "Manca: \u{201C}\(missing)\u{201D}", uk: "Бракує: \u{201C}\(missing)\u{201D}", de: "Es fehlt: \u{201E}\(missing)\u{201C}")
+                ? Gloss(en: "Join the parts with y.", it: "Unisci le parti con y.", uk: "З'єднай частини за допомогою y.", de: "Verbinde die Teile mit y.", fr: "Relie les parties avec y.")
+                : Gloss(en: "Missing: \u{201C}\(missing)\u{201D}", it: "Manca: \u{201C}\(missing)\u{201D}", uk: "Бракує: \u{201C}\(missing)\u{201D}", de: "Es fehlt: \u{201E}\(missing)\u{201C}", fr: "Il manque : \u{201C}\(missing)\u{201D}")
             return .wrong(hint: hint.text(language))
         }
         return .correct
@@ -682,7 +684,7 @@ struct TranslationPrompt {
     let context: String
     let sentence: String?
 
-    private static let markers = ["Write in Spanish:", "Scrivi in spagnolo:", "Напиши іспанською:", "Schreib auf Spanisch:"]
+    private static let markers = ["Write in Spanish:", "Scrivi in spagnolo:", "Напиши іспанською:", "Schreib auf Spanisch:", "Écris en espagnol :", "Écris en espagnol\u{00A0}:"]
 
     init(_ instruction: String) {
         guard let open = instruction.range(of: "«", options: .backwards),

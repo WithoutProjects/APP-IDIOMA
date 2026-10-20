@@ -7,14 +7,16 @@
         "en": "Say what you want, prefer and think with verbs whose e becomes ie.",
         "it": "Di cosa vuoi, preferisci e pensi con i verbi in cui la e diventa ie.",
         "uk": "Скажи, чого ти хочеш, що віддаєш перевагу і що думаєш, з дієсловами, у яких e стає ie.",
-        "de": "Sag, was du willst, was du lieber magst und was du denkst – mit Verben, bei denen e zu ie wird."
+        "de": "Sag, was du willst, was du lieber magst und was du denkst – mit Verben, bei denen e zu ie wird.",
+        "fr": "Dis ce que tu veux, ce que tu préfères et ce que tu penses avec les verbes dont le e devient ie."
       },
       "target": {
         "es": "Quiero viajar, pero prefiero ir en tren.",
         "en": "I want to travel, but I'd rather go by train.",
         "it": "Voglio viaggiare, ma preferisco andare in treno.",
         "uk": "Я хочу подорожувати, але краще поїду потягом.",
-        "de": "Ich will reisen, aber ich fahre lieber mit dem Zug."
+        "de": "Ich will reisen, aber ich fahre lieber mit dem Zug.",
+        "fr": "Je veux voyager, mais je préfère y aller en train."
       },
       "items": [
         {
@@ -26,6 +28,7 @@
               "it": "volere",
               "uk": "хотіти",
               "de": "wollen",
+              "fr": "vouloir",
               "kind": "stem"
             },
             {
@@ -34,6 +37,7 @@
               "it": "preferire",
               "uk": "віддавати перевагу",
               "de": "lieber mögen, bevorzugen",
+              "fr": "préférer",
               "kind": "stem"
             },
             {
@@ -42,6 +46,7 @@
               "it": "pensare",
               "uk": "думати",
               "de": "denken",
+              "fr": "penser",
               "kind": "stem"
             }
           ]
@@ -55,6 +60,7 @@
               "it": "un'idea",
               "uk": "ідея",
               "de": "eine Idee",
+              "fr": "une idée",
               "kind": "chunk"
             },
             {
@@ -63,6 +69,7 @@
               "it": "un viaggio",
               "uk": "подорож",
               "de": "eine Reise",
+              "fr": "un voyage",
               "kind": "chunk"
             },
             {
@@ -71,6 +78,7 @@
               "it": "a fare shopping",
               "uk": "за покупками",
               "de": "einkaufen, shoppen",
+              "fr": "faire du shopping, faire les magasins",
               "kind": "chunk"
             }
           ]
@@ -99,7 +107,8 @@
             "en": "Some verbs change inside: in querer the e of the stem becomes ie. The endings stay the regular ones: quiero, quieres, quiere.",
             "it": "Alcuni verbi cambiano dentro: in querer la e della radice diventa ie. Le desinenze restano quelle regolari: quiero, quieres, quiere.",
             "uk": "Деякі дієслова змінюються всередині: у querer e основи стає ie. Закінчення залишаються звичайними: quiero, quieres, quiere.",
-            "de": "Manche Verben ändern sich im Inneren: Bei querer wird das e im Stamm zu ie. Die Endungen bleiben regelmäßig: quiero, quieres, quiere."
+            "de": "Manche Verben ändern sich im Inneren: Bei querer wird das e im Stamm zu ie. Die Endungen bleiben regelmäßig: quiero, quieres, quiere.",
+            "fr": "Certains verbes changent à l'intérieur : dans querer, le e du radical devient ie. Les terminaisons restent les terminaisons régulières : quiero, quieres, quiere."
           },
           "examples": [
             {
@@ -107,21 +116,24 @@
               "en": "I want to travel.",
               "it": "Voglio viaggiare.",
               "uk": "Я хочу подорожувати.",
-              "de": "Ich will reisen."
+              "de": "Ich will reisen.",
+              "fr": "Je veux voyager."
             },
             {
               "es": "¿Quieres ir de compras?",
               "en": "Do you want to go shopping?",
               "it": "Vuoi andare a fare shopping?",
               "uk": "Хочеш піти за покупками?",
-              "de": "Willst du shoppen gehen?"
+              "de": "Willst du shoppen gehen?",
+              "fr": "Tu veux faire du shopping ?"
             },
             {
               "es": "Ella quiere un café.",
               "en": "She wants a coffee.",
               "it": "Lei vuole un caffè.",
               "uk": "Вона хоче каву.",
-              "de": "Sie will einen Kaffee."
+              "de": "Sie will einen Kaffee.",
+              "fr": "Elle veut un café."
             }
           ],
           "teaches": [
@@ -130,21 +142,24 @@
               "en": "I want",
               "it": "voglio",
               "uk": "я хочу",
-              "de": "ich will"
+              "de": "ich will",
+              "fr": "je veux"
             },
             {
               "es": "quieres",
               "en": "you want",
               "it": "vuoi",
               "uk": "ти хочеш",
-              "de": "du willst"
+              "de": "du willst",
+              "fr": "tu veux"
             },
             {
               "es": "quiere",
               "en": "he/she wants",
               "it": "vuole",
               "uk": "він/вона хоче",
-              "de": "er/sie will"
+              "de": "er/sie will",
+              "fr": "il/elle veut"
             }
           ]
         },
@@ -156,7 +171,8 @@
             "en": "you want",
             "it": "vuoi",
             "uk": "ти хочеш",
-            "de": "du willst"
+            "de": "du willst",
+            "fr": "tu veux"
           },
           "stems": [
             "quer",
@@ -185,11 +201,13 @@
           "it": "Mia sorella vuole andare a fare shopping.",
           "uk": "Моя сестра хоче піти за покупками.",
           "de": "Meine Schwester will shoppen gehen.",
+          "fr": "Ma sœur veut faire du shopping.",
           "hint": {
             "en": "Ella: e → ie, then the regular ending -e.",
             "it": "Ella: e → ie, poi la desinenza regolare -e.",
             "uk": "Ella: e → ie, потім звичайне закінчення -e.",
-            "de": "Ella: e → ie, dann die regelmäßige Endung -e."
+            "de": "Ella: e → ie, dann die regelmäßige Endung -e.",
+            "fr": "Ella : e → ie, puis la terminaison régulière -e."
           }
         },
         {
@@ -212,7 +230,8 @@
             "en": "With nosotros and vosotros the stem does not change: queremos, queréis. Ellos changes like yo, tú and él: quieren.",
             "it": "Con nosotros e vosotros la radice non cambia: queremos, queréis. Ellos cambia come yo, tú ed él: quieren.",
             "uk": "З nosotros і vosotros основа не змінюється: queremos, queréis. Ellos змінюється, як yo, tú і él: quieren.",
-            "de": "Bei nosotros und vosotros ändert sich der Stamm nicht: queremos, queréis. Ellos ändert sich wie yo, tú und él: quieren."
+            "de": "Bei nosotros und vosotros ändert sich der Stamm nicht: queremos, queréis. Ellos ändert sich wie yo, tú und él: quieren.",
+            "fr": "Avec nosotros et vosotros, le radical ne change pas : queremos, queréis. Ellos change comme yo, tú et él : quieren."
           },
           "examples": [
             {
@@ -220,21 +239,24 @@
               "en": "We want to travel together.",
               "it": "Vogliamo viaggiare insieme.",
               "uk": "Ми хочемо подорожувати разом.",
-              "de": "Wir wollen zusammen reisen."
+              "de": "Wir wollen zusammen reisen.",
+              "fr": "Nous voulons voyager ensemble."
             },
             {
               "es": "¿Queréis ir de compras?",
               "en": "Do you all want to go shopping?",
               "it": "Volete andare a fare shopping?",
               "uk": "Ви хочете піти за покупками?",
-              "de": "Wollt ihr shoppen gehen?"
+              "de": "Wollt ihr shoppen gehen?",
+              "fr": "Vous voulez faire du shopping ?"
             },
             {
               "es": "Ellos quieren pizza.",
               "en": "They want pizza.",
               "it": "Loro vogliono la pizza.",
               "uk": "Вони хочуть піцу.",
-              "de": "Sie wollen Pizza."
+              "de": "Sie wollen Pizza.",
+              "fr": "Ils veulent de la pizza."
             }
           ],
           "teaches": [
@@ -243,21 +265,24 @@
               "en": "we want",
               "it": "vogliamo",
               "uk": "ми хочемо",
-              "de": "wir wollen"
+              "de": "wir wollen",
+              "fr": "nous voulons"
             },
             {
               "es": "queréis",
               "en": "you all want",
               "it": "volete",
               "uk": "ви хочете",
-              "de": "ihr wollt"
+              "de": "ihr wollt",
+              "fr": "vous voulez"
             },
             {
               "es": "quieren",
               "en": "they want",
               "it": "vogliono",
               "uk": "вони хочуть",
-              "de": "sie wollen"
+              "de": "sie wollen",
+              "fr": "ils/elles veulent"
             }
           ]
         },
@@ -276,11 +301,13 @@
           "it": "Vogliamo andare al mare.",
           "uk": "Ми хочемо піти на пляж.",
           "de": "Wir wollen an den Strand gehen.",
+          "fr": "Nous voulons aller à la plage.",
           "hint": {
             "en": "Nosotros keeps the e: quer- + -emos.",
             "it": "Nosotros tiene la e: quer- + -emos.",
             "uk": "Nosotros зберігає e: quer- + -emos.",
-            "de": "Nosotros behält das e: quer- + -emos."
+            "de": "Nosotros behält das e: quer- + -emos.",
+            "fr": "Nosotros garde le e : quer- + -emos."
           }
         },
         {
@@ -291,7 +318,8 @@
             "en": "they want",
             "it": "vogliono",
             "uk": "вони хочуть",
-            "de": "sie wollen"
+            "de": "sie wollen",
+            "fr": "ils/elles veulent"
           },
           "stems": [
             "quer",
@@ -330,7 +358,8 @@
             "en": "preferir and pensar change in the same way: e → ie, but not with nosotros and vosotros. pensar que means to think that.",
             "it": "preferir e pensar cambiano allo stesso modo: e → ie, ma non con nosotros e vosotros. pensar que vuol dire pensare che.",
             "uk": "preferir і pensar змінюються так само: e → ie, але не з nosotros і vosotros. pensar que означає «думати, що».",
-            "de": "preferir und pensar ändern sich genauso: e → ie, aber nicht bei nosotros und vosotros. pensar que heißt „denken, dass“."
+            "de": "preferir und pensar ändern sich genauso: e → ie, aber nicht bei nosotros und vosotros. pensar que heißt „denken, dass“.",
+            "fr": "preferir et pensar changent de la même façon : e → ie, mais pas avec nosotros et vosotros. pensar que veut dire penser que."
           },
           "examples": [
             {
@@ -338,21 +367,24 @@
               "en": "I prefer tea.",
               "it": "Preferisco il tè.",
               "uk": "Я віддаю перевагу чаю.",
-              "de": "Ich trinke lieber Tee."
+              "de": "Ich trinke lieber Tee.",
+              "fr": "Je préfère le thé."
             },
             {
               "es": "Pienso que un viaje es una buena idea.",
               "en": "I think a trip is a good idea.",
               "it": "Penso che un viaggio sia una buona idea.",
               "uk": "Я думаю, що подорож — це гарна ідея.",
-              "de": "Ich denke, dass eine Reise eine gute Idee ist."
+              "de": "Ich denke, dass eine Reise eine gute Idee ist.",
+              "fr": "Je pense qu'un voyage, c'est une bonne idée."
             },
             {
               "es": "Preferimos ir en tren.",
               "en": "We prefer to go by train.",
               "it": "Preferiamo andare in treno.",
               "uk": "Ми віддаємо перевагу поїздці потягом.",
-              "de": "Wir fahren lieber mit dem Zug."
+              "de": "Wir fahren lieber mit dem Zug.",
+              "fr": "Nous préférons y aller en train."
             }
           ],
           "teaches": [
@@ -361,84 +393,96 @@
               "en": "I prefer",
               "it": "preferisco",
               "uk": "я віддаю перевагу",
-              "de": "ich mag lieber"
+              "de": "ich mag lieber",
+              "fr": "je préfère"
             },
             {
               "es": "prefieres",
               "en": "you prefer",
               "it": "preferisci",
               "uk": "ти віддаєш перевагу",
-              "de": "du magst lieber"
+              "de": "du magst lieber",
+              "fr": "tu préfères"
             },
             {
               "es": "prefiere",
               "en": "he/she prefers",
               "it": "preferisce",
               "uk": "він/вона віддає перевагу",
-              "de": "er/sie mag lieber"
+              "de": "er/sie mag lieber",
+              "fr": "il/elle préfère"
             },
             {
               "es": "preferimos",
               "en": "we prefer",
               "it": "preferiamo",
               "uk": "ми віддаємо перевагу",
-              "de": "wir mögen lieber"
+              "de": "wir mögen lieber",
+              "fr": "nous préférons"
             },
             {
               "es": "preferís",
               "en": "you all prefer",
               "it": "preferite",
               "uk": "ви віддаєте перевагу",
-              "de": "ihr mögt lieber"
+              "de": "ihr mögt lieber",
+              "fr": "vous préférez"
             },
             {
               "es": "prefieren",
               "en": "they prefer",
               "it": "preferiscono",
               "uk": "вони віддають перевагу",
-              "de": "sie mögen lieber"
+              "de": "sie mögen lieber",
+              "fr": "ils/elles préfèrent"
             },
             {
               "es": "pienso",
               "en": "I think",
               "it": "penso",
               "uk": "я думаю",
-              "de": "ich denke"
+              "de": "ich denke",
+              "fr": "je pense"
             },
             {
               "es": "piensas",
               "en": "you think",
               "it": "pensi",
               "uk": "ти думаєш",
-              "de": "du denkst"
+              "de": "du denkst",
+              "fr": "tu penses"
             },
             {
               "es": "piensa",
               "en": "he/she thinks",
               "it": "pensa",
               "uk": "він/вона думає",
-              "de": "er/sie denkt"
+              "de": "er/sie denkt",
+              "fr": "il/elle pense"
             },
             {
               "es": "pensamos",
               "en": "we think",
               "it": "pensiamo",
               "uk": "ми думаємо",
-              "de": "wir denken"
+              "de": "wir denken",
+              "fr": "nous pensons"
             },
             {
               "es": "pensáis",
               "en": "you all think",
               "it": "pensate",
               "uk": "ви думаєте",
-              "de": "ihr denkt"
+              "de": "ihr denkt",
+              "fr": "vous pensez"
             },
             {
               "es": "piensan",
               "en": "they think",
               "it": "pensano",
               "uk": "вони думають",
-              "de": "sie denken"
+              "de": "sie denken",
+              "fr": "ils/elles pensent"
             }
           ]
         },
@@ -455,11 +499,13 @@
           "it": "Penso che sia una buona idea.",
           "uk": "Я думаю, що це гарна ідея.",
           "de": "Ich denke, das ist eine gute Idee.",
+          "fr": "Je pense que c'est une bonne idée.",
           "hint": {
             "en": "Yo: e → ie, pens- becomes piens- + -o.",
             "it": "Yo: e → ie, pens- diventa piens- + -o.",
             "uk": "Yo: e → ie, pens- стає piens- + -o.",
-            "de": "Yo: e → ie, aus pens- wird piens- + -o."
+            "de": "Yo: e → ie, aus pens- wird piens- + -o.",
+            "fr": "Yo : e → ie, pens- devient piens- + -o."
           }
         },
         {
@@ -477,11 +523,13 @@
           "it": "I miei genitori preferiscono il vino.",
           "uk": "Мої батьки віддають перевагу вину.",
           "de": "Meine Eltern trinken lieber Wein.",
+          "fr": "Mes parents préfèrent le vin.",
           "hint": {
             "en": "Mis padres = ellos: e → ie and -en.",
             "it": "Mis padres = ellos: e → ie e -en.",
             "uk": "Mis padres = ellos: e → ie і -en.",
-            "de": "Mis padres = ellos: e → ie und -en."
+            "de": "Mis padres = ellos: e → ie und -en.",
+            "fr": "Mis padres = ellos : e → ie et -en."
           }
         },
         {
@@ -498,11 +546,13 @@
           "it": "Volete andare a fare shopping oggi?",
           "uk": "Ви хочете сьогодні піти за покупками?",
           "de": "Wollt ihr heute shoppen gehen?",
+          "fr": "Vous voulez faire du shopping aujourd'hui ?",
           "hint": {
             "en": "Vosotros keeps the e: quer- + -éis.",
             "it": "Vosotros tiene la e: quer- + -éis.",
             "uk": "Vosotros зберігає e: quer- + -éis.",
-            "de": "Vosotros behält das e: quer- + -éis."
+            "de": "Vosotros behält das e: quer- + -éis.",
+            "fr": "Vosotros garde le e : quer- + -éis."
           }
         },
         {
@@ -520,11 +570,13 @@
           "it": "Tu che ne pensi?",
           "uk": "Що ти думаєш?",
           "de": "Was denkst du?",
+          "fr": "Qu'est-ce que tu en penses ?",
           "hint": {
             "en": "Tú: piens- + -as.",
             "it": "Tú: piens- + -as.",
             "uk": "Tú: piens- + -as.",
-            "de": "Tú: piens- + -as."
+            "de": "Tú: piens- + -as.",
+            "fr": "Tú : piens- + -as."
           }
         },
         {
@@ -534,7 +586,8 @@
             "en": "Say that you want to travel, but you'd rather go by train.",
             "it": "Di che vuoi viaggiare, ma preferisci andare in treno.",
             "uk": "Скажи, що хочеш подорожувати, але краще поїдеш потягом.",
-            "de": "Ich will reisen, aber ich fahre lieber mit dem Zug."
+            "de": "Sag, dass du reisen willst, aber lieber mit dem Zug fährst.",
+            "fr": "Dis que tu veux voyager, mais que tu préfères y aller en train."
           },
           "accepted": [
             "Quiero viajar, pero prefiero ir en tren.",
@@ -552,12 +605,14 @@
           "en": "I want to travel, but I'd rather go by train.",
           "it": "Voglio viaggiare, ma preferisco andare in treno.",
           "uk": "Я хочу подорожувати, але краще поїду потягом.",
-          "de": "Sag, dass du reisen willst, aber lieber mit dem Zug fährst.",
+          "de": "Ich will reisen, aber ich fahre lieber mit dem Zug.",
+          "fr": "Je veux voyager, mais je préfère y aller en train.",
           "hint": {
             "en": "Yo: quiero and prefiero, both with ie.",
             "it": "Yo: quiero e prefiero, tutti e due con ie.",
             "uk": "Yo: quiero і prefiero, обидва з ie.",
-            "de": "Yo: quiero und prefiero, beide mit ie."
+            "de": "Yo: quiero und prefiero, beide mit ie.",
+            "fr": "Yo : quiero et prefiero, tous les deux avec ie."
           }
         },
         {
@@ -567,7 +622,8 @@
             "en": "Write in Spanish: «I want to go shopping, but I prefer to go to the beach.»",
             "it": "Scrivi in spagnolo: «Voglio andare a fare shopping, ma preferisco andare al mare.»",
             "uk": "Напиши іспанською: «Я хочу піти за покупками, але віддаю перевагу пляжу.»",
-            "de": "Schreib auf Spanisch: «Ich will shoppen gehen, aber ich gehe lieber an den Strand.»"
+            "de": "Schreib auf Spanisch: «Ich will shoppen gehen, aber ich gehe lieber an den Strand.»",
+            "fr": "Écris en espagnol : «Je veux faire du shopping, mais je préfère aller à la plage.»"
           },
           "accepted": [
             "Quiero ir de compras, pero prefiero ir a la playa.",
@@ -579,7 +635,8 @@
             "en": "I want to go shopping, but I prefer to go to the beach.",
             "it": "Voglio andare a fare shopping, ma preferisco andare al mare.",
             "uk": "Я хочу піти за покупками, але віддаю перевагу пляжу.",
-            "de": "Ich will shoppen gehen, aber ich gehe lieber an den Strand."
+            "de": "Ich will shoppen gehen, aber ich gehe lieber an den Strand.",
+            "fr": "Je veux faire du shopping, mais je préfère aller à la plage."
           }
         }
       ]
@@ -590,14 +647,16 @@
         "en": "Say when things start and close, and put your actions in order.",
         "it": "Di quando le cose cominciano e chiudono, e metti in ordine le tue azioni.",
         "uk": "Скажи, коли щось починається і зачиняється, і розстав свої дії по порядку.",
-        "de": "Sag, wann etwas anfängt und schließt, und bring deine Handlungen in eine Reihenfolge."
+        "de": "Sag, wann etwas anfängt und schließt, und bring deine Handlungen in eine Reihenfolge.",
+        "fr": "Dis quand les choses commencent et ferment, et mets tes actions dans l'ordre."
       },
       "target": {
         "es": "Primero desayuno y después empiezo a trabajar.",
         "en": "First I have breakfast and then I start work.",
         "it": "Prima faccio colazione e poi comincio a lavorare.",
         "uk": "Спочатку я снідаю, а потім починаю працювати.",
-        "de": "Zuerst frühstücke ich und dann fange ich an zu arbeiten."
+        "de": "Zuerst frühstücke ich und dann fange ich an zu arbeiten.",
+        "fr": "D'abord je prends mon petit-déjeuner, et ensuite je commence à travailler."
       },
       "items": [
         {
@@ -609,6 +668,7 @@
               "it": "cominciare",
               "uk": "починати",
               "de": "anfangen, beginnen",
+              "fr": "commencer",
               "kind": "stem"
             },
             {
@@ -617,6 +677,7 @@
               "it": "chiudere",
               "uk": "зачиняти",
               "de": "schließen, zumachen",
+              "fr": "fermer",
               "kind": "stem"
             },
             {
@@ -625,6 +686,7 @@
               "it": "capire",
               "uk": "розуміти",
               "de": "verstehen",
+              "fr": "comprendre",
               "kind": "stem"
             }
           ]
@@ -638,6 +700,7 @@
               "it": "il negozio",
               "uk": "магазин",
               "de": "der Laden",
+              "fr": "le magasin",
               "kind": "chunk"
             },
             {
@@ -646,6 +709,7 @@
               "it": "la riunione",
               "uk": "нарада",
               "de": "die Besprechung",
+              "fr": "la réunion",
               "kind": "chunk"
             },
             {
@@ -654,6 +718,7 @@
               "it": "la porta",
               "uk": "двері",
               "de": "die Tür",
+              "fr": "la porte",
               "kind": "chunk"
             },
             {
@@ -662,6 +727,7 @@
               "it": "prima",
               "uk": "спочатку",
               "de": "zuerst",
+              "fr": "d'abord",
               "kind": "rail"
             },
             {
@@ -670,6 +736,7 @@
               "it": "dopo",
               "uk": "потім, після того",
               "de": "dann, danach",
+              "fr": "ensuite, après",
               "kind": "rail"
             }
           ]
@@ -698,7 +765,8 @@
             "en": "empezar (to start) changes like querer: e → ie, except with nosotros and vosotros. empezar a + a verb = to start doing it.",
             "it": "empezar (cominciare) cambia come querer: e → ie, tranne con nosotros e vosotros. empezar a + un verbo = cominciare a fare.",
             "uk": "empezar (починати) змінюється, як querer: e → ie, крім nosotros і vosotros. empezar a + дієслово = почати щось робити.",
-            "de": "empezar (anfangen) ändert sich wie querer: e → ie, außer bei nosotros und vosotros. empezar a + Verb = anfangen, etwas zu tun."
+            "de": "empezar (anfangen) ändert sich wie querer: e → ie, außer bei nosotros und vosotros. empezar a + Verb = anfangen, etwas zu tun.",
+            "fr": "empezar (commencer) change comme querer : e → ie, sauf avec nosotros et vosotros. empezar a + un verbe = commencer à faire quelque chose."
           },
           "examples": [
             {
@@ -706,21 +774,24 @@
               "en": "The meeting starts at nine.",
               "it": "La riunione comincia alle nove.",
               "uk": "Нарада починається о дев'ятій.",
-              "de": "Die Besprechung fängt um neun an."
+              "de": "Die Besprechung fängt um neun an.",
+              "fr": "La réunion commence à neuf heures."
             },
             {
               "es": "Empiezo a trabajar a las ocho.",
               "en": "I start work at eight.",
               "it": "Comincio a lavorare alle otto.",
               "uk": "Я починаю працювати о восьмій.",
-              "de": "Ich fange um acht an zu arbeiten."
+              "de": "Ich fange um acht an zu arbeiten.",
+              "fr": "Je commence à travailler à huit heures."
             },
             {
               "es": "Empezamos mañana.",
               "en": "We start tomorrow.",
               "it": "Cominciamo domani.",
               "uk": "Ми починаємо завтра.",
-              "de": "Wir fangen morgen an."
+              "de": "Wir fangen morgen an.",
+              "fr": "Nous commençons demain."
             }
           ],
           "teaches": [
@@ -729,42 +800,48 @@
               "en": "I start",
               "it": "comincio",
               "uk": "я починаю",
-              "de": "ich fange an"
+              "de": "ich fange an",
+              "fr": "je commence"
             },
             {
               "es": "empiezas",
               "en": "you start",
               "it": "cominci",
               "uk": "ти починаєш",
-              "de": "du fängst an"
+              "de": "du fängst an",
+              "fr": "tu commences"
             },
             {
               "es": "empieza",
               "en": "he/she starts",
               "it": "comincia",
               "uk": "він/вона починає",
-              "de": "er/sie fängt an"
+              "de": "er/sie fängt an",
+              "fr": "il/elle commence"
             },
             {
               "es": "empezamos",
               "en": "we start",
               "it": "cominciamo",
               "uk": "ми починаємо",
-              "de": "wir fangen an"
+              "de": "wir fangen an",
+              "fr": "nous commençons"
             },
             {
               "es": "empezáis",
               "en": "you all start",
               "it": "cominciate",
               "uk": "ви починаєте",
-              "de": "ihr fangt an"
+              "de": "ihr fangt an",
+              "fr": "vous commencez"
             },
             {
               "es": "empiezan",
               "en": "they start",
               "it": "cominciano",
               "uk": "вони починають",
-              "de": "sie fangen an"
+              "de": "sie fangen an",
+              "fr": "ils/elles commencent"
             }
           ]
         },
@@ -776,7 +853,8 @@
             "en": "she starts",
             "it": "comincia",
             "uk": "вона починає",
-            "de": "sie fängt an"
+            "de": "sie fängt an",
+            "fr": "elle commence"
           },
           "stems": [
             "empez",
@@ -805,11 +883,13 @@
           "it": "Comincio a lavorare alle nove.",
           "uk": "Я починаю працювати о дев'ятій.",
           "de": "Ich fange um neun an zu arbeiten.",
+          "fr": "Je commence à travailler à neuf heures.",
           "hint": {
             "en": "Yo: empez- becomes empiez- + -o.",
             "it": "Yo: empez- diventa empiez- + -o.",
             "uk": "Yo: empez- стає empiez- + -o.",
-            "de": "Yo: aus empez- wird empiez- + -o."
+            "de": "Yo: aus empez- wird empiez- + -o.",
+            "fr": "Yo : empez- devient empiez- + -o."
           }
         },
         {
@@ -836,7 +916,8 @@
             "en": "cerrar (to close) and entender (to understand) change the same way: cierro, entiendo. Nosotros and vosotros keep the e.",
             "it": "cerrar (chiudere) ed entender (capire) cambiano allo stesso modo: cierro, entiendo. Nosotros e vosotros tengono la e.",
             "uk": "cerrar (зачиняти) і entender (розуміти) змінюються так само: cierro, entiendo. Nosotros і vosotros зберігають e.",
-            "de": "cerrar (schließen) und entender (verstehen) ändern sich genauso: cierro, entiendo. Nosotros und vosotros behalten das e."
+            "de": "cerrar (schließen) und entender (verstehen) ändern sich genauso: cierro, entiendo. Nosotros und vosotros behalten das e.",
+            "fr": "cerrar (fermer) et entender (comprendre) changent de la même façon : cierro, entiendo. Nosotros et vosotros gardent le e."
           },
           "examples": [
             {
@@ -844,21 +925,24 @@
               "en": "The shop closes at eight.",
               "it": "Il negozio chiude alle otto.",
               "uk": "Магазин зачиняється о восьмій.",
-              "de": "Der Laden schließt um acht."
+              "de": "Der Laden schließt um acht.",
+              "fr": "Le magasin ferme à huit heures."
             },
             {
               "es": "No entiendo.",
               "en": "I don't understand.",
               "it": "Non capisco.",
               "uk": "Я не розумію.",
-              "de": "Ich verstehe nicht."
+              "de": "Ich verstehe nicht.",
+              "fr": "Je ne comprends pas."
             },
             {
               "es": "¿Entiendes español?",
               "en": "Do you understand Spanish?",
               "it": "Capisci lo spagnolo?",
               "uk": "Ти розумієш іспанську?",
-              "de": "Verstehst du Spanisch?"
+              "de": "Verstehst du Spanisch?",
+              "fr": "Tu comprends l'espagnol ?"
             }
           ],
           "teaches": [
@@ -867,84 +951,96 @@
               "en": "I close",
               "it": "chiudo",
               "uk": "я зачиняю",
-              "de": "ich schließe"
+              "de": "ich schließe",
+              "fr": "je ferme"
             },
             {
               "es": "cierras",
               "en": "you close",
               "it": "chiudi",
               "uk": "ти зачиняєш",
-              "de": "du schließt"
+              "de": "du schließt",
+              "fr": "tu fermes"
             },
             {
               "es": "cierra",
               "en": "he/she closes",
               "it": "chiude",
               "uk": "він/вона зачиняє",
-              "de": "er/sie schließt"
+              "de": "er/sie schließt",
+              "fr": "il/elle ferme"
             },
             {
               "es": "cerramos",
               "en": "we close",
               "it": "chiudiamo",
               "uk": "ми зачиняємо",
-              "de": "wir schließen"
+              "de": "wir schließen",
+              "fr": "nous fermons"
             },
             {
               "es": "cerráis",
               "en": "you all close",
               "it": "chiudete",
               "uk": "ви зачиняєте",
-              "de": "ihr schließt"
+              "de": "ihr schließt",
+              "fr": "vous fermez"
             },
             {
               "es": "cierran",
               "en": "they close",
               "it": "chiudono",
               "uk": "вони зачиняють",
-              "de": "sie schließen"
+              "de": "sie schließen",
+              "fr": "ils/elles ferment"
             },
             {
               "es": "entiendo",
               "en": "I understand",
               "it": "capisco",
               "uk": "я розумію",
-              "de": "ich verstehe"
+              "de": "ich verstehe",
+              "fr": "je comprends"
             },
             {
               "es": "entiendes",
               "en": "you understand",
               "it": "capisci",
               "uk": "ти розумієш",
-              "de": "du verstehst"
+              "de": "du verstehst",
+              "fr": "tu comprends"
             },
             {
               "es": "entiende",
               "en": "he/she understands",
               "it": "capisce",
               "uk": "він/вона розуміє",
-              "de": "er/sie versteht"
+              "de": "er/sie versteht",
+              "fr": "il/elle comprend"
             },
             {
               "es": "entendemos",
               "en": "we understand",
               "it": "capiamo",
               "uk": "ми розуміємо",
-              "de": "wir verstehen"
+              "de": "wir verstehen",
+              "fr": "nous comprenons"
             },
             {
               "es": "entendéis",
               "en": "you all understand",
               "it": "capite",
               "uk": "ви розумієте",
-              "de": "ihr versteht"
+              "de": "ihr versteht",
+              "fr": "vous comprenez"
             },
             {
               "es": "entienden",
               "en": "they understand",
               "it": "capiscono",
               "uk": "вони розуміють",
-              "de": "sie verstehen"
+              "de": "sie verstehen",
+              "fr": "ils/elles comprennent"
             }
           ]
         },
@@ -963,11 +1059,13 @@
           "it": "La farmacia chiude la domenica.",
           "uk": "Аптека зачинена по неділях.",
           "de": "Die Apotheke hat sonntags zu.",
+          "fr": "La pharmacie ferme le dimanche.",
           "hint": {
             "en": "La farmacia = ella: cierr- + -a.",
             "it": "La farmacia = ella: cierr- + -a.",
             "uk": "La farmacia = ella: cierr- + -a.",
-            "de": "La farmacia = ella: cierr- + -a."
+            "de": "La farmacia = ella: cierr- + -a.",
+            "fr": "La farmacia = ella : cierr- + -a."
           }
         },
         {
@@ -983,11 +1081,13 @@
           "it": "I miei genitori non capiscono lo spagnolo.",
           "uk": "Мої батьки не розуміють іспанської.",
           "de": "Meine Eltern verstehen kein Spanisch.",
+          "fr": "Mes parents ne comprennent pas l'espagnol.",
           "hint": {
             "en": "Mis padres = ellos: e → ie, then -en.",
             "it": "Mis padres = ellos: e → ie, poi -en.",
             "uk": "Mis padres = ellos: e → ie, потім -en.",
-            "de": "Mis padres = ellos: e → ie, dann -en."
+            "de": "Mis padres = ellos: e → ie, dann -en.",
+            "fr": "Mis padres = ellos : e → ie, puis -en."
           }
         },
         {
@@ -1014,7 +1114,8 @@
             "en": "primero (first) and después (then, afterwards) put your actions in order. Join the two parts with y.",
             "it": "primero (prima) e después (poi, dopo) mettono in ordine le tue azioni. Unisci le due parti con y.",
             "uk": "primero (спочатку) і después (потім) розставляють твої дії по порядку. З'єднай дві частини за допомогою y.",
-            "de": "primero (zuerst) und después (dann, danach) bringen deine Handlungen in eine Reihenfolge. Verbinde die beiden Teile mit y."
+            "de": "primero (zuerst) und después (dann, danach) bringen deine Handlungen in eine Reihenfolge. Verbinde die beiden Teile mit y.",
+            "fr": "primero (d'abord) et después (ensuite, après) mettent tes actions dans l'ordre. Relie les deux parties avec y."
           },
           "examples": [
             {
@@ -1022,14 +1123,16 @@
               "en": "First I have breakfast and then I start work.",
               "it": "Prima faccio colazione e poi comincio a lavorare.",
               "uk": "Спочатку я снідаю, а потім починаю працювати.",
-              "de": "Zuerst frühstücke ich und dann fange ich an zu arbeiten."
+              "de": "Zuerst frühstücke ich und dann fange ich an zu arbeiten.",
+              "fr": "D'abord je prends mon petit-déjeuner, et ensuite je commence à travailler."
             },
             {
               "es": "Primero cierro la puerta y después voy al trabajo.",
               "en": "First I close the door and then I go to work.",
               "it": "Prima chiudo la porta e poi vado al lavoro.",
               "uk": "Спочатку я зачиняю двері, а потім іду на роботу.",
-              "de": "Zuerst schließe ich die Tür ab und dann gehe ich zur Arbeit."
+              "de": "Zuerst schließe ich die Tür ab und dann gehe ich zur Arbeit.",
+              "fr": "D'abord je ferme la porte, et ensuite je vais au travail."
             }
           ],
           "teaches": []
@@ -1041,7 +1144,8 @@
             "en": "Say that first you close the shop and then you go home.",
             "it": "Di che prima chiudi il negozio e poi vai a casa.",
             "uk": "Скажи, що спочатку зачиняєш магазин, а потім ідеш додому.",
-            "de": "Zuerst schließe ich den Laden und dann gehe ich nach Hause."
+            "de": "Sag, dass du zuerst den Laden schließt und dann nach Hause gehst.",
+            "fr": "Dis que d'abord tu fermes le magasin, et qu'ensuite tu rentres à la maison."
           },
           "accepted": [
             "Primero cierro la tienda y después voy a casa."
@@ -1059,12 +1163,14 @@
           "en": "First I close the shop and then I go home.",
           "it": "Prima chiudo il negozio e poi vado a casa.",
           "uk": "Спочатку я зачиняю магазин, а потім іду додому.",
-          "de": "Sag, dass du zuerst den Laden schließt und dann nach Hause gehst.",
+          "de": "Zuerst schließe ich den Laden und dann gehe ich nach Hause.",
+          "fr": "D'abord je ferme le magasin, et ensuite je rentre à la maison.",
           "hint": {
             "en": "Primero + first action, y después + second action.",
             "it": "Primero + prima azione, y después + seconda azione.",
             "uk": "Primero + перша дія, y después + друга дія.",
-            "de": "Primero + erste Handlung, y después + zweite Handlung."
+            "de": "Primero + erste Handlung, y después + zweite Handlung.",
+            "fr": "Primero + première action, y después + deuxième action."
           }
         },
         {
@@ -1081,11 +1187,13 @@
           "it": "Prima studio e poi ceno.",
           "uk": "Спочатку я вчуся, а потім вечеряю.",
           "de": "Zuerst lerne ich und dann esse ich zu Abend.",
+          "fr": "D'abord j'étudie, et ensuite je dîne.",
           "hint": {
             "en": "The second action comes with después.",
             "it": "La seconda azione va con después.",
             "uk": "Друга дія йде з después.",
-            "de": "Die zweite Handlung kommt mit después."
+            "de": "Die zweite Handlung kommt mit después.",
+            "fr": "La deuxième action va avec después."
           }
         },
         {
@@ -1101,11 +1209,13 @@
           "it": "Cominciamo alle nove.",
           "uk": "Ми починаємо о дев'ятій.",
           "de": "Wir fangen um neun an.",
+          "fr": "Nous commençons à neuf heures.",
           "hint": {
             "en": "Nosotros keeps the e: empez- + -amos.",
             "it": "Nosotros tiene la e: empez- + -amos.",
             "uk": "Nosotros зберігає e: empez- + -amos.",
-            "de": "Nosotros behält das e: empez- + -amos."
+            "de": "Nosotros behält das e: empez- + -amos.",
+            "fr": "Nosotros garde le e : empez- + -amos."
           }
         },
         {
@@ -1123,11 +1233,13 @@
           "it": "Chiudi la porta, per favore?",
           "uk": "Зачиниш двері, будь ласка?",
           "de": "Machst du bitte die Tür zu?",
+          "fr": "Tu peux fermer la porte, s'il te plaît ?",
           "hint": {
             "en": "Tú: cierr- + -as.",
             "it": "Tú: cierr- + -as.",
             "uk": "Tú: cierr- + -as.",
-            "de": "Tú: cierr- + -as."
+            "de": "Tú: cierr- + -as.",
+            "fr": "Tú : cierr- + -as."
           }
         },
         {
@@ -1137,7 +1249,8 @@
             "en": "Say that you don't understand, but you're learning Spanish.",
             "it": "Di che non capisci, ma stai imparando lo spagnolo.",
             "uk": "Скажи, що не розумієш, але вчиш іспанську.",
-            "de": "Ich verstehe nicht, aber ich lerne Spanisch."
+            "de": "Sag, dass du nicht verstehst, aber Spanisch lernst.",
+            "fr": "Dis que tu ne comprends pas, mais que tu apprends l'espagnol."
           },
           "accepted": [
             "No entiendo, pero aprendo español."
@@ -1153,12 +1266,14 @@
           "en": "I don't understand, but I'm learning Spanish.",
           "it": "Non capisco, ma sto imparando lo spagnolo.",
           "uk": "Я не розумію, але я вчу іспанську.",
-          "de": "Sag, dass du nicht verstehst, aber Spanisch lernst.",
+          "de": "Ich verstehe nicht, aber ich lerne Spanisch.",
+          "fr": "Je ne comprends pas, mais j'apprends l'espagnol.",
           "hint": {
             "en": "Yo: entiend- + -o; no goes before the verb.",
             "it": "Yo: entiend- + -o; no va prima del verbo.",
             "uk": "Yo: entiend- + -o; no стоїть перед дієсловом.",
-            "de": "Yo: entiend- + -o; no steht vor dem Verb."
+            "de": "Yo: entiend- + -o; no steht vor dem Verb.",
+            "fr": "Yo : entiend- + -o ; no se place avant le verbe."
           }
         },
         {
@@ -1168,7 +1283,8 @@
             "en": "Write in Spanish: «First I have breakfast and then I start work {workEn}.»",
             "it": "Scrivi in spagnolo: «Prima faccio colazione e poi comincio a lavorare {workIt}.»",
             "uk": "Напиши іспанською: «Спочатку я снідаю, а потім починаю працювати {workUk}.»",
-            "de": "Schreib auf Spanisch: «Zuerst frühstücke ich und dann fange ich an, {workDe} zu arbeiten.»"
+            "de": "Schreib auf Spanisch: «Zuerst frühstücke ich und dann fange ich an, {workDe} zu arbeiten.»",
+            "fr": "Écris en espagnol : «D'abord je prends mon petit-déjeuner, et ensuite je commence à travailler {workFr}.»"
           },
           "accepted": [
             "Primero desayuno y después empiezo a trabajar en {work}.",
@@ -1181,7 +1297,8 @@
             "en": "First I have breakfast and then I start work {workEn}.",
             "it": "Prima faccio colazione e poi comincio a lavorare {workIt}.",
             "uk": "Спочатку я снідаю, а потім починаю працювати {workUk}.",
-            "de": "Zuerst frühstücke ich und dann fange ich an, {workDe} zu arbeiten."
+            "de": "Zuerst frühstücke ich und dann fange ich an, {workDe} zu arbeiten.",
+            "fr": "D'abord je prends mon petit-déjeuner, et ensuite je commence à travailler {workFr}."
           }
         }
       ]
@@ -1192,14 +1309,16 @@
         "en": "Say what you can do, when you come back and how much things cost.",
         "it": "Di cosa puoi fare, quando torni e quanto costano le cose.",
         "uk": "Скажи, що ти можеш робити, коли повертаєшся і скільки щось коштує.",
-        "de": "Sag, was du tun kannst, wann du zurückkommst und wie viel etwas kostet."
+        "de": "Sag, was du tun kannst, wann du zurückkommst und wie viel etwas kostet.",
+        "fr": "Dis ce que tu peux faire, quand tu reviens et combien coûtent les choses."
       },
       "target": {
         "es": "No puedo volver pronto porque trabajo mucho.",
         "en": "I can't come back early because I work a lot.",
         "it": "Non posso tornare presto perché lavoro molto.",
         "uk": "Я не можу повернутися рано, бо багато працюю.",
-        "de": "Ich kann nicht früh zurückkommen, weil ich viel arbeite."
+        "de": "Ich kann nicht früh zurückkommen, weil ich viel arbeite.",
+        "fr": "Je ne peux pas rentrer tôt parce que je travaille beaucoup."
       },
       "items": [
         {
@@ -1211,6 +1330,7 @@
               "it": "potere",
               "uk": "могти",
               "de": "können",
+              "fr": "pouvoir",
               "kind": "stem"
             },
             {
@@ -1219,6 +1339,7 @@
               "it": "tornare",
               "uk": "повертатися",
               "de": "zurückkommen",
+              "fr": "revenir, rentrer",
               "kind": "stem"
             },
             {
@@ -1227,6 +1348,7 @@
               "it": "costare",
               "uk": "коштувати",
               "de": "kosten",
+              "fr": "coûter",
               "kind": "stem"
             },
             {
@@ -1235,6 +1357,7 @@
               "it": "aiutare",
               "uk": "допомагати",
               "de": "helfen",
+              "fr": "aider",
               "kind": "stem"
             }
           ]
@@ -1248,6 +1371,7 @@
               "it": "il biglietto",
               "uk": "квиток",
               "de": "die Fahrkarte",
+              "fr": "le billet",
               "kind": "chunk"
             },
             {
@@ -1256,6 +1380,7 @@
               "it": "presto",
               "uk": "скоро",
               "de": "bald, früh",
+              "fr": "bientôt, tôt",
               "kind": "time"
             }
           ]
@@ -1284,7 +1409,8 @@
             "en": "In poder the o of the stem becomes ue, except with nosotros and vosotros. After poder, the next verb stays as it is: puedo ir.",
             "it": "In poder la o della radice diventa ue, tranne con nosotros e vosotros. Dopo poder, il verbo che segue resta all'infinito: puedo ir.",
             "uk": "У poder o основи стає ue, крім nosotros і vosotros. Після poder наступне дієслово залишається в неозначеній формі: puedo ir.",
-            "de": "Bei poder wird das o im Stamm zu ue, außer bei nosotros und vosotros. Nach poder bleibt das nächste Verb in der Grundform: puedo ir."
+            "de": "Bei poder wird das o im Stamm zu ue, außer bei nosotros und vosotros. Nach poder bleibt das nächste Verb in der Grundform: puedo ir.",
+            "fr": "Dans poder, le o du radical devient ue, sauf avec nosotros et vosotros. Après poder, le verbe suivant reste à l'infinitif : puedo ir."
           },
           "examples": [
             {
@@ -1292,21 +1418,24 @@
               "en": "I can go tomorrow.",
               "it": "Posso andare domani.",
               "uk": "Я можу піти завтра.",
-              "de": "Ich kann morgen gehen."
+              "de": "Ich kann morgen gehen.",
+              "fr": "Je peux y aller demain."
             },
             {
               "es": "¿Puedes ayudar a mi madre?",
               "en": "Can you help my mother?",
               "it": "Puoi aiutare mia madre?",
               "uk": "Можеш допомогти моїй мамі?",
-              "de": "Kannst du meiner Mutter helfen?"
+              "de": "Kannst du meiner Mutter helfen?",
+              "fr": "Tu peux aider ma mère ?"
             },
             {
               "es": "No podemos comer pan.",
               "en": "We can't eat bread.",
               "it": "Non possiamo mangiare il pane.",
               "uk": "Ми не можемо їсти хліб.",
-              "de": "Wir können kein Brot essen."
+              "de": "Wir können kein Brot essen.",
+              "fr": "Nous ne pouvons pas manger de pain."
             }
           ],
           "teaches": [
@@ -1315,42 +1444,48 @@
               "en": "I can",
               "it": "posso",
               "uk": "я можу",
-              "de": "ich kann"
+              "de": "ich kann",
+              "fr": "je peux"
             },
             {
               "es": "puedes",
               "en": "you can",
               "it": "puoi",
               "uk": "ти можеш",
-              "de": "du kannst"
+              "de": "du kannst",
+              "fr": "tu peux"
             },
             {
               "es": "puede",
               "en": "he/she can",
               "it": "può",
               "uk": "він/вона може",
-              "de": "er/sie kann"
+              "de": "er/sie kann",
+              "fr": "il/elle peut"
             },
             {
               "es": "podemos",
               "en": "we can",
               "it": "possiamo",
               "uk": "ми можемо",
-              "de": "wir können"
+              "de": "wir können",
+              "fr": "nous pouvons"
             },
             {
               "es": "podéis",
               "en": "you all can",
               "it": "potete",
               "uk": "ви можете",
-              "de": "ihr könnt"
+              "de": "ihr könnt",
+              "fr": "vous pouvez"
             },
             {
               "es": "pueden",
               "en": "they can",
               "it": "possono",
               "uk": "вони можуть",
-              "de": "sie können"
+              "de": "sie können",
+              "fr": "ils/elles peuvent"
             }
           ]
         },
@@ -1362,7 +1497,8 @@
             "en": "you can",
             "it": "puoi",
             "uk": "ти можеш",
-            "de": "du kannst"
+            "de": "du kannst",
+            "fr": "tu peux"
           },
           "stems": [
             "pod",
@@ -1393,11 +1529,13 @@
           "it": "Oggi non possiamo andare.",
           "uk": "Сьогодні ми не можемо піти.",
           "de": "Wir können heute nicht gehen.",
+          "fr": "Nous ne pouvons pas y aller aujourd'hui.",
           "hint": {
             "en": "Nosotros keeps the o: pod- + -emos.",
             "it": "Nosotros tiene la o: pod- + -emos.",
             "uk": "Nosotros зберігає o: pod- + -emos.",
-            "de": "Nosotros behält das o: pod- + -emos."
+            "de": "Nosotros behält das o: pod- + -emos.",
+            "fr": "Nosotros garde le o : pod- + -emos."
           }
         },
         {
@@ -1424,7 +1562,8 @@
             "en": "volver (to come back) changes like poder: o → ue. volver a casa = to go back home.",
             "it": "volver (tornare) cambia come poder: o → ue. volver a casa = tornare a casa.",
             "uk": "volver (повертатися) змінюється, як poder: o → ue. volver a casa = повертатися додому.",
-            "de": "volver (zurückkommen) ändert sich wie poder: o → ue. volver a casa = nach Hause zurückgehen."
+            "de": "volver (zurückkommen) ändert sich wie poder: o → ue. volver a casa = nach Hause zurückgehen.",
+            "fr": "volver (revenir, rentrer) change comme poder : o → ue. volver a casa = rentrer à la maison."
           },
           "examples": [
             {
@@ -1432,21 +1571,24 @@
               "en": "I come back home at seven.",
               "it": "Torno a casa alle sette.",
               "uk": "Я повертаюся додому о сьомій.",
-              "de": "Ich komme um sieben nach Hause."
+              "de": "Ich komme um sieben nach Hause.",
+              "fr": "Je rentre à la maison à sept heures."
             },
             {
               "es": "¿Vuelves pronto?",
               "en": "Are you coming back soon?",
               "it": "Torni presto?",
               "uk": "Ти скоро повернешся?",
-              "de": "Kommst du bald zurück?"
+              "de": "Kommst du bald zurück?",
+              "fr": "Tu reviens bientôt ?"
             },
             {
               "es": "Volvemos el lunes.",
               "en": "We're coming back on Monday.",
               "it": "Torniamo lunedì.",
               "uk": "Ми повертаємося в понеділок.",
-              "de": "Wir kommen am Montag zurück."
+              "de": "Wir kommen am Montag zurück.",
+              "fr": "Nous revenons lundi."
             }
           ],
           "teaches": [
@@ -1455,42 +1597,48 @@
               "en": "I come back",
               "it": "torno",
               "uk": "я повертаюся",
-              "de": "ich komme zurück"
+              "de": "ich komme zurück",
+              "fr": "je reviens"
             },
             {
               "es": "vuelves",
               "en": "you come back",
               "it": "torni",
               "uk": "ти повертаєшся",
-              "de": "du kommst zurück"
+              "de": "du kommst zurück",
+              "fr": "tu reviens"
             },
             {
               "es": "vuelve",
               "en": "he/she comes back",
               "it": "torna",
               "uk": "він/вона повертається",
-              "de": "er/sie kommt zurück"
+              "de": "er/sie kommt zurück",
+              "fr": "il/elle revient"
             },
             {
               "es": "volvemos",
               "en": "we come back",
               "it": "torniamo",
               "uk": "ми повертаємося",
-              "de": "wir kommen zurück"
+              "de": "wir kommen zurück",
+              "fr": "nous revenons"
             },
             {
               "es": "volvéis",
               "en": "you all come back",
               "it": "tornate",
               "uk": "ви повертаєтеся",
-              "de": "ihr kommt zurück"
+              "de": "ihr kommt zurück",
+              "fr": "vous revenez"
             },
             {
               "es": "vuelven",
               "en": "they come back",
               "it": "tornano",
               "uk": "вони повертаються",
-              "de": "sie kommen zurück"
+              "de": "sie kommen zurück",
+              "fr": "ils/elles reviennent"
             }
           ]
         },
@@ -1507,11 +1655,13 @@
           "it": "Mio padre torna a casa alle sette.",
           "uk": "Мій тато повертається додому о сьомій.",
           "de": "Mein Vater kommt um sieben nach Hause.",
+          "fr": "Mon père rentre à la maison à sept heures.",
           "hint": {
             "en": "Él: o → ue, vuelv- + -e.",
             "it": "Él: o → ue, vuelv- + -e.",
             "uk": "Él: o → ue, vuelv- + -e.",
-            "de": "Él: o → ue, vuelv- + -e."
+            "de": "Él: o → ue, vuelv- + -e.",
+            "fr": "Él : o → ue, vuelv- + -e."
           }
         },
         {
@@ -1522,7 +1672,8 @@
             "en": "you all come back",
             "it": "tornate",
             "uk": "ви повертаєтеся",
-            "de": "ihr kommt zurück"
+            "de": "ihr kommt zurück",
+            "fr": "vous revenez"
           },
           "stems": [
             "volv",
@@ -1557,7 +1708,8 @@
             "en": "costar (to cost) is o → ue too. Use cuesta for one thing and cuestan for more than one.",
             "it": "Anche costar (costare) fa o → ue. Usa cuesta per una cosa e cuestan per più cose.",
             "uk": "costar (коштувати) теж o → ue. Кажи cuesta про одну річ і cuestan про кілька.",
-            "de": "Auch costar (kosten) ist o → ue. Nimm cuesta für eine Sache und cuestan für mehrere."
+            "de": "Auch costar (kosten) ist o → ue. Nimm cuesta für eine Sache und cuestan für mehrere.",
+            "fr": "costar (coûter) fait aussi o → ue. Utilise cuesta pour une seule chose et cuestan pour plusieurs."
           },
           "examples": [
             {
@@ -1565,14 +1717,16 @@
               "en": "How much is the ticket?",
               "it": "Quanto costa il biglietto?",
               "uk": "Скільки коштує квиток?",
-              "de": "Wie viel kostet die Fahrkarte?"
+              "de": "Wie viel kostet die Fahrkarte?",
+              "fr": "Combien coûte le billet ?"
             },
             {
               "es": "Los billetes cuestan veinte euros.",
               "en": "The tickets cost twenty euros.",
               "it": "I biglietti costano venti euro.",
               "uk": "Квитки коштують двадцять євро.",
-              "de": "Die Fahrkarten kosten zwanzig Euro."
+              "de": "Die Fahrkarten kosten zwanzig Euro.",
+              "fr": "Les billets coûtent vingt euros."
             }
           ],
           "teaches": [
@@ -1581,14 +1735,16 @@
               "en": "they cost",
               "it": "costano",
               "uk": "вони коштують",
-              "de": "sie kosten"
+              "de": "sie kosten",
+              "fr": "ils/elles coûtent"
             },
             {
               "es": "los billetes",
               "en": "the tickets",
               "it": "i biglietti",
               "uk": "квитки",
-              "de": "die Fahrkarten"
+              "de": "die Fahrkarten",
+              "fr": "les billets"
             }
           ]
         },
@@ -1606,11 +1762,13 @@
           "it": "Quanto costano i biglietti?",
           "uk": "Скільки коштують квитки?",
           "de": "Wie viel kosten die Fahrkarten?",
+          "fr": "Combien coûtent les billets ?",
           "hint": {
             "en": "Los billetes are more than one: cuestan.",
             "it": "I biglietti sono più di uno: cuestan.",
             "uk": "Los billetes — їх більше ніж один: cuestan.",
-            "de": "Los billetes sind mehr als eine: cuestan."
+            "de": "Los billetes sind mehr als eine: cuestan.",
+            "fr": "Los billetes, c'est plus d'un : cuestan."
           }
         },
         {
@@ -1626,11 +1784,13 @@
           "it": "Quanto costa il biglietto?",
           "uk": "Скільки коштує квиток?",
           "de": "Wie viel kostet die Fahrkarte?",
+          "fr": "Combien coûte le billet ?",
           "hint": {
             "en": "One ticket: cuesta.",
             "it": "Un biglietto: cuesta.",
             "uk": "Один квиток: cuesta.",
-            "de": "Eine Fahrkarte: cuesta."
+            "de": "Eine Fahrkarte: cuesta.",
+            "fr": "Un seul billet : cuesta."
           }
         },
         {
@@ -1661,7 +1821,8 @@
             "en": "Not every verb changes: ayudar (to help) is regular. When you help a person, put a before them.",
             "it": "Non tutti i verbi cambiano: ayudar (aiutare) è regolare. Quando aiuti una persona, metti a prima della persona.",
             "uk": "Не кожне дієслово змінюється: ayudar (допомагати) — правильне. Коли допомагаєш людині, постав перед нею a.",
-            "de": "Nicht jedes Verb ändert sich: ayudar (helfen) ist regelmäßig. Wenn du einer Person hilfst, setz a vor die Person."
+            "de": "Nicht jedes Verb ändert sich: ayudar (helfen) ist regelmäßig. Wenn du einer Person hilfst, setz a vor die Person.",
+            "fr": "Tous les verbes ne changent pas : ayudar (aider) est régulier. Quand tu aides une personne, mets a devant elle."
           },
           "examples": [
             {
@@ -1669,14 +1830,16 @@
               "en": "I help my mother at home.",
               "it": "Aiuto mia madre in casa.",
               "uk": "Я допомагаю мамі вдома.",
-              "de": "Ich helfe meiner Mutter zu Hause."
+              "de": "Ich helfe meiner Mutter zu Hause.",
+              "fr": "J'aide ma mère à la maison."
             },
             {
               "es": "¿Ayudas a tu hermano?",
               "en": "Do you help your brother?",
               "it": "Aiuti tuo fratello?",
               "uk": "Ти допомагаєш братові?",
-              "de": "Hilfst du deinem Bruder?"
+              "de": "Hilfst du deinem Bruder?",
+              "fr": "Tu aides ton frère ?"
             }
           ],
           "teaches": [
@@ -1685,42 +1848,48 @@
               "en": "I help",
               "it": "aiuto",
               "uk": "я допомагаю",
-              "de": "ich helfe"
+              "de": "ich helfe",
+              "fr": "j'aide"
             },
             {
               "es": "ayudas",
               "en": "you help",
               "it": "aiuti",
               "uk": "ти допомагаєш",
-              "de": "du hilfst"
+              "de": "du hilfst",
+              "fr": "tu aides"
             },
             {
               "es": "ayuda",
               "en": "he/she helps",
               "it": "aiuta",
               "uk": "він/вона допомагає",
-              "de": "er/sie hilft"
+              "de": "er/sie hilft",
+              "fr": "il/elle aide"
             },
             {
               "es": "ayudamos",
               "en": "we help",
               "it": "aiutiamo",
               "uk": "ми допомагаємо",
-              "de": "wir helfen"
+              "de": "wir helfen",
+              "fr": "nous aidons"
             },
             {
               "es": "ayudáis",
               "en": "you all help",
               "it": "aiutate",
               "uk": "ви допомагаєте",
-              "de": "ihr helft"
+              "de": "ihr helft",
+              "fr": "vous aidez"
             },
             {
               "es": "ayudan",
               "en": "they help",
               "it": "aiutano",
               "uk": "вони допомагають",
-              "de": "sie helfen"
+              "de": "sie helfen",
+              "fr": "ils/elles aident"
             }
           ]
         },
@@ -1737,11 +1906,13 @@
           "it": "Aiuto mia sorella con lo spagnolo.",
           "uk": "Я допомагаю сестрі з іспанською.",
           "de": "Ich helfe meiner Schwester mit Spanisch.",
+          "fr": "J'aide ma sœur en espagnol.",
           "hint": {
             "en": "ayudar is regular: ayud- + -o.",
             "it": "ayudar è regolare: ayud- + -o.",
             "uk": "ayudar — правильне дієслово: ayud- + -o.",
-            "de": "ayudar ist regelmäßig: ayud- + -o."
+            "de": "ayudar ist regelmäßig: ayud- + -o.",
+            "fr": "ayudar est régulier : ayud- + -o."
           }
         },
         {
@@ -1751,7 +1922,8 @@
             "en": "Ask a friend if they can help your brother.",
             "it": "Chiedi a un amico se può aiutare tuo fratello.",
             "uk": "Запитай друга, чи може він допомогти твоєму братові.",
-            "de": "Kannst du meinem Bruder helfen?"
+            "de": "Frag einen Freund, ob er deinem Bruder helfen kann.",
+            "fr": "Demande à un ami s'il peut aider ton frère."
           },
           "accepted": [
             "¿Puedes ayudar a mi hermano?",
@@ -1767,12 +1939,14 @@
           "en": "Can you help my brother?",
           "it": "Puoi aiutare mio fratello?",
           "uk": "Можеш допомогти моєму братові?",
-          "de": "Frag einen Freund, ob er deinem Bruder helfen kann.",
+          "de": "Kannst du meinem Bruder helfen?",
+          "fr": "Tu peux aider mon frère ?",
           "hint": {
             "en": "puedes + ayudar as it is, then a + the person.",
             "it": "puedes + ayudar all'infinito, poi a + la persona.",
             "uk": "puedes + ayudar без змін, потім a + людина.",
-            "de": "puedes + ayudar in der Grundform, dann a + die Person."
+            "de": "puedes + ayudar in der Grundform, dann a + die Person.",
+            "fr": "puedes + ayudar à l'infinitif, puis a + la personne."
           }
         },
         {
@@ -1789,11 +1963,13 @@
           "it": "Tornate presto?",
           "uk": "Ви скоро повернетеся?",
           "de": "Kommt ihr bald zurück?",
+          "fr": "Vous revenez bientôt ?",
           "hint": {
             "en": "Vosotros keeps the o: volv- + -éis.",
             "it": "Vosotros tiene la o: volv- + -éis.",
             "uk": "Vosotros зберігає o: volv- + -éis.",
-            "de": "Vosotros behält das o: volv- + -éis."
+            "de": "Vosotros behält das o: volv- + -éis.",
+            "fr": "Vosotros garde le o : volv- + -éis."
           }
         },
         {
@@ -1803,7 +1979,8 @@
             "en": "Say that you can't come back early because you work a lot.",
             "it": "Di che non puoi tornare presto perché lavori molto.",
             "uk": "Скажи, що не можеш повернутися рано, бо багато працюєш.",
-            "de": "Ich kann nicht früh zurückkommen, weil ich viel arbeite."
+            "de": "Sag, dass du nicht früh zurückkommen kannst, weil du viel arbeitest.",
+            "fr": "Dis que tu ne peux pas rentrer tôt parce que tu travailles beaucoup."
           },
           "accepted": [
             "No puedo volver pronto porque trabajo mucho."
@@ -1821,12 +1998,14 @@
           "en": "I can't come back early because I work a lot.",
           "it": "Non posso tornare presto perché lavoro molto.",
           "uk": "Я не можу повернутися рано, бо багато працюю.",
-          "de": "Sag, dass du nicht früh zurückkommen kannst, weil du viel arbeitest.",
+          "de": "Ich kann nicht früh zurückkommen, weil ich viel arbeite.",
+          "fr": "Je ne peux pas rentrer tôt parce que je travaille beaucoup.",
           "hint": {
             "en": "puedo + volver as it is.",
             "it": "puedo + volver all'infinito.",
             "uk": "puedo + volver без змін.",
-            "de": "puedo + volver in der Grundform."
+            "de": "puedo + volver in der Grundform.",
+            "fr": "puedo + volver à l'infinitif."
           }
         },
         {
@@ -1836,7 +2015,8 @@
             "en": "Write in Spanish: «Today I can help my sister and I'm coming back home early.»",
             "it": "Scrivi in spagnolo: «Oggi posso aiutare mia sorella e torno a casa presto.»",
             "uk": "Напиши іспанською: «Сьогодні я можу допомогти сестрі, і я повертаюся додому рано.»",
-            "de": "Schreib auf Spanisch: «Heute kann ich meiner Schwester helfen und ich komme früh nach Hause.»"
+            "de": "Schreib auf Spanisch: «Heute kann ich meiner Schwester helfen und ich komme früh nach Hause.»",
+            "fr": "Écris en espagnol : «Aujourd'hui, je peux aider ma sœur et je rentre tôt à la maison.»"
           },
           "accepted": [
             "Hoy puedo ayudar a mi hermana y vuelvo a casa pronto.",
@@ -1849,7 +2029,8 @@
             "en": "Today I can help my sister and I'm coming back home early.",
             "it": "Oggi posso aiutare mia sorella e torno a casa presto.",
             "uk": "Сьогодні я можу допомогти сестрі, і я повертаюся додому рано.",
-            "de": "Heute kann ich meiner Schwester helfen und ich komme früh nach Hause."
+            "de": "Heute kann ich meiner Schwester helfen und ich komme früh nach Hause.",
+            "fr": "Aujourd'hui, je peux aider ma sœur et je rentre tôt à la maison."
           }
         }
       ]
@@ -1860,14 +2041,16 @@
         "en": "Say how much you sleep and what you play.",
         "it": "Di quanto dormi e a cosa giochi.",
         "uk": "Скажи, скільки ти спиш і у що граєш.",
-        "de": "Sag, wie viel du schläfst und was du spielst."
+        "de": "Sag, wie viel du schläfst und was du spielst.",
+        "fr": "Dis combien tu dors et à quoi tu joues."
       },
       "target": {
         "es": "Duermo poco, pero los sábados juego al tenis.",
         "en": "I don't sleep much, but on Saturdays I play tennis.",
         "it": "Dormo poco, ma il sabato gioco a tennis.",
         "uk": "Я сплю мало, але по суботах граю в теніс.",
-        "de": "Ich schlafe wenig, aber samstags spiele ich Tennis."
+        "de": "Ich schlafe wenig, aber samstags spiele ich Tennis.",
+        "fr": "Je dors peu, mais le samedi je joue au tennis."
       },
       "items": [
         {
@@ -1879,6 +2062,7 @@
               "it": "dormire",
               "uk": "спати",
               "de": "schlafen",
+              "fr": "dormir",
               "kind": "stem"
             },
             {
@@ -1887,6 +2071,7 @@
               "it": "giocare",
               "uk": "грати",
               "de": "spielen",
+              "fr": "jouer",
               "kind": "stem"
             },
             {
@@ -1895,6 +2080,7 @@
               "it": "poco",
               "uk": "мало",
               "de": "wenig",
+              "fr": "peu",
               "kind": "chunk"
             },
             {
@@ -1903,6 +2089,7 @@
               "it": "abbastanza",
               "uk": "досить багато, достатньо",
               "de": "ziemlich viel, genug",
+              "fr": "assez",
               "kind": "chunk"
             }
           ]
@@ -1916,6 +2103,7 @@
               "it": "il pisolino",
               "uk": "денний сон",
               "de": "der Mittagsschlaf",
+              "fr": "la sieste",
               "kind": "chunk"
             },
             {
@@ -1924,6 +2112,7 @@
               "it": "le carte",
               "uk": "карти",
               "de": "Karten",
+              "fr": "les cartes",
               "kind": "chunk"
             },
             {
@@ -1932,6 +2121,7 @@
               "it": "i videogiochi",
               "uk": "відеоігри",
               "de": "Videospiele",
+              "fr": "les jeux vidéo",
               "kind": "chunk"
             },
             {
@@ -1940,6 +2130,7 @@
               "it": "il tennis",
               "uk": "теніс",
               "de": "Tennis",
+              "fr": "le tennis",
               "kind": "chunk"
             }
           ]
@@ -1968,7 +2159,8 @@
             "en": "dormir (to sleep) is o → ue, like poder: duermo, duermes, duerme. Nosotros and vosotros keep the o: dormimos.",
             "it": "dormir (dormire) fa o → ue, come poder: duermo, duermes, duerme. Nosotros e vosotros tengono la o: dormimos.",
             "uk": "dormir (спати) — це o → ue, як poder: duermo, duermes, duerme. Nosotros і vosotros зберігають o: dormimos.",
-            "de": "dormir (schlafen) ist o → ue, wie poder: duermo, duermes, duerme. Nosotros und vosotros behalten das o: dormimos."
+            "de": "dormir (schlafen) ist o → ue, wie poder: duermo, duermes, duerme. Nosotros und vosotros behalten das o: dormimos.",
+            "fr": "dormir fait o → ue, comme poder : duermo, duermes, duerme. Nosotros et vosotros gardent le o : dormimos."
           },
           "examples": [
             {
@@ -1976,21 +2168,24 @@
               "en": "I sleep eight hours.",
               "it": "Dormo otto ore.",
               "uk": "Я сплю вісім годин.",
-              "de": "Ich schlafe acht Stunden."
+              "de": "Ich schlafe acht Stunden.",
+              "fr": "Je dors huit heures."
             },
             {
               "es": "Los domingos duermo la siesta.",
               "en": "On Sundays I have a nap.",
               "it": "La domenica faccio il pisolino.",
               "uk": "По неділях я сплю вдень.",
-              "de": "Sonntags mache ich einen Mittagsschlaf."
+              "de": "Sonntags mache ich einen Mittagsschlaf.",
+              "fr": "Le dimanche, je fais la sieste."
             },
             {
               "es": "Dormimos bien.",
               "en": "We sleep well.",
               "it": "Dormiamo bene.",
               "uk": "Ми добре спимо.",
-              "de": "Wir schlafen gut."
+              "de": "Wir schlafen gut.",
+              "fr": "Nous dormons bien."
             }
           ],
           "teaches": [
@@ -1999,49 +2194,56 @@
               "en": "I sleep",
               "it": "dormo",
               "uk": "я сплю",
-              "de": "ich schlafe"
+              "de": "ich schlafe",
+              "fr": "je dors"
             },
             {
               "es": "duermes",
               "en": "you sleep",
               "it": "dormi",
               "uk": "ти спиш",
-              "de": "du schläfst"
+              "de": "du schläfst",
+              "fr": "tu dors"
             },
             {
               "es": "duerme",
               "en": "he/she sleeps",
               "it": "dorme",
               "uk": "він/вона спить",
-              "de": "er/sie schläft"
+              "de": "er/sie schläft",
+              "fr": "il/elle dort"
             },
             {
               "es": "dormimos",
               "en": "we sleep",
               "it": "dormiamo",
               "uk": "ми спимо",
-              "de": "wir schlafen"
+              "de": "wir schlafen",
+              "fr": "nous dormons"
             },
             {
               "es": "dormís",
               "en": "you all sleep",
               "it": "dormite",
               "uk": "ви спите",
-              "de": "ihr schlaft"
+              "de": "ihr schlaft",
+              "fr": "vous dormez"
             },
             {
               "es": "duermen",
               "en": "they sleep",
               "it": "dormono",
               "uk": "вони сплять",
-              "de": "sie schlafen"
+              "de": "sie schlafen",
+              "fr": "ils/elles dorment"
             },
             {
               "es": "horas",
               "en": "hours",
               "it": "ore",
               "uk": "години",
-              "de": "Stunden"
+              "de": "Stunden",
+              "fr": "heures"
             }
           ]
         },
@@ -2053,7 +2255,8 @@
             "en": "he sleeps",
             "it": "dorme",
             "uk": "він спить",
-            "de": "er schläft"
+            "de": "er schläft",
+            "fr": "il dort"
           },
           "stems": [
             "dorm",
@@ -2081,11 +2284,13 @@
           "it": "I bambini dormono molto.",
           "uk": "Діти багато сплять.",
           "de": "Die Kinder schlafen viel.",
+          "fr": "Les enfants dorment beaucoup.",
           "hint": {
             "en": "Los niños = ellos: duerm- + -en.",
             "it": "Los niños = ellos: duerm- + -en.",
             "uk": "Los niños = ellos: duerm- + -en.",
-            "de": "Los niños = ellos: duerm- + -en."
+            "de": "Los niños = ellos: duerm- + -en.",
+            "fr": "Los niños = ellos : duerm- + -en."
           }
         },
         {
@@ -2112,7 +2317,8 @@
             "en": "jugar (to play) is the only verb where u becomes ue: juego, juegas, juega. For a game or sport, add a: juego al tenis, juego a las cartas.",
             "it": "jugar (giocare) è l'unico verbo in cui la u diventa ue: juego, juegas, juega. Per un gioco o uno sport, aggiungi a: juego al tenis, juego a las cartas.",
             "uk": "jugar (грати) — єдине дієслово, у якому u стає ue: juego, juegas, juega. Для гри чи спорту додай a: juego al tenis, juego a las cartas.",
-            "de": "jugar (spielen) ist das einzige Verb, bei dem u zu ue wird: juego, juegas, juega. Bei einem Spiel oder Sport kommt a dazu: juego al tenis, juego a las cartas."
+            "de": "jugar (spielen) ist das einzige Verb, bei dem u zu ue wird: juego, juegas, juega. Bei einem Spiel oder Sport kommt a dazu: juego al tenis, juego a las cartas.",
+            "fr": "jugar (jouer) est le seul verbe où le u devient ue : juego, juegas, juega. Pour un jeu ou un sport, ajoute a : juego al tenis, juego a las cartas — comme « jouer au tennis », « jouer aux cartes »."
           },
           "examples": [
             {
@@ -2120,21 +2326,24 @@
               "en": "I play tennis on Saturdays.",
               "it": "Gioco a tennis il sabato.",
               "uk": "Я граю в теніс по суботах.",
-              "de": "Ich spiele samstags Tennis."
+              "de": "Ich spiele samstags Tennis.",
+              "fr": "Je joue au tennis le samedi."
             },
             {
               "es": "¿Juegas a los videojuegos?",
               "en": "Do you play video games?",
               "it": "Giochi ai videogiochi?",
               "uk": "Ти граєш у відеоігри?",
-              "de": "Spielst du Videospiele?"
+              "de": "Spielst du Videospiele?",
+              "fr": "Tu joues aux jeux vidéo ?"
             },
             {
               "es": "Jugamos a las cartas.",
               "en": "We play cards.",
               "it": "Giochiamo a carte.",
               "uk": "Ми граємо в карти.",
-              "de": "Wir spielen Karten."
+              "de": "Wir spielen Karten.",
+              "fr": "Nous jouons aux cartes."
             }
           ],
           "teaches": [
@@ -2143,42 +2352,48 @@
               "en": "I play",
               "it": "gioco",
               "uk": "я граю",
-              "de": "ich spiele"
+              "de": "ich spiele",
+              "fr": "je joue"
             },
             {
               "es": "juegas",
               "en": "you play",
               "it": "giochi",
               "uk": "ти граєш",
-              "de": "du spielst"
+              "de": "du spielst",
+              "fr": "tu joues"
             },
             {
               "es": "juega",
               "en": "he/she plays",
               "it": "gioca",
               "uk": "він/вона грає",
-              "de": "er/sie spielt"
+              "de": "er/sie spielt",
+              "fr": "il/elle joue"
             },
             {
               "es": "jugamos",
               "en": "we play",
               "it": "giochiamo",
               "uk": "ми граємо",
-              "de": "wir spielen"
+              "de": "wir spielen",
+              "fr": "nous jouons"
             },
             {
               "es": "jugáis",
               "en": "you all play",
               "it": "giocate",
               "uk": "ви граєте",
-              "de": "ihr spielt"
+              "de": "ihr spielt",
+              "fr": "vous jouez"
             },
             {
               "es": "juegan",
               "en": "they play",
               "it": "giocano",
               "uk": "вони грають",
-              "de": "sie spielen"
+              "de": "sie spielen",
+              "fr": "ils/elles jouent"
             }
           ]
         },
@@ -2197,11 +2412,13 @@
           "it": "Giochiamo a carte.",
           "uk": "Ми граємо в карти.",
           "de": "Wir spielen Karten.",
+          "fr": "Nous jouons aux cartes.",
           "hint": {
             "en": "Nosotros keeps the u: jug- + -amos.",
             "it": "Nosotros tiene la u: jug- + -amos.",
             "uk": "Nosotros зберігає u: jug- + -amos.",
-            "de": "Nosotros behält das u: jug- + -amos."
+            "de": "Nosotros behält das u: jug- + -amos.",
+            "fr": "Nosotros garde le u : jug- + -amos."
           }
         },
         {
@@ -2217,11 +2434,13 @@
           "it": "Mio fratello gioca ai videogiochi.",
           "uk": "Мій брат грає у відеоігри.",
           "de": "Mein Bruder spielt Videospiele.",
+          "fr": "Mon frère joue aux jeux vidéo.",
           "hint": {
             "en": "Él: u → ue, jueg- + -a.",
             "it": "Él: u → ue, jueg- + -a.",
             "uk": "Él: u → ue, jueg- + -a.",
-            "de": "Él: u → ue, jueg- + -a."
+            "de": "Él: u → ue, jueg- + -a.",
+            "fr": "Él : u → ue, jueg- + -a."
           }
         },
         {
@@ -2240,7 +2459,8 @@
             "en": "poco (not much), bastante (quite a lot) and mucho (a lot) say how much. They go after the verb.",
             "it": "poco, bastante e mucho dicono quanto. Vanno dopo il verbo.",
             "uk": "poco (мало), bastante (досить багато) і mucho (багато) кажуть, скільки. Вони стоять після дієслова.",
-            "de": "poco (wenig), bastante (ziemlich viel) und mucho (viel) sagen, wie viel. Sie stehen nach dem Verb."
+            "de": "poco (wenig), bastante (ziemlich viel) und mucho (viel) sagen, wie viel. Sie stehen nach dem Verb.",
+            "fr": "poco (peu), bastante (assez) et mucho (beaucoup) disent combien. Ils se placent après le verbe."
           },
           "examples": [
             {
@@ -2248,21 +2468,24 @@
               "en": "I don't sleep much.",
               "it": "Dormo poco.",
               "uk": "Я сплю мало.",
-              "de": "Ich schlafe wenig."
+              "de": "Ich schlafe wenig.",
+              "fr": "Je dors peu."
             },
             {
               "es": "Juego bastante al tenis.",
               "en": "I play tennis quite a lot.",
               "it": "Gioco abbastanza a tennis.",
               "uk": "Я досить багато граю в теніс.",
-              "de": "Ich spiele ziemlich viel Tennis."
+              "de": "Ich spiele ziemlich viel Tennis.",
+              "fr": "Je joue assez souvent au tennis."
             },
             {
               "es": "Trabajas mucho.",
               "en": "You work a lot.",
               "it": "Lavori molto.",
               "uk": "Ти багато працюєш.",
-              "de": "Du arbeitest viel."
+              "de": "Du arbeitest viel.",
+              "fr": "Tu travailles beaucoup."
             }
           ],
           "teaches": []
@@ -2282,11 +2505,13 @@
           "it": "Dorme quattro ore. Dorme poco.",
           "uk": "Вона спить чотири години. Вона спить мало.",
           "de": "Sie schläft vier Stunden. Sie schläft wenig.",
+          "fr": "Elle dort quatre heures. Elle dort peu.",
           "hint": {
             "en": "Four hours is not much: poco.",
             "it": "Quattro ore non sono tante: poco.",
             "uk": "Чотири години — це небагато: poco.",
-            "de": "Vier Stunden sind nicht viel: poco."
+            "de": "Vier Stunden sind nicht viel: poco.",
+            "fr": "Quatre heures, ce n'est pas beaucoup : poco."
           }
         },
         {
@@ -2296,7 +2521,8 @@
             "en": "Say that you don't sleep much because you work a lot.",
             "it": "Di che dormi poco perché lavori molto.",
             "uk": "Скажи, що мало спиш, бо багато працюєш.",
-            "de": "Ich schlafe wenig, weil ich viel arbeite."
+            "de": "Sag, dass du wenig schläfst, weil du viel arbeitest.",
+            "fr": "Dis que tu dors peu parce que tu travailles beaucoup."
           },
           "accepted": [
             "Duermo poco porque trabajo mucho."
@@ -2312,12 +2538,14 @@
           "en": "I don't sleep much because I work a lot.",
           "it": "Dormo poco perché lavoro molto.",
           "uk": "Я мало сплю, бо багато працюю.",
-          "de": "Sag, dass du wenig schläfst, weil du viel arbeitest.",
+          "de": "Ich schlafe wenig, weil ich viel arbeite.",
+          "fr": "Je dors peu parce que je travaille beaucoup.",
           "hint": {
             "en": "Yo: duerm- + -o, then poco after the verb.",
             "it": "Yo: duerm- + -o, poi poco dopo il verbo.",
             "uk": "Yo: duerm- + -o, потім poco після дієслова.",
-            "de": "Yo: duerm- + -o, dann poco nach dem Verb."
+            "de": "Yo: duerm- + -o, dann poco nach dem Verb.",
+            "fr": "Yo : duerm- + -o, puis poco après le verbe."
           }
         },
         {
@@ -2328,7 +2556,8 @@
             "en": "they play",
             "it": "giocano",
             "uk": "вони грають",
-            "de": "sie spielen"
+            "de": "sie spielen",
+            "fr": "ils/elles jouent"
           },
           "stems": [
             "jug",
@@ -2358,11 +2587,13 @@
           "it": "Fai il pisolino la domenica?",
           "uk": "Ти спиш удень по неділях?",
           "de": "Machst du sonntags einen Mittagsschlaf?",
+          "fr": "Tu fais la sieste le dimanche ?",
           "hint": {
             "en": "Tú: duerm- + -es.",
             "it": "Tú: duerm- + -es.",
             "uk": "Tú: duerm- + -es.",
-            "de": "Tú: duerm- + -es."
+            "de": "Tú: duerm- + -es.",
+            "fr": "Tú : duerm- + -es."
           }
         },
         {
@@ -2379,11 +2610,13 @@
           "it": "Dormite bene?",
           "uk": "Ви добре спите?",
           "de": "Schlaft ihr gut?",
+          "fr": "Vous dormez bien ?",
           "hint": {
             "en": "Vosotros keeps the o: dorm- + -ís.",
             "it": "Vosotros tiene la o: dorm- + -ís.",
             "uk": "Vosotros зберігає o: dorm- + -ís.",
-            "de": "Vosotros behält das o: dorm- + -ís."
+            "de": "Vosotros behält das o: dorm- + -ís.",
+            "fr": "Vosotros garde le o : dorm- + -ís."
           }
         },
         {
@@ -2393,7 +2626,8 @@
             "en": "Write in Spanish: «I sleep seven hours and on Saturdays I play tennis with my friends.»",
             "it": "Scrivi in spagnolo: «Dormo sette ore e il sabato gioco a tennis con i miei amici.»",
             "uk": "Напиши іспанською: «Я сплю сім годин, а по суботах граю в теніс із друзями.»",
-            "de": "Schreib auf Spanisch: «Ich schlafe sieben Stunden und samstags spiele ich mit meinen Freunden Tennis.»"
+            "de": "Schreib auf Spanisch: «Ich schlafe sieben Stunden und samstags spiele ich mit meinen Freunden Tennis.»",
+            "fr": "Écris en espagnol : «Je dors sept heures et le samedi je joue au tennis avec mes amis.»"
           },
           "accepted": [
             "Duermo siete horas y los sábados juego al tenis con mis amigos.",
@@ -2406,7 +2640,8 @@
             "en": "I sleep seven hours and on Saturdays I play tennis with my friends.",
             "it": "Dormo sette ore e il sabato gioco a tennis con i miei amici.",
             "uk": "Я сплю сім годин, а по суботах граю в теніс із друзями.",
-            "de": "Ich schlafe sieben Stunden und samstags spiele ich mit meinen Freunden Tennis."
+            "de": "Ich schlafe sieben Stunden und samstags spiele ich mit meinen Freunden Tennis.",
+            "fr": "Je dors sept heures et le samedi je joue au tennis avec mes amis."
           }
         }
       ]
@@ -2417,14 +2652,16 @@
         "en": "Order a set menu and ask people to repeat.",
         "it": "Ordina un menù del giorno e chiedi di ripetere.",
         "uk": "Замов комплексний обід і попроси повторити.",
-        "de": "Bestell ein Mittagsmenü und bitte darum, etwas zu wiederholen."
+        "de": "Bestell ein Mittagsmenü und bitte darum, etwas zu wiederholen.",
+        "fr": "Commande un menu du jour et demande aux gens de répéter."
       },
       "target": {
         "es": "De primero pido la sopa y de segundo, el pescado.",
         "en": "For the first course I'll have the soup, and for the main course, the fish.",
         "it": "Di primo prendo la zuppa e di secondo il pesce.",
         "uk": "На перше я візьму суп, а на друге — рибу.",
-        "de": "Als Vorspeise nehme ich die Suppe und als Hauptgericht den Fisch."
+        "de": "Als Vorspeise nehme ich die Suppe und als Hauptgericht den Fisch.",
+        "fr": "En entrée, je prends la soupe, et en plat, le poisson."
       },
       "items": [
         {
@@ -2436,6 +2673,7 @@
               "it": "ordinare, chiedere",
               "uk": "замовляти, просити",
               "de": "bestellen, bitten um",
+              "fr": "commander, demander",
               "kind": "stem"
             },
             {
@@ -2444,6 +2682,7 @@
               "it": "ripetere",
               "uk": "повторювати",
               "de": "wiederholen",
+              "fr": "répéter",
               "kind": "stem"
             },
             {
@@ -2452,6 +2691,7 @@
               "it": "servire",
               "uk": "подавати",
               "de": "servieren",
+              "fr": "servir",
               "kind": "stem"
             },
             {
@@ -2460,6 +2700,7 @@
               "it": "la zuppa",
               "uk": "суп",
               "de": "die Suppe",
+              "fr": "la soupe",
               "kind": "chunk"
             },
             {
@@ -2468,6 +2709,7 @@
               "it": "l'insalata",
               "uk": "салат",
               "de": "der Salat",
+              "fr": "la salade",
               "kind": "chunk"
             }
           ]
@@ -2481,6 +2723,7 @@
               "it": "il menù del giorno",
               "uk": "комплексний обід",
               "de": "das Mittagsmenü",
+              "fr": "le menu du jour",
               "kind": "chunk"
             },
             {
@@ -2489,6 +2732,7 @@
               "it": "di primo",
               "uk": "на перше",
               "de": "als Vorspeise",
+              "fr": "en entrée",
               "kind": "chunk"
             },
             {
@@ -2497,6 +2741,7 @@
               "it": "di secondo",
               "uk": "на друге",
               "de": "als Hauptgericht",
+              "fr": "en plat",
               "kind": "chunk"
             },
             {
@@ -2505,6 +2750,7 @@
               "it": "di dolce",
               "uk": "на десерт",
               "de": "als Nachtisch",
+              "fr": "en dessert",
               "kind": "chunk"
             }
           ]
@@ -2533,7 +2779,8 @@
             "en": "In pedir (to order, to ask for) the e becomes i: pido, pides, pide. Nosotros and vosotros keep the e: pedimos.",
             "it": "In pedir (ordinare, chiedere) la e diventa i: pido, pides, pide. Nosotros e vosotros tengono la e: pedimos.",
             "uk": "У pedir (замовляти, просити) e стає i: pido, pides, pide. Nosotros і vosotros зберігають e: pedimos.",
-            "de": "Bei pedir (bestellen, bitten um) wird das e zu i: pido, pides, pide. Nosotros und vosotros behalten das e: pedimos."
+            "de": "Bei pedir (bestellen, bitten um) wird das e zu i: pido, pides, pide. Nosotros und vosotros behalten das e: pedimos.",
+            "fr": "Dans pedir (commander, demander), le e devient i : pido, pides, pide. Nosotros et vosotros gardent le e : pedimos."
           },
           "examples": [
             {
@@ -2541,21 +2788,24 @@
               "en": "I'll have the soup.",
               "it": "Prendo la zuppa.",
               "uk": "Я візьму суп.",
-              "de": "Ich nehme die Suppe."
+              "de": "Ich nehme die Suppe.",
+              "fr": "Je prends la soupe."
             },
             {
               "es": "¿Qué pides?",
               "en": "What are you having?",
               "it": "Tu cosa prendi?",
               "uk": "Що ти береш?",
-              "de": "Was nimmst du?"
+              "de": "Was nimmst du?",
+              "fr": "Qu'est-ce que tu prends ?"
             },
             {
               "es": "Pedimos el menú del día.",
               "en": "We order the set menu.",
               "it": "Prendiamo il menù del giorno.",
               "uk": "Ми замовляємо комплексний обід.",
-              "de": "Wir bestellen das Mittagsmenü."
+              "de": "Wir bestellen das Mittagsmenü.",
+              "fr": "Nous commandons le menu du jour."
             }
           ],
           "teaches": [
@@ -2564,42 +2814,48 @@
               "en": "I order",
               "it": "chiedo",
               "uk": "я замовляю",
-              "de": "ich bestelle"
+              "de": "ich bestelle",
+              "fr": "je commande"
             },
             {
               "es": "pides",
               "en": "you order",
               "it": "chiedi",
               "uk": "ти замовляєш",
-              "de": "du bestellst"
+              "de": "du bestellst",
+              "fr": "tu commandes"
             },
             {
               "es": "pide",
               "en": "he/she orders",
               "it": "chiede",
               "uk": "він/вона замовляє",
-              "de": "er/sie bestellt"
+              "de": "er/sie bestellt",
+              "fr": "il/elle commande"
             },
             {
               "es": "pedimos",
               "en": "we order",
               "it": "chiediamo",
               "uk": "ми замовляємо",
-              "de": "wir bestellen"
+              "de": "wir bestellen",
+              "fr": "nous commandons"
             },
             {
               "es": "pedís",
               "en": "you all order",
               "it": "chiedete",
               "uk": "ви замовляєте",
-              "de": "ihr bestellt"
+              "de": "ihr bestellt",
+              "fr": "vous commandez"
             },
             {
               "es": "piden",
               "en": "they order",
               "it": "chiedono",
               "uk": "вони замовляють",
-              "de": "sie bestellen"
+              "de": "sie bestellen",
+              "fr": "ils/elles commandent"
             }
           ]
         },
@@ -2611,7 +2867,8 @@
             "en": "I order",
             "it": "ordino",
             "uk": "я замовляю",
-            "de": "ich bestelle"
+            "de": "ich bestelle",
+            "fr": "je commande"
           },
           "stems": [
             "ped",
@@ -2639,11 +2896,13 @@
           "it": "I miei amici ordinano la pizza.",
           "uk": "Мої друзі замовляють піцу.",
           "de": "Meine Freunde bestellen Pizza.",
+          "fr": "Mes amis commandent une pizza.",
           "hint": {
             "en": "Mis amigos = ellos: e → i, pid- + -en.",
             "it": "Mis amigos = ellos: e → i, pid- + -en.",
             "uk": "Mis amigos = ellos: e → i, pid- + -en.",
-            "de": "Mis amigos = ellos: e → i, pid- + -en."
+            "de": "Mis amigos = ellos: e → i, pid- + -en.",
+            "fr": "Mis amigos = ellos : e → i, pid- + -en."
           }
         },
         {
@@ -2666,7 +2925,8 @@
             "en": "In Spain the menú del día has three parts: de primero, de segundo and de postre. Say the part, then what you want.",
             "it": "In Spagna il menù del giorno ha tre parti: de primero, de segundo e de postre. Di la parte, poi cosa vuoi.",
             "uk": "В Іспанії menú del día має три частини: de primero, de segundo і de postre. Назви частину, а потім те, що хочеш.",
-            "de": "In Spanien hat das menú del día drei Teile: de primero, de segundo und de postre. Nenn zuerst den Teil, dann, was du möchtest."
+            "de": "In Spanien hat das menú del día drei Teile: de primero, de segundo und de postre. Nenn zuerst den Teil, dann, was du möchtest.",
+            "fr": "En Espagne, le menú del día a trois parties : de primero, de segundo et de postre. Dis la partie, puis ce que tu veux."
           },
           "examples": [
             {
@@ -2674,21 +2934,24 @@
               "en": "For the first course, I'll have the salad.",
               "it": "Di primo prendo l'insalata.",
               "uk": "На перше я візьму салат.",
-              "de": "Als Vorspeise nehme ich den Salat."
+              "de": "Als Vorspeise nehme ich den Salat.",
+              "fr": "En entrée, je prends la salade."
             },
             {
               "es": "De segundo, quiero el pescado.",
               "en": "For the main course, I'd like the fish.",
               "it": "Di secondo vorrei il pesce.",
               "uk": "На друге я хотів(-ла) б рибу.",
-              "de": "Als Hauptgericht möchte ich den Fisch."
+              "de": "Als Hauptgericht möchte ich den Fisch.",
+              "fr": "En plat, je voudrais le poisson."
             },
             {
               "es": "De postre, un helado.",
               "en": "For dessert, an ice cream.",
               "it": "Come dolce, un gelato.",
               "uk": "На десерт — морозиво.",
-              "de": "Als Nachtisch ein Eis."
+              "de": "Als Nachtisch ein Eis.",
+              "fr": "En dessert, une glace."
             }
           ],
           "teaches": []
@@ -2700,7 +2963,8 @@
             "en": "Order the soup as your first course.",
             "it": "Ordina la zuppa come primo.",
             "uk": "Замов суп на перше.",
-            "de": "Als Vorspeise nehme ich die Suppe."
+            "de": "Bestell die Suppe als Vorspeise.",
+            "fr": "Commande la soupe en entrée."
           },
           "accepted": [
             "De primero, pido la sopa."
@@ -2715,12 +2979,14 @@
           "en": "For the first course, I'll have the soup.",
           "it": "Di primo prendo la zuppa.",
           "uk": "На перше я візьму суп.",
-          "de": "Bestell die Suppe als Vorspeise.",
+          "de": "Als Vorspeise nehme ich die Suppe.",
+          "fr": "En entrée, je prends la soupe.",
           "hint": {
             "en": "The first course: de primero.",
             "it": "Il primo: de primero.",
             "uk": "Перша страва: de primero.",
-            "de": "Die Vorspeise: de primero."
+            "de": "Die Vorspeise: de primero.",
+            "fr": "L'entrée : de primero."
           }
         },
         {
@@ -2738,11 +3004,13 @@
           "it": "Come dolce vorrei un gelato.",
           "uk": "На десерт я хотів(-ла) б морозиво.",
           "de": "Als Nachtisch möchte ich ein Eis.",
+          "fr": "En dessert, je voudrais une glace.",
           "hint": {
             "en": "Ice cream comes at the end: de postre.",
             "it": "Il gelato arriva alla fine: de postre.",
             "uk": "Морозиво буває в кінці: de postre.",
-            "de": "Das Eis kommt am Schluss: de postre."
+            "de": "Das Eis kommt am Schluss: de postre.",
+            "fr": "La glace arrive à la fin : de postre."
           }
         },
         {
@@ -2769,7 +3037,8 @@
             "en": "repetir (to repeat) and servir (to serve) change like pedir: e → i. ¿Puedes repetir? is very useful when you don't understand.",
             "it": "repetir (ripetere) e servir (servire) cambiano come pedir: e → i. ¿Puedes repetir? è utilissimo quando non capisci.",
             "uk": "repetir (повторювати) і servir (подавати) змінюються, як pedir: e → i. ¿Puedes repetir? дуже знадобиться, коли ти не розумієш.",
-            "de": "repetir (wiederholen) und servir (servieren) ändern sich wie pedir: e → i. ¿Puedes repetir? ist sehr nützlich, wenn du etwas nicht verstehst."
+            "de": "repetir (wiederholen) und servir (servieren) ändern sich wie pedir: e → i. ¿Puedes repetir? ist sehr nützlich, wenn du etwas nicht verstehst.",
+            "fr": "repetir (répéter) et servir changent comme pedir : e → i. ¿Puedes repetir? est très utile quand tu ne comprends pas."
           },
           "examples": [
             {
@@ -2777,21 +3046,24 @@
               "en": "Can you repeat, please?",
               "it": "Puoi ripetere, per favore?",
               "uk": "Можеш повторити, будь ласка?",
-              "de": "Kannst du das bitte wiederholen?"
+              "de": "Kannst du das bitte wiederholen?",
+              "fr": "Tu peux répéter, s'il te plaît ?"
             },
             {
               "es": "El camarero sirve la sopa.",
               "en": "The waiter serves the soup.",
               "it": "Il cameriere serve la zuppa.",
               "uk": "Офіціант подає суп.",
-              "de": "Der Kellner serviert die Suppe."
+              "de": "Der Kellner serviert die Suppe.",
+              "fr": "Le serveur sert la soupe."
             },
             {
               "es": "¿Aquí sirven el menú del día?",
               "en": "Do they serve a set menu here?",
               "it": "Qui servono il menù del giorno?",
               "uk": "Тут подають комплексний обід?",
-              "de": "Gibt es hier ein Mittagsmenü?"
+              "de": "Gibt es hier ein Mittagsmenü?",
+              "fr": "Ici, on sert le menu du jour ?"
             }
           ],
           "teaches": [
@@ -2800,84 +3072,96 @@
               "en": "I repeat",
               "it": "ripeto",
               "uk": "я повторюю",
-              "de": "ich wiederhole"
+              "de": "ich wiederhole",
+              "fr": "je répète"
             },
             {
               "es": "repites",
               "en": "you repeat",
               "it": "ripeti",
               "uk": "ти повторюєш",
-              "de": "du wiederholst"
+              "de": "du wiederholst",
+              "fr": "tu répètes"
             },
             {
               "es": "repite",
               "en": "he/she repeats",
               "it": "ripete",
               "uk": "він/вона повторює",
-              "de": "er/sie wiederholt"
+              "de": "er/sie wiederholt",
+              "fr": "il/elle répète"
             },
             {
               "es": "repetimos",
               "en": "we repeat",
               "it": "ripetiamo",
               "uk": "ми повторюємо",
-              "de": "wir wiederholen"
+              "de": "wir wiederholen",
+              "fr": "nous répétons"
             },
             {
               "es": "repetís",
               "en": "you all repeat",
               "it": "ripetete",
               "uk": "ви повторюєте",
-              "de": "ihr wiederholt"
+              "de": "ihr wiederholt",
+              "fr": "vous répétez"
             },
             {
               "es": "repiten",
               "en": "they repeat",
               "it": "ripetono",
               "uk": "вони повторюють",
-              "de": "sie wiederholen"
+              "de": "sie wiederholen",
+              "fr": "ils/elles répètent"
             },
             {
               "es": "sirvo",
               "en": "I serve",
               "it": "servo",
               "uk": "я подаю",
-              "de": "ich serviere"
+              "de": "ich serviere",
+              "fr": "je sers"
             },
             {
               "es": "sirves",
               "en": "you serve",
               "it": "servi",
               "uk": "ти подаєш",
-              "de": "du servierst"
+              "de": "du servierst",
+              "fr": "tu sers"
             },
             {
               "es": "sirve",
               "en": "he/she serves",
               "it": "serve",
               "uk": "він/вона подає",
-              "de": "er/sie serviert"
+              "de": "er/sie serviert",
+              "fr": "il/elle sert"
             },
             {
               "es": "servimos",
               "en": "we serve",
               "it": "serviamo",
               "uk": "ми подаємо",
-              "de": "wir servieren"
+              "de": "wir servieren",
+              "fr": "nous servons"
             },
             {
               "es": "servís",
               "en": "you all serve",
               "it": "servite",
               "uk": "ви подаєте",
-              "de": "ihr serviert"
+              "de": "ihr serviert",
+              "fr": "vous servez"
             },
             {
               "es": "sirven",
               "en": "they serve",
               "it": "servono",
               "uk": "вони подають",
-              "de": "sie servieren"
+              "de": "sie servieren",
+              "fr": "ils/elles servent"
             }
           ]
         },
@@ -2896,11 +3180,13 @@
           "it": "Puoi ripetere, per favore?",
           "uk": "Можеш повторити, будь ласка?",
           "de": "Kannst du das bitte wiederholen?",
+          "fr": "Tu peux répéter, s'il te plaît ?",
           "hint": {
             "en": "After poder the verb stays as it is.",
             "it": "Dopo poder il verbo resta all'infinito.",
             "uk": "Після poder дієслово залишається без змін.",
-            "de": "Nach poder bleibt das Verb in der Grundform."
+            "de": "Nach poder bleibt das Verb in der Grundform.",
+            "fr": "Après poder, le verbe reste à l'infinitif."
           }
         },
         {
@@ -2916,11 +3202,13 @@
           "it": "Qui servono il menù del giorno?",
           "uk": "Тут подають комплексний обід?",
           "de": "Gibt es hier ein Mittagsmenü?",
+          "fr": "Ici, on sert le menu du jour ?",
           "hint": {
             "en": "They serve: e → i, sirv- + -en.",
             "it": "Servono: e → i, sirv- + -en.",
             "uk": "Вони подають: e → i, sirv- + -en.",
-            "de": "Sie servieren: e → i, sirv- + -en."
+            "de": "Sie servieren: e → i, sirv- + -en.",
+            "fr": "Ils servent : e → i, sirv- + -en."
           }
         },
         {
@@ -2931,7 +3219,8 @@
             "en": "you all order",
             "it": "ordinate",
             "uk": "ви замовляєте",
-            "de": "ihr bestellt"
+            "de": "ihr bestellt",
+            "fr": "vous commandez"
           },
           "stems": [
             "ped",
@@ -2961,11 +3250,13 @@
           "it": "Il cameriere serve il vino.",
           "uk": "Офіціант подає вино.",
           "de": "Der Kellner serviert den Wein.",
+          "fr": "Le serveur sert le vin.",
           "hint": {
             "en": "El camarero = él: sirv- + -e.",
             "it": "El camarero = él: sirv- + -e.",
             "uk": "El camarero = él: sirv- + -e.",
-            "de": "El camarero = él: sirv- + -e."
+            "de": "El camarero = él: sirv- + -e.",
+            "fr": "El camarero = él : sirv- + -e."
           }
         },
         {
@@ -2975,7 +3266,8 @@
             "en": "Say that you don't understand and ask them to repeat.",
             "it": "Di che non capisci e chiedi di ripetere.",
             "uk": "Скажи, що не розумієш, і попроси повторити.",
-            "de": "Ich verstehe nicht. Kannst du das bitte wiederholen?"
+            "de": "Sag, dass du nicht verstehst, und bitte darum, es zu wiederholen.",
+            "fr": "Dis que tu ne comprends pas et demande de répéter."
           },
           "accepted": [
             "No entiendo. ¿Puedes repetir, por favor?"
@@ -2991,12 +3283,14 @@
           "en": "I don't understand. Can you repeat, please?",
           "it": "Non capisco. Puoi ripetere, per favore?",
           "uk": "Я не розумію. Можеш повторити, будь ласка?",
-          "de": "Sag, dass du nicht verstehst, und bitte darum, es zu wiederholen.",
+          "de": "Ich verstehe nicht. Kannst du das bitte wiederholen?",
+          "fr": "Je ne comprends pas. Tu peux répéter, s'il te plaît ?",
           "hint": {
             "en": "puedes + repetir as it is.",
             "it": "puedes + repetir all'infinito.",
             "uk": "puedes + repetir без змін.",
-            "de": "puedes + repetir in der Grundform."
+            "de": "puedes + repetir in der Grundform.",
+            "fr": "puedes + repetir à l'infinitif."
           }
         },
         {
@@ -3006,7 +3300,8 @@
             "en": "You order the set menu. Write in Spanish: «For the first course I'll have the salad, for the main course the fish and for dessert an ice cream.»",
             "it": "Ordini il menù del giorno. Scrivi in spagnolo: «Di primo prendo l'insalata, di secondo il pesce e come dolce un gelato.»",
             "uk": "Ти замовляєш комплексний обід. Напиши іспанською: «На перше я візьму салат, на друге рибу, а на десерт морозиво.»",
-            "de": "Du bestellst das Mittagsmenü. Schreib auf Spanisch: «Als Vorspeise nehme ich den Salat, als Hauptgericht den Fisch und als Nachtisch ein Eis.»"
+            "de": "Du bestellst das Mittagsmenü. Schreib auf Spanisch: «Als Vorspeise nehme ich den Salat, als Hauptgericht den Fisch und als Nachtisch ein Eis.»",
+            "fr": "Tu commandes le menu du jour. Écris en espagnol : «En entrée, je prends la salade, en plat le poisson et en dessert une glace.»"
           },
           "accepted": [
             "De primero pido la ensalada, de segundo el pescado y de postre un helado.",
@@ -3020,7 +3315,8 @@
             "en": "For the first course I'll have the salad, for the main course the fish and for dessert an ice cream.",
             "it": "Di primo prendo l'insalata, di secondo il pesce e come dolce un gelato.",
             "uk": "На перше я візьму салат, на друге рибу, а на десерт морозиво.",
-            "de": "Als Vorspeise nehme ich den Salat, als Hauptgericht den Fisch und als Nachtisch ein Eis."
+            "de": "Als Vorspeise nehme ich den Salat, als Hauptgericht den Fisch und als Nachtisch ein Eis.",
+            "fr": "En entrée, je prends la salade, en plat le poisson et en dessert une glace."
           }
         }
       ]
@@ -3032,7 +3328,8 @@
       "en": "You and a friend are having lunch at a restaurant in {city}. Order the set menu, and change your order when a dish has run out.",
       "it": "Tu e un amico pranzate in un ristorante a {city}. Ordinate il menù del giorno e cambiate l'ordine quando un piatto è finito.",
       "uk": "Ви з другом обідаєте в ресторані в місті {city}. Замовте комплексний обід і змініть замовлення, коли якоїсь страви вже немає.",
-      "de": "Du und ein Freund esst in einem Restaurant in {city} zu Mittag. Bestellt das Mittagsmenü und ändert eure Bestellung, wenn ein Gericht aus ist."
+      "de": "Du und ein Freund esst in einem Restaurant in {city} zu Mittag. Bestellt das Mittagsmenü und ändert eure Bestellung, wenn ein Gericht aus ist.",
+      "fr": "Tu déjeunes avec un ami dans un restaurant à {city}. Commandez le menu du jour, et changez votre commande quand un plat n'est plus disponible."
     },
     "items": [
       {
@@ -3044,6 +3341,7 @@
             "it": "il menù",
             "uk": "меню",
             "de": "die Speisekarte",
+            "fr": "la carte",
             "kind": "chunk"
           },
           {
@@ -3052,6 +3350,7 @@
             "it": "non è rimasto",
             "uk": "вже немає",
             "de": "es ist nichts mehr da",
+            "fr": "il n'en reste plus",
             "kind": "chunk"
           },
           {
@@ -3060,6 +3359,7 @@
             "it": "invece di",
             "uk": "замість",
             "de": "statt, anstelle von",
+            "fr": "au lieu de",
             "kind": "rail"
           }
         ]
@@ -3071,7 +3371,8 @@
           "en": "The waiter says «¡Hola! ¿Qué tal?». Greet him and ask for the menu.",
           "it": "Il cameriere dice «¡Hola! ¿Qué tal?». Salutalo e chiedi il menù.",
           "uk": "Офіціант каже «¡Hola! ¿Qué tal?». Привітайся і попроси меню.",
-          "de": "Hallo. Haben Sie bitte die Speisekarte?"
+          "de": "Der Kellner sagt «¡Hola! ¿Qué tal?». Begrüß ihn und bitte um die Speisekarte.",
+          "fr": "Le serveur dit «¡Hola! ¿Qué tal?». Salue-le et demande la carte."
         },
         "accepted": [
           "Hola. ¿Tiene la carta, por favor?"
@@ -3086,12 +3387,14 @@
         "en": "Hello. Do you have the menu, please?",
         "it": "Buongiorno. Ha il menù, per favore?",
         "uk": "Добрий день. У вас є меню, будь ласка?",
-        "de": "Der Kellner sagt «¡Hola! ¿Qué tal?». Begrüß ihn und bitte um die Speisekarte.",
+        "de": "Hallo. Haben Sie bitte die Speisekarte?",
+        "fr": "Bonjour. Vous avez la carte, s'il vous plaît ?",
         "hint": {
           "en": "With a waiter, use usted: tiene.",
           "it": "Con un cameriere usa usted: tiene.",
           "uk": "З офіціантом використовуй usted: tiene.",
-          "de": "Beim Kellner nimmst du usted: tiene."
+          "de": "Beim Kellner nimmst du usted: tiene.",
+          "fr": "Avec un serveur, utilise usted (comme « vous ») : tiene."
         }
       },
       {
@@ -3109,11 +3412,13 @@
         "it": "Sì, vogliamo il menù del giorno.",
         "uk": "Так, ми хочемо комплексний обід.",
         "de": "Ja, wir möchten das Mittagsmenü.",
+        "fr": "Oui, nous voulons le menu du jour.",
         "hint": {
           "en": "You and your friend = nosotros: queremos, no ie.",
           "it": "Tu e il tuo amico = nosotros: queremos, senza ie.",
           "uk": "Ти і твій друг = nosotros: queremos, без ie.",
-          "de": "Du und dein Freund = nosotros: queremos, ohne ie."
+          "de": "Du und dein Freund = nosotros: queremos, ohne ie.",
+          "fr": "Ton ami et toi = nosotros : queremos, sans ie."
         }
       },
       {
@@ -3129,11 +3434,13 @@
         "it": "Di primo prendo la zuppa.",
         "uk": "На перше я візьму суп.",
         "de": "Als Vorspeise nehme ich die Suppe.",
+        "fr": "En entrée, je prends la soupe.",
         "hint": {
           "en": "Yo: e → i, pid- + -o.",
           "it": "Yo: e → i, pid- + -o.",
           "uk": "Yo: e → i, pid- + -o.",
-          "de": "Yo: e → i, pid- + -o."
+          "de": "Yo: e → i, pid- + -o.",
+          "fr": "Yo : e → i, pid- + -o."
         }
       },
       {
@@ -3143,7 +3450,8 @@
           "en": "The waiter says «No queda sopa». Order the salad instead of the soup.",
           "it": "Il cameriere dice «No queda sopa». Ordina l'insalata invece della zuppa.",
           "uk": "Офіціант каже «No queda sopa». Замов салат замість супу.",
-          "de": "Ich nehme den Salat statt der Suppe."
+          "de": "Der Kellner sagt «No queda sopa». Bestell den Salat statt der Suppe.",
+          "fr": "Le serveur dit «No queda sopa». Commande la salade au lieu de la soupe."
         },
         "accepted": [
           "Pido la ensalada en vez de la sopa."
@@ -3158,12 +3466,14 @@
         "en": "I'll have the salad instead of the soup.",
         "it": "Prendo l'insalata invece della zuppa.",
         "uk": "Я візьму салат замість супу.",
-        "de": "Der Kellner sagt «No queda sopa». Bestell den Salat statt der Suppe.",
+        "de": "Ich nehme den Salat statt der Suppe.",
+        "fr": "Je prends la salade au lieu de la soupe.",
         "hint": {
           "en": "What you want, then en vez de + what's missing.",
           "it": "Quello che vuoi, poi en vez de + quello che manca.",
           "uk": "Те, що хочеш, потім en vez de + те, чого немає.",
-          "de": "Was du möchtest, dann en vez de + was fehlt."
+          "de": "Was du möchtest, dann en vez de + was fehlt.",
+          "fr": "Ce que tu veux, puis en vez de + ce qui manque."
         }
       },
       {
@@ -3181,11 +3491,13 @@
         "it": "Di secondo, il mio amico preferisce la carne.",
         "uk": "На друге мій друг віддає перевагу м'ясу.",
         "de": "Als Hauptgericht nimmt mein Freund lieber das Fleisch.",
+        "fr": "En plat, mon ami préfère la viande.",
         "hint": {
           "en": "Mi amigo = él: prefier- + -e.",
           "it": "Mi amigo = él: prefier- + -e.",
           "uk": "Mi amigo = él: prefier- + -e.",
-          "de": "Mi amigo = él: prefier- + -e."
+          "de": "Mi amigo = él: prefier- + -e.",
+          "fr": "Mi amigo = él : prefier- + -e."
         }
       },
       {
@@ -3201,11 +3513,13 @@
         "it": "E io vorrei il pesce.",
         "uk": "А я хотів(-ла) б рибу.",
         "de": "Und ich möchte den Fisch.",
+        "fr": "Et moi, je voudrais le poisson.",
         "hint": {
           "en": "Yo: e → ie, quier- + -o.",
           "it": "Yo: e → ie, quier- + -o.",
           "uk": "Yo: e → ie, quier- + -o.",
-          "de": "Yo: e → ie, quier- + -o."
+          "de": "Yo: e → ie, quier- + -o.",
+          "fr": "Yo : e → ie, quier- + -o."
         }
       },
       {
@@ -3215,7 +3529,8 @@
           "en": "The waiter speaks very fast. Say you don't understand and ask him to repeat.",
           "it": "Il cameriere parla velocissimo. Di che non capisci e chiedigli di ripetere.",
           "uk": "Офіціант говорить дуже швидко. Скажи, що не розумієш, і попроси його повторити.",
-          "de": "Ich verstehe nicht. Können Sie das bitte wiederholen?"
+          "de": "Der Kellner spricht sehr schnell. Sag, dass du nicht verstehst, und bitte ihn, es zu wiederholen.",
+          "fr": "Le serveur parle très vite. Dis que tu ne comprends pas et demande-lui de répéter."
         },
         "accepted": [
           "No entiendo. ¿Puede repetir, por favor?"
@@ -3231,12 +3546,14 @@
         "en": "I don't understand. Could you repeat, please?",
         "it": "Non capisco. Può ripetere, per favore?",
         "uk": "Я не розумію. Не могли б ви повторити, будь ласка?",
-        "de": "Der Kellner spricht sehr schnell. Sag, dass du nicht verstehst, und bitte ihn, es zu wiederholen.",
+        "de": "Ich verstehe nicht. Können Sie das bitte wiederholen?",
+        "fr": "Je ne comprends pas. Vous pouvez répéter, s'il vous plaît ?",
         "hint": {
           "en": "To the waiter (usted): puede + repetir.",
           "it": "Al cameriere (usted): puede + repetir.",
           "uk": "До офіціанта (usted): puede + repetir.",
-          "de": "Zum Kellner (usted): puede + repetir."
+          "de": "Zum Kellner (usted): puede + repetir.",
+          "fr": "Au serveur (usted) : puede + repetir."
         }
       },
       {
@@ -3246,7 +3563,8 @@
           "en": "The waiter says «No queda pescado». Order the meat instead of the fish.",
           "it": "Il cameriere dice «No queda pescado». Ordina la carne invece del pesce.",
           "uk": "Офіціант каже «No queda pescado». Замов м'ясо замість риби.",
-          "de": "Ich nehme das Fleisch statt des Fisches."
+          "de": "Der Kellner sagt «No queda pescado». Bestell das Fleisch statt des Fisches.",
+          "fr": "Le serveur dit «No queda pescado». Commande la viande au lieu du poisson."
         },
         "accepted": [
           "Pido la carne en vez del pescado."
@@ -3261,12 +3579,14 @@
         "en": "I'll have the meat instead of the fish.",
         "it": "Prendo la carne invece del pesce.",
         "uk": "Я візьму м'ясо замість риби.",
-        "de": "Der Kellner sagt «No queda pescado». Bestell das Fleisch statt des Fisches.",
+        "de": "Ich nehme das Fleisch statt des Fisches.",
+        "fr": "Je prends la viande au lieu du poisson.",
         "hint": {
           "en": "de + el becomes del: en vez del pescado.",
           "it": "de + el diventa del: en vez del pescado.",
           "uk": "de + el стає del: en vez del pescado.",
-          "de": "de + el wird zu del: en vez del pescado."
+          "de": "de + el wird zu del: en vez del pescado.",
+          "fr": "de + el devient del : en vez del pescado — comme « au lieu du poisson »."
         }
       },
       {
@@ -3284,11 +3604,13 @@
         "it": "Come dolce prendiamo un gelato.",
         "uk": "На десерт ми візьмемо морозиво.",
         "de": "Als Nachtisch nehmen wir ein Eis.",
+        "fr": "En dessert, nous prenons une glace.",
         "hint": {
           "en": "Nosotros keeps the e: pedimos.",
           "it": "Nosotros tiene la e: pedimos.",
           "uk": "Nosotros зберігає e: pedimos.",
-          "de": "Nosotros behält das e: pedimos."
+          "de": "Nosotros behält das e: pedimos.",
+          "fr": "Nosotros garde le e : pedimos."
         }
       },
       {
@@ -3304,11 +3626,13 @@
         "it": "Quanto costa il menù del giorno?",
         "uk": "Скільки коштує комплексний обід?",
         "de": "Wie viel kostet das Mittagsmenü?",
+        "fr": "Combien coûte le menu du jour ?",
         "hint": {
           "en": "One menu: o → ue, cuesta.",
           "it": "Un menù: o → ue, cuesta.",
           "uk": "Одне меню: o → ue, cuesta.",
-          "de": "Ein Menü: o → ue, cuesta."
+          "de": "Ein Menü: o → ue, cuesta.",
+          "fr": "Un seul menu : o → ue, cuesta."
         }
       },
       {
@@ -3318,7 +3642,8 @@
           "en": "The waiter asks «¿Algo más?». Say no thanks, and ask for the bill.",
           "it": "Il cameriere chiede «¿Algo más?». Di no grazie e chiedi il conto.",
           "uk": "Офіціант питає «¿Algo más?». Скажи «ні, дякую» і попроси рахунок.",
-          "de": "Nein, danke. Die Rechnung, bitte."
+          "de": "Der Kellner fragt «¿Algo más?». Sag nein danke und bitte um die Rechnung.",
+          "fr": "Le serveur demande «¿Algo más?». Dis non merci, et demande l'addition."
         },
         "accepted": [
           "No, gracias. La cuenta, por favor."
@@ -3333,12 +3658,14 @@
         "en": "No, thank you. The bill, please.",
         "it": "No, grazie. Il conto, per favore.",
         "uk": "Ні, дякую. Рахунок, будь ласка.",
-        "de": "Der Kellner fragt «¿Algo más?». Sag nein danke und bitte um die Rechnung.",
+        "de": "Nein, danke. Die Rechnung, bitte.",
+        "fr": "Non, merci. L'addition, s'il vous plaît.",
         "hint": {
           "en": "The bill is la cuenta; la carta is the menu.",
           "it": "Il conto è la cuenta; la carta è il menù.",
           "uk": "Рахунок — це la cuenta; la carta — це меню.",
-          "de": "Die Rechnung heißt la cuenta; la carta ist die Speisekarte."
+          "de": "Die Rechnung heißt la cuenta; la carta ist die Speisekarte.",
+          "fr": "L'addition, c'est la cuenta ; la carta, c'est la carte."
         }
       },
       {
@@ -3348,7 +3675,8 @@
           "en": "Tell the waiter your order. Write in Spanish: «For the first course I'll have the salad instead of the soup, and for the main course, the meat.»",
           "it": "Di al cameriere il tuo ordine. Scrivi in spagnolo: «Di primo prendo l'insalata invece della zuppa e di secondo la carne.»",
           "uk": "Скажи офіціантові своє замовлення. Напиши іспанською: «На перше я візьму салат замість супу, а на друге — м'ясо.»",
-          "de": "Sag dem Kellner deine Bestellung. Schreib auf Spanisch: «Als Vorspeise nehme ich den Salat statt der Suppe und als Hauptgericht das Fleisch.»"
+          "de": "Sag dem Kellner deine Bestellung. Schreib auf Spanisch: «Als Vorspeise nehme ich den Salat statt der Suppe und als Hauptgericht das Fleisch.»",
+          "fr": "Dis ta commande au serveur. Écris en espagnol : «En entrée, je prends la salade au lieu de la soupe, et en plat, la viande.»"
         },
         "accepted": [
           "De primero pido la ensalada en vez de la sopa y de segundo, la carne.",
@@ -3362,7 +3690,8 @@
           "en": "For the first course I'll have the salad instead of the soup, and for the main course, the meat.",
           "it": "Di primo prendo l'insalata invece della zuppa e di secondo la carne.",
           "uk": "На перше я візьму салат замість супу, а на друге — м'ясо.",
-          "de": "Als Vorspeise nehme ich den Salat statt der Suppe und als Hauptgericht das Fleisch."
+          "de": "Als Vorspeise nehme ich den Salat statt der Suppe und als Hauptgericht das Fleisch.",
+          "fr": "En entrée, je prends la salade au lieu de la soupe, et en plat, la viande."
         }
       }
     ]

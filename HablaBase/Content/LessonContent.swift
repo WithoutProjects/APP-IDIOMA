@@ -57,10 +57,11 @@ enum LessonContent {
         return Lesson(
             id: "\(unitId)test",
             title: unit.test.title,
-            titleGloss: Gloss(en: "Unit \(unit.number) test", it: "Test dell'unità \(unit.number)", uk: "Тест розділу \(unit.number)", de: "Test zu Einheit \(unit.number)"),
+            titleGloss: Gloss(en: "Unit \(unit.number) test", it: "Test dell'unità \(unit.number)", uk: "Тест розділу \(unit.number)", de: "Test zu Einheit \(unit.number)", fr: "Test de l'unité \(unit.number)"),
             goal: Gloss(en: "Get 8 out of 10 right to skip the unit.", it: "Rispondi bene a 8 domande su 10 per saltare l'unità.",
                        uk: "Дай 8 правильних відповідей із 10, щоб пропустити розділ.",
-                       de: "Beantworte 8 von 10 Fragen richtig, um die Einheit zu überspringen."),
+                       de: "Beantworte 8 von 10 Fragen richtig, um die Einheit zu überspringen.",
+                       fr: "Réponds juste à 8 questions sur 10 pour passer l'unité."),
             mode: .unitTest(unitId: unitId),
             items: items.shuffled(using: &rng)
         )
@@ -170,7 +171,7 @@ struct LessonSpec: Decodable {
         return Lesson(
             id: id,
             title: title ?? node?.title ?? id,
-            titleGloss: titleGloss?.gloss ?? node?.gloss ?? Gloss(en: "", it: "", uk: "", de: ""),
+            titleGloss: titleGloss?.gloss ?? node?.gloss ?? Gloss(en: "", it: "", uk: "", de: "", fr: ""),
             goal: goal.gloss,
             mode: .lesson,
             items: built,
@@ -266,7 +267,7 @@ struct ItemSpec: Decodable {
     func items(id: String, fill: Placeholders) -> [LessonItem] {
         let itemBeat = self.beat.flatMap(Beat.init(rawValue:))
         let formKeys = self.keys ?? []
-        let hintGloss = self.hint.map(fill.gloss) ?? Gloss(en: "", it: "", uk: "", de: "")
+        let hintGloss = self.hint.map(fill.gloss) ?? Gloss(en: "", it: "", uk: "", de: "", fr: "")
         let gloss = fill.gloss(GlossSpec(en: en ?? "", it: it ?? "", uk: uk, de: de, fr: fr, pt: pt, zh: zh))
 
         switch type {
@@ -280,7 +281,7 @@ struct ItemSpec: Decodable {
             let card = FrameCard(
                 bricks: (bricks ?? []).map { FrameBrick(text: fill($0.text), kind: Brick(name: $0.kind)) },
                 result: result.map { VerbForm(stem: $0.stem, ending: $0.ending) },
-                rule: rule.map(fill.gloss) ?? Gloss(en: "", it: "", uk: "", de: ""),
+                rule: rule.map(fill.gloss) ?? Gloss(en: "", it: "", uk: "", de: "", fr: ""),
                 examples: (examples ?? []).map(fill.example),
                 teaches: (teaches ?? []).map { $0.vocab(fill) }
             )

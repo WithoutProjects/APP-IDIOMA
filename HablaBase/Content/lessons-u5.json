@@ -7,14 +7,16 @@
     "en": "Say what you like and what you don't: one thing or many.",
     "it": "Dire cosa ti piace e cosa no: una cosa o tante.",
     "uk": "Скажи, що тобі подобається, а що ні: одна річ чи багато.",
-    "de": "Sag, was du magst und was nicht: eine Sache oder mehrere."
+    "de": "Sag, was du magst und was nicht: eine Sache oder mehrere.",
+    "fr": "Dire ce que tu aimes et ce que tu n'aimes pas : une chose ou plusieurs."
    },
    "target": {
     "es": "Me gusta el chocolate, pero no me gustan las verduras.",
     "en": "I like chocolate, but I don't like vegetables.",
     "it": "Mi piace il cioccolato, ma non mi piacciono le verdure.",
     "uk": "Мені подобається шоколад, але мені не подобаються овочі.",
-    "de": "Ich mag Schokolade, aber ich mag kein Gemüse."
+    "de": "Ich mag Schokolade, aber ich mag kein Gemüse.",
+    "fr": "J'aime le chocolat, mais je n'aime pas les légumes."
    },
    "items": [
     {
@@ -26,6 +28,7 @@
        "it": "la carne",
        "uk": "м'ясо",
        "de": "das Fleisch",
+       "fr": "la viande",
        "kind": "chunk"
       },
       {
@@ -34,6 +37,7 @@
        "it": "il pesce",
        "uk": "риба",
        "de": "der Fisch",
+       "fr": "le poisson",
        "kind": "chunk"
       },
       {
@@ -42,6 +46,7 @@
        "it": "le verdure",
        "uk": "овочі",
        "de": "das Gemüse",
+       "fr": "les légumes",
        "kind": "chunk"
       },
       {
@@ -50,6 +55,7 @@
        "it": "il cioccolato",
        "uk": "шоколад",
        "de": "die Schokolade",
+       "fr": "le chocolat",
        "kind": "chunk"
       }
      ]
@@ -63,6 +69,7 @@
        "it": "lo sport",
        "uk": "спорт",
        "de": "der Sport",
+       "fr": "le sport",
        "kind": "chunk"
       },
       {
@@ -71,6 +78,7 @@
        "it": "i film",
        "uk": "фільми",
        "de": "die Filme",
+       "fr": "les films",
        "kind": "chunk"
       },
       {
@@ -79,6 +87,7 @@
        "it": "mi piacciono",
        "uk": "мені подобаються (більше ніж одна річ)",
        "de": "ich mag, mir gefallen (mehr als eine Sache)",
+       "fr": "j'aime (plus d'une chose)",
        "kind": "chunk"
       }
      ]
@@ -99,7 +108,8 @@
       "en": "You know me gusta + a verb (me gusta bailar). With a thing it works the same: me gusta + the thing. Keep el or la in front of it.",
       "it": "Conosci già me gusta + verbo (me gusta bailar). Con una cosa funziona uguale: me gusta + la cosa. Tieni el o la davanti.",
       "uk": "Ти вже знаєш me gusta + дієслово (me gusta bailar). З річчю так само: me gusta + річ. Залишай el або la перед нею.",
-      "de": "Du kennst schon me gusta + Verb (me gusta bailar). Mit einer Sache funktioniert es genauso: me gusta + die Sache. Lass el oder la davor stehen."
+      "de": "Du kennst schon me gusta + Verb (me gusta bailar). Mit einer Sache funktioniert es genauso: me gusta + die Sache. Lass el oder la davor stehen.",
+      "fr": "Tu connais déjà me gusta + verbe (me gusta bailar). Avec une chose, c'est pareil : me gusta + la chose. Garde el ou la devant."
      },
      "examples": [
       {
@@ -107,21 +117,24 @@
        "en": "I like chocolate.",
        "it": "Mi piace il cioccolato.",
        "uk": "Мені подобається шоколад.",
-       "de": "Ich mag Schokolade."
+       "de": "Ich mag Schokolade.",
+       "fr": "J'aime le chocolat."
       },
       {
        "es": "Me gusta la carne.",
        "en": "I like meat.",
        "it": "Mi piace la carne.",
        "uk": "Мені подобається м'ясо.",
-       "de": "Ich mag Fleisch."
+       "de": "Ich mag Fleisch.",
+       "fr": "J'aime la viande."
       },
       {
        "es": "Me gusta el café.",
        "en": "I like coffee.",
        "it": "Mi piace il caffè.",
        "uk": "Мені подобається кава.",
-       "de": "Ich mag Kaffee."
+       "de": "Ich mag Kaffee.",
+       "fr": "J'aime le café."
       }
      ]
     },
@@ -138,11 +151,13 @@
      "it": "Mi piace lo sport.",
      "uk": "Мені подобається спорт.",
      "de": "Ich mag Sport.",
+     "fr": "J'aime le sport.",
      "hint": {
       "en": "One thing (el deporte): me gusta.",
       "it": "Una cosa (el deporte): me gusta.",
       "uk": "Одна річ (el deporte): me gusta.",
-      "de": "Eine Sache (el deporte): me gusta."
+      "de": "Eine Sache (el deporte): me gusta.",
+      "fr": "Une seule chose (el deporte) : me gusta."
      }
     },
     {
@@ -151,8 +166,9 @@
      "intention": {
       "en": "Say that you like fish.",
       "it": "Di che ti piace il pesce.",
-      "uk": "Мені подобається риба.",
-      "de": "Ich mag Fisch."
+      "uk": "Скажи, що тобі подобається риба.",
+      "de": "Sag, dass du Fisch magst.",
+      "fr": "Dis que tu aimes le poisson."
      },
      "accepted": [
       "Me gusta el pescado."
@@ -165,13 +181,15 @@
      ],
      "en": "I like fish.",
      "it": "Mi piace il pesce.",
-     "uk": "Скажи, що тобі подобається риба.",
-     "de": "Sag, dass du Fisch magst.",
+     "uk": "Мені подобається риба.",
+     "de": "Ich mag Fisch.",
+     "fr": "J'aime le poisson.",
      "hint": {
       "en": "One thing: me gusta + el pescado.",
       "it": "Una cosa: me gusta + el pescado.",
       "uk": "Одна річ: me gusta + el pescado.",
-      "de": "Eine Sache: me gusta + el pescado."
+      "de": "Eine Sache: me gusta + el pescado.",
+      "fr": "Une seule chose : me gusta + el pescado."
      }
     },
     {
@@ -190,7 +208,8 @@
       "en": "When you like more than one thing (a plural word), add -n: me gustan. Just like Italian mi piace / mi piacciono.",
       "it": "Quando ti piacciono più cose (una parola al plurale), aggiungi -n: me gustan. Proprio come mi piace / mi piacciono.",
       "uk": "Коли тобі подобається більше ніж одна річ (слово в множині), додай -n: me gustan. Так само, як в українській: мені подобається / мені подобаються.",
-      "de": "Wenn dir mehrere Dinge gefallen (ein Wort im Plural), häng -n an: me gustan. Genau wie im Deutschen: mir gefällt / mir gefallen."
+      "de": "Wenn dir mehrere Dinge gefallen (ein Wort im Plural), häng -n an: me gustan. Genau wie im Deutschen: mir gefällt / mir gefallen.",
+      "fr": "Quand tu aimes plus d'une chose (un mot au pluriel), ajoute -n : me gustan."
      },
      "examples": [
       {
@@ -198,21 +217,24 @@
        "en": "I like vegetables.",
        "it": "Mi piacciono le verdure.",
        "uk": "Мені подобаються овочі.",
-       "de": "Ich mag Gemüse."
+       "de": "Ich mag Gemüse.",
+       "fr": "J'aime les légumes."
       },
       {
        "es": "Me gustan las películas.",
        "en": "I like films.",
        "it": "Mi piacciono i film.",
        "uk": "Мені подобаються фільми.",
-       "de": "Ich mag Filme."
+       "de": "Ich mag Filme.",
+       "fr": "J'aime les films."
       },
       {
        "es": "Me gustan los libros.",
        "en": "I like books.",
        "it": "Mi piacciono i libri.",
        "uk": "Мені подобаються книжки.",
-       "de": "Ich mag Bücher."
+       "de": "Ich mag Bücher.",
+       "fr": "J'aime les livres."
       }
      ]
     },
@@ -230,11 +252,13 @@
      "it": "Mi piacciono i film.",
      "uk": "Мені подобаються фільми.",
      "de": "Ich mag Filme.",
+     "fr": "J'aime les films.",
      "hint": {
       "en": "Las películas is plural, so gustan.",
       "it": "Las películas è plurale, quindi gustan.",
       "uk": "Las películas — це множина, тому gustan.",
-      "de": "Las películas ist Plural, also gustan."
+      "de": "Las películas ist Plural, also gustan.",
+      "fr": "Las películas est au pluriel, donc gustan."
      }
     },
     {
@@ -250,11 +274,13 @@
      "it": "Mi piacciono le banane.",
      "uk": "Мені подобаються банани.",
      "de": "Ich mag Bananen.",
+     "fr": "J'aime les bananes.",
      "hint": {
       "en": "Los plátanos is plural: gustan with -n.",
       "it": "Los plátanos è plurale: gustan con la -n.",
       "uk": "Los plátanos — це множина: gustan з -n.",
-      "de": "Los plátanos ist Plural: gustan mit -n."
+      "de": "Los plátanos ist Plural: gustan mit -n.",
+      "fr": "Los plátanos est au pluriel : gustan avec -n."
      }
     },
     {
@@ -277,7 +303,8 @@
       "en": "Put no in front to say you don't like it. Add nada at the end to say you don't like it at all.",
       "it": "Metti no davanti per dire che non ti piace. Aggiungi nada alla fine per dire che non ti piace per niente.",
       "uk": "Постав no спереду, щоб сказати, що тобі не подобається. Додай nada в кінці, щоб сказати, що тобі зовсім не подобається.",
-      "de": "Setz no davor, um zu sagen, dass du etwas nicht magst. Häng nada ans Ende, um zu sagen, dass du es überhaupt nicht magst."
+      "de": "Setz no davor, um zu sagen, dass du etwas nicht magst. Häng nada ans Ende, um zu sagen, dass du es überhaupt nicht magst.",
+      "fr": "Mets no devant pour dire que tu n'aimes pas. Ajoute nada à la fin pour dire que tu n'aimes pas du tout."
      },
      "examples": [
       {
@@ -285,21 +312,24 @@
        "en": "I don't like fish.",
        "it": "Non mi piace il pesce.",
        "uk": "Мені не подобається риба.",
-       "de": "Ich mag keinen Fisch."
+       "de": "Ich mag keinen Fisch.",
+       "fr": "Je n'aime pas le poisson."
       },
       {
        "es": "No me gustan las verduras.",
        "en": "I don't like vegetables.",
        "it": "Non mi piacciono le verdure.",
        "uk": "Мені не подобаються овочі.",
-       "de": "Ich mag kein Gemüse."
+       "de": "Ich mag kein Gemüse.",
+       "fr": "Je n'aime pas les légumes."
       },
       {
        "es": "No me gusta nada el deporte.",
        "en": "I don't like sport at all.",
        "it": "Non mi piace per niente lo sport.",
        "uk": "Мені зовсім не подобається спорт.",
-       "de": "Ich mag Sport überhaupt nicht."
+       "de": "Ich mag Sport überhaupt nicht.",
+       "fr": "Je n'aime pas du tout le sport."
       }
      ],
      "teaches": [
@@ -308,7 +338,8 @@
        "en": "I don't like it at all",
        "it": "non mi piace per niente",
        "uk": "мені зовсім не подобається",
-       "de": "ich mag es überhaupt nicht"
+       "de": "ich mag es überhaupt nicht",
+       "fr": "je n'aime pas du tout"
       }
      ]
     },
@@ -318,8 +349,9 @@
      "intention": {
       "en": "Say that you don't like meat at all.",
       "it": "Di che la carne non ti piace per niente.",
-      "uk": "Мені зовсім не подобається м'ясо.",
-      "de": "Ich mag Fleisch überhaupt nicht."
+      "uk": "Скажи, що тобі зовсім не подобається м'ясо.",
+      "de": "Sag, dass du Fleisch überhaupt nicht magst.",
+      "fr": "Dis que tu n'aimes pas du tout la viande."
      },
      "accepted": [
       "No me gusta nada la carne.",
@@ -335,13 +367,15 @@
      ],
      "en": "I don't like meat at all.",
      "it": "Non mi piace per niente la carne.",
-     "uk": "Скажи, що тобі зовсім не подобається м'ясо.",
-     "de": "Sag, dass du Fleisch überhaupt nicht magst.",
+     "uk": "Мені зовсім не подобається м'ясо.",
+     "de": "Ich mag Fleisch überhaupt nicht.",
+     "fr": "Je n'aime pas du tout la viande.",
      "hint": {
       "en": "No goes first, nada right after gusta.",
       "it": "No va all'inizio, nada subito dopo gusta.",
       "uk": "No стоїть на початку, nada одразу після gusta.",
-      "de": "No kommt an den Anfang, nada direkt nach gusta."
+      "de": "No kommt an den Anfang, nada direkt nach gusta.",
+      "fr": "No se met au début, nada juste après gusta."
      }
     },
     {
@@ -358,11 +392,13 @@
      "it": "Non mi piacciono per niente le verdure.",
      "uk": "Мені зовсім не подобаються овочі.",
      "de": "Ich mag Gemüse überhaupt nicht.",
+     "fr": "Je n'aime pas du tout les légumes.",
      "hint": {
       "en": "With no it's the same rule: plural thing, gustan.",
       "it": "Con no la regola è la stessa: cosa plurale, gustan.",
       "uk": "З no правило те саме: річ у множині — gustan.",
-      "de": "Mit no gilt dieselbe Regel: Sache im Plural, gustan."
+      "de": "Mit no gilt dieselbe Regel: Sache im Plural, gustan.",
+      "fr": "Avec no, c'est la même règle : chose au pluriel, gustan."
      }
     },
     {
@@ -378,11 +414,13 @@
      "it": "Mi piace la musica.",
      "uk": "Мені подобається музика.",
      "de": "Ich mag Musik.",
+     "fr": "J'aime la musique.",
      "hint": {
       "en": "La música is one thing: gusta.",
       "it": "La música è una cosa sola: gusta.",
       "uk": "La música — це одна річ: gusta.",
-      "de": "La música ist eine einzige Sache: gusta."
+      "de": "La música ist eine einzige Sache: gusta.",
+      "fr": "La música est une seule chose : gusta."
      }
     },
     {
@@ -400,11 +438,13 @@
      "it": "Non mi piacciono le verdure.",
      "uk": "Мені не подобаються овочі.",
      "de": "Ich mag kein Gemüse.",
+     "fr": "Je n'aime pas les légumes.",
      "hint": {
       "en": "Gustan needs a plural word after it.",
       "it": "Gustan vuole una parola al plurale.",
       "uk": "Після gustan потрібне слово в множині.",
-      "de": "Nach gustan braucht es ein Wort im Plural."
+      "de": "Nach gustan braucht es ein Wort im Plural.",
+      "fr": "Gustan demande un mot au pluriel après."
      }
     },
     {
@@ -413,8 +453,9 @@
      "intention": {
       "en": "Say that you like coffee but not tea.",
       "it": "Di che ti piace il caffè ma non il tè.",
-      "uk": "Мені подобається кава, але мені не подобається чай.",
-      "de": "Ich mag Kaffee, aber ich mag keinen Tee."
+      "uk": "Скажи, що тобі подобається кава, але не чай.",
+      "de": "Sag, dass du Kaffee magst, aber keinen Tee.",
+      "fr": "Dis que tu aimes le café mais pas le thé."
      },
      "accepted": [
       "Me gusta el café, pero no me gusta el té."
@@ -430,13 +471,15 @@
      ],
      "en": "I like coffee, but I don't like tea.",
      "it": "Mi piace il caffè, ma non mi piace il tè.",
-     "uk": "Скажи, що тобі подобається кава, але не чай.",
-     "de": "Sag, dass du Kaffee magst, aber keinen Tee.",
+     "uk": "Мені подобається кава, але мені не подобається чай.",
+     "de": "Ich mag Kaffee, aber ich mag keinen Tee.",
+     "fr": "J'aime le café, mais je n'aime pas le thé.",
      "hint": {
       "en": "pero joins the yes and the no.",
       "it": "pero unisce il sì e il no.",
       "uk": "pero поєднує «так» і «ні».",
-      "de": "pero verbindet das Ja und das Nein."
+      "de": "pero verbindet das Ja und das Nein.",
+      "fr": "pero relie le oui et le non."
      }
     },
     {
@@ -446,14 +489,16 @@
       "en": "Write in Spanish: «I like chocolate, but I don't like vegetables.»",
       "it": "Scrivi in spagnolo: «Mi piace il cioccolato, ma non mi piacciono le verdure.»",
       "uk": "Напиши іспанською: «Мені подобається шоколад, але мені не подобаються овочі.»",
-      "de": "Schreib auf Spanisch: «Ich mag Schokolade, aber ich mag kein Gemüse.»"
+      "de": "Schreib auf Spanisch: «Ich mag Schokolade, aber ich mag kein Gemüse.»",
+      "fr": "Écris en espagnol : «J'aime le chocolat, mais je n'aime pas les légumes.»"
      },
      "model": {
       "es": "Me gusta el chocolate, pero no me gustan las verduras.",
       "en": "I like chocolate, but I don't like vegetables.",
       "it": "Mi piace il cioccolato, ma non mi piacciono le verdure.",
       "uk": "Мені подобається шоколад, але мені не подобаються овочі.",
-      "de": "Ich mag Schokolade, aber ich mag kein Gemüse."
+      "de": "Ich mag Schokolade, aber ich mag kein Gemüse.",
+      "fr": "J'aime le chocolat, mais je n'aime pas les légumes."
      },
      "accepted": [
       "Me gusta el chocolate, pero no me gustan las verduras.",
@@ -468,14 +513,16 @@
     "en": "Ask someone what they like, and talk about what he or she likes.",
     "it": "Chiedere a qualcuno cosa gli piace e dire cosa piace a lui o a lei.",
     "uk": "Запитай когось, що йому подобається, і розкажи, що подобається йому чи їй.",
-    "de": "Frag jemanden, was er mag, und sag, was er oder sie mag."
+    "de": "Frag jemanden, was er mag, und sag, was er oder sie mag.",
+    "fr": "Demander à quelqu'un ce qu'il aime, et dire ce qu'il ou elle aime."
    },
    "target": {
     "es": "¿Te gusta el mar? Sí, me gusta mucho.",
     "en": "Do you like the sea? Yes, I like it a lot.",
     "it": "Ti piace il mare? Sì, mi piace molto.",
     "uk": "Тобі подобається море? Так, мені дуже подобається.",
-    "de": "Magst du das Meer? Ja, sehr."
+    "de": "Magst du das Meer? Ja, sehr.",
+    "fr": "Tu aimes la mer ? Oui, j'aime beaucoup."
    },
    "items": [
     {
@@ -487,6 +534,7 @@
        "it": "ti piace",
        "uk": "тобі подобається",
        "de": "du magst, dir gefällt",
+       "fr": "tu aimes",
        "kind": "chunk"
       },
       {
@@ -495,6 +543,7 @@
        "it": "gli/le piace",
        "uk": "йому/їй подобається",
        "de": "er/sie mag, ihm/ihr gefällt",
+       "fr": "il/elle aime",
        "kind": "chunk"
       },
       {
@@ -503,6 +552,7 @@
        "it": "cantare",
        "uk": "співати",
        "de": "singen",
+       "fr": "chanter",
        "kind": "stem"
       },
       {
@@ -511,6 +561,7 @@
        "it": "nuotare",
        "uk": "плавати",
        "de": "schwimmen",
+       "fr": "nager",
        "kind": "stem"
       }
      ]
@@ -524,6 +575,7 @@
        "it": "il calcio",
        "uk": "футбол",
        "de": "der Fußball",
+       "fr": "le football",
        "kind": "chunk"
       },
       {
@@ -532,6 +584,7 @@
        "it": "la montagna",
        "uk": "гори",
        "de": "die Berge",
+       "fr": "la montagne",
        "kind": "chunk"
       },
       {
@@ -540,6 +593,7 @@
        "it": "il mare",
        "uk": "море",
        "de": "das Meer",
+       "fr": "la mer",
        "kind": "chunk"
       },
       {
@@ -548,6 +602,7 @@
        "it": "il teatro",
        "uk": "театр",
        "de": "das Theater",
+       "fr": "le théâtre",
        "kind": "chunk"
       }
      ]
@@ -568,7 +623,8 @@
       "en": "To ask someone if they like something, change me to te: ¿te gusta...? For plural things: ¿te gustan...?",
       "it": "Per chiedere a qualcuno se gli piace qualcosa, cambia me con te: ¿te gusta...? Per le cose al plurale: ¿te gustan...?",
       "uk": "Щоб запитати когось, чи йому щось подобається, заміни me на te: ¿te gusta...? Для речей у множині: ¿te gustan...?",
-      "de": "Um jemanden zu fragen, ob er etwas mag, tausch me gegen te: ¿te gusta...? Bei Dingen im Plural: ¿te gustan...?"
+      "de": "Um jemanden zu fragen, ob er etwas mag, tausch me gegen te: ¿te gusta...? Bei Dingen im Plural: ¿te gustan...?",
+      "fr": "Pour demander à quelqu'un s'il aime quelque chose, change me en te : ¿te gusta...? Pour les choses au pluriel : ¿te gustan...?"
      },
      "examples": [
       {
@@ -576,21 +632,24 @@
        "en": "Do you like football? Yes, I do.",
        "it": "Ti piace il calcio? Sì, mi piace.",
        "uk": "Тобі подобається футбол? Так, подобається.",
-       "de": "Magst du Fußball? Ja, mag ich."
+       "de": "Magst du Fußball? Ja, mag ich.",
+       "fr": "Tu aimes le football ? Oui, j'aime ça."
       },
       {
        "es": "¿Te gustan las películas?",
        "en": "Do you like films?",
        "it": "Ti piacciono i film?",
        "uk": "Тобі подобаються фільми?",
-       "de": "Magst du Filme?"
+       "de": "Magst du Filme?",
+       "fr": "Tu aimes les films ?"
       },
       {
        "es": "¿Te gusta cantar?",
        "en": "Do you like singing?",
        "it": "Ti piace cantare?",
        "uk": "Тобі подобається співати?",
-       "de": "Singst du gern?"
+       "de": "Singst du gern?",
+       "fr": "Tu aimes chanter ?"
       }
      ],
      "teaches": [
@@ -599,7 +658,8 @@
        "en": "you like (more than one thing)",
        "it": "ti piacciono",
        "uk": "тобі подобаються (більше ніж одна річ)",
-       "de": "du magst (mehr als eine Sache), dir gefallen"
+       "de": "du magst (mehr als eine Sache), dir gefallen",
+       "fr": "tu aimes (plus d'une chose)"
       }
      ]
     },
@@ -617,11 +677,13 @@
      "it": "Ti piace il mare? Sì, mi piace molto.",
      "uk": "Тобі подобається море? Так, мені дуже подобається.",
      "de": "Magst du das Meer? Ja, sehr.",
+     "fr": "Tu aimes la mer ? Oui, j'aime beaucoup.",
      "hint": {
       "en": "You're asking the other person: te.",
       "it": "Stai chiedendo all'altra persona: te.",
       "uk": "Ти питаєш іншу людину: te.",
-      "de": "Du fragst die andere Person: te."
+      "de": "Du fragst die andere Person: te.",
+      "fr": "Tu poses la question à l'autre personne : te."
      }
     },
     {
@@ -630,8 +692,9 @@
      "intention": {
       "en": "Ask a friend if they like films.",
       "it": "Chiedi a un amico se gli piacciono i film.",
-      "uk": "Тобі подобаються фільми?",
-      "de": "Magst du Filme?"
+      "uk": "Запитай друга, чи йому подобаються фільми.",
+      "de": "Frag einen Freund, ob er Filme mag.",
+      "fr": "Demande à un ami s'il aime les films."
      },
      "accepted": [
       "¿Te gustan las películas?"
@@ -644,13 +707,15 @@
      ],
      "en": "Do you like films?",
      "it": "Ti piacciono i film?",
-     "uk": "Запитай друга, чи йому подобаються фільми.",
-     "de": "Frag einen Freund, ob er Filme mag.",
+     "uk": "Тобі подобаються фільми?",
+     "de": "Magst du Filme?",
+     "fr": "Tu aimes les films ?",
      "hint": {
       "en": "Te for 'you', gustan because las películas is plural.",
       "it": "Te per 'tu', gustan perché las películas è plurale.",
       "uk": "Te — це «тобі», gustan, бо las películas — множина.",
-      "de": "Te für 'du', gustan, weil las películas Plural ist."
+      "de": "Te für 'du', gustan, weil las películas Plural ist.",
+      "fr": "Te pour «tu», gustan parce que las películas est au pluriel."
      }
     },
     {
@@ -669,7 +734,8 @@
       "en": "For him or her, use le: le gusta, le gustan. Le also works for usted, the polite 'you'.",
       "it": "Per lui o lei usa le: le gusta, le gustan. Le vale anche per usted, il 'lei' di cortesia.",
       "uk": "Для нього чи для неї вживай le: le gusta, le gustan. Le також підходить для usted — ввічливого «ви».",
-      "de": "Für ihn oder sie nimmst du le: le gusta, le gustan. Le passt auch für usted, das höfliche 'Sie'."
+      "de": "Für ihn oder sie nimmst du le: le gusta, le gustan. Le passt auch für usted, das höfliche 'Sie'.",
+      "fr": "Pour lui ou elle, utilise le : le gusta, le gustan. Le marche aussi pour usted, le «vous» de politesse."
      },
      "examples": [
       {
@@ -677,21 +743,24 @@
        "en": "He likes the theatre.",
        "it": "Gli piace il teatro.",
        "uk": "Йому подобається театр.",
-       "de": "Er mag Theater."
+       "de": "Er mag Theater.",
+       "fr": "Il aime le théâtre."
       },
       {
        "es": "Le gustan los gatos.",
        "en": "She likes cats.",
        "it": "Le piacciono i gatti.",
        "uk": "Їй подобаються коти.",
-       "de": "Sie mag Katzen."
+       "de": "Sie mag Katzen.",
+       "fr": "Elle aime les chats."
       },
       {
        "es": "¿Le gusta el mar?",
        "en": "Do you like the sea? (polite)",
        "it": "Le piace il mare?",
        "uk": "Вам подобається море?",
-       "de": "Mögen Sie das Meer?"
+       "de": "Mögen Sie das Meer?",
+       "fr": "Vous aimez la mer ?"
       }
      ],
      "teaches": [
@@ -700,7 +769,8 @@
        "en": "he/she likes (more than one thing)",
        "it": "gli/le piacciono",
        "uk": "йому/їй подобаються (більше ніж одна річ)",
-       "de": "er/sie mag (mehr als eine Sache), ihm/ihr gefallen"
+       "de": "er/sie mag (mehr als eine Sache), ihm/ihr gefallen",
+       "fr": "il/elle aime (plus d'une chose)"
       }
      ]
     },
@@ -719,11 +789,13 @@
      "it": "Lei ascolta musica tutti i giorni. Le piace la musica.",
      "uk": "Вона щодня слухає музику. Їй подобається музика.",
      "de": "Sie hört jeden Tag Musik. Sie mag Musik.",
+     "fr": "Elle écoute de la musique tous les jours. Elle aime la musique.",
      "hint": {
       "en": "For she or he: le.",
       "it": "Per lei o lui: le.",
       "uk": "Для неї чи для нього: le.",
-      "de": "Für sie oder ihn: le."
+      "de": "Für sie oder ihn: le.",
+      "fr": "Pour elle ou lui : le."
      }
     },
     {
@@ -739,11 +811,13 @@
      "it": "Lui vive qui. Gli piacciono i cani.",
      "uk": "Він живе тут. Йому подобаються собаки.",
      "de": "Er wohnt hier. Er mag Hunde.",
+     "fr": "Il habite ici. Il aime les chiens.",
      "hint": {
       "en": "Los perros is plural: le gustan.",
       "it": "Los perros è plurale: le gustan.",
       "uk": "Los perros — це множина: le gustan.",
-      "de": "Los perros ist Plural: le gustan."
+      "de": "Los perros ist Plural: le gustan.",
+      "fr": "Los perros est au pluriel : le gustan."
      }
     },
     {
@@ -766,7 +840,8 @@
       "en": "Cantar and nadar are regular AR verbs, just like hablar: same endings.",
       "it": "Cantar e nadar sono verbi regolari in AR, proprio come hablar: stesse desinenze.",
       "uk": "Cantar і nadar — правильні дієслова на AR, як hablar: ті самі закінчення.",
-      "de": "Cantar und nadar sind regelmäßige Verben auf -AR, genau wie hablar: dieselben Endungen."
+      "de": "Cantar und nadar sind regelmäßige Verben auf -AR, genau wie hablar: dieselben Endungen.",
+      "fr": "Cantar et nadar sont des verbes réguliers en AR, comme hablar : mêmes terminaisons."
      },
      "examples": [
       {
@@ -774,21 +849,24 @@
        "en": "I sing at home.",
        "it": "Canto a casa.",
        "uk": "Я співаю вдома.",
-       "de": "Ich singe zu Hause."
+       "de": "Ich singe zu Hause.",
+       "fr": "Je chante à la maison."
       },
       {
        "es": "¿Nadas en el mar?",
        "en": "Do you swim in the sea?",
        "it": "Nuoti nel mare?",
        "uk": "Ти плаваєш у морі?",
-       "de": "Schwimmst du im Meer?"
+       "de": "Schwimmst du im Meer?",
+       "fr": "Tu nages dans la mer ?"
       },
       {
        "es": "Nosotros nadamos todos los días.",
        "en": "We swim every day.",
        "it": "Nuotiamo tutti i giorni.",
        "uk": "Ми плаваємо щодня.",
-       "de": "Wir schwimmen jeden Tag."
+       "de": "Wir schwimmen jeden Tag.",
+       "fr": "Nous nageons tous les jours."
       }
      ],
      "teaches": [
@@ -797,84 +875,96 @@
        "en": "I sing",
        "it": "canto",
        "uk": "я співаю",
-       "de": "ich singe"
+       "de": "ich singe",
+       "fr": "je chante"
       },
       {
        "es": "cantas",
        "en": "you sing",
        "it": "canti",
        "uk": "ти співаєш",
-       "de": "du singst"
+       "de": "du singst",
+       "fr": "tu chantes"
       },
       {
        "es": "canta",
        "en": "he/she sings",
        "it": "canta",
        "uk": "він/вона співає",
-       "de": "er/sie singt"
+       "de": "er/sie singt",
+       "fr": "il/elle chante"
       },
       {
        "es": "cantamos",
        "en": "we sing",
        "it": "cantiamo",
        "uk": "ми співаємо",
-       "de": "wir singen"
+       "de": "wir singen",
+       "fr": "nous chantons"
       },
       {
        "es": "cantáis",
        "en": "you all sing",
        "it": "cantate",
        "uk": "ви співаєте",
-       "de": "ihr singt"
+       "de": "ihr singt",
+       "fr": "vous chantez"
       },
       {
        "es": "cantan",
        "en": "they sing",
        "it": "cantano",
        "uk": "вони співають",
-       "de": "sie singen"
+       "de": "sie singen",
+       "fr": "ils/elles chantent"
       },
       {
        "es": "nado",
        "en": "I swim",
        "it": "nuoto",
        "uk": "я плаваю",
-       "de": "ich schwimme"
+       "de": "ich schwimme",
+       "fr": "je nage"
       },
       {
        "es": "nadas",
        "en": "you swim",
        "it": "nuoti",
        "uk": "ти плаваєш",
-       "de": "du schwimmst"
+       "de": "du schwimmst",
+       "fr": "tu nages"
       },
       {
        "es": "nada",
        "en": "he/she swims",
        "it": "nuota",
        "uk": "він/вона плаває",
-       "de": "er/sie schwimmt"
+       "de": "er/sie schwimmt",
+       "fr": "il/elle nage"
       },
       {
        "es": "nadamos",
        "en": "we swim",
        "it": "nuotiamo",
        "uk": "ми плаваємо",
-       "de": "wir schwimmen"
+       "de": "wir schwimmen",
+       "fr": "nous nageons"
       },
       {
        "es": "nadáis",
        "en": "you all swim",
        "it": "nuotate",
        "uk": "ви плаваєте",
-       "de": "ihr schwimmt"
+       "de": "ihr schwimmt",
+       "fr": "vous nagez"
       },
       {
        "es": "nadan",
        "en": "they swim",
        "it": "nuotano",
        "uk": "вони плавають",
-       "de": "sie schwimmen"
+       "de": "sie schwimmen",
+       "fr": "ils/elles nagent"
       }
      ]
     },
@@ -886,7 +976,8 @@
       "en": "we swim",
       "it": "nuotiamo",
       "uk": "ми плаваємо",
-      "de": "wir schwimmen"
+      "de": "wir schwimmen",
+      "fr": "nous nageons"
      },
      "stems": [
       "cant",
@@ -916,11 +1007,13 @@
      "it": "Loro nuotano nel mare.",
      "uk": "Вони плавають у морі.",
      "de": "Sie schwimmen im Meer.",
+     "fr": "Ils nagent dans la mer.",
      "hint": {
       "en": "Ellos: AR verbs end in -an.",
       "it": "Ellos: i verbi in AR finiscono in -an.",
       "uk": "Ellos: дієслова на AR закінчуються на -an.",
-      "de": "Ellos: Verben auf -AR enden auf -an."
+      "de": "Ellos: Verben auf -AR enden auf -an.",
+      "fr": "Ellos : les verbes en AR finissent en -an."
      }
     },
     {
@@ -938,11 +1031,13 @@
      "it": "Ti piace nuotare? Sì, mi piace.",
      "uk": "Тобі подобається плавати? Так, подобається.",
      "de": "Schwimmst du gern? Ja, sehr.",
+     "fr": "Tu aimes nager ? Oui, j'aime ça.",
      "hint": {
       "en": "You answer about yourself: me.",
       "it": "Rispondi su di te: me.",
       "uk": "Ти відповідаєш про себе: me.",
-      "de": "Du antwortest über dich selbst: me."
+      "de": "Du antwortest über dich selbst: me.",
+      "fr": "Tu réponds pour toi : me."
      }
     },
     {
@@ -953,7 +1048,8 @@
       "en": "she sings",
       "it": "lei canta",
       "uk": "вона співає",
-      "de": "sie singt"
+      "de": "sie singt",
+      "fr": "elle chante"
      },
      "stems": [
       "cant",
@@ -976,8 +1072,9 @@
      "intention": {
       "en": "Your friend asks: ¿Te gusta el teatro? Say yes, and that you also like the cinema.",
       "it": "Un amico ti chiede: ¿Te gusta el teatro? Rispondi di sì e che ti piace anche il cinema.",
-      "uk": "Так, мені подобається. Мені також подобається кіно.",
-      "de": "Ja, mag ich. Ich mag auch Kino."
+      "uk": "Друг питає: ¿Te gusta el teatro? Скажи «так» і що тобі також подобається кіно.",
+      "de": "Ein Freund fragt dich: ¿Te gusta el teatro? Sag ja und dass du auch Kino magst.",
+      "fr": "Ton ami te demande : ¿Te gusta el teatro? Dis oui, et que tu aimes aussi le cinéma."
      },
      "accepted": [
       "Sí, me gusta. También me gusta el cine.",
@@ -993,13 +1090,15 @@
      ],
      "en": "Yes, I like it. I also like the cinema.",
      "it": "Sì, mi piace. Mi piace anche il cinema.",
-     "uk": "Друг питає: ¿Te gusta el teatro? Скажи «так» і що тобі також подобається кіно.",
-     "de": "Ein Freund fragt dich: ¿Te gusta el teatro? Sag ja und dass du auch Kino magst.",
+     "uk": "Так, мені подобається. Мені також подобається кіно.",
+     "de": "Ja, mag ich. Ich mag auch Kino.",
+     "fr": "Oui, j'aime ça. J'aime aussi le cinéma.",
      "hint": {
       "en": "Answer with me, then add también.",
       "it": "Rispondi con me, poi aggiungi también.",
       "uk": "Відповідай з me, а потім додай también.",
-      "de": "Antworte mit me und häng dann también an."
+      "de": "Antworte mit me und häng dann también an.",
+      "fr": "Réponds avec me, puis ajoute también."
      }
     },
     {
@@ -1009,14 +1108,16 @@
       "en": "Ask a new friend. Write in Spanish: «Do you like football? Do you like films?»",
       "it": "Chiedi a un nuovo amico. Scrivi in spagnolo: «Ti piace il calcio? Ti piacciono i film?»",
       "uk": "Запитай нового друга. Напиши іспанською: «Тобі подобається футбол? Тобі подобаються фільми?»",
-      "de": "Frag einen neuen Freund. Schreib auf Spanisch: «Magst du Fußball? Magst du Filme?»"
+      "de": "Frag einen neuen Freund. Schreib auf Spanisch: «Magst du Fußball? Magst du Filme?»",
+      "fr": "Pose la question à un nouvel ami. Écris en espagnol : «Tu aimes le football ? Tu aimes les films ?»"
      },
      "model": {
       "es": "¿Te gusta el fútbol? ¿Te gustan las películas?",
       "en": "Do you like football? Do you like films?",
       "it": "Ti piace il calcio? Ti piacciono i film?",
       "uk": "Тобі подобається футбол? Тобі подобаються фільми?",
-      "de": "Magst du Fußball? Magst du Filme?"
+      "de": "Magst du Fußball? Magst du Filme?",
+      "fr": "Tu aimes le football ? Tu aimes les films ?"
      },
      "accepted": [
       "¿Te gusta el fútbol? ¿Te gustan las películas?"
@@ -1030,14 +1131,16 @@
     "en": "Say what the people in your family like, and agree with 'me too' and 'me neither'.",
     "it": "Dire cosa piace alle persone della tua famiglia e rispondere 'anche a me' e 'neanche a me'.",
     "uk": "Розкажи, що подобається людям у твоїй родині, і погоджуйся словами «я теж» і «я теж ні».",
-    "de": "Sag, was die Leute in deiner Familie mögen, und antworte mit 'ich auch' und 'ich auch nicht'."
+    "de": "Sag, was die Leute in deiner Familie mögen, und antworte mit 'ich auch' und 'ich auch nicht'.",
+    "fr": "Dire ce qu'aiment les gens de ta famille, et répondre «moi aussi» et «moi non plus»."
    },
    "target": {
     "es": "A mi abuela le gusta pasear y a mí también.",
     "en": "My grandmother likes going for walks, and so do I.",
     "it": "A mia nonna piace passeggiare, e anche a me.",
     "uk": "Моїй бабусі подобається гуляти, і мені теж.",
-    "de": "Meine Oma geht gern spazieren, und ich auch."
+    "de": "Meine Oma geht gern spazieren, und ich auch.",
+    "fr": "Ma grand-mère aime se promener, et moi aussi."
    },
    "items": [
     {
@@ -1049,6 +1152,7 @@
        "it": "la nonna",
        "uk": "бабуся",
        "de": "die Oma, die Großmutter",
+       "fr": "la grand-mère",
        "kind": "chunk"
       },
       {
@@ -1057,6 +1161,7 @@
        "it": "il nonno",
        "uk": "дідусь",
        "de": "der Opa, der Großvater",
+       "fr": "le grand-père",
        "kind": "chunk"
       },
       {
@@ -1065,6 +1170,7 @@
        "it": "i bambini",
        "uk": "діти",
        "de": "die Kinder",
+       "fr": "les enfants",
        "kind": "chunk"
       },
       {
@@ -1073,6 +1179,7 @@
        "it": "la campagna",
        "uk": "село, природа за містом",
        "de": "das Land (nicht die Stadt)",
+       "fr": "la campagne",
        "kind": "chunk"
       }
      ]
@@ -1086,6 +1193,7 @@
        "it": "a me",
        "uk": "мені",
        "de": "(zu) mir, mir",
+       "fr": "(à) moi",
        "kind": "chunk"
       },
       {
@@ -1094,6 +1202,7 @@
        "it": "a te",
        "uk": "тобі",
        "de": "(zu) dir, dir",
+       "fr": "(à) toi",
        "kind": "chunk"
       },
       {
@@ -1102,6 +1211,7 @@
        "it": "neanche",
        "uk": "теж ні, також ні",
        "de": "auch nicht",
+       "fr": "non plus",
        "kind": "chunk"
       },
       {
@@ -1110,6 +1220,7 @@
        "it": "passeggiare",
        "uk": "гуляти",
        "de": "spazieren gehen",
+       "fr": "se promener",
        "kind": "stem"
       }
      ]
@@ -1134,7 +1245,8 @@
       "en": "To say who likes it, start with a + the person, then le gusta. The le stays, like Italian 'a mia madre piace'.",
       "it": "Per dire a chi piace, inizia con a + la persona, poi le gusta. Il le resta: è come 'a mia madre piace'.",
       "uk": "Щоб сказати, кому подобається, почни з a + людина, а потім le gusta. Le залишається, як в українській «моїй мамі подобається».",
-      "de": "Um zu sagen, wer etwas mag, fang mit a + der Person an, dann le gusta. Das le bleibt trotzdem stehen."
+      "de": "Um zu sagen, wer etwas mag, fang mit a + der Person an, dann le gusta. Das le bleibt trotzdem stehen.",
+      "fr": "Pour dire qui aime, commence par a + la personne, puis le gusta. Le le reste."
      },
      "examples": [
       {
@@ -1142,21 +1254,24 @@
        "en": "My mother likes the theatre.",
        "it": "A mia madre piace il teatro.",
        "uk": "Моїй мамі подобається театр.",
-       "de": "Meine Mutter mag Theater."
+       "de": "Meine Mutter mag Theater.",
+       "fr": "Ma mère aime le théâtre."
       },
       {
        "es": "A mi abuelo le gustan los perros.",
        "en": "My grandfather likes dogs.",
        "it": "A mio nonno piacciono i cani.",
        "uk": "Моєму дідусеві подобаються собаки.",
-       "de": "Mein Opa mag Hunde."
+       "de": "Mein Opa mag Hunde.",
+       "fr": "Mon grand-père aime les chiens."
       },
       {
        "es": "A mi hermana le gusta el campo.",
        "en": "My sister likes the countryside.",
        "it": "A mia sorella piace la campagna.",
        "uk": "Моїй сестрі подобається природа за містом.",
-       "de": "Meine Schwester ist gern auf dem Land."
+       "de": "Meine Schwester ist gern auf dem Land.",
+       "fr": "Ma sœur aime la campagne."
       }
      ]
     },
@@ -1175,11 +1290,13 @@
      "it": "A mia nonna piace la campagna.",
      "uk": "Моїй бабусі подобається природа за містом.",
      "de": "Meine Oma ist gern auf dem Land.",
+     "fr": "Ma grand-mère aime la campagne.",
      "hint": {
       "en": "A + one person, then le.",
       "it": "A + una persona, poi le.",
       "uk": "A + одна людина, потім le.",
-      "de": "A + eine Person, dann le."
+      "de": "A + eine Person, dann le.",
+      "fr": "A + une personne, puis le."
      }
     },
     {
@@ -1188,8 +1305,9 @@
      "intention": {
       "en": "Say that your sister likes films.",
       "it": "Di che a tua sorella piacciono i film.",
-      "uk": "Моїй сестрі подобаються фільми.",
-      "de": "Meine Schwester mag Filme."
+      "uk": "Скажи, що твоїй сестрі подобаються фільми.",
+      "de": "Sag, dass deine Schwester Filme mag.",
+      "fr": "Dis que ta sœur aime les films."
      },
      "accepted": [
       "A mi hermana le gustan las películas."
@@ -1204,13 +1322,15 @@
      ],
      "en": "My sister likes films.",
      "it": "A mia sorella piacciono i film.",
-     "uk": "Скажи, що твоїй сестрі подобаються фільми.",
-     "de": "Sag, dass deine Schwester Filme mag.",
+     "uk": "Моїй сестрі подобаються фільми.",
+     "de": "Meine Schwester mag Filme.",
+     "fr": "Ma sœur aime les films.",
      "hint": {
       "en": "A mi hermana + le, and gustan for a plural thing.",
       "it": "A mi hermana + le, e gustan per una cosa plurale.",
       "uk": "A mi hermana + le, і gustan для речі в множині.",
-      "de": "A mi hermana + le, und gustan für eine Sache im Plural."
+      "de": "A mi hermana + le, und gustan für eine Sache im Plural.",
+      "fr": "A mi hermana + le, et gustan pour une chose au pluriel."
      }
     },
     {
@@ -1233,7 +1353,8 @@
       "en": "For more people: nos (us), os (you all), les (them). The verb still follows the thing: gusta or gustan.",
       "it": "Per più persone: nos (a noi), os (a voi), les (a loro). Il verbo segue sempre la cosa: gusta o gustan.",
       "uk": "Для кількох людей: nos (нам), os (вам), les (їм). Дієслово й далі залежить від речі: gusta або gustan.",
-      "de": "Für mehrere Personen: nos (uns), os (euch), les (ihnen). Das Verb richtet sich weiter nach der Sache: gusta oder gustan."
+      "de": "Für mehrere Personen: nos (uns), os (euch), les (ihnen). Das Verb richtet sich weiter nach der Sache: gusta oder gustan.",
+      "fr": "Pour plusieurs personnes : nos (nous), os (vous), les (eux). Le verbe suit toujours la chose : gusta ou gustan."
      },
      "examples": [
       {
@@ -1241,21 +1362,24 @@
        "en": "We like the countryside.",
        "it": "Ci piace la campagna.",
        "uk": "Нам подобається природа за містом.",
-       "de": "Wir sind gern auf dem Land."
+       "de": "Wir sind gern auf dem Land.",
+       "fr": "Nous aimons la campagne."
       },
       {
        "es": "A los niños les gusta el chocolate.",
        "en": "The children like chocolate.",
        "it": "Ai bambini piace il cioccolato.",
        "uk": "Дітям подобається шоколад.",
-       "de": "Die Kinder mögen Schokolade."
+       "de": "Die Kinder mögen Schokolade.",
+       "fr": "Les enfants aiment le chocolat."
       },
       {
        "es": "¿Os gusta el mar?",
        "en": "Do you all like the sea?",
        "it": "Vi piace il mare?",
        "uk": "Вам подобається море?",
-       "de": "Mögt ihr das Meer?"
+       "de": "Mögt ihr das Meer?",
+       "fr": "Vous aimez la mer ?"
       }
      ],
      "teaches": [
@@ -1264,35 +1388,40 @@
        "en": "we like",
        "it": "ci piace",
        "uk": "нам подобається",
-       "de": "wir mögen, uns gefällt"
+       "de": "wir mögen, uns gefällt",
+       "fr": "nous aimons"
       },
       {
        "es": "nos gustan",
        "en": "we like (more than one thing)",
        "it": "ci piacciono",
        "uk": "нам подобаються (більше ніж одна річ)",
-       "de": "wir mögen (mehr als eine Sache), uns gefallen"
+       "de": "wir mögen (mehr als eine Sache), uns gefallen",
+       "fr": "nous aimons (plus d'une chose)"
       },
       {
        "es": "os gusta",
        "en": "you all like",
        "it": "vi piace",
        "uk": "вам подобається",
-       "de": "ihr mögt, euch gefällt"
+       "de": "ihr mögt, euch gefällt",
+       "fr": "vous aimez"
       },
       {
        "es": "les gusta",
        "en": "they like",
        "it": "gli piace, a loro piace",
        "uk": "їм подобається",
-       "de": "sie mögen, ihnen gefällt"
+       "de": "sie mögen, ihnen gefällt",
+       "fr": "ils/elles aiment"
       },
       {
        "es": "les gustan",
        "en": "they like (more than one thing)",
        "it": "gli piacciono, a loro piacciono",
        "uk": "їм подобаються (більше ніж одна річ)",
-       "de": "sie mögen (mehr als eine Sache), ihnen gefallen"
+       "de": "sie mögen (mehr als eine Sache), ihnen gefallen",
+       "fr": "ils/elles aiment (plus d'une chose)"
       }
      ]
     },
@@ -1311,11 +1440,13 @@
      "it": "Ai miei genitori piace la campagna.",
      "uk": "Моїм батькам подобається природа за містом.",
      "de": "Meine Eltern sind gern auf dem Land.",
+     "fr": "Mes parents aiment la campagne.",
      "hint": {
       "en": "Mis padres are two people: les.",
       "it": "Mis padres sono due persone: les.",
       "uk": "Mis padres — це дві людини: les.",
-      "de": "Mis padres sind zwei Personen: les."
+      "de": "Mis padres sind zwei Personen: les.",
+      "fr": "Mis padres, ce sont deux personnes : les."
      }
     },
     {
@@ -1331,11 +1462,13 @@
      "it": "Ci piacciono i film.",
      "uk": "Нам подобаються фільми.",
      "de": "Wir mögen Filme.",
+     "fr": "Nous aimons les films.",
      "hint": {
       "en": "Gustan goes with the thing (las películas), not with nos.",
       "it": "Gustan va con la cosa (las películas), non con nos.",
       "uk": "Gustan залежить від речі (las películas), а не від nos.",
-      "de": "Gustan richtet sich nach der Sache (las películas), nicht nach nos."
+      "de": "Gustan richtet sich nach der Sache (las películas), nicht nach nos.",
+      "fr": "Gustan va avec la chose (las películas), pas avec nos."
      }
     },
     {
@@ -1358,7 +1491,8 @@
       "en": "To agree, answer with a mí también (me too). If the sentence has no, answer a mí tampoco (me neither). Ask back with ¿y a ti?",
       "it": "Per essere d'accordo, rispondi a mí también (anche a me). Se la frase ha no, rispondi a mí tampoco (neanche a me). Per chiedere: ¿y a ti?",
       "uk": "Щоб погодитися, відповідай a mí también (я теж). Якщо в реченні є no, відповідай a mí tampoco (я теж ні). Щоб запитати у відповідь: ¿y a ti?",
-      "de": "Um zuzustimmen, antworte mit a mí también (ich auch). Wenn im Satz no steht, antworte a mí tampoco (ich auch nicht). Zurückfragen kannst du mit ¿y a ti?"
+      "de": "Um zuzustimmen, antworte mit a mí también (ich auch). Wenn im Satz no steht, antworte a mí tampoco (ich auch nicht). Zurückfragen kannst du mit ¿y a ti?",
+      "fr": "Pour être d'accord, réponds a mí también (moi aussi). Si la phrase contient no, réponds a mí tampoco (moi non plus). Pour retourner la question : ¿y a ti?"
      },
      "examples": [
       {
@@ -1366,21 +1500,24 @@
        "en": "I like the countryside. Me too.",
        "it": "Mi piace la campagna. Anche a me.",
        "uk": "Мені подобається природа за містом. Мені теж.",
-       "de": "Ich bin gern auf dem Land. Ich auch."
+       "de": "Ich bin gern auf dem Land. Ich auch.",
+       "fr": "J'aime la campagne. Moi aussi."
       },
       {
        "es": "No me gusta el fútbol. A mí tampoco.",
        "en": "I don't like football. Me neither.",
        "it": "Non mi piace il calcio. Neanche a me.",
        "uk": "Мені не подобається футбол. Мені теж ні.",
-       "de": "Ich mag keinen Fußball. Ich auch nicht."
+       "de": "Ich mag keinen Fußball. Ich auch nicht.",
+       "fr": "Je n'aime pas le football. Moi non plus."
       },
       {
        "es": "A mí me gusta el mar, ¿y a ti?",
        "en": "I like the sea, and you?",
        "it": "A me piace il mare, e a te?",
        "uk": "Мені подобається море, а тобі?",
-       "de": "Ich mag das Meer, und du?"
+       "de": "Ich mag das Meer, und du?",
+       "fr": "Moi, j'aime la mer, et toi ?"
       }
      ]
     },
@@ -1398,11 +1535,13 @@
      "it": "Non mi piacciono le verdure. Neanche a me.",
      "uk": "Мені не подобаються овочі. Мені теж ні.",
      "de": "Ich mag kein Gemüse. Ich auch nicht.",
+     "fr": "Je n'aime pas les légumes. Moi non plus.",
      "hint": {
       "en": "The first sentence has no, so tampoco.",
       "it": "La prima frase ha no, quindi tampoco.",
       "uk": "У першому реченні є no, тому tampoco.",
-      "de": "Im ersten Satz steht no, also tampoco."
+      "de": "Im ersten Satz steht no, also tampoco.",
+      "fr": "La première phrase contient no, donc tampoco."
      }
     },
     {
@@ -1411,8 +1550,9 @@
      "intention": {
       "en": "Your friend says: No me gusta nada el pescado. Say you don't either.",
       "it": "Un'amica dice: No me gusta nada el pescado. Di che neanche a te.",
-      "uk": "Мені теж ні.",
-      "de": "Ich auch nicht."
+      "uk": "Подруга каже: No me gusta nada el pescado. Скажи, що тобі теж ні.",
+      "de": "Deine Freundin sagt: No me gusta nada el pescado. Sag, dass du ihn auch nicht magst.",
+      "fr": "Ton amie dit : No me gusta nada el pescado. Dis que toi non plus."
      },
      "accepted": [
       "A mí tampoco."
@@ -1425,13 +1565,15 @@
      ],
      "en": "Me neither.",
      "it": "Neanche a me.",
-     "uk": "Подруга каже: No me gusta nada el pescado. Скажи, що тобі теж ні.",
-     "de": "Deine Freundin sagt: No me gusta nada el pescado. Sag, dass du ihn auch nicht magst.",
+     "uk": "Мені теж ні.",
+     "de": "Ich auch nicht.",
+     "fr": "Moi non plus.",
      "hint": {
       "en": "Agreeing with a no: a mí tampoco.",
       "it": "D'accordo con un no: a mí tampoco.",
       "uk": "Погоджуєшся з «ні»: a mí tampoco.",
-      "de": "Zustimmen bei einem no: a mí tampoco."
+      "de": "Zustimmen bei einem no: a mí tampoco.",
+      "fr": "D'accord avec un non : a mí tampoco."
      }
     },
     {
@@ -1454,7 +1596,8 @@
       "en": "Pasear (to go for a walk) is a regular AR verb. Its stem is pase-, then the usual endings.",
       "it": "Pasear (passeggiare) è un verbo regolare in AR. La radice è pase-, poi le solite desinenze.",
       "uk": "Pasear (гуляти) — правильне дієслово на AR. Його основа — pase-, а далі звичайні закінчення.",
-      "de": "Pasear (spazieren gehen) ist ein regelmäßiges Verb auf -AR. Der Stamm ist pase-, dann kommen die üblichen Endungen."
+      "de": "Pasear (spazieren gehen) ist ein regelmäßiges Verb auf -AR. Der Stamm ist pase-, dann kommen die üblichen Endungen.",
+      "fr": "Pasear (se promener) est un verbe régulier en AR. Son radical est pase-, puis les terminaisons habituelles."
      },
      "examples": [
       {
@@ -1462,21 +1605,24 @@
        "en": "I go for a walk in the park.",
        "it": "Passeggio nel parco.",
        "uk": "Я гуляю в парку.",
-       "de": "Ich gehe im Park spazieren."
+       "de": "Ich gehe im Park spazieren.",
+       "fr": "Je me promène dans le parc."
       },
       {
        "es": "Los niños pasean en el campo.",
        "en": "The children go for walks in the countryside.",
        "it": "I bambini passeggiano in campagna.",
        "uk": "Діти гуляють за містом.",
-       "de": "Die Kinder gehen auf dem Land spazieren."
+       "de": "Die Kinder gehen auf dem Land spazieren.",
+       "fr": "Les enfants se promènent à la campagne."
       },
       {
        "es": "¿Paseamos?",
        "en": "Shall we go for a walk?",
        "it": "Facciamo una passeggiata?",
        "uk": "Підемо погуляємо?",
-       "de": "Gehen wir spazieren?"
+       "de": "Gehen wir spazieren?",
+       "fr": "On va se promener ?"
       }
      ],
      "teaches": [
@@ -1485,42 +1631,48 @@
        "en": "I go for a walk",
        "it": "passeggio",
        "uk": "я гуляю",
-       "de": "ich gehe spazieren"
+       "de": "ich gehe spazieren",
+       "fr": "je me promène"
       },
       {
        "es": "paseas",
        "en": "you go for a walk",
        "it": "passeggi",
        "uk": "ти гуляєш",
-       "de": "du gehst spazieren"
+       "de": "du gehst spazieren",
+       "fr": "tu te promènes"
       },
       {
        "es": "pasea",
        "en": "he/she goes for a walk",
        "it": "passeggia",
        "uk": "він/вона гуляє",
-       "de": "er/sie geht spazieren"
+       "de": "er/sie geht spazieren",
+       "fr": "il/elle se promène"
       },
       {
        "es": "paseamos",
        "en": "we go for a walk",
        "it": "passeggiamo",
        "uk": "ми гуляємо",
-       "de": "wir gehen spazieren"
+       "de": "wir gehen spazieren",
+       "fr": "nous nous promenons"
       },
       {
        "es": "paseáis",
        "en": "you all go for a walk",
        "it": "passeggiate",
        "uk": "ви гуляєте",
-       "de": "ihr geht spazieren"
+       "de": "ihr geht spazieren",
+       "fr": "vous vous promenez"
       },
       {
        "es": "pasean",
        "en": "they go for a walk",
        "it": "passeggiano",
        "uk": "вони гуляють",
-       "de": "sie gehen spazieren"
+       "de": "sie gehen spazieren",
+       "fr": "ils/elles se promènent"
       }
      ]
     },
@@ -1532,7 +1684,8 @@
       "en": "I go for a walk",
       "it": "passeggio",
       "uk": "я гуляю",
-      "de": "ich gehe spazieren"
+      "de": "ich gehe spazieren",
+      "fr": "je me promène"
      },
      "stems": [
       "cant",
@@ -1562,11 +1715,13 @@
      "it": "Mia nonna passeggia tutti i giorni.",
      "uk": "Моя бабуся щодня гуляє.",
      "de": "Meine Oma geht jeden Tag spazieren.",
+     "fr": "Ma grand-mère se promène tous les jours.",
      "hint": {
       "en": "Mi abuela = ella: -a.",
       "it": "Mi abuela = ella: -a.",
       "uk": "Mi abuela = ella: -a.",
-      "de": "Mi abuela = ella: -a."
+      "de": "Mi abuela = ella: -a.",
+      "fr": "Mi abuela = ella : -a."
      }
     },
     {
@@ -1584,11 +1739,13 @@
      "it": "Ai bambini piace il cioccolato.",
      "uk": "Дітям подобається шоколад.",
      "de": "Die Kinder mögen Schokolade.",
+     "fr": "Les enfants aiment le chocolat.",
      "hint": {
       "en": "Los niños: more than one person, les.",
       "it": "Los niños: più persone, les.",
       "uk": "Los niños: більше ніж одна людина, les.",
-      "de": "Los niños: mehr als eine Person, les."
+      "de": "Los niños: mehr als eine Person, les.",
+      "fr": "Los niños : plusieurs personnes, les."
      }
     },
     {
@@ -1597,8 +1754,9 @@
      "intention": {
       "en": "Say that your mother likes walking, but your father doesn't.",
       "it": "Di che a tua madre piace passeggiare, ma a tuo padre no.",
-      "uk": "Моїй мамі подобається гуляти, а моєму татові ні.",
-      "de": "Meine Mutter geht gern spazieren, aber mein Vater nicht."
+      "uk": "Скажи, що твоїй мамі подобається гуляти, а твоєму татові ні.",
+      "de": "Sag, dass deine Mutter gern spazieren geht, aber dein Vater nicht.",
+      "fr": "Dis que ta mère aime se promener, mais pas ton père."
      },
      "accepted": [
       "A mi madre le gusta pasear, pero a mi padre no."
@@ -1616,13 +1774,15 @@
      ],
      "en": "My mother likes going for walks, but my father doesn't.",
      "it": "A mia madre piace passeggiare, ma a mio padre no.",
-     "uk": "Скажи, що твоїй мамі подобається гуляти, а твоєму татові ні.",
-     "de": "Sag, dass deine Mutter gern spazieren geht, aber dein Vater nicht.",
+     "uk": "Моїй мамі подобається гуляти, а моєму татові ні.",
+     "de": "Meine Mutter geht gern spazieren, aber mein Vater nicht.",
+     "fr": "Ma mère aime se promener, mais pas mon père.",
      "hint": {
       "en": "A + person + le gusta; pero a mi padre no for the contrast.",
       "it": "A + persona + le gusta; pero a mi padre no per il contrasto.",
       "uk": "A + людина + le gusta; pero a mi padre no — для протиставлення.",
-      "de": "A + Person + le gusta; pero a mi padre no für den Gegensatz."
+      "de": "A + Person + le gusta; pero a mi padre no für den Gegensatz.",
+      "fr": "A + personne + le gusta ; pero a mi padre no pour le contraste."
      }
     },
     {
@@ -1632,14 +1792,16 @@
       "en": "Write in Spanish: «My mother likes the theatre and my father likes football.»",
       "it": "Scrivi in spagnolo: «A mia madre piace il teatro e a mio padre piace il calcio.»",
       "uk": "Напиши іспанською: «Моїй мамі подобається театр, а моєму татові подобається футбол.»",
-      "de": "Schreib auf Spanisch: «Meine Mutter mag Theater und mein Vater mag Fußball.»"
+      "de": "Schreib auf Spanisch: «Meine Mutter mag Theater und mein Vater mag Fußball.»",
+      "fr": "Écris en espagnol : «Ma mère aime le théâtre et mon père aime le football.»"
      },
      "model": {
       "es": "A mi madre le gusta el teatro y a mi padre le gusta el fútbol.",
       "en": "My mother likes the theatre and my father likes football.",
       "it": "A mia madre piace il teatro e a mio padre piace il calcio.",
       "uk": "Моїй мамі подобається театр, а моєму татові подобається футбол.",
-      "de": "Meine Mutter mag Theater und mein Vater mag Fußball."
+      "de": "Meine Mutter mag Theater und mein Vater mag Fußball.",
+      "fr": "Ma mère aime le théâtre et mon père aime le football."
      },
      "accepted": [
       "A mi madre le gusta el teatro y a mi padre le gusta el fútbol.",
@@ -1656,14 +1818,16 @@
     "en": "Say what you want and what you prefer, and offer a choice with o.",
     "it": "Dire cosa vuoi e cosa preferisci, e proporre una scelta con o.",
     "uk": "Скажи, чого ти хочеш і чому віддаєш перевагу, і запропонуй вибір з o.",
-    "de": "Sag, was du willst und was du lieber magst, und biete mit o eine Wahl an."
+    "de": "Sag, was du willst und was du lieber magst, und biete mit o eine Wahl an.",
+    "fr": "Dire ce que tu veux et ce que tu préfères, et proposer un choix avec o."
    },
    "target": {
     "es": "¿Prefieres la playa o la piscina? Yo prefiero la piscina.",
     "en": "Do you prefer the beach or the pool? I prefer the pool.",
     "it": "Preferisci la spiaggia o la piscina? Io preferisco la piscina.",
     "uk": "Тобі більше подобається пляж чи басейн? Мені більше подобається басейн.",
-    "de": "Gehst du lieber an den Strand oder ins Schwimmbad? Ich gehe lieber ins Schwimmbad."
+    "de": "Gehst du lieber an den Strand oder ins Schwimmbad? Ich gehe lieber ins Schwimmbad.",
+    "fr": "Tu préfères la plage ou la piscine ? Moi, je préfère la piscine."
    },
    "items": [
     {
@@ -1675,6 +1839,7 @@
        "it": "preferisco",
        "uk": "я віддаю перевагу, мені більше подобається",
        "de": "ich mag lieber, ich bevorzuge",
+       "fr": "je préfère",
        "kind": "chunk"
       },
       {
@@ -1683,6 +1848,7 @@
        "it": "vuoi?",
        "uk": "ти хочеш?",
        "de": "willst du?, möchtest du?",
+       "fr": "tu veux ?",
        "kind": "chunk"
       },
       {
@@ -1691,6 +1857,7 @@
        "it": "preferisci?",
        "uk": "тобі більше подобається?",
        "de": "magst du lieber?",
+       "fr": "tu préfères ?",
        "kind": "chunk"
       },
       {
@@ -1699,6 +1866,7 @@
        "it": "o",
        "uk": "або, чи",
        "de": "oder",
+       "fr": "ou",
        "kind": "rail"
       }
      ]
@@ -1712,6 +1880,7 @@
        "it": "riposare",
        "uk": "відпочивати",
        "de": "sich ausruhen",
+       "fr": "se reposer",
        "kind": "stem"
       },
       {
@@ -1720,6 +1889,7 @@
        "it": "cenare",
        "uk": "вечеряти",
        "de": "zu Abend essen",
+       "fr": "dîner",
        "kind": "stem"
       },
       {
@@ -1728,6 +1898,7 @@
        "it": "un gelato",
        "uk": "морозиво",
        "de": "ein Eis",
+       "fr": "une glace",
        "kind": "chunk"
       },
       {
@@ -1736,6 +1907,7 @@
        "it": "la piscina",
        "uk": "басейн",
        "de": "das Schwimmbad",
+       "fr": "la piscine",
        "kind": "chunk"
       }
      ]
@@ -1756,7 +1928,8 @@
       "en": "After quiero (I want) put a thing, or a verb exactly as it is in the dictionary. To ask, use ¿quieres...?",
       "it": "Dopo quiero (voglio) metti una cosa, oppure un verbo così com'è nel dizionario. Per chiedere usa ¿quieres...?",
       "uk": "Після quiero (я хочу) став річ або дієслово так, як воно є в словнику. Щоб запитати, вживай ¿quieres...?",
-      "de": "Nach quiero (ich will) kommt eine Sache oder ein Verb genau so, wie es im Wörterbuch steht. Zum Fragen nimmst du ¿quieres...?"
+      "de": "Nach quiero (ich will) kommt eine Sache oder ein Verb genau so, wie es im Wörterbuch steht. Zum Fragen nimmst du ¿quieres...?",
+      "fr": "Après quiero (je veux), mets une chose, ou un verbe tel qu'il est dans le dictionnaire. Pour demander, utilise ¿quieres...?"
      },
      "examples": [
       {
@@ -1764,21 +1937,24 @@
        "en": "I want an ice cream.",
        "it": "Voglio un gelato.",
        "uk": "Я хочу морозиво.",
-       "de": "Ich will ein Eis."
+       "de": "Ich will ein Eis.",
+       "fr": "Je veux une glace."
       },
       {
        "es": "Quiero descansar.",
        "en": "I want to rest.",
        "it": "Voglio riposare.",
        "uk": "Я хочу відпочити.",
-       "de": "Ich will mich ausruhen."
+       "de": "Ich will mich ausruhen.",
+       "fr": "Je veux me reposer."
       },
       {
        "es": "¿Quieres un café?",
        "en": "Do you want a coffee?",
        "it": "Vuoi un caffè?",
        "uk": "Хочеш кави?",
-       "de": "Willst du einen Kaffee?"
+       "de": "Willst du einen Kaffee?",
+       "fr": "Tu veux un café ?"
       }
      ]
     },
@@ -1788,8 +1964,9 @@
      "intention": {
       "en": "Offer a friend an ice cream.",
       "it": "Offri un gelato a un'amica.",
-      "uk": "Хочеш морозива?",
-      "de": "Willst du ein Eis?"
+      "uk": "Запропонуй подрузі морозиво.",
+      "de": "Biete einer Freundin ein Eis an.",
+      "fr": "Propose une glace à une amie."
      },
      "accepted": [
       "¿Quieres un helado?"
@@ -1801,13 +1978,15 @@
      ],
      "en": "Do you want an ice cream?",
      "it": "Vuoi un gelato?",
-     "uk": "Запропонуй подрузі морозиво.",
-     "de": "Biete einer Freundin ein Eis an.",
+     "uk": "Хочеш морозива?",
+     "de": "Willst du ein Eis?",
+     "fr": "Tu veux une glace ?",
      "hint": {
       "en": "Asking someone: quieres.",
       "it": "Chiedi a qualcuno: quieres.",
       "uk": "Ти питаєш когось: quieres.",
-      "de": "Du fragst jemanden: quieres."
+      "de": "Du fragst jemanden: quieres.",
+      "fr": "Tu demandes à quelqu'un : quieres."
      }
     },
     {
@@ -1823,11 +2002,13 @@
      "it": "Oggi voglio riposare a casa.",
      "uk": "Сьогодні я хочу відпочити вдома.",
      "de": "Heute will ich mich zu Hause ausruhen.",
+     "fr": "Aujourd'hui, je veux me reposer à la maison.",
      "hint": {
       "en": "After quiero the verb stays as it is: descansar.",
       "it": "Dopo quiero il verbo resta com'è: descansar.",
       "uk": "Після quiero дієслово не змінюється: descansar.",
-      "de": "Nach quiero bleibt das Verb, wie es ist: descansar."
+      "de": "Nach quiero bleibt das Verb, wie es ist: descansar.",
+      "fr": "Après quiero, le verbe reste tel quel : descansar."
      }
     },
     {
@@ -1854,7 +2035,8 @@
       "en": "To offer a choice, put o (or) between the two. Answer with prefiero (I prefer).",
       "it": "Per proporre una scelta, metti o tra le due cose. Rispondi con prefiero (preferisco).",
       "uk": "Щоб запропонувати вибір, постав o (або, чи) між двома варіантами. Відповідай prefiero (мені більше подобається).",
-      "de": "Um eine Wahl anzubieten, setz o (oder) zwischen die beiden Dinge. Antworte mit prefiero (ich mag lieber)."
+      "de": "Um eine Wahl anzubieten, setz o (oder) zwischen die beiden Dinge. Antworte mit prefiero (ich mag lieber).",
+      "fr": "Pour proposer un choix, mets o (ou) entre les deux. Réponds avec prefiero (je préfère)."
      },
      "examples": [
       {
@@ -1862,21 +2044,24 @@
        "en": "Do you prefer the sea or the mountains? I prefer the sea.",
        "it": "Preferisci il mare o la montagna? Preferisco il mare.",
        "uk": "Тобі більше подобається море чи гори? Мені більше подобається море.",
-       "de": "Magst du lieber das Meer oder die Berge? Ich mag lieber das Meer."
+       "de": "Magst du lieber das Meer oder die Berge? Ich mag lieber das Meer.",
+       "fr": "Tu préfères la mer ou la montagne ? Je préfère la mer."
       },
       {
        "es": "¿Quieres té o café?",
        "en": "Do you want tea or coffee?",
        "it": "Vuoi tè o caffè?",
        "uk": "Хочеш чаю чи кави?",
-       "de": "Willst du Tee oder Kaffee?"
+       "de": "Willst du Tee oder Kaffee?",
+       "fr": "Tu veux du thé ou du café ?"
       },
       {
        "es": "Prefiero cenar en casa.",
        "en": "I prefer to have dinner at home.",
        "it": "Preferisco cenare a casa.",
        "uk": "Я краще повечеряю вдома.",
-       "de": "Ich esse lieber zu Hause zu Abend."
+       "de": "Ich esse lieber zu Hause zu Abend.",
+       "fr": "Je préfère dîner à la maison."
       }
      ]
     },
@@ -1895,11 +2080,13 @@
      "it": "Preferisci la spiaggia o la piscina?",
      "uk": "Тобі більше подобається пляж чи басейн?",
      "de": "Gehst du lieber an den Strand oder ins Schwimmbad?",
+     "fr": "Tu préfères la plage ou la piscine ?",
      "hint": {
       "en": "A choice between two: o.",
       "it": "Una scelta tra due: o.",
       "uk": "Вибір між двома: o.",
-      "de": "Eine Wahl zwischen zwei Dingen: o."
+      "de": "Eine Wahl zwischen zwei Dingen: o.",
+      "fr": "Un choix entre deux : o."
      }
     },
     {
@@ -1908,8 +2095,9 @@
      "intention": {
       "en": "Your friend asks: ¿Prefieres el cine o el teatro? Say you prefer the theatre.",
       "it": "Un amico ti chiede: ¿Prefieres el cine o el teatro? Di che preferisci il teatro.",
-      "uk": "Мені більше подобається театр.",
-      "de": "Ich mag lieber Theater."
+      "uk": "Друг питає: ¿Prefieres el cine o el teatro? Скажи, що тобі більше подобається театр.",
+      "de": "Ein Freund fragt dich: ¿Prefieres el cine o el teatro? Sag, dass du lieber Theater magst.",
+      "fr": "Un ami te demande : ¿Prefieres el cine o el teatro? Dis que tu préfères le théâtre."
      },
      "accepted": [
       "Prefiero el teatro.",
@@ -1923,13 +2111,15 @@
      ],
      "en": "I prefer the theatre.",
      "it": "Preferisco il teatro.",
-     "uk": "Друг питає: ¿Prefieres el cine o el teatro? Скажи, що тобі більше подобається театр.",
-     "de": "Ein Freund fragt dich: ¿Prefieres el cine o el teatro? Sag, dass du lieber Theater magst.",
+     "uk": "Мені більше подобається театр.",
+     "de": "Ich mag lieber Theater.",
+     "fr": "Je préfère le théâtre.",
      "hint": {
       "en": "About yourself: prefiero.",
       "it": "Parli di te: prefiero.",
       "uk": "Про себе: prefiero.",
-      "de": "Über dich selbst: prefiero."
+      "de": "Über dich selbst: prefiero.",
+      "fr": "Tu parles de toi : prefiero."
      }
     },
     {
@@ -1952,7 +2142,8 @@
       "en": "Cenar (to have dinner) and descansar (to rest) are regular AR verbs: the endings you already know.",
       "it": "Cenar e descansar sono verbi regolari in AR: le desinenze che già conosci.",
       "uk": "Cenar (вечеряти) і descansar (відпочивати) — правильні дієслова на AR: закінчення ти вже знаєш.",
-      "de": "Cenar (zu Abend essen) und descansar (sich ausruhen) sind regelmäßige Verben auf -AR: die Endungen, die du schon kennst."
+      "de": "Cenar (zu Abend essen) und descansar (sich ausruhen) sind regelmäßige Verben auf -AR: die Endungen, die du schon kennst.",
+      "fr": "Cenar (dîner) et descansar (se reposer) sont des verbes réguliers en AR : les terminaisons que tu connais déjà."
      },
      "examples": [
       {
@@ -1960,21 +2151,24 @@
        "en": "I have dinner at home.",
        "it": "Ceno a casa.",
        "uk": "Я вечеряю вдома.",
-       "de": "Ich esse zu Hause zu Abend."
+       "de": "Ich esse zu Hause zu Abend.",
+       "fr": "Je dîne à la maison."
       },
       {
        "es": "Hoy descansamos.",
        "en": "Today we rest.",
        "it": "Oggi riposiamo.",
        "uk": "Сьогодні ми відпочиваємо.",
-       "de": "Heute ruhen wir uns aus."
+       "de": "Heute ruhen wir uns aus.",
+       "fr": "Aujourd'hui, nous nous reposons."
       },
       {
        "es": "¿Cenáis en el restaurante?",
        "en": "Are you all having dinner at the restaurant?",
        "it": "Cenate al ristorante?",
        "uk": "Ви вечеряєте в ресторані?",
-       "de": "Esst ihr im Restaurant zu Abend?"
+       "de": "Esst ihr im Restaurant zu Abend?",
+       "fr": "Vous dînez au restaurant ?"
       }
      ],
      "teaches": [
@@ -1983,84 +2177,96 @@
        "en": "I rest",
        "it": "riposo",
        "uk": "я відпочиваю",
-       "de": "ich ruhe mich aus"
+       "de": "ich ruhe mich aus",
+       "fr": "je me repose"
       },
       {
        "es": "descansas",
        "en": "you rest",
        "it": "riposi",
        "uk": "ти відпочиваєш",
-       "de": "du ruhst dich aus"
+       "de": "du ruhst dich aus",
+       "fr": "tu te reposes"
       },
       {
        "es": "descansa",
        "en": "he/she rests",
        "it": "riposa",
        "uk": "він/вона відпочиває",
-       "de": "er/sie ruht sich aus"
+       "de": "er/sie ruht sich aus",
+       "fr": "il/elle se repose"
       },
       {
        "es": "descansamos",
        "en": "we rest",
        "it": "riposiamo",
        "uk": "ми відпочиваємо",
-       "de": "wir ruhen uns aus"
+       "de": "wir ruhen uns aus",
+       "fr": "nous nous reposons"
       },
       {
        "es": "descansáis",
        "en": "you all rest",
        "it": "riposate",
        "uk": "ви відпочиваєте",
-       "de": "ihr ruht euch aus"
+       "de": "ihr ruht euch aus",
+       "fr": "vous vous reposez"
       },
       {
        "es": "descansan",
        "en": "they rest",
        "it": "riposano",
        "uk": "вони відпочивають",
-       "de": "sie ruhen sich aus"
+       "de": "sie ruhen sich aus",
+       "fr": "ils/elles se reposent"
       },
       {
        "es": "ceno",
        "en": "I have dinner",
        "it": "ceno",
        "uk": "я вечеряю",
-       "de": "ich esse zu Abend"
+       "de": "ich esse zu Abend",
+       "fr": "je dîne"
       },
       {
        "es": "cenas",
        "en": "you have dinner",
        "it": "ceni",
        "uk": "ти вечеряєш",
-       "de": "du isst zu Abend"
+       "de": "du isst zu Abend",
+       "fr": "tu dînes"
       },
       {
        "es": "cena",
        "en": "he/she has dinner",
        "it": "cena",
        "uk": "він/вона вечеряє",
-       "de": "er/sie isst zu Abend"
+       "de": "er/sie isst zu Abend",
+       "fr": "il/elle dîne"
       },
       {
        "es": "cenamos",
        "en": "we have dinner",
        "it": "ceniamo",
        "uk": "ми вечеряємо",
-       "de": "wir essen zu Abend"
+       "de": "wir essen zu Abend",
+       "fr": "nous dînons"
       },
       {
        "es": "cenáis",
        "en": "you all have dinner",
        "it": "cenate",
        "uk": "ви вечеряєте",
-       "de": "ihr esst zu Abend"
+       "de": "ihr esst zu Abend",
+       "fr": "vous dînez"
       },
       {
        "es": "cenan",
        "en": "they have dinner",
        "it": "cenano",
        "uk": "вони вечеряють",
-       "de": "sie essen zu Abend"
+       "de": "sie essen zu Abend",
+       "fr": "ils/elles dînent"
       }
      ]
     },
@@ -2072,7 +2278,8 @@
       "en": "you have dinner",
       "it": "ceni",
       "uk": "ти вечеряєш",
-      "de": "du isst zu Abend"
+      "de": "du isst zu Abend",
+      "fr": "tu dînes"
      },
      "stems": [
       "cen",
@@ -2102,11 +2309,13 @@
      "it": "I miei genitori cenano presto.",
      "uk": "Мої батьки вечеряють рано.",
      "de": "Meine Eltern essen früh zu Abend.",
+     "fr": "Mes parents dînent tôt.",
      "hint": {
       "en": "Mis padres = ellos: -an.",
       "it": "Mis padres = ellos: -an.",
       "uk": "Mis padres = ellos: -an.",
-      "de": "Mis padres = ellos: -an."
+      "de": "Mis padres = ellos: -an.",
+      "fr": "Mis padres = ellos : -an."
      }
     },
     {
@@ -2124,11 +2333,13 @@
      "it": "Vuoi cenare? No grazie, preferisco riposare.",
      "uk": "Хочеш повечеряти? Ні, дякую, я краще відпочину.",
      "de": "Willst du zu Abend essen? Nein danke, ich ruhe mich lieber aus.",
+     "fr": "Tu veux dîner ? Non merci, je préfère me reposer.",
      "hint": {
       "en": "You're talking about yourself: prefiero.",
       "it": "Parli di te: prefiero.",
       "uk": "Ти говориш про себе: prefiero.",
-      "de": "Du sprichst über dich selbst: prefiero."
+      "de": "Du sprichst über dich selbst: prefiero.",
+      "fr": "Tu parles de toi : prefiero."
      }
     },
     {
@@ -2144,11 +2355,13 @@
      "it": "Ceni a casa o al ristorante?",
      "uk": "Ти вечеряєш вдома чи в ресторані?",
      "de": "Isst du zu Hause oder im Restaurant zu Abend?",
+     "fr": "Tu dînes à la maison ou au restaurant ?",
      "hint": {
       "en": "Tú: AR verbs end in -as.",
       "it": "Tú: i verbi in AR finiscono in -as.",
       "uk": "Tú: дієслова на AR закінчуються на -as.",
-      "de": "Tú: Verben auf -AR enden auf -as."
+      "de": "Tú: Verben auf -AR enden auf -as.",
+      "fr": "Tú : les verbes en AR finissent en -as."
      }
     },
     {
@@ -2157,8 +2370,9 @@
      "intention": {
       "en": "Say that you want to go to the pool.",
       "it": "Di che vuoi andare in piscina.",
-      "uk": "Я хочу піти в басейн.",
-      "de": "Ich will ins Schwimmbad gehen."
+      "uk": "Скажи, що хочеш піти в басейн.",
+      "de": "Sag, dass du ins Schwimmbad gehen willst.",
+      "fr": "Dis que tu veux aller à la piscine."
      },
      "accepted": [
       "Quiero ir a la piscina."
@@ -2172,13 +2386,15 @@
      ],
      "en": "I want to go to the pool.",
      "it": "Voglio andare in piscina.",
-     "uk": "Скажи, що хочеш піти в басейн.",
-     "de": "Sag, dass du ins Schwimmbad gehen willst.",
+     "uk": "Я хочу піти в басейн.",
+     "de": "Ich will ins Schwimmbad gehen.",
+     "fr": "Je veux aller à la piscine.",
      "hint": {
       "en": "Quiero + ir, as it is in the dictionary.",
       "it": "Quiero + ir, così com'è nel dizionario.",
       "uk": "Quiero + ir, так, як у словнику.",
-      "de": "Quiero + ir, so wie es im Wörterbuch steht."
+      "de": "Quiero + ir, so wie es im Wörterbuch steht.",
+      "fr": "Quiero + ir, tel qu'il est dans le dictionnaire."
      }
     },
     {
@@ -2188,14 +2404,16 @@
       "en": "Write in Spanish: «Do you prefer the beach or the pool? I prefer the beach.»",
       "it": "Scrivi in spagnolo: «Preferisci la spiaggia o la piscina? Io preferisco la spiaggia.»",
       "uk": "Напиши іспанською: «Тобі більше подобається пляж чи басейн? Мені більше подобається пляж.»",
-      "de": "Schreib auf Spanisch: «Gehst du lieber an den Strand oder ins Schwimmbad? Ich gehe lieber an den Strand.»"
+      "de": "Schreib auf Spanisch: «Gehst du lieber an den Strand oder ins Schwimmbad? Ich gehe lieber an den Strand.»",
+      "fr": "Écris en espagnol : «Tu préfères la plage ou la piscine ? Je préfère la plage.»"
      },
      "model": {
       "es": "¿Prefieres la playa o la piscina? Yo prefiero la playa.",
       "en": "Do you prefer the beach or the pool? I prefer the beach.",
       "it": "Preferisci la spiaggia o la piscina? Io preferisco la spiaggia.",
       "uk": "Тобі більше подобається пляж чи басейн? Мені більше подобається пляж.",
-      "de": "Gehst du lieber an den Strand oder ins Schwimmbad? Ich gehe lieber an den Strand."
+      "de": "Gehst du lieber an den Strand oder ins Schwimmbad? Ich gehe lieber an den Strand.",
+      "fr": "Tu préfères la plage ou la piscine ? Moi, je préfère la plage."
      },
      "accepted": [
       "¿Prefieres la playa o la piscina? Yo prefiero la playa.",
@@ -2212,14 +2430,16 @@
     "en": "Give your opinion and the reason for it with porque.",
     "it": "Dare la tua opinione e il motivo con porque.",
     "uk": "Висловлюй свою думку і пояснюй причину за допомогою porque.",
-    "de": "Sag deine Meinung und begründe sie mit porque."
+    "de": "Sag deine Meinung und begründe sie mit porque.",
+    "fr": "Donner ton avis et la raison avec porque."
    },
    "target": {
     "es": "Me encanta el mar porque es muy bonito.",
     "en": "I love the sea because it's really beautiful.",
     "it": "Adoro il mare perché è bellissimo.",
     "uk": "Я обожнюю море, бо воно дуже гарне.",
-    "de": "Ich liebe das Meer, weil es sehr schön ist."
+    "de": "Ich liebe das Meer, weil es sehr schön ist.",
+    "fr": "J'adore la mer parce qu'elle est très belle."
    },
    "items": [
     {
@@ -2231,6 +2451,7 @@
        "it": "adoro, mi piace tantissimo",
        "uk": "я обожнюю, мені дуже подобається",
        "de": "ich liebe, ich mag sehr",
+       "fr": "j'adore",
        "kind": "chunk"
       },
       {
@@ -2239,6 +2460,7 @@
        "it": "adoro, mi piacciono tantissimo",
        "uk": "я обожнюю (більше ніж одну річ)",
        "de": "ich liebe (mehr als eine Sache)",
+       "fr": "j'adore (plus d'une chose)",
        "kind": "chunk"
       },
       {
@@ -2247,6 +2469,7 @@
        "it": "interessante",
        "uk": "цікавий",
        "de": "interessant",
+       "fr": "intéressant",
        "kind": "chunk"
       },
       {
@@ -2255,6 +2478,7 @@
        "it": "bello",
        "uk": "гарний",
        "de": "schön, hübsch",
+       "fr": "beau, joli",
        "kind": "chunk"
       },
       {
@@ -2263,6 +2487,7 @@
        "it": "buono, gustoso",
        "uk": "смачний",
        "de": "lecker",
+       "fr": "bon, savoureux",
        "kind": "chunk"
       }
      ]
@@ -2276,6 +2501,7 @@
        "it": "caro",
        "uk": "дорогий",
        "de": "teuer",
+       "fr": "cher",
        "kind": "chunk"
       },
       {
@@ -2284,6 +2510,7 @@
        "it": "economico",
        "uk": "дешевий",
        "de": "billig",
+       "fr": "bon marché",
        "kind": "chunk"
       },
       {
@@ -2292,6 +2519,7 @@
        "it": "facile",
        "uk": "легкий",
        "de": "leicht, einfach",
+       "fr": "facile",
        "kind": "chunk"
       },
       {
@@ -2300,6 +2528,7 @@
        "it": "difficile",
        "uk": "складний",
        "de": "schwierig",
+       "fr": "difficile",
        "kind": "chunk"
       }
      ]
@@ -2320,7 +2549,8 @@
       "en": "Me encanta means 'I love it': it works exactly like me gusta, just stronger. Plural: me encantan. Also te, le, nos encanta.",
       "it": "Me encanta vuol dire 'mi piace tantissimo': funziona come me gusta, solo più forte. Plurale: me encantan. Anche te, le, nos encanta.",
       "uk": "Me encanta означає «я обожнюю»: працює так само, як me gusta, тільки сильніше. Множина: me encantan. А також te, le, nos encanta.",
-      "de": "Me encanta heißt 'ich liebe es': Es funktioniert genau wie me gusta, nur stärker. Plural: me encantan. Ebenso te, le, nos encanta."
+      "de": "Me encanta heißt 'ich liebe es': Es funktioniert genau wie me gusta, nur stärker. Plural: me encantan. Ebenso te, le, nos encanta.",
+      "fr": "Me encanta veut dire «j'adore» : ça marche exactement comme me gusta, en plus fort. Au pluriel : me encantan. Aussi te, le, nos encanta."
      },
      "examples": [
       {
@@ -2328,21 +2558,24 @@
        "en": "I love chocolate.",
        "it": "Adoro il cioccolato.",
        "uk": "Я обожнюю шоколад.",
-       "de": "Ich liebe Schokolade."
+       "de": "Ich liebe Schokolade.",
+       "fr": "J'adore le chocolat."
       },
       {
        "es": "Me encantan las películas.",
        "en": "I love films.",
        "it": "Adoro i film.",
        "uk": "Я обожнюю фільми.",
-       "de": "Ich liebe Filme."
+       "de": "Ich liebe Filme.",
+       "fr": "J'adore les films."
       },
       {
        "es": "¿Te encanta el mar?",
        "en": "Do you love the sea?",
        "it": "Ti piace tantissimo il mare?",
        "uk": "Ти обожнюєш море?",
-       "de": "Liebst du das Meer?"
+       "de": "Liebst du das Meer?",
+       "fr": "Tu adores la mer ?"
       }
      ],
      "teaches": [
@@ -2351,21 +2584,24 @@
        "en": "you love",
        "it": "ti piace tantissimo",
        "uk": "ти обожнюєш",
-       "de": "du liebst"
+       "de": "du liebst",
+       "fr": "tu adores"
       },
       {
        "es": "le encanta",
        "en": "he/she loves",
        "it": "gli/le piace tantissimo",
        "uk": "він/вона обожнює",
-       "de": "er/sie liebt"
+       "de": "er/sie liebt",
+       "fr": "il/elle adore"
       },
       {
        "es": "nos encanta",
        "en": "we love",
        "it": "ci piace tantissimo",
        "uk": "ми обожнюємо",
-       "de": "wir lieben"
+       "de": "wir lieben",
+       "fr": "nous adorons"
       }
      ]
     },
@@ -2383,11 +2619,13 @@
      "it": "Adoro i libri.",
      "uk": "Я обожнюю книжки.",
      "de": "Ich liebe Bücher.",
+     "fr": "J'adore les livres.",
      "hint": {
       "en": "Los libros is plural: encantan.",
       "it": "Los libros è plurale: encantan.",
       "uk": "Los libros — це множина: encantan.",
-      "de": "Los libros ist Plural: encantan."
+      "de": "Los libros ist Plural: encantan.",
+      "fr": "Los libros est au pluriel : encantan."
      }
     },
     {
@@ -2396,8 +2634,9 @@
      "intention": {
       "en": "Say that your brother loves football.",
       "it": "Di che tuo fratello adora il calcio.",
-      "uk": "Мій брат обожнює футбол.",
-      "de": "Mein Bruder liebt Fußball."
+      "uk": "Скажи, що твій брат обожнює футбол.",
+      "de": "Sag, dass dein Bruder Fußball liebt.",
+      "fr": "Dis que ton frère adore le football."
      },
      "accepted": [
       "A mi hermano le encanta el fútbol."
@@ -2411,13 +2650,15 @@
      ],
      "en": "My brother loves football.",
      "it": "Mio fratello adora il calcio.",
-     "uk": "Скажи, що твій брат обожнює футбол.",
-     "de": "Sag, dass dein Bruder Fußball liebt.",
+     "uk": "Мій брат обожнює футбол.",
+     "de": "Mein Bruder liebt Fußball.",
+     "fr": "Mon frère adore le football.",
      "hint": {
       "en": "Like gustar: a mi hermano + le encanta.",
       "it": "Come gustar: a mi hermano + le encanta.",
       "uk": "Як із gustar: a mi hermano + le encanta.",
-      "de": "Wie bei gustar: a mi hermano + le encanta."
+      "de": "Wie bei gustar: a mi hermano + le encanta.",
+      "fr": "Comme gustar : a mi hermano + le encanta."
      }
     },
     {
@@ -2440,7 +2681,8 @@
       "en": "Give an opinion with es or son + a describing word. It matches the thing: -o for el words, -a for la words, + -s for plural. Interesante, fácil and difícil don't change for el or la.",
       "it": "Dai un'opinione con es o son + un aggettivo. Si accorda con la cosa: -o con el, -a con la, + -s al plurale. Interesante, fácil e difícil non cambiano con el o la.",
       "uk": "Висловлюй думку з es або son + прикметник. Він узгоджується з річчю: -o для слів з el, -a для слів з la, + -s у множині. Interesante, fácil і difícil не змінюються для el чи la.",
-      "de": "Sag deine Meinung mit es oder son + einem Adjektiv. Es passt sich der Sache an: -o bei el-Wörtern, -a bei la-Wörtern, + -s im Plural. Interesante, fácil und difícil ändern sich bei el oder la nicht."
+      "de": "Sag deine Meinung mit es oder son + einem Adjektiv. Es passt sich der Sache an: -o bei el-Wörtern, -a bei la-Wörtern, + -s im Plural. Interesante, fácil und difícil ändern sich bei el oder la nicht.",
+      "fr": "Donne ton avis avec es ou son + un adjectif. Il s'accorde avec la chose : -o pour les mots en el, -a pour les mots en la, + -s au pluriel. Interesante, fácil et difícil ne changent pas avec el ou la."
      },
      "examples": [
       {
@@ -2448,21 +2690,24 @@
        "en": "The sea is beautiful.",
        "it": "Il mare è bello.",
        "uk": "Море гарне.",
-       "de": "Das Meer ist schön."
+       "de": "Das Meer ist schön.",
+       "fr": "La mer est belle."
       },
       {
        "es": "La pizza es barata.",
        "en": "Pizza is cheap.",
        "it": "La pizza è economica.",
        "uk": "Піца дешева.",
-       "de": "Pizza ist billig."
+       "de": "Pizza ist billig.",
+       "fr": "La pizza est bon marché."
       },
       {
        "es": "Los libros son caros.",
        "en": "Books are expensive.",
        "it": "I libri sono cari.",
        "uk": "Книжки дорогі.",
-       "de": "Bücher sind teuer."
+       "de": "Bücher sind teuer.",
+       "fr": "Les livres sont chers."
       }
      ],
      "teaches": [
@@ -2471,56 +2716,64 @@
        "en": "beautiful (la)",
        "it": "bella",
        "uk": "гарна (la)",
-       "de": "schön (la)"
+       "de": "schön (la)",
+       "fr": "belle (la)"
       },
       {
        "es": "rica",
        "en": "tasty (la)",
        "it": "buona",
        "uk": "смачна (la)",
-       "de": "lecker (la)"
+       "de": "lecker (la)",
+       "fr": "bonne (la)"
       },
       {
        "es": "cara",
        "en": "expensive (la)",
        "it": "cara",
        "uk": "дорога (la)",
-       "de": "teuer (la)"
+       "de": "teuer (la)",
+       "fr": "chère (la)"
       },
       {
        "es": "barata",
        "en": "cheap (la)",
        "it": "economica",
        "uk": "дешева (la)",
-       "de": "billig (la)"
+       "de": "billig (la)",
+       "fr": "bon marché (la)"
       },
       {
        "es": "bonitos",
        "en": "beautiful (plural)",
        "it": "belli",
        "uk": "гарні (множина)",
-       "de": "schön (Plural)"
+       "de": "schön (Plural)",
+       "fr": "beaux (pluriel)"
       },
       {
        "es": "caros",
        "en": "expensive (plural)",
        "it": "cari",
        "uk": "дорогі (множина)",
-       "de": "teuer (Plural)"
+       "de": "teuer (Plural)",
+       "fr": "chers (pluriel)"
       },
       {
        "es": "baratos",
        "en": "cheap (plural)",
        "it": "economici",
        "uk": "дешеві (множина)",
-       "de": "billig (Plural)"
+       "de": "billig (Plural)",
+       "fr": "bon marché (pluriel)"
       },
       {
        "es": "interesantes",
        "en": "interesting (plural)",
        "it": "interessanti",
        "uk": "цікаві (множина)",
-       "de": "interessant (Plural)"
+       "de": "interessant (Plural)",
+       "fr": "intéressants (pluriel)"
       }
      ]
     },
@@ -2539,11 +2792,13 @@
      "it": "La città è molto bella.",
      "uk": "Місто дуже гарне.",
      "de": "Die Stadt ist sehr schön.",
+     "fr": "La ville est très belle.",
      "hint": {
       "en": "La ciudad: -a.",
       "it": "La ciudad: -a.",
       "uk": "La ciudad: -a.",
-      "de": "La ciudad: -a."
+      "de": "La ciudad: -a.",
+      "fr": "La ciudad : -a."
      }
     },
     {
@@ -2559,11 +2814,13 @@
      "it": "Le banane sono economiche.",
      "uk": "Банани дешеві.",
      "de": "Bananen sind billig.",
+     "fr": "Les bananes sont bon marché.",
      "hint": {
       "en": "Los plátanos: plural with -o words, so -os.",
       "it": "Los plátanos: plurale di una parola in -o, quindi -os.",
       "uk": "Los plátanos: множина від слова на -o, тому -os.",
-      "de": "Los plátanos: Plural eines Wortes auf -o, also -os."
+      "de": "Los plátanos: Plural eines Wortes auf -o, also -os.",
+      "fr": "Los plátanos : pluriel d'un mot en -o, donc -os."
      }
     },
     {
@@ -2586,7 +2843,8 @@
       "en": "Add the reason with porque (because): first what you think, then porque and why.",
       "it": "Aggiungi il motivo con porque (perché): prima cosa pensi, poi porque e il perché.",
       "uk": "Додай причину з porque (бо, тому що): спочатку що ти думаєш, потім porque і чому.",
-      "de": "Gib den Grund mit porque (weil) an: zuerst, was du denkst, dann porque und warum."
+      "de": "Gib den Grund mit porque (weil) an: zuerst, was du denkst, dann porque und warum.",
+      "fr": "Ajoute la raison avec porque (parce que) : d'abord ce que tu penses, puis porque et pourquoi."
      },
      "examples": [
       {
@@ -2594,21 +2852,24 @@
        "en": "I love fish because it's really tasty.",
        "it": "Adoro il pesce perché è buonissimo.",
        "uk": "Я обожнюю рибу, бо вона дуже смачна.",
-       "de": "Ich liebe Fisch, weil er sehr lecker ist."
+       "de": "Ich liebe Fisch, weil er sehr lecker ist.",
+       "fr": "J'adore le poisson parce qu'il est très bon."
       },
       {
        "es": "No me gusta el teatro porque es caro.",
        "en": "I don't like the theatre because it's expensive.",
        "it": "Non mi piace il teatro perché è caro.",
        "uk": "Мені не подобається театр, бо він дорогий.",
-       "de": "Ich mag kein Theater, weil es teuer ist."
+       "de": "Ich mag kein Theater, weil es teuer ist.",
+       "fr": "Je n'aime pas le théâtre parce que c'est cher."
       },
       {
        "es": "El español es difícil, pero me encanta.",
        "en": "Spanish is difficult, but I love it.",
        "it": "Lo spagnolo è difficile, ma lo adoro.",
        "uk": "Іспанська складна, але я її обожнюю.",
-       "de": "Spanisch ist schwierig, aber ich liebe es."
+       "de": "Spanisch ist schwierig, aber ich liebe es.",
+       "fr": "L'espagnol est difficile, mais j'adore ça."
       }
      ]
     },
@@ -2627,11 +2888,13 @@
      "it": "Non mi piace il calcio perché è noioso.",
      "uk": "Мені не подобається футбол, бо він нудний.",
      "de": "Ich mag keinen Fußball, weil er langweilig ist.",
+     "fr": "Je n'aime pas le football parce que c'est ennuyeux.",
      "hint": {
       "en": "A reason comes after porque.",
       "it": "Un motivo arriva dopo porque.",
       "uk": "Причина йде після porque.",
-      "de": "Ein Grund kommt nach porque."
+      "de": "Ein Grund kommt nach porque.",
+      "fr": "La raison vient après porque."
      }
     },
     {
@@ -2640,8 +2903,9 @@
      "intention": {
       "en": "Say you like learning Spanish because it's interesting.",
       "it": "Di che ti piace imparare lo spagnolo perché è interessante.",
-      "uk": "Мені подобається вчити іспанську, бо це цікаво.",
-      "de": "Ich lerne gern Spanisch, weil es interessant ist."
+      "uk": "Скажи, що тобі подобається вчити іспанську, бо це цікаво.",
+      "de": "Sag, dass du gern Spanisch lernst, weil es interessant ist.",
+      "fr": "Dis que tu aimes apprendre l'espagnol parce que c'est intéressant."
      },
      "accepted": [
       "Me gusta aprender español porque es interesante."
@@ -2657,13 +2921,15 @@
      ],
      "en": "I like learning Spanish because it's interesting.",
      "it": "Mi piace imparare lo spagnolo perché è interessante.",
-     "uk": "Скажи, що тобі подобається вчити іспанську, бо це цікаво.",
-     "de": "Sag, dass du gern Spanisch lernst, weil es interessant ist.",
+     "uk": "Мені подобається вчити іспанську, бо це цікаво.",
+     "de": "Ich lerne gern Spanisch, weil es interessant ist.",
+     "fr": "J'aime apprendre l'espagnol parce que c'est intéressant.",
      "hint": {
       "en": "Opinion first, then porque + the reason.",
       "it": "Prima l'opinione, poi porque + il motivo.",
       "uk": "Спочатку думка, потім porque + причина.",
-      "de": "Zuerst die Meinung, dann porque + der Grund."
+      "de": "Zuerst die Meinung, dann porque + der Grund.",
+      "fr": "D'abord l'avis, puis porque + la raison."
      }
     },
     {
@@ -2680,11 +2946,13 @@
      "it": "Ti piace tantissimo il cioccolato? Sì, lo adoro!",
      "uk": "Ти обожнюєш шоколад? Так, обожнюю!",
      "de": "Liebst du Schokolade? Ja, ich liebe sie!",
+     "fr": "Tu adores le chocolat ? Oui, j'adore !",
      "hint": {
       "en": "El chocolate is one thing: encanta.",
       "it": "El chocolate è una cosa sola: encanta.",
       "uk": "El chocolate — це одна річ: encanta.",
-      "de": "El chocolate ist eine einzige Sache: encanta."
+      "de": "El chocolate ist eine einzige Sache: encanta.",
+      "fr": "El chocolate est une seule chose : encanta."
      }
     },
     {
@@ -2700,11 +2968,13 @@
      "it": "La pizza è buonissima.",
      "uk": "Піца дуже смачна.",
      "de": "Die Pizza ist sehr lecker.",
+     "fr": "La pizza est très bonne.",
      "hint": {
       "en": "La pizza: -a.",
       "it": "La pizza: -a.",
       "uk": "La pizza: -a.",
-      "de": "La pizza: -a."
+      "de": "La pizza: -a.",
+      "fr": "La pizza : -a."
      }
     },
     {
@@ -2713,8 +2983,9 @@
      "intention": {
       "en": "Say that you love the sea because it's beautiful.",
       "it": "Di che adori il mare perché è bello.",
-      "uk": "Я обожнюю море, бо воно гарне.",
-      "de": "Ich liebe das Meer, weil es schön ist."
+      "uk": "Скажи, що ти обожнюєш море, бо воно гарне.",
+      "de": "Sag, dass du das Meer liebst, weil es schön ist.",
+      "fr": "Dis que tu adores la mer parce qu'elle est belle."
      },
      "accepted": [
       "Me encanta el mar porque es bonito.",
@@ -2730,13 +3001,15 @@
      ],
      "en": "I love the sea because it's beautiful.",
      "it": "Adoro il mare perché è bello.",
-     "uk": "Скажи, що ти обожнюєш море, бо воно гарне.",
-     "de": "Sag, dass du das Meer liebst, weil es schön ist.",
+     "uk": "Я обожнюю море, бо воно гарне.",
+     "de": "Ich liebe das Meer, weil es schön ist.",
+     "fr": "J'adore la mer parce qu'elle est belle.",
      "hint": {
       "en": "El mar: bonito with -o.",
       "it": "El mar: bonito con la -o.",
       "uk": "El mar: bonito з -o.",
-      "de": "El mar: bonito mit -o."
+      "de": "El mar: bonito mit -o.",
+      "fr": "El mar : bonito avec -o."
      }
     },
     {
@@ -2746,14 +3019,16 @@
       "en": "Write in Spanish: «I love fish because it's really tasty, but I don't like meat because it's expensive.»",
       "it": "Scrivi in spagnolo: «Adoro il pesce perché è buonissimo, ma non mi piace la carne perché è cara.»",
       "uk": "Напиши іспанською: «Я обожнюю рибу, бо вона дуже смачна, але мені не подобається м'ясо, бо воно дороге.»",
-      "de": "Schreib auf Spanisch: «Ich liebe Fisch, weil er sehr lecker ist, aber ich mag kein Fleisch, weil es teuer ist.»"
+      "de": "Schreib auf Spanisch: «Ich liebe Fisch, weil er sehr lecker ist, aber ich mag kein Fleisch, weil es teuer ist.»",
+      "fr": "Écris en espagnol : «J'adore le poisson parce qu'il est très bon, mais je n'aime pas la viande parce qu'elle est chère.»"
      },
      "model": {
       "es": "Me encanta el pescado porque es muy rico, pero no me gusta la carne porque es cara.",
       "en": "I love fish because it's really tasty, but I don't like meat because it's expensive.",
       "it": "Adoro il pesce perché è buonissimo, ma non mi piace la carne perché è cara.",
       "uk": "Я обожнюю рибу, бо вона дуже смачна, але мені не подобається м'ясо, бо воно дороге.",
-      "de": "Ich liebe Fisch, weil er sehr lecker ist, aber ich mag kein Fleisch, weil es teuer ist."
+      "de": "Ich liebe Fisch, weil er sehr lecker ist, aber ich mag kein Fleisch, weil es teuer ist.",
+      "fr": "J'adore le poisson parce qu'il est très bon, mais je n'aime pas la viande parce qu'elle est chère."
      },
      "accepted": [
       "Me encanta el pescado porque es muy rico, pero no me gusta la carne porque es cara.",
@@ -2769,7 +3044,8 @@
    "en": "A friend wants to make plans for the weekend. Agree on where to go and where to have dinner.",
    "it": "Un'amica vuole fare programmi per il weekend. Mettetevi d'accordo su dove andare e dove cenare.",
    "uk": "Подруга хоче скласти плани на вихідні. Домовтеся, куди поїхати і де повечеряти.",
-   "de": "Eine Freundin will Pläne fürs Wochenende machen. Einigt euch, wohin ihr fahrt und wo ihr zu Abend esst."
+   "de": "Eine Freundin will Pläne fürs Wochenende machen. Einigt euch, wohin ihr fahrt und wo ihr zu Abend esst.",
+   "fr": "Une amie veut faire des projets pour le week-end. Mettez-vous d'accord sur où aller et où dîner."
   },
   "items": [
    {
@@ -2781,6 +3057,7 @@
       "it": "il fine settimana",
       "uk": "вихідні",
       "de": "das Wochenende",
+      "fr": "le week-end",
       "kind": "time"
      },
      {
@@ -2789,6 +3066,7 @@
       "it": "va bene",
       "uk": "гаразд",
       "de": "okay, in Ordnung",
+      "fr": "d'accord",
       "kind": "chunk"
      },
      {
@@ -2797,6 +3075,7 @@
       "it": "fantastico!",
       "uk": "чудово!",
       "de": "super!, toll!",
+      "fr": "génial !",
       "kind": "chunk"
      }
     ]
@@ -2807,8 +3086,9 @@
     "intention": {
      "en": "Your friend calls you: «¡Hola, {name}! ¿Qué tal?» Say hello and that you're fine, and ask her back.",
      "it": "La tua amica ti chiama: «¡Hola, {name}! ¿Qué tal?» Salutala, di' che stai bene e chiedile come sta.",
-     "uk": "Привіт. У мене все добре, а в тебе?",
-     "de": "Hallo. Mir geht's gut, und dir?"
+     "uk": "Подруга тобі телефонує: «¡Hola, {name}! ¿Qué tal?» Привітайся, скажи, що в тебе все добре, і запитай, як у неї справи.",
+     "de": "Deine Freundin ruft dich an: «¡Hola, {name}! ¿Qué tal?» Grüß sie, sag, dass es dir gut geht, und frag zurück.",
+     "fr": "Ton amie t'appelle : «¡Hola, {name}! ¿Qué tal?» Dis bonjour, dis que tu vas bien et demande-lui comment elle va."
     },
     "accepted": [
      "Hola. Estoy bien, ¿y tú?",
@@ -2823,13 +3103,15 @@
     ],
     "en": "Hi. I'm fine, and you?",
     "it": "Ciao. Sto bene, e tu?",
-    "uk": "Подруга тобі телефонує: «¡Hola, {name}! ¿Qué tal?» Привітайся, скажи, що в тебе все добре, і запитай, як у неї справи.",
-    "de": "Deine Freundin ruft dich an: «¡Hola, {name}! ¿Qué tal?» Grüß sie, sag, dass es dir gut geht, und frag zurück.",
+    "uk": "Привіт. У мене все добре, а в тебе?",
+    "de": "Hallo. Mir geht's gut, und dir?",
+    "fr": "Salut. Je vais bien, et toi ?",
     "hint": {
      "en": "How you feel uses estar: estoy bien.",
      "it": "Come stai si dice con estar: estoy bien.",
      "uk": "Як ти почуваєшся — це estar: estoy bien.",
-     "de": "Wie es dir geht, sagst du mit estar: estoy bien."
+     "de": "Wie es dir geht, sagst du mit estar: estoy bien.",
+     "fr": "Comment tu te sens, ça se dit avec estar : estoy bien."
     }
    },
    {
@@ -2847,11 +3129,13 @@
     "it": "Ti piace il mare? Sì, mi piace molto.",
     "uk": "Тобі подобається море? Так, мені дуже подобається.",
     "de": "Magst du das Meer? Ja, sehr.",
+    "fr": "Tu aimes la mer ? Oui, j'aime beaucoup.",
     "hint": {
      "en": "You answer about yourself: me gusta.",
      "it": "Rispondi su di te: me gusta.",
      "uk": "Ти відповідаєш про себе: me gusta.",
-     "de": "Du antwortest über dich selbst: me gusta."
+     "de": "Du antwortest über dich selbst: me gusta.",
+     "fr": "Tu réponds pour toi : me gusta."
     }
    },
    {
@@ -2860,8 +3144,9 @@
     "intention": {
      "en": "Your friend asks: «¿Quieres ir a la playa el fin de semana?» Say that you prefer the mountains.",
      "it": "La tua amica chiede: «¿Quieres ir a la playa el fin de semana?» Di' che preferisci la montagna.",
-     "uk": "Мені більше подобаються гори.",
-     "de": "Ich mag lieber die Berge."
+     "uk": "Подруга питає: «¿Quieres ir a la playa el fin de semana?» Скажи, що тобі більше подобаються гори.",
+     "de": "Deine Freundin fragt: «¿Quieres ir a la playa el fin de semana?» Sag, dass du lieber in die Berge willst.",
+     "fr": "Ton amie demande : «¿Quieres ir a la playa el fin de semana?» Dis que tu préfères la montagne."
     },
     "accepted": [
      "Prefiero la montaña.",
@@ -2875,13 +3160,15 @@
     ],
     "en": "I prefer the mountains.",
     "it": "Preferisco la montagna.",
-    "uk": "Подруга питає: «¿Quieres ir a la playa el fin de semana?» Скажи, що тобі більше подобаються гори.",
-    "de": "Deine Freundin fragt: «¿Quieres ir a la playa el fin de semana?» Sag, dass du lieber in die Berge willst.",
+    "uk": "Мені більше подобаються гори.",
+    "de": "Ich mag lieber die Berge.",
+    "fr": "Je préfère la montagne.",
     "hint": {
      "en": "About yourself: prefiero.",
      "it": "Parli di te: prefiero.",
      "uk": "Про себе: prefiero.",
-     "de": "Über dich selbst: prefiero."
+     "de": "Über dich selbst: prefiero.",
+     "fr": "Tu parles de toi : prefiero."
     }
    },
    {
@@ -2899,11 +3186,13 @@
     "it": "Preferisco la montagna perché è bellissima.",
     "uk": "Мені більше подобаються гори, бо вони дуже гарні.",
     "de": "Ich mag lieber die Berge, weil sie sehr schön sind.",
+    "fr": "Je préfère la montagne parce qu'elle est très belle.",
     "hint": {
      "en": "Give the reason with porque.",
      "it": "Dai il motivo con porque.",
      "uk": "Поясни причину з porque.",
-     "de": "Gib den Grund mit porque an."
+     "de": "Gib den Grund mit porque an.",
+     "fr": "Donne la raison avec porque."
     }
    },
    {
@@ -2912,8 +3201,9 @@
     "intention": {
      "en": "Your friend says: «Vale, la montaña. ¿Cenamos en un restaurante?» Say great, and ask if she likes fish.",
      "it": "La tua amica dice: «Vale, la montaña. ¿Cenamos en un restaurante?» Di' che è fantastico e chiedile se le piace il pesce.",
-     "uk": "Чудово! Тобі подобається риба?",
-     "de": "Super! Magst du Fisch?"
+     "uk": "Подруга каже: «Vale, la montaña. ¿Cenamos en un restaurante?» Скажи «чудово» і запитай, чи їй подобається риба.",
+     "de": "Deine Freundin sagt: «Vale, la montaña. ¿Cenamos en un restaurante?» Sag super und frag sie, ob sie Fisch mag.",
+     "fr": "Ton amie dit : «Vale, la montaña. ¿Cenamos en un restaurante?» Dis que c'est génial, et demande-lui si elle aime le poisson."
     },
     "accepted": [
      "¡Genial! ¿Te gusta el pescado?"
@@ -2926,13 +3216,15 @@
     ],
     "en": "Great! Do you like fish?",
     "it": "Fantastico! Ti piace il pesce?",
-    "uk": "Подруга каже: «Vale, la montaña. ¿Cenamos en un restaurante?» Скажи «чудово» і запитай, чи їй подобається риба.",
-    "de": "Deine Freundin sagt: «Vale, la montaña. ¿Cenamos en un restaurante?» Sag super und frag sie, ob sie Fisch mag.",
+    "uk": "Чудово! Тобі подобається риба?",
+    "de": "Super! Magst du Fisch?",
+    "fr": "Génial ! Tu aimes le poisson ?",
     "hint": {
      "en": "Asking her directly: te gusta.",
      "it": "Lo chiedi a lei direttamente: te gusta.",
      "uk": "Ти питаєш саме її: te gusta.",
-     "de": "Du fragst sie direkt: te gusta."
+     "de": "Du fragst sie direkt: te gusta.",
+     "fr": "Tu lui demandes directement : te gusta."
     }
    },
    {
@@ -2949,11 +3241,13 @@
     "it": "Non mi piace per niente il pesce. — Neanche a me. Preferisco la carne.",
     "uk": "Мені зовсім не подобається риба. — Мені теж ні. Мені більше подобається м'ясо.",
     "de": "Ich mag Fisch überhaupt nicht. – Ich auch nicht. Ich mag lieber Fleisch.",
+    "fr": "Je n'aime pas du tout le poisson. — Moi non plus. Je préfère la viande.",
     "hint": {
      "en": "Agreeing with a no: tampoco.",
      "it": "D'accordo con un no: tampoco.",
      "uk": "Погоджуєшся з «ні»: tampoco.",
-     "de": "Zustimmen bei einem no: tampoco."
+     "de": "Zustimmen bei einem no: tampoco.",
+     "fr": "D'accord avec un non : tampoco."
     }
    },
    {
@@ -2969,11 +3263,13 @@
     "it": "E la pizza? Sì, adoro la pizza!",
     "uk": "А піца? Так, я обожнюю піцу!",
     "de": "Und Pizza? Ja, ich liebe Pizza!",
+    "fr": "Et la pizza ? Oui, j'adore la pizza !",
     "hint": {
      "en": "La pizza is one thing: me encanta.",
      "it": "La pizza è una cosa sola: me encanta.",
      "uk": "La pizza — це одна річ: me encanta.",
-     "de": "La pizza ist eine einzige Sache: me encanta."
+     "de": "La pizza ist eine einzige Sache: me encanta.",
+     "fr": "La pizza est une seule chose : me encanta."
     }
    },
    {
@@ -2991,11 +3287,13 @@
     "it": "C'è un ristorante italiano in centro, ma è caro. — Preferisco un ristorante economico.",
     "uk": "У центрі є італійський ресторан, але він дорогий. — Я краще піду в дешевий.",
     "de": "Im Zentrum gibt es ein italienisches Restaurant, aber es ist teuer. – Ich gehe lieber in ein billiges.",
+    "fr": "Il y a un restaurant italien dans le centre, mais il est cher. — Je préfère un restaurant bon marché.",
     "hint": {
      "en": "Un restaurante: -o.",
      "it": "Un restaurante: -o.",
      "uk": "Un restaurante: -o.",
-     "de": "Un restaurante: -o."
+     "de": "Un restaurante: -o.",
+     "fr": "Un restaurante : -o."
     }
    },
    {
@@ -3004,8 +3302,9 @@
     "intention": {
      "en": "Your friend says: «Mi hermano también quiere ir.» Say OK, and ask if he likes the mountains.",
      "it": "La tua amica dice: «Mi hermano también quiere ir.» Di' che va bene e chiedi se a lui piace la montagna.",
-     "uk": "Гаразд. Йому подобаються гори?",
-     "de": "Okay. Mag er die Berge?"
+     "uk": "Подруга каже: «Mi hermano también quiere ir.» Скажи «гаразд» і запитай, чи йому подобаються гори.",
+     "de": "Deine Freundin sagt: «Mi hermano también quiere ir.» Sag okay und frag, ob er die Berge mag.",
+     "fr": "Ton amie dit : «Mi hermano también quiere ir.» Dis d'accord, et demande s'il aime la montagne."
     },
     "accepted": [
      "Vale. ¿Le gusta la montaña?",
@@ -3019,13 +3318,15 @@
     ],
     "en": "OK. Does he like the mountains?",
     "it": "Va bene. Gli piace la montagna?",
-    "uk": "Подруга каже: «Mi hermano también quiere ir.» Скажи «гаразд» і запитай, чи йому подобаються гори.",
-    "de": "Deine Freundin sagt: «Mi hermano también quiere ir.» Sag okay und frag, ob er die Berge mag.",
+    "uk": "Гаразд. Йому подобаються гори?",
+    "de": "Okay. Mag er die Berge?",
+    "fr": "D'accord. Il aime la montagne ?",
     "hint": {
      "en": "About him: le gusta.",
      "it": "Parli di lui: le gusta.",
      "uk": "Про нього: le gusta.",
-     "de": "Über ihn: le gusta."
+     "de": "Über ihn: le gusta.",
+     "fr": "Tu parles de lui : le gusta."
     }
    },
    {
@@ -3034,8 +3335,9 @@
     "intention": {
      "en": "Your friend asks: «¿Vamos en tren o a pie?» Say that you prefer to go by train.",
      "it": "La tua amica chiede: «¿Vamos en tren o a pie?» Di' che preferisci andare in treno.",
-     "uk": "Я краще поїду потягом.",
-     "de": "Ich fahre lieber mit dem Zug."
+     "uk": "Подруга питає: «¿Vamos en tren o a pie?» Скажи, що тобі більше подобається поїхати потягом.",
+     "de": "Deine Freundin fragt: «¿Vamos en tren o a pie?» Sag, dass du lieber mit dem Zug fährst.",
+     "fr": "Ton amie demande : «¿Vamos en tren o a pie?» Dis que tu préfères y aller en train."
     },
     "accepted": [
      "Prefiero ir en tren.",
@@ -3050,13 +3352,15 @@
     ],
     "en": "I'd rather go by train.",
     "it": "Preferisco andare in treno.",
-    "uk": "Подруга питає: «¿Vamos en tren o a pie?» Скажи, що тобі більше подобається поїхати потягом.",
-    "de": "Deine Freundin fragt: «¿Vamos en tren o a pie?» Sag, dass du lieber mit dem Zug fährst.",
+    "uk": "Я краще поїду потягом.",
+    "de": "Ich fahre lieber mit dem Zug.",
+    "fr": "Je préfère y aller en train.",
     "hint": {
      "en": "Prefiero + ir, as it is in the dictionary.",
      "it": "Prefiero + ir, così com'è nel dizionario.",
      "uk": "Prefiero + ir, так, як у словнику.",
-     "de": "Prefiero + ir, so wie es im Wörterbuch steht."
+     "de": "Prefiero + ir, so wie es im Wörterbuch steht.",
+     "fr": "Prefiero + ir, tel qu'il est dans le dictionnaire."
     }
    },
    {
@@ -3066,14 +3370,16 @@
      "en": "Send your friend a message with the plan. Write in Spanish: «At the weekend we're going to the mountains by train and we're having dinner at a cheap restaurant.»",
      "it": "Manda alla tua amica un messaggio con il piano. Scrivi in spagnolo: «Nel weekend andiamo in montagna in treno e ceniamo in un ristorante economico.»",
      "uk": "Надішли подрузі повідомлення з планом. Напиши іспанською: «На вихідних ми їдемо в гори потягом і вечеряємо в дешевому ресторані.»",
-     "de": "Schick deiner Freundin eine Nachricht mit dem Plan. Schreib auf Spanisch: «Am Wochenende fahren wir mit dem Zug in die Berge und essen in einem billigen Restaurant zu Abend.»"
+     "de": "Schick deiner Freundin eine Nachricht mit dem Plan. Schreib auf Spanisch: «Am Wochenende fahren wir mit dem Zug in die Berge und essen in einem billigen Restaurant zu Abend.»",
+     "fr": "Envoie à ton amie un message avec le programme. Écris en espagnol : «Le week-end, nous allons à la montagne en train et nous dînons dans un restaurant bon marché.»"
     },
     "model": {
      "es": "El fin de semana vamos a la montaña en tren y cenamos en un restaurante barato.",
      "en": "At the weekend we're going to the mountains by train and we're having dinner at a cheap restaurant.",
      "it": "Nel weekend andiamo in montagna in treno e ceniamo in un ristorante economico.",
      "uk": "На вихідних ми їдемо в гори потягом і вечеряємо в дешевому ресторані.",
-     "de": "Am Wochenende fahren wir mit dem Zug in die Berge und essen in einem billigen Restaurant zu Abend."
+     "de": "Am Wochenende fahren wir mit dem Zug in die Berge und essen in einem billigen Restaurant zu Abend.",
+     "fr": "Le week-end, nous allons à la montagne en train et nous dînons dans un restaurant bon marché."
     },
     "accepted": [
      "El fin de semana vamos a la montaña en tren y cenamos en un restaurante barato.",
