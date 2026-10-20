@@ -79,10 +79,11 @@ struct Verb: Identifiable, Hashable {
     let lemma: String
     /// Infinitive meaning, e.g. "to speak" / "parlare".
     let meaning: Gloss
-    /// The yo form in context, e.g. "I speak" / "parlo".
-    let yoMeaning: Gloss
-    /// The chunk the verb is first met in ("No naked words").
-    let chunk: String
+    /// Meaning for yo, tú and él/ella, e.g. "I speak", "you speak", "she speaks".
+    let present: [Gloss]
+    /// The chunk the verb is practised with ("No naked words"), e.g. "español".
+    let complement: String
+    let complementGloss: Gloss
 
     var id: String { lemma }
 
@@ -96,6 +97,16 @@ struct Verb: Identifiable, Hashable {
 
     /// The blue brick: the infinitive minus -ar/-er/-ir.
     var stem: String { String(lemma.dropLast(2)) }
+
+    /// Meaning of the yo, tú or él/ella form; other persons fall back to the infinitive.
+    func gloss(_ person: Person) -> Gloss {
+        switch person {
+        case .yo: return present[0]
+        case .tu: return present[1]
+        case .el: return present[2]
+        default: return meaning
+        }
+    }
 }
 
 /// A form split into its Lego bricks, so the UI can colour stem and ending.

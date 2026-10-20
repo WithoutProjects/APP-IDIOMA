@@ -41,7 +41,7 @@ struct DashboardView: View {
     @ViewBuilder
     private var continueCard: some View {
         if let node = store.nextNode, let level = curriculum.level(id: node.levelId) {
-            let lesson = store.profile.flatMap { Unit1.lesson(id: node.id, profile: $0) }
+            let lesson = store.playableLesson(node.id)
             let unit = node.unitId.flatMap { curriculum.unit(id: $0) }
             VStack(alignment: .leading, spacing: 12) {
                 Text("NIVEL \(level.number) · \(level.name.uppercased()) · \(level.cefr)")
@@ -104,6 +104,8 @@ struct DashboardView: View {
                     PathNodeRow(id: lesson.id, title: lesson.title, subtitle: lesson.gloss.text(store.language), kind: .lesson)
                 }
                 PathNodeRow(id: unit.boss.id, title: unit.boss.title, subtitle: unit.boss.gloss.text(store.language), kind: .boss)
+                PathNodeRow(id: unit.test.id, title: unit.test.title, subtitle: unit.test.gloss.text(store.language), kind: .test)
+                SkipUnitButton(unit: unit) { activeLesson = $0 }
             }
             NavigationLink {
                 PathMapView()
@@ -151,6 +153,7 @@ struct PathNodeRow: View {
         switch kind {
         case .lesson: return isCurrent ? "play.circle.fill" : "lock.circle"
         case .boss: return "flag.checkered"
+        case .test: return "checklist"
         case .checkpoint: return "rosette"
         }
     }
@@ -159,5 +162,28 @@ struct PathNodeRow: View {
         if store.isCompleted(id) { return Palette.success }
         if isCurrent { return Brick.stem.color }
         return kind == .lesson ? .secondary : Brick.rail.color.opacity(0.6)
+    }
+}
+
+/// "Already know this?": take the unit's 10-question test and skip ahead if you pass.
+struct SkipUnitButton: View {
+    @EnvironmentObject var store: AppStore
+    let unit: CurriculumUnit
+    let start: (Lesson) -> Void
+
+    var body: some View {
+        let test = store.playableLesson(unit.test.id)
+        if !store.isCompleted(unit.test.id) {
+            Button {
+                if let test { start(test) }
+            } label: {
+                Label(test == nil ? "Unit test coming soon" : "Already know this? Take the test (10 questions)",
+                      systemImage: "forward.fill")
+                    .font(.subheadline.weight(.semibold))
+            }
+            .buttonStyle(.bordered)
+            .tint(Brick.rail.color)
+            .disabled(test == nil)
+        }
     }
 }

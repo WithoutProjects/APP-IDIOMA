@@ -2,7 +2,7 @@ import SwiftUI
 
 // MARK: - Frame
 
-/// A rule shown as a picture: habl- + -o = hablo, one rule, a few examples.
+/// An explanation: habl- + -o = hablo, one rule, a few examples.
 struct FrameCardView: View {
     let card: FrameCard
     let language: NativeLanguage
@@ -11,14 +11,19 @@ struct FrameCardView: View {
 
     var body: some View {
         VStack(alignment: .leading, spacing: 24) {
-            HStack(spacing: 10) {
-                BrickView(text: card.stem + "-", kind: .stem)
-                Text("+").font(.title2.bold())
-                BrickView(text: "-" + card.ending, kind: .ending)
-                Text("=").font(.title2.bold())
-                ColoredForm(form: VerbForm(stem: card.stem, ending: card.ending), font: .title.bold())
-                    .opacity(snapped ? 1 : 0)
-                    .scaleEffect(snapped ? 1 : 0.6)
+            FlowLayout(spacing: 10) {
+                ForEach(Array(card.bricks.enumerated()), id: \.offset) { index, brick in
+                    if index > 0 {
+                        Text("+").font(.title2.bold())
+                    }
+                    BrickView(text: brick.text, kind: brick.kind)
+                }
+                if let result = card.result {
+                    Text("=").font(.title2.bold())
+                    ColoredForm(form: result, font: .title.bold())
+                        .opacity(snapped ? 1 : 0)
+                        .scaleEffect(snapped ? 1 : 0.6)
+                }
             }
             .frame(maxWidth: .infinity)
             .onAppear {
@@ -117,6 +122,66 @@ struct LegoSnapView: View {
         } else {
             onSubmit(.wrong(hint: "With \(snap.person.label), the ending is -\(snap.answer.ending)."))
         }
+    }
+}
+
+// MARK: - Context Gap
+
+/// Type the missing verb; who is speaking and the context decide the form.
+struct GapFillView: View {
+    let gap: GapFill
+    let language: NativeLanguage
+    let onSubmit: (GradeOutcome) -> Void
+    @State var text = ""
+    @FocusState var focused: Bool
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 24) {
+            Text(language == .english ? "Complete the sentence." : "Completa la frase.")
+                .font(.title2.weight(.semibold))
+
+            VStack(alignment: .leading, spacing: 8) {
+                (Text(gap.before) + Text("_____").foregroundColor(Brick.ending.color) + Text(gap.after))
+                    .font(.title3.weight(.medium))
+                Text(gap.gloss.text(language))
+                    .font(.footnote)
+                    .foregroundStyle(.secondary)
+            }
+            .padding()
+            .frame(maxWidth: .infinity, alignment: .leading)
+            .background(RoundedRectangle(cornerRadius: 16).fill(Palette.card))
+
+            HStack {
+                TextField(gap.lemma, text: $text)
+                    .textInputAutocapitalization(.never)
+                    .autocorrectionDisabled()
+                    .focused($focused)
+                    .submitLabel(.done)
+                    .onSubmit(check)
+                    .font(.title3)
+                Text(gap.lemma)
+                    .font(.caption.weight(.semibold))
+                    .padding(.horizontal, 8)
+                    .padding(.vertical, 4)
+                    .background(Capsule().fill(Brick.stem.color.opacity(0.15)))
+            }
+            .padding()
+            .background(RoundedRectangle(cornerRadius: 16).strokeBorder(Color.secondary.opacity(0.4)))
+
+            Button("Check", action: check)
+                .buttonStyle(PrimaryButtonStyle())
+                .disabled(isEmpty)
+                .opacity(isEmpty ? 0.4 : 1)
+        }
+        .onAppear { focused = true }
+    }
+
+    private var isEmpty: Bool { text.trimmingCharacters(in: .whitespaces).isEmpty }
+
+    private func check() {
+        guard !isEmpty else { return }
+        focused = false
+        onSubmit(Grader.compare(text, accepted: gap.accepted, hint: gap.hint.text(language)))
     }
 }
 

@@ -1,19 +1,27 @@
 import SwiftUI
 
-/// The verb workshop: a heat-rack that fills as forms are mastered, and a Lego bench to play with endings.
+/// The verb workshop. Two doors: review the tables, or play verb games for your level.
 struct LabView: View {
     @EnvironmentObject private var store: AppStore
-    @State private var benchLemma = "hablar"
-    @State private var benchPerson: Person = .yo
-
-    private let rackPersons: [Person] = [.yo, .tu, .el]
 
     var body: some View {
         NavigationStack {
             ScrollView {
-                VStack(alignment: .leading, spacing: 28) {
-                    rack
-                    bench
+                VStack(spacing: 16) {
+                    NavigationLink {
+                        TablesView()
+                    } label: {
+                        door(title: "Repasar tablas",
+                             detail: Gloss(en: "Your verb tables and the Lego bench.", it: "Le tue tabelle dei verbi e il banco Lego."),
+                             icon: "tablecells", color: Brick.stem.color)
+                    }
+                    NavigationLink {
+                        GamesView()
+                    } label: {
+                        door(title: "Jugar",
+                             detail: Gloss(en: "Verb minigames for your level.", it: "Minigiochi di verbi per il tuo livello."),
+                             icon: "gamecontroller.fill", color: Brick.ending.color)
+                    }
                 }
                 .padding(20)
             }
@@ -21,84 +29,60 @@ struct LabView: View {
         }
     }
 
-    // MARK: Heat-rack
-
-    private var rack: some View {
-        let unlocked = Unit1.unlockedPersons(completed: store.state.completedLessons)
-        return VStack(alignment: .leading, spacing: 10) {
-            Text("PRESENTE RACK").font(.caption.weight(.bold)).foregroundStyle(.secondary)
-            Grid(horizontalSpacing: 6, verticalSpacing: 6) {
-                GridRow {
-                    Text("")
-                    ForEach(rackPersons) { person in
-                        Text(person.label).font(.caption.weight(.semibold))
-                    }
-                }
-                ForEach(Unit1.verbs) { verb in
-                    GridRow {
-                        Text(verb.lemma).font(.caption).foregroundStyle(.secondary)
-                            .gridColumnAlignment(.leading)
-                        ForEach(rackPersons) { person in
-                            cell(verb, person, locked: !unlocked.contains(person))
-                        }
-                    }
-                }
+    private func door(title: String, detail: Gloss, icon: String, color: Color) -> some View {
+        HStack(spacing: 16) {
+            Image(systemName: icon)
+                .font(.system(size: 34))
+                .frame(width: 56)
+            VStack(alignment: .leading, spacing: 4) {
+                Text(title).font(.title2.bold())
+                Text(detail.text(store.language)).font(.subheadline).opacity(0.9)
             }
+            Spacer()
+            Image(systemName: "chevron.right")
         }
+        .foregroundStyle(.white)
+        .padding(24)
+        .frame(maxWidth: .infinity, minHeight: 130)
+        .background(RoundedRectangle(cornerRadius: 24, style: .continuous).fill(color.gradient))
     }
+}
 
-    private func cell(_ verb: Verb, _ person: Person, locked: Bool) -> some View {
-        let mastery = store.mastery(of: Conjugator.key(verb, .presente, person))
-        return Group {
-            if locked {
-                Image(systemName: "lock.fill").font(.caption2).foregroundStyle(.tertiary)
+/// "Jugar": the minigames, each opening at its point on the path.
+struct GamesView: View {
+    @EnvironmentObject private var store: AppStore
+
+    var body: some View {
+        List(LabGame.all) { game in
+            let unlocked = store.isCompleted(game.unlockedBy)
+            if unlocked && game.isBuilt {
+                NavigationLink {
+                    PairsGameView()
+                } label: {
+                    row(game, status: nil)
+                }
             } else {
-                ColoredForm(form: Conjugator.conjugate(verb, .presente, person), font: .callout.weight(.semibold))
+                row(game, status: game.isBuilt ? "Opens at \(game.unlockLabel)" : "Coming soon · \(game.unlockLabel)")
+                    .opacity(0.55)
             }
         }
-        .frame(maxWidth: .infinity, minHeight: 34)
-        .background(
-            RoundedRectangle(cornerRadius: 8)
-                .fill(Palette.success.opacity(locked ? 0.04 : 0.08 + 0.17 * Double(mastery)))
-        )
+        .navigationTitle("Jugar")
     }
 
-    // MARK: Lego bench
-
-    private var bench: some View {
-        let verb = Unit1.verb(benchLemma)
-        let form = Conjugator.conjugate(verb, .presente, benchPerson)
-        return VStack(alignment: .leading, spacing: 14) {
-            Text("LEGO BENCH").font(.caption.weight(.bold)).foregroundStyle(.secondary)
-            Picker("Verb", selection: $benchLemma) {
-                ForEach(Unit1.verbs) { verb in
-                    Text("\(verb.lemma) · \(verb.meaning.text(store.language))").tag(verb.lemma)
+    private func row(_ game: LabGame, status: String?) -> some View {
+        HStack(spacing: 14) {
+            Image(systemName: game.icon)
+                .font(.title2)
+                .foregroundStyle(Brick.ending.color)
+                .frame(width: 36)
+            VStack(alignment: .leading, spacing: 2) {
+                Text(game.title).font(.headline)
+                Text(game.gloss.text(store.language)).font(.subheadline).foregroundStyle(.secondary)
+                if let status {
+                    Label(status, systemImage: "lock.fill").font(.caption).foregroundStyle(.secondary)
                 }
             }
-            .pickerStyle(.menu)
-            ScrollView(.horizontal, showsIndicators: false) {
-                HStack {
-                    ForEach(Person.allCases) { person in
-                        Button(person.label) { benchPerson = person }
-                            .buttonStyle(.bordered)
-                            .tint(person == benchPerson ? Brick.ending.color : .secondary)
-                    }
-                }
-            }
-            HStack(spacing: 10) {
-                BrickView(text: form.stem + "-", kind: .stem)
-                Text("+").font(.title2.bold())
-                BrickView(text: "-" + form.ending, kind: .ending)
-                Text("=").font(.title2.bold())
-                ColoredForm(form: form, font: .title2.bold())
-            }
-            .frame(maxWidth: .infinity)
-            .padding(.vertical, 18)
-            .background(RoundedRectangle(cornerRadius: 16).fill(Palette.card))
-            .animation(.spring(response: 0.3), value: form)
-            Text("ER and IR share almost every ending, so there are really 2 families to learn, not 3.")
-                .font(.footnote)
-                .foregroundStyle(.secondary)
         }
+        .padding(.vertical, 6)
     }
 }

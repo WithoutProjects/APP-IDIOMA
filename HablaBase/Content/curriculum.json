@@ -39,39 +39,39 @@
      "lessons": [
       {
        "id": "u1l1",
+       "title": "Yo, tú, él",
+       "gloss": {
+        "en": "I, you, he",
+        "it": "Io, tu, lui"
+       },
+       "focus": "-o · -as / -es · -a / -e"
+      },
+      {
+       "id": "u1l2",
        "title": "Me presento",
        "gloss": {
         "en": "I introduce myself",
         "it": "Mi presento"
        },
-       "focus": "yo: -o"
+       "focus": "frases sobre ti con yo"
       },
       {
-       "id": "u1l2",
+       "id": "u1l3",
        "title": "¿Y tú?",
        "gloss": {
         "en": "And you?",
         "it": "E tu?"
        },
-       "focus": "tú: -as / -es"
-      },
-      {
-       "id": "u1l3",
-       "title": "Mi rutina",
-       "gloss": {
-        "en": "My routine",
-        "it": "La mia routine"
-       },
-       "focus": "y, también; por la mañana"
+       "focus": "preguntas con tú"
       },
       {
        "id": "u1l4",
-       "title": "Él, ella y mi familia",
+       "title": "Mi rutina y mi familia",
        "gloss": {
-        "en": "He, she and my family",
-        "it": "Lui, lei e la mia famiglia"
+        "en": "My routine and my family",
+        "it": "La mia routine e la mia famiglia"
        },
-       "focus": "él/ella: -a / -e"
+       "focus": "y, también; él / ella"
       },
       {
        "id": "u1l5",
@@ -98,6 +98,14 @@
       "gloss": {
        "en": "Buy dinner from Don Paco at a busy market stall.",
        "it": "Compra la cena da Don Paco in un mercato affollato."
+      }
+     },
+     "test": {
+      "id": "u1test",
+      "title": "Test: El presente",
+      "gloss": {
+       "en": "10 questions. Get 8 right to skip the unit.",
+       "it": "10 domande. Rispondine bene a 8 per saltare l'unità."
       }
      }
     },
@@ -172,6 +180,14 @@
        "en": "Introduce your friends to each other at a dinner.",
        "it": "Presenta i tuoi amici tra loro a una cena."
       }
+     },
+     "test": {
+      "id": "u2test",
+      "title": "Test: Todos juntos",
+      "gloss": {
+       "en": "10 questions. Get 8 right to skip the unit.",
+       "it": "10 domande. Rispondine bene a 8 per saltare l'unità."
+      }
      }
     },
     {
@@ -244,6 +260,14 @@
       "gloss": {
        "en": "Introduce yourself and describe your new colleagues.",
        "it": "Presentati e descrivi i tuoi nuovi colleghi."
+      }
+     },
+     "test": {
+      "id": "u3test",
+      "title": "Test: Ser y estar",
+      "gloss": {
+       "en": "10 questions. Get 8 right to skip the unit.",
+       "it": "10 domande. Rispondine bene a 8 per saltare l'unità."
       }
      }
     },
@@ -320,6 +344,14 @@
        "en": "Visit a flat to rent and ask what it has.",
        "it": "Visita un appartamento in affitto e chiedi cosa c'è."
       }
+     },
+     "test": {
+      "id": "u4test",
+      "title": "Test: Tener e ir",
+      "gloss": {
+       "en": "10 questions. Get 8 right to skip the unit.",
+       "it": "10 domande. Rispondine bene a 8 per saltare l'unità."
+      }
      }
     },
     {
@@ -392,6 +424,14 @@
       "gloss": {
        "en": "Agree with a friend on what to do this weekend.",
        "it": "Mettiti d'accordo con un'amica su cosa fare nel weekend."
+      }
+     },
+     "test": {
+      "id": "u5test",
+      "title": "Test: Me gusta",
+      "gloss": {
+       "en": "10 questions. Get 8 right to skip the unit.",
+       "it": "10 domande. Rispondine bene a 8 per saltare l'unità."
       }
      }
     },
@@ -468,6 +508,14 @@
       "gloss": {
        "en": "Tell a language partner about your week in 6 linked sentences.",
        "it": "Racconta la tua settimana a un partner linguistico in 6 frasi collegate."
+      }
+     },
+     "test": {
+      "id": "u6test",
+      "title": "Test: Mi día",
+      "gloss": {
+       "en": "10 questions. Get 8 right to skip the unit.",
+       "it": "10 domande. Rispondine bene a 8 per saltare l'unità."
       }
      }
     }
@@ -566,6 +614,14 @@
        "en": "Order a meal and change your order when something is missing.",
        "it": "Ordina un pasto e cambia l'ordine quando manca qualcosa."
       }
+     },
+     "test": {
+      "id": "u7test",
+      "title": "Test: Verbos que cambian",
+      "gloss": {
+       "en": "10 questions. Get 8 right to skip the unit.",
+       "it": "10 domande. Rispondine bene a 8 per saltare l'unità."
+      }
      }
     },
     {
@@ -636,6 +692,14 @@
       "gloss": {
        "en": "Organise a party: who brings what and who comes.",
        "it": "Organizza una festa: chi porta cosa e chi viene."
+      }
+     },
+     "test": {
+      "id": "u8test",
+      "title": "Test: Yo irregular",
+      "gloss": {
+       "en": "10 questions. Get 8 right to skip the unit.",
+       "it": "10 domande. Rispondine bene a 8 per saltare l'unità."
       }
      }
     },
@@ -711,6 +775,14 @@
        "en": "Agree on the house routine with your flatmates.",
        "it": "Mettiti d'accordo sulla routine di casa con i coinquilini."
       }
+     },
+     "test": {
+      "id": "u9test",
+      "title": "Test: Mi rutina completa",
+      "gloss": {
+       "en": "10 questions. Get 8 right to skip the unit.",
+       "it": "10 domande. Rispondine bene a 8 per saltare l'unità."
+      }
      }
     },
     {
@@ -783,6 +855,14 @@
       "gloss": {
        "en": "Plan a weekend trip with a friend: transport, places, times.",
        "it": "Organizza un weekend con un amico: trasporti, luoghi, orari."
+      }
+     },
+     "test": {
+      "id": "u10test",
+      "title": "Test: Planes",
+      "gloss": {
+       "en": "10 questions. Get 8 right to skip the unit.",
+       "it": "10 domande. Rispondine bene a 8 per saltare l'unità."
       }
      }
     },
@@ -857,6 +937,14 @@
        "en": "Ask locals the way and guide a tourist back.",
        "it": "Chiedi la strada e guida un turista."
       }
+     },
+     "test": {
+      "id": "u11test",
+      "title": "Test: La ciudad",
+      "gloss": {
+       "en": "10 questions. Get 8 right to skip the unit.",
+       "it": "10 domande. Rispondine bene a 8 per saltare l'unità."
+      }
      }
     },
     {
@@ -929,6 +1017,14 @@
       "gloss": {
        "en": "Return a jumper that does not fit and choose another.",
        "it": "Restituisci un maglione che non va bene e scegline un altro."
+      }
+     },
+     "test": {
+      "id": "u12test",
+      "title": "Test: De compras",
+      "gloss": {
+       "en": "10 questions. Get 8 right to skip the unit.",
+       "it": "10 domande. Rispondine bene a 8 per saltare l'unità."
       }
      }
     },
@@ -1003,6 +1099,14 @@
       "gloss": {
        "en": "Book a table and order for a group with special requests.",
        "it": "Prenota un tavolo e ordina per un gruppo con richieste speciali."
+      }
+     },
+     "test": {
+      "id": "u13test",
+      "title": "Test: Comer fuera",
+      "gloss": {
+       "en": "10 questions. Get 8 right to skip the unit.",
+       "it": "10 domande. Rispondine bene a 8 per saltare l'unità."
       }
      }
     }
@@ -1102,6 +1206,14 @@
        "en": "Talk about your experience in a job interview.",
        "it": "Parla delle tue esperienze in un colloquio di lavoro."
       }
+     },
+     "test": {
+      "id": "u14test",
+      "title": "Test: Hoy he...",
+      "gloss": {
+       "en": "10 questions. Get 8 right to skip the unit.",
+       "it": "10 domande. Rispondine bene a 8 per saltare l'unità."
+      }
      }
     },
     {
@@ -1174,6 +1286,14 @@
        "en": "Tell your colleagues about your weekend.",
        "it": "Racconta ai colleghi il tuo weekend."
       }
+     },
+     "test": {
+      "id": "u15test",
+      "title": "Test: Ayer",
+      "gloss": {
+       "en": "10 questions. Get 8 right to skip the unit.",
+       "it": "10 domande. Rispondine bene a 8 per saltare l'unità."
+      }
      }
     },
     {
@@ -1244,6 +1364,14 @@
       "gloss": {
        "en": "Tell a friend about a trip where everything went wrong.",
        "it": "Racconta a un amico un viaggio andato tutto storto."
+      }
+     },
+     "test": {
+      "id": "u16test",
+      "title": "Test: Los irregulares",
+      "gloss": {
+       "en": "10 questions. Get 8 right to skip the unit.",
+       "it": "10 domande. Rispondine bene a 8 per saltare l'unità."
       }
      }
     },
@@ -1317,6 +1445,14 @@
        "en": "Complain politely about your room and get it changed.",
        "it": "Lamentati con educazione della camera e ottieni un cambio."
       }
+     },
+     "test": {
+      "id": "u17test",
+      "title": "Test: ¿Perfecto o indefinido?",
+      "gloss": {
+       "en": "10 questions. Get 8 right to skip the unit.",
+       "it": "10 domande. Rispondine bene a 8 per saltare l'unità."
+      }
      }
     },
     {
@@ -1387,6 +1523,14 @@
       "gloss": {
        "en": "Book a trip and explain your reasons and budget.",
        "it": "Prenota un viaggio spiegando motivi e budget."
+      }
+     },
+     "test": {
+      "id": "u18test",
+      "title": "Test: Por y para",
+      "gloss": {
+       "en": "10 questions. Get 8 right to skip the unit.",
+       "it": "10 domande. Rispondine bene a 8 per saltare l'unità."
       }
      }
     },
@@ -1461,6 +1605,14 @@
        "en": "Meet your partner's family and tell them your story.",
        "it": "Conosci la famiglia del tuo partner e racconta la tua storia."
       }
+     },
+     "test": {
+      "id": "u19test",
+      "title": "Test: Mi vida",
+      "gloss": {
+       "en": "10 questions. Get 8 right to skip the unit.",
+       "it": "10 domande. Rispondine bene a 8 per saltare l'unità."
+      }
      }
     },
     {
@@ -1532,6 +1684,14 @@
       "gloss": {
        "en": "Explain your symptoms and understand the advice.",
        "it": "Spiega i sintomi e capisci i consigli."
+      }
+     },
+     "test": {
+      "id": "u20test",
+      "title": "Test: Salud",
+      "gloss": {
+       "en": "10 questions. Get 8 right to skip the unit.",
+       "it": "10 domande. Rispondine bene a 8 per saltare l'unità."
       }
      }
     }
@@ -1629,6 +1789,14 @@
        "en": "Look at old photos with your grandmother and talk about the past.",
        "it": "Guarda vecchie foto con la nonna e parla del passato."
       }
+     },
+     "test": {
+      "id": "u21test",
+      "title": "Test: Cuando era niño",
+      "gloss": {
+       "en": "10 questions. Get 8 right to skip the unit.",
+       "it": "10 domande. Rispondine bene a 8 per saltare l'unità."
+      }
      }
     },
     {
@@ -1700,6 +1868,14 @@
       "gloss": {
        "en": "Tell the police exactly what you saw.",
        "it": "Racconta alla polizia esattamente cosa hai visto."
+      }
+     },
+     "test": {
+      "id": "u22test",
+      "title": "Test: La escena y la acción",
+      "gloss": {
+       "en": "10 questions. Get 8 right to skip the unit.",
+       "it": "10 domande. Rispondine bene a 8 per saltare l'unità."
       }
      }
     },
@@ -1774,6 +1950,14 @@
        "en": "Organise a house move: who gives what to whom.",
        "it": "Organizza un trasloco: chi dà cosa a chi."
       }
+     },
+     "test": {
+      "id": "u23test",
+      "title": "Test: Pronombres",
+      "gloss": {
+       "en": "10 questions. Get 8 right to skip the unit.",
+       "it": "10 domande. Rispondine bene a 8 per saltare l'unità."
+      }
      }
     },
     {
@@ -1846,6 +2030,14 @@
       "gloss": {
        "en": "Tell a 90-second story to a group of friends.",
        "it": "Racconta una storia di 90 secondi a un gruppo di amici."
+      }
+     },
+     "test": {
+      "id": "u24test",
+      "title": "Test: Contar historias",
+      "gloss": {
+       "en": "10 questions. Get 8 right to skip the unit.",
+       "it": "10 domande. Rispondine bene a 8 per saltare l'unità."
       }
      }
     },
@@ -1920,6 +2112,14 @@
        "en": "Defend your favourite city against a friend's.",
        "it": "Difendi la tua città preferita contro quella di un amico."
       }
+     },
+     "test": {
+      "id": "u25test",
+      "title": "Test: Opiniones",
+      "gloss": {
+       "en": "10 questions. Get 8 right to skip the unit.",
+       "it": "10 domande. Rispondine bene a 8 per saltare l'unità."
+      }
      }
     },
     {
@@ -1992,6 +2192,14 @@
       "gloss": {
        "en": "Pass a full job interview in Spanish.",
        "it": "Supera un colloquio di lavoro completo in spagnolo."
+      }
+     },
+     "test": {
+      "id": "u26test",
+      "title": "Test: Trabajo y estudios",
+      "gloss": {
+       "en": "10 questions. Get 8 right to skip the unit.",
+       "it": "10 domande. Rispondine bene a 8 per saltare l'unità."
       }
      }
     },
@@ -2066,6 +2274,14 @@
        "en": "Report your lost suitcase at the airport desk.",
        "it": "Denuncia la valigia persa al banco dell'aeroporto."
       }
+     },
+     "test": {
+      "id": "u27test",
+      "title": "Test: Problemas de viaje",
+      "gloss": {
+       "en": "10 questions. Get 8 right to skip the unit.",
+       "it": "10 domande. Rispondine bene a 8 per saltare l'unità."
+      }
      }
     },
     {
@@ -2137,6 +2353,14 @@
       "gloss": {
        "en": "Show a visitor around your city and tell its stories.",
        "it": "Fai da guida a un visitatore e racconta le storie della città."
+      }
+     },
+     "test": {
+      "id": "u28test",
+      "title": "Test: Fiestas y costumbres",
+      "gloss": {
+       "en": "10 questions. Get 8 right to skip the unit.",
+       "it": "10 domande. Rispondine bene a 8 per saltare l'unità."
       }
      }
     }
@@ -2234,6 +2458,14 @@
        "en": "Talk through your five-year plan with a life coach.",
        "it": "Parla del tuo piano a cinque anni con un life coach."
       }
+     },
+     "test": {
+      "id": "u29test",
+      "title": "Test: El futuro",
+      "gloss": {
+       "en": "10 questions. Get 8 right to skip the unit.",
+       "it": "10 domande. Rispondine bene a 8 per saltare l'unità."
+      }
      }
     },
     {
@@ -2306,6 +2538,14 @@
        "en": "Teach a friend to cook your favourite dish.",
        "it": "Insegna a un amico a cucinare il tuo piatto preferito."
       }
+     },
+     "test": {
+      "id": "u30test",
+      "title": "Test: Imperativo",
+      "gloss": {
+       "en": "10 questions. Get 8 right to skip the unit.",
+       "it": "10 domande. Rispondine bene a 8 per saltare l'unità."
+      }
      }
     },
     {
@@ -2377,6 +2617,14 @@
        "en": "Give a toast at a friend's wedding.",
        "it": "Fai un brindisi al matrimonio di un amico."
       }
+     },
+     "test": {
+      "id": "u31test",
+      "title": "Test: Deseos",
+      "gloss": {
+       "en": "10 questions. Get 8 right to skip the unit.",
+       "it": "10 domande. Rispondine bene a 8 per saltare l'unità."
+      }
      }
     },
     {
@@ -2447,6 +2695,14 @@
       "gloss": {
        "en": "Help a friend decide whether to change jobs.",
        "it": "Aiuta un amico a decidere se cambiare lavoro."
+      }
+     },
+     "test": {
+      "id": "u32test",
+      "title": "Test: Emociones y dudas",
+      "gloss": {
+       "en": "10 questions. Get 8 right to skip the unit.",
+       "it": "10 domande. Rispondine bene a 8 per saltare l'unità."
       }
      }
     },
@@ -2522,6 +2778,14 @@
        "en": "Negotiate repairs and rent with your landlord.",
        "it": "Negozia riparazioni e affitto con il padrone di casa."
       }
+     },
+     "test": {
+      "id": "u33test",
+      "title": "Test: Para que",
+      "gloss": {
+       "en": "10 questions. Get 8 right to skip the unit.",
+       "it": "10 domande. Rispondine bene a 8 per saltare l'unità."
+      }
      }
     },
     {
@@ -2593,6 +2857,14 @@
       "gloss": {
        "en": "Get a refund for a broken product, politely but firmly.",
        "it": "Ottieni un rimborso per un prodotto rotto, con gentilezza e fermezza."
+      }
+     },
+     "test": {
+      "id": "u34test",
+      "title": "Test: Condicional",
+      "gloss": {
+       "en": "10 questions. Get 8 right to skip the unit.",
+       "it": "10 domande. Rispondine bene a 8 per saltare l'unità."
       }
      }
     },
@@ -2668,6 +2940,14 @@
        "en": "Debate: city life or village life.",
        "it": "Dibattito: vita in città o in paese."
       }
+     },
+     "test": {
+      "id": "u35test",
+      "title": "Test: Argumentar",
+      "gloss": {
+       "en": "10 questions. Get 8 right to skip the unit.",
+       "it": "10 domande. Rispondine bene a 8 per saltare l'unità."
+      }
      }
     },
     {
@@ -2738,6 +3018,14 @@
       "gloss": {
        "en": "Fix your internet contract in an audio-only call.",
        "it": "Sistema il contratto internet in una chiamata solo audio."
+      }
+     },
+     "test": {
+      "id": "u36test",
+      "title": "Test: Al teléfono",
+      "gloss": {
+       "en": "10 questions. Get 8 right to skip the unit.",
+       "it": "10 domande. Rispondine bene a 8 per saltare l'unità."
       }
      }
     }
@@ -2836,6 +3124,14 @@
        "en": "A radio interview: what would you do with the prize?",
        "it": "Un'intervista radio: cosa faresti con il premio?"
       }
+     },
+     "test": {
+      "id": "u37test",
+      "title": "Test: Si tuviera",
+      "gloss": {
+       "en": "10 questions. Get 8 right to skip the unit.",
+       "it": "10 domande. Rispondine bene a 8 per saltare l'unità."
+      }
      }
     },
     {
@@ -2906,6 +3202,14 @@
       "gloss": {
        "en": "Retell an office conversation accurately.",
        "it": "Riferisci con precisione una conversazione in ufficio."
+      }
+     },
+     "test": {
+      "id": "u38test",
+      "title": "Test: Estilo indirecto",
+      "gloss": {
+       "en": "10 questions. Get 8 right to skip the unit.",
+       "it": "10 domande. Rispondine bene a 8 per saltare l'unità."
       }
      }
     },
@@ -2979,6 +3283,14 @@
        "en": "Make your team guess words without saying them.",
        "it": "Fai indovinare parole alla tua squadra senza dirle."
       }
+     },
+     "test": {
+      "id": "u39test",
+      "title": "Test: Relativos",
+      "gloss": {
+       "en": "10 questions. Get 8 right to skip the unit.",
+       "it": "10 domande. Rispondine bene a 8 per saltare l'unità."
+      }
      }
     },
     {
@@ -3051,6 +3363,14 @@
        "en": "Present three news stories on air.",
        "it": "Presenta tre notizie in diretta radio."
       }
+     },
+     "test": {
+      "id": "u40test",
+      "title": "Test: Pasiva y se",
+      "gloss": {
+       "en": "10 questions. Get 8 right to skip the unit.",
+       "it": "10 domande. Rispondine bene a 8 per saltare l'unità."
+      }
      }
     },
     {
@@ -3121,6 +3441,14 @@
       "gloss": {
        "en": "Tell a friend about the big change you just made.",
        "it": "Racconta a un amico il grande cambiamento che hai appena fatto."
+      }
+     },
+     "test": {
+      "id": "u41test",
+      "title": "Test: Perífrasis",
+      "gloss": {
+       "en": "10 questions. Get 8 right to skip the unit.",
+       "it": "10 domande. Rispondine bene a 8 per saltare l'unità."
       }
      }
     },
@@ -3197,6 +3525,14 @@
        "en": "Pitch a project to a panel and answer objections.",
        "it": "Presenta un progetto a una commissione e rispondi alle obiezioni."
       }
+     },
+     "test": {
+      "id": "u42test",
+      "title": "Test: Conectores avanzados",
+      "gloss": {
+       "en": "10 questions. Get 8 right to skip the unit.",
+       "it": "10 domande. Rispondine bene a 8 per saltare l'unità."
+      }
      }
     },
     {
@@ -3268,6 +3604,14 @@
       "gloss": {
        "en": "Talk through a decision you would make differently.",
        "it": "Parla di una decisione che prenderesti in modo diverso."
+      }
+     },
+     "test": {
+      "id": "u43test",
+      "title": "Test: Hipótesis en el pasado",
+      "gloss": {
+       "en": "10 questions. Get 8 right to skip the unit.",
+       "it": "10 domande. Rispondine bene a 8 per saltare l'unità."
       }
      }
     }
@@ -3365,6 +3709,14 @@
        "en": "Ask your director for a raise.",
        "it": "Chiedi un aumento alla direttrice."
       }
+     },
+     "test": {
+      "id": "u44test",
+      "title": "Test: Registro",
+      "gloss": {
+       "en": "10 questions. Get 8 right to skip the unit.",
+       "it": "10 domande. Rispondine bene a 8 per saltare l'unità."
+      }
      }
     },
     {
@@ -3439,6 +3791,14 @@
        "en": "Keep a lively dinner conversation going naturally.",
        "it": "Tieni viva in modo naturale una conversazione a cena."
       }
+     },
+     "test": {
+      "id": "u45test",
+      "title": "Test: Marcadores",
+      "gloss": {
+       "en": "10 questions. Get 8 right to skip the unit.",
+       "it": "10 domande. Rispondine bene a 8 per saltare l'unità."
+      }
      }
     },
     {
@@ -3508,6 +3868,14 @@
       "gloss": {
        "en": "Join a lively round-table chat full of idioms.",
        "it": "Partecipa a una tavola rotonda piena di modi di dire."
+      }
+     },
+     "test": {
+      "id": "u46test",
+      "title": "Test: Expresiones",
+      "gloss": {
+       "en": "10 questions. Get 8 right to skip the unit.",
+       "it": "10 domande. Rispondine bene a 8 per saltare l'unità."
       }
      }
     },
@@ -3581,6 +3949,14 @@
        "en": "Mediate a conflict between two colleagues.",
        "it": "Fai da mediatore in un conflitto tra due colleghi."
       }
+     },
+     "test": {
+      "id": "u47test",
+      "title": "Test: Subjuntivo fino",
+      "gloss": {
+       "en": "10 questions. Get 8 right to skip the unit.",
+       "it": "10 domande. Rispondine bene a 8 per saltare l'unità."
+      }
      }
     },
     {
@@ -3653,6 +4029,14 @@
       "gloss": {
        "en": "Join a call with people from three countries.",
        "it": "Partecipa a una videochiamata con persone di tre paesi."
+      }
+     },
+     "test": {
+      "id": "u48test",
+      "title": "Test: Variedades del español",
+      "gloss": {
+       "en": "10 questions. Get 8 right to skip the unit.",
+       "it": "10 domande. Rispondine bene a 8 per saltare l'unità."
       }
      }
     },
@@ -3728,6 +4112,14 @@
        "en": "Write a formal complaint to the city council.",
        "it": "Scrivi un reclamo formale al comune."
       }
+     },
+     "test": {
+      "id": "u49test",
+      "title": "Test: Escribir bien",
+      "gloss": {
+       "en": "10 questions. Get 8 right to skip the unit.",
+       "it": "10 domande. Rispondine bene a 8 per saltare l'unità."
+      }
      }
     },
     {
@@ -3798,6 +4190,14 @@
       "gloss": {
        "en": "Close a deal with a demanding client.",
        "it": "Chiudi un accordo con un cliente esigente."
+      }
+     },
+     "test": {
+      "id": "u50test",
+      "title": "Test: Español profesional",
+      "gloss": {
+       "en": "10 questions. Get 8 right to skip the unit.",
+       "it": "10 domande. Rispondine bene a 8 per saltare l'unità."
       }
      }
     }
@@ -3895,6 +4295,14 @@
        "en": "Perform a 2-minute comic monologue.",
        "it": "Esegui un monologo comico di 2 minuti."
       }
+     },
+     "test": {
+      "id": "u51test",
+      "title": "Test: Humor e ironía",
+      "gloss": {
+       "en": "10 questions. Get 8 right to skip the unit.",
+       "it": "10 domande. Rispondine bene a 8 per saltare l'unità."
+      }
      }
     },
     {
@@ -3966,6 +4374,14 @@
       "gloss": {
        "en": "Lead a book club discussion.",
        "it": "Guida la discussione di un club del libro."
+      }
+     },
+     "test": {
+      "id": "u52test",
+      "title": "Test: Literatura",
+      "gloss": {
+       "en": "10 questions. Get 8 right to skip the unit.",
+       "it": "10 domande. Rispondine bene a 8 per saltare l'unità."
       }
      }
     },
@@ -4039,6 +4455,14 @@
        "en": "Hold your own in a live TV debate.",
        "it": "Tieni testa in un dibattito televisivo in diretta."
       }
+     },
+     "test": {
+      "id": "u53test",
+      "title": "Test: Medios y debate",
+      "gloss": {
+       "en": "10 questions. Get 8 right to skip the unit.",
+       "it": "10 domande. Rispondine bene a 8 per saltare l'unità."
+      }
      }
     },
     {
@@ -4110,6 +4534,14 @@
       "gloss": {
        "en": "Interpret a short speech between Spanish and your language.",
        "it": "Interpreta un breve discorso tra lo spagnolo e la tua lingua."
+      }
+     },
+     "test": {
+      "id": "u54test",
+      "title": "Test: Precisión",
+      "gloss": {
+       "en": "10 questions. Get 8 right to skip the unit.",
+       "it": "10 domande. Rispondine bene a 8 per saltare l'unità."
       }
      }
     },
@@ -4183,6 +4615,14 @@
        "en": "Answer unexpected questions in a live radio interview.",
        "it": "Rispondi a domande inattese in un'intervista radio in diretta."
       }
+     },
+     "test": {
+      "id": "u55test",
+      "title": "Test: Espontaneidad",
+      "gloss": {
+       "en": "10 questions. Get 8 right to skip the unit.",
+       "it": "10 domande. Rispondine bene a 8 per saltare l'unità."
+      }
      }
     },
     {
@@ -4250,6 +4690,14 @@
       "gloss": {
        "en": "Give a 10-minute talk and take questions.",
        "it": "Tieni un intervento di 10 minuti e rispondi alle domande."
+      }
+     },
+     "test": {
+      "id": "u56test",
+      "title": "Test: Proyecto final",
+      "gloss": {
+       "en": "10 questions. Get 8 right to skip the unit.",
+       "it": "10 domande. Rispondine bene a 8 per saltare l'unità."
       }
      }
     }

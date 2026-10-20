@@ -4,6 +4,7 @@ import SwiftUI
 struct PathMapView: View {
     @EnvironmentObject private var store: AppStore
     @State private var expanded: Set<String> = []
+    @State private var activeLesson: Lesson?
 
     private let curriculum = Curriculum.shared
 
@@ -23,6 +24,9 @@ struct PathMapView: View {
                             }
                             PathNodeRow(id: unit.boss.id, title: unit.boss.title,
                                         subtitle: unit.boss.gloss.text(store.language), kind: .boss)
+                            PathNodeRow(id: unit.test.id, title: unit.test.title,
+                                        subtitle: unit.test.gloss.text(store.language), kind: .test)
+                            SkipUnitButton(unit: unit) { activeLesson = $0 }
                         } label: {
                             unitLabel(unit)
                         }
@@ -35,13 +39,17 @@ struct PathMapView: View {
             }
         }
         .navigationTitle("Recorrido A0–C2")
+        .fullScreenCover(item: $activeLesson) { lesson in
+            LessonView(lesson: lesson)
+                .environmentObject(store)
+        }
         .onAppear {
             if let unitId = store.nextNode?.unitId { expanded.insert(unitId) }
         }
     }
 
     private func unitLabel(_ unit: CurriculumUnit) -> some View {
-        let steps = unit.lessons.map(\.id) + [unit.boss.id]
+        let steps = unit.lessons.map(\.id) + [unit.boss.id, unit.test.id]
         let done = steps.filter { store.isCompleted($0) }.count
         return VStack(alignment: .leading, spacing: 2) {
             HStack {

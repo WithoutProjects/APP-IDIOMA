@@ -1,8 +1,7 @@
 import Foundation
 import SwiftUI
 
-/// Everything the app remembers about the learner. Saved to UserDefaults as JSON;
-/// moves to SQLite with a sync queue once there is a backend.
+/// Everything the app remembers about the learner, saved on the phone after every change.
 struct SavedState: Codable, Equatable {
     static let maxEnergy = 5
 
@@ -11,27 +10,40 @@ struct SavedState: Codable, Equatable {
     var streak = 0
     var lastPracticeDay: String?
     var energy = SavedState.maxEnergy
+    /// Every finished path step: lessons, bosses, unit tests and checkpoints.
     var completedLessons: Set<String> = []
-    /// Mastery 0...5 per verb x tense x person cell.
+    /// Mastery 0...5 per verb x tense x person cell (the verb SRS).
     var mastery: [FormKey: Int] = [:]
     var sentencesBuilt = 0
+
+    init() {}
+
+    /// Every field is optional on disk, so progress saved by an older version still loads
+    /// after an update adds new fields.
+    init(from decoder: Decoder) throws {
+        let c = try decoder.container(keyedBy: CodingKeys.self)
+        profile = try c.decodeIfPresent(Profile.self, forKey: .profile)
+        xp = try c.decodeIfPresent(Int.self, forKey: .xp) ?? 0
+        streak = try c.decodeIfPresent(Int.self, forKey: .streak) ?? 0
+        lastPracticeDay = try c.decodeIfPresent(String.self, forKey: .lastPracticeDay)
+        energy = try c.decodeIfPresent(Int.self, forKey: .energy) ?? SavedState.maxEnergy
+        completedLessons = try c.decodeIfPresent(Set<String>.self, forKey: .completedLessons) ?? []
+        mastery = try c.decodeIfPresent([FormKey: Int].self, forKey: .mastery) ?? [:]
+        sentencesBuilt = try c.decodeIfPresent(Int.self, forKey: .sentencesBuilt) ?? 0
+    }
 }
 
 @MainActor
 final class AppStore: ObservableObject {
-    private static let storageKey = "hablabase.state.v1"
+    private let storage: ProgressStorage
 
     @Published private(set) var state: SavedState {
-        didSet { save() }
+        didSet { storage.save(state) }
     }
 
-    init() {
-        if let data = UserDefaults.standard.data(forKey: Self.storageKey),
-           let saved = try? JSONDecoder().decode(SavedState.self, from: data) {
-            state = saved
-        } else {
-            state = SavedState()
-        }
+    init(storage: ProgressStorage = FileProgressStorage()) {
+        self.storage = storage
+        state = storage.load() ?? SavedState()
     }
 
     var profile: Profile? { state.profile }
@@ -58,6 +70,11 @@ final class AppStore: ObservableObject {
     /// The first node on the path that is not finished yet.
     var nextNode: PathNode? {
         Curriculum.sharedPath.first { !isCompleted($0.id) }
+    }
+
+    /// The exercises for a path step, if they exist in the app yet.
+    func playableLesson(_ id: String) -> Lesson? {
+        profile.flatMap { Unit1.lesson(id: id, profile: $0) }
     }
 
     // MARK: Practice events
@@ -92,6 +109,16 @@ final class AppStore: ObservableObject {
         touchStreak()
     }
 
+    /// A passed unit test skips the unit: every step up to the end of that unit counts as done.
+    func completeUnit(_ unitId: String) {
+        let path = Curriculum.sharedPath
+        guard let last = path.lastIndex(where: { $0.unitId == unitId }) else { return }
+        for node in path[...last] {
+            state.completedLessons.insert(node.id)
+        }
+        touchStreak()
+    }
+
     func mastery(of key: FormKey) -> Int {
         state.mastery[key] ?? 0
     }
@@ -114,11 +141,5 @@ final class AppStore: ObservableObject {
     private static func dayKey(_ date: Date) -> String {
         let parts = Calendar.current.dateComponents([.year, .month, .day], from: date)
         return String(format: "%04d-%02d-%02d", parts.year ?? 0, parts.month ?? 0, parts.day ?? 0)
-    }
-
-    private func save() {
-        if let data = try? JSONEncoder().encode(state) {
-            UserDefaults.standard.set(data, forKey: Self.storageKey)
-        }
     }
 }

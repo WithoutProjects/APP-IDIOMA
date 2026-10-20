@@ -17,7 +17,8 @@ struct LessonView: View {
                 LessonCompleteView(lesson: session.lesson,
                                    xp: session.completionXP,
                                    correct: session.correct,
-                                   answered: session.answered) { dismiss() }
+                                   answered: session.answered,
+                                   testPassed: session.isTest ? session.passedTest : nil) { dismiss() }
             } else if let item = session.current {
                 ScrollView {
                     VStack(alignment: .leading, spacing: 20) {
@@ -66,6 +67,8 @@ struct LessonView: View {
             FrameCardView(card: card, language: store.language) { submit(.correct) }
         case .legoSnap(let snap):
             LegoSnapView(snap: snap, language: store.language, onSubmit: submit)
+        case .gapFill(let gap):
+            GapFillView(gap: gap, language: store.language, onSubmit: submit)
         case .builder(let builder):
             SentenceBuilderView(builder: builder, language: store.language, onSubmit: submit)
         case .freeWrite(let write):
@@ -80,7 +83,14 @@ struct LessonView: View {
 
     private func finish() {
         guard !finished else { return }
-        store.completeLesson(session.lesson.id, xp: session.completionXP)
+        switch session.lesson.mode {
+        case .lesson:
+            store.completeLesson(session.lesson.id, xp: session.completionXP)
+        case .unitTest(let unitId):
+            // Passing skips the unit: everything up to its end counts as done.
+            if session.passedTest { store.completeUnit(unitId) }
+            store.addXP(session.completionXP)
+        }
         finished = true
     }
 }
@@ -138,28 +148,52 @@ struct LessonCompleteView: View {
     let xp: Int
     let correct: Int
     let answered: Int
+    /// nil for a lesson; for a unit test, whether it was passed.
+    let testPassed: Bool?
     let onDone: () -> Void
 
     var body: some View {
         VStack(spacing: 20) {
             Spacer()
-            Image(systemName: "trophy.fill")
+            Image(systemName: testPassed == false ? "arrow.counterclockwise.circle.fill" : "trophy.fill")
                 .font(.system(size: 64))
-                .foregroundStyle(.yellow)
-            Text("¡Lección completada!")
+                .foregroundStyle(testPassed == false ? Brick.stem.color : .yellow)
+            Text(headline)
                 .font(.title.bold())
-            Text(lesson.title)
+                .multilineTextAlignment(.center)
+            Text(detail)
                 .font(.title3)
                 .foregroundStyle(.secondary)
+                .multilineTextAlignment(.center)
             HStack(spacing: 16) {
                 stat("+\(xp)", "XP")
-                stat("\(answered == 0 ? 100 : correct * 100 / answered)%", "Accuracy")
+                if testPassed != nil {
+                    stat("\(correct)/\(answered)", "Correct")
+                } else {
+                    stat("\(answered == 0 ? 100 : correct * 100 / answered)%", "Accuracy")
+                }
             }
             Spacer()
             Button("Done", action: onDone)
                 .buttonStyle(PrimaryButtonStyle())
         }
         .padding(24)
+    }
+
+    private var headline: String {
+        switch testPassed {
+        case .none: return "¡Lección completada!"
+        case .some(true): return "¡Unidad superada!"
+        case .some(false): return "¡Casi!"
+        }
+    }
+
+    private var detail: String {
+        switch testPassed {
+        case .none: return lesson.title
+        case .some(true): return "You can jump to the next unit."
+        case .some(false): return "You need \(Lesson.testPassMark) of \(Lesson.testQuestions). The lessons will get you there."
+        }
     }
 
     private func stat(_ value: String, _ label: String) -> some View {

@@ -1,8 +1,10 @@
 import SwiftUI
 
 /// One visual language across the app: blue stems, orange endings, green time markers, purple rails.
-enum Brick {
+enum Brick: Hashable {
     case stem, ending, time, rail
+    /// A neutral chunk (a place, a name) in sentence-level explanations.
+    case chunk
 
     var color: Color {
         switch self {
@@ -10,6 +12,7 @@ enum Brick {
         case .ending: return Color(red: 0.96, green: 0.52, blue: 0.13)
         case .time: return Color(red: 0.16, green: 0.66, blue: 0.40)
         case .rail: return Color(red: 0.55, green: 0.32, blue: 0.85)
+        case .chunk: return Color(red: 0.45, green: 0.47, blue: 0.52)
         }
     }
 }

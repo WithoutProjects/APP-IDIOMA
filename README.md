@@ -27,18 +27,17 @@ Todo el camino está en [`HablaBase/Content/curriculum.json`](HablaBase/Content/
 
 La app lee ese archivo para dibujar la ruta. Para cambiar el orden o los títulos basta con editar el JSON; los ejercicios de cada lección se añaden en `Content/`.
 
-## Qué hay ahora (v0.2)
+## Qué hay ahora (v0.3)
 
-- **Bienvenida**: nombre, ciudad, trabajo, idioma (English / Italiano), objetivo y minutos al día. Con eso se construyen las primeras frases.
-- **Inicio**: racha, XP, energía, botón Continuar con el nivel y la unidad actuales, y la lista de la unidad en curso.
-- **Recorrido A0–C2**: todos los niveles, unidades, lecciones, bosses y exámenes, con el progreso de cada unidad.
-- **Lección 1, Me presento**: el ciclo Frame → Forge → Fire → Fix completo.
-  - Frame: `habl- + -o = hablo`.
-  - Forge: 6 Lego Snap (raíz azul + terminación naranja).
-  - Fire: 5 Sentence Builder con los datos de la persona.
-  - Fix: escribir las tres frases unidas con *y*; los fallos de la lección vuelven al final y devuelven energía.
-- **Conjugation Lab**: heat-rack del presente (yo, tú, él/ella) que se ilumina con el dominio de cada forma, y banco Lego para jugar con las terminaciones.
-- **Talk**: el boss y la conversación libre, bloqueados hasta que existan.
+- **Bienvenida**: nombre, ciudad, trabajo, idioma (English / Italiano), objetivo y minutos al día.
+- **Inicio**: racha, XP, energía, botón Continuar con el nivel y la unidad actuales, y la unidad en curso.
+- **Recorrido A0–C2**: todos los niveles, unidades, lecciones, bosses, tests y exámenes, con el progreso de cada unidad.
+- **Formato de lección**: explicación, 2 ejercicios, siguiente explicación, 2 ejercicios… y un bloque final que lo mezcla todo. Cada bloque tiene como máximo 15 preguntas, contando los fallos que se repiten al final.
+- **Lección 1, Yo, tú, él**: las terminaciones de yo, tú y él/ella con Lego Snap y huecos para escribir el verbo, y un mix final.
+- **Lección 2, Me presento**: frases con tus datos (Sentence Builder) y una frase final escrita con *y*.
+- **Test de unidad**: 10 preguntas sin explicaciones. Con 8 aciertos la unidad (y todo lo anterior) queda superada, así quien ya sabe español puede avanzar rápido. Por ahora existe el de la Unidad 1.
+- **Conjugation Lab**: dos botones. *Repasar tablas* (tabla del presente que se ilumina con el dominio y banco Lego) y *Jugar* (Parejas: unir cada verbo con su persona; los demás juegos se abren por nivel).
+- **Progreso guardado en el teléfono**: se guarda en un archivo de la app después de cada cambio, sobrevive a las actualizaciones y entra en la copia de seguridad del iPhone. Está detrás de `ProgressStorage`, así que más adelante se puede añadir una cuenta en la nube (por ejemplo Supabase) sin tocar el resto.
 
 ## Estructura
 
@@ -47,7 +46,7 @@ HablaBase/
   App/        punto de entrada y pestañas
   Engine/     conjugador, corrector y modelos de lección (sin UI, con tests)
   Content/    recorrido completo (curriculum.json) y ejercicios de la Unidad 1
-  Store/      perfil y progreso (UserDefaults)
+  Store/      perfil y progreso (archivo JSON en el teléfono)
   Theme/      colores Lego: raíz azul, terminación naranja, tiempo verde, conectores morado
   Views/      pantallas
 HablaBaseTests/  tests del motor y de la Lección 1

@@ -1,6 +1,6 @@
 import Foundation
 
-/// Runs one lesson: the item queue, grading results, the Fix replay of mistakes and XP.
+/// Runs one lesson or unit test: the item queue, grading, the Fix replay of mistakes and XP.
 @MainActor
 final class LessonSession: ObservableObject {
     struct Feedback {
@@ -27,10 +27,19 @@ final class LessonSession: ObservableObject {
     var progress: Double { Double(index) / Double(max(queue.count, 1)) }
     var hadMistakes: Bool { correct < answered }
 
-    /// Grades the current item and shows feedback. Info cards (Frame) skip feedback.
+    var isTest: Bool {
+        if case .unitTest = lesson.mode { return true }
+        return false
+    }
+
+    var passedTest: Bool { correct >= Lesson.testPassMark }
+
+    private var questionsQueued: Int { queue.filter { $0.kind.isQuestion }.count }
+
+    /// Grades the current item and shows feedback. Explanations skip feedback.
     func submit(_ outcome: GradeOutcome, store: AppStore) {
         guard let item = current else { return }
-        guard item.kind.isProduction else {
+        guard item.kind.isQuestion else {
             advance()
             return
         }
@@ -42,13 +51,15 @@ final class LessonSession: ObservableObject {
         if outcome.isCorrect {
             correct += 1
             xpEarned += 3
-            if case .builder = item.kind { store.recordSentenceBuilt() }
-            if case .freeWrite = item.kind { store.recordSentenceBuilt() }
+            switch item.kind {
+            case .builder, .freeWrite: store.recordSentenceBuilt()
+            default: break
+            }
             if isReplay { store.restoreEnergy() }
-        } else {
+        } else if !isTest {
             if item.heartsAtRisk { store.spendEnergy() }
-            // Fix beat: every mistake comes back once at the end of the lesson.
-            if !isReplay {
+            // Fix: a mistake comes back once at the end, as long as the block stays within 15 questions.
+            if !isReplay && questionsQueued < Lesson.maxQuestions {
                 queue.append(LessonItem(id: item.id + "-fix", beat: .fix, kind: item.kind,
                                         heartsAtRisk: item.heartsAtRisk, formKeys: item.formKeys))
             }
@@ -61,15 +72,17 @@ final class LessonSession: ObservableObject {
         index += 1
     }
 
-    /// Lesson finished: 10 XP, +5 for a clean run.
+    /// Lesson finished: 10 XP, +5 for a clean run. A passed test is worth a boss win.
     var completionXP: Int {
-        xpEarned + 10 + (hadMistakes ? 0 : 5)
+        if isTest { return passedTest ? 50 : xpEarned }
+        return xpEarned + 10 + (hadMistakes ? 0 : 5)
     }
 
     private static func model(for kind: ItemKind) -> Example? {
         switch kind {
         case .frame: return nil
         case .legoSnap(let snap): return Example(es: snap.answer.text, gloss: snap.prompt)
+        case .gapFill(let gap): return Example(es: gap.sentence, gloss: gap.gloss)
         case .builder(let builder): return builder.model
         case .freeWrite(let write): return write.model
         }

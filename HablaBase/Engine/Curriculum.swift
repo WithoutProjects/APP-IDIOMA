@@ -1,7 +1,7 @@
 import Foundation
 
 /// The whole journey from zero to expert, loaded from Content/curriculum.json.
-/// Level > Unit > Lessons + Boss, and a Checkpoint closes every level.
+/// Level > Unit > Lessons + Boss + Test, and a Checkpoint closes every level.
 struct Curriculum: Decodable {
     let version: Int
     let levels: [CurriculumLevel]
@@ -30,6 +30,8 @@ struct Curriculum: Decodable {
                 }
                 nodes.append(PathNode(id: unit.boss.id, title: unit.boss.title, gloss: unit.boss.gloss,
                                       kind: .boss, levelId: level.id, unitId: unit.id))
+                nodes.append(PathNode(id: unit.test.id, title: unit.test.title, gloss: unit.test.gloss,
+                                      kind: .test, levelId: level.id, unitId: unit.id))
             }
             nodes.append(PathNode(id: level.checkpoint.id, title: level.checkpoint.title, gloss: level.checkpoint.gloss,
                                   kind: .checkpoint, levelId: level.id, unitId: nil))
@@ -70,6 +72,8 @@ struct CurriculumUnit: Decodable, Identifiable {
     let connectors: [String]
     let lessons: [LessonPlan]
     let boss: NodePlan
+    /// 10 questions that close the unit; passing it early skips the unit.
+    let test: NodePlan
 }
 
 struct LessonPlan: Decodable, Identifiable {
@@ -80,7 +84,7 @@ struct LessonPlan: Decodable, Identifiable {
     let focus: String
 }
 
-/// A boss fight or a level checkpoint: a scenario, not a quiz.
+/// A boss fight, unit test or level checkpoint.
 struct NodePlan: Decodable, Identifiable {
     let id: String
     let title: String
@@ -90,7 +94,7 @@ struct NodePlan: Decodable, Identifiable {
 /// One step on the path.
 struct PathNode: Identifiable {
     enum Kind {
-        case lesson, boss, checkpoint
+        case lesson, boss, test, checkpoint
     }
 
     let id: String
