@@ -38,7 +38,8 @@ La app lee ese archivo para dibujar la ruta. Para cambiar el orden o los título
 - **Lección 2, Me presento**: frases con tus datos (Sentence Builder) y una frase final escrita con *y*.
 - **Unidades 1 a 10 completas** (A0–A2): 50 lecciones y 10 bosses. Las lecciones 1 y 2 están en `Content/Unit1.swift`; el resto en `Content/lessons-u{n}.json`, con el formato y las reglas en `docs/content-format.md`. `python3 tools/validate_content.py` comprueba que ninguna lección usa una palabra antes de presentarla, el máximo de 15 preguntas y que cada ejercicio tiene solución. El plan de vocabulario está en `docs/vocab-plan.json`.
 - **Apuntes**: explicaciones y vocabulario de la unidad actual y de las anteriores.
-- **Hablar**: dices en voz alta frases de tus lecciones y ves qué palabras se han entendido (reconocimiento de voz en el iPhone).
+- **Hablar**: dices en voz alta frases de tus lecciones y ves qué palabras se han entendido; la app te avisa de las que conviene pronunciar más claro (reconocimiento de voz en el iPhone).
+- **Escribir o decir**: en los ejercicios de completar, construir frases y traducir puedes elegir entre escribir la respuesta o decirla en voz alta. La app recuerda tu elección.
 - **Test de unidad**: 10 preguntas sin explicaciones. Con 8 aciertos la unidad (y todo lo anterior) queda superada, así quien ya sabe español puede avanzar rápido. Se genera con preguntas de todas las lecciones de la unidad.
 - **Conjugation Lab**: dos botones. *Repasar tablas* (tabla del presente que se ilumina con el dominio y banco Lego) y *Jugar* (Parejas: unir cada verbo con su persona; los demás juegos se abren por nivel).
 - **Progreso guardado en el teléfono**: se guarda en un archivo de la app después de cada cambio, sobrevive a las actualizaciones y entra en la copia de seguridad del iPhone. Está detrás de `ProgressStorage`, así que más adelante se puede añadir una cuenta en la nube (por ejemplo Supabase) sin tocar el resto.

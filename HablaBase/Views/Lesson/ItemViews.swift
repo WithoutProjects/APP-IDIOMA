@@ -288,7 +288,7 @@ struct LegoSnapView: View {
 
 // MARK: - Context Gap
 
-/// Type the missing verb; who is speaking and the context decide the form.
+/// Type or say the missing verb; who is speaking and the context decide the form.
 struct GapFillView: View {
     let gap: GapFill
     let language: NativeLanguage
@@ -297,6 +297,7 @@ struct GapFillView: View {
     @State var text = ""
     @FocusState var focused: Bool
     @State var hintLevel = 0
+    @AppStorage("answerByVoice") private var byVoice = false
 
     private static let blank = "\u{0}"
 
@@ -323,22 +324,37 @@ struct GapFillView: View {
             .frame(maxWidth: .infinity, alignment: .leading)
             .background(RoundedRectangle(cornerRadius: 16).fill(Palette.card))
 
-            HStack {
-                TextField(gap.lemma, text: $text)
-                    .textInputAutocapitalization(.never)
-                    .autocorrectionDisabled()
-                    .focused($focused)
-                    .submitLabel(.done)
-                    .onSubmit(check)
-                    .font(.title3)
-                Text(gap.lemma)
-                    .font(.caption.weight(.semibold))
-                    .padding(.horizontal, 8)
-                    .padding(.vertical, 4)
-                    .background(Capsule().fill(Brick.stem.color.opacity(0.15)))
+            AnswerModePicker(byVoice: $byVoice)
+                .onChange(of: byVoice) { _, voice in
+                    text = ""
+                    focused = !voice
+                }
+
+            if byVoice {
+                VStack(alignment: .leading, spacing: 8) {
+                    Text("Say the missing word (\(gap.lemma)).")
+                        .font(.subheadline)
+                        .foregroundStyle(.secondary)
+                    VoiceAnswerView(text: $text)
+                }
+            } else {
+                HStack {
+                    TextField(gap.lemma, text: $text)
+                        .textInputAutocapitalization(.never)
+                        .autocorrectionDisabled()
+                        .focused($focused)
+                        .submitLabel(.done)
+                        .onSubmit(check)
+                        .font(.title3)
+                    Text(gap.lemma)
+                        .font(.caption.weight(.semibold))
+                        .padding(.horizontal, 8)
+                        .padding(.vertical, 4)
+                        .background(Capsule().fill(Brick.stem.color.opacity(0.15)))
+                }
+                .padding()
+                .background(RoundedRectangle(cornerRadius: 16).strokeBorder(Color.secondary.opacity(0.4)))
             }
-            .padding()
-            .background(RoundedRectangle(cornerRadius: 16).strokeBorder(Color.secondary.opacity(0.4)))
 
             if hintLevel > 0, let form = answerForm {
                 HintBox {
@@ -358,7 +374,7 @@ struct GapFillView: View {
                 .disabled(isEmpty)
                 .opacity(isEmpty ? 0.4 : 1)
         }
-        .onAppear { focused = true }
+        .onAppear { focused = !byVoice }
     }
 
     private var sentenceWords: [String] {
@@ -378,7 +394,9 @@ struct GapFillView: View {
     private func check() {
         guard !isEmpty else { return }
         focused = false
-        onSubmit(Grader.compare(text, accepted: gap.accepted, hint: gap.hint.text(language)))
+        let hint = gap.hint.text(language)
+        onSubmit(byVoice ? Grader.compareSpokenPhrase(text, accepted: gap.accepted, hint: hint)
+                         : Grader.compare(text, accepted: gap.accepted, hint: hint))
     }
 }
 
@@ -471,7 +489,7 @@ struct ChoiceView: View {
 
 // MARK: - Sentence Builder
 
-/// The Builder Bar: tap chunk tiles into place to say what the prompt asks for.
+/// The Builder Bar: tap chunk tiles into place to say what the prompt asks for, or say it out loud.
 struct SentenceBuilderView: View {
     let builder: SentenceBuilder
     let language: NativeLanguage
@@ -480,12 +498,52 @@ struct SentenceBuilderView: View {
     /// Indices into builder.tiles, in the order the learner placed them.
     @State var placed: [Int] = []
     @State var hintLevel = 0
+    @State var spoken = ""
+    @AppStorage("answerByVoice") private var byVoice = false
 
     var body: some View {
         VStack(alignment: .leading, spacing: 24) {
             Text(builder.intention.text(language))
                 .font(.title2.weight(.semibold))
 
+            AnswerModePicker(byVoice: $byVoice)
+                .onChange(of: byVoice) { _, _ in spoken = "" }
+
+            if byVoice {
+                VoiceAnswerView(text: $spoken)
+            } else {
+                tiles
+            }
+
+            if hintLevel > 0, let ordered = builder.orderedTiles {
+                HintBox {
+                    Text("Start with:")
+                    Text(verbatim: ordered.prefix(hintLevel).joined(separator: " ") + " …").fontWeight(.semibold)
+                }
+            }
+            if builder.orderedTiles != nil {
+                HintButton(level: $hintLevel, onUse: onHint)
+            }
+
+            Button("Check") {
+                let hint = builder.hint.text(language)
+                if byVoice {
+                    onSubmit(Grader.compareSpokenSentence(spoken, accepted: builder.accepted, hint: hint))
+                } else {
+                    let sentence = placed.map { builder.tiles[$0] }.joined(separator: " ")
+                    onSubmit(Grader.compare(sentence, accepted: builder.accepted, hint: hint))
+                }
+            }
+            .buttonStyle(PrimaryButtonStyle())
+            .disabled(isEmpty)
+            .opacity(isEmpty ? 0.4 : 1)
+        }
+    }
+
+    private var isEmpty: Bool { byVoice ? spoken.isEmpty : placed.isEmpty }
+
+    private var tiles: some View {
+        VStack(alignment: .leading, spacing: 24) {
             FlowLayout(spacing: 8) {
                 ForEach(placed, id: \.self) { index in
                     Button { placed.removeAll { $0 == index } } label: { tile(builder.tiles[index], ghost: false) }
@@ -504,24 +562,6 @@ struct SentenceBuilderView: View {
                         .disabled(used)
                 }
             }
-
-            if hintLevel > 0, let ordered = builder.orderedTiles {
-                HintBox {
-                    Text("Start with:")
-                    Text(verbatim: ordered.prefix(hintLevel).joined(separator: " ") + " …").fontWeight(.semibold)
-                }
-            }
-            if builder.orderedTiles != nil {
-                HintButton(level: $hintLevel, onUse: onHint)
-            }
-
-            Button("Check") {
-                let sentence = placed.map { builder.tiles[$0] }.joined(separator: " ")
-                onSubmit(Grader.compare(sentence, accepted: builder.accepted, hint: builder.hint.text(language)))
-            }
-            .buttonStyle(PrimaryButtonStyle())
-            .disabled(placed.isEmpty)
-            .opacity(placed.isEmpty ? 0.4 : 1)
         }
     }
 
@@ -538,7 +578,7 @@ struct SentenceBuilderView: View {
 
 // MARK: - Free write
 
-/// The output step: write the whole thing in one go.
+/// Translate a sentence from the learner's language into Spanish, typed or out loud.
 struct FreeWriteView: View {
     let write: FreeWrite
     let language: NativeLanguage
@@ -547,48 +587,112 @@ struct FreeWriteView: View {
     @State var text = ""
     @FocusState var focused: Bool
     @State var hintLevel = 0
+    @AppStorage("answerByVoice") private var byVoice = false
 
     var body: some View {
+        let prompt = TranslationPrompt(write.instruction.text(language))
         VStack(alignment: .leading, spacing: 24) {
-            Text(write.instruction.text(language))
-                .font(.title2.weight(.semibold))
+            VStack(alignment: .leading, spacing: 8) {
+                if let sentence = prompt.sentence {
+                    Text("Translate into Spanish")
+                        .font(.subheadline.weight(.semibold))
+                        .foregroundStyle(.secondary)
+                    if !prompt.context.isEmpty {
+                        Text(prompt.context)
+                            .font(.subheadline)
+                    }
+                    Text(sentence)
+                        .font(.title2.weight(.semibold))
+                } else {
+                    Text(prompt.context)
+                        .font(.title2.weight(.semibold))
+                }
+            }
 
-            TextField("Escribe aquí…", text: $text, axis: .vertical)
-                .lineLimit(3...6)
-                .textInputAutocapitalization(.sentences)
-                .autocorrectionDisabled()
-                .focused($focused)
-                .padding()
-                .background(RoundedRectangle(cornerRadius: 16).fill(Palette.card))
+            AnswerModePicker(byVoice: $byVoice)
+                .onChange(of: byVoice) { _, voice in
+                    text = ""
+                    focused = !voice
+                }
+
+            if byVoice {
+                VoiceAnswerView(text: $text)
+            } else {
+                TextField("Escribe aquí…", text: $text, axis: .vertical)
+                    .lineLimit(3...6)
+                    .textInputAutocapitalization(.sentences)
+                    .autocorrectionDisabled()
+                    .focused($focused)
+                    .padding()
+                    .background(RoundedRectangle(cornerRadius: 16).fill(Palette.card))
+            }
 
             if hintLevel > 0 {
                 HintBox {
-                    Text(verbatim: hintLevel == 1
-                         ? write.requiredChunks.filter { $0 != "y" }.joined(separator: " · ")
-                         : write.model.es)
+                    Text(verbatim: hintLevel == 1 ? firstHint : write.model.es)
                 }
             }
             HintButton(level: $hintLevel, onUse: onHint)
 
             Button("Check") {
                 focused = false
-                if !write.accepted.isEmpty {
-                    let hint = Gloss(en: "Compare with the right answer below.", it: "Confronta con la risposta giusta qui sotto.")
-                    onSubmit(Grader.compare(text, accepted: write.accepted, hint: hint.text(language)))
-                } else if let missing = Grader.missingChunk(in: text, required: write.requiredChunks) {
-                    let hint = missing == "y"
-                        ? Gloss(en: "Join the parts with y.", it: "Unisci le parti con y.")
-                        : Gloss(en: "Missing: \u{201C}\(missing)\u{201D}", it: "Manca: \u{201C}\(missing)\u{201D}")
-                    onSubmit(.wrong(hint: hint.text(language)))
-                } else {
-                    onSubmit(.correct)
-                }
+                onSubmit(grade())
             }
             .buttonStyle(PrimaryButtonStyle())
-            .disabled(text.trimmingCharacters(in: .whitespaces).isEmpty)
-            .opacity(text.trimmingCharacters(in: .whitespaces).isEmpty ? 0.4 : 1)
+            .disabled(isEmpty)
+            .opacity(isEmpty ? 0.4 : 1)
         }
-        .onAppear { focused = true }
+        .onAppear { focused = !byVoice }
+    }
+
+    private var isEmpty: Bool { text.trimmingCharacters(in: .whitespaces).isEmpty }
+
+    /// First hint: the required chunks, or the start of the answer.
+    private var firstHint: String {
+        if !write.requiredChunks.isEmpty {
+            return write.requiredChunks.filter { $0 != "y" }.joined(separator: " · ")
+        }
+        let words = write.model.es.split(separator: " ")
+        return words.prefix(max(1, words.count / 2)).joined(separator: " ") + " …"
+    }
+
+    private func grade() -> GradeOutcome {
+        if !write.accepted.isEmpty {
+            let hint = Gloss(en: "Compare with the right answer below.", it: "Confronta con la risposta giusta qui sotto.").text(language)
+            return byVoice ? Grader.compareSpokenSentence(text, accepted: write.accepted, hint: hint)
+                           : Grader.compare(text, accepted: write.accepted, hint: hint)
+        }
+        if let missing = Grader.missingChunk(in: text, required: write.requiredChunks) {
+            let hint = missing == "y"
+                ? Gloss(en: "Join the parts with y.", it: "Unisci le parti con y.")
+                : Gloss(en: "Missing: \u{201C}\(missing)\u{201D}", it: "Manca: \u{201C}\(missing)\u{201D}")
+            return .wrong(hint: hint.text(language))
+        }
+        return .correct
+    }
+}
+
+/// "Context. Write in Spanish: «sentence»" split into the context and the sentence to translate,
+/// so the sentence can stand out whether the learner types or speaks.
+struct TranslationPrompt {
+    let context: String
+    let sentence: String?
+
+    private static let markers = ["Write in Spanish:", "Scrivi in spagnolo:"]
+
+    init(_ instruction: String) {
+        guard let open = instruction.range(of: "«", options: .backwards),
+              let close = instruction.range(of: "»", options: .backwards), open.upperBound <= close.lowerBound else {
+            context = instruction
+            sentence = nil
+            return
+        }
+        var before = String(instruction[..<open.lowerBound])
+        for marker in Self.markers {
+            before = before.replacingOccurrences(of: marker, with: "")
+        }
+        context = before.trimmingCharacters(in: .whitespaces)
+        sentence = String(instruction[open.upperBound..<close.lowerBound]).trimmingCharacters(in: .whitespaces)
     }
 }
 

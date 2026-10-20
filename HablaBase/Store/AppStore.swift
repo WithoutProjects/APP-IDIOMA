@@ -131,19 +131,6 @@ final class AppStore: ObservableObject {
         return sentences.filter { seen.insert($0.es).inserted }
     }
 
-    /// Questions Speak can ask: about the learner, and every question-and-answer exercise
-    /// of a finished lesson.
-    var speakingQuestions: [SpokenQuestion] {
-        guard let profile else { return [] }
-        var questions = SpokenQuestion.personal(profile: profile, completed: state.completedLessons)
-        for node in Curriculum.sharedPath where isCompleted(node.id) && node.kind != .test {
-            guard let lesson = LessonContent.lesson(id: node.id, profile: profile) else { continue }
-            questions += lesson.items.compactMap { SpokenQuestion.from($0.kind) }
-        }
-        var seen: Set<String> = []
-        return questions.filter { seen.insert($0.question + $0.answers[0]).inserted }
-    }
-
     // MARK: Practice events
 
     func addXP(_ amount: Int) {

@@ -81,7 +81,7 @@
         }
       }
     },
-    "Answer questions": {
+    "Answer by": {
       "localizations": {
         "it": {
           "stringUnit": {
@@ -197,16 +197,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "Corrette"
-          }
-        }
-      }
-    },
-    "Correct!": {
-      "localizations": {
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Giusto!"
           }
         }
       }
@@ -431,16 +421,6 @@
         }
       }
     },
-    "Listen to the question and answer out loud.": {
-      "localizations": {
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ascolta la domanda e rispondi ad alta voce."
-          }
-        }
-      }
-    },
     "Listen, then say it out loud.": {
       "localizations": {
         "it": {
@@ -501,16 +481,6 @@
         }
       }
     },
-    "Mode": {
-      "localizations": {
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Modalità"
-          }
-        }
-      }
-    },
     "My language": {
       "localizations": {
         "it": {
@@ -551,16 +521,6 @@
         }
       }
     },
-    "Next question": {
-      "localizations": {
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Domanda successiva"
-          }
-        }
-      }
-    },
     "Next sentence": {
       "localizations": {
         "it": {
@@ -587,16 +547,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "Non proprio"
-          }
-        }
-      }
-    },
-    "Not quite. Listen to the right answer and try again.": {
-      "localizations": {
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Non proprio. Ascolta la risposta giusta e riprova."
           }
         }
       }
@@ -647,16 +597,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "Si apre dopo «%@»"
-          }
-        }
-      }
-    },
-    "Or answer from memory.": {
-      "localizations": {
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Oppure rispondi a memoria."
           }
         }
       }
@@ -741,16 +681,6 @@
         }
       }
     },
-    "Repeat": {
-      "localizations": {
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ripeti"
-          }
-        }
-      }
-    },
     "Reset": {
       "localizations": {
         "it": {
@@ -781,6 +711,26 @@
         }
       }
     },
+    "Say the missing word (%@).": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Di la parola che manca (%@)."
+          }
+        }
+      }
+    },
+    "Say these words more clearly:": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pronuncia queste parole più chiaramente:"
+          }
+        }
+      }
+    },
     "Second chance": {
       "localizations": {
         "it": {
@@ -807,16 +757,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "Vedi il percorso completo: 8 livelli, da A0 a C2"
-          }
-        }
-      }
-    },
-    "Show the answer to read it": {
-      "localizations": {
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Mostra la risposta per leggerla"
           }
         }
       }
@@ -901,6 +841,16 @@
         }
       }
     },
+    "Tap the microphone and say your answer in Spanish.": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tocca il microfono e di' la tua risposta in spagnolo."
+          }
+        }
+      }
+    },
     "To practise speaking, allow the microphone and speech recognition in Settings.": {
       "localizations": {
         "it": {
@@ -917,6 +867,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Oggi impari a dire:"
+          }
+        }
+      }
+    },
+    "Translate into Spanish": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Traduci in spagnolo"
           }
         }
       }
@@ -977,6 +937,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Recupera i tuoi cuori"
+          }
+        }
+      }
+    },
+    "Write": {
+      "localizations": {
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Scrivi"
           }
         }
       }

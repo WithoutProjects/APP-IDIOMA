@@ -124,30 +124,32 @@ final class NotesAndSpeakingTests: XCTestCase {
     }
 }
 
-final class SpokenQuestionTests: XCTestCase {
-    func testQuestionExercisesBecomeSpokenQuestions() {
-        let gap = GapFill(before: "¿Comes mucho? No, no ", after: " mucho.", lemma: "comer", accepted: ["como"],
-                          gloss: Gloss(en: "", it: ""), hint: Gloss(en: "", it: ""))
-        let question = SpokenQuestion.from(.gapFill(gap))
-        XCTAssertEqual(question?.question, "¿Comes mucho?")
-        XCTAssertEqual(question?.answers, ["No, no como mucho."])
+final class SpokenAnswerTests: XCTestCase {
+    func testSpokenSentenceIgnoresAccentsPunctuationAndDigits() {
+        let accepted = ["Nos vemos a las siete."]
+        XCTAssertTrue(Grader.compareSpokenSentence("nos vemos a las 7", accepted: accepted, hint: "").isCorrect)
+        XCTAssertTrue(Grader.compareSpokenSentence("Nos vemos las siete", accepted: accepted, hint: "").isCorrect,
+                      "a dropped short word is forgiven")
     }
 
-    func testGapsInsideTheQuestionAreNotSpokenQuestions() {
-        let gap = GapFill(before: "¿Dónde ", after: "? Trabajo aquí.", lemma: "trabajar", accepted: ["trabajas"],
-                          gloss: Gloss(en: "", it: ""), hint: Gloss(en: "", it: ""))
-        XCTAssertNil(SpokenQuestion.from(.gapFill(gap)))
+    func testSpokenSentenceNeedsTheRightFormAndOrder() {
+        let accepted = ["Yo como en casa."]
+        XCTAssertFalse(Grader.compareSpokenSentence("yo comes en casa", accepted: accepted, hint: "").isCorrect)
+        XCTAssertFalse(Grader.compareSpokenSentence("casa como yo", accepted: accepted, hint: "").isCorrect)
+        XCTAssertFalse(Grader.compareSpokenSentence("como", accepted: ["No, no como."], hint: "").isCorrect,
+                       "no is never forgiven")
     }
 
-    func testAnswerCheckCorrectsTheWrongForm() {
-        let check = SpeakingScore.check(said: "no no comes mucho", answers: ["No, no como mucho."])
-        XCTAssertFalse(check.passed)
-        XCTAssertEqual(check.fixes.first?.said, "comes")
-        XCTAssertEqual(check.fixes.first?.correct, "como")
+    func testSpokenGapAcceptsTheWordAloneOrInTheSentence() {
+        XCTAssertTrue(Grader.compareSpokenPhrase("como", accepted: ["como"], hint: "").isCorrect)
+        XCTAssertTrue(Grader.compareSpokenPhrase("no no como mucho", accepted: ["como"], hint: "").isCorrect)
+        XCTAssertFalse(Grader.compareSpokenPhrase("comes", accepted: ["como"], hint: "").isCorrect)
     }
 
-    func testAnswerCheckForgivesShortWordsAndAccents() {
-        XCTAssertTrue(SpeakingScore.check(said: "vivo madrid", answers: ["Vivo en Madrid."]).passed)
-        XCTAssertTrue(SpeakingScore.check(said: "si hablo un poco de espanol", answers: ["Sí, hablo un poco de español."]).passed)
+    func testTranslationPromptSplitsContextAndSentence() {
+        let prompt = TranslationPrompt("A friend asks «¿Qué tal?». Write in Spanish: «Today I'm tired.»")
+        XCTAssertEqual(prompt.context, "A friend asks «¿Qué tal?».")
+        XCTAssertEqual(prompt.sentence, "Today I'm tired.")
+        XCTAssertNil(TranslationPrompt("Say hello.").sentence)
     }
 }

@@ -46,4 +46,41 @@ enum Grader {
         let given = " " + stripAccents(normalize(answer)) + " "
         return required.first { !given.contains(" " + stripAccents(normalize($0)) + " ") }
     }
+
+    // MARK: Spoken answers
+
+    /// A spoken answer has no punctuation, capitals or accents to judge, and the recogniser
+    /// writes numbers as digits.
+    static func spokenWords(_ text: String) -> [String] {
+        stripAccents(normalize(text)).split(separator: " ").map { numberWords[String($0)] ?? String($0) }
+    }
+
+    /// A spoken word or phrase for a gap: right when the answer is heard, alone or inside
+    /// the whole sentence.
+    static func compareSpokenPhrase(_ said: String, accepted: [String], hint: String) -> GradeOutcome {
+        let heard = " " + spokenWords(said).joined(separator: " ") + " "
+        let found = accepted.contains { heard.contains(" " + spokenWords($0).joined(separator: " ") + " ") }
+        return found ? .correct : .wrong(hint: hint)
+    }
+
+    /// A spoken sentence: every word must come in the right order and nothing else may be said,
+    /// except tiny linking words (y, a, en, de), which recognisers often drop.
+    static func compareSpokenSentence(_ said: String, accepted: [String], hint: String) -> GradeOutcome {
+        let heard = spokenWords(said).filter { !droppable.contains($0) }
+        guard !heard.isEmpty else { return .wrong(hint: hint) }
+        for target in accepted where spokenWords(target).filter({ !droppable.contains($0) }) == heard {
+            return .correct
+        }
+        return .wrong(hint: hint)
+    }
+
+    private static let droppable: Set<String> = ["y", "e", "o", "u", "a", "en", "de", "al"]
+
+    private static let numberWords: [String: String] = {
+        let words = ["cero", "uno", "dos", "tres", "cuatro", "cinco", "seis", "siete", "ocho", "nueve", "diez",
+                     "once", "doce", "trece", "catorce", "quince", "dieciseis", "diecisiete", "dieciocho",
+                     "diecinueve", "veinte", "veintiuno", "veintidos", "veintitres", "veinticuatro",
+                     "veinticinco", "veintiseis", "veintisiete", "veintiocho", "veintinueve", "treinta"]
+        return Dictionary(uniqueKeysWithValues: words.enumerated().map { (String($0.offset), $0.element) })
+    }()
 }
