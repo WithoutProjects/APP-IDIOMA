@@ -3,42 +3,42 @@ import Foundation
 /// Unit 1: the present tense and action basics (yo, tú, él/ella; y, pero, también, porque).
 enum Unit1 {
     static let verbs: [Verb] = [
-        Verb(lemma: "hablar", meaning: Gloss(en: "to speak", it: "parlare", uk: "розмовляти", de: "sprechen", fr: "parler", pt: "falar"),
-             present: [Gloss(en: "I speak", it: "parlo", uk: "я розмовляю", de: "ich spreche", fr: "je parle", pt: "eu falo"), Gloss(en: "you speak", it: "parli", uk: "ти розмовляєш", de: "du sprichst", fr: "tu parles", pt: "você fala"), Gloss(en: "she speaks", it: "parla", uk: "вона розмовляє", de: "sie spricht", fr: "elle parle", pt: "ela fala")],
-             complement: "español", complementGloss: Gloss(en: "Spanish", it: "spagnolo", uk: "іспанською", de: "Spanisch", fr: "espagnol", pt: "espanhol")),
-        Verb(lemma: "trabajar", meaning: Gloss(en: "to work", it: "lavorare", uk: "працювати", de: "arbeiten", fr: "travailler", pt: "trabalhar"),
-             present: [Gloss(en: "I work", it: "lavoro", uk: "я працюю", de: "ich arbeite", fr: "je travaille", pt: "eu trabalho"), Gloss(en: "you work", it: "lavori", uk: "ти працюєш", de: "du arbeitest", fr: "tu travailles", pt: "você trabalha"), Gloss(en: "she works", it: "lavora", uk: "вона працює", de: "sie arbeitet", fr: "elle travaille", pt: "ela trabalha")],
-             complement: "mucho", complementGloss: Gloss(en: "a lot", it: "molto", uk: "багато", de: "viel", fr: "beaucoup", pt: "muito")),
-        Verb(lemma: "estudiar", meaning: Gloss(en: "to study", it: "studiare", uk: "вчитися", de: "lernen", fr: "étudier", pt: "estudar"),
-             present: [Gloss(en: "I study", it: "studio", uk: "я вчуся", de: "ich lerne", fr: "j'étudie", pt: "eu estudo"), Gloss(en: "you study", it: "studi", uk: "ти вчишся", de: "du lernst", fr: "tu étudies", pt: "você estuda"), Gloss(en: "she studies", it: "studia", uk: "вона вчиться", de: "sie lernt", fr: "elle étudie", pt: "ela estuda")],
-             complement: "por la noche", complementGloss: Gloss(en: "at night", it: "la sera", uk: "ввечері", de: "abends", fr: "le soir", pt: "à noite")),
-        Verb(lemma: "cocinar", meaning: Gloss(en: "to cook", it: "cucinare", uk: "готувати", de: "kochen", fr: "cuisiner", pt: "cozinhar"),
-             present: [Gloss(en: "I cook", it: "cucino", uk: "я готую", de: "ich koche", fr: "je cuisine", pt: "eu cozinho"), Gloss(en: "you cook", it: "cucini", uk: "ти готуєш", de: "du kochst", fr: "tu cuisines", pt: "você cozinha"), Gloss(en: "she cooks", it: "cucina", uk: "вона готує", de: "sie kocht", fr: "elle cuisine", pt: "ela cozinha")],
-             complement: "pasta", complementGloss: Gloss(en: "pasta", it: "la pasta", uk: "пасту", de: "Pasta", fr: "des pâtes", pt: "massa")),
-        Verb(lemma: "escuchar", meaning: Gloss(en: "to listen", it: "ascoltare", uk: "слухати", de: "hören", fr: "écouter", pt: "escutar"),
-             present: [Gloss(en: "I listen to", it: "ascolto", uk: "я слухаю", de: "ich höre", fr: "j'écoute", pt: "eu escuto"), Gloss(en: "you listen to", it: "ascolti", uk: "ти слухаєш", de: "du hörst", fr: "tu écoutes", pt: "você escuta"), Gloss(en: "she listens to", it: "ascolta", uk: "вона слухає", de: "sie hört", fr: "elle écoute", pt: "ela escuta")],
-             complement: "música", complementGloss: Gloss(en: "music", it: "musica", uk: "музику", de: "Musik", fr: "de la musique", pt: "música")),
-        Verb(lemma: "caminar", meaning: Gloss(en: "to walk", it: "camminare", uk: "ходити пішки", de: "zu Fuß gehen", fr: "marcher", pt: "caminhar"),
-             present: [Gloss(en: "I walk", it: "cammino", uk: "я ходжу пішки", de: "ich gehe zu Fuß", fr: "je marche", pt: "eu caminho"), Gloss(en: "you walk", it: "cammini", uk: "ти ходиш пішки", de: "du gehst zu Fuß", fr: "tu marches", pt: "você caminha"), Gloss(en: "she walks", it: "cammina", uk: "вона ходить пішки", de: "sie geht zu Fuß", fr: "elle marche", pt: "ela caminha")],
-             complement: "al trabajo", complementGloss: Gloss(en: "to work", it: "al lavoro", uk: "працювати", de: "zur Arbeit", fr: "jusqu'au travail", pt: "até o trabalho")),
-        Verb(lemma: "comer", meaning: Gloss(en: "to eat", it: "mangiare", uk: "їсти", de: "essen", fr: "manger", pt: "comer"),
-             present: [Gloss(en: "I eat", it: "mangio", uk: "я їм", de: "ich esse", fr: "je mange", pt: "eu como"), Gloss(en: "you eat", it: "mangi", uk: "ти їси", de: "du isst", fr: "tu manges", pt: "você come"), Gloss(en: "she eats", it: "mangia", uk: "вона їсть", de: "sie isst", fr: "elle mange", pt: "ela come")],
-             complement: "mucho", complementGloss: Gloss(en: "a lot", it: "molto", uk: "багато", de: "viel", fr: "beaucoup", pt: "muito")),
-        Verb(lemma: "beber", meaning: Gloss(en: "to drink", it: "bere", uk: "пити", de: "trinken", fr: "boire", pt: "beber"),
-             present: [Gloss(en: "I drink", it: "bevo", uk: "я п'ю", de: "ich trinke", fr: "je bois", pt: "eu bebo"), Gloss(en: "you drink", it: "bevi", uk: "ти п'єш", de: "du trinkst", fr: "tu bois", pt: "você bebe"), Gloss(en: "she drinks", it: "beve", uk: "вона п'є", de: "sie trinkt", fr: "elle boit", pt: "ela bebe")],
-             complement: "café", complementGloss: Gloss(en: "coffee", it: "caffè", uk: "каву", de: "Kaffee", fr: "du café", pt: "café")),
-        Verb(lemma: "leer", meaning: Gloss(en: "to read", it: "leggere", uk: "читати", de: "lesen", fr: "lire", pt: "ler"),
-             present: [Gloss(en: "I read", it: "leggo", uk: "я читаю", de: "ich lese", fr: "je lis", pt: "eu leio"), Gloss(en: "you read", it: "leggi", uk: "ти читаєш", de: "du liest", fr: "tu lis", pt: "você lê"), Gloss(en: "she reads", it: "legge", uk: "вона читає", de: "sie liest", fr: "elle lit", pt: "ela lê")],
-             complement: "libros", complementGloss: Gloss(en: "books", it: "libri", uk: "книжки", de: "Bücher", fr: "des livres", pt: "livros")),
-        Verb(lemma: "aprender", meaning: Gloss(en: "to learn", it: "imparare", uk: "вивчати", de: "lernen", fr: "apprendre", pt: "aprender"),
-             present: [Gloss(en: "I learn", it: "imparo", uk: "я вивчаю", de: "ich lerne", fr: "j'apprends", pt: "eu aprendo"), Gloss(en: "you learn", it: "impari", uk: "ти вивчаєш", de: "du lernst", fr: "tu apprends", pt: "você aprende"), Gloss(en: "she learns", it: "impara", uk: "вона вивчає", de: "sie lernt", fr: "elle apprend", pt: "ela aprende")],
-             complement: "español", complementGloss: Gloss(en: "Spanish", it: "lo spagnolo", uk: "іспанську", de: "Spanisch", fr: "l'espagnol", pt: "espanhol")),
-        Verb(lemma: "vivir", meaning: Gloss(en: "to live", it: "vivere", uk: "жити", de: "wohnen", fr: "vivre", pt: "morar"),
-             present: [Gloss(en: "I live", it: "vivo", uk: "я живу", de: "ich wohne", fr: "je vis", pt: "eu moro"), Gloss(en: "you live", it: "vivi", uk: "ти живеш", de: "du wohnst", fr: "tu vis", pt: "você mora"), Gloss(en: "she lives", it: "vive", uk: "вона живе", de: "sie wohnt", fr: "elle vit", pt: "ela mora")],
-             complement: "aquí", complementGloss: Gloss(en: "here", it: "qui", uk: "тут", de: "hier", fr: "ici", pt: "aqui")),
-        Verb(lemma: "escribir", meaning: Gloss(en: "to write", it: "scrivere", uk: "писати", de: "schreiben", fr: "écrire", pt: "escrever"),
-             present: [Gloss(en: "I write", it: "scrivo", uk: "я пишу", de: "ich schreibe", fr: "j'écris", pt: "eu escrevo"), Gloss(en: "you write", it: "scrivi", uk: "ти пишеш", de: "du schreibst", fr: "tu écris", pt: "você escreve"), Gloss(en: "she writes", it: "scrive", uk: "вона пише", de: "sie schreibt", fr: "elle écrit", pt: "ela escreve")],
-             complement: "mucho", complementGloss: Gloss(en: "a lot", it: "molto", uk: "багато", de: "viel", fr: "beaucoup", pt: "muito")),
+        Verb(lemma: "hablar", meaning: Gloss(en: "to speak", it: "parlare", uk: "розмовляти", de: "sprechen", fr: "parler", pt: "falar", zh: "说"),
+             present: [Gloss(en: "I speak", it: "parlo", uk: "я розмовляю", de: "ich spreche", fr: "je parle", pt: "eu falo", zh: "我说"), Gloss(en: "you speak", it: "parli", uk: "ти розмовляєш", de: "du sprichst", fr: "tu parles", pt: "você fala", zh: "你说"), Gloss(en: "she speaks", it: "parla", uk: "вона розмовляє", de: "sie spricht", fr: "elle parle", pt: "ela fala", zh: "她说")],
+             complement: "español", complementGloss: Gloss(en: "Spanish", it: "spagnolo", uk: "іспанською", de: "Spanisch", fr: "espagnol", pt: "espanhol", zh: "西班牙语")),
+        Verb(lemma: "trabajar", meaning: Gloss(en: "to work", it: "lavorare", uk: "працювати", de: "arbeiten", fr: "travailler", pt: "trabalhar", zh: "工作"),
+             present: [Gloss(en: "I work", it: "lavoro", uk: "я працюю", de: "ich arbeite", fr: "je travaille", pt: "eu trabalho", zh: "我工作"), Gloss(en: "you work", it: "lavori", uk: "ти працюєш", de: "du arbeitest", fr: "tu travailles", pt: "você trabalha", zh: "你工作"), Gloss(en: "she works", it: "lavora", uk: "вона працює", de: "sie arbeitet", fr: "elle travaille", pt: "ela trabalha", zh: "她工作")],
+             complement: "mucho", complementGloss: Gloss(en: "a lot", it: "molto", uk: "багато", de: "viel", fr: "beaucoup", pt: "muito", zh: "很多")),
+        Verb(lemma: "estudiar", meaning: Gloss(en: "to study", it: "studiare", uk: "вчитися", de: "lernen", fr: "étudier", pt: "estudar", zh: "学习"),
+             present: [Gloss(en: "I study", it: "studio", uk: "я вчуся", de: "ich lerne", fr: "j'étudie", pt: "eu estudo", zh: "我学习"), Gloss(en: "you study", it: "studi", uk: "ти вчишся", de: "du lernst", fr: "tu étudies", pt: "você estuda", zh: "你学习"), Gloss(en: "she studies", it: "studia", uk: "вона вчиться", de: "sie lernt", fr: "elle étudie", pt: "ela estuda", zh: "她学习")],
+             complement: "por la noche", complementGloss: Gloss(en: "at night", it: "la sera", uk: "ввечері", de: "abends", fr: "le soir", pt: "à noite", zh: "到很晚")),
+        Verb(lemma: "cocinar", meaning: Gloss(en: "to cook", it: "cucinare", uk: "готувати", de: "kochen", fr: "cuisiner", pt: "cozinhar", zh: "做饭"),
+             present: [Gloss(en: "I cook", it: "cucino", uk: "я готую", de: "ich koche", fr: "je cuisine", pt: "eu cozinho", zh: "我煮"), Gloss(en: "you cook", it: "cucini", uk: "ти готуєш", de: "du kochst", fr: "tu cuisines", pt: "você cozinha", zh: "你煮"), Gloss(en: "she cooks", it: "cucina", uk: "вона готує", de: "sie kocht", fr: "elle cuisine", pt: "ela cozinha", zh: "她煮")],
+             complement: "pasta", complementGloss: Gloss(en: "pasta", it: "la pasta", uk: "пасту", de: "Pasta", fr: "des pâtes", pt: "massa", zh: "意大利面")),
+        Verb(lemma: "escuchar", meaning: Gloss(en: "to listen", it: "ascoltare", uk: "слухати", de: "hören", fr: "écouter", pt: "escutar", zh: "听"),
+             present: [Gloss(en: "I listen to", it: "ascolto", uk: "я слухаю", de: "ich höre", fr: "j'écoute", pt: "eu escuto", zh: "我听"), Gloss(en: "you listen to", it: "ascolti", uk: "ти слухаєш", de: "du hörst", fr: "tu écoutes", pt: "você escuta", zh: "你听"), Gloss(en: "she listens to", it: "ascolta", uk: "вона слухає", de: "sie hört", fr: "elle écoute", pt: "ela escuta", zh: "她听")],
+             complement: "música", complementGloss: Gloss(en: "music", it: "musica", uk: "музику", de: "Musik", fr: "de la musique", pt: "música", zh: "音乐")),
+        Verb(lemma: "caminar", meaning: Gloss(en: "to walk", it: "camminare", uk: "ходити пішки", de: "zu Fuß gehen", fr: "marcher", pt: "caminhar", zh: "走路"),
+             present: [Gloss(en: "I walk", it: "cammino", uk: "я ходжу пішки", de: "ich gehe zu Fuß", fr: "je marche", pt: "eu caminho", zh: "我走路"), Gloss(en: "you walk", it: "cammini", uk: "ти ходиш пішки", de: "du gehst zu Fuß", fr: "tu marches", pt: "você caminha", zh: "你走路"), Gloss(en: "she walks", it: "cammina", uk: "вона ходить пішки", de: "sie geht zu Fuß", fr: "elle marche", pt: "ela caminha", zh: "她走路")],
+             complement: "al trabajo", complementGloss: Gloss(en: "to work", it: "al lavoro", uk: "працювати", de: "zur Arbeit", fr: "jusqu'au travail", pt: "até o trabalho", zh: "去上班")),
+        Verb(lemma: "comer", meaning: Gloss(en: "to eat", it: "mangiare", uk: "їсти", de: "essen", fr: "manger", pt: "comer", zh: "吃"),
+             present: [Gloss(en: "I eat", it: "mangio", uk: "я їм", de: "ich esse", fr: "je mange", pt: "eu como", zh: "我吃"), Gloss(en: "you eat", it: "mangi", uk: "ти їси", de: "du isst", fr: "tu manges", pt: "você come", zh: "你吃"), Gloss(en: "she eats", it: "mangia", uk: "вона їсть", de: "sie isst", fr: "elle mange", pt: "ela come", zh: "她吃")],
+             complement: "mucho", complementGloss: Gloss(en: "a lot", it: "molto", uk: "багато", de: "viel", fr: "beaucoup", pt: "muito", zh: "很多")),
+        Verb(lemma: "beber", meaning: Gloss(en: "to drink", it: "bere", uk: "пити", de: "trinken", fr: "boire", pt: "beber", zh: "喝"),
+             present: [Gloss(en: "I drink", it: "bevo", uk: "я п'ю", de: "ich trinke", fr: "je bois", pt: "eu bebo", zh: "我喝"), Gloss(en: "you drink", it: "bevi", uk: "ти п'єш", de: "du trinkst", fr: "tu bois", pt: "você bebe", zh: "你喝"), Gloss(en: "she drinks", it: "beve", uk: "вона п'є", de: "sie trinkt", fr: "elle boit", pt: "ela bebe", zh: "她喝")],
+             complement: "café", complementGloss: Gloss(en: "coffee", it: "caffè", uk: "каву", de: "Kaffee", fr: "du café", pt: "café", zh: "咖啡")),
+        Verb(lemma: "leer", meaning: Gloss(en: "to read", it: "leggere", uk: "читати", de: "lesen", fr: "lire", pt: "ler", zh: "读"),
+             present: [Gloss(en: "I read", it: "leggo", uk: "я читаю", de: "ich lese", fr: "je lis", pt: "eu leio", zh: "我读"), Gloss(en: "you read", it: "leggi", uk: "ти читаєш", de: "du liest", fr: "tu lis", pt: "você lê", zh: "你读"), Gloss(en: "she reads", it: "legge", uk: "вона читає", de: "sie liest", fr: "elle lit", pt: "ela lê", zh: "她读")],
+             complement: "libros", complementGloss: Gloss(en: "books", it: "libri", uk: "книжки", de: "Bücher", fr: "des livres", pt: "livros", zh: "书")),
+        Verb(lemma: "aprender", meaning: Gloss(en: "to learn", it: "imparare", uk: "вивчати", de: "lernen", fr: "apprendre", pt: "aprender", zh: "学"),
+             present: [Gloss(en: "I learn", it: "imparo", uk: "я вивчаю", de: "ich lerne", fr: "j'apprends", pt: "eu aprendo", zh: "我学"), Gloss(en: "you learn", it: "impari", uk: "ти вивчаєш", de: "du lernst", fr: "tu apprends", pt: "você aprende", zh: "你学"), Gloss(en: "she learns", it: "impara", uk: "вона вивчає", de: "sie lernt", fr: "elle apprend", pt: "ela aprende", zh: "她学")],
+             complement: "español", complementGloss: Gloss(en: "Spanish", it: "lo spagnolo", uk: "іспанську", de: "Spanisch", fr: "l'espagnol", pt: "espanhol", zh: "西班牙语")),
+        Verb(lemma: "vivir", meaning: Gloss(en: "to live", it: "vivere", uk: "жити", de: "wohnen", fr: "vivre", pt: "morar", zh: "住"),
+             present: [Gloss(en: "I live", it: "vivo", uk: "я живу", de: "ich wohne", fr: "je vis", pt: "eu moro", zh: "我住"), Gloss(en: "you live", it: "vivi", uk: "ти живеш", de: "du wohnst", fr: "tu vis", pt: "você mora", zh: "你住"), Gloss(en: "she lives", it: "vive", uk: "вона живе", de: "sie wohnt", fr: "elle vit", pt: "ela mora", zh: "她住")],
+             complement: "aquí", complementGloss: Gloss(en: "here", it: "qui", uk: "тут", de: "hier", fr: "ici", pt: "aqui", zh: "在这里")),
+        Verb(lemma: "escribir", meaning: Gloss(en: "to write", it: "scrivere", uk: "писати", de: "schreiben", fr: "écrire", pt: "escrever", zh: "写"),
+             present: [Gloss(en: "I write", it: "scrivo", uk: "я пишу", de: "ich schreibe", fr: "j'écris", pt: "eu escrevo", zh: "我写"), Gloss(en: "you write", it: "scrivi", uk: "ти пишеш", de: "du schreibst", fr: "tu écris", pt: "você escreve", zh: "你写"), Gloss(en: "she writes", it: "scrive", uk: "вона пише", de: "sie schreibt", fr: "elle écrit", pt: "ela escreve", zh: "她写")],
+             complement: "mucho", complementGloss: Gloss(en: "a lot", it: "molto", uk: "багато", de: "viel", fr: "beaucoup", pt: "muito", zh: "很多")),
     ]
 
     /// The persons Unit 1 teaches; nosotros, vosotros and ellos arrive in Unit 2.
@@ -73,10 +73,10 @@ enum Unit1 {
     // move to the next person, and mix them all. Every word used was introduced first.
 
     static let personWords = VocabSet(words: [
-        VocabWord(es: "yo", gloss: Gloss(en: "I", it: "io", uk: "я", de: "ich", fr: "je", pt: "eu"), kind: .ending),
-        VocabWord(es: "tú", gloss: Gloss(en: "you", it: "tu", uk: "ти", de: "du", fr: "tu", pt: "você"), kind: .ending),
-        VocabWord(es: "él", gloss: Gloss(en: "he", it: "lui", uk: "він", de: "er", fr: "il", pt: "ele"), kind: .ending),
-        VocabWord(es: "ella", gloss: Gloss(en: "she", it: "lei", uk: "вона", de: "sie", fr: "elle", pt: "ela"), kind: .ending),
+        VocabWord(es: "yo", gloss: Gloss(en: "I", it: "io", uk: "я", de: "ich", fr: "je", pt: "eu", zh: "我"), kind: .ending),
+        VocabWord(es: "tú", gloss: Gloss(en: "you", it: "tu", uk: "ти", de: "du", fr: "tu", pt: "você", zh: "你"), kind: .ending),
+        VocabWord(es: "él", gloss: Gloss(en: "he", it: "lui", uk: "він", de: "er", fr: "il", pt: "ele", zh: "他"), kind: .ending),
+        VocabWord(es: "ella", gloss: Gloss(en: "she", it: "lei", uk: "вона", de: "sie", fr: "elle", pt: "ela", zh: "她"), kind: .ending),
     ])
 
     static var verbWords: VocabSet {
@@ -84,10 +84,10 @@ enum Unit1 {
     }
 
     static let extraWords = VocabSet(words: [
-        VocabWord(es: "español", gloss: Gloss(en: "Spanish", it: "spagnolo", uk: "іспанською", de: "Spanisch", fr: "espagnol", pt: "espanhol"), kind: .chunk),
-        VocabWord(es: "café", gloss: Gloss(en: "coffee", it: "caffè", uk: "каву", de: "Kaffee", fr: "du café", pt: "café"), kind: .chunk),
-        VocabWord(es: "mucho", gloss: Gloss(en: "a lot", it: "molto", uk: "багато", de: "viel", fr: "beaucoup", pt: "muito"), kind: .chunk),
-        VocabWord(es: "aquí", gloss: Gloss(en: "here", it: "qui", uk: "тут", de: "hier", fr: "ici", pt: "aqui"), kind: .chunk),
+        VocabWord(es: "español", gloss: Gloss(en: "Spanish", it: "spagnolo", uk: "іспанською", de: "Spanisch", fr: "espagnol", pt: "espanhol", zh: "西班牙语"), kind: .chunk),
+        VocabWord(es: "café", gloss: Gloss(en: "coffee", it: "caffè", uk: "каву", de: "Kaffee", fr: "du café", pt: "café", zh: "咖啡"), kind: .chunk),
+        VocabWord(es: "mucho", gloss: Gloss(en: "a lot", it: "molto", uk: "багато", de: "viel", fr: "beaucoup", pt: "muito", zh: "很多"), kind: .chunk),
+        VocabWord(es: "aquí", gloss: Gloss(en: "here", it: "qui", uk: "тут", de: "hier", fr: "ici", pt: "aqui", zh: "在这里"), kind: .chunk),
     ])
 
     static func lesson1() -> Lesson {
@@ -105,11 +105,12 @@ enum Unit1 {
                             uk: "Дієслово має дві частини: основа (синя) каже, що відбувається, закінчення (помаранчеве) каже хто. Щоб говорити про себе (yo), прибери -ar, -er або -ir і додай -o.",
                             de: "Ein Verb hat zwei Teile: Der Stamm (blau) sagt, was passiert, die Endung (orange) sagt, wer es tut. Wenn du über dich sprichst (yo), nimm -ar, -er oder -ir weg und häng -o an.",
                             fr: "Un verbe a deux parties : le radical (bleu) dit l'action, la terminaison (orange) dit qui la fait. Pour parler de toi (yo), enlève -ar, -er ou -ir et ajoute -o.",
-                            pt: "Um verbo tem duas partes: o radical (azul) diz a ação, a terminação (laranja) diz quem. Para falar de você mesmo (yo), tire -ar, -er ou -ir e acrescente -o."),
+                            pt: "Um verbo tem duas partes: o radical (azul) diz a ação, a terminação (laranja) diz quem. Para falar de você mesmo (yo), tire -ar, -er ou -ir e acrescente -o.",
+                            zh: "动词由两部分组成：词干（蓝色）表示动作，词尾（橙色）表示谁在做。说自己（yo）时，去掉 -ar、-er 或 -ir，再加上 -o。"),
                 examples: [
-                    Example(es: "Yo hablo español.", gloss: Gloss(en: "I speak Spanish.", it: "Io parlo spagnolo.", uk: "Я розмовляю іспанською.", de: "Ich spreche Spanisch.", fr: "Je parle espagnol.", pt: "Eu falo espanhol.")),
-                    Example(es: "Yo como mucho.", gloss: Gloss(en: "I eat a lot.", it: "Io mangio molto.", uk: "Я багато їм.", de: "Ich esse viel.", fr: "Je mange beaucoup.", pt: "Eu como muito.")),
-                    Example(es: "Yo vivo aquí.", gloss: Gloss(en: "I live here.", it: "Io vivo qui.", uk: "Я живу тут.", de: "Ich wohne hier.", fr: "Je vis ici.", pt: "Eu moro aqui.")),
+                    Example(es: "Yo hablo español.", gloss: Gloss(en: "I speak Spanish.", it: "Io parlo spagnolo.", uk: "Я розмовляю іспанською.", de: "Ich spreche Spanisch.", fr: "Je parle espagnol.", pt: "Eu falo espanhol.", zh: "我说西班牙语。")),
+                    Example(es: "Yo como mucho.", gloss: Gloss(en: "I eat a lot.", it: "Io mangio molto.", uk: "Я багато їм.", de: "Ich esse viel.", fr: "Je mange beaucoup.", pt: "Eu como muito.", zh: "我吃很多。")),
+                    Example(es: "Yo vivo aquí.", gloss: Gloss(en: "I live here.", it: "Io vivo qui.", uk: "Я живу тут.", de: "Ich wohne hier.", fr: "Je vis ici.", pt: "Eu moro aqui.", zh: "我住在这里。")),
                 ])),
             snap("u1l1-yo-1", .forge, "trabajar", .yo, stemsFrom: ["trabajar", "vivir", "hablar", "comer"], endings: ["o"]),
             gap("u1l1-yo-2", .forge, "hablar", .yo),
@@ -120,11 +121,12 @@ enum Unit1 {
                             uk: "Щоб звернутися до когось (tú), додай -s: дієслова на AR закінчуються на -as, на ER та IR — на -es. Щоб поставити запитання, візьми те саме речення між ¿ і ?.",
                             de: "Wenn du mit jemandem sprichst (tú), häng -s an: AR-Verben enden auf -as, ER- und IR-Verben auf -es. Für eine Frage setzt du denselben Satz zwischen ¿ und ?.",
                             fr: "Pour parler à quelqu'un (tú), ajoute -s : les verbes en AR finissent en -as, ceux en ER et IR en -es. Pour poser une question, mets la même phrase entre ¿ et ?.",
-                            pt: "Para falar com alguém (tú), acrescente -s: os verbos em AR terminam em -as, os em ER e IR em -es. Para fazer uma pergunta, coloque a mesma frase entre ¿ e ?."),
+                            pt: "Para falar com alguém (tú), acrescente -s: os verbos em AR terminam em -as, os em ER e IR em -es. Para fazer uma pergunta, coloque a mesma frase entre ¿ e ?.",
+                            zh: "跟别人说话（tú）时，加上 -s：AR 动词以 -as 结尾，ER 和 IR 动词以 -es 结尾。要提问，就把同一个句子放在 ¿ 和 ? 之间。"),
                 examples: [
-                    Example(es: "Tú hablas español.", gloss: Gloss(en: "You speak Spanish.", it: "Tu parli spagnolo.", uk: "Ти розмовляєш іспанською.", de: "Du sprichst Spanisch.", fr: "Tu parles espagnol.", pt: "Você fala espanhol.")),
-                    Example(es: "¿Tú bebes café?", gloss: Gloss(en: "Do you drink coffee?", it: "Tu bevi caffè?", uk: "Ти п'єш каву?", de: "Trinkst du Kaffee?", fr: "Tu bois du café ?", pt: "Você bebe café?")),
-                    Example(es: "¿Tú vives aquí?", gloss: Gloss(en: "Do you live here?", it: "Tu vivi qui?", uk: "Ти живеш тут?", de: "Wohnst du hier?", fr: "Tu vis ici ?", pt: "Você mora aqui?")),
+                    Example(es: "Tú hablas español.", gloss: Gloss(en: "You speak Spanish.", it: "Tu parli spagnolo.", uk: "Ти розмовляєш іспанською.", de: "Du sprichst Spanisch.", fr: "Tu parles espagnol.", pt: "Você fala espanhol.", zh: "你说西班牙语。")),
+                    Example(es: "¿Tú bebes café?", gloss: Gloss(en: "Do you drink coffee?", it: "Tu bevi caffè?", uk: "Ти п'єш каву?", de: "Trinkst du Kaffee?", fr: "Tu bois du café ?", pt: "Você bebe café?", zh: "你喝咖啡吗？")),
+                    Example(es: "¿Tú vives aquí?", gloss: Gloss(en: "Do you live here?", it: "Tu vivi qui?", uk: "Ти живеш тут?", de: "Wohnst du hier?", fr: "Tu vis ici ?", pt: "Você mora aqui?", zh: "你住在这里吗？")),
                 ])),
             snap("u1l1-tu-1", .forge, "comer", .tu, stemsFrom: ["comer", "beber", "hablar", "escribir"], endings: ["o", "as", "es"]),
             gap("u1l1-tu-2", .forge, "beber", .tu),
@@ -135,11 +137,12 @@ enum Unit1 {
                             uk: "Щоб говорити про когось іншого (él, ella), візьми форму для tú і прибери -s: -a для AR, -e для ER та IR.",
                             de: "Wenn du über jemand anderen sprichst (él, ella), nimm die tú-Form und lass das -s weg: -a bei AR, -e bei ER und IR.",
                             fr: "Pour parler de quelqu'un d'autre (él, ella), prends la forme de tú et enlève le -s : -a pour AR, -e pour ER et IR.",
-                            pt: "Para falar de outra pessoa (él, ella), pegue a forma de tú e tire o -s: -a para AR, -e para ER e IR."),
+                            pt: "Para falar de outra pessoa (él, ella), pegue a forma de tú e tire o -s: -a para AR, -e para ER e IR.",
+                            zh: "说别人（él、ella）时，取 tú 的形式并去掉 -s：AR 动词用 -a，ER 和 IR 动词用 -e。"),
                 examples: [
-                    Example(es: "Ella habla español.", gloss: Gloss(en: "She speaks Spanish.", it: "Lei parla spagnolo.", uk: "Вона розмовляє іспанською.", de: "Sie spricht Spanisch.", fr: "Elle parle espagnol.", pt: "Ela fala espanhol.")),
-                    Example(es: "Él bebe café.", gloss: Gloss(en: "He drinks coffee.", it: "Lui beve caffè.", uk: "Він п'є каву.", de: "Er trinkt Kaffee.", fr: "Il boit du café.", pt: "Ele bebe café.")),
-                    Example(es: "Ella vive aquí.", gloss: Gloss(en: "She lives here.", it: "Lei vive qui.", uk: "Вона живе тут.", de: "Sie wohnt hier.", fr: "Elle vit ici.", pt: "Ela mora aqui.")),
+                    Example(es: "Ella habla español.", gloss: Gloss(en: "She speaks Spanish.", it: "Lei parla spagnolo.", uk: "Вона розмовляє іспанською.", de: "Sie spricht Spanisch.", fr: "Elle parle espagnol.", pt: "Ela fala espanhol.", zh: "她说西班牙语。")),
+                    Example(es: "Él bebe café.", gloss: Gloss(en: "He drinks coffee.", it: "Lui beve caffè.", uk: "Він п'є каву.", de: "Er trinkt Kaffee.", fr: "Il boit du café.", pt: "Ele bebe café.", zh: "他喝咖啡。")),
+                    Example(es: "Ella vive aquí.", gloss: Gloss(en: "She lives here.", it: "Lei vive qui.", uk: "Вона живе тут.", de: "Sie wohnt hier.", fr: "Elle vit ici.", pt: "Ela mora aqui.", zh: "她住在这里。")),
                 ])),
             snap("u1l1-el-1", .forge, "escribir", .el, stemsFrom: ["escribir", "beber", "trabajar", "vivir"], endings: ["o", "es", "e", "a"]),
             gap("u1l1-el-2", .forge, "trabajar", .el),
@@ -149,28 +152,29 @@ enum Unit1 {
             snap("u1l1-mix-2", .mix, "beber", .yo, stemsFrom: ["beber", "hablar", "vivir", "escribir"], endings: ["o", "as", "a"]),
             gap("u1l1-mix-3", .mix, "comer", .el),
             builder("u1l1-mix-4", .mix,
-                    intention: Gloss(en: "Ask someone if they speak Spanish.", it: "Chiedi a qualcuno se parla spagnolo.", uk: "Запитай когось, чи розмовляє він іспанською.", de: "Frag jemanden, ob er Spanisch spricht.", fr: "Demande à quelqu'un s'il parle espagnol.", pt: "Pergunte a alguém se a pessoa fala espanhol."),
+                    intention: Gloss(en: "Ask someone if they speak Spanish.", it: "Chiedi a qualcuno se parla spagnolo.", uk: "Запитай когось, чи розмовляє він іспанською.", de: "Frag jemanden, ob er Spanisch spricht.", fr: "Demande à quelqu'un s'il parle espagnol.", pt: "Pergunte a alguém se a pessoa fala espanhol.", zh: "问别人会不会说西班牙语。"),
                     accepted: ["¿Tú hablas español?", "¿Hablas español?"],
                     tiles: ["Tú", "hablas", "español", "hablo", "habla"],
-                    gloss: Gloss(en: "Do you speak Spanish?", it: "Parli spagnolo?", uk: "Ти розмовляєш іспанською?", de: "Sprichst du Spanisch?", fr: "Tu parles espagnol ?", pt: "Você fala espanhol?"),
-                    hint: Gloss(en: "Talking to someone: habl- + -as.", it: "Parli con qualcuno: habl- + -as.", uk: "Звертаєшся до когось: habl- + -as.", de: "Du sprichst mit jemandem: habl- + -as.", fr: "Tu parles à quelqu'un : habl- + -as.", pt: "Falando com alguém: habl- + -as."),
+                    gloss: Gloss(en: "Do you speak Spanish?", it: "Parli spagnolo?", uk: "Ти розмовляєш іспанською?", de: "Sprichst du Spanisch?", fr: "Tu parles espagnol ?", pt: "Você fala espanhol?", zh: "你会说西班牙语吗？"),
+                    hint: Gloss(en: "Talking to someone: habl- + -as.", it: "Parli con qualcuno: habl- + -as.", uk: "Звертаєшся до когось: habl- + -as.", de: "Du sprichst mit jemandem: habl- + -as.", fr: "Tu parles à quelqu'un : habl- + -as.", pt: "Falando com alguém: habl- + -as.", zh: "跟别人说话：habl- + -as。"),
                     formKeys: [Conjugator.key(verb("hablar"), .presente, .tu)]),
         ]
 
         return Lesson(
             id: "u1l1",
             title: "Yo, tú, él",
-            titleGloss: Gloss(en: "I, you, he", it: "Io, tu, lui", uk: "Я, ти, він", de: "Ich, du, er", fr: "Je, tu, il", pt: "Eu, você, ele"),
+            titleGloss: Gloss(en: "I, you, he", it: "Io, tu, lui", uk: "Я, ти, він", de: "Ich, du, er", fr: "Je, tu, il", pt: "Eu, você, ele", zh: "我、你、他"),
             goal: Gloss(en: "Learn 14 words and build present-tense forms for yo, tú and él/ella.",
                         it: "Impara 14 parole e costruisci il presente per yo, tú ed él/ella.",
                         uk: "Вивчи 14 слів і склади форми теперішнього часу для yo, tú та él/ella.",
                         de: "Lerne 14 Wörter und bilde Präsensformen für yo, tú und él/ella.",
                         fr: "Apprends 14 mots et construis le présent pour yo, tú et él/ella.",
-                        pt: "Aprenda 14 palavras e monte o presente para yo, tú e él/ella."),
+                        pt: "Aprenda 14 palavras e monte o presente para yo, tú e él/ella.",
+                        zh: "学习 14 个单词，并为 yo、tú 和 él/ella 构建现在时形式。"),
             mode: .lesson,
             items: items,
             target: Example(es: "Yo hablo español. ¿Tú hablas español?",
-                            gloss: Gloss(en: "I speak Spanish. Do you speak Spanish?", it: "Io parlo spagnolo. Tu parli spagnolo?", uk: "Я розмовляю іспанською. Ти розмовляєш іспанською?", de: "Ich spreche Spanisch. Sprichst du Spanisch?", fr: "Je parle espagnol. Tu parles espagnol ?", pt: "Eu falo espanhol. Você fala espanhol?"))
+                            gloss: Gloss(en: "I speak Spanish. Do you speak Spanish?", it: "Io parlo spagnolo. Tu parli spagnolo?", uk: "Я розмовляю іспанською. Ти розмовляєш іспанською?", de: "Ich spreche Spanisch. Sprichst du Spanisch?", fr: "Je parle espagnol. Tu parles espagnol ?", pt: "Eu falo espanhol. Você fala espanhol?", zh: "我说西班牙语。你说西班牙语吗？"))
         )
     }
 
@@ -180,14 +184,14 @@ enum Unit1 {
     static func lesson2Words(profile: Profile) -> VocabSet {
         let native = profile.nativeLanguage
         return VocabSet(words: [
-            VocabWord(es: "me llamo", gloss: Gloss(en: "my name is", it: "mi chiamo", uk: "мене звати", de: "ich heiße", fr: "je m'appelle", pt: "meu nome é"), kind: .chunk),
-            VocabWord(es: "en", gloss: Gloss(en: "in", it: "in, a", uk: "в, у", de: "in", fr: "à, dans", pt: "em"), kind: .rail),
-            VocabWord(es: "y", gloss: Gloss(en: "and", it: "e", uk: "і", de: "und", fr: "et", pt: "e"), kind: .rail),
+            VocabWord(es: "me llamo", gloss: Gloss(en: "my name is", it: "mi chiamo", uk: "мене звати", de: "ich heiße", fr: "je m'appelle", pt: "meu nome é", zh: "我叫"), kind: .chunk),
+            VocabWord(es: "en", gloss: Gloss(en: "in", it: "in, a", uk: "в, у", de: "in", fr: "à, dans", pt: "em", zh: "在"), kind: .rail),
+            VocabWord(es: "y", gloss: Gloss(en: "and", it: "e", uk: "і", de: "und", fr: "et", pt: "e", zh: "和"), kind: .rail),
             VocabWord(es: profile.workplace.spanish, gloss: profile.workplace.nounGloss, kind: .chunk),
             VocabWord(es: native.spanishName,
                       gloss: native.languageNameGloss,
                       kind: .chunk),
-            VocabWord(es: "un poco de", gloss: Gloss(en: "a little", it: "un po' di", uk: "трохи", de: "ein bisschen", fr: "un peu de", pt: "um pouco de"), kind: .chunk),
+            VocabWord(es: "un poco de", gloss: Gloss(en: "a little", it: "un po' di", uk: "трохи", de: "ein bisschen", fr: "un peu de", pt: "um pouco de", zh: "一点"), kind: .chunk),
         ])
     }
 
@@ -209,24 +213,25 @@ enum Unit1 {
                             uk: "Щоб сказати де, постав en перед місцем. Yo можна не казати: -o вже показує, що це ти.",
                             de: "Um zu sagen, wo, setzt du en vor den Ort. Yo kannst du weglassen: Das -o zeigt schon, dass du es bist.",
                             fr: "Pour dire où, mets en devant le lieu. Tu peux omettre yo : le -o indique déjà que c'est toi.",
-                            pt: "Para dizer onde, coloque en antes do lugar. Você pode tirar o yo: o -o já diz que é você."),
+                            pt: "Para dizer onde, coloque en antes do lugar. Você pode tirar o yo: o -o já diz que é você.",
+                            zh: "要说在哪里，就在地点前加上 en。yo 可以省略：-o 已经表明说的是你自己。"),
                 examples: [
-                    Example(es: "Trabajo en \(workplace).", gloss: Gloss(en: "I work \(profile.workplace.gloss.en).", it: "Lavoro \(profile.workplace.gloss.it).", uk: "Я працюю \(profile.workplace.gloss.uk).", de: "Ich arbeite \(profile.workplace.gloss.text(.german)).", fr: "Je travaille \(profile.workplace.gloss.text(.french)).", pt: "Eu trabalho \(profile.workplace.gloss.text(.portuguese)).")),
-                    Example(es: "Vivo en \(profile.city).", gloss: Gloss(en: "I live in \(profile.city).", it: "Vivo a \(profile.city).", uk: "Я живу в місті \(profile.city).", de: "Ich wohne in \(profile.city).", fr: "J'habite à \(profile.city).", pt: "Eu moro em \(profile.city).")),
+                    Example(es: "Trabajo en \(workplace).", gloss: Gloss(en: "I work \(profile.workplace.gloss.en).", it: "Lavoro \(profile.workplace.gloss.it).", uk: "Я працюю \(profile.workplace.gloss.uk).", de: "Ich arbeite \(profile.workplace.gloss.text(.german)).", fr: "Je travaille \(profile.workplace.gloss.text(.french)).", pt: "Eu trabalho \(profile.workplace.gloss.text(.portuguese)).", zh: "我\(profile.workplace.gloss.text(.chinese))工作。")),
+                    Example(es: "Vivo en \(profile.city).", gloss: Gloss(en: "I live in \(profile.city).", it: "Vivo a \(profile.city).", uk: "Я живу в місті \(profile.city).", de: "Ich wohne in \(profile.city).", fr: "J'habite à \(profile.city).", pt: "Eu moro em \(profile.city).", zh: "我住在\(profile.city)。")),
                 ])),
             builder("u1l2-work", .fire,
-                    intention: Gloss(en: "Say where you work.", it: "Di dove lavori.", uk: "Скажи, де ти працюєш.", de: "Sag, wo du arbeitest.", fr: "Dis où tu travailles.", pt: "Diga onde você trabalha."),
+                    intention: Gloss(en: "Say where you work.", it: "Di dove lavori.", uk: "Скажи, де ти працюєш.", de: "Sag, wo du arbeitest.", fr: "Dis où tu travailles.", pt: "Diga onde você trabalha.", zh: "说说你在哪里工作。"),
                     accepted: ["Trabajo en \(workplace).", "Yo trabajo en \(workplace)."],
                     tiles: ["Trabajo", "en", workplace, "Vivo", "aquí"],
-                    gloss: Gloss(en: "I work \(profile.workplace.gloss.en).", it: "Lavoro \(profile.workplace.gloss.it).", uk: "Я працюю \(profile.workplace.gloss.uk).", de: "Ich arbeite \(profile.workplace.gloss.text(.german)).", fr: "Je travaille \(profile.workplace.gloss.text(.french)).", pt: "Eu trabalho \(profile.workplace.gloss.text(.portuguese))."),
-                    hint: Gloss(en: "Action, then en, then the place.", it: "Azione, poi en, poi il luogo.", uk: "Дія, потім en, потім місце.", de: "Erst die Handlung, dann en, dann der Ort.", fr: "L'action, puis en, puis le lieu.", pt: "Ação, depois en, depois o lugar."),
+                    gloss: Gloss(en: "I work \(profile.workplace.gloss.en).", it: "Lavoro \(profile.workplace.gloss.it).", uk: "Я працюю \(profile.workplace.gloss.uk).", de: "Ich arbeite \(profile.workplace.gloss.text(.german)).", fr: "Je travaille \(profile.workplace.gloss.text(.french)).", pt: "Eu trabalho \(profile.workplace.gloss.text(.portuguese)).", zh: "我\(profile.workplace.gloss.text(.chinese))工作。"),
+                    hint: Gloss(en: "Action, then en, then the place.", it: "Azione, poi en, poi il luogo.", uk: "Дія, потім en, потім місце.", de: "Erst die Handlung, dann en, dann der Ort.", fr: "L'action, puis en, puis le lieu.", pt: "Ação, depois en, depois o lugar.", zh: "先说动作，然后是 en，最后是地点。"),
                     formKeys: [key("trabajar")]),
             builder("u1l2-home", .fire,
-                    intention: Gloss(en: "Say which city you live in.", it: "Di in che città vivi.", uk: "Скажи, в якому місті ти живеш.", de: "Sag, in welcher Stadt du wohnst.", fr: "Dis dans quelle ville tu vis.", pt: "Diga em que cidade você mora."),
+                    intention: Gloss(en: "Say which city you live in.", it: "Di in che città vivi.", uk: "Скажи, в якому місті ти живеш.", de: "Sag, in welcher Stadt du wohnst.", fr: "Dis dans quelle ville tu vis.", pt: "Diga em que cidade você mora.", zh: "说说你住在哪个城市。"),
                     accepted: ["Vivo en \(profile.city).", "Yo vivo en \(profile.city)."],
                     tiles: ["Vivo", "en", profile.city, "Trabajo", "aquí"],
-                    gloss: Gloss(en: "I live in \(profile.city).", it: "Vivo a \(profile.city).", uk: "Я живу в місті \(profile.city).", de: "Ich wohne in \(profile.city).", fr: "J'habite à \(profile.city).", pt: "Eu moro em \(profile.city)."),
-                    hint: Gloss(en: "viv- + -o, then en and your city.", it: "viv- + -o, poi en e la tua città.", uk: "viv- + -o, потім en і твоє місто.", de: "viv- + -o, dann en und deine Stadt.", fr: "viv- + -o, puis en et ta ville.", pt: "viv- + -o, depois en e a sua cidade."),
+                    gloss: Gloss(en: "I live in \(profile.city).", it: "Vivo a \(profile.city).", uk: "Я живу в місті \(profile.city).", de: "Ich wohne in \(profile.city).", fr: "J'habite à \(profile.city).", pt: "Eu moro em \(profile.city).", zh: "我住在\(profile.city)。"),
+                    hint: Gloss(en: "viv- + -o, then en and your city.", it: "viv- + -o, poi en e la tua città.", uk: "viv- + -o, потім en і твоє місто.", de: "viv- + -o, dann en und deine Stadt.", fr: "viv- + -o, puis en et ta ville.", pt: "viv- + -o, depois en e a sua cidade.", zh: "viv- + -o，然后是 en 和你的城市。"),
                     formKeys: [key("vivir")]),
 
             explain("u1l2-y", FrameCard(
@@ -237,18 +242,20 @@ enum Unit1 {
                             uk: "y (і) з'єднує два речення в одне. Це твій перший сполучник.",
                             de: "y (und) verbindet zwei Sätze zu einem. Das ist dein erstes Bindewort.",
                             fr: "y (et) relie deux phrases en une. C'est ton premier connecteur.",
-                            pt: "y (e) une duas frases em uma. É o seu primeiro conector."),
+                            pt: "y (e) une duas frases em uma. É o seu primeiro conector.",
+                            zh: "y（和）可以把两个句子连成一句。这是你学到的第一个连接词。"),
                 examples: [
-                    Example(es: "Como mucho y bebo café.", gloss: Gloss(en: "I eat a lot and drink coffee.", it: "Mangio molto e bevo caffè.", uk: "Я багато їм і п'ю каву.", de: "Ich esse viel und trinke Kaffee.", fr: "Je mange beaucoup et je bois du café.", pt: "Eu como muito e bebo café.")),
+                    Example(es: "Como mucho y bebo café.", gloss: Gloss(en: "I eat a lot and drink coffee.", it: "Mangio molto e bevo caffè.", uk: "Я багато їм і п'ю каву.", de: "Ich esse viel und trinke Kaffee.", fr: "Je mange beaucoup et je bois du café.", pt: "Eu como muito e bebo café.", zh: "我吃很多，还喝咖啡。")),
                     Example(es: "Hablo \(native) y un poco de español.", gloss: Gloss(en: "I speak \(profile.nativeLanguage.spokenName.en) and a little Spanish.",
                                                                                       it: "Parlo \(profile.nativeLanguage.spokenName.it) e un po' di spagnolo.",
                                                                                       uk: "Я розмовляю \(profile.nativeLanguage.spokenName.uk) і трохи іспанською.",
                                                                                       de: "Ich spreche \(profile.nativeLanguage.spokenName.text(.german)) und ein bisschen Spanisch.",
                                                                                       fr: "Je parle \(profile.nativeLanguage.spokenName.text(.french)) et un peu d'espagnol.",
-                                                                                      pt: "Eu falo \(profile.nativeLanguage.spokenName.text(.portuguese)) e um pouco de espanhol.")),
+                                                                                      pt: "Eu falo \(profile.nativeLanguage.spokenName.text(.portuguese)) e um pouco de espanhol.",
+                                                                                      zh: "我说\(profile.nativeLanguage.spokenName.text(.chinese))，也会说一点西班牙语。")),
                 ])),
             builder("u1l2-language", .fire,
-                    intention: Gloss(en: "Say which language you speak, and that you speak a little Spanish.", it: "Di che lingua parli, e che parli un po' di spagnolo.", uk: "Скажи, якою мовою ти розмовляєш і що трохи розмовляєш іспанською.", de: "Sag, welche Sprache du sprichst und dass du ein bisschen Spanisch sprichst.", fr: "Dis quelle langue tu parles, et que tu parles un peu d'espagnol.", pt: "Diga que idioma você fala e que fala um pouco de espanhol."),
+                    intention: Gloss(en: "Say which language you speak, and that you speak a little Spanish.", it: "Di che lingua parli, e che parli un po' di spagnolo.", uk: "Скажи, якою мовою ти розмовляєш і що трохи розмовляєш іспанською.", de: "Sag, welche Sprache du sprichst und dass du ein bisschen Spanisch sprichst.", fr: "Dis quelle langue tu parles, et que tu parles un peu d'espagnol.", pt: "Diga que idioma você fala e que fala um pouco de espanhol.", zh: "说说你讲什么语言，以及你会说一点西班牙语。"),
                     accepted: ["Hablo \(native) y un poco de español."],
                     tiles: ["Hablo", native, "y", "un poco de", "español", "Como"],
                     gloss: Gloss(en: "I speak \(profile.nativeLanguage.spokenName.en) and a little Spanish.",
@@ -256,15 +263,16 @@ enum Unit1 {
                                  uk: "Я розмовляю \(profile.nativeLanguage.spokenName.uk) і трохи іспанською.",
                                  de: "Ich spreche \(profile.nativeLanguage.spokenName.text(.german)) und ein bisschen Spanisch.",
                                  fr: "Je parle \(profile.nativeLanguage.spokenName.text(.french)) et un peu d'espagnol.",
-                                 pt: "Eu falo \(profile.nativeLanguage.spokenName.text(.portuguese)) e um pouco de espanhol."),
-                    hint: Gloss(en: "y joins the two parts: Hablo ... y un poco de español.", it: "y unisce le due parti: Hablo ... y un poco de español.", uk: "y з'єднує дві частини: Hablo ... y un poco de español.", de: "y verbindet die beiden Teile: Hablo ... y un poco de español.", fr: "y relie les deux parties : Hablo ... y un poco de español.", pt: "y une as duas partes: Hablo ... y un poco de español."),
+                                 pt: "Eu falo \(profile.nativeLanguage.spokenName.text(.portuguese)) e um pouco de espanhol.",
+                                 zh: "我说\(profile.nativeLanguage.spokenName.text(.chinese))，也会说一点西班牙语。"),
+                    hint: Gloss(en: "y joins the two parts: Hablo ... y un poco de español.", it: "y unisce le due parti: Hablo ... y un poco de español.", uk: "y з'єднує дві частини: Hablo ... y un poco de español.", de: "y verbindet die beiden Teile: Hablo ... y un poco de español.", fr: "y relie les deux parties : Hablo ... y un poco de español.", pt: "y une as duas partes: Hablo ... y un poco de español.", zh: "用 y 连接两部分：Hablo ... y un poco de español."),
                     formKeys: [key("hablar")]),
             builder("u1l2-name", .fire,
-                    intention: Gloss(en: "Say your name.", it: "Di come ti chiami.", uk: "Скажи, як тебе звати.", de: "Sag, wie du heißt.", fr: "Dis ton prénom.", pt: "Diga seu nome."),
+                    intention: Gloss(en: "Say your name.", it: "Di come ti chiami.", uk: "Скажи, як тебе звати.", de: "Sag, wie du heißt.", fr: "Dis ton prénom.", pt: "Diga seu nome.", zh: "说出你的名字。"),
                     accepted: ["Me llamo \(profile.name)."],
                     tiles: ["Me llamo", profile.name, "Vivo"],
-                    gloss: Gloss(en: "My name is \(profile.name).", it: "Mi chiamo \(profile.name).", uk: "Мене звати \(profile.name).", de: "Ich heiße \(profile.name).", fr: "Je m'appelle \(profile.name).", pt: "Meu nome é \(profile.name)."),
-                    hint: Gloss(en: "Start with me llamo.", it: "Inizia con me llamo.", uk: "Почни з me llamo.", de: "Beginne mit me llamo.", fr: "Commence par me llamo.", pt: "Comece com me llamo."),
+                    gloss: Gloss(en: "My name is \(profile.name).", it: "Mi chiamo \(profile.name).", uk: "Мене звати \(profile.name).", de: "Ich heiße \(profile.name).", fr: "Je m'appelle \(profile.name).", pt: "Meu nome é \(profile.name).", zh: "我叫\(profile.name)。"),
+                    hint: Gloss(en: "Start with me llamo.", it: "Inizia con me llamo.", uk: "Почни з me llamo.", de: "Beginne mit me llamo.", fr: "Commence par me llamo.", pt: "Comece com me llamo.", zh: "以 me llamo 开头。"),
                     formKeys: []),
 
             LessonItem(
@@ -276,7 +284,8 @@ enum Unit1 {
                                        uk: "Тепер усе разом: як тебе звати, де ти живеш і де працюєш, з'єднай за допомогою y.",
                                        de: "Jetzt alles zusammen: dein Name, wo du wohnst und wo du arbeitest, verbunden mit y.",
                                        fr: "Maintenant, tout ensemble : ton prénom, où tu vis et où tu travailles, reliés par y.",
-                                       pt: "Agora tudo junto: seu nome, onde você mora e onde trabalha, unidos com y."),
+                                       pt: "Agora tudo junto: seu nome, onde você mora e onde trabalha, unidos com y.",
+                                       zh: "现在连起来说：你的名字、你住在哪里、你在哪里工作，用 y 连接。"),
                     requiredChunks: ["me llamo \(profile.name)", "vivo en \(profile.city)", "trabajo en \(workplace)", "y"],
                     model: Example(
                         es: "Me llamo \(profile.name), vivo en \(profile.city) y trabajo en \(workplace).",
@@ -285,7 +294,8 @@ enum Unit1 {
                                      uk: "Мене звати \(profile.name), я живу в місті \(profile.city) і працюю \(profile.workplace.gloss.uk).",
                                      de: "Ich heiße \(profile.name), ich wohne in \(profile.city) und ich arbeite \(profile.workplace.gloss.text(.german)).",
                                      fr: "Je m'appelle \(profile.name), j'habite à \(profile.city) et je travaille \(profile.workplace.gloss.text(.french)).",
-                                     pt: "Meu nome é \(profile.name), eu moro em \(profile.city) e trabalho \(profile.workplace.gloss.text(.portuguese)).")
+                                     pt: "Meu nome é \(profile.name), eu moro em \(profile.city) e trabalho \(profile.workplace.gloss.text(.portuguese)).",
+                                     zh: "我叫\(profile.name)，住在\(profile.city)，\(profile.workplace.gloss.text(.chinese))工作。")
                     )
                 )),
                 heartsAtRisk: true,
@@ -296,8 +306,8 @@ enum Unit1 {
         return Lesson(
             id: "u1l2",
             title: "Me presento",
-            titleGloss: Gloss(en: "I introduce myself", it: "Mi presento", uk: "Я представляюся", de: "Ich stelle mich vor", fr: "Je me présente", pt: "Eu me apresento"),
-            goal: Gloss(en: "Say 3 true sentences about yourself.", it: "Di 3 frasi vere su di te.", uk: "Скажи 3 правдиві речення про себе.", de: "Sag 3 wahre Sätze über dich.", fr: "Dis 3 phrases vraies sur toi.", pt: "Diga 3 frases verdadeiras sobre você."),
+            titleGloss: Gloss(en: "I introduce myself", it: "Mi presento", uk: "Я представляюся", de: "Ich stelle mich vor", fr: "Je me présente", pt: "Eu me apresento", zh: "自我介绍"),
+            goal: Gloss(en: "Say 3 true sentences about yourself.", it: "Di 3 frasi vere su di te.", uk: "Скажи 3 правдиві речення про себе.", de: "Sag 3 wahre Sätze über dich.", fr: "Dis 3 phrases vraies sur toi.", pt: "Diga 3 frases verdadeiras sobre você.", zh: "说 3 句关于你自己的真实句子。"),
             mode: .lesson,
             items: items,
             target: Example(
@@ -307,7 +317,8 @@ enum Unit1 {
                              uk: "Мене звати \(profile.name), я живу в місті \(profile.city) і працюю \(profile.workplace.gloss.uk).",
                              de: "Ich heiße \(profile.name), ich wohne in \(profile.city) und ich arbeite \(profile.workplace.gloss.text(.german)).",
                              fr: "Je m'appelle \(profile.name), j'habite à \(profile.city) et je travaille \(profile.workplace.gloss.text(.french)).",
-                             pt: "Meu nome é \(profile.name), eu moro em \(profile.city) e trabalho \(profile.workplace.gloss.text(.portuguese)).")
+                             pt: "Meu nome é \(profile.name), eu moro em \(profile.city) e trabalho \(profile.workplace.gloss.text(.portuguese)).",
+                             zh: "我叫\(profile.name)，住在\(profile.city)，\(profile.workplace.gloss.text(.chinese))工作。")
             )
         )
     }
@@ -330,22 +341,22 @@ enum Unit1 {
             items.append(gap("u1test-gap-\(index)", .test, verb.lemma, persons.randomElement(using: &rng)!))
         }
         let questions: [(String, [String], Gloss, Gloss)] = [
-            ("¿Bebes café?", ["Bebes", "café", "Bebo", "Bebe"], Gloss(en: "Ask someone if they drink coffee.", it: "Chiedi a qualcuno se beve caffè.", uk: "Запитай когось, чи п'є він каву.", de: "Frag jemanden, ob er Kaffee trinkt.", fr: "Demande à quelqu'un s'il boit du café.", pt: "Pergunte a alguém se a pessoa bebe café."), Gloss(en: "Do you drink coffee?", it: "Bevi caffè?", uk: "Ти п'єш каву?", de: "Trinkst du Kaffee?", fr: "Tu bois du café ?", pt: "Você bebe café?")),
-            ("¿Hablas español?", ["Hablas", "español", "Hablo", "Habla"], Gloss(en: "Ask someone if they speak Spanish.", it: "Chiedi a qualcuno se parla spagnolo.", uk: "Запитай когось, чи розмовляє він іспанською.", de: "Frag jemanden, ob er Spanisch spricht.", fr: "Demande à quelqu'un s'il parle espagnol.", pt: "Pergunte a alguém se a pessoa fala espanhol."), Gloss(en: "Do you speak Spanish?", it: "Parli spagnolo?", uk: "Ти розмовляєш іспанською?", de: "Sprichst du Spanisch?", fr: "Tu parles espagnol ?", pt: "Você fala espanhol?")),
-            ("¿Vives aquí?", ["Vives", "aquí", "Vivo", "Vive"], Gloss(en: "Ask someone if they live here.", it: "Chiedi a qualcuno se vive qui.", uk: "Запитай когось, чи живе він тут.", de: "Frag jemanden, ob er hier wohnt.", fr: "Demande à quelqu'un s'il vit ici.", pt: "Pergunte a alguém se a pessoa mora aqui."), Gloss(en: "Do you live here?", it: "Vivi qui?", uk: "Ти живеш тут?", de: "Wohnst du hier?", fr: "Tu vis ici ?", pt: "Você mora aqui?")),
+            ("¿Bebes café?", ["Bebes", "café", "Bebo", "Bebe"], Gloss(en: "Ask someone if they drink coffee.", it: "Chiedi a qualcuno se beve caffè.", uk: "Запитай когось, чи п'є він каву.", de: "Frag jemanden, ob er Kaffee trinkt.", fr: "Demande à quelqu'un s'il boit du café.", pt: "Pergunte a alguém se a pessoa bebe café.", zh: "问别人喝不喝咖啡。"), Gloss(en: "Do you drink coffee?", it: "Bevi caffè?", uk: "Ти п'єш каву?", de: "Trinkst du Kaffee?", fr: "Tu bois du café ?", pt: "Você bebe café?", zh: "你喝咖啡吗？")),
+            ("¿Hablas español?", ["Hablas", "español", "Hablo", "Habla"], Gloss(en: "Ask someone if they speak Spanish.", it: "Chiedi a qualcuno se parla spagnolo.", uk: "Запитай когось, чи розмовляє він іспанською.", de: "Frag jemanden, ob er Spanisch spricht.", fr: "Demande à quelqu'un s'il parle espagnol.", pt: "Pergunte a alguém se a pessoa fala espanhol.", zh: "问别人会不会说西班牙语。"), Gloss(en: "Do you speak Spanish?", it: "Parli spagnolo?", uk: "Ти розмовляєш іспанською?", de: "Sprichst du Spanisch?", fr: "Tu parles espagnol ?", pt: "Você fala espanhol?", zh: "你会说西班牙语吗？")),
+            ("¿Vives aquí?", ["Vives", "aquí", "Vivo", "Vive"], Gloss(en: "Ask someone if they live here.", it: "Chiedi a qualcuno se vive qui.", uk: "Запитай когось, чи живе він тут.", de: "Frag jemanden, ob er hier wohnt.", fr: "Demande à quelqu'un s'il vit ici.", pt: "Pergunte a alguém se a pessoa mora aqui.", zh: "问别人是不是住在这里。"), Gloss(en: "Do you live here?", it: "Vivi qui?", uk: "Ти живеш тут?", de: "Wohnst du hier?", fr: "Tu vis ici ?", pt: "Você mora aqui?", zh: "你住在这里吗？")),
         ]
         let question = questions.randomElement(using: &rng)!
         items.append(builder("u1test-builder", .test, intention: question.2,
                              accepted: [question.0, "¿Tú " + question.0.dropFirst().lowercased()],
                              tiles: question.1, gloss: question.3,
-                             hint: Gloss(en: "Talking to someone: -as or -es.", it: "Parli con qualcuno: -as o -es.", uk: "Звертаєшся до когось: -as або -es.", de: "Du sprichst mit jemandem: -as oder -es.", fr: "Tu parles à quelqu'un : -as ou -es.", pt: "Falando com alguém: -as ou -es."),
+                             hint: Gloss(en: "Talking to someone: -as or -es.", it: "Parli con qualcuno: -as o -es.", uk: "Звертаєшся до когось: -as або -es.", de: "Du sprichst mit jemandem: -as oder -es.", fr: "Tu parles à quelqu'un : -as ou -es.", pt: "Falando com alguém: -as ou -es.", zh: "跟别人说话：-as 或 -es。"),
                              formKeys: []))
 
         return Lesson(
             id: "u1test",
             title: "Test: El presente",
-            titleGloss: Gloss(en: "Unit 1 test", it: "Test dell'unità 1", uk: "Тест розділу 1", de: "Test zu Einheit 1", fr: "Test de l'unité 1", pt: "Teste da unidade 1"),
-            goal: Gloss(en: "Get 8 out of 10 right to skip the unit.", it: "Rispondi bene a 8 domande su 10 per saltare l'unità.", uk: "Дай 8 правильних відповідей із 10, щоб пропустити розділ.", de: "Beantworte 8 von 10 Fragen richtig, um die Einheit zu überspringen.", fr: "Réponds juste à 8 questions sur 10 pour passer l'unité.", pt: "Acerte 8 de 10 para pular a unidade."),
+            titleGloss: Gloss(en: "Unit 1 test", it: "Test dell'unità 1", uk: "Тест розділу 1", de: "Test zu Einheit 1", fr: "Test de l'unité 1", pt: "Teste da unidade 1", zh: "第 1 单元测试"),
+            goal: Gloss(en: "Get 8 out of 10 right to skip the unit.", it: "Rispondi bene a 8 domande su 10 per saltare l'unità.", uk: "Дай 8 правильних відповідей із 10, щоб пропустити розділ.", de: "Beantworte 8 von 10 Fragen richtig, um die Einheit zu überspringen.", fr: "Réponds juste à 8 questions sur 10 pour passer l'unité.", pt: "Acerte 8 de 10 para pular a unidade.", zh: "10 题答对 8 题即可跳过本单元。"),
             mode: .unitTest(unitId: "u1"),
             items: items.shuffled(using: &rng)
         )
@@ -378,8 +389,8 @@ enum Unit1 {
         return Lesson(
             id: "review",
             title: "Repaso",
-            titleGloss: Gloss(en: "Review", it: "Ripasso", uk: "Повторення", de: "Wiederholung", fr: "Révision", pt: "Revisão"),
-            goal: Gloss(en: "Fix your mistakes and win your hearts back.", it: "Correggi i tuoi errori e recupera i cuori.", uk: "Виправ свої помилки й поверни сердечка.", de: "Korrigiere deine Fehler und hol dir deine Herzen zurück.", fr: "Corrige tes erreurs et récupère tes cœurs.", pt: "Corrija seus erros e recupere seus corações."),
+            titleGloss: Gloss(en: "Review", it: "Ripasso", uk: "Повторення", de: "Wiederholung", fr: "Révision", pt: "Revisão", zh: "复习"),
+            goal: Gloss(en: "Fix your mistakes and win your hearts back.", it: "Correggi i tuoi errori e recupera i cuori.", uk: "Виправ свої помилки й поверни сердечка.", de: "Korrigiere deine Fehler und hol dir deine Herzen zurück.", fr: "Corrige tes erreurs et récupère tes cœurs.", pt: "Corrija seus erros e recupere seus corações.", zh: "改正错误，赢回红心。"),
             mode: .review,
             items: items
         )
@@ -495,7 +506,8 @@ enum Unit1 {
                      uk: "Для \(person.label) дієслова на \(family) закінчуються на -\(ending).",
                      de: "Bei \(person.label) enden \(family)-Verben auf -\(ending).",
                      fr: "Avec \(person.label), les verbes en \(family) finissent en -\(ending).",
-                     pt: "Com \(person.label), os verbos em \(family) terminam em -\(ending).")
+                     pt: "Com \(person.label), os verbos em \(family) terminam em -\(ending).",
+                     zh: "用 \(person.label) 时，\(family) 动词以 -\(ending) 结尾。")
     }
 
     /// "ich spreche" + "Spanisch" -> "Ich spreche Spanisch."; nil until both parts are translated.

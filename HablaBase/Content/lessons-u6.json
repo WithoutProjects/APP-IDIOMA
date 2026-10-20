@@ -9,7 +9,8 @@
     "uk": "Запитай і скажи, котра година, і скажи, о котрій ти щось робиш.",
     "de": "Frag nach der Uhrzeit, sag sie und sag, um wie viel Uhr du etwas machst.",
     "fr": "Demander et dire l'heure, et dire à quelle heure tu fais les choses.",
-    "pt": "Perguntar e dizer as horas, e dizer a que horas você faz as coisas."
+    "pt": "Perguntar e dizer as horas, e dizer a que horas você faz as coisas.",
+    "zh": "问时间、说时间，并说出你几点做什么。"
    },
    "target": {
     "es": "¿A qué hora trabajas? Trabajo a las nueve por la mañana.",
@@ -18,7 +19,8 @@
     "uk": "О котрій ти працюєш? Я працюю о дев'ятій ранку.",
     "de": "Um wie viel Uhr arbeitest du? Ich arbeite um neun Uhr morgens.",
     "fr": "À quelle heure tu travailles ? Je travaille à neuf heures du matin.",
-    "pt": "A que horas você trabalha? Eu trabalho às nove da manhã."
+    "pt": "A que horas você trabalha? Eu trabalho às nove da manhã.",
+    "zh": "你几点上班？我早上九点上班。"
    },
    "items": [
     {
@@ -32,6 +34,7 @@
        "de": "wie spät ist es?",
        "fr": "quelle heure est-il ?",
        "pt": "que horas são?",
+       "zh": "现在几点？",
        "kind": "chunk"
       },
       {
@@ -42,6 +45,7 @@
        "de": "es ist ein Uhr",
        "fr": "il est une heure",
        "pt": "é uma hora",
+       "zh": "现在一点",
        "kind": "chunk"
       },
       {
@@ -52,6 +56,7 @@
        "de": "es ist ... Uhr",
        "fr": "il est ... heures",
        "pt": "são ... horas",
+       "zh": "现在……点",
        "kind": "chunk"
       },
       {
@@ -62,6 +67,7 @@
        "de": "genau, Punkt",
        "fr": "pile",
        "pt": "em ponto",
+       "zh": "整点，正好",
        "kind": "chunk"
       }
      ]
@@ -77,6 +83,7 @@
        "de": "und halb (las dos y media = halb drei)",
        "fr": "et demie",
        "pt": "e meia",
+       "zh": "……点半",
        "kind": "chunk"
       },
       {
@@ -87,6 +94,7 @@
        "de": "Viertel nach",
        "fr": "et quart",
        "pt": "e quinze",
+       "zh": "……点一刻",
        "kind": "chunk"
       },
       {
@@ -97,6 +105,7 @@
        "de": "Viertel vor",
        "fr": "moins le quart",
        "pt": "quinze para",
+       "zh": "差一刻",
        "kind": "chunk"
       }
      ]
@@ -119,7 +128,8 @@
       "uk": "Про першу годину кажи es la una. Про всі інші години: son las + число.",
       "de": "Für ein Uhr sagst du es la una. Für alle anderen Stunden: son las + die Zahl.",
       "fr": "Pour une heure, dis es la una. Pour toutes les autres heures : son las + le nombre.",
-      "pt": "Para uma hora, diga es la una. Para todas as outras horas: son las + o número, assim como em português: é uma hora, são duas horas."
+      "pt": "Para uma hora, diga es la una. Para todas as outras horas: son las + o número, assim como em português: é uma hora, são duas horas.",
+      "zh": "一点说 es la una。其他整点都说：son las + 数字，例如 son las dos（两点）。"
      },
      "examples": [
       {
@@ -129,7 +139,8 @@
        "uk": "Котра година? Перша.",
        "de": "Wie spät ist es? Es ist ein Uhr.",
        "fr": "Quelle heure est-il ? Il est une heure.",
-       "pt": "Que horas são? É uma hora."
+       "pt": "Que horas são? É uma hora.",
+       "zh": "现在几点？现在一点。"
       },
       {
        "es": "Son las dos.",
@@ -138,7 +149,8 @@
        "uk": "Друга година.",
        "de": "Es ist zwei Uhr.",
        "fr": "Il est deux heures.",
-       "pt": "São duas horas."
+       "pt": "São duas horas.",
+       "zh": "现在两点。"
       },
       {
        "es": "Son las diez en punto.",
@@ -147,7 +159,8 @@
        "uk": "Рівно десята.",
        "de": "Es ist Punkt zehn Uhr.",
        "fr": "Il est dix heures pile.",
-       "pt": "São dez horas em ponto."
+       "pt": "São dez horas em ponto.",
+       "zh": "现在正好十点。"
       }
      ]
     },
@@ -167,13 +180,15 @@
      "de": "Es ist vier Uhr.",
      "fr": "Il est quatre heures.",
      "pt": "São quatro horas.",
+     "zh": "现在四点。",
      "hint": {
       "en": "Every hour except one: son las.",
       "it": "Tutte le ore tranne l'una: son las.",
       "uk": "Усі години, крім першої: son las.",
       "de": "Jede Stunde außer ein Uhr: son las.",
       "fr": "Toutes les heures sauf une heure : son las.",
-      "pt": "Todas as horas, menos uma hora: son las."
+      "pt": "Todas as horas, menos uma hora: son las.",
+      "zh": "除了一点，其他钟点都用：son las。"
      }
     },
     {
@@ -191,13 +206,15 @@
      "de": "Es ist sieben Uhr.",
      "fr": "Il est sept heures.",
      "pt": "São sete horas.",
+     "zh": "现在七点。",
      "hint": {
       "en": "Write the number as a word: siete.",
       "it": "Scrivi il numero in lettere: siete.",
       "uk": "Напиши число словом: siete.",
       "de": "Schreib die Zahl als Wort: siete.",
       "fr": "Écris le nombre en lettres : siete.",
-      "pt": "Escreva o número por extenso: siete."
+      "pt": "Escreva o número por extenso: siete.",
+      "zh": "数字要用单词写出来：siete。"
      }
     },
     {
@@ -218,7 +235,8 @@
       "uk": "Після години додай y cuarto (:15) або y media (:30). Для :45 візьми наступну годину і скажи menos cuarto.",
       "de": "Nach der Stunde kommt y cuarto (:15) oder y media (:30). Für :45 nimmst du die nächste Stunde und sagst menos cuarto. Achtung: las dos y media ist halb drei.",
       "fr": "Après l'heure, ajoute y cuarto (:15) ou y media (:30). Pour :45, prends l'heure suivante et dis menos cuarto.",
-      "pt": "Depois da hora, acrescente y cuarto (:15) ou y media (:30). Para :45, pegue a hora seguinte e diga menos cuarto."
+      "pt": "Depois da hora, acrescente y cuarto (:15) ou y media (:30). Para :45, pegue a hora seguinte e diga menos cuarto.",
+      "zh": "在钟点后面加 y cuarto（:15）或 y media（:30）。:45 要用下一个钟点，再说 menos cuarto（差一刻）。"
      },
      "examples": [
       {
@@ -228,7 +246,8 @@
        "uk": "Пів на третю.",
        "de": "Es ist halb drei.",
        "fr": "Il est deux heures et demie.",
-       "pt": "São duas e meia."
+       "pt": "São duas e meia.",
+       "zh": "现在两点半。"
       },
       {
        "es": "Es la una y cuarto.",
@@ -237,7 +256,8 @@
        "uk": "Чверть на другу.",
        "de": "Es ist Viertel nach eins.",
        "fr": "Il est une heure et quart.",
-       "pt": "É uma e quinze."
+       "pt": "É uma e quinze.",
+       "zh": "现在一点一刻。"
       },
       {
        "es": "Son las tres menos cuarto.",
@@ -246,7 +266,8 @@
        "uk": "За чверть третя.",
        "de": "Es ist Viertel vor drei.",
        "fr": "Il est trois heures moins le quart.",
-       "pt": "São quinze para as três."
+       "pt": "São quinze para as três.",
+       "zh": "现在差一刻三点。"
       }
      ]
     },
@@ -267,13 +288,15 @@
      "de": "Es ist halb neun.",
      "fr": "Il est huit heures et demie.",
      "pt": "São oito e meia.",
+     "zh": "现在八点半。",
      "hint": {
       "en": ":30 is y media.",
       "it": ":30 è y media.",
       "uk": ":30 — це y media.",
       "de": ":30 ist y media.",
       "fr": ":30, c'est y media.",
-      "pt": ":30 é y media."
+      "pt": ":30 é y media.",
+      "zh": ":30 就是 y media。"
      }
     },
     {
@@ -285,7 +308,8 @@
       "uk": "Зараз 6:45. Скажи, котра година.",
       "de": "Es ist 6:45 Uhr. Sag die Uhrzeit.",
       "fr": "Il est 6 h 45. Dis l'heure.",
-      "pt": "São 6:45. Diga as horas."
+      "pt": "São 6:45. Diga as horas.",
+      "zh": "现在是 6:45。说出时间。"
      },
      "accepted": [
       "Son las siete menos cuarto."
@@ -304,13 +328,15 @@
      "de": "Es ist Viertel vor sieben.",
      "fr": "Il est sept heures moins le quart.",
      "pt": "São quinze para as sete.",
+     "zh": "现在差一刻七点。",
      "hint": {
       "en": ":45 = the next hour (siete) menos cuarto.",
       "it": ":45 = l'ora dopo (siete) menos cuarto.",
       "uk": ":45 = наступна година (siete) menos cuarto.",
       "de": ":45 = die nächste Stunde (siete) menos cuarto.",
       "fr": ":45 = l'heure suivante (siete) menos cuarto.",
-      "pt": ":45 = a hora seguinte (siete) menos cuarto."
+      "pt": ":45 = a hora seguinte (siete) menos cuarto.",
+      "zh": ":45 = 下一个钟点（siete）menos cuarto。"
      }
     },
     {
@@ -324,6 +350,7 @@
        "de": "um wie viel Uhr?",
        "fr": "à quelle heure ?",
        "pt": "a que horas?",
+       "zh": "几点？",
        "kind": "chunk"
       },
       {
@@ -334,6 +361,7 @@
        "de": "um ... Uhr",
        "fr": "à ... heures",
        "pt": "às ... horas",
+       "zh": "在……点",
        "kind": "chunk"
       },
       {
@@ -344,6 +372,7 @@
        "de": "morgens, am Vormittag",
        "fr": "le matin",
        "pt": "de manhã",
+       "zh": "上午，早上",
        "kind": "time"
       },
       {
@@ -354,6 +383,7 @@
        "de": "nachmittags, am Abend",
        "fr": "l'après-midi, le soir",
        "pt": "à tarde, no começo da noite",
+       "zh": "下午，傍晚",
        "kind": "time"
       },
       {
@@ -364,6 +394,7 @@
        "de": "abends, nachts",
        "fr": "le soir, la nuit",
        "pt": "à noite",
+       "zh": "晚上，夜里",
        "kind": "time"
       }
      ]
@@ -390,7 +421,8 @@
       "uk": "Щоб сказати коли, вживай a las + година (a la una — о першій). Додай por la mañana, por la tarde або por la noche.",
       "de": "Um zu sagen, wann, nimmst du a las + Uhrzeit (a la una für ein Uhr). Dazu kommt por la mañana, por la tarde oder por la noche.",
       "fr": "Pour dire quand, utilise a las + l'heure (a la una pour une heure). Ajoute por la mañana, por la tarde ou por la noche.",
-      "pt": "Para dizer quando, use a las + a hora (a la una para uma hora). Acrescente por la mañana, por la tarde ou por la noche."
+      "pt": "Para dizer quando, use a las + a hora (a la una para uma hora). Acrescente por la mañana, por la tarde ou por la noche.",
+      "zh": "说在几点做某事，用 a las + 钟点（一点用 a la una）。可以再加上 por la mañana、por la tarde 或 por la noche。"
      },
      "examples": [
       {
@@ -400,7 +432,8 @@
        "uk": "О котрій ти працюєш? О дев'ятій.",
        "de": "Um wie viel Uhr arbeitest du? Um neun.",
        "fr": "À quelle heure tu travailles ? À neuf heures.",
-       "pt": "A que horas você trabalha? Às nove."
+       "pt": "A que horas você trabalha? Às nove.",
+       "zh": "你几点上班？九点。"
       },
       {
        "es": "Como a la una.",
@@ -409,7 +442,8 @@
        "uk": "Я обідаю о першій.",
        "de": "Ich esse um eins.",
        "fr": "Je mange à une heure.",
-       "pt": "Eu como à uma."
+       "pt": "Eu como à uma.",
+       "zh": "我一点吃饭。"
       },
       {
        "es": "Estudio a las diez por la noche.",
@@ -418,7 +452,8 @@
        "uk": "Я вчуся о десятій вечора.",
        "de": "Ich lerne um zehn Uhr abends.",
        "fr": "J'étudie à dix heures du soir.",
-       "pt": "Eu estudo às dez da noite."
+       "pt": "Eu estudo às dez da noite.",
+       "zh": "我晚上十点学习。"
       }
      ],
      "teaches": [
@@ -429,7 +464,8 @@
        "uk": "о першій",
        "de": "um ein Uhr",
        "fr": "à une heure",
-       "pt": "à uma hora"
+       "pt": "à uma hora",
+       "zh": "在一点"
       }
      ]
     },
@@ -450,13 +486,15 @@
      "de": "Ich esse um eins.",
      "fr": "Je mange à une heure.",
      "pt": "Eu como à uma.",
+     "zh": "我一点吃饭。",
      "hint": {
       "en": "At one o'clock: a la una (singular).",
       "it": "All'una: a la una (singolare).",
       "uk": "О першій: a la una (однина).",
       "de": "Um ein Uhr: a la una (Singular).",
       "fr": "À une heure : a la una (singulier).",
-      "pt": "À uma hora: a la una (singular)."
+      "pt": "À uma hora: a la una (singular).",
+      "zh": "在一点：a la una（单数）。"
      }
     },
     {
@@ -468,7 +506,8 @@
       "uk": "Скажи, що ти працюєш о восьмій ранку.",
       "de": "Sag, dass du um acht Uhr morgens arbeitest.",
       "fr": "Dis que tu travailles à huit heures du matin.",
-      "pt": "Diga que você trabalha às oito da manhã."
+      "pt": "Diga que você trabalha às oito da manhã.",
+      "zh": "说你早上八点上班。"
      },
      "accepted": [
       "Trabajo a las ocho por la mañana.",
@@ -488,13 +527,15 @@
      "de": "Ich arbeite um acht Uhr morgens.",
      "fr": "Je travaille à huit heures du matin.",
      "pt": "Eu trabalho às oito da manhã.",
+     "zh": "我早上八点上班。",
      "hint": {
       "en": "When: a las + hour, then por la mañana.",
       "it": "Quando: a las + ora, poi por la mañana.",
       "uk": "Коли: a las + година, потім por la mañana.",
       "de": "Wann: a las + Uhrzeit, dann por la mañana.",
       "fr": "Quand : a las + l'heure, puis por la mañana.",
-      "pt": "Quando: a las + a hora, depois por la mañana."
+      "pt": "Quando: a las + a hora, depois por la mañana.",
+      "zh": "什么时候：a las + 钟点，再加 por la mañana。"
      }
     },
     {
@@ -512,13 +553,15 @@
      "de": "Ich esse um neun Uhr abends zu Abend.",
      "fr": "Je dîne à neuf heures du soir.",
      "pt": "Eu janto às nove da noite.",
+     "zh": "我晚上九点吃晚饭。",
      "hint": {
       "en": "Write the number as a word: nueve.",
       "it": "Scrivi il numero in lettere: nueve.",
       "uk": "Напиши число словом: nueve.",
       "de": "Schreib die Zahl als Wort: nueve.",
       "fr": "Écris le nombre en lettres : nueve.",
-      "pt": "Escreva o número por extenso: nueve."
+      "pt": "Escreva o número por extenso: nueve.",
+      "zh": "数字要用单词写出来：nueve。"
      }
     },
     {
@@ -538,13 +581,15 @@
      "de": "Es ist Viertel nach eins.",
      "fr": "Il est une heure et quart.",
      "pt": "É uma e quinze.",
+     "zh": "现在一点一刻。",
      "hint": {
       "en": ":15 is y cuarto.",
       "it": ":15 è y cuarto.",
       "uk": ":15 — це y cuarto.",
       "de": ":15 ist y cuarto.",
       "fr": ":15, c'est y cuarto.",
-      "pt": ":15 é y cuarto."
+      "pt": ":15 é y cuarto.",
+      "zh": ":15 就是 y cuarto。"
      }
     },
     {
@@ -556,7 +601,8 @@
       "uk": "Запитай друга, о котрій він вечеряє.",
       "de": "Frag einen Freund, um wie viel Uhr er zu Abend isst.",
       "fr": "Demande à un ami à quelle heure il dîne.",
-      "pt": "Pergunte a um amigo a que horas ele janta."
+      "pt": "Pergunte a um amigo a que horas ele janta.",
+      "zh": "问一个朋友几点吃晚饭。"
      },
      "accepted": [
       "¿A qué hora cenas?"
@@ -573,13 +619,15 @@
      "de": "Um wie viel Uhr isst du zu Abend?",
      "fr": "À quelle heure tu dînes ?",
      "pt": "A que horas você janta?",
+     "zh": "你几点吃晚饭？",
      "hint": {
       "en": "Asking when: ¿a qué hora? + the tú form.",
       "it": "Per chiedere quando: ¿a qué hora? + la forma di tú.",
       "uk": "Щоб запитати коли: ¿a qué hora? + форма для tú.",
       "de": "Nach dem Wann fragen: ¿a qué hora? + die tú-Form.",
       "fr": "Pour demander quand : ¿a qué hora? + la forme de tú.",
-      "pt": "Para perguntar quando: ¿a qué hora? + a forma de tú."
+      "pt": "Para perguntar quando: ¿a qué hora? + a forma de tú.",
+      "zh": "问什么时候：¿a qué hora? + tú 的形式。"
      }
     },
     {
@@ -591,7 +639,8 @@
       "uk": "Напиши іспанською: «Я працюю {workUk} о дев'ятій і обідаю о другій.»",
       "de": "Schreib auf Spanisch: «Ich arbeite um neun {workDe} und esse um zwei.»",
       "fr": "Écris en espagnol : «Je travaille {workFr} à neuf heures et je mange à deux heures.»",
-      "pt": "Escreva em espanhol: «Eu trabalho {workPt} às nove e como às duas.»"
+      "pt": "Escreva em espanhol: «Eu trabalho {workPt} às nove e como às duas.»",
+      "zh": "用西班牙语写：«我九点{workZh}上班，两点吃饭。»"
      },
      "accepted": [
       "Trabajo en {work} a las nueve y como a las dos.",
@@ -607,7 +656,8 @@
       "uk": "Я працюю {workUk} о дев'ятій і обідаю о другій.",
       "de": "Ich arbeite um neun {workDe} und esse um zwei.",
       "fr": "Je travaille {workFr} à neuf heures et je mange à deux heures.",
-      "pt": "Eu trabalho {workPt} às nove e como às duas."
+      "pt": "Eu trabalho {workPt} às nove e como às duas.",
+      "zh": "我九点{workZh}上班，两点吃饭。"
      }
     }
    ]
@@ -620,7 +670,8 @@
     "uk": "Розкажи, що ти робиш у кожен день тижня: один раз або щотижня.",
     "de": "Sag, was du an welchem Wochentag machst, einmal oder jede Woche.",
     "fr": "Dire ce que tu fais chaque jour de la semaine, une fois ou toutes les semaines.",
-    "pt": "Dizer o que você faz em cada dia da semana, uma vez ou toda semana."
+    "pt": "Dizer o que você faz em cada dia da semana, uma vez ou toda semana.",
+    "zh": "说说你一周里每天做什么，只做一次还是每周都做。"
    },
    "target": {
     "es": "Los lunes trabajo y los sábados descanso.",
@@ -629,7 +680,8 @@
     "uk": "По понеділках я працюю, а по суботах відпочиваю.",
     "de": "Montags arbeite ich und samstags ruhe ich mich aus.",
     "fr": "Le lundi, je travaille et le samedi, je me repose.",
-    "pt": "Às segundas eu trabalho e aos sábados eu descanso."
+    "pt": "Às segundas eu trabalho e aos sábados eu descanso.",
+    "zh": "我每周一上班，每周六休息。"
    },
    "items": [
     {
@@ -643,6 +695,7 @@
        "de": "Montag",
        "fr": "lundi",
        "pt": "segunda-feira",
+       "zh": "星期一",
        "kind": "time"
       },
       {
@@ -653,6 +706,7 @@
        "de": "Dienstag",
        "fr": "mardi",
        "pt": "terça-feira",
+       "zh": "星期二",
        "kind": "time"
       },
       {
@@ -663,6 +717,7 @@
        "de": "Mittwoch",
        "fr": "mercredi",
        "pt": "quarta-feira",
+       "zh": "星期三",
        "kind": "time"
       },
       {
@@ -673,6 +728,7 @@
        "de": "Donnerstag",
        "fr": "jeudi",
        "pt": "quinta-feira",
+       "zh": "星期四",
        "kind": "time"
       }
      ]
@@ -688,6 +744,7 @@
        "de": "Freitag",
        "fr": "vendredi",
        "pt": "sexta-feira",
+       "zh": "星期五",
        "kind": "time"
       },
       {
@@ -698,6 +755,7 @@
        "de": "Samstag",
        "fr": "samedi",
        "pt": "sábado",
+       "zh": "星期六",
        "kind": "time"
       },
       {
@@ -708,6 +766,7 @@
        "de": "Sonntag",
        "fr": "dimanche",
        "pt": "domingo",
+       "zh": "星期日",
        "kind": "time"
       },
       {
@@ -718,6 +777,7 @@
        "de": "die Woche",
        "fr": "la semaine",
        "pt": "a semana",
+       "zh": "星期，周",
        "kind": "time"
       }
      ]
@@ -740,7 +800,8 @@
       "uk": "Про один конкретний день став перед ним el, без жодного прийменника: el viernes = у п'ятницю. Дні тижня пишуться з малої літери.",
       "de": "Für einen bestimmten Tag setzt du el davor, ohne Wort für 'am': el viernes = am Freitag. Wochentage schreibt man im Spanischen klein.",
       "fr": "Pour un jour précis, mets el devant, sans mot pour «à» : el viernes = vendredi (ce vendredi). Les jours s'écrivent en minuscules.",
-      "pt": "Para um dia específico, coloque el na frente, sem preposição: el viernes = na sexta-feira (nesta sexta). Os dias são escritos com letra minúscula."
+      "pt": "Para um dia específico, coloque el na frente, sem preposição: el viernes = na sexta-feira (nesta sexta). Os dias são escritos com letra minúscula.",
+      "zh": "说某一天，就在前面加 el，不用其他介词：el viernes = （这个）星期五。星期几的单词首字母小写。"
      },
      "examples": [
       {
@@ -750,7 +811,8 @@
        "uk": "У понеділок я працюю.",
        "de": "Am Montag arbeite ich.",
        "fr": "Lundi, je travaille.",
-       "pt": "Na segunda eu trabalho."
+       "pt": "Na segunda eu trabalho.",
+       "zh": "星期一我上班。"
       },
       {
        "es": "Voy al cine el viernes.",
@@ -759,7 +821,8 @@
        "uk": "У п'ятницю я йду в кіно.",
        "de": "Ich gehe am Freitag ins Kino.",
        "fr": "Je vais au cinéma vendredi.",
-       "pt": "Vou ao cinema na sexta."
+       "pt": "Vou ao cinema na sexta.",
+       "zh": "星期五我去看电影。"
       },
       {
        "es": "El sábado como con mi familia.",
@@ -768,7 +831,8 @@
        "uk": "У суботу я обідаю з родиною.",
        "de": "Am Samstag esse ich mit meiner Familie.",
        "fr": "Samedi, je mange avec ma famille.",
-       "pt": "No sábado eu almoço com a minha família."
+       "pt": "No sábado eu almoço com a minha família.",
+       "zh": "星期六我和家人一起吃饭。"
       }
      ],
      "teaches": [
@@ -779,7 +843,8 @@
        "uk": "у понеділок",
        "de": "am Montag",
        "fr": "lundi (ce lundi)",
-       "pt": "na segunda-feira (nesta segunda)"
+       "pt": "na segunda-feira (nesta segunda)",
+       "zh": "（这个）星期一"
       }
      ]
     },
@@ -800,13 +865,15 @@
      "de": "Ich gehe am Dienstag ins Fitnessstudio.",
      "fr": "Je vais à la salle de sport mardi.",
      "pt": "Vou à academia na terça.",
+     "zh": "星期二我去健身房。",
      "hint": {
       "en": "Days take el, never en.",
       "it": "I giorni vogliono el, mai en.",
       "uk": "З днями — el, ніколи не en.",
       "de": "Tage stehen mit el, nie mit en.",
       "fr": "Les jours prennent el, jamais en.",
-      "pt": "Os dias levam el, nunca en."
+      "pt": "Os dias levam el, nunca en.",
+      "zh": "星期几前面用 el，绝不用 en。"
      }
     },
     {
@@ -818,7 +885,8 @@
       "uk": "Скажи, що в суботу ти йдеш на пляж.",
       "de": "Sag, dass du am Samstag an den Strand gehst.",
       "fr": "Dis que tu vas à la plage samedi.",
-      "pt": "Diga que você vai à praia no sábado."
+      "pt": "Diga que você vai à praia no sábado.",
+      "zh": "说你星期六去海滩。"
      },
      "accepted": [
       "El sábado voy a la playa.",
@@ -838,13 +906,15 @@
      "de": "Am Samstag gehe ich an den Strand.",
      "fr": "Samedi, je vais à la plage.",
      "pt": "No sábado vou à praia.",
+     "zh": "星期六我去海滩。",
      "hint": {
       "en": "El sábado, no en: then voy a la playa.",
       "it": "El sábado, senza en: poi voy a la playa.",
       "uk": "El sábado, без en: потім voy a la playa.",
       "de": "El sábado, ohne en: dann voy a la playa.",
       "fr": "El sábado, pas en : puis voy a la playa.",
-      "pt": "El sábado, sem en: depois voy a la playa."
+      "pt": "El sábado, sem en: depois voy a la playa.",
+      "zh": "El sábado，不用 en：然后是 voy a la playa。"
      }
     },
     {
@@ -865,7 +935,8 @@
       "uk": "Про те, що ти робиш щотижня, вживай los: los lunes = по понеділках. Sábado і domingo додають -s; від lunes до viernes не змінюються.",
       "de": "Für etwas, das du jede Woche machst, nimmst du los: los lunes = montags. Sábado und domingo bekommen ein -s; lunes bis viernes bleiben gleich.",
       "fr": "Pour une chose que tu fais toutes les semaines, utilise los : los lunes = le lundi (tous les lundis). Sábado et domingo prennent un -s ; de lunes à viernes, ils ne changent pas.",
-      "pt": "Para algo que você faz toda semana, use los: los lunes = às segundas (toda segunda). Sábado e domingo ganham -s; de lunes a viernes não mudam."
+      "pt": "Para algo que você faz toda semana, use los: los lunes = às segundas (toda segunda). Sábado e domingo ganham -s; de lunes a viernes não mudam.",
+      "zh": "每周都做的事，用 los：los lunes = 每周一。Sábado 和 domingo 要加 -s；lunes 到 viernes 不变。"
      },
      "examples": [
       {
@@ -875,7 +946,8 @@
        "uk": "По понеділках я вчу іспанську.",
        "de": "Montags lerne ich Spanisch.",
        "fr": "Le lundi, j'étudie l'espagnol.",
-       "pt": "Às segundas eu estudo espanhol."
+       "pt": "Às segundas eu estudo espanhol.",
+       "zh": "我每周一学西班牙语。"
       },
       {
        "es": "Los domingos como con mis padres.",
@@ -884,7 +956,8 @@
        "uk": "По неділях я обідаю з батьками.",
        "de": "Sonntags esse ich mit meinen Eltern.",
        "fr": "Le dimanche, je mange avec mes parents.",
-       "pt": "Aos domingos eu almoço com os meus pais."
+       "pt": "Aos domingos eu almoço com os meus pais.",
+       "zh": "我每周日和父母一起吃饭。"
       },
       {
        "es": "Los fines de semana descanso.",
@@ -893,7 +966,8 @@
        "uk": "На вихідних я відпочиваю.",
        "de": "Am Wochenende ruhe ich mich aus.",
        "fr": "Le week-end, je me repose.",
-       "pt": "Nos fins de semana eu descanso."
+       "pt": "Nos fins de semana eu descanso.",
+       "zh": "我每个周末都休息。"
       }
      ],
      "teaches": [
@@ -904,7 +978,8 @@
        "uk": "по понеділках",
        "de": "montags, jeden Montag",
        "fr": "le lundi, tous les lundis",
-       "pt": "às segundas, toda segunda"
+       "pt": "às segundas, toda segunda",
+       "zh": "每周一"
       },
       {
        "es": "los sábados",
@@ -913,7 +988,8 @@
        "uk": "по суботах",
        "de": "samstags, jeden Samstag",
        "fr": "le samedi, tous les samedis",
-       "pt": "aos sábados, todo sábado"
+       "pt": "aos sábados, todo sábado",
+       "zh": "每周六"
       },
       {
        "es": "los domingos",
@@ -922,7 +998,8 @@
        "uk": "по неділях",
        "de": "sonntags, jeden Sonntag",
        "fr": "le dimanche, tous les dimanches",
-       "pt": "aos domingos, todo domingo"
+       "pt": "aos domingos, todo domingo",
+       "zh": "每周日"
       },
       {
        "es": "los fines de semana",
@@ -931,7 +1008,8 @@
        "uk": "на вихідних",
        "de": "an den Wochenenden",
        "fr": "le week-end, tous les week-ends",
-       "pt": "nos fins de semana"
+       "pt": "nos fins de semana",
+       "zh": "每个周末"
       }
      ]
     },
@@ -951,13 +1029,15 @@
      "de": "Montags arbeite ich von zu Hause.",
      "fr": "Le lundi, je travaille à la maison.",
      "pt": "Às segundas eu trabalho de casa.",
+     "zh": "我每周一在家办公。",
      "hint": {
       "en": "Every Monday, a habit: los lunes.",
       "it": "Ogni lunedì, un'abitudine: los lunes.",
       "uk": "Щопонеділка, звичка: los lunes.",
       "de": "Jeden Montag, eine Gewohnheit: los lunes.",
       "fr": "Tous les lundis, une habitude : los lunes.",
-      "pt": "Toda segunda, um hábito: los lunes."
+      "pt": "Toda segunda, um hábito: los lunes.",
+      "zh": "每个星期一，是习惯：los lunes。"
      }
     },
     {
@@ -975,13 +1055,15 @@
      "de": "Sonntags esse ich mit meiner Familie.",
      "fr": "Le dimanche, je mange avec ma famille.",
      "pt": "Aos domingos eu almoço com a minha família.",
+     "zh": "我每周日和家人一起吃饭。",
      "hint": {
       "en": "Los + domingo needs -s: domingos.",
       "it": "Los + domingo vuole la -s: domingos.",
       "uk": "Los + domingo потребує -s: domingos.",
       "de": "Los + domingo braucht ein -s: domingos.",
       "fr": "Los + domingo demande un -s : domingos.",
-      "pt": "Los + domingo pede -s: domingos."
+      "pt": "Los + domingo pede -s: domingos.",
+      "zh": "Los + domingo 要加 -s：domingos。"
      }
     },
     {
@@ -1002,7 +1084,8 @@
       "uk": "Щоб сказати, який сьогодні день, вживай hoy es + день, без el.",
       "de": "Um zu sagen, welcher Tag heute ist, nimmst du hoy es + den Tag, ohne el.",
       "fr": "Pour dire quel jour on est, utilise hoy es + le jour, sans el.",
-      "pt": "Para dizer que dia é hoje, use hoy es + o dia, sem el."
+      "pt": "Para dizer que dia é hoje, use hoy es + o dia, sem el.",
+      "zh": "说今天星期几，用 hoy es + 星期几，不加 el。"
      },
      "examples": [
       {
@@ -1012,7 +1095,8 @@
        "uk": "Сьогодні понеділок.",
        "de": "Heute ist Montag.",
        "fr": "Aujourd'hui, on est lundi.",
-       "pt": "Hoje é segunda."
+       "pt": "Hoje é segunda.",
+       "zh": "今天星期一。"
       },
       {
        "es": "Mañana es sábado.",
@@ -1021,7 +1105,8 @@
        "uk": "Завтра субота.",
        "de": "Morgen ist Samstag.",
        "fr": "Demain, on est samedi.",
-       "pt": "Amanhã é sábado."
+       "pt": "Amanhã é sábado.",
+       "zh": "明天星期六。"
       },
       {
        "es": "¡Hoy es viernes!",
@@ -1030,7 +1115,8 @@
        "uk": "Сьогодні п'ятниця!",
        "de": "Heute ist Freitag!",
        "fr": "Aujourd'hui, on est vendredi !",
-       "pt": "Hoje é sexta!"
+       "pt": "Hoje é sexta!",
+       "zh": "今天星期五！"
       }
      ]
     },
@@ -1051,13 +1137,15 @@
      "de": "Heute ist Montag. Morgen ist Dienstag.",
      "fr": "Aujourd'hui, on est lundi. Demain, on est mardi.",
      "pt": "Hoje é segunda. Amanhã é terça.",
+     "zh": "今天星期一。明天星期二。",
      "hint": {
       "en": "After lunes comes martes.",
       "it": "Dopo lunes viene martes.",
       "uk": "Після lunes іде martes.",
       "de": "Nach lunes kommt martes.",
       "fr": "Après lunes vient martes.",
-      "pt": "Depois de lunes vem martes."
+      "pt": "Depois de lunes vem martes.",
+      "zh": "Lunes 后面是 martes。"
      }
     },
     {
@@ -1069,7 +1157,8 @@
       "uk": "Скажи, що сьогодні середа і що ти вчиш іспанську.",
       "de": "Sag, dass heute Mittwoch ist und dass du Spanisch lernst.",
       "fr": "Dis qu'aujourd'hui, on est mercredi et que tu étudies l'espagnol.",
-      "pt": "Diga que hoje é quarta e que você está estudando espanhol."
+      "pt": "Diga que hoje é quarta e que você está estudando espanhol.",
+      "zh": "说今天星期三，你在学西班牙语。"
      },
      "accepted": [
       "Hoy es miércoles y estudio español."
@@ -1089,13 +1178,15 @@
      "de": "Heute ist Mittwoch und ich lerne Spanisch.",
      "fr": "Aujourd'hui, on est mercredi et j'étudie l'espagnol.",
      "pt": "Hoje é quarta e eu estudo espanhol.",
+     "zh": "今天星期三，我在学西班牙语。",
      "hint": {
       "en": "Hoy es + the day, no el.",
       "it": "Hoy es + il giorno, senza el.",
       "uk": "Hoy es + день, без el.",
       "de": "Hoy es + der Tag, ohne el.",
       "fr": "Hoy es + le jour, sans el.",
-      "pt": "Hoy es + o dia, sem el."
+      "pt": "Hoy es + o dia, sem el.",
+      "zh": "Hoy es + 星期几，不加 el。"
      }
     },
     {
@@ -1114,13 +1205,15 @@
      "de": "Heute ist Mittwoch. Am Donnerstag gehe ich ins Kino.",
      "fr": "Aujourd'hui, on est mercredi. Jeudi, je vais au cinéma.",
      "pt": "Hoje é quarta. Na quinta vou ao cinema.",
+     "zh": "今天星期三。星期四我去看电影。",
      "hint": {
       "en": "Just this Thursday: el jueves.",
       "it": "Solo questo giovedì: el jueves.",
       "uk": "Тільки цього четверга: el jueves.",
       "de": "Nur diesen Donnerstag: el jueves.",
       "fr": "Seulement ce jeudi : el jueves.",
-      "pt": "Só nesta quinta: el jueves."
+      "pt": "Só nesta quinta: el jueves.",
+      "zh": "只是这个星期四：el jueves。"
      }
     },
     {
@@ -1138,13 +1231,15 @@
      "de": "Samstags und sonntags ruhe ich mich aus.",
      "fr": "Le samedi et le dimanche, je me repose.",
      "pt": "Aos sábados e domingos eu descanso.",
+     "zh": "我每周六和周日休息。",
      "hint": {
       "en": "Los + sábado needs -s.",
       "it": "Los + sábado vuole la -s.",
       "uk": "Los + sábado потребує -s.",
       "de": "Los + sábado braucht ein -s.",
       "fr": "Los + sábado demande un -s.",
-      "pt": "Los + sábado pede -s."
+      "pt": "Los + sábado pede -s.",
+      "zh": "Los + sábado 要加 -s。"
      }
     },
     {
@@ -1156,7 +1251,8 @@
       "uk": "Скажи, що по понеділках ти працюєш на своїй роботі.",
       "de": "Sag, dass du montags an deinem Arbeitsplatz arbeitest.",
       "fr": "Dis que le lundi, tu travailles à ton travail.",
-      "pt": "Diga que às segundas você trabalha no seu trabalho."
+      "pt": "Diga que às segundas você trabalha no seu trabalho.",
+      "zh": "说你每周一去你的单位上班。"
      },
      "accepted": [
       "Los lunes trabajo en {work}.",
@@ -1176,13 +1272,15 @@
      "de": "Montags arbeite ich {workDe}.",
      "fr": "Le lundi, je travaille {workFr}.",
      "pt": "Às segundas eu trabalho {workPt}.",
+     "zh": "我每周一{workZh}上班。",
      "hint": {
       "en": "Every Monday: los lunes.",
       "it": "Ogni lunedì: los lunes.",
       "uk": "Щопонеділка: los lunes.",
       "de": "Jeden Montag: los lunes.",
       "fr": "Tous les lundis : los lunes.",
-      "pt": "Toda segunda: los lunes."
+      "pt": "Toda segunda: los lunes.",
+      "zh": "每个星期一：los lunes。"
      }
     },
     {
@@ -1194,7 +1292,8 @@
       "uk": "Напиши іспанською: «По понеділках я працюю {workUk}, а по суботах ходжу на пляж.»",
       "de": "Schreib auf Spanisch: «Montags arbeite ich {workDe} und samstags gehe ich an den Strand.»",
       "fr": "Écris en espagnol : «Le lundi, je travaille {workFr} et le samedi, je vais à la plage.»",
-      "pt": "Escreva em espanhol: «Às segundas eu trabalho {workPt} e aos sábados vou à praia.»"
+      "pt": "Escreva em espanhol: «Às segundas eu trabalho {workPt} e aos sábados vou à praia.»",
+      "zh": "用西班牙语写：«我每周一{workZh}上班，每周六去海滩。»"
      },
      "accepted": [
       "Los lunes trabajo en {work} y los sábados voy a la playa.",
@@ -1211,7 +1310,8 @@
       "uk": "По понеділках я працюю {workUk}, а по суботах ходжу на пляж.",
       "de": "Montags arbeite ich {workDe} und samstags gehe ich an den Strand.",
       "fr": "Le lundi, je travaille {workFr} et le samedi, je vais à la plage.",
-      "pt": "Às segundas eu trabalho {workPt} e aos sábados vou à praia."
+      "pt": "Às segundas eu trabalho {workPt} e aos sábados vou à praia.",
+      "zh": "我每周一{workZh}上班，每周六去海滩。"
      }
     }
    ]
@@ -1224,7 +1324,8 @@
     "uk": "Скажи, як часто ти щось робиш: завжди, іноді, ніколи, раз на тиждень.",
     "de": "Sag, wie oft du etwas machst: immer, manchmal, nie, einmal pro Woche.",
     "fr": "Dire à quelle fréquence tu fais les choses : toujours, parfois, jamais, une fois par semaine.",
-    "pt": "Dizer com que frequência você faz as coisas: sempre, às vezes, nunca, uma vez por semana."
+    "pt": "Dizer com que frequência você faz as coisas: sempre, às vezes, nunca, uma vez por semana.",
+    "zh": "说你多久做一次某事：总是、有时、从不、一周一次。"
    },
    "target": {
     "es": "Siempre desayuno en casa y a veces tomo un café en el trabajo.",
@@ -1233,7 +1334,8 @@
     "uk": "Я завжди снідаю вдома, а іноді п'ю каву на роботі.",
     "de": "Ich frühstücke immer zu Hause und manchmal trinke ich einen Kaffee bei der Arbeit.",
     "fr": "Je prends toujours le petit-déjeuner à la maison et parfois je prends un café au travail.",
-    "pt": "Eu sempre tomo café da manhã em casa e às vezes tomo um café no trabalho."
+    "pt": "Eu sempre tomo café da manhã em casa e às vezes tomo um café no trabalho.",
+    "zh": "我总是在家吃早饭，有时在单位喝杯咖啡。"
    },
    "items": [
     {
@@ -1247,6 +1349,7 @@
        "de": "immer",
        "fr": "toujours",
        "pt": "sempre",
+       "zh": "总是",
        "kind": "time"
       },
       {
@@ -1257,6 +1360,7 @@
        "de": "manchmal",
        "fr": "parfois",
        "pt": "às vezes",
+       "zh": "有时",
        "kind": "time"
       },
       {
@@ -1267,6 +1371,7 @@
        "de": "nie",
        "fr": "jamais",
        "pt": "nunca",
+       "zh": "从不",
        "kind": "time"
       },
       {
@@ -1277,6 +1382,7 @@
        "de": "normalerweise",
        "fr": "d'habitude",
        "pt": "normalmente",
+       "zh": "通常",
        "kind": "time"
       },
       {
@@ -1287,6 +1393,7 @@
        "de": "fast",
        "fr": "presque",
        "pt": "quase",
+       "zh": "几乎",
        "kind": "time"
       }
      ]
@@ -1302,6 +1409,7 @@
        "de": "einmal",
        "fr": "une fois",
        "pt": "uma vez",
+       "zh": "一次",
        "kind": "time"
       },
       {
@@ -1312,6 +1420,7 @@
        "de": "ab und zu",
        "fr": "de temps en temps",
        "pt": "de vez em quando",
+       "zh": "偶尔，时不时",
        "kind": "time"
       },
       {
@@ -1322,6 +1431,7 @@
        "de": "frühstücken",
        "fr": "prendre le petit-déjeuner",
        "pt": "tomar café da manhã",
+       "zh": "吃早饭",
        "kind": "stem"
       },
       {
@@ -1332,6 +1442,7 @@
        "de": "nehmen, trinken",
        "fr": "prendre (une boisson)",
        "pt": "tomar (uma bebida), pegar",
+       "zh": "喝（饮料），吃，拿",
        "kind": "stem"
       }
      ]
@@ -1358,7 +1469,8 @@
       "uk": "Desayunar (снідати) і tomar (пити, брати) — правильні дієслова на AR.",
       "de": "Desayunar (frühstücken) und tomar (etwas trinken, nehmen) sind regelmäßige Verben auf -AR.",
       "fr": "Desayunar (prendre le petit-déjeuner) et tomar (prendre, une boisson) sont des verbes réguliers en AR.",
-      "pt": "Desayunar (tomar café da manhã) e tomar (tomar uma bebida) são verbos regulares em AR."
+      "pt": "Desayunar (tomar café da manhã) e tomar (tomar uma bebida) são verbos regulares em AR.",
+      "zh": "Desayunar（吃早饭）和 tomar（喝饮料）是规则的 AR 动词。"
      },
      "examples": [
       {
@@ -1368,7 +1480,8 @@
        "uk": "Я снідаю вдома.",
        "de": "Ich frühstücke zu Hause.",
        "fr": "Je prends le petit-déjeuner à la maison.",
-       "pt": "Eu tomo café da manhã em casa."
+       "pt": "Eu tomo café da manhã em casa.",
+       "zh": "我在家吃早饭。"
       },
       {
        "es": "Tomo un café.",
@@ -1377,7 +1490,8 @@
        "uk": "Я п'ю каву.",
        "de": "Ich trinke einen Kaffee.",
        "fr": "Je prends un café.",
-       "pt": "Eu tomo um café."
+       "pt": "Eu tomo um café.",
+       "zh": "我喝杯咖啡。"
       },
       {
        "es": "¿Tomas té?",
@@ -1386,7 +1500,8 @@
        "uk": "Ти п'єш чай?",
        "de": "Trinkst du Tee?",
        "fr": "Tu prends du thé ?",
-       "pt": "Você toma chá?"
+       "pt": "Você toma chá?",
+       "zh": "你喝茶吗？"
       }
      ],
      "teaches": [
@@ -1397,7 +1512,8 @@
        "uk": "я снідаю",
        "de": "ich frühstücke",
        "fr": "je prends le petit-déjeuner",
-       "pt": "eu tomo café da manhã"
+       "pt": "eu tomo café da manhã",
+       "zh": "我吃早饭"
       },
       {
        "es": "desayunas",
@@ -1406,7 +1522,8 @@
        "uk": "ти снідаєш",
        "de": "du frühstückst",
        "fr": "tu prends le petit-déjeuner",
-       "pt": "você toma café da manhã"
+       "pt": "você toma café da manhã",
+       "zh": "你吃早饭"
       },
       {
        "es": "desayuna",
@@ -1415,7 +1532,8 @@
        "uk": "він/вона снідає",
        "de": "er/sie frühstückt",
        "fr": "il/elle prend le petit-déjeuner",
-       "pt": "ele/ela toma café da manhã"
+       "pt": "ele/ela toma café da manhã",
+       "zh": "他/她吃早饭"
       },
       {
        "es": "desayunamos",
@@ -1424,7 +1542,8 @@
        "uk": "ми снідаємо",
        "de": "wir frühstücken",
        "fr": "nous prenons le petit-déjeuner",
-       "pt": "nós tomamos café da manhã"
+       "pt": "nós tomamos café da manhã",
+       "zh": "我们吃早饭"
       },
       {
        "es": "desayunáis",
@@ -1433,7 +1552,8 @@
        "uk": "ви снідаєте",
        "de": "ihr frühstückt",
        "fr": "vous prenez le petit-déjeuner",
-       "pt": "vocês tomam café da manhã"
+       "pt": "vocês tomam café da manhã",
+       "zh": "你们吃早饭"
       },
       {
        "es": "desayunan",
@@ -1442,7 +1562,8 @@
        "uk": "вони снідають",
        "de": "sie frühstücken",
        "fr": "ils/elles prennent le petit-déjeuner",
-       "pt": "eles/elas tomam café da manhã"
+       "pt": "eles/elas tomam café da manhã",
+       "zh": "他们吃早饭"
       },
       {
        "es": "tomo",
@@ -1451,7 +1572,8 @@
        "uk": "я п'ю",
        "de": "ich nehme, ich trinke",
        "fr": "je prends",
-       "pt": "eu tomo"
+       "pt": "eu tomo",
+       "zh": "我喝"
       },
       {
        "es": "tomas",
@@ -1460,7 +1582,8 @@
        "uk": "ти п'єш",
        "de": "du nimmst, du trinkst",
        "fr": "tu prends",
-       "pt": "você toma"
+       "pt": "você toma",
+       "zh": "你喝"
       },
       {
        "es": "toma",
@@ -1469,7 +1592,8 @@
        "uk": "він/вона п'є",
        "de": "er/sie nimmt, er/sie trinkt",
        "fr": "il/elle prend",
-       "pt": "ele/ela toma"
+       "pt": "ele/ela toma",
+       "zh": "他/她喝"
       },
       {
        "es": "tomamos",
@@ -1478,7 +1602,8 @@
        "uk": "ми п'ємо",
        "de": "wir nehmen, wir trinken",
        "fr": "nous prenons",
-       "pt": "nós tomamos"
+       "pt": "nós tomamos",
+       "zh": "我们喝"
       },
       {
        "es": "tomáis",
@@ -1487,7 +1612,8 @@
        "uk": "ви п'єте",
        "de": "ihr nehmt, ihr trinkt",
        "fr": "vous prenez",
-       "pt": "vocês tomam"
+       "pt": "vocês tomam",
+       "zh": "你们喝"
       },
       {
        "es": "toman",
@@ -1496,7 +1622,8 @@
        "uk": "вони п'ють",
        "de": "sie nehmen, sie trinken",
        "fr": "ils/elles prennent",
-       "pt": "eles/elas tomam"
+       "pt": "eles/elas tomam",
+       "zh": "他们喝"
       }
      ]
     },
@@ -1510,7 +1637,8 @@
       "uk": "я снідаю",
       "de": "ich frühstücke",
       "fr": "je prends le petit-déjeuner",
-      "pt": "eu tomo café da manhã"
+      "pt": "eu tomo café da manhã",
+      "zh": "我吃早饭"
      },
      "stems": [
       "cen",
@@ -1542,13 +1670,15 @@
      "de": "Wir trinken Kaffee.",
      "fr": "Nous prenons un café.",
      "pt": "Nós tomamos café.",
+     "zh": "我们喝咖啡。",
      "hint": {
       "en": "Nosotros: AR verbs end in -amos.",
       "it": "Nosotros: i verbi in AR finiscono in -amos.",
       "uk": "Nosotros: дієслова на AR закінчуються на -amos.",
       "de": "Nosotros: Verben auf -AR enden auf -amos.",
       "fr": "Nosotros : les verbes en AR finissent en -amos.",
-      "pt": "Nosotros: os verbos em AR terminam em -amos."
+      "pt": "Nosotros: os verbos em AR terminam em -amos.",
+      "zh": "Nosotros：AR 动词以 -amos 结尾。"
      }
     },
     {
@@ -1569,7 +1699,8 @@
       "uk": "Siempre, normalmente, a veces і nunca зазвичай стоять на початку, перед дієсловом. Casi nunca означає «майже ніколи».",
       "de": "Siempre, normalmente, a veces und nunca stehen meistens am Anfang, vor dem Verb. Casi nunca heißt 'fast nie'.",
       "fr": "Siempre, normalmente, a veces et nunca se mettent en général au début, avant le verbe. Casi nunca veut dire «presque jamais».",
-      "pt": "Siempre, normalmente, a veces e nunca costumam vir no começo, antes do verbo. Casi nunca quer dizer \"quase nunca\"."
+      "pt": "Siempre, normalmente, a veces e nunca costumam vir no começo, antes do verbo. Casi nunca quer dizer \"quase nunca\".",
+      "zh": "Siempre、normalmente、a veces 和 nunca 通常放在句首，动词前面。Casi nunca 的意思是“几乎从不”。"
      },
      "examples": [
       {
@@ -1579,7 +1710,8 @@
        "uk": "Я завжди снідаю вдома.",
        "de": "Ich frühstücke immer zu Hause.",
        "fr": "Je prends toujours le petit-déjeuner à la maison.",
-       "pt": "Eu sempre tomo café da manhã em casa."
+       "pt": "Eu sempre tomo café da manhã em casa.",
+       "zh": "我总是在家吃早饭。"
       },
       {
        "es": "A veces tomo té.",
@@ -1588,7 +1720,8 @@
        "uk": "Іноді я п'ю чай.",
        "de": "Manchmal trinke ich Tee.",
        "fr": "Parfois, je prends du thé.",
-       "pt": "Às vezes eu tomo chá."
+       "pt": "Às vezes eu tomo chá.",
+       "zh": "我有时喝茶。"
       },
       {
        "es": "Nunca como carne.",
@@ -1597,7 +1730,8 @@
        "uk": "Я ніколи не їм м'яса.",
        "de": "Ich esse nie Fleisch.",
        "fr": "Je ne mange jamais de viande.",
-       "pt": "Eu nunca como carne."
+       "pt": "Eu nunca como carne.",
+       "zh": "我从不吃肉。"
       }
      ],
      "teaches": [
@@ -1608,7 +1742,8 @@
        "uk": "майже ніколи",
        "de": "fast nie",
        "fr": "presque jamais",
-       "pt": "quase nunca"
+       "pt": "quase nunca",
+       "zh": "几乎从不"
       }
      ]
     },
@@ -1629,13 +1764,15 @@
      "de": "Ich mag keinen Kaffee. Ich trinke nie Kaffee.",
      "fr": "Je n'aime pas le café. Je ne prends jamais de café.",
      "pt": "Eu não gosto de café. Nunca tomo café.",
+     "zh": "我不喜欢咖啡。我从不喝咖啡。",
      "hint": {
       "en": "You don't like it, so: nunca.",
       "it": "Non ti piace, quindi: nunca.",
       "uk": "Тобі не подобається, тому: nunca.",
       "de": "Du magst ihn nicht, also: nunca.",
       "fr": "Tu n'aimes pas ça, donc : nunca.",
-      "pt": "Você não gosta, então: nunca."
+      "pt": "Você não gosta, então: nunca.",
+      "zh": "你不喜欢，所以：nunca。"
      }
     },
     {
@@ -1647,7 +1784,8 @@
       "uk": "Скажи, що зазвичай ти снідаєш о восьмій.",
       "de": "Sag, dass du normalerweise um acht frühstückst.",
       "fr": "Dis que d'habitude, tu prends le petit-déjeuner à huit heures.",
-      "pt": "Diga que normalmente você toma café da manhã às oito."
+      "pt": "Diga que normalmente você toma café da manhã às oito.",
+      "zh": "说你通常八点吃早饭。"
      },
      "accepted": [
       "Normalmente desayuno a las ocho."
@@ -1666,13 +1804,15 @@
      "de": "Normalerweise frühstücke ich um acht.",
      "fr": "D'habitude, je prends le petit-déjeuner à huit heures.",
      "pt": "Normalmente eu tomo café da manhã às oito.",
+     "zh": "我通常八点吃早饭。",
      "hint": {
       "en": "Normalmente first, then the verb.",
       "it": "Prima normalmente, poi il verbo.",
       "uk": "Спочатку normalmente, потім дієслово.",
       "de": "Zuerst normalmente, dann das Verb.",
       "fr": "D'abord normalmente, puis le verbe.",
-      "pt": "Primeiro normalmente, depois o verbo."
+      "pt": "Primeiro normalmente, depois o verbo.",
+      "zh": "先说 normalmente，再说动词。"
      }
     },
     {
@@ -1693,7 +1833,8 @@
       "uk": "Щоб порахувати, як часто, скажи una vez (один раз), dos veces (двічі) + a la semana. De vez en cuando означає «час від часу».",
       "de": "Um zu zählen, wie oft, sag una vez (einmal), dos veces (zweimal) + a la semana. De vez en cuando heißt 'ab und zu'.",
       "fr": "Pour compter combien de fois, dis una vez (une fois), dos veces (deux fois) + a la semana. De vez en cuando veut dire «de temps en temps».",
-      "pt": "Para contar quantas vezes, diga una vez (uma vez), dos veces (duas vezes) + a la semana. De vez en cuando quer dizer \"de vez em quando\"."
+      "pt": "Para contar quantas vezes, diga una vez (uma vez), dos veces (duas vezes) + a la semana. De vez en cuando quer dizer \"de vez em quando\".",
+      "zh": "说做了几次，用 una vez（一次）、dos veces（两次）+ a la semana（每周）。De vez en cuando 的意思是“偶尔”。"
      },
      "examples": [
       {
@@ -1703,7 +1844,8 @@
        "uk": "Я ходжу в спортзал раз на тиждень.",
        "de": "Ich gehe einmal pro Woche ins Fitnessstudio.",
        "fr": "Je vais à la salle de sport une fois par semaine.",
-       "pt": "Eu vou à academia uma vez por semana."
+       "pt": "Eu vou à academia uma vez por semana.",
+       "zh": "我一周去一次健身房。"
       },
       {
        "es": "Ceno en un restaurante dos veces a la semana.",
@@ -1712,7 +1854,8 @@
        "uk": "Я вечеряю в ресторані двічі на тиждень.",
        "de": "Ich esse zweimal pro Woche im Restaurant zu Abend.",
        "fr": "Je dîne au restaurant deux fois par semaine.",
-       "pt": "Eu janto em um restaurante duas vezes por semana."
+       "pt": "Eu janto em um restaurante duas vezes por semana.",
+       "zh": "我一周在餐厅吃两次晚饭。"
       },
       {
        "es": "Voy al cine de vez en cuando.",
@@ -1721,7 +1864,8 @@
        "uk": "Я час від часу ходжу в кіно.",
        "de": "Ich gehe ab und zu ins Kino.",
        "fr": "Je vais au cinéma de temps en temps.",
-       "pt": "Eu vou ao cinema de vez em quando."
+       "pt": "Eu vou ao cinema de vez em quando.",
+       "zh": "我偶尔去看电影。"
       }
      ],
      "teaches": [
@@ -1732,7 +1876,8 @@
        "uk": "двічі",
        "de": "zweimal",
        "fr": "deux fois",
-       "pt": "duas vezes"
+       "pt": "duas vezes",
+       "zh": "两次"
       }
      ]
     },
@@ -1752,13 +1897,15 @@
      "de": "Ich gehe zweimal pro Woche ins Fitnessstudio.",
      "fr": "Je vais à la salle de sport deux fois par semaine.",
      "pt": "Eu vou à academia duas vezes por semana.",
+     "zh": "我一周去两次健身房。",
      "hint": {
       "en": "More than one: veces (z becomes c).",
       "it": "Più di una: veces (la z diventa c).",
       "uk": "Більше ніж один раз: veces (z стає c).",
       "de": "Mehr als eins: veces (aus z wird c).",
       "fr": "Plus d'une : veces (le z devient c).",
-      "pt": "Mais de uma: veces (o z vira c)."
+      "pt": "Mais de uma: veces (o z vira c).",
+      "zh": "不止一次：veces（z 变成 c）。"
      }
     },
     {
@@ -1770,7 +1917,8 @@
       "uk": "Скажи, що ти час від часу ходиш у кіно.",
       "de": "Sag, dass du ab und zu ins Kino gehst.",
       "fr": "Dis que tu vas au cinéma de temps en temps.",
-      "pt": "Diga que você vai ao cinema de vez em quando."
+      "pt": "Diga que você vai ao cinema de vez em quando.",
+      "zh": "说你偶尔去看电影。"
      },
      "accepted": [
       "Voy al cine de vez en cuando.",
@@ -1789,13 +1937,15 @@
      "de": "Ich gehe ab und zu ins Kino.",
      "fr": "Je vais au cinéma de temps en temps.",
      "pt": "Eu vou ao cinema de vez em quando.",
+     "zh": "我偶尔去看电影。",
      "hint": {
       "en": "De vez en cuando is one block: keep it together.",
       "it": "De vez en cuando è un blocco unico: tienilo insieme.",
       "uk": "De vez en cuando — це один блок: не розривай його.",
       "de": "De vez en cuando ist ein fester Block: Lass ihn zusammen.",
       "fr": "De vez en cuando est un seul bloc : garde-le ensemble.",
-      "pt": "De vez en cuando é um bloco só: mantenha junto."
+      "pt": "De vez en cuando é um bloco só: mantenha junto.",
+      "zh": "De vez en cuando 是一个整体：不要拆开。"
      }
     },
     {
@@ -1813,13 +1963,15 @@
      "de": "Meine Mutter trinkt am Nachmittag einen Tee.",
      "fr": "Ma mère prend un thé l'après-midi.",
      "pt": "Minha mãe toma um chá à tarde.",
+     "zh": "我妈妈下午喝杯茶。",
      "hint": {
       "en": "Mi madre = ella: -a.",
       "it": "Mi madre = ella: -a.",
       "uk": "Mi madre = ella: -a.",
       "de": "Mi madre = ella: -a.",
       "fr": "Mi madre = ella : -a.",
-      "pt": "Mi madre = ella: -a."
+      "pt": "Mi madre = ella: -a.",
+      "zh": "Mi madre = ella：-a。"
      }
     },
     {
@@ -1839,13 +1991,15 @@
      "de": "Ich liebe Schokolade. Ich esse immer Schokolade.",
      "fr": "J'adore le chocolat. Je mange toujours du chocolat.",
      "pt": "Eu adoro chocolate. Sempre como chocolate.",
+     "zh": "我超爱巧克力。我总是吃巧克力。",
      "hint": {
       "en": "You love it, so: siempre.",
       "it": "Lo adori, quindi: siempre.",
       "uk": "Ти його обожнюєш, тому: siempre.",
       "de": "Du liebst sie, also: siempre.",
       "fr": "Tu adores ça, donc : siempre.",
-      "pt": "Você adora, então: siempre."
+      "pt": "Você adora, então: siempre.",
+      "zh": "你超爱，所以：siempre。"
      }
     },
     {
@@ -1857,7 +2011,8 @@
       "uk": "Скажи, що іноді ти снідаєш на роботі.",
       "de": "Sag, dass du manchmal bei der Arbeit frühstückst.",
       "fr": "Dis que parfois, tu prends le petit-déjeuner au travail.",
-      "pt": "Diga que às vezes você toma café da manhã no trabalho."
+      "pt": "Diga que às vezes você toma café da manhã no trabalho.",
+      "zh": "说你有时在单位吃早饭。"
      },
      "accepted": [
       "A veces desayuno en el trabajo.",
@@ -1876,13 +2031,15 @@
      "de": "Manchmal frühstücke ich bei der Arbeit.",
      "fr": "Parfois, je prends le petit-déjeuner au travail.",
      "pt": "Às vezes eu tomo café da manhã no trabalho.",
+     "zh": "我有时在单位吃早饭。",
      "hint": {
       "en": "A veces first, then the yo form.",
       "it": "Prima a veces, poi la forma di yo.",
       "uk": "Спочатку a veces, потім форма для yo.",
       "de": "Zuerst a veces, dann die yo-Form.",
       "fr": "D'abord a veces, puis la forme de yo.",
-      "pt": "Primeiro a veces, depois a forma de yo."
+      "pt": "Primeiro a veces, depois a forma de yo.",
+      "zh": "先说 a veces，再用 yo 的形式。"
      }
     },
     {
@@ -1894,7 +2051,8 @@
       "uk": "Напиши іспанською: «Я завжди снідаю вдома, іноді п'ю чай і ніколи не п'ю вина.»",
       "de": "Schreib auf Spanisch: «Ich frühstücke immer zu Hause, manchmal trinke ich einen Tee und ich trinke nie Wein.»",
       "fr": "Écris en espagnol : «Je prends toujours le petit-déjeuner à la maison, parfois je prends un thé et je ne bois jamais de vin.»",
-      "pt": "Escreva em espanhol: «Eu sempre tomo café da manhã em casa, às vezes tomo um chá e nunca bebo vinho.»"
+      "pt": "Escreva em espanhol: «Eu sempre tomo café da manhã em casa, às vezes tomo um chá e nunca bebo vinho.»",
+      "zh": "用西班牙语写：«我总是在家吃早饭，有时喝杯茶，我从不喝葡萄酒。»"
      },
      "accepted": [
       "Siempre desayuno en casa, a veces tomo un té y nunca bebo vino.",
@@ -1911,7 +2069,8 @@
       "uk": "Я завжди снідаю вдома, іноді п'ю чай і ніколи не п'ю вина.",
       "de": "Ich frühstücke immer zu Hause, manchmal trinke ich einen Tee und ich trinke nie Wein.",
       "fr": "Je prends toujours le petit-déjeuner à la maison, parfois je prends un thé et je ne bois jamais de vin.",
-      "pt": "Eu sempre tomo café da manhã em casa, às vezes tomo um chá e nunca bebo vinho."
+      "pt": "Eu sempre tomo café da manhã em casa, às vezes tomo um chá e nunca bebo vinho.",
+      "zh": "我总是在家吃早饭，有时喝杯茶，我从不喝葡萄酒。"
      }
     }
    ]
@@ -1924,7 +2083,8 @@
     "uk": "Став запитання зі словами що, де, коли, хто, чому і скільки.",
     "de": "Stell Fragen mit was, wo, wann, wer, warum und wie viel.",
     "fr": "Poser des questions avec quoi, où, quand, qui, pourquoi et combien.",
-    "pt": "Fazer perguntas com o que, onde, quando, quem, por que e quanto."
+    "pt": "Fazer perguntas com o que, onde, quando, quem, por que e quanto.",
+    "zh": "用“什么、哪里、什么时候、谁、为什么、多少”提问。"
    },
    "target": {
     "es": "¿Dónde vives y por qué estudias español?",
@@ -1933,7 +2093,8 @@
     "uk": "Де ти живеш і чому ти вчиш іспанську?",
     "de": "Wo wohnst du und warum lernst du Spanisch?",
     "fr": "Où tu habites et pourquoi tu étudies l'espagnol ?",
-    "pt": "Onde você mora e por que você estuda espanhol?"
+    "pt": "Onde você mora e por que você estuda espanhol?",
+    "zh": "你住在哪里？你为什么学西班牙语？"
    },
    "items": [
     {
@@ -1947,6 +2108,7 @@
        "de": "wann?",
        "fr": "quand ?",
        "pt": "quando?",
+       "zh": "什么时候？",
        "kind": "chunk"
       },
       {
@@ -1957,6 +2119,7 @@
        "de": "wer?",
        "fr": "qui ?",
        "pt": "quem?",
+       "zh": "谁？",
        "kind": "chunk"
       },
       {
@@ -1967,6 +2130,7 @@
        "de": "warum?",
        "fr": "pourquoi ?",
        "pt": "por quê?",
+       "zh": "为什么？",
        "kind": "chunk"
       }
      ]
@@ -1982,6 +2146,7 @@
        "de": "welcher?, welche?, welches?",
        "fr": "quel ? lequel ?",
        "pt": "qual?",
+       "zh": "哪个？",
        "kind": "chunk"
       },
       {
@@ -1992,6 +2157,7 @@
        "de": "wohin?",
        "fr": "où ? (pour aller où)",
        "pt": "aonde? (para onde)",
+       "zh": "去哪里？",
        "kind": "chunk"
       },
       {
@@ -2002,6 +2168,7 @@
        "de": "wenn, als (keine Frage)",
        "fr": "quand (pas une question)",
        "pt": "quando (não é pergunta)",
+       "zh": "当……的时候（不是提问）",
        "kind": "rail"
       }
      ]
@@ -2024,7 +2191,8 @@
       "uk": "Питальні слова мають знак наголосу і стоять на початку, а потім дієслово: ¿qué...? ¿dónde...? ¿cuándo...? ¿cómo...?",
       "de": "Fragewörter haben einen Akzent und stehen am Anfang, dann kommt das Verb: ¿qué...? ¿dónde...? ¿cuándo...? ¿cómo...?",
       "fr": "Les mots interrogatifs portent un accent et se mettent en premier, puis le verbe : ¿qué...? ¿dónde...? ¿cuándo...? ¿cómo...?",
-      "pt": "As palavras de pergunta têm acento e vêm primeiro, depois o verbo: ¿qué...? ¿dónde...? ¿cuándo...? ¿cómo...?"
+      "pt": "As palavras de pergunta têm acento e vêm primeiro, depois o verbo: ¿qué...? ¿dónde...? ¿cuándo...? ¿cómo...?",
+      "zh": "疑问词都带重音符号，放在句首，后面接动词：¿qué...? ¿dónde...? ¿cuándo...? ¿cómo...?"
      },
      "examples": [
       {
@@ -2034,7 +2202,8 @@
        "uk": "Що ти їси?",
        "de": "Was isst du?",
        "fr": "Qu'est-ce que tu manges ?",
-       "pt": "O que você come?"
+       "pt": "O que você come?",
+       "zh": "你吃什么？"
       },
       {
        "es": "¿Dónde vives?",
@@ -2043,7 +2212,8 @@
        "uk": "Де ти живеш?",
        "de": "Wo wohnst du?",
        "fr": "Où tu habites ?",
-       "pt": "Onde você mora?"
+       "pt": "Onde você mora?",
+       "zh": "你住在哪里？"
       },
       {
        "es": "¿Cuándo estudias?",
@@ -2052,7 +2222,8 @@
        "uk": "Коли ти вчишся?",
        "de": "Wann lernst du?",
        "fr": "Quand est-ce que tu étudies ?",
-       "pt": "Quando você estuda?"
+       "pt": "Quando você estuda?",
+       "zh": "你什么时候学习？"
       }
      ],
      "teaches": [
@@ -2063,7 +2234,8 @@
        "uk": "що?",
        "de": "was?",
        "fr": "quoi ? que ?",
-       "pt": "o quê? que?"
+       "pt": "o quê? que?",
+       "zh": "什么？"
       },
       {
        "es": "¿cómo?",
@@ -2072,7 +2244,8 @@
        "uk": "як?",
        "de": "wie?",
        "fr": "comment ?",
-       "pt": "como?"
+       "pt": "como?",
+       "zh": "怎么？怎么样？"
       }
      ]
     },
@@ -2093,13 +2266,15 @@
      "de": "Wo wohnst du? In {city}.",
      "fr": "Où tu habites ? À {city}.",
      "pt": "Onde você mora? Em {city}.",
+     "zh": "你住在哪里？在{city}。",
      "hint": {
       "en": "The answer is a place: dónde.",
       "it": "La risposta è un luogo: dónde.",
       "uk": "Відповідь — це місце: dónde.",
       "de": "Die Antwort ist ein Ort: dónde.",
       "fr": "La réponse est un lieu : dónde.",
-      "pt": "A resposta é um lugar: dónde."
+      "pt": "A resposta é um lugar: dónde.",
+      "zh": "答案是一个地方：dónde。"
      }
     },
     {
@@ -2111,7 +2286,8 @@
       "uk": "Запитай друга, коли він ходить у спортзал.",
       "de": "Frag einen Freund, wann er ins Fitnessstudio geht.",
       "fr": "Demande à un ami quand il va à la salle de sport.",
-      "pt": "Pergunte a um amigo quando ele vai à academia."
+      "pt": "Pergunte a um amigo quando ele vai à academia.",
+      "zh": "问一个朋友什么时候去健身房。"
      },
      "accepted": [
       "¿Cuándo vas al gimnasio?"
@@ -2129,13 +2305,15 @@
      "de": "Wann gehst du ins Fitnessstudio?",
      "fr": "Quand est-ce que tu vas à la salle de sport ?",
      "pt": "Quando você vai à academia?",
+     "zh": "你什么时候去健身房？",
      "hint": {
       "en": "Question word first: ¿cuándo? + vas.",
       "it": "Prima la parola interrogativa: ¿cuándo? + vas.",
       "uk": "Спочатку питальне слово: ¿cuándo? + vas.",
       "de": "Zuerst das Fragewort: ¿cuándo? + vas.",
       "fr": "Le mot interrogatif d'abord : ¿cuándo? + vas.",
-      "pt": "Primeiro a palavra de pergunta: ¿cuándo? + vas."
+      "pt": "Primeiro a palavra de pergunta: ¿cuándo? + vas.",
+      "zh": "疑问词放在最前面：¿cuándo? + vas。"
      }
     },
     {
@@ -2156,7 +2334,8 @@
       "uk": "¿Dónde? питає, де щось є. З ir (йти кудись) вживай ¿adónde?: куди.",
       "de": "¿Dónde? fragt, wo etwas ist. Mit ir (irgendwohin gehen) nimmst du ¿adónde?: wohin.",
       "fr": "¿Dónde? demande où se trouve quelque chose. Avec ir (aller quelque part), utilise ¿adónde? : pour aller où.",
-      "pt": "¿Dónde? pergunta onde algo está. Com ir (ir a algum lugar), use ¿adónde?: para onde."
+      "pt": "¿Dónde? pergunta onde algo está. Com ir (ir a algum lugar), use ¿adónde?: para onde.",
+      "zh": "¿Dónde? 问某物在哪里。和 ir（去某处）一起用 ¿adónde?：去哪里。"
      },
      "examples": [
       {
@@ -2166,7 +2345,8 @@
        "uk": "Де ти?",
        "de": "Wo bist du?",
        "fr": "Où es-tu ?",
-       "pt": "Onde você está?"
+       "pt": "Onde você está?",
+       "zh": "你在哪里？"
       },
       {
        "es": "¿Adónde vas? Voy a la playa.",
@@ -2175,7 +2355,8 @@
        "uk": "Куди ти йдеш? На пляж.",
        "de": "Wohin gehst du? An den Strand.",
        "fr": "Où tu vas ? Je vais à la plage.",
-       "pt": "Aonde você vai? Vou à praia."
+       "pt": "Aonde você vai? Vou à praia.",
+       "zh": "你去哪里？我去海滩。"
       },
       {
        "es": "¿Adónde vais el sábado?",
@@ -2184,7 +2365,8 @@
        "uk": "Куди ви йдете в суботу?",
        "de": "Wohin geht ihr am Samstag?",
        "fr": "Où allez-vous samedi ?",
-       "pt": "Aonde vocês vão no sábado?"
+       "pt": "Aonde vocês vão no sábado?",
+       "zh": "你们星期六去哪里？"
       }
      ]
     },
@@ -2204,13 +2386,15 @@
      "de": "Wohin gehst du am Freitag? Ins Kino.",
      "fr": "Où tu vas vendredi ? Au cinéma.",
      "pt": "Aonde você vai na sexta? Ao cinema.",
+     "zh": "你星期五去哪里？去电影院。",
      "hint": {
       "en": "Going somewhere (ir): adónde.",
       "it": "Andare da qualche parte (ir): adónde.",
       "uk": "Йти кудись (ir): adónde.",
       "de": "Irgendwohin gehen (ir): adónde.",
       "fr": "Aller quelque part (ir) : adónde.",
-      "pt": "Ir a algum lugar (ir): adónde."
+      "pt": "Ir a algum lugar (ir): adónde.",
+      "zh": "去某个地方（ir）：adónde。"
      }
     },
     {
@@ -2229,13 +2413,15 @@
      "de": "Wo ist die Bank?",
      "fr": "Où est la banque ?",
      "pt": "Onde fica o banco?",
+     "zh": "银行在哪里？",
      "hint": {
       "en": "Where something is (estar): dónde.",
       "it": "Dove si trova (estar): dónde.",
       "uk": "Де щось є (estar): dónde.",
       "de": "Wo etwas ist (estar): dónde.",
       "fr": "Où se trouve quelque chose (estar) : dónde.",
-      "pt": "Onde algo está (estar): dónde."
+      "pt": "Onde algo está (estar): dónde.",
+      "zh": "某物在哪里（estar）：dónde。"
      }
     },
     {
@@ -2256,7 +2442,8 @@
       "uk": "Деякі питальні слова мають множину: ¿quién? — про одну людину, ¿quiénes? — про кількох. Так само ¿cuál? / ¿cuáles?, і ¿cuánto? / ¿cuántas? для слів з la.",
       "de": "Manche Fragewörter haben einen Plural: ¿quién? für eine Person, ¿quiénes? für mehrere. Genauso bei ¿cuál? / ¿cuáles? und ¿cuánto? / ¿cuántas? bei la-Wörtern.",
       "fr": "Certains mots interrogatifs ont un pluriel : ¿quién? pour une personne, ¿quiénes? pour plusieurs. Pareil avec ¿cuál? / ¿cuáles?, et ¿cuánto? / ¿cuántas? pour les mots en la.",
-      "pt": "Algumas palavras de pergunta têm plural: ¿quién? para uma pessoa, ¿quiénes? para mais de uma. O mesmo com ¿cuál? / ¿cuáles?, e ¿cuánto? / ¿cuántas? para palavras com la."
+      "pt": "Algumas palavras de pergunta têm plural: ¿quién? para uma pessoa, ¿quiénes? para mais de uma. O mesmo com ¿cuál? / ¿cuáles?, e ¿cuánto? / ¿cuántas? para palavras com la.",
+      "zh": "有些疑问词有复数：问一个人用 ¿quién?，问几个人用 ¿quiénes?。¿cuál? / ¿cuáles? 也一样；问 la 的词有多少，用 ¿cuánto? 的阴性复数 ¿cuántas?。"
      },
      "examples": [
       {
@@ -2266,7 +2453,8 @@
        "uk": "Хто це? Хто вони?",
        "de": "Wer ist das? Wer sind sie?",
        "fr": "Qui est-ce ? Qui sont-ils ?",
-       "pt": "Quem é? Quem são?"
+       "pt": "Quem é? Quem são?",
+       "zh": "是谁？他们是谁？"
       },
       {
        "es": "¿Cuál prefieres?",
@@ -2275,7 +2463,8 @@
        "uk": "Котрий тобі більше подобається?",
        "de": "Welchen magst du lieber?",
        "fr": "Lequel tu préfères ?",
-       "pt": "Qual você prefere?"
+       "pt": "Qual você prefere?",
+       "zh": "你更喜欢哪一个？"
       },
       {
        "es": "¿Cuántas manzanas quieres?",
@@ -2284,7 +2473,8 @@
        "uk": "Скільки яблук ти хочеш?",
        "de": "Wie viele Äpfel willst du?",
        "fr": "Combien de pommes tu veux ?",
-       "pt": "Quantas maçãs você quer?"
+       "pt": "Quantas maçãs você quer?",
+       "zh": "你要几个苹果？"
       }
      ],
      "teaches": [
@@ -2295,7 +2485,8 @@
        "uk": "хто? (кілька людей)",
        "de": "wer? (mehrere Personen)",
        "fr": "qui ? (plusieurs personnes)",
-       "pt": "quem? (mais de uma pessoa)"
+       "pt": "quem? (mais de uma pessoa)",
+       "zh": "谁？（不止一个人）"
       },
       {
        "es": "¿cuáles?",
@@ -2304,7 +2495,8 @@
        "uk": "які? котрі?",
        "de": "welche? (Plural)",
        "fr": "lesquels ? lesquelles ?",
-       "pt": "quais?"
+       "pt": "quais?",
+       "zh": "哪些？"
       },
       {
        "es": "¿cuánto?",
@@ -2313,7 +2505,8 @@
        "uk": "скільки?",
        "de": "wie viel?",
        "fr": "combien ?",
-       "pt": "quanto?"
+       "pt": "quanto?",
+       "zh": "多少？"
       },
       {
        "es": "¿cuántas?",
@@ -2322,7 +2515,8 @@
        "uk": "скільки? (слова з la)",
        "de": "wie viele? (la-Wörter)",
        "fr": "combien ? (mots en la)",
-       "pt": "quantas? (palavras com la)"
+       "pt": "quantas? (palavras com la)",
+       "zh": "多少？几个？（配 la 的词）"
       }
      ]
     },
@@ -2342,13 +2536,15 @@
      "de": "Wer sind deine Freunde?",
      "fr": "Qui sont tes amis ?",
      "pt": "Quem são os seus amigos?",
+     "zh": "你的朋友们是谁？",
      "hint": {
       "en": "More than one person: quiénes.",
       "it": "Più persone: quiénes.",
       "uk": "Кілька людей: quiénes.",
       "de": "Mehr als eine Person: quiénes.",
       "fr": "Plusieurs personnes : quiénes.",
-      "pt": "Mais de uma pessoa: quiénes."
+      "pt": "Mais de uma pessoa: quiénes.",
+      "zh": "不止一个人：quiénes。"
      }
     },
     {
@@ -2368,13 +2564,15 @@
      "de": "Wie viele Äpfel willst du?",
      "fr": "Combien de pommes tu veux ?",
      "pt": "Quantas maçãs você quer?",
+     "zh": "你要几个苹果？",
      "hint": {
       "en": "Las manzanas: cuántas.",
       "it": "Las manzanas: cuántas.",
       "uk": "Las manzanas: cuántas.",
       "de": "Las manzanas: cuántas.",
       "fr": "Las manzanas : cuántas.",
-      "pt": "Las manzanas: cuántas."
+      "pt": "Las manzanas: cuántas.",
+      "zh": "Las manzanas：cuántas。"
      }
     },
     {
@@ -2395,7 +2593,8 @@
       "uk": "З наголосом це запитання: ¿por qué? (чому?), ¿cuándo? (коли?). Без наголосу це слово поєднує речення: porque (бо, тому що), cuando (коли).",
       "de": "Mit Akzent ist es eine Frage: ¿por qué? (warum?), ¿cuándo? (wann?). Ohne Akzent verbindet es Sätze: porque (weil), cuando (wenn).",
       "fr": "Avec un accent, c'est une question : ¿por qué? (pourquoi ?), ¿cuándo? (quand ?). Sans accent, ça relie des phrases : porque (parce que), cuando (quand).",
-      "pt": "Com acento, é pergunta: ¿por qué? (por quê?), ¿cuándo? (quando?). Sem acento, liga frases: porque, cuando (quando)."
+      "pt": "Com acento, é pergunta: ¿por qué? (por quê?), ¿cuándo? (quando?). Sem acento, liga frases: porque, cuando (quando).",
+      "zh": "带重音符号的是问题：¿por qué?（为什么？），¿cuándo?（什么时候？）。不带重音符号的用来连接句子：porque（因为），cuando（当……的时候）。"
      },
      "examples": [
       {
@@ -2405,7 +2604,8 @@
        "uk": "Чому ти вчиш іспанську? Бо мені подобається.",
        "de": "Warum lernst du Spanisch? Weil es mir gefällt.",
        "fr": "Pourquoi tu étudies l'espagnol ? Parce que j'aime ça.",
-       "pt": "Por que você estuda espanhol? Porque eu gosto."
+       "pt": "Por que você estuda espanhol? Porque eu gosto.",
+       "zh": "你为什么学西班牙语？因为我喜欢。"
       },
       {
        "es": "¿Cuándo descansas? Cuando no trabajo.",
@@ -2414,7 +2614,8 @@
        "uk": "Коли ти відпочиваєш? Коли не працюю.",
        "de": "Wann ruhst du dich aus? Wenn ich nicht arbeite.",
        "fr": "Quand est-ce que tu te reposes ? Quand je ne travaille pas.",
-       "pt": "Quando você descansa? Quando não estou trabalhando."
+       "pt": "Quando você descansa? Quando não estou trabalhando.",
+       "zh": "你什么时候休息？我不上班的时候。"
       },
       {
        "es": "Cuando tengo hambre, como pizza.",
@@ -2423,7 +2624,8 @@
        "uk": "Коли я голодний(-а), я їм піцу.",
        "de": "Wenn ich Hunger habe, esse ich Pizza.",
        "fr": "Quand j'ai faim, je mange une pizza.",
-       "pt": "Quando estou com fome, como pizza."
+       "pt": "Quando estou com fome, como pizza.",
+       "zh": "我饿的时候就吃披萨。"
       }
      ]
     },
@@ -2443,13 +2645,15 @@
      "de": "Warum isst du nicht? Weil ich keinen Hunger habe.",
      "fr": "Pourquoi tu ne manges pas ? Parce que je n'ai pas faim.",
      "pt": "Por que você não está comendo? Porque não estou com fome.",
+     "zh": "你为什么不吃？因为我不饿。",
      "hint": {
       "en": "It's the answer, not the question: porque.",
       "it": "È la risposta, non la domanda: porque.",
       "uk": "Це відповідь, а не запитання: porque.",
       "de": "Es ist die Antwort, nicht die Frage: porque.",
       "fr": "C'est la réponse, pas la question : porque.",
-      "pt": "É a resposta, não a pergunta: porque."
+      "pt": "É a resposta, não a pergunta: porque.",
+      "zh": "这是回答，不是问题：porque。"
      }
     },
     {
@@ -2461,7 +2665,8 @@
       "uk": "Скажи, що коли ти голодний(-а), ти їси піцу.",
       "de": "Sag, dass du Pizza isst, wenn du Hunger hast.",
       "fr": "Dis que quand tu as faim, tu manges une pizza.",
-      "pt": "Diga que, quando você está com fome, você come pizza."
+      "pt": "Diga que, quando você está com fome, você come pizza.",
+      "zh": "说你饿的时候就吃披萨。"
      },
      "accepted": [
       "Cuando tengo hambre, como pizza.",
@@ -2481,13 +2686,15 @@
      "de": "Wenn ich Hunger habe, esse ich Pizza.",
      "fr": "Quand j'ai faim, je mange une pizza.",
      "pt": "Quando estou com fome, como pizza.",
+     "zh": "我饿的时候就吃披萨。",
      "hint": {
       "en": "Not a question, so cuando without an accent.",
       "it": "Non è una domanda, quindi cuando senza accento.",
       "uk": "Це не запитання, тому cuando без наголосу.",
       "de": "Keine Frage, also cuando ohne Akzent.",
       "fr": "Ce n'est pas une question, donc cuando sans accent.",
-      "pt": "Não é pergunta, então cuando sem acento."
+      "pt": "Não é pergunta, então cuando sem acento.",
+      "zh": "不是问题，所以 cuando 不带重音符号。"
      }
     },
     {
@@ -2507,13 +2714,15 @@
      "de": "Wie heißt du?",
      "fr": "Comment tu t'appelles ?",
      "pt": "Como você se chama?",
+     "zh": "你叫什么名字？",
      "hint": {
       "en": "Asking a name: ¿cómo te llamas?",
       "it": "Per chiedere il nome: ¿cómo te llamas?",
       "uk": "Щоб запитати ім'я: ¿cómo te llamas?",
       "de": "Nach dem Namen fragen: ¿cómo te llamas?",
       "fr": "Pour demander un nom : ¿cómo te llamas?",
-      "pt": "Para perguntar o nome: ¿cómo te llamas?"
+      "pt": "Para perguntar o nome: ¿cómo te llamas?",
+      "zh": "问名字：¿cómo te llamas?"
      }
     },
     {
@@ -2533,13 +2742,15 @@
      "de": "Wie viel kostet das Brot?",
      "fr": "Combien coûte le pain ?",
      "pt": "Quanto custa o pão?",
+     "zh": "面包多少钱？",
      "hint": {
       "en": "A price: ¿cuánto cuesta?",
       "it": "Un prezzo: ¿cuánto cuesta?",
       "uk": "Ціна: ¿cuánto cuesta?",
       "de": "Ein Preis: ¿cuánto cuesta?",
       "fr": "Un prix : ¿cuánto cuesta?",
-      "pt": "Um preço: ¿cuánto cuesta?"
+      "pt": "Um preço: ¿cuánto cuesta?",
+      "zh": "问价格：¿cuánto cuesta?"
      }
     },
     {
@@ -2551,7 +2762,8 @@
       "uk": "Запитай подругу, куди вона йде в суботу.",
       "de": "Frag eine Freundin, wohin sie am Samstag geht.",
       "fr": "Demande à une amie où elle va samedi.",
-      "pt": "Pergunte a uma amiga aonde ela vai no sábado."
+      "pt": "Pergunte a uma amiga aonde ela vai no sábado.",
+      "zh": "问一个朋友星期六去哪里。"
      },
      "accepted": [
       "¿Adónde vas el sábado?",
@@ -2570,13 +2782,15 @@
      "de": "Wohin gehst du am Samstag?",
      "fr": "Où tu vas samedi ?",
      "pt": "Aonde você vai no sábado?",
+     "zh": "你星期六去哪里？",
      "hint": {
       "en": "Going somewhere: adónde + vas.",
       "it": "Andare da qualche parte: adónde + vas.",
       "uk": "Йти кудись: adónde + vas.",
       "de": "Irgendwohin gehen: adónde + vas.",
       "fr": "Aller quelque part : adónde + vas.",
-      "pt": "Ir a algum lugar: adónde + vas."
+      "pt": "Ir a algum lugar: adónde + vas.",
+      "zh": "去某个地方：adónde + vas。"
      }
     },
     {
@@ -2588,7 +2802,8 @@
       "uk": "Ти знайомишся з новою людиною. Напиши іспанською: «Де ти живеш? Що тобі подобається? Коли ти вчиш іспанську?»",
       "de": "Du lernst jemanden kennen. Schreib auf Spanisch: «Wo wohnst du? Was magst du? Wann lernst du Spanisch?»",
       "fr": "Tu rencontres quelqu'un de nouveau. Écris en espagnol : «Où tu habites ? Qu'est-ce que tu aimes ? Quand est-ce que tu étudies l'espagnol ?»",
-      "pt": "Você conhece alguém novo. Escreva em espanhol: «Onde você mora? Do que você gosta? Quando você estuda espanhol?»"
+      "pt": "Você conhece alguém novo. Escreva em espanhol: «Onde você mora? Do que você gosta? Quando você estuda espanhol?»",
+      "zh": "你认识了一个新朋友。用西班牙语写：«你住在哪里？你喜欢什么？你什么时候学西班牙语？»"
      },
      "accepted": [
       "¿Dónde vives? ¿Qué te gusta? ¿Cuándo estudias español?",
@@ -2602,7 +2817,8 @@
       "uk": "Де ти живеш? Що тобі подобається? Коли ти вчиш іспанську?",
       "de": "Wo wohnst du? Was magst du? Wann lernst du Spanisch?",
       "fr": "Où tu habites ? Qu'est-ce que tu aimes ? Quand est-ce que tu étudies l'espagnol ?",
-      "pt": "Onde você mora? Do que você gosta? Quando você estuda espanhol?"
+      "pt": "Onde você mora? Do que você gosta? Quando você estuda espanhol?",
+      "zh": "你住在哪里？你喜欢什么？你什么时候学西班牙语？"
      }
     }
    ]
@@ -2615,7 +2831,8 @@
     "uk": "Розкажи комусь про свій тиждень у 6 пов'язаних реченнях.",
     "de": "Erzähl jemandem in 6 verbundenen Sätzen von deiner Woche.",
     "fr": "Raconter ta semaine en 6 phrases liées.",
-    "pt": "Contar a alguém como é a sua semana em 6 frases ligadas."
+    "pt": "Contar a alguém como é a sua semana em 6 frases ligadas.",
+    "zh": "用 6 个连起来的句子跟别人讲讲你的一周。"
    },
    "target": {
     "es": "Los lunes termino a las cinco y llego a casa a las seis.",
@@ -2624,7 +2841,8 @@
     "uk": "По понеділках я закінчую о п'ятій і приходжу додому о шостій.",
     "de": "Montags höre ich um fünf auf und komme um sechs nach Hause.",
     "fr": "Le lundi, je finis à cinq heures et j'arrive à la maison à six heures.",
-    "pt": "Às segundas eu termino às cinco e chego em casa às seis."
+    "pt": "Às segundas eu termino às cinco e chego em casa às seis.",
+    "zh": "每周一我五点下班，六点到家。"
    },
    "items": [
     {
@@ -2638,6 +2856,7 @@
        "de": "aufhören, beenden",
        "fr": "finir, terminer",
        "pt": "terminar",
+       "zh": "结束，完成",
        "kind": "stem"
       },
       {
@@ -2648,6 +2867,7 @@
        "de": "ankommen",
        "fr": "arriver",
        "pt": "chegar",
+       "zh": "到达，到",
        "kind": "stem"
       },
       {
@@ -2658,6 +2878,7 @@
        "de": "nach Hause",
        "fr": "à la maison (pour y aller)",
        "pt": "para casa (indo para casa)",
+       "zh": "（回）家",
        "kind": "chunk"
       }
      ]
@@ -2673,6 +2894,7 @@
        "de": "das Frühstück",
        "fr": "le petit-déjeuner",
        "pt": "o café da manhã",
+       "zh": "早饭",
        "kind": "chunk"
       },
       {
@@ -2683,6 +2905,7 @@
        "de": "das Mittagessen (die Hauptmahlzeit)",
        "fr": "le déjeuner (le repas principal)",
        "pt": "o almoço (a refeição principal)",
+       "zh": "午饭（一天的正餐）",
        "kind": "chunk"
       },
       {
@@ -2693,6 +2916,7 @@
        "de": "ein Kurs, eine Unterrichtsstunde",
        "fr": "un cours",
        "pt": "uma aula",
+       "zh": "一节课",
        "kind": "chunk"
       }
      ]
@@ -2719,7 +2943,8 @@
       "uk": "Terminar (закінчувати) і llegar (приходити) — правильні дієслова на AR. Llegar a casa = приходити додому.",
       "de": "Terminar (aufhören, beenden) und llegar (ankommen) sind regelmäßige Verben auf -AR. Llegar a casa = nach Hause kommen.",
       "fr": "Terminar (finir) et llegar (arriver) sont des verbes réguliers en AR. Llegar a casa = arriver à la maison.",
-      "pt": "Terminar e llegar (chegar) são verbos regulares em AR. Llegar a casa = chegar em casa."
+      "pt": "Terminar e llegar (chegar) são verbos regulares em AR. Llegar a casa = chegar em casa.",
+      "zh": "Terminar（结束）和 llegar（到达）是规则的 AR 动词。Llegar a casa = 到家。"
      },
      "examples": [
       {
@@ -2729,7 +2954,8 @@
        "uk": "Я закінчую о п'ятій.",
        "de": "Ich höre um fünf auf.",
        "fr": "Je finis à cinq heures.",
-       "pt": "Eu termino às cinco."
+       "pt": "Eu termino às cinco.",
+       "zh": "我五点结束。"
       },
       {
        "es": "Llego a casa a las seis.",
@@ -2738,7 +2964,8 @@
        "uk": "Я приходжу додому о шостій.",
        "de": "Ich komme um sechs nach Hause.",
        "fr": "J'arrive à la maison à six heures.",
-       "pt": "Eu chego em casa às seis."
+       "pt": "Eu chego em casa às seis.",
+       "zh": "我六点到家。"
       },
       {
        "es": "¿A qué hora llegas al trabajo?",
@@ -2747,7 +2974,8 @@
        "uk": "О котрій ти приходиш на роботу?",
        "de": "Um wie viel Uhr kommst du bei der Arbeit an?",
        "fr": "À quelle heure tu arrives au travail ?",
-       "pt": "A que horas você chega no trabalho?"
+       "pt": "A que horas você chega no trabalho?",
+       "zh": "你几点到单位？"
       }
      ],
      "teaches": [
@@ -2758,7 +2986,8 @@
        "uk": "я закінчую",
        "de": "ich höre auf",
        "fr": "je finis",
-       "pt": "eu termino"
+       "pt": "eu termino",
+       "zh": "我结束"
       },
       {
        "es": "terminas",
@@ -2767,7 +2996,8 @@
        "uk": "ти закінчуєш",
        "de": "du hörst auf",
        "fr": "tu finis",
-       "pt": "você termina"
+       "pt": "você termina",
+       "zh": "你结束"
       },
       {
        "es": "termina",
@@ -2776,7 +3006,8 @@
        "uk": "він/вона закінчує",
        "de": "er/sie hört auf",
        "fr": "il/elle finit",
-       "pt": "ele/ela termina"
+       "pt": "ele/ela termina",
+       "zh": "他/她结束"
       },
       {
        "es": "terminamos",
@@ -2785,7 +3016,8 @@
        "uk": "ми закінчуємо",
        "de": "wir hören auf",
        "fr": "nous finissons",
-       "pt": "nós terminamos"
+       "pt": "nós terminamos",
+       "zh": "我们结束"
       },
       {
        "es": "termináis",
@@ -2794,7 +3026,8 @@
        "uk": "ви закінчуєте",
        "de": "ihr hört auf",
        "fr": "vous finissez",
-       "pt": "vocês terminam"
+       "pt": "vocês terminam",
+       "zh": "你们结束"
       },
       {
        "es": "terminan",
@@ -2803,7 +3036,8 @@
        "uk": "вони закінчують",
        "de": "sie hören auf",
        "fr": "ils/elles finissent",
-       "pt": "eles/elas terminam"
+       "pt": "eles/elas terminam",
+       "zh": "他们结束"
       },
       {
        "es": "llego",
@@ -2812,7 +3046,8 @@
        "uk": "я приходжу",
        "de": "ich komme an",
        "fr": "j'arrive",
-       "pt": "eu chego"
+       "pt": "eu chego",
+       "zh": "我到达"
       },
       {
        "es": "llegas",
@@ -2821,7 +3056,8 @@
        "uk": "ти приходиш",
        "de": "du kommst an",
        "fr": "tu arrives",
-       "pt": "você chega"
+       "pt": "você chega",
+       "zh": "你到达"
       },
       {
        "es": "llega",
@@ -2830,7 +3066,8 @@
        "uk": "він/вона приходить",
        "de": "er/sie kommt an",
        "fr": "il/elle arrive",
-       "pt": "ele/ela chega"
+       "pt": "ele/ela chega",
+       "zh": "他/她到达"
       },
       {
        "es": "llegamos",
@@ -2839,7 +3076,8 @@
        "uk": "ми приходимо",
        "de": "wir kommen an",
        "fr": "nous arrivons",
-       "pt": "nós chegamos"
+       "pt": "nós chegamos",
+       "zh": "我们到达"
       },
       {
        "es": "llegáis",
@@ -2848,7 +3086,8 @@
        "uk": "ви приходите",
        "de": "ihr kommt an",
        "fr": "vous arrivez",
-       "pt": "vocês chegam"
+       "pt": "vocês chegam",
+       "zh": "你们到达"
       },
       {
        "es": "llegan",
@@ -2857,7 +3096,8 @@
        "uk": "вони приходять",
        "de": "sie kommen an",
        "fr": "ils/elles arrivent",
-       "pt": "eles/elas chegam"
+       "pt": "eles/elas chegam",
+       "zh": "他们到达"
       }
      ]
     },
@@ -2871,7 +3111,8 @@
       "uk": "я приходжу",
       "de": "ich komme an",
       "fr": "j'arrive",
-      "pt": "eu chego"
+      "pt": "eu chego",
+      "zh": "我到达"
      },
      "stems": [
       "lleg",
@@ -2903,13 +3144,15 @@
      "de": "Meine Schwester hört um fünf auf.",
      "fr": "Ma sœur finit à cinq heures.",
      "pt": "Minha irmã termina às cinco.",
+     "zh": "我姐姐五点下班。",
      "hint": {
       "en": "Mi hermana = ella: -a.",
       "it": "Mi hermana = ella: -a.",
       "uk": "Mi hermana = ella: -a.",
       "de": "Mi hermana = ella: -a.",
       "fr": "Mi hermana = ella : -a.",
-      "pt": "Mi hermana = ella: -a."
+      "pt": "Mi hermana = ella: -a.",
+      "zh": "Mi hermana = ella：-a。"
      }
     },
     {
@@ -2934,7 +3177,8 @@
       "uk": "Поєднуй короткі речення словами y, pero, porque і cuando. Шість маленьких, добре пов'язаних речень — це вже розповідь про цілий тиждень.",
       "de": "Verbinde kurze Sätze mit y, pero, porque und cuando. Sechs kleine, gut verbundene Sätze erzählen schon eine ganze Woche.",
       "fr": "Relie les phrases courtes avec y, pero, porque et cuando. Six petites phrases bien liées racontent déjà toute une semaine.",
-      "pt": "Ligue frases curtas com y, pero, porque e cuando. Seis frases pequenas, bem ligadas, já contam uma semana inteira."
+      "pt": "Ligue frases curtas com y, pero, porque e cuando. Seis frases pequenas, bem ligadas, já contam uma semana inteira.",
+      "zh": "用 y、pero、porque 和 cuando 把短句连起来。六个小句子，连得好，就能讲完整整一周。"
      },
      "examples": [
       {
@@ -2944,7 +3188,8 @@
        "uk": "Я закінчую о п'ятій і приходжу додому о шостій.",
        "de": "Ich höre um fünf auf und komme um sechs nach Hause.",
        "fr": "Je finis à cinq heures et j'arrive à la maison à six heures.",
-       "pt": "Eu termino às cinco e chego em casa às seis."
+       "pt": "Eu termino às cinco e chego em casa às seis.",
+       "zh": "我五点下班，六点到家。"
       },
       {
        "es": "Los lunes estudio, pero los martes descanso.",
@@ -2953,7 +3198,8 @@
        "uk": "По понеділках я вчуся, а по вівторках відпочиваю.",
        "de": "Montags lerne ich, aber dienstags ruhe ich mich aus.",
        "fr": "Le lundi, j'étudie, mais le mardi, je me repose.",
-       "pt": "Às segundas eu estudo, mas às terças eu descanso."
+       "pt": "Às segundas eu estudo, mas às terças eu descanso.",
+       "zh": "我每周一学习，但是每周二休息。"
       },
       {
        "es": "Cuando llego a casa, ceno.",
@@ -2962,7 +3208,8 @@
        "uk": "Коли я приходжу додому, я вечеряю.",
        "de": "Wenn ich nach Hause komme, esse ich zu Abend.",
        "fr": "Quand j'arrive à la maison, je dîne.",
-       "pt": "Quando chego em casa, eu janto."
+       "pt": "Quando chego em casa, eu janto.",
+       "zh": "我到家以后就吃晚饭。"
       }
      ]
     },
@@ -2983,13 +3230,15 @@
      "de": "Ich esse bei der Arbeit, weil ich spät aufhöre.",
      "fr": "Je mange au travail parce que je finis tard.",
      "pt": "Eu como no trabalho porque termino tarde.",
+     "zh": "我在单位吃饭，因为我下班很晚。",
      "hint": {
       "en": "The second part is the reason: porque.",
       "it": "La seconda parte è il motivo: porque.",
       "uk": "Друга частина — це причина: porque.",
       "de": "Der zweite Teil ist der Grund: porque.",
       "fr": "La deuxième partie est la raison : porque.",
-      "pt": "A segunda parte é o motivo: porque."
+      "pt": "A segunda parte é o motivo: porque.",
+      "zh": "第二部分是原因：porque。"
      }
     },
     {
@@ -3001,7 +3250,8 @@
       "uk": "Скажи, що коли ти приходиш додому, ти відпочиваєш.",
       "de": "Sag, dass du dich ausruhst, wenn du nach Hause kommst.",
       "fr": "Dis que quand tu arrives à la maison, tu te reposes.",
-      "pt": "Diga que, quando você chega em casa, você descansa."
+      "pt": "Diga que, quando você chega em casa, você descansa.",
+      "zh": "说你到家以后就休息。"
      },
      "accepted": [
       "Cuando llego a casa, descanso.",
@@ -3021,13 +3271,15 @@
      "de": "Wenn ich nach Hause komme, ruhe ich mich aus.",
      "fr": "Quand j'arrive à la maison, je me repose.",
      "pt": "Quando chego em casa, eu descanso.",
+     "zh": "我到家以后就休息。",
      "hint": {
       "en": "Not a question: cuando without an accent.",
       "it": "Non è una domanda: cuando senza accento.",
       "uk": "Не запитання: cuando без наголосу.",
       "de": "Keine Frage: cuando ohne Akzent.",
       "fr": "Ce n'est pas une question : cuando sans accent.",
-      "pt": "Não é pergunta: cuando sem acento."
+      "pt": "Não é pergunta: cuando sem acento.",
+      "zh": "不是问题：cuando 不带重音符号。"
      }
     },
     {
@@ -3048,7 +3300,8 @@
       "uk": "В Іспанії la comida (обід) — головна їжа дня, десь о другій. El desayuno невеликий.",
       "de": "In Spanien ist la comida (das Mittagessen) die große Mahlzeit des Tages, gegen zwei Uhr. El desayuno ist klein.",
       "fr": "En Espagne, la comida (le déjeuner) est le grand repas de la journée, vers deux heures. El desayuno est léger.",
-      "pt": "Na Espanha, la comida (o almoço) é a refeição principal do dia, por volta das duas. El desayuno é leve."
+      "pt": "Na Espanha, la comida (o almoço) é a refeição principal do dia, por volta das duas. El desayuno é leve.",
+      "zh": "在西班牙，la comida（午饭）是一天中最丰盛的一餐，大约两点吃。El desayuno（早饭）吃得很简单。"
      },
      "examples": [
       {
@@ -3058,7 +3311,8 @@
        "uk": "Сніданок о восьмій.",
        "de": "Das Frühstück ist um acht.",
        "fr": "Le petit-déjeuner est à huit heures.",
-       "pt": "O café da manhã é às oito."
+       "pt": "O café da manhã é às oito.",
+       "zh": "早饭在八点。"
       },
       {
        "es": "La comida es a las dos.",
@@ -3067,7 +3321,8 @@
        "uk": "Обід о другій.",
        "de": "Das Mittagessen ist um zwei.",
        "fr": "Le déjeuner est à deux heures.",
-       "pt": "O almoço é às duas."
+       "pt": "O almoço é às duas.",
+       "zh": "午饭在两点。"
       },
       {
        "es": "Tengo una clase de español los jueves.",
@@ -3076,7 +3331,8 @@
        "uk": "По четвергах у мене заняття з іспанської.",
        "de": "Donnerstags habe ich Spanischkurs.",
        "fr": "J'ai un cours d'espagnol le jeudi.",
-       "pt": "Eu tenho aula de espanhol às quintas."
+       "pt": "Eu tenho aula de espanhol às quintas.",
+       "zh": "我每周四有一节西班牙语课。"
       }
      ]
     },
@@ -3096,13 +3352,15 @@
      "de": "In Spanien ist das Mittagessen um zwei.",
      "fr": "En Espagne, le déjeuner est à deux heures.",
      "pt": "Na Espanha, o almoço é às duas.",
+     "zh": "在西班牙，午饭在两点。",
      "hint": {
       "en": "The big meal around two: la comida.",
       "it": "Il pasto grande verso le due: la comida.",
       "uk": "Головна їжа десь о другій: la comida.",
       "de": "Die große Mahlzeit gegen zwei: la comida.",
       "fr": "Le grand repas vers deux heures : la comida.",
-      "pt": "A refeição principal, por volta das duas: la comida."
+      "pt": "A refeição principal, por volta das duas: la comida.",
+      "zh": "两点左右的正餐：la comida。"
      }
     },
     {
@@ -3114,7 +3372,8 @@
       "uk": "Скажи, що по четвергах у тебе заняття з іспанської.",
       "de": "Sag, dass du donnerstags Spanischkurs hast.",
       "fr": "Dis que tu as un cours d'espagnol le jeudi.",
-      "pt": "Diga que você tem aula de espanhol às quintas."
+      "pt": "Diga que você tem aula de espanhol às quintas.",
+      "zh": "说你每周四有西班牙语课。"
      },
      "accepted": [
       "Tengo una clase de español los jueves.",
@@ -3135,13 +3394,15 @@
      "de": "Donnerstags habe ich Spanischkurs.",
      "fr": "J'ai un cours d'espagnol le jeudi.",
      "pt": "Eu tenho aula de espanhol às quintas.",
+     "zh": "我每周四有一节西班牙语课。",
      "hint": {
       "en": "Every Thursday: los jueves.",
       "it": "Ogni giovedì: los jueves.",
       "uk": "Щочетверга: los jueves.",
       "de": "Jeden Donnerstag: los jueves.",
       "fr": "Tous les jeudis : los jueves.",
-      "pt": "Toda quinta: los jueves."
+      "pt": "Toda quinta: los jueves.",
+      "zh": "每个星期四：los jueves。"
      }
     },
     {
@@ -3159,13 +3420,15 @@
      "de": "Um wie viel Uhr kommst du nach Hause?",
      "fr": "À quelle heure tu arrives à la maison ?",
      "pt": "A que horas você chega em casa?",
+     "zh": "你几点到家？",
      "hint": {
       "en": "Tú: AR verbs end in -as.",
       "it": "Tú: i verbi in AR finiscono in -as.",
       "uk": "Tú: дієслова на AR закінчуються на -as.",
       "de": "Tú: Verben auf -AR enden auf -as.",
       "fr": "Tú : les verbes en AR finissent en -as.",
-      "pt": "Tú: os verbos em AR terminam em -as."
+      "pt": "Tú: os verbos em AR terminam em -as.",
+      "zh": "Tú：AR 动词以 -as 结尾。"
      }
     },
     {
@@ -3185,13 +3448,15 @@
      "de": "Wenn ich mit der Arbeit fertig bin, gehe ich ins Fitnessstudio.",
      "fr": "Quand je finis le travail, je vais à la salle de sport.",
      "pt": "Quando termino o trabalho, vou à academia.",
+     "zh": "我下班以后去健身房。",
      "hint": {
       "en": "Not a question: cuando without an accent.",
       "it": "Non è una domanda: cuando senza accento.",
       "uk": "Не запитання: cuando без наголосу.",
       "de": "Keine Frage: cuando ohne Akzent.",
       "fr": "Ce n'est pas une question : cuando sans accent.",
-      "pt": "Não é pergunta: cuando sem acento."
+      "pt": "Não é pergunta: cuando sem acento.",
+      "zh": "不是问题：cuando 不带重音符号。"
      }
     },
     {
@@ -3203,7 +3468,8 @@
       "uk": "Скажи, що по п'ятницях ти закінчуєш о третій.",
       "de": "Sag, dass du freitags um drei aufhörst.",
       "fr": "Dis que le vendredi, tu finis à trois heures.",
-      "pt": "Diga que às sextas você termina às três."
+      "pt": "Diga que às sextas você termina às três.",
+      "zh": "说你每周五三点下班。"
      },
      "accepted": [
       "Los viernes termino a las tres.",
@@ -3223,13 +3489,15 @@
      "de": "Freitags höre ich um drei auf.",
      "fr": "Le vendredi, je finis à trois heures.",
      "pt": "Às sextas eu termino às três.",
+     "zh": "我每周五三点下班。",
      "hint": {
       "en": "Every Friday: los viernes, then termino.",
       "it": "Ogni venerdì: los viernes, poi termino.",
       "uk": "Щоп'ятниці: los viernes, потім termino.",
       "de": "Jeden Freitag: los viernes, dann termino.",
       "fr": "Tous les vendredis : los viernes, puis termino.",
-      "pt": "Toda sexta: los viernes, depois termino."
+      "pt": "Toda sexta: los viernes, depois termino.",
+      "zh": "每个星期五：los viernes，然后是 termino。"
      }
     },
     {
@@ -3241,7 +3509,8 @@
       "uk": "Розкажи другові про свій тиждень. Напиши іспанською: «По понеділках я приходжу о дев'ятій і закінчую о п'ятій. По вівторках у мене заняття з іспанської, бо я її обожнюю.»",
       "de": "Erzähl einem Freund von deiner Woche. Schreib auf Spanisch: «Montags komme ich um neun an und höre um fünf auf. Dienstags habe ich Spanischkurs, weil ich ihn liebe.»",
       "fr": "Raconte ta semaine à un ami. Écris en espagnol : «Le lundi, j'arrive à neuf heures et je finis à cinq heures. Le mardi, j'ai un cours d'espagnol parce que j'adore ça.»",
-      "pt": "Conte a um amigo como é a sua semana. Escreva em espanhol: «Às segundas eu chego às nove e termino às cinco. Às terças eu tenho aula de espanhol porque adoro.»"
+      "pt": "Conte a um amigo como é a sua semana. Escreva em espanhol: «Às segundas eu chego às nove e termino às cinco. Às terças eu tenho aula de espanhol porque adoro.»",
+      "zh": "跟朋友讲讲你的一周。用西班牙语写：«每周一我九点到，五点下班。每周二我有一节西班牙语课，因为我超爱西班牙语。»"
      },
      "accepted": [
       "Los lunes llego a las nueve y termino a las cinco. Los martes tengo una clase de español porque me encanta.",
@@ -3257,7 +3526,8 @@
       "uk": "По понеділках я приходжу о дев'ятій і закінчую о п'ятій. По вівторках у мене заняття з іспанської, бо я її обожнюю.",
       "de": "Montags komme ich um neun an und höre um fünf auf. Dienstags habe ich Spanischkurs, weil ich ihn liebe.",
       "fr": "Le lundi, j'arrive à neuf heures et je finis à cinq heures. Le mardi, j'ai un cours d'espagnol parce que j'adore ça.",
-      "pt": "Às segundas eu chego às nove e termino às cinco. Às terças eu tenho aula de espanhol porque adoro."
+      "pt": "Às segundas eu chego às nove e termino às cinco. Às terças eu tenho aula de espanhol porque adoro.",
+      "zh": "每周一我九点到，五点下班。每周二我有一节西班牙语课，因为我超爱西班牙语。"
      }
     }
    ]
@@ -3271,7 +3541,8 @@
    "uk": "Ти на мовному обміні в Мадриді. Відповідай на запитання своєї партнерки по обміну і розкажи їй про свій тиждень.",
    "de": "Du bist bei einem Sprachtandem in Madrid. Beantworte die Fragen deiner Tandempartnerin und erzähl ihr von deiner Woche.",
    "fr": "Tu es à un échange linguistique à Madrid. Réponds aux questions de ta partenaire d'échange et raconte-lui ta semaine.",
-   "pt": "Você está em um intercâmbio de idiomas em Madri. Responda às perguntas da sua parceira de intercâmbio e conte para ela como é a sua semana."
+   "pt": "Você está em um intercâmbio de idiomas em Madri. Responda às perguntas da sua parceira de intercâmbio e conte para ela como é a sua semana.",
+   "zh": "你在马德里参加语言交换活动。回答语伴的问题，并跟她讲讲你的一周。"
   },
   "items": [
    {
@@ -3285,6 +3556,7 @@
       "de": "der Sprachaustausch, das Tandem",
       "fr": "l'échange (linguistique)",
       "pt": "o intercâmbio (de idiomas)",
+      "zh": "（语言）交换",
       "kind": "chunk"
      },
      {
@@ -3295,6 +3567,7 @@
       "de": "langsamer",
       "fr": "plus lentement",
       "pt": "mais devagar",
+      "zh": "慢一点",
       "kind": "chunk"
      }
     ]
@@ -3308,7 +3581,8 @@
      "uk": "Твоя партнерка по обміну каже «¡Hola! ¿Cómo te llamas?». Привітайся і скажи, як тебе звати.",
      "de": "Deine Tandempartnerin sagt «¡Hola! ¿Cómo te llamas?». Grüß sie und sag ihr, wie du heißt.",
      "fr": "Ta partenaire d'échange dit «¡Hola! ¿Cómo te llamas?». Dis bonjour et dis-lui comment tu t'appelles.",
-     "pt": "Sua parceira de intercâmbio diz «¡Hola! ¿Cómo te llamas?». Cumprimente e diga o seu nome."
+     "pt": "Sua parceira de intercâmbio diz «¡Hola! ¿Cómo te llamas?». Cumprimente e diga o seu nome.",
+     "zh": "你的语伴说：«¡Hola! ¿Cómo te llamas?»。跟她打招呼，告诉她你的名字。"
     },
     "accepted": [
      "Hola, me llamo {name}.",
@@ -3327,13 +3601,15 @@
     "de": "Hallo, ich heiße {name}.",
     "fr": "Salut, je m'appelle {name}.",
     "pt": "Oi, meu nome é {name}.",
+    "zh": "你好，我叫{name}。",
     "hint": {
      "en": "About yourself: me llamo.",
      "it": "Parli di te: me llamo.",
      "uk": "Про себе: me llamo.",
      "de": "Über dich selbst: me llamo.",
      "fr": "Tu parles de toi : me llamo.",
-     "pt": "Sobre você mesmo: me llamo."
+     "pt": "Sobre você mesmo: me llamo.",
+     "zh": "说你自己：me llamo。"
     }
    },
    {
@@ -3352,13 +3628,15 @@
     "de": "Sprichst du Englisch oder Italienisch? Ich spreche {languageDe} und ein bisschen Spanisch.",
     "fr": "Tu parles anglais ou italien ? Je parle {languageFr} et un peu espagnol.",
     "pt": "Você fala inglês ou italiano? Eu falo {languagePt} e um pouco de espanhol.",
+    "zh": "你说英语还是意大利语？我说{languageZh}，也会说一点西班牙语。",
     "hint": {
      "en": "About yourself: habl- + -o.",
      "it": "Parli di te: habl- + -o.",
      "uk": "Про себе: habl- + -o.",
      "de": "Über dich selbst: habl- + -o.",
      "fr": "Tu parles de toi : habl- + -o.",
-     "pt": "Sobre você mesmo: habl- + -o."
+     "pt": "Sobre você mesmo: habl- + -o.",
+     "zh": "说你自己：habl- + -o。"
     }
    },
    {
@@ -3370,7 +3648,8 @@
      "uk": "Вона говорить дуже швидко. Попроси її говорити повільніше, будь ласка.",
      "de": "Sie spricht sehr schnell. Bitte sie, langsamer zu sprechen.",
      "fr": "Elle parle très vite. Demande-lui de parler plus lentement, s'il te plaît.",
-     "pt": "Ela fala muito rápido. Peça para ela falar mais devagar, por favor."
+     "pt": "Ela fala muito rápido. Peça para ela falar mais devagar, por favor.",
+     "zh": "她说话很快。请她说慢一点。"
     },
     "accepted": [
      "Más despacio, por favor.",
@@ -3387,13 +3666,15 @@
     "de": "Langsamer, bitte.",
     "fr": "Plus lentement, s'il te plaît.",
     "pt": "Mais devagar, por favor.",
+    "zh": "请说慢一点。",
     "hint": {
      "en": "Más despacio + por favor.",
      "it": "Más despacio + por favor.",
      "uk": "Más despacio + por favor.",
      "de": "Más despacio + por favor.",
      "fr": "Más despacio + por favor.",
-     "pt": "Más despacio + por favor."
+     "pt": "Más despacio + por favor.",
+     "zh": "Más despacio + por favor。"
     }
    },
    {
@@ -3405,7 +3686,8 @@
      "uk": "Вона питає «¿Dónde trabajas?». Скажи їй.",
      "de": "Sie fragt «¿Dónde trabajas?». Antworte ihr.",
      "fr": "Elle demande «¿Dónde trabajas?». Réponds-lui.",
-     "pt": "Ela pergunta «¿Dónde trabajas?». Responda."
+     "pt": "Ela pergunta «¿Dónde trabajas?». Responda.",
+     "zh": "她问：«¿Dónde trabajas?»。告诉她。"
     },
     "accepted": [
      "Trabajo en {work}.",
@@ -3423,13 +3705,15 @@
     "de": "Ich arbeite {workDe}.",
     "fr": "Je travaille {workFr}.",
     "pt": "Eu trabalho {workPt}.",
+    "zh": "我{workZh}工作。",
     "hint": {
      "en": "About yourself: trabajo en + the place.",
      "it": "Parli di te: trabajo en + il luogo.",
      "uk": "Про себе: trabajo en + місце.",
      "de": "Über dich selbst: trabajo en + der Ort.",
      "fr": "Tu parles de toi : trabajo en + le lieu.",
-     "pt": "Sobre você mesmo: trabajo en + o lugar."
+     "pt": "Sobre você mesmo: trabajo en + o lugar.",
+     "zh": "说你自己：trabajo en + 地点。"
     }
    },
    {
@@ -3449,13 +3733,15 @@
     "de": "Um wie viel Uhr kommst du bei der Arbeit an? Ich komme um neun an.",
     "fr": "À quelle heure tu arrives au travail ? J'arrive à neuf heures.",
     "pt": "A que horas você chega no trabalho? Chego às nove.",
+    "zh": "你几点到单位？我九点到。",
     "hint": {
      "en": "At an hour: a las (a la only for one o'clock).",
      "it": "A un'ora: a las (a la solo per l'una).",
      "uk": "О певній годині: a las (a la тільки для першої).",
      "de": "Bei einer Uhrzeit: a las (a la nur für ein Uhr).",
      "fr": "À une heure précise : a las (a la seulement pour une heure).",
-     "pt": "Numa hora certa: a las (a la só para uma hora)."
+     "pt": "Numa hora certa: a las (a la só para uma hora).",
+     "zh": "在几点：a las（只有一点用 a la）。"
     }
    },
    {
@@ -3474,13 +3760,15 @@
     "de": "Und um wie viel Uhr hörst du auf? Ich höre um fünf auf.",
     "fr": "Et à quelle heure tu finis ? Je finis à cinq heures.",
     "pt": "E a que horas você termina? Eu termino às cinco.",
+    "zh": "那你几点下班？我五点下班。",
     "hint": {
      "en": "About yourself: termin- + -o.",
      "it": "Parli di te: termin- + -o.",
      "uk": "Про себе: termin- + -o.",
      "de": "Über dich selbst: termin- + -o.",
      "fr": "Tu parles de toi : termin- + -o.",
-     "pt": "Sobre você mesmo: termin- + -o."
+     "pt": "Sobre você mesmo: termin- + -o.",
+     "zh": "说你自己：termin- + -o。"
     }
    },
    {
@@ -3492,7 +3780,8 @@
      "uk": "Вона питає «¿Trabajas los sábados?». Скажи «ні», по суботах ти відпочиваєш.",
      "de": "Sie fragt «¿Trabajas los sábados?». Sag nein, samstags ruhst du dich aus.",
      "fr": "Elle demande «¿Trabajas los sábados?». Dis non, le samedi tu te reposes.",
-     "pt": "Ela pergunta «¿Trabajas los sábados?». Diga que não, aos sábados você descansa."
+     "pt": "Ela pergunta «¿Trabajas los sábados?». Diga que não, aos sábados você descansa.",
+     "zh": "她问：«¿Trabajas los sábados?»。说不，你每周六休息。"
     },
     "accepted": [
      "No, los sábados descanso.",
@@ -3511,13 +3800,15 @@
     "de": "Nein, samstags ruhe ich mich aus.",
     "fr": "Non, le samedi, je me repose.",
     "pt": "Não, aos sábados eu descanso.",
+    "zh": "不，我每周六休息。",
     "hint": {
      "en": "Every Saturday: los sábados.",
      "it": "Ogni sabato: los sábados.",
      "uk": "Щосуботи: los sábados.",
      "de": "Jeden Samstag: los sábados.",
      "fr": "Tous les samedis : los sábados.",
-     "pt": "Todo sábado: los sábados."
+     "pt": "Todo sábado: los sábados.",
+     "zh": "每个星期六：los sábados。"
     }
    },
    {
@@ -3536,13 +3827,15 @@
     "de": "Wann lernst du Spanisch? Ich lerne zweimal pro Woche.",
     "fr": "Quand est-ce que tu étudies l'espagnol ? J'étudie deux fois par semaine.",
     "pt": "Quando você estuda espanhol? Eu estudo duas vezes por semana.",
+    "zh": "你什么时候学西班牙语？我一周学两次。",
     "hint": {
      "en": "More than one time: veces.",
      "it": "Più di una volta: veces.",
      "uk": "Більше ніж один раз: veces.",
      "de": "Mehr als einmal: veces.",
      "fr": "Plus d'une fois : veces.",
-     "pt": "Mais de uma vez: veces."
+     "pt": "Mais de uma vez: veces.",
+     "zh": "不止一次：veces。"
     }
    },
    {
@@ -3554,7 +3847,8 @@
      "uk": "Вона питає «¿Por qué estudias español?». Скажи, що це тому, що ти обожнюєш іспанську.",
      "de": "Sie fragt «¿Por qué estudias español?». Antworte, dass es daran liegt, dass du Spanisch liebst.",
      "fr": "Elle demande «¿Por qué estudias español?». Dis que c'est parce que tu adores l'espagnol.",
-     "pt": "Ela pergunta «¿Por qué estudias español?». Diga que é porque você adora espanhol."
+     "pt": "Ela pergunta «¿Por qué estudias español?». Diga que é porque você adora espanhol.",
+     "zh": "她问：«¿Por qué estudias español?»。说是因为你超爱西班牙语。"
     },
     "accepted": [
      "Porque me encanta el español.",
@@ -3572,13 +3866,15 @@
     "de": "Weil ich Spanisch liebe.",
     "fr": "Parce que j'adore l'espagnol.",
     "pt": "Porque eu adoro espanhol.",
+    "zh": "因为我超爱西班牙语。",
     "hint": {
      "en": "The answer: porque, one word, no accent.",
      "it": "La risposta: porque, una parola, senza accento.",
      "uk": "Відповідь: porque, одним словом, без наголосу.",
      "de": "Die Antwort: porque, ein Wort, ohne Akzent.",
      "fr": "La réponse : porque, en un mot, sans accent.",
-     "pt": "A resposta: porque, uma palavra só, sem acento."
+     "pt": "A resposta: porque, uma palavra só, sem acento.",
+     "zh": "回答用 porque：一个词，不带重音符号。"
     }
    },
    {
@@ -3597,13 +3893,15 @@
     "de": "Kochst du viel? Nein, ich koche fast nie. Ich gehe lieber ins Restaurant.",
     "fr": "Tu cuisines beaucoup ? Non, je ne cuisine presque jamais. Je préfère aller au restaurant.",
     "pt": "Você cozinha muito? Não, quase nunca cozinho. Prefiro ir ao restaurante.",
+    "zh": "你经常做饭吗？不，我几乎从不做饭。我更喜欢去餐厅。",
     "hint": {
      "en": "Hardly ever: casi nunca.",
      "it": "Quasi mai: casi nunca.",
      "uk": "Майже ніколи: casi nunca.",
      "de": "Fast nie: casi nunca.",
      "fr": "Presque jamais : casi nunca.",
-     "pt": "Quase nunca: casi nunca."
+     "pt": "Quase nunca: casi nunca.",
+     "zh": "几乎从不：casi nunca。"
     }
    },
    {
@@ -3622,13 +3920,15 @@
     "de": "Wohin fährst du am Wochenende? Ich fahre an den Strand.",
     "fr": "Où tu vas le week-end ? Je vais à la plage.",
     "pt": "Aonde você vai nos fins de semana? Vou à praia.",
+    "zh": "你周末去哪里？我去海滩。",
     "hint": {
      "en": "Ir is irregular: yo voy.",
      "it": "Ir è irregolare: yo voy.",
      "uk": "Ir — неправильне дієслово: yo voy.",
      "de": "Ir ist unregelmäßig: yo voy.",
      "fr": "Ir est irrégulier : yo voy.",
-     "pt": "Ir é irregular: yo voy."
+     "pt": "Ir é irregular: yo voy.",
+     "zh": "Ir 是不规则动词：yo voy。"
     }
    },
    {
@@ -3640,7 +3940,8 @@
      "uk": "Вона питає про твій тиждень. Напиши іспанською: «По вівторках у мене заняття з іспанської, бо я її обожнюю. По п'ятницях я ходжу в кіно, а по суботах відпочиваю.»",
      "de": "Sie fragt nach deiner Woche. Schreib auf Spanisch: «Dienstags habe ich Spanischkurs, weil ich ihn liebe. Freitags gehe ich ins Kino, aber samstags ruhe ich mich aus.»",
      "fr": "Elle te pose des questions sur ta semaine. Écris en espagnol : «Le mardi, j'ai un cours d'espagnol parce que j'adore ça. Le vendredi, je vais au cinéma, mais le samedi, je me repose.»",
-     "pt": "Ela pergunta sobre a sua semana. Escreva em espanhol: «Às terças eu tenho aula de espanhol porque adoro. Às sextas vou ao cinema, mas aos sábados eu descanso.»"
+     "pt": "Ela pergunta sobre a sua semana. Escreva em espanhol: «Às terças eu tenho aula de espanhol porque adoro. Às sextas vou ao cinema, mas aos sábados eu descanso.»",
+     "zh": "她问你的一周过得怎么样。用西班牙语写：«每周二我有一节西班牙语课，因为我超爱西班牙语。每周五我去看电影，但是每周六我休息。»"
     },
     "accepted": [
      "Los martes tengo una clase de español porque me encanta. Los viernes voy al cine, pero los sábados descanso.",
@@ -3656,7 +3957,8 @@
      "uk": "По вівторках у мене заняття з іспанської, бо я її обожнюю. По п'ятницях я ходжу в кіно, а по суботах відпочиваю.",
      "de": "Dienstags habe ich Spanischkurs, weil ich ihn liebe. Freitags gehe ich ins Kino, aber samstags ruhe ich mich aus.",
      "fr": "Le mardi, j'ai un cours d'espagnol parce que j'adore ça. Le vendredi, je vais au cinéma, mais le samedi, je me repose.",
-     "pt": "Às terças eu tenho aula de espanhol porque adoro. Às sextas vou ao cinema, mas aos sábados eu descanso."
+     "pt": "Às terças eu tenho aula de espanhol porque adoro. Às sextas vou ao cinema, mas aos sábados eu descanso.",
+     "zh": "每周二我有一节西班牙语课，因为我超爱西班牙语。每周五我去看电影，但是每周六我休息。"
     }
    }
   ]

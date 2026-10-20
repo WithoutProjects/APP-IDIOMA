@@ -43,19 +43,19 @@ struct LabGame: Identifiable {
 
     static let all: [LabGame] = [
         LabGame(id: "pairs", title: "Parejas",
-                gloss: Gloss(en: "Match each verb to the right person.", it: "Abbina ogni verbo alla persona giusta.", uk: "З'єднай кожне дієслово з правильною особою.", de: "Ordne jedes Verb der richtigen Person zu.", fr: "Associe chaque verbe à la bonne personne.", pt: "Ligue cada verbo à pessoa certa."),
+                gloss: Gloss(en: "Match each verb to the right person.", it: "Abbina ogni verbo alla persona giusta.", uk: "З'єднай кожне дієслово з правильною особою.", de: "Ordne jedes Verb der richtigen Person zu.", fr: "Associe chaque verbe à la bonne personne.", pt: "Ligue cada verbo à pessoa certa.", zh: "把每个动词和正确的人称配对。"),
                 icon: "rectangle.on.rectangle", unlockedBy: "u1l1", isBuilt: true),
         LabGame(id: "rush", title: "Ending Rush",
-                gloss: Gloss(en: "60 seconds: flick each stem into the right person lane.", it: "60 secondi: lancia ogni radice nella corsia giusta.", uk: "60 секунд: кидай кожну основу на доріжку правильної особи.", de: "60 Sekunden: Schnipp jeden Stamm in die Bahn der richtigen Person.", fr: "60 secondes : lance chaque radical dans le couloir de la bonne personne.", pt: "60 segundos: lance cada radical na faixa da pessoa certa."),
+                gloss: Gloss(en: "60 seconds: flick each stem into the right person lane.", it: "60 secondi: lancia ogni radice nella corsia giusta.", uk: "60 секунд: кидай кожну основу на доріжку правильної особи.", de: "60 Sekunden: Schnipp jeden Stamm in die Bahn der richtigen Person.", fr: "60 secondes : lance chaque radical dans le couloir de la bonne personne.", pt: "60 segundos: lance cada radical na faixa da pessoa certa.", zh: "60 秒内：把每个词干甩进正确的人称跑道。"),
                 icon: "bolt.fill", unlockedBy: "u2l1", isBuilt: false),
         LabGame(id: "hunt", title: "Caza de errores",
-                gloss: Gloss(en: "Spot and fix the wrong forms in a chat.", it: "Trova e correggi le forme sbagliate in una chat.", uk: "Знайди й виправ неправильні форми в чаті.", de: "Finde und korrigiere die falschen Formen in einem Chat.", fr: "Repère et corrige les formes fausses dans une conversation.", pt: "Encontre e corrija as formas erradas em uma conversa."),
+                gloss: Gloss(en: "Spot and fix the wrong forms in a chat.", it: "Trova e correggi le forme sbagliate in una chat.", uk: "Знайди й виправ неправильні форми в чаті.", de: "Finde und korrigiere die falschen Formen in einem Chat.", fr: "Repère et corrige les formes fausses dans une conversation.", pt: "Encontre e corrija as formas erradas em uma conversa.", zh: "在聊天中找出并改正错误的形式。"),
                 icon: "magnifyingglass", unlockedBy: "u7l1", isBuilt: false),
         LabGame(id: "tenses", title: "Presente, pasado o futuro",
-                gloss: Gloss(en: "Match each verb to its tense.", it: "Abbina ogni verbo al suo tempo.", uk: "З'єднай кожне дієслово з його часом.", de: "Ordne jedes Verb seiner Zeitform zu.", fr: "Associe chaque verbe à son temps.", pt: "Ligue cada verbo ao seu tempo verbal."),
+                gloss: Gloss(en: "Match each verb to its tense.", it: "Abbina ogni verbo al suo tempo.", uk: "З'єднай кожне дієслово з його часом.", de: "Ordne jedes Verb seiner Zeitform zu.", fr: "Associe chaque verbe à son temps.", pt: "Ligue cada verbo ao seu tempo verbal.", zh: "把每个动词和它的时态配对。"),
                 icon: "clock.arrow.circlepath", unlockedBy: "u14l1", isBuilt: false),
         LabGame(id: "timemachine", title: "Máquina del tiempo",
-                gloss: Gloss(en: "Turn the time dial and re-conjugate the sentence.", it: "Gira la manopola del tempo e coniuga di nuovo la frase.", uk: "Поверни перемикач часу й переміни речення.", de: "Dreh am Zeitrad und konjugiere den Satz neu.", fr: "Tourne le cadran du temps et conjugue à nouveau la phrase.", pt: "Gire o seletor de tempo e conjugue a frase de novo."),
+                gloss: Gloss(en: "Turn the time dial and re-conjugate the sentence.", it: "Gira la manopola del tempo e coniuga di nuovo la frase.", uk: "Поверни перемикач часу й переміни речення.", de: "Dreh am Zeitrad und konjugiere den Satz neu.", fr: "Tourne le cadran du temps et conjugue à nouveau la phrase.", pt: "Gire o seletor de tempo e conjugue a frase de novo.", zh: "转动时间旋钮，重新给句子变位。"),
                 icon: "dial.medium", unlockedBy: "u21l1", isBuilt: false),
     ]
 
