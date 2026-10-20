@@ -12,14 +12,14 @@ struct LabView: View {
                         TablesView()
                     } label: {
                         door(title: "Repasar tablas",
-                             detail: Gloss(en: "Your verb tables and the Lego bench.", it: "Le tue tabelle dei verbi e il banco Lego.", uk: "Твої таблиці дієслів і лего-майстерня."),
+                             detail: Gloss(en: "Your verb tables and the Lego bench.", it: "Le tue tabelle dei verbi e il banco Lego.", uk: "Твої таблиці дієслів і лего-майстерня.", de: "Deine Verbtabellen und die Lego-Werkbank."),
                              icon: "tablecells", color: Brick.stem.color)
                     }
                     NavigationLink {
                         GamesView()
                     } label: {
                         door(title: "Jugar",
-                             detail: Gloss(en: "Verb minigames for your level.", it: "Minigiochi di verbi per il tuo livello.", uk: "Мініігри з дієсловами для твого рівня."),
+                             detail: Gloss(en: "Verb minigames for your level.", it: "Minigiochi di verbi per il tuo livello.", uk: "Мініігри з дієсловами для твого рівня.", de: "Verb-Minispiele für dein Niveau."),
                              icon: "gamecontroller.fill", color: Brick.ending.color)
                     }
                 }

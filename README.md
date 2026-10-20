@@ -29,7 +29,7 @@ La app lee ese archivo para dibujar la ruta. Para cambiar el orden o los título
 
 ## Qué hay ahora (v0.5)
 
-- **Bienvenida**: nombre, ciudad, trabajo, idioma (English / Italiano / Українська), objetivo y minutos al día.
+- **Bienvenida**: nombre, ciudad, trabajo, idioma (English / Italiano / Українська / Deutsch), objetivo y minutos al día.
 - **Inicio**: racha, XP, energía, botón Continuar con el nivel y la unidad actuales, y la unidad en curso.
 - **Recorrido A0–C2**: todos los niveles, unidades, lecciones, bosses, tests y exámenes, con el progreso de cada unidad.
 - **Formato de lección**: explicación, 2 ejercicios, siguiente explicación, 2 ejercicios… y un bloque final que lo mezcla todo. Cada bloque tiene como máximo 15 preguntas, contando los fallos que se repiten al final.
@@ -55,7 +55,7 @@ La app lee ese archivo para dibujar la ruta. Para cambiar el orden o los título
 
 ## Preparada para la App Store
 
-- **Idiomas**: toda la app (botones, explicaciones, pistas y traducciones) está en el idioma nativo del usuario, el que elige en el perfil (English / Italiano / Українська, por defecto el del iPhone). Los textos de la interfaz están en `Localizable.xcstrings`.
+- **Idiomas**: toda la app (botones, explicaciones, pistas y traducciones) está en el idioma nativo del usuario, el que elige en el perfil (English / Italiano / Українська / Deutsch, por defecto el del iPhone). Los textos de la interfaz están en `Localizable.xcstrings`.
 - **Privacidad**: sin cuentas, sin anuncios, sin seguimiento; todo se guarda en el teléfono. `PrivacyInfo.xcprivacy` lo declara. En App Store Connect la etiqueta de privacidad es «Datos no recopilados».
 - **Solo lo que funciona**: la pestaña Talk y los minijuegos que aún no existen no se muestran; cuando alguien termina las lecciones disponibles ve una tarjeta «Estás al día» en lugar de botones desactivados.
 - **Accesibilidad**: VoiceOver lee el estado de cada paso (hecho, siguiente, bloqueado), los textos crecen con el tamaño de letra del sistema y las bandejas de piezas pasan a otra línea si no caben.

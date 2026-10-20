@@ -8,11 +8,12 @@ python3 tools/validate_content.py            # all units
 python3 tools/validate_content.py u3 u4      # only these units (earlier units still count for vocabulary)
 ```
 
-Learners' languages: every text for the learner exists in English (`en`), Italian (`it`) and Ukrainian (`uk`).
-Wherever an object has `en` and `it`, it also has `uk`; the validator rejects a missing one. Placeholders:
+Learners' languages: every text for the learner exists in English (`en`), Italian (`it`), Ukrainian (`uk`) and German (`de`),
+with French (`fr`), Portuguese (`pt`, Brazil) and Chinese (`zh`, simplified) being added. Wherever an object has `en`,
+it has every language in `LANGS` (tools/validate_content.py); the validator rejects a missing one. Placeholders:
 `{workEn}` / `{workIt}` / `{workUk}` (where the learner works), `{languageEn}` / `{languageIt}` / `{languageUk}`
-(their language as in "I speak …"; in Ukrainian the instrumental, "українською"). Ukrainian writing
-instructions read "Напиши іспанською: «…»".
+(their language as in "I speak …"; in Ukrainian the instrumental, "українською"). Writing instructions:
+"Write in Spanish: «…»", "Scrivi in spagnolo: «…»", "Напиши іспанською: «…»", "Schreib auf Spanisch: «…»".
 
 ## Carla's lesson rules (non-negotiable)
 
