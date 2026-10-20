@@ -17,6 +17,17 @@ enum Workplace: String, Codable, CaseIterable, Identifiable {
         }
     }
 
+    /// The place on its own, for the vocabulary slides.
+    var nounGloss: Gloss {
+        switch self {
+        case .hospital: return Gloss(en: "a hospital", it: "un ospedale")
+        case .oficina: return Gloss(en: "an office", it: "un ufficio")
+        case .escuela: return Gloss(en: "a school", it: "una scuola")
+        case .casa: return Gloss(en: "home", it: "casa")
+        case .tienda: return Gloss(en: "a shop", it: "un negozio")
+        }
+    }
+
     var gloss: Gloss {
         switch self {
         case .hospital: return Gloss(en: "in a hospital", it: "in un ospedale")

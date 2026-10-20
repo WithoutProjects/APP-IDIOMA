@@ -32,7 +32,7 @@ struct TablesView: View {
                         Text(person.label).font(.caption.weight(.semibold))
                     }
                 }
-                ForEach(Unit1.verbs) { verb in
+                ForEach(Unit1.coreVerbs) { verb in
                     GridRow {
                         Text(verb.lemma).font(.caption).foregroundStyle(.secondary)
                             .gridColumnAlignment(.leading)
@@ -69,7 +69,7 @@ struct TablesView: View {
         return VStack(alignment: .leading, spacing: 14) {
             Text("LEGO BENCH").font(.caption.weight(.bold)).foregroundStyle(.secondary)
             Picker("Verb", selection: $benchLemma) {
-                ForEach(Unit1.verbs) { verb in
+                ForEach(Unit1.coreVerbs) { verb in
                     Text("\(verb.lemma) · \(verb.meaning.text(store.language))").tag(verb.lemma)
                 }
             }

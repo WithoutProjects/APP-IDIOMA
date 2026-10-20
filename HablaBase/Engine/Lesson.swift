@@ -1,12 +1,13 @@
 import Foundation
 
-/// Where an item sits in a lesson. Explanations (Frame) alternate with short practice runs,
-/// a mixed block closes the lesson, and unit tests have no explanations at all.
+/// Where an item sits in a lesson. New words come first, then explanations (Frame) alternate
+/// with short practice runs, a mixed block closes the lesson, and unit tests have no explanations.
 enum Beat: String {
-    case frame, forge, fire, mix, fix, test
+    case words, frame, forge, fire, mix, fix, test
 
     var title: String {
         switch self {
+        case .words: return "Vocabulario"
         case .frame: return "Frame"
         case .forge: return "Forge"
         case .fire: return "Fire"
@@ -15,6 +16,18 @@ enum Beat: String {
         case .test: return "Test"
         }
     }
+}
+
+/// A new word, introduced on a slide before any exercise uses it.
+struct VocabWord: Hashable {
+    let es: String
+    let gloss: Gloss
+    let kind: Brick
+}
+
+/// A small set of new words: first shown as slides, then matched with their translations.
+struct VocabSet: Hashable {
+    let words: [VocabWord]
 }
 
 /// One brick on an explanation card.
@@ -77,16 +90,20 @@ struct FreeWrite: Hashable {
 }
 
 enum ItemKind: Hashable {
+    case slides(VocabSet)
+    case match(VocabSet)
     case frame(FrameCard)
     case legoSnap(LegoSnap)
     case gapFill(GapFill)
     case builder(SentenceBuilder)
     case freeWrite(FreeWrite)
 
-    /// Explanations are read, not answered; everything else is a question.
+    /// Slides and explanations are read, not answered; everything else is a question.
     var isQuestion: Bool {
-        if case .frame = self { return false }
-        return true
+        switch self {
+        case .slides, .frame: return false
+        default: return true
+        }
     }
 }
 
@@ -120,4 +137,12 @@ struct Lesson: Identifiable {
     let items: [LessonItem]
 
     var questionCount: Int { items.filter { $0.kind.isQuestion }.count }
+
+    /// The words this lesson introduces on its slides.
+    var vocabulary: [VocabWord] {
+        items.flatMap { item -> [VocabWord] in
+            if case .slides(let set) = item.kind { return set.words }
+            return []
+        }
+    }
 }

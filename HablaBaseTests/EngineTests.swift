@@ -88,14 +88,56 @@ final class Unit1Tests: XCTestCase {
         for lesson in allBlocks {
             for item in lesson.items {
                 guard case .builder(let builder) = item.kind else { continue }
-                var tiles = builder.tiles.map(Grader.normalize)
-                for word in Grader.normalize(builder.accepted[0]).split(separator: " ").map(String.init) {
-                    guard let index = tiles.firstIndex(where: { $0 == word || $0.hasPrefix(word + " ") }) else {
-                        return XCTFail("\(item.id): no tile for \(word)")
-                    }
-                    tiles.remove(at: index)
+                let target = Grader.normalize(builder.accepted[0])
+                XCTAssertTrue(canBuild(target, from: builder.tiles.map(Grader.normalize)), item.id)
+            }
+        }
+    }
+
+    /// Whether some of the tiles, in some order, spell the target exactly.
+    private func canBuild(_ target: String, from tiles: [String]) -> Bool {
+        if target.isEmpty { return true }
+        for (index, tile) in tiles.enumerated() where target == tile || target.hasPrefix(tile + " ") {
+            var rest = tiles
+            rest.remove(at: index)
+            let remaining = String(target.dropFirst(tile.count)).trimmingCharacters(in: .whitespaces)
+            if canBuild(remaining, from: rest) { return true }
+        }
+        return false
+    }
+
+    /// Carla's rule: an exercise never uses a word the learner has not been shown yet.
+    func testEveryWordIsIntroducedBeforeItIsUsed() {
+        var known: Set<String> = Set([profile.name, profile.city].flatMap(words))
+        for verb in Unit1.coreVerbs {
+            for person in Unit1.persons {
+                known.insert(Conjugator.conjugate(verb, .presente, person).text)
+            }
+        }
+        for lesson in [Unit1.lesson1(), Unit1.lesson2(profile: profile), Unit1.unitTest()] {
+            for item in lesson.items {
+                if case .slides(let set) = item.kind {
+                    set.words.flatMap { words($0.es) }.forEach { known.insert($0) }
+                }
+                for word in spanishText(of: item.kind).flatMap(words) {
+                    XCTAssertTrue(known.contains(word), "\(item.id) uses \"\(word)\" before it is introduced")
                 }
             }
+        }
+    }
+
+    private func words(_ text: String) -> [String] {
+        Grader.normalize(text).split(separator: " ").map(String.init)
+    }
+
+    private func spanishText(of kind: ItemKind) -> [String] {
+        switch kind {
+        case .slides, .match: return []
+        case .frame(let card): return card.examples.map(\.es)
+        case .legoSnap(let snap): return [snap.answer.text]
+        case .gapFill(let gap): return [gap.sentence]
+        case .builder(let builder): return builder.accepted + builder.tiles
+        case .freeWrite(let write): return [write.model.es]
         }
     }
 
@@ -115,7 +157,7 @@ final class Unit1Tests: XCTestCase {
             if case .gapFill(let gap) = item.kind { return gap }
             return nil
         }
-        XCTAssertEqual(gaps.first?.sentence, "Yo estudio por la noche.")
+        XCTAssertEqual(gaps.first?.sentence, "Yo hablo español.")
         for gap in gaps {
             XCTAssertEqual(Grader.compare(gap.accepted[0], accepted: gap.accepted, hint: ""), .correct)
         }
@@ -131,7 +173,7 @@ final class Unit1Tests: XCTestCase {
 
 final class PairsGameTests: XCTestCase {
     func testEachRoundUsesDifferentPersons() {
-        let rounds = PairsGame.makeRounds(verbs: Unit1.verbs, persons: Unit1.persons)
+        let rounds = PairsGame.makeRounds(verbs: Unit1.coreVerbs, persons: Unit1.persons)
         XCTAssertEqual(rounds.count, PairsGame.rounds)
         for round in rounds {
             XCTAssertEqual(round.count, 3)

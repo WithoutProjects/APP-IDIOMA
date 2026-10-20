@@ -80,7 +80,7 @@ final class LessonSession: ObservableObject {
 
     private static func model(for kind: ItemKind) -> Example? {
         switch kind {
-        case .frame: return nil
+        case .slides, .match, .frame: return nil
         case .legoSnap(let snap): return Example(es: snap.answer.text, gloss: snap.prompt)
         case .gapFill(let gap): return Example(es: gap.sentence, gloss: gap.gloss)
         case .builder(let builder): return builder.model

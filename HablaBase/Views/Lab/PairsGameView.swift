@@ -84,7 +84,7 @@ struct PairsGameView: View {
     private func start() {
         guard rounds.isEmpty else { return }
         let unlocked = Unit1.unlockedPersons(completed: store.state.completedLessons)
-        rounds = PairsGame.makeRounds(verbs: Unit1.verbs, persons: unlocked)
+        rounds = PairsGame.makeRounds(verbs: Unit1.coreVerbs, persons: unlocked)
         startedAt = Date()
         beginRound()
     }

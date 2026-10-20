@@ -8,7 +8,7 @@ enum Unit1 {
              complement: "español", complementGloss: Gloss(en: "Spanish", it: "spagnolo")),
         Verb(lemma: "trabajar", meaning: Gloss(en: "to work", it: "lavorare"),
              present: [Gloss(en: "I work", it: "lavoro"), Gloss(en: "you work", it: "lavori"), Gloss(en: "she works", it: "lavora")],
-             complement: "en una oficina", complementGloss: Gloss(en: "in an office", it: "in un ufficio")),
+             complement: "mucho", complementGloss: Gloss(en: "a lot", it: "molto")),
         Verb(lemma: "estudiar", meaning: Gloss(en: "to study", it: "studiare"),
              present: [Gloss(en: "I study", it: "studio"), Gloss(en: "you study", it: "studi"), Gloss(en: "she studies", it: "studia")],
              complement: "por la noche", complementGloss: Gloss(en: "at night", it: "la sera")),
@@ -23,7 +23,7 @@ enum Unit1 {
              complement: "al trabajo", complementGloss: Gloss(en: "to work", it: "al lavoro")),
         Verb(lemma: "comer", meaning: Gloss(en: "to eat", it: "mangiare"),
              present: [Gloss(en: "I eat", it: "mangio"), Gloss(en: "you eat", it: "mangi"), Gloss(en: "she eats", it: "mangia")],
-             complement: "en casa", complementGloss: Gloss(en: "at home", it: "a casa")),
+             complement: "mucho", complementGloss: Gloss(en: "a lot", it: "molto")),
         Verb(lemma: "beber", meaning: Gloss(en: "to drink", it: "bere"),
              present: [Gloss(en: "I drink", it: "bevo"), Gloss(en: "you drink", it: "bevi"), Gloss(en: "she drinks", it: "beve")],
              complement: "café", complementGloss: Gloss(en: "coffee", it: "caffè")),
@@ -35,14 +35,19 @@ enum Unit1 {
              complement: "español", complementGloss: Gloss(en: "Spanish", it: "lo spagnolo")),
         Verb(lemma: "vivir", meaning: Gloss(en: "to live", it: "vivere"),
              present: [Gloss(en: "I live", it: "vivo"), Gloss(en: "you live", it: "vivi"), Gloss(en: "she lives", it: "vive")],
-             complement: "en Madrid", complementGloss: Gloss(en: "in Madrid", it: "a Madrid")),
+             complement: "aquí", complementGloss: Gloss(en: "here", it: "qui")),
         Verb(lemma: "escribir", meaning: Gloss(en: "to write", it: "scrivere"),
              present: [Gloss(en: "I write", it: "scrivo"), Gloss(en: "you write", it: "scrivi"), Gloss(en: "she writes", it: "scrive")],
-             complement: "mensajes", complementGloss: Gloss(en: "messages", it: "messaggi")),
+             complement: "mucho", complementGloss: Gloss(en: "a lot", it: "molto")),
     ]
 
     /// The persons Unit 1 teaches; nosotros, vosotros and ellos arrive in Unit 2.
     static let persons: [Person] = [.yo, .tu, .el]
+
+    /// The six verbs Lesson 1 introduces: two per family. Exercises and games use only these
+    /// until later lessons introduce more.
+    static let coreLemmas = ["hablar", "trabajar", "comer", "beber", "vivir", "escribir"]
+    static var coreVerbs: [Verb] { coreLemmas.map(verb) }
 
     static func verb(_ lemma: String) -> Verb {
         verbs.first { $0.lemma == lemma }!
@@ -64,63 +69,88 @@ enum Unit1 {
     }
 
     // MARK: - Lesson 1: Yo, tú, él
-    // Explain one person, practise it twice, move to the next person, then mix them all.
+    // New words first (slides, then matching). Then explain one person, practise it twice,
+    // move to the next person, and mix them all. Every word used was introduced first.
+
+    static let personWords = VocabSet(words: [
+        VocabWord(es: "yo", gloss: Gloss(en: "I", it: "io"), kind: .ending),
+        VocabWord(es: "tú", gloss: Gloss(en: "you", it: "tu"), kind: .ending),
+        VocabWord(es: "él", gloss: Gloss(en: "he", it: "lui"), kind: .ending),
+        VocabWord(es: "ella", gloss: Gloss(en: "she", it: "lei"), kind: .ending),
+    ])
+
+    static var verbWords: VocabSet {
+        VocabSet(words: coreVerbs.map { VocabWord(es: $0.lemma, gloss: $0.meaning, kind: .stem) })
+    }
+
+    static let extraWords = VocabSet(words: [
+        VocabWord(es: "español", gloss: Gloss(en: "Spanish", it: "spagnolo"), kind: .chunk),
+        VocabWord(es: "café", gloss: Gloss(en: "coffee", it: "caffè"), kind: .chunk),
+        VocabWord(es: "mucho", gloss: Gloss(en: "a lot", it: "molto"), kind: .chunk),
+        VocabWord(es: "aquí", gloss: Gloss(en: "here", it: "qui"), kind: .chunk),
+    ])
 
     static func lesson1() -> Lesson {
         let items: [LessonItem] = [
+            slides("u1l1-words-persons", personWords),
+            match("u1l1-match-persons", personWords),
+            slides("u1l1-words-verbs", verbWords),
+            match("u1l1-match-verbs", verbWords),
+            slides("u1l1-words-extra", extraWords),
+            match("u1l1-match-extra", extraWords),
+
             explain("u1l1-yo", .form("habl", "o",
-                rule: Gloss(en: "In Spanish, the ending tells who. Talking about yourself (yo)? End with -o.",
-                            it: "In spagnolo la desinenza dice chi. Parli di te (yo)? Finisci con -o."),
+                rule: Gloss(en: "A verb has two parts: the stem (blue) says the action, the ending (orange) says who. To talk about yourself (yo), take away -ar, -er or -ir and add -o.",
+                            it: "Un verbo ha due parti: la radice (blu) dice l'azione, la desinenza (arancione) dice chi. Per parlare di te (yo), togli -ar, -er o -ir e aggiungi -o."),
                 examples: [
-                    Example(es: "Hablo español.", gloss: Gloss(en: "I speak Spanish.", it: "Parlo spagnolo.")),
-                    Example(es: "Como en casa.", gloss: Gloss(en: "I eat at home.", it: "Mangio a casa.")),
-                    Example(es: "Vivo en Madrid.", gloss: Gloss(en: "I live in Madrid.", it: "Vivo a Madrid.")),
+                    Example(es: "Yo hablo español.", gloss: Gloss(en: "I speak Spanish.", it: "Io parlo spagnolo.")),
+                    Example(es: "Yo como mucho.", gloss: Gloss(en: "I eat a lot.", it: "Io mangio molto.")),
+                    Example(es: "Yo vivo aquí.", gloss: Gloss(en: "I live here.", it: "Io vivo qui.")),
                 ])),
             snap("u1l1-yo-1", .forge, "trabajar", .yo, stemsFrom: ["trabajar", "vivir", "hablar", "comer"], endings: ["o"]),
-            gap("u1l1-yo-2", .forge, "estudiar", .yo),
+            gap("u1l1-yo-2", .forge, "hablar", .yo),
 
             explain("u1l1-tu", .form("habl", "as",
-                rule: Gloss(en: "Talking to someone (tú)? Add -s: AR verbs end in -as, ER and IR verbs in -es.",
-                            it: "Parli con qualcuno (tú)? Aggiungi -s: i verbi in AR finiscono in -as, quelli in ER e IR in -es."),
+                rule: Gloss(en: "To talk to someone (tú), add -s: AR verbs end in -as, ER and IR verbs in -es. To ask a question, put the same sentence between ¿ and ?.",
+                            it: "Per parlare con qualcuno (tú), aggiungi -s: i verbi in AR finiscono in -as, quelli in ER e IR in -es. Per fare una domanda, metti la stessa frase tra ¿ e ?."),
                 examples: [
-                    Example(es: "¿Hablas inglés?", gloss: Gloss(en: "Do you speak English?", it: "Parli inglese?")),
-                    Example(es: "¿Comes carne?", gloss: Gloss(en: "Do you eat meat?", it: "Mangi carne?")),
-                    Example(es: "¿Dónde vives?", gloss: Gloss(en: "Where do you live?", it: "Dove vivi?")),
+                    Example(es: "Tú hablas español.", gloss: Gloss(en: "You speak Spanish.", it: "Tu parli spagnolo.")),
+                    Example(es: "¿Tú bebes café?", gloss: Gloss(en: "Do you drink coffee?", it: "Tu bevi caffè?")),
+                    Example(es: "¿Tú vives aquí?", gloss: Gloss(en: "Do you live here?", it: "Tu vivi qui?")),
                 ])),
-            snap("u1l1-tu-1", .forge, "comer", .tu, stemsFrom: ["comer", "cocinar", "leer", "escuchar"], endings: ["o", "as", "es"]),
-            gap("u1l1-tu-2", .forge, "hablar", .tu),
+            snap("u1l1-tu-1", .forge, "comer", .tu, stemsFrom: ["comer", "beber", "hablar", "escribir"], endings: ["o", "as", "es"]),
+            gap("u1l1-tu-2", .forge, "beber", .tu),
 
             explain("u1l1-el", .form("habl", "a",
-                rule: Gloss(en: "Talking about someone else (él, ella)? Take the tú form and drop the -s: -a for AR, -e for ER and IR.",
-                            it: "Parli di qualcun altro (él, ella)? Prendi la forma di tú e togli la -s: -a per AR, -e per ER e IR."),
+                rule: Gloss(en: "To talk about someone else (él, ella), take the tú form and drop the -s: -a for AR, -e for ER and IR.",
+                            it: "Per parlare di qualcun altro (él, ella), prendi la forma di tú e togli la -s: -a per AR, -e per ER e IR."),
                 examples: [
-                    Example(es: "Mi amiga habla tres idiomas.", gloss: Gloss(en: "My friend speaks three languages.", it: "La mia amica parla tre lingue.")),
-                    Example(es: "Mi padre lee el periódico.", gloss: Gloss(en: "My father reads the newspaper.", it: "Mio padre legge il giornale.")),
-                    Example(es: "Mi madre vive en Nápoles.", gloss: Gloss(en: "My mother lives in Naples.", it: "Mia madre vive a Napoli.")),
+                    Example(es: "Ella habla español.", gloss: Gloss(en: "She speaks Spanish.", it: "Lei parla spagnolo.")),
+                    Example(es: "Él bebe café.", gloss: Gloss(en: "He drinks coffee.", it: "Lui beve caffè.")),
+                    Example(es: "Ella vive aquí.", gloss: Gloss(en: "She lives here.", it: "Lei vive qui.")),
                 ])),
-            snap("u1l1-el-1", .forge, "escribir", .el, stemsFrom: ["escribir", "beber", "caminar", "aprender"], endings: ["o", "es", "e", "a"]),
+            snap("u1l1-el-1", .forge, "escribir", .el, stemsFrom: ["escribir", "beber", "trabajar", "vivir"], endings: ["o", "es", "e", "a"]),
             gap("u1l1-el-2", .forge, "trabajar", .el),
 
             // Mix: all three persons, all three families.
             gap("u1l1-mix-1", .mix, "vivir", .tu),
-            snap("u1l1-mix-2", .mix, "escuchar", .yo, stemsFrom: ["escuchar", "estudiar", "leer", "vivir"], endings: ["o", "as", "a"]),
-            gap("u1l1-mix-3", .mix, "beber", .el),
-            gap("u1l1-mix-4", .mix, "cocinar", .yo),
-            snap("u1l1-mix-5", .mix, "leer", .tu, stemsFrom: ["leer", "hablar", "comer", "escribir"], endings: ["es", "as", "e", "a"]),
-            builder("u1l1-mix-6", .mix,
-                    intention: Gloss(en: "Ask someone if they live in Madrid.", it: "Chiedi a qualcuno se vive a Madrid."),
-                    sentence: "¿Vives en Madrid?", tiles: ["Vives", "en", "Madrid", "Vivo", "Vive"],
-                    gloss: Gloss(en: "Do you live in Madrid?", it: "Vivi a Madrid?"),
-                    hint: Gloss(en: "Talking to someone: viv- + -es.", it: "Parli con qualcuno: viv- + -es."),
-                    formKeys: [Conjugator.key(verb("vivir"), .presente, .tu)]),
+            snap("u1l1-mix-2", .mix, "beber", .yo, stemsFrom: ["beber", "hablar", "vivir", "escribir"], endings: ["o", "as", "a"]),
+            gap("u1l1-mix-3", .mix, "comer", .el),
+            builder("u1l1-mix-4", .mix,
+                    intention: Gloss(en: "Ask someone if they speak Spanish.", it: "Chiedi a qualcuno se parla spagnolo."),
+                    accepted: ["¿Tú hablas español?", "¿Hablas español?"],
+                    tiles: ["Tú", "hablas", "español", "hablo", "habla"],
+                    gloss: Gloss(en: "Do you speak Spanish?", it: "Parli spagnolo?"),
+                    hint: Gloss(en: "Talking to someone: habl- + -as.", it: "Parli con qualcuno: habl- + -as."),
+                    formKeys: [Conjugator.key(verb("hablar"), .presente, .tu)]),
         ]
 
         return Lesson(
             id: "u1l1",
             title: "Yo, tú, él",
             titleGloss: Gloss(en: "I, you, he", it: "Io, tu, lui"),
-            goal: Gloss(en: "Build present-tense forms for yo, tú and él/ella in all three verb families.",
-                        it: "Costruisci il presente per yo, tú ed él/ella nelle tre famiglie di verbi."),
+            goal: Gloss(en: "Learn 14 words and build present-tense forms for yo, tú and él/ella.",
+                        it: "Impara 14 parole e costruisci il presente per yo, tú ed él/ella."),
             mode: .lesson,
             items: items
         )
@@ -129,65 +159,78 @@ enum Unit1 {
     // MARK: - Lesson 2: Me presento
     // Say three true sentences about yourself, built from the onboarding answers.
 
+    static func lesson2Words(profile: Profile) -> VocabSet {
+        let native = profile.nativeLanguage
+        return VocabSet(words: [
+            VocabWord(es: "me llamo", gloss: Gloss(en: "my name is", it: "mi chiamo"), kind: .chunk),
+            VocabWord(es: "en", gloss: Gloss(en: "in", it: "in, a"), kind: .rail),
+            VocabWord(es: "y", gloss: Gloss(en: "and", it: "e"), kind: .rail),
+            VocabWord(es: profile.workplace.spanish, gloss: profile.workplace.nounGloss, kind: .chunk),
+            VocabWord(es: native.spanishName,
+                      gloss: native == .english ? Gloss(en: "English", it: "inglese") : Gloss(en: "Italian", it: "italiano"),
+                      kind: .chunk),
+            VocabWord(es: "un poco de", gloss: Gloss(en: "a little", it: "un po' di"), kind: .chunk),
+        ])
+    }
+
     static func lesson2(profile: Profile) -> Lesson {
         func key(_ lemma: String) -> FormKey { Conjugator.key(verb(lemma), .presente, .yo) }
         let native = profile.nativeLanguage.spanishName
         let workplace = profile.workplace.spanish
+        let words = lesson2Words(profile: profile)
 
         let items: [LessonItem] = [
+            slides("u1l2-words", words),
+            match("u1l2-match", words),
+
             explain("u1l2-frame", FrameCard(
-                bricks: [FrameBrick(text: "Trabajo", kind: .stem), FrameBrick(text: "en", kind: .rail), FrameBrick(text: "una oficina", kind: .chunk)],
+                bricks: [FrameBrick(text: "Trabajo", kind: .stem), FrameBrick(text: "en", kind: .rail), FrameBrick(text: workplace, kind: .chunk)],
                 result: nil,
-                rule: Gloss(en: "A sentence is action + place. You don't need yo: the -o already says it's you.",
-                            it: "Una frase è azione + luogo. Non serve yo: la -o dice già che sei tu."),
+                rule: Gloss(en: "To say where, put en before the place. You can leave out yo: the -o already says it's you.",
+                            it: "Per dire dove, metti en prima del luogo. Puoi togliere yo: la -o dice già che sei tu."),
                 examples: [
-                    Example(es: "Trabajo en una oficina.", gloss: Gloss(en: "I work in an office.", it: "Lavoro in un ufficio.")),
-                    Example(es: "Vivo en Roma.", gloss: Gloss(en: "I live in Rome.", it: "Vivo a Roma.")),
+                    Example(es: "Trabajo en \(workplace).", gloss: Gloss(en: "I work \(profile.workplace.gloss.en).", it: "Lavoro \(profile.workplace.gloss.it).")),
+                    Example(es: "Vivo en \(profile.city).", gloss: Gloss(en: "I live in \(profile.city).", it: "Vivo a \(profile.city).")),
                 ])),
             builder("u1l2-work", .fire,
                     intention: Gloss(en: "Say where you work.", it: "Di dove lavori."),
-                    sentence: "Trabajo en \(workplace).",
-                    tiles: ["Trabajo", "en"] + workplace.split(separator: " ").map(String.init) + ["Vivo", "de"],
+                    accepted: ["Trabajo en \(workplace).", "Yo trabajo en \(workplace)."],
+                    tiles: ["Trabajo", "en", workplace, "Vivo", "aquí"],
                     gloss: Gloss(en: "I work \(profile.workplace.gloss.en).", it: "Lavoro \(profile.workplace.gloss.it)."),
-                    hint: Gloss(en: "Start with the action: trabaj- + -o.", it: "Inizia con l'azione: trabaj- + -o."),
+                    hint: Gloss(en: "Action, then en, then the place.", it: "Azione, poi en, poi il luogo."),
                     formKeys: [key("trabajar")]),
             builder("u1l2-home", .fire,
-                    intention: Gloss(en: "Say where you live.", it: "Di dove vivi."),
-                    sentence: "Vivo en \(profile.city).",
-                    tiles: ["Vivo", "en", profile.city, "Trabajo", "de"],
+                    intention: Gloss(en: "Say which city you live in.", it: "Di in che città vivi."),
+                    accepted: ["Vivo en \(profile.city).", "Yo vivo en \(profile.city)."],
+                    tiles: ["Vivo", "en", profile.city, "Trabajo", "aquí"],
                     gloss: Gloss(en: "I live in \(profile.city).", it: "Vivo a \(profile.city)."),
-                    hint: Gloss(en: "Places take en: Vivo en...", it: "I luoghi vogliono en: Vivo en..."),
+                    hint: Gloss(en: "viv- + -o, then en and your city.", it: "viv- + -o, poi en e la tua città."),
                     formKeys: [key("vivir")]),
 
             explain("u1l2-y", FrameCard(
-                bricks: [FrameBrick(text: "Hablo italiano", kind: .chunk), FrameBrick(text: "y", kind: .rail), FrameBrick(text: "estudio español", kind: .chunk)],
+                bricks: [FrameBrick(text: "Hablo español", kind: .chunk), FrameBrick(text: "y", kind: .rail), FrameBrick(text: "bebo café", kind: .chunk)],
                 result: nil,
-                rule: Gloss(en: "y (and) joins two sentences into one. It is your first rail.",
-                            it: "y (e) unisce due frasi in una. È il tuo primo binario."),
+                rule: Gloss(en: "y (and) joins two sentences into one. It is your first connector.",
+                            it: "y (e) unisce due frasi in una. È il tuo primo connettore."),
                 examples: [
-                    Example(es: "Como en casa y bebo agua.", gloss: Gloss(en: "I eat at home and drink water.", it: "Mangio a casa e bevo acqua.")),
+                    Example(es: "Como mucho y bebo café.", gloss: Gloss(en: "I eat a lot and drink coffee.", it: "Mangio molto e bevo caffè.")),
+                    Example(es: "Hablo \(native) y un poco de español.", gloss: Gloss(en: "I speak \(profile.nativeLanguage == .english ? "English" : "Italian") and a little Spanish.",
+                                                                                      it: "Parlo \(profile.nativeLanguage == .english ? "inglese" : "italiano") e un po' di spagnolo.")),
                 ])),
             builder("u1l2-language", .fire,
                     intention: Gloss(en: "Say which language you speak, and that you speak a little Spanish.", it: "Di che lingua parli, e che parli un po' di spagnolo."),
-                    sentence: "Hablo \(native) y un poco de español.",
-                    tiles: ["Hablo", native, "y", "un", "poco", "de", "español", "Estudio"],
+                    accepted: ["Hablo \(native) y un poco de español."],
+                    tiles: ["Hablo", native, "y", "un poco de", "español", "Como"],
                     gloss: Gloss(en: "I speak \(profile.nativeLanguage == .english ? "English" : "Italian") and a little Spanish.",
                                  it: "Parlo \(profile.nativeLanguage == .english ? "inglese" : "italiano") e un po' di spagnolo."),
                     hint: Gloss(en: "y joins the two parts: Hablo ... y un poco de español.", it: "y unisce le due parti: Hablo ... y un poco de español."),
                     formKeys: [key("hablar")]),
-            builder("u1l2-study", .fire,
-                    intention: Gloss(en: "Say that you study Spanish at night.", it: "Di che studi spagnolo la sera."),
-                    sentence: "Estudio español por la noche.",
-                    tiles: ["Estudio", "español", "por", "la", "noche", "Hablo", "el"],
-                    gloss: Gloss(en: "I study Spanish at night.", it: "Studio spagnolo la sera."),
-                    hint: Gloss(en: "Time chunk: por la noche.", it: "Blocco di tempo: por la noche."),
-                    formKeys: [key("estudiar")]),
             builder("u1l2-name", .fire,
                     intention: Gloss(en: "Say your name.", it: "Di come ti chiami."),
-                    sentence: "Me llamo \(profile.name).",
-                    tiles: ["Me", "llamo", profile.name, "Vivo"],
+                    accepted: ["Me llamo \(profile.name)."],
+                    tiles: ["Me llamo", profile.name, "Vivo"],
                     gloss: Gloss(en: "My name is \(profile.name).", it: "Mi chiamo \(profile.name)."),
-                    hint: Gloss(en: "Learn it as one block: Me llamo...", it: "Imparalo come un blocco: Me llamo..."),
+                    hint: Gloss(en: "Start with me llamo.", it: "Inizia con me llamo."),
                     formKeys: []),
 
             LessonItem(
@@ -219,16 +262,16 @@ enum Unit1 {
     }
 
     // MARK: - Unit test
-    // 10 mixed questions, no explanations. 8 right skips the unit.
+    // 10 mixed questions, no explanations, only words from the unit's lessons. 8 right skips the unit.
 
     static func unitTest() -> Lesson {
         var rng = SystemRandomNumberGenerator()
-        let picks = verbs.shuffled(using: &rng)
+        let picks = (coreVerbs + coreVerbs).shuffled(using: &rng)
         var items: [LessonItem] = []
 
         for (index, verb) in picks.prefix(4).enumerated() {
             let person = persons.randomElement(using: &rng)!
-            let others = verbs.filter { $0.lemma != verb.lemma }.shuffled(using: &rng).prefix(3).map(\.lemma)
+            let others = coreVerbs.filter { $0.lemma != verb.lemma }.shuffled(using: &rng).prefix(3).map(\.lemma)
             items.append(snap("u1test-snap-\(index)", .test, verb.lemma, person,
                               stemsFrom: [verb.lemma] + others, endings: ["o", "as", "es", "a", "e"]))
         }
@@ -236,13 +279,15 @@ enum Unit1 {
             items.append(gap("u1test-gap-\(index)", .test, verb.lemma, persons.randomElement(using: &rng)!))
         }
         let questions: [(String, [String], Gloss, Gloss)] = [
-            ("¿Comes carne?", ["Comes", "carne", "Como", "Come"], Gloss(en: "Ask someone if they eat meat.", it: "Chiedi a qualcuno se mangia carne."), Gloss(en: "Do you eat meat?", it: "Mangi carne?")),
-            ("¿Hablas inglés?", ["Hablas", "inglés", "Hablo", "Habla"], Gloss(en: "Ask someone if they speak English.", it: "Chiedi a qualcuno se parla inglese."), Gloss(en: "Do you speak English?", it: "Parli inglese?")),
-            ("¿Trabajas hoy?", ["Trabajas", "hoy", "Trabajo", "Trabaja"], Gloss(en: "Ask someone if they are working today.", it: "Chiedi a qualcuno se lavora oggi."), Gloss(en: "Are you working today?", it: "Lavori oggi?")),
+            ("¿Bebes café?", ["Bebes", "café", "Bebo", "Bebe"], Gloss(en: "Ask someone if they drink coffee.", it: "Chiedi a qualcuno se beve caffè."), Gloss(en: "Do you drink coffee?", it: "Bevi caffè?")),
+            ("¿Hablas español?", ["Hablas", "español", "Hablo", "Habla"], Gloss(en: "Ask someone if they speak Spanish.", it: "Chiedi a qualcuno se parla spagnolo."), Gloss(en: "Do you speak Spanish?", it: "Parli spagnolo?")),
+            ("¿Vives aquí?", ["Vives", "aquí", "Vivo", "Vive"], Gloss(en: "Ask someone if they live here.", it: "Chiedi a qualcuno se vive qui."), Gloss(en: "Do you live here?", it: "Vivi qui?")),
         ]
         let question = questions.randomElement(using: &rng)!
-        items.append(builder("u1test-builder", .test, intention: question.2, sentence: question.0, tiles: question.1,
-                             gloss: question.3, hint: Gloss(en: "Talking to someone: -as or -es.", it: "Parli con qualcuno: -as o -es."),
+        items.append(builder("u1test-builder", .test, intention: question.2,
+                             accepted: [question.0, "¿Tú " + question.0.dropFirst().lowercased()],
+                             tiles: question.1, gloss: question.3,
+                             hint: Gloss(en: "Talking to someone: -as or -es.", it: "Parli con qualcuno: -as o -es."),
                              formKeys: []))
 
         return Lesson(
@@ -307,7 +352,15 @@ enum Unit1 {
         )
     }
 
-    private static func builder(_ id: String, _ beat: Beat, intention: Gloss, sentence: String, tiles: [String],
+    private static func slides(_ id: String, _ set: VocabSet) -> LessonItem {
+        LessonItem(id: id, beat: .words, kind: .slides(set), heartsAtRisk: false, formKeys: [])
+    }
+
+    private static func match(_ id: String, _ set: VocabSet) -> LessonItem {
+        LessonItem(id: id, beat: .words, kind: .match(set), heartsAtRisk: false, formKeys: [])
+    }
+
+    private static func builder(_ id: String, _ beat: Beat, intention: Gloss, accepted: [String], tiles: [String],
                                 gloss: Gloss, hint: Gloss, formKeys: [FormKey]) -> LessonItem {
         LessonItem(
             id: id,
@@ -315,8 +368,8 @@ enum Unit1 {
             kind: .builder(SentenceBuilder(
                 intention: intention,
                 tiles: tiles.shuffled(),
-                accepted: [sentence],
-                model: Example(es: sentence, gloss: gloss),
+                accepted: accepted,
+                model: Example(es: accepted[0], gloss: gloss),
                 hint: hint
             )),
             heartsAtRisk: true,

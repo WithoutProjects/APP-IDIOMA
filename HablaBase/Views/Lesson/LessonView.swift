@@ -63,6 +63,10 @@ struct LessonView: View {
             if session.isFinished { finish() }
         }
         switch item.kind {
+        case .slides(let set):
+            VocabSlidesView(set: set, language: store.language) { submit(.correct) }
+        case .match(let set):
+            VocabMatchView(set: set, language: store.language, onSubmit: submit)
         case .frame(let card):
             FrameCardView(card: card, language: store.language) { submit(.correct) }
         case .legoSnap(let snap):

@@ -1,5 +1,135 @@
 import SwiftUI
 
+// MARK: - Vocabulary
+
+/// New words, one per slide: the Spanish word, its translation, and nothing else.
+struct VocabSlidesView: View {
+    let set: VocabSet
+    let language: NativeLanguage
+    let onContinue: () -> Void
+    @State var page = 0
+
+    var body: some View {
+        VStack(spacing: 20) {
+            Text("New words")
+                .font(.title2.weight(.semibold))
+                .frame(maxWidth: .infinity, alignment: .leading)
+
+            TabView(selection: $page) {
+                ForEach(Array(set.words.enumerated()), id: \.offset) { index, word in
+                    VStack(spacing: 14) {
+                        Text(word.es)
+                            .font(.system(size: 40, weight: .bold, design: .rounded))
+                            .foregroundStyle(word.kind.color)
+                        Text(word.gloss.text(language))
+                            .font(.title2)
+                            .foregroundStyle(.secondary)
+                    }
+                    .frame(maxWidth: .infinity, maxHeight: .infinity)
+                    .background(RoundedRectangle(cornerRadius: 24).fill(Palette.card))
+                    .padding(.horizontal, 4)
+                    .accessibilityElement(children: .combine)
+                    .tag(index)
+                }
+            }
+            .tabViewStyle(.page(indexDisplayMode: .always))
+            .indexViewStyle(.page(backgroundDisplayMode: .always))
+            .frame(height: 280)
+
+            Button(page < set.words.count - 1 ? "Next" : "Practise these words") {
+                if page < set.words.count - 1 {
+                    withAnimation { page += 1 }
+                } else {
+                    onContinue()
+                }
+            }
+            .buttonStyle(PrimaryButtonStyle())
+        }
+    }
+}
+
+/// Match each new word with its translation. Mixing two up sends the set back to Fix.
+struct VocabMatchView: View {
+    let set: VocabSet
+    let language: NativeLanguage
+    let onSubmit: (GradeOutcome) -> Void
+    @State var words: [VocabWord] = []
+    @State var translations: [VocabWord] = []
+    @State var selected: VocabWord?
+    @State var matched: Set<String> = []
+    @State var wrong: VocabWord?
+    @State var confused: [VocabWord] = []
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 20) {
+            Text("Match each word with its translation.")
+                .font(.title2.weight(.semibold))
+            HStack(alignment: .top, spacing: 12) {
+                VStack(spacing: 10) {
+                    ForEach(words, id: \.self) { word in
+                        card(word.es, done: matched.contains(word.es), highlighted: selected == word, warning: false) {
+                            selected = word
+                        }
+                    }
+                }
+                VStack(spacing: 10) {
+                    ForEach(translations, id: \.self) { word in
+                        card(word.gloss.text(language), done: matched.contains(word.es), highlighted: false, warning: wrong == word) {
+                            pick(word)
+                        }
+                        .disabled(selected == nil)
+                    }
+                }
+            }
+        }
+        .onAppear {
+            if words.isEmpty {
+                words = set.words.shuffled()
+                translations = set.words.shuffled()
+            }
+        }
+    }
+
+    private func card(_ text: String, done: Bool, highlighted: Bool, warning: Bool, action: @escaping () -> Void) -> some View {
+        Button(action: action) {
+            Text(text)
+                .font(.body.weight(.semibold))
+                .multilineTextAlignment(.center)
+                .frame(maxWidth: .infinity, minHeight: 52)
+                .padding(.horizontal, 6)
+                .background(RoundedRectangle(cornerRadius: 12).fill(warning ? Palette.warning.opacity(0.25) : highlighted ? Brick.stem.color.opacity(0.18) : Palette.card))
+                .overlay(RoundedRectangle(cornerRadius: 12).strokeBorder(highlighted ? Brick.stem.color : .clear, lineWidth: 2))
+        }
+        .buttonStyle(.plain)
+        .opacity(done ? 0.25 : 1)
+        .disabled(done)
+    }
+
+    private func pick(_ translation: VocabWord) {
+        guard let word = selected else { return }
+        if word == translation {
+            withAnimation(.spring(response: 0.3)) { matched.insert(word.es) }
+            selected = nil
+            if matched.count == set.words.count { finish() }
+        } else {
+            if !confused.contains(word) { confused.append(word) }
+            withAnimation(.easeInOut(duration: 0.2)) { wrong = translation }
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+                withAnimation { wrong = nil }
+            }
+        }
+    }
+
+    private func finish() {
+        if confused.isEmpty {
+            onSubmit(.correct)
+        } else {
+            let pairs = confused.map { "\($0.es) = \($0.gloss.text(language))" }.joined(separator: " · ")
+            onSubmit(.wrong(hint: pairs))
+        }
+    }
+}
+
 // MARK: - Frame
 
 /// An explanation: habl- + -o = hablo, one rule, a few examples.
