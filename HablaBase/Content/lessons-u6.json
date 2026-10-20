@@ -394,11 +394,15 @@
      "type": "write",
      "beat": "mix",
      "instruction": {
-      "en": "Say at what time you start work and at what time you eat.",
-      "it": "Di a che ora lavori e a che ora mangi."
+      "en": "Write in Spanish: «I work {workEn} at nine and I eat at two.»",
+      "it": "Scrivi in spagnolo: «Lavoro {workIt} alle nove e mangio alle due.»"
      },
-     "required": [
-      "a las"
+     "accepted": [
+      "Trabajo en {work} a las nueve y como a las dos.",
+      "Yo trabajo en {work} a las nueve y como a las dos.",
+      "Trabajo a las nueve en {work} y como a las dos.",
+      "A las nueve trabajo en {work} y a las dos como.",
+      "Yo trabajo en {work} a las nueve y yo como a las dos."
      ],
      "model": {
       "es": "Trabajo en {work} a las nueve y como a las dos.",
@@ -793,12 +797,16 @@
      "type": "write",
      "beat": "mix",
      "instruction": {
-      "en": "Describe your week: what you do on two different days, joined with y.",
-      "it": "Descrivi la tua settimana: cosa fai in due giorni diversi, uniti con y."
+      "en": "Write in Spanish: «On Mondays I work {workEn} and on Saturdays I go to the beach.»",
+      "it": "Scrivi in spagnolo: «Il lunedì lavoro {workIt} e il sabato vado in spiaggia.»"
      },
-     "required": [
-      "los",
-      "y"
+     "accepted": [
+      "Los lunes trabajo en {work} y los sábados voy a la playa.",
+      "Los lunes yo trabajo en {work} y los sábados voy a la playa.",
+      "Trabajo en {work} los lunes y los sábados voy a la playa.",
+      "Trabajo en {work} los lunes y voy a la playa los sábados.",
+      "Los lunes trabajo en {work} y voy a la playa los sábados.",
+      "Los sábados voy a la playa y los lunes trabajo en {work}."
      ],
      "model": {
       "es": "Los lunes trabajo en {work} y los sábados voy a la playa.",
@@ -1253,12 +1261,16 @@
      "type": "write",
      "beat": "mix",
      "instruction": {
-      "en": "Say how often you do three things: use siempre and nunca.",
-      "it": "Di quanto spesso fai tre cose: usa siempre e nunca."
+      "en": "Write in Spanish: «I always have breakfast at home, sometimes I have a tea and I never drink wine.»",
+      "it": "Scrivi in spagnolo: «Faccio sempre colazione a casa, a volte prendo un tè e non bevo mai vino.»"
      },
-     "required": [
-      "siempre",
-      "nunca"
+     "accepted": [
+      "Siempre desayuno en casa, a veces tomo un té y nunca bebo vino.",
+      "Yo siempre desayuno en casa, a veces tomo un té y nunca bebo vino.",
+      "Desayuno siempre en casa, a veces tomo un té y nunca bebo vino.",
+      "Siempre desayuno en casa, tomo un té a veces y nunca bebo vino.",
+      "Siempre desayuno en casa, a veces tomo un té y no bebo nunca vino.",
+      "Siempre desayuno en casa, a veces tomo un té y no bebo vino nunca."
      ],
      "model": {
       "es": "Siempre desayuno en casa, a veces tomo un té y nunca bebo vino.",
@@ -1715,12 +1727,13 @@
      "type": "write",
      "beat": "mix",
      "instruction": {
-      "en": "You meet someone new. Ask three questions: use ¿dónde? and ¿qué?.",
-      "it": "Conosci una persona nuova. Fai tre domande: usa ¿dónde? e ¿qué?."
+      "en": "You meet someone new. Write in Spanish: «Where do you live? What do you like? When do you study Spanish?»",
+      "it": "Conosci una persona nuova. Scrivi in spagnolo: «Dove vivi? Cosa ti piace? Quando studi spagnolo?»"
      },
-     "required": [
-      "dónde",
-      "qué"
+     "accepted": [
+      "¿Dónde vives? ¿Qué te gusta? ¿Cuándo estudias español?",
+      "¿Dónde vives tú? ¿Qué te gusta? ¿Cuándo estudias español?",
+      "¿Dónde vives? ¿Qué te gusta? ¿Cuándo estudias tú español?"
      ],
      "model": {
       "es": "¿Dónde vives? ¿Qué te gusta? ¿Cuándo estudias español?",
@@ -2151,19 +2164,20 @@
      "type": "write",
      "beat": "mix",
      "instruction": {
-      "en": "Tell your week in 6 linked sentences: days, times, how often, and why. Use y and porque.",
-      "it": "Racconta la tua settimana in 6 frasi collegate: giorni, orari, quanto spesso e perché. Usa y e porque."
+      "en": "Tell a friend about your week. Write in Spanish: «On Mondays I arrive at nine and finish at five. On Tuesdays I have a Spanish class because I love it.»",
+      "it": "Racconta a un amico la tua settimana. Scrivi in spagnolo: «Il lunedì arrivo alle nove e finisco alle cinque. Il martedì ho lezione di spagnolo perché mi piace tantissimo.»"
      },
-     "required": [
-      "los",
-      "a las",
-      "y",
-      "porque"
+     "accepted": [
+      "Los lunes llego a las nueve y termino a las cinco. Los martes tengo una clase de español porque me encanta.",
+      "Los lunes yo llego a las nueve y termino a las cinco. Los martes tengo una clase de español porque me encanta.",
+      "Llego a las nueve los lunes y termino a las cinco. Los martes tengo una clase de español porque me encanta.",
+      "Los lunes llego a las nueve y termino a las cinco. Tengo una clase de español los martes porque me encanta.",
+      "Los lunes llego a las nueve y termino a las cinco. Los martes tengo clase de español porque me encanta."
      ],
      "model": {
-      "es": "Los lunes trabajo en {work}. Llego a las nueve y termino a las cinco. Los martes tengo una clase de español porque me encanta. Normalmente como a las dos. Los viernes ceno con amigos. Los fines de semana descanso.",
-      "en": "On Mondays I work {workEn}. I arrive at nine and finish at five. On Tuesdays I have a Spanish class because I love it. I usually have lunch at two. On Fridays I have dinner with friends. At weekends I rest.",
-      "it": "Il lunedì lavoro {workIt}. Arrivo alle nove e finisco alle cinque. Il martedì ho lezione di spagnolo perché mi piace tantissimo. Di solito pranzo alle due. Il venerdì ceno con gli amici. Nel fine settimana mi riposo."
+      "es": "Los lunes llego a las nueve y termino a las cinco. Los martes tengo una clase de español porque me encanta.",
+      "en": "On Mondays I arrive at nine and finish at five. On Tuesdays I have a Spanish class because I love it.",
+      "it": "Il lunedì arrivo alle nove e finisco alle cinque. Il martedì ho lezione di spagnolo perché mi piace tantissimo."
      }
     }
    ]
@@ -2421,20 +2435,20 @@
     "type": "write",
     "beat": "mix",
     "instruction": {
-     "en": "She says «¡Genial! ¿Y tu semana?». Tell her about your week in 6 linked sentences, with y, pero and porque.",
-     "it": "Ti dice «¡Genial! ¿Y tu semana?». Raccontale la tua settimana in 6 frasi collegate, con y, pero e porque."
+     "en": "She asks about your week. Write in Spanish: «On Tuesdays I have a Spanish class because I love it. On Fridays I go to the cinema, but on Saturdays I rest.»",
+     "it": "Ti chiede della tua settimana. Scrivi in spagnolo: «Il martedì ho lezione di spagnolo perché mi piace tantissimo. Il venerdì vado al cinema, ma il sabato mi riposo.»"
     },
-    "required": [
-     "los",
-     "a las",
-     "y",
-     "pero",
-     "porque"
+    "accepted": [
+     "Los martes tengo una clase de español porque me encanta. Los viernes voy al cine, pero los sábados descanso.",
+     "Tengo una clase de español los martes porque me encanta. Los viernes voy al cine, pero los sábados descanso.",
+     "Los martes tengo clase de español porque me encanta. Los viernes voy al cine, pero los sábados descanso.",
+     "Los martes tengo una clase de español porque me encanta. Voy al cine los viernes, pero los sábados descanso.",
+     "Los martes tengo una clase de español porque me encanta. Los viernes voy al cine, pero descanso los sábados."
     ],
     "model": {
-     "es": "Los lunes trabajo en {work}. Llego a las nueve y termino a las cinco. Los martes tengo una clase de español porque me encanta. Siempre como a las dos. Los viernes voy al cine, pero los sábados descanso. Los domingos paseo con mi familia.",
-     "en": "On Mondays I work {workEn}. I arrive at nine and finish at five. On Tuesdays I have a Spanish class because I love it. I always have lunch at two. On Fridays I go to the cinema, but on Saturdays I rest. On Sundays I go for a walk with my family.",
-     "it": "Il lunedì lavoro {workIt}. Arrivo alle nove e finisco alle cinque. Il martedì ho lezione di spagnolo perché mi piace tantissimo. Pranzo sempre alle due. Il venerdì vado al cinema, ma il sabato mi riposo. La domenica passeggio con la mia famiglia."
+     "es": "Los martes tengo una clase de español porque me encanta. Los viernes voy al cine, pero los sábados descanso.",
+     "en": "On Tuesdays I have a Spanish class because I love it. On Fridays I go to the cinema, but on Saturdays I rest.",
+     "it": "Il martedì ho lezione di spagnolo perché mi piace tantissimo. Il venerdì vado al cinema, ma il sabato mi riposo."
     }
    }
   ]

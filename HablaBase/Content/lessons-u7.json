@@ -454,13 +454,13 @@
           "type": "write",
           "beat": "mix",
           "instruction": {
-            "en": "Say something you want and something you prefer, joined with pero.",
-            "it": "Di una cosa che vuoi e una che preferisci, unite con pero."
+            "en": "Write in Spanish: «I want to go shopping, but I prefer to go to the beach.»",
+            "it": "Scrivi in spagnolo: «Voglio andare a fare shopping, ma preferisco andare al mare.»"
           },
-          "required": [
-            "quiero",
-            "prefiero",
-            "pero"
+          "accepted": [
+            "Quiero ir de compras, pero prefiero ir a la playa.",
+            "Yo quiero ir de compras, pero prefiero ir a la playa.",
+            "Quiero ir de compras, pero yo prefiero ir a la playa."
           ],
           "model": {
             "es": "Quiero ir de compras, pero prefiero ir a la playa.",
@@ -935,13 +935,14 @@
           "type": "write",
           "beat": "mix",
           "instruction": {
-            "en": "Describe the start of your working day with primero and después.",
-            "it": "Racconta l'inizio della tua giornata di lavoro con primero e después."
+            "en": "Write in Spanish: «First I have breakfast and then I start work {workEn}.»",
+            "it": "Scrivi in spagnolo: «Prima faccio colazione e poi comincio a lavorare {workIt}.»"
           },
-          "required": [
-            "primero",
-            "después",
-            "empiezo"
+          "accepted": [
+            "Primero desayuno y después empiezo a trabajar en {work}.",
+            "Primero yo desayuno y después empiezo a trabajar en {work}.",
+            "Yo primero desayuno y después empiezo a trabajar en {work}.",
+            "Primero desayuno, después empiezo a trabajar en {work}."
           ],
           "model": {
             "es": "Primero desayuno y después empiezo a trabajar en {work}.",
@@ -1474,16 +1475,18 @@
           "type": "write",
           "beat": "mix",
           "instruction": {
-            "en": "Say what you can do today and when you come back home.",
-            "it": "Di cosa puoi fare oggi e quando torni a casa."
+            "en": "Write in Spanish: «Today I can help my sister and I'm coming back home early.»",
+            "it": "Scrivi in spagnolo: «Oggi posso aiutare mia sorella e torno a casa presto.»"
           },
-          "required": [
-            "puedo",
-            "vuelvo"
+          "accepted": [
+            "Hoy puedo ayudar a mi hermana y vuelvo a casa pronto.",
+            "Hoy puedo ayudar a mi hermana y vuelvo pronto a casa.",
+            "Hoy yo puedo ayudar a mi hermana y vuelvo a casa pronto.",
+            "Puedo ayudar a mi hermana hoy y vuelvo a casa pronto."
           ],
           "model": {
             "es": "Hoy puedo ayudar a mi hermana y vuelvo a casa pronto.",
-            "en": "Today I can help my sister and I'll come back home early.",
+            "en": "Today I can help my sister and I'm coming back home early.",
             "it": "Oggi posso aiutare mia sorella e torno a casa presto."
           }
         }
@@ -1921,12 +1924,14 @@
           "type": "write",
           "beat": "mix",
           "instruction": {
-            "en": "Say how many hours you sleep and what you play, and when.",
-            "it": "Di quante ore dormi e a cosa giochi, e quando."
+            "en": "Write in Spanish: «I sleep seven hours and on Saturdays I play tennis with my friends.»",
+            "it": "Scrivi in spagnolo: «Dormo sette ore e il sabato gioco a tennis con i miei amici.»"
           },
-          "required": [
-            "duermo",
-            "juego"
+          "accepted": [
+            "Duermo siete horas y los sábados juego al tenis con mis amigos.",
+            "Yo duermo siete horas y los sábados juego al tenis con mis amigos.",
+            "Duermo siete horas y juego al tenis con mis amigos los sábados.",
+            "Duermo siete horas y los sábados juego con mis amigos al tenis."
           ],
           "model": {
             "es": "Duermo siete horas y los sábados juego al tenis con mis amigos.",
@@ -2410,14 +2415,15 @@
           "type": "write",
           "beat": "mix",
           "instruction": {
-            "en": "Order a whole set menu: first course, main course and dessert.",
-            "it": "Ordina un menù del giorno completo: primo, secondo e dolce."
+            "en": "You order the set menu. Write in Spanish: «For the first course I'll have the salad, for the main course the fish and for dessert an ice cream.»",
+            "it": "Ordini il menù del giorno. Scrivi in spagnolo: «Di primo prendo l'insalata, di secondo il pesce e come dolce un gelato.»"
           },
-          "required": [
-            "pido",
-            "de primero",
-            "de segundo",
-            "de postre"
+          "accepted": [
+            "De primero pido la ensalada, de segundo el pescado y de postre un helado.",
+            "Yo de primero pido la ensalada, de segundo el pescado y de postre un helado.",
+            "De primero pido la ensalada, de segundo pido el pescado y de postre pido un helado.",
+            "Pido de primero la ensalada, de segundo el pescado y de postre un helado.",
+            "De primero quiero la ensalada, de segundo el pescado y de postre un helado."
           ],
           "model": {
             "es": "De primero pido la ensalada, de segundo el pescado y de postre un helado.",
@@ -2685,13 +2691,15 @@
         "type": "write",
         "beat": "mix",
         "instruction": {
-          "en": "Tell the waiter your whole order, with one change: use en vez de.",
-          "it": "Di al cameriere tutto il tuo ordine, con un cambio: usa en vez de."
+          "en": "Tell the waiter your order. Write in Spanish: «For the first course I'll have the salad instead of the soup, and for the main course, the meat.»",
+          "it": "Di al cameriere il tuo ordine. Scrivi in spagnolo: «Di primo prendo l'insalata invece della zuppa e di secondo la carne.»"
         },
-        "required": [
-          "de primero",
-          "de segundo",
-          "en vez de"
+        "accepted": [
+          "De primero pido la ensalada en vez de la sopa y de segundo, la carne.",
+          "De primero pido la ensalada en vez de la sopa y de segundo pido la carne.",
+          "De primero quiero la ensalada en vez de la sopa y de segundo, la carne.",
+          "De primero, en vez de la sopa, pido la ensalada y de segundo, la carne.",
+          "Yo de primero pido la ensalada en vez de la sopa y de segundo, la carne."
         ],
         "model": {
           "es": "De primero pido la ensalada en vez de la sopa y de segundo, la carne.",

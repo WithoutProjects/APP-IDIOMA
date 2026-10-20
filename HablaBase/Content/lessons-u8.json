@@ -411,12 +411,14 @@
           "type": "write",
           "beat": "mix",
           "instruction": {
-            "en": "Say two things you do on Saturdays, with hago and salgo.",
-            "it": "Di due cose che fai il sabato, con hago e salgo."
+            "en": "Write in Spanish: «On Saturdays I do the food shopping and at night I go out with my friends.»",
+            "it": "Scrivi in spagnolo: «Il sabato faccio la spesa e la sera esco con i miei amici.»"
           },
-          "required": [
-            "hago",
-            "salgo"
+          "accepted": [
+            "Los sábados hago la compra y por la noche salgo con mis amigos.",
+            "Los sábados yo hago la compra y por la noche salgo con mis amigos.",
+            "Hago la compra los sábados y por la noche salgo con mis amigos.",
+            "Los sábados hago la compra y salgo con mis amigos por la noche."
           ],
           "model": {
             "es": "Los sábados hago la compra y por la noche salgo con mis amigos.",
@@ -832,12 +834,14 @@
           "type": "write",
           "beat": "mix",
           "instruction": {
-            "en": "You're going to a dinner with friends: say what you bring and what you do then, with luego.",
-            "it": "Vai a una cena con amici: di cosa porti e cosa fai dopo, con luego."
+            "en": "You're going to a dinner with friends. Write in Spanish: «I'll bring a cake and then I'll set the table.»",
+            "it": "Vai a una cena con amici. Scrivi in spagnolo: «Porto una torta e poi apparecchio la tavola.»"
           },
-          "required": [
-            "traigo",
-            "luego"
+          "accepted": [
+            "Traigo una tarta y luego pongo la mesa.",
+            "Yo traigo una tarta y luego pongo la mesa.",
+            "Traigo una tarta y después pongo la mesa.",
+            "Traigo una tarta y luego yo pongo la mesa."
           ],
           "model": {
             "es": "Traigo una tarta y luego pongo la mesa.",
@@ -1290,16 +1294,18 @@
           "type": "write",
           "beat": "mix",
           "instruction": {
-            "en": "Say something you know how to do and a place you know well.",
-            "it": "Di una cosa che sai fare e un posto che conosci bene."
+            "en": "Write in Spanish: «I know how to cook and I know {city} well.»",
+            "it": "Scrivi in spagnolo: «So cucinare e conosco bene {city}.»"
           },
-          "required": [
-            "sé",
-            "conozco"
+          "accepted": [
+            "Sé cocinar y conozco bien {city}.",
+            "Yo sé cocinar y conozco bien {city}.",
+            "Sé cocinar y conozco {city} bien.",
+            "Yo sé cocinar y conozco {city} bien."
           ],
           "model": {
             "es": "Sé cocinar y conozco bien {city}.",
-            "en": "I can cook and I know {city} well.",
+            "en": "I know how to cook and I know {city} well.",
             "it": "So cucinare e conosco bene {city}."
           }
         }
@@ -1699,13 +1705,16 @@
           "type": "write",
           "beat": "mix",
           "instruction": {
-            "en": "Invite a friend to a party tonight and say who else is coming.",
-            "it": "Invita un amico a una festa stasera e di chi altro viene."
+            "en": "Invite a friend to a party. Write in Spanish: «Are you coming to the party tonight? My brothers are coming too.»",
+            "it": "Invita un amico a una festa. Scrivi in spagnolo: «Vieni alla festa stasera? Vengono anche i miei fratelli.»"
           },
-          "required": [
-            "vienes",
-            "esta noche",
-            "vienen"
+          "accepted": [
+            "¿Vienes a la fiesta esta noche? Mis hermanos vienen también.",
+            "¿Vienes a la fiesta esta noche? Mis hermanos también vienen.",
+            "¿Vienes esta noche a la fiesta? Mis hermanos vienen también.",
+            "¿Vienes esta noche a la fiesta? Mis hermanos también vienen.",
+            "¿Vienes a la fiesta esta noche? También vienen mis hermanos.",
+            "¿Tú vienes a la fiesta esta noche? Mis hermanos vienen también."
           ],
           "model": {
             "es": "¿Vienes a la fiesta esta noche? Mis hermanos vienen también.",
@@ -2121,12 +2130,15 @@
           "type": "write",
           "beat": "mix",
           "instruction": {
-            "en": "Say what you watch at night and what present you give to someone.",
-            "it": "Di cosa guardi la sera e che regalo fai a qualcuno."
+            "en": "Write in Spanish: «At night I watch a series, and on Sunday I'm giving my mother a present.»",
+            "it": "Scrivi in spagnolo: «La sera guardo una serie e domenica faccio un regalo a mia madre.»"
           },
-          "required": [
-            "veo",
-            "doy"
+          "accepted": [
+            "Por la noche veo una serie y el domingo doy un regalo a mi madre.",
+            "Por la noche yo veo una serie y el domingo doy un regalo a mi madre.",
+            "Veo una serie por la noche y el domingo doy un regalo a mi madre.",
+            "Por la noche veo una serie y el domingo doy a mi madre un regalo.",
+            "Por la noche veo una serie y doy un regalo a mi madre el domingo."
           ],
           "model": {
             "es": "Por la noche veo una serie y el domingo doy un regalo a mi madre.",
@@ -2379,13 +2391,16 @@
         "type": "write",
         "beat": "mix",
         "instruction": {
-          "en": "Send your friends a message: there's a party tonight, say what you bring and who's coming.",
-          "it": "Manda un messaggio ai tuoi amici: c'è una festa stasera, di cosa porti e chi viene."
+          "en": "Send your friends a message. Write in Spanish: «There's a party at my place tonight. I'm bringing a cake and my brothers are coming too.»",
+          "it": "Manda un messaggio ai tuoi amici. Scrivi in spagnolo: «Stasera c'è una festa a casa mia. Io porto una torta e vengono anche i miei fratelli.»"
         },
-        "required": [
-          "esta noche",
-          "traigo",
-          "vienen"
+        "accepted": [
+          "Hay una fiesta en mi casa esta noche. Yo traigo una tarta y mis hermanos vienen también.",
+          "Esta noche hay una fiesta en mi casa. Yo traigo una tarta y mis hermanos vienen también.",
+          "Hay una fiesta en mi casa esta noche. Traigo una tarta y mis hermanos vienen también.",
+          "Hay una fiesta en mi casa esta noche. Yo traigo una tarta y mis hermanos también vienen.",
+          "Esta noche hay una fiesta en mi casa. Traigo una tarta y mis hermanos también vienen.",
+          "Hay una fiesta esta noche en mi casa. Traigo una tarta y mis hermanos vienen también."
         ],
         "model": {
           "es": "Hay una fiesta en mi casa esta noche. Yo traigo una tarta y mis hermanos vienen también.",
