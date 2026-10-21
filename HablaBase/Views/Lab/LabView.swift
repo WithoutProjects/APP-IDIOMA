@@ -13,14 +13,14 @@ struct LabView: View {
                     } label: {
                         door(title: "Repasar tablas",
                              detail: Gloss(en: "Your verb tables and the Lego bench.", it: "Le tue tabelle dei verbi e il banco Lego.", uk: "Твої таблиці дієслів і лего-майстерня.", de: "Deine Verbtabellen und die Lego-Werkbank.", fr: "Tes tableaux de verbes et l'atelier Lego.", pt: "Suas tabelas de verbos e a bancada Lego.", zh: "你的动词变位表和积木台。"),
-                             icon: "tablecells", color: Brick.stem.color)
+                             color: .sky, mascot: .pentagon, mascotColor: .sunshine, mood: .curious)
                     }
                     NavigationLink {
                         GamesView()
                     } label: {
                         door(title: "Jugar",
                              detail: Gloss(en: "Verb minigames for your level.", it: "Minigiochi di verbi per il tuo livello.", uk: "Мініігри з дієсловами для твого рівня.", de: "Verb-Minispiele für dein Niveau.", fr: "Des mini-jeux de verbes adaptés à ton niveau.", pt: "Minijogos de verbos para o seu nível.", zh: "适合你级别的动词小游戏。"),
-                             icon: "gamecontroller.fill", color: Brick.ending.color)
+                             color: .tangerine, mascot: .flower, mascotColor: .bubblegum, mood: .excited)
                     }
                 }
                 .padding(20)
@@ -29,24 +29,35 @@ struct LabView: View {
         }
     }
 
-    private func door(title: String, detail: Gloss, icon: String, color: Color) -> some View {
-        HStack(spacing: 16) {
-            Image(systemName: icon)
-                .font(.largeTitle)
-                .frame(width: 56)
-                .accessibilityHidden(true)
-            VStack(alignment: .leading, spacing: 4) {
-                Text(title).font(.title2.bold())
-                Text(detail.text(store.language)).font(.subheadline).opacity(0.9)
+    /// A bright card with a mascot peeking in from the corner.
+    private func door(title: String, detail: Gloss, color: FunColor,
+                      mascot: MascotShape, mascotColor: FunColor, mood: MascotMood) -> some View {
+        let shape = RoundedRectangle(cornerRadius: 28, style: .continuous)
+        return ZStack(alignment: .topLeading) {
+            shape.fill(color.main)
+            Mascot(shape: mascot, color: mascotColor.main, mood: mood, size: 130)
+                .rotationEffect(.degrees(-12))
+                .offset(x: 30, y: 30)
+                .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .bottomTrailing)
+            VStack(alignment: .leading, spacing: 12) {
+                Text(title)
+                    .font(.system(.title2, design: .rounded).weight(.heavy))
+                    .padding(.horizontal, 14)
+                    .padding(.vertical, 6)
+                    .background(Capsule().fill(Color.white.opacity(0.22)))
+                Text(detail.text(store.language))
+                    .font(.subheadline.weight(.medium))
+                    .opacity(0.95)
+                    .multilineTextAlignment(.leading)
             }
-            Spacer()
-            Image(systemName: "chevron.right")
-                .accessibilityHidden(true)
+            .padding(22)
+            .padding(.trailing, 100)
         }
-        .foregroundStyle(.white)
-        .padding(24)
-        .frame(maxWidth: .infinity, minHeight: 130)
-        .background(RoundedRectangle(cornerRadius: 24, style: .continuous).fill(color.gradient))
+        .foregroundStyle(color.ink)
+        .frame(maxWidth: .infinity, minHeight: 160)
+        .clipShape(shape)
+        .background(shape.fill(color.deep).offset(y: 5))
+        .padding(.bottom, 5)
         .accessibilityElement(children: .combine)
     }
 }
