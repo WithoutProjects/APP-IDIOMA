@@ -1,0 +1,4284 @@
+{
+  "unit": "u30",
+  "lessons": [
+    {
+      "id": "u30l1",
+      "goal": {
+        "en": "Tell a friend what to do: habla, come, escribe, and the eight short ones: di, haz, pon, sal, ten, ven, ve, sé.",
+        "it": "Di' a un amico cosa fare: habla, come, escribe, e gli otto corti: di, haz, pon, sal, ten, ven, ve, sé.",
+        "uk": "Кажи другові, що робити: habla, come, escribe, і вісім коротких форм: di, haz, pon, sal, ten, ven, ve, sé.",
+        "de": "Sag einem Freund, was er tun soll: habla, come, escribe, und die acht kurzen Formen: di, haz, pon, sal, ten, ven, ve, sé.",
+        "fr": "Dire à un ami ce qu'il doit faire : habla, come, escribe, et les huit formes courtes : di, haz, pon, sal, ten, ven, ve, sé.",
+        "pt": "Diga a um amigo o que fazer: habla, come, escribe, e as oito formas curtas: di, haz, pon, sal, ten, ven, ve, sé.",
+        "zh": "告诉朋友该做什么：habla、come、escribe，还有八个短形式：di、haz、pon、sal、ten、ven、ve、sé。"
+      },
+      "target": {
+        "es": "Sal con tus amigos, pero ven pronto a casa.",
+        "en": "Go out with your friends, but come home early.",
+        "it": "Esci con i tuoi amici, ma torna a casa presto.",
+        "uk": "Іди погуляй із друзями, але повертайся додому рано.",
+        "de": "Geh mit deinen Freunden aus, aber komm früh nach Hause.",
+        "fr": "Sors avec tes amis, mais rentre tôt à la maison.",
+        "pt": "Saia com seus amigos, mas venha cedo para casa.",
+        "zh": "和朋友们出去玩吧，但要早点回家。"
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "despacio",
+              "en": "slowly",
+              "it": "piano, lentamente",
+              "uk": "повільно",
+              "de": "langsam",
+              "fr": "lentement",
+              "pt": "devagar",
+              "zh": "慢慢地",
+              "kind": "time"
+            },
+            {
+              "es": "tener cuidado",
+              "en": "to be careful",
+              "it": "fare attenzione, stare attento",
+              "uk": "бути обережним, остерігатися",
+              "de": "aufpassen, vorsichtig sein",
+              "fr": "faire attention",
+              "pt": "tomar cuidado, ter cuidado",
+              "zh": "小心",
+              "kind": "chunk"
+            },
+            {
+              "es": "los deberes",
+              "en": "homework",
+              "it": "i compiti",
+              "uk": "домашнє завдання",
+              "de": "die Hausaufgaben",
+              "fr": "les devoirs",
+              "pt": "a lição de casa, o dever de casa",
+              "zh": "作业",
+              "kind": "chunk"
+            },
+            {
+              "es": "la verdad",
+              "en": "the truth",
+              "it": "la verità",
+              "uk": "правда",
+              "de": "die Wahrheit",
+              "fr": "la vérité",
+              "pt": "a verdade",
+              "zh": "真相，实话",
+              "kind": "chunk"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "habla",
+              "kind": "stem"
+            },
+            {
+              "text": "(tú)",
+              "kind": "ending"
+            }
+          ],
+          "rule": {
+            "en": "To tell a friend to do something, use the él form of the present: habla, come, escribe. Only the tone changes: it's an order.",
+            "it": "Per dire a un amico di fare qualcosa, usa la forma di él del presente: habla, come, escribe. Cambia solo il tono: è un ordine.",
+            "uk": "Щоб сказати другові щось зробити, вживай форму él теперішнього часу: habla, come, escribe. Змінюється лише інтонація: це наказ.",
+            "de": "Um einem Freund zu sagen, dass er etwas tun soll, nimm die él-Form des Präsens: habla, come, escribe. Nur der Ton ändert sich: Es ist eine Aufforderung.",
+            "fr": "Pour dire à un ami de faire quelque chose, utilise la forme de él du présent : habla, come, escribe. Seul le ton change : c'est un ordre.",
+            "pt": "Para dizer a um amigo que faça algo, use a forma de él do presente: habla, come, escribe. Só muda o tom: é uma ordem.",
+            "zh": "让朋友做某事，用现在时的 él 形式：habla、come、escribe。只是语气变了：这是命令。"
+          },
+          "examples": [
+            {
+              "es": "Habla más despacio, por favor.",
+              "en": "Speak more slowly, please.",
+              "it": "Parla più piano, per favore.",
+              "uk": "Говори повільніше, будь ласка.",
+              "de": "Sprich bitte langsamer.",
+              "fr": "Parle plus lentement, s'il te plaît.",
+              "pt": "Fale mais devagar, por favor.",
+              "zh": "请说慢一点。"
+            },
+            {
+              "es": "Abre la ventana, que hace calor.",
+              "en": "Open the window, it's hot.",
+              "it": "Apri la finestra, che fa caldo.",
+              "uk": "Відчини вікно, бо спекотно.",
+              "de": "Mach das Fenster auf, es ist heiß.",
+              "fr": "Ouvre la fenêtre, il fait chaud.",
+              "pt": "Abra a janela, que está calor.",
+              "zh": "把窗户打开吧，好热。"
+            },
+            {
+              "es": "Escribe tu nombre aquí.",
+              "en": "Write your name here.",
+              "it": "Scrivi il tuo nome qui.",
+              "uk": "Напиши тут своє ім'я.",
+              "de": "Schreib hier deinen Namen hin.",
+              "fr": "Écris ton nom ici.",
+              "pt": "Escreva o seu nome aqui.",
+              "zh": "在这里写上你的名字。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "abre",
+              "en": "open! (tú)",
+              "it": "apri",
+              "uk": "відчини! (tú)",
+              "de": "mach auf! (tú)",
+              "fr": "ouvre ! (tú)",
+              "pt": "abra! (tú)",
+              "zh": "打开！（tú）"
+            },
+            {
+              "es": "cierra",
+              "en": "close! (tú)",
+              "it": "chiudi",
+              "uk": "зачини! (tú)",
+              "de": "mach zu! (tú)",
+              "fr": "ferme ! (tú)",
+              "pt": "feche! (tú)",
+              "zh": "关上！（tú）"
+            },
+            {
+              "es": "escucha",
+              "en": "listen! (tú)",
+              "it": "ascolta",
+              "uk": "слухай! (tú)",
+              "de": "hör zu! (tú)",
+              "fr": "écoute ! (tú)",
+              "pt": "escute! (tú)",
+              "zh": "听！（tú）"
+            },
+            {
+              "es": "lee",
+              "en": "read! (tú)",
+              "it": "leggi",
+              "uk": "читай! (tú)",
+              "de": "lies! (tú)",
+              "fr": "lis ! (tú)",
+              "pt": "leia! (tú)",
+              "zh": "读！（tú）"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "before": "",
+          "after": " la ventana, por favor, que hace calor.",
+          "options": [
+            "Abre",
+            "Abres",
+            "Abro"
+          ],
+          "answer": "Abre",
+          "en": "Open the window, please, it's hot.",
+          "it": "Apri la finestra, per favore, che fa caldo.",
+          "uk": "Відчини, будь ласка, вікно, бо спекотно.",
+          "de": "Mach bitte das Fenster auf, es ist heiß.",
+          "fr": "Ouvre la fenêtre, s'il te plaît, il fait chaud.",
+          "pt": "Abra a janela, por favor, que está calor.",
+          "zh": "请把窗户打开，好热。",
+          "hint": {
+            "en": "An order to a friend: the él form, abre.",
+            "it": "Un ordine a un amico: la forma di él, abre.",
+            "uk": "Наказ другові: форма él, abre.",
+            "de": "Eine Aufforderung an einen Freund: die él-Form, abre.",
+            "fr": "Un ordre à un ami : la forme de él, abre.",
+            "pt": "Uma ordem a um amigo: a forma de él, abre.",
+            "zh": "对朋友下命令：用 él 形式，abre。"
+          },
+          "beat": "forge"
+        },
+        {
+          "type": "gap",
+          "before": "",
+          "after": " más despacio, por favor.",
+          "label": "hablar",
+          "accepted": [
+            "Habla",
+            "habla"
+          ],
+          "en": "Speak more slowly, please.",
+          "it": "Parla più piano, per favore.",
+          "uk": "Говори повільніше, будь ласка.",
+          "de": "Sprich bitte langsamer.",
+          "fr": "Parle plus lentement, s'il te plaît.",
+          "pt": "Fale mais devagar, por favor.",
+          "zh": "请说慢一点。",
+          "hint": {
+            "en": "An order to a friend: the él form, habla.",
+            "it": "Un ordine a un amico: la forma di él, habla.",
+            "uk": "Наказ другові: форма él, habla.",
+            "de": "Eine Aufforderung an einen Freund: die él-Form, habla.",
+            "fr": "Un ordre à un ami : la forme de él, habla.",
+            "pt": "Uma ordem a um amigo: a forma de él, habla.",
+            "zh": "对朋友下命令：用 él 形式，habla。"
+          },
+          "beat": "fire"
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "di · haz · pon · sal",
+              "kind": "stem"
+            },
+            {
+              "text": "ten · ven · ve · sé",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "Eight common verbs have a short form for tú instead: decir → di, hacer → haz, poner → pon, salir → sal, tener → ten, venir → ven, ir → ve, ser → sé.",
+            "it": "Otto verbi molto usati hanno invece una forma corta per tú: decir → di, hacer → haz, poner → pon, salir → sal, tener → ten, venir → ven, ir → ve, ser → sé.",
+            "uk": "Натомість вісім поширених дієслів мають для tú коротку форму: decir → di, hacer → haz, poner → pon, salir → sal, tener → ten, venir → ven, ir → ve, ser → sé.",
+            "de": "Acht häufige Verben haben für tú stattdessen eine kurze Form: decir → di, hacer → haz, poner → pon, salir → sal, tener → ten, venir → ven, ir → ve, ser → sé.",
+            "fr": "Huit verbes très courants ont plutôt une forme courte pour tú : decir → di, hacer → haz, poner → pon, salir → sal, tener → ten, venir → ven, ir → ve, ser → sé.",
+            "pt": "Oito verbos muito usados têm, em vez disso, uma forma curta para tú: decir → di, hacer → haz, poner → pon, salir → sal, tener → ten, venir → ven, ir → ve, ser → sé.",
+            "zh": "有八个常用动词对 tú 用短形式：decir → di，hacer → haz，poner → pon，salir → sal，tener → ten，venir → ven，ir → ve，ser → sé。"
+          },
+          "examples": [
+            {
+              "es": "Ven aquí y di la verdad.",
+              "en": "Come here and tell the truth.",
+              "it": "Vieni qui e di' la verità.",
+              "uk": "Іди сюди й скажи правду.",
+              "de": "Komm her und sag die Wahrheit.",
+              "fr": "Viens ici et dis la vérité.",
+              "pt": "Venha aqui e diga a verdade.",
+              "zh": "过来，说实话。"
+            },
+            {
+              "es": "Haz los deberes y luego pon la mesa.",
+              "en": "Do your homework and then lay the table.",
+              "it": "Fai i compiti e poi apparecchia la tavola.",
+              "uk": "Зроби домашнє завдання, а потім накрий на стіл.",
+              "de": "Mach deine Hausaufgaben und deck dann den Tisch.",
+              "fr": "Fais tes devoirs et ensuite mets la table.",
+              "pt": "Faça a lição de casa e depois ponha a mesa.",
+              "zh": "把作业做完，然后摆好餐桌。"
+            },
+            {
+              "es": "Ten cuidado y sé bueno.",
+              "en": "Be careful and be good.",
+              "it": "Stai attento e fai il bravo.",
+              "uk": "Будь обережний і поводься добре.",
+              "de": "Pass auf und sei brav.",
+              "fr": "Fais attention et sois sage.",
+              "pt": "Tome cuidado e seja bonzinho.",
+              "zh": "小心点，要乖。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "di",
+              "en": "say! tell! (tú)",
+              "it": "di'",
+              "uk": "скажи! (tú)",
+              "de": "sag! (tú)",
+              "fr": "dis ! (tú)",
+              "pt": "diga! (tú)",
+              "zh": "说！告诉！（tú）"
+            },
+            {
+              "es": "haz",
+              "en": "do! make! (tú)",
+              "it": "fai",
+              "uk": "зроби! (tú)",
+              "de": "mach! (tú)",
+              "fr": "fais ! (tú)",
+              "pt": "faça! (tú)",
+              "zh": "做！（tú）"
+            },
+            {
+              "es": "pon",
+              "en": "put! (tú)",
+              "it": "metti",
+              "uk": "поклади! постав! (tú)",
+              "de": "stell! leg! (tú)",
+              "fr": "mets ! (tú)",
+              "pt": "ponha! coloque! (tú)",
+              "zh": "放！（tú）"
+            },
+            {
+              "es": "sal",
+              "en": "go out! leave! (tú)",
+              "it": "esci",
+              "uk": "вийди! іди! (tú)",
+              "de": "geh raus! geh aus! (tú)",
+              "fr": "sors ! pars ! (tú)",
+              "pt": "saia! (tú)",
+              "zh": "出去！离开！（tú）"
+            },
+            {
+              "es": "ten",
+              "en": "have! take! (tú)",
+              "it": "abbi, tieni",
+              "uk": "май! тримай! (tú)",
+              "de": "hab! nimm! (tú)",
+              "fr": "aie ! tiens ! (tú)",
+              "pt": "tenha! pegue! (tú)",
+              "zh": "拿着！要（有）……！（tú）"
+            },
+            {
+              "es": "ven",
+              "en": "come! (tú)",
+              "it": "vieni",
+              "uk": "іди сюди! приходь! (tú)",
+              "de": "komm! (tú)",
+              "fr": "viens ! (tú)",
+              "pt": "venha! (tú)",
+              "zh": "来！（tú）"
+            },
+            {
+              "es": "ve",
+              "en": "go! (tú)",
+              "it": "vai",
+              "uk": "іди! (tú)",
+              "de": "geh! (tú)",
+              "fr": "va ! (tú)",
+              "pt": "vá! (tú)",
+              "zh": "去！（tú）"
+            },
+            {
+              "es": "sé",
+              "en": "be! (tú)",
+              "it": "sii",
+              "uk": "будь! (tú)",
+              "de": "sei! (tú)",
+              "fr": "sois ! (tú)",
+              "pt": "seja! (tú)",
+              "zh": "要（做个）……！（tú）"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "before": "",
+          "after": " aquí, por favor.",
+          "options": [
+            "Ven",
+            "Vienes",
+            "Vas"
+          ],
+          "answer": "Ven",
+          "en": "Come here, please.",
+          "it": "Vieni qui, per favore.",
+          "uk": "Іди сюди, будь ласка.",
+          "de": "Komm bitte her.",
+          "fr": "Viens ici, s'il te plaît.",
+          "pt": "Venha aqui, por favor.",
+          "zh": "请过来。",
+          "hint": {
+            "en": "venir has a short form for tú: ven.",
+            "it": "venir ha una forma corta per tú: ven.",
+            "uk": "venir має коротку форму для tú: ven.",
+            "de": "venir hat eine kurze Form für tú: ven.",
+            "fr": "venir a une forme courte pour tú : ven.",
+            "pt": "venir tem uma forma curta para tú: ven.",
+            "zh": "venir 对 tú 有短形式：ven。"
+          },
+          "beat": "forge"
+        },
+        {
+          "type": "gap",
+          "before": "",
+          "after": " la mesa, que vamos a cenar.",
+          "label": "poner",
+          "accepted": [
+            "Pon",
+            "pon"
+          ],
+          "en": "Lay the table, we're going to have dinner.",
+          "it": "Apparecchia la tavola, che stiamo per cenare.",
+          "uk": "Накрий на стіл, ми зараз вечерятимемо.",
+          "de": "Deck den Tisch, wir essen gleich zu Abend.",
+          "fr": "Mets la table, on va dîner.",
+          "pt": "Ponha a mesa, que vamos jantar.",
+          "zh": "摆好餐桌，我们要吃晚饭了。",
+          "hint": {
+            "en": "poner → pon.",
+            "it": "poner → pon.",
+            "uk": "poner → pon.",
+            "de": "poner → pon.",
+            "fr": "poner → pon.",
+            "pt": "poner → pon.",
+            "zh": "poner → pon。"
+          },
+          "beat": "fire"
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "di = decir",
+              "kind": "stem"
+            },
+            {
+              "text": "di = dar",
+              "kind": "ending"
+            }
+          ],
+          "rule": {
+            "en": "Careful: di also means 'I gave'. It's dar (to give) in the past for finished actions: di, diste, dio, dimos, disteis, dieron. The sentence tells you which one it is.",
+            "it": "Attenzione: di vuol dire anche 'ho dato'. È dar (dare) nel passato delle azioni finite: di, diste, dio, dimos, disteis, dieron. È la frase a dirti quale dei due è.",
+            "uk": "Обережно: di також означає «я дав(-ла)». Це dar (давати) у минулому часі для завершених дій: di, diste, dio, dimos, disteis, dieron. Яке з двох значень — підкаже речення.",
+            "de": "Achtung: di heißt auch 'ich gab'. Das ist dar (geben) in der Vergangenheit für abgeschlossene Handlungen: di, diste, dio, dimos, disteis, dieron. Der Satz zeigt dir, welches gemeint ist.",
+            "fr": "Attention : di veut aussi dire « j'ai donné ». C'est dar (donner) au passé des actions terminées : di, diste, dio, dimos, disteis, dieron. C'est la phrase qui te dit lequel des deux c'est.",
+            "pt": "Cuidado: di também quer dizer 'eu dei'. É dar no passado das ações concluídas: di, diste, dio, dimos, disteis, dieron. É a frase que mostra qual dos dois é.",
+            "zh": "注意：di 也有“我给了”的意思。它是 dar（给）表示已完成动作的过去时：di、diste、dio、dimos、disteis、dieron。看句子就知道是哪一个。"
+          },
+          "examples": [
+            {
+              "es": "Di la verdad.",
+              "en": "Tell the truth.",
+              "it": "Di' la verità.",
+              "uk": "Скажи правду.",
+              "de": "Sag die Wahrheit.",
+              "fr": "Dis la vérité.",
+              "pt": "Diga a verdade.",
+              "zh": "说实话。"
+            },
+            {
+              "es": "Ayer le di un regalo a mi madre.",
+              "en": "Yesterday I gave my mother a present.",
+              "it": "Ieri ho dato un regalo a mia madre.",
+              "uk": "Учора я дав(-ла) мамі подарунок.",
+              "de": "Gestern habe ich meiner Mutter ein Geschenk gegeben.",
+              "fr": "Hier, j'ai offert un cadeau à ma mère.",
+              "pt": "Ontem eu dei um presente para a minha mãe.",
+              "zh": "昨天我送了妈妈一份礼物。"
+            },
+            {
+              "es": "Mi jefe me dio el viernes libre.",
+              "en": "My boss gave me Friday off.",
+              "it": "Il mio capo mi ha dato il venerdì libero.",
+              "uk": "Начальник дав мені вихідний у п'ятницю.",
+              "de": "Mein Chef hat mir den Freitag freigegeben.",
+              "fr": "Mon chef m'a donné le vendredi de congé.",
+              "pt": "Meu chefe me deu a sexta-feira de folga.",
+              "zh": "老板给了我周五一天假。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "diste",
+              "en": "you gave",
+              "it": "hai dato",
+              "uk": "ти дав(-ла)",
+              "de": "du gabst, du hast gegeben",
+              "fr": "tu as donné",
+              "pt": "você deu",
+              "zh": "你给了"
+            },
+            {
+              "es": "dio",
+              "en": "he/she gave",
+              "it": "ha dato",
+              "uk": "він/вона дав(-ла)",
+              "de": "er/sie gab, er/sie hat gegeben",
+              "fr": "il/elle a donné",
+              "pt": "ele/ela deu",
+              "zh": "他／她给了"
+            },
+            {
+              "es": "dimos",
+              "en": "we gave",
+              "it": "abbiamo dato",
+              "uk": "ми дали",
+              "de": "wir gaben, wir haben gegeben",
+              "fr": "nous avons donné",
+              "pt": "nós demos",
+              "zh": "我们给了"
+            },
+            {
+              "es": "disteis",
+              "en": "you all gave",
+              "it": "avete dato",
+              "uk": "ви дали",
+              "de": "ihr gabt, ihr habt gegeben",
+              "fr": "vous avez donné",
+              "pt": "vocês deram",
+              "zh": "你们给了"
+            },
+            {
+              "es": "dieron",
+              "en": "they gave",
+              "it": "hanno dato",
+              "uk": "вони дали",
+              "de": "sie gaben, sie haben gegeben",
+              "fr": "ils/elles ont donné",
+              "pt": "eles deram",
+              "zh": "他们给了"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "before": "Ayer le ",
+          "after": " un regalo a mi madre.",
+          "options": [
+            "di",
+            "dio",
+            "doy"
+          ],
+          "answer": "di",
+          "en": "Yesterday I gave my mother a present.",
+          "it": "Ieri ho dato un regalo a mia madre.",
+          "uk": "Учора я дав(-ла) мамі подарунок.",
+          "de": "Gestern habe ich meiner Mutter ein Geschenk gegeben.",
+          "fr": "Hier, j'ai offert un cadeau à ma mère.",
+          "pt": "Ontem eu dei um presente para a minha mãe.",
+          "zh": "昨天我送了妈妈一份礼物。",
+          "hint": {
+            "en": "ayer, yo: the past of dar, di.",
+            "it": "ayer, yo: il passato di dar, di.",
+            "uk": "ayer, yo: минулий час від dar, di.",
+            "de": "ayer, yo: die Vergangenheit von dar, di.",
+            "fr": "ayer, yo : le passé de dar, di.",
+            "pt": "ayer, yo: o passado de dar, di.",
+            "zh": "ayer，yo：dar 表示已完成动作的过去时，di。"
+          },
+          "beat": "forge"
+        },
+        {
+          "type": "build",
+          "intention": {
+            "en": "Say that your parents gave you the keys to their flat.",
+            "it": "Di' che i tuoi genitori ti hanno dato le chiavi del loro appartamento.",
+            "uk": "Скажи, що батьки дали тобі ключі від своєї квартири.",
+            "de": "Sag, dass deine Eltern dir die Schlüssel zu ihrer Wohnung gegeben haben.",
+            "fr": "Dis que tes parents t'ont donné les clés de leur appartement.",
+            "pt": "Diga que os seus pais te deram as chaves do apartamento deles.",
+            "zh": "说你父母把他们公寓的钥匙给了你。"
+          },
+          "accepted": [
+            "Mis padres me dieron las llaves de su piso.",
+            "Mis padres me dieron las llaves de su casa."
+          ],
+          "tiles": [
+            "Mis padres",
+            "me",
+            "dieron",
+            "las llaves",
+            "de su piso",
+            "dio",
+            "di"
+          ],
+          "en": "My parents gave me the keys to their flat.",
+          "it": "I miei genitori mi hanno dato le chiavi del loro appartamento.",
+          "uk": "Батьки дали мені ключі від своєї квартири.",
+          "de": "Meine Eltern haben mir die Schlüssel zu ihrer Wohnung gegeben.",
+          "fr": "Mes parents m'ont donné les clés de leur appartement.",
+          "pt": "Meus pais me deram as chaves do apartamento deles.",
+          "zh": "我父母把他们公寓的钥匙给了我。",
+          "hint": {
+            "en": "mis padres = ellos: dieron.",
+            "it": "mis padres = ellos: dieron.",
+            "uk": "mis padres = ellos: dieron.",
+            "de": "mis padres = ellos: dieron.",
+            "fr": "mis padres = ellos : dieron.",
+            "pt": "mis padres = ellos: dieron.",
+            "zh": "mis padres = ellos：dieron。"
+          },
+          "beat": "fire"
+        },
+        {
+          "type": "choose",
+          "before": "",
+          "after": " los deberes antes de cenar.",
+          "options": [
+            "Haz",
+            "Hace",
+            "Hago"
+          ],
+          "answer": "Haz",
+          "en": "Do your homework before dinner.",
+          "it": "Fai i compiti prima di cena.",
+          "uk": "Зроби домашнє завдання до вечері.",
+          "de": "Mach deine Hausaufgaben vor dem Abendessen.",
+          "fr": "Fais tes devoirs avant le dîner.",
+          "pt": "Faça a lição de casa antes do jantar.",
+          "zh": "晚饭前把作业做完。",
+          "hint": {
+            "en": "hacer → haz.",
+            "it": "hacer → haz.",
+            "uk": "hacer → haz.",
+            "de": "hacer → haz.",
+            "fr": "hacer → haz.",
+            "pt": "hacer → haz.",
+            "zh": "hacer → haz。"
+          },
+          "beat": "mix"
+        },
+        {
+          "type": "gap",
+          "before": "Hace mucho frío: ",
+          "after": " cuidado con el coche.",
+          "label": "tener",
+          "accepted": [
+            "ten"
+          ],
+          "en": "It's very cold: be careful with the car.",
+          "it": "Fa molto freddo: stai attento con la macchina.",
+          "uk": "Дуже холодно: будь обережний(-а) з машиною.",
+          "de": "Es ist sehr kalt: Pass mit dem Auto auf.",
+          "fr": "Il fait très froid : fais attention en voiture.",
+          "pt": "Está muito frio: tome cuidado com o carro.",
+          "zh": "天很冷：开车要小心。",
+          "hint": {
+            "en": "tener → ten.",
+            "it": "tener → ten.",
+            "uk": "tener → ten.",
+            "de": "tener → ten.",
+            "fr": "tener → ten.",
+            "pt": "tener → ten.",
+            "zh": "tener → ten。"
+          },
+          "beat": "mix"
+        },
+        {
+          "type": "build",
+          "intention": {
+            "en": "Your friend is going out. Tell her to be careful and to come home early.",
+            "it": "La tua amica esce. Dille di stare attenta e di tornare a casa presto.",
+            "uk": "Твоя подруга йде гуляти. Скажи їй, щоб була обережна й поверталася додому рано.",
+            "de": "Deine Freundin geht aus. Sag ihr, dass sie aufpassen und früh nach Hause kommen soll.",
+            "fr": "Ton amie sort. Dis-lui de faire attention et de rentrer tôt à la maison.",
+            "pt": "Sua amiga vai sair. Diga a ela que tome cuidado e que volte cedo para casa.",
+            "zh": "你的朋友要出门。叫她小心点，早点回家。"
+          },
+          "accepted": [
+            "Ten cuidado y ven pronto a casa.",
+            "Ten cuidado y ven a casa pronto."
+          ],
+          "tiles": [
+            "Ten",
+            "cuidado",
+            "y",
+            "ven",
+            "pronto",
+            "a casa",
+            "vienes",
+            "tienes"
+          ],
+          "en": "Be careful and come home early.",
+          "it": "Stai attenta e torna a casa presto.",
+          "uk": "Будь обережна й повертайся додому рано.",
+          "de": "Pass auf und komm früh nach Hause.",
+          "fr": "Fais attention et rentre tôt à la maison.",
+          "pt": "Tome cuidado e venha cedo para casa.",
+          "zh": "小心点，早点回家。",
+          "hint": {
+            "en": "Short forms: tener → ten, venir → ven.",
+            "it": "Forme corte: tener → ten, venir → ven.",
+            "uk": "Короткі форми: tener → ten, venir → ven.",
+            "de": "Kurze Formen: tener → ten, venir → ven.",
+            "fr": "Formes courtes : tener → ten, venir → ven.",
+            "pt": "Formas curtas: tener → ten, venir → ven.",
+            "zh": "短形式：tener → ten，venir → ven。"
+          },
+          "beat": "mix"
+        },
+        {
+          "type": "write",
+          "instruction": {
+            "en": "Write in Spanish: «Go out with your friends, but come home early.»",
+            "it": "Scrivi in spagnolo: «Esci con i tuoi amici, ma torna a casa presto.»",
+            "uk": "Напиши іспанською: «Іди погуляй із друзями, але повертайся додому рано.»",
+            "de": "Schreib auf Spanisch: «Geh mit deinen Freunden aus, aber komm früh nach Hause.»",
+            "fr": "Écris en espagnol : «Sors avec tes amis, mais rentre tôt à la maison.»",
+            "pt": "Escreva em espanhol: «Saia com seus amigos, mas venha cedo para casa.»",
+            "zh": "用西班牙语写：«和朋友们出去玩吧，但要早点回家。»"
+          },
+          "accepted": [
+            "Sal con tus amigos, pero ven pronto a casa.",
+            "Sal con tus amigos pero ven pronto a casa.",
+            "Sal con tus amigos, pero ven a casa pronto.",
+            "Sal con tus amigos, pero vuelve pronto a casa."
+          ],
+          "model": {
+            "es": "Sal con tus amigos, pero ven pronto a casa.",
+            "en": "Go out with your friends, but come home early.",
+            "it": "Esci con i tuoi amici, ma torna a casa presto.",
+            "uk": "Іди погуляй із друзями, але повертайся додому рано.",
+            "de": "Geh mit deinen Freunden aus, aber komm früh nach Hause.",
+            "fr": "Sors avec tes amis, mais rentre tôt à la maison.",
+            "pt": "Saia com seus amigos, mas venha cedo para casa.",
+            "zh": "和朋友们出去玩吧，但要早点回家。"
+          },
+          "beat": "mix"
+        }
+      ]
+    },
+    {
+      "id": "u30l2",
+      "goal": {
+        "en": "Give instructions politely with usted and ustedes: hable, coma, siga, tenga, pasen.",
+        "it": "Dai istruzioni con usted e ustedes: hable, coma, siga, tenga, pasen.",
+        "uk": "Ввічливо давай вказівки з usted і ustedes: hable, coma, siga, tenga, pasen.",
+        "de": "Gib höflich Anweisungen mit usted und ustedes: hable, coma, siga, tenga, pasen.",
+        "fr": "Donner des instructions poliment avec usted et ustedes : hable, coma, siga, tenga, pasen.",
+        "pt": "Dê instruções com educação usando usted e ustedes: hable, coma, siga, tenga, pasen.",
+        "zh": "用 usted 和 ustedes 礼貌地给出指示：hable、coma、siga、tenga、pasen。"
+      },
+      "target": {
+        "es": "Siga todo recto y gire a la derecha.",
+        "en": "Go straight on and turn right.",
+        "it": "Vada sempre dritto e giri a destra.",
+        "uk": "Ідіть прямо й поверніть праворуч.",
+        "de": "Gehen Sie geradeaus und biegen Sie rechts ab.",
+        "fr": "Continuez tout droit et tournez à droite.",
+        "pt": "Siga reto e vire à direita.",
+        "zh": "您一直往前走，然后右转。"
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "girar",
+              "en": "to turn",
+              "it": "girare",
+              "uk": "повертати",
+              "de": "abbiegen",
+              "fr": "tourner",
+              "pt": "virar",
+              "zh": "转，转弯",
+              "kind": "stem"
+            },
+            {
+              "es": "todo recto",
+              "en": "straight on",
+              "it": "sempre dritto",
+              "uk": "прямо",
+              "de": "geradeaus",
+              "fr": "tout droit",
+              "pt": "reto, sempre em frente",
+              "zh": "一直往前",
+              "kind": "rail"
+            },
+            {
+              "es": "firmar",
+              "en": "to sign",
+              "it": "firmare",
+              "uk": "підписувати",
+              "de": "unterschreiben",
+              "fr": "signer",
+              "pt": "assinar",
+              "zh": "签字",
+              "kind": "stem"
+            },
+            {
+              "es": "el cambio",
+              "en": "the change (money)",
+              "it": "il resto",
+              "uk": "решта (гроші)",
+              "de": "das Wechselgeld",
+              "fr": "la monnaie (argent rendu)",
+              "pt": "o troco",
+              "zh": "零钱，找的钱",
+              "kind": "chunk"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "hablar",
+              "kind": "stem"
+            },
+            {
+              "text": "→ hable",
+              "kind": "ending"
+            },
+            {
+              "text": "comer",
+              "kind": "stem"
+            },
+            {
+              "text": "→ coma",
+              "kind": "ending"
+            }
+          ],
+          "rule": {
+            "en": "For usted, the vowel swaps: AR verbs end in -e (hable, espere) and ER and IR verbs end in -a (coma, escriba).",
+            "it": "Per usted, la vocale si scambia: i verbi in AR finiscono in -e (hable, espere) e quelli in ER e IR in -a (coma, escriba).",
+            "uk": "Для usted голосна міняється: дієслова на AR закінчуються на -e (hable, espere), а дієслова на ER та IR — на -a (coma, escriba).",
+            "de": "Für usted tauscht sich der Vokal: Verben auf AR enden auf -e (hable, espere), Verben auf ER und IR auf -a (coma, escriba).",
+            "fr": "Pour usted, la voyelle s'inverse : les verbes en AR se terminent en -e (hable, espere) et les verbes en ER et IR en -a (coma, escriba).",
+            "pt": "Para usted, a vogal se troca: os verbos em AR terminam em -e (hable, espere) e os em ER e IR terminam em -a (coma, escriba). É como em português: fale, coma.",
+            "zh": "对 usted 说话时，元音互换：AR 动词以 -e 结尾（hable、espere），ER 和 IR 动词以 -a 结尾（coma、escriba）。"
+          },
+          "examples": [
+            {
+              "es": "Espere un momento, por favor.",
+              "en": "Wait a moment, please.",
+              "it": "Aspetti un momento, per favore.",
+              "uk": "Зачекайте хвилинку, будь ласка.",
+              "de": "Warten Sie bitte einen Moment.",
+              "fr": "Attendez un instant, s'il vous plaît.",
+              "pt": "Espere um momento, por favor.",
+              "zh": "请您稍等一下。"
+            },
+            {
+              "es": "Tome una pastilla cada ocho horas.",
+              "en": "Take one tablet every eight hours.",
+              "it": "Prenda una pastiglia ogni otto ore.",
+              "uk": "Приймайте одну таблетку кожні вісім годин.",
+              "de": "Nehmen Sie alle acht Stunden eine Tablette.",
+              "fr": "Prenez un comprimé toutes les huit heures.",
+              "pt": "Tome um comprimido a cada oito horas.",
+              "zh": "您每八小时服一片药。"
+            },
+            {
+              "es": "Firme aquí y escriba su nombre.",
+              "en": "Sign here and write your name.",
+              "it": "Firmi qui e scriva il suo nome.",
+              "uk": "Підпишіть тут і напишіть своє ім'я.",
+              "de": "Unterschreiben Sie hier und schreiben Sie Ihren Namen.",
+              "fr": "Signez ici et écrivez votre nom.",
+              "pt": "Assine aqui e escreva o seu nome.",
+              "zh": "请在这里签字，并写上您的名字。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "hable",
+              "en": "speak! (usted)",
+              "it": "parli",
+              "uk": "говоріть! (usted)",
+              "de": "sprechen Sie! (usted)",
+              "fr": "parlez ! (usted)",
+              "pt": "fale! (usted)",
+              "zh": "说！（usted）"
+            },
+            {
+              "es": "espere",
+              "en": "wait! (usted)",
+              "it": "aspetti",
+              "uk": "зачекайте! (usted)",
+              "de": "warten Sie! (usted)",
+              "fr": "attendez ! (usted)",
+              "pt": "espere! (usted)",
+              "zh": "等！（usted）"
+            },
+            {
+              "es": "gire",
+              "en": "turn! (usted)",
+              "it": "giri",
+              "uk": "поверніть! (usted)",
+              "de": "biegen Sie ab! (usted)",
+              "fr": "tournez ! (usted)",
+              "pt": "vire! (usted)",
+              "zh": "转！（usted）"
+            },
+            {
+              "es": "tome",
+              "en": "take! (usted)",
+              "it": "prenda",
+              "uk": "візьміть! приймайте! (usted)",
+              "de": "nehmen Sie! (usted)",
+              "fr": "prenez ! (usted)",
+              "pt": "tome! (usted)",
+              "zh": "拿！吃（药）！（usted）"
+            },
+            {
+              "es": "firme",
+              "en": "sign! (usted)",
+              "it": "firmi",
+              "uk": "підпишіть! (usted)",
+              "de": "unterschreiben Sie! (usted)",
+              "fr": "signez ! (usted)",
+              "pt": "assine! (usted)",
+              "zh": "签字！（usted）"
+            },
+            {
+              "es": "mire",
+              "en": "look! (usted)",
+              "it": "guardi",
+              "uk": "подивіться! (usted)",
+              "de": "schauen Sie! (usted)",
+              "fr": "regardez ! (usted)",
+              "pt": "olhe! (usted)",
+              "zh": "看！（usted）"
+            },
+            {
+              "es": "pase",
+              "en": "come in! (usted)",
+              "it": "entri, passi",
+              "uk": "заходьте! проходьте! (usted)",
+              "de": "kommen Sie herein! (usted)",
+              "fr": "entrez ! (usted)",
+              "pt": "entre! (usted)",
+              "zh": "请进！（usted）"
+            },
+            {
+              "es": "coma",
+              "en": "eat! (usted)",
+              "it": "mangi",
+              "uk": "їжте! (usted)",
+              "de": "essen Sie! (usted)",
+              "fr": "mangez ! (usted)",
+              "pt": "coma! (usted)",
+              "zh": "吃！（usted）"
+            },
+            {
+              "es": "beba",
+              "en": "drink! (usted)",
+              "it": "beva",
+              "uk": "пийте! (usted)",
+              "de": "trinken Sie! (usted)",
+              "fr": "buvez ! (usted)",
+              "pt": "beba! (usted)",
+              "zh": "喝！（usted）"
+            },
+            {
+              "es": "escriba",
+              "en": "write! (usted)",
+              "it": "scriva",
+              "uk": "напишіть! (usted)",
+              "de": "schreiben Sie! (usted)",
+              "fr": "écrivez ! (usted)",
+              "pt": "escreva! (usted)",
+              "zh": "写！（usted）"
+            },
+            {
+              "es": "abra",
+              "en": "open! (usted)",
+              "it": "apra",
+              "uk": "відчиніть! (usted)",
+              "de": "öffnen Sie! (usted)",
+              "fr": "ouvrez ! (usted)",
+              "pt": "abra! (usted)",
+              "zh": "打开！（usted）"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "before": "Señora, ",
+          "after": " un momento, por favor.",
+          "options": [
+            "espere",
+            "espera",
+            "esperas"
+          ],
+          "answer": "espere",
+          "en": "Madam, wait a moment, please.",
+          "it": "Signora, aspetti un momento, per favore.",
+          "uk": "Пані, зачекайте хвилинку, будь ласка.",
+          "de": "Warten Sie bitte einen Moment, meine Dame.",
+          "fr": "Madame, attendez un instant, s'il vous plaît.",
+          "pt": "Senhora, espere um momento, por favor.",
+          "zh": "女士，请您稍等一下。",
+          "hint": {
+            "en": "señora: usted. esperar is AR, so -e: espere.",
+            "it": "señora: usted. esperar è in AR, quindi -e: espere.",
+            "uk": "señora: usted. esperar — дієслово на AR, тож -e: espere.",
+            "de": "señora: usted. esperar ist ein AR-Verb, also -e: espere.",
+            "fr": "señora : usted. esperar est en AR, donc -e : espere.",
+            "pt": "señora: usted. esperar é em AR, então -e: espere.",
+            "zh": "señora：用 usted。esperar 是 AR 动词，所以用 -e：espere。"
+          },
+          "beat": "forge"
+        },
+        {
+          "type": "gap",
+          "before": "Señor, en el semáforo, ",
+          "after": " a la derecha.",
+          "label": "girar",
+          "accepted": [
+            "gire"
+          ],
+          "en": "Sir, turn right at the traffic lights.",
+          "it": "Signore, al semaforo giri a destra.",
+          "uk": "Пане, на світлофорі поверніть праворуч.",
+          "de": "Biegen Sie an der Ampel rechts ab, mein Herr.",
+          "fr": "Monsieur, tournez à droite au feu.",
+          "pt": "Senhor, vire à direita no semáforo.",
+          "zh": "先生，到红绿灯那里请右转。",
+          "hint": {
+            "en": "usted, AR verb: gire.",
+            "it": "usted, verbo in AR: gire.",
+            "uk": "usted, дієслово на AR: gire.",
+            "de": "usted, AR-Verb: gire.",
+            "fr": "usted, verbe en AR : gire.",
+            "pt": "usted, verbo em AR: gire.",
+            "zh": "usted，AR 动词：gire。"
+          },
+          "beat": "fire"
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "tengo",
+              "kind": "stem"
+            },
+            {
+              "text": "→ tenga",
+              "kind": "ending"
+            }
+          ],
+          "rule": {
+            "en": "Many irregular verbs take the yo form, drop the -o and add -a: tengo → tenga, hago → haga, digo → diga, sigo → siga. ir becomes vaya.",
+            "it": "Molti verbi irregolari prendono la forma di yo, tolgono la -o e aggiungono -a: tengo → tenga, hago → haga, digo → diga, sigo → siga. ir diventa vaya.",
+            "uk": "Багато неправильних дієслів беруть форму yo, відкидають -o і додають -a: tengo → tenga, hago → haga, digo → diga, sigo → siga. ir стає vaya.",
+            "de": "Viele unregelmäßige Verben nehmen die yo-Form, lassen das -o weg und hängen -a an: tengo → tenga, hago → haga, digo → diga, sigo → siga. ir wird zu vaya.",
+            "fr": "Beaucoup de verbes irréguliers partent de la forme de yo, enlèvent le -o et ajoutent -a : tengo → tenga, hago → haga, digo → diga, sigo → siga. ir devient vaya.",
+            "pt": "Muitos verbos irregulares pegam a forma de yo, tiram o -o e acrescentam -a, como em português: tengo → tenga, hago → haga, digo → diga, sigo → siga. ir vira vaya.",
+            "zh": "很多不规则动词取 yo 的形式，去掉 -o 再加 -a：tengo → tenga，hago → haga，digo → diga，sigo → siga。ir 变成 vaya。"
+          },
+          "examples": [
+            {
+              "es": "Siga todo recto y gire a la izquierda.",
+              "en": "Go straight on and turn left.",
+              "it": "Vada sempre dritto e giri a sinistra.",
+              "uk": "Ідіть прямо й поверніть ліворуч.",
+              "de": "Gehen Sie geradeaus und biegen Sie links ab.",
+              "fr": "Continuez tout droit et tournez à gauche.",
+              "pt": "Siga reto e vire à esquerda.",
+              "zh": "您一直往前走，然后左转。"
+            },
+            {
+              "es": "Tenga, su cambio.",
+              "en": "Here's your change.",
+              "it": "Ecco il suo resto.",
+              "uk": "Ось ваша решта.",
+              "de": "Bitte, Ihr Wechselgeld.",
+              "fr": "Tenez, voici votre monnaie.",
+              "pt": "Aqui está o seu troco.",
+              "zh": "给您，这是找您的零钱。"
+            },
+            {
+              "es": "Venga mañana a las diez.",
+              "en": "Come tomorrow at ten.",
+              "it": "Venga domani alle dieci.",
+              "uk": "Приходьте завтра о десятій.",
+              "de": "Kommen Sie morgen um zehn.",
+              "fr": "Venez demain à dix heures.",
+              "pt": "Venha amanhã às dez.",
+              "zh": "您明天十点来吧。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "tenga",
+              "en": "have! here you are (usted)",
+              "it": "abbia, tenga",
+              "uk": "майте! тримайте! ось, візьміть (usted)",
+              "de": "haben Sie! bitte schön (usted)",
+              "fr": "ayez ! tenez, voici (usted)",
+              "pt": "tenha! / tome, aqui está (usted)",
+              "zh": "拿着！给您（usted）"
+            },
+            {
+              "es": "haga",
+              "en": "do! make! (usted)",
+              "it": "faccia",
+              "uk": "зробіть! (usted)",
+              "de": "machen Sie! (usted)",
+              "fr": "faites ! (usted)",
+              "pt": "faça! (usted)",
+              "zh": "做！（usted）"
+            },
+            {
+              "es": "diga",
+              "en": "say! tell! (usted)",
+              "it": "dica",
+              "uk": "скажіть! (usted)",
+              "de": "sagen Sie! (usted)",
+              "fr": "dites ! (usted)",
+              "pt": "diga! (usted)",
+              "zh": "说！告诉！（usted）"
+            },
+            {
+              "es": "ponga",
+              "en": "put! (usted)",
+              "it": "metta",
+              "uk": "покладіть! поставте! (usted)",
+              "de": "stellen Sie! legen Sie! (usted)",
+              "fr": "mettez ! (usted)",
+              "pt": "ponha! coloque! (usted)",
+              "zh": "放！（usted）"
+            },
+            {
+              "es": "salga",
+              "en": "go out! (usted)",
+              "it": "esca",
+              "uk": "вийдіть! (usted)",
+              "de": "gehen Sie hinaus! (usted)",
+              "fr": "sortez ! (usted)",
+              "pt": "saia! (usted)",
+              "zh": "出去！（usted）"
+            },
+            {
+              "es": "venga",
+              "en": "come! (usted)",
+              "it": "venga",
+              "uk": "приходьте! (usted)",
+              "de": "kommen Sie! (usted)",
+              "fr": "venez ! (usted)",
+              "pt": "venha! (usted)",
+              "zh": "来！（usted）"
+            },
+            {
+              "es": "siga",
+              "en": "keep going! follow! (usted)",
+              "it": "continui, segua",
+              "uk": "ідіть далі! продовжуйте! (usted)",
+              "de": "gehen Sie weiter! folgen Sie! (usted)",
+              "fr": "continuez ! suivez ! (usted)",
+              "pt": "siga! continue! (usted)",
+              "zh": "继续走！跟着！（usted）"
+            },
+            {
+              "es": "vaya",
+              "en": "go! (usted)",
+              "it": "vada",
+              "uk": "ідіть! (usted)",
+              "de": "gehen Sie! (usted)",
+              "fr": "allez ! (usted)",
+              "pt": "vá! (usted)",
+              "zh": "去！（usted）"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "before": "Señor, ",
+          "after": " todo recto hasta la plaza.",
+          "options": [
+            "siga",
+            "sigue",
+            "sigo"
+          ],
+          "answer": "siga",
+          "en": "Sir, go straight on as far as the square.",
+          "it": "Signore, vada sempre dritto fino alla piazza.",
+          "uk": "Пане, ідіть прямо до площі.",
+          "de": "Gehen Sie geradeaus bis zum Platz, mein Herr.",
+          "fr": "Monsieur, continuez tout droit jusqu'à la place.",
+          "pt": "Senhor, siga reto até a praça.",
+          "zh": "先生，您一直往前走，走到广场。",
+          "hint": {
+            "en": "señor: usted. sigo → siga.",
+            "it": "señor: usted. sigo → siga.",
+            "uk": "señor: usted. sigo → siga.",
+            "de": "señor: usted. sigo → siga.",
+            "fr": "señor : usted. sigo → siga.",
+            "pt": "señor: usted. sigo → siga.",
+            "zh": "señor：用 usted。sigo → siga。"
+          },
+          "beat": "forge"
+        },
+        {
+          "type": "build",
+          "intention": {
+            "en": "The doctor gives you advice with usted: do more sport and eat less salt.",
+            "it": "Il medico ti dà dei consigli con usted: fare più sport e mangiare meno sale.",
+            "uk": "Лікар дає тобі поради, звертаючись на usted: більше займатися спортом і їсти менше солі.",
+            "de": "Der Arzt gibt dir mit usted Ratschläge: mehr Sport treiben und weniger Salz essen.",
+            "fr": "Le médecin te donne des conseils avec usted : faire plus de sport et manger moins de sel.",
+            "pt": "O médico te dá conselhos tratando você de usted: pratique mais esporte e coma menos sal.",
+            "zh": "医生用 usted 给你建议：多做运动，少吃盐。"
+          },
+          "accepted": [
+            "Haga más deporte y coma menos sal.",
+            "Coma menos sal y haga más deporte."
+          ],
+          "tiles": [
+            "Haga",
+            "más deporte",
+            "y",
+            "coma",
+            "menos sal",
+            "hace",
+            "come"
+          ],
+          "en": "Do more sport and eat less salt.",
+          "it": "Faccia più sport e mangi meno sale.",
+          "uk": "Більше займайтеся спортом і їжте менше солі.",
+          "de": "Treiben Sie mehr Sport und essen Sie weniger Salz.",
+          "fr": "Faites plus de sport et mangez moins de sel.",
+          "pt": "Pratique mais esporte e coma menos sal.",
+          "zh": "您要多做运动，少吃盐。",
+          "hint": {
+            "en": "usted: hago → haga; comer → coma.",
+            "it": "usted: hago → haga; comer → coma.",
+            "uk": "usted: hago → haga; comer → coma.",
+            "de": "usted: hago → haga; comer → coma.",
+            "fr": "usted : hago → haga ; comer → coma.",
+            "pt": "usted: hago → haga; comer → coma.",
+            "zh": "usted：hago → haga；comer → coma。"
+          },
+          "beat": "fire"
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "pase",
+              "kind": "stem"
+            },
+            {
+              "text": "+ n",
+              "kind": "ending"
+            },
+            {
+              "text": "→ pasen",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "For more than one person you speak to formally, ustedes, just add -n: pasen, esperen, sigan, vengan.",
+            "it": "Per più persone a cui dai del lei, ustedes, aggiungi solo -n: pasen, esperen, sigan, vengan.",
+            "uk": "Для кількох людей, до яких ти звертаєшся ввічливо (ustedes), просто додай -n: pasen, esperen, sigan, vengan.",
+            "de": "Für mehrere Personen, die du siezt, ustedes, häng einfach -n an: pasen, esperen, sigan, vengan.",
+            "fr": "Pour plusieurs personnes que tu vouvoies, ustedes, ajoute simplement -n : pasen, esperen, sigan, vengan.",
+            "pt": "Para mais de uma pessoa que você trata com formalidade, ustedes, basta acrescentar -n: pasen, esperen, sigan, vengan.",
+            "zh": "对不止一个需要用尊称的人（ustedes），只要加 -n：pasen、esperen、sigan、vengan。"
+          },
+          "examples": [
+            {
+              "es": "Pasen, por favor.",
+              "en": "Come in, please.",
+              "it": "Entrino, prego.",
+              "uk": "Проходьте, будь ласка.",
+              "de": "Kommen Sie bitte herein.",
+              "fr": "Entrez, je vous en prie.",
+              "pt": "Entrem, por favor.",
+              "zh": "请进。"
+            },
+            {
+              "es": "Esperen aquí un momento.",
+              "en": "Wait here a moment.",
+              "it": "Aspettino qui un momento.",
+              "uk": "Зачекайте тут хвилинку.",
+              "de": "Warten Sie hier einen Moment.",
+              "fr": "Attendez ici un instant.",
+              "pt": "Esperem aqui um momento.",
+              "zh": "请各位在这里稍等一下。"
+            },
+            {
+              "es": "Sigan todo recto y giren a la derecha.",
+              "en": "Go straight on and turn right.",
+              "it": "Vadano sempre dritto e girino a destra.",
+              "uk": "Ідіть прямо й поверніть праворуч.",
+              "de": "Gehen Sie geradeaus und biegen Sie rechts ab.",
+              "fr": "Continuez tout droit et tournez à droite.",
+              "pt": "Sigam reto e virem à direita.",
+              "zh": "请各位一直往前走，然后右转。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "pasen",
+              "en": "come in! (ustedes)",
+              "it": "entrino, passino",
+              "uk": "заходьте! проходьте! (ustedes)",
+              "de": "kommen Sie herein! (ustedes)",
+              "fr": "entrez ! (ustedes)",
+              "pt": "entrem! (ustedes)",
+              "zh": "请进！（ustedes）"
+            },
+            {
+              "es": "esperen",
+              "en": "wait! (ustedes)",
+              "it": "aspettino",
+              "uk": "зачекайте! (ustedes)",
+              "de": "warten Sie! (ustedes)",
+              "fr": "attendez ! (ustedes)",
+              "pt": "esperem! (ustedes)",
+              "zh": "等！（ustedes）"
+            },
+            {
+              "es": "sigan",
+              "en": "keep going! (ustedes)",
+              "it": "continuino",
+              "uk": "ідіть далі! (ustedes)",
+              "de": "gehen Sie weiter! (ustedes)",
+              "fr": "continuez ! (ustedes)",
+              "pt": "sigam! continuem! (ustedes)",
+              "zh": "继续走！（ustedes）"
+            },
+            {
+              "es": "giren",
+              "en": "turn! (ustedes)",
+              "it": "girino",
+              "uk": "поверніть! (ustedes)",
+              "de": "biegen Sie ab! (ustedes)",
+              "fr": "tournez ! (ustedes)",
+              "pt": "virem! (ustedes)",
+              "zh": "转！（ustedes）"
+            },
+            {
+              "es": "vengan",
+              "en": "come! (ustedes)",
+              "it": "vengano",
+              "uk": "приходьте! (ustedes)",
+              "de": "kommen Sie! (ustedes)",
+              "fr": "venez ! (ustedes)",
+              "pt": "venham! (ustedes)",
+              "zh": "来！（ustedes）"
+            },
+            {
+              "es": "tengan",
+              "en": "have! (ustedes)",
+              "it": "abbiano, tengano",
+              "uk": "майте! тримайте! (ustedes)",
+              "de": "haben Sie! (ustedes)",
+              "fr": "ayez ! (ustedes)",
+              "pt": "tenham! (ustedes)",
+              "zh": "拿着！（ustedes）"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "before": "",
+          "after": " ustedes, por favor.",
+          "options": [
+            "Pasen",
+            "Pase",
+            "Pasan"
+          ],
+          "answer": "Pasen",
+          "en": "Come in, please (to both of you).",
+          "it": "Entrino pure, prego.",
+          "uk": "Проходьте, будь ласка (до вас обох).",
+          "de": "Kommen Sie bitte herein (zu zwei Personen).",
+          "fr": "Entrez, je vous en prie (à vous deux).",
+          "pt": "Entrem, por favor (para duas pessoas).",
+          "zh": "请进（对你们两位说）。",
+          "hint": {
+            "en": "ustedes: pase + -n.",
+            "it": "ustedes: pase + -n.",
+            "uk": "ustedes: pase + -n.",
+            "de": "ustedes: pase + -n.",
+            "fr": "ustedes : pase + -n.",
+            "pt": "ustedes: pase + -n.",
+            "zh": "ustedes：pase + -n。"
+          },
+          "beat": "forge"
+        },
+        {
+          "type": "build",
+          "intention": {
+            "en": "Two tourists ask you the way to the station. Tell them, with ustedes, to go straight on and turn left.",
+            "it": "Due turisti ti chiedono la strada per la stazione. Di' loro, con ustedes, di andare sempre dritto e girare a sinistra.",
+            "uk": "Двоє туристів питають тебе, як дійти до вокзалу. Скажи їм, звертаючись на ustedes, іти прямо й повернути ліворуч.",
+            "de": "Zwei Touristen fragen dich nach dem Weg zum Bahnhof. Sag ihnen mit ustedes, dass sie geradeaus gehen und links abbiegen sollen.",
+            "fr": "Deux touristes te demandent le chemin de la gare. Dis-leur, avec ustedes, de continuer tout droit et de tourner à gauche.",
+            "pt": "Dois turistas perguntam a você o caminho para a estação. Diga a eles, com ustedes, que sigam reto e virem à esquerda.",
+            "zh": "两位游客问你去车站怎么走。用 ustedes 告诉他们一直往前走，然后左转。"
+          },
+          "accepted": [
+            "Sigan todo recto y giren a la izquierda."
+          ],
+          "tiles": [
+            "Sigan",
+            "todo recto",
+            "y",
+            "giren",
+            "a la izquierda",
+            "siga",
+            "gire"
+          ],
+          "en": "Go straight on and turn left.",
+          "it": "Vadano sempre dritto e girino a sinistra.",
+          "uk": "Ідіть прямо й поверніть ліворуч.",
+          "de": "Gehen Sie geradeaus und biegen Sie links ab.",
+          "fr": "Continuez tout droit et tournez à gauche.",
+          "pt": "Sigam reto e virem à esquerda.",
+          "zh": "二位一直往前走，然后左转。",
+          "hint": {
+            "en": "Two people, ustedes: siga + -n, gire + -n.",
+            "it": "Due persone, ustedes: siga + -n, gire + -n.",
+            "uk": "Двоє людей, ustedes: siga + -n, gire + -n.",
+            "de": "Zwei Personen, ustedes: siga + -n, gire + -n.",
+            "fr": "Deux personnes, ustedes : siga + -n, gire + -n.",
+            "pt": "Duas pessoas, ustedes: siga + -n, gire + -n.",
+            "zh": "两个人，用 ustedes：siga + -n，gire + -n。"
+          },
+          "beat": "fire"
+        },
+        {
+          "type": "choose",
+          "before": "",
+          "after": ", su cambio.",
+          "options": [
+            "Tenga",
+            "Ten",
+            "Tiene"
+          ],
+          "answer": "Tenga",
+          "en": "Here's your change.",
+          "it": "Ecco il suo resto.",
+          "uk": "Ось ваша решта.",
+          "de": "Bitte, Ihr Wechselgeld.",
+          "fr": "Tenez, voici votre monnaie.",
+          "pt": "Aqui está o seu troco.",
+          "zh": "给您，这是找您的零钱。",
+          "hint": {
+            "en": "su cambio: you speak to the customer as usted. tengo → tenga.",
+            "it": "su cambio: dai del lei al cliente. tengo → tenga.",
+            "uk": "su cambio: до клієнта ти звертаєшся на usted. tengo → tenga.",
+            "de": "su cambio: Du siezt den Kunden (usted). tengo → tenga.",
+            "fr": "su cambio : tu vouvoies le client (usted). tengo → tenga.",
+            "pt": "su cambio: você fala com o cliente de usted. tengo → tenga.",
+            "zh": "su cambio：你对顾客用 usted。tengo → tenga。"
+          },
+          "beat": "mix"
+        },
+        {
+          "type": "gap",
+          "before": "Para el dolor, ",
+          "after": " una pastilla cada ocho horas.",
+          "label": "tomar",
+          "accepted": [
+            "tome"
+          ],
+          "en": "For the pain, take one tablet every eight hours.",
+          "it": "Per il dolore, prenda una pastiglia ogni otto ore.",
+          "uk": "Від болю приймайте одну таблетку кожні вісім годин.",
+          "de": "Gegen die Schmerzen nehmen Sie alle acht Stunden eine Tablette.",
+          "fr": "Pour la douleur, prenez un comprimé toutes les huit heures.",
+          "pt": "Para a dor, tome um comprimido a cada oito horas.",
+          "zh": "要止痛的话，您每八小时服一片药。",
+          "hint": {
+            "en": "The doctor speaks to you as usted: tomar → tome.",
+            "it": "Il medico ti dà del lei: tomar → tome.",
+            "uk": "Лікар звертається до тебе на usted: tomar → tome.",
+            "de": "Der Arzt siezt dich (usted): tomar → tome.",
+            "fr": "Le médecin te vouvoie (usted) : tomar → tome.",
+            "pt": "O médico fala com você de usted: tomar → tome.",
+            "zh": "医生对你用 usted：tomar → tome。"
+          },
+          "beat": "mix"
+        },
+        {
+          "type": "build",
+          "intention": {
+            "en": "At the bank, the clerk asks you, with usted, to sign here.",
+            "it": "In banca, l'impiegato ti chiede, con usted, di firmare qui.",
+            "uk": "У банку працівник просить тебе, звертаючись на usted, підписати тут.",
+            "de": "In der Bank bittet dich der Angestellte mit usted, hier zu unterschreiben.",
+            "fr": "À la banque, l'employé te demande, avec usted, de signer ici.",
+            "pt": "No banco, o funcionário pede, com usted, que você assine aqui.",
+            "zh": "在银行，职员用 usted 请你在这里签字。"
+          },
+          "accepted": [
+            "Firme aquí, por favor.",
+            "Por favor, firme aquí."
+          ],
+          "tiles": [
+            "Firme",
+            "aquí,",
+            "por favor",
+            "escriba",
+            "firmar"
+          ],
+          "en": "Sign here, please.",
+          "it": "Firmi qui, per favore.",
+          "uk": "Підпишіть тут, будь ласка.",
+          "de": "Unterschreiben Sie bitte hier.",
+          "fr": "Signez ici, s'il vous plaît.",
+          "pt": "Assine aqui, por favor.",
+          "zh": "请在这里签字。",
+          "hint": {
+            "en": "One person, usted: firmar → firme.",
+            "it": "Una persona, usted: firmar → firme.",
+            "uk": "Одна людина, usted: firmar → firme.",
+            "de": "Eine Person, usted: firmar → firme.",
+            "fr": "Une personne, usted : firmar → firme.",
+            "pt": "Uma pessoa, usted: firmar → firme.",
+            "zh": "一个人，用 usted：firmar → firme。"
+          },
+          "beat": "mix"
+        },
+        {
+          "type": "write",
+          "instruction": {
+            "en": "You're busy when a customer arrives. You speak to him as usted. Write in Spanish: «Excuse me, wait a moment, please.»",
+            "it": "Sei occupato quando arriva un cliente. Gli dai del lei. Scrivi in spagnolo: «Mi scusi, aspetti un momento, per favore.»",
+            "uk": "Ти зайнятий(-а), коли приходить клієнт. Ти звертаєшся до нього на usted. Напиши іспанською: «Перепрошую, зачекайте хвилинку, будь ласка.»",
+            "de": "Du bist gerade beschäftigt, als ein Kunde kommt. Du siezt ihn (usted). Schreib auf Spanisch: «Entschuldigen Sie, warten Sie bitte einen Moment.»",
+            "fr": "Tu es occupé quand un client arrive. Tu le vouvoies (usted). Écris en espagnol : «Excusez-moi, attendez un instant, s'il vous plaît.»",
+            "pt": "Você está ocupado quando chega um cliente. Você o trata de usted. Escreva em espanhol: «Desculpe, espere um momento, por favor.»",
+            "zh": "一位顾客来的时候你正在忙。你对他用 usted。用西班牙语写：«不好意思，请您稍等一下。»"
+          },
+          "accepted": [
+            "Perdone, espere un momento, por favor.",
+            "Perdone, espere un momento por favor.",
+            "Perdone. Espere un momento, por favor."
+          ],
+          "model": {
+            "es": "Perdone, espere un momento, por favor.",
+            "en": "Excuse me, wait a moment, please.",
+            "it": "Mi scusi, aspetti un momento, per favore.",
+            "uk": "Перепрошую, зачекайте хвилинку, будь ласка.",
+            "de": "Entschuldigen Sie, warten Sie bitte einen Moment.",
+            "fr": "Excusez-moi, attendez un instant, s'il vous plaît.",
+            "pt": "Desculpe, espere um momento, por favor.",
+            "zh": "不好意思，请您稍等一下。"
+          },
+          "beat": "mix"
+        }
+      ]
+    },
+    {
+      "id": "u30l3",
+      "goal": {
+        "en": "Tell someone not to do something: no hables, no comas, no digas, no vayas, and with usted no fume.",
+        "it": "Di' a qualcuno di non fare qualcosa: no hables, no comas, no digas, no vayas, e con usted no fume.",
+        "uk": "Кажи комусь чогось не робити: no hables, no comas, no digas, no vayas, а з usted — no fume.",
+        "de": "Sag jemandem, dass er etwas nicht tun soll: no hables, no comas, no digas, no vayas, und mit usted no fume.",
+        "fr": "Dire à quelqu'un de ne pas faire quelque chose : no hables, no comas, no digas, no vayas, et avec usted no fume.",
+        "pt": "Diga a alguém que não faça algo: no hables, no comas, no digas, no vayas, e com usted no fume.",
+        "zh": "告诉别人不要做某事：no hables、no comas、no digas、no vayas，对 usted 则说 no fume。"
+      },
+      "target": {
+        "es": "No te preocupes y no digas nada.",
+        "en": "Don't worry and don't say anything.",
+        "it": "Non preoccuparti e non dire niente.",
+        "uk": "Не хвилюйся і нічого не кажи.",
+        "de": "Mach dir keine Sorgen und sag nichts.",
+        "fr": "Ne t'inquiète pas et ne dis rien.",
+        "pt": "Não se preocupe e não diga nada.",
+        "zh": "别担心，什么也别说。"
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "gritar",
+              "en": "to shout",
+              "it": "gridare, urlare",
+              "uk": "кричати",
+              "de": "schreien",
+              "fr": "crier",
+              "pt": "gritar",
+              "zh": "喊，大叫",
+              "kind": "stem"
+            },
+            {
+              "es": "tan",
+              "en": "so (tan rápido = so fast)",
+              "it": "così (tan rápido = così veloce)",
+              "uk": "так (tan rápido = так швидко)",
+              "de": "so (tan rápido = so schnell)",
+              "fr": "si, tellement (tan rápido = si vite)",
+              "pt": "tão (tan rápido = tão rápido)",
+              "zh": "这么，那么（tan rápido = 这么快）",
+              "kind": "rail"
+            },
+            {
+              "es": "no te preocupes",
+              "en": "don't worry",
+              "it": "non preoccuparti",
+              "uk": "не хвилюйся",
+              "de": "mach dir keine Sorgen",
+              "fr": "ne t'inquiète pas",
+              "pt": "não se preocupe",
+              "zh": "别担心",
+              "kind": "chunk"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "no",
+              "kind": "rail"
+            },
+            {
+              "text": "hable",
+              "kind": "stem"
+            },
+            {
+              "text": "+ s",
+              "kind": "ending"
+            }
+          ],
+          "rule": {
+            "en": "To tell a friend not to do something: no + the usted form + -s: no hables, no comas, no escribas. These forms only go after no; without no, say habla, come.",
+            "it": "Per dire a un amico di non fare qualcosa: no + la forma di usted + -s: no hables, no comas, no escribas. Queste forme vanno solo dopo no; senza no, di' habla, come.",
+            "uk": "Щоб сказати другові чогось не робити: no + форма для usted + -s: no hables, no comas, no escribas. Ці форми вживають лише після no; без no кажи habla, come.",
+            "de": "Um einem Freund zu sagen, dass er etwas nicht tun soll: no + die usted-Form + -s: no hables, no comas, no escribas. Diese Formen stehen nur nach no; ohne no sagst du habla, come.",
+            "fr": "Pour dire à un ami de ne pas faire quelque chose : no + la forme de usted + -s : no hables, no comas, no escribas. Ces formes ne s'emploient qu'après no ; sans no, on dit habla, come.",
+            "pt": "Para dizer a um amigo que não faça algo: no + a forma de usted + -s: no hables, no comas, no escribas. Essas formas só vêm depois de no; sem no, diga habla, come.",
+            "zh": "让朋友不要做某事：no + usted 形式 + -s：no hables、no comas、no escribas。这些形式只放在 no 后面；没有 no 时，说 habla、come。"
+          },
+          "examples": [
+            {
+              "es": "No grites tan alto.",
+              "en": "Don't shout so loudly.",
+              "it": "Non gridare così forte.",
+              "uk": "Не кричи так голосно.",
+              "de": "Schrei nicht so laut.",
+              "fr": "Ne crie pas si fort.",
+              "pt": "Não grite tão alto.",
+              "zh": "别喊那么大声。"
+            },
+            {
+              "es": "No comas tan tarde.",
+              "en": "Don't eat so late.",
+              "it": "Non mangiare così tardi.",
+              "uk": "Не їж так пізно.",
+              "de": "Iss nicht so spät.",
+              "fr": "Ne mange pas si tard.",
+              "pt": "Não coma tão tarde.",
+              "zh": "别那么晚吃饭。"
+            },
+            {
+              "es": "No abras la ventana, que hace frío.",
+              "en": "Don't open the window, it's cold.",
+              "it": "Non aprire la finestra, che fa freddo.",
+              "uk": "Не відчиняй вікно, бо холодно.",
+              "de": "Mach das Fenster nicht auf, es ist kalt.",
+              "fr": "N'ouvre pas la fenêtre, il fait froid.",
+              "pt": "Não abra a janela, que está frio.",
+              "zh": "别开窗户，好冷。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "no hables",
+              "en": "don't speak (tú)",
+              "it": "non parlare",
+              "uk": "не говори (tú)",
+              "de": "sprich nicht (tú)",
+              "fr": "ne parle pas (tú)",
+              "pt": "não fale (tú)",
+              "zh": "别说话（tú）"
+            },
+            {
+              "es": "no comas",
+              "en": "don't eat (tú)",
+              "it": "non mangiare",
+              "uk": "не їж (tú)",
+              "de": "iss nicht (tú)",
+              "fr": "ne mange pas (tú)",
+              "pt": "não coma (tú)",
+              "zh": "别吃（tú）"
+            },
+            {
+              "es": "no escribas",
+              "en": "don't write (tú)",
+              "it": "non scrivere",
+              "uk": "не пиши (tú)",
+              "de": "schreib nicht (tú)",
+              "fr": "n'écris pas (tú)",
+              "pt": "não escreva (tú)",
+              "zh": "别写（tú）"
+            },
+            {
+              "es": "no grites",
+              "en": "don't shout (tú)",
+              "it": "non gridare",
+              "uk": "не кричи (tú)",
+              "de": "schrei nicht (tú)",
+              "fr": "ne crie pas (tú)",
+              "pt": "não grite (tú)",
+              "zh": "别喊（tú）"
+            },
+            {
+              "es": "no bebas",
+              "en": "don't drink (tú)",
+              "it": "non bere",
+              "uk": "не пий (tú)",
+              "de": "trink nicht (tú)",
+              "fr": "ne bois pas (tú)",
+              "pt": "não beba (tú)",
+              "zh": "别喝（tú）"
+            },
+            {
+              "es": "no abras",
+              "en": "don't open (tú)",
+              "it": "non aprire",
+              "uk": "не відчиняй (tú)",
+              "de": "mach nicht auf (tú)",
+              "fr": "n'ouvre pas (tú)",
+              "pt": "não abra (tú)",
+              "zh": "别打开（tú）"
+            },
+            {
+              "es": "no fumes",
+              "en": "don't smoke (tú)",
+              "it": "non fumare",
+              "uk": "не кури (tú)",
+              "de": "rauch nicht (tú)",
+              "fr": "ne fume pas (tú)",
+              "pt": "não fume (tú)",
+              "zh": "别抽烟（tú）"
+            },
+            {
+              "es": "no compres",
+              "en": "don't buy (tú)",
+              "it": "non comprare",
+              "uk": "не купуй (tú)",
+              "de": "kauf nicht (tú)",
+              "fr": "n'achète pas (tú)",
+              "pt": "não compre (tú)",
+              "zh": "别买（tú）"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "before": "No ",
+          "after": " tan rápido, por favor.",
+          "options": [
+            "hables",
+            "hablas",
+            "habla"
+          ],
+          "answer": "hables",
+          "en": "Don't speak so fast, please.",
+          "it": "Non parlare così veloce, per favore.",
+          "uk": "Не говори так швидко, будь ласка.",
+          "de": "Sprich bitte nicht so schnell.",
+          "fr": "Ne parle pas si vite, s'il te plaît.",
+          "pt": "Não fale tão rápido, por favor.",
+          "zh": "请别说那么快。",
+          "hint": {
+            "en": "After no, to a friend: hable + -s.",
+            "it": "Dopo no, a un amico: hable + -s.",
+            "uk": "Після no, до друга: hable + -s.",
+            "de": "Nach no, zu einem Freund: hable + -s.",
+            "fr": "Après no, à un ami : hable + -s.",
+            "pt": "Depois de no, a um amigo: hable + -s.",
+            "zh": "在 no 后面，对朋友：hable + -s。"
+          },
+          "beat": "forge"
+        },
+        {
+          "type": "gap",
+          "before": "No ",
+          "after": " más café, que luego no duermes.",
+          "label": "beber",
+          "accepted": [
+            "bebas"
+          ],
+          "en": "Don't drink any more coffee, or you won't sleep later.",
+          "it": "Non bere più caffè, che poi non dormi.",
+          "uk": "Не пий більше кави, бо потім не заснеш.",
+          "de": "Trink keinen Kaffee mehr, sonst schläfst du nachher nicht.",
+          "fr": "Ne bois plus de café, sinon tu ne dormiras pas après.",
+          "pt": "Não tome mais café, senão depois você não dorme.",
+          "zh": "别再喝咖啡了，不然待会儿你会睡不着。",
+          "hint": {
+            "en": "After no, to a friend: beba + -s.",
+            "it": "Dopo no, a un amico: beba + -s.",
+            "uk": "Після no, до друга: beba + -s.",
+            "de": "Nach no, zu einem Freund: beba + -s.",
+            "fr": "Après no, à un ami : beba + -s.",
+            "pt": "Depois de no, a um amigo: beba + -s.",
+            "zh": "在 no 后面，对朋友：beba + -s。"
+          },
+          "beat": "fire"
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "no",
+              "kind": "rail"
+            },
+            {
+              "text": "haga",
+              "kind": "stem"
+            },
+            {
+              "text": "+ s",
+              "kind": "ending"
+            }
+          ],
+          "rule": {
+            "en": "The irregular ones work the same way, from the usted form + -s: no hagas, no digas, no pongas, no salgas, no vengas, no tengas, no vayas. And ser: no seas.",
+            "it": "Quelli irregolari funzionano allo stesso modo, dalla forma di usted + -s: no hagas, no digas, no pongas, no salgas, no vengas, no tengas, no vayas. E ser: no seas.",
+            "uk": "Неправильні дієслова працюють так само — від форми для usted + -s: no hagas, no digas, no pongas, no salgas, no vengas, no tengas, no vayas. А ser: no seas.",
+            "de": "Die unregelmäßigen funktionieren genauso, aus der usted-Form + -s: no hagas, no digas, no pongas, no salgas, no vengas, no tengas, no vayas. Und ser: no seas.",
+            "fr": "Les verbes irréguliers fonctionnent de la même façon, à partir de la forme de usted + -s : no hagas, no digas, no pongas, no salgas, no vengas, no tengas, no vayas. Et ser : no seas.",
+            "pt": "Os irregulares funcionam do mesmo jeito, a partir da forma de usted + -s: no hagas, no digas, no pongas, no salgas, no vengas, no tengas, no vayas. E ser: no seas.",
+            "zh": "不规则动词也一样，用 usted 形式 + -s：no hagas、no digas、no pongas、no salgas、no vengas、no tengas、no vayas。ser 则是：no seas。"
+          },
+          "examples": [
+            {
+              "es": "No digas nada.",
+              "en": "Don't say anything.",
+              "it": "Non dire niente.",
+              "uk": "Нічого не кажи.",
+              "de": "Sag nichts.",
+              "fr": "Ne dis rien.",
+              "pt": "Não diga nada.",
+              "zh": "什么也别说。"
+            },
+            {
+              "es": "No hagas ruido, que el niño duerme.",
+              "en": "Don't make any noise, the little boy is sleeping.",
+              "it": "Non fare rumore, che il bambino dorme.",
+              "uk": "Не шуми, малий спить.",
+              "de": "Mach keinen Lärm, der Kleine schläft.",
+              "fr": "Ne fais pas de bruit, le petit dort.",
+              "pt": "Não faça barulho, que o menino está dormindo.",
+              "zh": "别出声，小男孩在睡觉。"
+            },
+            {
+              "es": "No vayas en coche, que hay un atasco.",
+              "en": "Don't go by car, there's a traffic jam.",
+              "it": "Non andare in macchina, che c'è traffico.",
+              "uk": "Не їдь машиною, там затор.",
+              "de": "Fahr nicht mit dem Auto, es ist Stau.",
+              "fr": "Ne va pas en voiture, il y a un embouteillage.",
+              "pt": "Não vá de carro, que tem um engarrafamento.",
+              "zh": "别开车去，路上堵车。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "no hagas",
+              "en": "don't do, don't make (tú)",
+              "it": "non fare",
+              "uk": "не роби (tú)",
+              "de": "mach nicht (tú)",
+              "fr": "ne fais pas (tú)",
+              "pt": "não faça (tú)",
+              "zh": "别做（tú）"
+            },
+            {
+              "es": "no digas",
+              "en": "don't say (tú)",
+              "it": "non dire",
+              "uk": "не кажи (tú)",
+              "de": "sag nicht (tú)",
+              "fr": "ne dis pas (tú)",
+              "pt": "não diga (tú)",
+              "zh": "别说（tú）"
+            },
+            {
+              "es": "no pongas",
+              "en": "don't put (tú)",
+              "it": "non mettere",
+              "uk": "не клади, не став (tú)",
+              "de": "stell nicht, leg nicht (tú)",
+              "fr": "ne mets pas (tú)",
+              "pt": "não ponha, não coloque (tú)",
+              "zh": "别放（tú）"
+            },
+            {
+              "es": "no salgas",
+              "en": "don't go out (tú)",
+              "it": "non uscire",
+              "uk": "не виходь (tú)",
+              "de": "geh nicht aus (tú)",
+              "fr": "ne sors pas (tú)",
+              "pt": "não saia (tú)",
+              "zh": "别出去（tú）"
+            },
+            {
+              "es": "no vengas",
+              "en": "don't come (tú)",
+              "it": "non venire",
+              "uk": "не приходь (tú)",
+              "de": "komm nicht (tú)",
+              "fr": "ne viens pas (tú)",
+              "pt": "não venha (tú)",
+              "zh": "别来（tú）"
+            },
+            {
+              "es": "no tengas",
+              "en": "don't have (tú)",
+              "it": "non avere",
+              "uk": "не май (tú)",
+              "de": "hab nicht (tú)",
+              "fr": "n'aie pas (tú)",
+              "pt": "não tenha (tú)",
+              "zh": "别有……（tú）"
+            },
+            {
+              "es": "no vayas",
+              "en": "don't go (tú)",
+              "it": "non andare",
+              "uk": "не йди, не їдь (tú)",
+              "de": "geh nicht (tú)",
+              "fr": "ne va pas (tú)",
+              "pt": "não vá (tú)",
+              "zh": "别去（tú）"
+            },
+            {
+              "es": "no seas",
+              "en": "don't be (tú)",
+              "it": "non essere",
+              "uk": "не будь (tú)",
+              "de": "sei nicht (tú)",
+              "fr": "ne sois pas (tú)",
+              "pt": "não seja (tú)",
+              "zh": "别（做个）……（tú）"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "before": "No le ",
+          "after": " nada a mi madre, ¿vale?",
+          "options": [
+            "digas",
+            "dices",
+            "di"
+          ],
+          "answer": "digas",
+          "en": "Don't say anything to my mother, OK?",
+          "it": "Non dire niente a mia madre, va bene?",
+          "uk": "Нічого не кажи моїй мамі, добре?",
+          "de": "Sag meiner Mutter nichts, okay?",
+          "fr": "Ne dis rien à ma mère, d'accord ?",
+          "pt": "Não diga nada para a minha mãe, tá bom?",
+          "zh": "什么都别跟我妈妈说，好吗？",
+          "hint": {
+            "en": "After no: diga + -s, digas.",
+            "it": "Dopo no: diga + -s, digas.",
+            "uk": "Після no: diga + -s, digas.",
+            "de": "Nach no: diga + -s, digas.",
+            "fr": "Après no : diga + -s, digas.",
+            "pt": "Depois de no: diga + -s, digas.",
+            "zh": "在 no 后面：diga + -s，digas。"
+          },
+          "beat": "forge"
+        },
+        {
+          "type": "build",
+          "intention": {
+            "en": "The little boy is sleeping. Ask your friend not to make any noise.",
+            "it": "Il bambino dorme. Chiedi al tuo amico di non fare rumore.",
+            "uk": "Малий спить. Попроси друга не шуміти.",
+            "de": "Der Kleine schläft. Bitte deinen Freund, keinen Lärm zu machen.",
+            "fr": "Le petit dort. Demande à ton ami de ne pas faire de bruit.",
+            "pt": "O menino está dormindo. Peça ao seu amigo que não faça barulho.",
+            "zh": "小男孩在睡觉。请你的朋友别出声。"
+          },
+          "accepted": [
+            "No hagas ruido, por favor.",
+            "Por favor, no hagas ruido."
+          ],
+          "tiles": [
+            "No",
+            "hagas",
+            "ruido,",
+            "por favor",
+            "haz",
+            "haces"
+          ],
+          "en": "Don't make any noise, please.",
+          "it": "Non fare rumore, per favore.",
+          "uk": "Не шуми, будь ласка.",
+          "de": "Mach bitte keinen Lärm.",
+          "fr": "Ne fais pas de bruit, s'il te plaît.",
+          "pt": "Não faça barulho, por favor.",
+          "zh": "请别出声。",
+          "hint": {
+            "en": "After no: haga + -s, hagas.",
+            "it": "Dopo no: haga + -s, hagas.",
+            "uk": "Після no: haga + -s, hagas.",
+            "de": "Nach no: haga + -s, hagas.",
+            "fr": "Après no : haga + -s, hagas.",
+            "pt": "Depois de no: haga + -s, hagas.",
+            "zh": "在 no 后面：haga + -s，hagas。"
+          },
+          "beat": "fire"
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "no",
+              "kind": "rail"
+            },
+            {
+              "text": "fume",
+              "kind": "stem"
+            },
+            {
+              "text": "(usted)",
+              "kind": "ending"
+            }
+          ],
+          "rule": {
+            "en": "With usted it's even easier: just put no before the usted form you know: no fume, no hable. And for don't worry: no se preocupe.",
+            "it": "Con usted è ancora più facile: metti solo no davanti alla forma di usted che conosci: no fume, no hable. E per non si preoccupi: no se preocupe.",
+            "uk": "З usted ще простіше: просто постав no перед уже знайомою тобі формою для usted: no fume, no hable. А «не хвилюйтеся» — no se preocupe.",
+            "de": "Mit usted ist es noch leichter: Setz einfach no vor die usted-Form, die du kennst: no fume, no hable. Und für «Machen Sie sich keine Sorgen»: no se preocupe.",
+            "fr": "Avec usted, c'est encore plus facile : mets simplement no devant la forme de usted que tu connais : no fume, no hable. Et pour « ne vous inquiétez pas » : no se preocupe.",
+            "pt": "Com usted é ainda mais fácil: basta pôr no antes da forma de usted que você já conhece: no fume, no hable. E para 'não se preocupe': no se preocupe.",
+            "zh": "对 usted 更简单：只要在你学过的 usted 形式前面加上 no：no fume，no hable。“别担心”则是：no se preocupe。"
+          },
+          "examples": [
+            {
+              "es": "No fume aquí, por favor.",
+              "en": "Please don't smoke here.",
+              "it": "Non fumi qui, per favore.",
+              "uk": "Не куріть тут, будь ласка.",
+              "de": "Rauchen Sie hier bitte nicht.",
+              "fr": "Ne fumez pas ici, s'il vous plaît.",
+              "pt": "Não fume aqui, por favor.",
+              "zh": "请不要在这里抽烟。"
+            },
+            {
+              "es": "No se preocupe, no pasa nada.",
+              "en": "Don't worry, it's fine.",
+              "it": "Non si preoccupi, non fa niente.",
+              "uk": "Не хвилюйтеся, нічого страшного.",
+              "de": "Machen Sie sich keine Sorgen, das macht nichts.",
+              "fr": "Ne vous inquiétez pas, ce n'est rien.",
+              "pt": "Não se preocupe, não tem problema.",
+              "zh": "您别担心，没关系。"
+            },
+            {
+              "es": "No hable tan alto, por favor.",
+              "en": "Please don't speak so loudly.",
+              "it": "Non parli così forte, per favore.",
+              "uk": "Не говоріть так голосно, будь ласка.",
+              "de": "Sprechen Sie bitte nicht so laut.",
+              "fr": "Ne parlez pas si fort, s'il vous plaît.",
+              "pt": "Não fale tão alto, por favor.",
+              "zh": "请您别那么大声说话。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "fume",
+              "en": "smoke! (usted)",
+              "it": "fumi",
+              "uk": "куріть! (usted)",
+              "de": "rauchen Sie! (usted)",
+              "fr": "fumez ! (usted)",
+              "pt": "fume! (usted)",
+              "zh": "抽（烟）！（usted）"
+            },
+            {
+              "es": "no se preocupe",
+              "en": "don't worry (usted)",
+              "it": "non si preoccupi",
+              "uk": "не хвилюйтеся (usted)",
+              "de": "machen Sie sich keine Sorgen (usted)",
+              "fr": "ne vous inquiétez pas (usted)",
+              "pt": "não se preocupe (usted)",
+              "zh": "别担心（usted）"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "before": "Señor, no ",
+          "after": " aquí, por favor.",
+          "options": [
+            "fume",
+            "fumes",
+            "fuma"
+          ],
+          "answer": "fume",
+          "en": "Sir, please don't smoke here.",
+          "it": "Signore, non fumi qui, per favore.",
+          "uk": "Пане, не куріть тут, будь ласка.",
+          "de": "Rauchen Sie hier bitte nicht, mein Herr.",
+          "fr": "Monsieur, ne fumez pas ici, s'il vous plaît.",
+          "pt": "Senhor, não fume aqui, por favor.",
+          "zh": "先生，请不要在这里抽烟。",
+          "hint": {
+            "en": "señor: usted. Just no + fume.",
+            "it": "señor: usted. Solo no + fume.",
+            "uk": "señor: usted. Просто no + fume.",
+            "de": "señor: usted. Einfach no + fume.",
+            "fr": "señor : usted. Simplement no + fume.",
+            "pt": "señor: usted. Só no + fume.",
+            "zh": "señor：用 usted。只要 no + fume。"
+          },
+          "beat": "forge"
+        },
+        {
+          "type": "build",
+          "intention": {
+            "en": "An old lady has dropped her glasses in the street. Tell her, with usted, not to worry: it's fine.",
+            "it": "A una signora anziana sono caduti gli occhiali per strada. Dille, con usted, di non preoccuparsi: non fa niente.",
+            "uk": "Літня пані впустила на вулиці окуляри. Скажи їй, звертаючись на usted, щоб не хвилювалася: нічого страшного.",
+            "de": "Einer älteren Dame ist auf der Straße die Brille heruntergefallen. Sag ihr mit usted, dass sie sich keine Sorgen machen soll: Das macht nichts.",
+            "fr": "Une vieille dame a fait tomber ses lunettes dans la rue. Dis-lui, avec usted, de ne pas s'inquiéter : ce n'est rien.",
+            "pt": "Uma senhora idosa deixou cair os óculos na rua. Diga a ela, com usted, que não se preocupe: não tem problema.",
+            "zh": "一位老太太的眼镜掉在了街上。用 usted 告诉她别担心：没关系。"
+          },
+          "accepted": [
+            "No se preocupe, no pasa nada."
+          ],
+          "tiles": [
+            "No",
+            "se",
+            "preocupe,",
+            "no pasa nada",
+            "te",
+            "preocupes"
+          ],
+          "en": "Don't worry, it's fine.",
+          "it": "Non si preoccupi, non fa niente.",
+          "uk": "Не хвилюйтеся, нічого страшного.",
+          "de": "Machen Sie sich keine Sorgen, das macht nichts.",
+          "fr": "Ne vous inquiétez pas, ce n'est rien.",
+          "pt": "Não se preocupe, não tem problema.",
+          "zh": "您别担心，没关系。",
+          "hint": {
+            "en": "usted: no se preocupe; to a friend: no te preocupes.",
+            "it": "usted: no se preocupe; a un amico: no te preocupes.",
+            "uk": "usted: no se preocupe; до друга: no te preocupes.",
+            "de": "usted: no se preocupe; zu einem Freund: no te preocupes.",
+            "fr": "usted : no se preocupe ; à un ami : no te preocupes.",
+            "pt": "usted: no se preocupe; a um amigo: no te preocupes.",
+            "zh": "usted：no se preocupe；对朋友：no te preocupes。"
+          },
+          "beat": "fire"
+        },
+        {
+          "type": "choose",
+          "before": "Mañana trabajas temprano: no ",
+          "after": " tarde a casa.",
+          "options": [
+            "vengas",
+            "vienes",
+            "ven"
+          ],
+          "answer": "vengas",
+          "en": "You're working early tomorrow: don't come home late.",
+          "it": "Domani lavori presto: non tornare a casa tardi.",
+          "uk": "Завтра тобі рано на роботу: не повертайся додому пізно.",
+          "de": "Du arbeitest morgen früh: Komm nicht spät nach Hause.",
+          "fr": "Tu travailles tôt demain : ne rentre pas tard.",
+          "pt": "Amanhã você trabalha cedo: não volte tarde para casa.",
+          "zh": "你明天要早上班：别太晚回家。",
+          "hint": {
+            "en": "After no: venga + -s, vengas.",
+            "it": "Dopo no: venga + -s, vengas.",
+            "uk": "Після no: venga + -s, vengas.",
+            "de": "Nach no: venga + -s, vengas.",
+            "fr": "Après no : venga + -s, vengas.",
+            "pt": "Depois de no: venga + -s, vengas.",
+            "zh": "在 no 后面：venga + -s，vengas。"
+          },
+          "beat": "mix"
+        },
+        {
+          "type": "gap",
+          "before": "No ",
+          "after": " el móvil en la mesa, por favor.",
+          "label": "poner",
+          "accepted": [
+            "pongas"
+          ],
+          "en": "Don't put your phone on the table, please.",
+          "it": "Non mettere il cellulare sul tavolo, per favore.",
+          "uk": "Не клади телефон на стіл, будь ласка.",
+          "de": "Leg dein Handy bitte nicht auf den Tisch.",
+          "fr": "Ne mets pas ton téléphone sur la table, s'il te plaît.",
+          "pt": "Não ponha o celular na mesa, por favor.",
+          "zh": "请别把手机放在桌子上。",
+          "hint": {
+            "en": "After no: ponga + -s, pongas.",
+            "it": "Dopo no: ponga + -s, pongas.",
+            "uk": "Після no: ponga + -s, pongas.",
+            "de": "Nach no: ponga + -s, pongas.",
+            "fr": "Après no : ponga + -s, pongas.",
+            "pt": "Depois de no: ponga + -s, pongas.",
+            "zh": "在 no 后面：ponga + -s，pongas。"
+          },
+          "beat": "mix"
+        },
+        {
+          "type": "build",
+          "intention": {
+            "en": "Your friend is angry with his brother. Tell him to talk to him, but not to shout at him.",
+            "it": "Il tuo amico è arrabbiato con suo fratello. Digli di parlargli, ma di non gridargli contro.",
+            "uk": "Твій друг сердиться на свого брата. Скажи йому поговорити з братом, але не кричати на нього.",
+            "de": "Dein Freund ist wütend auf seinen Bruder. Sag ihm, dass er mit ihm reden, ihn aber nicht anschreien soll.",
+            "fr": "Ton ami est fâché contre son frère. Dis-lui de lui parler, mais de ne pas lui crier dessus.",
+            "pt": "Seu amigo está bravo com o irmão. Diga a ele que fale com o irmão, mas que não grite com ele.",
+            "zh": "你的朋友在生他哥哥的气。告诉他去跟哥哥谈谈，但别冲他喊。"
+          },
+          "accepted": [
+            "Habla con él, pero no le grites.",
+            "Habla con él pero no le grites."
+          ],
+          "tiles": [
+            "Habla",
+            "con él,",
+            "pero",
+            "no",
+            "le",
+            "grites",
+            "gritar"
+          ],
+          "en": "Talk to him, but don't shout at him.",
+          "it": "Parlagli, ma non gridargli contro.",
+          "uk": "Поговори з ним, але не кричи на нього.",
+          "de": "Sprich mit ihm, aber schrei ihn nicht an.",
+          "fr": "Parle-lui, mais ne lui crie pas dessus.",
+          "pt": "Fale com ele, mas não grite com ele.",
+          "zh": "跟他谈谈，但别冲他喊。",
+          "hint": {
+            "en": "Yes: habla. No: no grites.",
+            "it": "Sì: habla. No: no grites.",
+            "uk": "Так: habla. Ні: no grites.",
+            "de": "Ja: habla. Nein: no grites.",
+            "fr": "Oui : habla. Non : no grites.",
+            "pt": "Sim: habla. Não: no grites.",
+            "zh": "肯定：habla。否定：no grites。"
+          },
+          "beat": "mix"
+        },
+        {
+          "type": "write",
+          "instruction": {
+            "en": "Write in Spanish: «Don't worry and don't say anything.»",
+            "it": "Scrivi in spagnolo: «Non preoccuparti e non dire niente.»",
+            "uk": "Напиши іспанською: «Не хвилюйся і нічого не кажи.»",
+            "de": "Schreib auf Spanisch: «Mach dir keine Sorgen und sag nichts.»",
+            "fr": "Écris en espagnol : «Ne t'inquiète pas et ne dis rien.»",
+            "pt": "Escreva em espanhol: «Não se preocupe e não diga nada.»",
+            "zh": "用西班牙语写：«别担心，什么也别说。»"
+          },
+          "accepted": [
+            "No te preocupes y no digas nada.",
+            "No te preocupes y no le digas nada.",
+            "No te preocupes, y no digas nada.",
+            "No te preocupes. No digas nada."
+          ],
+          "model": {
+            "es": "No te preocupes y no digas nada.",
+            "en": "Don't worry and don't say anything.",
+            "it": "Non preoccuparti e non dire niente.",
+            "uk": "Не хвилюйся і нічого не кажи.",
+            "de": "Mach dir keine Sorgen und sag nichts.",
+            "fr": "Ne t'inquiète pas et ne dis rien.",
+            "pt": "Não se preocupe e não diga nada.",
+            "zh": "别担心，什么也别说。"
+          },
+          "beat": "mix"
+        }
+      ]
+    },
+    {
+      "id": "u30l4",
+      "goal": {
+        "en": "Put the little words in orders: dímelo, llámame, siéntese, and no me lo digas.",
+        "it": "Metti i pronomi negli ordini: dímelo, llámame, siéntese, e no me lo digas.",
+        "uk": "Став маленькі слова в наказах: dímelo, llámame, siéntese і no me lo digas.",
+        "de": "Bau die kleinen Wörter in Aufforderungen ein: dímelo, llámame, siéntese, und no me lo digas.",
+        "fr": "Placer les pronoms dans les ordres : dímelo, llámame, siéntese, et no me lo digas.",
+        "pt": "Coloque as palavrinhas nas ordens: dímelo, llámame, siéntese, e no me lo digas.",
+        "zh": "把小代词放进命令句里：dímelo、llámame、siéntese，以及 no me lo digas。"
+      },
+      "target": {
+        "es": "Llámame esta noche y cuéntamelo todo.",
+        "en": "Call me tonight and tell me everything.",
+        "it": "Chiamami stasera e raccontami tutto.",
+        "uk": "Подзвони мені сьогодні ввечері й розкажи все.",
+        "de": "Ruf mich heute Abend an und erzähl mir alles.",
+        "fr": "Appelle-moi ce soir et raconte-moi tout.",
+        "pt": "Me ligue hoje à noite e me conte tudo.",
+        "zh": "今晚给我打电话，把一切都告诉我。"
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "sentarse",
+              "en": "to sit down",
+              "it": "sedersi",
+              "uk": "сідати",
+              "de": "sich setzen",
+              "fr": "s'asseoir",
+              "pt": "sentar-se",
+              "zh": "坐下",
+              "kind": "stem"
+            },
+            {
+              "es": "nadie",
+              "en": "nobody, anybody (after no)",
+              "it": "nessuno",
+              "uk": "ніхто, нікому (після no)",
+              "de": "niemand (nach no)",
+              "fr": "personne (ne… personne, après no)",
+              "pt": "ninguém",
+              "zh": "没有人，任何人（在 no 后面）",
+              "kind": "ending"
+            },
+            {
+              "es": "el secreto",
+              "en": "the secret",
+              "it": "il segreto",
+              "uk": "секрет, таємниця",
+              "de": "das Geheimnis",
+              "fr": "le secret",
+              "pt": "o segredo",
+              "zh": "秘密",
+              "kind": "chunk"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "llama",
+              "kind": "stem"
+            },
+            {
+              "text": "+ me",
+              "kind": "ending"
+            },
+            {
+              "text": "→ llámame",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "In an order, the little word sticks onto the end of the verb: llámame, cómpralo, siéntate. The stress doesn't move, so longer forms get an accent: llama → llámame. Short ones don't need one: dime, hazlo. Same with usted: siéntese.",
+            "it": "In un ordine, il pronome si attacca alla fine del verbo: llámame, cómpralo, siéntate. L'accento tonico non si sposta, quindi le forme più lunghe prendono l'accento scritto: llama → llámame. Quelle corte no: dime, hazlo. Lo stesso con usted: siéntese.",
+            "uk": "У наказі маленьке слово приєднується в кінці дієслова: llámame, cómpralo, siéntate. Наголос не зсувається, тому довші форми отримують знак наголосу: llama → llámame. Коротким він не потрібен: dime, hazlo. Так само з usted: siéntese.",
+            "de": "In einer Aufforderung hängt sich das kleine Wort hinten ans Verb: llámame, cómpralo, siéntate. Die Betonung bleibt, wo sie war, deshalb bekommen die längeren Formen einen Akzent: llama → llámame. Kurze brauchen keinen: dime, hazlo. Genauso mit usted: siéntese.",
+            "fr": "Dans un ordre, le pronom s'attache à la fin du verbe : llámame, cómpralo, siéntate. L'accent tonique ne bouge pas, donc les formes plus longues prennent un accent écrit : llama → llámame. Les formes courtes n'en ont pas besoin : dime, hazlo. Pareil avec usted : siéntese.",
+            "pt": "Numa ordem, a palavrinha se cola no fim do verbo, sem hífen: llámame, cómpralo, siéntate. A sílaba tônica não muda, então as formas mais longas ganham acento escrito: llama → llámame. As curtas não precisam: dime, hazlo. O mesmo com usted: siéntese.",
+            "zh": "在命令句里，小代词直接连在动词末尾：llámame、cómpralo、siéntate。重音位置不变，所以变长的形式要加重音符号：llama → llámame。短的不需要：dime、hazlo。usted 也一样：siéntese。"
+          },
+          "examples": [
+            {
+              "es": "Llámame esta noche.",
+              "en": "Call me tonight.",
+              "it": "Chiamami stasera.",
+              "uk": "Подзвони мені сьогодні ввечері.",
+              "de": "Ruf mich heute Abend an.",
+              "fr": "Appelle-moi ce soir.",
+              "pt": "Me ligue hoje à noite.",
+              "zh": "今晚给我打电话。"
+            },
+            {
+              "es": "Siéntate, por favor.",
+              "en": "Sit down, please.",
+              "it": "Siediti, per favore.",
+              "uk": "Сідай, будь ласка.",
+              "de": "Setz dich bitte.",
+              "fr": "Assieds-toi, s'il te plaît.",
+              "pt": "Sente-se, por favor.",
+              "zh": "请坐。"
+            },
+            {
+              "es": "Señora, siéntese, por favor.",
+              "en": "Sit down, please, madam.",
+              "it": "Signora, si sieda, per favore.",
+              "uk": "Пані, сідайте, будь ласка.",
+              "de": "Setzen Sie sich bitte, meine Dame.",
+              "fr": "Madame, asseyez-vous, s'il vous plaît.",
+              "pt": "Senhora, sente-se, por favor.",
+              "zh": "女士，请坐。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "llámame",
+              "en": "call me (tú)",
+              "it": "chiamami",
+              "uk": "подзвони мені (tú)",
+              "de": "ruf mich an (tú)",
+              "fr": "appelle-moi (tú)",
+              "pt": "me ligue, me chame (tú)",
+              "zh": "给我打电话（tú）"
+            },
+            {
+              "es": "ayúdame",
+              "en": "help me (tú)",
+              "it": "aiutami",
+              "uk": "допоможи мені (tú)",
+              "de": "hilf mir (tú)",
+              "fr": "aide-moi (tú)",
+              "pt": "me ajude (tú)",
+              "zh": "帮帮我（tú）"
+            },
+            {
+              "es": "espérame",
+              "en": "wait for me (tú)",
+              "it": "aspettami",
+              "uk": "зачекай мене (tú)",
+              "de": "warte auf mich (tú)",
+              "fr": "attends-moi (tú)",
+              "pt": "me espere (tú)",
+              "zh": "等等我（tú）"
+            },
+            {
+              "es": "dime",
+              "en": "tell me (tú)",
+              "it": "dimmi",
+              "uk": "скажи мені (tú)",
+              "de": "sag mir (tú)",
+              "fr": "dis-moi (tú)",
+              "pt": "me diga (tú)",
+              "zh": "告诉我（tú）"
+            },
+            {
+              "es": "cuéntame",
+              "en": "tell me (a story, what happened) (tú)",
+              "it": "raccontami",
+              "uk": "розкажи мені (історію, що сталося) (tú)",
+              "de": "erzähl mir (eine Geschichte, was passiert ist) (tú)",
+              "fr": "raconte-moi (une histoire, ce qui s'est passé) (tú)",
+              "pt": "me conte (uma história, o que aconteceu) (tú)",
+              "zh": "给我讲讲（讲故事、讲发生了什么）（tú）"
+            },
+            {
+              "es": "cómpralo",
+              "en": "buy it (tú)",
+              "it": "compralo",
+              "uk": "купи його (tú)",
+              "de": "kauf ihn, kauf es (männliches Wort) (tú)",
+              "fr": "achète-le (tú)",
+              "pt": "compre-o (masc.) (tú)",
+              "zh": "把它买下来（tú，指阳性名词）"
+            },
+            {
+              "es": "cómprala",
+              "en": "buy it (tú)",
+              "it": "comprala",
+              "uk": "купи її (tú)",
+              "de": "kauf sie, kauf es (weibliches Wort) (tú)",
+              "fr": "achète-la (tú)",
+              "pt": "compre-a (fem.) (tú)",
+              "zh": "把它买下来（tú，指阴性名词）"
+            },
+            {
+              "es": "cómpralos",
+              "en": "buy them (tú)",
+              "it": "comprali",
+              "uk": "купи їх (tú)",
+              "de": "kauf sie (männlich, Plural) (tú)",
+              "fr": "achète-les (tú)",
+              "pt": "compre-os (tú)",
+              "zh": "把它们买下来（tú，指阳性复数）"
+            },
+            {
+              "es": "hazlo",
+              "en": "do it (tú)",
+              "it": "fallo",
+              "uk": "зроби це (tú)",
+              "de": "mach es (tú)",
+              "fr": "fais-le (tú)",
+              "pt": "faça isso, faça-o (tú)",
+              "zh": "去做吧（tú）"
+            },
+            {
+              "es": "ponlo",
+              "en": "put it (tú)",
+              "it": "mettilo",
+              "uk": "поклади його, постав його (tú)",
+              "de": "stell es hin, leg es hin (tú)",
+              "fr": "mets-le (tú)",
+              "pt": "ponha-o, coloque-o (tú)",
+              "zh": "把它放下（tú）"
+            },
+            {
+              "es": "siéntate",
+              "en": "sit down (tú)",
+              "it": "siediti",
+              "uk": "сідай (tú)",
+              "de": "setz dich (tú)",
+              "fr": "assieds-toi (tú)",
+              "pt": "sente-se (tú)",
+              "zh": "坐下（tú）"
+            },
+            {
+              "es": "dígame",
+              "en": "tell me (usted)",
+              "it": "mi dica",
+              "uk": "скажіть мені, слухаю вас (usted)",
+              "de": "sagen Sie mir (usted)",
+              "fr": "dites-moi (usted)",
+              "pt": "diga-me, pois não (usted)",
+              "zh": "告诉我，请讲（usted）"
+            },
+            {
+              "es": "siéntese",
+              "en": "sit down (usted)",
+              "it": "si sieda",
+              "uk": "сідайте (usted)",
+              "de": "setzen Sie sich (usted)",
+              "fr": "asseyez-vous (usted)",
+              "pt": "sente-se (usted)",
+              "zh": "请坐（usted）"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "before": "Esa camiseta te queda muy bien: ¡",
+          "after": "!",
+          "options": [
+            "cómprala",
+            "cómpralo",
+            "cómpralos"
+          ],
+          "answer": "cómprala",
+          "en": "That T-shirt really suits you: buy it!",
+          "it": "Quella maglietta ti sta benissimo: comprala!",
+          "uk": "Ця футболка тобі дуже личить: купи її!",
+          "de": "Das T-Shirt steht dir richtig gut: Kauf es!",
+          "fr": "Ce t-shirt te va vraiment bien : achète-le !",
+          "pt": "Essa camiseta ficou ótima em você: compre!",
+          "zh": "那件T恤真适合你：买下来吧！",
+          "hint": {
+            "en": "la camiseta is feminine: cómprala.",
+            "it": "la camiseta è femminile: cómprala.",
+            "uk": "la camiseta — жіночого роду: cómprala.",
+            "de": "la camiseta ist weiblich: cómprala.",
+            "fr": "la camiseta est féminin en espagnol : cómprala.",
+            "pt": "la camiseta é feminina: cómprala.",
+            "zh": "la camiseta 是阴性：cómprala。"
+          },
+          "beat": "forge"
+        },
+        {
+          "type": "build",
+          "intention": {
+            "en": "Your friend has news but has to go. Ask them to call you tonight.",
+            "it": "Il tuo amico ha una novità ma deve andare. Chiedigli di chiamarti stasera.",
+            "uk": "У твого друга є новина, але йому треба йти. Попроси його подзвонити тобі сьогодні ввечері.",
+            "de": "Dein Freund hat Neuigkeiten, muss aber los. Bitte ihn, dich heute Abend anzurufen.",
+            "fr": "Ton ami a une nouvelle à t'annoncer, mais il doit partir. Demande-lui de t'appeler ce soir.",
+            "pt": "Seu amigo tem uma novidade, mas precisa ir embora. Peça que ele te ligue hoje à noite.",
+            "zh": "你的朋友有消息要说，但得先走了。请他今晚给你打电话。"
+          },
+          "accepted": [
+            "Llámame esta noche.",
+            "Esta noche llámame."
+          ],
+          "tiles": [
+            "Llámame",
+            "esta noche",
+            "Me",
+            "llama"
+          ],
+          "en": "Call me tonight.",
+          "it": "Chiamami stasera.",
+          "uk": "Подзвони мені сьогодні ввечері.",
+          "de": "Ruf mich heute Abend an.",
+          "fr": "Appelle-moi ce soir.",
+          "pt": "Me ligue hoje à noite.",
+          "zh": "今晚给我打电话。",
+          "hint": {
+            "en": "In an order, me sticks onto the end: llámame.",
+            "it": "In un ordine, me si attacca alla fine: llámame.",
+            "uk": "У наказі me приєднується в кінці: llámame.",
+            "de": "In einer Aufforderung hängt sich me hinten an: llámame.",
+            "fr": "Dans un ordre, me s'attache à la fin : llámame.",
+            "pt": "Numa ordem, me se cola no fim: llámame.",
+            "zh": "在命令句里，me 连在动词末尾：llámame。"
+          },
+          "beat": "fire"
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "di",
+              "kind": "stem"
+            },
+            {
+              "text": "+ me",
+              "kind": "ending"
+            },
+            {
+              "text": "+ lo",
+              "kind": "ending"
+            },
+            {
+              "text": "→ dímelo",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "Two little words stick on in the same order as always, me or te first, then lo or la: dímelo, dámela. Le becomes se before lo: díselo.",
+            "it": "Due pronomi si attaccano nello stesso ordine di sempre, prima me o te, poi lo o la: dímelo, dámela. Le diventa se davanti a lo: díselo.",
+            "uk": "Два маленькі слова приєднуються в звичному порядку: спочатку me або te, потім lo або la: dímelo, dámela. Перед lo слово le стає se: díselo.",
+            "de": "Zwei kleine Wörter hängen sich in der üblichen Reihenfolge an, zuerst me oder te, dann lo oder la: dímelo, dámela. Vor lo wird le zu se: díselo.",
+            "fr": "Deux pronoms s'attachent dans le même ordre que d'habitude, d'abord me ou te, puis lo ou la : dímelo, dámela. Le devient se devant lo : díselo.",
+            "pt": "Duas palavrinhas se colam na mesma ordem de sempre, primeiro me ou te, depois lo ou la: dímelo, dámela. Le vira se antes de lo: díselo.",
+            "zh": "两个小代词连在一起时顺序和平时一样，先 me 或 te，再 lo 或 la：dímelo、dámela。le 在 lo 前面变成 se：díselo。"
+          },
+          "examples": [
+            {
+              "es": "¿Qué pasa? Dímelo.",
+              "en": "What's wrong? Tell me.",
+              "it": "Che succede? Dimmelo.",
+              "uk": "Що сталося? Скажи мені.",
+              "de": "Was ist los? Sag es mir.",
+              "fr": "Qu'est-ce qui ne va pas ? Dis-le-moi.",
+              "pt": "O que foi? Me diga.",
+              "zh": "怎么了？告诉我。"
+            },
+            {
+              "es": "¿Tienes las llaves? Dámelas.",
+              "en": "Have you got the keys? Give them to me.",
+              "it": "Hai le chiavi? Dammele.",
+              "uk": "Ключі в тебе? Дай їх мені.",
+              "de": "Hast du die Schlüssel? Gib sie mir.",
+              "fr": "Tu as les clés ? Donne-les-moi.",
+              "pt": "Você está com as chaves? Me dê.",
+              "zh": "钥匙在你那儿吗？给我。"
+            },
+            {
+              "es": "Es el regalo de tu madre: dáselo.",
+              "en": "It's your mother's present: give it to her.",
+              "it": "È il regalo di tua madre: daglielo.",
+              "uk": "Це подарунок для твоєї мами: віддай його їй.",
+              "de": "Das ist das Geschenk für deine Mutter: Gib es ihr.",
+              "fr": "C'est le cadeau de ta mère : donne-le-lui.",
+              "pt": "É o presente da sua mãe: dê para ela.",
+              "zh": "这是你妈妈的礼物：把它交给她。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "dímelo",
+              "en": "tell me (it)",
+              "it": "dimmelo",
+              "uk": "скажи мені (це)",
+              "de": "sag es mir",
+              "fr": "dis-le-moi",
+              "pt": "me diga (isso)",
+              "zh": "告诉我（这件事）"
+            },
+            {
+              "es": "dámelo",
+              "en": "give it to me",
+              "it": "dammelo",
+              "uk": "дай мені його",
+              "de": "gib es mir (männliches Wort)",
+              "fr": "donne-le-moi",
+              "pt": "me dê (isso) (masc.)",
+              "zh": "把它给我（指阳性名词）"
+            },
+            {
+              "es": "dámela",
+              "en": "give it to me",
+              "it": "dammela",
+              "uk": "дай мені її",
+              "de": "gib es mir (weibliches Wort)",
+              "fr": "donne-la-moi",
+              "pt": "me dê (isso) (fem.)",
+              "zh": "把它给我（指阴性名词）"
+            },
+            {
+              "es": "dámelas",
+              "en": "give them to me",
+              "it": "dammele",
+              "uk": "дай мені їх",
+              "de": "gib sie mir (weiblich, Plural)",
+              "fr": "donne-les-moi",
+              "pt": "me dê (elas) (fem. pl.)",
+              "zh": "把它们给我（指阴性复数）"
+            },
+            {
+              "es": "dámelos",
+              "en": "give them to me",
+              "it": "dammeli",
+              "uk": "дай мені їх",
+              "de": "gib sie mir (männlich, Plural)",
+              "fr": "donne-les-moi",
+              "pt": "me dê (eles) (masc. pl.)",
+              "zh": "把它们给我（指阳性复数）"
+            },
+            {
+              "es": "cuéntamelo",
+              "en": "tell me (it), tell me about it",
+              "it": "raccontamelo",
+              "uk": "розкажи мені (це), розкажи мені про це",
+              "de": "erzähl es mir, erzähl mir davon",
+              "fr": "raconte-le-moi, raconte-moi ça",
+              "pt": "me conte (isso)",
+              "zh": "跟我讲讲（这件事）"
+            },
+            {
+              "es": "díselo",
+              "en": "tell him/her (it)",
+              "it": "diglielo",
+              "uk": "скажи йому/їй (це)",
+              "de": "sag es ihm/ihr",
+              "fr": "dis-le-lui",
+              "pt": "diga isso a ele/ela",
+              "zh": "告诉他／她（这件事）"
+            },
+            {
+              "es": "dáselo",
+              "en": "give it to him/her",
+              "it": "daglielo",
+              "uk": "дай його йому/їй",
+              "de": "gib es ihm/ihr",
+              "fr": "donne-le-lui",
+              "pt": "dê isso a ele/ela",
+              "zh": "把它给他／她"
+            },
+            {
+              "es": "déjamelo",
+              "en": "lend it to me",
+              "it": "prestamelo",
+              "uk": "позич мені його",
+              "de": "leih es mir",
+              "fr": "prête-le-moi",
+              "pt": "me empreste (isso)",
+              "zh": "把它借给我"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "before": "¿Tienes mi libro? ¡",
+          "after": ", por favor!",
+          "options": [
+            "Dámelo",
+            "Dámela",
+            "Dámelos"
+          ],
+          "answer": "Dámelo",
+          "en": "Have you got my book? Give it to me, please!",
+          "it": "Hai il mio libro? Dammelo, per favore!",
+          "uk": "Моя книжка в тебе? Дай її мені, будь ласка!",
+          "de": "Hast du mein Buch? Gib es mir bitte!",
+          "fr": "Tu as mon livre ? Donne-le-moi, s'il te plaît !",
+          "pt": "Você está com o meu livro? Me dê, por favor!",
+          "zh": "我的书在你那儿吗？请给我！",
+          "hint": {
+            "en": "el libro: me + lo, dámelo.",
+            "it": "el libro: me + lo, dámelo.",
+            "uk": "el libro: me + lo, dámelo.",
+            "de": "el libro: me + lo, dámelo.",
+            "fr": "el libro : me + lo, dámelo.",
+            "pt": "el libro: me + lo, dámelo.",
+            "zh": "el libro：me + lo，dámelo。"
+          },
+          "beat": "forge"
+        },
+        {
+          "type": "gap",
+          "before": "¿Qué pasó ayer en la fiesta? ",
+          "after": " todo.",
+          "label": "contar",
+          "accepted": [
+            "Cuéntamelo",
+            "cuéntamelo",
+            "Cuéntame",
+            "cuéntame"
+          ],
+          "en": "What happened at the party yesterday? Tell me everything.",
+          "it": "Cosa è successo ieri alla festa? Raccontami tutto.",
+          "uk": "Що сталося вчора на вечірці? Розкажи мені все.",
+          "de": "Was ist gestern auf der Party passiert? Erzähl mir alles.",
+          "fr": "Qu'est-ce qui s'est passé hier à la fête ? Raconte-moi tout.",
+          "pt": "O que aconteceu ontem na festa? Me conte tudo.",
+          "zh": "昨天的派对上发生了什么？全都告诉我。",
+          "hint": {
+            "en": "contar → cuenta, + me + lo: cuéntamelo.",
+            "it": "contar → cuenta, + me + lo: cuéntamelo.",
+            "uk": "contar → cuenta, + me + lo: cuéntamelo.",
+            "de": "contar → cuenta, + me + lo: cuéntamelo.",
+            "fr": "contar → cuenta, + me + lo : cuéntamelo.",
+            "pt": "contar → cuenta, + me + lo: cuéntamelo.",
+            "zh": "contar → cuenta，再加 me + lo：cuéntamelo。"
+          },
+          "beat": "fire"
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "no",
+              "kind": "rail"
+            },
+            {
+              "text": "me lo",
+              "kind": "ending"
+            },
+            {
+              "text": "digas",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "With no, the little words don't stick on: they go before the verb, as usual: no me lo digas, no lo hagas, no te preocupes.",
+            "it": "Con no, i pronomi non si attaccano: vanno prima del verbo, come al solito: no me lo digas, no lo hagas, no te preocupes.",
+            "uk": "З no маленькі слова не приєднуються: вони стоять перед дієсловом, як зазвичай: no me lo digas, no lo hagas, no te preocupes.",
+            "de": "Mit no hängen sich die kleinen Wörter nicht an: Sie stehen wie üblich vor dem Verb: no me lo digas, no lo hagas, no te preocupes.",
+            "fr": "Avec no, les pronoms ne s'attachent pas : ils se placent devant le verbe, comme d'habitude : no me lo digas, no lo hagas, no te preocupes.",
+            "pt": "Com no, as palavrinhas não se colam: vão antes do verbo, como de costume: no me lo digas, no lo hagas, no te preocupes.",
+            "zh": "有 no 的时候，小代词不连在动词上，而是像平时一样放在动词前面：no me lo digas、no lo hagas、no te preocupes。"
+          },
+          "examples": [
+            {
+              "es": "No lo hagas.",
+              "en": "Don't do it.",
+              "it": "Non farlo.",
+              "uk": "Не роби цього.",
+              "de": "Mach es nicht.",
+              "fr": "Ne le fais pas.",
+              "pt": "Não faça isso.",
+              "zh": "别这么做。"
+            },
+            {
+              "es": "Es un secreto: no se lo digas a nadie.",
+              "en": "It's a secret: don't tell anybody.",
+              "it": "È un segreto: non dirlo a nessuno.",
+              "uk": "Це секрет: нікому не кажи.",
+              "de": "Es ist ein Geheimnis: Sag es niemandem.",
+              "fr": "C'est un secret : ne le dis à personne.",
+              "pt": "É um segredo: não conte para ninguém.",
+              "zh": "这是秘密：别告诉任何人。"
+            },
+            {
+              "es": "No me llames después de las once.",
+              "en": "Don't call me after eleven.",
+              "it": "Non chiamarmi dopo le undici.",
+              "uk": "Не дзвони мені після одинадцятої.",
+              "de": "Ruf mich nicht nach elf Uhr an.",
+              "fr": "Ne m'appelle pas après onze heures.",
+              "pt": "Não me ligue depois das onze.",
+              "zh": "十一点以后别给我打电话。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "no me llames",
+              "en": "don't call me (tú)",
+              "it": "non chiamarmi",
+              "uk": "не дзвони мені (tú)",
+              "de": "ruf mich nicht an (tú)",
+              "fr": "ne m'appelle pas (tú)",
+              "pt": "não me ligue (tú)",
+              "zh": "别给我打电话（tú）"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "before": "Es una mala idea: ",
+          "after": ".",
+          "options": [
+            "no lo hagas",
+            "no hazlo"
+          ],
+          "answer": "no lo hagas",
+          "en": "It's a bad idea: don't do it.",
+          "it": "È una cattiva idea: non farlo.",
+          "uk": "Це погана ідея: не роби цього.",
+          "de": "Das ist eine schlechte Idee: Mach es nicht.",
+          "fr": "C'est une mauvaise idée : ne le fais pas.",
+          "pt": "É uma má ideia: não faça isso.",
+          "zh": "这是个坏主意：别这么做。",
+          "hint": {
+            "en": "With no, lo goes before the verb: no lo hagas.",
+            "it": "Con no, lo va prima del verbo: no lo hagas.",
+            "uk": "З no слово lo стоїть перед дієсловом: no lo hagas.",
+            "de": "Mit no steht lo vor dem Verb: no lo hagas.",
+            "fr": "Avec no, lo se place devant le verbe : no lo hagas.",
+            "pt": "Com no, lo vai antes do verbo: no lo hagas.",
+            "zh": "有 no 时，lo 放在动词前面：no lo hagas。"
+          },
+          "beat": "forge"
+        },
+        {
+          "type": "build",
+          "intention": {
+            "en": "You've told a friend a secret. Ask them not to tell anybody.",
+            "it": "Hai raccontato un segreto a un amico. Chiedigli di non dirlo a nessuno.",
+            "uk": "Ти розповів(-ла) другові секрет. Попроси його нікому не казати.",
+            "de": "Du hast einem Freund ein Geheimnis erzählt. Bitte ihn, es niemandem zu sagen.",
+            "fr": "Tu as raconté un secret à un ami. Demande-lui de ne le dire à personne.",
+            "pt": "Você contou um segredo a um amigo. Peça que ele não conte para ninguém.",
+            "zh": "你告诉了朋友一个秘密。请他别告诉任何人。"
+          },
+          "accepted": [
+            "No se lo digas a nadie.",
+            "No se lo digas a nadie, por favor."
+          ],
+          "tiles": [
+            "No",
+            "se",
+            "lo",
+            "digas",
+            "a nadie",
+            "díselo",
+            "le"
+          ],
+          "en": "Don't tell anybody.",
+          "it": "Non dirlo a nessuno.",
+          "uk": "Нікому не кажи.",
+          "de": "Sag es niemandem.",
+          "fr": "Ne le dis à personne.",
+          "pt": "Não conte para ninguém.",
+          "zh": "别告诉任何人。",
+          "hint": {
+            "en": "With no, se lo goes before the verb.",
+            "it": "Con no, se lo va prima del verbo.",
+            "uk": "З no слова se lo стоять перед дієсловом.",
+            "de": "Mit no steht se lo vor dem Verb.",
+            "fr": "Avec no, se lo se place devant le verbe.",
+            "pt": "Com no, se lo vai antes do verbo.",
+            "zh": "有 no 时，se lo 放在动词前面。"
+          },
+          "beat": "fire"
+        },
+        {
+          "type": "choose",
+          "before": "Buenos días, señora. ",
+          "after": ", por favor.",
+          "options": [
+            "Siéntese",
+            "Siéntate"
+          ],
+          "answer": "Siéntese",
+          "en": "Good morning, madam. Sit down, please.",
+          "it": "Buongiorno, signora. Si sieda, per favore.",
+          "uk": "Добрий день, пані. Сідайте, будь ласка.",
+          "de": "Guten Morgen, meine Dame. Setzen Sie sich bitte.",
+          "fr": "Bonjour, madame. Asseyez-vous, s'il vous plaît.",
+          "pt": "Bom dia, senhora. Sente-se, por favor.",
+          "zh": "早上好，女士。请坐。",
+          "hint": {
+            "en": "señora: usted, so siéntese.",
+            "it": "señora: usted, quindi siéntese.",
+            "uk": "señora: usted, тож siéntese.",
+            "de": "señora: usted, also siéntese.",
+            "fr": "señora : usted, donc siéntese.",
+            "pt": "señora: usted, então siéntese.",
+            "zh": "señora：用 usted，所以是 siéntese。"
+          },
+          "beat": "mix"
+        },
+        {
+          "type": "gap",
+          "before": "Si tienes un problema, ",
+          "after": ".",
+          "label": "llamar",
+          "accepted": [
+            "llámame"
+          ],
+          "en": "If you have a problem, call me.",
+          "it": "Se hai un problema, chiamami.",
+          "uk": "Якщо в тебе буде проблема, подзвони мені.",
+          "de": "Wenn du ein Problem hast, ruf mich an.",
+          "fr": "Si tu as un problème, appelle-moi.",
+          "pt": "Se você tiver um problema, me ligue.",
+          "zh": "如果你有问题，就给我打电话。",
+          "hint": {
+            "en": "In an order, me sticks on: llámame, with an accent.",
+            "it": "In un ordine, me si attacca: llámame, con l'accento.",
+            "uk": "У наказі me приєднується: llámame, зі знаком наголосу.",
+            "de": "In einer Aufforderung hängt sich me an: llámame, mit Akzent.",
+            "fr": "Dans un ordre, me s'attache à la fin : llámame, avec un accent.",
+            "pt": "Numa ordem, me se cola: llámame, com acento.",
+            "zh": "命令句里 me 连在动词末尾：llámame，要加重音符号。"
+          },
+          "beat": "mix"
+        },
+        {
+          "type": "build",
+          "intention": {
+            "en": "Your friend looks worried but won't say why. Ask them to tell you.",
+            "it": "Il tuo amico sembra preoccupato ma non dice perché. Chiedigli di dirtelo.",
+            "uk": "Твій друг виглядає стурбованим, але не каже чому. Попроси його розповісти тобі.",
+            "de": "Dein Freund sieht besorgt aus, will aber nicht sagen, warum. Bitte ihn, es dir zu sagen.",
+            "fr": "Ton ami a l'air inquiet, mais il ne veut pas dire pourquoi. Demande-lui de te le dire.",
+            "pt": "Seu amigo parece preocupado, mas não diz por quê. Peça que ele te conte.",
+            "zh": "你的朋友看起来很担心，但不肯说为什么。请他告诉你。"
+          },
+          "accepted": [
+            "¿Qué pasa? Dímelo, por favor.",
+            "Dímelo, por favor."
+          ],
+          "tiles": [
+            "¿Qué pasa?",
+            "Dímelo,",
+            "por favor",
+            "Me lo",
+            "digas"
+          ],
+          "en": "What's wrong? Tell me, please.",
+          "it": "Che succede? Dimmelo, per favore.",
+          "uk": "Що сталося? Скажи мені, будь ласка.",
+          "de": "Was ist los? Sag es mir bitte.",
+          "fr": "Qu'est-ce qui ne va pas ? Dis-le-moi, s'il te plaît.",
+          "pt": "O que foi? Me diga, por favor.",
+          "zh": "怎么了？请告诉我。",
+          "hint": {
+            "en": "In an order, me lo sticks on: dímelo.",
+            "it": "In un ordine, me lo si attacca: dímelo.",
+            "uk": "У наказі me lo приєднується: dímelo.",
+            "de": "In einer Aufforderung hängt sich me lo an: dímelo.",
+            "fr": "Dans un ordre, me lo s'attache à la fin : dímelo.",
+            "pt": "Numa ordem, me lo se cola: dímelo.",
+            "zh": "命令句里 me lo 连在动词末尾：dímelo。"
+          },
+          "beat": "mix"
+        },
+        {
+          "type": "write",
+          "instruction": {
+            "en": "Write in Spanish: «Call me tonight and tell me everything.»",
+            "it": "Scrivi in spagnolo: «Chiamami stasera e raccontami tutto.»",
+            "uk": "Напиши іспанською: «Подзвони мені сьогодні ввечері й розкажи все.»",
+            "de": "Schreib auf Spanisch: «Ruf mich heute Abend an und erzähl mir alles.»",
+            "fr": "Écris en espagnol : «Appelle-moi ce soir et raconte-moi tout.»",
+            "pt": "Escreva em espanhol: «Me ligue hoje à noite e me conte tudo.»",
+            "zh": "用西班牙语写：«今晚给我打电话，把一切都告诉我。»"
+          },
+          "accepted": [
+            "Llámame esta noche y cuéntamelo todo.",
+            "Esta noche llámame y cuéntamelo todo.",
+            "Llámame esta noche y cuéntame todo.",
+            "Llámame esta noche y dímelo todo."
+          ],
+          "model": {
+            "es": "Llámame esta noche y cuéntamelo todo.",
+            "en": "Call me tonight and tell me everything.",
+            "it": "Chiamami stasera e raccontami tutto.",
+            "uk": "Подзвони мені сьогодні ввечері й розкажи все.",
+            "de": "Ruf mich heute Abend an und erzähl mir alles.",
+            "fr": "Appelle-moi ce soir et raconte-moi tout.",
+            "pt": "Me ligue hoje à noite e me conte tudo.",
+            "zh": "今晚给我打电话，把一切都告诉我。"
+          },
+          "beat": "mix"
+        }
+      ]
+    },
+    {
+      "id": "u30l5",
+      "goal": {
+        "en": "Follow and give a recipe step by step: pela, corta, fríe, añade, with primero, luego and al final.",
+        "it": "Segui e dai una ricetta passo dopo passo: pela, corta, fríe, añade, con primero, luego e al final.",
+        "uk": "Виконуй і давай рецепт крок за кроком: pela, corta, fríe, añade, з primero, luego і al final.",
+        "de": "Folge einem Rezept Schritt für Schritt und erklär selbst eins: pela, corta, fríe, añade, mit primero, luego und al final.",
+        "fr": "Suivre et donner une recette étape par étape : pela, corta, fríe, añade, avec primero, luego et al final.",
+        "pt": "Siga e dê uma receita passo a passo: pela, corta, fríe, añade, com primero, luego e al final.",
+        "zh": "看懂并给出一份分步骤的菜谱：pela、corta、fríe、añade，以及 primero、luego 和 al final。"
+      },
+      "target": {
+        "es": "Primero pela las patatas, luego córtalas y fríelas en aceite.",
+        "en": "First peel the potatoes, then cut them and fry them in oil.",
+        "it": "Prima pela le patate, poi tagliale e friggile nell'olio.",
+        "uk": "Спочатку почисть картоплю, потім поріж її та посмаж в олії.",
+        "de": "Schäl zuerst die Kartoffeln, dann schneid sie und brat sie in Öl.",
+        "fr": "D'abord, épluche les pommes de terre, puis coupe-les et fais-les frire dans l'huile.",
+        "pt": "Primeiro descasque as batatas, depois corte-as e frite-as no óleo.",
+        "zh": "先把土豆削皮，然后切好，用油炸。"
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "los huevos",
+              "en": "the eggs",
+              "it": "le uova",
+              "uk": "яйця",
+              "de": "die Eier",
+              "fr": "les œufs",
+              "pt": "os ovos",
+              "zh": "鸡蛋",
+              "kind": "chunk"
+            },
+            {
+              "es": "las patatas",
+              "en": "the potatoes",
+              "it": "le patate",
+              "uk": "картопля",
+              "de": "die Kartoffeln",
+              "fr": "les pommes de terre",
+              "pt": "as batatas",
+              "zh": "土豆",
+              "kind": "chunk"
+            },
+            {
+              "es": "la cebolla",
+              "en": "the onion",
+              "it": "la cipolla",
+              "uk": "цибуля",
+              "de": "die Zwiebel",
+              "fr": "l'oignon",
+              "pt": "a cebola",
+              "zh": "洋葱",
+              "kind": "chunk"
+            },
+            {
+              "es": "el aceite",
+              "en": "the oil",
+              "it": "l'olio",
+              "uk": "олія",
+              "de": "das Öl",
+              "fr": "l'huile",
+              "pt": "o óleo, o azeite",
+              "zh": "油",
+              "kind": "chunk"
+            },
+            {
+              "es": "la sartén",
+              "en": "the frying pan",
+              "it": "la padella",
+              "uk": "сковорідка",
+              "de": "die Pfanne",
+              "fr": "la poêle",
+              "pt": "a frigideira",
+              "zh": "平底锅",
+              "kind": "chunk"
+            }
+          ]
+        },
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "pelar",
+              "en": "to peel",
+              "it": "pelare, sbucciare",
+              "uk": "чистити (від шкірки)",
+              "de": "schälen",
+              "fr": "éplucher",
+              "pt": "descascar",
+              "zh": "削皮",
+              "kind": "stem"
+            },
+            {
+              "es": "cortar",
+              "en": "to cut",
+              "it": "tagliare",
+              "uk": "різати",
+              "de": "schneiden",
+              "fr": "couper",
+              "pt": "cortar",
+              "zh": "切",
+              "kind": "stem"
+            },
+            {
+              "es": "batir",
+              "en": "to beat",
+              "it": "sbattere",
+              "uk": "збивати",
+              "de": "verquirlen, schlagen",
+              "fr": "battre",
+              "pt": "bater",
+              "zh": "打（蛋），搅拌",
+              "kind": "stem"
+            },
+            {
+              "es": "freír",
+              "en": "to fry",
+              "it": "friggere",
+              "uk": "смажити",
+              "de": "braten, frittieren",
+              "fr": "frire, faire frire",
+              "pt": "fritar",
+              "zh": "炸，煎",
+              "kind": "stem"
+            },
+            {
+              "es": "añadir",
+              "en": "to add",
+              "it": "aggiungere",
+              "uk": "додавати",
+              "de": "hinzufügen, dazugeben",
+              "fr": "ajouter",
+              "pt": "acrescentar",
+              "zh": "加，添加",
+              "kind": "stem"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "pela",
+              "kind": "stem"
+            },
+            {
+              "text": "las patatas",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "Recipes in Spanish talk to you as tú, with the orders you know: pela, corta, bate, añade. freír has an accent: fríe.",
+            "it": "In spagnolo le ricette ti danno del tu, con gli ordini che conosci: pela, corta, bate, añade. freír ha l'accento: fríe.",
+            "uk": "Іспанські рецепти звертаються до тебе на tú, знайомими тобі наказами: pela, corta, bate, añade. У freír є знак наголосу: fríe.",
+            "de": "Rezepte duzen dich auf Spanisch (tú), mit den Aufforderungen, die du kennst: pela, corta, bate, añade. freír hat einen Akzent: fríe.",
+            "fr": "En espagnol, les recettes te tutoient, avec les ordres que tu connais : pela, corta, bate, añade (en français, on utilise souvent l'infinitif). freír a un accent : fríe.",
+            "pt": "Em espanhol, as receitas falam com você de tú, com as ordens que você já conhece: pela, corta, bate, añade. freír tem acento: fríe.",
+            "zh": "西班牙语的菜谱用 tú 跟你说话，用的就是你学过的命令式：pela、corta、bate、añade。freír 的命令式有重音符号：fríe。"
+          },
+          "examples": [
+            {
+              "es": "Pela las patatas.",
+              "en": "Peel the potatoes.",
+              "it": "Pela le patate.",
+              "uk": "Почисть картоплю.",
+              "de": "Schäl die Kartoffeln.",
+              "fr": "Épluche les pommes de terre.",
+              "pt": "Descasque as batatas.",
+              "zh": "把土豆削皮。"
+            },
+            {
+              "es": "Bate los huevos con un poco de sal.",
+              "en": "Beat the eggs with a little salt.",
+              "it": "Sbatti le uova con un po' di sale.",
+              "uk": "Збий яйця з дрібкою солі.",
+              "de": "Verquirl die Eier mit etwas Salz.",
+              "fr": "Bats les œufs avec un peu de sel.",
+              "pt": "Bata os ovos com um pouco de sal.",
+              "zh": "加一点盐把鸡蛋打散。"
+            },
+            {
+              "es": "Fríe la cebolla en una sartén con aceite.",
+              "en": "Fry the onion in a frying pan with oil.",
+              "it": "Friggi la cipolla in una padella con l'olio.",
+              "uk": "Посмаж цибулю на сковорідці з олією.",
+              "de": "Brat die Zwiebel in einer Pfanne mit Öl.",
+              "fr": "Fais frire l'oignon dans une poêle avec de l'huile.",
+              "pt": "Frite a cebola numa frigideira com óleo.",
+              "zh": "在平底锅里放油，把洋葱煎一下。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "pela",
+              "en": "peel! (tú)",
+              "it": "pela",
+              "uk": "почисть! (tú)",
+              "de": "schäl! (tú)",
+              "fr": "épluche ! (tú)",
+              "pt": "descasque! (tú)",
+              "zh": "削皮！（tú）"
+            },
+            {
+              "es": "corta",
+              "en": "cut! (tú)",
+              "it": "taglia",
+              "uk": "поріж! (tú)",
+              "de": "schneid! (tú)",
+              "fr": "coupe ! (tú)",
+              "pt": "corte! (tú)",
+              "zh": "切！（tú）"
+            },
+            {
+              "es": "bate",
+              "en": "beat! (tú)",
+              "it": "sbatti",
+              "uk": "збий! (tú)",
+              "de": "verquirl! schlag! (tú)",
+              "fr": "bats ! (tú)",
+              "pt": "bata! (tú)",
+              "zh": "打（蛋）！（tú）"
+            },
+            {
+              "es": "fríe",
+              "en": "fry! (tú)",
+              "it": "friggi",
+              "uk": "посмаж! (tú)",
+              "de": "brat! (tú)",
+              "fr": "fais frire ! (tú)",
+              "pt": "frite! (tú)",
+              "zh": "炸！煎！（tú）"
+            },
+            {
+              "es": "añade",
+              "en": "add! (tú)",
+              "it": "aggiungi",
+              "uk": "додай! (tú)",
+              "de": "gib dazu! (tú)",
+              "fr": "ajoute ! (tú)",
+              "pt": "acrescente! (tú)",
+              "zh": "加！（tú）"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "before": "",
+          "after": " los huevos con un poco de sal.",
+          "options": [
+            "Bate",
+            "Pela",
+            "Fríe"
+          ],
+          "answer": "Bate",
+          "en": "Beat the eggs with a little salt.",
+          "it": "Sbatti le uova con un po' di sale.",
+          "uk": "Збий яйця з дрібкою солі.",
+          "de": "Verquirl die Eier mit etwas Salz.",
+          "fr": "Bats les œufs avec un peu de sel.",
+          "pt": "Bata os ovos com um pouco de sal.",
+          "zh": "加一点盐把鸡蛋打散。",
+          "hint": {
+            "en": "Eggs with salt: you beat them, bate.",
+            "it": "Uova con sale: le sbatti, bate.",
+            "uk": "Яйця із сіллю: їх збивають, bate.",
+            "de": "Eier mit Salz: Du verquirlst sie, bate.",
+            "fr": "Des œufs avec du sel : tu les bats, bate.",
+            "pt": "Ovos com sal: você os bate, bate.",
+            "zh": "鸡蛋加盐：要把它们打散，bate。"
+          },
+          "beat": "forge"
+        },
+        {
+          "type": "gap",
+          "before": "",
+          "after": " la cebolla en una sartén con aceite.",
+          "label": "freír",
+          "accepted": [
+            "Fríe",
+            "fríe"
+          ],
+          "en": "Fry the onion in a frying pan with oil.",
+          "it": "Friggi la cipolla in una padella con l'olio.",
+          "uk": "Посмаж цибулю на сковорідці з олією.",
+          "de": "Brat die Zwiebel in einer Pfanne mit Öl.",
+          "fr": "Fais frire l'oignon dans une poêle avec de l'huile.",
+          "pt": "Frite a cebola numa frigideira com óleo.",
+          "zh": "在平底锅里放油，把洋葱煎一下。",
+          "hint": {
+            "en": "freír → fríe, with an accent.",
+            "it": "freír → fríe, con l'accento.",
+            "uk": "freír → fríe, зі знаком наголосу.",
+            "de": "freír → fríe, mit Akzent.",
+            "fr": "freír → fríe, avec un accent.",
+            "pt": "freír → fríe, com acento.",
+            "zh": "freír → fríe，有重音符号。"
+          },
+          "beat": "fire"
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "primero",
+              "kind": "rail"
+            },
+            {
+              "text": "luego",
+              "kind": "rail"
+            },
+            {
+              "text": "al final",
+              "kind": "rail"
+            }
+          ],
+          "rule": {
+            "en": "Put the steps in order with primero (first), luego or después (then) and al final (at the end).",
+            "it": "Metti i passaggi in ordine con primero (prima), luego o después (poi) e al final (alla fine).",
+            "uk": "Розстав кроки по порядку за допомогою primero (спочатку), luego або después (потім) і al final (наприкінці).",
+            "de": "Bring die Schritte in eine Reihenfolge mit primero (zuerst), luego oder después (dann) und al final (zum Schluss).",
+            "fr": "Mets les étapes dans l'ordre avec primero (d'abord), luego ou después (ensuite, puis) et al final (à la fin).",
+            "pt": "Coloque os passos em ordem com primero (primeiro), luego ou después (depois) e al final (no final).",
+            "zh": "用 primero（首先）、luego 或 después（然后）和 al final（最后）给步骤排好顺序。"
+          },
+          "examples": [
+            {
+              "es": "Primero pela las patatas.",
+              "en": "First peel the potatoes.",
+              "it": "Prima pela le patate.",
+              "uk": "Спочатку почисть картоплю.",
+              "de": "Schäl zuerst die Kartoffeln.",
+              "fr": "D'abord, épluche les pommes de terre.",
+              "pt": "Primeiro descasque as batatas.",
+              "zh": "首先把土豆削皮。"
+            },
+            {
+              "es": "Luego corta la cebolla.",
+              "en": "Then cut the onion.",
+              "it": "Poi taglia la cipolla.",
+              "uk": "Потім поріж цибулю.",
+              "de": "Dann schneid die Zwiebel.",
+              "fr": "Ensuite, coupe l'oignon.",
+              "pt": "Depois corte a cebola.",
+              "zh": "然后把洋葱切好。"
+            },
+            {
+              "es": "Al final, añade un poco de sal.",
+              "en": "At the end, add a little salt.",
+              "it": "Alla fine, aggiungi un po' di sale.",
+              "uk": "Наприкінці додай трохи солі.",
+              "de": "Zum Schluss gib etwas Salz dazu.",
+              "fr": "À la fin, ajoute un peu de sel.",
+              "pt": "No final, acrescente um pouco de sal.",
+              "zh": "最后加一点盐。"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "before": "",
+          "after": " pela las patatas; luego corta la cebolla.",
+          "options": [
+            "Primero",
+            "Al final",
+            "Además"
+          ],
+          "answer": "Primero",
+          "en": "First peel the potatoes; then cut the onion.",
+          "it": "Prima pela le patate; poi taglia la cipolla.",
+          "uk": "Спочатку почисть картоплю; потім поріж цибулю.",
+          "de": "Schäl zuerst die Kartoffeln; dann schneid die Zwiebel.",
+          "fr": "D'abord, épluche les pommes de terre ; ensuite, coupe l'oignon.",
+          "pt": "Primeiro descasque as batatas; depois corte a cebola.",
+          "zh": "首先把土豆削皮；然后把洋葱切好。",
+          "hint": {
+            "en": "The first step: primero.",
+            "it": "Il primo passaggio: primero.",
+            "uk": "Перший крок: primero.",
+            "de": "Der erste Schritt: primero.",
+            "fr": "La première étape : primero.",
+            "pt": "O primeiro passo: primero.",
+            "zh": "第一步：primero。"
+          },
+          "beat": "forge"
+        },
+        {
+          "type": "build",
+          "intention": {
+            "en": "Give the last step of the recipe: at the end, add a little salt.",
+            "it": "Dai l'ultimo passaggio della ricetta: alla fine, aggiungi un po' di sale.",
+            "uk": "Назви останній крок рецепта: наприкінці додай трохи солі.",
+            "de": "Nenn den letzten Schritt des Rezepts: Zum Schluss etwas Salz dazugeben.",
+            "fr": "Donne la dernière étape de la recette : à la fin, ajoute un peu de sel.",
+            "pt": "Dê o último passo da receita: no final, acrescente um pouco de sal.",
+            "zh": "说出菜谱的最后一步：最后加一点盐。"
+          },
+          "accepted": [
+            "Al final, añade un poco de sal.",
+            "Al final añade un poco de sal."
+          ],
+          "tiles": [
+            "Al final,",
+            "añade",
+            "un poco de",
+            "sal",
+            "Primero,",
+            "bate"
+          ],
+          "en": "At the end, add a little salt.",
+          "it": "Alla fine, aggiungi un po' di sale.",
+          "uk": "Наприкінці додай трохи солі.",
+          "de": "Zum Schluss gib etwas Salz dazu.",
+          "fr": "À la fin, ajoute un peu de sel.",
+          "pt": "No final, acrescente um pouco de sal.",
+          "zh": "最后加一点盐。",
+          "hint": {
+            "en": "The last step: al final.",
+            "it": "L'ultimo passaggio: al final.",
+            "uk": "Останній крок: al final.",
+            "de": "Der letzte Schritt: al final.",
+            "fr": "La dernière étape : al final.",
+            "pt": "O último passo: al final.",
+            "zh": "最后一步：al final。"
+          },
+          "beat": "fire"
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "corta",
+              "kind": "stem"
+            },
+            {
+              "text": "+ las",
+              "kind": "ending"
+            },
+            {
+              "text": "→ córtalas",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "So you don't repeat the food, stick lo, la, los or las onto the order: pela las patatas y córtalas. To flip something: dale la vuelta.",
+            "it": "Per non ripetere il cibo, attacca lo, la, los o las all'ordine: pela las patatas y córtalas. Per girare qualcosa: dale la vuelta.",
+            "uk": "Щоб не повторювати назву продукту, приєднуй lo, la, los або las до наказу: pela las patatas y córtalas. Щоб щось перевернути: dale la vuelta.",
+            "de": "Damit du das Lebensmittel nicht wiederholst, häng lo, la, los oder las an die Aufforderung: pela las patatas y córtalas. Um etwas zu wenden: dale la vuelta.",
+            "fr": "Pour ne pas répéter l'aliment, attache lo, la, los ou las à l'ordre : pela las patatas y córtalas. Pour retourner quelque chose : dale la vuelta.",
+            "pt": "Para não repetir o alimento, cole lo, la, los ou las na ordem: pela las patatas y córtalas. Para virar algo: dale la vuelta.",
+            "zh": "为了不重复说食材，把 lo、la、los 或 las 连在命令式后面：pela las patatas y córtalas。要把东西翻过来，说：dale la vuelta。"
+          },
+          "examples": [
+            {
+              "es": "Pela las patatas y córtalas.",
+              "en": "Peel the potatoes and cut them.",
+              "it": "Pela le patate e tagliale.",
+              "uk": "Почисть картоплю й поріж її.",
+              "de": "Schäl die Kartoffeln und schneid sie.",
+              "fr": "Épluche les pommes de terre et coupe-les.",
+              "pt": "Descasque as batatas e corte-as.",
+              "zh": "把土豆削皮，然后切好。"
+            },
+            {
+              "es": "Bate los huevos y añádelos a las patatas.",
+              "en": "Beat the eggs and add them to the potatoes.",
+              "it": "Sbatti le uova e aggiungile alle patate.",
+              "uk": "Збий яйця й додай їх до картоплі.",
+              "de": "Verquirl die Eier und gib sie zu den Kartoffeln.",
+              "fr": "Bats les œufs et ajoute-les aux pommes de terre.",
+              "pt": "Bata os ovos e acrescente-os às batatas.",
+              "zh": "把鸡蛋打散，加到土豆里。"
+            },
+            {
+              "es": "Dale la vuelta a la tortilla.",
+              "en": "Flip the omelette over.",
+              "it": "Gira la frittata.",
+              "uk": "Переверни тортилью.",
+              "de": "Wende die Tortilla.",
+              "fr": "Retourne l'omelette.",
+              "pt": "Vire a tortilha.",
+              "zh": "把蛋饼翻过来。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "córtalas",
+              "en": "cut them (tú)",
+              "it": "tagliale",
+              "uk": "поріж їх (tú)",
+              "de": "schneid sie (weiblich, Plural) (tú)",
+              "fr": "coupe-les (tú)",
+              "pt": "corte-as (tú)",
+              "zh": "把它们切好（tú，指阴性复数）"
+            },
+            {
+              "es": "córtala",
+              "en": "cut it (tú)",
+              "it": "tagliala",
+              "uk": "поріж її (tú)",
+              "de": "schneid sie, schneid es (weibliches Wort) (tú)",
+              "fr": "coupe-la (tú)",
+              "pt": "corte-a (tú)",
+              "zh": "把它切好（tú，指阴性名词）"
+            },
+            {
+              "es": "fríelas",
+              "en": "fry them (tú)",
+              "it": "friggile",
+              "uk": "посмаж їх (tú)",
+              "de": "brat sie (weiblich, Plural) (tú)",
+              "fr": "fais-les frire (tú)",
+              "pt": "frite-as (tú)",
+              "zh": "把它们炸一下（tú，指阴性复数）"
+            },
+            {
+              "es": "fríela",
+              "en": "fry it (tú)",
+              "it": "friggila",
+              "uk": "посмаж її (tú)",
+              "de": "brat sie, brat es (weibliches Wort) (tú)",
+              "fr": "fais-la frire (tú)",
+              "pt": "frite-a (tú)",
+              "zh": "把它炸一下（tú，指阴性名词）"
+            },
+            {
+              "es": "fríelo",
+              "en": "fry it (tú)",
+              "it": "friggilo",
+              "uk": "посмаж його (tú)",
+              "de": "brat ihn, brat es (männliches Wort) (tú)",
+              "fr": "fais-le frire (tú)",
+              "pt": "frite-o (tú)",
+              "zh": "把它炸一下（tú，指阳性名词）"
+            },
+            {
+              "es": "añádelos",
+              "en": "add them (tú)",
+              "it": "aggiungili",
+              "uk": "додай їх (tú)",
+              "de": "gib sie dazu (männlich, Plural) (tú)",
+              "fr": "ajoute-les (tú)",
+              "pt": "acrescente-os (tú)",
+              "zh": "把它们加进去（tú，指阳性复数）"
+            },
+            {
+              "es": "añádelas",
+              "en": "add them (tú)",
+              "it": "aggiungile",
+              "uk": "додай їх (tú)",
+              "de": "gib sie dazu (weiblich, Plural) (tú)",
+              "fr": "ajoute-les (tú)",
+              "pt": "acrescente-as (tú)",
+              "zh": "把它们加进去（tú，指阴性复数）"
+            },
+            {
+              "es": "añádela",
+              "en": "add it (tú)",
+              "it": "aggiungila",
+              "uk": "додай її (tú)",
+              "de": "gib sie dazu, gib es dazu (weibliches Wort) (tú)",
+              "fr": "ajoute-la (tú)",
+              "pt": "acrescente-a (tú)",
+              "zh": "把它加进去（tú，指阴性名词）"
+            },
+            {
+              "es": "dale la vuelta",
+              "en": "flip it over (tú)",
+              "it": "giralo, giralo dall'altra parte",
+              "uk": "переверни (tú)",
+              "de": "wende es (tú)",
+              "fr": "retourne-le, retourne-la (tú)",
+              "pt": "vire (do outro lado) (tú)",
+              "zh": "把它翻过来（tú）"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "before": "Bate los huevos y ",
+          "after": " a las patatas.",
+          "options": [
+            "añádelos",
+            "añádelas",
+            "añádela"
+          ],
+          "answer": "añádelos",
+          "en": "Beat the eggs and add them to the potatoes.",
+          "it": "Sbatti le uova e aggiungile alle patate.",
+          "uk": "Збий яйця й додай їх до картоплі.",
+          "de": "Verquirl die Eier und gib sie zu den Kartoffeln.",
+          "fr": "Bats les œufs et ajoute-les aux pommes de terre.",
+          "pt": "Bata os ovos e acrescente-os às batatas.",
+          "zh": "把鸡蛋打散，加到土豆里。",
+          "hint": {
+            "en": "los huevos: masculine plural, añádelos.",
+            "it": "los huevos: maschile plurale, añádelos.",
+            "uk": "los huevos: чоловічий рід, множина — añádelos.",
+            "de": "los huevos: männlich Plural, añádelos.",
+            "fr": "los huevos : masculin pluriel, añádelos.",
+            "pt": "los huevos: masculino plural, añádelos.",
+            "zh": "los huevos：阳性复数，añádelos。"
+          },
+          "beat": "forge"
+        },
+        {
+          "type": "build",
+          "intention": {
+            "en": "The omelette is done on one side. Tell your friend to flip it over.",
+            "it": "La frittata è cotta da un lato. Di' al tuo amico di girarla.",
+            "uk": "Тортилья з одного боку готова. Скажи другові перевернути її.",
+            "de": "Die Tortilla ist auf einer Seite fertig. Sag deinem Freund, dass er sie wenden soll.",
+            "fr": "L'omelette est cuite d'un côté. Dis à ton ami de la retourner.",
+            "pt": "A tortilha está pronta de um lado. Diga ao seu amigo que a vire.",
+            "zh": "蛋饼一面已经煎好了。叫你的朋友把它翻过来。"
+          },
+          "accepted": [
+            "Dale la vuelta a la tortilla.",
+            "Dale la vuelta."
+          ],
+          "tiles": [
+            "Dale",
+            "la vuelta",
+            "a la tortilla",
+            "Le",
+            "da"
+          ],
+          "en": "Flip the omelette over.",
+          "it": "Gira la frittata.",
+          "uk": "Переверни тортилью.",
+          "de": "Wende die Tortilla.",
+          "fr": "Retourne l'omelette.",
+          "pt": "Vire a tortilha.",
+          "zh": "把蛋饼翻过来。",
+          "hint": {
+            "en": "To flip it: dale la vuelta.",
+            "it": "Per girarla: dale la vuelta.",
+            "uk": "Щоб перевернути: dale la vuelta.",
+            "de": "Zum Wenden: dale la vuelta.",
+            "fr": "Pour la retourner : dale la vuelta.",
+            "pt": "Para virá-la: dale la vuelta.",
+            "zh": "把它翻过来：dale la vuelta。"
+          },
+          "beat": "fire"
+        },
+        {
+          "type": "choose",
+          "before": "Corta la cebolla y ",
+          "after": " con un poco de aceite.",
+          "options": [
+            "fríela",
+            "fríelas",
+            "fríelo"
+          ],
+          "answer": "fríela",
+          "en": "Cut the onion and fry it with a little oil.",
+          "it": "Taglia la cipolla e friggila con un po' d'olio.",
+          "uk": "Поріж цибулю й посмаж її з невеликою кількістю олії.",
+          "de": "Schneid die Zwiebel und brat sie mit etwas Öl.",
+          "fr": "Coupe l'oignon et fais-le frire avec un peu d'huile.",
+          "pt": "Corte a cebola e frite-a com um pouco de óleo.",
+          "zh": "把洋葱切好，用一点油煎一下。",
+          "hint": {
+            "en": "la cebolla: feminine singular, fríela.",
+            "it": "la cebolla: femminile singolare, fríela.",
+            "uk": "la cebolla: жіночий рід, однина — fríela.",
+            "de": "la cebolla: weiblich Singular, fríela.",
+            "fr": "la cebolla est féminin singulier en espagnol : fríela.",
+            "pt": "la cebolla: feminino singular, fríela.",
+            "zh": "la cebolla：阴性单数，fríela。"
+          },
+          "beat": "mix"
+        },
+        {
+          "type": "gap",
+          "before": "No ",
+          "after": " mucho aceite en la sartén.",
+          "label": "poner",
+          "accepted": [
+            "pongas"
+          ],
+          "en": "Don't put too much oil in the frying pan.",
+          "it": "Non mettere troppo olio nella padella.",
+          "uk": "Не лий забагато олії на сковорідку.",
+          "de": "Gib nicht zu viel Öl in die Pfanne.",
+          "fr": "Ne mets pas trop d'huile dans la poêle.",
+          "pt": "Não ponha óleo demais na frigideira.",
+          "zh": "平底锅里别放太多油。",
+          "hint": {
+            "en": "After no: pongas.",
+            "it": "Dopo no: pongas.",
+            "uk": "Після no: pongas.",
+            "de": "Nach no: pongas.",
+            "fr": "Après no : pongas.",
+            "pt": "Depois de no: pongas.",
+            "zh": "在 no 后面：pongas。"
+          },
+          "beat": "mix"
+        },
+        {
+          "type": "build",
+          "intention": {
+            "en": "Give the first two steps: first beat the eggs, then add the potatoes.",
+            "it": "Dai i primi due passaggi: prima sbatti le uova, poi aggiungi le patate.",
+            "uk": "Назви перші два кроки: спочатку збий яйця, потім додай картоплю.",
+            "de": "Nenn die ersten beiden Schritte: zuerst die Eier verquirlen, dann die Kartoffeln dazugeben.",
+            "fr": "Donne les deux premières étapes : d'abord, bats les œufs, puis ajoute les pommes de terre.",
+            "pt": "Dê os dois primeiros passos: primeiro bata os ovos, depois acrescente as batatas.",
+            "zh": "说出前两步：先把鸡蛋打散，然后加入土豆。"
+          },
+          "accepted": [
+            "Primero bate los huevos, luego añade las patatas.",
+            "Primero bate los huevos y luego añade las patatas.",
+            "Primero bate los huevos, después añade las patatas."
+          ],
+          "tiles": [
+            "Primero",
+            "bate",
+            "los huevos,",
+            "luego",
+            "añade",
+            "las patatas",
+            "Al final",
+            "pela"
+          ],
+          "en": "First beat the eggs, then add the potatoes.",
+          "it": "Prima sbatti le uova, poi aggiungi le patate.",
+          "uk": "Спочатку збий яйця, потім додай картоплю.",
+          "de": "Verquirl zuerst die Eier, dann gib die Kartoffeln dazu.",
+          "fr": "D'abord, bats les œufs, puis ajoute les pommes de terre.",
+          "pt": "Primeiro bata os ovos, depois acrescente as batatas.",
+          "zh": "先把鸡蛋打散，然后加入土豆。",
+          "hint": {
+            "en": "Order: primero, then luego.",
+            "it": "Ordine: primero, poi luego.",
+            "uk": "Порядок: primero, потім luego.",
+            "de": "Reihenfolge: primero, dann luego.",
+            "fr": "L'ordre : primero, puis luego.",
+            "pt": "Ordem: primero, depois luego.",
+            "zh": "顺序：先 primero，再 luego。"
+          },
+          "beat": "mix"
+        },
+        {
+          "type": "write",
+          "instruction": {
+            "en": "Write in Spanish: «First peel the potatoes, then cut them and fry them in oil.»",
+            "it": "Scrivi in spagnolo: «Prima pela le patate, poi tagliale e friggile nell'olio.»",
+            "uk": "Напиши іспанською: «Спочатку почисть картоплю, потім поріж її та посмаж в олії.»",
+            "de": "Schreib auf Spanisch: «Schäl zuerst die Kartoffeln, dann schneid sie und brat sie in Öl.»",
+            "fr": "Écris en espagnol : «D'abord, épluche les pommes de terre, puis coupe-les et fais-les frire dans l'huile.»",
+            "pt": "Escreva em espanhol: «Primeiro descasque as batatas, depois corte-as e frite-as no óleo.»",
+            "zh": "用西班牙语写：«先把土豆削皮，然后切好，用油炸。»"
+          },
+          "accepted": [
+            "Primero pela las patatas, luego córtalas y fríelas en aceite.",
+            "Primero pela las patatas, después córtalas y fríelas en aceite.",
+            "Primero pela las patatas, luego córtalas y fríelas con aceite.",
+            "Primero pela las patatas; luego córtalas y fríelas en aceite.",
+            "Primero, pela las patatas, luego córtalas y fríelas en aceite.",
+            "Primero pela las patatas, luego córtalas y fríelas en el aceite."
+          ],
+          "model": {
+            "es": "Primero pela las patatas, luego córtalas y fríelas en aceite.",
+            "en": "First peel the potatoes, then cut them and fry them in oil.",
+            "it": "Prima pela le patate, poi tagliale e friggile nell'olio.",
+            "uk": "Спочатку почисть картоплю, потім поріж її та посмаж в олії.",
+            "de": "Schäl zuerst die Kartoffeln, dann schneid sie und brat sie in Öl.",
+            "fr": "D'abord, épluche les pommes de terre, puis coupe-les et fais-les frire dans l'huile.",
+            "pt": "Primeiro descasque as batatas, depois corte-as e frite-as no óleo.",
+            "zh": "先把土豆削皮，然后切好，用油炸。"
+          },
+          "beat": "mix"
+        }
+      ]
+    }
+  ],
+  "boss": {
+    "id": "u30boss",
+    "goal": {
+      "en": "A friend has come to your place in {city} to learn to cook your favourite dish: a Spanish potato omelette. Guide them step by step.",
+      "it": "Un amico è venuto da te a {city} per imparare a cucinare il tuo piatto preferito: la tortilla di patate. Guidalo passo dopo passo.",
+      "uk": "Друг прийшов до тебе додому в місті {city}, щоб навчитися готувати твою улюблену страву — іспанську тортилью з картоплею. Проведи його крок за кроком.",
+      "de": "Ein Freund ist zu dir nach {city} gekommen, um dein Lieblingsgericht kochen zu lernen: eine spanische Kartoffeltortilla. Führ ihn Schritt für Schritt durch.",
+      "fr": "Un ami est venu chez toi à {city} pour apprendre à cuisiner ton plat préféré : l'omelette espagnole aux pommes de terre. Guide-le étape par étape.",
+      "pt": "Um amigo veio à sua casa em {city} para aprender a fazer o seu prato favorito: a tortilha espanhola de batatas. Guie-o passo a passo.",
+      "zh": "一位朋友来到你在{city}的家，想学做你最喜欢的菜：西班牙土豆蛋饼。一步一步地教他。"
+    },
+    "target": {
+      "es": "Primero fríe las patatas a fuego lento, luego añade los huevos.",
+      "en": "First fry the potatoes over a low heat, then add the eggs.",
+      "it": "Prima friggi le patate a fuoco lento, poi aggiungi le uova.",
+      "uk": "Спочатку посмаж картоплю на повільному вогні, потім додай яйця.",
+      "de": "Brat zuerst die Kartoffeln bei schwacher Hitze, dann gib die Eier dazu.",
+      "fr": "D'abord, fais frire les pommes de terre à feu doux, puis ajoute les œufs.",
+      "pt": "Primeiro frite as batatas em fogo baixo, depois acrescente os ovos.",
+      "zh": "先用小火炸土豆，然后加入鸡蛋。"
+    },
+    "items": [
+      {
+        "type": "words",
+        "words": [
+          {
+            "es": "el plato",
+            "en": "the plate; the dish",
+            "it": "il piatto",
+            "uk": "тарілка; страва",
+            "de": "der Teller; das Gericht",
+            "fr": "l'assiette ; le plat",
+            "pt": "o prato",
+            "zh": "盘子；（一道）菜",
+            "kind": "chunk"
+          },
+          {
+            "es": "favorito",
+            "en": "favourite",
+            "it": "preferito",
+            "uk": "улюблений",
+            "de": "Lieblings-, bevorzugt",
+            "fr": "préféré",
+            "pt": "favorito, preferido",
+            "zh": "最喜欢的",
+            "kind": "chunk"
+          },
+          {
+            "es": "a fuego lento",
+            "en": "over a low heat",
+            "it": "a fuoco lento",
+            "uk": "на повільному вогні",
+            "de": "bei schwacher Hitze",
+            "fr": "à feu doux",
+            "pt": "em fogo baixo",
+            "zh": "用小火",
+            "kind": "chunk"
+          }
+        ]
+      },
+      {
+        "type": "build",
+        "intention": {
+          "en": "Your friend asks «¿Qué vamos a cocinar hoy?». Say: your favourite dish, a potato omelette.",
+          "it": "Il tuo amico chiede «¿Qué vamos a cocinar hoy?». Rispondi: il tuo piatto preferito, la tortilla di patate.",
+          "uk": "Друг питає «¿Qué vamos a cocinar hoy?». Відповідай: твоя улюблена страва, тортилья з картоплею.",
+          "de": "Dein Freund fragt «¿Qué vamos a cocinar hoy?». Sag: dein Lieblingsgericht, eine Kartoffeltortilla.",
+          "fr": "Ton ami demande «¿Qué vamos a cocinar hoy?». Réponds : ton plat préféré, l'omelette aux pommes de terre.",
+          "pt": "Seu amigo pergunta «¿Qué vamos a cocinar hoy?». Responda: o seu prato favorito, a tortilha de batatas.",
+          "zh": "你的朋友问：«¿Qué vamos a cocinar hoy?»。回答：你最喜欢的菜，土豆蛋饼。"
+        },
+        "accepted": [
+          "Mi plato favorito: la tortilla de patatas.",
+          "Mi plato favorito: tortilla de patatas."
+        ],
+        "tiles": [
+          "Mi",
+          "plato",
+          "favorito:",
+          "la tortilla",
+          "de patatas",
+          "el"
+        ],
+        "en": "My favourite dish: potato omelette.",
+        "it": "Il mio piatto preferito: la tortilla di patate.",
+        "uk": "Моя улюблена страва — тортилья з картоплею.",
+        "de": "Mein Lieblingsgericht: Kartoffeltortilla.",
+        "fr": "Mon plat préféré : l'omelette aux pommes de terre.",
+        "pt": "Meu prato favorito: tortilha de batatas.",
+        "zh": "我最喜欢的菜：土豆蛋饼。",
+        "hint": {
+          "en": "el plato is masculine: favorito.",
+          "it": "el plato è maschile: favorito.",
+          "uk": "el plato — чоловічого роду: favorito.",
+          "de": "el plato ist männlich: favorito.",
+          "fr": "el plato est masculin : favorito.",
+          "pt": "el plato é masculino: favorito.",
+          "zh": "el plato 是阳性：favorito。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "Primero, ",
+        "after": " las patatas.",
+        "options": [
+          "pela",
+          "bate",
+          "fríe"
+        ],
+        "answer": "pela",
+        "en": "First, peel the potatoes.",
+        "it": "Prima, pela le patate.",
+        "uk": "Спочатку почисть картоплю.",
+        "de": "Schäl zuerst die Kartoffeln.",
+        "fr": "D'abord, épluche les pommes de terre.",
+        "pt": "Primeiro, descasque as batatas.",
+        "zh": "首先，把土豆削皮。",
+        "hint": {
+          "en": "Potatoes come with skin: pela.",
+          "it": "Le patate hanno la buccia: pela.",
+          "uk": "Картопля зі шкіркою: pela.",
+          "de": "Kartoffeln haben eine Schale: pela.",
+          "fr": "Les pommes de terre ont une peau : pela.",
+          "pt": "As batatas têm casca: pela.",
+          "zh": "土豆是带皮的：pela。"
+        }
+      },
+      {
+        "type": "gap",
+        "before": "Ahora ",
+        "after": " la cebolla.",
+        "label": "cortar",
+        "accepted": [
+          "corta"
+        ],
+        "en": "Now cut the onion.",
+        "it": "Ora taglia la cipolla.",
+        "uk": "Тепер поріж цибулю.",
+        "de": "Jetzt schneid die Zwiebel.",
+        "fr": "Maintenant, coupe l'oignon.",
+        "pt": "Agora corte a cebola.",
+        "zh": "现在把洋葱切好。",
+        "hint": {
+          "en": "An order to a friend: the él form, corta.",
+          "it": "Un ordine a un amico: la forma di él, corta.",
+          "uk": "Наказ другові: форма él, corta.",
+          "de": "Eine Aufforderung an einen Freund: die él-Form, corta.",
+          "fr": "Un ordre à un ami : la forme de él, corta.",
+          "pt": "Uma ordem a um amigo: a forma de él, corta.",
+          "zh": "对朋友下命令：用 él 形式，corta。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "¡",
+        "after": " cuidado, el aceite está muy caliente!",
+        "options": [
+          "Ten",
+          "Tienes",
+          "Tenga"
+        ],
+        "answer": "Ten",
+        "en": "Be careful, the oil is very hot!",
+        "it": "Attento, l'olio è caldissimo!",
+        "uk": "Обережно, олія дуже гаряча!",
+        "de": "Pass auf, das Öl ist sehr heiß!",
+        "fr": "Fais attention, l'huile est très chaude !",
+        "pt": "Tome cuidado, o óleo está muito quente!",
+        "zh": "小心，油很烫！",
+        "hint": {
+          "en": "To a friend: tener → ten.",
+          "it": "A un amico: tener → ten.",
+          "uk": "До друга: tener → ten.",
+          "de": "Zu einem Freund: tener → ten.",
+          "fr": "À un ami : tener → ten.",
+          "pt": "A um amigo: tener → ten.",
+          "zh": "对朋友说：tener → ten。"
+        }
+      },
+      {
+        "type": "build",
+        "intention": {
+          "en": "Your friend asks «¿Y ahora?». Tell them to fry the potatoes and the onion over a low heat.",
+          "it": "Il tuo amico chiede «¿Y ahora?». Digli di friggere le patate e la cipolla a fuoco lento.",
+          "uk": "Друг питає «¿Y ahora?». Скажи йому посмажити картоплю й цибулю на повільному вогні.",
+          "de": "Dein Freund fragt «¿Y ahora?». Sag ihm, dass er die Kartoffeln und die Zwiebel bei schwacher Hitze braten soll.",
+          "fr": "Ton ami demande «¿Y ahora?». Dis-lui de faire frire les pommes de terre et l'oignon à feu doux.",
+          "pt": "Seu amigo pergunta «¿Y ahora?». Diga a ele que frite as batatas e a cebola em fogo baixo.",
+          "zh": "你的朋友问：«¿Y ahora?»。叫他用小火煎土豆和洋葱。"
+        },
+        "accepted": [
+          "Fríe las patatas y la cebolla a fuego lento.",
+          "Fríe la cebolla y las patatas a fuego lento."
+        ],
+        "tiles": [
+          "Fríe",
+          "las patatas",
+          "y",
+          "la cebolla",
+          "a fuego lento",
+          "fríelas"
+        ],
+        "en": "Fry the potatoes and the onion over a low heat.",
+        "it": "Friggi le patate e la cipolla a fuoco lento.",
+        "uk": "Посмаж картоплю й цибулю на повільному вогні.",
+        "de": "Brat die Kartoffeln und die Zwiebel bei schwacher Hitze.",
+        "fr": "Fais frire les pommes de terre et l'oignon à feu doux.",
+        "pt": "Frite as batatas e a cebola em fogo baixo.",
+        "zh": "用小火煎土豆和洋葱。",
+        "hint": {
+          "en": "freír → fríe.",
+          "it": "freír → fríe.",
+          "uk": "freír → fríe.",
+          "de": "freír → fríe.",
+          "fr": "freír → fríe.",
+          "pt": "freír → fríe.",
+          "zh": "freír → fríe。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "Bate los huevos y luego ",
+        "after": " a las patatas.",
+        "options": [
+          "añádelos",
+          "añádelas",
+          "añádela"
+        ],
+        "answer": "añádelos",
+        "en": "Beat the eggs and then add them to the potatoes.",
+        "it": "Sbatti le uova e poi aggiungile alle patate.",
+        "uk": "Збий яйця, а потім додай їх до картоплі.",
+        "de": "Verquirl die Eier und gib sie dann zu den Kartoffeln.",
+        "fr": "Bats les œufs, puis ajoute-les aux pommes de terre.",
+        "pt": "Bata os ovos e depois acrescente-os às batatas.",
+        "zh": "把鸡蛋打散，然后加到土豆里。",
+        "hint": {
+          "en": "los huevos: añádelos.",
+          "it": "los huevos: añádelos.",
+          "uk": "los huevos: añádelos.",
+          "de": "los huevos: añádelos.",
+          "fr": "los huevos : añádelos.",
+          "pt": "los huevos: añádelos.",
+          "zh": "los huevos：añádelos。"
+        }
+      },
+      {
+        "type": "gap",
+        "before": "No ",
+        "after": " de la cocina ahora: la tortilla está casi lista.",
+        "label": "salir",
+        "accepted": [
+          "salgas"
+        ],
+        "en": "Don't leave the kitchen now: the omelette is almost ready.",
+        "it": "Non uscire dalla cucina adesso: la tortilla è quasi pronta.",
+        "uk": "Не виходь зараз із кухні: тортилья майже готова.",
+        "de": "Geh jetzt nicht aus der Küche: Die Tortilla ist fast fertig.",
+        "fr": "Ne sors pas de la cuisine maintenant : l'omelette est presque prête.",
+        "pt": "Não saia da cozinha agora: a tortilha está quase pronta.",
+        "zh": "现在别离开厨房：蛋饼快好了。",
+        "hint": {
+          "en": "After no: salgas.",
+          "it": "Dopo no: salgas.",
+          "uk": "Після no: salgas.",
+          "de": "Nach no: salgas.",
+          "fr": "Après no : salgas.",
+          "pt": "Depois de no: salgas.",
+          "zh": "在 no 后面：salgas。"
+        }
+      },
+      {
+        "type": "build",
+        "intention": {
+          "en": "Your friend asks «¿Y ahora qué hago?». Tell them to flip the omelette over.",
+          "it": "Il tuo amico chiede «¿Y ahora qué hago?». Digli di girare la tortilla.",
+          "uk": "Друг питає «¿Y ahora qué hago?». Скажи йому перевернути тортилью.",
+          "de": "Dein Freund fragt «¿Y ahora qué hago?». Sag ihm, dass er die Tortilla wenden soll.",
+          "fr": "Ton ami demande «¿Y ahora qué hago?». Dis-lui de retourner l'omelette.",
+          "pt": "Seu amigo pergunta «¿Y ahora qué hago?». Diga a ele que vire a tortilha.",
+          "zh": "你的朋友问：«¿Y ahora qué hago?»。叫他把蛋饼翻过来。"
+        },
+        "accepted": [
+          "Dale la vuelta a la tortilla.",
+          "Dale la vuelta."
+        ],
+        "tiles": [
+          "Dale",
+          "la vuelta",
+          "a la tortilla",
+          "Le",
+          "da"
+        ],
+        "en": "Flip the omelette over.",
+        "it": "Gira la tortilla.",
+        "uk": "Переверни тортилью.",
+        "de": "Wende die Tortilla.",
+        "fr": "Retourne l'omelette.",
+        "pt": "Vire a tortilha.",
+        "zh": "把蛋饼翻过来。",
+        "hint": {
+          "en": "To flip it: dale la vuelta.",
+          "it": "Per girarla: dale la vuelta.",
+          "uk": "Щоб перевернути: dale la vuelta.",
+          "de": "Zum Wenden: dale la vuelta.",
+          "fr": "Pour la retourner : dale la vuelta.",
+          "pt": "Para virá-la: dale la vuelta.",
+          "zh": "把它翻过来：dale la vuelta。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "La tortilla ",
+        "after": " lista dentro de cinco minutos.",
+        "options": [
+          "estará",
+          "estaba",
+          "estuvo"
+        ],
+        "answer": "estará",
+        "en": "The omelette will be ready in five minutes.",
+        "it": "La tortilla sarà pronta tra cinque minuti.",
+        "uk": "Тортилья буде готова через п'ять хвилин.",
+        "de": "Die Tortilla ist in fünf Minuten fertig.",
+        "fr": "L'omelette sera prête dans cinq minutes.",
+        "pt": "A tortilha estará pronta daqui a cinco minutos.",
+        "zh": "蛋饼五分钟后就好了。",
+        "hint": {
+          "en": "dentro de cinco minutos: the future, estará.",
+          "it": "dentro de cinco minutos: il futuro, estará.",
+          "uk": "dentro de cinco minutos: майбутній час, estará.",
+          "de": "dentro de cinco minutos: das Futur, estará.",
+          "fr": "dentro de cinco minutos : le futur, estará.",
+          "pt": "dentro de cinco minutos: o futuro, estará.",
+          "zh": "dentro de cinco minutos：用将来时，estará。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "Al final, ",
+        "after": " la tortilla en un plato.",
+        "options": [
+          "pon",
+          "pones",
+          "pongas"
+        ],
+        "answer": "pon",
+        "en": "At the end, put the omelette on a plate.",
+        "it": "Alla fine, metti la tortilla in un piatto.",
+        "uk": "Наприкінці виклади тортилью на тарілку.",
+        "de": "Zum Schluss leg die Tortilla auf einen Teller.",
+        "fr": "À la fin, mets l'omelette dans une assiette.",
+        "pt": "No final, ponha a tortilha num prato.",
+        "zh": "最后，把蛋饼放到盘子里。",
+        "hint": {
+          "en": "An order without no: poner → pon.",
+          "it": "Un ordine senza no: poner → pon.",
+          "uk": "Наказ без no: poner → pon.",
+          "de": "Eine Aufforderung ohne no: poner → pon.",
+          "fr": "Un ordre sans no : poner → pon.",
+          "pt": "Uma ordem sem no: poner → pon.",
+          "zh": "不带 no 的命令：poner → pon。"
+        }
+      },
+      {
+        "type": "build",
+        "intention": {
+          "en": "Your friend tastes it and asks «¿Me das la receta?». Say of course, you'll send it to them tonight.",
+          "it": "Il tuo amico assaggia e chiede «¿Me das la receta?». Rispondi che certo, gliela mandi stasera.",
+          "uk": "Друг куштує й питає «¿Me das la receta?». Скажи, що звісно, надішлеш йому рецепт сьогодні ввечері.",
+          "de": "Dein Freund probiert und fragt «¿Me das la receta?». Sag, dass du es ihm natürlich heute Abend schickst.",
+          "fr": "Ton ami goûte et demande «¿Me das la receta?». Réponds que bien sûr, tu la lui envoies ce soir.",
+          "pt": "Seu amigo prova e pergunta «¿Me das la receta?». Diga que claro, você manda para ele hoje à noite.",
+          "zh": "你的朋友尝了尝，问：«¿Me das la receta?»。说当然可以，你今晚把菜谱发给他。"
+        },
+        "accepted": [
+          "Claro, te la mando esta noche.",
+          "Claro, esta noche te la mando."
+        ],
+        "tiles": [
+          "Claro,",
+          "te",
+          "la",
+          "mando",
+          "esta noche",
+          "lo",
+          "le"
+        ],
+        "en": "Of course, I'll send it to you tonight.",
+        "it": "Certo, te la mando stasera.",
+        "uk": "Звісно, надішлю тобі його сьогодні ввечері.",
+        "de": "Klar, ich schicke es dir heute Abend.",
+        "fr": "Bien sûr, je te l'envoie ce soir.",
+        "pt": "Claro, eu te mando hoje à noite.",
+        "zh": "当然，我今晚发给你。",
+        "hint": {
+          "en": "la receta: te la mando.",
+          "it": "la receta: te la mando.",
+          "uk": "la receta: te la mando.",
+          "de": "la receta: te la mando.",
+          "fr": "la receta : te la mando.",
+          "pt": "la receta: te la mando.",
+          "zh": "la receta：te la mando。"
+        }
+      },
+      {
+        "type": "write",
+        "instruction": {
+          "en": "Your friend wants to cook it again at home and asks for the key step. Write in Spanish: «First fry the potatoes over a low heat, then add the eggs.»",
+          "it": "Il tuo amico vuole rifarla a casa e ti chiede il passaggio chiave. Scrivi in spagnolo: «Prima friggi le patate a fuoco lento, poi aggiungi le uova.»",
+          "uk": "Друг хоче приготувати її ще раз удома й просить тебе назвати головний крок. Напиши іспанською: «Спочатку посмаж картоплю на повільному вогні, потім додай яйця.»",
+          "de": "Dein Freund will sie zu Hause noch einmal machen und fragt nach dem wichtigsten Schritt. Schreib auf Spanisch: «Brat zuerst die Kartoffeln bei schwacher Hitze, dann gib die Eier dazu.»",
+          "fr": "Ton ami veut la refaire chez lui et te demande l'étape clé. Écris en espagnol : «D'abord, fais frire les pommes de terre à feu doux, puis ajoute les œufs.»",
+          "pt": "Seu amigo quer fazer de novo em casa e pede o passo mais importante. Escreva em espanhol: «Primeiro frite as batatas em fogo baixo, depois acrescente os ovos.»",
+          "zh": "你的朋友想回家再做一次，问你关键的一步是什么。用西班牙语写：«先用小火炸土豆，然后加入鸡蛋。»"
+        },
+        "accepted": [
+          "Primero fríe las patatas a fuego lento, luego añade los huevos.",
+          "Primero fríe las patatas a fuego lento y luego añade los huevos.",
+          "Primero fríe las patatas a fuego lento, después añade los huevos.",
+          "Primero, fríe las patatas a fuego lento, luego añade los huevos.",
+          "Primero fríe las patatas a fuego lento; luego añade los huevos."
+        ],
+        "model": {
+          "es": "Primero fríe las patatas a fuego lento, luego añade los huevos.",
+          "en": "First fry the potatoes over a low heat, then add the eggs.",
+          "it": "Prima friggi le patate a fuoco lento, poi aggiungi le uova.",
+          "uk": "Спочатку посмаж картоплю на повільному вогні, потім додай яйця.",
+          "de": "Brat zuerst die Kartoffeln bei schwacher Hitze, dann gib die Eier dazu.",
+          "fr": "D'abord, fais frire les pommes de terre à feu doux, puis ajoute les œufs.",
+          "pt": "Primeiro frite as batatas em fogo baixo, depois acrescente os ovos.",
+          "zh": "先用小火炸土豆，然后加入鸡蛋。"
+        }
+      }
+    ]
+  }
+}
