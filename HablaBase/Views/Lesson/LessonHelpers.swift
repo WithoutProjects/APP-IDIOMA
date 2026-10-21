@@ -75,16 +75,61 @@ struct GlossedWord: View {
 
 // MARK: - Audio
 
-/// Reads Spanish aloud with the system voice. Works offline; nothing leaves the phone.
+/// How fast Spanish is read aloud. Chosen in Profile; a second tap on the same sentence always
+/// reads it slowly.
+enum SpeechSpeed: String, CaseIterable, Identifiable {
+    case normal, slow
+
+    static let storageKey = "speechSpeed"
+    var id: String { rawValue }
+
+    var rate: Float {
+        switch self {
+        case .normal: return AVSpeechUtteranceDefaultSpeechRate * 0.82
+        case .slow: return AVSpeechUtteranceDefaultSpeechRate * 0.62
+        }
+    }
+}
+
+/// Reads Spanish aloud with the best Spanish (Spain) voice installed on the phone: a Premium or
+/// Enhanced voice when the learner has downloaded one, the standard one otherwise.
+/// Works offline; nothing leaves the phone.
 @MainActor
 enum Speaker {
     private static let synthesizer = AVSpeechSynthesizer()
+    private static var lastText = ""
+    private static var lastTime = Date.distantPast
+
+    /// The most natural es-ES voice available, never a novelty voice.
+    static var bestVoice: AVSpeechSynthesisVoice? {
+        let spanish = AVSpeechSynthesisVoice.speechVoices().filter {
+            $0.language == "es-ES" && !$0.voiceTraits.contains(.isNoveltyVoice)
+        }
+        return spanish.max { $0.quality.rawValue < $1.quality.rawValue }
+            ?? AVSpeechSynthesisVoice(language: "es-ES")
+    }
+
+    /// True when only the standard (more robotic) voice is installed.
+    static var hasOnlyStandardVoice: Bool {
+        (bestVoice?.quality ?? .default) == .default
+    }
 
     static func say(_ text: String) {
+        let saved = UserDefaults.standard.string(forKey: SpeechSpeed.storageKey)
+        var speed = saved.flatMap(SpeechSpeed.init(rawValue:)) ?? .normal
+        // Tapping the same sentence again soon after: read it slowly.
+        if text == lastText, Date().timeIntervalSince(lastTime) < 10 { speed = .slow }
+        lastText = text
+        lastTime = Date()
+
         synthesizer.stopSpeaking(at: .immediate)
+        try? AVAudioSession.sharedInstance().setCategory(.playback, mode: .spokenAudio, options: [.duckOthers])
+        try? AVAudioSession.sharedInstance().setActive(true)
         let utterance = AVSpeechUtterance(string: text)
-        utterance.voice = AVSpeechSynthesisVoice(language: "es-ES")
-        utterance.rate = AVSpeechUtteranceDefaultSpeechRate * 0.9
+        utterance.voice = bestVoice
+        utterance.rate = speed.rate
+        utterance.preUtteranceDelay = 0.05
+        utterance.postUtteranceDelay = 0.1
         synthesizer.speak(utterance)
     }
 }

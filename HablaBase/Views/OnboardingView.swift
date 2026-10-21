@@ -69,6 +69,8 @@ struct ProfileForm: View {
             } footer: {
                 Text("Your first Spanish sentences will be about you: your name, your city and your work.")
             }
+
+            VoiceSettingsSection()
         }
     }
 }
@@ -89,6 +91,34 @@ struct ProfileView: View {
                         Button("Reset", role: .destructive) { store.reset() }
                     }
                     .navigationTitle("Profile")
+            }
+        }
+    }
+}
+
+/// How the Spanish voice sounds: speed, a test button, and how to get a more natural voice.
+struct VoiceSettingsSection: View {
+    @AppStorage(SpeechSpeed.storageKey) private var speed: SpeechSpeed = .normal
+
+    var body: some View {
+        Section {
+            Picker("Speed", selection: $speed) {
+                Text("Normal").tag(SpeechSpeed.normal)
+                Text("Slow").tag(SpeechSpeed.slow)
+            }
+            .pickerStyle(.segmented)
+            Button {
+                Speaker.say("Hola, ¿qué tal? Vivo en Madrid y trabajo en una oficina.")
+            } label: {
+                Label("Listen", systemImage: "speaker.wave.2.fill")
+            }
+        } header: {
+            Text("Spanish voice")
+        } footer: {
+            if Speaker.hasOnlyStandardVoice {
+                Text("For a more natural voice, download a Spanish (Spain) voice marked Enhanced or Premium in Settings > Accessibility > Spoken Content > Voices > Spanish. The app uses it automatically.")
+            } else {
+                Text("Tap the speaker twice to hear a sentence slowly.")
             }
         }
     }
