@@ -58,20 +58,30 @@ struct ColoredForm: View {
     }
 }
 
-/// The single large primary action at thumb height.
+/// The single large primary action at thumb height: a chunky button with a 3D edge that presses down.
 struct PrimaryButtonStyle: ButtonStyle {
     var color: Color = .accentColor
     var textColor: Color = .white
 
+    private static let depth: CGFloat = 4
+
     func makeBody(configuration: Configuration) -> some View {
-        configuration.label
-            .font(.headline)
+        let shape = RoundedRectangle(cornerRadius: 16, style: .continuous)
+        let pressed = configuration.isPressed
+        return configuration.label
+            .font(.system(.headline, design: .rounded).weight(.bold))
             .foregroundStyle(textColor)
             .frame(maxWidth: .infinity)
             .padding(.vertical, 16)
-            .background(RoundedRectangle(cornerRadius: 16, style: .continuous).fill(color))
-            .opacity(configuration.isPressed ? 0.85 : 1)
-            .scaleEffect(configuration.isPressed ? 0.98 : 1)
+            .background(shape.fill(color))
+            .offset(y: pressed ? Self.depth : 0)
+            .background(
+                shape.fill(color)
+                    .overlay(shape.fill(Color.black.opacity(0.22)))
+                    .offset(y: Self.depth)
+            )
+            .padding(.bottom, Self.depth)
+            .animation(.easeOut(duration: 0.08), value: pressed)
     }
 }
 

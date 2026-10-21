@@ -6,7 +6,19 @@ struct OnboardingView: View {
     @State private var draft = Profile(name: "", city: "", workplace: .oficina,
                                        nativeLanguage: .deviceDefault, goal: .travel, dailyMinutes: 10)
 
+    @State private var showsForm = false
+
     var body: some View {
+        if showsForm {
+            form
+        } else {
+            WelcomeView(language: draft.nativeLanguage) {
+                withAnimation(.easeInOut) { showsForm = true }
+            }
+        }
+    }
+
+    private var form: some View {
         NavigationStack {
             ProfileForm(profile: $draft)
                 .safeAreaInset(edge: .bottom) {
@@ -33,6 +45,41 @@ struct OnboardingView: View {
     private var isValid: Bool {
         !cleaned.name.isEmpty && !cleaned.city.isEmpty
     }
+}
+
+/// The first screen: a crowd of happy shapes and one button.
+struct WelcomeView: View {
+    let language: NativeLanguage
+    let onStart: () -> Void
+
+    var body: some View {
+        VStack(spacing: 0) {
+            VStack(alignment: .leading, spacing: 12) {
+                Text(verbatim: "HablaBase")
+                    .font(.system(size: 48, weight: .heavy, design: .rounded))
+                Text(Self.tagline.text(language))
+                    .font(.title3.weight(.medium))
+                    .foregroundStyle(.secondary)
+            }
+            .frame(maxWidth: .infinity, alignment: .leading)
+            .padding(.horizontal, 28)
+            .padding(.top, 48)
+            Spacer(minLength: 12)
+            MascotParade()
+            Spacer(minLength: 12)
+            Button(Self.letsGo.text(language), action: onStart)
+                .buttonStyle(PrimaryButtonStyle(color: FunColor.grape.main))
+                .padding(.horizontal, 24)
+                .padding(.bottom, 16)
+        }
+        .background(
+            LinearGradient(colors: [Color(.systemBackground), FunColor.grape.soft], startPoint: .center, endPoint: .bottom)
+                .ignoresSafeArea()
+        )
+    }
+
+    static let tagline = Gloss(en: "Spanish step by step, one small win a day.", it: "Lo spagnolo passo dopo passo, una piccola vittoria al giorno.", uk: "Іспанська крок за кроком, щодня маленька перемога.", de: "Spanisch Schritt für Schritt, jeden Tag ein kleiner Erfolg.", fr: "L'espagnol pas à pas, une petite victoire par jour.", pt: "Espanhol passo a passo, uma pequena vitória por dia.", zh: "一步一步学西班牙语，每天一个小进步。")
+    static let letsGo = Gloss(en: "Let's go", it: "Iniziamo", uk: "Почнімо", de: "Los geht's", fr: "C'est parti", pt: "Vamos lá", zh: "开始吧")
 }
 
 /// Shared by onboarding and the Profile tab.

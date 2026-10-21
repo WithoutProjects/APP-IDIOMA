@@ -17,6 +17,8 @@ struct SavedState: Codable, Equatable {
     /// Mastery 0...5 per verb x tense x person cell (the verb SRS).
     var mastery: [FormKey: Int] = [:]
     var sentencesBuilt = 0
+    /// Reward chests on the path that the learner has already opened.
+    var openedChests: Set<String> = []
 
     init() {}
 
@@ -33,6 +35,7 @@ struct SavedState: Codable, Equatable {
         completedLessons = try c.decodeIfPresent(Set<String>.self, forKey: .completedLessons) ?? []
         mastery = try c.decodeIfPresent([FormKey: Int].self, forKey: .mastery) ?? [:]
         sentencesBuilt = try c.decodeIfPresent(Int.self, forKey: .sentencesBuilt) ?? 0
+        openedChests = try c.decodeIfPresent(Set<String>.self, forKey: .openedChests) ?? []
     }
 }
 
@@ -185,6 +188,21 @@ final class AppStore: ObservableObject {
             state.completedLessons.insert(node.id)
         }
         touchStreak()
+    }
+
+    // MARK: Chests
+
+    static let chestXP = 20
+
+    func isChestOpen(_ chestId: String) -> Bool {
+        state.openedChests.contains(chestId)
+    }
+
+    /// A chest halfway through a unit gives bonus XP once.
+    func openChest(_ chestId: String) {
+        guard !isChestOpen(chestId) else { return }
+        state.openedChests.insert(chestId)
+        state.xp += Self.chestXP
     }
 
     func mastery(of key: FormKey) -> Int {

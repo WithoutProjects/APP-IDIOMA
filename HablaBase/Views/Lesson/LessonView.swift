@@ -206,15 +206,28 @@ struct LessonCompleteView: View {
     let language: NativeLanguage
     let onDone: () -> Void
 
+    @Environment(\.accessibilityReduceMotion) var reduceMotion
+    @State var appeared = false
+
     var body: some View {
         VStack(spacing: 20) {
             Spacer()
-            Image(systemName: testPassed == false ? "arrow.counterclockwise.circle.fill" : "trophy.fill")
-                .font(.system(size: 64))
-                .accessibilityHidden(true)
-                .foregroundStyle(testPassed == false ? Brick.stem.color : .yellow)
+            ZStack {
+                if testPassed != false {
+                    ConfettiBurst()
+                }
+                Mascot(shape: testPassed == false ? .cloud : .blob,
+                       color: testPassed == false ? FunColor.sky.main : FunColor.sunshine.main,
+                       mood: testPassed == false ? .curious : .excited,
+                       size: 130)
+                    .scaleEffect(appeared ? 1 : 0.4)
+                    .rotationEffect(.degrees(appeared ? 0 : -20))
+            }
+            .onAppear {
+                withAnimation(reduceMotion ? nil : .spring(response: 0.5, dampingFraction: 0.55)) { appeared = true }
+            }
             Text(headline)
-                .font(.title.bold())
+                .font(.system(.largeTitle, design: .rounded).weight(.heavy))
                 .multilineTextAlignment(.center)
             Text(detail)
                 .font(.title3)
@@ -248,7 +261,7 @@ struct LessonCompleteView: View {
             }
             Spacer()
             Button("Done", action: onDone)
-                .buttonStyle(PrimaryButtonStyle())
+                .buttonStyle(PrimaryButtonStyle(color: testPassed == false ? FunColor.sky.main : FunColor.leaf.main))
         }
         .padding(24)
     }
