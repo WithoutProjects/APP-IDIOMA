@@ -1,0 +1,3215 @@
+{
+  "unit": "u32",
+  "lessons": [
+    {
+      "id": "u32l1",
+      "goal": {
+        "en": "Say how you feel about what others do: me alegra que estés aquí, no me gusta que fumes, qué pena que te vayas.",
+        "it": "Di come ti senti per quello che fanno gli altri: me alegra que estés aquí, no me gusta que fumes, qué pena que te vayas.",
+        "uk": "Кажи, що ти відчуваєш щодо того, що роблять інші: me alegra que estés aquí, no me gusta que fumes, qué pena que te vayas.",
+        "de": "Sag, wie du dich bei dem fühlst, was andere tun: me alegra que estés aquí, no me gusta que fumes, qué pena que te vayas.",
+        "fr": "Dire ce que tu ressens face à ce que font les autres : me alegra que estés aquí, no me gusta que fumes, qué pena que te vayas.",
+        "pt": "Diga o que você sente sobre o que os outros fazem: me alegra que estés aquí, no me gusta que fumes, qué pena que te vayas.",
+        "zh": "说出你对别人所做的事的感受：me alegra que estés aquí、no me gusta que fumes、qué pena que te vayas。"
+      },
+      "target": {
+        "es": "Me alegra que estés aquí, pero qué pena que te vayas mañana.",
+        "en": "I'm glad you're here, but what a shame you're leaving tomorrow.",
+        "it": "Sono contento che tu sia qui, ma che peccato che tu parta domani.",
+        "uk": "Я радий (рада), що ти тут, але як шкода, що ти завтра їдеш.",
+        "de": "Ich freue mich, dass du hier bist, aber wie schade, dass du morgen wegfährst.",
+        "fr": "Je suis content que tu sois là, mais c'est dommage que tu partes demain.",
+        "pt": "Fico feliz que você esteja aqui, mas que pena que você vá embora amanhã.",
+        "zh": "我很高兴你在这里，可惜你明天就要走了。"
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "me alegra que",
+              "en": "I'm glad that",
+              "it": "sono contento che",
+              "uk": "я радий (рада), що",
+              "de": "ich freue mich, dass",
+              "fr": "je suis content que",
+              "pt": "fico feliz que",
+              "zh": "我很高兴……",
+              "kind": "rail"
+            },
+            {
+              "es": "me molesta que",
+              "en": "it bothers me that",
+              "it": "mi dà fastidio che",
+              "uk": "мене дратує, що",
+              "de": "es stört mich, dass",
+              "fr": "ça me dérange que",
+              "pt": "me incomoda que",
+              "zh": "……让我很烦",
+              "kind": "rail"
+            },
+            {
+              "es": "qué pena que",
+              "en": "what a shame that",
+              "it": "che peccato che",
+              "uk": "як шкода, що",
+              "de": "wie schade, dass",
+              "fr": "c'est dommage que",
+              "pt": "que pena que",
+              "zh": "真可惜……",
+              "kind": "rail"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "me alegra que",
+              "kind": "rail"
+            },
+            {
+              "text": "estés",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "To say you're glad about what someone else does or is, use me alegra que + the subjunctive, even when it's a fact: me alegra que estés aquí.",
+            "it": "Per dire che sei contento di quello che fa o è un altro, usa me alegra que + il congiuntivo, anche quando è un fatto: me alegra que estés aquí.",
+            "uk": "Щоб сказати, що тебе тішить те, що робить або який є хтось інший, вживай me alegra que + «subjuntivo», навіть коли це факт: me alegra que estés aquí.",
+            "de": "Wenn du dich über etwas freust, was ein anderer tut oder ist, nimm me alegra que + subjuntivo, auch wenn es eine Tatsache ist: me alegra que estés aquí. Im Deutschen bleibt es beim Indikativ: „Ich freue mich, dass du hier bist.“",
+            "fr": "Pour dire que tu es content de ce que fait ou de ce qu'est une autre personne, utilise me alegra que + le subjonctif, même quand c'est un fait : me alegra que estés aquí. Comme en français : « je suis content que tu sois là ».",
+            "pt": "Para dizer que você fica feliz com o que outra pessoa faz ou é, use me alegra que + o subjuntivo, mesmo quando é um fato: me alegra que estés aquí. Em português é igual: fico feliz que você esteja aqui.",
+            "zh": "对别人做的事或别人的状况感到高兴，用 me alegra que + 虚拟式，即使说的是事实也一样：me alegra que estés aquí。西班牙语表达感受时，que 后面要用虚拟式。"
+          },
+          "examples": [
+            {
+              "es": "Me alegra que estés aquí.",
+              "en": "I'm glad you're here.",
+              "it": "Sono contento che tu sia qui.",
+              "uk": "Я радий (рада), що ти тут.",
+              "de": "Ich freue mich, dass du hier bist.",
+              "fr": "Je suis content que tu sois là.",
+              "pt": "Fico feliz que você esteja aqui.",
+              "zh": "我很高兴你在这里。"
+            },
+            {
+              "es": "Me alegra que te guste tu nuevo trabajo.",
+              "en": "I'm glad you like your new job.",
+              "it": "Sono contento che il nuovo lavoro ti piaccia.",
+              "uk": "Я радий (рада), що тобі подобається твоя нова робота.",
+              "de": "Ich freue mich, dass dir deine neue Arbeit gefällt.",
+              "fr": "Je suis content que ton nouveau travail te plaise.",
+              "pt": "Fico feliz que você goste do seu novo trabalho.",
+              "zh": "我很高兴你喜欢你的新工作。"
+            },
+            {
+              "es": "Me alegra que tus padres vengan a la boda.",
+              "en": "I'm glad your parents are coming to the wedding.",
+              "it": "Sono contento che i tuoi genitori vengano al matrimonio.",
+              "uk": "Я радий (рада), що твої батьки прийдуть на весілля.",
+              "de": "Ich freue mich, dass deine Eltern zur Hochzeit kommen.",
+              "fr": "Je suis content que tes parents viennent au mariage.",
+              "pt": "Fico feliz que os seus pais venham ao casamento.",
+              "zh": "我很高兴你父母来参加婚礼。"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "before": "Me alegra que ",
+          "after": " aquí.",
+          "options": [
+            "estés",
+            "estás",
+            "eres"
+          ],
+          "answer": "estés",
+          "en": "I'm glad you're here.",
+          "it": "Sono contento che tu sia qui.",
+          "uk": "Я радий (рада), що ти тут.",
+          "de": "Ich freue mich, dass du hier bist.",
+          "fr": "Je suis content que tu sois là.",
+          "pt": "Fico feliz que você esteja aqui.",
+          "zh": "我很高兴你在这里。",
+          "hint": {
+            "en": "A feeling about someone else: me alegra que + the subjunctive, estés.",
+            "it": "Un sentimento su un altro: me alegra que + il congiuntivo, estés.",
+            "uk": "Почуття щодо іншої людини: me alegra que + «subjuntivo», estés.",
+            "de": "Ein Gefühl über einen anderen: me alegra que + subjuntivo, estés.",
+            "fr": "Un sentiment sur ce que fait quelqu'un d'autre : me alegra que + le subjonctif, estés.",
+            "pt": "Um sentimento sobre outra pessoa: me alegra que + o subjuntivo, estés.",
+            "zh": "对别人的感受：me alegra que + 虚拟式，estés。"
+          },
+          "beat": "forge"
+        },
+        {
+          "type": "gap",
+          "before": "Me alegra que te ",
+          "after": " el regalo.",
+          "label": "gustar",
+          "accepted": [
+            "guste"
+          ],
+          "en": "I'm glad you like the present.",
+          "it": "Sono contento che il regalo ti piaccia.",
+          "uk": "Я радий (рада), що тобі подобається подарунок.",
+          "de": "Ich freue mich, dass dir das Geschenk gefällt.",
+          "fr": "Je suis content que le cadeau te plaise.",
+          "pt": "Fico feliz que você goste do presente.",
+          "zh": "我很高兴你喜欢这份礼物。",
+          "hint": {
+            "en": "After me alegra que, the subjunctive: gusta → guste.",
+            "it": "Dopo me alegra que, il congiuntivo: gusta → guste.",
+            "uk": "Після me alegra que — «subjuntivo»: gusta → guste.",
+            "de": "Nach me alegra que kommt der subjuntivo: gusta → guste.",
+            "fr": "Après me alegra que, le subjonctif : gusta → guste.",
+            "pt": "Depois de me alegra que, o subjuntivo: gusta → guste.",
+            "zh": "me alegra que 后面用虚拟式：gusta → guste。"
+          },
+          "beat": "fire"
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "me molesta que",
+              "kind": "rail"
+            },
+            {
+              "text": "fumes",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "Other feelings work the same way: me encanta que, me molesta que, no me gusta que + the subjunctive.",
+            "it": "Gli altri sentimenti funzionano allo stesso modo: me encanta que, me molesta que, no me gusta que + il congiuntivo.",
+            "uk": "Інші почуття працюють так само: me encanta que, me molesta que, no me gusta que + «subjuntivo».",
+            "de": "Andere Gefühle funktionieren genauso: me encanta que, me molesta que, no me gusta que + subjuntivo.",
+            "fr": "Les autres sentiments fonctionnent de la même façon : me encanta que, me molesta que, no me gusta que + le subjonctif.",
+            "pt": "Os outros sentimentos funcionam do mesmo jeito: me encanta que, me molesta que, no me gusta que + o subjuntivo.",
+            "zh": "其他感受也是一样：me encanta que、me molesta que、no me gusta que + 虚拟式。"
+          },
+          "examples": [
+            {
+              "es": "Me encanta que cocines para mí.",
+              "en": "I love it when you cook for me.",
+              "it": "Adoro che tu cucini per me.",
+              "uk": "Я дуже люблю, коли ти мені готуєш.",
+              "de": "Ich finde es toll, dass du für mich kochst.",
+              "fr": "J'adore que tu cuisines pour moi.",
+              "pt": "Adoro quando você cozinha para mim.",
+              "zh": "我很喜欢你给我做饭。"
+            },
+            {
+              "es": "Me molesta que mi vecino ponga la música tan alta.",
+              "en": "It bothers me that my neighbour plays his music so loud.",
+              "it": "Mi dà fastidio che il mio vicino metta la musica così alta.",
+              "uk": "Мене дратує, що мій сусід так голосно вмикає музику.",
+              "de": "Es stört mich, dass mein Nachbar die Musik so laut macht.",
+              "fr": "Ça me dérange que mon voisin mette la musique si fort.",
+              "pt": "Me incomoda que o meu vizinho ponha a música tão alta.",
+              "zh": "我的邻居把音乐放得那么大声，让我很烦。"
+            },
+            {
+              "es": "No me gusta que fumes en casa.",
+              "en": "I don't like you smoking in the house.",
+              "it": "Non mi piace che tu fumi in casa.",
+              "uk": "Мені не подобається, що ти куриш удома.",
+              "de": "Ich mag es nicht, dass du in der Wohnung rauchst.",
+              "fr": "Je n'aime pas que tu fumes à la maison.",
+              "pt": "Não gosto que você fume em casa.",
+              "zh": "我不喜欢你在家里抽烟。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "cocines",
+              "en": "(that) you cook",
+              "it": "(che tu) cucini",
+              "uk": "(що) ти готуєш",
+              "de": "(dass) du kochst",
+              "fr": "(que tu) cuisines",
+              "pt": "(que você) cozinhe",
+              "zh": "你做饭（虚拟式）"
+            },
+            {
+              "es": "griten",
+              "en": "(that) they shout",
+              "it": "(che loro) gridino",
+              "uk": "(що) вони кричать",
+              "de": "(dass) sie schreien",
+              "fr": "(qu'ils) crient",
+              "pt": "(que eles) gritem",
+              "zh": "他们喊叫（虚拟式）"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "before": "No me gusta que ",
+          "after": " en casa.",
+          "options": [
+            "fumes",
+            "fumas",
+            "fuma"
+          ],
+          "answer": "fumes",
+          "en": "I don't like you smoking in the house.",
+          "it": "Non mi piace che tu fumi in casa.",
+          "uk": "Мені не подобається, що ти куриш удома.",
+          "de": "Ich mag es nicht, dass du in der Wohnung rauchst.",
+          "fr": "Je n'aime pas que tu fumes à la maison.",
+          "pt": "Não gosto que você fume em casa.",
+          "zh": "我不喜欢你在家里抽烟。",
+          "hint": {
+            "en": "no me gusta que + the subjunctive: fumas → fumes.",
+            "it": "no me gusta que + il congiuntivo: fumas → fumes.",
+            "uk": "no me gusta que + «subjuntivo»: fumas → fumes.",
+            "de": "no me gusta que + subjuntivo: fumas → fumes.",
+            "fr": "no me gusta que + le subjonctif : fumas → fumes.",
+            "pt": "no me gusta que + o subjuntivo: fumas → fumes.",
+            "zh": "no me gusta que + 虚拟式：fumas → fumes。"
+          },
+          "beat": "forge"
+        },
+        {
+          "type": "build",
+          "intention": {
+            "en": "Your neighbours shout all the time. Say it bothers you that they shout so loudly.",
+            "it": "I tuoi vicini gridano sempre. Di' che ti dà fastidio che gridino così forte.",
+            "uk": "Твої сусіди постійно кричать. Скажи, що тебе дратує, що вони так голосно кричать.",
+            "de": "Deine Nachbarn schreien ständig. Sag, dass es dich stört, dass sie so laut schreien.",
+            "fr": "Tes voisins crient tout le temps. Dis que ça te dérange qu'ils crient si fort.",
+            "pt": "Seus vizinhos gritam o tempo todo. Diga que incomoda você que eles gritem tão alto.",
+            "zh": "你的邻居们总是大喊大叫。说他们喊得那么大声让你很烦。"
+          },
+          "accepted": [
+            "Me molesta que mis vecinos griten tan alto."
+          ],
+          "tiles": [
+            "Me molesta que",
+            "mis vecinos",
+            "griten",
+            "tan alto",
+            "grites",
+            "alegra"
+          ],
+          "en": "It bothers me that my neighbours shout so loudly.",
+          "it": "Mi dà fastidio che i miei vicini gridino così forte.",
+          "uk": "Мене дратує, що мої сусіди так голосно кричать.",
+          "de": "Es stört mich, dass meine Nachbarn so laut schreien.",
+          "fr": "Ça me dérange que mes voisins crient si fort.",
+          "pt": "Me incomoda que os meus vizinhos gritem tão alto.",
+          "zh": "我的邻居们喊得那么大声，让我很烦。",
+          "hint": {
+            "en": "mis vecinos = ellos: gritar → griten.",
+            "it": "mis vecinos = ellos: gritar → griten.",
+            "uk": "mis vecinos = ellos: gritar → griten.",
+            "de": "mis vecinos = ellos: gritar → griten.",
+            "fr": "mis vecinos = ellos : gritar → griten.",
+            "pt": "mis vecinos = ellos: gritar → griten.",
+            "zh": "mis vecinos = ellos：gritar → griten。"
+          },
+          "beat": "fire"
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "siento que",
+              "kind": "rail"
+            },
+            {
+              "text": "no puedas",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "To say you're sorry about something: siento que or qué pena que + the subjunctive: siento que no puedas venir.",
+            "it": "Per dire che ti dispiace qualcosa: siento que o qué pena que + il congiuntivo: siento que no puedas venir.",
+            "uk": "Щоб сказати, що тобі шкода: siento que або qué pena que + «subjuntivo»: siento que no puedas venir.",
+            "de": "Wenn dir etwas leidtut: siento que oder qué pena que + subjuntivo: siento que no puedas venir.",
+            "fr": "Pour dire que tu regrettes quelque chose : siento que ou qué pena que + le subjonctif : siento que no puedas venir. Comme « je regrette que, c'est dommage que » en français.",
+            "pt": "Para dizer que você lamenta algo: siento que ou qué pena que + o subjuntivo: siento que no puedas venir.",
+            "zh": "对某事表示遗憾：siento que 或 qué pena que + 虚拟式：siento que no puedas venir。"
+          },
+          "examples": [
+            {
+              "es": "Siento que no puedas venir.",
+              "en": "I'm sorry you can't come.",
+              "it": "Mi dispiace che tu non possa venire.",
+              "uk": "Шкода, що ти не можеш прийти.",
+              "de": "Es tut mir leid, dass du nicht kommen kannst.",
+              "fr": "Je regrette que tu ne puisses pas venir.",
+              "pt": "Sinto muito que você não possa vir.",
+              "zh": "很遗憾你来不了。"
+            },
+            {
+              "es": "¡Qué pena que te vayas!",
+              "en": "What a shame you're leaving!",
+              "it": "Che peccato che tu te ne vada!",
+              "uk": "Як шкода, що ти їдеш!",
+              "de": "Wie schade, dass du gehst!",
+              "fr": "C'est dommage que tu partes !",
+              "pt": "Que pena que você vá embora!",
+              "zh": "你要走了，真可惜！"
+            },
+            {
+              "es": "Qué pena que llueva hoy.",
+              "en": "What a shame it's raining today.",
+              "it": "Che peccato che oggi piova.",
+              "uk": "Як шкода, що сьогодні дощ.",
+              "de": "Wie schade, dass es heute regnet.",
+              "fr": "C'est dommage qu'il pleuve aujourd'hui.",
+              "pt": "Que pena que esteja chovendo hoje.",
+              "zh": "今天下雨，真可惜。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "te vayas",
+              "en": "(that) you leave",
+              "it": "(che tu) te ne vada",
+              "uk": "(що) ти їдеш, ідеш",
+              "de": "(dass) du gehst, wegfährst",
+              "fr": "(que tu) partes",
+              "pt": "(que você) vá embora",
+              "zh": "你离开（虚拟式）"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "before": "Siento que no ",
+          "after": " venir a la fiesta.",
+          "options": [
+            "puedas",
+            "puedes",
+            "podrás"
+          ],
+          "answer": "puedas",
+          "en": "I'm sorry you can't come to the party.",
+          "it": "Mi dispiace che tu non possa venire alla festa.",
+          "uk": "Шкода, що ти не можеш прийти на вечірку.",
+          "de": "Es tut mir leid, dass du nicht zur Party kommen kannst.",
+          "fr": "Je regrette que tu ne puisses pas venir à la fête.",
+          "pt": "Sinto muito que você não possa vir à festa.",
+          "zh": "很遗憾你来不了聚会。",
+          "hint": {
+            "en": "siento que + the subjunctive: puedes → puedas.",
+            "it": "siento que + il congiuntivo: puedes → puedas.",
+            "uk": "siento que + «subjuntivo»: puedes → puedas.",
+            "de": "siento que + subjuntivo: puedes → puedas.",
+            "fr": "siento que + le subjonctif : puedes → puedas.",
+            "pt": "siento que + o subjuntivo: puedes → puedas.",
+            "zh": "siento que + 虚拟式：puedes → puedas。"
+          },
+          "beat": "forge"
+        },
+        {
+          "type": "build",
+          "intention": {
+            "en": "Your friend is moving to another city. Say what a shame it is that she's leaving.",
+            "it": "La tua amica si trasferisce in un'altra città. Dille che peccato che se ne vada.",
+            "uk": "Твоя подруга переїжджає в інше місто. Скажи, як шкода, що вона їде.",
+            "de": "Deine Freundin zieht in eine andere Stadt. Sag, wie schade es ist, dass sie geht.",
+            "fr": "Ton amie déménage dans une autre ville. Dis que c'est dommage qu'elle parte.",
+            "pt": "Sua amiga vai se mudar para outra cidade. Diga que pena que ela vá embora.",
+            "zh": "你的朋友要搬到另一个城市去。说她要走了，真可惜。"
+          },
+          "accepted": [
+            "¡Qué pena que te vayas!"
+          ],
+          "tiles": [
+            "¡Qué pena",
+            "que",
+            "te",
+            "vayas!",
+            "vas",
+            "vaya"
+          ],
+          "en": "What a shame you're leaving!",
+          "it": "Che peccato che te ne vada!",
+          "uk": "Як шкода, що ти їдеш!",
+          "de": "Wie schade, dass du gehst!",
+          "fr": "C'est dommage que tu partes !",
+          "pt": "Que pena que você vá embora!",
+          "zh": "你要走了，真可惜！",
+          "hint": {
+            "en": "qué pena que + the subjunctive: te vas → te vayas.",
+            "it": "qué pena que + il congiuntivo: te vas → te vayas.",
+            "uk": "qué pena que + «subjuntivo»: te vas → te vayas.",
+            "de": "qué pena que + subjuntivo: te vas → te vayas.",
+            "fr": "qué pena que + le subjonctif : te vas → te vayas.",
+            "pt": "qué pena que + o subjuntivo: te vas → te vayas.",
+            "zh": "qué pena que + 虚拟式：te vas → te vayas。"
+          },
+          "beat": "fire"
+        },
+        {
+          "type": "choose",
+          "before": "Me encanta que me ",
+          "after": " en español.",
+          "options": [
+            "hables",
+            "hablas",
+            "habla"
+          ],
+          "answer": "hables",
+          "en": "I love it that you speak to me in Spanish.",
+          "it": "Adoro che tu mi parli in spagnolo.",
+          "uk": "Мені дуже подобається, що ти розмовляєш зі мною іспанською.",
+          "de": "Ich finde es toll, dass du Spanisch mit mir sprichst.",
+          "fr": "J'adore que tu me parles en espagnol.",
+          "pt": "Adoro que você fale comigo em espanhol.",
+          "zh": "我很喜欢你跟我说西班牙语。",
+          "hint": {
+            "en": "me encanta que + the subjunctive: hablas → hables.",
+            "it": "me encanta que + il congiuntivo: hablas → hables.",
+            "uk": "me encanta que + «subjuntivo»: hablas → hables.",
+            "de": "me encanta que + subjuntivo: hablas → hables.",
+            "fr": "me encanta que + le subjonctif : hablas → hables.",
+            "pt": "me encanta que + o subjuntivo: hablas → hables.",
+            "zh": "me encanta que + 虚拟式：hablas → hables。"
+          },
+          "beat": "mix"
+        },
+        {
+          "type": "gap",
+          "before": "Me alegra que ",
+          "after": " mejor.",
+          "label": "estar",
+          "accepted": [
+            "estés"
+          ],
+          "en": "I'm glad you're feeling better.",
+          "it": "Sono contento che tu stia meglio.",
+          "uk": "Я радий (рада), що тобі вже краще.",
+          "de": "Ich freue mich, dass es dir besser geht.",
+          "fr": "Je suis content que tu ailles mieux.",
+          "pt": "Fico feliz que você esteja melhor.",
+          "zh": "我很高兴你感觉好些了。",
+          "hint": {
+            "en": "me alegra que + the subjunctive: estás → estés.",
+            "it": "me alegra que + il congiuntivo: estás → estés.",
+            "uk": "me alegra que + «subjuntivo»: estás → estés.",
+            "de": "me alegra que + subjuntivo: estás → estés.",
+            "fr": "me alegra que + le subjonctif : estás → estés.",
+            "pt": "me alegra que + o subjuntivo: estás → estés.",
+            "zh": "me alegra que + 虚拟式：estás → estés。"
+          },
+          "beat": "mix"
+        },
+        {
+          "type": "build",
+          "intention": {
+            "en": "Your colleague tells you they're leaving the company. Say you're sorry they're leaving.",
+            "it": "Un collega ti dice che lascia l'azienda. Digli che ti dispiace che se ne vada.",
+            "uk": "Колега каже тобі, що йде з компанії. Скажи, що тобі шкода, що він (вона) йде.",
+            "de": "Ein Kollege erzählt dir, dass er die Firma verlässt. Sag, dass es dir leidtut, dass er geht.",
+            "fr": "Ton collègue t'annonce qu'il quitte l'entreprise. Dis que tu regrettes qu'il parte.",
+            "pt": "Seu colega conta que vai sair da empresa. Diga que você sente muito que ele vá embora.",
+            "zh": "你的同事告诉你他要离开公司了。说你很遗憾他要走。"
+          },
+          "accepted": [
+            "Siento que te vayas."
+          ],
+          "tiles": [
+            "Siento",
+            "que",
+            "te",
+            "vayas",
+            "vas",
+            "alegra"
+          ],
+          "en": "I'm sorry you're leaving.",
+          "it": "Mi dispiace che tu te ne vada.",
+          "uk": "Мені шкода, що ти йдеш.",
+          "de": "Es tut mir leid, dass du gehst.",
+          "fr": "Je regrette que tu partes.",
+          "pt": "Sinto muito que você vá embora.",
+          "zh": "很遗憾你要走了。",
+          "hint": {
+            "en": "siento que + the subjunctive: te vayas.",
+            "it": "siento que + il congiuntivo: te vayas.",
+            "uk": "siento que + «subjuntivo»: te vayas.",
+            "de": "siento que + subjuntivo: te vayas.",
+            "fr": "siento que + le subjonctif : te vayas.",
+            "pt": "siento que + o subjuntivo: te vayas.",
+            "zh": "siento que + 虚拟式：te vayas。"
+          },
+          "beat": "mix"
+        },
+        {
+          "type": "write",
+          "instruction": {
+            "en": "Write in Spanish: «I'm glad you're here, but what a shame you're leaving tomorrow.»",
+            "it": "Scrivi in spagnolo: «Sono contento che tu sia qui, ma che peccato che tu parta domani.»",
+            "uk": "Напиши іспанською: «Я радий (рада), що ти тут, але як шкода, що ти завтра їдеш.»",
+            "de": "Schreib auf Spanisch: «Ich freue mich, dass du hier bist, aber wie schade, dass du morgen wegfährst.»",
+            "fr": "Écris en espagnol : «Je suis content que tu sois là, mais c'est dommage que tu partes demain.»",
+            "pt": "Escreva em espanhol: «Fico feliz que você esteja aqui, mas que pena que você vá embora amanhã.»",
+            "zh": "用西班牙语写：«我很高兴你在这里，可惜你明天就要走了。»"
+          },
+          "accepted": [
+            "Me alegra que estés aquí, pero qué pena que te vayas mañana.",
+            "Me alegra que estés aquí, pero qué pena que mañana te vayas.",
+            "Me alegra que estés aquí. Qué pena que te vayas mañana.",
+            "Me alegra que estés aquí, pero siento que te vayas mañana."
+          ],
+          "model": {
+            "es": "Me alegra que estés aquí, pero qué pena que te vayas mañana.",
+            "en": "I'm glad you're here, but what a shame you're leaving tomorrow.",
+            "it": "Sono contento che tu sia qui, ma che peccato che tu parta domani.",
+            "uk": "Я радий (рада), що ти тут, але як шкода, що ти завтра їдеш.",
+            "de": "Ich freue mich, dass du hier bist, aber wie schade, dass du morgen wegfährst.",
+            "fr": "Je suis content que tu sois là, mais c'est dommage que tu partes demain.",
+            "pt": "Fico feliz que você esteja aqui, mas que pena que você vá embora amanhã.",
+            "zh": "我很高兴你在这里，可惜你明天就要走了。"
+          },
+          "beat": "mix"
+        }
+      ]
+    },
+    {
+      "id": "u32l2",
+      "goal": {
+        "en": "Give advice and reassurance: es importante que descanses, es mejor que vayas en metro, es normal que estés nervioso.",
+        "it": "Dai consigli e rassicura: es importante que descanses, es mejor que vayas en metro, es normal que estés nervioso.",
+        "uk": "Давай поради й заспокоюй: es importante que descanses, es mejor que vayas en metro, es normal que estés nervioso.",
+        "de": "Gib Ratschläge und beruhige andere: es importante que descanses, es mejor que vayas en metro, es normal que estés nervioso.",
+        "fr": "Donner des conseils et rassurer : es importante que descanses, es mejor que vayas en metro, es normal que estés nervioso.",
+        "pt": "Dê conselhos e tranquilize as pessoas: es importante que descanses, es mejor que vayas en metro, es normal que estés nervioso.",
+        "zh": "给别人建议，让人安心：es importante que descanses、es mejor que vayas en metro、es normal que estés nervioso。"
+      },
+      "target": {
+        "es": "Es normal que estés nervioso, pero es importante que duermas bien.",
+        "en": "It's normal to be nervous, but it's important that you sleep well.",
+        "it": "È normale che tu sia nervoso, ma è importante che tu dorma bene.",
+        "uk": "Це нормально, що ти хвилюєшся, але важливо, щоб ти добре виспався.",
+        "de": "Es ist normal, dass du nervös bist, aber es ist wichtig, dass du gut schläfst.",
+        "fr": "C'est normal que tu sois nerveux, mais il est important que tu dormes bien.",
+        "pt": "É normal que você esteja nervoso, mas é importante que você durma bem.",
+        "zh": "紧张是正常的，但重要的是你要睡好。"
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "necesario",
+              "en": "necessary",
+              "it": "necessario",
+              "uk": "потрібний, необхідний",
+              "de": "nötig, notwendig",
+              "fr": "nécessaire",
+              "pt": "necessário",
+              "zh": "必要的",
+              "kind": "chunk"
+            },
+            {
+              "es": "normal",
+              "en": "normal",
+              "it": "normale",
+              "uk": "нормальний",
+              "de": "normal",
+              "fr": "normal",
+              "pt": "normal",
+              "zh": "正常的",
+              "kind": "chunk"
+            },
+            {
+              "es": "es mejor que",
+              "en": "it's better if, you'd better",
+              "it": "è meglio che",
+              "uk": "краще (щоб), тобі краще",
+              "de": "es ist besser, wenn; du solltest lieber",
+              "fr": "il vaut mieux que",
+              "pt": "é melhor que, é melhor você…",
+              "zh": "最好……",
+              "kind": "rail"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "es importante que",
+              "kind": "rail"
+            },
+            {
+              "text": "duermas",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "For everyone in general, es importante + the dictionary form: es importante dormir bien. For a particular person, es importante que + the subjunctive: es importante que duermas bien.",
+            "it": "Per tutti in generale, es importante + l'infinito: es importante dormir bien. Per una persona precisa, es importante que + il congiuntivo: es importante que duermas bien.",
+            "uk": "Для всіх загалом: es importante + словникова форма: es importante dormir bien. Для конкретної людини: es importante que + «subjuntivo»: es importante que duermas bien. В українській так само: «важливо спати» і «важливо, щоб ти спав».",
+            "de": "Für alle allgemein: es importante + Grundform: es importante dormir bien. Für eine bestimmte Person: es importante que + subjuntivo: es importante que duermas bien.",
+            "fr": "Pour tout le monde en général, es importante + l'infinitif : es importante dormir bien. Pour une personne en particulier, es importante que + le subjonctif : es importante que duermas bien. C'est pareil en français : « il est important de bien dormir » / « il est important que tu dormes bien ».",
+            "pt": "Para todo mundo em geral, es importante + a forma do dicionário: es importante dormir bien. Para uma pessoa em particular, es importante que + o subjuntivo: es importante que duermas bien. Como em português: é importante dormir bem / é importante que você durma bem.",
+            "zh": "泛指所有人时，es importante + 动词原形：es importante dormir bien。针对某个具体的人时，es importante que + 虚拟式：es importante que duermas bien。"
+          },
+          "examples": [
+            {
+              "es": "Es importante dormir ocho horas.",
+              "en": "It's important to sleep eight hours.",
+              "it": "È importante dormire otto ore.",
+              "uk": "Важливо спати вісім годин.",
+              "de": "Es ist wichtig, acht Stunden zu schlafen.",
+              "fr": "Il est important de dormir huit heures.",
+              "pt": "É importante dormir oito horas.",
+              "zh": "睡八个小时很重要。"
+            },
+            {
+              "es": "Es importante que duermas ocho horas.",
+              "en": "It's important that you sleep eight hours.",
+              "it": "È importante che tu dorma otto ore.",
+              "uk": "Важливо, щоб ти спав(-ла) вісім годин.",
+              "de": "Es ist wichtig, dass du acht Stunden schläfst.",
+              "fr": "Il est important que tu dormes huit heures.",
+              "pt": "É importante que você durma oito horas.",
+              "zh": "你睡够八个小时很重要。"
+            },
+            {
+              "es": "Es importante que el jefe sepa la verdad.",
+              "en": "It's important that the boss knows the truth.",
+              "it": "È importante che il capo sappia la verità.",
+              "uk": "Важливо, щоб начальник знав правду.",
+              "de": "Es ist wichtig, dass der Chef die Wahrheit weiß.",
+              "fr": "Il est important que le chef sache la vérité.",
+              "pt": "É importante que o chefe saiba a verdade.",
+              "zh": "让老板知道真相很重要。"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "before": "Es importante que ",
+          "after": " mucha agua.",
+          "options": [
+            "bebas",
+            "bebes",
+            "beber"
+          ],
+          "answer": "bebas",
+          "en": "It's important that you drink lots of water.",
+          "it": "È importante che tu beva molta acqua.",
+          "uk": "Важливо, щоб ти пив(-ла) багато води.",
+          "de": "Es ist wichtig, dass du viel Wasser trinkst.",
+          "fr": "Il est important que tu boives beaucoup d'eau.",
+          "pt": "É importante que você beba muita água.",
+          "zh": "你多喝水很重要。",
+          "hint": {
+            "en": "For you in particular: es importante que + the subjunctive, bebas.",
+            "it": "Per te in particolare: es importante que + il congiuntivo, bebas.",
+            "uk": "Саме для тебе: es importante que + «subjuntivo», bebas.",
+            "de": "Für dich persönlich: es importante que + subjuntivo, bebas.",
+            "fr": "Pour toi en particulier : es importante que + le subjonctif, bebas.",
+            "pt": "Para você em particular: es importante que + o subjuntivo, bebas.",
+            "zh": "针对你这个人：es importante que + 虚拟式，bebas。"
+          },
+          "beat": "forge"
+        },
+        {
+          "type": "build",
+          "intention": {
+            "en": "Your friend has a bad cold. Tell them it's important that they rest.",
+            "it": "Il tuo amico ha un brutto raffreddore. Digli che è importante che si riposi.",
+            "uk": "Твій друг сильно застудився. Скажи йому, що важливо, щоб він відпочив.",
+            "de": "Dein Freund hat eine schlimme Erkältung. Sag ihm, dass es wichtig ist, dass er sich ausruht.",
+            "fr": "Ton ami a un gros rhume. Dis-lui qu'il est important qu'il se repose.",
+            "pt": "Seu amigo está com um resfriado forte. Diga que é importante que ele descanse.",
+            "zh": "你的朋友得了重感冒。跟他说好好休息很重要。"
+          },
+          "accepted": [
+            "Es importante que descanses."
+          ],
+          "tiles": [
+            "Es importante",
+            "que",
+            "descanses",
+            "descansar",
+            "descansas"
+          ],
+          "en": "It's important that you rest.",
+          "it": "È importante che tu ti riposi.",
+          "uk": "Важливо, щоб ти відпочив(-ла).",
+          "de": "Es ist wichtig, dass du dich ausruhst.",
+          "fr": "Il est important que tu te reposes.",
+          "pt": "É importante que você descanse.",
+          "zh": "你好好休息很重要。",
+          "hint": {
+            "en": "For a particular person: que + the subjunctive, descanses.",
+            "it": "Per una persona precisa: que + il congiuntivo, descanses.",
+            "uk": "Для конкретної людини: que + «subjuntivo», descanses.",
+            "de": "Für eine bestimmte Person: que + subjuntivo, descanses.",
+            "fr": "Pour une personne en particulier : que + le subjonctif, descanses.",
+            "pt": "Para uma pessoa em particular: que + o subjuntivo, descanses.",
+            "zh": "针对具体的人：que + 虚拟式，descanses。"
+          },
+          "beat": "fire"
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "es mejor que",
+              "kind": "rail"
+            },
+            {
+              "text": "vayas",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "es necesario que and es mejor que work the same way: es mejor que vayas en metro.",
+            "it": "es necesario que ed es mejor que funzionano allo stesso modo: es mejor que vayas en metro.",
+            "uk": "es necesario que та es mejor que працюють так само: es mejor que vayas en metro.",
+            "de": "es necesario que und es mejor que funktionieren genauso: es mejor que vayas en metro.",
+            "fr": "es necesario que et es mejor que fonctionnent de la même façon : es mejor que vayas en metro.",
+            "pt": "es necesario que e es mejor que funcionam do mesmo jeito: es mejor que vayas en metro.",
+            "zh": "es necesario que 和 es mejor que 的用法一样：es mejor que vayas en metro。"
+          },
+          "examples": [
+            {
+              "es": "Hay mucho tráfico: es mejor que vayas en metro.",
+              "en": "There's lots of traffic: you'd better go by metro.",
+              "it": "C'è molto traffico: è meglio che tu vada in metro.",
+              "uk": "Великі затори: краще їдь на метро.",
+              "de": "Es ist viel Verkehr: Du fährst besser mit der U-Bahn.",
+              "fr": "Il y a beaucoup de circulation : il vaut mieux que tu prennes le métro.",
+              "pt": "Tem muito trânsito: é melhor você ir de metrô.",
+              "zh": "路上车很多：你最好坐地铁去。"
+            },
+            {
+              "es": "Es necesario que firme aquí, señora.",
+              "en": "You need to sign here, madam.",
+              "it": "È necessario che firmi qui, signora.",
+              "uk": "Вам треба підписати тут, пані.",
+              "de": "Sie müssen hier unterschreiben (zu einer Frau).",
+              "fr": "Il faut que vous signiez ici, madame.",
+              "pt": "É preciso que a senhora assine aqui.",
+              "zh": "女士，您需要在这里签字。"
+            },
+            {
+              "es": "Es necesario que reservemos mesa.",
+              "en": "We need to book a table.",
+              "it": "Bisogna che prenotiamo un tavolo.",
+              "uk": "Нам треба забронювати столик.",
+              "de": "Wir müssen einen Tisch reservieren.",
+              "fr": "Il faut qu'on réserve une table.",
+              "pt": "Precisamos reservar uma mesa.",
+              "zh": "我们得订个位子。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "reservemos",
+              "en": "(that) we book",
+              "it": "(che noi) prenotiamo",
+              "uk": "(щоб) ми забронювали",
+              "de": "(dass) wir reservieren",
+              "fr": "(que nous) réservions",
+              "pt": "(que nós) reservemos",
+              "zh": "我们预订（虚拟式）"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "before": "Hay mucho tráfico: es mejor que ",
+          "after": " en metro.",
+          "options": [
+            "vayas",
+            "vas",
+            "ir"
+          ],
+          "answer": "vayas",
+          "en": "There's lots of traffic: you'd better go by metro.",
+          "it": "C'è molto traffico: è meglio che tu vada in metro.",
+          "uk": "Великі затори: краще їдь на метро.",
+          "de": "Es ist viel Verkehr: Du fährst besser mit der U-Bahn.",
+          "fr": "Il y a beaucoup de circulation : il vaut mieux que tu prennes le métro.",
+          "pt": "Tem muito trânsito: é melhor você ir de metrô.",
+          "zh": "路上车很多：你最好坐地铁去。",
+          "hint": {
+            "en": "es mejor que + the subjunctive: vas → vayas.",
+            "it": "es mejor que + il congiuntivo: vas → vayas.",
+            "uk": "es mejor que + «subjuntivo»: vas → vayas.",
+            "de": "es mejor que + subjuntivo: vas → vayas.",
+            "fr": "es mejor que + le subjonctif : vas → vayas.",
+            "pt": "es mejor que + o subjuntivo: vas → vayas.",
+            "zh": "es mejor que + 虚拟式：vas → vayas。"
+          },
+          "beat": "forge"
+        },
+        {
+          "type": "gap",
+          "before": "Señor, es necesario que ",
+          "after": " aquí.",
+          "label": "firmar",
+          "accepted": [
+            "firme"
+          ],
+          "en": "Sir, you need to sign here.",
+          "it": "Signore, è necessario che firmi qui.",
+          "uk": "Пане, вам треба підписати тут.",
+          "de": "Mein Herr, Sie müssen hier unterschreiben.",
+          "fr": "Monsieur, il faut que vous signiez ici.",
+          "pt": "Senhor, é preciso que o senhor assine aqui.",
+          "zh": "先生，您需要在这里签字。",
+          "hint": {
+            "en": "señor = usted: firmar → firme.",
+            "it": "señor = usted: firmar → firme.",
+            "uk": "señor = usted: firmar → firme.",
+            "de": "señor = usted: firmar → firme.",
+            "fr": "señor = usted : firmar → firme.",
+            "pt": "señor = usted: firmar → firme.",
+            "zh": "señor = usted：firmar → firme。"
+          },
+          "beat": "fire"
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "es normal que",
+              "kind": "rail"
+            },
+            {
+              "text": "estés",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "To reassure someone: es normal que + the subjunctive: es normal que estés nervioso.",
+            "it": "Per rassicurare qualcuno: es normal que + il congiuntivo: es normal que estés nervioso.",
+            "uk": "Щоб заспокоїти когось: es normal que + «subjuntivo»: es normal que estés nervioso.",
+            "de": "Um jemanden zu beruhigen: es normal que + subjuntivo: es normal que estés nervioso.",
+            "fr": "Pour rassurer quelqu'un : es normal que + le subjonctif : es normal que estés nervioso.",
+            "pt": "Para tranquilizar alguém: es normal que + o subjuntivo: es normal que estés nervioso.",
+            "zh": "让人安心：es normal que + 虚拟式：es normal que estés nervioso。"
+          },
+          "examples": [
+            {
+              "es": "Es normal que estés nerviosa antes del examen.",
+              "en": "It's normal to be nervous before the exam.",
+              "it": "È normale che tu sia nervosa prima dell'esame.",
+              "uk": "Це нормально, що ти хвилюєшся перед іспитом.",
+              "de": "Es ist normal, dass du vor der Prüfung nervös bist (zu einer Frau: nerviosa).",
+              "fr": "C'est normal que tu sois nerveuse avant l'examen.",
+              "pt": "É normal que você esteja nervosa antes da prova.",
+              "zh": "考试前紧张是正常的。"
+            },
+            {
+              "es": "Es normal que los niños hagan ruido.",
+              "en": "It's normal for children to make noise.",
+              "it": "È normale che i bambini facciano rumore.",
+              "uk": "Це нормально, що діти шумлять.",
+              "de": "Es ist normal, dass Kinder Lärm machen.",
+              "fr": "C'est normal que les enfants fassent du bruit.",
+              "pt": "É normal que as crianças façam barulho.",
+              "zh": "孩子吵闹是正常的。"
+            },
+            {
+              "es": "No es normal que tu jefe te llame los domingos.",
+              "en": "It isn't normal for your boss to call you on Sundays.",
+              "it": "Non è normale che il tuo capo ti chiami la domenica.",
+              "uk": "Це ненормально, що начальник дзвонить тобі по неділях.",
+              "de": "Es ist nicht normal, dass dein Chef dich sonntags anruft.",
+              "fr": "Ce n'est pas normal que ton chef t'appelle le dimanche.",
+              "pt": "Não é normal que o seu chefe ligue para você aos domingos.",
+              "zh": "你老板星期天给你打电话，这不正常。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "hagan",
+              "en": "(that) they do, make",
+              "it": "(che loro) facciano",
+              "uk": "(що) вони роблять",
+              "de": "(dass) sie machen",
+              "fr": "(qu'ils) fassent",
+              "pt": "(que eles) façam",
+              "zh": "他们做，他们制造（虚拟式）"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "before": "Mañana empiezas en el trabajo nuevo: es normal que ",
+          "after": " nervioso.",
+          "options": [
+            "estés",
+            "estás",
+            "seas"
+          ],
+          "answer": "estés",
+          "en": "You start your new job tomorrow: it's normal to be nervous.",
+          "it": "Domani cominci il nuovo lavoro: è normale che tu sia nervoso.",
+          "uk": "Завтра ти починаєш нову роботу: це нормально, що ти хвилюєшся.",
+          "de": "Du fängst morgen deine neue Arbeit an: Es ist normal, dass du nervös bist.",
+          "fr": "Tu commences ton nouveau travail demain : c'est normal que tu sois nerveux.",
+          "pt": "Você começa no trabalho novo amanhã: é normal que esteja nervoso.",
+          "zh": "你明天开始新工作：紧张是正常的。",
+          "hint": {
+            "en": "A state: estar. After es normal que: estés.",
+            "it": "Uno stato: estar. Dopo es normal que: estés.",
+            "uk": "Стан: estar. Після es normal que: estés.",
+            "de": "Ein Zustand: estar. Nach es normal que: estés.",
+            "fr": "Un état : estar. Après es normal que : estés.",
+            "pt": "Um estado: estar. Depois de es normal que: estés.",
+            "zh": "状态：estar。在 es normal que 后面：estés。"
+          },
+          "beat": "forge"
+        },
+        {
+          "type": "build",
+          "intention": {
+            "en": "Your friend complains that their children are noisy. Reassure them: it's normal for children to make noise.",
+            "it": "Il tuo amico si lamenta che i suoi figli fanno rumore. Rassicuralo: è normale che i bambini facciano rumore.",
+            "uk": "Твій друг скаржиться, що його діти галасливі. Заспокой його: це нормально, що діти шумлять.",
+            "de": "Dein Freund beschwert sich, dass seine Kinder laut sind. Beruhige ihn: Es ist normal, dass Kinder Lärm machen.",
+            "fr": "Ton ami se plaint que ses enfants sont bruyants. Rassure-le : c'est normal que les enfants fassent du bruit.",
+            "pt": "Seu amigo reclama que os filhos são barulhentos. Tranquilize-o: é normal que as crianças façam barulho.",
+            "zh": "你的朋友抱怨孩子太吵。让他安心：孩子吵闹是正常的。"
+          },
+          "accepted": [
+            "Es normal que los niños hagan ruido."
+          ],
+          "tiles": [
+            "Es normal",
+            "que",
+            "los niños",
+            "hagan",
+            "ruido",
+            "hacen",
+            "haga"
+          ],
+          "en": "It's normal for children to make noise.",
+          "it": "È normale che i bambini facciano rumore.",
+          "uk": "Це нормально, що діти шумлять.",
+          "de": "Es ist normal, dass Kinder Lärm machen.",
+          "fr": "C'est normal que les enfants fassent du bruit.",
+          "pt": "É normal que as crianças façam barulho.",
+          "zh": "孩子吵闹是正常的。",
+          "hint": {
+            "en": "los niños = ellos: hacen → hagan.",
+            "it": "los niños = ellos: hacen → hagan.",
+            "uk": "los niños = ellos: hacen → hagan.",
+            "de": "los niños = ellos: hacen → hagan.",
+            "fr": "los niños = ellos : hacen → hagan.",
+            "pt": "los niños = ellos: hacen → hagan.",
+            "zh": "los niños = ellos：hacen → hagan。"
+          },
+          "beat": "fire"
+        },
+        {
+          "type": "gap",
+          "before": "Es importante que le ",
+          "after": " la verdad a tu jefe.",
+          "label": "decir",
+          "accepted": [
+            "digas"
+          ],
+          "en": "It's important that you tell your boss the truth.",
+          "it": "È importante che tu dica la verità al tuo capo.",
+          "uk": "Важливо, щоб ти сказав(-ла) начальникові правду.",
+          "de": "Es ist wichtig, dass du deinem Chef die Wahrheit sagst.",
+          "fr": "Il est important que tu dises la vérité à ton chef.",
+          "pt": "É importante que você diga a verdade ao seu chefe.",
+          "zh": "你跟老板说实话很重要。",
+          "hint": {
+            "en": "es importante que + the subjunctive: dices → digas.",
+            "it": "es importante que + il congiuntivo: dices → digas.",
+            "uk": "es importante que + «subjuntivo»: dices → digas.",
+            "de": "es importante que + subjuntivo: dices → digas.",
+            "fr": "es importante que + le subjonctif : dices → digas.",
+            "pt": "es importante que + o subjuntivo: dices → digas.",
+            "zh": "es importante que + 虚拟式：dices → digas。"
+          },
+          "beat": "mix"
+        },
+        {
+          "type": "choose",
+          "before": "Es muy tarde: es mejor que ",
+          "after": " en taxi.",
+          "options": [
+            "vayamos",
+            "vamos",
+            "ir"
+          ],
+          "answer": "vayamos",
+          "en": "It's very late: we'd better go by taxi.",
+          "it": "È molto tardi: è meglio che andiamo in taxi.",
+          "uk": "Уже дуже пізно: нам краще поїхати на таксі.",
+          "de": "Es ist sehr spät: Wir fahren besser mit dem Taxi.",
+          "fr": "Il est très tard : il vaut mieux qu'on prenne un taxi.",
+          "pt": "Está muito tarde: é melhor a gente ir de táxi.",
+          "zh": "太晚了：我们最好坐出租车去。",
+          "hint": {
+            "en": "nosotros after es mejor que: vayamos.",
+            "it": "nosotros dopo es mejor que: vayamos.",
+            "uk": "nosotros після es mejor que: vayamos.",
+            "de": "nosotros nach es mejor que: vayamos.",
+            "fr": "nosotros après es mejor que : vayamos.",
+            "pt": "nosotros depois de es mejor que: vayamos.",
+            "zh": "es mejor que 后面，nosotros：vayamos。"
+          },
+          "beat": "mix"
+        },
+        {
+          "type": "build",
+          "intention": {
+            "en": "The restaurant is always full on Saturdays. Say you need to book a table.",
+            "it": "Il ristorante è sempre pieno il sabato. Di' che bisogna prenotare un tavolo.",
+            "uk": "По суботах у ресторані завжди повно людей. Скажи, що вам треба забронювати столик.",
+            "de": "Samstags ist das Restaurant immer voll. Sag, dass ihr einen Tisch reservieren müsst.",
+            "fr": "Le restaurant est toujours plein le samedi. Dis qu'il faut que vous réserviez une table.",
+            "pt": "O restaurante está sempre cheio aos sábados. Diga que vocês precisam reservar uma mesa.",
+            "zh": "那家餐厅星期六总是客满。说你们得订个位子。"
+          },
+          "accepted": [
+            "Es necesario que reservemos mesa."
+          ],
+          "tiles": [
+            "Es necesario",
+            "que",
+            "reservemos",
+            "mesa",
+            "reservamos",
+            "reservar"
+          ],
+          "en": "We need to book a table.",
+          "it": "Bisogna che prenotiamo un tavolo.",
+          "uk": "Нам треба забронювати столик.",
+          "de": "Wir müssen einen Tisch reservieren.",
+          "fr": "Il faut qu'on réserve une table.",
+          "pt": "Precisamos reservar uma mesa.",
+          "zh": "我们得订个位子。",
+          "hint": {
+            "en": "nosotros, AR verb: reservemos.",
+            "it": "nosotros, verbo in AR: reservemos.",
+            "uk": "nosotros, дієслово на AR: reservemos.",
+            "de": "nosotros, Verb auf AR: reservemos.",
+            "fr": "nosotros, verbe en AR : reservemos.",
+            "pt": "nosotros, verbo em AR: reservemos.",
+            "zh": "nosotros，AR 动词：reservemos。"
+          },
+          "beat": "mix"
+        },
+        {
+          "type": "write",
+          "instruction": {
+            "en": "Write in Spanish: «It's normal to be nervous, but it's important that you sleep well.»",
+            "it": "Scrivi in spagnolo: «È normale che tu sia nervoso, ma è importante che tu dorma bene.»",
+            "uk": "Напиши іспанською: «Це нормально, що ти хвилюєшся, але важливо, щоб ти добре виспався.»",
+            "de": "Schreib auf Spanisch: «Es ist normal, dass du nervös bist, aber es ist wichtig, dass du gut schläfst.»",
+            "fr": "Écris en espagnol : «C'est normal que tu sois nerveux, mais il est important que tu dormes bien.»",
+            "pt": "Escreva em espanhol: «É normal que você esteja nervoso, mas é importante que você durma bem.»",
+            "zh": "用西班牙语写：«紧张是正常的，但重要的是你要睡好。»"
+          },
+          "accepted": [
+            "Es normal que estés nervioso, pero es importante que duermas bien.",
+            "Es normal que estés nerviosa, pero es importante que duermas bien.",
+            "Es normal que estés nervioso pero es importante que duermas bien.",
+            "Es normal que estés nervioso. Es importante que duermas bien."
+          ],
+          "model": {
+            "es": "Es normal que estés nervioso, pero es importante que duermas bien.",
+            "en": "It's normal to be nervous, but it's important that you sleep well.",
+            "it": "È normale che tu sia nervoso, ma è importante che tu dorma bene.",
+            "uk": "Це нормально, що ти хвилюєшся, але важливо, щоб ти добре виспався.",
+            "de": "Es ist normal, dass du nervös bist, aber es ist wichtig, dass du gut schläfst.",
+            "fr": "C'est normal que tu sois nerveux, mais il est important que tu dormes bien.",
+            "pt": "É normal que você esteja nervoso, mas é importante que você durma bem.",
+            "zh": "紧张是正常的，但重要的是你要睡好。"
+          },
+          "beat": "mix"
+        }
+      ]
+    },
+    {
+      "id": "u32l3",
+      "goal": {
+        "en": "Say what you don't think: creo que es caro, but no creo que sea caro; no es verdad que…",
+        "it": "Di' cosa non pensi: creo que es caro, ma no creo que sea caro; no es verdad que…",
+        "uk": "Кажи, чого ти не думаєш: creo que es caro, але no creo que sea caro; no es verdad que…",
+        "de": "Sag, was du nicht glaubst: creo que es caro, aber no creo que sea caro; no es verdad que…",
+        "fr": "Dire ce que tu ne crois pas : creo que es caro, mais no creo que sea caro ; no es verdad que…",
+        "pt": "Diga o que você não acha: creo que es caro, mas no creo que sea caro; no es verdad que…",
+        "zh": "说出你不认为的事：creo que es caro，但 no creo que sea caro；no es verdad que……"
+      },
+      "target": {
+        "es": "Creo que la oferta es buena, pero no creo que el sueldo sea suficiente.",
+        "en": "I think the offer is good, but I don't think the salary is enough.",
+        "it": "Credo che l'offerta sia buona, ma non credo che lo stipendio basti.",
+        "uk": "Я думаю, що пропозиція добра, але не думаю, що зарплати вистачить.",
+        "de": "Ich glaube, das Angebot ist gut, aber ich glaube nicht, dass das Gehalt reicht.",
+        "fr": "Je crois que l'offre est bonne, mais je ne crois pas que le salaire soit suffisant.",
+        "pt": "Acho que a oferta é boa, mas não acho que o salário seja suficiente.",
+        "zh": "我觉得这份工作机会不错，但我不觉得薪水够。"
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "la oferta",
+              "en": "the offer",
+              "it": "l'offerta",
+              "uk": "пропозиція",
+              "de": "das Angebot",
+              "fr": "l'offre",
+              "pt": "a oferta",
+              "zh": "（工作）机会，提议；优惠",
+              "kind": "chunk"
+            },
+            {
+              "es": "subir",
+              "en": "to go up; to raise",
+              "it": "salire; aumentare",
+              "uk": "підніматися; підвищувати",
+              "de": "steigen; erhöhen",
+              "fr": "monter ; augmenter",
+              "pt": "subir; aumentar",
+              "zh": "上升；提高，涨",
+              "kind": "stem"
+            },
+            {
+              "es": "suficiente",
+              "en": "enough",
+              "it": "sufficiente",
+              "uk": "достатній",
+              "de": "genug, ausreichend",
+              "fr": "suffisant",
+              "pt": "suficiente",
+              "zh": "足够的",
+              "kind": "chunk"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "no creo que",
+              "kind": "rail"
+            },
+            {
+              "text": "sea",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "After creo que, use the normal present: creo que es caro. But after no creo que, use the subjunctive: no creo que sea caro.",
+            "it": "Dopo creo que usa il presente normale: creo que es caro. Ma dopo no creo que usa il congiuntivo: no creo que sea caro.",
+            "uk": "Після creo que вживай звичайний теперішній час: creo que es caro. Але після no creo que — «subjuntivo»: no creo que sea caro.",
+            "de": "Nach creo que steht das normale Präsens: creo que es caro. Aber nach no creo que steht der subjuntivo: no creo que sea caro. Im Deutschen ändert sich nichts: „Ich glaube nicht, dass es teuer ist.“",
+            "fr": "Après creo que, utilise le présent normal : creo que es caro. Mais après no creo que, utilise le subjonctif : no creo que sea caro. C'est exactement comme en français : « je crois que c'est cher », « je ne crois pas que ce soit cher ».",
+            "pt": "Depois de creo que, use o presente normal: creo que es caro. Mas depois de no creo que, use o subjuntivo: no creo que sea caro. É como em português: acho que é caro, mas não acho que seja caro.",
+            "zh": "creo que 后面用普通的现在时：creo que es caro。但 no creo que 后面要用虚拟式：no creo que sea caro。中文里“我觉得”和“我不觉得”后面的动词不变，西班牙语却要换形式。"
+          },
+          "examples": [
+            {
+              "es": "Creo que tienes razón.",
+              "en": "I think you're right.",
+              "it": "Credo che tu abbia ragione.",
+              "uk": "Я думаю, що ти маєш рацію.",
+              "de": "Ich glaube, du hast recht.",
+              "fr": "Je crois que tu as raison.",
+              "pt": "Acho que você tem razão.",
+              "zh": "我觉得你说得对。"
+            },
+            {
+              "es": "No creo que tengas razón.",
+              "en": "I don't think you're right.",
+              "it": "Non credo che tu abbia ragione.",
+              "uk": "Не думаю, що ти маєш рацію.",
+              "de": "Ich glaube nicht, dass du recht hast.",
+              "fr": "Je ne crois pas que tu aies raison.",
+              "pt": "Não acho que você tenha razão.",
+              "zh": "我不觉得你说得对。"
+            },
+            {
+              "es": "No creo que mi jefe me suba el sueldo.",
+              "en": "I don't think my boss will give me a pay rise.",
+              "it": "Non credo che il mio capo mi aumenti lo stipendio.",
+              "uk": "Не думаю, що начальник підвищить мені зарплату.",
+              "de": "Ich glaube nicht, dass mein Chef mir das Gehalt erhöht.",
+              "fr": "Je ne crois pas que mon chef m'augmente.",
+              "pt": "Não acho que o meu chefe vá me dar um aumento.",
+              "zh": "我不觉得我老板会给我涨工资。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "suba",
+              "en": "(that) he/she raises",
+              "it": "(che lui/lei) aumenti",
+              "uk": "(що) він/вона підвищить",
+              "de": "(dass) er/sie erhöht",
+              "fr": "(qu'il/elle) augmente",
+              "pt": "(que ele/ela) aumente",
+              "zh": "他／她提高（虚拟式）"
+            },
+            {
+              "es": "sube",
+              "en": "goes up, raises",
+              "it": "sale, aumenta",
+              "uk": "піднімається, підвищує",
+              "de": "steigt, erhöht",
+              "fr": "monte, augmente",
+              "pt": "sobe, aumenta",
+              "zh": "上升，提高"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "before": "No creo que ",
+          "after": " verdad.",
+          "options": [
+            "sea",
+            "es"
+          ],
+          "answer": "sea",
+          "en": "I don't think it's true.",
+          "it": "Non credo che sia vero.",
+          "uk": "Не думаю, що це правда.",
+          "de": "Ich glaube nicht, dass das stimmt.",
+          "fr": "Je ne crois pas que ce soit vrai.",
+          "pt": "Não acho que seja verdade.",
+          "zh": "我不觉得这是真的。",
+          "hint": {
+            "en": "no creo que + the subjunctive: sea.",
+            "it": "no creo que + il congiuntivo: sea.",
+            "uk": "no creo que + «subjuntivo»: sea.",
+            "de": "no creo que + subjuntivo: sea.",
+            "fr": "no creo que + le subjonctif : sea.",
+            "pt": "no creo que + o subjuntivo: sea.",
+            "zh": "no creo que + 虚拟式：sea。"
+          },
+          "beat": "forge"
+        },
+        {
+          "type": "choose",
+          "before": "Creo que ",
+          "after": " verdad.",
+          "options": [
+            "es",
+            "sea"
+          ],
+          "answer": "es",
+          "en": "I think it's true.",
+          "it": "Credo che sia vero.",
+          "uk": "Я думаю, що це правда.",
+          "de": "Ich glaube, das stimmt.",
+          "fr": "Je crois que c'est vrai.",
+          "pt": "Acho que é verdade.",
+          "zh": "我觉得这是真的。",
+          "hint": {
+            "en": "creo que, without no: the normal present, es.",
+            "it": "creo que, senza no: il presente normale, es.",
+            "uk": "creo que без no: звичайний теперішній час, es.",
+            "de": "creo que ohne no: das normale Präsens, es.",
+            "fr": "creo que, sans no : le présent normal, es.",
+            "pt": "creo que, sem no: o presente normal, es.",
+            "zh": "creo que，没有 no：用普通的现在时，es。"
+          },
+          "beat": "fire"
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "no me parece que",
+              "kind": "rail"
+            },
+            {
+              "text": "haya",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "pienso que and me parece que work the same way: the normal present, but with no, the subjunctive: no me parece que sea caro.",
+            "it": "pienso que e me parece que funzionano allo stesso modo: il presente normale, ma con no il congiuntivo: no me parece que sea caro.",
+            "uk": "pienso que та me parece que працюють так само: звичайний теперішній час, але з no — «subjuntivo»: no me parece que sea caro.",
+            "de": "pienso que und me parece que funktionieren genauso: das normale Präsens, aber mit no der subjuntivo: no me parece que sea caro.",
+            "fr": "pienso que et me parece que fonctionnent de la même façon : le présent normal, mais avec no, le subjonctif : no me parece que sea caro.",
+            "pt": "pienso que e me parece que funcionam do mesmo jeito: o presente normal, mas com no, o subjuntivo: no me parece que sea caro.",
+            "zh": "pienso que 和 me parece que 也一样：用普通的现在时，但加上 no 就用虚拟式：no me parece que sea caro。"
+          },
+          "examples": [
+            {
+              "es": "Me parece que el piso es caro.",
+              "en": "I think the flat is expensive.",
+              "it": "Mi sembra che l'appartamento sia caro.",
+              "uk": "Мені здається, що квартира дорога.",
+              "de": "Ich finde, die Wohnung ist teuer.",
+              "fr": "Il me semble que l'appartement est cher.",
+              "pt": "Acho que o apartamento é caro.",
+              "zh": "我觉得这套公寓很贵。"
+            },
+            {
+              "es": "No me parece que el piso sea caro.",
+              "en": "I don't think the flat is expensive.",
+              "it": "Non mi sembra che l'appartamento sia caro.",
+              "uk": "Мені не здається, що квартира дорога.",
+              "de": "Ich finde nicht, dass die Wohnung teuer ist.",
+              "fr": "Il ne me semble pas que l'appartement soit cher.",
+              "pt": "Não acho que o apartamento seja caro.",
+              "zh": "我不觉得这套公寓贵。"
+            },
+            {
+              "es": "No pienso que haya mucho tráfico a estas horas.",
+              "en": "I don't think there's much traffic at this time of day.",
+              "it": "Non penso che ci sia molto traffico a quest'ora.",
+              "uk": "Не думаю, що в цей час великі затори.",
+              "de": "Ich glaube nicht, dass um diese Zeit viel Verkehr ist.",
+              "fr": "Je ne pense pas qu'il y ait beaucoup de circulation à cette heure-ci.",
+              "pt": "Não acho que tenha muito trânsito a esta hora.",
+              "zh": "我不认为这个时候路上车很多。"
+            }
+          ]
+        },
+        {
+          "type": "gap",
+          "before": "No pienso que ",
+          "after": " mucho tráfico a estas horas.",
+          "label": "haber",
+          "accepted": [
+            "haya"
+          ],
+          "en": "I don't think there's much traffic at this time of day.",
+          "it": "Non penso che ci sia molto traffico a quest'ora.",
+          "uk": "Не думаю, що в цей час великі затори.",
+          "de": "Ich glaube nicht, dass um diese Zeit viel Verkehr ist.",
+          "fr": "Je ne pense pas qu'il y ait beaucoup de circulation à cette heure-ci.",
+          "pt": "Não acho que tenha muito trânsito a esta hora.",
+          "zh": "我不认为这个时候路上车很多。",
+          "hint": {
+            "en": "no pienso que + the subjunctive: hay → haya.",
+            "it": "no pienso que + il congiuntivo: hay → haya.",
+            "uk": "no pienso que + «subjuntivo»: hay → haya.",
+            "de": "no pienso que + subjuntivo: hay → haya.",
+            "fr": "no pienso que + le subjonctif : hay → haya.",
+            "pt": "no pienso que + o subjuntivo: hay → haya.",
+            "zh": "no pienso que + 虚拟式：hay → haya。"
+          },
+          "beat": "forge"
+        },
+        {
+          "type": "build",
+          "intention": {
+            "en": "A friend wants to buy a flat but worries about the price. Say you don't think it's expensive.",
+            "it": "Un amico vuole comprare un appartamento ma è preoccupato per il prezzo. Digli che non ti sembra caro.",
+            "uk": "Друг хоче купити квартиру, але хвилюється через ціну. Скажи, що тобі не здається, що вона дорога.",
+            "de": "Ein Freund will eine Wohnung kaufen, macht sich aber Sorgen wegen des Preises. Sag, dass du sie (el piso) nicht teuer findest.",
+            "fr": "Un ami veut acheter un appartement, mais le prix l'inquiète. Dis que tu ne trouves pas que ce soit cher.",
+            "pt": "Um amigo quer comprar um apartamento, mas está preocupado com o preço. Diga que você não acha que seja caro.",
+            "zh": "一个朋友想买一套公寓，但担心价格。说你不觉得贵。"
+          },
+          "accepted": [
+            "No me parece que sea caro.",
+            "No creo que sea caro."
+          ],
+          "tiles": [
+            "No",
+            "me parece",
+            "que",
+            "sea",
+            "caro",
+            "es",
+            "creo"
+          ],
+          "en": "I don't think it's expensive.",
+          "it": "Non mi sembra che sia caro.",
+          "uk": "Мені не здається, що це дорого.",
+          "de": "Ich finde nicht, dass sie teuer ist.",
+          "fr": "Il ne me semble pas que ce soit cher.",
+          "pt": "Não acho que seja caro.",
+          "zh": "我不觉得贵。",
+          "hint": {
+            "en": "With no: the subjunctive, sea.",
+            "it": "Con no: il congiuntivo, sea.",
+            "uk": "З no: «subjuntivo», sea.",
+            "de": "Mit no: der subjuntivo, sea.",
+            "fr": "Avec no : le subjonctif, sea.",
+            "pt": "Com no: o subjuntivo, sea.",
+            "zh": "有 no：用虚拟式，sea。"
+          },
+          "beat": "fire"
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "no es verdad que",
+              "kind": "rail"
+            },
+            {
+              "text": "duerman",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "es verdad que takes the normal present; no es verdad que takes the subjunctive.",
+            "it": "es verdad que vuole il presente normale; no es verdad que vuole il congiuntivo.",
+            "uk": "es verdad que вимагає звичайного теперішнього часу; no es verdad que — «subjuntivo».",
+            "de": "es verdad que hat das normale Präsens; no es verdad que hat den subjuntivo.",
+            "fr": "es verdad que est suivi du présent normal ; no es verdad que est suivi du subjonctif.",
+            "pt": "es verdad que leva o presente normal; no es verdad que leva o subjuntivo.",
+            "zh": "es verdad que 后面用普通的现在时；no es verdad que 后面用虚拟式。"
+          },
+          "examples": [
+            {
+              "es": "Es verdad que mi jefe trabaja mucho.",
+              "en": "It's true that my boss works a lot.",
+              "it": "È vero che il mio capo lavora molto.",
+              "uk": "Це правда, що мій начальник багато працює.",
+              "de": "Es stimmt, dass mein Chef viel arbeitet.",
+              "fr": "C'est vrai que mon chef travaille beaucoup.",
+              "pt": "É verdade que o meu chefe trabalha muito.",
+              "zh": "我老板确实工作很多。"
+            },
+            {
+              "es": "No es verdad que gane tanto dinero.",
+              "en": "It isn't true that he earns so much money.",
+              "it": "Non è vero che guadagni così tanti soldi.",
+              "uk": "Неправда, що він заробляє так багато грошей.",
+              "de": "Es stimmt nicht, dass er so viel Geld verdient.",
+              "fr": "Ce n'est pas vrai qu'il gagne autant d'argent.",
+              "pt": "Não é verdade que ele ganhe tanto dinheiro.",
+              "zh": "他挣那么多钱，这不是真的。"
+            },
+            {
+              "es": "No es verdad que los españoles duerman la siesta todos los días.",
+              "en": "It isn't true that Spanish people have a siesta every day.",
+              "it": "Non è vero che gli spagnoli facciano la siesta tutti i giorni.",
+              "uk": "Неправда, що іспанці щодня сплять сієсту.",
+              "de": "Es stimmt nicht, dass die Spanier jeden Tag Siesta machen.",
+              "fr": "Ce n'est pas vrai que les Espagnols fassent la sieste tous les jours.",
+              "pt": "Não é verdade que os espanhóis durmam a sesta todos os dias.",
+              "zh": "说西班牙人每天都睡午觉，这不是真的。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "gane",
+              "en": "(that) he/she earns",
+              "it": "(che lui/lei) guadagni",
+              "uk": "(що) він/вона заробляє",
+              "de": "(dass) er/sie verdient",
+              "fr": "(qu'il/elle) gagne",
+              "pt": "(que ele/ela) ganhe",
+              "zh": "他／她挣钱（虚拟式）"
+            },
+            {
+              "es": "tanto",
+              "en": "so much",
+              "it": "così tanto",
+              "uk": "так багато",
+              "de": "so viel",
+              "fr": "autant, tellement",
+              "pt": "tanto",
+              "zh": "那么多"
+            },
+            {
+              "es": "duerman",
+              "en": "(that) they sleep",
+              "it": "(che loro) dormano",
+              "uk": "(що) вони сплять",
+              "de": "(dass) sie schlafen",
+              "fr": "(qu'ils) dorment",
+              "pt": "(que eles) durmam",
+              "zh": "他们睡觉（虚拟式）"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "before": "No es verdad que los españoles ",
+          "after": " la siesta todos los días.",
+          "options": [
+            "duerman",
+            "duermen"
+          ],
+          "answer": "duerman",
+          "en": "It isn't true that Spanish people have a siesta every day.",
+          "it": "Non è vero che gli spagnoli facciano la siesta tutti i giorni.",
+          "uk": "Неправда, що іспанці щодня сплять сієсту.",
+          "de": "Es stimmt nicht, dass die Spanier jeden Tag Siesta machen.",
+          "fr": "Ce n'est pas vrai que les Espagnols fassent la sieste tous les jours.",
+          "pt": "Não é verdade que os espanhóis durmam a sesta todos os dias.",
+          "zh": "说西班牙人每天都睡午觉，这不是真的。",
+          "hint": {
+            "en": "no es verdad que + the subjunctive: duermen → duerman.",
+            "it": "no es verdad que + il congiuntivo: duermen → duerman.",
+            "uk": "no es verdad que + «subjuntivo»: duermen → duerman.",
+            "de": "no es verdad que + subjuntivo: duermen → duerman.",
+            "fr": "no es verdad que + le subjonctif : duermen → duerman.",
+            "pt": "no es verdad que + o subjuntivo: duermen → duerman.",
+            "zh": "no es verdad que + 虚拟式：duermen → duerman。"
+          },
+          "beat": "forge"
+        },
+        {
+          "type": "choose",
+          "before": "Es verdad que mi jefe ",
+          "after": " mucho.",
+          "options": [
+            "trabaja",
+            "trabaje"
+          ],
+          "answer": "trabaja",
+          "en": "It's true that my boss works a lot.",
+          "it": "È vero che il mio capo lavora molto.",
+          "uk": "Це правда, що мій начальник багато працює.",
+          "de": "Es stimmt, dass mein Chef viel arbeitet.",
+          "fr": "C'est vrai que mon chef travaille beaucoup.",
+          "pt": "É verdade que o meu chefe trabalha muito.",
+          "zh": "我老板确实工作很多。",
+          "hint": {
+            "en": "es verdad que, without no: the normal present.",
+            "it": "es verdad que, senza no: il presente normale.",
+            "uk": "es verdad que без no: звичайний теперішній час.",
+            "de": "es verdad que ohne no: das normale Präsens.",
+            "fr": "es verdad que, sans no : le présent normal.",
+            "pt": "es verdad que, sem no: o presente normal.",
+            "zh": "es verdad que，没有 no：用普通的现在时。"
+          },
+          "beat": "fire"
+        },
+        {
+          "type": "gap",
+          "before": "No creo que mi jefe me ",
+          "after": " el sueldo este año.",
+          "label": "subir",
+          "accepted": [
+            "suba"
+          ],
+          "en": "I don't think my boss will give me a pay rise this year.",
+          "it": "Non credo che il mio capo mi aumenti lo stipendio quest'anno.",
+          "uk": "Не думаю, що цього року начальник підвищить мені зарплату.",
+          "de": "Ich glaube nicht, dass mein Chef mir dieses Jahr das Gehalt erhöht.",
+          "fr": "Je ne crois pas que mon chef m'augmente cette année.",
+          "pt": "Não acho que o meu chefe vá me dar um aumento este ano.",
+          "zh": "我不觉得我老板今年会给我涨工资。",
+          "hint": {
+            "en": "no creo que + the subjunctive: sube → suba.",
+            "it": "no creo que + il congiuntivo: sube → suba.",
+            "uk": "no creo que + «subjuntivo»: sube → suba.",
+            "de": "no creo que + subjuntivo: sube → suba.",
+            "fr": "no creo que + le subjonctif : sube → suba.",
+            "pt": "no creo que + o subjuntivo: sube → suba.",
+            "zh": "no creo que + 虚拟式：sube → suba。"
+          },
+          "beat": "mix"
+        },
+        {
+          "type": "choose",
+          "before": "Creo que esta oferta ",
+          "after": " buena.",
+          "options": [
+            "es",
+            "sea"
+          ],
+          "answer": "es",
+          "en": "I think this offer is good.",
+          "it": "Credo che quest'offerta sia buona.",
+          "uk": "Я думаю, що ця пропозиція добра.",
+          "de": "Ich glaube, dieses Angebot ist gut.",
+          "fr": "Je crois que cette offre est bonne.",
+          "pt": "Acho que esta oferta é boa.",
+          "zh": "我觉得这份工作机会不错。",
+          "hint": {
+            "en": "creo que, without no: the normal present, es.",
+            "it": "creo que, senza no: il presente normale, es.",
+            "uk": "creo que без no: звичайний теперішній час, es.",
+            "de": "creo que ohne no: das normale Präsens, es.",
+            "fr": "creo que, sans no : le présent normal, es.",
+            "pt": "creo que, sem no: o presente normal, es.",
+            "zh": "creo que，没有 no：用普通的现在时，es。"
+          },
+          "beat": "mix"
+        },
+        {
+          "type": "build",
+          "intention": {
+            "en": "A friend says «Mañana va a llover». You don't think so: say you don't think it'll rain.",
+            "it": "Un amico dice «Mañana va a llover». Tu non ci credi: di' che non credi che piova.",
+            "uk": "Друг каже: «Mañana va a llover». Ти так не думаєш: скажи, що не думаєш, що піде дощ.",
+            "de": "Ein Freund sagt: «Mañana va a llover». Du glaubst das nicht: Sag, dass du nicht glaubst, dass es regnet.",
+            "fr": "Un ami dit «Mañana va a llover». Tu ne le crois pas : dis que tu ne crois pas qu'il va pleuvoir.",
+            "pt": "Um amigo diz «Mañana va a llover». Você não acha: diga que não acha que vá chover.",
+            "zh": "朋友说 «Mañana va a llover»。你不这么认为：说你觉得不会下雨。"
+          },
+          "accepted": [
+            "No creo que llueva.",
+            "No creo que llueva mañana."
+          ],
+          "tiles": [
+            "No",
+            "creo",
+            "que",
+            "llueva",
+            "llueve",
+            "sea"
+          ],
+          "en": "I don't think it'll rain.",
+          "it": "Non credo che piova.",
+          "uk": "Не думаю, що піде дощ.",
+          "de": "Ich glaube nicht, dass es regnet.",
+          "fr": "Je ne crois pas qu'il pleuve.",
+          "pt": "Não acho que vá chover.",
+          "zh": "我觉得不会下雨。",
+          "hint": {
+            "en": "no creo que + the subjunctive: llueve → llueva.",
+            "it": "no creo que + il congiuntivo: llueve → llueva.",
+            "uk": "no creo que + «subjuntivo»: llueve → llueva.",
+            "de": "no creo que + subjuntivo: llueve → llueva.",
+            "fr": "no creo que + le subjonctif : llueve → llueva.",
+            "pt": "no creo que + o subjuntivo: llueve → llueva.",
+            "zh": "no creo que + 虚拟式：llueve → llueva。"
+          },
+          "beat": "mix"
+        },
+        {
+          "type": "write",
+          "instruction": {
+            "en": "Write in Spanish: «I think the offer is good, but I don't think the salary is enough.»",
+            "it": "Scrivi in spagnolo: «Credo che l'offerta sia buona, ma non credo che lo stipendio basti.»",
+            "uk": "Напиши іспанською: «Я думаю, що пропозиція добра, але не думаю, що зарплати вистачить.»",
+            "de": "Schreib auf Spanisch: «Ich glaube, das Angebot ist gut, aber ich glaube nicht, dass das Gehalt reicht.»",
+            "fr": "Écris en espagnol : «Je crois que l'offre est bonne, mais je ne crois pas que le salaire soit suffisant.»",
+            "pt": "Escreva em espanhol: «Acho que a oferta é boa, mas não acho que o salário seja suficiente.»",
+            "zh": "用西班牙语写：«我觉得这份工作机会不错，但我不觉得薪水够。»"
+          },
+          "accepted": [
+            "Creo que la oferta es buena, pero no creo que el sueldo sea suficiente.",
+            "Creo que la oferta es buena pero no creo que el sueldo sea suficiente.",
+            "Me parece que la oferta es buena, pero no creo que el sueldo sea suficiente.",
+            "Creo que la oferta es buena, pero no me parece que el sueldo sea suficiente."
+          ],
+          "model": {
+            "es": "Creo que la oferta es buena, pero no creo que el sueldo sea suficiente.",
+            "en": "I think the offer is good, but I don't think the salary is enough.",
+            "it": "Credo che l'offerta sia buona, ma non credo che lo stipendio basti.",
+            "uk": "Я думаю, що пропозиція добра, але не думаю, що зарплати вистачить.",
+            "de": "Ich glaube, das Angebot ist gut, aber ich glaube nicht, dass das Gehalt reicht.",
+            "fr": "Je crois que l'offre est bonne, mais je ne crois pas que le salaire soit suffisant.",
+            "pt": "Acho que a oferta é boa, mas não acho que o salário seja suficiente.",
+            "zh": "我觉得这份工作机会不错，但我不觉得薪水够。"
+          },
+          "beat": "mix"
+        }
+      ]
+    },
+    {
+      "id": "u32l4",
+      "goal": {
+        "en": "Express doubt: dudo que venga, quizás sea mejor esperar, no estoy seguro de que esté en casa.",
+        "it": "Esprimi un dubbio: dudo que venga, quizás sea mejor esperar, no estoy seguro de que esté en casa.",
+        "uk": "Висловлюй сумнів: dudo que venga, quizás sea mejor esperar, no estoy seguro de que esté en casa.",
+        "de": "Drück Zweifel aus: dudo que venga, quizás sea mejor esperar, no estoy seguro de que esté en casa.",
+        "fr": "Exprimer le doute : dudo que venga, quizás sea mejor esperar, no estoy seguro de que esté en casa.",
+        "pt": "Expresse dúvida: dudo que venga, quizás sea mejor esperar, no estoy seguro de que esté en casa.",
+        "zh": "表达怀疑：dudo que venga、quizás sea mejor esperar、no estoy seguro de que esté en casa。"
+      },
+      "target": {
+        "es": "No estoy seguro de que sea una buena idea; quizás sea mejor esperar.",
+        "en": "I'm not sure it's a good idea; maybe it's better to wait.",
+        "it": "Non sono sicuro che sia una buona idea; forse è meglio aspettare.",
+        "uk": "Я не впевнений, що це добра ідея; може, краще почекати.",
+        "de": "Ich bin nicht sicher, ob das eine gute Idee ist; vielleicht ist es besser zu warten.",
+        "fr": "Je ne suis pas sûr que ce soit une bonne idée ; il vaut peut-être mieux attendre.",
+        "pt": "Não tenho certeza de que seja uma boa ideia; talvez seja melhor esperar.",
+        "zh": "我不确定这是不是个好主意；也许最好还是等等。"
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "dudar",
+              "en": "to doubt",
+              "it": "dubitare",
+              "uk": "сумніватися",
+              "de": "bezweifeln, zweifeln",
+              "fr": "douter",
+              "pt": "duvidar",
+              "zh": "怀疑",
+              "kind": "stem"
+            },
+            {
+              "es": "quizás",
+              "en": "maybe, perhaps",
+              "it": "forse",
+              "uk": "можливо, мабуть",
+              "de": "vielleicht",
+              "fr": "peut-être",
+              "pt": "talvez",
+              "zh": "也许，可能",
+              "kind": "rail"
+            },
+            {
+              "es": "tal vez",
+              "en": "maybe, perhaps",
+              "it": "forse",
+              "uk": "можливо, мабуть",
+              "de": "vielleicht",
+              "fr": "peut-être",
+              "pt": "talvez",
+              "zh": "也许，可能",
+              "kind": "rail"
+            },
+            {
+              "es": "seguro",
+              "en": "sure (man)",
+              "it": "sicuro",
+              "uk": "впевнений",
+              "de": "sicher (Mann)",
+              "fr": "sûr",
+              "pt": "seguro, certo (homem)",
+              "zh": "确定的（男性）",
+              "kind": "chunk"
+            },
+            {
+              "es": "segura",
+              "en": "sure (woman)",
+              "it": "sicura",
+              "uk": "впевнена",
+              "de": "sicher (Frau)",
+              "fr": "sûre",
+              "pt": "segura, certa (mulher)",
+              "zh": "确定的（女性）",
+              "kind": "chunk"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "dudo que",
+              "kind": "rail"
+            },
+            {
+              "text": "venga",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "dudar (to doubt) is always followed by the subjunctive: dudo que venga.",
+            "it": "dudar è sempre seguito dal congiuntivo: dudo que venga.",
+            "uk": "Після dudar (сумніватися) завжди йде «subjuntivo»: dudo que venga.",
+            "de": "Nach dudar (bezweifeln) steht immer der subjuntivo: dudo que venga.",
+            "fr": "dudar (douter) est toujours suivi du subjonctif : dudo que venga. Comme en français : « je doute qu'il vienne ».",
+            "pt": "dudar (duvidar) é sempre seguido do subjuntivo: dudo que venga. Como em português: duvido que ele venha.",
+            "zh": "dudar（怀疑）后面总是用虚拟式：dudo que venga。"
+          },
+          "examples": [
+            {
+              "es": "Dudo que venga a la fiesta.",
+              "en": "I doubt he'll come to the party.",
+              "it": "Dubito che venga alla festa.",
+              "uk": "Сумніваюся, що він прийде на вечірку.",
+              "de": "Ich bezweifle, dass er zur Party kommt.",
+              "fr": "Je doute qu'il vienne à la fête.",
+              "pt": "Duvido que ele venha à festa.",
+              "zh": "我不太相信他会来参加聚会。"
+            },
+            {
+              "es": "Dudo que haya mesa libre a estas horas.",
+              "en": "I doubt there's a free table at this time.",
+              "it": "Dubito che ci sia un tavolo libero a quest'ora.",
+              "uk": "Сумніваюся, що в цей час є вільний столик.",
+              "de": "Ich bezweifle, dass um diese Zeit ein Tisch frei ist.",
+              "fr": "Je doute qu'il y ait une table libre à cette heure-ci.",
+              "pt": "Duvido que tenha mesa livre a esta hora.",
+              "zh": "我不太相信这个时候还有空位。"
+            },
+            {
+              "es": "Mi madre duda que tengamos tiempo.",
+              "en": "My mother doubts we have time.",
+              "it": "Mia madre dubita che abbiamo tempo.",
+              "uk": "Моя мама сумнівається, що в нас є час.",
+              "de": "Meine Mutter bezweifelt, dass wir Zeit haben.",
+              "fr": "Ma mère doute qu'on ait le temps.",
+              "pt": "Minha mãe duvida que a gente tenha tempo.",
+              "zh": "我妈妈不太相信我们有时间。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "dudo",
+              "en": "I doubt",
+              "it": "dubito",
+              "uk": "я сумніваюся",
+              "de": "ich bezweifle",
+              "fr": "je doute",
+              "pt": "eu duvido",
+              "zh": "我怀疑"
+            },
+            {
+              "es": "dudas",
+              "en": "you doubt",
+              "it": "dubiti",
+              "uk": "ти сумніваєшся",
+              "de": "du bezweifelst",
+              "fr": "tu doutes",
+              "pt": "você duvida",
+              "zh": "你怀疑"
+            },
+            {
+              "es": "duda",
+              "en": "he/she doubts",
+              "it": "dubita",
+              "uk": "він/вона сумнівається",
+              "de": "er/sie bezweifelt",
+              "fr": "il/elle doute",
+              "pt": "ele/ela duvida",
+              "zh": "他／她怀疑"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "before": "Dudo que ",
+          "after": " mesa libre a estas horas.",
+          "options": [
+            "haya",
+            "hay"
+          ],
+          "answer": "haya",
+          "en": "I doubt there's a free table at this time.",
+          "it": "Dubito che ci sia un tavolo libero a quest'ora.",
+          "uk": "Сумніваюся, що в цей час є вільний столик.",
+          "de": "Ich bezweifle, dass um diese Zeit ein Tisch frei ist.",
+          "fr": "Je doute qu'il y ait une table libre à cette heure-ci.",
+          "pt": "Duvido que tenha mesa livre a esta hora.",
+          "zh": "我不太相信这个时候还有空位。",
+          "hint": {
+            "en": "dudo que + the subjunctive: hay → haya.",
+            "it": "dudo que + il congiuntivo: hay → haya.",
+            "uk": "dudo que + «subjuntivo»: hay → haya.",
+            "de": "dudo que + subjuntivo: hay → haya.",
+            "fr": "dudo que + le subjonctif : hay → haya.",
+            "pt": "dudo que + o subjuntivo: hay → haya.",
+            "zh": "dudo que + 虚拟式：hay → haya。"
+          },
+          "beat": "forge"
+        },
+        {
+          "type": "gap",
+          "before": "Dudo que mis amigos ",
+          "after": " a tiempo.",
+          "label": "venir",
+          "accepted": [
+            "vengan"
+          ],
+          "en": "I doubt my friends will come on time.",
+          "it": "Dubito che i miei amici arrivino puntuali.",
+          "uk": "Сумніваюся, що мої друзі прийдуть вчасно.",
+          "de": "Ich bezweifle, dass meine Freunde pünktlich kommen.",
+          "fr": "Je doute que mes amis arrivent à l'heure.",
+          "pt": "Duvido que meus amigos cheguem na hora.",
+          "zh": "我不太相信我的朋友们会准时来。",
+          "hint": {
+            "en": "dudo que + the subjunctive; mis amigos = ellos: vengan.",
+            "it": "dudo que + il congiuntivo; mis amigos = ellos: vengan.",
+            "uk": "dudo que + «subjuntivo»; mis amigos = ellos: vengan.",
+            "de": "dudo que + subjuntivo; mis amigos = ellos: vengan.",
+            "fr": "dudo que + le subjonctif ; mis amigos = ellos : vengan.",
+            "pt": "dudo que + o subjuntivo; mis amigos = ellos: vengan.",
+            "zh": "dudo que + 虚拟式；mis amigos = ellos：vengan。"
+          },
+          "beat": "fire"
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "quizás",
+              "kind": "rail"
+            },
+            {
+              "text": "sea",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "quizás and tal vez (maybe) are usually followed by the subjunctive: quizás venga mañana.",
+            "it": "quizás e tal vez (forse) sono di solito seguiti dal congiuntivo: quizás venga mañana.",
+            "uk": "Після quizás і tal vez (можливо) зазвичай іде «subjuntivo»: quizás venga mañana.",
+            "de": "Nach quizás und tal vez (vielleicht) steht meistens der subjuntivo: quizás venga mañana.",
+            "fr": "quizás et tal vez (peut-être) sont généralement suivis du subjonctif : quizás venga mañana. Attention, c'est différent du français, où « peut-être » est suivi de l'indicatif : « il viendra peut-être demain ».",
+            "pt": "quizás e tal vez (talvez) costumam ser seguidos do subjuntivo: quizás venga mañana. Igual ao português: talvez ele venha amanhã.",
+            "zh": "quizás 和 tal vez（也许）后面通常用虚拟式：quizás venga mañana。"
+          },
+          "examples": [
+            {
+              "es": "Quizás llueva mañana.",
+              "en": "Maybe it'll rain tomorrow.",
+              "it": "Forse domani piove.",
+              "uk": "Можливо, завтра буде дощ.",
+              "de": "Vielleicht regnet es morgen.",
+              "fr": "Il va peut-être pleuvoir demain.",
+              "pt": "Talvez chova amanhã.",
+              "zh": "明天也许会下雨。"
+            },
+            {
+              "es": "Tal vez tengas razón.",
+              "en": "Maybe you're right.",
+              "it": "Forse hai ragione.",
+              "uk": "Можливо, ти маєш рацію.",
+              "de": "Vielleicht hast du recht.",
+              "fr": "Tu as peut-être raison.",
+              "pt": "Talvez você tenha razão.",
+              "zh": "也许你说得对。"
+            },
+            {
+              "es": "Quizás sea mejor esperar.",
+              "en": "Maybe it's better to wait.",
+              "it": "Forse è meglio aspettare.",
+              "uk": "Можливо, краще почекати.",
+              "de": "Vielleicht ist es besser zu warten.",
+              "fr": "Il vaut peut-être mieux attendre.",
+              "pt": "Talvez seja melhor esperar.",
+              "zh": "也许最好还是等等。"
+            }
+          ]
+        },
+        {
+          "type": "gap",
+          "before": "Mira esas nubes: quizás ",
+          "after": " esta tarde.",
+          "label": "llover",
+          "accepted": [
+            "llueva",
+            "llueve"
+          ],
+          "en": "Look at those clouds: maybe it'll rain this afternoon.",
+          "it": "Guarda quelle nuvole: forse oggi pomeriggio piove.",
+          "uk": "Глянь на ті хмари: можливо, сьогодні по обіді буде дощ.",
+          "de": "Schau dir die Wolken an: Vielleicht regnet es heute Nachmittag.",
+          "fr": "Regarde ces nuages : il va peut-être pleuvoir cet après-midi.",
+          "pt": "Olha essas nuvens: talvez chova hoje à tarde.",
+          "zh": "你看那些云：今天下午也许会下雨。",
+          "hint": {
+            "en": "quizás + the subjunctive: llueve → llueva.",
+            "it": "quizás + il congiuntivo: llueve → llueva.",
+            "uk": "quizás + «subjuntivo»: llueve → llueva.",
+            "de": "quizás + subjuntivo: llueve → llueva.",
+            "fr": "quizás + le subjonctif : llueve → llueva.",
+            "pt": "quizás + o subjuntivo: llueve → llueva.",
+            "zh": "quizás + 虚拟式：llueve → llueva。"
+          },
+          "beat": "forge"
+        },
+        {
+          "type": "build",
+          "intention": {
+            "en": "Your friend asks «¿Vamos ahora o esperamos?». Say maybe it's better to wait.",
+            "it": "Il tuo amico chiede «¿Vamos ahora o esperamos?». Di' che forse è meglio aspettare.",
+            "uk": "Друг питає: «¿Vamos ahora o esperamos?». Скажи, що, можливо, краще почекати.",
+            "de": "Dein Freund fragt: «¿Vamos ahora o esperamos?». Sag, dass es vielleicht besser ist zu warten.",
+            "fr": "Ton ami demande «¿Vamos ahora o esperamos?». Dis qu'il vaut peut-être mieux attendre.",
+            "pt": "Seu amigo pergunta «¿Vamos ahora o esperamos?». Diga que talvez seja melhor esperar.",
+            "zh": "你的朋友问 «¿Vamos ahora o esperamos?»。说也许最好还是等等。"
+          },
+          "accepted": [
+            "Quizás sea mejor esperar.",
+            "Tal vez sea mejor esperar.",
+            "Quizás es mejor esperar."
+          ],
+          "tiles": [
+            "Quizás",
+            "sea",
+            "mejor",
+            "esperar",
+            "esperamos",
+            "Dudo"
+          ],
+          "en": "Maybe it's better to wait.",
+          "it": "Forse è meglio aspettare.",
+          "uk": "Можливо, краще почекати.",
+          "de": "Vielleicht ist es besser zu warten.",
+          "fr": "Il vaut peut-être mieux attendre.",
+          "pt": "Talvez seja melhor esperar.",
+          "zh": "也许最好还是等等。",
+          "hint": {
+            "en": "quizás + the subjunctive: es → sea.",
+            "it": "quizás + il congiuntivo: es → sea.",
+            "uk": "quizás + «subjuntivo»: es → sea.",
+            "de": "quizás + subjuntivo: es → sea.",
+            "fr": "quizás + le subjonctif : es → sea.",
+            "pt": "quizás + o subjuntivo: es → sea.",
+            "zh": "quizás + 虚拟式：es → sea。"
+          },
+          "beat": "fire"
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "no estoy seguro de que",
+              "kind": "rail"
+            },
+            {
+              "text": "esté",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "estoy seguro de que (I'm sure that) takes the normal present; no estoy seguro de que takes the subjunctive.",
+            "it": "estoy seguro de que (sono sicuro che) vuole il presente normale; no estoy seguro de que vuole il congiuntivo.",
+            "uk": "estoy seguro de que (я впевнений, що) вимагає звичайного теперішнього часу; no estoy seguro de que — «subjuntivo».",
+            "de": "estoy seguro de que (ich bin sicher, dass) hat das normale Präsens; no estoy seguro de que hat den subjuntivo.",
+            "fr": "estoy seguro de que (je suis sûr que) est suivi du présent normal ; no estoy seguro de que est suivi du subjonctif. Comme en français : « je suis sûr qu'il vient », « je ne suis pas sûr qu'il vienne ».",
+            "pt": "estoy seguro de que (tenho certeza de que) leva o presente normal; no estoy seguro de que leva o subjuntivo.",
+            "zh": "estoy seguro de que（我确定）后面用普通的现在时；no estoy seguro de que 后面用虚拟式。"
+          },
+          "examples": [
+            {
+              "es": "Estoy segura de que viene.",
+              "en": "I'm sure he's coming.",
+              "it": "Sono sicura che viene.",
+              "uk": "Я впевнена, що він прийде.",
+              "de": "Ich bin sicher, dass er kommt (eine Frau spricht: segura).",
+              "fr": "Je suis sûre qu'il vient.",
+              "pt": "Tenho certeza de que ele vem.",
+              "zh": "我确定他会来。"
+            },
+            {
+              "es": "No estoy seguro de que venga.",
+              "en": "I'm not sure he's coming.",
+              "it": "Non sono sicuro che venga.",
+              "uk": "Я не впевнений, що він прийде.",
+              "de": "Ich bin nicht sicher, ob er kommt.",
+              "fr": "Je ne suis pas sûr qu'il vienne.",
+              "pt": "Não tenho certeza de que ele venha.",
+              "zh": "我不确定他会不会来。"
+            },
+            {
+              "es": "No estoy segura de que sea una buena idea.",
+              "en": "I'm not sure it's a good idea.",
+              "it": "Non sono sicura che sia una buona idea.",
+              "uk": "Я не впевнена, що це добра ідея.",
+              "de": "Ich bin nicht sicher, ob das eine gute Idee ist (eine Frau spricht: segura).",
+              "fr": "Je ne suis pas sûre que ce soit une bonne idée.",
+              "pt": "Não tenho certeza de que seja uma boa ideia.",
+              "zh": "我不确定这是不是个好主意。"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "before": "No estoy seguro de que ",
+          "after": " en casa.",
+          "options": [
+            "esté",
+            "está"
+          ],
+          "answer": "esté",
+          "en": "I'm not sure he's at home.",
+          "it": "Non sono sicuro che sia a casa.",
+          "uk": "Я не впевнений, що він удома.",
+          "de": "Ich bin nicht sicher, ob er zu Hause ist.",
+          "fr": "Je ne suis pas sûr qu'il soit chez lui.",
+          "pt": "Não tenho certeza de que ele esteja em casa.",
+          "zh": "我不确定他在不在家。",
+          "hint": {
+            "en": "no estoy seguro de que + the subjunctive: esté.",
+            "it": "no estoy seguro de que + il congiuntivo: esté.",
+            "uk": "no estoy seguro de que + «subjuntivo»: esté.",
+            "de": "no estoy seguro de que + subjuntivo: esté.",
+            "fr": "no estoy seguro de que + le subjonctif : esté.",
+            "pt": "no estoy seguro de que + o subjuntivo: esté.",
+            "zh": "no estoy seguro de que + 虚拟式：esté。"
+          },
+          "beat": "forge"
+        },
+        {
+          "type": "choose",
+          "before": "Estoy segura de que ",
+          "after": " razón.",
+          "options": [
+            "tienes",
+            "tengas"
+          ],
+          "answer": "tienes",
+          "en": "I'm sure you're right.",
+          "it": "Sono sicura che hai ragione.",
+          "uk": "Я впевнена, що ти маєш рацію.",
+          "de": "Ich bin sicher, dass du recht hast (eine Frau spricht: segura).",
+          "fr": "Je suis sûre que tu as raison.",
+          "pt": "Tenho certeza de que você tem razão.",
+          "zh": "我确定你说得对。",
+          "hint": {
+            "en": "estoy segura de que, without no: the normal present.",
+            "it": "estoy segura de que, senza no: il presente normale.",
+            "uk": "estoy segura de que без no: звичайний теперішній час.",
+            "de": "estoy segura de que ohne no: das normale Präsens.",
+            "fr": "estoy segura de que, sans no : le présent normal.",
+            "pt": "estoy segura de que, sem no: o presente normal.",
+            "zh": "estoy segura de que，没有 no：用普通的现在时。"
+          },
+          "beat": "fire"
+        },
+        {
+          "type": "choose",
+          "before": "Dudo que el restaurante ",
+          "after": " abierto el lunes.",
+          "options": [
+            "esté",
+            "está",
+            "es"
+          ],
+          "answer": "esté",
+          "en": "I doubt the restaurant is open on Monday.",
+          "it": "Dubito che il ristorante sia aperto lunedì.",
+          "uk": "Сумніваюся, що ресторан відчинений у понеділок.",
+          "de": "Ich bezweifle, dass das Restaurant am Montag geöffnet ist.",
+          "fr": "Je doute que le restaurant soit ouvert lundi.",
+          "pt": "Duvido que o restaurante esteja aberto na segunda-feira.",
+          "zh": "我不太相信那家餐厅星期一开门。",
+          "hint": {
+            "en": "dudo que + the subjunctive; open is a state, estar: esté.",
+            "it": "dudo que + il congiuntivo; aperto è uno stato, estar: esté.",
+            "uk": "dudo que + «subjuntivo»; «відчинений» — це стан, estar: esté.",
+            "de": "dudo que + subjuntivo; geöffnet ist ein Zustand, also estar: esté.",
+            "fr": "dudo que + le subjonctif ; « ouvert » est un état, estar : esté.",
+            "pt": "dudo que + o subjuntivo; aberto é um estado, estar: esté.",
+            "zh": "dudo que + 虚拟式；“开着门”是一种状态，用 estar：esté。"
+          },
+          "beat": "mix"
+        },
+        {
+          "type": "gap",
+          "before": "Tal vez ",
+          "after": " mejor llamar mañana.",
+          "label": "ser",
+          "accepted": [
+            "sea",
+            "es"
+          ],
+          "en": "Maybe it's better to call tomorrow.",
+          "it": "Forse è meglio chiamare domani.",
+          "uk": "Можливо, краще подзвонити завтра.",
+          "de": "Vielleicht ist es besser, morgen anzurufen.",
+          "fr": "Il vaut peut-être mieux appeler demain.",
+          "pt": "Talvez seja melhor ligar amanhã.",
+          "zh": "也许最好明天再打电话。",
+          "hint": {
+            "en": "tal vez + the subjunctive: es → sea.",
+            "it": "tal vez + il congiuntivo: es → sea.",
+            "uk": "tal vez + «subjuntivo»: es → sea.",
+            "de": "tal vez + subjuntivo: es → sea.",
+            "fr": "tal vez + le subjonctif : es → sea.",
+            "pt": "tal vez + o subjuntivo: es → sea.",
+            "zh": "tal vez + 虚拟式：es → sea。"
+          },
+          "beat": "mix"
+        },
+        {
+          "type": "build",
+          "intention": {
+            "en": "A friend asks «¿Crees que tu hermano vendrá?». Say you doubt he'll come: he has a lot of work.",
+            "it": "Un amico chiede «¿Crees que tu hermano vendrá?». Di' che dubiti che venga: ha molto lavoro.",
+            "uk": "Друг питає: «¿Crees que tu hermano vendrá?». Скажи, що сумніваєшся, що він прийде: у нього багато роботи.",
+            "de": "Ein Freund fragt: «¿Crees que tu hermano vendrá?». Sag, dass du bezweifelst, dass er kommt: Er hat viel Arbeit.",
+            "fr": "Un ami demande «¿Crees que tu hermano vendrá?». Dis que tu doutes qu'il vienne : il a beaucoup de travail.",
+            "pt": "Um amigo pergunta «¿Crees que tu hermano vendrá?». Diga que você duvida que ele venha: ele tem muito trabalho.",
+            "zh": "一个朋友问 «¿Crees que tu hermano vendrá?»。说你不太相信他会来：他工作很多。"
+          },
+          "accepted": [
+            "Dudo que venga: tiene mucho trabajo.",
+            "Dudo que venga, tiene mucho trabajo."
+          ],
+          "tiles": [
+            "Dudo que",
+            "venga:",
+            "tiene",
+            "mucho trabajo",
+            "viene",
+            "tenga"
+          ],
+          "en": "I doubt he'll come: he has a lot of work.",
+          "it": "Dubito che venga: ha molto lavoro.",
+          "uk": "Сумніваюся, що він прийде: у нього багато роботи.",
+          "de": "Ich bezweifle, dass er kommt: Er hat viel Arbeit.",
+          "fr": "Je doute qu'il vienne : il a beaucoup de travail.",
+          "pt": "Duvido que ele venha: ele tem muito trabalho.",
+          "zh": "我不太相信他会来：他工作很多。",
+          "hint": {
+            "en": "dudo que + the subjunctive: viene → venga.",
+            "it": "dudo que + il congiuntivo: viene → venga.",
+            "uk": "dudo que + «subjuntivo»: viene → venga.",
+            "de": "dudo que + subjuntivo: viene → venga.",
+            "fr": "dudo que + le subjonctif : viene → venga.",
+            "pt": "dudo que + o subjuntivo: viene → venga.",
+            "zh": "dudo que + 虚拟式：viene → venga。"
+          },
+          "beat": "mix"
+        },
+        {
+          "type": "write",
+          "instruction": {
+            "en": "Write in Spanish: «I'm not sure it's a good idea; maybe it's better to wait.»",
+            "it": "Scrivi in spagnolo: «Non sono sicuro che sia una buona idea; forse è meglio aspettare.»",
+            "uk": "Напиши іспанською: «Я не впевнений, що це добра ідея; може, краще почекати.»",
+            "de": "Schreib auf Spanisch: «Ich bin nicht sicher, ob das eine gute Idee ist; vielleicht ist es besser zu warten.»",
+            "fr": "Écris en espagnol : «Je ne suis pas sûr que ce soit une bonne idée ; il vaut peut-être mieux attendre.»",
+            "pt": "Escreva em espanhol: «Não tenho certeza de que seja uma boa ideia; talvez seja melhor esperar.»",
+            "zh": "用西班牙语写：«我不确定这是不是个好主意；也许最好还是等等。»"
+          },
+          "accepted": [
+            "No estoy seguro de que sea una buena idea; quizás sea mejor esperar.",
+            "No estoy segura de que sea una buena idea; quizás sea mejor esperar.",
+            "No estoy seguro de que sea buena idea; quizás sea mejor esperar.",
+            "No estoy segura de que sea buena idea; quizás sea mejor esperar.",
+            "No estoy seguro de que sea una buena idea; tal vez sea mejor esperar.",
+            "No estoy segura de que sea una buena idea; tal vez sea mejor esperar.",
+            "No estoy seguro de que sea una buena idea; quizás es mejor esperar.",
+            "No estoy segura de que sea una buena idea; quizás es mejor esperar."
+          ],
+          "model": {
+            "es": "No estoy seguro de que sea una buena idea; quizás sea mejor esperar.",
+            "en": "I'm not sure it's a good idea; maybe it's better to wait.",
+            "it": "Non sono sicuro che sia una buona idea; forse è meglio aspettare.",
+            "uk": "Я не впевнений, що це добра ідея; може, краще почекати.",
+            "de": "Ich bin nicht sicher, ob das eine gute Idee ist; vielleicht ist es besser zu warten.",
+            "fr": "Je ne suis pas sûr que ce soit une bonne idée ; il vaut peut-être mieux attendre.",
+            "pt": "Não tenho certeza de que seja uma boa ideia; talvez seja melhor esperar.",
+            "zh": "我不确定这是不是个好主意；也许最好还是等等。"
+          },
+          "beat": "mix"
+        }
+      ]
+    },
+    {
+      "id": "u32l5",
+      "goal": {
+        "en": "Say how likely something is: es posible que llueva, es probable que venga, puede que tengas razón, and compare with seguramente.",
+        "it": "Di quanto è probabile qualcosa: es posible que llueva, es probable que venga, puede que tengas razón, e confronta con seguramente.",
+        "uk": "Кажи, наскільки щось імовірне: es posible que llueva, es probable que venga, puede que tengas razón, і порівнюй із seguramente.",
+        "de": "Sag, wie wahrscheinlich etwas ist: es posible que llueva, es probable que venga, puede que tengas razón, und vergleich mit seguramente.",
+        "fr": "Dire à quel point quelque chose est probable : es posible que llueva, es probable que venga, puede que tengas razón, et comparer avec seguramente.",
+        "pt": "Diga o quanto algo é provável: es posible que llueva, es probable que venga, puede que tengas razón, e compare com seguramente.",
+        "zh": "说某事有多大可能：es posible que llueva、es probable que venga、puede que tengas razón，并和 seguramente 比较。"
+      },
+      "target": {
+        "es": "Es posible que llueva mañana, pero seguramente iré a la playa.",
+        "en": "It might rain tomorrow, but I'll probably go to the beach.",
+        "it": "Può darsi che domani piova, ma probabilmente andrò al mare.",
+        "uk": "Можливо, завтра буде дощ, але я, напевно, піду на пляж.",
+        "de": "Es kann sein, dass es morgen regnet, aber ich gehe wahrscheinlich an den Strand.",
+        "fr": "Il se peut qu'il pleuve demain, mais j'irai sûrement à la plage.",
+        "pt": "É possível que chova amanhã, mas provavelmente vou à praia.",
+        "zh": "明天可能会下雨，但我多半还是会去海边。"
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "posible",
+              "en": "possible",
+              "it": "possibile",
+              "uk": "можливий",
+              "de": "möglich",
+              "fr": "possible",
+              "pt": "possível",
+              "zh": "可能的",
+              "kind": "chunk"
+            },
+            {
+              "es": "probable",
+              "en": "likely, probable",
+              "it": "probabile",
+              "uk": "імовірний",
+              "de": "wahrscheinlich",
+              "fr": "probable",
+              "pt": "provável",
+              "zh": "很可能的",
+              "kind": "chunk"
+            },
+            {
+              "es": "puede que",
+              "en": "maybe, it may be that",
+              "it": "può darsi che",
+              "uk": "можливо, може бути, що",
+              "de": "vielleicht, es kann sein, dass",
+              "fr": "il se peut que, peut-être",
+              "pt": "pode ser que, talvez",
+              "zh": "也许，可能",
+              "kind": "rail"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "es posible que",
+              "kind": "rail"
+            },
+            {
+              "text": "llueva",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "es posible que and es probable que are followed by the subjunctive: es posible que llueva.",
+            "it": "es posible que ed es probable que sono seguiti dal congiuntivo: es posible que llueva.",
+            "uk": "Після es posible que та es probable que іде «subjuntivo»: es posible que llueva.",
+            "de": "Nach es posible que und es probable que steht der subjuntivo: es posible que llueva.",
+            "fr": "es posible que et es probable que sont suivis du subjonctif : es posible que llueva. Attention : en français, « il est possible que » prend aussi le subjonctif, mais « il est probable que » prend l'indicatif ; en espagnol, les deux prennent le subjonctif.",
+            "pt": "es posible que e es probable que são seguidos do subjuntivo: es posible que llueva. Como em português: é possível que chova.",
+            "zh": "es posible que 和 es probable que 后面用虚拟式：es posible que llueva。"
+          },
+          "examples": [
+            {
+              "es": "Es posible que llueva esta tarde.",
+              "en": "It might rain this afternoon.",
+              "it": "Può darsi che oggi pomeriggio piova.",
+              "uk": "Можливо, сьогодні по обіді буде дощ.",
+              "de": "Es kann sein, dass es heute Nachmittag regnet.",
+              "fr": "Il est possible qu'il pleuve cet après-midi.",
+              "pt": "É possível que chova hoje à tarde.",
+              "zh": "今天下午可能会下雨。"
+            },
+            {
+              "es": "Es probable que mi hermano venga en julio.",
+              "en": "My brother will probably come in July.",
+              "it": "È probabile che mio fratello venga a luglio.",
+              "uk": "Імовірно, мій брат приїде в липні.",
+              "de": "Mein Bruder kommt wahrscheinlich im Juli.",
+              "fr": "Mon frère viendra probablement en juillet.",
+              "pt": "É provável que meu irmão venha em julho.",
+              "zh": "我哥哥很可能七月来。"
+            },
+            {
+              "es": "Es probable que ganes más con el nuevo trabajo.",
+              "en": "You'll probably earn more with the new job.",
+              "it": "È probabile che tu guadagni di più con il nuovo lavoro.",
+              "uk": "Імовірно, на новій роботі ти зароблятимеш більше.",
+              "de": "Mit der neuen Arbeit verdienst du wahrscheinlich mehr.",
+              "fr": "Tu gagneras probablement plus avec le nouveau travail.",
+              "pt": "É provável que você ganhe mais no trabalho novo.",
+              "zh": "换了新工作，你很可能会挣得更多。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "ganes",
+              "en": "(that) you earn",
+              "it": "(che tu) guadagni",
+              "uk": "(що) ти заробляєш",
+              "de": "(dass) du verdienst",
+              "fr": "(que tu) gagnes",
+              "pt": "(que você) ganhe",
+              "zh": "你挣钱（虚拟式）"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "before": "Es posible que ",
+          "after": " esta tarde.",
+          "options": [
+            "llueva",
+            "llueve"
+          ],
+          "answer": "llueva",
+          "en": "It might rain this afternoon.",
+          "it": "Può darsi che oggi pomeriggio piova.",
+          "uk": "Можливо, сьогодні по обіді буде дощ.",
+          "de": "Es kann sein, dass es heute Nachmittag regnet.",
+          "fr": "Il est possible qu'il pleuve cet après-midi.",
+          "pt": "É possível que chova hoje à tarde.",
+          "zh": "今天下午可能会下雨。",
+          "hint": {
+            "en": "es posible que + the subjunctive: llueva.",
+            "it": "es posible que + il congiuntivo: llueva.",
+            "uk": "es posible que + «subjuntivo»: llueva.",
+            "de": "es posible que + subjuntivo: llueva.",
+            "fr": "es posible que + le subjonctif : llueva.",
+            "pt": "es posible que + o subjuntivo: llueva.",
+            "zh": "es posible que + 虚拟式：llueva。"
+          },
+          "beat": "forge"
+        },
+        {
+          "type": "gap",
+          "before": "Es probable que ",
+          "after": " más con el nuevo trabajo.",
+          "label": "ganar",
+          "accepted": [
+            "ganes"
+          ],
+          "en": "You'll probably earn more with the new job.",
+          "it": "È probabile che tu guadagni di più con il nuovo lavoro.",
+          "uk": "Імовірно, на новій роботі ти зароблятимеш більше.",
+          "de": "Mit der neuen Arbeit verdienst du wahrscheinlich mehr.",
+          "fr": "Tu gagneras probablement plus avec le nouveau travail.",
+          "pt": "É provável que você ganhe mais no trabalho novo.",
+          "zh": "换了新工作，你很可能会挣得更多。",
+          "hint": {
+            "en": "es probable que + the subjunctive, tú: ganes.",
+            "it": "es probable que + il congiuntivo, tú: ganes.",
+            "uk": "es probable que + «subjuntivo», tú: ganes.",
+            "de": "es probable que + subjuntivo, tú: ganes.",
+            "fr": "es probable que + le subjonctif, tú : ganes.",
+            "pt": "es probable que + o subjuntivo, tú: ganes.",
+            "zh": "es probable que + 虚拟式，tú：ganes。"
+          },
+          "beat": "fire"
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "puede que",
+              "kind": "rail"
+            },
+            {
+              "text": "vaya",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "In everyday Spanish, people often say puede que (maybe) + the subjunctive: puede que vaya.",
+            "it": "Nello spagnolo di tutti i giorni si dice spesso puede que (forse, può darsi che) + il congiuntivo: puede que vaya.",
+            "uk": "У повсякденній іспанській часто кажуть puede que (може бути, що) + «subjuntivo»: puede que vaya.",
+            "de": "Im Alltag sagt man oft puede que (vielleicht, es kann sein, dass) + subjuntivo: puede que vaya.",
+            "fr": "Dans l'espagnol de tous les jours, on dit souvent puede que (il se peut que) + le subjonctif : puede que vaya.",
+            "pt": "No espanhol do dia a dia, as pessoas dizem muito puede que (pode ser que) + o subjuntivo: puede que vaya.",
+            "zh": "日常西班牙语里，人们常说 puede que（也许）+ 虚拟式：puede que vaya。"
+          },
+          "examples": [
+            {
+              "es": "Puede que tengas razón.",
+              "en": "You may be right.",
+              "it": "Può darsi che tu abbia ragione.",
+              "uk": "Може, ти маєш рацію.",
+              "de": "Vielleicht hast du recht.",
+              "fr": "Il se peut que tu aies raison.",
+              "pt": "Pode ser que você tenha razão.",
+              "zh": "也许你说得对。"
+            },
+            {
+              "es": "Puede que vaya a la fiesta.",
+              "en": "I might go to the party.",
+              "it": "Può darsi che vada alla festa.",
+              "uk": "Може, я піду на вечірку.",
+              "de": "Vielleicht gehe ich zur Party.",
+              "fr": "Il se peut que j'aille à la fête.",
+              "pt": "Pode ser que eu vá à festa.",
+              "zh": "我也许会去参加聚会。"
+            },
+            {
+              "es": "Puede que no haya entradas.",
+              "en": "There might not be any tickets.",
+              "it": "Può darsi che non ci siano biglietti.",
+              "uk": "Може, квитків не буде.",
+              "de": "Vielleicht gibt es keine Karten mehr.",
+              "fr": "Il se peut qu'il n'y ait plus de billets.",
+              "pt": "Pode ser que não tenha ingressos.",
+              "zh": "可能已经没票了。"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "before": "Puede que ",
+          "after": " razón.",
+          "options": [
+            "tengas",
+            "tienes"
+          ],
+          "answer": "tengas",
+          "en": "You may be right.",
+          "it": "Può darsi che tu abbia ragione.",
+          "uk": "Може, ти маєш рацію.",
+          "de": "Vielleicht hast du recht.",
+          "fr": "Il se peut que tu aies raison.",
+          "pt": "Pode ser que você tenha razão.",
+          "zh": "也许你说得对。",
+          "hint": {
+            "en": "puede que + the subjunctive: tienes → tengas.",
+            "it": "puede que + il congiuntivo: tienes → tengas.",
+            "uk": "puede que + «subjuntivo»: tienes → tengas.",
+            "de": "puede que + subjuntivo: tienes → tengas.",
+            "fr": "puede que + le subjonctif : tienes → tengas.",
+            "pt": "puede que + o subjuntivo: tienes → tengas.",
+            "zh": "puede que + 虚拟式：tienes → tengas。"
+          },
+          "beat": "forge"
+        },
+        {
+          "type": "build",
+          "intention": {
+            "en": "A friend asks if you're coming to the party. You're not sure: say you might go.",
+            "it": "Un amico ti chiede se vieni alla festa. Non sei sicuro: di' che può darsi che tu vada.",
+            "uk": "Друг питає, чи ти прийдеш на вечірку. Ти не впевнений(-а): скажи, що, може, підеш.",
+            "de": "Ein Freund fragt, ob du zur Party kommst. Du bist nicht sicher: Sag, dass du vielleicht hingehst.",
+            "fr": "Un ami te demande si tu viens à la fête. Tu n'es pas sûr : dis qu'il se peut que tu y ailles.",
+            "pt": "Um amigo pergunta se você vai à festa. Você não tem certeza: diga que pode ser que você vá.",
+            "zh": "一个朋友问你来不来参加聚会。你还不确定：说你也许会去。"
+          },
+          "accepted": [
+            "Puede que vaya.",
+            "Es posible que vaya."
+          ],
+          "tiles": [
+            "Puede",
+            "que",
+            "vaya",
+            "voy",
+            "iré"
+          ],
+          "en": "I might go.",
+          "it": "Può darsi che vada.",
+          "uk": "Може, піду.",
+          "de": "Vielleicht gehe ich hin.",
+          "fr": "Il se peut que j'y aille.",
+          "pt": "Pode ser que eu vá.",
+          "zh": "我也许会去。",
+          "hint": {
+            "en": "puede que + the subjunctive: voy → vaya.",
+            "it": "puede que + il congiuntivo: voy → vaya.",
+            "uk": "puede que + «subjuntivo»: voy → vaya.",
+            "de": "puede que + subjuntivo: voy → vaya.",
+            "fr": "puede que + le subjonctif : voy → vaya.",
+            "pt": "puede que + o subjuntivo: voy → vaya.",
+            "zh": "puede que + 虚拟式：voy → vaya。"
+          },
+          "beat": "fire"
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "seguramente",
+              "kind": "rail"
+            },
+            {
+              "text": "está",
+              "kind": "stem"
+            },
+            {
+              "text": "/ puede que esté",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "Fairly sure? seguramente or creo que + the normal present or the future. Not sure? es posible que or puede que + the subjunctive.",
+            "it": "Abbastanza sicuro? seguramente o creo que + il presente normale o il futuro. Non sicuro? es posible que o puede que + il congiuntivo.",
+            "uk": "Майже впевнений(-а)? seguramente або creo que + звичайний теперішній час чи майбутній час. Не впевнений(-а)? es posible que або puede que + «subjuntivo».",
+            "de": "Ziemlich sicher? seguramente oder creo que + das normale Präsens oder das Futur. Nicht sicher? es posible que oder puede que + subjuntivo.",
+            "fr": "Plutôt sûr ? seguramente ou creo que + le présent normal ou le futur. Pas sûr ? es posible que ou puede que + le subjonctif.",
+            "pt": "Quase certeza? seguramente ou creo que + o presente normal ou o futuro. Sem certeza? es posible que ou puede que + o subjuntivo. Atenção: em espanhol, seguramente quer dizer provavelmente, não com certeza.",
+            "zh": "比较有把握？用 seguramente 或 creo que + 普通的现在时或将来时。没把握？用 es posible que 或 puede que + 虚拟式。"
+          },
+          "examples": [
+            {
+              "es": "Seguramente viene mañana.",
+              "en": "He's probably coming tomorrow.",
+              "it": "Probabilmente viene domani.",
+              "uk": "Він, напевно, прийде завтра.",
+              "de": "Er kommt wahrscheinlich morgen.",
+              "fr": "Il vient sûrement demain.",
+              "pt": "Provavelmente ele vem amanhã.",
+              "zh": "他多半明天来。"
+            },
+            {
+              "es": "Creo que vendrá mañana.",
+              "en": "I think he'll come tomorrow.",
+              "it": "Credo che verrà domani.",
+              "uk": "Думаю, він прийде завтра.",
+              "de": "Ich glaube, er wird morgen kommen.",
+              "fr": "Je crois qu'il viendra demain.",
+              "pt": "Acho que ele virá amanhã.",
+              "zh": "我觉得他明天会来。"
+            },
+            {
+              "es": "Puede que venga mañana.",
+              "en": "He might come tomorrow.",
+              "it": "Può darsi che venga domani.",
+              "uk": "Може, він прийде завтра.",
+              "de": "Vielleicht kommt er morgen.",
+              "fr": "Il se peut qu'il vienne demain.",
+              "pt": "Pode ser que ele venha amanhã.",
+              "zh": "他明天也许会来。"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "before": "No contesta al teléfono. Seguramente ",
+          "after": " en la ducha.",
+          "options": [
+            "está",
+            "esté"
+          ],
+          "answer": "está",
+          "en": "He isn't answering the phone. He's probably in the shower.",
+          "it": "Non risponde al telefono. Probabilmente è sotto la doccia.",
+          "uk": "Він не відповідає на телефон. Напевно, він у душі.",
+          "de": "Er geht nicht ans Telefon. Er ist wahrscheinlich unter der Dusche.",
+          "fr": "Il ne répond pas au téléphone. Il est sûrement sous la douche.",
+          "pt": "Ele não atende o telefone. Provavelmente está no banho.",
+          "zh": "他不接电话。他多半在洗澡。",
+          "hint": {
+            "en": "seguramente + the normal present.",
+            "it": "seguramente + il presente normale.",
+            "uk": "seguramente + звичайний теперішній час.",
+            "de": "seguramente + das normale Präsens.",
+            "fr": "seguramente + le présent normal.",
+            "pt": "seguramente + o presente normal.",
+            "zh": "seguramente + 普通的现在时。"
+          },
+          "beat": "forge"
+        },
+        {
+          "type": "choose",
+          "before": "No contesta al teléfono. Puede que ",
+          "after": " en la ducha.",
+          "options": [
+            "esté",
+            "está"
+          ],
+          "answer": "esté",
+          "en": "He isn't answering the phone. He might be in the shower.",
+          "it": "Non risponde al telefono. Può darsi che sia sotto la doccia.",
+          "uk": "Він не відповідає на телефон. Може, він у душі.",
+          "de": "Er geht nicht ans Telefon. Vielleicht ist er unter der Dusche.",
+          "fr": "Il ne répond pas au téléphone. Il se peut qu'il soit sous la douche.",
+          "pt": "Ele não atende o telefone. Pode ser que esteja no banho.",
+          "zh": "他不接电话。他也许在洗澡。",
+          "hint": {
+            "en": "puede que + the subjunctive: esté.",
+            "it": "puede que + il congiuntivo: esté.",
+            "uk": "puede que + «subjuntivo»: esté.",
+            "de": "puede que + subjuntivo: esté.",
+            "fr": "puede que + le subjonctif : esté.",
+            "pt": "puede que + o subjuntivo: esté.",
+            "zh": "puede que + 虚拟式：esté。"
+          },
+          "beat": "fire"
+        },
+        {
+          "type": "choose",
+          "before": "Es probable que ",
+          "after": " mucha gente en la playa el domingo.",
+          "options": [
+            "haya",
+            "hay"
+          ],
+          "answer": "haya",
+          "en": "There'll probably be lots of people on the beach on Sunday.",
+          "it": "È probabile che domenica ci sia molta gente al mare.",
+          "uk": "Імовірно, у неділю на пляжі буде багато людей.",
+          "de": "Am Sonntag sind wahrscheinlich viele Leute am Strand.",
+          "fr": "Il y aura probablement beaucoup de monde à la plage dimanche.",
+          "pt": "É provável que tenha muita gente na praia no domingo.",
+          "zh": "星期天海滩上很可能会有很多人。",
+          "hint": {
+            "en": "es probable que + the subjunctive: hay → haya.",
+            "it": "es probable que + il congiuntivo: hay → haya.",
+            "uk": "es probable que + «subjuntivo»: hay → haya.",
+            "de": "es probable que + subjuntivo: hay → haya.",
+            "fr": "es probable que + le subjonctif : hay → haya.",
+            "pt": "es probable que + o subjuntivo: hay → haya.",
+            "zh": "es probable que + 虚拟式：hay → haya。"
+          },
+          "beat": "mix"
+        },
+        {
+          "type": "gap",
+          "before": "Puede que mis padres ",
+          "after": " en agosto.",
+          "label": "venir",
+          "accepted": [
+            "vengan"
+          ],
+          "en": "My parents might come in August.",
+          "it": "Può darsi che i miei genitori vengano ad agosto.",
+          "uk": "Може, мої батьки приїдуть у серпні.",
+          "de": "Vielleicht kommen meine Eltern im August.",
+          "fr": "Il se peut que mes parents viennent en août.",
+          "pt": "Pode ser que meus pais venham em agosto.",
+          "zh": "我父母八月也许会来。",
+          "hint": {
+            "en": "puede que + the subjunctive; mis padres = ellos: vengan.",
+            "it": "puede que + il congiuntivo; mis padres = ellos: vengan.",
+            "uk": "puede que + «subjuntivo»; mis padres = ellos: vengan.",
+            "de": "puede que + subjuntivo; mis padres = ellos: vengan.",
+            "fr": "puede que + le subjonctif ; mis padres = ellos : vengan.",
+            "pt": "puede que + o subjuntivo; mis padres = ellos: vengan.",
+            "zh": "puede que + 虚拟式；mis padres = ellos：vengan。"
+          },
+          "beat": "mix"
+        },
+        {
+          "type": "build",
+          "intention": {
+            "en": "Your friend wants to go to the shop. Say it might be closed: it's Sunday.",
+            "it": "Il tuo amico vuole andare al negozio. Digli che può darsi che sia chiuso: è domenica.",
+            "uk": "Друг хоче піти в магазин. Скажи, що він, можливо, зачинений: сьогодні неділя.",
+            "de": "Dein Freund will in den Laden gehen. Sag, dass er (la tienda) vielleicht geschlossen ist: Es ist Sonntag.",
+            "fr": "Ton ami veut aller au magasin. Dis qu'il est possible qu'il soit fermé : c'est dimanche.",
+            "pt": "Seu amigo quer ir à loja. Diga que é possível que esteja fechada: é domingo.",
+            "zh": "你的朋友想去那家店。说店可能关门了：今天是星期天。"
+          },
+          "accepted": [
+            "Es posible que esté cerrada: es domingo.",
+            "Puede que esté cerrada: es domingo."
+          ],
+          "tiles": [
+            "Es posible",
+            "que",
+            "esté",
+            "cerrada:",
+            "es domingo",
+            "está",
+            "cerrado"
+          ],
+          "en": "It might be closed: it's Sunday.",
+          "it": "Può darsi che sia chiuso: è domenica.",
+          "uk": "Можливо, він зачинений: сьогодні неділя.",
+          "de": "Es kann sein, dass er geschlossen ist: Es ist Sonntag.",
+          "fr": "Il est possible qu'il soit fermé : c'est dimanche.",
+          "pt": "É possível que esteja fechada: é domingo.",
+          "zh": "店可能关门了：今天是星期天。",
+          "hint": {
+            "en": "es posible que + the subjunctive; la tienda is feminine: cerrada.",
+            "it": "es posible que + il congiuntivo; la tienda è femminile: cerrada.",
+            "uk": "es posible que + «subjuntivo»; la tienda — жіночого роду: cerrada.",
+            "de": "es posible que + subjuntivo; la tienda ist weiblich: cerrada.",
+            "fr": "es posible que + le subjonctif ; la tienda est féminin : cerrada.",
+            "pt": "es posible que + o subjuntivo; la tienda é feminino: cerrada.",
+            "zh": "es posible que + 虚拟式；la tienda 是阴性：cerrada。"
+          },
+          "beat": "mix"
+        },
+        {
+          "type": "write",
+          "instruction": {
+            "en": "Write in Spanish: «It might rain tomorrow, but I'll probably go to the beach.»",
+            "it": "Scrivi in spagnolo: «Può darsi che domani piova, ma probabilmente andrò al mare.»",
+            "uk": "Напиши іспанською: «Можливо, завтра буде дощ, але я, напевно, піду на пляж.»",
+            "de": "Schreib auf Spanisch: «Es kann sein, dass es morgen regnet, aber ich gehe wahrscheinlich an den Strand.»",
+            "fr": "Écris en espagnol : «Il se peut qu'il pleuve demain, mais j'irai sûrement à la plage.»",
+            "pt": "Escreva em espanhol: «É possível que chova amanhã, mas provavelmente vou à praia.»",
+            "zh": "用西班牙语写：«明天可能会下雨，但我多半还是会去海边。»"
+          },
+          "accepted": [
+            "Es posible que llueva mañana, pero seguramente iré a la playa.",
+            "Es posible que mañana llueva, pero seguramente iré a la playa.",
+            "Puede que llueva mañana, pero seguramente iré a la playa.",
+            "Es posible que llueva mañana, pero seguramente voy a la playa.",
+            "Es posible que llueva mañana, pero seguramente voy a ir a la playa.",
+            "Puede que mañana llueva, pero seguramente iré a la playa."
+          ],
+          "model": {
+            "es": "Es posible que llueva mañana, pero seguramente iré a la playa.",
+            "en": "It might rain tomorrow, but I'll probably go to the beach.",
+            "it": "Può darsi che domani piova, ma probabilmente andrò al mare.",
+            "uk": "Можливо, завтра буде дощ, але я, напевно, піду на пляж.",
+            "de": "Es kann sein, dass es morgen regnet, aber ich gehe wahrscheinlich an den Strand.",
+            "fr": "Il se peut qu'il pleuve demain, mais j'irai sûrement à la plage.",
+            "pt": "É possível que chova amanhã, mas provavelmente vou à praia.",
+            "zh": "明天可能会下雨，但我多半还是会去海边。"
+          },
+          "beat": "mix"
+        }
+      ]
+    }
+  ],
+  "boss": {
+    "id": "u32boss",
+    "goal": {
+      "en": "Your friend has a job offer from another company in {city}, but isn't sure about taking it. Listen to them and give your advice.",
+      "it": "Il tuo amico ha un'offerta di lavoro da un'altra azienda a {city}, ma non è sicuro di accettarla. Ascoltalo e dagli i tuoi consigli.",
+      "uk": "Твій друг отримав пропозицію роботи від іншої компанії у місті {city}, але не впевнений, чи погоджуватися. Вислухай його й дай пораду.",
+      "de": "Dein Freund hat ein Jobangebot von einer anderen Firma in {city}, ist sich aber nicht sicher, ob er es annehmen soll. Hör ihm zu und gib ihm deinen Rat.",
+      "fr": "Ton ami a reçu une offre d'emploi d'une autre entreprise à {city}, mais il hésite à l'accepter. Écoute-le et donne-lui ton avis.",
+      "pt": "Seu amigo recebeu uma oferta de emprego de outra empresa em {city}, mas não tem certeza se deve aceitar. Escute o que ele diz e dê o seu conselho.",
+      "zh": "你的朋友收到了{city}另一家公司的工作邀请，但还拿不定主意要不要接受。听他说，然后给他建议。"
+    },
+    "target": {
+      "es": "Me alegra que tengas un nuevo trabajo y espero que seas muy feliz allí.",
+      "en": "I'm glad you have a new job and I hope you're very happy there.",
+      "it": "Sono contento che tu abbia un nuovo lavoro e spero che tu sia molto felice lì.",
+      "uk": "Я радий (рада), що в тебе нова робота, і сподіваюся, що ти будеш там дуже щасливий(-а).",
+      "de": "Ich freue mich, dass du eine neue Arbeit hast, und ich hoffe, dass du dort sehr glücklich wirst.",
+      "fr": "Je suis content que tu aies un nouveau travail et j'espère que tu y seras très heureux.",
+      "pt": "Fico feliz que você tenha um novo trabalho e espero que seja muito feliz lá.",
+      "zh": "我很高兴你有了新工作，希望你在那里过得很开心。"
+    },
+    "items": [
+      {
+        "type": "words",
+        "words": [
+          {
+            "es": "cambiar de trabajo",
+            "en": "to change jobs",
+            "it": "cambiare lavoro",
+            "uk": "змінити роботу",
+            "de": "die Arbeit wechseln, den Job wechseln",
+            "fr": "changer de travail",
+            "pt": "mudar de emprego",
+            "zh": "换工作",
+            "kind": "chunk"
+          },
+          {
+            "es": "el consejo",
+            "en": "the piece of advice",
+            "it": "il consiglio",
+            "uk": "порада",
+            "de": "der Rat, der Ratschlag",
+            "fr": "le conseil",
+            "pt": "o conselho",
+            "zh": "建议，忠告",
+            "kind": "chunk"
+          }
+        ]
+      },
+      {
+        "type": "build",
+        "intention": {
+          "en": "Your friend says «¡Tengo una oferta de otra empresa!». Say you're glad they have another offer.",
+          "it": "Il tuo amico dice «¡Tengo una oferta de otra empresa!». Digli che sei contento che abbia un'altra offerta.",
+          "uk": "Друг каже: «¡Tengo una oferta de otra empresa!». Скажи, що ти радий (рада), що в нього є інша пропозиція.",
+          "de": "Dein Freund sagt: «¡Tengo una oferta de otra empresa!». Sag, dass du dich freust, dass er ein anderes Angebot hat.",
+          "fr": "Ton ami dit «¡Tengo una oferta de otra empresa!». Dis que tu es content qu'il ait une autre offre.",
+          "pt": "Seu amigo diz «¡Tengo una oferta de otra empresa!». Diga que você fica feliz que ele tenha outra oferta.",
+          "zh": "你的朋友说 «¡Tengo una oferta de otra empresa!»。说你很高兴他又有了一个工作机会。"
+        },
+        "accepted": [
+          "Me alegra que tengas otra oferta.",
+          "¡Me alegra que tengas otra oferta!"
+        ],
+        "tiles": [
+          "Me alegra",
+          "que",
+          "tengas",
+          "otra oferta",
+          "tienes",
+          "molesta"
+        ],
+        "en": "I'm glad you have another offer.",
+        "it": "Sono contento che tu abbia un'altra offerta.",
+        "uk": "Я радий (рада), що в тебе є інша пропозиція.",
+        "de": "Ich freue mich, dass du ein anderes Angebot hast.",
+        "fr": "Je suis content que tu aies une autre offre.",
+        "pt": "Fico feliz que você tenha outra oferta.",
+        "zh": "我很高兴你又有了一个工作机会。",
+        "hint": {
+          "en": "me alegra que + the subjunctive: tienes → tengas.",
+          "it": "me alegra que + il congiuntivo: tienes → tengas.",
+          "uk": "me alegra que + «subjuntivo»: tienes → tengas.",
+          "de": "me alegra que + subjuntivo: tienes → tengas.",
+          "fr": "me alegra que + le subjonctif : tienes → tengas.",
+          "pt": "me alegra que + o subjuntivo: tienes → tengas.",
+          "zh": "me alegra que + 虚拟式：tienes → tengas。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "¿Y el sueldo? Es probable que ",
+        "after": " más, ¿no?",
+        "options": [
+          "ganes",
+          "ganarás"
+        ],
+        "answer": "ganes",
+        "en": "And the salary? You'll probably earn more, won't you?",
+        "it": "E lo stipendio? È probabile che tu guadagni di più, no?",
+        "uk": "А зарплата? Ти, мабуть, зароблятимеш більше, так?",
+        "de": "Und das Gehalt? Du verdienst wahrscheinlich mehr, oder?",
+        "fr": "Et le salaire ? Tu vas probablement gagner plus, non ?",
+        "pt": "E o salário? É provável que você ganhe mais, não?",
+        "zh": "那薪水呢？你很可能会挣得更多，对吧？",
+        "hint": {
+          "en": "es probable que + the subjunctive: ganes.",
+          "it": "es probable que + il congiuntivo: ganes.",
+          "uk": "es probable que + «subjuntivo»: ganes.",
+          "de": "es probable que + subjuntivo: ganes.",
+          "fr": "es probable que + le subjonctif : ganes.",
+          "pt": "es probable que + o subjuntivo: ganes.",
+          "zh": "es probable que + 虚拟式：ganes。"
+        }
+      },
+      {
+        "type": "gap",
+        "before": "La empresa está lejos, ¿no? Tal vez ",
+        "after": " ir en metro.",
+        "label": "poder",
+        "accepted": [
+          "puedas",
+          "puedes"
+        ],
+        "en": "The company is far away, isn't it? Maybe you can go by metro.",
+        "it": "L'azienda è lontana, no? Forse puoi andare in metro.",
+        "uk": "Компанія далеко, так? Може, зможеш їздити на метро.",
+        "de": "Die Firma ist weit weg, oder? Vielleicht kannst du mit der U-Bahn fahren.",
+        "fr": "L'entreprise est loin, non ? Tu pourrais peut-être y aller en métro.",
+        "pt": "A empresa é longe, né? Talvez você possa ir de metrô.",
+        "zh": "公司很远，对吧？也许你可以坐地铁去。",
+        "hint": {
+          "en": "tal vez + the subjunctive: puedes → puedas.",
+          "it": "tal vez + il congiuntivo: puedes → puedas.",
+          "uk": "tal vez + «subjuntivo»: puedes → puedas.",
+          "de": "tal vez + subjuntivo: puedes → puedas.",
+          "fr": "tal vez + le subjonctif : puedes → puedas.",
+          "pt": "tal vez + o subjuntivo: puedes → puedas.",
+          "zh": "tal vez + 虚拟式：puedes → puedas。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "Tu jefe dice que te va a subir el sueldo, pero dudo que te lo ",
+        "after": ".",
+        "options": [
+          "suba",
+          "sube"
+        ],
+        "answer": "suba",
+        "en": "Your boss says he's going to give you a pay rise, but I doubt he will.",
+        "it": "Il tuo capo dice che ti aumenterà lo stipendio, ma dubito che lo faccia davvero.",
+        "uk": "Твій начальник каже, що підвищить тобі зарплату, але я сумніваюся, що він це зробить.",
+        "de": "Dein Chef sagt, dass er dir das Gehalt erhöht, aber ich bezweifle, dass er es tut.",
+        "fr": "Ton chef dit qu'il va t'augmenter, mais je doute qu'il le fasse.",
+        "pt": "Seu chefe diz que vai te dar um aumento, mas duvido que ele dê.",
+        "zh": "你老板说要给你涨工资，但我不太相信他真的会给你涨。",
+        "hint": {
+          "en": "dudo que + the subjunctive: sube → suba.",
+          "it": "dudo que + il congiuntivo: sube → suba.",
+          "uk": "dudo que + «subjuntivo»: sube → suba.",
+          "de": "dudo que + subjuntivo: sube → suba.",
+          "fr": "dudo que + le subjonctif : sube → suba.",
+          "pt": "dudo que + o subjuntivo: sube → suba.",
+          "zh": "dudo que + 虚拟式：sube → suba。"
+        }
+      },
+      {
+        "type": "build",
+        "intention": {
+          "en": "Your friend says «Estoy muy nervioso». Reassure him: it's normal to be nervous.",
+          "it": "Il tuo amico dice «Estoy muy nervioso». Rassicuralo: è normale essere nervosi.",
+          "uk": "Друг каже: «Estoy muy nervioso». Заспокой його: це нормально, що він хвилюється.",
+          "de": "Dein Freund sagt: «Estoy muy nervioso». Beruhige ihn: Es ist normal, dass er nervös ist.",
+          "fr": "Ton ami dit «Estoy muy nervioso». Rassure-le : c'est normal qu'il soit nerveux.",
+          "pt": "Seu amigo diz «Estoy muy nervioso». Tranquilize-o: é normal que ele esteja nervoso.",
+          "zh": "你的朋友说 «Estoy muy nervioso»。让他安心：紧张是正常的。"
+        },
+        "accepted": [
+          "Es normal que estés nervioso."
+        ],
+        "tiles": [
+          "Es normal",
+          "que",
+          "estés",
+          "nervioso",
+          "estás",
+          "seas"
+        ],
+        "en": "It's normal to be nervous.",
+        "it": "È normale che tu sia nervoso.",
+        "uk": "Це нормально, що ти хвилюєшся.",
+        "de": "Es ist normal, dass du nervös bist.",
+        "fr": "C'est normal que tu sois nerveux.",
+        "pt": "É normal que você esteja nervoso.",
+        "zh": "紧张是正常的。",
+        "hint": {
+          "en": "es normal que + the subjunctive; a state: estés.",
+          "it": "es normal que + il congiuntivo; uno stato: estés.",
+          "uk": "es normal que + «subjuntivo»; стан: estés.",
+          "de": "es normal que + subjuntivo; ein Zustand: estés.",
+          "fr": "es normal que + le subjonctif ; un état : estés.",
+          "pt": "es normal que + o subjuntivo; um estado: estés.",
+          "zh": "es normal que + 虚拟式；是一种状态：estés。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "No creo que ",
+        "after": " una mala idea.",
+        "options": [
+          "sea",
+          "es"
+        ],
+        "answer": "sea",
+        "en": "I don't think it's a bad idea.",
+        "it": "Non credo che sia una cattiva idea.",
+        "uk": "Не думаю, що це погана ідея.",
+        "de": "Ich glaube nicht, dass das eine schlechte Idee ist.",
+        "fr": "Je ne crois pas que ce soit une mauvaise idée.",
+        "pt": "Não acho que seja uma má ideia.",
+        "zh": "我不觉得这是个坏主意。",
+        "hint": {
+          "en": "no creo que + the subjunctive: sea.",
+          "it": "no creo que + il congiuntivo: sea.",
+          "uk": "no creo que + «subjuntivo»: sea.",
+          "de": "no creo que + subjuntivo: sea.",
+          "fr": "no creo que + le subjonctif : sea.",
+          "pt": "no creo que + o subjuntivo: sea.",
+          "zh": "no creo que + 虚拟式：sea。"
+        }
+      },
+      {
+        "type": "gap",
+        "before": "Pero es importante que ",
+        "after": " con tu familia antes.",
+        "label": "hablar",
+        "accepted": [
+          "hables"
+        ],
+        "en": "But it's important that you talk to your family first.",
+        "it": "Ma è importante che tu ne parli prima con la tua famiglia.",
+        "uk": "Але важливо, щоб ти спершу поговорив з родиною.",
+        "de": "Aber es ist wichtig, dass du zuerst mit deiner Familie sprichst.",
+        "fr": "Mais il est important que tu en parles d'abord à ta famille.",
+        "pt": "Mas é importante que você converse com a sua família antes.",
+        "zh": "不过你先和家人谈谈很重要。",
+        "hint": {
+          "en": "es importante que + the subjunctive: hablas → hables.",
+          "it": "es importante que + il congiuntivo: hablas → hables.",
+          "uk": "es importante que + «subjuntivo»: hablas → hables.",
+          "de": "es importante que + subjuntivo: hablas → hables.",
+          "fr": "es importante que + le subjonctif : hablas → hables.",
+          "pt": "es importante que + o subjuntivo: hablas → hables.",
+          "zh": "es importante que + 虚拟式：hablas → hables。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "Es posible que no te ",
+        "after": " mucho al principio, pero es normal.",
+        "options": [
+          "guste",
+          "gusta"
+        ],
+        "answer": "guste",
+        "en": "You might not like it much at first, but that's normal.",
+        "it": "Può darsi che all'inizio non ti piaccia molto, ma è normale.",
+        "uk": "Можливо, спочатку тобі не дуже сподобається, але це нормально.",
+        "de": "Es kann sein, dass es dir am Anfang nicht so gefällt, aber das ist normal.",
+        "fr": "Il est possible que ça ne te plaise pas beaucoup au début, mais c'est normal.",
+        "pt": "É possível que você não goste muito no começo, mas é normal.",
+        "zh": "一开始你可能不太喜欢，但这很正常。",
+        "hint": {
+          "en": "es posible que + the subjunctive: gusta → guste.",
+          "it": "es posible que + il congiuntivo: gusta → guste.",
+          "uk": "es posible que + «subjuntivo»: gusta → guste.",
+          "de": "es posible que + subjuntivo: gusta → guste.",
+          "fr": "es posible que + le subjonctif : gusta → guste.",
+          "pt": "es posible que + o subjuntivo: gusta → guste.",
+          "zh": "es posible que + 虚拟式：gusta → guste。"
+        }
+      },
+      {
+        "type": "build",
+        "intention": {
+          "en": "Your friend asks «¿Tú qué crees? ¿Cambio de trabajo?». Say you think it's a good idea.",
+          "it": "Il tuo amico chiede «¿Tú qué crees? ¿Cambio de trabajo?». Digli che credi che sia una buona idea.",
+          "uk": "Друг питає: «¿Tú qué crees? ¿Cambio de trabajo?». Скажи, що, на твою думку, це добра ідея.",
+          "de": "Dein Freund fragt: «¿Tú qué crees? ¿Cambio de trabajo?». Sag, dass du es für eine gute Idee hältst.",
+          "fr": "Ton ami demande «¿Tú qué crees? ¿Cambio de trabajo?». Dis que tu crois que c'est une bonne idée.",
+          "pt": "Seu amigo pergunta «¿Tú qué crees? ¿Cambio de trabajo?». Diga que você acha que é uma boa ideia.",
+          "zh": "你的朋友问 «¿Tú qué crees? ¿Cambio de trabajo?»。说你觉得这是个好主意。"
+        },
+        "accepted": [
+          "Creo que es una buena idea.",
+          "Sí, creo que es una buena idea."
+        ],
+        "tiles": [
+          "Creo que",
+          "es",
+          "una buena idea",
+          "sea",
+          "no"
+        ],
+        "en": "I think it's a good idea.",
+        "it": "Credo che sia una buona idea.",
+        "uk": "Я думаю, що це добра ідея.",
+        "de": "Ich glaube, das ist eine gute Idee.",
+        "fr": "Je crois que c'est une bonne idée.",
+        "pt": "Acho que é uma boa ideia.",
+        "zh": "我觉得这是个好主意。",
+        "hint": {
+          "en": "creo que, without no: the normal present, es.",
+          "it": "creo que, senza no: il presente normale, es.",
+          "uk": "creo que без no: звичайний теперішній час, es.",
+          "de": "creo que ohne no: das normale Präsens, es.",
+          "fr": "creo que, sans no : le présent normal, es.",
+          "pt": "creo que, sem no: o presente normal, es.",
+          "zh": "creo que，没有 no：用普通的现在时，es。"
+        }
+      },
+      {
+        "type": "gap",
+        "before": "¡Vas a cambiar de trabajo! ¡Genial! Ojalá todo te ",
+        "after": " bien.",
+        "label": "salir",
+        "accepted": [
+          "salga"
+        ],
+        "en": "You're going to change jobs! Great! I hope it all goes well for you.",
+        "it": "Cambierai lavoro! Fantastico! Speriamo che ti vada tutto bene.",
+        "uk": "Ти змінюєш роботу! Чудово! Хоч би все в тебе вийшло добре.",
+        "de": "Du wechselst den Job! Super! Hoffentlich läuft alles gut für dich.",
+        "fr": "Tu vas changer de travail ! Génial ! Pourvu que tout se passe bien pour toi.",
+        "pt": "Você vai mudar de emprego! Que ótimo! Tomara que dê tudo certo para você.",
+        "zh": "你要换工作了！太好了！但愿你一切顺利。",
+        "hint": {
+          "en": "ojalá + the subjunctive: sale → salga.",
+          "it": "ojalá + il congiuntivo: sale → salga.",
+          "uk": "ojalá + «subjuntivo»: sale → salga.",
+          "de": "ojalá + subjuntivo: sale → salga.",
+          "fr": "ojalá + le subjonctif : sale → salga.",
+          "pt": "ojalá + o subjuntivo: sale → salga.",
+          "zh": "ojalá + 虚拟式：sale → salga。"
+        }
+      },
+      {
+        "type": "write",
+        "instruction": {
+          "en": "To finish, tell your friend how you feel. Write in Spanish: «I'm glad you have a new job and I hope you're very happy there.»",
+          "it": "Per finire, di' al tuo amico cosa provi. Scrivi in spagnolo: «Sono contento che tu abbia un nuovo lavoro e spero che tu sia molto felice lì.»",
+          "uk": "Наостанок скажи другові, що ти відчуваєш. Напиши іспанською: «Я радий (рада), що в тебе нова робота, і сподіваюся, що ти будеш там дуже щасливий(-а).»",
+          "de": "Zum Schluss sag deinem Freund, wie du dich fühlst. Schreib auf Spanisch: «Ich freue mich, dass du eine neue Arbeit hast, und ich hoffe, dass du dort sehr glücklich wirst.»",
+          "fr": "Pour finir, dis à ton ami ce que tu ressens. Écris en espagnol : «Je suis content que tu aies un nouveau travail et j'espère que tu y seras très heureux.»",
+          "pt": "Para terminar, diga ao seu amigo como você se sente. Escreva em espanhol: «Fico feliz que você tenha um novo trabalho e espero que seja muito feliz lá.»",
+          "zh": "最后，告诉你的朋友你的感受。用西班牙语写：«我很高兴你有了新工作，希望你在那里过得很开心。»"
+        },
+        "accepted": [
+          "Me alegra que tengas un nuevo trabajo y espero que seas muy feliz allí.",
+          "Me alegra que tengas un trabajo nuevo y espero que seas muy feliz allí.",
+          "Me alegra que tengas un nuevo trabajo y ojalá seas muy feliz allí.",
+          "Me alegra que tengas un nuevo trabajo, y espero que seas muy feliz allí.",
+          "Me alegra que tengas un trabajo nuevo y ojalá seas muy feliz allí."
+        ],
+        "model": {
+          "es": "Me alegra que tengas un nuevo trabajo y espero que seas muy feliz allí.",
+          "en": "I'm glad you have a new job and I hope you're very happy there.",
+          "it": "Sono contento che tu abbia un nuovo lavoro e spero che tu sia molto felice lì.",
+          "uk": "Я радий (рада), що в тебе нова робота, і сподіваюся, що ти будеш там дуже щасливий(-а).",
+          "de": "Ich freue mich, dass du eine neue Arbeit hast, und ich hoffe, dass du dort sehr glücklich wirst.",
+          "fr": "Je suis content que tu aies un nouveau travail et j'espère que tu y seras très heureux.",
+          "pt": "Fico feliz que você tenha um novo trabalho e espero que seja muito feliz lá.",
+          "zh": "我很高兴你有了新工作，希望你在那里过得很开心。"
+        }
+      }
+    ]
+  }
+}
