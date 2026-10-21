@@ -1,0 +1,3368 @@
+{
+  "unit": "u33",
+  "lessons": [
+    {
+      "id": "u33l1",
+      "goal": {
+        "en": "Say why you do things: para + the dictionary form when it's for you, para que + the subjunctive when it's for someone else: te lo explico para que lo entiendas.",
+        "it": "Di perché fai le cose: para + l'infinito quando è per te, para que + il congiuntivo quando è per un altro: te lo explico para que lo entiendas.",
+        "uk": "Кажи, навіщо ти щось робиш: para + словникова форма, коли це для тебе, para que + «subjuntivo», коли це для когось іншого: te lo explico para que lo entiendas.",
+        "de": "Sag, warum du etwas tust: para + Infinitiv, wenn es um dich selbst geht, para que + subjuntivo (spanischer Konjunktiv), wenn es um jemand anderen geht: te lo explico para que lo entiendas.",
+        "fr": "Dis pourquoi tu fais les choses : para + l'infinitif quand c'est pour toi, para que + le subjonctif quand c'est pour quelqu'un d'autre : te lo explico para que lo entiendas.",
+        "pt": "Diga por que você faz as coisas: para + a forma do dicionário quando é para você, para que + o subjuntivo quando é para outra pessoa: te lo explico para que lo entiendas.",
+        "zh": "说出你做事的目的：如果是为了你自己，用 para + 动词原形；如果是为了让别人做某事，用 para que + 虚拟式：te lo explico para que lo entiendas。"
+      },
+      "target": {
+        "es": "Te dejo las llaves para que puedas entrar.",
+        "en": "I'm leaving you the keys so that you can get in.",
+        "it": "Ti lascio le chiavi perché tu possa entrare.",
+        "uk": "Я залишаю тобі ключі, щоб ти міг (могла) зайти.",
+        "de": "Ich lasse dir die Schlüssel da, damit du hineinkommst.",
+        "fr": "Je te laisse les clés pour que tu puisses entrer.",
+        "pt": "Vou deixar as chaves com você para que você possa entrar.",
+        "zh": "我把钥匙留给你，好让你能进去。"
+      },
+      "names": [
+        "Madrid"
+      ],
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "para que",
+              "en": "so that",
+              "it": "perché, affinché",
+              "uk": "щоб (для того, щоб)",
+              "de": "damit",
+              "fr": "pour que, afin que",
+              "pt": "para que",
+              "zh": "为了，好让",
+              "kind": "rail"
+            },
+            {
+              "es": "explicar",
+              "en": "to explain",
+              "it": "spiegare",
+              "uk": "пояснювати",
+              "de": "erklären",
+              "fr": "expliquer",
+              "pt": "explicar",
+              "zh": "解释",
+              "kind": "stem"
+            },
+            {
+              "es": "¿para qué?",
+              "en": "what for?",
+              "it": "a che scopo?, per cosa?",
+              "uk": "навіщо? для чого?",
+              "de": "wozu?",
+              "fr": "pour quoi faire ?, dans quel but ?",
+              "pt": "para quê?",
+              "zh": "为了什么？干什么用？",
+              "kind": "rail"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "para que",
+              "kind": "rail"
+            },
+            {
+              "text": "entiendas",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "If you do the second thing yourself, use para + the dictionary form: estudio para trabajar. If someone else does it, use para que + the subjunctive: te lo explico para que lo entiendas.",
+            "it": "Se la seconda cosa la fai tu, usa para + l'infinito: estudio para trabajar. Se la fa un altro, usa para que + il congiuntivo: te lo explico para que lo entiendas.",
+            "uk": "Якщо другу дію робиш ти сам(-а), вживай para + словникова форма: estudio para trabajar. Якщо її робить хтось інший — para que + «subjuntivo»: te lo explico para que lo entiendas. В українській схоже: «щоб працювати», але «щоб ти зрозумів(-ла)».",
+            "de": "Wenn du das Zweite selbst tust, nimm para + Infinitiv: estudio para trabajar (wie „um … zu“). Wenn es jemand anderes tut, nimm para que + subjuntivo: te lo explico para que lo entiendas. Im Deutschen steht nach „damit“ der normale Indikativ, im Spanischen aber immer der subjuntivo.",
+            "fr": "Si c'est toi qui fais la deuxième chose, utilise para + l'infinitif : estudio para trabajar. Si c'est quelqu'un d'autre, utilise para que + le subjonctif : te lo explico para que lo entiendas. Comme en français : « pour » + infinitif, « pour que » + subjonctif.",
+            "pt": "Se é você mesmo quem faz a segunda coisa, use para + a forma do dicionário: estudio para trabajar. Se é outra pessoa, use para que + o subjuntivo, como em português: te lo explico para que lo entiendas.",
+            "zh": "如果第二件事是你自己做，用 para + 动词原形：estudio para trabajar。如果是别人做，用 para que + 虚拟式：te lo explico para que lo entiendas。"
+          },
+          "examples": [
+            {
+              "es": "Estudio español para trabajar en España.",
+              "en": "I'm studying Spanish to work in Spain.",
+              "it": "Studio spagnolo per lavorare in Spagna.",
+              "uk": "Я вивчаю іспанську, щоб працювати в Іспанії.",
+              "de": "Ich lerne Spanisch, um in Spanien zu arbeiten.",
+              "fr": "J'étudie l'espagnol pour travailler en Espagne.",
+              "pt": "Estudo espanhol para trabalhar na Espanha.",
+              "zh": "我学西班牙语是为了在西班牙工作。"
+            },
+            {
+              "es": "Te lo explico para que lo entiendas.",
+              "en": "I'll explain it to you so that you understand it.",
+              "it": "Te lo spiego perché tu lo capisca.",
+              "uk": "Я пояснюю тобі це, щоб ти зрозумів(-ла).",
+              "de": "Ich erkläre es dir, damit du es verstehst.",
+              "fr": "Je te l'explique pour que tu le comprennes.",
+              "pt": "Vou te explicar para que você entenda.",
+              "zh": "我给你解释一下，好让你明白。"
+            },
+            {
+              "es": "Te dejo las llaves para que puedas entrar.",
+              "en": "I'm leaving you the keys so that you can get in.",
+              "it": "Ti lascio le chiavi perché tu possa entrare.",
+              "uk": "Я залишаю тобі ключі, щоб ти міг (могла) зайти.",
+              "de": "Ich lasse dir die Schlüssel da, damit du hineinkommst.",
+              "fr": "Je te laisse les clés pour que tu puisses entrer.",
+              "pt": "Vou deixar as chaves com você para que você possa entrar.",
+              "zh": "我把钥匙留给你，好让你能进去。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "explico",
+              "en": "I explain",
+              "it": "spiego",
+              "uk": "я пояснюю",
+              "de": "ich erkläre",
+              "fr": "j'explique",
+              "pt": "explico",
+              "zh": "我解释"
+            },
+            {
+              "es": "explicas",
+              "en": "you explain",
+              "it": "spieghi",
+              "uk": "ти пояснюєш",
+              "de": "du erklärst",
+              "fr": "tu expliques",
+              "pt": "você explica (tú)",
+              "zh": "你解释"
+            },
+            {
+              "es": "entienda",
+              "en": "(that) I / he / she understands",
+              "it": "(che io / lui / lei) capisca",
+              "uk": "(щоб) я / він / вона зрозумів(-ла)",
+              "de": "(dass) ich / er / sie versteht",
+              "fr": "(que je / qu'il / qu'elle) comprenne",
+              "pt": "(que eu / ele / ela) entenda",
+              "zh": "我／他／她理解（虚拟式）"
+            },
+            {
+              "es": "entiendas",
+              "en": "(that) you understand",
+              "it": "(che tu) capisca",
+              "uk": "(щоб) ти зрозумів(-ла)",
+              "de": "(dass) du verstehst",
+              "fr": "(que tu) comprennes",
+              "pt": "(que você) entenda",
+              "zh": "你理解（虚拟式）"
+            },
+            {
+              "es": "entiendan",
+              "en": "(that) they understand",
+              "it": "(che loro) capiscano",
+              "uk": "(щоб) вони зрозуміли",
+              "de": "(dass) sie verstehen",
+              "fr": "(qu'ils / qu'elles) comprennent",
+              "pt": "(que eles) entendam",
+              "zh": "他们理解（虚拟式）"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "before": "Te lo explico otra vez para que lo ",
+          "after": ".",
+          "options": [
+            "entiendas",
+            "entiendes",
+            "entender"
+          ],
+          "answer": "entiendas",
+          "en": "I'll explain it to you again so that you understand it.",
+          "it": "Te lo spiego un'altra volta perché tu lo capisca.",
+          "uk": "Я поясню тобі це ще раз, щоб ти зрозумів(-ла).",
+          "de": "Ich erkläre es dir noch einmal, damit du es verstehst.",
+          "fr": "Je te l'explique encore une fois pour que tu le comprennes.",
+          "pt": "Vou te explicar de novo para que você entenda.",
+          "zh": "我再给你解释一遍，好让你明白。",
+          "hint": {
+            "en": "You explain, someone else understands: para que + the subjunctive, entiendas.",
+            "it": "Spieghi tu, capisce un altro: para que + il congiuntivo, entiendas.",
+            "uk": "Пояснюєш ти, а розуміє хтось інший: para que + «subjuntivo», entiendas.",
+            "de": "Du erklärst, jemand anderes versteht: para que + subjuntivo, entiendas.",
+            "fr": "C'est toi qui expliques, c'est quelqu'un d'autre qui comprend : para que + le subjonctif, entiendas.",
+            "pt": "Quem explica é você, quem entende é outra pessoa: para que + o subjuntivo, entiendas.",
+            "zh": "你解释，别人理解：para que + 虚拟式，entiendas。"
+          },
+          "beat": "forge"
+        },
+        {
+          "type": "choose",
+          "before": "Voy a Madrid para ",
+          "after": " a mis abuelos.",
+          "options": [
+            "ver",
+            "vea",
+            "veas"
+          ],
+          "answer": "ver",
+          "en": "I'm going to Madrid to see my grandparents.",
+          "it": "Vado a Madrid per vedere i miei nonni.",
+          "uk": "Я їду в Мадрид, щоб провідати бабусю й дідуся.",
+          "de": "Ich fahre nach Madrid, um meine Großeltern zu besuchen.",
+          "fr": "Je vais à Madrid pour voir mes grands-parents.",
+          "pt": "Vou a Madri para ver meus avós.",
+          "zh": "我去马德里看我的爷爷奶奶。",
+          "hint": {
+            "en": "You go and you see them yourself: para + the dictionary form.",
+            "it": "Vai tu e li vedi tu: para + l'infinito.",
+            "uk": "Їдеш і провідуєш їх ти сам(-а): para + словникова форма.",
+            "de": "Du fährst selbst und du besuchst sie selbst: para + Infinitiv.",
+            "fr": "C'est toi qui vas et toi qui les vois : para + l'infinitif.",
+            "pt": "Quem vai e quem vê é você mesmo: para + a forma do dicionário.",
+            "zh": "去的是你，看他们的也是你：para + 动词原形。"
+          },
+          "beat": "fire"
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "para que",
+              "kind": "rail"
+            },
+            {
+              "text": "los niños",
+              "kind": "chunk"
+            },
+            {
+              "text": "entiendan",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "After para que, the subjunctive matches whoever does that part: para que los niños me entiendan, para que mi madre pueda descansar.",
+            "it": "Dopo para que il congiuntivo va con chi fa quella parte: para que los niños me entiendan, para que mi madre pueda descansar.",
+            "uk": "Після para que «subjuntivo» узгоджується з тим, хто робить цю частину: para que los niños me entiendan, para que mi madre pueda descansar.",
+            "de": "Nach para que richtet sich der subjuntivo nach der Person, die diesen Teil tut: para que los niños me entiendan, para que mi madre pueda descansar.",
+            "fr": "Après para que, le subjonctif s'accorde avec la personne qui fait cette partie : para que los niños me entiendan, para que mi madre pueda descansar.",
+            "pt": "Depois de para que, o subjuntivo concorda com quem faz essa parte: para que los niños me entiendan, para que mi madre pueda descansar.",
+            "zh": "para que 后面的虚拟式要和做那件事的人一致：para que los niños me entiendan，para que mi madre pueda descansar。"
+          },
+          "examples": [
+            {
+              "es": "Hablo despacio para que los niños me entiendan.",
+              "en": "I speak slowly so that the children understand me.",
+              "it": "Parlo piano perché i bambini mi capiscano.",
+              "uk": "Я говорю повільно, щоб діти мене розуміли.",
+              "de": "Ich spreche langsam, damit die Kinder mich verstehen.",
+              "fr": "Je parle lentement pour que les enfants me comprennent.",
+              "pt": "Falo devagar para que as crianças me entendam.",
+              "zh": "我说得很慢，好让孩子们听懂我的话。"
+            },
+            {
+              "es": "Cocino yo para que mi madre pueda descansar.",
+              "en": "I'm doing the cooking so that my mother can rest.",
+              "it": "Cucino io perché mia madre possa riposarsi.",
+              "uk": "Їсти готую я, щоб мама могла відпочити.",
+              "de": "Ich koche, damit meine Mutter sich ausruhen kann.",
+              "fr": "C'est moi qui cuisine pour que ma mère puisse se reposer.",
+              "pt": "Eu cozinho para que minha mãe possa descansar.",
+              "zh": "我来做饭，好让我妈妈能休息一下。"
+            },
+            {
+              "es": "Mis padres trabajan mucho para que yo pueda estudiar.",
+              "en": "My parents work hard so that I can study.",
+              "it": "I miei genitori lavorano tanto perché io possa studiare.",
+              "uk": "Мої батьки багато працюють, щоб я міг (могла) вчитися.",
+              "de": "Meine Eltern arbeiten viel, damit ich studieren kann.",
+              "fr": "Mes parents travaillent beaucoup pour que je puisse faire des études.",
+              "pt": "Meus pais trabalham muito para que eu possa estudar.",
+              "zh": "我父母拼命工作，好让我能上学。"
+            }
+          ]
+        },
+        {
+          "type": "gap",
+          "before": "Hablo despacio para que los niños me ",
+          "after": ".",
+          "label": "entender",
+          "accepted": [
+            "entiendan"
+          ],
+          "en": "I speak slowly so that the children understand me.",
+          "it": "Parlo piano perché i bambini mi capiscano.",
+          "uk": "Я говорю повільно, щоб діти мене розуміли.",
+          "de": "Ich spreche langsam, damit die Kinder mich verstehen.",
+          "fr": "Je parle lentement pour que les enfants me comprennent.",
+          "pt": "Falo devagar para que as crianças me entendam.",
+          "zh": "我说得很慢，好让孩子们听懂我的话。",
+          "hint": {
+            "en": "los niños = ellos: para que + entiendan.",
+            "it": "los niños = ellos: para que + entiendan.",
+            "uk": "los niños = ellos: para que + entiendan.",
+            "de": "los niños = ellos: para que + entiendan.",
+            "fr": "los niños = ellos : para que + entiendan.",
+            "pt": "los niños = ellos: para que + entiendan.",
+            "zh": "los niños = ellos：para que + entiendan。"
+          },
+          "beat": "forge"
+        },
+        {
+          "type": "build",
+          "intention": {
+            "en": "Your mother is very tired. Say you're doing the cooking so that she can rest.",
+            "it": "Tua madre è molto stanca. Di' che cucini tu perché lei possa riposarsi.",
+            "uk": "Твоя мама дуже втомилася. Скажи, що їсти готуєш ти, щоб вона могла відпочити.",
+            "de": "Deine Mutter ist sehr müde. Sag, dass du kochst, damit sie sich ausruhen kann.",
+            "fr": "Ta mère est très fatiguée. Dis que c'est toi qui cuisines pour qu'elle puisse se reposer.",
+            "pt": "Sua mãe está muito cansada. Diga que você vai cozinhar para que ela possa descansar.",
+            "zh": "你妈妈很累。说你来做饭，好让她能休息一下。"
+          },
+          "accepted": [
+            "Cocino yo para que mi madre pueda descansar.",
+            "Yo cocino para que mi madre pueda descansar.",
+            "Cocino para que mi madre pueda descansar."
+          ],
+          "tiles": [
+            "Cocino",
+            "yo",
+            "para que",
+            "mi madre",
+            "pueda",
+            "descansar",
+            "puede"
+          ],
+          "en": "I'm doing the cooking so that my mother can rest.",
+          "it": "Cucino io perché mia madre possa riposarsi.",
+          "uk": "Їсти готую я, щоб мама могла відпочити.",
+          "de": "Ich koche, damit meine Mutter sich ausruhen kann.",
+          "fr": "C'est moi qui cuisine pour que ma mère puisse se reposer.",
+          "pt": "Eu cozinho para que minha mãe possa descansar.",
+          "zh": "我来做饭，好让我妈妈能休息一下。",
+          "hint": {
+            "en": "Your mother rests, not you: para que + pueda.",
+            "it": "Si riposa tua madre, non tu: para que + pueda.",
+            "uk": "Відпочиває мама, а не ти: para que + pueda.",
+            "de": "Deine Mutter ruht sich aus, nicht du: para que + pueda.",
+            "fr": "C'est ta mère qui se repose, pas toi : para que + pueda.",
+            "pt": "Quem descansa é sua mãe, não você: para que + pueda.",
+            "zh": "休息的是你妈妈，不是你：para que + pueda。"
+          },
+          "beat": "fire"
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "¿para qué?",
+              "kind": "rail"
+            }
+          ],
+          "rule": {
+            "en": "To ask what something is for, say ¿para qué? Answer with para + the dictionary form, or para que + the subjunctive if it's for someone else.",
+            "it": "Per chiedere a cosa serve qualcosa, di' ¿para qué? Rispondi con para + l'infinito, o con para que + il congiuntivo se è per un altro.",
+            "uk": "Щоб запитати, для чого щось потрібно, кажи ¿para qué? Відповідай para + словникова форма або para que + «subjuntivo», якщо це для когось іншого.",
+            "de": "Um zu fragen, wozu etwas gut ist, sag ¿para qué? (wozu?). Antworte mit para + Infinitiv oder mit para que + subjuntivo, wenn es um jemand anderen geht.",
+            "fr": "Pour demander à quoi sert quelque chose, dis ¿para qué? Réponds avec para + l'infinitif, ou para que + le subjonctif si c'est pour quelqu'un d'autre.",
+            "pt": "Para perguntar para que serve algo, diga ¿para qué? Responda com para + a forma do dicionário, ou com para que + o subjuntivo se for para outra pessoa.",
+            "zh": "问某事是为了什么，说 ¿para qué?。回答时用 para + 动词原形；如果是为了让别人做某事，就用 para que + 虚拟式。"
+          },
+          "examples": [
+            {
+              "es": "¿Para qué estudias español?",
+              "en": "What are you studying Spanish for?",
+              "it": "Perché studi spagnolo?",
+              "uk": "Навіщо ти вивчаєш іспанську?",
+              "de": "Wozu lernst du Spanisch?",
+              "fr": "Pourquoi est-ce que tu étudies l'espagnol ?",
+              "pt": "Para que você estuda espanhol?",
+              "zh": "你学西班牙语是为了什么？"
+            },
+            {
+              "es": "Para hablar con mis amigos.",
+              "en": "To talk to my friends.",
+              "it": "Per parlare con i miei amici.",
+              "uk": "Щоб розмовляти з друзями.",
+              "de": "Um mit meinen Freunden zu sprechen.",
+              "fr": "Pour parler avec mes amis.",
+              "pt": "Para falar com meus amigos.",
+              "zh": "为了和我的朋友们聊天。"
+            },
+            {
+              "es": "Te doy dinero para que compres pan.",
+              "en": "I'm giving you money so that you can buy some bread.",
+              "it": "Ti do dei soldi perché tu compri il pane.",
+              "uk": "Я даю тобі гроші, щоб ти купив(-ла) хліба.",
+              "de": "Ich gebe dir Geld, damit du Brot kaufst.",
+              "fr": "Je te donne de l'argent pour que tu achètes du pain.",
+              "pt": "Vou te dar dinheiro para que você compre pão.",
+              "zh": "我给你钱，好让你去买面包。"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "before": "¿Para qué me das la lista? Para que ",
+          "after": " la compra.",
+          "options": [
+            "hagas",
+            "haces",
+            "hacer"
+          ],
+          "answer": "hagas",
+          "en": "What are you giving me the list for? So that you can do the shopping.",
+          "it": "Perché mi dai la lista? Perché tu faccia la spesa.",
+          "uk": "Навіщо ти даєш мені список? Щоб ти зробив(-ла) покупки.",
+          "de": "Wozu gibst du mir die Liste? Damit du einkaufen gehst.",
+          "fr": "Pourquoi tu me donnes la liste ? Pour que tu fasses les courses.",
+          "pt": "Para que você está me dando a lista? Para que você faça as compras.",
+          "zh": "你把清单给我干什么？好让你去买东西。",
+          "hint": {
+            "en": "You will do the shopping, not me: para que + the subjunctive, hagas.",
+            "it": "La spesa la farai tu, non io: para que + il congiuntivo, hagas.",
+            "uk": "Покупки робитимеш ти, а не я: para que + «subjuntivo», hagas.",
+            "de": "Du gehst einkaufen, nicht ich: para que + subjuntivo, hagas.",
+            "fr": "C'est toi qui feras les courses, pas moi : para que + le subjonctif, hagas.",
+            "pt": "Quem vai fazer as compras é você, não eu: para que + o subjuntivo, hagas.",
+            "zh": "去买东西的是你，不是我：para que + 虚拟式，hagas。"
+          },
+          "beat": "forge"
+        },
+        {
+          "type": "build",
+          "intention": {
+            "en": "A new colleague asks «¿Para qué estudias español?». Answer: to work in Spain.",
+            "it": "Un nuovo collega ti chiede «¿Para qué estudias español?». Rispondi: per lavorare in Spagna.",
+            "uk": "Новий колега питає: «¿Para qué estudias español?». Відповідай: щоб працювати в Іспанії.",
+            "de": "Ein neuer Kollege fragt dich: «¿Para qué estudias español?». Antworte: um in Spanien zu arbeiten.",
+            "fr": "Un nouveau collègue te demande « ¿Para qué estudias español? ». Réponds : pour travailler en Espagne.",
+            "pt": "Um colega novo pergunta «¿Para qué estudias español?». Responda: para trabalhar na Espanha.",
+            "zh": "一位新同事问你：«¿Para qué estudias español?»。回答：为了在西班牙工作。"
+          },
+          "accepted": [
+            "Para trabajar en España."
+          ],
+          "tiles": [
+            "Para",
+            "trabajar",
+            "en España",
+            "que",
+            "trabaje"
+          ],
+          "en": "To work in Spain.",
+          "it": "Per lavorare in Spagna.",
+          "uk": "Щоб працювати в Іспанії.",
+          "de": "Um in Spanien zu arbeiten.",
+          "fr": "Pour travailler en Espagne.",
+          "pt": "Para trabalhar na Espanha.",
+          "zh": "为了在西班牙工作。",
+          "hint": {
+            "en": "You study and you will work: para + the dictionary form.",
+            "it": "Studi tu e lavorerai tu: para + l'infinito.",
+            "uk": "Вчишся і працюватимеш ти сам(-а): para + словникова форма.",
+            "de": "Du lernst und du wirst arbeiten: para + Infinitiv.",
+            "fr": "C'est toi qui étudies et toi qui travailleras : para + l'infinitif.",
+            "pt": "Quem estuda e quem vai trabalhar é você: para + a forma do dicionário.",
+            "zh": "学习的是你，将来工作的也是你：para + 动词原形。"
+          },
+          "beat": "fire"
+        },
+        {
+          "type": "gap",
+          "before": "Te dejo mi coche para que ",
+          "after": " ir a la playa.",
+          "label": "poder",
+          "accepted": [
+            "puedas"
+          ],
+          "en": "I'm lending you my car so that you can go to the beach.",
+          "it": "Ti presto la mia macchina perché tu possa andare al mare.",
+          "uk": "Я позичаю тобі свою машину, щоб ти міг (могла) поїхати на пляж.",
+          "de": "Ich leihe dir mein Auto, damit du an den Strand fahren kannst.",
+          "fr": "Je te prête ma voiture pour que tu puisses aller à la plage.",
+          "pt": "Vou te emprestar meu carro para que você possa ir à praia.",
+          "zh": "我把车借给你，好让你能去海边。",
+          "hint": {
+            "en": "You will go, not me: para que + puedas.",
+            "it": "Andrai tu, non io: para que + puedas.",
+            "uk": "Поїдеш ти, а не я: para que + puedas.",
+            "de": "Du fährst, nicht ich: para que + puedas.",
+            "fr": "C'est toi qui iras, pas moi : para que + puedas.",
+            "pt": "Quem vai é você, não eu: para que + puedas.",
+            "zh": "去的是你，不是我：para que + puedas。"
+          },
+          "beat": "mix"
+        },
+        {
+          "type": "choose",
+          "before": "Ahorro dinero para ",
+          "after": " un piso.",
+          "options": [
+            "comprar",
+            "compres",
+            "compro"
+          ],
+          "answer": "comprar",
+          "en": "I'm saving money to buy a flat.",
+          "it": "Risparmio soldi per comprare un appartamento.",
+          "uk": "Я відкладаю гроші, щоб купити квартиру.",
+          "de": "Ich spare Geld, um eine Wohnung zu kaufen.",
+          "fr": "J'économise pour acheter un appartement.",
+          "pt": "Estou economizando dinheiro para comprar um apartamento.",
+          "zh": "我在存钱，为了买一套房子。",
+          "hint": {
+            "en": "You save and you buy: para + the dictionary form.",
+            "it": "Risparmi tu e compri tu: para + l'infinito.",
+            "uk": "Відкладаєш і купуєш ти сам(-а): para + словникова форма.",
+            "de": "Du sparst und du kaufst: para + Infinitiv.",
+            "fr": "C'est toi qui économises et toi qui achètes : para + l'infinitif.",
+            "pt": "Quem economiza e quem compra é você: para + a forma do dicionário.",
+            "zh": "存钱的是你，买房的也是你：para + 动词原形。"
+          },
+          "beat": "mix"
+        },
+        {
+          "type": "build",
+          "intention": {
+            "en": "Your new colleague doesn't speak much Spanish yet. Say you speak slowly so that he understands you.",
+            "it": "Il tuo nuovo collega non parla ancora bene spagnolo. Di' che parli piano perché lui ti capisca.",
+            "uk": "Твій новий колега ще погано говорить іспанською. Скажи, що говориш повільно, щоб він тебе розумів.",
+            "de": "Dein neuer Kollege spricht noch nicht viel Spanisch. Sag, dass du langsam sprichst, damit er dich versteht.",
+            "fr": "Ton nouveau collègue ne parle pas encore bien espagnol. Dis que tu parles lentement pour qu'il te comprenne.",
+            "pt": "Seu colega novo ainda não fala muito espanhol. Diga que você fala devagar para que ele te entenda.",
+            "zh": "你的新同事西班牙语还说得不多。说你说得很慢，好让他听懂你。"
+          },
+          "accepted": [
+            "Hablo despacio para que me entienda.",
+            "Hablo despacio para que él me entienda."
+          ],
+          "tiles": [
+            "Hablo",
+            "despacio",
+            "para que",
+            "me",
+            "entienda",
+            "entiende",
+            "entender"
+          ],
+          "en": "I speak slowly so that he understands me.",
+          "it": "Parlo piano perché lui mi capisca.",
+          "uk": "Я говорю повільно, щоб він мене розумів.",
+          "de": "Ich spreche langsam, damit er mich versteht.",
+          "fr": "Je parle lentement pour qu'il me comprenne.",
+          "pt": "Falo devagar para que ele me entenda.",
+          "zh": "我说得很慢，好让他听懂我的话。",
+          "hint": {
+            "en": "He understands, not you: para que + entienda.",
+            "it": "Capisce lui, non tu: para que + entienda.",
+            "uk": "Розуміє він, а не ти: para que + entienda.",
+            "de": "Er versteht, nicht du: para que + entienda.",
+            "fr": "C'est lui qui comprend, pas toi : para que + entienda.",
+            "pt": "Quem entende é ele, não você: para que + entienda.",
+            "zh": "听懂的是他，不是你：para que + entienda。"
+          },
+          "beat": "mix"
+        },
+        {
+          "type": "write",
+          "instruction": {
+            "en": "Write in Spanish: «I'm leaving you the keys so that you can get in.»",
+            "it": "Scrivi in spagnolo: «Ti lascio le chiavi perché tu possa entrare.»",
+            "uk": "Напиши іспанською: «Я залишаю тобі ключі, щоб ти міг (могла) зайти.»",
+            "de": "Schreib auf Spanisch: «Ich lasse dir die Schlüssel da, damit du hineinkommst.»",
+            "fr": "Écris en espagnol : «Je te laisse les clés pour que tu puisses entrer.»",
+            "pt": "Escreva em espanhol: «Vou deixar as chaves com você para que você possa entrar.»",
+            "zh": "用西班牙语写：«我把钥匙留给你，好让你能进去。»"
+          },
+          "accepted": [
+            "Te dejo las llaves para que puedas entrar."
+          ],
+          "model": {
+            "es": "Te dejo las llaves para que puedas entrar.",
+            "en": "I'm leaving you the keys so that you can get in.",
+            "it": "Ti lascio le chiavi perché tu possa entrare.",
+            "uk": "Я залишаю тобі ключі, щоб ти міг (могла) зайти.",
+            "de": "Ich lasse dir die Schlüssel da, damit du hineinkommst.",
+            "fr": "Je te laisse les clés pour que tu puisses entrer.",
+            "pt": "Vou deixar as chaves com você para que você possa entrar.",
+            "zh": "我把钥匙留给你，好让你能进去。"
+          },
+          "beat": "mix"
+        }
+      ]
+    },
+    {
+      "id": "u33l2",
+      "goal": {
+        "en": "Talk about things that haven't happened yet with cuando + the subjunctive: cuando tenga tiempo, cuando llegues a casa.",
+        "it": "Parla di cose che non sono ancora successe con cuando + il congiuntivo: cuando tenga tiempo, cuando llegues a casa.",
+        "uk": "Говори про те, що ще не сталося, за допомогою cuando + «subjuntivo»: cuando tenga tiempo, cuando llegues a casa.",
+        "de": "Sprich über Dinge, die noch nicht passiert sind, mit cuando + subjuntivo: cuando tenga tiempo, cuando llegues a casa.",
+        "fr": "Parle de choses qui ne sont pas encore arrivées avec cuando + le subjonctif : cuando tenga tiempo, cuando llegues a casa.",
+        "pt": "Fale de coisas que ainda não aconteceram com cuando + o subjuntivo: cuando tenga tiempo, cuando llegues a casa.",
+        "zh": "用 cuando + 虚拟式谈论还没有发生的事：cuando tenga tiempo，cuando llegues a casa。"
+      },
+      "target": {
+        "es": "Cuando llegues a casa, avísame.",
+        "en": "When you get home, let me know.",
+        "it": "Quando arrivi a casa, avvisami.",
+        "uk": "Коли дістанешся додому, дай мені знати.",
+        "de": "Wenn du zu Hause ankommst, sag mir Bescheid.",
+        "fr": "Quand tu seras rentré à la maison, préviens-moi.",
+        "pt": "Quando você chegar em casa, me avise.",
+        "zh": "你到家了，告诉我一声。"
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "ser mayor",
+              "en": "to be grown up, to be older",
+              "it": "essere grande, essere adulto",
+              "uk": "бути дорослим, бути старшим",
+              "de": "groß / erwachsen sein, älter sein",
+              "fr": "être grand, être adulte",
+              "pt": "ser adulto, ser mais velho",
+              "zh": "长大，成年",
+              "kind": "chunk"
+            },
+            {
+              "es": "avisar",
+              "en": "to let (someone) know",
+              "it": "avvisare",
+              "uk": "повідомляти, давати знати",
+              "de": "Bescheid sagen, benachrichtigen",
+              "fr": "prévenir, avertir",
+              "pt": "avisar",
+              "zh": "通知，告诉（某人）一声",
+              "kind": "stem"
+            },
+            {
+              "es": "terminar",
+              "en": "to finish",
+              "it": "finire",
+              "uk": "закінчувати",
+              "de": "beenden, fertig werden",
+              "fr": "finir, terminer",
+              "pt": "terminar",
+              "zh": "完成，结束",
+              "kind": "stem"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "cuando",
+              "kind": "rail"
+            },
+            {
+              "text": "tenga",
+              "kind": "stem"
+            },
+            {
+              "text": "tiempo",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "With cuando, use the normal present for what usually happens: cuando tengo tiempo, voy al gimnasio. For something that hasn't happened yet, use the subjunctive: cuando tenga tiempo, iré.",
+            "it": "Con cuando usa il presente normale per quello che succede di solito: cuando tengo tiempo, voy al gimnasio. Per qualcosa che non è ancora successo usa il congiuntivo: cuando tenga tiempo, iré.",
+            "uk": "З cuando вживай звичайний теперішній час для того, що буває зазвичай: cuando tengo tiempo, voy al gimnasio. Для того, що ще не сталося, — «subjuntivo»: cuando tenga tiempo, iré.",
+            "de": "Mit cuando steht das normale Präsens für das, was gewöhnlich passiert: cuando tengo tiempo, voy al gimnasio. Für etwas, das noch nicht passiert ist, steht der subjuntivo: cuando tenga tiempo, iré. Im Deutschen heißt beides einfach „wenn“ mit Indikativ.",
+            "fr": "Avec cuando, utilise le présent normal pour ce qui arrive d'habitude : cuando tengo tiempo, voy al gimnasio. Pour quelque chose qui n'est pas encore arrivé, utilise le subjonctif : cuando tenga tiempo, iré. Attention : là où le français met le futur (« quand j'aurai le temps »), l'espagnol met le subjonctif.",
+            "pt": "Com cuando, use o presente normal para o que costuma acontecer: cuando tengo tiempo, voy al gimnasio. Para algo que ainda não aconteceu, use o presente do subjuntivo: cuando tenga tiempo, iré. Atenção: em português usamos o futuro do subjuntivo (quando eu tiver tempo, quando você chegar), mas o espanhol usa o presente do subjuntivo: cuando tenga, cuando llegues.",
+            "zh": "用 cuando 时，平常经常发生的事用普通的现在时：cuando tengo tiempo, voy al gimnasio。还没有发生的事用虚拟式：cuando tenga tiempo, iré。"
+          },
+          "examples": [
+            {
+              "es": "Cuando tengo tiempo, voy al gimnasio.",
+              "en": "When I have time, I go to the gym.",
+              "it": "Quando ho tempo, vado in palestra.",
+              "uk": "Коли маю час, я ходжу в спортзал.",
+              "de": "Wenn ich Zeit habe, gehe ich ins Fitnessstudio.",
+              "fr": "Quand j'ai le temps, je vais à la salle de sport.",
+              "pt": "Quando tenho tempo, vou à academia.",
+              "zh": "我有时间的时候就去健身房。"
+            },
+            {
+              "es": "Cuando tenga tiempo, iré al médico.",
+              "en": "When I have time, I'll go to the doctor's.",
+              "it": "Quando avrò tempo, andrò dal medico.",
+              "uk": "Коли матиму час, піду до лікаря.",
+              "de": "Wenn ich Zeit habe, gehe ich zum Arzt.",
+              "fr": "Quand j'aurai le temps, j'irai chez le médecin.",
+              "pt": "Quando eu tiver tempo, vou ao médico.",
+              "zh": "等我有时间了，我就去看医生。"
+            },
+            {
+              "es": "¿Qué quieres ser cuando seas mayor?",
+              "en": "What do you want to be when you grow up?",
+              "it": "Cosa vuoi fare quando sarai grande?",
+              "uk": "Ким ти хочеш бути, коли виростеш?",
+              "de": "Was willst du werden, wenn du groß bist?",
+              "fr": "Qu'est-ce que tu veux faire quand tu seras grand ?",
+              "pt": "O que você quer ser quando crescer?",
+              "zh": "你长大以后想做什么？"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "before": "Cuando ",
+          "after": " tiempo, iré al médico.",
+          "options": [
+            "tenga",
+            "tengo",
+            "tendré"
+          ],
+          "answer": "tenga",
+          "en": "When I have time, I'll go to the doctor's.",
+          "it": "Quando avrò tempo, andrò dal medico.",
+          "uk": "Коли матиму час, піду до лікаря.",
+          "de": "Wenn ich Zeit habe, gehe ich zum Arzt.",
+          "fr": "Quand j'aurai le temps, j'irai chez le médecin.",
+          "pt": "Quando eu tiver tempo, vou ao médico.",
+          "zh": "等我有时间了，我就去看医生。",
+          "hint": {
+            "en": "It hasn't happened yet: cuando + the subjunctive, tenga.",
+            "it": "Non è ancora successo: cuando + il congiuntivo, tenga.",
+            "uk": "Це ще не сталося: cuando + «subjuntivo», tenga.",
+            "de": "Es ist noch nicht passiert: cuando + subjuntivo, tenga.",
+            "fr": "Ce n'est pas encore arrivé : cuando + le subjonctif, tenga.",
+            "pt": "Ainda não aconteceu: cuando + o presente do subjuntivo, tenga (em português: quando eu tiver).",
+            "zh": "这件事还没发生：cuando + 虚拟式，tenga。"
+          },
+          "beat": "forge"
+        },
+        {
+          "type": "choose",
+          "before": "Cuando ",
+          "after": " tiempo, siempre voy al gimnasio.",
+          "options": [
+            "tengo",
+            "tenga"
+          ],
+          "answer": "tengo",
+          "en": "When I have time, I always go to the gym.",
+          "it": "Quando ho tempo, vado sempre in palestra.",
+          "uk": "Коли маю час, я завжди ходжу в спортзал.",
+          "de": "Wenn ich Zeit habe, gehe ich immer ins Fitnessstudio.",
+          "fr": "Quand j'ai le temps, je vais toujours à la salle de sport.",
+          "pt": "Quando tenho tempo, sempre vou à academia.",
+          "zh": "我有时间的时候总是去健身房。",
+          "hint": {
+            "en": "siempre: it's what usually happens, so the normal present, tengo.",
+            "it": "siempre: è quello che succede di solito, quindi il presente normale, tengo.",
+            "uk": "siempre: це те, що буває зазвичай, тож звичайний теперішній час, tengo.",
+            "de": "siempre: Das passiert gewöhnlich, also normales Präsens, tengo.",
+            "fr": "siempre : c'est ce qui arrive d'habitude, donc le présent normal, tengo.",
+            "pt": "siempre: é o que costuma acontecer, então o presente normal, tengo.",
+            "zh": "siempre：这是平常经常发生的事，所以用普通的现在时，tengo。"
+          },
+          "beat": "fire"
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "lleg-",
+              "kind": "stem"
+            },
+            {
+              "text": "-ue",
+              "kind": "ending"
+            }
+          ],
+          "rule": {
+            "en": "llegar keeps its hard g sound, so its subjunctive is spelt with gu: llegue, llegues, lleguemos. pagar does the same: pague, pagues.",
+            "it": "llegar mantiene il suono duro della g, quindi il congiuntivo si scrive con gu, come ghe in italiano: llegue, llegues, lleguemos. pagar fa lo stesso: pague, pagues.",
+            "uk": "llegar зберігає звук [ґ], тому в «subjuntivo» пишеться з gu: llegue, llegues, lleguemos. pagar так само: pague, pagues.",
+            "de": "llegar behält das harte g, deshalb schreibt man den subjuntivo mit gu: llegue, llegues, lleguemos. pagar macht es genauso: pague, pagues.",
+            "fr": "llegar garde le son dur du g, donc son subjonctif s'écrit avec gu, comme « gue » dans « guerre » : llegue, llegues, lleguemos. pagar fait pareil : pague, pagues.",
+            "pt": "llegar mantém o som duro do g, por isso o subjuntivo se escreve com gu, como em português chegue: llegue, llegues, lleguemos. pagar faz o mesmo: pague, pagues.",
+            "zh": "llegar 要保持 g 的硬音，所以它的虚拟式要写成 gu：llegue、llegues、lleguemos。pagar 也一样：pague、pagues。"
+          },
+          "examples": [
+            {
+              "es": "Cuando llegues a casa, llámame.",
+              "en": "When you get home, call me.",
+              "it": "Quando arrivi a casa, chiamami.",
+              "uk": "Коли дістанешся додому, подзвони мені.",
+              "de": "Wenn du zu Hause ankommst, ruf mich an.",
+              "fr": "Quand tu arriveras à la maison, appelle-moi.",
+              "pt": "Quando você chegar em casa, me ligue.",
+              "zh": "你到家了，给我打电话。"
+            },
+            {
+              "es": "Cuando lleguemos al hotel, cenamos.",
+              "en": "When we get to the hotel, we'll have dinner.",
+              "it": "Quando arriviamo in albergo, ceniamo.",
+              "uk": "Коли доїдемо до готелю, повечеряємо.",
+              "de": "Wenn wir im Hotel ankommen, essen wir zu Abend.",
+              "fr": "Quand nous arriverons à l'hôtel, nous dînerons.",
+              "pt": "Quando chegarmos ao hotel, vamos jantar.",
+              "zh": "我们到了酒店就吃晚饭。"
+            },
+            {
+              "es": "Te lo devuelvo cuando me paguen.",
+              "en": "I'll give it back to you when I get paid.",
+              "it": "Te lo restituisco quando mi pagano.",
+              "uk": "Я тобі це поверну, коли мені заплатять.",
+              "de": "Ich gebe es dir zurück, wenn ich bezahlt werde.",
+              "fr": "Je te le rends quand on me paiera.",
+              "pt": "Te devolvo quando me pagarem.",
+              "zh": "等我拿到工资就还给你。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "llegue",
+              "en": "(that) I / he / she arrives",
+              "it": "(che io / lui / lei) arrivi",
+              "uk": "(щоб) я / він / вона прибув(-ла)",
+              "de": "(dass) ich / er / sie ankommt",
+              "fr": "(que j' / qu'il / qu'elle) arrive",
+              "pt": "(que eu / ele / ela) chegue",
+              "zh": "我／他／她到达（虚拟式）"
+            },
+            {
+              "es": "llegues",
+              "en": "(that) you arrive",
+              "it": "(che tu) arrivi",
+              "uk": "(щоб) ти прибув(-ла)",
+              "de": "(dass) du ankommst",
+              "fr": "(que tu) arrives",
+              "pt": "(que você) chegue",
+              "zh": "你到达（虚拟式）"
+            },
+            {
+              "es": "lleguemos",
+              "en": "(that) we arrive",
+              "it": "(che noi) arriviamo",
+              "uk": "(щоб) ми прибули",
+              "de": "(dass) wir ankommen",
+              "fr": "(que nous) arrivions",
+              "pt": "(que nós) cheguemos",
+              "zh": "我们到达（虚拟式）"
+            },
+            {
+              "es": "lleguen",
+              "en": "(that) they arrive",
+              "it": "(che loro) arrivino",
+              "uk": "(щоб) вони прибули",
+              "de": "(dass) sie ankommen",
+              "fr": "(qu'ils / qu'elles) arrivent",
+              "pt": "(que eles) cheguem",
+              "zh": "他们到达（虚拟式）"
+            },
+            {
+              "es": "pague",
+              "en": "(that) I / he / she pays",
+              "it": "(che io / lui / lei) paghi",
+              "uk": "(щоб) я / він / вона заплатив(-ла)",
+              "de": "(dass) ich / er / sie bezahlt",
+              "fr": "(que je / qu'il / qu'elle) paie",
+              "pt": "(que eu / ele / ela) pague",
+              "zh": "我／他／她付钱（虚拟式）"
+            },
+            {
+              "es": "pagues",
+              "en": "(that) you pay",
+              "it": "(che tu) paghi",
+              "uk": "(щоб) ти заплатив(-ла)",
+              "de": "(dass) du bezahlst",
+              "fr": "(que tu) paies",
+              "pt": "(que você) pague",
+              "zh": "你付钱（虚拟式）"
+            },
+            {
+              "es": "paguen",
+              "en": "(that) they pay",
+              "it": "(che loro) paghino",
+              "uk": "(щоб) вони заплатили",
+              "de": "(dass) sie bezahlen",
+              "fr": "(qu'ils / qu'elles) paient",
+              "pt": "(que eles) paguem",
+              "zh": "他们付钱（虚拟式）"
+            }
+          ]
+        },
+        {
+          "type": "gap",
+          "before": "Cuando ",
+          "after": " a la estación, llámame.",
+          "label": "llegar",
+          "accepted": [
+            "llegues"
+          ],
+          "en": "When you get to the station, call me.",
+          "it": "Quando arrivi alla stazione, chiamami.",
+          "uk": "Коли доїдеш до вокзалу, подзвони мені.",
+          "de": "Wenn du am Bahnhof ankommst, ruf mich an.",
+          "fr": "Quand tu arriveras à la gare, appelle-moi.",
+          "pt": "Quando você chegar à estação, me ligue.",
+          "zh": "你到了车站，给我打电话。",
+          "hint": {
+            "en": "You haven't arrived yet: llegues, spelt with gu.",
+            "it": "Non sei ancora arrivato: llegues, con gu.",
+            "uk": "Ти ще не приїхав(-ла): llegues, пишеться з gu.",
+            "de": "Du bist noch nicht angekommen: llegues, mit gu geschrieben.",
+            "fr": "Tu n'es pas encore arrivé : llegues, écrit avec gu.",
+            "pt": "Você ainda não chegou: llegues, com gu. Em português seria quando você chegar, mas em espanhol é o presente do subjuntivo.",
+            "zh": "你还没到：llegues，写成 gu。"
+          },
+          "beat": "forge"
+        },
+        {
+          "type": "build",
+          "intention": {
+            "en": "Your parents are on their way. Say that when they arrive, you'll have dinner.",
+            "it": "I tuoi genitori stanno arrivando. Di' che quando arrivano cenate.",
+            "uk": "Твої батьки вже в дорозі. Скажи, що коли вони приїдуть, ви повечеряєте.",
+            "de": "Deine Eltern sind unterwegs. Sag, dass ihr zu Abend esst, wenn sie ankommen.",
+            "fr": "Tes parents sont en route. Dis que vous dînerez quand ils arriveront.",
+            "pt": "Seus pais estão a caminho. Diga que quando eles chegarem vocês vão jantar.",
+            "zh": "你父母正在路上。说等他们到了，你们就吃晚饭。"
+          },
+          "accepted": [
+            "Cuando lleguen mis padres, cenamos.",
+            "Cenamos cuando lleguen mis padres."
+          ],
+          "tiles": [
+            "Cuando",
+            "lleguen",
+            "mis padres",
+            "cenamos",
+            "llegan",
+            "llegaron"
+          ],
+          "en": "When my parents arrive, we'll have dinner.",
+          "it": "Quando arrivano i miei genitori, ceniamo.",
+          "uk": "Коли приїдуть мої батьки, ми повечеряємо.",
+          "de": "Wenn meine Eltern ankommen, essen wir zu Abend.",
+          "fr": "Quand mes parents arriveront, nous dînerons.",
+          "pt": "Quando meus pais chegarem, vamos jantar.",
+          "zh": "等我父母到了，我们就吃晚饭。",
+          "hint": {
+            "en": "They haven't arrived yet; mis padres = ellos: lleguen.",
+            "it": "Non sono ancora arrivati; mis padres = ellos: lleguen.",
+            "uk": "Вони ще не приїхали; mis padres = ellos: lleguen.",
+            "de": "Sie sind noch nicht angekommen; mis padres = ellos: lleguen.",
+            "fr": "Ils ne sont pas encore arrivés ; mis padres = ellos : lleguen.",
+            "pt": "Eles ainda não chegaram; mis padres = ellos: lleguen.",
+            "zh": "他们还没到；mis padres = ellos：lleguen。"
+          },
+          "beat": "fire"
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "cuando",
+              "kind": "rail"
+            },
+            {
+              "text": "termines",
+              "kind": "stem"
+            },
+            {
+              "text": "avísame",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "The other half of the sentence is an order, the future or the present: cuando termines, avísame. To answer ¿cuándo?, just say cuando + the subjunctive: cuando tenga dinero.",
+            "it": "L'altra metà della frase è un ordine, il futuro o il presente: cuando termines, avísame. Per rispondere a ¿cuándo? basta cuando + il congiuntivo: cuando tenga dinero.",
+            "uk": "Друга половина речення — це наказ, майбутній або теперішній час: cuando termines, avísame. Щоб відповісти на ¿cuándo?, просто скажи cuando + «subjuntivo»: cuando tenga dinero.",
+            "de": "Die andere Satzhälfte ist eine Aufforderung, das Futur oder das Präsens: cuando termines, avísame. Um auf ¿cuándo? zu antworten, reicht cuando + subjuntivo: cuando tenga dinero.",
+            "fr": "L'autre moitié de la phrase est un ordre, le futur ou le présent : cuando termines, avísame. Pour répondre à ¿cuándo?, il suffit de dire cuando + le subjonctif : cuando tenga dinero.",
+            "pt": "A outra metade da frase é uma ordem, o futuro ou o presente: cuando termines, avísame. Para responder a ¿cuándo?, basta dizer cuando + o subjuntivo: cuando tenga dinero.",
+            "zh": "句子的另一半可以是命令式、将来时或现在时：cuando termines, avísame。回答 ¿cuándo? 时，只说 cuando + 虚拟式就行：cuando tenga dinero。"
+          },
+          "examples": [
+            {
+              "es": "Cuando termines, avísame.",
+              "en": "When you finish, let me know.",
+              "it": "Quando finisci, avvisami.",
+              "uk": "Коли закінчиш, дай мені знати.",
+              "de": "Wenn du fertig bist, sag mir Bescheid.",
+              "fr": "Quand tu auras fini, préviens-moi.",
+              "pt": "Quando você terminar, me avise.",
+              "zh": "你做完了，告诉我一声。"
+            },
+            {
+              "es": "¿Cuándo vas a comprar un coche?",
+              "en": "When are you going to buy a car?",
+              "it": "Quando comprerai una macchina?",
+              "uk": "Коли ти купиш машину?",
+              "de": "Wann kaufst du dir ein Auto?",
+              "fr": "Quand est-ce que tu vas acheter une voiture ?",
+              "pt": "Quando você vai comprar um carro?",
+              "zh": "你什么时候买车？"
+            },
+            {
+              "es": "Cuando tenga dinero.",
+              "en": "When I have the money.",
+              "it": "Quando avrò i soldi.",
+              "uk": "Коли матиму гроші.",
+              "de": "Wenn ich das Geld habe.",
+              "fr": "Quand j'aurai l'argent.",
+              "pt": "Quando eu tiver dinheiro.",
+              "zh": "等我有钱的时候。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "termine",
+              "en": "(that) I / he / she finishes",
+              "it": "(che io / lui / lei) finisca",
+              "uk": "(щоб) я / він / вона закінчив(-ла)",
+              "de": "(dass) ich / er / sie fertig wird",
+              "fr": "(que je / qu'il / qu'elle) finisse",
+              "pt": "(que eu / ele / ela) termine",
+              "zh": "我／他／她完成（虚拟式）"
+            },
+            {
+              "es": "termines",
+              "en": "(that) you finish",
+              "it": "(che tu) finisca",
+              "uk": "(щоб) ти закінчив(-ла)",
+              "de": "(dass) du fertig wirst",
+              "fr": "(que tu) finisses",
+              "pt": "(que você) termine",
+              "zh": "你完成（虚拟式）"
+            },
+            {
+              "es": "terminemos",
+              "en": "(that) we finish",
+              "it": "(che noi) finiamo",
+              "uk": "(щоб) ми закінчили",
+              "de": "(dass) wir fertig werden",
+              "fr": "(que nous) finissions",
+              "pt": "(que nós) terminemos",
+              "zh": "我们完成（虚拟式）"
+            },
+            {
+              "es": "avísame",
+              "en": "let me know (tú)",
+              "it": "avvisami",
+              "uk": "дай мені знати (tú)",
+              "de": "sag mir Bescheid (tú)",
+              "fr": "préviens-moi (tú)",
+              "pt": "me avise (tú)",
+              "zh": "告诉我一声（tú）"
+            },
+            {
+              "es": "aviso",
+              "en": "I let (you) know",
+              "it": "avviso",
+              "uk": "я повідомляю, даю знати",
+              "de": "ich sage Bescheid",
+              "fr": "je préviens",
+              "pt": "(eu) aviso",
+              "zh": "我告诉（你）一声"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "before": "Cuando ",
+          "after": " los deberes, puedes ver la tele.",
+          "options": [
+            "termines",
+            "terminas",
+            "terminar"
+          ],
+          "answer": "termines",
+          "en": "When you've finished your homework, you can watch TV.",
+          "it": "Quando avrai finito i compiti, potrai guardare la tv.",
+          "uk": "Коли зробиш домашнє завдання, можеш дивитися телевізор.",
+          "de": "Wenn du mit deinen Hausaufgaben fertig bist, darfst du fernsehen.",
+          "fr": "Quand tu auras fini tes devoirs, tu pourras regarder la télé.",
+          "pt": "Quando você terminar a lição de casa, pode ver TV.",
+          "zh": "等你做完作业，就可以看电视了。",
+          "hint": {
+            "en": "Not finished yet: cuando + the subjunctive, termines.",
+            "it": "Non hai ancora finito: cuando + il congiuntivo, termines.",
+            "uk": "Ще не закінчено: cuando + «subjuntivo», termines.",
+            "de": "Noch nicht fertig: cuando + subjuntivo, termines.",
+            "fr": "Pas encore fini : cuando + le subjonctif, termines.",
+            "pt": "Ainda não terminou: cuando + o subjuntivo, termines.",
+            "zh": "还没做完：cuando + 虚拟式，termines。"
+          },
+          "beat": "forge"
+        },
+        {
+          "type": "build",
+          "intention": {
+            "en": "A friend asks «¿Cuándo vas a aprender a conducir?». Answer: when you have time.",
+            "it": "Un amico ti chiede «¿Cuándo vas a aprender a conducir?». Rispondi: quando avrai tempo.",
+            "uk": "Друг питає: «¿Cuándo vas a aprender a conducir?». Відповідай: коли матимеш час.",
+            "de": "Ein Freund fragt dich: «¿Cuándo vas a aprender a conducir?». Antworte: wenn du Zeit hast.",
+            "fr": "Un ami te demande « ¿Cuándo vas a aprender a conducir? ». Réponds : quand tu auras le temps.",
+            "pt": "Um amigo pergunta «¿Cuándo vas a aprender a conducir?». Responda: quando você tiver tempo.",
+            "zh": "一个朋友问你：«¿Cuándo vas a aprender a conducir?»。回答：等你有时间的时候。"
+          },
+          "accepted": [
+            "Cuando tenga tiempo."
+          ],
+          "tiles": [
+            "Cuando",
+            "tenga",
+            "tiempo",
+            "tengo",
+            "tendré"
+          ],
+          "en": "When I have time.",
+          "it": "Quando avrò tempo.",
+          "uk": "Коли матиму час.",
+          "de": "Wenn ich Zeit habe.",
+          "fr": "Quand j'aurai le temps.",
+          "pt": "Quando eu tiver tempo.",
+          "zh": "等我有时间的时候。",
+          "hint": {
+            "en": "To answer ¿cuándo? about the future: cuando + tenga.",
+            "it": "Per rispondere a ¿cuándo? sul futuro: cuando + tenga.",
+            "uk": "Щоб відповісти на ¿cuándo? про майбутнє: cuando + tenga.",
+            "de": "Antwort auf ¿cuándo? über die Zukunft: cuando + tenga.",
+            "fr": "Pour répondre à ¿cuándo? à propos du futur : cuando + tenga.",
+            "pt": "Para responder a ¿cuándo? sobre o futuro: cuando + tenga.",
+            "zh": "回答关于将来的 ¿cuándo?：cuando + tenga。"
+          },
+          "beat": "fire"
+        },
+        {
+          "type": "choose",
+          "before": "¿Qué quieres ser cuando ",
+          "after": " mayor?",
+          "options": [
+            "seas",
+            "eres",
+            "serás"
+          ],
+          "answer": "seas",
+          "en": "What do you want to be when you grow up?",
+          "it": "Cosa vuoi fare quando sarai grande?",
+          "uk": "Ким ти хочеш бути, коли виростеш?",
+          "de": "Was willst du werden, wenn du groß bist?",
+          "fr": "Qu'est-ce que tu veux faire quand tu seras grand ?",
+          "pt": "O que você quer ser quando crescer?",
+          "zh": "你长大以后想做什么？",
+          "hint": {
+            "en": "The child isn't grown up yet: cuando + the subjunctive, seas.",
+            "it": "Il bambino non è ancora grande: cuando + il congiuntivo, seas.",
+            "uk": "Дитина ще не доросла: cuando + «subjuntivo», seas.",
+            "de": "Das Kind ist noch nicht groß: cuando + subjuntivo, seas.",
+            "fr": "L'enfant n'est pas encore grand : cuando + le subjonctif, seas.",
+            "pt": "A criança ainda não cresceu: cuando + o subjuntivo, seas.",
+            "zh": "孩子还没长大：cuando + 虚拟式，seas。"
+          },
+          "beat": "mix"
+        },
+        {
+          "type": "gap",
+          "before": "Cuando ",
+          "after": " al hotel, te llamo.",
+          "label": "llegar",
+          "accepted": [
+            "llegue"
+          ],
+          "en": "When I get to the hotel, I'll call you.",
+          "it": "Quando arrivo in albergo, ti chiamo.",
+          "uk": "Коли доїду до готелю, подзвоню тобі.",
+          "de": "Wenn ich im Hotel ankomme, rufe ich dich an.",
+          "fr": "Quand j'arriverai à l'hôtel, je t'appellerai.",
+          "pt": "Quando eu chegar ao hotel, te ligo.",
+          "zh": "我到了酒店就给你打电话。",
+          "hint": {
+            "en": "You haven't arrived yet; yo: llegue, spelt with gu.",
+            "it": "Non sei ancora arrivato; yo: llegue, con gu.",
+            "uk": "Ти ще не приїхав(-ла); yo: llegue, пишеться з gu.",
+            "de": "Du bist noch nicht angekommen; yo: llegue, mit gu geschrieben.",
+            "fr": "Tu n'es pas encore arrivé ; yo : llegue, écrit avec gu.",
+            "pt": "Você ainda não chegou; yo: llegue, com gu.",
+            "zh": "你还没到；yo：llegue，写成 gu。"
+          },
+          "beat": "mix"
+        },
+        {
+          "type": "choose",
+          "before": "Siempre ceno cuando ",
+          "after": " del trabajo.",
+          "options": [
+            "vuelvo",
+            "vuelva"
+          ],
+          "answer": "vuelvo",
+          "en": "I always have dinner when I get back from work.",
+          "it": "Ceno sempre quando torno dal lavoro.",
+          "uk": "Я завжди вечеряю, коли повертаюся з роботи.",
+          "de": "Ich esse immer zu Abend, wenn ich von der Arbeit zurückkomme.",
+          "fr": "Je dîne toujours quand je rentre du travail.",
+          "pt": "Sempre janto quando volto do trabalho.",
+          "zh": "我下班回来总是先吃晚饭。",
+          "hint": {
+            "en": "siempre: what usually happens, so the normal present.",
+            "it": "siempre: quello che succede di solito, quindi il presente normale.",
+            "uk": "siempre: те, що буває зазвичай, тож звичайний теперішній час.",
+            "de": "siempre: Das passiert gewöhnlich, also normales Präsens.",
+            "fr": "siempre : ce qui arrive d'habitude, donc le présent normal.",
+            "pt": "siempre: o que costuma acontecer, então o presente normal.",
+            "zh": "siempre：平常经常发生的事，所以用普通的现在时。"
+          },
+          "beat": "mix"
+        },
+        {
+          "type": "write",
+          "instruction": {
+            "en": "Write in Spanish: «When you get home, let me know.»",
+            "it": "Scrivi in spagnolo: «Quando arrivi a casa, avvisami.»",
+            "uk": "Напиши іспанською: «Коли дістанешся додому, дай мені знати.»",
+            "de": "Schreib auf Spanisch: «Wenn du zu Hause ankommst, sag mir Bescheid.»",
+            "fr": "Écris en espagnol : «Quand tu seras rentré à la maison, préviens-moi.»",
+            "pt": "Escreva em espanhol: «Quando você chegar em casa, me avise.»",
+            "zh": "用西班牙语写：«你到家了，告诉我一声。»"
+          },
+          "accepted": [
+            "Cuando llegues a casa, avísame.",
+            "Avísame cuando llegues a casa."
+          ],
+          "model": {
+            "es": "Cuando llegues a casa, avísame.",
+            "en": "When you get home, let me know.",
+            "it": "Quando arrivi a casa, avvisami.",
+            "uk": "Коли дістанешся додому, дай мені знати.",
+            "de": "Wenn du zu Hause ankommst, sag mir Bescheid.",
+            "fr": "Quand tu seras rentré à la maison, préviens-moi.",
+            "pt": "Quando você chegar em casa, me avise.",
+            "zh": "你到家了，告诉我一声。"
+          },
+          "beat": "mix"
+        }
+      ]
+    },
+    {
+      "id": "u33l3",
+      "goal": {
+        "en": "Say what has to happen first: antes de salir, but antes de que lleguen tus padres; después de que termine la reunión.",
+        "it": "Di cosa deve succedere prima: antes de salir, ma antes de que lleguen tus padres; después de que termine la reunión.",
+        "uk": "Кажи, що має статися спочатку: antes de salir, але antes de que lleguen tus padres; después de que termine la reunión.",
+        "de": "Sag, was zuerst passieren muss: antes de salir, aber antes de que lleguen tus padres; después de que termine la reunión.",
+        "fr": "Dis ce qui doit se passer d'abord : antes de salir, mais antes de que lleguen tus padres ; después de que termine la reunión.",
+        "pt": "Diga o que tem que acontecer primeiro: antes de salir, mas antes de que lleguen tus padres; después de que termine la reunión.",
+        "zh": "说出什么事要先发生：antes de salir，但是 antes de que lleguen tus padres；después de que termine la reunión。"
+      },
+      "target": {
+        "es": "Tengo que limpiar la casa antes de que lleguen mis padres.",
+        "en": "I have to clean the house before my parents arrive.",
+        "it": "Devo pulire la casa prima che arrivino i miei genitori.",
+        "uk": "Мені треба прибрати в домі, перш ніж приїдуть мої батьки.",
+        "de": "Ich muss das Haus putzen, bevor meine Eltern ankommen.",
+        "fr": "Je dois nettoyer la maison avant que mes parents arrivent.",
+        "pt": "Tenho que limpar a casa antes que meus pais cheguem.",
+        "zh": "我得在我父母到之前把房子打扫干净。"
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "antes de que",
+              "en": "before (someone else does something)",
+              "it": "prima che",
+              "uk": "перш ніж (хтось інший щось зробить)",
+              "de": "bevor (jemand anderes etwas tut)",
+              "fr": "avant que (quelqu'un d'autre fasse quelque chose)",
+              "pt": "antes que (outra pessoa faça algo)",
+              "zh": "在（别人做某事）之前",
+              "kind": "rail"
+            },
+            {
+              "es": "después de que",
+              "en": "after (someone else does something)",
+              "it": "dopo che",
+              "uk": "після того, як (хтось інший щось зробить)",
+              "de": "nachdem (jemand anderes etwas tut)",
+              "fr": "après que (quelqu'un d'autre fait quelque chose)",
+              "pt": "depois que (outra pessoa faça algo)",
+              "zh": "在（别人做某事）之后",
+              "kind": "rail"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "antes de que",
+              "kind": "rail"
+            },
+            {
+              "text": "lleguen",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "If you do both things, use antes de + the dictionary form: antes de salir. If someone or something else does the second thing, use antes de que + the subjunctive.",
+            "it": "Se fai tu entrambe le cose, usa antes de + l'infinito: antes de salir. Se la seconda cosa la fa qualcun altro, usa antes de que + il congiuntivo.",
+            "uk": "Якщо обидві дії робиш ти, вживай antes de + словникова форма: antes de salir. Якщо другу дію робить хтось або щось інше — antes de que + «subjuntivo».",
+            "de": "Wenn du beides selbst tust, nimm antes de + Infinitiv: antes de salir. Wenn jemand oder etwas anderes das Zweite tut, nimm antes de que + subjuntivo. Im Deutschen steht nach „bevor“ der Indikativ, im Spanischen nach antes de que immer der subjuntivo.",
+            "fr": "Si tu fais les deux choses, utilise antes de + l'infinitif : antes de salir. Si c'est quelqu'un ou quelque chose d'autre qui fait la deuxième chose, utilise antes de que + le subjonctif. C'est comme en français : « avant de » + infinitif, « avant que » + subjonctif.",
+            "pt": "Se você faz as duas coisas, use antes de + a forma do dicionário: antes de salir. Se outra pessoa ou outra coisa faz a segunda, use antes de que + o subjuntivo, como o português antes que: antes que seus pais cheguem.",
+            "zh": "如果两件事都是你做，用 antes de + 动词原形：antes de salir。如果第二件事是别人或别的东西做，用 antes de que + 虚拟式。"
+          },
+          "examples": [
+            {
+              "es": "Cierro las ventanas antes de salir.",
+              "en": "I close the windows before I go out.",
+              "it": "Chiudo le finestre prima di uscire.",
+              "uk": "Я зачиняю вікна, перш ніж вийти з дому.",
+              "de": "Ich schließe die Fenster, bevor ich hinausgehe.",
+              "fr": "Je ferme les fenêtres avant de sortir.",
+              "pt": "Fecho as janelas antes de sair.",
+              "zh": "我出门之前把窗户关上。"
+            },
+            {
+              "es": "Limpia la casa antes de que lleguen tus padres.",
+              "en": "Clean the house before your parents arrive.",
+              "it": "Pulisci la casa prima che arrivino i tuoi genitori.",
+              "uk": "Прибери в домі, перш ніж приїдуть твої батьки.",
+              "de": "Putz das Haus, bevor deine Eltern ankommen.",
+              "fr": "Nettoie la maison avant que tes parents arrivent.",
+              "pt": "Limpe a casa antes que seus pais cheguem.",
+              "zh": "在你父母到之前把房子打扫干净。"
+            },
+            {
+              "es": "Vamos a casa antes de que llueva.",
+              "en": "Let's go home before it rains.",
+              "it": "Andiamo a casa prima che piova.",
+              "uk": "Ходімо додому, поки не пішов дощ.",
+              "de": "Lass uns nach Hause gehen, bevor es regnet.",
+              "fr": "Rentrons à la maison avant qu'il pleuve.",
+              "pt": "Vamos para casa antes que chova.",
+              "zh": "我们趁下雨之前回家吧。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "cierre",
+              "en": "(that) it closes, (that) I / he / she closes",
+              "it": "(che) chiuda",
+              "uk": "(щоб) воно зачинилося, (щоб) я / він / вона зачинив(-ла)",
+              "de": "(dass) es schließt, (dass) ich / er / sie schließt",
+              "fr": "(qu'il / qu'elle) ferme, (que je) ferme",
+              "pt": "(que) feche, (que eu / ele / ela) feche",
+              "zh": "（某物）关门，我／他／她关（虚拟式）"
+            },
+            {
+              "es": "cierren",
+              "en": "(that) they close",
+              "it": "(che loro) chiudano",
+              "uk": "(щоб) вони зачинили",
+              "de": "(dass) sie schließen",
+              "fr": "(qu'ils / qu'elles) ferment",
+              "pt": "(que eles) fechem",
+              "zh": "他们关（虚拟式）"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "before": "Vamos a comprar pan antes de que ",
+          "after": " la panadería.",
+          "options": [
+            "cierre",
+            "cierra",
+            "cerrar"
+          ],
+          "answer": "cierre",
+          "en": "Let's go and buy some bread before the bakery closes.",
+          "it": "Andiamo a comprare il pane prima che chiuda il panificio.",
+          "uk": "Ходімо купимо хліба, поки пекарня не зачинилася.",
+          "de": "Lass uns Brot kaufen gehen, bevor die Bäckerei schließt.",
+          "fr": "Allons acheter du pain avant que la boulangerie ferme.",
+          "pt": "Vamos comprar pão antes que a padaria feche.",
+          "zh": "我们趁面包店关门之前去买点面包吧。",
+          "hint": {
+            "en": "The bakery closes, not you: antes de que + the subjunctive, cierre.",
+            "it": "Chiude il panificio, non tu: antes de que + il congiuntivo, cierre.",
+            "uk": "Зачиняється пекарня, а не ти: antes de que + «subjuntivo», cierre.",
+            "de": "Die Bäckerei schließt, nicht du: antes de que + subjuntivo, cierre.",
+            "fr": "C'est la boulangerie qui ferme, pas toi : antes de que + le subjonctif, cierre.",
+            "pt": "Quem fecha é a padaria, não você: antes de que + o subjuntivo, cierre.",
+            "zh": "关门的是面包店，不是你：antes de que + 虚拟式，cierre。"
+          },
+          "beat": "forge"
+        },
+        {
+          "type": "choose",
+          "before": "Siempre desayuno antes de ",
+          "after": " a trabajar.",
+          "options": [
+            "ir",
+            "vaya",
+            "voy"
+          ],
+          "answer": "ir",
+          "en": "I always have breakfast before I go to work.",
+          "it": "Faccio sempre colazione prima di andare al lavoro.",
+          "uk": "Я завжди снідаю, перш ніж іти на роботу.",
+          "de": "Ich frühstücke immer, bevor ich zur Arbeit gehe.",
+          "fr": "Je prends toujours mon petit-déjeuner avant d'aller au travail.",
+          "pt": "Sempre tomo café da manhã antes de ir para o trabalho.",
+          "zh": "我上班之前总是先吃早饭。",
+          "hint": {
+            "en": "You have breakfast and you go: antes de + the dictionary form.",
+            "it": "Fai colazione tu e vai tu: antes de + l'infinito.",
+            "uk": "Снідаєш і йдеш ти сам(-а): antes de + словникова форма.",
+            "de": "Du frühstückst und du gehst: antes de + Infinitiv.",
+            "fr": "C'est toi qui prends le petit-déjeuner et toi qui y vas : antes de + l'infinitif.",
+            "pt": "Quem toma café e quem vai é você: antes de + a forma do dicionário.",
+            "zh": "吃早饭的是你，去上班的也是你：antes de + 动词原形。"
+          },
+          "beat": "fire"
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "después de que",
+              "kind": "rail"
+            },
+            {
+              "text": "termine",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "después de que is similar: después de + the dictionary form for yourself, después de que + the subjunctive when someone or something else will do it later.",
+            "it": "después de que è simile: después de + l'infinito per te stesso, después de que + il congiuntivo quando qualcun altro lo farà più avanti.",
+            "uk": "З después de que так само: después de + словникова форма, коли це робиш ти, después de que + «subjuntivo», коли це пізніше зробить хтось або щось інше.",
+            "de": "después de que funktioniert genauso: después de + Infinitiv für dich selbst, después de que + subjuntivo, wenn jemand oder etwas anderes es später tut.",
+            "fr": "después de que fonctionne pareil : después de + l'infinitif pour toi-même, después de que + le subjonctif quand quelqu'un ou quelque chose d'autre le fera plus tard. Attention : en français, « après que » se construit avec l'indicatif, mais en espagnol il faut le subjonctif.",
+            "pt": "después de que é parecido: después de + a forma do dicionário para você mesmo, después de que + o subjuntivo quando outra pessoa ou outra coisa vai fazer depois. Em português dizemos depois que a reunião terminar (futuro do subjuntivo); em espanhol é o presente do subjuntivo: después de que termine.",
+            "zh": "después de que 也类似：自己做用 después de + 动词原形；别人或别的东西之后才会做，用 después de que + 虚拟式。"
+          },
+          "examples": [
+            {
+              "es": "Después de cenar, veo la tele.",
+              "en": "After dinner, I watch TV.",
+              "it": "Dopo cena guardo la tv.",
+              "uk": "Після вечері я дивлюся телевізор.",
+              "de": "Nach dem Abendessen sehe ich fern.",
+              "fr": "Après le dîner, je regarde la télé.",
+              "pt": "Depois do jantar, vejo TV.",
+              "zh": "吃完晚饭，我看电视。"
+            },
+            {
+              "es": "Hablamos después de que termine la reunión.",
+              "en": "We'll talk after the meeting finishes.",
+              "it": "Ne parliamo dopo che sarà finita la riunione.",
+              "uk": "Поговоримо після того, як закінчиться нарада.",
+              "de": "Wir sprechen darüber, nachdem die Besprechung zu Ende ist.",
+              "fr": "On en parlera quand la réunion sera terminée.",
+              "pt": "Conversamos depois que a reunião terminar.",
+              "zh": "等会议结束以后我们再谈。"
+            },
+            {
+              "es": "Te llamo después de que se acuesten los niños.",
+              "en": "I'll call you after the children go to bed.",
+              "it": "Ti chiamo dopo che i bambini saranno andati a letto.",
+              "uk": "Я подзвоню тобі після того, як діти ляжуть спати.",
+              "de": "Ich rufe dich an, nachdem die Kinder ins Bett gegangen sind.",
+              "fr": "Je t'appellerai quand les enfants seront couchés.",
+              "pt": "Te ligo depois que as crianças forem dormir.",
+              "zh": "等孩子们睡下以后我给你打电话。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "se acuesten",
+              "en": "(that) they go to bed",
+              "it": "(che loro) vadano a letto",
+              "uk": "(щоб) вони лягли спати",
+              "de": "(dass) sie ins Bett gehen",
+              "fr": "(qu'ils / qu'elles) se couchent",
+              "pt": "(que eles) se deitem, vão para a cama",
+              "zh": "他们上床睡觉（虚拟式）"
+            }
+          ]
+        },
+        {
+          "type": "gap",
+          "before": "Hablamos después de que ",
+          "after": " la reunión.",
+          "label": "terminar",
+          "accepted": [
+            "termine"
+          ],
+          "en": "We'll talk after the meeting finishes.",
+          "it": "Ne parliamo dopo che sarà finita la riunione.",
+          "uk": "Поговоримо після того, як закінчиться нарада.",
+          "de": "Wir sprechen darüber, nachdem die Besprechung zu Ende ist.",
+          "fr": "On en parlera quand la réunion sera terminée.",
+          "pt": "Conversamos depois que a reunião terminar.",
+          "zh": "等会议结束以后我们再谈。",
+          "hint": {
+            "en": "The meeting finishes, not you: después de que + termine.",
+            "it": "Finisce la riunione, non tu: después de que + termine.",
+            "uk": "Закінчується нарада, а не ти: después de que + termine.",
+            "de": "Die Besprechung endet, nicht du: después de que + termine.",
+            "fr": "C'est la réunion qui se termine, pas toi : después de que + termine.",
+            "pt": "Quem termina é a reunião, não você: después de que + termine.",
+            "zh": "结束的是会议，不是你：después de que + termine。"
+          },
+          "beat": "forge"
+        },
+        {
+          "type": "choose",
+          "before": "Después de ",
+          "after": ", veo la tele un rato.",
+          "options": [
+            "cenar",
+            "ceno",
+            "cenamos"
+          ],
+          "answer": "cenar",
+          "en": "After dinner, I watch TV for a while.",
+          "it": "Dopo cena guardo un po' la tv.",
+          "uk": "Після вечері я трохи дивлюся телевізор.",
+          "de": "Nach dem Abendessen sehe ich ein bisschen fern.",
+          "fr": "Après le dîner, je regarde un peu la télé.",
+          "pt": "Depois do jantar, vejo um pouco de TV.",
+          "zh": "吃完晚饭，我看一会儿电视。",
+          "hint": {
+            "en": "You have dinner and you watch TV: después de + the dictionary form.",
+            "it": "Ceni tu e guardi tu la tv: después de + l'infinito.",
+            "uk": "Вечеряєш і дивишся телевізор ти: después de + словникова форма.",
+            "de": "Du isst zu Abend und du siehst fern: después de + Infinitiv.",
+            "fr": "C'est toi qui dînes et toi qui regardes la télé : después de + l'infinitif.",
+            "pt": "Quem janta e quem vê TV é você: después de + a forma do dicionário.",
+            "zh": "吃晚饭的是你，看电视的也是你：después de + 动词原形。"
+          },
+          "beat": "fire"
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "antes de que",
+              "kind": "rail"
+            },
+            {
+              "text": "se me olvide",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "Two everyday phrases: antes de que se me olvide (before I forget) and antes de que sea demasiado tarde (before it's too late).",
+            "it": "Due frasi di tutti i giorni: antes de que se me olvide (prima che me ne dimentichi) e antes de que sea demasiado tarde (prima che sia troppo tardi).",
+            "uk": "Два повсякденні вирази: antes de que se me olvide (поки не забув(-ла)) і antes de que sea demasiado tarde (поки не пізно).",
+            "de": "Zwei Alltagsausdrücke: antes de que se me olvide (bevor ich es vergesse) und antes de que sea demasiado tarde (bevor es zu spät ist).",
+            "fr": "Deux expressions de tous les jours : antes de que se me olvide (avant que j'oublie) et antes de que sea demasiado tarde (avant qu'il soit trop tard).",
+            "pt": "Duas frases do dia a dia: antes de que se me olvide (antes que eu esqueça) e antes de que sea demasiado tarde (antes que seja tarde demais).",
+            "zh": "两个日常用语：antes de que se me olvide（趁我还没忘）和 antes de que sea demasiado tarde（趁现在还不太晚）。"
+          },
+          "examples": [
+            {
+              "es": "Antes de que se me olvide: mañana no hay clase.",
+              "en": "Before I forget: there's no class tomorrow.",
+              "it": "Prima che me ne dimentichi: domani non c'è lezione.",
+              "uk": "Поки не забув(-ла): завтра заняття не буде.",
+              "de": "Bevor ich es vergesse: Morgen ist kein Unterricht.",
+              "fr": "Avant que j'oublie : demain, il n'y a pas cours.",
+              "pt": "Antes que eu esqueça: amanhã não tem aula.",
+              "zh": "趁我还没忘：明天不上课。"
+            },
+            {
+              "es": "Llama a tu madre antes de que sea demasiado tarde.",
+              "en": "Call your mother before it's too late.",
+              "it": "Chiama tua madre prima che sia troppo tardi.",
+              "uk": "Подзвони мамі, поки не пізно.",
+              "de": "Ruf deine Mutter an, bevor es zu spät ist.",
+              "fr": "Appelle ta mère avant qu'il soit trop tard.",
+              "pt": "Ligue para sua mãe antes que seja tarde demais.",
+              "zh": "趁现在还不太晚，给你妈妈打个电话吧。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "se me olvide",
+              "en": "(that) I forget",
+              "it": "(che) me ne dimentichi",
+              "uk": "(щоб) я забув(-ла)",
+              "de": "(dass) ich es vergesse",
+              "fr": "(que) j'oublie",
+              "pt": "(que) eu esqueça",
+              "zh": "我忘记（虚拟式）"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "before": "Antes de que se me ",
+          "after": ": aquí tienes tus llaves.",
+          "options": [
+            "olvide",
+            "olvidar",
+            "olvidado"
+          ],
+          "answer": "olvide",
+          "en": "Before I forget: here are your keys.",
+          "it": "Prima che me ne dimentichi: ecco le tue chiavi.",
+          "uk": "Поки не забув(-ла): ось твої ключі.",
+          "de": "Bevor ich es vergesse: Hier sind deine Schlüssel.",
+          "fr": "Avant que j'oublie : voici tes clés.",
+          "pt": "Antes que eu esqueça: aqui estão suas chaves.",
+          "zh": "趁我还没忘：这是你的钥匙。",
+          "hint": {
+            "en": "After antes de que, always the subjunctive: se me olvide.",
+            "it": "Dopo antes de que sempre il congiuntivo: se me olvide.",
+            "uk": "Після antes de que завжди «subjuntivo»: se me olvide.",
+            "de": "Nach antes de que immer subjuntivo: se me olvide.",
+            "fr": "Après antes de que, toujours le subjonctif : se me olvide.",
+            "pt": "Depois de antes de que, sempre o subjuntivo: se me olvide.",
+            "zh": "antes de que 后面一定用虚拟式：se me olvide。"
+          },
+          "beat": "forge"
+        },
+        {
+          "type": "build",
+          "intention": {
+            "en": "Your friend still hasn't told her boss the truth. Tell her to tell him before it's too late.",
+            "it": "La tua amica non ha ancora detto la verità al suo capo. Dille di dirgliela prima che sia troppo tardi.",
+            "uk": "Твоя подруга досі не сказала начальникові правду. Скажи їй, щоб вона сказала йому, поки не пізно.",
+            "de": "Deine Freundin hat ihrem Chef immer noch nicht die Wahrheit gesagt. Sag ihr, dass sie es ihm sagen soll, bevor es zu spät ist.",
+            "fr": "Ton amie n'a toujours pas dit la vérité à son chef. Dis-lui de la lui dire avant qu'il soit trop tard.",
+            "pt": "Sua amiga ainda não contou a verdade para o chefe. Diga a ela que conte para ele antes que seja tarde demais.",
+            "zh": "你的朋友还没有跟她老板说实话。让她趁现在还不太晚告诉他。"
+          },
+          "accepted": [
+            "Díselo antes de que sea demasiado tarde.",
+            "Díselo antes de que sea tarde."
+          ],
+          "tiles": [
+            "Díselo",
+            "antes de que",
+            "sea",
+            "demasiado",
+            "tarde",
+            "es",
+            "antes de"
+          ],
+          "en": "Tell him before it's too late.",
+          "it": "Diglielo prima che sia troppo tardi.",
+          "uk": "Скажи йому, поки не пізно.",
+          "de": "Sag es ihm, bevor es zu spät ist.",
+          "fr": "Dis-le-lui avant qu'il soit trop tard.",
+          "pt": "Conte para ele antes que seja tarde demais.",
+          "zh": "趁现在还不太晚，告诉他吧。",
+          "hint": {
+            "en": "antes de que + the subjunctive: es → sea.",
+            "it": "antes de que + il congiuntivo: es → sea.",
+            "uk": "antes de que + «subjuntivo»: es → sea.",
+            "de": "antes de que + subjuntivo: es → sea.",
+            "fr": "antes de que + le subjonctif : es → sea.",
+            "pt": "antes de que + o subjuntivo: es → sea.",
+            "zh": "antes de que + 虚拟式：es → sea。"
+          },
+          "beat": "fire"
+        },
+        {
+          "type": "gap",
+          "before": "Limpia la cocina antes de que ",
+          "after": " tus padres.",
+          "label": "llegar",
+          "accepted": [
+            "lleguen"
+          ],
+          "en": "Clean the kitchen before your parents arrive.",
+          "it": "Pulisci la cucina prima che arrivino i tuoi genitori.",
+          "uk": "Прибери на кухні, перш ніж приїдуть твої батьки.",
+          "de": "Putz die Küche, bevor deine Eltern ankommen.",
+          "fr": "Nettoie la cuisine avant que tes parents arrivent.",
+          "pt": "Limpe a cozinha antes que seus pais cheguem.",
+          "zh": "在你父母到之前把厨房打扫干净。",
+          "hint": {
+            "en": "tus padres = ellos: antes de que + lleguen, spelt with gu.",
+            "it": "tus padres = ellos: antes de que + lleguen, con gu.",
+            "uk": "tus padres = ellos: antes de que + lleguen, пишеться з gu.",
+            "de": "tus padres = ellos: antes de que + lleguen, mit gu geschrieben.",
+            "fr": "tus padres = ellos : antes de que + lleguen, écrit avec gu.",
+            "pt": "tus padres = ellos: antes de que + lleguen, com gu.",
+            "zh": "tus padres = ellos：antes de que + lleguen，写成 gu。"
+          },
+          "beat": "mix"
+        },
+        {
+          "type": "choose",
+          "before": "Llámame antes de ",
+          "after": " de casa.",
+          "options": [
+            "salir",
+            "salgas",
+            "sales"
+          ],
+          "answer": "salir",
+          "en": "Call me before you leave home.",
+          "it": "Chiamami prima di uscire di casa.",
+          "uk": "Подзвони мені, перш ніж вийдеш з дому.",
+          "de": "Ruf mich an, bevor du aus dem Haus gehst.",
+          "fr": "Appelle-moi avant de partir de chez toi.",
+          "pt": "Me ligue antes de sair de casa.",
+          "zh": "你出门之前给我打个电话。",
+          "hint": {
+            "en": "You call and you leave, the same person: antes de + salir.",
+            "it": "Chiami tu ed esci tu, la stessa persona: antes de + salir.",
+            "uk": "Дзвониш і виходиш ти, та сама людина: antes de + salir.",
+            "de": "Du rufst an und du gehst, dieselbe Person: antes de + salir.",
+            "fr": "C'est toi qui appelles et toi qui sors, la même personne : antes de + salir.",
+            "pt": "Quem liga e quem sai é a mesma pessoa: antes de + salir.",
+            "zh": "打电话的是你，出门的也是你，是同一个人：antes de + salir。"
+          },
+          "beat": "mix"
+        },
+        {
+          "type": "build",
+          "intention": {
+            "en": "Dark clouds are coming. Tell your friend: let's go home before it rains.",
+            "it": "Arrivano nuvole scure. Di' al tuo amico: andiamo a casa prima che piova.",
+            "uk": "Насуваються темні хмари. Скажи другові (подрузі): ходімо додому, поки не пішов дощ.",
+            "de": "Dunkle Wolken ziehen auf. Sag zu deinem Freund: Lass uns nach Hause gehen, bevor es regnet.",
+            "fr": "De gros nuages noirs arrivent. Dis à ton ami : rentrons à la maison avant qu'il pleuve.",
+            "pt": "Estão chegando nuvens escuras. Diga ao seu amigo: vamos para casa antes que chova.",
+            "zh": "乌云来了。对你的朋友说：我们趁下雨之前回家吧。"
+          },
+          "accepted": [
+            "Vamos a casa antes de que llueva."
+          ],
+          "tiles": [
+            "Vamos",
+            "a casa",
+            "antes de que",
+            "llueva",
+            "llueve",
+            "antes de"
+          ],
+          "en": "Let's go home before it rains.",
+          "it": "Andiamo a casa prima che piova.",
+          "uk": "Ходімо додому, поки не пішов дощ.",
+          "de": "Lass uns nach Hause gehen, bevor es regnet.",
+          "fr": "Rentrons à la maison avant qu'il pleuve.",
+          "pt": "Vamos para casa antes que chova.",
+          "zh": "我们趁下雨之前回家吧。",
+          "hint": {
+            "en": "The rain isn't you: antes de que + llueva.",
+            "it": "La pioggia non sei tu: antes de que + llueva.",
+            "uk": "Дощ — це не ти: antes de que + llueva.",
+            "de": "Der Regen bist nicht du: antes de que + llueva.",
+            "fr": "La pluie, ce n'est pas toi : antes de que + llueva.",
+            "pt": "Quem chove não é você: antes de que + llueva.",
+            "zh": "下雨的不是你：antes de que + llueva。"
+          },
+          "beat": "mix"
+        },
+        {
+          "type": "write",
+          "instruction": {
+            "en": "Write in Spanish: «I have to clean the house before my parents arrive.»",
+            "it": "Scrivi in spagnolo: «Devo pulire la casa prima che arrivino i miei genitori.»",
+            "uk": "Напиши іспанською: «Мені треба прибрати в домі, перш ніж приїдуть мої батьки.»",
+            "de": "Schreib auf Spanisch: «Ich muss das Haus putzen, bevor meine Eltern ankommen.»",
+            "fr": "Écris en espagnol : «Je dois nettoyer la maison avant que mes parents arrivent.»",
+            "pt": "Escreva em espanhol: «Tenho que limpar a casa antes que meus pais cheguem.»",
+            "zh": "用西班牙语写：«我得在我父母到之前把房子打扫干净。»"
+          },
+          "accepted": [
+            "Tengo que limpiar la casa antes de que lleguen mis padres.",
+            "Antes de que lleguen mis padres, tengo que limpiar la casa.",
+            "Tengo que limpiar la casa antes de que mis padres lleguen."
+          ],
+          "model": {
+            "es": "Tengo que limpiar la casa antes de que lleguen mis padres.",
+            "en": "I have to clean the house before my parents arrive.",
+            "it": "Devo pulire la casa prima che arrivino i miei genitori.",
+            "uk": "Мені треба прибрати в домі, перш ніж приїдуть мої батьки.",
+            "de": "Ich muss das Haus putzen, bevor meine Eltern ankommen.",
+            "fr": "Je dois nettoyer la maison avant que mes parents arrivent.",
+            "pt": "Tenho que limpar a casa antes que meus pais cheguem.",
+            "zh": "我得在我父母到之前把房子打扫干净。"
+          },
+          "beat": "mix"
+        }
+      ]
+    },
+    {
+      "id": "u33l4",
+      "goal": {
+        "en": "Set conditions: a menos que (unless) and con tal de que (as long as) + the subjunctive, and the same idea with si no + the normal present.",
+        "it": "Metti delle condizioni: a menos que (a meno che) e con tal de que (purché) + il congiuntivo, e la stessa idea con si no + il presente normale.",
+        "uk": "Став умови: a menos que (хіба що, якщо тільки не) і con tal de que (за умови, що) + «subjuntivo», а також ту саму думку з si no + звичайний теперішній час.",
+        "de": "Stell Bedingungen: a menos que (es sei denn) und con tal de que (solange, vorausgesetzt) + subjuntivo, und dieselbe Idee mit si no + normales Präsens.",
+        "fr": "Pose des conditions : a menos que (à moins que) et con tal de que (pourvu que) + le subjonctif, et la même idée avec si no + le présent normal.",
+        "pt": "Coloque condições: a menos que e con tal de que (contanto que) + o subjuntivo, e a mesma ideia com si no + o presente normal.",
+        "zh": "提出条件：a menos que（除非）和 con tal de que（只要）+ 虚拟式，以及用 si no + 普通的现在时表达同样的意思。"
+      },
+      "target": {
+        "es": "Mañana iré a la playa, a menos que llueva.",
+        "en": "I'll go to the beach tomorrow, unless it rains.",
+        "it": "Domani andrò al mare, a meno che non piova.",
+        "uk": "Завтра я піду на пляж, хіба що буде дощ.",
+        "de": "Morgen gehe ich an den Strand, es sei denn, es regnet.",
+        "fr": "Demain, j'irai à la plage, à moins qu'il pleuve.",
+        "pt": "Amanhã vou à praia, a menos que chova.",
+        "zh": "明天我去海边，除非下雨。"
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "a menos que",
+              "en": "unless",
+              "it": "a meno che (non)",
+              "uk": "хіба що, якщо тільки не",
+              "de": "es sei denn, außer wenn",
+              "fr": "à moins que",
+              "pt": "a menos que",
+              "zh": "除非",
+              "kind": "rail"
+            },
+            {
+              "es": "con tal de que",
+              "en": "as long as, provided that",
+              "it": "purché",
+              "uk": "за умови, що; аби тільки",
+              "de": "solange, vorausgesetzt, dass",
+              "fr": "pourvu que, à condition que",
+              "pt": "contanto que, desde que",
+              "zh": "只要，前提是",
+              "kind": "rail"
+            },
+            {
+              "es": "devolver",
+              "en": "to give back",
+              "it": "restituire",
+              "uk": "повертати (річ)",
+              "de": "zurückgeben",
+              "fr": "rendre",
+              "pt": "devolver",
+              "zh": "归还，还",
+              "kind": "stem"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "a menos que",
+              "kind": "rail"
+            },
+            {
+              "text": "llueva",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "a menos que (unless) is always followed by the subjunctive: iré a la playa, a menos que llueva.",
+            "it": "a menos que (a meno che) è sempre seguito dal congiuntivo, come in italiano: iré a la playa, a menos que llueva.",
+            "uk": "Після a menos que (хіба що, якщо тільки не) завжди йде «subjuntivo»: iré a la playa, a menos que llueva.",
+            "de": "Nach a menos que (es sei denn) steht immer der subjuntivo: iré a la playa, a menos que llueva.",
+            "fr": "a menos que (à moins que) est toujours suivi du subjonctif, comme en français : iré a la playa, a menos que llueva.",
+            "pt": "a menos que é sempre seguido do subjuntivo, como em português: iré a la playa, a menos que llueva.",
+            "zh": "a menos que（除非）后面总是用虚拟式：iré a la playa, a menos que llueva。"
+          },
+          "examples": [
+            {
+              "es": "Iré a la playa, a menos que llueva.",
+              "en": "I'll go to the beach, unless it rains.",
+              "it": "Andrò al mare, a meno che non piova.",
+              "uk": "Я піду на пляж, хіба що буде дощ.",
+              "de": "Ich gehe an den Strand, es sei denn, es regnet.",
+              "fr": "J'irai à la plage, à moins qu'il pleuve.",
+              "pt": "Vou à praia, a menos que chova.",
+              "zh": "我会去海边，除非下雨。"
+            },
+            {
+              "es": "No te llamo, a menos que haya un problema.",
+              "en": "I won't call you unless there's a problem.",
+              "it": "Non ti chiamo, a meno che non ci sia un problema.",
+              "uk": "Я тобі не дзвонитиму, хіба що буде якась проблема.",
+              "de": "Ich rufe dich nicht an, es sei denn, es gibt ein Problem.",
+              "fr": "Je ne t'appelle pas, à moins qu'il y ait un problème.",
+              "pt": "Não vou te ligar, a menos que haja um problema.",
+              "zh": "我不会给你打电话，除非有问题。"
+            },
+            {
+              "es": "Cenamos a las nueve, a menos que tengas otro plan.",
+              "en": "We'll have dinner at nine, unless you've got other plans.",
+              "it": "Ceniamo alle nove, a meno che tu non abbia altri programmi.",
+              "uk": "Вечеряємо о дев'ятій, якщо тільки в тебе немає інших планів.",
+              "de": "Wir essen um neun zu Abend, es sei denn, du hast etwas anderes vor.",
+              "fr": "On dîne à neuf heures, à moins que tu aies autre chose de prévu.",
+              "pt": "Jantamos às nove, a menos que você tenha outros planos.",
+              "zh": "我们九点吃晚饭，除非你另有安排。"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "before": "Mañana vamos a la playa, a menos que ",
+          "after": " frío.",
+          "options": [
+            "haga",
+            "hace",
+            "hará"
+          ],
+          "answer": "haga",
+          "en": "We're going to the beach tomorrow, unless it's cold.",
+          "it": "Domani andiamo al mare, a meno che non faccia freddo.",
+          "uk": "Завтра ми йдемо на пляж, хіба що буде холодно.",
+          "de": "Morgen gehen wir an den Strand, es sei denn, es ist kalt.",
+          "fr": "Demain, on va à la plage, à moins qu'il fasse froid.",
+          "pt": "Amanhã vamos à praia, a menos que faça frio.",
+          "zh": "明天我们去海边，除非天冷。",
+          "hint": {
+            "en": "a menos que + the subjunctive: hace → haga.",
+            "it": "a menos que + il congiuntivo: hace → haga.",
+            "uk": "a menos que + «subjuntivo»: hace → haga.",
+            "de": "a menos que + subjuntivo: hace → haga.",
+            "fr": "a menos que + le subjonctif : hace → haga.",
+            "pt": "a menos que + o subjuntivo: hace → haga.",
+            "zh": "a menos que + 虚拟式：hace → haga。"
+          },
+          "beat": "forge"
+        },
+        {
+          "type": "gap",
+          "before": "Te espero en el bar, a menos que ",
+          "after": " mucho trabajo.",
+          "label": "tener",
+          "accepted": [
+            "tengas"
+          ],
+          "en": "I'll wait for you at the bar, unless you've got a lot of work.",
+          "it": "Ti aspetto al bar, a meno che tu non abbia molto lavoro.",
+          "uk": "Я чекатиму тебе в барі, якщо тільки в тебе не буде багато роботи.",
+          "de": "Ich warte in der Bar auf dich, es sei denn, du hast viel Arbeit.",
+          "fr": "Je t'attends au bar, à moins que tu aies beaucoup de travail.",
+          "pt": "Te espero no bar, a menos que você tenha muito trabalho.",
+          "zh": "我在酒吧等你，除非你工作很多。",
+          "hint": {
+            "en": "a menos que + the subjunctive; tú: tengas.",
+            "it": "a menos que + il congiuntivo; tú: tengas.",
+            "uk": "a menos que + «subjuntivo»; tú: tengas.",
+            "de": "a menos que + subjuntivo; tú: tengas.",
+            "fr": "a menos que + le subjonctif ; tú : tengas.",
+            "pt": "a menos que + o subjuntivo; tú: tengas.",
+            "zh": "a menos que + 虚拟式；tú：tengas。"
+          },
+          "beat": "fire"
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "si no",
+              "kind": "rail"
+            },
+            {
+              "text": "llueve",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "You can say the same with si no + the normal present: a menos que llueva = si no llueve. Never put the subjunctive after si.",
+            "it": "Puoi dire la stessa cosa con si no + il presente normale: a menos que llueva = si no llueve. Mai il congiuntivo dopo si.",
+            "uk": "Те саме можна сказати через si no + звичайний теперішній час: a menos que llueva = si no llueve. Після si ніколи не став «subjuntivo».",
+            "de": "Dasselbe kannst du mit si no + normalem Präsens sagen: a menos que llueva = si no llueve (wenn es nicht regnet). Nach si steht nie der subjuntivo.",
+            "fr": "Tu peux dire la même chose avec si no + le présent normal : a menos que llueva = si no llueve. Jamais de subjonctif après si, comme en français.",
+            "pt": "Você pode dizer o mesmo com si no + o presente normal: a menos que llueva = si no llueve. Nunca use o subjuntivo depois de si. Cuidado: em português dizemos se não chover (futuro do subjuntivo), mas em espanhol é si no llueve.",
+            "zh": "同样的意思也可以用 si no + 普通的现在时来表达：a menos que llueva = si no llueve。si 后面绝对不能用虚拟式。"
+          },
+          "examples": [
+            {
+              "es": "Iré a la playa si no llueve.",
+              "en": "I'll go to the beach if it doesn't rain.",
+              "it": "Andrò al mare se non piove.",
+              "uk": "Я піду на пляж, якщо не буде дощу.",
+              "de": "Ich gehe an den Strand, wenn es nicht regnet.",
+              "fr": "J'irai à la plage s'il ne pleut pas.",
+              "pt": "Vou à praia se não chover.",
+              "zh": "如果不下雨，我就去海边。"
+            },
+            {
+              "es": "Si no tienes otro plan, cenamos a las nueve.",
+              "en": "If you haven't got other plans, we'll have dinner at nine.",
+              "it": "Se non hai altri programmi, ceniamo alle nove.",
+              "uk": "Якщо в тебе немає інших планів, повечеряємо о дев'ятій.",
+              "de": "Wenn du nichts anderes vorhast, essen wir um neun zu Abend.",
+              "fr": "Si tu n'as rien d'autre de prévu, on dîne à neuf heures.",
+              "pt": "Se você não tiver outros planos, jantamos às nove.",
+              "zh": "如果你没有别的安排，我们九点吃晚饭。"
+            },
+            {
+              "es": "Te llamo si hay un problema.",
+              "en": "I'll call you if there's a problem.",
+              "it": "Ti chiamo se c'è un problema.",
+              "uk": "Я тобі подзвоню, якщо буде якась проблема.",
+              "de": "Ich rufe dich an, wenn es ein Problem gibt.",
+              "fr": "Je t'appelle s'il y a un problème.",
+              "pt": "Te ligo se tiver algum problema.",
+              "zh": "如果有问题，我就给你打电话。"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "before": "Iré a la fiesta si no ",
+          "after": " mucho trabajo.",
+          "options": [
+            "tengo",
+            "tenga"
+          ],
+          "answer": "tengo",
+          "en": "I'll go to the party if I haven't got a lot of work.",
+          "it": "Andrò alla festa se non ho molto lavoro.",
+          "uk": "Я піду на вечірку, якщо в мене не буде багато роботи.",
+          "de": "Ich gehe auf die Party, wenn ich nicht viel Arbeit habe.",
+          "fr": "J'irai à la fête si je n'ai pas beaucoup de travail.",
+          "pt": "Vou à festa se não tiver muito trabalho.",
+          "zh": "如果我工作不多，我就去参加聚会。",
+          "hint": {
+            "en": "After si, the normal present: tengo.",
+            "it": "Dopo si, il presente normale: tengo.",
+            "uk": "Після si — звичайний теперішній час: tengo.",
+            "de": "Nach si das normale Präsens: tengo.",
+            "fr": "Après si, le présent normal : tengo.",
+            "pt": "Depois de si, o presente normal: tengo (em português: se eu não tiver).",
+            "zh": "si 后面用普通的现在时：tengo。"
+          },
+          "beat": "forge"
+        },
+        {
+          "type": "choose",
+          "before": "Iré a la fiesta, a menos que ",
+          "after": " mucho trabajo.",
+          "options": [
+            "tenga",
+            "tengo"
+          ],
+          "answer": "tenga",
+          "en": "I'll go to the party, unless I've got a lot of work.",
+          "it": "Andrò alla festa, a meno che non abbia molto lavoro.",
+          "uk": "Я піду на вечірку, хіба що в мене буде багато роботи.",
+          "de": "Ich gehe auf die Party, es sei denn, ich habe viel Arbeit.",
+          "fr": "J'irai à la fête, à moins que j'aie beaucoup de travail.",
+          "pt": "Vou à festa, a menos que eu tenha muito trabalho.",
+          "zh": "我会去参加聚会，除非我工作很多。",
+          "hint": {
+            "en": "After a menos que, the subjunctive: tenga.",
+            "it": "Dopo a menos que, il congiuntivo: tenga.",
+            "uk": "Після a menos que — «subjuntivo»: tenga.",
+            "de": "Nach a menos que der subjuntivo: tenga.",
+            "fr": "Après a menos que, le subjonctif : tenga.",
+            "pt": "Depois de a menos que, o subjuntivo: tenga.",
+            "zh": "a menos que 后面用虚拟式：tenga。"
+          },
+          "beat": "fire"
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "con tal de que",
+              "kind": "rail"
+            },
+            {
+              "text": "vuelvas",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "con tal de que (as long as) sets a condition and is also followed by the subjunctive: puedes salir, con tal de que vuelvas pronto.",
+            "it": "con tal de que (purché) mette una condizione ed è anche lui seguito dal congiuntivo: puedes salir, con tal de que vuelvas pronto.",
+            "uk": "con tal de que (за умови, що) теж ставить умову, і після нього теж іде «subjuntivo»: puedes salir, con tal de que vuelvas pronto.",
+            "de": "con tal de que (solange, vorausgesetzt) stellt eine Bedingung und hat ebenfalls den subjuntivo nach sich: puedes salir, con tal de que vuelvas pronto.",
+            "fr": "con tal de que (pourvu que) pose une condition et il est lui aussi suivi du subjonctif : puedes salir, con tal de que vuelvas pronto.",
+            "pt": "con tal de que (contanto que) coloca uma condição e também é seguido do subjuntivo, como em português: puedes salir, con tal de que vuelvas pronto.",
+            "zh": "con tal de que（只要）表示条件，后面也要用虚拟式：puedes salir, con tal de que vuelvas pronto。"
+          },
+          "examples": [
+            {
+              "es": "Puedes salir, con tal de que vuelvas pronto.",
+              "en": "You can go out, as long as you come back early.",
+              "it": "Puoi uscire, purché tu torni presto.",
+              "uk": "Можеш піти погуляти, аби тільки повернувся(-лася) рано.",
+              "de": "Du darfst ausgehen, solange du früh zurückkommst.",
+              "fr": "Tu peux sortir, pourvu que tu rentres tôt.",
+              "pt": "Você pode sair, contanto que volte cedo.",
+              "zh": "你可以出去，只要早点回来。"
+            },
+            {
+              "es": "Te dejo el coche, con tal de que me lo devuelvas mañana.",
+              "en": "I'll lend you the car, as long as you give it back to me tomorrow.",
+              "it": "Ti presto la macchina, purché tu me la restituisca domani.",
+              "uk": "Я позичу тобі машину, за умови, що ти мені її повернеш завтра.",
+              "de": "Ich leihe dir das Auto, vorausgesetzt, du gibst es mir morgen zurück.",
+              "fr": "Je te prête la voiture, à condition que tu me la rendes demain.",
+              "pt": "Te empresto o carro, contanto que você me devolva amanhã.",
+              "zh": "我把车借给你，只要你明天还给我。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "devuelvas",
+              "en": "(that) you give back",
+              "it": "(che tu) restituisca",
+              "uk": "(щоб) ти повернув(-ла)",
+              "de": "(dass) du zurückgibst",
+              "fr": "(que tu) rendes",
+              "pt": "(que você) devolva",
+              "zh": "你归还（虚拟式）"
+            },
+            {
+              "es": "devuelva",
+              "en": "(that) I / he / she gives back",
+              "it": "(che io / lui / lei) restituisca",
+              "uk": "(щоб) я / він / вона повернув(-ла)",
+              "de": "(dass) ich / er / sie zurückgibt",
+              "fr": "(que je / qu'il / qu'elle) rende",
+              "pt": "(que eu / ele / ela) devolva",
+              "zh": "我／他／她归还（虚拟式）"
+            }
+          ]
+        },
+        {
+          "type": "gap",
+          "before": "Puedes salir, con tal de que ",
+          "after": " antes de las doce.",
+          "label": "volver",
+          "accepted": [
+            "vuelvas"
+          ],
+          "en": "You can go out, as long as you're back before twelve.",
+          "it": "Puoi uscire, purché tu torni prima di mezzanotte.",
+          "uk": "Можеш піти погуляти, аби тільки повернувся(-лася) до дванадцятої.",
+          "de": "Du darfst ausgehen, solange du vor zwölf zurück bist.",
+          "fr": "Tu peux sortir, pourvu que tu rentres avant minuit.",
+          "pt": "Você pode sair, contanto que volte antes da meia-noite.",
+          "zh": "你可以出去，只要十二点以前回来。",
+          "hint": {
+            "en": "con tal de que + the subjunctive: vuelves → vuelvas.",
+            "it": "con tal de que + il congiuntivo: vuelves → vuelvas.",
+            "uk": "con tal de que + «subjuntivo»: vuelves → vuelvas.",
+            "de": "con tal de que + subjuntivo: vuelves → vuelvas.",
+            "fr": "con tal de que + le subjonctif : vuelves → vuelvas.",
+            "pt": "con tal de que + o subjuntivo: vuelves → vuelvas.",
+            "zh": "con tal de que + 虚拟式：vuelves → vuelvas。"
+          },
+          "beat": "forge"
+        },
+        {
+          "type": "build",
+          "intention": {
+            "en": "Your friend asks to borrow your car. Say yes, as long as she gives it back to you tomorrow.",
+            "it": "La tua amica ti chiede in prestito la macchina. Dille di sì, purché te la restituisca domani.",
+            "uk": "Подруга просить позичити твою машину. Погодься, за умови, що вона поверне її тобі завтра.",
+            "de": "Deine Freundin fragt, ob sie dein Auto leihen kann. Sag ja, vorausgesetzt, sie gibt es dir morgen zurück.",
+            "fr": "Ton amie te demande de lui prêter ta voiture. Dis oui, à condition qu'elle te la rende demain.",
+            "pt": "Sua amiga pede seu carro emprestado. Diga que sim, contanto que ela devolva amanhã.",
+            "zh": "你的朋友想借你的车。答应她，只要她明天还给你。"
+          },
+          "accepted": [
+            "Te lo dejo, con tal de que me lo devuelvas mañana.",
+            "Sí, te lo dejo, con tal de que me lo devuelvas mañana.",
+            "Te lo dejo con tal de que mañana me lo devuelvas."
+          ],
+          "tiles": [
+            "Te lo dejo",
+            "con tal de que",
+            "me lo",
+            "devuelvas",
+            "mañana",
+            "devuelves",
+            "a menos que"
+          ],
+          "en": "I'll lend it to you, as long as you give it back to me tomorrow.",
+          "it": "Te la presto, purché tu me la restituisca domani.",
+          "uk": "Я тобі її позичу, за умови, що ти мені її повернеш завтра.",
+          "de": "Ich leihe es dir, vorausgesetzt, du gibst es mir morgen zurück. (es = el coche, also lo)",
+          "fr": "Je te la prête, à condition que tu me la rendes demain.",
+          "pt": "Te empresto, contanto que você me devolva amanhã.",
+          "zh": "我借给你，只要你明天还给我。",
+          "hint": {
+            "en": "A condition: con tal de que + devuelvas.",
+            "it": "Una condizione: con tal de que + devuelvas.",
+            "uk": "Умова: con tal de que + devuelvas.",
+            "de": "Eine Bedingung: con tal de que + devuelvas.",
+            "fr": "Une condition : con tal de que + devuelvas.",
+            "pt": "Uma condição: con tal de que + devuelvas.",
+            "zh": "这是一个条件：con tal de que + devuelvas。"
+          },
+          "beat": "fire"
+        },
+        {
+          "type": "choose",
+          "before": "No te llamo, a menos que ",
+          "after": " un problema.",
+          "options": [
+            "haya",
+            "hay",
+            "habrá"
+          ],
+          "answer": "haya",
+          "en": "I won't call you unless there's a problem.",
+          "it": "Non ti chiamo, a meno che non ci sia un problema.",
+          "uk": "Я тобі не дзвонитиму, хіба що буде якась проблема.",
+          "de": "Ich rufe dich nicht an, es sei denn, es gibt ein Problem.",
+          "fr": "Je ne t'appelle pas, à moins qu'il y ait un problème.",
+          "pt": "Não vou te ligar, a menos que haja um problema.",
+          "zh": "我不会给你打电话，除非有问题。",
+          "hint": {
+            "en": "a menos que + the subjunctive: hay → haya.",
+            "it": "a menos que + il congiuntivo: hay → haya.",
+            "uk": "a menos que + «subjuntivo»: hay → haya.",
+            "de": "a menos que + subjuntivo: hay → haya.",
+            "fr": "a menos que + le subjonctif : hay → haya.",
+            "pt": "a menos que + o subjuntivo: hay → haya.",
+            "zh": "a menos que + 虚拟式：hay → haya。"
+          },
+          "beat": "mix"
+        },
+        {
+          "type": "gap",
+          "before": "Te ayudo con la mudanza, con tal de que ",
+          "after": " tú la comida.",
+          "label": "pagar",
+          "accepted": [
+            "pagues"
+          ],
+          "en": "I'll help you move, as long as you pay for lunch.",
+          "it": "Ti aiuto con il trasloco, purché il pranzo lo paghi tu.",
+          "uk": "Я допоможу тобі з переїздом, за умови, що ти заплатиш за обід.",
+          "de": "Ich helfe dir beim Umzug, vorausgesetzt, du bezahlst das Mittagessen.",
+          "fr": "Je t'aide à déménager, à condition que ce soit toi qui paies le déjeuner.",
+          "pt": "Te ajudo com a mudança, contanto que você pague o almoço.",
+          "zh": "我帮你搬家，只要你请我吃午饭。",
+          "hint": {
+            "en": "con tal de que + the subjunctive: pagas → pagues, spelt with gu.",
+            "it": "con tal de que + il congiuntivo: pagas → pagues, con gu.",
+            "uk": "con tal de que + «subjuntivo»: pagas → pagues, пишеться з gu.",
+            "de": "con tal de que + subjuntivo: pagas → pagues, mit gu geschrieben.",
+            "fr": "con tal de que + le subjonctif : pagas → pagues, écrit avec gu.",
+            "pt": "con tal de que + o subjuntivo: pagas → pagues, com gu.",
+            "zh": "con tal de que + 虚拟式：pagas → pagues，写成 gu。"
+          },
+          "beat": "mix"
+        },
+        {
+          "type": "build",
+          "intention": {
+            "en": "A friend invites you to a concert on Friday. Say you'll go, unless you have to work.",
+            "it": "Un amico ti invita a un concerto venerdì. Di' che andrai, a meno che tu non debba lavorare.",
+            "uk": "Друг запрошує тебе на концерт у п'ятницю. Скажи, що підеш, хіба що тобі доведеться працювати.",
+            "de": "Ein Freund lädt dich am Freitag zu einem Konzert ein. Sag, dass du kommst, es sei denn, du musst arbeiten.",
+            "fr": "Un ami t'invite à un concert vendredi. Dis que tu iras, à moins que tu doives travailler.",
+            "pt": "Um amigo te convida para um show na sexta-feira. Diga que você vai, a menos que tenha que trabalhar.",
+            "zh": "一个朋友邀请你星期五去听音乐会。说你会去，除非你得上班。"
+          },
+          "accepted": [
+            "Iré, a menos que tenga que trabajar.",
+            "Voy, a menos que tenga que trabajar."
+          ],
+          "tiles": [
+            "Iré",
+            "a menos que",
+            "tenga que",
+            "trabajar",
+            "tengo que",
+            "si"
+          ],
+          "en": "I'll go, unless I have to work.",
+          "it": "Ci andrò, a meno che non debba lavorare.",
+          "uk": "Я піду, хіба що мені доведеться працювати.",
+          "de": "Ich komme, es sei denn, ich muss arbeiten.",
+          "fr": "J'irai, à moins que je doive travailler.",
+          "pt": "Eu vou, a menos que tenha que trabalhar.",
+          "zh": "我会去的，除非我得上班。",
+          "hint": {
+            "en": "a menos que + the subjunctive: tengo que → tenga que.",
+            "it": "a menos que + il congiuntivo: tengo que → tenga que.",
+            "uk": "a menos que + «subjuntivo»: tengo que → tenga que.",
+            "de": "a menos que + subjuntivo: tengo que → tenga que.",
+            "fr": "a menos que + le subjonctif : tengo que → tenga que.",
+            "pt": "a menos que + o subjuntivo: tengo que → tenga que.",
+            "zh": "a menos que + 虚拟式：tengo que → tenga que。"
+          },
+          "beat": "mix"
+        },
+        {
+          "type": "write",
+          "instruction": {
+            "en": "Write in Spanish: «I'll go to the beach tomorrow, unless it rains.»",
+            "it": "Scrivi in spagnolo: «Domani andrò al mare, a meno che non piova.»",
+            "uk": "Напиши іспанською: «Завтра я піду на пляж, хіба що буде дощ.»",
+            "de": "Schreib auf Spanisch: «Morgen gehe ich an den Strand, es sei denn, es regnet.»",
+            "fr": "Écris en espagnol : «Demain, j'irai à la plage, à moins qu'il pleuve.»",
+            "pt": "Escreva em espanhol: «Amanhã vou à praia, a menos que chova.»",
+            "zh": "用西班牙语写：«明天我去海边，除非下雨。»"
+          },
+          "accepted": [
+            "Mañana iré a la playa, a menos que llueva.",
+            "Iré a la playa mañana, a menos que llueva.",
+            "Mañana voy a la playa, a menos que llueva.",
+            "Mañana voy a ir a la playa, a menos que llueva.",
+            "Mañana iré a la playa si no llueve.",
+            "Iré a la playa mañana si no llueve.",
+            "Mañana voy a la playa si no llueve."
+          ],
+          "model": {
+            "es": "Mañana iré a la playa, a menos que llueva.",
+            "en": "I'll go to the beach tomorrow, unless it rains.",
+            "it": "Domani andrò al mare, a meno che non piova.",
+            "uk": "Завтра я піду на пляж, хіба що буде дощ.",
+            "de": "Morgen gehe ich an den Strand, es sei denn, es regnet.",
+            "fr": "Demain, j'irai à la plage, à moins qu'il pleuve.",
+            "pt": "Amanhã vou à praia, a menos que chova.",
+            "zh": "明天我去海边，除非下雨。"
+          },
+          "beat": "mix"
+        }
+      ]
+    },
+    {
+      "id": "u33l5",
+      "goal": {
+        "en": "Say how long you'll wait or keep going with hasta que: + the subjunctive for what hasn't happened yet, + the past for what already has.",
+        "it": "Di fino a quando aspetterai o continuerai con hasta que: + il congiuntivo per quello che non è ancora successo, + il passato per quello che è già successo.",
+        "uk": "Кажи, скільки чекатимеш або продовжуватимеш, з hasta que: + «subjuntivo» для того, що ще не сталося, + минулий час для завершених дій для того, що вже сталося.",
+        "de": "Sag, wie lange du wartest oder weitermachst, mit hasta que: + subjuntivo für das, was noch nicht passiert ist, + Vergangenheit für das, was schon passiert ist.",
+        "fr": "Dis combien de temps tu attendras ou continueras avec hasta que : + le subjonctif pour ce qui n'est pas encore arrivé, + le passé pour ce qui est déjà arrivé.",
+        "pt": "Diga até quando você vai esperar ou continuar com hasta que: + o subjuntivo para o que ainda não aconteceu, + o passado para o que já aconteceu.",
+        "zh": "用 hasta que 说你会等多久或者一直做到什么时候：还没发生的事 + 虚拟式，已经发生的事 + 过去时。"
+      },
+      "target": {
+        "es": "Esperaré aquí hasta que vuelvas.",
+        "en": "I'll wait here until you come back.",
+        "it": "Aspetterò qui finché non torni.",
+        "uk": "Я чекатиму тут, доки ти не повернешся.",
+        "de": "Ich warte hier, bis du zurückkommst.",
+        "fr": "J'attendrai ici jusqu'à ce que tu reviennes.",
+        "pt": "Vou esperar aqui até que você volte.",
+        "zh": "我在这儿等你，直到你回来。"
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "hasta que",
+              "en": "until",
+              "it": "finché (non)",
+              "uk": "доки не, поки не",
+              "de": "bis",
+              "fr": "jusqu'à ce que",
+              "pt": "até que",
+              "zh": "直到",
+              "kind": "rail"
+            },
+            {
+              "es": "parar de",
+              "en": "to stop (doing something)",
+              "it": "smettere di",
+              "uk": "переставати (щось робити)",
+              "de": "aufhören (etwas zu tun)",
+              "fr": "arrêter de",
+              "pt": "parar de",
+              "zh": "停止（做某事）",
+              "kind": "stem"
+            },
+            {
+              "es": "la calefacción",
+              "en": "the heating",
+              "it": "il riscaldamento",
+              "uk": "опалення",
+              "de": "die Heizung",
+              "fr": "le chauffage",
+              "pt": "o aquecimento",
+              "zh": "暖气",
+              "kind": "chunk"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "hasta que",
+              "kind": "rail"
+            },
+            {
+              "text": "vuelva",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "hasta que (until) + the subjunctive for something that hasn't happened yet: espera aquí hasta que vuelva.",
+            "it": "hasta que (finché non) + il congiuntivo per qualcosa che non è ancora successo: espera aquí hasta que vuelva.",
+            "uk": "hasta que (доки не) + «subjuntivo» для того, що ще не сталося: espera aquí hasta que vuelva.",
+            "de": "hasta que (bis) + subjuntivo für etwas, das noch nicht passiert ist: espera aquí hasta que vuelva. Im Deutschen steht nach „bis“ der Indikativ.",
+            "fr": "hasta que (jusqu'à ce que) + le subjonctif pour quelque chose qui n'est pas encore arrivé, comme en français : espera aquí hasta que vuelva.",
+            "pt": "hasta que (até que) + o subjuntivo para algo que ainda não aconteceu: espera aquí hasta que vuelva. Em português também se diz até eu voltar, mas em espanhol use hasta que + o subjuntivo.",
+            "zh": "hasta que（直到）+ 虚拟式，用于还没有发生的事：espera aquí hasta que vuelva。"
+          },
+          "examples": [
+            {
+              "es": "Espera aquí hasta que vuelva.",
+              "en": "Wait here until I come back.",
+              "it": "Aspetta qui finché non torno.",
+              "uk": "Чекай тут, доки я не повернуся.",
+              "de": "Warte hier, bis ich zurückkomme.",
+              "fr": "Attends ici jusqu'à ce que je revienne.",
+              "pt": "Espere aqui até que eu volte.",
+              "zh": "在这儿等着，等我回来。"
+            },
+            {
+              "es": "Me quedo contigo hasta que llegue el médico.",
+              "en": "I'll stay with you until the doctor arrives.",
+              "it": "Resto con te finché non arriva il medico.",
+              "uk": "Я побуду з тобою, доки не прийде лікар.",
+              "de": "Ich bleibe bei dir, bis der Arzt kommt.",
+              "fr": "Je reste avec toi jusqu'à ce que le médecin arrive.",
+              "pt": "Fico com você até que o médico chegue.",
+              "zh": "我陪着你，直到医生来。"
+            },
+            {
+              "es": "No podemos salir hasta que pare de llover.",
+              "en": "We can't go out until it stops raining.",
+              "it": "Non possiamo uscire finché non smette di piovere.",
+              "uk": "Ми не можемо вийти, доки не перестане дощ.",
+              "de": "Wir können nicht rausgehen, bis es aufhört zu regnen.",
+              "fr": "On ne peut pas sortir tant qu'il n'a pas arrêté de pleuvoir.",
+              "pt": "Não podemos sair até que pare de chover.",
+              "zh": "雨不停我们就不能出去。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "pare",
+              "en": "(that) it stops, (that) I / he / she stops",
+              "it": "(che) smetta",
+              "uk": "(щоб) воно перестало, (щоб) я / він / вона перестав(-ла)",
+              "de": "(dass) es aufhört, (dass) ich / er / sie aufhört",
+              "fr": "(qu'il / qu'elle) arrête, (que j') arrête",
+              "pt": "(que) pare, (que eu / ele / ela) pare",
+              "zh": "（某事）停止，我／他／她停止（虚拟式）"
+            },
+            {
+              "es": "esperaré",
+              "en": "I will wait",
+              "it": "aspetterò",
+              "uk": "я чекатиму",
+              "de": "ich werde warten",
+              "fr": "j'attendrai",
+              "pt": "vou esperar, esperarei",
+              "zh": "我会等"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "before": "Espera en el coche hasta que te ",
+          "after": ".",
+          "options": [
+            "llame",
+            "llamo",
+            "llamaré"
+          ],
+          "answer": "llame",
+          "en": "Wait in the car until I call you.",
+          "it": "Aspetta in macchina finché non ti chiamo.",
+          "uk": "Чекай у машині, доки я тобі не подзвоню.",
+          "de": "Warte im Auto, bis ich dich anrufe.",
+          "fr": "Attends dans la voiture jusqu'à ce que je t'appelle.",
+          "pt": "Espere no carro até que eu te ligue.",
+          "zh": "在车里等着，等我给你打电话。",
+          "hint": {
+            "en": "You haven't called yet: hasta que + the subjunctive, llame.",
+            "it": "Non hai ancora chiamato: hasta que + il congiuntivo, llame.",
+            "uk": "Ти ще не подзвонив(-ла): hasta que + «subjuntivo», llame.",
+            "de": "Du hast noch nicht angerufen: hasta que + subjuntivo, llame.",
+            "fr": "Tu n'as pas encore appelé : hasta que + le subjonctif, llame.",
+            "pt": "Você ainda não ligou: hasta que + o subjuntivo, llame.",
+            "zh": "你还没打电话：hasta que + 虚拟式，llame。"
+          },
+          "beat": "forge"
+        },
+        {
+          "type": "gap",
+          "before": "Me quedo en casa hasta que ",
+          "after": " de llover.",
+          "label": "parar",
+          "accepted": [
+            "pare"
+          ],
+          "en": "I'm staying at home until it stops raining.",
+          "it": "Resto a casa finché non smette di piovere.",
+          "uk": "Я сиджу вдома, доки не перестане дощ.",
+          "de": "Ich bleibe zu Hause, bis es aufhört zu regnen.",
+          "fr": "Je reste à la maison jusqu'à ce qu'il arrête de pleuvoir.",
+          "pt": "Vou ficar em casa até que pare de chover.",
+          "zh": "我待在家里，等雨停了再说。",
+          "hint": {
+            "en": "It hasn't stopped yet: hasta que + pare.",
+            "it": "Non ha ancora smesso: hasta que + pare.",
+            "uk": "Дощ ще не перестав: hasta que + pare.",
+            "de": "Es hat noch nicht aufgehört: hasta que + pare.",
+            "fr": "Il n'a pas encore arrêté : hasta que + pare.",
+            "pt": "Ainda não parou: hasta que + pare.",
+            "zh": "雨还没停：hasta que + pare。"
+          },
+          "beat": "fire"
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "hasta que",
+              "kind": "rail"
+            },
+            {
+              "text": "llegó",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "Like cuando: if it has already happened, use the past for finished actions: ayer esperé hasta que llegó. Only the future needs the subjunctive.",
+            "it": "Come con cuando: se è già successo, usa il passato delle azioni finite: ayer esperé hasta que llegó. Solo il futuro vuole il congiuntivo.",
+            "uk": "Як і з cuando: якщо це вже сталося, вживай минулий час для завершених дій: ayer esperé hasta que llegó. «subjuntivo» потрібен лише для майбутнього.",
+            "de": "Wie bei cuando: Wenn es schon passiert ist, nimm die Vergangenheit für abgeschlossene Handlungen: ayer esperé hasta que llegó. Nur die Zukunft verlangt den subjuntivo.",
+            "fr": "Comme avec cuando : si c'est déjà arrivé, utilise le passé des actions terminées : ayer esperé hasta que llegó. Seul le futur demande le subjonctif.",
+            "pt": "Como com cuando: se já aconteceu, use o passado das ações terminadas: ayer esperé hasta que llegó. Só o futuro pede o subjuntivo.",
+            "zh": "和 cuando 一样：如果事情已经发生了，就用表示已完成动作的过去时：ayer esperé hasta que llegó。只有将来的事才需要虚拟式。"
+          },
+          "examples": [
+            {
+              "es": "Ayer esperé hasta que llegó el autobús.",
+              "en": "Yesterday I waited until the bus came.",
+              "it": "Ieri ho aspettato finché non è arrivato l'autobus.",
+              "uk": "Учора я чекав(-ла), доки не приїхав автобус.",
+              "de": "Gestern habe ich gewartet, bis der Bus kam.",
+              "fr": "Hier, j'ai attendu jusqu'à ce que le bus arrive.",
+              "pt": "Ontem esperei até o ônibus chegar.",
+              "zh": "昨天我一直等到公交车来。"
+            },
+            {
+              "es": "Mañana esperaré hasta que llegue el autobús.",
+              "en": "Tomorrow I'll wait until the bus comes.",
+              "it": "Domani aspetterò finché non arriva l'autobus.",
+              "uk": "Завтра я чекатиму, доки не приїде автобус.",
+              "de": "Morgen warte ich, bis der Bus kommt.",
+              "fr": "Demain, j'attendrai jusqu'à ce que le bus arrive.",
+              "pt": "Amanhã vou esperar até que o ônibus chegue.",
+              "zh": "明天我会一直等到公交车来。"
+            },
+            {
+              "es": "Anoche bailamos hasta que cerraron el bar.",
+              "en": "Last night we danced until they closed the bar.",
+              "it": "Ieri sera abbiamo ballato finché non hanno chiuso il bar.",
+              "uk": "Учора ввечері ми танцювали, доки не зачинили бар.",
+              "de": "Gestern Abend haben wir getanzt, bis sie die Bar zugemacht haben.",
+              "fr": "Hier soir, on a dansé jusqu'à ce qu'ils ferment le bar.",
+              "pt": "Ontem à noite dançamos até fecharem o bar.",
+              "zh": "昨天晚上我们一直跳舞跳到酒吧关门。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "esperé",
+              "en": "I waited",
+              "it": "ho aspettato",
+              "uk": "я чекав(-ла)",
+              "de": "ich habe gewartet",
+              "fr": "j'ai attendu",
+              "pt": "esperei",
+              "zh": "我等了"
+            },
+            {
+              "es": "cerraron",
+              "en": "they closed",
+              "it": "hanno chiuso",
+              "uk": "вони зачинили",
+              "de": "sie haben geschlossen",
+              "fr": "ils ont fermé",
+              "pt": "fecharam",
+              "zh": "他们关了"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "before": "Ayer estudié hasta que ",
+          "after": " mis amigos.",
+          "options": [
+            "llegaron",
+            "lleguen"
+          ],
+          "answer": "llegaron",
+          "en": "Yesterday I studied until my friends arrived.",
+          "it": "Ieri ho studiato finché non sono arrivati i miei amici.",
+          "uk": "Учора я вчився(-лася), доки не прийшли мої друзі.",
+          "de": "Gestern habe ich gelernt, bis meine Freunde kamen.",
+          "fr": "Hier, j'ai étudié jusqu'à ce que mes amis arrivent.",
+          "pt": "Ontem estudei até meus amigos chegarem.",
+          "zh": "昨天我一直学习到我的朋友们来。",
+          "hint": {
+            "en": "ayer: it already happened, so the past for finished actions, llegaron.",
+            "it": "ayer: è già successo, quindi il passato delle azioni finite, llegaron.",
+            "uk": "ayer: це вже сталося, тож минулий час для завершених дій, llegaron.",
+            "de": "ayer: Es ist schon passiert, also die Vergangenheit für abgeschlossene Handlungen, llegaron.",
+            "fr": "ayer : c'est déjà arrivé, donc le passé des actions terminées, llegaron.",
+            "pt": "ayer: já aconteceu, então o passado das ações terminadas, llegaron.",
+            "zh": "ayer：已经发生了，所以用表示已完成动作的过去时，llegaron。"
+          },
+          "beat": "forge"
+        },
+        {
+          "type": "choose",
+          "before": "Mañana estudiaré hasta que ",
+          "after": " mis amigos.",
+          "options": [
+            "lleguen",
+            "llegaron",
+            "llegan"
+          ],
+          "answer": "lleguen",
+          "en": "Tomorrow I'll study until my friends arrive.",
+          "it": "Domani studierò finché non arriveranno i miei amici.",
+          "uk": "Завтра я вчитимуся, доки не прийдуть мої друзі.",
+          "de": "Morgen lerne ich, bis meine Freunde kommen.",
+          "fr": "Demain, j'étudierai jusqu'à ce que mes amis arrivent.",
+          "pt": "Amanhã vou estudar até que meus amigos cheguem.",
+          "zh": "明天我会一直学习到我的朋友们来。",
+          "hint": {
+            "en": "mañana: not yet, so the subjunctive, lleguen.",
+            "it": "mañana: non ancora, quindi il congiuntivo, lleguen.",
+            "uk": "mañana: ще не сталося, тож «subjuntivo», lleguen.",
+            "de": "mañana: noch nicht passiert, also subjuntivo, lleguen.",
+            "fr": "mañana : pas encore, donc le subjonctif, lleguen.",
+            "pt": "mañana: ainda não, então o subjuntivo, lleguen.",
+            "zh": "mañana：还没发生，所以用虚拟式，lleguen。"
+          },
+          "beat": "fire"
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "no pago",
+              "kind": "stem"
+            },
+            {
+              "text": "hasta que",
+              "kind": "rail"
+            },
+            {
+              "text": "arreglen",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "To be firm, say no + verb + hasta que + the subjunctive: no pago hasta que arreglen la ducha (I'm not paying until they fix the shower).",
+            "it": "Per essere deciso, di' no + verbo + hasta que + il congiuntivo: no pago hasta que arreglen la ducha (non pago finché non aggiustano la doccia).",
+            "uk": "Щоб сказати твердо: no + дієслово + hasta que + «subjuntivo»: no pago hasta que arreglen la ducha (я не платитиму, доки не полагодять душ).",
+            "de": "Um bestimmt aufzutreten, sag no + Verb + hasta que + subjuntivo: no pago hasta que arreglen la ducha (ich zahle nicht, bis sie die Dusche reparieren).",
+            "fr": "Pour être ferme, dis no + verbe + hasta que + le subjonctif : no pago hasta que arreglen la ducha (je ne paie pas tant qu'ils n'ont pas réparé la douche).",
+            "pt": "Para ser firme, diga no + verbo + hasta que + o subjuntivo: no pago hasta que arreglen la ducha (não pago enquanto não consertarem o chuveiro).",
+            "zh": "要表达坚决的态度，说 no + 动词 + hasta que + 虚拟式：no pago hasta que arreglen la ducha（他们不把淋浴修好，我就不付钱）。"
+          },
+          "examples": [
+            {
+              "es": "No pago hasta que arreglen la ducha.",
+              "en": "I'm not paying until they fix the shower.",
+              "it": "Non pago finché non aggiustano la doccia.",
+              "uk": "Я не платитиму, доки не полагодять душ.",
+              "de": "Ich zahle nicht, bis sie die Dusche reparieren.",
+              "fr": "Je ne paie pas tant qu'ils n'ont pas réparé la douche.",
+              "pt": "Não pago enquanto não consertarem o chuveiro.",
+              "zh": "他们不把淋浴修好，我就不付钱。"
+            },
+            {
+              "es": "No me voy hasta que me lo expliques.",
+              "en": "I'm not leaving until you explain it to me.",
+              "it": "Non me ne vado finché non me lo spieghi.",
+              "uk": "Я не піду, доки ти мені це не поясниш.",
+              "de": "Ich gehe nicht, bis du es mir erklärst.",
+              "fr": "Je ne pars pas tant que tu ne me l'as pas expliqué.",
+              "pt": "Não vou embora enquanto você não me explicar.",
+              "zh": "你不给我解释清楚，我就不走。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "arregle",
+              "en": "(that) I / he / she fixes; (that) you fix (usted)",
+              "it": "(che io / lui / lei) aggiusti; (che Lei) aggiusti",
+              "uk": "(щоб) я / він / вона полагодив(-ла); (щоб) ви полагодили (usted)",
+              "de": "(dass) ich / er / sie repariert; (dass) Sie reparieren (usted)",
+              "fr": "(que je / qu'il / qu'elle) répare ; (que vous) répariez (usted)",
+              "pt": "(que eu / ele / ela) conserte; (que o senhor / a senhora) conserte",
+              "zh": "我／他／她修理；您修理（usted）（虚拟式）"
+            },
+            {
+              "es": "arreglen",
+              "en": "(that) they fix",
+              "it": "(che loro) aggiustino",
+              "uk": "(щоб) вони полагодили",
+              "de": "(dass) sie reparieren",
+              "fr": "(qu'ils / qu'elles) réparent",
+              "pt": "(que eles) consertem",
+              "zh": "他们修理（虚拟式）"
+            },
+            {
+              "es": "expliques",
+              "en": "(that) you explain",
+              "it": "(che tu) spieghi",
+              "uk": "(щоб) ти пояснив(-ла)",
+              "de": "(dass) du erklärst",
+              "fr": "(que tu) expliques",
+              "pt": "(que você) explique",
+              "zh": "你解释（虚拟式）"
+            },
+            {
+              "es": "expliquen",
+              "en": "(that) they explain",
+              "it": "(che loro) spieghino",
+              "uk": "(щоб) вони пояснили",
+              "de": "(dass) sie erklären",
+              "fr": "(qu'ils / qu'elles) expliquent",
+              "pt": "(que eles) expliquem",
+              "zh": "他们解释（虚拟式）"
+            }
+          ]
+        },
+        {
+          "type": "gap",
+          "before": "No compro el piso hasta que lo ",
+          "after": " mi hermana.",
+          "label": "ver",
+          "accepted": [
+            "vea"
+          ],
+          "en": "I'm not buying the flat until my sister sees it.",
+          "it": "Non compro l'appartamento finché non lo vede mia sorella.",
+          "uk": "Я не куплю квартиру, доки її не побачить моя сестра.",
+          "de": "Ich kaufe die Wohnung nicht, bis meine Schwester sie gesehen hat.",
+          "fr": "Je n'achète pas l'appartement tant que ma sœur ne l'a pas vu.",
+          "pt": "Não compro o apartamento enquanto minha irmã não o vir.",
+          "zh": "我姐姐没看过这套房子之前，我是不会买的。",
+          "hint": {
+            "en": "Firm: no … hasta que + the subjunctive; mi hermana = ella: vea.",
+            "it": "Deciso: no … hasta que + il congiuntivo; mi hermana = ella: vea.",
+            "uk": "Твердо: no … hasta que + «subjuntivo»; mi hermana = ella: vea.",
+            "de": "Bestimmt: no … hasta que + subjuntivo; mi hermana = ella: vea.",
+            "fr": "Ferme : no … hasta que + le subjonctif ; mi hermana = ella : vea.",
+            "pt": "Firme: no … hasta que + o subjuntivo; mi hermana = ella: vea.",
+            "zh": "坚决的态度：no … hasta que + 虚拟式；mi hermana = ella：vea。"
+          },
+          "beat": "forge"
+        },
+        {
+          "type": "build",
+          "intention": {
+            "en": "You're at the bank and nobody can tell you why they charged you. Say you're not leaving until they explain it to you.",
+            "it": "Sei in banca e nessuno sa dirti perché ti hanno addebitato dei soldi. Di' che non te ne vai finché non te lo spiegano.",
+            "uk": "Ти в банку, і ніхто не може пояснити, за що з тебе зняли гроші. Скажи, що не підеш, доки тобі це не пояснять.",
+            "de": "Du bist bei der Bank und niemand kann dir sagen, warum dir Geld abgebucht wurde. Sag, dass du nicht gehst, bis sie es dir erklären.",
+            "fr": "Tu es à la banque et personne ne sait te dire pourquoi on t'a prélevé de l'argent. Dis que tu ne partiras pas tant qu'on ne te l'aura pas expliqué.",
+            "pt": "Você está no banco e ninguém sabe dizer por que te cobraram. Diga que não vai embora enquanto não te explicarem.",
+            "zh": "你在银行，没有人能告诉你为什么扣了你的钱。说他们不给你解释清楚，你就不走。"
+          },
+          "accepted": [
+            "No me voy hasta que me lo expliquen."
+          ],
+          "tiles": [
+            "No me voy",
+            "hasta que",
+            "me lo",
+            "expliquen",
+            "explicas",
+            "antes de que"
+          ],
+          "en": "I'm not leaving until they explain it to me.",
+          "it": "Non me ne vado finché non me lo spiegano.",
+          "uk": "Я не піду, доки мені це не пояснять.",
+          "de": "Ich gehe nicht, bis sie es mir erklären.",
+          "fr": "Je ne pars pas tant qu'on ne me l'a pas expliqué.",
+          "pt": "Não vou embora enquanto não me explicarem.",
+          "zh": "他们不给我解释清楚，我就不走。",
+          "hint": {
+            "en": "Firm: no … hasta que + the subjunctive; they explain: expliquen.",
+            "it": "Deciso: no … hasta que + il congiuntivo; spiegano loro: expliquen.",
+            "uk": "Твердо: no … hasta que + «subjuntivo»; пояснюють вони: expliquen.",
+            "de": "Bestimmt: no … hasta que + subjuntivo; sie erklären: expliquen.",
+            "fr": "Ferme : no … hasta que + le subjonctif ; ce sont eux qui expliquent : expliquen.",
+            "pt": "Firme: no … hasta que + o subjuntivo; quem explica são eles: expliquen.",
+            "zh": "坚决的态度：no … hasta que + 虚拟式；解释的是他们：expliquen。"
+          },
+          "beat": "fire"
+        },
+        {
+          "type": "gap",
+          "before": "Espera aquí hasta que ",
+          "after": ".",
+          "label": "volver",
+          "accepted": [
+            "vuelva"
+          ],
+          "en": "Wait here until I come back.",
+          "it": "Aspetta qui finché non torno.",
+          "uk": "Чекай тут, доки я не повернуся.",
+          "de": "Warte hier, bis ich zurückkomme.",
+          "fr": "Attends ici jusqu'à ce que je revienne.",
+          "pt": "Espere aqui até que eu volte.",
+          "zh": "在这儿等着，等我回来。",
+          "hint": {
+            "en": "I haven't come back yet; yo: vuelva.",
+            "it": "Non sono ancora tornato; yo: vuelva.",
+            "uk": "Я ще не повернувся(-лася); yo: vuelva.",
+            "de": "Ich bin noch nicht zurück; yo: vuelva.",
+            "fr": "Je ne suis pas encore revenu ; yo : vuelva.",
+            "pt": "Eu ainda não voltei; yo: vuelva.",
+            "zh": "我还没回来；yo：vuelva。"
+          },
+          "beat": "mix"
+        },
+        {
+          "type": "choose",
+          "before": "Anoche hablamos hasta que ",
+          "after": " el bar.",
+          "options": [
+            "cerraron",
+            "cierren"
+          ],
+          "answer": "cerraron",
+          "en": "Last night we talked until they closed the bar.",
+          "it": "Ieri sera abbiamo parlato finché non hanno chiuso il bar.",
+          "uk": "Учора ввечері ми розмовляли, доки не зачинили бар.",
+          "de": "Gestern Abend haben wir geredet, bis sie die Bar zugemacht haben.",
+          "fr": "Hier soir, on a parlé jusqu'à ce qu'ils ferment le bar.",
+          "pt": "Ontem à noite conversamos até fecharem o bar.",
+          "zh": "昨天晚上我们一直聊到酒吧关门。",
+          "hint": {
+            "en": "anoche: it already happened, so the past for finished actions.",
+            "it": "anoche: è già successo, quindi il passato delle azioni finite.",
+            "uk": "anoche: це вже сталося, тож минулий час для завершених дій.",
+            "de": "anoche: Es ist schon passiert, also die Vergangenheit für abgeschlossene Handlungen.",
+            "fr": "anoche : c'est déjà arrivé, donc le passé des actions terminées.",
+            "pt": "anoche: já aconteceu, então o passado das ações terminadas.",
+            "zh": "anoche：已经发生了，所以用表示已完成动作的过去时。"
+          },
+          "beat": "mix"
+        },
+        {
+          "type": "build",
+          "intention": {
+            "en": "It's winter and your landlord wants the rent. Tell him you're not paying until he fixes the heating.",
+            "it": "È inverno e il padrone di casa vuole l'affitto. Digli che non paghi finché non aggiusta il riscaldamento.",
+            "uk": "Зима, а власник квартири хоче орендну плату. Скажи йому, що не платитимеш, доки він не полагодить опалення.",
+            "de": "Es ist Winter und dein Vermieter will die Miete. Sag ihm, dass du nicht zahlst, bis er die Heizung repariert.",
+            "fr": "C'est l'hiver et ton propriétaire veut le loyer. Dis-lui que tu ne paies pas tant qu'il n'a pas réparé le chauffage.",
+            "pt": "É inverno e o proprietário quer o aluguel. Diga a ele que você não vai pagar enquanto ele não consertar o aquecimento.",
+            "zh": "现在是冬天，你的房东要收房租。告诉他，他不把暖气修好，你就不付钱。"
+          },
+          "accepted": [
+            "No pago hasta que arregle la calefacción.",
+            "No pago el alquiler hasta que arregle la calefacción."
+          ],
+          "tiles": [
+            "No pago",
+            "hasta que",
+            "arregle",
+            "la calefacción",
+            "arreglar",
+            "antes de que"
+          ],
+          "en": "I'm not paying until you fix the heating.",
+          "it": "Non pago finché non aggiusta il riscaldamento.",
+          "uk": "Я не платитиму, доки ви не полагодите опалення.",
+          "de": "Ich zahle nicht, bis Sie die Heizung reparieren.",
+          "fr": "Je ne paie pas tant que vous n'avez pas réparé le chauffage.",
+          "pt": "Não pago enquanto o senhor não consertar o aquecimento.",
+          "zh": "您不把暖气修好，我就不付钱。",
+          "hint": {
+            "en": "Firm: no … hasta que + the subjunctive; usted: arregle.",
+            "it": "Deciso: no … hasta que + il congiuntivo; usted: arregle.",
+            "uk": "Твердо: no … hasta que + «subjuntivo»; usted: arregle.",
+            "de": "Bestimmt: no … hasta que + subjuntivo; usted: arregle.",
+            "fr": "Ferme : no … hasta que + le subjonctif ; usted : arregle.",
+            "pt": "Firme: no … hasta que + o subjuntivo; usted: arregle.",
+            "zh": "坚决的态度：no … hasta que + 虚拟式；usted：arregle。"
+          },
+          "beat": "mix"
+        },
+        {
+          "type": "write",
+          "instruction": {
+            "en": "Write in Spanish: «I'll wait here until you come back.»",
+            "it": "Scrivi in spagnolo: «Aspetterò qui finché non torni.»",
+            "uk": "Напиши іспанською: «Я чекатиму тут, доки ти не повернешся.»",
+            "de": "Schreib auf Spanisch: «Ich warte hier, bis du zurückkommst.»",
+            "fr": "Écris en espagnol : «J'attendrai ici jusqu'à ce que tu reviennes.»",
+            "pt": "Escreva em espanhol: «Vou esperar aqui até que você volte.»",
+            "zh": "用西班牙语写：«我在这儿等你，直到你回来。»"
+          },
+          "accepted": [
+            "Esperaré aquí hasta que vuelvas.",
+            "Te esperaré aquí hasta que vuelvas.",
+            "Te espero aquí hasta que vuelvas.",
+            "Espero aquí hasta que vuelvas.",
+            "Voy a esperar aquí hasta que vuelvas.",
+            "Te voy a esperar aquí hasta que vuelvas."
+          ],
+          "model": {
+            "es": "Esperaré aquí hasta que vuelvas.",
+            "en": "I'll wait here until you come back.",
+            "it": "Aspetterò qui finché non torni.",
+            "uk": "Я чекатиму тут, доки ти не повернешся.",
+            "de": "Ich warte hier, bis du zurückkommst.",
+            "fr": "J'attendrai ici jusqu'à ce que tu reviennes.",
+            "pt": "Vou esperar aqui até que você volte.",
+            "zh": "我在这儿等你，直到你回来。"
+          },
+          "beat": "mix"
+        }
+      ]
+    }
+  ],
+  "boss": {
+    "id": "u33boss",
+    "goal": {
+      "en": "It's winter in {city}, the heating in your flat doesn't work and your landlord wants to put the rent up. He's come round to talk: negotiate with him, politely (usted) but firmly.",
+      "it": "È inverno a {city}, il riscaldamento del tuo appartamento non funziona e il padrone di casa vuole aumentare l'affitto. È passato a parlarne: tratta con lui, con educazione (usted) ma con fermezza.",
+      "uk": "Зима у місті {city}, опалення у твоїй квартирі не працює, а власник хоче підняти орендну плату. Він прийшов поговорити: домовся з ним ввічливо (usted), але твердо.",
+      "de": "Es ist Winter in {city}, die Heizung in deiner Wohnung funktioniert nicht und dein Vermieter will die Miete erhöhen. Er ist vorbeigekommen, um darüber zu reden: Verhandle mit ihm, höflich (usted) aber bestimmt.",
+      "fr": "C'est l'hiver à {city}, le chauffage de ton appartement ne marche pas et ton propriétaire veut augmenter le loyer. Il est passé pour en parler : négocie avec lui, poliment (usted) mais fermement.",
+      "pt": "É inverno em {city}, o aquecimento do seu apartamento não funciona e o proprietário quer aumentar o aluguel. Ele veio conversar: negocie com ele, com educação (usted), mas com firmeza.",
+      "zh": "{city}正值冬天，你公寓的暖气坏了，而你的房东还想涨房租。他上门来谈这件事：和他商量，态度要礼貌（用 usted），但要坚定。"
+    },
+    "target": {
+      "es": "Le pago el alquiler cuando arregle la calefacción.",
+      "en": "I'll pay you the rent when you fix the heating.",
+      "it": "Le pago l'affitto quando avrà aggiustato il riscaldamento.",
+      "uk": "Я заплачу вам оренду, коли ви полагодите опалення.",
+      "de": "Ich zahle Ihnen die Miete, wenn Sie die Heizung reparieren.",
+      "fr": "Je vous paierai le loyer quand vous aurez réparé le chauffage.",
+      "pt": "Pago o aluguel ao senhor quando o senhor consertar o aquecimento.",
+      "zh": "您把暖气修好了，我就把房租付给您。"
+    },
+    "items": [
+      {
+        "type": "words",
+        "words": [
+          {
+            "es": "el casero",
+            "en": "the landlord",
+            "it": "il padrone di casa",
+            "uk": "власник житла, орендодавець",
+            "de": "der Vermieter",
+            "fr": "le propriétaire",
+            "pt": "o proprietário, o senhorio",
+            "zh": "房东",
+            "kind": "chunk"
+          },
+          {
+            "es": "el técnico",
+            "en": "the repairman, the technician",
+            "it": "il tecnico",
+            "uk": "майстер, технік",
+            "de": "der Techniker, der Handwerker",
+            "fr": "le réparateur, le technicien",
+            "pt": "o técnico",
+            "zh": "维修工，技术员",
+            "kind": "chunk"
+          }
+        ]
+      },
+      {
+        "type": "build",
+        "intention": {
+          "en": "The landlord says «Buenos días, ¿qué tal el piso?». Tell him the heating doesn't work.",
+          "it": "Il padrone di casa dice «Buenos días, ¿qué tal el piso?». Digli che il riscaldamento non funziona.",
+          "uk": "Власник квартири каже: «Buenos días, ¿qué tal el piso?». Скажи йому, що опалення не працює.",
+          "de": "Der Vermieter sagt: «Buenos días, ¿qué tal el piso?». Sag ihm, dass die Heizung nicht funktioniert.",
+          "fr": "Le propriétaire dit « Buenos días, ¿qué tal el piso? ». Dis-lui que le chauffage ne marche pas.",
+          "pt": "O proprietário diz «Buenos días, ¿qué tal el piso?». Diga a ele que o aquecimento não funciona.",
+          "zh": "房东说：«Buenos días, ¿qué tal el piso?»。告诉他暖气坏了。"
+        },
+        "accepted": [
+          "La calefacción no funciona.",
+          "Bien, pero la calefacción no funciona."
+        ],
+        "tiles": [
+          "La calefacción",
+          "no",
+          "funciona",
+          "está",
+          "arregle"
+        ],
+        "en": "The heating doesn't work.",
+        "it": "Il riscaldamento non funziona.",
+        "uk": "Опалення не працює.",
+        "de": "Die Heizung funktioniert nicht.",
+        "fr": "Le chauffage ne marche pas.",
+        "pt": "O aquecimento não funciona.",
+        "zh": "暖气坏了。",
+        "hint": {
+          "en": "A simple fact: the normal present, funciona.",
+          "it": "Un semplice fatto: il presente normale, funciona.",
+          "uk": "Простий факт: звичайний теперішній час, funciona.",
+          "de": "Eine einfache Tatsache: normales Präsens, funciona.",
+          "fr": "Un simple fait : le présent normal, funciona.",
+          "pt": "Um simples fato: o presente normal, funciona.",
+          "zh": "一个简单的事实：用普通的现在时，funciona。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "¿Puede arreglarla antes de que ",
+        "after": " más frío?",
+        "options": [
+          "haga",
+          "hace",
+          "hará"
+        ],
+        "answer": "haga",
+        "en": "Can you fix it before it gets colder?",
+        "it": "Può aggiustarlo prima che faccia più freddo?",
+        "uk": "Ви можете полагодити його, поки не похолодало ще більше?",
+        "de": "Können Sie sie reparieren, bevor es kälter wird? (sie = la calefacción, also la)",
+        "fr": "Vous pouvez le réparer avant qu'il fasse plus froid ?",
+        "pt": "O senhor pode consertá-lo antes que esfrie mais?",
+        "zh": "您能在天变得更冷之前把它修好吗？",
+        "hint": {
+          "en": "antes de que + the subjunctive: hace → haga.",
+          "it": "antes de que + il congiuntivo: hace → haga.",
+          "uk": "antes de que + «subjuntivo»: hace → haga.",
+          "de": "antes de que + subjuntivo: hace → haga.",
+          "fr": "antes de que + le subjonctif : hace → haga.",
+          "pt": "antes de que + o subjuntivo: hace → haga.",
+          "zh": "antes de que + 虚拟式：hace → haga。"
+        }
+      },
+      {
+        "type": "gap",
+        "before": "Vale. Cuando ",
+        "after": " el técnico, le aviso.",
+        "label": "llegar",
+        "accepted": [
+          "llegue"
+        ],
+        "en": "OK. When the repairman arrives, I'll let you know.",
+        "it": "Va bene. Quando arriva il tecnico, la avviso.",
+        "uk": "Гаразд. Коли прийде майстер, я вам повідомлю.",
+        "de": "In Ordnung. Wenn der Techniker kommt, sage ich Ihnen Bescheid.",
+        "fr": "D'accord. Quand le technicien arrivera, je vous préviendrai.",
+        "pt": "Está bem. Quando o técnico chegar, aviso o senhor.",
+        "zh": "好的。维修工到了，我就通知您。",
+        "hint": {
+          "en": "He hasn't arrived yet: cuando + llegue, spelt with gu.",
+          "it": "Non è ancora arrivato: cuando + llegue, con gu.",
+          "uk": "Він ще не прийшов: cuando + llegue, пишеться з gu.",
+          "de": "Er ist noch nicht da: cuando + llegue, mit gu geschrieben.",
+          "fr": "Il n'est pas encore arrivé : cuando + llegue, écrit avec gu.",
+          "pt": "Ele ainda não chegou: cuando + llegue, com gu.",
+          "zh": "他还没到：cuando + llegue，写成 gu。"
+        }
+      },
+      {
+        "type": "gap",
+        "before": "Le dejo las llaves para que el técnico ",
+        "after": " entrar.",
+        "label": "poder",
+        "accepted": [
+          "pueda"
+        ],
+        "en": "I'll leave you the keys so that the repairman can get in.",
+        "it": "Le lascio le chiavi perché il tecnico possa entrare.",
+        "uk": "Я залишу вам ключі, щоб майстер міг зайти.",
+        "de": "Ich lasse Ihnen die Schlüssel da, damit der Techniker hineinkommt.",
+        "fr": "Je vous laisse les clés pour que le technicien puisse entrer.",
+        "pt": "Vou deixar as chaves com o senhor para que o técnico possa entrar.",
+        "zh": "我把钥匙留给您，好让维修工能进来。",
+        "hint": {
+          "en": "The repairman gets in, not you: para que + pueda.",
+          "it": "Entra il tecnico, non tu: para que + pueda.",
+          "uk": "Заходить майстер, а не ти: para que + pueda.",
+          "de": "Der Techniker kommt hinein, nicht du: para que + pueda.",
+          "fr": "C'est le technicien qui entre, pas toi : para que + pueda.",
+          "pt": "Quem entra é o técnico, não você: para que + pueda.",
+          "zh": "进来的是维修工，不是你：para que + pueda。"
+        }
+      },
+      {
+        "type": "build",
+        "intention": {
+          "en": "The landlord says «El año que viene voy a subir el alquiler». Tell him you're not paying more until he fixes the heating.",
+          "it": "Il padrone di casa dice «El año que viene voy a subir el alquiler». Digli che non paghi di più finché non aggiusta il riscaldamento.",
+          "uk": "Власник квартири каже: «El año que viene voy a subir el alquiler». Скажи йому, що не платитимеш більше, доки він не полагодить опалення.",
+          "de": "Der Vermieter sagt: «El año que viene voy a subir el alquiler». Sag ihm, dass du nicht mehr zahlst, bis er die Heizung repariert.",
+          "fr": "Le propriétaire dit « El año que viene voy a subir el alquiler ». Dis-lui que tu ne paieras pas plus tant qu'il n'aura pas réparé le chauffage.",
+          "pt": "O proprietário diz «El año que viene voy a subir el alquiler». Diga a ele que você não vai pagar mais enquanto ele não consertar o aquecimento.",
+          "zh": "房东说：«El año que viene voy a subir el alquiler»。告诉他，他不把暖气修好，你就不多付钱。"
+        },
+        "accepted": [
+          "No pago más hasta que arregle la calefacción.",
+          "No voy a pagar más hasta que arregle la calefacción."
+        ],
+        "tiles": [
+          "No pago",
+          "más",
+          "hasta que",
+          "arregle",
+          "la calefacción",
+          "arreglar"
+        ],
+        "en": "I'm not paying more until you fix the heating.",
+        "it": "Non pago di più finché non aggiusta il riscaldamento.",
+        "uk": "Я не платитиму більше, доки ви не полагодите опалення.",
+        "de": "Ich zahle nicht mehr, bis Sie die Heizung reparieren.",
+        "fr": "Je ne paierai pas plus tant que vous n'aurez pas réparé le chauffage.",
+        "pt": "Não pago mais enquanto o senhor não consertar o aquecimento.",
+        "zh": "您不把暖气修好，我就不多付钱。",
+        "hint": {
+          "en": "Firm: no … hasta que + the subjunctive; usted: arregle.",
+          "it": "Deciso: no … hasta que + il congiuntivo; usted: arregle.",
+          "uk": "Твердо: no … hasta que + «subjuntivo»; usted: arregle.",
+          "de": "Bestimmt: no … hasta que + subjuntivo; usted: arregle.",
+          "fr": "Ferme : no … hasta que + le subjonctif ; usted : arregle.",
+          "pt": "Firme: no … hasta que + o subjuntivo; usted: arregle.",
+          "zh": "坚决的态度：no … hasta que + 虚拟式；usted：arregle。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "Mis hijos necesitan una casa caliente para que no ",
+        "after": " frío.",
+        "options": [
+          "pasen",
+          "pasan",
+          "pasar"
+        ],
+        "answer": "pasen",
+        "en": "My children need a warm house so that they don't get cold.",
+        "it": "I miei figli hanno bisogno di una casa calda perché non soffrano il freddo.",
+        "uk": "Моїм дітям потрібен теплий дім, щоб вони не мерзли.",
+        "de": "Meine Kinder brauchen eine warme Wohnung, damit sie nicht frieren.",
+        "fr": "Mes enfants ont besoin d'une maison chauffée pour ne pas avoir froid.",
+        "pt": "Meus filhos precisam de uma casa quente para que não passem frio.",
+        "zh": "我的孩子们需要一个暖和的家，这样才不会挨冻。",
+        "hint": {
+          "en": "Your children, not you: para que + the subjunctive, pasen.",
+          "it": "I tuoi figli, non tu: para que + il congiuntivo, pasen.",
+          "uk": "Твої діти, а не ти: para que + «subjuntivo», pasen.",
+          "de": "Deine Kinder, nicht du: para que + subjuntivo, pasen.",
+          "fr": "Tes enfants, pas toi : para que + le subjonctif, pasen.",
+          "pt": "Seus filhos, não você: para que + o subjuntivo, pasen.",
+          "zh": "是你的孩子们，不是你：para que + 虚拟式，pasen。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "Me quedo en el piso, a menos que ",
+        "after": " demasiado el alquiler.",
+        "options": [
+          "suba",
+          "sube"
+        ],
+        "answer": "suba",
+        "en": "I'm staying in the flat, unless you put the rent up too much.",
+        "it": "Resto nell'appartamento, a meno che non aumenti troppo l'affitto.",
+        "uk": "Я залишуся в квартирі, хіба що ви надто піднімете орендну плату.",
+        "de": "Ich bleibe in der Wohnung, es sei denn, Sie erhöhen die Miete zu sehr.",
+        "fr": "Je reste dans l'appartement, à moins que vous augmentiez trop le loyer.",
+        "pt": "Fico no apartamento, a menos que o senhor aumente demais o aluguel.",
+        "zh": "我会继续住在这套公寓里，除非您把房租涨得太多。",
+        "hint": {
+          "en": "a menos que + the subjunctive: sube → suba.",
+          "it": "a menos que + il congiuntivo: sube → suba.",
+          "uk": "a menos que + «subjuntivo»: sube → suba.",
+          "de": "a menos que + subjuntivo: sube → suba.",
+          "fr": "a menos que + le subjonctif : sube → suba.",
+          "pt": "a menos que + o subjuntivo: sube → suba.",
+          "zh": "a menos que + 虚拟式：sube → suba。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "Puedo pagar cincuenta euros más, con tal de que ",
+        "after": " la calefacción este mes.",
+        "options": [
+          "arregle",
+          "arreglar"
+        ],
+        "answer": "arregle",
+        "en": "I can pay fifty euros more, as long as you fix the heating this month.",
+        "it": "Posso pagare cinquanta euro in più, purché aggiusti il riscaldamento questo mese.",
+        "uk": "Я можу платити на п'ятдесят євро більше, за умови, що ви полагодите опалення цього місяця.",
+        "de": "Ich kann fünfzig Euro mehr zahlen, vorausgesetzt, Sie reparieren die Heizung diesen Monat.",
+        "fr": "Je peux payer cinquante euros de plus, à condition que vous répariez le chauffage ce mois-ci.",
+        "pt": "Posso pagar cinquenta euros a mais, contanto que o senhor conserte o aquecimento este mês.",
+        "zh": "我可以多付五十欧元，只要您这个月把暖气修好。",
+        "hint": {
+          "en": "A condition: con tal de que + the subjunctive, arregle.",
+          "it": "Una condizione: con tal de que + il congiuntivo, arregle.",
+          "uk": "Умова: con tal de que + «subjuntivo», arregle.",
+          "de": "Eine Bedingung: con tal de que + subjuntivo, arregle.",
+          "fr": "Une condition : con tal de que + le subjonctif, arregle.",
+          "pt": "Uma condição: con tal de que + o subjuntivo, arregle.",
+          "zh": "这是一个条件：con tal de que + 虚拟式，arregle。"
+        }
+      },
+      {
+        "type": "build",
+        "intention": {
+          "en": "The landlord asks «¿Y cuándo me paga el alquiler de este mes?». Answer: when he fixes the heating.",
+          "it": "Il padrone di casa chiede «¿Y cuándo me paga el alquiler de este mes?». Rispondi: quando avrà aggiustato il riscaldamento.",
+          "uk": "Власник квартири питає: «¿Y cuándo me paga el alquiler de este mes?». Відповідай: коли він полагодить опалення.",
+          "de": "Der Vermieter fragt: «¿Y cuándo me paga el alquiler de este mes?». Antworte: wenn er die Heizung repariert.",
+          "fr": "Le propriétaire demande « ¿Y cuándo me paga el alquiler de este mes? ». Réponds : quand il aura réparé le chauffage.",
+          "pt": "O proprietário pergunta «¿Y cuándo me paga el alquiler de este mes?». Responda: quando ele consertar o aquecimento.",
+          "zh": "房东问：«¿Y cuándo me paga el alquiler de este mes?»。回答：等他把暖气修好的时候。"
+        },
+        "accepted": [
+          "Cuando arregle la calefacción."
+        ],
+        "tiles": [
+          "Cuando",
+          "arregle",
+          "la calefacción",
+          "arreglar",
+          "hasta que"
+        ],
+        "en": "When you fix the heating.",
+        "it": "Quando avrà aggiustato il riscaldamento.",
+        "uk": "Коли ви полагодите опалення.",
+        "de": "Wenn Sie die Heizung reparieren.",
+        "fr": "Quand vous aurez réparé le chauffage.",
+        "pt": "Quando o senhor consertar o aquecimento.",
+        "zh": "等您把暖气修好的时候。",
+        "hint": {
+          "en": "It hasn't happened yet: cuando + arregle.",
+          "it": "Non è ancora successo: cuando + arregle.",
+          "uk": "Це ще не сталося: cuando + arregle.",
+          "de": "Es ist noch nicht passiert: cuando + arregle.",
+          "fr": "Ce n'est pas encore arrivé : cuando + arregle.",
+          "pt": "Ainda não aconteceu: cuando + arregle (em português: quando o senhor consertar).",
+          "zh": "这件事还没发生：cuando + arregle。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "Bueno, espero hasta que ",
+        "after": " el técnico el lunes.",
+        "options": [
+          "venga",
+          "viene",
+          "vendrá"
+        ],
+        "answer": "venga",
+        "en": "OK, I'll wait until the repairman comes on Monday.",
+        "it": "Va bene, aspetto finché non viene il tecnico lunedì.",
+        "uk": "Гаразд, я почекаю, доки майстер не прийде в понеділок.",
+        "de": "In Ordnung, ich warte, bis der Techniker am Montag kommt.",
+        "fr": "D'accord, j'attends jusqu'à ce que le technicien vienne lundi.",
+        "pt": "Está bem, vou esperar até que o técnico venha na segunda-feira.",
+        "zh": "好的，我等到星期一维修工来。",
+        "hint": {
+          "en": "He hasn't come yet: hasta que + venga.",
+          "it": "Non è ancora venuto: hasta que + venga.",
+          "uk": "Він ще не прийшов: hasta que + venga.",
+          "de": "Er ist noch nicht gekommen: hasta que + venga.",
+          "fr": "Il n'est pas encore venu : hasta que + venga.",
+          "pt": "Ele ainda não veio: hasta que + venga.",
+          "zh": "他还没来：hasta que + venga。"
+        }
+      },
+      {
+        "type": "build",
+        "intention": {
+          "en": "The landlord says «Mañana viene el técnico». Say OK: when the repairman finishes, you'll let him know.",
+          "it": "Il padrone di casa dice «Mañana viene el técnico». Rispondi che va bene: quando il tecnico avrà finito, lo avvisi.",
+          "uk": "Власник квартири каже: «Mañana viene el técnico». Погодься: коли майстер закінчить, ти йому повідомиш.",
+          "de": "Der Vermieter sagt: «Mañana viene el técnico». Sag, dass das in Ordnung ist: Wenn der Techniker fertig ist, sagst du ihm Bescheid.",
+          "fr": "Le propriétaire dit « Mañana viene el técnico ». Dis que c'est d'accord : quand le technicien aura fini, tu le préviendras.",
+          "pt": "O proprietário diz «Mañana viene el técnico». Diga que está bem: quando o técnico terminar, você o avisa.",
+          "zh": "房东说：«Mañana viene el técnico»。说好的：维修工修完了，你就通知他。"
+        },
+        "accepted": [
+          "Vale. Cuando termine, le aviso.",
+          "Vale, cuando termine, le aviso.",
+          "Vale. Le aviso cuando termine."
+        ],
+        "tiles": [
+          "Vale.",
+          "Cuando",
+          "termine,",
+          "le aviso",
+          "termina",
+          "te"
+        ],
+        "en": "OK. When he finishes, I'll let you know.",
+        "it": "Va bene. Quando avrà finito, la avviso.",
+        "uk": "Гаразд. Коли він закінчить, я вам повідомлю.",
+        "de": "In Ordnung. Wenn er fertig ist, sage ich Ihnen Bescheid.",
+        "fr": "D'accord. Quand il aura fini, je vous préviendrai.",
+        "pt": "Está bem. Quando ele terminar, aviso o senhor.",
+        "zh": "好的。他修完了，我就通知您。",
+        "hint": {
+          "en": "He hasn't finished yet: cuando + termine. usted: le aviso.",
+          "it": "Non ha ancora finito: cuando + termine. usted: le aviso.",
+          "uk": "Він ще не закінчив: cuando + termine. usted: le aviso.",
+          "de": "Er ist noch nicht fertig: cuando + termine. usted: le aviso.",
+          "fr": "Il n'a pas encore fini : cuando + termine. usted : le aviso.",
+          "pt": "Ele ainda não terminou: cuando + termine. usted: le aviso.",
+          "zh": "他还没修完：cuando + termine。usted：le aviso。"
+        }
+      },
+      {
+        "type": "write",
+        "instruction": {
+          "en": "To finish, sum up the deal. Write in Spanish: «I'll pay you the rent when you fix the heating.»",
+          "it": "Per finire, riassumi l'accordo. Scrivi in spagnolo: «Le pago l'affitto quando avrà aggiustato il riscaldamento.»",
+          "uk": "Наостанок підсумуй домовленість. Напиши іспанською: «Я заплачу вам оренду, коли ви полагодите опалення.»",
+          "de": "Zum Schluss fass die Abmachung zusammen. Schreib auf Spanisch: «Ich zahle Ihnen die Miete, wenn Sie die Heizung reparieren.»",
+          "fr": "Pour finir, résume l'accord. Écris en espagnol : «Je vous paierai le loyer quand vous aurez réparé le chauffage.»",
+          "pt": "Para terminar, resuma o acordo. Escreva em espanhol: «Pago o aluguel ao senhor quando o senhor consertar o aquecimento.»",
+          "zh": "最后，总结一下谈好的条件。用西班牙语写：«您把暖气修好了，我就把房租付给您。»"
+        },
+        "accepted": [
+          "Le pago el alquiler cuando arregle la calefacción.",
+          "Pago el alquiler cuando arregle la calefacción.",
+          "Cuando arregle la calefacción, le pago el alquiler.",
+          "Cuando arregle la calefacción, pago el alquiler.",
+          "Le voy a pagar el alquiler cuando arregle la calefacción.",
+          "Voy a pagar el alquiler cuando arregle la calefacción."
+        ],
+        "model": {
+          "es": "Le pago el alquiler cuando arregle la calefacción.",
+          "en": "I'll pay you the rent when you fix the heating.",
+          "it": "Le pago l'affitto quando avrà aggiustato il riscaldamento.",
+          "uk": "Я заплачу вам оренду, коли ви полагодите опалення.",
+          "de": "Ich zahle Ihnen die Miete, wenn Sie die Heizung reparieren.",
+          "fr": "Je vous paierai le loyer quand vous aurez réparé le chauffage.",
+          "pt": "Pago o aluguel ao senhor quando o senhor consertar o aquecimento.",
+          "zh": "您把暖气修好了，我就把房租付给您。"
+        }
+      }
+    ]
+  }
+}

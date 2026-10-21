@@ -1,0 +1,3571 @@
+{
+  "unit": "u34",
+  "lessons": [
+    {
+      "id": "u34l1",
+      "goal": {
+        "en": "Say politely what you'd like with me gustaría, invite people with ¿te gustaría…?, and meet the conditional: preferiría, viajaría.",
+        "it": "Di con gentilezza cosa ti piacerebbe con me gustaría, invita con ¿te gustaría…? e scopri il condizionale: preferiría, viajaría.",
+        "uk": "Ввічливо кажи, чого тобі хотілося б, з me gustaría, запрошуй з ¿te gustaría…? і познайомся з умовним способом («condicional»): preferiría, viajaría.",
+        "de": "Sag höflich, was du gern möchtest, mit me gustaría, lade andere mit ¿te gustaría…? ein und lerne den condicional kennen (wie der deutsche Konjunktiv II): preferiría, viajaría.",
+        "fr": "Dis poliment ce que tu aimerais faire avec me gustaría, invite quelqu'un avec ¿te gustaría…?, et découvre le conditionnel : preferiría, viajaría.",
+        "pt": "Diga com educação o que você gostaria com me gustaría, convide as pessoas com ¿te gustaría…? e conheça o condicional (o futuro do pretérito do português): preferiría, viajaría.",
+        "zh": "用 me gustaría 礼貌地说出你想做的事，用 ¿te gustaría…? 邀请别人，并认识条件式：preferiría，viajaría。"
+      },
+      "target": {
+        "es": "Me gustaría vivir en España y hablar español todos los días.",
+        "en": "I'd like to live in Spain and speak Spanish every day.",
+        "it": "Mi piacerebbe vivere in Spagna e parlare spagnolo tutti i giorni.",
+        "uk": "Я хотів (хотіла) б жити в Іспанії й щодня говорити іспанською.",
+        "de": "Ich würde gern in Spanien leben und jeden Tag Spanisch sprechen.",
+        "fr": "J'aimerais vivre en Espagne et parler espagnol tous les jours.",
+        "pt": "Eu gostaria de morar na Espanha e falar espanhol todos os dias.",
+        "zh": "我想住在西班牙，每天都说西班牙语。"
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "me gustaría",
+              "en": "I'd like",
+              "it": "mi piacerebbe",
+              "uk": "я хотів (хотіла) б, мені хотілося б",
+              "de": "ich würde gern, ich möchte",
+              "fr": "j'aimerais",
+              "pt": "eu gostaria",
+              "zh": "我想（要），我希望",
+              "kind": "chunk"
+            },
+            {
+              "es": "me encantaría",
+              "en": "I'd love to",
+              "it": "mi piacerebbe tantissimo, molto volentieri",
+              "uk": "я б залюбки, я б дуже хотів (хотіла)",
+              "de": "ich würde sehr gern, ich hätte große Lust",
+              "fr": "j'adorerais, avec grand plaisir",
+              "pt": "eu adoraria",
+              "zh": "我非常乐意，我很愿意",
+              "kind": "chunk"
+            },
+            {
+              "es": "el condicional",
+              "en": "the conditional",
+              "it": "il condizionale",
+              "uk": "умовний спосіб",
+              "de": "der condicional (wie der deutsche Konjunktiv II: würde, hätte, könnte)",
+              "fr": "le conditionnel",
+              "pt": "o condicional (futuro do pretérito)",
+              "zh": "条件式",
+              "kind": "chunk"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "me",
+              "kind": "ending"
+            },
+            {
+              "text": "gustaría",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "To say politely what you'd like, use me gustaría + the dictionary form: me gustaría vivir en el campo. It's softer than quiero.",
+            "it": "Per dire con gentilezza cosa ti piacerebbe, usa me gustaría + l'infinito: me gustaría vivir en el campo. È più gentile di quiero.",
+            "uk": "Щоб ввічливо сказати, чого тобі хотілося б, вживай me gustaría + словникова форма: me gustaría vivir en el campo. Це м'якше, ніж quiero, — як українське «я хотів би» замість «я хочу».",
+            "de": "Um höflich zu sagen, was du gern möchtest, nimm me gustaría + Infinitiv: me gustaría vivir en el campo. Das ist sanfter als quiero, wie „ich würde gern / ich möchte“ statt „ich will“.",
+            "fr": "Pour dire poliment ce que tu aimerais, utilise me gustaría + l'infinitif : me gustaría vivir en el campo. C'est plus doux que quiero, comme « j'aimerais » par rapport à « je veux ».",
+            "pt": "Para dizer com educação o que você gostaria, use me gustaría + a forma do dicionário: me gustaría vivir en el campo. É mais suave que quiero.",
+            "zh": "要礼貌地说出你想做什么，用 me gustaría + 动词原形：me gustaría vivir en el campo。这比 quiero 更委婉。"
+          },
+          "examples": [
+            {
+              "es": "Me gustaría vivir en el campo.",
+              "en": "I'd like to live in the countryside.",
+              "it": "Mi piacerebbe vivere in campagna.",
+              "uk": "Я хотів (хотіла) б жити за містом.",
+              "de": "Ich würde gern auf dem Land leben.",
+              "fr": "J'aimerais vivre à la campagne.",
+              "pt": "Eu gostaria de morar no campo.",
+              "zh": "我想住在乡下。"
+            },
+            {
+              "es": "Nos gustaría reservar una mesa para dos.",
+              "en": "We'd like to book a table for two.",
+              "it": "Vorremmo prenotare un tavolo per due.",
+              "uk": "Ми хотіли б забронювати столик на двох.",
+              "de": "Wir würden gern einen Tisch für zwei reservieren.",
+              "fr": "Nous voudrions réserver une table pour deux.",
+              "pt": "Gostaríamos de reservar uma mesa para dois.",
+              "zh": "我们想订一张两人桌。"
+            },
+            {
+              "es": "A mi hermana le gustaría estudiar en España.",
+              "en": "My sister would like to study in Spain.",
+              "it": "A mia sorella piacerebbe studiare in Spagna.",
+              "uk": "Моя сестра хотіла б навчатися в Іспанії.",
+              "de": "Meine Schwester würde gern in Spanien studieren.",
+              "fr": "Ma sœur aimerait faire ses études en Espagne.",
+              "pt": "Minha irmã gostaria de estudar na Espanha.",
+              "zh": "我妹妹想去西班牙留学。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "gustaría",
+              "en": "would like (me gustaría = I'd like)",
+              "it": "piacerebbe (me gustaría = mi piacerebbe)",
+              "uk": "хотів (хотіла) б (me gustaría = я хотів (хотіла) б)",
+              "de": "würde gefallen (me gustaría = ich würde gern)",
+              "fr": "aimerait (me gustaría = j'aimerais)",
+              "pt": "gostaria (me gustaría = eu gostaria)",
+              "zh": "想（me gustaría = 我想）"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "before": "Me ",
+          "after": " vivir cerca del mar.",
+          "options": [
+            "gustaría",
+            "gusta",
+            "gustaba"
+          ],
+          "answer": "gustaría",
+          "en": "I'd like to live near the sea.",
+          "it": "Mi piacerebbe vivere vicino al mare.",
+          "uk": "Я хотів (хотіла) б жити біля моря.",
+          "de": "Ich würde gern am Meer wohnen.",
+          "fr": "J'aimerais vivre près de la mer.",
+          "pt": "Eu gostaria de morar perto do mar.",
+          "zh": "我想住在海边。",
+          "hint": {
+            "en": "A polite wish, I'd like: me gustaría + the dictionary form.",
+            "it": "Un desiderio gentile, mi piacerebbe: me gustaría + l'infinito.",
+            "uk": "Ввічливе бажання, я хотів (хотіла) б: me gustaría + словникова форма.",
+            "de": "Ein höflicher Wunsch, ich würde gern: me gustaría + Infinitiv.",
+            "fr": "Un souhait poli, j'aimerais : me gustaría + l'infinitif.",
+            "pt": "Um desejo educado, eu gostaria: me gustaría + a forma do dicionário.",
+            "zh": "礼貌地表达愿望，“我想”：me gustaría + 动词原形。"
+          },
+          "beat": "forge"
+        },
+        {
+          "type": "build",
+          "intention": {
+            "en": "You're calling a restaurant for you and three friends. Say you'd like to book a table for four.",
+            "it": "Telefoni a un ristorante per te e tre amici. Di' che vorreste prenotare un tavolo per quattro.",
+            "uk": "Ти дзвониш у ресторан за себе й трьох друзів. Скажи, що ви хотіли б забронювати столик на чотирьох.",
+            "de": "Du rufst für dich und drei Freunde in einem Restaurant an. Sag, dass ihr gern einen Tisch für vier reservieren würdet.",
+            "fr": "Tu appelles un restaurant pour toi et trois amis. Dis que vous voudriez réserver une table pour quatre.",
+            "pt": "Você está ligando para um restaurante para você e três amigos. Diga que vocês gostariam de reservar uma mesa para quatro.",
+            "zh": "你给一家餐厅打电话，为你和三个朋友订位。说你们想订一张四人桌。"
+          },
+          "accepted": [
+            "Nos gustaría reservar una mesa para cuatro.",
+            "Me gustaría reservar una mesa para cuatro."
+          ],
+          "tiles": [
+            "Nos",
+            "gustaría",
+            "reservar",
+            "una mesa",
+            "para cuatro",
+            "gusta"
+          ],
+          "en": "We'd like to book a table for four.",
+          "it": "Vorremmo prenotare un tavolo per quattro.",
+          "uk": "Ми хотіли б забронювати столик на чотирьох.",
+          "de": "Wir würden gern einen Tisch für vier reservieren.",
+          "fr": "Nous voudrions réserver une table pour quatre.",
+          "pt": "Gostaríamos de reservar uma mesa para quatro.",
+          "zh": "我们想订一张四人桌。",
+          "hint": {
+            "en": "A polite wish for all of you: nos gustaría + reservar.",
+            "it": "Un desiderio gentile per tutti voi: nos gustaría + reservar.",
+            "uk": "Ввічливе бажання за всіх вас: nos gustaría + reservar.",
+            "de": "Ein höflicher Wunsch für euch alle: nos gustaría + reservar.",
+            "fr": "Un souhait poli pour vous tous : nos gustaría + reservar.",
+            "pt": "Um desejo educado de todos vocês: nos gustaría + reservar.",
+            "zh": "为你们大家礼貌地表达愿望：nos gustaría + reservar。"
+          },
+          "beat": "fire"
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "¿te",
+              "kind": "ending"
+            },
+            {
+              "text": "gustaría…?",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "To invite someone, ask ¿te gustaría + the dictionary form? To say yes warmly: ¡me encantaría! To say no politely: me gustaría, pero no puedo.",
+            "it": "Per invitare qualcuno chiedi ¿te gustaría + l'infinito? Per dire di sì con entusiasmo: ¡me encantaría! Per dire di no con gentilezza: me gustaría, pero no puedo.",
+            "uk": "Щоб когось запросити, питай ¿te gustaría + словникова форма? Щоб тепло погодитися: ¡me encantaría! Щоб ввічливо відмовитися: me gustaría, pero no puedo.",
+            "de": "Um jemanden einzuladen, frag ¿te gustaría + Infinitiv? (Hättest du Lust …?). Herzlich zusagen: ¡me encantaría! Höflich absagen: me gustaría, pero no puedo.",
+            "fr": "Pour inviter quelqu'un, demande ¿te gustaría + l'infinitif? Pour dire oui chaleureusement : ¡me encantaría! Pour dire non poliment : me gustaría, pero no puedo.",
+            "pt": "Para convidar alguém, pergunte ¿te gustaría + a forma do dicionário? Para dizer sim com entusiasmo: ¡me encantaría! Para dizer não com educação: me gustaría, pero no puedo.",
+            "zh": "邀请别人时，问 ¿te gustaría + 动词原形?。热情地答应：¡me encantaría!。礼貌地拒绝：me gustaría, pero no puedo。"
+          },
+          "examples": [
+            {
+              "es": "¿Te gustaría venir a cenar el sábado?",
+              "en": "Would you like to come for dinner on Saturday?",
+              "it": "Ti piacerebbe venire a cena sabato?",
+              "uk": "Хочеш прийти на вечерю в суботу?",
+              "de": "Hättest du Lust, am Samstag zum Abendessen zu kommen?",
+              "fr": "Ça te dirait de venir dîner samedi ?",
+              "pt": "Você gostaria de vir jantar no sábado?",
+              "zh": "星期六你想来吃晚饭吗？"
+            },
+            {
+              "es": "¡Me encantaría!",
+              "en": "I'd love to!",
+              "it": "Molto volentieri!",
+              "uk": "Я б залюбки!",
+              "de": "Sehr gern!",
+              "fr": "Avec plaisir !",
+              "pt": "Eu adoraria!",
+              "zh": "我非常乐意！"
+            },
+            {
+              "es": "Me gustaría, pero no puedo.",
+              "en": "I'd like to, but I can't.",
+              "it": "Mi piacerebbe, ma non posso.",
+              "uk": "Я б хотів (хотіла), але не можу.",
+              "de": "Ich würde gern, aber ich kann nicht.",
+              "fr": "J'aimerais bien, mais je ne peux pas.",
+              "pt": "Eu gostaria, mas não posso.",
+              "zh": "我很想去，可是去不了。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "encantaría",
+              "en": "would love (me encantaría = I'd love to)",
+              "it": "piacerebbe tantissimo (me encantaría = mi piacerebbe tantissimo)",
+              "uk": "дуже хотів (хотіла) б (me encantaría = я б залюбки)",
+              "de": "würde sehr gefallen (me encantaría = ich würde sehr gern)",
+              "fr": "adorerait (me encantaría = j'adorerais)",
+              "pt": "adoraria (me encantaría = eu adoraria)",
+              "zh": "非常乐意（me encantaría = 我非常乐意）"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "before": "¿Te ",
+          "after": " venir al cine esta noche?",
+          "options": [
+            "gustaría",
+            "gusta",
+            "gustó"
+          ],
+          "answer": "gustaría",
+          "en": "Would you like to come to the cinema tonight?",
+          "it": "Ti piacerebbe venire al cinema stasera?",
+          "uk": "Хочеш піти сьогодні ввечері в кіно?",
+          "de": "Hättest du Lust, heute Abend mit ins Kino zu kommen?",
+          "fr": "Ça te dirait de venir au cinéma ce soir ?",
+          "pt": "Você gostaria de ir ao cinema hoje à noite?",
+          "zh": "今晚你想来看电影吗？",
+          "hint": {
+            "en": "An invitation: ¿te gustaría + the dictionary form?",
+            "it": "Un invito: ¿te gustaría + l'infinito?",
+            "uk": "Запрошення: ¿te gustaría + словникова форма?",
+            "de": "Eine Einladung: ¿te gustaría + Infinitiv?",
+            "fr": "Une invitation : ¿te gustaría + l'infinitif?",
+            "pt": "Um convite: ¿te gustaría + a forma do dicionário?",
+            "zh": "这是一个邀请：¿te gustaría + 动词原形?"
+          },
+          "beat": "forge"
+        },
+        {
+          "type": "build",
+          "intention": {
+            "en": "A friend asks «¿Te gustaría venir a mi fiesta el sábado?». Say you'd love to.",
+            "it": "Un amico ti chiede «¿Te gustaría venir a mi fiesta el sábado?». Rispondi che ci verresti molto volentieri.",
+            "uk": "Друг питає: «¿Te gustaría venir a mi fiesta el sábado?». Скажи, що ти б залюбки.",
+            "de": "Ein Freund fragt dich: «¿Te gustaría venir a mi fiesta el sábado?». Sag, dass du sehr gern kommst.",
+            "fr": "Un ami te demande « ¿Te gustaría venir a mi fiesta el sábado? ». Réponds que tu viendrais avec grand plaisir.",
+            "pt": "Um amigo pergunta «¿Te gustaría venir a mi fiesta el sábado?». Diga que você adoraria.",
+            "zh": "一个朋友问你：«¿Te gustaría venir a mi fiesta el sábado?»。说你非常乐意。"
+          },
+          "accepted": [
+            "¡Me encantaría!",
+            "¡Sí, me encantaría!"
+          ],
+          "tiles": [
+            "¡Me",
+            "encantaría!",
+            "encanta",
+            "Te"
+          ],
+          "en": "I'd love to!",
+          "it": "Molto volentieri!",
+          "uk": "Я б залюбки!",
+          "de": "Sehr gern!",
+          "fr": "Avec plaisir !",
+          "pt": "Eu adoraria!",
+          "zh": "我非常乐意！",
+          "hint": {
+            "en": "A warm yes to an invitation: ¡me encantaría!",
+            "it": "Un sì caloroso a un invito: ¡me encantaría!",
+            "uk": "Тепле «так» на запрошення: ¡me encantaría!",
+            "de": "Ein herzliches Ja auf eine Einladung: ¡me encantaría!",
+            "fr": "Un oui chaleureux à une invitation : ¡me encantaría!",
+            "pt": "Um sim caloroso a um convite: ¡me encantaría!",
+            "zh": "热情地答应邀请：¡me encantaría!"
+          },
+          "beat": "fire"
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "preferir",
+              "kind": "stem"
+            },
+            {
+              "text": "-ía",
+              "kind": "ending"
+            }
+          ],
+          "rule": {
+            "en": "gustaría is the conditional (would). Take the whole dictionary form and add -ía for yo and él, -ías for tú: preferiría, viajaría, viviría.",
+            "it": "gustaría è il condizionale. Prendi il verbo intero come nel dizionario e aggiungi -ía per yo ed él, -ías per tú: preferiría, viajaría, viviría.",
+            "uk": "gustaría — це умовний спосіб (в українській — форми з «б/би»). Бери всю словникову форму й додавай -ía для yo та él, -ías для tú: preferiría, viajaría, viviría.",
+            "de": "gustaría ist der condicional (wie „würde“ oder der deutsche Konjunktiv II). Nimm den ganzen Infinitiv und häng -ía für yo und él an, -ías für tú: preferiría, viajaría, viviría.",
+            "fr": "gustaría est au conditionnel. Prends l'infinitif entier et ajoute -ía pour yo et él, -ías pour tú : preferiría, viajaría, viviría. C'est le même principe qu'en français : préférer → je préférerais.",
+            "pt": "gustaría é o condicional, como o futuro do pretérito em português (gostaria). Pegue a forma do dicionário inteira e acrescente -ía para yo e él, -ías para tú: preferiría, viajaría, viviría. Quase igual ao português: preferiria, viajaria, viveria.",
+            "zh": "gustaría 是条件式（相当于“会……”“想……”）。用完整的动词原形，yo 和 él 加 -ía，tú 加 -ías：preferiría，viajaría，viviría。"
+          },
+          "examples": [
+            {
+              "es": "Hoy estoy cansado: preferiría ir mañana.",
+              "en": "I'm tired today: I'd rather go tomorrow.",
+              "it": "Oggi sono stanco: preferirei andare domani.",
+              "uk": "Сьогодні я втомлений: я б краще пішов завтра.",
+              "de": "Heute bin ich müde: Ich würde lieber morgen gehen.",
+              "fr": "Je suis fatigué aujourd'hui : je préférerais y aller demain.",
+              "pt": "Hoje estou cansado: preferiria ir amanhã.",
+              "zh": "我今天很累：我宁愿明天去。"
+            },
+            {
+              "es": "Con más dinero, viajaría más.",
+              "en": "With more money, I'd travel more.",
+              "it": "Con più soldi viaggerei di più.",
+              "uk": "Якби мав(-ла) більше грошей, я б більше подорожував(-ла).",
+              "de": "Mit mehr Geld würde ich mehr reisen.",
+              "fr": "Avec plus d'argent, je voyagerais plus.",
+              "pt": "Com mais dinheiro, eu viajaria mais.",
+              "zh": "要是钱多一些，我会多去旅行。"
+            },
+            {
+              "es": "¿Qué preferirías, playa o montaña?",
+              "en": "What would you prefer, the beach or the mountains?",
+              "it": "Cosa preferiresti, mare o montagna?",
+              "uk": "Що б ти обрав(-ла): пляж чи гори?",
+              "de": "Was wäre dir lieber, Strand oder Berge?",
+              "fr": "Qu'est-ce que tu préférerais, la plage ou la montagne ?",
+              "pt": "O que você preferiria, praia ou montanha?",
+              "zh": "你更喜欢哪个，海边还是山里？"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "preferiría",
+              "en": "I / he / she would prefer, I'd rather",
+              "it": "preferirei, preferirebbe",
+              "uk": "я / він / вона волів (воліла) б, я б краще",
+              "de": "ich / er / sie würde lieber, ich würde vorziehen",
+              "fr": "je préférerais, il / elle préférerait",
+              "pt": "eu / ele / ela preferiria",
+              "zh": "我／他／她宁愿，会更喜欢"
+            },
+            {
+              "es": "preferirías",
+              "en": "you would prefer",
+              "it": "preferiresti",
+              "uk": "ти волів (воліла) б",
+              "de": "du würdest lieber, du würdest vorziehen",
+              "fr": "tu préférerais",
+              "pt": "você preferiria",
+              "zh": "你会更喜欢"
+            },
+            {
+              "es": "viajaría",
+              "en": "I / he / she would travel",
+              "it": "viaggerei, viaggerebbe",
+              "uk": "я / він / вона подорожував(-ла) б",
+              "de": "ich / er / sie würde reisen",
+              "fr": "je voyagerais, il / elle voyagerait",
+              "pt": "eu / ele / ela viajaria",
+              "zh": "我／他／她会旅行"
+            },
+            {
+              "es": "viajarías",
+              "en": "you would travel",
+              "it": "viaggeresti",
+              "uk": "ти подорожував(-ла) б",
+              "de": "du würdest reisen",
+              "fr": "tu voyagerais",
+              "pt": "você viajaria",
+              "zh": "你会旅行"
+            },
+            {
+              "es": "viviría",
+              "en": "I / he / she would live",
+              "it": "vivrei, vivrebbe",
+              "uk": "я / він / вона жив(-ла) б",
+              "de": "ich / er / sie würde leben, würde wohnen",
+              "fr": "je vivrais, il / elle vivrait",
+              "pt": "eu / ele / ela viveria, moraria",
+              "zh": "我／他／她会住"
+            },
+            {
+              "es": "vivirías",
+              "en": "you would live",
+              "it": "vivresti",
+              "uk": "ти жив(-ла) б",
+              "de": "du würdest leben, du würdest wohnen",
+              "fr": "tu vivrais",
+              "pt": "você viveria, moraria",
+              "zh": "你会住"
+            }
+          ]
+        },
+        {
+          "type": "gap",
+          "before": "Hoy estoy muy cansada: ",
+          "after": " ir mañana.",
+          "label": "preferir",
+          "accepted": [
+            "preferiría"
+          ],
+          "en": "I'm very tired today: I'd rather go tomorrow.",
+          "it": "Oggi sono molto stanca: preferirei andare domani.",
+          "uk": "Сьогодні я дуже втомлений(-а): я б краще пішов (пішла) завтра.",
+          "de": "Ich bin heute sehr müde: Ich würde lieber morgen gehen.",
+          "fr": "Je suis très fatiguée aujourd'hui : je préférerais y aller demain.",
+          "pt": "Hoje estou muito cansada: preferiria ir amanhã.",
+          "zh": "我今天很累：我宁愿明天去。",
+          "hint": {
+            "en": "I'd rather, yo: preferir + -ía.",
+            "it": "Preferirei, yo: preferir + -ía.",
+            "uk": "Я б краще, yo: preferir + -ía.",
+            "de": "Ich würde lieber, yo: preferir + -ía.",
+            "fr": "Je préférerais, yo : preferir + -ía.",
+            "pt": "Eu preferiria, yo: preferir + -ía.",
+            "zh": "我宁愿，yo：preferir + -ía。"
+          },
+          "beat": "forge"
+        },
+        {
+          "type": "choose",
+          "before": "Con más tiempo, ",
+          "after": " más.",
+          "options": [
+            "viajaría",
+            "viajaré",
+            "viajo"
+          ],
+          "answer": "viajaría",
+          "en": "With more time, I'd travel more.",
+          "it": "Con più tempo viaggerei di più.",
+          "uk": "Якби мав(-ла) більше часу, я б більше подорожував(-ла).",
+          "de": "Mit mehr Zeit würde ich mehr reisen.",
+          "fr": "Avec plus de temps, je voyagerais plus.",
+          "pt": "Com mais tempo, eu viajaria mais.",
+          "zh": "要是时间多一些，我会多去旅行。",
+          "hint": {
+            "en": "It's imagined, not a plan: the conditional, viajaría.",
+            "it": "È immaginato, non un piano: il condizionale, viajaría.",
+            "uk": "Це уявне, а не план: умовний спосіб, viajaría.",
+            "de": "Es ist nur vorgestellt, kein Plan: condicional, viajaría.",
+            "fr": "C'est imaginé, pas un projet : le conditionnel, viajaría.",
+            "pt": "É algo imaginado, não um plano: o condicional, viajaría.",
+            "zh": "这是想象的，不是计划：用条件式，viajaría。"
+          },
+          "beat": "fire"
+        },
+        {
+          "type": "choose",
+          "before": "¿Qué ",
+          "after": ", playa o montaña?",
+          "options": [
+            "preferirías",
+            "preferiría"
+          ],
+          "answer": "preferirías",
+          "en": "What would you prefer, the beach or the mountains?",
+          "it": "Cosa preferiresti, mare o montagna?",
+          "uk": "Що б ти обрав(-ла): пляж чи гори?",
+          "de": "Was wäre dir lieber, Strand oder Berge?",
+          "fr": "Qu'est-ce que tu préférerais, la plage ou la montagne ?",
+          "pt": "O que você preferiria, praia ou montanha?",
+          "zh": "你更喜欢哪个，海边还是山里？",
+          "hint": {
+            "en": "You're asking tú: -ías, preferirías.",
+            "it": "Chiedi a tú: -ías, preferirías.",
+            "uk": "Питаєш у tú: -ías, preferirías.",
+            "de": "Du fragst tú: -ías, preferirías.",
+            "fr": "Tu poses la question à tú : -ías, preferirías.",
+            "pt": "Você está perguntando a tú: -ías, preferirías.",
+            "zh": "你在问 tú：-ías，preferirías。"
+          },
+          "beat": "mix"
+        },
+        {
+          "type": "gap",
+          "before": "A mis padres les ",
+          "after": " vivir cerca de la playa.",
+          "label": "gustar",
+          "accepted": [
+            "gustaría"
+          ],
+          "en": "My parents would like to live near the beach.",
+          "it": "Ai miei genitori piacerebbe vivere vicino al mare.",
+          "uk": "Мої батьки хотіли б жити біля пляжу.",
+          "de": "Meine Eltern würden gern am Strand wohnen.",
+          "fr": "Mes parents aimeraient vivre près de la plage.",
+          "pt": "Meus pais gostariam de morar perto da praia.",
+          "zh": "我父母想住在海边。",
+          "hint": {
+            "en": "A wish, would like: gustaría, with les for them.",
+            "it": "Un desiderio, piacerebbe: gustaría, con les per loro.",
+            "uk": "Бажання, хотіли б: gustaría, з les для них.",
+            "de": "Ein Wunsch, würden gern: gustaría, mit les für sie.",
+            "fr": "Un souhait, aimeraient : gustaría, avec les pour eux.",
+            "pt": "Um desejo, gostariam: gustaría, com les para eles.",
+            "zh": "一个愿望，“想”：gustaría，指他们时用 les。"
+          },
+          "beat": "mix"
+        },
+        {
+          "type": "build",
+          "intention": {
+            "en": "A friend asks «¿Vienes a la playa el domingo?». You have to work. Say you'd like to, but you can't.",
+            "it": "Un amico ti chiede «¿Vienes a la playa el domingo?». Devi lavorare. Rispondi che ti piacerebbe, ma non puoi.",
+            "uk": "Друг питає: «¿Vienes a la playa el domingo?». Тобі треба працювати. Скажи, що ти б хотів (хотіла), але не можеш.",
+            "de": "Ein Freund fragt dich: «¿Vienes a la playa el domingo?». Du musst arbeiten. Sag, dass du gern würdest, aber nicht kannst.",
+            "fr": "Un ami te demande « ¿Vienes a la playa el domingo? ». Tu dois travailler. Réponds que tu aimerais bien, mais que tu ne peux pas.",
+            "pt": "Um amigo pergunta «¿Vienes a la playa el domingo?». Você tem que trabalhar. Diga que gostaria, mas não pode.",
+            "zh": "一个朋友问你：«¿Vienes a la playa el domingo?»。你得上班。说你很想去，可是去不了。"
+          },
+          "accepted": [
+            "Me gustaría, pero no puedo."
+          ],
+          "tiles": [
+            "Me gustaría",
+            "pero",
+            "no puedo",
+            "puedes",
+            "me encanta"
+          ],
+          "en": "I'd like to, but I can't.",
+          "it": "Mi piacerebbe, ma non posso.",
+          "uk": "Я б хотів (хотіла), але не можу.",
+          "de": "Ich würde gern, aber ich kann nicht.",
+          "fr": "J'aimerais bien, mais je ne peux pas.",
+          "pt": "Eu gostaria, mas não posso.",
+          "zh": "我很想去，可是去不了。",
+          "hint": {
+            "en": "A polite no: me gustaría, pero no puedo.",
+            "it": "Un no gentile: me gustaría, pero no puedo.",
+            "uk": "Ввічлива відмова: me gustaría, pero no puedo.",
+            "de": "Ein höfliches Nein: me gustaría, pero no puedo.",
+            "fr": "Un non poli : me gustaría, pero no puedo.",
+            "pt": "Um não educado: me gustaría, pero no puedo.",
+            "zh": "礼貌地拒绝：me gustaría, pero no puedo。"
+          },
+          "beat": "mix"
+        },
+        {
+          "type": "write",
+          "instruction": {
+            "en": "Write in Spanish: «I'd like to live in Spain and speak Spanish every day.»",
+            "it": "Scrivi in spagnolo: «Mi piacerebbe vivere in Spagna e parlare spagnolo tutti i giorni.»",
+            "uk": "Напиши іспанською: «Я хотів (хотіла) б жити в Іспанії й щодня говорити іспанською.»",
+            "de": "Schreib auf Spanisch: «Ich würde gern in Spanien leben und jeden Tag Spanisch sprechen.»",
+            "fr": "Écris en espagnol : «J'aimerais vivre en Espagne et parler espagnol tous les jours.»",
+            "pt": "Escreva em espanhol: «Eu gostaria de morar na Espanha e falar espanhol todos os dias.»",
+            "zh": "用西班牙语写：«我想住在西班牙，每天都说西班牙语。»"
+          },
+          "accepted": [
+            "Me gustaría vivir en España y hablar español todos los días.",
+            "Me gustaría vivir en España y hablar español cada día."
+          ],
+          "model": {
+            "es": "Me gustaría vivir en España y hablar español todos los días.",
+            "en": "I'd like to live in Spain and speak Spanish every day.",
+            "it": "Mi piacerebbe vivere in Spagna e parlare spagnolo tutti i giorni.",
+            "uk": "Я хотів (хотіла) б жити в Іспанії й щодня говорити іспанською.",
+            "de": "Ich würde gern in Spanien leben und jeden Tag Spanisch sprechen.",
+            "fr": "J'aimerais vivre en Espagne et parler espagnol tous les jours.",
+            "pt": "Eu gostaria de morar na Espanha e falar espanhol todos os dias.",
+            "zh": "我想住在西班牙，每天都说西班牙语。"
+          },
+          "beat": "mix"
+        }
+      ]
+    },
+    {
+      "id": "u34l2",
+      "goal": {
+        "en": "Suggest and advise with the conditional: podríamos ir al cine, deberías dormir más, no deberías fumar tanto.",
+        "it": "Suggerisci e consiglia con il condizionale: podríamos ir al cine, deberías dormir más, no deberías fumar tanto.",
+        "uk": "Пропонуй і радь за допомогою умовного способу: podríamos ir al cine, deberías dormir más, no deberías fumar tanto.",
+        "de": "Mach Vorschläge und gib Ratschläge mit dem condicional: podríamos ir al cine, deberías dormir más, no deberías fumar tanto.",
+        "fr": "Propose et conseille avec le conditionnel : podríamos ir al cine, deberías dormir más, no deberías fumar tanto.",
+        "pt": "Sugira e aconselhe com o condicional: podríamos ir al cine, deberías dormir más, no deberías fumar tanto.",
+        "zh": "用条件式提建议、给忠告：podríamos ir al cine，deberías dormir más，no deberías fumar tanto。"
+      },
+      "target": {
+        "es": "Deberías descansar más; podríamos ir a la playa el domingo.",
+        "en": "You should rest more; we could go to the beach on Sunday.",
+        "it": "Dovresti riposarti di più; potremmo andare al mare domenica.",
+        "uk": "Тобі слід більше відпочивати; ми могли б поїхати на пляж у неділю.",
+        "de": "Du solltest dich mehr ausruhen; wir könnten am Sonntag an den Strand fahren.",
+        "fr": "Tu devrais te reposer plus ; on pourrait aller à la plage dimanche.",
+        "pt": "Você deveria descansar mais; poderíamos ir à praia no domingo.",
+        "zh": "你应该多休息；星期天我们可以去海边。"
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "podrías",
+              "en": "you could",
+              "it": "potresti",
+              "uk": "ти міг (могла) б",
+              "de": "du könntest",
+              "fr": "tu pourrais",
+              "pt": "você poderia",
+              "zh": "你可以",
+              "kind": "stem"
+            },
+            {
+              "es": "deber",
+              "en": "should, ought to",
+              "it": "dovere",
+              "uk": "мусити, бути повинним (слід)",
+              "de": "sollen, müssen",
+              "fr": "devoir",
+              "pt": "dever",
+              "zh": "应该",
+              "kind": "stem"
+            },
+            {
+              "es": "deberías",
+              "en": "you should",
+              "it": "dovresti",
+              "uk": "тобі слід, ти мав (мала) б",
+              "de": "du solltest",
+              "fr": "tu devrais",
+              "pt": "você deveria",
+              "zh": "你应该",
+              "kind": "stem"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "podr-",
+              "kind": "stem"
+            },
+            {
+              "text": "-íamos",
+              "kind": "ending"
+            }
+          ],
+          "rule": {
+            "en": "To suggest something, use the conditional of poder + the dictionary form: podrías llamarla, podríamos ir al cine. poder loses its e, just like in the future: podr-.",
+            "it": "Per suggerire qualcosa usa il condizionale di poder + l'infinito: podrías llamarla, podríamos ir al cine. poder perde la e, come al futuro: podr-.",
+            "uk": "Щоб щось запропонувати, вживай умовний спосіб від poder + словникова форма: podrías llamarla, podríamos ir al cine. poder втрачає e, як і в майбутньому часі: podr-.",
+            "de": "Für einen Vorschlag nimm den condicional von poder + Infinitiv: podrías llamarla, podríamos ir al cine (wie „du könntest“, „wir könnten“). poder verliert sein e, genau wie im Futur: podr-.",
+            "fr": "Pour proposer quelque chose, utilise le conditionnel de poder + l'infinitif : podrías llamarla, podríamos ir al cine. poder perd son e, comme au futur : podr-. En français aussi, on dit « je pourrais » et non « je pouvoirais ».",
+            "pt": "Para sugerir algo, use o condicional de poder + a forma do dicionário: podrías llamarla, podríamos ir al cine. poder perde o e, igual ao futuro: podr-.",
+            "zh": "要提建议，用 poder 的条件式 + 动词原形：podrías llamarla，podríamos ir al cine。和将来时一样，poder 会去掉 e：podr-。"
+          },
+          "examples": [
+            {
+              "es": "Podríamos ir al cine esta noche.",
+              "en": "We could go to the cinema tonight.",
+              "it": "Potremmo andare al cinema stasera.",
+              "uk": "Ми могли б піти сьогодні ввечері в кіно.",
+              "de": "Wir könnten heute Abend ins Kino gehen.",
+              "fr": "On pourrait aller au cinéma ce soir.",
+              "pt": "Poderíamos ir ao cinema hoje à noite.",
+              "zh": "今晚我们可以去看电影。"
+            },
+            {
+              "es": "Podrías ver películas en español.",
+              "en": "You could watch films in Spanish.",
+              "it": "Potresti guardare film in spagnolo.",
+              "uk": "Ти міг (могла) б дивитися фільми іспанською.",
+              "de": "Du könntest Filme auf Spanisch schauen.",
+              "fr": "Tu pourrais regarder des films en espagnol.",
+              "pt": "Você poderia ver filmes em espanhol.",
+              "zh": "你可以看西班牙语电影。"
+            },
+            {
+              "es": "Podrías llamar a tu hermano.",
+              "en": "You could call your brother.",
+              "it": "Potresti chiamare tuo fratello.",
+              "uk": "Ти міг (могла) б подзвонити братові.",
+              "de": "Du könntest deinen Bruder anrufen.",
+              "fr": "Tu pourrais appeler ton frère.",
+              "pt": "Você poderia ligar para o seu irmão.",
+              "zh": "你可以给你哥哥打个电话。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "podríamos",
+              "en": "we could",
+              "it": "potremmo",
+              "uk": "ми могли б",
+              "de": "wir könnten",
+              "fr": "nous pourrions",
+              "pt": "poderíamos",
+              "zh": "我们可以"
+            },
+            {
+              "es": "podríais",
+              "en": "you all could",
+              "it": "potreste",
+              "uk": "ви могли б (vosotros)",
+              "de": "ihr könntet",
+              "fr": "vous pourriez",
+              "pt": "vocês poderiam (vosotros)",
+              "zh": "你们可以"
+            },
+            {
+              "es": "podrían",
+              "en": "they could",
+              "it": "potrebbero",
+              "uk": "вони могли б",
+              "de": "sie könnten",
+              "fr": "ils / elles pourraient",
+              "pt": "eles poderiam",
+              "zh": "他们可以"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "before": "¿Qué hacemos esta noche? ",
+          "after": " ir al cine.",
+          "options": [
+            "Podríamos",
+            "Podrías",
+            "Podrían"
+          ],
+          "answer": "Podríamos",
+          "en": "What shall we do tonight? We could go to the cinema.",
+          "it": "Cosa facciamo stasera? Potremmo andare al cinema.",
+          "uk": "Що робитимемо сьогодні ввечері? Ми могли б піти в кіно.",
+          "de": "Was machen wir heute Abend? Wir könnten ins Kino gehen.",
+          "fr": "Qu'est-ce qu'on fait ce soir ? On pourrait aller au cinéma.",
+          "pt": "O que vamos fazer hoje à noite? Poderíamos ir ao cinema.",
+          "zh": "今晚我们做什么？我们可以去看电影。",
+          "hint": {
+            "en": "We could, nosotros: podr- + -íamos.",
+            "it": "Potremmo, nosotros: podr- + -íamos.",
+            "uk": "Ми могли б, nosotros: podr- + -íamos.",
+            "de": "Wir könnten, nosotros: podr- + -íamos.",
+            "fr": "Nous pourrions, nosotros : podr- + -íamos.",
+            "pt": "Poderíamos, nosotros: podr- + -íamos.",
+            "zh": "我们可以，nosotros：podr- + -íamos。"
+          },
+          "beat": "forge"
+        },
+        {
+          "type": "build",
+          "intention": {
+            "en": "Your friend wants to improve her Spanish. Suggest she could watch films in Spanish.",
+            "it": "La tua amica vuole migliorare il suo spagnolo. Suggeriscile che potrebbe guardare film in spagnolo.",
+            "uk": "Твоя подруга хоче покращити свою іспанську. Запропонуй їй дивитися фільми іспанською.",
+            "de": "Deine Freundin will ihr Spanisch verbessern. Schlag ihr vor, dass sie Filme auf Spanisch schauen könnte.",
+            "fr": "Ton amie veut améliorer son espagnol. Suggère-lui qu'elle pourrait regarder des films en espagnol.",
+            "pt": "Sua amiga quer melhorar o espanhol. Sugira que ela poderia ver filmes em espanhol.",
+            "zh": "你的朋友想提高她的西班牙语水平。建议她可以看西班牙语电影。"
+          },
+          "accepted": [
+            "Podrías ver películas en español."
+          ],
+          "tiles": [
+            "Podrías",
+            "ver",
+            "películas",
+            "en español",
+            "Podríamos",
+            "veas"
+          ],
+          "en": "You could watch films in Spanish.",
+          "it": "Potresti guardare film in spagnolo.",
+          "uk": "Ти могла б дивитися фільми іспанською.",
+          "de": "Du könntest Filme auf Spanisch schauen.",
+          "fr": "Tu pourrais regarder des films en espagnol.",
+          "pt": "Você poderia ver filmes em espanhol.",
+          "zh": "你可以看西班牙语电影。",
+          "hint": {
+            "en": "A suggestion to tú: podrías + the dictionary form.",
+            "it": "Un suggerimento a tú: podrías + l'infinito.",
+            "uk": "Пропозиція для tú: podrías + словникова форма.",
+            "de": "Ein Vorschlag an tú: podrías + Infinitiv.",
+            "fr": "Une suggestion à tú : podrías + l'infinitif.",
+            "pt": "Uma sugestão para tú: podrías + a forma do dicionário.",
+            "zh": "对 tú 提建议：podrías + 动词原形。"
+          },
+          "beat": "fire"
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "deber",
+              "kind": "stem"
+            },
+            {
+              "text": "-ías",
+              "kind": "ending"
+            }
+          ],
+          "rule": {
+            "en": "For advice, use the conditional of deber (should): deberías dormir más. It's regular: deber + -ía, -ías, -íamos, -ían.",
+            "it": "Per dare un consiglio usa il condizionale di deber: deberías dormir más (dovresti dormire di più). È regolare: deber + -ía, -ías, -íamos, -ían.",
+            "uk": "Для порад вживай умовний спосіб від deber (слід): deberías dormir más. Він правильний: deber + -ía, -ías, -íamos, -ían.",
+            "de": "Für einen Rat nimm den condicional von deber (sollen): deberías dormir más (du solltest mehr schlafen). Er ist regelmäßig: deber + -ía, -ías, -íamos, -ían.",
+            "fr": "Pour donner un conseil, utilise le conditionnel de deber : deberías dormir más (tu devrais dormir plus). Il est régulier : deber + -ía, -ías, -íamos, -ían.",
+            "pt": "Para dar um conselho, use o condicional de deber: deberías dormir más (você deveria dormir mais). É regular: deber + -ía, -ías, -íamos, -ían.",
+            "zh": "要给忠告，用 deber（应该）的条件式：deberías dormir más。它是规则的：deber + -ía、-ías、-íamos、-ían。"
+          },
+          "examples": [
+            {
+              "es": "Deberías dormir más.",
+              "en": "You should sleep more.",
+              "it": "Dovresti dormire di più.",
+              "uk": "Тобі слід більше спати.",
+              "de": "Du solltest mehr schlafen.",
+              "fr": "Tu devrais dormir plus.",
+              "pt": "Você deveria dormir mais.",
+              "zh": "你应该多睡一会儿。"
+            },
+            {
+              "es": "Tienes fiebre: deberías ir al médico.",
+              "en": "You've got a temperature: you should go to the doctor's.",
+              "it": "Hai la febbre: dovresti andare dal medico.",
+              "uk": "У тебе температура: тобі слід піти до лікаря.",
+              "de": "Du hast Fieber: Du solltest zum Arzt gehen.",
+              "fr": "Tu as de la fièvre : tu devrais aller chez le médecin.",
+              "pt": "Você está com febre: deveria ir ao médico.",
+              "zh": "你发烧了：你应该去看医生。"
+            },
+            {
+              "es": "Deberíamos llamar a la abuela.",
+              "en": "We should call grandma.",
+              "it": "Dovremmo chiamare la nonna.",
+              "uk": "Нам слід подзвонити бабусі.",
+              "de": "Wir sollten Oma anrufen.",
+              "fr": "Nous devrions appeler mamie.",
+              "pt": "Deveríamos ligar para a vovó.",
+              "zh": "我们应该给奶奶打个电话。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "debería",
+              "en": "I / he / she should",
+              "it": "dovrei, dovrebbe",
+              "uk": "мені / йому / їй слід",
+              "de": "ich / er / sie sollte",
+              "fr": "je devrais, il / elle devrait",
+              "pt": "eu / ele / ela deveria",
+              "zh": "我／他／她应该"
+            },
+            {
+              "es": "deberíamos",
+              "en": "we should",
+              "it": "dovremmo",
+              "uk": "нам слід",
+              "de": "wir sollten",
+              "fr": "nous devrions",
+              "pt": "deveríamos",
+              "zh": "我们应该"
+            },
+            {
+              "es": "deberían",
+              "en": "they should",
+              "it": "dovrebbero",
+              "uk": "їм слід",
+              "de": "sie sollten",
+              "fr": "ils / elles devraient",
+              "pt": "eles deveriam",
+              "zh": "他们应该"
+            }
+          ]
+        },
+        {
+          "type": "gap",
+          "before": "Trabajas demasiado: ",
+          "after": " descansar más.",
+          "label": "deber",
+          "accepted": [
+            "deberías"
+          ],
+          "en": "You work too much: you should rest more.",
+          "it": "Lavori troppo: dovresti riposarti di più.",
+          "uk": "Ти забагато працюєш: тобі слід більше відпочивати.",
+          "de": "Du arbeitest zu viel: Du solltest dich mehr ausruhen.",
+          "fr": "Tu travailles trop : tu devrais te reposer plus.",
+          "pt": "Você trabalha demais: deveria descansar mais.",
+          "zh": "你工作太多了：你应该多休息。",
+          "hint": {
+            "en": "Advice to tú: deber + -ías.",
+            "it": "Un consiglio a tú: deber + -ías.",
+            "uk": "Порада для tú: deber + -ías.",
+            "de": "Ein Rat an tú: deber + -ías.",
+            "fr": "Un conseil à tú : deber + -ías.",
+            "pt": "Um conselho para tú: deber + -ías.",
+            "zh": "对 tú 的忠告：deber + -ías。"
+          },
+          "beat": "forge"
+        },
+        {
+          "type": "build",
+          "intention": {
+            "en": "Your friends are always late for the film. Say they should leave home earlier.",
+            "it": "I tuoi amici arrivano sempre tardi al cinema. Di' che dovrebbero uscire di casa prima.",
+            "uk": "Твої друзі завжди спізнюються на фільм. Скажи, що їм слід виходити з дому раніше.",
+            "de": "Deine Freunde kommen immer zu spät zum Film. Sag, dass sie früher von zu Hause losgehen sollten.",
+            "fr": "Tes amis arrivent toujours en retard au cinéma. Dis qu'ils devraient partir de chez eux plus tôt.",
+            "pt": "Seus amigos sempre chegam atrasados ao filme. Diga que eles deveriam sair de casa mais cedo.",
+            "zh": "你的朋友们看电影总是迟到。说他们应该早点出门。"
+          },
+          "accepted": [
+            "Deberían salir de casa antes.",
+            "Deberían salir antes de casa."
+          ],
+          "tiles": [
+            "Deberían",
+            "salir",
+            "de casa",
+            "antes",
+            "Deberías",
+            "salen"
+          ],
+          "en": "They should leave home earlier.",
+          "it": "Dovrebbero uscire di casa prima.",
+          "uk": "Їм слід виходити з дому раніше.",
+          "de": "Sie sollten früher von zu Hause losgehen.",
+          "fr": "Ils devraient partir de chez eux plus tôt.",
+          "pt": "Eles deveriam sair de casa mais cedo.",
+          "zh": "他们应该早点出门。",
+          "hint": {
+            "en": "Advice about them, ellos: deber + -ían.",
+            "it": "Un consiglio su di loro, ellos: deber + -ían.",
+            "uk": "Порада про них, ellos: deber + -ían.",
+            "de": "Ein Rat über sie, ellos: deber + -ían.",
+            "fr": "Un conseil sur eux, ellos : deber + -ían.",
+            "pt": "Um conselho sobre eles, ellos: deber + -ían.",
+            "zh": "关于他们的忠告，ellos：deber + -ían。"
+          },
+          "beat": "fire"
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "no",
+              "kind": "ending"
+            },
+            {
+              "text": "deberías",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "tienes que is a strong must; deberías is friendly advice. To advise against something: no deberías + the dictionary form.",
+            "it": "tienes que è un obbligo forte; deberías è un consiglio da amico. Per sconsigliare qualcosa: no deberías + l'infinito.",
+            "uk": "tienes que — це суворе «мусиш»; deberías — дружня порада. Щоб відрадити від чогось: no deberías + словникова форма.",
+            "de": "tienes que ist ein starkes Muss (du musst); deberías ist ein freundlicher Rat (du solltest). Um von etwas abzuraten: no deberías + Infinitiv.",
+            "fr": "tienes que est une obligation forte ; deberías est un conseil d'ami, comme « tu dois » et « tu devrais ». Pour déconseiller quelque chose : no deberías + l'infinitif.",
+            "pt": "tienes que é uma obrigação forte; deberías é um conselho de amigo. Para desaconselhar algo: no deberías + a forma do dicionário.",
+            "zh": "tienes que 表示必须做；deberías 是朋友式的忠告。劝别人不要做某事：no deberías + 动词原形。"
+          },
+          "examples": [
+            {
+              "es": "Tienes que pagar el alquiler el día uno.",
+              "en": "You have to pay the rent on the first of the month.",
+              "it": "Devi pagare l'affitto il primo del mese.",
+              "uk": "Ти мусиш платити оренду першого числа.",
+              "de": "Du musst die Miete am Ersten des Monats zahlen.",
+              "fr": "Tu dois payer le loyer le premier du mois.",
+              "pt": "Você tem que pagar o aluguel no dia primeiro.",
+              "zh": "你必须在每月一号付房租。"
+            },
+            {
+              "es": "No deberías fumar tanto.",
+              "en": "You shouldn't smoke so much.",
+              "it": "Non dovresti fumare così tanto.",
+              "uk": "Тобі не слід стільки курити.",
+              "de": "Du solltest nicht so viel rauchen.",
+              "fr": "Tu ne devrais pas fumer autant.",
+              "pt": "Você não deveria fumar tanto.",
+              "zh": "你不应该抽那么多烟。"
+            },
+            {
+              "es": "Deberías comer más verduras.",
+              "en": "You should eat more vegetables.",
+              "it": "Dovresti mangiare più verdura.",
+              "uk": "Тобі слід їсти більше овочів.",
+              "de": "Du solltest mehr Gemüse essen.",
+              "fr": "Tu devrais manger plus de légumes.",
+              "pt": "Você deveria comer mais verduras.",
+              "zh": "你应该多吃蔬菜。"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "before": "Solo es un consejo: ",
+          "after": " comer más verduras.",
+          "options": [
+            "deberías",
+            "tienes que"
+          ],
+          "answer": "deberías",
+          "en": "It's just a piece of advice: you should eat more vegetables.",
+          "it": "È solo un consiglio: dovresti mangiare più verdura.",
+          "uk": "Це просто порада: тобі слід їсти більше овочів.",
+          "de": "Es ist nur ein Rat: Du solltest mehr Gemüse essen.",
+          "fr": "C'est juste un conseil : tu devrais manger plus de légumes.",
+          "pt": "É só um conselho: você deveria comer mais verduras.",
+          "zh": "只是一个建议：你应该多吃蔬菜。",
+          "hint": {
+            "en": "Friendly advice, not a must: deberías.",
+            "it": "Un consiglio da amico, non un obbligo: deberías.",
+            "uk": "Дружня порада, а не обов'язок: deberías.",
+            "de": "Ein freundlicher Rat, kein Muss: deberías.",
+            "fr": "Un conseil d'ami, pas une obligation : deberías.",
+            "pt": "Um conselho de amigo, não uma obrigação: deberías.",
+            "zh": "朋友式的忠告，不是必须：deberías。"
+          },
+          "beat": "forge"
+        },
+        {
+          "type": "gap",
+          "before": "No ",
+          "after": " beber tanto café por la noche.",
+          "label": "deber",
+          "accepted": [
+            "deberías"
+          ],
+          "en": "You shouldn't drink so much coffee at night.",
+          "it": "Non dovresti bere così tanto caffè la sera.",
+          "uk": "Тобі не слід пити стільки кави ввечері.",
+          "de": "Du solltest abends nicht so viel Kaffee trinken.",
+          "fr": "Tu ne devrais pas boire autant de café le soir.",
+          "pt": "Você não deveria tomar tanto café à noite.",
+          "zh": "你晚上不应该喝那么多咖啡。",
+          "hint": {
+            "en": "Advice against something: no deberías.",
+            "it": "Per sconsigliare: no deberías.",
+            "uk": "Порада чогось не робити: no deberías.",
+            "de": "Um abzuraten: no deberías.",
+            "fr": "Pour déconseiller quelque chose : no deberías.",
+            "pt": "Para desaconselhar algo: no deberías.",
+            "zh": "劝别人不要做某事：no deberías。"
+          },
+          "beat": "fire"
+        },
+        {
+          "type": "choose",
+          "before": "Mañana tienes un examen: ",
+          "after": " estudiar esta noche.",
+          "options": [
+            "deberías",
+            "debería",
+            "deberían"
+          ],
+          "answer": "deberías",
+          "en": "You've got an exam tomorrow: you should study tonight.",
+          "it": "Domani hai un esame: dovresti studiare stasera.",
+          "uk": "У тебе завтра іспит: тобі слід повчитися сьогодні ввечері.",
+          "de": "Du hast morgen eine Prüfung: Du solltest heute Abend lernen.",
+          "fr": "Tu as un examen demain : tu devrais réviser ce soir.",
+          "pt": "Você tem prova amanhã: deveria estudar hoje à noite.",
+          "zh": "你明天有考试：今晚你应该学习。",
+          "hint": {
+            "en": "Advice to tú: -ías.",
+            "it": "Un consiglio a tú: -ías.",
+            "uk": "Порада для tú: -ías.",
+            "de": "Ein Rat an tú: -ías.",
+            "fr": "Un conseil à tú : -ías.",
+            "pt": "Um conselho para tú: -ías.",
+            "zh": "对 tú 的忠告：-ías。"
+          },
+          "beat": "mix"
+        },
+        {
+          "type": "gap",
+          "before": "Si quieres, ",
+          "after": " ir juntos en coche.",
+          "label": "poder",
+          "accepted": [
+            "podríamos"
+          ],
+          "en": "If you like, we could go together by car.",
+          "it": "Se vuoi, potremmo andare insieme in macchina.",
+          "uk": "Якщо хочеш, ми могли б поїхати разом машиною.",
+          "de": "Wenn du willst, könnten wir zusammen mit dem Auto fahren.",
+          "fr": "Si tu veux, on pourrait y aller ensemble en voiture.",
+          "pt": "Se você quiser, poderíamos ir juntos de carro.",
+          "zh": "如果你愿意，我们可以一起开车去。",
+          "hint": {
+            "en": "A suggestion for both of you, nosotros: podríamos.",
+            "it": "Un suggerimento per tutti e due, nosotros: podríamos.",
+            "uk": "Пропозиція для вас обох, nosotros: podríamos.",
+            "de": "Ein Vorschlag für euch beide, nosotros: podríamos.",
+            "fr": "Une suggestion pour vous deux, nosotros : podríamos.",
+            "pt": "Uma sugestão para vocês dois, nosotros: podríamos.",
+            "zh": "给你们两个人的建议，nosotros：podríamos。"
+          },
+          "beat": "mix"
+        },
+        {
+          "type": "build",
+          "intention": {
+            "en": "Your friend can't sleep at night. Suggest he could drink less coffee.",
+            "it": "Il tuo amico non riesce a dormire la notte. Suggeriscigli che potrebbe bere meno caffè.",
+            "uk": "Твій друг не може спати вночі. Запропонуй йому пити менше кави.",
+            "de": "Dein Freund kann nachts nicht schlafen. Schlag ihm vor, dass er weniger Kaffee trinken könnte.",
+            "fr": "Ton ami n'arrive pas à dormir la nuit. Suggère-lui qu'il pourrait boire moins de café.",
+            "pt": "Seu amigo não consegue dormir à noite. Sugira que ele poderia tomar menos café.",
+            "zh": "你的朋友晚上睡不着觉。建议他可以少喝点咖啡。"
+          },
+          "accepted": [
+            "Podrías beber menos café."
+          ],
+          "tiles": [
+            "Podrías",
+            "beber",
+            "menos",
+            "café",
+            "Podríamos",
+            "más"
+          ],
+          "en": "You could drink less coffee.",
+          "it": "Potresti bere meno caffè.",
+          "uk": "Ти міг би пити менше кави.",
+          "de": "Du könntest weniger Kaffee trinken.",
+          "fr": "Tu pourrais boire moins de café.",
+          "pt": "Você poderia tomar menos café.",
+          "zh": "你可以少喝点咖啡。",
+          "hint": {
+            "en": "A suggestion to tú: podrías + the dictionary form.",
+            "it": "Un suggerimento a tú: podrías + l'infinito.",
+            "uk": "Пропозиція для tú: podrías + словникова форма.",
+            "de": "Ein Vorschlag an tú: podrías + Infinitiv.",
+            "fr": "Une suggestion à tú : podrías + l'infinitif.",
+            "pt": "Uma sugestão para tú: podrías + a forma do dicionário.",
+            "zh": "对 tú 提建议：podrías + 动词原形。"
+          },
+          "beat": "mix"
+        },
+        {
+          "type": "write",
+          "instruction": {
+            "en": "Write in Spanish: «You should rest more; we could go to the beach on Sunday.»",
+            "it": "Scrivi in spagnolo: «Dovresti riposarti di più; potremmo andare al mare domenica.»",
+            "uk": "Напиши іспанською: «Тобі слід більше відпочивати; ми могли б поїхати на пляж у неділю.»",
+            "de": "Schreib auf Spanisch: «Du solltest dich mehr ausruhen; wir könnten am Sonntag an den Strand fahren.»",
+            "fr": "Écris en espagnol : «Tu devrais te reposer plus ; on pourrait aller à la plage dimanche.»",
+            "pt": "Escreva em espanhol: «Você deveria descansar mais; poderíamos ir à praia no domingo.»",
+            "zh": "用西班牙语写：«你应该多休息；星期天我们可以去海边。»"
+          },
+          "accepted": [
+            "Deberías descansar más; podríamos ir a la playa el domingo.",
+            "Deberías descansar más; el domingo podríamos ir a la playa.",
+            "Deberías descansar más; podríamos ir el domingo a la playa."
+          ],
+          "model": {
+            "es": "Deberías descansar más; podríamos ir a la playa el domingo.",
+            "en": "You should rest more; we could go to the beach on Sunday.",
+            "it": "Dovresti riposarti di più; potremmo andare al mare domenica.",
+            "uk": "Тобі слід більше відпочивати; ми могли б поїхати на пляж у неділю.",
+            "de": "Du solltest dich mehr ausruhen; wir könnten am Sonntag an den Strand fahren.",
+            "fr": "Tu devrais te reposer plus ; on pourrait aller à la plage dimanche.",
+            "pt": "Você deveria descansar mais; poderíamos ir à praia no domingo.",
+            "zh": "你应该多休息；星期天我们可以去海边。"
+          },
+          "beat": "mix"
+        }
+      ]
+    },
+    {
+      "id": "u34l3",
+      "goal": {
+        "en": "Give advice by putting yourself in someone's place: yo que tú, hablaría con él; yo en tu lugar, no haría nada; ¿tú qué harías?",
+        "it": "Dai consigli mettendoti al posto dell'altro: yo que tú, hablaría con él; yo en tu lugar, no haría nada; ¿tú qué harías?",
+        "uk": "Радь, ставлячи себе на місце іншого: yo que tú, hablaría con él; yo en tu lugar, no haría nada; ¿tú qué harías?",
+        "de": "Gib Ratschläge, indem du dich in die Lage des anderen versetzt: yo que tú, hablaría con él; yo en tu lugar, no haría nada; ¿tú qué harías?",
+        "fr": "Donne des conseils en te mettant à la place de l'autre : yo que tú, hablaría con él ; yo en tu lugar, no haría nada ; ¿tú qué harías?",
+        "pt": "Dê conselhos se colocando no lugar do outro: yo que tú, hablaría con él; yo en tu lugar, no haría nada; ¿tú qué harías?",
+        "zh": "设身处地给别人出主意：yo que tú, hablaría con él；yo en tu lugar, no haría nada；¿tú qué harías?"
+      },
+      "target": {
+        "es": "Yo que tú, hablaría con tu jefe y le diría la verdad.",
+        "en": "If I were you, I'd talk to your boss and tell him the truth.",
+        "it": "Se fossi in te, parlerei con il tuo capo e gli direi la verità.",
+        "uk": "На твоєму місці я поговорив(-ла) б з твоїм начальником і сказав(-ла) б йому правду.",
+        "de": "Ich an deiner Stelle würde mit deinem Chef sprechen und ihm die Wahrheit sagen.",
+        "fr": "Si j'étais toi, je parlerais à ton chef et je lui dirais la vérité.",
+        "pt": "Se eu fosse você, falaria com o seu chefe e diria a verdade a ele.",
+        "zh": "我要是你，就去跟你老板谈谈，把实话告诉他。"
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "yo que tú",
+              "en": "if I were you",
+              "it": "se fossi in te",
+              "uk": "на твоєму місці (якби я був тобою)",
+              "de": "ich an deiner Stelle, wenn ich du wäre",
+              "fr": "si j'étais toi",
+              "pt": "se eu fosse você",
+              "zh": "我要是你",
+              "kind": "chunk"
+            },
+            {
+              "es": "yo en tu lugar",
+              "en": "if I were in your place",
+              "it": "al posto tuo",
+              "uk": "на твоєму місці",
+              "de": "an deiner Stelle",
+              "fr": "à ta place",
+              "pt": "no seu lugar, se eu estivesse no seu lugar",
+              "zh": "我要是处在你的位置",
+              "kind": "chunk"
+            },
+            {
+              "es": "aceptar",
+              "en": "to accept",
+              "it": "accettare",
+              "uk": "приймати, погоджуватися",
+              "de": "annehmen, akzeptieren",
+              "fr": "accepter",
+              "pt": "aceitar",
+              "zh": "接受",
+              "kind": "stem"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "yo que tú",
+              "kind": "chunk"
+            },
+            {
+              "text": "hablaría",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "To give advice, imagine you're the other person: yo que tú (if I were you) + the yo form of the conditional, which ends in -ía: yo que tú, hablaría con él.",
+            "it": "Per dare un consiglio, mettiti nei panni dell'altro: yo que tú (se fossi in te) + la forma di yo del condizionale, che finisce in -ía: yo que tú, hablaría con él.",
+            "uk": "Щоб дати пораду, уяви, що ти — інша людина: yo que tú (на твоєму місці) + форма умовного способу для yo, яка закінчується на -ía: yo que tú, hablaría con él.",
+            "de": "Um einen Rat zu geben, stell dir vor, du wärst der andere: yo que tú (ich an deiner Stelle) + die yo-Form des condicional, die auf -ía endet: yo que tú, hablaría con él.",
+            "fr": "Pour donner un conseil, mets-toi à la place de l'autre : yo que tú (si j'étais toi) + la forme yo du conditionnel, qui se termine en -ía : yo que tú, hablaría con él.",
+            "pt": "Para dar um conselho, imagine que você é a outra pessoa: yo que tú (se eu fosse você) + a forma de yo do condicional, que termina em -ía: yo que tú, hablaría con él.",
+            "zh": "给人出主意时，把自己想象成对方：yo que tú（我要是你）+ 条件式的 yo 形式，以 -ía 结尾：yo que tú, hablaría con él。"
+          },
+          "examples": [
+            {
+              "es": "Yo que tú, hablaría con él.",
+              "en": "If I were you, I'd talk to him.",
+              "it": "Se fossi in te, gli parlerei.",
+              "uk": "На твоєму місці я поговорив(-ла) б з ним.",
+              "de": "Ich an deiner Stelle würde mit ihm sprechen.",
+              "fr": "Si j'étais toi, je lui parlerais.",
+              "pt": "Se eu fosse você, falaria com ele.",
+              "zh": "我要是你，就去跟他谈谈。"
+            },
+            {
+              "es": "Yo que tú, buscaría otro piso.",
+              "en": "If I were you, I'd look for another flat.",
+              "it": "Se fossi in te, cercherei un altro appartamento.",
+              "uk": "На твоєму місці я пошукав(-ла) б іншу квартиру.",
+              "de": "Ich an deiner Stelle würde mir eine andere Wohnung suchen.",
+              "fr": "Si j'étais toi, je chercherais un autre appartement.",
+              "pt": "Se eu fosse você, procuraria outro apartamento.",
+              "zh": "我要是你，就另找一套房子。"
+            },
+            {
+              "es": "Yo en tu lugar, no compraría ese coche.",
+              "en": "If I were you, I wouldn't buy that car.",
+              "it": "Al posto tuo, non comprerei quella macchina.",
+              "uk": "На твоєму місці я не купував(-ла) б цю машину.",
+              "de": "An deiner Stelle würde ich dieses Auto nicht kaufen.",
+              "fr": "À ta place, je n'achèterais pas cette voiture.",
+              "pt": "No seu lugar, eu não compraria esse carro.",
+              "zh": "我要是你，就不买那辆车。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "hablaría",
+              "en": "I would talk, I would speak",
+              "it": "parlerei",
+              "uk": "я поговорив(-ла) б, я говорив(-ла) б",
+              "de": "ich würde sprechen, ich würde reden",
+              "fr": "je parlerais",
+              "pt": "eu falaria",
+              "zh": "我会谈，我会说"
+            },
+            {
+              "es": "buscaría",
+              "en": "I would look for",
+              "it": "cercherei",
+              "uk": "я пошукав(-ла) б",
+              "de": "ich würde suchen",
+              "fr": "je chercherais",
+              "pt": "eu procuraria",
+              "zh": "我会找"
+            },
+            {
+              "es": "compraría",
+              "en": "I would buy",
+              "it": "comprerei",
+              "uk": "я купив(-ла) б",
+              "de": "ich würde kaufen",
+              "fr": "j'achèterais",
+              "pt": "eu compraria",
+              "zh": "我会买"
+            },
+            {
+              "es": "llamaría",
+              "en": "I would call",
+              "it": "chiamerei",
+              "uk": "я подзвонив(-ла) б",
+              "de": "ich würde anrufen",
+              "fr": "j'appellerais",
+              "pt": "eu ligaria, eu chamaria",
+              "zh": "我会打电话"
+            },
+            {
+              "es": "aceptaría",
+              "en": "I would accept",
+              "it": "accetterei",
+              "uk": "я прийняв(-ла) б",
+              "de": "ich würde annehmen",
+              "fr": "j'accepterais",
+              "pt": "eu aceitaria",
+              "zh": "我会接受"
+            },
+            {
+              "es": "iría",
+              "en": "I would go",
+              "it": "andrei",
+              "uk": "я пішов (пішла) б",
+              "de": "ich würde gehen, ich würde fahren",
+              "fr": "j'irais",
+              "pt": "eu iria",
+              "zh": "我会去"
+            },
+            {
+              "es": "esperaría",
+              "en": "I would wait",
+              "it": "aspetterei",
+              "uk": "я почекав(-ла) б",
+              "de": "ich würde warten",
+              "fr": "j'attendrais",
+              "pt": "eu esperaria",
+              "zh": "我会等"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "before": "Yo que tú, ",
+          "after": " con tu jefe.",
+          "options": [
+            "hablaría",
+            "hablaré",
+            "hablo"
+          ],
+          "answer": "hablaría",
+          "en": "If I were you, I'd talk to your boss.",
+          "it": "Se fossi in te, parlerei con il tuo capo.",
+          "uk": "На твоєму місці я поговорив(-ла) б з твоїм начальником.",
+          "de": "Ich an deiner Stelle würde mit deinem Chef sprechen.",
+          "fr": "Si j'étais toi, je parlerais à ton chef.",
+          "pt": "Se eu fosse você, falaria com o seu chefe.",
+          "zh": "我要是你，就去跟你老板谈谈。",
+          "hint": {
+            "en": "yo que tú + the conditional: hablar + -ía.",
+            "it": "yo que tú + il condizionale: hablar + -ía.",
+            "uk": "yo que tú + умовний спосіб: hablar + -ía.",
+            "de": "yo que tú + condicional: hablar + -ía.",
+            "fr": "yo que tú + le conditionnel : hablar + -ía.",
+            "pt": "yo que tú + o condicional: hablar + -ía.",
+            "zh": "yo que tú + 条件式：hablar + -ía。"
+          },
+          "beat": "forge"
+        },
+        {
+          "type": "gap",
+          "before": "Yo que tú, no ",
+          "after": " ese coche: es muy caro.",
+          "label": "comprar",
+          "accepted": [
+            "compraría"
+          ],
+          "en": "If I were you, I wouldn't buy that car: it's very expensive.",
+          "it": "Se fossi in te, non comprerei quella macchina: è molto cara.",
+          "uk": "На твоєму місці я не купував(-ла) б цю машину: вона дуже дорога.",
+          "de": "Ich an deiner Stelle würde dieses Auto nicht kaufen: Es ist sehr teuer.",
+          "fr": "Si j'étais toi, je n'achèterais pas cette voiture : elle est très chère.",
+          "pt": "Se eu fosse você, não compraria esse carro: é muito caro.",
+          "zh": "我要是你，就不买那辆车：太贵了。",
+          "hint": {
+            "en": "yo que tú + the conditional: comprar + -ía.",
+            "it": "yo que tú + il condizionale: comprar + -ía.",
+            "uk": "yo que tú + умовний спосіб: comprar + -ía.",
+            "de": "yo que tú + condicional: comprar + -ía.",
+            "fr": "yo que tú + le conditionnel : comprar + -ía.",
+            "pt": "yo que tú + o condicional: comprar + -ía.",
+            "zh": "yo que tú + 条件式：comprar + -ía。"
+          },
+          "beat": "fire"
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "dir-",
+              "kind": "stem"
+            },
+            {
+              "text": "-ía",
+              "kind": "ending"
+            }
+          ],
+          "rule": {
+            "en": "Verbs with a short stem in the future use the same stem here, with -ía: tendría, haría, diría, saldría, vendría, pondría, sabría, querría.",
+            "it": "I verbi con il tema corto al futuro usano lo stesso tema qui, con -ía: tendría, haría, diría, saldría, vendría, pondría, sabría, querría.",
+            "uk": "Дієслова з короткою основою в майбутньому часі мають ту саму основу й тут, з -ía: tendría, haría, diría, saldría, vendría, pondría, sabría, querría.",
+            "de": "Verben mit einem verkürzten Stamm im Futur benutzen hier denselben Stamm, mit -ía: tendría, haría, diría, saldría, vendría, pondría, sabría, querría.",
+            "fr": "Les verbes qui ont un radical court au futur gardent le même radical ici, avec -ía : tendría, haría, diría, saldría, vendría, pondría, sabría, querría. Comme en français : « je ferai » → « je ferais ».",
+            "pt": "Os verbos com radical curto no futuro usam o mesmo radical aqui, com -ía: tendría, haría, diría, saldría, vendría, pondría, sabría, querría. O português faz algo parecido: faria, diria.",
+            "zh": "在将来时里词干变短的动词，在这里也用同样的词干，再加 -ía：tendría、haría、diría、saldría、vendría、pondría、sabría、querría。"
+          },
+          "examples": [
+            {
+              "es": "Yo que tú, se lo diría.",
+              "en": "If I were you, I'd tell him.",
+              "it": "Se fossi in te, glielo direi.",
+              "uk": "На твоєму місці я сказав(-ла) б йому.",
+              "de": "Ich an deiner Stelle würde es ihm sagen.",
+              "fr": "Si j'étais toi, je le lui dirais.",
+              "pt": "Se eu fosse você, contaria para ele.",
+              "zh": "我要是你，就告诉他。"
+            },
+            {
+              "es": "Yo en tu lugar, no haría nada.",
+              "en": "If I were you, I wouldn't do anything.",
+              "it": "Al posto tuo, non farei niente.",
+              "uk": "На твоєму місці я нічого не робив(-ла) б.",
+              "de": "An deiner Stelle würde ich gar nichts tun.",
+              "fr": "À ta place, je ne ferais rien.",
+              "pt": "No seu lugar, eu não faria nada.",
+              "zh": "我要是你，就什么也不做。"
+            },
+            {
+              "es": "Yo que tú, saldría de casa antes.",
+              "en": "If I were you, I'd leave home earlier.",
+              "it": "Se fossi in te, uscirei di casa prima.",
+              "uk": "На твоєму місці я виходив(-ла) б з дому раніше.",
+              "de": "Ich an deiner Stelle würde früher von zu Hause losgehen.",
+              "fr": "Si j'étais toi, je partirais de chez moi plus tôt.",
+              "pt": "Se eu fosse você, sairia de casa mais cedo.",
+              "zh": "我要是你，就早点出门。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "tendría",
+              "en": "I / he / she would have",
+              "it": "avrei, avrebbe",
+              "uk": "я / він / вона мав(-ла) б",
+              "de": "ich / er / sie hätte",
+              "fr": "j'aurais, il / elle aurait",
+              "pt": "eu / ele / ela teria",
+              "zh": "我／他／她会有"
+            },
+            {
+              "es": "tendrías",
+              "en": "you would have",
+              "it": "avresti",
+              "uk": "ти мав(-ла) б",
+              "de": "du hättest",
+              "fr": "tu aurais",
+              "pt": "você teria",
+              "zh": "你会有"
+            },
+            {
+              "es": "haría",
+              "en": "I / he / she would do, would make",
+              "it": "farei, farebbe",
+              "uk": "я / він / вона зробив(-ла) б",
+              "de": "ich / er / sie würde machen, würde tun",
+              "fr": "je ferais, il / elle ferait",
+              "pt": "eu / ele / ela faria",
+              "zh": "我／他／她会做"
+            },
+            {
+              "es": "harías",
+              "en": "you would do, would make",
+              "it": "faresti",
+              "uk": "ти зробив(-ла) б",
+              "de": "du würdest machen, würdest tun",
+              "fr": "tu ferais",
+              "pt": "você faria",
+              "zh": "你会做"
+            },
+            {
+              "es": "diría",
+              "en": "I / he / she would say, would tell",
+              "it": "direi, direbbe",
+              "uk": "я / він / вона сказав(-ла) б",
+              "de": "ich / er / sie würde sagen",
+              "fr": "je dirais, il / elle dirait",
+              "pt": "eu / ele / ela diria",
+              "zh": "我／他／她会说"
+            },
+            {
+              "es": "dirías",
+              "en": "you would say, would tell",
+              "it": "diresti",
+              "uk": "ти сказав(-ла) б",
+              "de": "du würdest sagen",
+              "fr": "tu dirais",
+              "pt": "você diria",
+              "zh": "你会说"
+            },
+            {
+              "es": "saldría",
+              "en": "I / he / she would leave, would go out",
+              "it": "uscirei, uscirebbe",
+              "uk": "я / він / вона вийшов (вийшла) б",
+              "de": "ich / er / sie würde losgehen, würde ausgehen",
+              "fr": "je partirais, il / elle partirait, je sortirais",
+              "pt": "eu / ele / ela sairia",
+              "zh": "我／他／她会出门，会出去"
+            },
+            {
+              "es": "vendría",
+              "en": "I / he / she would come",
+              "it": "verrei, verrebbe",
+              "uk": "я / він / вона прийшов (прийшла) б",
+              "de": "ich / er / sie würde kommen",
+              "fr": "je viendrais, il / elle viendrait",
+              "pt": "eu / ele / ela viria",
+              "zh": "我／他／她会来"
+            },
+            {
+              "es": "pondría",
+              "en": "I / he / she would put",
+              "it": "metterei, metterebbe",
+              "uk": "я / він / вона поклав(-ла) б",
+              "de": "ich / er / sie würde legen, würde stellen",
+              "fr": "je mettrais, il / elle mettrait",
+              "pt": "eu / ele / ela poria, colocaria",
+              "zh": "我／他／她会放"
+            },
+            {
+              "es": "sabría",
+              "en": "I / he / she would know",
+              "it": "saprei, saprebbe",
+              "uk": "я / він / вона знав(-ла) б",
+              "de": "ich / er / sie wüsste",
+              "fr": "je saurais, il / elle saurait",
+              "pt": "eu / ele / ela saberia",
+              "zh": "我／他／她会知道"
+            },
+            {
+              "es": "querría",
+              "en": "I / he / she would want",
+              "it": "vorrei, vorrebbe",
+              "uk": "я / він / вона хотів (хотіла) б",
+              "de": "ich / er / sie würde wollen",
+              "fr": "je voudrais, il / elle voudrait",
+              "pt": "eu / ele / ela quereria, gostaria",
+              "zh": "我／他／她会想要"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "before": "Yo que tú, se lo ",
+          "after": ".",
+          "options": [
+            "diría",
+            "diré",
+            "digo"
+          ],
+          "answer": "diría",
+          "en": "If I were you, I'd tell him.",
+          "it": "Se fossi in te, glielo direi.",
+          "uk": "На твоєму місці я сказав(-ла) б йому.",
+          "de": "Ich an deiner Stelle würde es ihm sagen.",
+          "fr": "Si j'étais toi, je le lui dirais.",
+          "pt": "Se eu fosse você, contaria para ele.",
+          "zh": "我要是你，就告诉他。",
+          "hint": {
+            "en": "decir has the short stem dir-, + -ía: diría.",
+            "it": "decir ha il tema corto dir-, + -ía: diría.",
+            "uk": "decir має коротку основу dir-, + -ía: diría.",
+            "de": "decir hat den verkürzten Stamm dir-, + -ía: diría.",
+            "fr": "decir a le radical court dir-, + -ía : diría.",
+            "pt": "decir tem o radical curto dir-, + -ía: diría.",
+            "zh": "decir 的短词干是 dir-，+ -ía：diría。"
+          },
+          "beat": "forge"
+        },
+        {
+          "type": "gap",
+          "before": "Yo en tu lugar, no ",
+          "after": " nada.",
+          "label": "hacer",
+          "accepted": [
+            "haría"
+          ],
+          "en": "If I were you, I wouldn't do anything.",
+          "it": "Al posto tuo, non farei niente.",
+          "uk": "На твоєму місці я нічого не робив(-ла) б.",
+          "de": "An deiner Stelle würde ich gar nichts tun.",
+          "fr": "À ta place, je ne ferais rien.",
+          "pt": "No seu lugar, eu não faria nada.",
+          "zh": "我要是你，就什么也不做。",
+          "hint": {
+            "en": "hacer has the short stem har-, + -ía: haría.",
+            "it": "hacer ha il tema corto har-, + -ía: haría.",
+            "uk": "hacer має коротку основу har-, + -ía: haría.",
+            "de": "hacer hat den verkürzten Stamm har-, + -ía: haría.",
+            "fr": "hacer a le radical court har-, + -ía : haría.",
+            "pt": "hacer tem o radical curto har-, + -ía: haría.",
+            "zh": "hacer 的短词干是 har-，+ -ía：haría。"
+          },
+          "beat": "fire"
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "¿tú qué",
+              "kind": "ending"
+            },
+            {
+              "text": "harías?",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "To ask for advice: ¿tú qué harías? or ¿qué harías tú en mi lugar? The tú form ends in -ías.",
+            "it": "Per chiedere un consiglio: ¿tú qué harías? o ¿qué harías tú en mi lugar? La forma di tú finisce in -ías.",
+            "uk": "Щоб попросити поради: ¿tú qué harías? або ¿qué harías tú en mi lugar? Форма для tú закінчується на -ías.",
+            "de": "Um einen Rat zu bitten: ¿tú qué harías? oder ¿qué harías tú en mi lugar? Die tú-Form endet auf -ías.",
+            "fr": "Pour demander un conseil : ¿tú qué harías? ou ¿qué harías tú en mi lugar? La forme tú se termine en -ías.",
+            "pt": "Para pedir um conselho: ¿tú qué harías? ou ¿qué harías tú en mi lugar? A forma de tú termina em -ías.",
+            "zh": "向别人征求意见：¿tú qué harías? 或 ¿qué harías tú en mi lugar?。tú 的形式以 -ías 结尾。"
+          },
+          "examples": [
+            {
+              "es": "¿Tú qué harías en mi lugar?",
+              "en": "What would you do in my place?",
+              "it": "Tu cosa faresti al posto mio?",
+              "uk": "Що б ти зробив(-ла) на моєму місці?",
+              "de": "Was würdest du an meiner Stelle tun?",
+              "fr": "Qu'est-ce que tu ferais à ma place ?",
+              "pt": "O que você faria no meu lugar?",
+              "zh": "你要是我，会怎么做？"
+            },
+            {
+              "es": "Yo que tú, aceptaría la oferta.",
+              "en": "If I were you, I'd accept the offer.",
+              "it": "Se fossi in te, accetterei l'offerta.",
+              "uk": "На твоєму місці я прийняв(-ла) б пропозицію.",
+              "de": "Ich an deiner Stelle würde das Angebot annehmen.",
+              "fr": "Si j'étais toi, j'accepterais l'offre.",
+              "pt": "Se eu fosse você, aceitaria a oferta.",
+              "zh": "我要是你，就接受这份工作。"
+            },
+            {
+              "es": "¿Qué le dirías a tu jefe?",
+              "en": "What would you say to your boss?",
+              "it": "Cosa diresti al tuo capo?",
+              "uk": "Що б ти сказав(-ла) своєму начальникові?",
+              "de": "Was würdest du deinem Chef sagen?",
+              "fr": "Qu'est-ce que tu dirais à ton chef ?",
+              "pt": "O que você diria ao seu chefe?",
+              "zh": "你会跟你老板说什么？"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "before": "Tengo una oferta de trabajo en otra ciudad. ¿Tú qué ",
+          "after": "?",
+          "options": [
+            "harías",
+            "haría",
+            "harás"
+          ],
+          "answer": "harías",
+          "en": "I've got a job offer in another city. What would you do?",
+          "it": "Ho un'offerta di lavoro in un'altra città. Tu cosa faresti?",
+          "uk": "Мені запропонували роботу в іншому місті. Що б ти зробив(-ла)?",
+          "de": "Ich habe ein Jobangebot in einer anderen Stadt. Was würdest du tun?",
+          "fr": "J'ai une offre de travail dans une autre ville. Qu'est-ce que tu ferais ?",
+          "pt": "Recebi uma oferta de trabalho em outra cidade. O que você faria?",
+          "zh": "我在另一个城市得到了一份工作机会。你会怎么做？",
+          "hint": {
+            "en": "You're asking tú: har- + -ías.",
+            "it": "Chiedi a tú: har- + -ías.",
+            "uk": "Питаєш у tú: har- + -ías.",
+            "de": "Du fragst tú: har- + -ías.",
+            "fr": "Tu poses la question à tú : har- + -ías.",
+            "pt": "Você está perguntando a tú: har- + -ías.",
+            "zh": "你在问 tú：har- + -ías。"
+          },
+          "beat": "forge"
+        },
+        {
+          "type": "build",
+          "intention": {
+            "en": "Your friend has a great job offer and asks «¿Tú qué harías en mi lugar?». Answer: if I were you, I'd accept the offer.",
+            "it": "La tua amica ha un'ottima offerta di lavoro e ti chiede «¿Tú qué harías en mi lugar?». Rispondi: se fossi in te, accetterei l'offerta.",
+            "uk": "Твій друг отримав чудову пропозицію роботи й питає: «¿Tú qué harías en mi lugar?». Відповідай: на твоєму місці я прийняв(-ла) б пропозицію.",
+            "de": "Deine Freundin hat ein tolles Jobangebot und fragt dich: «¿Tú qué harías en mi lugar?». Antworte: Ich an deiner Stelle würde das Angebot annehmen.",
+            "fr": "Ton amie a une super offre de travail et te demande « ¿Tú qué harías en mi lugar? ». Réponds : si j'étais toi, j'accepterais l'offre.",
+            "pt": "Sua amiga tem uma ótima oferta de trabalho e pergunta «¿Tú qué harías en mi lugar?». Responda: se eu fosse você, aceitaria a oferta.",
+            "zh": "你的朋友得到了一份很好的工作机会，她问你：«¿Tú qué harías en mi lugar?»。回答：我要是你，就接受这份工作。"
+          },
+          "accepted": [
+            "Yo que tú, aceptaría la oferta.",
+            "Yo en tu lugar, aceptaría la oferta."
+          ],
+          "tiles": [
+            "Yo que tú",
+            "aceptaría",
+            "la oferta",
+            "aceptar",
+            "harías"
+          ],
+          "en": "If I were you, I'd accept the offer.",
+          "it": "Se fossi in te, accetterei l'offerta.",
+          "uk": "На твоєму місці я прийняв(-ла) б пропозицію.",
+          "de": "Ich an deiner Stelle würde das Angebot annehmen.",
+          "fr": "Si j'étais toi, j'accepterais l'offre.",
+          "pt": "Se eu fosse você, aceitaria a oferta.",
+          "zh": "我要是你，就接受这份工作。",
+          "hint": {
+            "en": "yo que tú + the conditional: aceptar + -ía.",
+            "it": "yo que tú + il condizionale: aceptar + -ía.",
+            "uk": "yo que tú + умовний спосіб: aceptar + -ía.",
+            "de": "yo que tú + condicional: aceptar + -ía.",
+            "fr": "yo que tú + le conditionnel : aceptar + -ía.",
+            "pt": "yo que tú + o condicional: aceptar + -ía.",
+            "zh": "yo que tú + 条件式：aceptar + -ía。"
+          },
+          "beat": "fire"
+        },
+        {
+          "type": "gap",
+          "before": "Yo que tú, ",
+          "after": " a la policía ahora mismo.",
+          "label": "llamar",
+          "accepted": [
+            "llamaría"
+          ],
+          "en": "If I were you, I'd call the police right now.",
+          "it": "Se fossi in te, chiamerei subito la polizia.",
+          "uk": "На твоєму місці я негайно подзвонив(-ла) б у поліцію.",
+          "de": "Ich an deiner Stelle würde sofort die Polizei rufen.",
+          "fr": "Si j'étais toi, j'appellerais la police tout de suite.",
+          "pt": "Se eu fosse você, chamaria a polícia agora mesmo.",
+          "zh": "我要是你，现在就报警。",
+          "hint": {
+            "en": "yo que tú + the conditional: llamar + -ía.",
+            "it": "yo que tú + il condizionale: llamar + -ía.",
+            "uk": "yo que tú + умовний спосіб: llamar + -ía.",
+            "de": "yo que tú + condicional: llamar + -ía.",
+            "fr": "yo que tú + le conditionnel : llamar + -ía.",
+            "pt": "yo que tú + o condicional: llamar + -ía.",
+            "zh": "yo que tú + 条件式：llamar + -ía。"
+          },
+          "beat": "mix"
+        },
+        {
+          "type": "choose",
+          "before": "Yo en tu lugar, ",
+          "after": " de casa antes: hay mucho tráfico.",
+          "options": [
+            "saldría",
+            "saldré",
+            "salgo"
+          ],
+          "answer": "saldría",
+          "en": "If I were you, I'd leave home earlier: there's a lot of traffic.",
+          "it": "Al posto tuo, uscirei di casa prima: c'è molto traffico.",
+          "uk": "На твоєму місці я виходив(-ла) б з дому раніше: там великі затори.",
+          "de": "An deiner Stelle würde ich früher von zu Hause losgehen: Es ist viel Verkehr.",
+          "fr": "À ta place, je partirais de chez moi plus tôt : il y a beaucoup de circulation.",
+          "pt": "No seu lugar, eu sairia de casa mais cedo: tem muito trânsito.",
+          "zh": "我要是你，就早点出门：路上车很多。",
+          "hint": {
+            "en": "Advice with yo en tu lugar: the conditional, saldr- + -ía.",
+            "it": "Un consiglio con yo en tu lugar: il condizionale, saldr- + -ía.",
+            "uk": "Порада з yo en tu lugar: умовний спосіб, saldr- + -ía.",
+            "de": "Ein Rat mit yo en tu lugar: condicional, saldr- + -ía.",
+            "fr": "Un conseil avec yo en tu lugar : le conditionnel, saldr- + -ía.",
+            "pt": "Um conselho com yo en tu lugar: o condicional, saldr- + -ía.",
+            "zh": "用 yo en tu lugar 给忠告：条件式，saldr- + -ía。"
+          },
+          "beat": "mix"
+        },
+        {
+          "type": "build",
+          "intention": {
+            "en": "Your friend's flat is small and very expensive. Advise him: if I were you, I'd look for another flat.",
+            "it": "L'appartamento del tuo amico è piccolo e carissimo. Consiglialo: se fossi in te, cercherei un altro appartamento.",
+            "uk": "Квартира твого друга маленька й дуже дорога. Порадь йому: на твоєму місці я пошукав(-ла) б іншу квартиру.",
+            "de": "Die Wohnung deines Freundes ist klein und sehr teuer. Rate ihm: Ich an deiner Stelle würde mir eine andere Wohnung suchen.",
+            "fr": "L'appartement de ton ami est petit et très cher. Conseille-le : si j'étais toi, je chercherais un autre appartement.",
+            "pt": "O apartamento do seu amigo é pequeno e muito caro. Aconselhe: se eu fosse você, procuraria outro apartamento.",
+            "zh": "你朋友的房子又小又贵。给他出主意：我要是你，就另找一套房子。"
+          },
+          "accepted": [
+            "Yo que tú, buscaría otro piso.",
+            "Yo en tu lugar, buscaría otro piso."
+          ],
+          "tiles": [
+            "Yo que tú",
+            "buscaría",
+            "otro piso",
+            "buscar",
+            "busca"
+          ],
+          "en": "If I were you, I'd look for another flat.",
+          "it": "Se fossi in te, cercherei un altro appartamento.",
+          "uk": "На твоєму місці я пошукав(-ла) б іншу квартиру.",
+          "de": "Ich an deiner Stelle würde mir eine andere Wohnung suchen.",
+          "fr": "Si j'étais toi, je chercherais un autre appartement.",
+          "pt": "Se eu fosse você, procuraria outro apartamento.",
+          "zh": "我要是你，就另找一套房子。",
+          "hint": {
+            "en": "yo que tú + the conditional: buscar + -ía.",
+            "it": "yo que tú + il condizionale: buscar + -ía.",
+            "uk": "yo que tú + умовний спосіб: buscar + -ía.",
+            "de": "yo que tú + condicional: buscar + -ía.",
+            "fr": "yo que tú + le conditionnel : buscar + -ía.",
+            "pt": "yo que tú + o condicional: buscar + -ía.",
+            "zh": "yo que tú + 条件式：buscar + -ía。"
+          },
+          "beat": "mix"
+        },
+        {
+          "type": "write",
+          "instruction": {
+            "en": "Write in Spanish: «If I were you, I'd talk to your boss and tell him the truth.»",
+            "it": "Scrivi in spagnolo: «Se fossi in te, parlerei con il tuo capo e gli direi la verità.»",
+            "uk": "Напиши іспанською: «На твоєму місці я поговорив(-ла) б з твоїм начальником і сказав(-ла) б йому правду.»",
+            "de": "Schreib auf Spanisch: «Ich an deiner Stelle würde mit deinem Chef sprechen und ihm die Wahrheit sagen.»",
+            "fr": "Écris en espagnol : «Si j'étais toi, je parlerais à ton chef et je lui dirais la vérité.»",
+            "pt": "Escreva em espanhol: «Se eu fosse você, falaria com o seu chefe e diria a verdade a ele.»",
+            "zh": "用西班牙语写：«我要是你，就去跟你老板谈谈，把实话告诉他。»"
+          },
+          "accepted": [
+            "Yo que tú, hablaría con tu jefe y le diría la verdad.",
+            "Yo en tu lugar, hablaría con tu jefe y le diría la verdad."
+          ],
+          "model": {
+            "es": "Yo que tú, hablaría con tu jefe y le diría la verdad.",
+            "en": "If I were you, I'd talk to your boss and tell him the truth.",
+            "it": "Se fossi in te, parlerei con il tuo capo e gli direi la verità.",
+            "uk": "На твоєму місці я поговорив(-ла) б з твоїм начальником і сказав(-ла) б йому правду.",
+            "de": "Ich an deiner Stelle würde mit deinem Chef sprechen und ihm die Wahrheit sagen.",
+            "fr": "Si j'étais toi, je parlerais à ton chef et je lui dirais la vérité.",
+            "pt": "Se eu fosse você, falaria com o seu chefe e diria a verdade a ele.",
+            "zh": "我要是你，就去跟你老板谈谈，把实话告诉他。"
+          },
+          "beat": "mix"
+        }
+      ]
+    },
+    {
+      "id": "u34l4",
+      "goal": {
+        "en": "Talk about real possibilities: si + the normal present, then the present, the future or an order: si tengo tiempo, voy; si necesitas ayuda, llámame; en ese caso…",
+        "it": "Parla di possibilità reali: si + il presente normale, poi il presente, il futuro o un ordine: si tengo tiempo, voy; si necesitas ayuda, llámame; en ese caso…",
+        "uk": "Говори про реальні можливості: si + звичайний теперішній час, далі теперішній, майбутній час або наказ: si tengo tiempo, voy; si necesitas ayuda, llámame; en ese caso…",
+        "de": "Sprich über echte Möglichkeiten: si + normales Präsens, danach Präsens, Futur oder eine Aufforderung: si tengo tiempo, voy; si necesitas ayuda, llámame; en ese caso…",
+        "fr": "Parle de possibilités réelles : si + le présent normal, puis le présent, le futur ou un ordre : si tengo tiempo, voy ; si necesitas ayuda, llámame ; en ese caso…",
+        "pt": "Fale de possibilidades reais: si + o presente normal, depois o presente, o futuro ou uma ordem: si tengo tiempo, voy; si necesitas ayuda, llámame; en ese caso…",
+        "zh": "谈论真实可能发生的事：si + 普通的现在时，后面接现在时、将来时或命令式：si tengo tiempo, voy；si necesitas ayuda, llámame；en ese caso…"
+      },
+      "target": {
+        "es": "Si mañana tengo tiempo, voy a la playa.",
+        "en": "If I have time tomorrow, I'll go to the beach.",
+        "it": "Se domani ho tempo, vado al mare.",
+        "uk": "Якщо завтра матиму час, піду на пляж.",
+        "de": "Wenn ich morgen Zeit habe, gehe ich an den Strand.",
+        "fr": "Si j'ai le temps demain, je vais à la plage.",
+        "pt": "Se amanhã eu tiver tempo, vou à praia.",
+        "zh": "如果明天我有时间，我就去海边。"
+      },
+      "names": [
+        "Madrid",
+        "el Prado"
+      ],
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "en ese caso",
+              "en": "in that case",
+              "it": "in quel caso",
+              "uk": "у такому разі",
+              "de": "in dem Fall",
+              "fr": "dans ce cas",
+              "pt": "nesse caso",
+              "zh": "那样的话，既然这样",
+              "kind": "rail"
+            },
+            {
+              "es": "tener hambre",
+              "en": "to be hungry",
+              "it": "avere fame",
+              "uk": "бути голодним",
+              "de": "Hunger haben",
+              "fr": "avoir faim",
+              "pt": "estar com fome, ter fome",
+              "zh": "饿",
+              "kind": "chunk"
+            },
+            {
+              "es": "la ayuda",
+              "en": "help",
+              "it": "l'aiuto",
+              "uk": "допомога",
+              "de": "die Hilfe",
+              "fr": "l'aide",
+              "pt": "a ajuda",
+              "zh": "帮助",
+              "kind": "chunk"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "si",
+              "kind": "rail"
+            },
+            {
+              "text": "tengo",
+              "kind": "stem"
+            },
+            {
+              "text": "tiempo",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "For a real possibility, use si + the normal present, then the present or the future: si tengo tiempo, voy. After si, never the subjunctive and never the conditional.",
+            "it": "Per una possibilità reale usa si + il presente normale, poi il presente o il futuro: si tengo tiempo, voy. Dopo si mai il congiuntivo e mai il condizionale.",
+            "uk": "Для реальної можливості вживай si + звичайний теперішній час, далі теперішній або майбутній: si tengo tiempo, voy. Після si — ніколи не «subjuntivo» і ніколи не умовний спосіб. Зверни увагу: українською кажемо «якщо матиму», а іспанською — si tengo.",
+            "de": "Für eine echte Möglichkeit nimm si + normales Präsens, danach Präsens oder Futur: si tengo tiempo, voy. Nach si steht nie der subjuntivo und nie der condicional.",
+            "fr": "Pour une possibilité réelle, utilise si + le présent normal, puis le présent ou le futur : si tengo tiempo, voy. Après si, jamais de subjonctif ni de conditionnel, exactement comme en français.",
+            "pt": "Para uma possibilidade real, use si + o presente normal, depois o presente ou o futuro: si tengo tiempo, voy. Depois de si, nunca o subjuntivo nem o condicional. Atenção: em português dizemos se eu tiver tempo (futuro do subjuntivo), mas em espanhol é o presente normal: si tengo tiempo.",
+            "zh": "表示真实可能发生的事，用 si + 普通的现在时，后面接现在时或将来时：si tengo tiempo, voy。si 后面绝对不用虚拟式，也不用条件式。"
+          },
+          "examples": [
+            {
+              "es": "Si tengo tiempo, voy a verte.",
+              "en": "If I have time, I'll come and see you.",
+              "it": "Se ho tempo, vengo a trovarti.",
+              "uk": "Якщо матиму час, прийду до тебе.",
+              "de": "Wenn ich Zeit habe, komme ich dich besuchen.",
+              "fr": "Si j'ai le temps, je viens te voir.",
+              "pt": "Se eu tiver tempo, vou te ver.",
+              "zh": "如果我有时间，就去看你。"
+            },
+            {
+              "es": "Si llueve, nos quedamos en casa.",
+              "en": "If it rains, we'll stay at home.",
+              "it": "Se piove, restiamo a casa.",
+              "uk": "Якщо піде дощ, залишимося вдома.",
+              "de": "Wenn es regnet, bleiben wir zu Hause.",
+              "fr": "S'il pleut, on reste à la maison.",
+              "pt": "Se chover, ficamos em casa.",
+              "zh": "如果下雨，我们就待在家里。"
+            },
+            {
+              "es": "Si terminas pronto, iremos al cine.",
+              "en": "If you finish early, we'll go to the cinema.",
+              "it": "Se finisci presto, andremo al cinema.",
+              "uk": "Якщо закінчиш рано, підемо в кіно.",
+              "de": "Wenn du früh fertig bist, gehen wir ins Kino.",
+              "fr": "Si tu finis tôt, on ira au cinéma.",
+              "pt": "Se você terminar cedo, vamos ao cinema.",
+              "zh": "如果你早点做完，我们就去看电影。"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "before": "Si ",
+          "after": " tiempo, voy al gimnasio.",
+          "options": [
+            "tengo",
+            "tenga",
+            "tendría"
+          ],
+          "answer": "tengo",
+          "en": "If I have time, I'll go to the gym.",
+          "it": "Se ho tempo, vado in palestra.",
+          "uk": "Якщо матиму час, піду в спортзал.",
+          "de": "Wenn ich Zeit habe, gehe ich ins Fitnessstudio.",
+          "fr": "Si j'ai le temps, je vais à la salle de sport.",
+          "pt": "Se eu tiver tempo, vou à academia.",
+          "zh": "如果我有时间，就去健身房。",
+          "hint": {
+            "en": "After si, the normal present: tengo.",
+            "it": "Dopo si, il presente normale: tengo.",
+            "uk": "Після si — звичайний теперішній час: tengo.",
+            "de": "Nach si das normale Präsens: tengo.",
+            "fr": "Après si, le présent normal : tengo.",
+            "pt": "Depois de si, o presente normal: tengo (em português: se eu tiver).",
+            "zh": "si 后面用普通的现在时：tengo。"
+          },
+          "beat": "forge"
+        },
+        {
+          "type": "gap",
+          "before": "Si ",
+          "after": " mañana, nos quedamos en casa.",
+          "label": "llover",
+          "accepted": [
+            "llueve"
+          ],
+          "en": "If it rains tomorrow, we'll stay at home.",
+          "it": "Se domani piove, restiamo a casa.",
+          "uk": "Якщо завтра піде дощ, ми залишимося вдома.",
+          "de": "Wenn es morgen regnet, bleiben wir zu Hause.",
+          "fr": "S'il pleut demain, on reste à la maison.",
+          "pt": "Se chover amanhã, ficamos em casa.",
+          "zh": "如果明天下雨，我们就待在家里。",
+          "hint": {
+            "en": "After si, the normal present, even for tomorrow: llueve.",
+            "it": "Dopo si, il presente normale, anche per domani: llueve.",
+            "uk": "Після si — звичайний теперішній час, навіть про завтра: llueve.",
+            "de": "Nach si das normale Präsens, auch für morgen: llueve.",
+            "fr": "Après si, le présent normal, même pour demain : llueve.",
+            "pt": "Depois de si, o presente normal, mesmo para amanhã: llueve (em português: se chover).",
+            "zh": "si 后面用普通的现在时，即使说的是明天：llueve。"
+          },
+          "beat": "fire"
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "si",
+              "kind": "rail"
+            },
+            {
+              "text": "tienes hambre",
+              "kind": "chunk"
+            },
+            {
+              "text": "come",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "After the si part, you can also give an order: si tienes hambre, come algo.",
+            "it": "Dopo la parte con si puoi anche dare un ordine: si tienes hambre, come algo.",
+            "uk": "Після частини з si можна також дати наказ: si tienes hambre, come algo.",
+            "de": "Nach dem Teil mit si kannst du auch eine Aufforderung geben: si tienes hambre, come algo.",
+            "fr": "Après la partie avec si, tu peux aussi donner un ordre : si tienes hambre, come algo.",
+            "pt": "Depois da parte com si, você também pode dar uma ordem: si tienes hambre, come algo.",
+            "zh": "si 那部分后面也可以接命令式：si tienes hambre, come algo。"
+          },
+          "examples": [
+            {
+              "es": "Si tienes hambre, come algo.",
+              "en": "If you're hungry, eat something.",
+              "it": "Se hai fame, mangia qualcosa.",
+              "uk": "Якщо ти голодний(-а), з'їж щось.",
+              "de": "Wenn du Hunger hast, iss etwas.",
+              "fr": "Si tu as faim, mange quelque chose.",
+              "pt": "Se você estiver com fome, coma alguma coisa.",
+              "zh": "你要是饿了，就吃点东西。"
+            },
+            {
+              "es": "Si necesitas ayuda, llámame.",
+              "en": "If you need help, call me.",
+              "it": "Se hai bisogno di aiuto, chiamami.",
+              "uk": "Якщо потрібна допомога, дзвони мені.",
+              "de": "Wenn du Hilfe brauchst, ruf mich an.",
+              "fr": "Si tu as besoin d'aide, appelle-moi.",
+              "pt": "Se precisar de ajuda, me ligue.",
+              "zh": "你要是需要帮忙，就给我打电话。"
+            },
+            {
+              "es": "Si llegas tarde, avísame.",
+              "en": "If you're going to be late, let me know.",
+              "it": "Se arrivi tardi, avvisami.",
+              "uk": "Якщо запізнюєшся, дай мені знати.",
+              "de": "Wenn du dich verspätest, sag mir Bescheid.",
+              "fr": "Si tu arrives en retard, préviens-moi.",
+              "pt": "Se você for chegar atrasado, me avise.",
+              "zh": "你要是会晚到，就告诉我一声。"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "before": "Si tienes frío, ",
+          "after": " la ventana.",
+          "options": [
+            "cierra",
+            "cierras"
+          ],
+          "answer": "cierra",
+          "en": "If you're cold, close the window.",
+          "it": "Se hai freddo, chiudi la finestra.",
+          "uk": "Якщо тобі холодно, зачини вікно.",
+          "de": "Wenn dir kalt ist, mach das Fenster zu.",
+          "fr": "Si tu as froid, ferme la fenêtre.",
+          "pt": "Se você estiver com frio, feche a janela.",
+          "zh": "你要是冷，就把窗户关上。",
+          "hint": {
+            "en": "si + present, then an order to tú: cierra.",
+            "it": "si + presente, poi un ordine a tú: cierra.",
+            "uk": "si + теперішній час, далі наказ для tú: cierra.",
+            "de": "si + Präsens, dann eine Aufforderung an tú: cierra.",
+            "fr": "si + présent, puis un ordre à tú : cierra.",
+            "pt": "si + presente, depois uma ordem para tú: cierra.",
+            "zh": "si + 现在时，后面接对 tú 的命令式：cierra。"
+          },
+          "beat": "forge"
+        },
+        {
+          "type": "build",
+          "intention": {
+            "en": "Your friend is moving house on Saturday. Say: if you need help, call me.",
+            "it": "Il tuo amico trasloca sabato. Digli: se hai bisogno di aiuto, chiamami.",
+            "uk": "Твій друг (твоя подруга) переїжджає в суботу. Скажи: якщо потрібна допомога, дзвони мені.",
+            "de": "Dein Freund zieht am Samstag um. Sag: Wenn du Hilfe brauchst, ruf mich an.",
+            "fr": "Ton ami déménage samedi. Dis-lui : si tu as besoin d'aide, appelle-moi.",
+            "pt": "Seu amigo vai se mudar no sábado. Diga: se precisar de ajuda, me ligue.",
+            "zh": "你的朋友星期六搬家。对他说：你要是需要帮忙，就给我打电话。"
+          },
+          "accepted": [
+            "Si necesitas ayuda, llámame.",
+            "Llámame si necesitas ayuda."
+          ],
+          "tiles": [
+            "Si",
+            "necesitas",
+            "ayuda",
+            "llámame",
+            "llamas",
+            "cuando"
+          ],
+          "en": "If you need help, call me.",
+          "it": "Se hai bisogno di aiuto, chiamami.",
+          "uk": "Якщо потрібна допомога, дзвони мені.",
+          "de": "Wenn du Hilfe brauchst, ruf mich an.",
+          "fr": "Si tu as besoin d'aide, appelle-moi.",
+          "pt": "Se precisar de ajuda, me ligue.",
+          "zh": "你要是需要帮忙，就给我打电话。",
+          "hint": {
+            "en": "si + the normal present, then an order: llámame.",
+            "it": "si + il presente normale, poi un ordine: llámame.",
+            "uk": "si + звичайний теперішній час, далі наказ: llámame.",
+            "de": "si + normales Präsens, dann eine Aufforderung: llámame.",
+            "fr": "si + le présent normal, puis un ordre : llámame.",
+            "pt": "si + o presente normal, depois uma ordem: llámame.",
+            "zh": "si + 普通的现在时，后面接命令式：llámame。"
+          },
+          "beat": "fire"
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "en ese caso",
+              "kind": "rail"
+            }
+          ],
+          "rule": {
+            "en": "To react to what someone tells you, say en ese caso (in that case) + what you'll do: ¿no puedes venir? En ese caso, cenamos mañana.",
+            "it": "Per reagire a quello che ti dicono, di' en ese caso (in quel caso) + quello che farai: ¿no puedes venir? En ese caso, cenamos mañana.",
+            "uk": "Щоб відреагувати на те, що тобі кажуть, скажи en ese caso (у такому разі) + що ти зробиш: ¿no puedes venir? En ese caso, cenamos mañana.",
+            "de": "Um auf etwas zu reagieren, was man dir erzählt, sag en ese caso (in dem Fall) + was du tun wirst: ¿no puedes venir? En ese caso, cenamos mañana.",
+            "fr": "Pour réagir à ce qu'on te dit, dis en ese caso (dans ce cas) + ce que tu vas faire : ¿no puedes venir? En ese caso, cenamos mañana.",
+            "pt": "Para reagir ao que alguém te diz, use en ese caso (nesse caso) + o que você vai fazer: ¿no puedes venir? En ese caso, cenamos mañana.",
+            "zh": "回应别人告诉你的事时，说 en ese caso（那样的话）+ 你要做的事：¿no puedes venir? En ese caso, cenamos mañana。"
+          },
+          "examples": [
+            {
+              "es": "¿No puedes venir hoy? En ese caso, cenamos mañana.",
+              "en": "You can't come today? In that case, we'll have dinner tomorrow.",
+              "it": "Non puoi venire oggi? In quel caso, ceniamo domani.",
+              "uk": "Не можеш прийти сьогодні? У такому разі повечеряємо завтра.",
+              "de": "Du kannst heute nicht kommen? In dem Fall essen wir morgen zusammen zu Abend.",
+              "fr": "Tu ne peux pas venir aujourd'hui ? Dans ce cas, on dîne ensemble demain.",
+              "pt": "Você não pode vir hoje? Nesse caso, jantamos amanhã.",
+              "zh": "你今天来不了？那样的话，我们明天吃晚饭吧。"
+            },
+            {
+              "es": "¿Está cerrado el museo? En ese caso, vamos al parque.",
+              "en": "Is the museum closed? In that case, let's go to the park.",
+              "it": "Il museo è chiuso? In quel caso, andiamo al parco.",
+              "uk": "Музей зачинений? У такому разі ходімо в парк.",
+              "de": "Ist das Museum geschlossen? In dem Fall gehen wir in den Park.",
+              "fr": "Le musée est fermé ? Dans ce cas, allons au parc.",
+              "pt": "O museu está fechado? Nesse caso, vamos ao parque.",
+              "zh": "博物馆关门了？那样的话，我们去公园吧。"
+            }
+          ]
+        },
+        {
+          "type": "build",
+          "intention": {
+            "en": "A friend tells you «Hoy no puedo, tengo mucho trabajo». Say: in that case, we'll have dinner tomorrow.",
+            "it": "Un amico ti dice «Hoy no puedo, tengo mucho trabajo». Rispondi: in quel caso, ceniamo domani.",
+            "uk": "Друг каже тобі: «Hoy no puedo, tengo mucho trabajo». Скажи: у такому разі повечеряємо завтра.",
+            "de": "Ein Freund sagt dir: «Hoy no puedo, tengo mucho trabajo». Sag: In dem Fall essen wir morgen zusammen zu Abend.",
+            "fr": "Un ami te dit « Hoy no puedo, tengo mucho trabajo ». Réponds : dans ce cas, on dîne ensemble demain.",
+            "pt": "Um amigo te diz «Hoy no puedo, tengo mucho trabajo». Responda: nesse caso, jantamos amanhã.",
+            "zh": "一个朋友对你说：«Hoy no puedo, tengo mucho trabajo»。说：那样的话，我们明天吃晚饭吧。"
+          },
+          "accepted": [
+            "En ese caso, cenamos mañana.",
+            "En ese caso, mañana cenamos."
+          ],
+          "tiles": [
+            "En ese caso",
+            "cenamos",
+            "mañana",
+            "si",
+            "cuando"
+          ],
+          "en": "In that case, we'll have dinner tomorrow.",
+          "it": "In quel caso, ceniamo domani.",
+          "uk": "У такому разі повечеряємо завтра.",
+          "de": "In dem Fall essen wir morgen zusammen zu Abend.",
+          "fr": "Dans ce cas, on dîne ensemble demain.",
+          "pt": "Nesse caso, jantamos amanhã.",
+          "zh": "那样的话，我们明天吃晚饭吧。",
+          "hint": {
+            "en": "Reacting to news: en ese caso + what you'll do.",
+            "it": "Per reagire a una notizia: en ese caso + quello che farai.",
+            "uk": "Реакція на новину: en ese caso + що ти зробиш.",
+            "de": "Reaktion auf eine Neuigkeit: en ese caso + was du tun wirst.",
+            "fr": "Pour réagir à une nouvelle : en ese caso + ce que tu vas faire.",
+            "pt": "Para reagir a uma notícia: en ese caso + o que você vai fazer.",
+            "zh": "回应一个消息：en ese caso + 你要做的事。"
+          },
+          "beat": "forge"
+        },
+        {
+          "type": "choose",
+          "before": "¿No hay tren hasta las diez? ",
+          "after": ", cogemos un taxi.",
+          "options": [
+            "En ese caso",
+            "Si",
+            "Cuando"
+          ],
+          "answer": "En ese caso",
+          "en": "There's no train until ten? In that case, we'll get a taxi.",
+          "it": "Non c'è un treno fino alle dieci? In quel caso, prendiamo un taxi.",
+          "uk": "Немає потяга до десятої? У такому разі візьмемо таксі.",
+          "de": "Vor zehn fährt kein Zug? In dem Fall nehmen wir ein Taxi.",
+          "fr": "Il n'y a pas de train avant dix heures ? Dans ce cas, on prend un taxi.",
+          "pt": "Não tem trem até as dez? Nesse caso, pegamos um táxi.",
+          "zh": "十点之前没有火车？那样的话，我们打车吧。",
+          "hint": {
+            "en": "You react to what you've just heard: en ese caso.",
+            "it": "Reagisci a quello che hai appena sentito: en ese caso.",
+            "uk": "Ти реагуєш на те, що щойно почув(-ла): en ese caso.",
+            "de": "Du reagierst auf das, was du gerade gehört hast: en ese caso.",
+            "fr": "Tu réagis à ce que tu viens d'entendre : en ese caso.",
+            "pt": "Você reage ao que acabou de ouvir: en ese caso.",
+            "zh": "你在回应刚听到的话：en ese caso。"
+          },
+          "beat": "fire"
+        },
+        {
+          "type": "gap",
+          "before": "Si ",
+          "after": " pronto del trabajo, te llamo.",
+          "label": "salir",
+          "accepted": [
+            "salgo"
+          ],
+          "en": "If I leave work early, I'll call you.",
+          "it": "Se esco presto dal lavoro, ti chiamo.",
+          "uk": "Якщо рано піду з роботи, подзвоню тобі.",
+          "de": "Wenn ich früh von der Arbeit wegkomme, rufe ich dich an.",
+          "fr": "Si je sors tôt du travail, je t'appelle.",
+          "pt": "Se eu sair cedo do trabalho, te ligo.",
+          "zh": "如果我早点下班，就给你打电话。",
+          "hint": {
+            "en": "After si, the normal present: salgo.",
+            "it": "Dopo si, il presente normale: salgo.",
+            "uk": "Після si — звичайний теперішній час: salgo.",
+            "de": "Nach si das normale Präsens: salgo.",
+            "fr": "Après si, le présent normal : salgo.",
+            "pt": "Depois de si, o presente normal: salgo.",
+            "zh": "si 后面用普通的现在时：salgo。"
+          },
+          "beat": "mix"
+        },
+        {
+          "type": "choose",
+          "before": "Si ",
+          "after": " a Madrid, tienes que ver el Prado.",
+          "options": [
+            "vas",
+            "vayas",
+            "iría"
+          ],
+          "answer": "vas",
+          "en": "If you go to Madrid, you have to see the Prado.",
+          "it": "Se vai a Madrid, devi vedere il Prado.",
+          "uk": "Якщо поїдеш у Мадрид, обов'язково сходи в Прадо.",
+          "de": "Wenn du nach Madrid fährst, musst du dir den Prado ansehen.",
+          "fr": "Si tu vas à Madrid, tu dois voir le Prado.",
+          "pt": "Se você for a Madri, tem que ver o Prado.",
+          "zh": "你要是去马德里，一定要去看看普拉多博物馆。",
+          "hint": {
+            "en": "After si, never the subjunctive or the conditional: vas.",
+            "it": "Dopo si, mai il congiuntivo o il condizionale: vas.",
+            "uk": "Після si — ніколи не «subjuntivo» і не умовний спосіб: vas.",
+            "de": "Nach si nie subjuntivo oder condicional: vas.",
+            "fr": "Après si, jamais de subjonctif ni de conditionnel : vas.",
+            "pt": "Depois de si, nunca o subjuntivo nem o condicional: vas (em português: se você for).",
+            "zh": "si 后面绝对不用虚拟式，也不用条件式：vas。"
+          },
+          "beat": "mix"
+        },
+        {
+          "type": "build",
+          "intention": {
+            "en": "A colleague tells you «Hoy no hay reunión». React: in that case, I'm going home early.",
+            "it": "Un collega ti dice «Hoy no hay reunión». Reagisci: in quel caso, me ne vado a casa presto.",
+            "uk": "Колега каже тобі: «Hoy no hay reunión». Відреагуй: у такому разі я рано піду додому.",
+            "de": "Ein Kollege sagt dir: «Hoy no hay reunión». Reagiere: In dem Fall gehe ich früh nach Hause.",
+            "fr": "Un collègue te dit « Hoy no hay reunión ». Réagis : dans ce cas, je rentre tôt à la maison.",
+            "pt": "Um colega te diz «Hoy no hay reunión». Reaja: nesse caso, vou para casa cedo.",
+            "zh": "一位同事对你说：«Hoy no hay reunión»。回应：那样的话，我就早点回家。"
+          },
+          "accepted": [
+            "En ese caso, me voy pronto a casa.",
+            "En ese caso, me voy a casa pronto."
+          ],
+          "tiles": [
+            "En ese caso",
+            "me voy",
+            "pronto",
+            "a casa",
+            "si",
+            "iría"
+          ],
+          "en": "In that case, I'm going home early.",
+          "it": "In quel caso, me ne vado a casa presto.",
+          "uk": "У такому разі я рано піду додому.",
+          "de": "In dem Fall gehe ich früh nach Hause.",
+          "fr": "Dans ce cas, je rentre tôt à la maison.",
+          "pt": "Nesse caso, vou para casa cedo.",
+          "zh": "那样的话，我就早点回家。",
+          "hint": {
+            "en": "Reacting to news: en ese caso + what you'll do.",
+            "it": "Per reagire a una notizia: en ese caso + quello che farai.",
+            "uk": "Реакція на новину: en ese caso + що ти зробиш.",
+            "de": "Reaktion auf eine Neuigkeit: en ese caso + was du tun wirst.",
+            "fr": "Pour réagir à une nouvelle : en ese caso + ce que tu vas faire.",
+            "pt": "Para reagir a uma notícia: en ese caso + o que você vai fazer.",
+            "zh": "回应一个消息：en ese caso + 你要做的事。"
+          },
+          "beat": "mix"
+        },
+        {
+          "type": "write",
+          "instruction": {
+            "en": "Write in Spanish: «If I have time tomorrow, I'll go to the beach.»",
+            "it": "Scrivi in spagnolo: «Se domani ho tempo, vado al mare.»",
+            "uk": "Напиши іспанською: «Якщо завтра матиму час, піду на пляж.»",
+            "de": "Schreib auf Spanisch: «Wenn ich morgen Zeit habe, gehe ich an den Strand.»",
+            "fr": "Écris en espagnol : «Si j'ai le temps demain, je vais à la plage.»",
+            "pt": "Escreva em espanhol: «Se amanhã eu tiver tempo, vou à praia.»",
+            "zh": "用西班牙语写：«如果明天我有时间，我就去海边。»"
+          },
+          "accepted": [
+            "Si mañana tengo tiempo, voy a la playa.",
+            "Si tengo tiempo mañana, voy a la playa.",
+            "Si mañana tengo tiempo, iré a la playa.",
+            "Si tengo tiempo mañana, iré a la playa.",
+            "Mañana, si tengo tiempo, voy a la playa.",
+            "Mañana, si tengo tiempo, iré a la playa.",
+            "Si mañana tengo tiempo, voy a ir a la playa.",
+            "Si tengo tiempo mañana, voy a ir a la playa."
+          ],
+          "model": {
+            "es": "Si mañana tengo tiempo, voy a la playa.",
+            "en": "If I have time tomorrow, I'll go to the beach.",
+            "it": "Se domani ho tempo, vado al mare.",
+            "uk": "Якщо завтра матиму час, піду на пляж.",
+            "de": "Wenn ich morgen Zeit habe, gehe ich an den Strand.",
+            "fr": "Si j'ai le temps demain, je vais à la plage.",
+            "pt": "Se amanhã eu tiver tempo, vou à praia.",
+            "zh": "如果明天我有时间，我就去海边。"
+          },
+          "beat": "mix"
+        }
+      ]
+    },
+    {
+      "id": "u34l5",
+      "goal": {
+        "en": "Ask for things very politely: ¿le importaría…?, ¿te importaría…?, ¿podrías…?, ¿me harías un favor?, and say you don't mind.",
+        "it": "Chiedi le cose con molta cortesia: ¿le importaría…?, ¿te importaría…?, ¿podrías…?, ¿me harías un favor?, e di' che non ti dà fastidio.",
+        "uk": "Дуже ввічливо проси: ¿le importaría…?, ¿te importaría…?, ¿podrías…?, ¿me harías un favor?, і кажи, що ти не проти.",
+        "de": "Bitte sehr höflich um etwas: ¿le importaría…?, ¿te importaría…?, ¿podrías…?, ¿me harías un favor?, und sag, dass es dir nichts ausmacht.",
+        "fr": "Demande les choses très poliment : ¿le importaría…?, ¿te importaría…?, ¿podrías…?, ¿me harías un favor?, et dis que ça ne te dérange pas.",
+        "pt": "Peça as coisas com muita educação: ¿le importaría…?, ¿te importaría…?, ¿podrías…?, ¿me harías un favor?, e diga que não se importa.",
+        "zh": "非常礼貌地请别人做事：¿le importaría…?、¿te importaría…?、¿podrías…?、¿me harías un favor?，并学会说你不介意。"
+      },
+      "target": {
+        "es": "Perdone, ¿le importaría cerrar la ventana?",
+        "en": "Excuse me, would you mind closing the window?",
+        "it": "Mi scusi, le dispiacerebbe chiudere la finestra?",
+        "uk": "Перепрошую, чи не могли б ви зачинити вікно?",
+        "de": "Entschuldigen Sie, würde es Ihnen etwas ausmachen, das Fenster zu schließen?",
+        "fr": "Excusez-moi, ça vous dérangerait de fermer la fenêtre ?",
+        "pt": "Com licença, o senhor se importaria de fechar a janela?",
+        "zh": "打扰一下，您介意把窗户关上吗？"
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "importar",
+              "en": "to mind, to matter",
+              "it": "dispiacere, importare",
+              "uk": "мати щось проти, мати значення",
+              "de": "ausmachen, wichtig sein",
+              "fr": "déranger, importer",
+              "pt": "importar-se, incomodar",
+              "zh": "介意，要紧",
+              "kind": "stem"
+            },
+            {
+              "es": "¿le importaría…?",
+              "en": "would you mind…? (usted)",
+              "it": "le dispiacerebbe…?",
+              "uk": "чи не могли б ви…?, ви не проти…? (usted)",
+              "de": "würde es Ihnen etwas ausmachen …? (usted)",
+              "fr": "ça vous dérangerait de… ? (usted)",
+              "pt": "o senhor / a senhora se importaria de…? (usted)",
+              "zh": "您介意……吗？（usted）",
+              "kind": "chunk"
+            },
+            {
+              "es": "¿te importaría…?",
+              "en": "would you mind…? (tú)",
+              "it": "ti dispiacerebbe…?",
+              "uk": "чи не міг (могла) б ти…?, ти не проти…? (tú)",
+              "de": "würde es dir etwas ausmachen …? (tú)",
+              "fr": "ça te dérangerait de… ? (tú)",
+              "pt": "você se importaria de…? (tú)",
+              "zh": "你介意……吗？（tú）",
+              "kind": "chunk"
+            },
+            {
+              "es": "en absoluto",
+              "en": "not at all",
+              "it": "per niente, affatto",
+              "uk": "зовсім ні, анітрохи",
+              "de": "überhaupt nicht, ganz und gar nicht",
+              "fr": "pas du tout",
+              "pt": "de jeito nenhum, de forma alguma",
+              "zh": "一点也不，完全不",
+              "kind": "chunk"
+            },
+            {
+              "es": "bajar",
+              "en": "to turn down, to go down",
+              "it": "abbassare, scendere",
+              "uk": "робити тихіше (знижувати), спускатися",
+              "de": "leiser machen, herunterdrehen; hinuntergehen",
+              "fr": "baisser, descendre",
+              "pt": "abaixar, baixar, descer",
+              "zh": "调低，下去",
+              "kind": "stem"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "¿le",
+              "kind": "ending"
+            },
+            {
+              "text": "importaría",
+              "kind": "stem"
+            },
+            {
+              "text": "cerrar…?",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "The most polite way to ask a favour: ¿le importaría + the dictionary form? with usted, ¿te importaría…? with tú.",
+            "it": "Il modo più gentile di chiedere un favore: ¿le importaría + l'infinito? con usted, ¿te importaría…? con tú.",
+            "uk": "Найввічливіший спосіб попросити про послугу: ¿le importaría + словникова форма? з usted, ¿te importaría…? з tú. Дослівно це «чи мали б ви щось проти…?».",
+            "de": "Die höflichste Art, um einen Gefallen zu bitten: ¿le importaría + Infinitiv? mit usted, ¿te importaría…? mit tú – wie „Würde es Ihnen / dir etwas ausmachen, …?“",
+            "fr": "La façon la plus polie de demander un service : ¿le importaría + l'infinitif? avec usted, ¿te importaría…? avec tú.",
+            "pt": "A forma mais educada de pedir um favor: ¿le importaría + a forma do dicionário? com usted, ¿te importaría…? com tú.",
+            "zh": "请人帮忙最礼貌的说法：对 usted 说 ¿le importaría + 动词原形?，对 tú 说 ¿te importaría…?。"
+          },
+          "examples": [
+            {
+              "es": "¿Le importaría cerrar la ventana?",
+              "en": "Would you mind closing the window?",
+              "it": "Le dispiacerebbe chiudere la finestra?",
+              "uk": "Чи не могли б ви зачинити вікно?",
+              "de": "Würde es Ihnen etwas ausmachen, das Fenster zu schließen?",
+              "fr": "Ça vous dérangerait de fermer la fenêtre ?",
+              "pt": "O senhor se importaria de fechar a janela?",
+              "zh": "您介意把窗户关上吗？"
+            },
+            {
+              "es": "¿Te importaría bajar la música?",
+              "en": "Would you mind turning the music down?",
+              "it": "Ti dispiacerebbe abbassare la musica?",
+              "uk": "Чи не міг (могла) б ти зробити музику тихіше?",
+              "de": "Würde es dir etwas ausmachen, die Musik leiser zu machen?",
+              "fr": "Ça te dérangerait de baisser la musique ?",
+              "pt": "Você se importaria de abaixar a música?",
+              "zh": "你介意把音乐关小一点吗？"
+            },
+            {
+              "es": "¿Le importaría cambiarme el sitio?",
+              "en": "Would you mind swapping seats with me?",
+              "it": "Le dispiacerebbe scambiare il posto con me?",
+              "uk": "Чи не могли б ви помінятися зі мною місцями?",
+              "de": "Würde es Ihnen etwas ausmachen, mit mir den Platz zu tauschen?",
+              "fr": "Ça vous dérangerait d'échanger votre place avec moi ?",
+              "pt": "O senhor se importaria de trocar de lugar comigo?",
+              "zh": "您介意跟我换个座位吗？"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "importaría",
+              "en": "would (you) mind",
+              "it": "dispiacerebbe",
+              "uk": "мали б (щось) проти",
+              "de": "würde (es) ausmachen",
+              "fr": "dérangerait",
+              "pt": "se importaria",
+              "zh": "（你／您）会介意"
+            },
+            {
+              "es": "cambiarme",
+              "en": "to swap with me, to change for me",
+              "it": "cambiarmi, scambiare con me",
+              "uk": "помінятися зі мною, поміняти мені",
+              "de": "mit mir tauschen, für mich wechseln",
+              "fr": "échanger avec moi, me changer",
+              "pt": "trocar comigo",
+              "zh": "跟我换，替我换"
+            },
+            {
+              "es": "darme",
+              "en": "to give me",
+              "it": "darmi",
+              "uk": "дати мені",
+              "de": "mir geben",
+              "fr": "me donner",
+              "pt": "me dar",
+              "zh": "给我"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "before": "Perdone, ¿",
+          "after": " importaría cerrar la ventana?",
+          "options": [
+            "le",
+            "te"
+          ],
+          "answer": "le",
+          "en": "Excuse me, would you mind closing the window?",
+          "it": "Mi scusi, le dispiacerebbe chiudere la finestra?",
+          "uk": "Перепрошую, чи не могли б ви зачинити вікно?",
+          "de": "Entschuldigen Sie, würde es Ihnen etwas ausmachen, das Fenster zu schließen?",
+          "fr": "Excusez-moi, ça vous dérangerait de fermer la fenêtre ?",
+          "pt": "Com licença, o senhor se importaria de fechar a janela?",
+          "zh": "打扰一下，您介意把窗户关上吗？",
+          "hint": {
+            "en": "perdone means usted: ¿le importaría…?",
+            "it": "perdone vuol dire usted: ¿le importaría…?",
+            "uk": "perdone означає usted: ¿le importaría…?",
+            "de": "perdone bedeutet usted: ¿le importaría…?",
+            "fr": "perdone veut dire usted : ¿le importaría…?",
+            "pt": "perdone indica usted: ¿le importaría…?",
+            "zh": "perdone 说明用的是 usted：¿le importaría…?"
+          },
+          "beat": "forge"
+        },
+        {
+          "type": "build",
+          "intention": {
+            "en": "On the train, you'd like to sit next to your friend. Ask the man in that seat very politely (usted) if he'd mind swapping seats with you.",
+            "it": "In treno vorresti sederti vicino al tuo amico. Chiedi con molta cortesia (usted) al signore seduto lì se gli dispiacerebbe scambiare il posto con te.",
+            "uk": "У потязі ти хочеш сісти поруч із другом. Дуже ввічливо (usted) спитай чоловіка, який сидить на тому місці, чи не міг би він помінятися з тобою місцями.",
+            "de": "Im Zug möchtest du neben deinem Freund sitzen. Frag den Herrn auf diesem Platz sehr höflich (usted), ob es ihm etwas ausmachen würde, mit dir den Platz zu tauschen.",
+            "fr": "Dans le train, tu aimerais t'asseoir à côté de ton ami. Demande très poliment (usted) au monsieur assis à cette place si ça le dérangerait d'échanger sa place avec toi.",
+            "pt": "No trem, você gostaria de se sentar ao lado do seu amigo. Pergunte com muita educação (usted) ao senhor sentado ali se ele se importaria de trocar de lugar com você.",
+            "zh": "在火车上，你想坐在你朋友旁边。非常礼貌地（用 usted）问坐在那个座位上的先生，介不介意跟你换个座位。"
+          },
+          "accepted": [
+            "¿Le importaría cambiarme el sitio?",
+            "Perdone, ¿le importaría cambiarme el sitio?"
+          ],
+          "tiles": [
+            "¿Le",
+            "importaría",
+            "cambiarme",
+            "el sitio?",
+            "Te",
+            "importa"
+          ],
+          "en": "Would you mind swapping seats with me?",
+          "it": "Le dispiacerebbe scambiare il posto con me?",
+          "uk": "Чи не могли б ви помінятися зі мною місцями?",
+          "de": "Würde es Ihnen etwas ausmachen, mit mir den Platz zu tauschen?",
+          "fr": "Ça vous dérangerait d'échanger votre place avec moi ?",
+          "pt": "O senhor se importaria de trocar de lugar comigo?",
+          "zh": "您介意跟我换个座位吗？",
+          "hint": {
+            "en": "Very polite, usted: ¿le importaría + the dictionary form?",
+            "it": "Molto gentile, usted: ¿le importaría + l'infinito?",
+            "uk": "Дуже ввічливо, usted: ¿le importaría + словникова форма?",
+            "de": "Sehr höflich, usted: ¿le importaría + Infinitiv?",
+            "fr": "Très poli, usted : ¿le importaría + l'infinitif?",
+            "pt": "Muito educado, usted: ¿le importaría + a forma do dicionário?",
+            "zh": "非常礼貌，用 usted：¿le importaría + 动词原形?"
+          },
+          "beat": "fire"
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "¿podrías",
+              "kind": "stem"
+            },
+            {
+              "text": "…?",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "The conditional makes any request softer: ¿podrías…?, ¿podría…?, ¿me harías un favor? Use it with friends and strangers.",
+            "it": "Il condizionale rende più gentile qualsiasi richiesta: ¿podrías…?, ¿podría…?, ¿me harías un favor? Usalo con amici e sconosciuti.",
+            "uk": "Умовний спосіб пом'якшує будь-яке прохання: ¿podrías…?, ¿podría…?, ¿me harías un favor? Вживай його і з друзями, і з незнайомими.",
+            "de": "Der condicional macht jede Bitte sanfter: ¿podrías…?, ¿podría…?, ¿me harías un favor? Wie „könntest du / könnten Sie“ im Deutschen. Benutze ihn mit Freunden und mit Fremden.",
+            "fr": "Le conditionnel rend n'importe quelle demande plus douce, comme en français : ¿podrías…?, ¿podría…?, ¿me harías un favor? Utilise-le avec des amis comme avec des inconnus.",
+            "pt": "O condicional deixa qualquer pedido mais suave: ¿podrías…?, ¿podría…?, ¿me harías un favor? Use com amigos e com desconhecidos.",
+            "zh": "条件式能让任何请求听起来更委婉：¿podrías…?、¿podría…?、¿me harías un favor?。对朋友和陌生人都可以用。"
+          },
+          "examples": [
+            {
+              "es": "¿Podrías hablar más despacio, por favor?",
+              "en": "Could you speak more slowly, please?",
+              "it": "Potresti parlare più piano, per favore?",
+              "uk": "Чи не міг (могла) б ти говорити повільніше, будь ласка?",
+              "de": "Könntest du bitte langsamer sprechen?",
+              "fr": "Tu pourrais parler plus lentement, s'il te plaît ?",
+              "pt": "Você poderia falar mais devagar, por favor?",
+              "zh": "请你说慢一点，好吗？"
+            },
+            {
+              "es": "¿Me harías un favor?",
+              "en": "Would you do me a favour?",
+              "it": "Mi faresti un favore?",
+              "uk": "Зробиш мені послугу?",
+              "de": "Würdest du mir einen Gefallen tun?",
+              "fr": "Tu me rendrais un service ?",
+              "pt": "Você me faria um favor?",
+              "zh": "你能帮我个忙吗？"
+            },
+            {
+              "es": "¿Podría decirme dónde está la estación?",
+              "en": "Could you tell me where the station is?",
+              "it": "Potrebbe dirmi dov'è la stazione?",
+              "uk": "Чи не могли б ви сказати мені, де вокзал?",
+              "de": "Könnten Sie mir sagen, wo der Bahnhof ist?",
+              "fr": "Pourriez-vous me dire où est la gare ?",
+              "pt": "O senhor poderia me dizer onde fica a estação?",
+              "zh": "您能告诉我火车站在哪儿吗？"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "decirme",
+              "en": "to tell me",
+              "it": "dirmi",
+              "uk": "сказати мені",
+              "de": "mir sagen",
+              "fr": "me dire",
+              "pt": "me dizer",
+              "zh": "告诉我"
+            }
+          ]
+        },
+        {
+          "type": "gap",
+          "before": "¿",
+          "after": " hablar más despacio, por favor?",
+          "label": "poder",
+          "accepted": [
+            "Podrías",
+            "Podría"
+          ],
+          "en": "Could you speak more slowly, please?",
+          "it": "Potresti parlare più piano, per favore?",
+          "uk": "Чи не міг (могла) б ти говорити повільніше, будь ласка?",
+          "de": "Könntest du bitte langsamer sprechen?",
+          "fr": "Tu pourrais parler plus lentement, s'il te plaît ?",
+          "pt": "Você poderia falar mais devagar, por favor?",
+          "zh": "请你说慢一点，好吗？",
+          "hint": {
+            "en": "A softer request to tú: podrías.",
+            "it": "Una richiesta più gentile a tú: podrías.",
+            "uk": "М'якше прохання до tú: podrías.",
+            "de": "Eine sanftere Bitte an tú: podrías.",
+            "fr": "Une demande plus douce à tú : podrías.",
+            "pt": "Um pedido mais suave para tú: podrías.",
+            "zh": "对 tú 更委婉的请求：podrías。"
+          },
+          "beat": "forge"
+        },
+        {
+          "type": "build",
+          "intention": {
+            "en": "You need your friend's help to carry a sofa. Ask him if he'd do you a favour.",
+            "it": "Hai bisogno dell'aiuto di un amico per portare un divano. Chiedigli se ti farebbe un favore.",
+            "uk": "Тобі потрібна допомога друга, щоб перенести диван. Спитай, чи не зробив би він тобі послугу.",
+            "de": "Du brauchst die Hilfe deines Freundes, um ein Sofa zu tragen. Frag ihn, ob er dir einen Gefallen tun würde.",
+            "fr": "Tu as besoin de l'aide de ton ami pour porter un canapé. Demande-lui s'il te rendrait un service.",
+            "pt": "Você precisa da ajuda de um amigo para carregar um sofá. Pergunte se ele te faria um favor.",
+            "zh": "你需要朋友帮忙搬一张沙发。问他能不能帮你个忙。"
+          },
+          "accepted": [
+            "¿Me harías un favor?"
+          ],
+          "tiles": [
+            "¿Me",
+            "harías",
+            "un favor?",
+            "haces",
+            "Te"
+          ],
+          "en": "Would you do me a favour?",
+          "it": "Mi faresti un favore?",
+          "uk": "Чи не зробив би ти мені послугу?",
+          "de": "Würdest du mir einen Gefallen tun?",
+          "fr": "Tu me rendrais un service ?",
+          "pt": "Você me faria um favor?",
+          "zh": "你能帮我个忙吗？",
+          "hint": {
+            "en": "A soft request to tú: the conditional, harías.",
+            "it": "Una richiesta gentile a tú: il condizionale, harías.",
+            "uk": "М'яке прохання до tú: умовний спосіб, harías.",
+            "de": "Eine sanfte Bitte an tú: condicional, harías.",
+            "fr": "Une demande douce à tú : le conditionnel, harías.",
+            "pt": "Um pedido suave para tú: o condicional, harías.",
+            "zh": "对 tú 委婉的请求：条件式，harías。"
+          },
+          "beat": "fire"
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "no,",
+              "kind": "ending"
+            },
+            {
+              "text": "claro que no",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "Careful: to say yes to ¿le importaría…?, you answer no: no, claro que no, or en absoluto (not at all). If you say sí, it means you do mind!",
+            "it": "Attenzione: per dire di sì a ¿le importaría…? si risponde no: no, claro que no, oppure en absoluto (per niente). Se dici sí, vuol dire che ti dà fastidio!",
+            "uk": "Обережно: щоб погодитися на ¿le importaría…?, треба відповісти «ні»: no, claro que no або en absoluto (зовсім ні). Якщо скажеш sí, це означає, що ти проти!",
+            "de": "Vorsicht: Um auf ¿le importaría…? Ja zu sagen, antwortest du mit Nein: no, claro que no oder en absoluto (überhaupt nicht) – genau wie bei „Würde es Ihnen etwas ausmachen?“. Wenn du sí sagst, heißt das, dass es dich stört!",
+            "fr": "Attention : pour dire oui à ¿le importaría…?, on répond non : no, claro que no, ou en absoluto (pas du tout). Si tu dis sí, ça veut dire que ça te dérange ! C'est comme « ça vous dérange ? – Non, pas du tout » en français.",
+            "pt": "Cuidado: para dizer sim a ¿le importaría…?, você responde não: no, claro que no, ou en absoluto (de jeito nenhum). Se você disser sí, quer dizer que se importa!",
+            "zh": "注意：同意 ¿le importaría…? 的请求时，要回答“不”：no, claro que no，或者 en absoluto（一点也不）。如果你说 sí，意思是你介意！"
+          },
+          "examples": [
+            {
+              "es": "No, claro que no.",
+              "en": "No, of course not.",
+              "it": "No, certo che no.",
+              "uk": "Ні, звісно, ні.",
+              "de": "Nein, natürlich nicht.",
+              "fr": "Non, bien sûr que non.",
+              "pt": "Não, claro que não.",
+              "zh": "不，当然不介意。"
+            },
+            {
+              "es": "En absoluto.",
+              "en": "Not at all.",
+              "it": "Per niente.",
+              "uk": "Зовсім ні.",
+              "de": "Überhaupt nicht.",
+              "fr": "Pas du tout.",
+              "pt": "De jeito nenhum.",
+              "zh": "一点也不介意。"
+            },
+            {
+              "es": "No, no me importa.",
+              "en": "No, I don't mind.",
+              "it": "No, non mi dà fastidio.",
+              "uk": "Ні, я не проти.",
+              "de": "Nein, das macht mir nichts aus.",
+              "fr": "Non, ça ne me dérange pas.",
+              "pt": "Não, não me importo.",
+              "zh": "不，我不介意。"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "before": "¿Le importaría esperar un momento? No, ",
+          "after": ".",
+          "options": [
+            "claro que no",
+            "claro que sí"
+          ],
+          "answer": "claro que no",
+          "en": "Would you mind waiting a moment? No, of course not.",
+          "it": "Le dispiacerebbe aspettare un momento? No, certo che no.",
+          "uk": "Ви не проти трохи зачекати? Ні, звісно, ні.",
+          "de": "Würde es Ihnen etwas ausmachen, einen Moment zu warten? Nein, natürlich nicht.",
+          "fr": "Ça vous dérangerait d'attendre un instant ? Non, bien sûr que non.",
+          "pt": "O senhor se importaria de esperar um momento? Não, claro que não.",
+          "zh": "您介意等一会儿吗？不，当然不介意。",
+          "hint": {
+            "en": "You don't mind, so the answer is no: claro que no.",
+            "it": "Non ti dà fastidio, quindi la risposta è no: claro que no.",
+            "uk": "Ти не проти, тож відповідь — «ні»: claro que no.",
+            "de": "Es macht dir nichts aus, also lautet die Antwort Nein: claro que no.",
+            "fr": "Ça ne te dérange pas, donc la réponse est non : claro que no.",
+            "pt": "Você não se importa, então a resposta é não: claro que no.",
+            "zh": "你不介意，所以回答“不”：claro que no。"
+          },
+          "beat": "forge"
+        },
+        {
+          "type": "build",
+          "intention": {
+            "en": "On the bus, a woman asks you «¿Le importaría cerrar la ventana?». Say no, not at all.",
+            "it": "Sull'autobus una signora ti chiede «¿Le importaría cerrar la ventana?». Rispondi di no, per niente.",
+            "uk": "В автобусі жінка питає тебе: «¿Le importaría cerrar la ventana?». Скажи: ні, зовсім ні.",
+            "de": "Im Bus fragt dich eine Frau: «¿Le importaría cerrar la ventana?». Sag: Nein, überhaupt nicht.",
+            "fr": "Dans le bus, une dame te demande « ¿Le importaría cerrar la ventana? ». Réponds non, pas du tout.",
+            "pt": "No ônibus, uma senhora te pergunta «¿Le importaría cerrar la ventana?». Diga que não, de jeito nenhum.",
+            "zh": "在公交车上，一位女士问你：«¿Le importaría cerrar la ventana?»。回答说不，一点也不介意。"
+          },
+          "accepted": [
+            "No, en absoluto.",
+            "En absoluto."
+          ],
+          "tiles": [
+            "No",
+            "en absoluto",
+            "claro que sí",
+            "importa"
+          ],
+          "en": "No, not at all.",
+          "it": "No, per niente.",
+          "uk": "Ні, зовсім ні.",
+          "de": "Nein, überhaupt nicht.",
+          "fr": "Non, pas du tout.",
+          "pt": "Não, de jeito nenhum.",
+          "zh": "不，一点也不介意。",
+          "hint": {
+            "en": "You don't mind: no, en absoluto.",
+            "it": "Non ti dà fastidio: no, en absoluto.",
+            "uk": "Ти не проти: no, en absoluto.",
+            "de": "Es macht dir nichts aus: no, en absoluto.",
+            "fr": "Ça ne te dérange pas : no, en absoluto.",
+            "pt": "Você não se importa: no, en absoluto.",
+            "zh": "你不介意：no, en absoluto。"
+          },
+          "beat": "fire"
+        },
+        {
+          "type": "choose",
+          "before": "Perdona, ¿",
+          "after": " importaría bajar la música?",
+          "options": [
+            "te",
+            "le"
+          ],
+          "answer": "te",
+          "en": "Sorry, would you mind turning the music down?",
+          "it": "Scusa, ti dispiacerebbe abbassare la musica?",
+          "uk": "Вибач, ти не міг (могла) б зробити музику тихіше?",
+          "de": "Entschuldige, würde es dir etwas ausmachen, die Musik leiser zu machen?",
+          "fr": "Pardon, ça te dérangerait de baisser la musique ?",
+          "pt": "Desculpe, você se importaria de abaixar a música?",
+          "zh": "不好意思，你介意把音乐关小一点吗？",
+          "hint": {
+            "en": "perdona means tú: ¿te importaría…?",
+            "it": "perdona vuol dire tú: ¿te importaría…?",
+            "uk": "perdona означає tú: ¿te importaría…?",
+            "de": "perdona bedeutet tú: ¿te importaría…?",
+            "fr": "perdona veut dire tú : ¿te importaría…?",
+            "pt": "perdona indica tú: ¿te importaría…?",
+            "zh": "perdona 说明用的是 tú：¿te importaría…?"
+          },
+          "beat": "mix"
+        },
+        {
+          "type": "gap",
+          "before": "Perdone, ¿",
+          "after": " decirme qué hora es?",
+          "label": "poder",
+          "accepted": [
+            "podría"
+          ],
+          "en": "Excuse me, could you tell me what time it is?",
+          "it": "Mi scusi, potrebbe dirmi che ore sono?",
+          "uk": "Перепрошую, чи не могли б ви сказати, котра година?",
+          "de": "Entschuldigen Sie, könnten Sie mir sagen, wie spät es ist?",
+          "fr": "Excusez-moi, pourriez-vous me dire quelle heure il est ?",
+          "pt": "Com licença, o senhor poderia me dizer que horas são?",
+          "zh": "打扰一下，您能告诉我现在几点了吗？",
+          "hint": {
+            "en": "perdone means usted: podría.",
+            "it": "perdone vuol dire usted: podría.",
+            "uk": "perdone означає usted: podría.",
+            "de": "perdone bedeutet usted: podría.",
+            "fr": "perdone veut dire usted : podría.",
+            "pt": "perdone indica usted: podría.",
+            "zh": "perdone 说明用的是 usted：podría。"
+          },
+          "beat": "mix"
+        },
+        {
+          "type": "build",
+          "intention": {
+            "en": "Your neighbour plays loud music at night. Ask him politely (usted) if he'd mind turning it down.",
+            "it": "Il tuo vicino mette la musica alta di notte. Chiedigli con cortesia (usted) se gli dispiacerebbe abbassarla.",
+            "uk": "Твій сусід уночі гучно вмикає музику. Ввічливо (usted) спитай його, чи не міг би він зробити її тихіше.",
+            "de": "Dein Nachbar hört nachts laute Musik. Frag ihn höflich (usted), ob es ihm etwas ausmachen würde, sie leiser zu machen.",
+            "fr": "Ton voisin met la musique fort la nuit. Demande-lui poliment (usted) si ça le dérangerait de la baisser.",
+            "pt": "Seu vizinho coloca música alta à noite. Pergunte a ele com educação (usted) se ele se importaria de abaixá-la.",
+            "zh": "你的邻居晚上把音乐放得很大声。礼貌地（用 usted）问他介不介意把音乐关小一点。"
+          },
+          "accepted": [
+            "¿Le importaría bajar la música?",
+            "Perdone, ¿le importaría bajar la música?"
+          ],
+          "tiles": [
+            "¿Le",
+            "importaría",
+            "bajar",
+            "la música?",
+            "Te",
+            "subir"
+          ],
+          "en": "Would you mind turning the music down?",
+          "it": "Le dispiacerebbe abbassare la musica?",
+          "uk": "Чи не могли б ви зробити музику тихіше?",
+          "de": "Würde es Ihnen etwas ausmachen, die Musik leiser zu machen?",
+          "fr": "Ça vous dérangerait de baisser la musique ?",
+          "pt": "O senhor se importaria de abaixar a música?",
+          "zh": "您介意把音乐关小一点吗？",
+          "hint": {
+            "en": "Polite, usted: ¿le importaría + bajar?",
+            "it": "Gentile, usted: ¿le importaría + bajar?",
+            "uk": "Ввічливо, usted: ¿le importaría + bajar?",
+            "de": "Höflich, usted: ¿le importaría + bajar?",
+            "fr": "Poli, usted : ¿le importaría + bajar?",
+            "pt": "Educado, usted: ¿le importaría + bajar?",
+            "zh": "礼貌，用 usted：¿le importaría + bajar?"
+          },
+          "beat": "mix"
+        },
+        {
+          "type": "write",
+          "instruction": {
+            "en": "Write in Spanish: «Excuse me, would you mind closing the window?»",
+            "it": "Scrivi in spagnolo: «Mi scusi, le dispiacerebbe chiudere la finestra?»",
+            "uk": "Напиши іспанською: «Перепрошую, чи не могли б ви зачинити вікно?»",
+            "de": "Schreib auf Spanisch: «Entschuldigen Sie, würde es Ihnen etwas ausmachen, das Fenster zu schließen?»",
+            "fr": "Écris en espagnol : «Excusez-moi, ça vous dérangerait de fermer la fenêtre ?»",
+            "pt": "Escreva em espanhol: «Com licença, o senhor se importaria de fechar a janela?»",
+            "zh": "用西班牙语写：«打扰一下，您介意把窗户关上吗？»"
+          },
+          "accepted": [
+            "Perdone, ¿le importaría cerrar la ventana?",
+            "Perdone, ¿le importaría cerrar la ventana, por favor?"
+          ],
+          "model": {
+            "es": "Perdone, ¿le importaría cerrar la ventana?",
+            "en": "Excuse me, would you mind closing the window?",
+            "it": "Mi scusi, le dispiacerebbe chiudere la finestra?",
+            "uk": "Перепрошую, чи не могли б ви зачинити вікно?",
+            "de": "Entschuldigen Sie, würde es Ihnen etwas ausmachen, das Fenster zu schließen?",
+            "fr": "Excusez-moi, ça vous dérangerait de fermer la fenêtre ?",
+            "pt": "Com licença, o senhor se importaria de fechar a janela?",
+            "zh": "打扰一下，您介意把窗户关上吗？"
+          },
+          "beat": "mix"
+        }
+      ]
+    }
+  ],
+  "boss": {
+    "id": "u34boss",
+    "goal": {
+      "en": "Last week you bought a coffee maker in a shop in {city}, and it's already broken. Go back and get your money back: politely, but firmly.",
+      "it": "La settimana scorsa hai comprato una macchinetta del caffè in un negozio di {city}, ed è già rotta. Torna lì e fatti restituire i soldi: con gentilezza, ma con fermezza.",
+      "uk": "Минулого тижня ти купив(-ла) кавоварку в магазині у місті {city}, і вона вже зламалася. Повернися туди й отримай свої гроші назад: ввічливо, але твердо.",
+      "de": "Letzte Woche hast du in einem Geschäft in {city} eine Kaffeemaschine gekauft, und sie ist schon kaputt. Geh zurück und hol dir dein Geld wieder: höflich, aber bestimmt.",
+      "fr": "La semaine dernière, tu as acheté une cafetière dans un magasin de {city}, et elle est déjà cassée. Retournes-y et fais-toi rembourser : poliment, mais fermement.",
+      "pt": "Na semana passada você comprou uma cafeteira numa loja em {city}, e ela já quebrou. Volte lá e peça o seu dinheiro de volta: com educação, mas com firmeza.",
+      "zh": "上周你在{city}的一家商店买了一台咖啡机，结果已经坏了。回到店里把钱要回来：态度要礼貌，但要坚定。"
+    },
+    "target": {
+      "es": "¿Podría devolverme el dinero? La cafetera está rota.",
+      "en": "Could you give me my money back? The coffee maker is broken.",
+      "it": "Potrebbe restituirmi i soldi? La macchinetta del caffè è rotta.",
+      "uk": "Чи не могли б ви повернути мені гроші? Кавоварка зламана.",
+      "de": "Könnten Sie mir das Geld zurückgeben? Die Kaffeemaschine ist kaputt.",
+      "fr": "Pourriez-vous me rembourser ? La cafetière est cassée.",
+      "pt": "O senhor poderia me devolver o dinheiro? A cafeteira está quebrada.",
+      "zh": "您能把钱退给我吗？这台咖啡机坏了。"
+    },
+    "items": [
+      {
+        "type": "words",
+        "words": [
+          {
+            "es": "la cafetera",
+            "en": "the coffee maker",
+            "it": "la macchinetta del caffè",
+            "uk": "кавоварка",
+            "de": "die Kaffeemaschine",
+            "fr": "la cafetière",
+            "pt": "a cafeteira",
+            "zh": "咖啡机",
+            "kind": "chunk"
+          },
+          {
+            "es": "roto, rota",
+            "en": "broken",
+            "it": "rotto, rotta",
+            "uk": "зламаний, зламана",
+            "de": "kaputt (roto männlich, rota weiblich)",
+            "fr": "cassé, cassée",
+            "pt": "quebrado, quebrada",
+            "zh": "坏的，坏了的",
+            "kind": "chunk"
+          },
+          {
+            "es": "la reclamación",
+            "en": "the complaint",
+            "it": "il reclamo",
+            "uk": "скарга",
+            "de": "die Reklamation, die Beschwerde",
+            "fr": "la réclamation",
+            "pt": "a reclamação",
+            "zh": "投诉",
+            "kind": "chunk"
+          }
+        ]
+      },
+      {
+        "type": "words",
+        "words": [
+          {
+            "es": "el tique",
+            "en": "the receipt",
+            "it": "lo scontrino",
+            "uk": "чек",
+            "de": "der Kassenbon",
+            "fr": "le ticket de caisse",
+            "pt": "o recibo, o cupom fiscal",
+            "zh": "小票，收据",
+            "kind": "chunk"
+          },
+          {
+            "es": "la hoja de reclamaciones",
+            "en": "the complaints form",
+            "it": "il modulo dei reclami",
+            "uk": "книга скарг (бланк для скарги)",
+            "de": "das Beschwerdeformular",
+            "fr": "le formulaire de réclamation",
+            "pt": "o formulário de reclamação",
+            "zh": "投诉单",
+            "kind": "chunk"
+          },
+          {
+            "es": "el encargado",
+            "en": "the manager",
+            "it": "il responsabile",
+            "uk": "керівник, завідувач",
+            "de": "der Filialleiter, der Verantwortliche",
+            "fr": "le responsable",
+            "pt": "o gerente, o responsável",
+            "zh": "负责人，店长",
+            "kind": "chunk"
+          },
+          {
+            "es": "devolverme",
+            "en": "to give me back",
+            "it": "restituirmi",
+            "uk": "повернути мені",
+            "de": "mir zurückgeben",
+            "fr": "me rendre, me rembourser",
+            "pt": "me devolver",
+            "zh": "还给我，退给我",
+            "kind": "stem"
+          }
+        ]
+      },
+      {
+        "type": "build",
+        "intention": {
+          "en": "The shop assistant says «Buenos días, ¿qué tal?». Say you'd like to make a complaint.",
+          "it": "Il commesso dice «Buenos días, ¿qué tal?». Di' che vorresti fare un reclamo.",
+          "uk": "Продавець каже: «Buenos días, ¿qué tal?». Скажи, що хотів (хотіла) б подати скаргу.",
+          "de": "Der Verkäufer sagt: «Buenos días, ¿qué tal?». Sag, dass du gern etwas reklamieren würdest.",
+          "fr": "Le vendeur dit « Buenos días, ¿qué tal? ». Dis que tu aimerais faire une réclamation.",
+          "pt": "O vendedor diz «Buenos días, ¿qué tal?». Diga que você gostaria de fazer uma reclamação.",
+          "zh": "店员说：«Buenos días, ¿qué tal?»。说你想投诉。"
+        },
+        "accepted": [
+          "Me gustaría hacer una reclamación.",
+          "Buenos días, me gustaría hacer una reclamación."
+        ],
+        "tiles": [
+          "Me gustaría",
+          "hacer",
+          "una reclamación",
+          "gusta",
+          "Te"
+        ],
+        "en": "I'd like to make a complaint.",
+        "it": "Vorrei fare un reclamo.",
+        "uk": "Я хотів (хотіла) б поскаржитися.",
+        "de": "Ich würde gern etwas reklamieren.",
+        "fr": "J'aimerais faire une réclamation.",
+        "pt": "Eu gostaria de fazer uma reclamação.",
+        "zh": "我想投诉。",
+        "hint": {
+          "en": "A polite wish: me gustaría + the dictionary form.",
+          "it": "Un desiderio gentile: me gustaría + l'infinito.",
+          "uk": "Ввічливе бажання: me gustaría + словникова форма.",
+          "de": "Ein höflicher Wunsch: me gustaría + Infinitiv.",
+          "fr": "Un souhait poli : me gustaría + l'infinitif.",
+          "pt": "Um desejo educado: me gustaría + a forma do dicionário.",
+          "zh": "礼貌地表达愿望：me gustaría + 动词原形。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "Compré esta cafetera la semana pasada y ya está ",
+        "after": ".",
+        "options": [
+          "rota",
+          "roto"
+        ],
+        "answer": "rota",
+        "en": "I bought this coffee maker last week and it's already broken.",
+        "it": "Ho comprato questa macchinetta del caffè la settimana scorsa ed è già rotta.",
+        "uk": "Я купив(-ла) цю кавоварку минулого тижня, а вона вже зламана.",
+        "de": "Ich habe diese Kaffeemaschine letzte Woche gekauft und sie ist schon kaputt.",
+        "fr": "J'ai acheté cette cafetière la semaine dernière et elle est déjà cassée.",
+        "pt": "Comprei esta cafeteira na semana passada e ela já está quebrada.",
+        "zh": "我上周买了这台咖啡机，它已经坏了。",
+        "hint": {
+          "en": "la cafetera is feminine: rota.",
+          "it": "la cafetera è femminile: rota.",
+          "uk": "la cafetera — жіночого роду: rota.",
+          "de": "la cafetera ist weiblich: rota.",
+          "fr": "la cafetera est féminin : rota.",
+          "pt": "la cafetera é feminino: rota.",
+          "zh": "la cafetera 是阴性名词，所以用 rota。"
+        }
+      },
+      {
+        "type": "build",
+        "intention": {
+          "en": "The assistant asks «¿Tiene el tique?». Say yes, here you are.",
+          "it": "Il commesso chiede «¿Tiene el tique?». Rispondi di sì, ecco qui.",
+          "uk": "Продавець питає: «¿Tiene el tique?». Скажи: так, ось, будь ласка.",
+          "de": "Der Verkäufer fragt: «¿Tiene el tique?». Sag: Ja, bitte schön.",
+          "fr": "Le vendeur demande « ¿Tiene el tique? ». Réponds oui, tenez.",
+          "pt": "O vendedor pergunta «¿Tiene el tique?». Diga que sim, aqui está.",
+          "zh": "店员问：«¿Tiene el tique?»。说有，给您。"
+        },
+        "accepted": [
+          "Sí, aquí tiene.",
+          "Sí, aquí lo tiene."
+        ],
+        "tiles": [
+          "Sí",
+          "aquí",
+          "tiene",
+          "tienes",
+          "está"
+        ],
+        "en": "Yes, here you are.",
+        "it": "Sì, ecco qui.",
+        "uk": "Так, ось, будь ласка.",
+        "de": "Ja, bitte schön.",
+        "fr": "Oui, tenez.",
+        "pt": "Sim, aqui está.",
+        "zh": "有，给您。",
+        "hint": {
+          "en": "To the assistant, usted: aquí tiene.",
+          "it": "Al commesso, usted: aquí tiene.",
+          "uk": "До продавця, usted: aquí tiene.",
+          "de": "Zum Verkäufer, usted: aquí tiene.",
+          "fr": "Au vendeur, usted : aquí tiene.",
+          "pt": "Para o vendedor, usted: aquí tiene.",
+          "zh": "对店员用 usted：aquí tiene。"
+        }
+      },
+      {
+        "type": "gap",
+        "before": "¿",
+        "after": " devolverme el dinero, por favor?",
+        "label": "poder",
+        "accepted": [
+          "Podría"
+        ],
+        "en": "Could you give me my money back, please?",
+        "it": "Potrebbe restituirmi i soldi, per favore?",
+        "uk": "Чи не могли б ви повернути мені гроші, будь ласка?",
+        "de": "Könnten Sie mir bitte das Geld zurückgeben?",
+        "fr": "Pourriez-vous me rembourser, s'il vous plaît ?",
+        "pt": "O senhor poderia me devolver o dinheiro, por favor?",
+        "zh": "请问您能把钱退给我吗？",
+        "hint": {
+          "en": "A polite request to usted: podría.",
+          "it": "Una richiesta gentile a usted: podría.",
+          "uk": "Ввічливе прохання до usted: podría.",
+          "de": "Eine höfliche Bitte an usted: podría.",
+          "fr": "Une demande polie à usted : podría.",
+          "pt": "Um pedido educado para usted: podría.",
+          "zh": "对 usted 礼貌的请求：podría。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "Solo podemos cambiar la cafetera por otra. Gracias, pero ",
+        "after": " el dinero.",
+        "options": [
+          "preferiría",
+          "preferirías"
+        ],
+        "answer": "preferiría",
+        "en": "We can only exchange it for another one. Thanks, but I'd rather have the money.",
+        "it": "Possiamo solo cambiarla con un'altra. Grazie, ma preferirei i soldi.",
+        "uk": "Ми можемо тільки обміняти її на іншу. Дякую, але я волів (воліла) б отримати гроші.",
+        "de": "Wir können sie nur gegen eine andere umtauschen. Danke, aber mir wäre das Geld lieber.",
+        "fr": "Nous pouvons seulement l'échanger contre une autre. Merci, mais je préférerais être remboursé.",
+        "pt": "Só podemos trocar por outra. Obrigado, mas eu preferiria o dinheiro.",
+        "zh": "我们只能给您换一台新的。谢谢，不过我更想要退款。",
+        "hint": {
+          "en": "I'd rather, yo: preferir + -ía.",
+          "it": "Preferirei, yo: preferir + -ía.",
+          "uk": "Я б краще, yo: preferir + -ía.",
+          "de": "Mir wäre lieber, yo: preferir + -ía.",
+          "fr": "Je préférerais, yo : preferir + -ía.",
+          "pt": "Eu preferiria, yo: preferir + -ía.",
+          "zh": "我宁愿，yo：preferir + -ía。"
+        }
+      },
+      {
+        "type": "build",
+        "intention": {
+          "en": "The assistant says «Lo siento, no es posible». Say you'd like to speak to the manager.",
+          "it": "Il commesso dice «Lo siento, no es posible». Di' che vorresti parlare con il responsabile.",
+          "uk": "Продавець каже: «Lo siento, no es posible». Скажи, що хотів (хотіла) б поговорити з керівником.",
+          "de": "Der Verkäufer sagt: «Lo siento, no es posible». Sag, dass du gern mit dem Filialleiter sprechen würdest.",
+          "fr": "Le vendeur dit « Lo siento, no es posible ». Dis que tu aimerais parler au responsable.",
+          "pt": "O vendedor diz «Lo siento, no es posible». Diga que você gostaria de falar com o gerente.",
+          "zh": "店员说：«Lo siento, no es posible»。说你想跟负责人谈谈。"
+        },
+        "accepted": [
+          "Me gustaría hablar con el encargado.",
+          "Me gustaría hablar con el encargado, por favor."
+        ],
+        "tiles": [
+          "Me gustaría",
+          "hablar",
+          "con",
+          "el encargado",
+          "gusta",
+          "de"
+        ],
+        "en": "I'd like to speak to the manager.",
+        "it": "Vorrei parlare con il responsabile.",
+        "uk": "Я хотів (хотіла) б поговорити з керівником.",
+        "de": "Ich würde gern mit dem Filialleiter sprechen.",
+        "fr": "J'aimerais parler au responsable.",
+        "pt": "Eu gostaria de falar com o gerente.",
+        "zh": "我想跟负责人谈谈。",
+        "hint": {
+          "en": "Polite but firm: me gustaría + hablar con.",
+          "it": "Gentile ma deciso: me gustaría + hablar con.",
+          "uk": "Ввічливо, але твердо: me gustaría + hablar con.",
+          "de": "Höflich, aber bestimmt: me gustaría + hablar con.",
+          "fr": "Poli mais ferme : me gustaría + hablar con.",
+          "pt": "Educado mas firme: me gustaría + hablar con.",
+          "zh": "礼貌而坚定：me gustaría + hablar con。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "La cafetera no funciona. Si no me ",
+        "after": " el dinero, voy a poner una reclamación.",
+        "options": [
+          "devuelve",
+          "devuelva"
+        ],
+        "answer": "devuelve",
+        "en": "The coffee maker doesn't work. If you don't give me my money back, I'm going to make a complaint.",
+        "it": "La macchinetta del caffè non funziona. Se non mi restituisce i soldi, farò un reclamo.",
+        "uk": "Кавоварка не працює. Якщо ви не повернете мені гроші, я подам скаргу.",
+        "de": "Die Kaffeemaschine funktioniert nicht. Wenn Sie mir das Geld nicht zurückgeben, werde ich eine Beschwerde einreichen.",
+        "fr": "La cafetière ne marche pas. Si vous ne me remboursez pas, je vais faire une réclamation.",
+        "pt": "A cafeteira não funciona. Se o senhor não me devolver o dinheiro, vou fazer uma reclamação.",
+        "zh": "这台咖啡机坏了。如果您不把钱退给我，我就要投诉。",
+        "hint": {
+          "en": "After si, the normal present: devuelve.",
+          "it": "Dopo si, il presente normale: devuelve.",
+          "uk": "Після si — звичайний теперішній час: devuelve.",
+          "de": "Nach si das normale Präsens: devuelve.",
+          "fr": "Après si, le présent normal : devuelve.",
+          "pt": "Depois de si, o presente normal: devuelve (em português: se o senhor não devolver).",
+          "zh": "si 后面用普通的现在时：devuelve。"
+        }
+      },
+      {
+        "type": "gap",
+        "before": "Creo que ",
+        "after": " devolverme el dinero: solo tiene una semana.",
+        "label": "deber",
+        "accepted": [
+          "debería"
+        ],
+        "en": "I think you should give me my money back: it's only a week old.",
+        "it": "Credo che dovrebbe restituirmi i soldi: ha solo una settimana.",
+        "uk": "Я думаю, вам слід повернути мені гроші: їй лише тиждень.",
+        "de": "Ich finde, Sie sollten mir das Geld zurückgeben: Sie ist erst eine Woche alt.",
+        "fr": "Je pense que vous devriez me rembourser : elle n'a qu'une semaine.",
+        "pt": "Acho que o senhor deveria me devolver o dinheiro: ela só tem uma semana.",
+        "zh": "我觉得您应该把钱退给我：它才买了一个星期。",
+        "hint": {
+          "en": "Firm advice to usted: deber + -ía.",
+          "it": "Un consiglio deciso a usted: deber + -ía.",
+          "uk": "Тверда порада для usted: deber + -ía.",
+          "de": "Ein bestimmter Rat an usted: deber + -ía.",
+          "fr": "Un conseil ferme à usted : deber + -ía.",
+          "pt": "Um conselho firme para usted: deber + -ía.",
+          "zh": "对 usted 坚定的忠告：deber + -ía。"
+        }
+      },
+      {
+        "type": "build",
+        "intention": {
+          "en": "The manager says «Bueno… ¿le importaría esperar un momento?». Say no, of course not.",
+          "it": "Il responsabile dice «Bueno… ¿le importaría esperar un momento?». Rispondi di no, certo che no.",
+          "uk": "Керівник каже: «Bueno… ¿le importaría esperar un momento?». Скажи: ні, звісно, ні.",
+          "de": "Der Filialleiter sagt: «Bueno… ¿le importaría esperar un momento?». Sag: Nein, natürlich nicht.",
+          "fr": "Le responsable dit « Bueno… ¿le importaría esperar un momento? ». Réponds non, bien sûr que non.",
+          "pt": "O gerente diz «Bueno… ¿le importaría esperar un momento?». Diga que não, claro que não.",
+          "zh": "负责人说：«Bueno… ¿le importaría esperar un momento?»。回答说不，当然不介意。"
+        },
+        "accepted": [
+          "No, claro que no.",
+          "No, en absoluto."
+        ],
+        "tiles": [
+          "No,",
+          "claro que no",
+          "claro que sí",
+          "Sí,"
+        ],
+        "en": "No, of course not.",
+        "it": "No, certo che no.",
+        "uk": "Ні, звісно, ні.",
+        "de": "Nein, natürlich nicht.",
+        "fr": "Non, bien sûr que non.",
+        "pt": "Não, claro que não.",
+        "zh": "不，当然不介意。",
+        "hint": {
+          "en": "You don't mind, so you answer no: claro que no.",
+          "it": "Non ti dà fastidio, quindi rispondi no: claro que no.",
+          "uk": "Ти не проти, тож відповідаєш «ні»: claro que no.",
+          "de": "Es macht dir nichts aus, also antwortest du mit Nein: claro que no.",
+          "fr": "Ça ne te dérange pas, donc tu réponds non : claro que no.",
+          "pt": "Você não se importa, então responde não: claro que no.",
+          "zh": "你不介意，所以回答“不”：claro que no。"
+        }
+      },
+      {
+        "type": "build",
+        "intention": {
+          "en": "The manager comes back and says they can only give you another coffee maker. Ask him very politely if he'd mind giving you the complaints form.",
+          "it": "Il responsabile torna e dice che possono solo darti un'altra macchinetta. Chiedigli con molta cortesia se gli dispiacerebbe darti il modulo dei reclami.",
+          "uk": "Керівник повертається й каже, що можуть дати тобі лише іншу кавоварку. Дуже ввічливо спитай, чи не міг би він дати тобі книгу скарг.",
+          "de": "Der Filialleiter kommt zurück und sagt, dass sie dir nur eine andere Kaffeemaschine geben können. Frag ihn sehr höflich, ob es ihm etwas ausmachen würde, dir das Beschwerdeformular zu geben.",
+          "fr": "Le responsable revient et dit qu'ils peuvent seulement te donner une autre cafetière. Demande-lui très poliment si ça le dérangerait de te donner le formulaire de réclamation.",
+          "pt": "O gerente volta e diz que só podem te dar outra cafeteira. Pergunte a ele com muita educação se ele se importaria de te dar o formulário de reclamação.",
+          "zh": "负责人回来说，他们只能给你换一台咖啡机。非常礼貌地问他介不介意把投诉单给你。"
+        },
+        "accepted": [
+          "¿Le importaría darme la hoja de reclamaciones?",
+          "Perdone, ¿le importaría darme la hoja de reclamaciones?"
+        ],
+        "tiles": [
+          "¿Le",
+          "importaría",
+          "darme",
+          "la hoja de reclamaciones?",
+          "Te",
+          "importa"
+        ],
+        "en": "Would you mind giving me the complaints form?",
+        "it": "Le dispiacerebbe darmi il modulo dei reclami?",
+        "uk": "Чи не могли б ви дати мені книгу скарг?",
+        "de": "Würde es Ihnen etwas ausmachen, mir das Beschwerdeformular zu geben?",
+        "fr": "Ça vous dérangerait de me donner le formulaire de réclamation ?",
+        "pt": "O senhor se importaria de me dar o formulário de reclamação?",
+        "zh": "您介意把投诉单给我吗？",
+        "hint": {
+          "en": "Very polite, usted: ¿le importaría + the dictionary form?",
+          "it": "Molto gentile, usted: ¿le importaría + l'infinito?",
+          "uk": "Дуже ввічливо, usted: ¿le importaría + словникова форма?",
+          "de": "Sehr höflich, usted: ¿le importaría + Infinitiv?",
+          "fr": "Très poli, usted : ¿le importaría + l'infinitif?",
+          "pt": "Muito educado, usted: ¿le importaría + a forma do dicionário?",
+          "zh": "非常礼貌，用 usted：¿le importaría + 动词原形?"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "Pero si me devuelve el dinero hoy, no ",
+        "after": " la reclamación.",
+        "options": [
+          "pongo",
+          "ponga",
+          "pondría"
+        ],
+        "answer": "pongo",
+        "en": "But if you give me my money back today, I won't make the complaint.",
+        "it": "Ma se mi restituisce i soldi oggi, non faccio il reclamo.",
+        "uk": "Але якщо ви повернете мені гроші сьогодні, я не подаватиму скаргу.",
+        "de": "Aber wenn Sie mir das Geld heute zurückgeben, reiche ich die Beschwerde nicht ein.",
+        "fr": "Mais si vous me remboursez aujourd'hui, je ne fais pas la réclamation.",
+        "pt": "Mas se o senhor me devolver o dinheiro hoje, eu não faço a reclamação.",
+        "zh": "不过，如果您今天把钱退给我，我就不投诉了。",
+        "hint": {
+          "en": "si + present, then the normal present: pongo.",
+          "it": "si + presente, poi il presente normale: pongo.",
+          "uk": "si + теперішній час, далі звичайний теперішній час: pongo.",
+          "de": "si + Präsens, danach das normale Präsens: pongo.",
+          "fr": "si + présent, puis le présent normal : pongo.",
+          "pt": "si + presente, depois o presente normal: pongo.",
+          "zh": "si + 现在时，后面也用普通的现在时：pongo。"
+        }
+      },
+      {
+        "type": "write",
+        "instruction": {
+          "en": "To finish, write your request on the complaints form. Write in Spanish: «Could you give me my money back? The coffee maker is broken.»",
+          "it": "Per finire, scrivi la tua richiesta sul modulo dei reclami. Scrivi in spagnolo: «Potrebbe restituirmi i soldi? La macchinetta del caffè è rotta.»",
+          "uk": "Наостанок напиши своє прохання в книзі скарг. Напиши іспанською: «Чи не могли б ви повернути мені гроші? Кавоварка зламана.»",
+          "de": "Zum Schluss schreib deine Forderung auf das Beschwerdeformular. Schreib auf Spanisch: «Könnten Sie mir das Geld zurückgeben? Die Kaffeemaschine ist kaputt.»",
+          "fr": "Pour finir, écris ta demande sur le formulaire de réclamation. Écris en espagnol : «Pourriez-vous me rembourser ? La cafetière est cassée.»",
+          "pt": "Para terminar, escreva o seu pedido no formulário de reclamação. Escreva em espanhol: «O senhor poderia me devolver o dinheiro? A cafeteira está quebrada.»",
+          "zh": "最后，在投诉单上写下你的要求。用西班牙语写：«您能把钱退给我吗？这台咖啡机坏了。»"
+        },
+        "accepted": [
+          "¿Podría devolverme el dinero? La cafetera está rota.",
+          "¿Me podría devolver el dinero? La cafetera está rota.",
+          "¿Podría devolverme el dinero, por favor? La cafetera está rota."
+        ],
+        "model": {
+          "es": "¿Podría devolverme el dinero? La cafetera está rota.",
+          "en": "Could you give me my money back? The coffee maker is broken.",
+          "it": "Potrebbe restituirmi i soldi? La macchinetta del caffè è rotta.",
+          "uk": "Чи не могли б ви повернути мені гроші? Кавоварка зламана.",
+          "de": "Könnten Sie mir das Geld zurückgeben? Die Kaffeemaschine ist kaputt.",
+          "fr": "Pourriez-vous me rembourser ? La cafetière est cassée.",
+          "pt": "O senhor poderia me devolver o dinheiro? A cafeteira está quebrada.",
+          "zh": "您能把钱退给我吗？这台咖啡机坏了。"
+        }
+      }
+    ]
+  }
+}
