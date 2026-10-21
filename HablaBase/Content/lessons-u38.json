@@ -1,0 +1,3328 @@
+{
+  "unit": "u38",
+  "lessons": [
+    {
+      "id": "u38l1",
+      "goal": {
+        "en": "Pass on what someone is saying: dice que + the same tense, with the person changed (vengo → dice que viene, mi → su, te → me), and dicen que for what people say.",
+        "it": "Riferisci quello che dice qualcuno: dice que + lo stesso tempo, cambiando la persona (vengo → dice que viene, mi → su, te → me), e dicen que per quello che dice la gente.",
+        "uk": "Переказуй, що хтось каже: dice que + той самий час, але зі зміненою особою (vengo → dice que viene, mi → su, te → me), і dicen que — про те, що кажуть люди.",
+        "de": "Gib weiter, was jemand sagt: dice que + dieselbe Zeit, nur die Person ändert sich (vengo → dice que viene, mi → su, te → me), und dicen que für das, was die Leute sagen.",
+        "fr": "Rapporte ce que dit quelqu'un : dice que + le même temps, en changeant la personne (vengo → dice que viene, mi → su, te → me), et dicen que pour ce que disent les gens.",
+        "pt": "Repasse o que alguém está dizendo: dice que + o mesmo tempo verbal, mudando a pessoa (vengo → dice que viene, mi → su, te → me), e dicen que para o que as pessoas dizem.",
+        "zh": "转述别人正在说的话：dice que + 同样的时态，人称要变（vengo → dice que viene，mi → su，te → me），说“大家都说”用 dicen que。"
+      },
+      "target": {
+        "es": "Mi hermana dice que llega a las ocho.",
+        "en": "My sister says she's arriving at eight.",
+        "it": "Mia sorella dice che arriva alle otto.",
+        "uk": "Моя сестра каже, що приїде о восьмій.",
+        "de": "Meine Schwester sagt, dass sie um acht ankommt.",
+        "fr": "Ma sœur dit qu'elle arrive à huit heures.",
+        "pt": "A minha irmã diz que chega às oito.",
+        "zh": "我姐姐说她八点到。"
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "el estilo indirecto",
+              "en": "reported speech",
+              "it": "il discorso indiretto",
+              "uk": "непряма мова",
+              "de": "die indirekte Rede",
+              "fr": "le discours indirect",
+              "pt": "o discurso indireto",
+              "zh": "间接引语",
+              "kind": "chunk"
+            },
+            {
+              "es": "según",
+              "en": "according to",
+              "it": "secondo",
+              "uk": "за словами, згідно з",
+              "de": "laut, nach Angaben von",
+              "fr": "selon, d'après",
+              "pt": "segundo, de acordo com",
+              "zh": "根据，据……说",
+              "kind": "rail"
+            },
+            {
+              "es": "dicen que",
+              "en": "people say that, they say that",
+              "it": "dicono che, si dice che",
+              "uk": "кажуть, що; люди кажуть, що",
+              "de": "man sagt, dass; es heißt, dass",
+              "fr": "on dit que, ils disent que",
+              "pt": "dizem que, falam que",
+              "zh": "大家都说，听说",
+              "kind": "chunk"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "dice que",
+              "kind": "rail"
+            },
+            {
+              "text": "llega",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "To pass on what someone is saying now, use dice que + the same tense they used. «Llego a las ocho» becomes dice que llega a las ocho.",
+            "it": "Per riferire quello che qualcuno dice adesso, usa dice que + lo stesso tempo che ha usato. «Llego a las ocho» diventa dice que llega a las ocho.",
+            "uk": "Щоб переказати, що хтось каже зараз, вживай dice que + той самий час, що й ця людина. «Llego a las ocho» перетворюється на dice que llega a las ocho.",
+            "de": "Um weiterzugeben, was jemand gerade sagt, nimm dice que + dieselbe Zeit, die die Person benutzt hat. Aus «Llego a las ocho» wird dice que llega a las ocho.",
+            "fr": "Pour rapporter ce que quelqu'un dit maintenant, utilise dice que + le même temps que celui qu'il a utilisé. «Llego a las ocho» devient dice que llega a las ocho. C'est comme en français : « J'arrive à huit heures » → elle dit qu'elle arrive à huit heures.",
+            "pt": "Para repassar o que alguém está dizendo agora, use dice que + o mesmo tempo que a pessoa usou. «Llego a las ocho» vira dice que llega a las ocho.",
+            "zh": "转述别人现在说的话，用 dice que + 对方用的同一个时态。«Llego a las ocho» 变成 dice que llega a las ocho。"
+          },
+          "examples": [
+            {
+              "es": "Mi hermana dice que llega a las ocho.",
+              "en": "My sister says she's arriving at eight.",
+              "it": "Mia sorella dice che arriva alle otto.",
+              "uk": "Моя сестра каже, що приїде о восьмій.",
+              "de": "Meine Schwester sagt, dass sie um acht ankommt.",
+              "fr": "Ma sœur dit qu'elle arrive à huit heures.",
+              "pt": "A minha irmã diz que chega às oito.",
+              "zh": "我姐姐说她八点到。"
+            },
+            {
+              "es": "Mis padres dicen que vienen el sábado.",
+              "en": "My parents say they're coming on Saturday.",
+              "it": "I miei genitori dicono che vengono sabato.",
+              "uk": "Мої батьки кажуть, що приїдуть у суботу.",
+              "de": "Meine Eltern sagen, dass sie am Samstag kommen.",
+              "fr": "Mes parents disent qu'ils viennent samedi.",
+              "pt": "Os meus pais dizem que vêm no sábado.",
+              "zh": "我父母说他们星期六来。"
+            },
+            {
+              "es": "Según el jefe, la reunión es mañana.",
+              "en": "According to the boss, the meeting is tomorrow.",
+              "it": "Secondo il capo, la riunione è domani.",
+              "uk": "За словами начальника, нарада завтра.",
+              "de": "Laut dem Chef ist die Besprechung morgen.",
+              "fr": "D'après le chef, la réunion est demain.",
+              "pt": "Segundo o chefe, a reunião é amanhã.",
+              "zh": "据老板说，会议在明天。"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Me ha escrito mi hermana: dice que ",
+          "after": " tarde.",
+          "options": [
+            "llega",
+            "llego",
+            "llegue"
+          ],
+          "answer": "llega",
+          "en": "My sister's texted me: she says she's running late.",
+          "it": "Mi ha scritto mia sorella: dice che arriva tardi.",
+          "uk": "Мені написала сестра: каже, що запізнюється.",
+          "de": "Meine Schwester hat mir geschrieben: Sie sagt, dass sie sich verspätet.",
+          "fr": "Ma sœur m'a écrit : elle dit qu'elle arrive en retard.",
+          "pt": "A minha irmã me mandou mensagem: ela diz que vai chegar atrasada.",
+          "zh": "我姐姐给我发消息了：她说她会晚到。",
+          "hint": {
+            "en": "She said «Llego tarde»: for her, llega.",
+            "it": "Lei ha detto «Llego tarde»: per lei, llega.",
+            "uk": "Вона сказала «Llego tarde»: про неї — llega.",
+            "de": "Sie hat gesagt «Llego tarde»: für sie llega.",
+            "fr": "Elle a dit «Llego tarde» : pour elle, llega.",
+            "pt": "Ela disse «Llego tarde»: para ela, llega.",
+            "zh": "她说的是 «Llego tarde»：换成她，用 llega。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "You're on the phone with your parents. They tell you «Vamos el domingo». Your partner asks what they're saying. Tell him: they say they're coming on Sunday.",
+            "it": "Sei al telefono con i tuoi genitori. Ti dicono «Vamos el domingo». Il tuo compagno ti chiede cosa dicono. Digli: dicono che vengono domenica.",
+            "uk": "Ти розмовляєш по телефону з батьками. Вони кажуть тобі: «Vamos el domingo». Твій партнер питає, що вони кажуть. Скажи йому: вони кажуть, що приїдуть у неділю.",
+            "de": "Du telefonierst mit deinen Eltern. Sie sagen: «Vamos el domingo». Dein Partner fragt, was sie sagen. Sag ihm: Sie sagen, dass sie am Sonntag kommen.",
+            "fr": "Tu es au téléphone avec tes parents. Ils te disent «Vamos el domingo». Ton partenaire te demande ce qu'ils disent. Dis-lui : ils disent qu'ils viennent dimanche.",
+            "pt": "Você está no telefone com os seus pais. Eles dizem «Vamos el domingo». O seu companheiro pergunta o que eles estão dizendo. Diga a ele: eles dizem que vêm no domingo.",
+            "zh": "你在和父母打电话。他们对你说 «Vamos el domingo»。你的伴侣问他们在说什么。告诉他：他们说星期天来。"
+          },
+          "accepted": [
+            "Dicen que vienen el domingo.",
+            "Dicen que el domingo vienen."
+          ],
+          "tiles": [
+            "Dicen que",
+            "vienen",
+            "el domingo",
+            "venimos",
+            "dice que"
+          ],
+          "en": "They say they're coming on Sunday.",
+          "it": "Dicono che vengono domenica.",
+          "uk": "Вони кажуть, що приїдуть у неділю.",
+          "de": "Sie sagen, dass sie am Sonntag kommen.",
+          "fr": "Ils disent qu'ils viennent dimanche.",
+          "pt": "Eles dizem que vêm no domingo.",
+          "zh": "他们说他们星期天来。",
+          "hint": {
+            "en": "They're coming to you: vienen, for ellos.",
+            "it": "Vengono da te: vienen, per ellos.",
+            "uk": "Вони приїжджають до тебе: vienen, для ellos.",
+            "de": "Sie kommen zu dir: vienen, für ellos.",
+            "fr": "Ils viennent chez toi : vienen, pour ellos.",
+            "pt": "Eles vêm até você: vienen, para ellos.",
+            "zh": "他们是来你这里：用 ellos 形式，vienen。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "yo → él",
+              "kind": "ending"
+            },
+            {
+              "text": "mi → su",
+              "kind": "ending"
+            },
+            {
+              "text": "te → me",
+              "kind": "ending"
+            }
+          ],
+          "rule": {
+            "en": "Change the person to fit: «Estoy cansado» → dice que está cansado, «mi coche» → su coche. If it was said to you, te becomes me: «Te llamo» → dice que me llama.",
+            "it": "Cambia la persona: «Estoy cansado» → dice que está cansado, «mi coche» → su coche. Se l'hanno detto a te, te diventa me: «Te llamo» → dice que me llama.",
+            "uk": "Змінюй особу відповідно до ситуації: «Estoy cansado» → dice que está cansado, «mi coche» → su coche. Якщо це сказали тобі, te стає me: «Te llamo» → dice que me llama.",
+            "de": "Pass die Person an: «Estoy cansado» → dice que está cansado, «mi coche» → su coche. Wenn es zu dir gesagt wurde, wird te zu me: «Te llamo» → dice que me llama.",
+            "fr": "Change la personne : «Estoy cansado» → dice que está cansado, «mi coche» → su coche. Si on te l'a dit à toi, te devient me : «Te llamo» → dice que me llama.",
+            "pt": "Mude a pessoa conforme o caso: «Estoy cansado» → dice que está cansado, «mi coche» → su coche. Se disseram isso a você, te vira me: «Te llamo» → dice que me llama.",
+            "zh": "人称要相应改变：«Estoy cansado» → dice que está cansado，«mi coche» → su coche。如果这话是对你说的，te 变成 me：«Te llamo» → dice que me llama。"
+          },
+          "examples": [
+            {
+              "es": "Mi hermano no viene: dice que está cansado.",
+              "en": "My brother isn't coming: he says he's tired.",
+              "it": "Mio fratello non viene: dice che è stanco.",
+              "uk": "Мій брат не прийде: каже, що втомився.",
+              "de": "Mein Bruder kommt nicht: Er sagt, dass er müde ist.",
+              "fr": "Mon frère ne vient pas : il dit qu'il est fatigué.",
+              "pt": "O meu irmão não vem: ele diz que está cansado.",
+              "zh": "我哥哥不来了：他说他累了。"
+            },
+            {
+              "es": "Mi compañera dice que su hijo está enfermo.",
+              "en": "My colleague says her son is ill.",
+              "it": "La mia collega dice che suo figlio è malato.",
+              "uk": "Моя колега каже, що її син хворіє.",
+              "de": "Meine Kollegin sagt, dass ihr Sohn krank ist.",
+              "fr": "Ma collègue dit que son fils est malade.",
+              "pt": "A minha colega diz que o filho dela está doente.",
+              "zh": "我同事说她儿子病了。"
+            },
+            {
+              "es": "Mi amigo dice que me llama luego.",
+              "en": "My friend says he'll call me later.",
+              "it": "Il mio amico dice che mi chiama dopo.",
+              "uk": "Мій друг каже, що подзвонить мені пізніше.",
+              "de": "Mein Freund sagt, dass er mich später anruft.",
+              "fr": "Mon ami dit qu'il m'appelle plus tard.",
+              "pt": "O meu amigo diz que me liga mais tarde.",
+              "zh": "我朋友说他待会儿给我打电话。"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Mi hermano no viene: dice que ",
+          "after": " cansado.",
+          "options": [
+            "está",
+            "estoy",
+            "estás"
+          ],
+          "answer": "está",
+          "en": "My brother isn't coming: he says he's tired.",
+          "it": "Mio fratello non viene: dice che è stanco.",
+          "uk": "Мій брат не прийде: каже, що втомився.",
+          "de": "Mein Bruder kommt nicht: Er sagt, dass er müde ist.",
+          "fr": "Mon frère ne vient pas : il dit qu'il est fatigué.",
+          "pt": "O meu irmão não vem: ele diz que está cansado.",
+          "zh": "我哥哥不来了：他说他累了。",
+          "hint": {
+            "en": "He said «Estoy cansado»: for him, está.",
+            "it": "Lui ha detto «Estoy cansado»: per lui, está.",
+            "uk": "Він сказав «Estoy cansado»: про нього — está.",
+            "de": "Er hat gesagt «Estoy cansado»: für ihn está.",
+            "fr": "Il a dit «Estoy cansado» : pour lui, está.",
+            "pt": "Ele disse «Estoy cansado»: para ele, está.",
+            "zh": "他说的是 «Estoy cansado»：换成他，用 está。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "fire",
+          "before": "Mi amiga ha dicho «Te llamo esta noche». Dice que ",
+          "after": " llama esta noche.",
+          "options": [
+            "me",
+            "te",
+            "le"
+          ],
+          "answer": "me",
+          "en": "My friend said «I'll call you tonight». She says she'll call me tonight.",
+          "it": "La mia amica ha detto «Ti chiamo stasera». Dice che mi chiama stasera.",
+          "uk": "Моя подруга сказала: «Я подзвоню тобі сьогодні ввечері». Вона каже, що подзвонить мені сьогодні ввечері.",
+          "de": "Meine Freundin hat gesagt: «Ich rufe dich heute Abend an». Sie sagt, dass sie mich heute Abend anruft.",
+          "fr": "Mon amie a dit « Je t'appelle ce soir ». Elle dit qu'elle m'appelle ce soir.",
+          "pt": "A minha amiga disse «Te ligo hoje à noite». Ela diz que me liga hoje à noite.",
+          "zh": "我朋友说：«我今晚给你打电话。»她说她今晚给我打电话。",
+          "hint": {
+            "en": "She said te to you, so you say me.",
+            "it": "Ha detto te a te, quindi tu dici me.",
+            "uk": "Вона сказала тобі te, тож ти кажеш me.",
+            "de": "Sie hat zu dir te gesagt, also sagst du me.",
+            "fr": "Elle t'a dit te, donc toi, tu dis me.",
+            "pt": "Ela disse te para você, então você diz me.",
+            "zh": "她对你说的是 te，所以你要说 me。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "dicen que",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "dicen que, with no subject, means people say or they say: dicen que va a llover. To ask what someone is saying: ¿qué dice?",
+            "it": "dicen que, senza soggetto, vuol dire dicono o si dice: dicen que va a llover. Per chiedere cosa dice qualcuno: ¿qué dice?",
+            "uk": "dicen que без підмета означає «люди кажуть» або просто «кажуть»: dicen que va a llover. Щоб спитати, що хтось каже: ¿qué dice?",
+            "de": "dicen que ohne Subjekt bedeutet „man sagt“ oder „es heißt“: dicen que va a llover. Um zu fragen, was jemand sagt: ¿qué dice?",
+            "fr": "dicen que, sans sujet, veut dire « on dit que » : dicen que va a llover. Pour demander ce que dit quelqu'un : ¿qué dice?",
+            "pt": "dicen que, sem sujeito, quer dizer dizem que, falam que: dicen que va a llover. Para perguntar o que alguém está dizendo: ¿qué dice?",
+            "zh": "dicen que 不带主语，意思是“大家都说”“听说”：dicen que va a llover。问别人在说什么：¿qué dice?"
+          },
+          "examples": [
+            {
+              "es": "Dicen que mañana va a llover.",
+              "en": "They say it's going to rain tomorrow.",
+              "it": "Dicono che domani pioverà.",
+              "uk": "Кажуть, що завтра буде дощ.",
+              "de": "Es heißt, dass es morgen regnen wird.",
+              "fr": "On dit qu'il va pleuvoir demain.",
+              "pt": "Dizem que amanhã vai chover.",
+              "zh": "听说明天要下雨。"
+            },
+            {
+              "es": "Dicen que este restaurante es muy bueno.",
+              "en": "People say this restaurant is very good.",
+              "it": "Si dice che questo ristorante sia molto buono.",
+              "uk": "Кажуть, що цей ресторан дуже добрий.",
+              "de": "Man sagt, dieses Restaurant ist sehr gut.",
+              "fr": "On dit que ce restaurant est très bon.",
+              "pt": "Dizem que este restaurante é muito bom.",
+              "zh": "大家都说这家餐厅很好。"
+            },
+            {
+              "es": "¿Qué dice tu madre?",
+              "en": "What's your mother saying?",
+              "it": "Cosa dice tua madre?",
+              "uk": "Що каже твоя мама?",
+              "de": "Was sagt deine Mutter?",
+              "fr": "Qu'est-ce que dit ta mère ?",
+              "pt": "O que a sua mãe está dizendo?",
+              "zh": "你妈妈说什么？"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "¿Qué ",
+          "after": " tu madre? ¿Viene o no?",
+          "options": [
+            "dice",
+            "dices",
+            "dicen"
+          ],
+          "answer": "dice",
+          "en": "What's your mother saying? Is she coming or not?",
+          "it": "Cosa dice tua madre? Viene o no?",
+          "uk": "Що каже твоя мама? Вона приїде чи ні?",
+          "de": "Was sagt deine Mutter? Kommt sie oder nicht?",
+          "fr": "Qu'est-ce que dit ta mère ? Elle vient ou pas ?",
+          "pt": "O que a sua mãe está dizendo? Ela vem ou não?",
+          "zh": "你妈妈说什么？她来不来？",
+          "hint": {
+            "en": "tu madre is ella: dice.",
+            "it": "tu madre è ella: dice.",
+            "uk": "tu madre — це ella: dice.",
+            "de": "tu madre ist ella: dice.",
+            "fr": "tu madre, c'est ella : dice.",
+            "pt": "tu madre é ella: dice.",
+            "zh": "tu madre 就是 ella：dice。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "Your colleague asks if you know anything about the new boss. Tell her people say he's very nice.",
+            "it": "La tua collega ti chiede se sai qualcosa del nuovo capo. Dille che dicono che è molto simpatico.",
+            "uk": "Колега питає, чи знаєш ти щось про нового начальника. Скажи їй, що, кажуть, він дуже приємний.",
+            "de": "Deine Kollegin fragt, ob du etwas über den neuen Chef weißt. Sag ihr, dass es heißt, er sei sehr nett.",
+            "fr": "Ta collègue te demande si tu sais quelque chose sur le nouveau chef. Dis-lui qu'on dit qu'il est très sympa.",
+            "pt": "A sua colega pergunta se você sabe alguma coisa sobre o novo chefe. Diga a ela que dizem que ele é muito simpático.",
+            "zh": "你的同事问你知不知道新老板的情况。告诉她，大家都说他人很好。"
+          },
+          "accepted": [
+            "Dicen que es muy simpático.",
+            "Dicen que el nuevo jefe es muy simpático."
+          ],
+          "tiles": [
+            "Dicen que",
+            "es",
+            "muy",
+            "simpático",
+            "dice",
+            "está"
+          ],
+          "en": "People say he's very nice.",
+          "it": "Dicono che è molto simpatico.",
+          "uk": "Кажуть, що він дуже приємний.",
+          "de": "Man sagt, dass er sehr nett ist.",
+          "fr": "On dit qu'il est très sympa.",
+          "pt": "Dizem que ele é muito simpático.",
+          "zh": "大家都说他人很好。",
+          "hint": {
+            "en": "People in general: dicen que, with no subject.",
+            "it": "La gente in generale: dicen que, senza soggetto.",
+            "uk": "Люди загалом: dicen que, без підмета.",
+            "de": "Die Leute allgemein: dicen que, ohne Subjekt.",
+            "fr": "Les gens en général : dicen que, sans sujet.",
+            "pt": "As pessoas em geral: dicen que, sem sujeito.",
+            "zh": "泛指大家：dicen que，不带主语。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "Tu madre ha llamado y dice que ",
+          "after": " coche no funciona.",
+          "options": [
+            "su",
+            "mi",
+            "tu"
+          ],
+          "answer": "su",
+          "en": "Your mother called and she says her car isn't working.",
+          "it": "Ha chiamato tua madre e dice che la sua macchina non funziona.",
+          "uk": "Дзвонила твоя мама, каже, що в неї не працює машина.",
+          "de": "Deine Mutter hat angerufen und sagt, dass ihr Auto nicht funktioniert.",
+          "fr": "Ta mère a appelé et elle dit que sa voiture ne marche pas.",
+          "pt": "A sua mãe ligou e diz que o carro dela não está funcionando.",
+          "zh": "你妈妈打电话来了，她说她的车坏了。",
+          "hint": {
+            "en": "She said «mi coche»: her car is su coche.",
+            "it": "Lei ha detto «mi coche»: la sua macchina è su coche.",
+            "uk": "Вона сказала «mi coche»: її машина — su coche.",
+            "de": "Sie hat gesagt «mi coche»: ihr Auto ist su coche.",
+            "fr": "Elle a dit «mi coche» : sa voiture, c'est su coche.",
+            "pt": "Ela disse «mi coche»: o carro dela é su coche.",
+            "zh": "她说的是 «mi coche»：她的车是 su coche。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "mix",
+          "before": "Me ha llamado el técnico: dice que ",
+          "after": " mañana.",
+          "label": "venir",
+          "accepted": [
+            "viene"
+          ],
+          "en": "The technician called me: he says he's coming tomorrow.",
+          "it": "Mi ha chiamato il tecnico: dice che viene domani.",
+          "uk": "Мені подзвонив майстер: каже, що прийде завтра.",
+          "de": "Der Techniker hat mich angerufen: Er sagt, dass er morgen kommt.",
+          "fr": "Le technicien m'a appelé : il dit qu'il vient demain.",
+          "pt": "O técnico me ligou: ele diz que vem amanhã.",
+          "zh": "维修师傅给我打电话了：他说他明天来。",
+          "hint": {
+            "en": "He said «Vengo mañana»: for him, viene.",
+            "it": "Lui ha detto «Vengo mañana»: per lui, viene.",
+            "uk": "Він сказав «Vengo mañana»: про нього — viene.",
+            "de": "Er hat gesagt «Vengo mañana»: für ihn viene.",
+            "fr": "Il a dit «Vengo mañana» : pour lui, viene.",
+            "pt": "Ele disse «Vengo mañana»: para ele, viene.",
+            "zh": "他说的是 «Vengo mañana»：换成他，用 viene。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "mix",
+          "intention": {
+            "en": "A client has just phoned and said «Llego a las diez». Tell your boss.",
+            "it": "Un cliente ha appena telefonato e ha detto «Llego a las diez». Dillo al tuo capo.",
+            "uk": "Щойно подзвонив клієнт і сказав: «Llego a las diez». Перекажи це начальникові.",
+            "de": "Ein Kunde hat gerade angerufen und gesagt: «Llego a las diez». Sag es deinem Chef.",
+            "fr": "Un client vient de téléphoner et il a dit «Llego a las diez». Dis-le à ton chef.",
+            "pt": "Um cliente acabou de telefonar e disse «Llego a las diez». Conte ao seu chefe.",
+            "zh": "一位客户刚打来电话，说 «Llego a las diez»。告诉你的老板。"
+          },
+          "accepted": [
+            "El cliente dice que llega a las diez."
+          ],
+          "tiles": [
+            "El cliente",
+            "dice que",
+            "llega",
+            "a las diez",
+            "llego",
+            "dices"
+          ],
+          "en": "The client says he's arriving at ten.",
+          "it": "Il cliente dice che arriva alle dieci.",
+          "uk": "Клієнт каже, що приїде о десятій.",
+          "de": "Der Kunde sagt, dass er um zehn ankommt.",
+          "fr": "Le client dit qu'il arrive à dix heures.",
+          "pt": "O cliente diz que chega às dez.",
+          "zh": "客户说他十点到。",
+          "hint": {
+            "en": "llego becomes llega: he's the one arriving.",
+            "it": "llego diventa llega: è lui che arriva.",
+            "uk": "llego стає llega: приїжджає ж він.",
+            "de": "Aus llego wird llega: Er ist derjenige, der ankommt.",
+            "fr": "llego devient llega : c'est lui qui arrive.",
+            "pt": "llego vira llega: é ele quem chega.",
+            "zh": "llego 变成 llega：到的人是他。"
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "Your friend asks when your sister is coming. Write in Spanish: «My sister says she's arriving at eight.»",
+            "it": "Un amico ti chiede quando arriva tua sorella. Scrivi in spagnolo: «Mia sorella dice che arriva alle otto.»",
+            "uk": "Друг питає, коли приїде твоя сестра. Напиши іспанською: «Моя сестра каже, що приїде о восьмій.»",
+            "de": "Ein Freund fragt, wann deine Schwester kommt. Schreib auf Spanisch: «Meine Schwester sagt, dass sie um acht ankommt.»",
+            "fr": "Un ami te demande quand ta sœur arrive. Écris en espagnol : «Ma sœur dit qu'elle arrive à huit heures.»",
+            "pt": "Um amigo pergunta quando a sua irmã chega. Escreva em espanhol: «A minha irmã diz que chega às oito.»",
+            "zh": "你的朋友问你姐姐什么时候来。用西班牙语写：«我姐姐说她八点到。»"
+          },
+          "accepted": [
+            "Mi hermana dice que llega a las ocho.",
+            "Mi hermana dice que va a llegar a las ocho."
+          ],
+          "model": {
+            "es": "Mi hermana dice que llega a las ocho.",
+            "en": "My sister says she's arriving at eight.",
+            "it": "Mia sorella dice che arriva alle otto.",
+            "uk": "Моя сестра каже, що приїде о восьмій.",
+            "de": "Meine Schwester sagt, dass sie um acht ankommt.",
+            "fr": "Ma sœur dit qu'elle arrive à huit heures.",
+            "pt": "A minha irmã diz que chega às oito.",
+            "zh": "我姐姐说她八点到。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u38l2",
+      "goal": {
+        "en": "Report what someone said earlier: dijo que + the imperfect for what was true then (estoy → estaba, vengo → venía) and the conditional for the future (vendré → vendría).",
+        "it": "Riferisci quello che qualcuno ha detto prima: dijo que + l'imperfetto per quello che era vero allora (estoy → estaba, vengo → venía) e il condizionale per il futuro (vendré → vendría).",
+        "uk": "Переказуй, що хтось сказав раніше: dijo que + «imperfecto» для того, що було правдою тоді (estoy → estaba, vengo → venía), і умовний спосіб для майбутнього (vendré → vendría).",
+        "de": "Gib wieder, was jemand früher gesagt hat: dijo que + imperfecto für das, was damals galt (estoy → estaba, vengo → venía), und der condicional für die Zukunft (vendré → vendría).",
+        "fr": "Rapporte ce que quelqu'un a dit plus tôt : dijo que + l'imparfait pour ce qui était vrai à ce moment-là (estoy → estaba, vengo → venía) et le conditionnel pour le futur (vendré → vendría).",
+        "pt": "Conte o que alguém disse antes: dijo que + o imperfeito para o que era verdade naquele momento (estoy → estaba, vengo → venía) e o condicional para o futuro (vendré → vendría).",
+        "zh": "转述别人之前说过的话：dijo que + 过去未完成时表示当时的情况（estoy → estaba，vengo → venía），用条件式表示将来（vendré → vendría）。"
+      },
+      "target": {
+        "es": "Dijo que vendría, pero no vino.",
+        "en": "He said he'd come, but he didn't.",
+        "it": "Ha detto che sarebbe venuto, ma non è venuto.",
+        "uk": "Він сказав, що прийде, але не прийшов.",
+        "de": "Er hat gesagt, dass er kommen würde, aber er ist nicht gekommen.",
+        "fr": "Il a dit qu'il viendrait, mais il n'est pas venu.",
+        "pt": "Ele disse que viria, mas não veio.",
+        "zh": "他说他会来，可是他没来。"
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "me dijo que",
+              "en": "he / she told me that",
+              "it": "mi ha detto che",
+              "uk": "він / вона сказав(-ла) мені, що",
+              "de": "er / sie hat mir gesagt, dass",
+              "fr": "il / elle m'a dit que",
+              "pt": "ele / ela me disse que",
+              "zh": "他／她跟我说",
+              "kind": "chunk"
+            },
+            {
+              "es": "nos dijeron que",
+              "en": "they told us that",
+              "it": "ci hanno detto che",
+              "uk": "вони сказали нам, що",
+              "de": "sie haben uns gesagt, dass",
+              "fr": "ils / elles nous ont dit que",
+              "pt": "eles nos disseram que",
+              "zh": "他们跟我们说",
+              "kind": "chunk"
+            },
+            {
+              "es": "por eso no vino",
+              "en": "that's why he / she didn't come",
+              "it": "per questo non è venuto / venuta",
+              "uk": "тому він / вона й не прийшов (прийшла)",
+              "de": "deshalb ist er / sie nicht gekommen",
+              "fr": "c'est pour ça qu'il / elle n'est pas venu(e)",
+              "pt": "por isso ele / ela não veio",
+              "zh": "所以他／她没来",
+              "kind": "chunk"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "estoy",
+              "kind": "stem"
+            },
+            {
+              "text": "→",
+              "kind": "chunk"
+            },
+            {
+              "text": "dijo que estaba",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "When you report what someone said in the past (dijo que), their present becomes the imperfect: «Estoy cansado» → dijo que estaba cansado; «Tengo mucho trabajo» → dijo que tenía mucho trabajo.",
+            "it": "Quando riferisci quello che qualcuno ha detto nel passato (dijo que), il suo presente diventa l'imperfetto: «Estoy cansado» → dijo que estaba cansado; «Tengo mucho trabajo» → dijo que tenía mucho trabajo.",
+            "uk": "Коли переказуєш, що хтось сказав у минулому (dijo que), його теперішній час стає «imperfecto»: «Estoy cansado» → dijo que estaba cansado; «Tengo mucho trabajo» → dijo que tenía mucho trabajo. Українською час не змінюється («сказав, що має багато роботи»), а іспанською — змінюється.",
+            "de": "Wenn du wiedergibst, was jemand in der Vergangenheit gesagt hat (dijo que), wird sein Präsens zum imperfecto: «Estoy cansado» → dijo que estaba cansado; «Tengo mucho trabajo» → dijo que tenía mucho trabajo. Im Deutschen bleibt die Zeit hier oft gleich („Er hat gesagt, er ist müde“), im Spanischen musst du sie ändern.",
+            "fr": "Quand tu rapportes ce que quelqu'un a dit dans le passé (dijo que), son présent devient l'imparfait : «Estoy cansado» → dijo que estaba cansado ; «Tengo mucho trabajo» → dijo que tenía mucho trabajo. C'est exactement comme en français : « Je suis fatigué » → il a dit qu'il était fatigué.",
+            "pt": "Quando você conta o que alguém disse no passado (dijo que), o presente da pessoa vira imperfeito, como em português: «Estoy cansado» → dijo que estaba cansado («disse que estava cansado»); «Tengo mucho trabajo» → dijo que tenía mucho trabajo.",
+            "zh": "转述别人过去说的话（dijo que）时，对方用的现在时要变成过去未完成时：«Estoy cansado» → dijo que estaba cansado；«Tengo mucho trabajo» → dijo que tenía mucho trabajo。中文不用变，西班牙语要变。"
+          },
+          "examples": [
+            {
+              "es": "Me dijo que estaba cansado.",
+              "en": "He told me he was tired.",
+              "it": "Mi ha detto che era stanco.",
+              "uk": "Він сказав мені, що втомився.",
+              "de": "Er hat mir gesagt, dass er müde ist.",
+              "fr": "Il m'a dit qu'il était fatigué.",
+              "pt": "Ele me disse que estava cansado.",
+              "zh": "他跟我说他累了。"
+            },
+            {
+              "es": "Dijo que tenía mucho trabajo.",
+              "en": "She said she had a lot of work.",
+              "it": "Ha detto che aveva molto lavoro.",
+              "uk": "Вона сказала, що має багато роботи.",
+              "de": "Sie hat gesagt, dass sie viel Arbeit hat.",
+              "fr": "Elle a dit qu'elle avait beaucoup de travail.",
+              "pt": "Ela disse que tinha muito trabalho.",
+              "zh": "她说她工作很多。"
+            },
+            {
+              "es": "Nos dijeron que el museo estaba cerrado.",
+              "en": "They told us the museum was closed.",
+              "it": "Ci hanno detto che il museo era chiuso.",
+              "uk": "Нам сказали, що музей зачинений.",
+              "de": "Sie haben uns gesagt, dass das Museum geschlossen ist.",
+              "fr": "Ils nous ont dit que le musée était fermé.",
+              "pt": "Eles nos disseram que o museu estava fechado.",
+              "zh": "他们跟我们说博物馆关门了。"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Ayer me dijo que ",
+          "after": " cansada, por eso no vino.",
+          "options": [
+            "estaba",
+            "estuviera",
+            "estará"
+          ],
+          "answer": "estaba",
+          "en": "Yesterday she told me she was tired, that's why she didn't come.",
+          "it": "Ieri mi ha detto che era stanca, per questo non è venuta.",
+          "uk": "Учора вона сказала мені, що втомилася, тому й не прийшла.",
+          "de": "Gestern hat sie mir gesagt, dass sie müde ist, deshalb ist sie nicht gekommen.",
+          "fr": "Hier, elle m'a dit qu'elle était fatiguée, c'est pour ça qu'elle n'est pas venue.",
+          "pt": "Ontem ela me disse que estava cansada, por isso não veio.",
+          "zh": "昨天她跟我说她累了，所以她没来。",
+          "hint": {
+            "en": "She said «Estoy cansada»: after dijo que, estaba.",
+            "it": "Lei ha detto «Estoy cansada»: dopo dijo que, estaba.",
+            "uk": "Вона сказала «Estoy cansada»: після dijo que — estaba.",
+            "de": "Sie hat gesagt «Estoy cansada»: nach dijo que estaba.",
+            "fr": "Elle a dit «Estoy cansada» : après dijo que, estaba.",
+            "pt": "Ela disse «Estoy cansada»: depois de dijo que, estaba.",
+            "zh": "她说的是 «Estoy cansada»：在 dijo que 后面用 estaba。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "fire",
+          "before": "Me dijo que ",
+          "after": " mucho trabajo, así que no salimos.",
+          "label": "tener",
+          "accepted": [
+            "tenía"
+          ],
+          "en": "She told me she had a lot of work, so we didn't go out.",
+          "it": "Mi ha detto che aveva molto lavoro, quindi non siamo usciti.",
+          "uk": "Вона сказала мені, що має багато роботи, тож ми нікуди не пішли.",
+          "de": "Sie hat mir gesagt, dass sie viel Arbeit hat, also sind wir nicht ausgegangen.",
+          "fr": "Elle m'a dit qu'elle avait beaucoup de travail, alors on n'est pas sortis.",
+          "pt": "Ela me disse que tinha muito trabalho, então não saímos.",
+          "zh": "她跟我说她工作很多，所以我们没出去。",
+          "hint": {
+            "en": "«Tengo» becomes tenía after dijo que.",
+            "it": "«Tengo» diventa tenía dopo dijo que.",
+            "uk": "Після dijo que «Tengo» стає tenía.",
+            "de": "Aus «Tengo» wird nach dijo que tenía.",
+            "fr": "«Tengo» devient tenía après dijo que.",
+            "pt": "«Tengo» vira tenía depois de dijo que.",
+            "zh": "在 dijo que 后面，«Tengo» 变成 tenía。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "vengo",
+              "kind": "stem"
+            },
+            {
+              "text": "→",
+              "kind": "chunk"
+            },
+            {
+              "text": "dijo que venía",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "Plans work the same way: «Vengo a las ocho» → dijo que venía a las ocho; «Voy al médico» → dijo que iba al médico.",
+            "it": "I programmi funzionano allo stesso modo: «Vengo a las ocho» → dijo que venía a las ocho; «Voy al médico» → dijo que iba al médico.",
+            "uk": "З планами так само: «Vengo a las ocho» → dijo que venía a las ocho; «Voy al médico» → dijo que iba al médico.",
+            "de": "Mit Plänen ist es genauso: «Vengo a las ocho» → dijo que venía a las ocho; «Voy al médico» → dijo que iba al médico.",
+            "fr": "Les projets fonctionnent de la même façon : «Vengo a las ocho» → dijo que venía a las ocho ; «Voy al médico» → dijo que iba al médico.",
+            "pt": "Os planos funcionam do mesmo jeito: «Vengo a las ocho» → dijo que venía a las ocho; «Voy al médico» → dijo que iba al médico.",
+            "zh": "计划也一样：«Vengo a las ocho» → dijo que venía a las ocho；«Voy al médico» → dijo que iba al médico。"
+          },
+          "examples": [
+            {
+              "es": "Me dijo que venía a las ocho, pero llegó a las diez.",
+              "en": "He told me he was coming at eight, but he arrived at ten.",
+              "it": "Mi ha detto che veniva alle otto, ma è arrivato alle dieci.",
+              "uk": "Він сказав мені, що прийде о восьмій, а прийшов о десятій.",
+              "de": "Er hat mir gesagt, dass er um acht kommt, aber er ist um zehn angekommen.",
+              "fr": "Il m'a dit qu'il venait à huit heures, mais il est arrivé à dix heures.",
+              "pt": "Ele me disse que vinha às oito, mas chegou às dez.",
+              "zh": "他跟我说他八点来，结果十点才到。"
+            },
+            {
+              "es": "Dijo que iba al médico.",
+              "en": "She said she was going to the doctor's.",
+              "it": "Ha detto che andava dal medico.",
+              "uk": "Вона сказала, що йде до лікаря.",
+              "de": "Sie hat gesagt, dass sie zum Arzt geht.",
+              "fr": "Elle a dit qu'elle allait chez le médecin.",
+              "pt": "Ela disse que ia ao médico.",
+              "zh": "她说她要去看医生。"
+            },
+            {
+              "es": "Nos dijeron que llegaban tarde.",
+              "en": "They told us they were running late.",
+              "it": "Ci hanno detto che arrivavano tardi.",
+              "uk": "Вони сказали нам, що запізнюються.",
+              "de": "Sie haben uns gesagt, dass sie sich verspäten.",
+              "fr": "Ils nous ont dit qu'ils arrivaient en retard.",
+              "pt": "Eles nos disseram que iam chegar atrasados.",
+              "zh": "他们跟我们说他们会晚到。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "venía",
+              "en": "I / he / she was coming",
+              "it": "venivo, veniva",
+              "uk": "я / він / вона мав(-ла) прийти, приходив(-ла)",
+              "de": "ich / er / sie kam (gerade), wollte kommen",
+              "fr": "je venais, il / elle venait",
+              "pt": "eu / ele / ela vinha",
+              "zh": "我／他／她（当时）要来"
+            },
+            {
+              "es": "venías",
+              "en": "you were coming",
+              "it": "venivi",
+              "uk": "ти мав(-ла) прийти, приходив(-ла)",
+              "de": "du kamst (gerade), wolltest kommen",
+              "fr": "tu venais",
+              "pt": "você vinha",
+              "zh": "你（当时）要来"
+            },
+            {
+              "es": "llegaban",
+              "en": "they were arriving",
+              "it": "arrivavano",
+              "uk": "вони мали приїхати, приїжджали",
+              "de": "sie kamen (gerade) an",
+              "fr": "ils / elles arrivaient",
+              "pt": "eles / elas chegavam",
+              "zh": "他们（当时）要到"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Me dijo que ",
+          "after": " a las ocho, pero llegó a las diez.",
+          "options": [
+            "venía",
+            "viniera",
+            "venga"
+          ],
+          "answer": "venía",
+          "en": "He told me he was coming at eight, but he arrived at ten.",
+          "it": "Mi ha detto che veniva alle otto, ma è arrivato alle dieci.",
+          "uk": "Він сказав мені, що прийде о восьмій, а прийшов о десятій.",
+          "de": "Er hat mir gesagt, dass er um acht kommt, aber er ist um zehn angekommen.",
+          "fr": "Il m'a dit qu'il venait à huit heures, mais il est arrivé à dix heures.",
+          "pt": "Ele me disse que vinha às oito, mas chegou às dez.",
+          "zh": "他跟我说他八点来，结果十点才到。",
+          "hint": {
+            "en": "He said «Vengo a las ocho»: venía.",
+            "it": "Lui ha detto «Vengo a las ocho»: venía.",
+            "uk": "Він сказав «Vengo a las ocho»: venía.",
+            "de": "Er hat gesagt «Vengo a las ocho»: venía.",
+            "fr": "Il a dit «Vengo a las ocho» : venía.",
+            "pt": "Ele disse «Vengo a las ocho»: venía.",
+            "zh": "他说的是 «Vengo a las ocho»：venía。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "fire",
+          "before": "Dijo que ",
+          "after": " al médico, por eso no vino a clase.",
+          "label": "ir",
+          "accepted": [
+            "iba"
+          ],
+          "en": "She said she was going to the doctor's, that's why she didn't come to class.",
+          "it": "Ha detto che andava dal medico, per questo non è venuta a lezione.",
+          "uk": "Вона сказала, що йде до лікаря, тому й не прийшла на заняття.",
+          "de": "Sie hat gesagt, dass sie zum Arzt geht, deshalb ist sie nicht in den Unterricht gekommen.",
+          "fr": "Elle a dit qu'elle allait chez le médecin, c'est pour ça qu'elle n'est pas venue en cours.",
+          "pt": "Ela disse que ia ao médico, por isso não veio à aula.",
+          "zh": "她说她要去看医生，所以没来上课。",
+          "hint": {
+            "en": "«Voy» becomes iba after dijo que.",
+            "it": "«Voy» diventa iba dopo dijo que.",
+            "uk": "Після dijo que «Voy» стає iba.",
+            "de": "Aus «Voy» wird nach dijo que iba.",
+            "fr": "«Voy» devient iba après dijo que.",
+            "pt": "«Voy» vira iba depois de dijo que.",
+            "zh": "在 dijo que 后面，«Voy» 变成 iba。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "vendré",
+              "kind": "stem"
+            },
+            {
+              "text": "→",
+              "kind": "chunk"
+            },
+            {
+              "text": "dijo que vendría",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "If they talked about the future, use the conditional: «Vendré» → dijo que vendría; «Te llamaré» → me dijo que me llamaría.",
+            "it": "Se parlavano del futuro, usa il condizionale: «Vendré» → dijo que vendría; «Te llamaré» → me dijo que me llamaría.",
+            "uk": "Якщо людина говорила про майбутнє, вживай умовний спосіб: «Vendré» → dijo que vendría; «Te llamaré» → me dijo que me llamaría.",
+            "de": "Wenn es um die Zukunft ging, nimm den condicional: «Vendré» → dijo que vendría; «Te llamaré» → me dijo que me llamaría. Wie im Deutschen: „Er hat gesagt, er würde kommen.“",
+            "fr": "Si la personne parlait du futur, utilise le conditionnel : «Vendré» → dijo que vendría ; «Te llamaré» → me dijo que me llamaría. Comme en français : « je viendrai » → il a dit qu'il viendrait.",
+            "pt": "Se a pessoa falou do futuro, use o condicional, como o futuro do pretérito do português («disse que viria»): «Vendré» → dijo que vendría; «Te llamaré» → me dijo que me llamaría.",
+            "zh": "如果对方说的是将来的事，就用条件式：«Vendré» → dijo que vendría；«Te llamaré» → me dijo que me llamaría。"
+          },
+          "examples": [
+            {
+              "es": "Dijo que vendría, pero no vino.",
+              "en": "He said he'd come, but he didn't.",
+              "it": "Ha detto che sarebbe venuto, ma non è venuto.",
+              "uk": "Він сказав, що прийде, але не прийшов.",
+              "de": "Er hat gesagt, dass er kommen würde, aber er ist nicht gekommen.",
+              "fr": "Il a dit qu'il viendrait, mais il n'est pas venu.",
+              "pt": "Ele disse que viria, mas não veio.",
+              "zh": "他说他会来，可是他没来。"
+            },
+            {
+              "es": "Me dijo que me llamaría el lunes.",
+              "en": "She told me she'd call me on Monday.",
+              "it": "Mi ha detto che mi avrebbe chiamato lunedì.",
+              "uk": "Вона сказала мені, що подзвонить у понеділок.",
+              "de": "Sie hat mir gesagt, dass sie mich am Montag anrufen würde.",
+              "fr": "Elle m'a dit qu'elle m'appellerait lundi.",
+              "pt": "Ela me disse que me ligaria na segunda-feira.",
+              "zh": "她跟我说她星期一会给我打电话。"
+            },
+            {
+              "es": "Nos dijeron que llegarían tarde.",
+              "en": "They told us they'd be late.",
+              "it": "Ci hanno detto che sarebbero arrivati tardi.",
+              "uk": "Вони сказали нам, що запізняться.",
+              "de": "Sie haben uns gesagt, dass sie zu spät kommen würden.",
+              "fr": "Ils nous ont dit qu'ils arriveraient en retard.",
+              "pt": "Eles nos disseram que chegariam atrasados.",
+              "zh": "他们跟我们说他们会晚到。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "llegarían",
+              "en": "they would arrive",
+              "it": "arriverebbero; sarebbero arrivati",
+              "uk": "вони приїхали б, прийшли б",
+              "de": "sie würden ankommen",
+              "fr": "ils / elles arriveraient",
+              "pt": "eles / elas chegariam",
+              "zh": "他们会到"
+            },
+            {
+              "es": "estaría",
+              "en": "I / he / she would be",
+              "it": "starei, starebbe; sarebbe stato",
+              "uk": "я / він / вона був (була) б",
+              "de": "ich / er / sie wäre (estar)",
+              "fr": "je serais, il / elle serait (estar)",
+              "pt": "eu / ele / ela estaria",
+              "zh": "我／他／她会在"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Me dijo que me ",
+          "after": " el lunes, pero no me llamó.",
+          "options": [
+            "llamaría",
+            "llamara",
+            "llame"
+          ],
+          "answer": "llamaría",
+          "en": "She told me she'd call me on Monday, but she didn't.",
+          "it": "Mi ha detto che mi avrebbe chiamato lunedì, ma non l'ha fatto.",
+          "uk": "Вона сказала мені, що подзвонить у понеділок, але не подзвонила.",
+          "de": "Sie hat mir gesagt, dass sie mich am Montag anrufen würde, aber sie hat nicht angerufen.",
+          "fr": "Elle m'a dit qu'elle m'appellerait lundi, mais elle ne l'a pas fait.",
+          "pt": "Ela me disse que me ligaria na segunda-feira, mas não ligou.",
+          "zh": "她跟我说她星期一会给我打电话，可是她没打。",
+          "hint": {
+            "en": "She said «Te llamaré»: the future becomes llamaría.",
+            "it": "Lei ha detto «Te llamaré»: il futuro diventa llamaría.",
+            "uk": "Вона сказала «Te llamaré»: майбутній час стає llamaría.",
+            "de": "Sie hat gesagt «Te llamaré»: aus dem Futur wird llamaría.",
+            "fr": "Elle a dit «Te llamaré» : le futur devient llamaría.",
+            "pt": "Ela disse «Te llamaré»: o futuro vira llamaría.",
+            "zh": "她说的是 «Te llamaré»：将来时变成 llamaría。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "Your friend promised «Te llamaré mañana» and didn't call. Tell another friend: he said he'd call me, but he didn't.",
+            "it": "Il tuo amico ti ha promesso «Te llamaré mañana» e non ti ha chiamato. Di' a un altro amico: ha detto che mi avrebbe chiamato, ma non l'ha fatto.",
+            "uk": "Твій друг пообіцяв: «Te llamaré mañana» — і не подзвонив. Скажи іншому другові: він сказав, що подзвонить мені, але не подзвонив.",
+            "de": "Dein Freund hat versprochen: «Te llamaré mañana», und hat nicht angerufen. Erzähl es einem anderen Freund: Er hat gesagt, dass er mich anrufen würde, aber er hat nicht angerufen.",
+            "fr": "Ton ami t'a promis «Te llamaré mañana» et il ne t'a pas appelé. Dis à un autre ami : il a dit qu'il m'appellerait, mais il ne l'a pas fait.",
+            "pt": "O seu amigo prometeu «Te llamaré mañana» e não ligou. Conte a outro amigo: ele disse que me ligaria, mas não ligou.",
+            "zh": "你的朋友答应过 «Te llamaré mañana»，结果没打。告诉另一个朋友：他说他会给我打电话，可是他没打。"
+          },
+          "accepted": [
+            "Dijo que me llamaría, pero no me llamó.",
+            "Me dijo que me llamaría, pero no me llamó."
+          ],
+          "tiles": [
+            "Dijo que",
+            "me llamaría,",
+            "pero",
+            "no me llamó",
+            "me llamará",
+            "me llame"
+          ],
+          "en": "He said he'd call me, but he didn't.",
+          "it": "Ha detto che mi avrebbe chiamato, ma non l'ha fatto.",
+          "uk": "Він сказав, що подзвонить мені, але не подзвонив.",
+          "de": "Er hat gesagt, dass er mich anrufen würde, aber er hat nicht angerufen.",
+          "fr": "Il a dit qu'il m'appellerait, mais il ne l'a pas fait.",
+          "pt": "Ele disse que me ligaria, mas não ligou.",
+          "zh": "他说他会给我打电话，可是他没打。",
+          "hint": {
+            "en": "«Te llamaré» becomes me llamaría.",
+            "it": "«Te llamaré» diventa me llamaría.",
+            "uk": "«Te llamaré» стає me llamaría.",
+            "de": "Aus «Te llamaré» wird me llamaría.",
+            "fr": "«Te llamaré» devient me llamaría.",
+            "pt": "«Te llamaré» vira me llamaría.",
+            "zh": "«Te llamaré» 变成 me llamaría。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "El técnico dijo «Vendré el lunes», o sea, dijo que ",
+          "after": " el lunes.",
+          "options": [
+            "vendría",
+            "viniera",
+            "venga"
+          ],
+          "answer": "vendría",
+          "en": "The technician said «I'll come on Monday», so he said he'd come on Monday.",
+          "it": "Il tecnico ha detto «Vendré el lunes», cioè ha detto che sarebbe venuto lunedì.",
+          "uk": "Майстер сказав: «Я прийду в понеділок», тобто він сказав, що прийде в понеділок.",
+          "de": "Der Techniker hat gesagt: «Ich komme am Montag», er hat also gesagt, dass er am Montag kommen würde.",
+          "fr": "Le technicien a dit « Je viendrai lundi », donc il a dit qu'il viendrait lundi.",
+          "pt": "O técnico disse «Virei na segunda», ou seja, disse que viria na segunda-feira.",
+          "zh": "维修师傅说：«我星期一来。»也就是说，他说他星期一会来。",
+          "hint": {
+            "en": "vendré (future) becomes vendría.",
+            "it": "vendré (futuro) diventa vendría.",
+            "uk": "vendré (майбутній час) стає vendría.",
+            "de": "Aus vendré (Futur) wird vendría.",
+            "fr": "vendré (futur) devient vendría.",
+            "pt": "vendré (futuro) vira vendría.",
+            "zh": "vendré（将来时）变成 vendría。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "mix",
+          "before": "Nos dijeron que el restaurante ",
+          "after": " cerrado, así que cenamos en casa.",
+          "label": "estar",
+          "accepted": [
+            "estaba"
+          ],
+          "en": "They told us the restaurant was closed, so we had dinner at home.",
+          "it": "Ci hanno detto che il ristorante era chiuso, quindi abbiamo cenato a casa.",
+          "uk": "Нам сказали, що ресторан зачинений, тож ми повечеряли вдома.",
+          "de": "Sie haben uns gesagt, dass das Restaurant geschlossen ist, also haben wir zu Hause gegessen.",
+          "fr": "Ils nous ont dit que le restaurant était fermé, alors on a dîné à la maison.",
+          "pt": "Eles nos disseram que o restaurante estava fechado, então jantamos em casa.",
+          "zh": "他们跟我们说那家餐厅关门了，所以我们在家吃的晚饭。",
+          "hint": {
+            "en": "«Está cerrado» becomes estaba after dijeron que.",
+            "it": "«Está cerrado» diventa estaba dopo dijeron que.",
+            "uk": "Після dijeron que «Está cerrado» стає estaba.",
+            "de": "Aus «Está cerrado» wird nach dijeron que estaba.",
+            "fr": "«Está cerrado» devient estaba après dijeron que.",
+            "pt": "«Está cerrado» vira estaba depois de dijeron que.",
+            "zh": "在 dijeron que 后面，«Está cerrado» 变成 estaba。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "mix",
+          "intention": {
+            "en": "Your friend asks why your sister didn't come to the party. Say she told you she had a lot of work.",
+            "it": "Un amico ti chiede perché tua sorella non è venuta alla festa. Rispondi che ti ha detto che aveva molto lavoro.",
+            "uk": "Друг питає, чому твоя сестра не прийшла на вечірку. Скажи, що вона сказала тобі, що має багато роботи.",
+            "de": "Eine Freundin fragt, warum deine Schwester nicht auf die Party gekommen ist. Sag, dass sie dir gesagt hat, dass sie viel Arbeit hat.",
+            "fr": "Un ami te demande pourquoi ta sœur n'est pas venue à la fête. Dis qu'elle t'a dit qu'elle avait beaucoup de travail.",
+            "pt": "Um amigo pergunta por que a sua irmã não veio à festa. Diga que ela te disse que tinha muito trabalho.",
+            "zh": "你的朋友问你姐姐为什么没来参加聚会。说她跟你说她工作很多。"
+          },
+          "accepted": [
+            "Me dijo que tenía mucho trabajo.",
+            "Me dijo que tenía muchísimo trabajo."
+          ],
+          "tiles": [
+            "Me dijo que",
+            "tenía",
+            "mucho trabajo",
+            "tiene",
+            "tuviera"
+          ],
+          "en": "She told me she had a lot of work.",
+          "it": "Mi ha detto che aveva molto lavoro.",
+          "uk": "Вона сказала мені, що має багато роботи.",
+          "de": "Sie hat mir gesagt, dass sie viel Arbeit hat.",
+          "fr": "Elle m'a dit qu'elle avait beaucoup de travail.",
+          "pt": "Ela me disse que tinha muito trabalho.",
+          "zh": "她跟我说她工作很多。",
+          "hint": {
+            "en": "«Tengo» becomes tenía.",
+            "it": "«Tengo» diventa tenía.",
+            "uk": "«Tengo» стає tenía.",
+            "de": "Aus «Tengo» wird tenía.",
+            "fr": "«Tengo» devient tenía.",
+            "pt": "«Tengo» vira tenía.",
+            "zh": "«Tengo» 变成 tenía。"
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "You're telling a friend about a colleague who missed your party. Write in Spanish: «He said he'd come, but he didn't.»",
+            "it": "Stai raccontando a un amico di un collega che non è venuto alla tua festa. Scrivi in spagnolo: «Ha detto che sarebbe venuto, ma non è venuto.»",
+            "uk": "Ти розповідаєш другові про колегу, який не прийшов на твою вечірку. Напиши іспанською: «Він сказав, що прийде, але не прийшов.»",
+            "de": "Du erzählst einer Freundin von einem Kollegen, der nicht auf deine Party gekommen ist. Schreib auf Spanisch: «Er hat gesagt, dass er kommen würde, aber er ist nicht gekommen.»",
+            "fr": "Tu parles à un ami d'un collègue qui n'est pas venu à ta fête. Écris en espagnol : «Il a dit qu'il viendrait, mais il n'est pas venu.»",
+            "pt": "Você está contando a um amigo sobre um colega que não foi à sua festa. Escreva em espanhol: «Ele disse que viria, mas não veio.»",
+            "zh": "你在跟朋友说一个没来参加你聚会的同事。用西班牙语写：«他说他会来，可是他没来。»"
+          },
+          "accepted": [
+            "Dijo que vendría, pero no vino.",
+            "Me dijo que vendría, pero no vino.",
+            "Dijo que vendría pero no vino.",
+            "Dijo que venía, pero no vino.",
+            "Me dijo que venía, pero no vino."
+          ],
+          "model": {
+            "es": "Dijo que vendría, pero no vino.",
+            "en": "He said he'd come, but he didn't.",
+            "it": "Ha detto che sarebbe venuto, ma non è venuto.",
+            "uk": "Він сказав, що прийде, але не прийшов.",
+            "de": "Er hat gesagt, dass er kommen würde, aber er ist nicht gekommen.",
+            "fr": "Il a dit qu'il viendrait, mais il n'est pas venu.",
+            "pt": "Ele disse que viria, mas não veio.",
+            "zh": "他说他会来，可是他没来。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u38l3",
+      "goal": {
+        "en": "Pass on requests: me pide que + the present subjunctive, me pidió que + the imperfect subjunctive, and tell me dijo que venía (news) from me dijo que viniera (a request).",
+        "it": "Riferisci le richieste: me pide que + il congiuntivo presente, me pidió que + il congiuntivo imperfetto, e distingui me dijo que venía (una notizia) da me dijo que viniera (una richiesta).",
+        "uk": "Переказуй прохання: me pide que + теперішній «subjuntivo», me pidió que + «imperfecto de subjuntivo», і розрізняй me dijo que venía (новина) та me dijo que viniera (прохання).",
+        "de": "Gib Bitten weiter: me pide que + subjuntivo im Präsens, me pidió que + imperfecto de subjuntivo, und unterscheide me dijo que venía (eine Neuigkeit) von me dijo que viniera (eine Bitte).",
+        "fr": "Rapporte des demandes : me pide que + le subjonctif présent, me pidió que + l'imperfecto de subjuntivo (l'imparfait du subjonctif), et distingue me dijo que venía (une nouvelle) de me dijo que viniera (une demande).",
+        "pt": "Repasse pedidos: me pide que + o subjuntivo presente, me pidió que + o imperfecto de subjuntivo, e diferencie me dijo que venía (uma notícia) de me dijo que viniera (um pedido).",
+        "zh": "转述请求：me pide que + 现在时虚拟式，me pidió que + 过去时虚拟式，并分清 me dijo que venía（消息）和 me dijo que viniera（请求）。"
+      },
+      "target": {
+        "es": "Mi jefe me pidió que llegara pronto mañana.",
+        "en": "My boss asked me to arrive early tomorrow.",
+        "it": "Il mio capo mi ha chiesto di arrivare presto domani.",
+        "uk": "Начальник попросив мене завтра прийти раніше.",
+        "de": "Mein Chef hat mich gebeten, morgen früh zu kommen.",
+        "fr": "Mon chef m'a demandé d'arriver tôt demain.",
+        "pt": "O meu chefe me pediu para chegar cedo amanhã.",
+        "zh": "我老板让我明天早点到。"
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "pidió",
+              "en": "he / she asked (for)",
+              "it": "ha chiesto",
+              "uk": "він / вона попросив(-ла)",
+              "de": "er / sie bat (um), hat gebeten",
+              "fr": "il / elle a demandé",
+              "pt": "ele / ela pediu",
+              "zh": "他／她请求、要求（过去）",
+              "kind": "stem"
+            },
+            {
+              "es": "pidieron",
+              "en": "they asked (for)",
+              "it": "hanno chiesto",
+              "uk": "вони попросили",
+              "de": "sie baten (um), haben gebeten",
+              "fr": "ils / elles ont demandé",
+              "pt": "eles / elas pediram",
+              "zh": "他们请求、要求（过去）",
+              "kind": "stem"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "me pide que",
+              "kind": "rail"
+            },
+            {
+              "text": "llame",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "pedir que (to ask someone to do something) is followed by the subjunctive, just like quiero que: mi madre me pide que la llame.",
+            "it": "pedir que (chiedere a qualcuno di fare qualcosa) vuole il congiuntivo, proprio come quiero que: mi madre me pide que la llame.",
+            "uk": "Після pedir que (просити когось щось зробити) йде «subjuntivo», так само як після quiero que: mi madre me pide que la llame.",
+            "de": "Nach pedir que (jemanden bitten, etwas zu tun) steht der subjuntivo, genau wie bei quiero que: mi madre me pide que la llame. Im Deutschen sagt man einfach „bitten, … zu tun“.",
+            "fr": "pedir que (demander à quelqu'un de faire quelque chose) est suivi du subjonctif, comme quiero que : mi madre me pide que la llame. En français, on dit « demander de » + l'infinitif, mais en espagnol, il faut que + le subjonctif.",
+            "pt": "pedir que (pedir a alguém que faça algo) vem com o subjuntivo, igualzinho a quiero que: mi madre me pide que la llame. Em português também: «pede que eu ligue».",
+            "zh": "pedir que（请某人做某事）后面跟虚拟式，和 quiero que 一样：mi madre me pide que la llame。"
+          },
+          "examples": [
+            {
+              "es": "Mi madre me pide que la llame más.",
+              "en": "My mother asks me to call her more.",
+              "it": "Mia madre mi chiede di chiamarla di più.",
+              "uk": "Мама просить мене частіше їй дзвонити.",
+              "de": "Meine Mutter bittet mich, sie öfter anzurufen.",
+              "fr": "Ma mère me demande de l'appeler plus souvent.",
+              "pt": "A minha mãe me pede para ligar mais para ela.",
+              "zh": "我妈妈让我多给她打电话。"
+            },
+            {
+              "es": "El médico me pide que descanse.",
+              "en": "The doctor is asking me to rest.",
+              "it": "Il medico mi chiede di riposarmi.",
+              "uk": "Лікар просить мене відпочити.",
+              "de": "Der Arzt sagt, ich soll mich ausruhen.",
+              "fr": "Le médecin me demande de me reposer.",
+              "pt": "O médico está me pedindo para descansar.",
+              "zh": "医生让我休息。"
+            },
+            {
+              "es": "Mi jefe me pide que vaya a la reunión.",
+              "en": "My boss is asking me to go to the meeting.",
+              "it": "Il mio capo mi chiede di andare alla riunione.",
+              "uk": "Начальник просить мене піти на нараду.",
+              "de": "Mein Chef bittet mich, zur Besprechung zu gehen.",
+              "fr": "Mon chef me demande d'aller à la réunion.",
+              "pt": "O meu chefe está me pedindo para ir à reunião.",
+              "zh": "我老板让我去开会。"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Mi madre siempre me pide que la ",
+          "after": " más.",
+          "options": [
+            "llame",
+            "llamo",
+            "llamar"
+          ],
+          "answer": "llame",
+          "en": "My mother always asks me to call her more.",
+          "it": "Mia madre mi chiede sempre di chiamarla di più.",
+          "uk": "Мама завжди просить мене частіше їй дзвонити.",
+          "de": "Meine Mutter bittet mich immer, sie öfter anzurufen.",
+          "fr": "Ma mère me demande toujours de l'appeler plus souvent.",
+          "pt": "A minha mãe sempre me pede para ligar mais para ela.",
+          "zh": "我妈妈总是让我多给她打电话。",
+          "hint": {
+            "en": "pedir que + the subjunctive: llame.",
+            "it": "pedir que + il congiuntivo: llame.",
+            "uk": "pedir que + «subjuntivo»: llame.",
+            "de": "pedir que + subjuntivo: llame.",
+            "fr": "pedir que + le subjonctif : llame.",
+            "pt": "pedir que + o subjuntivo: llame.",
+            "zh": "pedir que + 虚拟式：llame。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "fire",
+          "before": "El médico me pide que ",
+          "after": " más.",
+          "label": "descansar",
+          "accepted": [
+            "descanse"
+          ],
+          "en": "The doctor is asking me to rest more.",
+          "it": "Il medico mi chiede di riposarmi di più.",
+          "uk": "Лікар просить мене більше відпочивати.",
+          "de": "Der Arzt sagt, ich soll mich mehr ausruhen.",
+          "fr": "Le médecin me demande de me reposer davantage.",
+          "pt": "O médico está me pedindo para descansar mais.",
+          "zh": "医生让我多休息。",
+          "hint": {
+            "en": "me pide que (present) + the present subjunctive: descanse.",
+            "it": "me pide que (presente) + il congiuntivo presente: descanse.",
+            "uk": "me pide que (теперішній час) + теперішній «subjuntivo»: descanse.",
+            "de": "me pide que (Präsens) + subjuntivo im Präsens: descanse.",
+            "fr": "me pide que (présent) + le subjonctif présent : descanse.",
+            "pt": "me pide que (presente) + o subjuntivo presente: descanse.",
+            "zh": "me pide que（现在时）+ 现在时虚拟式：descanse。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "me pidió que",
+              "kind": "rail"
+            },
+            {
+              "text": "llegara",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "If the request was in the past (pidió), use the imperfect subjunctive: mi jefe me pidió que llegara pronto.",
+            "it": "Se la richiesta era nel passato (pidió), usa il congiuntivo imperfetto: mi jefe me pidió que llegara pronto.",
+            "uk": "Якщо прохання було в минулому (pidió), вживай «imperfecto de subjuntivo»: mi jefe me pidió que llegara pronto.",
+            "de": "Wenn die Bitte in der Vergangenheit war (pidió), nimm den imperfecto de subjuntivo: mi jefe me pidió que llegara pronto.",
+            "fr": "Si la demande était dans le passé (pidió), utilise l'imperfecto de subjuntivo : mi jefe me pidió que llegara pronto.",
+            "pt": "Se o pedido foi no passado (pidió), use o imperfecto de subjuntivo: mi jefe me pidió que llegara pronto (como «pediu que eu chegasse cedo»).",
+            "zh": "如果请求是在过去（pidió），就用过去时虚拟式：mi jefe me pidió que llegara pronto。"
+          },
+          "examples": [
+            {
+              "es": "Mi jefe me pidió que llegara pronto.",
+              "en": "My boss asked me to arrive early.",
+              "it": "Il mio capo mi ha chiesto di arrivare presto.",
+              "uk": "Начальник попросив мене прийти раніше.",
+              "de": "Mein Chef hat mich gebeten, früh zu kommen.",
+              "fr": "Mon chef m'a demandé d'arriver tôt.",
+              "pt": "O meu chefe me pediu para chegar cedo.",
+              "zh": "我老板让我早点到。"
+            },
+            {
+              "es": "Me pidió que la esperara en la puerta.",
+              "en": "She asked me to wait for her at the door.",
+              "it": "Mi ha chiesto di aspettarla alla porta.",
+              "uk": "Вона попросила мене зачекати її біля дверей.",
+              "de": "Sie hat mich gebeten, an der Tür auf sie zu warten.",
+              "fr": "Elle m'a demandé de l'attendre à la porte.",
+              "pt": "Ela me pediu para esperá-la na porta.",
+              "zh": "她让我在门口等她。"
+            },
+            {
+              "es": "Nos pidieron que no hiciéramos ruido.",
+              "en": "They asked us not to make any noise.",
+              "it": "Ci hanno chiesto di non fare rumore.",
+              "uk": "Нас попросили не шуміти.",
+              "de": "Sie haben uns gebeten, keinen Lärm zu machen.",
+              "fr": "Ils nous ont demandé de ne pas faire de bruit.",
+              "pt": "Eles nos pediram para não fazer barulho.",
+              "zh": "他们请我们别弄出声音。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "llegara",
+              "en": "(that) I / he / she arrived",
+              "it": "(che io / lui / lei) arrivassi / arrivasse",
+              "uk": "(щоб) я / він / вона прийшов (прийшла), приїхав(-ла)",
+              "de": "(dass) ich / er / sie ankam",
+              "fr": "(que j' / qu'il / qu'elle) arrive",
+              "pt": "(que eu / ele / ela) chegasse",
+              "zh": "我／他／她到达（过去时虚拟式）"
+            },
+            {
+              "es": "esperara",
+              "en": "(that) I / he / she waited",
+              "it": "(che io / lui / lei) aspettassi / aspettasse",
+              "uk": "(щоб) я / він / вона зачекав(-ла)",
+              "de": "(dass) ich / er / sie wartete",
+              "fr": "(que j' / qu'il / qu'elle) attende",
+              "pt": "(que eu / ele / ela) esperasse",
+              "zh": "我／他／她等（过去时虚拟式）"
+            },
+            {
+              "es": "terminara",
+              "en": "(that) I / he / she finished",
+              "it": "(che io / lui / lei) finissi / finisse",
+              "uk": "(щоб) я / він / вона закінчив(-ла)",
+              "de": "(dass) ich / er / sie fertig machte, beendete",
+              "fr": "(que je / qu'il / qu'elle) finisse",
+              "pt": "(que eu / ele / ela) terminasse",
+              "zh": "我／他／她完成（过去时虚拟式）"
+            },
+            {
+              "es": "descansara",
+              "en": "(that) I / he / she rested",
+              "it": "(che io / lui / lei) mi riposassi / si riposasse",
+              "uk": "(щоб) я / він / вона відпочив(-ла)",
+              "de": "(dass) ich / er / sie sich ausruhte",
+              "fr": "(que je me / qu'il, qu'elle se) repose",
+              "pt": "(que eu / ele / ela) descansasse",
+              "zh": "我／他／她休息（过去时虚拟式）"
+            },
+            {
+              "es": "hiciéramos",
+              "en": "(that) we did, made",
+              "it": "(che noi) facessimo",
+              "uk": "(щоб) ми зробили",
+              "de": "(dass) wir machten",
+              "fr": "(que nous) fassions",
+              "pt": "(que nós) fizéssemos",
+              "zh": "我们做（过去时虚拟式）"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Ayer el jefe me pidió que ",
+          "after": " el informe.",
+          "options": [
+            "terminara",
+            "terminar",
+            "terminé"
+          ],
+          "answer": "terminara",
+          "en": "Yesterday the boss asked me to finish the report.",
+          "it": "Ieri il capo mi ha chiesto di finire il rapporto.",
+          "uk": "Учора начальник попросив мене закінчити звіт.",
+          "de": "Gestern hat mich der Chef gebeten, den Bericht fertig zu machen.",
+          "fr": "Hier, le chef m'a demandé de finir le rapport.",
+          "pt": "Ontem o chefe me pediu para terminar o relatório.",
+          "zh": "昨天老板让我把报告写完。",
+          "hint": {
+            "en": "pidió is in the past: terminara.",
+            "it": "pidió è al passato: terminara.",
+            "uk": "pidió — у минулому часі: terminara.",
+            "de": "pidió steht in der Vergangenheit: terminara.",
+            "fr": "pidió est au passé : terminara.",
+            "pt": "pidió está no passado: terminara.",
+            "zh": "pidió 是过去时：terminara。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "fire",
+          "before": "Me pidió que la ",
+          "after": " en la puerta.",
+          "label": "esperar",
+          "accepted": [
+            "esperara"
+          ],
+          "en": "She asked me to wait for her at the door.",
+          "it": "Mi ha chiesto di aspettarla alla porta.",
+          "uk": "Вона попросила мене зачекати її біля дверей.",
+          "de": "Sie hat mich gebeten, an der Tür auf sie zu warten.",
+          "fr": "Elle m'a demandé de l'attendre à la porte.",
+          "pt": "Ela me pediu para esperá-la na porta.",
+          "zh": "她让我在门口等她。",
+          "hint": {
+            "en": "me pidió que + the imperfect subjunctive: esperara.",
+            "it": "me pidió que + il congiuntivo imperfetto: esperara.",
+            "uk": "me pidió que + «imperfecto de subjuntivo»: esperara.",
+            "de": "me pidió que + imperfecto de subjuntivo: esperara.",
+            "fr": "me pidió que + l'imperfecto de subjuntivo : esperara.",
+            "pt": "me pidió que + o imperfecto de subjuntivo: esperara.",
+            "zh": "me pidió que + 过去时虚拟式：esperara。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "me dijo que venía",
+              "kind": "stem"
+            },
+            {
+              "text": "≠",
+              "kind": "chunk"
+            },
+            {
+              "text": "me dijo que viniera",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "decir que passes on news with the normal tenses: me dijo que venía (he told me he was coming). With the subjunctive, it's a request: me dijo que viniera (he told me to come).",
+            "it": "decir que riferisce una notizia con i tempi normali: me dijo que venía (mi ha detto che veniva). Con il congiuntivo è una richiesta: me dijo que viniera (mi ha detto di venire).",
+            "uk": "decir que передає новину звичайними часами: me dijo que venía (він сказав мені, що прийде). Із «subjuntivo» це прохання: me dijo que viniera (він сказав мені прийти). Українською різницю видно так само: «сказав, що…» — новина, «сказав, щоб…» — прохання.",
+            "de": "Mit decir que gibst du Neuigkeiten in den normalen Zeiten weiter: me dijo que venía (er hat mir gesagt, dass er kommt). Mit dem subjuntivo ist es eine Bitte: me dijo que viniera (er hat mir gesagt, ich soll kommen).",
+            "fr": "decir que rapporte une nouvelle avec les temps normaux : me dijo que venía (il m'a dit qu'il venait). Avec le subjonctif, c'est une demande : me dijo que viniera (il m'a dit de venir). En français, c'est la différence entre « dire que » et « dire de ».",
+            "pt": "decir que repassa uma notícia com os tempos normais: me dijo que venía (ele me disse que vinha). Com o subjuntivo, é um pedido: me dijo que viniera (ele me disse para vir).",
+            "zh": "decir que 用普通的时态转述消息：me dijo que venía（他跟我说他要来）。用虚拟式就是请求：me dijo que viniera（他叫我来）。"
+          },
+          "examples": [
+            {
+              "es": "Me dijo que venía a las ocho.",
+              "en": "He told me he was coming at eight.",
+              "it": "Mi ha detto che veniva alle otto.",
+              "uk": "Він сказав мені, що прийде о восьмій.",
+              "de": "Er hat mir gesagt, dass er um acht kommt.",
+              "fr": "Il m'a dit qu'il venait à huit heures.",
+              "pt": "Ele me disse que vinha às oito.",
+              "zh": "他跟我说他八点来。"
+            },
+            {
+              "es": "Me dijo que viniera a las ocho.",
+              "en": "He told me to come at eight.",
+              "it": "Mi ha detto di venire alle otto.",
+              "uk": "Він сказав мені прийти о восьмій.",
+              "de": "Er hat mir gesagt, ich soll um acht kommen.",
+              "fr": "Il m'a dit de venir à huit heures.",
+              "pt": "Ele me disse para vir às oito.",
+              "zh": "他叫我八点来。"
+            },
+            {
+              "es": "Mi madre me dijo que tuviera cuidado.",
+              "en": "My mother told me to be careful.",
+              "it": "Mia madre mi ha detto di stare attento.",
+              "uk": "Мама сказала мені бути обережним(-ою).",
+              "de": "Meine Mutter hat mir gesagt, ich soll vorsichtig sein.",
+              "fr": "Ma mère m'a dit de faire attention.",
+              "pt": "A minha mãe me disse para tomar cuidado.",
+              "zh": "我妈妈叫我小心点。"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Mi madre me dijo que ",
+          "after": " cuidado.",
+          "options": [
+            "tuviera",
+            "tenía"
+          ],
+          "answer": "tuviera",
+          "en": "My mother told me to be careful.",
+          "it": "Mia madre mi ha detto di stare attento.",
+          "uk": "Мама сказала мені бути обережним(-ою).",
+          "de": "Meine Mutter hat mir gesagt, ich soll vorsichtig sein.",
+          "fr": "Ma mère m'a dit de faire attention.",
+          "pt": "A minha mãe me disse para tomar cuidado.",
+          "zh": "我妈妈叫我小心点。",
+          "hint": {
+            "en": "It's a request, so the subjunctive: tuviera.",
+            "it": "È una richiesta, quindi il congiuntivo: tuviera.",
+            "uk": "Це прохання, тож «subjuntivo»: tuviera.",
+            "de": "Es ist eine Bitte, also der subjuntivo: tuviera.",
+            "fr": "C'est une demande, donc le subjonctif : tuviera.",
+            "pt": "É um pedido, então o subjuntivo: tuviera.",
+            "zh": "这是请求，所以用虚拟式：tuviera。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "Your friend asks what the doctor told you. Say: he told me to rest.",
+            "it": "Un amico ti chiede cosa ti ha detto il medico. Rispondi: mi ha detto di riposarmi.",
+            "uk": "Друг питає, що тобі сказав лікар. Скажи: він сказав мені відпочити.",
+            "de": "Eine Freundin fragt, was der Arzt dir gesagt hat. Sag: Er hat mir gesagt, ich soll mich ausruhen.",
+            "fr": "Un ami te demande ce que le médecin t'a dit. Dis : il m'a dit de me reposer.",
+            "pt": "Um amigo pergunta o que o médico te disse. Responda: ele me disse para descansar.",
+            "zh": "你的朋友问医生跟你说了什么。说：他叫我休息。"
+          },
+          "accepted": [
+            "Me dijo que descansara."
+          ],
+          "tiles": [
+            "Me dijo que",
+            "descansara",
+            "descansar",
+            "descansa"
+          ],
+          "en": "He told me to rest.",
+          "it": "Mi ha detto di riposarmi.",
+          "uk": "Він сказав мені відпочити.",
+          "de": "Er hat mir gesagt, ich soll mich ausruhen.",
+          "fr": "Il m'a dit de me reposer.",
+          "pt": "Ele me disse para descansar.",
+          "zh": "他叫我休息。",
+          "hint": {
+            "en": "A request in the past: dijo que + descansara.",
+            "it": "Una richiesta al passato: dijo que + descansara.",
+            "uk": "Прохання в минулому: dijo que + descansara.",
+            "de": "Eine Bitte in der Vergangenheit: dijo que + descansara.",
+            "fr": "Une demande au passé : dijo que + descansara.",
+            "pt": "Um pedido no passado: dijo que + descansara.",
+            "zh": "过去的请求：dijo que + descansara。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "Mi compañero me dijo que ",
+          "after": " enfermo, por eso no vino.",
+          "options": [
+            "estaba",
+            "estuviera"
+          ],
+          "answer": "estaba",
+          "en": "My colleague told me he was ill, that's why he didn't come.",
+          "it": "Il mio collega mi ha detto che era malato, per questo non è venuto.",
+          "uk": "Мій колега сказав мені, що хворіє, тому й не прийшов.",
+          "de": "Mein Kollege hat mir gesagt, dass er krank ist, deshalb ist er nicht gekommen.",
+          "fr": "Mon collègue m'a dit qu'il était malade, c'est pour ça qu'il n'est pas venu.",
+          "pt": "O meu colega me disse que estava doente, por isso não veio.",
+          "zh": "我同事跟我说他病了，所以他没来。",
+          "hint": {
+            "en": "It's news, not a request: estaba.",
+            "it": "È una notizia, non una richiesta: estaba.",
+            "uk": "Це новина, а не прохання: estaba.",
+            "de": "Es ist eine Neuigkeit, keine Bitte: estaba.",
+            "fr": "C'est une nouvelle, pas une demande : estaba.",
+            "pt": "É uma notícia, não um pedido: estaba.",
+            "zh": "这是消息，不是请求：estaba。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "mix",
+          "before": "Los vecinos nos pidieron que no ",
+          "after": " ruido.",
+          "label": "hacer",
+          "accepted": [
+            "hiciéramos"
+          ],
+          "en": "The neighbours asked us not to make any noise.",
+          "it": "I vicini ci hanno chiesto di non fare rumore.",
+          "uk": "Сусіди попросили нас не шуміти.",
+          "de": "Die Nachbarn haben uns gebeten, keinen Lärm zu machen.",
+          "fr": "Les voisins nous ont demandé de ne pas faire de bruit.",
+          "pt": "Os vizinhos nos pediram para não fazer barulho.",
+          "zh": "邻居们请我们别弄出声音。",
+          "hint": {
+            "en": "For nosotros, with an accent: hiciéramos.",
+            "it": "Per nosotros, con l'accento: hiciéramos.",
+            "uk": "Для nosotros, з наголосом: hiciéramos.",
+            "de": "Für nosotros, mit Akzent: hiciéramos.",
+            "fr": "Pour nosotros, avec un accent : hiciéramos.",
+            "pt": "Para nosotros, com acento: hiciéramos.",
+            "zh": "nosotros 形式，要加重音符号：hiciéramos。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "mix",
+          "intention": {
+            "en": "A colleague asks why you're at work so early. Say: the boss asked me to come early.",
+            "it": "Un collega ti chiede perché sei al lavoro così presto. Rispondi: il capo mi ha chiesto di venire presto.",
+            "uk": "Колега питає, чому ти так рано на роботі. Скажи: начальник попросив мене прийти раніше.",
+            "de": "Ein Kollege fragt, warum du so früh bei der Arbeit bist. Sag: Der Chef hat mich gebeten, früh zu kommen.",
+            "fr": "Un collègue te demande pourquoi tu es au travail si tôt. Dis : le chef m'a demandé de venir tôt.",
+            "pt": "Um colega pergunta por que você está no trabalho tão cedo. Responda: o chefe me pediu para vir cedo.",
+            "zh": "一个同事问你为什么这么早就来上班。说：老板让我早点来。"
+          },
+          "accepted": [
+            "El jefe me pidió que viniera pronto.",
+            "La jefa me pidió que viniera pronto.",
+            "El jefe me pidió que viniera temprano."
+          ],
+          "tiles": [
+            "El jefe",
+            "me pidió que",
+            "viniera",
+            "pronto",
+            "vengo",
+            "venía"
+          ],
+          "en": "The boss asked me to come early.",
+          "it": "Il capo mi ha chiesto di venire presto.",
+          "uk": "Начальник попросив мене прийти раніше.",
+          "de": "Der Chef hat mich gebeten, früh zu kommen.",
+          "fr": "Le chef m'a demandé de venir tôt.",
+          "pt": "O chefe me pediu para vir cedo.",
+          "zh": "老板让我早点来。",
+          "hint": {
+            "en": "pidió (past) + viniera.",
+            "it": "pidió (passato) + viniera.",
+            "uk": "pidió (минулий час) + viniera.",
+            "de": "pidió (Vergangenheit) + viniera.",
+            "fr": "pidió (passé) + viniera.",
+            "pt": "pidió (passado) + viniera.",
+            "zh": "pidió（过去时）+ viniera。"
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "Your partner asks why you're setting the alarm so early. Write in Spanish: «My boss asked me to arrive early tomorrow.»",
+            "it": "Il tuo compagno ti chiede perché metti la sveglia così presto. Scrivi in spagnolo: «Il mio capo mi ha chiesto di arrivare presto domani.»",
+            "uk": "Партнер питає, чому ти ставиш будильник так рано. Напиши іспанською: «Начальник попросив мене завтра прийти раніше.»",
+            "de": "Dein Partner (deine Partnerin) fragt, warum du den Wecker so früh stellst. Schreib auf Spanisch: «Mein Chef hat mich gebeten, morgen früh zu kommen.»",
+            "fr": "Ton partenaire te demande pourquoi tu mets le réveil si tôt. Écris en espagnol : «Mon chef m'a demandé d'arriver tôt demain.»",
+            "pt": "O seu companheiro pergunta por que você está colocando o despertador tão cedo. Escreva em espanhol: «O meu chefe me pediu para chegar cedo amanhã.»",
+            "zh": "你的伴侣问你为什么把闹钟定得这么早。用西班牙语写：«我老板让我明天早点到。»"
+          },
+          "accepted": [
+            "Mi jefe me pidió que llegara pronto mañana.",
+            "Mi jefe me pidió que mañana llegara pronto.",
+            "Mi jefa me pidió que llegara pronto mañana.",
+            "Mi jefa me pidió que mañana llegara pronto.",
+            "Mi jefe me pidió que llegara temprano mañana.",
+            "Mi jefa me pidió que llegara temprano mañana.",
+            "Mi jefe me pidió que mañana llegara temprano.",
+            "Mi jefa me pidió que mañana llegara temprano."
+          ],
+          "model": {
+            "es": "Mi jefe me pidió que llegara pronto mañana.",
+            "en": "My boss asked me to arrive early tomorrow.",
+            "it": "Il mio capo mi ha chiesto di arrivare presto domani.",
+            "uk": "Начальник попросив мене завтра прийти раніше.",
+            "de": "Mein Chef hat mich gebeten, morgen früh zu kommen.",
+            "fr": "Mon chef m'a demandé d'arriver tôt demain.",
+            "pt": "O meu chefe me pediu para chegar cedo amanhã.",
+            "zh": "我老板让我明天早点到。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u38l4",
+      "goal": {
+        "en": "Report questions: preguntar si for yes/no questions (¿Vienes? → me preguntó si venía), keep the question word for the others (me preguntó dónde vivía), and ask gently with ¿sabes si…?",
+        "it": "Riferisci le domande: preguntar si per le domande sì/no (¿Vienes? → me preguntó si venía), mantieni la parola interrogativa per le altre (me preguntó dónde vivía) e chiedi con garbo con ¿sabes si…?",
+        "uk": "Переказуй запитання: preguntar si для запитань «так чи ні» (¿Vienes? → me preguntó si venía), зберігай питальне слово в інших запитаннях (me preguntó dónde vivía) і питай м'якше за допомогою ¿sabes si…?",
+        "de": "Gib Fragen wieder: preguntar si bei Ja/Nein-Fragen (¿Vienes? → me preguntó si venía), bei den anderen bleibt das Fragewort (me preguntó dónde vivía), und frag höflich mit ¿sabes si…?",
+        "fr": "Rapporte des questions : preguntar si pour les questions fermées (¿Vienes? → me preguntó si venía), garde le mot interrogatif pour les autres (me preguntó dónde vivía), et demande poliment avec ¿sabes si…?",
+        "pt": "Repasse perguntas: preguntar si para as perguntas de sim ou não (¿Vienes? → me preguntó si venía), mantenha a palavra interrogativa nas outras (me preguntó dónde vivía) e pergunte com delicadeza com ¿sabes si…?",
+        "zh": "转述问题：是非问句用 preguntar si（¿Vienes? → me preguntó si venía），其他问句保留疑问词（me preguntó dónde vivía），用 ¿sabes si…? 委婉地提问。"
+      },
+      "target": {
+        "es": "Me preguntó si quería ir al cine.",
+        "en": "She asked me if I wanted to go to the cinema.",
+        "it": "Mi ha chiesto se volevo andare al cinema.",
+        "uk": "Вона спитала мене, чи хочу я піти в кіно.",
+        "de": "Sie hat mich gefragt, ob ich ins Kino gehen will.",
+        "fr": "Elle m'a demandé si je voulais aller au cinéma.",
+        "pt": "Ela me perguntou se eu queria ir ao cinema.",
+        "zh": "她问我想不想去看电影。"
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "preguntar si",
+              "en": "to ask if, to ask whether",
+              "it": "chiedere se",
+              "uk": "питати, чи",
+              "de": "fragen, ob",
+              "fr": "demander si",
+              "pt": "perguntar se",
+              "zh": "问是不是……，问是否……",
+              "kind": "chunk"
+            },
+            {
+              "es": "preguntaron",
+              "en": "they asked",
+              "it": "hanno chiesto",
+              "uk": "вони спитали",
+              "de": "sie fragten, haben gefragt",
+              "fr": "ils / elles ont demandé",
+              "pt": "eles / elas perguntaram",
+              "zh": "他们问（过去）",
+              "kind": "stem"
+            },
+            {
+              "es": "no sé si",
+              "en": "I don't know if",
+              "it": "non so se",
+              "uk": "я не знаю, чи",
+              "de": "ich weiß nicht, ob",
+              "fr": "je ne sais pas si",
+              "pt": "não sei se",
+              "zh": "我不知道是不是……",
+              "kind": "chunk"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "me preguntó",
+              "kind": "stem"
+            },
+            {
+              "text": "si",
+              "kind": "rail"
+            }
+          ],
+          "rule": {
+            "en": "To report a yes/no question, use preguntar si. In the past, the tenses change just as after dijo que: «¿Quieres venir?» → me preguntó si quería venir.",
+            "it": "Per riferire una domanda sì/no, usa preguntar si. Al passato i tempi cambiano proprio come dopo dijo que: «¿Quieres venir?» → me preguntó si quería venir.",
+            "uk": "Щоб переказати запитання «так чи ні», вживай preguntar si. У минулому часи змінюються так само, як після dijo que: «¿Quieres venir?» → me preguntó si quería venir.",
+            "de": "Um eine Ja/Nein-Frage wiederzugeben, nimm preguntar si (wie „fragen, ob“). In der Vergangenheit ändern sich die Zeiten genau wie nach dijo que: «¿Quieres venir?» → me preguntó si quería venir.",
+            "fr": "Pour rapporter une question fermée (réponse oui ou non), utilise preguntar si. Au passé, les temps changent comme après dijo que : «¿Quieres venir?» → me preguntó si quería venir. Comme en français : « Tu veux venir ? » → elle m'a demandé si je voulais venir.",
+            "pt": "Para repassar uma pergunta de sim ou não, use preguntar si. No passado, os tempos mudam exatamente como depois de dijo que: «¿Quieres venir?» → me preguntó si quería venir.",
+            "zh": "转述是非问句，用 preguntar si。如果是过去问的，时态的变化和 dijo que 后面一样：«¿Quieres venir?» → me preguntó si quería venir。"
+          },
+          "examples": [
+            {
+              "es": "Me preguntó si quería ir al cine.",
+              "en": "She asked me if I wanted to go to the cinema.",
+              "it": "Mi ha chiesto se volevo andare al cinema.",
+              "uk": "Вона спитала мене, чи хочу я піти в кіно.",
+              "de": "Sie hat mich gefragt, ob ich ins Kino gehen will.",
+              "fr": "Elle m'a demandé si je voulais aller au cinéma.",
+              "pt": "Ela me perguntou se eu queria ir ao cinema.",
+              "zh": "她问我想不想去看电影。"
+            },
+            {
+              "es": "Mi madre siempre me pregunta si como bien.",
+              "en": "My mother always asks me if I'm eating well.",
+              "it": "Mia madre mi chiede sempre se mangio bene.",
+              "uk": "Мама завжди питає мене, чи добре я харчуюся.",
+              "de": "Meine Mutter fragt mich immer, ob ich gut esse.",
+              "fr": "Ma mère me demande toujours si je mange bien.",
+              "pt": "A minha mãe sempre me pergunta se eu estou comendo bem.",
+              "zh": "我妈妈总是问我吃得好不好。"
+            },
+            {
+              "es": "Me preguntaron si tenía coche.",
+              "en": "They asked me if I had a car.",
+              "it": "Mi hanno chiesto se avevo la macchina.",
+              "uk": "Мене спитали, чи є в мене машина.",
+              "de": "Sie haben mich gefragt, ob ich ein Auto habe.",
+              "fr": "Ils m'ont demandé si j'avais une voiture.",
+              "pt": "Eles me perguntaram se eu tinha carro.",
+              "zh": "他们问我有没有车。"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Me preguntó ",
+          "after": " quería ir al cine.",
+          "options": [
+            "si",
+            "que",
+            "qué"
+          ],
+          "answer": "si",
+          "en": "She asked me if I wanted to go to the cinema.",
+          "it": "Mi ha chiesto se volevo andare al cinema.",
+          "uk": "Вона спитала мене, чи хочу я піти в кіно.",
+          "de": "Sie hat mich gefragt, ob ich ins Kino gehen will.",
+          "fr": "Elle m'a demandé si je voulais aller au cinéma.",
+          "pt": "Ela me perguntou se eu queria ir ao cinema.",
+          "zh": "她问我想不想去看电影。",
+          "hint": {
+            "en": "A yes/no question: preguntar si.",
+            "it": "Una domanda sì/no: preguntar si.",
+            "uk": "Запитання «так чи ні»: preguntar si.",
+            "de": "Eine Ja/Nein-Frage: preguntar si.",
+            "fr": "Une question fermée : preguntar si.",
+            "pt": "Uma pergunta de sim ou não: preguntar si.",
+            "zh": "是非问句：preguntar si。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "fire",
+          "before": "En la entrevista me preguntaron si ",
+          "after": " coche.",
+          "label": "tener",
+          "accepted": [
+            "tenía"
+          ],
+          "en": "In the interview they asked me if I had a car.",
+          "it": "Al colloquio mi hanno chiesto se avevo la macchina.",
+          "uk": "На співбесіді мене спитали, чи є в мене машина.",
+          "de": "Im Vorstellungsgespräch haben sie mich gefragt, ob ich ein Auto habe.",
+          "fr": "À l'entretien, ils m'ont demandé si j'avais une voiture.",
+          "pt": "Na entrevista me perguntaram se eu tinha carro.",
+          "zh": "面试的时候，他们问我有没有车。",
+          "hint": {
+            "en": "preguntaron is in the past: «¿Tienes?» becomes tenía.",
+            "it": "preguntaron è al passato: «¿Tienes?» diventa tenía.",
+            "uk": "preguntaron — у минулому часі: «¿Tienes?» стає tenía.",
+            "de": "preguntaron steht in der Vergangenheit: aus «¿Tienes?» wird tenía.",
+            "fr": "preguntaron est au passé : «¿Tienes?» devient tenía.",
+            "pt": "preguntaron está no passado: «¿Tienes?» vira tenía.",
+            "zh": "preguntaron 是过去时：«¿Tienes?» 变成 tenía。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "me preguntó",
+              "kind": "stem"
+            },
+            {
+              "text": "dónde",
+              "kind": "rail"
+            },
+            {
+              "text": "vivía",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "For other questions, keep the question word, with its accent: «¿Dónde vives?» → me preguntó dónde vivía; «¿Qué quieres?» → me preguntó qué quería.",
+            "it": "Per le altre domande, mantieni la parola interrogativa, con l'accento: «¿Dónde vives?» → me preguntó dónde vivía; «¿Qué quieres?» → me preguntó qué quería.",
+            "uk": "В інших запитаннях зберігай питальне слово з його наголосом: «¿Dónde vives?» → me preguntó dónde vivía; «¿Qué quieres?» → me preguntó qué quería.",
+            "de": "Bei anderen Fragen bleibt das Fragewort, mit seinem Akzent: «¿Dónde vives?» → me preguntó dónde vivía; «¿Qué quieres?» → me preguntó qué quería.",
+            "fr": "Pour les autres questions, garde le mot interrogatif, avec son accent : «¿Dónde vives?» → me preguntó dónde vivía ; «¿Qué quieres?» → me preguntó qué quería.",
+            "pt": "Nas outras perguntas, mantenha a palavra interrogativa, com o acento: «¿Dónde vives?» → me preguntó dónde vivía; «¿Qué quieres?» → me preguntó qué quería.",
+            "zh": "其他问句保留疑问词，连同它的重音符号：«¿Dónde vives?» → me preguntó dónde vivía；«¿Qué quieres?» → me preguntó qué quería。"
+          },
+          "examples": [
+            {
+              "es": "Me preguntó dónde vivía.",
+              "en": "He asked me where I lived.",
+              "it": "Mi ha chiesto dove abitavo.",
+              "uk": "Він спитав мене, де я живу.",
+              "de": "Er hat mich gefragt, wo ich wohne.",
+              "fr": "Il m'a demandé où j'habitais.",
+              "pt": "Ele me perguntou onde eu morava.",
+              "zh": "他问我住在哪里。"
+            },
+            {
+              "es": "Me preguntó qué quería tomar.",
+              "en": "She asked me what I wanted to drink.",
+              "it": "Mi ha chiesto cosa volevo bere.",
+              "uk": "Вона спитала мене, що я буду пити.",
+              "de": "Sie hat mich gefragt, was ich trinken möchte.",
+              "fr": "Elle m'a demandé ce que je voulais boire.",
+              "pt": "Ela me perguntou o que eu queria beber.",
+              "zh": "她问我想喝点什么。"
+            },
+            {
+              "es": "Me preguntaron cuántos idiomas hablaba.",
+              "en": "They asked me how many languages I spoke.",
+              "it": "Mi hanno chiesto quante lingue parlavo.",
+              "uk": "Мене спитали, скількома мовами я розмовляю.",
+              "de": "Sie haben mich gefragt, wie viele Sprachen ich spreche.",
+              "fr": "Ils m'ont demandé combien de langues je parlais.",
+              "pt": "Eles me perguntaram quantos idiomas eu falava.",
+              "zh": "他们问我会说几种语言。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "queríamos",
+              "en": "we wanted",
+              "it": "volevamo",
+              "uk": "ми хотіли",
+              "de": "wir wollten",
+              "fr": "nous voulions",
+              "pt": "nós queríamos",
+              "zh": "我们（当时）想要"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Me preguntó ",
+          "after": " vivía.",
+          "options": [
+            "dónde",
+            "si",
+            "que"
+          ],
+          "answer": "dónde",
+          "en": "He asked me where I lived.",
+          "it": "Mi ha chiesto dove abitavo.",
+          "uk": "Він спитав мене, де я живу.",
+          "de": "Er hat mich gefragt, wo ich wohne.",
+          "fr": "Il m'a demandé où j'habitais.",
+          "pt": "Ele me perguntou onde eu morava.",
+          "zh": "他问我住在哪里。",
+          "hint": {
+            "en": "He asked «¿Dónde…?»: keep dónde.",
+            "it": "Ha chiesto «¿Dónde…?»: mantieni dónde.",
+            "uk": "Він спитав «¿Dónde…?»: зберігай dónde.",
+            "de": "Er hat gefragt «¿Dónde…?»: dónde bleibt.",
+            "fr": "Il a demandé «¿Dónde…?» : garde dónde.",
+            "pt": "Ele perguntou «¿Dónde…?»: mantenha dónde.",
+            "zh": "他问的是 «¿Dónde…?»：保留 dónde。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "At a job interview they asked you «¿Cuántos idiomas hablas?». Tell your friend: they asked me how many languages I spoke.",
+            "it": "A un colloquio di lavoro ti hanno chiesto «¿Cuántos idiomas hablas?». Di' al tuo amico: mi hanno chiesto quante lingue parlavo.",
+            "uk": "На співбесіді тебе спитали: «¿Cuántos idiomas hablas?». Розкажи другові: мене спитали, скількома мовами я розмовляю.",
+            "de": "Im Vorstellungsgespräch haben sie dich gefragt: «¿Cuántos idiomas hablas?». Erzähl es deinem Freund: Sie haben mich gefragt, wie viele Sprachen ich spreche.",
+            "fr": "Lors d'un entretien d'embauche, on t'a demandé «¿Cuántos idiomas hablas?». Dis à ton ami : ils m'ont demandé combien de langues je parlais.",
+            "pt": "Numa entrevista de emprego, te perguntaram «¿Cuántos idiomas hablas?». Conte ao seu amigo: eles me perguntaram quantos idiomas eu falava.",
+            "zh": "面试时，他们问你：«¿Cuántos idiomas hablas?»。告诉你的朋友：他们问我会说几种语言。"
+          },
+          "accepted": [
+            "Me preguntaron cuántos idiomas hablaba."
+          ],
+          "tiles": [
+            "Me preguntaron",
+            "cuántos",
+            "idiomas",
+            "hablaba",
+            "si",
+            "hablo"
+          ],
+          "en": "They asked me how many languages I spoke.",
+          "it": "Mi hanno chiesto quante lingue parlavo.",
+          "uk": "Мене спитали, скількома мовами я розмовляю.",
+          "de": "Sie haben mich gefragt, wie viele Sprachen ich spreche.",
+          "fr": "Ils m'ont demandé combien de langues je parlais.",
+          "pt": "Eles me perguntaram quantos idiomas eu falava.",
+          "zh": "他们问我会说几种语言。",
+          "hint": {
+            "en": "Keep cuántos; «hablas» becomes hablaba.",
+            "it": "Mantieni cuántos; «hablas» diventa hablaba.",
+            "uk": "Зберігай cuántos; «hablas» стає hablaba.",
+            "de": "cuántos bleibt; aus «hablas» wird hablaba.",
+            "fr": "Garde cuántos ; «hablas» devient hablaba.",
+            "pt": "Mantenha cuántos; «hablas» vira hablaba.",
+            "zh": "保留 cuántos；«hablas» 变成 hablaba。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "¿sabes si",
+              "kind": "rail"
+            },
+            {
+              "text": "…?",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "To ask more gently, wrap the question: ¿sabes si…?, ¿sabe dónde…? To say you're not sure: no sé si… The verb keeps its normal tense.",
+            "it": "Per chiedere con più garbo, avvolgi la domanda: ¿sabes si…?, ¿sabe dónde…? Per dire che non sei sicuro: no sé si… Il verbo resta al suo tempo normale.",
+            "uk": "Щоб спитати м'якше, «загорни» запитання: ¿sabes si…?, ¿sabe dónde…? Щоб сказати, що ти не впевнений(-а): no sé si… Дієслово залишається у звичайному часі.",
+            "de": "Um höflicher zu fragen, verpack die Frage: ¿sabes si…?, ¿sabe dónde…? Um zu sagen, dass du nicht sicher bist: no sé si… Das Verb behält seine normale Zeit.",
+            "fr": "Pour demander plus poliment, enveloppe la question : ¿sabes si…?, ¿sabe dónde…? Pour dire que tu n'es pas sûr : no sé si… Le verbe garde son temps normal.",
+            "pt": "Para perguntar com mais delicadeza, embrulhe a pergunta: ¿sabes si…?, ¿sabe dónde…? Para dizer que você não tem certeza: no sé si… O verbo fica no seu tempo normal.",
+            "zh": "想问得更委婉，可以把问题包起来：¿sabes si…?，¿sabe dónde…? 表示你不确定：no sé si… 动词保持普通的时态。"
+          },
+          "examples": [
+            {
+              "es": "¿Sabes si abren los domingos?",
+              "en": "Do you know if they open on Sundays?",
+              "it": "Sai se aprono la domenica?",
+              "uk": "Ти не знаєш, чи вони працюють у неділю?",
+              "de": "Weißt du, ob sie sonntags geöffnet haben?",
+              "fr": "Tu sais s'ils ouvrent le dimanche ?",
+              "pt": "Você sabe se eles abrem aos domingos?",
+              "zh": "你知道他们星期天开不开门吗？"
+            },
+            {
+              "es": "Perdone, ¿sabe dónde está la estación?",
+              "en": "Excuse me, do you know where the station is?",
+              "it": "Mi scusi, sa dov'è la stazione?",
+              "uk": "Перепрошую, ви не знаєте, де вокзал?",
+              "de": "Entschuldigung, wissen Sie, wo der Bahnhof ist?",
+              "fr": "Excusez-moi, vous savez où est la gare ?",
+              "pt": "Com licença, o senhor sabe onde fica a estação?",
+              "zh": "不好意思，您知道火车站在哪里吗？"
+            },
+            {
+              "es": "No sé si puedo ir.",
+              "en": "I don't know if I can go.",
+              "it": "Non so se posso andare.",
+              "uk": "Я не знаю, чи зможу піти.",
+              "de": "Ich weiß nicht, ob ich hingehen kann.",
+              "fr": "Je ne sais pas si je peux y aller.",
+              "pt": "Não sei se posso ir.",
+              "zh": "我不知道我能不能去。"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "¿Sabes ",
+          "after": " el museo abre los lunes?",
+          "options": [
+            "si",
+            "que",
+            "dónde"
+          ],
+          "answer": "si",
+          "en": "Do you know if the museum opens on Mondays?",
+          "it": "Sai se il museo apre il lunedì?",
+          "uk": "Ти не знаєш, чи музей працює в понеділок?",
+          "de": "Weißt du, ob das Museum montags geöffnet ist?",
+          "fr": "Tu sais si le musée ouvre le lundi ?",
+          "pt": "Você sabe se o museu abre às segundas?",
+          "zh": "你知道博物馆星期一开不开门吗？",
+          "hint": {
+            "en": "A yes/no question inside ¿sabes…?: si.",
+            "it": "Una domanda sì/no dentro ¿sabes…?: si.",
+            "uk": "Запитання «так чи ні» всередині ¿sabes…?: si.",
+            "de": "Eine Ja/Nein-Frage in ¿sabes…?: si.",
+            "fr": "Une question fermée dans ¿sabes…? : si.",
+            "pt": "Uma pergunta de sim ou não dentro de ¿sabes…?: si.",
+            "zh": "¿sabes…? 里面是一个是非问句：用 si。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "A friend invites you to a party, but you might have to work. Say: I don't know if I can go.",
+            "it": "Un amico ti invita a una festa, ma forse devi lavorare. Rispondi: non so se posso andare.",
+            "uk": "Друг запрошує тебе на вечірку, але, можливо, тобі доведеться працювати. Скажи: я не знаю, чи зможу піти.",
+            "de": "Ein Freund lädt dich zu einer Party ein, aber vielleicht musst du arbeiten. Sag: Ich weiß nicht, ob ich hingehen kann.",
+            "fr": "Un ami t'invite à une fête, mais tu devras peut-être travailler. Dis : je ne sais pas si je peux y aller.",
+            "pt": "Um amigo convida você para uma festa, mas talvez você tenha que trabalhar. Responda: não sei se posso ir.",
+            "zh": "朋友邀请你参加聚会，可是你可能得工作。说：我不知道我能不能去。"
+          },
+          "accepted": [
+            "No sé si puedo ir.",
+            "No sé si voy a poder ir."
+          ],
+          "tiles": [
+            "No sé",
+            "si",
+            "puedo",
+            "ir",
+            "que",
+            "pueda"
+          ],
+          "en": "I don't know if I can go.",
+          "it": "Non so se posso andare.",
+          "uk": "Я не знаю, чи зможу піти.",
+          "de": "Ich weiß nicht, ob ich hingehen kann.",
+          "fr": "Je ne sais pas si je peux y aller.",
+          "pt": "Não sei se posso ir.",
+          "zh": "我不知道我能不能去。",
+          "hint": {
+            "en": "no sé si + the normal present.",
+            "it": "no sé si + il presente normale.",
+            "uk": "no sé si + звичайний теперішній час.",
+            "de": "no sé si + normales Präsens.",
+            "fr": "no sé si + le présent normal.",
+            "pt": "no sé si + o presente normal.",
+            "zh": "no sé si + 普通的现在时。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "Ayer me preguntó si ",
+          "after": " cansado y le dije que no.",
+          "options": [
+            "estaba",
+            "estuviera",
+            "esté"
+          ],
+          "answer": "estaba",
+          "en": "Yesterday he asked me if I was tired and I said no.",
+          "it": "Ieri mi ha chiesto se ero stanco e gli ho detto di no.",
+          "uk": "Учора він спитав мене, чи я втомився, і я сказав, що ні.",
+          "de": "Gestern hat er mich gefragt, ob ich müde bin (cansado), und ich habe Nein gesagt.",
+          "fr": "Hier, il m'a demandé si j'étais fatigué et je lui ai dit que non.",
+          "pt": "Ontem ele me perguntou se eu estava cansado e eu disse que não.",
+          "zh": "昨天他问我累不累，我说不累。",
+          "hint": {
+            "en": "A question, not a request: the imperfect, estaba.",
+            "it": "Una domanda, non una richiesta: l'imperfetto, estaba.",
+            "uk": "Це запитання, а не прохання: «imperfecto», estaba.",
+            "de": "Eine Frage, keine Bitte: der imperfecto, estaba.",
+            "fr": "Une question, pas une demande : l'imparfait, estaba.",
+            "pt": "Uma pergunta, não um pedido: o imperfeito, estaba.",
+            "zh": "这是问题，不是请求：用过去未完成时，estaba。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "mix",
+          "before": "El camarero nos preguntó qué ",
+          "after": " tomar.",
+          "label": "querer",
+          "accepted": [
+            "queríamos"
+          ],
+          "en": "The waiter asked us what we wanted to drink.",
+          "it": "Il cameriere ci ha chiesto cosa volevamo bere.",
+          "uk": "Офіціант спитав нас, що ми будемо пити.",
+          "de": "Der Kellner hat uns gefragt, was wir trinken möchten.",
+          "fr": "Le serveur nous a demandé ce que nous voulions boire.",
+          "pt": "O garçom nos perguntou o que a gente queria beber.",
+          "zh": "服务员问我们想喝点什么。",
+          "hint": {
+            "en": "«¿Qué queréis?» becomes qué queríamos.",
+            "it": "«¿Qué queréis?» diventa qué queríamos.",
+            "uk": "«¿Qué queréis?» стає qué queríamos.",
+            "de": "Aus «¿Qué queréis?» wird qué queríamos.",
+            "fr": "«¿Qué queréis?» devient qué queríamos.",
+            "pt": "«¿Qué queréis?» vira qué queríamos.",
+            "zh": "«¿Qué queréis?» 变成 qué queríamos。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "mix",
+          "intention": {
+            "en": "You're lost in a new city. Ask a passer-by (usted): excuse me, do you know where the station is?",
+            "it": "Ti sei perso in una città nuova. Chiedi a un passante (usted): mi scusi, sa dov'è la stazione?",
+            "uk": "Ти заблукав(-ла) у незнайомому місті. Спитай перехожого (usted): перепрошую, ви не знаєте, де вокзал?",
+            "de": "Du hast dich in einer fremden Stadt verlaufen. Frag einen Passanten (usted): Entschuldigung, wissen Sie, wo der Bahnhof ist?",
+            "fr": "Tu es perdu dans une ville que tu ne connais pas. Demande à un passant (usted) : excusez-moi, vous savez où est la gare ?",
+            "pt": "Você está perdido numa cidade nova. Pergunte a alguém na rua (usted): com licença, o senhor sabe onde fica a estação?",
+            "zh": "你在一个陌生的城市迷路了。问一位路人（用 usted）：不好意思，您知道火车站在哪里吗？"
+          },
+          "accepted": [
+            "Perdone, ¿sabe dónde está la estación?",
+            "¿Sabe dónde está la estación?"
+          ],
+          "tiles": [
+            "Perdone,",
+            "¿sabe",
+            "dónde",
+            "está",
+            "la estación?",
+            "si",
+            "es"
+          ],
+          "en": "Excuse me, do you know where the station is?",
+          "it": "Mi scusi, sa dov'è la stazione?",
+          "uk": "Перепрошую, ви не знаєте, де вокзал?",
+          "de": "Entschuldigung, wissen Sie, wo der Bahnhof ist?",
+          "fr": "Excusez-moi, vous savez où est la gare ?",
+          "pt": "Com licença, o senhor sabe onde fica a estação?",
+          "zh": "不好意思，您知道火车站在哪里吗？",
+          "hint": {
+            "en": "Wrap the question: ¿sabe dónde…?",
+            "it": "Avvolgi la domanda: ¿sabe dónde…?",
+            "uk": "«Загорни» запитання: ¿sabe dónde…?",
+            "de": "Verpack die Frage: ¿sabe dónde…?",
+            "fr": "Enveloppe la question : ¿sabe dónde…?",
+            "pt": "Embrulhe a pergunta: ¿sabe dónde…?",
+            "zh": "把问题包起来：¿sabe dónde…?"
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "You're telling a friend about a colleague. Write in Spanish: «She asked me if I wanted to go to the cinema.»",
+            "it": "Stai raccontando a un amico di una collega. Scrivi in spagnolo: «Mi ha chiesto se volevo andare al cinema.»",
+            "uk": "Ти розповідаєш другові про колегу. Напиши іспанською: «Вона спитала мене, чи хочу я піти в кіно.»",
+            "de": "Du erzählst einem Freund von einer Kollegin. Schreib auf Spanisch: «Sie hat mich gefragt, ob ich ins Kino gehen will.»",
+            "fr": "Tu parles d'une collègue à un ami. Écris en espagnol : «Elle m'a demandé si je voulais aller au cinéma.»",
+            "pt": "Você está contando a um amigo sobre uma colega. Escreva em espanhol: «Ela me perguntou se eu queria ir ao cinema.»",
+            "zh": "你在跟朋友说一个同事的事。用西班牙语写：«她问我想不想去看电影。»"
+          },
+          "accepted": [
+            "Me preguntó si quería ir al cine.",
+            "Ella me preguntó si quería ir al cine.",
+            "Me preguntó si quería ir al cine con ella."
+          ],
+          "model": {
+            "es": "Me preguntó si quería ir al cine.",
+            "en": "She asked me if I wanted to go to the cinema.",
+            "it": "Mi ha chiesto se volevo andare al cinema.",
+            "uk": "Вона спитала мене, чи хочу я піти в кіно.",
+            "de": "Sie hat mich gefragt, ob ich ins Kino gehen will.",
+            "fr": "Elle m'a demandé si je voulais aller au cinéma.",
+            "pt": "Ela me perguntou se eu queria ir ao cinema.",
+            "zh": "她问我想不想去看电影。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u38l5",
+      "goal": {
+        "en": "Retell a whole conversation: other reporting verbs (me contó que, me explicó que, me prometió que), time words that change when you retell later (mañana → al día siguiente), and linking the lines: le pregunté si… y me dijo que…",
+        "it": "Racconta un'intera conversazione: altri verbi per riferire (me contó que, me explicó que, me prometió que), le parole di tempo che cambiano quando racconti più tardi (mañana → al día siguiente) e come collegare le battute: le pregunté si… y me dijo que…",
+        "uk": "Переказуй цілу розмову: інші дієслова для переказу (me contó que, me explicó que, me prometió que), слова часу, які змінюються, коли переказуєш пізніше (mañana → al día siguiente), і зв'язування реплік: le pregunté si… y me dijo que…",
+        "de": "Erzähl ein ganzes Gespräch nach: andere Verben zum Wiedergeben (me contó que, me explicó que, me prometió que), Zeitangaben, die sich beim späteren Erzählen ändern (mañana → al día siguiente), und das Verbinden der Sätze: le pregunté si… y me dijo que…",
+        "fr": "Raconte toute une conversation : d'autres verbes pour rapporter (me contó que, me explicó que, me prometió que), les mots de temps qui changent quand tu racontes plus tard (mañana → al día siguiente), et comment enchaîner les répliques : le pregunté si… y me dijo que…",
+        "pt": "Conte uma conversa inteira: outros verbos para repassar o que foi dito (me contó que, me explicó que, me prometió que), as palavras de tempo que mudam quando você conta depois (mañana → al día siguiente) e como ligar as falas: le pregunté si… y me dijo que…",
+        "zh": "复述一整段对话：其他转述动词（me contó que，me explicó que，me prometió que），事后复述时要变的时间词（mañana → al día siguiente），以及把句子连起来：le pregunté si… y me dijo que…"
+      },
+      "target": {
+        "es": "Me contó que se iba a vivir a Madrid y me prometió que me llamaría.",
+        "en": "He told me he was moving to Madrid and promised he'd call me.",
+        "it": "Mi ha raccontato che andava a vivere a Madrid e mi ha promesso che mi avrebbe chiamato.",
+        "uk": "Він розповів мені, що переїжджає до Мадрида, і пообіцяв, що подзвонить мені.",
+        "de": "Er hat mir erzählt, dass er nach Madrid zieht, und mir versprochen, dass er mich anrufen würde.",
+        "fr": "Il m'a raconté qu'il partait vivre à Madrid et il m'a promis qu'il m'appellerait.",
+        "pt": "Ele me contou que ia morar em Madri e me prometeu que me ligaria.",
+        "zh": "他跟我说他要搬去马德里住，还答应会给我打电话。"
+      },
+      "names": [
+        "Madrid"
+      ],
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "contó",
+              "en": "he / she told (news, a story)",
+              "it": "ha raccontato",
+              "uk": "він / вона розповів(-ла) (новину, історію)",
+              "de": "er / sie hat erzählt (Neuigkeiten, eine Geschichte)",
+              "fr": "il / elle a raconté (une nouvelle, une histoire)",
+              "pt": "ele / ela contou",
+              "zh": "他／她讲述、告诉（消息、事情）",
+              "kind": "stem"
+            },
+            {
+              "es": "explicó",
+              "en": "he / she explained",
+              "it": "ha spiegato",
+              "uk": "він / вона пояснив(-ла)",
+              "de": "er / sie hat erklärt",
+              "fr": "il / elle a expliqué",
+              "pt": "ele / ela explicou",
+              "zh": "他／她解释",
+              "kind": "stem"
+            },
+            {
+              "es": "prometer",
+              "en": "to promise",
+              "it": "promettere",
+              "uk": "обіцяти",
+              "de": "versprechen",
+              "fr": "promettre",
+              "pt": "prometer",
+              "zh": "答应，保证",
+              "kind": "stem"
+            },
+            {
+              "es": "prometió",
+              "en": "he / she promised",
+              "it": "ha promesso",
+              "uk": "він / вона пообіцяв(-ла)",
+              "de": "er / sie hat versprochen",
+              "fr": "il / elle a promis",
+              "pt": "ele / ela prometeu",
+              "zh": "他／她答应了",
+              "kind": "stem"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "me contó que",
+              "kind": "stem"
+            },
+            {
+              "text": "me explicó que",
+              "kind": "stem"
+            },
+            {
+              "text": "me prometió que",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "contar que (to tell news), explicar que and prometer que report what someone said, with the same tense changes as dijo que: «Vendré» → me prometió que vendría.",
+            "it": "contar que (raccontare una notizia), explicar que e prometer que riferiscono quello che qualcuno ha detto, con gli stessi cambi di tempo di dijo que: «Vendré» → me prometió que vendría.",
+            "uk": "contar que (розповідати новину), explicar que і prometer que передають чужі слова з тими самими змінами часів, що й dijo que: «Vendré» → me prometió que vendría.",
+            "de": "contar que (Neuigkeiten erzählen), explicar que und prometer que geben wieder, was jemand gesagt hat, mit denselben Zeitänderungen wie nach dijo que: «Vendré» → me prometió que vendría.",
+            "fr": "contar que (raconter une nouvelle), explicar que et prometer que rapportent ce que quelqu'un a dit, avec les mêmes changements de temps que dijo que : «Vendré» → me prometió que vendría.",
+            "pt": "contar que (contar uma notícia), explicar que e prometer que repassam o que alguém disse, com as mesmas mudanças de tempo de dijo que: «Vendré» → me prometió que vendría.",
+            "zh": "contar que（告诉消息）、explicar que 和 prometer que 都用来转述别人的话，时态变化和 dijo que 一样：«Vendré» → me prometió que vendría。"
+          },
+          "examples": [
+            {
+              "es": "Me contó que se iba a vivir a Madrid.",
+              "en": "He told me he was moving to Madrid.",
+              "it": "Mi ha raccontato che andava a vivere a Madrid.",
+              "uk": "Він розповів мені, що переїжджає до Мадрида.",
+              "de": "Er hat mir erzählt, dass er nach Madrid zieht.",
+              "fr": "Il m'a raconté qu'il partait vivre à Madrid.",
+              "pt": "Ele me contou que ia morar em Madri.",
+              "zh": "他跟我说他要搬去马德里住。"
+            },
+            {
+              "es": "Me explicó que el museo estaba cerrado los lunes.",
+              "en": "She explained to me that the museum was closed on Mondays.",
+              "it": "Mi ha spiegato che il museo era chiuso il lunedì.",
+              "uk": "Вона пояснила мені, що в понеділок музей зачинений.",
+              "de": "Sie hat mir erklärt, dass das Museum montags geschlossen ist.",
+              "fr": "Elle m'a expliqué que le musée était fermé le lundi.",
+              "pt": "Ela me explicou que o museu ficava fechado às segundas.",
+              "zh": "她跟我解释说博物馆星期一不开门。"
+            },
+            {
+              "es": "Me prometió que vendría.",
+              "en": "He promised me he'd come.",
+              "it": "Mi ha promesso che sarebbe venuto.",
+              "uk": "Він пообіцяв мені, що прийде.",
+              "de": "Er hat mir versprochen, dass er kommen würde.",
+              "fr": "Il m'a promis qu'il viendrait.",
+              "pt": "Ele me prometeu que viria.",
+              "zh": "他答应我他会来。"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Me ",
+          "after": " que vendría, y vino.",
+          "options": [
+            "prometió",
+            "pidió",
+            "preguntó"
+          ],
+          "answer": "prometió",
+          "en": "He promised me he'd come, and he did.",
+          "it": "Mi ha promesso che sarebbe venuto, e così è stato.",
+          "uk": "Він пообіцяв мені, що прийде, і прийшов.",
+          "de": "Er hat mir versprochen, dass er kommen würde, und er ist gekommen.",
+          "fr": "Il m'a promis qu'il viendrait, et il est venu.",
+          "pt": "Ele me prometeu que viria, e veio.",
+          "zh": "他答应我他会来，他也真的来了。",
+          "hint": {
+            "en": "A promise about the future: prometió que + vendría.",
+            "it": "Una promessa sul futuro: prometió que + vendría.",
+            "uk": "Обіцянка про майбутнє: prometió que + vendría.",
+            "de": "Ein Versprechen über die Zukunft: prometió que + vendría.",
+            "fr": "Une promesse sur le futur : prometió que + vendría.",
+            "pt": "Uma promessa sobre o futuro: prometió que + vendría.",
+            "zh": "对将来的承诺：prometió que + vendría。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "fire",
+          "before": "Me contó que se ",
+          "after": " a vivir a Madrid.",
+          "label": "ir",
+          "accepted": [
+            "iba"
+          ],
+          "en": "He told me he was moving to Madrid.",
+          "it": "Mi ha raccontato che andava a vivere a Madrid.",
+          "uk": "Він розповів мені, що переїжджає до Мадрида.",
+          "de": "Er hat mir erzählt, dass er nach Madrid zieht.",
+          "fr": "Il m'a raconté qu'il partait vivre à Madrid.",
+          "pt": "Ele me contou que ia morar em Madri.",
+          "zh": "他跟我说他要搬去马德里住。",
+          "hint": {
+            "en": "«Me voy» becomes se iba after contó que.",
+            "it": "«Me voy» diventa se iba dopo contó que.",
+            "uk": "Після contó que «Me voy» стає se iba.",
+            "de": "Aus «Me voy» wird nach contó que se iba.",
+            "fr": "«Me voy» devient se iba après contó que.",
+            "pt": "«Me voy» vira se iba depois de contó que.",
+            "zh": "在 contó que 后面，«Me voy» 变成 se iba。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "mañana",
+              "kind": "time"
+            },
+            {
+              "text": "→",
+              "kind": "chunk"
+            },
+            {
+              "text": "al día siguiente",
+              "kind": "time"
+            }
+          ],
+          "rule": {
+            "en": "When you retell something days later, the time words change too: hoy → ese día, mañana → al día siguiente, ayer → el día anterior, aquí → allí.",
+            "it": "Quando racconti qualcosa giorni dopo, cambiano anche le parole di tempo: hoy → ese día, mañana → al día siguiente, ayer → el día anterior, aquí → allí.",
+            "uk": "Коли переказуєш щось через кілька днів, змінюються й слова часу та місця: hoy → ese día, mañana → al día siguiente, ayer → el día anterior, aquí → allí.",
+            "de": "Wenn du etwas Tage später nacherzählst, ändern sich auch die Zeitangaben: hoy → ese día, mañana → al día siguiente, ayer → el día anterior, aquí → allí. Wie im Deutschen: heute → an dem Tag, morgen → am nächsten Tag.",
+            "fr": "Quand tu racontes quelque chose des jours plus tard, les mots de temps changent aussi : hoy → ese día, mañana → al día siguiente, ayer → el día anterior, aquí → allí. Comme en français : aujourd'hui → ce jour-là, demain → le lendemain, hier → la veille, ici → là-bas.",
+            "pt": "Quando você conta algo dias depois, as palavras de tempo também mudam: hoy → ese día, mañana → al día siguiente, ayer → el día anterior, aquí → allí.",
+            "zh": "过了几天再复述时，时间词也要变：hoy → ese día，mañana → al día siguiente，ayer → el día anterior，aquí → allí。"
+          },
+          "examples": [
+            {
+              "es": "Dijo que volvía al día siguiente.",
+              "en": "She said she was coming back the next day.",
+              "it": "Ha detto che tornava il giorno dopo.",
+              "uk": "Вона сказала, що повернеться наступного дня.",
+              "de": "Sie hat gesagt, dass sie am nächsten Tag zurückkommt.",
+              "fr": "Elle a dit qu'elle revenait le lendemain.",
+              "pt": "Ela disse que voltava no dia seguinte.",
+              "zh": "她说她第二天回来。"
+            },
+            {
+              "es": "Dijo que ese día no podía.",
+              "en": "He said he couldn't make it that day.",
+              "it": "Ha detto che quel giorno non poteva.",
+              "uk": "Він сказав, що того дня не може.",
+              "de": "Er hat gesagt, dass er an dem Tag nicht kann.",
+              "fr": "Il a dit qu'il ne pouvait pas ce jour-là.",
+              "pt": "Ele disse que naquele dia não podia.",
+              "zh": "他说他那天来不了。"
+            },
+            {
+              "es": "Me contó que allí hacía mucho frío.",
+              "en": "She told me it was very cold there.",
+              "it": "Mi ha raccontato che lì faceva molto freddo.",
+              "uk": "Вона розповіла мені, що там дуже холодно.",
+              "de": "Sie hat mir erzählt, dass es dort sehr kalt war.",
+              "fr": "Elle m'a raconté qu'il faisait très froid là-bas.",
+              "pt": "Ela me contou que lá fazia muito frio.",
+              "zh": "她跟我说那边很冷。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "el día anterior",
+              "en": "the day before",
+              "it": "il giorno prima",
+              "uk": "напередодні, попереднього дня",
+              "de": "der Tag davor, am Vortag",
+              "fr": "la veille",
+              "pt": "o dia anterior",
+              "zh": "前一天"
+            },
+            {
+              "es": "volvía",
+              "en": "I / he / she was coming back",
+              "it": "tornavo, tornava",
+              "uk": "я / він / вона мав(-ла) повернутися, повертався(-лася)",
+              "de": "ich / er / sie kam zurück, wollte zurückkommen",
+              "fr": "je revenais, il / elle revenait",
+              "pt": "eu / ele / ela voltava",
+              "zh": "我／他／她（当时）要回来"
+            },
+            {
+              "es": "podía",
+              "en": "I / he / she could",
+              "it": "potevo, poteva",
+              "uk": "я / він / вона міг (могла)",
+              "de": "ich / er / sie konnte",
+              "fr": "je pouvais, il / elle pouvait",
+              "pt": "eu / ele / ela podia",
+              "zh": "我／他／她（当时）能"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Hace un mes me dijo que volvía ",
+          "after": ", pero no volvió.",
+          "options": [
+            "al día siguiente",
+            "mañana",
+            "ayer"
+          ],
+          "answer": "al día siguiente",
+          "en": "A month ago she told me she was coming back the next day, but she didn't.",
+          "it": "Un mese fa mi ha detto che tornava il giorno dopo, ma non è tornata.",
+          "uk": "Місяць тому вона сказала мені, що повернеться наступного дня, але не повернулася.",
+          "de": "Vor einem Monat hat sie mir gesagt, dass sie am nächsten Tag zurückkommt, aber sie ist nicht zurückgekommen.",
+          "fr": "Il y a un mois, elle m'a dit qu'elle revenait le lendemain, mais elle n'est pas revenue.",
+          "pt": "Há um mês ela me disse que voltava no dia seguinte, mas não voltou.",
+          "zh": "一个月前她跟我说她第二天回来，可是她没回来。",
+          "hint": {
+            "en": "Retelling it a month later: mañana becomes al día siguiente.",
+            "it": "Raccontato un mese dopo: mañana diventa al día siguiente.",
+            "uk": "Ти переказуєш це через місяць: mañana стає al día siguiente.",
+            "de": "Du erzählst es einen Monat später: mañana wird zu al día siguiente.",
+            "fr": "Tu le racontes un mois plus tard : mañana devient al día siguiente.",
+            "pt": "Contando um mês depois: mañana vira al día siguiente.",
+            "zh": "一个月后再复述：mañana 变成 al día siguiente。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "Last week your friend told you «Hoy no puedo». Another friend asks why he didn't come. Say: he said he couldn't make it that day.",
+            "it": "La settimana scorsa il tuo amico ti ha detto «Hoy no puedo». Un altro amico ti chiede perché non è venuto. Rispondi: ha detto che quel giorno non poteva.",
+            "uk": "Минулого тижня друг сказав тобі: «Hoy no puedo». Інший друг питає, чому він не прийшов. Скажи: він сказав, що того дня не може.",
+            "de": "Letzte Woche hat dein Freund dir gesagt: «Hoy no puedo». Ein anderer Freund fragt, warum er nicht gekommen ist. Sag: Er hat gesagt, dass er an dem Tag nicht kann.",
+            "fr": "La semaine dernière, ton ami t'a dit «Hoy no puedo». Un autre ami te demande pourquoi il n'est pas venu. Dis : il a dit qu'il ne pouvait pas ce jour-là.",
+            "pt": "Na semana passada o seu amigo te disse «Hoy no puedo». Outro amigo pergunta por que ele não veio. Responda: ele disse que naquele dia não podia.",
+            "zh": "上个星期你的朋友跟你说 «Hoy no puedo»。另一个朋友问他为什么没来。说：他说他那天来不了。"
+          },
+          "accepted": [
+            "Dijo que ese día no podía.",
+            "Me dijo que ese día no podía."
+          ],
+          "tiles": [
+            "Dijo que",
+            "ese día",
+            "no podía",
+            "hoy",
+            "puedo"
+          ],
+          "en": "He said he couldn't make it that day.",
+          "it": "Ha detto che quel giorno non poteva.",
+          "uk": "Він сказав, що того дня не може.",
+          "de": "Er hat gesagt, dass er an dem Tag nicht kann.",
+          "fr": "Il a dit qu'il ne pouvait pas ce jour-là.",
+          "pt": "Ele disse que naquele dia não podia.",
+          "zh": "他说他那天来不了。",
+          "hint": {
+            "en": "hoy → ese día; puedo → podía.",
+            "it": "hoy → ese día; puedo → podía.",
+            "uk": "hoy → ese día; puedo → podía.",
+            "de": "hoy → ese día; puedo → podía.",
+            "fr": "hoy → ese día ; puedo → podía.",
+            "pt": "hoy → ese día; puedo → podía.",
+            "zh": "hoy → ese día；puedo → podía。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "le pregunté si…",
+              "kind": "stem"
+            },
+            {
+              "text": "y",
+              "kind": "rail"
+            },
+            {
+              "text": "me dijo que…",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "To retell a conversation, link the lines with y, pero or entonces: le pregunté si venía y me dijo que no podía.",
+            "it": "Per raccontare una conversazione, collega le battute con y, pero o entonces: le pregunté si venía y me dijo que no podía.",
+            "uk": "Щоб переказати розмову, зв'язуй репліки словами y, pero або entonces: le pregunté si venía y me dijo que no podía.",
+            "de": "Um ein Gespräch nachzuerzählen, verbinde die Sätze mit y, pero oder entonces: le pregunté si venía y me dijo que no podía.",
+            "fr": "Pour raconter une conversation, enchaîne les répliques avec y, pero ou entonces : le pregunté si venía y me dijo que no podía.",
+            "pt": "Para contar uma conversa, ligue as falas com y, pero ou entonces: le pregunté si venía y me dijo que no podía.",
+            "zh": "复述一段对话时，用 y，pero 或 entonces 把句子连起来：le pregunté si venía y me dijo que no podía。"
+          },
+          "examples": [
+            {
+              "es": "Le pregunté si venía y me dijo que no podía.",
+              "en": "I asked him if he was coming and he said he couldn't.",
+              "it": "Gli ho chiesto se veniva e mi ha detto che non poteva.",
+              "uk": "Я спитав(-ла) його, чи він прийде, і він сказав, що не може.",
+              "de": "Ich habe ihn gefragt, ob er kommt, und er hat gesagt, dass er nicht kann.",
+              "fr": "Je lui ai demandé s'il venait et il m'a dit qu'il ne pouvait pas.",
+              "pt": "Perguntei a ele se vinha e ele me disse que não podia.",
+              "zh": "我问他来不来，他说他来不了。"
+            },
+            {
+              "es": "Le pedí que me ayudara, pero me dijo que estaba ocupada.",
+              "en": "I asked her to help me, but she said she was busy.",
+              "it": "Le ho chiesto di aiutarmi, ma mi ha detto che era impegnata.",
+              "uk": "Я попросив(-ла) її допомогти мені, але вона сказала, що зайнята.",
+              "de": "Ich habe sie gebeten, mir zu helfen, aber sie hat gesagt, dass sie beschäftigt ist.",
+              "fr": "Je lui ai demandé de m'aider, mais elle m'a dit qu'elle était occupée.",
+              "pt": "Pedi a ela que me ajudasse, mas ela me disse que estava ocupada.",
+              "zh": "我请她帮我，可是她说她很忙。"
+            },
+            {
+              "es": "Entonces me prometió que me llamaría.",
+              "en": "Then he promised he'd call me.",
+              "it": "Allora mi ha promesso che mi avrebbe chiamato.",
+              "uk": "Тоді він пообіцяв, що подзвонить мені.",
+              "de": "Dann hat er mir versprochen, dass er mich anrufen würde.",
+              "fr": "Alors, il m'a promis qu'il m'appellerait.",
+              "pt": "Então ele me prometeu que me ligaria.",
+              "zh": "然后他答应会给我打电话。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "pedí",
+              "en": "I asked (for)",
+              "it": "ho chiesto",
+              "uk": "я попросив(-ла)",
+              "de": "ich bat (um), habe gebeten",
+              "fr": "j'ai demandé",
+              "pt": "eu pedi",
+              "zh": "我请求、要求（过去）"
+            },
+            {
+              "es": "ayudara",
+              "en": "(that) I / he / she helped",
+              "it": "(che io / lui / lei) aiutassi / aiutasse",
+              "uk": "(щоб) я / він / вона допоміг (допомогла)",
+              "de": "(dass) ich / er / sie half",
+              "fr": "(que j' / qu'il / qu'elle) aide",
+              "pt": "(que eu / ele / ela) ajudasse",
+              "zh": "我／他／她帮忙（过去时虚拟式）"
+            },
+            {
+              "es": "arreglara",
+              "en": "(that) I / he / she fixed; (that) you fixed (usted)",
+              "it": "(che io / lui / lei) aggiustassi / aggiustasse; (che Lei) aggiustasse",
+              "uk": "(щоб) я / він / вона полагодив(-ла); (щоб) ви полагодили (usted)",
+              "de": "(dass) ich / er / sie reparierte; (dass) Sie reparierten (usted)",
+              "fr": "(que je / qu'il / qu'elle) répare ; (que vous) répariez (usted)",
+              "pt": "(que eu / ele / ela / o senhor / a senhora) consertasse",
+              "zh": "我／他／她修理；您修理（过去时虚拟式）"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Le pregunté si venía y me dijo que no ",
+          "after": ".",
+          "options": [
+            "podía",
+            "pudiera",
+            "pueda"
+          ],
+          "answer": "podía",
+          "en": "I asked him if he was coming and he said he couldn't.",
+          "it": "Gli ho chiesto se veniva e mi ha detto che non poteva.",
+          "uk": "Я спитав(-ла) його, чи він прийде, і він сказав, що не може.",
+          "de": "Ich habe ihn gefragt, ob er kommt, und er hat gesagt, dass er nicht kann.",
+          "fr": "Je lui ai demandé s'il venait et il m'a dit qu'il ne pouvait pas.",
+          "pt": "Perguntei a ele se vinha e ele me disse que não podia.",
+          "zh": "我问他来不来，他说他来不了。",
+          "hint": {
+            "en": "News, not a request: «No puedo» becomes no podía.",
+            "it": "Una notizia, non una richiesta: «No puedo» diventa no podía.",
+            "uk": "Це новина, а не прохання: «No puedo» стає no podía.",
+            "de": "Eine Neuigkeit, keine Bitte: aus «No puedo» wird no podía.",
+            "fr": "Une nouvelle, pas une demande : «No puedo» devient no podía.",
+            "pt": "Uma notícia, não um pedido: «No puedo» vira no podía.",
+            "zh": "这是消息，不是请求：«No puedo» 变成 no podía。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "A friend asks how it went with your landlord. Say: I asked him to fix the heating and he said he'd come on Monday.",
+            "it": "Un amico ti chiede com'è andata con il padrone di casa. Rispondi: gli ho chiesto di riparare il riscaldamento e mi ha detto che sarebbe venuto lunedì.",
+            "uk": "Друг питає, як пройшла розмова з орендодавцем. Скажи: я попросив(-ла) його полагодити опалення, і він сказав, що прийде в понеділок.",
+            "de": "Eine Freundin fragt, wie es mit deinem Vermieter gelaufen ist. Sag: Ich habe ihn gebeten, die Heizung zu reparieren, und er hat gesagt, dass er am Montag kommen würde.",
+            "fr": "Un ami te demande comment ça s'est passé avec ton propriétaire. Dis : je lui ai demandé de réparer le chauffage et il m'a dit qu'il viendrait lundi.",
+            "pt": "Um amigo pergunta como foi com o seu senhorio. Responda: pedi a ele que consertasse o aquecimento e ele me disse que viria na segunda-feira.",
+            "zh": "朋友问你和房东谈得怎么样。说：我请他修暖气，他说他星期一来。"
+          },
+          "accepted": [
+            "Le pedí que arreglara la calefacción y me dijo que vendría el lunes."
+          ],
+          "tiles": [
+            "Le pedí que",
+            "arreglara",
+            "la calefacción",
+            "y me dijo que",
+            "vendría",
+            "el lunes",
+            "arreglar",
+            "venga"
+          ],
+          "en": "I asked him to fix the heating and he said he'd come on Monday.",
+          "it": "Gli ho chiesto di riparare il riscaldamento e mi ha detto che sarebbe venuto lunedì.",
+          "uk": "Я попросив(-ла) його полагодити опалення, і він сказав, що прийде в понеділок.",
+          "de": "Ich habe ihn gebeten, die Heizung zu reparieren, und er hat gesagt, dass er am Montag kommen würde.",
+          "fr": "Je lui ai demandé de réparer le chauffage et il m'a dit qu'il viendrait lundi.",
+          "pt": "Pedi a ele que consertasse o aquecimento e ele me disse que viria na segunda-feira.",
+          "zh": "我请他修暖气，他说他星期一来。",
+          "hint": {
+            "en": "Request: arreglara. Future: vendría.",
+            "it": "Richiesta: arreglara. Futuro: vendría.",
+            "uk": "Прохання: arreglara. Майбутнє: vendría.",
+            "de": "Bitte: arreglara. Zukunft: vendría.",
+            "fr": "Demande : arreglara. Futur : vendría.",
+            "pt": "Pedido: arreglara. Futuro: vendría.",
+            "zh": "请求：arreglara。将来：vendría。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "Me ",
+          "after": " que lo esperara en la puerta.",
+          "options": [
+            "pidió",
+            "preguntó",
+            "prometió"
+          ],
+          "answer": "pidió",
+          "en": "He asked me to wait for him at the door.",
+          "it": "Mi ha chiesto di aspettarlo alla porta.",
+          "uk": "Він попросив мене зачекати його біля дверей.",
+          "de": "Er hat mich gebeten, an der Tür auf ihn zu warten.",
+          "fr": "Il m'a demandé de l'attendre à la porte.",
+          "pt": "Ele me pediu para esperá-lo na porta.",
+          "zh": "他让我在门口等他。",
+          "hint": {
+            "en": "A request + the subjunctive: pidió.",
+            "it": "Una richiesta + il congiuntivo: pidió.",
+            "uk": "Прохання + «subjuntivo»: pidió.",
+            "de": "Eine Bitte + subjuntivo: pidió.",
+            "fr": "Une demande + le subjonctif : pidió.",
+            "pt": "Um pedido + o subjuntivo: pidió.",
+            "zh": "这是请求，后面跟虚拟式：pidió。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "mix",
+          "before": "Me prometió que me ",
+          "after": " al día siguiente.",
+          "label": "llamar",
+          "accepted": [
+            "llamaría"
+          ],
+          "en": "She promised me she'd call me the next day.",
+          "it": "Mi ha promesso che mi avrebbe chiamato il giorno dopo.",
+          "uk": "Вона пообіцяла мені, що подзвонить наступного дня.",
+          "de": "Sie hat mir versprochen, dass sie mich am nächsten Tag anrufen würde.",
+          "fr": "Elle m'a promis qu'elle m'appellerait le lendemain.",
+          "pt": "Ela me prometeu que me ligaria no dia seguinte.",
+          "zh": "她答应第二天给我打电话。",
+          "hint": {
+            "en": "A promise about the future: the conditional, llamaría.",
+            "it": "Una promessa sul futuro: il condizionale, llamaría.",
+            "uk": "Обіцянка про майбутнє: умовний спосіб, llamaría.",
+            "de": "Ein Versprechen über die Zukunft: der condicional, llamaría.",
+            "fr": "Une promesse sur le futur : le conditionnel, llamaría.",
+            "pt": "Uma promessa sobre o futuro: o condicional, llamaría.",
+            "zh": "对将来的承诺：用条件式，llamaría。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "mix",
+          "intention": {
+            "en": "A friend asks what your sister told you on the phone. Say: she told me she had a new job.",
+            "it": "Un amico ti chiede cosa ti ha detto tua sorella al telefono. Rispondi: mi ha raccontato che aveva un lavoro nuovo.",
+            "uk": "Друг питає, що тобі розповіла сестра по телефону. Скажи: вона розповіла мені, що в неї нова робота.",
+            "de": "Eine Freundin fragt, was dir deine Schwester am Telefon erzählt hat. Sag: Sie hat mir erzählt, dass sie eine neue Arbeit hat.",
+            "fr": "Un ami te demande ce que ta sœur t'a dit au téléphone. Dis : elle m'a raconté qu'elle avait un nouveau travail.",
+            "pt": "Um amigo pergunta o que a sua irmã te disse no telefone. Responda: ela me contou que tinha um emprego novo.",
+            "zh": "朋友问你姐姐在电话里跟你说了什么。说：她跟我说她找到了新工作。"
+          },
+          "accepted": [
+            "Me contó que tenía un trabajo nuevo.",
+            "Me contó que tenía un nuevo trabajo.",
+            "Me dijo que tenía un trabajo nuevo."
+          ],
+          "tiles": [
+            "Me contó que",
+            "tenía",
+            "un trabajo",
+            "nuevo",
+            "tiene",
+            "tuviera"
+          ],
+          "en": "She told me she had a new job.",
+          "it": "Mi ha raccontato che aveva un lavoro nuovo.",
+          "uk": "Вона розповіла мені, що в неї нова робота.",
+          "de": "Sie hat mir erzählt, dass sie eine neue Arbeit hat.",
+          "fr": "Elle m'a raconté qu'elle avait un nouveau travail.",
+          "pt": "Ela me contou que tinha um emprego novo.",
+          "zh": "她跟我说她找到了新工作。",
+          "hint": {
+            "en": "«Tengo» becomes tenía after contó que.",
+            "it": "«Tengo» diventa tenía dopo contó que.",
+            "uk": "Після contó que «Tengo» стає tenía.",
+            "de": "Aus «Tengo» wird nach contó que tenía.",
+            "fr": "«Tengo» devient tenía après contó que.",
+            "pt": "«Tengo» vira tenía depois de contó que.",
+            "zh": "在 contó que 后面，«Tengo» 变成 tenía。"
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "A friend asks about your last chat with an old classmate. Write in Spanish: «He told me he was moving to Madrid and promised he'd call me.»",
+            "it": "Un amico ti chiede dell'ultima chiacchierata con un vecchio compagno di classe. Scrivi in spagnolo: «Mi ha raccontato che andava a vivere a Madrid e mi ha promesso che mi avrebbe chiamato.»",
+            "uk": "Друг питає про твою останню розмову зі старим однокласником. Напиши іспанською: «Він розповів мені, що переїжджає до Мадрида, і пообіцяв, що подзвонить мені.»",
+            "de": "Ein Freund fragt nach deinem letzten Gespräch mit einem alten Schulkameraden. Schreib auf Spanisch: «Er hat mir erzählt, dass er nach Madrid zieht, und mir versprochen, dass er mich anrufen würde.»",
+            "fr": "Un ami te pose des questions sur ta dernière discussion avec un ancien camarade de classe. Écris en espagnol : «Il m'a raconté qu'il partait vivre à Madrid et il m'a promis qu'il m'appellerait.»",
+            "pt": "Um amigo pergunta sobre a sua última conversa com um antigo colega de escola. Escreva em espanhol: «Ele me contou que ia morar em Madri e me prometeu que me ligaria.»",
+            "zh": "朋友问你最近一次和一位老同学聊了什么。用西班牙语写：«他跟我说他要搬去马德里住，还答应会给我打电话。»"
+          },
+          "accepted": [
+            "Me contó que se iba a vivir a Madrid y me prometió que me llamaría.",
+            "Me dijo que se iba a vivir a Madrid y me prometió que me llamaría.",
+            "Me contó que se iba a vivir a Madrid y prometió que me llamaría.",
+            "Me dijo que se iba a vivir a Madrid y prometió que me llamaría."
+          ],
+          "model": {
+            "es": "Me contó que se iba a vivir a Madrid y me prometió que me llamaría.",
+            "en": "He told me he was moving to Madrid and promised he'd call me.",
+            "it": "Mi ha raccontato che andava a vivere a Madrid e mi ha promesso che mi avrebbe chiamato.",
+            "uk": "Він розповів мені, що переїжджає до Мадрида, і пообіцяв, що подзвонить мені.",
+            "de": "Er hat mir erzählt, dass er nach Madrid zieht, und mir versprochen, dass er mich anrufen würde.",
+            "fr": "Il m'a raconté qu'il partait vivre à Madrid et il m'a promis qu'il m'appellerait.",
+            "pt": "Ele me contou que ia morar em Madri e me prometeu que me ligaria.",
+            "zh": "他跟我说他要搬去马德里住，还答应会给我打电话。"
+          }
+        }
+      ]
+    }
+  ],
+  "boss": {
+    "id": "u38boss",
+    "goal": {
+      "en": "This morning your boss called the team into a meeting with big news. Your colleague missed it, and now, at the coffee machine in your office in {city}, she wants to know everything. Tell her exactly what was said: no exaggerating.",
+      "it": "Stamattina il tuo capo ha riunito la squadra per una grande notizia. La tua collega non c'era e ora, alla macchinetta del caffè del tuo ufficio a {city}, vuole sapere tutto. Raccontale esattamente cosa è stato detto, senza esagerare.",
+      "uk": "Сьогодні вранці начальник зібрав команду на нараду з важливою новиною. Твоя колега її пропустила, і тепер біля кавоварки у твоєму офісі в місті {city} хоче знати все. Перекажи їй точно, що було сказано, без перебільшень.",
+      "de": "Heute Morgen hat dein Chef das Team zu einer Besprechung mit großen Neuigkeiten zusammengerufen. Deine Kollegin hat sie verpasst, und jetzt, am Kaffeeautomaten in deinem Büro in {city}, will sie alles wissen. Erzähl ihr genau, was gesagt wurde: ohne zu übertreiben.",
+      "fr": "Ce matin, ton chef a réuni l'équipe pour une grande nouvelle. Ta collègue n'était pas là, et maintenant, devant la machine à café de ton bureau à {city}, elle veut tout savoir. Raconte-lui exactement ce qui a été dit, sans exagérer.",
+      "pt": "Hoje de manhã o seu chefe chamou a equipe para uma reunião com uma grande notícia. A sua colega não estava e agora, na máquina de café do seu escritório em {city}, ela quer saber de tudo. Conte exatamente o que foi dito, sem exagerar.",
+      "zh": "今天早上，老板把团队叫去开会，宣布了一个大消息。你的同事没赶上，现在在{city}办公室的咖啡机旁边，她想知道所有细节。把会上说的话原原本本地告诉她：不要夸大。"
+    },
+    "target": {
+      "es": "El jefe nos preguntó quién quería ir a Barcelona.",
+      "en": "The boss asked us who wanted to go to Barcelona.",
+      "it": "Il capo ci ha chiesto chi voleva andare a Barcellona.",
+      "uk": "Начальник спитав нас, хто хоче поїхати до Барселони.",
+      "de": "Der Chef hat uns gefragt, wer nach Barcelona gehen will.",
+      "fr": "Le chef nous a demandé qui voulait aller à Barcelone.",
+      "pt": "O chefe nos perguntou quem queria ir para Barcelona.",
+      "zh": "老板问我们谁想去巴塞罗那。"
+    },
+    "names": [
+      "Barcelona"
+    ],
+    "items": [
+      {
+        "type": "words",
+        "words": [
+          {
+            "es": "el chisme",
+            "en": "the gossip",
+            "it": "il pettegolezzo",
+            "uk": "плітка",
+            "de": "der Klatsch, das Gerücht",
+            "fr": "le potin, le commérage",
+            "pt": "a fofoca",
+            "zh": "八卦，闲话",
+            "kind": "chunk"
+          },
+          {
+            "es": "elegir",
+            "en": "to choose",
+            "it": "scegliere",
+            "uk": "обирати, вибирати",
+            "de": "auswählen, aussuchen",
+            "fr": "choisir",
+            "pt": "escolher",
+            "zh": "选择，挑选",
+            "kind": "stem"
+          },
+          {
+            "es": "¿en serio?",
+            "en": "really?, seriously?",
+            "it": "davvero?, sul serio?",
+            "uk": "справді?, серйозно?",
+            "de": "wirklich?, im Ernst?",
+            "fr": "c'est vrai ?, sérieux ?",
+            "pt": "sério?, é mesmo?",
+            "zh": "真的吗？，当真？",
+            "kind": "chunk"
+          }
+        ]
+      },
+      {
+        "type": "build",
+        "intention": {
+          "en": "Your colleague asks «¿Qué dijo el jefe en la reunión?». Say: he said the company was going to open an office in Barcelona.",
+          "it": "La tua collega ti chiede «¿Qué dijo el jefe en la reunión?». Rispondi: ha detto che l'azienda avrebbe aperto un ufficio a Barcellona.",
+          "uk": "Колега питає: «¿Qué dijo el jefe en la reunión?». Скажи: він сказав, що компанія збирається відкрити офіс у Барселоні.",
+          "de": "Deine Kollegin fragt: «¿Qué dijo el jefe en la reunión?». Sag: Er hat gesagt, dass die Firma ein Büro in Barcelona eröffnen wird.",
+          "fr": "Ta collègue te demande «¿Qué dijo el jefe en la reunión?». Dis : il a dit que l'entreprise allait ouvrir un bureau à Barcelone.",
+          "pt": "A sua colega pergunta «¿Qué dijo el jefe en la reunión?». Responda: ele disse que a empresa ia abrir um escritório em Barcelona.",
+          "zh": "你的同事问：«¿Qué dijo el jefe en la reunión?»。说：他说公司要在巴塞罗那开一个办事处。"
+        },
+        "accepted": [
+          "Dijo que la empresa iba a abrir una oficina en Barcelona."
+        ],
+        "tiles": [
+          "Dijo que",
+          "la empresa",
+          "iba a abrir",
+          "una oficina",
+          "en Barcelona",
+          "va a abrir",
+          "abra"
+        ],
+        "en": "He said the company was going to open an office in Barcelona.",
+        "it": "Ha detto che l'azienda avrebbe aperto un ufficio a Barcellona.",
+        "uk": "Він сказав, що компанія збирається відкрити офіс у Барселоні.",
+        "de": "Er hat gesagt, dass die Firma ein Büro in Barcelona eröffnen wird.",
+        "fr": "Il a dit que l'entreprise allait ouvrir un bureau à Barcelone.",
+        "pt": "Ele disse que a empresa ia abrir um escritório em Barcelona.",
+        "zh": "他说公司要在巴塞罗那开一个办事处。",
+        "hint": {
+          "en": "«Va a abrir» becomes iba a abrir after dijo que.",
+          "it": "«Va a abrir» diventa iba a abrir dopo dijo que.",
+          "uk": "Після dijo que «Va a abrir» стає iba a abrir.",
+          "de": "Aus «Va a abrir» wird nach dijo que iba a abrir.",
+          "fr": "«Va a abrir» devient iba a abrir après dijo que.",
+          "pt": "«Va a abrir» vira iba a abrir depois de dijo que.",
+          "zh": "在 dijo que 后面，«Va a abrir» 变成 iba a abrir。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "Dijo que ",
+        "after": " que elegir a dos personas para la nueva oficina.",
+        "options": [
+          "tenía",
+          "tuviera",
+          "tenga"
+        ],
+        "answer": "tenía",
+        "en": "He said he had to choose two people for the new office.",
+        "it": "Ha detto che doveva scegliere due persone per il nuovo ufficio.",
+        "uk": "Він сказав, що має вибрати двох людей для нового офісу.",
+        "de": "Er hat gesagt, dass er zwei Leute für das neue Büro auswählen muss.",
+        "fr": "Il a dit qu'il devait choisir deux personnes pour le nouveau bureau.",
+        "pt": "Ele disse que tinha que escolher duas pessoas para o novo escritório.",
+        "zh": "他说他得为新办事处挑两个人。",
+        "hint": {
+          "en": "He said «Tengo que…»: news, so tenía.",
+          "it": "Ha detto «Tengo que…»: una notizia, quindi tenía.",
+          "uk": "Він сказав «Tengo que…»: це новина, тож tenía.",
+          "de": "Er hat gesagt «Tengo que…»: eine Neuigkeit, also tenía.",
+          "fr": "Il a dit «Tengo que…» : une nouvelle, donc tenía.",
+          "pt": "Ele disse «Tengo que…»: é uma notícia, então tenía.",
+          "zh": "他说的是 «Tengo que…»：这是消息，所以用 tenía。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "Y luego nos preguntó quién ",
+        "after": " ir.",
+        "options": [
+          "quería",
+          "queremos"
+        ],
+        "answer": "quería",
+        "en": "And then he asked us who wanted to go.",
+        "it": "E poi ci ha chiesto chi voleva andare.",
+        "uk": "А потім спитав нас, хто хоче поїхати.",
+        "de": "Und dann hat er uns gefragt, wer hingehen will.",
+        "fr": "Et ensuite, il nous a demandé qui voulait y aller.",
+        "pt": "E depois ele nos perguntou quem queria ir.",
+        "zh": "然后他问我们谁想去。",
+        "hint": {
+          "en": "He asked «¿Quién quiere…?»: keep quién, quiere becomes quería.",
+          "it": "Ha chiesto «¿Quién quiere…?»: mantieni quién, quiere diventa quería.",
+          "uk": "Він спитав «¿Quién quiere…?»: зберігай quién, quiere стає quería.",
+          "de": "Er hat gefragt «¿Quién quiere…?»: quién bleibt, aus quiere wird quería.",
+          "fr": "Il a demandé «¿Quién quiere…?» : garde quién, quiere devient quería.",
+          "pt": "Ele perguntou «¿Quién quiere…?»: mantenha quién, quiere vira quería.",
+          "zh": "他问的是 «¿Quién quiere…?»：保留 quién，quiere 变成 quería。"
+        }
+      },
+      {
+        "type": "build",
+        "intention": {
+          "en": "Your colleague asks «¿Y tú qué le dijiste?». Say: I asked him if the salary was better.",
+          "it": "La tua collega chiede «¿Y tú qué le dijiste?». Rispondi: gli ho chiesto se lo stipendio era migliore.",
+          "uk": "Колега питає: «¿Y tú qué le dijiste?». Скажи: я спитав(-ла) його, чи зарплата там краща.",
+          "de": "Deine Kollegin fragt: «¿Y tú qué le dijiste?». Sag: Ich habe ihn gefragt, ob das Gehalt besser ist.",
+          "fr": "Ta collègue demande «¿Y tú qué le dijiste?». Dis : je lui ai demandé si le salaire était meilleur.",
+          "pt": "A sua colega pergunta «¿Y tú qué le dijiste?». Responda: perguntei a ele se o salário era melhor.",
+          "zh": "你的同事问：«¿Y tú qué le dijiste?»。说：我问他工资是不是更高。"
+        },
+        "accepted": [
+          "Le pregunté si el sueldo era mejor."
+        ],
+        "tiles": [
+          "Le pregunté",
+          "si",
+          "el sueldo",
+          "era",
+          "mejor",
+          "que",
+          "es"
+        ],
+        "en": "I asked him if the salary was better.",
+        "it": "Gli ho chiesto se lo stipendio era migliore.",
+        "uk": "Я спитав(-ла) його, чи зарплата там краща.",
+        "de": "Ich habe ihn gefragt, ob das Gehalt besser ist.",
+        "fr": "Je lui ai demandé si le salaire était meilleur.",
+        "pt": "Perguntei a ele se o salário era melhor.",
+        "zh": "我问他工资是不是更高。",
+        "hint": {
+          "en": "A yes/no question: pregunté si + era.",
+          "it": "Una domanda sì/no: pregunté si + era.",
+          "uk": "Запитання «так чи ні»: pregunté si + era.",
+          "de": "Eine Ja/Nein-Frage: pregunté si + era.",
+          "fr": "Une question fermée : pregunté si + era.",
+          "pt": "Uma pergunta de sim ou não: pregunté si + era.",
+          "zh": "是非问句：pregunté si + era。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "Nos prometió que el sueldo ",
+        "after": " más alto.",
+        "options": [
+          "sería",
+          "fuera",
+          "sea"
+        ],
+        "answer": "sería",
+        "en": "He promised us the salary would be higher.",
+        "it": "Ci ha promesso che lo stipendio sarebbe stato più alto.",
+        "uk": "Він пообіцяв нам, що зарплата буде вищою.",
+        "de": "Er hat uns versprochen, dass das Gehalt höher sein würde.",
+        "fr": "Il nous a promis que le salaire serait plus élevé.",
+        "pt": "Ele nos prometeu que o salário seria mais alto.",
+        "zh": "他向我们保证工资会更高。",
+        "hint": {
+          "en": "He said «Será más alto»: the future becomes sería.",
+          "it": "Ha detto «Será más alto»: il futuro diventa sería.",
+          "uk": "Він сказав «Será más alto»: майбутній час стає sería.",
+          "de": "Er hat gesagt «Será más alto»: aus dem Futur wird sería.",
+          "fr": "Il a dit «Será más alto» : le futur devient sería.",
+          "pt": "Ele disse «Será más alto»: o futuro vira sería.",
+          "zh": "他说的是 «Será más alto»：将来时变成 sería。"
+        }
+      },
+      {
+        "type": "gap",
+        "before": "Y nos pidió que ",
+        "after": " con él antes del viernes.",
+        "label": "hablar",
+        "accepted": [
+          "habláramos"
+        ],
+        "en": "And he asked us to talk to him before Friday.",
+        "it": "E ci ha chiesto di parlargli prima di venerdì.",
+        "uk": "І попросив нас поговорити з ним до п'ятниці.",
+        "de": "Und er hat uns gebeten, vor Freitag mit ihm zu sprechen.",
+        "fr": "Et il nous a demandé de lui parler avant vendredi.",
+        "pt": "E ele nos pediu para falar com ele antes de sexta-feira.",
+        "zh": "他还让我们星期五之前找他谈谈。",
+        "hint": {
+          "en": "A request in the past, for nosotros: habláramos.",
+          "it": "Una richiesta al passato, per nosotros: habláramos.",
+          "uk": "Прохання в минулому, для nosotros: habláramos.",
+          "de": "Eine Bitte in der Vergangenheit, für nosotros: habláramos.",
+          "fr": "Une demande au passé, pour nosotros : habláramos.",
+          "pt": "Um pedido no passado, para nosotros: habláramos.",
+          "zh": "过去的请求，nosotros 形式：habláramos。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "¿Que si voy a ir yo? No sé ",
+        "after": " quiero ir: mi pareja trabaja aquí.",
+        "options": [
+          "si",
+          "que",
+          "qué"
+        ],
+        "answer": "si",
+        "en": "Am I going? I don't know if I want to go: my partner works here.",
+        "it": "Se ci vado io? Non so se voglio andarci: il mio compagno lavora qui.",
+        "uk": "Чи поїду я? Я не знаю, чи хочу їхати: мій партнер (моя партнерка) працює тут.",
+        "de": "Ob ich hingehe? Ich weiß nicht, ob ich hinwill: Mein Partner (meine Partnerin) arbeitet hier.",
+        "fr": "Si moi, je vais y aller ? Je ne sais pas si je veux y aller : mon partenaire travaille ici.",
+        "pt": "Se eu vou? Não sei se quero ir: o meu companheiro trabalha aqui.",
+        "zh": "问我去不去？我不知道我想不想去：我的伴侣在这里工作。",
+        "hint": {
+          "en": "I don't know if…: no sé si.",
+          "it": "Non so se…: no sé si.",
+          "uk": "Я не знаю, чи…: no sé si.",
+          "de": "Ich weiß nicht, ob…: no sé si.",
+          "fr": "Je ne sais pas si… : no sé si.",
+          "pt": "Não sei se…: no sé si.",
+          "zh": "我不知道是不是……：no sé si。"
+        }
+      },
+      {
+        "type": "build",
+        "intention": {
+          "en": "Your colleague says «¿En serio? Dicen que el jefe también se va a Barcelona». Correct her: no, he told me he wasn't going.",
+          "it": "La tua collega dice «¿En serio? Dicen que el jefe también se va a Barcelona». Correggila: no, a me ha detto che lui non ci andava.",
+          "uk": "Колега каже: «¿En serio? Dicen que el jefe también se va a Barcelona». Виправ її: ні, він сказав мені, що сам не їде.",
+          "de": "Deine Kollegin sagt: «¿En serio? Dicen que el jefe también se va a Barcelona». Korrigier sie: Nein, er hat mir gesagt, dass er nicht hingeht.",
+          "fr": "Ta collègue dit «¿En serio? Dicen que el jefe también se va a Barcelona». Corrige-la : non, il m'a dit que lui, il n'y allait pas.",
+          "pt": "A sua colega diz «¿En serio? Dicen que el jefe también se va a Barcelona». Corrija: não, ele me disse que ele não ia.",
+          "zh": "你的同事说：«¿En serio? Dicen que el jefe también se va a Barcelona»。纠正她：不是，他跟我说他不去。"
+        },
+        "accepted": [
+          "No, me dijo que él no iba.",
+          "No, a mí me dijo que él no iba.",
+          "No, me dijo que no iba."
+        ],
+        "tiles": [
+          "No,",
+          "me dijo que",
+          "él",
+          "no iba",
+          "va",
+          "vaya"
+        ],
+        "en": "No, he told me he wasn't going.",
+        "it": "No, a me ha detto che lui non ci andava.",
+        "uk": "Ні, він сказав мені, що сам не їде.",
+        "de": "Nein, er hat mir gesagt, dass er nicht hingeht.",
+        "fr": "Non, il m'a dit que lui, il n'y allait pas.",
+        "pt": "Não, ele me disse que ele não ia.",
+        "zh": "不是，他跟我说他不去。",
+        "hint": {
+          "en": "«No voy» becomes no iba.",
+          "it": "«No voy» diventa no iba.",
+          "uk": "«No voy» стає no iba.",
+          "de": "Aus «No voy» wird no iba.",
+          "fr": "«No voy» devient no iba.",
+          "pt": "«No voy» vira no iba.",
+          "zh": "«No voy» 变成 no iba。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "No es un chisme, pero dijo que, de momento, ",
+        "after": " un secreto.",
+        "options": [
+          "era",
+          "fuera",
+          "sea"
+        ],
+        "answer": "era",
+        "en": "It's not gossip, but he said that, for now, it was a secret.",
+        "it": "Non è un pettegolezzo, ma ha detto che, per ora, era un segreto.",
+        "uk": "Це не плітка, але він сказав, що поки що це секрет.",
+        "de": "Das ist kein Klatsch, aber er hat gesagt, dass es vorerst ein Geheimnis ist.",
+        "fr": "Ce n'est pas un potin, mais il a dit que, pour l'instant, c'était un secret.",
+        "pt": "Não é fofoca, mas ele disse que, por enquanto, era segredo.",
+        "zh": "这不是八卦，不过他说暂时还是个秘密。",
+        "hint": {
+          "en": "He said «Es un secreto»: news, so era.",
+          "it": "Ha detto «Es un secreto»: una notizia, quindi era.",
+          "uk": "Він сказав «Es un secreto»: це новина, тож era.",
+          "de": "Er hat gesagt «Es un secreto»: eine Neuigkeit, also era.",
+          "fr": "Il a dit «Es un secreto» : une nouvelle, donc era.",
+          "pt": "Ele disse «Es un secreto»: é uma notícia, então era.",
+          "zh": "他说的是 «Es un secreto»：这是消息，所以用 era。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "¿Barcelona? ¡Ojalá ",
+        "after": " ir yo! Me encanta esa ciudad.",
+        "options": [
+          "pudiera",
+          "puedo",
+          "podría"
+        ],
+        "answer": "pudiera",
+        "en": "Barcelona? I wish I could go! I love that city.",
+        "it": "Barcellona? Magari potessi andarci io! Adoro quella città.",
+        "uk": "Барселона? Якби ж то я міг (могла) поїхати! Я обожнюю це місто.",
+        "de": "Barcelona? Ich wünschte, ich könnte hin! Ich liebe diese Stadt.",
+        "fr": "Barcelone ? Si seulement je pouvais y aller ! J'adore cette ville.",
+        "pt": "Barcelona? Quem dera eu pudesse ir! Adoro aquela cidade.",
+        "zh": "巴塞罗那？要是我能去就好了！我太喜欢那座城市了。",
+        "hint": {
+          "en": "A wish that won't come true: ojalá + pudiera.",
+          "it": "Un desiderio che non si realizzerà: ojalá + pudiera.",
+          "uk": "Бажання, яке не здійсниться: ojalá + pudiera.",
+          "de": "Ein Wunsch, der nicht wahr wird: ojalá + pudiera.",
+          "fr": "Un souhait qui ne se réalisera pas : ojalá + pudiera.",
+          "pt": "Um desejo que não vai se realizar: ojalá + pudiera.",
+          "zh": "一个不会实现的愿望：ojalá + pudiera。"
+        }
+      },
+      {
+        "type": "build",
+        "intention": {
+          "en": "Your colleague asks «¿Y cuándo hay que contestar?». Say: he said we had to answer before Friday.",
+          "it": "La tua collega chiede «¿Y cuándo hay que contestar?». Rispondi: ha detto che dovevamo rispondere prima di venerdì.",
+          "uk": "Колега питає: «¿Y cuándo hay que contestar?». Скажи: він сказав, що ми маємо відповісти до п'ятниці.",
+          "de": "Deine Kollegin fragt: «¿Y cuándo hay que contestar?». Sag: Er hat gesagt, dass wir vor Freitag antworten müssen.",
+          "fr": "Ta collègue demande «¿Y cuándo hay que contestar?». Dis : il a dit qu'on devait répondre avant vendredi.",
+          "pt": "A sua colega pergunta «¿Y cuándo hay que contestar?». Responda: ele disse que a gente tinha que responder antes de sexta-feira.",
+          "zh": "你的同事问：«¿Y cuándo hay que contestar?»。说：他说我们得在星期五之前答复。"
+        },
+        "accepted": [
+          "Dijo que teníamos que contestar antes del viernes."
+        ],
+        "tiles": [
+          "Dijo que",
+          "teníamos que",
+          "contestar",
+          "antes del viernes",
+          "tenemos que",
+          "tengamos que"
+        ],
+        "en": "He said we had to answer before Friday.",
+        "it": "Ha detto che dovevamo rispondere prima di venerdì.",
+        "uk": "Він сказав, що ми маємо відповісти до п'ятниці.",
+        "de": "Er hat gesagt, dass wir vor Freitag antworten müssen.",
+        "fr": "Il a dit qu'on devait répondre avant vendredi.",
+        "pt": "Ele disse que a gente tinha que responder antes de sexta-feira.",
+        "zh": "他说我们得在星期五之前答复。",
+        "hint": {
+          "en": "«Tenéis que» becomes teníamos que: you're one of them.",
+          "it": "«Tenéis que» diventa teníamos que: tu sei uno di loro.",
+          "uk": "«Tenéis que» стає teníamos que: ти теж серед них.",
+          "de": "Aus «Tenéis que» wird teníamos que: Du gehörst ja dazu.",
+          "fr": "«Tenéis que» devient teníamos que : tu fais partie du groupe.",
+          "pt": "«Tenéis que» vira teníamos que: você é um deles.",
+          "zh": "«Tenéis que» 变成 teníamos que：你也是其中一员。"
+        }
+      },
+      {
+        "type": "write",
+        "instruction": {
+          "en": "Another colleague joins you and asks what the big news is. Write in Spanish: «The boss asked us who wanted to go to Barcelona.»",
+          "it": "Arriva un altro collega e chiede qual è la grande notizia. Scrivi in spagnolo: «Il capo ci ha chiesto chi voleva andare a Barcellona.»",
+          "uk": "До вас підходить ще один колега й питає, яка ж там важлива новина. Напиши іспанською: «Начальник спитав нас, хто хоче поїхати до Барселони.»",
+          "de": "Ein anderer Kollege kommt dazu und fragt, was die große Neuigkeit ist. Schreib auf Spanisch: «Der Chef hat uns gefragt, wer nach Barcelona gehen will.»",
+          "fr": "Un autre collègue vous rejoint et demande quelle est la grande nouvelle. Écris en espagnol : «Le chef nous a demandé qui voulait aller à Barcelone.»",
+          "pt": "Outro colega chega e pergunta qual é a grande notícia. Escreva em espanhol: «O chefe nos perguntou quem queria ir para Barcelona.»",
+          "zh": "另一个同事走过来，问到底是什么大消息。用西班牙语写：«老板问我们谁想去巴塞罗那。»"
+        },
+        "accepted": [
+          "El jefe nos preguntó quién quería ir a Barcelona.",
+          "El jefe nos preguntó quién quería ir a la oficina de Barcelona.",
+          "Nos preguntó quién quería ir a Barcelona."
+        ],
+        "model": {
+          "es": "El jefe nos preguntó quién quería ir a Barcelona.",
+          "en": "The boss asked us who wanted to go to Barcelona.",
+          "it": "Il capo ci ha chiesto chi voleva andare a Barcellona.",
+          "uk": "Начальник спитав нас, хто хоче поїхати до Барселони.",
+          "de": "Der Chef hat uns gefragt, wer nach Barcelona gehen will.",
+          "fr": "Le chef nous a demandé qui voulait aller à Barcelone.",
+          "pt": "O chefe nos perguntou quem queria ir para Barcelona.",
+          "zh": "老板问我们谁想去巴塞罗那。"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,3802 @@
+{
+  "unit": "u37",
+  "lessons": [
+    {
+      "id": "u37l1",
+      "goal": {
+        "en": "Say gently what you'd like other people to do: me gustaría que + a new form, the imperfect subjunctive: me gustaría que vinieras, que hablaras más despacio.",
+        "it": "Di con garbo cosa ti piacerebbe che facessero gli altri: me gustaría que + una forma nuova, il congiuntivo imperfetto: me gustaría que vinieras, que hablaras más despacio.",
+        "uk": "М'яко кажи, що тобі хотілося б, щоб зробили інші: me gustaría que + нова форма, «imperfecto de subjuntivo» (минулий кон'юнктив): me gustaría que vinieras, que hablaras más despacio.",
+        "de": "Sag freundlich, was du dir von anderen wünschst: me gustaría que + eine neue Form, der imperfecto de subjuntivo (spanischer Konjunktiv Imperfekt): me gustaría que vinieras, que hablaras más despacio.",
+        "fr": "Dis avec douceur ce que tu aimerais que les autres fassent : me gustaría que + une nouvelle forme, l'imperfecto de subjuntivo (l'imparfait du subjonctif) : me gustaría que vinieras, que hablaras más despacio.",
+        "pt": "Diga com delicadeza o que você gostaria que os outros fizessem: me gustaría que + uma forma nova, o imperfecto de subjuntivo (o pretérito imperfeito do subjuntivo): me gustaría que vinieras, que hablaras más despacio.",
+        "zh": "委婉地说出你希望别人做什么：me gustaría que + 一种新形式，即 «imperfecto de subjuntivo»（过去时虚拟式）：me gustaría que vinieras，que hablaras más despacio。"
+      },
+      "target": {
+        "es": "Me gustaría que vinieras a cenar el sábado.",
+        "en": "I'd like you to come for dinner on Saturday.",
+        "it": "Mi piacerebbe che venissi a cena sabato.",
+        "uk": "Мені б хотілося, щоб ти прийшов(-ла) на вечерю в суботу.",
+        "de": "Ich fände es schön, wenn du am Samstag zum Abendessen kämst.",
+        "fr": "J'aimerais que tu viennes dîner samedi.",
+        "pt": "Eu gostaria que você viesse jantar no sábado.",
+        "zh": "我希望你星期六来吃晚饭。"
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "me gustaría que",
+              "en": "I'd like (someone else) to",
+              "it": "mi piacerebbe che",
+              "uk": "мені хотілося б, щоб (хтось інший)",
+              "de": "ich hätte gern, dass (jemand anderes)",
+              "fr": "j'aimerais que (quelqu'un d'autre)",
+              "pt": "eu gostaria que (outra pessoa)",
+              "zh": "我希望（别人）……",
+              "kind": "chunk"
+            },
+            {
+              "es": "preferiría que",
+              "en": "I'd rather (someone else)",
+              "it": "preferirei che",
+              "uk": "я б волів(-ла), щоб (хтось інший)",
+              "de": "mir wäre lieber, dass (jemand anderes)",
+              "fr": "je préférerais que (quelqu'un d'autre)",
+              "pt": "eu preferiria que (outra pessoa)",
+              "zh": "我更希望（别人）……",
+              "kind": "chunk"
+            },
+            {
+              "es": "el imperfecto de subjuntivo",
+              "en": "the imperfect subjunctive",
+              "it": "il congiuntivo imperfetto",
+              "uk": "минулий кон'юнктив («imperfecto de subjuntivo»)",
+              "de": "der Konjunktiv Imperfekt (spanisch)",
+              "fr": "l'imparfait du subjonctif",
+              "pt": "o imperfeito do subjuntivo",
+              "zh": "过去时虚拟式（imperfecto de subjuntivo）",
+              "kind": "chunk"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "habla-",
+              "kind": "stem"
+            },
+            {
+              "text": "-ra",
+              "kind": "ending"
+            }
+          ],
+          "result": {
+            "stem": "habla",
+            "ending": "ra"
+          },
+          "rule": {
+            "en": "When you'd like someone else to do something, say me gustaría que + the imperfect subjunctive. To make it, take the ellos form of the past for finished actions and swap -ron for -ra: hablaron → hablara. For tú, add -s: hablaras.",
+            "it": "Quando ti piacerebbe che un altro facesse qualcosa, di' me gustaría que + il congiuntivo imperfetto. Per formarlo, prendi la forma ellos del passato delle azioni finite e cambia -ron in -ra: hablaron → hablara. Per tu aggiungi -s: hablaras.",
+            "uk": "Коли тобі хотілося б, щоб хтось інший щось зробив, кажи me gustaría que + «imperfecto de subjuntivo». Як його утворити: візьми форму ellos минулого часу для завершених дій і заміни -ron на -ra: hablaron → hablara. Для tú додай -s: hablaras.",
+            "de": "Wenn du gern hättest, dass jemand anderes etwas tut, sag me gustaría que + imperfecto de subjuntivo (spanischer Konjunktiv Imperfekt). So bildest du ihn: Nimm die ellos-Form der Vergangenheit für abgeschlossene Handlungen und tausch -ron gegen -ra: hablaron → hablara. Für tú häng -s an: hablaras.",
+            "fr": "Quand tu aimerais que quelqu'un d'autre fasse quelque chose, dis me gustaría que + l'imperfecto de subjuntivo. Pour le former, prends la forme ellos du passé des actions terminées et remplace -ron par -ra : hablaron → hablara. Pour tú, ajoute -s : hablaras. Attention : en français, on dit « j'aimerais que tu parles » avec le subjonctif présent, mais en espagnol il faut ici l'imperfecto de subjuntivo.",
+            "pt": "Quando você gostaria que outra pessoa fizesse algo, diga me gustaría que + o imperfecto de subjuntivo (o pretérito imperfeito do subjuntivo). Para formá-lo, pegue a forma ellos do passado das ações concluídas e troque -ron por -ra: hablaron → hablara. Para tú, acrescente -s: hablaras. Em português é igual: «eu gostaria que você falasse».",
+            "zh": "希望别人做某事时，说 me gustaría que + 过去时虚拟式。构成方法：取表示已完成动作的过去时的 ellos 形式，把 -ron 换成 -ra：hablaron → hablara。tú 再加 -s：hablaras。"
+          },
+          "examples": [
+            {
+              "es": "Me gustaría que hablaras más despacio.",
+              "en": "I'd like you to speak more slowly.",
+              "it": "Mi piacerebbe che parlassi più piano.",
+              "uk": "Мені б хотілося, щоб ти говорив(-ла) повільніше.",
+              "de": "Ich hätte gern, dass du langsamer sprichst.",
+              "fr": "J'aimerais que tu parles plus lentement.",
+              "pt": "Eu gostaria que você falasse mais devagar.",
+              "zh": "我希望你说慢一点。"
+            },
+            {
+              "es": "Me gustaría que me llamaras mañana.",
+              "en": "I'd like you to call me tomorrow.",
+              "it": "Mi piacerebbe che mi chiamassi domani.",
+              "uk": "Мені б хотілося, щоб ти подзвонив(-ла) мені завтра.",
+              "de": "Ich hätte gern, dass du mich morgen anrufst.",
+              "fr": "J'aimerais que tu m'appelles demain.",
+              "pt": "Eu gostaria que você me ligasse amanhã.",
+              "zh": "我希望你明天给我打电话。"
+            },
+            {
+              "es": "Preferiría que mi hermano cocinara hoy.",
+              "en": "I'd rather my brother cooked today.",
+              "it": "Preferirei che oggi cucinasse mio fratello.",
+              "uk": "Я б волів(-ла), щоб сьогодні готував мій брат.",
+              "de": "Mir wäre lieber, wenn heute mein Bruder kochen würde.",
+              "fr": "Je préférerais que mon frère fasse la cuisine aujourd'hui.",
+              "pt": "Eu preferiria que o meu irmão cozinhasse hoje.",
+              "zh": "我更希望今天是我哥哥做饭。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "hablara",
+              "en": "(that) I / he / she spoke",
+              "it": "(che io / lui / lei) parlassi / parlasse",
+              "uk": "(щоб) я / він / вона говорив(-ла)",
+              "de": "(dass) ich / er / sie sprach",
+              "fr": "(que je / qu'il / qu'elle) parle",
+              "pt": "(que eu / ele / ela) falasse",
+              "zh": "我／他／她说（过去时虚拟式）"
+            },
+            {
+              "es": "hablaras",
+              "en": "(that) you spoke",
+              "it": "(che tu) parlassi",
+              "uk": "(щоб) ти говорив(-ла)",
+              "de": "(dass) du sprachst",
+              "fr": "(que tu) parles",
+              "pt": "(que você) falasse",
+              "zh": "你说（过去时虚拟式）"
+            },
+            {
+              "es": "llamara",
+              "en": "(that) I / he / she called",
+              "it": "(che io / lui / lei) chiamassi / chiamasse",
+              "uk": "(щоб) я / він / вона подзвонив(-ла)",
+              "de": "(dass) ich / er / sie anrief",
+              "fr": "(que j' / qu'il / qu'elle) appelle",
+              "pt": "(que eu / ele / ela) ligasse, chamasse",
+              "zh": "我／他／她打电话（过去时虚拟式）"
+            },
+            {
+              "es": "llamaras",
+              "en": "(that) you called",
+              "it": "(che tu) chiamassi",
+              "uk": "(щоб) ти подзвонив(-ла)",
+              "de": "(dass) du anriefst",
+              "fr": "(que tu) appelles",
+              "pt": "(que você) ligasse, chamasse",
+              "zh": "你打电话（过去时虚拟式）"
+            },
+            {
+              "es": "cocinara",
+              "en": "(that) I / he / she cooked",
+              "it": "(che io / lui / lei) cucinassi / cucinasse",
+              "uk": "(щоб) я / він / вона готував(-ла)",
+              "de": "(dass) ich / er / sie kochte",
+              "fr": "(que je / qu'il / qu'elle) cuisine",
+              "pt": "(que eu / ele / ela) cozinhasse",
+              "zh": "我／他／她做饭（过去时虚拟式）"
+            },
+            {
+              "es": "ayudaras",
+              "en": "(that) you helped",
+              "it": "(che tu) aiutassi",
+              "uk": "(щоб) ти допоміг (допомогла)",
+              "de": "(dass) du halfst",
+              "fr": "(que tu) aides",
+              "pt": "(que você) ajudasse",
+              "zh": "你帮忙（过去时虚拟式）"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Me gustaría que ",
+          "after": " más despacio, por favor.",
+          "options": [
+            "hablaras",
+            "hablaste",
+            "hablas"
+          ],
+          "answer": "hablaras",
+          "en": "I'd like you to speak more slowly, please.",
+          "it": "Mi piacerebbe che parlassi più piano, per favore.",
+          "uk": "Мені б хотілося, щоб ти говорив(-ла) повільніше, будь ласка.",
+          "de": "Ich hätte gern, dass du langsamer sprichst, bitte.",
+          "fr": "J'aimerais que tu parles plus lentement, s'il te plaît.",
+          "pt": "Eu gostaria que você falasse mais devagar, por favor.",
+          "zh": "请你说慢一点，好吗？",
+          "hint": {
+            "en": "After me gustaría que: hablaron → hablara, plus -s for tú.",
+            "it": "Dopo me gustaría que: hablaron → hablara, più -s per tu.",
+            "uk": "Після me gustaría que: hablaron → hablara, і ще -s для tú.",
+            "de": "Nach me gustaría que: hablaron → hablara, plus -s für tú.",
+            "fr": "Après me gustaría que : hablaron → hablara, plus -s pour tú.",
+            "pt": "Depois de me gustaría que: hablaron → hablara, mais -s para tú.",
+            "zh": "在 me gustaría que 后面：hablaron → hablara，tú 再加 -s。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "fire",
+          "before": "Me gustaría que me ",
+          "after": " esta noche.",
+          "label": "llamar",
+          "accepted": [
+            "llamaras"
+          ],
+          "en": "I'd like you to call me tonight.",
+          "it": "Mi piacerebbe che mi chiamassi stasera.",
+          "uk": "Мені б хотілося, щоб ти подзвонив(-ла) мені сьогодні ввечері.",
+          "de": "Ich hätte gern, dass du mich heute Abend anrufst.",
+          "fr": "J'aimerais que tu m'appelles ce soir.",
+          "pt": "Eu gostaria que você me ligasse hoje à noite.",
+          "zh": "我希望你今晚给我打电话。",
+          "hint": {
+            "en": "llamaron → llamara; for tú, llamaras.",
+            "it": "llamaron → llamara; per tu, llamaras.",
+            "uk": "llamaron → llamara; для tú — llamaras.",
+            "de": "llamaron → llamara; für tú: llamaras.",
+            "fr": "llamaron → llamara ; pour tú, llamaras.",
+            "pt": "llamaron → llamara; para tú, llamaras.",
+            "zh": "llamaron → llamara；tú 用 llamaras。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "comie-",
+              "kind": "stem"
+            },
+            {
+              "text": "-ra",
+              "kind": "ending"
+            }
+          ],
+          "result": {
+            "stem": "comie",
+            "ending": "ra"
+          },
+          "rule": {
+            "en": "ER and IR verbs work the same way: their ellos past ends in -ieron, so you get -iera: comieron → comiera, volvieron → volviera, vivieron → viviera.",
+            "it": "I verbi in ER e IR funzionano allo stesso modo: la loro forma ellos del passato finisce in -ieron, quindi ottieni -iera: comieron → comiera, volvieron → volviera, vivieron → viviera.",
+            "uk": "Дієслова на ER та IR утворюють цю форму так само: їхня форма ellos минулого часу закінчується на -ieron, тож виходить -iera: comieron → comiera, volvieron → volviera, vivieron → viviera.",
+            "de": "Verben auf ER und IR funktionieren genauso: Ihre ellos-Form der Vergangenheit endet auf -ieron, also bekommst du -iera: comieron → comiera, volvieron → volviera, vivieron → viviera.",
+            "fr": "Les verbes en ER et en IR fonctionnent de la même façon : leur forme ellos du passé se termine en -ieron, donc tu obtiens -iera : comieron → comiera, volvieron → volviera, vivieron → viviera.",
+            "pt": "Os verbos em ER e IR funcionam do mesmo jeito: a forma ellos do passado termina em -ieron, então você obtém -iera: comieron → comiera, volvieron → volviera, vivieron → viviera.",
+            "zh": "ER 和 IR 动词也一样：它们过去时的 ellos 形式以 -ieron 结尾，所以变成 -iera：comieron → comiera，volvieron → volviera，vivieron → viviera。"
+          },
+          "examples": [
+            {
+              "es": "Me gustaría que comieras con nosotros el domingo.",
+              "en": "I'd like you to have lunch with us on Sunday.",
+              "it": "Mi piacerebbe che pranzassi con noi domenica.",
+              "uk": "Мені б хотілося, щоб ти пообідав(-ла) з нами в неділю.",
+              "de": "Ich fände es schön, wenn du am Sonntag mit uns zu Mittag essen würdest.",
+              "fr": "J'aimerais que tu déjeunes avec nous dimanche.",
+              "pt": "Eu gostaria que você almoçasse com a gente no domingo.",
+              "zh": "我希望你星期天和我们一起吃午饭。"
+            },
+            {
+              "es": "Preferiría que volvieras antes de las doce.",
+              "en": "I'd rather you came back before twelve.",
+              "it": "Preferirei che tornassi prima di mezzanotte.",
+              "uk": "Я б волів(-ла), щоб ти повернувся(-лася) до дванадцятої.",
+              "de": "Mir wäre lieber, wenn du vor zwölf zurückkämst.",
+              "fr": "Je préférerais que tu rentres avant minuit.",
+              "pt": "Eu preferiria que você voltasse antes da meia-noite.",
+              "zh": "我更希望你十二点以前回来。"
+            },
+            {
+              "es": "Me gustaría que mi madre viviera más cerca.",
+              "en": "I'd like my mother to live closer.",
+              "it": "Mi piacerebbe che mia madre abitasse più vicino.",
+              "uk": "Мені б хотілося, щоб моя мама жила ближче.",
+              "de": "Ich hätte gern, dass meine Mutter näher wohnt.",
+              "fr": "J'aimerais que ma mère habite plus près.",
+              "pt": "Eu gostaria que a minha mãe morasse mais perto.",
+              "zh": "我希望我妈妈住得近一点。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "comiera",
+              "en": "(that) I / he / she ate",
+              "it": "(che io / lui / lei) mangiassi / mangiasse",
+              "uk": "(щоб) я / він / вона їв (їла)",
+              "de": "(dass) ich / er / sie aß",
+              "fr": "(que je / qu'il / qu'elle) mange",
+              "pt": "(que eu / ele / ela) comesse",
+              "zh": "我／他／她吃（过去时虚拟式）"
+            },
+            {
+              "es": "comieras",
+              "en": "(that) you ate",
+              "it": "(che tu) mangiassi",
+              "uk": "(щоб) ти їв (їла)",
+              "de": "(dass) du aßt",
+              "fr": "(que tu) manges",
+              "pt": "(que você) comesse",
+              "zh": "你吃（过去时虚拟式）"
+            },
+            {
+              "es": "volviera",
+              "en": "(that) I / he / she came back",
+              "it": "(che io / lui / lei) tornassi / tornasse",
+              "uk": "(щоб) я / він / вона повернувся(-лася)",
+              "de": "(dass) ich / er / sie zurückkam",
+              "fr": "(que je / qu'il / qu'elle) revienne",
+              "pt": "(que eu / ele / ela) voltasse",
+              "zh": "我／他／她回来（过去时虚拟式）"
+            },
+            {
+              "es": "volvieras",
+              "en": "(that) you came back",
+              "it": "(che tu) tornassi",
+              "uk": "(щоб) ти повернувся(-лася)",
+              "de": "(dass) du zurückkamst",
+              "fr": "(que tu) reviennes",
+              "pt": "(que você) voltasse",
+              "zh": "你回来（过去时虚拟式）"
+            },
+            {
+              "es": "viviera",
+              "en": "(that) I / he / she lived",
+              "it": "(che io / lui / lei) vivessi / vivesse",
+              "uk": "(щоб) я / він / вона жив(-ла)",
+              "de": "(dass) ich / er / sie lebte, wohnte",
+              "fr": "(que je / qu'il / qu'elle) vive",
+              "pt": "(que eu / ele / ela) morasse, vivesse",
+              "zh": "我／他／她住（过去时虚拟式）"
+            },
+            {
+              "es": "vivieras",
+              "en": "(that) you lived",
+              "it": "(che tu) vivessi",
+              "uk": "(щоб) ти жив(-ла)",
+              "de": "(dass) du lebtest, wohntest",
+              "fr": "(que tu) vives",
+              "pt": "(que você) morasse, vivesse",
+              "zh": "你住（过去时虚拟式）"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Preferiría que ",
+          "after": " antes de las doce.",
+          "options": [
+            "volvieras",
+            "volvieron",
+            "vuelves"
+          ],
+          "answer": "volvieras",
+          "en": "I'd rather you came back before twelve.",
+          "it": "Preferirei che tornassi prima di mezzanotte.",
+          "uk": "Я б волів(-ла), щоб ти повернувся(-лася) до дванадцятої.",
+          "de": "Mir wäre lieber, wenn du vor zwölf zurückkämst.",
+          "fr": "Je préférerais que tu rentres avant minuit.",
+          "pt": "Eu preferiria que você voltasse antes da meia-noite.",
+          "zh": "我更希望你十二点以前回来。",
+          "hint": {
+            "en": "volvieron → volviera, plus -s for tú.",
+            "it": "volvieron → volviera, più -s per tu.",
+            "uk": "volvieron → volviera, і ще -s для tú.",
+            "de": "volvieron → volviera, plus -s für tú.",
+            "fr": "volvieron → volviera, plus -s pour tú.",
+            "pt": "volvieron → volviera, mais -s para tú.",
+            "zh": "volvieron → volviera，tú 再加 -s。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "Your friend only eats pizza. Tell him you'd like him to eat more vegetables.",
+            "it": "Il tuo amico mangia solo pizza. Digli che ti piacerebbe che mangiasse più verdura.",
+            "uk": "Твій друг їсть тільки піцу. Скажи йому, що тобі хотілося б, щоб він їв більше овочів.",
+            "de": "Dein Freund isst nur Pizza. Sag ihm, dass du gern hättest, dass er mehr Gemüse isst.",
+            "fr": "Ton ami ne mange que de la pizza. Dis-lui que tu aimerais qu'il mange plus de légumes.",
+            "pt": "O seu amigo só come pizza. Diga a ele que você gostaria que ele comesse mais verdura.",
+            "zh": "你的朋友只吃比萨。告诉他你希望他多吃点蔬菜。"
+          },
+          "accepted": [
+            "Me gustaría que comieras más verduras."
+          ],
+          "tiles": [
+            "Me gustaría que",
+            "comieras",
+            "más",
+            "verduras",
+            "comes",
+            "comieron"
+          ],
+          "en": "I'd like you to eat more vegetables.",
+          "it": "Mi piacerebbe che mangiassi più verdura.",
+          "uk": "Мені б хотілося, щоб ти їв більше овочів.",
+          "de": "Ich hätte gern, dass du mehr Gemüse isst.",
+          "fr": "J'aimerais que tu manges plus de légumes.",
+          "pt": "Eu gostaria que você comesse mais verdura.",
+          "zh": "我希望你多吃点蔬菜。",
+          "hint": {
+            "en": "comieron → comiera; for tú, comieras.",
+            "it": "comieron → comiera; per tu, comieras.",
+            "uk": "comieron → comiera; для tú — comieras.",
+            "de": "comieron → comiera; für tú: comieras.",
+            "fr": "comieron → comiera ; pour tú, comieras.",
+            "pt": "comieron → comiera; para tú, comieras.",
+            "zh": "comieron → comiera；tú 用 comieras。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "vinie-",
+              "kind": "stem"
+            },
+            {
+              "text": "-ra",
+              "kind": "ending"
+            }
+          ],
+          "result": {
+            "stem": "vinie",
+            "ending": "ra"
+          },
+          "rule": {
+            "en": "Irregular verbs keep the irregular stem of their past: vinieron → viniera, tuvieron → tuviera, hicieron → hiciera, dijeron → dijera. ser and ir share fueron, so both give fuera.",
+            "it": "I verbi irregolari mantengono la radice irregolare del passato: vinieron → viniera, tuvieron → tuviera, hicieron → hiciera, dijeron → dijera. ser e ir condividono fueron, quindi entrambi danno fuera.",
+            "uk": "Неправильні дієслова зберігають неправильну основу свого минулого часу: vinieron → viniera, tuvieron → tuviera, hicieron → hiciera, dijeron → dijera. У ser та ir спільна форма fueron, тож обидва дають fuera.",
+            "de": "Unregelmäßige Verben behalten den unregelmäßigen Stamm ihrer Vergangenheit: vinieron → viniera, tuvieron → tuviera, hicieron → hiciera, dijeron → dijera. ser und ir haben beide fueron, also ergeben beide fuera.",
+            "fr": "Les verbes irréguliers gardent le radical irrégulier de leur passé : vinieron → viniera, tuvieron → tuviera, hicieron → hiciera, dijeron → dijera. ser et ir ont la même forme, fueron, donc les deux donnent fuera.",
+            "pt": "Os verbos irregulares mantêm o radical irregular do passado: vinieron → viniera, tuvieron → tuviera, hicieron → hiciera, dijeron → dijera. ser e ir compartilham fueron, então os dois dão fuera (como no português «fosse»).",
+            "zh": "不规则动词保留它们过去时的不规则词干：vinieron → viniera，tuvieron → tuviera，hicieron → hiciera，dijeron → dijera。ser 和 ir 的过去时都是 fueron，所以都变成 fuera。"
+          },
+          "examples": [
+            {
+              "es": "Me gustaría que vinieras a cenar el sábado.",
+              "en": "I'd like you to come for dinner on Saturday.",
+              "it": "Mi piacerebbe che venissi a cena sabato.",
+              "uk": "Мені б хотілося, щоб ти прийшов(-ла) на вечерю в суботу.",
+              "de": "Ich fände es schön, wenn du am Samstag zum Abendessen kämst.",
+              "fr": "J'aimerais que tu viennes dîner samedi.",
+              "pt": "Eu gostaria que você viesse jantar no sábado.",
+              "zh": "我希望你星期六来吃晚饭。"
+            },
+            {
+              "es": "Preferiría que me dijeras la verdad.",
+              "en": "I'd rather you told me the truth.",
+              "it": "Preferirei che mi dicessi la verità.",
+              "uk": "Я б волів(-ла), щоб ти сказав(-ла) мені правду.",
+              "de": "Mir wäre lieber, wenn du mir die Wahrheit sagen würdest.",
+              "fr": "Je préférerais que tu me dises la vérité.",
+              "pt": "Eu preferiria que você me dissesse a verdade.",
+              "zh": "我更希望你跟我说实话。"
+            },
+            {
+              "es": "Me gustaría que el examen fuera más fácil.",
+              "en": "I'd like the exam to be easier.",
+              "it": "Mi piacerebbe che l'esame fosse più facile.",
+              "uk": "Мені б хотілося, щоб іспит був легшим.",
+              "de": "Ich hätte gern, dass die Prüfung leichter wäre.",
+              "fr": "J'aimerais que l'examen soit plus facile.",
+              "pt": "Eu gostaria que a prova fosse mais fácil.",
+              "zh": "我希望考试简单一点。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "viniera",
+              "en": "(that) I / he / she came",
+              "it": "(che io / lui / lei) venissi / venisse",
+              "uk": "(щоб) я / він / вона прийшов (прийшла)",
+              "de": "(dass) ich / er / sie kam",
+              "fr": "(que je / qu'il / qu'elle) vienne",
+              "pt": "(que eu / ele / ela) viesse",
+              "zh": "我／他／她来（过去时虚拟式）"
+            },
+            {
+              "es": "vinieras",
+              "en": "(that) you came",
+              "it": "(che tu) venissi",
+              "uk": "(щоб) ти прийшов (прийшла)",
+              "de": "(dass) du kamst",
+              "fr": "(que tu) viennes",
+              "pt": "(que você) viesse",
+              "zh": "你来（过去时虚拟式）"
+            },
+            {
+              "es": "tuviera",
+              "en": "(that) I / he / she had",
+              "it": "(che io / lui / lei) avessi / avesse",
+              "uk": "(щоб) я / він / вона мав(-ла)",
+              "de": "(dass) ich / er / sie hatte",
+              "fr": "(que j'aie / qu'il, qu'elle ait)",
+              "pt": "(que eu / ele / ela) tivesse",
+              "zh": "我／他／她有（过去时虚拟式）"
+            },
+            {
+              "es": "tuvieras",
+              "en": "(that) you had",
+              "it": "(che tu) avessi",
+              "uk": "(щоб) ти мав(-ла)",
+              "de": "(dass) du hattest",
+              "fr": "(que tu) aies",
+              "pt": "(que você) tivesse",
+              "zh": "你有（过去时虚拟式）"
+            },
+            {
+              "es": "hiciera",
+              "en": "(that) I / he / she did, made",
+              "it": "(che io / lui / lei) facessi / facesse",
+              "uk": "(щоб) я / він / вона зробив(-ла)",
+              "de": "(dass) ich / er / sie machte",
+              "fr": "(que je / qu'il / qu'elle) fasse",
+              "pt": "(que eu / ele / ela) fizesse",
+              "zh": "我／他／她做（过去时虚拟式）"
+            },
+            {
+              "es": "hicieras",
+              "en": "(that) you did, made",
+              "it": "(che tu) facessi",
+              "uk": "(щоб) ти зробив(-ла)",
+              "de": "(dass) du machtest",
+              "fr": "(que tu) fasses",
+              "pt": "(que você) fizesse",
+              "zh": "你做（过去时虚拟式）"
+            },
+            {
+              "es": "dijera",
+              "en": "(that) I / he / she said, told",
+              "it": "(che io / lui / lei) dicessi / dicesse",
+              "uk": "(щоб) я / він / вона сказав(-ла)",
+              "de": "(dass) ich / er / sie sagte",
+              "fr": "(que je / qu'il / qu'elle) dise",
+              "pt": "(que eu / ele / ela) dissesse",
+              "zh": "我／他／她说、告诉（过去时虚拟式）"
+            },
+            {
+              "es": "dijeras",
+              "en": "(that) you said, told",
+              "it": "(che tu) dicessi",
+              "uk": "(щоб) ти сказав(-ла)",
+              "de": "(dass) du sagtest",
+              "fr": "(que tu) dises",
+              "pt": "(que você) dissesse",
+              "zh": "你说、告诉（过去时虚拟式）"
+            },
+            {
+              "es": "pudiera",
+              "en": "(that) I / he / she could",
+              "it": "(che io / lui / lei) potessi / potesse",
+              "uk": "(щоб) я / він / вона міг (могла)",
+              "de": "(dass) ich / er / sie konnte",
+              "fr": "(que je / qu'il / qu'elle) puisse",
+              "pt": "(que eu / ele / ela) pudesse",
+              "zh": "我／他／她能（过去时虚拟式）"
+            },
+            {
+              "es": "pudieras",
+              "en": "(that) you could",
+              "it": "(che tu) potessi",
+              "uk": "(щоб) ти міг (могла)",
+              "de": "(dass) du konntest",
+              "fr": "(que tu) puisses",
+              "pt": "(que você) pudesse",
+              "zh": "你能（过去时虚拟式）"
+            },
+            {
+              "es": "estuviera",
+              "en": "(that) I / he / she was (estar)",
+              "it": "(che io / lui / lei) stessi / stesse",
+              "uk": "(щоб) я / він / вона був (була) (estar)",
+              "de": "(dass) ich / er / sie war (estar)",
+              "fr": "(que je sois / qu'il, qu'elle soit) (estar)",
+              "pt": "(que eu / ele / ela) estivesse",
+              "zh": "我／他／她在（estar，过去时虚拟式）"
+            },
+            {
+              "es": "estuvieras",
+              "en": "(that) you were (estar)",
+              "it": "(che tu) stessi",
+              "uk": "(щоб) ти був (була) (estar)",
+              "de": "(dass) du warst (estar)",
+              "fr": "(que tu) sois (estar)",
+              "pt": "(que você) estivesse",
+              "zh": "你在（estar，过去时虚拟式）"
+            },
+            {
+              "es": "fuera",
+              "en": "(that) I / he / she / it was; went",
+              "it": "(che io / lui / lei) fossi / fosse; andassi / andasse",
+              "uk": "(щоб) я / він / вона / воно був (була, було); пішов (пішла)",
+              "de": "(dass) ich / er / sie / es war; ging",
+              "fr": "(que je sois / qu'il, qu'elle, ce soit) ; (que j'aille / qu'il, qu'elle aille)",
+              "pt": "(que eu / ele / ela) fosse (ser e ir)",
+              "zh": "我／他／她／它是；去（过去时虚拟式）"
+            },
+            {
+              "es": "fueras",
+              "en": "(that) you were; went",
+              "it": "(che tu) fossi; andassi",
+              "uk": "(щоб) ти був (була); пішов (пішла)",
+              "de": "(dass) du warst; gingst",
+              "fr": "(que tu) sois ; (que tu) ailles",
+              "pt": "(que você) fosse (ser e ir)",
+              "zh": "你是；去（过去时虚拟式）"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Me gustaría que ",
+          "after": " a mi fiesta.",
+          "options": [
+            "vinieras",
+            "viniste",
+            "vienes"
+          ],
+          "answer": "vinieras",
+          "en": "I'd like you to come to my party.",
+          "it": "Mi piacerebbe che venissi alla mia festa.",
+          "uk": "Мені б хотілося, щоб ти прийшов(-ла) на мою вечірку.",
+          "de": "Ich fände es schön, wenn du zu meiner Party kämst.",
+          "fr": "J'aimerais que tu viennes à ma fête.",
+          "pt": "Eu gostaria que você viesse à minha festa.",
+          "zh": "我希望你来参加我的聚会。",
+          "hint": {
+            "en": "vinieron → viniera, plus -s for tú.",
+            "it": "vinieron → viniera, più -s per tu.",
+            "uk": "vinieron → viniera, і ще -s для tú.",
+            "de": "vinieron → viniera, plus -s für tú.",
+            "fr": "vinieron → viniera, plus -s pour tú.",
+            "pt": "vinieron → viniera, mais -s para tú.",
+            "zh": "vinieron → viniera，tú 再加 -s。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "fire",
+          "before": "Preferiría que me ",
+          "after": " la verdad.",
+          "label": "decir",
+          "accepted": [
+            "dijeras"
+          ],
+          "en": "I'd rather you told me the truth.",
+          "it": "Preferirei che mi dicessi la verità.",
+          "uk": "Я б волів(-ла), щоб ти сказав(-ла) мені правду.",
+          "de": "Mir wäre lieber, wenn du mir die Wahrheit sagen würdest.",
+          "fr": "Je préférerais que tu me dises la vérité.",
+          "pt": "Eu preferiria que você me dissesse a verdade.",
+          "zh": "我更希望你跟我说实话。",
+          "hint": {
+            "en": "dijeron → dijera; for tú, dijeras.",
+            "it": "dijeron → dijera; per tu, dijeras.",
+            "uk": "dijeron → dijera; для tú — dijeras.",
+            "de": "dijeron → dijera; für tú: dijeras.",
+            "fr": "dijeron → dijera ; pour tú, dijeras.",
+            "pt": "dijeron → dijera; para tú, dijeras.",
+            "zh": "dijeron → dijera；tú 用 dijeras。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "-ra, -ras, -ra",
+              "kind": "ending"
+            },
+            {
+              "text": "-ramos, -rais, -ran",
+              "kind": "ending"
+            }
+          ],
+          "rule": {
+            "en": "The endings are -ra, -ras, -ra, -ramos, -rais, -ran. With nosotros, the vowel before -ramos takes an accent: habláramos, fuéramos. You may also see forms in -se (hablase): they mean the same, but here we use -ra.",
+            "it": "Le desinenze sono -ra, -ras, -ra, -ramos, -rais, -ran. Con nosotros la vocale prima di -ramos prende l'accento: habláramos, fuéramos. Puoi trovare anche forme in -se (hablase): vogliono dire lo stesso, ma qui usiamo -ra.",
+            "uk": "Закінчення: -ra, -ras, -ra, -ramos, -rais, -ran. У формі nosotros голосний перед -ramos отримує наголос: habláramos, fuéramos. Ти можеш побачити й форми на -se (hablase): вони означають те саме, але тут ми вживаємо -ra.",
+            "de": "Die Endungen sind -ra, -ras, -ra, -ramos, -rais, -ran. Bei nosotros bekommt der Vokal vor -ramos einen Akzent: habláramos, fuéramos. Manchmal siehst du auch Formen auf -se (hablase): Sie bedeuten dasselbe, aber hier verwenden wir -ra.",
+            "fr": "Les terminaisons sont -ra, -ras, -ra, -ramos, -rais, -ran. Avec nosotros, la voyelle avant -ramos prend un accent : habláramos, fuéramos. Tu verras aussi des formes en -se (hablase) : elles veulent dire la même chose, mais ici on utilise -ra.",
+            "pt": "As terminações são -ra, -ras, -ra, -ramos, -rais, -ran. Com nosotros, a vogal antes de -ramos leva acento: habláramos, fuéramos (como no português «falássemos», «fôssemos»). Você também pode ver formas em -se (hablase): querem dizer o mesmo, mas aqui usamos -ra.",
+            "zh": "词尾是 -ra，-ras，-ra，-ramos，-rais，-ran。nosotros 形式中，-ramos 前面的元音要加重音符号：habláramos，fuéramos。你也可能见到 -se 结尾的形式（hablase）：意思一样，但这里我们用 -ra。"
+          },
+          "examples": [
+            {
+              "es": "Me gustaría que fuéramos juntos.",
+              "en": "I'd like us to go together.",
+              "it": "Mi piacerebbe che andassimo insieme.",
+              "uk": "Мені б хотілося, щоб ми пішли разом.",
+              "de": "Ich fände es schön, wenn wir zusammen hingingen.",
+              "fr": "J'aimerais qu'on y aille ensemble.",
+              "pt": "Eu gostaria que a gente fosse junto.",
+              "zh": "我希望我们一起去。"
+            },
+            {
+              "es": "Preferiría que mis padres vinieran en tren.",
+              "en": "I'd rather my parents came by train.",
+              "it": "Preferirei che i miei genitori venissero in treno.",
+              "uk": "Я б волів(-ла), щоб мої батьки приїхали поїздом.",
+              "de": "Mir wäre lieber, wenn meine Eltern mit dem Zug kämen.",
+              "fr": "Je préférerais que mes parents viennent en train.",
+              "pt": "Eu preferiria que os meus pais viessem de trem.",
+              "zh": "我更希望我父母坐火车来。"
+            },
+            {
+              "es": "Me gustaría que habláramos de eso mañana.",
+              "en": "I'd like us to talk about that tomorrow.",
+              "it": "Mi piacerebbe che ne parlassimo domani.",
+              "uk": "Мені б хотілося, щоб ми поговорили про це завтра.",
+              "de": "Ich fände es gut, wenn wir morgen darüber sprechen würden.",
+              "fr": "J'aimerais qu'on en parle demain.",
+              "pt": "Eu gostaria que a gente falasse sobre isso amanhã.",
+              "zh": "我希望我们明天再谈这件事。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "fuéramos",
+              "en": "(that) we were; went",
+              "it": "(che noi) fossimo; andassimo",
+              "uk": "(щоб) ми були; пішли",
+              "de": "(dass) wir waren; gingen",
+              "fr": "(que nous) soyons ; (que nous) allions",
+              "pt": "(que nós) fôssemos (ser e ir)",
+              "zh": "我们是；去（过去时虚拟式）"
+            },
+            {
+              "es": "habláramos",
+              "en": "(that) we spoke",
+              "it": "(che noi) parlassimo",
+              "uk": "(щоб) ми говорили",
+              "de": "(dass) wir sprachen",
+              "fr": "(que nous) parlions",
+              "pt": "(que nós) falássemos",
+              "zh": "我们说（过去时虚拟式）"
+            },
+            {
+              "es": "viniéramos",
+              "en": "(that) we came",
+              "it": "(che noi) venissimo",
+              "uk": "(щоб) ми прийшли",
+              "de": "(dass) wir kamen",
+              "fr": "(que nous) venions",
+              "pt": "(que nós) viéssemos",
+              "zh": "我们来（过去时虚拟式）"
+            },
+            {
+              "es": "tuviéramos",
+              "en": "(that) we had",
+              "it": "(che noi) avessimo",
+              "uk": "(щоб) ми мали",
+              "de": "(dass) wir hatten",
+              "fr": "(que nous) ayons",
+              "pt": "(que nós) tivéssemos",
+              "zh": "我们有（过去时虚拟式）"
+            },
+            {
+              "es": "pudiéramos",
+              "en": "(that) we could",
+              "it": "(che noi) potessimo",
+              "uk": "(щоб) ми могли",
+              "de": "(dass) wir konnten",
+              "fr": "(que nous) puissions",
+              "pt": "(que nós) pudéssemos",
+              "zh": "我们能（过去时虚拟式）"
+            },
+            {
+              "es": "vinierais",
+              "en": "(that) you all came",
+              "it": "(che voi) veniste",
+              "uk": "(щоб) ви прийшли",
+              "de": "(dass) ihr kamt",
+              "fr": "(que vous) veniez",
+              "pt": "(que vocês) viessem",
+              "zh": "你们来（过去时虚拟式）"
+            },
+            {
+              "es": "vinieran",
+              "en": "(that) they came",
+              "it": "(che loro) venissero",
+              "uk": "(щоб) вони прийшли",
+              "de": "(dass) sie kamen",
+              "fr": "(qu'ils / qu'elles) viennent",
+              "pt": "(que eles / elas) viessem",
+              "zh": "他们来（过去时虚拟式）"
+            },
+            {
+              "es": "hablaran",
+              "en": "(that) they spoke",
+              "it": "(che loro) parlassero",
+              "uk": "(щоб) вони говорили",
+              "de": "(dass) sie sprachen",
+              "fr": "(qu'ils / qu'elles) parlent",
+              "pt": "(que eles / elas) falassem",
+              "zh": "他们说（过去时虚拟式）"
+            },
+            {
+              "es": "fueran",
+              "en": "(that) they were; went",
+              "it": "(che loro) fossero; andassero",
+              "uk": "(щоб) вони були; пішли",
+              "de": "(dass) sie waren; gingen",
+              "fr": "(qu'ils / qu'elles) soient ; aillent",
+              "pt": "(que eles / elas) fossem (ser e ir)",
+              "zh": "他们是；去（过去时虚拟式）"
+            },
+            {
+              "es": "tuvieran",
+              "en": "(that) they had",
+              "it": "(che loro) avessero",
+              "uk": "(щоб) вони мали",
+              "de": "(dass) sie hatten",
+              "fr": "(qu'ils / qu'elles) aient",
+              "pt": "(que eles / elas) tivessem",
+              "zh": "他们有（过去时虚拟式）"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Me gustaría que ",
+          "after": " juntos a la fiesta.",
+          "options": [
+            "fuéramos",
+            "fueran",
+            "fuimos"
+          ],
+          "answer": "fuéramos",
+          "en": "I'd like us to go to the party together.",
+          "it": "Mi piacerebbe che andassimo insieme alla festa.",
+          "uk": "Мені б хотілося, щоб ми пішли на вечірку разом.",
+          "de": "Ich fände es schön, wenn wir zusammen zur Party gingen.",
+          "fr": "J'aimerais qu'on aille à la fête ensemble.",
+          "pt": "Eu gostaria que a gente fosse junto à festa.",
+          "zh": "我希望我们一起去参加聚会。",
+          "hint": {
+            "en": "For nosotros: -ramos, with an accent: fuéramos.",
+            "it": "Per nosotros: -ramos, con l'accento: fuéramos.",
+            "uk": "Для nosotros: -ramos, з наголосом: fuéramos.",
+            "de": "Für nosotros: -ramos, mit Akzent: fuéramos.",
+            "fr": "Pour nosotros : -ramos, avec un accent : fuéramos.",
+            "pt": "Para nosotros: -ramos, com acento: fuéramos.",
+            "zh": "nosotros 用 -ramos，要加重音符号：fuéramos。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "fire",
+          "before": "Preferiría que mis padres ",
+          "after": " en tren.",
+          "label": "venir",
+          "accepted": [
+            "vinieran"
+          ],
+          "en": "I'd rather my parents came by train.",
+          "it": "Preferirei che i miei genitori venissero in treno.",
+          "uk": "Я б волів(-ла), щоб мої батьки приїхали поїздом.",
+          "de": "Mir wäre lieber, wenn meine Eltern mit dem Zug kämen.",
+          "fr": "Je préférerais que mes parents viennent en train.",
+          "pt": "Eu preferiria que os meus pais viessem de trem.",
+          "zh": "我更希望我父母坐火车来。",
+          "hint": {
+            "en": "For ellos: vinieron → vinieran.",
+            "it": "Per ellos: vinieron → vinieran.",
+            "uk": "Для ellos: vinieron → vinieran.",
+            "de": "Für ellos: vinieron → vinieran.",
+            "fr": "Pour ellos : vinieron → vinieran.",
+            "pt": "Para ellos: vinieron → vinieran.",
+            "zh": "ellos 形式：vinieron → vinieran。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "Me gustaría que me ",
+          "after": " con la mudanza.",
+          "options": [
+            "ayudaras",
+            "ayudas",
+            "ayudar"
+          ],
+          "answer": "ayudaras",
+          "en": "I'd like you to help me with the move.",
+          "it": "Mi piacerebbe che mi aiutassi con il trasloco.",
+          "uk": "Мені б хотілося, щоб ти допоміг (допомогла) мені з переїздом.",
+          "de": "Ich fände es schön, wenn du mir beim Umzug helfen würdest.",
+          "fr": "J'aimerais que tu m'aides pour le déménagement.",
+          "pt": "Eu gostaria que você me ajudasse com a mudança.",
+          "zh": "我希望你帮我搬家。",
+          "hint": {
+            "en": "me gustaría que + the imperfect subjunctive: ayudaras.",
+            "it": "me gustaría que + il congiuntivo imperfetto: ayudaras.",
+            "uk": "me gustaría que + «imperfecto de subjuntivo»: ayudaras.",
+            "de": "me gustaría que + imperfecto de subjuntivo: ayudaras.",
+            "fr": "me gustaría que + l'imperfecto de subjuntivo : ayudaras.",
+            "pt": "me gustaría que + o imperfecto de subjuntivo: ayudaras.",
+            "zh": "me gustaría que + 过去时虚拟式：ayudaras。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "mix",
+          "before": "Preferiría que hoy ",
+          "after": " tú la cena.",
+          "label": "hacer",
+          "accepted": [
+            "hicieras"
+          ],
+          "en": "I'd rather you made dinner today.",
+          "it": "Preferirei che oggi la cena la facessi tu.",
+          "uk": "Я б волів(-ла), щоб сьогодні вечерю приготував(-ла) ти.",
+          "de": "Mir wäre lieber, wenn heute du das Abendessen machen würdest.",
+          "fr": "Je préférerais que ce soit toi qui fasses le dîner aujourd'hui.",
+          "pt": "Eu preferiria que hoje você fizesse o jantar.",
+          "zh": "我更希望今天由你做晚饭。",
+          "hint": {
+            "en": "hicieron → hiciera; for tú, hicieras.",
+            "it": "hicieron → hiciera; per tu, hicieras.",
+            "uk": "hicieron → hiciera; для tú — hicieras.",
+            "de": "hicieron → hiciera; für tú: hicieras.",
+            "fr": "hicieron → hiciera ; pour tú, hicieras.",
+            "pt": "hicieron → hiciera; para tú, hicieras.",
+            "zh": "hicieron → hiciera；tú 用 hicieras。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "mix",
+          "intention": {
+            "en": "Your colleague works from home. Tell her you'd like her to come to the office on Monday.",
+            "it": "La tua collega lavora da casa. Dille che ti piacerebbe che venisse in ufficio lunedì.",
+            "uk": "Твоя колега працює з дому. Скажи їй, що тобі хотілося б, щоб вона прийшла в офіс у понеділок.",
+            "de": "Deine Kollegin arbeitet von zu Hause aus. Sag ihr, dass du es gut fändest, wenn sie am Montag ins Büro käme.",
+            "fr": "Ta collègue travaille de chez elle. Dis-lui que tu aimerais qu'elle vienne au bureau lundi.",
+            "pt": "A sua colega trabalha de casa. Diga a ela que você gostaria que ela viesse ao escritório na segunda-feira.",
+            "zh": "你的同事在家办公。告诉她你希望她星期一来办公室。"
+          },
+          "accepted": [
+            "Me gustaría que vinieras a la oficina el lunes.",
+            "Me gustaría que el lunes vinieras a la oficina."
+          ],
+          "tiles": [
+            "Me gustaría que",
+            "vinieras",
+            "a la oficina",
+            "el lunes",
+            "viniste",
+            "vienes"
+          ],
+          "en": "I'd like you to come to the office on Monday.",
+          "it": "Mi piacerebbe che venissi in ufficio lunedì.",
+          "uk": "Мені б хотілося, щоб ти прийшла в офіс у понеділок.",
+          "de": "Ich fände es gut, wenn du am Montag ins Büro kämst.",
+          "fr": "J'aimerais que tu viennes au bureau lundi.",
+          "pt": "Eu gostaria que você viesse ao escritório na segunda-feira.",
+          "zh": "我希望你星期一来办公室。",
+          "hint": {
+            "en": "me gustaría que + vinieras, the tú form.",
+            "it": "me gustaría que + vinieras, la forma di tu.",
+            "uk": "me gustaría que + vinieras, форма tú.",
+            "de": "me gustaría que + vinieras, die tú-Form.",
+            "fr": "me gustaría que + vinieras, la forme de tú.",
+            "pt": "me gustaría que + vinieras, a forma de tú.",
+            "zh": "me gustaría que + vinieras（tú 形式）。"
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "You're inviting a friend. Write in Spanish: «I'd like you to come for dinner on Saturday.»",
+            "it": "Stai invitando un amico. Scrivi in spagnolo: «Mi piacerebbe che venissi a cena sabato.»",
+            "uk": "Ти запрошуєш друга. Напиши іспанською: «Мені б хотілося, щоб ти прийшов на вечерю в суботу.»",
+            "de": "Du lädst einen Freund ein. Schreib auf Spanisch: «Ich fände es schön, wenn du am Samstag zum Abendessen kämst.»",
+            "fr": "Tu invites un ami. Écris en espagnol : «J'aimerais que tu viennes dîner samedi.»",
+            "pt": "Você está convidando um amigo. Escreva em espanhol: «Eu gostaria que você viesse jantar no sábado.»",
+            "zh": "你在邀请一个朋友。用西班牙语写：«我希望你星期六来吃晚饭。»"
+          },
+          "accepted": [
+            "Me gustaría que vinieras a cenar el sábado.",
+            "Me gustaría que el sábado vinieras a cenar.",
+            "El sábado me gustaría que vinieras a cenar."
+          ],
+          "model": {
+            "es": "Me gustaría que vinieras a cenar el sábado.",
+            "en": "I'd like you to come for dinner on Saturday.",
+            "it": "Mi piacerebbe che venissi a cena sabato.",
+            "uk": "Мені б хотілося, щоб ти прийшов на вечерю в суботу.",
+            "de": "Ich fände es schön, wenn du am Samstag zum Abendessen kämst.",
+            "fr": "J'aimerais que tu viennes dîner samedi.",
+            "pt": "Eu gostaria que você viesse jantar no sábado.",
+            "zh": "我希望你星期六来吃晚饭。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u37l2",
+      "goal": {
+        "en": "Imagine things that aren't real: si + the imperfect subjunctive, then the conditional: si tuviera dinero, compraría una casa; ¿qué harías si te tocara la lotería?",
+        "it": "Immagina cose che non sono reali: si + il congiuntivo imperfetto, poi il condizionale: si tuviera dinero, compraría una casa; ¿qué harías si te tocara la lotería?",
+        "uk": "Уявляй те, чого насправді немає: si + «imperfecto de subjuntivo», а далі умовний спосіб: si tuviera dinero, compraría una casa; ¿qué harías si te tocara la lotería?",
+        "de": "Stell dir Dinge vor, die nicht wirklich sind: si + imperfecto de subjuntivo, danach der condicional: si tuviera dinero, compraría una casa; ¿qué harías si te tocara la lotería?",
+        "fr": "Imagine des choses qui ne sont pas réelles : si + l'imperfecto de subjuntivo, puis le conditionnel : si tuviera dinero, compraría una casa ; ¿qué harías si te tocara la lotería?",
+        "pt": "Imagine coisas que não são reais: si + o imperfecto de subjuntivo, depois o condicional: si tuviera dinero, compraría una casa; ¿qué harías si te tocara la lotería?",
+        "zh": "想象不真实的事：si + 过去时虚拟式，然后用条件式：si tuviera dinero, compraría una casa；¿qué harías si te tocara la lotería?"
+      },
+      "target": {
+        "es": "Si tuviera dinero, compraría una casa en la playa.",
+        "en": "If I had money, I'd buy a house on the beach.",
+        "it": "Se avessi soldi, comprerei una casa al mare.",
+        "uk": "Якби в мене були гроші, я б купив(-ла) будинок біля моря.",
+        "de": "Wenn ich Geld hätte, würde ich mir ein Haus am Strand kaufen.",
+        "fr": "Si j'avais de l'argent, j'achèterais une maison au bord de la mer.",
+        "pt": "Se eu tivesse dinheiro, compraria uma casa na praia.",
+        "zh": "如果我有钱，我就在海边买一栋房子。"
+      },
+      "names": [
+        "Madrid",
+        "el Prado"
+      ],
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "la lotería",
+              "en": "the lottery",
+              "it": "la lotteria",
+              "uk": "лотерея",
+              "de": "die Lotterie",
+              "fr": "la loterie",
+              "pt": "a loteria",
+              "zh": "彩票",
+              "kind": "chunk"
+            },
+            {
+              "es": "si me tocara la lotería",
+              "en": "if I won the lottery",
+              "it": "se vincessi alla lotteria",
+              "uk": "якби я виграв(-ла) у лотерею",
+              "de": "wenn ich im Lotto gewinnen würde",
+              "fr": "si je gagnais à la loterie",
+              "pt": "se eu ganhasse na loteria",
+              "zh": "如果我中了彩票",
+              "kind": "chunk"
+            },
+            {
+              "es": "dar la vuelta al mundo",
+              "en": "to travel around the world",
+              "it": "fare il giro del mondo",
+              "uk": "об'їхати весь світ",
+              "de": "eine Weltreise machen",
+              "fr": "faire le tour du monde",
+              "pt": "dar a volta ao mundo",
+              "zh": "环游世界",
+              "kind": "chunk"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "si tuviera",
+              "kind": "rail"
+            },
+            {
+              "text": "+",
+              "kind": "chunk"
+            },
+            {
+              "text": "compraría",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "For something that isn't real now, use si + the imperfect subjunctive, then the conditional: si tuviera dinero, viajaría (but I don't have it). For a real possibility, you already know si + the normal present: si tengo tiempo, voy.",
+            "it": "Per qualcosa che ora non è reale, usa si + il congiuntivo imperfetto, poi il condizionale: si tuviera dinero, viajaría (ma non ce li ho). Per una possibilità reale conosci già si + il presente normale: si tengo tiempo, voy.",
+            "uk": "Про те, що зараз не є правдою, кажи si + «imperfecto de subjuntivo», а потім умовний спосіб: si tuviera dinero, viajaría (але грошей у мене немає). Для реальної можливості ти вже знаєш si + звичайний теперішній час: si tengo tiempo, voy. Українською так само: «якби мав» — уявне, «якщо матиму» — реальне.",
+            "de": "Für etwas, das jetzt nicht wirklich ist, nimm si + imperfecto de subjuntivo, danach den condicional: si tuviera dinero, viajaría (aber ich habe es nicht). Wie im Deutschen: „Wenn ich Geld hätte, würde ich reisen.“ Für eine echte Möglichkeit kennst du schon si + normales Präsens: si tengo tiempo, voy.",
+            "fr": "Pour quelque chose qui n'est pas réel maintenant, utilise si + l'imperfecto de subjuntivo, puis le conditionnel : si tuviera dinero, viajaría (mais je n'en ai pas). Attention : en français, on dit « si j'avais » avec l'imparfait de l'indicatif ; en espagnol, il faut le subjonctif. Pour une possibilité réelle, tu connais déjà si + le présent normal : si tengo tiempo, voy.",
+            "pt": "Para algo que não é real agora, use si + o imperfecto de subjuntivo, depois o condicional: si tuviera dinero, viajaría (mas eu não tenho). Igualzinho ao português: «se eu tivesse dinheiro, viajaria». Para uma possibilidade real, você já conhece si + o presente normal: si tengo tiempo, voy.",
+            "zh": "说现在不真实的事，用 si + 过去时虚拟式，然后用条件式：si tuviera dinero, viajaría（可是我没有钱）。说真实可能发生的事，你已经学过 si + 普通的现在时：si tengo tiempo, voy。"
+          },
+          "examples": [
+            {
+              "es": "Si tuviera dinero, compraría una casa en la playa.",
+              "en": "If I had money, I'd buy a house on the beach.",
+              "it": "Se avessi soldi, comprerei una casa al mare.",
+              "uk": "Якби в мене були гроші, я б купив(-ла) будинок біля моря.",
+              "de": "Wenn ich Geld hätte, würde ich mir ein Haus am Strand kaufen.",
+              "fr": "Si j'avais de l'argent, j'achèterais une maison au bord de la mer.",
+              "pt": "Se eu tivesse dinheiro, compraria uma casa na praia.",
+              "zh": "如果我有钱，我就在海边买一栋房子。"
+            },
+            {
+              "es": "Si viviera en Madrid, iría al Prado todas las semanas.",
+              "en": "If I lived in Madrid, I'd go to the Prado every week.",
+              "it": "Se abitassi a Madrid, andrei al Prado tutte le settimane.",
+              "uk": "Якби я жив(-ла) у Мадриді, я б ходив(-ла) до музею Прадо щотижня.",
+              "de": "Wenn ich in Madrid wohnen würde, würde ich jede Woche in den Prado gehen.",
+              "fr": "Si j'habitais à Madrid, j'irais au Prado toutes les semaines.",
+              "pt": "Se eu morasse em Madri, iria ao Prado toda semana.",
+              "zh": "如果我住在马德里，我每个星期都会去普拉多博物馆。"
+            },
+            {
+              "es": "Si fuera más barato, lo compraría.",
+              "en": "If it was cheaper, I'd buy it.",
+              "it": "Se costasse meno, lo comprerei.",
+              "uk": "Якби це було дешевше, я б це купив(-ла).",
+              "de": "Wenn es billiger wäre, würde ich es kaufen.",
+              "fr": "Si c'était moins cher, je l'achèterais.",
+              "pt": "Se fosse mais barato, eu compraria.",
+              "zh": "要是再便宜点，我就买了。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "sería",
+              "en": "I / he / she / it would be",
+              "it": "sarei, sarebbe",
+              "uk": "я / він / вона / воно був (була, було) б",
+              "de": "ich / er / sie / es wäre",
+              "fr": "je serais, il / elle serait, ce serait",
+              "pt": "eu / ele / ela seria",
+              "zh": "我／他／她／它会是"
+            },
+            {
+              "es": "serías",
+              "en": "you would be",
+              "it": "saresti",
+              "uk": "ти був (була) б",
+              "de": "du wärst",
+              "fr": "tu serais",
+              "pt": "você seria",
+              "zh": "你会是"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Si ",
+          "after": " dinero, compraría una casa en la playa.",
+          "options": [
+            "tuviera",
+            "tengo",
+            "tendría"
+          ],
+          "answer": "tuviera",
+          "en": "If I had money, I'd buy a house on the beach.",
+          "it": "Se avessi soldi, comprerei una casa al mare.",
+          "uk": "Якби в мене були гроші, я б купив(-ла) будинок біля моря.",
+          "de": "Wenn ich Geld hätte, würde ich mir ein Haus am Strand kaufen.",
+          "fr": "Si j'avais de l'argent, j'achèterais une maison au bord de la mer.",
+          "pt": "Se eu tivesse dinheiro, compraria uma casa na praia.",
+          "zh": "如果我有钱，我就在海边买一栋房子。",
+          "hint": {
+            "en": "It isn't real, and the other half is compraría: si + tuviera.",
+            "it": "Non è reale e l'altra metà è compraría: si + tuviera.",
+            "uk": "Це неправда, а друга частина — compraría: si + tuviera.",
+            "de": "Es ist nicht wirklich so, und die andere Hälfte ist compraría: si + tuviera.",
+            "fr": "Ce n'est pas réel, et l'autre moitié est compraría : si + tuviera.",
+            "pt": "Não é real, e a outra metade é compraría: si + tuviera.",
+            "zh": "这不是真的，而且另一半是 compraría：si + tuviera。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "fire",
+          "before": "Si ",
+          "after": " en Madrid, iría al Prado todas las semanas.",
+          "label": "vivir",
+          "accepted": [
+            "viviera"
+          ],
+          "en": "If I lived in Madrid, I'd go to the Prado every week.",
+          "it": "Se abitassi a Madrid, andrei al Prado tutte le settimane.",
+          "uk": "Якби я жив(-ла) у Мадриді, я б ходив(-ла) до музею Прадо щотижня.",
+          "de": "Wenn ich in Madrid wohnen würde, würde ich jede Woche in den Prado gehen.",
+          "fr": "Si j'habitais à Madrid, j'irais au Prado toutes les semaines.",
+          "pt": "Se eu morasse em Madri, iria ao Prado toda semana.",
+          "zh": "如果我住在马德里，我每个星期都会去普拉多博物馆。",
+          "hint": {
+            "en": "You don't live there: si + the imperfect subjunctive, viviera.",
+            "it": "Non ci abiti: si + il congiuntivo imperfetto, viviera.",
+            "uk": "Ти там не живеш: si + «imperfecto de subjuntivo», viviera.",
+            "de": "Du wohnst nicht dort: si + imperfecto de subjuntivo, viviera.",
+            "fr": "Tu n'y habites pas : si + l'imperfecto de subjuntivo, viviera.",
+            "pt": "Você não mora lá: si + o imperfecto de subjuntivo, viviera.",
+            "zh": "你并不住在那里：si + 过去时虚拟式，viviera。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "compraría",
+              "kind": "stem"
+            },
+            {
+              "text": "si tuviera",
+              "kind": "rail"
+            }
+          ],
+          "rule": {
+            "en": "The si part can also go second: viajaría más si tuviera tiempo. For nosotros, the conditional ends in -íamos: iríamos, viviríamos, tendríamos.",
+            "it": "La parte con si può anche andare per seconda: viajaría más si tuviera tiempo. Per nosotros il condizionale finisce in -íamos: iríamos, viviríamos, tendríamos.",
+            "uk": "Частина з si може стояти й другою: viajaría más si tuviera tiempo. Для nosotros умовний спосіб закінчується на -íamos: iríamos, viviríamos, tendríamos.",
+            "de": "Der si-Teil kann auch an zweiter Stelle stehen: viajaría más si tuviera tiempo. Bei nosotros endet der condicional auf -íamos: iríamos, viviríamos, tendríamos.",
+            "fr": "La partie avec si peut aussi venir en second : viajaría más si tuviera tiempo. Pour nosotros, le conditionnel se termine en -íamos : iríamos, viviríamos, tendríamos.",
+            "pt": "A parte com si também pode vir depois: viajaría más si tuviera tiempo. Para nosotros, o condicional termina em -íamos: iríamos, viviríamos, tendríamos.",
+            "zh": "si 部分也可以放在后面：viajaría más si tuviera tiempo。nosotros 的条件式以 -íamos 结尾：iríamos，viviríamos，tendríamos。"
+          },
+          "examples": [
+            {
+              "es": "Si tuviéramos coche, iríamos a la playa.",
+              "en": "If we had a car, we'd go to the beach.",
+              "it": "Se avessimo la macchina, andremmo al mare.",
+              "uk": "Якби в нас була машина, ми б поїхали на пляж.",
+              "de": "Wenn wir ein Auto hätten, würden wir an den Strand fahren.",
+              "fr": "Si nous avions une voiture, nous irions à la plage.",
+              "pt": "Se a gente tivesse carro, iríamos à praia.",
+              "zh": "如果我们有车，我们就去海边。"
+            },
+            {
+              "es": "Viviríamos en el campo si pudiéramos.",
+              "en": "We'd live in the countryside if we could.",
+              "it": "Vivremmo in campagna se potessimo.",
+              "uk": "Ми б жили за містом, якби могли.",
+              "de": "Wir würden auf dem Land leben, wenn wir könnten.",
+              "fr": "Nous vivrions à la campagne si nous pouvions.",
+              "pt": "A gente moraria no campo se pudesse.",
+              "zh": "如果可以的话，我们会住在乡下。"
+            },
+            {
+              "es": "Viajaría más si tuviera tiempo.",
+              "en": "I'd travel more if I had time.",
+              "it": "Viaggerei di più se avessi tempo.",
+              "uk": "Я б більше подорожував(-ла), якби мав(-ла) час.",
+              "de": "Ich würde mehr reisen, wenn ich Zeit hätte.",
+              "fr": "Je voyagerais plus si j'avais le temps.",
+              "pt": "Eu viajaria mais se tivesse tempo.",
+              "zh": "如果我有时间，我会多去旅行。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "iríamos",
+              "en": "we would go",
+              "it": "andremmo",
+              "uk": "ми пішли б, поїхали б",
+              "de": "wir würden gehen, fahren",
+              "fr": "nous irions",
+              "pt": "nós iríamos",
+              "zh": "我们会去"
+            },
+            {
+              "es": "viviríamos",
+              "en": "we would live",
+              "it": "vivremmo",
+              "uk": "ми жили б",
+              "de": "wir würden leben, wohnen",
+              "fr": "nous vivrions",
+              "pt": "nós moraríamos, viveríamos",
+              "zh": "我们会住"
+            },
+            {
+              "es": "tendríamos",
+              "en": "we would have",
+              "it": "avremmo",
+              "uk": "ми мали б",
+              "de": "wir hätten",
+              "fr": "nous aurions",
+              "pt": "nós teríamos",
+              "zh": "我们会有"
+            },
+            {
+              "es": "viajaríamos",
+              "en": "we would travel",
+              "it": "viaggeremmo",
+              "uk": "ми подорожували б",
+              "de": "wir würden reisen",
+              "fr": "nous voyagerions",
+              "pt": "nós viajaríamos",
+              "zh": "我们会旅行"
+            },
+            {
+              "es": "compraríamos",
+              "en": "we would buy",
+              "it": "compreremmo",
+              "uk": "ми купили б",
+              "de": "wir würden kaufen",
+              "fr": "nous achèterions",
+              "pt": "nós compraríamos",
+              "zh": "我们会买"
+            },
+            {
+              "es": "haríamos",
+              "en": "we would do, would make",
+              "it": "faremmo",
+              "uk": "ми зробили б",
+              "de": "wir würden machen, tun",
+              "fr": "nous ferions",
+              "pt": "nós faríamos",
+              "zh": "我们会做"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Si tuviéramos coche, ",
+          "after": " a la playa.",
+          "options": [
+            "iríamos",
+            "vamos",
+            "fuéramos"
+          ],
+          "answer": "iríamos",
+          "en": "If we had a car, we'd go to the beach.",
+          "it": "Se avessimo la macchina, andremmo al mare.",
+          "uk": "Якби в нас була машина, ми б поїхали на пляж.",
+          "de": "Wenn wir ein Auto hätten, würden wir an den Strand fahren.",
+          "fr": "Si nous avions une voiture, nous irions à la plage.",
+          "pt": "Se a gente tivesse carro, iríamos à praia.",
+          "zh": "如果我们有车，我们就去海边。",
+          "hint": {
+            "en": "The other half is the conditional: iríamos.",
+            "it": "L'altra metà è il condizionale: iríamos.",
+            "uk": "Друга частина — умовний спосіб: iríamos.",
+            "de": "Die andere Hälfte ist der condicional: iríamos.",
+            "fr": "L'autre moitié est au conditionnel : iríamos.",
+            "pt": "A outra metade é o condicional: iríamos.",
+            "zh": "另一半用条件式：iríamos。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "Your friend asks why you and your partner don't live in the countryside. Say you'd live in the countryside if you could.",
+            "it": "Un amico ti chiede perché tu e il tuo compagno non vivete in campagna. Rispondi che vivreste in campagna se poteste.",
+            "uk": "Друг питає, чому ви з партнером не живете за містом. Скажи, що ви б жили за містом, якби могли.",
+            "de": "Ein Freund fragt, warum du und dein Partner (deine Partnerin) nicht auf dem Land lebt. Sag, dass ihr auf dem Land leben würdet, wenn ihr könntet.",
+            "fr": "Un ami te demande pourquoi ton partenaire et toi, vous ne vivez pas à la campagne. Dis que vous vivriez à la campagne si vous pouviez.",
+            "pt": "Um amigo pergunta por que você e o seu companheiro não moram no campo. Diga que vocês morariam no campo se pudessem.",
+            "zh": "朋友问你为什么你和你的伴侣不住在乡下。说如果可以的话，你们会住在乡下。"
+          },
+          "accepted": [
+            "Viviríamos en el campo si pudiéramos.",
+            "Si pudiéramos, viviríamos en el campo."
+          ],
+          "tiles": [
+            "Viviríamos",
+            "en el campo",
+            "si",
+            "pudiéramos",
+            "podemos",
+            "vivimos"
+          ],
+          "en": "We'd live in the countryside if we could.",
+          "it": "Vivremmo in campagna se potessimo.",
+          "uk": "Ми б жили за містом, якби могли.",
+          "de": "Wir würden auf dem Land leben, wenn wir könnten.",
+          "fr": "Nous vivrions à la campagne si nous pouvions.",
+          "pt": "A gente moraria no campo se pudesse.",
+          "zh": "如果可以的话，我们会住在乡下。",
+          "hint": {
+            "en": "Conditional + si + imperfect subjunctive: viviríamos… si pudiéramos.",
+            "it": "Condizionale + si + congiuntivo imperfetto: viviríamos… si pudiéramos.",
+            "uk": "Умовний спосіб + si + «imperfecto de subjuntivo»: viviríamos… si pudiéramos.",
+            "de": "condicional + si + imperfecto de subjuntivo: viviríamos… si pudiéramos.",
+            "fr": "Conditionnel + si + imperfecto de subjuntivo : viviríamos… si pudiéramos.",
+            "pt": "Condicional + si + imperfecto de subjuntivo: viviríamos… si pudiéramos.",
+            "zh": "条件式 + si + 过去时虚拟式：viviríamos… si pudiéramos。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "¿Qué harías",
+              "kind": "stem"
+            },
+            {
+              "text": "si…?",
+              "kind": "rail"
+            }
+          ],
+          "rule": {
+            "en": "To imagine with someone, ask ¿qué harías si…? + the imperfect subjunctive. Si yo fuera tú means the same as yo que tú.",
+            "it": "Per immaginare insieme a qualcuno, chiedi ¿qué harías si…? + il congiuntivo imperfetto. Si yo fuera tú vuol dire lo stesso di yo que tú.",
+            "uk": "Щоб пофантазувати разом із кимось, спитай ¿qué harías si…? + «imperfecto de subjuntivo». Si yo fuera tú означає те саме, що yo que tú.",
+            "de": "Um mit jemandem zusammen zu fantasieren, frag ¿qué harías si…? + imperfecto de subjuntivo. Si yo fuera tú bedeutet dasselbe wie yo que tú (an deiner Stelle).",
+            "fr": "Pour imaginer avec quelqu'un, demande ¿qué harías si…? + l'imperfecto de subjuntivo. Si yo fuera tú veut dire la même chose que yo que tú (« à ta place »).",
+            "pt": "Para imaginar junto com alguém, pergunte ¿qué harías si…? + o imperfecto de subjuntivo. Si yo fuera tú quer dizer o mesmo que yo que tú.",
+            "zh": "和别人一起想象时，问 ¿qué harías si…? + 过去时虚拟式。si yo fuera tú 和 yo que tú 意思一样。"
+          },
+          "examples": [
+            {
+              "es": "¿Qué harías si te tocara la lotería?",
+              "en": "What would you do if you won the lottery?",
+              "it": "Cosa faresti se vincessi alla lotteria?",
+              "uk": "Що б ти зробив(-ла), якби виграв(-ла) у лотерею?",
+              "de": "Was würdest du machen, wenn du im Lotto gewinnen würdest?",
+              "fr": "Qu'est-ce que tu ferais si tu gagnais à la loterie ?",
+              "pt": "O que você faria se ganhasse na loteria?",
+              "zh": "如果你中了彩票，你会做什么？"
+            },
+            {
+              "es": "Si me tocara la lotería, dejaría de trabajar.",
+              "en": "If I won the lottery, I'd stop working.",
+              "it": "Se vincessi alla lotteria, smetterei di lavorare.",
+              "uk": "Якби я виграв(-ла) у лотерею, я б кинув(-ла) роботу.",
+              "de": "Wenn ich im Lotto gewinnen würde, würde ich aufhören zu arbeiten.",
+              "fr": "Si je gagnais à la loterie, j'arrêterais de travailler.",
+              "pt": "Se eu ganhasse na loteria, pararia de trabalhar.",
+              "zh": "如果我中了彩票，我就不工作了。"
+            },
+            {
+              "es": "Si yo fuera tú, aceptaría la oferta.",
+              "en": "If I were you, I'd accept the offer.",
+              "it": "Se fossi in te, accetterei l'offerta.",
+              "uk": "Якби я був (була) тобою, я б прийняв(-ла) цю пропозицію.",
+              "de": "Wenn ich du wäre, würde ich das Angebot annehmen.",
+              "fr": "Si j'étais toi, j'accepterais l'offre.",
+              "pt": "Se eu fosse você, aceitaria a oferta.",
+              "zh": "如果我是你，我会接受这份工作邀请。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "dejaría",
+              "en": "I / he / she would stop, would leave",
+              "it": "smetterei, lascerei; smetterebbe, lascerebbe",
+              "uk": "я / він / вона кинув(-ла) би, залишив(-ла) би",
+              "de": "ich / er / sie würde aufhören, würde lassen",
+              "fr": "j'arrêterais, je laisserais ; il / elle arrêterait, laisserait",
+              "pt": "eu / ele / ela pararia, deixaria",
+              "zh": "我／他／她会停止、会离开"
+            },
+            {
+              "es": "daría",
+              "en": "I / he / she would give",
+              "it": "darei, darebbe",
+              "uk": "я / він / вона дав(-ла) би",
+              "de": "ich / er / sie würde geben",
+              "fr": "je donnerais, il / elle donnerait",
+              "pt": "eu / ele / ela daria",
+              "zh": "我／他／她会给"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "¿Qué ",
+          "after": " si te tocara la lotería?",
+          "options": [
+            "harías",
+            "haces",
+            "hicieras"
+          ],
+          "answer": "harías",
+          "en": "What would you do if you won the lottery?",
+          "it": "Cosa faresti se vincessi alla lotteria?",
+          "uk": "Що б ти зробив(-ла), якби виграв(-ла) у лотерею?",
+          "de": "Was würdest du machen, wenn du im Lotto gewinnen würdest?",
+          "fr": "Qu'est-ce que tu ferais si tu gagnais à la loterie ?",
+          "pt": "O que você faria se ganhasse na loteria?",
+          "zh": "如果你中了彩票，你会做什么？",
+          "hint": {
+            "en": "The question itself is the conditional: harías.",
+            "it": "La domanda stessa è al condizionale: harías.",
+            "uk": "Саме питання — в умовному способі: harías.",
+            "de": "Die Frage selbst steht im condicional: harías.",
+            "fr": "La question elle-même est au conditionnel : harías.",
+            "pt": "A própria pergunta está no condicional: harías.",
+            "zh": "问句本身用条件式：harías。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "A friend asks «¿Qué harías si te tocara la lotería?». Say: if I won the lottery, I'd travel around the world.",
+            "it": "Un amico ti chiede «¿Qué harías si te tocara la lotería?». Rispondi: se vincessi alla lotteria, farei il giro del mondo.",
+            "uk": "Друг питає: «¿Qué harías si te tocara la lotería?». Скажи: якби я виграв(-ла) у лотерею, я б об'їхав(-ла) весь світ.",
+            "de": "Eine Freundin fragt: «¿Qué harías si te tocara la lotería?». Sag: Wenn ich im Lotto gewinnen würde, würde ich eine Weltreise machen.",
+            "fr": "Un ami te demande «¿Qué harías si te tocara la lotería?». Dis : si je gagnais à la loterie, je ferais le tour du monde.",
+            "pt": "Um amigo pergunta «¿Qué harías si te tocara la lotería?». Responda: se eu ganhasse na loteria, daria a volta ao mundo.",
+            "zh": "朋友问：«¿Qué harías si te tocara la lotería?»。回答：如果我中了彩票，我会环游世界。"
+          },
+          "accepted": [
+            "Si me tocara la lotería, daría la vuelta al mundo.",
+            "Daría la vuelta al mundo si me tocara la lotería."
+          ],
+          "tiles": [
+            "Si",
+            "me tocara",
+            "la lotería,",
+            "daría",
+            "la vuelta al mundo",
+            "doy",
+            "tengo"
+          ],
+          "en": "If I won the lottery, I'd travel around the world.",
+          "it": "Se vincessi alla lotteria, farei il giro del mondo.",
+          "uk": "Якби я виграв(-ла) у лотерею, я б об'їхав(-ла) весь світ.",
+          "de": "Wenn ich im Lotto gewinnen würde, würde ich eine Weltreise machen.",
+          "fr": "Si je gagnais à la loterie, je ferais le tour du monde.",
+          "pt": "Se eu ganhasse na loteria, daria a volta ao mundo.",
+          "zh": "如果我中了彩票，我会环游世界。",
+          "hint": {
+            "en": "si + tocara, then the conditional: daría.",
+            "it": "si + tocara, poi il condizionale: daría.",
+            "uk": "si + tocara, потім умовний спосіб: daría.",
+            "de": "si + tocara, danach der condicional: daría.",
+            "fr": "si + tocara, puis le conditionnel : daría.",
+            "pt": "si + tocara, depois o condicional: daría.",
+            "zh": "si + tocara，然后用条件式：daría。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "Si yo ",
+          "after": " tú, hablaría con él.",
+          "options": [
+            "fuera",
+            "eres",
+            "sería"
+          ],
+          "answer": "fuera",
+          "en": "If I were you, I'd talk to him.",
+          "it": "Se fossi in te, parlerei con lui.",
+          "uk": "Якби я був (була) тобою, я б з ним поговорив(-ла).",
+          "de": "Wenn ich du wäre, würde ich mit ihm reden.",
+          "fr": "Si j'étais toi, je lui parlerais.",
+          "pt": "Se eu fosse você, falaria com ele.",
+          "zh": "如果我是你，我会跟他谈谈。",
+          "hint": {
+            "en": "Si yo fuera tú = yo que tú.",
+            "it": "Si yo fuera tú = yo que tú.",
+            "uk": "Si yo fuera tú = yo que tú.",
+            "de": "Si yo fuera tú = yo que tú.",
+            "fr": "Si yo fuera tú = yo que tú.",
+            "pt": "Si yo fuera tú = yo que tú.",
+            "zh": "si yo fuera tú = yo que tú。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "Si mañana ",
+          "after": " sol, vamos a la playa.",
+          "options": [
+            "hace",
+            "hiciera"
+          ],
+          "answer": "hace",
+          "en": "If it's sunny tomorrow, we'll go to the beach.",
+          "it": "Se domani c'è il sole, andiamo al mare.",
+          "uk": "Якщо завтра буде сонячно, ми поїдемо на пляж.",
+          "de": "Wenn morgen die Sonne scheint, gehen wir an den Strand.",
+          "fr": "S'il fait beau demain, on va à la plage.",
+          "pt": "Se amanhã fizer sol, vamos à praia.",
+          "zh": "如果明天天气晴朗，我们就去海边。",
+          "hint": {
+            "en": "A real possibility with vamos: si + the normal present.",
+            "it": "Una possibilità reale con vamos: si + il presente normale.",
+            "uk": "Реальна можливість, і далі vamos: si + звичайний теперішній час.",
+            "de": "Eine echte Möglichkeit mit vamos: si + normales Präsens.",
+            "fr": "Une possibilité réelle avec vamos : si + le présent normal.",
+            "pt": "Uma possibilidade real com vamos: si + o presente normal (não o futuro do subjuntivo do português, «se fizer»).",
+            "zh": "这是真实可能发生的事，另一半又是 vamos：si + 普通的现在时。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "mix",
+          "before": "Si ",
+          "after": ", iría contigo, pero tengo que trabajar.",
+          "label": "poder",
+          "accepted": [
+            "pudiera"
+          ],
+          "en": "If I could, I'd go with you, but I have to work.",
+          "it": "Se potessi, verrei con te, ma devo lavorare.",
+          "uk": "Якби я міг (могла), я б пішов (пішла) з тобою, але мені треба працювати.",
+          "de": "Wenn ich könnte, würde ich mit dir mitkommen, aber ich muss arbeiten.",
+          "fr": "Si je pouvais, je viendrais avec toi, mais je dois travailler.",
+          "pt": "Se eu pudesse, iria com você, mas tenho que trabalhar.",
+          "zh": "如果可以的话，我就跟你一起去了，可是我得工作。",
+          "hint": {
+            "en": "You can't: si + the imperfect subjunctive, pudiera.",
+            "it": "Non puoi: si + il congiuntivo imperfetto, pudiera.",
+            "uk": "Ти не можеш: si + «imperfecto de subjuntivo», pudiera.",
+            "de": "Du kannst nicht: si + imperfecto de subjuntivo, pudiera.",
+            "fr": "Tu ne peux pas : si + l'imperfecto de subjuntivo, pudiera.",
+            "pt": "Você não pode: si + o imperfecto de subjuntivo, pudiera.",
+            "zh": "你去不了：si + 过去时虚拟式，pudiera。"
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "Write in Spanish: «If I had money, I'd buy a house on the beach.»",
+            "it": "Scrivi in spagnolo: «Se avessi soldi, comprerei una casa al mare.»",
+            "uk": "Напиши іспанською: «Якби в мене були гроші, я б купив(-ла) будинок біля моря.»",
+            "de": "Schreib auf Spanisch: «Wenn ich Geld hätte, würde ich mir ein Haus am Strand kaufen.»",
+            "fr": "Écris en espagnol : «Si j'avais de l'argent, j'achèterais une maison au bord de la mer.»",
+            "pt": "Escreva em espanhol: «Se eu tivesse dinheiro, compraria uma casa na praia.»",
+            "zh": "用西班牙语写：«如果我有钱，我就在海边买一栋房子。»"
+          },
+          "accepted": [
+            "Si tuviera dinero, compraría una casa en la playa.",
+            "Si tuviera dinero, me compraría una casa en la playa.",
+            "Compraría una casa en la playa si tuviera dinero.",
+            "Me compraría una casa en la playa si tuviera dinero.",
+            "Si yo tuviera dinero, compraría una casa en la playa."
+          ],
+          "model": {
+            "es": "Si tuviera dinero, compraría una casa en la playa.",
+            "en": "If I had money, I'd buy a house on the beach.",
+            "it": "Se avessi soldi, comprerei una casa al mare.",
+            "uk": "Якби в мене були гроші, я б купив(-ла) будинок біля моря.",
+            "de": "Wenn ich Geld hätte, würde ich mir ein Haus am Strand kaufen.",
+            "fr": "Si j'avais de l'argent, j'achèterais une maison au bord de la mer.",
+            "pt": "Se eu tivesse dinheiro, compraria uma casa na praia.",
+            "zh": "如果我有钱，我就在海边买一栋房子。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u37l3",
+      "goal": {
+        "en": "Wish for things that can't be, or are very unlikely: ojalá + the imperfect subjunctive (ojalá pudiera, ojalá estuvieras aquí), and ¡quién pudiera!",
+        "it": "Desidera cose impossibili o molto improbabili: ojalá + il congiuntivo imperfetto (ojalá pudiera, ojalá estuvieras aquí) e ¡quién pudiera!",
+        "uk": "Бажай того, що неможливе або дуже малоймовірне: ojalá + «imperfecto de subjuntivo» (ojalá pudiera, ojalá estuvieras aquí), а також ¡quién pudiera!",
+        "de": "Wünsch dir Dinge, die nicht sein können oder sehr unwahrscheinlich sind: ojalá + imperfecto de subjuntivo (ojalá pudiera, ojalá estuvieras aquí) und ¡quién pudiera!",
+        "fr": "Souhaite des choses impossibles ou très peu probables : ojalá + l'imperfecto de subjuntivo (ojalá pudiera, ojalá estuvieras aquí), et ¡quién pudiera!",
+        "pt": "Deseje coisas impossíveis ou muito improváveis: ojalá + o imperfecto de subjuntivo (ojalá pudiera, ojalá estuvieras aquí) e ¡quién pudiera!",
+        "zh": "表达不可能或几乎不可能实现的愿望：ojalá + 过去时虚拟式（ojalá pudiera，ojalá estuvieras aquí），以及 ¡quién pudiera!"
+      },
+      "target": {
+        "es": "Ojalá pudiera ir a tu boda, pero tengo que trabajar.",
+        "en": "I wish I could go to your wedding, but I have to work.",
+        "it": "Magari potessi venire al tuo matrimonio, ma devo lavorare.",
+        "uk": "Шкода, що я не можу прийти на твоє весілля, але мені треба працювати.",
+        "de": "Ich wünschte, ich könnte zu deiner Hochzeit kommen, aber ich muss arbeiten.",
+        "fr": "J'aimerais tant pouvoir venir à ton mariage, mais je dois travailler.",
+        "pt": "Quem dera eu pudesse ir ao seu casamento, mas tenho que trabalhar.",
+        "zh": "真希望我能去参加你的婚礼，可是我得工作。"
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "imposible",
+              "en": "impossible",
+              "it": "impossibile",
+              "uk": "неможливий",
+              "de": "unmöglich",
+              "fr": "impossible",
+              "pt": "impossível",
+              "zh": "不可能的",
+              "kind": "chunk"
+            },
+            {
+              "es": "¡quién pudiera!",
+              "en": "if only I could!",
+              "it": "magari potessi!, beato chi può!",
+              "uk": "якби ж то я міг (могла)!",
+              "de": "das hätte ich auch gern!, wenn ich nur könnte!",
+              "fr": "si seulement je pouvais !",
+              "pt": "quem me dera!, quem dera eu pudesse!",
+              "zh": "我要是能这样就好了！",
+              "kind": "chunk"
+            },
+            {
+              "es": "te echo de menos",
+              "en": "I miss you",
+              "it": "mi manchi",
+              "uk": "я сумую за тобою",
+              "de": "ich vermisse dich",
+              "fr": "tu me manques",
+              "pt": "sinto sua falta, estou com saudade de você",
+              "zh": "我想你",
+              "kind": "chunk"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "ojalá",
+              "kind": "rail"
+            },
+            {
+              "text": "pudiera",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "ojalá + the imperfect subjunctive wishes for something that isn't true now: ojalá tuviera más tiempo (but I don't). In English it's often I wish…",
+            "it": "ojalá + il congiuntivo imperfetto desidera qualcosa che ora non è vero: ojalá tuviera más tiempo (ma non ce l'ho). In italiano spesso è magari… o vorrei che…",
+            "uk": "ojalá + «imperfecto de subjuntivo» — це бажання про те, що зараз не є правдою: ojalá tuviera más tiempo (але часу немає). Українською часто кажемо «якби ж то…» або «шкода, що не…».",
+            "de": "ojalá + imperfecto de subjuntivo wünscht sich etwas, das jetzt nicht wahr ist: ojalá tuviera más tiempo (aber ich habe sie nicht). Im Deutschen sagt man oft „Ich wünschte, …“ oder „Wenn ich doch nur …“.",
+            "fr": "ojalá + l'imperfecto de subjuntivo souhaite quelque chose qui n'est pas vrai maintenant : ojalá tuviera más tiempo (mais je n'en ai pas). En français, c'est souvent « si seulement… » ou « j'aimerais que… ».",
+            "pt": "ojalá + o imperfecto de subjuntivo deseja algo que agora não é verdade: ojalá tuviera más tiempo (mas eu não tenho). Em português costuma ser quem dera…: «quem dera eu tivesse mais tempo».",
+            "zh": "ojalá + 过去时虚拟式表示希望现在并不真实的事：ojalá tuviera más tiempo（可是我没有）。中文常说“要是……就好了”“真希望……”。"
+          },
+          "examples": [
+            {
+              "es": "Ojalá tuviera más tiempo.",
+              "en": "I wish I had more time.",
+              "it": "Magari avessi più tempo.",
+              "uk": "Якби ж то в мене було більше часу.",
+              "de": "Ich wünschte, ich hätte mehr Zeit.",
+              "fr": "Si seulement j'avais plus de temps.",
+              "pt": "Quem dera eu tivesse mais tempo.",
+              "zh": "要是我有更多时间就好了。"
+            },
+            {
+              "es": "Ojalá estuvieras aquí.",
+              "en": "I wish you were here.",
+              "it": "Vorrei che fossi qui.",
+              "uk": "Якби ж то ти був (була) тут.",
+              "de": "Ich wünschte, du wärst hier.",
+              "fr": "J'aimerais que tu sois là.",
+              "pt": "Quem dera você estivesse aqui.",
+              "zh": "真希望你在这里。"
+            },
+            {
+              "es": "Ojalá pudiera ir a tu boda.",
+              "en": "I wish I could go to your wedding.",
+              "it": "Magari potessi venire al tuo matrimonio.",
+              "uk": "Якби ж то я міг (могла) прийти на твоє весілля.",
+              "de": "Ich wünschte, ich könnte zu deiner Hochzeit kommen.",
+              "fr": "Si seulement je pouvais venir à ton mariage.",
+              "pt": "Quem dera eu pudesse ir ao seu casamento.",
+              "zh": "真希望我能去参加你的婚礼。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "supiera",
+              "en": "(that) I / he / she knew",
+              "it": "(che io / lui / lei) sapessi / sapesse",
+              "uk": "(щоб) я / він / вона знав(-ла), умів(-ла)",
+              "de": "(dass) ich / er / sie wusste, konnte",
+              "fr": "(que je / qu'il / qu'elle) sache",
+              "pt": "(que eu / ele / ela) soubesse",
+              "zh": "我／他／她知道、会（过去时虚拟式）"
+            },
+            {
+              "es": "supieras",
+              "en": "(that) you knew",
+              "it": "(che tu) sapessi",
+              "uk": "(щоб) ти знав(-ла), умів(-ла)",
+              "de": "(dass) du wusstest, konntest",
+              "fr": "(que tu) saches",
+              "pt": "(que você) soubesse",
+              "zh": "你知道、会（过去时虚拟式）"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Ojalá ",
+          "after": " aquí, en {city}.",
+          "options": [
+            "estuvieras",
+            "estás",
+            "estabas"
+          ],
+          "answer": "estuvieras",
+          "en": "I wish you were here, in {city}.",
+          "it": "Vorrei che fossi qui, a {city}.",
+          "uk": "Якби ж то ти був (була) тут, у місті {city}.",
+          "de": "Ich wünschte, du wärst hier, in {city}.",
+          "fr": "J'aimerais que tu sois là, à {city}.",
+          "pt": "Quem dera você estivesse aqui, em {city}.",
+          "zh": "真希望你在这里，在{city}。",
+          "hint": {
+            "en": "You're not here: ojalá + the imperfect subjunctive.",
+            "it": "Non sei qui: ojalá + il congiuntivo imperfetto.",
+            "uk": "Тебе тут немає: ojalá + «imperfecto de subjuntivo».",
+            "de": "Du bist nicht hier: ojalá + imperfecto de subjuntivo.",
+            "fr": "Tu n'es pas là : ojalá + l'imperfecto de subjuntivo.",
+            "pt": "Você não está aqui: ojalá + o imperfecto de subjuntivo.",
+            "zh": "你不在这里：ojalá + 过去时虚拟式。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "fire",
+          "before": "Ojalá ",
+          "after": " ir a tu boda, pero tengo que trabajar.",
+          "label": "poder",
+          "accepted": [
+            "pudiera"
+          ],
+          "en": "I wish I could go to your wedding, but I have to work.",
+          "it": "Magari potessi venire al tuo matrimonio, ma devo lavorare.",
+          "uk": "Шкода, що я не можу прийти на твоє весілля, але мені треба працювати.",
+          "de": "Ich wünschte, ich könnte zu deiner Hochzeit kommen, aber ich muss arbeiten.",
+          "fr": "J'aimerais tant pouvoir venir à ton mariage, mais je dois travailler.",
+          "pt": "Quem dera eu pudesse ir ao seu casamento, mas tenho que trabalhar.",
+          "zh": "真希望我能去参加你的婚礼，可是我得工作。",
+          "hint": {
+            "en": "You can't go: ojalá + pudiera.",
+            "it": "Non puoi andarci: ojalá + pudiera.",
+            "uk": "Ти не можеш прийти: ojalá + pudiera.",
+            "de": "Du kannst nicht hin: ojalá + pudiera.",
+            "fr": "Tu ne peux pas y aller : ojalá + pudiera.",
+            "pt": "Você não pode ir: ojalá + pudiera.",
+            "zh": "你去不了：ojalá + pudiera。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "ojalá venga",
+              "kind": "stem"
+            },
+            {
+              "text": "ojalá viniera",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "ojalá + the present subjunctive: it can still happen (ojalá venga). ojalá + the imperfect subjunctive: it isn't true or is very unlikely (ojalá viniera).",
+            "it": "ojalá + il congiuntivo presente: può ancora succedere (ojalá venga). ojalá + il congiuntivo imperfetto: non è vero o è molto improbabile (ojalá viniera).",
+            "uk": "ojalá + теперішній «subjuntivo»: це ще може статися (ojalá venga). ojalá + «imperfecto de subjuntivo»: це неправда або дуже малоймовірно (ojalá viniera).",
+            "de": "ojalá + subjuntivo im Präsens: Es kann noch passieren (ojalá venga). ojalá + imperfecto de subjuntivo: Es ist nicht wahr oder sehr unwahrscheinlich (ojalá viniera).",
+            "fr": "ojalá + le subjonctif présent : ça peut encore arriver (ojalá venga). ojalá + l'imperfecto de subjuntivo : ce n'est pas vrai ou c'est très peu probable (ojalá viniera).",
+            "pt": "ojalá + o subjuntivo presente: ainda pode acontecer (ojalá venga, «tomara que venha»). ojalá + o imperfecto de subjuntivo: não é verdade ou é muito improvável (ojalá viniera, «quem dera viesse»).",
+            "zh": "ojalá + 现在时虚拟式：事情还可能发生（ojalá venga）。ojalá + 过去时虚拟式：事情不是真的，或者几乎不可能（ojalá viniera）。"
+          },
+          "examples": [
+            {
+              "es": "Ojalá haga sol mañana.",
+              "en": "I really hope it's sunny tomorrow.",
+              "it": "Speriamo che domani ci sia il sole.",
+              "uk": "Дуже сподіваюся, що завтра буде сонячно.",
+              "de": "Hoffentlich scheint morgen die Sonne.",
+              "fr": "Pourvu qu'il fasse beau demain.",
+              "pt": "Tomara que faça sol amanhã.",
+              "zh": "真希望明天是晴天。"
+            },
+            {
+              "es": "Hoy llueve mucho. Ojalá hiciera sol.",
+              "en": "It's pouring today. I wish it was sunny.",
+              "it": "Oggi piove tanto. Magari ci fosse il sole.",
+              "uk": "Сьогодні ллє як із відра. Якби ж то світило сонце.",
+              "de": "Heute regnet es stark. Ich wünschte, die Sonne würde scheinen.",
+              "fr": "Aujourd'hui, il pleut beaucoup. Si seulement il faisait beau.",
+              "pt": "Hoje está chovendo muito. Quem dera fizesse sol.",
+              "zh": "今天雨下得很大。要是出太阳就好了。"
+            },
+            {
+              "es": "No sé nadar. Ojalá supiera.",
+              "en": "I can't swim. I wish I could.",
+              "it": "Non so nuotare. Magari sapessi farlo.",
+              "uk": "Я не вмію плавати. Якби ж то вмів (вміла).",
+              "de": "Ich kann nicht schwimmen. Ich wünschte, ich könnte es.",
+              "fr": "Je ne sais pas nager. Si seulement je savais.",
+              "pt": "Eu não sei nadar. Quem dera eu soubesse.",
+              "zh": "我不会游泳。要是我会就好了。"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Estoy en la oficina. Ojalá ",
+          "after": " en la playa.",
+          "options": [
+            "estuviera",
+            "esté"
+          ],
+          "answer": "estuviera",
+          "en": "I'm at the office. I wish I was on the beach.",
+          "it": "Sono in ufficio. Magari fossi al mare.",
+          "uk": "Я в офісі. Якби ж то я був (була) на пляжі.",
+          "de": "Ich bin im Büro. Ich wünschte, ich wäre am Strand.",
+          "fr": "Je suis au bureau. Si seulement j'étais à la plage.",
+          "pt": "Estou no escritório. Quem dera eu estivesse na praia.",
+          "zh": "我在办公室。要是我在海边就好了。",
+          "hint": {
+            "en": "You're not on the beach now: the imperfect subjunctive.",
+            "it": "Ora non sei al mare: il congiuntivo imperfetto.",
+            "uk": "Зараз ти не на пляжі: «imperfecto de subjuntivo».",
+            "de": "Du bist gerade nicht am Strand: imperfecto de subjuntivo.",
+            "fr": "Tu n'es pas à la plage maintenant : l'imperfecto de subjuntivo.",
+            "pt": "Agora você não está na praia: o imperfecto de subjuntivo.",
+            "zh": "你现在不在海边：用过去时虚拟式。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "fire",
+          "before": "No sé cocinar. ¡Ojalá ",
+          "after": " cocinar como tú!",
+          "options": [
+            "supiera",
+            "sepa"
+          ],
+          "answer": "supiera",
+          "en": "I can't cook. I wish I could cook like you!",
+          "it": "Non so cucinare. Magari sapessi cucinare come te!",
+          "uk": "Я не вмію готувати. Якби ж то я вмів (вміла) готувати, як ти!",
+          "de": "Ich kann nicht kochen. Ich wünschte, ich könnte so kochen wie du!",
+          "fr": "Je ne sais pas cuisiner. Si seulement je savais cuisiner comme toi !",
+          "pt": "Eu não sei cozinhar. Quem dera eu soubesse cozinhar como você!",
+          "zh": "我不会做饭。要是我能像你一样会做饭就好了！",
+          "hint": {
+            "en": "It isn't true now: supiera, the imperfect subjunctive.",
+            "it": "Ora non è vero: supiera, il congiuntivo imperfetto.",
+            "uk": "Зараз це неправда: supiera, «imperfecto de subjuntivo».",
+            "de": "Es ist jetzt nicht wahr: supiera, imperfecto de subjuntivo.",
+            "fr": "Ce n'est pas vrai maintenant : supiera, l'imperfecto de subjuntivo.",
+            "pt": "Agora não é verdade: supiera, o imperfecto de subjuntivo.",
+            "zh": "现在不是这样：supiera，过去时虚拟式。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "ojalá no",
+              "kind": "rail"
+            },
+            {
+              "text": "tuviera que",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "To wish you weren't in a situation: ojalá no + the imperfect subjunctive. When someone tells you about something nice you can't do, say ¡quién pudiera! (if only I could!).",
+            "it": "Per desiderare di non essere in una situazione: ojalá no + il congiuntivo imperfetto. Quando qualcuno ti racconta qualcosa di bello che tu non puoi fare, di' ¡quién pudiera! (magari potessi!).",
+            "uk": "Щоб побажати не бути в якійсь ситуації: ojalá no + «imperfecto de subjuntivo». Коли тобі розповідають про щось приємне, чого ти не можеш собі дозволити, скажи ¡quién pudiera! (якби ж то я міг (могла)!).",
+            "de": "Wenn du wünschst, du wärst nicht in einer Situation: ojalá no + imperfecto de subjuntivo. Wenn dir jemand von etwas Schönem erzählt, das du nicht tun kannst, sag ¡quién pudiera! (das hätte ich auch gern!).",
+            "fr": "Pour souhaiter ne pas être dans une situation : ojalá no + l'imperfecto de subjuntivo. Quand quelqu'un te parle d'une chose agréable que tu ne peux pas faire, dis ¡quién pudiera! (si seulement je pouvais !).",
+            "pt": "Para desejar não estar numa situação: ojalá no + o imperfecto de subjuntivo. Quando alguém conta algo legal que você não pode fazer, diga ¡quién pudiera! (quem me dera!).",
+            "zh": "希望自己不在某种处境中：ojalá no + 过去时虚拟式。别人跟你说一件你做不了的好事时，说 ¡quién pudiera!（我要是能这样就好了！）。"
+          },
+          "examples": [
+            {
+              "es": "Ojalá no tuviera que trabajar mañana.",
+              "en": "I wish I didn't have to work tomorrow.",
+              "it": "Magari domani non dovessi lavorare.",
+              "uk": "Шкода, що мені завтра треба працювати.",
+              "de": "Ich wünschte, ich müsste morgen nicht arbeiten.",
+              "fr": "Si seulement je n'avais pas à travailler demain.",
+              "pt": "Quem dera eu não tivesse que trabalhar amanhã.",
+              "zh": "要是我明天不用上班就好了。"
+            },
+            {
+              "es": "Ojalá no viviera tan lejos.",
+              "en": "I wish I didn't live so far away.",
+              "it": "Magari non abitassi così lontano.",
+              "uk": "Шкода, що я живу так далеко.",
+              "de": "Ich wünschte, ich würde nicht so weit weg wohnen.",
+              "fr": "Si seulement je n'habitais pas si loin.",
+              "pt": "Quem dera eu não morasse tão longe.",
+              "zh": "要是我不住得这么远就好了。"
+            },
+            {
+              "es": "¿Un mes de vacaciones? ¡Quién pudiera!",
+              "en": "A month's holiday? If only I could!",
+              "it": "Un mese di vacanza? Beato te!",
+              "uk": "Місяць відпустки? Якби ж то!",
+              "de": "Einen Monat Urlaub? Das hätte ich auch gern!",
+              "fr": "Un mois de vacances ? Si seulement je pouvais !",
+              "pt": "Um mês de férias? Quem me dera!",
+              "zh": "放一个月假？我要是能这样就好了！"
+            }
+          ]
+        },
+        {
+          "type": "build",
+          "beat": "forge",
+          "intention": {
+            "en": "It's Sunday night and you're tired. Tell your partner you wish you didn't have to work tomorrow.",
+            "it": "È domenica sera e sei stanco. Di' al tuo compagno che vorresti non dover lavorare domani.",
+            "uk": "Неділя ввечері, і ти втомився(-лася). Скажи партнерові, що тобі шкода, що завтра треба працювати.",
+            "de": "Es ist Sonntagabend und du bist müde. Sag deinem Partner (deiner Partnerin), dass du wünschtest, du müsstest morgen nicht arbeiten.",
+            "fr": "C'est dimanche soir et tu es fatigué. Dis à ton partenaire que tu aimerais ne pas avoir à travailler demain.",
+            "pt": "É domingo à noite e você está cansado. Diga ao seu companheiro que você queria não ter que trabalhar amanhã.",
+            "zh": "星期天晚上，你很累。告诉你的伴侣，要是你明天不用上班就好了。"
+          },
+          "accepted": [
+            "Ojalá no tuviera que trabajar mañana.",
+            "Ojalá mañana no tuviera que trabajar."
+          ],
+          "tiles": [
+            "Ojalá",
+            "no",
+            "tuviera que",
+            "trabajar",
+            "mañana",
+            "tengo que",
+            "tenga que"
+          ],
+          "en": "I wish I didn't have to work tomorrow.",
+          "it": "Magari domani non dovessi lavorare.",
+          "uk": "Шкода, що мені завтра треба працювати.",
+          "de": "Ich wünschte, ich müsste morgen nicht arbeiten.",
+          "fr": "Si seulement je n'avais pas à travailler demain.",
+          "pt": "Quem dera eu não tivesse que trabalhar amanhã.",
+          "zh": "要是我明天不用上班就好了。",
+          "hint": {
+            "en": "You do have to: ojalá no + tuviera que.",
+            "it": "Invece devi: ojalá no + tuviera que.",
+            "uk": "Але працювати таки треба: ojalá no + tuviera que.",
+            "de": "Du musst aber: ojalá no + tuviera que.",
+            "fr": "En fait, tu dois travailler : ojalá no + tuviera que.",
+            "pt": "Na verdade você tem que trabalhar: ojalá no + tuviera que.",
+            "zh": "你其实得上班：ojalá no + tuviera que。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "fire",
+          "before": "¿Te vas un mes a la playa? ¡Quién ",
+          "after": "!",
+          "options": [
+            "pudiera",
+            "puede",
+            "pueda"
+          ],
+          "answer": "pudiera",
+          "en": "You're off to the beach for a month? If only I could!",
+          "it": "Te ne vai un mese al mare? Beato te!",
+          "uk": "Ти їдеш на море на цілий місяць? Якби ж то я міг (могла)!",
+          "de": "Du fährst einen Monat an den Strand? Das hätte ich auch gern!",
+          "fr": "Tu pars un mois à la plage ? Si seulement je pouvais !",
+          "pt": "Você vai passar um mês na praia? Quem me dera!",
+          "zh": "你要去海边待一个月？我要是能这样就好了！",
+          "hint": {
+            "en": "A fixed phrase: ¡quién pudiera!",
+            "it": "Una frase fissa: ¡quién pudiera!",
+            "uk": "Сталий вираз: ¡quién pudiera!",
+            "de": "Eine feste Wendung: ¡quién pudiera!",
+            "fr": "Une expression toute faite : ¡quién pudiera!",
+            "pt": "Uma expressão fixa: ¡quién pudiera!",
+            "zh": "固定说法：¡quién pudiera!"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "mix",
+          "before": "Ojalá ",
+          "after": " más tiempo para leer.",
+          "label": "tener",
+          "accepted": [
+            "tuviera"
+          ],
+          "en": "I wish I had more time to read.",
+          "it": "Magari avessi più tempo per leggere.",
+          "uk": "Якби ж то в мене було більше часу на читання.",
+          "de": "Ich wünschte, ich hätte mehr Zeit zum Lesen.",
+          "fr": "Si seulement j'avais plus de temps pour lire.",
+          "pt": "Quem dera eu tivesse mais tempo para ler.",
+          "zh": "要是我有更多时间看书就好了。",
+          "hint": {
+            "en": "You don't have it: tuviera.",
+            "it": "Non ce l'hai: tuviera.",
+            "uk": "Часу в тебе немає: tuviera.",
+            "de": "Du hast sie nicht: tuviera.",
+            "fr": "Tu ne l'as pas : tuviera.",
+            "pt": "Você não tem: tuviera.",
+            "zh": "你没有时间：tuviera。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "Ojalá ",
+          "after": " aquí: te echo de menos.",
+          "options": [
+            "estuvieras",
+            "estás",
+            "estabas"
+          ],
+          "answer": "estuvieras",
+          "en": "I wish you were here: I miss you.",
+          "it": "Vorrei che fossi qui: mi manchi.",
+          "uk": "Якби ж то ти був (була) тут: я сумую за тобою.",
+          "de": "Ich wünschte, du wärst hier: Ich vermisse dich.",
+          "fr": "J'aimerais que tu sois là : tu me manques.",
+          "pt": "Quem dera você estivesse aqui: estou com saudade de você.",
+          "zh": "真希望你在这里：我想你。",
+          "hint": {
+            "en": "You're not here: ojalá + the imperfect subjunctive.",
+            "it": "Non sei qui: ojalá + il congiuntivo imperfetto.",
+            "uk": "Тебе тут немає: ojalá + «imperfecto de subjuntivo».",
+            "de": "Du bist nicht hier: ojalá + imperfecto de subjuntivo.",
+            "fr": "Tu n'es pas là : ojalá + l'imperfecto de subjuntivo.",
+            "pt": "Você não está aqui: ojalá + o imperfecto de subjuntivo.",
+            "zh": "你不在这里：ojalá + 过去时虚拟式。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "mix",
+          "intention": {
+            "en": "Your best friend has moved to another country. Tell her you wish she lived closer.",
+            "it": "La tua migliore amica si è trasferita in un altro paese. Dille che vorresti che abitasse più vicino.",
+            "uk": "Твоя найкраща подруга переїхала до іншої країни. Скажи їй, як би тобі хотілося, щоб вона жила ближче.",
+            "de": "Deine beste Freundin ist in ein anderes Land gezogen. Sag ihr, dass du wünschtest, sie würde näher wohnen.",
+            "fr": "Ta meilleure amie est partie vivre dans un autre pays. Dis-lui que tu aimerais qu'elle habite plus près.",
+            "pt": "A sua melhor amiga se mudou para outro país. Diga a ela que você queria que ela morasse mais perto.",
+            "zh": "你最好的朋友搬到了另一个国家。告诉她，要是她住得近一点就好了。"
+          },
+          "accepted": [
+            "Ojalá vivieras más cerca."
+          ],
+          "tiles": [
+            "Ojalá",
+            "vivieras",
+            "más cerca",
+            "vives",
+            "lejos"
+          ],
+          "en": "I wish you lived closer.",
+          "it": "Vorrei che abitassi più vicino.",
+          "uk": "Якби ж то ти жила ближче.",
+          "de": "Ich wünschte, du würdest näher wohnen.",
+          "fr": "J'aimerais que tu habites plus près.",
+          "pt": "Quem dera você morasse mais perto.",
+          "zh": "要是你住得近一点就好了。",
+          "hint": {
+            "en": "She doesn't: ojalá + vivieras.",
+            "it": "Non è così: ojalá + vivieras.",
+            "uk": "Вона живе не близько: ojalá + vivieras.",
+            "de": "Sie wohnt nicht näher: ojalá + vivieras.",
+            "fr": "Ce n'est pas le cas : ojalá + vivieras.",
+            "pt": "Ela não mora: ojalá + vivieras.",
+            "zh": "她住得不近：ojalá + vivieras。"
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "You're answering a friend's wedding invitation. Write in Spanish: «I wish I could go to your wedding, but I have to work.»",
+            "it": "Stai rispondendo all'invito di nozze di un amico. Scrivi in spagnolo: «Magari potessi venire al tuo matrimonio, ma devo lavorare.»",
+            "uk": "Ти відповідаєш на запрошення на весілля від друга. Напиши іспанською: «Шкода, що я не можу прийти на твоє весілля, але мені треба працювати.»",
+            "de": "Du antwortest auf die Hochzeitseinladung einer Freundin. Schreib auf Spanisch: «Ich wünschte, ich könnte zu deiner Hochzeit kommen, aber ich muss arbeiten.»",
+            "fr": "Tu réponds à l'invitation au mariage d'un ami. Écris en espagnol : «J'aimerais tant pouvoir venir à ton mariage, mais je dois travailler.»",
+            "pt": "Você está respondendo ao convite de casamento de um amigo. Escreva em espanhol: «Quem dera eu pudesse ir ao seu casamento, mas tenho que trabalhar.»",
+            "zh": "你在回复朋友的婚礼邀请。用西班牙语写：«真希望我能去参加你的婚礼，可是我得工作。»"
+          },
+          "accepted": [
+            "Ojalá pudiera ir a tu boda, pero tengo que trabajar.",
+            "Ojalá pudiera ir a tu boda pero tengo que trabajar.",
+            "Ojalá pudiera venir a tu boda, pero tengo que trabajar."
+          ],
+          "model": {
+            "es": "Ojalá pudiera ir a tu boda, pero tengo que trabajar.",
+            "en": "I wish I could go to your wedding, but I have to work.",
+            "it": "Magari potessi venire al tuo matrimonio, ma devo lavorare.",
+            "uk": "Шкода, що я не можу прийти на твоє весілля, але мені треба працювати.",
+            "de": "Ich wünschte, ich könnte zu deiner Hochzeit kommen, aber ich muss arbeiten.",
+            "fr": "J'aimerais tant pouvoir venir à ton mariage, mais je dois travailler.",
+            "pt": "Quem dera eu pudesse ir ao seu casamento, mas tenho que trabalhar.",
+            "zh": "真希望我能去参加你的婚礼，可是我得工作。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u37l4",
+      "goal": {
+        "en": "Compare with something that isn't real: como si + the imperfect subjunctive (hablas como si fueras el jefe), haz como si estuvieras en tu casa, como si nada, and ¡ni que fuera…!",
+        "it": "Fai paragoni con qualcosa che non è reale: como si + il congiuntivo imperfetto (hablas como si fueras el jefe), haz como si estuvieras en tu casa, como si nada e ¡ni que fuera…!",
+        "uk": "Порівнюй із тим, чого насправді немає: como si + «imperfecto de subjuntivo» (hablas como si fueras el jefe), haz como si estuvieras en tu casa, como si nada і ¡ni que fuera…!",
+        "de": "Vergleiche mit etwas, das nicht wirklich ist: como si + imperfecto de subjuntivo (hablas como si fueras el jefe), haz como si estuvieras en tu casa, como si nada und ¡ni que fuera…!",
+        "fr": "Compare avec quelque chose qui n'est pas réel : como si + l'imperfecto de subjuntivo (hablas como si fueras el jefe), haz como si estuvieras en tu casa, como si nada, et ¡ni que fuera…!",
+        "pt": "Compare com algo que não é real: como si + o imperfecto de subjuntivo (hablas como si fueras el jefe), haz como si estuvieras en tu casa, como si nada e ¡ni que fuera…!",
+        "zh": "和不真实的情况作比较：como si + 过去时虚拟式（hablas como si fueras el jefe），haz como si estuvieras en tu casa，como si nada，以及 ¡ni que fuera…!"
+      },
+      "target": {
+        "es": "Me tratas como si fuera un niño.",
+        "en": "You treat me as if I were a child.",
+        "it": "Mi tratti come se fossi un bambino.",
+        "uk": "Ти поводишся зі мною так, ніби я дитина.",
+        "de": "Du behandelst mich, als wäre ich ein Kind.",
+        "fr": "Tu me traites comme si j'étais un enfant.",
+        "pt": "Você me trata como se eu fosse uma criança.",
+        "zh": "你对待我就好像我是个小孩一样。"
+      },
+      "names": [
+        "Madrid"
+      ],
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "como si",
+              "en": "as if",
+              "it": "come se",
+              "uk": "ніби, наче",
+              "de": "als ob",
+              "fr": "comme si",
+              "pt": "como se",
+              "zh": "好像，仿佛",
+              "kind": "rail"
+            },
+            {
+              "es": "tratar",
+              "en": "to treat",
+              "it": "trattare",
+              "uk": "поводитися (з кимось), ставитися",
+              "de": "behandeln",
+              "fr": "traiter",
+              "pt": "tratar",
+              "zh": "对待",
+              "kind": "stem"
+            },
+            {
+              "es": "como si nada",
+              "en": "as if nothing had happened, as if it were nothing",
+              "it": "come se niente fosse",
+              "uk": "ніби нічого не сталося, ніби це дрібниця",
+              "de": "als wäre nichts gewesen, als wäre es nichts",
+              "fr": "comme si de rien n'était",
+              "pt": "como se nada tivesse acontecido, como se não fosse nada",
+              "zh": "若无其事，好像什么都没发生",
+              "kind": "chunk"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "como si",
+              "kind": "rail"
+            },
+            {
+              "text": "fueras",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "como si (as if) is always followed by the imperfect subjunctive, even when you're talking about now: hablas como si fueras el jefe.",
+            "it": "como si (come se) vuole sempre il congiuntivo imperfetto, anche quando parli del presente: hablas como si fueras el jefe.",
+            "uk": "Після como si (ніби, наче) завжди йде «imperfecto de subjuntivo», навіть коли йдеться про теперішнє: hablas como si fueras el jefe.",
+            "de": "Nach como si (als ob) steht immer der imperfecto de subjuntivo, auch wenn du über die Gegenwart sprichst: hablas como si fueras el jefe. Ganz ähnlich wie im Deutschen: „als ob du der Chef wärst“.",
+            "fr": "como si (comme si) est toujours suivi de l'imperfecto de subjuntivo, même quand tu parles du présent : hablas como si fueras el jefe. En français, « comme si » est suivi de l'imparfait de l'indicatif (« comme si tu étais le chef ») ; en espagnol, il faut le subjonctif.",
+            "pt": "como si (como se) vem sempre com o imperfecto de subjuntivo, mesmo quando você fala do presente: hablas como si fueras el jefe. Igual ao português: «como se você fosse o chefe».",
+            "zh": "como si（好像）后面总是跟过去时虚拟式，即使说的是现在：hablas como si fueras el jefe。"
+          },
+          "examples": [
+            {
+              "es": "Hablas como si fueras el jefe.",
+              "en": "You talk as if you were the boss.",
+              "it": "Parli come se fossi il capo.",
+              "uk": "Ти говориш так, ніби ти тут начальник.",
+              "de": "Du redest, als wärst du der Chef.",
+              "fr": "Tu parles comme si tu étais le chef.",
+              "pt": "Você fala como se fosse o chefe.",
+              "zh": "你说话就好像你是老板一样。"
+            },
+            {
+              "es": "Me tratas como si tuviera cinco años.",
+              "en": "You treat me as if I were five.",
+              "it": "Mi tratti come se avessi cinque anni.",
+              "uk": "Ти поводишся зі мною так, ніби мені п'ять років.",
+              "de": "Du behandelst mich, als wäre ich fünf.",
+              "fr": "Tu me traites comme si j'avais cinq ans.",
+              "pt": "Você me trata como se eu tivesse cinco anos.",
+              "zh": "你对待我就好像我才五岁。"
+            },
+            {
+              "es": "Me miras como si no me conocieras.",
+              "en": "You're looking at me as if you didn't know me.",
+              "it": "Mi guardi come se non mi conoscessi.",
+              "uk": "Ти дивишся на мене так, ніби мене не знаєш.",
+              "de": "Du schaust mich an, als würdest du mich nicht kennen.",
+              "fr": "Tu me regardes comme si tu ne me connaissais pas.",
+              "pt": "Você está me olhando como se não me conhecesse.",
+              "zh": "你看着我，就好像不认识我一样。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "tratas",
+              "en": "you treat",
+              "it": "tratti",
+              "uk": "ти поводишся (з кимось)",
+              "de": "du behandelst",
+              "fr": "tu traites",
+              "pt": "você trata",
+              "zh": "你对待"
+            },
+            {
+              "es": "miras",
+              "en": "you look at",
+              "it": "guardi",
+              "uk": "ти дивишся (на)",
+              "de": "du schaust an",
+              "fr": "tu regardes",
+              "pt": "você olha",
+              "zh": "你看"
+            },
+            {
+              "es": "conocieras",
+              "en": "(that) you knew (someone)",
+              "it": "(che tu) conoscessi",
+              "uk": "(щоб) ти знав(-ла) (когось)",
+              "de": "(dass) du (jemanden) kanntest",
+              "fr": "(que tu) connaisses (quelqu'un)",
+              "pt": "(que você) conhecesse",
+              "zh": "你认识（某人）（过去时虚拟式）"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Hablas como si ",
+          "after": " el jefe.",
+          "options": [
+            "fueras",
+            "eres",
+            "seas"
+          ],
+          "answer": "fueras",
+          "en": "You talk as if you were the boss.",
+          "it": "Parli come se fossi il capo.",
+          "uk": "Ти говориш так, ніби ти тут начальник.",
+          "de": "Du redest, als wärst du der Chef.",
+          "fr": "Tu parles comme si tu étais le chef.",
+          "pt": "Você fala como se fosse o chefe.",
+          "zh": "你说话就好像你是老板一样。",
+          "hint": {
+            "en": "como si + the imperfect subjunctive, always.",
+            "it": "como si + il congiuntivo imperfetto, sempre.",
+            "uk": "como si + «imperfecto de subjuntivo», завжди.",
+            "de": "como si + imperfecto de subjuntivo, immer.",
+            "fr": "como si + l'imperfecto de subjuntivo, toujours.",
+            "pt": "como si + o imperfecto de subjuntivo, sempre.",
+            "zh": "como si + 过去时虚拟式，永远如此。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "fire",
+          "before": "Me tratas como si ",
+          "after": " cinco años.",
+          "label": "tener",
+          "accepted": [
+            "tuviera"
+          ],
+          "en": "You treat me as if I were five.",
+          "it": "Mi tratti come se avessi cinque anni.",
+          "uk": "Ти поводишся зі мною так, ніби мені п'ять років.",
+          "de": "Du behandelst mich, als wäre ich fünf.",
+          "fr": "Tu me traites comme si j'avais cinq ans.",
+          "pt": "Você me trata como se eu tivesse cinco anos.",
+          "zh": "你对待我就好像我才五岁。",
+          "hint": {
+            "en": "como si + tuviera, the yo form.",
+            "it": "como si + tuviera, la forma di yo.",
+            "uk": "como si + tuviera, форма yo.",
+            "de": "como si + tuviera, die yo-Form.",
+            "fr": "como si + tuviera, la forme de yo.",
+            "pt": "como si + tuviera, a forma de yo.",
+            "zh": "como si + tuviera（yo 形式）。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "haz como si",
+              "kind": "rail"
+            },
+            {
+              "text": "estuvieras en tu casa",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "To make a guest feel at home, say haz como si estuvieras en tu casa. como si nada describes someone acting as if nothing had happened.",
+            "it": "Per far sentire a casa un ospite, di' haz como si estuvieras en tu casa. como si nada descrive chi fa come se niente fosse.",
+            "uk": "Щоб гість почувався як удома, скажи haz como si estuvieras en tu casa. Вираз como si nada описує, як хтось поводиться так, ніби нічого не сталося.",
+            "de": "Damit sich ein Gast wie zu Hause fühlt, sag haz como si estuvieras en tu casa. como si nada beschreibt jemanden, der so tut, als wäre nichts gewesen.",
+            "fr": "Pour qu'un invité se sente chez lui, dis haz como si estuvieras en tu casa. como si nada décrit quelqu'un qui fait comme si de rien n'était.",
+            "pt": "Para fazer uma visita se sentir em casa, diga haz como si estuvieras en tu casa. como si nada descreve alguém que age como se nada tivesse acontecido.",
+            "zh": "想让客人觉得像在自己家一样，说 haz como si estuvieras en tu casa。como si nada 形容某人若无其事，好像什么都没发生。"
+          },
+          "examples": [
+            {
+              "es": "Pasa, pasa: haz como si estuvieras en tu casa.",
+              "en": "Come in, come in: make yourself at home.",
+              "it": "Entra, entra: fai come se fossi a casa tua.",
+              "uk": "Заходь, заходь: почувайся як удома.",
+              "de": "Komm rein, komm rein: Fühl dich wie zu Hause.",
+              "fr": "Entre, entre : fais comme chez toi.",
+              "pt": "Entra, entra: fica à vontade, a casa é sua.",
+              "zh": "进来，进来：就当是在自己家。"
+            },
+            {
+              "es": "Llegas una hora tarde y me lo dices como si nada.",
+              "en": "You're an hour late and you tell me as if it were nothing.",
+              "it": "Arrivi con un'ora di ritardo e me lo dici come se niente fosse.",
+              "uk": "Ти спізнюєшся на годину й кажеш мені про це так, ніби нічого не сталося.",
+              "de": "Du kommst eine Stunde zu spät und sagst mir das, als wäre es nichts.",
+              "fr": "Tu arrives avec une heure de retard et tu me le dis comme si de rien n'était.",
+              "pt": "Você chega uma hora atrasado e me diz isso como se não fosse nada.",
+              "zh": "你迟到了一个小时，还若无其事地跟我说。"
+            }
+          ]
+        },
+        {
+          "type": "build",
+          "beat": "forge",
+          "intention": {
+            "en": "A friend comes to your flat for the first time. Tell him: come in, make yourself at home.",
+            "it": "Un amico viene a casa tua per la prima volta. Digli: entra, fai come se fossi a casa tua.",
+            "uk": "Друг уперше прийшов до тебе в квартиру. Скажи йому: заходь, почувайся як удома.",
+            "de": "Ein Freund kommt zum ersten Mal in deine Wohnung. Sag ihm: Komm rein, fühl dich wie zu Hause.",
+            "fr": "Un ami vient chez toi pour la première fois. Dis-lui : entre, fais comme chez toi.",
+            "pt": "Um amigo vem ao seu apartamento pela primeira vez. Diga a ele: entra, fica à vontade, a casa é sua.",
+            "zh": "一个朋友第一次来你的公寓。对他说：进来吧，就当是在自己家。"
+          },
+          "accepted": [
+            "Pasa: haz como si estuvieras en tu casa.",
+            "Pasa, haz como si estuvieras en tu casa."
+          ],
+          "tiles": [
+            "Pasa:",
+            "haz",
+            "como si",
+            "estuvieras",
+            "en tu casa",
+            "estás",
+            "cuando"
+          ],
+          "en": "Come in: make yourself at home.",
+          "it": "Entra: fai come se fossi a casa tua.",
+          "uk": "Заходь: почувайся як удома.",
+          "de": "Komm rein: Fühl dich wie zu Hause.",
+          "fr": "Entre : fais comme chez toi.",
+          "pt": "Entra: fica à vontade, a casa é sua.",
+          "zh": "进来吧：就当是在自己家。",
+          "hint": {
+            "en": "como si + estuvieras.",
+            "it": "como si + estuvieras.",
+            "uk": "como si + estuvieras.",
+            "de": "como si + estuvieras.",
+            "fr": "como si + estuvieras.",
+            "pt": "como si + estuvieras.",
+            "zh": "como si + estuvieras。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "fire",
+          "before": "Llegas una hora tarde y me lo dices como ",
+          "after": " nada.",
+          "options": [
+            "si",
+            "que",
+            "cuando"
+          ],
+          "answer": "si",
+          "en": "You're an hour late and you tell me as if it were nothing.",
+          "it": "Arrivi con un'ora di ritardo e me lo dici come se niente fosse.",
+          "uk": "Ти спізнюєшся на годину й кажеш мені про це так, ніби нічого не сталося.",
+          "de": "Du kommst eine Stunde zu spät und sagst mir das, als wäre es nichts.",
+          "fr": "Tu arrives avec une heure de retard et tu me le dis comme si de rien n'était.",
+          "pt": "Você chega uma hora atrasado e me diz isso como se não fosse nada.",
+          "zh": "你迟到了一个小时，还若无其事地跟我说。",
+          "hint": {
+            "en": "A fixed phrase: como si nada.",
+            "it": "Una frase fissa: como si nada.",
+            "uk": "Сталий вираз: como si nada.",
+            "de": "Eine feste Wendung: como si nada.",
+            "fr": "Une expression toute faite : como si nada.",
+            "pt": "Uma expressão fixa: como si nada.",
+            "zh": "固定说法：como si nada。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "¡ni que",
+              "kind": "rail"
+            },
+            {
+              "text": "fuera…!",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "In spoken Spanish, ¡ni que + the imperfect subjunctive! answers an exaggeration: as if…! It's a bit cheeky, so keep it for friends and family.",
+            "it": "Nello spagnolo parlato, ¡ni que + il congiuntivo imperfetto! risponde a un'esagerazione: neanche fosse…! È un po' sfacciato, quindi usalo con amici e famiglia.",
+            "uk": "У розмовній іспанській ¡ni que + «imperfecto de subjuntivo»! — це відповідь на перебільшення: «можна подумати…!». Звучить трохи зухвало, тож кажи так лише друзям і родині.",
+            "de": "Im gesprochenen Spanisch antwortet man mit ¡ni que + imperfecto de subjuntivo! auf eine Übertreibung: als ob…! Das ist ein bisschen frech, also nur unter Freunden und in der Familie.",
+            "fr": "En espagnol parlé, ¡ni que + l'imperfecto de subjuntivo! répond à une exagération : « comme si… ! », « on dirait que… ! ». C'est un peu insolent, alors garde-le pour les amis et la famille.",
+            "pt": "No espanhol falado, ¡ni que + o imperfecto de subjuntivo! responde a um exagero, como o nosso até parece…! É um pouco atrevido, então use com amigos e família.",
+            "zh": "在西班牙语口语中，¡ni que + 过去时虚拟式! 用来回应夸张的说法：又不是……！语气有点冲，只对朋友和家人说。"
+          },
+          "examples": [
+            {
+              "es": "¡Ni que fuera tan difícil!",
+              "en": "As if it were that difficult!",
+              "it": "Neanche fosse così difficile!",
+              "uk": "Можна подумати, що це так складно!",
+              "de": "Als ob das so schwer wäre!",
+              "fr": "Comme si c'était si difficile !",
+              "pt": "Até parece que é tão difícil!",
+              "zh": "又不是有多难！"
+            },
+            {
+              "es": "¿Por qué hablas tan alto? ¡Ni que estuviera lejos!",
+              "en": "Why are you talking so loud? It's not as if I were far away!",
+              "it": "Perché parli così forte? Neanche fossi lontano!",
+              "uk": "Чого ти так голосно говориш? Можна подумати, я далеко!",
+              "de": "Warum sprichst du so laut? Als ob ich weit weg wäre!",
+              "fr": "Pourquoi tu parles si fort ? Comme si j'étais loin !",
+              "pt": "Por que você está falando tão alto? Até parece que eu estou longe!",
+              "zh": "你说话干吗这么大声？我又不是离得很远！"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "ni que",
+              "en": "as if (reacting to an exaggeration)",
+              "it": "neanche, manco (+ congiuntivo)",
+              "uk": "можна подумати (у відповідь на перебільшення)",
+              "de": "als ob (Reaktion auf eine Übertreibung)",
+              "fr": "comme si (pour réagir à une exagération)",
+              "pt": "até parece que (reagindo a um exagero)",
+              "zh": "又不是……（回应夸张的说法）"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "¿Por qué hablas tan alto? ¡Ni que ",
+          "after": " lejos!",
+          "options": [
+            "estuviera",
+            "estoy",
+            "esté"
+          ],
+          "answer": "estuviera",
+          "en": "Why are you talking so loud? It's not as if I were far away!",
+          "it": "Perché parli così forte? Neanche fossi lontano!",
+          "uk": "Чого ти так голосно говориш? Можна подумати, я далеко!",
+          "de": "Warum sprichst du so laut? Als ob ich weit weg wäre!",
+          "fr": "Pourquoi tu parles si fort ? Comme si j'étais loin !",
+          "pt": "Por que você está falando tão alto? Até parece que eu estou longe!",
+          "zh": "你说话干吗这么大声？我又不是离得很远！",
+          "hint": {
+            "en": "¡ni que + the imperfect subjunctive!",
+            "it": "¡ni que + il congiuntivo imperfetto!",
+            "uk": "¡ni que + «imperfecto de subjuntivo»!",
+            "de": "¡ni que + imperfecto de subjuntivo!",
+            "fr": "¡ni que + l'imperfecto de subjuntivo!",
+            "pt": "¡ni que + o imperfecto de subjuntivo!",
+            "zh": "¡ni que + 过去时虚拟式!"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "Your flatmate complains for ten minutes about washing two plates. React: as if it were that difficult!",
+            "it": "Il tuo coinquilino si lamenta per dieci minuti perché deve lavare due piatti. Reagisci: neanche fosse così difficile!",
+            "uk": "Твій сусід по квартирі десять хвилин скаржиться, що треба помити дві тарілки. Відреагуй: можна подумати, що це так складно!",
+            "de": "Dein Mitbewohner beschwert sich zehn Minuten lang, weil er zwei Teller spülen muss. Reagier: Als ob das so schwer wäre!",
+            "fr": "Ton colocataire se plaint pendant dix minutes parce qu'il doit laver deux assiettes. Réagis : comme si c'était si difficile !",
+            "pt": "O seu colega de apartamento reclama durante dez minutos porque tem que lavar dois pratos. Reaja: até parece que é tão difícil!",
+            "zh": "你的室友为洗两个盘子抱怨了十分钟。回应他：又不是有多难！"
+          },
+          "accepted": [
+            "¡Ni que fuera tan difícil!"
+          ],
+          "tiles": [
+            "¡Ni que",
+            "fuera",
+            "tan",
+            "difícil!",
+            "es",
+            "sea"
+          ],
+          "en": "As if it were that difficult!",
+          "it": "Neanche fosse così difficile!",
+          "uk": "Можна подумати, що це так складно!",
+          "de": "Als ob das so schwer wäre!",
+          "fr": "Comme si c'était si difficile !",
+          "pt": "Até parece que é tão difícil!",
+          "zh": "又不是有多难！",
+          "hint": {
+            "en": "¡ni que + fuera!",
+            "it": "¡ni que + fuera!",
+            "uk": "¡ni que + fuera!",
+            "de": "¡ni que + fuera!",
+            "fr": "¡ni que + fuera!",
+            "pt": "¡ni que + fuera!",
+            "zh": "¡ni que + fuera!"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "Me miras como si no me ",
+          "after": ".",
+          "options": [
+            "conocieras",
+            "conoces",
+            "conozcas"
+          ],
+          "answer": "conocieras",
+          "en": "You're looking at me as if you didn't know me.",
+          "it": "Mi guardi come se non mi conoscessi.",
+          "uk": "Ти дивишся на мене так, ніби мене не знаєш.",
+          "de": "Du schaust mich an, als würdest du mich nicht kennen.",
+          "fr": "Tu me regardes comme si tu ne me connaissais pas.",
+          "pt": "Você está me olhando como se não me conhecesse.",
+          "zh": "你看着我，就好像不认识我一样。",
+          "hint": {
+            "en": "como si + the imperfect subjunctive: conocieras.",
+            "it": "como si + il congiuntivo imperfetto: conocieras.",
+            "uk": "como si + «imperfecto de subjuntivo»: conocieras.",
+            "de": "como si + imperfecto de subjuntivo: conocieras.",
+            "fr": "como si + l'imperfecto de subjuntivo : conocieras.",
+            "pt": "como si + o imperfecto de subjuntivo: conocieras.",
+            "zh": "como si + 过去时虚拟式：conocieras。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "mix",
+          "before": "Hablas como si lo ",
+          "after": " todo.",
+          "label": "saber",
+          "accepted": [
+            "supieras"
+          ],
+          "en": "You talk as if you knew everything.",
+          "it": "Parli come se sapessi tutto.",
+          "uk": "Ти говориш так, ніби все знаєш.",
+          "de": "Du redest, als wüsstest du alles.",
+          "fr": "Tu parles comme si tu savais tout.",
+          "pt": "Você fala como se soubesse tudo.",
+          "zh": "你说话就好像你什么都知道一样。",
+          "hint": {
+            "en": "como si + supieras, the tú form.",
+            "it": "como si + supieras, la forma di tu.",
+            "uk": "como si + supieras, форма tú.",
+            "de": "como si + supieras, die tú-Form.",
+            "fr": "como si + supieras, la forme de tú.",
+            "pt": "como si + supieras, a forma de tú.",
+            "zh": "como si + supieras（tú 形式）。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "mix",
+          "intention": {
+            "en": "Your friend speaks Spanish perfectly. Tell him he speaks Spanish as if he were from Madrid.",
+            "it": "Il tuo amico parla spagnolo perfettamente. Digli che parla spagnolo come se fosse di Madrid.",
+            "uk": "Твій друг ідеально говорить іспанською. Скажи йому, що він говорить так, ніби він із Мадрида.",
+            "de": "Dein Freund spricht perfekt Spanisch. Sag ihm, dass er Spanisch spricht, als wäre er aus Madrid.",
+            "fr": "Ton ami parle parfaitement espagnol. Dis-lui qu'il parle espagnol comme s'il était de Madrid.",
+            "pt": "O seu amigo fala espanhol perfeitamente. Diga a ele que ele fala espanhol como se fosse de Madri.",
+            "zh": "你的朋友西班牙语说得非常好。告诉他，他说西班牙语就好像是马德里人一样。"
+          },
+          "accepted": [
+            "Hablas español como si fueras de Madrid."
+          ],
+          "tiles": [
+            "Hablas español",
+            "como si",
+            "fueras",
+            "de Madrid",
+            "eres",
+            "seas"
+          ],
+          "en": "You speak Spanish as if you were from Madrid.",
+          "it": "Parli spagnolo come se fossi di Madrid.",
+          "uk": "Ти говориш іспанською так, ніби ти з Мадрида.",
+          "de": "Du sprichst Spanisch, als wärst du aus Madrid.",
+          "fr": "Tu parles espagnol comme si tu étais de Madrid.",
+          "pt": "Você fala espanhol como se fosse de Madri.",
+          "zh": "你说西班牙语就好像你是马德里人一样。",
+          "hint": {
+            "en": "como si + fueras.",
+            "it": "como si + fueras.",
+            "uk": "como si + fueras.",
+            "de": "como si + fueras.",
+            "fr": "como si + fueras.",
+            "pt": "como si + fueras.",
+            "zh": "como si + fueras。"
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "Your older brother won't let you decide anything. Write in Spanish: «You treat me as if I were a child.»",
+            "it": "Tuo fratello maggiore non ti lascia decidere niente. Scrivi in spagnolo: «Mi tratti come se fossi un bambino.»",
+            "uk": "Старший брат не дає тобі нічого вирішувати самостійно. Напиши іспанською: «Ти поводишся зі мною так, ніби я дитина.»",
+            "de": "Dein älterer Bruder lässt dich nichts entscheiden. Schreib auf Spanisch: «Du behandelst mich, als wäre ich ein Kind.»",
+            "fr": "Ton grand frère ne te laisse rien décider. Écris en espagnol : «Tu me traites comme si j'étais un enfant.»",
+            "pt": "O seu irmão mais velho não deixa você decidir nada. Escreva em espanhol: «Você me trata como se eu fosse uma criança.»",
+            "zh": "你哥哥什么都不让你做主。用西班牙语写：«你对待我就好像我是个小孩一样。»"
+          },
+          "accepted": [
+            "Me tratas como si fuera un niño.",
+            "Me tratas como si fuera una niña.",
+            "Tú me tratas como si fuera un niño.",
+            "Tú me tratas como si fuera una niña.",
+            "Me tratas como si yo fuera un niño.",
+            "Me tratas como si yo fuera una niña."
+          ],
+          "model": {
+            "es": "Me tratas como si fuera un niño.",
+            "en": "You treat me as if I were a child.",
+            "it": "Mi tratti come se fossi un bambino.",
+            "uk": "Ти поводишся зі мною так, ніби я дитина.",
+            "de": "Du behandelst mich, als wäre ich ein Kind.",
+            "fr": "Tu me traites comme si j'étais un enfant.",
+            "pt": "Você me trata como se eu fosse uma criança.",
+            "zh": "你对待我就好像我是个小孩一样。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u37l5",
+      "goal": {
+        "en": "Talk about the past: when the first verb is in the past, the subjunctive becomes the imperfect subjunctive: quería que vinieras, me encantó que vinieras, te lo dije para que lo supieras.",
+        "it": "Parla del passato: quando il primo verbo è al passato, il congiuntivo diventa congiuntivo imperfetto: quería que vinieras, me encantó que vinieras, te lo dije para que lo supieras.",
+        "uk": "Говори про минуле: коли перше дієслово в минулому часі, «subjuntivo» стає «imperfecto de subjuntivo»: quería que vinieras, me encantó que vinieras, te lo dije para que lo supieras.",
+        "de": "Sprich über die Vergangenheit: Wenn das erste Verb in der Vergangenheit steht, wird aus dem subjuntivo der imperfecto de subjuntivo: quería que vinieras, me encantó que vinieras, te lo dije para que lo supieras.",
+        "fr": "Parle du passé : quand le premier verbe est au passé, le subjonctif devient l'imperfecto de subjuntivo : quería que vinieras, me encantó que vinieras, te lo dije para que lo supieras.",
+        "pt": "Fale do passado: quando o primeiro verbo está no passado, o subjuntivo vira imperfecto de subjuntivo: quería que vinieras, me encantó que vinieras, te lo dije para que lo supieras.",
+        "zh": "谈论过去：当第一个动词是过去时，后面的虚拟式就变成过去时虚拟式：quería que vinieras，me encantó que vinieras，te lo dije para que lo supieras。"
+      },
+      "target": {
+        "es": "Quería que vinieras, pero lo entiendo.",
+        "en": "I wanted you to come, but I understand.",
+        "it": "Volevo che venissi, ma lo capisco.",
+        "uk": "Я хотів(-ла), щоб ти прийшов(-ла), але я розумію.",
+        "de": "Ich wollte, dass du kommst, aber ich verstehe das.",
+        "fr": "Je voulais que tu viennes, mais je comprends.",
+        "pt": "Eu queria que você viesse, mas entendo.",
+        "zh": "我本来希望你能来，不过我理解。"
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "me sorprendió que",
+              "en": "I was surprised that",
+              "it": "mi ha sorpreso che",
+              "uk": "мене здивувало, що",
+              "de": "es hat mich überrascht, dass",
+              "fr": "j'ai été surpris que, ça m'a surpris que",
+              "pt": "me surpreendeu que, fiquei surpreso que",
+              "zh": "让我惊讶的是",
+              "kind": "chunk"
+            },
+            {
+              "es": "fue una pena que",
+              "en": "it was a shame that",
+              "it": "è stato un peccato che",
+              "uk": "було шкода, що",
+              "de": "es war schade, dass",
+              "fr": "c'était dommage que",
+              "pt": "foi uma pena que",
+              "zh": "很遗憾",
+              "kind": "chunk"
+            },
+            {
+              "es": "me molestó que",
+              "en": "it bothered me that",
+              "it": "mi ha dato fastidio che",
+              "uk": "мене зачепило, що; мені не сподобалося, що",
+              "de": "es hat mich gestört, dass",
+              "fr": "ça m'a dérangé que",
+              "pt": "me incomodou que",
+              "zh": "让我不高兴的是",
+              "kind": "chunk"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "quiero que vengas",
+              "kind": "stem"
+            },
+            {
+              "text": "→",
+              "kind": "chunk"
+            },
+            {
+              "text": "quería que vinieras",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "When the first verb is in the past, the subjunctive after it moves to the past too: quiero que vengas → quería que vinieras. The same goes for esperaba que.",
+            "it": "Quando il primo verbo è al passato, anche il congiuntivo che segue va al passato: quiero que vengas → quería que vinieras. Lo stesso vale per esperaba que.",
+            "uk": "Коли перше дієслово в минулому часі, «subjuntivo» після нього теж переходить у минуле: quiero que vengas → quería que vinieras. Так само й після esperaba que.",
+            "de": "Wenn das erste Verb in der Vergangenheit steht, rutscht auch der subjuntivo danach in die Vergangenheit: quiero que vengas → quería que vinieras. Genauso bei esperaba que. Im Deutschen bleibt es oft beim normalen „dass“: „Ich wollte, dass du kommst.“",
+            "fr": "Quand le premier verbe est au passé, le subjonctif qui suit passe lui aussi au passé : quiero que vengas → quería que vinieras. C'est pareil pour esperaba que. En français parlé, on garde le subjonctif présent (« je voulais que tu viennes »), mais en espagnol, le changement est obligatoire.",
+            "pt": "Quando o primeiro verbo está no passado, o subjuntivo que vem depois também vai para o passado: quiero que vengas → quería que vinieras. Como em português: «quero que você venha» → «queria que você viesse». O mesmo vale para esperaba que.",
+            "zh": "当第一个动词是过去时，后面的虚拟式也要变成过去的形式：quiero que vengas → quería que vinieras。esperaba que 也是一样。"
+          },
+          "examples": [
+            {
+              "es": "Quería que vinieras a mi fiesta.",
+              "en": "I wanted you to come to my party.",
+              "it": "Volevo che venissi alla mia festa.",
+              "uk": "Я хотів(-ла), щоб ти прийшов(-ла) на мою вечірку.",
+              "de": "Ich wollte, dass du zu meiner Party kommst.",
+              "fr": "Je voulais que tu viennes à ma fête.",
+              "pt": "Eu queria que você viesse à minha festa.",
+              "zh": "我本来希望你来参加我的聚会。"
+            },
+            {
+              "es": "Esperaba que me llamaras.",
+              "en": "I was hoping you'd call me.",
+              "it": "Speravo che mi chiamassi.",
+              "uk": "Я сподівався(-лася), що ти мені подзвониш.",
+              "de": "Ich hatte gehofft, dass du mich anrufst.",
+              "fr": "J'espérais que tu m'appellerais.",
+              "pt": "Eu esperava que você me ligasse.",
+              "zh": "我本来盼着你给我打电话。"
+            },
+            {
+              "es": "Mis padres querían que estudiara en la universidad.",
+              "en": "My parents wanted me to go to university.",
+              "it": "I miei genitori volevano che studiassi all'università.",
+              "uk": "Мої батьки хотіли, щоб я вчився(-лася) в університеті.",
+              "de": "Meine Eltern wollten, dass ich studiere.",
+              "fr": "Mes parents voulaient que je fasse des études à l'université.",
+              "pt": "Os meus pais queriam que eu fizesse faculdade.",
+              "zh": "我父母希望我上大学。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "querían",
+              "en": "they wanted",
+              "it": "volevano",
+              "uk": "вони хотіли",
+              "de": "sie wollten",
+              "fr": "ils / elles voulaient",
+              "pt": "eles / elas queriam",
+              "zh": "他们想要"
+            },
+            {
+              "es": "estudiara",
+              "en": "(that) I / he / she studied",
+              "it": "(che io / lui / lei) studiassi / studiasse",
+              "uk": "(щоб) я / він / вона вчився(-лася)",
+              "de": "(dass) ich / er / sie studierte",
+              "fr": "(que je / qu'il / qu'elle) étudie",
+              "pt": "(que eu / ele / ela) estudasse",
+              "zh": "我／他／她学习（过去时虚拟式）"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Quería que ",
+          "after": " a mi fiesta, pero no viniste.",
+          "options": [
+            "vinieras",
+            "vengas",
+            "vienes"
+          ],
+          "answer": "vinieras",
+          "en": "I wanted you to come to my party, but you didn't.",
+          "it": "Volevo che venissi alla mia festa, ma non sei venuto.",
+          "uk": "Я хотів(-ла), щоб ти прийшов(-ла) на мою вечірку, але ти не прийшов(-ла).",
+          "de": "Ich wollte, dass du zu meiner Party kommst, aber du bist nicht gekommen.",
+          "fr": "Je voulais que tu viennes à ma fête, mais tu n'es pas venu.",
+          "pt": "Eu queria que você viesse à minha festa, mas você não veio.",
+          "zh": "我本来希望你来参加我的聚会，可是你没来。",
+          "hint": {
+            "en": "quería is in the past: the imperfect subjunctive, vinieras.",
+            "it": "quería è al passato: il congiuntivo imperfetto, vinieras.",
+            "uk": "quería — у минулому часі: «imperfecto de subjuntivo», vinieras.",
+            "de": "quería steht in der Vergangenheit: imperfecto de subjuntivo, vinieras.",
+            "fr": "quería est au passé : l'imperfecto de subjuntivo, vinieras.",
+            "pt": "quería está no passado: o imperfecto de subjuntivo, vinieras.",
+            "zh": "quería 是过去时：用过去时虚拟式，vinieras。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "fire",
+          "before": "Esperaba que me ",
+          "after": " ayer.",
+          "label": "llamar",
+          "accepted": [
+            "llamaras"
+          ],
+          "en": "I was hoping you'd call me yesterday.",
+          "it": "Speravo che mi chiamassi ieri.",
+          "uk": "Я сподівався(-лася), що ти мені вчора подзвониш.",
+          "de": "Ich hatte gehofft, dass du mich gestern anrufst.",
+          "fr": "J'espérais que tu m'appellerais hier.",
+          "pt": "Eu esperava que você me ligasse ontem.",
+          "zh": "我昨天一直盼着你给我打电话。",
+          "hint": {
+            "en": "esperaba is in the past: llamaras.",
+            "it": "esperaba è al passato: llamaras.",
+            "uk": "esperaba — у минулому часі: llamaras.",
+            "de": "esperaba steht in der Vergangenheit: llamaras.",
+            "fr": "esperaba est au passé : llamaras.",
+            "pt": "esperaba está no passado: llamaras.",
+            "zh": "esperaba 是过去时：llamaras。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "me encantó que",
+              "kind": "stem"
+            },
+            {
+              "text": "vinieras",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "Feelings in the past work the same way: me encantó que, me molestó que, me sorprendió que, fue una pena que + the imperfect subjunctive.",
+            "it": "Le emozioni al passato funzionano allo stesso modo: me encantó que, me molestó que, me sorprendió que, fue una pena que + il congiuntivo imperfetto.",
+            "uk": "Почуття в минулому працюють так само: me encantó que, me molestó que, me sorprendió que, fue una pena que + «imperfecto de subjuntivo».",
+            "de": "Gefühle in der Vergangenheit funktionieren genauso: me encantó que, me molestó que, me sorprendió que, fue una pena que + imperfecto de subjuntivo.",
+            "fr": "Les sentiments au passé fonctionnent de la même façon : me encantó que, me molestó que, me sorprendió que, fue una pena que + l'imperfecto de subjuntivo.",
+            "pt": "Os sentimentos no passado funcionam do mesmo jeito: me encantó que, me molestó que, me sorprendió que, fue una pena que + o imperfecto de subjuntivo.",
+            "zh": "过去的感受也一样：me encantó que，me molestó que，me sorprendió que，fue una pena que + 过去时虚拟式。"
+          },
+          "examples": [
+            {
+              "es": "Me encantó que vinieras.",
+              "en": "I loved it that you came.",
+              "it": "Mi ha fatto tanto piacere che tu sia venuto.",
+              "uk": "Мені дуже сподобалося, що ти прийшов(-ла).",
+              "de": "Ich habe mich riesig gefreut, dass du gekommen bist.",
+              "fr": "J'ai adoré que tu viennes.",
+              "pt": "Adorei que você tenha vindo.",
+              "zh": "你能来，我特别高兴。"
+            },
+            {
+              "es": "Me molestó que no me dijeras nada.",
+              "en": "It bothered me that you didn't tell me anything.",
+              "it": "Mi ha dato fastidio che non mi avessi detto niente.",
+              "uk": "Мене зачепило, що ти мені нічого не сказав(-ла).",
+              "de": "Es hat mich gestört, dass du mir nichts gesagt hast.",
+              "fr": "Ça m'a dérangé que tu ne me dises rien.",
+              "pt": "Me incomodou que você não me dissesse nada.",
+              "zh": "你什么都没跟我说，让我很不高兴。"
+            },
+            {
+              "es": "Fue una pena que no pudieras venir.",
+              "en": "It was a shame you couldn't come.",
+              "it": "È stato un peccato che tu non potessi venire.",
+              "uk": "Було шкода, що ти не зміг (змогла) прийти.",
+              "de": "Es war schade, dass du nicht kommen konntest.",
+              "fr": "C'était dommage que tu ne puisses pas venir.",
+              "pt": "Foi uma pena que você não pudesse vir.",
+              "zh": "你没能来，真遗憾。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "molestó",
+              "en": "bothered",
+              "it": "ha dato fastidio",
+              "uk": "зачепило, не сподобалося",
+              "de": "störte, hat gestört",
+              "fr": "a dérangé",
+              "pt": "incomodou",
+              "zh": "使……不高兴（过去）"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Me molestó que no me ",
+          "after": " nada.",
+          "options": [
+            "dijeras",
+            "dices",
+            "digas"
+          ],
+          "answer": "dijeras",
+          "en": "It bothered me that you didn't tell me anything.",
+          "it": "Mi ha dato fastidio che non mi avessi detto niente.",
+          "uk": "Мене зачепило, що ти мені нічого не сказав(-ла).",
+          "de": "Es hat mich gestört, dass du mir nichts gesagt hast.",
+          "fr": "Ça m'a dérangé que tu ne me dises rien.",
+          "pt": "Me incomodou que você não me dissesse nada.",
+          "zh": "你什么都没跟我说，让我很不高兴。",
+          "hint": {
+            "en": "me molestó is in the past: dijeras.",
+            "it": "me molestó è al passato: dijeras.",
+            "uk": "me molestó — у минулому часі: dijeras.",
+            "de": "me molestó steht in der Vergangenheit: dijeras.",
+            "fr": "me molestó est au passé : dijeras.",
+            "pt": "me molestó está no passado: dijeras.",
+            "zh": "me molestó 是过去时：dijeras。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "Your friend came to your birthday party yesterday. Tell her you loved it that she came.",
+            "it": "Ieri la tua amica è venuta alla tua festa di compleanno. Dille che ti ha fatto tanto piacere che sia venuta.",
+            "uk": "Учора твоя подруга прийшла на твій день народження. Скажи їй, що тобі дуже сподобалося, що вона прийшла.",
+            "de": "Deine Freundin war gestern auf deiner Geburtstagsparty. Sag ihr, dass du dich riesig gefreut hast, dass sie gekommen ist.",
+            "fr": "Hier, ton amie est venue à ta fête d'anniversaire. Dis-lui que tu as adoré qu'elle vienne.",
+            "pt": "Ontem a sua amiga foi à sua festa de aniversário. Diga a ela que você adorou que ela tenha vindo.",
+            "zh": "你的朋友昨天来参加了你的生日聚会。告诉她，她能来你特别高兴。"
+          },
+          "accepted": [
+            "Me encantó que vinieras."
+          ],
+          "tiles": [
+            "Me encantó",
+            "que",
+            "vinieras",
+            "vengas",
+            "encanta"
+          ],
+          "en": "I loved it that you came.",
+          "it": "Mi ha fatto tanto piacere che tu sia venuta.",
+          "uk": "Мені дуже сподобалося, що ти прийшла.",
+          "de": "Ich habe mich riesig gefreut, dass du gekommen bist.",
+          "fr": "J'ai adoré que tu viennes.",
+          "pt": "Adorei que você tenha vindo.",
+          "zh": "你能来，我特别高兴。",
+          "hint": {
+            "en": "me encantó (past) + the imperfect subjunctive.",
+            "it": "me encantó (passato) + il congiuntivo imperfetto.",
+            "uk": "me encantó (минулий час) + «imperfecto de subjuntivo».",
+            "de": "me encantó (Vergangenheit) + imperfecto de subjuntivo.",
+            "fr": "me encantó (passé) + l'imperfecto de subjuntivo.",
+            "pt": "me encantó (passado) + o imperfecto de subjuntivo.",
+            "zh": "me encantó（过去时）+ 过去时虚拟式。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "para que",
+              "kind": "rail"
+            },
+            {
+              "text": "supieras",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "Everything else you know works the same way in the past: para que, antes de que, no creía que + the imperfect subjunctive.",
+            "it": "Tutto il resto che conosci funziona allo stesso modo al passato: para que, antes de que, no creía que + il congiuntivo imperfetto.",
+            "uk": "Усе інше, що ти знаєш, у минулому працює так само: para que, antes de que, no creía que + «imperfecto de subjuntivo».",
+            "de": "Alles andere, was du kennst, funktioniert in der Vergangenheit genauso: para que, antes de que, no creía que + imperfecto de subjuntivo.",
+            "fr": "Tout le reste que tu connais fonctionne de la même façon au passé : para que, antes de que, no creía que + l'imperfecto de subjuntivo.",
+            "pt": "Tudo o que você já conhece funciona do mesmo jeito no passado: para que, antes de que, no creía que + o imperfecto de subjuntivo.",
+            "zh": "你学过的其他用法到了过去也一样：para que，antes de que，no creía que + 过去时虚拟式。"
+          },
+          "examples": [
+            {
+              "es": "Te lo dije para que lo supieras.",
+              "en": "I told you so that you'd know.",
+              "it": "Te l'ho detto perché lo sapessi.",
+              "uk": "Я сказав(-ла) тобі це, щоб ти знав(-ла).",
+              "de": "Ich habe es dir gesagt, damit du es weißt.",
+              "fr": "Je te l'ai dit pour que tu le saches.",
+              "pt": "Eu te contei para que você soubesse.",
+              "zh": "我告诉你，是为了让你知道。"
+            },
+            {
+              "es": "Salí antes de que llegaras.",
+              "en": "I left before you arrived.",
+              "it": "Sono uscito prima che arrivassi.",
+              "uk": "Я пішов (пішла) ще до того, як ти прийшов(-ла).",
+              "de": "Ich bin gegangen, bevor du angekommen bist.",
+              "fr": "Je suis parti avant que tu arrives.",
+              "pt": "Eu saí antes que você chegasse.",
+              "zh": "你到之前我就走了。"
+            },
+            {
+              "es": "No creía que fuera verdad.",
+              "en": "I didn't think it was true.",
+              "it": "Non credevo che fosse vero.",
+              "uk": "Я не вірив(-ла), що це правда.",
+              "de": "Ich habe nicht geglaubt, dass es stimmt.",
+              "fr": "Je ne pensais pas que c'était vrai.",
+              "pt": "Eu não achava que fosse verdade.",
+              "zh": "我当时不相信那是真的。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "llegaras",
+              "en": "(that) you arrived",
+              "it": "(che tu) arrivassi",
+              "uk": "(щоб) ти прийшов (прийшла), приїхав(-ла)",
+              "de": "(dass) du ankamst",
+              "fr": "(que tu) arrives",
+              "pt": "(que você) chegasse",
+              "zh": "你到达（过去时虚拟式）"
+            },
+            {
+              "es": "creía",
+              "en": "I / he / she thought, believed",
+              "it": "credevo, credeva",
+              "uk": "я / він / вона думав(-ла), вірив(-ла)",
+              "de": "ich / er / sie dachte, glaubte",
+              "fr": "je croyais, il / elle croyait ; je pensais, il / elle pensait",
+              "pt": "eu / ele / ela achava, acreditava",
+              "zh": "我／他／她（当时）认为、相信"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Te lo dije para que lo ",
+          "after": ".",
+          "options": [
+            "supieras",
+            "sabes"
+          ],
+          "answer": "supieras",
+          "en": "I told you so that you'd know.",
+          "it": "Te l'ho detto perché lo sapessi.",
+          "uk": "Я сказав(-ла) тобі це, щоб ти знав(-ла).",
+          "de": "Ich habe es dir gesagt, damit du es weißt.",
+          "fr": "Je te l'ai dit pour que tu le saches.",
+          "pt": "Eu te contei para que você soubesse.",
+          "zh": "我告诉你，是为了让你知道。",
+          "hint": {
+            "en": "dije is in the past: para que + supieras.",
+            "it": "dije è al passato: para que + supieras.",
+            "uk": "dije — у минулому часі: para que + supieras.",
+            "de": "dije steht in der Vergangenheit: para que + supieras.",
+            "fr": "dije est au passé : para que + supieras.",
+            "pt": "dije está no passado: para que + supieras.",
+            "zh": "dije 是过去时：para que + supieras。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "fire",
+          "before": "No creía que ",
+          "after": " verdad.",
+          "label": "ser",
+          "accepted": [
+            "fuera"
+          ],
+          "en": "I didn't think it was true.",
+          "it": "Non credevo che fosse vero.",
+          "uk": "Я не вірив(-ла), що це правда.",
+          "de": "Ich habe nicht geglaubt, dass es stimmt.",
+          "fr": "Je ne pensais pas que c'était vrai.",
+          "pt": "Eu não achava que fosse verdade.",
+          "zh": "我当时不相信那是真的。",
+          "hint": {
+            "en": "no creía que + the imperfect subjunctive: fuera.",
+            "it": "no creía que + il congiuntivo imperfetto: fuera.",
+            "uk": "no creía que + «imperfecto de subjuntivo»: fuera.",
+            "de": "no creía que + imperfecto de subjuntivo: fuera.",
+            "fr": "no creía que + l'imperfecto de subjuntivo : fuera.",
+            "pt": "no creía que + o imperfecto de subjuntivo: fuera.",
+            "zh": "no creía que + 过去时虚拟式：fuera。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "Mis padres querían que ",
+          "after": " en la universidad.",
+          "options": [
+            "estudiara",
+            "estudio",
+            "estudiar"
+          ],
+          "answer": "estudiara",
+          "en": "My parents wanted me to go to university.",
+          "it": "I miei genitori volevano che studiassi all'università.",
+          "uk": "Мої батьки хотіли, щоб я вчився(-лася) в університеті.",
+          "de": "Meine Eltern wollten, dass ich studiere.",
+          "fr": "Mes parents voulaient que je fasse des études à l'université.",
+          "pt": "Os meus pais queriam que eu fizesse faculdade.",
+          "zh": "我父母希望我上大学。",
+          "hint": {
+            "en": "querían is in the past: estudiara.",
+            "it": "querían è al passato: estudiara.",
+            "uk": "querían — у минулому часі: estudiara.",
+            "de": "querían steht in der Vergangenheit: estudiara.",
+            "fr": "querían est au passé : estudiara.",
+            "pt": "querían está no passado: estudiara.",
+            "zh": "querían 是过去时：estudiara。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "mix",
+          "before": "Fue una pena que no ",
+          "after": " venir.",
+          "label": "poder",
+          "accepted": [
+            "pudieras"
+          ],
+          "en": "It was a shame you couldn't come.",
+          "it": "È stato un peccato che tu non potessi venire.",
+          "uk": "Було шкода, що ти не зміг (змогла) прийти.",
+          "de": "Es war schade, dass du nicht kommen konntest.",
+          "fr": "C'était dommage que tu ne puisses pas venir.",
+          "pt": "Foi uma pena que você não pudesse vir.",
+          "zh": "你没能来，真遗憾。",
+          "hint": {
+            "en": "fue una pena que + pudieras.",
+            "it": "fue una pena que + pudieras.",
+            "uk": "fue una pena que + pudieras.",
+            "de": "fue una pena que + pudieras.",
+            "fr": "fue una pena que + pudieras.",
+            "pt": "fue una pena que + pudieras.",
+            "zh": "fue una pena que + pudieras。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "mix",
+          "intention": {
+            "en": "Your friend arrived after your parents had left. Tell him you wanted him to meet your parents.",
+            "it": "Il tuo amico è arrivato quando i tuoi genitori erano già andati via. Digli che volevi che conoscesse i tuoi genitori.",
+            "uk": "Твій друг прийшов, коли твої батьки вже пішли. Скажи йому, що ти хотів(-ла), щоб він познайомився з твоїми батьками.",
+            "de": "Dein Freund ist gekommen, nachdem deine Eltern schon gegangen waren. Sag ihm, dass du wolltest, dass er deine Eltern kennenlernt.",
+            "fr": "Ton ami est arrivé après le départ de tes parents. Dis-lui que tu voulais qu'il rencontre tes parents.",
+            "pt": "O seu amigo chegou depois que os seus pais já tinham ido embora. Diga a ele que você queria que ele conhecesse os seus pais.",
+            "zh": "你的朋友到的时候，你父母已经走了。告诉他，你本来希望他见见你父母。"
+          },
+          "accepted": [
+            "Quería que conocieras a mis padres."
+          ],
+          "tiles": [
+            "Quería que",
+            "conocieras",
+            "a mis padres",
+            "conozcas",
+            "quiero"
+          ],
+          "en": "I wanted you to meet my parents.",
+          "it": "Volevo che conoscessi i miei genitori.",
+          "uk": "Я хотів(-ла), щоб ти познайомився з моїми батьками.",
+          "de": "Ich wollte, dass du meine Eltern kennenlernst.",
+          "fr": "Je voulais que tu rencontres mes parents.",
+          "pt": "Eu queria que você conhecesse os meus pais.",
+          "zh": "我本来希望你见见我父母。",
+          "hint": {
+            "en": "quería (past) + conocieras.",
+            "it": "quería (passato) + conocieras.",
+            "uk": "quería (минулий час) + conocieras.",
+            "de": "quería (Vergangenheit) + conocieras.",
+            "fr": "quería (passé) + conocieras.",
+            "pt": "quería (passado) + conocieras.",
+            "zh": "quería（过去时）+ conocieras。"
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "Your friend apologises for missing your dinner. Write in Spanish: «I wanted you to come, but I understand.»",
+            "it": "Il tuo amico si scusa per non essere venuto alla tua cena. Scrivi in spagnolo: «Volevo che venissi, ma lo capisco.»",
+            "uk": "Твій друг вибачається, що не прийшов на твою вечерю. Напиши іспанською: «Я хотів(-ла), щоб ти прийшов, але я розумію.»",
+            "de": "Deine Freundin entschuldigt sich, weil sie nicht zu deinem Abendessen gekommen ist. Schreib auf Spanisch: «Ich wollte, dass du kommst, aber ich verstehe das.»",
+            "fr": "Ton ami s'excuse de ne pas être venu à ton dîner. Écris en espagnol : «Je voulais que tu viennes, mais je comprends.»",
+            "pt": "O seu amigo pede desculpas por não ter ido ao seu jantar. Escreva em espanhol: «Eu queria que você viesse, mas entendo.»",
+            "zh": "你的朋友为没来参加你的晚饭道歉。用西班牙语写：«我本来希望你能来，不过我理解。»"
+          },
+          "accepted": [
+            "Quería que vinieras, pero lo entiendo.",
+            "Quería que vinieras, pero entiendo.",
+            "Yo quería que vinieras, pero lo entiendo.",
+            "Quería que vinieras pero lo entiendo."
+          ],
+          "model": {
+            "es": "Quería que vinieras, pero lo entiendo.",
+            "en": "I wanted you to come, but I understand.",
+            "it": "Volevo che venissi, ma lo capisco.",
+            "uk": "Я хотів(-ла), щоб ти прийшов, але я розумію.",
+            "de": "Ich wollte, dass du kommst, aber ich verstehe das.",
+            "fr": "Je voulais que tu viennes, mais je comprends.",
+            "pt": "Eu queria que você viesse, mas entendo.",
+            "zh": "我本来希望你能来，不过我理解。"
+          }
+        }
+      ]
+    }
+  ],
+  "boss": {
+    "id": "u37boss",
+    "goal": {
+      "en": "It's December in {city}, a few days before the Christmas lottery draw. A radio presenter is out in the street asking people what they'd do if they won the big prize, and she stops you. Answer her questions live on air.",
+      "it": "È dicembre a {city}, pochi giorni prima dell'estrazione della lotteria di Natale. Una conduttrice radiofonica chiede alla gente per strada cosa farebbe se vincesse il primo premio, e ferma te. Rispondi alle sue domande in diretta.",
+      "uk": "Грудень у місті {city}, до різдвяного розіграшу лотереї лишилося кілька днів. Радіоведуча на вулиці питає людей, що б вони зробили, якби виграли головний приз, і зупиняє тебе. Відповідай на її запитання в прямому ефірі.",
+      "de": "Es ist Dezember in {city}, ein paar Tage vor der Ziehung der Weihnachtslotterie. Eine Radiomoderatorin fragt auf der Straße Leute, was sie tun würden, wenn sie den Hauptgewinn bekämen, und sie hält dich an. Beantworte ihre Fragen live im Radio.",
+      "fr": "C'est décembre à {city}, quelques jours avant le tirage de la loterie de Noël. Une animatrice de radio demande aux passants ce qu'ils feraient s'ils gagnaient le gros lot, et elle t'arrête. Réponds à ses questions en direct.",
+      "pt": "É dezembro em {city}, poucos dias antes do sorteio da loteria de Natal. Uma apresentadora de rádio está na rua perguntando às pessoas o que elas fariam se ganhassem o prêmio principal, e ela para você. Responda às perguntas dela ao vivo.",
+      "zh": "十二月的{city}，离圣诞彩票开奖还有几天。一位电台主持人在街头采访，问大家如果中了大奖会做什么，她拦住了你。在直播中回答她的问题吧。"
+    },
+    "target": {
+      "es": "Si me tocara la lotería, daría la vuelta al mundo con mi familia.",
+      "en": "If I won the lottery, I'd travel around the world with my family.",
+      "it": "Se vincessi alla lotteria, farei il giro del mondo con la mia famiglia.",
+      "uk": "Якби я виграв(-ла) у лотерею, я б об'їхав(-ла) весь світ зі своєю родиною.",
+      "de": "Wenn ich im Lotto gewinnen würde, würde ich mit meiner Familie eine Weltreise machen.",
+      "fr": "Si je gagnais à la loterie, je ferais le tour du monde avec ma famille.",
+      "pt": "Se eu ganhasse na loteria, daria a volta ao mundo com a minha família.",
+      "zh": "如果我中了彩票，我会和家人一起环游世界。"
+    },
+    "names": [
+      "Japón"
+    ],
+    "items": [
+      {
+        "type": "words",
+        "words": [
+          {
+            "es": "el premio",
+            "en": "the prize",
+            "it": "il premio",
+            "uk": "приз, виграш",
+            "de": "der Gewinn, der Preis",
+            "fr": "le prix, le lot",
+            "pt": "o prêmio",
+            "zh": "奖，奖金",
+            "kind": "chunk"
+          },
+          {
+            "es": "el Gordo",
+            "en": "the jackpot (of the Christmas lottery)",
+            "it": "il primo premio (della lotteria di Natale)",
+            "uk": "джекпот (різдвяної лотереї)",
+            "de": "der Hauptgewinn (der Weihnachtslotterie)",
+            "fr": "le gros lot (de la loterie de Noël)",
+            "pt": "o prêmio principal (da loteria de Natal)",
+            "zh": "头奖（圣诞彩票的）",
+            "kind": "chunk"
+          },
+          {
+            "es": "dar miedo",
+            "en": "to scare",
+            "it": "fare paura",
+            "uk": "лякати",
+            "de": "Angst machen",
+            "fr": "faire peur",
+            "pt": "dar medo",
+            "zh": "让人害怕",
+            "kind": "chunk"
+          },
+          {
+            "es": "la felicidad",
+            "en": "happiness",
+            "it": "la felicità",
+            "uk": "щастя",
+            "de": "das Glück, die Zufriedenheit",
+            "fr": "le bonheur",
+            "pt": "a felicidade",
+            "zh": "幸福",
+            "kind": "chunk"
+          }
+        ]
+      },
+      {
+        "type": "build",
+        "intention": {
+          "en": "The presenter asks «¿Qué harías si te tocara el Gordo?». Say: if I won the Gordo, I'd stop working.",
+          "it": "La conduttrice ti chiede «¿Qué harías si te tocara el Gordo?». Rispondi: se vincessi il Gordo, smetterei di lavorare.",
+          "uk": "Ведуча питає: «¿Qué harías si te tocara el Gordo?». Скажи: якби я виграв(-ла) el Gordo, я б кинув(-ла) роботу.",
+          "de": "Die Moderatorin fragt: «¿Qué harías si te tocara el Gordo?». Sag: Wenn ich el Gordo gewinnen würde, würde ich aufhören zu arbeiten.",
+          "fr": "L'animatrice te demande «¿Qué harías si te tocara el Gordo?». Dis : si je gagnais le Gordo, j'arrêterais de travailler.",
+          "pt": "A apresentadora pergunta «¿Qué harías si te tocara el Gordo?». Responda: se eu ganhasse o Gordo, pararia de trabalhar.",
+          "zh": "主持人问：«¿Qué harías si te tocara el Gordo?»。回答：如果我中了头奖，我就不工作了。"
+        },
+        "accepted": [
+          "Si me tocara el Gordo, dejaría de trabajar.",
+          "Dejaría de trabajar si me tocara el Gordo."
+        ],
+        "tiles": [
+          "Si",
+          "me tocara",
+          "el Gordo,",
+          "dejaría",
+          "de trabajar",
+          "dejo",
+          "tengo"
+        ],
+        "en": "If I won the Gordo, I'd stop working.",
+        "it": "Se vincessi il Gordo, smetterei di lavorare.",
+        "uk": "Якби я виграв(-ла) el Gordo, я б кинув(-ла) роботу.",
+        "de": "Wenn ich el Gordo gewinnen würde, würde ich aufhören zu arbeiten.",
+        "fr": "Si je gagnais le Gordo, j'arrêterais de travailler.",
+        "pt": "Se eu ganhasse o Gordo, pararia de trabalhar.",
+        "zh": "如果我中了头奖，我就不工作了。",
+        "hint": {
+          "en": "Not real: si + tocara, then the conditional, dejaría.",
+          "it": "Non è reale: si + tocara, poi il condizionale, dejaría.",
+          "uk": "Це уявне: si + tocara, потім умовний спосіб, dejaría.",
+          "de": "Nicht wirklich: si + tocara, danach der condicional, dejaría.",
+          "fr": "Ce n'est pas réel : si + tocara, puis le conditionnel, dejaría.",
+          "pt": "Não é real: si + tocara, depois o condicional, dejaría.",
+          "zh": "不是真的：si + tocara，然后用条件式，dejaría。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "Primero, ",
+        "after": " una casa grande para mis padres.",
+        "options": [
+          "compraría",
+          "compré",
+          "compro"
+        ],
+        "answer": "compraría",
+        "en": "First, I'd buy a big house for my parents.",
+        "it": "Prima di tutto, comprerei una casa grande per i miei genitori.",
+        "uk": "Насамперед я б купив(-ла) великий будинок для батьків.",
+        "de": "Zuerst würde ich meinen Eltern ein großes Haus kaufen.",
+        "fr": "D'abord, j'achèterais une grande maison pour mes parents.",
+        "pt": "Primeiro, eu compraria uma casa grande para os meus pais.",
+        "zh": "首先，我会给我父母买一栋大房子。",
+        "hint": {
+          "en": "What you would do: the conditional.",
+          "it": "Quello che faresti: il condizionale.",
+          "uk": "Що ти зробив(-ла) б: умовний спосіб.",
+          "de": "Was du tun würdest: der condicional.",
+          "fr": "Ce que tu ferais : le conditionnel.",
+          "pt": "O que você faria: o condicional.",
+          "zh": "说你会做的事：用条件式。"
+        }
+      },
+      {
+        "type": "gap",
+        "before": "Trabajan mucho. Me gustaría que ",
+        "after": " una vida más tranquila.",
+        "label": "tener",
+        "accepted": [
+          "tuvieran"
+        ],
+        "en": "They work a lot. I'd like them to have a calmer life.",
+        "it": "Lavorano tanto. Mi piacerebbe che avessero una vita più tranquilla.",
+        "uk": "Вони багато працюють. Мені б хотілося, щоб у них було спокійніше життя.",
+        "de": "Sie arbeiten viel. Ich fände es schön, wenn sie ein ruhigeres Leben hätten.",
+        "fr": "Ils travaillent beaucoup. J'aimerais qu'ils aient une vie plus tranquille.",
+        "pt": "Eles trabalham muito. Eu gostaria que eles tivessem uma vida mais tranquila.",
+        "zh": "他们工作很辛苦。我希望他们能过得轻松一点。",
+        "hint": {
+          "en": "me gustaría que + the imperfect subjunctive, for ellos: tuvieran.",
+          "it": "me gustaría que + il congiuntivo imperfetto, per ellos: tuvieran.",
+          "uk": "me gustaría que + «imperfecto de subjuntivo», для ellos: tuvieran.",
+          "de": "me gustaría que + imperfecto de subjuntivo, für ellos: tuvieran.",
+          "fr": "me gustaría que + l'imperfecto de subjuntivo, pour ellos : tuvieran.",
+          "pt": "me gustaría que + o imperfecto de subjuntivo, para ellos: tuvieran.",
+          "zh": "me gustaría que + 过去时虚拟式，ellos 形式：tuvieran。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "¿Viajar? Sí, claro: ",
+        "after": " la vuelta al mundo.",
+        "options": [
+          "daría",
+          "doy",
+          "dar"
+        ],
+        "answer": "daría",
+        "en": "Travel? Yes, of course: I'd travel around the world.",
+        "it": "Viaggiare? Sì, certo: farei il giro del mondo.",
+        "uk": "Подорожувати? Так, звісно: я б об'їхав(-ла) весь світ.",
+        "de": "Reisen? Ja, klar: Ich würde eine Weltreise machen.",
+        "fr": "Voyager ? Oui, bien sûr : je ferais le tour du monde.",
+        "pt": "Viajar? Sim, claro: eu daria a volta ao mundo.",
+        "zh": "旅行？当然了：我会环游世界。",
+        "hint": {
+          "en": "What you would do: daría.",
+          "it": "Quello che faresti: daría.",
+          "uk": "Що ти зробив(-ла) б: daría.",
+          "de": "Was du tun würdest: daría.",
+          "fr": "Ce que tu ferais : daría.",
+          "pt": "O que você faria: daría.",
+          "zh": "说你会做的事：daría。"
+        }
+      },
+      {
+        "type": "build",
+        "intention": {
+          "en": "The presenter asks «¿Y adónde irías primero?». Say: if I could, I'd go to Japan first.",
+          "it": "La conduttrice chiede «¿Y adónde irías primero?». Rispondi: se potessi, andrei prima in Giappone.",
+          "uk": "Ведуча питає: «¿Y adónde irías primero?». Скажи: якби я міг (могла), я б спершу поїхав(-ла) до Японії.",
+          "de": "Die Moderatorin fragt: «¿Y adónde irías primero?». Sag: Wenn ich könnte, würde ich zuerst nach Japan fahren.",
+          "fr": "L'animatrice demande «¿Y adónde irías primero?». Dis : si je pouvais, j'irais d'abord au Japon.",
+          "pt": "A apresentadora pergunta «¿Y adónde irías primero?». Responda: se eu pudesse, iria primeiro ao Japão.",
+          "zh": "主持人问：«¿Y adónde irías primero?»。回答：如果可以的话，我会先去日本。"
+        },
+        "accepted": [
+          "Si pudiera, iría primero a Japón.",
+          "Si pudiera, primero iría a Japón.",
+          "Iría primero a Japón."
+        ],
+        "tiles": [
+          "Si",
+          "pudiera,",
+          "iría",
+          "primero",
+          "a Japón",
+          "puedo",
+          "voy"
+        ],
+        "en": "If I could, I'd go to Japan first.",
+        "it": "Se potessi, andrei prima in Giappone.",
+        "uk": "Якби я міг (могла), я б спершу поїхав(-ла) до Японії.",
+        "de": "Wenn ich könnte, würde ich zuerst nach Japan fahren.",
+        "fr": "Si je pouvais, j'irais d'abord au Japon.",
+        "pt": "Se eu pudesse, iria primeiro ao Japão.",
+        "zh": "如果可以的话，我会先去日本。",
+        "hint": {
+          "en": "si + pudiera, then iría.",
+          "it": "si + pudiera, poi iría.",
+          "uk": "si + pudiera, потім iría.",
+          "de": "si + pudiera, danach iría.",
+          "fr": "si + pudiera, puis iría.",
+          "pt": "si + pudiera, depois iría.",
+          "zh": "si + pudiera，然后用 iría。"
+        }
+      },
+      {
+        "type": "gap",
+        "before": "Y con tanto dinero, ",
+        "after": " una fiesta para todos mis amigos.",
+        "label": "hacer",
+        "accepted": [
+          "haría"
+        ],
+        "en": "And with so much money, I'd throw a party for all my friends.",
+        "it": "E con tutti quei soldi, farei una festa per tutti i miei amici.",
+        "uk": "А з такими грошима я б влаштував(-ла) вечірку для всіх своїх друзів.",
+        "de": "Und mit so viel Geld würde ich eine Party für alle meine Freunde machen.",
+        "fr": "Et avec autant d'argent, je ferais une fête pour tous mes amis.",
+        "pt": "E com tanto dinheiro, eu daria uma festa para todos os meus amigos.",
+        "zh": "有了这么多钱，我还会给我所有的朋友办一场聚会。",
+        "hint": {
+          "en": "The conditional of hacer: haría.",
+          "it": "Il condizionale di hacer: haría.",
+          "uk": "Умовний спосіб від hacer: haría.",
+          "de": "Der condicional von hacer: haría.",
+          "fr": "Le conditionnel de hacer : haría.",
+          "pt": "O condicional de hacer: haría.",
+          "zh": "hacer 的条件式：haría。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "¿Miedo de tener tanto dinero? Ojalá ",
+        "after": " ese problema.",
+        "options": [
+          "tuviera",
+          "tengo",
+          "tendría"
+        ],
+        "answer": "tuviera",
+        "en": "Scared of having so much money? I wish I had that problem.",
+        "it": "Paura di avere tanti soldi? Magari avessi questo problema.",
+        "uk": "Боятися мати стільки грошей? Якби ж то в мене була така проблема.",
+        "de": "Angst davor, so viel Geld zu haben? Ich wünschte, ich hätte dieses Problem.",
+        "fr": "Peur d'avoir autant d'argent ? Si seulement j'avais ce problème.",
+        "pt": "Medo de ter tanto dinheiro? Quem dera eu tivesse esse problema.",
+        "zh": "怕有这么多钱？我倒希望有这种烦恼呢。",
+        "hint": {
+          "en": "You don't have it: ojalá + tuviera.",
+          "it": "Non ce l'hai: ojalá + tuviera.",
+          "uk": "Такої проблеми в тебе немає: ojalá + tuviera.",
+          "de": "Du hast es nicht: ojalá + tuviera.",
+          "fr": "Tu ne l'as pas : ojalá + tuviera.",
+          "pt": "Você não tem: ojalá + tuviera.",
+          "zh": "你没有这个烦恼：ojalá + tuviera。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "El año pasado jugué y esperaba que me ",
+        "after": " algo, pero nada.",
+        "options": [
+          "tocara",
+          "tocar"
+        ],
+        "answer": "tocara",
+        "en": "Last year I played and I was hoping to win something, but nothing.",
+        "it": "L'anno scorso ho giocato e speravo di vincere qualcosa, ma niente.",
+        "uk": "Торік я грав(-ла) і сподівався(-лася) щось виграти, але нічого.",
+        "de": "Letztes Jahr habe ich gespielt und gehofft, dass ich etwas gewinne, aber nichts.",
+        "fr": "L'année dernière, j'ai joué et j'espérais gagner quelque chose, mais rien.",
+        "pt": "No ano passado eu joguei e esperava ganhar alguma coisa, mas nada.",
+        "zh": "去年我买了彩票，盼着能中点什么，结果什么都没中。",
+        "hint": {
+          "en": "esperaba is in the past: tocara.",
+          "it": "esperaba è al passato: tocara.",
+          "uk": "esperaba — у минулому часі: tocara.",
+          "de": "esperaba steht in der Vergangenheit: tocara.",
+          "fr": "esperaba est au passé : tocara.",
+          "pt": "esperaba está no passado: tocara.",
+          "zh": "esperaba 是过去时：tocara。"
+        }
+      },
+      {
+        "type": "build",
+        "intention": {
+          "en": "The presenter says «Mucha gente dice que el dinero no da la felicidad». Answer: they say it as if money weren't important.",
+          "it": "La conduttrice dice «Mucha gente dice que el dinero no da la felicidad». Rispondi: lo dicono come se i soldi non fossero importanti.",
+          "uk": "Ведуча каже: «Mucha gente dice que el dinero no da la felicidad». Відповідай: вони кажуть це так, ніби гроші не важливі.",
+          "de": "Die Moderatorin sagt: «Mucha gente dice que el dinero no da la felicidad». Antworte: Das sagen sie, als ob Geld nicht wichtig wäre.",
+          "fr": "L'animatrice dit «Mucha gente dice que el dinero no da la felicidad». Réponds : ils le disent comme si l'argent n'était pas important.",
+          "pt": "A apresentadora diz «Mucha gente dice que el dinero no da la felicidad». Responda: eles dizem isso como se o dinheiro não fosse importante.",
+          "zh": "主持人说：«Mucha gente dice que el dinero no da la felicidad»。回答：他们说这话，就好像钱不重要一样。"
+        },
+        "accepted": [
+          "Lo dicen como si el dinero no fuera importante."
+        ],
+        "tiles": [
+          "Lo dicen",
+          "como si",
+          "el dinero",
+          "no fuera",
+          "importante",
+          "no es",
+          "sea"
+        ],
+        "en": "They say it as if money weren't important.",
+        "it": "Lo dicono come se i soldi non fossero importanti.",
+        "uk": "Вони кажуть це так, ніби гроші не важливі.",
+        "de": "Das sagen sie, als ob Geld nicht wichtig wäre.",
+        "fr": "Ils le disent comme si l'argent n'était pas important.",
+        "pt": "Eles dizem isso como se o dinheiro não fosse importante.",
+        "zh": "他们说这话，就好像钱不重要一样。",
+        "hint": {
+          "en": "como si + the imperfect subjunctive: fuera.",
+          "it": "como si + il congiuntivo imperfetto: fuera.",
+          "uk": "como si + «imperfecto de subjuntivo»: fuera.",
+          "de": "como si + imperfecto de subjuntivo: fuera.",
+          "fr": "como si + l'imperfecto de subjuntivo : fuera.",
+          "pt": "como si + o imperfecto de subjuntivo: fuera.",
+          "zh": "como si + 过去时虚拟式：fuera。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "¿Y si no me tocara nada? ",
+        "after": " igual de feliz.",
+        "options": [
+          "Sería",
+          "Fuera",
+          "Soy"
+        ],
+        "answer": "Sería",
+        "en": "And if I didn't win anything? I'd be just as happy.",
+        "it": "E se non vincessi niente? Sarei felice lo stesso.",
+        "uk": "А якби я нічого не виграв(-ла)? Я був (була) б так само щасливий(-а).",
+        "de": "Und wenn ich nichts gewinnen würde? Ich wäre genauso glücklich.",
+        "fr": "Et si je ne gagnais rien ? Je serais tout aussi heureux.",
+        "pt": "E se eu não ganhasse nada? Eu seria feliz do mesmo jeito.",
+        "zh": "要是什么都没中呢？我也一样开心。",
+        "hint": {
+          "en": "The answer to the si part: the conditional, sería.",
+          "it": "La risposta alla parte con si: il condizionale, sería.",
+          "uk": "Відповідь на частину з si: умовний спосіб, sería.",
+          "de": "Die Antwort auf den si-Teil: der condicional, sería.",
+          "fr": "La réponse à la partie avec si : le conditionnel, sería.",
+          "pt": "A resposta à parte com si: o condicional, sería.",
+          "zh": "回应 si 部分：用条件式，sería。"
+        }
+      },
+      {
+        "type": "build",
+        "intention": {
+          "en": "To finish, the presenter asks if you want to say something to the listeners. Say: I'd like everyone to be very lucky.",
+          "it": "Per finire, la conduttrice ti chiede se vuoi dire qualcosa agli ascoltatori. Di': mi piacerebbe che tutti avessero molta fortuna.",
+          "uk": "Наостанок ведуча питає, чи хочеш ти щось сказати слухачам. Скажи: мені б хотілося, щоб усім дуже пощастило.",
+          "de": "Zum Schluss fragt die Moderatorin, ob du den Zuhörern noch etwas sagen möchtest. Sag: Ich fände es schön, wenn alle viel Glück hätten.",
+          "fr": "Pour finir, l'animatrice te demande si tu veux dire quelque chose aux auditeurs. Dis : j'aimerais que tout le monde ait beaucoup de chance.",
+          "pt": "Para terminar, a apresentadora pergunta se você quer dizer algo aos ouvintes. Diga: eu gostaria que todo mundo tivesse muita sorte.",
+          "zh": "最后，主持人问你有没有什么话想对听众说。说：我希望大家都好运连连。"
+        },
+        "accepted": [
+          "Me gustaría que todos tuvieran mucha suerte.",
+          "Me gustaría que todos tuvieran suerte."
+        ],
+        "tiles": [
+          "Me gustaría que",
+          "todos",
+          "tuvieran",
+          "mucha",
+          "suerte",
+          "tienen",
+          "tengan"
+        ],
+        "en": "I'd like everyone to be very lucky.",
+        "it": "Mi piacerebbe che tutti avessero molta fortuna.",
+        "uk": "Мені б хотілося, щоб усім дуже пощастило.",
+        "de": "Ich fände es schön, wenn alle viel Glück hätten.",
+        "fr": "J'aimerais que tout le monde ait beaucoup de chance.",
+        "pt": "Eu gostaria que todo mundo tivesse muita sorte.",
+        "zh": "我希望大家都好运连连。",
+        "hint": {
+          "en": "me gustaría que + tuvieran.",
+          "it": "me gustaría que + tuvieran.",
+          "uk": "me gustaría que + tuvieran.",
+          "de": "me gustaría que + tuvieran.",
+          "fr": "me gustaría que + tuvieran.",
+          "pt": "me gustaría que + tuvieran.",
+          "zh": "me gustaría que + tuvieran。"
+        }
+      },
+      {
+        "type": "write",
+        "instruction": {
+          "en": "The presenter asks you for one last sentence for the programme. Write in Spanish: «If I won the lottery, I'd travel around the world with my family.»",
+          "it": "La conduttrice ti chiede un'ultima frase per il programma. Scrivi in spagnolo: «Se vincessi alla lotteria, farei il giro del mondo con la mia famiglia.»",
+          "uk": "Ведуча просить тебе сказати ще одне, останнє речення для програми. Напиши іспанською: «Якби я виграв(-ла) у лотерею, я б об'їхав(-ла) весь світ зі своєю родиною.»",
+          "de": "Die Moderatorin bittet dich um einen letzten Satz für die Sendung. Schreib auf Spanisch: «Wenn ich im Lotto gewinnen würde, würde ich mit meiner Familie eine Weltreise machen.»",
+          "fr": "L'animatrice te demande une dernière phrase pour l'émission. Écris en espagnol : «Si je gagnais à la loterie, je ferais le tour du monde avec ma famille.»",
+          "pt": "A apresentadora pede uma última frase para o programa. Escreva em espanhol: «Se eu ganhasse na loteria, daria a volta ao mundo com a minha família.»",
+          "zh": "主持人请你为节目再说最后一句话。用西班牙语写：«如果我中了彩票，我会和家人一起环游世界。»"
+        },
+        "accepted": [
+          "Si me tocara la lotería, daría la vuelta al mundo con mi familia.",
+          "Daría la vuelta al mundo con mi familia si me tocara la lotería.",
+          "Si me tocara la lotería, daría con mi familia la vuelta al mundo."
+        ],
+        "model": {
+          "es": "Si me tocara la lotería, daría la vuelta al mundo con mi familia.",
+          "en": "If I won the lottery, I'd travel around the world with my family.",
+          "it": "Se vincessi alla lotteria, farei il giro del mondo con la mia famiglia.",
+          "uk": "Якби я виграв(-ла) у лотерею, я б об'їхав(-ла) весь світ зі своєю родиною.",
+          "de": "Wenn ich im Lotto gewinnen würde, würde ich mit meiner Familie eine Weltreise machen.",
+          "fr": "Si je gagnais à la loterie, je ferais le tour du monde avec ma famille.",
+          "pt": "Se eu ganhasse na loteria, daria a volta ao mundo com a minha família.",
+          "zh": "如果我中了彩票，我会和家人一起环游世界。"
+        }
+      }
+    ]
+  }
+}
