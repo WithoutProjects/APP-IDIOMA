@@ -1,0 +1,3773 @@
+{
+  "unit": "u27",
+  "lessons": [
+    {
+      "id": "u27l1",
+      "goal": {
+        "en": "Say what went wrong on a trip: perdí el vuelo, me quedé dormido, había un atasco, así que llegué tarde.",
+        "it": "Racconta cosa è andato storto in viaggio: perdí el vuelo, me quedé dormido, había un atasco, así que llegué tarde.",
+        "uk": "Розкажи, що пішло не так у поїздці: perdí el vuelo, me quedé dormido, había un atasco, así que llegué tarde.",
+        "de": "Erzähl, was auf einer Reise schiefgegangen ist: perdí el vuelo, me quedé dormido, había un atasco, así que llegué tarde.",
+        "fr": "Raconte ce qui a mal tourné pendant un voyage : perdí el vuelo, me quedé dormido, había un atasco, así que llegué tarde.",
+        "pt": "Conte o que deu errado numa viagem: perdí el vuelo, me quedé dormido, había un atasco, así que llegué tarde.",
+        "zh": "说说旅行中出了什么问题：perdí el vuelo，me quedé dormido，había un atasco，así que llegué tarde。"
+      },
+      "target": {
+        "es": "Me quedé dormido y había un atasco, así que perdí el vuelo.",
+        "en": "I overslept and there was a traffic jam, so I missed the flight.",
+        "it": "Ho dormito troppo e c'era un ingorgo, così ho perso il volo.",
+        "uk": "Я проспав(-ла), а ще був затор, тож я не встиг(-ла) на рейс.",
+        "de": "Ich habe verschlafen und es gab einen Stau, deshalb habe ich den Flug verpasst.",
+        "fr": "Je me suis réveillé en retard et il y avait un embouteillage, donc j'ai raté l'avion.",
+        "pt": "Perdi a hora e tinha um engarrafamento, então perdi o voo.",
+        "zh": "我睡过头了，路上又堵车，所以没赶上飞机。"
+      },
+      "names": [
+        "Roma"
+      ],
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "la tarjeta de embarque",
+              "en": "the boarding pass",
+              "it": "la carta d'imbarco",
+              "uk": "посадковий талон",
+              "de": "die Bordkarte",
+              "fr": "la carte d'embarquement",
+              "pt": "o cartão de embarque",
+              "zh": "登机牌",
+              "kind": "chunk"
+            },
+            {
+              "es": "la puerta de embarque",
+              "en": "the gate (at the airport)",
+              "it": "il gate, la porta d'imbarco",
+              "uk": "вихід на посадку (в аеропорту)",
+              "de": "das Gate (am Flughafen)",
+              "fr": "la porte d'embarquement",
+              "pt": "o portão de embarque",
+              "zh": "登机口",
+              "kind": "chunk"
+            },
+            {
+              "es": "facturar",
+              "en": "to check in (a bag)",
+              "it": "imbarcare (un bagaglio), fare il check-in",
+              "uk": "здати в багаж (валізу)",
+              "de": "(Gepäck) aufgeben",
+              "fr": "enregistrer (un bagage)",
+              "pt": "despachar (uma mala), fazer o check-in",
+              "zh": "托运（行李）",
+              "kind": "stem"
+            },
+            {
+              "es": "el atasco",
+              "en": "the traffic jam",
+              "it": "l'ingorgo",
+              "uk": "затор, корок",
+              "de": "der Stau",
+              "fr": "l'embouteillage",
+              "pt": "o engarrafamento",
+              "zh": "堵车，交通堵塞",
+              "kind": "chunk"
+            }
+          ]
+        },
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "quedarse dormido",
+              "en": "to oversleep",
+              "it": "non svegliarsi in tempo, dormire troppo",
+              "uk": "проспати",
+              "de": "verschlafen",
+              "fr": "se réveiller en retard, ne pas se réveiller à temps",
+              "pt": "perder a hora, não acordar a tempo",
+              "zh": "睡过头",
+              "kind": "stem"
+            },
+            {
+              "es": "a tiempo",
+              "en": "on time",
+              "it": "in tempo",
+              "uk": "вчасно",
+              "de": "pünktlich, rechtzeitig",
+              "fr": "à l'heure, à temps",
+              "pt": "a tempo, na hora",
+              "zh": "准时，及时",
+              "kind": "time"
+            },
+            {
+              "es": "cancelar",
+              "en": "to cancel",
+              "it": "cancellare",
+              "uk": "скасувати",
+              "de": "absagen, stornieren",
+              "fr": "annuler",
+              "pt": "cancelar",
+              "zh": "取消",
+              "kind": "stem"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "perd-",
+              "kind": "stem"
+            },
+            {
+              "text": "-í",
+              "kind": "ending"
+            },
+            {
+              "text": "el vuelo",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "When a trip goes wrong, each thing that happened is a finished action, so it takes the past for finished actions: perdí el vuelo, facturé la maleta, cancelaron el tren.",
+            "it": "Quando un viaggio va storto, ogni cosa successa è un'azione conclusa, quindi usa il passato delle azioni concluse: perdí el vuelo, facturé la maleta, cancelaron el tren.",
+            "uk": "Коли в поїздці щось іде не так, кожна подія — це завершена дія, тому вживається минулий час для завершених дій: perdí el vuelo, facturé la maleta, cancelaron el tren.",
+            "de": "Wenn auf einer Reise etwas schiefgeht, ist alles, was passiert ist, eine abgeschlossene Handlung. Es steht also in der Vergangenheitsform für abgeschlossene Handlungen: perdí el vuelo, facturé la maleta, cancelaron el tren.",
+            "fr": "Quand un voyage tourne mal, chaque chose qui s'est passée est une action terminée : on utilise donc le passé des actions terminées : perdí el vuelo, facturé la maleta, cancelaron el tren.",
+            "pt": "Quando uma viagem dá errado, cada coisa que aconteceu é uma ação concluída, então vai no passado das ações concluídas: perdí el vuelo, facturé la maleta, cancelaron el tren.",
+            "zh": "旅行出了问题时，发生的每件事都是已经完成的动作，所以用表示已完成动作的过去时：perdí el vuelo，facturé la maleta，cancelaron el tren。"
+          },
+          "examples": [
+            {
+              "es": "Ayer perdí el vuelo a Roma.",
+              "en": "Yesterday I missed the flight to Rome.",
+              "it": "Ieri ho perso il volo per Roma.",
+              "uk": "Учора я не встиг(-ла) на рейс до Рима.",
+              "de": "Gestern habe ich den Flug nach Rom verpasst.",
+              "fr": "Hier, j'ai raté l'avion pour Rome.",
+              "pt": "Ontem perdi o voo para Roma.",
+              "zh": "昨天我没赶上去罗马的航班。"
+            },
+            {
+              "es": "Facturamos las maletas y fuimos a la puerta de embarque.",
+              "en": "We checked in the suitcases and went to the gate.",
+              "it": "Abbiamo imbarcato le valigie e siamo andati al gate.",
+              "uk": "Ми здали валізи в багаж і пішли до виходу на посадку.",
+              "de": "Wir haben die Koffer aufgegeben und sind zum Gate gegangen.",
+              "fr": "Nous avons enregistré les valises et nous sommes allés à la porte d'embarquement.",
+              "pt": "Despachamos as malas e fomos para o portão de embarque.",
+              "zh": "我们托运了行李箱，然后去了登机口。"
+            },
+            {
+              "es": "Cancelaron el tren de las ocho.",
+              "en": "They cancelled the eight o'clock train.",
+              "it": "Hanno cancellato il treno delle otto.",
+              "uk": "Потяг о восьмій скасували.",
+              "de": "Sie haben den Acht-Uhr-Zug gestrichen.",
+              "fr": "Ils ont annulé le train de huit heures.",
+              "pt": "Cancelaram o trem das oito.",
+              "zh": "八点的火车被取消了。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "facturé",
+              "en": "I checked in (a bag)",
+              "it": "ho imbarcato",
+              "uk": "я здав(-ла) в багаж",
+              "de": "ich habe (Gepäck) aufgegeben",
+              "fr": "j'ai enregistré (un bagage)",
+              "pt": "eu despachei (uma mala)",
+              "zh": "我托运了（行李）"
+            },
+            {
+              "es": "facturaste",
+              "en": "you checked in",
+              "it": "hai imbarcato",
+              "uk": "ти здав(-ла) в багаж",
+              "de": "du hast aufgegeben",
+              "fr": "tu as enregistré",
+              "pt": "você despachou",
+              "zh": "你托运了"
+            },
+            {
+              "es": "facturó",
+              "en": "he/she checked in",
+              "it": "ha imbarcato",
+              "uk": "він/вона здав(-ла) в багаж",
+              "de": "er/sie hat aufgegeben",
+              "fr": "il/elle a enregistré",
+              "pt": "ele/ela despachou",
+              "zh": "他／她托运了"
+            },
+            {
+              "es": "facturamos",
+              "en": "we checked in",
+              "it": "abbiamo imbarcato",
+              "uk": "ми здали в багаж",
+              "de": "wir haben aufgegeben",
+              "fr": "nous avons enregistré",
+              "pt": "nós despachamos",
+              "zh": "我们托运了"
+            },
+            {
+              "es": "facturaron",
+              "en": "they checked in",
+              "it": "hanno imbarcato",
+              "uk": "вони здали в багаж",
+              "de": "sie haben aufgegeben",
+              "fr": "ils/elles ont enregistré",
+              "pt": "eles despacharam",
+              "zh": "他们托运了"
+            },
+            {
+              "es": "cancelaron",
+              "en": "they cancelled",
+              "it": "hanno cancellato",
+              "uk": "вони скасували",
+              "de": "sie haben gestrichen",
+              "fr": "ils/elles ont annulé",
+              "pt": "eles cancelaram",
+              "zh": "他们取消了"
+            },
+            {
+              "es": "canceló",
+              "en": "he/she cancelled",
+              "it": "ha cancellato",
+              "uk": "він/вона скасував(-ла)",
+              "de": "er/sie hat gestrichen",
+              "fr": "il/elle a annulé",
+              "pt": "ele/ela cancelou",
+              "zh": "他／她取消了"
+            },
+            {
+              "es": "maletas",
+              "en": "suitcases",
+              "it": "valigie",
+              "uk": "валізи",
+              "de": "Koffer (Pl.)",
+              "fr": "valises",
+              "pt": "malas",
+              "zh": "行李箱（复数）"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Ayer ",
+          "after": " el vuelo a Roma.",
+          "options": [
+            "perdí",
+            "perdía",
+            "he perdido"
+          ],
+          "answer": "perdí",
+          "en": "Yesterday I missed the flight to Rome.",
+          "it": "Ieri ho perso il volo per Roma.",
+          "uk": "Учора я не встиг(-ла) на рейс до Рима.",
+          "de": "Gestern habe ich den Flug nach Rom verpasst.",
+          "fr": "Hier, j'ai raté l'avion pour Rome.",
+          "pt": "Ontem perdi o voo para Roma.",
+          "zh": "昨天我没赶上去罗马的航班。",
+          "hint": {
+            "en": "ayer + something that happened once: perdí.",
+            "it": "ayer + una cosa successa una volta: perdí.",
+            "uk": "ayer + те, що сталося один раз: perdí.",
+            "de": "ayer + etwas, das einmal passiert ist: perdí.",
+            "fr": "ayer + une chose arrivée une seule fois : perdí.",
+            "pt": "ayer + algo que aconteceu uma vez: perdí.",
+            "zh": "ayer + 只发生一次的事：perdí。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "fire",
+          "before": "Primero ",
+          "after": " las maletas y luego fuimos a la puerta de embarque.",
+          "label": "facturar",
+          "accepted": [
+            "facturamos"
+          ],
+          "en": "First we checked in the suitcases and then we went to the gate.",
+          "it": "Prima abbiamo imbarcato le valigie e poi siamo andati al gate.",
+          "uk": "Спочатку ми здали валізи в багаж, а потім пішли до виходу на посадку.",
+          "de": "Zuerst haben wir die Koffer aufgegeben und dann sind wir zum Gate gegangen.",
+          "fr": "D'abord nous avons enregistré les valises, puis nous sommes allés à la porte d'embarquement.",
+          "pt": "Primeiro despachamos as malas e depois fomos para o portão de embarque.",
+          "zh": "我们先托运了行李箱，然后去了登机口。",
+          "hint": {
+            "en": "nosotros, a finished action like fuimos: facturamos.",
+            "it": "nosotros, un'azione conclusa come fuimos: facturamos.",
+            "uk": "nosotros, завершена дія, як fuimos: facturamos.",
+            "de": "nosotros, eine abgeschlossene Handlung wie fuimos: facturamos.",
+            "fr": "nosotros, une action terminée comme fuimos : facturamos.",
+            "pt": "nosotros, uma ação concluída como fuimos: facturamos.",
+            "zh": "nosotros，和 fuimos 一样是已经完成的动作：facturamos。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "me",
+              "kind": "ending"
+            },
+            {
+              "text": "quedé",
+              "kind": "stem"
+            },
+            {
+              "text": "dormido",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "quedarse dormido means to oversleep. It works like ducharse: me quedé dormido, te quedaste dormido. dormido matches the person: dormida for a woman, dormidos for several people.",
+            "it": "quedarse dormido vuol dire non svegliarsi in tempo. Funziona come ducharse: me quedé dormido, te quedaste dormido. dormido si accorda con la persona: dormida per una donna, dormidos per più persone.",
+            "uk": "quedarse dormido означає «проспати». Воно поводиться як ducharse: me quedé dormido, te quedaste dormido. dormido узгоджується з особою: dormida — про жінку, dormidos — про кількох людей.",
+            "de": "quedarse dormido heißt verschlafen. Es funktioniert wie ducharse: me quedé dormido, te quedaste dormido. dormido passt sich der Person an: dormida für eine Frau, dormidos für mehrere Personen.",
+            "fr": "quedarse dormido veut dire se réveiller en retard, ne pas entendre son réveil. Il fonctionne comme ducharse : me quedé dormido, te quedaste dormido. dormido s'accorde avec la personne : dormida pour une femme, dormidos pour plusieurs personnes.",
+            "pt": "quedarse dormido quer dizer perder a hora, não acordar a tempo. Funciona como ducharse: me quedé dormido, te quedaste dormido. dormido concorda com a pessoa: dormida para uma mulher, dormidos para várias pessoas.",
+            "zh": "quedarse dormido 的意思是睡过头。它的变法和 ducharse 一样：me quedé dormido，te quedaste dormido。dormido 要和人一致：女性用 dormida，多个人用 dormidos。"
+          },
+          "examples": [
+            {
+              "es": "Me quedé dormido y llegué tarde al trabajo.",
+              "en": "I overslept and got to work late.",
+              "it": "Non mi sono svegliato in tempo e sono arrivato tardi al lavoro.",
+              "uk": "Я проспав(-ла) і запізнився(-лася) на роботу.",
+              "de": "Ich habe verschlafen und bin zu spät zur Arbeit gekommen.",
+              "fr": "Je me suis réveillé en retard et je suis arrivé en retard au travail.",
+              "pt": "Perdi a hora e cheguei atrasado ao trabalho.",
+              "zh": "我睡过头了，上班迟到了。"
+            },
+            {
+              "es": "Mi hermana se quedó dormida.",
+              "en": "My sister overslept.",
+              "it": "Mia sorella non si è svegliata in tempo.",
+              "uk": "Моя сестра проспала.",
+              "de": "Meine Schwester hat verschlafen.",
+              "fr": "Ma sœur s'est réveillée en retard.",
+              "pt": "Minha irmã perdeu a hora.",
+              "zh": "我姐姐睡过头了。"
+            },
+            {
+              "es": "Nos quedamos dormidos y perdimos el tren.",
+              "en": "We overslept and missed the train.",
+              "it": "Abbiamo dormito troppo e abbiamo perso il treno.",
+              "uk": "Ми проспали й не встигли на потяг.",
+              "de": "Wir haben verschlafen und den Zug verpasst.",
+              "fr": "Nous nous sommes réveillés en retard et nous avons raté le train.",
+              "pt": "Perdemos a hora e perdemos o trem.",
+              "zh": "我们睡过头了，没赶上火车。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "dormida",
+              "en": "asleep (woman)",
+              "it": "addormentata",
+              "uk": "заснула (про жінку)",
+              "de": "eingeschlafen (weibl.)",
+              "fr": "endormie (femme)",
+              "pt": "adormecida (mulher)",
+              "zh": "睡着的（女性）"
+            },
+            {
+              "es": "dormidos",
+              "en": "asleep (plural)",
+              "it": "addormentati",
+              "uk": "заснули (про кількох людей)",
+              "de": "eingeschlafen (Pl.)",
+              "fr": "endormis (pluriel)",
+              "pt": "adormecidos (plural)",
+              "zh": "睡着的（复数）"
+            },
+            {
+              "es": "dormidas",
+              "en": "asleep (women)",
+              "it": "addormentate",
+              "uk": "заснули (про кількох жінок)",
+              "de": "eingeschlafen (weibl. Pl.)",
+              "fr": "endormies (femmes)",
+              "pt": "adormecidas (mulheres)",
+              "zh": "睡着的（女性复数）"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Mi hermana se quedó ",
+          "after": " y perdió el autobús.",
+          "options": [
+            "dormida",
+            "dormido",
+            "dormidos"
+          ],
+          "answer": "dormida",
+          "en": "My sister overslept and missed the bus.",
+          "it": "Mia sorella non si è svegliata in tempo e ha perso l'autobus.",
+          "uk": "Моя сестра проспала й не встигла на автобус.",
+          "de": "Meine Schwester hat verschlafen und den Bus verpasst.",
+          "fr": "Ma sœur s'est réveillée en retard et a raté le bus.",
+          "pt": "Minha irmã perdeu a hora e perdeu o ônibus.",
+          "zh": "我姐姐睡过头了，没赶上公交车。",
+          "hint": {
+            "en": "hermana is a woman: dormida.",
+            "it": "hermana è una donna: dormida.",
+            "uk": "hermana — жінка: dormida.",
+            "de": "hermana ist eine Frau: dormida.",
+            "fr": "hermana est une femme : dormida.",
+            "pt": "hermana é uma mulher: dormida.",
+            "zh": "hermana 是女性：dormida。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "A friend asks why you missed the train yesterday. Say you overslept.",
+            "it": "Un amico ti chiede perché ieri hai perso il treno. Rispondi che non ti sei svegliato in tempo.",
+            "uk": "Друг питає, чому ти вчора не встиг(-ла) на потяг. Скажи, що проспав(-ла).",
+            "de": "Ein Freund fragt, warum du gestern den Zug verpasst hast. Sag, dass du verschlafen hast.",
+            "fr": "Un ami te demande pourquoi tu as raté le train hier. Dis que tu ne t'es pas réveillé à temps.",
+            "pt": "Um amigo pergunta por que você perdeu o trem ontem. Diga que perdeu a hora.",
+            "zh": "朋友问你昨天为什么没赶上火车。说你睡过头了。"
+          },
+          "accepted": [
+            "Me quedé dormido.",
+            "Me quedé dormida.",
+            "Porque me quedé dormido.",
+            "Porque me quedé dormida."
+          ],
+          "tiles": [
+            "Me",
+            "quedé",
+            "dormido",
+            "quedó",
+            "Te"
+          ],
+          "en": "I overslept.",
+          "it": "Non mi sono svegliato in tempo.",
+          "uk": "Я проспав(-ла).",
+          "de": "Ich habe verschlafen.",
+          "fr": "Je me suis réveillé en retard.",
+          "pt": "Perdi a hora.",
+          "zh": "我睡过头了。",
+          "hint": {
+            "en": "Like ducharse, yo: me quedé.",
+            "it": "Come ducharse, yo: me quedé.",
+            "uk": "Як ducharse, yo: me quedé.",
+            "de": "Wie bei ducharse, yo: me quedé.",
+            "fr": "Comme ducharse, yo : me quedé.",
+            "pt": "Como ducharse, yo: me quedé.",
+            "zh": "和 ducharse 一样，yo：me quedé。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "perdí el vuelo",
+              "kind": "chunk"
+            },
+            {
+              "text": "porque",
+              "kind": "rail"
+            },
+            {
+              "text": "me quedé dormido",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "Link what went wrong: porque gives the reason, así que gives the result, cuando says when. The scene around it stays in the imperfect: había un atasco.",
+            "it": "Collega le cose andate storte: porque dà la causa, así que dà la conseguenza, cuando dice quando. La scena intorno resta all'imperfetto: había un atasco.",
+            "uk": "Поєднуй те, що пішло не так: porque називає причину, así que — наслідок, cuando — коли це сталося. Обстановка навколо залишається в imperfecto: había un atasco.",
+            "de": "Verbinde, was schiefgegangen ist: porque nennt den Grund, así que die Folge, cuando sagt, wann. Die Szene drumherum bleibt im Imperfekt: había un atasco.",
+            "fr": "Pour relier ce qui a mal tourné : porque donne la cause, así que donne la conséquence, cuando dit quand. Le décor autour reste à l'imparfait : había un atasco.",
+            "pt": "Ligue as coisas que deram errado: porque dá o motivo, así que dá o resultado, cuando diz quando. O cenário em volta fica no imperfeito: había un atasco.",
+            "zh": "把出问题的事连起来：porque 说原因，así que 说结果，cuando 说时间。周围的场景仍然用过去未完成时：había un atasco。"
+          },
+          "examples": [
+            {
+              "es": "Perdí el vuelo porque me quedé dormido.",
+              "en": "I missed the flight because I overslept.",
+              "it": "Ho perso il volo perché non mi sono svegliato in tempo.",
+              "uk": "Я не встиг(-ла) на рейс, бо проспав(-ла).",
+              "de": "Ich habe den Flug verpasst, weil ich verschlafen habe.",
+              "fr": "J'ai raté l'avion parce que je me suis réveillé en retard.",
+              "pt": "Perdi o voo porque perdi a hora.",
+              "zh": "我没赶上飞机，因为我睡过头了。"
+            },
+            {
+              "es": "Había un atasco, así que no llegamos a tiempo.",
+              "en": "There was a traffic jam, so we didn't get there on time.",
+              "it": "C'era un ingorgo, così non siamo arrivati in tempo.",
+              "uk": "Був затор, тож ми не доїхали вчасно.",
+              "de": "Es gab einen Stau, deshalb sind wir nicht rechtzeitig angekommen.",
+              "fr": "Il y avait un embouteillage, donc nous ne sommes pas arrivés à l'heure.",
+              "pt": "Tinha um engarrafamento, então não chegamos a tempo.",
+              "zh": "路上堵车，所以我们没能准时到。"
+            },
+            {
+              "es": "Cuando llegué a la puerta de embarque, estaba cerrada.",
+              "en": "When I got to the gate, it was closed.",
+              "it": "Quando sono arrivato al gate, era chiuso.",
+              "uk": "Коли я дійшов(-шла) до виходу на посадку, він був зачинений.",
+              "de": "Als ich am Gate ankam, war es geschlossen.",
+              "fr": "Quand je suis arrivé à la porte d'embarquement, elle était fermée.",
+              "pt": "Quando cheguei ao portão de embarque, estava fechado.",
+              "zh": "我到登机口的时候，登机口已经关了。"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Había mucho tráfico, ",
+          "after": " llegamos tarde al aeropuerto.",
+          "options": [
+            "así que",
+            "porque",
+            "cuando"
+          ],
+          "answer": "así que",
+          "en": "There was a lot of traffic, so we got to the airport late.",
+          "it": "C'era molto traffico, così siamo arrivati tardi in aeroporto.",
+          "uk": "На дорогах було багато машин, тож ми приїхали в аеропорт пізно.",
+          "de": "Es gab viel Verkehr, deshalb sind wir zu spät am Flughafen angekommen.",
+          "fr": "Il y avait beaucoup de circulation, donc nous sommes arrivés en retard à l'aéroport.",
+          "pt": "Tinha muito trânsito, então chegamos atrasados ao aeroporto.",
+          "zh": "路上车很多，所以我们到机场晚了。",
+          "hint": {
+            "en": "The result comes after: así que.",
+            "it": "La conseguenza viene dopo: así que.",
+            "uk": "Наслідок іде після: así que.",
+            "de": "Die Folge kommt danach: así que.",
+            "fr": "La conséquence vient après : así que.",
+            "pt": "O resultado vem depois: así que.",
+            "zh": "结果放在后面：así que。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "Explain to a friend that you missed the flight because you overslept.",
+            "it": "Spiega a un amico che hai perso il volo perché non ti sei svegliato in tempo.",
+            "uk": "Поясни другові, що ти не встиг(-ла) на рейс, бо проспав(-ла).",
+            "de": "Erklär einem Freund, dass du den Flug verpasst hast, weil du verschlafen hast.",
+            "fr": "Explique à un ami que tu as raté l'avion parce que tu ne t'es pas réveillé à temps.",
+            "pt": "Explique a um amigo que você perdeu o voo porque perdeu a hora.",
+            "zh": "向朋友解释：你没赶上飞机，因为你睡过头了。"
+          },
+          "accepted": [
+            "Perdí el vuelo porque me quedé dormido.",
+            "Perdí el vuelo porque me quedé dormida."
+          ],
+          "tiles": [
+            "Perdí",
+            "el vuelo",
+            "porque",
+            "me quedé",
+            "dormido",
+            "así que",
+            "perdía"
+          ],
+          "en": "I missed the flight because I overslept.",
+          "it": "Ho perso il volo perché non mi sono svegliato in tempo.",
+          "uk": "Я не встиг(-ла) на рейс, бо проспав(-ла).",
+          "de": "Ich habe den Flug verpasst, weil ich verschlafen habe.",
+          "fr": "J'ai raté l'avion parce que je me suis réveillé en retard.",
+          "pt": "Perdi o voo porque perdi a hora.",
+          "zh": "我没赶上飞机，因为我睡过头了。",
+          "hint": {
+            "en": "The reason comes after porque.",
+            "it": "La causa viene dopo porque.",
+            "uk": "Причина йде після porque.",
+            "de": "Der Grund kommt nach porque.",
+            "fr": "La cause vient après porque.",
+            "pt": "O motivo vem depois de porque.",
+            "zh": "原因放在 porque 后面。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "Cuando llegué a la puerta de embarque, ya ",
+          "after": " cerrada.",
+          "options": [
+            "estaba",
+            "estuvo",
+            "fue"
+          ],
+          "answer": "estaba",
+          "en": "When I got to the gate, it was already closed.",
+          "it": "Quando sono arrivato al gate, era già chiuso.",
+          "uk": "Коли я дійшов(-шла) до виходу на посадку, він уже був зачинений.",
+          "de": "Als ich am Gate ankam, war es schon geschlossen.",
+          "fr": "Quand je suis arrivé à la porte d'embarquement, elle était déjà fermée.",
+          "pt": "Quando cheguei ao portão de embarque, já estava fechado.",
+          "zh": "我到登机口的时候，登机口已经关了。",
+          "hint": {
+            "en": "How it was at that moment, the scene: estaba.",
+            "it": "Com'era in quel momento, la scena: estaba.",
+            "uk": "Як усе було в той момент, обстановка: estaba.",
+            "de": "Wie es in dem Moment war, die Szene: estaba.",
+            "fr": "Comment c'était à ce moment-là, le décor : estaba.",
+            "pt": "Como estava naquele momento, o cenário: estaba.",
+            "zh": "那一刻的样子，也就是场景：estaba。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "mix",
+          "before": "Mis padres se ",
+          "after": " dormidos y perdieron el autobús.",
+          "label": "quedarse",
+          "accepted": [
+            "quedaron"
+          ],
+          "en": "My parents overslept and missed the bus.",
+          "it": "I miei genitori non si sono svegliati in tempo e hanno perso l'autobus.",
+          "uk": "Мої батьки проспали й не встигли на автобус.",
+          "de": "Meine Eltern haben verschlafen und den Bus verpasst.",
+          "fr": "Mes parents se sont réveillés en retard et ont raté le bus.",
+          "pt": "Meus pais perderam a hora e perderam o ônibus.",
+          "zh": "我父母睡过头了，没赶上公交车。",
+          "hint": {
+            "en": "mis padres = ellos: se quedaron.",
+            "it": "mis padres = ellos: se quedaron.",
+            "uk": "mis padres = ellos: se quedaron.",
+            "de": "mis padres = ellos: se quedaron.",
+            "fr": "mis padres = ellos : se quedaron.",
+            "pt": "mis padres = ellos: se quedaron.",
+            "zh": "mis padres = ellos：se quedaron。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "mix",
+          "intention": {
+            "en": "Tell a friend there was a traffic jam, so you got to the airport late.",
+            "it": "Racconta a un amico che c'era un ingorgo, così sei arrivato tardi in aeroporto.",
+            "uk": "Розкажи другові, що був затор, тож ти приїхав(-ла) в аеропорт пізно.",
+            "de": "Erzähl einem Freund, dass es einen Stau gab und du deshalb zu spät am Flughafen angekommen bist.",
+            "fr": "Dis à un ami qu'il y avait un embouteillage, donc que tu es arrivé en retard à l'aéroport.",
+            "pt": "Conte a um amigo que tinha um engarrafamento, então você chegou atrasado ao aeroporto.",
+            "zh": "告诉朋友路上堵车，所以你到机场晚了。"
+          },
+          "accepted": [
+            "Había un atasco, así que llegué tarde al aeropuerto.",
+            "Había un atasco, por eso llegué tarde al aeropuerto."
+          ],
+          "tiles": [
+            "Había",
+            "un atasco,",
+            "así que",
+            "llegué",
+            "tarde",
+            "al aeropuerto",
+            "porque",
+            "hay"
+          ],
+          "en": "There was a traffic jam, so I got to the airport late.",
+          "it": "C'era un ingorgo, così sono arrivato tardi in aeroporto.",
+          "uk": "Був затор, тож я приїхав(-ла) в аеропорт пізно.",
+          "de": "Es gab einen Stau, deshalb bin ich zu spät am Flughafen angekommen.",
+          "fr": "Il y avait un embouteillage, donc je suis arrivé en retard à l'aéroport.",
+          "pt": "Tinha um engarrafamento, então cheguei atrasado ao aeroporto.",
+          "zh": "路上堵车，所以我到机场晚了。",
+          "hint": {
+            "en": "The scene, había; then the result with así que.",
+            "it": "La scena, había; poi la conseguenza con así que.",
+            "uk": "Обстановка — había; далі наслідок з así que.",
+            "de": "Die Szene, había; dann die Folge mit así que.",
+            "fr": "Le décor, había ; puis la conséquence avec así que.",
+            "pt": "O cenário, había; depois o resultado com así que.",
+            "zh": "场景用 había；然后用 así que 说结果。"
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "Write in Spanish: «I overslept and there was a traffic jam, so I missed the flight.»",
+            "it": "Scrivi in spagnolo: «Ho dormito troppo e c'era un ingorgo, così ho perso il volo.»",
+            "uk": "Напиши іспанською: «Я проспав(-ла), а ще був затор, тож я не встиг(-ла) на рейс.»",
+            "de": "Schreib auf Spanisch: «Ich habe verschlafen und es gab einen Stau, deshalb habe ich den Flug verpasst.»",
+            "fr": "Écris en espagnol : «Je me suis réveillé en retard et il y avait un embouteillage, donc j'ai raté l'avion.»",
+            "pt": "Escreva em espanhol: «Perdi a hora e tinha um engarrafamento, então perdi o voo.»",
+            "zh": "用西班牙语写：«我睡过头了，路上又堵车，所以没赶上飞机。»"
+          },
+          "accepted": [
+            "Me quedé dormido y había un atasco, así que perdí el vuelo.",
+            "Me quedé dormida y había un atasco, así que perdí el vuelo.",
+            "Me quedé dormido y había un atasco, por eso perdí el vuelo.",
+            "Me quedé dormida y había un atasco, por eso perdí el vuelo.",
+            "Me quedé dormido, había un atasco y perdí el vuelo.",
+            "Me quedé dormida, había un atasco y perdí el vuelo.",
+            "Me quedé dormido y había un atasco, así que perdí mi vuelo.",
+            "Me quedé dormida y había un atasco, así que perdí mi vuelo."
+          ],
+          "model": {
+            "es": "Me quedé dormido y había un atasco, así que perdí el vuelo.",
+            "en": "I overslept and there was a traffic jam, so I missed the flight.",
+            "it": "Ho dormito troppo e c'era un ingorgo, così ho perso il volo.",
+            "uk": "Я проспав(-ла), а ще був затор, тож я не встиг(-ла) на рейс.",
+            "de": "Ich habe verschlafen und es gab einen Stau, deshalb habe ich den Flug verpasst.",
+            "fr": "Je me suis réveillé en retard et il y avait un embouteillage, donc j'ai raté l'avion.",
+            "pt": "Perdi a hora e tinha um engarrafamento, então perdi o voo.",
+            "zh": "我睡过头了，路上又堵车，所以没赶上飞机。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u27l2",
+      "goal": {
+        "en": "Say what happened by accident: se me olvidó el pasaporte, se me cayeron las gafas, a mi padre se le rompió el móvil.",
+        "it": "Racconta cosa è successo per sbaglio: se me olvidó el pasaporte, se me cayeron las gafas, a mi padre se le rompió el móvil.",
+        "uk": "Розкажи, що сталося випадково: se me olvidó el pasaporte, se me cayeron las gafas, a mi padre se le rompió el móvil.",
+        "de": "Sag, was aus Versehen passiert ist: se me olvidó el pasaporte, se me cayeron las gafas, a mi padre se le rompió el móvil.",
+        "fr": "Dire ce qui est arrivé par accident : se me olvidó el pasaporte, se me cayeron las gafas, a mi padre se le rompió el móvil.",
+        "pt": "Conte o que aconteceu sem querer: se me olvidó el pasaporte, se me cayeron las gafas, a mi padre se le rompió el móvil.",
+        "zh": "说说不小心发生的事：se me olvidó el pasaporte，se me cayeron las gafas，a mi padre se le rompió el móvil。"
+      },
+      "target": {
+        "es": "Se me olvidaron las llaves y se me acabó la batería del móvil.",
+        "en": "I forgot my keys and my phone battery died.",
+        "it": "Ho dimenticato le chiavi e mi si è scaricato il cellulare.",
+        "uk": "Я забув(-ла) ключі, а ще в мене розрядився телефон.",
+        "de": "Ich habe die Schlüssel vergessen und mein Handyakku war leer.",
+        "fr": "J'ai oublié mes clés et mon portable n'avait plus de batterie.",
+        "pt": "Esqueci as chaves e acabou a bateria do meu celular.",
+        "zh": "我忘了带钥匙，手机也没电了。"
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "se me olvidó",
+              "en": "I forgot (it slipped my mind)",
+              "it": "mi sono dimenticato, mi è passato di mente",
+              "uk": "я забув(-ла) (вилетіло з голови)",
+              "de": "ich habe vergessen (es ist mir entfallen)",
+              "fr": "j'ai oublié (ça m'est sorti de la tête)",
+              "pt": "esqueci (me fugiu da cabeça)",
+              "zh": "我忘了（一时没想起来）",
+              "kind": "chunk"
+            },
+            {
+              "es": "la cartera",
+              "en": "the wallet",
+              "it": "il portafoglio",
+              "uk": "гаманець",
+              "de": "der Geldbeutel",
+              "fr": "le portefeuille",
+              "pt": "a carteira",
+              "zh": "钱包",
+              "kind": "chunk"
+            },
+            {
+              "es": "la batería",
+              "en": "the battery",
+              "it": "la batteria",
+              "uk": "батарея, акумулятор",
+              "de": "der Akku",
+              "fr": "la batterie",
+              "pt": "a bateria",
+              "zh": "电池，电量",
+              "kind": "chunk"
+            },
+            {
+              "es": "acabarse",
+              "en": "to run out",
+              "it": "finire, esaurirsi",
+              "uk": "закінчуватися",
+              "de": "ausgehen, zu Ende gehen",
+              "fr": "s'épuiser, ne plus en avoir",
+              "pt": "acabar, esgotar",
+              "zh": "用完，耗尽",
+              "kind": "stem"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "se",
+              "kind": "ending"
+            },
+            {
+              "text": "me",
+              "kind": "ending"
+            },
+            {
+              "text": "olvidó",
+              "kind": "stem"
+            },
+            {
+              "text": "el pasaporte",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "For something that slipped your mind, Spanish often says se me olvidó + the thing: se me olvidó el pasaporte. The verb goes with the thing, not with you, and you say el or la, not mi.",
+            "it": "Per una cosa che ti è sfuggita, in spagnolo si dice spesso se me olvidó + la cosa: se me olvidó el pasaporte. Il verbo va con la cosa, non con te, e si dice el o la, non mi.",
+            "uk": "Коли щось вилетіло з голови, іспанці часто кажуть se me olvidó + річ, майже як українське «мені забулося»: se me olvidó el pasaporte. Дієслово узгоджується з річчю, а не з тобою, і кажуть el або la, а не mi.",
+            "de": "Wenn dir etwas entfallen ist, sagt man auf Spanisch oft se me olvidó + die Sache: se me olvidó el pasaporte. Das Verb richtet sich nach der Sache, nicht nach dir, und du sagst el oder la, nicht mi. Ähnlich wie im Deutschen 'es ist mir entfallen'.",
+            "fr": "Pour une chose qui t'est sortie de la tête, l'espagnol dit souvent se me olvidó + la chose : se me olvidó el pasaporte. Le verbe s'accorde avec la chose, pas avec toi, et on dit el ou la, pas mi.",
+            "pt": "Para algo que fugiu da sua cabeça, o espanhol costuma dizer se me olvidó + a coisa: se me olvidó el pasaporte. O verbo vai com a coisa, não com você, e se diz el ou la, não mi.",
+            "zh": "说一时忘了的东西，西班牙语常说 se me olvidó + 东西：se me olvidó el pasaporte。动词跟着东西变，而不是跟着你变；东西前面用 el 或 la，不用 mi。"
+          },
+          "examples": [
+            {
+              "es": "Se me olvidó el pasaporte.",
+              "en": "I forgot my passport.",
+              "it": "Ho dimenticato il passaporto.",
+              "uk": "Я забув(-ла) паспорт.",
+              "de": "Ich habe meinen Pass vergessen.",
+              "fr": "J'ai oublié mon passeport.",
+              "pt": "Esqueci o passaporte.",
+              "zh": "我忘了带护照。"
+            },
+            {
+              "es": "Se me olvidó la tarjeta de embarque en el hotel.",
+              "en": "I left my boarding pass at the hotel.",
+              "it": "Ho dimenticato la carta d'imbarco in albergo.",
+              "uk": "Я забув(-ла) посадковий талон у готелі.",
+              "de": "Ich habe meine Bordkarte im Hotel liegen lassen.",
+              "fr": "J'ai oublié ma carte d'embarquement à l'hôtel.",
+              "pt": "Esqueci o cartão de embarque no hotel.",
+              "zh": "我把登机牌忘在酒店了。"
+            },
+            {
+              "es": "Ayer se me olvidó el cargador.",
+              "en": "Yesterday I forgot my charger.",
+              "it": "Ieri ho dimenticato il caricatore.",
+              "uk": "Учора я забув(-ла) зарядку.",
+              "de": "Gestern habe ich mein Ladegerät vergessen.",
+              "fr": "Hier, j'ai oublié mon chargeur.",
+              "pt": "Ontem esqueci o carregador.",
+              "zh": "昨天我忘了带充电器。"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Anoche se me ",
+          "after": " el cargador en el hotel.",
+          "options": [
+            "olvidó",
+            "olvidé",
+            "olvidaste"
+          ],
+          "answer": "olvidó",
+          "en": "Last night I left my charger at the hotel.",
+          "it": "Ieri sera ho dimenticato il caricatore in albergo.",
+          "uk": "Учора ввечері я забув(-ла) зарядку в готелі.",
+          "de": "Gestern Abend habe ich mein Ladegerät im Hotel liegen lassen.",
+          "fr": "Hier soir, j'ai oublié mon chargeur à l'hôtel.",
+          "pt": "Ontem à noite esqueci o carregador no hotel.",
+          "zh": "昨天晚上我把充电器忘在酒店了。",
+          "hint": {
+            "en": "The verb goes with the thing, el cargador: olvidó.",
+            "it": "Il verbo va con la cosa, el cargador: olvidó.",
+            "uk": "Дієслово узгоджується з річчю, el cargador: olvidó.",
+            "de": "Das Verb richtet sich nach der Sache, el cargador: olvidó.",
+            "fr": "Le verbe s'accorde avec la chose, el cargador : olvidó.",
+            "pt": "O verbo vai com a coisa, el cargador: olvidó.",
+            "zh": "动词跟着东西 el cargador 变：olvidó。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "Your friend asks why you didn't fly last week. Say you forgot your passport.",
+            "it": "Un'amica ti chiede perché la settimana scorsa non hai preso l'aereo. Rispondi che hai dimenticato il passaporto.",
+            "uk": "Подруга питає, чому ти минулого тижня не полетів(-ла). Скажи, що забув(-ла) паспорт.",
+            "de": "Dein Freund fragt, warum du letzte Woche nicht geflogen bist. Sag, dass du deinen Pass vergessen hast.",
+            "fr": "Ton ami te demande pourquoi tu n'as pas pris l'avion la semaine dernière. Dis que tu as oublié ton passeport.",
+            "pt": "Uma amiga pergunta por que você não viajou de avião na semana passada. Diga que esqueceu o passaporte.",
+            "zh": "朋友问你上周为什么没坐飞机。说你忘了带护照。"
+          },
+          "accepted": [
+            "Se me olvidó el pasaporte.",
+            "Porque se me olvidó el pasaporte."
+          ],
+          "tiles": [
+            "Se",
+            "me",
+            "olvidó",
+            "el pasaporte",
+            "olvidé",
+            "mi"
+          ],
+          "en": "I forgot my passport.",
+          "it": "Ho dimenticato il passaporto.",
+          "uk": "Я забув(-ла) паспорт.",
+          "de": "Ich habe meinen Pass vergessen.",
+          "fr": "J'ai oublié mon passeport.",
+          "pt": "Esqueci o passaporte.",
+          "zh": "我忘了带护照。",
+          "hint": {
+            "en": "se me + the verb that goes with el pasaporte: olvidó.",
+            "it": "se me + il verbo che va con el pasaporte: olvidó.",
+            "uk": "se me + дієслово, що узгоджується з el pasaporte: olvidó.",
+            "de": "se me + das Verb, das zu el pasaporte passt: olvidó.",
+            "fr": "se me + le verbe qui s'accorde avec el pasaporte : olvidó.",
+            "pt": "se me + o verbo que vai com el pasaporte: olvidó.",
+            "zh": "se me + 跟着 el pasaporte 变的动词：olvidó。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "se me",
+              "kind": "ending"
+            },
+            {
+              "text": "cayó",
+              "kind": "stem"
+            },
+            {
+              "text": "el móvil",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "Other accidents work the same way: se me cayó (I dropped), se me rompió (it broke), se me perdió (I lost), se me acabó (I ran out of).",
+            "it": "Gli altri incidenti funzionano allo stesso modo: se me cayó (mi è caduto), se me rompió (mi si è rotto), se me perdió (ho perso), se me acabó (mi è finito).",
+            "uk": "Інші прикрощі працюють так само: se me cayó (я впустив(-ла)), se me rompió (у мене зламалося), se me perdió (я загубив(-ла)), se me acabó (у мене закінчилося).",
+            "de": "Andere Missgeschicke funktionieren genauso: se me cayó (mir ist heruntergefallen), se me rompió (mir ist kaputtgegangen), se me perdió (ich habe verloren), se me acabó (mir ist ausgegangen).",
+            "fr": "D'autres accidents fonctionnent de la même façon : se me cayó (j'ai fait tomber), se me rompió (ça s'est cassé), se me perdió (j'ai perdu), se me acabó (je n'ai plus de).",
+            "pt": "Os outros acidentes funcionam do mesmo jeito: se me cayó (deixei cair), se me rompió (quebrou), se me perdió (perdi), se me acabó (acabou o meu…).",
+            "zh": "其他意外也是同样的说法：se me cayó（我把……掉了），se me rompió（……坏了），se me perdió（我把……弄丢了），se me acabó（我的……用完了）。"
+          },
+          "examples": [
+            {
+              "es": "Se me cayó el móvil en la calle.",
+              "en": "I dropped my phone in the street.",
+              "it": "Mi è caduto il cellulare per strada.",
+              "uk": "Я впустив(-ла) телефон на вулиці.",
+              "de": "Mir ist das Handy auf der Straße heruntergefallen.",
+              "fr": "J'ai fait tomber mon portable dans la rue.",
+              "pt": "Deixei o celular cair na rua.",
+              "zh": "我的手机掉在街上了。"
+            },
+            {
+              "es": "Se me rompió la maleta en el aeropuerto.",
+              "en": "My suitcase broke at the airport.",
+              "it": "Mi si è rotta la valigia in aeroporto.",
+              "uk": "В аеропорту в мене зламалася валіза.",
+              "de": "Mein Koffer ist am Flughafen kaputtgegangen.",
+              "fr": "Ma valise s'est cassée à l'aéroport.",
+              "pt": "Minha mala quebrou no aeroporto.",
+              "zh": "我的行李箱在机场摔坏了。"
+            },
+            {
+              "es": "Se me acabó la batería del móvil.",
+              "en": "My phone battery died.",
+              "it": "Mi si è scaricato il cellulare.",
+              "uk": "У мене розрядився телефон.",
+              "de": "Mein Handyakku war leer.",
+              "fr": "Mon portable n'avait plus de batterie.",
+              "pt": "Acabou a bateria do meu celular.",
+              "zh": "我的手机没电了。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "se me cayó",
+              "en": "I dropped",
+              "it": "mi è caduto",
+              "uk": "я впустив(-ла)",
+              "de": "mir ist heruntergefallen",
+              "fr": "j'ai fait tomber",
+              "pt": "deixei cair",
+              "zh": "我把……掉了"
+            },
+            {
+              "es": "se me rompió",
+              "en": "it broke (on me)",
+              "it": "mi si è rotto",
+              "uk": "у мене зламалося",
+              "de": "es ist (mir) kaputtgegangen",
+              "fr": "ça s'est cassé",
+              "pt": "quebrou (sem querer)",
+              "zh": "（我的）……坏了"
+            },
+            {
+              "es": "se me perdió",
+              "en": "I lost",
+              "it": "ho perso, mi si è perso",
+              "uk": "я загубив(-ла)",
+              "de": "ich habe verloren",
+              "fr": "j'ai perdu",
+              "pt": "perdi",
+              "zh": "我把……弄丢了"
+            },
+            {
+              "es": "se me acabó",
+              "en": "I ran out of",
+              "it": "mi è finito",
+              "uk": "у мене закінчилося",
+              "de": "mir ist ausgegangen",
+              "fr": "je n'avais plus de, je suis tombé à court de",
+              "pt": "acabou (o meu…)",
+              "zh": "我的……用完了"
+            },
+            {
+              "es": "acabó",
+              "en": "ran out",
+              "it": "è finito",
+              "uk": "закінчилося",
+              "de": "ist ausgegangen",
+              "fr": "s'est épuisé",
+              "pt": "acabou",
+              "zh": "用完了"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "En el aeropuerto se me ",
+          "after": " la cartera.",
+          "options": [
+            "perdió",
+            "perdí",
+            "perdiste"
+          ],
+          "answer": "perdió",
+          "en": "I lost my wallet at the airport.",
+          "it": "Ho perso il portafoglio in aeroporto.",
+          "uk": "Я загубив(-ла) гаманець в аеропорту.",
+          "de": "Ich habe meinen Geldbeutel am Flughafen verloren.",
+          "fr": "J'ai perdu mon portefeuille à l'aéroport.",
+          "pt": "Perdi a carteira no aeroporto.",
+          "zh": "我在机场把钱包弄丢了。",
+          "hint": {
+            "en": "The verb goes with la cartera: perdió.",
+            "it": "Il verbo va con la cartera: perdió.",
+            "uk": "Дієслово узгоджується з la cartera: perdió.",
+            "de": "Das Verb richtet sich nach la cartera: perdió.",
+            "fr": "Le verbe s'accorde avec la cartera : perdió.",
+            "pt": "O verbo vai com la cartera: perdió.",
+            "zh": "动词跟着 la cartera 变：perdió。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "Explain why you didn't call your friend last night: your phone battery died.",
+            "it": "Spiega perché ieri sera non hai chiamato la tua amica: ti si è scaricato il cellulare.",
+            "uk": "Поясни, чому ти вчора ввечері не подзвонив(-ла) подрузі: у тебе розрядився телефон.",
+            "de": "Erklär, warum du deinen Freund gestern Abend nicht angerufen hast: Dein Handyakku war leer.",
+            "fr": "Explique pourquoi tu n'as pas appelé ton ami hier soir : ton portable n'avait plus de batterie.",
+            "pt": "Explique por que você não ligou para sua amiga ontem à noite: acabou a bateria do seu celular.",
+            "zh": "解释你昨天晚上为什么没给朋友打电话：你的手机没电了。"
+          },
+          "accepted": [
+            "Se me acabó la batería del móvil.",
+            "Se me acabó la batería."
+          ],
+          "tiles": [
+            "Se",
+            "me",
+            "acabó",
+            "la batería",
+            "del móvil",
+            "olvidó",
+            "mi"
+          ],
+          "en": "My phone battery died.",
+          "it": "Mi si è scaricato il cellulare.",
+          "uk": "У мене розрядився телефон.",
+          "de": "Mein Handyakku war leer.",
+          "fr": "Mon portable n'avait plus de batterie.",
+          "pt": "Acabou a bateria do meu celular.",
+          "zh": "我的手机没电了。",
+          "hint": {
+            "en": "Running out by accident: se me acabó.",
+            "it": "Finire per sbaglio: se me acabó.",
+            "uk": "Щось випадково закінчилося: se me acabó.",
+            "de": "Etwas ist aus Versehen ausgegangen: se me acabó.",
+            "fr": "Être à court de quelque chose sans le vouloir : se me acabó.",
+            "pt": "Acabar sem querer: se me acabó.",
+            "zh": "不小心用完了：se me acabó。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "se me",
+              "kind": "ending"
+            },
+            {
+              "text": "olvidaron",
+              "kind": "stem"
+            },
+            {
+              "text": "las llaves",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "If the thing is plural, the verb is plural too: se me olvidó la llave, but se me olvidaron las llaves.",
+            "it": "Se la cosa è al plurale, anche il verbo va al plurale: se me olvidó la llave, ma se me olvidaron las llaves.",
+            "uk": "Якщо річ у множині, дієслово теж стоїть у множині: se me olvidó la llave, але se me olvidaron las llaves.",
+            "de": "Ist die Sache im Plural, steht auch das Verb im Plural: se me olvidó la llave, aber se me olvidaron las llaves.",
+            "fr": "Si la chose est au pluriel, le verbe aussi : se me olvidó la llave, mais se me olvidaron las llaves.",
+            "pt": "Se a coisa está no plural, o verbo também vai para o plural: se me olvidó la llave, mas se me olvidaron las llaves.",
+            "zh": "如果东西是复数，动词也用复数：se me olvidó la llave，但是 se me olvidaron las llaves。"
+          },
+          "examples": [
+            {
+              "es": "Se me olvidaron las llaves.",
+              "en": "I forgot my keys.",
+              "it": "Ho dimenticato le chiavi.",
+              "uk": "Я забув(-ла) ключі.",
+              "de": "Ich habe meine Schlüssel vergessen.",
+              "fr": "J'ai oublié mes clés.",
+              "pt": "Esqueci as chaves.",
+              "zh": "我忘了带钥匙。"
+            },
+            {
+              "es": "Se me cayeron las gafas.",
+              "en": "I dropped my glasses.",
+              "it": "Mi sono caduti gli occhiali.",
+              "uk": "Я впустив(-ла) окуляри.",
+              "de": "Mir ist die Brille heruntergefallen.",
+              "fr": "J'ai fait tomber mes lunettes.",
+              "pt": "Deixei os óculos caírem.",
+              "zh": "我的眼镜掉了。"
+            },
+            {
+              "es": "Se me perdieron las entradas.",
+              "en": "I lost the tickets.",
+              "it": "Ho perso i biglietti.",
+              "uk": "Я загубив(-ла) квитки.",
+              "de": "Ich habe die Eintrittskarten verloren.",
+              "fr": "J'ai perdu les billets.",
+              "pt": "Perdi os ingressos.",
+              "zh": "我把票弄丢了。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "olvidaron",
+              "en": "they forgot; (with se me) I forgot several things",
+              "it": "hanno dimenticato; (con se me) ho dimenticato più cose",
+              "uk": "вони забули; (із se me) я забув(-ла) кілька речей",
+              "de": "sie haben vergessen; (mit se me) ich habe mehrere Dinge vergessen",
+              "fr": "ils/elles ont oublié ; (avec se me) j'ai oublié plusieurs choses",
+              "pt": "eles esqueceram; (com se me) esqueci várias coisas",
+              "zh": "他们忘了；（和 se me 一起用）我忘了几样东西"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Se me ",
+          "after": " las gafas en el tren.",
+          "options": [
+            "olvidaron",
+            "olvidó"
+          ],
+          "answer": "olvidaron",
+          "en": "I left my glasses on the train.",
+          "it": "Ho dimenticato gli occhiali sul treno.",
+          "uk": "Я забув(-ла) окуляри в потязі.",
+          "de": "Ich habe meine Brille im Zug liegen lassen.",
+          "fr": "J'ai oublié mes lunettes dans le train.",
+          "pt": "Esqueci os óculos no trem.",
+          "zh": "我把眼镜忘在火车上了。",
+          "hint": {
+            "en": "las gafas is plural: olvidaron.",
+            "it": "las gafas è plurale: olvidaron.",
+            "uk": "las gafas — множина: olvidaron.",
+            "de": "las gafas ist Plural: olvidaron.",
+            "fr": "las gafas est au pluriel : olvidaron.",
+            "pt": "las gafas é plural: olvidaron.",
+            "zh": "las gafas 是复数：olvidaron。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "fire",
+          "before": "Se me ",
+          "after": " las llaves en la calle.",
+          "label": "caerse",
+          "accepted": [
+            "cayeron"
+          ],
+          "en": "I dropped my keys in the street.",
+          "it": "Mi sono cadute le chiavi per strada.",
+          "uk": "Я впустив(-ла) ключі на вулиці.",
+          "de": "Mir sind die Schlüssel auf der Straße heruntergefallen.",
+          "fr": "J'ai fait tomber mes clés dans la rue.",
+          "pt": "Deixei as chaves caírem na rua.",
+          "zh": "我的钥匙掉在街上了。",
+          "hint": {
+            "en": "las llaves is plural: cayeron.",
+            "it": "las llaves è plurale: cayeron.",
+            "uk": "las llaves — множина: cayeron.",
+            "de": "las llaves ist Plural: cayeron.",
+            "fr": "las llaves est au pluriel : cayeron.",
+            "pt": "las llaves é plural: cayeron.",
+            "zh": "las llaves 是复数：cayeron。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "a mi padre",
+              "kind": "rail"
+            },
+            {
+              "text": "se le",
+              "kind": "ending"
+            },
+            {
+              "text": "rompió",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "me changes with the person, as with gustar: se te olvidó, se le cayó, se nos perdió, se les rompió. To make clear who: a mi padre se le…",
+            "it": "me cambia con la persona, come con gustar: se te olvidó, se le cayó, se nos perdió, se les rompió. Per chiarire chi: a mi padre se le…",
+            "uk": "me змінюється залежно від особи, як із gustar: se te olvidó, se le cayó, se nos perdió, se les rompió. Щоб уточнити, з ким це сталося: a mi padre se le…",
+            "de": "me ändert sich mit der Person, wie bei gustar: se te olvidó, se le cayó, se nos perdió, se les rompió. Um klarzumachen, wem: a mi padre se le…",
+            "fr": "me change avec la personne, comme avec gustar : se te olvidó, se le cayó, se nos perdió, se les rompió. Pour préciser qui : a mi padre se le…",
+            "pt": "me muda com a pessoa, como com gustar: se te olvidó, se le cayó, se nos perdió, se les rompió. Para deixar claro quem: a mi padre se le…",
+            "zh": "me 随人称变化，和 gustar 一样：se te olvidó，se le cayó，se nos perdió，se les rompió。要说清楚是谁：a mi padre se le…"
+          },
+          "examples": [
+            {
+              "es": "¿Se te olvidó el pasaporte?",
+              "en": "Did you forget your passport?",
+              "it": "Hai dimenticato il passaporto?",
+              "uk": "Ти забув(-ла) паспорт?",
+              "de": "Hast du deinen Pass vergessen?",
+              "fr": "Tu as oublié ton passeport ?",
+              "pt": "Você esqueceu o passaporte?",
+              "zh": "你忘了带护照吗？"
+            },
+            {
+              "es": "A mi padre se le cayó el móvil.",
+              "en": "My father dropped his phone.",
+              "it": "A mio padre è caduto il cellulare.",
+              "uk": "Мій батько впустив телефон.",
+              "de": "Meinem Vater ist das Handy heruntergefallen.",
+              "fr": "Mon père a fait tomber son portable.",
+              "pt": "Meu pai deixou o celular cair.",
+              "zh": "我爸爸的手机掉了。"
+            },
+            {
+              "es": "Se nos perdieron las maletas.",
+              "en": "We lost our suitcases.",
+              "it": "Abbiamo perso le valigie.",
+              "uk": "Ми загубили валізи.",
+              "de": "Wir haben unsere Koffer verloren.",
+              "fr": "Nous avons perdu nos valises.",
+              "pt": "Perdemos as malas.",
+              "zh": "我们的行李箱丢了。"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "A mi hermana se ",
+          "after": " rompió el móvil.",
+          "options": [
+            "le",
+            "me",
+            "te"
+          ],
+          "answer": "le",
+          "en": "My sister's phone broke.",
+          "it": "A mia sorella si è rotto il cellulare.",
+          "uk": "У моєї сестри зламався телефон.",
+          "de": "Das Handy meiner Schwester ist kaputtgegangen.",
+          "fr": "Le portable de ma sœur s'est cassé.",
+          "pt": "O celular da minha irmã quebrou.",
+          "zh": "我姐姐的手机坏了。",
+          "hint": {
+            "en": "a mi hermana: le, as in le gusta.",
+            "it": "a mi hermana: le, come in le gusta.",
+            "uk": "a mi hermana: le, як у le gusta.",
+            "de": "a mi hermana: le, wie in le gusta.",
+            "fr": "a mi hermana : le, comme dans le gusta.",
+            "pt": "a mi hermana: le, como em le gusta.",
+            "zh": "a mi hermana：用 le，就像 le gusta。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "Ask a friend if he forgot the tickets.",
+            "it": "Chiedi a un amico se ha dimenticato i biglietti.",
+            "uk": "Запитай друга, чи він не забув квитки.",
+            "de": "Frag einen Freund, ob er die Eintrittskarten vergessen hat.",
+            "fr": "Demande à un ami s'il a oublié les billets.",
+            "pt": "Pergunte a um amigo se ele esqueceu os ingressos.",
+            "zh": "问朋友他是不是忘了带票。"
+          },
+          "accepted": [
+            "¿Se te olvidaron las entradas?"
+          ],
+          "tiles": [
+            "¿Se",
+            "te",
+            "olvidaron",
+            "las entradas?",
+            "olvidó",
+            "le"
+          ],
+          "en": "Did you forget the tickets?",
+          "it": "Hai dimenticato i biglietti?",
+          "uk": "Ти забув квитки?",
+          "de": "Hast du die Eintrittskarten vergessen?",
+          "fr": "Tu as oublié les billets ?",
+          "pt": "Você esqueceu os ingressos?",
+          "zh": "你忘了带票吗？",
+          "hint": {
+            "en": "tú: se te; las entradas is plural: olvidaron.",
+            "it": "tú: se te; las entradas è plurale: olvidaron.",
+            "uk": "tú: se te; las entradas — множина: olvidaron.",
+            "de": "tú: se te; las entradas ist Plural: olvidaron.",
+            "fr": "tú : se te ; las entradas est au pluriel : olvidaron.",
+            "pt": "tú: se te; las entradas é plural: olvidaron.",
+            "zh": "tú：se te；las entradas 是复数：olvidaron。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "Se nos ",
+          "after": " la maleta en el aeropuerto.",
+          "options": [
+            "perdió",
+            "perdimos",
+            "perdieron"
+          ],
+          "answer": "perdió",
+          "en": "We lost our suitcase at the airport.",
+          "it": "Abbiamo perso la valigia in aeroporto.",
+          "uk": "Ми загубили валізу в аеропорту.",
+          "de": "Wir haben unseren Koffer am Flughafen verloren.",
+          "fr": "Nous avons perdu notre valise à l'aéroport.",
+          "pt": "Perdemos a mala no aeroporto.",
+          "zh": "我们在机场把行李箱弄丢了。",
+          "hint": {
+            "en": "The verb goes with la maleta, not with nosotros.",
+            "it": "Il verbo va con la maleta, non con nosotros.",
+            "uk": "Дієслово узгоджується з la maleta, а не з nosotros.",
+            "de": "Das Verb richtet sich nach la maleta, nicht nach nosotros.",
+            "fr": "Le verbe s'accorde avec la maleta, pas avec nosotros.",
+            "pt": "O verbo vai com la maleta, não com nosotros.",
+            "zh": "动词跟着 la maleta 变，而不是跟着 nosotros 变。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "mix",
+          "before": "Anoche se me ",
+          "after": " la batería del móvil.",
+          "label": "acabarse",
+          "accepted": [
+            "acabó"
+          ],
+          "en": "Last night my phone battery died.",
+          "it": "Ieri sera mi si è scaricato il cellulare.",
+          "uk": "Учора ввечері в мене розрядився телефон.",
+          "de": "Gestern Abend war mein Handyakku leer.",
+          "fr": "Hier soir, mon portable n'avait plus de batterie.",
+          "pt": "Ontem à noite acabou a bateria do meu celular.",
+          "zh": "昨天晚上我的手机没电了。",
+          "hint": {
+            "en": "One thing, la batería: acabó.",
+            "it": "Una cosa, la batería: acabó.",
+            "uk": "Одна річ, la batería: acabó.",
+            "de": "Eine Sache, la batería: acabó.",
+            "fr": "Une seule chose, la batería : acabó.",
+            "pt": "Uma coisa só, la batería: acabó.",
+            "zh": "一样东西，la batería：acabó。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "mix",
+          "intention": {
+            "en": "Tell a friend that your father dropped his glasses.",
+            "it": "Racconta a un amico che a tuo padre sono caduti gli occhiali.",
+            "uk": "Розкажи другові, що твій батько впустив окуляри.",
+            "de": "Erzähl einem Freund, dass deinem Vater die Brille heruntergefallen ist.",
+            "fr": "Dis à un ami que ton père a fait tomber ses lunettes.",
+            "pt": "Conte a um amigo que seu pai deixou os óculos caírem.",
+            "zh": "告诉朋友你爸爸的眼镜掉了。"
+          },
+          "accepted": [
+            "A mi padre se le cayeron las gafas.",
+            "Se le cayeron las gafas a mi padre."
+          ],
+          "tiles": [
+            "A mi padre",
+            "se",
+            "le",
+            "cayeron",
+            "las gafas",
+            "cayó",
+            "me"
+          ],
+          "en": "My father dropped his glasses.",
+          "it": "A mio padre sono caduti gli occhiali.",
+          "uk": "Мій батько впустив окуляри.",
+          "de": "Meinem Vater ist die Brille heruntergefallen.",
+          "fr": "Mon père a fait tomber ses lunettes.",
+          "pt": "Meu pai deixou os óculos caírem.",
+          "zh": "我爸爸的眼镜掉了。",
+          "hint": {
+            "en": "a mi padre: se le; las gafas is plural: cayeron.",
+            "it": "a mi padre: se le; las gafas è plurale: cayeron.",
+            "uk": "a mi padre: se le; las gafas — множина: cayeron.",
+            "de": "a mi padre: se le; las gafas ist Plural: cayeron.",
+            "fr": "a mi padre : se le ; las gafas est au pluriel : cayeron.",
+            "pt": "a mi padre: se le; las gafas é plural: cayeron.",
+            "zh": "a mi padre：se le；las gafas 是复数：cayeron。"
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "Write in Spanish: «I forgot my keys and my phone battery died.»",
+            "it": "Scrivi in spagnolo: «Ho dimenticato le chiavi e mi si è scaricato il cellulare.»",
+            "uk": "Напиши іспанською: «Я забув(-ла) ключі, а ще в мене розрядився телефон.»",
+            "de": "Schreib auf Spanisch: «Ich habe die Schlüssel vergessen und mein Handyakku war leer.»",
+            "fr": "Écris en espagnol : «J'ai oublié mes clés et mon portable n'avait plus de batterie.»",
+            "pt": "Escreva em espanhol: «Esqueci as chaves e acabou a bateria do meu celular.»",
+            "zh": "用西班牙语写：«我忘了带钥匙，手机也没电了。»"
+          },
+          "accepted": [
+            "Se me olvidaron las llaves y se me acabó la batería del móvil.",
+            "Se me olvidaron las llaves y se me acabó la batería.",
+            "Se me olvidaron las llaves y además se me acabó la batería del móvil.",
+            "Olvidé las llaves y se me acabó la batería del móvil."
+          ],
+          "model": {
+            "es": "Se me olvidaron las llaves y se me acabó la batería del móvil.",
+            "en": "I forgot my keys and my phone battery died.",
+            "it": "Ho dimenticato le chiavi e mi si è scaricato il cellulare.",
+            "uk": "Я забув(-ла) ключі, а ще в мене розрядився телефон.",
+            "de": "Ich habe die Schlüssel vergessen und mein Handyakku war leer.",
+            "fr": "J'ai oublié mes clés et mon portable n'avait plus de batterie.",
+            "pt": "Esqueci as chaves e acabou a bateria do meu celular.",
+            "zh": "我忘了带钥匙，手机也没电了。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u27l3",
+      "goal": {
+        "en": "Say what had already happened before another moment in the past: cuando llegué, el tren ya había salido.",
+        "it": "Di cosa era già successo prima di un altro momento del passato: cuando llegué, el tren ya había salido.",
+        "uk": "Розкажи, що вже сталося до іншого моменту в минулому: cuando llegué, el tren ya había salido.",
+        "de": "Sag, was vor einem anderen Moment in der Vergangenheit schon passiert war: cuando llegué, el tren ya había salido.",
+        "fr": "Dire ce qui s'était déjà passé avant un autre moment du passé : cuando llegué, el tren ya había salido.",
+        "pt": "Diga o que já tinha acontecido antes de outro momento do passado: cuando llegué, el tren ya había salido.",
+        "zh": "说在过去某个时刻之前已经发生的事：cuando llegué，el tren ya había salido。"
+      },
+      "target": {
+        "es": "Cuando llegamos a la estación, el tren ya había salido.",
+        "en": "When we got to the station, the train had already left.",
+        "it": "Quando siamo arrivati alla stazione, il treno era già partito.",
+        "uk": "Коли ми прийшли на вокзал, потяг уже поїхав.",
+        "de": "Als wir am Bahnhof ankamen, war der Zug schon abgefahren.",
+        "fr": "Quand nous sommes arrivés à la gare, le train était déjà parti.",
+        "pt": "Quando chegamos à estação, o trem já tinha saído.",
+        "zh": "我们到车站的时候，火车已经开走了。"
+      },
+      "names": [
+        "Sevilla"
+      ],
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "despegar",
+              "en": "to take off (a plane)",
+              "it": "decollare",
+              "uk": "злітати (про літак)",
+              "de": "abheben, starten (Flugzeug)",
+              "fr": "décoller (un avion)",
+              "pt": "decolar",
+              "zh": "起飞（飞机）",
+              "kind": "stem"
+            },
+            {
+              "es": "embarcar",
+              "en": "to board",
+              "it": "imbarcarsi",
+              "uk": "сідати на борт, проходити посадку",
+              "de": "an Bord gehen, einsteigen",
+              "fr": "embarquer",
+              "pt": "embarcar",
+              "zh": "登机，上船",
+              "kind": "stem"
+            },
+            {
+              "es": "el andén",
+              "en": "the platform",
+              "it": "il binario",
+              "uk": "платформа",
+              "de": "der Bahnsteig",
+              "fr": "le quai",
+              "pt": "a plataforma",
+              "zh": "站台",
+              "kind": "chunk"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "había",
+              "kind": "stem"
+            },
+            {
+              "text": "salido",
+              "kind": "ending"
+            }
+          ],
+          "rule": {
+            "en": "To say something had already happened before another moment in the past: había + the -ado/-ido form. Cuando llegué, el tren ya había salido: it left first, then I arrived.",
+            "it": "Per dire che una cosa era già successa prima di un altro momento del passato: había + la forma in -ado/-ido. Cuando llegué, el tren ya había salido: prima è partito il treno, poi sono arrivato io.",
+            "uk": "Щоб сказати, що щось уже сталося до іншого моменту в минулому: había + форма на -ado/-ido. В українській тут просто минулий час з «уже». Cuando llegué, el tren ya había salido: спочатку поїхав потяг, а потім прийшов я.",
+            "de": "Um zu sagen, dass etwas vor einem anderen Moment in der Vergangenheit schon passiert war: había + die Form auf -ado/-ido, wie im Deutschen das Plusquamperfekt (war abgefahren, hatte gegessen). Cuando llegué, el tren ya había salido: Zuerst ist er abgefahren, dann bin ich angekommen.",
+            "fr": "Pour dire qu'une chose s'était déjà passée avant un autre moment du passé : había + la forme en -ado/-ido. C'est le plus-que-parfait. Cuando llegué, el tren ya había salido : il est parti d'abord, puis je suis arrivé.",
+            "pt": "Para dizer que algo já tinha acontecido antes de outro momento do passado: había + a forma em -ado/-ido. É como o tinha + particípio do português. Cuando llegué, el tren ya había salido: primeiro o trem saiu, depois eu cheguei.",
+            "zh": "说在过去另一个时刻之前已经发生的事，用过去完成时：había + -ado/-ido 的形式，相当于中文“已经……了”。Cuando llegué，el tren ya había salido：火车先开走，然后我才到。"
+          },
+          "examples": [
+            {
+              "es": "Cuando llegué, el tren ya había salido.",
+              "en": "When I arrived, the train had already left.",
+              "it": "Quando sono arrivato, il treno era già partito.",
+              "uk": "Коли я прийшов(-шла), потяг уже поїхав.",
+              "de": "Als ich ankam, war der Zug schon abgefahren.",
+              "fr": "Quand je suis arrivé, le train était déjà parti.",
+              "pt": "Quando cheguei, o trem já tinha saído.",
+              "zh": "我到的时候，火车已经开走了。"
+            },
+            {
+              "es": "Cuando llegamos a la puerta, el avión ya había despegado.",
+              "en": "When we got to the gate, the plane had already taken off.",
+              "it": "Quando siamo arrivati al gate, l'aereo era già decollato.",
+              "uk": "Коли ми дійшли до виходу на посадку, літак уже злетів.",
+              "de": "Als wir am Gate ankamen, war das Flugzeug schon gestartet.",
+              "fr": "Quand nous sommes arrivés à la porte, l'avion avait déjà décollé.",
+              "pt": "Quando chegamos ao portão, o avião já tinha decolado.",
+              "zh": "我们到登机口的时候，飞机已经起飞了。"
+            },
+            {
+              "es": "Mi hermana ya había comido cuando llegué.",
+              "en": "My sister had already eaten when I arrived.",
+              "it": "Mia sorella aveva già mangiato quando sono arrivato.",
+              "uk": "Моя сестра вже поїла, коли я прийшов(-шла).",
+              "de": "Meine Schwester hatte schon gegessen, als ich ankam.",
+              "fr": "Ma sœur avait déjà mangé quand je suis arrivé.",
+              "pt": "Minha irmã já tinha comido quando eu cheguei.",
+              "zh": "我到的时候，我姐姐已经吃过饭了。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "había",
+              "en": "I/he/she had (+ done)",
+              "it": "avevo, aveva / ero, era (+ participio)",
+              "uk": "я/він/вона вже… (+ форма на -ado/-ido)",
+              "de": "ich/er/sie hatte (+ getan), war (+ gegangen)",
+              "fr": "j'avais, il/elle avait (+ participe)",
+              "pt": "eu/ele/ela tinha (+ particípio)",
+              "zh": "我／他／她已经（+ 做了）"
+            },
+            {
+              "es": "despegado",
+              "en": "taken off",
+              "it": "decollato",
+              "uk": "злетів",
+              "de": "gestartet",
+              "fr": "décollé",
+              "pt": "decolado",
+              "zh": "起飞（-ado 形式）"
+            },
+            {
+              "es": "embarcado",
+              "en": "boarded",
+              "it": "imbarcato",
+              "uk": "сів на борт, пройшов посадку",
+              "de": "an Bord gegangen",
+              "fr": "embarqué",
+              "pt": "embarcado",
+              "zh": "登机（-ado 形式）"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Cuando llegué a la estación, el tren ya ",
+          "after": " salido.",
+          "options": [
+            "había",
+            "ha",
+            "hay"
+          ],
+          "answer": "había",
+          "en": "When I got to the station, the train had already left.",
+          "it": "Quando sono arrivato alla stazione, il treno era già partito.",
+          "uk": "Коли я прийшов(-шла) на вокзал, потяг уже поїхав.",
+          "de": "Als ich am Bahnhof ankam, war der Zug schon abgefahren.",
+          "fr": "Quand je suis arrivé à la gare, le train était déjà parti.",
+          "pt": "Quando cheguei à estação, o trem já tinha saído.",
+          "zh": "我到车站的时候，火车已经开走了。",
+          "hint": {
+            "en": "Before another moment in the past: había + salido.",
+            "it": "Prima di un altro momento del passato: había + salido.",
+            "uk": "До іншого моменту в минулому: había + salido.",
+            "de": "Vor einem anderen Moment in der Vergangenheit: había + salido.",
+            "fr": "Avant un autre moment du passé : había + salido.",
+            "pt": "Antes de outro momento do passado: había + salido.",
+            "zh": "在过去另一个时刻之前：había + salido。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "fire",
+          "before": "Cuando llegamos a la puerta, el avión ya había ",
+          "after": ".",
+          "label": "despegar",
+          "accepted": [
+            "despegado"
+          ],
+          "en": "When we got to the gate, the plane had already taken off.",
+          "it": "Quando siamo arrivati al gate, l'aereo era già decollato.",
+          "uk": "Коли ми дійшли до виходу на посадку, літак уже злетів.",
+          "de": "Als wir am Gate ankamen, war das Flugzeug schon gestartet.",
+          "fr": "Quand nous sommes arrivés à la porte, l'avion avait déjà décollé.",
+          "pt": "Quando chegamos ao portão de embarque, o avião já tinha decolado.",
+          "zh": "我们到登机口的时候，飞机已经起飞了。",
+          "hint": {
+            "en": "AR verb after había: -ado, despegado.",
+            "it": "Verbo in -AR dopo había: -ado, despegado.",
+            "uk": "Дієслово на -AR після había: -ado, despegado.",
+            "de": "AR-Verb nach había: -ado, despegado.",
+            "fr": "Verbe en -AR après había : -ado, despegado.",
+            "pt": "Verbo em -AR depois de había: -ado, despegado.",
+            "zh": "había 后面的 AR 动词：-ado，despegado。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "habíamos",
+              "kind": "stem"
+            },
+            {
+              "text": "facturado",
+              "kind": "ending"
+            }
+          ],
+          "rule": {
+            "en": "Only había changes with the person: había, habías, había, habíamos, habíais, habían. The -ado/-ido form never changes, and the irregular ones are the same as with he: hecho, visto, dicho.",
+            "it": "Cambia solo había, secondo la persona: había, habías, había, habíamos, habíais, habían. La forma in -ado/-ido non cambia mai, e quelle irregolari sono le stesse che con he: hecho, visto, dicho.",
+            "uk": "Змінюється тільки había, залежно від особи: había, habías, había, habíamos, habíais, habían. Форма на -ado/-ido не змінюється ніколи, а неправильні форми ті самі, що й після he: hecho, visto, dicho.",
+            "de": "Nur había ändert sich mit der Person: había, habías, había, habíamos, habíais, habían. Die Form auf -ado/-ido ändert sich nie, und die unregelmäßigen sind dieselben wie mit he: hecho, visto, dicho. Anders als im Deutschen gibt es keinen Wechsel zwischen 'hatte' und 'war': Es ist immer había.",
+            "fr": "Seul había change avec la personne : había, habías, había, habíamos, habíais, habían. La forme en -ado/-ido ne change jamais, et les formes irrégulières sont les mêmes qu'avec he : hecho, visto, dicho.",
+            "pt": "Só había muda com a pessoa: había, habías, había, habíamos, habíais, habían. A forma em -ado/-ido nunca muda, e as irregulares são as mesmas de he: hecho, visto, dicho.",
+            "zh": "只有 había 随人称变化：había, habías, había, habíamos, habíais, habían。-ado/-ido 的形式永远不变，不规则的形式和 he 后面的一样：hecho，visto，dicho。"
+          },
+          "examples": [
+            {
+              "es": "Ya habíamos facturado las maletas.",
+              "en": "We had already checked in the suitcases.",
+              "it": "Avevamo già imbarcato le valigie.",
+              "uk": "Ми вже здали валізи в багаж.",
+              "de": "Wir hatten die Koffer schon aufgegeben.",
+              "fr": "Nous avions déjà enregistré les valises.",
+              "pt": "Já tínhamos despachado as malas.",
+              "zh": "我们已经托运了行李箱。"
+            },
+            {
+              "es": "¿Ya habías estado en Sevilla?",
+              "en": "Had you been to Seville before?",
+              "it": "Eri già stato a Siviglia?",
+              "uk": "Ти вже бував(-ла) в Севільї до того?",
+              "de": "Warst du schon mal in Sevilla gewesen?",
+              "fr": "Tu étais déjà allé à Séville ?",
+              "pt": "Você já tinha estado em Sevilha?",
+              "zh": "你以前去过塞维利亚吗？"
+            },
+            {
+              "es": "Mis amigos ya habían hecho la cena.",
+              "en": "My friends had already made dinner.",
+              "it": "I miei amici avevano già preparato la cena.",
+              "uk": "Мої друзі вже приготували вечерю.",
+              "de": "Meine Freunde hatten schon das Abendessen gemacht.",
+              "fr": "Mes amis avaient déjà préparé le dîner.",
+              "pt": "Meus amigos já tinham feito o jantar.",
+              "zh": "我的朋友们已经做好了晚饭。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "haber",
+              "en": "to have (+ done): the verb behind he and había",
+              "it": "avere/essere (+ participio): il verbo di he e había",
+              "uk": "допоміжне дієслово, що стоїть за he і había",
+              "de": "haben (+ getan): das Verb hinter he und había",
+              "fr": "avoir (+ participe) : le verbe derrière he et había",
+              "pt": "haver/ter (+ particípio): o verbo por trás de he e había",
+              "zh": "（+ -ado/-ido 形式）构成完成时的助动词：he 和 había 都来自它"
+            },
+            {
+              "es": "habías",
+              "en": "you had (+ done)",
+              "it": "avevi, eri (+ participio)",
+              "uk": "ти вже… (+ форма на -ado/-ido)",
+              "de": "du hattest (+ getan)",
+              "fr": "tu avais (+ participe)",
+              "pt": "você tinha (+ particípio)",
+              "zh": "你已经（+ 做了）"
+            },
+            {
+              "es": "habíamos",
+              "en": "we had (+ done)",
+              "it": "avevamo, eravamo (+ participio)",
+              "uk": "ми вже… (+ форма на -ado/-ido)",
+              "de": "wir hatten (+ getan)",
+              "fr": "nous avions (+ participe)",
+              "pt": "nós tínhamos (+ particípio)",
+              "zh": "我们已经（+ 做了）"
+            },
+            {
+              "es": "habíais",
+              "en": "you all had (+ done)",
+              "it": "avevate, eravate (+ participio)",
+              "uk": "ви (кілька людей) вже… (+ форма на -ado/-ido)",
+              "de": "ihr hattet (+ getan)",
+              "fr": "vous aviez (+ participe)",
+              "pt": "vocês tinham (+ particípio)",
+              "zh": "你们已经（+ 做了）"
+            },
+            {
+              "es": "habían",
+              "en": "they had (+ done)",
+              "it": "avevano, erano (+ participio)",
+              "uk": "вони вже… (+ форма на -ado/-ido)",
+              "de": "sie hatten (+ getan)",
+              "fr": "ils/elles avaient (+ participe)",
+              "pt": "eles tinham (+ particípio)",
+              "zh": "他们已经（+ 做了）"
+            },
+            {
+              "es": "facturado",
+              "en": "checked in",
+              "it": "imbarcato",
+              "uk": "здав(-ла) в багаж",
+              "de": "aufgegeben (Gepäck)",
+              "fr": "enregistré",
+              "pt": "despachado",
+              "zh": "托运（-ado 形式）"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "¿Ya ",
+          "after": " estado en Sevilla antes del viaje?",
+          "options": [
+            "habías",
+            "había",
+            "habían"
+          ],
+          "answer": "habías",
+          "en": "Had you been to Seville before the trip?",
+          "it": "Eri già stato a Siviglia prima del viaggio?",
+          "uk": "Ти вже бував(-ла) в Севільї до цієї поїздки?",
+          "de": "Warst du vor der Reise schon mal in Sevilla gewesen?",
+          "fr": "Tu étais déjà allé à Séville avant le voyage ?",
+          "pt": "Você já tinha estado em Sevilha antes da viagem?",
+          "zh": "这次旅行之前，你去过塞维利亚吗？",
+          "hint": {
+            "en": "tú: habías.",
+            "it": "tú: habías.",
+            "uk": "tú: habías.",
+            "de": "tú: habías.",
+            "fr": "tú : habías.",
+            "pt": "tú: habías.",
+            "zh": "tú：habías。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "fire",
+          "before": "Cuando llegó el taxi, nosotros ya ",
+          "after": " salido de casa.",
+          "label": "haber",
+          "accepted": [
+            "habíamos"
+          ],
+          "en": "When the taxi arrived, we had already left home.",
+          "it": "Quando è arrivato il taxi, eravamo già usciti di casa.",
+          "uk": "Коли приїхало таксі, ми вже вийшли з дому.",
+          "de": "Als das Taxi kam, waren wir schon aus dem Haus gegangen.",
+          "fr": "Quand le taxi est arrivé, nous étions déjà partis de la maison.",
+          "pt": "Quando o táxi chegou, nós já tínhamos saído de casa.",
+          "zh": "出租车到的时候，我们已经出门了。",
+          "hint": {
+            "en": "nosotros: habíamos.",
+            "it": "nosotros: habíamos.",
+            "uk": "nosotros: habíamos.",
+            "de": "nosotros: habíamos.",
+            "fr": "nosotros : habíamos.",
+            "pt": "nosotros: habíamos.",
+            "zh": "nosotros：habíamos。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "ya",
+              "kind": "time"
+            },
+            {
+              "text": "había",
+              "kind": "stem"
+            },
+            {
+              "text": "salido",
+              "kind": "ending"
+            }
+          ],
+          "rule": {
+            "en": "Compare: cuando llegué, el tren salió means it left as I arrived. Cuando llegué, el tren ya había salido means it left before, so I missed it.",
+            "it": "Confronta: cuando llegué, el tren salió vuol dire che è partito mentre arrivavo. Cuando llegué, el tren ya había salido vuol dire che era partito prima, quindi l'ho perso.",
+            "uk": "Порівняй: cuando llegué, el tren salió означає, що потяг поїхав саме тоді, коли я прийшов(-шла). Cuando llegué, el tren ya había salido означає, що він поїхав раніше, тож я на нього не встиг(-ла).",
+            "de": "Vergleich: cuando llegué, el tren salió heißt, er fuhr ab, als ich ankam. Cuando llegué, el tren ya había salido heißt, er war vorher abgefahren, also habe ich ihn verpasst.",
+            "fr": "Compare : cuando llegué, el tren salió veut dire qu'il est parti au moment où tu es arrivé. Cuando llegué, el tren ya había salido veut dire qu'il était parti avant, donc tu l'as raté.",
+            "pt": "Compare: cuando llegué, el tren salió quer dizer que o trem saiu quando eu cheguei. Cuando llegué, el tren ya había salido quer dizer que ele tinha saído antes, então eu o perdi.",
+            "zh": "比较一下：cuando llegué，el tren salió 是说我到的时候火车才开。Cuando llegué，el tren ya había salido 是说火车在那之前就开走了，所以我没赶上。"
+          },
+          "examples": [
+            {
+              "es": "Cuando llegué al andén, el tren salió.",
+              "en": "When I got to the platform, the train left.",
+              "it": "Quando sono arrivato al binario, il treno è partito.",
+              "uk": "Коли я прийшов(-шла) на платформу, потяг рушив.",
+              "de": "Als ich am Bahnsteig ankam, fuhr der Zug ab.",
+              "fr": "Quand je suis arrivé sur le quai, le train est parti.",
+              "pt": "Quando cheguei à plataforma, o trem saiu.",
+              "zh": "我到站台的时候，火车开了。"
+            },
+            {
+              "es": "Cuando llegué al andén, el tren ya había salido.",
+              "en": "When I got to the platform, the train had already left.",
+              "it": "Quando sono arrivato al binario, il treno era già partito.",
+              "uk": "Коли я прийшов(-шла) на платформу, потяг уже поїхав.",
+              "de": "Als ich am Bahnsteig ankam, war der Zug schon abgefahren.",
+              "fr": "Quand je suis arrivé sur le quai, le train était déjà parti.",
+              "pt": "Quando cheguei à plataforma, o trem já tinha saído.",
+              "zh": "我到站台的时候，火车已经开走了。"
+            },
+            {
+              "es": "Cuando llamé a mi madre, ya se había acostado.",
+              "en": "When I called my mother, she had already gone to bed.",
+              "it": "Quando ho chiamato mia madre, era già andata a letto.",
+              "uk": "Коли я подзвонив(-ла) мамі, вона вже лягла спати.",
+              "de": "Als ich meine Mutter anrief, war sie schon ins Bett gegangen.",
+              "fr": "Quand j'ai appelé ma mère, elle s'était déjà couchée.",
+              "pt": "Quando liguei para minha mãe, ela já tinha ido dormir.",
+              "zh": "我给妈妈打电话的时候，她已经睡下了。"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Cuando llegué al andén, el tren ",
+          "after": ", así que lo perdí.",
+          "options": [
+            "ya había salido",
+            "salió"
+          ],
+          "answer": "ya había salido",
+          "en": "When I got to the platform, the train had already left, so I missed it.",
+          "it": "Quando sono arrivato al binario, il treno era già partito, così l'ho perso.",
+          "uk": "Коли я прийшов(-шла) на платформу, потяг уже поїхав, тож я на нього не встиг(-ла).",
+          "de": "Als ich am Bahnsteig ankam, war der Zug schon abgefahren, also habe ich ihn verpasst.",
+          "fr": "Quand je suis arrivé sur le quai, le train était déjà parti, donc je l'ai raté.",
+          "pt": "Quando cheguei à plataforma, o trem já tinha saído, então eu o perdi.",
+          "zh": "我到站台的时候，火车已经开走了，所以我没赶上。",
+          "hint": {
+            "en": "It left before you arrived: ya había salido.",
+            "it": "È partito prima che arrivassi: ya había salido.",
+            "uk": "Він поїхав до того, як ти прийшов(-шла): ya había salido.",
+            "de": "Er ist abgefahren, bevor du ankamst: ya había salido.",
+            "fr": "Il est parti avant ton arrivée : ya había salido.",
+            "pt": "Ele saiu antes de você chegar: ya había salido.",
+            "zh": "火车在你到之前就开了：ya había salido。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "Say that when you called your friend, she had already gone to bed.",
+            "it": "Racconta che quando hai chiamato la tua amica, era già andata a letto.",
+            "uk": "Розкажи, що коли ти подзвонив(-ла) подрузі, вона вже лягла спати.",
+            "de": "Sag, dass deine Freundin schon ins Bett gegangen war, als du sie angerufen hast.",
+            "fr": "Dis que quand tu as appelé ton amie, elle s'était déjà couchée.",
+            "pt": "Conte que, quando você ligou para sua amiga, ela já tinha ido dormir.",
+            "zh": "说你给朋友打电话的时候，她已经睡下了。"
+          },
+          "accepted": [
+            "Cuando llamé a mi amiga, ya se había acostado.",
+            "Cuando llamé a mi amiga, ya se había ido a la cama."
+          ],
+          "tiles": [
+            "Cuando",
+            "llamé",
+            "a mi amiga,",
+            "ya",
+            "se había",
+            "acostado",
+            "se ha",
+            "llamó"
+          ],
+          "en": "When I called my friend, she had already gone to bed.",
+          "it": "Quando ho chiamato la mia amica, era già andata a letto.",
+          "uk": "Коли я подзвонив(-ла) подрузі, вона вже лягла спати.",
+          "de": "Als ich meine Freundin anrief, war sie schon ins Bett gegangen.",
+          "fr": "Quand j'ai appelé mon amie, elle s'était déjà couchée.",
+          "pt": "Quando liguei para minha amiga, ela já tinha ido dormir.",
+          "zh": "我给朋友打电话的时候，她已经睡下了。",
+          "hint": {
+            "en": "She went to bed first: se había acostado, with se before había.",
+            "it": "È andata a letto prima: se había acostado, con se prima di había.",
+            "uk": "Спочатку вона лягла спати: se había acostado, де se стоїть перед había.",
+            "de": "Sie ist zuerst ins Bett gegangen: se había acostado, mit se vor había.",
+            "fr": "Elle s'est couchée d'abord : se había acostado, avec se avant había.",
+            "pt": "Ela foi dormir antes: se había acostado, com se antes de había.",
+            "zh": "她先睡下了：se había acostado，se 放在 había 前面。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "Cuando llegamos al aeropuerto, el vuelo ya ",
+          "after": " salido.",
+          "options": [
+            "había",
+            "habían",
+            "habíamos"
+          ],
+          "answer": "había",
+          "en": "When we got to the airport, the flight had already left.",
+          "it": "Quando siamo arrivati in aeroporto, il volo era già partito.",
+          "uk": "Коли ми приїхали в аеропорт, рейс уже вилетів.",
+          "de": "Als wir am Flughafen ankamen, war der Flug schon weg.",
+          "fr": "Quand nous sommes arrivés à l'aéroport, l'avion était déjà parti.",
+          "pt": "Quando chegamos ao aeroporto, o voo já tinha saído.",
+          "zh": "我们到机场的时候，航班已经起飞了。",
+          "hint": {
+            "en": "el vuelo = él: había.",
+            "it": "el vuelo = él: había.",
+            "uk": "el vuelo = él: había.",
+            "de": "el vuelo = él: había.",
+            "fr": "el vuelo = él : había.",
+            "pt": "el vuelo = él: había.",
+            "zh": "el vuelo = él：había。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "mix",
+          "before": "Mi hermano ya había ",
+          "after": " la cena cuando llegamos.",
+          "label": "hacer",
+          "accepted": [
+            "hecho"
+          ],
+          "en": "My brother had already made dinner when we arrived.",
+          "it": "Mio fratello aveva già preparato la cena quando siamo arrivati.",
+          "uk": "Мій брат уже приготував вечерю, коли ми прийшли.",
+          "de": "Mein Bruder hatte schon das Abendessen gemacht, als wir ankamen.",
+          "fr": "Mon frère avait déjà préparé le dîner quand nous sommes arrivés.",
+          "pt": "Meu irmão já tinha feito o jantar quando chegamos.",
+          "zh": "我们到的时候，我哥哥已经做好了晚饭。",
+          "hint": {
+            "en": "hacer is irregular, as with he: hecho.",
+            "it": "hacer è irregolare, come con he: hecho.",
+            "uk": "hacer — неправильне дієслово, як і після he: hecho.",
+            "de": "hacer ist unregelmäßig, wie mit he: hecho.",
+            "fr": "hacer est irrégulier, comme avec he : hecho.",
+            "pt": "hacer é irregular, como com he: hecho.",
+            "zh": "hacer 是不规则的，和 he 后面一样：hecho。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "mix",
+          "intention": {
+            "en": "Tell a friend that when you got to the gate, the plane had already taken off.",
+            "it": "Racconta a un amico che quando sei arrivato al gate, l'aereo era già decollato.",
+            "uk": "Розкажи другові, що коли ти дійшов(-шла) до виходу на посадку, літак уже злетів.",
+            "de": "Erzähl einem Freund, dass das Flugzeug schon gestartet war, als du am Gate ankamst.",
+            "fr": "Dis à un ami que quand tu es arrivé à la porte d'embarquement, l'avion avait déjà décollé.",
+            "pt": "Conte a um amigo que, quando você chegou ao portão de embarque, o avião já tinha decolado.",
+            "zh": "告诉朋友，你到登机口的时候，飞机已经起飞了。"
+          },
+          "accepted": [
+            "Cuando llegué a la puerta de embarque, el avión ya había despegado.",
+            "Cuando llegué a la puerta, el avión ya había despegado.",
+            "El avión ya había despegado cuando llegué a la puerta de embarque."
+          ],
+          "tiles": [
+            "Cuando",
+            "llegué",
+            "a la puerta de embarque,",
+            "el avión",
+            "ya",
+            "había",
+            "despegado",
+            "ha",
+            "despegar"
+          ],
+          "en": "When I got to the gate, the plane had already taken off.",
+          "it": "Quando sono arrivato al gate, l'aereo era già decollato.",
+          "uk": "Коли я дійшов(-шла) до виходу на посадку, літак уже злетів.",
+          "de": "Als ich am Gate ankam, war das Flugzeug schon gestartet.",
+          "fr": "Quand je suis arrivé à la porte d'embarquement, l'avion avait déjà décollé.",
+          "pt": "Quando cheguei ao portão de embarque, o avião já tinha decolado.",
+          "zh": "我到登机口的时候，飞机已经起飞了。",
+          "hint": {
+            "en": "It took off first: había despegado.",
+            "it": "È decollato prima: había despegado.",
+            "uk": "Спочатку він злетів: había despegado.",
+            "de": "Es ist zuerst gestartet: había despegado.",
+            "fr": "Il a décollé d'abord : había despegado.",
+            "pt": "Ele decolou antes: había despegado.",
+            "zh": "飞机先起飞了：había despegado。"
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "Write in Spanish: «When we got to the station, the train had already left.»",
+            "it": "Scrivi in spagnolo: «Quando siamo arrivati alla stazione, il treno era già partito.»",
+            "uk": "Напиши іспанською: «Коли ми прийшли на вокзал, потяг уже поїхав.»",
+            "de": "Schreib auf Spanisch: «Als wir am Bahnhof ankamen, war der Zug schon abgefahren.»",
+            "fr": "Écris en espagnol : «Quand nous sommes arrivés à la gare, le train était déjà parti.»",
+            "pt": "Escreva em espanhol: «Quando chegamos à estação, o trem já tinha saído.»",
+            "zh": "用西班牙语写：«我们到车站的时候，火车已经开走了。»"
+          },
+          "accepted": [
+            "Cuando llegamos a la estación, el tren ya había salido.",
+            "El tren ya había salido cuando llegamos a la estación.",
+            "Cuando llegamos a la estación, ya había salido el tren.",
+            "Cuando nosotros llegamos a la estación, el tren ya había salido."
+          ],
+          "model": {
+            "es": "Cuando llegamos a la estación, el tren ya había salido.",
+            "en": "When we got to the station, the train had already left.",
+            "it": "Quando siamo arrivati alla stazione, il treno era già partito.",
+            "uk": "Коли ми прийшли на вокзал, потяг уже поїхав.",
+            "de": "Als wir am Bahnhof ankamen, war der Zug schon abgefahren.",
+            "fr": "Quand nous sommes arrivés à la gare, le train était déjà parti.",
+            "pt": "Quando chegamos à estação, o trem já tinha saído.",
+            "zh": "我们到车站的时候，火车已经开走了。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u27l4",
+      "goal": {
+        "en": "Ask strangers for help politely: ¿me podría ayudar?, ¿me podría decir dónde…?, ¿le importa…?",
+        "it": "Chiedi aiuto con gentilezza a chi non conosci: ¿me podría ayudar?, ¿me podría decir dónde…?, ¿le importa…?",
+        "uk": "Ввічливо проси про допомогу незнайомих людей: ¿me podría ayudar?, ¿me podría decir dónde…?, ¿le importa…?",
+        "de": "Bitte Fremde höflich um Hilfe: ¿me podría ayudar?, ¿me podría decir dónde…?, ¿le importa…?",
+        "fr": "Demander poliment de l'aide à des inconnus : ¿me podría ayudar?, ¿me podría decir dónde…?, ¿le importa…?",
+        "pt": "Peça ajuda a desconhecidos com educação: ¿me podría ayudar?, ¿me podría decir dónde…?, ¿le importa…?",
+        "zh": "礼貌地向陌生人求助：¿me podría ayudar?，¿me podría decir dónde…?，¿le importa…?"
+      },
+      "target": {
+        "es": "Perdone, ¿me podría ayudar? He perdido el pasaporte.",
+        "en": "Excuse me, could you help me? I've lost my passport.",
+        "it": "Mi scusi, potrebbe aiutarmi? Ho perso il passaporto.",
+        "uk": "Перепрошую, ви не могли б мені допомогти? Я загубив(-ла) паспорт.",
+        "de": "Entschuldigung, könnten Sie mir helfen? Ich habe meinen Pass verloren.",
+        "fr": "Excusez-moi, vous pourriez m'aider ? J'ai perdu mon passeport.",
+        "pt": "Com licença, poderia me ajudar? Perdi meu passaporte.",
+        "zh": "打扰一下，您能帮帮我吗？我的护照丢了。"
+      },
+      "names": [
+        "Madrid"
+      ],
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "la comisaría",
+              "en": "the police station",
+              "it": "il commissariato, la questura",
+              "uk": "поліцейська дільниця",
+              "de": "die Polizeiwache",
+              "fr": "le commissariat",
+              "pt": "a delegacia",
+              "zh": "警察局",
+              "kind": "chunk"
+            },
+            {
+              "es": "la oficina de objetos perdidos",
+              "en": "the lost property office",
+              "it": "l'ufficio oggetti smarriti",
+              "uk": "бюро знахідок",
+              "de": "das Fundbüro",
+              "fr": "le bureau des objets trouvés",
+              "pt": "o setor de achados e perdidos",
+              "zh": "失物招领处",
+              "kind": "chunk"
+            },
+            {
+              "es": "denunciar",
+              "en": "to report (to the police)",
+              "it": "denunciare",
+              "uk": "заявити (в поліцію)",
+              "de": "anzeigen (bei der Polizei)",
+              "fr": "porter plainte",
+              "pt": "denunciar, registrar queixa (na polícia)",
+              "zh": "报案，举报",
+              "kind": "stem"
+            },
+            {
+              "es": "el robo",
+              "en": "the theft",
+              "it": "il furto",
+              "uk": "крадіжка",
+              "de": "der Diebstahl",
+              "fr": "le vol (délit)",
+              "pt": "o roubo, o furto",
+              "zh": "盗窃，失窃",
+              "kind": "chunk"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "perdone,",
+              "kind": "chunk"
+            },
+            {
+              "text": "¿me podría",
+              "kind": "stem"
+            },
+            {
+              "text": "ayudar?",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "To ask a stranger for help, use usted: perdone, ¿me puede ayudar? ¿Me podría ayudar? is even more polite. To a friend: ¿me puedes ayudar?",
+            "it": "Per chiedere aiuto a chi non conosci, usa usted: perdone, ¿me puede ayudar? ¿Me podría ayudar? è ancora più gentile. A un amico: ¿me puedes ayudar?",
+            "uk": "Щоб попросити про допомогу незнайому людину, звертайся на usted: perdone, ¿me puede ayudar? ¿Me podría ayudar? — ще ввічливіше. До друга: ¿me puedes ayudar?",
+            "de": "Wenn du einen Fremden um Hilfe bittest, nimm usted: perdone, ¿me puede ayudar? ¿Me podría ayudar? ist noch höflicher, wie 'könnten Sie'. Zu einem Freund: ¿me puedes ayudar?",
+            "fr": "Pour demander de l'aide à un inconnu, utilise usted : perdone, ¿me puede ayudar? ¿Me podría ayudar? est encore plus poli. À un ami : ¿me puedes ayudar?",
+            "pt": "Para pedir ajuda a um desconhecido, use usted: perdone, ¿me puede ayudar? ¿Me podría ayudar? é ainda mais educado. Para um amigo: ¿me puedes ayudar?",
+            "zh": "向陌生人求助时用 usted：perdone，¿me puede ayudar? ¿Me podría ayudar? 更加礼貌。对朋友说：¿me puedes ayudar?"
+          },
+          "examples": [
+            {
+              "es": "Perdone, ¿me puede ayudar?",
+              "en": "Excuse me, can you help me?",
+              "it": "Mi scusi, può aiutarmi?",
+              "uk": "Перепрошую, ви можете мені допомогти?",
+              "de": "Entschuldigung, können Sie mir helfen?",
+              "fr": "Excusez-moi, vous pouvez m'aider ?",
+              "pt": "Com licença, o senhor pode me ajudar?",
+              "zh": "打扰一下，您能帮我一下吗？"
+            },
+            {
+              "es": "Perdone, ¿me podría ayudar? Es que he perdido el pasaporte.",
+              "en": "Excuse me, could you help me? I've lost my passport.",
+              "it": "Mi scusi, potrebbe aiutarmi? Ho perso il passaporto.",
+              "uk": "Перепрошую, ви не могли б мені допомогти? Розумієте, я загубив(-ла) паспорт.",
+              "de": "Entschuldigung, könnten Sie mir helfen? Ich habe nämlich meinen Pass verloren.",
+              "fr": "Excusez-moi, vous pourriez m'aider ? J'ai perdu mon passeport.",
+              "pt": "Com licença, o senhor poderia me ajudar? É que perdi meu passaporte.",
+              "zh": "打扰一下，您能帮帮我吗？是这样的，我的护照丢了。"
+            },
+            {
+              "es": "¿Me puedes ayudar con la maleta?",
+              "en": "Can you help me with the suitcase?",
+              "it": "Mi aiuti con la valigia?",
+              "uk": "Допоможеш мені з валізою?",
+              "de": "Kannst du mir mit dem Koffer helfen?",
+              "fr": "Tu peux m'aider avec la valise ?",
+              "pt": "Você pode me ajudar com a mala?",
+              "zh": "你能帮我拿一下行李箱吗？"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Perdone, ¿me ",
+          "after": " ayudar?",
+          "options": [
+            "podría",
+            "puedes",
+            "puedo"
+          ],
+          "answer": "podría",
+          "en": "Excuse me, could you help me?",
+          "it": "Mi scusi, potrebbe aiutarmi?",
+          "uk": "Перепрошую, ви не могли б мені допомогти?",
+          "de": "Entschuldigung, könnten Sie mir helfen?",
+          "fr": "Excusez-moi, vous pourriez m'aider ?",
+          "pt": "Com licença, o senhor poderia me ajudar?",
+          "zh": "打扰一下，您能帮帮我吗？",
+          "hint": {
+            "en": "perdone goes with usted: podría (or puede).",
+            "it": "perdone va con usted: podría (o puede).",
+            "uk": "perdone вживається з usted: podría (або puede).",
+            "de": "perdone passt zu usted: podría (oder puede).",
+            "fr": "perdone va avec usted : podría (ou puede).",
+            "pt": "perdone vai com usted: podría (ou puede).",
+            "zh": "perdone 和 usted 搭配：podría（或 puede）。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "At the station, politely ask a woman you don't know if she could help you.",
+            "it": "In stazione, chiedi con gentilezza a una signora che non conosci se potrebbe aiutarti.",
+            "uk": "На вокзалі ввічливо запитай незнайому жінку, чи не могла б вона тобі допомогти.",
+            "de": "Frag am Bahnhof eine Frau, die du nicht kennst, höflich, ob sie dir helfen könnte.",
+            "fr": "À la gare, demande poliment à une femme que tu ne connais pas si elle pourrait t'aider.",
+            "pt": "Na estação, pergunte com educação a uma senhora que você não conhece se ela poderia ajudar você.",
+            "zh": "在车站，礼貌地问一位你不认识的女士能不能帮你一下。"
+          },
+          "accepted": [
+            "Perdone, ¿me podría ayudar?",
+            "Perdone, ¿me puede ayudar?",
+            "Perdone, ¿podría ayudarme?"
+          ],
+          "tiles": [
+            "Perdone,",
+            "¿me",
+            "podría",
+            "ayudar?",
+            "puedes",
+            "Perdona,"
+          ],
+          "en": "Excuse me, could you help me?",
+          "it": "Mi scusi, potrebbe aiutarmi?",
+          "uk": "Перепрошую, ви не могли б мені допомогти?",
+          "de": "Entschuldigung, könnten Sie mir helfen?",
+          "fr": "Excusez-moi, vous pourriez m'aider ?",
+          "pt": "Com licença, a senhora poderia me ajudar?",
+          "zh": "打扰一下，您能帮帮我吗？",
+          "hint": {
+            "en": "A stranger: usted, so perdone and podría.",
+            "it": "Una sconosciuta: usted, quindi perdone e podría.",
+            "uk": "Незнайома людина: usted, тож perdone і podría.",
+            "de": "Eine Fremde: usted, also perdone und podría.",
+            "fr": "Une inconnue : usted, donc perdone et podría.",
+            "pt": "Uma desconhecida: usted, então perdone e podría.",
+            "zh": "陌生人：用 usted，所以说 perdone 和 podría。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "¿me podría decir",
+              "kind": "stem"
+            },
+            {
+              "text": "dónde",
+              "kind": "rail"
+            },
+            {
+              "text": "está…?",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "To ask for information: ¿me podría decir + dónde, cuándo or a qué hora…? It means could you tell me…?",
+            "it": "Per chiedere un'informazione: ¿me podría decir + dónde, cuándo o a qué hora…? Vuol dire potrebbe dirmi…?",
+            "uk": "Щоб дізнатися якусь інформацію: ¿me podría decir + dónde, cuándo або a qué hora…? Це означає «ви не могли б мені сказати…?»",
+            "de": "Um nach Informationen zu fragen: ¿me podría decir + dónde, cuándo oder a qué hora…? Das heißt: Könnten Sie mir sagen…?",
+            "fr": "Pour demander une information : ¿me podría decir + dónde, cuándo ou a qué hora…? Ça veut dire « vous pourriez me dire… ? ».",
+            "pt": "Para pedir uma informação: ¿me podría decir + dónde, cuándo ou a qué hora…? Quer dizer poderia me dizer…?",
+            "zh": "问信息：¿me podría decir + dónde、cuándo 或 a qué hora…? 意思是“您能告诉我……吗？”"
+          },
+          "examples": [
+            {
+              "es": "¿Me podría decir dónde está la comisaría?",
+              "en": "Could you tell me where the police station is?",
+              "it": "Potrebbe dirmi dov'è il commissariato?",
+              "uk": "Ви не могли б сказати, де поліцейська дільниця?",
+              "de": "Könnten Sie mir sagen, wo die Polizeiwache ist?",
+              "fr": "Vous pourriez me dire où est le commissariat ?",
+              "pt": "O senhor poderia me dizer onde fica a delegacia?",
+              "zh": "您能告诉我警察局在哪儿吗？"
+            },
+            {
+              "es": "¿Me podría decir a qué hora sale el tren?",
+              "en": "Could you tell me what time the train leaves?",
+              "it": "Potrebbe dirmi a che ora parte il treno?",
+              "uk": "Ви не могли б сказати, о котрій відправляється потяг?",
+              "de": "Könnten Sie mir sagen, um wie viel Uhr der Zug abfährt?",
+              "fr": "Vous pourriez me dire à quelle heure part le train ?",
+              "pt": "O senhor poderia me dizer a que horas sai o trem?",
+              "zh": "您能告诉我火车几点开吗？"
+            },
+            {
+              "es": "¿Me puede decir dónde está la oficina de objetos perdidos?",
+              "en": "Can you tell me where the lost property office is?",
+              "it": "Può dirmi dov'è l'ufficio oggetti smarriti?",
+              "uk": "Ви можете сказати, де бюро знахідок?",
+              "de": "Können Sie mir sagen, wo das Fundbüro ist?",
+              "fr": "Vous pouvez me dire où est le bureau des objets trouvés ?",
+              "pt": "O senhor pode me dizer onde fica o setor de achados e perdidos?",
+              "zh": "您能告诉我失物招领处在哪儿吗？"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "¿Me podría decir ",
+          "after": " está la comisaría?",
+          "options": [
+            "dónde",
+            "qué",
+            "cuándo"
+          ],
+          "answer": "dónde",
+          "en": "Could you tell me where the police station is?",
+          "it": "Potrebbe dirmi dov'è il commissariato?",
+          "uk": "Ви не могли б сказати, де поліцейська дільниця?",
+          "de": "Könnten Sie mir sagen, wo die Polizeiwache ist?",
+          "fr": "Vous pourriez me dire où est le commissariat ?",
+          "pt": "O senhor poderia me dizer onde fica a delegacia?",
+          "zh": "您能告诉我警察局在哪儿吗？",
+          "hint": {
+            "en": "Asking for a place: dónde.",
+            "it": "Per chiedere un luogo: dónde.",
+            "uk": "Питаєш про місце: dónde.",
+            "de": "Du fragst nach einem Ort: dónde.",
+            "fr": "On demande un lieu : dónde.",
+            "pt": "Para perguntar por um lugar: dónde.",
+            "zh": "问地点：dónde。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "At the station, politely ask a man what time the next train to Madrid leaves.",
+            "it": "In stazione, chiedi con gentilezza a un signore a che ora parte il prossimo treno per Madrid.",
+            "uk": "На вокзалі ввічливо запитай чоловіка, о котрій відправляється наступний потяг до Мадрида.",
+            "de": "Frag am Bahnhof einen Mann höflich, um wie viel Uhr der nächste Zug nach Madrid abfährt.",
+            "fr": "À la gare, demande poliment à un homme à quelle heure part le prochain train pour Madrid.",
+            "pt": "Na estação, pergunte com educação a um senhor a que horas sai o próximo trem para Madri.",
+            "zh": "在车站，礼貌地问一位先生下一班去马德里的火车几点开。"
+          },
+          "accepted": [
+            "¿Me podría decir a qué hora sale el próximo tren a Madrid?",
+            "¿Me podría decir a qué hora sale el próximo tren para Madrid?",
+            "¿Me puede decir a qué hora sale el próximo tren a Madrid?"
+          ],
+          "tiles": [
+            "¿Me",
+            "podría",
+            "decir",
+            "a qué hora",
+            "sale",
+            "el próximo tren",
+            "a Madrid?",
+            "dónde",
+            "salió"
+          ],
+          "en": "Could you tell me what time the next train to Madrid leaves?",
+          "it": "Potrebbe dirmi a che ora parte il prossimo treno per Madrid?",
+          "uk": "Ви не могли б сказати, о котрій відправляється наступний потяг до Мадрида?",
+          "de": "Könnten Sie mir sagen, um wie viel Uhr der nächste Zug nach Madrid abfährt?",
+          "fr": "Vous pourriez me dire à quelle heure part le prochain train pour Madrid ?",
+          "pt": "O senhor poderia me dizer a que horas sai o próximo trem para Madri?",
+          "zh": "您能告诉我下一班去马德里的火车几点开吗？",
+          "hint": {
+            "en": "¿me podría decir + a qué hora…?",
+            "it": "¿me podría decir + a qué hora…?",
+            "uk": "¿me podría decir + a qué hora…?",
+            "de": "¿me podría decir + a qué hora…?",
+            "fr": "¿me podría decir + a qué hora…?",
+            "pt": "¿me podría decir + a qué hora…?",
+            "zh": "¿me podría decir + a qué hora…?"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "¿le",
+              "kind": "ending"
+            },
+            {
+              "text": "importa",
+              "kind": "stem"
+            },
+            {
+              "text": "esperar?",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "¿Le importa + a verb as in the dictionary? means do you mind…? With a friend: ¿te importa…? The usual answer is no, claro (of course not) or no, no me importa.",
+            "it": "¿Le importa + un verbo come nel dizionario? vuol dire le dispiace…? Con un amico: ¿te importa…? Di solito si risponde no, claro (certo che no) o no, no me importa.",
+            "uk": "¿Le importa + дієслово у словниковій формі? означає «ви не проти…?» До друга: ¿te importa…? Зазвичай відповідають no, claro (звісно, ні) або no, no me importa.",
+            "de": "¿Le importa + ein Verb in der Grundform? heißt: Würde es Ihnen etwas ausmachen…? Zu einem Freund: ¿te importa…? Die übliche Antwort ist no, claro (natürlich nicht) oder no, no me importa.",
+            "fr": "¿Le importa + un verbe à l'infinitif? veut dire « ça vous dérange de… ? ». Avec un ami : ¿te importa…? La réponse habituelle est no, claro (bien sûr que non) ou no, no me importa.",
+            "pt": "¿Le importa + um verbo como no dicionário? quer dizer o senhor se importa de…? Com um amigo: ¿te importa…? A resposta mais comum é no, claro (claro que não) ou no, no me importa.",
+            "zh": "¿Le importa + 动词原形? 意思是“您介意……吗？”对朋友说：¿te importa…? 通常的回答是 no, claro（当然不介意）或 no, no me importa。"
+          },
+          "examples": [
+            {
+              "es": "¿Le importa repetir, por favor?",
+              "en": "Would you mind repeating that, please?",
+              "it": "Le dispiace ripetere, per favore?",
+              "uk": "Ви не проти повторити, будь ласка?",
+              "de": "Würde es Ihnen etwas ausmachen, das zu wiederholen, bitte?",
+              "fr": "Ça vous dérangerait de répéter, s'il vous plaît ?",
+              "pt": "O senhor se importa de repetir, por favor?",
+              "zh": "您介意再说一遍吗？"
+            },
+            {
+              "es": "¿Te importa esperar aquí un momento?",
+              "en": "Do you mind waiting here a moment?",
+              "it": "Ti dispiace aspettare qui un momento?",
+              "uk": "Ти не проти почекати тут хвилинку?",
+              "de": "Macht es dir etwas aus, hier kurz zu warten?",
+              "fr": "Ça te dérange d'attendre ici un moment ?",
+              "pt": "Você se importa de esperar aqui um momento?",
+              "zh": "你介意在这儿等一会儿吗？"
+            },
+            {
+              "es": "No, claro. No me importa.",
+              "en": "No, of course not. I don't mind.",
+              "it": "No, figurati. Non mi dispiace.",
+              "uk": "Ні, звісно. Я не проти.",
+              "de": "Nein, natürlich nicht. Das macht mir nichts aus.",
+              "fr": "Non, bien sûr. Ça ne me dérange pas.",
+              "pt": "Não, claro que não. Não me importo.",
+              "zh": "不，当然不介意。我不介意。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "importa",
+              "en": "matters; (with le, te) do you mind",
+              "it": "importa; (con le, te) dispiace",
+              "uk": "має значення; (із le, te) ви не проти, ти не проти",
+              "de": "ist wichtig; (mit le, te) macht es (Ihnen/dir) etwas aus",
+              "fr": "importe ; (avec le, te) ça vous/te dérange",
+              "pt": "importa; (com le, te) você se importa",
+              "zh": "要紧；（和 le、te 一起用）介意"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "¿Le ",
+          "after": " repetir, por favor?",
+          "options": [
+            "importa",
+            "gusta",
+            "parece"
+          ],
+          "answer": "importa",
+          "en": "Would you mind repeating that, please?",
+          "it": "Le dispiace ripetere, per favore?",
+          "uk": "Ви не проти повторити, будь ласка?",
+          "de": "Würde es Ihnen etwas ausmachen, das zu wiederholen, bitte?",
+          "fr": "Ça vous dérangerait de répéter, s'il vous plaît ?",
+          "pt": "O senhor se importa de repetir, por favor?",
+          "zh": "您介意再说一遍吗？",
+          "hint": {
+            "en": "Do you mind…?: ¿le importa…?",
+            "it": "Le dispiace…?: ¿le importa…?",
+            "uk": "Ви не проти…?: ¿le importa…?",
+            "de": "Macht es Ihnen etwas aus…?: ¿le importa…?",
+            "fr": "Ça vous dérange de… ? : ¿le importa…?",
+            "pt": "O senhor se importa de…?: ¿le importa…?",
+            "zh": "您介意……吗？：¿le importa…?"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "A friend asks «¿Te importa esperar un momento?». Say no, of course not.",
+            "it": "Un amico ti chiede «¿Te importa esperar un momento?». Rispondi di no, figurati.",
+            "uk": "Друг питає «¿Te importa esperar un momento?». Відповідай: ні, звісно.",
+            "de": "Ein Freund fragt «¿Te importa esperar un momento?». Sag: Nein, natürlich nicht.",
+            "fr": "Un ami te demande «¿Te importa esperar un momento?». Réponds non, bien sûr que non.",
+            "pt": "Um amigo pergunta «¿Te importa esperar un momento?». Diga que não, claro que não.",
+            "zh": "朋友问你：«¿Te importa esperar un momento?»。回答说不介意，当然不介意。"
+          },
+          "accepted": [
+            "No, claro.",
+            "No, claro. No me importa.",
+            "No, no me importa."
+          ],
+          "tiles": [
+            "No,",
+            "claro",
+            "sí",
+            "gusta"
+          ],
+          "en": "No, of course not.",
+          "it": "No, figurati.",
+          "uk": "Ні, звісно.",
+          "de": "Nein, natürlich nicht.",
+          "fr": "Non, bien sûr que non.",
+          "pt": "Não, claro que não.",
+          "zh": "不，当然不介意。",
+          "hint": {
+            "en": "Not minding is a no: no, claro.",
+            "it": "Non ti dispiace, quindi no: no, claro.",
+            "uk": "Ти не проти, тож відповідь — «ні»: no, claro.",
+            "de": "Wenn es dir nichts ausmacht, sagst du nein: no, claro.",
+            "fr": "Ne pas être dérangé, c'est un non : no, claro.",
+            "pt": "Você não se importa, então é um não: no, claro.",
+            "zh": "不介意，所以回答 no：no, claro。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "",
+          "after": ", ¿me podría decir dónde está la oficina de objetos perdidos?",
+          "options": [
+            "Perdone",
+            "Perdona"
+          ],
+          "answer": "Perdone",
+          "en": "Excuse me, could you tell me where the lost property office is?",
+          "it": "Mi scusi, potrebbe dirmi dov'è l'ufficio oggetti smarriti?",
+          "uk": "Перепрошую, ви не могли б сказати, де бюро знахідок?",
+          "de": "Entschuldigung, könnten Sie mir sagen, wo das Fundbüro ist?",
+          "fr": "Excusez-moi, vous pourriez me dire où est le bureau des objets trouvés ?",
+          "pt": "Com licença, o senhor poderia me dizer onde fica o setor de achados e perdidos?",
+          "zh": "打扰一下，您能告诉我失物招领处在哪儿吗？",
+          "hint": {
+            "en": "podría is usted, so perdone.",
+            "it": "podría è usted, quindi perdone.",
+            "uk": "podría — це usted, тож perdone.",
+            "de": "podría ist usted, also perdone.",
+            "fr": "podría, c'est usted, donc perdone.",
+            "pt": "podría é usted, então perdone.",
+            "zh": "podría 用于 usted，所以说 perdone。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "mix",
+          "before": "¿Le ",
+          "after": " esperar un momento?",
+          "label": "importar",
+          "accepted": [
+            "importa"
+          ],
+          "en": "Would you mind waiting a moment?",
+          "it": "Le dispiace aspettare un momento?",
+          "uk": "Ви не проти почекати хвилинку?",
+          "de": "Würde es Ihnen etwas ausmachen, kurz zu warten?",
+          "fr": "Ça vous dérange d'attendre un moment ?",
+          "pt": "O senhor se importa de esperar um momento?",
+          "zh": "您介意等一会儿吗？",
+          "hint": {
+            "en": "Do you mind…?: ¿le importa + a verb?",
+            "it": "Le dispiace…?: ¿le importa + un verbo?",
+            "uk": "Ви не проти…?: ¿le importa + дієслово?",
+            "de": "Macht es Ihnen etwas aus…?: ¿le importa + ein Verb?",
+            "fr": "Ça vous dérange de… ? : ¿le importa + un verbe ?",
+            "pt": "O senhor se importa de…?: ¿le importa + um verbo?",
+            "zh": "您介意……吗？：¿le importa + 动词原形?"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "mix",
+          "intention": {
+            "en": "At the police station, say you'd like to report a theft.",
+            "it": "Al commissariato, di' che vorresti denunciare un furto.",
+            "uk": "У поліцейській дільниці скажи, що хотів(-ла) б заявити про крадіжку.",
+            "de": "Sag auf der Polizeiwache, dass du einen Diebstahl anzeigen möchtest.",
+            "fr": "Au commissariat, dis que tu voudrais porter plainte pour un vol.",
+            "pt": "Na delegacia, diga que você queria registrar um roubo.",
+            "zh": "在警察局，说你想报案，有东西被偷了。"
+          },
+          "accepted": [
+            "Quería denunciar un robo.",
+            "Quiero denunciar un robo."
+          ],
+          "tiles": [
+            "Quería",
+            "denunciar",
+            "un robo",
+            "robar",
+            "quise"
+          ],
+          "en": "I'd like to report a theft.",
+          "it": "Vorrei denunciare un furto.",
+          "uk": "Я хотів(-ла) б заявити про крадіжку.",
+          "de": "Ich möchte einen Diebstahl anzeigen.",
+          "fr": "Je voudrais porter plainte pour un vol.",
+          "pt": "Eu queria registrar um roubo.",
+          "zh": "我想报案，我的东西被偷了。",
+          "hint": {
+            "en": "quería + a verb is a polite I'd like.",
+            "it": "quería + un verbo è un vorrei gentile.",
+            "uk": "quería + дієслово — це ввічливе «я хотів(-ла) б».",
+            "de": "quería + ein Verb ist ein höfliches 'ich möchte'.",
+            "fr": "quería + un verbe, c'est un « je voudrais » poli.",
+            "pt": "quería + um verbo é um pedido educado, como o eu queria do português.",
+            "zh": "quería + 动词原形，是礼貌的“我想……”。"
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "Write in Spanish: «Excuse me, could you help me? I've lost my passport.»",
+            "it": "Scrivi in spagnolo: «Mi scusi, potrebbe aiutarmi? Ho perso il passaporto.»",
+            "uk": "Напиши іспанською: «Перепрошую, ви не могли б мені допомогти? Я загубив(-ла) паспорт.»",
+            "de": "Schreib auf Spanisch: «Entschuldigung, könnten Sie mir helfen? Ich habe meinen Pass verloren.»",
+            "fr": "Écris en espagnol : «Excusez-moi, vous pourriez m'aider ? J'ai perdu mon passeport.»",
+            "pt": "Escreva em espanhol: «Com licença, poderia me ajudar? Perdi meu passaporte.»",
+            "zh": "用西班牙语写：«打扰一下，您能帮帮我吗？我的护照丢了。»"
+          },
+          "accepted": [
+            "Perdone, ¿me podría ayudar? He perdido el pasaporte.",
+            "Perdone, ¿me puede ayudar? He perdido el pasaporte.",
+            "Perdone, ¿podría ayudarme? He perdido el pasaporte.",
+            "Perdone, ¿me podría ayudar? He perdido mi pasaporte.",
+            "Perdone, ¿me podría ayudar? Es que he perdido el pasaporte.",
+            "Perdone, ¿me podría ayudar? Se me ha perdido el pasaporte."
+          ],
+          "model": {
+            "es": "Perdone, ¿me podría ayudar? He perdido el pasaporte.",
+            "en": "Excuse me, could you help me? I've lost my passport.",
+            "it": "Mi scusi, potrebbe aiutarmi? Ho perso il passaporto.",
+            "uk": "Перепрошую, ви не могли б мені допомогти? Я загубив(-ла) паспорт.",
+            "de": "Entschuldigung, könnten Sie mir helfen? Ich habe meinen Pass verloren.",
+            "fr": "Excusez-moi, vous pourriez m'aider ? J'ai perdu mon passeport.",
+            "pt": "Com licença, poderia me ajudar? Perdi meu passaporte.",
+            "zh": "打扰一下，您能帮帮我吗？我的护照丢了。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u27l5",
+      "goal": {
+        "en": "Find a way out: ask what you can do, suggest a solution with ¿y si…?, and accept or turn it down politely.",
+        "it": "Trova una via d'uscita: chiedi cosa puoi fare, proponi una soluzione con ¿y si…? e accetta o rifiuta con gentilezza.",
+        "uk": "Знайди вихід: запитай, що можна зробити, запропонуй рішення з ¿y si…? і ввічливо погодься або відмовся.",
+        "de": "Finde einen Ausweg: Frag, was du tun kannst, schlag mit ¿y si…? eine Lösung vor und nimm sie an oder lehne sie höflich ab.",
+        "fr": "Trouver une solution : demander ce que tu peux faire, proposer une solution avec ¿y si…? et accepter ou refuser poliment.",
+        "pt": "Encontre uma saída: pergunte o que você pode fazer, proponha uma solução com ¿y si…? e aceite ou recuse com educação.",
+        "zh": "想办法解决问题：问你能做什么，用 ¿y si…? 提出办法，再礼貌地接受或拒绝。"
+      },
+      "target": {
+        "es": "Han cancelado mi vuelo. ¿Qué opciones tengo?",
+        "en": "My flight has been cancelled. What options do I have?",
+        "it": "Hanno cancellato il mio volo. Che possibilità ho?",
+        "uk": "Мій рейс скасували. Які в мене є варіанти?",
+        "de": "Mein Flug ist gestrichen worden. Welche Möglichkeiten habe ich?",
+        "fr": "Mon vol a été annulé. Quelles options est-ce que j'ai ?",
+        "pt": "Cancelaram meu voo. Que opções eu tenho?",
+        "zh": "我的航班被取消了。我有哪些选择？"
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "la solución",
+              "en": "the solution",
+              "it": "la soluzione",
+              "uk": "рішення",
+              "de": "die Lösung",
+              "fr": "la solution",
+              "pt": "a solução",
+              "zh": "解决办法",
+              "kind": "chunk"
+            },
+            {
+              "es": "la opción",
+              "en": "the option",
+              "it": "l'opzione, la possibilità",
+              "uk": "варіант",
+              "de": "die Möglichkeit, die Option",
+              "fr": "l'option",
+              "pt": "a opção",
+              "zh": "选择，选项",
+              "kind": "chunk"
+            },
+            {
+              "es": "siguiente",
+              "en": "next",
+              "it": "successivo, prossimo",
+              "uk": "наступний",
+              "de": "nächste(r)",
+              "fr": "suivant, prochain",
+              "pt": "seguinte, próximo",
+              "zh": "下一个，接下来的",
+              "kind": "chunk"
+            },
+            {
+              "es": "gratis",
+              "en": "free (no charge)",
+              "it": "gratis",
+              "uk": "безкоштовно",
+              "de": "kostenlos, gratis",
+              "fr": "gratuit",
+              "pt": "grátis, de graça",
+              "zh": "免费",
+              "kind": "chunk"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "¿qué",
+              "kind": "rail"
+            },
+            {
+              "text": "opciones",
+              "kind": "chunk"
+            },
+            {
+              "text": "tengo?",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "First say what happened, then ask ¿qué puedo hacer? or ¿qué opciones tengo? To ask if there's another one: ¿hay otro…? or ¿hay otra…?, never un otro.",
+            "it": "Prima di' cosa è successo, poi chiedi ¿qué puedo hacer? o ¿qué opciones tengo? Per chiedere se ce n'è un altro: ¿hay otro…? o ¿hay otra…?, mai un otro.",
+            "uk": "Спочатку скажи, що сталося, потім запитай ¿qué puedo hacer? або ¿qué opciones tengo? Щоб запитати, чи є ще один: ¿hay otro…? або ¿hay otra…?, ніколи не un otro.",
+            "de": "Sag zuerst, was passiert ist, dann frag ¿qué puedo hacer? oder ¿qué opciones tengo? Um zu fragen, ob es noch einen gibt: ¿hay otro…? oder ¿hay otra…?, nie un otro.",
+            "fr": "D'abord, dis ce qui s'est passé, puis demande ¿qué puedo hacer? ou ¿qué opciones tengo? Pour demander s'il y en a un autre : ¿hay otro…? ou ¿hay otra…?, jamais un otro.",
+            "pt": "Primeiro diga o que aconteceu, depois pergunte ¿qué puedo hacer? ou ¿qué opciones tengo? Para perguntar se tem outro: ¿hay otro…? ou ¿hay otra…?, nunca un otro.",
+            "zh": "先说发生了什么，再问 ¿qué puedo hacer? 或 ¿qué opciones tengo? 问还有没有别的：¿hay otro…? 或 ¿hay otra…?，千万不要说 un otro。"
+          },
+          "examples": [
+            {
+              "es": "Han cancelado mi vuelo. ¿Qué puedo hacer?",
+              "en": "My flight has been cancelled. What can I do?",
+              "it": "Hanno cancellato il mio volo. Cosa posso fare?",
+              "uk": "Мій рейс скасували. Що я можу зробити?",
+              "de": "Mein Flug ist gestrichen worden. Was kann ich tun?",
+              "fr": "Mon vol a été annulé. Qu'est-ce que je peux faire ?",
+              "pt": "Cancelaram meu voo. O que eu posso fazer?",
+              "zh": "我的航班被取消了。我该怎么办？"
+            },
+            {
+              "es": "¿Qué opciones tengo?",
+              "en": "What options do I have?",
+              "it": "Che possibilità ho?",
+              "uk": "Які в мене є варіанти?",
+              "de": "Welche Möglichkeiten habe ich?",
+              "fr": "Quelles options est-ce que j'ai ?",
+              "pt": "Que opções eu tenho?",
+              "zh": "我有哪些选择？"
+            },
+            {
+              "es": "¿Hay otro tren esta tarde?",
+              "en": "Is there another train this afternoon?",
+              "it": "C'è un altro treno oggi pomeriggio?",
+              "uk": "Сьогодні по обіді є ще один потяг?",
+              "de": "Gibt es heute Nachmittag noch einen Zug?",
+              "fr": "Il y a un autre train cet après-midi ?",
+              "pt": "Tem outro trem hoje à tarde?",
+              "zh": "今天下午还有别的火车吗？"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "cancelado",
+              "en": "cancelled",
+              "it": "cancellato",
+              "uk": "скасований",
+              "de": "gestrichen, storniert",
+              "fr": "annulé",
+              "pt": "cancelado",
+              "zh": "取消（-ado 形式）"
+            },
+            {
+              "es": "opciones",
+              "en": "options",
+              "it": "opzioni, possibilità",
+              "uk": "варіанти",
+              "de": "Möglichkeiten",
+              "fr": "options",
+              "pt": "opções",
+              "zh": "选择（复数）"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Han cancelado mi vuelo. ¿Qué ",
+          "after": " tengo?",
+          "options": [
+            "opciones",
+            "opción"
+          ],
+          "answer": "opciones",
+          "en": "My flight has been cancelled. What options do I have?",
+          "it": "Hanno cancellato il mio volo. Che possibilità ho?",
+          "uk": "Мій рейс скасували. Які в мене є варіанти?",
+          "de": "Mein Flug ist gestrichen worden. Welche Möglichkeiten habe ich?",
+          "fr": "Mon vol a été annulé. Quelles options est-ce que j'ai ?",
+          "pt": "Cancelaram meu voo. Que opções eu tenho?",
+          "zh": "我的航班被取消了。我有哪些选择？",
+          "hint": {
+            "en": "Asking about several possibilities: opciones.",
+            "it": "Chiedi di più possibilità: opciones.",
+            "uk": "Питаєш про кілька можливостей: opciones.",
+            "de": "Du fragst nach mehreren Möglichkeiten: opciones.",
+            "fr": "On demande plusieurs possibilités : opciones.",
+            "pt": "Você pergunta por várias possibilidades: opciones.",
+            "zh": "问几种可能：opciones。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "Your train has been cancelled. Ask at the ticket office if there's another train this afternoon.",
+            "it": "Il tuo treno è stato cancellato. Chiedi in biglietteria se c'è un altro treno oggi pomeriggio.",
+            "uk": "Твій потяг скасували. Запитай у квитковій касі, чи є сьогодні по обіді ще один потяг.",
+            "de": "Dein Zug ist gestrichen worden. Frag am Fahrkartenschalter, ob es heute Nachmittag noch einen Zug gibt.",
+            "fr": "Ton train a été annulé. Demande au guichet s'il y a un autre train cet après-midi.",
+            "pt": "Seu trem foi cancelado. Pergunte na bilheteria se tem outro trem hoje à tarde.",
+            "zh": "你的火车被取消了。在售票处问今天下午还有没有别的火车。"
+          },
+          "accepted": [
+            "¿Hay otro tren esta tarde?",
+            "¿Hay otro tren por la tarde?"
+          ],
+          "tiles": [
+            "¿Hay",
+            "otro",
+            "tren",
+            "esta tarde?",
+            "otra",
+            "Es"
+          ],
+          "en": "Is there another train this afternoon?",
+          "it": "C'è un altro treno oggi pomeriggio?",
+          "uk": "Сьогодні по обіді є ще один потяг?",
+          "de": "Gibt es heute Nachmittag noch einen Zug?",
+          "fr": "Il y a un autre train cet après-midi ?",
+          "pt": "Tem outro trem hoje à tarde?",
+          "zh": "今天下午还有别的火车吗？",
+          "hint": {
+            "en": "el tren: otro, with no un.",
+            "it": "el tren: otro, senza un.",
+            "uk": "el tren: otro, без un.",
+            "de": "el tren: otro, ohne un.",
+            "fr": "el tren : otro, sans un.",
+            "pt": "el tren: otro, sem un.",
+            "zh": "el tren：otro，前面不加 un。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "¿y",
+              "kind": "rail"
+            },
+            {
+              "text": "si",
+              "kind": "rail"
+            },
+            {
+              "text": "voy en tren?",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "To suggest a solution, use ¿y si + the present? (what if…?). si (if) has no accent; sí with an accent means yes.",
+            "it": "Per proporre una soluzione, usa ¿y si + il presente? (e se…?). si (se) non ha l'accento; sí con l'accento vuol dire sì.",
+            "uk": "Щоб запропонувати рішення, вживай ¿y si + теперішній час? (а що, як…?). si (якщо) пишеться без знака наголосу; sí зі знаком наголосу означає «так».",
+            "de": "Um eine Lösung vorzuschlagen, nimm ¿y si + Präsens? (was wäre, wenn…? / und wenn…?). si (wenn, ob) hat keinen Akzent; sí mit Akzent heißt ja.",
+            "fr": "Pour proposer une solution, utilise ¿y si + le présent? (et si… ?). si (si) n'a pas d'accent ; sí avec un accent veut dire oui.",
+            "pt": "Para propor uma solução, use ¿y si + o presente? (e se…?). si (se) não tem acento; sí com acento quer dizer sim.",
+            "zh": "提出一个办法，用 ¿y si + 现在时?（……怎么样？／要是……呢？）。si（如果）不带重音符号；带重音符号的 sí 意思是“是”。"
+          },
+          "examples": [
+            {
+              "es": "¿Y si voy en el siguiente vuelo?",
+              "en": "What if I go on the next flight?",
+              "it": "E se prendo il volo successivo?",
+              "uk": "А що, як я полечу наступним рейсом?",
+              "de": "Und wenn ich den nächsten Flug nehme?",
+              "fr": "Et si je prends le prochain vol ?",
+              "pt": "E se eu for no próximo voo?",
+              "zh": "要是我坐下一班飞机呢？"
+            },
+            {
+              "es": "¿Y si vamos en tren?",
+              "en": "What if we go by train?",
+              "it": "E se andiamo in treno?",
+              "uk": "А що, як ми поїдемо потягом?",
+              "de": "Und wenn wir mit dem Zug fahren?",
+              "fr": "Et si on y va en train ?",
+              "pt": "E se a gente for de trem?",
+              "zh": "要不我们坐火车去？"
+            },
+            {
+              "es": "¿Y si me cambia a otro hotel?",
+              "en": "What if you move me to another hotel?",
+              "it": "E se mi sposta in un altro albergo?",
+              "uk": "А що, як ви переселите мене в інший готель?",
+              "de": "Und wenn Sie mich in ein anderes Hotel bringen?",
+              "fr": "Et si vous me changez d'hôtel ?",
+              "pt": "E se o senhor me mudar para outro hotel?",
+              "zh": "您给我换一家酒店怎么样？"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "si",
+              "en": "if",
+              "it": "se",
+              "uk": "якщо",
+              "de": "wenn, ob",
+              "fr": "si",
+              "pt": "se (condição)",
+              "zh": "如果"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "¿Y ",
+          "after": " vamos en autobús?",
+          "options": [
+            "si",
+            "sí",
+            "que"
+          ],
+          "answer": "si",
+          "en": "What if we go by bus?",
+          "it": "E se andiamo in autobus?",
+          "uk": "А що, як ми поїдемо автобусом?",
+          "de": "Und wenn wir mit dem Bus fahren?",
+          "fr": "Et si on y va en bus ?",
+          "pt": "E se a gente for de ônibus?",
+          "zh": "要不我们坐公交车去？",
+          "hint": {
+            "en": "What if…?: ¿y si…?, with no accent.",
+            "it": "E se…?: ¿y si…?, senza accento.",
+            "uk": "А що, як…?: ¿y si…?, без знака наголосу.",
+            "de": "Und wenn…?: ¿y si…?, ohne Akzent.",
+            "fr": "Et si… ? : ¿y si…?, sans accent.",
+            "pt": "E se…?: ¿y si…?, sem acento.",
+            "zh": "……怎么样？：¿y si…?，不带重音符号。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "Your flight is cancelled. Suggest to your partner: what if we go by train?",
+            "it": "Il vostro volo è cancellato. Proponi al tuo partner: e se andiamo in treno?",
+            "uk": "Ваш рейс скасували. Запропонуй своєму партнерові (своїй партнерці): а що, як ми поїдемо потягом?",
+            "de": "Dein Flug ist gestrichen. Schlag deinem Partner vor: Und wenn wir mit dem Zug fahren?",
+            "fr": "Ton vol est annulé. Propose à ton/ta partenaire d'y aller en train.",
+            "pt": "O voo de vocês foi cancelado. Proponha ao seu parceiro: e se a gente for de trem?",
+            "zh": "你们的航班被取消了。向你的伴侣提议：要不我们坐火车去？"
+          },
+          "accepted": [
+            "¿Y si vamos en tren?"
+          ],
+          "tiles": [
+            "¿Y",
+            "si",
+            "vamos",
+            "en tren?",
+            "sí",
+            "fuimos"
+          ],
+          "en": "What if we go by train?",
+          "it": "E se andiamo in treno?",
+          "uk": "А що, як ми поїдемо потягом?",
+          "de": "Und wenn wir mit dem Zug fahren?",
+          "fr": "Et si on y va en train ?",
+          "pt": "E se a gente for de trem?",
+          "zh": "要不我们坐火车去？",
+          "hint": {
+            "en": "¿y si + the present: vamos.",
+            "it": "¿y si + il presente: vamos.",
+            "uk": "¿y si + теперішній час: vamos.",
+            "de": "¿y si + Präsens: vamos.",
+            "fr": "¿y si + le présent : vamos.",
+            "pt": "¿y si + o presente: vamos.",
+            "zh": "¿y si + 现在时：vamos。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "vale,",
+              "kind": "chunk"
+            },
+            {
+              "text": "me parece",
+              "kind": "stem"
+            },
+            {
+              "text": "bien",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "To accept: vale, me parece bien or perfecto. To say no politely: lo siento, pero… and say what you'd rather do with prefiero + a verb as in the dictionary.",
+            "it": "Per accettare: vale, me parece bien o perfecto. Per dire di no con gentilezza: lo siento, pero… e di' cosa preferisci con prefiero + un verbo come nel dizionario.",
+            "uk": "Щоб погодитися: vale, me parece bien або perfecto. Щоб ввічливо відмовитися: lo siento, pero… і скажи, що ти волієш зробити, за допомогою prefiero + дієслово у словниковій формі.",
+            "de": "Zum Annehmen: vale, me parece bien oder perfecto. Um höflich abzulehnen: lo siento, pero… und sag mit prefiero + Verb in der Grundform, was du lieber machen würdest.",
+            "fr": "Pour accepter : vale, me parece bien ou perfecto. Pour refuser poliment : lo siento, pero… et dis ce que tu préfères faire avec prefiero + un verbe à l'infinitif.",
+            "pt": "Para aceitar: vale, me parece bien ou perfecto. Para dizer não com educação: lo siento, pero… e diga o que você prefere com prefiero + um verbo como no dicionário.",
+            "zh": "接受：vale，me parece bien 或 perfecto。礼貌地拒绝：lo siento, pero…，再用 prefiero + 动词原形说你更想做什么。"
+          },
+          "examples": [
+            {
+              "es": "El hotel es gratis. Vale, me parece bien.",
+              "en": "The hotel is free. OK, that sounds good.",
+              "it": "L'albergo è gratis. D'accordo, mi va bene.",
+              "uk": "Готель безкоштовний. Гаразд, мене це влаштовує.",
+              "de": "Das Hotel ist kostenlos. Okay, einverstanden.",
+              "fr": "L'hôtel est gratuit. D'accord, ça me va.",
+              "pt": "O hotel é de graça. Tudo bem, me parece bom.",
+              "zh": "酒店是免费的。好的，我觉得可以。"
+            },
+            {
+              "es": "Lo siento, pero prefiero esperar.",
+              "en": "I'm sorry, but I'd rather wait.",
+              "it": "Mi dispiace, ma preferisco aspettare.",
+              "uk": "Вибачте, але я краще почекаю.",
+              "de": "Tut mir leid, aber ich warte lieber.",
+              "fr": "Je suis désolé, mais je préfère attendre.",
+              "pt": "Sinto muito, mas prefiro esperar.",
+              "zh": "不好意思，我还是想等一等。"
+            },
+            {
+              "es": "Prefiero ir en el siguiente vuelo.",
+              "en": "I'd rather go on the next flight.",
+              "it": "Preferisco prendere il volo successivo.",
+              "uk": "Я краще полечу наступним рейсом.",
+              "de": "Ich nehme lieber den nächsten Flug.",
+              "fr": "Je préfère prendre le prochain vol.",
+              "pt": "Prefiro ir no próximo voo.",
+              "zh": "我更想坐下一班飞机。"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "No quiero ir en autobús: ",
+          "after": " esperar el siguiente tren.",
+          "options": [
+            "prefiero",
+            "prefiere",
+            "parece"
+          ],
+          "answer": "prefiero",
+          "en": "I don't want to go by bus: I'd rather wait for the next train.",
+          "it": "Non voglio andare in autobus: preferisco aspettare il treno successivo.",
+          "uk": "Я не хочу їхати автобусом: я краще почекаю наступного потяга.",
+          "de": "Ich will nicht mit dem Bus fahren: Ich warte lieber auf den nächsten Zug.",
+          "fr": "Je ne veux pas y aller en bus : je préfère attendre le prochain train.",
+          "pt": "Não quero ir de ônibus: prefiro esperar o próximo trem.",
+          "zh": "我不想坐公交车去：我宁愿等下一班火车。",
+          "hint": {
+            "en": "What you'd rather do, yo: prefiero + a verb.",
+            "it": "Cosa preferisci, yo: prefiero + un verbo.",
+            "uk": "Що ти волієш зробити, yo: prefiero + дієслово.",
+            "de": "Was du lieber machst, yo: prefiero + ein Verb.",
+            "fr": "Ce que tu préfères faire, yo : prefiero + un verbe.",
+            "pt": "O que você prefere, yo: prefiero + um verbo.",
+            "zh": "你更想做的事，yo：prefiero + 动词原形。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "The airline offers you a free hotel for the night. Accept: OK, that sounds good.",
+            "it": "La compagnia aerea ti offre l'albergo gratis per la notte. Accetta: d'accordo, mi va bene.",
+            "uk": "Авіакомпанія пропонує тобі безкоштовний готель на ніч. Погодься: гаразд, мене це влаштовує.",
+            "de": "Die Fluggesellschaft bietet dir ein kostenloses Hotel für die Nacht an. Nimm an: Okay, einverstanden.",
+            "fr": "La compagnie aérienne te propose un hôtel gratuit pour la nuit. Accepte : d'accord, ça me va.",
+            "pt": "A companhia aérea oferece a você um hotel de graça para passar a noite. Aceite: tudo bem, me parece bom.",
+            "zh": "航空公司给你提供免费酒店住一晚。接受：好的，我觉得可以。"
+          },
+          "accepted": [
+            "Vale, me parece bien.",
+            "Vale, perfecto.",
+            "Perfecto, me parece bien."
+          ],
+          "tiles": [
+            "Vale,",
+            "me",
+            "parece",
+            "bien",
+            "parecen",
+            "mal"
+          ],
+          "en": "OK, that sounds good.",
+          "it": "D'accordo, mi va bene.",
+          "uk": "Гаразд, мене це влаштовує.",
+          "de": "Okay, einverstanden.",
+          "fr": "D'accord, ça me va.",
+          "pt": "Tudo bem, me parece bom.",
+          "zh": "好的，我觉得可以。",
+          "hint": {
+            "en": "Accepting: vale, me parece bien.",
+            "it": "Per accettare: vale, me parece bien.",
+            "uk": "Щоб погодитися: vale, me parece bien.",
+            "de": "Annehmen: vale, me parece bien.",
+            "fr": "Pour accepter : vale, me parece bien.",
+            "pt": "Para aceitar: vale, me parece bien.",
+            "zh": "接受：vale，me parece bien。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "¿Hay ",
+          "after": " vuelo esta noche?",
+          "options": [
+            "otro",
+            "otra",
+            "un otro"
+          ],
+          "answer": "otro",
+          "en": "Is there another flight tonight?",
+          "it": "C'è un altro volo stasera?",
+          "uk": "Сьогодні ввечері є ще один рейс?",
+          "de": "Gibt es heute Abend noch einen Flug?",
+          "fr": "Il y a un autre vol ce soir ?",
+          "pt": "Tem outro voo hoje à noite?",
+          "zh": "今晚还有别的航班吗？",
+          "hint": {
+            "en": "el vuelo: otro, never un otro.",
+            "it": "el vuelo: otro, mai un otro.",
+            "uk": "el vuelo: otro, ніколи не un otro.",
+            "de": "el vuelo: otro, nie un otro.",
+            "fr": "el vuelo : otro, jamais un otro.",
+            "pt": "el vuelo: otro, nunca un otro.",
+            "zh": "el vuelo：otro，千万不要说 un otro。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "mix",
+          "before": "Lo siento, pero ",
+          "after": " ir en el siguiente vuelo.",
+          "label": "preferir",
+          "accepted": [
+            "prefiero"
+          ],
+          "en": "I'm sorry, but I'd rather go on the next flight.",
+          "it": "Mi dispiace, ma preferisco prendere il volo successivo.",
+          "uk": "Вибачте, але я краще полечу наступним рейсом.",
+          "de": "Tut mir leid, aber ich nehme lieber den nächsten Flug.",
+          "fr": "Je suis désolé, mais je préfère prendre le prochain vol.",
+          "pt": "Sinto muito, mas prefiro ir no próximo voo.",
+          "zh": "不好意思，我更想坐下一班飞机。",
+          "hint": {
+            "en": "yo: prefiero, with ie.",
+            "it": "yo: prefiero, con ie.",
+            "uk": "yo: prefiero, з ie.",
+            "de": "yo: prefiero, mit ie.",
+            "fr": "yo : prefiero, avec ie.",
+            "pt": "yo: prefiero, com ie.",
+            "zh": "yo：prefiero，带 ie。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "mix",
+          "intention": {
+            "en": "Your hotel room isn't ready yet. Suggest to the receptionist: what if I leave my suitcase here?",
+            "it": "La tua camera d'albergo non è ancora pronta. Proponi al receptionist: e se lascio qui la valigia?",
+            "uk": "Твій номер у готелі ще не готовий. Запропонуй адміністраторові: а що, як я залишу тут валізу?",
+            "de": "Dein Hotelzimmer ist noch nicht fertig. Schlag an der Rezeption vor, deinen Koffer hier zu lassen: Und wenn ich meinen Koffer hier lasse?",
+            "fr": "Ta chambre d'hôtel n'est pas encore prête. Propose au réceptionniste de laisser ta valise ici.",
+            "pt": "Seu quarto de hotel ainda não está pronto. Proponha ao recepcionista: e se eu deixar minha mala aqui?",
+            "zh": "你的酒店房间还没准备好。向前台提议：要不我把行李箱放在这儿？"
+          },
+          "accepted": [
+            "¿Y si dejo la maleta aquí?",
+            "¿Y si dejo aquí la maleta?"
+          ],
+          "tiles": [
+            "¿Y",
+            "si",
+            "dejo",
+            "la maleta",
+            "aquí?",
+            "dejé",
+            "sí"
+          ],
+          "en": "What if I leave my suitcase here?",
+          "it": "E se lascio qui la valigia?",
+          "uk": "А що, як я залишу тут валізу?",
+          "de": "Und wenn ich meinen Koffer hier lasse?",
+          "fr": "Et si je laisse ma valise ici ?",
+          "pt": "E se eu deixar minha mala aqui?",
+          "zh": "要不我把行李箱放在这儿？",
+          "hint": {
+            "en": "¿y si + the present, yo: dejo.",
+            "it": "¿y si + il presente, yo: dejo.",
+            "uk": "¿y si + теперішній час, yo: dejo.",
+            "de": "¿y si + Präsens, yo: dejo.",
+            "fr": "¿y si + le présent, yo : dejo.",
+            "pt": "¿y si + o presente, yo: dejo.",
+            "zh": "¿y si + 现在时，yo：dejo。"
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "Write in Spanish: «My flight has been cancelled. What options do I have?»",
+            "it": "Scrivi in spagnolo: «Hanno cancellato il mio volo. Che possibilità ho?»",
+            "uk": "Напиши іспанською: «Мій рейс скасували. Які в мене є варіанти?»",
+            "de": "Schreib auf Spanisch: «Mein Flug ist gestrichen worden. Welche Möglichkeiten habe ich?»",
+            "fr": "Écris en espagnol : «Mon vol a été annulé. Quelles options est-ce que j'ai ?»",
+            "pt": "Escreva em espanhol: «Cancelaram meu voo. Que opções eu tenho?»",
+            "zh": "用西班牙语写：«我的航班被取消了。我有哪些选择？»"
+          },
+          "accepted": [
+            "Han cancelado mi vuelo. ¿Qué opciones tengo?",
+            "Me han cancelado el vuelo. ¿Qué opciones tengo?",
+            "Han cancelado el vuelo. ¿Qué opciones tengo?",
+            "Han cancelado mi vuelo. ¿Qué puedo hacer?"
+          ],
+          "model": {
+            "es": "Han cancelado mi vuelo. ¿Qué opciones tengo?",
+            "en": "My flight has been cancelled. What options do I have?",
+            "it": "Hanno cancellato il mio volo. Che possibilità ho?",
+            "uk": "Мій рейс скасували. Які в мене є варіанти?",
+            "de": "Mein Flug ist gestrichen worden. Welche Möglichkeiten habe ich?",
+            "fr": "Mon vol a été annulé. Quelles options est-ce que j'ai ?",
+            "pt": "Cancelaram meu voo. Que opções eu tenho?",
+            "zh": "我的航班被取消了。我有哪些选择？"
+          }
+        }
+      ]
+    }
+  ],
+  "boss": {
+    "id": "u27boss",
+    "goal": {
+      "en": "Last night you flew from Rome to Madrid, and your suitcase never came out. This morning you're back at the airport's lost luggage desk. Explain what happened, describe your suitcase and agree on a solution.",
+      "it": "Ieri sera hai volato da Roma a Madrid e la tua valigia non è mai uscita. Stamattina torni allo sportello bagagli smarriti dell'aeroporto. Spiega cosa è successo, descrivi la valigia e trova una soluzione.",
+      "uk": "Учора ввечері ти летів(-ла) з Рима до Мадрида, і твоя валіза так і не з'явилася на стрічці. Сьогодні вранці ти знову в аеропорту, біля стійки розшуку багажу. Поясни, що сталося, опиши валізу й домовся про рішення.",
+      "de": "Gestern Abend bist du von Rom nach Madrid geflogen, und dein Koffer kam nie heraus. Heute Morgen bist du wieder am Flughafen, am Schalter für verlorenes Gepäck. Erklär, was passiert ist, beschreib deinen Koffer und einigt euch auf eine Lösung.",
+      "fr": "Hier soir, tu as pris l'avion de Rome à Madrid, et ta valise n'est jamais arrivée sur le tapis. Ce matin, tu es de retour au guichet des bagages perdus de l'aéroport. Explique ce qui s'est passé, décris ta valise et mettez-vous d'accord sur une solution.",
+      "pt": "Ontem à noite você voou de Roma para Madri, e sua mala nunca apareceu na esteira. Hoje de manhã você voltou ao balcão de bagagens extraviadas do aeroporto. Explique o que aconteceu, descreva sua mala e combine uma solução.",
+      "zh": "昨天晚上你从罗马飞到马德里，可你的行李箱一直没有出来。今天早上你又来到机场的行李遗失服务台。说明发生了什么，描述你的行李箱，并商量出一个解决办法。"
+    },
+    "target": {
+      "es": "Anoche no llegó mi maleta y, cuando fui a la oficina, ya había cerrado.",
+      "en": "Last night my suitcase didn't arrive, and when I went to the office, it had already closed.",
+      "it": "Ieri sera la mia valigia non è arrivata e, quando sono andato all'ufficio, aveva già chiuso.",
+      "uk": "Учора ввечері моя валіза не прилетіла, а коли я пішов(-шла) до бюро, воно вже зачинилося.",
+      "de": "Gestern Abend ist mein Koffer nicht angekommen, und als ich zum Schalter ging, hatte er schon geschlossen.",
+      "fr": "Hier soir, ma valise n'est pas arrivée et, quand je suis allé au bureau, il avait déjà fermé.",
+      "pt": "Ontem à noite minha mala não chegou e, quando fui ao balcão, ele já tinha fechado.",
+      "zh": "昨天晚上我的行李箱没到，等我去服务处的时候，那里已经关门了。"
+    },
+    "names": [
+      "Roma",
+      "Madrid",
+      "Sevilla"
+    ],
+    "items": [
+      {
+        "type": "words",
+        "words": [
+          {
+            "es": "la cinta",
+            "en": "the baggage belt",
+            "it": "il nastro bagagli",
+            "uk": "багажна стрічка",
+            "de": "das Gepäckband",
+            "fr": "le tapis à bagages",
+            "pt": "a esteira de bagagens",
+            "zh": "行李传送带",
+            "kind": "chunk"
+          },
+          {
+            "es": "el formulario",
+            "en": "the form",
+            "it": "il modulo",
+            "uk": "бланк",
+            "de": "das Formular",
+            "fr": "le formulaire",
+            "pt": "o formulário",
+            "zh": "表格",
+            "kind": "chunk"
+          },
+          {
+            "es": "rellenar",
+            "en": "to fill in",
+            "it": "compilare",
+            "uk": "заповнити",
+            "de": "ausfüllen",
+            "fr": "remplir",
+            "pt": "preencher",
+            "zh": "填写",
+            "kind": "stem"
+          }
+        ]
+      },
+      {
+        "type": "build",
+        "intention": {
+          "en": "The agent asks «Buenos días, ¿qué le pasó?». Say that last night your suitcase didn't arrive.",
+          "it": "L'addetta chiede «Buenos días, ¿qué le pasó?». Rispondi che ieri sera la tua valigia non è arrivata.",
+          "uk": "Працівниця питає «Buenos días, ¿qué le pasó?». Скажи, що вчора ввечері твоя валіза не прилетіла.",
+          "de": "Die Mitarbeiterin fragt «Buenos días, ¿qué le pasó?». Sag, dass dein Koffer gestern Abend nicht angekommen ist.",
+          "fr": "L'agente te demande «Buenos días, ¿qué le pasó?». Dis qu'hier soir ta valise n'est pas arrivée.",
+          "pt": "A atendente pergunta «Buenos días, ¿qué le pasó?». Diga que ontem à noite sua mala não chegou.",
+          "zh": "工作人员问：«Buenos días, ¿qué le pasó?»。说昨天晚上你的行李箱没到。"
+        },
+        "accepted": [
+          "Anoche no llegó mi maleta.",
+          "Anoche mi maleta no llegó."
+        ],
+        "tiles": [
+          "Anoche",
+          "no",
+          "llegó",
+          "mi maleta",
+          "llegué",
+          "ha"
+        ],
+        "en": "Last night my suitcase didn't arrive.",
+        "it": "Ieri sera la mia valigia non è arrivata.",
+        "uk": "Учора ввечері моя валіза не прилетіла.",
+        "de": "Gestern Abend ist mein Koffer nicht angekommen.",
+        "fr": "Hier soir, ma valise n'est pas arrivée.",
+        "pt": "Ontem à noite minha mala não chegou.",
+        "zh": "昨天晚上我的行李箱没到。",
+        "hint": {
+          "en": "anoche is over: llegó.",
+          "it": "anoche è finita: llegó.",
+          "uk": "anoche вже минуло: llegó.",
+          "de": "anoche ist vorbei: llegó.",
+          "fr": "anoche est terminé : llegó.",
+          "pt": "anoche já passou: llegó.",
+          "zh": "anoche 已经过去了：llegó。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "Vine en el vuelo ",
+        "after": " Roma de las diez.",
+        "options": [
+          "de",
+          "en",
+          "a"
+        ],
+        "answer": "de",
+        "en": "I came on the ten o'clock flight from Rome.",
+        "it": "Sono arrivato con il volo delle dieci da Roma.",
+        "uk": "Я прилетів(-ла) рейсом о десятій з Рима.",
+        "de": "Ich bin mit dem Flug um zehn Uhr aus Rom gekommen.",
+        "fr": "Je suis arrivé par le vol de dix heures en provenance de Rome.",
+        "pt": "Vim no voo das dez de Roma.",
+        "zh": "我坐的是从罗马来的十点的航班。",
+        "hint": {
+          "en": "The flight from Rome: el vuelo de Roma.",
+          "it": "Il volo da Roma: el vuelo de Roma.",
+          "uk": "Рейс із Рима: el vuelo de Roma.",
+          "de": "Der Flug aus Rom: el vuelo de Roma.",
+          "fr": "Le vol de Rome : el vuelo de Roma.",
+          "pt": "O voo de Roma: el vuelo de Roma.",
+          "zh": "从罗马来的航班：el vuelo de Roma。"
+        }
+      },
+      {
+        "type": "gap",
+        "before": "Estuve una hora en la cinta, pero la maleta no ",
+        "after": ".",
+        "label": "salir",
+        "accepted": [
+          "salió"
+        ],
+        "en": "I was at the belt for an hour, but the suitcase didn't come out.",
+        "it": "Sono stato un'ora al nastro, ma la valigia non è uscita.",
+        "uk": "Я годину простояв(-ла) біля стрічки, але валіза так і не з'явилася.",
+        "de": "Ich war eine Stunde am Gepäckband, aber der Koffer kam nicht heraus.",
+        "fr": "J'ai attendu une heure devant le tapis, mais la valise n'est pas sortie.",
+        "pt": "Fiquei uma hora na esteira, mas a mala não saiu.",
+        "zh": "我在传送带旁边等了一个小时，可是行李箱一直没出来。",
+        "hint": {
+          "en": "A finished action, la maleta = ella: salió.",
+          "it": "Un'azione conclusa, la maleta = ella: salió.",
+          "uk": "Завершена дія, la maleta = ella: salió.",
+          "de": "Eine abgeschlossene Handlung, la maleta = ella: salió.",
+          "fr": "Une action terminée, la maleta = ella : salió.",
+          "pt": "Uma ação concluída, la maleta = ella: salió.",
+          "zh": "已经完成的动作，la maleta = ella：salió。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "Cuando fui a la oficina, ya ",
+        "after": " cerrado.",
+        "options": [
+          "había",
+          "ha",
+          "habían"
+        ],
+        "answer": "había",
+        "en": "When I went to the office, it had already closed.",
+        "it": "Quando sono andato all'ufficio, aveva già chiuso.",
+        "uk": "Коли я пішов(-шла) до бюро, воно вже зачинилося.",
+        "de": "Als ich zum Schalter ging, hatte er schon geschlossen.",
+        "fr": "Quand je suis allé au bureau, il avait déjà fermé.",
+        "pt": "Quando fui ao balcão, ele já tinha fechado.",
+        "zh": "等我去服务处的时候，那里已经关门了。",
+        "hint": {
+          "en": "It closed before you got there: la oficina había cerrado.",
+          "it": "Ha chiuso prima che arrivassi: la oficina había cerrado.",
+          "uk": "Воно зачинилося до того, як ти туди прийшов(-шла): la oficina había cerrado.",
+          "de": "Er hat geschlossen, bevor du dort ankamst: la oficina había cerrado.",
+          "fr": "Il a fermé avant ton arrivée : la oficina había cerrado.",
+          "pt": "Fechou antes de você chegar: la oficina había cerrado.",
+          "zh": "在你到之前就关门了：la oficina había cerrado。"
+        }
+      },
+      {
+        "type": "build",
+        "intention": {
+          "en": "She asks «¿Cómo es la maleta?». Say it's big and blue.",
+          "it": "Lei chiede «¿Cómo es la maleta?». Rispondi che è grande e blu.",
+          "uk": "Вона питає «¿Cómo es la maleta?». Скажи, що валіза велика й синя.",
+          "de": "Sie fragt «¿Cómo es la maleta?». Sag, dass er groß und blau ist.",
+          "fr": "Elle demande «¿Cómo es la maleta?». Dis qu'elle est grande et bleue.",
+          "pt": "Ela pergunta «¿Cómo es la maleta?». Diga que é grande e azul.",
+          "zh": "她问：«¿Cómo es la maleta?»。说它又大又是蓝色的。"
+        },
+        "accepted": [
+          "Es grande y azul.",
+          "Es azul y grande.",
+          "Es una maleta grande y azul."
+        ],
+        "tiles": [
+          "Es",
+          "grande",
+          "y",
+          "azul",
+          "Está",
+          "roja"
+        ],
+        "en": "It's big and blue.",
+        "it": "È grande e blu.",
+        "uk": "Вона велика й синя.",
+        "de": "Er ist groß und blau.",
+        "fr": "Elle est grande et bleue.",
+        "pt": "É grande e azul.",
+        "zh": "它又大又是蓝色的。",
+        "hint": {
+          "en": "What it's like: ser, es.",
+          "it": "Com'è: ser, es.",
+          "uk": "Яка вона: ser, es.",
+          "de": "Wie er ist: ser, es.",
+          "fr": "Comment elle est : ser, es.",
+          "pt": "Como ela é: ser, es.",
+          "zh": "说它是什么样的：ser，es。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "No tengo la tarjeta de embarque: se me ",
+        "after": " en el avión.",
+        "options": [
+          "olvidó",
+          "olvidé",
+          "olvidaron"
+        ],
+        "answer": "olvidó",
+        "en": "I don't have my boarding pass: I left it on the plane.",
+        "it": "Non ho la carta d'imbarco: l'ho dimenticata in aereo.",
+        "uk": "У мене немає посадкового талона: я забув(-ла) його в літаку.",
+        "de": "Ich habe meine Bordkarte nicht: Ich habe sie im Flugzeug liegen lassen.",
+        "fr": "Je n'ai pas ma carte d'embarquement : je l'ai oubliée dans l'avion.",
+        "pt": "Não estou com meu cartão de embarque: esqueci no avião.",
+        "zh": "我没有登机牌：我把它忘在飞机上了。",
+        "hint": {
+          "en": "One thing, la tarjeta: se me olvidó.",
+          "it": "Una cosa, la tarjeta: se me olvidó.",
+          "uk": "Одна річ, la tarjeta: se me olvidó.",
+          "de": "Eine Sache, la tarjeta: se me olvidó.",
+          "fr": "Une seule chose, la tarjeta : se me olvidó.",
+          "pt": "Uma coisa só, la tarjeta: se me olvidó.",
+          "zh": "一样东西，la tarjeta：se me olvidó。"
+        }
+      },
+      {
+        "type": "gap",
+        "before": "Vale, pero ¿me ",
+        "after": " ayudar a rellenar el formulario, por favor?",
+        "label": "poder",
+        "accepted": [
+          "podría",
+          "puede"
+        ],
+        "en": "OK, but could you help me fill in the form, please?",
+        "it": "Va bene, ma potrebbe aiutarmi a compilare il modulo, per favore?",
+        "uk": "Гаразд, але ви не могли б допомогти мені заповнити бланк, будь ласка?",
+        "de": "Gut, aber könnten Sie mir bitte helfen, das Formular auszufüllen?",
+        "fr": "D'accord, mais vous pourriez m'aider à remplir le formulaire, s'il vous plaît ?",
+        "pt": "Tudo bem, mas a senhora poderia me ajudar a preencher o formulário, por favor?",
+        "zh": "好的，不过您能帮我填一下表格吗？",
+        "hint": {
+          "en": "Polite, with usted: ¿me podría…?",
+          "it": "Gentile, con usted: ¿me podría…?",
+          "uk": "Увічливо, з usted: ¿me podría…?",
+          "de": "Höflich, mit usted: ¿me podría…?",
+          "fr": "Poli, avec usted : ¿me podría…?",
+          "pt": "Com educação, com usted: ¿me podría…?",
+          "zh": "礼貌，用 usted：¿me podría…?"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "¿Me podría decir ",
+        "after": " escribo mi dirección?",
+        "options": [
+          "dónde",
+          "qué",
+          "cuándo"
+        ],
+        "answer": "dónde",
+        "en": "Could you tell me where I write my address?",
+        "it": "Potrebbe dirmi dove scrivo il mio indirizzo?",
+        "uk": "Ви не могли б сказати, де мені написати адресу?",
+        "de": "Könnten Sie mir sagen, wo ich meine Adresse hinschreibe?",
+        "fr": "Vous pourriez me dire où j'écris mon adresse ?",
+        "pt": "A senhora poderia me dizer onde escrevo meu endereço?",
+        "zh": "您能告诉我地址写在哪儿吗？",
+        "hint": {
+          "en": "Asking for a place on the form: dónde.",
+          "it": "Chiedi un punto del modulo: dónde.",
+          "uk": "Питаєш про місце в бланку: dónde.",
+          "de": "Du fragst nach einer Stelle im Formular: dónde.",
+          "fr": "On demande un endroit sur le formulaire : dónde.",
+          "pt": "Você pergunta por um lugar no formulário: dónde.",
+          "zh": "问表格上的位置：dónde。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "La maleta llega mañana, pero mañana me voy a Sevilla. ¿Qué ",
+        "after": " tengo?",
+        "options": [
+          "opciones",
+          "opción"
+        ],
+        "answer": "opciones",
+        "en": "The suitcase arrives tomorrow, but tomorrow I'm going to Seville. What options do I have?",
+        "it": "La valigia arriva domani, ma domani vado a Siviglia. Che possibilità ho?",
+        "uk": "Валіза прибуде завтра, але завтра я їду до Севільї. Які в мене є варіанти?",
+        "de": "Der Koffer kommt morgen an, aber morgen fahre ich nach Sevilla. Welche Möglichkeiten habe ich?",
+        "fr": "La valise arrive demain, mais demain je vais à Séville. Quelles options est-ce que j'ai ?",
+        "pt": "A mala chega amanhã, mas amanhã eu vou para Sevilha. Que opções eu tenho?",
+        "zh": "行李箱明天到，可是我明天要去塞维利亚。我有哪些选择？",
+        "hint": {
+          "en": "Several possibilities: opciones.",
+          "it": "Più possibilità: opciones.",
+          "uk": "Кілька можливостей: opciones.",
+          "de": "Mehrere Möglichkeiten: opciones.",
+          "fr": "Plusieurs possibilités : opciones.",
+          "pt": "Várias possibilidades: opciones.",
+          "zh": "几种可能：opciones。"
+        }
+      },
+      {
+        "type": "build",
+        "intention": {
+          "en": "Suggest a solution: what if they send it to me in Seville?",
+          "it": "Proponi una soluzione: e se me la mandano a Siviglia?",
+          "uk": "Запропонуй рішення: а що, як вони надішлють її тобі в Севілью?",
+          "de": "Schlag eine Lösung vor: Und wenn sie ihn dir nach Sevilla schicken?",
+          "fr": "Propose une solution : qu'ils t'envoient la valise à Séville.",
+          "pt": "Proponha uma solução: e se eles mandarem a mala para você em Sevilha?",
+          "zh": "提出一个办法：让他们把行李箱寄到塞维利亚给你，怎么样？"
+        },
+        "accepted": [
+          "¿Y si me la mandan a Sevilla?",
+          "¿Y si la mandan a Sevilla?"
+        ],
+        "tiles": [
+          "¿Y",
+          "si",
+          "me",
+          "la",
+          "mandan",
+          "a Sevilla?",
+          "sí",
+          "lo"
+        ],
+        "en": "What if you send it to me in Seville?",
+        "it": "E se me la mandate a Siviglia?",
+        "uk": "А що, як ви надішлете її мені в Севілью?",
+        "de": "Und wenn Sie ihn mir nach Sevilla schicken?",
+        "fr": "Et si vous me l'envoyez à Séville ?",
+        "pt": "E se vocês a mandarem para mim em Sevilha?",
+        "zh": "你们把它寄到塞维利亚给我，怎么样？",
+        "hint": {
+          "en": "¿y si + the present; me la: it (la maleta) to me.",
+          "it": "¿y si + il presente; me la: lei (la maleta) a me.",
+          "uk": "¿y si + теперішній час; me la: її (la maleta) мені.",
+          "de": "¿y si + Präsens; me la: ihn (la maleta) mir.",
+          "fr": "¿y si + le présent ; me la : la (la maleta) à moi.",
+          "pt": "¿y si + o presente; me la: ela (la maleta) para mim.",
+          "zh": "¿y si + 现在时；me la：把它（la maleta）给我。"
+        }
+      },
+      {
+        "type": "build",
+        "intention": {
+          "en": "She says «Vale, se la mandamos gratis». Say: perfect, that sounds good.",
+          "it": "Lei dice «Vale, se la mandamos gratis». Rispondi: perfetto, mi va bene.",
+          "uk": "Вона каже «Vale, se la mandamos gratis». Відповідай: чудово, мене це влаштовує.",
+          "de": "Sie sagt «Vale, se la mandamos gratis». Sag: Perfekt, einverstanden.",
+          "fr": "Elle dit «Vale, se la mandamos gratis». Réponds : parfait, ça me va.",
+          "pt": "Ela diz «Vale, se la mandamos gratis». Responda: perfeito, me parece bom.",
+          "zh": "她说：«Vale, se la mandamos gratis»。回答：太好了，我觉得可以。"
+        },
+        "accepted": [
+          "Perfecto, me parece bien.",
+          "Vale, me parece bien.",
+          "Perfecto, muchas gracias."
+        ],
+        "tiles": [
+          "Perfecto,",
+          "me",
+          "parece",
+          "bien",
+          "parecen",
+          "mal"
+        ],
+        "en": "Perfect, that sounds good.",
+        "it": "Perfetto, mi va bene.",
+        "uk": "Чудово, мене це влаштовує.",
+        "de": "Perfekt, einverstanden.",
+        "fr": "Parfait, ça me va.",
+        "pt": "Perfeito, me parece bom.",
+        "zh": "太好了，我觉得可以。",
+        "hint": {
+          "en": "Accepting: me parece bien.",
+          "it": "Per accettare: me parece bien.",
+          "uk": "Щоб погодитися: me parece bien.",
+          "de": "Annehmen: me parece bien.",
+          "fr": "Pour accepter : me parece bien.",
+          "pt": "Para aceitar: me parece bien.",
+          "zh": "接受：me parece bien。"
+        }
+      },
+      {
+        "type": "write",
+        "instruction": {
+          "en": "A friend calls to ask about your trip. Write in Spanish: «Last night my suitcase didn't arrive, and when I went to the office, it had already closed.»",
+          "it": "Un amico ti chiama per chiederti del viaggio. Scrivi in spagnolo: «Ieri sera la mia valigia non è arrivata e, quando sono andato all'ufficio, aveva già chiuso.»",
+          "uk": "Друг дзвонить і питає про твою поїздку. Напиши іспанською: «Учора ввечері моя валіза не прилетіла, а коли я пішов(-шла) до бюро, воно вже зачинилося.»",
+          "de": "Ein Freund ruft an und fragt nach deiner Reise. Schreib auf Spanisch: «Gestern Abend ist mein Koffer nicht angekommen, und als ich zum Schalter ging, hatte er schon geschlossen.»",
+          "fr": "Un ami t'appelle pour te demander comment s'est passé ton voyage. Écris en espagnol : «Hier soir, ma valise n'est pas arrivée et, quand je suis allé au bureau, il avait déjà fermé.»",
+          "pt": "Um amigo liga para perguntar da sua viagem. Escreva em espanhol: «Ontem à noite minha mala não chegou e, quando fui ao balcão, ele já tinha fechado.»",
+          "zh": "朋友打电话问你旅行怎么样。用西班牙语写：«昨天晚上我的行李箱没到，等我去服务处的时候，那里已经关门了。»"
+        },
+        "accepted": [
+          "Anoche no llegó mi maleta y, cuando fui a la oficina, ya había cerrado.",
+          "Anoche mi maleta no llegó y, cuando fui a la oficina, ya había cerrado.",
+          "Anoche no llegó mi maleta y cuando fui a la oficina ya había cerrado.",
+          "Anoche no llegó mi maleta y, cuando fui a la oficina, la oficina ya había cerrado."
+        ],
+        "model": {
+          "es": "Anoche no llegó mi maleta y, cuando fui a la oficina, ya había cerrado.",
+          "en": "Last night my suitcase didn't arrive, and when I went to the office, it had already closed.",
+          "it": "Ieri sera la mia valigia non è arrivata e, quando sono andato all'ufficio, aveva già chiuso.",
+          "uk": "Учора ввечері моя валіза не прилетіла, а коли я пішов(-шла) до бюро, воно вже зачинилося.",
+          "de": "Gestern Abend ist mein Koffer nicht angekommen, und als ich zum Schalter ging, hatte er schon geschlossen.",
+          "fr": "Hier soir, ma valise n'est pas arrivée et, quand je suis allé au bureau, il avait déjà fermé.",
+          "pt": "Ontem à noite minha mala não chegou e, quando fui ao balcão, ele já tinha fechado.",
+          "zh": "昨天晚上我的行李箱没到，等我去服务处的时候，那里已经关门了。"
+        }
+      }
+    ]
+  }
+}

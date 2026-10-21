@@ -1,0 +1,3717 @@
+{
+  "unit": "u28",
+  "lessons": [
+    {
+      "id": "u28l1",
+      "goal": {
+        "en": "Describe a festival: when it's celebrated, what people do and what it's like.",
+        "it": "Descrivi una festa: quando si celebra, cosa fa la gente e com'è.",
+        "uk": "Опиши свято: коли його святкують, що роблять люди і яке воно.",
+        "de": "Beschreib ein Fest: wann es gefeiert wird, was die Leute machen und wie es ist.",
+        "fr": "Décrire une fête : quand elle a lieu, ce que les gens font et comment elle est.",
+        "pt": "Descreva uma festa: quando é comemorada, o que as pessoas fazem e como ela é.",
+        "zh": "介绍一个节日：什么时候庆祝，人们做什么，节日是什么样的。"
+      },
+      "target": {
+        "es": "En Nochevieja se comen doce uvas a medianoche.",
+        "en": "On New Year's Eve people eat twelve grapes at midnight.",
+        "it": "A Capodanno si mangiano dodici chicchi d'uva a mezzanotte.",
+        "uk": "У новорічну ніч опівночі їдять дванадцять виноградин.",
+        "de": "An Silvester isst man um Mitternacht zwölf Weintrauben.",
+        "fr": "Le soir du 31 décembre, on mange douze grains de raisin à minuit.",
+        "pt": "No Réveillon, as pessoas comem doze uvas à meia-noite.",
+        "zh": "在跨年夜，人们午夜十二点吃十二颗葡萄。"
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "la Navidad",
+              "en": "Christmas",
+              "it": "il Natale",
+              "uk": "Різдво",
+              "de": "Weihnachten",
+              "fr": "Noël",
+              "pt": "o Natal",
+              "zh": "圣诞节",
+              "kind": "chunk"
+            },
+            {
+              "es": "la Nochevieja",
+              "en": "New Year's Eve",
+              "it": "la notte di San Silvestro, Capodanno",
+              "uk": "новорічна ніч (31 грудня)",
+              "de": "Silvester",
+              "fr": "le réveillon du Nouvel An, la Saint-Sylvestre",
+              "pt": "a véspera de Ano-Novo, o Réveillon",
+              "zh": "跨年夜（12月31日晚上）",
+              "kind": "chunk"
+            },
+            {
+              "es": "las uvas",
+              "en": "the grapes",
+              "it": "l'uva, i chicchi d'uva",
+              "uk": "виноград, виноградини",
+              "de": "die Weintrauben",
+              "fr": "les grains de raisin",
+              "pt": "as uvas",
+              "zh": "葡萄",
+              "kind": "chunk"
+            },
+            {
+              "es": "a medianoche",
+              "en": "at midnight",
+              "it": "a mezzanotte",
+              "uk": "опівночі",
+              "de": "um Mitternacht",
+              "fr": "à minuit",
+              "pt": "à meia-noite",
+              "zh": "在午夜",
+              "kind": "time"
+            }
+          ]
+        },
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "celebrar",
+              "en": "to celebrate",
+              "it": "festeggiare, celebrare",
+              "uk": "святкувати",
+              "de": "feiern",
+              "fr": "fêter, célébrer",
+              "pt": "comemorar, celebrar",
+              "zh": "庆祝",
+              "kind": "stem"
+            },
+            {
+              "es": "la tradición",
+              "en": "the tradition",
+              "it": "la tradizione",
+              "uk": "традиція",
+              "de": "die Tradition",
+              "fr": "la tradition",
+              "pt": "a tradição",
+              "zh": "传统",
+              "kind": "chunk"
+            },
+            {
+              "es": "los Reyes Magos",
+              "en": "the Three Kings",
+              "it": "i Re Magi",
+              "uk": "волхви, Три королі",
+              "de": "die Heiligen Drei Könige",
+              "fr": "les Rois mages",
+              "pt": "os Reis Magos",
+              "zh": "三王（东方三博士）",
+              "kind": "chunk"
+            },
+            {
+              "es": "durar",
+              "en": "to last",
+              "it": "durare",
+              "uk": "тривати",
+              "de": "dauern",
+              "fr": "durer",
+              "pt": "durar",
+              "zh": "持续",
+              "kind": "stem"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "la Navidad",
+              "kind": "chunk"
+            },
+            {
+              "text": "se celebra",
+              "kind": "stem"
+            },
+            {
+              "text": "en diciembre",
+              "kind": "time"
+            }
+          ],
+          "rule": {
+            "en": "To say when a festival is, use se celebra (it is celebrated) + the date or the season. For more than one: se celebran.",
+            "it": "Per dire quando c'è una festa, usa se celebra (si festeggia) + la data o la stagione. Per più di una: se celebran.",
+            "uk": "Щоб сказати, коли свято, вживай se celebra (святкується) + дату або пору року. Якщо свят кілька: se celebran.",
+            "de": "Um zu sagen, wann ein Fest ist, nimm se celebra (wird gefeiert) + das Datum oder die Jahreszeit. Bei mehreren: se celebran.",
+            "fr": "Pour dire quand une fête a lieu, utilise se celebra (elle est célébrée, on la fête) + la date ou la saison. Pour plusieurs : se celebran.",
+            "pt": "Para dizer quando é uma festa, use se celebra (comemora-se) + a data ou a estação. Para mais de uma: se celebran.",
+            "zh": "说节日在什么时候，用 se celebra（被庆祝）+ 日期或季节。不止一个时：se celebran。"
+          },
+          "examples": [
+            {
+              "es": "La Navidad se celebra en diciembre.",
+              "en": "Christmas is celebrated in December.",
+              "it": "Il Natale si festeggia a dicembre.",
+              "uk": "Різдво святкують у грудні.",
+              "de": "Weihnachten wird im Dezember gefeiert.",
+              "fr": "Noël se fête en décembre.",
+              "pt": "O Natal é comemorado em dezembro.",
+              "zh": "圣诞节在十二月庆祝。"
+            },
+            {
+              "es": "Los Reyes Magos se celebran el 6 de enero.",
+              "en": "The Three Kings are celebrated on 6 January.",
+              "it": "I Re Magi si festeggiano il 6 gennaio.",
+              "uk": "Свято волхвів відзначають 6 січня.",
+              "de": "Die Heiligen Drei Könige werden am 6. Januar gefeiert.",
+              "fr": "Les Rois mages se fêtent le 6 janvier.",
+              "pt": "O Dia de Reis é comemorado em 6 de janeiro.",
+              "zh": "三王节在1月6日庆祝。"
+            },
+            {
+              "es": "En mi pueblo, las fiestas se celebran en verano.",
+              "en": "In my town, the festival is held in summer.",
+              "it": "Nel mio paese, la festa patronale si fa d'estate.",
+              "uk": "У моєму містечку свято відзначають улітку.",
+              "de": "In meinem Ort wird das Fest im Sommer gefeiert.",
+              "fr": "Dans mon village, la fête a lieu en été.",
+              "pt": "Na minha cidade, a festa é no verão.",
+              "zh": "在我们镇上，节庆在夏天举行。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "celebra",
+              "en": "celebrates; (with se) is celebrated",
+              "it": "festeggia; (con se) si festeggia",
+              "uk": "святкує; (із se) святкується",
+              "de": "feiert; (mit se) wird gefeiert",
+              "fr": "fête, célèbre ; (avec se) se fête",
+              "pt": "comemora; (com se) é comemorado",
+              "zh": "庆祝；（和 se 一起用）被庆祝"
+            },
+            {
+              "es": "celebran",
+              "en": "celebrate; (with se) are celebrated",
+              "it": "festeggiano; (con se) si festeggiano",
+              "uk": "святкують; (із se) святкуються",
+              "de": "feiern; (mit se) werden gefeiert",
+              "fr": "fêtent, célèbrent ; (avec se) se fêtent",
+              "pt": "comemoram; (com se) são comemorados",
+              "zh": "庆祝（他们）；（和 se 一起用）被庆祝（复数）"
+            },
+            {
+              "es": "celebramos",
+              "en": "we celebrate",
+              "it": "festeggiamo",
+              "uk": "ми святкуємо",
+              "de": "wir feiern",
+              "fr": "nous fêtons",
+              "pt": "nós comemoramos",
+              "zh": "我们庆祝"
+            },
+            {
+              "es": "diciembre",
+              "en": "December",
+              "it": "dicembre",
+              "uk": "грудень",
+              "de": "Dezember",
+              "fr": "décembre",
+              "pt": "dezembro",
+              "zh": "十二月"
+            },
+            {
+              "es": "enero",
+              "en": "January",
+              "it": "gennaio",
+              "uk": "січень",
+              "de": "Januar",
+              "fr": "janvier",
+              "pt": "janeiro",
+              "zh": "一月"
+            },
+            {
+              "es": "las fiestas",
+              "en": "the festival (of a town), the festivities",
+              "it": "la festa (del paese), i festeggiamenti",
+              "uk": "свято (міста чи містечка), гуляння",
+              "de": "das Fest (eines Ortes), die Festtage",
+              "fr": "la fête (d'une ville ou d'un village), les festivités",
+              "pt": "a festa (da cidade), os festejos",
+              "zh": "（小镇的）节庆，庆祝活动"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "En España la Nochevieja se ",
+          "after": " el 31 de diciembre.",
+          "options": [
+            "celebra",
+            "celebran"
+          ],
+          "answer": "celebra",
+          "en": "In Spain New Year's Eve is celebrated on 31 December.",
+          "it": "In Spagna San Silvestro si festeggia il 31 dicembre.",
+          "uk": "В Іспанії новорічну ніч святкують 31 грудня.",
+          "de": "In Spanien wird Silvester am 31. Dezember gefeiert.",
+          "fr": "En Espagne, le réveillon du Nouvel An se fête le 31 décembre.",
+          "pt": "Na Espanha, o Réveillon é comemorado em 31 de dezembro.",
+          "zh": "在西班牙，跨年夜在12月31日庆祝。",
+          "hint": {
+            "en": "One festival, la Nochevieja: se celebra.",
+            "it": "Una festa, la Nochevieja: se celebra.",
+            "uk": "Одне свято, la Nochevieja: se celebra.",
+            "de": "Ein Fest, la Nochevieja: se celebra.",
+            "fr": "Une seule fête, la Nochevieja : se celebra.",
+            "pt": "Uma festa só, la Nochevieja: se celebra.",
+            "zh": "一个节日，la Nochevieja：se celebra。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "fire",
+          "before": "Los Reyes Magos se ",
+          "after": " el 6 de enero.",
+          "label": "celebrar",
+          "accepted": [
+            "celebran"
+          ],
+          "en": "The Three Kings are celebrated on 6 January.",
+          "it": "I Re Magi si festeggiano il 6 gennaio.",
+          "uk": "Свято волхвів відзначають 6 січня.",
+          "de": "Die Heiligen Drei Könige werden am 6. Januar gefeiert.",
+          "fr": "Les Rois mages se fêtent le 6 janvier.",
+          "pt": "O Dia de Reis é comemorado em 6 de janeiro.",
+          "zh": "三王节在1月6日庆祝。",
+          "hint": {
+            "en": "los Reyes Magos is plural: se celebran.",
+            "it": "los Reyes Magos è plurale: se celebran.",
+            "uk": "los Reyes Magos — множина: se celebran.",
+            "de": "los Reyes Magos ist Plural: se celebran.",
+            "fr": "los Reyes Magos est au pluriel : se celebran.",
+            "pt": "los Reyes Magos é plural: se celebran.",
+            "zh": "los Reyes Magos 是复数：se celebran。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "se",
+              "kind": "ending"
+            },
+            {
+              "text": "comen",
+              "kind": "stem"
+            },
+            {
+              "text": "doce uvas",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "To say what people do at a festival, use se + the él form (se baila, se cena) or la gente + the él form. If a plural thing follows, the verb is plural: se comen doce uvas.",
+            "it": "Per dire cosa si fa a una festa, usa se + la forma di él (se baila, se cena) o la gente + la forma di él. Se segue una cosa al plurale, il verbo va al plurale: se comen doce uvas.",
+            "uk": "Щоб сказати, що роблять люди на святі, вживай se + форму él (se baila, se cena) або la gente + форму él. Якщо далі йде щось у множині, дієслово теж стоїть у множині: se comen doce uvas.",
+            "de": "Um zu sagen, was man bei einem Fest macht, nimm se + die él-Form (se baila, se cena) oder la gente + die él-Form – wie im Deutschen 'man tanzt'. Folgt eine Sache im Plural, steht das Verb im Plural: se comen doce uvas.",
+            "fr": "Pour dire ce que les gens font pendant une fête, utilise se + la forme de él (se baila, se cena), ou la gente + la forme de él. Si une chose au pluriel suit, le verbe est au pluriel : se comen doce uvas. C'est comme le « on » du français.",
+            "pt": "Para dizer o que as pessoas fazem numa festa, use se + a forma de él (se baila, se cena) ou la gente + a forma de él. Se depois vem uma coisa no plural, o verbo vai para o plural: se comen doce uvas.",
+            "zh": "说人们在节日里做什么，用 se + él 的形式（se baila，se cena），或 la gente + él 的形式。如果后面跟着复数的东西，动词用复数：se comen doce uvas。"
+          },
+          "examples": [
+            {
+              "es": "En Nochevieja se comen doce uvas a medianoche.",
+              "en": "On New Year's Eve people eat twelve grapes at midnight.",
+              "it": "A Capodanno si mangiano dodici chicchi d'uva a mezzanotte.",
+              "uk": "У новорічну ніч опівночі їдять дванадцять виноградин.",
+              "de": "An Silvester isst man um Mitternacht zwölf Weintrauben.",
+              "fr": "Le soir du 31 décembre, on mange douze grains de raisin à minuit.",
+              "pt": "No Réveillon, as pessoas comem doze uvas à meia-noite.",
+              "zh": "在跨年夜，人们午夜十二点吃十二颗葡萄。"
+            },
+            {
+              "es": "En las fiestas de mi pueblo la gente baila en la calle.",
+              "en": "At my town's festival people dance in the street.",
+              "it": "Alla festa del mio paese la gente balla per strada.",
+              "uk": "На святі в моєму містечку люди танцюють на вулиці.",
+              "de": "Beim Fest in meinem Ort tanzen die Leute auf der Straße.",
+              "fr": "À la fête de mon village, les gens dansent dans la rue.",
+              "pt": "Na festa da minha cidade, as pessoas dançam na rua.",
+              "zh": "在我们镇的节庆上，人们在街上跳舞。"
+            },
+            {
+              "es": "En Navidad se cena con la familia.",
+              "en": "At Christmas people have dinner with their family.",
+              "it": "A Natale si cena in famiglia.",
+              "uk": "На Різдво вечеряють у колі родини.",
+              "de": "An Weihnachten isst man mit der Familie zu Abend.",
+              "fr": "À Noël, on dîne en famille.",
+              "pt": "No Natal, as pessoas jantam com a família.",
+              "zh": "圣诞节人们和家人一起吃晚饭。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "regalos",
+              "en": "presents",
+              "it": "regali",
+              "uk": "подарунки",
+              "de": "Geschenke",
+              "fr": "cadeaux",
+              "pt": "presentes",
+              "zh": "礼物（复数）"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "En Nochevieja se ",
+          "after": " doce uvas.",
+          "options": [
+            "comen",
+            "come"
+          ],
+          "answer": "comen",
+          "en": "On New Year's Eve people eat twelve grapes.",
+          "it": "A Capodanno si mangiano dodici chicchi d'uva.",
+          "uk": "У новорічну ніч їдять дванадцять виноградин.",
+          "de": "An Silvester isst man zwölf Weintrauben.",
+          "fr": "Le soir du 31 décembre, on mange douze grains de raisin.",
+          "pt": "No Réveillon, as pessoas comem doze uvas.",
+          "zh": "在跨年夜，人们吃十二颗葡萄。",
+          "hint": {
+            "en": "doce uvas is plural: se comen.",
+            "it": "doce uvas è plurale: se comen.",
+            "uk": "doce uvas — множина: se comen.",
+            "de": "doce uvas ist Plural: se comen.",
+            "fr": "doce uvas est au pluriel : se comen.",
+            "pt": "doce uvas é plural: se comen.",
+            "zh": "doce uvas 是复数：se comen。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "Tell a visitor that at your town's festival, people dance in the street.",
+            "it": "Racconta a un visitatore che alla festa del tuo paese la gente balla per strada.",
+            "uk": "Розкажи гостеві, що на святі у твоєму містечку люди танцюють на вулиці.",
+            "de": "Erzähl einem Besucher, dass die Leute beim Fest in deinem Ort auf der Straße tanzen.",
+            "fr": "Dis à un visiteur qu'à la fête de ton village, les gens dansent dans la rue.",
+            "pt": "Conte a um visitante que, na festa da sua cidade, as pessoas dançam na rua.",
+            "zh": "告诉一位游客，在你们镇的节庆上，人们在街上跳舞。"
+          },
+          "accepted": [
+            "En las fiestas de mi pueblo la gente baila en la calle.",
+            "En las fiestas de mi pueblo, la gente baila en la calle.",
+            "En las fiestas de mi pueblo se baila en la calle."
+          ],
+          "tiles": [
+            "En las fiestas",
+            "de mi pueblo",
+            "la gente",
+            "baila",
+            "en la calle",
+            "bailan",
+            "se"
+          ],
+          "en": "At my town's festival people dance in the street.",
+          "it": "Alla festa del mio paese la gente balla per strada.",
+          "uk": "На святі в моєму містечку люди танцюють на вулиці.",
+          "de": "Beim Fest in meinem Ort tanzen die Leute auf der Straße.",
+          "fr": "À la fête de mon village, les gens dansent dans la rue.",
+          "pt": "Na festa da minha cidade, as pessoas dançam na rua.",
+          "zh": "在我们镇的节庆上，人们在街上跳舞。",
+          "hint": {
+            "en": "la gente is singular in Spanish: baila.",
+            "it": "la gente in spagnolo è singolare: baila.",
+            "uk": "la gente в іспанській — однина: baila.",
+            "de": "la gente ist im Spanischen Singular: baila.",
+            "fr": "la gente est au singulier en espagnol : baila.",
+            "pt": "la gente é singular em espanhol (quer dizer as pessoas): baila.",
+            "zh": "la gente 在西班牙语里是单数：baila。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "dura",
+              "kind": "stem"
+            },
+            {
+              "text": "una semana",
+              "kind": "time"
+            }
+          ],
+          "rule": {
+            "en": "To say what a festival is like: es + an adjective (es muy divertida), hay + what there is (hay música) and dura + how long it lasts (dura una semana).",
+            "it": "Per dire com'è una festa: es + un aggettivo (es muy divertida), hay + quello che c'è (hay música) e dura + quanto tempo dura (dura una semana).",
+            "uk": "Щоб сказати, яке свято: es + прикметник (es muy divertida), hay + те, що там є (hay música), і dura + скільки воно триває (dura una semana).",
+            "de": "Um zu sagen, wie ein Fest ist: es + ein Adjektiv (es muy divertida), hay + was es gibt (hay música) und dura + wie lange es dauert (dura una semana).",
+            "fr": "Pour dire comment est une fête : es + un adjectif (es muy divertida), hay + ce qu'il y a (hay música) et dura + combien de temps elle dure (dura una semana).",
+            "pt": "Para dizer como é uma festa: es + um adjetivo (es muy divertida), hay + o que tem (hay música) e dura + quanto tempo dura (dura una semana).",
+            "zh": "说节日是什么样的：es + 形容词（es muy divertida），hay + 有什么（hay música），dura + 持续多久（dura una semana）。"
+          },
+          "examples": [
+            {
+              "es": "La fiesta dura una semana.",
+              "en": "The festival lasts a week.",
+              "it": "La festa dura una settimana.",
+              "uk": "Свято триває тиждень.",
+              "de": "Das Fest dauert eine Woche.",
+              "fr": "La fête dure une semaine.",
+              "pt": "A festa dura uma semana.",
+              "zh": "节日持续一个星期。"
+            },
+            {
+              "es": "Hay música y mucha gente en la calle.",
+              "en": "There's music and there are lots of people in the street.",
+              "it": "C'è musica e c'è tanta gente per strada.",
+              "uk": "Звучить музика, і на вулиці багато людей.",
+              "de": "Es gibt Musik und viele Leute auf der Straße.",
+              "fr": "Il y a de la musique et beaucoup de monde dans la rue.",
+              "pt": "Tem música e muita gente na rua.",
+              "zh": "有音乐，街上还有很多人。"
+            },
+            {
+              "es": "Es una tradición muy bonita.",
+              "en": "It's a very beautiful tradition.",
+              "it": "È una tradizione molto bella.",
+              "uk": "Це дуже гарна традиція.",
+              "de": "Es ist eine sehr schöne Tradition.",
+              "fr": "C'est une très belle tradition.",
+              "pt": "É uma tradição muito bonita.",
+              "zh": "这是一个非常美好的传统。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "dura",
+              "en": "lasts",
+              "it": "dura",
+              "uk": "триває",
+              "de": "dauert",
+              "fr": "dure",
+              "pt": "dura",
+              "zh": "持续（单数）"
+            },
+            {
+              "es": "duran",
+              "en": "last",
+              "it": "durano",
+              "uk": "тривають",
+              "de": "dauern",
+              "fr": "durent",
+              "pt": "duram",
+              "zh": "持续（复数）"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "La fiesta de mi pueblo ",
+          "after": " tres días.",
+          "options": [
+            "dura",
+            "es",
+            "hay"
+          ],
+          "answer": "dura",
+          "en": "My town's festival lasts three days.",
+          "it": "La festa del mio paese dura tre giorni.",
+          "uk": "Свято в моєму містечку триває три дні.",
+          "de": "Das Fest in meinem Ort dauert drei Tage.",
+          "fr": "La fête de mon village dure trois jours.",
+          "pt": "A festa da minha cidade dura três dias.",
+          "zh": "我们镇的节庆持续三天。",
+          "hint": {
+            "en": "How long it lasts: dura.",
+            "it": "Quanto dura: dura.",
+            "uk": "Скільки триває: dura.",
+            "de": "Wie lange es dauert: dura.",
+            "fr": "Combien de temps elle dure : dura.",
+            "pt": "Quanto tempo dura: dura.",
+            "zh": "持续多久：dura。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "Describe a festival: it lasts a week and there's music in the street.",
+            "it": "Descrivi una festa: dura una settimana e c'è musica per strada.",
+            "uk": "Опиши свято: воно триває тиждень, і на вулиці звучить музика.",
+            "de": "Beschreib ein Fest: Es dauert eine Woche und es gibt Musik auf der Straße.",
+            "fr": "Décris une fête : elle dure une semaine et il y a de la musique dans la rue.",
+            "pt": "Descreva uma festa: dura uma semana e tem música na rua.",
+            "zh": "介绍一个节日：它持续一个星期，街上有音乐。"
+          },
+          "accepted": [
+            "Dura una semana y hay música en la calle."
+          ],
+          "tiles": [
+            "Dura",
+            "una semana",
+            "y",
+            "hay",
+            "música",
+            "en la calle",
+            "es",
+            "está"
+          ],
+          "en": "It lasts a week and there's music in the street.",
+          "it": "Dura una settimana e c'è musica per strada.",
+          "uk": "Воно триває тиждень, і на вулиці звучить музика.",
+          "de": "Es dauert eine Woche und es gibt Musik auf der Straße.",
+          "fr": "Elle dure une semaine et il y a de la musique dans la rue.",
+          "pt": "Dura uma semana e tem música na rua.",
+          "zh": "节日持续一个星期，街上有音乐。",
+          "hint": {
+            "en": "How long: dura; what there is: hay.",
+            "it": "Quanto: dura; quello che c'è: hay.",
+            "uk": "Скільки триває: dura; що там є: hay.",
+            "de": "Wie lange: dura; was es gibt: hay.",
+            "fr": "Combien de temps : dura ; ce qu'il y a : hay.",
+            "pt": "Quanto tempo: dura; o que tem: hay.",
+            "zh": "多久：dura；有什么：hay。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "En Navidad se ",
+          "after": " con la familia.",
+          "options": [
+            "cena",
+            "cenan",
+            "ceno"
+          ],
+          "answer": "cena",
+          "en": "At Christmas people have dinner with their family.",
+          "it": "A Natale si cena in famiglia.",
+          "uk": "На Різдво вечеряють у колі родини.",
+          "de": "An Weihnachten isst man mit der Familie zu Abend.",
+          "fr": "À Noël, on dîne en famille.",
+          "pt": "No Natal, as pessoas jantam com a família.",
+          "zh": "圣诞节人们和家人一起吃晚饭。",
+          "hint": {
+            "en": "People in general, no plural thing after it: se cena.",
+            "it": "La gente in generale, senza una cosa al plurale dopo: se cena.",
+            "uk": "Люди загалом, і після дієслова немає нічого в множині: se cena.",
+            "de": "Leute im Allgemeinen, ohne Sache im Plural danach: se cena.",
+            "fr": "Les gens en général, sans chose au pluriel après : se cena.",
+            "pt": "As pessoas em geral, sem coisa no plural depois: se cena.",
+            "zh": "泛指人们，后面没有复数的东西：se cena。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "mix",
+          "before": "El 6 de enero los Reyes Magos les ",
+          "after": " regalos a los niños.",
+          "label": "traer",
+          "accepted": [
+            "traen"
+          ],
+          "en": "On 6 January the Three Kings bring presents to the children.",
+          "it": "Il 6 gennaio i Re Magi portano i regali ai bambini.",
+          "uk": "6 січня волхви приносять дітям подарунки.",
+          "de": "Am 6. Januar bringen die Heiligen Drei Könige den Kindern Geschenke.",
+          "fr": "Le 6 janvier, les Rois mages apportent des cadeaux aux enfants.",
+          "pt": "No dia 6 de janeiro, os Reis Magos trazem presentes para as crianças.",
+          "zh": "1月6日，三王给孩子们带来礼物。",
+          "hint": {
+            "en": "los Reyes Magos = ellos: traen.",
+            "it": "los Reyes Magos = ellos: traen.",
+            "uk": "los Reyes Magos = ellos: traen.",
+            "de": "los Reyes Magos = ellos: traen.",
+            "fr": "los Reyes Magos = ellos : traen.",
+            "pt": "los Reyes Magos = ellos: traen.",
+            "zh": "los Reyes Magos = ellos：traen。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "mix",
+          "intention": {
+            "en": "Tell a visitor that the festival is held in summer and lasts a week.",
+            "it": "Racconta a un visitatore che la festa si fa d'estate e dura una settimana.",
+            "uk": "Розкажи гостеві, що свято відзначають улітку і воно триває тиждень.",
+            "de": "Erzähl einem Besucher, dass das Fest im Sommer gefeiert wird und eine Woche dauert.",
+            "fr": "Dis à un visiteur que la fête a lieu en été et dure une semaine.",
+            "pt": "Conte a um visitante que a festa acontece no verão e dura uma semana.",
+            "zh": "告诉一位游客，节庆在夏天举行，持续一个星期。"
+          },
+          "accepted": [
+            "La fiesta se celebra en verano y dura una semana.",
+            "La fiesta es en verano y dura una semana."
+          ],
+          "tiles": [
+            "La fiesta",
+            "se celebra",
+            "en verano",
+            "y",
+            "dura",
+            "una semana",
+            "celebran",
+            "es"
+          ],
+          "en": "The festival is held in summer and lasts a week.",
+          "it": "La festa si fa d'estate e dura una settimana.",
+          "uk": "Свято відзначають улітку, і воно триває тиждень.",
+          "de": "Das Fest wird im Sommer gefeiert und dauert eine Woche.",
+          "fr": "La fête a lieu en été et dure une semaine.",
+          "pt": "A festa acontece no verão e dura uma semana.",
+          "zh": "节庆在夏天举行，持续一个星期。",
+          "hint": {
+            "en": "When: se celebra; how long: dura.",
+            "it": "Quando: se celebra; quanto: dura.",
+            "uk": "Коли: se celebra; скільки триває: dura.",
+            "de": "Wann: se celebra; wie lange: dura.",
+            "fr": "Quand : se celebra ; combien de temps : dura.",
+            "pt": "Quando: se celebra; quanto tempo: dura.",
+            "zh": "什么时候：se celebra；多久：dura。"
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "Write in Spanish: «On New Year's Eve people eat twelve grapes at midnight.»",
+            "it": "Scrivi in spagnolo: «A Capodanno si mangiano dodici chicchi d'uva a mezzanotte.»",
+            "uk": "Напиши іспанською: «У новорічну ніч опівночі їдять дванадцять виноградин.»",
+            "de": "Schreib auf Spanisch: «An Silvester isst man um Mitternacht zwölf Weintrauben.»",
+            "fr": "Écris en espagnol : «Le soir du 31 décembre, on mange douze grains de raisin à minuit.»",
+            "pt": "Escreva em espanhol: «No Réveillon, as pessoas comem doze uvas à meia-noite.»",
+            "zh": "用西班牙语写：«在跨年夜，人们午夜十二点吃十二颗葡萄。»"
+          },
+          "accepted": [
+            "En Nochevieja se comen doce uvas a medianoche.",
+            "En Nochevieja, se comen doce uvas a medianoche.",
+            "En Nochevieja se comen las doce uvas a medianoche.",
+            "En Nochevieja la gente come doce uvas a medianoche.",
+            "En Nochevieja comemos doce uvas a medianoche.",
+            "En Nochevieja se toman doce uvas a medianoche."
+          ],
+          "model": {
+            "es": "En Nochevieja se comen doce uvas a medianoche.",
+            "en": "On New Year's Eve people eat twelve grapes at midnight.",
+            "it": "A Capodanno si mangiano dodici chicchi d'uva a mezzanotte.",
+            "uk": "У новорічну ніч опівночі їдять дванадцять виноградин.",
+            "de": "An Silvester isst man um Mitternacht zwölf Weintrauben.",
+            "fr": "Le soir du 31 décembre, on mange douze grains de raisin à minuit.",
+            "pt": "No Réveillon, as pessoas comem doze uvas à meia-noite.",
+            "zh": "在跨年夜，人们午夜十二点吃十二颗葡萄。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u28l2",
+      "goal": {
+        "en": "Compare customs in Spain and in your country: en cambio, mientras que, igual que.",
+        "it": "Confronta le usanze in Spagna e nel tuo paese: en cambio, mientras que, igual que.",
+        "uk": "Порівнюй звичаї в Іспанії та у твоїй країні: en cambio, mientras que, igual que.",
+        "de": "Vergleich Bräuche in Spanien und in deinem Land: en cambio, mientras que, igual que.",
+        "fr": "Comparer les coutumes en Espagne et dans ton pays : en cambio, mientras que, igual que.",
+        "pt": "Compare os costumes da Espanha e do seu país: en cambio, mientras que, igual que.",
+        "zh": "比较西班牙和你们国家的习俗：en cambio，mientras que，igual que。"
+      },
+      "target": {
+        "es": "En España se cena muy tarde; en cambio, en mi país se cena a las siete.",
+        "en": "In Spain people have dinner very late; in my country, on the other hand, they have dinner at seven.",
+        "it": "In Spagna si cena molto tardi; nel mio paese, invece, si cena alle sette.",
+        "uk": "В Іспанії вечеряють дуже пізно; натомість у моїй країні вечеряють о сьомій.",
+        "de": "In Spanien isst man sehr spät zu Abend; in meinem Land dagegen isst man um sieben zu Abend.",
+        "fr": "En Espagne, on dîne très tard ; dans mon pays, en revanche, on dîne à sept heures.",
+        "pt": "Na Espanha se janta muito tarde; no meu país, por outro lado, se janta às sete.",
+        "zh": "在西班牙，人们晚饭吃得很晚；而在我们国家，人们七点吃晚饭。"
+      },
+      "names": [
+        "Italia"
+      ],
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "en cambio",
+              "en": "on the other hand, whereas",
+              "it": "invece",
+              "uk": "натомість, а от",
+              "de": "dagegen, hingegen",
+              "fr": "en revanche, alors que",
+              "pt": "por outro lado, já",
+              "zh": "而，另一方面",
+              "kind": "rail"
+            },
+            {
+              "es": "la costumbre",
+              "en": "the custom",
+              "it": "l'usanza, l'abitudine",
+              "uk": "звичай",
+              "de": "der Brauch, die Gewohnheit",
+              "fr": "la coutume",
+              "pt": "o costume",
+              "zh": "习俗，习惯",
+              "kind": "chunk"
+            },
+            {
+              "es": "igual que",
+              "en": "just like, the same as",
+              "it": "come, uguale a",
+              "uk": "так само, як",
+              "de": "genau wie, genauso wie",
+              "fr": "comme, de la même façon que",
+              "pt": "assim como, igual a",
+              "zh": "和……一样",
+              "kind": "rail"
+            },
+            {
+              "es": "saludar",
+              "en": "to greet, to say hello",
+              "it": "salutare",
+              "uk": "вітатися, вітати",
+              "de": "grüßen, begrüßen",
+              "fr": "saluer, dire bonjour",
+              "pt": "cumprimentar",
+              "zh": "打招呼，问候",
+              "kind": "stem"
+            },
+            {
+              "es": "dar dos besos",
+              "en": "to greet with two kisses",
+              "it": "salutare con due baci",
+              "uk": "вітатися двома поцілунками",
+              "de": "mit zwei Küsschen begrüßen",
+              "fr": "faire la bise (deux bises)",
+              "pt": "cumprimentar com dois beijos",
+              "zh": "贴面亲两下打招呼",
+              "kind": "chunk"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "en España…;",
+              "kind": "chunk"
+            },
+            {
+              "text": "en cambio,",
+              "kind": "rail"
+            },
+            {
+              "text": "en mi país…",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "en cambio (on the other hand) brings in the other side of a comparison. Put a semicolon or a full stop before it and a comma after it.",
+            "it": "en cambio (invece) introduce l'altro lato di un confronto. Prima mettici un punto e virgola o un punto, dopo una virgola.",
+            "uk": "en cambio (натомість) вводить другу частину порівняння. Перед ним став крапку з комою або крапку, а після нього — кому.",
+            "de": "en cambio (dagegen, hingegen) leitet die andere Seite eines Vergleichs ein. Davor steht ein Semikolon oder ein Punkt, danach ein Komma.",
+            "fr": "en cambio (en revanche) introduit l'autre côté d'une comparaison. Mets un point-virgule ou un point avant, et une virgule après.",
+            "pt": "en cambio (por outro lado) introduz o outro lado de uma comparação. Coloque ponto e vírgula ou ponto antes e vírgula depois.",
+            "zh": "en cambio（而，另一方面）引出比较的另一面。它前面用分号或句号，后面用逗号。"
+          },
+          "examples": [
+            {
+              "es": "En España se cena muy tarde; en cambio, en Inglaterra se cena pronto.",
+              "en": "In Spain people have dinner very late; in England, on the other hand, they have it early.",
+              "it": "In Spagna si cena molto tardi; in Inghilterra, invece, si cena presto.",
+              "uk": "В Іспанії вечеряють дуже пізно; натомість в Англії вечеряють рано.",
+              "de": "In Spanien isst man sehr spät zu Abend; in England dagegen isst man früh.",
+              "fr": "En Espagne, on dîne très tard ; en Angleterre, en revanche, on dîne tôt.",
+              "pt": "Na Espanha se janta muito tarde; na Inglaterra, por outro lado, se janta cedo.",
+              "zh": "在西班牙，人们晚饭吃得很晚；而在英国，人们晚饭吃得很早。"
+            },
+            {
+              "es": "En mi país se da un beso. En cambio, en España se dan dos.",
+              "en": "In my country people give one kiss. In Spain, on the other hand, they give two.",
+              "it": "Nel mio paese si dà un bacio. In Spagna, invece, se ne danno due.",
+              "uk": "У моїй країні при зустрічі цілують один раз. Натомість в Іспанії — двічі.",
+              "de": "In meinem Land gibt man ein Küsschen. In Spanien dagegen gibt man zwei.",
+              "fr": "Dans mon pays, on se fait une bise. En Espagne, en revanche, on en fait deux.",
+              "pt": "No meu país se dá um beijo. Na Espanha, por outro lado, se dão dois.",
+              "zh": "在我们国家，人们亲一下。而在西班牙，人们亲两下。"
+            },
+            {
+              "es": "Mi hermano es muy tranquilo; en cambio, yo soy muy nervioso.",
+              "en": "My brother is very calm; I, on the other hand, am very nervous.",
+              "it": "Mio fratello è molto tranquillo; io, invece, sono molto nervoso.",
+              "uk": "Мій брат дуже спокійний; натомість я дуже нервовий(-а).",
+              "de": "Mein Bruder ist sehr ruhig; ich dagegen bin sehr nervös.",
+              "fr": "Mon frère est très calme ; moi, en revanche, je suis très nerveux.",
+              "pt": "Meu irmão é muito tranquilo; eu, por outro lado, sou muito nervoso.",
+              "zh": "我哥哥很冷静；而我很容易紧张。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "beso",
+              "en": "kiss",
+              "it": "bacio",
+              "uk": "поцілунок",
+              "de": "Kuss, Küsschen",
+              "fr": "bise, baiser",
+              "pt": "beijo",
+              "zh": "吻，亲吻"
+            },
+            {
+              "es": "costumbres",
+              "en": "customs",
+              "it": "usanze, abitudini",
+              "uk": "звичаї",
+              "de": "Bräuche",
+              "fr": "coutumes",
+              "pt": "costumes",
+              "zh": "习俗（复数）"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "En España se come a las dos; ",
+          "after": ", en mi país se come a las doce.",
+          "options": [
+            "en cambio",
+            "además",
+            "por eso"
+          ],
+          "answer": "en cambio",
+          "en": "In Spain people have lunch at two; in my country, on the other hand, they have lunch at twelve.",
+          "it": "In Spagna si pranza alle due; nel mio paese, invece, si pranza a mezzogiorno.",
+          "uk": "В Іспанії обідають о другій; натомість у моїй країні обідають о дванадцятій.",
+          "de": "In Spanien isst man um zwei zu Mittag; in meinem Land dagegen isst man um zwölf zu Mittag.",
+          "fr": "En Espagne, on déjeune à deux heures ; dans mon pays, en revanche, on déjeune à midi.",
+          "pt": "Na Espanha se almoça às duas; no meu país, por outro lado, se almoça ao meio-dia.",
+          "zh": "在西班牙，人们两点吃午饭；而在我们国家，人们十二点吃午饭。",
+          "hint": {
+            "en": "Two different customs: en cambio.",
+            "it": "Due usanze diverse: en cambio.",
+            "uk": "Два різні звичаї: en cambio.",
+            "de": "Zwei verschiedene Bräuche: en cambio.",
+            "fr": "Deux coutumes différentes : en cambio.",
+            "pt": "Dois costumes diferentes: en cambio.",
+            "zh": "两种不同的习俗：en cambio。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "A friend says that in Spain people have dinner late. Say that in your country, on the other hand, people have dinner early.",
+            "it": "Un amico dice che in Spagna si cena tardi. Rispondi che nel tuo paese, invece, si cena presto.",
+            "uk": "Друг каже, що в Іспанії вечеряють пізно. Скажи, що у твоїй країні, навпаки, вечеряють рано.",
+            "de": "Ein Freund sagt, dass man in Spanien spät zu Abend isst. Sag, dass man in deinem Land dagegen früh zu Abend isst.",
+            "fr": "Un ami dit qu'en Espagne on dîne tard. Dis que dans ton pays, en revanche, on dîne tôt.",
+            "pt": "Um amigo diz que na Espanha se janta tarde. Diga que no seu país, por outro lado, se janta cedo.",
+            "zh": "朋友说在西班牙人们晚饭吃得很晚。说在你们国家，人们晚饭却吃得很早。"
+          },
+          "accepted": [
+            "En cambio, en mi país se cena pronto.",
+            "En mi país, en cambio, se cena pronto.",
+            "En cambio, en mi país se cena temprano.",
+            "En mi país, en cambio, se cena temprano."
+          ],
+          "tiles": [
+            "En cambio,",
+            "en mi país",
+            "se cena",
+            "pronto",
+            "además",
+            "tarde"
+          ],
+          "en": "In my country, on the other hand, people have dinner early.",
+          "it": "Nel mio paese, invece, si cena presto.",
+          "uk": "Натомість у моїй країні вечеряють рано.",
+          "de": "In meinem Land dagegen isst man früh zu Abend.",
+          "fr": "Dans mon pays, en revanche, on dîne tôt.",
+          "pt": "No meu país, por outro lado, se janta cedo.",
+          "zh": "而在我们国家，人们晚饭吃得很早。",
+          "hint": {
+            "en": "The other side of the comparison: en cambio.",
+            "it": "L'altro lato del confronto: en cambio.",
+            "uk": "Друга частина порівняння: en cambio.",
+            "de": "Die andere Seite des Vergleichs: en cambio.",
+            "fr": "L'autre côté de la comparaison : en cambio.",
+            "pt": "O outro lado da comparação: en cambio.",
+            "zh": "比较的另一面：en cambio。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "…,",
+              "kind": "chunk"
+            },
+            {
+              "text": "mientras que",
+              "kind": "rail"
+            },
+            {
+              "text": "…",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "mientras que (whereas) joins the two sides in one sentence, after a comma: aquí se cena tarde, mientras que en mi país se cena pronto. It's the same mientras as 'while'.",
+            "it": "mientras que (mentre) unisce i due lati in una sola frase, dopo una virgola: aquí se cena tarde, mientras que en mi país se cena pronto. È lo stesso mientras di 'mentre'.",
+            "uk": "mientras que (тоді як) поєднує обидві частини в одному реченні, після коми: aquí se cena tarde, mientras que en mi país se cena pronto. Це те саме mientras, що й «поки».",
+            "de": "mientras que (während) verbindet die beiden Seiten in einem Satz, nach einem Komma: aquí se cena tarde, mientras que en mi país se cena pronto. Es ist dasselbe mientras wie in 'während' (zeitlich) – genau wie im Deutschen.",
+            "fr": "mientras que (alors que) relie les deux côtés dans une seule phrase, après une virgule : aquí se cena tarde, mientras que en mi país se cena pronto. C'est le même mientras que « pendant que ».",
+            "pt": "mientras que (enquanto) une os dois lados numa só frase, depois de uma vírgula: aquí se cena tarde, mientras que en mi país se cena pronto. É o mesmo mientras de 'enquanto'.",
+            "zh": "mientras que（而，然而）在一句话里把两面连起来，放在逗号后面：aquí se cena tarde, mientras que en mi país se cena pronto。它和表示“当……的时候”的 mientras 是同一个词。"
+          },
+          "examples": [
+            {
+              "es": "Aquí se cena a las diez, mientras que en mi país se cena a las siete.",
+              "en": "Here people have dinner at ten, whereas in my country they have it at seven.",
+              "it": "Qui si cena alle dieci, mentre nel mio paese si cena alle sette.",
+              "uk": "Тут вечеряють о десятій, тоді як у моїй країні — о сьомій.",
+              "de": "Hier isst man um zehn zu Abend, während man in meinem Land um sieben isst.",
+              "fr": "Ici, on dîne à dix heures, alors que dans mon pays on dîne à sept heures.",
+              "pt": "Aqui se janta às dez, enquanto no meu país se janta às sete.",
+              "zh": "这里人们十点吃晚饭，而在我们国家人们七点吃。"
+            },
+            {
+              "es": "Yo me levanto pronto, mientras que mi pareja se levanta tarde.",
+              "en": "I get up early, whereas my partner gets up late.",
+              "it": "Io mi alzo presto, mentre il mio partner si alza tardi.",
+              "uk": "Я встаю рано, тоді як мій партнер (моя партнерка) встає пізно.",
+              "de": "Ich stehe früh auf, während mein Partner spät aufsteht.",
+              "fr": "Je me lève tôt, alors que mon/ma partenaire se lève tard.",
+              "pt": "Eu acordo cedo, enquanto meu parceiro acorda tarde.",
+              "zh": "我起得早，而我的伴侣起得晚。"
+            },
+            {
+              "es": "En mi país las tiendas cierran a las seis, mientras que aquí cierran a las nueve.",
+              "en": "In my country shops close at six, whereas here they close at nine.",
+              "it": "Nel mio paese i negozi chiudono alle sei, mentre qui chiudono alle nove.",
+              "uk": "У моїй країні магазини зачиняються о шостій, тоді як тут — о дев'ятій.",
+              "de": "In meinem Land schließen die Geschäfte um sechs, während sie hier um neun schließen.",
+              "fr": "Dans mon pays, les magasins ferment à six heures, alors qu'ici ils ferment à neuf heures.",
+              "pt": "No meu país as lojas fecham às seis, enquanto aqui fecham às nove.",
+              "zh": "在我们国家，商店六点关门，而这里九点才关门。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "tiendas",
+              "en": "shops",
+              "it": "negozi",
+              "uk": "магазини",
+              "de": "Geschäfte",
+              "fr": "magasins",
+              "pt": "lojas",
+              "zh": "商店（复数）"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "En mi país las tiendas cierran los domingos, ",
+          "after": " aquí muchas abren.",
+          "options": [
+            "mientras que",
+            "porque",
+            "así que"
+          ],
+          "answer": "mientras que",
+          "en": "In my country shops close on Sundays, whereas here many open.",
+          "it": "Nel mio paese i negozi chiudono la domenica, mentre qui molti aprono.",
+          "uk": "У моїй країні по неділях магазини зачинені, тоді як тут багато з них відчиняються.",
+          "de": "In meinem Land haben die Geschäfte sonntags geschlossen, während hier viele geöffnet haben.",
+          "fr": "Dans mon pays, les magasins sont fermés le dimanche, alors qu'ici beaucoup sont ouverts.",
+          "pt": "No meu país as lojas fecham aos domingos, enquanto aqui muitas abrem.",
+          "zh": "在我们国家，商店星期天关门，而这里很多商店照常营业。",
+          "hint": {
+            "en": "Two opposite customs in one sentence: mientras que.",
+            "it": "Due usanze opposte in una frase: mientras que.",
+            "uk": "Два протилежні звичаї в одному реченні: mientras que.",
+            "de": "Zwei gegensätzliche Bräuche in einem Satz: mientras que.",
+            "fr": "Deux coutumes opposées dans une seule phrase : mientras que.",
+            "pt": "Dois costumes opostos numa frase: mientras que.",
+            "zh": "一句话里两种相反的习俗：mientras que。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "Say that you have breakfast early, whereas your partner has breakfast late.",
+            "it": "Di' che tu fai colazione presto, mentre il tuo partner fa colazione tardi.",
+            "uk": "Скажи, що ти снідаєш рано, тоді як твій партнер (твоя партнерка) снідає пізно.",
+            "de": "Sag, dass du früh frühstückst, während dein Partner spät frühstückt.",
+            "fr": "Dis que tu prends ton petit-déjeuner tôt, alors que ton/ta partenaire le prend tard.",
+            "pt": "Diga que você toma café da manhã cedo, enquanto seu parceiro toma café da manhã tarde.",
+            "zh": "说你早饭吃得早，而你的伴侣早饭吃得晚。"
+          },
+          "accepted": [
+            "Yo desayuno pronto, mientras que mi pareja desayuna tarde.",
+            "Desayuno pronto, mientras que mi pareja desayuna tarde.",
+            "Yo desayuno temprano, mientras que mi pareja desayuna tarde."
+          ],
+          "tiles": [
+            "Yo",
+            "desayuno",
+            "pronto,",
+            "mientras que",
+            "mi pareja",
+            "desayuna",
+            "tarde",
+            "porque"
+          ],
+          "en": "I have breakfast early, whereas my partner has breakfast late.",
+          "it": "Io faccio colazione presto, mentre il mio partner fa colazione tardi.",
+          "uk": "Я снідаю рано, тоді як мій партнер (моя партнерка) снідає пізно.",
+          "de": "Ich frühstücke früh, während mein Partner spät frühstückt.",
+          "fr": "Je prends mon petit-déjeuner tôt, alors que mon/ma partenaire le prend tard.",
+          "pt": "Eu tomo café da manhã cedo, enquanto meu parceiro toma café da manhã tarde.",
+          "zh": "我早饭吃得早，而我的伴侣早饭吃得晚。",
+          "hint": {
+            "en": "Both sides in one sentence: mientras que.",
+            "it": "I due lati in una frase: mientras que.",
+            "uk": "Обидві частини в одному реченні: mientras que.",
+            "de": "Beide Seiten in einem Satz: mientras que.",
+            "fr": "Les deux côtés dans une seule phrase : mientras que.",
+            "pt": "Os dois lados numa frase: mientras que.",
+            "zh": "两面放在一句话里：mientras que。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "igual que",
+              "kind": "rail"
+            },
+            {
+              "text": "en España",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "When a custom is the same, use igual que (just like): en mi país, igual que en España, se cena con la familia. Or say es igual que en mi país (it's the same as in my country).",
+            "it": "Quando un'usanza è la stessa, usa igual que (come): en mi país, igual que en España, se cena con la familia. Oppure di' es igual que en mi país (è uguale che nel mio paese).",
+            "uk": "Коли звичай однаковий, вживай igual que (так само, як): en mi país, igual que en España, se cena con la familia. Або скажи es igual que en mi país (так само, як у моїй країні).",
+            "de": "Wenn ein Brauch gleich ist, nimm igual que (genau wie): en mi país, igual que en España, se cena con la familia. Oder sag es igual que en mi país (es ist genauso wie in meinem Land).",
+            "fr": "Quand une coutume est la même, utilise igual que (comme) : en mi país, igual que en España, se cena con la familia. Ou dis es igual que en mi país (c'est pareil que dans mon pays).",
+            "pt": "Quando um costume é o mesmo, use igual que (assim como): en mi país, igual que en España, se cena con la familia. Ou diga es igual que en mi país (é igual ao meu país).",
+            "zh": "习俗相同时，用 igual que（和……一样）：en mi país, igual que en España, se cena con la familia。也可以说 es igual que en mi país（和我们国家一样）。"
+          },
+          "examples": [
+            {
+              "es": "En Italia, igual que en España, se saluda con dos besos.",
+              "en": "In Italy, just like in Spain, people greet each other with two kisses.",
+              "it": "In Italia, come in Spagna, ci si saluta con due baci.",
+              "uk": "В Італії, так само як в Іспанії, вітаються двома поцілунками.",
+              "de": "In Italien begrüßt man sich, genau wie in Spanien, mit zwei Küsschen.",
+              "fr": "En Italie, comme en Espagne, on se fait deux bises pour se saluer.",
+              "pt": "Na Itália, assim como na Espanha, as pessoas se cumprimentam com dois beijos.",
+              "zh": "在意大利，和在西班牙一样，人们见面时贴面亲两下。"
+            },
+            {
+              "es": "En mi país, igual que aquí, se celebra la Navidad en familia.",
+              "en": "In my country, just like here, Christmas is celebrated with the family.",
+              "it": "Nel mio paese, come qui, il Natale si festeggia in famiglia.",
+              "uk": "У моїй країні, так само як тут, Різдво святкують у колі родини.",
+              "de": "In meinem Land feiert man Weihnachten, genau wie hier, mit der Familie.",
+              "fr": "Dans mon pays, comme ici, on fête Noël en famille.",
+              "pt": "No meu país, assim como aqui, o Natal é comemorado em família.",
+              "zh": "在我们国家，和这里一样，人们和家人一起过圣诞节。"
+            },
+            {
+              "es": "Es igual que en mi país.",
+              "en": "It's the same as in my country.",
+              "it": "È uguale che nel mio paese.",
+              "uk": "Це так само, як у моїй країні.",
+              "de": "Es ist genauso wie in meinem Land.",
+              "fr": "C'est pareil que dans mon pays.",
+              "pt": "É igual ao meu país.",
+              "zh": "和我们国家一样。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "saluda",
+              "en": "greets; (with se) people greet each other",
+              "it": "saluta; (con se) ci si saluta",
+              "uk": "вітає; (із se) люди вітаються",
+              "de": "grüßt; (mit se) man begrüßt sich",
+              "fr": "salue ; (avec se) on se salue",
+              "pt": "cumprimenta; (com se) as pessoas se cumprimentam",
+              "zh": "打招呼；（和 se 一起用）人们互相打招呼"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "En Italia, ",
+          "after": " en España, se saluda con dos besos.",
+          "options": [
+            "igual que",
+            "en cambio",
+            "mientras"
+          ],
+          "answer": "igual que",
+          "en": "In Italy, just like in Spain, people greet each other with two kisses.",
+          "it": "In Italia, come in Spagna, ci si saluta con due baci.",
+          "uk": "В Італії, так само як в Іспанії, вітаються двома поцілунками.",
+          "de": "In Italien begrüßt man sich, genau wie in Spanien, mit zwei Küsschen.",
+          "fr": "En Italie, comme en Espagne, on se fait deux bises pour se saluer.",
+          "pt": "Na Itália, assim como na Espanha, as pessoas se cumprimentam com dois beijos.",
+          "zh": "在意大利，和在西班牙一样，人们见面时贴面亲两下。",
+          "hint": {
+            "en": "The same custom: igual que.",
+            "it": "La stessa usanza: igual que.",
+            "uk": "Однаковий звичай: igual que.",
+            "de": "Derselbe Brauch: igual que.",
+            "fr": "La même coutume : igual que.",
+            "pt": "O mesmo costume: igual que.",
+            "zh": "同样的习俗：igual que。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "Your Spanish friend tells you how people celebrate Christmas here. Say it's the same as in your country.",
+            "it": "Un amico spagnolo ti racconta come si festeggia il Natale qui. Rispondi che è uguale che nel tuo paese.",
+            "uk": "Друг-іспанець розповідає тобі, як тут святкують Різдво. Скажи, що це так само, як у твоїй країні.",
+            "de": "Dein spanischer Freund erzählt dir, wie man hier Weihnachten feiert. Sag, dass es genauso ist wie in deinem Land.",
+            "fr": "Ton ami espagnol te raconte comment on fête Noël ici. Dis que c'est pareil que dans ton pays.",
+            "pt": "Seu amigo espanhol conta como se comemora o Natal aqui. Diga que é igual ao seu país.",
+            "zh": "你的西班牙朋友给你讲这里的人怎么过圣诞节。说和你们国家一样。"
+          },
+          "accepted": [
+            "Es igual que en mi país."
+          ],
+          "tiles": [
+            "Es",
+            "igual que",
+            "en mi país",
+            "en cambio",
+            "está"
+          ],
+          "en": "It's the same as in my country.",
+          "it": "È uguale che nel mio paese.",
+          "uk": "Це так само, як у моїй країні.",
+          "de": "Es ist genauso wie in meinem Land.",
+          "fr": "C'est pareil que dans mon pays.",
+          "pt": "É igual ao meu país.",
+          "zh": "和我们国家一样。",
+          "hint": {
+            "en": "The same: es igual que…",
+            "it": "Uguale: es igual que…",
+            "uk": "Так само: es igual que…",
+            "de": "Dasselbe: es igual que…",
+            "fr": "Pareil : es igual que…",
+            "pt": "Igual: es igual que…",
+            "zh": "一样：es igual que…"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "En mi país se da un beso; ",
+          "after": ", en España se dan dos.",
+          "options": [
+            "en cambio",
+            "igual que",
+            "además"
+          ],
+          "answer": "en cambio",
+          "en": "In my country people give one kiss; in Spain, on the other hand, they give two.",
+          "it": "Nel mio paese si dà un bacio; in Spagna, invece, se ne danno due.",
+          "uk": "У моїй країні при зустрічі цілують один раз; натомість в Іспанії — двічі.",
+          "de": "In meinem Land gibt man ein Küsschen; in Spanien dagegen gibt man zwei.",
+          "fr": "Dans mon pays, on se fait une bise ; en Espagne, en revanche, on en fait deux.",
+          "pt": "No meu país se dá um beijo; na Espanha, por outro lado, se dão dois.",
+          "zh": "在我们国家，人们亲一下；而在西班牙，人们亲两下。",
+          "hint": {
+            "en": "Two different customs: en cambio.",
+            "it": "Due usanze diverse: en cambio.",
+            "uk": "Два різні звичаї: en cambio.",
+            "de": "Zwei verschiedene Bräuche: en cambio.",
+            "fr": "Deux coutumes différentes : en cambio.",
+            "pt": "Dois costumes diferentes: en cambio.",
+            "zh": "两种不同的习俗：en cambio。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "mix",
+          "before": "En España la gente se ",
+          "after": " con dos besos.",
+          "label": "saludar",
+          "accepted": [
+            "saluda"
+          ],
+          "en": "In Spain people greet each other with two kisses.",
+          "it": "In Spagna la gente si saluta con due baci.",
+          "uk": "В Іспанії люди вітаються двома поцілунками.",
+          "de": "In Spanien begrüßt man sich mit zwei Küsschen.",
+          "fr": "En Espagne, on se fait deux bises pour se saluer.",
+          "pt": "Na Espanha as pessoas se cumprimentam com dois beijos.",
+          "zh": "在西班牙，人们见面时贴面亲两下。",
+          "hint": {
+            "en": "la gente takes the él form: se saluda.",
+            "it": "la gente vuole la forma di él: se saluda.",
+            "uk": "la gente вживається з формою él: se saluda.",
+            "de": "la gente nimmt die él-Form: se saluda.",
+            "fr": "la gente prend la forme de él : se saluda.",
+            "pt": "la gente pede a forma de él: se saluda.",
+            "zh": "la gente 用 él 的形式：se saluda。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "mix",
+          "intention": {
+            "en": "Say that in your country, just like in Spain, Christmas is celebrated with the family.",
+            "it": "Di' che nel tuo paese, come in Spagna, il Natale si festeggia in famiglia.",
+            "uk": "Скажи, що у твоїй країні, так само як в Іспанії, Різдво святкують у колі родини.",
+            "de": "Sag, dass Weihnachten in deinem Land, genau wie in Spanien, mit der Familie gefeiert wird.",
+            "fr": "Dis que dans ton pays, comme en Espagne, on fête Noël en famille.",
+            "pt": "Diga que no seu país, assim como na Espanha, o Natal é comemorado em família.",
+            "zh": "说在你们国家，和在西班牙一样，人们和家人一起过圣诞节。"
+          },
+          "accepted": [
+            "En mi país, igual que en España, se celebra la Navidad con la familia.",
+            "En mi país, igual que en España, la Navidad se celebra con la familia.",
+            "En mi país, igual que en España, se celebra la Navidad en familia."
+          ],
+          "tiles": [
+            "En mi país,",
+            "igual que",
+            "en España,",
+            "se celebra",
+            "la Navidad",
+            "con la familia",
+            "en cambio,",
+            "celebran"
+          ],
+          "en": "In my country, just like in Spain, Christmas is celebrated with the family.",
+          "it": "Nel mio paese, come in Spagna, il Natale si festeggia in famiglia.",
+          "uk": "У моїй країні, так само як в Іспанії, Різдво святкують у колі родини.",
+          "de": "In meinem Land wird Weihnachten, genau wie in Spanien, mit der Familie gefeiert.",
+          "fr": "Dans mon pays, comme en Espagne, on fête Noël en famille.",
+          "pt": "No meu país, assim como na Espanha, o Natal é comemorado em família.",
+          "zh": "在我们国家，和在西班牙一样，人们和家人一起过圣诞节。",
+          "hint": {
+            "en": "The same custom: igual que.",
+            "it": "La stessa usanza: igual que.",
+            "uk": "Однаковий звичай: igual que.",
+            "de": "Derselbe Brauch: igual que.",
+            "fr": "La même coutume : igual que.",
+            "pt": "O mesmo costume: igual que.",
+            "zh": "同样的习俗：igual que。"
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "Write in Spanish: «In Spain people have dinner very late; in my country, on the other hand, they have dinner at seven.»",
+            "it": "Scrivi in spagnolo: «In Spagna si cena molto tardi; nel mio paese, invece, si cena alle sette.»",
+            "uk": "Напиши іспанською: «В Іспанії вечеряють дуже пізно; натомість у моїй країні вечеряють о сьомій.»",
+            "de": "Schreib auf Spanisch: «In Spanien isst man sehr spät zu Abend; in meinem Land dagegen isst man um sieben zu Abend.»",
+            "fr": "Écris en espagnol : «En Espagne, on dîne très tard ; dans mon pays, en revanche, on dîne à sept heures.»",
+            "pt": "Escreva em espanhol: «Na Espanha se janta muito tarde; no meu país, por outro lado, se janta às sete.»",
+            "zh": "用西班牙语写：«在西班牙，人们晚饭吃得很晚；而在我们国家，人们七点吃晚饭。»"
+          },
+          "accepted": [
+            "En España se cena muy tarde; en cambio, en mi país se cena a las siete.",
+            "En España se cena muy tarde. En cambio, en mi país se cena a las siete.",
+            "En España se cena muy tarde; en mi país, en cambio, se cena a las siete.",
+            "En España se cena muy tarde, mientras que en mi país se cena a las siete.",
+            "En España se cena muy tarde; en cambio, en mi país cenamos a las siete.",
+            "En España la gente cena muy tarde; en cambio, en mi país se cena a las siete."
+          ],
+          "model": {
+            "es": "En España se cena muy tarde; en cambio, en mi país se cena a las siete.",
+            "en": "In Spain people have dinner very late; in my country, on the other hand, they have dinner at seven.",
+            "it": "In Spagna si cena molto tardi; nel mio paese, invece, si cena alle sette.",
+            "uk": "В Іспанії вечеряють дуже пізно; натомість у моїй країні вечеряють о сьомій.",
+            "de": "In Spanien isst man sehr spät zu Abend; in meinem Land dagegen isst man um sieben zu Abend.",
+            "fr": "En Espagne, on dîne très tard ; dans mon pays, en revanche, on dîne à sept heures.",
+            "pt": "Na Espanha se janta muito tarde; no meu país, por outro lado, se janta às sete.",
+            "zh": "在西班牙，人们晚饭吃得很晚；而在我们国家，人们七点吃晚饭。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u28l3",
+      "goal": {
+        "en": "Remember how festivals were when you were young: cuando era joven, iba a la verbena, nos disfrazábamos…",
+        "it": "Ricorda com'erano le feste quando eri giovane: cuando era joven, iba a la verbena, nos disfrazábamos…",
+        "uk": "Згадай, якими були свята, коли ти був(-ла) молодим(-ою): cuando era joven, iba a la verbena, nos disfrazábamos…",
+        "de": "Erinnere dich, wie die Feste waren, als du jung warst: cuando era joven, iba a la verbena, nos disfrazábamos…",
+        "fr": "Te souvenir des fêtes de ta jeunesse : cuando era joven, iba a la verbena, nos disfrazábamos…",
+        "pt": "Lembre como eram as festas quando você era jovem: cuando era joven, iba a la verbena, nos disfrazábamos…",
+        "zh": "回忆你年轻时的节日是什么样的：cuando era joven，iba a la verbena，nos disfrazábamos…"
+      },
+      "target": {
+        "es": "Cuando era joven, iba a las fiestas del pueblo y bailaba toda la noche.",
+        "en": "When I was young, I used to go to the village festival and dance all night.",
+        "it": "Quando ero giovane, andavo alla festa del paese e ballavo tutta la notte.",
+        "uk": "Коли я був(-ла) молодим(-ою), я ходив(-ла) на свято в містечку й танцював(-ла) всю ніч.",
+        "de": "Als ich jung war, ging ich immer zum Dorffest und tanzte die ganze Nacht.",
+        "fr": "Quand j'étais jeune, j'allais à la fête du village et je dansais toute la nuit.",
+        "pt": "Quando eu era jovem, ia à festa da cidade e dançava a noite toda.",
+        "zh": "我年轻的时候，常去镇上的节庆，跳一整夜的舞。"
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "cuando era joven",
+              "en": "when I was young",
+              "it": "quando ero giovane",
+              "uk": "коли я був(-ла) молодим(-ою)",
+              "de": "als ich jung war",
+              "fr": "quand j'étais jeune",
+              "pt": "quando eu era jovem",
+              "zh": "我年轻的时候",
+              "kind": "time"
+            },
+            {
+              "es": "la verbena",
+              "en": "the open-air dance (at a local festival)",
+              "it": "la festa da ballo all'aperto",
+              "uk": "танці просто неба (на місцевому святі)",
+              "de": "das Tanzfest im Freien (bei einem örtlichen Fest)",
+              "fr": "le bal populaire (en plein air, pendant une fête locale)",
+              "pt": "o baile ao ar livre (numa festa local)",
+              "zh": "露天舞会（地方节庆上的）",
+              "kind": "chunk"
+            },
+            {
+              "es": "el carnaval",
+              "en": "carnival",
+              "it": "il carnevale",
+              "uk": "карнавал",
+              "de": "der Karneval, der Fasching",
+              "fr": "le carnaval",
+              "pt": "o carnaval",
+              "zh": "狂欢节",
+              "kind": "chunk"
+            },
+            {
+              "es": "disfrazarse",
+              "en": "to dress up (in a costume)",
+              "it": "travestirsi, mascherarsi",
+              "uk": "перевдягатися (у костюм)",
+              "de": "sich verkleiden",
+              "fr": "se déguiser",
+              "pt": "se fantasiar",
+              "zh": "化装，穿上节日服装",
+              "kind": "stem"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "bail-",
+              "kind": "stem"
+            },
+            {
+              "text": "-aba",
+              "kind": "ending"
+            }
+          ],
+          "rule": {
+            "en": "For what you used to do back then, use the imperfect, as you know: cuando era joven, iba a la verbena y bailaba toda la noche.",
+            "it": "Per quello che facevi allora, usa l'imperfetto, come sai già: cuando era joven, iba a la verbena y bailaba toda la noche.",
+            "uk": "Для того, що ти зазвичай робив(-ла) колись, вживай imperfecto, як ти вже знаєш: cuando era joven, iba a la verbena y bailaba toda la noche.",
+            "de": "Für das, was du damals gewöhnlich gemacht hast, nimmst du das Imperfekt, wie du schon weißt: cuando era joven, iba a la verbena y bailaba toda la noche.",
+            "fr": "Pour ce que tu faisais à l'époque, utilise l'imparfait, comme tu le sais : cuando era joven, iba a la verbena y bailaba toda la noche.",
+            "pt": "Para o que você costumava fazer naquela época, use o imperfeito, como você já sabe: cuando era joven, iba a la verbena y bailaba toda la noche.",
+            "zh": "说你那时常做的事，用过去未完成时，这你已经学过了：cuando era joven, iba a la verbena y bailaba toda la noche。"
+          },
+          "examples": [
+            {
+              "es": "Cuando era joven, iba a la verbena todos los veranos.",
+              "en": "When I was young, I used to go to the open-air dance every summer.",
+              "it": "Quando ero giovane, andavo alla festa da ballo ogni estate.",
+              "uk": "Коли я був(-ла) молодим(-ою), я щоліта ходив(-ла) на танці просто неба.",
+              "de": "Als ich jung war, ging ich jeden Sommer zum Tanzfest im Freien.",
+              "fr": "Quand j'étais jeune, j'allais au bal populaire tous les étés.",
+              "pt": "Quando eu era jovem, ia ao baile ao ar livre todo verão.",
+              "zh": "我年轻的时候，每年夏天都去露天舞会。"
+            },
+            {
+              "es": "Bailábamos toda la noche.",
+              "en": "We used to dance all night.",
+              "it": "Ballavamo tutta la notte.",
+              "uk": "Ми танцювали всю ніч.",
+              "de": "Wir tanzten immer die ganze Nacht.",
+              "fr": "Nous dansions toute la nuit.",
+              "pt": "A gente dançava a noite toda.",
+              "zh": "我们常常跳一整夜的舞。"
+            },
+            {
+              "es": "En mi casa celebrábamos la Navidad con los abuelos.",
+              "en": "At home we used to celebrate Christmas with my grandparents.",
+              "it": "A casa mia festeggiavamo il Natale con i nonni.",
+              "uk": "У нас удома Різдво святкували з дідусем і бабусею.",
+              "de": "Bei uns zu Hause feierten wir Weihnachten immer mit den Großeltern.",
+              "fr": "Chez moi, on fêtait Noël avec les grands-parents.",
+              "pt": "Lá em casa, a gente comemorava o Natal com os avós.",
+              "zh": "我们家以前和爷爷奶奶一起过圣诞节。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "bailaba",
+              "en": "I/he/she used to dance",
+              "it": "ballavo, ballava",
+              "uk": "я/він/вона танцював(-ла) (зазвичай)",
+              "de": "ich/er/sie tanzte (gewöhnlich)",
+              "fr": "je dansais, il/elle dansait",
+              "pt": "eu/ele/ela dançava",
+              "zh": "我／他／她以前常跳舞"
+            },
+            {
+              "es": "bailabas",
+              "en": "you used to dance",
+              "it": "ballavi",
+              "uk": "ти танцював(-ла)",
+              "de": "du tanztest (gewöhnlich)",
+              "fr": "tu dansais",
+              "pt": "você dançava",
+              "zh": "你以前常跳舞"
+            },
+            {
+              "es": "bailábamos",
+              "en": "we used to dance",
+              "it": "ballavamo",
+              "uk": "ми танцювали",
+              "de": "wir tanzten (gewöhnlich)",
+              "fr": "nous dansions",
+              "pt": "nós dançávamos",
+              "zh": "我们以前常跳舞"
+            },
+            {
+              "es": "bailaban",
+              "en": "they used to dance",
+              "it": "ballavano",
+              "uk": "вони танцювали",
+              "de": "sie tanzten (gewöhnlich)",
+              "fr": "ils/elles dansaient",
+              "pt": "eles dançavam",
+              "zh": "他们以前常跳舞"
+            },
+            {
+              "es": "celebraba",
+              "en": "I/he/she used to celebrate",
+              "it": "festeggiavo, festeggiava",
+              "uk": "я/він/вона святкував(-ла) (зазвичай)",
+              "de": "ich/er/sie feierte (gewöhnlich)",
+              "fr": "je fêtais, il/elle fêtait",
+              "pt": "eu/ele/ela comemorava",
+              "zh": "我／他／她以前常庆祝"
+            },
+            {
+              "es": "celebrábamos",
+              "en": "we used to celebrate",
+              "it": "festeggiavamo",
+              "uk": "ми святкували",
+              "de": "wir feierten (gewöhnlich)",
+              "fr": "nous fêtions",
+              "pt": "nós comemorávamos",
+              "zh": "我们以前常庆祝"
+            },
+            {
+              "es": "celebraban",
+              "en": "they used to celebrate",
+              "it": "festeggiavano",
+              "uk": "вони святкували",
+              "de": "sie feierten (gewöhnlich)",
+              "fr": "ils/elles fêtaient",
+              "pt": "eles comemoravam",
+              "zh": "他们以前常庆祝"
+            },
+            {
+              "es": "encantaba",
+              "en": "(I) loved (one thing)",
+              "it": "mi piaceva tantissimo",
+              "uk": "(мені) дуже подобалося (щось одне)",
+              "de": "(ich) liebte (eine Sache), mir gefiel sehr",
+              "fr": "(j')adorais (une chose)",
+              "pt": "(eu) adorava (uma coisa)",
+              "zh": "（我）以前非常喜欢（一样东西）"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Cuando era joven, ",
+          "after": " toda la noche en las fiestas del pueblo.",
+          "options": [
+            "bailaba",
+            "bailé",
+            "bailo"
+          ],
+          "answer": "bailaba",
+          "en": "When I was young, I used to dance all night at the village festival.",
+          "it": "Quando ero giovane, ballavo tutta la notte alla festa del paese.",
+          "uk": "Коли я був(-ла) молодим(-ою), я танцював(-ла) всю ніч на святі в містечку.",
+          "de": "Als ich jung war, tanzte ich beim Dorffest immer die ganze Nacht.",
+          "fr": "Quand j'étais jeune, je dansais toute la nuit à la fête du village.",
+          "pt": "Quando eu era jovem, dançava a noite toda na festa da cidade.",
+          "zh": "我年轻的时候，常在镇上的节庆跳一整夜的舞。",
+          "hint": {
+            "en": "Something you used to do: the imperfect, bailaba.",
+            "it": "Una cosa che facevi di solito: l'imperfetto, bailaba.",
+            "uk": "Те, що ти робив(-ла) зазвичай: imperfecto, bailaba.",
+            "de": "Etwas, was du gewöhnlich gemacht hast: das Imperfekt, bailaba.",
+            "fr": "Une chose que tu faisais avant : l'imparfait, bailaba.",
+            "pt": "Algo que você costumava fazer: o imperfeito, bailaba.",
+            "zh": "你以前常做的事：用过去未完成时，bailaba。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "fire",
+          "before": "De pequeños, mi hermano y yo ",
+          "after": " la Navidad en casa de los abuelos.",
+          "label": "celebrar",
+          "accepted": [
+            "celebrábamos"
+          ],
+          "en": "As children, my brother and I used to celebrate Christmas at our grandparents' house.",
+          "it": "Da piccoli, io e mio fratello festeggiavamo il Natale a casa dei nonni.",
+          "uk": "У дитинстві ми з братом святкували Різдво в дідуся й бабусі.",
+          "de": "Als Kinder feierten mein Bruder und ich Weihnachten immer bei unseren Großeltern.",
+          "fr": "Petits, mon frère et moi, nous fêtions Noël chez nos grands-parents.",
+          "pt": "Quando éramos pequenos, eu e meu irmão comemorávamos o Natal na casa dos avós.",
+          "zh": "小时候，我和哥哥常在爷爷奶奶家过圣诞节。",
+          "hint": {
+            "en": "mi hermano y yo = nosotros: celebrábamos.",
+            "it": "mi hermano y yo = nosotros: celebrábamos.",
+            "uk": "mi hermano y yo = nosotros: celebrábamos.",
+            "de": "mi hermano y yo = nosotros: celebrábamos.",
+            "fr": "mi hermano y yo = nosotros : celebrábamos.",
+            "pt": "mi hermano y yo = nosotros: celebrábamos.",
+            "zh": "mi hermano y yo = nosotros：celebrábamos。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "nos",
+              "kind": "ending"
+            },
+            {
+              "text": "disfrazábamos",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "Verbs like disfrazarse keep their little word in the imperfect: me disfrazaba, te disfrazabas, nos disfrazábamos.",
+            "it": "I verbi come disfrazarse tengono la loro particella anche all'imperfetto: me disfrazaba, te disfrazabas, nos disfrazábamos.",
+            "uk": "Дієслова на зразок disfrazarse зберігають своє маленьке слово і в imperfecto: me disfrazaba, te disfrazabas, nos disfrazábamos.",
+            "de": "Verben wie disfrazarse behalten ihr kleines Wort auch im Imperfekt: me disfrazaba, te disfrazabas, nos disfrazábamos.",
+            "fr": "Les verbes comme disfrazarse gardent leur petit mot à l'imparfait : me disfrazaba, te disfrazabas, nos disfrazábamos.",
+            "pt": "Verbos como disfrazarse mantêm a sua palavrinha também no imperfeito: me disfrazaba, te disfrazabas, nos disfrazábamos.",
+            "zh": "像 disfrazarse 这样的动词，在过去未完成时里也保留那个小词：me disfrazaba，te disfrazabas，nos disfrazábamos。"
+          },
+          "examples": [
+            {
+              "es": "En carnaval nos disfrazábamos todos.",
+              "en": "At carnival we all used to dress up.",
+              "it": "A carnevale ci mascheravamo tutti.",
+              "uk": "На карнавал ми всі перевдягалися.",
+              "de": "An Karneval verkleideten wir uns alle.",
+              "fr": "Au carnaval, nous nous déguisions tous.",
+              "pt": "No carnaval, todos nós nos fantasiávamos.",
+              "zh": "狂欢节的时候，我们大家都会化装。"
+            },
+            {
+              "es": "Los niños se disfrazaban en el colegio.",
+              "en": "The children used to dress up at school.",
+              "it": "I bambini si mascheravano a scuola.",
+              "uk": "Діти перевдягалися в школі.",
+              "de": "Die Kinder verkleideten sich immer in der Schule.",
+              "fr": "Les enfants se déguisaient à l'école.",
+              "pt": "As crianças se fantasiavam na escola.",
+              "zh": "孩子们以前在学校化装。"
+            },
+            {
+              "es": "¿Te disfrazabas de pequeña?",
+              "en": "Did you use to dress up as a child?",
+              "it": "Ti mascheravi da piccola?",
+              "uk": "Ти перевдягалася в дитинстві?",
+              "de": "Hast du dich als Kind verkleidet?",
+              "fr": "Tu te déguisais quand tu étais petite ?",
+              "pt": "Você se fantasiava quando era pequena?",
+              "zh": "你小时候化装过吗？"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "disfrazaba",
+              "en": "I/he/she used to dress up",
+              "it": "mi mascheravo, si mascherava",
+              "uk": "я/він/вона перевдягався(-лася)",
+              "de": "ich/er/sie verkleidete (sich) (gewöhnlich)",
+              "fr": "je me déguisais, il/elle se déguisait",
+              "pt": "eu me fantasiava, ele/ela se fantasiava",
+              "zh": "我／他／她以前常化装"
+            },
+            {
+              "es": "disfrazabas",
+              "en": "you used to dress up",
+              "it": "ti mascheravi",
+              "uk": "ти перевдягався(-лася)",
+              "de": "du verkleidetest (dich) (gewöhnlich)",
+              "fr": "tu te déguisais",
+              "pt": "você se fantasiava",
+              "zh": "你以前常化装"
+            },
+            {
+              "es": "disfrazábamos",
+              "en": "we used to dress up",
+              "it": "ci mascheravamo",
+              "uk": "ми перевдягалися",
+              "de": "wir verkleideten (uns) (gewöhnlich)",
+              "fr": "nous nous déguisions",
+              "pt": "nós nos fantasiávamos",
+              "zh": "我们以前常化装"
+            },
+            {
+              "es": "disfrazaban",
+              "en": "they used to dress up",
+              "it": "si mascheravano",
+              "uk": "вони перевдягалися",
+              "de": "sie verkleideten (sich) (gewöhnlich)",
+              "fr": "ils/elles se déguisaient",
+              "pt": "eles se fantasiavam",
+              "zh": "他们以前常化装"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "En carnaval los niños se ",
+          "after": ".",
+          "options": [
+            "disfrazaban",
+            "disfrazábamos",
+            "disfrazaba"
+          ],
+          "answer": "disfrazaban",
+          "en": "At carnival the children used to dress up.",
+          "it": "A carnevale i bambini si mascheravano.",
+          "uk": "На карнавал діти перевдягалися.",
+          "de": "An Karneval verkleideten sich die Kinder immer.",
+          "fr": "Au carnaval, les enfants se déguisaient.",
+          "pt": "No carnaval, as crianças se fantasiavam.",
+          "zh": "狂欢节的时候，孩子们以前都会化装。",
+          "hint": {
+            "en": "los niños = ellos: se disfrazaban.",
+            "it": "los niños = ellos: se disfrazaban.",
+            "uk": "los niños = ellos: se disfrazaban.",
+            "de": "los niños = ellos: se disfrazaban.",
+            "fr": "los niños = ellos : se disfrazaban.",
+            "pt": "los niños = ellos: se disfrazaban.",
+            "zh": "los niños = ellos：se disfrazaban。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "Ask a friend if she used to dress up for carnival as a child.",
+            "it": "Chiedi a un'amica se da piccola si mascherava a carnevale.",
+            "uk": "Запитай подругу, чи перевдягалася вона в дитинстві на карнавал.",
+            "de": "Frag eine Freundin, ob sie sich als Kind an Karneval verkleidet hat.",
+            "fr": "Demande à une amie si elle se déguisait pour le carnaval quand elle était petite.",
+            "pt": "Pergunte a uma amiga se ela se fantasiava no carnaval quando era pequena.",
+            "zh": "问一位女性朋友她小时候狂欢节会不会化装。"
+          },
+          "accepted": [
+            "¿Te disfrazabas en carnaval de pequeña?",
+            "De pequeña, ¿te disfrazabas en carnaval?",
+            "¿De pequeña te disfrazabas en carnaval?"
+          ],
+          "tiles": [
+            "¿Te",
+            "disfrazabas",
+            "en carnaval",
+            "de pequeña?",
+            "Se",
+            "disfrazaba"
+          ],
+          "en": "Did you use to dress up for carnival as a child?",
+          "it": "Da piccola ti mascheravi a carnevale?",
+          "uk": "Ти в дитинстві перевдягалася на карнавал?",
+          "de": "Hast du dich als Kind an Karneval verkleidet?",
+          "fr": "Tu te déguisais pour le carnaval quand tu étais petit(e) ?",
+          "pt": "Você se fantasiava no carnaval quando era pequena?",
+          "zh": "你小时候狂欢节会化装吗？",
+          "hint": {
+            "en": "tú: te disfrazabas.",
+            "it": "tú: te disfrazabas.",
+            "uk": "tú: te disfrazabas.",
+            "de": "tú: te disfrazabas.",
+            "fr": "tú : te disfrazabas.",
+            "pt": "tú: te disfrazabas.",
+            "zh": "tú：te disfrazabas。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "antes",
+              "kind": "time"
+            },
+            {
+              "text": "duraba",
+              "kind": "stem"
+            },
+            {
+              "text": "ahora",
+              "kind": "time"
+            },
+            {
+              "text": "dura",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "To compare then and now: antes + the imperfect, ahora + the present. ya no + the present says something has stopped.",
+            "it": "Per confrontare allora e adesso: antes + l'imperfetto, ahora + il presente. ya no + il presente dice che una cosa non succede più.",
+            "uk": "Щоб порівняти «тоді» і «тепер»: antes + imperfecto, ahora + теперішній час. ya no + теперішній час означає, що чогось уже немає.",
+            "de": "Um früher und heute zu vergleichen: antes + Imperfekt, ahora + Präsens. ya no + Präsens sagt, dass etwas aufgehört hat (nicht mehr).",
+            "fr": "Pour comparer avant et maintenant : antes + l'imparfait, ahora + le présent. ya no + le présent dit qu'une chose s'est arrêtée.",
+            "pt": "Para comparar antes e agora: antes + o imperfeito, ahora + o presente. ya no + o presente diz que algo não acontece mais.",
+            "zh": "比较过去和现在：antes + 过去未完成时，ahora + 现在时。ya no + 现在时，表示某件事已经不做了。"
+          },
+          "examples": [
+            {
+              "es": "Antes la fiesta duraba una semana; ahora dura tres días.",
+              "en": "The festival used to last a week; now it lasts three days.",
+              "it": "Prima la festa durava una settimana; adesso dura tre giorni.",
+              "uk": "Раніше свято тривало тиждень; тепер воно триває три дні.",
+              "de": "Früher dauerte das Fest eine Woche; jetzt dauert es drei Tage.",
+              "fr": "Avant, la fête durait une semaine ; maintenant, elle dure trois jours.",
+              "pt": "Antes a festa durava uma semana; agora dura três dias.",
+              "zh": "以前节庆持续一个星期；现在只持续三天。"
+            },
+            {
+              "es": "Antes iba a la verbena, pero ahora ya no voy.",
+              "en": "I used to go to the open-air dance, but now I don't any more.",
+              "it": "Prima andavo alla festa da ballo, ma adesso non ci vado più.",
+              "uk": "Раніше я ходив(-ла) на танці просто неба, а тепер уже не ходжу.",
+              "de": "Früher bin ich zum Tanzfest im Freien gegangen, aber jetzt gehe ich nicht mehr hin.",
+              "fr": "Avant, j'allais au bal populaire, mais maintenant je n'y vais plus.",
+              "pt": "Antes eu ia ao baile ao ar livre, mas agora não vou mais.",
+              "zh": "我以前常去露天舞会，但现在不去了。"
+            },
+            {
+              "es": "Antes había menos gente.",
+              "en": "There used to be fewer people.",
+              "it": "Prima c'era meno gente.",
+              "uk": "Раніше було менше людей.",
+              "de": "Früher gab es weniger Leute.",
+              "fr": "Avant, il y avait moins de monde.",
+              "pt": "Antes tinha menos gente.",
+              "zh": "以前人比较少。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "duraba",
+              "en": "used to last",
+              "it": "durava",
+              "uk": "тривав, тривала, тривало (колись)",
+              "de": "dauerte (gewöhnlich)",
+              "fr": "durait",
+              "pt": "durava",
+              "zh": "以前持续"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Antes la fiesta ",
+          "after": " una semana; ahora dura tres días.",
+          "options": [
+            "duraba",
+            "dura",
+            "duran"
+          ],
+          "answer": "duraba",
+          "en": "The festival used to last a week; now it lasts three days.",
+          "it": "Prima la festa durava una settimana; adesso dura tre giorni.",
+          "uk": "Раніше свято тривало тиждень; тепер воно триває три дні.",
+          "de": "Früher dauerte das Fest eine Woche; jetzt dauert es drei Tage.",
+          "fr": "Avant, la fête durait une semaine ; maintenant, elle dure trois jours.",
+          "pt": "Antes a festa durava uma semana; agora dura três dias.",
+          "zh": "以前节庆持续一个星期；现在只持续三天。",
+          "hint": {
+            "en": "antes, how it used to be: duraba.",
+            "it": "antes, com'era una volta: duraba.",
+            "uk": "antes, як було колись: duraba.",
+            "de": "antes, wie es früher war: duraba.",
+            "fr": "antes, comment c'était : duraba.",
+            "pt": "antes, como era antigamente: duraba.",
+            "zh": "antes，以前的样子：duraba。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "Say that you used to go to the open-air dance, but now you don't any more.",
+            "it": "Di' che prima andavi alla festa da ballo, ma adesso non ci vai più.",
+            "uk": "Скажи, що раніше ти ходив(-ла) на танці просто неба, а тепер уже не ходиш.",
+            "de": "Sag, dass du früher zum Tanzfest im Freien gegangen bist, aber jetzt nicht mehr hingehst.",
+            "fr": "Dis qu'avant tu allais au bal populaire, mais que maintenant tu n'y vas plus.",
+            "pt": "Diga que antes você ia ao baile ao ar livre, mas agora não vai mais.",
+            "zh": "说你以前常去露天舞会，但现在不去了。"
+          },
+          "accepted": [
+            "Antes iba a la verbena, pero ahora ya no voy.",
+            "Antes iba a la verbena, pero ya no voy.",
+            "Antes iba a la verbena; ahora ya no voy."
+          ],
+          "tiles": [
+            "Antes",
+            "iba",
+            "a la verbena,",
+            "pero",
+            "ahora",
+            "ya no",
+            "voy",
+            "fui"
+          ],
+          "en": "I used to go to the open-air dance, but now I don't any more.",
+          "it": "Prima andavo alla festa da ballo, ma adesso non ci vado più.",
+          "uk": "Раніше я ходив(-ла) на танці просто неба, а тепер уже не ходжу.",
+          "de": "Früher bin ich zum Tanzfest im Freien gegangen, aber jetzt gehe ich nicht mehr hin.",
+          "fr": "Avant, j'allais au bal populaire, mais maintenant je n'y vais plus.",
+          "pt": "Antes eu ia ao baile ao ar livre, mas agora não vou mais.",
+          "zh": "我以前常去露天舞会，但现在不去了。",
+          "hint": {
+            "en": "antes + iba; ahora ya no + voy.",
+            "it": "antes + iba; ahora ya no + voy.",
+            "uk": "antes + iba; ahora ya no + voy.",
+            "de": "antes + iba; ahora ya no + voy.",
+            "fr": "antes + iba ; ahora ya no + voy.",
+            "pt": "antes + iba; ahora ya no + voy.",
+            "zh": "antes + iba；ahora ya no + voy。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "Cuando ",
+          "after": " joven, me encantaba el carnaval.",
+          "options": [
+            "era",
+            "fui",
+            "soy"
+          ],
+          "answer": "era",
+          "en": "When I was young, I loved carnival.",
+          "it": "Quando ero giovane, il carnevale mi piaceva tantissimo.",
+          "uk": "Коли я був(-ла) молодим(-ою), я дуже любив(-ла) карнавал.",
+          "de": "Als ich jung war, liebte ich den Karneval.",
+          "fr": "Quand j'étais jeune, j'adorais le carnaval.",
+          "pt": "Quando eu era jovem, adorava o carnaval.",
+          "zh": "我年轻的时候，非常喜欢狂欢节。",
+          "hint": {
+            "en": "cuando era joven: always era.",
+            "it": "cuando era joven: sempre era.",
+            "uk": "cuando era joven: завжди era.",
+            "de": "cuando era joven: immer era.",
+            "fr": "cuando era joven : toujours era.",
+            "pt": "cuando era joven: sempre era.",
+            "zh": "cuando era joven：总是用 era。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "mix",
+          "before": "De pequeños, mi hermana y yo nos ",
+          "after": " en carnaval.",
+          "label": "disfrazarse",
+          "accepted": [
+            "disfrazábamos"
+          ],
+          "en": "As children, my sister and I used to dress up for carnival.",
+          "it": "Da piccoli, io e mia sorella ci mascheravamo a carnevale.",
+          "uk": "У дитинстві ми з сестрою перевдягалися на карнавал.",
+          "de": "Als Kinder verkleideten meine Schwester und ich uns immer an Karneval.",
+          "fr": "Petites, ma sœur et moi, nous nous déguisions pour le carnaval.",
+          "pt": "Quando éramos pequenos, eu e minha irmã nos fantasiávamos no carnaval.",
+          "zh": "小时候，我和姐姐狂欢节常常化装。",
+          "hint": {
+            "en": "nosotros, imperfect: nos disfrazábamos.",
+            "it": "nosotros, imperfetto: nos disfrazábamos.",
+            "uk": "nosotros, imperfecto: nos disfrazábamos.",
+            "de": "nosotros, Imperfekt: nos disfrazábamos.",
+            "fr": "nosotros, imparfait : nos disfrazábamos.",
+            "pt": "nosotros, imperfeito: nos disfrazábamos.",
+            "zh": "nosotros，过去未完成时：nos disfrazábamos。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "mix",
+          "intention": {
+            "en": "Say that there used to be fewer people at the festival.",
+            "it": "Di' che prima alla festa c'era meno gente.",
+            "uk": "Скажи, що раніше на святі було менше людей.",
+            "de": "Sag, dass es beim Fest früher weniger Leute gab.",
+            "fr": "Dis qu'avant il y avait moins de monde à la fête.",
+            "pt": "Diga que antes tinha menos gente na festa.",
+            "zh": "说以前节庆上的人比较少。"
+          },
+          "accepted": [
+            "Antes había menos gente en la fiesta.",
+            "Antes en la fiesta había menos gente."
+          ],
+          "tiles": [
+            "Antes",
+            "había",
+            "menos",
+            "gente",
+            "en la fiesta",
+            "hay",
+            "más"
+          ],
+          "en": "There used to be fewer people at the festival.",
+          "it": "Prima alla festa c'era meno gente.",
+          "uk": "Раніше на святі було менше людей.",
+          "de": "Früher gab es beim Fest weniger Leute.",
+          "fr": "Avant, il y avait moins de monde à la fête.",
+          "pt": "Antes tinha menos gente na festa.",
+          "zh": "以前节庆上的人比较少。",
+          "hint": {
+            "en": "How it used to be: había, which never changes.",
+            "it": "Com'era una volta: había, che non cambia mai.",
+            "uk": "Як було колись: había, що ніколи не змінюється.",
+            "de": "Wie es früher war: había, das sich nie ändert.",
+            "fr": "Comment c'était : había, qui ne change jamais.",
+            "pt": "Como era antigamente: había, que nunca muda.",
+            "zh": "以前的样子：había，它从不变化。"
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "Write in Spanish: «When I was young, I used to go to the village festival and dance all night.»",
+            "it": "Scrivi in spagnolo: «Quando ero giovane, andavo alla festa del paese e ballavo tutta la notte.»",
+            "uk": "Напиши іспанською: «Коли я був(-ла) молодим(-ою), я ходив(-ла) на свято в містечку й танцював(-ла) всю ніч.»",
+            "de": "Schreib auf Spanisch: «Als ich jung war, ging ich immer zum Dorffest und tanzte die ganze Nacht.»",
+            "fr": "Écris en espagnol : «Quand j'étais jeune, j'allais à la fête du village et je dansais toute la nuit.»",
+            "pt": "Escreva em espanhol: «Quando eu era jovem, ia à festa da cidade e dançava a noite toda.»",
+            "zh": "用西班牙语写：«我年轻的时候，常去镇上的节庆，跳一整夜的舞。»"
+          },
+          "accepted": [
+            "Cuando era joven, iba a las fiestas del pueblo y bailaba toda la noche.",
+            "Cuando era joven iba a las fiestas del pueblo y bailaba toda la noche.",
+            "Cuando era joven, iba a la fiesta del pueblo y bailaba toda la noche.",
+            "De joven, iba a las fiestas del pueblo y bailaba toda la noche.",
+            "Cuando yo era joven, iba a las fiestas del pueblo y bailaba toda la noche."
+          ],
+          "model": {
+            "es": "Cuando era joven, iba a las fiestas del pueblo y bailaba toda la noche.",
+            "en": "When I was young, I used to go to the village festival and dance all night.",
+            "it": "Quando ero giovane, andavo alla festa del paese e ballavo tutta la notte.",
+            "uk": "Коли я був(-ла) молодим(-ою), я ходив(-ла) на свято в містечку й танцював(-ла) всю ніч.",
+            "de": "Als ich jung war, ging ich immer zum Dorffest und tanzte die ganze Nacht.",
+            "fr": "Quand j'étais jeune, j'allais à la fête du village et je dansais toute la nuit.",
+            "pt": "Quando eu era jovem, ia à festa da cidade e dançava a noite toda.",
+            "zh": "我年轻的时候，常去镇上的节庆，跳一整夜的舞。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u28l4",
+      "goal": {
+        "en": "Say what's best, worst and most beautiful about something: lo mejor de la fiesta es…, lo malo es que…, lo que más me gusta es…",
+        "it": "Di qual è la cosa migliore, peggiore o più bella di qualcosa: lo mejor de la fiesta es…, lo malo es que…, lo que más me gusta es…",
+        "uk": "Скажи, що в чомусь найкраще, найгірше й найгарніше: lo mejor de la fiesta es…, lo malo es que…, lo que más me gusta es…",
+        "de": "Sag, was das Beste, das Schlimmste und das Schönste an etwas ist: lo mejor de la fiesta es…, lo malo es que…, lo que más me gusta es…",
+        "fr": "Dire ce qui est le mieux, le pire et le plus beau dans quelque chose : lo mejor de la fiesta es…, lo malo es que…, lo que más me gusta es…",
+        "pt": "Diga o que tem de melhor, de pior e de mais bonito em alguma coisa: lo mejor de la fiesta es…, lo malo es que…, lo que más me gusta es…",
+        "zh": "说某样东西最好、最差和最美的地方：lo mejor de la fiesta es…，lo malo es que…，lo que más me gusta es…"
+      },
+      "target": {
+        "es": "Lo mejor de la fiesta es la música, pero lo peor es el ruido.",
+        "en": "The best thing about the festival is the music, but the worst thing is the noise.",
+        "it": "La cosa migliore della festa è la musica, ma la peggiore è il rumore.",
+        "uk": "Найкраще на святі — музика, а найгірше — шум.",
+        "de": "Das Beste am Fest ist die Musik, aber das Schlimmste ist der Lärm.",
+        "fr": "Le mieux, dans la fête, c'est la musique, mais le pire, c'est le bruit.",
+        "pt": "O melhor da festa é a música, mas o pior é o barulho.",
+        "zh": "节日最棒的是音乐，但最糟糕的是噪音。"
+      },
+      "names": [
+        "Sevilla",
+        "España"
+      ],
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "lo mejor",
+              "en": "the best thing",
+              "it": "la cosa migliore, il meglio",
+              "uk": "найкраще",
+              "de": "das Beste",
+              "fr": "le mieux, le meilleur",
+              "pt": "o melhor, a melhor coisa",
+              "zh": "最好的地方，最棒的是",
+              "kind": "chunk"
+            },
+            {
+              "es": "lo peor",
+              "en": "the worst thing",
+              "it": "la cosa peggiore, il peggio",
+              "uk": "найгірше",
+              "de": "das Schlimmste",
+              "fr": "le pire",
+              "pt": "o pior, a pior coisa",
+              "zh": "最糟糕的地方，最差的是",
+              "kind": "chunk"
+            },
+            {
+              "es": "lo bueno",
+              "en": "the good thing",
+              "it": "il bello, il lato positivo",
+              "uk": "добре (у чомусь), плюс",
+              "de": "das Gute",
+              "fr": "ce qui est bien, le bon côté",
+              "pt": "o bom, o lado bom",
+              "zh": "好的地方，好处",
+              "kind": "chunk"
+            },
+            {
+              "es": "lo malo",
+              "en": "the bad thing",
+              "it": "il brutto, il lato negativo",
+              "uk": "погане (у чомусь), мінус",
+              "de": "das Schlechte",
+              "fr": "ce qui ne va pas, le mauvais côté",
+              "pt": "o ruim, o lado ruim",
+              "zh": "不好的地方，坏处",
+              "kind": "chunk"
+            },
+            {
+              "es": "el ambiente",
+              "en": "the atmosphere",
+              "it": "l'atmosfera",
+              "uk": "атмосфера",
+              "de": "die Stimmung, die Atmosphäre",
+              "fr": "l'ambiance",
+              "pt": "o clima, o ambiente",
+              "zh": "气氛",
+              "kind": "chunk"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "lo",
+              "kind": "ending"
+            },
+            {
+              "text": "mejor",
+              "kind": "chunk"
+            },
+            {
+              "text": "de la fiesta",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "lo mejor means the best thing, and lo peor the worst thing. lo never changes; to say about what, add de: lo mejor de la fiesta, lo peor del viaje.",
+            "it": "lo mejor vuol dire la cosa migliore, lo peor la cosa peggiore. lo non cambia mai; per dire di cosa, aggiungi de: lo mejor de la fiesta, lo peor del viaje.",
+            "uk": "lo mejor означає «найкраще», а lo peor — «найгірше». lo ніколи не змінюється; щоб сказати, у чому саме, додай de: lo mejor de la fiesta, lo peor del viaje.",
+            "de": "lo mejor heißt das Beste, lo peor das Schlimmste. lo ändert sich nie; um zu sagen, woran, füg de hinzu: lo mejor de la fiesta, lo peor del viaje.",
+            "fr": "lo mejor veut dire le mieux, la meilleure chose, et lo peor le pire. lo ne change jamais ; pour dire de quoi on parle, ajoute de : lo mejor de la fiesta, lo peor del viaje.",
+            "pt": "lo mejor quer dizer o melhor, a melhor coisa, e lo peor o pior. lo nunca muda; para dizer de quê, acrescente de: lo mejor de la fiesta, lo peor del viaje.",
+            "zh": "lo mejor 意思是“最好的地方”，lo peor 是“最糟糕的地方”。lo 永远不变；要说是关于什么的，加 de：lo mejor de la fiesta，lo peor del viaje。"
+          },
+          "examples": [
+            {
+              "es": "Lo mejor de la fiesta es la música.",
+              "en": "The best thing about the festival is the music.",
+              "it": "La cosa migliore della festa è la musica.",
+              "uk": "Найкраще на святі — це музика.",
+              "de": "Das Beste am Fest ist die Musik.",
+              "fr": "Le mieux, dans la fête, c'est la musique.",
+              "pt": "O melhor da festa é a música.",
+              "zh": "节日最棒的是音乐。"
+            },
+            {
+              "es": "Lo peor del viaje fue el hotel.",
+              "en": "The worst thing about the trip was the hotel.",
+              "it": "La cosa peggiore del viaggio è stata l'albergo.",
+              "uk": "Найгіршим у поїздці був готель.",
+              "de": "Das Schlimmste an der Reise war das Hotel.",
+              "fr": "Le pire, pendant le voyage, c'était l'hôtel.",
+              "pt": "O pior da viagem foi o hotel.",
+              "zh": "这次旅行最糟糕的是酒店。"
+            },
+            {
+              "es": "Lo mejor es ir en primavera.",
+              "en": "The best thing is to go in spring.",
+              "it": "La cosa migliore è andarci in primavera.",
+              "uk": "Найкраще — поїхати навесні.",
+              "de": "Am besten fährt man im Frühling hin.",
+              "fr": "Le mieux, c'est d'y aller au printemps.",
+              "pt": "O melhor é ir na primavera.",
+              "zh": "最好是春天去。"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "",
+          "after": " mejor de Sevilla es la comida.",
+          "options": [
+            "Lo",
+            "El",
+            "La"
+          ],
+          "answer": "Lo",
+          "en": "The best thing about Seville is the food.",
+          "it": "La cosa migliore di Siviglia è il cibo.",
+          "uk": "Найкраще в Севільї — це їжа.",
+          "de": "Das Beste an Sevilla ist das Essen.",
+          "fr": "Le meilleur de Séville, c'est la cuisine.",
+          "pt": "O melhor de Sevilha é a comida.",
+          "zh": "塞维利亚最棒的是美食。",
+          "hint": {
+            "en": "The best thing: lo mejor.",
+            "it": "La cosa migliore: lo mejor.",
+            "uk": "Найкраще: lo mejor.",
+            "de": "Das Beste: lo mejor.",
+            "fr": "La meilleure chose : lo mejor.",
+            "pt": "O melhor: lo mejor.",
+            "zh": "最好的地方：lo mejor。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "Say the worst thing about the festival is the noise.",
+            "it": "Di' che la cosa peggiore della festa è il rumore.",
+            "uk": "Скажи, що найгірше на святі — це шум.",
+            "de": "Sag, dass das Schlimmste am Fest der Lärm ist.",
+            "fr": "Dis que le pire, dans la fête, c'est le bruit.",
+            "pt": "Diga que o pior da festa é o barulho.",
+            "zh": "说节日最糟糕的是噪音。"
+          },
+          "accepted": [
+            "Lo peor de la fiesta es el ruido.",
+            "El ruido es lo peor de la fiesta."
+          ],
+          "tiles": [
+            "Lo peor",
+            "de la fiesta",
+            "es",
+            "el ruido",
+            "El peor",
+            "está"
+          ],
+          "en": "The worst thing about the festival is the noise.",
+          "it": "La cosa peggiore della festa è il rumore.",
+          "uk": "Найгірше на святі — це шум.",
+          "de": "Das Schlimmste am Fest ist der Lärm.",
+          "fr": "Le pire, dans la fête, c'est le bruit.",
+          "pt": "O pior da festa é o barulho.",
+          "zh": "节日最糟糕的是噪音。",
+          "hint": {
+            "en": "The worst thing: lo peor, never el peor.",
+            "it": "La cosa peggiore: lo peor, mai el peor.",
+            "uk": "Найгірше: lo peor, ніколи не el peor.",
+            "de": "Das Schlimmste: lo peor, nie el peor.",
+            "fr": "Le pire : lo peor, jamais el peor.",
+            "pt": "O pior: lo peor, nunca el peor.",
+            "zh": "最糟糕的地方：lo peor，千万不要说 el peor。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "lo",
+              "kind": "ending"
+            },
+            {
+              "text": "bueno",
+              "kind": "chunk"
+            },
+            {
+              "text": "es que…",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "lo works with any adjective, always in the masculine form: lo bueno, lo malo, lo importante. For the most: lo más + the adjective. To add a whole sentence: lo bueno es que…",
+            "it": "lo funziona con qualsiasi aggettivo, sempre al maschile: lo bueno, lo malo, lo importante. Per il più: lo más + l'aggettivo. Per aggiungere una frase intera: lo bueno es que…",
+            "uk": "lo вживається з будь-яким прикметником, завжди в чоловічому роді: lo bueno, lo malo, lo importante. Щоб сказати «найбільш…»: lo más + прикметник. Щоб додати ціле речення: lo bueno es que…",
+            "de": "lo funktioniert mit jedem Adjektiv, immer in der männlichen Form: lo bueno, lo malo, lo importante – wie im Deutschen 'das Gute, das Schlechte, das Wichtige'. Für das …ste: lo más + das Adjektiv. Um einen ganzen Satz anzuhängen: lo bueno es que…",
+            "fr": "lo marche avec n'importe quel adjectif, toujours au masculin : lo bueno, lo malo, lo importante. Pour « le plus » : lo más + l'adjectif. Pour ajouter une phrase entière : lo bueno es que…",
+            "pt": "lo funciona com qualquer adjetivo, sempre no masculino: lo bueno, lo malo, lo importante. Para o mais: lo más + o adjetivo. Para acrescentar uma frase inteira: lo bueno es que…",
+            "zh": "lo 可以和任何形容词搭配，形容词总是用阳性形式：lo bueno，lo malo，lo importante。说“最……的”：lo más + 形容词。要接一整句话：lo bueno es que…"
+          },
+          "examples": [
+            {
+              "es": "Lo bueno es que hay mucho ambiente.",
+              "en": "The good thing is that there's a great atmosphere.",
+              "it": "Il bello è che c'è tanta atmosfera.",
+              "uk": "Добре те, що там чудова атмосфера.",
+              "de": "Das Gute ist, dass eine tolle Stimmung herrscht.",
+              "fr": "Ce qui est bien, c'est qu'il y a beaucoup d'ambiance.",
+              "pt": "O bom é que tem um clima ótimo.",
+              "zh": "好的是气氛很热闹。"
+            },
+            {
+              "es": "Lo malo es que todo es carísimo.",
+              "en": "The bad thing is that everything is extremely expensive.",
+              "it": "Il brutto è che è tutto carissimo.",
+              "uk": "Погано те, що все страшенно дороге.",
+              "de": "Das Schlechte ist, dass alles extrem teuer ist.",
+              "fr": "Le problème, c'est que tout est hors de prix.",
+              "pt": "O ruim é que tudo é caríssimo.",
+              "zh": "不好的是什么都特别贵。"
+            },
+            {
+              "es": "Lo más bonito de la ciudad es el barrio antiguo.",
+              "en": "The most beautiful thing about the city is the old quarter.",
+              "it": "La cosa più bella della città è il quartiere antico.",
+              "uk": "Найгарніше в місті — старий квартал.",
+              "de": "Das Schönste an der Stadt ist die Altstadt.",
+              "fr": "Le plus beau, dans la ville, c'est le vieux quartier.",
+              "pt": "O mais bonito da cidade é o bairro antigo.",
+              "zh": "这座城市最美的是老城区。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "importante",
+              "en": "important",
+              "it": "importante",
+              "uk": "важливий",
+              "de": "wichtig",
+              "fr": "important",
+              "pt": "importante",
+              "zh": "重要的"
+            },
+            {
+              "es": "lo importante",
+              "en": "the important thing",
+              "it": "la cosa importante",
+              "uk": "головне, найважливіше",
+              "de": "das Wichtige, das Wichtigste",
+              "fr": "l'important, ce qui compte",
+              "pt": "o importante",
+              "zh": "重要的是，重要的事"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Lo ",
+          "after": " es que el museo es gratis.",
+          "options": [
+            "bueno",
+            "buena",
+            "buenos"
+          ],
+          "answer": "bueno",
+          "en": "The good thing is that the museum is free.",
+          "it": "Il bello è che il museo è gratis.",
+          "uk": "Добре те, що музей безкоштовний.",
+          "de": "Das Gute ist, dass das Museum kostenlos ist.",
+          "fr": "Ce qui est bien, c'est que le musée est gratuit.",
+          "pt": "O bom é que o museu é de graça.",
+          "zh": "好的是博物馆免费。",
+          "hint": {
+            "en": "After lo: always the masculine form, bueno.",
+            "it": "Dopo lo: sempre il maschile, bueno.",
+            "uk": "Після lo — завжди чоловічий рід: bueno.",
+            "de": "Nach lo: immer die männliche Form, bueno.",
+            "fr": "Après lo : toujours la forme masculine, bueno.",
+            "pt": "Depois de lo: sempre o masculino, bueno.",
+            "zh": "lo 后面：总是用阳性形式，bueno。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "fire",
+          "before": "Lo más ",
+          "after": " de la ciudad es el río.",
+          "label": "bonito",
+          "accepted": [
+            "bonito"
+          ],
+          "en": "The most beautiful thing about the city is the river.",
+          "it": "La cosa più bella della città è il fiume.",
+          "uk": "Найгарніше в місті — річка.",
+          "de": "Das Schönste an der Stadt ist der Fluss.",
+          "fr": "Le plus beau, dans la ville, c'est la rivière.",
+          "pt": "O mais bonito da cidade é o rio.",
+          "zh": "这座城市最美的是那条河。",
+          "hint": {
+            "en": "lo más + the adjective in the masculine: bonito.",
+            "it": "lo más + l'aggettivo al maschile: bonito.",
+            "uk": "lo más + прикметник у чоловічому роді: bonito.",
+            "de": "lo más + das Adjektiv in der männlichen Form: bonito.",
+            "fr": "lo más + l'adjectif au masculin : bonito.",
+            "pt": "lo más + o adjetivo no masculino: bonito.",
+            "zh": "lo más + 阳性形式的形容词：bonito。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "lo que",
+              "kind": "ending"
+            },
+            {
+              "text": "más",
+              "kind": "chunk"
+            },
+            {
+              "text": "me gusta",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "lo que más me gusta (what I like most) + es + a thing or a verb: lo que más me gusta es bailar. The opposite: lo que menos me gusta.",
+            "it": "lo que más me gusta (quello che mi piace di più) + es + una cosa o un verbo: lo que más me gusta es bailar. Il contrario: lo que menos me gusta.",
+            "uk": "lo que más me gusta (що мені найбільше подобається) + es + річ або дієслово: lo que más me gusta es bailar. Протилежне: lo que menos me gusta.",
+            "de": "lo que más me gusta (was mir am besten gefällt) + es + eine Sache oder ein Verb: lo que más me gusta es bailar. Das Gegenteil: lo que menos me gusta.",
+            "fr": "lo que más me gusta (ce que j'aime le plus) + es + une chose ou un verbe : lo que más me gusta es bailar. Le contraire : lo que menos me gusta.",
+            "pt": "lo que más me gusta (o que eu mais gosto) + es + uma coisa ou um verbo: lo que más me gusta es bailar. O contrário: lo que menos me gusta.",
+            "zh": "lo que más me gusta（我最喜欢的）+ es + 东西或动词原形：lo que más me gusta es bailar。反过来说：lo que menos me gusta。"
+          },
+          "examples": [
+            {
+              "es": "Lo que más me gusta de España es la comida.",
+              "en": "What I like most about Spain is the food.",
+              "it": "Quello che mi piace di più della Spagna è il cibo.",
+              "uk": "Найбільше в Іспанії мені подобається їжа.",
+              "de": "Was mir an Spanien am besten gefällt, ist das Essen.",
+              "fr": "Ce que j'aime le plus en Espagne, c'est la cuisine.",
+              "pt": "O que eu mais gosto na Espanha é a comida.",
+              "zh": "西班牙我最喜欢的是美食。"
+            },
+            {
+              "es": "Lo que más me gusta es bailar.",
+              "en": "What I like most is dancing.",
+              "it": "Quello che mi piace di più è ballare.",
+              "uk": "Найбільше мені подобається танцювати.",
+              "de": "Was mir am besten gefällt, ist Tanzen.",
+              "fr": "Ce que j'aime le plus, c'est danser.",
+              "pt": "O que eu mais gosto é dançar.",
+              "zh": "我最喜欢的是跳舞。"
+            },
+            {
+              "es": "Lo que menos me gusta es el calor.",
+              "en": "What I like least is the heat.",
+              "it": "Quello che mi piace di meno è il caldo.",
+              "uk": "Найменше мені подобається спека.",
+              "de": "Was mir am wenigsten gefällt, ist die Hitze.",
+              "fr": "Ce que j'aime le moins, c'est la chaleur.",
+              "pt": "O que eu menos gosto é o calor.",
+              "zh": "我最不喜欢的是炎热。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "lo que",
+              "en": "what, the thing that",
+              "it": "quello che, ciò che",
+              "uk": "те, що; що",
+              "de": "was, das, was",
+              "fr": "ce que, ce qui",
+              "pt": "o que, aquilo que",
+              "zh": "……的东西，……的事"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Lo ",
+          "after": " más me gusta de la fiesta es la música.",
+          "options": [
+            "que",
+            "qué",
+            "de"
+          ],
+          "answer": "que",
+          "en": "What I like most about the festival is the music.",
+          "it": "Quello che mi piace di più della festa è la musica.",
+          "uk": "Найбільше на святі мені подобається музика.",
+          "de": "Was mir am Fest am besten gefällt, ist die Musik.",
+          "fr": "Ce que j'aime le plus dans la fête, c'est la musique.",
+          "pt": "O que eu mais gosto na festa é a música.",
+          "zh": "节日我最喜欢的是音乐。",
+          "hint": {
+            "en": "What I like most: lo que, with no accent.",
+            "it": "Quello che mi piace di più: lo que, senza accento.",
+            "uk": "Що мені найбільше подобається: lo que, без знака наголосу.",
+            "de": "Was mir am besten gefällt: lo que, ohne Akzent.",
+            "fr": "Ce que j'aime le plus : lo que, sans accent.",
+            "pt": "O que eu mais gosto: lo que, sem acento.",
+            "zh": "我最喜欢的：lo que，不带重音符号。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "Say that what you like most about Spain is the people.",
+            "it": "Di' che quello che ti piace di più della Spagna è la gente.",
+            "uk": "Скажи, що найбільше в Іспанії тобі подобаються люди.",
+            "de": "Sag, dass dir an Spanien die Leute am besten gefallen.",
+            "fr": "Dis que ce que tu aimes le plus en Espagne, ce sont les gens.",
+            "pt": "Diga que o que você mais gosta na Espanha são as pessoas.",
+            "zh": "说西班牙你最喜欢的是这里的人。"
+          },
+          "accepted": [
+            "Lo que más me gusta de España es la gente."
+          ],
+          "tiles": [
+            "Lo que",
+            "más",
+            "me gusta",
+            "de España",
+            "es",
+            "la gente",
+            "menos",
+            "Lo qué"
+          ],
+          "en": "What I like most about Spain is the people.",
+          "it": "Quello che mi piace di più della Spagna è la gente.",
+          "uk": "Найбільше в Іспанії мені подобаються люди.",
+          "de": "Was mir an Spanien am besten gefällt, sind die Leute.",
+          "fr": "Ce que j'aime le plus en Espagne, ce sont les gens.",
+          "pt": "O que eu mais gosto na Espanha são as pessoas.",
+          "zh": "西班牙我最喜欢的是这里的人。",
+          "hint": {
+            "en": "lo que más me gusta + es.",
+            "it": "lo que más me gusta + es.",
+            "uk": "lo que más me gusta + es.",
+            "de": "lo que más me gusta + es.",
+            "fr": "lo que más me gusta + es.",
+            "pt": "lo que más me gusta + es.",
+            "zh": "lo que más me gusta + es。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "Lo ",
+          "after": " de la fiesta es que dura poco.",
+          "options": [
+            "malo",
+            "mala"
+          ],
+          "answer": "malo",
+          "en": "The bad thing about the festival is that it doesn't last long.",
+          "it": "Il brutto della festa è che dura poco.",
+          "uk": "Погано на цьому святі те, що воно триває недовго.",
+          "de": "Das Schlechte am Fest ist, dass es nicht lange dauert.",
+          "fr": "Le problème de la fête, c'est qu'elle ne dure pas longtemps.",
+          "pt": "O ruim da festa é que ela dura pouco.",
+          "zh": "节日不好的地方是持续时间太短。",
+          "hint": {
+            "en": "After lo: the masculine form, malo.",
+            "it": "Dopo lo: il maschile, malo.",
+            "uk": "Після lo — чоловічий рід: malo.",
+            "de": "Nach lo: die männliche Form, malo.",
+            "fr": "Après lo : la forme masculine, malo.",
+            "pt": "Depois de lo: o masculino, malo.",
+            "zh": "lo 后面：用阳性形式，malo。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "mix",
+          "before": "Lo ",
+          "after": " del viaje fue el hotel: estaba muy sucio.",
+          "label": "malo",
+          "accepted": [
+            "peor",
+            "malo"
+          ],
+          "en": "The worst thing about the trip was the hotel: it was very dirty.",
+          "it": "La cosa peggiore del viaggio è stata l'albergo: era sporchissimo.",
+          "uk": "Найгіршим у поїздці був готель: він був дуже брудний.",
+          "de": "Das Schlimmste an der Reise war das Hotel: Es war sehr schmutzig.",
+          "fr": "Le pire, pendant le voyage, c'était l'hôtel : il était très sale.",
+          "pt": "O pior da viagem foi o hotel: estava muito sujo.",
+          "zh": "这次旅行最糟糕的是酒店：特别脏。",
+          "hint": {
+            "en": "The worst thing: lo peor, from malo.",
+            "it": "La cosa peggiore: lo peor, da malo.",
+            "uk": "Найгірше: lo peor, від malo.",
+            "de": "Das Schlimmste: lo peor, von malo.",
+            "fr": "Le pire : lo peor, qui vient de malo.",
+            "pt": "O pior: lo peor, de malo.",
+            "zh": "最糟糕的地方：lo peor，来自 malo。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "mix",
+          "intention": {
+            "en": "Say the good thing is that the festival is free.",
+            "it": "Di' che il bello è che la festa è gratis.",
+            "uk": "Скажи: добре те, що свято безкоштовне.",
+            "de": "Sag, dass das Gute ist, dass das Fest kostenlos ist.",
+            "fr": "Dis que ce qui est bien, c'est que la fête est gratuite.",
+            "pt": "Diga que o bom é que a festa é de graça.",
+            "zh": "说好的是节日免费。"
+          },
+          "accepted": [
+            "Lo bueno es que la fiesta es gratis."
+          ],
+          "tiles": [
+            "Lo bueno",
+            "es que",
+            "la fiesta",
+            "es",
+            "gratis",
+            "Lo buena",
+            "está"
+          ],
+          "en": "The good thing is that the festival is free.",
+          "it": "Il bello è che la festa è gratis.",
+          "uk": "Добре те, що свято безкоштовне.",
+          "de": "Das Gute ist, dass das Fest kostenlos ist.",
+          "fr": "Ce qui est bien, c'est que la fête est gratuite.",
+          "pt": "O bom é que a festa é de graça.",
+          "zh": "好的是节日免费。",
+          "hint": {
+            "en": "lo bueno es que + the sentence.",
+            "it": "lo bueno es que + la frase.",
+            "uk": "lo bueno es que + речення.",
+            "de": "lo bueno es que + der Satz.",
+            "fr": "lo bueno es que + la phrase.",
+            "pt": "lo bueno es que + a frase.",
+            "zh": "lo bueno es que + 一句话。"
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "Write in Spanish: «The best thing about the festival is the music, but the worst thing is the noise.»",
+            "it": "Scrivi in spagnolo: «La cosa migliore della festa è la musica, ma la peggiore è il rumore.»",
+            "uk": "Напиши іспанською: «Найкраще на святі — музика, а найгірше — шум.»",
+            "de": "Schreib auf Spanisch: «Das Beste am Fest ist die Musik, aber das Schlimmste ist der Lärm.»",
+            "fr": "Écris en espagnol : «Le mieux, dans la fête, c'est la musique, mais le pire, c'est le bruit.»",
+            "pt": "Escreva em espanhol: «O melhor da festa é a música, mas o pior é o barulho.»",
+            "zh": "用西班牙语写：«节日最棒的是音乐，但最糟糕的是噪音。»"
+          },
+          "accepted": [
+            "Lo mejor de la fiesta es la música, pero lo peor es el ruido.",
+            "Lo mejor de la fiesta es la música pero lo peor es el ruido.",
+            "Lo mejor de la fiesta es la música; lo peor, el ruido.",
+            "Lo mejor de la fiesta es la música, pero lo peor de la fiesta es el ruido.",
+            "Lo mejor de la fiesta es la música, pero lo malo es el ruido."
+          ],
+          "model": {
+            "es": "Lo mejor de la fiesta es la música, pero lo peor es el ruido.",
+            "en": "The best thing about the festival is the music, but the worst thing is the noise.",
+            "it": "La cosa migliore della festa è la musica, ma la peggiore è il rumore.",
+            "uk": "Найкраще на святі — музика, а найгірше — шум.",
+            "de": "Das Beste am Fest ist die Musik, aber das Schlimmste ist der Lärm.",
+            "fr": "Le mieux, dans la fête, c'est la musique, mais le pire, c'est le bruit.",
+            "pt": "O melhor da festa é a música, mas o pior é o barulho.",
+            "zh": "节日最棒的是音乐，但最糟糕的是噪音。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u28l5",
+      "goal": {
+        "en": "Recommend things to a visitor: te recomiendo + a thing or a verb, ¿qué me recomiendas?, merece la pena.",
+        "it": "Consiglia cose a un visitatore: te recomiendo + una cosa o un verbo, ¿qué me recomiendas?, merece la pena.",
+        "uk": "Радь гостеві, що подивитися й зробити: te recomiendo + річ або дієслово, ¿qué me recomiendas?, merece la pena.",
+        "de": "Gib einem Besucher Empfehlungen: te recomiendo + eine Sache oder ein Verb, ¿qué me recomiendas?, merece la pena.",
+        "fr": "Faire des recommandations à un visiteur : te recomiendo + une chose ou un verbe, ¿qué me recomiendas?, merece la pena.",
+        "pt": "Faça recomendações a um visitante: te recomiendo + uma coisa ou um verbo, ¿qué me recomiendas?, merece la pena.",
+        "zh": "给游客推荐：te recomiendo + 东西或动词原形，¿qué me recomiendas?，merece la pena。"
+      },
+      "target": {
+        "es": "Te recomiendo visitar el barrio antiguo: merece la pena.",
+        "en": "I recommend visiting the old quarter: it's worth it.",
+        "it": "Ti consiglio di visitare il quartiere antico: ne vale la pena.",
+        "uk": "Раджу тобі відвідати старий квартал: воно того варте.",
+        "de": "Ich empfehle dir, die Altstadt zu besichtigen: Es lohnt sich.",
+        "fr": "Je te recommande de visiter le vieux quartier : ça vaut la peine.",
+        "pt": "Recomendo que você visite o bairro antigo: vale a pena.",
+        "zh": "我推荐你去逛逛老城区：很值得。"
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "recomendar",
+              "en": "to recommend",
+              "it": "consigliare",
+              "uk": "радити, рекомендувати",
+              "de": "empfehlen",
+              "fr": "recommander, conseiller",
+              "pt": "recomendar",
+              "zh": "推荐",
+              "kind": "stem"
+            },
+            {
+              "es": "merece la pena",
+              "en": "it's worth it",
+              "it": "ne vale la pena",
+              "uk": "воно того варте",
+              "de": "es lohnt sich",
+              "fr": "ça vaut la peine",
+              "pt": "vale a pena",
+              "zh": "值得",
+              "kind": "chunk"
+            },
+            {
+              "es": "el sitio",
+              "en": "the place",
+              "it": "il posto",
+              "uk": "місце",
+              "de": "der Ort, das Lokal",
+              "fr": "l'endroit",
+              "pt": "o lugar",
+              "zh": "地方",
+              "kind": "chunk"
+            },
+            {
+              "es": "las vistas",
+              "en": "the view",
+              "it": "il panorama, la vista",
+              "uk": "краєвид",
+              "de": "die Aussicht",
+              "fr": "la vue",
+              "pt": "a vista",
+              "zh": "景色，风景",
+              "kind": "chunk"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "recomendar",
+              "kind": "stem"
+            },
+            {
+              "text": "→ recomiendo",
+              "kind": "ending"
+            }
+          ],
+          "rule": {
+            "en": "recomendar changes e to ie, like querer: recomiendo, recomiendas, recomienda, recomendamos, recomendáis, recomiendan. To ask a friend: ¿qué me recomiendas?",
+            "it": "recomendar cambia la e in ie, come querer: recomiendo, recomiendas, recomienda, recomendamos, recomendáis, recomiendan. Per chiedere a un amico: ¿qué me recomiendas?",
+            "uk": "recomendar змінює e на ie, як querer: recomiendo, recomiendas, recomienda, recomendamos, recomendáis, recomiendan. Щоб запитати друга: ¿qué me recomiendas?",
+            "de": "recomendar ändert e zu ie, wie querer: recomiendo, recomiendas, recomienda, recomendamos, recomendáis, recomiendan. Um einen Freund zu fragen: ¿qué me recomiendas?",
+            "fr": "recomendar change e en ie, comme querer : recomiendo, recomiendas, recomienda, recomendamos, recomendáis, recomiendan. Pour demander à un ami : ¿qué me recomiendas?",
+            "pt": "recomendar muda o e para ie, como querer: recomiendo, recomiendas, recomienda, recomendamos, recomendáis, recomiendan. Para perguntar a um amigo: ¿qué me recomiendas?",
+            "zh": "recomendar 的 e 变成 ie，和 querer 一样：recomiendo, recomiendas, recomienda, recomendamos, recomendáis, recomiendan。问朋友：¿qué me recomiendas?"
+          },
+          "examples": [
+            {
+              "es": "¿Qué me recomiendas?",
+              "en": "What do you recommend?",
+              "it": "Cosa mi consigli?",
+              "uk": "Що ти мені порадиш?",
+              "de": "Was empfiehlst du mir?",
+              "fr": "Qu'est-ce que tu me conseilles ?",
+              "pt": "O que você me recomenda?",
+              "zh": "你推荐什么？"
+            },
+            {
+              "es": "Te recomiendo este sitio: es muy tranquilo.",
+              "en": "I recommend this place: it's very quiet.",
+              "it": "Ti consiglio questo posto: è molto tranquillo.",
+              "uk": "Раджу тобі це місце: тут дуже спокійно.",
+              "de": "Ich empfehle dir diesen Ort: Er ist sehr ruhig.",
+              "fr": "Je te recommande cet endroit : il est très calme.",
+              "pt": "Recomendo este lugar para você: é muito tranquilo.",
+              "zh": "我推荐你这个地方：很安静。"
+            },
+            {
+              "es": "Mi madre siempre me recomienda este restaurante.",
+              "en": "My mother always recommends this restaurant to me.",
+              "it": "Mia madre mi consiglia sempre questo ristorante.",
+              "uk": "Мама завжди радить мені цей ресторан.",
+              "de": "Meine Mutter empfiehlt mir immer dieses Restaurant.",
+              "fr": "Ma mère me recommande toujours ce restaurant.",
+              "pt": "Minha mãe sempre me recomenda este restaurante.",
+              "zh": "我妈妈总是向我推荐这家餐厅。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "recomiendo",
+              "en": "I recommend",
+              "it": "consiglio",
+              "uk": "я раджу",
+              "de": "ich empfehle",
+              "fr": "je recommande",
+              "pt": "eu recomendo",
+              "zh": "我推荐"
+            },
+            {
+              "es": "recomiendas",
+              "en": "you recommend",
+              "it": "consigli",
+              "uk": "ти радиш",
+              "de": "du empfiehlst",
+              "fr": "tu recommandes",
+              "pt": "você recomenda",
+              "zh": "你推荐"
+            },
+            {
+              "es": "recomienda",
+              "en": "he/she recommends",
+              "it": "consiglia",
+              "uk": "він/вона радить",
+              "de": "er/sie empfiehlt",
+              "fr": "il/elle recommande",
+              "pt": "ele/ela recomenda",
+              "zh": "他／她推荐"
+            },
+            {
+              "es": "recomendamos",
+              "en": "we recommend",
+              "it": "consigliamo",
+              "uk": "ми радимо",
+              "de": "wir empfehlen",
+              "fr": "nous recommandons",
+              "pt": "nós recomendamos",
+              "zh": "我们推荐"
+            },
+            {
+              "es": "recomendáis",
+              "en": "you all recommend",
+              "it": "consigliate",
+              "uk": "ви (кілька людей) радите",
+              "de": "ihr empfehlt",
+              "fr": "vous recommandez",
+              "pt": "vocês recomendam",
+              "zh": "你们推荐"
+            },
+            {
+              "es": "recomiendan",
+              "en": "they recommend",
+              "it": "consigliano",
+              "uk": "вони радять",
+              "de": "sie empfehlen",
+              "fr": "ils/elles recommandent",
+              "pt": "eles recomendam",
+              "zh": "他们推荐"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Tú conoces bien la ciudad. ¿Qué me ",
+          "after": "?",
+          "options": [
+            "recomiendas",
+            "recomiendo",
+            "recomendamos"
+          ],
+          "answer": "recomiendas",
+          "en": "You know the city well. What do you recommend?",
+          "it": "Tu conosci bene la città. Cosa mi consigli?",
+          "uk": "Ти добре знаєш місто. Що порадиш?",
+          "de": "Du kennst die Stadt gut. Was empfiehlst du mir?",
+          "fr": "Tu connais bien la ville. Qu'est-ce que tu me conseilles ?",
+          "pt": "Você conhece bem a cidade. O que você me recomenda?",
+          "zh": "你很了解这座城市。你推荐什么？",
+          "hint": {
+            "en": "Asking a friend, tú: recomiendas, with ie.",
+            "it": "Chiedi a un amico, tú: recomiendas, con ie.",
+            "uk": "Питаєш друга, tú: recomiendas, з ie.",
+            "de": "Du fragst einen Freund, tú: recomiendas, mit ie.",
+            "fr": "On demande à un ami, tú : recomiendas, avec ie.",
+            "pt": "Você pergunta a um amigo, tú: recomiendas, com ie.",
+            "zh": "问朋友，tú：recomiendas，带 ie。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "fire",
+          "before": "Los camareros siempre ",
+          "after": " la paella.",
+          "label": "recomendar",
+          "accepted": [
+            "recomiendan"
+          ],
+          "en": "The waiters always recommend the paella.",
+          "it": "I camerieri consigliano sempre la paella.",
+          "uk": "Офіціанти завжди радять паелью.",
+          "de": "Die Kellner empfehlen immer die Paella.",
+          "fr": "Les serveurs recommandent toujours la paella.",
+          "pt": "Os garçons sempre recomendam a paella.",
+          "zh": "服务员们总是推荐海鲜饭。",
+          "hint": {
+            "en": "ellos, with ie: recomiendan.",
+            "it": "ellos, con ie: recomiendan.",
+            "uk": "ellos, з ie: recomiendan.",
+            "de": "ellos, mit ie: recomiendan.",
+            "fr": "ellos, avec ie : recomiendan.",
+            "pt": "ellos, com ie: recomiendan.",
+            "zh": "ellos，带 ie：recomiendan。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "te",
+              "kind": "ending"
+            },
+            {
+              "text": "recomiendo",
+              "kind": "stem"
+            },
+            {
+              "text": "ir en primavera",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "Recommend with te recomiendo + a thing (te recomiendo el museo) or + a verb as in the dictionary (te recomiendo ir en primavera). To several friends: os recomiendo; with usted: le recomiendo.",
+            "it": "Consiglia con te recomiendo + una cosa (te recomiendo el museo) o + un verbo come nel dizionario (te recomiendo ir en primavera). A più amici: os recomiendo; con usted: le recomiendo.",
+            "uk": "Радь за допомогою te recomiendo + річ (te recomiendo el museo) або + дієслово у словниковій формі (te recomiendo ir en primavera). Кільком друзям: os recomiendo; з usted: le recomiendo.",
+            "de": "Empfiehl etwas mit te recomiendo + eine Sache (te recomiendo el museo) oder + ein Verb in der Grundform (te recomiendo ir en primavera). Mehreren Freunden: os recomiendo; mit usted: le recomiendo.",
+            "fr": "Pour recommander : te recomiendo + une chose (te recomiendo el museo) ou + un verbe à l'infinitif (te recomiendo ir en primavera). À plusieurs amis : os recomiendo ; avec usted : le recomiendo.",
+            "pt": "Recomende com te recomiendo + uma coisa (te recomiendo el museo) ou + um verbo como no dicionário (te recomiendo ir en primavera). Para vários amigos: os recomiendo; com usted: le recomiendo.",
+            "zh": "推荐时用 te recomiendo + 东西（te recomiendo el museo）或 + 动词原形（te recomiendo ir en primavera）。对几个朋友：os recomiendo；对 usted：le recomiendo。"
+          },
+          "examples": [
+            {
+              "es": "Te recomiendo ir en primavera.",
+              "en": "I recommend going in spring.",
+              "it": "Ti consiglio di andarci in primavera.",
+              "uk": "Раджу тобі поїхати навесні.",
+              "de": "Ich empfehle dir, im Frühling hinzufahren.",
+              "fr": "Je te conseille d'y aller au printemps.",
+              "pt": "Recomendo que você vá na primavera.",
+              "zh": "我推荐你春天去。"
+            },
+            {
+              "es": "Os recomiendo probar las croquetas.",
+              "en": "I recommend you all try the croquettes.",
+              "it": "Vi consiglio di assaggiare le crocchette.",
+              "uk": "Раджу вам скуштувати крокети.",
+              "de": "Ich empfehle euch, die Croquetas zu probieren.",
+              "fr": "Je vous conseille de goûter les croquettes.",
+              "pt": "Recomendo que vocês provem os croquetes.",
+              "zh": "我推荐你们尝尝炸丸子。"
+            },
+            {
+              "es": "Le recomiendo visitar el barrio antiguo.",
+              "en": "I recommend you visit the old quarter.",
+              "it": "Le consiglio di visitare il quartiere antico.",
+              "uk": "Раджу вам відвідати старий квартал.",
+              "de": "Ich empfehle Ihnen, die Altstadt zu besichtigen.",
+              "fr": "Je vous recommande de visiter le vieux quartier.",
+              "pt": "Recomendo que o senhor visite o bairro antigo.",
+              "zh": "我推荐您去参观老城区。"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Te recomiendo ",
+          "after": " el museo por la mañana.",
+          "options": [
+            "visitar",
+            "visitas",
+            "visité"
+          ],
+          "answer": "visitar",
+          "en": "I recommend visiting the museum in the morning.",
+          "it": "Ti consiglio di visitare il museo la mattina.",
+          "uk": "Раджу тобі відвідати музей зранку.",
+          "de": "Ich empfehle dir, das Museum am Vormittag zu besuchen.",
+          "fr": "Je te conseille de visiter le musée le matin.",
+          "pt": "Recomendo que você visite o museu de manhã.",
+          "zh": "我推荐你上午去参观博物馆。",
+          "hint": {
+            "en": "After te recomiendo: the verb as in the dictionary.",
+            "it": "Dopo te recomiendo: il verbo come nel dizionario.",
+            "uk": "Після te recomiendo — дієслово у словниковій формі.",
+            "de": "Nach te recomiendo: das Verb in der Grundform.",
+            "fr": "Après te recomiendo : le verbe à l'infinitif.",
+            "pt": "Depois de te recomiendo: o verbo como no dicionário.",
+            "zh": "te recomiendo 后面：用动词原形。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "Some friends are visiting your city. Recommend that they try the croquettes.",
+            "it": "Degli amici visitano la tua città. Consiglia loro di assaggiare le crocchette.",
+            "uk": "Друзі приїхали до твого міста. Порадь їм скуштувати крокети.",
+            "de": "Ein paar Freunde besuchen deine Stadt. Empfiehl ihnen, die Croquetas zu probieren.",
+            "fr": "Des amis visitent ta ville. Conseille-leur de goûter les croquettes.",
+            "pt": "Uns amigos estão visitando sua cidade. Recomende que eles provem os croquetes.",
+            "zh": "几个朋友来你的城市玩。推荐他们尝尝炸丸子。"
+          },
+          "accepted": [
+            "Os recomiendo probar las croquetas.",
+            "Os recomiendo las croquetas."
+          ],
+          "tiles": [
+            "Os",
+            "recomiendo",
+            "probar",
+            "las croquetas",
+            "Te",
+            "recomienda"
+          ],
+          "en": "I recommend you all try the croquettes.",
+          "it": "Vi consiglio di assaggiare le crocchette.",
+          "uk": "Раджу вам скуштувати крокети.",
+          "de": "Ich empfehle euch, die Croquetas zu probieren.",
+          "fr": "Je vous conseille de goûter les croquettes.",
+          "pt": "Recomendo que vocês provem os croquetes.",
+          "zh": "我推荐你们尝尝炸丸子。",
+          "hint": {
+            "en": "To several friends: os recomiendo + a verb.",
+            "it": "A più amici: os recomiendo + un verbo.",
+            "uk": "Кільком друзям: os recomiendo + дієслово.",
+            "de": "Mehreren Freunden: os recomiendo + ein Verb.",
+            "fr": "À plusieurs amis : os recomiendo + un verbe.",
+            "pt": "Para vários amigos: os recomiendo + um verbo.",
+            "zh": "对几个朋友：os recomiendo + 动词原形。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "merece",
+              "kind": "stem"
+            },
+            {
+              "text": "la pena",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "merece la pena means it's worth it. Add a verb as in the dictionary to say what's worth doing: merece la pena ver la catedral. The opposite: no merece la pena.",
+            "it": "merece la pena vuol dire ne vale la pena. Aggiungi un verbo come nel dizionario per dire cosa vale la pena fare: merece la pena ver la catedral. Il contrario: no merece la pena.",
+            "uk": "merece la pena означає «воно того варте». Додай дієслово у словниковій формі, щоб сказати, що варто зробити: merece la pena ver la catedral. Протилежне: no merece la pena.",
+            "de": "merece la pena heißt: Es lohnt sich. Füg ein Verb in der Grundform hinzu, um zu sagen, was sich lohnt: merece la pena ver la catedral. Das Gegenteil: no merece la pena.",
+            "fr": "merece la pena veut dire ça vaut la peine. Ajoute un verbe à l'infinitif pour dire ce qui vaut la peine d'être fait : merece la pena ver la catedral. Le contraire : no merece la pena.",
+            "pt": "merece la pena quer dizer vale a pena. Acrescente um verbo como no dicionário para dizer o que vale a pena fazer: merece la pena ver la catedral. O contrário: no merece la pena.",
+            "zh": "merece la pena 意思是“值得”。加上动词原形，说什么值得做：merece la pena ver la catedral。反过来说：no merece la pena。"
+          },
+          "examples": [
+            {
+              "es": "Merece la pena ver la catedral.",
+              "en": "It's worth seeing the cathedral.",
+              "it": "Vale la pena vedere la cattedrale.",
+              "uk": "Варто побачити собор.",
+              "de": "Es lohnt sich, die Kathedrale anzuschauen.",
+              "fr": "Ça vaut la peine de voir la cathédrale.",
+              "pt": "Vale a pena ver a catedral.",
+              "zh": "大教堂值得一看。"
+            },
+            {
+              "es": "El museo es caro, pero merece la pena.",
+              "en": "The museum is expensive, but it's worth it.",
+              "it": "Il museo è caro, ma ne vale la pena.",
+              "uk": "Музей дорогий, але він того вартий.",
+              "de": "Das Museum ist teuer, aber es lohnt sich.",
+              "fr": "Le musée est cher, mais ça vaut la peine.",
+              "pt": "O museu é caro, mas vale a pena.",
+              "zh": "博物馆很贵，但是值得。"
+            },
+            {
+              "es": "Desde el puente las vistas son increíbles. Merece la pena.",
+              "en": "From the bridge the view is amazing. It's worth it.",
+              "it": "Dal ponte il panorama è incredibile. Ne vale la pena.",
+              "uk": "З мосту відкривається неймовірний краєвид. Воно того варте.",
+              "de": "Von der Brücke aus ist die Aussicht unglaublich. Es lohnt sich.",
+              "fr": "Depuis le pont, la vue est incroyable. Ça vaut la peine.",
+              "pt": "Da ponte, a vista é incrível. Vale a pena.",
+              "zh": "从桥上看，景色美极了。很值得。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "increíbles",
+              "en": "amazing (plural)",
+              "it": "incredibili",
+              "uk": "неймовірні",
+              "de": "unglaublich (Pl.)",
+              "fr": "incroyables",
+              "pt": "incríveis",
+              "zh": "令人惊叹的（复数）"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "El museo es un poco caro, pero ",
+          "after": " la pena.",
+          "options": [
+            "merece",
+            "tiene",
+            "hace"
+          ],
+          "answer": "merece",
+          "en": "The museum is a bit expensive, but it's worth it.",
+          "it": "Il museo è un po' caro, ma ne vale la pena.",
+          "uk": "Музей трохи дорогий, але він того вартий.",
+          "de": "Das Museum ist ein bisschen teuer, aber es lohnt sich.",
+          "fr": "Le musée est un peu cher, mais ça vaut la peine.",
+          "pt": "O museu é um pouco caro, mas vale a pena.",
+          "zh": "博物馆有点贵，但是值得。",
+          "hint": {
+            "en": "It's worth it: merece la pena.",
+            "it": "Ne vale la pena: merece la pena.",
+            "uk": "Воно того варте: merece la pena.",
+            "de": "Es lohnt sich: merece la pena.",
+            "fr": "Ça vaut la peine : merece la pena.",
+            "pt": "Vale a pena: merece la pena.",
+            "zh": "值得：merece la pena。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "A visitor wants to drive to the centre. Say it's not worth going by car.",
+            "it": "Un visitatore vuole andare in centro in macchina. Digli che non vale la pena andarci in macchina.",
+            "uk": "Гість хоче поїхати в центр машиною. Скажи, що не варто їхати машиною.",
+            "de": "Ein Besucher will mit dem Auto ins Zentrum fahren. Sag, dass es sich nicht lohnt, mit dem Auto hinzufahren.",
+            "fr": "Un visiteur veut aller au centre en voiture. Dis que ça ne vaut pas la peine d'y aller en voiture.",
+            "pt": "Um visitante quer ir de carro até o centro. Diga que não vale a pena ir de carro.",
+            "zh": "一位游客想开车去市中心。告诉他不值得开车去。"
+          },
+          "accepted": [
+            "No merece la pena ir en coche."
+          ],
+          "tiles": [
+            "No",
+            "merece",
+            "la pena",
+            "ir",
+            "en coche",
+            "es",
+            "tiene"
+          ],
+          "en": "It's not worth going by car.",
+          "it": "Non vale la pena andarci in macchina.",
+          "uk": "Не варто їхати машиною.",
+          "de": "Es lohnt sich nicht, mit dem Auto hinzufahren.",
+          "fr": "Ça ne vaut pas la peine d'y aller en voiture.",
+          "pt": "Não vale a pena ir de carro.",
+          "zh": "不值得开车去。",
+          "hint": {
+            "en": "no merece la pena + a verb as in the dictionary.",
+            "it": "no merece la pena + un verbo come nel dizionario.",
+            "uk": "no merece la pena + дієслово у словниковій формі.",
+            "de": "no merece la pena + ein Verb in der Grundform.",
+            "fr": "no merece la pena + un verbe à l'infinitif.",
+            "pt": "no merece la pena + um verbo como no dicionário.",
+            "zh": "no merece la pena + 动词原形。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "",
+          "after": " recomiendo ir a la playa, chicos.",
+          "options": [
+            "Os",
+            "Te",
+            "Le"
+          ],
+          "answer": "Os",
+          "en": "I recommend you go to the beach, guys.",
+          "it": "Vi consiglio di andare in spiaggia, ragazzi.",
+          "uk": "Хлопці, раджу вам піти на пляж.",
+          "de": "Ich empfehle euch, an den Strand zu gehen, Leute.",
+          "fr": "Je vous conseille d'aller à la plage, les amis.",
+          "pt": "Recomendo que vocês vão à praia, pessoal.",
+          "zh": "伙计们，我推荐你们去海滩。",
+          "hint": {
+            "en": "To several friends (chicos): os.",
+            "it": "A più amici (chicos): os.",
+            "uk": "Кільком друзям (chicos): os.",
+            "de": "Mehreren Freunden (chicos): os.",
+            "fr": "À plusieurs amis (chicos) : os.",
+            "pt": "Para vários amigos (chicos): os.",
+            "zh": "对几个朋友（chicos）：os。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "mix",
+          "before": "Mi hermana siempre me ",
+          "after": " este restaurante.",
+          "label": "recomendar",
+          "accepted": [
+            "recomienda"
+          ],
+          "en": "My sister always recommends this restaurant to me.",
+          "it": "Mia sorella mi consiglia sempre questo ristorante.",
+          "uk": "Моя сестра завжди радить мені цей ресторан.",
+          "de": "Meine Schwester empfiehlt mir immer dieses Restaurant.",
+          "fr": "Ma sœur me recommande toujours ce restaurant.",
+          "pt": "Minha irmã sempre me recomenda este restaurante.",
+          "zh": "我姐姐总是向我推荐这家餐厅。",
+          "hint": {
+            "en": "ella, with ie: recomienda.",
+            "it": "ella, con ie: recomienda.",
+            "uk": "ella, з ie: recomienda.",
+            "de": "ella, mit ie: recomienda.",
+            "fr": "ella, avec ie : recomienda.",
+            "pt": "ella, com ie: recomienda.",
+            "zh": "ella，带 ie：recomienda。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "mix",
+          "intention": {
+            "en": "Tell a friend it's worth seeing the cathedral.",
+            "it": "Di' a un amico che vale la pena vedere la cattedrale.",
+            "uk": "Скажи другові, що варто побачити собор.",
+            "de": "Sag einem Freund, dass es sich lohnt, die Kathedrale anzuschauen.",
+            "fr": "Dis à un ami que ça vaut la peine de voir la cathédrale.",
+            "pt": "Diga a um amigo que vale a pena ver a catedral.",
+            "zh": "告诉朋友大教堂值得一看。"
+          },
+          "accepted": [
+            "Merece la pena ver la catedral.",
+            "Merece mucho la pena ver la catedral.",
+            "Merece la pena visitar la catedral."
+          ],
+          "tiles": [
+            "Merece",
+            "la pena",
+            "ver",
+            "la catedral",
+            "Tiene",
+            "visto"
+          ],
+          "en": "It's worth seeing the cathedral.",
+          "it": "Vale la pena vedere la cattedrale.",
+          "uk": "Варто побачити собор.",
+          "de": "Es lohnt sich, die Kathedrale anzuschauen.",
+          "fr": "Ça vaut la peine de voir la cathédrale.",
+          "pt": "Vale a pena ver a catedral.",
+          "zh": "大教堂值得一看。",
+          "hint": {
+            "en": "merece la pena + a verb as in the dictionary.",
+            "it": "merece la pena + un verbo come nel dizionario.",
+            "uk": "merece la pena + дієслово у словниковій формі.",
+            "de": "merece la pena + ein Verb in der Grundform.",
+            "fr": "merece la pena + un verbe à l'infinitif.",
+            "pt": "merece la pena + um verbo como no dicionário.",
+            "zh": "merece la pena + 动词原形。"
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "Write in Spanish: «I recommend visiting the old quarter: it's worth it.»",
+            "it": "Scrivi in spagnolo: «Ti consiglio di visitare il quartiere antico: ne vale la pena.»",
+            "uk": "Напиши іспанською: «Раджу тобі відвідати старий квартал: воно того варте.»",
+            "de": "Schreib auf Spanisch: «Ich empfehle dir, die Altstadt zu besichtigen: Es lohnt sich.»",
+            "fr": "Écris en espagnol : «Je te recommande de visiter le vieux quartier : ça vaut la peine.»",
+            "pt": "Escreva em espanhol: «Recomendo que você visite o bairro antigo: vale a pena.»",
+            "zh": "用西班牙语写：«我推荐你去逛逛老城区：很值得。»"
+          },
+          "accepted": [
+            "Te recomiendo visitar el barrio antiguo: merece la pena.",
+            "Te recomiendo visitar el barrio antiguo, merece la pena.",
+            "Te recomiendo visitar el barrio antiguo. Merece la pena.",
+            "Te recomiendo ver el barrio antiguo: merece la pena.",
+            "Te recomiendo el barrio antiguo: merece la pena.",
+            "Os recomiendo visitar el barrio antiguo: merece la pena.",
+            "Le recomiendo visitar el barrio antiguo: merece la pena."
+          ],
+          "model": {
+            "es": "Te recomiendo visitar el barrio antiguo: merece la pena.",
+            "en": "I recommend visiting the old quarter: it's worth it.",
+            "it": "Ti consiglio di visitare il quartiere antico: ne vale la pena.",
+            "uk": "Раджу тобі відвідати старий квартал: воно того варте.",
+            "de": "Ich empfehle dir, die Altstadt zu besichtigen: Es lohnt sich.",
+            "fr": "Je te recommande de visiter le vieux quartier : ça vaut la peine.",
+            "pt": "Recomendo que você visite o bairro antigo: vale a pena.",
+            "zh": "我推荐你去逛逛老城区：很值得。"
+          }
+        }
+      ]
+    }
+  ],
+  "boss": {
+    "id": "u28boss",
+    "goal": {
+      "en": "A visitor from abroad is spending a day in {city}, and you're showing them around. Tell them about the city's festivals and customs, share your memories and give them tips.",
+      "it": "Un visitatore straniero passa una giornata a {city} e tu gli fai da guida. Raccontagli le feste e le usanze della città, condividi i tuoi ricordi e dagli qualche consiglio.",
+      "uk": "Іноземний гість проводить день у місті {city}, і ти показуєш йому місто. Розкажи про свята й звичаї міста, поділися своїми спогадами й дай кілька порад.",
+      "de": "Ein Besucher aus dem Ausland verbringt einen Tag in {city}, und du zeigst ihm die Stadt. Erzähl ihm von den Festen und Bräuchen der Stadt, teil deine Erinnerungen und gib ihm Tipps.",
+      "fr": "Un visiteur étranger passe une journée à {city}, et tu lui fais visiter la ville. Parle-lui des fêtes et des coutumes de la ville, partage tes souvenirs et donne-lui des conseils.",
+      "pt": "Um visitante estrangeiro vai passar um dia em {city}, e você está mostrando a cidade para ele. Fale das festas e dos costumes da cidade, conte suas lembranças e dê algumas dicas.",
+      "zh": "一位外国游客要在{city}待一天，你带他四处看看。给他介绍这座城市的节日和习俗，讲讲你的回忆，再给他一些建议。"
+    },
+    "target": {
+      "es": "Lo mejor de mi ciudad es la gente. Te recomiendo volver en verano, para las fiestas.",
+      "en": "The best thing about my city is the people. I recommend coming back in summer, for the festival.",
+      "it": "La cosa migliore della mia città è la gente. Ti consiglio di tornare d'estate, per la festa.",
+      "uk": "Найкраще в моєму місті — люди. Раджу тобі приїхати ще раз улітку, на свято.",
+      "de": "Das Beste an meiner Stadt sind die Leute. Ich empfehle dir, im Sommer wiederzukommen, zum Stadtfest.",
+      "fr": "Le mieux, dans ma ville, ce sont les gens. Je te conseille de revenir en été, pour la fête.",
+      "pt": "O melhor da minha cidade são as pessoas. Recomendo que você volte no verão, para a festa.",
+      "zh": "我们城市最棒的是这里的人。我推荐你夏天再来，赶上节庆。"
+    },
+    "items": [
+      {
+        "type": "words",
+        "words": [
+          {
+            "es": "el casco antiguo",
+            "en": "the old town",
+            "it": "il centro storico",
+            "uk": "старе місто, історичний центр",
+            "de": "die Altstadt",
+            "fr": "la vieille ville",
+            "pt": "o centro histórico",
+            "zh": "老城区，历史街区",
+            "kind": "chunk"
+          },
+          {
+            "es": "los turistas",
+            "en": "the tourists",
+            "it": "i turisti",
+            "uk": "туристи",
+            "de": "die Touristen",
+            "fr": "les touristes",
+            "pt": "os turistas",
+            "zh": "游客（复数）",
+            "kind": "chunk"
+          }
+        ]
+      },
+      {
+        "type": "build",
+        "intention": {
+          "en": "In the main square the visitor says «¡Qué ciudad tan bonita!». Say that what you like most about your city is the old town.",
+          "it": "In piazza il visitatore dice «¡Qué ciudad tan bonita!». Rispondi che quello che ti piace di più della tua città è il centro storico.",
+          "uk": "На головній площі гість каже «¡Qué ciudad tan bonita!». Скажи, що найбільше у твоєму місті тобі подобається старе місто.",
+          "de": "Auf dem Hauptplatz sagt der Besucher «¡Qué ciudad tan bonita!». Sag, dass dir an deiner Stadt die Altstadt am besten gefällt.",
+          "fr": "Sur la grand-place, le visiteur dit «¡Qué ciudad tan bonita!». Dis que ce que tu aimes le plus dans ta ville, c'est la vieille ville.",
+          "pt": "Na praça principal, o visitante diz «¡Qué ciudad tan bonita!». Diga que o que você mais gosta na sua cidade é o centro histórico.",
+          "zh": "在主广场上，游客说：«¡Qué ciudad tan bonita!»。说你们城市你最喜欢的是老城区。"
+        },
+        "accepted": [
+          "Lo que más me gusta de mi ciudad es el casco antiguo.",
+          "Lo que más me gusta de {city} es el casco antiguo."
+        ],
+        "tiles": [
+          "Lo que",
+          "más",
+          "me gusta",
+          "de mi ciudad",
+          "es",
+          "el casco antiguo",
+          "Lo qué",
+          "menos"
+        ],
+        "en": "What I like most about my city is the old town.",
+        "it": "Quello che mi piace di più della mia città è il centro storico.",
+        "uk": "Найбільше в моєму місті мені подобається старе місто.",
+        "de": "Was mir an meiner Stadt am besten gefällt, ist die Altstadt.",
+        "fr": "Ce que j'aime le plus dans ma ville, c'est la vieille ville.",
+        "pt": "O que eu mais gosto na minha cidade é o centro histórico.",
+        "zh": "我们城市我最喜欢的是老城区。",
+        "hint": {
+          "en": "lo que más me gusta + es.",
+          "it": "lo que más me gusta + es.",
+          "uk": "lo que más me gusta + es.",
+          "de": "lo que más me gusta + es.",
+          "fr": "lo que más me gusta + es.",
+          "pt": "lo que más me gusta + es.",
+          "zh": "lo que más me gusta + es。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "En verano se ",
+        "after": " las fiestas de la ciudad.",
+        "options": [
+          "celebran",
+          "celebra"
+        ],
+        "answer": "celebran",
+        "en": "In summer the city's festival is held.",
+        "it": "D'estate si fa la festa della città.",
+        "uk": "Улітку відзначають свято міста.",
+        "de": "Im Sommer wird das Stadtfest gefeiert.",
+        "fr": "En été, c'est la fête de la ville.",
+        "pt": "No verão acontece a festa da cidade.",
+        "zh": "城市的节庆在夏天举行。",
+        "hint": {
+          "en": "las fiestas is plural: se celebran.",
+          "it": "las fiestas è plurale: se celebran.",
+          "uk": "las fiestas — множина: se celebran.",
+          "de": "las fiestas ist Plural: se celebran.",
+          "fr": "las fiestas est au pluriel : se celebran.",
+          "pt": "las fiestas é plural: se celebran.",
+          "zh": "las fiestas 是复数：se celebran。"
+        }
+      },
+      {
+        "type": "build",
+        "intention": {
+          "en": "The visitor asks «¿Y cuánto dura la fiesta?». Say it lasts a week.",
+          "it": "Il visitatore chiede «¿Y cuánto dura la fiesta?». Rispondi che dura una settimana.",
+          "uk": "Гість питає «¿Y cuánto dura la fiesta?». Скажи, що воно триває тиждень.",
+          "de": "Der Besucher fragt «¿Y cuánto dura la fiesta?». Sag, dass es eine Woche dauert.",
+          "fr": "Le visiteur demande «¿Y cuánto dura la fiesta?». Dis qu'elle dure une semaine.",
+          "pt": "O visitante pergunta «¿Y cuánto dura la fiesta?». Diga que dura uma semana.",
+          "zh": "游客问：«¿Y cuánto dura la fiesta?»。说节日持续一个星期。"
+        },
+        "accepted": [
+          "Dura una semana.",
+          "La fiesta dura una semana."
+        ],
+        "tiles": [
+          "Dura",
+          "una semana",
+          "Es",
+          "duran"
+        ],
+        "en": "It lasts a week.",
+        "it": "Dura una settimana.",
+        "uk": "Воно триває тиждень.",
+        "de": "Es dauert eine Woche.",
+        "fr": "Elle dure une semaine.",
+        "pt": "Dura uma semana.",
+        "zh": "持续一个星期。",
+        "hint": {
+          "en": "How long it lasts: dura.",
+          "it": "Quanto dura: dura.",
+          "uk": "Скільки триває: dura.",
+          "de": "Wie lange es dauert: dura.",
+          "fr": "Combien de temps elle dure : dura.",
+          "pt": "Quanto tempo dura: dura.",
+          "zh": "持续多久：dura。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "Cuando era joven, ",
+        "after": " a la verbena con mis amigos todas las noches.",
+        "options": [
+          "iba",
+          "fui",
+          "voy"
+        ],
+        "answer": "iba",
+        "en": "When I was young, I used to go to the open-air dance with my friends every night.",
+        "it": "Quando ero giovane, andavo alla festa da ballo con i miei amici tutte le sere.",
+        "uk": "Коли я був(-ла) молодим(-ою), я щовечора ходив(-ла) з друзями на танці просто неба.",
+        "de": "Als ich jung war, ging ich jeden Abend mit meinen Freunden zum Tanzfest im Freien.",
+        "fr": "Quand j'étais jeune, j'allais au bal populaire avec mes amis tous les soirs.",
+        "pt": "Quando eu era jovem, ia ao baile ao ar livre com meus amigos toda noite.",
+        "zh": "我年轻的时候，每天晚上都和朋友们去露天舞会。",
+        "hint": {
+          "en": "Something you used to do: the imperfect, iba.",
+          "it": "Una cosa che facevi di solito: l'imperfetto, iba.",
+          "uk": "Те, що ти робив(-ла) зазвичай: imperfecto, iba.",
+          "de": "Etwas, was du gewöhnlich gemacht hast: das Imperfekt, iba.",
+          "fr": "Une chose que tu faisais avant : l'imparfait, iba.",
+          "pt": "Algo que você costumava fazer: o imperfeito, iba.",
+          "zh": "你以前常做的事：用过去未完成时，iba。"
+        }
+      },
+      {
+        "type": "gap",
+        "before": "Antes ",
+        "after": " menos turistas; ahora hay muchos.",
+        "label": "haber",
+        "accepted": [
+          "había"
+        ],
+        "en": "There used to be fewer tourists; now there are lots.",
+        "it": "Prima c'erano meno turisti; adesso ce ne sono tanti.",
+        "uk": "Раніше було менше туристів; тепер їх багато.",
+        "de": "Früher gab es weniger Touristen; jetzt gibt es viele.",
+        "fr": "Avant, il y avait moins de touristes ; maintenant, il y en a beaucoup.",
+        "pt": "Antes tinha menos turistas; agora tem muitos.",
+        "zh": "以前游客比较少；现在多得很。",
+        "hint": {
+          "en": "How it used to be: había, which never changes.",
+          "it": "Com'era una volta: había, che non cambia mai.",
+          "uk": "Як було колись: había, що ніколи не змінюється.",
+          "de": "Wie es früher war: había, das sich nie ändert.",
+          "fr": "Comment c'était : había, qui ne change jamais.",
+          "pt": "Como era antigamente: había, que nunca muda.",
+          "zh": "以前的样子：había，它从不变化。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "¿En tu país se cena a las siete? Aquí, ",
+        "after": ", se cena a las diez.",
+        "options": [
+          "en cambio",
+          "igual que",
+          "además"
+        ],
+        "answer": "en cambio",
+        "en": "In your country do people have dinner at seven? Here, on the other hand, people have dinner at ten.",
+        "it": "Nel tuo paese si cena alle sette? Qui, invece, si cena alle dieci.",
+        "uk": "У твоїй країні вечеряють о сьомій? А тут, навпаки, вечеряють о десятій.",
+        "de": "Isst man in deinem Land um sieben zu Abend? Hier dagegen isst man um zehn zu Abend.",
+        "fr": "Dans ton pays, on dîne à sept heures ? Ici, en revanche, on dîne à dix heures.",
+        "pt": "No seu país se janta às sete? Aqui, por outro lado, se janta às dez.",
+        "zh": "在你们国家，人们七点吃晚饭吗？而这里人们十点吃晚饭。",
+        "hint": {
+          "en": "A different custom: en cambio.",
+          "it": "Un'usanza diversa: en cambio.",
+          "uk": "Інший звичай: en cambio.",
+          "de": "Ein anderer Brauch: en cambio.",
+          "fr": "Une coutume différente : en cambio.",
+          "pt": "Um costume diferente: en cambio.",
+          "zh": "不同的习俗：en cambio。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "",
+        "after": " mejor de la ciudad es la comida.",
+        "options": [
+          "Lo",
+          "El",
+          "La"
+        ],
+        "answer": "Lo",
+        "en": "The best thing about the city is the food.",
+        "it": "La cosa migliore della città è il cibo.",
+        "uk": "Найкраще в місті — це їжа.",
+        "de": "Das Beste an der Stadt ist das Essen.",
+        "fr": "Le mieux, dans la ville, c'est la cuisine.",
+        "pt": "O melhor da cidade é a comida.",
+        "zh": "这座城市最棒的是美食。",
+        "hint": {
+          "en": "The best thing: lo mejor.",
+          "it": "La cosa migliore: lo mejor.",
+          "uk": "Найкраще: lo mejor.",
+          "de": "Das Beste: lo mejor.",
+          "fr": "La meilleure chose : lo mejor.",
+          "pt": "O melhor: lo mejor.",
+          "zh": "最好的地方：lo mejor。"
+        }
+      },
+      {
+        "type": "build",
+        "intention": {
+          "en": "The visitor asks «¿Qué me recomiendas para comer?». Recommend trying the croquettes at the market.",
+          "it": "Il visitatore chiede «¿Qué me recomiendas para comer?». Consigliagli di assaggiare le crocchette del mercato.",
+          "uk": "Гість питає «¿Qué me recomiendas para comer?». Порадь йому скуштувати крокети на ринку.",
+          "de": "Der Besucher fragt «¿Qué me recomiendas para comer?». Empfiehl ihm, auf dem Markt die Croquetas zu probieren.",
+          "fr": "Le visiteur demande «¿Qué me recomiendas para comer?». Conseille-lui de goûter les croquettes au marché.",
+          "pt": "O visitante pergunta «¿Qué me recomiendas para comer?». Recomende que ele prove os croquetes do mercado.",
+          "zh": "游客问：«¿Qué me recomiendas para comer?»。推荐他尝尝市场里的炸丸子。"
+        },
+        "accepted": [
+          "Te recomiendo probar las croquetas del mercado.",
+          "Te recomiendo las croquetas del mercado."
+        ],
+        "tiles": [
+          "Te",
+          "recomiendo",
+          "probar",
+          "las croquetas",
+          "del mercado",
+          "Os",
+          "recomiendas"
+        ],
+        "en": "I recommend trying the croquettes at the market.",
+        "it": "Ti consiglio di assaggiare le crocchette del mercato.",
+        "uk": "Раджу тобі скуштувати крокети на ринку.",
+        "de": "Ich empfehle dir, auf dem Markt die Croquetas zu probieren.",
+        "fr": "Je te conseille de goûter les croquettes au marché.",
+        "pt": "Recomendo que você prove os croquetes do mercado.",
+        "zh": "我推荐你尝尝市场里的炸丸子。",
+        "hint": {
+          "en": "te recomiendo + a verb as in the dictionary.",
+          "it": "te recomiendo + un verbo come nel dizionario.",
+          "uk": "te recomiendo + дієслово у словниковій формі.",
+          "de": "te recomiendo + ein Verb in der Grundform.",
+          "fr": "te recomiendo + un verbe à l'infinitif.",
+          "pt": "te recomiendo + um verbo como no dicionário.",
+          "zh": "te recomiendo + 动词原形。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "La catedral es un poco cara, pero ",
+        "after": " la pena.",
+        "options": [
+          "merece",
+          "tiene",
+          "hace"
+        ],
+        "answer": "merece",
+        "en": "The cathedral is a bit expensive, but it's worth it.",
+        "it": "La cattedrale è un po' cara, ma ne vale la pena.",
+        "uk": "Собор трохи дорогий, але він того вартий.",
+        "de": "Die Kathedrale ist ein bisschen teuer, aber es lohnt sich.",
+        "fr": "La cathédrale est un peu chère, mais ça vaut la peine.",
+        "pt": "A catedral é um pouco cara, mas vale a pena.",
+        "zh": "大教堂有点贵，但是值得。",
+        "hint": {
+          "en": "It's worth it: merece la pena.",
+          "it": "Ne vale la pena: merece la pena.",
+          "uk": "Воно того варте: merece la pena.",
+          "de": "Es lohnt sich: merece la pena.",
+          "fr": "Ça vaut la peine : merece la pena.",
+          "pt": "Vale a pena: merece la pena.",
+          "zh": "值得：merece la pena。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "",
+        "after": " tú ves la catedral, yo compro las entradas del museo.",
+        "options": [
+          "Mientras",
+          "En cambio",
+          "Igual que"
+        ],
+        "answer": "Mientras",
+        "en": "While you see the cathedral, I'll buy the tickets for the museum.",
+        "it": "Mentre tu visiti la cattedrale, io compro i biglietti del museo.",
+        "uk": "Поки ти оглядаєш собор, я куплю квитки до музею.",
+        "de": "Während du dir die Kathedrale anschaust, kaufe ich die Karten für das Museum.",
+        "fr": "Pendant que tu visites la cathédrale, j'achète les billets pour le musée.",
+        "pt": "Enquanto você vê a catedral, eu compro os ingressos do museu.",
+        "zh": "你参观大教堂的时候，我去买博物馆的门票。",
+        "hint": {
+          "en": "Two things at the same time: mientras.",
+          "it": "Due cose nello stesso momento: mientras.",
+          "uk": "Дві дії одночасно: mientras.",
+          "de": "Zwei Dinge gleichzeitig: mientras.",
+          "fr": "Deux choses en même temps : mientras.",
+          "pt": "Duas coisas ao mesmo tempo: mientras.",
+          "zh": "同时做两件事：mientras。"
+        }
+      },
+      {
+        "type": "gap",
+        "before": "Lo ",
+        "after": " es que hoy los museos son gratis.",
+        "label": "bueno",
+        "accepted": [
+          "bueno"
+        ],
+        "en": "The good thing is that the museums are free today.",
+        "it": "Il bello è che oggi i musei sono gratis.",
+        "uk": "Добре те, що сьогодні музеї безкоштовні.",
+        "de": "Das Gute ist, dass die Museen heute kostenlos sind.",
+        "fr": "Ce qui est bien, c'est qu'aujourd'hui les musées sont gratuits.",
+        "pt": "O bom é que hoje os museus são de graça.",
+        "zh": "好的是今天博物馆免费。",
+        "hint": {
+          "en": "After lo: the masculine form, bueno.",
+          "it": "Dopo lo: il maschile, bueno.",
+          "uk": "Після lo — чоловічий рід: bueno.",
+          "de": "Nach lo: die männliche Form, bueno.",
+          "fr": "Après lo : la forme masculine, bueno.",
+          "pt": "Depois de lo: o masculino, bueno.",
+          "zh": "lo 后面：用阳性形式，bueno。"
+        }
+      },
+      {
+        "type": "write",
+        "instruction": {
+          "en": "At the end of the day, you say goodbye to the visitor. Write in Spanish: «The best thing about my city is the people. I recommend coming back in summer, for the festival.»",
+          "it": "A fine giornata, saluti il visitatore. Scrivi in spagnolo: «La cosa migliore della mia città è la gente. Ti consiglio di tornare d'estate, per la festa.»",
+          "uk": "Наприкінці дня ти прощаєшся з гостем. Напиши іспанською: «Найкраще в моєму місті — люди. Раджу тобі приїхати ще раз улітку, на свято.»",
+          "de": "Am Ende des Tages verabschiedest du dich von dem Besucher. Schreib auf Spanisch: «Das Beste an meiner Stadt sind die Leute. Ich empfehle dir, im Sommer wiederzukommen, zum Stadtfest.»",
+          "fr": "À la fin de la journée, tu dis au revoir au visiteur. Écris en espagnol : «Le mieux, dans ma ville, ce sont les gens. Je te conseille de revenir en été, pour la fête.»",
+          "pt": "No fim do dia, você se despede do visitante. Escreva em espanhol: «O melhor da minha cidade são as pessoas. Recomendo que você volte no verão, para a festa.»",
+          "zh": "一天结束时，你和游客告别。用西班牙语写：«我们城市最棒的是这里的人。我推荐你夏天再来，赶上节庆。»"
+        },
+        "accepted": [
+          "Lo mejor de mi ciudad es la gente. Te recomiendo volver en verano, para las fiestas.",
+          "Lo mejor de mi ciudad es la gente. Te recomiendo volver en verano para las fiestas.",
+          "Lo mejor de mi ciudad es la gente. Te recomiendo volver en verano, para la fiesta.",
+          "Lo mejor de {city} es la gente. Te recomiendo volver en verano, para las fiestas.",
+          "Lo mejor de mi ciudad es la gente. Te recomiendo venir en verano, para las fiestas.",
+          "Lo mejor de mi ciudad es la gente. Le recomiendo volver en verano, para las fiestas."
+        ],
+        "model": {
+          "es": "Lo mejor de mi ciudad es la gente. Te recomiendo volver en verano, para las fiestas.",
+          "en": "The best thing about my city is the people. I recommend coming back in summer, for the festival.",
+          "it": "La cosa migliore della mia città è la gente. Ti consiglio di tornare d'estate, per la festa.",
+          "uk": "Найкраще в моєму місті — люди. Раджу тобі приїхати ще раз улітку, на свято.",
+          "de": "Das Beste an meiner Stadt sind die Leute. Ich empfehle dir, im Sommer wiederzukommen, zum Stadtfest.",
+          "fr": "Le mieux, dans ma ville, ce sont les gens. Je te conseille de revenir en été, pour la fête.",
+          "pt": "O melhor da minha cidade são as pessoas. Recomendo que você volte no verão, para a festa.",
+          "zh": "我们城市最棒的是这里的人。我推荐你夏天再来，赶上节庆。"
+        }
+      }
+    ]
+  }
+}
