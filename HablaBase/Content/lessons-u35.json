@@ -1,0 +1,3286 @@
+{
+  "unit": "u35",
+  "lessons": [
+    {
+      "id": "u35l1",
+      "goal": {
+        "en": "Set two sides against each other with en cambio and mientras que, and name the pros and cons: la ventaja es que…, el inconveniente es que…",
+        "it": "Metti a confronto due lati con en cambio e mientras que, e indica pro e contro: la ventaja es que…, el inconveniente es que…",
+        "uk": "Протиставляй дві сторони за допомогою en cambio та mientras que і називай плюси й мінуси: la ventaja es que…, el inconveniente es que…",
+        "de": "Stelle zwei Seiten mit en cambio und mientras que gegenüber und nenne Vor- und Nachteile: la ventaja es que…, el inconveniente es que…",
+        "fr": "Oppose deux côtés avec en cambio et mientras que, et présente le pour et le contre : la ventaja es que…, el inconveniente es que…",
+        "pt": "Contraponha dois lados com en cambio e mientras que, e diga os prós e contras: la ventaja es que…, el inconveniente es que…",
+        "zh": "用 en cambio 和 mientras que 对比两个方面，并说出优点和缺点：la ventaja es que…，el inconveniente es que…"
+      },
+      "target": {
+        "es": "En la ciudad hay mucho ruido; en cambio, el pueblo es muy tranquilo.",
+        "en": "In the city there's a lot of noise; the village, on the other hand, is very quiet.",
+        "it": "In città c'è molto rumore; il paese, invece, è molto tranquillo.",
+        "uk": "У місті багато шуму; а от село дуже тихе.",
+        "de": "In der Stadt ist es sehr laut; das Dorf dagegen ist sehr ruhig.",
+        "fr": "En ville, il y a beaucoup de bruit ; le village, en revanche, est très calme.",
+        "pt": "Na cidade tem muito barulho; o vilarejo, por outro lado, é muito tranquilo.",
+        "zh": "城市里很吵；而村子里却非常安静。"
+      },
+      "names": [
+        "Madrid"
+      ],
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "la ventaja",
+              "en": "the advantage",
+              "it": "il vantaggio",
+              "uk": "перевага",
+              "de": "der Vorteil",
+              "fr": "l'avantage",
+              "pt": "a vantagem",
+              "zh": "优点，好处",
+              "kind": "chunk"
+            },
+            {
+              "es": "el inconveniente",
+              "en": "the drawback, the disadvantage",
+              "it": "lo svantaggio, l'inconveniente",
+              "uk": "недолік, мінус",
+              "de": "der Nachteil",
+              "fr": "l'inconvénient",
+              "pt": "o inconveniente, a desvantagem",
+              "zh": "缺点，不便之处",
+              "kind": "chunk"
+            },
+            {
+              "es": "mientras que",
+              "en": "whereas",
+              "it": "mentre (invece)",
+              "uk": "тоді як, а",
+              "de": "während (Gegensatz)",
+              "fr": "alors que, tandis que",
+              "pt": "enquanto (que), ao passo que",
+              "zh": "而，然而（表示对比）",
+              "kind": "rail"
+            },
+            {
+              "es": "la contaminación",
+              "en": "pollution",
+              "it": "l'inquinamento",
+              "uk": "забруднення",
+              "de": "die Umweltverschmutzung",
+              "fr": "la pollution",
+              "pt": "a poluição",
+              "zh": "污染",
+              "kind": "chunk"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "…;",
+              "kind": "chunk"
+            },
+            {
+              "text": "en cambio,",
+              "kind": "rail"
+            },
+            {
+              "text": "…",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "You already know en cambio (on the other hand): it sets two different things side by side. Put it at the start of the second part, between commas.",
+            "it": "Conosci già en cambio (invece): mette a confronto due cose diverse. Va all'inizio della seconda parte, tra virgole.",
+            "uk": "Ти вже знаєш en cambio (а от, натомість): воно ставить поруч дві різні речі. Став його на початку другої частини, між комами.",
+            "de": "en cambio (dagegen, hingegen) kennst du schon: Es stellt zwei verschiedene Dinge nebeneinander. Setz es an den Anfang des zweiten Teils, zwischen Kommas.",
+            "fr": "Tu connais déjà en cambio (en revanche) : il met deux choses différentes face à face. Place-le au début de la deuxième partie, entre virgules.",
+            "pt": "Você já conhece en cambio (por outro lado, já): ele coloca duas coisas diferentes lado a lado. Coloque-o no início da segunda parte, entre vírgulas.",
+            "zh": "你已经学过 en cambio（而、相反）：它把两件不同的事放在一起对比。把它放在第二部分的开头，前后加逗号。"
+          },
+          "examples": [
+            {
+              "es": "En la ciudad hay mucho ruido; en cambio, el pueblo es muy tranquilo.",
+              "en": "In the city there's a lot of noise; the village, on the other hand, is very quiet.",
+              "it": "In città c'è molto rumore; il paese, invece, è molto tranquillo.",
+              "uk": "У місті багато шуму; а от село дуже тихе.",
+              "de": "In der Stadt ist es sehr laut; das Dorf dagegen ist sehr ruhig.",
+              "fr": "En ville, il y a beaucoup de bruit ; le village, en revanche, est très calme.",
+              "pt": "Na cidade tem muito barulho; o vilarejo, por outro lado, é muito tranquilo.",
+              "zh": "城市里很吵；而村子里却非常安静。"
+            },
+            {
+              "es": "Madrid es muy caro; en cambio, en mi pueblo los pisos son baratos.",
+              "en": "Madrid is very expensive; in my village, on the other hand, flats are cheap.",
+              "it": "Madrid è molto cara; nel mio paese, invece, gli appartamenti costano poco.",
+              "uk": "Мадрид дуже дорогий; а от у моєму селі квартири дешеві.",
+              "de": "Madrid ist sehr teuer; in meinem Dorf dagegen sind die Wohnungen billig.",
+              "fr": "Madrid est très chère ; dans mon village, en revanche, les appartements ne sont pas chers.",
+              "pt": "Madri é muito cara; já na minha cidadezinha, os apartamentos são baratos.",
+              "zh": "马德里的东西很贵；而在我们村，房子却很便宜。"
+            },
+            {
+              "es": "Yo prefiero el campo; mi pareja, en cambio, prefiere la ciudad.",
+              "en": "I prefer the countryside; my partner, on the other hand, prefers the city.",
+              "it": "Io preferisco la campagna; il mio compagno, invece, preferisce la città.",
+              "uk": "Я віддаю перевагу сільській місцевості; а от мій партнер віддає перевагу місту.",
+              "de": "Ich mag lieber das Land; mein Partner (meine Partnerin) dagegen mag lieber die Stadt.",
+              "fr": "Moi, je préfère la campagne ; mon conjoint, en revanche, préfère la ville.",
+              "pt": "Eu prefiro o campo; meu companheiro, por outro lado, prefere a cidade.",
+              "zh": "我更喜欢乡下；而我的伴侣更喜欢城市。"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Mi hermano vive en Madrid; ",
+          "after": ", yo vivo en un pueblo.",
+          "options": [
+            "en cambio",
+            "además",
+            "por eso"
+          ],
+          "answer": "en cambio",
+          "en": "My brother lives in Madrid; I, on the other hand, live in a village.",
+          "it": "Mio fratello vive a Madrid; io, invece, vivo in un paese.",
+          "uk": "Мій брат живе в Мадриді; а я натомість живу в селі.",
+          "de": "Mein Bruder wohnt in Madrid; ich dagegen wohne in einem Dorf.",
+          "fr": "Mon frère habite à Madrid ; moi, en revanche, j'habite dans un village.",
+          "pt": "Meu irmão mora em Madri; eu, por outro lado, moro em um vilarejo.",
+          "zh": "我哥哥住在马德里；而我住在一个村子里。",
+          "hint": {
+            "en": "Two different things side by side: en cambio.",
+            "it": "Due cose diverse a confronto: en cambio.",
+            "uk": "Дві різні речі поруч: en cambio.",
+            "de": "Zwei verschiedene Dinge nebeneinander: en cambio.",
+            "fr": "Deux choses différentes face à face : en cambio.",
+            "pt": "Duas coisas diferentes lado a lado: en cambio.",
+            "zh": "把两件不同的事放在一起对比：en cambio。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "A friend asks «¿Qué te gusta más, la ciudad o el campo?». Say there's a lot of noise in the city; the countryside, on the other hand, is very quiet.",
+            "it": "Un amico ti chiede «¿Qué te gusta más, la ciudad o el campo?». Rispondi che in città c'è molto rumore; la campagna, invece, è molto tranquilla.",
+            "uk": "Друг питає: «¿Qué te gusta más, la ciudad o el campo?». Скажи, що в місті багато шуму, а от за містом дуже тихо.",
+            "de": "Eine Freundin fragt: «¿Qué te gusta más, la ciudad o el campo?». Sag, dass es in der Stadt sehr laut ist; auf dem Land dagegen ist es sehr ruhig.",
+            "fr": "Un ami te demande «¿Qué te gusta más, la ciudad o el campo?». Dis qu'en ville il y a beaucoup de bruit ; la campagne, en revanche, est très calme.",
+            "pt": "Um amigo pergunta «¿Qué te gusta más, la ciudad o el campo?». Diga que na cidade tem muito barulho; o campo, por outro lado, é muito tranquilo.",
+            "zh": "一个朋友问你 «¿Qué te gusta más, la ciudad o el campo?»。说城市里很吵；而乡下却非常安静。"
+          },
+          "accepted": [
+            "En la ciudad hay mucho ruido; en cambio, el campo es muy tranquilo.",
+            "En la ciudad hay mucho ruido; el campo, en cambio, es muy tranquilo.",
+            "En la ciudad hay mucho ruido, en cambio el campo es muy tranquilo."
+          ],
+          "tiles": [
+            "En la ciudad",
+            "hay",
+            "mucho ruido;",
+            "en cambio,",
+            "el campo",
+            "es muy tranquilo",
+            "además",
+            "está"
+          ],
+          "en": "In the city there's a lot of noise; the countryside, on the other hand, is very quiet.",
+          "it": "In città c'è molto rumore; la campagna, invece, è molto tranquilla.",
+          "uk": "У місті багато шуму; а от за містом дуже тихо.",
+          "de": "In der Stadt ist es sehr laut; auf dem Land dagegen ist es sehr ruhig.",
+          "fr": "En ville, il y a beaucoup de bruit ; la campagne, en revanche, est très calme.",
+          "pt": "Na cidade tem muito barulho; o campo, por outro lado, é muito tranquilo.",
+          "zh": "城市里很吵；而乡下却非常安静。",
+          "hint": {
+            "en": "You set the city against the countryside: en cambio.",
+            "it": "Metti a confronto città e campagna: en cambio.",
+            "uk": "Ти протиставляєш місто й сільську місцевість: en cambio.",
+            "de": "Du stellst die Stadt dem Land gegenüber: en cambio.",
+            "fr": "Tu opposes la ville à la campagne : en cambio.",
+            "pt": "Você contrapõe a cidade ao campo: en cambio.",
+            "zh": "你在拿城市和乡下作对比：en cambio。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "…,",
+              "kind": "chunk"
+            },
+            {
+              "text": "mientras que",
+              "kind": "rail"
+            },
+            {
+              "text": "…",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "mientras que (whereas) joins the two sides in one sentence, with no comma after it. Without que, mientras means while, at the same time.",
+            "it": "mientras que (mentre, invece) unisce i due lati in una sola frase, senza virgola dopo. Senza que, mientras vuol dire mentre, nello stesso momento.",
+            "uk": "mientras que (тоді як) поєднує дві сторони в одному реченні, і кома після нього не ставиться. Без que слово mientras означає «поки», «у той час як».",
+            "de": "mientras que (während, wohingegen) verbindet die beiden Seiten in einem Satz, ohne Komma danach. Ohne que bedeutet mientras „während“ im Sinne von „gleichzeitig“.",
+            "fr": "mientras que (alors que, tandis que) relie les deux côtés dans une seule phrase, sans virgule après. Sans que, mientras veut dire pendant que, en même temps.",
+            "pt": "mientras que (enquanto, ao passo que) une os dois lados em uma frase só, sem vírgula depois. Sem que, mientras significa enquanto, ao mesmo tempo.",
+            "zh": "mientras que（而）把两个方面连成一个句子，后面不加逗号。不带 que 时，mientras 的意思是\"在……的同时，一边……\"。"
+          },
+          "examples": [
+            {
+              "es": "Yo trabajo en casa, mientras que mi pareja trabaja en una oficina.",
+              "en": "I work from home, whereas my partner works in an office.",
+              "it": "Io lavoro da casa, mentre la mia compagna lavora in un ufficio.",
+              "uk": "Я працюю вдома, тоді як моя партнерка працює в офісі.",
+              "de": "Ich arbeite von zu Hause aus, während mein Partner (meine Partnerin) in einem Büro arbeitet.",
+              "fr": "Moi, je travaille à la maison, alors que mon conjoint travaille dans un bureau.",
+              "pt": "Eu trabalho em casa, enquanto meu companheiro trabalha em um escritório.",
+              "zh": "我在家工作，而我的伴侣在办公室工作。"
+            },
+            {
+              "es": "En el pueblo todos se conocen, mientras que en la ciudad nadie conoce a sus vecinos.",
+              "en": "In the village everyone knows each other, whereas in the city nobody knows their neighbours.",
+              "it": "In paese si conoscono tutti, mentre in città nessuno conosce i propri vicini.",
+              "uk": "У селі всі одне одного знають, тоді як у місті ніхто не знає своїх сусідів.",
+              "de": "Im Dorf kennen sich alle, während in der Stadt niemand seine Nachbarn kennt.",
+              "fr": "Au village, tout le monde se connaît, alors qu'en ville personne ne connaît ses voisins.",
+              "pt": "No vilarejo todo mundo se conhece, enquanto na cidade ninguém conhece os vizinhos.",
+              "zh": "在村子里大家都互相认识，而在城市里谁也不认识自己的邻居。"
+            },
+            {
+              "es": "Mientras cocino, escucho la radio.",
+              "en": "While I cook, I listen to the radio.",
+              "it": "Mentre cucino, ascolto la radio.",
+              "uk": "Поки я готую, я слухаю радіо.",
+              "de": "Während ich koche, höre ich Radio.",
+              "fr": "Pendant que je cuisine, j'écoute la radio.",
+              "pt": "Enquanto cozinho, escuto rádio.",
+              "zh": "我做饭的时候听收音机。"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Los pisos del centro son carísimos, ",
+          "after": " en mi barrio son bastante baratos.",
+          "options": [
+            "mientras que",
+            "a menos que",
+            "para que"
+          ],
+          "answer": "mientras que",
+          "en": "Flats in the centre are really expensive, whereas in my neighbourhood they're quite cheap.",
+          "it": "Gli appartamenti in centro sono carissimi, mentre nel mio quartiere costano abbastanza poco.",
+          "uk": "Квартири в центрі дуже дорогі, тоді як у моєму районі вони досить дешеві.",
+          "de": "Die Wohnungen im Zentrum sind wirklich teuer, während sie in meinem Viertel ziemlich billig sind.",
+          "fr": "Les appartements du centre sont hors de prix, alors que dans mon quartier ils sont assez bon marché.",
+          "pt": "Os apartamentos no centro são caríssimos, enquanto no meu bairro são bem baratos.",
+          "zh": "市中心的房子贵得要命，而我们街区的房子挺便宜的。",
+          "hint": {
+            "en": "Two sides in one sentence: mientras que.",
+            "it": "Due lati in una sola frase: mientras que.",
+            "uk": "Дві сторони в одному реченні: mientras que.",
+            "de": "Zwei Seiten in einem Satz: mientras que.",
+            "fr": "Deux côtés dans une seule phrase : mientras que.",
+            "pt": "Dois lados em uma frase só: mientras que.",
+            "zh": "两个方面放在一个句子里：mientras que。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "A colleague asks where you and your sister live. Say you live in the city, whereas your sister lives in a village.",
+            "it": "Un collega ti chiede dove vivete tu e tua sorella. Rispondi che tu vivi in città, mentre tua sorella vive in un paese.",
+            "uk": "Колега питає, де живете ти і твоя сестра. Скажи, що ти живеш у місті, тоді як твоя сестра живе в селі.",
+            "de": "Ein Kollege fragt, wo du und deine Schwester wohnt. Sag, dass du in der Stadt wohnst, während deine Schwester in einem Dorf wohnt.",
+            "fr": "Un collègue te demande où vous habitez, ta sœur et toi. Dis que tu habites en ville, alors que ta sœur habite dans un village.",
+            "pt": "Um colega pergunta onde você e sua irmã moram. Diga que você mora na cidade, enquanto sua irmã mora em um vilarejo.",
+            "zh": "一位同事问你和你姐姐住在哪儿。说你住在城市，而你姐姐住在一个村子里。"
+          },
+          "accepted": [
+            "Yo vivo en la ciudad, mientras que mi hermana vive en un pueblo.",
+            "Vivo en la ciudad, mientras que mi hermana vive en un pueblo."
+          ],
+          "tiles": [
+            "Yo vivo",
+            "en la ciudad,",
+            "mientras que",
+            "mi hermana",
+            "vive",
+            "en un pueblo",
+            "a menos que"
+          ],
+          "en": "I live in the city, whereas my sister lives in a village.",
+          "it": "Io vivo in città, mentre mia sorella vive in un paese.",
+          "uk": "Я живу в місті, тоді як моя сестра живе в селі.",
+          "de": "Ich wohne in der Stadt, während meine Schwester in einem Dorf wohnt.",
+          "fr": "J'habite en ville, alors que ma sœur habite dans un village.",
+          "pt": "Eu moro na cidade, enquanto minha irmã mora em um vilarejo.",
+          "zh": "我住在城市，而我姐姐住在一个村子里。",
+          "hint": {
+            "en": "Two people compared in one sentence: mientras que.",
+            "it": "Due persone a confronto in una frase: mientras que.",
+            "uk": "Дві людини порівнюються в одному реченні: mientras que.",
+            "de": "Zwei Personen in einem Satz verglichen: mientras que.",
+            "fr": "Deux personnes comparées dans une phrase : mientras que.",
+            "pt": "Duas pessoas comparadas em uma frase só: mientras que.",
+            "zh": "在一个句子里对比两个人：mientras que。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "la ventaja",
+              "kind": "chunk"
+            },
+            {
+              "text": "es que",
+              "kind": "rail"
+            },
+            {
+              "text": "…",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "To give the pros and cons, say la ventaja (de…) es que… and el inconveniente es que…, followed by the normal present.",
+            "it": "Per dire pro e contro, di' la ventaja (de…) es que… ed el inconveniente es que…, seguiti dal presente normale.",
+            "uk": "Щоб назвати плюси й мінуси, кажи la ventaja (de…) es que… та el inconveniente es que…, а далі — звичайний теперішній час.",
+            "de": "Für Vor- und Nachteile sagst du la ventaja (de…) es que… und el inconveniente es que…, danach das normale Präsens.",
+            "fr": "Pour présenter le pour et le contre, dis la ventaja (de…) es que… et el inconveniente es que…, suivis du présent normal.",
+            "pt": "Para dizer os prós e contras, use la ventaja (de…) es que… e el inconveniente es que…, seguidos do presente normal.",
+            "zh": "要说优点和缺点，就说 la ventaja (de…) es que… 和 el inconveniente es que…，后面接普通的现在时。"
+          },
+          "examples": [
+            {
+              "es": "La ventaja de la ciudad es que hay de todo.",
+              "en": "The advantage of the city is that there's a bit of everything.",
+              "it": "Il vantaggio della città è che c'è di tutto.",
+              "uk": "Перевага міста в тому, що там є все.",
+              "de": "Der Vorteil der Stadt ist, dass es alles gibt.",
+              "fr": "L'avantage de la ville, c'est qu'il y a de tout.",
+              "pt": "A vantagem da cidade é que tem de tudo.",
+              "zh": "城市的好处是什么都有。"
+            },
+            {
+              "es": "El inconveniente es que los pisos son muy caros.",
+              "en": "The drawback is that flats are very expensive.",
+              "it": "Lo svantaggio è che gli appartamenti sono molto cari.",
+              "uk": "Недолік у тому, що квартири дуже дорогі.",
+              "de": "Der Nachteil ist, dass die Wohnungen sehr teuer sind.",
+              "fr": "L'inconvénient, c'est que les appartements sont très chers.",
+              "pt": "O inconveniente é que os apartamentos são muito caros.",
+              "zh": "缺点是房子很贵。"
+            },
+            {
+              "es": "El pueblo tiene muchas ventajas, pero también inconvenientes.",
+              "en": "The village has a lot of advantages, but drawbacks too.",
+              "it": "Il paese ha molti vantaggi, ma anche degli svantaggi.",
+              "uk": "Село має багато переваг, але й недоліки теж.",
+              "de": "Das Dorf hat viele Vorteile, aber auch Nachteile.",
+              "fr": "Le village a beaucoup d'avantages, mais aussi des inconvénients.",
+              "pt": "O vilarejo tem muitas vantagens, mas também inconvenientes.",
+              "zh": "村子有很多好处，但也有缺点。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "las ventajas",
+              "en": "the advantages",
+              "it": "i vantaggi",
+              "uk": "переваги",
+              "de": "die Vorteile",
+              "fr": "les avantages",
+              "pt": "as vantagens",
+              "zh": "优点，好处（复数）"
+            },
+            {
+              "es": "los inconvenientes",
+              "en": "the drawbacks",
+              "it": "gli svantaggi",
+              "uk": "недоліки",
+              "de": "die Nachteile",
+              "fr": "les inconvénients",
+              "pt": "os inconvenientes",
+              "zh": "缺点（复数）"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Me encanta mi pueblo, pero ",
+          "after": " es que no hay cine.",
+          "options": [
+            "el inconveniente",
+            "la ventaja"
+          ],
+          "answer": "el inconveniente",
+          "en": "I love my village, but the drawback is that there's no cinema.",
+          "it": "Adoro il mio paese, ma lo svantaggio è che non c'è un cinema.",
+          "uk": "Я обожнюю своє село, але недолік у тому, що там немає кінотеатру.",
+          "de": "Ich liebe mein Dorf, aber der Nachteil ist, dass es kein Kino gibt.",
+          "fr": "J'adore mon village, mais l'inconvénient, c'est qu'il n'y a pas de cinéma.",
+          "pt": "Eu adoro meu vilarejo, mas o inconveniente é que não tem cinema.",
+          "zh": "我很喜欢我们村，但缺点是没有电影院。",
+          "hint": {
+            "en": "Having no cinema is a minus: el inconveniente.",
+            "it": "Non avere un cinema è un punto negativo: el inconveniente.",
+            "uk": "Відсутність кінотеатру — це мінус: el inconveniente.",
+            "de": "Kein Kino zu haben ist ein Minuspunkt: el inconveniente.",
+            "fr": "Ne pas avoir de cinéma, c'est un point négatif : el inconveniente.",
+            "pt": "Não ter cinema é um ponto negativo: el inconveniente.",
+            "zh": "没有电影院是个缺点：el inconveniente。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "A friend asks why you like working from home. Say the advantage is that you don't have to take the metro.",
+            "it": "Un'amica ti chiede perché ti piace lavorare da casa. Rispondi che il vantaggio è che non devi prendere la metro.",
+            "uk": "Подруга питає, чому тобі подобається працювати вдома. Скажи, що перевага в тому, що тобі не треба їздити на метро.",
+            "de": "Eine Freundin fragt, warum du gern von zu Hause aus arbeitest. Sag, der Vorteil ist, dass du nicht mit der U-Bahn fahren musst.",
+            "fr": "Une amie te demande pourquoi tu aimes travailler à la maison. Dis que l'avantage, c'est que tu n'as pas besoin de prendre le métro.",
+            "pt": "Um amigo pergunta por que você gosta de trabalhar em casa. Diga que a vantagem é que você não precisa pegar o metrô.",
+            "zh": "一个朋友问你为什么喜欢在家工作。说好处是你不用坐地铁。"
+          },
+          "accepted": [
+            "La ventaja es que no tengo que coger el metro.",
+            "La ventaja es que no tengo que tomar el metro."
+          ],
+          "tiles": [
+            "La ventaja",
+            "es que",
+            "no tengo que",
+            "coger",
+            "el metro",
+            "El inconveniente",
+            "tengas"
+          ],
+          "en": "The advantage is that I don't have to take the metro.",
+          "it": "Il vantaggio è che non devo prendere la metro.",
+          "uk": "Перевага в тому, що мені не треба їздити на метро.",
+          "de": "Der Vorteil ist, dass ich nicht mit der U-Bahn fahren muss.",
+          "fr": "L'avantage, c'est que je n'ai pas besoin de prendre le métro.",
+          "pt": "A vantagem é que eu não preciso pegar o metrô.",
+          "zh": "好处是我不用坐地铁。",
+          "hint": {
+            "en": "A plus: la ventaja es que + the normal present.",
+            "it": "Un punto a favore: la ventaja es que + il presente normale.",
+            "uk": "Плюс: la ventaja es que + звичайний теперішній час.",
+            "de": "Ein Pluspunkt: la ventaja es que + das normale Präsens.",
+            "fr": "Un point positif : la ventaja es que + le présent normal.",
+            "pt": "Um ponto positivo: la ventaja es que + o presente normal.",
+            "zh": "一个优点：la ventaja es que + 普通的现在时。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "Yo me levanto a las seis; mi pareja, ",
+          "after": ", se levanta a las diez.",
+          "options": [
+            "en cambio",
+            "mientras que",
+            "a menos que"
+          ],
+          "answer": "en cambio",
+          "en": "I get up at six; my partner, on the other hand, gets up at ten.",
+          "it": "Io mi alzo alle sei; il mio compagno, invece, si alza alle dieci.",
+          "uk": "Я встаю о шостій; а от мій партнер встає о десятій.",
+          "de": "Ich stehe um sechs auf; mein Partner (meine Partnerin) dagegen steht um zehn auf.",
+          "fr": "Moi, je me lève à six heures ; mon conjoint, en revanche, se lève à dix heures.",
+          "pt": "Eu me levanto às seis; meu companheiro, por outro lado, se levanta às dez.",
+          "zh": "我六点起床；而我的伴侣十点才起床。",
+          "hint": {
+            "en": "Between commas in the middle of the second part: en cambio. mientras que needs to come first.",
+            "it": "Tra virgole in mezzo alla seconda parte: en cambio. mientras que va all'inizio.",
+            "uk": "Між комами посередині другої частини: en cambio. mientras que має стояти на початку.",
+            "de": "Zwischen Kommas mitten im zweiten Teil: en cambio. mientras que muss am Anfang stehen.",
+            "fr": "Entre virgules au milieu de la deuxième partie : en cambio. mientras que doit venir en premier.",
+            "pt": "Entre vírgulas no meio da segunda parte: en cambio. mientras que precisa vir no começo.",
+            "zh": "放在第二部分中间、前后加逗号的是 en cambio。mientras que 要放在第二部分的最前面。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "mix",
+          "intention": {
+            "en": "Your friend wants to move to a village and asks what you think. Say the drawback is that there are hardly any buses.",
+            "it": "Il tuo amico vuole trasferirsi in un paese e ti chiede cosa ne pensi. Rispondi che lo svantaggio è che non ci sono quasi autobus.",
+            "uk": "Твій друг хоче переїхати в село й питає, що ти думаєш. Скажи, що недолік у тому, що автобусів майже немає.",
+            "de": "Deine Freundin will in ein Dorf ziehen und fragt, was du davon hältst. Sag, der Nachteil ist, dass es kaum Busse gibt.",
+            "fr": "Ton ami veut s'installer dans un village et te demande ce que tu en penses. Dis que l'inconvénient, c'est qu'il n'y a presque pas de bus.",
+            "pt": "Seu amigo quer se mudar para um vilarejo e pergunta o que você acha. Diga que o inconveniente é que quase não tem ônibus.",
+            "zh": "你的朋友想搬到村子里去住，问你怎么看。说缺点是几乎没有公交车。"
+          },
+          "accepted": [
+            "El inconveniente es que casi no hay autobuses.",
+            "El inconveniente es que no hay casi autobuses."
+          ],
+          "tiles": [
+            "El inconveniente",
+            "es que",
+            "casi no",
+            "hay",
+            "autobuses",
+            "La ventaja",
+            "está"
+          ],
+          "en": "The drawback is that there are hardly any buses.",
+          "it": "Lo svantaggio è che non ci sono quasi autobus.",
+          "uk": "Недолік у тому, що автобусів майже немає.",
+          "de": "Der Nachteil ist, dass es kaum Busse gibt.",
+          "fr": "L'inconvénient, c'est qu'il n'y a presque pas de bus.",
+          "pt": "O inconveniente é que quase não tem ônibus.",
+          "zh": "缺点是几乎没有公交车。",
+          "hint": {
+            "en": "A minus: el inconveniente es que…",
+            "it": "Un punto negativo: el inconveniente es que…",
+            "uk": "Мінус: el inconveniente es que…",
+            "de": "Ein Minuspunkt: el inconveniente es que…",
+            "fr": "Un point négatif : el inconveniente es que…",
+            "pt": "Um ponto negativo: el inconveniente es que…",
+            "zh": "一个缺点：el inconveniente es que…"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "En el pueblo el aire es muy limpio, ",
+          "after": " en la ciudad hay mucha contaminación.",
+          "options": [
+            "mientras que",
+            "hasta que",
+            "para que"
+          ],
+          "answer": "mientras que",
+          "en": "In the village the air is very clean, whereas in the city there's a lot of pollution.",
+          "it": "In paese l'aria è molto pulita, mentre in città c'è molto inquinamento.",
+          "uk": "У селі повітря дуже чисте, тоді як у місті сильне забруднення.",
+          "de": "Im Dorf ist die Luft sehr sauber, während es in der Stadt viel Umweltverschmutzung gibt.",
+          "fr": "Au village, l'air est très pur, alors qu'en ville il y a beaucoup de pollution.",
+          "pt": "No vilarejo o ar é muito limpo, enquanto na cidade tem muita poluição.",
+          "zh": "村子里空气很干净，而城市里污染很严重。",
+          "hint": {
+            "en": "Two sides joined in one sentence: mientras que.",
+            "it": "Due lati uniti in una frase: mientras que.",
+            "uk": "Дві сторони об'єднані в одному реченні: mientras que.",
+            "de": "Zwei Seiten in einem Satz verbunden: mientras que.",
+            "fr": "Deux côtés réunis dans une phrase : mientras que.",
+            "pt": "Dois lados unidos em uma frase só: mientras que.",
+            "zh": "两个方面连在一个句子里：mientras que。"
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "Write in Spanish: «In the city there's a lot of noise; the village, on the other hand, is very quiet.»",
+            "it": "Scrivi in spagnolo: «In città c'è molto rumore; il paese, invece, è molto tranquillo.»",
+            "uk": "Напиши іспанською: «У місті багато шуму; а от село дуже тихе.»",
+            "de": "Schreib auf Spanisch: «In der Stadt ist es sehr laut; das Dorf dagegen ist sehr ruhig.»",
+            "fr": "Écris en espagnol : «En ville, il y a beaucoup de bruit ; le village, en revanche, est très calme.»",
+            "pt": "Escreva em espanhol: «Na cidade tem muito barulho; o vilarejo, por outro lado, é muito tranquilo.»",
+            "zh": "用西班牙语写：«城市里很吵；而村子里却非常安静。»"
+          },
+          "accepted": [
+            "En la ciudad hay mucho ruido; en cambio, el pueblo es muy tranquilo.",
+            "En la ciudad hay mucho ruido; el pueblo, en cambio, es muy tranquilo.",
+            "En la ciudad hay mucho ruido, mientras que el pueblo es muy tranquilo.",
+            "Hay mucho ruido en la ciudad; en cambio, el pueblo es muy tranquilo.",
+            "Hay mucho ruido en la ciudad; el pueblo, en cambio, es muy tranquilo."
+          ],
+          "model": {
+            "es": "En la ciudad hay mucho ruido; en cambio, el pueblo es muy tranquilo.",
+            "en": "In the city there's a lot of noise; the village, on the other hand, is very quiet.",
+            "it": "In città c'è molto rumore; il paese, invece, è molto tranquillo.",
+            "uk": "У місті багато шуму; а от село дуже тихе.",
+            "de": "In der Stadt ist es sehr laut; das Dorf dagegen ist sehr ruhig.",
+            "fr": "En ville, il y a beaucoup de bruit ; le village, en revanche, est très calme.",
+            "pt": "Na cidade tem muito barulho; o vilarejo, por outro lado, é muito tranquilo.",
+            "zh": "城市里很吵；而村子里却非常安静。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u35l2",
+      "goal": {
+        "en": "Say the same thing in other words with o sea and es decir, draw a conclusion with o sea, que…, and correct yourself with mejor dicho and quiero decir.",
+        "it": "Di la stessa cosa con altre parole con o sea ed es decir, trai una conclusione con o sea, que…, e correggiti con mejor dicho e quiero decir.",
+        "uk": "Кажи те саме іншими словами за допомогою o sea та es decir, роби висновок за допомогою o sea, que… і виправляй себе за допомогою mejor dicho та quiero decir.",
+        "de": "Sag dasselbe mit anderen Worten mit o sea und es decir, zieh mit o sea, que… eine Schlussfolgerung und korrigiere dich mit mejor dicho und quiero decir.",
+        "fr": "Redis la même chose autrement avec o sea et es decir, tire une conclusion avec o sea, que…, et corrige-toi avec mejor dicho et quiero decir.",
+        "pt": "Diga a mesma coisa com outras palavras usando o sea e es decir, tire uma conclusão com o sea, que… e corrija a si mesmo com mejor dicho e quiero decir.",
+        "zh": "用 o sea 和 es decir 换个说法表达同一个意思，用 o sea, que… 得出结论，用 mejor dicho 和 quiero decir 纠正自己。"
+      },
+      "target": {
+        "es": "Vivo en un pueblo, o sea, en un sitio muy tranquilo.",
+        "en": "I live in a village, that is, in a very quiet place.",
+        "it": "Vivo in un paese, cioè in un posto molto tranquillo.",
+        "uk": "Я живу в селі, тобто в дуже тихому місці.",
+        "de": "Ich wohne in einem Dorf, also an einem sehr ruhigen Ort.",
+        "fr": "J'habite dans un village, c'est-à-dire dans un endroit très calme.",
+        "pt": "Eu moro em um vilarejo, ou seja, em um lugar muito tranquilo.",
+        "zh": "我住在一个村子里，也就是说，一个非常安静的地方。"
+      },
+      "names": [
+        "Madrid"
+      ],
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "o sea",
+              "en": "I mean, that is",
+              "it": "cioè",
+              "uk": "тобто, тож",
+              "de": "also, das heißt",
+              "fr": "enfin, c'est-à-dire",
+              "pt": "ou seja, quer dizer",
+              "zh": "就是说，也就是",
+              "kind": "rail"
+            },
+            {
+              "es": "es decir",
+              "en": "that is, in other words",
+              "it": "cioè, vale a dire",
+              "uk": "тобто, інакше кажучи",
+              "de": "das heißt, mit anderen Worten",
+              "fr": "c'est-à-dire, autrement dit",
+              "pt": "isto é, ou seja",
+              "zh": "也就是说，换句话说",
+              "kind": "rail"
+            },
+            {
+              "es": "mejor dicho",
+              "en": "or rather",
+              "it": "anzi, o meglio",
+              "uk": "точніше, вірніше",
+              "de": "besser gesagt",
+              "fr": "ou plutôt",
+              "pt": "ou melhor",
+              "zh": "更确切地说，不对，应该是",
+              "kind": "rail"
+            },
+            {
+              "es": "quiero decir",
+              "en": "I mean",
+              "it": "voglio dire",
+              "uk": "я маю на увазі, тобто",
+              "de": "ich meine",
+              "fr": "je veux dire",
+              "pt": "quer dizer, quero dizer",
+              "zh": "我的意思是，我是说",
+              "kind": "chunk"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "…,",
+              "kind": "chunk"
+            },
+            {
+              "text": "o sea,",
+              "kind": "rail"
+            },
+            {
+              "text": "…",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "o sea and es decir (that is) say the same thing again in other words, to make it clearer. o sea is more spoken; es decir is a bit more formal.",
+            "it": "o sea ed es decir (cioè) ripetono la stessa cosa con altre parole, per renderla più chiara. o sea è più parlato; es decir è un po' più formale.",
+            "uk": "o sea та es decir (тобто) повторюють те саме іншими словами, щоб було зрозуміліше. o sea — більш розмовне; es decir — трохи офіційніше.",
+            "de": "o sea und es decir (das heißt) sagen dasselbe noch einmal mit anderen Worten, damit es klarer wird. o sea ist eher gesprochen; es decir ist etwas förmlicher.",
+            "fr": "o sea et es decir (c'est-à-dire) redisent la même chose avec d'autres mots, pour être plus clair. o sea est plus oral ; es decir est un peu plus soutenu.",
+            "pt": "o sea e es decir (ou seja, isto é) repetem a mesma coisa com outras palavras, para deixar mais claro. o sea é mais falado; es decir é um pouco mais formal.",
+            "zh": "o sea 和 es decir（也就是说）用别的话把同一件事再说一遍，让意思更清楚。o sea 更口语；es decir 稍微正式一点。"
+          },
+          "examples": [
+            {
+              "es": "Vivo en el centro, o sea, a cinco minutos de todo.",
+              "en": "I live in the centre, that is, five minutes from everything.",
+              "it": "Vivo in centro, cioè a cinque minuti da tutto.",
+              "uk": "Я живу в центрі, тобто за п'ять хвилин від усього.",
+              "de": "Ich wohne im Zentrum, also fünf Minuten von allem entfernt.",
+              "fr": "J'habite dans le centre, c'est-à-dire à cinq minutes de tout.",
+              "pt": "Eu moro no centro, ou seja, a cinco minutos de tudo.",
+              "zh": "我住在市中心，也就是说，去哪儿都只要五分钟。"
+            },
+            {
+              "es": "Llego el lunes, es decir, dentro de tres días.",
+              "en": "I arrive on Monday, that is, in three days.",
+              "it": "Arrivo lunedì, cioè tra tre giorni.",
+              "uk": "Я приїжджаю в понеділок, тобто через три дні.",
+              "de": "Ich komme am Montag an, das heißt in drei Tagen.",
+              "fr": "J'arrive lundi, c'est-à-dire dans trois jours.",
+              "pt": "Eu chego na segunda, isto é, daqui a três dias.",
+              "zh": "我星期一到，也就是说，三天以后。"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Vivo a cinco minutos del trabajo, ",
+          "after": ", muy cerca.",
+          "options": [
+            "o sea",
+            "en cambio",
+            "a menos que"
+          ],
+          "answer": "o sea",
+          "en": "I live five minutes from work, that is, very close.",
+          "it": "Vivo a cinque minuti dal lavoro, cioè molto vicino.",
+          "uk": "Я живу за п'ять хвилин від роботи, тобто дуже близько.",
+          "de": "Ich wohne fünf Minuten von der Arbeit entfernt, also ganz in der Nähe.",
+          "fr": "J'habite à cinq minutes du travail, c'est-à-dire tout près.",
+          "pt": "Eu moro a cinco minutos do trabalho, ou seja, bem perto.",
+          "zh": "我住的地方离单位五分钟，也就是说，非常近。",
+          "hint": {
+            "en": "You say the same thing in other words: o sea.",
+            "it": "Dici la stessa cosa con altre parole: o sea.",
+            "uk": "Ти кажеш те саме іншими словами: o sea.",
+            "de": "Du sagst dasselbe mit anderen Worten: o sea.",
+            "fr": "Tu redis la même chose autrement : o sea.",
+            "pt": "Você diz a mesma coisa com outras palavras: o sea.",
+            "zh": "你在用别的话说同一件事：o sea。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "It's Tuesday. A friend asks when you're coming back. Answer: on Friday, that is, in three days.",
+            "it": "È martedì. Un'amica ti chiede quando torni. Rispondi: venerdì, cioè tra tre giorni.",
+            "uk": "Сьогодні вівторок. Подруга питає, коли ти повернешся. Відповідай: у п'ятницю, тобто через три дні.",
+            "de": "Es ist Dienstag. Eine Freundin fragt, wann du zurückkommst. Antworte: am Freitag, das heißt in drei Tagen.",
+            "fr": "On est mardi. Une amie te demande quand tu reviens. Réponds : vendredi, c'est-à-dire dans trois jours.",
+            "pt": "É terça-feira. Uma amiga pergunta quando você volta. Responda: na sexta, isto é, daqui a três dias.",
+            "zh": "今天是星期二。一个朋友问你什么时候回来。回答：星期五，也就是说，三天以后。"
+          },
+          "accepted": [
+            "El viernes, es decir, dentro de tres días.",
+            "El viernes, o sea, dentro de tres días."
+          ],
+          "tiles": [
+            "El viernes,",
+            "es decir,",
+            "dentro de",
+            "tres días",
+            "en cambio",
+            "hace"
+          ],
+          "en": "On Friday, that is, in three days.",
+          "it": "Venerdì, cioè tra tre giorni.",
+          "uk": "У п'ятницю, тобто через три дні.",
+          "de": "Am Freitag, das heißt in drei Tagen.",
+          "fr": "Vendredi, c'est-à-dire dans trois jours.",
+          "pt": "Na sexta, isto é, daqui a três dias.",
+          "zh": "星期五，也就是说，三天以后。",
+          "hint": {
+            "en": "The same day in other words: es decir.",
+            "it": "Lo stesso giorno detto in un altro modo: es decir.",
+            "uk": "Той самий день іншими словами: es decir.",
+            "de": "Derselbe Tag mit anderen Worten: es decir.",
+            "fr": "Le même jour, dit autrement : es decir.",
+            "pt": "O mesmo dia com outras palavras: es decir.",
+            "zh": "换个说法说同一天：es decir。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "o sea,",
+              "kind": "rail"
+            },
+            {
+              "text": "que…",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "In conversation, o sea, que… (so…) draws a conclusion from what you've just heard.",
+            "it": "Nella conversazione, o sea, que… (quindi…) trae una conclusione da quello che hai appena sentito.",
+            "uk": "У розмові o sea, que… (тож…, отже…) робить висновок із того, що ти щойно почув(-ла).",
+            "de": "Im Gespräch zieht o sea, que… (also…) eine Schlussfolgerung aus dem, was du gerade gehört hast.",
+            "fr": "Dans la conversation, o sea, que… (donc…) tire une conclusion de ce que tu viens d'entendre.",
+            "pt": "Na conversa, o sea, que… (então…) tira uma conclusão do que você acabou de ouvir.",
+            "zh": "在对话中，o sea, que…（那就是说……，所以……）根据你刚听到的话得出结论。"
+          },
+          "examples": [
+            {
+              "es": "¿Mañana es fiesta? O sea, que no trabajas.",
+              "en": "Tomorrow's a holiday? So you're not working.",
+              "it": "Domani è festa? Quindi non lavori.",
+              "uk": "Завтра вихідний? Тож ти не працюєш.",
+              "de": "Morgen ist Feiertag? Also arbeitest du nicht.",
+              "fr": "Demain, c'est férié ? Donc tu ne travailles pas.",
+              "pt": "Amanhã é feriado? Então você não trabalha.",
+              "zh": "明天放假？那你就不用上班了。"
+            },
+            {
+              "es": "¿El restaurante está cerrado? O sea, que cenamos en casa.",
+              "en": "The restaurant is closed? So we're having dinner at home.",
+              "it": "Il ristorante è chiuso? Quindi ceniamo a casa.",
+              "uk": "Ресторан зачинений? Тож вечеряємо вдома.",
+              "de": "Das Restaurant ist geschlossen? Also essen wir zu Hause zu Abend.",
+              "fr": "Le restaurant est fermé ? Donc on dîne à la maison.",
+              "pt": "O restaurante está fechado? Então a gente janta em casa.",
+              "zh": "餐厅关门了？那我们就在家吃晚饭吧。"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "¿No hay metro esta noche? ",
+          "after": " volvemos en taxi.",
+          "options": [
+            "O sea, que",
+            "Para que",
+            "A menos que"
+          ],
+          "answer": "O sea, que",
+          "en": "There's no metro tonight? So we're going back by taxi.",
+          "it": "Stasera non c'è la metro? Quindi torniamo in taxi.",
+          "uk": "Сьогодні ввечері метро не працює? Тож повертаємося на таксі.",
+          "de": "Heute Nacht fährt keine U-Bahn? Also fahren wir mit dem Taxi zurück.",
+          "fr": "Il n'y a pas de métro ce soir ? Donc on rentre en taxi.",
+          "pt": "Hoje à noite não tem metrô? Então a gente volta de táxi.",
+          "zh": "今晚没有地铁？那我们就打车回去。",
+          "hint": {
+            "en": "A conclusion from what you've just heard: o sea, que…",
+            "it": "Una conclusione da quello che hai appena sentito: o sea, que…",
+            "uk": "Висновок із того, що ти щойно почув(-ла): o sea, que…",
+            "de": "Eine Schlussfolgerung aus dem, was du gerade gehört hast: o sea, que…",
+            "fr": "Une conclusion tirée de ce que tu viens d'entendre : o sea, que…",
+            "pt": "Uma conclusão do que você acabou de ouvir: o sea, que…",
+            "zh": "根据刚听到的话得出结论：o sea, que…"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "A classmate tells you «Mañana no hay clase». Draw the conclusion: so we can sleep longer.",
+            "it": "Un compagno di corso ti dice «Mañana no hay clase». Trai la conclusione: quindi possiamo dormire di più.",
+            "uk": "Одногрупник каже тобі: «Mañana no hay clase». Зроби висновок: тож ми можемо довше поспати.",
+            "de": "Ein Mitschüler sagt dir: «Mañana no hay clase». Zieh die Schlussfolgerung: Also können wir länger schlafen.",
+            "fr": "Un camarade de cours te dit «Mañana no hay clase». Tire la conclusion : donc on peut dormir plus longtemps.",
+            "pt": "Um colega de curso diz «Mañana no hay clase». Tire a conclusão: então a gente pode dormir mais.",
+            "zh": "一个同学跟你说 «Mañana no hay clase»。得出结论：那我们就能多睡一会儿了。"
+          },
+          "accepted": [
+            "O sea, que podemos dormir más.",
+            "O sea, que mañana podemos dormir más."
+          ],
+          "tiles": [
+            "O sea,",
+            "que",
+            "podemos",
+            "dormir",
+            "más",
+            "para que",
+            "menos"
+          ],
+          "en": "So we can sleep longer.",
+          "it": "Quindi possiamo dormire di più.",
+          "uk": "Тож ми можемо довше поспати.",
+          "de": "Also können wir länger schlafen.",
+          "fr": "Donc on peut dormir plus longtemps.",
+          "pt": "Então a gente pode dormir mais.",
+          "zh": "那我们就能多睡一会儿了。",
+          "hint": {
+            "en": "You conclude from the news: o sea, que…",
+            "it": "Concludi dalla notizia: o sea, que…",
+            "uk": "Ти робиш висновок із новини: o sea, que…",
+            "de": "Du ziehst einen Schluss aus der Neuigkeit: o sea, que…",
+            "fr": "Tu tires une conclusion de la nouvelle : o sea, que…",
+            "pt": "Você tira uma conclusão da notícia: o sea, que…",
+            "zh": "你根据这个消息得出结论：o sea, que…"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "…,",
+              "kind": "chunk"
+            },
+            {
+              "text": "mejor dicho,",
+              "kind": "rail"
+            },
+            {
+              "text": "…",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "To correct yourself as you speak, say mejor dicho (or rather) or quiero decir (I mean), then the right version.",
+            "it": "Per correggerti mentre parli, di' mejor dicho (anzi) o quiero decir (voglio dire), poi la versione giusta.",
+            "uk": "Щоб виправити себе під час розмови, скажи mejor dicho (точніше) або quiero decir (тобто, я маю на увазі), а потім правильний варіант.",
+            "de": "Um dich beim Sprechen zu korrigieren, sag mejor dicho (besser gesagt) oder quiero decir (ich meine) und dann die richtige Version.",
+            "fr": "Pour te corriger en parlant, dis mejor dicho (ou plutôt) ou quiero decir (je veux dire), puis la bonne version.",
+            "pt": "Para se corrigir enquanto fala, diga mejor dicho (ou melhor) ou quiero decir (quer dizer) e depois a versão certa.",
+            "zh": "说话时要纠正自己，就说 mejor dicho（更确切地说）或 quiero decir（我是说），然后说出正确的说法。"
+          },
+          "examples": [
+            {
+              "es": "Vivo en Madrid, mejor dicho, cerca de Madrid.",
+              "en": "I live in Madrid, or rather, near Madrid.",
+              "it": "Vivo a Madrid, anzi, vicino a Madrid.",
+              "uk": "Я живу в Мадриді, точніше, біля Мадрида.",
+              "de": "Ich wohne in Madrid, besser gesagt in der Nähe von Madrid.",
+              "fr": "J'habite à Madrid, ou plutôt près de Madrid.",
+              "pt": "Eu moro em Madri, ou melhor, perto de Madri.",
+              "zh": "我住在马德里，更确切地说，在马德里附近。"
+            },
+            {
+              "es": "Nos vemos el martes, quiero decir, el miércoles.",
+              "en": "See you on Tuesday, I mean, on Wednesday.",
+              "it": "Ci vediamo martedì, voglio dire, mercoledì.",
+              "uk": "Побачимося у вівторок, тобто в середу.",
+              "de": "Wir sehen uns am Dienstag, ich meine, am Mittwoch.",
+              "fr": "On se voit mardi, je veux dire mercredi.",
+              "pt": "A gente se vê na terça, quer dizer, na quarta.",
+              "zh": "我们星期二见，我是说，星期三。"
+            },
+            {
+              "es": "Llego a las ocho, mejor dicho, a las ocho y media.",
+              "en": "I'll arrive at eight, or rather, at half past eight.",
+              "it": "Arrivo alle otto, anzi, alle otto e mezza.",
+              "uk": "Я приїду о восьмій, точніше, о пів на дев'яту.",
+              "de": "Ich komme um acht an, besser gesagt um halb neun.",
+              "fr": "J'arrive à huit heures, ou plutôt à huit heures et demie.",
+              "pt": "Eu chego às oito, ou melhor, às oito e meia.",
+              "zh": "我八点到，更确切地说，八点半。"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Te llamo mañana, ",
+          "after": ", pasado mañana.",
+          "options": [
+            "mejor dicho",
+            "en cambio",
+            "además"
+          ],
+          "answer": "mejor dicho",
+          "en": "I'll call you tomorrow, or rather, the day after tomorrow.",
+          "it": "Ti chiamo domani, anzi, dopodomani.",
+          "uk": "Я подзвоню тобі завтра, точніше, післязавтра.",
+          "de": "Ich rufe dich morgen an, besser gesagt übermorgen.",
+          "fr": "Je t'appelle demain, ou plutôt après-demain.",
+          "pt": "Eu te ligo amanhã, ou melhor, depois de amanhã.",
+          "zh": "我明天给你打电话，不对，是后天。",
+          "hint": {
+            "en": "You correct yourself: mejor dicho.",
+            "it": "Ti correggi: mejor dicho.",
+            "uk": "Ти виправляєш себе: mejor dicho.",
+            "de": "Du korrigierst dich: mejor dicho.",
+            "fr": "Tu te corriges : mejor dicho.",
+            "pt": "Você se corrige: mejor dicho.",
+            "zh": "你在纠正自己：mejor dicho。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "You tell a colleague the meeting is on Monday, then remember it's on Tuesday. Say: the meeting is on Monday, I mean, on Tuesday.",
+            "it": "Dici a una collega che la riunione è lunedì, poi ti ricordi che è martedì. Di': la riunione è lunedì, voglio dire, martedì.",
+            "uk": "Ти кажеш колезі, що нарада в понеділок, а потім згадуєш, що вона у вівторок. Скажи: нарада в понеділок, тобто у вівторок.",
+            "de": "Du sagst einer Kollegin, dass die Besprechung am Montag ist, und dann fällt dir ein, dass sie am Dienstag ist. Sag: Die Besprechung ist am Montag, ich meine, am Dienstag.",
+            "fr": "Tu dis à une collègue que la réunion est lundi, puis tu te rappelles qu'elle est mardi. Dis : la réunion est lundi, je veux dire mardi.",
+            "pt": "Você diz a um colega que a reunião é na segunda e depois lembra que é na terça. Diga: a reunião é na segunda, quer dizer, na terça.",
+            "zh": "你告诉一位同事会议在星期一，然后想起来是在星期二。说：会议在星期一，我是说，星期二。"
+          },
+          "accepted": [
+            "La reunión es el lunes, quiero decir, el martes.",
+            "La reunión es el lunes, mejor dicho, el martes."
+          ],
+          "tiles": [
+            "La reunión",
+            "es",
+            "el lunes,",
+            "quiero decir,",
+            "el martes",
+            "en cambio",
+            "está"
+          ],
+          "en": "The meeting is on Monday, I mean, on Tuesday.",
+          "it": "La riunione è lunedì, voglio dire, martedì.",
+          "uk": "Нарада в понеділок, тобто у вівторок.",
+          "de": "Die Besprechung ist am Montag, ich meine, am Dienstag.",
+          "fr": "La réunion est lundi, je veux dire mardi.",
+          "pt": "A reunião é na segunda, quer dizer, na terça.",
+          "zh": "会议在星期一，我是说，星期二。",
+          "hint": {
+            "en": "You correct yourself: quiero decir + the right day.",
+            "it": "Ti correggi: quiero decir + il giorno giusto.",
+            "uk": "Ти виправляєш себе: quiero decir + правильний день.",
+            "de": "Du korrigierst dich: quiero decir + der richtige Tag.",
+            "fr": "Tu te corriges : quiero decir + le bon jour.",
+            "pt": "Você se corrige: quiero decir + o dia certo.",
+            "zh": "你在纠正自己：quiero decir + 正确的那一天。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "Trabajo de lunes a viernes, ",
+          "after": ", los fines de semana estoy libre.",
+          "options": [
+            "o sea",
+            "a menos que",
+            "hasta que"
+          ],
+          "answer": "o sea",
+          "en": "I work Monday to Friday, that is, I'm free at weekends.",
+          "it": "Lavoro dal lunedì al venerdì, cioè nel fine settimana sono libero.",
+          "uk": "Я працюю з понеділка по п'ятницю, тобто на вихідних я вільний(-а).",
+          "de": "Ich arbeite von Montag bis Freitag, also habe ich am Wochenende frei.",
+          "fr": "Je travaille du lundi au vendredi, c'est-à-dire que je suis libre le week-end.",
+          "pt": "Eu trabalho de segunda a sexta, ou seja, nos fins de semana estou livre.",
+          "zh": "我星期一到星期五上班，也就是说，周末我有空。",
+          "hint": {
+            "en": "You say the same thing in other words: o sea.",
+            "it": "Dici la stessa cosa con altre parole: o sea.",
+            "uk": "Ти кажеш те саме іншими словами: o sea.",
+            "de": "Du sagst dasselbe mit anderen Worten: o sea.",
+            "fr": "Tu redis la même chose autrement : o sea.",
+            "pt": "Você diz a mesma coisa com outras palavras: o sea.",
+            "zh": "你在用别的话说同一件事：o sea。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "mix",
+          "intention": {
+            "en": "Your friend says «El concierto empieza a las nueve» and it's already ten past nine. Draw the conclusion: so we're late.",
+            "it": "La tua amica dice «El concierto empieza a las nueve» e sono già le nove e dieci. Trai la conclusione: quindi siamo in ritardo.",
+            "uk": "Твоя подруга каже: «El concierto empieza a las nueve», а вже десять хвилин на десяту. Зроби висновок: тож ми запізнюємося.",
+            "de": "Dein Freund sagt: «El concierto empieza a las nueve», und es ist schon zehn nach neun. Zieh die Schlussfolgerung: Also sind wir zu spät.",
+            "fr": "Ton amie dit «El concierto empieza a las nueve» et il est déjà neuf heures dix. Tire la conclusion : donc on est en retard.",
+            "pt": "Seu amigo diz «El concierto empieza a las nueve» e já são nove e dez. Tire a conclusão: então a gente está atrasado.",
+            "zh": "你的朋友说 «El concierto empieza a las nueve»，而现在已经九点十分了。得出结论：那我们迟到了。"
+          },
+          "accepted": [
+            "O sea, que llegamos tarde.",
+            "O sea, que ya llegamos tarde."
+          ],
+          "tiles": [
+            "O sea,",
+            "que",
+            "llegamos",
+            "tarde",
+            "pronto",
+            "para que"
+          ],
+          "en": "So we're late.",
+          "it": "Quindi siamo in ritardo.",
+          "uk": "Тож ми запізнюємося.",
+          "de": "Also sind wir zu spät.",
+          "fr": "Donc on est en retard.",
+          "pt": "Então a gente está atrasado.",
+          "zh": "那我们迟到了。",
+          "hint": {
+            "en": "A conclusion from what you've just heard: o sea, que…",
+            "it": "Una conclusione da quello che hai appena sentito: o sea, que…",
+            "uk": "Висновок із того, що ти щойно почув(-ла): o sea, que…",
+            "de": "Eine Schlussfolgerung aus dem, was du gerade gehört hast: o sea, que…",
+            "fr": "Une conclusion tirée de ce que tu viens d'entendre : o sea, que…",
+            "pt": "Uma conclusão do que você acabou de ouvir: o sea, que…",
+            "zh": "根据刚听到的话得出结论：o sea, que…"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "Mi hermana tiene treinta años, ",
+          "after": ", treinta y uno.",
+          "options": [
+            "mejor dicho",
+            "o sea, que",
+            "mientras que"
+          ],
+          "answer": "mejor dicho",
+          "en": "My sister is thirty, or rather, thirty-one.",
+          "it": "Mia sorella ha trent'anni, anzi, trentuno.",
+          "uk": "Моїй сестрі тридцять, точніше, тридцять один.",
+          "de": "Meine Schwester ist dreißig, besser gesagt einunddreißig.",
+          "fr": "Ma sœur a trente ans, ou plutôt trente et un.",
+          "pt": "Minha irmã tem trinta anos, ou melhor, trinta e um.",
+          "zh": "我姐姐三十岁，更确切地说，三十一岁。",
+          "hint": {
+            "en": "You correct a mistake: mejor dicho.",
+            "it": "Correggi un errore: mejor dicho.",
+            "uk": "Ти виправляєш помилку: mejor dicho.",
+            "de": "Du korrigierst einen Fehler: mejor dicho.",
+            "fr": "Tu corriges une erreur : mejor dicho.",
+            "pt": "Você corrige um erro: mejor dicho.",
+            "zh": "你在纠正一个错误：mejor dicho。"
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "Write in Spanish: «I live in a village, that is, in a very quiet place.»",
+            "it": "Scrivi in spagnolo: «Vivo in un paese, cioè in un posto molto tranquillo.»",
+            "uk": "Напиши іспанською: «Я живу в селі, тобто в дуже тихому місці.»",
+            "de": "Schreib auf Spanisch: «Ich wohne in einem Dorf, also an einem sehr ruhigen Ort.»",
+            "fr": "Écris en espagnol : «J'habite dans un village, c'est-à-dire dans un endroit très calme.»",
+            "pt": "Escreva em espanhol: «Eu moro em um vilarejo, ou seja, em um lugar muito tranquilo.»",
+            "zh": "用西班牙语写：«我住在一个村子里，也就是说，一个非常安静的地方。»"
+          },
+          "accepted": [
+            "Vivo en un pueblo, o sea, en un sitio muy tranquilo.",
+            "Vivo en un pueblo, es decir, en un sitio muy tranquilo.",
+            "Vivo en un pueblo, o sea, en un lugar muy tranquilo.",
+            "Vivo en un pueblo, es decir, en un lugar muy tranquilo.",
+            "Yo vivo en un pueblo, o sea, en un sitio muy tranquilo.",
+            "Yo vivo en un pueblo, es decir, en un sitio muy tranquilo."
+          ],
+          "model": {
+            "es": "Vivo en un pueblo, o sea, en un sitio muy tranquilo.",
+            "en": "I live in a village, that is, in a very quiet place.",
+            "it": "Vivo in un paese, cioè in un posto molto tranquillo.",
+            "uk": "Я живу в селі, тобто в дуже тихому місці.",
+            "de": "Ich wohne in einem Dorf, also an einem sehr ruhigen Ort.",
+            "fr": "J'habite dans un village, c'est-à-dire dans un endroit très calme.",
+            "pt": "Eu moro em um vilarejo, ou seja, em um lugar muito tranquilo.",
+            "zh": "我住在一个村子里，也就是说，一个非常安静的地方。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u35l3",
+      "goal": {
+        "en": "Weigh up both sides: por un lado…, por otro (lado)…; say everything has its pros and cons, and answer depende when there's no clear answer.",
+        "it": "Valuta i due lati: por un lado…, por otro (lado)…; di' che tutto ha i suoi pro e contro, e rispondi depende quando non c'è una risposta chiara.",
+        "uk": "Зважуй обидві сторони: por un lado…, por otro (lado)…; кажи, що все має свої плюси й мінуси, і відповідай depende, коли однозначної відповіді немає.",
+        "de": "Wäge beide Seiten ab: por un lado…, por otro (lado)…; sag, dass alles seine Vor- und Nachteile hat, und antworte mit depende, wenn es keine klare Antwort gibt.",
+        "fr": "Pèse les deux côtés : por un lado…, por otro (lado)… ; dis que tout a ses avantages et ses inconvénients, et réponds depende quand il n'y a pas de réponse claire.",
+        "pt": "Pese os dois lados: por un lado…, por otro (lado)…; diga que tudo tem seus prós e contras e responda depende quando não há uma resposta clara.",
+        "zh": "权衡两个方面：por un lado…, por otro (lado)…；说凡事都有利有弊，没有明确答案时就回答 depende。"
+      },
+      "target": {
+        "es": "Por un lado, la ciudad es cómoda; por otro, es muy cara.",
+        "en": "On the one hand, the city is convenient; on the other, it's very expensive.",
+        "it": "Da un lato, la città è comoda; dall'altro, è molto cara.",
+        "uk": "З одного боку, у місті зручно; з іншого — там дуже дорого.",
+        "de": "Einerseits ist die Stadt bequem; andererseits ist sie sehr teuer.",
+        "fr": "D'un côté, la ville est pratique ; de l'autre, elle est très chère.",
+        "pt": "Por um lado, a cidade é prática; por outro, é muito cara.",
+        "zh": "一方面，城市生活很方便；另一方面，城市很贵。"
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "por un lado",
+              "en": "on the one hand",
+              "it": "da un lato",
+              "uk": "з одного боку",
+              "de": "einerseits",
+              "fr": "d'un côté",
+              "pt": "por um lado",
+              "zh": "一方面",
+              "kind": "rail"
+            },
+            {
+              "es": "por otro lado",
+              "en": "on the other hand",
+              "it": "dall'altro lato",
+              "uk": "з іншого боку",
+              "de": "andererseits",
+              "fr": "d'un autre côté, de l'autre côté",
+              "pt": "por outro lado",
+              "zh": "另一方面",
+              "kind": "rail"
+            },
+            {
+              "es": "el transporte público",
+              "en": "public transport",
+              "it": "i mezzi pubblici",
+              "uk": "громадський транспорт",
+              "de": "die öffentlichen Verkehrsmittel",
+              "fr": "les transports en commun",
+              "pt": "o transporte público",
+              "zh": "公共交通",
+              "kind": "chunk"
+            },
+            {
+              "es": "la naturaleza",
+              "en": "nature",
+              "it": "la natura",
+              "uk": "природа",
+              "de": "die Natur",
+              "fr": "la nature",
+              "pt": "a natureza",
+              "zh": "大自然",
+              "kind": "chunk"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "por un lado,",
+              "kind": "rail"
+            },
+            {
+              "text": "…;",
+              "kind": "chunk"
+            },
+            {
+              "text": "por otro,",
+              "kind": "rail"
+            },
+            {
+              "text": "…",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "To weigh up two sides of the same thing, start with por un lado… and go on with por otro lado… or just por otro…",
+            "it": "Per valutare due lati della stessa cosa, comincia con por un lado… e continua con por otro lado… o solo por otro…",
+            "uk": "Щоб зважити дві сторони однієї справи, почни з por un lado… і продовж за допомогою por otro lado… або просто por otro…",
+            "de": "Um zwei Seiten derselben Sache abzuwägen, fang mit por un lado… an und mach mit por otro lado… oder einfach por otro… weiter.",
+            "fr": "Pour peser deux côtés d'une même chose, commence par por un lado… et continue avec por otro lado… ou simplement por otro…",
+            "pt": "Para pesar dois lados da mesma coisa, comece com por un lado… e continue com por otro lado… ou só por otro…",
+            "zh": "要权衡同一件事的两个方面，先用 por un lado… 开头，再接 por otro lado…，或者只说 por otro…"
+          },
+          "examples": [
+            {
+              "es": "Por un lado, la ciudad es cómoda; por otro, es muy cara.",
+              "en": "On the one hand, the city is convenient; on the other, it's very expensive.",
+              "it": "Da un lato, la città è comoda; dall'altro, è molto cara.",
+              "uk": "З одного боку, у місті зручно; з іншого — там дуже дорого.",
+              "de": "Einerseits ist die Stadt bequem; andererseits ist sie sehr teuer.",
+              "fr": "D'un côté, la ville est pratique ; de l'autre, elle est très chère.",
+              "pt": "Por um lado, a cidade é prática; por outro, é muito cara.",
+              "zh": "一方面，城市生活很方便；另一方面，城市很贵。"
+            },
+            {
+              "es": "Por un lado, quiero cambiar de trabajo; por otro lado, me gusta mucho mi empresa.",
+              "en": "On the one hand, I want to change jobs; on the other hand, I really like my company.",
+              "it": "Da un lato, voglio cambiare lavoro; dall'altro, la mia azienda mi piace molto.",
+              "uk": "З одного боку, я хочу змінити роботу; з іншого боку, мені дуже подобається моя компанія.",
+              "de": "Einerseits will ich die Arbeit wechseln; andererseits gefällt mir meine Firma sehr.",
+              "fr": "D'un côté, je veux changer de travail ; de l'autre, j'aime beaucoup mon entreprise.",
+              "pt": "Por um lado, quero mudar de emprego; por outro lado, gosto muito da minha empresa.",
+              "zh": "一方面，我想换工作；另一方面，我很喜欢我的公司。"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Por un lado, el piso es muy grande; ",
+          "after": ", está lejos del centro.",
+          "options": [
+            "por otro",
+            "o sea",
+            "a menos que"
+          ],
+          "answer": "por otro",
+          "en": "On the one hand, the flat is very big; on the other, it's far from the centre.",
+          "it": "Da un lato, l'appartamento è molto grande; dall'altro, è lontano dal centro.",
+          "uk": "З одного боку, квартира дуже велика; з іншого — вона далеко від центру.",
+          "de": "Einerseits ist die Wohnung sehr groß; andererseits liegt sie weit vom Zentrum entfernt.",
+          "fr": "D'un côté, l'appartement est très grand ; de l'autre, il est loin du centre.",
+          "pt": "Por um lado, o apartamento é muito grande; por outro, fica longe do centro.",
+          "zh": "一方面，这套房子很大；另一方面，它离市中心很远。",
+          "hint": {
+            "en": "por un lado asks for its partner: por otro.",
+            "it": "por un lado chiama il suo compagno: por otro.",
+            "uk": "por un lado вимагає пари: por otro.",
+            "de": "por un lado braucht sein Gegenstück: por otro.",
+            "fr": "por un lado appelle son partenaire : por otro.",
+            "pt": "por un lado pede o seu par: por otro.",
+            "zh": "por un lado 要和它的搭档一起出现：por otro。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "A friend asks if you like living in your village. Weigh it up: on the one hand it's very quiet; on the other, there's no public transport.",
+            "it": "Un amico ti chiede se ti piace vivere nel tuo paese. Valuta: da un lato è molto tranquillo; dall'altro, non ci sono mezzi pubblici.",
+            "uk": "Друг питає, чи подобається тобі жити у твоєму селі. Зваж: з одного боку, там дуже тихо; з іншого — немає громадського транспорту.",
+            "de": "Ein Freund fragt, ob du gern in deinem Dorf wohnst. Wäge ab: Einerseits ist es sehr ruhig; andererseits gibt es keine öffentlichen Verkehrsmittel.",
+            "fr": "Un ami te demande si tu aimes vivre dans ton village. Pèse le pour et le contre : d'un côté, c'est très calme ; de l'autre, il n'y a pas de transports en commun.",
+            "pt": "Um amigo pergunta se você gosta de morar no seu vilarejo. Pese os dois lados: por um lado, é muito tranquilo; por outro, não tem transporte público.",
+            "zh": "一个朋友问你喜不喜欢住在你们村。权衡一下：一方面，这里很安静；另一方面，没有公共交通。"
+          },
+          "accepted": [
+            "Por un lado, es muy tranquilo; por otro, no hay transporte público.",
+            "Por un lado, es muy tranquilo; por otro lado, no hay transporte público."
+          ],
+          "tiles": [
+            "Por un lado,",
+            "es muy tranquilo;",
+            "por otro,",
+            "no hay",
+            "transporte público",
+            "en cambio",
+            "está"
+          ],
+          "en": "On the one hand, it's very quiet; on the other, there's no public transport.",
+          "it": "Da un lato, è molto tranquillo; dall'altro, non ci sono mezzi pubblici.",
+          "uk": "З одного боку, тут дуже тихо; з іншого — немає громадського транспорту.",
+          "de": "Einerseits ist es sehr ruhig; andererseits gibt es keine öffentlichen Verkehrsmittel.",
+          "fr": "D'un côté, c'est très calme ; de l'autre, il n'y a pas de transports en commun.",
+          "pt": "Por um lado, é muito tranquilo; por outro, não tem transporte público.",
+          "zh": "一方面，这里很安静；另一方面，没有公共交通。",
+          "hint": {
+            "en": "Two sides of the same village: por un lado…, por otro…",
+            "it": "Due lati dello stesso paese: por un lado…, por otro…",
+            "uk": "Дві сторони одного й того самого села: por un lado…, por otro…",
+            "de": "Zwei Seiten desselben Dorfs: por un lado…, por otro…",
+            "fr": "Deux côtés du même village : por un lado…, por otro…",
+            "pt": "Dois lados do mesmo vilarejo: por un lado…, por otro…",
+            "zh": "同一个村子的两个方面：por un lado…, por otro…"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "tiene sus ventajas",
+              "kind": "chunk"
+            },
+            {
+              "text": "y",
+              "kind": "rail"
+            },
+            {
+              "text": "sus inconvenientes",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "To say both sides count, use tener sus ventajas y sus inconvenientes (to have its pros and cons). Then you can go into detail with lo bueno es que… and lo malo es que…",
+            "it": "Per dire che contano tutti e due i lati, usa tener sus ventajas y sus inconvenientes (avere i suoi pro e contro). Poi puoi entrare nei dettagli con lo bueno es que… e lo malo es que…",
+            "uk": "Щоб сказати, що важливі обидві сторони, вживай tener sus ventajas y sus inconvenientes (мати свої плюси й мінуси). Потім можна перейти до деталей за допомогою lo bueno es que… та lo malo es que…",
+            "de": "Um zu sagen, dass beide Seiten zählen, verwende tener sus ventajas y sus inconvenientes (seine Vor- und Nachteile haben). Danach kannst du mit lo bueno es que… und lo malo es que… ins Detail gehen.",
+            "fr": "Pour dire que les deux côtés comptent, utilise tener sus ventajas y sus inconvenientes (avoir ses avantages et ses inconvénients). Ensuite, tu peux entrer dans les détails avec lo bueno es que… et lo malo es que…",
+            "pt": "Para dizer que os dois lados contam, use tener sus ventajas y sus inconvenientes (ter seus prós e contras). Depois você pode entrar em detalhes com lo bueno es que… e lo malo es que…",
+            "zh": "要说两个方面都存在，就用 tener sus ventajas y sus inconvenientes（有利有弊）。然后可以用 lo bueno es que… 和 lo malo es que… 具体说明。"
+          },
+          "examples": [
+            {
+              "es": "Vivir solo tiene sus ventajas y sus inconvenientes.",
+              "en": "Living alone has its pros and cons.",
+              "it": "Vivere da soli ha i suoi pro e contro.",
+              "uk": "Життя на самоті має свої плюси й мінуси.",
+              "de": "Allein zu wohnen hat seine Vor- und Nachteile.",
+              "fr": "Vivre seul a ses avantages et ses inconvénients.",
+              "pt": "Morar sozinho tem seus prós e contras.",
+              "zh": "一个人住有利有弊。"
+            },
+            {
+              "es": "Lo bueno es que hay mucha naturaleza; lo malo es que no hay trabajo.",
+              "en": "The good thing is that there's a lot of nature; the bad thing is that there's no work.",
+              "it": "Il bello è che c'è tanta natura; il brutto è che non c'è lavoro.",
+              "uk": "Добре те, що там багато природи; погано те, що немає роботи.",
+              "de": "Das Gute ist, dass es viel Natur gibt; das Schlechte ist, dass es keine Arbeit gibt.",
+              "fr": "Ce qui est bien, c'est qu'il y a beaucoup de nature ; ce qui est moins bien, c'est qu'il n'y a pas de travail.",
+              "pt": "O bom é que tem muita natureza; o ruim é que não tem trabalho.",
+              "zh": "好的是这里有很多大自然；不好的是没有工作。"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Lo bueno de mi trabajo es el sueldo; ",
+          "after": " es que trabajo los sábados.",
+          "options": [
+            "lo malo",
+            "la ventaja"
+          ],
+          "answer": "lo malo",
+          "en": "The good thing about my job is the salary; the bad thing is that I work on Saturdays.",
+          "it": "Il bello del mio lavoro è lo stipendio; il brutto è che lavoro il sabato.",
+          "uk": "Добре в моїй роботі — зарплата; погано те, що я працюю по суботах.",
+          "de": "Das Gute an meiner Arbeit ist das Gehalt; das Schlechte ist, dass ich samstags arbeite.",
+          "fr": "Ce qui est bien dans mon travail, c'est le salaire ; ce qui est moins bien, c'est que je travaille le samedi.",
+          "pt": "O bom do meu trabalho é o salário; o ruim é que eu trabalho aos sábados.",
+          "zh": "我工作的好处是工资；不好的是我星期六要上班。",
+          "hint": {
+            "en": "Working on Saturdays is the other side: lo malo.",
+            "it": "Lavorare il sabato è l'altro lato: lo malo.",
+            "uk": "Робота по суботах — це інша сторона: lo malo.",
+            "de": "Samstags arbeiten ist die andere Seite: lo malo.",
+            "fr": "Travailler le samedi, c'est l'autre côté : lo malo.",
+            "pt": "Trabalhar aos sábados é o outro lado: lo malo.",
+            "zh": "星期六上班是另一面：lo malo。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "A friend asks «¿Qué es mejor, vivir solo o con amigos?». Say both have their pros and cons.",
+            "it": "Un amico ti chiede «¿Qué es mejor, vivir solo o con amigos?». Rispondi che tutte e due le cose hanno i loro pro e contro.",
+            "uk": "Друг питає: «¿Qué es mejor, vivir solo o con amigos?». Скажи, що і те, і те має свої плюси й мінуси.",
+            "de": "Eine Freundin fragt: «¿Qué es mejor, vivir solo o con amigos?». Sag, dass beides seine Vor- und Nachteile hat.",
+            "fr": "Un ami te demande «¿Qué es mejor, vivir solo o con amigos?». Dis que les deux ont leurs avantages et leurs inconvénients.",
+            "pt": "Um amigo pergunta «¿Qué es mejor, vivir solo o con amigos?». Diga que os dois têm seus prós e contras.",
+            "zh": "一个朋友问你 «¿Qué es mejor, vivir solo o con amigos?»。说两种都有利有弊。"
+          },
+          "accepted": [
+            "Los dos tienen sus ventajas y sus inconvenientes."
+          ],
+          "tiles": [
+            "Los dos",
+            "tienen",
+            "sus ventajas",
+            "y",
+            "sus inconvenientes",
+            "tiene",
+            "o sea"
+          ],
+          "en": "Both have their pros and cons.",
+          "it": "Tutte e due le cose hanno i loro pro e contro.",
+          "uk": "І те, і те має свої плюси й мінуси.",
+          "de": "Beides hat seine Vor- und Nachteile.",
+          "fr": "Les deux ont leurs avantages et leurs inconvénients.",
+          "pt": "Os dois têm seus prós e contras.",
+          "zh": "两种都有利有弊。",
+          "hint": {
+            "en": "Both sides count: tener sus ventajas y sus inconvenientes, here tienen for los dos.",
+            "it": "Contano tutti e due i lati: tener sus ventajas y sus inconvenientes, qui tienen per los dos.",
+            "uk": "Важливі обидві сторони: tener sus ventajas y sus inconvenientes, тут tienen, бо йдеться про los dos.",
+            "de": "Beide Seiten zählen: tener sus ventajas y sus inconvenientes, hier tienen für los dos.",
+            "fr": "Les deux côtés comptent : tener sus ventajas y sus inconvenientes, ici tienen pour los dos.",
+            "pt": "Os dois lados contam: tener sus ventajas y sus inconvenientes, aqui tienen, por causa de los dos.",
+            "zh": "两个方面都存在：tener sus ventajas y sus inconvenientes，这里主语是 los dos，所以用 tienen。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "depende",
+              "kind": "stem"
+            },
+            {
+              "text": "de…",
+              "kind": "rail"
+            }
+          ],
+          "rule": {
+            "en": "When there's no clear answer, say depende (it depends), or depende de + what it depends on. You can add a real condition with si + the normal present.",
+            "it": "Quando non c'è una risposta chiara, di' depende (dipende), oppure depende de + quello da cui dipende. Puoi aggiungere una condizione reale con si + il presente normale.",
+            "uk": "Коли однозначної відповіді немає, кажи depende (залежить), або depende de + те, від чого залежить. Можна додати реальну умову: si + звичайний теперішній час.",
+            "de": "Wenn es keine klare Antwort gibt, sag depende (es kommt darauf an) oder depende de + das, wovon es abhängt. Du kannst mit si + dem normalen Präsens eine echte Bedingung hinzufügen.",
+            "fr": "Quand il n'y a pas de réponse claire, dis depende (ça dépend), ou depende de + ce dont ça dépend. Tu peux ajouter une condition réelle avec si + le présent normal.",
+            "pt": "Quando não há uma resposta clara, diga depende, ou depende de + aquilo de que depende. Você pode acrescentar uma condição real com si + o presente normal.",
+            "zh": "没有明确答案时，说 depende（看情况），或者 depende de + 取决于什么。还可以用 si + 普通的现在时加一个真实的条件。"
+          },
+          "examples": [
+            {
+              "es": "¿Ciudad o pueblo? Depende de la persona.",
+              "en": "City or village? It depends on the person.",
+              "it": "Città o paese? Dipende dalla persona.",
+              "uk": "Місто чи село? Залежить від людини.",
+              "de": "Stadt oder Dorf? Das hängt von der Person ab.",
+              "fr": "La ville ou le village ? Ça dépend de la personne.",
+              "pt": "Cidade ou vilarejo? Depende da pessoa.",
+              "zh": "城市还是村子？看人。"
+            },
+            {
+              "es": "Depende: si tienes coche, el campo está muy bien.",
+              "en": "It depends: if you have a car, the countryside is great.",
+              "it": "Dipende: se hai la macchina, la campagna va benissimo.",
+              "uk": "Залежить: якщо в тебе є машина, за містом чудово.",
+              "de": "Es kommt darauf an: Wenn du ein Auto hast, ist es auf dem Land super.",
+              "fr": "Ça dépend : si tu as une voiture, la campagne, c'est très bien.",
+              "pt": "Depende: se você tem carro, o campo é ótimo.",
+              "zh": "看情况：如果你有车，住在乡下就非常好。"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "¿Es mejor ir en tren o en coche? Depende ",
+          "after": " tráfico.",
+          "options": [
+            "del",
+            "de la",
+            "de"
+          ],
+          "answer": "del",
+          "en": "Is it better to go by train or by car? It depends on the traffic.",
+          "it": "È meglio andare in treno o in macchina? Dipende dal traffico.",
+          "uk": "Краще їхати потягом чи машиною? Залежить від заторів.",
+          "de": "Fährt man besser mit dem Zug oder mit dem Auto? Das hängt vom Verkehr ab.",
+          "fr": "Vaut-il mieux y aller en train ou en voiture ? Ça dépend de la circulation.",
+          "pt": "É melhor ir de trem ou de carro? Depende do trânsito.",
+          "zh": "坐火车去好还是开车去好？要看交通情况。",
+          "hint": {
+            "en": "el tráfico: de + el becomes del.",
+            "it": "el tráfico: de + el diventa del.",
+            "uk": "el tráfico: de + el стає del.",
+            "de": "el tráfico: de + el wird zu del.",
+            "fr": "el tráfico : de + el devient del, comme « de + le » devient « du » en français.",
+            "pt": "el tráfico: de + el vira del (como o nosso do).",
+            "zh": "el tráfico：de + el 要变成 del。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "A friend asks «¿Es mejor vivir en la ciudad o en el campo?». Say it depends: if you have a car, the countryside is great.",
+            "it": "Un amico ti chiede «¿Es mejor vivir en la ciudad o en el campo?». Rispondi che dipende: se hai la macchina, la campagna va benissimo.",
+            "uk": "Друг питає: «¿Es mejor vivir en la ciudad o en el campo?». Скажи, що залежить: якщо в тебе є машина, за містом чудово.",
+            "de": "Eine Freundin fragt: «¿Es mejor vivir en la ciudad o en el campo?». Sag, es kommt darauf an: Wenn du ein Auto hast, ist es auf dem Land super.",
+            "fr": "Un ami te demande «¿Es mejor vivir en la ciudad o en el campo?». Dis que ça dépend : si tu as une voiture, la campagne, c'est très bien.",
+            "pt": "Um amigo pergunta «¿Es mejor vivir en la ciudad o en el campo?». Diga que depende: se você tem carro, o campo é ótimo.",
+            "zh": "一个朋友问你 «¿Es mejor vivir en la ciudad o en el campo?»。说要看情况：如果你有车，住在乡下就非常好。"
+          },
+          "accepted": [
+            "Depende: si tienes coche, el campo está muy bien.",
+            "Depende. Si tienes coche, el campo está muy bien."
+          ],
+          "tiles": [
+            "Depende:",
+            "si",
+            "tienes",
+            "coche,",
+            "el campo",
+            "está muy bien",
+            "tengas"
+          ],
+          "en": "It depends: if you have a car, the countryside is great.",
+          "it": "Dipende: se hai la macchina, la campagna va benissimo.",
+          "uk": "Залежить: якщо в тебе є машина, за містом чудово.",
+          "de": "Es kommt darauf an: Wenn du ein Auto hast, ist es auf dem Land super.",
+          "fr": "Ça dépend : si tu as une voiture, la campagne, c'est très bien.",
+          "pt": "Depende: se você tem carro, o campo é ótimo.",
+          "zh": "看情况：如果你有车，住在乡下就非常好。",
+          "hint": {
+            "en": "No clear answer: depende, then si + the normal present.",
+            "it": "Nessuna risposta chiara: depende, poi si + il presente normale.",
+            "uk": "Однозначної відповіді немає: depende, потім si + звичайний теперішній час.",
+            "de": "Keine klare Antwort: depende, dann si + das normale Präsens.",
+            "fr": "Pas de réponse claire : depende, puis si + le présent normal.",
+            "pt": "Sem resposta clara: depende, e depois si + o presente normal (em português às vezes se diz «se você tiver», mas em espanhol nunca: tienes).",
+            "zh": "没有明确答案：先说 depende，再接 si + 普通的现在时。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "",
+          "after": ", me encanta mi trabajo; por otro, el sueldo es muy bajo.",
+          "options": [
+            "Por un lado",
+            "En cambio",
+            "Mejor dicho"
+          ],
+          "answer": "Por un lado",
+          "en": "On the one hand, I love my job; on the other, the salary is very low.",
+          "it": "Da un lato, adoro il mio lavoro; dall'altro, lo stipendio è molto basso.",
+          "uk": "З одного боку, я обожнюю свою роботу; з іншого — зарплата дуже низька.",
+          "de": "Einerseits liebe ich meine Arbeit; andererseits ist das Gehalt sehr niedrig.",
+          "fr": "D'un côté, j'adore mon travail ; de l'autre, le salaire est très bas.",
+          "pt": "Por um lado, eu adoro meu trabalho; por outro, o salário é muito baixo.",
+          "zh": "一方面，我很喜欢我的工作；另一方面，工资很低。",
+          "hint": {
+            "en": "por otro needs a partner at the start: por un lado.",
+            "it": "por otro ha bisogno del suo compagno all'inizio: por un lado.",
+            "uk": "por otro потребує пари на початку: por un lado.",
+            "de": "por otro braucht am Anfang ein Gegenstück: por un lado.",
+            "fr": "por otro a besoin de son partenaire au début : por un lado.",
+            "pt": "por otro precisa de um par no começo: por un lado.",
+            "zh": "por otro 开头需要有它的搭档：por un lado。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "mix",
+          "intention": {
+            "en": "A friend asks if you like your new flat. Say the good thing is that it's big; the bad thing is that it's far from the centre.",
+            "it": "Un'amica ti chiede se ti piace il tuo nuovo appartamento. Rispondi che il bello è che è grande; il brutto è che è lontano dal centro.",
+            "uk": "Подруга питає, чи подобається тобі твоя нова квартира. Скажи, що добре те, що вона велика; погано те, що вона далеко від центру.",
+            "de": "Ein Freund fragt, ob dir deine neue Wohnung gefällt. Sag: Das Gute ist, dass sie groß ist; das Schlechte ist, dass sie weit vom Zentrum entfernt liegt.",
+            "fr": "Une amie te demande si tu aimes ton nouvel appartement. Dis que ce qui est bien, c'est qu'il est grand ; ce qui est moins bien, c'est qu'il est loin du centre.",
+            "pt": "Um amigo pergunta se você gosta do seu apartamento novo. Diga que o bom é que é grande; o ruim é que fica longe do centro.",
+            "zh": "一个朋友问你喜不喜欢你的新房子。说好的是房子很大；不好的是离市中心很远。"
+          },
+          "accepted": [
+            "Lo bueno es que es grande; lo malo es que está lejos del centro."
+          ],
+          "tiles": [
+            "Lo bueno",
+            "es que",
+            "es grande;",
+            "lo malo",
+            "es que",
+            "está lejos",
+            "del centro",
+            "es lejos"
+          ],
+          "en": "The good thing is that it's big; the bad thing is that it's far from the centre.",
+          "it": "Il bello è che è grande; il brutto è che è lontano dal centro.",
+          "uk": "Добре те, що вона велика; погано те, що вона далеко від центру.",
+          "de": "Das Gute ist, dass sie groß ist; das Schlechte ist, dass sie weit vom Zentrum entfernt liegt.",
+          "fr": "Ce qui est bien, c'est qu'il est grand ; ce qui est moins bien, c'est qu'il est loin du centre.",
+          "pt": "O bom é que é grande; o ruim é que fica longe do centro.",
+          "zh": "好的是房子很大；不好的是离市中心很远。",
+          "hint": {
+            "en": "lo bueno es que…, lo malo es que…; far away is a place: está lejos.",
+            "it": "lo bueno es que…, lo malo es que…; lontano è un luogo: está lejos.",
+            "uk": "lo bueno es que…, lo malo es que…; «далеко» — це про місце: está lejos.",
+            "de": "lo bueno es que…, lo malo es que…; weit weg ist eine Ortsangabe: está lejos.",
+            "fr": "lo bueno es que…, lo malo es que… ; être loin, c'est une question de lieu : está lejos.",
+            "pt": "lo bueno es que…, lo malo es que…; longe é um lugar: está lejos.",
+            "zh": "lo bueno es que…，lo malo es que…；\"远\"说的是位置：está lejos。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "¿Prefieres la playa o la montaña? ",
+          "after": " del tiempo.",
+          "options": [
+            "Depende",
+            "Por un lado",
+            "O sea"
+          ],
+          "answer": "Depende",
+          "en": "Do you prefer the beach or the mountains? It depends on the weather.",
+          "it": "Preferisci il mare o la montagna? Dipende dal tempo.",
+          "uk": "Тобі більше до вподоби море чи гори? Залежить від погоди.",
+          "de": "Magst du lieber den Strand oder die Berge? Das hängt vom Wetter ab.",
+          "fr": "Tu préfères la mer ou la montagne ? Ça dépend du temps.",
+          "pt": "Você prefere praia ou montanha? Depende do tempo.",
+          "zh": "你更喜欢海边还是山里？要看天气。",
+          "hint": {
+            "en": "No clear answer: depende de…",
+            "it": "Nessuna risposta chiara: depende de…",
+            "uk": "Однозначної відповіді немає: depende de…",
+            "de": "Keine klare Antwort: depende de…",
+            "fr": "Pas de réponse claire : depende de…",
+            "pt": "Sem resposta clara: depende de…",
+            "zh": "没有明确答案：depende de…"
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "Write in Spanish: «On the one hand, the city is convenient; on the other, it's very expensive.»",
+            "it": "Scrivi in spagnolo: «Da un lato, la città è comoda; dall'altro, è molto cara.»",
+            "uk": "Напиши іспанською: «З одного боку, у місті зручно; з іншого — там дуже дорого.»",
+            "de": "Schreib auf Spanisch: «Einerseits ist die Stadt bequem; andererseits ist sie sehr teuer.»",
+            "fr": "Écris en espagnol : «D'un côté, la ville est pratique ; de l'autre, elle est très chère.»",
+            "pt": "Escreva em espanhol: «Por um lado, a cidade é prática; por outro, é muito cara.»",
+            "zh": "用西班牙语写：«一方面，城市生活很方便；另一方面，城市很贵。»"
+          },
+          "accepted": [
+            "Por un lado, la ciudad es cómoda; por otro, es muy cara.",
+            "Por un lado, la ciudad es cómoda; por otro lado, es muy cara.",
+            "Por un lado, la ciudad es cómoda, pero por otro, es muy cara.",
+            "Por un lado, la ciudad es cómoda, pero por otro lado, es muy cara."
+          ],
+          "model": {
+            "es": "Por un lado, la ciudad es cómoda; por otro, es muy cara.",
+            "en": "On the one hand, the city is convenient; on the other, it's very expensive.",
+            "it": "Da un lato, la città è comoda; dall'altro, è molto cara.",
+            "uk": "З одного боку, у місті зручно; з іншого — там дуже дорого.",
+            "de": "Einerseits ist die Stadt bequem; andererseits ist sie sehr teuer.",
+            "fr": "D'un côté, la ville est pratique ; de l'autre, elle est très chère.",
+            "pt": "Por um lado, a cidade é prática; por outro, é muito cara.",
+            "zh": "一方面，城市生活很方便；另一方面，城市很贵。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u35l4",
+      "goal": {
+        "en": "Back up what you say with examples: por ejemplo, como (like, such as), and sobre todo for the example that matters most.",
+        "it": "Sostieni quello che dici con degli esempi: por ejemplo, como (come) e sobre todo per l'esempio più importante.",
+        "uk": "Підкріплюй свої слова прикладами: por ejemplo, como (як, такі як) і sobre todo — для найважливішого прикладу.",
+        "de": "Untermauere, was du sagst, mit Beispielen: por ejemplo, como (wie, zum Beispiel) und sobre todo für das wichtigste Beispiel.",
+        "fr": "Appuie ce que tu dis avec des exemples : por ejemplo, como (comme) et sobre todo pour l'exemple le plus important.",
+        "pt": "Sustente o que você diz com exemplos: por ejemplo, como (como, tipo) e sobre todo para o exemplo mais importante.",
+        "zh": "用例子支持你的观点：por ejemplo，como（像……，比如……），以及用 sobre todo 引出最重要的例子。"
+      },
+      "target": {
+        "es": "En la ciudad hay más oportunidades, sobre todo para los jóvenes.",
+        "en": "In the city there are more opportunities, especially for young people.",
+        "it": "In città ci sono più opportunità, soprattutto per i giovani.",
+        "uk": "У місті більше можливостей, особливо для молоді.",
+        "de": "In der Stadt gibt es mehr Möglichkeiten, vor allem für junge Leute.",
+        "fr": "En ville, il y a plus d'opportunités, surtout pour les jeunes.",
+        "pt": "Na cidade há mais oportunidades, principalmente para os jovens.",
+        "zh": "城市里机会更多，尤其是对年轻人来说。"
+      },
+      "names": [
+        "Madrid",
+        "el Prado",
+        "Sevilla",
+        "Granada",
+        "Barcelona",
+        "Valencia"
+      ],
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "por ejemplo",
+              "en": "for example",
+              "it": "per esempio",
+              "uk": "наприклад",
+              "de": "zum Beispiel",
+              "fr": "par exemple",
+              "pt": "por exemplo",
+              "zh": "例如，比如",
+              "kind": "rail"
+            },
+            {
+              "es": "sobre todo",
+              "en": "especially, above all",
+              "it": "soprattutto",
+              "uk": "особливо, насамперед",
+              "de": "vor allem, besonders",
+              "fr": "surtout",
+              "pt": "principalmente, sobretudo",
+              "zh": "尤其，特别是",
+              "kind": "rail"
+            },
+            {
+              "es": "las oportunidades",
+              "en": "opportunities",
+              "it": "le opportunità",
+              "uk": "можливості",
+              "de": "die Möglichkeiten, die Chancen",
+              "fr": "les opportunités",
+              "pt": "as oportunidades",
+              "zh": "机会",
+              "kind": "chunk"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "…:",
+              "kind": "chunk"
+            },
+            {
+              "text": "por ejemplo,",
+              "kind": "rail"
+            },
+            {
+              "text": "…",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "To back up what you say, give an example with por ejemplo, after a comma or a colon.",
+            "it": "Per sostenere quello che dici, fai un esempio con por ejemplo, dopo una virgola o i due punti.",
+            "uk": "Щоб підкріпити свої слова, наведи приклад за допомогою por ejemplo — після коми або двокрапки.",
+            "de": "Um zu untermauern, was du sagst, gib ein Beispiel mit por ejemplo, nach einem Komma oder einem Doppelpunkt.",
+            "fr": "Pour appuyer ce que tu dis, donne un exemple avec por ejemplo, après une virgule ou deux-points.",
+            "pt": "Para sustentar o que você diz, dê um exemplo com por ejemplo, depois de uma vírgula ou de dois-pontos.",
+            "zh": "要支持你的观点，就在逗号或冒号后面用 por ejemplo 举个例子。"
+          },
+          "examples": [
+            {
+              "es": "En Madrid hay muchos museos, por ejemplo, el Prado.",
+              "en": "There are lots of museums in Madrid, for example the Prado.",
+              "it": "A Madrid ci sono tanti musei, per esempio il Prado.",
+              "uk": "У Мадриді багато музеїв, наприклад, Прадо.",
+              "de": "In Madrid gibt es viele Museen, zum Beispiel den Prado.",
+              "fr": "À Madrid, il y a beaucoup de musées, par exemple le Prado.",
+              "pt": "Em Madri há muitos museus, por exemplo, o Prado.",
+              "zh": "马德里有很多博物馆，比如普拉多博物馆。"
+            },
+            {
+              "es": "En el pueblo la vida es más barata: por ejemplo, el alquiler.",
+              "en": "Life is cheaper in the village: the rent, for example.",
+              "it": "In paese la vita costa meno: per esempio l'affitto.",
+              "uk": "У селі життя дешевше: наприклад, оренда.",
+              "de": "Im Dorf ist das Leben billiger: zum Beispiel die Miete.",
+              "fr": "Au village, la vie est moins chère : par exemple, le loyer.",
+              "pt": "No vilarejo a vida é mais barata: por exemplo, o aluguel.",
+              "zh": "村子里生活更便宜：比如房租。"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "En España hay ciudades con mucha historia: ",
+          "after": ", Sevilla o Granada.",
+          "options": [
+            "por ejemplo",
+            "en cambio",
+            "mejor dicho"
+          ],
+          "answer": "por ejemplo",
+          "en": "There are cities with a lot of history in Spain: for example, Sevilla or Granada.",
+          "it": "In Spagna ci sono città ricche di storia: per esempio Siviglia o Granada.",
+          "uk": "В Іспанії є міста з багатою історією: наприклад, Севілья чи Гранада.",
+          "de": "In Spanien gibt es Städte mit viel Geschichte: zum Beispiel Sevilla oder Granada.",
+          "fr": "En Espagne, il y a des villes riches en histoire : par exemple Séville ou Grenade.",
+          "pt": "Na Espanha há cidades com muita história: por exemplo, Sevilha ou Granada.",
+          "zh": "西班牙有很多历史悠久的城市：比如塞维利亚或格拉纳达。",
+          "hint": {
+            "en": "You give examples: por ejemplo.",
+            "it": "Fai degli esempi: por ejemplo.",
+            "uk": "Ти наводиш приклади: por ejemplo.",
+            "de": "Du nennst Beispiele: por ejemplo.",
+            "fr": "Tu donnes des exemples : por ejemplo.",
+            "pt": "Você dá exemplos: por ejemplo.",
+            "zh": "你在举例子：por ejemplo。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "A friend from abroad asks what there is to do in Madrid. Say there are lots of museums, for example the Prado.",
+            "it": "Un amico straniero ti chiede cosa c'è da fare a Madrid. Rispondi che ci sono tanti musei, per esempio il Prado.",
+            "uk": "Друг з-за кордону питає, чим можна зайнятися в Мадриді. Скажи, що там багато музеїв, наприклад, Прадо.",
+            "de": "Eine Freundin aus dem Ausland fragt, was man in Madrid machen kann. Sag, es gibt viele Museen, zum Beispiel den Prado.",
+            "fr": "Un ami étranger te demande ce qu'il y a à faire à Madrid. Dis qu'il y a beaucoup de musées, par exemple le Prado.",
+            "pt": "Um amigo estrangeiro pergunta o que dá para fazer em Madri. Diga que há muitos museus, por exemplo, o Prado.",
+            "zh": "一个外国朋友问你在马德里有什么可做的。说有很多博物馆，比如普拉多博物馆。"
+          },
+          "accepted": [
+            "Hay muchos museos, por ejemplo, el Prado.",
+            "Hay muchos museos: por ejemplo, el Prado.",
+            "Hay muchos museos, por ejemplo el Prado."
+          ],
+          "tiles": [
+            "Hay",
+            "muchos museos,",
+            "por ejemplo,",
+            "el Prado",
+            "o sea",
+            "muchas"
+          ],
+          "en": "There are lots of museums, for example the Prado.",
+          "it": "Ci sono tanti musei, per esempio il Prado.",
+          "uk": "Тут багато музеїв, наприклад, Прадо.",
+          "de": "Es gibt viele Museen, zum Beispiel den Prado.",
+          "fr": "Il y a beaucoup de musées, par exemple le Prado.",
+          "pt": "Há muitos museus, por exemplo, o Prado.",
+          "zh": "有很多博物馆，比如普拉多博物馆。",
+          "hint": {
+            "en": "Back it up with an example: por ejemplo.",
+            "it": "Sostienilo con un esempio: por ejemplo.",
+            "uk": "Підкріпи прикладом: por ejemplo.",
+            "de": "Untermauere es mit einem Beispiel: por ejemplo.",
+            "fr": "Appuie-le avec un exemple : por ejemplo.",
+            "pt": "Sustente com um exemplo: por ejemplo.",
+            "zh": "举个例子来支持：por ejemplo。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "ciudades grandes",
+              "kind": "chunk"
+            },
+            {
+              "text": "como",
+              "kind": "rail"
+            },
+            {
+              "text": "Madrid",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "To slip examples into the sentence itself, use como (like, such as) with no comma: ciudades grandes como Madrid.",
+            "it": "Per inserire gli esempi nella frase stessa, usa como (come) senza virgola: ciudades grandes como Madrid.",
+            "uk": "Щоб вставити приклади просто в речення, вживай como (як, такі як) без коми: ciudades grandes como Madrid.",
+            "de": "Um Beispiele direkt in den Satz einzubauen, verwende como (wie) ohne Komma: ciudades grandes como Madrid.",
+            "fr": "Pour glisser des exemples dans la phrase elle-même, utilise como (comme) sans virgule : ciudades grandes como Madrid.",
+            "pt": "Para encaixar exemplos dentro da própria frase, use como, sem vírgula: ciudades grandes como Madrid.",
+            "zh": "要把例子直接放进句子里，就用 como（像……，比如……），不加逗号：ciudades grandes como Madrid。"
+          },
+          "examples": [
+            {
+              "es": "Me encantan las ciudades grandes como Madrid o Barcelona.",
+              "en": "I love big cities like Madrid or Barcelona.",
+              "it": "Adoro le grandi città come Madrid o Barcellona.",
+              "uk": "Я обожнюю великі міста, як-от Мадрид чи Барселона.",
+              "de": "Ich liebe große Städte wie Madrid oder Barcelona.",
+              "fr": "J'adore les grandes villes comme Madrid ou Barcelone.",
+              "pt": "Eu adoro cidades grandes como Madri ou Barcelona.",
+              "zh": "我特别喜欢马德里或巴塞罗那这样的大城市。"
+            },
+            {
+              "es": "Me gusta hacer deporte, como correr o nadar.",
+              "en": "I like doing sport, like running or swimming.",
+              "it": "Mi piace fare sport, come correre o nuotare.",
+              "uk": "Я люблю займатися спортом, наприклад бігати чи плавати.",
+              "de": "Ich treibe gern Sport, wie Laufen oder Schwimmen.",
+              "fr": "J'aime faire du sport, comme courir ou nager.",
+              "pt": "Eu gosto de fazer esporte, como correr ou nadar.",
+              "zh": "我喜欢运动，比如跑步或游泳。"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Me gustan las ciudades con mar, ",
+          "after": " Barcelona o Valencia.",
+          "options": [
+            "como",
+            "que",
+            "para"
+          ],
+          "answer": "como",
+          "en": "I like cities by the sea, like Barcelona or Valencia.",
+          "it": "Mi piacciono le città sul mare, come Barcellona o Valencia.",
+          "uk": "Мені подобаються міста біля моря, як-от Барселона чи Валенсія.",
+          "de": "Ich mag Städte am Meer, wie Barcelona oder Valencia.",
+          "fr": "J'aime les villes au bord de la mer, comme Barcelone ou Valence.",
+          "pt": "Eu gosto de cidades à beira-mar, como Barcelona ou Valência.",
+          "zh": "我喜欢海边的城市，比如巴塞罗那或瓦伦西亚。",
+          "hint": {
+            "en": "Examples inside the sentence: como.",
+            "it": "Esempi dentro la frase: como.",
+            "uk": "Приклади всередині речення: como.",
+            "de": "Beispiele im Satz: como.",
+            "fr": "Des exemples dans la phrase : como.",
+            "pt": "Exemplos dentro da frase: como.",
+            "zh": "例子放在句子里面：como。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "A colleague asks what kind of cities you like. Say you love big cities like Madrid or Barcelona.",
+            "it": "Una collega ti chiede che tipo di città ti piace. Rispondi che adori le grandi città come Madrid o Barcellona.",
+            "uk": "Колега питає, які міста тобі подобаються. Скажи, що ти обожнюєш великі міста, як-от Мадрид чи Барселона.",
+            "de": "Eine Kollegin fragt, welche Art von Städten du magst. Sag, dass du große Städte wie Madrid oder Barcelona liebst.",
+            "fr": "Une collègue te demande quel genre de villes tu aimes. Dis que tu adores les grandes villes comme Madrid ou Barcelone.",
+            "pt": "Um colega pergunta de que tipo de cidade você gosta. Diga que você adora cidades grandes como Madri ou Barcelona.",
+            "zh": "一位同事问你喜欢什么样的城市。说你特别喜欢马德里或巴塞罗那这样的大城市。"
+          },
+          "accepted": [
+            "Me encantan las ciudades grandes como Madrid o Barcelona.",
+            "Me encantan las grandes ciudades como Madrid o Barcelona."
+          ],
+          "tiles": [
+            "Me encantan",
+            "las ciudades grandes",
+            "como",
+            "Madrid",
+            "o",
+            "Barcelona",
+            "encanta",
+            "que"
+          ],
+          "en": "I love big cities like Madrid or Barcelona.",
+          "it": "Adoro le grandi città come Madrid o Barcellona.",
+          "uk": "Я обожнюю великі міста, як-от Мадрид чи Барселона.",
+          "de": "Ich liebe große Städte wie Madrid oder Barcelona.",
+          "fr": "J'adore les grandes villes comme Madrid ou Barcelone.",
+          "pt": "Eu adoro cidades grandes como Madri ou Barcelona.",
+          "zh": "我特别喜欢马德里或巴塞罗那这样的大城市。",
+          "hint": {
+            "en": "Examples inside the sentence: como, no comma.",
+            "it": "Esempi dentro la frase: como, senza virgola.",
+            "uk": "Приклади всередині речення: como, без коми.",
+            "de": "Beispiele im Satz: como, ohne Komma.",
+            "fr": "Des exemples dans la phrase : como, sans virgule.",
+            "pt": "Exemplos dentro da frase: como, sem vírgula.",
+            "zh": "例子放在句子里面：como，不加逗号。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "…,",
+              "kind": "chunk"
+            },
+            {
+              "text": "sobre todo",
+              "kind": "rail"
+            },
+            {
+              "text": "…",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "sobre todo (especially, above all) points to the example or the reason that matters most.",
+            "it": "sobre todo (soprattutto) indica l'esempio o il motivo più importante.",
+            "uk": "sobre todo (особливо, насамперед) вказує на найважливіший приклад чи причину.",
+            "de": "sobre todo (vor allem, besonders) zeigt auf das Beispiel oder den Grund, der am meisten zählt.",
+            "fr": "sobre todo (surtout) met en avant l'exemple ou la raison la plus importante.",
+            "pt": "sobre todo (principalmente, sobretudo) aponta o exemplo ou o motivo mais importante.",
+            "zh": "sobre todo（尤其，特别是）指出最重要的那个例子或理由。"
+          },
+          "examples": [
+            {
+              "es": "Me gusta el pueblo, sobre todo en verano.",
+              "en": "I like the village, especially in summer.",
+              "it": "Il paese mi piace, soprattutto d'estate.",
+              "uk": "Мені подобається село, особливо влітку.",
+              "de": "Ich mag das Dorf, vor allem im Sommer.",
+              "fr": "J'aime bien le village, surtout en été.",
+              "pt": "Eu gosto do vilarejo, principalmente no verão.",
+              "zh": "我喜欢村子，尤其是夏天的时候。"
+            },
+            {
+              "es": "En la ciudad hay más oportunidades, sobre todo para los jóvenes.",
+              "en": "In the city there are more opportunities, especially for young people.",
+              "it": "In città ci sono più opportunità, soprattutto per i giovani.",
+              "uk": "У місті більше можливостей, особливо для молоді.",
+              "de": "In der Stadt gibt es mehr Möglichkeiten, vor allem für junge Leute.",
+              "fr": "En ville, il y a plus d'opportunités, surtout pour les jeunes.",
+              "pt": "Na cidade há mais oportunidades, principalmente para os jovens.",
+              "zh": "城市里机会更多，尤其是对年轻人来说。"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "En Madrid hay mucho tráfico, ",
+          "after": " por la mañana.",
+          "options": [
+            "sobre todo",
+            "o sea",
+            "mientras que"
+          ],
+          "answer": "sobre todo",
+          "en": "There's a lot of traffic in Madrid, especially in the morning.",
+          "it": "A Madrid c'è molto traffico, soprattutto la mattina.",
+          "uk": "У Мадриді дуже інтенсивний рух, особливо зранку.",
+          "de": "In Madrid gibt es viel Verkehr, vor allem morgens.",
+          "fr": "À Madrid, il y a beaucoup de circulation, surtout le matin.",
+          "pt": "Em Madri tem muito trânsito, principalmente de manhã.",
+          "zh": "马德里交通很堵，尤其是早上。",
+          "hint": {
+            "en": "The time that matters most: sobre todo.",
+            "it": "Il momento più importante: sobre todo.",
+            "uk": "Найважливіший час: sobre todo.",
+            "de": "Die Zeit, die am meisten zählt: sobre todo.",
+            "fr": "Le moment le plus important : sobre todo.",
+            "pt": "O horário que mais importa: sobre todo.",
+            "zh": "最重要的时间段：sobre todo。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "A friend asks if you like living in the village. Say you like it a lot, especially in summer.",
+            "it": "Un'amica ti chiede se ti piace vivere in paese. Rispondi che ti piace molto, soprattutto d'estate.",
+            "uk": "Подруга питає, чи подобається тобі жити в селі. Скажи, що тобі дуже подобається, особливо влітку.",
+            "de": "Eine Freundin fragt, ob du gern im Dorf wohnst. Sag, es gefällt dir sehr, vor allem im Sommer.",
+            "fr": "Une amie te demande si tu aimes vivre au village. Dis que tu aimes beaucoup, surtout en été.",
+            "pt": "Um amigo pergunta se você gosta de morar no vilarejo. Diga que gosta muito, principalmente no verão.",
+            "zh": "一个朋友问你喜不喜欢住在村子里。说你很喜欢，尤其是夏天。"
+          },
+          "accepted": [
+            "Me gusta mucho, sobre todo en verano.",
+            "Sí, me gusta mucho, sobre todo en verano."
+          ],
+          "tiles": [
+            "Me gusta",
+            "mucho,",
+            "sobre todo",
+            "en verano",
+            "por ejemplo",
+            "gustan"
+          ],
+          "en": "I like it a lot, especially in summer.",
+          "it": "Mi piace molto, soprattutto d'estate.",
+          "uk": "Мені дуже подобається, особливо влітку.",
+          "de": "Es gefällt mir sehr, vor allem im Sommer.",
+          "fr": "J'aime beaucoup, surtout en été.",
+          "pt": "Eu gosto muito, principalmente no verão.",
+          "zh": "我很喜欢，尤其是夏天。",
+          "hint": {
+            "en": "The time you like it most: sobre todo.",
+            "it": "Il momento in cui ti piace di più: sobre todo.",
+            "uk": "Коли тобі подобається найбільше: sobre todo.",
+            "de": "Die Zeit, in der es dir am besten gefällt: sobre todo.",
+            "fr": "Le moment où tu aimes le plus : sobre todo.",
+            "pt": "A época em que você mais gosta: sobre todo.",
+            "zh": "你最喜欢的时候：sobre todo。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "La vida en el pueblo es más barata: ",
+          "after": ", el alquiler cuesta mucho menos.",
+          "options": [
+            "por ejemplo",
+            "en cambio",
+            "mejor dicho"
+          ],
+          "answer": "por ejemplo",
+          "en": "Life in the village is cheaper: for example, the rent costs much less.",
+          "it": "In paese la vita costa meno: per esempio, l'affitto costa molto meno.",
+          "uk": "У селі життя дешевше: наприклад, оренда коштує набагато менше.",
+          "de": "Das Leben im Dorf ist billiger: Zum Beispiel kostet die Miete viel weniger.",
+          "fr": "Au village, la vie est moins chère : par exemple, le loyer coûte beaucoup moins.",
+          "pt": "A vida no vilarejo é mais barata: por exemplo, o aluguel custa bem menos.",
+          "zh": "村子里生活更便宜：比如，房租便宜得多。",
+          "hint": {
+            "en": "You back it up with an example: por ejemplo.",
+            "it": "Lo sostieni con un esempio: por ejemplo.",
+            "uk": "Ти підкріплюєш це прикладом: por ejemplo.",
+            "de": "Du untermauerst es mit einem Beispiel: por ejemplo.",
+            "fr": "Tu l'appuies avec un exemple : por ejemplo.",
+            "pt": "Você sustenta com um exemplo: por ejemplo.",
+            "zh": "你举个例子来支持：por ejemplo。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "mix",
+          "intention": {
+            "en": "A new colleague asks what you do at the weekend. Say you like doing sport, like running or swimming.",
+            "it": "Un nuovo collega ti chiede cosa fai nel fine settimana. Rispondi che ti piace fare sport, come correre o nuotare.",
+            "uk": "Новий колега питає, що ти робиш на вихідних. Скажи, що любиш займатися спортом, наприклад бігати чи плавати.",
+            "de": "Ein neuer Kollege fragt, was du am Wochenende machst. Sag, dass du gern Sport treibst, wie Laufen oder Schwimmen.",
+            "fr": "Un nouveau collègue te demande ce que tu fais le week-end. Dis que tu aimes faire du sport, comme courir ou nager.",
+            "pt": "Um colega novo pergunta o que você faz no fim de semana. Diga que gosta de fazer esporte, como correr ou nadar.",
+            "zh": "一位新同事问你周末做什么。说你喜欢运动，比如跑步或游泳。"
+          },
+          "accepted": [
+            "Me gusta hacer deporte, como correr o nadar.",
+            "Me gusta hacer deporte como correr o nadar."
+          ],
+          "tiles": [
+            "Me gusta",
+            "hacer deporte,",
+            "como",
+            "correr",
+            "o",
+            "nadar",
+            "que",
+            "gustan"
+          ],
+          "en": "I like doing sport, like running or swimming.",
+          "it": "Mi piace fare sport, come correre o nuotare.",
+          "uk": "Я люблю займатися спортом, наприклад бігати чи плавати.",
+          "de": "Ich treibe gern Sport, wie Laufen oder Schwimmen.",
+          "fr": "J'aime faire du sport, comme courir ou nager.",
+          "pt": "Eu gosto de fazer esporte, como correr ou nadar.",
+          "zh": "我喜欢运动，比如跑步或游泳。",
+          "hint": {
+            "en": "Examples inside the sentence: como.",
+            "it": "Esempi dentro la frase: como.",
+            "uk": "Приклади всередині речення: como.",
+            "de": "Beispiele im Satz: como.",
+            "fr": "Des exemples dans la phrase : como.",
+            "pt": "Exemplos dentro da frase: como.",
+            "zh": "例子放在句子里面：como。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "mix",
+          "intention": {
+            "en": "A friend asks why so many people move to the city. Say there are more opportunities, especially for work.",
+            "it": "Un amico ti chiede perché tante persone si trasferiscono in città. Rispondi che ci sono più opportunità, soprattutto di lavoro.",
+            "uk": "Друг питає, чому так багато людей переїжджає до міста. Скажи, що там більше можливостей, особливо з роботою.",
+            "de": "Ein Freund fragt, warum so viele Leute in die Stadt ziehen. Sag, es gibt mehr Möglichkeiten, vor allem beruflich.",
+            "fr": "Un ami te demande pourquoi tant de gens s'installent en ville. Dis qu'il y a plus d'opportunités, surtout pour le travail.",
+            "pt": "Um amigo pergunta por que tanta gente se muda para a cidade. Diga que há mais oportunidades, principalmente de trabalho.",
+            "zh": "一个朋友问你为什么那么多人搬到城市去。说机会更多，尤其是工作机会。"
+          },
+          "accepted": [
+            "Hay más oportunidades, sobre todo de trabajo."
+          ],
+          "tiles": [
+            "Hay",
+            "más oportunidades,",
+            "sobre todo",
+            "de trabajo",
+            "menos",
+            "como"
+          ],
+          "en": "There are more opportunities, especially for work.",
+          "it": "Ci sono più opportunità, soprattutto di lavoro.",
+          "uk": "Тут більше можливостей, особливо з роботою.",
+          "de": "Es gibt mehr Möglichkeiten, vor allem beruflich.",
+          "fr": "Il y a plus d'opportunités, surtout pour le travail.",
+          "pt": "Há mais oportunidades, principalmente de trabalho.",
+          "zh": "机会更多，尤其是工作机会。",
+          "hint": {
+            "en": "The kind that matters most: sobre todo.",
+            "it": "Il tipo più importante: sobre todo.",
+            "uk": "Найважливіший вид: sobre todo.",
+            "de": "Der Bereich, der am meisten zählt: sobre todo.",
+            "fr": "Le type le plus important : sobre todo.",
+            "pt": "O tipo que mais importa: sobre todo.",
+            "zh": "最重要的那一类：sobre todo。"
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "Write in Spanish: «In the city there are more opportunities, especially for young people.»",
+            "it": "Scrivi in spagnolo: «In città ci sono più opportunità, soprattutto per i giovani.»",
+            "uk": "Напиши іспанською: «У місті більше можливостей, особливо для молоді.»",
+            "de": "Schreib auf Spanisch: «In der Stadt gibt es mehr Möglichkeiten, vor allem für junge Leute.»",
+            "fr": "Écris en espagnol : «En ville, il y a plus d'opportunités, surtout pour les jeunes.»",
+            "pt": "Escreva em espanhol: «Na cidade há mais oportunidades, principalmente para os jovens.»",
+            "zh": "用西班牙语写：«城市里机会更多，尤其是对年轻人来说。»"
+          },
+          "accepted": [
+            "En la ciudad hay más oportunidades, sobre todo para los jóvenes.",
+            "Hay más oportunidades en la ciudad, sobre todo para los jóvenes."
+          ],
+          "model": {
+            "es": "En la ciudad hay más oportunidades, sobre todo para los jóvenes.",
+            "en": "In the city there are more opportunities, especially for young people.",
+            "it": "In città ci sono più opportunità, soprattutto per i giovani.",
+            "uk": "У місті більше можливостей, особливо для молоді.",
+            "de": "In der Stadt gibt es mehr Möglichkeiten, vor allem für junge Leute.",
+            "fr": "En ville, il y a plus d'opportunités, surtout pour les jeunes.",
+            "pt": "Na cidade há mais oportunidades, principalmente para os jovens.",
+            "zh": "城市里机会更多，尤其是对年轻人来说。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u35l5",
+      "goal": {
+        "en": "Wrap up an argument: en resumen and en conclusión to sum up, por lo tanto for a consequence, and al fin y al cabo for what matters in the end.",
+        "it": "Chiudi un'argomentazione: en resumen ed en conclusión per riassumere, por lo tanto per una conseguenza e al fin y al cabo per quello che conta alla fine.",
+        "uk": "Завершуй аргументацію: en resumen та en conclusión — щоб підсумувати, por lo tanto — для наслідку, al fin y al cabo — для того, що зрештою важить найбільше.",
+        "de": "Schließ eine Argumentation ab: en resumen und en conclusión zum Zusammenfassen, por lo tanto für eine Folge und al fin y al cabo für das, was am Ende zählt.",
+        "fr": "Conclus une argumentation : en resumen et en conclusión pour résumer, por lo tanto pour une conséquence, et al fin y al cabo pour ce qui compte au bout du compte.",
+        "pt": "Feche um argumento: en resumen e en conclusión para resumir, por lo tanto para uma consequência e al fin y al cabo para o que importa no fim.",
+        "zh": "给论证收尾：用 en resumen 和 en conclusión 总结，用 por lo tanto 引出结果，用 al fin y al cabo 说出归根结底最重要的东西。"
+      },
+      "target": {
+        "es": "En resumen, la ciudad tiene más oportunidades, pero yo prefiero el pueblo.",
+        "en": "In short, the city has more opportunities, but I prefer the village.",
+        "it": "Insomma, la città offre più opportunità, ma io preferisco il paese.",
+        "uk": "Словом, у місті більше можливостей, але мені більше до вподоби село.",
+        "de": "Kurz gesagt, die Stadt bietet mehr Möglichkeiten, aber ich mag lieber das Dorf.",
+        "fr": "En résumé, la ville offre plus d'opportunités, mais moi, je préfère le village.",
+        "pt": "Resumindo, a cidade tem mais oportunidades, mas eu prefiro o vilarejo.",
+        "zh": "总之，城市的机会更多，但我更喜欢村子。"
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "en resumen",
+              "en": "in short, to sum up",
+              "it": "insomma, in sintesi",
+              "uk": "словом, коротко кажучи",
+              "de": "kurz gesagt, zusammengefasst",
+              "fr": "en résumé, bref",
+              "pt": "resumindo, em resumo",
+              "zh": "总之，总而言之",
+              "kind": "rail"
+            },
+            {
+              "es": "en conclusión",
+              "en": "in conclusion",
+              "it": "in conclusione",
+              "uk": "на завершення, отже",
+              "de": "abschließend, zum Schluss",
+              "fr": "en conclusion",
+              "pt": "em conclusão, concluindo",
+              "zh": "总之，综上所述，结论是",
+              "kind": "rail"
+            },
+            {
+              "es": "por lo tanto",
+              "en": "therefore",
+              "it": "quindi, perciò",
+              "uk": "тому, отже",
+              "de": "deshalb, folglich",
+              "fr": "par conséquent, donc",
+              "pt": "portanto",
+              "zh": "因此，所以",
+              "kind": "rail"
+            },
+            {
+              "es": "al fin y al cabo",
+              "en": "after all, at the end of the day",
+              "it": "in fin dei conti, dopotutto",
+              "uk": "зрештою, кінець кінцем",
+              "de": "letztendlich, schließlich",
+              "fr": "après tout, au bout du compte",
+              "pt": "afinal (de contas), no fim das contas",
+              "zh": "归根结底，说到底，毕竟",
+              "kind": "rail"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "en resumen,",
+              "kind": "rail"
+            },
+            {
+              "text": "…",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "To sum up at the end, start your last sentence with en resumen (in short) or, more formally, en conclusión, then give your final opinion.",
+            "it": "Per riassumere alla fine, comincia l'ultima frase con en resumen (insomma) o, in modo più formale, en conclusión, poi dai la tua opinione finale.",
+            "uk": "Щоб підсумувати наприкінці, почни останнє речення з en resumen (словом) або, офіційніше, з en conclusión, а потім висловь свою остаточну думку.",
+            "de": "Um am Ende zusammenzufassen, beginn deinen letzten Satz mit en resumen (kurz gesagt) oder, förmlicher, mit en conclusión und gib dann deine abschließende Meinung.",
+            "fr": "Pour résumer à la fin, commence ta dernière phrase par en resumen (en résumé) ou, de façon plus soutenue, en conclusión, puis donne ton avis final.",
+            "pt": "Para resumir no final, comece a última frase com en resumen (resumindo) ou, de modo mais formal, en conclusión, e depois dê sua opinião final.",
+            "zh": "最后要总结时，最后一句用 en resumen（总之）开头，或者用更正式的 en conclusión，然后说出你的最终看法。"
+          },
+          "examples": [
+            {
+              "es": "En resumen: es caro, pero merece la pena.",
+              "en": "In short: it's expensive, but it's worth it.",
+              "it": "Insomma: è caro, ma ne vale la pena.",
+              "uk": "Словом: це дорого, але воно того варте.",
+              "de": "Kurz gesagt: Es ist teuer, aber es lohnt sich.",
+              "fr": "En résumé : c'est cher, mais ça vaut la peine.",
+              "pt": "Resumindo: é caro, mas vale a pena.",
+              "zh": "总之：贵是贵，但值得。"
+            },
+            {
+              "es": "En conclusión, creo que es mejor vivir en un pueblo.",
+              "en": "In conclusion, I think it's better to live in a village.",
+              "it": "In conclusione, credo che sia meglio vivere in un paese.",
+              "uk": "На завершення: думаю, що краще жити в селі.",
+              "de": "Abschließend glaube ich, dass es besser ist, in einem Dorf zu wohnen.",
+              "fr": "En conclusion, je pense qu'il vaut mieux vivre dans un village.",
+              "pt": "Concluindo, acho que é melhor morar em um vilarejo.",
+              "zh": "综上所述，我认为住在村子里更好。"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Hay más naturaleza y menos tráfico. ",
+          "after": ", creo que el pueblo es mejor para los niños.",
+          "options": [
+            "En conclusión",
+            "Por ejemplo",
+            "Mientras que"
+          ],
+          "answer": "En conclusión",
+          "en": "There's more nature and less traffic. In conclusion, I think the village is better for children.",
+          "it": "C'è più natura e meno traffico. In conclusione, credo che il paese sia meglio per i bambini.",
+          "uk": "Там більше природи й менше машин. Отже, я думаю, що село краще для дітей.",
+          "de": "Es gibt mehr Natur und weniger Verkehr. Abschließend glaube ich, dass das Dorf für Kinder besser ist.",
+          "fr": "Il y a plus de nature et moins de circulation. En conclusion, je pense que le village est mieux pour les enfants.",
+          "pt": "Há mais natureza e menos trânsito. Concluindo, acho que o vilarejo é melhor para as crianças.",
+          "zh": "那里大自然更多，交通更少。综上所述，我认为村子对孩子来说更好。",
+          "hint": {
+            "en": "Your final opinion after the reasons: en conclusión.",
+            "it": "La tua opinione finale dopo i motivi: en conclusión.",
+            "uk": "Твоя остаточна думка після аргументів: en conclusión.",
+            "de": "Deine abschließende Meinung nach den Gründen: en conclusión.",
+            "fr": "Ton avis final après les raisons : en conclusión.",
+            "pt": "Sua opinião final depois dos motivos: en conclusión.",
+            "zh": "在讲完理由之后说出最终看法：en conclusión。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "You've told a friend the pros and cons of your new job. Sum up: in short, it's difficult, but it's worth it.",
+            "it": "Hai raccontato a un'amica i pro e i contro del tuo nuovo lavoro. Riassumi: insomma, è difficile, ma ne vale la pena.",
+            "uk": "Ти розповів(-ла) подрузі про плюси й мінуси своєї нової роботи. Підсумуй: словом, це важко, але воно того варте.",
+            "de": "Du hast einer Freundin die Vor- und Nachteile deiner neuen Arbeit erzählt. Fass zusammen: Kurz gesagt, es ist schwierig, aber es lohnt sich.",
+            "fr": "Tu as raconté à une amie le pour et le contre de ton nouveau travail. Résume : en résumé, c'est difficile, mais ça vaut la peine.",
+            "pt": "Você contou a um amigo os prós e contras do seu emprego novo. Resuma: resumindo, é difícil, mas vale a pena.",
+            "zh": "你已经跟一个朋友讲了新工作的好处和缺点。总结一下：总之，很难，但值得。"
+          },
+          "accepted": [
+            "En resumen, es difícil, pero merece la pena.",
+            "En resumen: es difícil, pero merece la pena."
+          ],
+          "tiles": [
+            "En resumen,",
+            "es difícil,",
+            "pero",
+            "merece la pena",
+            "por ejemplo",
+            "fácil"
+          ],
+          "en": "In short, it's difficult, but it's worth it.",
+          "it": "Insomma, è difficile, ma ne vale la pena.",
+          "uk": "Словом, це важко, але воно того варте.",
+          "de": "Kurz gesagt, es ist schwierig, aber es lohnt sich.",
+          "fr": "En résumé, c'est difficile, mais ça vaut la peine.",
+          "pt": "Resumindo, é difícil, mas vale a pena.",
+          "zh": "总之，很难，但值得。",
+          "hint": {
+            "en": "To sum up: en resumen + your final opinion.",
+            "it": "Per riassumere: en resumen + la tua opinione finale.",
+            "uk": "Щоб підсумувати: en resumen + твоя остаточна думка.",
+            "de": "Zum Zusammenfassen: en resumen + deine abschließende Meinung.",
+            "fr": "Pour résumer : en resumen + ton avis final.",
+            "pt": "Para resumir: en resumen + sua opinião final.",
+            "zh": "总结：en resumen + 你的最终看法。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "…;",
+              "kind": "chunk"
+            },
+            {
+              "text": "por lo tanto,",
+              "kind": "rail"
+            },
+            {
+              "text": "…",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "You know por eso (that's why) and así que (so). In a debate or in writing, por lo tanto (therefore) gives the consequence in a more formal way.",
+            "it": "Conosci già por eso (per questo) e así que (quindi). In un dibattito o per iscritto, por lo tanto (perciò) introduce la conseguenza in modo più formale.",
+            "uk": "Ти вже знаєш por eso (тому) і así que (тож). У дебатах чи на письмі por lo tanto (отже, тому) вводить наслідок офіційніше.",
+            "de": "Du kennst por eso (deshalb) und así que (also, sodass). In einer Diskussion oder beim Schreiben drückt por lo tanto (folglich, deshalb) die Folge förmlicher aus.",
+            "fr": "Tu connais por eso (c'est pour ça que) et así que (donc, alors). Dans un débat ou à l'écrit, por lo tanto (par conséquent) introduit la conséquence de façon plus soutenue.",
+            "pt": "Você já conhece por eso (por isso) e así que (então). Num debate ou por escrito, por lo tanto (portanto) dá a consequência de um jeito mais formal.",
+            "zh": "你已经学过 por eso（所以、因此）和 así que（所以）。在辩论或书面语中，por lo tanto（因此）用更正式的方式引出结果。"
+          },
+          "examples": [
+            {
+              "es": "Hay menos coches; por lo tanto, hay menos contaminación.",
+              "en": "There are fewer cars; therefore, there's less pollution.",
+              "it": "Ci sono meno macchine; perciò c'è meno inquinamento.",
+              "uk": "Машин менше; отже, і забруднення менше.",
+              "de": "Es gibt weniger Autos; folglich gibt es weniger Umweltverschmutzung.",
+              "fr": "Il y a moins de voitures ; par conséquent, il y a moins de pollution.",
+              "pt": "Há menos carros; portanto, há menos poluição.",
+              "zh": "车更少；因此，污染也更少。"
+            },
+            {
+              "es": "Trabajo en el centro, así que vivo en la ciudad.",
+              "en": "I work in the centre, so I live in the city.",
+              "it": "Lavoro in centro, quindi vivo in città.",
+              "uk": "Я працюю в центрі, тож живу в місті.",
+              "de": "Ich arbeite im Zentrum, also wohne ich in der Stadt.",
+              "fr": "Je travaille dans le centre, donc j'habite en ville.",
+              "pt": "Eu trabalho no centro, então moro na cidade.",
+              "zh": "我在市中心上班，所以我住在城里。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "coches",
+              "en": "cars",
+              "it": "macchine",
+              "uk": "машини",
+              "de": "Autos",
+              "fr": "voitures",
+              "pt": "carros",
+              "zh": "汽车（复数）"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "En el pueblo hay menos coches; ",
+          "after": ", el aire es más limpio.",
+          "options": [
+            "por lo tanto",
+            "por ejemplo",
+            "en cambio"
+          ],
+          "answer": "por lo tanto",
+          "en": "There are fewer cars in the village; therefore, the air is cleaner.",
+          "it": "In paese ci sono meno macchine; perciò l'aria è più pulita.",
+          "uk": "У селі менше машин; отже, повітря чистіше.",
+          "de": "Im Dorf gibt es weniger Autos; folglich ist die Luft sauberer.",
+          "fr": "Il y a moins de voitures au village ; par conséquent, l'air est plus pur.",
+          "pt": "No vilarejo há menos carros; portanto, o ar é mais limpo.",
+          "zh": "村子里车更少；因此，空气更干净。",
+          "hint": {
+            "en": "Cleaner air is the consequence: por lo tanto.",
+            "it": "L'aria più pulita è la conseguenza: por lo tanto.",
+            "uk": "Чистіше повітря — це наслідок: por lo tanto.",
+            "de": "Sauberere Luft ist die Folge: por lo tanto.",
+            "fr": "Un air plus pur, c'est la conséquence : por lo tanto.",
+            "pt": "O ar mais limpo é a consequência: por lo tanto.",
+            "zh": "空气更干净是结果：por lo tanto。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "In a debate, someone asks why you defend public transport. Say there's a lot of pollution; therefore, we need more public transport.",
+            "it": "In un dibattito ti chiedono perché difendi i mezzi pubblici. Rispondi che c'è molto inquinamento; perciò abbiamo bisogno di più mezzi pubblici.",
+            "uk": "У дебатах тебе питають, чому ти захищаєш громадський транспорт. Скажи, що забруднення сильне; отже, нам потрібно більше громадського транспорту.",
+            "de": "In einer Diskussion fragt dich jemand, warum du die öffentlichen Verkehrsmittel verteidigst. Sag, es gibt viel Umweltverschmutzung; folglich brauchen wir mehr öffentliche Verkehrsmittel.",
+            "fr": "Dans un débat, quelqu'un te demande pourquoi tu défends les transports en commun. Dis qu'il y a beaucoup de pollution ; par conséquent, nous avons besoin de plus de transports en commun.",
+            "pt": "Num debate, alguém pergunta por que você defende o transporte público. Diga que há muita poluição; portanto, precisamos de mais transporte público.",
+            "zh": "在一场辩论中，有人问你为什么支持公共交通。说污染很严重；因此，我们需要更多的公共交通。"
+          },
+          "accepted": [
+            "Hay mucha contaminación; por lo tanto, necesitamos más transporte público.",
+            "Hay mucha contaminación, por lo tanto necesitamos más transporte público."
+          ],
+          "tiles": [
+            "Hay",
+            "mucha contaminación;",
+            "por lo tanto,",
+            "necesitamos",
+            "más",
+            "transporte público",
+            "por ejemplo",
+            "menos"
+          ],
+          "en": "There's a lot of pollution; therefore, we need more public transport.",
+          "it": "C'è molto inquinamento; perciò abbiamo bisogno di più mezzi pubblici.",
+          "uk": "Забруднення сильне; отже, нам потрібно більше громадського транспорту.",
+          "de": "Es gibt viel Umweltverschmutzung; folglich brauchen wir mehr öffentliche Verkehrsmittel.",
+          "fr": "Il y a beaucoup de pollution ; par conséquent, nous avons besoin de plus de transports en commun.",
+          "pt": "Há muita poluição; portanto, precisamos de mais transporte público.",
+          "zh": "污染很严重；因此，我们需要更多的公共交通。",
+          "hint": {
+            "en": "A formal consequence: por lo tanto.",
+            "it": "Una conseguenza formale: por lo tanto.",
+            "uk": "Офіційний наслідок: por lo tanto.",
+            "de": "Eine förmliche Folge: por lo tanto.",
+            "fr": "Une conséquence, de façon soutenue : por lo tanto.",
+            "pt": "Uma consequência formal: por lo tanto.",
+            "zh": "正式地引出结果：por lo tanto。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "al fin y al cabo,",
+              "kind": "rail"
+            },
+            {
+              "text": "…",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "al fin y al cabo (after all) brings in the reason that matters most in the end, often to put things in perspective.",
+            "it": "al fin y al cabo (in fin dei conti) introduce il motivo che conta di più alla fine, spesso per ridimensionare le cose.",
+            "uk": "al fin y al cabo (зрештою) вводить причину, яка зрештою важить найбільше, — часто щоб поглянути на речі тверезіше.",
+            "de": "al fin y al cabo (letztendlich, schließlich) bringt den Grund ins Spiel, der am Ende am meisten zählt, oft um etwas zu relativieren.",
+            "fr": "al fin y al cabo (après tout) introduit la raison qui compte le plus au bout du compte, souvent pour relativiser.",
+            "pt": "al fin y al cabo (afinal de contas) introduz o motivo que importa mais no fim, muitas vezes para relativizar.",
+            "zh": "al fin y al cabo（归根结底，毕竟）引出最终最重要的理由，常常用来让人别把事情看得太严重。"
+          },
+          "examples": [
+            {
+              "es": "Al fin y al cabo, lo importante es ser feliz.",
+              "en": "At the end of the day, the important thing is to be happy.",
+              "it": "In fin dei conti, la cosa importante è essere felici.",
+              "uk": "Зрештою, головне — бути щасливим.",
+              "de": "Letztendlich ist das Wichtigste, glücklich zu sein.",
+              "fr": "Au bout du compte, l'important, c'est d'être heureux.",
+              "pt": "No fim das contas, o importante é ser feliz.",
+              "zh": "说到底，最重要的是开心。"
+            },
+            {
+              "es": "No te preocupes: al fin y al cabo, es solo un examen.",
+              "en": "Don't worry: after all, it's only an exam.",
+              "it": "Non preoccuparti: in fin dei conti è solo un esame.",
+              "uk": "Не хвилюйся: зрештою, це лише іспит.",
+              "de": "Mach dir keine Sorgen: Es ist schließlich nur eine Prüfung.",
+              "fr": "Ne t'inquiète pas : après tout, ce n'est qu'un examen.",
+              "pt": "Não se preocupe: afinal, é só uma prova.",
+              "zh": "别担心：毕竟只是一场考试。"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Ciudad o pueblo, me da igual: ",
+          "after": ", lo importante es estar con mi familia.",
+          "options": [
+            "al fin y al cabo",
+            "por ejemplo",
+            "mientras que"
+          ],
+          "answer": "al fin y al cabo",
+          "en": "City or village, I don't mind: at the end of the day, the important thing is being with my family.",
+          "it": "Città o paese, per me è uguale: in fin dei conti, la cosa importante è stare con la mia famiglia.",
+          "uk": "Місто чи село — мені байдуже: зрештою, головне — бути з моєю родиною.",
+          "de": "Stadt oder Dorf, mir ist das egal: Letztendlich ist das Wichtigste, bei meiner Familie zu sein.",
+          "fr": "La ville ou le village, ça m'est égal : au bout du compte, l'important, c'est d'être avec ma famille.",
+          "pt": "Cidade ou vilarejo, tanto faz: no fim das contas, o importante é estar com a minha família.",
+          "zh": "城市还是村子，对我来说都一样：说到底，最重要的是和家人在一起。",
+          "hint": {
+            "en": "What matters most in the end: al fin y al cabo.",
+            "it": "Quello che conta di più alla fine: al fin y al cabo.",
+            "uk": "Що зрештою важить найбільше: al fin y al cabo.",
+            "de": "Was am Ende am meisten zählt: al fin y al cabo.",
+            "fr": "Ce qui compte le plus au bout du compte : al fin y al cabo.",
+            "pt": "O que mais importa no fim: al fin y al cabo.",
+            "zh": "最终最重要的事：al fin y al cabo。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "Your friend is worried about moving to a village far from the city. Reassure her: after all, it's only an hour from the city.",
+            "it": "La tua amica è preoccupata perché si trasferisce in un paese lontano dalla città. Rassicurala: in fin dei conti, è solo a un'ora dalla città.",
+            "uk": "Твоя подруга хвилюється, бо переїжджає в село далеко від міста. Заспокой її: зрештою, це лише за годину від міста.",
+            "de": "Deine Freundin macht sich Sorgen, weil sie in ein Dorf weit weg von der Stadt zieht. Beruhige sie: Es ist schließlich nur eine Stunde von der Stadt entfernt.",
+            "fr": "Ton amie s'inquiète de s'installer dans un village loin de la ville. Rassure-la : après tout, c'est seulement à une heure de la ville.",
+            "pt": "Sua amiga está preocupada em se mudar para um vilarejo longe da cidade. Tranquilize-a: afinal, fica a só uma hora da cidade.",
+            "zh": "你的朋友要搬到一个离城市很远的村子，她很担心。安慰她：毕竟，那里离城市只有一个小时。"
+          },
+          "accepted": [
+            "Al fin y al cabo, está solo a una hora de la ciudad.",
+            "Al fin y al cabo, solo está a una hora de la ciudad."
+          ],
+          "tiles": [
+            "Al fin y al cabo,",
+            "está",
+            "solo",
+            "a una hora",
+            "de la ciudad",
+            "es",
+            "por ejemplo"
+          ],
+          "en": "After all, it's only an hour from the city.",
+          "it": "In fin dei conti, è solo a un'ora dalla città.",
+          "uk": "Зрештою, це лише за годину від міста.",
+          "de": "Es ist schließlich nur eine Stunde von der Stadt entfernt.",
+          "fr": "Après tout, c'est seulement à une heure de la ville.",
+          "pt": "Afinal, fica a só uma hora da cidade.",
+          "zh": "毕竟，那里离城市只有一个小时。",
+          "hint": {
+            "en": "To put it in perspective: al fin y al cabo; distance uses estar.",
+            "it": "Per ridimensionare: al fin y al cabo; la distanza usa estar.",
+            "uk": "Щоб поглянути тверезіше: al fin y al cabo; для відстані вживаємо estar.",
+            "de": "Um es zu relativieren: al fin y al cabo; Entfernung drückt man mit estar aus.",
+            "fr": "Pour relativiser : al fin y al cabo ; la distance se dit avec estar.",
+            "pt": "Para relativizar: al fin y al cabo; a distância usa estar.",
+            "zh": "让她别把事情看得太严重：al fin y al cabo；说距离用 estar。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "El piso está lejos y es carísimo; ",
+          "after": ", no lo vamos a alquilar.",
+          "options": [
+            "por lo tanto",
+            "sobre todo",
+            "por ejemplo"
+          ],
+          "answer": "por lo tanto",
+          "en": "The flat is far away and really expensive; therefore, we're not going to rent it.",
+          "it": "L'appartamento è lontano e carissimo; perciò non lo prendiamo in affitto.",
+          "uk": "Квартира далеко й дуже дорога; тому ми не будемо її орендувати.",
+          "de": "Die Wohnung ist weit weg und wirklich teuer; folglich werden wir sie nicht mieten.",
+          "fr": "L'appartement est loin et hors de prix ; par conséquent, nous n'allons pas le louer.",
+          "pt": "O apartamento fica longe e é caríssimo; portanto, não vamos alugá-lo.",
+          "zh": "那套房子很远，而且贵得要命；因此，我们不租了。",
+          "hint": {
+            "en": "Not renting it is the consequence: por lo tanto.",
+            "it": "Non prenderlo in affitto è la conseguenza: por lo tanto.",
+            "uk": "Не орендувати її — це наслідок: por lo tanto.",
+            "de": "Sie nicht zu mieten ist die Folge: por lo tanto.",
+            "fr": "Ne pas le louer, c'est la conséquence : por lo tanto.",
+            "pt": "Não alugar é a consequência: por lo tanto.",
+            "zh": "不租是结果：por lo tanto。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "No pasa nada si hoy no puedes venir: ",
+          "after": ", nos vemos mañana.",
+          "options": [
+            "al fin y al cabo",
+            "en conclusión",
+            "mejor dicho"
+          ],
+          "answer": "al fin y al cabo",
+          "en": "It's no big deal if you can't come today: after all, we'll see each other tomorrow.",
+          "it": "Non fa niente se oggi non puoi venire: in fin dei conti, ci vediamo domani.",
+          "uk": "Нічого страшного, якщо ти сьогодні не можеш прийти: зрештою, побачимося завтра.",
+          "de": "Es ist nicht schlimm, wenn du heute nicht kommen kannst: Wir sehen uns schließlich morgen.",
+          "fr": "Ce n'est pas grave si tu ne peux pas venir aujourd'hui : après tout, on se voit demain.",
+          "pt": "Não tem problema se você não puder vir hoje: afinal, a gente se vê amanhã.",
+          "zh": "你今天来不了也没关系：毕竟我们明天就见面了。",
+          "hint": {
+            "en": "You put it in perspective: al fin y al cabo.",
+            "it": "Ridimensioni la cosa: al fin y al cabo.",
+            "uk": "Ти дивишся на це тверезіше: al fin y al cabo.",
+            "de": "Du relativierst es: al fin y al cabo.",
+            "fr": "Tu relativises : al fin y al cabo.",
+            "pt": "Você relativiza: al fin y al cabo.",
+            "zh": "你在让对方别太在意：al fin y al cabo。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "mix",
+          "intention": {
+            "en": "At the end of a debate in class, give your conclusion: in conclusion, I think the city is better for young people.",
+            "it": "Alla fine di un dibattito in classe, dai la tua conclusione: in conclusione, credo che la città sia meglio per i giovani.",
+            "uk": "Наприкінці дебатів на занятті підсумуй: на завершення, я думаю, що місто краще для молоді.",
+            "de": "Am Ende einer Diskussion im Unterricht ziehst du dein Fazit: Abschließend glaube ich, dass die Stadt für junge Leute besser ist.",
+            "fr": "À la fin d'un débat en classe, donne ta conclusion : en conclusion, je pense que la ville est mieux pour les jeunes.",
+            "pt": "No fim de um debate na aula, dê sua conclusão: concluindo, acho que a cidade é melhor para os jovens.",
+            "zh": "在课堂辩论的最后，说出你的结论：综上所述，我认为城市对年轻人来说更好。"
+          },
+          "accepted": [
+            "En conclusión, creo que la ciudad es mejor para los jóvenes.",
+            "En resumen, creo que la ciudad es mejor para los jóvenes."
+          ],
+          "tiles": [
+            "En conclusión,",
+            "creo que",
+            "la ciudad",
+            "es",
+            "mejor",
+            "para los jóvenes",
+            "sea",
+            "Por ejemplo"
+          ],
+          "en": "In conclusion, I think the city is better for young people.",
+          "it": "In conclusione, credo che la città sia meglio per i giovani.",
+          "uk": "На завершення: я думаю, що місто краще для молоді.",
+          "de": "Abschließend glaube ich, dass die Stadt für junge Leute besser ist.",
+          "fr": "En conclusion, je pense que la ville est mieux pour les jeunes.",
+          "pt": "Concluindo, acho que a cidade é melhor para os jovens.",
+          "zh": "综上所述，我认为城市对年轻人来说更好。",
+          "hint": {
+            "en": "Your final opinion: en conclusión; after creo que, the normal present.",
+            "it": "La tua opinione finale: en conclusión; dopo creo que, il presente normale.",
+            "uk": "Твоя остаточна думка: en conclusión; після creo que — звичайний теперішній час.",
+            "de": "Deine abschließende Meinung: en conclusión; nach creo que das normale Präsens.",
+            "fr": "Ton avis final : en conclusión ; après creo que, le présent normal.",
+            "pt": "Sua opinião final: en conclusión; depois de creo que, o presente normal.",
+            "zh": "你的最终看法：en conclusión；creo que 后面用普通的现在时。"
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "Write in Spanish: «In short, the city has more opportunities, but I prefer the village.»",
+            "it": "Scrivi in spagnolo: «Insomma, la città offre più opportunità, ma io preferisco il paese.»",
+            "uk": "Напиши іспанською: «Словом, у місті більше можливостей, але мені більше до вподоби село.»",
+            "de": "Schreib auf Spanisch: «Kurz gesagt, die Stadt bietet mehr Möglichkeiten, aber ich mag lieber das Dorf.»",
+            "fr": "Écris en espagnol : «En résumé, la ville offre plus d'opportunités, mais moi, je préfère le village.»",
+            "pt": "Escreva em espanhol: «Resumindo, a cidade tem mais oportunidades, mas eu prefiro o vilarejo.»",
+            "zh": "用西班牙语写：«总之，城市的机会更多，但我更喜欢村子。»"
+          },
+          "accepted": [
+            "En resumen, la ciudad tiene más oportunidades, pero yo prefiero el pueblo.",
+            "En resumen, la ciudad tiene más oportunidades, pero prefiero el pueblo.",
+            "En conclusión, la ciudad tiene más oportunidades, pero yo prefiero el pueblo.",
+            "En conclusión, la ciudad tiene más oportunidades, pero prefiero el pueblo.",
+            "En resumen, en la ciudad hay más oportunidades, pero yo prefiero el pueblo.",
+            "En resumen, en la ciudad hay más oportunidades, pero prefiero el pueblo."
+          ],
+          "model": {
+            "es": "En resumen, la ciudad tiene más oportunidades, pero yo prefiero el pueblo.",
+            "en": "In short, the city has more opportunities, but I prefer the village.",
+            "it": "Insomma, la città offre più opportunità, ma io preferisco il paese.",
+            "uk": "Словом, у місті більше можливостей, але мені більше до вподоби село.",
+            "de": "Kurz gesagt, die Stadt bietet mehr Möglichkeiten, aber ich mag lieber das Dorf.",
+            "fr": "En résumé, la ville offre plus d'opportunités, mais moi, je préfère le village.",
+            "pt": "Resumindo, a cidade tem mais oportunidades, mas eu prefiro o vilarejo.",
+            "zh": "总之，城市的机会更多，但我更喜欢村子。"
+          }
+        }
+      ]
+    }
+  ],
+  "boss": {
+    "id": "u35boss",
+    "goal": {
+      "en": "You're having dinner with friends in {city}, and a debate starts: is it better to live in the city or in a village? You prefer the village. Make your case, answer your friends and sum up.",
+      "it": "Sei a cena con degli amici a {city} e nasce un dibattito: è meglio vivere in città o in paese? Tu preferisci il paese. Difendi la tua idea, rispondi ai tuoi amici e tira le conclusioni.",
+      "uk": "Ти вечеряєш із друзями у місті {city}, і починається суперечка: де краще жити — у місті чи в селі? Тобі більше до вподоби село. Обстоюй свою думку, відповідай друзям і підсумуй.",
+      "de": "Du isst mit Freunden in {city} zu Abend, und eine Diskussion beginnt: Wohnt man besser in der Stadt oder in einem Dorf? Du magst lieber das Dorf. Vertritt deinen Standpunkt, antworte deinen Freunden und fass zusammen.",
+      "fr": "Tu dînes avec des amis à {city}, et un débat commence : vaut-il mieux vivre en ville ou dans un village ? Toi, tu préfères le village. Défends ton point de vue, réponds à tes amis et conclus.",
+      "pt": "Você está jantando com amigos em {city} e começa um debate: é melhor morar na cidade ou em um vilarejo? Você prefere o vilarejo. Defenda sua posição, responda aos seus amigos e resuma.",
+      "zh": "你在{city}和朋友们吃晚饭，大家开始争论：住在城市好还是住在村子里好？你更喜欢村子。说出你的理由，回应朋友们，最后做个总结。"
+    },
+    "target": {
+      "es": "En conclusión, la ciudad tiene sus ventajas, pero yo prefiero el pueblo.",
+      "en": "In conclusion, the city has its advantages, but I prefer the village.",
+      "it": "In conclusione, la città ha i suoi vantaggi, ma io preferisco il paese.",
+      "uk": "На завершення: місто має свої переваги, але мені більше до вподоби село.",
+      "de": "Abschließend: Die Stadt hat ihre Vorteile, aber ich mag lieber das Dorf.",
+      "fr": "En conclusion, la ville a ses avantages, mais moi, je préfère le village.",
+      "pt": "Concluindo, a cidade tem suas vantagens, mas eu prefiro o vilarejo.",
+      "zh": "综上所述，城市有它的好处，但我更喜欢村子。"
+    },
+    "names": [
+      "Madrid"
+    ],
+    "items": [
+      {
+        "type": "words",
+        "words": [
+          {
+            "es": "el estrés",
+            "en": "stress",
+            "it": "lo stress",
+            "uk": "стрес",
+            "de": "der Stress",
+            "fr": "le stress",
+            "pt": "o estresse",
+            "zh": "压力",
+            "kind": "chunk"
+          },
+          {
+            "es": "el silencio",
+            "en": "silence",
+            "it": "il silenzio",
+            "uk": "тиша",
+            "de": "die Stille",
+            "fr": "le silence",
+            "pt": "o silêncio",
+            "zh": "安静，寂静",
+            "kind": "chunk"
+          }
+        ]
+      },
+      {
+        "type": "build",
+        "intention": {
+          "en": "A friend says «Para mí, la ciudad es mucho mejor». Say you don't agree: you prefer the village.",
+          "it": "Un amico dice «Para mí, la ciudad es mucho mejor». Rispondi che non sei d'accordo: tu preferisci il paese.",
+          "uk": "Друг каже: «Para mí, la ciudad es mucho mejor». Скажи, що ти не згоден (згодна): тобі більше до вподоби село.",
+          "de": "Ein Freund sagt: «Para mí, la ciudad es mucho mejor». Sag, dass du nicht einverstanden bist: Du magst lieber das Dorf.",
+          "fr": "Un ami dit «Para mí, la ciudad es mucho mejor». Dis que tu n'es pas d'accord : toi, tu préfères le village.",
+          "pt": "Um amigo diz «Para mí, la ciudad es mucho mejor». Diga que não concorda: você prefere o vilarejo.",
+          "zh": "一个朋友说 «Para mí, la ciudad es mucho mejor»。说你不同意：你更喜欢村子。"
+        },
+        "accepted": [
+          "No estoy de acuerdo: yo prefiero el pueblo.",
+          "No estoy de acuerdo, yo prefiero el pueblo.",
+          "No estoy de acuerdo: prefiero el pueblo."
+        ],
+        "tiles": [
+          "No estoy",
+          "de acuerdo:",
+          "yo",
+          "prefiero",
+          "el pueblo",
+          "estás",
+          "prefieres"
+        ],
+        "en": "I don't agree: I prefer the village.",
+        "it": "Non sono d'accordo: io preferisco il paese.",
+        "uk": "Я не згоден (згодна): мені більше до вподоби село.",
+        "de": "Ich bin nicht einverstanden: Ich mag lieber das Dorf.",
+        "fr": "Je ne suis pas d'accord : moi, je préfère le village.",
+        "pt": "Não concordo: eu prefiro o vilarejo.",
+        "zh": "我不同意：我更喜欢村子。",
+        "hint": {
+          "en": "To disagree: no estoy de acuerdo.",
+          "it": "Per non essere d'accordo: no estoy de acuerdo.",
+          "uk": "Щоб не погодитися: no estoy de acuerdo.",
+          "de": "Um zu widersprechen: no estoy de acuerdo.",
+          "fr": "Pour dire que tu n'es pas d'accord : no estoy de acuerdo.",
+          "pt": "Para discordar: no estoy de acuerdo.",
+          "zh": "表示不同意：no estoy de acuerdo。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "En la ciudad hay mucho estrés; ",
+        "after": ", en el pueblo la vida es más tranquila.",
+        "options": [
+          "en cambio",
+          "por ejemplo",
+          "por lo tanto"
+        ],
+        "answer": "en cambio",
+        "en": "In the city there's a lot of stress; in the village, on the other hand, life is calmer.",
+        "it": "In città c'è molto stress; in paese, invece, la vita è più tranquilla.",
+        "uk": "У місті багато стресу; а от у селі життя спокійніше.",
+        "de": "In der Stadt gibt es viel Stress; im Dorf dagegen ist das Leben ruhiger.",
+        "fr": "En ville, il y a beaucoup de stress ; au village, en revanche, la vie est plus calme.",
+        "pt": "Na cidade há muito estresse; no vilarejo, por outro lado, a vida é mais tranquila.",
+        "zh": "城市里压力很大；而村子里生活更悠闲。",
+        "hint": {
+          "en": "You set the city against the village: en cambio.",
+          "it": "Metti a confronto città e paese: en cambio.",
+          "uk": "Ти протиставляєш місто й село: en cambio.",
+          "de": "Du stellst die Stadt dem Dorf gegenüber: en cambio.",
+          "fr": "Tu opposes la ville au village : en cambio.",
+          "pt": "Você contrapõe a cidade ao vilarejo: en cambio.",
+          "zh": "你在拿城市和村子作对比：en cambio。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "¿Que en el pueblo no hay nada que hacer? No es verdad que no ",
+        "after": " nada que hacer.",
+        "options": [
+          "haya",
+          "hay"
+        ],
+        "answer": "haya",
+        "en": "There's nothing to do in the village? It's not true that there's nothing to do.",
+        "it": "In paese non c'è niente da fare? Non è vero che non ci sia niente da fare.",
+        "uk": "У селі нічого робити? Неправда, що там нічого робити.",
+        "de": "Im Dorf gibt es nichts zu tun? Es stimmt nicht, dass es nichts zu tun gibt.",
+        "fr": "Il n'y a rien à faire au village ? Ce n'est pas vrai qu'il n'y ait rien à faire.",
+        "pt": "Que no vilarejo não tem nada para fazer? Não é verdade que não haja nada para fazer.",
+        "zh": "村子里没什么可做的？说村子里没什么可做的，那不是真的。",
+        "hint": {
+          "en": "no es verdad que takes the subjunctive: haya.",
+          "it": "no es verdad que vuole il congiuntivo: haya.",
+          "uk": "Після no es verdad que — «subjuntivo»: haya.",
+          "de": "no es verdad que verlangt den subjuntivo (spanischer Konjunktiv): haya.",
+          "fr": "no es verdad que demande le subjonctif, comme en français : haya.",
+          "pt": "no es verdad que pede o subjuntivo: haya (como em português: «não é verdade que haja»).",
+          "zh": "no es verdad que 后面要用虚拟式：haya。"
+        }
+      },
+      {
+        "type": "build",
+        "intention": {
+          "en": "A friend asks «¿Y qué haces allí los fines de semana?». Give examples: for example, go to the mountains or walk in the countryside.",
+          "it": "Un'amica ti chiede «¿Y qué haces allí los fines de semana?». Fai degli esempi: per esempio, andare in montagna o passeggiare in campagna.",
+          "uk": "Подруга питає: «¿Y qué haces allí los fines de semana?». Наведи приклади: наприклад, поїхати в гори або погуляти на природі.",
+          "de": "Eine Freundin fragt: «¿Y qué haces allí los fines de semana?». Nenne Beispiele: zum Beispiel in die Berge fahren oder auf dem Land spazieren gehen.",
+          "fr": "Une amie te demande «¿Y qué haces allí los fines de semana?». Donne des exemples : par exemple, aller à la montagne ou se promener à la campagne.",
+          "pt": "Um amigo pergunta «¿Y qué haces allí los fines de semana?». Dê exemplos: por exemplo, ir para a montanha ou passear pelo campo.",
+          "zh": "一个朋友问你 «¿Y qué haces allí los fines de semana?»。举几个例子：比如，去山里或者在乡间散步。"
+        },
+        "accepted": [
+          "Por ejemplo, ir a la montaña o pasear por el campo.",
+          "Por ejemplo, ir a la montaña o pasear en el campo."
+        ],
+        "tiles": [
+          "Por ejemplo,",
+          "ir",
+          "a la montaña",
+          "o",
+          "pasear",
+          "por el campo",
+          "o sea",
+          "vas"
+        ],
+        "en": "For example, go to the mountains or walk in the countryside.",
+        "it": "Per esempio, andare in montagna o passeggiare in campagna.",
+        "uk": "Наприклад, поїхати в гори або погуляти на природі.",
+        "de": "Zum Beispiel in die Berge fahren oder auf dem Land spazieren gehen.",
+        "fr": "Par exemple, aller à la montagne ou se promener à la campagne.",
+        "pt": "Por exemplo, ir para a montanha ou passear pelo campo.",
+        "zh": "比如，去山里或者在乡间散步。",
+        "hint": {
+          "en": "You back it up with examples: por ejemplo.",
+          "it": "Lo sostieni con degli esempi: por ejemplo.",
+          "uk": "Ти підкріплюєш це прикладами: por ejemplo.",
+          "de": "Du untermauerst es mit Beispielen: por ejemplo.",
+          "fr": "Tu l'appuies avec des exemples : por ejemplo.",
+          "pt": "Você sustenta com exemplos: por ejemplo.",
+          "zh": "你举例子来支持：por ejemplo。"
+        }
+      },
+      {
+        "type": "gap",
+        "before": "Lo bueno del pueblo es el silencio; lo malo es que casi no ",
+        "after": " autobuses.",
+        "label": "haber",
+        "accepted": [
+          "hay"
+        ],
+        "en": "The good thing about the village is the silence; the bad thing is that there are hardly any buses.",
+        "it": "Il bello del paese è il silenzio; il brutto è che non ci sono quasi autobus.",
+        "uk": "Добре в селі — тиша; погано те, що автобусів майже немає.",
+        "de": "Das Gute am Dorf ist die Stille; das Schlechte ist, dass es kaum Busse gibt.",
+        "fr": "Ce qui est bien au village, c'est le silence ; ce qui est moins bien, c'est qu'il n'y a presque pas de bus.",
+        "pt": "O bom do vilarejo é o silêncio; o ruim é que quase não tem ônibus.",
+        "zh": "村子的好处是安静；不好的是几乎没有公交车。",
+        "hint": {
+          "en": "There are: hay, for one thing or many.",
+          "it": "Ci sono: hay, per una cosa o per tante.",
+          "uk": "«Є»: hay — і для однієї речі, і для багатьох.",
+          "de": "Es gibt: hay, für eine Sache oder für viele.",
+          "fr": "Il y a : hay, pour une seule chose ou pour plusieurs.",
+          "pt": "Tem (existe): hay, para uma coisa ou para muitas.",
+          "zh": "\"有\"：hay，一样东西或很多东西都用它。"
+        }
+      },
+      {
+        "type": "build",
+        "intention": {
+          "en": "A friend says «En la ciudad hay más oportunidades de trabajo». Weigh it up: on the one hand, you're right; on the other, life is very expensive.",
+          "it": "Un amico dice «En la ciudad hay más oportunidades de trabajo». Valuta: da un lato hai ragione; dall'altro, la vita è molto cara.",
+          "uk": "Друг каже: «En la ciudad hay más oportunidades de trabajo». Зваж: з одного боку, ти маєш рацію; з іншого — життя дуже дороге.",
+          "de": "Ein Freund sagt: «En la ciudad hay más oportunidades de trabajo». Wäge ab: Einerseits hast du recht; andererseits ist das Leben sehr teuer.",
+          "fr": "Un ami dit «En la ciudad hay más oportunidades de trabajo». Pèse le pour et le contre : d'un côté, il a raison ; de l'autre, la vie est très chère.",
+          "pt": "Um amigo diz «En la ciudad hay más oportunidades de trabajo». Pese os dois lados: por um lado, você tem razão; por outro, a vida é muito cara.",
+          "zh": "一个朋友说 «En la ciudad hay más oportunidades de trabajo»。权衡一下：一方面，你说得对；另一方面，生活成本很高。"
+        },
+        "accepted": [
+          "Por un lado, tienes razón; por otro, la vida es muy cara.",
+          "Por un lado, tienes razón; por otro lado, la vida es muy cara."
+        ],
+        "tiles": [
+          "Por un lado,",
+          "tienes razón;",
+          "por otro,",
+          "la vida",
+          "es muy cara",
+          "en cambio",
+          "tengas"
+        ],
+        "en": "On the one hand, you're right; on the other, life is very expensive.",
+        "it": "Da un lato hai ragione; dall'altro, la vita è molto cara.",
+        "uk": "З одного боку, ти маєш рацію; з іншого — життя дуже дороге.",
+        "de": "Einerseits hast du recht; andererseits ist das Leben sehr teuer.",
+        "fr": "D'un côté, tu as raison ; de l'autre, la vie est très chère.",
+        "pt": "Por um lado, você tem razão; por outro, a vida é muito cara.",
+        "zh": "一方面，你说得对；另一方面，生活成本很高。",
+        "hint": {
+          "en": "Two sides of the same thing: por un lado…, por otro…",
+          "it": "Due lati della stessa cosa: por un lado…, por otro…",
+          "uk": "Дві сторони однієї справи: por un lado…, por otro…",
+          "de": "Zwei Seiten derselben Sache: por un lado…, por otro…",
+          "fr": "Deux côtés d'une même chose : por un lado…, por otro…",
+          "pt": "Dois lados da mesma coisa: por un lado…, por otro…",
+          "zh": "同一件事的两个方面：por un lado…, por otro…"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "Yo trabajo desde casa, ",
+        "after": " no necesito vivir en la ciudad.",
+        "options": [
+          "así que",
+          "aunque",
+          "mientras que"
+        ],
+        "answer": "así que",
+        "en": "I work from home, so I don't need to live in the city.",
+        "it": "Lavoro da casa, quindi non ho bisogno di vivere in città.",
+        "uk": "Я працюю вдома, тож мені не потрібно жити в місті.",
+        "de": "Ich arbeite von zu Hause aus, also muss ich nicht in der Stadt wohnen.",
+        "fr": "Je travaille à la maison, donc je n'ai pas besoin de vivre en ville.",
+        "pt": "Eu trabalho em casa, então não preciso morar na cidade.",
+        "zh": "我在家工作，所以我不需要住在城里。",
+        "hint": {
+          "en": "Not needing the city is the consequence: así que.",
+          "it": "Non aver bisogno della città è la conseguenza: así que.",
+          "uk": "Те, що місто не потрібне, — це наслідок: así que.",
+          "de": "Die Stadt nicht zu brauchen ist die Folge: así que.",
+          "fr": "Ne pas avoir besoin de la ville, c'est la conséquence : así que.",
+          "pt": "Não precisar da cidade é a consequência: así que.",
+          "zh": "不需要住在城里是结果：así que。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "Además, mi pueblo está a media hora de Madrid, ",
+        "after": ", muy cerca.",
+        "options": [
+          "o sea",
+          "por ejemplo",
+          "sobre todo"
+        ],
+        "answer": "o sea",
+        "en": "Besides, my village is half an hour from Madrid, that is, very close.",
+        "it": "E poi il mio paese è a mezz'ora da Madrid, cioè molto vicino.",
+        "uk": "До того ж моє село за пів години від Мадрида, тобто дуже близько.",
+        "de": "Außerdem liegt mein Dorf eine halbe Stunde von Madrid entfernt, also ganz in der Nähe.",
+        "fr": "En plus, mon village est à une demi-heure de Madrid, c'est-à-dire tout près.",
+        "pt": "Além disso, meu vilarejo fica a meia hora de Madri, ou seja, bem perto.",
+        "zh": "而且，我们村离马德里只有半小时，也就是说，非常近。",
+        "hint": {
+          "en": "The same thing in other words: o sea.",
+          "it": "La stessa cosa con altre parole: o sea.",
+          "uk": "Те саме іншими словами: o sea.",
+          "de": "Dasselbe mit anderen Worten: o sea.",
+          "fr": "La même chose avec d'autres mots : o sea.",
+          "pt": "A mesma coisa com outras palavras: o sea.",
+          "zh": "用别的话说同一件事：o sea。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "Si ",
+        "after": " coche, el pueblo es perfecto.",
+        "options": [
+          "tienes",
+          "tengas",
+          "tendrías"
+        ],
+        "answer": "tienes",
+        "en": "If you have a car, the village is perfect.",
+        "it": "Se hai la macchina, il paese è perfetto.",
+        "uk": "Якщо в тебе є машина, село — ідеальний варіант.",
+        "de": "Wenn du ein Auto hast, ist das Dorf perfekt.",
+        "fr": "Si tu as une voiture, le village, c'est parfait.",
+        "pt": "Se você tem carro, o vilarejo é perfeito.",
+        "zh": "如果你有车，村子就再好不过了。",
+        "hint": {
+          "en": "After si, the normal present: tienes.",
+          "it": "Dopo si, il presente normale: tienes.",
+          "uk": "Після si — звичайний теперішній час: tienes.",
+          "de": "Nach si das normale Präsens: tienes.",
+          "fr": "Après si, le présent normal : tienes.",
+          "pt": "Depois de si, o presente normal: tienes (nunca o futuro do subjuntivo do português, «se você tiver»).",
+          "zh": "si 后面用普通的现在时：tienes。"
+        }
+      },
+      {
+        "type": "build",
+        "intention": {
+          "en": "A friend says «Pero en la ciudad hay mejores sueldos». Put it in perspective: at the end of the day, the important thing is to be happy.",
+          "it": "Un'amica dice «Pero en la ciudad hay mejores sueldos». Ridimensiona: in fin dei conti, la cosa importante è essere felici.",
+          "uk": "Подруга каже: «Pero en la ciudad hay mejores sueldos». Поглянь на це тверезіше: зрештою, головне — бути щасливим.",
+          "de": "Eine Freundin sagt: «Pero en la ciudad hay mejores sueldos». Relativiere es: Letztendlich ist das Wichtigste, glücklich zu sein.",
+          "fr": "Une amie dit «Pero en la ciudad hay mejores sueldos». Relativise : au bout du compte, l'important, c'est d'être heureux.",
+          "pt": "Um amigo diz «Pero en la ciudad hay mejores sueldos». Relativize: no fim das contas, o importante é ser feliz.",
+          "zh": "一个朋友说 «Pero en la ciudad hay mejores sueldos»。让她别把这看得太重要：说到底，最重要的是开心。"
+        },
+        "accepted": [
+          "Al fin y al cabo, lo importante es ser feliz.",
+          "Sí, pero al fin y al cabo, lo importante es ser feliz."
+        ],
+        "tiles": [
+          "Al fin y al cabo,",
+          "lo importante",
+          "es",
+          "ser feliz",
+          "estar",
+          "por ejemplo"
+        ],
+        "en": "At the end of the day, the important thing is to be happy.",
+        "it": "In fin dei conti, la cosa importante è essere felici.",
+        "uk": "Зрештою, головне — бути щасливим.",
+        "de": "Letztendlich ist das Wichtigste, glücklich zu sein.",
+        "fr": "Au bout du compte, l'important, c'est d'être heureux.",
+        "pt": "No fim das contas, o importante é ser feliz.",
+        "zh": "说到底，最重要的是开心。",
+        "hint": {
+          "en": "What matters most in the end: al fin y al cabo.",
+          "it": "Quello che conta di più alla fine: al fin y al cabo.",
+          "uk": "Що зрештою важить найбільше: al fin y al cabo.",
+          "de": "Was am Ende am meisten zählt: al fin y al cabo.",
+          "fr": "Ce qui compte le plus au bout du compte : al fin y al cabo.",
+          "pt": "O que mais importa no fim: al fin y al cabo.",
+          "zh": "最终最重要的事：al fin y al cabo。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "Y para los niños, no creo que la ciudad ",
+        "after": " mejor.",
+        "options": [
+          "sea",
+          "es"
+        ],
+        "answer": "sea",
+        "en": "And for children, I don't think the city is better.",
+        "it": "E per i bambini, non credo che la città sia meglio.",
+        "uk": "І для дітей, як на мене, місто не краще.",
+        "de": "Und für Kinder ist die Stadt meiner Meinung nach nicht besser.",
+        "fr": "Et pour les enfants, je ne pense pas que la ville soit mieux.",
+        "pt": "E para as crianças, não acho que a cidade seja melhor.",
+        "zh": "而且对孩子来说，我不认为城市更好。",
+        "hint": {
+          "en": "no creo que takes the subjunctive: sea.",
+          "it": "no creo que vuole il congiuntivo: sea.",
+          "uk": "Після no creo que — «subjuntivo»: sea.",
+          "de": "no creo que verlangt den subjuntivo (spanischer Konjunktiv): sea.",
+          "fr": "no creo que demande le subjonctif, comme « je ne pense pas que » en français : sea.",
+          "pt": "no creo que pede o subjuntivo: sea (como em português: «não acho que seja»).",
+          "zh": "no creo que 后面要用虚拟式：sea。"
+        }
+      },
+      {
+        "type": "write",
+        "instruction": {
+          "en": "To finish, sum up your point of view. Write in Spanish: «In conclusion, the city has its advantages, but I prefer the village.»",
+          "it": "Per finire, riassumi il tuo punto di vista. Scrivi in spagnolo: «In conclusione, la città ha i suoi vantaggi, ma io preferisco il paese.»",
+          "uk": "Наостанок підсумуй свою точку зору. Напиши іспанською: «На завершення: місто має свої переваги, але мені більше до вподоби село.»",
+          "de": "Fass zum Schluss deinen Standpunkt zusammen. Schreib auf Spanisch: «Abschließend: Die Stadt hat ihre Vorteile, aber ich mag lieber das Dorf.»",
+          "fr": "Pour finir, résume ton point de vue. Écris en espagnol : «En conclusion, la ville a ses avantages, mais moi, je préfère le village.»",
+          "pt": "Para terminar, resuma seu ponto de vista. Escreva em espanhol: «Concluindo, a cidade tem suas vantagens, mas eu prefiro o vilarejo.»",
+          "zh": "最后，总结你的观点。用西班牙语写：«综上所述，城市有它的好处，但我更喜欢村子。»"
+        },
+        "accepted": [
+          "En conclusión, la ciudad tiene sus ventajas, pero yo prefiero el pueblo.",
+          "En conclusión, la ciudad tiene sus ventajas, pero prefiero el pueblo.",
+          "En resumen, la ciudad tiene sus ventajas, pero yo prefiero el pueblo.",
+          "En resumen, la ciudad tiene sus ventajas, pero prefiero el pueblo."
+        ],
+        "model": {
+          "es": "En conclusión, la ciudad tiene sus ventajas, pero yo prefiero el pueblo.",
+          "en": "In conclusion, the city has its advantages, but I prefer the village.",
+          "it": "In conclusione, la città ha i suoi vantaggi, ma io preferisco il paese.",
+          "uk": "На завершення: місто має свої переваги, але мені більше до вподоби село.",
+          "de": "Abschließend: Die Stadt hat ihre Vorteile, aber ich mag lieber das Dorf.",
+          "fr": "En conclusion, la ville a ses avantages, mais moi, je préfère le village.",
+          "pt": "Concluindo, a cidade tem suas vantagens, mas eu prefiro o vilarejo.",
+          "zh": "综上所述，城市有它的好处，但我更喜欢村子。"
+        }
+      }
+    ]
+  }
+}

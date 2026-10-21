@@ -1,0 +1,3336 @@
+{
+  "unit": "u36",
+  "lessons": [
+    {
+      "id": "u36l1",
+      "goal": {
+        "en": "Answer the phone the Spanish way (¿Diga?), say who you are with soy, ask for someone with ¿está…? and say they're coming: ahora se pone.",
+        "it": "Rispondi al telefono come in Spagna (¿Diga?), di' chi sei con soy, chiedi di qualcuno con ¿está…? e di' che arriva: ahora se pone.",
+        "uk": "Відповідай на дзвінок по-іспанськи (¿Diga?), кажи, хто ти, за допомогою soy, проси покликати когось за допомогою ¿está…? і кажи, що людина зараз підійде: ahora se pone.",
+        "de": "Geh auf Spanisch ans Telefon (¿Diga?), sag mit soy, wer du bist, frag mit ¿está…? nach jemandem und sag, dass die Person gleich kommt: ahora se pone.",
+        "fr": "Réponds au téléphone à l'espagnole (¿Diga?), dis qui tu es avec soy, demande quelqu'un avec ¿está…? et dis qu'il arrive : ahora se pone.",
+        "pt": "Atenda o telefone do jeito espanhol (¿Diga?), diga quem você é com soy, pergunte por alguém com ¿está…? e diga que a pessoa já vem: ahora se pone.",
+        "zh": "像西班牙人一样接电话（¿Diga?），用 soy 说你是谁，用 ¿está…? 找人，并说对方马上来接：ahora se pone。"
+      },
+      "target": {
+        "es": "Hola, soy {name}. ¿Está tu hermana?",
+        "en": "Hi, it's {name}. Is your sister there?",
+        "it": "Ciao, sono {name}. C'è tua sorella?",
+        "uk": "Привіт, це {name}. Твоя сестра вдома?",
+        "de": "Hallo, hier ist {name}. Ist deine Schwester da?",
+        "fr": "Salut, c'est {name}. Ta sœur est là ?",
+        "pt": "Oi, é {name}. A sua irmã está?",
+        "zh": "你好，我是{name}。你姐姐在吗？"
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "¿diga?",
+              "en": "hello? (answering the phone)",
+              "it": "pronto?",
+              "uk": "алло? (коли відповідаєш на дзвінок)",
+              "de": "hallo? (wenn man ans Telefon geht)",
+              "fr": "allô ? (pour répondre au téléphone)",
+              "pt": "alô? (ao atender o telefone)",
+              "zh": "喂？（接电话时）",
+              "kind": "chunk"
+            },
+            {
+              "es": "¿de parte de quién?",
+              "en": "who's calling?",
+              "it": "chi lo desidera?, chi parla?",
+              "uk": "хто питає?, хто телефонує?",
+              "de": "wer ist am Apparat?, wer spricht da?",
+              "fr": "c'est de la part de qui ?",
+              "pt": "quem gostaria?, quem fala?",
+              "zh": "请问您是哪位？",
+              "kind": "chunk"
+            },
+            {
+              "es": "ponerse",
+              "en": "to come to the phone",
+              "it": "venire al telefono",
+              "uk": "підійти до телефону",
+              "de": "ans Telefon kommen",
+              "fr": "venir au téléphone, prendre le combiné",
+              "pt": "vir ao telefone, atender",
+              "zh": "来接电话",
+              "kind": "stem"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "¿Diga?",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "In Spain, people pick up the phone with ¿Diga?, ¿Dígame? or just ¿Sí? To say who you are, use soy, not me llamo. If they ask for you: sí, soy yo (speaking).",
+            "it": "In Spagna si risponde al telefono con ¿Diga?, ¿Dígame? o solo ¿Sí? Per dire chi sei usa soy, non me llamo. Se chiedono di te: sí, soy yo (sono io).",
+            "uk": "В Іспанії на дзвінок відповідають ¿Diga?, ¿Dígame? або просто ¿Sí? Щоб сказати, хто ти, вживай soy, а не me llamo. Якщо питають саме тебе: sí, soy yo (так, це я).",
+            "de": "In Spanien meldet man sich am Telefon mit ¿Diga?, ¿Dígame? oder einfach ¿Sí? Um zu sagen, wer du bist, verwende soy, nicht me llamo (wie im Deutschen „hier ist…“). Wenn jemand nach dir fragt: sí, soy yo (am Apparat).",
+            "fr": "En Espagne, on décroche avec ¿Diga?, ¿Dígame? ou simplement ¿Sí? Pour dire qui tu es, utilise soy, pas me llamo, comme on dit « c'est… » en français. Si on te demande : sí, soy yo (oui, c'est moi).",
+            "pt": "Na Espanha, as pessoas atendem o telefone com ¿Diga?, ¿Dígame? ou só ¿Sí?, como o nosso «Alô?». Para dizer quem você é, use soy, não me llamo. Se perguntarem por você: sí, soy yo (é ele / é ela, sou eu).",
+            "zh": "在西班牙，人们接电话时说 ¿Diga?、¿Dígame? 或者只说 ¿Sí? 要说你是谁，用 soy，不用 me llamo。如果对方找的就是你：sí, soy yo（我就是）。"
+          },
+          "examples": [
+            {
+              "es": "¿Diga?",
+              "en": "Hello?",
+              "it": "Pronto?",
+              "uk": "Алло?",
+              "de": "Hallo?",
+              "fr": "Allô ?",
+              "pt": "Alô?",
+              "zh": "喂？"
+            },
+            {
+              "es": "Hola, soy {name}.",
+              "en": "Hi, it's {name}.",
+              "it": "Ciao, sono {name}.",
+              "uk": "Привіт, це {name}.",
+              "de": "Hallo, hier ist {name}.",
+              "fr": "Salut, c'est {name}.",
+              "pt": "Oi, é {name}.",
+              "zh": "你好，我是{name}。"
+            },
+            {
+              "es": "Sí, soy yo.",
+              "en": "Yes, speaking.",
+              "it": "Sì, sono io.",
+              "uk": "Так, це я.",
+              "de": "Ja, am Apparat.",
+              "fr": "Oui, c'est moi.",
+              "pt": "Sim, sou eu.",
+              "zh": "对，我就是。"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Hola, ",
+          "after": " {name}. ¿Qué tal?",
+          "options": [
+            "soy",
+            "estoy",
+            "está"
+          ],
+          "answer": "soy",
+          "en": "Hi, it's {name}. How are you?",
+          "it": "Ciao, sono {name}. Come va?",
+          "uk": "Привіт, це {name}. Як справи?",
+          "de": "Hallo, hier ist {name}. Wie geht's dir?",
+          "fr": "Salut, c'est {name}. Ça va ?",
+          "pt": "Oi, é {name}. Tudo bem?",
+          "zh": "你好，我是{name}。你最近怎么样？",
+          "hint": {
+            "en": "On the phone, you say who you are with soy.",
+            "it": "Al telefono dici chi sei con soy.",
+            "uk": "По телефону ти кажеш, хто ти, за допомогою soy.",
+            "de": "Am Telefon sagst du mit soy, wer du bist.",
+            "fr": "Au téléphone, tu dis qui tu es avec soy.",
+            "pt": "Ao telefone, você diz quem é com soy.",
+            "zh": "打电话时用 soy 说你是谁。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "Your phone rings. You pick up and hear «Buenos días, ¿hablo con {name}?». Say yes, speaking.",
+            "it": "Ti squilla il telefono. Rispondi e senti «Buenos días, ¿hablo con {name}?». Rispondi di sì, sono io.",
+            "uk": "У тебе дзвонить телефон. Ти відповідаєш і чуєш: «Buenos días, ¿hablo con {name}?». Скажи: так, це я.",
+            "de": "Dein Handy klingelt. Du gehst ran und hörst: «Buenos días, ¿hablo con {name}?». Sag: Ja, am Apparat.",
+            "fr": "Ton téléphone sonne. Tu décroches et tu entends «Buenos días, ¿hablo con {name}?». Dis que oui, c'est toi.",
+            "pt": "Seu telefone toca. Você atende e ouve «Buenos días, ¿hablo con {name}?». Diga que sim, é você.",
+            "zh": "你的电话响了。你接起来，听到 «Buenos días, ¿hablo con {name}?»。说对，我就是。"
+          },
+          "accepted": [
+            "Sí, soy yo.",
+            "Soy yo."
+          ],
+          "tiles": [
+            "Sí,",
+            "soy",
+            "yo",
+            "estoy",
+            "es"
+          ],
+          "en": "Yes, speaking.",
+          "it": "Sì, sono io.",
+          "uk": "Так, це я.",
+          "de": "Ja, am Apparat.",
+          "fr": "Oui, c'est moi.",
+          "pt": "Sim, sou eu.",
+          "zh": "对，我就是。",
+          "hint": {
+            "en": "It's you they want: sí, soy yo.",
+            "it": "Cercano proprio te: sí, soy yo.",
+            "uk": "Шукають саме тебе: sí, soy yo.",
+            "de": "Du bist gemeint: sí, soy yo.",
+            "fr": "C'est bien toi qu'on demande : sí, soy yo.",
+            "pt": "É com você que querem falar: sí, soy yo.",
+            "zh": "对方找的就是你：sí, soy yo。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "¿está",
+              "kind": "stem"
+            },
+            {
+              "text": "…?",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "To ask for someone, say ¿está…? (is … there?) or ¿puedo hablar con…? The person who answers may ask ¿de parte de quién?: answer de parte de + your name.",
+            "it": "Per chiedere di qualcuno, di' ¿está…? (c'è…?) o ¿puedo hablar con…? Chi risponde può chiederti ¿de parte de quién?: rispondi de parte de + il tuo nome.",
+            "uk": "Щоб попросити когось до телефону, скажи ¿está…? (… на місці? / … вдома?) або ¿puedo hablar con…? Людина, яка відповіла, може спитати ¿de parte de quién?: відповідай de parte de + своє ім'я.",
+            "de": "Um nach jemandem zu fragen, sag ¿está…? (ist … da?) oder ¿puedo hablar con…? Wer abnimmt, fragt vielleicht ¿de parte de quién?: Antworte mit de parte de + deinem Namen.",
+            "fr": "Pour demander quelqu'un, dis ¿está…? (… est là ?) ou ¿puedo hablar con…? La personne qui répond peut te demander ¿de parte de quién? : réponds de parte de + ton nom, exactement comme « de la part de » en français.",
+            "pt": "Para perguntar por alguém, diga ¿está…? (… está?) ou ¿puedo hablar con…? Quem atende pode perguntar ¿de parte de quién? (quem gostaria?): responda de parte de + seu nome.",
+            "zh": "要找人，就说 ¿está…?（……在吗？）或 ¿puedo hablar con…?（我能和……通话吗？）。接电话的人可能会问 ¿de parte de quién?：回答 de parte de + 你的名字。"
+          },
+          "examples": [
+            {
+              "es": "Hola, ¿está tu hermana?",
+              "en": "Hi, is your sister there?",
+              "it": "Ciao, c'è tua sorella?",
+              "uk": "Привіт, твоя сестра вдома?",
+              "de": "Hallo, ist deine Schwester da?",
+              "fr": "Salut, ta sœur est là ?",
+              "pt": "Oi, a sua irmã está?",
+              "zh": "你好，你姐姐在吗？"
+            },
+            {
+              "es": "Buenos días, ¿puedo hablar con el encargado?",
+              "en": "Good morning, can I speak to the manager?",
+              "it": "Buongiorno, posso parlare con il responsabile?",
+              "uk": "Добрий день, можна поговорити з керівником?",
+              "de": "Guten Morgen, kann ich mit dem Geschäftsführer sprechen?",
+              "fr": "Bonjour, je peux parler au responsable ?",
+              "pt": "Bom dia, posso falar com o gerente?",
+              "zh": "早上好，我能和负责人通话吗？"
+            },
+            {
+              "es": "De parte de {name}, del trabajo.",
+              "en": "It's {name}, from work.",
+              "it": "Sono {name}, del lavoro.",
+              "uk": "Це {name}, з роботи.",
+              "de": "Hier ist {name}, von der Arbeit.",
+              "fr": "De la part de {name}, du travail.",
+              "pt": "É {name}, do trabalho.",
+              "zh": "我是{name}，单位同事。"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Hola, buenos días. ¿",
+          "after": " tu madre?",
+          "options": [
+            "Está",
+            "Es",
+            "Hay"
+          ],
+          "answer": "Está",
+          "en": "Hello, good morning. Is your mother there?",
+          "it": "Buongiorno. C'è tua madre?",
+          "uk": "Алло, добрий день. Твоя мама вдома?",
+          "de": "Hallo, guten Morgen. Ist deine Mutter da?",
+          "fr": "Bonjour. Ta mère est là ?",
+          "pt": "Alô, bom dia. A sua mãe está?",
+          "zh": "你好，早上好。你妈妈在吗？",
+          "hint": {
+            "en": "Is … there?: ¿está…?",
+            "it": "C'è…?: ¿está…?",
+            "uk": "… вдома?: ¿está…?",
+            "de": "Ist … da?: ¿está…?",
+            "fr": "… est là ? : ¿está…?",
+            "pt": "… está?: ¿está…?",
+            "zh": "……在吗？：¿está…?"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "You call a colleague at home. Her son answers and asks «¿De parte de quién?». Say it's {name}, from work.",
+            "it": "Chiami una collega a casa. Risponde suo figlio e chiede «¿De parte de quién?». Rispondi che sei {name}, del lavoro.",
+            "uk": "Ти телефонуєш колезі додому. Відповідає її син і питає: «¿De parte de quién?». Скажи, що це {name}, з роботи.",
+            "de": "Du rufst eine Kollegin zu Hause an. Ihr Sohn geht ran und fragt: «¿De parte de quién?». Sag, hier ist {name}, von der Arbeit.",
+            "fr": "Tu appelles une collègue chez elle. C'est son fils qui répond et il demande «¿De parte de quién?». Dis que c'est {name}, du travail.",
+            "pt": "Você liga para a casa de uma colega. O filho dela atende e pergunta «¿De parte de quién?». Diga que é {name}, do trabalho.",
+            "zh": "你给一位同事家里打电话。她儿子接的，问 «¿De parte de quién?»。说你是{name}，她的同事。"
+          },
+          "accepted": [
+            "De parte de {name}, del trabajo.",
+            "Soy {name}, del trabajo."
+          ],
+          "tiles": [
+            "De parte de",
+            "{name},",
+            "del trabajo",
+            "para",
+            "de la"
+          ],
+          "en": "It's {name}, from work.",
+          "it": "Sono {name}, del lavoro.",
+          "uk": "Це {name}, з роботи.",
+          "de": "Hier ist {name}, von der Arbeit.",
+          "fr": "De la part de {name}, du travail.",
+          "pt": "É {name}, do trabalho.",
+          "zh": "我是{name}，她的同事。",
+          "hint": {
+            "en": "Answer the question with its own words: de parte de + your name.",
+            "it": "Rispondi con le stesse parole della domanda: de parte de + il tuo nome.",
+            "uk": "Відповідай тими самими словами, що й у запитанні: de parte de + своє ім'я.",
+            "de": "Antworte mit den Wörtern der Frage: de parte de + dein Name.",
+            "fr": "Réponds avec les mots de la question : de parte de + ton nom.",
+            "pt": "Responda com as palavras da própria pergunta: de parte de + seu nome.",
+            "zh": "用问题里的词来回答：de parte de + 你的名字。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "ahora",
+              "kind": "time"
+            },
+            {
+              "text": "se pone",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "To say the person is coming to the phone: un momento, ahora se pone (from ponerse). If they're out: lo siento, ahora no está.",
+            "it": "Per dire che la persona sta venendo al telefono: un momento, ahora se pone (da ponerse). Se non c'è: lo siento, ahora no está.",
+            "uk": "Щоб сказати, що людина зараз підійде до телефону: un momento, ahora se pone (від ponerse). Якщо її немає: lo siento, ahora no está.",
+            "de": "Um zu sagen, dass die Person gleich ans Telefon kommt: un momento, ahora se pone (von ponerse). Wenn sie nicht da ist: lo siento, ahora no está.",
+            "fr": "Pour dire que la personne vient au téléphone : un momento, ahora se pone (de ponerse). Si elle n'est pas là : lo siento, ahora no está.",
+            "pt": "Para dizer que a pessoa já vem ao telefone: un momento, ahora se pone (de ponerse). Se ela não estiver: lo siento, ahora no está.",
+            "zh": "要说那个人马上来接电话：un momento, ahora se pone（来自 ponerse）。如果那个人不在：lo siento, ahora no está。"
+          },
+          "examples": [
+            {
+              "es": "Un momento, ahora se pone.",
+              "en": "One moment, I'll get him.",
+              "it": "Un attimo, te lo passo.",
+              "uk": "Хвилинку, зараз він підійде.",
+              "de": "Einen Moment, ich hole ihn.",
+              "fr": "Un instant, je te le passe.",
+              "pt": "Um momento, já vou chamá-lo.",
+              "zh": "稍等，他马上来接。"
+            },
+            {
+              "es": "Lo siento, ahora no está: está en el trabajo.",
+              "en": "Sorry, she's not here right now: she's at work.",
+              "it": "Mi dispiace, adesso non c'è: è al lavoro.",
+              "uk": "Вибачте, її зараз немає: вона на роботі.",
+              "de": "Tut mir leid, sie ist gerade nicht da: Sie ist bei der Arbeit.",
+              "fr": "Désolé, elle n'est pas là pour le moment : elle est au travail.",
+              "pt": "Sinto muito, ela não está agora: está no trabalho.",
+              "zh": "不好意思，她现在不在：她在上班。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "se pone",
+              "en": "he / she comes to the phone",
+              "it": "viene al telefono",
+              "uk": "він / вона підходить до телефону",
+              "de": "er / sie kommt ans Telefon",
+              "fr": "il / elle vient au téléphone",
+              "pt": "ele / ela vem ao telefone",
+              "zh": "他/她来接电话"
+            }
+          ]
+        },
+        {
+          "type": "build",
+          "beat": "forge",
+          "intention": {
+            "en": "The phone rings at home. Someone asks «¿Está tu hermano?». He's in the next room. Say: one moment, he's coming.",
+            "it": "Squilla il telefono di casa. Qualcuno chiede «¿Está tu hermano?». Lui è nella stanza accanto. Rispondi: un attimo, arriva.",
+            "uk": "Дзвонить домашній телефон. Хтось питає: «¿Está tu hermano?». Він у сусідній кімнаті. Скажи: хвилинку, зараз він підійде.",
+            "de": "Zu Hause klingelt das Telefon. Jemand fragt: «¿Está tu hermano?». Er ist im Zimmer nebenan. Sag: Einen Moment, er kommt gleich.",
+            "fr": "Le téléphone sonne à la maison. Quelqu'un demande «¿Está tu hermano?». Il est dans la pièce d'à côté. Dis : un instant, il arrive.",
+            "pt": "O telefone toca em casa. Alguém pergunta «¿Está tu hermano?». Ele está no quarto ao lado. Diga: um momento, ele já vem.",
+            "zh": "家里的电话响了。有人问 «¿Está tu hermano?»。他在隔壁房间。说：稍等，他马上来接。"
+          },
+          "accepted": [
+            "Un momento, ahora se pone.",
+            "Sí, un momento, ahora se pone."
+          ],
+          "tiles": [
+            "Un momento,",
+            "ahora",
+            "se pone",
+            "está",
+            "pongo"
+          ],
+          "en": "One moment, I'll get him.",
+          "it": "Un attimo, te lo passo.",
+          "uk": "Хвилинку, зараз він підійде.",
+          "de": "Einen Moment, ich hole ihn.",
+          "fr": "Un instant, je te le passe.",
+          "pt": "Um momento, já vou chamá-lo.",
+          "zh": "稍等，他马上来接。",
+          "hint": {
+            "en": "He's coming to the phone: ahora se pone.",
+            "it": "Sta venendo al telefono: ahora se pone.",
+            "uk": "Він підходить до телефону: ahora se pone.",
+            "de": "Er kommt ans Telefon: ahora se pone.",
+            "fr": "Il vient au téléphone : ahora se pone.",
+            "pt": "Ele vem ao telefone: ahora se pone.",
+            "zh": "他马上来接电话：ahora se pone。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "fire",
+          "before": "Lo siento, ahora no ",
+          "after": ": está en una reunión.",
+          "options": [
+            "está",
+            "es",
+            "hay"
+          ],
+          "answer": "está",
+          "en": "Sorry, he's not here right now: he's in a meeting.",
+          "it": "Mi dispiace, adesso non c'è: è in riunione.",
+          "uk": "Вибачте, його зараз немає: він на нараді.",
+          "de": "Tut mir leid, er ist gerade nicht da: Er ist in einer Besprechung.",
+          "fr": "Désolé, il n'est pas là pour le moment : il est en réunion.",
+          "pt": "Sinto muito, ele não está agora: está em uma reunião.",
+          "zh": "不好意思，他现在不在：他在开会。",
+          "hint": {
+            "en": "Whether someone is there: estar, no está.",
+            "it": "Se qualcuno c'è o no: estar, no está.",
+            "uk": "Чи є хтось на місці: estar, no está.",
+            "de": "Ob jemand da ist: estar, no está.",
+            "fr": "Pour dire si quelqu'un est là ou non : estar, no está.",
+            "pt": "Se alguém está ou não: estar, no está.",
+            "zh": "某人在不在：用 estar，no está。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "¿De parte ",
+          "after": " quién?",
+          "options": [
+            "de",
+            "por",
+            "para"
+          ],
+          "answer": "de",
+          "en": "Who's calling?",
+          "it": "Chi lo desidera?",
+          "uk": "Хто питає?",
+          "de": "Wer ist am Apparat?",
+          "fr": "C'est de la part de qui ?",
+          "pt": "Quem gostaria?",
+          "zh": "请问您是哪位？",
+          "hint": {
+            "en": "A fixed phrase: ¿de parte de quién?",
+            "it": "Una frase fissa: ¿de parte de quién?",
+            "uk": "Стала фраза: ¿de parte de quién?",
+            "de": "Eine feste Wendung: ¿de parte de quién?",
+            "fr": "Une expression toute faite : ¿de parte de quién?",
+            "pt": "Uma expressão fixa: ¿de parte de quién?",
+            "zh": "固定说法：¿de parte de quién?"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "mix",
+          "intention": {
+            "en": "You call a shop. Ask very politely (usted) if you could speak to the manager, please.",
+            "it": "Chiami un negozio. Chiedi con molta cortesia (usted) se potresti parlare con il responsabile, per favore.",
+            "uk": "Ти телефонуєш у магазин. Дуже ввічливо (usted) спитай, чи можна поговорити з керівником.",
+            "de": "Du rufst in einem Geschäft an. Frag sehr höflich (usted), ob du bitte mit dem Geschäftsführer sprechen könntest.",
+            "fr": "Tu appelles un magasin. Demande très poliment (usted) si tu pourrais parler au responsable, s'il vous plaît.",
+            "pt": "Você liga para uma loja. Pergunte com muita educação (usted) se poderia falar com o gerente, por favor.",
+            "zh": "你给一家商店打电话。非常礼貌地（用 usted）问能不能和负责人通话。"
+          },
+          "accepted": [
+            "¿Podría hablar con el encargado, por favor?",
+            "Buenos días, ¿podría hablar con el encargado, por favor?",
+            "¿Podría hablar con el encargado?"
+          ],
+          "tiles": [
+            "¿Podría",
+            "hablar",
+            "con",
+            "el encargado,",
+            "por favor?",
+            "de",
+            "Está"
+          ],
+          "en": "Could I speak to the manager, please?",
+          "it": "Potrei parlare con il responsabile, per favore?",
+          "uk": "Чи могли б ви покликати керівника, будь ласка?",
+          "de": "Könnte ich bitte mit dem Geschäftsführer sprechen?",
+          "fr": "Pourrais-je parler au responsable, s'il vous plaît ?",
+          "pt": "Eu poderia falar com o gerente, por favor?",
+          "zh": "请问，我能和负责人通话吗？",
+          "hint": {
+            "en": "The polite way: ¿podría hablar con…?",
+            "it": "Il modo gentile: ¿podría hablar con…?",
+            "uk": "Ввічливий варіант: ¿podría hablar con…?",
+            "de": "Die höfliche Form: ¿podría hablar con…?",
+            "fr": "La forme polie, au conditionnel comme en français : ¿podría hablar con…?",
+            "pt": "A forma educada: ¿podría hablar con…?",
+            "zh": "礼貌的说法：¿podría hablar con…?"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "Un momento, ahora ",
+          "after": " pone.",
+          "options": [
+            "se",
+            "le",
+            "te"
+          ],
+          "answer": "se",
+          "en": "One moment, I'll get her.",
+          "it": "Un attimo, te la passo.",
+          "uk": "Хвилинку, зараз вона підійде.",
+          "de": "Einen Moment, ich hole sie.",
+          "fr": "Un instant, je te la passe.",
+          "pt": "Um momento, já vou chamá-la.",
+          "zh": "稍等，她马上来接。",
+          "hint": {
+            "en": "ponerse, for her: se pone.",
+            "it": "ponerse, per lei: se pone.",
+            "uk": "ponerse, для неї: se pone.",
+            "de": "ponerse, für sie: se pone.",
+            "fr": "ponerse, pour elle : se pone.",
+            "pt": "ponerse, para ela: se pone.",
+            "zh": "ponerse，说\"她\"时：se pone。"
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "Your friend answers the phone at home. Write in Spanish: «Hi, it's {name}. Is your sister there?»",
+            "it": "Il tuo amico risponde al telefono di casa. Scrivi in spagnolo: «Ciao, sono {name}. C'è tua sorella?»",
+            "uk": "Твій друг бере слухавку вдома. Напиши іспанською: «Привіт, це {name}. Твоя сестра вдома?»",
+            "de": "Deine Freundin geht zu Hause ans Telefon. Schreib auf Spanisch: «Hallo, hier ist {name}. Ist deine Schwester da?»",
+            "fr": "Ton ami répond au téléphone chez lui. Écris en espagnol : «Salut, c'est {name}. Ta sœur est là ?»",
+            "pt": "Seu amigo atende o telefone em casa. Escreva em espanhol: «Oi, é {name}. A sua irmã está?»",
+            "zh": "你的朋友在家接了电话。用西班牙语写：«你好，我是{name}。你姐姐在吗？»"
+          },
+          "accepted": [
+            "Hola, soy {name}. ¿Está tu hermana?",
+            "Hola, soy {name}, ¿está tu hermana?",
+            "Hola, soy {name}. ¿Está tu hermana en casa?"
+          ],
+          "model": {
+            "es": "Hola, soy {name}. ¿Está tu hermana?",
+            "en": "Hi, it's {name}. Is your sister there?",
+            "it": "Ciao, sono {name}. C'è tua sorella?",
+            "uk": "Привіт, це {name}. Твоя сестра вдома?",
+            "de": "Hallo, hier ist {name}. Ist deine Schwester da?",
+            "fr": "Salut, c'est {name}. Ta sœur est là ?",
+            "pt": "Oi, é {name}. A sua irmã está?",
+            "zh": "你好，我是{name}。你姐姐在吗？"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u36l2",
+      "goal": {
+        "en": "Leave a message: ¿le puedo dejar un recado?, pass on a request with dile que / dígale que + the subjunctive, and pass on news with the normal present.",
+        "it": "Lascia un messaggio: ¿le puedo dejar un recado?, riferisci una richiesta con dile que / dígale que + il congiuntivo e una notizia con il presente normale.",
+        "uk": "Залишай повідомлення: ¿le puedo dejar un recado?, переказуй прохання за допомогою dile que / dígale que + «subjuntivo», а новини — за допомогою звичайного теперішнього часу.",
+        "de": "Hinterlass eine Nachricht: ¿le puedo dejar un recado?, gib mit dile que / dígale que + subjuntivo (spanischer Konjunktiv) eine Bitte weiter und gib Neuigkeiten mit dem normalen Präsens weiter.",
+        "fr": "Laisse un message : ¿le puedo dejar un recado?, transmets une demande avec dile que / dígale que + le subjonctif, et une nouvelle avec le présent normal.",
+        "pt": "Deixe um recado: ¿le puedo dejar un recado?, passe um pedido adiante com dile que / dígale que + subjuntivo e passe uma notícia com o presente normal.",
+        "zh": "留言：¿le puedo dejar un recado?，用 dile que / dígale que + 虚拟式转达请求，用普通的现在时转达消息。"
+      },
+      "target": {
+        "es": "Dígale que me devuelva la llamada, por favor.",
+        "en": "Please tell him to call me back.",
+        "it": "Gli dica di richiamarmi, per favore.",
+        "uk": "Перекажіть йому, будь ласка, щоб він мені передзвонив.",
+        "de": "Sagen Sie ihm bitte, er soll mich zurückrufen.",
+        "fr": "Dites-lui de me rappeler, s'il vous plaît.",
+        "pt": "Diga a ele que me retorne a ligação, por favor.",
+        "zh": "请您让他给我回个电话。"
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "el recado",
+              "en": "the message (left for someone)",
+              "it": "il messaggio",
+              "uk": "повідомлення (яке залишають для когось)",
+              "de": "die Nachricht (für jemanden hinterlassen)",
+              "fr": "le message (laissé pour quelqu'un)",
+              "pt": "o recado",
+              "zh": "口信，留言（留给别人的）",
+              "kind": "chunk"
+            },
+            {
+              "es": "dejar un recado",
+              "en": "to leave a message",
+              "it": "lasciare un messaggio",
+              "uk": "залишити повідомлення",
+              "de": "eine Nachricht hinterlassen",
+              "fr": "laisser un message",
+              "pt": "deixar recado",
+              "zh": "留言，留个口信",
+              "kind": "chunk"
+            },
+            {
+              "es": "devolver la llamada",
+              "en": "to call back",
+              "it": "richiamare",
+              "uk": "передзвонити",
+              "de": "zurückrufen",
+              "fr": "rappeler",
+              "pt": "retornar a ligação",
+              "zh": "回电话",
+              "kind": "chunk"
+            },
+            {
+              "es": "el contestador",
+              "en": "the answerphone",
+              "it": "la segreteria telefonica",
+              "uk": "автовідповідач",
+              "de": "der Anrufbeantworter",
+              "fr": "le répondeur",
+              "pt": "a secretária eletrônica, a caixa postal",
+              "zh": "电话答录机，语音信箱",
+              "kind": "chunk"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "¿le puedo",
+              "kind": "stem"
+            },
+            {
+              "text": "dejar un recado?",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "When the person isn't there, you'll hear ¿quiere dejarle un recado? (would you like to leave a message?). To offer one yourself: ¿le puedo dejar un recado?",
+            "it": "Quando la persona non c'è, ti chiederanno ¿quiere dejarle un recado? (vuole lasciarle un messaggio?). Per proporlo tu: ¿le puedo dejar un recado?",
+            "uk": "Коли людини немає, тебе спитають ¿quiere dejarle un recado? (хочете щось їй передати?). Щоб запропонувати самому(-ій): ¿le puedo dejar un recado?",
+            "de": "Wenn die Person nicht da ist, hörst du ¿quiere dejarle un recado? (möchten Sie ihr / ihm eine Nachricht hinterlassen?). Um selbst eine anzubieten: ¿le puedo dejar un recado?",
+            "fr": "Quand la personne n'est pas là, on te demandera ¿quiere dejarle un recado? (voulez-vous lui laisser un message ?). Pour le proposer toi-même : ¿le puedo dejar un recado?",
+            "pt": "Quando a pessoa não está, você vai ouvir ¿quiere dejarle un recado? (quer deixar recado?). Para oferecer você mesmo: ¿le puedo dejar un recado?",
+            "zh": "要找的人不在时，你会听到 ¿quiere dejarle un recado?（您要给他/她留个言吗？）。要自己主动提出留言：¿le puedo dejar un recado?"
+          },
+          "examples": [
+            {
+              "es": "Lo siento, no está. ¿Quiere dejarle un recado?",
+              "en": "Sorry, she's not in. Would you like to leave her a message?",
+              "it": "Mi dispiace, non c'è. Vuole lasciarle un messaggio?",
+              "uk": "Вибачте, її немає. Хочете щось їй передати?",
+              "de": "Tut mir leid, sie ist nicht da. Möchten Sie ihr eine Nachricht hinterlassen?",
+              "fr": "Désolé, elle n'est pas là. Voulez-vous lui laisser un message ?",
+              "pt": "Sinto muito, ela não está. Quer deixar recado para ela?",
+              "zh": "不好意思，她不在。您要给她留个言吗？"
+            },
+            {
+              "es": "¿Le puedo dejar un recado?",
+              "en": "Can I leave him a message?",
+              "it": "Posso lasciargli un messaggio?",
+              "uk": "Можна залишити для нього повідомлення?",
+              "de": "Kann ich ihm eine Nachricht hinterlassen?",
+              "fr": "Je peux lui laisser un message ?",
+              "pt": "Posso deixar um recado para ele?",
+              "zh": "我可以给他留个言吗？"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "dejarle",
+              "en": "to leave him / her",
+              "it": "lasciargli, lasciarle",
+              "uk": "залишити йому / їй",
+              "de": "ihm / ihr hinterlassen",
+              "fr": "lui laisser",
+              "pt": "deixar para ele / para ela",
+              "zh": "给他/她留"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Lo siento, no está. ¿Quiere dejarle un ",
+          "after": "?",
+          "options": [
+            "recado",
+            "contestador",
+            "momento"
+          ],
+          "answer": "recado",
+          "en": "Sorry, he's not in. Would you like to leave him a message?",
+          "it": "Mi dispiace, non c'è. Vuole lasciargli un messaggio?",
+          "uk": "Вибачте, його немає. Хочете щось йому передати?",
+          "de": "Tut mir leid, er ist nicht da. Möchten Sie ihm eine Nachricht hinterlassen?",
+          "fr": "Désolé, il n'est pas là. Voulez-vous lui laisser un message ?",
+          "pt": "Sinto muito, ele não está. Quer deixar recado para ele?",
+          "zh": "不好意思，他不在。您要给他留个言吗？",
+          "hint": {
+            "en": "What you leave for someone: un recado.",
+            "it": "Quello che lasci per qualcuno: un recado.",
+            "uk": "Те, що ти залишаєш для когось: un recado.",
+            "de": "Was du für jemanden hinterlässt: un recado.",
+            "fr": "Ce que tu laisses pour quelqu'un : un recado.",
+            "pt": "O que se deixa para alguém: un recado.",
+            "zh": "你给别人留下的东西：un recado。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "You call your friend's flat and her flatmate says «No está, ha salido». Ask if you can leave her a message.",
+            "it": "Chiami a casa della tua amica e la sua coinquilina dice «No está, ha salido». Chiedi se puoi lasciarle un messaggio.",
+            "uk": "Ти телефонуєш у квартиру подруги, і її сусідка каже: «No está, ha salido». Спитай, чи можна залишити для неї повідомлення.",
+            "de": "Du rufst in der WG deiner Freundin an, und ihre Mitbewohnerin sagt: «No está, ha salido». Frag, ob du ihr eine Nachricht hinterlassen kannst.",
+            "fr": "Tu appelles chez ton amie et sa colocataire dit «No está, ha salido». Demande si tu peux lui laisser un message.",
+            "pt": "Você liga para o apartamento da sua amiga e a colega de apartamento diz «No está, ha salido». Pergunte se pode deixar um recado para ela.",
+            "zh": "你给朋友住的地方打电话，她的室友说 «No está, ha salido»。问你能不能给她留个言。"
+          },
+          "accepted": [
+            "¿Le puedo dejar un recado?",
+            "¿Puedo dejarle un recado?"
+          ],
+          "tiles": [
+            "¿Le",
+            "puedo",
+            "dejar",
+            "un recado?",
+            "puedes",
+            "contestador"
+          ],
+          "en": "Can I leave her a message?",
+          "it": "Posso lasciarle un messaggio?",
+          "uk": "Можна залишити для неї повідомлення?",
+          "de": "Kann ich ihr eine Nachricht hinterlassen?",
+          "fr": "Je peux lui laisser un message ?",
+          "pt": "Posso deixar um recado para ela?",
+          "zh": "我可以给她留个言吗？",
+          "hint": {
+            "en": "For her: le; then puedo dejar un recado.",
+            "it": "Per lei: le; poi puedo dejar un recado.",
+            "uk": "Для неї: le; далі puedo dejar un recado.",
+            "de": "Für sie: le; dann puedo dejar un recado.",
+            "fr": "Pour elle : le ; puis puedo dejar un recado.",
+            "pt": "Para ela: le; depois puedo dejar un recado.",
+            "zh": "\"给她\"：le；然后是 puedo dejar un recado。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "dígale que",
+              "kind": "rail"
+            },
+            {
+              "text": "me llame",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "To pass on a request, say dile que (tú) or dígale que (usted) + the subjunctive, just like quiero que: dígale que me llame.",
+            "it": "Per riferire una richiesta, di' dile que (tú) o dígale que (usted) + il congiuntivo, proprio come quiero que: dígale que me llame.",
+            "uk": "Щоб переказати прохання, скажи dile que (tú) або dígale que (usted) + «subjuntivo», так само як після quiero que: dígale que me llame.",
+            "de": "Um eine Bitte weiterzugeben, sag dile que (tú) oder dígale que (usted) + subjuntivo (spanischer Konjunktiv), genau wie bei quiero que: dígale que me llame. Im Deutschen sagt man einfach „sag ihr, sie soll…“.",
+            "fr": "Pour transmettre une demande, dis dile que (tú) ou dígale que (usted) + le subjonctif, comme avec quiero que : dígale que me llame. En français, on dit plutôt « dites-lui de m'appeler », mais l'espagnol n'utilise pas l'infinitif ici.",
+            "pt": "Para passar um pedido adiante, diga dile que (tú) ou dígale que (usted) + subjuntivo, igual a quiero que: dígale que me llame. Em português também: «diga a ele que me ligue».",
+            "zh": "要转达请求，就说 dile que（对 tú）或 dígale que（对 usted）+ 虚拟式，和 quiero que 一样：dígale que me llame。"
+          },
+          "examples": [
+            {
+              "es": "Dígale que me llame, por favor.",
+              "en": "Please tell her to call me.",
+              "it": "Le dica di chiamarmi, per favore.",
+              "uk": "Перекажіть їй, будь ласка, щоб вона мені подзвонила.",
+              "de": "Sagen Sie ihr bitte, sie soll mich anrufen.",
+              "fr": "Dites-lui de m'appeler, s'il vous plaît.",
+              "pt": "Diga a ela que me ligue, por favor.",
+              "zh": "请您让她给我打电话。"
+            },
+            {
+              "es": "Dile que me devuelva la llamada.",
+              "en": "Tell him to call me back.",
+              "it": "Digli di richiamarmi.",
+              "uk": "Скажи йому, щоб він мені передзвонив.",
+              "de": "Sag ihm, er soll mich zurückrufen.",
+              "fr": "Dis-lui de me rappeler.",
+              "pt": "Diga a ele que me retorne a ligação.",
+              "zh": "让他给我回个电话。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "dile",
+              "en": "tell him / her (tú)",
+              "it": "digli, dille",
+              "uk": "скажи йому / їй (tú)",
+              "de": "sag ihm / ihr (tú)",
+              "fr": "dis-lui (tú)",
+              "pt": "diga a ele / a ela (tú)",
+              "zh": "告诉他/她（对 tú）"
+            },
+            {
+              "es": "dígale",
+              "en": "tell him / her (usted)",
+              "it": "gli dica, le dica",
+              "uk": "скажіть йому / їй (usted)",
+              "de": "sagen Sie ihm / ihr (usted)",
+              "fr": "dites-lui (usted)",
+              "pt": "diga a ele / a ela (usted)",
+              "zh": "告诉他/她（对 usted）"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Dígale que me ",
+          "after": " esta tarde, por favor.",
+          "options": [
+            "llame",
+            "llama",
+            "llamar"
+          ],
+          "answer": "llame",
+          "en": "Please tell him to call me this afternoon.",
+          "it": "Gli dica di chiamarmi oggi pomeriggio, per favore.",
+          "uk": "Перекажіть йому, будь ласка, щоб він подзвонив мені сьогодні після обіду.",
+          "de": "Sagen Sie ihm bitte, er soll mich heute Nachmittag anrufen.",
+          "fr": "Dites-lui de m'appeler cet après-midi, s'il vous plaît.",
+          "pt": "Diga a ele que me ligue hoje à tarde, por favor.",
+          "zh": "请您让他今天下午给我打电话。",
+          "hint": {
+            "en": "A request passed on: dígale que + the subjunctive, llame.",
+            "it": "Una richiesta riferita: dígale que + il congiuntivo, llame.",
+            "uk": "Переказане прохання: dígale que + «subjuntivo», llame.",
+            "de": "Eine weitergegebene Bitte: dígale que + subjuntivo, llame.",
+            "fr": "Une demande transmise : dígale que + le subjonctif, llame.",
+            "pt": "Um pedido passado adiante: dígale que + subjuntivo, llame.",
+            "zh": "转达请求：dígale que + 虚拟式，llame。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "Your friend's mother tells you her son is out. Ask her (usted) to tell him to call you back.",
+            "it": "La madre del tuo amico ti dice che suo figlio è fuori. Chiedile (usted) di dirgli di richiamarti.",
+            "uk": "Мама твого друга каже, що її сина немає вдома. Попроси її (usted) переказати йому, щоб він тобі передзвонив.",
+            "de": "Die Mutter deines Freundes sagt dir, dass ihr Sohn nicht da ist. Bitte sie (usted), ihm zu sagen, er soll dich zurückrufen.",
+            "fr": "La mère de ton ami te dit que son fils est sorti. Demande-lui (usted) de lui dire de te rappeler.",
+            "pt": "A mãe do seu amigo diz que o filho saiu. Peça a ela (usted) que diga a ele para retornar a sua ligação.",
+            "zh": "你朋友的妈妈告诉你，她儿子出去了。请她（用 usted）让他给你回个电话。"
+          },
+          "accepted": [
+            "Dígale que me devuelva la llamada.",
+            "Dígale que me devuelva la llamada, por favor.",
+            "Por favor, dígale que me devuelva la llamada."
+          ],
+          "tiles": [
+            "Dígale",
+            "que",
+            "me",
+            "devuelva",
+            "la llamada",
+            "devuelve",
+            "Dile"
+          ],
+          "en": "Tell him to call me back.",
+          "it": "Gli dica di richiamarmi.",
+          "uk": "Перекажіть йому, щоб він мені передзвонив.",
+          "de": "Sagen Sie ihm, er soll mich zurückrufen.",
+          "fr": "Dites-lui de me rappeler.",
+          "pt": "Diga a ele que me retorne a ligação.",
+          "zh": "请您让他给我回个电话。",
+          "hint": {
+            "en": "To usted: dígale que + the subjunctive, devuelva.",
+            "it": "A usted: dígale que + il congiuntivo, devuelva.",
+            "uk": "До usted: dígale que + «subjuntivo», devuelva.",
+            "de": "Bei usted: dígale que + subjuntivo, devuelva.",
+            "fr": "Avec usted : dígale que + le subjonctif, devuelva.",
+            "pt": "Para usted: dígale que + subjuntivo, devuelva.",
+            "zh": "对 usted：dígale que + 虚拟式，devuelva。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "dile que",
+              "kind": "rail"
+            },
+            {
+              "text": "llego tarde",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "If you pass on news, not a request, use the normal present: dile que llego tarde (tell him I'm running late). Request: subjunctive. News: normal present.",
+            "it": "Se riferisci una notizia, non una richiesta, usa il presente normale: dile que llego tarde (digli che arrivo tardi). Richiesta: congiuntivo. Notizia: presente normale.",
+            "uk": "Якщо ти переказуєш новину, а не прохання, вживай звичайний теперішній час: dile que llego tarde (скажи йому, що я запізнюся). Прохання — «subjuntivo». Новина — звичайний теперішній час.",
+            "de": "Wenn du eine Neuigkeit weitergibst und keine Bitte, verwende das normale Präsens: dile que llego tarde (sag ihm, dass ich mich verspäte). Bitte: subjuntivo. Neuigkeit: normales Präsens.",
+            "fr": "Si tu transmets une nouvelle, et non une demande, utilise le présent normal : dile que llego tarde (dis-lui que je suis en retard). Demande : subjonctif. Nouvelle : présent normal.",
+            "pt": "Se você passa uma notícia, e não um pedido, use o presente normal: dile que llego tarde (diga a ele que vou chegar atrasado). Pedido: subjuntivo. Notícia: presente normal.",
+            "zh": "如果转达的是消息而不是请求，就用普通的现在时：dile que llego tarde（告诉他我要晚到）。请求：虚拟式。消息：普通的现在时。"
+          },
+          "examples": [
+            {
+              "es": "Dile que llego a las ocho.",
+              "en": "Tell her I'll be there at eight.",
+              "it": "Dille che arrivo alle otto.",
+              "uk": "Скажи їй, що я буду о восьмій.",
+              "de": "Sag ihr, dass ich um acht da bin.",
+              "fr": "Dis-lui que j'arrive à huit heures.",
+              "pt": "Diga a ela que eu chego às oito.",
+              "zh": "告诉她我八点到。"
+            },
+            {
+              "es": "Dile que me espere.",
+              "en": "Tell her to wait for me.",
+              "it": "Dille di aspettarmi.",
+              "uk": "Скажи їй, щоб вона мене почекала.",
+              "de": "Sag ihr, sie soll auf mich warten.",
+              "fr": "Dis-lui de m'attendre.",
+              "pt": "Diga a ela que me espere.",
+              "zh": "让她等我。"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Dile que ",
+          "after": " tarde: hay mucho tráfico.",
+          "options": [
+            "llego",
+            "llegue"
+          ],
+          "answer": "llego",
+          "en": "Tell him I'm running late: there's a lot of traffic.",
+          "it": "Digli che arrivo tardi: c'è molto traffico.",
+          "uk": "Скажи йому, що я запізнююся: великі затори.",
+          "de": "Sag ihm, dass ich mich verspäte: Es ist viel Verkehr.",
+          "fr": "Dis-lui que je suis en retard : il y a beaucoup de circulation.",
+          "pt": "Diga a ele que vou chegar atrasado: está com muito trânsito.",
+          "zh": "告诉他我要晚到：路上很堵。",
+          "hint": {
+            "en": "It's news, not a request: the normal present, llego.",
+            "it": "È una notizia, non una richiesta: il presente normale, llego.",
+            "uk": "Це новина, а не прохання: звичайний теперішній час, llego.",
+            "de": "Das ist eine Neuigkeit, keine Bitte: das normale Präsens, llego.",
+            "fr": "C'est une nouvelle, pas une demande : le présent normal, llego.",
+            "pt": "É uma notícia, não um pedido: o presente normal, llego.",
+            "zh": "这是消息，不是请求：用普通的现在时，llego。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "fire",
+          "before": "Dile que me ",
+          "after": " en la puerta del cine.",
+          "options": [
+            "espere",
+            "espera"
+          ],
+          "answer": "espere",
+          "en": "Tell her to wait for me at the cinema entrance.",
+          "it": "Dille di aspettarmi all'ingresso del cinema.",
+          "uk": "Скажи їй, щоб вона почекала мене біля входу в кінотеатр.",
+          "de": "Sag ihr, sie soll am Kinoeingang auf mich warten.",
+          "fr": "Dis-lui de m'attendre à l'entrée du cinéma.",
+          "pt": "Diga a ela que me espere na entrada do cinema.",
+          "zh": "让她在电影院门口等我。",
+          "hint": {
+            "en": "It's a request: the subjunctive, espere.",
+            "it": "È una richiesta: il congiuntivo, espere.",
+            "uk": "Це прохання: «subjuntivo», espere.",
+            "de": "Das ist eine Bitte: der subjuntivo, espere.",
+            "fr": "C'est une demande : le subjonctif, espere.",
+            "pt": "É um pedido: o subjuntivo, espere.",
+            "zh": "这是请求：用虚拟式，espere。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "mix",
+          "intention": {
+            "en": "Your friend doesn't answer and you get the answerphone. Leave this message: hi, it's {name}, call me when you can.",
+            "it": "Il tuo amico non risponde e scatta la segreteria. Lascia questo messaggio: ciao, sono {name}, chiamami quando puoi.",
+            "uk": "Твій друг не відповідає, і вмикається автовідповідач. Залиш таке повідомлення: привіт, це {name}, подзвони мені, коли зможеш.",
+            "de": "Dein Freund geht nicht ran, und du landest auf dem Anrufbeantworter. Hinterlass diese Nachricht: Hallo, hier ist {name}, ruf mich an, wenn du kannst.",
+            "fr": "Ton ami ne répond pas et tu tombes sur le répondeur. Laisse ce message : salut, c'est {name}, appelle-moi quand tu peux.",
+            "pt": "Seu amigo não atende e cai na caixa postal. Deixe esta mensagem: oi, é {name}, me liga quando puder.",
+            "zh": "你的朋友没接电话，转到了语音信箱。留下这条留言：你好，我是{name}，方便的时候给我回个电话。"
+          },
+          "accepted": [
+            "Hola, soy {name}. Llámame cuando puedas.",
+            "Hola, soy {name}, llámame cuando puedas."
+          ],
+          "tiles": [
+            "Hola,",
+            "soy",
+            "{name}.",
+            "Llámame",
+            "cuando",
+            "puedas",
+            "puedes"
+          ],
+          "en": "Hi, it's {name}. Call me when you can.",
+          "it": "Ciao, sono {name}. Chiamami quando puoi.",
+          "uk": "Привіт, це {name}. Подзвони мені, коли зможеш.",
+          "de": "Hallo, hier ist {name}. Ruf mich an, wenn du kannst.",
+          "fr": "Salut, c'est {name}. Appelle-moi quand tu peux.",
+          "pt": "Oi, é {name}. Me liga quando puder.",
+          "zh": "你好，我是{name}。方便的时候给我回个电话。",
+          "hint": {
+            "en": "cuando for something that hasn't happened yet: the subjunctive, puedas.",
+            "it": "cuando per qualcosa che non è ancora successo: il congiuntivo, puedas.",
+            "uk": "cuando про те, що ще не сталося: «subjuntivo», puedas.",
+            "de": "cuando für etwas, das noch nicht passiert ist: der subjuntivo, puedas.",
+            "fr": "cuando pour quelque chose qui n'est pas encore arrivé : le subjonctif, puedas. En français, on garde l'indicatif (« quand tu peux »).",
+            "pt": "cuando para algo que ainda não aconteceu: o subjuntivo presente, puedas (não o futuro do subjuntivo do português, «quando puder»).",
+            "zh": "cuando 说的是还没发生的事：用虚拟式，puedas。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "Sí, dígale que mañana no ",
+          "after": " ir a la reunión.",
+          "options": [
+            "puedo",
+            "pueda"
+          ],
+          "answer": "puedo",
+          "en": "Yes, tell him I can't go to the meeting tomorrow.",
+          "it": "Sì, gli dica che domani non posso andare alla riunione.",
+          "uk": "Так, перекажіть йому, що завтра я не зможу прийти на нараду.",
+          "de": "Ja, sag ihm, dass ich morgen nicht zur Besprechung kommen kann.",
+          "fr": "Oui, dites-lui que je ne peux pas aller à la réunion demain.",
+          "pt": "Sim, diga a ele que eu não posso ir à reunião amanhã.",
+          "zh": "好的，请您告诉他我明天去不了会议。",
+          "hint": {
+            "en": "It's news, not a request: the normal present, puedo.",
+            "it": "È una notizia, non una richiesta: il presente normale, puedo.",
+            "uk": "Це новина, а не прохання: звичайний теперішній час, puedo.",
+            "de": "Das ist eine Neuigkeit, keine Bitte: das normale Präsens, puedo.",
+            "fr": "C'est une nouvelle, pas une demande : le présent normal, puedo.",
+            "pt": "É uma notícia, não um pedido: o presente normal, puedo.",
+            "zh": "这是消息，不是请求：用普通的现在时，puedo。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "mix",
+          "before": "Dile que me ",
+          "after": " el libro mañana.",
+          "label": "traer",
+          "accepted": [
+            "traiga"
+          ],
+          "en": "Tell him to bring me the book tomorrow.",
+          "it": "Digli di portarmi il libro domani.",
+          "uk": "Скажи йому, щоб він приніс мені книжку завтра.",
+          "de": "Sag ihm, er soll mir morgen das Buch mitbringen.",
+          "fr": "Dis-lui de m'apporter le livre demain.",
+          "pt": "Diga a ele que me traga o livro amanhã.",
+          "zh": "让他明天把书给我带来。",
+          "hint": {
+            "en": "A request: the subjunctive, from traigo: traiga.",
+            "it": "Una richiesta: il congiuntivo, da traigo: traiga.",
+            "uk": "Прохання: «subjuntivo», від traigo: traiga.",
+            "de": "Eine Bitte: der subjuntivo, von traigo: traiga.",
+            "fr": "Une demande : le subjonctif, formé sur traigo : traiga.",
+            "pt": "Um pedido: o subjuntivo, a partir de traigo: traiga.",
+            "zh": "这是请求：用虚拟式，由 traigo 变来：traiga。"
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "Your colleague is out. Ask the person who answered (usted) to pass on your request. Write in Spanish: «Please tell him to call me back.»",
+            "it": "Il tuo collega è fuori. Chiedi a chi ha risposto (usted) di riferire la tua richiesta. Scrivi in spagnolo: «Gli dica di richiamarmi, per favore.»",
+            "uk": "Твого колеги немає на місці. Попроси людину, яка відповіла (usted), переказати твоє прохання. Напиши іспанською: «Перекажіть йому, будь ласка, щоб він мені передзвонив.»",
+            "de": "Dein Kollege ist nicht da. Bitte die Person, die rangegangen ist (usted), deine Bitte weiterzugeben. Schreib auf Spanisch: «Sagen Sie ihm bitte, er soll mich zurückrufen.»",
+            "fr": "Ton collègue n'est pas là. Demande à la personne qui a répondu (usted) de transmettre ta demande. Écris en espagnol : «Dites-lui de me rappeler, s'il vous plaît.»",
+            "pt": "Seu colega não está. Peça à pessoa que atendeu (usted) que passe o seu pedido adiante. Escreva em espanhol: «Diga a ele que me retorne a ligação, por favor.»",
+            "zh": "你的同事不在。请接电话的人（用 usted）帮你转达请求。用西班牙语写：«请您让他给我回个电话。»"
+          },
+          "accepted": [
+            "Dígale que me devuelva la llamada, por favor.",
+            "Por favor, dígale que me devuelva la llamada.",
+            "Dígale que me llame, por favor.",
+            "Por favor, dígale que me llame.",
+            "Dígale que me vuelva a llamar, por favor.",
+            "Por favor, dígale que me vuelva a llamar."
+          ],
+          "model": {
+            "es": "Dígale que me devuelva la llamada, por favor.",
+            "en": "Please tell him to call me back.",
+            "it": "Gli dica di richiamarmi, per favore.",
+            "uk": "Перекажіть йому, будь ласка, щоб він мені передзвонив.",
+            "de": "Sagen Sie ihm bitte, er soll mich zurückrufen.",
+            "fr": "Dites-lui de me rappeler, s'il vous plaît.",
+            "pt": "Diga a ele que me retorne a ligação, por favor.",
+            "zh": "请您让他给我回个电话。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u36l3",
+      "goal": {
+        "en": "Keep up on the phone: ask people to repeat (¿me lo repite?), say the line is bad (no te oigo, se corta) and ask them to spell things while you write them down.",
+        "it": "Non perdere il filo al telefono: chiedi di ripetere (¿me lo repite?), di' che la linea è disturbata (no te oigo, se corta) e fatti dettare le lettere mentre prendi nota.",
+        "uk": "Не губися під час телефонної розмови: проси повторити (¿me lo repite?), кажи, що поганий зв'язок (no te oigo, se corta), і проси продиктувати по літерах, поки записуєш.",
+        "de": "Bleib am Telefon am Ball: Bitte darum, etwas zu wiederholen (¿me lo repite?), sag, dass die Verbindung schlecht ist (no te oigo, se corta), und lass dir etwas buchstabieren, während du es aufschreibst.",
+        "fr": "Suis la conversation au téléphone : fais répéter (¿me lo repite?), dis que la ligne est mauvaise (no te oigo, se corta) et fais épeler pendant que tu notes.",
+        "pt": "Acompanhe a conversa ao telefone: peça para repetir (¿me lo repite?), diga que a ligação está ruim (no te oigo, se corta) e peça para soletrar enquanto você anota.",
+        "zh": "打电话时跟上对话：请对方重复（¿me lo repite?），说信号不好（no te oigo，se corta），并在记下来时请对方拼写。"
+      },
+      "target": {
+        "es": "Perdone, no le oigo bien. ¿Me lo repite?",
+        "en": "Sorry, I can't hear you very well. Could you say that again?",
+        "it": "Mi scusi, non la sento bene. Me lo ripete?",
+        "uk": "Вибачте, я вас погано чую. Повторіть, будь ласка?",
+        "de": "Entschuldigung, ich verstehe Sie nicht gut. Können Sie das wiederholen?",
+        "fr": "Pardon, je ne vous entends pas bien. Vous pouvez répéter ?",
+        "pt": "Desculpe, não estou ouvindo bem o senhor. Pode repetir?",
+        "zh": "不好意思，我听不太清楚。您能再说一遍吗？"
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "la cobertura",
+              "en": "the signal (mobile)",
+              "it": "il segnale, la copertura",
+              "uk": "зв'язок, сигнал (мобільний)",
+              "de": "der Empfang (Handy)",
+              "fr": "le réseau (téléphone portable)",
+              "pt": "o sinal (do celular)",
+              "zh": "（手机）信号",
+              "kind": "chunk"
+            },
+            {
+              "es": "cortarse",
+              "en": "to cut out (a call)",
+              "it": "cadere, interrompersi (una chiamata)",
+              "uk": "перериватися (про дзвінок)",
+              "de": "abbrechen, unterbrochen werden (Anruf)",
+              "fr": "couper (un appel)",
+              "pt": "cortar, falhar (uma ligação)",
+              "zh": "（电话）断掉，断线",
+              "kind": "stem"
+            },
+            {
+              "es": "deletrear",
+              "en": "to spell",
+              "it": "fare lo spelling, dire lettera per lettera",
+              "uk": "продиктувати по літерах",
+              "de": "buchstabieren",
+              "fr": "épeler",
+              "pt": "soletrar",
+              "zh": "拼写，逐个字母地说",
+              "kind": "stem"
+            },
+            {
+              "es": "apuntar",
+              "en": "to write down, to note down",
+              "it": "segnare, prendere nota",
+              "uk": "записати",
+              "de": "aufschreiben, notieren",
+              "fr": "noter",
+              "pt": "anotar",
+              "zh": "记下来，记一下",
+              "kind": "stem"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "¿me lo",
+              "kind": "ending"
+            },
+            {
+              "text": "repite?",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "To ask someone to say something again: ¿me lo repite? (usted) or ¿me lo repites? (tú). Softer still: ¿podría repetirlo?",
+            "it": "Per chiedere a qualcuno di ripetere: ¿me lo repite? (usted) o ¿me lo repites? (tú). Ancora più gentile: ¿podría repetirlo?",
+            "uk": "Щоб попросити когось повторити: ¿me lo repite? (usted) або ¿me lo repites? (tú). Ще ввічливіше: ¿podría repetirlo?",
+            "de": "Um jemanden zu bitten, etwas noch einmal zu sagen: ¿me lo repite? (usted) oder ¿me lo repites? (tú). Noch höflicher: ¿podría repetirlo?",
+            "fr": "Pour demander à quelqu'un de répéter : ¿me lo repite? (usted) ou ¿me lo repites? (tú). Plus poli encore : ¿podría repetirlo?",
+            "pt": "Para pedir que alguém repita: ¿me lo repite? (usted) ou ¿me lo repites? (tú). Mais suave ainda: ¿podría repetirlo?",
+            "zh": "请别人再说一遍：¿me lo repite?（对 usted）或 ¿me lo repites?（对 tú）。更客气的说法：¿podría repetirlo?"
+          },
+          "examples": [
+            {
+              "es": "Perdone, ¿me lo repite?",
+              "en": "Sorry, could you say that again?",
+              "it": "Mi scusi, me lo ripete?",
+              "uk": "Вибачте, повторіть, будь ласка?",
+              "de": "Entschuldigung, können Sie das wiederholen?",
+              "fr": "Pardon, vous pouvez répéter ?",
+              "pt": "Desculpe, pode repetir?",
+              "zh": "不好意思，您能再说一遍吗？"
+            },
+            {
+              "es": "¿Podría repetirlo más despacio, por favor?",
+              "en": "Could you repeat it more slowly, please?",
+              "it": "Potrebbe ripeterlo più piano, per favore?",
+              "uk": "Чи не могли б ви повторити повільніше, будь ласка?",
+              "de": "Könnten Sie das bitte langsamer wiederholen?",
+              "fr": "Pourriez-vous le répéter plus lentement, s'il vous plaît ?",
+              "pt": "Poderia repetir mais devagar, por favor?",
+              "zh": "请您说慢一点，再重复一遍好吗？"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "repetirlo",
+              "en": "to repeat it",
+              "it": "ripeterlo",
+              "uk": "повторити це",
+              "de": "es wiederholen",
+              "fr": "le répéter",
+              "pt": "repetir isso",
+              "zh": "重复它，再说一遍"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Perdone, ¿me lo ",
+          "after": "? Aquí hay mucho ruido.",
+          "options": [
+            "repite",
+            "repites",
+            "repito"
+          ],
+          "answer": "repite",
+          "en": "Sorry, could you say that again? It's very noisy here.",
+          "it": "Mi scusi, me lo ripete? Qui c'è molto rumore.",
+          "uk": "Вибачте, повторіть, будь ласка? Тут дуже шумно.",
+          "de": "Entschuldigung, können Sie das wiederholen? Hier ist es sehr laut.",
+          "fr": "Pardon, vous pouvez répéter ? Il y a beaucoup de bruit ici.",
+          "pt": "Desculpe, pode repetir? Está muito barulho aqui.",
+          "zh": "不好意思，您能再说一遍吗？我这里很吵。",
+          "hint": {
+            "en": "perdone means usted: ¿me lo repite?",
+            "it": "perdone vuol dire usted: ¿me lo repite?",
+            "uk": "perdone означає usted: ¿me lo repite?",
+            "de": "perdone bedeutet usted: ¿me lo repite?",
+            "fr": "perdone, c'est usted : ¿me lo repite?",
+            "pt": "perdone indica usted: ¿me lo repite?",
+            "zh": "perdone 说明是对 usted：¿me lo repite?"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "Your friend gives you the address of the party too fast. Ask her (tú) to say it again.",
+            "it": "La tua amica ti dice l'indirizzo della festa troppo in fretta. Chiedile (tú) di ripeterlo.",
+            "uk": "Подруга надто швидко каже тобі адресу вечірки. Попроси її (tú) повторити.",
+            "de": "Deine Freundin sagt dir die Adresse der Party zu schnell. Bitte sie (tú), sie noch einmal zu sagen.",
+            "fr": "Ton amie te donne l'adresse de la fête trop vite. Demande-lui (tú) de la répéter.",
+            "pt": "Sua amiga passa o endereço da festa rápido demais. Peça a ela (tú) que repita.",
+            "zh": "你的朋友把聚会的地址说得太快了。请她（用 tú）再说一遍。"
+          },
+          "accepted": [
+            "Perdona, ¿me lo repites?",
+            "¿Me lo repites?",
+            "Perdona, ¿me lo repites, por favor?"
+          ],
+          "tiles": [
+            "Perdona,",
+            "¿me",
+            "lo",
+            "repites?",
+            "repite",
+            "le"
+          ],
+          "en": "Sorry, could you say that again?",
+          "it": "Scusa, me lo ripeti?",
+          "uk": "Вибач, повториш, будь ласка?",
+          "de": "Entschuldige, kannst du das wiederholen?",
+          "fr": "Pardon, tu peux répéter ?",
+          "pt": "Desculpa, pode repetir?",
+          "zh": "不好意思，你能再说一遍吗？",
+          "hint": {
+            "en": "To tú: perdona and ¿me lo repites?",
+            "it": "A tú: perdona e ¿me lo repites?",
+            "uk": "До tú: perdona і ¿me lo repites?",
+            "de": "Bei tú: perdona und ¿me lo repites?",
+            "fr": "Avec tú : perdona et ¿me lo repites?",
+            "pt": "Para tú: perdona e ¿me lo repites?",
+            "zh": "对 tú：perdona 和 ¿me lo repites?"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "no te",
+              "kind": "ending"
+            },
+            {
+              "text": "oigo",
+              "kind": "stem"
+            },
+            {
+              "text": "bien",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "oír is irregular: oigo, oyes, oye. When the line is bad: no te oigo bien (no le oigo bien with usted), se corta (it's cutting out) or no tengo cobertura (I've got no signal).",
+            "it": "oír è irregolare: oigo, oyes, oye. Quando la linea è disturbata: no te oigo bien (no le oigo bien con usted), se corta (cade la linea) o no tengo cobertura (non ho campo).",
+            "uk": "oír — неправильне дієслово: oigo, oyes, oye. Коли поганий зв'язок: no te oigo bien (з usted — no le oigo bien), se corta (зв'язок переривається) або no tengo cobertura (у мене немає зв'язку).",
+            "de": "oír ist unregelmäßig: oigo, oyes, oye. Wenn die Verbindung schlecht ist: no te oigo bien (no le oigo bien bei usted), se corta (die Verbindung bricht ab) oder no tengo cobertura (ich habe keinen Empfang).",
+            "fr": "oír est irrégulier : oigo, oyes, oye. Quand la ligne est mauvaise : no te oigo bien (no le oigo bien avec usted), se corta (ça coupe) ou no tengo cobertura (je n'ai pas de réseau).",
+            "pt": "oír é irregular: oigo, oyes, oye. Quando a ligação está ruim: no te oigo bien (no le oigo bien com usted), se corta (está cortando) ou no tengo cobertura (estou sem sinal).",
+            "zh": "oír 是不规则动词：oigo, oyes, oye。信号不好时说：no te oigo bien（对 usted 说 no le oigo bien），se corta（声音断断续续）或 no tengo cobertura（我这儿没信号）。"
+          },
+          "examples": [
+            {
+              "es": "¿Me oyes? No te oigo bien.",
+              "en": "Can you hear me? I can't hear you very well.",
+              "it": "Mi senti? Non ti sento bene.",
+              "uk": "Ти мене чуєш? Я тебе погано чую.",
+              "de": "Hörst du mich? Ich verstehe dich nicht gut.",
+              "fr": "Tu m'entends ? Je ne t'entends pas bien.",
+              "pt": "Está me ouvindo? Não estou te ouvindo bem.",
+              "zh": "你听得见吗？我听不太清楚。"
+            },
+            {
+              "es": "Perdone, no le oigo: se corta.",
+              "en": "Sorry, I can't hear you: you're cutting out.",
+              "it": "Mi scusi, non la sento: cade la linea.",
+              "uk": "Вибачте, я вас не чую: зв'язок переривається.",
+              "de": "Entschuldigung, ich höre Sie nicht: Die Verbindung bricht ab.",
+              "fr": "Pardon, je ne vous entends pas : ça coupe.",
+              "pt": "Desculpe, não estou ouvindo o senhor: está cortando.",
+              "zh": "不好意思，我听不见您说话：信号断断续续的。"
+            },
+            {
+              "es": "Estoy en el tren y no tengo cobertura.",
+              "en": "I'm on the train and I've got no signal.",
+              "it": "Sono in treno e non ho campo.",
+              "uk": "Я в потязі, і в мене немає зв'язку.",
+              "de": "Ich bin im Zug und habe keinen Empfang.",
+              "fr": "Je suis dans le train et je n'ai pas de réseau.",
+              "pt": "Estou no trem e estou sem sinal.",
+              "zh": "我在火车上，没有信号。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "oigo",
+              "en": "I hear",
+              "it": "sento",
+              "uk": "я чую",
+              "de": "ich höre",
+              "fr": "j'entends",
+              "pt": "eu ouço",
+              "zh": "我听见"
+            },
+            {
+              "es": "oyes",
+              "en": "you hear",
+              "it": "senti",
+              "uk": "ти чуєш",
+              "de": "du hörst",
+              "fr": "tu entends",
+              "pt": "você ouve",
+              "zh": "你听见"
+            },
+            {
+              "es": "oye",
+              "en": "he / she hears; you hear (usted)",
+              "it": "sente; (Lei) sente",
+              "uk": "він / вона чує; ви чуєте (usted)",
+              "de": "er / sie hört; Sie hören (usted)",
+              "fr": "il / elle entend ; vous entendez (usted)",
+              "pt": "ele / ela ouve; o senhor / a senhora ouve (usted)",
+              "zh": "他/她听见；您听见"
+            },
+            {
+              "es": "se corta",
+              "en": "it's cutting out",
+              "it": "cade la linea",
+              "uk": "зв'язок переривається",
+              "de": "die Verbindung bricht ab",
+              "fr": "ça coupe",
+              "pt": "está cortando",
+              "zh": "（电话）断断续续，断线"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "No te ",
+          "after": " bien. ¿Puedes hablar más alto?",
+          "options": [
+            "oigo",
+            "oyes",
+            "oye"
+          ],
+          "answer": "oigo",
+          "en": "I can't hear you very well. Can you speak louder?",
+          "it": "Non ti sento bene. Puoi parlare più forte?",
+          "uk": "Я тебе погано чую. Можеш говорити голосніше?",
+          "de": "Ich verstehe dich nicht gut. Kannst du lauter sprechen?",
+          "fr": "Je ne t'entends pas bien. Tu peux parler plus fort ?",
+          "pt": "Não estou te ouvindo bem. Pode falar mais alto?",
+          "zh": "我听不太清楚。你能大声一点吗？",
+          "hint": {
+            "en": "I hear, yo: oigo.",
+            "it": "Io sento, yo: oigo.",
+            "uk": "Я чую, yo: oigo.",
+            "de": "Ich höre, yo: oigo.",
+            "fr": "J'entends, yo : oigo.",
+            "pt": "Eu ouço, yo: oigo.",
+            "zh": "\"我听见\"，yo：oigo。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "You're on the train, talking to a friend, and the call keeps cutting out. Say: I can't hear you very well, I've got no signal.",
+            "it": "Sei in treno, al telefono con un amico, e la linea continua a cadere. Di': non ti sento bene, non ho campo.",
+            "uk": "Ти в потязі, розмовляєш із другом, і зв'язок постійно переривається. Скажи: я тебе погано чую, у мене немає зв'язку.",
+            "de": "Du bist im Zug und telefonierst mit einem Freund, und die Verbindung bricht ständig ab. Sag: Ich verstehe dich nicht gut, ich habe keinen Empfang.",
+            "fr": "Tu es dans le train, au téléphone avec un ami, et ça n'arrête pas de couper. Dis : je ne t'entends pas bien, je n'ai pas de réseau.",
+            "pt": "Você está no trem, falando com um amigo, e a ligação fica caindo. Diga: não estou te ouvindo bem, estou sem sinal.",
+            "zh": "你在火车上和朋友打电话，信号老是断。说：我听不太清楚，我这儿没信号。"
+          },
+          "accepted": [
+            "No te oigo bien, no tengo cobertura.",
+            "No te oigo bien: no tengo cobertura."
+          ],
+          "tiles": [
+            "No te",
+            "oigo",
+            "bien,",
+            "no tengo",
+            "cobertura",
+            "oyes",
+            "oye"
+          ],
+          "en": "I can't hear you very well, I've got no signal.",
+          "it": "Non ti sento bene, non ho campo.",
+          "uk": "Я тебе погано чую, у мене немає зв'язку.",
+          "de": "Ich verstehe dich nicht gut, ich habe keinen Empfang.",
+          "fr": "Je ne t'entends pas bien, je n'ai pas de réseau.",
+          "pt": "Não estou te ouvindo bem, estou sem sinal.",
+          "zh": "我听不太清楚，我这儿没信号。",
+          "hint": {
+            "en": "I hear: oigo; signal: cobertura.",
+            "it": "Sento: oigo; campo: cobertura.",
+            "uk": "Я чую: oigo; зв'язок: cobertura.",
+            "de": "Ich höre: oigo; Empfang: cobertura.",
+            "fr": "J'entends : oigo ; réseau : cobertura.",
+            "pt": "Eu ouço: oigo; sinal: cobertura.",
+            "zh": "我听见：oigo；信号：cobertura。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "¿me lo",
+              "kind": "ending"
+            },
+            {
+              "text": "deletrea?",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "For names and addresses, ask ¿me lo deletrea? (could you spell it?) or ¿cómo se escribe? While you write, say un momento, que lo apunto (one moment, let me write it down).",
+            "it": "Per nomi e indirizzi, chiedi ¿me lo deletrea? (me lo dice lettera per lettera?) o ¿cómo se escribe? Mentre scrivi, di' un momento, que lo apunto (un attimo, che me lo segno).",
+            "uk": "Для імен і адрес питай ¿me lo deletrea? (продиктуєте по літерах?) або ¿cómo se escribe? Поки записуєш, кажи un momento, que lo apunto (хвилинку, я запишу).",
+            "de": "Bei Namen und Adressen frag ¿me lo deletrea? (können Sie das buchstabieren?) oder ¿cómo se escribe? Während du schreibst, sag un momento, que lo apunto (einen Moment, ich schreibe es mir auf).",
+            "fr": "Pour les noms et les adresses, demande ¿me lo deletrea? (vous pouvez me l'épeler ?) ou ¿cómo se escribe? Pendant que tu écris, dis un momento, que lo apunto (un instant, je le note).",
+            "pt": "Para nomes e endereços, pergunte ¿me lo deletrea? (pode soletrar?) ou ¿cómo se escribe? Enquanto escreve, diga un momento, que lo apunto (um momento, vou anotar).",
+            "zh": "碰到名字和地址时，可以问 ¿me lo deletrea?（您能拼一下吗？）或 ¿cómo se escribe?（怎么写？）。一边记一边说 un momento, que lo apunto（稍等，我记一下）。"
+          },
+          "examples": [
+            {
+              "es": "¿Me lo deletrea, por favor?",
+              "en": "Could you spell it, please?",
+              "it": "Me lo dice lettera per lettera, per favore?",
+              "uk": "Продиктуйте, будь ласка, по літерах?",
+              "de": "Können Sie das bitte buchstabieren?",
+              "fr": "Vous pouvez me l'épeler, s'il vous plaît ?",
+              "pt": "Pode soletrar, por favor?",
+              "zh": "请您拼一下好吗？"
+            },
+            {
+              "es": "Un momento, que lo apunto.",
+              "en": "One moment, let me write it down.",
+              "it": "Un attimo, che me lo segno.",
+              "uk": "Хвилинку, я запишу.",
+              "de": "Einen Moment, ich schreibe es mir auf.",
+              "fr": "Un instant, je le note.",
+              "pt": "Um momento, vou anotar.",
+              "zh": "稍等，我记一下。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "deletrea",
+              "en": "you spell (usted)",
+              "it": "(Lei) fa lo spelling",
+              "uk": "ви диктуєте по літерах (usted)",
+              "de": "Sie buchstabieren (usted)",
+              "fr": "vous épelez (usted)",
+              "pt": "o senhor / a senhora soletra (usted)",
+              "zh": "您拼写"
+            },
+            {
+              "es": "deletreas",
+              "en": "you spell",
+              "it": "fai lo spelling",
+              "uk": "ти диктуєш по літерах",
+              "de": "du buchstabierst",
+              "fr": "tu épelles",
+              "pt": "você soletra",
+              "zh": "你拼写"
+            },
+            {
+              "es": "apunto",
+              "en": "I write down",
+              "it": "segno, prendo nota",
+              "uk": "я записую",
+              "de": "ich schreibe auf",
+              "fr": "je note",
+              "pt": "eu anoto",
+              "zh": "我记下来"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Un momento, que lo ",
+          "after": ".",
+          "options": [
+            "apunto",
+            "apuntar"
+          ],
+          "answer": "apunto",
+          "en": "One moment, let me write it down.",
+          "it": "Un attimo, che me lo segno.",
+          "uk": "Хвилинку, я запишу.",
+          "de": "Einen Moment, ich schreibe es mir auf.",
+          "fr": "Un instant, je le note.",
+          "pt": "Um momento, vou anotar.",
+          "zh": "稍等，我记一下。",
+          "hint": {
+            "en": "You're writing it down yourself, right now: apunto.",
+            "it": "Lo segni tu, adesso: apunto.",
+            "uk": "Записуєш ти сам(-а), прямо зараз: apunto.",
+            "de": "Du schreibst es selbst auf, genau jetzt: apunto.",
+            "fr": "C'est toi qui le notes, maintenant : apunto.",
+            "pt": "É você que está anotando, agora: apunto.",
+            "zh": "是你自己现在在记：apunto。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "On the phone, a receptionist tells you the name of a street you don't know. Ask her (usted) to spell it, please.",
+            "it": "Al telefono, una receptionist ti dice il nome di una via che non conosci. Chiedile (usted) di dirtelo lettera per lettera, per favore.",
+            "uk": "По телефону адміністраторка називає тобі вулицю, якої ти не знаєш. Попроси її (usted) продиктувати назву по літерах.",
+            "de": "Am Telefon nennt dir eine Rezeptionistin den Namen einer Straße, die du nicht kennst. Bitte sie (usted), ihn zu buchstabieren.",
+            "fr": "Au téléphone, une réceptionniste te donne le nom d'une rue que tu ne connais pas. Demande-lui (usted) de te l'épeler, s'il vous plaît.",
+            "pt": "Ao telefone, uma recepcionista diz o nome de uma rua que você não conhece. Peça a ela (usted) que soletre, por favor.",
+            "zh": "打电话时，一位前台告诉你一条你不知道的街名。请她（用 usted）拼一下。"
+          },
+          "accepted": [
+            "¿Me lo deletrea, por favor?",
+            "Perdone, ¿me lo deletrea?",
+            "¿Me lo deletrea?"
+          ],
+          "tiles": [
+            "¿Me",
+            "lo",
+            "deletrea,",
+            "por favor?",
+            "deletreas",
+            "te"
+          ],
+          "en": "Could you spell it, please?",
+          "it": "Me lo dice lettera per lettera, per favore?",
+          "uk": "Продиктуйте, будь ласка, по літерах?",
+          "de": "Können Sie das bitte buchstabieren?",
+          "fr": "Vous pouvez me l'épeler, s'il vous plaît ?",
+          "pt": "Pode soletrar, por favor?",
+          "zh": "请您拼一下好吗？",
+          "hint": {
+            "en": "To usted: ¿me lo deletrea?",
+            "it": "A usted: ¿me lo deletrea?",
+            "uk": "До usted: ¿me lo deletrea?",
+            "de": "Bei usted: ¿me lo deletrea?",
+            "fr": "Avec usted : ¿me lo deletrea?",
+            "pt": "Para usted: ¿me lo deletrea?",
+            "zh": "对 usted：¿me lo deletrea?"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "Perdona, ¿me ",
+          "after": "? Estoy en el metro y se corta.",
+          "options": [
+            "oyes",
+            "oigo",
+            "oye"
+          ],
+          "answer": "oyes",
+          "en": "Sorry, can you hear me? I'm on the metro and it's cutting out.",
+          "it": "Scusa, mi senti? Sono in metro e cade la linea.",
+          "uk": "Вибач, ти мене чуєш? Я в метро, і зв'язок переривається.",
+          "de": "Entschuldige, hörst du mich? Ich bin in der U-Bahn, und die Verbindung bricht ab.",
+          "fr": "Pardon, tu m'entends ? Je suis dans le métro et ça coupe.",
+          "pt": "Desculpa, está me ouvindo? Estou no metrô e está cortando.",
+          "zh": "不好意思，你听得见吗？我在地铁上，信号断断续续的。",
+          "hint": {
+            "en": "perdona means tú: ¿me oyes?",
+            "it": "perdona vuol dire tú: ¿me oyes?",
+            "uk": "perdona означає tú: ¿me oyes?",
+            "de": "perdona bedeutet tú: ¿me oyes?",
+            "fr": "perdona, c'est tú : ¿me oyes?",
+            "pt": "perdona indica tú: ¿me oyes?",
+            "zh": "perdona 说明是对 tú：¿me oyes?"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "mix",
+          "before": "Perdone, ¿me lo ",
+          "after": " más despacio, por favor?",
+          "label": "repetir",
+          "accepted": [
+            "repite"
+          ],
+          "en": "Sorry, could you say it again more slowly, please?",
+          "it": "Mi scusi, me lo ripete più piano, per favore?",
+          "uk": "Вибачте, повторіть, будь ласка, повільніше?",
+          "de": "Entschuldigung, können Sie das bitte langsamer wiederholen?",
+          "fr": "Pardon, vous pouvez le répéter plus lentement, s'il vous plaît ?",
+          "pt": "Desculpe, pode repetir mais devagar, por favor?",
+          "zh": "不好意思，请您说慢一点，再说一遍好吗？",
+          "hint": {
+            "en": "perdone means usted: repite.",
+            "it": "perdone vuol dire usted: repite.",
+            "uk": "perdone означає usted: repite.",
+            "de": "perdone bedeutet usted: repite.",
+            "fr": "perdone, c'est usted : repite.",
+            "pt": "perdone indica usted: repite.",
+            "zh": "perdone 说明是对 usted：repite。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "mix",
+          "intention": {
+            "en": "On the phone, a colleague tells you the surname of a new client, and you've never heard it before. Ask how it's spelt and say you're writing it down.",
+            "it": "Al telefono, un collega ti dice il cognome di un nuovo cliente, che non hai mai sentito. Chiedi come si scrive e di' che te lo stai segnando.",
+            "uk": "По телефону колега називає тобі прізвище нового клієнта, якого ти ніколи раніше не чув(-ла). Спитай, як воно пишеться, і скажи, що записуєш.",
+            "de": "Am Telefon nennt dir eine Kollegin den Nachnamen eines neuen Kunden, den du noch nie gehört hast. Frag, wie man ihn schreibt, und sag, dass du ihn dir aufschreibst.",
+            "fr": "Au téléphone, un collègue te donne le nom de famille d'un nouveau client, que tu n'as jamais entendu. Demande comment il s'écrit et dis que tu le notes.",
+            "pt": "Ao telefone, um colega diz o sobrenome de um cliente novo, que você nunca ouviu antes. Pergunte como se escreve e diga que está anotando.",
+            "zh": "打电话时，一位同事告诉你一个新客户的姓，你从来没听过。问怎么写，并说你正在记下来。"
+          },
+          "accepted": [
+            "¿Cómo se escribe? Un momento, que lo apunto."
+          ],
+          "tiles": [
+            "¿Cómo",
+            "se escribe?",
+            "Un momento,",
+            "que",
+            "lo",
+            "apunto",
+            "escribo"
+          ],
+          "en": "How do you spell it? One moment, let me write it down.",
+          "it": "Come si scrive? Un attimo, che me lo segno.",
+          "uk": "Як це пишеться? Хвилинку, я запишу.",
+          "de": "Wie schreibt man das? Einen Moment, ich schreibe es mir auf.",
+          "fr": "Ça s'écrit comment ? Un instant, je le note.",
+          "pt": "Como se escreve? Um momento, vou anotar.",
+          "zh": "怎么写？稍等，我记一下。",
+          "hint": {
+            "en": "Ask ¿cómo se escribe?, then un momento, que lo apunto.",
+            "it": "Chiedi ¿cómo se escribe?, poi un momento, que lo apunto.",
+            "uk": "Спитай ¿cómo se escribe?, а потім un momento, que lo apunto.",
+            "de": "Frag ¿cómo se escribe?, dann un momento, que lo apunto.",
+            "fr": "Demande ¿cómo se escribe?, puis un momento, que lo apunto.",
+            "pt": "Pergunte ¿cómo se escribe? e depois un momento, que lo apunto.",
+            "zh": "先问 ¿cómo se escribe?，再说 un momento, que lo apunto。"
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "You're on the phone to a shop. Write in Spanish: «Sorry, I can't hear you very well. Could you say that again?»",
+            "it": "Sei al telefono con un negozio. Scrivi in spagnolo: «Mi scusi, non la sento bene. Me lo ripete?»",
+            "uk": "Ти розмовляєш по телефону з магазином. Напиши іспанською: «Вибачте, я вас погано чую. Повторіть, будь ласка?»",
+            "de": "Du telefonierst mit einem Geschäft. Schreib auf Spanisch: «Entschuldigung, ich verstehe Sie nicht gut. Können Sie das wiederholen?»",
+            "fr": "Tu es au téléphone avec un magasin. Écris en espagnol : «Pardon, je ne vous entends pas bien. Vous pouvez répéter ?»",
+            "pt": "Você está falando ao telefone com uma loja. Escreva em espanhol: «Desculpe, não estou ouvindo bem o senhor. Pode repetir?»",
+            "zh": "你在给一家商店打电话。用西班牙语写：«不好意思，我听不太清楚。您能再说一遍吗？»"
+          },
+          "accepted": [
+            "Perdone, no le oigo bien. ¿Me lo repite?",
+            "Perdone, no lo oigo bien. ¿Me lo repite?",
+            "Perdone, no la oigo bien. ¿Me lo repite?",
+            "Perdone, no le oigo bien. ¿Puede repetirlo?",
+            "Perdone, no le oigo bien. ¿Podría repetirlo?"
+          ],
+          "model": {
+            "es": "Perdone, no le oigo bien. ¿Me lo repite?",
+            "en": "Sorry, I can't hear you very well. Could you say that again?",
+            "it": "Mi scusi, non la sento bene. Me lo ripete?",
+            "uk": "Вибачте, я вас погано чую. Повторіть, будь ласка?",
+            "de": "Entschuldigung, ich verstehe Sie nicht gut. Können Sie das wiederholen?",
+            "fr": "Pardon, je ne vous entends pas bien. Vous pouvez répéter ?",
+            "pt": "Desculpe, não estou ouvindo bem o senhor. Pode repetir?",
+            "zh": "不好意思，我听不太清楚。您能再说一遍吗？"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u36l4",
+      "goal": {
+        "en": "Sort things out with a company by phone: say why you're calling (llamo por…, le llamo porque…), ask to be put through (¿me puede pasar con…?) and explain the problem: me han cobrado de más.",
+        "it": "Risolvi una pratica al telefono con un'azienda: di' perché chiami (llamo por…, le llamo porque…), fatti passare qualcuno (¿me puede pasar con…?) e spiega il problema: me han cobrado de más.",
+        "uk": "Вирішуй питання з компанією по телефону: кажи, чому дзвониш (llamo por…, le llamo porque…), проси з'єднати тебе з кимось (¿me puede pasar con…?) і пояснюй проблему: me han cobrado de más.",
+        "de": "Kläre telefonisch etwas mit einer Firma: Sag, warum du anrufst (llamo por…, le llamo porque…), bitte darum, verbunden zu werden (¿me puede pasar con…?), und erkläre das Problem: me han cobrado de más.",
+        "fr": "Règle une démarche par téléphone avec une entreprise : dis pourquoi tu appelles (llamo por…, le llamo porque…), demande qu'on te passe quelqu'un (¿me puede pasar con…?) et explique le problème : me han cobrado de más.",
+        "pt": "Resolva um problema com uma empresa por telefone: diga por que está ligando (llamo por…, le llamo porque…), peça para ser transferido (¿me puede pasar con…?) e explique o problema: me han cobrado de más.",
+        "zh": "打电话和公司解决问题：说你为什么打电话（llamo por…，le llamo porque…），请对方帮你转接（¿me puede pasar con…?），并说明问题：me han cobrado de más。"
+      },
+      "target": {
+        "es": "Buenos días, le llamo porque me han cobrado de más este mes.",
+        "en": "Good morning, I'm calling because I've been overcharged this month.",
+        "it": "Buongiorno, la chiamo perché questo mese mi hanno addebitato più del dovuto.",
+        "uk": "Добрий день, я телефоную, бо цього місяця з мене зняли більше, ніж треба.",
+        "de": "Guten Morgen, ich rufe an, weil mir diesen Monat zu viel berechnet wurde.",
+        "fr": "Bonjour, je vous appelle parce qu'on m'a trop facturé ce mois-ci.",
+        "pt": "Bom dia, estou ligando porque me cobraram a mais este mês.",
+        "zh": "早上好，我打电话是因为这个月多收了我的钱。"
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "la compañía",
+              "en": "the company (phone, internet…)",
+              "it": "la compagnia, l'operatore",
+              "uk": "компанія, оператор (телефон, інтернет…)",
+              "de": "der Anbieter (Telefon, Internet…)",
+              "fr": "l'opérateur, la compagnie (téléphone, internet…)",
+              "pt": "a operadora, a empresa (de telefone, internet…)",
+              "zh": "（电话、网络等）公司",
+              "kind": "chunk"
+            },
+            {
+              "es": "la factura",
+              "en": "the bill",
+              "it": "la bolletta, la fattura",
+              "uk": "рахунок",
+              "de": "die Rechnung",
+              "fr": "la facture",
+              "pt": "a conta, a fatura",
+              "zh": "账单",
+              "kind": "chunk"
+            },
+            {
+              "es": "el contrato",
+              "en": "the contract",
+              "it": "il contratto",
+              "uk": "договір",
+              "de": "der Vertrag",
+              "fr": "le contrat",
+              "pt": "o contrato",
+              "zh": "合同",
+              "kind": "chunk"
+            },
+            {
+              "es": "internet",
+              "en": "the internet",
+              "it": "internet",
+              "uk": "інтернет",
+              "de": "das Internet",
+              "fr": "internet",
+              "pt": "a internet",
+              "zh": "网络，互联网",
+              "kind": "chunk"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "le llamo",
+              "kind": "stem"
+            },
+            {
+              "text": "porque…",
+              "kind": "rail"
+            }
+          ],
+          "rule": {
+            "en": "Start with why you're calling: llamo por + a thing, or le llamo porque + a whole sentence.",
+            "it": "Comincia dicendo perché chiami: llamo por + una cosa, oppure le llamo porque + una frase intera.",
+            "uk": "Почни з того, чому ти дзвониш: llamo por + щось, або le llamo porque + ціле речення.",
+            "de": "Fang damit an, warum du anrufst: llamo por + eine Sache oder le llamo porque + ein ganzer Satz.",
+            "fr": "Commence par dire pourquoi tu appelles : llamo por + une chose, ou le llamo porque + une phrase entière.",
+            "pt": "Comece dizendo por que está ligando: llamo por + uma coisa, ou le llamo porque + uma frase inteira.",
+            "zh": "先说你为什么打电话：llamo por + 一件事，或者 le llamo porque + 一个完整的句子。"
+          },
+          "examples": [
+            {
+              "es": "Buenos días, llamo por la factura de este mes.",
+              "en": "Good morning, I'm calling about this month's bill.",
+              "it": "Buongiorno, chiamo per la bolletta di questo mese.",
+              "uk": "Добрий день, я телефоную щодо рахунку за цей місяць.",
+              "de": "Guten Morgen, ich rufe wegen der Rechnung für diesen Monat an.",
+              "fr": "Bonjour, j'appelle pour la facture de ce mois-ci.",
+              "pt": "Bom dia, estou ligando por causa da conta deste mês.",
+              "zh": "早上好，我打电话是为了这个月的账单。"
+            },
+            {
+              "es": "Le llamo porque internet no funciona.",
+              "en": "I'm calling because the internet isn't working.",
+              "it": "La chiamo perché internet non funziona.",
+              "uk": "Я вам телефоную, бо не працює інтернет.",
+              "de": "Ich rufe an, weil das Internet nicht funktioniert.",
+              "fr": "Je vous appelle parce qu'internet ne marche pas.",
+              "pt": "Estou ligando porque a internet não está funcionando.",
+              "zh": "我给您打电话是因为网络用不了。"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Buenos días, le llamo ",
+          "after": " internet no funciona.",
+          "options": [
+            "porque",
+            "por",
+            "para"
+          ],
+          "answer": "porque",
+          "en": "Good morning, I'm calling because the internet isn't working.",
+          "it": "Buongiorno, la chiamo perché internet non funziona.",
+          "uk": "Добрий день, я вам телефоную, бо не працює інтернет.",
+          "de": "Guten Morgen, ich rufe an, weil das Internet nicht funktioniert.",
+          "fr": "Bonjour, je vous appelle parce qu'internet ne marche pas.",
+          "pt": "Bom dia, estou ligando porque a internet não está funcionando.",
+          "zh": "早上好，我给您打电话是因为网络用不了。",
+          "hint": {
+            "en": "A whole sentence follows: porque.",
+            "it": "Segue una frase intera: porque.",
+            "uk": "Далі йде ціле речення: porque.",
+            "de": "Danach kommt ein ganzer Satz: porque.",
+            "fr": "Une phrase entière suit : porque.",
+            "pt": "Vem uma frase inteira: porque.",
+            "zh": "后面是一个完整的句子：porque。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "You call your phone company. Say good morning: you're calling about this month's bill.",
+            "it": "Chiami la tua compagnia telefonica. Di' buongiorno: chiami per la bolletta di questo mese.",
+            "uk": "Ти телефонуєш своєму мобільному операторові. Привітайся: ти дзвониш щодо рахунку за цей місяць.",
+            "de": "Du rufst bei deinem Telefonanbieter an. Sag guten Morgen: Du rufst wegen der Rechnung für diesen Monat an.",
+            "fr": "Tu appelles ton opérateur téléphonique. Dis bonjour : tu appelles pour la facture de ce mois-ci.",
+            "pt": "Você liga para a sua operadora de telefone. Diga bom dia: você está ligando por causa da conta deste mês.",
+            "zh": "你给你的电话公司打电话。说早上好：你打电话是为了这个月的账单。"
+          },
+          "accepted": [
+            "Buenos días, llamo por la factura de este mes.",
+            "Buenos días, le llamo por la factura de este mes."
+          ],
+          "tiles": [
+            "Buenos días,",
+            "llamo",
+            "por",
+            "la factura",
+            "de este mes",
+            "porque",
+            "para"
+          ],
+          "en": "Good morning, I'm calling about this month's bill.",
+          "it": "Buongiorno, chiamo per la bolletta di questo mese.",
+          "uk": "Добрий день, я телефоную щодо рахунку за цей місяць.",
+          "de": "Guten Morgen, ich rufe wegen der Rechnung für diesen Monat an.",
+          "fr": "Bonjour, j'appelle pour la facture de ce mois-ci.",
+          "pt": "Bom dia, estou ligando por causa da conta deste mês.",
+          "zh": "早上好，我打电话是为了这个月的账单。",
+          "hint": {
+            "en": "Just a thing, the bill: llamo por.",
+            "it": "Solo una cosa, la bolletta: llamo por.",
+            "uk": "Просто щось одне, рахунок: llamo por.",
+            "de": "Nur eine Sache, die Rechnung: llamo por.",
+            "fr": "Juste une chose, la facture : llamo por.",
+            "pt": "Só uma coisa, a conta: llamo por.",
+            "zh": "只是一件事，账单：llamo por。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "le paso",
+              "kind": "stem"
+            },
+            {
+              "text": "con…",
+              "kind": "rail"
+            }
+          ],
+          "rule": {
+            "en": "pasar con means to put someone through to someone else: le paso con un técnico (I'll put you through to a technician). To ask for it: ¿me puede pasar con…?",
+            "it": "pasar con vuol dire passare la chiamata a qualcun altro: le paso con un técnico (le passo un tecnico). Per chiederlo: ¿me puede pasar con…?",
+            "uk": "pasar con означає з'єднати когось з іншою людиною: le paso con un técnico (з'єдную вас із техніком). Щоб попросити про це: ¿me puede pasar con…?",
+            "de": "pasar con bedeutet, jemanden mit einer anderen Person zu verbinden: le paso con un técnico (ich verbinde Sie mit einem Techniker). Um darum zu bitten: ¿me puede pasar con…?",
+            "fr": "pasar con, c'est passer quelqu'un au téléphone : le paso con un técnico (je vous passe un technicien). Pour le demander : ¿me puede pasar con…?",
+            "pt": "pasar con significa transferir a ligação para outra pessoa: le paso con un técnico (vou transferir o senhor para um técnico). Para pedir isso: ¿me puede pasar con…?",
+            "zh": "pasar con 的意思是把电话转给另一个人：le paso con un técnico（我帮您转给技术人员）。请对方转接：¿me puede pasar con…?"
+          },
+          "examples": [
+            {
+              "es": "Un momento, le paso con un técnico.",
+              "en": "One moment, I'll put you through to a technician.",
+              "it": "Un attimo, le passo un tecnico.",
+              "uk": "Хвилинку, з'єдную вас із техніком.",
+              "de": "Einen Moment, ich verbinde Sie mit einem Techniker.",
+              "fr": "Un instant, je vous passe un technicien.",
+              "pt": "Um momento, vou transferir para um técnico.",
+              "zh": "请稍等，我帮您转给技术人员。"
+            },
+            {
+              "es": "¿Me puede pasar con el encargado?",
+              "en": "Can you put me through to the manager?",
+              "it": "Mi può passare il responsabile?",
+              "uk": "Можете з'єднати мене з керівником?",
+              "de": "Können Sie mich mit dem Geschäftsführer verbinden?",
+              "fr": "Vous pouvez me passer le responsable ?",
+              "pt": "Pode me transferir para o gerente?",
+              "zh": "您能帮我转给负责人吗？"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Un momento, le ",
+          "after": " con un técnico.",
+          "options": [
+            "paso",
+            "pase"
+          ],
+          "answer": "paso",
+          "en": "One moment, I'll put you through to a technician.",
+          "it": "Un attimo, le passo un tecnico.",
+          "uk": "Хвилинку, з'єдную вас із техніком.",
+          "de": "Einen Moment, ich verbinde Sie mit einem Techniker.",
+          "fr": "Un instant, je vous passe un technicien.",
+          "pt": "Um momento, vou transferir para um técnico.",
+          "zh": "请稍等，我帮您转给技术人员。",
+          "hint": {
+            "en": "The operator does it now, yo: paso.",
+            "it": "Lo fa l'operatore adesso, yo: paso.",
+            "uk": "Це робить оператор просто зараз, yo: paso.",
+            "de": "Die Person in der Leitung macht es jetzt, yo: paso.",
+            "fr": "C'est l'opérateur qui le fait, maintenant, yo : paso.",
+            "pt": "Quem atende faz isso agora, yo: paso.",
+            "zh": "接线员现在就转，yo：paso。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "The person on the phone can't help you. Ask (usted) if she can put you through to the manager.",
+            "it": "La persona al telefono non può aiutarti. Chiedile (usted) se può passarti il responsabile.",
+            "uk": "Людина на тому кінці не може тобі допомогти. Спитай (usted), чи може вона з'єднати тебе з керівником.",
+            "de": "Die Frau am Telefon kann dir nicht helfen. Frag sie (usted), ob sie dich mit dem Geschäftsführer verbinden kann.",
+            "fr": "La personne au téléphone ne peut pas t'aider. Demande-lui (usted) si elle peut te passer le responsable.",
+            "pt": "A pessoa ao telefone não consegue te ajudar. Pergunte (usted) se ela pode te transferir para o gerente.",
+            "zh": "电话那头的人帮不了你。问她（用 usted）能不能把你转给负责人。"
+          },
+          "accepted": [
+            "¿Me puede pasar con el encargado?",
+            "¿Me podría pasar con el encargado?",
+            "¿Puede pasarme con el encargado?"
+          ],
+          "tiles": [
+            "¿Me",
+            "puede",
+            "pasar",
+            "con",
+            "el encargado?",
+            "de",
+            "le"
+          ],
+          "en": "Can you put me through to the manager?",
+          "it": "Mi può passare il responsabile?",
+          "uk": "Можете з'єднати мене з керівником?",
+          "de": "Können Sie mich mit dem Geschäftsführer verbinden?",
+          "fr": "Vous pouvez me passer le responsable ?",
+          "pt": "Pode me transferir para o gerente?",
+          "zh": "您能帮我转给负责人吗？",
+          "hint": {
+            "en": "Put me through to: ¿me puede pasar con…?",
+            "it": "Passarmi qualcuno: ¿me puede pasar con…?",
+            "uk": "З'єднати мене з кимось: ¿me puede pasar con…?",
+            "de": "Verbinden Sie mich mit: ¿me puede pasar con…?",
+            "fr": "Me passer quelqu'un : ¿me puede pasar con…?",
+            "pt": "Me transferir para: ¿me puede pasar con…?",
+            "zh": "帮我转给……：¿me puede pasar con…?"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "me han",
+              "kind": "ending"
+            },
+            {
+              "text": "cobrado",
+              "kind": "stem"
+            },
+            {
+              "text": "de más",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "To explain what has happened, use the present perfect: me han cobrado de más (they've charged me too much). Then ask: ¿me lo pueden solucionar? (can you sort it out for me?)",
+            "it": "Per spiegare cosa è successo, usa il passato prossimo: me han cobrado de más (mi hanno addebitato più del dovuto). Poi chiedi: ¿me lo pueden solucionar? (me lo potete risolvere?)",
+            "uk": "Щоб пояснити, що сталося, вживай минулий час з haber: me han cobrado de más (з мене зняли забагато). Потім спитай: ¿me lo pueden solucionar? (можете це владнати?)",
+            "de": "Um zu erklären, was passiert ist, verwende das Perfekt: me han cobrado de más (man hat mir zu viel berechnet). Dann frag: ¿me lo pueden solucionar? (können Sie das für mich klären?)",
+            "fr": "Pour expliquer ce qui s'est passé, utilise le passé composé, comme en français : me han cobrado de más (on m'a trop facturé). Là où le français dit « on », l'espagnol dit « ils » : han. Puis demande : ¿me lo pueden solucionar? (vous pouvez me régler ça ?)",
+            "pt": "Para explicar o que aconteceu, use o pretérito perfecto: me han cobrado de más (me cobraram a mais). Depois pergunte: ¿me lo pueden solucionar? (vocês podem resolver isso para mim?)",
+            "zh": "要说明发生了什么，就用 han + 过去分词（和 he hablado 一样的形式）：me han cobrado de más（多收了我的钱）。然后问：¿me lo pueden solucionar?（你们能帮我解决吗？）"
+          },
+          "examples": [
+            {
+              "es": "Me han cobrado de más este mes.",
+              "en": "I've been overcharged this month.",
+              "it": "Questo mese mi hanno addebitato più del dovuto.",
+              "uk": "Цього місяця з мене зняли більше, ніж треба.",
+              "de": "Mir wurde diesen Monat zu viel berechnet.",
+              "fr": "On m'a trop facturé ce mois-ci.",
+              "pt": "Me cobraram a mais este mês.",
+              "zh": "这个月多收了我的钱。"
+            },
+            {
+              "es": "Me han cobrado la factura dos veces.",
+              "en": "They've charged me for the bill twice.",
+              "it": "Mi hanno addebitato la bolletta due volte.",
+              "uk": "З мене двічі зняли оплату за рахунок.",
+              "de": "Man hat mir die Rechnung zweimal berechnet.",
+              "fr": "On m'a fait payer la facture deux fois.",
+              "pt": "Me cobraram a conta duas vezes.",
+              "zh": "账单扣了我两次钱。"
+            },
+            {
+              "es": "¿Me lo pueden solucionar hoy?",
+              "en": "Can you sort it out for me today?",
+              "it": "Me lo potete risolvere oggi?",
+              "uk": "Можете владнати це сьогодні?",
+              "de": "Können Sie das heute für mich klären?",
+              "fr": "Vous pouvez me régler ça aujourd'hui ?",
+              "pt": "Vocês podem resolver isso para mim hoje?",
+              "zh": "你们今天能帮我解决吗？"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "cobrado",
+              "en": "charged",
+              "it": "addebitato, fatto pagare",
+              "uk": "знято (оплату), стягнуто",
+              "de": "berechnet",
+              "fr": "facturé, fait payer",
+              "pt": "cobrado",
+              "zh": "收（费）了，扣（款）了"
+            },
+            {
+              "es": "de más",
+              "en": "too much, extra",
+              "it": "in più, più del dovuto",
+              "uk": "забагато, зайве",
+              "de": "zu viel, zusätzlich",
+              "fr": "en trop",
+              "pt": "a mais, a mais do que devia",
+              "zh": "多（收），额外"
+            },
+            {
+              "es": "solucionar",
+              "en": "to sort out, to solve",
+              "it": "risolvere",
+              "uk": "владнати, вирішити",
+              "de": "klären, lösen",
+              "fr": "régler, résoudre",
+              "pt": "resolver, solucionar",
+              "zh": "解决"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Este mes me han ",
+          "after": " de más.",
+          "options": [
+            "cobrado",
+            "cobran",
+            "cobrar"
+          ],
+          "answer": "cobrado",
+          "en": "I've been overcharged this month.",
+          "it": "Questo mese mi hanno addebitato più del dovuto.",
+          "uk": "Цього місяця з мене зняли більше, ніж треба.",
+          "de": "Mir wurde diesen Monat zu viel berechnet.",
+          "fr": "On m'a trop facturé ce mois-ci.",
+          "pt": "Me cobraram a mais este mês.",
+          "zh": "这个月多收了我的钱。",
+          "hint": {
+            "en": "After han, the past participle: cobrado.",
+            "it": "Dopo han, il participio: cobrado.",
+            "uk": "Після han — дієприкметник: cobrado.",
+            "de": "Nach han das Partizip: cobrado.",
+            "fr": "Après han, le participe passé : cobrado.",
+            "pt": "Depois de han, o particípio: cobrado.",
+            "zh": "han 后面用过去分词：cobrado。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "Explain to the operator what has happened: they've charged you for the bill twice.",
+            "it": "Spiega all'operatore cos'è successo: ti hanno addebitato la bolletta due volte.",
+            "uk": "Поясни операторові, що сталося: з тебе двічі зняли оплату за рахунок.",
+            "de": "Erklär dem Mitarbeiter am Telefon, was passiert ist: Man hat dir die Rechnung zweimal berechnet.",
+            "fr": "Explique à l'opérateur ce qui s'est passé : on t'a fait payer la facture deux fois.",
+            "pt": "Explique ao atendente o que aconteceu: cobraram a conta de você duas vezes.",
+            "zh": "向接线员说明发生了什么：账单扣了你两次钱。"
+          },
+          "accepted": [
+            "Me han cobrado la factura dos veces."
+          ],
+          "tiles": [
+            "Me",
+            "han",
+            "cobrado",
+            "la factura",
+            "dos veces",
+            "cobran",
+            "he"
+          ],
+          "en": "They've charged me for the bill twice.",
+          "it": "Mi hanno addebitato la bolletta due volte.",
+          "uk": "З мене двічі зняли оплату за рахунок.",
+          "de": "Man hat mir die Rechnung zweimal berechnet.",
+          "fr": "On m'a fait payer la facture deux fois.",
+          "pt": "Me cobraram a conta duas vezes.",
+          "zh": "账单扣了我两次钱。",
+          "hint": {
+            "en": "They have charged me: me han cobrado.",
+            "it": "Mi hanno addebitato: me han cobrado.",
+            "uk": "З мене зняли: me han cobrado.",
+            "de": "Man hat mir berechnet: me han cobrado.",
+            "fr": "On m'a facturé : me han cobrado.",
+            "pt": "Eles me cobraram: me han cobrado.",
+            "zh": "他们收了我的钱：me han cobrado。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "Le llamo ",
+          "after": " un problema con el contrato.",
+          "options": [
+            "por",
+            "porque",
+            "para que"
+          ],
+          "answer": "por",
+          "en": "I'm calling about a problem with the contract.",
+          "it": "La chiamo per un problema con il contratto.",
+          "uk": "Я вам телефоную щодо проблеми з договором.",
+          "de": "Ich rufe wegen eines Problems mit dem Vertrag an.",
+          "fr": "Je vous appelle pour un problème avec le contrat.",
+          "pt": "Estou ligando por causa de um problema com o contrato.",
+          "zh": "我打电话是因为合同出了个问题。",
+          "hint": {
+            "en": "Just a thing, a problem: por.",
+            "it": "Solo una cosa, un problema: por.",
+            "uk": "Просто щось одне, проблема: por.",
+            "de": "Nur eine Sache, ein Problem: por.",
+            "fr": "Juste une chose, un problème : por.",
+            "pt": "Só uma coisa, um problema: por.",
+            "zh": "只是一件事，一个问题：por。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "mix",
+          "before": "Perdone, pero me ",
+          "after": " cobrado la factura dos veces.",
+          "label": "haber",
+          "accepted": [
+            "han"
+          ],
+          "en": "Excuse me, but they've charged me for the bill twice.",
+          "it": "Mi scusi, ma mi hanno addebitato la bolletta due volte.",
+          "uk": "Вибачте, але з мене двічі зняли оплату за рахунок.",
+          "de": "Entschuldigung, aber man hat mir die Rechnung zweimal berechnet.",
+          "fr": "Excusez-moi, mais on m'a fait payer la facture deux fois.",
+          "pt": "Com licença, mas me cobraram a conta duas vezes.",
+          "zh": "不好意思，可是账单扣了我两次钱。",
+          "hint": {
+            "en": "They have charged me: han + cobrado.",
+            "it": "Mi hanno addebitato: han + cobrado.",
+            "uk": "З мене зняли: han + cobrado.",
+            "de": "Man hat mir berechnet: han + cobrado.",
+            "fr": "On m'a facturé : han + cobrado.",
+            "pt": "Eles me cobraram: han + cobrado.",
+            "zh": "他们收了我的钱：han + cobrado。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "mix",
+          "intention": {
+            "en": "The operator says «Sí, tiene usted razón». Ask (ustedes, the company) if they can sort it out for you today.",
+            "it": "L'operatore dice «Sí, tiene usted razón». Chiedi (ustedes, all'azienda) se possono risolvertelo oggi.",
+            "uk": "Оператор каже: «Sí, tiene usted razón». Спитай (ustedes, тобто компанію), чи можуть вони владнати це сьогодні.",
+            "de": "Der Mitarbeiter sagt: «Sí, tiene usted razón». Frag (ustedes, die Firma), ob sie das heute für dich klären können.",
+            "fr": "L'opérateur dit «Sí, tiene usted razón». Demande (ustedes, à l'entreprise) s'ils peuvent te régler ça aujourd'hui.",
+            "pt": "O atendente diz «Sí, tiene usted razón». Pergunte (ustedes, a empresa) se eles podem resolver isso para você hoje.",
+            "zh": "接线员说 «Sí, tiene usted razón»。问他们（用 ustedes，指整个公司）今天能不能帮你解决。"
+          },
+          "accepted": [
+            "¿Me lo pueden solucionar hoy?"
+          ],
+          "tiles": [
+            "¿Me",
+            "lo",
+            "pueden",
+            "solucionar",
+            "hoy?",
+            "puedo",
+            "le"
+          ],
+          "en": "Can you sort it out for me today?",
+          "it": "Me lo potete risolvere oggi?",
+          "uk": "Можете владнати це сьогодні?",
+          "de": "Können Sie das heute für mich klären?",
+          "fr": "Vous pouvez me régler ça aujourd'hui ?",
+          "pt": "Vocês podem resolver isso para mim hoje?",
+          "zh": "你们今天能帮我解决吗？",
+          "hint": {
+            "en": "You ask the company, ustedes: ¿me lo pueden solucionar?",
+            "it": "Chiedi all'azienda, ustedes: ¿me lo pueden solucionar?",
+            "uk": "Ти питаєш компанію, ustedes: ¿me lo pueden solucionar?",
+            "de": "Du fragst die Firma, ustedes: ¿me lo pueden solucionar?",
+            "fr": "Tu t'adresses à l'entreprise, ustedes : ¿me lo pueden solucionar?",
+            "pt": "Você pergunta à empresa, ustedes: ¿me lo pueden solucionar?",
+            "zh": "你在问公司，用 ustedes：¿me lo pueden solucionar?"
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "You call your internet company. Write in Spanish: «Good morning, I'm calling because I've been overcharged this month.»",
+            "it": "Chiami la tua compagnia internet. Scrivi in spagnolo: «Buongiorno, la chiamo perché questo mese mi hanno addebitato più del dovuto.»",
+            "uk": "Ти телефонуєш своєму інтернет-провайдерові. Напиши іспанською: «Добрий день, я вам телефоную, бо цього місяця з мене зняли більше, ніж треба.»",
+            "de": "Du rufst bei deinem Internetanbieter an. Schreib auf Spanisch: «Guten Morgen, ich rufe an, weil mir diesen Monat zu viel berechnet wurde.»",
+            "fr": "Tu appelles ton fournisseur internet. Écris en espagnol : «Bonjour, je vous appelle parce qu'on m'a trop facturé ce mois-ci.»",
+            "pt": "Você liga para a sua operadora de internet. Escreva em espanhol: «Bom dia, estou ligando porque me cobraram a mais este mês.»",
+            "zh": "你给你的网络公司打电话。用西班牙语写：«早上好，我打电话是因为这个月多收了我的钱。»"
+          },
+          "accepted": [
+            "Buenos días, le llamo porque me han cobrado de más este mes.",
+            "Buenos días, llamo porque me han cobrado de más este mes.",
+            "Buenos días, le llamo porque este mes me han cobrado de más.",
+            "Buenos días, llamo porque este mes me han cobrado de más."
+          ],
+          "model": {
+            "es": "Buenos días, le llamo porque me han cobrado de más este mes.",
+            "en": "Good morning, I'm calling because I've been overcharged this month.",
+            "it": "Buongiorno, la chiamo perché questo mese mi hanno addebitato più del dovuto.",
+            "uk": "Добрий день, я вам телефоную, бо цього місяця з мене зняли більше, ніж треба.",
+            "de": "Guten Morgen, ich rufe an, weil mir diesen Monat zu viel berechnet wurde.",
+            "fr": "Bonjour, je vous appelle parce qu'on m'a trop facturé ce mois-ci.",
+            "pt": "Bom dia, estou ligando porque me cobraram a mais este mês.",
+            "zh": "早上好，我打电话是因为这个月多收了我的钱。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u36l5",
+      "goal": {
+        "en": "End a call naturally: bueno, te dejo, que…; say goodbye to friends (hablamos, un beso, un abrazo, cuídate) and to strangers (gracias por su ayuda, que tenga un buen día).",
+        "it": "Chiudi una chiamata in modo naturale: bueno, te dejo, que…; saluta gli amici (hablamos, un beso, un abrazo, cuídate) e gli sconosciuti (gracias por su ayuda, que tenga un buen día).",
+        "uk": "Природно завершуй розмову: bueno, te dejo, que…; прощайся з друзями (hablamos, un beso, un abrazo, cuídate) і з незнайомими людьми (gracias por su ayuda, que tenga un buen día).",
+        "de": "Beende ein Telefonat natürlich: bueno, te dejo, que…; verabschiede dich von Freunden (hablamos, un beso, un abrazo, cuídate) und von Fremden (gracias por su ayuda, que tenga un buen día).",
+        "fr": "Termine un appel naturellement : bueno, te dejo, que… ; dis au revoir aux amis (hablamos, un beso, un abrazo, cuídate) et aux inconnus (gracias por su ayuda, que tenga un buen día).",
+        "pt": "Encerre uma ligação com naturalidade: bueno, te dejo, que…; despeça-se de amigos (hablamos, un beso, un abrazo, cuídate) e de desconhecidos (gracias por su ayuda, que tenga un buen día).",
+        "zh": "自然地结束通话：bueno, te dejo, que…；和朋友道别（hablamos，un beso，un abrazo，cuídate），和陌生人道别（gracias por su ayuda，que tenga un buen día）。"
+      },
+      "target": {
+        "es": "Bueno, te dejo, que tengo que trabajar. ¡Hablamos mañana!",
+        "en": "Right, I'll let you go, I've got to work. Talk tomorrow!",
+        "it": "Bene, ti lascio, che devo lavorare. Ci sentiamo domani!",
+        "uk": "Ну все, не відволікатиму тебе, мені треба працювати. Зідзвонимося завтра!",
+        "de": "Also gut, ich lass dich jetzt, ich muss arbeiten. Wir sprechen uns morgen!",
+        "fr": "Bon, je te laisse, je dois travailler. On s'appelle demain !",
+        "pt": "Bom, vou desligar, que tenho que trabalhar. A gente se fala amanhã!",
+        "zh": "好啦，不跟你聊了，我得干活了。明天再聊！"
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "te dejo",
+              "en": "I'll let you go (ending a call)",
+              "it": "ti lascio",
+              "uk": "не відволікатиму тебе (наприкінці розмови)",
+              "de": "ich lass dich jetzt (am Ende eines Telefonats)",
+              "fr": "je te laisse (pour terminer un appel)",
+              "pt": "vou desligar, vou te deixar (ao encerrar uma ligação)",
+              "zh": "不跟你聊了，先挂了（结束通话时）",
+              "kind": "chunk"
+            },
+            {
+              "es": "un abrazo",
+              "en": "a hug; big hug (to end a call)",
+              "it": "un abbraccio",
+              "uk": "обійми; обіймаю (наприкінці розмови)",
+              "de": "eine Umarmung; ich drück dich (am Ende eines Telefonats)",
+              "fr": "une accolade ; je t'embrasse (pour terminer un appel)",
+              "pt": "um abraço (também para encerrar uma ligação)",
+              "zh": "拥抱；抱抱（结束通话时）",
+              "kind": "chunk"
+            },
+            {
+              "es": "cuídate",
+              "en": "take care",
+              "it": "abbi cura di te, stammi bene",
+              "uk": "бережи себе",
+              "de": "pass auf dich auf",
+              "fr": "prends soin de toi",
+              "pt": "se cuida",
+              "zh": "保重",
+              "kind": "chunk"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "bueno,",
+              "kind": "chunk"
+            },
+            {
+              "text": "te dejo,",
+              "kind": "chunk"
+            },
+            {
+              "text": "que…",
+              "kind": "rail"
+            }
+          ],
+          "rule": {
+            "en": "To start ending a call with a friend: bueno, te dejo (right, I'll let you go), often with a reason after que: que tengo que trabajar.",
+            "it": "Per cominciare a chiudere una chiamata con un amico: bueno, te dejo (bene, ti lascio), spesso con un motivo dopo que: que tengo que trabajar.",
+            "uk": "Щоб почати завершувати розмову з другом: bueno, te dejo (ну все, не відволікатиму тебе), часто з причиною після que: que tengo que trabajar.",
+            "de": "Um ein Telefonat mit einem Freund zu beenden, sag bueno, te dejo (also gut, ich lass dich jetzt), oft mit einem Grund nach que: que tengo que trabajar.",
+            "fr": "Pour commencer à terminer un appel avec un ami : bueno, te dejo (bon, je te laisse), souvent avec une raison après que : que tengo que trabajar.",
+            "pt": "Para começar a encerrar uma ligação com um amigo: bueno, te dejo (bom, vou desligar), muitas vezes com um motivo depois de que: que tengo que trabajar.",
+            "zh": "和朋友打电话要开始收尾时说：bueno, te dejo（好啦，不跟你聊了），后面常用 que 加个理由：que tengo que trabajar。"
+          },
+          "examples": [
+            {
+              "es": "Bueno, te dejo, que tengo que trabajar.",
+              "en": "Right, I'll let you go, I've got to work.",
+              "it": "Bene, ti lascio, che devo lavorare.",
+              "uk": "Ну все, не відволікатиму тебе, мені треба працювати.",
+              "de": "Also gut, ich lass dich jetzt, ich muss arbeiten.",
+              "fr": "Bon, je te laisse, je dois travailler.",
+              "pt": "Bom, vou desligar, que tenho que trabalhar.",
+              "zh": "好啦，不跟你聊了，我得干活了。"
+            },
+            {
+              "es": "Bueno, te dejo, que llego tarde.",
+              "en": "Right, I'll let you go, I'm running late.",
+              "it": "Bene, ti lascio, che sono in ritardo.",
+              "uk": "Ну все, не відволікатиму тебе, бо я вже запізнююся.",
+              "de": "Also gut, ich lass dich jetzt, ich bin spät dran.",
+              "fr": "Bon, je te laisse, je suis en retard.",
+              "pt": "Bom, vou desligar, que estou atrasado.",
+              "zh": "好啦，不跟你聊了，我要迟到了。"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Bueno, te ",
+          "after": ", que tengo que hacer la cena.",
+          "options": [
+            "dejo",
+            "dejas",
+            "deja"
+          ],
+          "answer": "dejo",
+          "en": "Right, I'll let you go, I've got to make dinner.",
+          "it": "Bene, ti lascio, che devo preparare la cena.",
+          "uk": "Ну все, не відволікатиму тебе, мені треба готувати вечерю.",
+          "de": "Also gut, ich lass dich jetzt, ich muss Abendessen machen.",
+          "fr": "Bon, je te laisse, je dois préparer le dîner.",
+          "pt": "Bom, vou desligar, que tenho que fazer o jantar.",
+          "zh": "好啦，不跟你聊了，我得做晚饭了。",
+          "hint": {
+            "en": "You're the one ending the call: te dejo.",
+            "it": "Sei tu a chiudere la chiamata: te dejo.",
+            "uk": "Розмову завершуєш ти: te dejo.",
+            "de": "Du bist diejenige / derjenige, die / der auflegen will: te dejo.",
+            "fr": "C'est toi qui termines l'appel : te dejo.",
+            "pt": "É você que encerra a ligação: te dejo.",
+            "zh": "是你要结束通话：te dejo。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "You've been on the phone with your sister for an hour and you have to start work. Say: right, I'll let you go, I've got to work.",
+            "it": "Sei al telefono con tua sorella da un'ora e devi metterti a lavorare. Di': bene, ti lascio, che devo lavorare.",
+            "uk": "Ти вже годину розмовляєш із сестрою по телефону, а тобі треба братися до роботи. Скажи: ну все, не відволікатиму тебе, мені треба працювати.",
+            "de": "Du telefonierst seit einer Stunde mit deiner Schwester und musst anfangen zu arbeiten. Sag: Also gut, ich lass dich jetzt, ich muss arbeiten.",
+            "fr": "Tu es au téléphone avec ta sœur depuis une heure et tu dois te mettre au travail. Dis : bon, je te laisse, je dois travailler.",
+            "pt": "Você está há uma hora no telefone com sua irmã e precisa começar a trabalhar. Diga: bom, vou desligar, que tenho que trabalhar.",
+            "zh": "你和姐姐已经打了一个小时电话，你得开始工作了。说：好啦，不跟你聊了，我得干活了。"
+          },
+          "accepted": [
+            "Bueno, te dejo, que tengo que trabajar."
+          ],
+          "tiles": [
+            "Bueno,",
+            "te dejo,",
+            "que",
+            "tengo que",
+            "trabajar",
+            "dejas",
+            "tienes que"
+          ],
+          "en": "Right, I'll let you go, I've got to work.",
+          "it": "Bene, ti lascio, che devo lavorare.",
+          "uk": "Ну все, не відволікатиму тебе, мені треба працювати.",
+          "de": "Also gut, ich lass dich jetzt, ich muss arbeiten.",
+          "fr": "Bon, je te laisse, je dois travailler.",
+          "pt": "Bom, vou desligar, que tenho que trabalhar.",
+          "zh": "好啦，不跟你聊了，我得干活了。",
+          "hint": {
+            "en": "bueno, te dejo, then the reason with que.",
+            "it": "bueno, te dejo, poi il motivo con que.",
+            "uk": "bueno, te dejo, а потім причина з que.",
+            "de": "bueno, te dejo, dann der Grund mit que.",
+            "fr": "bueno, te dejo, puis la raison avec que.",
+            "pt": "bueno, te dejo e depois o motivo com que.",
+            "zh": "bueno, te dejo，然后用 que 说出理由。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "venga,",
+              "kind": "chunk"
+            },
+            {
+              "text": "hablamos",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "With friends, finish with venga (OK then), hablamos (we'll talk) and un beso or un abrazo. To someone who's ill or travelling: cuídate.",
+            "it": "Con gli amici, chiudi con venga (dai), hablamos (ci sentiamo) e un beso o un abrazo. A chi è malato o in viaggio: cuídate.",
+            "uk": "З друзями завершуй розмову словами venga (ну добре), hablamos (зідзвонимося) і un beso або un abrazo. Людині, яка хворіє чи подорожує: cuídate.",
+            "de": "Unter Freunden beendest du das Gespräch mit venga (na gut, okay), hablamos (wir sprechen uns) und un beso oder un abrazo. Zu jemandem, der krank ist oder verreist: cuídate.",
+            "fr": "Avec les amis, termine par venga (allez), hablamos (on s'appelle) et un beso (bisous) ou un abrazo (je t'embrasse). À quelqu'un de malade ou en voyage : cuídate.",
+            "pt": "Com amigos, termine com venga (então tá), hablamos (a gente se fala) e un beso ou un abrazo. Para alguém doente ou viajando: cuídate.",
+            "zh": "和朋友打电话时，用 venga（好啦）、hablamos（回头聊）和 un beso 或 un abrazo 结束。对生病或在旅途中的人说：cuídate。"
+          },
+          "examples": [
+            {
+              "es": "Venga, hablamos mañana. ¡Un beso!",
+              "en": "OK then, talk tomorrow. Lots of love!",
+              "it": "Dai, ci sentiamo domani. Un bacio!",
+              "uk": "Ну добре, зідзвонимося завтра. Цілую!",
+              "de": "Okay, wir sprechen uns morgen. Küsschen!",
+              "fr": "Allez, on s'appelle demain. Bisous !",
+              "pt": "Então tá, a gente se fala amanhã. Beijo!",
+              "zh": "好啦，明天再聊。亲亲！"
+            },
+            {
+              "es": "¡Cuídate! Un abrazo.",
+              "en": "Take care! Big hug.",
+              "it": "Stammi bene! Un abbraccio.",
+              "uk": "Бережи себе! Обіймаю.",
+              "de": "Pass auf dich auf! Ich drück dich.",
+              "fr": "Prends soin de toi ! Je t'embrasse.",
+              "pt": "Se cuida! Um abraço.",
+              "zh": "保重！抱抱。"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Venga, ",
+          "after": " mañana. ¡Un beso!",
+          "options": [
+            "hablamos",
+            "hablo",
+            "hablan"
+          ],
+          "answer": "hablamos",
+          "en": "OK then, talk tomorrow. Lots of love!",
+          "it": "Dai, ci sentiamo domani. Un bacio!",
+          "uk": "Ну добре, зідзвонимося завтра. Цілую!",
+          "de": "Okay, wir sprechen uns morgen. Küsschen!",
+          "fr": "Allez, on s'appelle demain. Bisous !",
+          "pt": "Então tá, a gente se fala amanhã. Beijo!",
+          "zh": "好啦，明天再聊。亲亲！",
+          "hint": {
+            "en": "You'll both talk: hablamos.",
+            "it": "Vi sentirete tutti e due: hablamos.",
+            "uk": "Ви обоє поговорите: hablamos.",
+            "de": "Ihr sprecht beide miteinander: hablamos.",
+            "fr": "Vous allez vous parler tous les deux : hablamos.",
+            "pt": "Vocês dois vão se falar: hablamos.",
+            "zh": "你们俩都会聊：hablamos。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "Your friend has a bad cold and you're ending the call. Say: take care, big hug.",
+            "it": "La tua amica ha un brutto raffreddore e stai chiudendo la chiamata. Di': stammi bene, un abbraccio.",
+            "uk": "Твоя подруга сильно застудилася, і ти завершуєш розмову. Скажи: бережи себе, обіймаю.",
+            "de": "Deine Freundin ist stark erkältet, und du beendest das Telefonat. Sag: Pass auf dich auf, ich drück dich.",
+            "fr": "Ton amie a un gros rhume et tu termines l'appel. Dis : prends soin de toi, je t'embrasse.",
+            "pt": "Seu amigo está com um resfriado forte e você está encerrando a ligação. Diga: se cuida, um abraço.",
+            "zh": "你的朋友得了重感冒，你要挂电话了。说：保重，抱抱。"
+          },
+          "accepted": [
+            "Cuídate. Un abrazo.",
+            "Cuídate, un abrazo.",
+            "¡Cuídate! Un abrazo."
+          ],
+          "tiles": [
+            "Cuídate.",
+            "Un",
+            "abrazo.",
+            "beso",
+            "te dejo"
+          ],
+          "en": "Take care. Big hug.",
+          "it": "Stammi bene. Un abbraccio.",
+          "uk": "Бережи себе. Обіймаю.",
+          "de": "Pass auf dich auf. Ich drück dich.",
+          "fr": "Prends soin de toi. Je t'embrasse.",
+          "pt": "Se cuida. Um abraço.",
+          "zh": "保重。抱抱。",
+          "hint": {
+            "en": "Take care: cuídate; a hug: un abrazo.",
+            "it": "Stammi bene: cuídate; un abbraccio: un abrazo.",
+            "uk": "Бережи себе: cuídate; обійми: un abrazo.",
+            "de": "Pass auf dich auf: cuídate; eine Umarmung: un abrazo.",
+            "fr": "Prends soin de toi : cuídate ; je t'embrasse : un abrazo.",
+            "pt": "Se cuida: cuídate; um abraço: un abrazo.",
+            "zh": "保重：cuídate；抱抱：un abrazo。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "que",
+              "kind": "rail"
+            },
+            {
+              "text": "tenga",
+              "kind": "stem"
+            },
+            {
+              "text": "un buen día",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "With usted, end the call with thanks and a wish: muchas gracias por su ayuda, muy amable (that's very kind), que tenga un buen día.",
+            "it": "Con usted, chiudi la chiamata con un grazie e un augurio: muchas gracias por su ayuda, muy amable (molto gentile), que tenga un buen día.",
+            "uk": "З usted завершуй розмову подякою й побажанням: muchas gracias por su ayuda, muy amable (ви дуже люб'язні), que tenga un buen día.",
+            "de": "Bei usted beendest du das Gespräch mit einem Dank und einem Wunsch: muchas gracias por su ayuda, muy amable (sehr freundlich), que tenga un buen día.",
+            "fr": "Avec usted, termine l'appel par un remerciement et un souhait : muchas gracias por su ayuda, muy amable (c'est très aimable), que tenga un buen día.",
+            "pt": "Com usted, encerre a ligação com um agradecimento e um desejo: muchas gracias por su ayuda, muy amable (muito gentil), que tenga un buen día.",
+            "zh": "对 usted 说话时，用感谢和祝愿结束通话：muchas gracias por su ayuda，muy amable（您真好），que tenga un buen día。"
+          },
+          "examples": [
+            {
+              "es": "Muchas gracias por su ayuda. Muy amable.",
+              "en": "Thank you very much for your help. That's very kind.",
+              "it": "Grazie mille per il suo aiuto. Molto gentile.",
+              "uk": "Щиро дякую за вашу допомогу. Ви дуже люб'язні.",
+              "de": "Vielen Dank für Ihre Hilfe. Sehr freundlich.",
+              "fr": "Merci beaucoup pour votre aide. C'est très aimable.",
+              "pt": "Muito obrigado pela sua ajuda. Muito gentil.",
+              "zh": "非常感谢您的帮助。您真好。"
+            },
+            {
+              "es": "Gracias. ¡Que tenga un buen día!",
+              "en": "Thank you. Have a good day!",
+              "it": "Grazie. Buona giornata!",
+              "uk": "Дякую. Гарного дня!",
+              "de": "Danke. Einen schönen Tag noch!",
+              "fr": "Merci. Bonne journée !",
+              "pt": "Obrigado. Tenha um bom dia!",
+              "zh": "谢谢。祝您今天愉快！"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "amable",
+              "en": "kind",
+              "it": "gentile",
+              "uk": "люб'язний, привітний",
+              "de": "freundlich, nett",
+              "fr": "aimable, gentil",
+              "pt": "gentil, amável",
+              "zh": "和蔼的，客气的，好心的"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Gracias. ¡Que ",
+          "after": " un buen día!",
+          "options": [
+            "tenga",
+            "tiene",
+            "tendrá"
+          ],
+          "answer": "tenga",
+          "en": "Thank you. Have a good day!",
+          "it": "Grazie. Buona giornata!",
+          "uk": "Дякую. Гарного дня!",
+          "de": "Danke. Einen schönen Tag noch!",
+          "fr": "Merci. Bonne journée !",
+          "pt": "Obrigado. Tenha um bom dia!",
+          "zh": "谢谢。祝您今天愉快！",
+          "hint": {
+            "en": "A wish with que: the subjunctive, tenga for usted.",
+            "it": "Un augurio con que: il congiuntivo, tenga per usted.",
+            "uk": "Побажання з que: «subjuntivo», tenga для usted.",
+            "de": "Ein Wunsch mit que: der subjuntivo (spanischer Konjunktiv), tenga für usted.",
+            "fr": "Un souhait avec que : le subjonctif, tenga pour usted.",
+            "pt": "Um desejo com que: o subjuntivo, tenga para usted.",
+            "zh": "用 que 表达祝愿：用虚拟式，对 usted 用 tenga。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "The woman from the bank has solved your problem on the phone. Thank her (usted) very much for her help.",
+            "it": "La signora della banca ti ha risolto il problema al telefono. Ringraziala (usted) tanto per il suo aiuto.",
+            "uk": "Працівниця банку допомогла тобі вирішити проблему по телефону. Щиро подякуй їй (usted) за допомогу.",
+            "de": "Die Frau von der Bank hat dein Problem am Telefon gelöst. Bedank dich (usted) herzlich für ihre Hilfe.",
+            "fr": "La dame de la banque a réglé ton problème au téléphone. Remercie-la (usted) beaucoup pour son aide.",
+            "pt": "A moça do banco resolveu o seu problema por telefone. Agradeça muito a ela (usted) pela ajuda.",
+            "zh": "银行的那位女士在电话里帮你解决了问题。非常感谢她（用 usted）的帮助。"
+          },
+          "accepted": [
+            "Muchas gracias por su ayuda.",
+            "Muchas gracias por su ayuda. Muy amable."
+          ],
+          "tiles": [
+            "Muchas gracias",
+            "por",
+            "su ayuda",
+            "tu",
+            "para"
+          ],
+          "en": "Thank you very much for your help.",
+          "it": "Grazie mille per il suo aiuto.",
+          "uk": "Щиро дякую за вашу допомогу.",
+          "de": "Vielen Dank für Ihre Hilfe.",
+          "fr": "Merci beaucoup pour votre aide.",
+          "pt": "Muito obrigado pela sua ajuda.",
+          "zh": "非常感谢您的帮助。",
+          "hint": {
+            "en": "To usted: su ayuda.",
+            "it": "A usted: su ayuda.",
+            "uk": "До usted: su ayuda.",
+            "de": "Bei usted: su ayuda.",
+            "fr": "Avec usted : su ayuda.",
+            "pt": "Para usted: su ayuda.",
+            "zh": "对 usted：su ayuda。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "Bueno, ",
+          "after": ", que mañana me levanto muy pronto.",
+          "options": [
+            "te dejo",
+            "te oigo",
+            "se pone"
+          ],
+          "answer": "te dejo",
+          "en": "Right, I'll let you go, I've got to get up very early tomorrow.",
+          "it": "Bene, ti lascio, che domani mi alzo prestissimo.",
+          "uk": "Ну все, не відволікатиму тебе, мені завтра дуже рано вставати.",
+          "de": "Also gut, ich lass dich jetzt, ich muss morgen sehr früh aufstehen.",
+          "fr": "Bon, je te laisse, demain je me lève très tôt.",
+          "pt": "Bom, vou desligar, que amanhã tenho que acordar muito cedo.",
+          "zh": "好啦，不跟你聊了，我明天得起得很早。",
+          "hint": {
+            "en": "Ending the call with a reason: te dejo, que…",
+            "it": "Chiudi la chiamata con un motivo: te dejo, que…",
+            "uk": "Завершуєш розмову з причиною: te dejo, que…",
+            "de": "Das Telefonat mit einem Grund beenden: te dejo, que…",
+            "fr": "Terminer l'appel avec une raison : te dejo, que…",
+            "pt": "Encerrar a ligação com um motivo: te dejo, que…",
+            "zh": "给出理由来结束通话：te dejo, que…"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "mix",
+          "intention": {
+            "en": "You're ending a call with your best friend. Say: OK then, talk tomorrow. Lots of love!",
+            "it": "Stai chiudendo una chiamata con la tua migliore amica. Di': dai, ci sentiamo domani. Un bacio!",
+            "uk": "Ти завершуєш розмову з найкращою подругою. Скажи: ну добре, зідзвонимося завтра. Цілую!",
+            "de": "Du beendest ein Telefonat mit deiner besten Freundin. Sag: Okay, wir sprechen uns morgen. Küsschen!",
+            "fr": "Tu termines un appel avec ta meilleure amie. Dis : allez, on s'appelle demain. Bisous !",
+            "pt": "Você está encerrando uma ligação com seu melhor amigo. Diga: então tá, a gente se fala amanhã. Beijo!",
+            "zh": "你要和你最好的朋友挂电话了。说：好啦，明天再聊。亲亲！"
+          },
+          "accepted": [
+            "Venga, hablamos mañana. ¡Un beso!",
+            "Venga, hablamos mañana. Un beso."
+          ],
+          "tiles": [
+            "Venga,",
+            "hablamos",
+            "mañana.",
+            "¡Un beso!",
+            "hablo",
+            "amable"
+          ],
+          "en": "OK then, talk tomorrow. Lots of love!",
+          "it": "Dai, ci sentiamo domani. Un bacio!",
+          "uk": "Ну добре, зідзвонимося завтра. Цілую!",
+          "de": "Okay, wir sprechen uns morgen. Küsschen!",
+          "fr": "Allez, on s'appelle demain. Bisous !",
+          "pt": "Então tá, a gente se fala amanhã. Beijo!",
+          "zh": "好啦，明天再聊。亲亲！",
+          "hint": {
+            "en": "With a friend: venga, hablamos, un beso.",
+            "it": "Con un'amica: venga, hablamos, un beso.",
+            "uk": "З подругою: venga, hablamos, un beso.",
+            "de": "Unter Freunden: venga, hablamos, un beso.",
+            "fr": "Avec une amie : venga, hablamos, un beso.",
+            "pt": "Com um amigo: venga, hablamos, un beso.",
+            "zh": "和朋友说：venga，hablamos，un beso。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "Señora, muchas gracias por ",
+          "after": " ayuda. Muy amable.",
+          "options": [
+            "su",
+            "tu"
+          ],
+          "answer": "su",
+          "en": "Thank you very much for your help, madam. That's very kind.",
+          "it": "Signora, grazie mille per il suo aiuto. Molto gentile.",
+          "uk": "Щиро дякую за вашу допомогу, пані. Ви дуже люб'язні.",
+          "de": "Vielen Dank für Ihre Hilfe. Sehr freundlich von Ihnen.",
+          "fr": "Merci beaucoup pour votre aide, madame. C'est très aimable.",
+          "pt": "Muito obrigado pela sua ajuda, senhora. Muito gentil.",
+          "zh": "女士，非常感谢您的帮助。您真好。",
+          "hint": {
+            "en": "señora means usted: su ayuda.",
+            "it": "señora vuol dire usted: su ayuda.",
+            "uk": "señora означає usted: su ayuda.",
+            "de": "señora bedeutet usted: su ayuda.",
+            "fr": "señora, c'est usted : su ayuda.",
+            "pt": "señora indica usted: su ayuda.",
+            "zh": "señora 说明是对 usted：su ayuda。"
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "You're on the phone with a friend. Write in Spanish: «Right, I'll let you go, I've got to work. Talk tomorrow!»",
+            "it": "Sei al telefono con un amico. Scrivi in spagnolo: «Bene, ti lascio, che devo lavorare. Ci sentiamo domani!»",
+            "uk": "Ти розмовляєш по телефону з другом. Напиши іспанською: «Ну все, не відволікатиму тебе, мені треба працювати. Зідзвонимося завтра!»",
+            "de": "Du telefonierst mit einer Freundin. Schreib auf Spanisch: «Also gut, ich lass dich jetzt, ich muss arbeiten. Wir sprechen uns morgen!»",
+            "fr": "Tu es au téléphone avec un ami. Écris en espagnol : «Bon, je te laisse, je dois travailler. On s'appelle demain !»",
+            "pt": "Você está no telefone com um amigo. Escreva em espanhol: «Bom, vou desligar, que tenho que trabalhar. A gente se fala amanhã!»",
+            "zh": "你在和一个朋友打电话。用西班牙语写：«好啦，不跟你聊了，我得干活了。明天再聊！»"
+          },
+          "accepted": [
+            "Bueno, te dejo, que tengo que trabajar. ¡Hablamos mañana!",
+            "Bueno, te dejo, que tengo que trabajar. Hablamos mañana.",
+            "Bueno, te dejo porque tengo que trabajar. ¡Hablamos mañana!",
+            "Venga, te dejo, que tengo que trabajar. ¡Hablamos mañana!"
+          ],
+          "model": {
+            "es": "Bueno, te dejo, que tengo que trabajar. ¡Hablamos mañana!",
+            "en": "Right, I'll let you go, I've got to work. Talk tomorrow!",
+            "it": "Bene, ti lascio, che devo lavorare. Ci sentiamo domani!",
+            "uk": "Ну все, не відволікатиму тебе, мені треба працювати. Зідзвонимося завтра!",
+            "de": "Also gut, ich lass dich jetzt, ich muss arbeiten. Wir sprechen uns morgen!",
+            "fr": "Bon, je te laisse, je dois travailler. On s'appelle demain !",
+            "pt": "Bom, vou desligar, que tenho que trabalhar. A gente se fala amanhã!",
+            "zh": "好啦，不跟你聊了，我得干活了。明天再聊！"
+          }
+        }
+      ]
+    }
+  ],
+  "boss": {
+    "id": "u36boss",
+    "goal": {
+      "en": "The internet in your flat in {city} stopped working three days ago, and this month's bill is higher than usual. Call your internet company. There's no video, only voices: listen carefully, ask them to repeat when you need to and get everything sorted.",
+      "it": "Internet nel tuo appartamento a {city} non funziona da tre giorni, e la bolletta di questo mese è più alta del solito. Chiama la tua compagnia internet. Niente video, solo voci: ascolta bene, chiedi di ripetere quando serve e fatti risolvere tutto.",
+      "uk": "У твоїй квартирі у місті {city} уже три дні не працює інтернет, а рахунок за цей місяць більший, ніж зазвичай. Подзвони своєму інтернет-провайдерові. Відео немає, лише голоси: уважно слухай, проси повторити, коли треба, і владнай усе.",
+      "de": "Das Internet in deiner Wohnung in {city} funktioniert seit drei Tagen nicht, und die Rechnung für diesen Monat ist höher als sonst. Ruf bei deinem Internetanbieter an. Es gibt kein Bild, nur Stimmen: Hör gut zu, bitte um Wiederholung, wenn nötig, und kläre alles.",
+      "fr": "Internet ne marche plus dans ton appartement à {city} depuis trois jours, et la facture de ce mois-ci est plus élevée que d'habitude. Appelle ton fournisseur internet. Pas de vidéo, seulement des voix : écoute bien, fais répéter quand il le faut et fais tout régler.",
+      "pt": "A internet do seu apartamento em {city} parou de funcionar há três dias, e a conta deste mês veio mais alta que o normal. Ligue para a sua operadora de internet. Não tem vídeo, só vozes: ouça com atenção, peça para repetir quando precisar e resolva tudo.",
+      "zh": "你在{city}住的房子三天前断网了，而且这个月的账单比平时高。给你的网络公司打电话。没有画面，只有声音：仔细听，需要时请对方重复，把所有问题都解决好。"
+    },
+    "target": {
+      "es": "Dígale al técnico que me llame antes de venir, por favor.",
+      "en": "Please tell the technician to call me before he comes.",
+      "it": "Dica al tecnico di chiamarmi prima di venire, per favore.",
+      "uk": "Перекажіть, будь ласка, техніку, щоб він мені зателефонував, перш ніж приходити.",
+      "de": "Sagen Sie dem Techniker bitte, er soll mich anrufen, bevor er kommt.",
+      "fr": "Dites au technicien de m'appeler avant de venir, s'il vous plaît.",
+      "pt": "Diga ao técnico que me ligue antes de vir, por favor.",
+      "zh": "请您让技术人员来之前先给我打个电话。"
+    },
+    "items": [
+      {
+        "type": "words",
+        "words": [
+          {
+            "es": "el router",
+            "en": "the router",
+            "it": "il router",
+            "uk": "роутер",
+            "de": "der Router",
+            "fr": "le routeur, la box",
+            "pt": "o roteador",
+            "zh": "路由器",
+            "kind": "chunk"
+          },
+          {
+            "es": "la avería",
+            "en": "the fault, the breakdown",
+            "it": "il guasto",
+            "uk": "несправність, поломка",
+            "de": "die Störung, der Defekt",
+            "fr": "la panne",
+            "pt": "o defeito, a pane",
+            "zh": "故障",
+            "kind": "chunk"
+          },
+          {
+            "es": "el número de cliente",
+            "en": "the customer number",
+            "it": "il codice cliente",
+            "uk": "номер клієнта",
+            "de": "die Kundennummer",
+            "fr": "le numéro client",
+            "pt": "o número de cliente",
+            "zh": "客户编号",
+            "kind": "chunk"
+          }
+        ]
+      },
+      {
+        "type": "build",
+        "intention": {
+          "en": "A voice answers «Buenos días, dígame». Say good morning: you're calling because the internet isn't working.",
+          "it": "Una voce risponde «Buenos días, dígame». Di' buongiorno: chiami perché internet non funziona.",
+          "uk": "Голос відповідає: «Buenos días, dígame». Привітайся: ти телефонуєш, бо не працює інтернет.",
+          "de": "Eine Stimme meldet sich: «Buenos días, dígame». Sag guten Morgen: Du rufst an, weil das Internet nicht funktioniert.",
+          "fr": "Une voix répond «Buenos días, dígame». Dis bonjour : tu appelles parce qu'internet ne marche pas.",
+          "pt": "Uma voz atende «Buenos días, dígame». Diga bom dia: você está ligando porque a internet não está funcionando.",
+          "zh": "一个声音接起电话：«Buenos días, dígame»。说早上好：你打电话是因为网络用不了。"
+        },
+        "accepted": [
+          "Buenos días, le llamo porque internet no funciona.",
+          "Buenos días, llamo porque internet no funciona."
+        ],
+        "tiles": [
+          "Buenos días,",
+          "le llamo",
+          "porque",
+          "internet",
+          "no funciona",
+          "por",
+          "funcionan"
+        ],
+        "en": "Good morning, I'm calling because the internet isn't working.",
+        "it": "Buongiorno, la chiamo perché internet non funziona.",
+        "uk": "Добрий день, я вам телефоную, бо не працює інтернет.",
+        "de": "Guten Morgen, ich rufe an, weil das Internet nicht funktioniert.",
+        "fr": "Bonjour, je vous appelle parce qu'internet ne marche pas.",
+        "pt": "Bom dia, estou ligando porque a internet não está funcionando.",
+        "zh": "早上好，我给您打电话是因为网络用不了。",
+        "hint": {
+          "en": "A whole sentence follows: le llamo porque…",
+          "it": "Segue una frase intera: le llamo porque…",
+          "uk": "Далі йде ціле речення: le llamo porque…",
+          "de": "Danach kommt ein ganzer Satz: le llamo porque…",
+          "fr": "Une phrase entière suit : le llamo porque…",
+          "pt": "Vem uma frase inteira: le llamo porque…",
+          "zh": "后面是一个完整的句子：le llamo porque…"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "Perdone, no le ",
+        "after": " bien. ¿Me lo repite?",
+        "options": [
+          "oigo",
+          "oye",
+          "oyes"
+        ],
+        "answer": "oigo",
+        "en": "Sorry, I can't hear you very well. Could you say that again?",
+        "it": "Mi scusi, non la sento bene. Me lo ripete?",
+        "uk": "Вибачте, я вас погано чую. Повторіть, будь ласка?",
+        "de": "Entschuldigung, ich verstehe Sie nicht gut. Können Sie das wiederholen?",
+        "fr": "Pardon, je ne vous entends pas bien. Vous pouvez répéter ?",
+        "pt": "Desculpe, não estou ouvindo bem o senhor. Pode repetir?",
+        "zh": "不好意思，我听不太清楚。您能再说一遍吗？",
+        "hint": {
+          "en": "I hear, yo: oigo.",
+          "it": "Io sento, yo: oigo.",
+          "uk": "Я чую, yo: oigo.",
+          "de": "Ich höre, yo: oigo.",
+          "fr": "J'entends, yo : oigo.",
+          "pt": "Eu ouço, yo: oigo.",
+          "zh": "\"我听见\"，yo：oigo。"
+        }
+      },
+      {
+        "type": "build",
+        "intention": {
+          "en": "The voice asks «¿Me dice su número de cliente?». It's on the contract in a drawer. Say: one moment, I'm looking for it.",
+          "it": "La voce chiede «¿Me dice su número de cliente?». È sul contratto, in un cassetto. Di': un attimo, che lo cerco.",
+          "uk": "Голос питає: «¿Me dice su número de cliente?». Він у договорі, а договір у шухляді. Скажи: хвилинку, зараз пошукаю.",
+          "de": "Die Stimme fragt: «¿Me dice su número de cliente?». Sie steht auf dem Vertrag in einer Schublade. Sag: Einen Moment, ich suche sie.",
+          "fr": "La voix demande «¿Me dice su número de cliente?». Il est sur le contrat, dans un tiroir. Dis : un instant, je le cherche.",
+          "pt": "A voz pergunta «¿Me dice su número de cliente?». Está no contrato, numa gaveta. Diga: um momento, vou procurar.",
+          "zh": "那个声音问 «¿Me dice su número de cliente?»。客户编号在抽屉里的合同上。说：稍等，我找一下。"
+        },
+        "accepted": [
+          "Un momento, que lo busco."
+        ],
+        "tiles": [
+          "Un momento,",
+          "que",
+          "lo",
+          "busco",
+          "buscas",
+          "le"
+        ],
+        "en": "One moment, I'm looking for it.",
+        "it": "Un attimo, che lo cerco.",
+        "uk": "Хвилинку, зараз пошукаю.",
+        "de": "Einen Moment, ich suche sie.",
+        "fr": "Un instant, je le cherche.",
+        "pt": "Um momento, vou procurar.",
+        "zh": "稍等，我找一下。",
+        "hint": {
+          "en": "Like que lo apunto: un momento, que lo busco.",
+          "it": "Come que lo apunto: un momento, que lo busco.",
+          "uk": "Як у que lo apunto: un momento, que lo busco.",
+          "de": "Wie que lo apunto: un momento, que lo busco (lo = el número, im Deutschen „sie“, die Kundennummer).",
+          "fr": "Comme que lo apunto : un momento, que lo busco.",
+          "pt": "Como que lo apunto: un momento, que lo busco.",
+          "zh": "和 que lo apunto 一样：un momento, que lo busco。"
+        }
+      },
+      {
+        "type": "gap",
+        "before": "Perdone, ¿me lo ",
+        "after": " más despacio, por favor?",
+        "label": "repetir",
+        "accepted": [
+          "repite"
+        ],
+        "en": "Sorry, could you say it again more slowly, please?",
+        "it": "Mi scusi, me lo ripete più piano, per favore?",
+        "uk": "Вибачте, повторіть, будь ласка, повільніше?",
+        "de": "Entschuldigung, können Sie das bitte langsamer wiederholen?",
+        "fr": "Pardon, vous pouvez le répéter plus lentement, s'il vous plaît ?",
+        "pt": "Desculpe, pode repetir mais devagar, por favor?",
+        "zh": "不好意思，请您说慢一点，再说一遍好吗？",
+        "hint": {
+          "en": "perdone means usted: repite.",
+          "it": "perdone vuol dire usted: repite.",
+          "uk": "perdone означає usted: repite.",
+          "de": "perdone bedeutet usted: repite.",
+          "fr": "perdone, c'est usted : repite.",
+          "pt": "perdone indica usted: repite.",
+          "zh": "perdone 说明是对 usted：repite。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "El router no funciona. ",
+        "after": ", que es una avería, ¿no?",
+        "options": [
+          "O sea",
+          "Por ejemplo",
+          "Mejor dicho"
+        ],
+        "answer": "O sea",
+        "en": "The router isn't working. So it's a fault, isn't it?",
+        "it": "Il router non funziona. Quindi è un guasto, no?",
+        "uk": "Роутер не працює. Тобто це несправність, так?",
+        "de": "Der Router funktioniert nicht. Also ist es eine Störung, oder?",
+        "fr": "Le routeur ne marche pas. Donc c'est une panne, non ?",
+        "pt": "O roteador não está funcionando. Então é um defeito, não é?",
+        "zh": "路由器用不了。那就是出故障了，对吧？",
+        "hint": {
+          "en": "You draw a conclusion: o sea, que…",
+          "it": "Trai una conclusione: o sea, que…",
+          "uk": "Ти робиш висновок: o sea, que…",
+          "de": "Du ziehst eine Schlussfolgerung: o sea, que…",
+          "fr": "Tu tires une conclusion : o sea, que…",
+          "pt": "Você tira uma conclusão: o sea, que…",
+          "zh": "你在得出结论：o sea, que…"
+        }
+      },
+      {
+        "type": "build",
+        "intention": {
+          "en": "The voice can't fix it. Ask (usted) if she can put you through to a technician.",
+          "it": "La voce non riesce a risolverlo. Chiedi (usted) se può passarti un tecnico.",
+          "uk": "Голос не може це полагодити. Спитай (usted), чи можна з'єднати тебе з техніком.",
+          "de": "Die Stimme kann das Problem nicht lösen. Frag sie (usted), ob sie dich mit einem Techniker verbinden kann.",
+          "fr": "La voix n'arrive pas à régler le problème. Demande (usted) si elle peut te passer un technicien.",
+          "pt": "A voz não consegue resolver. Pergunte (usted) se ela pode te transferir para um técnico.",
+          "zh": "那个声音解决不了。问她（用 usted）能不能把你转给技术人员。"
+        },
+        "accepted": [
+          "¿Me puede pasar con un técnico?",
+          "¿Me podría pasar con un técnico?",
+          "¿Puede pasarme con un técnico?"
+        ],
+        "tiles": [
+          "¿Me",
+          "puede",
+          "pasar",
+          "con",
+          "un técnico?",
+          "le",
+          "de"
+        ],
+        "en": "Can you put me through to a technician?",
+        "it": "Mi può passare un tecnico?",
+        "uk": "Можете з'єднати мене з техніком?",
+        "de": "Können Sie mich mit einem Techniker verbinden?",
+        "fr": "Vous pouvez me passer un technicien ?",
+        "pt": "Pode me transferir para um técnico?",
+        "zh": "您能帮我转给技术人员吗？",
+        "hint": {
+          "en": "Put me through to: ¿me puede pasar con…?",
+          "it": "Passarmi qualcuno: ¿me puede pasar con…?",
+          "uk": "З'єднати мене з кимось: ¿me puede pasar con…?",
+          "de": "Verbinden Sie mich mit: ¿me puede pasar con…?",
+          "fr": "Me passer quelqu'un : ¿me puede pasar con…?",
+          "pt": "Me transferir para: ¿me puede pasar con…?",
+          "zh": "帮我转给……：¿me puede pasar con…?"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "Hace tres días que no ",
+        "after": " internet.",
+        "options": [
+          "tengo",
+          "tenga",
+          "tendría"
+        ],
+        "answer": "tengo",
+        "en": "I haven't had the internet for three days.",
+        "it": "Sono tre giorni che non ho internet.",
+        "uk": "У мене вже три дні немає інтернету.",
+        "de": "Ich habe seit drei Tagen kein Internet.",
+        "fr": "Ça fait trois jours que je n'ai pas internet.",
+        "pt": "Estou sem internet há três dias.",
+        "zh": "我已经三天没有网了。",
+        "hint": {
+          "en": "A plain fact: the normal present, tengo.",
+          "it": "Un semplice fatto: il presente normale, tengo.",
+          "uk": "Простий факт: звичайний теперішній час, tengo.",
+          "de": "Eine einfache Tatsache: das normale Präsens, tengo (wie im Deutschen: „seit drei Tagen habe ich“).",
+          "fr": "Un simple fait : le présent normal, tengo, comme en français avec « ça fait… que ».",
+          "pt": "Um fato simples: o presente normal, tengo.",
+          "zh": "一个简单的事实：用普通的现在时，tengo。"
+        }
+      },
+      {
+        "type": "build",
+        "intention": {
+          "en": "The technician will come on Monday. Now bring up the other problem: besides, this month they've overcharged you.",
+          "it": "Il tecnico verrà lunedì. Adesso parla dell'altro problema: in più, questo mese ti hanno addebitato più del dovuto.",
+          "uk": "Технік прийде в понеділок. Тепер згадай про іншу проблему: до того ж цього місяця з тебе зняли більше, ніж треба.",
+          "de": "Der Techniker kommt am Montag. Sprich jetzt das andere Problem an: Außerdem hat man dir diesen Monat zu viel berechnet.",
+          "fr": "Le technicien viendra lundi. Maintenant, parle de l'autre problème : en plus, ce mois-ci, on t'a trop facturé.",
+          "pt": "O técnico vem na segunda. Agora fale do outro problema: além disso, este mês te cobraram a mais.",
+          "zh": "技术人员星期一会来。现在说说另一个问题：另外，这个月多收了你的钱。"
+        },
+        "accepted": [
+          "Además, este mes me han cobrado de más.",
+          "Además, me han cobrado de más este mes."
+        ],
+        "tiles": [
+          "Además,",
+          "este mes",
+          "me han",
+          "cobrado",
+          "de más",
+          "cobran",
+          "por ejemplo"
+        ],
+        "en": "Besides, I've been overcharged this month.",
+        "it": "In più, questo mese mi hanno addebitato più del dovuto.",
+        "uk": "До того ж цього місяця з мене зняли більше, ніж треба.",
+        "de": "Außerdem wurde mir diesen Monat zu viel berechnet.",
+        "fr": "En plus, on m'a trop facturé ce mois-ci.",
+        "pt": "Além disso, me cobraram a mais este mês.",
+        "zh": "另外，这个月多收了我的钱。",
+        "hint": {
+          "en": "What has happened: me han cobrado de más.",
+          "it": "Cosa è successo: me han cobrado de más.",
+          "uk": "Що сталося: me han cobrado de más.",
+          "de": "Was passiert ist: me han cobrado de más.",
+          "fr": "Ce qui s'est passé : me han cobrado de más.",
+          "pt": "O que aconteceu: me han cobrado de más.",
+          "zh": "已经发生的事：me han cobrado de más。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "No pago la factura hasta que lo ",
+        "after": ".",
+        "options": [
+          "arreglen",
+          "arreglar"
+        ],
+        "answer": "arreglen",
+        "en": "I'm not paying the bill until you fix it.",
+        "it": "Non pago la bolletta finché non lo riparate.",
+        "uk": "Я не платитиму за рахунком, поки ви це не полагодите.",
+        "de": "Ich bezahle die Rechnung erst, wenn Sie das Problem behoben haben.",
+        "fr": "Je ne paie pas la facture tant que vous ne l'avez pas réparé.",
+        "pt": "Não vou pagar a conta até vocês consertarem.",
+        "zh": "你们修好之前，我不会付这张账单。",
+        "hint": {
+          "en": "hasta que, it hasn't happened yet: the subjunctive, arreglen.",
+          "it": "hasta que, non è ancora successo: il congiuntivo, arreglen.",
+          "uk": "hasta que, це ще не сталося: «subjuntivo», arreglen.",
+          "de": "hasta que, es ist noch nicht passiert: der subjuntivo (spanischer Konjunktiv), arreglen.",
+          "fr": "hasta que, ce n'est pas encore arrivé : le subjonctif, arreglen.",
+          "pt": "hasta que, ainda não aconteceu: o subjuntivo presente, arreglen (em português diríamos «até consertarem»).",
+          "zh": "hasta que，事情还没发生：用虚拟式，arreglen。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "Si el lunes no ",
+        "after": " en casa, le aviso.",
+        "options": [
+          "estoy",
+          "esté"
+        ],
+        "answer": "estoy",
+        "en": "If I'm not at home on Monday, I'll let you know.",
+        "it": "Se lunedì non sono a casa, la avviso.",
+        "uk": "Якщо в понеділок мене не буде вдома, я вас попереджу.",
+        "de": "Wenn ich am Montag nicht zu Hause bin, sage ich Ihnen Bescheid.",
+        "fr": "Si je ne suis pas chez moi lundi, je vous préviens.",
+        "pt": "Se eu não estiver em casa na segunda, aviso o senhor.",
+        "zh": "如果星期一我不在家，我会通知您。",
+        "hint": {
+          "en": "After si, the normal present: estoy.",
+          "it": "Dopo si, il presente normale: estoy.",
+          "uk": "Після si — звичайний теперішній час: estoy.",
+          "de": "Nach si das normale Präsens: estoy.",
+          "fr": "Après si, le présent normal : estoy.",
+          "pt": "Depois de si, o presente normal: estoy (nunca o futuro do subjuntivo do português, «se eu não estiver»).",
+          "zh": "si 后面用普通的现在时：estoy。"
+        }
+      },
+      {
+        "type": "build",
+        "intention": {
+          "en": "Everything is sorted. Thank the voice (usted) for the help and wish her a good day.",
+          "it": "È tutto risolto. Ringrazia la voce (usted) per l'aiuto e augurale buona giornata.",
+          "uk": "Усе владнано. Подякуй голосу (usted) за допомогу й побажай гарного дня.",
+          "de": "Alles ist geklärt. Bedank dich bei der Stimme (usted) für die Hilfe und wünsch ihr einen schönen Tag.",
+          "fr": "Tout est réglé. Remercie la voix (usted) pour son aide et souhaite-lui une bonne journée.",
+          "pt": "Tudo resolvido. Agradeça à voz (usted) pela ajuda e deseje um bom dia.",
+          "zh": "一切都解决了。感谢那个声音（用 usted）的帮助，并祝她今天愉快。"
+        },
+        "accepted": [
+          "Muchas gracias por su ayuda. Que tenga un buen día.",
+          "Muchas gracias por su ayuda. ¡Que tenga un buen día!"
+        ],
+        "tiles": [
+          "Muchas gracias",
+          "por su ayuda.",
+          "Que",
+          "tenga",
+          "un buen día",
+          "tiene",
+          "tu"
+        ],
+        "en": "Thank you very much for your help. Have a good day.",
+        "it": "Grazie mille per il suo aiuto. Buona giornata.",
+        "uk": "Щиро дякую за вашу допомогу. Гарного дня.",
+        "de": "Vielen Dank für Ihre Hilfe. Einen schönen Tag noch.",
+        "fr": "Merci beaucoup pour votre aide. Bonne journée.",
+        "pt": "Muito obrigado pela sua ajuda. Tenha um bom dia.",
+        "zh": "非常感谢您的帮助。祝您今天愉快。",
+        "hint": {
+          "en": "To usted: su ayuda, and the wish que tenga.",
+          "it": "A usted: su ayuda, e l'augurio que tenga.",
+          "uk": "До usted: su ayuda і побажання que tenga.",
+          "de": "Bei usted: su ayuda, und der Wunsch que tenga.",
+          "fr": "Avec usted : su ayuda, et le souhait que tenga.",
+          "pt": "Para usted: su ayuda, e o desejo que tenga.",
+          "zh": "对 usted：su ayuda，祝愿用 que tenga。"
+        }
+      },
+      {
+        "type": "write",
+        "instruction": {
+          "en": "Before you hang up, leave a request for the technician. Write in Spanish: «Please tell the technician to call me before he comes.»",
+          "it": "Prima di riattaccare, lascia una richiesta per il tecnico. Scrivi in spagnolo: «Dica al tecnico di chiamarmi prima di venire, per favore.»",
+          "uk": "Перш ніж покласти слухавку, залиш прохання для техніка. Напиши іспанською: «Перекажіть, будь ласка, техніку, щоб він мені зателефонував, перш ніж приходити.»",
+          "de": "Bevor du auflegst, hinterlass eine Bitte für den Techniker. Schreib auf Spanisch: «Sagen Sie dem Techniker bitte, er soll mich anrufen, bevor er kommt.»",
+          "fr": "Avant de raccrocher, laisse une demande pour le technicien. Écris en espagnol : «Dites au technicien de m'appeler avant de venir, s'il vous plaît.»",
+          "pt": "Antes de desligar, deixe um pedido para o técnico. Escreva em espanhol: «Diga ao técnico que me ligue antes de vir, por favor.»",
+          "zh": "挂电话之前，给技术人员留个请求。用西班牙语写：«请您让技术人员来之前先给我打个电话。»"
+        },
+        "accepted": [
+          "Dígale al técnico que me llame antes de venir, por favor.",
+          "Por favor, dígale al técnico que me llame antes de venir.",
+          "Dígale al técnico que me llame antes de venir."
+        ],
+        "model": {
+          "es": "Dígale al técnico que me llame antes de venir, por favor.",
+          "en": "Please tell the technician to call me before he comes.",
+          "it": "Dica al tecnico di chiamarmi prima di venire, per favore.",
+          "uk": "Перекажіть, будь ласка, техніку, щоб він мені зателефонував, перш ніж приходити.",
+          "de": "Sagen Sie dem Techniker bitte, er soll mich anrufen, bevor er kommt.",
+          "fr": "Dites au technicien de m'appeler avant de venir, s'il vous plaît.",
+          "pt": "Diga ao técnico que me ligue antes de vir, por favor.",
+          "zh": "请您让技术人员来之前先给我打个电话。"
+        }
+      }
+    ]
+  }
+}
