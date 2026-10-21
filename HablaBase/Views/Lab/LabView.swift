@@ -13,14 +13,14 @@ struct LabView: View {
                     } label: {
                         door(title: "Repasar tablas",
                              detail: Gloss(en: "Your verb tables and the Lego bench.", it: "Le tue tabelle dei verbi e il banco Lego.", uk: "Твої таблиці дієслів і лего-майстерня.", de: "Deine Verbtabellen und die Lego-Werkbank.", fr: "Tes tableaux de verbes et l'atelier Lego.", pt: "Suas tabelas de verbos e a bancada Lego.", zh: "你的动词变位表和积木台。"),
-                             color: .sky, mascot: .pentagon, mascotColor: .sunshine, mood: .curious)
+                             icon: "tablecells", tone: .dustyBlue)
                     }
                     NavigationLink {
                         GamesView()
                     } label: {
                         door(title: "Jugar",
                              detail: Gloss(en: "Verb minigames for your level.", it: "Minigiochi di verbi per il tuo livello.", uk: "Мініігри з дієсловами для твого рівня.", de: "Verb-Minispiele für dein Niveau.", fr: "Des mini-jeux de verbes adaptés à ton niveau.", pt: "Minijogos de verbos para o seu nível.", zh: "适合你级别的动词小游戏。"),
-                             color: .tangerine, mascot: .flower, mascotColor: .bubblegum, mood: .excited)
+                             icon: "gamecontroller.fill", tone: .terracotta)
                     }
                 }
                 .padding(20)
@@ -29,35 +29,31 @@ struct LabView: View {
         }
     }
 
-    /// A bright card with a mascot peeking in from the corner.
-    private func door(title: String, detail: Gloss, color: FunColor,
-                      mascot: MascotShape, mascotColor: FunColor, mood: MascotMood) -> some View {
-        let shape = RoundedRectangle(cornerRadius: 28, style: .continuous)
-        return ZStack(alignment: .topLeading) {
-            shape.fill(color.main)
-            Mascot(shape: mascot, color: mascotColor.main, mood: mood, size: 130)
-                .rotationEffect(.degrees(-12))
-                .offset(x: 30, y: 30)
-                .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .bottomTrailing)
-            VStack(alignment: .leading, spacing: 12) {
-                Text(title)
-                    .font(.system(.title2, design: .rounded).weight(.heavy))
-                    .padding(.horizontal, 14)
-                    .padding(.vertical, 6)
-                    .background(Capsule().fill(Color.white.opacity(0.22)))
+    /// A calm card: a tinted icon tile, the title and one line on what is inside.
+    private func door(title: String, detail: Gloss, icon: String, tone: Tone) -> some View {
+        HStack(spacing: 16) {
+            Image(systemName: icon)
+                .font(.title2.weight(.semibold))
+                .foregroundStyle(tone.main)
+                .frame(width: 60, height: 60)
+                .background(RoundedRectangle(cornerRadius: 18, style: .continuous).fill(tone.soft))
+                .accessibilityHidden(true)
+            VStack(alignment: .leading, spacing: 4) {
+                Text(title).font(.title3.weight(.semibold))
                 Text(detail.text(store.language))
-                    .font(.subheadline.weight(.medium))
-                    .opacity(0.95)
+                    .font(.subheadline)
+                    .foregroundStyle(.secondary)
                     .multilineTextAlignment(.leading)
             }
-            .padding(22)
-            .padding(.trailing, 100)
+            Spacer(minLength: 0)
+            Image(systemName: "chevron.right")
+                .foregroundStyle(.tertiary)
+                .accessibilityHidden(true)
         }
-        .foregroundStyle(color.ink)
-        .frame(maxWidth: .infinity, minHeight: 160)
-        .clipShape(shape)
-        .background(shape.fill(color.deep).offset(y: 5))
-        .padding(.bottom, 5)
+        .foregroundStyle(.primary)
+        .padding(18)
+        .frame(maxWidth: .infinity)
+        .background(RoundedRectangle(cornerRadius: 22, style: .continuous).fill(Palette.card))
         .accessibilityElement(children: .combine)
     }
 }
