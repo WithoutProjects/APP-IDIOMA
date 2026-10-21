@@ -18,7 +18,6 @@ struct RootView: View {
     var body: some View {
         if store.profile == nil {
             OnboardingView()
-                .fontDesign(.rounded)
         } else {
             TabView {
                 DashboardView()
@@ -33,7 +32,6 @@ struct RootView: View {
                     .tabItem { Label("Profile", systemImage: "person.crop.circle") }
             }
             .environment(\.locale, store.language.locale)
-            .fontDesign(.rounded)
         }
     }
 }

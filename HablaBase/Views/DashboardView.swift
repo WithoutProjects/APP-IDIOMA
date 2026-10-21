@@ -1,29 +1,28 @@
 import SwiftUI
 
-/// Home: the counters on top, a greeting that shows fluency growing, and the winding path.
+/// Home: a greeting with the counters, one button for "what do I do now?", fluency growing,
+/// and the whole road from A0 to C2 below.
 struct DashboardView: View {
     @EnvironmentObject private var store: AppStore
     @State private var activeLesson: Lesson?
 
+    private let curriculum = Curriculum.shared
+
     var body: some View {
         NavigationStack {
-            JourneyView(start: { activeLesson = $0 }) {
-                heroCard
-                    .padding(.horizontal, 16)
-                    .padding(.top, 12)
-            }
-            .safeAreaInset(edge: .top, spacing: 0) {
-                VStack(spacing: 10) {
-                    statsBar
+            ScrollView {
+                VStack(alignment: .leading, spacing: 20) {
+                    header
                     if store.state.energy == 0 {
                         rechargeCard
                     }
-                    statusCard
+                    continueCard
+                    fluencyCard
                 }
-                .padding(.horizontal, 16)
-                .padding(.vertical, 10)
-                .background(Color(.systemBackground))
-                .overlay(alignment: .bottom) { Divider() }
+                .padding(.horizontal, 20)
+                .padding(.top, 8)
+                JourneyView()
+                    .padding(.bottom, 32)
             }
             .toolbar(.hidden, for: .navigationBar)
             .onAppear { store.refillEnergyIfNewDay() }
@@ -32,60 +31,69 @@ struct DashboardView: View {
             LessonView(lesson: lesson)
                 .environmentObject(store)
                 .environment(\.locale, store.language.locale)
-                .fontDesign(.rounded)
         }
     }
 
-    private var statsBar: some View {
-        HStack(spacing: 10) {
-            StatPill(icon: "flame.fill", value: "\(store.state.streak)", color: .tangerine)
-                .accessibilityElement(children: .ignore)
-                .accessibilityLabel(Text("Streak: \(store.state.streak) days"))
-            StatPill(icon: "star.fill", value: "\(store.state.xp)", color: .sunshine)
-                .accessibilityElement(children: .ignore)
-                .accessibilityLabel(Text("\(store.state.xp) XP"))
-            Spacer()
-            EnergyView(energy: store.state.energy)
-                .font(.headline)
-        }
-    }
-
-    /// "¡Hola!" and the three numbers that show real Spanish growing, with a mascot peeking in.
-    private var heroCard: some View {
-        let mastered = store.state.mastery.values.filter { $0 >= 3 }.count
-        let shape = RoundedRectangle(cornerRadius: 28, style: .continuous)
-        return ZStack(alignment: .topLeading) {
-            shape.fill(FunColor.grape.main)
-            Mascot(shape: .blob, color: FunColor.sunshine.main, mood: .excited, size: 130)
-                .rotationEffect(.degrees(-10))
-                .offset(x: 28, y: 34)
-                .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .bottomTrailing)
-            VStack(alignment: .leading, spacing: 10) {
-                Text(verbatim: "¡Hola, \(store.profile?.name ?? "")!")
-                    .font(.system(.title, design: .rounded).weight(.heavy))
-                    .lineLimit(1)
-                    .minimumScaleFactor(0.7)
-                metric(store.state.sentencesBuilt, "sentences built", icon: "text.bubble.fill")
-                metric(mastered, "forms mastered", icon: "bolt.fill")
-                metric(store.state.completedLessons.count, "steps done", icon: "checkmark.circle.fill")
+    private var header: some View {
+        VStack(alignment: .leading, spacing: 10) {
+            Text(verbatim: "¡Hola, \(store.profile?.name ?? "")!")
+                .font(.largeTitle.bold())
+                .lineLimit(1)
+                .minimumScaleFactor(0.7)
+            HStack(spacing: 16) {
+                Label {
+                    Text(verbatim: "\(store.state.streak)")
+                } icon: {
+                    Image(systemName: "flame.fill").foregroundStyle(Tone.terracotta.main)
+                }
+                    .accessibilityLabel(Text("Streak: \(store.state.streak) days"))
+                Label {
+                    Text("\(store.state.xp) XP")
+                } icon: {
+                    Image(systemName: "star.fill").foregroundStyle(Tone.ochre.main)
+                }
+                Spacer()
+                EnergyView(energy: store.state.energy)
             }
-            .foregroundStyle(.white)
-            .padding(20)
-            .padding(.trailing, 96)
+            .font(.subheadline.weight(.medium))
+            .foregroundStyle(.secondary)
         }
-        .clipShape(shape)
-        .frame(minHeight: 170)
     }
 
-    private func metric(_ value: Int, _ label: LocalizedStringKey, icon: String) -> some View {
-        HStack(spacing: 8) {
-            Image(systemName: icon)
-                .foregroundStyle(FunColor.sunshine.main)
-                .accessibilityHidden(true)
-            Text(verbatim: "\(value)").font(.system(.headline, design: .rounded).weight(.heavy))
-            Text(label).font(.subheadline.weight(.medium)).opacity(0.9)
+    @ViewBuilder
+    private var continueCard: some View {
+        if let node = store.nextNode, let level = curriculum.level(id: node.levelId) {
+            let unit = node.unitId.flatMap { curriculum.unit(id: $0) }
+            let tone = Tone.forLevel(level.number)
+            if Journey.isBuilt(node, store: store) {
+                VStack(alignment: .leading, spacing: 8) {
+                    if let unit {
+                        Eyebrow(text: "\(Journey.unitWord.text(store.language)) \(unit.number) · \(unit.title)", color: tone.main)
+                    }
+                    Text(node.title)
+                        .font(.title2.bold())
+                    Text(node.gloss.text(store.language))
+                        .foregroundStyle(.secondary)
+                    if let unit {
+                        let nodes = Journey.nodes(in: unit)
+                        ProgressView(value: Double(nodes.filter { store.isCompleted($0.id) }.count),
+                                     total: Double(max(nodes.count, 1)))
+                            .tint(tone.main)
+                            .padding(.vertical, 6)
+                    }
+                    Button("Continue") { activeLesson = store.playableLesson(node.id) }
+                        .buttonStyle(PrimaryButtonStyle(color: tone.main))
+                }
+                .padding(20)
+                .frame(maxWidth: .infinity, alignment: .leading)
+                .background(RoundedRectangle(cornerRadius: 24, style: .continuous).fill(Palette.card))
+            } else {
+                caughtUpCard
+            }
+        } else {
+            Text("You have finished the whole path. ¡Enhorabuena!")
+                .font(.title2.bold())
         }
-        .accessibilityElement(children: .combine)
     }
 
     /// Energy never blocks a lesson; at zero, it invites a short review of the mistakes.
@@ -95,8 +103,8 @@ struct DashboardView: View {
         } label: {
             HStack(spacing: 14) {
                 Image(systemName: "heart.fill")
-                    .font(.title)
-                    .foregroundStyle(.red)
+                    .font(.title2)
+                    .foregroundStyle(Tone.rose.main)
                     .accessibilityHidden(true)
                 VStack(alignment: .leading, spacing: 2) {
                     Text("Win your hearts back").font(.headline)
@@ -107,36 +115,45 @@ struct DashboardView: View {
                 Spacer(minLength: 0)
                 Image(systemName: "chevron.right").foregroundStyle(.secondary).accessibilityHidden(true)
             }
-            .padding(14)
-            .background(RoundedRectangle(cornerRadius: 18, style: .continuous).fill(Color.red.opacity(0.1)))
+            .padding(16)
+            .background(RoundedRectangle(cornerRadius: 20, style: .continuous).fill(Tone.rose.soft))
         }
         .buttonStyle(.plain)
     }
 
-    /// Shown when the next step is not in this version of the app yet, or the path is finished.
-    @ViewBuilder
-    private var statusCard: some View {
-        if let node = store.nextNode {
-            if !Journey.isBuilt(node, store: store) {
-                HStack(alignment: .top, spacing: 12) {
-                    Mascot(shape: .squircle, color: FunColor.leaf.main, mood: .happy, size: 46)
-                    VStack(alignment: .leading, spacing: 4) {
-                        Text("You're up to date")
-                            .font(.headline)
-                            .foregroundStyle(Palette.success)
-                        Text("You have done every lesson in this version. New lessons arrive with app updates; meanwhile, keep your verbs fresh in the Lab.")
-                            .font(.footnote)
-                            .foregroundStyle(.secondary)
-                    }
-                }
-                .padding(14)
-                .frame(maxWidth: .infinity, alignment: .leading)
-                .background(RoundedRectangle(cornerRadius: 18, style: .continuous).fill(FunColor.leaf.soft))
-            }
-        } else {
-            Text("You have finished the whole path. ¡Enhorabuena!")
-                .font(.system(.title3, design: .rounded).weight(.heavy))
-                .frame(maxWidth: .infinity, alignment: .leading)
+    /// Shown when the next step is not in this version of the app yet.
+    private var caughtUpCard: some View {
+        VStack(alignment: .leading, spacing: 8) {
+            Label("You're up to date", systemImage: "checkmark.seal.fill")
+                .font(.title3.bold())
+                .foregroundStyle(Tone.sage.main)
+            Text("You have done every lesson in this version. New lessons arrive with app updates; meanwhile, keep your verbs fresh in the Lab.")
+                .foregroundStyle(.secondary)
         }
+        .padding(20)
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .background(RoundedRectangle(cornerRadius: 24, style: .continuous).fill(Palette.card))
+    }
+
+    private var fluencyCard: some View {
+        let mastered = store.state.mastery.values.filter { $0 >= 3 }.count
+        return HStack {
+            metric("\(store.state.sentencesBuilt)", "sentences built")
+            Divider()
+            metric("\(mastered)", "forms mastered")
+            Divider()
+            metric("\(store.state.completedLessons.count)", "steps done")
+        }
+        .padding(.vertical, 14)
+        .background(RoundedRectangle(cornerRadius: 20, style: .continuous).strokeBorder(Color(.systemGray5), lineWidth: 1))
+    }
+
+    private func metric(_ value: String, _ label: LocalizedStringKey) -> some View {
+        VStack(spacing: 2) {
+            Text(verbatim: value).font(.title3.weight(.semibold)).monospacedDigit()
+            Text(label).font(.caption).foregroundStyle(.secondary)
+        }
+        .frame(maxWidth: .infinity)
+        .accessibilityElement(children: .combine)
     }
 }

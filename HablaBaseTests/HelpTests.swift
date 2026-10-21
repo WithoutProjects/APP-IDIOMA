@@ -168,22 +168,10 @@ final class UkrainianTests: XCTestCase {
         XCTAssertEqual(Placeholders(profile: profile)("Hablo {language}. {languageUk}"), "Hablo ucraniano. українською")
     }
 
-    func testAChestGivesItsXPOnlyOnce() {
-        let store = AppStore(storage: InMemoryProgressStorage())
-        store.openChest("u1-chest")
-        store.openChest("u1-chest")
-        XCTAssertTrue(store.isChestOpen("u1-chest"))
-        XCTAssertEqual(store.state.xp, AppStore.chestXP)
-    }
-
-    func testEveryUnitTrailHasAChestAfterHalfItsLessons() {
+    func testEveryUnitPathListsItsLessonsThenBossThenTest() {
         for unit in Curriculum.shared.levels.flatMap(\.units) {
-            let stops = Journey.stops(in: unit)
-            XCTAssertEqual(stops.count, unit.lessons.count + 3, unit.id)
-            guard case .chest(_, let after)? = stops.first(where: { if case .chest = $0 { return true } else { return false } }) else {
-                return XCTFail("\(unit.id) has no chest")
-            }
-            XCTAssertEqual(after, unit.lessons.prefix(unit.lessons.count / 2).map(\.id), unit.id)
+            let ids = Journey.nodes(in: unit).map(\.id)
+            XCTAssertEqual(ids, unit.lessons.map(\.id) + [unit.boss.id, unit.test.id], unit.id)
         }
     }
 }

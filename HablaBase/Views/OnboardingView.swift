@@ -47,7 +47,7 @@ struct OnboardingView: View {
     }
 }
 
-/// The first screen: a crowd of happy shapes and one button.
+/// The first screen: the name, one line, a quiet composition of shapes and one button.
 struct WelcomeView: View {
     let language: NativeLanguage
     let onStart: () -> Void
@@ -56,7 +56,7 @@ struct WelcomeView: View {
         VStack(spacing: 0) {
             VStack(alignment: .leading, spacing: 12) {
                 Text(verbatim: "HablaBase")
-                    .font(.system(size: 48, weight: .heavy, design: .rounded))
+                    .font(.system(size: 44, weight: .bold))
                 Text(Self.tagline.text(language))
                     .font(.title3.weight(.medium))
                     .foregroundStyle(.secondary)
@@ -65,17 +65,13 @@ struct WelcomeView: View {
             .padding(.horizontal, 28)
             .padding(.top, 48)
             Spacer(minLength: 12)
-            MascotParade()
+            ShapeComposition()
             Spacer(minLength: 12)
             Button(Self.letsGo.text(language), action: onStart)
-                .buttonStyle(PrimaryButtonStyle(color: FunColor.grape.main))
+                .buttonStyle(PrimaryButtonStyle())
                 .padding(.horizontal, 24)
                 .padding(.bottom, 16)
         }
-        .background(
-            LinearGradient(colors: [Color(.systemBackground), FunColor.grape.soft], startPoint: .center, endPoint: .bottom)
-                .ignoresSafeArea()
-        )
     }
 
     static let tagline = Gloss(en: "Spanish step by step, one small win a day.", it: "Lo spagnolo passo dopo passo, una piccola vittoria al giorno.", uk: "Іспанська крок за кроком, щодня маленька перемога.", de: "Spanisch Schritt für Schritt, jeden Tag ein kleiner Erfolg.", fr: "L'espagnol pas à pas, une petite victoire par jour.", pt: "Espanhol passo a passo, uma pequena vitória por dia.", zh: "一步一步学西班牙语，每天一个小进步。")

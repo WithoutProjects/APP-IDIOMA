@@ -209,25 +209,27 @@ struct LessonCompleteView: View {
     @Environment(\.accessibilityReduceMotion) var reduceMotion
     @State var appeared = false
 
+    private var tone: Tone { testPassed == false ? .dustyBlue : .sage }
+
     var body: some View {
         VStack(spacing: 20) {
             Spacer()
             ZStack {
-                if testPassed != false {
-                    ConfettiBurst()
-                }
-                Mascot(shape: testPassed == false ? .cloud : .blob,
-                       color: testPassed == false ? FunColor.sky.main : FunColor.sunshine.main,
-                       mood: testPassed == false ? .curious : .excited,
-                       size: 130)
-                    .scaleEffect(appeared ? 1 : 0.4)
-                    .rotationEffect(.degrees(appeared ? 0 : -20))
+                Circle()
+                    .fill(tone.soft)
+                    .frame(width: 120, height: 120)
+                Image(systemName: testPassed == false ? "arrow.counterclockwise" : "checkmark")
+                    .font(.system(size: 46, weight: .semibold))
+                    .foregroundStyle(tone.main)
             }
+            .scaleEffect(appeared ? 1 : 0.7)
+            .opacity(appeared ? 1 : 0)
+            .accessibilityHidden(true)
             .onAppear {
-                withAnimation(reduceMotion ? nil : .spring(response: 0.5, dampingFraction: 0.55)) { appeared = true }
+                withAnimation(reduceMotion ? nil : .spring(response: 0.45, dampingFraction: 0.7)) { appeared = true }
             }
             Text(headline)
-                .font(.system(.largeTitle, design: .rounded).weight(.heavy))
+                .font(.title.bold())
                 .multilineTextAlignment(.center)
             Text(detail)
                 .font(.title3)
@@ -261,7 +263,7 @@ struct LessonCompleteView: View {
             }
             Spacer()
             Button("Done", action: onDone)
-                .buttonStyle(PrimaryButtonStyle(color: testPassed == false ? FunColor.sky.main : FunColor.leaf.main))
+                .buttonStyle(PrimaryButtonStyle(color: tone.main))
         }
         .padding(24)
     }

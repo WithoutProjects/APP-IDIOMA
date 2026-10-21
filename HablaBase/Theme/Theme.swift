@@ -18,8 +18,8 @@ enum Brick: Hashable {
 }
 
 enum Palette {
-    static let success = Color(red: 0.16, green: 0.66, blue: 0.40)
-    static let warning = Color(red: 0.96, green: 0.52, blue: 0.13)
+    static let success = Color(red: 0.30, green: 0.58, blue: 0.44)
+    static let warning = Color(red: 0.84, green: 0.50, blue: 0.27)
     static let card = Color(.secondarySystemBackground)
 }
 
@@ -58,30 +58,21 @@ struct ColoredForm: View {
     }
 }
 
-/// The single large primary action at thumb height: a chunky button with a 3D edge that presses down.
+/// The single large primary action at thumb height: flat, calm and full width.
 struct PrimaryButtonStyle: ButtonStyle {
     var color: Color = .accentColor
     var textColor: Color = .white
 
-    private static let depth: CGFloat = 4
-
     func makeBody(configuration: Configuration) -> some View {
-        let shape = RoundedRectangle(cornerRadius: 16, style: .continuous)
-        let pressed = configuration.isPressed
-        return configuration.label
-            .font(.system(.headline, design: .rounded).weight(.bold))
+        configuration.label
+            .font(.headline)
             .foregroundStyle(textColor)
             .frame(maxWidth: .infinity)
             .padding(.vertical, 16)
-            .background(shape.fill(color))
-            .offset(y: pressed ? Self.depth : 0)
-            .background(
-                shape.fill(color)
-                    .overlay(shape.fill(Color.black.opacity(0.22)))
-                    .offset(y: Self.depth)
-            )
-            .padding(.bottom, Self.depth)
-            .animation(.easeOut(duration: 0.08), value: pressed)
+            .background(RoundedRectangle(cornerRadius: 14, style: .continuous).fill(color))
+            .opacity(configuration.isPressed ? 0.8 : 1)
+            .scaleEffect(configuration.isPressed ? 0.99 : 1)
+            .animation(.easeOut(duration: 0.12), value: configuration.isPressed)
     }
 }
 
