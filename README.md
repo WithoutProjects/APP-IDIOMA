@@ -36,7 +36,7 @@ La app lee ese archivo para dibujar la ruta. Para cambiar el orden o los título
 - **Vocabulario primero**: cada palabra nueva se presenta en slides (palabra y traducción) y luego se une con su traducción antes de usarla en un ejercicio. Un test automático comprueba que ninguna lección usa palabras sin presentar.
 - **Lección 1, Yo, tú, él**: las terminaciones de yo, tú y él/ella con Lego Snap y huecos para escribir el verbo, y un mix final.
 - **Lección 2, Me presento**: frases con tus datos (Sentence Builder) y una frase final escrita con *y*.
-- **Unidades 1 a 12 completas** (A0–A2): 60 lecciones y 12 bosses. Las lecciones 1 y 2 están en `Content/Unit1.swift`; el resto en `Content/lessons-u{n}.json`, con el formato y las reglas en `docs/content-format.md`. `python3 tools/validate_content.py` comprueba que ninguna lección usa una palabra antes de presentarla, el máximo de 15 preguntas y que cada ejercicio tiene solución. El plan de vocabulario está en `docs/vocab-plan.json`.
+- **Unidades 1 a 14 completas** (A0–B1): 70 lecciones y 14 bosses. Las lecciones 1 y 2 están en `Content/Unit1.swift`; el resto en `Content/lessons-u{n}.json`, con el formato y las reglas en `docs/content-format.md`. `python3 tools/validate_content.py` comprueba que ninguna lección usa una palabra antes de presentarla, el máximo de 15 preguntas y que cada ejercicio tiene solución. El plan de vocabulario está en `docs/vocab-plan.json`.
 - **Apuntes**: explicaciones y vocabulario de la unidad actual y de las anteriores.
 - **Hablar**: dices en voz alta frases de tus lecciones y ves qué palabras se han entendido; la app te avisa de las que conviene pronunciar más claro (reconocimiento de voz en el iPhone).
 - **Escribir o decir**: en los ejercicios de completar, construir frases y traducir puedes elegir entre escribir la respuesta o decirla en voz alta. La app recuerda tu elección.
@@ -60,7 +60,7 @@ La app lee ese archivo para dibujar la ruta. Para cambiar el orden o los título
 - **Solo lo que funciona**: la pestaña Talk y los minijuegos que aún no existen no se muestran; cuando alguien termina las lecciones disponibles ve una tarjeta «Estás al día» en lugar de botones desactivados.
 - **Accesibilidad**: VoiceOver lee el estado de cada paso (hecho, siguiente, bloqueado), los textos crecen con el tamaño de letra del sistema y las bandejas de piezas pasan a otra línea si no caben.
 - **Icono provisional** (`hablo` en un bocadillo) y `ITSAppUsesNonExemptEncryption = NO`, así que no hay que contestar la pregunta de cifrado en cada subida.
-- **Pendiente antes de publicar**: tu equipo de desarrollo en Signing & Capabilities, confirmar el bundle ID `com.withoutprojects.hablabase` y el nombre en la tienda, un icono diseñado si quieres sustituir el provisional, capturas de pantalla, una URL de política de privacidad y más unidades (ahora llegan hasta la 12).
+- **Pendiente antes de publicar**: tu equipo de desarrollo en Signing & Capabilities, confirmar el bundle ID `com.withoutprojects.hablabase` y el nombre en la tienda, un icono diseñado si quieres sustituir el provisional, capturas de pantalla, una URL de política de privacidad y más unidades (ahora llegan hasta la 14).
 
 ## Estructura
 
