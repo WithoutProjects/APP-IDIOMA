@@ -1,0 +1,3414 @@
+{
+  "unit": "u44",
+  "lessons": [
+    {
+      "id": "u44l1",
+      "goal": {
+        "en": "Choose how to say you: tú with friends and most people your age in Spain, usted to show respect, vosotros and ustedes for several people, and recognise vos, which much of Latin America uses.",
+        "it": "Scegli come dare del tu o del Lei: tú con gli amici e quasi tutte le persone della tua età in Spagna, usted per mostrare rispetto, vosotros e ustedes per più persone, e riconosci vos, che si usa in gran parte dell'America Latina.",
+        "uk": "Обирай, як звертатися: tú — до друзів і більшості ровесників в Іспанії, usted — щоб виявити повагу, vosotros і ustedes — до кількох людей; а також розпізнавай vos, яке вживають у значній частині Латинської Америки.",
+        "de": "Wähl die richtige Anrede: tú mit Freunden und den meisten Leuten in deinem Alter in Spanien, usted, um Respekt zu zeigen, vosotros und ustedes für mehrere Personen, und erkenne vos, das in großen Teilen Lateinamerikas üblich ist.",
+        "fr": "Choisis comment dire « tu » ou « vous » : tú avec les amis et la plupart des gens de ton âge en Espagne, usted pour marquer le respect, vosotros et ustedes pour plusieurs personnes, et reconnais vos, qu'on utilise dans une grande partie de l'Amérique latine.",
+        "pt": "Escolha como tratar a pessoa: tú com amigos e com quase todo mundo da sua idade na Espanha, usted para mostrar respeito, vosotros e ustedes para várias pessoas, e reconheça o vos, usado em boa parte da América Latina.",
+        "zh": "选择怎样称呼对方“你”：在西班牙，对朋友和大多数同龄人用 tú，表示尊敬用 usted，对几个人用 vosotros 和 ustedes，还要能听懂拉丁美洲很多地方使用的 vos。"
+      },
+      "target": {
+        "es": "¿Nos tuteamos?",
+        "en": "Shall we call each other tú?",
+        "it": "Ci diamo del tu?",
+        "uk": "Може, перейдемо на «ти»?",
+        "de": "Wollen wir uns duzen?",
+        "fr": "On se tutoie ?",
+        "pt": "Vamos nos tratar por tú?",
+        "zh": "我们以“你”相称吧？"
+      },
+      "names": [
+        "Buenos Aires"
+      ],
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "tutear",
+              "en": "to call someone tú",
+              "it": "dare del tu",
+              "uk": "звертатися до когось на «ти» (tú)",
+              "de": "duzen",
+              "fr": "tutoyer",
+              "pt": "tratar alguém por tú (como «você»)",
+              "zh": "用 tú 称呼某人，以“你”相称",
+              "kind": "stem"
+            },
+            {
+              "es": "tratar de usted",
+              "en": "to call someone usted",
+              "it": "dare del Lei",
+              "uk": "звертатися до когось на «Ви» (usted)",
+              "de": "siezen",
+              "fr": "vouvoyer",
+              "pt": "tratar alguém por usted (como «o senhor / a senhora»)",
+              "zh": "用 usted 称呼某人，以“您”相称",
+              "kind": "chunk"
+            },
+            {
+              "es": "¿nos tuteamos?",
+              "en": "shall we call each other tú?",
+              "it": "ci diamo del tu?",
+              "uk": "може, перейдемо на «ти»?",
+              "de": "wollen wir uns duzen?",
+              "fr": "on se tutoie ?",
+              "pt": "vamos nos tratar por tú?",
+              "zh": "我们以“你”相称吧？",
+              "kind": "chunk"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "tú",
+              "kind": "ending"
+            },
+            {
+              "text": "/",
+              "kind": "chunk"
+            },
+            {
+              "text": "usted",
+              "kind": "ending"
+            }
+          ],
+          "rule": {
+            "en": "In Spain, tú is normal with friends, family, colleagues and most people your age, even in shops. usted shows respect: older people, clients, someone very senior. When you're not sure, start with usted and let the other person offer tú.",
+            "it": "In Spagna, tú è normale con amici, famiglia, colleghi e quasi tutte le persone della tua età, anche nei negozi. usted mostra rispetto: persone anziane, clienti, qualcuno molto importante. Se non sei sicuro, comincia con usted e lascia che sia l'altra persona a proporre il tu.",
+            "uk": "В Іспанії tú — звичайна річ із друзями, родиною, колегами й більшістю ровесників, навіть у магазинах. usted виражає повагу: до людей старшого віку, клієнтів, когось дуже високого за посадою. Якщо не впевнений(-а), починай з usted і дай співрозмовникові запропонувати tú.",
+            "de": "In Spanien ist tú (du) normal mit Freunden, Familie, Kollegen und den meisten Leuten in deinem Alter, sogar in Geschäften, viel öfter als „du“ im Deutschen. usted (Sie) zeigt Respekt: ältere Menschen, Kunden, jemand in einer sehr hohen Position. Wenn du unsicher bist, fang mit usted an und lass die andere Person das tú anbieten.",
+            "fr": "En Espagne, on se tutoie beaucoup plus qu'en France : tú est normal avec les amis, la famille, les collègues et la plupart des gens de ton âge, même dans les magasins. usted marque le respect : personnes âgées, clients, quelqu'un de très haut placé. Si tu n'es pas sûr, commence par usted et laisse l'autre personne te proposer le tú.",
+            "pt": "Pense em tú como o nosso você e em usted como o senhor / a senhora. Na Espanha, tú é normal com amigos, família, colegas e quase todo mundo da sua idade, até em lojas: muito mais do que um brasileiro talvez espere. usted mostra respeito: pessoas mais velhas, clientes, alguém muito importante. Na dúvida, comece com usted e deixe a outra pessoa propor o tú.",
+            "zh": "在西班牙，对朋友、家人、同事和大多数同龄人都用 tú，就连在商店里也是这样。usted 表示尊敬：对年长的人、客户、职位很高的人。拿不准的时候，先用 usted，让对方提出用 tú。"
+          },
+          "examples": [
+            {
+              "es": "Perdone, ¿podría ayudarme?",
+              "en": "Excuse me, could you help me? (usted)",
+              "it": "Mi scusi, potrebbe aiutarmi?",
+              "uk": "Перепрошую, Ви не могли б мені допомогти? (usted)",
+              "de": "Entschuldigen Sie, könnten Sie mir helfen? (usted)",
+              "fr": "Excusez-moi, vous pourriez m'aider ? (usted)",
+              "pt": "Com licença, o senhor poderia me ajudar? (usted)",
+              "zh": "劳驾，您能帮我一下吗？"
+            },
+            {
+              "es": "Oye, ¿me ayudas?",
+              "en": "Hey, will you help me? (tú)",
+              "it": "Senti, mi aiuti?",
+              "uk": "Слухай, допоможеш мені? (tú)",
+              "de": "Du, hilfst du mir mal? (tú)",
+              "fr": "Dis, tu m'aides ? (tú)",
+              "pt": "Ei, você me ajuda? (tú)",
+              "zh": "喂，你帮我一下好吗？"
+            },
+            {
+              "es": "¿Nos tuteamos?",
+              "en": "Shall we call each other tú?",
+              "it": "Ci diamo del tu?",
+              "uk": "Може, перейдемо на «ти»?",
+              "de": "Wollen wir uns duzen?",
+              "fr": "On se tutoie ?",
+              "pt": "Vamos nos tratar por tú?",
+              "zh": "我们以“你”相称吧？"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Perdone, señora, ¿",
+          "after": " hora?",
+          "options": [
+            "tiene",
+            "tienes",
+            "tenéis"
+          ],
+          "answer": "tiene",
+          "en": "Excuse me, madam, have you got the time?",
+          "it": "Mi scusi, signora, ha l'ora?",
+          "uk": "Перепрошую, пані, Ви не підкажете, котра година?",
+          "de": "Entschuldigen Sie, haben Sie die Uhrzeit?",
+          "fr": "Excusez-moi, madame, vous avez l'heure ?",
+          "pt": "Com licença, senhora, a senhora tem horas?",
+          "zh": "打扰一下，女士，请问您知道现在几点吗？",
+          "hint": {
+            "en": "perdone and señora: usted, so tiene.",
+            "it": "perdone e señora: usted, quindi tiene.",
+            "uk": "perdone і señora: usted, тож tiene.",
+            "de": "perdone und señora: usted, also tiene.",
+            "fr": "perdone et señora : usted, donc tiene.",
+            "pt": "perdone e señora: usted, então tiene.",
+            "zh": "perdone 和 señora：用 usted，所以是 tiene。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "A new colleague your age keeps calling you usted. Say: shall we call each other tú? It's easier.",
+            "it": "Un nuovo collega della tua età continua a darti del Lei. Digli: ci diamo del tu? È più facile.",
+            "uk": "Новий колега твого віку постійно звертається до тебе на usted. Скажи: може, перейдемо на «ти»? Так простіше.",
+            "de": "Ein neuer Kollege in deinem Alter siezt dich ständig. Sag: Wollen wir uns duzen? Das ist einfacher.",
+            "fr": "Un nouveau collègue de ton âge continue à te vouvoyer. Dis-lui : on se tutoie ? C'est plus simple.",
+            "pt": "Um colega novo da sua idade continua te tratando por usted. Diga: vamos nos tratar por tú? É mais fácil.",
+            "zh": "一位和你同龄的新同事一直用 usted 称呼你。说：我们以“你”相称吧？这样更轻松。"
+          },
+          "accepted": [
+            "¿Nos tuteamos? Es más fácil."
+          ],
+          "tiles": [
+            "¿Nos",
+            "tuteamos?",
+            "Es",
+            "más fácil",
+            "usted",
+            "tutear"
+          ],
+          "en": "Shall we call each other tú? It's easier.",
+          "it": "Ci diamo del tu? È più facile.",
+          "uk": "Може, перейдемо на «ти»? Так простіше.",
+          "de": "Wollen wir uns duzen? Das ist einfacher.",
+          "fr": "On se tutoie ? C'est plus simple.",
+          "pt": "Vamos nos tratar por tú? É mais fácil.",
+          "zh": "我们以“你”相称吧？这样更轻松。",
+          "hint": {
+            "en": "To offer tú: ¿nos tuteamos?",
+            "it": "Per proporre il tu: ¿nos tuteamos?",
+            "uk": "Щоб запропонувати tú: ¿nos tuteamos?",
+            "de": "Um das Du anzubieten: ¿nos tuteamos?",
+            "fr": "Pour proposer le tú : ¿nos tuteamos?",
+            "pt": "Para propor o tú: ¿nos tuteamos?",
+            "zh": "提议用 tú：¿nos tuteamos?"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "vosotros",
+              "kind": "ending"
+            },
+            {
+              "text": "/",
+              "kind": "chunk"
+            },
+            {
+              "text": "ustedes",
+              "kind": "ending"
+            }
+          ],
+          "rule": {
+            "en": "For several people, Spain uses vosotros with friends and ustedes to be formal. ustedes takes the ellos form of the verb: ¿ustedes quieren algo más? In Latin America, ustedes is used for everyone.",
+            "it": "Per più persone, in Spagna si usa vosotros con gli amici e ustedes per essere formali. ustedes prende la forma di ellos del verbo: ¿ustedes quieren algo más? In America Latina si usa ustedes con tutti.",
+            "uk": "До кількох людей в Іспанії звертаються vosotros, якщо це друзі, і ustedes, якщо офіційно. ustedes вживається з формою дієслова для ellos: ¿ustedes quieren algo más? У Латинській Америці ustedes вживають з усіма.",
+            "de": "Für mehrere Personen nimmt man in Spanien vosotros (ihr) mit Freunden und ustedes (Sie), um förmlich zu sein. ustedes nimmt die ellos-Form des Verbs, so wie das deutsche „Sie“ die sie-Form: ¿ustedes quieren algo más? In Lateinamerika sagt man zu allen ustedes.",
+            "fr": "Pour plusieurs personnes, en Espagne on utilise vosotros avec les amis et ustedes pour être formel. Le français dit « vous » dans les deux cas. ustedes prend la forme de ellos du verbe : ¿ustedes quieren algo más? En Amérique latine, on utilise ustedes avec tout le monde.",
+            "pt": "Para várias pessoas, a Espanha usa vosotros com amigos e ustedes para ser formal (como «os senhores»). ustedes leva a forma de ellos do verbo: ¿ustedes quieren algo más? Na América Latina, ustedes é usado com todo mundo, como o nosso «vocês».",
+            "zh": "对几个人说话时，在西班牙，对朋友用 vosotros，正式场合用 ustedes。ustedes 用动词的 ellos 形式：¿ustedes quieren algo más? 在拉丁美洲，对所有人都用 ustedes。"
+          },
+          "examples": [
+            {
+              "es": "Chicos, ¿vosotros queréis algo?",
+              "en": "Guys, do you want anything?",
+              "it": "Ragazzi, volete qualcosa?",
+              "uk": "Хлопці, ви щось хочете?",
+              "de": "Leute, wollt ihr etwas?",
+              "fr": "Les amis, vous voulez quelque chose ?",
+              "pt": "Pessoal, vocês querem alguma coisa? (vosotros)",
+              "zh": "伙计们，你们想要点什么吗？"
+            },
+            {
+              "es": "Buenos días, ¿ustedes quieren algo más?",
+              "en": "Good morning, do you want anything else? (formal, to several people)",
+              "it": "Buongiorno, i signori desiderano altro?",
+              "uk": "Доброго ранку, чи бажаєте ще чогось? (офіційно, до кількох людей)",
+              "de": "Guten Morgen, möchten Sie noch etwas? (förmlich, an mehrere Personen)",
+              "fr": "Bonjour, vous désirez autre chose ? (formel, à plusieurs personnes)",
+              "pt": "Bom dia, os senhores desejam mais alguma coisa?",
+              "zh": "早上好，请问各位还需要别的吗？"
+            },
+            {
+              "es": "¿Ustedes son de aquí?",
+              "en": "Are you from here? (formal, to several people)",
+              "it": "Lor signori sono di qui?",
+              "uk": "Ви звідси? (офіційно, до кількох людей)",
+              "de": "Sind Sie von hier? (förmlich, an mehrere Personen)",
+              "fr": "Vous êtes d'ici ? (formel, à plusieurs personnes)",
+              "pt": "Os senhores são daqui?",
+              "zh": "请问各位是本地人吗？"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Buenos días. ¿Qué ",
+          "after": " tomar ustedes?",
+          "options": [
+            "quieren",
+            "queréis",
+            "quiere"
+          ],
+          "answer": "quieren",
+          "en": "Good morning. What would you like to drink? (formal, to several people)",
+          "it": "Buongiorno. Che cosa desiderano bere i signori?",
+          "uk": "Доброго ранку. Що бажаєте випити? (офіційно, до кількох людей)",
+          "de": "Guten Morgen. Was möchten Sie trinken? (förmlich, an mehrere Personen)",
+          "fr": "Bonjour. Qu'est-ce que vous désirez boire ? (formel, à plusieurs personnes)",
+          "pt": "Bom dia. O que os senhores vão querer beber?",
+          "zh": "早上好。请问各位想喝点什么？",
+          "hint": {
+            "en": "ustedes takes the ellos form: quieren.",
+            "it": "ustedes prende la forma di ellos: quieren.",
+            "uk": "ustedes вживається з формою для ellos: quieren.",
+            "de": "ustedes nimmt die ellos-Form: quieren.",
+            "fr": "ustedes prend la forme de ellos : quieren.",
+            "pt": "ustedes leva a forma de ellos: quieren.",
+            "zh": "ustedes 用 ellos 的形式：quieren。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "fire",
+          "before": "Chicos, ¿qué ",
+          "after": " hacer esta noche?",
+          "label": "querer",
+          "accepted": [
+            "queréis"
+          ],
+          "en": "Guys, what do you want to do tonight?",
+          "it": "Ragazzi, che cosa volete fare stasera?",
+          "uk": "Хлопці, що хочете робити сьогодні ввечері?",
+          "de": "Leute, was wollt ihr heute Abend machen?",
+          "fr": "Les amis, qu'est-ce que vous voulez faire ce soir ?",
+          "pt": "Pessoal, o que vocês querem fazer hoje à noite?",
+          "zh": "伙计们，你们今晚想干什么？",
+          "hint": {
+            "en": "Friends in Spain: vosotros, queréis.",
+            "it": "Amici in Spagna: vosotros, queréis.",
+            "uk": "Друзі в Іспанії: vosotros, queréis.",
+            "de": "Freunde in Spanien: vosotros, queréis.",
+            "fr": "Des amis en Espagne : vosotros, queréis.",
+            "pt": "Amigos na Espanha: vosotros, queréis.",
+            "zh": "在西班牙对朋友：vosotros，queréis。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "vos",
+              "kind": "ending"
+            },
+            {
+              "text": "sos",
+              "kind": "stem"
+            },
+            {
+              "text": "=",
+              "kind": "chunk"
+            },
+            {
+              "text": "tú eres",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "In Argentina, Uruguay and much of Central America people say vos instead of tú, with their own forms: vos sos, vos tenés, vos querés. Everyone understands tú, so in this course you'll keep using tú.",
+            "it": "In Argentina, Uruguay e in gran parte dell'America Centrale si dice vos invece di tú, con forme proprie: vos sos, vos tenés, vos querés. Tutti capiscono tú, quindi in questo corso continuerai a usare tú.",
+            "uk": "В Аргентині, Уругваї та значній частині Центральної Америки замість tú кажуть vos, з власними формами: vos sos, vos tenés, vos querés. tú розуміють усі, тож у цьому курсі ти й далі вживатимеш tú.",
+            "de": "In Argentinien, Uruguay und großen Teilen Mittelamerikas sagt man vos statt tú, mit eigenen Formen: vos sos, vos tenés, vos querés. tú versteht jeder, deshalb benutzt du in diesem Kurs weiter tú.",
+            "fr": "En Argentine, en Uruguay et dans une grande partie de l'Amérique centrale, on dit vos au lieu de tú, avec des formes à part : vos sos, vos tenés, vos querés. Tout le monde comprend tú, donc dans ce cours tu continueras à utiliser tú.",
+            "pt": "Na Argentina, no Uruguai e em boa parte da América Central, as pessoas dizem vos em vez de tú, com formas próprias: vos sos, vos tenés, vos querés. Todo mundo entende tú, então neste curso você vai continuar usando tú.",
+            "zh": "在阿根廷、乌拉圭和中美洲的很多地方，人们用 vos 代替 tú，而且有自己的动词形式：vos sos，vos tenés，vos querés。大家都听得懂 tú，所以在这门课里你继续用 tú。"
+          },
+          "examples": [
+            {
+              "es": "¿Vos sos de Buenos Aires?",
+              "en": "Are you from Buenos Aires?",
+              "it": "Sei di Buenos Aires?",
+              "uk": "Ти з Буенос-Айреса?",
+              "de": "Bist du aus Buenos Aires?",
+              "fr": "Tu es de Buenos Aires ?",
+              "pt": "Você é de Buenos Aires? (vos)",
+              "zh": "你是布宜诺斯艾利斯人吗？"
+            },
+            {
+              "es": "¿Vos tenés hermanos?",
+              "en": "Have you got any brothers or sisters?",
+              "it": "Hai fratelli?",
+              "uk": "У тебе є брати чи сестри?",
+              "de": "Hast du Geschwister?",
+              "fr": "Tu as des frères et sœurs ?",
+              "pt": "Você tem irmãos? (vos)",
+              "zh": "你有兄弟姐妹吗？"
+            },
+            {
+              "es": "¿Qué querés tomar?",
+              "en": "What do you want to drink?",
+              "it": "Che cosa vuoi bere?",
+              "uk": "Що будеш пити?",
+              "de": "Was willst du trinken?",
+              "fr": "Qu'est-ce que tu veux boire ?",
+              "pt": "O que você quer beber? (vos)",
+              "zh": "你想喝点什么？"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "vos",
+              "en": "you (instead of tú, in much of Latin America)",
+              "it": "tu (al posto di tú, in gran parte dell'America Latina)",
+              "uk": "ти (замість tú, у значній частині Латинської Америки)",
+              "de": "du (statt tú, in großen Teilen Lateinamerikas)",
+              "fr": "tu (au lieu de tú, dans une grande partie de l'Amérique latine)",
+              "pt": "você (em vez de tú, em boa parte da América Latina)",
+              "zh": "你（拉丁美洲很多地方用来代替 tú）"
+            },
+            {
+              "es": "sos",
+              "en": "you are (vos) = eres",
+              "it": "(vos) sei = eres",
+              "uk": "ти є (vos) = eres",
+              "de": "du bist (vos) = eres",
+              "fr": "tu es (vos) = eres",
+              "pt": "você é (vos) = eres",
+              "zh": "你是（vos）= eres"
+            },
+            {
+              "es": "tenés",
+              "en": "you have (vos) = tienes",
+              "it": "(vos) hai = tienes",
+              "uk": "ти маєш (vos) = tienes",
+              "de": "du hast (vos) = tienes",
+              "fr": "tu as (vos) = tienes",
+              "pt": "você tem (vos) = tienes",
+              "zh": "你有（vos）= tienes"
+            },
+            {
+              "es": "querés",
+              "en": "you want (vos) = quieres",
+              "it": "(vos) vuoi = quieres",
+              "uk": "ти хочеш (vos) = quieres",
+              "de": "du willst (vos) = quieres",
+              "fr": "tu veux (vos) = quieres",
+              "pt": "você quer (vos) = quieres",
+              "zh": "你想要（vos）= quieres"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "¿Tú ",
+          "after": " tiempo?",
+          "options": [
+            "tienes",
+            "tenés",
+            "tiene"
+          ],
+          "answer": "tienes",
+          "en": "Have you got time?",
+          "it": "Hai tempo?",
+          "uk": "У тебе є час?",
+          "de": "Hast du Zeit?",
+          "fr": "Tu as le temps ?",
+          "pt": "Você tem tempo?",
+          "zh": "你有时间吗？",
+          "hint": {
+            "en": "In Spain, tú goes with tienes; tenés goes with vos.",
+            "it": "In Spagna, tú va con tienes; tenés va con vos.",
+            "uk": "В Іспанії з tú вживається tienes; tenés — з vos.",
+            "de": "In Spanien gehört zu tú tienes; tenés gehört zu vos.",
+            "fr": "En Espagne, tú va avec tienes ; tenés va avec vos.",
+            "pt": "Na Espanha, tú vai com tienes; tenés vai com vos.",
+            "zh": "在西班牙，tú 和 tienes 搭配；tenés 和 vos 搭配。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "fire",
+          "before": "¿Tú ",
+          "after": " de Buenos Aires?",
+          "options": [
+            "eres",
+            "sos",
+            "es"
+          ],
+          "answer": "eres",
+          "en": "Are you from Buenos Aires?",
+          "it": "Sei di Buenos Aires?",
+          "uk": "Ти з Буенос-Айреса?",
+          "de": "Bist du aus Buenos Aires?",
+          "fr": "Tu es de Buenos Aires ?",
+          "pt": "Você é de Buenos Aires?",
+          "zh": "你是布宜诺斯艾利斯人吗？",
+          "hint": {
+            "en": "vos sos = tú eres.",
+            "it": "vos sos = tú eres.",
+            "uk": "vos sos = tú eres.",
+            "de": "vos sos = tú eres.",
+            "fr": "vos sos = tú eres.",
+            "pt": "vos sos = tú eres.",
+            "zh": "vos sos = tú eres。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "Perdone, ¿",
+          "after": " usted dónde está la estación?",
+          "options": [
+            "sabe",
+            "sabes",
+            "sabéis"
+          ],
+          "answer": "sabe",
+          "en": "Excuse me, do you know where the station is?",
+          "it": "Mi scusi, sa dov'è la stazione?",
+          "uk": "Перепрошую, Ви не знаєте, де вокзал?",
+          "de": "Entschuldigen Sie, wissen Sie, wo der Bahnhof ist?",
+          "fr": "Excusez-moi, vous savez où est la gare ?",
+          "pt": "Com licença, o senhor sabe onde fica a estação?",
+          "zh": "打扰一下，请问您知道车站在哪儿吗？",
+          "hint": {
+            "en": "usted takes the él / ella form: sabe.",
+            "it": "usted prende la forma di él / ella: sabe.",
+            "uk": "usted вживається з формою для él / ella: sabe.",
+            "de": "usted nimmt die él / ella-Form: sabe.",
+            "fr": "usted prend la forme de él / ella : sabe.",
+            "pt": "usted leva a forma de él / ella: sabe.",
+            "zh": "usted 用 él / ella 的形式：sabe。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "mix",
+          "before": "Señora, ¿",
+          "after": " ayuda con la maleta?",
+          "label": "querer",
+          "accepted": [
+            "quiere"
+          ],
+          "en": "Would you like some help with your suitcase, madam?",
+          "it": "Signora, vuole una mano con la valigia?",
+          "uk": "Пані, Вам допомогти з валізою?",
+          "de": "Möchten Sie Hilfe mit Ihrem Koffer?",
+          "fr": "Vous voulez un coup de main avec votre valise, madame ?",
+          "pt": "A senhora quer ajuda com a mala?",
+          "zh": "女士，需要我帮您拿行李箱吗？",
+          "hint": {
+            "en": "señora: usted, so quiere.",
+            "it": "señora: usted, quindi quiere.",
+            "uk": "señora: usted, тож quiere.",
+            "de": "señora: usted, also quiere.",
+            "fr": "señora : usted, donc quiere.",
+            "pt": "señora: usted, então quiere.",
+            "zh": "señora：用 usted，所以是 quiere。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "mix",
+          "intention": {
+            "en": "You're presenting to a group of clients. Ask them: do you have any questions?",
+            "it": "Stai facendo una presentazione a un gruppo di clienti. Chiedi: avete domande? (in modo formale)",
+            "uk": "Ти проводиш презентацію для групи клієнтів. Запитай їх: у вас є запитання?",
+            "de": "Du hältst eine Präsentation vor einer Gruppe von Kunden. Frag sie: Haben Sie Fragen?",
+            "fr": "Tu fais une présentation devant un groupe de clients. Demande-leur, de façon formelle : vous avez des questions ?",
+            "pt": "Você está fazendo uma apresentação para um grupo de clientes. Pergunte: os senhores têm alguma pergunta?",
+            "zh": "你正在给一群客户做演示。问他们：请问各位有什么问题吗？"
+          },
+          "accepted": [
+            "¿Ustedes tienen alguna pregunta?",
+            "¿Tienen alguna pregunta?",
+            "¿Tienen ustedes alguna pregunta?"
+          ],
+          "tiles": [
+            "¿Ustedes",
+            "tienen",
+            "alguna",
+            "pregunta?",
+            "algún",
+            "tener"
+          ],
+          "en": "Do you have any questions? (formal, to several people)",
+          "it": "Avete delle domande? (formale, a più persone)",
+          "uk": "У вас є запитання? (офіційно, до кількох людей)",
+          "de": "Haben Sie Fragen? (förmlich, an mehrere Personen)",
+          "fr": "Vous avez des questions ? (formel, à plusieurs personnes)",
+          "pt": "Os senhores têm alguma pergunta?",
+          "zh": "请问各位有什么问题吗？",
+          "hint": {
+            "en": "Several clients, formal: ustedes tienen.",
+            "it": "Più clienti, formale: ustedes tienen.",
+            "uk": "Кілька клієнтів, офіційно: ustedes tienen.",
+            "de": "Mehrere Kunden, förmlich: ustedes tienen.",
+            "fr": "Plusieurs clients, formel : ustedes tienen.",
+            "pt": "Vários clientes, formal: ustedes tienen.",
+            "zh": "几位客户，正式：ustedes tienen。"
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "You're meeting your partner's grandmother for the first time. Write in Spanish: «Nice to meet you. Are you from {city} too?»",
+            "it": "Conosci per la prima volta la nonna del tuo compagno. Scrivi in spagnolo: «Piacere. Anche Lei è di {city}?»",
+            "uk": "Ти вперше знайомишся з бабусею свого партнера чи партнерки. Напиши іспанською: «Дуже приємно. Ви теж із міста {city}?»",
+            "de": "Du lernst die Großmutter deines Partners zum ersten Mal kennen. Schreib auf Spanisch: «Freut mich. Sind Sie auch aus {city}?»",
+            "fr": "Tu rencontres pour la première fois la grand-mère de ton compagnon. Écris en espagnol : «Enchanté. Vous aussi, vous êtes de {city} ?»",
+            "pt": "Você vai conhecer a avó do seu namorado pela primeira vez. Escreva em espanhol: «Muito prazer. A senhora também é de {city}?»",
+            "zh": "你第一次见你伴侣的奶奶。用西班牙语写：«很高兴认识您。您也是{city}人吗？»"
+          },
+          "accepted": [
+            "Mucho gusto. ¿Usted también es de {city}?",
+            "Mucho gusto. ¿Usted es de {city} también?",
+            "Mucho gusto. ¿También es usted de {city}?",
+            "Mucho gusto. ¿También es de {city}?",
+            "Encantado. ¿Usted también es de {city}?",
+            "Encantada. ¿Usted también es de {city}?",
+            "Encantado. ¿También es de {city}?",
+            "Encantada. ¿También es de {city}?"
+          ],
+          "model": {
+            "es": "Mucho gusto. ¿Usted también es de {city}?",
+            "en": "Nice to meet you. Are you from {city} too?",
+            "it": "Piacere. Anche Lei è di {city}?",
+            "uk": "Дуже приємно. Ви теж із міста {city}?",
+            "de": "Freut mich. Sind Sie auch aus {city}?",
+            "fr": "Enchanté. Vous aussi, vous êtes de {city} ?",
+            "pt": "Muito prazer. A senhora também é de {city}?",
+            "zh": "很高兴认识您。您也是{city}人吗？"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u44l2",
+      "goal": {
+        "en": "Hear the difference between formal and casual Spanish: disculpe and ¿le importaría…? with strangers, tío, guay and currar with friends, and greetings and goodbyes for each.",
+        "it": "Senti la differenza tra lo spagnolo formale e quello colloquiale: disculpe e ¿le importaría…? con gli sconosciuti, tío, guay e currar con gli amici, e saluti per ogni situazione.",
+        "uk": "Відчувай різницю між офіційною і невимушеною іспанською: disculpe і ¿le importaría…? з незнайомими, tío, guay і currar з друзями, а також привітання й прощання для кожного випадку.",
+        "de": "Hör den Unterschied zwischen förmlichem und lockerem Spanisch: disculpe und ¿le importaría…? bei Fremden, tío, guay und currar unter Freunden, und Begrüßungen und Verabschiedungen für beides.",
+        "fr": "Entends la différence entre l'espagnol formel et familier : disculpe et ¿le importaría…? avec des inconnus, tío, guay et currar entre amis, et les salutations pour chaque situation.",
+        "pt": "Perceba a diferença entre o espanhol formal e o informal: disculpe e ¿le importaría…? com desconhecidos, tío, guay e currar com amigos, e cumprimentos e despedidas para cada situação.",
+        "zh": "听出正式西班牙语和随意西班牙语的区别：对陌生人用 disculpe 和 ¿le importaría…?，对朋友用 tío、guay 和 currar，以及两种场合各自的问候语和告别语。"
+      },
+      "target": {
+        "es": "Disculpe, ¿le importaría hablar más despacio?",
+        "en": "Excuse me, would you mind speaking more slowly?",
+        "it": "Mi scusi, Le dispiacerebbe parlare più piano?",
+        "uk": "Перепрошую, Ви не могли б говорити повільніше?",
+        "de": "Entschuldigen Sie, würde es Ihnen etwas ausmachen, langsamer zu sprechen?",
+        "fr": "Excusez-moi, est-ce que ça vous dérangerait de parler plus lentement ?",
+        "pt": "Com licença, o senhor se importaria de falar mais devagar?",
+        "zh": "劳驾，您介意说慢一点吗？"
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "disculpe",
+              "en": "excuse me (usted)",
+              "it": "mi scusi",
+              "uk": "перепрошую (usted)",
+              "de": "entschuldigen Sie (usted)",
+              "fr": "excusez-moi (usted)",
+              "pt": "com licença, desculpe (usted)",
+              "zh": "劳驾，打扰一下（usted）",
+              "kind": "chunk"
+            },
+            {
+              "es": "disculpa",
+              "en": "excuse me (tú)",
+              "it": "scusa",
+              "uk": "вибач (tú)",
+              "de": "entschuldige (tú)",
+              "fr": "excuse-moi (tú)",
+              "pt": "desculpa (tú)",
+              "zh": "不好意思，打扰一下（tú）",
+              "kind": "chunk"
+            },
+            {
+              "es": "¿le importaría…?",
+              "en": "would you mind…? (usted)",
+              "it": "Le dispiacerebbe…?",
+              "uk": "Ви не заперечуєте…? (usted)",
+              "de": "würde es Ihnen etwas ausmachen, …? (usted)",
+              "fr": "est-ce que ça vous dérangerait de… ? (usted)",
+              "pt": "o senhor / a senhora se importaria de…? (usted)",
+              "zh": "您介意……吗？（usted）",
+              "kind": "chunk"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "disculpe,",
+              "kind": "chunk"
+            },
+            {
+              "text": "¿le",
+              "kind": "ending"
+            },
+            {
+              "text": "importaría…?",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "With strangers and in formal situations, use usted forms, le instead of te, and a soft opening like disculpe: disculpe, ¿le importaría esperar un momento? With a friend: disculpa, ¿te importaría…?",
+            "it": "Con gli sconosciuti e nelle situazioni formali, usa le forme di usted, le invece di te, e un'apertura morbida come disculpe: disculpe, ¿le importaría esperar un momento? Con un amico: disculpa, ¿te importaría…?",
+            "uk": "З незнайомими людьми та в офіційних ситуаціях вживай форми usted, le замість te і м'який початок на кшталт disculpe: disculpe, ¿le importaría esperar un momento? З другом: disculpa, ¿te importaría…?",
+            "de": "Bei Fremden und in förmlichen Situationen nimm die usted-Formen, le statt te und einen sanften Einstieg wie disculpe: disculpe, ¿le importaría esperar un momento? Bei einem Freund: disculpa, ¿te importaría…?",
+            "fr": "Avec des inconnus et dans les situations formelles, utilise les formes de usted, le au lieu de te, et une entrée en matière douce comme disculpe : disculpe, ¿le importaría esperar un momento? Avec un ami : disculpa, ¿te importaría…?",
+            "pt": "Com desconhecidos e em situações formais, use as formas de usted, le em vez de te, e uma abertura suave como disculpe: disculpe, ¿le importaría esperar un momento? Com um amigo: disculpa, ¿te importaría…?",
+            "zh": "对陌生人和在正式场合，用 usted 的形式，用 le 代替 te，开头用 disculpe 这样委婉的话：disculpe, ¿le importaría esperar un momento? 对朋友则说：disculpa, ¿te importaría…?"
+          },
+          "examples": [
+            {
+              "es": "Disculpe, ¿le importaría esperar un momento?",
+              "en": "Excuse me, would you mind waiting a moment?",
+              "it": "Mi scusi, Le dispiacerebbe aspettare un momento?",
+              "uk": "Перепрошую, Ви не могли б хвилинку почекати?",
+              "de": "Entschuldigen Sie, würde es Ihnen etwas ausmachen, einen Moment zu warten?",
+              "fr": "Excusez-moi, est-ce que ça vous dérangerait d'attendre un instant ?",
+              "pt": "Com licença, o senhor se importaria de esperar um momento?",
+              "zh": "劳驾，您介意稍等一下吗？"
+            },
+            {
+              "es": "Disculpe, ¿sabe dónde está la estación?",
+              "en": "Excuse me, do you know where the station is? (usted)",
+              "it": "Mi scusi, sa dov'è la stazione?",
+              "uk": "Перепрошую, Ви не знаєте, де вокзал? (usted)",
+              "de": "Entschuldigen Sie, wissen Sie, wo der Bahnhof ist? (usted)",
+              "fr": "Excusez-moi, vous savez où est la gare ? (usted)",
+              "pt": "Com licença, o senhor sabe onde fica a estação? (usted)",
+              "zh": "劳驾，请问您知道车站在哪儿吗？"
+            },
+            {
+              "es": "Disculpa, ¿sabes dónde está la estación?",
+              "en": "Excuse me, do you know where the station is? (tú)",
+              "it": "Scusa, sai dov'è la stazione?",
+              "uk": "Вибач, ти не знаєш, де вокзал? (tú)",
+              "de": "Entschuldige, weißt du, wo der Bahnhof ist? (tú)",
+              "fr": "Excuse-moi, tu sais où est la gare ? (tú)",
+              "pt": "Desculpa, você sabe onde fica a estação? (tú)",
+              "zh": "不好意思，你知道车站在哪儿吗？"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Disculpe, ¿",
+          "after": " importaría cerrar la ventana?",
+          "options": [
+            "le",
+            "te",
+            "os"
+          ],
+          "answer": "le",
+          "en": "Excuse me, would you mind closing the window?",
+          "it": "Mi scusi, Le dispiacerebbe chiudere la finestra?",
+          "uk": "Перепрошую, Ви не могли б зачинити вікно?",
+          "de": "Entschuldigen Sie, würde es Ihnen etwas ausmachen, das Fenster zu schließen?",
+          "fr": "Excusez-moi, est-ce que ça vous dérangerait de fermer la fenêtre ?",
+          "pt": "Com licença, o senhor se importaria de fechar a janela?",
+          "zh": "劳驾，您介意关一下窗户吗？",
+          "hint": {
+            "en": "disculpe is for usted, so le.",
+            "it": "disculpe è per usted, quindi le.",
+            "uk": "disculpe — це для usted, тож le.",
+            "de": "disculpe ist für usted, also le.",
+            "fr": "disculpe, c'est pour usted, donc le.",
+            "pt": "disculpe é para usted, então le.",
+            "zh": "disculpe 用于 usted，所以用 le。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "A man in the street is giving you directions very fast. Ask him: excuse me, would you mind speaking more slowly?",
+            "it": "Un signore per strada ti sta dando indicazioni molto in fretta. Chiedigli: mi scusi, Le dispiacerebbe parlare più piano?",
+            "uk": "Чоловік на вулиці дуже швидко пояснює тобі дорогу. Попроси його: перепрошую, Ви не могли б говорити повільніше?",
+            "de": "Ein Mann auf der Straße erklärt dir sehr schnell den Weg. Frag ihn: Entschuldigen Sie, würde es Ihnen etwas ausmachen, langsamer zu sprechen?",
+            "fr": "Un monsieur dans la rue t'explique le chemin très vite. Demande-lui : excusez-moi, est-ce que ça vous dérangerait de parler plus lentement ?",
+            "pt": "Um senhor na rua está te dando indicações muito rápido. Pergunte a ele: com licença, o senhor se importaria de falar mais devagar?",
+            "zh": "街上一位先生给你指路，说得很快。问他：劳驾，您介意说慢一点吗？"
+          },
+          "accepted": [
+            "Disculpe, ¿le importaría hablar más despacio?",
+            "Perdone, ¿le importaría hablar más despacio?",
+            "Disculpe, ¿podría hablar más despacio?"
+          ],
+          "tiles": [
+            "Disculpe,",
+            "¿le",
+            "importaría",
+            "hablar",
+            "más despacio?",
+            "os",
+            "disculpa"
+          ],
+          "en": "Excuse me, would you mind speaking more slowly?",
+          "it": "Mi scusi, Le dispiacerebbe parlare più piano?",
+          "uk": "Перепрошую, Ви не могли б говорити повільніше?",
+          "de": "Entschuldigen Sie, würde es Ihnen etwas ausmachen, langsamer zu sprechen?",
+          "fr": "Excusez-moi, est-ce que ça vous dérangerait de parler plus lentement ?",
+          "pt": "Com licença, o senhor se importaria de falar mais devagar?",
+          "zh": "劳驾，您介意说慢一点吗？",
+          "hint": {
+            "en": "A stranger: disculpe and le.",
+            "it": "Uno sconosciuto: disculpe e le.",
+            "uk": "Незнайомець: disculpe і le.",
+            "de": "Ein Fremder: disculpe und le.",
+            "fr": "Un inconnu : disculpe et le.",
+            "pt": "Um desconhecido: disculpe e le.",
+            "zh": "陌生人：disculpe 和 le。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "tío",
+              "kind": "chunk"
+            },
+            {
+              "text": "guay",
+              "kind": "chunk"
+            },
+            {
+              "text": "currar",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "With friends in Spain, people talk much more casually: tío / tía (mate), guay (cool), currar (to work). Use them only with people you know well, never with a client or your boss.",
+            "it": "Con gli amici, in Spagna si parla in modo molto più colloquiale: tío / tía (amico, bello), guay (figo), currar (lavorare). Usali solo con chi conosci bene, mai con un cliente o con il tuo capo.",
+            "uk": "З друзями в Іспанії говорять значно невимушеніше: tío / tía (друже / подруго), guay (класно), currar (працювати). Вживай їх лише з тими, кого добре знаєш, і ніколи з клієнтом чи начальником.",
+            "de": "Unter Freunden spricht man in Spanien viel lockerer: tío / tía (Alter, Mädel), guay (cool), currar (arbeiten, wie „malochen“). Benutz diese Wörter nur mit Leuten, die du gut kennst, nie mit einem Kunden oder deinem Chef.",
+            "fr": "Entre amis, en Espagne, on parle de façon beaucoup plus familière : tío / tía (mec, ma belle), guay (cool), currar (bosser). Utilise-les seulement avec des gens que tu connais bien, jamais avec un client ou ton chef.",
+            "pt": "Com amigos, na Espanha se fala de um jeito muito mais informal: tío / tía (cara, mano / amiga), guay (legal, massa), currar (trabalhar, ralar). Use só com quem você conhece bem, nunca com um cliente ou com o seu chefe.",
+            "zh": "在西班牙，朋友之间说话随意得多：tío / tía（哥们儿／姐们儿），guay（酷），currar（干活，上班）。只对很熟的人用，千万别对客户或老板用。"
+          },
+          "examples": [
+            {
+              "es": "¡Qué guay, tía!",
+              "en": "How cool!",
+              "it": "Che figata!",
+              "uk": "Як класно, подруго!",
+              "de": "Wie cool! (zu einer Freundin)",
+              "fr": "Trop cool, ma belle !",
+              "pt": "Que legal, amiga!",
+              "zh": "太酷了，姐们儿！"
+            },
+            {
+              "es": "Mañana curro hasta las ocho.",
+              "en": "Tomorrow I'm working till eight.",
+              "it": "Domani lavoro fino alle otto.",
+              "uk": "Завтра я працюю до восьмої.",
+              "de": "Morgen arbeite ich bis acht.",
+              "fr": "Demain, je bosse jusqu'à huit heures.",
+              "pt": "Amanhã eu trampo até as oito.",
+              "zh": "我明天上班到八点。"
+            },
+            {
+              "es": "Tío, ¿vienes o no?",
+              "en": "Mate, are you coming or not?",
+              "it": "Allora, vieni o no?",
+              "uk": "Друже, ти йдеш чи ні?",
+              "de": "Alter, kommst du jetzt oder nicht?",
+              "fr": "Mec, tu viens ou pas ?",
+              "pt": "Cara, você vem ou não?",
+              "zh": "哥们儿，你到底来不来？"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "tío",
+              "en": "mate, man (casual; also uncle)",
+              "it": "amico, bello (colloquiale; anche zio)",
+              "uk": "друже, чувак (розмовне; також «дядько»)",
+              "de": "Alter, Mann (locker; auch Onkel)",
+              "fr": "mec (familier ; aussi oncle)",
+              "pt": "cara, mano (informal; também tio)",
+              "zh": "哥们儿，老兄（口语；也指叔叔、舅舅）"
+            },
+            {
+              "es": "tía",
+              "en": "mate, girl (casual; also aunt)",
+              "it": "amica, bella (colloquiale; anche zia)",
+              "uk": "подруго (розмовне; також «тітка»)",
+              "de": "Mädel, Süße (locker, zu einer Frau; auch Tante)",
+              "fr": "ma belle, ma vieille (familier ; aussi tante)",
+              "pt": "amiga, menina (informal; também tia)",
+              "zh": "姐们儿，闺蜜（口语；也指阿姨、姑姑）"
+            },
+            {
+              "es": "guay",
+              "en": "cool",
+              "it": "figo, forte",
+              "uk": "класний, класно",
+              "de": "cool",
+              "fr": "cool, génial",
+              "pt": "legal, massa",
+              "zh": "酷，很棒"
+            },
+            {
+              "es": "currar",
+              "en": "to work (casual)",
+              "it": "lavorare (colloquiale)",
+              "uk": "працювати (розмовне)",
+              "de": "arbeiten (locker)",
+              "fr": "bosser (travailler, familier)",
+              "pt": "trabalhar (informal, como «trampar», «ralar»)",
+              "zh": "干活，上班（口语）"
+            },
+            {
+              "es": "curro",
+              "en": "I work (casual)",
+              "it": "(io) lavoro (colloquiale)",
+              "uk": "я працюю (розмовне)",
+              "de": "ich arbeite (locker)",
+              "fr": "je bosse (familier)",
+              "pt": "(eu) trabalho (informal)",
+              "zh": "我干活，我上班（口语）"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "¡Tu piso nuevo es muy ",
+          "after": "!",
+          "options": [
+            "guay",
+            "disculpe",
+            "atentamente"
+          ],
+          "answer": "guay",
+          "en": "Your new flat is really cool!",
+          "it": "Il tuo appartamento nuovo è proprio figo!",
+          "uk": "Твоя нова квартира просто класна!",
+          "de": "Deine neue Wohnung ist echt cool!",
+          "fr": "Ton nouvel appart est trop cool !",
+          "pt": "O seu apartamento novo é muito legal!",
+          "zh": "你的新公寓真酷！",
+          "hint": {
+            "en": "Cool, to a friend: guay.",
+            "it": "Figo, a un amico: guay.",
+            "uk": "«Класний» — другові: guay.",
+            "de": "Cool, zu einem Freund: guay.",
+            "fr": "Cool, à un ami : guay.",
+            "pt": "Legal, para um amigo: guay.",
+            "zh": "跟朋友说“酷”：guay。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "fire",
+          "before": "Lo siento, mañana no puedo: ",
+          "after": " hasta tarde.",
+          "label": "currar",
+          "accepted": [
+            "curro"
+          ],
+          "en": "Sorry, I can't tomorrow: I'm working till late.",
+          "it": "Scusa, domani non posso: lavoro fino a tardi.",
+          "uk": "Вибач, завтра не можу: працюю допізна.",
+          "de": "Sorry, morgen kann ich nicht: Ich arbeite bis spät.",
+          "fr": "Désolé, demain je ne peux pas : je bosse jusqu'à tard.",
+          "pt": "Desculpa, amanhã não posso: vou trabalhar até tarde.",
+          "zh": "不好意思，我明天不行：我要上班到很晚。",
+          "hint": {
+            "en": "Casual, for yo: curro.",
+            "it": "Colloquiale, per yo: curro.",
+            "uk": "Розмовне, для yo: curro.",
+            "de": "Locker, für yo: curro.",
+            "fr": "Familier, pour yo : curro.",
+            "pt": "Informal, para yo: curro.",
+            "zh": "口语，对 yo：curro。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "hola, ¿qué tal?",
+              "kind": "chunk"
+            },
+            {
+              "text": "/",
+              "kind": "chunk"
+            },
+            {
+              "text": "buenos días, ¿cómo está?",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "Greetings and goodbyes change too. With friends: hola, ¿qué tal? and hasta luego. Formal: buenos días, ¿cómo está? and que tenga un buen día.",
+            "it": "Anche i saluti cambiano. Con gli amici: hola, ¿qué tal? e hasta luego. Formale: buenos días, ¿cómo está? e que tenga un buen día.",
+            "uk": "Привітання і прощання теж змінюються. З друзями: hola, ¿qué tal? і hasta luego. Офіційно: buenos días, ¿cómo está? і que tenga un buen día.",
+            "de": "Auch Begrüßungen und Verabschiedungen ändern sich. Unter Freunden: hola, ¿qué tal? und hasta luego. Förmlich: buenos días, ¿cómo está? und que tenga un buen día.",
+            "fr": "Les salutations changent aussi. Entre amis : hola, ¿qué tal? et hasta luego. En formel : buenos días, ¿cómo está? et que tenga un buen día.",
+            "pt": "Os cumprimentos e as despedidas também mudam. Com amigos: hola, ¿qué tal? e hasta luego. Formal: buenos días, ¿cómo está? e que tenga un buen día.",
+            "zh": "问候语和告别语也会变。对朋友：hola, ¿qué tal? 和 hasta luego。正式场合：buenos días, ¿cómo está? 和 que tenga un buen día。"
+          },
+          "examples": [
+            {
+              "es": "Hola, ¿qué tal?",
+              "en": "Hi, how's it going?",
+              "it": "Ciao, come va?",
+              "uk": "Привіт, як справи?",
+              "de": "Hallo, wie geht's?",
+              "fr": "Salut, ça va ?",
+              "pt": "Oi, tudo bem?",
+              "zh": "嗨，最近怎么样？"
+            },
+            {
+              "es": "Buenos días, ¿cómo está usted?",
+              "en": "Good morning, how are you? (usted)",
+              "it": "Buongiorno, come sta?",
+              "uk": "Доброго ранку, як Ви? (usted)",
+              "de": "Guten Morgen, wie geht es Ihnen? (usted)",
+              "fr": "Bonjour, comment allez-vous ? (usted)",
+              "pt": "Bom dia, como vai o senhor? (usted)",
+              "zh": "早上好，您好吗？"
+            },
+            {
+              "es": "Muchas gracias, que tenga un buen día.",
+              "en": "Thank you very much, have a nice day. (usted)",
+              "it": "Grazie mille, buona giornata.",
+              "uk": "Щиро дякую, гарного Вам дня. (usted)",
+              "de": "Vielen Dank, einen schönen Tag noch. (usted)",
+              "fr": "Merci beaucoup, bonne journée. (usted)",
+              "pt": "Muito obrigado, tenha um bom dia. (usted)",
+              "zh": "非常感谢，祝您今天愉快。"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Muchas gracias, señora, que ",
+          "after": " un buen día.",
+          "options": [
+            "tenga",
+            "tiene",
+            "tener"
+          ],
+          "answer": "tenga",
+          "en": "Thank you very much, madam, have a nice day.",
+          "it": "Grazie mille, signora, buona giornata.",
+          "uk": "Щиро дякую, пані, гарного Вам дня.",
+          "de": "Vielen Dank, einen schönen Tag noch! (zu einer Frau, mit Sie)",
+          "fr": "Merci beaucoup, madame, bonne journée.",
+          "pt": "Muito obrigado, senhora, tenha um bom dia.",
+          "zh": "非常感谢，女士，祝您今天愉快。",
+          "hint": {
+            "en": "A wish after que: the subjunctive tenga, for usted.",
+            "it": "Un augurio dopo que: il congiuntivo tenga, per usted.",
+            "uk": "Побажання після que: «subjuntivo» tenga, для usted.",
+            "de": "Ein Wunsch nach que: der subjuntivo tenga, für usted.",
+            "fr": "Un souhait après que : le subjonctif tenga, pour usted.",
+            "pt": "Um desejo depois de que: o subjuntivo tenga, para usted.",
+            "zh": "que 后面表达祝愿：虚拟式 tenga，用于 usted。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "You bump into an old friend (a man) in the street. Say: hi, mate! How's it going?",
+            "it": "Incontri per strada un vecchio amico. Digli: ciao, bello! Come va?",
+            "uk": "Ти випадково зустрічаєш на вулиці старого друга. Скажи: привіт, друже! Як справи?",
+            "de": "Du triffst auf der Straße zufällig einen alten Freund. Sag: Hallo, Alter! Wie geht's?",
+            "fr": "Tu croises un vieil ami (un homme) dans la rue. Dis-lui : salut, mec ! Ça va ?",
+            "pt": "Você encontra um velho amigo na rua. Diga: e aí, cara! Tudo bem?",
+            "zh": "你在街上碰到一个老朋友（男）。说：嗨，哥们儿！最近怎么样？"
+          },
+          "accepted": [
+            "¡Hola, tío! ¿Qué tal?",
+            "¡Hola! ¿Qué tal, tío?"
+          ],
+          "tiles": [
+            "¡Hola,",
+            "tío!",
+            "¿Qué tal?",
+            "usted",
+            "está"
+          ],
+          "en": "Hi, mate! How's it going?",
+          "it": "Ciao, bello! Come va?",
+          "uk": "Привіт, друже! Як справи?",
+          "de": "Hallo, Alter! Wie geht's?",
+          "fr": "Salut, mec ! Ça va ?",
+          "pt": "E aí, cara! Tudo bem?",
+          "zh": "嗨，哥们儿！最近怎么样？",
+          "hint": {
+            "en": "An old friend: hola, tío and ¿qué tal?",
+            "it": "Un vecchio amico: hola, tío e ¿qué tal?",
+            "uk": "Старий друг: hola, tío і ¿qué tal?",
+            "de": "Ein alter Freund: hola, tío und ¿qué tal?",
+            "fr": "Un vieil ami : hola, tío et ¿qué tal?",
+            "pt": "Um velho amigo: hola, tío e ¿qué tal?",
+            "zh": "老朋友：hola, tío 和 ¿qué tal?"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "",
+          "after": ", ¿sabe dónde hay una farmacia?",
+          "options": [
+            "Disculpe",
+            "Disculpa",
+            "Tío"
+          ],
+          "answer": "Disculpe",
+          "en": "Excuse me, do you know where there's a chemist's?",
+          "it": "Mi scusi, sa dove c'è una farmacia?",
+          "uk": "Перепрошую, Ви не знаєте, де тут аптека?",
+          "de": "Entschuldigen Sie, wissen Sie, wo hier eine Apotheke ist?",
+          "fr": "Excusez-moi, vous savez où il y a une pharmacie ?",
+          "pt": "Com licença, o senhor sabe onde tem uma farmácia?",
+          "zh": "劳驾，请问您知道哪儿有药店吗？",
+          "hint": {
+            "en": "sabe is the usted form, so disculpe.",
+            "it": "sabe è la forma di usted, quindi disculpe.",
+            "uk": "sabe — форма для usted, тож disculpe.",
+            "de": "sabe ist die usted-Form, also disculpe.",
+            "fr": "sabe est la forme de usted, donc disculpe.",
+            "pt": "sabe é a forma de usted, então disculpe.",
+            "zh": "sabe 是 usted 的形式，所以用 disculpe。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "mix",
+          "before": "Oye, ¿me ",
+          "after": " la sal?",
+          "label": "pasar",
+          "accepted": [
+            "pasas"
+          ],
+          "en": "Hey, can you pass me the salt?",
+          "it": "Senti, mi passi il sale?",
+          "uk": "Слухай, передаси мені сіль?",
+          "de": "Du, kannst du mir das Salz geben?",
+          "fr": "Dis, tu me passes le sel ?",
+          "pt": "Ei, você me passa o sal?",
+          "zh": "喂，把盐递给我好吗？",
+          "hint": {
+            "en": "oye is for tú, so pasas.",
+            "it": "oye è per tú, quindi pasas.",
+            "uk": "oye — це для tú, тож pasas.",
+            "de": "oye ist für tú, also pasas.",
+            "fr": "oye, c'est pour tú, donc pasas.",
+            "pt": "oye é para tú, então pasas.",
+            "zh": "oye 用于 tú，所以是 pasas。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "mix",
+          "intention": {
+            "en": "In a shop, the assistant is talking very fast. Say: excuse me, could you repeat it, please?",
+            "it": "In un negozio, il commesso parla molto in fretta. Digli: mi scusi, potrebbe ripeterlo, per favore?",
+            "uk": "У магазині продавець говорить дуже швидко. Скажи: перепрошую, Ви не могли б повторити, будь ласка?",
+            "de": "In einem Geschäft spricht der Verkäufer sehr schnell. Sag: Entschuldigen Sie, könnten Sie das bitte wiederholen?",
+            "fr": "Dans un magasin, le vendeur parle très vite. Dis-lui : excusez-moi, vous pourriez répéter, s'il vous plaît ?",
+            "pt": "Numa loja, o vendedor está falando muito rápido. Diga: com licença, o senhor poderia repetir, por favor?",
+            "zh": "在一家商店里，店员说话很快。说：劳驾，您能再说一遍吗？"
+          },
+          "accepted": [
+            "Disculpe, ¿podría repetirlo, por favor?",
+            "Perdone, ¿podría repetirlo, por favor?",
+            "Disculpe, ¿me lo podría repetir, por favor?",
+            "Disculpe, ¿le importaría repetirlo, por favor?"
+          ],
+          "tiles": [
+            "Disculpe,",
+            "¿podría",
+            "repetirlo,",
+            "por favor?",
+            "disculpa",
+            "podrías"
+          ],
+          "en": "Excuse me, could you repeat it, please?",
+          "it": "Mi scusi, potrebbe ripeterlo, per favore?",
+          "uk": "Перепрошую, Ви не могли б повторити, будь ласка?",
+          "de": "Entschuldigen Sie, könnten Sie das bitte wiederholen?",
+          "fr": "Excusez-moi, vous pourriez répéter, s'il vous plaît ?",
+          "pt": "Com licença, o senhor poderia repetir, por favor?",
+          "zh": "劳驾，您能再说一遍吗？",
+          "hint": {
+            "en": "A stranger: disculpe and podría.",
+            "it": "Uno sconosciuto: disculpe e podría.",
+            "uk": "Незнайома людина: disculpe і podría.",
+            "de": "Ein Fremder: disculpe und podría.",
+            "fr": "Un inconnu : disculpe et podría.",
+            "pt": "Um desconhecido: disculpe e podría.",
+            "zh": "陌生人：disculpe 和 podría。"
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "An elderly gentleman has just helped you find your way. Write in Spanish: «Thank you very much, have a nice day.»",
+            "it": "Un signore anziano ti ha appena aiutato a trovare la strada. Scrivi in spagnolo: «Grazie mille, buona giornata.»",
+            "uk": "Літній пан щойно допоміг тобі знайти дорогу. Напиши іспанською: «Щиро дякую, гарного Вам дня.»",
+            "de": "Ein älterer Herr hat dir gerade geholfen, den Weg zu finden. Schreib auf Spanisch: «Vielen Dank, einen schönen Tag noch.»",
+            "fr": "Un monsieur âgé vient de t'aider à trouver ton chemin. Écris en espagnol : «Merci beaucoup, bonne journée.»",
+            "pt": "Um senhor de idade acabou de te ajudar a encontrar o caminho. Escreva em espanhol: «Muito obrigado, tenha um bom dia.»",
+            "zh": "一位老先生刚刚帮你找到了路。用西班牙语写：«非常感谢，祝您今天愉快。»"
+          },
+          "accepted": [
+            "Muchas gracias, que tenga un buen día.",
+            "Muchas gracias, que tenga buen día.",
+            "Gracias, que tenga un buen día."
+          ],
+          "model": {
+            "es": "Muchas gracias, que tenga un buen día.",
+            "en": "Thank you very much, have a nice day.",
+            "it": "Grazie mille, buona giornata.",
+            "uk": "Щиро дякую, гарного Вам дня.",
+            "de": "Vielen Dank, einen schönen Tag noch.",
+            "fr": "Merci beaucoup, bonne journée.",
+            "pt": "Muito obrigado, tenha um bom dia.",
+            "zh": "非常感谢，祝您今天愉快。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u44l3",
+      "goal": {
+        "en": "Write a short professional email: open with estimado / estimada, say why you're writing with le escribo para…, attach files with le adjunto…, and close with quedo a la espera de su respuesta and un saludo.",
+        "it": "Scrivi una breve email professionale: apri con estimado / estimada, di' perché scrivi con le escribo para…, allega file con le adjunto…, e chiudi con quedo a la espera de su respuesta e un saludo.",
+        "uk": "Напиши короткий діловий лист: почни з estimado / estimada, поясни мету листа за допомогою le escribo para…, додай файли з le adjunto… і заверши словами quedo a la espera de su respuesta та un saludo.",
+        "de": "Schreib eine kurze berufliche E-Mail: Beginne mit estimado / estimada, sag mit le escribo para…, warum du schreibst, häng Dateien mit le adjunto… an und schließe mit quedo a la espera de su respuesta und un saludo.",
+        "fr": "Écris un court e-mail professionnel : commence par estimado / estimada, dis pourquoi tu écris avec le escribo para…, joins des fichiers avec le adjunto…, et termine par quedo a la espera de su respuesta et un saludo.",
+        "pt": "Escreva um e-mail profissional curto: comece com estimado / estimada, diga por que está escrevendo com le escribo para…, anexe arquivos com le adjunto… e termine com quedo a la espera de su respuesta e un saludo.",
+        "zh": "写一封简短的工作邮件：用 estimado / estimada 开头，用 le escribo para… 说明写信目的，用 le adjunto… 添加附件，最后用 quedo a la espera de su respuesta 和 un saludo 结尾。"
+      },
+      "target": {
+        "es": "Le escribo para pedirle información.",
+        "en": "I'm writing to ask you for some information.",
+        "it": "Le scrivo per chiederLe delle informazioni.",
+        "uk": "Пишу Вам, щоб попросити деяку інформацію.",
+        "de": "Ich schreibe Ihnen, um Sie um einige Informationen zu bitten.",
+        "fr": "Je vous écris pour vous demander des renseignements.",
+        "pt": "Escrevo para lhe pedir informações.",
+        "zh": "我写信是想向您咨询一些信息。"
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "la información",
+              "en": "the information",
+              "it": "le informazioni",
+              "uk": "інформація",
+              "de": "die Information, die Informationen",
+              "fr": "les renseignements, l'information",
+              "pt": "as informações",
+              "zh": "信息",
+              "kind": "chunk"
+            },
+            {
+              "es": "confirmar",
+              "en": "to confirm",
+              "it": "confermare",
+              "uk": "підтверджувати",
+              "de": "bestätigen",
+              "fr": "confirmer",
+              "pt": "confirmar",
+              "zh": "确认",
+              "kind": "stem"
+            },
+            {
+              "es": "la respuesta",
+              "en": "the reply, the answer",
+              "it": "la risposta",
+              "uk": "відповідь",
+              "de": "die Antwort",
+              "fr": "la réponse",
+              "pt": "a resposta",
+              "zh": "回复，答复",
+              "kind": "chunk"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "Estimada señora:",
+              "kind": "chunk"
+            },
+            {
+              "text": "le escribo",
+              "kind": "stem"
+            },
+            {
+              "text": "para",
+              "kind": "rail"
+            },
+            {
+              "text": "…",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "A formal email opens with Estimado señor: or Estimada señora: (Spanish uses a colon). Then say why you're writing: le escribo para + infinitive.",
+            "it": "Un'email formale si apre con Estimado señor: o Estimada señora: (in spagnolo con i due punti). Poi di' perché scrivi: le escribo para + infinito.",
+            "uk": "Офіційний лист починається з Estimado señor: або Estimada señora: (в іспанській після звертання ставлять двокрапку, а не кому, як в українській). Далі поясни, чому пишеш: le escribo para + інфінітив.",
+            "de": "Eine förmliche E-Mail beginnt mit Estimado señor: oder Estimada señora: (auf Spanisch mit Doppelpunkt, im Deutschen mit Komma: „Sehr geehrter Herr …,“). Dann sag, warum du schreibst: le escribo para + Infinitiv.",
+            "fr": "Un e-mail formel commence par Estimado señor: ou Estimada señora: (l'espagnol met deux-points, là où le français met une virgule). Ensuite, dis pourquoi tu écris : le escribo para + infinitif.",
+            "pt": "Um e-mail formal começa com Estimado señor: ou Estimada señora: (em espanhol se usam dois-pontos, não vírgula). Depois diga por que você está escrevendo: le escribo para + infinitivo.",
+            "zh": "正式邮件用 Estimado señor: 或 Estimada señora: 开头（相当于“尊敬的先生／女士”，西班牙语后面用冒号）。然后说明写信目的：le escribo para + 动词原形。"
+          },
+          "examples": [
+            {
+              "es": "Estimada señora: le escribo para pedirle información.",
+              "en": "Dear Madam, I'm writing to ask you for some information.",
+              "it": "Gentile signora, Le scrivo per chiederLe delle informazioni.",
+              "uk": "Шановна пані, пишу Вам, щоб попросити деяку інформацію.",
+              "de": "Sehr geehrte Frau …, ich schreibe Ihnen, um Sie um einige Informationen zu bitten.",
+              "fr": "Madame, je vous écris pour vous demander des renseignements.",
+              "pt": "Prezada senhora, escrevo para lhe pedir informações.",
+              "zh": "尊敬的女士：我写信是想向您咨询一些信息。"
+            },
+            {
+              "es": "Estimado señor: le escribo para confirmar la reunión del martes.",
+              "en": "Dear Sir, I'm writing to confirm Tuesday's meeting.",
+              "it": "Gentile signore, Le scrivo per confermare la riunione di martedì.",
+              "uk": "Шановний пане, пишу Вам, щоб підтвердити зустріч у вівторок.",
+              "de": "Sehr geehrter Herr …, ich schreibe Ihnen, um das Treffen am Dienstag zu bestätigen.",
+              "fr": "Monsieur, je vous écris pour confirmer la réunion de mardi.",
+              "pt": "Prezado senhor, escrevo para confirmar a reunião de terça-feira.",
+              "zh": "尊敬的先生：我写信是想确认一下周二的会议。"
+            },
+            {
+              "es": "Buenos días: le escribo para preguntarle por la factura.",
+              "en": "Good morning, I'm writing to ask you about the invoice.",
+              "it": "Buongiorno, Le scrivo per chiederLe della fattura.",
+              "uk": "Доброго дня, пишу Вам, щоб запитати про рахунок.",
+              "de": "Guten Tag, ich schreibe Ihnen wegen der Rechnung.",
+              "fr": "Bonjour, je vous écris pour vous poser une question sur la facture.",
+              "pt": "Bom dia, escrevo para lhe perguntar sobre a fatura.",
+              "zh": "您好：我写信是想向您询问一下发票的事。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "pedirle",
+              "en": "to ask you for (usted)",
+              "it": "chiederLe",
+              "uk": "попросити у Вас (usted)",
+              "de": "Sie um etwas bitten (usted)",
+              "fr": "vous demander (quelque chose) (usted)",
+              "pt": "pedir ao senhor / à senhora, lhe pedir (usted)",
+              "zh": "向您要，向您请求（usted）"
+            },
+            {
+              "es": "preguntarle",
+              "en": "to ask you (usted)",
+              "it": "chiederLe, domandarLe",
+              "uk": "запитати Вас (usted)",
+              "de": "Sie fragen (usted)",
+              "fr": "vous demander, vous poser une question (usted)",
+              "pt": "perguntar ao senhor / à senhora, lhe perguntar (usted)",
+              "zh": "问您（usted）"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Estimado señor: ",
+          "after": " escribo para confirmar la reunión.",
+          "options": [
+            "le",
+            "te",
+            "lo"
+          ],
+          "answer": "le",
+          "en": "Dear Sir, I'm writing to confirm the meeting.",
+          "it": "Gentile signore, Le scrivo per confermare la riunione.",
+          "uk": "Шановний пане, пишу Вам, щоб підтвердити зустріч.",
+          "de": "Sehr geehrter Herr …, ich schreibe Ihnen, um das Treffen zu bestätigen.",
+          "fr": "Monsieur, je vous écris pour confirmer la réunion.",
+          "pt": "Prezado senhor, escrevo para confirmar a reunião.",
+          "zh": "尊敬的先生：我写信是想确认一下会议。",
+          "hint": {
+            "en": "Writing to usted: le escribo.",
+            "it": "Scrivi a usted: le escribo.",
+            "uk": "Пишеш до usted: le escribo.",
+            "de": "Du schreibst an usted: le escribo.",
+            "fr": "Tu écris à usted : le escribo.",
+            "pt": "Escrevendo para usted: le escribo.",
+            "zh": "给 usted 写信：le escribo。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "You're emailing a hotel. Write the first line: I'm writing to ask you for some information.",
+            "it": "Scrivi un'email a un albergo. Scrivi la prima riga: Le scrivo per chiederLe delle informazioni.",
+            "uk": "Ти пишеш листа в готель. Напиши перший рядок: пишу Вам, щоб попросити деяку інформацію.",
+            "de": "Du schreibst einem Hotel eine E-Mail. Schreib die erste Zeile: Ich schreibe Ihnen, um Sie um einige Informationen zu bitten.",
+            "fr": "Tu écris un e-mail à un hôtel. Écris la première ligne : je vous écris pour vous demander des renseignements.",
+            "pt": "Você está mandando um e-mail para um hotel. Escreva a primeira linha: escrevo para lhe pedir informações.",
+            "zh": "你在给一家酒店写邮件。写第一句：我写信是想向您咨询一些信息。"
+          },
+          "accepted": [
+            "Le escribo para pedirle información.",
+            "Le escribo para pedirle información, por favor."
+          ],
+          "tiles": [
+            "Le",
+            "escribo",
+            "para",
+            "pedirle",
+            "información",
+            "preguntarle",
+            "te"
+          ],
+          "en": "I'm writing to ask you for some information.",
+          "it": "Le scrivo per chiederLe delle informazioni.",
+          "uk": "Пишу Вам, щоб попросити деяку інформацію.",
+          "de": "Ich schreibe Ihnen, um Sie um einige Informationen zu bitten.",
+          "fr": "Je vous écris pour vous demander des renseignements.",
+          "pt": "Escrevo para lhe pedir informações.",
+          "zh": "我写信是想向您咨询一些信息。",
+          "hint": {
+            "en": "Asking for something: pedir, so pedirle.",
+            "it": "Chiedere qualcosa: pedir, quindi pedirle.",
+            "uk": "Просиш про щось: pedir, тож pedirle.",
+            "de": "Um etwas bitten: pedir, also pedirle.",
+            "fr": "Demander quelque chose : pedir, donc pedirle.",
+            "pt": "Pedir algo: pedir, então pedirle.",
+            "zh": "请求得到某物：pedir，所以是 pedirle。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "le",
+              "kind": "ending"
+            },
+            {
+              "text": "adjunto",
+              "kind": "stem"
+            },
+            {
+              "text": "el informe",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "To attach a file, write le adjunto + the file: le adjunto el informe. For the other person's things, use su: su correo, su respuesta.",
+            "it": "Per allegare un file, scrivi le adjunto + il file: le adjunto el informe. Per le cose dell'altra persona, usa su: su correo, su respuesta.",
+            "uk": "Щоб додати файл, пиши le adjunto + файл: le adjunto el informe. Для речей адресата вживай su: su correo, su respuesta.",
+            "de": "Um eine Datei anzuhängen, schreib le adjunto + die Datei: le adjunto el informe. Für die Sachen der anderen Person nimm su (Ihr): su correo, su respuesta.",
+            "fr": "Pour joindre un fichier, écris le adjunto + le fichier : le adjunto el informe. Pour les choses de l'autre personne, utilise su : su correo, su respuesta.",
+            "pt": "Para anexar um arquivo, escreva le adjunto + o arquivo: le adjunto el informe. Para as coisas da outra pessoa, use su: su correo, su respuesta.",
+            "zh": "添加附件时，写 le adjunto + 文件：le adjunto el informe。说到对方的东西，用 su：su correo，su respuesta。"
+          },
+          "examples": [
+            {
+              "es": "Le adjunto el informe.",
+              "en": "Please find the report attached.",
+              "it": "Le allego la relazione.",
+              "uk": "У додатку надсилаю Вам звіт.",
+              "de": "Anbei sende ich Ihnen den Bericht.",
+              "fr": "Veuillez trouver ci-joint le rapport.",
+              "pt": "Segue em anexo o relatório.",
+              "zh": "附件是报告，请查收。"
+            },
+            {
+              "es": "Le adjunto la factura de marzo.",
+              "en": "I'm attaching the March invoice.",
+              "it": "Le allego la fattura di marzo.",
+              "uk": "Додаю рахунок за березень.",
+              "de": "Anbei finden Sie die Rechnung für März.",
+              "fr": "Je vous joins la facture de mars.",
+              "pt": "Envio em anexo a fatura de março.",
+              "zh": "附上三月份的发票。"
+            },
+            {
+              "es": "Muchas gracias por su correo.",
+              "en": "Thank you very much for your email.",
+              "it": "Grazie mille per la Sua email.",
+              "uk": "Щиро дякую за Ваш лист.",
+              "de": "Vielen Dank für Ihre E-Mail.",
+              "fr": "Merci beaucoup pour votre e-mail.",
+              "pt": "Muito obrigado pelo seu e-mail.",
+              "zh": "非常感谢您的来信。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "adjunto",
+              "en": "I attach (le adjunto…)",
+              "it": "(io) allego (le adjunto…)",
+              "uk": "додаю (le adjunto…)",
+              "de": "ich hänge an (le adjunto… = anbei sende ich Ihnen…)",
+              "fr": "je joins (le adjunto…)",
+              "pt": "(eu) anexo (le adjunto…)",
+              "zh": "（我）附上（le adjunto…）"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Le ",
+          "after": " el presupuesto que me pidió.",
+          "options": [
+            "adjunto",
+            "confirmar",
+            "respuesta"
+          ],
+          "answer": "adjunto",
+          "en": "Please find attached the estimate you asked me for.",
+          "it": "Le allego il preventivo che mi ha chiesto.",
+          "uk": "У додатку надсилаю кошторис, який Ви в мене просили.",
+          "de": "Anbei sende ich Ihnen den Kostenvoranschlag, um den Sie mich gebeten haben.",
+          "fr": "Veuillez trouver ci-joint le devis que vous m'avez demandé.",
+          "pt": "Segue em anexo o orçamento que o senhor me pediu.",
+          "zh": "附件是您要的报价单，请查收。",
+          "hint": {
+            "en": "I attach: le adjunto.",
+            "it": "Allego: le adjunto.",
+            "uk": "Додаю: le adjunto.",
+            "de": "Ich hänge an: le adjunto.",
+            "fr": "Je joins : le adjunto.",
+            "pt": "Eu anexo: le adjunto.",
+            "zh": "我附上：le adjunto。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "fire",
+          "before": "Estimada señora: muchas gracias por ",
+          "after": " correo.",
+          "label": "su / tu",
+          "accepted": [
+            "su"
+          ],
+          "en": "Dear Madam, thank you very much for your email.",
+          "it": "Gentile signora, grazie mille per la Sua email.",
+          "uk": "Шановна пані, щиро дякую за Ваш лист.",
+          "de": "Sehr geehrte Frau …, vielen Dank für Ihre E-Mail.",
+          "fr": "Madame, merci beaucoup pour votre e-mail.",
+          "pt": "Prezada senhora, muito obrigado pelo seu e-mail.",
+          "zh": "尊敬的女士：非常感谢您的来信。",
+          "hint": {
+            "en": "Writing to usted: su correo.",
+            "it": "Scrivi a usted: su correo.",
+            "uk": "Пишеш до usted: su correo.",
+            "de": "Du schreibst an usted: su correo.",
+            "fr": "Tu écris à usted : su correo.",
+            "pt": "Escrevendo para usted: su correo.",
+            "zh": "给 usted 写信：su correo。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "quedo",
+              "kind": "stem"
+            },
+            {
+              "text": "a la espera de",
+              "kind": "rail"
+            },
+            {
+              "text": "su respuesta",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "Close with quedo a la espera de su respuesta (I look forward to your reply), then un saludo or, more formal, atentamente. With a colleague you know well, un abrazo is fine.",
+            "it": "Chiudi con quedo a la espera de su respuesta (resto in attesa di una Sua risposta), poi un saludo o, più formale, atentamente. Con un collega che conosci bene, va bene un abrazo.",
+            "uk": "Заверши словами quedo a la espera de su respuesta (чекаю на Вашу відповідь), потім un saludo або, офіційніше, atentamente. З колегою, якого добре знаєш, можна un abrazo.",
+            "de": "Schließe mit quedo a la espera de su respuesta (ich freue mich auf Ihre Antwort), dann un saludo (viele Grüße) oder, förmlicher, atentamente (mit freundlichen Grüßen). Bei einem Kollegen, den du gut kennst, passt un abrazo (liebe Grüße).",
+            "fr": "Termine par quedo a la espera de su respuesta (dans l'attente de votre réponse), puis un saludo ou, plus formel, atentamente. Avec un collègue que tu connais bien, un abrazo convient très bien.",
+            "pt": "Termine com quedo a la espera de su respuesta (fico no aguardo da sua resposta), depois un saludo ou, mais formal, atentamente. Com um colega que você conhece bem, un abrazo está ótimo.",
+            "zh": "结尾写 quedo a la espera de su respuesta（期待您的回复），然后写 un saludo，更正式的写 atentamente。对很熟的同事，用 un abrazo 也可以。"
+          },
+          "examples": [
+            {
+              "es": "Quedo a la espera de su respuesta. Un saludo.",
+              "en": "I look forward to your reply. Kind regards.",
+              "it": "Resto in attesa di una Sua risposta. Cordiali saluti.",
+              "uk": "Чекаю на Вашу відповідь. З найкращими побажаннями.",
+              "de": "Ich freue mich auf Ihre Antwort. Viele Grüße.",
+              "fr": "Dans l'attente de votre réponse. Cordialement.",
+              "pt": "Fico no aguardo da sua resposta. Cordialmente.",
+              "zh": "期待您的回复。此致敬礼。"
+            },
+            {
+              "es": "Atentamente,",
+              "en": "Yours sincerely,",
+              "it": "Distinti saluti,",
+              "uk": "З повагою,",
+              "de": "Mit freundlichen Grüßen",
+              "fr": "Salutations distinguées,",
+              "pt": "Atenciosamente,",
+              "zh": "此致敬礼，"
+            },
+            {
+              "es": "Un abrazo y hasta el lunes.",
+              "en": "Take care, see you on Monday.",
+              "it": "Un abbraccio e a lunedì.",
+              "uk": "Обіймаю, до понеділка.",
+              "de": "Liebe Grüße und bis Montag.",
+              "fr": "Je t'embrasse, à lundi.",
+              "pt": "Um abraço e até segunda.",
+              "zh": "保重，周一见。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "a la espera de",
+              "en": "waiting for, looking forward to",
+              "it": "in attesa di",
+              "uk": "в очікуванні, чекаючи на",
+              "de": "in Erwartung (+ Genitiv), wartend auf",
+              "fr": "dans l'attente de",
+              "pt": "no aguardo de, esperando",
+              "zh": "等待，期待"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Quedo a la ",
+          "after": " de su respuesta.",
+          "options": [
+            "espera",
+            "esperar",
+            "espero"
+          ],
+          "answer": "espera",
+          "en": "I look forward to your reply.",
+          "it": "Resto in attesa di una Sua risposta.",
+          "uk": "Чекаю на Вашу відповідь.",
+          "de": "Ich freue mich auf Ihre Antwort.",
+          "fr": "Dans l'attente de votre réponse.",
+          "pt": "Fico no aguardo da sua resposta.",
+          "zh": "期待您的回复。",
+          "hint": {
+            "en": "The fixed phrase: a la espera de.",
+            "it": "L'espressione fissa: a la espera de.",
+            "uk": "Стала фраза: a la espera de.",
+            "de": "Die feste Wendung: a la espera de.",
+            "fr": "L'expression toute faite : a la espera de.",
+            "pt": "A expressão fixa: a la espera de.",
+            "zh": "固定说法：a la espera de。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "Close your email to a client: I look forward to your reply. Kind regards.",
+            "it": "Chiudi la tua email a un cliente: resto in attesa di una Sua risposta. Cordiali saluti.",
+            "uk": "Заверши лист клієнтові: чекаю на Вашу відповідь. З найкращими побажаннями.",
+            "de": "Schließe deine E-Mail an einen Kunden: Ich freue mich auf Ihre Antwort. Viele Grüße.",
+            "fr": "Termine ton e-mail à un client : dans l'attente de votre réponse. Cordialement.",
+            "pt": "Termine o seu e-mail para um cliente: fico no aguardo da sua resposta. Cordialmente.",
+            "zh": "给客户的邮件结尾：期待您的回复。此致敬礼。"
+          },
+          "accepted": [
+            "Quedo a la espera de su respuesta. Un saludo.",
+            "Quedo a la espera de su respuesta. Atentamente."
+          ],
+          "tiles": [
+            "Quedo",
+            "a la espera de",
+            "su respuesta.",
+            "Un saludo.",
+            "tu",
+            "esperar"
+          ],
+          "en": "I look forward to your reply. Kind regards.",
+          "it": "Resto in attesa di una Sua risposta. Cordiali saluti.",
+          "uk": "Чекаю на Вашу відповідь. З найкращими побажаннями.",
+          "de": "Ich freue mich auf Ihre Antwort. Viele Grüße.",
+          "fr": "Dans l'attente de votre réponse. Cordialement.",
+          "pt": "Fico no aguardo da sua resposta. Cordialmente.",
+          "zh": "期待您的回复。此致敬礼。",
+          "hint": {
+            "en": "A client: su respuesta, then un saludo.",
+            "it": "Un cliente: su respuesta, poi un saludo.",
+            "uk": "Клієнт: su respuesta, потім un saludo.",
+            "de": "Ein Kunde: su respuesta, dann un saludo.",
+            "fr": "Un client : su respuesta, puis un saludo.",
+            "pt": "Um cliente: su respuesta, depois un saludo.",
+            "zh": "客户：su respuesta，然后写 un saludo。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "Te paso el informe. Un ",
+          "after": " y hasta mañana.",
+          "options": [
+            "abrazo",
+            "atentamente",
+            "estimado"
+          ],
+          "answer": "abrazo",
+          "en": "Here's the report. Take care, see you tomorrow.",
+          "it": "Ti mando la relazione. Un abbraccio e a domani.",
+          "uk": "Ось звіт. Обіймаю, до завтра.",
+          "de": "Hier ist der Bericht. Liebe Grüße und bis morgen.",
+          "fr": "Je t'envoie le rapport. Je t'embrasse, à demain.",
+          "pt": "Segue o relatório. Um abraço e até amanhã.",
+          "zh": "报告发给你了。保重，明天见。",
+          "hint": {
+            "en": "A colleague you know well: un abrazo.",
+            "it": "Un collega che conosci bene: un abrazo.",
+            "uk": "Колега, якого добре знаєш: un abrazo.",
+            "de": "Ein Kollege, den du gut kennst: un abrazo.",
+            "fr": "Un collègue que tu connais bien : un abrazo.",
+            "pt": "Um colega que você conhece bem: un abrazo.",
+            "zh": "很熟的同事：un abrazo。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "mix",
+          "before": "Estimado señor: le ",
+          "after": " para confirmar la reunión del jueves.",
+          "label": "escribir",
+          "accepted": [
+            "escribo"
+          ],
+          "en": "Dear Sir, I'm writing to confirm Thursday's meeting.",
+          "it": "Gentile signore, Le scrivo per confermare la riunione di giovedì.",
+          "uk": "Шановний пане, пишу Вам, щоб підтвердити зустріч у четвер.",
+          "de": "Sehr geehrter Herr …, ich schreibe Ihnen, um das Treffen am Donnerstag zu bestätigen.",
+          "fr": "Monsieur, je vous écris pour confirmer la réunion de jeudi.",
+          "pt": "Prezado senhor, escrevo para confirmar a reunião de quinta-feira.",
+          "zh": "尊敬的先生：我写信是想确认一下周四的会议。",
+          "hint": {
+            "en": "Writing to usted: le escribo para…",
+            "it": "Scrivi a usted: le escribo para…",
+            "uk": "Пишеш до usted: le escribo para…",
+            "de": "Du schreibst an usted: le escribo para…",
+            "fr": "Tu écris à usted : le escribo para…",
+            "pt": "Escrevendo para usted: le escribo para…",
+            "zh": "给 usted 写信：le escribo para…"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "mix",
+          "intention": {
+            "en": "Reply to a client who wrote to you. Start: dear Sir, thank you for your email.",
+            "it": "Rispondi a un cliente che ti ha scritto. Comincia: gentile signore, grazie per la Sua email.",
+            "uk": "Відповідай клієнтові, який тобі написав. Почни так: шановний пане, дякую за Ваш лист.",
+            "de": "Antworte einem Kunden, der dir geschrieben hat. Beginne mit: Sehr geehrter Herr …, vielen Dank für Ihre E-Mail.",
+            "fr": "Réponds à un client qui t'a écrit. Commence par : Monsieur, merci pour votre e-mail.",
+            "pt": "Responda a um cliente que te escreveu. Comece: prezado senhor, obrigado pelo seu e-mail.",
+            "zh": "回复一位给你写信的客户。开头写：尊敬的先生：感谢您的来信。"
+          },
+          "accepted": [
+            "Estimado señor: gracias por su correo.",
+            "Estimado señor: muchas gracias por su correo."
+          ],
+          "tiles": [
+            "Estimado señor:",
+            "gracias",
+            "por",
+            "su",
+            "correo",
+            "usted",
+            "para"
+          ],
+          "en": "Dear Sir, thank you for your email.",
+          "it": "Gentile signore, grazie per la Sua email.",
+          "uk": "Шановний пане, дякую за Ваш лист.",
+          "de": "Sehr geehrter Herr …, vielen Dank für Ihre E-Mail.",
+          "fr": "Monsieur, merci pour votre e-mail.",
+          "pt": "Prezado senhor, obrigado pelo seu e-mail.",
+          "zh": "尊敬的先生：感谢您的来信。",
+          "hint": {
+            "en": "A client: estimado señor and su correo.",
+            "it": "Un cliente: estimado señor e su correo.",
+            "uk": "Клієнт: estimado señor і su correo.",
+            "de": "Ein Kunde: estimado señor und su correo.",
+            "fr": "Un client : estimado señor et su correo.",
+            "pt": "Um cliente: estimado señor e su correo.",
+            "zh": "客户：estimado señor 和 su correo。"
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "You're writing to a client before a meeting. Write in Spanish: «Dear Madam, I'm writing to confirm the meeting. Please find the report attached.»",
+            "it": "Scrivi a una cliente prima di una riunione. Scrivi in spagnolo: «Gentile signora, Le scrivo per confermare la riunione. Le allego la relazione.»",
+            "uk": "Ти пишеш клієнтці перед зустріччю. Напиши іспанською: «Шановна пані, пишу Вам, щоб підтвердити зустріч. У додатку надсилаю Вам звіт.»",
+            "de": "Du schreibst einer Kundin vor einem Treffen. Schreib auf Spanisch: «Sehr geehrte Frau …, ich schreibe Ihnen, um das Treffen zu bestätigen. Anbei sende ich Ihnen den Bericht.»",
+            "fr": "Tu écris à une cliente avant une réunion. Écris en espagnol : «Madame, je vous écris pour confirmer la réunion. Veuillez trouver ci-joint le rapport.»",
+            "pt": "Você está escrevendo para uma cliente antes de uma reunião. Escreva em espanhol: «Prezada senhora, escrevo para confirmar a reunião. Segue em anexo o relatório.»",
+            "zh": "你在会议前给一位客户（女）写信。用西班牙语写：«尊敬的女士：我写信是想确认一下会议。附件是报告，请查收。»"
+          },
+          "accepted": [
+            "Estimada señora: le escribo para confirmar la reunión. Le adjunto el informe.",
+            "Estimada señora, le escribo para confirmar la reunión. Le adjunto el informe."
+          ],
+          "model": {
+            "es": "Estimada señora: le escribo para confirmar la reunión. Le adjunto el informe.",
+            "en": "Dear Madam, I'm writing to confirm the meeting. Please find the report attached.",
+            "it": "Gentile signora, Le scrivo per confermare la riunione. Le allego la relazione.",
+            "uk": "Шановна пані, пишу Вам, щоб підтвердити зустріч. У додатку надсилаю Вам звіт.",
+            "de": "Sehr geehrte Frau …, ich schreibe Ihnen, um das Treffen zu bestätigen. Anbei sende ich Ihnen den Bericht.",
+            "fr": "Madame, je vous écris pour confirmer la réunion. Veuillez trouver ci-joint le rapport.",
+            "pt": "Prezada senhora, escrevo para confirmar a reunião. Segue em anexo o relatório.",
+            "zh": "尊敬的女士：我写信是想确认一下会议。附件是报告，请查收。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u44l4",
+      "goal": {
+        "en": "Ask for things softly: quería + infinitive (quería pedirte un favor), ¿te importaría…? and its answer no, claro, and si no es molestia.",
+        "it": "Chiedi le cose con gentilezza: quería + infinito (quería pedirte un favor), ¿te importaría…? e la sua risposta no, claro, e si no es molestia.",
+        "uk": "Проси м'яко: quería + інфінітив (quería pedirte un favor), ¿te importaría…? і відповідь на нього no, claro, а також si no es molestia.",
+        "de": "Bitte höflich um etwas: quería + Infinitiv (quería pedirte un favor), ¿te importaría…? und die Antwort darauf, no, claro, und si no es molestia.",
+        "fr": "Demande les choses avec douceur : quería + infinitif (quería pedirte un favor), ¿te importaría…? et sa réponse no, claro, et si no es molestia.",
+        "pt": "Peça as coisas com delicadeza: quería + infinitivo (quería pedirte un favor), ¿te importaría…? e a resposta no, claro, e si no es molestia.",
+        "zh": "委婉地提出请求：quería + 动词原形（quería pedirte un favor），¿te importaría…? 及其回答 no, claro，还有 si no es molestia。"
+      },
+      "target": {
+        "es": "Quería pedirte un favor.",
+        "en": "I wanted to ask you a favour.",
+        "it": "Volevo chiederti un favore.",
+        "uk": "Я хотів(-ла) попросити тебе про послугу.",
+        "de": "Ich wollte dich um einen Gefallen bitten.",
+        "fr": "Je voulais te demander un service.",
+        "pt": "Eu queria te pedir um favor.",
+        "zh": "我想请你帮个忙。"
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "pedirte",
+              "en": "to ask you for (tú)",
+              "it": "chiederti (qualcosa)",
+              "uk": "попросити тебе (tú)",
+              "de": "dich um etwas bitten (tú)",
+              "fr": "te demander (quelque chose) (tú)",
+              "pt": "te pedir (algo) (tú)",
+              "zh": "向你要，请你（tú）",
+              "kind": "stem"
+            },
+            {
+              "es": "preguntarte",
+              "en": "to ask you (a question, tú)",
+              "it": "chiederti (una domanda)",
+              "uk": "запитати тебе (tú)",
+              "de": "dich fragen (tú)",
+              "fr": "te demander, te poser une question (tú)",
+              "pt": "te perguntar (uma coisa) (tú)",
+              "zh": "问你（提问题，tú）",
+              "kind": "stem"
+            },
+            {
+              "es": "la cosa",
+              "en": "the thing",
+              "it": "la cosa",
+              "uk": "річ, справа",
+              "de": "die Sache, das Ding",
+              "fr": "la chose",
+              "pt": "a coisa",
+              "zh": "东西，事情",
+              "kind": "chunk"
+            },
+            {
+              "es": "la molestia",
+              "en": "the trouble, the bother",
+              "it": "il disturbo",
+              "uk": "клопіт, незручність",
+              "de": "die Mühe, die Umstände",
+              "fr": "le dérangement",
+              "pt": "o incômodo, o trabalho",
+              "zh": "麻烦，打扰",
+              "kind": "chunk"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "quería",
+              "kind": "stem"
+            },
+            {
+              "text": "pedirte",
+              "kind": "ending"
+            },
+            {
+              "text": "un favor",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "To ask softly, Spanish uses quería (the imperfect) instead of quiero: quería pedirte un favor sounds much kinder. pedir is to ask for something; preguntar is to ask a question.",
+            "it": "Per chiedere con gentilezza, lo spagnolo usa quería (l'imperfetto) invece di quiero: quería pedirte un favor suona molto più gentile. pedir è chiedere qualcosa; preguntar è fare una domanda.",
+            "uk": "Щоб попросити м'яко, в іспанській кажуть quería («imperfecto») замість quiero: quería pedirte un favor звучить значно ввічливіше. pedir — просити щось; preguntar — запитувати.",
+            "de": "Um höflich zu bitten, nimmt das Spanische quería (das Imperfekt) statt quiero, ähnlich wie das deutsche „ich wollte“: quería pedirte un favor klingt viel freundlicher. pedir heißt um etwas bitten; preguntar heißt etwas fragen.",
+            "fr": "Pour demander avec douceur, l'espagnol utilise quería (l'imparfait) au lieu de quiero, comme le français « je voulais » : quería pedirte un favor est beaucoup plus gentil. pedir, c'est demander quelque chose ; preguntar, c'est poser une question.",
+            "pt": "Para pedir com delicadeza, o espanhol usa quería (o imperfeito) em vez de quiero: quería pedirte un favor soa muito mais gentil, igual ao nosso «eu queria te pedir um favor». pedir é pedir algo; preguntar é fazer uma pergunta, como em português.",
+            "zh": "想委婉地提出请求，西班牙语用 quería（过去未完成时）代替 quiero：quería pedirte un favor 听起来客气得多。pedir 是请求得到某物；preguntar 是提问题。"
+          },
+          "examples": [
+            {
+              "es": "Quería pedirte un favor.",
+              "en": "I wanted to ask you a favour.",
+              "it": "Volevo chiederti un favore.",
+              "uk": "Я хотів(-ла) попросити тебе про послугу.",
+              "de": "Ich wollte dich um einen Gefallen bitten.",
+              "fr": "Je voulais te demander un service.",
+              "pt": "Eu queria te pedir um favor.",
+              "zh": "我想请你帮个忙。"
+            },
+            {
+              "es": "Quería preguntarte una cosa.",
+              "en": "I wanted to ask you something.",
+              "it": "Volevo chiederti una cosa.",
+              "uk": "Я хотів(-ла) тебе дещо запитати.",
+              "de": "Ich wollte dich etwas fragen.",
+              "fr": "Je voulais te demander quelque chose.",
+              "pt": "Eu queria te perguntar uma coisa.",
+              "zh": "我想问你一件事。"
+            },
+            {
+              "es": "Quería preguntarle si tienen mesa para dos.",
+              "en": "I wanted to ask you if you have a table for two. (usted)",
+              "it": "Volevo chiederLe se avete un tavolo per due.",
+              "uk": "Я хотів(-ла) запитати, чи є у вас столик на двох. (usted)",
+              "de": "Ich wollte Sie fragen, ob Sie einen Tisch für zwei haben. (usted)",
+              "fr": "Je voulais vous demander si vous avez une table pour deux. (usted)",
+              "pt": "Eu queria perguntar ao senhor se vocês têm mesa para dois. (usted)",
+              "zh": "我想问一下您，你们这儿有两个人的位子吗？（usted）"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Perdona, ",
+          "after": " preguntarte una cosa.",
+          "options": [
+            "quería",
+            "querer",
+            "queréis"
+          ],
+          "answer": "quería",
+          "en": "Sorry, I wanted to ask you something.",
+          "it": "Scusa, volevo chiederti una cosa.",
+          "uk": "Вибач, я хотів(-ла) тебе дещо запитати.",
+          "de": "Entschuldige, ich wollte dich etwas fragen.",
+          "fr": "Excuse-moi, je voulais te demander quelque chose.",
+          "pt": "Desculpa, eu queria te perguntar uma coisa.",
+          "zh": "不好意思，我想问你一件事。",
+          "hint": {
+            "en": "A soft request: quería + infinitive.",
+            "it": "Una richiesta gentile: quería + infinito.",
+            "uk": "М'яке прохання: quería + інфінітив.",
+            "de": "Eine höfliche Bitte: quería + Infinitiv.",
+            "fr": "Une demande douce : quería + infinitif.",
+            "pt": "Um pedido delicado: quería + infinitivo.",
+            "zh": "委婉的请求：quería + 动词原形。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "You need a friend to look after your cat while you're away. Start: I wanted to ask you a favour.",
+            "it": "Hai bisogno che un'amica si occupi del tuo gatto mentre sei via. Comincia: volevo chiederti un favore.",
+            "uk": "Тобі треба, щоб друг доглянув твого кота, поки тебе не буде. Почни так: я хотів(-ла) попросити тебе про послугу.",
+            "de": "Eine Freundin soll sich um deine Katze kümmern, während du weg bist. Fang so an: Ich wollte dich um einen Gefallen bitten.",
+            "fr": "Tu as besoin qu'une amie garde ton chat pendant ton absence. Commence par : je voulais te demander un service.",
+            "pt": "Você precisa que uma amiga cuide do seu gato enquanto você estiver fora. Comece: eu queria te pedir um favor.",
+            "zh": "你出门期间，需要一个朋友（女）帮你照看猫。开头说：我想请你帮个忙。"
+          },
+          "accepted": [
+            "Quería pedirte un favor.",
+            "Te quería pedir un favor."
+          ],
+          "tiles": [
+            "Quería",
+            "pedirte",
+            "un favor",
+            "preguntarte",
+            "quiere"
+          ],
+          "en": "I wanted to ask you a favour.",
+          "it": "Volevo chiederti un favore.",
+          "uk": "Я хотів(-ла) попросити тебе про послугу.",
+          "de": "Ich wollte dich um einen Gefallen bitten.",
+          "fr": "Je voulais te demander un service.",
+          "pt": "Eu queria te pedir um favor.",
+          "zh": "我想请你帮个忙。",
+          "hint": {
+            "en": "Asking for a favour: pedir, so pedirte.",
+            "it": "Chiedere un favore: pedir, quindi pedirte.",
+            "uk": "Просиш про послугу: pedir, тож pedirte.",
+            "de": "Um einen Gefallen bitten: pedir, also pedirte.",
+            "fr": "Demander un service : pedir, donc pedirte.",
+            "pt": "Pedir um favor: pedir, então pedirte.",
+            "zh": "请人帮忙：pedir，所以是 pedirte。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "¿te",
+              "kind": "ending"
+            },
+            {
+              "text": "importaría",
+              "kind": "stem"
+            },
+            {
+              "text": "+ infinitive?",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "¿Te importaría + infinitive? (would you mind…?) is a polite request; with usted, ¿le importaría…? To say yes, you answer no: no, claro (no, of course not).",
+            "it": "¿Te importaría + infinito? (ti dispiacerebbe…?) è una richiesta gentile; con usted, ¿le importaría…? Per dire di sì, rispondi no: no, claro (no, figurati).",
+            "uk": "¿Te importaría + інфінітив? (тобі не важко…? / ти не заперечуєш…?) — ввічливе прохання; з usted — ¿le importaría…? Щоб погодитися, відповідають «ні»: no, claro (ні, звісно, не важко).",
+            "de": "¿Te importaría + Infinitiv? (würde es dir etwas ausmachen, …?) ist eine höfliche Bitte; mit usted: ¿le importaría…? Um Ja zu sagen, antwortest du mit Nein: no, claro (nein, natürlich nicht), genau wie im Deutschen.",
+            "fr": "¿Te importaría + infinitif? (est-ce que ça te dérangerait de… ?) est une demande polie ; avec usted, ¿le importaría…? Pour dire oui, on répond non : no, claro (non, pas du tout).",
+            "pt": "¿Te importaría + infinitivo? (você se importaria de…?) é um pedido educado; com usted, ¿le importaría…? Para dizer que sim, você responde não: no, claro (não, claro que não).",
+            "zh": "¿Te importaría + 动词原形?（你介意……吗？）是礼貌的请求；对 usted 说 ¿le importaría…? 想表示同意，要回答 no：no, claro（不介意，当然不介意）。"
+          },
+          "examples": [
+            {
+              "es": "¿Te importaría cerrar la ventana?",
+              "en": "Would you mind closing the window?",
+              "it": "Ti dispiacerebbe chiudere la finestra?",
+              "uk": "Тобі не важко зачинити вікно?",
+              "de": "Würde es dir etwas ausmachen, das Fenster zu schließen?",
+              "fr": "Est-ce que ça te dérangerait de fermer la fenêtre ?",
+              "pt": "Você se importaria de fechar a janela?",
+              "zh": "你介意关一下窗户吗？"
+            },
+            {
+              "es": "No, claro.",
+              "en": "No, of course not.",
+              "it": "No, figurati.",
+              "uk": "Ні, звісно.",
+              "de": "Nein, natürlich nicht.",
+              "fr": "Non, pas du tout.",
+              "pt": "Não, claro que não.",
+              "zh": "不介意，当然不介意。"
+            },
+            {
+              "es": "¿Le importaría esperar aquí?",
+              "en": "Would you mind waiting here? (usted)",
+              "it": "Le dispiacerebbe aspettare qui?",
+              "uk": "Вам не важко почекати тут? (usted)",
+              "de": "Würde es Ihnen etwas ausmachen, hier zu warten? (usted)",
+              "fr": "Est-ce que ça vous dérangerait d'attendre ici ? (usted)",
+              "pt": "O senhor se importaria de esperar aqui? (usted)",
+              "zh": "您介意在这里等一下吗？（usted）"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "¿Te ",
+          "after": " ayudarme con la mudanza el sábado?",
+          "options": [
+            "importaría",
+            "importar",
+            "importante"
+          ],
+          "answer": "importaría",
+          "en": "Would you mind helping me with the move on Saturday?",
+          "it": "Ti dispiacerebbe aiutarmi con il trasloco sabato?",
+          "uk": "Тобі не важко допомогти мені з переїздом у суботу?",
+          "de": "Würde es dir etwas ausmachen, mir am Samstag beim Umzug zu helfen?",
+          "fr": "Est-ce que ça te dérangerait de m'aider à déménager samedi ?",
+          "pt": "Você se importaria de me ajudar com a mudança no sábado?",
+          "zh": "你介意星期六帮我搬家吗？",
+          "hint": {
+            "en": "It's always importaría: what would bother you is the helping.",
+            "it": "È sempre importaría: quello che darebbe fastidio è aiutare.",
+            "uk": "Завжди importaría: тебе турбуватиме саме допомога (дія, а не ти).",
+            "de": "Es heißt immer importaría: Was dich stören würde, ist das Helfen.",
+            "fr": "C'est toujours importaría : ce qui pourrait te déranger, c'est le fait d'aider.",
+            "pt": "É sempre importaría: o que incomodaria é ajudar.",
+            "zh": "永远是 importaría：让人介意的是“帮忙”这件事。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "A colleague asks «¿Te importaría cerrar la puerta?». You're happy to. Answer: no, of course not, I don't mind.",
+            "it": "Un collega ti chiede «¿Te importaría cerrar la puerta?». Lo fai volentieri. Rispondi: no, figurati, non mi dà fastidio.",
+            "uk": "Колега питає: «¿Te importaría cerrar la puerta?». Ти охоче це зробиш. Відповідай: ні, звісно, мені не важко.",
+            "de": "Ein Kollege fragt: «¿Te importaría cerrar la puerta?». Du machst das gern. Antworte: Nein, natürlich nicht, das macht mir nichts aus.",
+            "fr": "Un collègue te demande «¿Te importaría cerrar la puerta?». Tu le fais volontiers. Réponds : non, pas du tout, ça ne me dérange pas.",
+            "pt": "Um colega pergunta «¿Te importaría cerrar la puerta?». Você faz com prazer. Responda: não, claro que não, não me incomoda.",
+            "zh": "一个同事问你：«¿Te importaría cerrar la puerta?»。你很乐意。回答：不介意，当然不介意，我不在乎。"
+          },
+          "accepted": [
+            "No, claro, no me importa.",
+            "No, claro que no, no me importa."
+          ],
+          "tiles": [
+            "No,",
+            "claro,",
+            "no me",
+            "importa",
+            "importar",
+            "importaría"
+          ],
+          "en": "No, of course not, I don't mind.",
+          "it": "No, figurati, non mi dà fastidio.",
+          "uk": "Ні, звісно, мені не важко.",
+          "de": "Nein, natürlich nicht, das macht mir nichts aus.",
+          "fr": "Non, pas du tout, ça ne me dérange pas.",
+          "pt": "Não, claro que não, não me incomoda.",
+          "zh": "不介意，当然不介意，我不在乎。",
+          "hint": {
+            "en": "To say yes to ¿te importaría…?, you answer no.",
+            "it": "Per dire di sì a ¿te importaría…?, rispondi no.",
+            "uk": "Щоб погодитися на ¿te importaría…?, відповідаєш «ні».",
+            "de": "Um auf ¿te importaría…? Ja zu sagen, antwortest du mit Nein.",
+            "fr": "Pour dire oui à ¿te importaría…?, on répond non.",
+            "pt": "Para dizer sim a ¿te importaría…?, você responde não.",
+            "zh": "想对 ¿te importaría…? 表示同意，要回答 no。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "si no es molestia",
+              "kind": "rail"
+            }
+          ],
+          "rule": {
+            "en": "Add si no es molestia (if it's no trouble) or si no te importa (if you don't mind) to make a request even softer. They can go at the start or the end.",
+            "it": "Aggiungi si no es molestia (se non è un disturbo) o si no te importa (se non ti dispiace) per rendere una richiesta ancora più gentile. Possono andare all'inizio o alla fine.",
+            "uk": "Додай si no es molestia (якщо це не складно) або si no te importa (якщо ти не проти), щоб прохання звучало ще м'якше. Їх можна ставити на початку або в кінці.",
+            "de": "Häng si no es molestia (wenn es keine Umstände macht) oder si no te importa (wenn es dir nichts ausmacht) an, um eine Bitte noch sanfter zu machen. Beides kann am Anfang oder am Ende stehen.",
+            "fr": "Ajoute si no es molestia (si ça ne dérange pas) ou si no te importa (si ça ne te dérange pas) pour rendre une demande encore plus douce. Ils peuvent se placer au début ou à la fin.",
+            "pt": "Acrescente si no es molestia (se não for incômodo) ou si no te importa (se você não se importar) para deixar um pedido ainda mais delicado. Podem ir no começo ou no fim.",
+            "zh": "加上 si no es molestia（如果不麻烦的话）或 si no te importa（如果你不介意的话），让请求更加委婉。它们可以放在句首，也可以放在句尾。"
+          },
+          "examples": [
+            {
+              "es": "¿Me ayudas con la maleta, si no es molestia?",
+              "en": "Can you help me with my suitcase, if it's no trouble?",
+              "it": "Mi aiuti con la valigia, se non è un disturbo?",
+              "uk": "Допоможеш мені з валізою, якщо це не складно?",
+              "de": "Hilfst du mir mit dem Koffer, wenn es keine Umstände macht?",
+              "fr": "Tu m'aides avec ma valise, si ça ne dérange pas ?",
+              "pt": "Você me ajuda com a mala, se não for incômodo?",
+              "zh": "如果不麻烦的话，你能帮我拿一下行李箱吗？"
+            },
+            {
+              "es": "Si no es molestia, ¿podría llamarme mañana?",
+              "en": "If it's no trouble, could you call me tomorrow? (usted)",
+              "it": "Se non è un disturbo, potrebbe chiamarmi domani?",
+              "uk": "Якщо Вам не складно, Ви не могли б подзвонити мені завтра? (usted)",
+              "de": "Wenn es keine Umstände macht, könnten Sie mich morgen anrufen? (usted)",
+              "fr": "Si ça ne dérange pas, vous pourriez m'appeler demain ? (usted)",
+              "pt": "Se não for incômodo, o senhor poderia me ligar amanhã? (usted)",
+              "zh": "如果不麻烦的话，您明天能给我打个电话吗？"
+            },
+            {
+              "es": "Si no te importa, hoy me voy un poco antes.",
+              "en": "If you don't mind, I'm leaving a bit earlier today.",
+              "it": "Se non ti dispiace, oggi vado via un po' prima.",
+              "uk": "Якщо ти не проти, сьогодні я піду трохи раніше.",
+              "de": "Wenn es dir nichts ausmacht, gehe ich heute etwas früher.",
+              "fr": "Si ça ne te dérange pas, aujourd'hui je pars un peu plus tôt.",
+              "pt": "Se você não se importar, hoje vou sair um pouco mais cedo.",
+              "zh": "如果你不介意的话，我今天早点走。"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Si no es ",
+          "after": ", ¿podría llamarme mañana?",
+          "options": [
+            "molestia",
+            "molesta",
+            "importa"
+          ],
+          "answer": "molestia",
+          "en": "If it's no trouble, could you call me tomorrow?",
+          "it": "Se non è un disturbo, potrebbe chiamarmi domani?",
+          "uk": "Якщо Вам не складно, Ви не могли б подзвонити мені завтра?",
+          "de": "Wenn es keine Umstände macht, könnten Sie mich morgen anrufen?",
+          "fr": "Si ça ne dérange pas, vous pourriez m'appeler demain ?",
+          "pt": "Se não for incômodo, o senhor poderia me ligar amanhã?",
+          "zh": "如果不麻烦的话，您明天能给我打个电话吗？",
+          "hint": {
+            "en": "The fixed phrase: si no es molestia.",
+            "it": "L'espressione fissa: si no es molestia.",
+            "uk": "Стала фраза: si no es molestia.",
+            "de": "Die feste Wendung: si no es molestia.",
+            "fr": "L'expression toute faite : si no es molestia.",
+            "pt": "A expressão fixa: si no es molestia.",
+            "zh": "固定说法：si no es molestia。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "fire",
+          "before": "Si no te ",
+          "after": ", hoy me voy un poco antes.",
+          "label": "importar",
+          "accepted": [
+            "importa"
+          ],
+          "en": "If you don't mind, I'm leaving a bit earlier today.",
+          "it": "Se non ti dispiace, oggi vado via un po' prima.",
+          "uk": "Якщо ти не проти, сьогодні я піду трохи раніше.",
+          "de": "Wenn es dir nichts ausmacht, gehe ich heute etwas früher.",
+          "fr": "Si ça ne te dérange pas, aujourd'hui je pars un peu plus tôt.",
+          "pt": "Se você não se importar, hoje vou sair um pouco mais cedo.",
+          "zh": "如果你不介意的话，我今天早点走。",
+          "hint": {
+            "en": "si no te importa: if you don't mind.",
+            "it": "si no te importa: se non ti dispiace.",
+            "uk": "si no te importa: якщо ти не проти.",
+            "de": "si no te importa: wenn es dir nichts ausmacht.",
+            "fr": "si no te importa : si ça ne te dérange pas.",
+            "pt": "si no te importa: se você não se importar.",
+            "zh": "si no te importa：如果你不介意的话。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "Perdone, ¿",
+          "after": " importaría traer más pan?",
+          "options": [
+            "le",
+            "te",
+            "me"
+          ],
+          "answer": "le",
+          "en": "Excuse me, would you mind bringing some more bread?",
+          "it": "Mi scusi, Le dispiacerebbe portare dell'altro pane?",
+          "uk": "Перепрошую, Вам не важко принести ще хліба?",
+          "de": "Entschuldigen Sie, würde es Ihnen etwas ausmachen, noch etwas Brot zu bringen?",
+          "fr": "Excusez-moi, est-ce que ça vous dérangerait d'apporter encore un peu de pain ?",
+          "pt": "Com licença, o senhor se importaria de trazer mais um pouco de pão?",
+          "zh": "劳驾，您介意再拿点面包来吗？",
+          "hint": {
+            "en": "perdone is for usted, so le.",
+            "it": "perdone è per usted, quindi le.",
+            "uk": "perdone — це для usted, тож le.",
+            "de": "perdone ist für usted, also le.",
+            "fr": "perdone, c'est pour usted, donc le.",
+            "pt": "perdone é para usted, então le.",
+            "zh": "perdone 用于 usted，所以用 le。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "mix",
+          "before": "Buenas noches. Quería ",
+          "after": " si tienen mesa para cuatro.",
+          "label": "preguntar + le",
+          "accepted": [
+            "preguntarle"
+          ],
+          "en": "Good evening. I wanted to ask you if you have a table for four.",
+          "it": "Buonasera. Volevo chiederLe se avete un tavolo per quattro.",
+          "uk": "Добрий вечір. Я хотів(-ла) запитати, чи є у вас столик на чотирьох.",
+          "de": "Guten Abend. Ich wollte Sie fragen, ob Sie einen Tisch für vier haben.",
+          "fr": "Bonsoir. Je voulais vous demander si vous avez une table pour quatre.",
+          "pt": "Boa noite. Eu queria perguntar ao senhor se vocês têm mesa para quatro.",
+          "zh": "晚上好。我想问一下您，你们这儿有四个人的位子吗？",
+          "hint": {
+            "en": "A question, to usted: preguntarle.",
+            "it": "Una domanda, a usted: preguntarle.",
+            "uk": "Запитання, до usted: preguntarle.",
+            "de": "Eine Frage an usted: preguntarle.",
+            "fr": "Une question, à usted : preguntarle.",
+            "pt": "Uma pergunta, para usted: preguntarle.",
+            "zh": "提问题，对 usted：preguntarle。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "mix",
+          "intention": {
+            "en": "You need to leave the office early. Tell your colleague (a friend): if you don't mind, I'm leaving a bit earlier today.",
+            "it": "Devi uscire presto dall'ufficio. Di' al tuo collega (un amico): se non ti dispiace, oggi vado via un po' prima.",
+            "uk": "Тобі треба раніше піти з офісу. Скажи колезі (вона твоя подруга): якщо ти не проти, сьогодні я піду трохи раніше.",
+            "de": "Du musst früher aus dem Büro gehen. Sag deinem Kollegen (einem Freund): Wenn es dir nichts ausmacht, gehe ich heute etwas früher.",
+            "fr": "Tu dois quitter le bureau tôt. Dis à ton collègue (un ami) : si ça ne te dérange pas, aujourd'hui je pars un peu plus tôt.",
+            "pt": "Você precisa sair cedo do escritório. Diga ao seu colega (que é seu amigo): se você não se importar, hoje vou sair um pouco mais cedo.",
+            "zh": "你需要早点离开办公室。告诉你的同事（也是你的朋友）：如果你不介意的话，我今天早点走。"
+          },
+          "accepted": [
+            "Si no te importa, hoy me voy un poco antes.",
+            "Si no te importa, me voy un poco antes hoy.",
+            "Hoy me voy un poco antes, si no te importa."
+          ],
+          "tiles": [
+            "Si no",
+            "te importa,",
+            "hoy",
+            "me voy",
+            "un poco antes",
+            "molestia",
+            "le importaría"
+          ],
+          "en": "If you don't mind, I'm leaving a bit earlier today.",
+          "it": "Se non ti dispiace, oggi vado via un po' prima.",
+          "uk": "Якщо ти не проти, сьогодні я піду трохи раніше.",
+          "de": "Wenn es dir nichts ausmacht, gehe ich heute etwas früher.",
+          "fr": "Si ça ne te dérange pas, aujourd'hui je pars un peu plus tôt.",
+          "pt": "Se você não se importar, hoje vou sair um pouco mais cedo.",
+          "zh": "如果你不介意的话，我今天早点走。",
+          "hint": {
+            "en": "A friend: si no te importa.",
+            "it": "Un amico: si no te importa.",
+            "uk": "Подруга: si no te importa.",
+            "de": "Ein Freund: si no te importa.",
+            "fr": "Un ami : si no te importa.",
+            "pt": "Um amigo: si no te importa.",
+            "zh": "朋友：si no te importa。"
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "You're asking a good friend for help. Write in Spanish: «I wanted to ask you a favour: would you mind helping me with the move?»",
+            "it": "Chiedi aiuto a un buon amico. Scrivi in spagnolo: «Volevo chiederti un favore: ti dispiacerebbe aiutarmi con il trasloco?»",
+            "uk": "Ти просиш доброго друга про допомогу. Напиши іспанською: «Я хотів(-ла) попросити тебе про послугу: тобі не важко допомогти мені з переїздом?»",
+            "de": "Du bittest einen guten Freund um Hilfe. Schreib auf Spanisch: «Ich wollte dich um einen Gefallen bitten: Würde es dir etwas ausmachen, mir beim Umzug zu helfen?»",
+            "fr": "Tu demandes de l'aide à un bon ami. Écris en espagnol : «Je voulais te demander un service : est-ce que ça te dérangerait de m'aider à déménager ?»",
+            "pt": "Você está pedindo ajuda a um grande amigo. Escreva em espanhol: «Eu queria te pedir um favor: você se importaria de me ajudar com a mudança?»",
+            "zh": "你在请一个好朋友帮忙。用西班牙语写：«我想请你帮个忙：你介意帮我搬家吗？»"
+          },
+          "accepted": [
+            "Quería pedirte un favor: ¿te importaría ayudarme con la mudanza?",
+            "Te quería pedir un favor: ¿te importaría ayudarme con la mudanza?",
+            "Quería pedirte un favor: ¿te importaría ayudarme a hacer la mudanza?"
+          ],
+          "model": {
+            "es": "Quería pedirte un favor: ¿te importaría ayudarme con la mudanza?",
+            "en": "I wanted to ask you a favour: would you mind helping me with the move?",
+            "it": "Volevo chiederti un favore: ti dispiacerebbe aiutarmi con il trasloco?",
+            "uk": "Я хотів(-ла) попросити тебе про послугу: тобі не важко допомогти мені з переїздом?",
+            "de": "Ich wollte dich um einen Gefallen bitten: Würde es dir etwas ausmachen, mir beim Umzug zu helfen?",
+            "fr": "Je voulais te demander un service : est-ce que ça te dérangerait de m'aider à déménager ?",
+            "pt": "Eu queria te pedir um favor: você se importaria de me ajudar com a mudança?",
+            "zh": "我想请你帮个忙：你介意帮我搬家吗？"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u44l5",
+      "goal": {
+        "en": "Switch the same message between registers: tú forms into usted forms (te → le, tu → su), a casual command into a polite question, and a polite no with me temo que.",
+        "it": "Passa lo stesso messaggio da un registro all'altro: dalle forme di tú a quelle di usted (te → le, tu → su), da un ordine colloquiale a una domanda gentile, e un no educato con me temo que.",
+        "uk": "Перемикай те саме повідомлення між стилями: форми tú на форми usted (te → le, tu → su), невимушений наказ на ввічливе запитання і ввічлива відмова з me temo que.",
+        "de": "Bring dieselbe Nachricht in ein anderes Register: tú-Formen in usted-Formen (te → le, tu → su, wie du → Sie, dein → Ihr), eine lockere Aufforderung in eine höfliche Frage und ein höfliches Nein mit me temo que.",
+        "fr": "Fais passer le même message d'un registre à l'autre : des formes de tú aux formes de usted (te → le, tu → su), d'un ordre familier à une question polie, et un non poli avec me temo que.",
+        "pt": "Passe a mesma mensagem de um registro para outro: das formas de tú para as de usted (te → le, tu → su), de uma ordem informal para uma pergunta educada, e um não educado com me temo que.",
+        "zh": "在不同语体之间转换同一句话：把 tú 的形式变成 usted 的形式（te → le，tu → su），把随意的命令变成礼貌的问句，用 me temo que 礼貌地拒绝。"
+      },
+      "target": {
+        "es": "Me temo que no voy a poder ir.",
+        "en": "I'm afraid I won't be able to go.",
+        "it": "Temo che non potrò venire.",
+        "uk": "Боюся, я не зможу прийти.",
+        "de": "Ich fürchte, ich werde nicht kommen können.",
+        "fr": "Je crains de ne pas pouvoir venir.",
+        "pt": "Receio que não vou poder ir.",
+        "zh": "恐怕我去不了了。"
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "me temo que",
+              "en": "I'm afraid that (polite)",
+              "it": "temo che",
+              "uk": "боюся, що (ввічливо)",
+              "de": "ich fürchte, dass (höflich)",
+              "fr": "je crains que, j'ai bien peur que (poli)",
+              "pt": "receio que, infelizmente (educado)",
+              "zh": "恐怕（礼貌说法）",
+              "kind": "chunk"
+            },
+            {
+              "es": "la invitación",
+              "en": "the invitation",
+              "it": "l'invito",
+              "uk": "запрошення",
+              "de": "die Einladung",
+              "fr": "l'invitation",
+              "pt": "o convite",
+              "zh": "邀请",
+              "kind": "chunk"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "te",
+              "kind": "ending"
+            },
+            {
+              "text": "→",
+              "kind": "chunk"
+            },
+            {
+              "text": "le",
+              "kind": "ending"
+            },
+            {
+              "text": "tu",
+              "kind": "ending"
+            },
+            {
+              "text": "→",
+              "kind": "chunk"
+            },
+            {
+              "text": "su",
+              "kind": "ending"
+            }
+          ],
+          "rule": {
+            "en": "To make a sentence formal, change the verb to the usted form and the little words with it: te becomes le, tu becomes su, and ti becomes usted.",
+            "it": "Per rendere formale una frase, metti il verbo nella forma di usted e cambia le paroline che vanno con lui: te diventa le, tu diventa su, e ti diventa usted.",
+            "uk": "Щоб зробити речення офіційним, зміни дієслово на форму usted, а разом із ним і маленькі слова: te стає le, tu стає su, а ti стає usted.",
+            "de": "Um einen Satz förmlich zu machen, setz das Verb in die usted-Form und ändere die kleinen Wörter dazu: te wird le, tu wird su und ti wird usted (wie im Deutschen dich / dir → Sie / Ihnen, dein → Ihr).",
+            "fr": "Pour rendre une phrase formelle, mets le verbe à la forme de usted et change les petits mots qui vont avec : te devient le, tu devient su, et ti devient usted. C'est comme passer de « tu » à « vous » en français.",
+            "pt": "Para deixar uma frase formal, passe o verbo para a forma de usted e troque as palavrinhas que vão com ele: te vira le, tu vira su e ti vira usted. É como passar de «você… te… seu» para «o senhor… lhe… do senhor».",
+            "zh": "要把一句话变得正式，就把动词换成 usted 的形式，和它搭配的小词也要换：te 变成 le，tu 变成 su，ti 变成 usted。"
+          },
+          "examples": [
+            {
+              "es": "¿Le puedo ayudar?",
+              "en": "Can I help you? (usted)",
+              "it": "Posso aiutarLa?",
+              "uk": "Чим можу Вам допомогти? (usted)",
+              "de": "Kann ich Ihnen helfen? (usted)",
+              "fr": "Je peux vous aider ? (usted)",
+              "pt": "Posso ajudar o senhor? (usted)",
+              "zh": "我能帮您吗？"
+            },
+            {
+              "es": "¿Me da su número de teléfono?",
+              "en": "Can you give me your phone number? (usted)",
+              "it": "Mi dà il Suo numero di telefono?",
+              "uk": "Дасте мені свій номер телефону? (usted)",
+              "de": "Können Sie mir Ihre Telefonnummer geben? (usted)",
+              "fr": "Vous pouvez me donner votre numéro de téléphone ? (usted)",
+              "pt": "O senhor me passa o seu número de telefone? (usted)",
+              "zh": "您能把您的电话号码给我吗？"
+            },
+            {
+              "es": "Esto es para usted.",
+              "en": "This is for you. (usted)",
+              "it": "Questo è per Lei.",
+              "uk": "Це для Вас. (usted)",
+              "de": "Das ist für Sie. (usted)",
+              "fr": "C'est pour vous. (usted)",
+              "pt": "Isto é para o senhor. (usted)",
+              "zh": "这是给您的。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "esto",
+              "en": "this",
+              "it": "questo",
+              "uk": "це",
+              "de": "das, dies",
+              "fr": "ceci, ça",
+              "pt": "isto",
+              "zh": "这个"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Señor, ¿me da ",
+          "after": " número de teléfono?",
+          "options": [
+            "su",
+            "tu",
+            "sus"
+          ],
+          "answer": "su",
+          "en": "Sir, can you give me your phone number?",
+          "it": "Signore, mi dà il Suo numero di telefono?",
+          "uk": "Пане, дасте мені свій номер телефону?",
+          "de": "Können Sie mir Ihre Telefonnummer geben? (zu einem Herrn, mit Sie)",
+          "fr": "Monsieur, vous pouvez me donner votre numéro de téléphone ?",
+          "pt": "Senhor, o senhor me passa o seu número de telefone?",
+          "zh": "先生，您能把您的电话号码给我吗？",
+          "hint": {
+            "en": "usted's things: su.",
+            "it": "Le cose di usted: su.",
+            "uk": "Речі usted: su.",
+            "de": "Die Sachen von usted: su.",
+            "fr": "Ce qui est à usted : su.",
+            "pt": "As coisas de usted: su.",
+            "zh": "usted 的东西：su。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "fire",
+          "before": "Perdone, ¿",
+          "after": " puedo ayudar?",
+          "label": "te (usted)",
+          "accepted": [
+            "le",
+            "lo",
+            "la"
+          ],
+          "en": "Excuse me, can I help you?",
+          "it": "Mi scusi, posso aiutarLa?",
+          "uk": "Перепрошую, Вам допомогти?",
+          "de": "Entschuldigen Sie, kann ich Ihnen helfen?",
+          "fr": "Excusez-moi, je peux vous aider ?",
+          "pt": "Com licença, posso ajudar o senhor?",
+          "zh": "劳驾，我能帮您吗？",
+          "hint": {
+            "en": "te becomes le with usted.",
+            "it": "Con usted, te diventa le.",
+            "uk": "З usted te стає le.",
+            "de": "te wird bei usted zu le.",
+            "fr": "Avec usted, te devient le.",
+            "pt": "Com usted, te vira le.",
+            "zh": "对 usted，te 变成 le。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "pásame",
+              "kind": "stem"
+            },
+            {
+              "text": "→",
+              "kind": "chunk"
+            },
+            {
+              "text": "¿me podría pasar…?",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "With friends, a command is fine: pásame el informe. With your boss or a client, turn it into a question with the conditional: ¿me podría pasar el informe, por favor?",
+            "it": "Con gli amici va bene un ordine: pásame el informe. Con il capo o un cliente, trasformalo in una domanda con il condizionale: ¿me podría pasar el informe, por favor?",
+            "uk": "З друзями можна й наказом: pásame el informe. З начальником чи клієнтом перетвори його на запитання з «condicional»: ¿me podría pasar el informe, por favor?",
+            "de": "Unter Freunden ist eine Aufforderung in Ordnung: pásame el informe. Bei deinem Chef oder einem Kunden mach daraus eine Frage mit dem condicional (wie im Deutschen „könnten Sie …?“): ¿me podría pasar el informe, por favor?",
+            "fr": "Entre amis, un ordre ne pose pas de problème : pásame el informe. Avec ton chef ou un client, transforme-le en question avec le conditionnel : ¿me podría pasar el informe, por favor?",
+            "pt": "Com amigos, uma ordem é normal: pásame el informe. Com o seu chefe ou um cliente, transforme em pergunta com o condicional: ¿me podría pasar el informe, por favor?",
+            "zh": "对朋友，直接用命令式就行：pásame el informe。对老板或客户，要用条件式改成问句：¿me podría pasar el informe, por favor?"
+          },
+          "examples": [
+            {
+              "es": "Pásame el informe.",
+              "en": "Pass me the report. (tú)",
+              "it": "Passami la relazione.",
+              "uk": "Передай мені звіт. (tú)",
+              "de": "Gib mir mal den Bericht. (tú)",
+              "fr": "Passe-moi le rapport. (tú)",
+              "pt": "Me passa o relatório. (tú)",
+              "zh": "把报告递给我。"
+            },
+            {
+              "es": "¿Me podría pasar el informe, por favor?",
+              "en": "Could you pass me the report, please? (usted)",
+              "it": "Potrebbe passarmi la relazione, per favore?",
+              "uk": "Ви не могли б передати мені звіт, будь ласка? (usted)",
+              "de": "Könnten Sie mir bitte den Bericht geben? (usted)",
+              "fr": "Pourriez-vous me passer le rapport, s'il vous plaît ? (usted)",
+              "pt": "O senhor poderia me passar o relatório, por favor? (usted)",
+              "zh": "您能把报告递给我吗？谢谢。"
+            },
+            {
+              "es": "¿Podría llamarme esta tarde, por favor?",
+              "en": "Could you call me this afternoon, please? (usted)",
+              "it": "Potrebbe chiamarmi oggi pomeriggio, per favore?",
+              "uk": "Ви не могли б зателефонувати мені сьогодні після обіду, будь ласка? (usted)",
+              "de": "Könnten Sie mich bitte heute Nachmittag anrufen? (usted)",
+              "fr": "Pourriez-vous m'appeler cet après-midi, s'il vous plaît ? (usted)",
+              "pt": "O senhor poderia me ligar hoje à tarde, por favor? (usted)",
+              "zh": "您今天下午能给我打个电话吗？谢谢。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "pásame",
+              "en": "pass me (tú)",
+              "it": "passami",
+              "uk": "передай мені (tú)",
+              "de": "gib mir (tú)",
+              "fr": "passe-moi (tú)",
+              "pt": "me passa (tú)",
+              "zh": "递给我（tú）"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Señora, ¿",
+          "after": " llamarme esta tarde, por favor?",
+          "options": [
+            "podría",
+            "podrías",
+            "puedes"
+          ],
+          "answer": "podría",
+          "en": "Madam, could you call me this afternoon, please?",
+          "it": "Signora, potrebbe chiamarmi oggi pomeriggio, per favore?",
+          "uk": "Пані, Ви не могли б зателефонувати мені сьогодні після обіду, будь ласка?",
+          "de": "Könnten Sie mich bitte heute Nachmittag anrufen? (zu einer Dame, mit Sie)",
+          "fr": "Madame, pourriez-vous m'appeler cet après-midi, s'il vous plaît ?",
+          "pt": "Senhora, a senhora poderia me ligar hoje à tarde, por favor?",
+          "zh": "女士，您今天下午能给我打个电话吗？谢谢。",
+          "hint": {
+            "en": "señora: usted, and the conditional podría.",
+            "it": "señora: usted, e il condizionale podría.",
+            "uk": "señora: usted і «condicional» podría.",
+            "de": "señora: usted, und der condicional podría.",
+            "fr": "señora : usted, et le conditionnel podría.",
+            "pt": "señora: usted, e o condicional podría.",
+            "zh": "señora：用 usted，再用条件式 podría。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "You need the report from your director. Ask her politely: could you pass me the report, please?",
+            "it": "Hai bisogno della relazione dalla tua direttrice. Chiediglielo con gentilezza: potrebbe passarmi la relazione, per favore?",
+            "uk": "Тобі потрібен звіт від твоєї директорки. Ввічливо попроси її: Ви не могли б передати мені звіт, будь ласка?",
+            "de": "Du brauchst den Bericht von deiner Direktorin. Frag sie höflich: Könnten Sie mir bitte den Bericht geben?",
+            "fr": "Tu as besoin du rapport de ta directrice. Demande-le-lui poliment : pourriez-vous me passer le rapport, s'il vous plaît ?",
+            "pt": "Você precisa do relatório que está com a sua diretora. Peça a ela com educação: a senhora poderia me passar o relatório, por favor?",
+            "zh": "你需要你的总监（女）手上的报告。礼貌地问她：您能把报告递给我吗？谢谢。"
+          },
+          "accepted": [
+            "¿Me podría pasar el informe, por favor?",
+            "¿Podría pasarme el informe, por favor?"
+          ],
+          "tiles": [
+            "¿Me",
+            "podría",
+            "pasar",
+            "el informe,",
+            "por favor?",
+            "pásame",
+            "pasarme"
+          ],
+          "en": "Could you pass me the report, please?",
+          "it": "Potrebbe passarmi la relazione, per favore?",
+          "uk": "Ви не могли б передати мені звіт, будь ласка?",
+          "de": "Könnten Sie mir bitte den Bericht geben?",
+          "fr": "Pourriez-vous me passer le rapport, s'il vous plaît ?",
+          "pt": "A senhora poderia me passar o relatório, por favor?",
+          "zh": "您能把报告递给我吗？谢谢。",
+          "hint": {
+            "en": "Your director: a question with podría.",
+            "it": "La tua direttrice: una domanda con podría.",
+            "uk": "Твоя директорка: запитання з podría.",
+            "de": "Deine Direktorin: eine Frage mit podría.",
+            "fr": "Ta directrice : une question avec podría.",
+            "pt": "A sua diretora: uma pergunta com podría.",
+            "zh": "你的总监：用 podría 提问。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "me temo que",
+              "kind": "chunk"
+            },
+            {
+              "text": "no voy a poder",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "To say no politely, soften it: me temo que no voy a poder (I'm afraid I won't be able to) sounds much kinder than no puedo. With friends, lo siento, no puedo is fine.",
+            "it": "Per dire di no con educazione, ammorbidiscilo: me temo que no voy a poder (temo che non potrò) suona molto più gentile di no puedo. Con gli amici va bene lo siento, no puedo.",
+            "uk": "Щоб ввічливо відмовити, пом'якш відмову: me temo que no voy a poder (боюся, я не зможу) звучить значно ввічливіше, ніж no puedo. З друзями цілком можна сказати lo siento, no puedo.",
+            "de": "Um höflich Nein zu sagen, mach es sanfter: me temo que no voy a poder (ich fürchte, ich werde nicht können) klingt viel freundlicher als no puedo. Unter Freunden ist lo siento, no puedo in Ordnung.",
+            "fr": "Pour dire non poliment, adoucis-le : me temo que no voy a poder (je crains de ne pas pouvoir) est beaucoup plus gentil que no puedo. Entre amis, lo siento, no puedo convient très bien.",
+            "pt": "Para dizer não com educação, suavize: me temo que no voy a poder (receio que não vou poder) soa muito mais gentil do que no puedo. Com amigos, lo siento, no puedo está ótimo.",
+            "zh": "想礼貌地拒绝，要说得委婉些：me temo que no voy a poder（恐怕我去不了了）比 no puedo 客气得多。对朋友说 lo siento, no puedo 就可以。"
+          },
+          "examples": [
+            {
+              "es": "Me temo que no voy a poder ir.",
+              "en": "I'm afraid I won't be able to go.",
+              "it": "Temo che non potrò venire.",
+              "uk": "Боюся, я не зможу прийти.",
+              "de": "Ich fürchte, ich werde nicht kommen können.",
+              "fr": "Je crains de ne pas pouvoir venir.",
+              "pt": "Receio que não vou poder ir.",
+              "zh": "恐怕我去不了了。"
+            },
+            {
+              "es": "Muchas gracias por la invitación, pero me temo que no puedo.",
+              "en": "Thank you very much for the invitation, but I'm afraid I can't.",
+              "it": "Grazie mille per l'invito, ma temo di non potere.",
+              "uk": "Щиро дякую за запрошення, але, боюся, я не можу.",
+              "de": "Vielen Dank für die Einladung, aber ich fürchte, ich kann nicht.",
+              "fr": "Merci beaucoup pour l'invitation, mais je crains de ne pas pouvoir.",
+              "pt": "Muito obrigado pelo convite, mas receio que não posso.",
+              "zh": "非常感谢您的邀请，但恐怕我去不了。"
+            },
+            {
+              "es": "Lo siento, tía, mañana no puedo.",
+              "en": "Sorry, I can't tomorrow.",
+              "it": "Scusa, domani non posso.",
+              "uk": "Вибач, подруго, завтра не можу.",
+              "de": "Tut mir leid, Süße, morgen kann ich nicht.",
+              "fr": "Désolé, ma belle, demain je ne peux pas.",
+              "pt": "Desculpa, amiga, amanhã não posso.",
+              "zh": "不好意思，姐们儿，我明天不行。"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Me ",
+          "after": " que no voy a poder ir a la reunión.",
+          "options": [
+            "temo",
+            "tengo",
+            "siento"
+          ],
+          "answer": "temo",
+          "en": "I'm afraid I won't be able to come to the meeting.",
+          "it": "Temo che non potrò venire alla riunione.",
+          "uk": "Боюся, я не зможу прийти на зустріч.",
+          "de": "Ich fürchte, ich werde nicht zu dem Meeting kommen können.",
+          "fr": "Je crains de ne pas pouvoir venir à la réunion.",
+          "pt": "Receio que não vou poder ir à reunião.",
+          "zh": "恐怕我没法参加会议了。",
+          "hint": {
+            "en": "The fixed phrase: me temo que.",
+            "it": "L'espressione fissa: me temo que.",
+            "uk": "Стала фраза: me temo que.",
+            "de": "Die feste Wendung: me temo que.",
+            "fr": "L'expression toute faite : me temo que.",
+            "pt": "A expressão fixa: me temo que.",
+            "zh": "固定说法：me temo que。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "A client invites you to dinner, but you can't go. Say: thank you very much for the invitation, but I'm afraid I can't.",
+            "it": "Un cliente ti invita a cena, ma non puoi andare. Digli: grazie mille per l'invito, ma temo di non potere.",
+            "uk": "Клієнт запрошує тебе на вечерю, але ти не можеш піти. Скажи: щиро дякую за запрошення, але, боюся, я не можу.",
+            "de": "Ein Kunde lädt dich zum Abendessen ein, aber du kannst nicht. Sag: Vielen Dank für die Einladung, aber ich fürchte, ich kann nicht.",
+            "fr": "Un client t'invite à dîner, mais tu ne peux pas y aller. Dis-lui : merci beaucoup pour l'invitation, mais je crains de ne pas pouvoir.",
+            "pt": "Um cliente convida você para jantar, mas você não pode ir. Diga: muito obrigado pelo convite, mas receio que não posso.",
+            "zh": "一位客户请你吃晚饭，但你去不了。说：非常感谢您的邀请，但恐怕我去不了。"
+          },
+          "accepted": [
+            "Muchas gracias por la invitación, pero me temo que no puedo.",
+            "Muchas gracias por la invitación, pero me temo que no voy a poder.",
+            "Muchas gracias por la invitación, pero me temo que no voy a poder ir."
+          ],
+          "tiles": [
+            "Muchas gracias",
+            "por la invitación,",
+            "pero",
+            "me temo",
+            "que no puedo",
+            "tía",
+            "usted"
+          ],
+          "en": "Thank you very much for the invitation, but I'm afraid I can't.",
+          "it": "Grazie mille per l'invito, ma temo di non potere.",
+          "uk": "Щиро дякую за запрошення, але, боюся, я не можу.",
+          "de": "Vielen Dank für die Einladung, aber ich fürchte, ich kann nicht.",
+          "fr": "Merci beaucoup pour l'invitation, mais je crains de ne pas pouvoir.",
+          "pt": "Muito obrigado pelo convite, mas receio que não posso.",
+          "zh": "非常感谢您的邀请，但恐怕我去不了。",
+          "hint": {
+            "en": "A client: thanks, then me temo que.",
+            "it": "Un cliente: grazie, poi me temo que.",
+            "uk": "Клієнт: подяка, потім me temo que.",
+            "de": "Ein Kunde: erst danken, dann me temo que.",
+            "fr": "Un client : merci, puis me temo que.",
+            "pt": "Um cliente: agradeça, depois me temo que.",
+            "zh": "客户：先道谢，再用 me temo que。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "Señora, ¿me ",
+          "after": " su dirección, por favor?",
+          "options": [
+            "da",
+            "das",
+            "dais"
+          ],
+          "answer": "da",
+          "en": "Madam, can you give me your address, please?",
+          "it": "Signora, mi dà il Suo indirizzo, per favore?",
+          "uk": "Пані, дасте мені свою адресу, будь ласка?",
+          "de": "Können Sie mir bitte Ihre Adresse geben? (zu einer Dame, mit Sie)",
+          "fr": "Madame, vous pouvez me donner votre adresse, s'il vous plaît ?",
+          "pt": "Senhora, a senhora me passa o seu endereço, por favor?",
+          "zh": "女士，您能把您的地址给我吗？谢谢。",
+          "hint": {
+            "en": "señora and su: usted, so da.",
+            "it": "señora e su: usted, quindi da.",
+            "uk": "señora і su: usted, тож da.",
+            "de": "señora und su: usted, also da.",
+            "fr": "señora et su : usted, donc da.",
+            "pt": "señora e su: usted, então da.",
+            "zh": "señora 和 su：用 usted，所以是 da。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "mix",
+          "before": "Perdone, ¿me ",
+          "after": " pasar el informe, por favor?",
+          "label": "poder (usted)",
+          "accepted": [
+            "podría",
+            "puede"
+          ],
+          "en": "Excuse me, could you pass me the report, please?",
+          "it": "Mi scusi, potrebbe passarmi la relazione, per favore?",
+          "uk": "Перепрошую, Ви не могли б передати мені звіт, будь ласка?",
+          "de": "Entschuldigen Sie, könnten Sie mir bitte den Bericht geben?",
+          "fr": "Excusez-moi, pourriez-vous me passer le rapport, s'il vous plaît ?",
+          "pt": "Com licença, o senhor poderia me passar o relatório, por favor?",
+          "zh": "劳驾，您能把报告递给我吗？谢谢。",
+          "hint": {
+            "en": "Polite, to usted: the conditional podría.",
+            "it": "Gentile, a usted: il condizionale podría.",
+            "uk": "Ввічливо, до usted: «condicional» podría.",
+            "de": "Höflich, an usted: der condicional podría.",
+            "fr": "Poli, à usted : le conditionnel podría.",
+            "pt": "Educado, para usted: o condicional podría.",
+            "zh": "礼貌，对 usted：条件式 podría。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "mix",
+          "intention": {
+            "en": "A good friend invites you to a party tomorrow, but you can't go. Tell her casually: sorry, I can't tomorrow.",
+            "it": "Una buona amica ti invita a una festa domani, ma non puoi andare. Dille in modo colloquiale: scusa, domani non posso.",
+            "uk": "Добра подруга запрошує тебе завтра на вечірку, але ти не можеш. Скажи їй невимушено: вибач, завтра не можу.",
+            "de": "Eine gute Freundin lädt dich für morgen zu einer Party ein, aber du kannst nicht. Sag ihr locker: Tut mir leid, morgen kann ich nicht.",
+            "fr": "Une bonne amie t'invite à une fête demain, mais tu ne peux pas y aller. Dis-lui de façon familière : désolé, demain je ne peux pas.",
+            "pt": "Uma grande amiga te convida para uma festa amanhã, mas você não pode ir. Diga a ela, de um jeito informal: desculpa, amanhã não posso.",
+            "zh": "一个好朋友（女）邀请你明天去参加聚会，但你去不了。随意地告诉她：不好意思，我明天不行。"
+          },
+          "accepted": [
+            "Lo siento, tía, mañana no puedo.",
+            "Lo siento, mañana no puedo.",
+            "Lo siento, tía, no puedo mañana."
+          ],
+          "tiles": [
+            "Lo siento,",
+            "tía,",
+            "mañana",
+            "no puedo",
+            "me temo",
+            "usted"
+          ],
+          "en": "Sorry, I can't tomorrow.",
+          "it": "Scusa, domani non posso.",
+          "uk": "Вибач, завтра не можу.",
+          "de": "Tut mir leid, morgen kann ich nicht.",
+          "fr": "Désolé, demain je ne peux pas.",
+          "pt": "Desculpa, amanhã não posso.",
+          "zh": "不好意思，我明天不行。",
+          "hint": {
+            "en": "A good friend: lo siento, no puedo is fine.",
+            "it": "Una buona amica: lo siento, no puedo va bene.",
+            "uk": "Добра подруга: lo siento, no puedo — цілком нормально.",
+            "de": "Eine gute Freundin: lo siento, no puedo passt.",
+            "fr": "Une bonne amie : lo siento, no puedo convient très bien.",
+            "pt": "Uma grande amiga: lo siento, no puedo está ótimo.",
+            "zh": "好朋友：说 lo siento, no puedo 就可以。"
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "You're leaving a voice message for a client. Write in Spanish: «Excuse me, could you call me this afternoon, please?»",
+            "it": "Lasci un messaggio vocale a un cliente. Scrivi in spagnolo: «Mi scusi, potrebbe chiamarmi oggi pomeriggio, per favore?»",
+            "uk": "Ти залишаєш голосове повідомлення клієнтові. Напиши іспанською: «Перепрошую, Ви не могли б зателефонувати мені сьогодні після обіду, будь ласка?»",
+            "de": "Du sprichst einem Kunden auf die Mailbox. Schreib auf Spanisch: «Entschuldigen Sie, könnten Sie mich bitte heute Nachmittag anrufen?»",
+            "fr": "Tu laisses un message vocal à un client. Écris en espagnol : «Excusez-moi, pourriez-vous m'appeler cet après-midi, s'il vous plaît ?»",
+            "pt": "Você está deixando uma mensagem de voz para um cliente. Escreva em espanhol: «Com licença, o senhor poderia me ligar hoje à tarde, por favor?»",
+            "zh": "你在给一位客户留语音消息。用西班牙语写：«劳驾，您今天下午能给我打个电话吗？谢谢。»"
+          },
+          "accepted": [
+            "Disculpe, ¿podría llamarme esta tarde, por favor?",
+            "Perdone, ¿podría llamarme esta tarde, por favor?",
+            "Disculpe, ¿me podría llamar esta tarde, por favor?",
+            "Perdone, ¿me podría llamar esta tarde, por favor?",
+            "Disculpe, ¿le importaría llamarme esta tarde, por favor?"
+          ],
+          "model": {
+            "es": "Disculpe, ¿podría llamarme esta tarde, por favor?",
+            "en": "Excuse me, could you call me this afternoon, please?",
+            "it": "Mi scusi, potrebbe chiamarmi oggi pomeriggio, per favore?",
+            "uk": "Перепрошую, Ви не могли б зателефонувати мені сьогодні після обіду, будь ласка?",
+            "de": "Entschuldigen Sie, könnten Sie mich bitte heute Nachmittag anrufen?",
+            "fr": "Excusez-moi, pourriez-vous m'appeler cet après-midi, s'il vous plaît ?",
+            "pt": "Com licença, o senhor poderia me ligar hoje à tarde, por favor?",
+            "zh": "劳驾，您今天下午能给我打个电话吗？谢谢。"
+          }
+        }
+      ]
+    }
+  ],
+  "boss": {
+    "id": "u44boss",
+    "goal": {
+      "en": "You've worked at your company for four years and you have a meeting with your director, whom you've always called usted. Ask her for a raise, politely, and answer what she says.",
+      "it": "Lavori nella tua azienda da quattro anni e hai una riunione con la tua direttrice, a cui hai sempre dato del Lei. Chiedile un aumento, con gentilezza, e rispondi a quello che dice.",
+      "uk": "Ти працюєш у компанії чотири роки, і в тебе зустріч із директоркою, до якої ти завжди звертався(-лася) на usted. Ввічливо попроси її про підвищення зарплати і відповідай на те, що вона скаже.",
+      "de": "Du arbeitest seit vier Jahren in deiner Firma und hast ein Gespräch mit deiner Direktorin, die du immer gesiezt hast (usted). Bitte sie höflich um eine Gehaltserhöhung und antworte auf das, was sie sagt.",
+      "fr": "Tu travailles dans ton entreprise depuis quatre ans et tu as une réunion avec ta directrice, que tu as toujours vouvoyée. Demande-lui une augmentation, poliment, et réponds à ce qu'elle dit.",
+      "pt": "Você trabalha na sua empresa há quatro anos e tem uma reunião com a sua diretora, que você sempre tratou por usted (como «a senhora»). Peça um aumento a ela, com educação, e responda ao que ela disser.",
+      "zh": "你在公司工作了四年，今天要和你的总监（女）开会，你一直用 usted 称呼她。礼貌地向她提出加薪，并回应她说的话。"
+    },
+    "items": [
+      {
+        "type": "words",
+        "words": [
+          {
+            "es": "la directora",
+            "en": "the director (a woman)",
+            "it": "la direttrice",
+            "uk": "директорка",
+            "de": "die Direktorin",
+            "fr": "la directrice",
+            "pt": "a diretora",
+            "zh": "总监（女）",
+            "kind": "chunk"
+          },
+          {
+            "es": "el aumento",
+            "en": "the raise (in pay)",
+            "it": "l'aumento (di stipendio)",
+            "uk": "підвищення (зарплати)",
+            "de": "die Gehaltserhöhung",
+            "fr": "l'augmentation (de salaire)",
+            "pt": "o aumento (de salário)",
+            "zh": "加薪",
+            "kind": "chunk"
+          },
+          {
+            "es": "creo que lo merezco",
+            "en": "I think I deserve it",
+            "it": "credo di meritarlo",
+            "uk": "думаю, що я на це заслуговую",
+            "de": "ich glaube, ich habe sie verdient (lo = el aumento, im Spanischen männlich)",
+            "fr": "je crois que je la mérite",
+            "pt": "acho que mereço",
+            "zh": "我觉得这是我应得的",
+            "kind": "chunk"
+          }
+        ]
+      },
+      {
+        "type": "build",
+        "intention": {
+          "en": "You knock on her door. Say: good morning, have you got a moment?",
+          "it": "Bussi alla sua porta. Dille: buongiorno, ha un momento?",
+          "uk": "Ти стукаєш у її двері. Скажи: доброго ранку, у Вас є хвилинка?",
+          "de": "Du klopfst an ihre Tür. Sag: Guten Morgen, haben Sie einen Moment Zeit?",
+          "fr": "Tu frappes à sa porte. Dis-lui : bonjour, vous avez un moment ?",
+          "pt": "Você bate na porta dela. Diga: bom dia, a senhora tem um minuto?",
+          "zh": "你敲了敲她的门。说：早上好，您现在有空吗？"
+        },
+        "accepted": [
+          "Buenos días, ¿tiene un momento?",
+          "Buenos días, ¿tiene usted un momento?"
+        ],
+        "tiles": [
+          "Buenos días,",
+          "¿tiene",
+          "un momento?",
+          "tener",
+          "tenga"
+        ],
+        "en": "Good morning, have you got a moment?",
+        "it": "Buongiorno, ha un momento?",
+        "uk": "Доброго ранку, у Вас є хвилинка?",
+        "de": "Guten Morgen, haben Sie einen Moment Zeit?",
+        "fr": "Bonjour, vous avez un moment ?",
+        "pt": "Bom dia, a senhora tem um minuto?",
+        "zh": "早上好，您现在有空吗？",
+        "hint": {
+          "en": "Your director, usted: tiene.",
+          "it": "La tua direttrice, usted: tiene.",
+          "uk": "Твоя директорка, usted: tiene.",
+          "de": "Deine Direktorin, usted: tiene.",
+          "fr": "Ta directrice, usted : tiene.",
+          "pt": "A sua diretora, usted: tiene.",
+          "zh": "你的总监，usted：tiene。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "Quería ",
+        "after": " con usted de mi sueldo.",
+        "options": [
+          "hablar",
+          "hablado",
+          "hablo"
+        ],
+        "answer": "hablar",
+        "en": "I wanted to talk to you about my salary.",
+        "it": "Volevo parlare con Lei del mio stipendio.",
+        "uk": "Я хотів(-ла) поговорити з Вами про свою зарплату.",
+        "de": "Ich wollte mit Ihnen über mein Gehalt sprechen.",
+        "fr": "Je voulais vous parler de mon salaire.",
+        "pt": "Eu queria falar com a senhora sobre o meu salário.",
+        "zh": "我想和您谈谈我的工资。",
+        "hint": {
+          "en": "A soft start: quería + infinitive.",
+          "it": "Un inizio gentile: quería + infinito.",
+          "uk": "М'який початок: quería + інфінітив.",
+          "de": "Ein sanfter Einstieg: quería + Infinitiv.",
+          "fr": "Une entrée en matière douce : quería + infinitif.",
+          "pt": "Um começo delicado: quería + infinitivo.",
+          "zh": "委婉的开场：quería + 动词原形。"
+        }
+      },
+      {
+        "type": "gap",
+        "before": "",
+        "after": " cuatro años en la empresa.",
+        "label": "llevar",
+        "accepted": [
+          "Llevo"
+        ],
+        "en": "I've been at the company for four years.",
+        "it": "Lavoro nell'azienda da quattro anni.",
+        "uk": "Я працюю в компанії вже чотири роки.",
+        "de": "Ich bin seit vier Jahren in der Firma.",
+        "fr": "Je travaille dans l'entreprise depuis quatre ans.",
+        "pt": "Estou na empresa há quatro anos.",
+        "zh": "我在公司工作四年了。",
+        "hint": {
+          "en": "How long: yo llevo + the time.",
+          "it": "Da quanto tempo: yo llevo + il tempo.",
+          "uk": "Скільки часу: yo llevo + проміжок часу.",
+          "de": "Wie lange schon: yo llevo + die Zeit.",
+          "fr": "Depuis combien de temps : yo llevo + la durée.",
+          "pt": "Há quanto tempo: yo llevo + o tempo.",
+          "zh": "多长时间：yo llevo + 时间。"
+        }
+      },
+      {
+        "type": "build",
+        "intention": {
+          "en": "Now ask: if it's no trouble, I'd like to ask you for a raise.",
+          "it": "Adesso chiedi: se non è un disturbo, vorrei chiederLe un aumento.",
+          "uk": "Тепер попроси: якщо Вам не складно, я хотів(-ла) би попросити Вас про підвищення зарплати.",
+          "de": "Jetzt bitte: Wenn es keine Umstände macht, würde ich Sie gern um eine Gehaltserhöhung bitten.",
+          "fr": "Maintenant, demande : si ça ne dérange pas, je voudrais vous demander une augmentation.",
+          "pt": "Agora peça: se não for incômodo, eu gostaria de pedir um aumento à senhora.",
+          "zh": "现在提出请求：如果不麻烦的话，我想向您申请加薪。"
+        },
+        "accepted": [
+          "Si no es molestia, me gustaría pedirle un aumento.",
+          "Me gustaría pedirle un aumento, si no es molestia.",
+          "Si no es molestia, quería pedirle un aumento."
+        ],
+        "tiles": [
+          "Si no es molestia,",
+          "me gustaría",
+          "pedirle",
+          "un aumento",
+          "pedirte",
+          "preguntarle"
+        ],
+        "en": "If it's no trouble, I'd like to ask you for a raise.",
+        "it": "Se non è un disturbo, vorrei chiederLe un aumento.",
+        "uk": "Якщо Вам не складно, я хотів(-ла) би попросити Вас про підвищення зарплати.",
+        "de": "Wenn es keine Umstände macht, würde ich Sie gern um eine Gehaltserhöhung bitten.",
+        "fr": "Si ça ne dérange pas, je voudrais vous demander une augmentation.",
+        "pt": "Se não for incômodo, eu gostaria de pedir um aumento à senhora.",
+        "zh": "如果不麻烦的话，我想向您申请加薪。",
+        "hint": {
+          "en": "Asking for something, to usted: pedirle.",
+          "it": "Chiedere qualcosa, a usted: pedirle.",
+          "uk": "Просиш про щось, до usted: pedirle.",
+          "de": "Um etwas bitten, an usted: pedirle.",
+          "fr": "Demander quelque chose, à usted : pedirle.",
+          "pt": "Pedir algo, para usted: pedirle.",
+          "zh": "向 usted 请求某物：pedirle。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "Este año he ",
+        "after": " mucho y creo que lo merezco.",
+        "options": [
+          "trabajado",
+          "trabajando",
+          "trabajar"
+        ],
+        "answer": "trabajado",
+        "en": "I've worked a lot this year and I think I deserve it.",
+        "it": "Quest'anno ho lavorato molto e credo di meritarlo.",
+        "uk": "Цього року я багато працював(-ла) і думаю, що я на це заслуговую.",
+        "de": "Ich habe dieses Jahr viel gearbeitet, und ich glaube, ich habe sie verdient.",
+        "fr": "J'ai beaucoup travaillé cette année et je crois que je la mérite.",
+        "pt": "Trabalhei muito este ano e acho que mereço.",
+        "zh": "今年我工作很努力，我觉得这是我应得的。",
+        "hint": {
+          "en": "he + the participle trabajado.",
+          "it": "he + il participio trabajado.",
+          "uk": "he + дієприкметник trabajado.",
+          "de": "he + das Partizip trabajado.",
+          "fr": "he + le participe trabajado.",
+          "pt": "he + o particípio trabajado.",
+          "zh": "he + 过去分词 trabajado。"
+        }
+      },
+      {
+        "type": "build",
+        "intention": {
+          "en": "She says «Ahora mismo no hay dinero». Answer: I understand. Even so, I think I deserve it.",
+          "it": "Lei dice «Ahora mismo no hay dinero». Rispondi: lo capisco. Tuttavia, credo di meritarlo.",
+          "uk": "Вона каже: «Ahora mismo no hay dinero». Відповідай: розумію. І все ж я думаю, що на це заслуговую.",
+          "de": "Sie sagt: «Ahora mismo no hay dinero». Antworte: Ich verstehe. Trotzdem glaube ich, dass ich sie verdient habe.",
+          "fr": "Elle dit «Ahora mismo no hay dinero». Réponds : je comprends. Malgré tout, je crois que je la mérite.",
+          "pt": "Ela diz «Ahora mismo no hay dinero». Responda: entendo. Mesmo assim, acho que mereço.",
+          "zh": "她说：«Ahora mismo no hay dinero»。回答：我理解。即便如此，我还是觉得这是我应得的。"
+        },
+        "accepted": [
+          "Lo entiendo. Aun así, creo que lo merezco.",
+          "Lo entiendo. No obstante, creo que lo merezco.",
+          "Lo entiendo. Sin embargo, creo que lo merezco."
+        ],
+        "tiles": [
+          "Lo entiendo.",
+          "Aun así,",
+          "creo que",
+          "lo merezco",
+          "porque",
+          "aunque"
+        ],
+        "en": "I understand. Even so, I think I deserve it.",
+        "it": "Lo capisco. Tuttavia, credo di meritarlo.",
+        "uk": "Розумію. І все ж я думаю, що на це заслуговую.",
+        "de": "Ich verstehe. Trotzdem glaube ich, dass ich sie verdient habe.",
+        "fr": "Je comprends. Malgré tout, je crois que je la mérite.",
+        "pt": "Entendo. Mesmo assim, acho que mereço.",
+        "zh": "我理解。即便如此，我还是觉得这是我应得的。",
+        "hint": {
+          "en": "Accept her point and go on: aun así.",
+          "it": "Accetta il suo punto e vai avanti: aun así.",
+          "uk": "Визнай її аргумент і продовжуй: aun así.",
+          "de": "Erkenne ihren Punkt an und mach weiter: aun así.",
+          "fr": "Accepte son argument et continue : aun así.",
+          "pt": "Aceite o argumento dela e siga em frente: aun así.",
+          "zh": "先接受她的观点，再继续说：aun así。"
+        }
+      },
+      {
+        "type": "gap",
+        "before": "Entonces, ¿",
+        "after": " volver a hablar en junio?",
+        "label": "poder (nosotros)",
+        "accepted": [
+          "podríamos",
+          "podemos"
+        ],
+        "en": "So, could we talk again in June?",
+        "it": "Allora, potremmo riparlarne a giugno?",
+        "uk": "Тоді, може, ми могли б повернутися до цієї розмови в червні?",
+        "de": "Könnten wir dann im Juni noch einmal darüber sprechen?",
+        "fr": "Alors, est-ce qu'on pourrait en reparler en juin ?",
+        "pt": "Então, a gente poderia voltar a conversar em junho?",
+        "zh": "那么，我们六月份可以再谈一次吗？",
+        "hint": {
+          "en": "Polite, for nosotros: podríamos.",
+          "it": "Gentile, per nosotros: podríamos.",
+          "uk": "Ввічливо, для nosotros: podríamos.",
+          "de": "Höflich, für nosotros: podríamos.",
+          "fr": "Poli, pour nosotros : podríamos.",
+          "pt": "Educado, para nosotros: podríamos.",
+          "zh": "礼貌，对 nosotros：podríamos。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "¿Le ",
+        "after": " mirar mi informe de este año?",
+        "options": [
+          "importaría",
+          "importar",
+          "importante"
+        ],
+        "answer": "importaría",
+        "en": "Would you mind looking at my report for this year?",
+        "it": "Le dispiacerebbe guardare la mia relazione di quest'anno?",
+        "uk": "Вам не важко переглянути мій звіт за цей рік?",
+        "de": "Würde es Ihnen etwas ausmachen, sich meinen Bericht für dieses Jahr anzusehen?",
+        "fr": "Est-ce que ça vous dérangerait de regarder mon rapport de cette année ?",
+        "pt": "A senhora se importaria de dar uma olhada no meu relatório deste ano?",
+        "zh": "您介意看一下我今年的报告吗？",
+        "hint": {
+          "en": "A polite request: ¿le importaría…?",
+          "it": "Una richiesta gentile: ¿le importaría…?",
+          "uk": "Ввічливе прохання: ¿le importaría…?",
+          "de": "Eine höfliche Bitte: ¿le importaría…?",
+          "fr": "Une demande polie : ¿le importaría…?",
+          "pt": "Um pedido educado: ¿le importaría…?",
+          "zh": "礼貌的请求：¿le importaría…?"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "Le ",
+        "after": " el informe en un correo esta tarde.",
+        "options": [
+          "mando",
+          "mandar",
+          "mandado"
+        ],
+        "answer": "mando",
+        "en": "I'll send you the report in an email this afternoon.",
+        "it": "Le mando la relazione per email oggi pomeriggio.",
+        "uk": "Сьогодні після обіду я надішлю Вам звіт електронною поштою.",
+        "de": "Ich schicke Ihnen den Bericht heute Nachmittag per E-Mail.",
+        "fr": "Je vous envoie le rapport par e-mail cet après-midi.",
+        "pt": "Mando o relatório para a senhora por e-mail hoje à tarde.",
+        "zh": "我今天下午把报告用邮件发给您。",
+        "hint": {
+          "en": "I send: le mando.",
+          "it": "Io mando: le mando.",
+          "uk": "Я надсилаю: le mando.",
+          "de": "Ich schicke: le mando.",
+          "fr": "J'envoie : le mando.",
+          "pt": "Eu mando: le mando.",
+          "zh": "我发：le mando。"
+        }
+      },
+      {
+        "type": "build",
+        "intention": {
+          "en": "She asks «¿Podría quedarse hoy hasta las nueve?». You can't. Answer politely: I'm afraid I won't be able to today.",
+          "it": "Lei ti chiede «¿Podría quedarse hoy hasta las nueve?». Non puoi. Rispondi con educazione: temo che oggi non potrò.",
+          "uk": "Вона питає: «¿Podría quedarse hoy hasta las nueve?». Ти не можеш. Ввічливо відповідай: боюся, сьогодні я не зможу.",
+          "de": "Sie fragt: «¿Podría quedarse hoy hasta las nueve?». Du kannst nicht. Antworte höflich: Ich fürchte, heute werde ich nicht können.",
+          "fr": "Elle te demande «¿Podría quedarse hoy hasta las nueve?». Tu ne peux pas. Réponds poliment : je crains de ne pas pouvoir aujourd'hui.",
+          "pt": "Ela pergunta «¿Podría quedarse hoy hasta las nueve?». Você não pode. Responda com educação: receio que hoje não vou poder.",
+          "zh": "她问你：«¿Podría quedarse hoy hasta las nueve?»。你不行。礼貌地回答：恐怕我今天不行。"
+        },
+        "accepted": [
+          "Me temo que hoy no voy a poder.",
+          "Me temo que no voy a poder hoy.",
+          "Me temo que hoy no puedo."
+        ],
+        "tiles": [
+          "Me temo",
+          "que",
+          "hoy",
+          "no voy a poder",
+          "tía",
+          "siento"
+        ],
+        "en": "I'm afraid I won't be able to today.",
+        "it": "Temo che oggi non potrò.",
+        "uk": "Боюся, сьогодні я не зможу.",
+        "de": "Ich fürchte, heute werde ich nicht können.",
+        "fr": "Je crains de ne pas pouvoir aujourd'hui.",
+        "pt": "Receio que hoje não vou poder.",
+        "zh": "恐怕我今天不行。",
+        "hint": {
+          "en": "A polite no: me temo que.",
+          "it": "Un no educato: me temo que.",
+          "uk": "Ввічлива відмова: me temo que.",
+          "de": "Ein höfliches Nein: me temo que.",
+          "fr": "Un non poli : me temo que.",
+          "pt": "Um não educado: me temo que.",
+          "zh": "礼貌的拒绝：me temo que。"
+        }
+      },
+      {
+        "type": "build",
+        "intention": {
+          "en": "Before leaving, say: thank you very much for your time.",
+          "it": "Prima di andare via, dille: grazie mille per il Suo tempo.",
+          "uk": "Перед тим як піти, скажи: щиро дякую за Ваш час.",
+          "de": "Bevor du gehst, sag: Vielen Dank für Ihre Zeit.",
+          "fr": "Avant de partir, dis-lui : merci beaucoup pour votre temps.",
+          "pt": "Antes de sair, diga a ela: muito obrigado pelo seu tempo.",
+          "zh": "离开之前，说：非常感谢您抽出时间。"
+        },
+        "accepted": [
+          "Muchas gracias por su tiempo."
+        ],
+        "tiles": [
+          "Muchas gracias",
+          "por",
+          "su",
+          "tiempo",
+          "usted",
+          "para"
+        ],
+        "en": "Thank you very much for your time.",
+        "it": "Grazie mille per il Suo tempo.",
+        "uk": "Щиро дякую за Ваш час.",
+        "de": "Vielen Dank für Ihre Zeit.",
+        "fr": "Merci beaucoup pour votre temps.",
+        "pt": "Muito obrigado pelo seu tempo.",
+        "zh": "非常感谢您抽出时间。",
+        "hint": {
+          "en": "Her time, usted: su tiempo.",
+          "it": "Il suo tempo, usted: su tiempo.",
+          "uk": "Її час, usted: su tiempo.",
+          "de": "Ihre Zeit, usted: su tiempo.",
+          "fr": "Son temps, usted : su tiempo.",
+          "pt": "O tempo dela, usted: su tiempo.",
+          "zh": "她的时间，usted：su tiempo。"
+        }
+      },
+      {
+        "type": "write",
+        "instruction": {
+          "en": "Back at your desk, you email her the report. Write in Spanish: «Dear director, thank you for the meeting. Please find the report attached.»",
+          "it": "Tornato alla tua scrivania, le mandi la relazione per email. Scrivi in spagnolo: «Gentile direttrice, grazie per la riunione. Le allego la relazione.»",
+          "uk": "Повернувшись за свій стіл, ти надсилаєш їй звіт листом. Напиши іспанською: «Шановна пані директорко, дякую за зустріч. У додатку надсилаю Вам звіт.»",
+          "de": "Zurück an deinem Schreibtisch schickst du ihr den Bericht per E-Mail. Schreib auf Spanisch: «Sehr geehrte Frau Direktorin, vielen Dank für das Gespräch. Anbei sende ich Ihnen den Bericht.»",
+          "fr": "De retour à ton bureau, tu lui envoies le rapport par e-mail. Écris en espagnol : «Madame la directrice, merci pour la réunion. Veuillez trouver ci-joint le rapport.»",
+          "pt": "De volta à sua mesa, você manda o relatório para ela por e-mail. Escreva em espanhol: «Prezada diretora, obrigado pela reunião. Segue em anexo o relatório.»",
+          "zh": "回到办公桌后，你把报告用邮件发给她。用西班牙语写：«尊敬的总监：感谢您的会面。附件是报告，请查收。»"
+        },
+        "accepted": [
+          "Estimada directora: gracias por la reunión. Le adjunto el informe.",
+          "Estimada directora: muchas gracias por la reunión. Le adjunto el informe.",
+          "Estimada directora, gracias por la reunión. Le adjunto el informe."
+        ],
+        "model": {
+          "es": "Estimada directora: gracias por la reunión. Le adjunto el informe.",
+          "en": "Dear director, thank you for the meeting. Please find the report attached.",
+          "it": "Gentile direttrice, grazie per la riunione. Le allego la relazione.",
+          "uk": "Шановна пані директорко, дякую за зустріч. У додатку надсилаю Вам звіт.",
+          "de": "Sehr geehrte Frau Direktorin, vielen Dank für das Gespräch. Anbei sende ich Ihnen den Bericht.",
+          "fr": "Madame la directrice, merci pour la réunion. Veuillez trouver ci-joint le rapport.",
+          "pt": "Prezada diretora, obrigado pela reunião. Segue em anexo o relatório.",
+          "zh": "尊敬的总监：感谢您的会面。附件是报告，请查收。"
+        }
+      },
+      {
+        "type": "write",
+        "instruction": {
+          "en": "Add one more line to the email. Write in Spanish: «I look forward to your reply. Kind regards.»",
+          "it": "Aggiungi un'altra riga all'email. Scrivi in spagnolo: «Resto in attesa di una Sua risposta. Cordiali saluti.»",
+          "uk": "Додай до листа ще один рядок. Напиши іспанською: «Чекаю на Вашу відповідь. З найкращими побажаннями.»",
+          "de": "Füg der E-Mail noch eine Zeile hinzu. Schreib auf Spanisch: «Ich freue mich auf Ihre Antwort. Viele Grüße.»",
+          "fr": "Ajoute une ligne à l'e-mail. Écris en espagnol : «Dans l'attente de votre réponse. Cordialement.»",
+          "pt": "Acrescente mais uma linha ao e-mail. Escreva em espanhol: «Fico no aguardo da sua resposta. Cordialmente.»",
+          "zh": "在邮件里再加一句。用西班牙语写：«期待您的回复。此致敬礼。»"
+        },
+        "accepted": [
+          "Quedo a la espera de su respuesta. Un saludo.",
+          "Quedo a la espera de su respuesta. Atentamente."
+        ],
+        "model": {
+          "es": "Quedo a la espera de su respuesta. Un saludo.",
+          "en": "I look forward to your reply. Kind regards.",
+          "it": "Resto in attesa di una Sua risposta. Cordiali saluti.",
+          "uk": "Чекаю на Вашу відповідь. З найкращими побажаннями.",
+          "de": "Ich freue mich auf Ihre Antwort. Viele Grüße.",
+          "fr": "Dans l'attente de votre réponse. Cordialement.",
+          "pt": "Fico no aguardo da sua resposta. Cordialmente.",
+          "zh": "期待您的回复。此致敬礼。"
+        }
+      }
+    ]
+  }
+}
