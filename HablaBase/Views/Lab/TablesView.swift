@@ -5,6 +5,7 @@ struct TablesView: View {
     @EnvironmentObject private var store: AppStore
     @State private var benchLemma = "hablar"
     @State private var benchPerson: Person = .yo
+    @Environment(\.tone) private var tone
 
     private let rackPersons = Unit1.persons
 
@@ -57,7 +58,7 @@ struct TablesView: View {
         .frame(maxWidth: .infinity, minHeight: 34)
         .background(
             RoundedRectangle(cornerRadius: 8)
-                .fill(Palette.success.opacity(locked ? 0.04 : 0.08 + 0.17 * Double(mastery)))
+                .fill(tone.main.opacity(locked ? 0.04 : 0.08 + 0.17 * Double(mastery)))
         )
     }
 
@@ -80,7 +81,7 @@ struct TablesView: View {
                         Button(person.label) { benchPerson = person }
                             .accessibilityAddTraits(person == benchPerson ? .isSelected : [])
                             .buttonStyle(.bordered)
-                            .tint(person == benchPerson ? Brick.ending.color : .secondary)
+                            .tint(person == benchPerson ? tone.main : .secondary)
                     }
                 }
             }

@@ -54,6 +54,7 @@ struct VocabSlidesView: View {
 
 /// Match each new word with its translation. Mixing two up sends the set back to Fix.
 struct VocabMatchView: View {
+    @Environment(\.tone) var tone
     let set: VocabSet
     let language: NativeLanguage
     let onSubmit: (GradeOutcome) -> Void
@@ -101,8 +102,8 @@ struct VocabMatchView: View {
                 .multilineTextAlignment(.center)
                 .frame(maxWidth: .infinity, minHeight: 52)
                 .padding(.horizontal, 6)
-                .background(RoundedRectangle(cornerRadius: 12).fill(warning ? Palette.warning.opacity(0.25) : highlighted ? Brick.stem.color.opacity(0.18) : Palette.card))
-                .overlay(RoundedRectangle(cornerRadius: 12).strokeBorder(highlighted ? Brick.stem.color : .clear, lineWidth: 2))
+                .background(RoundedRectangle(cornerRadius: 12).fill(warning ? Palette.warning.opacity(0.25) : highlighted ? tone.soft : Palette.card))
+                .overlay(RoundedRectangle(cornerRadius: 12).strokeBorder(highlighted ? tone.main : .clear, lineWidth: 2))
         }
         .buttonStyle(.plain)
         .opacity(done ? 0.25 : 1)
@@ -300,6 +301,7 @@ struct LegoSnapView: View {
 
 /// Type or say the missing verb; who is speaking and the context decide the form.
 struct GapFillView: View {
+    @Environment(\.tone) var tone
     let gap: GapFill
     let language: NativeLanguage
     let onSubmit: (GradeOutcome) -> Void
@@ -320,7 +322,7 @@ struct GapFillView: View {
                 FlowLayout(spacing: 5) {
                     ForEach(Array(sentenceWords.enumerated()), id: \.offset) { _, word in
                         if word == Self.blank {
-                            Text(verbatim: "_____").foregroundStyle(Brick.ending.color).font(.title3.weight(.medium))
+                            Text(verbatim: "_____").foregroundStyle(tone.main).font(.title3.weight(.medium))
                         } else {
                             GlossedWord(word: word, font: .title3.weight(.medium))
                         }
@@ -360,7 +362,7 @@ struct GapFillView: View {
                         .font(.caption.weight(.semibold))
                         .padding(.horizontal, 8)
                         .padding(.vertical, 4)
-                        .background(Capsule().fill(Brick.stem.color.opacity(0.15)))
+                        .background(Capsule().fill(tone.soft))
                 }
                 .padding()
                 .background(RoundedRectangle(cornerRadius: 16).strokeBorder(Color.secondary.opacity(0.4)))
@@ -414,6 +416,7 @@ struct GapFillView: View {
 
 /// Pick the word that completes the sentence. Hints grey out wrong options, one per step.
 struct ChoiceView: View {
+    @Environment(\.tone) var tone
     let choice: Choice
     let language: NativeLanguage
     let onSubmit: (GradeOutcome) -> Void
@@ -434,7 +437,7 @@ struct ChoiceView: View {
                     ForEach(Array(sentenceWords.enumerated()), id: \.offset) { _, word in
                         if word == Self.blank {
                             Text(verbatim: selected ?? "_____")
-                                .foregroundStyle(Brick.ending.color)
+                                .foregroundStyle(tone.main)
                                 .font(.title3.weight(.semibold))
                         } else {
                             GlossedWord(word: word, font: .title3.weight(.medium))
@@ -456,8 +459,8 @@ struct ChoiceView: View {
                         Text(option)
                             .font(.title3.weight(.semibold))
                             .frame(maxWidth: .infinity, minHeight: 52)
-                            .background(RoundedRectangle(cornerRadius: 14).fill(selected == option ? Brick.ending.color.opacity(0.2) : Palette.card))
-                            .overlay(RoundedRectangle(cornerRadius: 14).strokeBorder(selected == option ? Brick.ending.color : .clear, lineWidth: 2))
+                            .background(RoundedRectangle(cornerRadius: 14).fill(selected == option ? tone.soft : Palette.card))
+                            .overlay(RoundedRectangle(cornerRadius: 14).strokeBorder(selected == option ? tone.main : .clear, lineWidth: 2))
                     }
                     .buttonStyle(.plain)
                     .opacity(ruledOut ? 0.3 : 1)

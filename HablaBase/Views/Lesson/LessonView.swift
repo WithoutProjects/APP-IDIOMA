@@ -8,6 +8,11 @@ struct LessonView: View {
     @State private var showIntro: Bool
     @State private var explanation: FrameCard?
 
+    /// Every lesson wears the colour of its level; a review wears the learner's current one.
+    private var tone: Tone {
+        Journey.tone(forStep: session.lesson.id) ?? Journey.currentTone(store: store)
+    }
+
     init(lesson: Lesson) {
         _session = StateObject(wrappedValue: LessonSession(lesson: lesson))
         _showIntro = State(initialValue: lesson.target != nil)
@@ -42,7 +47,6 @@ struct LessonView: View {
                                         .font(.caption.weight(.semibold))
                                 }
                                 .buttonStyle(.bordered)
-                                .tint(Brick.stem.color)
                             }
                         }
                         itemView(item)
@@ -60,6 +64,7 @@ struct LessonView: View {
             }
         }
         .animation(.easeOut(duration: 0.25), value: session.feedback != nil)
+        .levelTone(tone)
         .environment(\.glossary, store.glossary(including: session.lesson))
         .environment(\.learnerLanguage, store.language)
         .sheet(item: $explanation) { card in
@@ -89,7 +94,6 @@ struct LessonView: View {
             .frame(minWidth: 44, minHeight: 44)
             .accessibilityLabel("Close lesson")
             ProgressView(value: finished ? 1 : session.progress)
-                .tint(Palette.success)
             EnergyView(energy: store.state.energy)
         }
         .padding()
@@ -209,7 +213,7 @@ struct LessonCompleteView: View {
     @Environment(\.accessibilityReduceMotion) var reduceMotion
     @State var appeared = false
 
-    private var tone: Tone { testPassed == false ? .dustyBlue : .sage }
+    @Environment(\.tone) var tone
 
     var body: some View {
         VStack(spacing: 20) {

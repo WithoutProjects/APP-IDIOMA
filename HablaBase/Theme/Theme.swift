@@ -60,7 +60,8 @@ struct ColoredForm: View {
 
 /// The single large primary action at thumb height: flat, calm and full width.
 struct PrimaryButtonStyle: ButtonStyle {
-    var color: Color = .accentColor
+    /// Nil follows the screen's tint, which is the level's tone.
+    var color: Color?
     var textColor: Color = .white
 
     func makeBody(configuration: Configuration) -> some View {
@@ -69,7 +70,8 @@ struct PrimaryButtonStyle: ButtonStyle {
             .foregroundStyle(textColor)
             .frame(maxWidth: .infinity)
             .padding(.vertical, 16)
-            .background(RoundedRectangle(cornerRadius: 14, style: .continuous).fill(color))
+            .background(RoundedRectangle(cornerRadius: 14, style: .continuous)
+                .fill(color.map { AnyShapeStyle($0) } ?? AnyShapeStyle(.tint)))
             .opacity(configuration.isPressed ? 0.8 : 1)
             .scaleEffect(configuration.isPressed ? 0.99 : 1)
             .animation(.easeOut(duration: 0.12), value: configuration.isPressed)

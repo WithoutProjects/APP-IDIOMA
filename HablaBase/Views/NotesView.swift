@@ -8,47 +8,73 @@ struct NotesView: View {
     var body: some View {
         NavigationStack {
             let notes = store.notes
-            List {
-                if let current = notes.first {
-                    Section("Current unit") {
+            ScrollView {
+                VStack(alignment: .leading, spacing: 14) {
+                    ScreenHeader(eyebrow: Journey.currentLevel(store: store).map { Journey.caption($0, language: store.language) },
+                                 title: "Notes",
+                                 subtitle: Self.intro.text(store.language))
+                        .padding(.bottom, 8)
+                    if let current = notes.first {
+                        Eyebrow(text: store.language.localized("Current unit"))
                         row(current)
                     }
-                }
-                if notes.count > 1 {
-                    Section("Earlier units") {
+                    if notes.count > 1 {
+                        Eyebrow(text: store.language.localized("Earlier units"))
+                            .padding(.top, 12)
                         ForEach(notes.dropFirst()) { row($0) }
                     }
+                    if notes.isEmpty {
+                        ContentUnavailableView("No notes yet", systemImage: "book.closed",
+                                               description: Text("Start your first lesson and its explanations and words will be saved here."))
+                            .padding(.top, 40)
+                    }
                 }
+                .padding(20)
             }
-            .overlay {
-                if notes.isEmpty {
-                    ContentUnavailableView("No notes yet", systemImage: "book.closed",
-                                           description: Text("Start your first lesson and its explanations and words will be saved here."))
-                }
-            }
-            .navigationTitle("Notes")
+            .toolbar(.hidden, for: .navigationBar)
         }
     }
 
+    static let intro = Gloss(en: "Every explanation and word you have met, unit by unit.", it: "Tutte le spiegazioni e le parole che hai incontrato, unità per unità.", uk: "Усі пояснення і слова, які ти вже бачив, розділ за розділом.", de: "Alle Erklärungen und Wörter, die du kennengelernt hast, Einheit für Einheit.", fr: "Toutes les explications et tous les mots rencontrés, unité par unité.", pt: "Todas as explicações e palavras que você já viu, unidade por unidade.", zh: "你学过的所有讲解和单词，按单元整理。")
+
     private func row(_ notes: UnitNotes) -> some View {
-        NavigationLink {
+        let tone = Journey.level(of: notes.unit).map { Tone.forLevel($0.number) } ?? .sage
+        return NavigationLink {
             UnitNotesView(notes: notes)
+                .levelTone(tone)
         } label: {
-            VStack(alignment: .leading, spacing: 2) {
-                Text("Unit \(notes.unit.number) · \(notes.unit.title)").font(.headline)
-                Text(notes.unit.gloss.text(store.language)).font(.subheadline).foregroundStyle(.secondary)
-                Text("\(notes.lessons.count) lessons · \(notes.lessons.flatMap(\.vocabulary).count) words")
-                    .font(.caption)
-                    .foregroundStyle(Brick.stem.color)
+            HStack(spacing: 16) {
+                ToneTile(size: 52) {
+                    Text(verbatim: "\(notes.unit.number)").monospacedDigit()
+                }
+                VStack(alignment: .leading, spacing: 3) {
+                    Text(notes.unit.title).font(.headline)
+                    Text(notes.unit.gloss.text(store.language))
+                        .font(.subheadline)
+                        .foregroundStyle(.secondary)
+                    Text("\(notes.lessons.count) lessons · \(notes.lessons.flatMap(\.vocabulary).count) words")
+                        .font(.caption)
+                        .foregroundStyle(tone.main)
+                }
+                .multilineTextAlignment(.leading)
+                Spacer(minLength: 0)
+                Image(systemName: "chevron.right")
+                    .foregroundStyle(.tertiary)
+                    .accessibilityHidden(true)
             }
-            .padding(.vertical, 4)
+            .padding(16)
+            .background(RoundedRectangle(cornerRadius: 20, style: .continuous).fill(Palette.card))
+            .contentShape(Rectangle())
+            .environment(\.tone, tone)
         }
+        .buttonStyle(.plain)
     }
 }
 
 /// One unit's notes, lesson by lesson: the words first, then the explanations, as in the lesson.
 struct UnitNotesView: View {
     @EnvironmentObject var store: AppStore
+    @Environment(\.tone) var tone
     let notes: UnitNotes
 
     var body: some View {
@@ -74,7 +100,7 @@ struct UnitNotesView: View {
             }
 
             if !lesson.vocabulary.isEmpty {
-                Text("Vocabulary").textCase(.uppercase).font(.caption.weight(.bold)).foregroundStyle(.secondary)
+                Eyebrow(text: store.language.localized("Vocabulary"), color: tone.main)
                 VStack(spacing: 0) {
                     ForEach(lesson.vocabulary, id: \.self) { word in
                         HStack {
@@ -87,7 +113,7 @@ struct UnitNotesView: View {
                         Divider().padding(.leading, 14)
                     }
                 }
-                .background(RoundedRectangle(cornerRadius: 16).fill(Palette.card))
+                .background(RoundedRectangle(cornerRadius: 20, style: .continuous).fill(Palette.card))
             }
 
             let explanations = lesson.items.compactMap { item -> FrameCard? in
@@ -95,11 +121,11 @@ struct UnitNotesView: View {
                 return nil
             }
             if !explanations.isEmpty {
-                Text("Explanations").textCase(.uppercase).font(.caption.weight(.bold)).foregroundStyle(.secondary)
+                Eyebrow(text: store.language.localized("Explanations"), color: tone.main)
                 ForEach(explanations) { card in
                     FrameCardView(card: card, language: store.language, onContinue: {}, showsButton: false)
                         .padding(16)
-                        .background(RoundedRectangle(cornerRadius: 20).strokeBorder(Color.secondary.opacity(0.2)))
+                        .background(RoundedRectangle(cornerRadius: 20, style: .continuous).strokeBorder(Color(.systemGray5)))
                 }
             }
         }

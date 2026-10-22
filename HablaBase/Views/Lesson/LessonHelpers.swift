@@ -164,7 +164,6 @@ struct HintButton: View {
                     .font(.subheadline.weight(.semibold))
             }
             .buttonStyle(.bordered)
-            .tint(Brick.ending.color)
         }
     }
 }
@@ -176,13 +175,13 @@ struct HintBox<Content: View>: View {
     var body: some View {
         HStack(alignment: .center, spacing: 10) {
             Image(systemName: "lightbulb.fill")
-                .foregroundStyle(.yellow)
+                .foregroundStyle(Tone.ochre.main)
                 .accessibilityHidden(true)
             content
         }
         .padding(12)
         .frame(maxWidth: .infinity, alignment: .leading)
-        .background(RoundedRectangle(cornerRadius: 14).fill(Color.yellow.opacity(0.12)))
+        .background(RoundedRectangle(cornerRadius: 14).fill(Tone.ochre.soft))
         .transition(.opacity)
     }
 }
@@ -195,6 +194,7 @@ extension FrameCard: Identifiable {
 
 /// "Today you'll learn to say…": the sentence the lesson builds up to, heard before starting.
 struct LessonIntroView: View {
+    @Environment(\.tone) var tone
     let lesson: Lesson
     let target: Example
     let language: NativeLanguage
@@ -212,7 +212,7 @@ struct LessonIntroView: View {
                 VStack(alignment: .leading, spacing: 6) {
                     Text(target.es)
                         .font(.title2.weight(.semibold))
-                        .foregroundStyle(Brick.stem.color)
+                        .foregroundStyle(tone.main)
                     Text(target.gloss.text(language))
                         .foregroundStyle(.secondary)
                 }

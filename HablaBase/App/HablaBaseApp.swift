@@ -32,6 +32,7 @@ struct RootView: View {
                     .tabItem { Label("Profile", systemImage: "person.crop.circle") }
             }
             .environment(\.locale, store.language.locale)
+            .levelTone(Journey.currentTone(store: store))
         }
     }
 }

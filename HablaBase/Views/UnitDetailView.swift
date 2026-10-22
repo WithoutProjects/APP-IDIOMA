@@ -20,6 +20,7 @@ struct UnitDetailView: View {
             .padding(20)
         }
         .navigationBarTitleDisplayMode(.inline)
+        .levelTone(tone)
         .fullScreenCover(item: $activeLesson) { lesson in
             LessonView(lesson: lesson)
                 .environmentObject(store)

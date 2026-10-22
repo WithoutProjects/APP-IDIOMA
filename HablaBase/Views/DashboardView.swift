@@ -36,6 +36,9 @@ struct DashboardView: View {
 
     private var header: some View {
         VStack(alignment: .leading, spacing: 10) {
+            if let level = Journey.currentLevel(store: store) {
+                Eyebrow(text: Journey.caption(level, language: store.language), color: Tone.forLevel(level.number).main)
+            }
             Text(verbatim: "¡Hola, \(store.profile?.name ?? "")!")
                 .font(.largeTitle.bold())
                 .lineLimit(1)
