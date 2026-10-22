@@ -1,0 +1,3467 @@
+{
+  "unit": "u39",
+  "lessons": [
+    {
+      "id": "u39l1",
+      "goal": {
+        "en": "Describe people and things with que (la serie que estoy viendo, la chica que trabaja conmigo), and use quien after a preposition (la amiga con quien vivo).",
+        "it": "Descrivi persone e cose con que (la serie que estoy viendo, la chica que trabaja conmigo) e usa quien dopo una preposizione (la amiga con quien vivo).",
+        "uk": "Описуй людей і речі за допомогою que (la serie que estoy viendo, la chica que trabaja conmigo) і вживай quien після прийменника (la amiga con quien vivo).",
+        "de": "Beschreibe Personen und Dinge mit que (la serie que estoy viendo, la chica que trabaja conmigo) und benutze quien nach einer Präposition (la amiga con quien vivo).",
+        "fr": "Décris des personnes et des choses avec que (la serie que estoy viendo, la chica que trabaja conmigo), et utilise quien après une préposition (la amiga con quien vivo).",
+        "pt": "Descreva pessoas e coisas com que (la serie que estoy viendo, la chica que trabaja conmigo) e use quien depois de preposição (la amiga con quien vivo).",
+        "zh": "用 que 来描述人和事物（la serie que estoy viendo，la chica que trabaja conmigo），在介词后面用 quien（la amiga con quien vivo）。"
+      },
+      "target": {
+        "es": "La serie que estoy viendo es muy buena.",
+        "en": "The series I'm watching is really good.",
+        "it": "La serie che sto guardando è molto bella.",
+        "uk": "Серіал, який я дивлюся, дуже хороший.",
+        "de": "Die Serie, die ich gerade schaue, ist richtig gut.",
+        "fr": "La série que je regarde est vraiment bien.",
+        "pt": "A série que estou assistindo é muito boa.",
+        "zh": "我正在看的那部剧特别好看。"
+      },
+      "names": [
+        "Valencia",
+        "Madrid",
+        "Italia"
+      ],
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "la serie",
+              "en": "the series (on TV)",
+              "it": "la serie (TV)",
+              "uk": "серіал",
+              "de": "die Serie (im Fernsehen)",
+              "fr": "la série (télé)",
+              "pt": "a série (de TV)",
+              "zh": "（电视）剧",
+              "kind": "chunk"
+            },
+            {
+              "es": "la canción",
+              "en": "the song",
+              "it": "la canzone",
+              "uk": "пісня",
+              "de": "das Lied",
+              "fr": "la chanson",
+              "pt": "a música, a canção",
+              "zh": "歌，歌曲",
+              "kind": "chunk"
+            },
+            {
+              "es": "la novela",
+              "en": "the novel",
+              "it": "il romanzo",
+              "uk": "роман",
+              "de": "der Roman",
+              "fr": "le roman",
+              "pt": "o romance (livro)",
+              "zh": "小说",
+              "kind": "chunk"
+            },
+            {
+              "es": "conmigo",
+              "en": "with me",
+              "it": "con me",
+              "uk": "зі мною",
+              "de": "mit mir",
+              "fr": "avec moi",
+              "pt": "comigo",
+              "zh": "和我一起，跟我",
+              "kind": "rail"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "la chica",
+              "kind": "chunk"
+            },
+            {
+              "text": "que",
+              "kind": "rail"
+            },
+            {
+              "text": "trabaja conmigo",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "que links a description to a person or a thing, like who, which or that in English. This que never has an accent.",
+            "it": "que collega una descrizione a una persona o a una cosa, proprio come che in italiano. Questo que non ha mai l'accento.",
+            "uk": "que пов'язує опис з людиною або річчю, як український «який» або «що». Цей que ніколи не має наголосу.",
+            "de": "que verbindet eine Beschreibung mit einer Person oder Sache, wie der, die, das in einem deutschen Relativsatz. Dieses que hat nie einen Akzent.",
+            "fr": "que relie une description à une personne ou à une chose, comme qui et que en français. Attention : en espagnol, c'est toujours que, même quand la personne fait l'action (la chica que trabaja conmigo = la fille qui travaille avec moi). Ce que n'a jamais d'accent.",
+            "pt": "que liga uma descrição a uma pessoa ou a uma coisa, como o que do português. Esse que nunca tem acento.",
+            "zh": "que 把一段描述连到一个人或一个事物上。中文把描述放在名词前面，用“的”连接（会说五种语言的朋友）；西班牙语正相反：先说名词，再说 que + 描述（una amiga que habla cinco idiomas）。这个 que 从不加重音符号。"
+          },
+          "examples": [
+            {
+              "es": "Tengo una amiga que habla cinco idiomas.",
+              "en": "I have a friend who speaks five languages.",
+              "it": "Ho un'amica che parla cinque lingue.",
+              "uk": "У мене є подруга, яка розмовляє п'ятьма мовами.",
+              "de": "Ich habe eine Freundin, die fünf Sprachen spricht.",
+              "fr": "J'ai une amie qui parle cinq langues.",
+              "pt": "Tenho uma amiga que fala cinco idiomas.",
+              "zh": "我有一个会说五种语言的朋友。"
+            },
+            {
+              "es": "La chica que trabaja conmigo es de Valencia.",
+              "en": "The girl who works with me is from Valencia.",
+              "it": "La ragazza che lavora con me è di Valencia.",
+              "uk": "Дівчина, яка працює зі мною, з Валенсії.",
+              "de": "Das Mädchen, das mit mir arbeitet, ist aus Valencia.",
+              "fr": "La fille qui travaille avec moi est de Valence.",
+              "pt": "A garota que trabalha comigo é de Valência.",
+              "zh": "跟我一起工作的那个女孩是巴伦西亚人。"
+            },
+            {
+              "es": "¿Es este el tren que va a Madrid?",
+              "en": "Is this the train that goes to Madrid?",
+              "it": "È questo il treno che va a Madrid?",
+              "uk": "Це той потяг, що їде до Мадрида?",
+              "de": "Ist das der Zug, der nach Madrid fährt?",
+              "fr": "C'est bien le train qui va à Madrid ?",
+              "pt": "Este é o trem que vai para Madri?",
+              "zh": "这是去马德里的火车吗？"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Tengo una amiga ",
+          "after": " habla cinco idiomas.",
+          "options": [
+            "que",
+            "qué",
+            "cuál"
+          ],
+          "answer": "que",
+          "en": "I have a friend who speaks five languages.",
+          "it": "Ho un'amica che parla cinque lingue.",
+          "uk": "У мене є подруга, яка розмовляє п'ятьма мовами.",
+          "de": "Ich habe eine Freundin, die fünf Sprachen spricht.",
+          "fr": "J'ai une amie qui parle cinq langues.",
+          "pt": "Tenho uma amiga que fala cinco idiomas.",
+          "zh": "我有一个会说五种语言的朋友。",
+          "hint": {
+            "en": "Linking a description to a person: que, with no accent.",
+            "it": "Per collegare una descrizione a una persona: que, senza accento.",
+            "uk": "Щоб пов'язати опис з людиною: que, без наголосу.",
+            "de": "Eine Beschreibung mit einer Person verbinden: que, ohne Akzent.",
+            "fr": "Pour relier une description à une personne : que, sans accent (et pas « qui »).",
+            "pt": "Para ligar uma descrição a uma pessoa: que, sem acento.",
+            "zh": "把描述连到一个人身上：que，不加重音符号。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "You're at a party and a friend asks which one is your sister. Say: she's the girl who's wearing the red dress.",
+            "it": "Sei a una festa e un amico ti chiede quale è tua sorella. Rispondi: è la ragazza che porta il vestito rosso.",
+            "uk": "Ти на вечірці, і друг питає, котра з дівчат твоя сестра. Скажи: це дівчина, яка в червоній сукні.",
+            "de": "Du bist auf einer Party und ein Freund fragt, welche deine Schwester ist. Sag: Sie ist das Mädchen, das das rote Kleid trägt.",
+            "fr": "Tu es à une fête et un ami te demande laquelle est ta sœur. Dis-lui : c'est la fille qui porte la robe rouge.",
+            "pt": "Você está numa festa e um amigo pergunta qual é a sua irmã. Diga: ela é a garota que está usando o vestido vermelho.",
+            "zh": "你在一个聚会上，朋友问哪个是你姐姐。你说：她就是那个穿红裙子的女孩。"
+          },
+          "accepted": [
+            "Es la chica que lleva el vestido rojo."
+          ],
+          "tiles": [
+            "Es",
+            "la chica",
+            "que",
+            "lleva",
+            "el vestido rojo",
+            "qué",
+            "llevo"
+          ],
+          "en": "She's the girl who's wearing the red dress.",
+          "it": "È la ragazza che porta il vestito rosso.",
+          "uk": "Це дівчина, яка в червоній сукні.",
+          "de": "Sie ist das Mädchen, das das rote Kleid trägt.",
+          "fr": "C'est la fille qui porte la robe rouge.",
+          "pt": "Ela é a garota que está usando o vestido vermelho.",
+          "zh": "她就是那个穿红裙子的女孩。",
+          "hint": {
+            "en": "la chica + que + what she's doing: que lleva.",
+            "it": "la chica + que + quello che fa: que lleva.",
+            "uk": "la chica + que + що вона робить: que lleva.",
+            "de": "la chica + que + was sie gerade tut: que lleva.",
+            "fr": "la chica + que + ce qu'elle fait : que lleva.",
+            "pt": "la chica + que + o que ela está fazendo: que lleva.",
+            "zh": "la chica + que + 她在做的事：que lleva。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "la serie",
+              "kind": "chunk"
+            },
+            {
+              "text": "que",
+              "kind": "rail"
+            },
+            {
+              "text": "estoy viendo",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "que also works for the person or thing you see, read, buy…: la serie que estoy viendo. In English you can leave that out; in Spanish que is always there.",
+            "it": "que funziona anche per la persona o la cosa che vedi, leggi, compri…: la serie que estoy viendo. In spagnolo, come in italiano, que non si può togliere.",
+            "uk": "que також вживається для людини чи речі, яку ти бачиш, читаєш, купуєш…: la serie que estoy viendo. Як і в українській, que не можна пропустити.",
+            "de": "que steht auch für die Person oder Sache, die du siehst, liest, kaufst…: la serie que estoy viendo. Wie im Deutschen das Relativpronomen kann que nie wegfallen.",
+            "fr": "que sert aussi pour la personne ou la chose que tu vois, lis, achètes… : la serie que estoy viendo. Comme en français, que ne peut jamais disparaître.",
+            "pt": "que também serve para a pessoa ou a coisa que você vê, lê, compra…: la serie que estoy viendo. Como em português, o que nunca pode ser omitido.",
+            "zh": "你看的、读的、买的……人或事物，也用 que：la serie que estoy viendo（我正在看的那部剧）。顺序还是先说名词，后说 que + 描述；que 永远不能省略。"
+          },
+          "examples": [
+            {
+              "es": "La serie que estoy viendo es muy buena.",
+              "en": "The series I'm watching is really good.",
+              "it": "La serie che sto guardando è molto bella.",
+              "uk": "Серіал, який я дивлюся, дуже хороший.",
+              "de": "Die Serie, die ich gerade schaue, ist richtig gut.",
+              "fr": "La série que je regarde est vraiment bien.",
+              "pt": "A série que estou assistindo é muito boa.",
+              "zh": "我正在看的那部剧特别好看。"
+            },
+            {
+              "es": "¿Te gusta la canción que he puesto?",
+              "en": "Do you like the song I've put on?",
+              "it": "Ti piace la canzone che ho messo?",
+              "uk": "Тобі подобається пісня, яку я ввімкнув(-ла)?",
+              "de": "Gefällt dir das Lied, das ich angemacht habe?",
+              "fr": "Tu aimes la chanson que j'ai mise ?",
+              "pt": "Você gosta da música que eu coloquei?",
+              "zh": "你喜欢我放的这首歌吗？"
+            },
+            {
+              "es": "El chico que conocí ayer es muy simpático.",
+              "en": "The guy I met yesterday is really nice.",
+              "it": "Il ragazzo che ho conosciuto ieri è molto simpatico.",
+              "uk": "Хлопець, з яким я познайомився(-лася) вчора, дуже симпатичний.",
+              "de": "Der Typ, den ich gestern kennengelernt habe, ist total nett.",
+              "fr": "Le garçon que j'ai rencontré hier est très sympa.",
+              "pt": "O cara que eu conheci ontem é muito simpático.",
+              "zh": "我昨天认识的那个男生人很好。"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "¿Has leído la novela ",
+          "after": " te regalé?",
+          "options": [
+            "que",
+            "qué",
+            "la"
+          ],
+          "answer": "que",
+          "en": "Have you read the novel I gave you?",
+          "it": "Hai letto il romanzo che ti ho regalato?",
+          "uk": "Ти прочитала роман, який я тобі подарував(-ла)?",
+          "de": "Hast du den Roman gelesen, den ich dir geschenkt habe?",
+          "fr": "Tu as lu le roman que je t'ai offert ?",
+          "pt": "Você leu o romance que eu te dei?",
+          "zh": "我送你的那本小说你看了吗？",
+          "hint": {
+            "en": "You gave her the novel: la novela que te regalé. que can't be left out.",
+            "it": "Le hai regalato il romanzo: la novela que te regalé. que non si può togliere.",
+            "uk": "Ти подарував(-ла) їй роман: la novela que te regalé. que не можна пропустити.",
+            "de": "Du hast ihr den Roman geschenkt: la novela que te regalé. que kann nicht wegfallen.",
+            "fr": "Tu lui as offert le roman : la novela que te regalé. que ne peut pas disparaître.",
+            "pt": "Você deu o romance de presente a ela: la novela que te regalé. O que não pode ser omitido.",
+            "zh": "小说是你送她的：la novela que te regalé。que 不能省略。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "Your friend asks what to watch tonight. Say: the series I'm watching is really good.",
+            "it": "Un amico ti chiede cosa guardare stasera. Rispondi: la serie che sto guardando è molto bella.",
+            "uk": "Друг питає, що подивитися сьогодні ввечері. Скажи: серіал, який я дивлюся, дуже хороший.",
+            "de": "Ein Freund fragt dich, was er heute Abend schauen soll. Sag: Die Serie, die ich gerade schaue, ist richtig gut.",
+            "fr": "Ton ami te demande quoi regarder ce soir. Dis-lui : la série que je regarde est vraiment bien.",
+            "pt": "Um amigo pergunta o que assistir hoje à noite. Diga: a série que estou assistindo é muito boa.",
+            "zh": "朋友问你今晚看什么好。你说：我正在看的那部剧特别好看。"
+          },
+          "accepted": [
+            "La serie que estoy viendo es muy buena.",
+            "La serie que veo es muy buena.",
+            "La serie que estoy viendo está muy bien."
+          ],
+          "tiles": [
+            "La serie",
+            "que",
+            "estoy viendo",
+            "es",
+            "muy buena",
+            "qué",
+            "está viendo"
+          ],
+          "en": "The series I'm watching is really good.",
+          "it": "La serie che sto guardando è molto bella.",
+          "uk": "Серіал, який я дивлюся, дуже хороший.",
+          "de": "Die Serie, die ich gerade schaue, ist richtig gut.",
+          "fr": "La série que je regarde est vraiment bien.",
+          "pt": "A série que estou assistindo é muito boa.",
+          "zh": "我正在看的那部剧特别好看。",
+          "hint": {
+            "en": "You're the one watching: que estoy viendo.",
+            "it": "Sei tu che la guardi: que estoy viendo.",
+            "uk": "Дивишся ти: que estoy viendo.",
+            "de": "Du schaust sie gerade: que estoy viendo.",
+            "fr": "C'est toi qui la regardes : que estoy viendo.",
+            "pt": "Quem está assistindo é você: que estoy viendo.",
+            "zh": "是你在看：que estoy viendo。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "la amiga",
+              "kind": "chunk"
+            },
+            {
+              "text": "con",
+              "kind": "rail"
+            },
+            {
+              "text": "quien",
+              "kind": "rail"
+            },
+            {
+              "text": "vivo",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "After a preposition (con, a, de, para…), use quien for one person and quienes for several: la amiga con quien vivo. Without a preposition, it's que.",
+            "it": "Dopo una preposizione (con, a, de, para…), usa quien per una persona e quienes per più persone: la amiga con quien vivo. Senza preposizione, si usa que.",
+            "uk": "Після прийменника (con, a, de, para…) вживай quien для однієї людини і quienes для кількох: la amiga con quien vivo. Без прийменника — que.",
+            "de": "Nach einer Präposition (con, a, de, para…) nimmst du quien für eine Person und quienes für mehrere: la amiga con quien vivo. Ohne Präposition heißt es que.",
+            "fr": "Après une préposition (con, a, de, para…), utilise quien pour une personne et quienes pour plusieurs : la amiga con quien vivo, comme « avec qui » en français. Sans préposition, c'est que.",
+            "pt": "Depois de preposição (con, a, de, para…), use quien para uma pessoa e quienes para várias, como o quem do português: la amiga con quien vivo. Sem preposição, é que.",
+            "zh": "在介词（con、a、de、para……）后面，指一个人用 quien，指几个人用 quienes：la amiga con quien vivo（跟我一起住的朋友）。没有介词时，用 que。"
+          },
+          "examples": [
+            {
+              "es": "Es la amiga con quien vivo.",
+              "en": "She's the friend I live with.",
+              "it": "È l'amica con cui vivo.",
+              "uk": "Це подруга, з якою я живу.",
+              "de": "Sie ist die Freundin, mit der ich zusammenwohne.",
+              "fr": "C'est l'amie avec qui je vis.",
+              "pt": "É a amiga com quem eu moro.",
+              "zh": "她是跟我一起住的朋友。"
+            },
+            {
+              "es": "Es el chico de quien te hablé.",
+              "en": "He's the guy I told you about.",
+              "it": "È il ragazzo di cui ti ho parlato.",
+              "uk": "Це хлопець, про якого я тобі розповідав(-ла).",
+              "de": "Er ist der Typ, von dem ich dir erzählt habe.",
+              "fr": "C'est le garçon dont je t'ai parlé.",
+              "pt": "É o cara de quem eu te falei.",
+              "zh": "他就是我跟你说过的那个男生。"
+            },
+            {
+              "es": "Son los compañeros con quienes trabajo.",
+              "en": "They're the colleagues I work with.",
+              "it": "Sono i colleghi con cui lavoro.",
+              "uk": "Це колеги, з якими я працюю.",
+              "de": "Das sind die Kollegen, mit denen ich arbeite.",
+              "fr": "Ce sont les collègues avec qui je travaille.",
+              "pt": "São os colegas com quem eu trabalho.",
+              "zh": "他们是跟我一起工作的同事。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "quien",
+              "en": "who, whom (one person, after con, a, de…)",
+              "it": "cui, chi (una persona, dopo con, a, de…)",
+              "uk": "який, яка (одна людина, після con, a, de…)",
+              "de": "der, die, dem, den (eine Person, nach con, a, de…)",
+              "fr": "qui (une personne, après con, a, de…)",
+              "pt": "quem (uma pessoa, depois de con, a, de…)",
+              "zh": "……的那个人（一个人，用在 con、a、de……后面）"
+            },
+            {
+              "es": "quienes",
+              "en": "who, whom (several people, after con, a, de…)",
+              "it": "cui (più persone, dopo con, a, de…)",
+              "uk": "які (кілька людей, після con, a, de…)",
+              "de": "die, denen (mehrere Personen, nach con, a, de…)",
+              "fr": "qui (plusieurs personnes, après con, a, de…)",
+              "pt": "quem (várias pessoas, depois de con, a, de…)",
+              "zh": "……的那些人（几个人，用在 con、a、de……后面）"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Este es el compañero con ",
+          "after": " trabajo.",
+          "options": [
+            "quien",
+            "quienes",
+            "que"
+          ],
+          "answer": "quien",
+          "en": "This is the colleague I work with.",
+          "it": "Questo è il collega con cui lavoro.",
+          "uk": "Це колега, з яким я працюю.",
+          "de": "Das ist der Kollege, mit dem ich arbeite.",
+          "fr": "C'est le collègue avec qui je travaille.",
+          "pt": "Este é o colega com quem eu trabalho.",
+          "zh": "这是跟我一起工作的同事。",
+          "hint": {
+            "en": "One person after con: quien.",
+            "it": "Una persona dopo con: quien.",
+            "uk": "Одна людина після con: quien.",
+            "de": "Eine Person nach con: quien.",
+            "fr": "Une personne après con : quien.",
+            "pt": "Uma pessoa depois de con: quien.",
+            "zh": "con 后面指一个人：quien。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "You're showing a friend a photo. Say: she's the friend I live with.",
+            "it": "Mostri una foto a un amico. Digli: è l'amica con cui vivo.",
+            "uk": "Ти показуєш другові фото. Скажи: це подруга, з якою я живу.",
+            "de": "Du zeigst einem Freund ein Foto. Sag: Sie ist die Freundin, mit der ich zusammenwohne.",
+            "fr": "Tu montres une photo à un ami. Dis-lui : c'est l'amie avec qui je vis.",
+            "pt": "Você está mostrando uma foto a um amigo. Diga: é a amiga com quem eu moro.",
+            "zh": "你在给朋友看一张照片。你说：她是跟我一起住的朋友。"
+          },
+          "accepted": [
+            "Es la amiga con quien vivo.",
+            "Es la amiga con la que vivo.",
+            "Esta es la amiga con quien vivo."
+          ],
+          "tiles": [
+            "Es",
+            "la amiga",
+            "con",
+            "quien",
+            "vivo",
+            "quienes",
+            "vive"
+          ],
+          "en": "She's the friend I live with.",
+          "it": "È l'amica con cui vivo.",
+          "uk": "Це подруга, з якою я живу.",
+          "de": "Sie ist die Freundin, mit der ich zusammenwohne.",
+          "fr": "C'est l'amie avec qui je vis.",
+          "pt": "É a amiga com quem eu moro.",
+          "zh": "她是跟我一起住的朋友。",
+          "hint": {
+            "en": "One person after con: con quien.",
+            "it": "Una persona dopo con: con quien.",
+            "uk": "Одна людина після con: con quien.",
+            "de": "Eine Person nach con: con quien.",
+            "fr": "Une personne après con : con quien.",
+            "pt": "Uma pessoa depois de con: con quien.",
+            "zh": "con 后面指一个人：con quien。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "¿Dónde está el libro ",
+          "after": " estaba en la mesa?",
+          "options": [
+            "que",
+            "quien",
+            "qué"
+          ],
+          "answer": "que",
+          "en": "Where's the book that was on the table?",
+          "it": "Dov'è il libro che era sul tavolo?",
+          "uk": "Де книжка, яка лежала на столі?",
+          "de": "Wo ist das Buch, das auf dem Tisch lag?",
+          "fr": "Où est le livre qui était sur la table ?",
+          "pt": "Cadê o livro que estava em cima da mesa?",
+          "zh": "原来在桌子上的那本书在哪儿？",
+          "hint": {
+            "en": "A thing, with no preposition: que.",
+            "it": "Una cosa, senza preposizione: que.",
+            "uk": "Річ, без прийменника: que.",
+            "de": "Eine Sache, ohne Präposition: que.",
+            "fr": "Une chose, sans préposition : que.",
+            "pt": "Uma coisa, sem preposição: que.",
+            "zh": "指东西，没有介词：que。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "Son los amigos con ",
+          "after": " fui a Italia.",
+          "options": [
+            "quienes",
+            "quien",
+            "que"
+          ],
+          "answer": "quienes",
+          "en": "They're the friends I went to Italy with.",
+          "it": "Sono gli amici con cui sono andato in Italia.",
+          "uk": "Це друзі, з якими я їздив(-ла) до Італії.",
+          "de": "Das sind die Freunde, mit denen ich nach Italien gefahren bin.",
+          "fr": "Ce sont les amis avec qui je suis allé en Italie.",
+          "pt": "São os amigos com quem eu fui para a Itália.",
+          "zh": "他们是跟我一起去意大利的朋友。",
+          "hint": {
+            "en": "Several people after con: quienes.",
+            "it": "Più persone dopo con: quienes.",
+            "uk": "Кілька людей після con: quienes.",
+            "de": "Mehrere Personen nach con: quienes.",
+            "fr": "Plusieurs personnes après con : quienes.",
+            "pt": "Várias pessoas depois de con: quienes.",
+            "zh": "con 后面指几个人：quienes。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "mix",
+          "intention": {
+            "en": "A friend asks who the guy in the photo is. Say: he's the guy I told you about.",
+            "it": "Un amico ti chiede chi è il ragazzo nella foto. Rispondi: è il ragazzo di cui ti ho parlato.",
+            "uk": "Друг питає, хто цей хлопець на фото. Скажи: це хлопець, про якого я тобі розповідав(-ла).",
+            "de": "Ein Freund fragt, wer der Typ auf dem Foto ist. Sag: Er ist der Typ, von dem ich dir erzählt habe.",
+            "fr": "Un ami te demande qui est le garçon sur la photo. Dis-lui : c'est le garçon dont je t'ai parlé.",
+            "pt": "Um amigo pergunta quem é o cara da foto. Diga: é o cara de quem eu te falei.",
+            "zh": "朋友问你照片里的男生是谁。你说：他就是我跟你说过的那个男生。"
+          },
+          "accepted": [
+            "Es el chico de quien te hablé.",
+            "Es el chico del que te hablé."
+          ],
+          "tiles": [
+            "Es",
+            "el chico",
+            "de",
+            "quien",
+            "te hablé",
+            "que",
+            "quienes"
+          ],
+          "en": "He's the guy I told you about.",
+          "it": "È il ragazzo di cui ti ho parlato.",
+          "uk": "Це хлопець, про якого я тобі розповідав(-ла).",
+          "de": "Er ist der Typ, von dem ich dir erzählt habe.",
+          "fr": "C'est le garçon dont je t'ai parlé.",
+          "pt": "É o cara de quem eu te falei.",
+          "zh": "他就是我跟你说过的那个男生。",
+          "hint": {
+            "en": "hablar de alguien: de + quien.",
+            "it": "hablar de alguien: de + quien.",
+            "uk": "hablar de alguien: de + quien.",
+            "de": "hablar de alguien (von jemandem erzählen): de + quien.",
+            "fr": "hablar de alguien : de + quien (là où le français dit « dont »).",
+            "pt": "hablar de alguien: de + quien.",
+            "zh": "hablar de alguien：de + quien。"
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "Your friend asks what you're reading. Write in Spanish: «The novel I'm reading is really good.»",
+            "it": "Un amico ti chiede cosa stai leggendo. Scrivi in spagnolo: «Il romanzo che sto leggendo è molto bello.»",
+            "uk": "Друг питає, що ти читаєш. Напиши іспанською: «Роман, який я читаю, дуже хороший.»",
+            "de": "Ein Freund fragt dich, was du gerade liest. Schreib auf Spanisch: «Der Roman, den ich gerade lese, ist richtig gut.»",
+            "fr": "Ton ami te demande ce que tu lis. Écris en espagnol : «Le roman que je lis est vraiment bien.»",
+            "pt": "Um amigo pergunta o que você está lendo. Escreva em espanhol: «O romance que estou lendo é muito bom.»",
+            "zh": "朋友问你在看什么书。用西班牙语写：«我正在看的那本小说特别好看。»"
+          },
+          "accepted": [
+            "La novela que estoy leyendo es muy buena.",
+            "La novela que leo es muy buena.",
+            "La novela que estoy leyendo está muy bien.",
+            "La novela que estoy leyendo es buenísima."
+          ],
+          "model": {
+            "es": "La novela que estoy leyendo es muy buena.",
+            "en": "The novel I'm reading is really good.",
+            "it": "Il romanzo che sto leggendo è molto bello.",
+            "uk": "Роман, який я читаю, дуже хороший.",
+            "de": "Der Roman, den ich gerade lese, ist richtig gut.",
+            "fr": "Le roman que je lis est vraiment bien.",
+            "pt": "O romance que estou lendo é muito bom.",
+            "zh": "我正在看的那本小说特别好看。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u39l2",
+      "goal": {
+        "en": "Point to one of several things with el que, la que, los que, las que (the one that…), say what with lo que, and use a preposition + el que / la que (la empresa para la que trabajo).",
+        "it": "Indica una cosa tra tante con el que, la que, los que, las que (quello che…), di' quello che con lo que e usa una preposizione + el que / la que (la empresa para la que trabajo).",
+        "uk": "Вказуй на одну річ із кількох за допомогою el que, la que, los que, las que (той, що…), кажи «те, що» за допомогою lo que і вживай прийменник + el que / la que (la empresa para la que trabajo).",
+        "de": "Zeig mit el que, la que, los que, las que auf eins von mehreren Dingen (der, die, das…), sag „was“ mit lo que und benutze eine Präposition + el que / la que (la empresa para la que trabajo).",
+        "fr": "Désigne une chose parmi d'autres avec el que, la que, los que, las que (celui qui, celle que…), dis « ce que » avec lo que, et utilise une préposition + el que / la que (la empresa para la que trabajo).",
+        "pt": "Aponte uma entre várias coisas com el que, la que, los que, las que (o que, a que…), diga o que com lo que, e use preposição + el que / la que (la empresa para la que trabajo).",
+        "zh": "用 el que、la que、los que、las que（……的那个）从几样东西中指出一个，用 lo que 说“……的东西／事情”，并用介词 + el que／la que（la empresa para la que trabajo）。"
+      },
+      "target": {
+        "es": "Mi mochila es la que está en la silla.",
+        "en": "My backpack is the one on the chair.",
+        "it": "Il mio zaino è quello sulla sedia.",
+        "uk": "Мій рюкзак — той, що на стільці.",
+        "de": "Mein Rucksack ist der auf dem Stuhl.",
+        "fr": "Mon sac à dos, c'est celui qui est sur la chaise.",
+        "pt": "A minha mochila é a que está na cadeira.",
+        "zh": "我的背包是椅子上的那个。"
+      },
+      "names": [
+        "Roma"
+      ],
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "la mochila",
+              "en": "the backpack",
+              "it": "lo zaino",
+              "uk": "рюкзак",
+              "de": "der Rucksack (im Spanischen feminin)",
+              "fr": "le sac à dos",
+              "pt": "a mochila",
+              "zh": "背包",
+              "kind": "chunk"
+            },
+            {
+              "es": "la silla",
+              "en": "the chair",
+              "it": "la sedia",
+              "uk": "стілець",
+              "de": "der Stuhl (im Spanischen feminin)",
+              "fr": "la chaise",
+              "pt": "a cadeira",
+              "zh": "椅子",
+              "kind": "chunk"
+            },
+            {
+              "es": "la camisa",
+              "en": "the shirt",
+              "it": "la camicia",
+              "uk": "сорочка",
+              "de": "das Hemd",
+              "fr": "la chemise",
+              "pt": "a camisa",
+              "zh": "衬衫",
+              "kind": "chunk"
+            },
+            {
+              "es": "la gorra",
+              "en": "the cap",
+              "it": "il cappellino",
+              "uk": "кепка",
+              "de": "die Kappe",
+              "fr": "la casquette",
+              "pt": "o boné",
+              "zh": "棒球帽，鸭舌帽",
+              "kind": "chunk"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "la mochila",
+              "kind": "chunk"
+            },
+            {
+              "text": "→",
+              "kind": "chunk"
+            },
+            {
+              "text": "la que",
+              "kind": "rail"
+            },
+            {
+              "text": "está en la silla",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "el que, la que, los que, las que mean the one(s) that, when it's clear what you're talking about. The article matches that thing: la mochila → la que.",
+            "it": "el que, la que, los que, las que vogliono dire quello / quella / quelli / quelle che, quando è chiaro di che cosa parli. L'articolo va d'accordo con quella cosa: la mochila → la que.",
+            "uk": "el que, la que, los que, las que означають «той / та / ті, що», коли зрозуміло, про що мова. Артикль узгоджується з цією річчю: la mochila → la que.",
+            "de": "el que, la que, los que, las que bedeuten der / die / das (da), wenn klar ist, wovon du sprichst. Der Artikel passt zu dieser Sache: la mochila → la que.",
+            "fr": "el que, la que, los que, las que veulent dire celui / celle / ceux / celles qui (ou que), quand on sait clairement de quoi tu parles. L'article s'accorde avec cette chose : la mochila → la que.",
+            "pt": "el que, la que, los que, las que querem dizer o que, a que, os que, as que, quando está claro de que coisa você está falando. O artigo concorda com essa coisa: la mochila → la que.",
+            "zh": "el que、la que、los que、las que 意思是“……的那个／那些”，用在大家都清楚你说的是什么东西的时候。冠词要跟那个东西一致：la mochila → la que。"
+          },
+          "examples": [
+            {
+              "es": "Mi mochila es la que está en la silla.",
+              "en": "My backpack is the one on the chair.",
+              "it": "Il mio zaino è quello sulla sedia.",
+              "uk": "Мій рюкзак — той, що на стільці.",
+              "de": "Mein Rucksack ist der auf dem Stuhl.",
+              "fr": "Mon sac à dos, c'est celui qui est sur la chaise.",
+              "pt": "A minha mochila é a que está na cadeira.",
+              "zh": "我的背包是椅子上的那个。"
+            },
+            {
+              "es": "Este jersey no me gusta; prefiero el que compramos ayer.",
+              "en": "I don't like this jumper; I prefer the one we bought yesterday.",
+              "it": "Questo maglione non mi piace; preferisco quello che abbiamo comprato ieri.",
+              "uk": "Цей светр мені не подобається; мені більше до вподоби той, що ми купили вчора.",
+              "de": "Dieser Pulli gefällt mir nicht; ich mag lieber den, den wir gestern gekauft haben.",
+              "fr": "Ce pull ne me plaît pas ; je préfère celui qu'on a acheté hier.",
+              "pt": "Não gosto deste suéter; prefiro o que compramos ontem.",
+              "zh": "我不喜欢这件毛衣，我更喜欢我们昨天买的那件。"
+            },
+            {
+              "es": "Los que llegan tarde no pueden entrar.",
+              "en": "Those who arrive late can't go in.",
+              "it": "Quelli che arrivano tardi non possono entrare.",
+              "uk": "Ті, хто запізнюється, не можуть зайти.",
+              "de": "Wer zu spät kommt, darf nicht rein.",
+              "fr": "Ceux qui arrivent en retard ne peuvent pas entrer.",
+              "pt": "Quem chega atrasado não pode entrar.",
+              "zh": "迟到的人不能进去。"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "¿Mi camisa? Es ",
+          "after": " está en la silla.",
+          "options": [
+            "la que",
+            "el que",
+            "lo que"
+          ],
+          "answer": "la que",
+          "en": "My shirt? It's the one on the chair.",
+          "it": "La mia camicia? È quella sulla sedia.",
+          "uk": "Моя сорочка? Та, що на стільці.",
+          "de": "Mein Hemd? Es ist das auf dem Stuhl.",
+          "fr": "Ma chemise ? C'est celle qui est sur la chaise.",
+          "pt": "A minha camisa? É a que está na cadeira.",
+          "zh": "我的衬衫？是椅子上的那件。",
+          "hint": {
+            "en": "camisa is feminine: la que.",
+            "it": "camisa è femminile: la que.",
+            "uk": "camisa жіночого роду: la que.",
+            "de": "camisa ist feminin: la que.",
+            "fr": "camisa est féminin : la que.",
+            "pt": "camisa é feminino: la que.",
+            "zh": "camisa 是阴性：la que。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "You're looking at two flats with your partner, who asks which one you want to rent. Say: the one that has a balcony.",
+            "it": "Stai vedendo due appartamenti con il tuo compagno, che ti chiede quale vuoi affittare. Rispondi: quello che ha il balcone.",
+            "uk": "Ви з партнером дивитеся дві квартири, і партнер питає, яку ти хочеш винайняти. Скажи: ту, що з балконом.",
+            "de": "Du schaust dir mit deinem Partner zwei Wohnungen an, und er fragt, welche du mieten willst. Sag: Die mit dem Balkon.",
+            "fr": "Tu visites deux appartements avec ton ou ta partenaire, qui te demande lequel tu veux louer. Réponds : celui qui a un balcon.",
+            "pt": "Você está vendo dois apartamentos com o seu companheiro, que pergunta qual você quer alugar. Diga: o que tem varanda.",
+            "zh": "你和伴侣在看两套公寓，对方问你想租哪套。你说：有阳台的那套。"
+          },
+          "accepted": [
+            "El que tiene balcón.",
+            "El que tiene un balcón."
+          ],
+          "tiles": [
+            "El que",
+            "tiene",
+            "balcón",
+            "La que",
+            "Lo que"
+          ],
+          "en": "The one that has a balcony.",
+          "it": "Quello che ha il balcone.",
+          "uk": "Ту, що з балконом.",
+          "de": "Die mit dem Balkon.",
+          "fr": "Celui qui a un balcon.",
+          "pt": "O que tem varanda.",
+          "zh": "有阳台的那套。",
+          "hint": {
+            "en": "piso is masculine: el que.",
+            "it": "piso è maschile: el que.",
+            "uk": "piso чоловічого роду: el que.",
+            "de": "piso ist maskulin: el que.",
+            "fr": "piso est masculin : el que.",
+            "pt": "piso é masculino: el que.",
+            "zh": "piso 是阳性：el que。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "lo que",
+              "kind": "rail"
+            },
+            {
+              "text": "necesito",
+              "kind": "stem"
+            },
+            {
+              "text": "es dormir",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "lo que means what or the thing that, when there's no noun, just an idea: no entiendo lo que dices. You know it from lo que más me gusta.",
+            "it": "lo que vuol dire quello che, ciò che, quando non c'è un nome, solo un'idea: no entiendo lo que dices. Lo conosci da lo que más me gusta.",
+            "uk": "lo que означає «те, що», коли немає іменника, а лише думка: no entiendo lo que dices. Ти знаєш це з lo que más me gusta.",
+            "de": "lo que bedeutet „was“ oder „das, was“, wenn es kein Nomen gibt, nur eine Idee: no entiendo lo que dices. Du kennst es aus lo que más me gusta.",
+            "fr": "lo que veut dire ce que ou ce qui, quand il n'y a pas de nom, juste une idée : no entiendo lo que dices. Tu le connais déjà avec lo que más me gusta.",
+            "pt": "lo que quer dizer o que (a coisa que), quando não há substantivo, só uma ideia: no entiendo lo que dices. Você já conhece lo que más me gusta.",
+            "zh": "lo que 意思是“……的东西／……的事情”，用在没有名词、只有一个想法的时候：no entiendo lo que dices（我不明白你说的话）。你在 lo que más me gusta 里已经见过它。"
+          },
+          "examples": [
+            {
+              "es": "No entiendo lo que dices.",
+              "en": "I don't understand what you're saying.",
+              "it": "Non capisco quello che dici.",
+              "uk": "Я не розумію, що ти кажеш.",
+              "de": "Ich verstehe nicht, was du sagst.",
+              "fr": "Je ne comprends pas ce que tu dis.",
+              "pt": "Não entendo o que você está dizendo.",
+              "zh": "我不明白你说的话。"
+            },
+            {
+              "es": "Lo que necesito es dormir.",
+              "en": "What I need is to sleep.",
+              "it": "Quello che mi serve è dormire.",
+              "uk": "Що мені потрібно, то це поспати.",
+              "de": "Was ich brauche, ist Schlaf.",
+              "fr": "Ce dont j'ai besoin, c'est de dormir.",
+              "pt": "O que eu preciso é dormir.",
+              "zh": "我需要的是睡觉。"
+            },
+            {
+              "es": "Haz lo que te dice el médico.",
+              "en": "Do what the doctor tells you.",
+              "it": "Fai quello che ti dice il medico.",
+              "uk": "Роби те, що тобі каже лікар.",
+              "de": "Mach, was der Arzt dir sagt.",
+              "fr": "Fais ce que te dit le médecin.",
+              "pt": "Faça o que o médico te diz.",
+              "zh": "医生让你怎么做就怎么做。"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Perdona, no entiendo ",
+          "after": " dices.",
+          "options": [
+            "lo que",
+            "el que",
+            "la que"
+          ],
+          "answer": "lo que",
+          "en": "Sorry, I don't understand what you're saying.",
+          "it": "Scusa, non capisco quello che dici.",
+          "uk": "Вибач, я не розумію, що ти кажеш.",
+          "de": "Entschuldige, ich verstehe nicht, was du sagst.",
+          "fr": "Pardon, je ne comprends pas ce que tu dis.",
+          "pt": "Desculpe, não entendo o que você está dizendo.",
+          "zh": "不好意思，我不明白你说的话。",
+          "hint": {
+            "en": "No noun, just an idea: lo que.",
+            "it": "Nessun nome, solo un'idea: lo que.",
+            "uk": "Немає іменника, лише думка: lo que.",
+            "de": "Kein Nomen, nur eine Idee: lo que.",
+            "fr": "Pas de nom, juste une idée : lo que.",
+            "pt": "Sem substantivo, só uma ideia: lo que.",
+            "zh": "没有名词，只有一个想法：lo que。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "A friend asks if you want to go out tonight, but you're exhausted. Say: what I need is to sleep.",
+            "it": "Un amico ti chiede se vuoi uscire stasera, ma sei distrutto. Rispondi: quello che mi serve è dormire.",
+            "uk": "Друг питає, чи хочеш ти сьогодні ввечері кудись піти, але ти виснажений(-а). Скажи: що мені потрібно, то це поспати.",
+            "de": "Ein Freund fragt, ob du heute Abend ausgehen willst, aber du bist total fertig. Sag: Was ich brauche, ist Schlaf.",
+            "fr": "Un ami te demande si tu veux sortir ce soir, mais tu es épuisé. Réponds : ce dont j'ai besoin, c'est de dormir.",
+            "pt": "Um amigo pergunta se você quer sair hoje à noite, mas você está exausto. Diga: o que eu preciso é dormir.",
+            "zh": "朋友问你今晚想不想出去，可你累坏了。你说：我需要的是睡觉。"
+          },
+          "accepted": [
+            "Lo que necesito es dormir.",
+            "Lo que yo necesito es dormir."
+          ],
+          "tiles": [
+            "Lo que",
+            "necesito",
+            "es",
+            "dormir",
+            "El que",
+            "necesita"
+          ],
+          "en": "What I need is to sleep.",
+          "it": "Quello che mi serve è dormire.",
+          "uk": "Що мені потрібно, то це поспати.",
+          "de": "Was ich brauche, ist Schlaf.",
+          "fr": "Ce dont j'ai besoin, c'est de dormir.",
+          "pt": "O que eu preciso é dormir.",
+          "zh": "我需要的是睡觉。",
+          "hint": {
+            "en": "What I need, an idea with no noun: lo que.",
+            "it": "Quello che mi serve, un'idea senza nome: lo que.",
+            "uk": "Те, що мені потрібно, — думка без іменника: lo que.",
+            "de": "Was ich brauche, eine Idee ohne Nomen: lo que.",
+            "fr": "Ce dont j'ai besoin, une idée sans nom : lo que. (En espagnol, pas besoin de « dont » ici.)",
+            "pt": "O que eu preciso, uma ideia sem substantivo: lo que.",
+            "zh": "“我需要的”，是一个想法，没有名词：lo que。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "la empresa",
+              "kind": "chunk"
+            },
+            {
+              "text": "para",
+              "kind": "rail"
+            },
+            {
+              "text": "la que",
+              "kind": "rail"
+            },
+            {
+              "text": "trabajo",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "After a preposition, use el que, la que, los que or las que, matching the noun before it: el piso en el que vivo, la empresa para la que trabajo. For people, quien works too.",
+            "it": "Dopo una preposizione, usa el que, la que, los que o las que, d'accordo con il nome che li precede: el piso en el que vivo, la empresa para la que trabajo. Per le persone va bene anche quien.",
+            "uk": "Після прийменника вживай el que, la que, los que або las que, узгоджуючи з іменником перед ними: el piso en el que vivo, la empresa para la que trabajo. Для людей підходить і quien.",
+            "de": "Nach einer Präposition nimmst du el que, la que, los que oder las que, passend zum Nomen davor: el piso en el que vivo, la empresa para la que trabajo. Bei Personen geht auch quien.",
+            "fr": "Après une préposition, utilise el que, la que, los que ou las que, accordé avec le nom qui précède, comme « lequel, laquelle » en français : el piso en el que vivo, la empresa para la que trabajo (l'entreprise pour laquelle je travaille). Pour les personnes, quien marche aussi.",
+            "pt": "Depois de preposição, use el que, la que, los que ou las que, concordando com o substantivo anterior: el piso en el que vivo, la empresa para la que trabajo. Para pessoas, quien também serve.",
+            "zh": "在介词后面，用 el que、la que、los que 或 las que，跟前面的名词一致：el piso en el que vivo（我住的公寓），la empresa para la que trabajo（我工作的公司）。指人时也可以用 quien。"
+          },
+          "examples": [
+            {
+              "es": "Es el barrio en el que vivo.",
+              "en": "It's the neighbourhood I live in.",
+              "it": "È il quartiere in cui vivo.",
+              "uk": "Це район, у якому я живу.",
+              "de": "Das ist das Viertel, in dem ich wohne.",
+              "fr": "C'est le quartier où je vis.",
+              "pt": "É o bairro em que eu moro.",
+              "zh": "这是我住的街区。"
+            },
+            {
+              "es": "La empresa para la que trabajo es muy grande.",
+              "en": "The company I work for is very big.",
+              "it": "L'azienda per cui lavoro è molto grande.",
+              "uk": "Компанія, на яку я працюю, дуже велика.",
+              "de": "Die Firma, für die ich arbeite, ist sehr groß.",
+              "fr": "L'entreprise pour laquelle je travaille est très grande.",
+              "pt": "A empresa para a qual eu trabalho é muito grande.",
+              "zh": "我工作的公司很大。"
+            },
+            {
+              "es": "Es la amiga con la que viajé a Roma.",
+              "en": "She's the friend I travelled to Rome with.",
+              "it": "È l'amica con cui sono andata a Roma.",
+              "uk": "Це подруга, з якою я їздив(-ла) до Рима.",
+              "de": "Sie ist die Freundin, mit der ich nach Rom gereist bin.",
+              "fr": "C'est l'amie avec qui j'ai voyagé à Rome.",
+              "pt": "É a amiga com quem eu viajei para Roma.",
+              "zh": "她是跟我一起去罗马旅行的朋友。"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Es la empresa para ",
+          "after": " trabajo.",
+          "options": [
+            "la que",
+            "el que",
+            "que"
+          ],
+          "answer": "la que",
+          "en": "It's the company I work for.",
+          "it": "È l'azienda per cui lavoro.",
+          "uk": "Це компанія, на яку я працюю.",
+          "de": "Das ist die Firma, für die ich arbeite.",
+          "fr": "C'est l'entreprise pour laquelle je travaille.",
+          "pt": "É a empresa para a qual eu trabalho.",
+          "zh": "这是我工作的公司。",
+          "hint": {
+            "en": "empresa is feminine: para la que.",
+            "it": "empresa è femminile: para la que.",
+            "uk": "empresa жіночого роду: para la que.",
+            "de": "empresa ist feminin: para la que.",
+            "fr": "empresa est féminin : para la que.",
+            "pt": "empresa é feminino: para la que.",
+            "zh": "empresa 是阴性：para la que。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "You're walking past your old flat with a friend. Say: this is the flat I used to live in.",
+            "it": "Passi davanti al tuo vecchio appartamento con un amico. Digli: questo è l'appartamento in cui vivevo.",
+            "uk": "Ви з другом проходите повз твою стару квартиру. Скажи: це квартира, у якій я колись жив(-ла).",
+            "de": "Du gehst mit einem Freund an deiner alten Wohnung vorbei. Sag: Das ist die Wohnung, in der ich früher gewohnt habe.",
+            "fr": "Tu passes devant ton ancien appartement avec un ami. Dis-lui : c'est l'appartement où je vivais avant.",
+            "pt": "Você está passando em frente ao seu antigo apartamento com um amigo. Diga: este é o apartamento em que eu morava.",
+            "zh": "你和朋友路过你以前住的公寓。你说：这是我以前住的公寓。"
+          },
+          "accepted": [
+            "Este es el piso en el que vivía.",
+            "Este es el piso en el que vivía antes."
+          ],
+          "tiles": [
+            "Este es",
+            "el piso",
+            "en",
+            "el que",
+            "vivía",
+            "la que",
+            "vivo"
+          ],
+          "en": "This is the flat I used to live in.",
+          "it": "Questo è l'appartamento in cui vivevo.",
+          "uk": "Це квартира, у якій я колись жив(-ла).",
+          "de": "Das ist die Wohnung, in der ich früher gewohnt habe.",
+          "fr": "C'est l'appartement où je vivais avant.",
+          "pt": "Este é o apartamento em que eu morava.",
+          "zh": "这是我以前住的公寓。",
+          "hint": {
+            "en": "piso is masculine: en el que.",
+            "it": "piso è maschile: en el que.",
+            "uk": "piso чоловічого роду: en el que.",
+            "de": "piso ist maskulin: en el que.",
+            "fr": "piso est masculin : en el que.",
+            "pt": "piso é masculino: en el que.",
+            "zh": "piso 是阳性：en el que。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "Mis llaves son ",
+          "after": " están en la mesa.",
+          "options": [
+            "las que",
+            "los que",
+            "lo que"
+          ],
+          "answer": "las que",
+          "en": "My keys are the ones on the table.",
+          "it": "Le mie chiavi sono quelle sul tavolo.",
+          "uk": "Мої ключі — ті, що на столі.",
+          "de": "Meine Schlüssel sind die auf dem Tisch.",
+          "fr": "Mes clés, ce sont celles qui sont sur la table.",
+          "pt": "As minhas chaves são as que estão na mesa.",
+          "zh": "我的钥匙是桌子上的那串。",
+          "hint": {
+            "en": "llaves is feminine plural: las que.",
+            "it": "llaves è femminile plurale: las que.",
+            "uk": "llaves — жіночий рід, множина: las que.",
+            "de": "llaves ist feminin Plural: las que.",
+            "fr": "llaves est féminin pluriel : las que.",
+            "pt": "llaves é feminino plural: las que.",
+            "zh": "llaves 是阴性复数：las que。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "Perdona, ¿puedes repetir ",
+          "after": " has dicho?",
+          "options": [
+            "lo que",
+            "el que",
+            "que"
+          ],
+          "answer": "lo que",
+          "en": "Sorry, can you repeat what you said?",
+          "it": "Scusa, puoi ripetere quello che hai detto?",
+          "uk": "Вибач, можеш повторити, що ти сказав(-ла)?",
+          "de": "Entschuldige, kannst du wiederholen, was du gesagt hast?",
+          "fr": "Pardon, tu peux répéter ce que tu as dit ?",
+          "pt": "Desculpe, pode repetir o que você disse?",
+          "zh": "不好意思，你能把刚才说的再说一遍吗？",
+          "hint": {
+            "en": "What you said, no noun: lo que.",
+            "it": "Quello che hai detto, senza nome: lo que.",
+            "uk": "Те, що ти сказав(-ла), без іменника: lo que.",
+            "de": "Was du gesagt hast, kein Nomen: lo que.",
+            "fr": "Ce que tu as dit, pas de nom : lo que.",
+            "pt": "O que você disse, sem substantivo: lo que.",
+            "zh": "你说的话，没有名词：lo que。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "mix",
+          "intention": {
+            "en": "A new neighbour asks where you work. Say: the company I work for is in the centre.",
+            "it": "Un nuovo vicino ti chiede dove lavori. Rispondi: l'azienda per cui lavoro è in centro.",
+            "uk": "Новий сусід питає, де ти працюєш. Скажи: компанія, на яку я працюю, у центрі.",
+            "de": "Ein neuer Nachbar fragt dich, wo du arbeitest. Sag: Die Firma, für die ich arbeite, ist im Zentrum.",
+            "fr": "Un nouveau voisin te demande où tu travailles. Réponds : l'entreprise pour laquelle je travaille est dans le centre.",
+            "pt": "Um vizinho novo pergunta onde você trabalha. Diga: a empresa para a qual eu trabalho fica no centro.",
+            "zh": "一个新邻居问你在哪儿工作。你说：我工作的公司在市中心。"
+          },
+          "accepted": [
+            "La empresa para la que trabajo está en el centro."
+          ],
+          "tiles": [
+            "La empresa",
+            "para",
+            "la que",
+            "trabajo",
+            "está",
+            "en el centro",
+            "el que",
+            "es"
+          ],
+          "en": "The company I work for is in the centre.",
+          "it": "L'azienda per cui lavoro è in centro.",
+          "uk": "Компанія, на яку я працюю, у центрі.",
+          "de": "Die Firma, für die ich arbeite, ist im Zentrum.",
+          "fr": "L'entreprise pour laquelle je travaille est dans le centre.",
+          "pt": "A empresa para a qual eu trabalho fica no centro.",
+          "zh": "我工作的公司在市中心。",
+          "hint": {
+            "en": "empresa is feminine: para la que; a place: está.",
+            "it": "empresa è femminile: para la que; un luogo: está.",
+            "uk": "empresa жіночого роду: para la que; місце: está.",
+            "de": "empresa ist feminin: para la que; ein Ort: está.",
+            "fr": "empresa est féminin : para la que ; un lieu : está.",
+            "pt": "empresa é feminino: para la que; um lugar: está.",
+            "zh": "empresa 是阴性：para la que；说位置：está。"
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "You and a friend are about to leave a café. Write in Spanish: «My jacket is the one on the chair.»",
+            "it": "Tu e un amico state per uscire da un bar. Scrivi in spagnolo: «La mia giacca è quella sulla sedia.»",
+            "uk": "Ви з другом збираєтеся вийти з кав'ярні. Напиши іспанською: «Моя куртка — та, що на стільці.»",
+            "de": "Du und ein Freund wollt gerade aus einem Café gehen. Schreib auf Spanisch: «Meine Jacke ist die auf dem Stuhl.»",
+            "fr": "Tu es sur le point de quitter un café avec un ami. Écris en espagnol : «Ma veste, c'est celle qui est sur la chaise.»",
+            "pt": "Você e um amigo estão saindo de um café. Escreva em espanhol: «A minha jaqueta é a que está na cadeira.»",
+            "zh": "你和朋友正要离开一家咖啡馆。用西班牙语写：«我的外套是椅子上的那件。»"
+          },
+          "accepted": [
+            "Mi chaqueta es la que está en la silla."
+          ],
+          "model": {
+            "es": "Mi chaqueta es la que está en la silla.",
+            "en": "My jacket is the one on the chair.",
+            "it": "La mia giacca è quella sulla sedia.",
+            "uk": "Моя куртка — та, що на стільці.",
+            "de": "Meine Jacke ist die auf dem Stuhl.",
+            "fr": "Ma veste, c'est celle qui est sur la chaise.",
+            "pt": "A minha jaqueta é a que está na cadeira.",
+            "zh": "我的外套是椅子上的那件。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u39l3",
+      "goal": {
+        "en": "Describe places with donde (el barrio donde vivo), moments with que or cuando (el día que nos conocimos), and the way something is done with como (lo hice como me dijiste).",
+        "it": "Descrivi luoghi con donde (el barrio donde vivo), momenti con que o cuando (el día que nos conocimos) e il modo in cui si fa qualcosa con como (lo hice como me dijiste).",
+        "uk": "Описуй місця за допомогою donde (el barrio donde vivo), моменти — за допомогою que або cuando (el día que nos conocimos), а спосіб, яким щось робиться, — за допомогою como (lo hice como me dijiste).",
+        "de": "Beschreibe Orte mit donde (el barrio donde vivo), Zeitpunkte mit que oder cuando (el día que nos conocimos) und die Art, wie man etwas macht, mit como (lo hice como me dijiste).",
+        "fr": "Décris des lieux avec donde (el barrio donde vivo), des moments avec que ou cuando (el día que nos conocimos), et la façon de faire quelque chose avec como (lo hice como me dijiste).",
+        "pt": "Descreva lugares com donde (el barrio donde vivo), momentos com que ou cuando (el día que nos conocimos) e o jeito de fazer algo com como (lo hice como me dijiste).",
+        "zh": "用 donde 描述地点（el barrio donde vivo），用 que 或 cuando 描述时间（el día que nos conocimos），用 como 描述做事的方式（lo hice como me dijiste）。"
+      },
+      "target": {
+        "es": "Este es el barrio donde crecí.",
+        "en": "This is the neighbourhood where I grew up.",
+        "it": "Questo è il quartiere dove sono cresciuto.",
+        "uk": "Це район, де я виріс(-ла).",
+        "de": "Das ist das Viertel, in dem ich aufgewachsen bin.",
+        "fr": "C'est le quartier où j'ai grandi.",
+        "pt": "Este é o bairro onde eu cresci.",
+        "zh": "这就是我长大的街区。"
+      },
+      "names": [
+        "Madrid",
+        "España"
+      ],
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "¿te acuerdas de…?",
+              "en": "do you remember…?",
+              "it": "ti ricordi di…?",
+              "uk": "ти пам'ятаєш…?",
+              "de": "erinnerst du dich an…?",
+              "fr": "tu te souviens de… ?",
+              "pt": "você se lembra de…?",
+              "zh": "你还记得……吗？",
+              "kind": "chunk"
+            },
+            {
+              "es": "la última vez",
+              "en": "the last time",
+              "it": "l'ultima volta",
+              "uk": "останній раз",
+              "de": "das letzte Mal",
+              "fr": "la dernière fois",
+              "pt": "a última vez",
+              "zh": "上一次，最后一次",
+              "kind": "time"
+            },
+            {
+              "es": "crecer",
+              "en": "to grow up",
+              "it": "crescere",
+              "uk": "рости, виростати",
+              "de": "aufwachsen",
+              "fr": "grandir",
+              "pt": "crescer",
+              "zh": "长大",
+              "kind": "stem"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "el barrio",
+              "kind": "chunk"
+            },
+            {
+              "text": "donde",
+              "kind": "rail"
+            },
+            {
+              "text": "vivo",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "For a place, use donde (where), with no accent: el barrio donde vivo. It means the same as en el que.",
+            "it": "Per un luogo, usa donde (dove), senza accento: el barrio donde vivo. Vuol dire lo stesso di en el que.",
+            "uk": "Для місця вживай donde (де), без наголосу: el barrio donde vivo. Це означає те саме, що en el que.",
+            "de": "Für einen Ort nimmst du donde (wo), ohne Akzent: el barrio donde vivo. Es bedeutet dasselbe wie en el que.",
+            "fr": "Pour un lieu, utilise donde (où), sans accent : el barrio donde vivo. Ça veut dire la même chose que en el que.",
+            "pt": "Para um lugar, use donde (onde), sem acento: el barrio donde vivo. Quer dizer o mesmo que en el que.",
+            "zh": "说地点用 donde（……的地方），不加重音符号：el barrio donde vivo（我住的街区）。意思和 en el que 一样。"
+          },
+          "examples": [
+            {
+              "es": "Este es el barrio donde crecí.",
+              "en": "This is the neighbourhood where I grew up.",
+              "it": "Questo è il quartiere dove sono cresciuto.",
+              "uk": "Це район, де я виріс(-ла).",
+              "de": "Das ist das Viertel, in dem ich aufgewachsen bin.",
+              "fr": "C'est le quartier où j'ai grandi.",
+              "pt": "Este é o bairro onde eu cresci.",
+              "zh": "这就是我长大的街区。"
+            },
+            {
+              "es": "¿Te acuerdas del restaurante donde cenamos?",
+              "en": "Do you remember the restaurant where we had dinner?",
+              "it": "Ti ricordi del ristorante dove abbiamo cenato?",
+              "uk": "Пам'ятаєш ресторан, де ми вечеряли?",
+              "de": "Erinnerst du dich an das Restaurant, wo wir zu Abend gegessen haben?",
+              "fr": "Tu te souviens du restaurant où on a dîné ?",
+              "pt": "Você se lembra do restaurante onde jantamos?",
+              "zh": "你还记得我们吃晚饭的那家餐厅吗？"
+            },
+            {
+              "es": "Es el pueblo donde nació mi padre.",
+              "en": "It's the village where my father was born.",
+              "it": "È il paese dove è nato mio padre.",
+              "uk": "Це село, де народився мій батько.",
+              "de": "Das ist das Dorf, in dem mein Vater geboren wurde.",
+              "fr": "C'est le village où mon père est né.",
+              "pt": "É a cidadezinha onde o meu pai nasceu.",
+              "zh": "这是我爸爸出生的小镇。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "donde",
+              "en": "where (not in a question)",
+              "it": "dove (non in una domanda)",
+              "uk": "де (не в питанні)",
+              "de": "wo (nicht in einer Frage)",
+              "fr": "où (pas dans une question)",
+              "pt": "onde (fora de pergunta)",
+              "zh": "……的地方（不用在疑问句里）"
+            },
+            {
+              "es": "crecí",
+              "en": "I grew up",
+              "it": "sono cresciuto / cresciuta",
+              "uk": "я виріс(-ла)",
+              "de": "ich bin aufgewachsen",
+              "fr": "j'ai grandi",
+              "pt": "eu cresci",
+              "zh": "我长大了"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Es el pueblo ",
+          "after": " nació mi padre.",
+          "options": [
+            "donde",
+            "dónde",
+            "quien"
+          ],
+          "answer": "donde",
+          "en": "It's the village where my father was born.",
+          "it": "È il paese dove è nato mio padre.",
+          "uk": "Це село, де народився мій батько.",
+          "de": "Das ist das Dorf, in dem mein Vater geboren wurde.",
+          "fr": "C'est le village où mon père est né.",
+          "pt": "É a cidadezinha onde o meu pai nasceu.",
+          "zh": "这是我爸爸出生的小镇。",
+          "hint": {
+            "en": "Not a question: donde, with no accent.",
+            "it": "Non è una domanda: donde, senza accento.",
+            "uk": "Не питання: donde, без наголосу.",
+            "de": "Keine Frage: donde, ohne Akzent.",
+            "fr": "Ce n'est pas une question : donde, sans accent.",
+            "pt": "Não é pergunta: donde, sem acento.",
+            "zh": "不是疑问句：donde，不加重音符号。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "You're walking around your city with a friend. Say: this is the restaurant where we had dinner.",
+            "it": "Stai passeggiando per la tua città con un amico. Digli: questo è il ristorante dove abbiamo cenato.",
+            "uk": "Ти гуляєш містом із другом. Скажи: це ресторан, де ми вечеряли.",
+            "de": "Du läufst mit einem Freund durch deine Stadt. Sag: Das ist das Restaurant, wo wir zu Abend gegessen haben.",
+            "fr": "Tu te promènes dans ta ville avec un ami. Dis-lui : c'est le restaurant où on a dîné.",
+            "pt": "Você está passeando pela sua cidade com um amigo. Diga: este é o restaurante onde jantamos.",
+            "zh": "你和朋友在你的城市里逛。你说：这就是我们吃晚饭的那家餐厅。"
+          },
+          "accepted": [
+            "Este es el restaurante donde cenamos.",
+            "Este es el restaurante en el que cenamos."
+          ],
+          "tiles": [
+            "Este es",
+            "el restaurante",
+            "donde",
+            "cenamos",
+            "dónde",
+            "quien"
+          ],
+          "en": "This is the restaurant where we had dinner.",
+          "it": "Questo è il ristorante dove abbiamo cenato.",
+          "uk": "Це ресторан, де ми вечеряли.",
+          "de": "Das ist das Restaurant, wo wir zu Abend gegessen haben.",
+          "fr": "C'est le restaurant où on a dîné.",
+          "pt": "Este é o restaurante onde jantamos.",
+          "zh": "这就是我们吃晚饭的那家餐厅。",
+          "hint": {
+            "en": "A place: donde, with no accent.",
+            "it": "Un luogo: donde, senza accento.",
+            "uk": "Місце: donde, без наголосу.",
+            "de": "Ein Ort: donde, ohne Akzent.",
+            "fr": "Un lieu : donde, sans accent.",
+            "pt": "Um lugar: donde, sem acento.",
+            "zh": "地点：donde，不加重音符号。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "el día",
+              "kind": "time"
+            },
+            {
+              "text": "que",
+              "kind": "rail"
+            },
+            {
+              "text": "nos conocimos",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "After el día, el año, la vez…, Spanish uses que, not cuando: el día que nos conocimos. cuando goes after a comma, adding a time: en agosto, cuando hace calor, …",
+            "it": "Dopo el día, el año, la vez…, lo spagnolo usa que, non cuando: el día que nos conocimos. cuando va dopo una virgola, per aggiungere un momento: en agosto, cuando hace calor, …",
+            "uk": "Після el día, el año, la vez… іспанська вживає que, а не cuando: el día que nos conocimos. cuando стоїть після коми й додає час: en agosto, cuando hace calor, …",
+            "de": "Nach el día, el año, la vez… sagt man im Spanischen que, nicht cuando: el día que nos conocimos. cuando steht nach einem Komma und fügt einen Zeitpunkt hinzu: en agosto, cuando hace calor, …",
+            "fr": "Après el día, el año, la vez…, l'espagnol utilise que, pas cuando : el día que nos conocimos. Attention : en français on dit « le jour où », mais en espagnol on ne met pas donde ici. cuando vient après une virgule, pour ajouter un moment : en agosto, cuando hace calor, …",
+            "pt": "Depois de el día, el año, la vez…, o espanhol usa só que, não cuando (e sem o em do português «o dia em que»): el día que nos conocimos. cuando vem depois de vírgula, acrescentando um momento: en agosto, cuando hace calor, …",
+            "zh": "在 el día、el año、la vez……后面，西班牙语用 que，不用 cuando：el día que nos conocimos（我们认识的那天）。cuando 放在逗号后面，用来补充一个时间：en agosto, cuando hace calor, …"
+          },
+          "examples": [
+            {
+              "es": "¿Te acuerdas del día que nos conocimos?",
+              "en": "Do you remember the day we met?",
+              "it": "Ti ricordi del giorno in cui ci siamo conosciuti?",
+              "uk": "Пам'ятаєш день, коли ми познайомилися?",
+              "de": "Erinnerst du dich an den Tag, an dem wir uns kennengelernt haben?",
+              "fr": "Tu te souviens du jour où on s'est rencontrés ?",
+              "pt": "Você se lembra do dia em que nos conhecemos?",
+              "zh": "你还记得我们认识的那天吗？"
+            },
+            {
+              "es": "La última vez que te vi, vivías en Madrid.",
+              "en": "The last time I saw you, you were living in Madrid.",
+              "it": "L'ultima volta che ti ho visto, vivevi a Madrid.",
+              "uk": "Коли я бачив(-ла) тебе востаннє, ти жив(-ла) у Мадриді.",
+              "de": "Als ich dich das letzte Mal gesehen habe, hast du in Madrid gewohnt.",
+              "fr": "La dernière fois que je t'ai vu, tu habitais à Madrid.",
+              "pt": "Da última vez que te vi, você morava em Madri.",
+              "zh": "我上次见你的时候，你住在马德里。"
+            },
+            {
+              "es": "En agosto, cuando hace calor, nos vamos a la playa.",
+              "en": "In August, when it's hot, we go to the beach.",
+              "it": "Ad agosto, quando fa caldo, andiamo al mare.",
+              "uk": "У серпні, коли спекотно, ми їздимо на пляж.",
+              "de": "Im August, wenn es heiß ist, fahren wir ans Meer.",
+              "fr": "En août, quand il fait chaud, on va à la plage.",
+              "pt": "Em agosto, quando faz calor, vamos para a praia.",
+              "zh": "八月天热的时候，我们会去海边。"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "¿Te acuerdas del día ",
+          "after": " nos conocimos?",
+          "options": [
+            "que",
+            "donde",
+            "quien"
+          ],
+          "answer": "que",
+          "en": "Do you remember the day we met?",
+          "it": "Ti ricordi del giorno in cui ci siamo conosciuti?",
+          "uk": "Пам'ятаєш день, коли ми познайомилися?",
+          "de": "Erinnerst du dich an den Tag, an dem wir uns kennengelernt haben?",
+          "fr": "Tu te souviens du jour où on s'est rencontrés ?",
+          "pt": "Você se lembra do dia em que nos conhecemos?",
+          "zh": "你还记得我们认识的那天吗？",
+          "hint": {
+            "en": "After el día: que.",
+            "it": "Dopo el día: que.",
+            "uk": "Після el día: que.",
+            "de": "Nach el día: que.",
+            "fr": "Après el día : que (pas donde).",
+            "pt": "Depois de el día: que.",
+            "zh": "在 el día 后面：que。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "You bump into an old friend in the street. Say: the last time I saw you, you were living in Madrid.",
+            "it": "Incontri per strada un vecchio amico. Digli: l'ultima volta che ti ho visto, vivevi a Madrid.",
+            "uk": "Ти випадково зустрічаєш на вулиці старого друга. Скажи: коли я бачив(-ла) тебе востаннє, ти жив у Мадриді.",
+            "de": "Du triffst auf der Straße zufällig einen alten Freund. Sag: Als ich dich das letzte Mal gesehen habe, hast du in Madrid gewohnt.",
+            "fr": "Tu croises un vieil ami dans la rue. Dis-lui : la dernière fois que je t'ai vu, tu habitais à Madrid.",
+            "pt": "Você encontra um velho amigo na rua por acaso. Diga: da última vez que te vi, você morava em Madri.",
+            "zh": "你在街上碰到一个老朋友。你说：我上次见你的时候，你住在马德里。"
+          },
+          "accepted": [
+            "La última vez que te vi, vivías en Madrid.",
+            "La última vez que te vi vivías en Madrid."
+          ],
+          "tiles": [
+            "La última vez",
+            "que",
+            "te vi,",
+            "vivías",
+            "en Madrid",
+            "donde",
+            "vives"
+          ],
+          "en": "The last time I saw you, you were living in Madrid.",
+          "it": "L'ultima volta che ti ho visto, vivevi a Madrid.",
+          "uk": "Коли я бачив(-ла) тебе востаннє, ти жив у Мадриді.",
+          "de": "Als ich dich das letzte Mal gesehen habe, hast du in Madrid gewohnt.",
+          "fr": "La dernière fois que je t'ai vu, tu habitais à Madrid.",
+          "pt": "Da última vez que te vi, você morava em Madri.",
+          "zh": "我上次见你的时候，你住在马德里。",
+          "hint": {
+            "en": "After la última vez: que.",
+            "it": "Dopo la última vez: que.",
+            "uk": "Після la última vez: que.",
+            "de": "Nach la última vez: que.",
+            "fr": "Après la última vez : que.",
+            "pt": "Depois de la última vez: que.",
+            "zh": "在 la última vez 后面：que。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "lo hice",
+              "kind": "stem"
+            },
+            {
+              "text": "como",
+              "kind": "rail"
+            },
+            {
+              "text": "me dijiste",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "como, with no accent, means the way or as: me encanta como cocinas (I love the way you cook), lo hice como me dijiste (I did it as you told me).",
+            "it": "como, senza accento, vuol dire come, nel modo in cui: me encanta como cocinas (adoro come cucini), lo hice como me dijiste (l'ho fatto come mi hai detto).",
+            "uk": "como без наголосу означає «як», «так, як»: me encanta como cocinas (мені дуже подобається, як ти готуєш), lo hice como me dijiste (я зробив(-ла) так, як ти мені сказав(-ла)).",
+            "de": "como, ohne Akzent, bedeutet „wie“ oder „so, wie“: me encanta como cocinas (ich liebe es, wie du kochst), lo hice como me dijiste (ich habe es so gemacht, wie du es mir gesagt hast).",
+            "fr": "como, sans accent, veut dire comme ou la façon dont : me encanta como cocinas (j'adore ta façon de cuisiner), lo hice como me dijiste (je l'ai fait comme tu me l'as dit).",
+            "pt": "como, sem acento, quer dizer o jeito como ou como: me encanta como cocinas (adoro o jeito como você cozinha), lo hice como me dijiste (fiz como você me disse).",
+            "zh": "como 不加重音符号时，意思是“……的方式”或“按照……”：me encanta como cocinas（我特别喜欢你做饭的手艺），lo hice como me dijiste（我是按你说的做的）。"
+          },
+          "examples": [
+            {
+              "es": "Me encanta como cocinas.",
+              "en": "I love the way you cook.",
+              "it": "Adoro come cucini.",
+              "uk": "Мені дуже подобається, як ти готуєш.",
+              "de": "Ich liebe es, wie du kochst.",
+              "fr": "J'adore ta façon de cuisiner.",
+              "pt": "Adoro o jeito como você cozinha.",
+              "zh": "我特别喜欢你做饭的手艺。"
+            },
+            {
+              "es": "Lo hice como me dijiste.",
+              "en": "I did it the way you told me.",
+              "it": "L'ho fatto come mi hai detto.",
+              "uk": "Я зробив(-ла) так, як ти мені сказав(-ла).",
+              "de": "Ich habe es so gemacht, wie du es mir gesagt hast.",
+              "fr": "Je l'ai fait comme tu me l'as dit.",
+              "pt": "Fiz do jeito que você me disse.",
+              "zh": "我是按你说的做的。"
+            },
+            {
+              "es": "Me gusta como hablas español.",
+              "en": "I like the way you speak Spanish.",
+              "it": "Mi piace come parli spagnolo.",
+              "uk": "Мені подобається, як ти розмовляєш іспанською.",
+              "de": "Mir gefällt, wie du Spanisch sprichst.",
+              "fr": "J'aime ta façon de parler espagnol.",
+              "pt": "Gosto do jeito como você fala espanhol.",
+              "zh": "我喜欢你说西班牙语的样子。"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Me encanta ",
+          "after": " cocinas: ¡está buenísimo!",
+          "options": [
+            "como",
+            "donde",
+            "quien"
+          ],
+          "answer": "como",
+          "en": "I love the way you cook: it's delicious!",
+          "it": "Adoro come cucini: è buonissimo!",
+          "uk": "Мені дуже подобається, як ти готуєш: це смачно!",
+          "de": "Ich liebe es, wie du kochst: Das ist köstlich!",
+          "fr": "J'adore ta façon de cuisiner : c'est délicieux !",
+          "pt": "Adoro o jeito como você cozinha: está uma delícia!",
+          "zh": "我特别喜欢你做饭的手艺：太好吃了！",
+          "hint": {
+            "en": "The way you do something: como.",
+            "it": "Il modo in cui fai qualcosa: como.",
+            "uk": "Те, як ти щось робиш: como.",
+            "de": "Wie du etwas machst: como.",
+            "fr": "La façon dont tu fais quelque chose : como.",
+            "pt": "O jeito como você faz algo: como.",
+            "zh": "做某事的方式：como。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "Your boss asks if you sent the email the way she wanted. Say: I did it the way you told me.",
+            "it": "La tua capa ti chiede se hai mandato l'email come voleva lei. Rispondi: l'ho fatto come mi hai detto.",
+            "uk": "Твоя начальниця питає, чи ти надіслав(-ла) лист так, як вона хотіла. Скажи: я зробив(-ла) так, як ти мені сказала.",
+            "de": "Deine Chefin fragt, ob du die E-Mail so geschickt hast, wie sie es wollte. Sag: Ich habe es so gemacht, wie du es mir gesagt hast.",
+            "fr": "Ta cheffe te demande si tu as envoyé l'e-mail comme elle le voulait. Réponds : je l'ai fait comme tu me l'as dit.",
+            "pt": "A sua chefe pergunta se você mandou o e-mail do jeito que ela queria. Diga: fiz do jeito que você me disse.",
+            "zh": "老板问你邮件是不是按她要求的方式发的。你说：我是按你说的做的。"
+          },
+          "accepted": [
+            "Lo hice como me dijiste.",
+            "Lo he hecho como me dijiste.",
+            "Lo hice como me has dicho.",
+            "Lo he hecho como me has dicho."
+          ],
+          "tiles": [
+            "Lo hice",
+            "como",
+            "me dijiste",
+            "donde",
+            "me dices"
+          ],
+          "en": "I did it the way you told me.",
+          "it": "L'ho fatto come mi hai detto.",
+          "uk": "Я зробив(-ла) так, як ти мені сказала.",
+          "de": "Ich habe es so gemacht, wie du es mir gesagt hast.",
+          "fr": "Je l'ai fait comme tu me l'as dit.",
+          "pt": "Fiz do jeito que você me disse.",
+          "zh": "我是按你说的做的。",
+          "hint": {
+            "en": "The way: como.",
+            "it": "Il modo: como.",
+            "uk": "Спосіб: como.",
+            "de": "Die Art und Weise: como.",
+            "fr": "La façon : como.",
+            "pt": "O jeito: como.",
+            "zh": "方式：como。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "Es la ciudad ",
+          "after": " viví dos años.",
+          "options": [
+            "donde",
+            "como",
+            "quien"
+          ],
+          "answer": "donde",
+          "en": "It's the city where I lived for two years.",
+          "it": "È la città dove ho vissuto due anni.",
+          "uk": "Це місто, де я прожив(-ла) два роки.",
+          "de": "Das ist die Stadt, in der ich zwei Jahre gewohnt habe.",
+          "fr": "C'est la ville où j'ai vécu deux ans.",
+          "pt": "É a cidade onde eu morei dois anos.",
+          "zh": "这是我住过两年的城市。",
+          "hint": {
+            "en": "A place: donde.",
+            "it": "Un luogo: donde.",
+            "uk": "Місце: donde.",
+            "de": "Ein Ort: donde.",
+            "fr": "Un lieu : donde.",
+            "pt": "Um lugar: donde.",
+            "zh": "地点：donde。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "La primera vez ",
+          "after": " vine a España, no hablaba nada de español.",
+          "options": [
+            "que",
+            "donde",
+            "como"
+          ],
+          "answer": "que",
+          "en": "The first time I came to Spain, I didn't speak any Spanish.",
+          "it": "La prima volta che sono venuto in Spagna, non parlavo per niente spagnolo.",
+          "uk": "Коли я вперше приїхав(-ла) до Іспанії, я зовсім не розмовляв(-ла) іспанською.",
+          "de": "Als ich das erste Mal nach Spanien kam, sprach ich überhaupt kein Spanisch.",
+          "fr": "La première fois que je suis venu en Espagne, je ne parlais pas du tout espagnol.",
+          "pt": "Da primeira vez que vim à Espanha, eu não falava nada de espanhol.",
+          "zh": "我第一次来西班牙的时候，一点西班牙语都不会说。",
+          "hint": {
+            "en": "After la primera vez: que.",
+            "it": "Dopo la primera vez: que.",
+            "uk": "Після la primera vez: que.",
+            "de": "Nach la primera vez: que.",
+            "fr": "Après la primera vez : que.",
+            "pt": "Depois de la primera vez: que.",
+            "zh": "在 la primera vez 后面：que。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "mix",
+          "intention": {
+            "en": "You're at a party and a friend has just been dancing. Say: I love the way you dance.",
+            "it": "Sei a una festa e un'amica ha appena ballato. Dille: adoro come balli.",
+            "uk": "Ти на вечірці, і подруга щойно танцювала. Скажи: мені дуже подобається, як ти танцюєш.",
+            "de": "Du bist auf einer Party und eine Freundin hat gerade getanzt. Sag ihr: Ich liebe es, wie du tanzt.",
+            "fr": "Tu es à une fête et une amie vient de danser. Dis-lui : j'adore ta façon de danser.",
+            "pt": "Você está numa festa e uma amiga acabou de dançar. Diga: adoro o jeito como você dança.",
+            "zh": "你在一个聚会上，一个朋友刚跳完舞。你说：我很喜欢你跳舞的样子。"
+          },
+          "accepted": [
+            "Me encanta como bailas.",
+            "Me encanta cómo bailas."
+          ],
+          "tiles": [
+            "Me encanta",
+            "como",
+            "bailas",
+            "donde",
+            "bailo"
+          ],
+          "en": "I love the way you dance.",
+          "it": "Adoro come balli.",
+          "uk": "Мені дуже подобається, як ти танцюєш.",
+          "de": "Ich liebe es, wie du tanzt.",
+          "fr": "J'adore ta façon de danser.",
+          "pt": "Adoro o jeito como você dança.",
+          "zh": "我很喜欢你跳舞的样子。",
+          "hint": {
+            "en": "The way she does it: como.",
+            "it": "Il modo in cui lo fa: como.",
+            "uk": "Те, як вона це робить: como.",
+            "de": "Wie sie es macht: como.",
+            "fr": "La façon dont elle le fait : como.",
+            "pt": "O jeito como ela faz: como.",
+            "zh": "她做这件事的方式：como。"
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "You're showing a friend around your city. Write in Spanish: «This is the square where we met.»",
+            "it": "Fai vedere la tua città a un amico. Scrivi in spagnolo: «Questa è la piazza dove ci siamo conosciuti.»",
+            "uk": "Ти показуєш другові своє місто. Напиши іспанською: «Це площа, де ми познайомилися.»",
+            "de": "Du zeigst einem Freund deine Stadt. Schreib auf Spanisch: «Das ist der Platz, wo wir uns kennengelernt haben.»",
+            "fr": "Tu fais visiter ta ville à un ami. Écris en espagnol : «C'est la place où on s'est rencontrés.»",
+            "pt": "Você está mostrando a sua cidade a um amigo. Escreva em espanhol: «Esta é a praça onde nos conhecemos.»",
+            "zh": "你带朋友参观你的城市。用西班牙语写：«这就是我们认识的那个广场。»"
+          },
+          "accepted": [
+            "Esta es la plaza donde nos conocimos.",
+            "Esta es la plaza en la que nos conocimos.",
+            "Esta es la plaza en donde nos conocimos.",
+            "Esta es la plaza donde nos conocimos nosotros."
+          ],
+          "model": {
+            "es": "Esta es la plaza donde nos conocimos.",
+            "en": "This is the square where we met.",
+            "it": "Questa è la piazza dove ci siamo conosciuti.",
+            "uk": "Це площа, де ми познайомилися.",
+            "de": "Das ist der Platz, wo wir uns kennengelernt haben.",
+            "fr": "C'est la place où on s'est rencontrés.",
+            "pt": "Esta é a praça onde nos conhecemos.",
+            "zh": "这就是我们认识的那个广场。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u39l4",
+      "goal": {
+        "en": "Say whose with cuyo, cuya, cuyos, cuyas, matching the thing that's owned (un vecino cuya hija es cantante), also after a preposition (el amigo en cuya casa dormimos).",
+        "it": "Esprimi il possesso con cuyo, cuya, cuyos, cuyas, d'accordo con la cosa posseduta (un vecino cuya hija es cantante), anche dopo una preposizione (el amigo en cuya casa dormimos).",
+        "uk": "Кажи «чий» за допомогою cuyo, cuya, cuyos, cuyas, узгоджуючи з тим, чим володіють (un vecino cuya hija es cantante), також після прийменника (el amigo en cuya casa dormimos).",
+        "de": "Drück mit cuyo, cuya, cuyos, cuyas „dessen / deren“ aus, passend zu dem, was jemandem gehört (un vecino cuya hija es cantante), auch nach einer Präposition (el amigo en cuya casa dormimos).",
+        "fr": "Exprime la possession avec cuyo, cuya, cuyos, cuyas (dont le, dont la…), accordé avec la chose possédée (un vecino cuya hija es cantante), même après une préposition (el amigo en cuya casa dormimos).",
+        "pt": "Diga de quem é algo com cuyo, cuya, cuyos, cuyas, concordando com a coisa possuída (un vecino cuya hija es cantante), também depois de preposição (el amigo en cuya casa dormimos).",
+        "zh": "用 cuyo、cuya、cuyos、cuyas 表示“谁的”，要跟被拥有的东西一致（un vecino cuya hija es cantante），在介词后面也一样（el amigo en cuya casa dormimos）。"
+      },
+      "target": {
+        "es": "Tengo un vecino cuya hija es cantante.",
+        "en": "I have a neighbour whose daughter is a singer.",
+        "it": "Ho un vicino la cui figlia è cantante.",
+        "uk": "У мене є сусід, донька якого — співачка.",
+        "de": "Ich habe einen Nachbarn, dessen Tochter Sängerin ist.",
+        "fr": "J'ai un voisin dont la fille est chanteuse.",
+        "pt": "Tenho um vizinho cuja filha é cantora.",
+        "zh": "我有一个邻居，他的女儿是歌手。"
+      },
+      "names": [
+        "Roma",
+        "Londres"
+      ],
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "el escritor",
+              "en": "the writer (man)",
+              "it": "lo scrittore",
+              "uk": "письменник",
+              "de": "der Schriftsteller",
+              "fr": "l'écrivain",
+              "pt": "o escritor",
+              "zh": "作家（男）",
+              "kind": "chunk"
+            },
+            {
+              "es": "la escritora",
+              "en": "the writer (woman)",
+              "it": "la scrittrice",
+              "uk": "письменниця",
+              "de": "die Schriftstellerin",
+              "fr": "l'écrivaine",
+              "pt": "a escritora",
+              "zh": "作家（女）",
+              "kind": "chunk"
+            },
+            {
+              "es": "el / la cantante",
+              "en": "the singer",
+              "it": "il / la cantante",
+              "uk": "співак / співачка",
+              "de": "der Sänger / die Sängerin",
+              "fr": "le chanteur / la chanteuse",
+              "pt": "o cantor / a cantora",
+              "zh": "歌手",
+              "kind": "chunk"
+            },
+            {
+              "es": "último",
+              "en": "latest, last",
+              "it": "ultimo",
+              "uk": "останній, найновіший",
+              "de": "neuester, letzter",
+              "fr": "dernier",
+              "pt": "último, mais recente",
+              "zh": "最新的，最后的",
+              "kind": "chunk"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "un vecino",
+              "kind": "chunk"
+            },
+            {
+              "text": "cuya",
+              "kind": "rail"
+            },
+            {
+              "text": "hija",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "cuyo means whose. It matches the thing that is owned, not the owner: un vecino cuya hija… (hija is feminine), una escritora cuyo libro… (libro is masculine).",
+            "it": "cuyo vuol dire il cui, la cui. Va d'accordo con la cosa posseduta, non con chi la possiede: un vecino cuya hija… (hija è femminile), una escritora cuyo libro… (libro è maschile).",
+            "uk": "cuyo означає «чий», «якого / якої». Він узгоджується з тим, чим володіють, а не з власником: un vecino cuya hija… (hija жіночого роду), una escritora cuyo libro… (libro чоловічого роду).",
+            "de": "cuyo bedeutet dessen / deren. Es passt sich an das an, was jemandem gehört, nicht an den Besitzer: un vecino cuya hija… (hija ist feminin), una escritora cuyo libro… (libro ist maskulin). Im Deutschen ist es umgekehrt: dessen / deren richtet sich nach dem Besitzer.",
+            "fr": "cuyo correspond à « dont le / dont la » en français. Il remplace l'article et s'accorde avec la chose possédée, pas avec le possesseur : un vecino cuya hija… (hija est féminin), una escritora cuyo libro… (libro est masculin).",
+            "pt": "cuyo é o cujo do português e funciona igual: concorda com a coisa possuída, não com o dono: un vecino cuya hija… (hija é feminino), una escritora cuyo libro… (libro é masculino).",
+            "zh": "cuyo 的意思是“……的（谁的）”。它要跟被拥有的东西一致，而不是跟拥有者一致：un vecino cuya hija…（hija 是阴性），una escritora cuyo libro…（libro 是阳性）。顺序是：拥有者 + cuyo + 被拥有的东西，中文常常拆成两句来说：我有一个邻居，他的女儿……"
+          },
+          "examples": [
+            {
+              "es": "Tengo un vecino cuya hija es cantante.",
+              "en": "I have a neighbour whose daughter is a singer.",
+              "it": "Ho un vicino la cui figlia è cantante.",
+              "uk": "У мене є сусід, донька якого — співачка.",
+              "de": "Ich habe einen Nachbarn, dessen Tochter Sängerin ist.",
+              "fr": "J'ai un voisin dont la fille est chanteuse.",
+              "pt": "Tenho um vizinho cuja filha é cantora.",
+              "zh": "我有一个邻居，他的女儿是歌手。"
+            },
+            {
+              "es": "Es una escritora cuyo último libro me encantó.",
+              "en": "She's a writer whose latest book I loved.",
+              "it": "È una scrittrice il cui ultimo libro mi è piaciuto tantissimo.",
+              "uk": "Це письменниця, остання книжка якої мені дуже сподобалася.",
+              "de": "Sie ist eine Schriftstellerin, deren neuestes Buch ich geliebt habe.",
+              "fr": "C'est une écrivaine dont j'ai adoré le dernier livre.",
+              "pt": "É uma escritora cujo último livro eu adorei.",
+              "zh": "她是一位作家，她的新书我特别喜欢。"
+            },
+            {
+              "es": "Es un pueblo cuyo nombre no recuerdo.",
+              "en": "It's a village whose name I can't remember.",
+              "it": "È un paese di cui non ricordo il nome.",
+              "uk": "Це село, назви якого я не пам'ятаю.",
+              "de": "Das ist ein Dorf, an dessen Namen ich mich nicht erinnere.",
+              "fr": "C'est un village dont je ne me rappelle pas le nom.",
+              "pt": "É uma cidadezinha cujo nome eu não lembro.",
+              "zh": "那是一个小镇，它的名字我想不起来了。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "cuyo",
+              "en": "whose (before a masculine noun)",
+              "it": "il cui",
+              "uk": "чий, якого / якої (перед іменником чоловічого роду)",
+              "de": "dessen, deren (vor einem maskulinen Nomen)",
+              "fr": "dont le (devant un nom masculin)",
+              "pt": "cujo (antes de substantivo masculino)",
+              "zh": "……的（用在阳性名词前）"
+            },
+            {
+              "es": "cuya",
+              "en": "whose (before a feminine noun)",
+              "it": "la cui",
+              "uk": "чия, якого / якої (перед іменником жіночого роду)",
+              "de": "dessen, deren (vor einem femininen Nomen)",
+              "fr": "dont la (devant un nom féminin)",
+              "pt": "cuja (antes de substantivo feminino)",
+              "zh": "……的（用在阴性名词前）"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Tengo un vecino ",
+          "after": " hija es cantante.",
+          "options": [
+            "cuya",
+            "cuyo",
+            "que"
+          ],
+          "answer": "cuya",
+          "en": "I have a neighbour whose daughter is a singer.",
+          "it": "Ho un vicino la cui figlia è cantante.",
+          "uk": "У мене є сусід, донька якого — співачка.",
+          "de": "Ich habe einen Nachbarn, dessen Tochter Sängerin ist.",
+          "fr": "J'ai un voisin dont la fille est chanteuse.",
+          "pt": "Tenho um vizinho cuja filha é cantora.",
+          "zh": "我有一个邻居，他的女儿是歌手。",
+          "hint": {
+            "en": "hija is feminine: cuya, even though the neighbour is a man.",
+            "it": "hija è femminile: cuya, anche se il vicino è un uomo.",
+            "uk": "hija жіночого роду: cuya, хоча сусід — чоловік.",
+            "de": "hija ist feminin: cuya, auch wenn der Nachbar ein Mann ist.",
+            "fr": "hija est féminin : cuya, même si le voisin est un homme.",
+            "pt": "hija é feminino: cuya, mesmo que o vizinho seja homem.",
+            "zh": "hija 是阴性：cuya，虽然邻居是男的。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "fire",
+          "before": "Es una escritora ",
+          "after": " último libro me encantó.",
+          "options": [
+            "cuyo",
+            "cuya",
+            "que"
+          ],
+          "answer": "cuyo",
+          "en": "She's a writer whose latest book I loved.",
+          "it": "È una scrittrice il cui ultimo libro mi è piaciuto tantissimo.",
+          "uk": "Це письменниця, остання книжка якої мені дуже сподобалася.",
+          "de": "Sie ist eine Schriftstellerin, deren neuestes Buch ich geliebt habe.",
+          "fr": "C'est une écrivaine dont j'ai adoré le dernier livre.",
+          "pt": "É uma escritora cujo último livro eu adorei.",
+          "zh": "她是一位作家，她的新书我特别喜欢。",
+          "hint": {
+            "en": "libro is masculine: cuyo, even though the writer is a woman.",
+            "it": "libro è maschile: cuyo, anche se è una scrittrice.",
+            "uk": "libro чоловічого роду: cuyo, хоча це письменниця.",
+            "de": "libro ist maskulin: cuyo, auch wenn es eine Schriftstellerin ist.",
+            "fr": "libro est masculin : cuyo, même si c'est une écrivaine.",
+            "pt": "libro é masculino: cuyo, mesmo que seja uma escritora.",
+            "zh": "libro 是阳性：cuyo，虽然作家是女的。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "un amigo",
+              "kind": "chunk"
+            },
+            {
+              "text": "cuyos",
+              "kind": "rail"
+            },
+            {
+              "text": "padres",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "If the things owned are plural, use cuyos or cuyas: un amigo cuyos padres…, una escritora cuyas novelas…",
+            "it": "Se le cose possedute sono plurali, usa cuyos o cuyas: un amigo cuyos padres…, una escritora cuyas novelas…",
+            "uk": "Якщо того, чим володіють, багато, вживай cuyos або cuyas: un amigo cuyos padres…, una escritora cuyas novelas…",
+            "de": "Wenn das, was jemandem gehört, im Plural steht, nimm cuyos oder cuyas: un amigo cuyos padres…, una escritora cuyas novelas…",
+            "fr": "Si les choses possédées sont au pluriel, utilise cuyos ou cuyas : un amigo cuyos padres…, una escritora cuyas novelas…",
+            "pt": "Se as coisas possuídas estão no plural, use cuyos ou cuyas: un amigo cuyos padres…, una escritora cuyas novelas…",
+            "zh": "如果被拥有的东西是复数，就用 cuyos 或 cuyas：un amigo cuyos padres…，una escritora cuyas novelas…"
+          },
+          "examples": [
+            {
+              "es": "Tengo un amigo cuyos padres viven en Roma.",
+              "en": "I have a friend whose parents live in Rome.",
+              "it": "Ho un amico i cui genitori vivono a Roma.",
+              "uk": "У мене є друг, батьки якого живуть у Римі.",
+              "de": "Ich habe einen Freund, dessen Eltern in Rom wohnen.",
+              "fr": "J'ai un ami dont les parents vivent à Rome.",
+              "pt": "Tenho um amigo cujos pais moram em Roma.",
+              "zh": "我有一个朋友，他的父母住在罗马。"
+            },
+            {
+              "es": "Es una escritora cuyas novelas me encantan.",
+              "en": "She's a writer whose novels I love.",
+              "it": "È una scrittrice i cui romanzi adoro.",
+              "uk": "Це письменниця, романи якої я обожнюю.",
+              "de": "Sie ist eine Schriftstellerin, deren Romane ich liebe.",
+              "fr": "C'est une écrivaine dont j'adore les romans.",
+              "pt": "É uma escritora cujos romances eu adoro.",
+              "zh": "她是一位作家，她的小说我都特别喜欢。"
+            },
+            {
+              "es": "Es un chico cuyos hermanos van a mi clase.",
+              "en": "He's a boy whose brothers are in my class.",
+              "it": "È un ragazzo i cui fratelli sono nella mia classe.",
+              "uk": "Це хлопець, брати якого ходять до мого класу.",
+              "de": "Er ist ein Junge, dessen Brüder in meine Klasse gehen.",
+              "fr": "C'est un garçon dont les frères sont dans ma classe.",
+              "pt": "É um menino cujos irmãos estão na minha turma.",
+              "zh": "他是一个男孩，他的兄弟们跟我同班。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "cuyos",
+              "en": "whose (before a masculine plural noun)",
+              "it": "i cui",
+              "uk": "чиї, якого / якої (перед іменником чоловічого роду в множині)",
+              "de": "dessen, deren (vor einem maskulinen Nomen im Plural)",
+              "fr": "dont les (devant un nom masculin pluriel)",
+              "pt": "cujos (antes de substantivo masculino plural)",
+              "zh": "……的（用在阳性复数名词前）"
+            },
+            {
+              "es": "cuyas",
+              "en": "whose (before a feminine plural noun)",
+              "it": "le cui",
+              "uk": "чиї, якого / якої (перед іменником жіночого роду в множині)",
+              "de": "dessen, deren (vor einem femininen Nomen im Plural)",
+              "fr": "dont les (devant un nom féminin pluriel)",
+              "pt": "cujas (antes de substantivo feminino plural)",
+              "zh": "……的（用在阴性复数名词前）"
+            },
+            {
+              "es": "novelas",
+              "en": "novels",
+              "it": "romanzi",
+              "uk": "романи",
+              "de": "Romane",
+              "fr": "romans",
+              "pt": "romances",
+              "zh": "小说（复数）"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Tengo una amiga ",
+          "after": " padres viven en Roma.",
+          "options": [
+            "cuyos",
+            "cuya",
+            "cuyas"
+          ],
+          "answer": "cuyos",
+          "en": "I have a friend whose parents live in Rome.",
+          "it": "Ho un'amica i cui genitori vivono a Roma.",
+          "uk": "У мене є подруга, батьки якої живуть у Римі.",
+          "de": "Ich habe eine Freundin, deren Eltern in Rom wohnen.",
+          "fr": "J'ai une amie dont les parents vivent à Rome.",
+          "pt": "Tenho um amigo cujos pais moram em Roma.",
+          "zh": "我有一个朋友，她的父母住在罗马。",
+          "hint": {
+            "en": "padres is masculine plural: cuyos.",
+            "it": "padres è maschile plurale: cuyos.",
+            "uk": "padres — чоловічий рід, множина: cuyos.",
+            "de": "padres ist maskulin Plural: cuyos.",
+            "fr": "padres est masculin pluriel : cuyos.",
+            "pt": "padres é masculino plural: cuyos.",
+            "zh": "padres 是阳性复数：cuyos。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "A friend asks you to recommend a writer. Say: he's a writer whose books I love.",
+            "it": "Un amico ti chiede di consigliargli uno scrittore. Rispondi: è uno scrittore i cui libri adoro.",
+            "uk": "Друг просить тебе порадити письменника. Скажи: це письменник, книжки якого я обожнюю.",
+            "de": "Ein Freund bittet dich, ihm einen Schriftsteller zu empfehlen. Sag: Er ist ein Schriftsteller, dessen Bücher ich liebe.",
+            "fr": "Un ami te demande de lui conseiller un écrivain. Réponds : c'est un écrivain dont j'adore les livres.",
+            "pt": "Um amigo pede que você recomende um escritor. Diga: é um escritor cujos livros eu adoro.",
+            "zh": "朋友让你推荐一位作家。你说：他是一位作家，他的书我都特别喜欢。"
+          },
+          "accepted": [
+            "Es un escritor cuyos libros me encantan."
+          ],
+          "tiles": [
+            "Es un escritor",
+            "cuyos",
+            "libros",
+            "me encantan",
+            "cuyo",
+            "me encanta"
+          ],
+          "en": "He's a writer whose books I love.",
+          "it": "È uno scrittore i cui libri adoro.",
+          "uk": "Це письменник, книжки якого я обожнюю.",
+          "de": "Er ist ein Schriftsteller, dessen Bücher ich liebe.",
+          "fr": "C'est un écrivain dont j'adore les livres.",
+          "pt": "É um escritor cujos livros eu adoro.",
+          "zh": "他是一位作家，他的书我都特别喜欢。",
+          "hint": {
+            "en": "libros is masculine plural: cuyos; and me encantan.",
+            "it": "libros è maschile plurale: cuyos; e me encantan.",
+            "uk": "libros — чоловічий рід, множина: cuyos; і me encantan.",
+            "de": "libros ist maskulin Plural: cuyos; und me encantan.",
+            "fr": "libros est masculin pluriel : cuyos ; et me encantan.",
+            "pt": "libros é masculino plural: cuyos; e me encantan.",
+            "zh": "libros 是阳性复数：cuyos；还有 me encantan。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "el amigo",
+              "kind": "chunk"
+            },
+            {
+              "text": "en",
+              "kind": "rail"
+            },
+            {
+              "text": "cuya",
+              "kind": "rail"
+            },
+            {
+              "text": "casa",
+              "kind": "chunk"
+            },
+            {
+              "text": "dormimos",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "A preposition goes right before cuyo: el amigo en cuya casa dormimos (the friend whose house we slept at).",
+            "it": "La preposizione va subito prima di cuyo: el amigo en cuya casa dormimos (l'amico a casa del quale abbiamo dormito).",
+            "uk": "Прийменник ставиться одразу перед cuyo: el amigo en cuya casa dormimos (друг, у домі якого ми ночували).",
+            "de": "Die Präposition steht direkt vor cuyo: el amigo en cuya casa dormimos (der Freund, in dessen Haus wir geschlafen haben).",
+            "fr": "La préposition se place juste avant cuyo : el amigo en cuya casa dormimos (l'ami chez qui nous avons dormi).",
+            "pt": "A preposição vem logo antes de cuyo, como em português: el amigo en cuya casa dormimos (o amigo em cuja casa dormimos).",
+            "zh": "介词直接放在 cuyo 前面：el amigo en cuya casa dormimos（我们在他家睡过的那个朋友）。"
+          },
+          "examples": [
+            {
+              "es": "Es el amigo en cuya casa dormimos.",
+              "en": "He's the friend whose house we slept at.",
+              "it": "È l'amico a casa del quale abbiamo dormito.",
+              "uk": "Це друг, у домі якого ми ночували.",
+              "de": "Er ist der Freund, in dessen Haus wir geschlafen haben.",
+              "fr": "C'est l'ami chez qui nous avons dormi.",
+              "pt": "É o amigo em cuja casa dormimos.",
+              "zh": "他就是我们在他家睡过的那个朋友。"
+            },
+            {
+              "es": "Son los vecinos de cuyo perro te hablé.",
+              "en": "They're the neighbours whose dog I told you about.",
+              "it": "Sono i vicini del cui cane ti ho parlato.",
+              "uk": "Це сусіди, про собаку яких я тобі розповідав(-ла).",
+              "de": "Das sind die Nachbarn, von deren Hund ich dir erzählt habe.",
+              "fr": "Ce sont les voisins à qui appartient le chien dont je t'ai parlé.",
+              "pt": "São os vizinhos de cujo cachorro eu te falei.",
+              "zh": "他们就是我跟你说过的那家养狗的邻居。"
+            },
+            {
+              "es": "Es la señora con cuyo hijo estudié.",
+              "en": "She's the lady whose son I studied with.",
+              "it": "È la signora con il cui figlio ho studiato.",
+              "uk": "Це пані, з сином якої я навчався(-лася).",
+              "de": "Sie ist die Frau, mit deren Sohn ich studiert habe.",
+              "fr": "C'est la dame avec le fils de laquelle j'ai étudié.",
+              "pt": "É a senhora com cujo filho eu estudei.",
+              "zh": "她就是那位女士，我和她儿子一起上过学。"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Es el amigo en ",
+          "after": " casa dormimos en Roma.",
+          "options": [
+            "cuya",
+            "cuyo",
+            "que"
+          ],
+          "answer": "cuya",
+          "en": "He's the friend whose house we slept at in Rome.",
+          "it": "È l'amico a casa del quale abbiamo dormito a Roma.",
+          "uk": "Це друг, у домі якого ми ночували в Римі.",
+          "de": "Er ist der Freund, in dessen Haus wir in Rom geschlafen haben.",
+          "fr": "C'est l'ami chez qui nous avons dormi à Rome.",
+          "pt": "É o amigo em cuja casa dormimos em Roma.",
+          "zh": "他就是我们在罗马时在他家睡过的那个朋友。",
+          "hint": {
+            "en": "casa is feminine: en cuya casa.",
+            "it": "casa è femminile: en cuya casa.",
+            "uk": "casa жіночого роду: en cuya casa.",
+            "de": "casa ist feminin: en cuya casa.",
+            "fr": "casa est féminin : en cuya casa.",
+            "pt": "casa é feminino: en cuya casa.",
+            "zh": "casa 是阴性：en cuya casa。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "A dog is barking on the stairs and your partner asks whose it is. Say: they're the neighbours whose dog I told you about.",
+            "it": "Un cane abbaia sulle scale e il tuo compagno chiede di chi è. Rispondi: sono i vicini del cui cane ti ho parlato.",
+            "uk": "На сходах гавкає собака, і твій партнер питає, чия вона. Скажи: це сусіди, про собаку яких я тобі розповідав(-ла).",
+            "de": "Im Treppenhaus bellt ein Hund und dein Partner fragt, wem er gehört. Sag: Das sind die Nachbarn, von deren Hund ich dir erzählt habe.",
+            "fr": "Un chien aboie dans l'escalier et ton ou ta partenaire te demande à qui il est. Réponds : ce sont les voisins à qui appartient le chien dont je t'ai parlé.",
+            "pt": "Um cachorro está latindo na escada e o seu companheiro pergunta de quem é. Diga: são os vizinhos de cujo cachorro eu te falei.",
+            "zh": "楼梯上有条狗在叫，你的伴侣问是谁家的。你说：他们就是我跟你说过的那家养狗的邻居。"
+          },
+          "accepted": [
+            "Son los vecinos de cuyo perro te hablé.",
+            "Es de los vecinos de cuyo perro te hablé."
+          ],
+          "tiles": [
+            "Son los vecinos",
+            "de",
+            "cuyo",
+            "perro",
+            "te hablé",
+            "cuyos",
+            "que"
+          ],
+          "en": "They're the neighbours whose dog I told you about.",
+          "it": "Sono i vicini del cui cane ti ho parlato.",
+          "uk": "Це сусіди, про собаку яких я тобі розповідав(-ла).",
+          "de": "Das sind die Nachbarn, von deren Hund ich dir erzählt habe.",
+          "fr": "Ce sont les voisins à qui appartient le chien dont je t'ai parlé.",
+          "pt": "São os vizinhos de cujo cachorro eu te falei.",
+          "zh": "他们就是我跟你说过的那家养狗的邻居。",
+          "hint": {
+            "en": "hablar de: de goes before cuyo; perro is masculine: cuyo.",
+            "it": "hablar de: de va prima di cuyo; perro è maschile: cuyo.",
+            "uk": "hablar de: de стоїть перед cuyo; perro чоловічого роду: cuyo.",
+            "de": "hablar de: de steht vor cuyo; perro ist maskulin: cuyo.",
+            "fr": "hablar de : de se met avant cuyo ; perro est masculin : cuyo.",
+            "pt": "hablar de: de vem antes de cuyo; perro é masculino: cuyo.",
+            "zh": "hablar de：de 放在 cuyo 前面；perro 是阳性：cuyo。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "Tengo una compañera ",
+          "after": " hijos estudian en Londres.",
+          "options": [
+            "cuyos",
+            "cuya",
+            "cuyas"
+          ],
+          "answer": "cuyos",
+          "en": "I have a colleague whose children are studying in London.",
+          "it": "Ho una collega i cui figli studiano a Londra.",
+          "uk": "У мене є колега, діти якої навчаються в Лондоні.",
+          "de": "Ich habe eine Kollegin, deren Kinder in London studieren.",
+          "fr": "J'ai une collègue dont les enfants font leurs études à Londres.",
+          "pt": "Tenho um colega cujos filhos estudam em Londres.",
+          "zh": "我有一个同事，她的孩子们在伦敦上学。",
+          "hint": {
+            "en": "It matches hijos, not the colleague: cuyos.",
+            "it": "Va d'accordo con hijos, non con la collega: cuyos.",
+            "uk": "Узгоджується з hijos, а не з колегою: cuyos.",
+            "de": "Es passt zu hijos, nicht zur Kollegin: cuyos.",
+            "fr": "Il s'accorde avec hijos, pas avec la collègue : cuyos.",
+            "pt": "Concorda com hijos, não com o colega: cuyos.",
+            "zh": "跟 hijos 一致，不跟同事一致：cuyos。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "Es un escritor ",
+          "after": " novelas me encantan.",
+          "options": [
+            "cuyas",
+            "cuyos",
+            "cuya"
+          ],
+          "answer": "cuyas",
+          "en": "He's a writer whose novels I love.",
+          "it": "È uno scrittore i cui romanzi adoro.",
+          "uk": "Це письменник, романи якого я обожнюю.",
+          "de": "Er ist ein Schriftsteller, dessen Romane ich liebe.",
+          "fr": "C'est un écrivain dont j'adore les romans.",
+          "pt": "É um escritor cujos romances eu adoro.",
+          "zh": "他是一位作家，他的小说我都特别喜欢。",
+          "hint": {
+            "en": "novelas is feminine plural: cuyas.",
+            "it": "novelas è femminile plurale: cuyas.",
+            "uk": "novelas — жіночий рід, множина: cuyas.",
+            "de": "novelas ist feminin Plural: cuyas.",
+            "fr": "novelas est féminin pluriel : cuyas.",
+            "pt": "novelas é feminino plural: cuyas.",
+            "zh": "novelas 是阴性复数：cuyas。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "mix",
+          "intention": {
+            "en": "A friend asks who's singing on the radio. Say: she's a singer whose music I listen to every day.",
+            "it": "Un amico ti chiede chi sta cantando alla radio. Rispondi: è una cantante la cui musica ascolto tutti i giorni.",
+            "uk": "Друг питає, хто співає по радіо. Скажи: це співачка, музику якої я слухаю щодня.",
+            "de": "Ein Freund fragt dich, wer im Radio singt. Sag: Sie ist eine Sängerin, deren Musik ich jeden Tag höre.",
+            "fr": "Un ami te demande qui chante à la radio. Réponds : c'est une chanteuse dont j'écoute la musique tous les jours.",
+            "pt": "Um amigo pergunta quem está cantando no rádio. Diga: é uma cantora cuja música eu escuto todos os dias.",
+            "zh": "朋友问你收音机里唱歌的是谁。你说：她是一位歌手，她的歌我每天都听。"
+          },
+          "accepted": [
+            "Es una cantante cuya música escucho todos los días.",
+            "Es una cantante cuya música escucho cada día."
+          ],
+          "tiles": [
+            "Es una cantante",
+            "cuya",
+            "música",
+            "escucho",
+            "todos los días",
+            "cuyo",
+            "que"
+          ],
+          "en": "She's a singer whose music I listen to every day.",
+          "it": "È una cantante la cui musica ascolto tutti i giorni.",
+          "uk": "Це співачка, музику якої я слухаю щодня.",
+          "de": "Sie ist eine Sängerin, deren Musik ich jeden Tag höre.",
+          "fr": "C'est une chanteuse dont j'écoute la musique tous les jours.",
+          "pt": "É uma cantora cuja música eu escuto todos os dias.",
+          "zh": "她是一位歌手，她的歌我每天都听。",
+          "hint": {
+            "en": "música is feminine: cuya.",
+            "it": "música è femminile: cuya.",
+            "uk": "música жіночого роду: cuya.",
+            "de": "música ist feminin: cuya.",
+            "fr": "música est féminin : cuya.",
+            "pt": "música é feminino: cuya.",
+            "zh": "música 是阴性：cuya。"
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "A friend asks if you know any singers. Write in Spanish: «I have a neighbour whose daughter is a singer.»",
+            "it": "Un amico ti chiede se conosci qualche cantante. Scrivi in spagnolo: «Ho un vicino la cui figlia è cantante.»",
+            "uk": "Друг питає, чи знаєш ти якихось співаків. Напиши іспанською: «У мене є сусід, донька якого — співачка.»",
+            "de": "Ein Freund fragt dich, ob du Sänger kennst. Schreib auf Spanisch: «Ich habe einen Nachbarn, dessen Tochter Sängerin ist.»",
+            "fr": "Un ami te demande si tu connais des chanteurs. Écris en espagnol : «J'ai un voisin dont la fille est chanteuse.»",
+            "pt": "Um amigo pergunta se você conhece algum cantor. Escreva em espanhol: «Tenho um vizinho cuja filha é cantora.»",
+            "zh": "朋友问你认不认识什么歌手。用西班牙语写：«我有一个邻居，他的女儿是歌手。»"
+          },
+          "accepted": [
+            "Tengo un vecino cuya hija es cantante.",
+            "Yo tengo un vecino cuya hija es cantante."
+          ],
+          "model": {
+            "es": "Tengo un vecino cuya hija es cantante.",
+            "en": "I have a neighbour whose daughter is a singer.",
+            "it": "Ho un vicino la cui figlia è cantante.",
+            "uk": "У мене є сусід, донька якого — співачка.",
+            "de": "Ich habe einen Nachbarn, dessen Tochter Sängerin ist.",
+            "fr": "J'ai un voisin dont la fille est chanteuse.",
+            "pt": "Tenho um vizinho cuja filha é cantora.",
+            "zh": "我有一个邻居，他的女儿是歌手。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u39l5",
+      "goal": {
+        "en": "Describe someone or something you're looking for, that may not exist, with que + the subjunctive: busco a alguien que hable inglés, no conozco a nadie que viva aquí, ¿conoces algún bar que abra los lunes?",
+        "it": "Descrivi qualcuno o qualcosa che cerchi e che forse non esiste, con que + il congiuntivo: busco a alguien que hable inglés, no conozco a nadie que viva aquí, ¿conoces algún bar que abra los lunes?",
+        "uk": "Описуй когось або щось, що ти шукаєш і чого, можливо, не існує, за допомогою que + «subjuntivo»: busco a alguien que hable inglés, no conozco a nadie que viva aquí, ¿conoces algún bar que abra los lunes?",
+        "de": "Beschreibe jemanden oder etwas, den / das du suchst und den / das es vielleicht gar nicht gibt, mit que + subjuntivo (spanischer Konjunktiv): busco a alguien que hable inglés, no conozco a nadie que viva aquí, ¿conoces algún bar que abra los lunes?",
+        "fr": "Décris quelqu'un ou quelque chose que tu cherches et qui n'existe peut-être pas, avec que + le subjonctif : busco a alguien que hable inglés, no conozco a nadie que viva aquí, ¿conoces algún bar que abra los lunes?",
+        "pt": "Descreva alguém ou algo que você está procurando, e que talvez nem exista, com que + subjuntivo, como em português: busco a alguien que hable inglés, no conozco a nadie que viva aquí, ¿conoces algún bar que abra los lunes?",
+        "zh": "用 que + 虚拟式来描述你在找的、可能并不存在的人或东西：busco a alguien que hable inglés，no conozco a nadie que viva aquí，¿conoces algún bar que abra los lunes?"
+      },
+      "target": {
+        "es": "Busco a alguien que hable inglés.",
+        "en": "I'm looking for someone who speaks English.",
+        "it": "Cerco qualcuno che parli inglese.",
+        "uk": "Я шукаю когось, хто розмовляє англійською.",
+        "de": "Ich suche jemanden, der Englisch spricht.",
+        "fr": "Je cherche quelqu'un qui parle anglais.",
+        "pt": "Estou procurando alguém que fale inglês.",
+        "zh": "我在找一个会说英语的人。"
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "alguien",
+              "en": "someone, anyone",
+              "it": "qualcuno",
+              "uk": "хтось, будь-хто",
+              "de": "jemand, irgendjemand",
+              "fr": "quelqu'un",
+              "pt": "alguém",
+              "zh": "某人，有人",
+              "kind": "chunk"
+            },
+            {
+              "es": "aparcar",
+              "en": "to park",
+              "it": "parcheggiare",
+              "uk": "паркуватися",
+              "de": "parken",
+              "fr": "se garer",
+              "pt": "estacionar",
+              "zh": "停车",
+              "kind": "stem"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "busco a alguien",
+              "kind": "chunk"
+            },
+            {
+              "text": "que",
+              "kind": "rail"
+            },
+            {
+              "text": "hable",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "If the person or thing is real and you know it, the verb after que is normal: tengo un amigo que habla inglés. If you're looking for one and don't know if it exists, use the subjunctive: busco a alguien que hable inglés.",
+            "it": "Se la persona o la cosa esiste e la conosci, dopo que il verbo è normale: tengo un amigo que habla inglés. Se la cerchi e non sai se esiste, usa il congiuntivo: busco a alguien que hable inglés.",
+            "uk": "Якщо людина чи річ існує і ти її знаєш, дієслово після que звичайне: tengo un amigo que habla inglés. Якщо ти її шукаєш і не знаєш, чи вона існує, вживай «subjuntivo»: busco a alguien que hable inglés.",
+            "de": "Wenn es die Person oder Sache wirklich gibt und du sie kennst, steht nach que das normale Verb: tengo un amigo que habla inglés. Wenn du so jemanden suchst und nicht weißt, ob es ihn gibt, nimm den subjuntivo: busco a alguien que hable inglés. Im Deutschen bleibt das Verb in beiden Fällen gleich.",
+            "fr": "Si la personne ou la chose existe et que tu la connais, le verbe après que est normal : tengo un amigo que habla inglés. Si tu la cherches sans savoir si elle existe, utilise le subjonctif : busco a alguien que hable inglés. Le français fait pareil dans un style soigné (« je cherche un appartement qui ait un balcon »), mais en espagnol, c'est obligatoire, même à l'oral.",
+            "pt": "Se a pessoa ou a coisa é real e você a conhece, o verbo depois de que é normal: tengo un amigo que habla inglés. Se você está procurando e não sabe se existe, use o subjuntivo, exatamente como em português: busco a alguien que hable inglés (procuro alguém que fale inglês).",
+            "zh": "如果这个人或东西确实存在，而且你知道，que 后面的动词用普通形式：tengo un amigo que habla inglés。如果你在找，又不知道有没有，就用虚拟式：busco a alguien que hable inglés。"
+          },
+          "examples": [
+            {
+              "es": "Busco a alguien que hable inglés.",
+              "en": "I'm looking for someone who speaks English.",
+              "it": "Cerco qualcuno che parli inglese.",
+              "uk": "Я шукаю когось, хто розмовляє англійською.",
+              "de": "Ich suche jemanden, der Englisch spricht.",
+              "fr": "Je cherche quelqu'un qui parle anglais.",
+              "pt": "Estou procurando alguém que fale inglês.",
+              "zh": "我在找一个会说英语的人。"
+            },
+            {
+              "es": "Necesito un piso que tenga balcón.",
+              "en": "I need a flat with a balcony.",
+              "it": "Mi serve un appartamento che abbia il balcone.",
+              "uk": "Мені потрібна квартира з балконом.",
+              "de": "Ich brauche eine Wohnung mit Balkon.",
+              "fr": "J'ai besoin d'un appartement qui ait un balcon.",
+              "pt": "Preciso de um apartamento que tenha varanda.",
+              "zh": "我需要一套带阳台的公寓。"
+            },
+            {
+              "es": "Tengo un amigo que sabe arreglar coches.",
+              "en": "I have a friend who knows how to fix cars.",
+              "it": "Ho un amico che sa riparare le macchine.",
+              "uk": "У мене є друг, який уміє ремонтувати машини.",
+              "de": "Ich habe einen Freund, der Autos reparieren kann.",
+              "fr": "J'ai un ami qui sait réparer les voitures.",
+              "pt": "Tenho um amigo que sabe consertar carros.",
+              "zh": "我有一个会修车的朋友。"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Necesito un ordenador que ",
+          "after": " más rápido.",
+          "options": [
+            "sea",
+            "es",
+            "fue"
+          ],
+          "answer": "sea",
+          "en": "I need a computer that's faster.",
+          "it": "Mi serve un computer che sia più veloce.",
+          "uk": "Мені потрібен комп'ютер, який був би швидшим.",
+          "de": "Ich brauche einen Computer, der schneller ist.",
+          "fr": "J'ai besoin d'un ordinateur qui soit plus rapide.",
+          "pt": "Preciso de um computador que seja mais rápido.",
+          "zh": "我需要一台更快的电脑。",
+          "hint": {
+            "en": "You don't have it yet: the subjunctive, sea.",
+            "it": "Non ce l'hai ancora: il congiuntivo, sea.",
+            "uk": "У тебе його ще немає: «subjuntivo», sea.",
+            "de": "Du hast ihn noch nicht: subjuntivo, sea.",
+            "fr": "Tu ne l'as pas encore : le subjonctif, sea.",
+            "pt": "Você ainda não o tem: subjuntivo, sea.",
+            "zh": "你还没有这样的电脑：用虚拟式，sea。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "At work you need help with an email in English. Tell your colleagues: I'm looking for someone who speaks English.",
+            "it": "Al lavoro ti serve aiuto con un'email in inglese. Di' ai tuoi colleghi: cerco qualcuno che parli inglese.",
+            "uk": "На роботі тобі потрібна допомога з листом англійською. Скажи колегам: я шукаю когось, хто розмовляє англійською.",
+            "de": "Bei der Arbeit brauchst du Hilfe mit einer E-Mail auf Englisch. Sag zu deinen Kollegen: Ich suche jemanden, der Englisch spricht.",
+            "fr": "Au travail, tu as besoin d'aide pour un e-mail en anglais. Dis à tes collègues : je cherche quelqu'un qui parle anglais.",
+            "pt": "No trabalho, você precisa de ajuda com um e-mail em inglês. Diga aos seus colegas: estou procurando alguém que fale inglês.",
+            "zh": "上班时你需要人帮你写一封英文邮件。你对同事们说：我在找一个会说英语的人。"
+          },
+          "accepted": [
+            "Busco a alguien que hable inglés.",
+            "Necesito a alguien que hable inglés.",
+            "Estoy buscando a alguien que hable inglés."
+          ],
+          "tiles": [
+            "Busco",
+            "a alguien",
+            "que",
+            "hable",
+            "inglés",
+            "habla",
+            "hablo"
+          ],
+          "en": "I'm looking for someone who speaks English.",
+          "it": "Cerco qualcuno che parli inglese.",
+          "uk": "Я шукаю когось, хто розмовляє англійською.",
+          "de": "Ich suche jemanden, der Englisch spricht.",
+          "fr": "Je cherche quelqu'un qui parle anglais.",
+          "pt": "Estou procurando alguém que fale inglês.",
+          "zh": "我在找一个会说英语的人。",
+          "hint": {
+            "en": "You don't know if that person exists: hable.",
+            "it": "Non sai se quella persona esiste: hable.",
+            "uk": "Ти не знаєш, чи така людина існує: hable.",
+            "de": "Du weißt nicht, ob es diese Person gibt: hable.",
+            "fr": "Tu ne sais pas si cette personne existe : hable.",
+            "pt": "Você não sabe se essa pessoa existe: hable.",
+            "zh": "你不知道有没有这样的人：hable。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "no conozco a nadie",
+              "kind": "chunk"
+            },
+            {
+              "text": "que",
+              "kind": "rail"
+            },
+            {
+              "text": "viva",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "After no conozco a nadie que or no hay nada que, the verb is in the subjunctive too: that person or thing doesn't exist.",
+            "it": "Dopo no conozco a nadie que o no hay nada que, anche lì il verbo va al congiuntivo: quella persona o quella cosa non esiste.",
+            "uk": "Після no conozco a nadie que або no hay nada que дієслово теж стоїть у «subjuntivo»: такої людини чи речі не існує.",
+            "de": "Nach no conozco a nadie que oder no hay nada que steht das Verb ebenfalls im subjuntivo: Diese Person oder Sache gibt es nicht.",
+            "fr": "Après no conozco a nadie que ou no hay nada que, le verbe est aussi au subjonctif : cette personne ou cette chose n'existe pas. Comme en français : « il n'y a rien qui me plaise ».",
+            "pt": "Depois de no conozco a nadie que ou no hay nada que, o verbo também vai para o subjuntivo: essa pessoa ou coisa não existe.",
+            "zh": "在 no conozco a nadie que 或 no hay nada que 后面，动词也用虚拟式：因为这样的人或东西不存在。"
+          },
+          "examples": [
+            {
+              "es": "No conozco a nadie que viva aquí.",
+              "en": "I don't know anyone who lives here.",
+              "it": "Non conosco nessuno che viva qui.",
+              "uk": "Я не знаю нікого, хто б тут жив.",
+              "de": "Ich kenne niemanden, der hier wohnt.",
+              "fr": "Je ne connais personne qui habite ici.",
+              "pt": "Não conheço ninguém que more aqui.",
+              "zh": "我不认识住在这里的人。"
+            },
+            {
+              "es": "En esta carta no hay nada que me guste.",
+              "en": "There's nothing on this menu I like.",
+              "it": "In questo menù non c'è niente che mi piaccia.",
+              "uk": "У цьому меню немає нічого, що б мені подобалося.",
+              "de": "Auf dieser Speisekarte gibt es nichts, was mir schmeckt.",
+              "fr": "Sur cette carte, il n'y a rien qui me plaise.",
+              "pt": "Neste cardápio não tem nada de que eu goste.",
+              "zh": "这份菜单上没有一样我喜欢的。"
+            },
+            {
+              "es": "No hay nadie que me pueda ayudar.",
+              "en": "There's no one who can help me.",
+              "it": "Non c'è nessuno che mi possa aiutare.",
+              "uk": "Немає нікого, хто міг би мені допомогти.",
+              "de": "Es gibt niemanden, der mir helfen kann.",
+              "fr": "Il n'y a personne qui puisse m'aider.",
+              "pt": "Não há ninguém que possa me ajudar.",
+              "zh": "没有人能帮我。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "viva",
+              "en": "(that) I / he / she live(s): subjunctive",
+              "it": "(che io / lui / lei) viva",
+              "uk": "(щоб) я / він / вона жив(-ла): «subjuntivo»",
+              "de": "(dass) ich / er / sie wohne: subjuntivo",
+              "fr": "(que je / qu'il / qu'elle) vive : subjonctif",
+              "pt": "(que) eu / ele / ela viva, more: subjuntivo",
+              "zh": "（我／他／她）住：虚拟式"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "No conozco a nadie que ",
+          "after": " en este barrio.",
+          "options": [
+            "viva",
+            "vive",
+            "vivía"
+          ],
+          "answer": "viva",
+          "en": "I don't know anyone who lives in this neighbourhood.",
+          "it": "Non conosco nessuno che viva in questo quartiere.",
+          "uk": "Я не знаю нікого, хто б жив у цьому районі.",
+          "de": "Ich kenne niemanden, der in diesem Viertel wohnt.",
+          "fr": "Je ne connais personne qui habite dans ce quartier.",
+          "pt": "Não conheço ninguém que more neste bairro.",
+          "zh": "我不认识住在这个街区的人。",
+          "hint": {
+            "en": "No one like that exists: the subjunctive, viva.",
+            "it": "Nessuno così esiste: il congiuntivo, viva.",
+            "uk": "Такої людини не існує: «subjuntivo», viva.",
+            "de": "So jemanden gibt es nicht: subjuntivo, viva.",
+            "fr": "Personne comme ça n'existe : le subjonctif, viva.",
+            "pt": "Não existe ninguém assim: subjuntivo, viva.",
+            "zh": "这样的人不存在：用虚拟式，viva。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "fire",
+          "before": "En esta carta no hay nada que me ",
+          "after": ".",
+          "label": "gustar",
+          "accepted": [
+            "guste"
+          ],
+          "en": "There's nothing on this menu I like.",
+          "it": "In questo menù non c'è niente che mi piaccia.",
+          "uk": "У цьому меню немає нічого, що б мені подобалося.",
+          "de": "Auf dieser Speisekarte gibt es nichts, was mir schmeckt.",
+          "fr": "Sur cette carte, il n'y a rien qui me plaise.",
+          "pt": "Neste cardápio não tem nada de que eu goste.",
+          "zh": "这份菜单上没有一样我喜欢的。",
+          "hint": {
+            "en": "no hay nada que + the subjunctive: guste.",
+            "it": "no hay nada que + il congiuntivo: guste.",
+            "uk": "no hay nada que + «subjuntivo»: guste.",
+            "de": "no hay nada que + subjuntivo: guste.",
+            "fr": "no hay nada que + le subjonctif : guste.",
+            "pt": "no hay nada que + subjuntivo: guste.",
+            "zh": "no hay nada que + 虚拟式：guste。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "¿conoces algún bar",
+              "kind": "chunk"
+            },
+            {
+              "text": "que",
+              "kind": "rail"
+            },
+            {
+              "text": "abra",
+              "kind": "stem"
+            },
+            {
+              "text": "los lunes?",
+              "kind": "time"
+            }
+          ],
+          "rule": {
+            "en": "Use the subjunctive also when you ask whether something exists: ¿hay alguien que sepa…?, ¿conoces algún bar que abra los lunes?",
+            "it": "Usa il congiuntivo anche quando chiedi se qualcosa esiste: ¿hay alguien que sepa…?, ¿conoces algún bar que abra los lunes?",
+            "uk": "Вживай «subjuntivo» також тоді, коли питаєш, чи щось існує: ¿hay alguien que sepa…?, ¿conoces algún bar que abra los lunes?",
+            "de": "Nimm den subjuntivo auch, wenn du fragst, ob es etwas gibt: ¿hay alguien que sepa…?, ¿conoces algún bar que abra los lunes?",
+            "fr": "Utilise aussi le subjonctif quand tu demandes si quelque chose existe : ¿hay alguien que sepa…?, ¿conoces algún bar que abra los lunes? Ici, le français garde souvent l'indicatif (« tu connais un bar qui ouvre le lundi ? »), mais l'espagnol veut le subjonctif.",
+            "pt": "Use o subjuntivo também quando você pergunta se algo existe: ¿hay alguien que sepa…?, ¿conoces algún bar que abra los lunes?",
+            "zh": "问某样东西存不存在时，也用虚拟式：¿hay alguien que sepa…?，¿conoces algún bar que abra los lunes?"
+          },
+          "examples": [
+            {
+              "es": "¿Hay alguien aquí que sepa inglés?",
+              "en": "Is there anyone here who speaks English?",
+              "it": "C'è qualcuno qui che sappia l'inglese?",
+              "uk": "Тут є хтось, хто знає англійську?",
+              "de": "Gibt es hier jemanden, der Englisch kann?",
+              "fr": "Il y a quelqu'un ici qui parle anglais ?",
+              "pt": "Tem alguém aqui que saiba inglês?",
+              "zh": "这里有人会说英语吗？"
+            },
+            {
+              "es": "¿Conoces algún restaurante que abra los lunes?",
+              "en": "Do you know a restaurant that opens on Mondays?",
+              "it": "Conosci un ristorante che apra il lunedì?",
+              "uk": "Ти знаєш якийсь ресторан, що працює по понеділках?",
+              "de": "Kennst du ein Restaurant, das montags aufhat?",
+              "fr": "Tu connais un restaurant qui ouvre le lundi ?",
+              "pt": "Você conhece algum restaurante que abra às segundas?",
+              "zh": "你知道哪家餐厅周一开门吗？"
+            },
+            {
+              "es": "¿Hay algún sitio donde pueda aparcar?",
+              "en": "Is there anywhere I can park?",
+              "it": "C'è un posto dove possa parcheggiare?",
+              "uk": "Тут є якесь місце, де можна припаркуватися?",
+              "de": "Gibt es hier irgendwo einen Platz, wo ich parken kann?",
+              "fr": "Il y a un endroit où je puisse me garer ?",
+              "pt": "Tem algum lugar onde eu possa estacionar?",
+              "zh": "有没有什么地方我可以停车？"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "abra",
+              "en": "(that) it open(s): subjunctive",
+              "it": "(che) apra",
+              "uk": "(щоб) відкривався(-лася): «subjuntivo»",
+              "de": "(dass) es öffne: subjuntivo",
+              "fr": "(qu'il / qu'elle) ouvre : subjonctif",
+              "pt": "(que) ele / ela abra: subjuntivo",
+              "zh": "（它）开门：虚拟式"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "¿Hay alguien aquí que ",
+          "after": " hablar inglés?",
+          "options": [
+            "sepa",
+            "sabe",
+            "supo"
+          ],
+          "answer": "sepa",
+          "en": "Is there anyone here who can speak English?",
+          "it": "C'è qualcuno qui che sappia parlare inglese?",
+          "uk": "Тут є хтось, хто вміє розмовляти англійською?",
+          "de": "Gibt es hier jemanden, der Englisch sprechen kann?",
+          "fr": "Il y a quelqu'un ici qui sache parler anglais ?",
+          "pt": "Tem alguém aqui que saiba falar inglês?",
+          "zh": "这里有人会说英语吗？",
+          "hint": {
+            "en": "You're asking if such a person exists: sepa.",
+            "it": "Chiedi se una persona così esiste: sepa.",
+            "uk": "Ти питаєш, чи така людина існує: sepa.",
+            "de": "Du fragst, ob es so jemanden gibt: sepa.",
+            "fr": "Tu demandes si une personne comme ça existe : sepa.",
+            "pt": "Você está perguntando se essa pessoa existe: sepa.",
+            "zh": "你在问有没有这样的人：sepa。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "It's Monday and many places are closed. Ask a friend: do you know a restaurant that opens on Mondays?",
+            "it": "È lunedì e molti locali sono chiusi. Chiedi a un amico: conosci un ristorante che apra il lunedì?",
+            "uk": "Сьогодні понеділок, і багато закладів зачинені. Спитай друга: ти знаєш якийсь ресторан, що працює по понеділках?",
+            "de": "Es ist Montag und viele Lokale haben zu. Frag einen Freund: Kennst du ein Restaurant, das montags aufhat?",
+            "fr": "C'est lundi et beaucoup d'endroits sont fermés. Demande à un ami : tu connais un restaurant qui ouvre le lundi ?",
+            "pt": "É segunda-feira e muitos lugares estão fechados. Pergunte a um amigo: você conhece algum restaurante que abra às segundas?",
+            "zh": "今天是周一，很多店都关门了。你问朋友：你知道哪家餐厅周一开门吗？"
+          },
+          "accepted": [
+            "¿Conoces algún restaurante que abra los lunes?",
+            "¿Conoces un restaurante que abra los lunes?",
+            "¿Sabes de algún restaurante que abra los lunes?"
+          ],
+          "tiles": [
+            "¿Conoces",
+            "algún restaurante",
+            "que",
+            "abra",
+            "los lunes?",
+            "abre",
+            "abrió"
+          ],
+          "en": "Do you know a restaurant that opens on Mondays?",
+          "it": "Conosci un ristorante che apra il lunedì?",
+          "uk": "Ти знаєш якийсь ресторан, що працює по понеділках?",
+          "de": "Kennst du ein Restaurant, das montags aufhat?",
+          "fr": "Tu connais un restaurant qui ouvre le lundi ?",
+          "pt": "Você conhece algum restaurante que abra às segundas?",
+          "zh": "你知道哪家餐厅周一开门吗？",
+          "hint": {
+            "en": "You don't know if one exists: abra.",
+            "it": "Non sai se ne esiste uno: abra.",
+            "uk": "Ти не знаєш, чи такий існує: abra.",
+            "de": "Du weißt nicht, ob es eins gibt: abra.",
+            "fr": "Tu ne sais pas s'il en existe un : abra.",
+            "pt": "Você não sabe se existe algum: abra.",
+            "zh": "你不知道有没有：abra。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "Tengo un amigo que ",
+          "after": " arreglar coches. ¿Te doy su número?",
+          "options": [
+            "sabe",
+            "sepa"
+          ],
+          "answer": "sabe",
+          "en": "I have a friend who knows how to fix cars. Shall I give you his number?",
+          "it": "Ho un amico che sa riparare le macchine. Ti do il suo numero?",
+          "uk": "У мене є друг, який уміє ремонтувати машини. Дати тобі його номер?",
+          "de": "Ich habe einen Freund, der Autos reparieren kann. Soll ich dir seine Nummer geben?",
+          "fr": "J'ai un ami qui sait réparer les voitures. Je te donne son numéro ?",
+          "pt": "Tenho um amigo que sabe consertar carros. Quer que eu te passe o número dele?",
+          "zh": "我有一个会修车的朋友。要我把他的电话给你吗？",
+          "hint": {
+            "en": "He's real and you know him: the normal verb, sabe.",
+            "it": "Esiste e lo conosci: il verbo normale, sabe.",
+            "uk": "Він існує, і ти його знаєш: звичайне дієслово, sabe.",
+            "de": "Es gibt ihn wirklich und du kennst ihn: das normale Verb, sabe.",
+            "fr": "Il existe et tu le connais : le verbe normal, sabe.",
+            "pt": "Ele é real e você o conhece: verbo normal, sabe.",
+            "zh": "他确实存在，你也认识他：用普通动词形式，sabe。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "¡Qué bueno! No conozco a nadie que ",
+          "after": " tan bien como tú.",
+          "options": [
+            "cocine",
+            "cocina",
+            "cocinó"
+          ],
+          "answer": "cocine",
+          "en": "This is so good! I don't know anyone who cooks as well as you.",
+          "it": "Che buono! Non conosco nessuno che cucini bene come te.",
+          "uk": "Як смачно! Я не знаю нікого, хто б готував так добре, як ти.",
+          "de": "Das ist so lecker! Ich kenne niemanden, der so gut kocht wie du.",
+          "fr": "C'est trop bon ! Je ne connais personne qui cuisine aussi bien que toi.",
+          "pt": "Que delícia! Não conheço ninguém que cozinhe tão bem quanto você.",
+          "zh": "太好吃了！我不认识哪个人做饭有你这么好。",
+          "hint": {
+            "en": "no conozco a nadie que + the subjunctive: cocine.",
+            "it": "no conozco a nadie que + il congiuntivo: cocine.",
+            "uk": "no conozco a nadie que + «subjuntivo»: cocine.",
+            "de": "no conozco a nadie que + subjuntivo: cocine.",
+            "fr": "no conozco a nadie que + le subjonctif : cocine.",
+            "pt": "no conozco a nadie que + subjuntivo: cocine.",
+            "zh": "no conozco a nadie que + 虚拟式：cocine。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "mix",
+          "intention": {
+            "en": "You're driving in the city centre. Ask a passer-by: is there anywhere around here I can park?",
+            "it": "Stai guidando in centro. Chiedi a un passante: c'è un posto qui vicino dove possa parcheggiare?",
+            "uk": "Ти їдеш машиною в центрі міста. Спитай перехожого: тут поблизу є якесь місце, де можна припаркуватися?",
+            "de": "Du fährst mit dem Auto durchs Stadtzentrum. Frag einen Passanten: Gibt es hier in der Nähe einen Platz, wo ich parken kann?",
+            "fr": "Tu conduis dans le centre-ville. Demande à un passant : il y a un endroit près d'ici où je puisse me garer ?",
+            "pt": "Você está dirigindo no centro da cidade. Pergunte a alguém que está passando: tem algum lugar por aqui onde eu possa estacionar?",
+            "zh": "你在市中心开车。你问一个路人：这附近有没有地方可以停车？"
+          },
+          "accepted": [
+            "¿Hay algún sitio por aquí donde pueda aparcar?",
+            "¿Hay algún sitio donde pueda aparcar por aquí?",
+            "¿Hay algún sitio por aquí donde se pueda aparcar?"
+          ],
+          "tiles": [
+            "¿Hay",
+            "algún sitio",
+            "por aquí",
+            "donde",
+            "pueda",
+            "aparcar?",
+            "puedo",
+            "dónde"
+          ],
+          "en": "Is there anywhere around here I can park?",
+          "it": "C'è un posto qui vicino dove possa parcheggiare?",
+          "uk": "Тут поблизу є якесь місце, де можна припаркуватися?",
+          "de": "Gibt es hier in der Nähe einen Platz, wo ich parken kann?",
+          "fr": "Il y a un endroit près d'ici où je puisse me garer ?",
+          "pt": "Tem algum lugar por aqui onde eu possa estacionar?",
+          "zh": "这附近有没有地方可以停车？",
+          "hint": {
+            "en": "You don't know if such a place exists: pueda.",
+            "it": "Non sai se un posto così esiste: pueda.",
+            "uk": "Ти не знаєш, чи таке місце існує: pueda.",
+            "de": "Du weißt nicht, ob es so einen Ort gibt: pueda.",
+            "fr": "Tu ne sais pas si un endroit comme ça existe : pueda.",
+            "pt": "Você não sabe se esse lugar existe: pueda.",
+            "zh": "你不知道有没有这样的地方：pueda。"
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "A friend asks what kind of flat you want. Write in Spanish: «I'm looking for a flat that has a balcony.»",
+            "it": "Un amico ti chiede che tipo di appartamento vuoi. Scrivi in spagnolo: «Cerco un appartamento che abbia il balcone.»",
+            "uk": "Друг питає, яку квартиру ти хочеш. Напиши іспанською: «Я шукаю квартиру з балконом.»",
+            "de": "Ein Freund fragt dich, was für eine Wohnung du willst. Schreib auf Spanisch: «Ich suche eine Wohnung, die einen Balkon hat.»",
+            "fr": "Un ami te demande quel genre d'appartement tu veux. Écris en espagnol : «Je cherche un appartement qui ait un balcon.»",
+            "pt": "Um amigo pergunta que tipo de apartamento você quer. Escreva em espanhol: «Estou procurando um apartamento que tenha varanda.»",
+            "zh": "朋友问你想要什么样的公寓。用西班牙语写：«我在找一套带阳台的公寓。»"
+          },
+          "accepted": [
+            "Busco un piso que tenga balcón.",
+            "Busco un piso que tenga un balcón.",
+            "Estoy buscando un piso que tenga balcón.",
+            "Estoy buscando un piso que tenga un balcón.",
+            "Yo busco un piso que tenga balcón."
+          ],
+          "model": {
+            "es": "Busco un piso que tenga balcón.",
+            "en": "I'm looking for a flat that has a balcony.",
+            "it": "Cerco un appartamento che abbia il balcone.",
+            "uk": "Я шукаю квартиру з балконом.",
+            "de": "Ich suche eine Wohnung, die einen Balkon hat.",
+            "fr": "Je cherche un appartement qui ait un balcon.",
+            "pt": "Estou procurando um apartamento que tenha varanda.",
+            "zh": "我在找一套带阳台的公寓。"
+          }
+        }
+      ]
+    }
+  ],
+  "boss": {
+    "id": "u39boss",
+    "goal": {
+      "en": "It's games night at a friend's flat in {city}. You draw a card and have to make your team guess the word on it without saying it. Describe each one: es una cosa que…, es un sitio donde…, es lo que…",
+      "it": "È la serata giochi a casa di un amico a {city}. Peschi una carta e devi far indovinare la parola alla tua squadra senza dirla. Descrivi ogni parola: es una cosa que…, es un sitio donde…, es lo que…",
+      "uk": "Вечір настільних ігор у друга вдома у місті {city}. Ти тягнеш картку і маєш зробити так, щоб твоя команда вгадала слово на ній, не називаючи його. Опиши кожне: es una cosa que…, es un sitio donde…, es lo que…",
+      "de": "Spieleabend in der Wohnung eines Freundes in {city}. Du ziehst eine Karte und musst dein Team das Wort darauf erraten lassen, ohne es zu sagen. Beschreib jedes Wort: es una cosa que…, es un sitio donde…, es lo que…",
+      "fr": "C'est la soirée jeux chez un ami à {city}. Tu tires une carte et tu dois faire deviner le mot à ton équipe sans le dire. Décris chaque mot : es una cosa que…, es un sitio donde…, es lo que…",
+      "pt": "É noite de jogos no apartamento de um amigo em {city}. Você tira uma carta e precisa fazer o seu time adivinhar a palavra sem dizê-la. Descreva cada uma: es una cosa que…, es un sitio donde…, es lo que…",
+      "zh": "今晚在{city}一个朋友家玩桌游。你抽一张卡片，要让你的队友猜出上面的词，但不能把词说出来。描述每一个词：es una cosa que…，es un sitio donde…，es lo que…"
+    },
+    "names": [
+      "Cervantes",
+      "Madrid",
+      "Sevilla"
+    ],
+    "items": [
+      {
+        "type": "words",
+        "words": [
+          {
+            "es": "adivinar",
+            "en": "to guess",
+            "it": "indovinare",
+            "uk": "вгадувати",
+            "de": "erraten",
+            "fr": "deviner",
+            "pt": "adivinhar",
+            "zh": "猜",
+            "kind": "stem"
+          },
+          {
+            "es": "la palabra",
+            "en": "the word",
+            "it": "la parola",
+            "uk": "слово",
+            "de": "das Wort",
+            "fr": "le mot",
+            "pt": "a palavra",
+            "zh": "词，单词",
+            "kind": "chunk"
+          },
+          {
+            "es": "el equipo",
+            "en": "the team",
+            "it": "la squadra",
+            "uk": "команда",
+            "de": "das Team, die Mannschaft",
+            "fr": "l'équipe",
+            "pt": "o time, a equipe",
+            "zh": "队，团队",
+            "kind": "chunk"
+          },
+          {
+            "es": "el autor",
+            "en": "the author",
+            "it": "l'autore",
+            "uk": "автор",
+            "de": "der Autor",
+            "fr": "l'auteur",
+            "pt": "o autor",
+            "zh": "作者",
+            "kind": "chunk"
+          }
+        ]
+      },
+      {
+        "type": "build",
+        "intention": {
+          "en": "Your card says «el paraguas». Tell your team: it's something you need when it rains.",
+          "it": "La tua carta dice «el paraguas». Di' alla tua squadra: è qualcosa che ti serve quando piove.",
+          "uk": "На твоїй картці написано «el paraguas». Скажи команді: це річ, яка тобі потрібна, коли йде дощ.",
+          "de": "Auf deiner Karte steht «el paraguas». Sag zu deinem Team: Das ist etwas, das man braucht, wenn es regnet.",
+          "fr": "Ta carte dit «el paraguas». Dis à ton équipe : c'est quelque chose dont tu as besoin quand il pleut.",
+          "pt": "A sua carta diz «el paraguas». Diga ao seu time: é uma coisa de que você precisa quando chove.",
+          "zh": "你的卡片上写着 «el paraguas»。告诉你的队友：这是下雨时你需要的东西。"
+        },
+        "accepted": [
+          "Es algo que necesitas cuando llueve."
+        ],
+        "tiles": [
+          "Es algo",
+          "que",
+          "necesitas",
+          "cuando llueve",
+          "donde",
+          "necesito"
+        ],
+        "en": "It's something you need when it rains.",
+        "it": "È qualcosa che ti serve quando piove.",
+        "uk": "Це річ, яка тобі потрібна, коли йде дощ.",
+        "de": "Das ist etwas, das man braucht, wenn es regnet.",
+        "fr": "C'est quelque chose dont tu as besoin quand il pleut.",
+        "pt": "É uma coisa de que você precisa quando chove.",
+        "zh": "这是下雨时你需要的东西。",
+        "hint": {
+          "en": "algo + que + a description.",
+          "it": "algo + que + una descrizione.",
+          "uk": "algo + que + опис.",
+          "de": "algo + que + eine Beschreibung.",
+          "fr": "algo + que + une description.",
+          "pt": "algo + que + uma descrição.",
+          "zh": "algo + que + 描述。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "Es un sitio ",
+        "after": " compras la comida de la semana.",
+        "options": [
+          "donde",
+          "cuando",
+          "como"
+        ],
+        "answer": "donde",
+        "en": "It's a place where you buy the food for the week.",
+        "it": "È un posto dove compri il cibo per la settimana.",
+        "uk": "Це місце, де ти купуєш продукти на тиждень.",
+        "de": "Das ist ein Ort, wo man das Essen für die Woche kauft.",
+        "fr": "C'est un endroit où tu achètes à manger pour la semaine.",
+        "pt": "É um lugar onde você compra a comida da semana.",
+        "zh": "这是你买一周吃的东西的地方。",
+        "hint": {
+          "en": "A place: donde. (el supermercado)",
+          "it": "Un luogo: donde. (el supermercado)",
+          "uk": "Місце: donde. (el supermercado)",
+          "de": "Ein Ort: donde. (el supermercado)",
+          "fr": "Un lieu : donde. (el supermercado)",
+          "pt": "Um lugar: donde. (el supermercado)",
+          "zh": "地点：donde。（el supermercado）"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "Es la persona ",
+        "after": " te trae la comida en un restaurante.",
+        "options": [
+          "que",
+          "quien",
+          "cuyo"
+        ],
+        "answer": "que",
+        "en": "It's the person who brings you your food in a restaurant.",
+        "it": "È la persona che ti porta da mangiare al ristorante.",
+        "uk": "Це людина, яка приносить тобі їжу в ресторані.",
+        "de": "Das ist die Person, die dir im Restaurant das Essen bringt.",
+        "fr": "C'est la personne qui t'apporte à manger au restaurant.",
+        "pt": "É a pessoa que traz a sua comida no restaurante.",
+        "zh": "这是在餐厅里给你上菜的人。",
+        "hint": {
+          "en": "No preposition: que. quien only goes after con, a, de… (el camarero)",
+          "it": "Senza preposizione: que. quien va solo dopo con, a, de… (el camarero)",
+          "uk": "Без прийменника: que. quien стоїть лише після con, a, de… (el camarero)",
+          "de": "Keine Präposition: que. quien steht nur nach con, a, de… (el camarero)",
+          "fr": "Pas de préposition : que. quien ne s'utilise qu'après con, a, de… (el camarero)",
+          "pt": "Sem preposição: que. quien só vem depois de con, a, de… (el camarero)",
+          "zh": "没有介词：que。quien 只用在 con、a、de……后面。（el camarero）"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "Es el mes en ",
+        "after": " mucha gente se va de vacaciones.",
+        "options": [
+          "el que",
+          "la que",
+          "lo que"
+        ],
+        "answer": "el que",
+        "en": "It's the month when lots of people go on holiday.",
+        "it": "È il mese in cui molta gente va in vacanza.",
+        "uk": "Це місяць, у який багато людей їде у відпустку.",
+        "de": "Das ist der Monat, in dem viele Leute in Urlaub fahren.",
+        "fr": "C'est le mois où beaucoup de gens partent en vacances.",
+        "pt": "É o mês em que muita gente sai de férias.",
+        "zh": "这是很多人去度假的月份。",
+        "hint": {
+          "en": "mes is masculine: en el que. (agosto)",
+          "it": "mes è maschile: en el que. (agosto)",
+          "uk": "mes чоловічого роду: en el que. (agosto)",
+          "de": "mes ist maskulin: en el que. (agosto)",
+          "fr": "mes est masculin : en el que. (agosto)",
+          "pt": "mes é masculino: en el que. (agosto)",
+          "zh": "mes 是阳性：en el que。（agosto）"
+        }
+      },
+      {
+        "type": "build",
+        "intention": {
+          "en": "Your card says «el médico». Tell your team: it's the person you go to when you're ill.",
+          "it": "La tua carta dice «el médico». Di' alla tua squadra: è la persona da cui vai quando sei malato.",
+          "uk": "На твоїй картці написано «el médico». Скажи команді: це людина, до якої ти йдеш, коли хворієш.",
+          "de": "Auf deiner Karte steht «el médico». Sag zu deinem Team: Das ist die Person, zu der man geht, wenn man krank ist.",
+          "fr": "Ta carte dit «el médico». Dis à ton équipe : c'est la personne chez qui tu vas quand tu es malade.",
+          "pt": "A sua carta diz «el médico». Diga ao seu time: é a pessoa a quem você recorre quando está doente.",
+          "zh": "你的卡片上写着 «el médico»。告诉你的队友：这是你生病时去找的人。"
+        },
+        "accepted": [
+          "Es la persona a la que vas cuando estás enfermo.",
+          "Es la persona a la que vas cuando estás enferma.",
+          "Es la persona a quien vas cuando estás enfermo.",
+          "Es la persona a quien vas cuando estás enferma."
+        ],
+        "tiles": [
+          "Es la persona",
+          "a",
+          "la que",
+          "vas",
+          "cuando",
+          "estás enfermo",
+          "el que",
+          "donde"
+        ],
+        "en": "It's the person you go to when you're ill.",
+        "it": "È la persona da cui vai quando sei malato.",
+        "uk": "Це людина, до якої ти йдеш, коли хворієш.",
+        "de": "Das ist die Person, zu der man geht, wenn man krank ist.",
+        "fr": "C'est la personne chez qui tu vas quand tu es malade.",
+        "pt": "É a pessoa a quem você recorre quando está doente.",
+        "zh": "这是你生病时去找的人。",
+        "hint": {
+          "en": "ir a + persona (feminine): a la que.",
+          "it": "ir a + persona (femminile): a la que.",
+          "uk": "ir a + persona (жіночого роду): a la que.",
+          "de": "ir a + persona (feminin): a la que.",
+          "fr": "ir a + persona (féminin) : a la que.",
+          "pt": "ir a + persona (feminino): a la que.",
+          "zh": "ir a + persona（阴性）：a la que。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "Es un libro ",
+        "after": " autor es Cervantes.",
+        "options": [
+          "cuyo",
+          "cuya",
+          "que"
+        ],
+        "answer": "cuyo",
+        "en": "It's a book whose author is Cervantes.",
+        "it": "È un libro il cui autore è Cervantes.",
+        "uk": "Це книжка, автор якої — Сервантес.",
+        "de": "Das ist ein Buch, dessen Autor Cervantes ist.",
+        "fr": "C'est un livre dont l'auteur est Cervantes.",
+        "pt": "É um livro cujo autor é Cervantes.",
+        "zh": "这是一本书，它的作者是塞万提斯。",
+        "hint": {
+          "en": "autor is masculine: cuyo. (el Quijote)",
+          "it": "autor è maschile: cuyo. (el Quijote)",
+          "uk": "autor чоловічого роду: cuyo. (el Quijote)",
+          "de": "autor ist maskulin: cuyo. (el Quijote)",
+          "fr": "autor est masculin : cuyo. (el Quijote)",
+          "pt": "autor é masculino: cuyo. (el Quijote)",
+          "zh": "autor 是阳性：cuyo。（el Quijote）"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "¡No, no! Escucha ",
+        "after": " digo.",
+        "options": [
+          "lo que",
+          "el que",
+          "que"
+        ],
+        "answer": "lo que",
+        "en": "No, no! Listen to what I'm saying.",
+        "it": "No, no! Ascolta quello che dico.",
+        "uk": "Ні, ні! Слухай, що я кажу.",
+        "de": "Nein, nein! Hör zu, was ich sage.",
+        "fr": "Mais non ! Écoute ce que je dis.",
+        "pt": "Não, não! Escutem o que eu estou dizendo.",
+        "zh": "不对，不对！听我说的话。",
+        "hint": {
+          "en": "What I'm saying, no noun: lo que.",
+          "it": "Quello che dico, senza nome: lo que.",
+          "uk": "Те, що я кажу, без іменника: lo que.",
+          "de": "Was ich sage, kein Nomen: lo que.",
+          "fr": "Ce que je dis, pas de nom : lo que.",
+          "pt": "O que eu estou dizendo, sem substantivo: lo que.",
+          "zh": "我说的话，没有名词：lo que。"
+        }
+      },
+      {
+        "type": "build",
+        "intention": {
+          "en": "Your card says «el diccionario». Tell your team: it's what you need when you don't know a word.",
+          "it": "La tua carta dice «el diccionario». Di' alla tua squadra: è quello che ti serve quando non conosci una parola.",
+          "uk": "На твоїй картці написано «el diccionario». Скажи команді: це те, що тобі потрібно, коли ти не знаєш слова.",
+          "de": "Auf deiner Karte steht «el diccionario». Sag zu deinem Team: Das ist das, was man braucht, wenn man ein Wort nicht kennt.",
+          "fr": "Ta carte dit «el diccionario». Dis à ton équipe : c'est ce dont tu as besoin quand tu ne connais pas un mot.",
+          "pt": "A sua carta diz «el diccionario». Diga ao seu time: é do que você precisa quando não conhece uma palavra.",
+          "zh": "你的卡片上写着 «el diccionario»。告诉你的队友：这是你不认识一个词时需要的东西。"
+        },
+        "accepted": [
+          "Es lo que necesitas cuando no conoces una palabra.",
+          "Es lo que necesitas cuando no sabes una palabra."
+        ],
+        "tiles": [
+          "Es",
+          "lo que",
+          "necesitas",
+          "cuando",
+          "no conoces",
+          "una palabra",
+          "el que",
+          "necesito"
+        ],
+        "en": "It's what you need when you don't know a word.",
+        "it": "È quello che ti serve quando non conosci una parola.",
+        "uk": "Це те, що тобі потрібно, коли ти не знаєш слова.",
+        "de": "Das ist das, was man braucht, wenn man ein Wort nicht kennt.",
+        "fr": "C'est ce dont tu as besoin quand tu ne connais pas un mot.",
+        "pt": "É do que você precisa quando não conhece uma palavra.",
+        "zh": "这是你不认识一个词时需要的东西。",
+        "hint": {
+          "en": "No noun, just an idea: lo que.",
+          "it": "Nessun nome, solo un'idea: lo que.",
+          "uk": "Немає іменника, лише думка: lo que.",
+          "de": "Kein Nomen, nur eine Idee: lo que.",
+          "fr": "Pas de nom, juste une idée : lo que.",
+          "pt": "Sem substantivo, só uma ideia: lo que.",
+          "zh": "没有名词，只有一个想法：lo que。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "Es lo que buscas cuando necesitas un sitio donde ",
+        "after": " dormir en otra ciudad.",
+        "options": [
+          "puedas",
+          "puedes",
+          "pudiste"
+        ],
+        "answer": "puedas",
+        "en": "It's what you look for when you need somewhere you can sleep in another city.",
+        "it": "È quello che cerchi quando ti serve un posto dove poter dormire in un'altra città.",
+        "uk": "Це те, що ти шукаєш, коли тобі потрібне місце, де можна переночувати в іншому місті.",
+        "de": "Das ist das, was man sucht, wenn man in einer anderen Stadt einen Ort zum Schlafen braucht.",
+        "fr": "C'est ce que tu cherches quand tu as besoin d'un endroit où tu puisses dormir dans une autre ville.",
+        "pt": "É o que você procura quando precisa de um lugar onde possa dormir em outra cidade.",
+        "zh": "这是你在另一个城市需要找个地方睡觉时要找的东西。",
+        "hint": {
+          "en": "Any place, not a known one: the subjunctive, puedas. (el hotel)",
+          "it": "Un posto qualsiasi, non uno che conosci: il congiuntivo, puedas. (el hotel)",
+          "uk": "Будь-яке місце, а не якесь відоме: «subjuntivo», puedas. (el hotel)",
+          "de": "Irgendein Ort, keiner, den du kennst: subjuntivo, puedas. (el hotel)",
+          "fr": "N'importe quel endroit, pas un que tu connais : le subjonctif, puedas. (el hotel)",
+          "pt": "Um lugar qualquer, não um que você conhece: subjuntivo, puedas. (el hotel)",
+          "zh": "随便哪个地方，不是你知道的某个地方：用虚拟式，puedas。（el hotel）"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "Es una persona ",
+        "after": " trabajo es cocinar en un restaurante.",
+        "options": [
+          "cuyo",
+          "cuya",
+          "que"
+        ],
+        "answer": "cuyo",
+        "en": "It's a person whose job is cooking in a restaurant.",
+        "it": "È una persona il cui lavoro è cucinare in un ristorante.",
+        "uk": "Це людина, робота якої — готувати в ресторані.",
+        "de": "Das ist eine Person, deren Arbeit es ist, in einem Restaurant zu kochen.",
+        "fr": "C'est une personne dont le travail est de cuisiner dans un restaurant.",
+        "pt": "É uma pessoa cujo trabalho é cozinhar num restaurante.",
+        "zh": "这是一个人，他的工作是在餐厅里做饭。",
+        "hint": {
+          "en": "trabajo is masculine: cuyo. (el cocinero)",
+          "it": "trabajo è maschile: cuyo. (el cocinero)",
+          "uk": "trabajo чоловічого роду: cuyo. (el cocinero)",
+          "de": "trabajo ist maskulin: cuyo. (el cocinero)",
+          "fr": "trabajo est masculin : cuyo. (el cocinero)",
+          "pt": "trabajo é masculino: cuyo. (el cocinero)",
+          "zh": "trabajo 是阳性：cuyo。（el cocinero）"
+        }
+      },
+      {
+        "type": "build",
+        "intention": {
+          "en": "Your card says «la playa». Tell your team: it's the place where we go in summer, when it's hot.",
+          "it": "La tua carta dice «la playa». Di' alla tua squadra: è il posto dove andiamo d'estate, quando fa caldo.",
+          "uk": "На твоїй картці написано «la playa». Скажи команді: це місце, куди ми їздимо влітку, коли спекотно.",
+          "de": "Auf deiner Karte steht «la playa». Sag zu deinem Team: Das ist der Ort, wo wir im Sommer hinfahren, wenn es heiß ist.",
+          "fr": "Ta carte dit «la playa». Dis à ton équipe : c'est l'endroit où on va en été, quand il fait chaud.",
+          "pt": "A sua carta diz «la playa». Diga ao seu time: é o lugar aonde vamos no verão, quando faz calor.",
+          "zh": "你的卡片上写着 «la playa»。告诉你的队友：这是我们夏天天热的时候去的地方。"
+        },
+        "accepted": [
+          "Es el sitio donde vamos en verano, cuando hace calor.",
+          "Es el sitio al que vamos en verano, cuando hace calor."
+        ],
+        "tiles": [
+          "Es el sitio",
+          "donde",
+          "vamos",
+          "en verano,",
+          "cuando hace calor",
+          "dónde",
+          "que"
+        ],
+        "en": "It's the place where we go in summer, when it's hot.",
+        "it": "È il posto dove andiamo d'estate, quando fa caldo.",
+        "uk": "Це місце, куди ми їздимо влітку, коли спекотно.",
+        "de": "Das ist der Ort, wo wir im Sommer hinfahren, wenn es heiß ist.",
+        "fr": "C'est l'endroit où on va en été, quand il fait chaud.",
+        "pt": "É o lugar aonde vamos no verão, quando faz calor.",
+        "zh": "这是我们夏天天热的时候去的地方。",
+        "hint": {
+          "en": "A place: donde; then , cuando adds the time.",
+          "it": "Un luogo: donde; poi , cuando aggiunge il momento.",
+          "uk": "Місце: donde; потім , cuando додає час.",
+          "de": "Ein Ort: donde; dann fügt , cuando den Zeitpunkt hinzu.",
+          "fr": "Un lieu : donde ; puis , cuando ajoute le moment.",
+          "pt": "Um lugar: donde; depois, , cuando acrescenta o momento.",
+          "zh": "地点：donde；然后用逗号 + cuando 补充时间。"
+        }
+      },
+      {
+        "type": "write",
+        "instruction": {
+          "en": "Your last card says «el tren». Write in Spanish: «It's what you take to go from Madrid to Sevilla.»",
+          "it": "La tua ultima carta dice «el tren». Scrivi in spagnolo: «È quello che prendi per andare da Madrid a Siviglia.»",
+          "uk": "На твоїй останній картці написано «el tren». Напиши іспанською: «Це те, на чому ти їдеш із Мадрида до Севільї.»",
+          "de": "Auf deiner letzten Karte steht «el tren». Schreib auf Spanisch: «Das ist das, was man nimmt, um von Madrid nach Sevilla zu fahren.»",
+          "fr": "Ta dernière carte dit «el tren». Écris en espagnol : «C'est ce que tu prends pour aller de Madrid à Séville.»",
+          "pt": "A sua última carta diz «el tren». Escreva em espanhol: «É o que você pega para ir de Madri a Sevilha.»",
+          "zh": "你最后一张卡片上写着 «el tren»。用西班牙语写：«这是你从马德里去塞维利亚时坐的东西。»"
+        },
+        "accepted": [
+          "Es lo que coges para ir de Madrid a Sevilla.",
+          "Es lo que tomas para ir de Madrid a Sevilla.",
+          "Es lo que coges para ir desde Madrid hasta Sevilla.",
+          "Es lo que tomas para ir desde Madrid hasta Sevilla."
+        ],
+        "model": {
+          "es": "Es lo que coges para ir de Madrid a Sevilla.",
+          "en": "It's what you take to go from Madrid to Sevilla.",
+          "it": "È quello che prendi per andare da Madrid a Siviglia.",
+          "uk": "Це те, на чому ти їдеш із Мадрида до Севільї.",
+          "de": "Das ist das, was man nimmt, um von Madrid nach Sevilla zu fahren.",
+          "fr": "C'est ce que tu prends pour aller de Madrid à Séville.",
+          "pt": "É o que você pega para ir de Madri a Sevilha.",
+          "zh": "这是你从马德里去塞维利亚时坐的东西。"
+        }
+      }
+    ]
+  }
+}
