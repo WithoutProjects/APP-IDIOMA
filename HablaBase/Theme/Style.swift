@@ -156,3 +156,65 @@ struct Eyebrow: View {
             .foregroundStyle(color)
     }
 }
+
+private struct ToneKey: EnvironmentKey {
+    static let defaultValue = Tone.sage
+}
+
+extension EnvironmentValues {
+    /// The tone of the level the screen belongs to: the learner's current level, or the lesson's own level.
+    var tone: Tone {
+        get { self[ToneKey.self] }
+        set { self[ToneKey.self] = newValue }
+    }
+}
+
+extension View {
+    /// Colours a screen with a level's tone: buttons, highlights, progress and controls.
+    func levelTone(_ tone: Tone) -> some View {
+        environment(\.tone, tone).tint(tone.main)
+    }
+}
+
+/// The top of every main screen: a small level caption, a large title and one line below.
+struct ScreenHeader: View {
+    var eyebrow: String?
+    let title: LocalizedStringKey
+    var subtitle: String?
+    @Environment(\.tone) var tone
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 6) {
+            if let eyebrow {
+                Eyebrow(text: eyebrow, color: tone.main)
+            }
+            Text(title)
+                .font(.largeTitle.bold())
+            if let subtitle {
+                Text(subtitle)
+                    .font(.subheadline)
+                    .foregroundStyle(.secondary)
+            }
+        }
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .accessibilityElement(children: .combine)
+        .accessibilityAddTraits(.isHeader)
+    }
+}
+
+/// A tinted rounded tile with an icon or a number, as on the unit page.
+struct ToneTile<Content: View>: View {
+    var size: CGFloat = 52
+    var filled = false
+    @ViewBuilder let content: Content
+    @Environment(\.tone) var tone
+
+    var body: some View {
+        content
+            .font(.headline)
+            .foregroundStyle(filled ? Color.white : tone.main)
+            .frame(width: size, height: size)
+            .background(RoundedRectangle(cornerRadius: size * 0.3, style: .continuous).fill(filled ? tone.main : tone.soft))
+            .accessibilityHidden(true)
+    }
+}

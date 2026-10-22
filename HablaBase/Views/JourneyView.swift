@@ -197,6 +197,33 @@ enum Journey {
         return .locked
     }
 
+    /// The level the learner is in now; the last one once the path is finished.
+    static func currentLevel(store: AppStore) -> CurriculumLevel? {
+        let levels = Curriculum.shared.levels
+        guard let next = store.nextNode else { return levels.last }
+        return Curriculum.shared.level(id: next.levelId) ?? levels.first
+    }
+
+    static func currentTone(store: AppStore) -> Tone {
+        Tone.forLevel(currentLevel(store: store)?.number ?? 1)
+    }
+
+    /// The tone of the level a path step belongs to.
+    static func tone(forStep id: String) -> Tone? {
+        guard let node = Curriculum.sharedPath.first(where: { $0.id == id }),
+              let level = Curriculum.shared.level(id: node.levelId) else { return nil }
+        return Tone.forLevel(level.number)
+    }
+
+    static func level(of unit: CurriculumUnit) -> CurriculumLevel? {
+        Curriculum.shared.levels.first { level in level.units.contains { $0.id == unit.id } }
+    }
+
+    /// "Level 2 · Motor · A2", for screen captions.
+    static func caption(_ level: CurriculumLevel, language: NativeLanguage) -> String {
+        language.localized("Level \(level.number) · \(level.name) · \(level.cefr)")
+    }
+
     /// A later unit, not started yet, whose test exists: passing it skips everything before.
     static func canSkip(to unit: CurriculumUnit, store: AppStore) -> Bool {
         guard let first = nodes(in: unit).first,

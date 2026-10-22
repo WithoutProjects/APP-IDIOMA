@@ -81,9 +81,18 @@ struct WelcomeView: View {
 /// Shared by onboarding and the Profile tab.
 struct ProfileForm: View {
     @Binding var profile: Profile
+    /// Shown above the form on the Profile tab.
+    var header: AnyView?
 
     var body: some View {
         Form {
+            if let header {
+                Section {
+                    header
+                }
+                .listRowBackground(Color.clear)
+                .listRowInsets(EdgeInsets(top: 0, leading: 0, bottom: 4, trailing: 0))
+            }
             Section {
                 Picker("My language", selection: $profile.nativeLanguage) {
                     ForEach(NativeLanguage.allCases) { Text($0.label).tag($0) }
@@ -125,7 +134,12 @@ struct ProfileView: View {
     var body: some View {
         NavigationStack {
             if let profile = store.profile {
-                ProfileForm(profile: Binding(get: { profile }, set: { store.updateProfile($0) }))
+                ProfileForm(profile: Binding(get: { profile }, set: { store.updateProfile($0) }),
+                            header: AnyView(
+                                ScreenHeader(eyebrow: Journey.currentLevel(store: store).map { Journey.caption($0, language: store.language) },
+                                             title: "Profile",
+                                             subtitle: profile.name)
+                            ))
                     .safeAreaInset(edge: .bottom) {
                         Button("Reset progress", role: .destructive) { confirmReset = true }
                             .padding()
@@ -133,7 +147,7 @@ struct ProfileView: View {
                     .confirmationDialog("Delete all progress and start again?", isPresented: $confirmReset, titleVisibility: .visible) {
                         Button("Reset", role: .destructive) { store.reset() }
                     }
-                    .navigationTitle("Profile")
+                    .toolbar(.hidden, for: .navigationBar)
             }
         }
     }

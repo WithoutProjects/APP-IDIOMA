@@ -4,6 +4,7 @@ import SwiftUI
 struct PairsGameView: View {
     @EnvironmentObject private var store: AppStore
     @Environment(\.dismiss) private var dismiss
+    @Environment(\.tone) private var tone
     @State private var rounds: [[PairsGame.Card]] = []
     @State private var round = 0
     @State private var persons: [Person] = []
@@ -21,7 +22,6 @@ struct PairsGameView: View {
                 results
             } else if round < rounds.count {
                 ProgressView(value: Double(round), total: Double(rounds.count))
-                    .tint(Brick.ending.color)
                 Text("Match each verb to its person.")
                     .font(.headline)
                 HStack(alignment: .top, spacing: 16) {
@@ -54,8 +54,8 @@ struct PairsGameView: View {
         } label: {
             ColoredForm(form: card.form, font: .title3.bold())
                 .frame(maxWidth: .infinity, minHeight: 56)
-                .background(RoundedRectangle(cornerRadius: 14).fill(isSelected ? Brick.ending.color.opacity(0.2) : Palette.card))
-                .overlay(RoundedRectangle(cornerRadius: 14).strokeBorder(isSelected ? Brick.ending.color : .clear, lineWidth: 2))
+                .background(RoundedRectangle(cornerRadius: 14).fill(isSelected ? tone.soft : Palette.card))
+                .overlay(RoundedRectangle(cornerRadius: 14).strokeBorder(isSelected ? tone.main : .clear, lineWidth: 2))
         }
         .buttonStyle(.plain)
         .opacity(done ? 0.2 : 1)
@@ -136,7 +136,7 @@ struct PairsGameView: View {
             Spacer()
             Image(systemName: mistakes == 0 ? "star.circle.fill" : "checkmark.circle.fill")
                 .font(.system(size: 64))
-                .foregroundStyle(mistakes == 0 ? .yellow : Palette.success)
+                .foregroundStyle(tone.main)
                 .accessibilityHidden(true)
             Text(mistakes == 0 ? "¡Perfecto!" : "¡Bien hecho!")
                 .font(.title.bold())
@@ -152,7 +152,7 @@ struct PairsGameView: View {
                 finished = false
                 start()
             }
-            .buttonStyle(PrimaryButtonStyle(color: Brick.ending.color))
+            .buttonStyle(PrimaryButtonStyle())
             Button("Back to the Lab") { dismiss() }
         }
     }

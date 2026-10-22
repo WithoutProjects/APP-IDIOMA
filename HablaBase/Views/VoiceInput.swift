@@ -4,6 +4,7 @@ import SwiftUI
 struct MicButton: View {
     @ObservedObject var listener: SpeechListener
     var size: CGFloat = 88
+    @Environment(\.tone) var tone
 
     var body: some View {
         let listening = listener.status == .listening
@@ -18,7 +19,7 @@ struct MicButton: View {
                 .font(size > 70 ? .largeTitle : .title)
                 .foregroundStyle(.white)
                 .frame(width: size, height: size)
-                .background(Circle().fill(listening ? Palette.warning : Brick.stem.color))
+                .background(Circle().fill(listening ? Palette.warning : tone.main))
         }
         .accessibilityLabel(listening ? LocalizedStringKey("Stop") : LocalizedStringKey("Speak"))
     }
