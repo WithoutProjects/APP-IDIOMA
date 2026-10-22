@@ -1,0 +1,3200 @@
+{
+  "unit": "u42",
+  "lessons": [
+    {
+      "id": "u42l1",
+      "goal": {
+        "en": "Give a reason with ya que and puesto que (since, given that), and open a sentence with the reason using ya que, puesto que or como, but never porque.",
+        "it": "Dai una ragione con ya que e puesto que (dato che, poiché), e apri una frase con la ragione usando ya que, puesto que o como, ma mai porque.",
+        "uk": "Називай причину за допомогою ya que і puesto que (оскільки, з огляду на те що) і починай речення з причини, вживаючи ya que, puesto que або como, але ніколи porque.",
+        "de": "Nenn mit ya que und puesto que einen Grund (da, weil ja), und beginne einen Satz mit dem Grund: mit ya que, puesto que oder como, aber nie mit porque.",
+        "fr": "Donne une raison avec ya que et puesto que (puisque, étant donné que), et commence une phrase par la raison avec ya que, puesto que ou como, mais jamais porque.",
+        "pt": "Dê um motivo com ya que e puesto que (já que, uma vez que) e comece uma frase pelo motivo usando ya que, puesto que ou como, mas nunca porque.",
+        "zh": "用 ya que 和 puesto que（既然、由于）说明原因；把原因放在句首时用 ya que、puesto que 或 como，但绝不能用 porque。"
+      },
+      "target": {
+        "es": "Ya que estás aquí, ¿me ayudas?",
+        "en": "Since you're here, will you help me?",
+        "it": "Visto che sei qui, mi aiuti?",
+        "uk": "Раз ти тут, допоможеш мені?",
+        "de": "Wo du schon mal hier bist, hilfst du mir?",
+        "fr": "Puisque tu es là, tu m'aides ?",
+        "pt": "Já que você está aqui, me ajuda?",
+        "zh": "既然你在这儿，帮我一下好吗？"
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "ya que",
+              "en": "since, as (a reason you both know)",
+              "it": "dato che, visto che",
+              "uk": "оскільки, раз уже (причина, відома обом)",
+              "de": "da, wo … schon (ein Grund, den ihr beide kennt)",
+              "fr": "puisque, vu que (une raison que vous connaissez tous les deux)",
+              "pt": "já que, como (um motivo que os dois conhecem)",
+              "zh": "既然、由于（双方都知道的原因）",
+              "kind": "rail"
+            },
+            {
+              "es": "puesto que",
+              "en": "since, given that (more formal)",
+              "it": "poiché, dal momento che",
+              "uk": "оскільки, з огляду на те що (офіційніше)",
+              "de": "da, weil ja (förmlicher)",
+              "fr": "étant donné que, puisque (plus soutenu)",
+              "pt": "uma vez que, visto que (mais formal)",
+              "zh": "由于、鉴于（更正式）",
+              "kind": "rail"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "ya que",
+              "kind": "rail"
+            },
+            {
+              "text": "+",
+              "kind": "chunk"
+            },
+            {
+              "text": "es tu cumpleaños",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "ya que (since) gives a reason the other person already knows or accepts. It can open the sentence or come after the main part.",
+            "it": "ya que (dato che, visto che) dà una ragione che l'altra persona conosce già o accetta. Può aprire la frase o venire dopo la parte principale.",
+            "uk": "ya que (оскільки, раз уже) називає причину, яку співрозмовник уже знає або приймає. Може стояти на початку речення або після головної частини.",
+            "de": "ya que (da, wo … schon) nennt einen Grund, den der andere schon kennt oder akzeptiert. Es kann den Satz eröffnen oder nach dem Hauptteil kommen.",
+            "fr": "ya que (puisque) donne une raison que l'autre personne connaît déjà ou accepte. Il peut ouvrir la phrase ou venir après la partie principale.",
+            "pt": "ya que (já que) dá um motivo que a outra pessoa já conhece ou aceita. Pode abrir a frase ou vir depois da parte principal.",
+            "zh": "ya que（既然）引出的原因是对方已经知道或认可的。它可以放在句首，也可以放在主要部分之后。"
+          },
+          "examples": [
+            {
+              "es": "Ya que estás de pie, ¿me pasas la sal?",
+              "en": "Since you're up, can you pass me the salt?",
+              "it": "Visto che sei in piedi, mi passi il sale?",
+              "uk": "Раз ти вже встав(-ла), передаси мені сіль?",
+              "de": "Wo du schon mal stehst, kannst du mir das Salz geben?",
+              "fr": "Puisque tu es debout, tu peux me passer le sel ?",
+              "pt": "Já que você está de pé, me passa o sal?",
+              "zh": "既然你站着，能把盐递给我吗？"
+            },
+            {
+              "es": "Hoy pago yo, ya que es tu cumpleaños.",
+              "en": "I'm paying today, since it's your birthday.",
+              "it": "Oggi pago io, visto che è il tuo compleanno.",
+              "uk": "Сьогодні плачу я, оскільки в тебе день народження.",
+              "de": "Heute zahle ich, du hast ja Geburtstag.",
+              "fr": "Aujourd'hui, c'est moi qui paie, puisque c'est ton anniversaire.",
+              "pt": "Hoje quem paga sou eu, já que é o seu aniversário.",
+              "zh": "今天我请客，既然是你的生日。"
+            },
+            {
+              "es": "Ya que hace buen tiempo, ¿comemos fuera?",
+              "en": "Since the weather's nice, shall we eat outside?",
+              "it": "Visto che fa bel tempo, mangiamo fuori?",
+              "uk": "Раз уже гарна погода, поїмо надворі?",
+              "de": "Da so schönes Wetter ist, wollen wir draußen essen?",
+              "fr": "Puisqu'il fait beau, on mange dehors ?",
+              "pt": "Já que o tempo está bom, vamos comer lá fora?",
+              "zh": "既然天气这么好，我们在外面吃吧？"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "",
+          "after": " vas a la tienda, ¿me compras pan?",
+          "options": [
+            "Ya que",
+            "Por eso",
+            "Por lo tanto"
+          ],
+          "answer": "Ya que",
+          "en": "Since you're going to the shop, will you buy me some bread?",
+          "it": "Visto che vai al negozio, mi compri il pane?",
+          "uk": "Раз ти йдеш до магазину, купиш мені хліба?",
+          "de": "Wo du schon mal zum Laden gehst, kaufst du mir Brot?",
+          "fr": "Puisque tu vas au magasin, tu m'achètes du pain ?",
+          "pt": "Já que você vai à loja, compra pão para mim?",
+          "zh": "既然你要去商店，帮我买点面包好吗？",
+          "hint": {
+            "en": "A reason you both know: ya que.",
+            "it": "Una ragione che conoscete tutti e due: ya que.",
+            "uk": "Причина, відома вам обом: ya que.",
+            "de": "Ein Grund, den ihr beide kennt: ya que.",
+            "fr": "Une raison que vous connaissez tous les deux : ya que.",
+            "pt": "Um motivo que os dois conhecem: ya que.",
+            "zh": "双方都知道的原因：ya que。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "You're at a restaurant with a friend on her birthday and the bill arrives. Say: I'm paying today, since it's your birthday.",
+            "it": "Sei al ristorante con un'amica il giorno del suo compleanno e arriva il conto. Dille: oggi pago io, visto che è il tuo compleanno.",
+            "uk": "Ти в ресторані з подругою в її день народження, і приносять рахунок. Скажи: сьогодні плачу я, оскільки в тебе день народження.",
+            "de": "Du bist mit einer Freundin an ihrem Geburtstag im Restaurant, und die Rechnung kommt. Sag: Heute zahle ich, du hast ja Geburtstag.",
+            "fr": "Tu es au restaurant avec une amie le jour de son anniversaire et l'addition arrive. Dis-lui : aujourd'hui, c'est moi qui paie, puisque c'est ton anniversaire.",
+            "pt": "Você está em um restaurante com uma amiga no aniversário dela e a conta chega. Diga a ela: hoje quem paga sou eu, já que é o seu aniversário.",
+            "zh": "你和一个朋友在餐厅给她过生日，账单来了。对她说：今天我请客，既然是你的生日。"
+          },
+          "accepted": [
+            "Hoy pago yo, ya que es tu cumpleaños.",
+            "Ya que es tu cumpleaños, hoy pago yo.",
+            "Hoy pago yo, que es tu cumpleaños."
+          ],
+          "tiles": [
+            "Hoy",
+            "pago yo,",
+            "ya que",
+            "es tu cumpleaños",
+            "por lo tanto",
+            "pagas"
+          ],
+          "en": "I'm paying today, since it's your birthday.",
+          "it": "Oggi pago io, visto che è il tuo compleanno.",
+          "uk": "Сьогодні плачу я, оскільки в тебе день народження.",
+          "de": "Heute zahle ich, du hast ja Geburtstag.",
+          "fr": "Aujourd'hui, c'est moi qui paie, puisque c'est ton anniversaire.",
+          "pt": "Hoje quem paga sou eu, já que é o seu aniversário.",
+          "zh": "今天我请客，既然是你的生日。",
+          "hint": {
+            "en": "The reason she knows: ya que es tu cumpleaños.",
+            "it": "La ragione che lei conosce: ya que es tu cumpleaños.",
+            "uk": "Причина, яку вона знає: ya que es tu cumpleaños.",
+            "de": "Der Grund, den sie kennt: ya que es tu cumpleaños.",
+            "fr": "La raison qu'elle connaît : ya que es tu cumpleaños.",
+            "pt": "O motivo que ela conhece: ya que es tu cumpleaños.",
+            "zh": "她知道的原因：ya que es tu cumpleaños。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "puesto que",
+              "kind": "rail"
+            },
+            {
+              "text": "+",
+              "kind": "chunk"
+            },
+            {
+              "text": "no hay preguntas",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "puesto que means the same as ya que, but it sounds more formal: you'll hear it in meetings, at work and in writing.",
+            "it": "puesto que vuol dire lo stesso di ya que, ma è più formale: lo senti nelle riunioni, al lavoro e nei testi scritti.",
+            "uk": "puesto que означає те саме, що й ya que, але звучить офіційніше: його почуєш на нарадах, на роботі та в письмових текстах.",
+            "de": "puesto que bedeutet dasselbe wie ya que, klingt aber förmlicher: Du hörst es in Besprechungen, bei der Arbeit und liest es in Texten.",
+            "fr": "puesto que veut dire la même chose que ya que, mais c'est plus soutenu : tu l'entendras en réunion, au travail et à l'écrit. C'est un peu comme « étant donné que » en français.",
+            "pt": "puesto que quer dizer o mesmo que ya que, mas soa mais formal: você vai ouvi-lo em reuniões, no trabalho e em textos escritos.",
+            "zh": "puesto que 和 ya que 意思一样，但听起来更正式：你会在会议上、工作中和书面语里听到它。"
+          },
+          "examples": [
+            {
+              "es": "No podemos empezar, puesto que no han llegado todos.",
+              "en": "We can't start, since not everyone has arrived.",
+              "it": "Non possiamo cominciare, dal momento che non sono arrivati tutti.",
+              "uk": "Ми не можемо почати, оскільки ще не всі прийшли.",
+              "de": "Wir können nicht anfangen, da noch nicht alle da sind.",
+              "fr": "On ne peut pas commencer, étant donné que tout le monde n'est pas arrivé.",
+              "pt": "Não podemos começar, uma vez que nem todos chegaram.",
+              "zh": "我们还不能开始，因为人还没到齐。"
+            },
+            {
+              "es": "Puesto que no hay preguntas, terminamos aquí.",
+              "en": "Since there are no questions, we'll finish here.",
+              "it": "Poiché non ci sono domande, finiamo qui.",
+              "uk": "Оскільки запитань немає, на цьому завершуємо.",
+              "de": "Da es keine Fragen gibt, schließen wir hier.",
+              "fr": "Puisqu'il n'y a pas de questions, nous terminons ici.",
+              "pt": "Uma vez que não há perguntas, terminamos por aqui.",
+              "zh": "鉴于没有问题了，我们就到这里。"
+            },
+            {
+              "es": "El cliente no viene hoy, puesto que está enfermo.",
+              "en": "The client isn't coming today, since he's ill.",
+              "it": "Il cliente oggi non viene, poiché è malato.",
+              "uk": "Клієнт сьогодні не прийде, оскільки він хворий.",
+              "de": "Der Kunde kommt heute nicht, da er krank ist.",
+              "fr": "Le client ne vient pas aujourd'hui, étant donné qu'il est malade.",
+              "pt": "O cliente não vem hoje, visto que está doente.",
+              "zh": "客户今天不来了，因为他病了。"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "",
+          "after": " no hay más preguntas, terminamos la reunión.",
+          "options": [
+            "Puesto que",
+            "Por lo tanto",
+            "Sin embargo"
+          ],
+          "answer": "Puesto que",
+          "en": "Since there are no more questions, we'll finish the meeting.",
+          "it": "Poiché non ci sono altre domande, finiamo la riunione.",
+          "uk": "Оскільки більше запитань немає, завершуємо нараду.",
+          "de": "Da es keine weiteren Fragen gibt, beenden wir die Besprechung.",
+          "fr": "Puisqu'il n'y a plus de questions, nous terminons la réunion.",
+          "pt": "Uma vez que não há mais perguntas, vamos encerrar a reunião.",
+          "zh": "鉴于没有其他问题了，会议就到这里。",
+          "hint": {
+            "en": "The reason comes first: puesto que.",
+            "it": "Prima viene la ragione: puesto que.",
+            "uk": "Причина стоїть першою: puesto que.",
+            "de": "Der Grund kommt zuerst: puesto que.",
+            "fr": "La raison vient en premier : puesto que.",
+            "pt": "O motivo vem primeiro: puesto que.",
+            "zh": "原因放在前面：puesto que。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "In a meeting, your boss asks why you haven't started yet. Say: we can't start, since the client hasn't arrived.",
+            "it": "In una riunione, il tuo capo ti chiede perché non avete ancora cominciato. Rispondi: non possiamo cominciare, dal momento che il cliente non è arrivato.",
+            "uk": "На нараді начальник питає, чому ви досі не почали. Скажи: ми не можемо почати, оскільки клієнт ще не прийшов.",
+            "de": "In einer Besprechung fragt dich deine Chefin, warum ihr noch nicht angefangen habt. Sag: Wir können nicht anfangen, da der Kunde noch nicht da ist.",
+            "fr": "En réunion, ton chef te demande pourquoi vous n'avez pas encore commencé. Dis : on ne peut pas commencer, étant donné que le client n'est pas arrivé.",
+            "pt": "Em uma reunião, o seu chefe pergunta por que vocês ainda não começaram. Diga: não podemos começar, uma vez que o cliente não chegou.",
+            "zh": "开会时，老板问你们为什么还没开始。你说：我们还不能开始，因为客户还没到。"
+          },
+          "accepted": [
+            "No podemos empezar, puesto que el cliente no ha llegado.",
+            "No podemos empezar, ya que el cliente no ha llegado.",
+            "No podemos empezar, puesto que el cliente todavía no ha llegado.",
+            "No podemos empezar, ya que el cliente todavía no ha llegado.",
+            "No podemos empezar porque el cliente no ha llegado."
+          ],
+          "tiles": [
+            "No podemos empezar,",
+            "puesto que",
+            "el cliente",
+            "no ha llegado",
+            "por lo tanto",
+            "no han llegado"
+          ],
+          "en": "We can't start, since the client hasn't arrived.",
+          "it": "Non possiamo cominciare, dal momento che il cliente non è arrivato.",
+          "uk": "Ми не можемо почати, оскільки клієнт ще не прийшов.",
+          "de": "Wir können nicht anfangen, da der Kunde noch nicht da ist.",
+          "fr": "On ne peut pas commencer, étant donné que le client n'est pas arrivé.",
+          "pt": "Não podemos começar, uma vez que o cliente não chegou.",
+          "zh": "我们还不能开始，因为客户还没到。",
+          "hint": {
+            "en": "A formal reason: puesto que.",
+            "it": "Una ragione formale: puesto que.",
+            "uk": "Офіційна причина: puesto que.",
+            "de": "Ein förmlicher Grund: puesto que.",
+            "fr": "Une raison formelle : puesto que.",
+            "pt": "Um motivo formal: puesto que.",
+            "zh": "正式的原因：puesto que。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "Como",
+              "kind": "rail"
+            },
+            {
+              "text": "+",
+              "kind": "chunk"
+            },
+            {
+              "text": "había tráfico,",
+              "kind": "chunk"
+            },
+            {
+              "text": "llegué tarde",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "To start a sentence with the reason, use como, ya que or puesto que. porque never goes first: it comes after the main part.",
+            "it": "Per cominciare una frase con la ragione, usa como, ya que o puesto que. porque non va mai all'inizio: viene dopo la parte principale.",
+            "uk": "Щоб почати речення з причини, вживай como, ya que або puesto que. porque ніколи не стоїть першим — як і українське «бо», воно йде після головної частини.",
+            "de": "Um einen Satz mit dem Grund zu beginnen, nimm como, ya que oder puesto que. porque steht nie am Anfang (anders als „weil“ im Deutschen): Es kommt nach dem Hauptteil.",
+            "fr": "Pour commencer une phrase par la raison, utilise como, ya que ou puesto que. porque ne se met jamais en tête : il vient après la partie principale. C'est comme en français : « comme » ouvre la phrase, « parce que » vient après.",
+            "pt": "Para começar uma frase pelo motivo, use como, ya que ou puesto que. porque nunca vem primeiro: vem depois da parte principal. Em português é igual: «como estava cansado…», e não «porque estava cansado, …».",
+            "zh": "要把原因放在句首，用 como、ya que 或 puesto que。porque 绝不放在句首：它要放在主要部分之后。"
+          },
+          "examples": [
+            {
+              "es": "Como había mucho tráfico, llegué tarde.",
+              "en": "As there was a lot of traffic, I arrived late.",
+              "it": "Siccome c'era molto traffico, sono arrivato tardi.",
+              "uk": "Через те що був великий трафік, я запізнився(-лася).",
+              "de": "Da viel Verkehr war, bin ich zu spät gekommen.",
+              "fr": "Comme il y avait beaucoup de circulation, je suis arrivé en retard.",
+              "pt": "Como havia muito trânsito, cheguei atrasado.",
+              "zh": "因为路上很堵，我迟到了。"
+            },
+            {
+              "es": "Llegué tarde porque había mucho tráfico.",
+              "en": "I arrived late because there was a lot of traffic.",
+              "it": "Sono arrivato tardi perché c'era molto traffico.",
+              "uk": "Я запізнився(-лася), бо був великий трафік.",
+              "de": "Ich bin zu spät gekommen, weil viel Verkehr war.",
+              "fr": "Je suis arrivé en retard parce qu'il y avait beaucoup de circulation.",
+              "pt": "Cheguei atrasado porque havia muito trânsito.",
+              "zh": "我迟到了，因为路上很堵。"
+            },
+            {
+              "es": "Como hace buen tiempo, comemos fuera.",
+              "en": "As the weather's nice, we're eating outside.",
+              "it": "Siccome fa bel tempo, mangiamo fuori.",
+              "uk": "Через те що гарна погода, ми їмо надворі.",
+              "de": "Da so schönes Wetter ist, essen wir draußen.",
+              "fr": "Comme il fait beau, on mange dehors.",
+              "pt": "Como o tempo está bom, vamos comer lá fora.",
+              "zh": "因为天气好，我们在外面吃。"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "",
+          "after": " no tenía coche, fui en tren.",
+          "options": [
+            "Como",
+            "Porque",
+            "Por eso"
+          ],
+          "answer": "Como",
+          "en": "As I didn't have a car, I went by train.",
+          "it": "Siccome non avevo la macchina, sono andato in treno.",
+          "uk": "Через те що в мене не було машини, я поїхав(-ла) потягом.",
+          "de": "Da ich kein Auto hatte, bin ich mit dem Zug gefahren.",
+          "fr": "Comme je n'avais pas de voiture, j'y suis allé en train.",
+          "pt": "Como eu não tinha carro, fui de trem.",
+          "zh": "因为我没有车，所以坐火车去了。",
+          "hint": {
+            "en": "The reason first: como, not porque.",
+            "it": "La ragione all'inizio: como, non porque.",
+            "uk": "Причина на початку: como, а не porque.",
+            "de": "Der Grund zuerst: como, nicht porque.",
+            "fr": "La raison en premier : como, pas porque.",
+            "pt": "O motivo primeiro: como, não porque.",
+            "zh": "原因放在前面：用 como，不用 porque。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "fire",
+          "before": "Llegué tarde ",
+          "after": " había mucho tráfico.",
+          "options": [
+            "porque",
+            "como",
+            "por lo tanto"
+          ],
+          "answer": "porque",
+          "en": "I arrived late because there was a lot of traffic.",
+          "it": "Sono arrivato tardi perché c'era molto traffico.",
+          "uk": "Я запізнився(-лася), бо був великий трафік.",
+          "de": "Ich bin zu spät gekommen, weil viel Verkehr war.",
+          "fr": "Je suis arrivé en retard parce qu'il y avait beaucoup de circulation.",
+          "pt": "Cheguei atrasado porque havia muito trânsito.",
+          "zh": "我迟到了，因为路上很堵。",
+          "hint": {
+            "en": "After the main part: porque.",
+            "it": "Dopo la parte principale: porque.",
+            "uk": "Після головної частини: porque.",
+            "de": "Nach dem Hauptteil: porque.",
+            "fr": "Après la partie principale : porque.",
+            "pt": "Depois da parte principal: porque.",
+            "zh": "放在主要部分之后：porque。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "Hoy invito yo, ",
+          "after": " es tu cumpleaños.",
+          "options": [
+            "ya que",
+            "por lo tanto",
+            "sin embargo"
+          ],
+          "answer": "ya que",
+          "en": "It's my treat today, since it's your birthday.",
+          "it": "Oggi offro io, visto che è il tuo compleanno.",
+          "uk": "Сьогодні я пригощаю, оскільки в тебе день народження.",
+          "de": "Heute lade ich dich ein, du hast ja Geburtstag.",
+          "fr": "Aujourd'hui, c'est moi qui t'invite, puisque c'est ton anniversaire.",
+          "pt": "Hoje é por minha conta, já que é o seu aniversário.",
+          "zh": "今天我请客，既然是你的生日。",
+          "hint": {
+            "en": "The birthday is the reason: ya que.",
+            "it": "Il compleanno è la ragione: ya que.",
+            "uk": "День народження — це причина: ya que.",
+            "de": "Der Geburtstag ist der Grund: ya que.",
+            "fr": "L'anniversaire est la raison : ya que.",
+            "pt": "O aniversário é o motivo: ya que.",
+            "zh": "生日就是原因：ya que。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "",
+          "after": " estaba cansado, me fui a casa pronto.",
+          "options": [
+            "Como",
+            "Porque",
+            "Así que"
+          ],
+          "answer": "Como",
+          "en": "As I was tired, I went home early.",
+          "it": "Siccome ero stanco, sono andato a casa presto.",
+          "uk": "Через те що я був утомлений, я рано пішов додому.",
+          "de": "Da ich müde war, bin ich früh nach Hause gegangen.",
+          "fr": "Comme j'étais fatigué, je suis rentré tôt.",
+          "pt": "Como eu estava cansado, fui para casa cedo.",
+          "zh": "因为我累了，所以早早回家了。",
+          "hint": {
+            "en": "The reason opens the sentence: como.",
+            "it": "La ragione apre la frase: como.",
+            "uk": "Причина відкриває речення: como.",
+            "de": "Der Grund eröffnet den Satz: como.",
+            "fr": "La raison ouvre la phrase : como.",
+            "pt": "O motivo abre a frase: como.",
+            "zh": "原因放在句首：como。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "mix",
+          "intention": {
+            "en": "A friend calls and asks why you're not going out tonight. Say: as it's raining, we're staying at home.",
+            "it": "Un amico ti chiama e ti chiede perché stasera non uscite. Rispondi: siccome piove, restiamo a casa.",
+            "uk": "Друг телефонує й питає, чому ви сьогодні ввечері не виходите. Скажи: через те що йде дощ, ми залишаємося вдома.",
+            "de": "Ein Freund ruft an und fragt, warum ihr heute Abend nicht ausgeht. Sag: Da es regnet, bleiben wir zu Hause.",
+            "fr": "Un ami t'appelle et te demande pourquoi vous ne sortez pas ce soir. Dis : comme il pleut, on reste à la maison.",
+            "pt": "Um amigo liga e pergunta por que vocês não vão sair hoje à noite. Diga: como está chovendo, vamos ficar em casa.",
+            "zh": "一个朋友打电话问你们今晚为什么不出去。你说：因为在下雨，我们待在家里。"
+          },
+          "accepted": [
+            "Como llueve, nos quedamos en casa.",
+            "Ya que llueve, nos quedamos en casa.",
+            "Puesto que llueve, nos quedamos en casa.",
+            "Como está lloviendo, nos quedamos en casa.",
+            "Nos quedamos en casa porque llueve."
+          ],
+          "tiles": [
+            "Como",
+            "llueve,",
+            "nos quedamos",
+            "en casa",
+            "Porque",
+            "por lo tanto"
+          ],
+          "en": "As it's raining, we're staying at home.",
+          "it": "Siccome piove, restiamo a casa.",
+          "uk": "Через те що йде дощ, ми залишаємося вдома.",
+          "de": "Da es regnet, bleiben wir zu Hause.",
+          "fr": "Comme il pleut, on reste à la maison.",
+          "pt": "Como está chovendo, vamos ficar em casa.",
+          "zh": "因为在下雨，我们待在家里。",
+          "hint": {
+            "en": "The reason first: como, not porque.",
+            "it": "La ragione all'inizio: como, non porque.",
+            "uk": "Причина на початку: como, а не porque.",
+            "de": "Der Grund zuerst: como, nicht porque.",
+            "fr": "La raison en premier : como, pas porque.",
+            "pt": "O motivo primeiro: como, não porque.",
+            "zh": "原因放在前面：用 como，不用 porque。"
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "A colleague walks into your office just as you're struggling with a heavy box. Write in Spanish: «Since you're here, will you help me?»",
+            "it": "Un collega entra nel tuo ufficio proprio mentre fai fatica con una scatola pesante. Scrivi in spagnolo: «Visto che sei qui, mi aiuti?»",
+            "uk": "Колега заходить до твого кабінету саме тоді, коли ти мучишся з важкою коробкою. Напиши іспанською: «Раз ти тут, допоможеш мені?»",
+            "de": "Ein Kollege kommt in dein Büro, gerade als du dich mit einem schweren Karton abmühst. Schreib auf Spanisch: «Wo du schon mal hier bist, hilfst du mir?»",
+            "fr": "Un collègue entre dans ton bureau juste au moment où tu as du mal avec un carton lourd. Écris en espagnol : «Puisque tu es là, tu m'aides ?»",
+            "pt": "Um colega entra na sua sala bem na hora em que você está se atrapalhando com uma caixa pesada. Escreva em espanhol: «Já que você está aqui, me ajuda?»",
+            "zh": "你正费力地搬一个很重的箱子，一个同事刚好走进你的办公室。用西班牙语写：«既然你在这儿，帮我一下好吗？»"
+          },
+          "accepted": [
+            "Ya que estás aquí, ¿me ayudas?",
+            "Ya que estás aquí, ¿puedes ayudarme?",
+            "Ya que estás aquí, ¿me puedes ayudar?",
+            "Puesto que estás aquí, ¿me ayudas?",
+            "Como estás aquí, ¿me ayudas?"
+          ],
+          "model": {
+            "es": "Ya que estás aquí, ¿me ayudas?",
+            "en": "Since you're here, will you help me?",
+            "it": "Visto che sei qui, mi aiuti?",
+            "uk": "Раз ти тут, допоможеш мені?",
+            "de": "Wo du schon mal hier bist, hilfst du mir?",
+            "fr": "Puisque tu es là, tu m'aides ?",
+            "pt": "Já que você está aqui, me ajuda?",
+            "zh": "既然你在这儿，帮我一下好吗？"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u42l2",
+      "goal": {
+        "en": "Give the result of something: por lo tanto (therefore), which you already know, de modo que (so) to join it in one sentence, and tell the result (por lo tanto) from the reason (ya que).",
+        "it": "Dai la conseguenza di qualcosa: por lo tanto (pertanto), che conosci già, de modo que (quindi, per cui) per unirla in una sola frase, e distingui la conseguenza (por lo tanto) dalla causa (ya que).",
+        "uk": "Називай наслідок: por lo tanto (отже), який ти вже знаєш, de modo que (тож), щоб поєднати все в одному реченні, і навчися відрізняти наслідок (por lo tanto) від причини (ya que).",
+        "de": "Nenn die Folge von etwas: mit por lo tanto (daher), das du schon kennst, mit de modo que (also, sodass), um sie im selben Satz anzuschließen, und unterscheide die Folge (por lo tanto) vom Grund (ya que).",
+        "fr": "Donne la conséquence de quelque chose : por lo tanto (par conséquent), que tu connais déjà, de modo que (donc, si bien que) pour tout dire en une seule phrase, et distingue la conséquence (por lo tanto) de la cause (ya que).",
+        "pt": "Dê a consequência de algo: por lo tanto (portanto), que você já conhece, de modo que (então, de modo que) para juntá-la em uma só frase, e diferencie a consequência (por lo tanto) do motivo (ya que).",
+        "zh": "说出某事的结果：你已经学过的 por lo tanto（因此），用 de modo que（所以）把结果连在同一个句子里，并区分结果（por lo tanto）和原因（ya que）。"
+      },
+      "target": {
+        "es": "El tren es más barato; por lo tanto, iremos en tren.",
+        "en": "The train is cheaper; therefore, we'll go by train.",
+        "it": "Il treno costa meno; pertanto, andremo in treno.",
+        "uk": "Потяг дешевший; отже, ми поїдемо потягом.",
+        "de": "Der Zug ist billiger; daher fahren wir mit dem Zug.",
+        "fr": "Le train est moins cher ; par conséquent, nous irons en train.",
+        "pt": "O trem é mais barato; portanto, vamos de trem.",
+        "zh": "火车更便宜；因此，我们坐火车去。"
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "de modo que",
+              "en": "so, so that's why",
+              "it": "quindi, per cui",
+              "uk": "тож, так що (ось чому)",
+              "de": "also, sodass",
+              "fr": "donc, si bien que",
+              "pt": "então, de modo que, por isso",
+              "zh": "所以、因此",
+              "kind": "rail"
+            },
+            {
+              "es": "el resultado",
+              "en": "the result",
+              "it": "il risultato",
+              "uk": "результат",
+              "de": "das Ergebnis",
+              "fr": "le résultat",
+              "pt": "o resultado",
+              "zh": "结果",
+              "kind": "chunk"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "…;",
+              "kind": "chunk"
+            },
+            {
+              "text": "por lo tanto,",
+              "kind": "rail"
+            },
+            {
+              "text": "…",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "You already know por lo tanto (therefore): it gives the result, more formally than así que or por eso. It starts the second part, after a full stop or a semicolon, with a comma after it.",
+            "it": "Conosci già por lo tanto (pertanto): dà la conseguenza, in modo più formale di así que o por eso. Apre la seconda parte, dopo un punto o un punto e virgola, ed è seguito da una virgola.",
+            "uk": "Ти вже знаєш por lo tanto (отже): він вводить наслідок, офіційніше, ніж así que чи por eso. Він починає другу частину після крапки або крапки з комою, і після нього ставлять кому.",
+            "de": "por lo tanto (daher, deshalb) kennst du schon: Es nennt die Folge, förmlicher als así que oder por eso. Es beginnt den zweiten Teil nach einem Punkt oder Semikolon, mit einem Komma danach.",
+            "fr": "Tu connais déjà por lo tanto (par conséquent) : il donne la conséquence, de façon plus soutenue que así que ou por eso. Il ouvre la deuxième partie, après un point ou un point-virgule, et il est suivi d'une virgule.",
+            "pt": "Você já conhece por lo tanto (portanto): ele dá a consequência, de um jeito mais formal que así que ou por eso. Abre a segunda parte, depois de um ponto ou de um ponto e vírgula, com uma vírgula depois.",
+            "zh": "你已经学过 por lo tanto（因此）：它引出结果，比 así que 或 por eso 更正式。它放在第二部分开头，前面是句号或分号，后面加逗号。"
+          },
+          "examples": [
+            {
+              "es": "El tren es más barato; por lo tanto, iremos en tren.",
+              "en": "The train is cheaper; therefore, we'll go by train.",
+              "it": "Il treno costa meno; pertanto, andremo in treno.",
+              "uk": "Потяг дешевший; отже, ми поїдемо потягом.",
+              "de": "Der Zug ist billiger; daher fahren wir mit dem Zug.",
+              "fr": "Le train est moins cher ; par conséquent, nous irons en train.",
+              "pt": "O trem é mais barato; portanto, vamos de trem.",
+              "zh": "火车更便宜；因此，我们坐火车去。"
+            },
+            {
+              "es": "No tenemos dinero. Por lo tanto, no podemos viajar este año.",
+              "en": "We don't have any money. Therefore, we can't travel this year.",
+              "it": "Non abbiamo soldi. Pertanto, quest'anno non possiamo viaggiare.",
+              "uk": "У нас немає грошей. Отже, цього року ми не можемо подорожувати.",
+              "de": "Wir haben kein Geld. Daher können wir dieses Jahr nicht verreisen.",
+              "fr": "Nous n'avons pas d'argent. Par conséquent, nous ne pouvons pas voyager cette année.",
+              "pt": "Não temos dinheiro. Portanto, não podemos viajar este ano.",
+              "zh": "我们没钱。因此，今年我们不能去旅行。"
+            },
+            {
+              "es": "El resultado es bueno; por lo tanto, seguimos con el plan.",
+              "en": "The result is good; therefore, we're going ahead with the plan.",
+              "it": "Il risultato è buono; pertanto, andiamo avanti con il piano.",
+              "uk": "Результат добрий; отже, ми продовжуємо за планом.",
+              "de": "Das Ergebnis ist gut; daher machen wir mit dem Plan weiter.",
+              "fr": "Le résultat est bon ; par conséquent, nous continuons avec le plan.",
+              "pt": "O resultado é bom; portanto, vamos continuar com o plano.",
+              "zh": "结果很好；因此，我们继续执行这个计划。"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "El proyecto es muy caro. Por lo ",
+          "after": ", necesitamos más dinero.",
+          "options": [
+            "tanto",
+            "tan",
+            "más"
+          ],
+          "answer": "tanto",
+          "en": "The project is very expensive. Therefore, we need more money.",
+          "it": "Il progetto è molto caro. Pertanto, ci servono più soldi.",
+          "uk": "Проєкт дуже дорогий. Отже, нам потрібно більше грошей.",
+          "de": "Das Projekt ist sehr teuer. Daher brauchen wir mehr Geld.",
+          "fr": "Le projet coûte très cher. Par conséquent, nous avons besoin de plus d'argent.",
+          "pt": "O projeto é muito caro. Portanto, precisamos de mais dinheiro.",
+          "zh": "这个项目非常贵。因此，我们需要更多的钱。",
+          "hint": {
+            "en": "Therefore: por lo tanto.",
+            "it": "Pertanto: por lo tanto.",
+            "uk": "Отже: por lo tanto.",
+            "de": "Daher: por lo tanto.",
+            "fr": "Par conséquent : por lo tanto.",
+            "pt": "Portanto: por lo tanto.",
+            "zh": "因此：por lo tanto。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "You're organising a work trip. Tell your colleagues: the hotel is full; therefore, we're going to look for another one.",
+            "it": "Stai organizzando un viaggio di lavoro. Di' ai colleghi: l'albergo è pieno; pertanto, ne cercheremo un altro.",
+            "uk": "Ти організовуєш робочу поїздку. Скажи колегам: готель заповнений; отже, ми пошукаємо інший.",
+            "de": "Du organisierst eine Dienstreise. Sag deinen Kollegen: Das Hotel ist ausgebucht; daher suchen wir ein anderes.",
+            "fr": "Tu organises un voyage d'affaires. Dis à tes collègues : l'hôtel est complet ; par conséquent, nous allons en chercher un autre.",
+            "pt": "Você está organizando uma viagem de trabalho. Diga aos seus colegas: o hotel está lotado; portanto, vamos procurar outro.",
+            "zh": "你在安排一次出差。告诉同事们：酒店满了；因此，我们要再找一家。"
+          },
+          "accepted": [
+            "El hotel está lleno; por lo tanto, vamos a buscar otro.",
+            "El hotel está lleno. Por lo tanto, vamos a buscar otro.",
+            "El hotel está lleno; por lo tanto, buscamos otro."
+          ],
+          "tiles": [
+            "El hotel está lleno;",
+            "por lo tanto,",
+            "vamos a buscar",
+            "otro",
+            "ya que",
+            "buscar"
+          ],
+          "en": "The hotel is full; therefore, we're going to look for another one.",
+          "it": "L'albergo è pieno; pertanto, ne cercheremo un altro.",
+          "uk": "Готель заповнений; отже, ми пошукаємо інший.",
+          "de": "Das Hotel ist ausgebucht; daher suchen wir ein anderes.",
+          "fr": "L'hôtel est complet ; par conséquent, nous allons en chercher un autre.",
+          "pt": "O hotel está lotado; portanto, vamos procurar outro.",
+          "zh": "酒店满了；因此，我们要再找一家。",
+          "hint": {
+            "en": "The result comes after por lo tanto.",
+            "it": "La conseguenza viene dopo por lo tanto.",
+            "uk": "Наслідок іде після por lo tanto.",
+            "de": "Die Folge kommt nach por lo tanto.",
+            "fr": "La conséquence vient après por lo tanto.",
+            "pt": "A consequência vem depois de por lo tanto.",
+            "zh": "结果放在 por lo tanto 后面。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "…,",
+              "kind": "chunk"
+            },
+            {
+              "text": "de modo que",
+              "kind": "rail"
+            },
+            {
+              "text": "…",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "de modo que (so) also gives the result, but it joins both parts in one sentence, with no comma after it. It's less formal than por lo tanto.",
+            "it": "Anche de modo que (quindi, per cui) dà la conseguenza, ma unisce le due parti in una sola frase, senza virgola dopo. È meno formale di por lo tanto.",
+            "uk": "de modo que (тож) теж вводить наслідок, але поєднує обидві частини в одне речення, і кома після нього не ставиться. Він менш офіційний, ніж por lo tanto.",
+            "de": "de modo que (also, sodass) nennt auch die Folge, verbindet aber beide Teile in einem Satz, ohne Komma danach. Es ist weniger förmlich als por lo tanto.",
+            "fr": "de modo que (donc, si bien que) donne aussi la conséquence, mais il réunit les deux parties en une seule phrase, sans virgule après. Il est moins soutenu que por lo tanto.",
+            "pt": "de modo que (então) também dá a consequência, mas junta as duas partes em uma só frase, sem vírgula depois. É menos formal que por lo tanto. Em português existe o mesmo de modo que.",
+            "zh": "de modo que（所以）也引出结果，但它把两部分连成一个句子，后面不加逗号。它没有 por lo tanto 那么正式。"
+          },
+          "examples": [
+            {
+              "es": "Mañana hay huelga de metro, de modo que iré en bici.",
+              "en": "There's a metro strike tomorrow, so I'll go by bike.",
+              "it": "Domani c'è sciopero della metro, quindi andrò in bici.",
+              "uk": "Завтра страйк у метро, тож я поїду на велосипеді.",
+              "de": "Morgen streikt die U-Bahn, also fahre ich mit dem Rad.",
+              "fr": "Demain, il y a une grève du métro, donc j'irai à vélo.",
+              "pt": "Amanhã tem greve de metrô, então vou de bicicleta.",
+              "zh": "明天地铁罢工，所以我骑自行车去。"
+            },
+            {
+              "es": "No me llamaste, de modo que pensé que no venías.",
+              "en": "You didn't call me, so I thought you weren't coming.",
+              "it": "Non mi hai chiamato, per cui ho pensato che non venissi.",
+              "uk": "Ти мені не подзвонив(-ла), тож я подумав(-ла), що ти не прийдеш.",
+              "de": "Du hast mich nicht angerufen, also dachte ich, du kommst nicht.",
+              "fr": "Tu ne m'as pas appelé, donc j'ai pensé que tu ne venais pas.",
+              "pt": "Você não me ligou, então achei que você não vinha.",
+              "zh": "你没给我打电话，所以我以为你不来了。"
+            },
+            {
+              "es": "Estoy muy cansado, de modo que me voy a la cama.",
+              "en": "I'm very tired, so I'm going to bed.",
+              "it": "Sono molto stanco, quindi vado a letto.",
+              "uk": "Я дуже втомлений, тож іду спати.",
+              "de": "Ich bin sehr müde, also gehe ich ins Bett.",
+              "fr": "Je suis très fatigué, donc je vais me coucher.",
+              "pt": "Estou muito cansado, então vou para a cama.",
+              "zh": "我很累，所以我去睡觉了。"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Mañana hay huelga de metro, de modo ",
+          "after": " iré en bici.",
+          "options": [
+            "que",
+            "de",
+            "tanto"
+          ],
+          "answer": "que",
+          "en": "There's a metro strike tomorrow, so I'll go by bike.",
+          "it": "Domani c'è sciopero della metro, quindi andrò in bici.",
+          "uk": "Завтра страйк у метро, тож я поїду на велосипеді.",
+          "de": "Morgen streikt die U-Bahn, also fahre ich mit dem Rad.",
+          "fr": "Demain, il y a une grève du métro, donc j'irai à vélo.",
+          "pt": "Amanhã tem greve de metrô, então vou de bicicleta.",
+          "zh": "明天地铁罢工，所以我骑自行车去。",
+          "hint": {
+            "en": "So: de modo que.",
+            "it": "Quindi: de modo que.",
+            "uk": "Тож: de modo que.",
+            "de": "Also: de modo que.",
+            "fr": "Donc : de modo que.",
+            "pt": "Então: de modo que.",
+            "zh": "所以：de modo que。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "A friend asks if you're coming out tonight. Say: I've got a lot of work, so I can't go out.",
+            "it": "Un amico ti chiede se esci stasera. Rispondi: ho molto lavoro, quindi non posso uscire.",
+            "uk": "Друг питає, чи підеш ти сьогодні ввечері кудись. Скажи: у мене багато роботи, тож я не можу піти гуляти.",
+            "de": "Ein Freund fragt, ob du heute Abend mit ausgehst. Sag: Ich habe viel Arbeit, also kann ich nicht ausgehen.",
+            "fr": "Un ami te demande si tu sors ce soir. Dis : j'ai beaucoup de travail, donc je ne peux pas sortir.",
+            "pt": "Um amigo pergunta se você vai sair hoje à noite. Diga: tenho muito trabalho, então não posso sair.",
+            "zh": "一个朋友问你今晚出不出去。你说：我工作很多，所以不能出去。"
+          },
+          "accepted": [
+            "Tengo mucho trabajo, de modo que no puedo salir.",
+            "Tengo mucho trabajo, así que no puedo salir.",
+            "Tengo mucho trabajo, por eso no puedo salir."
+          ],
+          "tiles": [
+            "Tengo mucho trabajo,",
+            "de modo que",
+            "no puedo",
+            "salir",
+            "ya que",
+            "puedo"
+          ],
+          "en": "I've got a lot of work, so I can't go out.",
+          "it": "Ho molto lavoro, quindi non posso uscire.",
+          "uk": "У мене багато роботи, тож я не можу піти гуляти.",
+          "de": "Ich habe viel Arbeit, also kann ich nicht ausgehen.",
+          "fr": "J'ai beaucoup de travail, donc je ne peux pas sortir.",
+          "pt": "Tenho muito trabalho, então não posso sair.",
+          "zh": "我工作很多，所以不能出去。",
+          "hint": {
+            "en": "One sentence, the result after de modo que.",
+            "it": "Una sola frase, la conseguenza dopo de modo que.",
+            "uk": "Одне речення, наслідок після de modo que.",
+            "de": "Ein Satz, die Folge nach de modo que.",
+            "fr": "Une seule phrase, la conséquence après de modo que.",
+            "pt": "Uma só frase, a consequência depois de de modo que.",
+            "zh": "一个句子，结果放在 de modo que 后面。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "ya que",
+              "kind": "rail"
+            },
+            {
+              "text": "→ the reason",
+              "kind": "chunk"
+            },
+            {
+              "text": "por lo tanto",
+              "kind": "rail"
+            },
+            {
+              "text": "→ the result",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "Don't mix them up: ya que and puesto que bring in the reason; por lo tanto and de modo que bring in the result.",
+            "it": "Non confonderli: ya que e puesto que introducono la causa; por lo tanto e de modo que introducono la conseguenza.",
+            "uk": "Не плутай: ya que і puesto que вводять причину; por lo tanto і de modo que вводять наслідок.",
+            "de": "Verwechsle sie nicht: ya que und puesto que leiten den Grund ein; por lo tanto und de modo que leiten die Folge ein.",
+            "fr": "Ne les confonds pas : ya que et puesto que introduisent la cause ; por lo tanto et de modo que introduisent la conséquence.",
+            "pt": "Não confunda: ya que e puesto que introduzem o motivo; por lo tanto e de modo que introduzem a consequência.",
+            "zh": "别混淆：ya que 和 puesto que 引出原因；por lo tanto 和 de modo que 引出结果。"
+          },
+          "examples": [
+            {
+              "es": "No vino a la reunión, ya que estaba enfermo.",
+              "en": "He didn't come to the meeting, since he was ill.",
+              "it": "Non è venuto alla riunione, dato che era malato.",
+              "uk": "Він не прийшов на нараду, оскільки був хворий.",
+              "de": "Er ist nicht zur Besprechung gekommen, da er krank war.",
+              "fr": "Il n'est pas venu à la réunion, puisqu'il était malade.",
+              "pt": "Ele não veio à reunião, já que estava doente.",
+              "zh": "他没来开会，因为他病了。"
+            },
+            {
+              "es": "Estaba enfermo; por lo tanto, no vino a la reunión.",
+              "en": "He was ill; therefore, he didn't come to the meeting.",
+              "it": "Era malato; pertanto, non è venuto alla riunione.",
+              "uk": "Він був хворий; отже, не прийшов на нараду.",
+              "de": "Er war krank; daher ist er nicht zur Besprechung gekommen.",
+              "fr": "Il était malade ; par conséquent, il n'est pas venu à la réunion.",
+              "pt": "Ele estava doente; portanto, não veio à reunião.",
+              "zh": "他病了；因此，他没来开会。"
+            },
+            {
+              "es": "Ya que el tren es más barato, iremos en tren.",
+              "en": "Since the train is cheaper, we'll go by train.",
+              "it": "Dato che il treno costa meno, andremo in treno.",
+              "uk": "Оскільки потяг дешевший, ми поїдемо потягом.",
+              "de": "Da der Zug billiger ist, fahren wir mit dem Zug.",
+              "fr": "Puisque le train est moins cher, nous irons en train.",
+              "pt": "Já que o trem é mais barato, vamos de trem.",
+              "zh": "既然火车更便宜，我们就坐火车去。"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Estaba enfermo; ",
+          "after": ", no vino a la reunión.",
+          "options": [
+            "por lo tanto",
+            "ya que"
+          ],
+          "answer": "por lo tanto",
+          "en": "He was ill; therefore, he didn't come to the meeting.",
+          "it": "Era malato; pertanto, non è venuto alla riunione.",
+          "uk": "Він був хворий; отже, не прийшов на нараду.",
+          "de": "Er war krank; daher ist er nicht zur Besprechung gekommen.",
+          "fr": "Il était malade ; par conséquent, il n'est pas venu à la réunion.",
+          "pt": "Ele estava doente; portanto, não veio à reunião.",
+          "zh": "他病了；因此，他没来开会。",
+          "hint": {
+            "en": "Not coming is the result: por lo tanto.",
+            "it": "Non venire è la conseguenza: por lo tanto.",
+            "uk": "Те, що він не прийшов, — це наслідок: por lo tanto.",
+            "de": "Nicht zu kommen ist die Folge: por lo tanto.",
+            "fr": "Ne pas venir, c'est la conséquence : por lo tanto.",
+            "pt": "Não vir é a consequência: por lo tanto.",
+            "zh": "没来是结果：por lo tanto。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "fire",
+          "before": "No vino a la reunión, ",
+          "after": " estaba enfermo.",
+          "options": [
+            "ya que",
+            "por lo tanto"
+          ],
+          "answer": "ya que",
+          "en": "He didn't come to the meeting, since he was ill.",
+          "it": "Non è venuto alla riunione, dato che era malato.",
+          "uk": "Він не прийшов на нараду, оскільки був хворий.",
+          "de": "Er ist nicht zur Besprechung gekommen, da er krank war.",
+          "fr": "Il n'est pas venu à la réunion, puisqu'il était malade.",
+          "pt": "Ele não veio à reunião, já que estava doente.",
+          "zh": "他没来开会，因为他病了。",
+          "hint": {
+            "en": "Being ill is the reason: ya que.",
+            "it": "Essere malato è la causa: ya que.",
+            "uk": "Хвороба — це причина: ya que.",
+            "de": "Krank sein ist der Grund: ya que.",
+            "fr": "Être malade, c'est la cause : ya que.",
+            "pt": "Estar doente é o motivo: ya que.",
+            "zh": "生病是原因：ya que。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "Está lloviendo mucho; ",
+          "after": ", el partido se ha cancelado.",
+          "options": [
+            "por lo tanto",
+            "ya que",
+            "puesto que"
+          ],
+          "answer": "por lo tanto",
+          "en": "It's raining a lot; therefore, the match has been called off.",
+          "it": "Piove molto; pertanto, la partita è stata annullata.",
+          "uk": "Іде сильний дощ; отже, матч скасували.",
+          "de": "Es regnet stark; daher ist das Spiel abgesagt worden.",
+          "fr": "Il pleut beaucoup ; par conséquent, le match a été annulé.",
+          "pt": "Está chovendo muito; portanto, o jogo foi cancelado.",
+          "zh": "雨下得很大；因此，比赛取消了。",
+          "hint": {
+            "en": "The match being called off is the result: por lo tanto.",
+            "it": "L'annullamento della partita è la conseguenza: por lo tanto.",
+            "uk": "Скасування матчу — це наслідок: por lo tanto.",
+            "de": "Die Absage des Spiels ist die Folge: por lo tanto.",
+            "fr": "L'annulation du match, c'est la conséquence : por lo tanto.",
+            "pt": "O cancelamento do jogo é a consequência: por lo tanto.",
+            "zh": "比赛取消是结果：por lo tanto。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "mix",
+          "before": "El tren es más barato; por lo tanto, ",
+          "after": " en tren.",
+          "label": "ir",
+          "accepted": [
+            "iremos",
+            "vamos",
+            "vamos a ir"
+          ],
+          "en": "The train is cheaper; therefore, we'll go by train.",
+          "it": "Il treno costa meno; pertanto, andremo in treno.",
+          "uk": "Потяг дешевший; отже, ми поїдемо потягом.",
+          "de": "Der Zug ist billiger; daher fahren wir mit dem Zug.",
+          "fr": "Le train est moins cher ; par conséquent, nous irons en train.",
+          "pt": "O trem é mais barato; portanto, vamos de trem.",
+          "zh": "火车更便宜；因此，我们坐火车去。",
+          "hint": {
+            "en": "We'll go: the future iremos.",
+            "it": "Andremo: il futuro iremos.",
+            "uk": "Ми поїдемо: майбутній час iremos.",
+            "de": "Wir werden fahren: das Futur iremos.",
+            "fr": "Nous irons : le futur iremos.",
+            "pt": "Vamos: o futuro iremos.",
+            "zh": "我们会去：将来时 iremos。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "mix",
+          "intention": {
+            "en": "A friend asks why you don't have a car. Say: I always go by bike, so I don't need a car.",
+            "it": "Un amico ti chiede perché non hai la macchina. Rispondi: vado sempre in bici, quindi non mi serve la macchina.",
+            "uk": "Друг питає, чому в тебе немає машини. Скажи: я завжди їжджу на велосипеді, тож машина мені не потрібна.",
+            "de": "Ein Freund fragt, warum du kein Auto hast. Sag: Ich fahre immer mit dem Rad, also brauche ich kein Auto.",
+            "fr": "Un ami te demande pourquoi tu n'as pas de voiture. Dis : je me déplace toujours à vélo, donc je n'ai pas besoin de voiture.",
+            "pt": "Um amigo pergunta por que você não tem carro. Diga: eu sempre ando de bicicleta, então não preciso de carro.",
+            "zh": "一个朋友问你为什么没有车。你说：我总是骑自行车，所以不需要车。"
+          },
+          "accepted": [
+            "Siempre voy en bici, de modo que no necesito coche.",
+            "Siempre voy en bici, de modo que no necesito un coche.",
+            "Siempre voy en bici, así que no necesito coche.",
+            "Voy siempre en bici, de modo que no necesito coche."
+          ],
+          "tiles": [
+            "Siempre voy en bici,",
+            "de modo que",
+            "no necesito",
+            "coche",
+            "ya que",
+            "necesito"
+          ],
+          "en": "I always go by bike, so I don't need a car.",
+          "it": "Vado sempre in bici, quindi non mi serve la macchina.",
+          "uk": "Я завжди їжджу на велосипеді, тож машина мені не потрібна.",
+          "de": "Ich fahre immer mit dem Rad, also brauche ich kein Auto.",
+          "fr": "Je me déplace toujours à vélo, donc je n'ai pas besoin de voiture.",
+          "pt": "Eu sempre ando de bicicleta, então não preciso de carro.",
+          "zh": "我总是骑自行车，所以不需要车。",
+          "hint": {
+            "en": "The result in the same sentence: de modo que.",
+            "it": "La conseguenza nella stessa frase: de modo que.",
+            "uk": "Наслідок у тому самому реченні: de modo que.",
+            "de": "Die Folge im selben Satz: de modo que.",
+            "fr": "La conséquence dans la même phrase : de modo que.",
+            "pt": "A consequência na mesma frase: de modo que.",
+            "zh": "结果在同一个句子里：de modo que。"
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "You're presenting a plan to your team at work. Write in Spanish: «We don't have enough money; therefore, we're going to start next year.»",
+            "it": "Stai presentando un piano alla tua squadra al lavoro. Scrivi in spagnolo: «Non abbiamo abbastanza soldi; pertanto, cominceremo l'anno prossimo.»",
+            "uk": "Ти презентуєш план своїй команді на роботі. Напиши іспанською: «У нас недостатньо грошей; отже, ми почнемо наступного року.»",
+            "de": "Du stellst deinem Team bei der Arbeit einen Plan vor. Schreib auf Spanisch: «Wir haben nicht genug Geld; daher fangen wir nächstes Jahr an.»",
+            "fr": "Tu présentes un projet à ton équipe au travail. Écris en espagnol : «Nous n'avons pas assez d'argent ; par conséquent, nous allons commencer l'année prochaine.»",
+            "pt": "Você está apresentando um plano para a sua equipe no trabalho. Escreva em espanhol: «Não temos dinheiro suficiente; portanto, vamos começar no ano que vem.»",
+            "zh": "你在工作中向团队介绍一个计划。用西班牙语写：«我们的钱不够；因此，我们明年再开始。»"
+          },
+          "accepted": [
+            "No tenemos bastante dinero; por lo tanto, vamos a empezar el año que viene.",
+            "No tenemos bastante dinero. Por lo tanto, vamos a empezar el año que viene.",
+            "No tenemos suficiente dinero; por lo tanto, vamos a empezar el año que viene.",
+            "No tenemos bastante dinero; por lo tanto, vamos a empezar el próximo año.",
+            "No tenemos suficiente dinero; por lo tanto, vamos a empezar el próximo año.",
+            "No tenemos bastante dinero; por lo tanto, empezamos el año que viene.",
+            "No tenemos dinero suficiente; por lo tanto, vamos a empezar el año que viene."
+          ],
+          "model": {
+            "es": "No tenemos bastante dinero; por lo tanto, vamos a empezar el año que viene.",
+            "en": "We don't have enough money; therefore, we're going to start next year.",
+            "it": "Non abbiamo abbastanza soldi; pertanto, cominceremo l'anno prossimo.",
+            "uk": "У нас недостатньо грошей; отже, ми почнемо наступного року.",
+            "de": "Wir haben nicht genug Geld; daher fangen wir nächstes Jahr an.",
+            "fr": "Nous n'avons pas assez d'argent ; par conséquent, nous allons commencer l'année prochaine.",
+            "pt": "Não temos dinheiro suficiente; portanto, vamos começar no ano que vem.",
+            "zh": "我们的钱不够；因此，我们明年再开始。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u42l3",
+      "goal": {
+        "en": "Say something happened in spite of a problem: a pesar de + a noun (a pesar de la lluvia), a pesar de que + the indicative for a fact (a pesar de que llovía), and a pesar de que + the subjunctive for something that may happen (a pesar de que llueva).",
+        "it": "Di' che qualcosa è successo nonostante un problema: a pesar de + un nome (a pesar de la lluvia), a pesar de que + l'indicativo per un fatto (a pesar de que llovía), e a pesar de que + il congiuntivo per qualcosa che potrebbe succedere (a pesar de que llueva).",
+        "uk": "Скажи, що щось сталося попри проблему: a pesar de + іменник (a pesar de la lluvia), a pesar de que + дійсний спосіб («indicativo») для факту (a pesar de que llovía) і a pesar de que + «subjuntivo» для того, що може статися (a pesar de que llueva).",
+        "de": "Sag, dass etwas trotz eines Problems passiert ist: a pesar de + Nomen (a pesar de la lluvia), a pesar de que + Indikativ für eine Tatsache (a pesar de que llovía) und a pesar de que + subjuntivo (spanischer Konjunktiv) für etwas, das passieren könnte (a pesar de que llueva).",
+        "fr": "Dis que quelque chose est arrivé malgré un problème : a pesar de + un nom (a pesar de la lluvia), a pesar de que + l'indicatif pour un fait (a pesar de que llovía), et a pesar de que + le subjonctif pour quelque chose qui pourrait arriver (a pesar de que llueva).",
+        "pt": "Diga que algo aconteceu apesar de um problema: a pesar de + um substantivo (a pesar de la lluvia), a pesar de que + o indicativo para um fato (a pesar de que llovía) e a pesar de que + o subjuntivo para algo que pode acontecer (a pesar de que llueva).",
+        "zh": "说某事尽管有问题还是发生了：a pesar de + 名词（a pesar de la lluvia），a pesar de que + 陈述式表示事实（a pesar de que llovía），a pesar de que + 虚拟式表示可能发生的事（a pesar de que llueva）。"
+      },
+      "target": {
+        "es": "A pesar de que llovía, lo pasamos genial.",
+        "en": "Even though it was raining, we had a great time.",
+        "it": "Nonostante piovesse, ci siamo divertiti un sacco.",
+        "uk": "Хоча йшов дощ, ми чудово провели час.",
+        "de": "Obwohl es regnete, hatten wir eine tolle Zeit.",
+        "fr": "Même s'il pleuvait, on s'est super bien amusés.",
+        "pt": "Apesar de estar chovendo, nos divertimos muito.",
+        "zh": "虽然在下雨，我们还是玩得很开心。"
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "a pesar de",
+              "en": "despite, in spite of",
+              "it": "nonostante, malgrado (+ nome)",
+              "uk": "попри, незважаючи на",
+              "de": "trotz",
+              "fr": "malgré, en dépit de",
+              "pt": "apesar de",
+              "zh": "尽管、虽然（+ 名词）",
+              "kind": "rail"
+            },
+            {
+              "es": "a pesar de que",
+              "en": "even though; even if",
+              "it": "nonostante, anche se (+ frase)",
+              "uk": "хоча, незважаючи на те що; навіть якщо",
+              "de": "obwohl; auch wenn",
+              "fr": "bien que, même si",
+              "pt": "embora, apesar de que; mesmo que",
+              "zh": "虽然；即使（+ 句子）",
+              "kind": "rail"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "a pesar de",
+              "kind": "rail"
+            },
+            {
+              "text": "+",
+              "kind": "chunk"
+            },
+            {
+              "text": "la lluvia",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "a pesar de (despite) goes before a noun or an infinitive. de + el becomes del: a pesar del frío.",
+            "it": "a pesar de (nonostante) va davanti a un nome o a un infinito. de + el diventa del: a pesar del frío.",
+            "uk": "a pesar de (попри, незважаючи на) стоїть перед іменником або інфінітивом. de + el стає del: a pesar del frío.",
+            "de": "a pesar de (trotz) steht vor einem Nomen oder einem Infinitiv. de + el wird zu del: a pesar del frío.",
+            "fr": "a pesar de (malgré) se met devant un nom ou un infinitif. de + el devient del : a pesar del frío.",
+            "pt": "a pesar de (apesar de) vem antes de um substantivo ou de um infinitivo. de + el vira del: a pesar del frío (apesar do frio).",
+            "zh": "a pesar de（尽管）放在名词或动词原形前面。de + el 要合成 del：a pesar del frío。"
+          },
+          "examples": [
+            {
+              "es": "A pesar de la lluvia, salimos a pasear.",
+              "en": "Despite the rain, we went out for a walk.",
+              "it": "Nonostante la pioggia, siamo usciti a fare una passeggiata.",
+              "uk": "Попри дощ, ми вийшли прогулятися.",
+              "de": "Trotz des Regens sind wir spazieren gegangen.",
+              "fr": "Malgré la pluie, nous sommes sortis nous promener.",
+              "pt": "Apesar da chuva, saímos para passear.",
+              "zh": "尽管下着雨，我们还是出去散步了。"
+            },
+            {
+              "es": "A pesar de estar cansado, fui a trabajar.",
+              "en": "Despite being tired, I went to work.",
+              "it": "Nonostante fossi stanco, sono andato a lavorare.",
+              "uk": "Незважаючи на втому, я пішов на роботу.",
+              "de": "Obwohl ich müde war, bin ich zur Arbeit gegangen.",
+              "fr": "Bien que je sois fatigué, je suis allé travailler.",
+              "pt": "Apesar de estar cansado, fui trabalhar.",
+              "zh": "尽管很累，我还是去上班了。"
+            },
+            {
+              "es": "Nos bañamos a pesar del frío.",
+              "en": "We went for a swim despite the cold.",
+              "it": "Abbiamo fatto il bagno nonostante il freddo.",
+              "uk": "Ми покупалися попри холод.",
+              "de": "Wir sind trotz der Kälte schwimmen gegangen.",
+              "fr": "On s'est baignés malgré le froid.",
+              "pt": "Fomos nadar apesar do frio.",
+              "zh": "尽管天冷，我们还是去游泳了。"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "A pesar ",
+          "after": " la lluvia, salimos a pasear.",
+          "options": [
+            "de",
+            "que",
+            "a"
+          ],
+          "answer": "de",
+          "en": "Despite the rain, we went out for a walk.",
+          "it": "Nonostante la pioggia, siamo usciti a fare una passeggiata.",
+          "uk": "Попри дощ, ми вийшли прогулятися.",
+          "de": "Trotz des Regens sind wir spazieren gegangen.",
+          "fr": "Malgré la pluie, nous sommes sortis nous promener.",
+          "pt": "Apesar da chuva, saímos para passear.",
+          "zh": "尽管下着雨，我们还是出去散步了。",
+          "hint": {
+            "en": "Before a noun: a pesar de.",
+            "it": "Davanti a un nome: a pesar de.",
+            "uk": "Перед іменником: a pesar de.",
+            "de": "Vor einem Nomen: a pesar de.",
+            "fr": "Devant un nom : a pesar de.",
+            "pt": "Antes de um substantivo: a pesar de.",
+            "zh": "名词前面：a pesar de。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "A friend asks how your weekend at the beach was. Say: despite the cold, we went for a swim.",
+            "it": "Un amico ti chiede com'è andato il fine settimana al mare. Rispondi: nonostante il freddo, abbiamo fatto il bagno.",
+            "uk": "Друг питає, як минули твої вихідні на морі. Скажи: попри холод, ми покупалися.",
+            "de": "Ein Freund fragt, wie dein Wochenende am Strand war. Sag: Trotz der Kälte sind wir schwimmen gegangen.",
+            "fr": "Un ami te demande comment s'est passé ton week-end à la plage. Dis : malgré le froid, on s'est baignés.",
+            "pt": "Um amigo pergunta como foi o seu fim de semana na praia. Diga: apesar do frio, fomos nadar.",
+            "zh": "一个朋友问你周末去海边玩得怎么样。你说：尽管天冷，我们还是去游泳了。"
+          },
+          "accepted": [
+            "A pesar del frío, nos bañamos.",
+            "Nos bañamos a pesar del frío.",
+            "A pesar del frío, nos bañamos en el mar."
+          ],
+          "tiles": [
+            "A pesar",
+            "del frío,",
+            "nos bañamos",
+            "de que",
+            "Aunque"
+          ],
+          "en": "Despite the cold, we went for a swim.",
+          "it": "Nonostante il freddo, abbiamo fatto il bagno.",
+          "uk": "Попри холод, ми покупалися.",
+          "de": "Trotz der Kälte sind wir schwimmen gegangen.",
+          "fr": "Malgré le froid, on s'est baignés.",
+          "pt": "Apesar do frio, fomos nadar.",
+          "zh": "尽管天冷，我们还是去游泳了。",
+          "hint": {
+            "en": "Before a noun: a pesar de; de + el = del.",
+            "it": "Davanti a un nome: a pesar de; de + el = del.",
+            "uk": "Перед іменником: a pesar de; de + el = del.",
+            "de": "Vor einem Nomen: a pesar de; de + el = del.",
+            "fr": "Devant un nom : a pesar de ; de + el = del.",
+            "pt": "Antes de um substantivo: a pesar de; de + el = del.",
+            "zh": "名词前面：a pesar de；de + el = del。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "a pesar de que",
+              "kind": "rail"
+            },
+            {
+              "text": "+",
+              "kind": "chunk"
+            },
+            {
+              "text": "llovía",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "Before a whole sentence, use a pesar de que. With the indicative, it's a fact you know, just like aunque: a pesar de que llovía, lo pasamos genial.",
+            "it": "Davanti a una frase intera si usa a pesar de que. Con l'indicativo è un fatto che conosci, come con aunque: a pesar de que llovía, lo pasamos genial.",
+            "uk": "Перед цілим реченням вживай a pesar de que. З дійсним способом («indicativo») це факт, який ти знаєш, так само як з aunque: a pesar de que llovía, lo pasamos genial.",
+            "de": "Vor einem ganzen Satz nimm a pesar de que. Mit dem Indikativ ist es eine Tatsache, die du kennst, genau wie bei aunque: a pesar de que llovía, lo pasamos genial.",
+            "fr": "Devant une phrase entière, on utilise a pesar de que. Avec l'indicatif, c'est un fait que tu connais, comme avec aunque : a pesar de que llovía, lo pasamos genial. Attention : en français, « bien que » prend toujours le subjonctif ; en espagnol, l'indicatif indique que c'est un fait.",
+            "pt": "Antes de uma frase inteira, use a pesar de que. Com o indicativo, é um fato que você conhece, igual a aunque: a pesar de que llovía, lo pasamos genial. Atenção: em português, embora pede subjuntivo mesmo para fatos (embora chovesse); em espanhol, para um fato, use o indicativo.",
+            "zh": "放在完整的句子前面，用 a pesar de que。接陈述式时，说的是你知道的事实，和 aunque 一样：a pesar de que llovía, lo pasamos genial。"
+          },
+          "examples": [
+            {
+              "es": "A pesar de que llovía, lo pasamos genial.",
+              "en": "Even though it was raining, we had a great time.",
+              "it": "Nonostante piovesse, ci siamo divertiti un sacco.",
+              "uk": "Хоча йшов дощ, ми чудово провели час.",
+              "de": "Obwohl es regnete, hatten wir eine tolle Zeit.",
+              "fr": "Même s'il pleuvait, on s'est super bien amusés.",
+              "pt": "Apesar de estar chovendo, nos divertimos muito.",
+              "zh": "虽然在下雨，我们还是玩得很开心。"
+            },
+            {
+              "es": "A pesar de que es caro, me encanta este restaurante.",
+              "en": "Even though it's expensive, I love this restaurant.",
+              "it": "Anche se è caro, adoro questo ristorante.",
+              "uk": "Хоча він дорогий, я обожнюю цей ресторан.",
+              "de": "Obwohl es teuer ist, liebe ich dieses Restaurant.",
+              "fr": "Même si c'est cher, j'adore ce restaurant.",
+              "pt": "Apesar de ser caro, adoro este restaurante.",
+              "zh": "虽然很贵，我还是很喜欢这家餐厅。"
+            },
+            {
+              "es": "A pesar de que no hablo bien español, lo entiendo bastante.",
+              "en": "Even though I don't speak Spanish well, I understand it quite well.",
+              "it": "Anche se non parlo bene spagnolo, lo capisco abbastanza.",
+              "uk": "Хоча я погано розмовляю іспанською, я досить добре її розумію.",
+              "de": "Obwohl ich nicht gut Spanisch spreche, verstehe ich es ziemlich gut.",
+              "fr": "Même si je ne parle pas bien espagnol, je le comprends assez bien.",
+              "pt": "Embora eu não fale bem espanhol, entendo bastante.",
+              "zh": "虽然我西班牙语说得不好，但我能听懂不少。"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "A pesar de que ",
+          "after": " mucho, lo pasamos genial.",
+          "options": [
+            "llovía",
+            "llueva",
+            "llover"
+          ],
+          "answer": "llovía",
+          "en": "Even though it was raining a lot, we had a great time.",
+          "it": "Nonostante piovesse molto, ci siamo divertiti un sacco.",
+          "uk": "Хоча йшов сильний дощ, ми чудово провели час.",
+          "de": "Obwohl es stark regnete, hatten wir eine tolle Zeit.",
+          "fr": "Même s'il pleuvait beaucoup, on s'est super bien amusés.",
+          "pt": "Apesar de estar chovendo muito, nos divertimos muito.",
+          "zh": "虽然雨下得很大，我们还是玩得很开心。",
+          "hint": {
+            "en": "A fact in the past: the imperfect llovía.",
+            "it": "Un fatto del passato: l'imperfetto llovía.",
+            "uk": "Факт у минулому: «imperfecto» llovía.",
+            "de": "Eine Tatsache in der Vergangenheit: das imperfecto llovía.",
+            "fr": "Un fait du passé : l'imparfait llovía.",
+            "pt": "Um fato no passado: o imperfeito llovía.",
+            "zh": "过去的事实：过去未完成时 llovía。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "fire",
+          "before": "A pesar de que ",
+          "after": " muy caro, lo compré.",
+          "label": "ser",
+          "accepted": [
+            "era"
+          ],
+          "en": "Even though it was very expensive, I bought it.",
+          "it": "Anche se era molto caro, l'ho comprato.",
+          "uk": "Хоча це було дуже дорого, я це купив(-ла).",
+          "de": "Obwohl es sehr teuer war, habe ich es gekauft.",
+          "fr": "Même s'il était très cher, je l'ai acheté.",
+          "pt": "Apesar de ser muito caro, comprei.",
+          "zh": "虽然很贵，我还是买了。",
+          "hint": {
+            "en": "A fact you know: the indicative, era.",
+            "it": "Un fatto che conosci: l'indicativo, era.",
+            "uk": "Факт, який ти знаєш: дійсний спосіб, era.",
+            "de": "Eine Tatsache, die du kennst: der Indikativ, era.",
+            "fr": "Un fait que tu connais : l'indicatif, era.",
+            "pt": "Um fato que você conhece: o indicativo, era.",
+            "zh": "你知道的事实：陈述式，era。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "a pesar de que",
+              "kind": "rail"
+            },
+            {
+              "text": "+",
+              "kind": "chunk"
+            },
+            {
+              "text": "llueva",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "With the subjunctive, it's something that may happen or that you don't know yet (even if): iremos a la playa a pesar de que llueva.",
+            "it": "Con il congiuntivo è qualcosa che potrebbe succedere o che ancora non sai (anche se): iremos a la playa a pesar de que llueva.",
+            "uk": "Із «subjuntivo» це те, що може статися або чого ти ще не знаєш (навіть якщо): iremos a la playa a pesar de que llueva.",
+            "de": "Mit dem subjuntivo ist es etwas, das passieren könnte oder das du noch nicht weißt (auch wenn): iremos a la playa a pesar de que llueva.",
+            "fr": "Avec le subjonctif, c'est quelque chose qui pourrait arriver ou que tu ne sais pas encore (même si) : iremos a la playa a pesar de que llueva. Le français dit « même si » + indicatif, alors que l'espagnol utilise ici le subjonctif.",
+            "pt": "Com o subjuntivo, é algo que pode acontecer ou que você ainda não sabe (mesmo que): iremos a la playa a pesar de que llueva. É como o nosso mesmo que + subjuntivo: mesmo que chova.",
+            "zh": "接虚拟式时，说的是可能发生或你还不知道的事（即使）：iremos a la playa a pesar de que llueva。"
+          },
+          "examples": [
+            {
+              "es": "Mañana iremos a la playa a pesar de que llueva.",
+              "en": "Tomorrow we'll go to the beach even if it rains.",
+              "it": "Domani andremo al mare anche se dovesse piovere.",
+              "uk": "Завтра ми підемо на пляж, навіть якщо буде дощ.",
+              "de": "Morgen fahren wir an den Strand, auch wenn es regnet.",
+              "fr": "Demain, on ira à la plage même s'il pleut.",
+              "pt": "Amanhã vamos à praia mesmo que chova.",
+              "zh": "明天即使下雨，我们也去海边。"
+            },
+            {
+              "es": "A pesar de que tenga mucho trabajo, iré a tu fiesta.",
+              "en": "Even if I have a lot of work, I'll come to your party.",
+              "it": "Anche se dovessi avere molto lavoro, verrò alla tua festa.",
+              "uk": "Навіть якщо в мене буде багато роботи, я прийду на твою вечірку.",
+              "de": "Auch wenn ich viel Arbeit habe, komme ich zu deiner Party.",
+              "fr": "Même si j'ai beaucoup de travail, je viendrai à ta fête.",
+              "pt": "Mesmo que eu tenha muito trabalho, vou à sua festa.",
+              "zh": "即使我工作很多，我也会去参加你的聚会。"
+            },
+            {
+              "es": "A pesar de que sea caro, lo voy a comprar.",
+              "en": "Even if it's expensive, I'm going to buy it.",
+              "it": "Anche se dovesse essere caro, lo comprerò.",
+              "uk": "Навіть якщо це дорого, я це куплю.",
+              "de": "Auch wenn es teuer ist, werde ich es kaufen.",
+              "fr": "Même si c'est cher, je vais l'acheter.",
+              "pt": "Mesmo que seja caro, vou comprar.",
+              "zh": "即使很贵，我也要买。"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Mañana iremos a la playa a pesar de que ",
+          "after": ".",
+          "options": [
+            "llueva",
+            "llovía",
+            "llovió"
+          ],
+          "answer": "llueva",
+          "en": "Tomorrow we'll go to the beach even if it rains.",
+          "it": "Domani andremo al mare anche se dovesse piovere.",
+          "uk": "Завтра ми підемо на пляж, навіть якщо буде дощ.",
+          "de": "Morgen fahren wir an den Strand, auch wenn es regnet.",
+          "fr": "Demain, on ira à la plage même s'il pleut.",
+          "pt": "Amanhã vamos à praia mesmo que chova.",
+          "zh": "明天即使下雨，我们也去海边。",
+          "hint": {
+            "en": "Tomorrow, not known yet: the subjunctive llueva.",
+            "it": "Domani, non si sa ancora: il congiuntivo llueva.",
+            "uk": "Завтра — ще невідомо: «subjuntivo» llueva.",
+            "de": "Morgen, noch nicht bekannt: der subjuntivo llueva.",
+            "fr": "Demain, on ne sait pas encore : le subjonctif llueva.",
+            "pt": "Amanhã, ainda não se sabe: o subjuntivo llueva.",
+            "zh": "明天的事，还不知道：虚拟式 llueva。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "A friend invites you to his party on Saturday, but you might have a lot of work. Say: I'll come even if I have a lot of work.",
+            "it": "Un amico ti invita alla sua festa sabato, ma potresti avere molto lavoro. Rispondi: verrò anche se dovessi avere molto lavoro.",
+            "uk": "Друг запрошує тебе на свою вечірку в суботу, але в тебе може бути багато роботи. Скажи: я прийду, навіть якщо в мене буде багато роботи.",
+            "de": "Ein Freund lädt dich am Samstag zu seiner Party ein, aber vielleicht hast du viel Arbeit. Sag: Ich komme, auch wenn ich viel Arbeit habe.",
+            "fr": "Un ami t'invite à sa fête samedi, mais tu risques d'avoir beaucoup de travail. Dis : je viendrai même si j'ai beaucoup de travail.",
+            "pt": "Um amigo te convida para a festa dele no sábado, mas talvez você tenha muito trabalho. Diga: eu vou mesmo que tenha muito trabalho.",
+            "zh": "一个朋友邀请你周六去参加他的聚会，但你那天可能会有很多工作。你说：即使工作很多，我也会来。"
+          },
+          "accepted": [
+            "Iré a pesar de que tenga mucho trabajo.",
+            "A pesar de que tenga mucho trabajo, iré.",
+            "Voy a ir a pesar de que tenga mucho trabajo.",
+            "Iré aunque tenga mucho trabajo."
+          ],
+          "tiles": [
+            "Iré",
+            "a pesar de que",
+            "tenga",
+            "mucho trabajo",
+            "tengo",
+            "a pesar del"
+          ],
+          "en": "I'll come even if I have a lot of work.",
+          "it": "Verrò anche se dovessi avere molto lavoro.",
+          "uk": "Я прийду, навіть якщо в мене буде багато роботи.",
+          "de": "Ich komme, auch wenn ich viel Arbeit habe.",
+          "fr": "Je viendrai même si j'ai beaucoup de travail.",
+          "pt": "Eu vou mesmo que tenha muito trabalho.",
+          "zh": "即使工作很多，我也会来。",
+          "hint": {
+            "en": "Saturday isn't here yet: the subjunctive tenga.",
+            "it": "Sabato non è ancora arrivato: il congiuntivo tenga.",
+            "uk": "Субота ще не настала: «subjuntivo» tenga.",
+            "de": "Samstag ist noch nicht da: der subjuntivo tenga.",
+            "fr": "Samedi n'est pas encore là : le subjonctif tenga.",
+            "pt": "O sábado ainda não chegou: o subjuntivo tenga.",
+            "zh": "周六还没到：虚拟式 tenga。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "Fuimos a trabajar a pesar ",
+          "after": " la huelga de metro.",
+          "options": [
+            "de",
+            "de que"
+          ],
+          "answer": "de",
+          "en": "We went to work despite the metro strike.",
+          "it": "Siamo andati a lavorare nonostante lo sciopero della metro.",
+          "uk": "Ми пішли на роботу попри страйк у метро.",
+          "de": "Wir sind trotz des U-Bahn-Streiks zur Arbeit gefahren.",
+          "fr": "Nous sommes allés travailler malgré la grève du métro.",
+          "pt": "Fomos trabalhar apesar da greve de metrô.",
+          "zh": "尽管地铁罢工，我们还是去上班了。",
+          "hint": {
+            "en": "Before a noun: a pesar de.",
+            "it": "Davanti a un nome: a pesar de.",
+            "uk": "Перед іменником: a pesar de.",
+            "de": "Vor einem Nomen: a pesar de.",
+            "fr": "Devant un nom : a pesar de.",
+            "pt": "Antes de um substantivo: a pesar de.",
+            "zh": "名词前面：a pesar de。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "A pesar de que ayer ",
+          "after": " enfermo, fui a trabajar.",
+          "options": [
+            "estaba",
+            "esté",
+            "estar"
+          ],
+          "answer": "estaba",
+          "en": "Even though I was ill yesterday, I went to work.",
+          "it": "Anche se ieri ero malato, sono andato a lavorare.",
+          "uk": "Хоча вчора я був хворий, я пішов на роботу.",
+          "de": "Obwohl ich gestern krank war, bin ich zur Arbeit gegangen.",
+          "fr": "Même si j'étais malade hier, je suis allé travailler.",
+          "pt": "Apesar de estar doente ontem, fui trabalhar.",
+          "zh": "虽然我昨天病了，我还是去上班了。",
+          "hint": {
+            "en": "A fact in the past: the imperfect estaba.",
+            "it": "Un fatto del passato: l'imperfetto estaba.",
+            "uk": "Факт у минулому: «imperfecto» estaba.",
+            "de": "Eine Tatsache in der Vergangenheit: das imperfecto estaba.",
+            "fr": "Un fait du passé : l'imparfait estaba.",
+            "pt": "Um fato no passado: o imperfeito estaba.",
+            "zh": "过去的事实：过去未完成时 estaba。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "mix",
+          "intention": {
+            "en": "A Spanish friend says your Spanish is getting really good. Say: even though I don't speak well, I understand everything.",
+            "it": "Un amico spagnolo ti dice che il tuo spagnolo sta migliorando molto. Rispondi: anche se non parlo bene, capisco tutto.",
+            "uk": "Друг-іспанець каже, що твоя іспанська стає дуже доброю. Скажи: хоча я погано розмовляю, я все розумію.",
+            "de": "Ein spanischer Freund sagt, dass dein Spanisch richtig gut wird. Sag: Obwohl ich nicht gut spreche, verstehe ich alles.",
+            "fr": "Un ami espagnol te dit que ton espagnol fait de vrais progrès. Dis : même si je ne parle pas bien, je comprends tout.",
+            "pt": "Um amigo espanhol diz que o seu espanhol está ficando muito bom. Diga: embora eu não fale bem, entendo tudo.",
+            "zh": "一个西班牙朋友说你的西班牙语进步很大。你说：虽然我说得不好，但我什么都听得懂。"
+          },
+          "accepted": [
+            "A pesar de que no hablo bien, lo entiendo todo.",
+            "Aunque no hablo bien, lo entiendo todo.",
+            "A pesar de que no hablo bien, entiendo todo."
+          ],
+          "tiles": [
+            "A pesar de que",
+            "no hablo",
+            "bien,",
+            "lo entiendo",
+            "todo",
+            "hable",
+            "A pesar del"
+          ],
+          "en": "Even though I don't speak well, I understand everything.",
+          "it": "Anche se non parlo bene, capisco tutto.",
+          "uk": "Хоча я погано розмовляю, я все розумію.",
+          "de": "Obwohl ich nicht gut spreche, verstehe ich alles.",
+          "fr": "Même si je ne parle pas bien, je comprends tout.",
+          "pt": "Embora eu não fale bem, entendo tudo.",
+          "zh": "虽然我说得不好，但我什么都听得懂。",
+          "hint": {
+            "en": "A fact about you: the indicative, hablo.",
+            "it": "Un fatto su di te: l'indicativo, hablo.",
+            "uk": "Факт про тебе: дійсний спосіб, hablo.",
+            "de": "Eine Tatsache über dich: der Indikativ, hablo.",
+            "fr": "Un fait sur toi : l'indicatif, hablo.",
+            "pt": "Um fato sobre você: o indicativo, hablo.",
+            "zh": "关于你自己的事实：陈述式，hablo。"
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "A colleague asks about your trip to the mountains last weekend. Write in Spanish: «Even though it was raining, we had a great time.»",
+            "it": "Un collega ti chiede della gita in montagna dello scorso fine settimana. Scrivi in spagnolo: «Nonostante piovesse, ci siamo divertiti un sacco.»",
+            "uk": "Колега питає про твою поїздку в гори минулих вихідних. Напиши іспанською: «Хоча йшов дощ, ми чудово провели час.»",
+            "de": "Eine Kollegin fragt nach eurem Ausflug in die Berge letztes Wochenende. Schreib auf Spanisch: «Obwohl es regnete, hatten wir eine tolle Zeit.»",
+            "fr": "Un collègue te demande comment s'est passée ton excursion à la montagne le week-end dernier. Écris en espagnol : «Même s'il pleuvait, on s'est super bien amusés.»",
+            "pt": "Um colega pergunta sobre a sua viagem para a montanha no último fim de semana. Escreva em espanhol: «Apesar de estar chovendo, nos divertimos muito.»",
+            "zh": "一个同事问起你上周末去山里玩的事。用西班牙语写：«虽然在下雨，我们还是玩得很开心。»"
+          },
+          "accepted": [
+            "A pesar de que llovía, lo pasamos genial.",
+            "Aunque llovía, lo pasamos genial.",
+            "A pesar de la lluvia, lo pasamos genial.",
+            "A pesar de que llovía, lo pasamos muy bien.",
+            "Aunque llovía, lo pasamos muy bien.",
+            "Lo pasamos genial a pesar de que llovía.",
+            "Lo pasamos genial a pesar de la lluvia.",
+            "A pesar de que estaba lloviendo, lo pasamos genial."
+          ],
+          "model": {
+            "es": "A pesar de que llovía, lo pasamos genial.",
+            "en": "Even though it was raining, we had a great time.",
+            "it": "Nonostante piovesse, ci siamo divertiti un sacco.",
+            "uk": "Хоча йшов дощ, ми чудово провели час.",
+            "de": "Obwohl es regnete, hatten wir eine tolle Zeit.",
+            "fr": "Même s'il pleuvait, on s'est super bien amusés.",
+            "pt": "Apesar de estar chovendo, nos divertimos muito.",
+            "zh": "虽然在下雨，我们还是玩得很开心。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u42l4",
+      "goal": {
+        "en": "Set a condition with siempre que + the subjunctive (puedes salir, siempre que vuelvas antes de las doce), tell it from siempre que + the indicative (whenever), and make it firmer with siempre y cuando.",
+        "it": "Poni una condizione con siempre que + il congiuntivo (puedes salir, siempre que vuelvas antes de las doce), distinguilo da siempre que + l'indicativo (ogni volta che), e rendila più decisa con siempre y cuando.",
+        "uk": "Став умову за допомогою siempre que + «subjuntivo» (puedes salir, siempre que vuelvas antes de las doce), відрізняй її від siempre que + дійсний спосіб (щоразу, коли) і роби її твердішою за допомогою siempre y cuando.",
+        "de": "Stell mit siempre que + subjuntivo eine Bedingung (puedes salir, siempre que vuelvas antes de las doce), unterscheide es von siempre que + Indikativ (immer wenn) und mach die Bedingung mit siempre y cuando strenger.",
+        "fr": "Pose une condition avec siempre que + le subjonctif (puedes salir, siempre que vuelvas antes de las doce), distingue-le de siempre que + l'indicatif (chaque fois que), et rends-la plus ferme avec siempre y cuando.",
+        "pt": "Estabeleça uma condição com siempre que + o subjuntivo (puedes salir, siempre que vuelvas antes de las doce), diferencie de siempre que + o indicativo (sempre que, toda vez que) e deixe a condição mais firme com siempre y cuando.",
+        "zh": "用 siempre que + 虚拟式提出条件（puedes salir, siempre que vuelvas antes de las doce），把它和 siempre que + 陈述式（每当）区分开，并用 siempre y cuando 让条件更坚决。"
+      },
+      "target": {
+        "es": "Puedes salir, siempre que vuelvas antes de las doce.",
+        "en": "You can go out, as long as you come back before twelve.",
+        "it": "Puoi uscire, purché torni prima di mezzanotte.",
+        "uk": "Можеш піти погуляти, за умови що повернешся до дванадцятої.",
+        "de": "Du darfst ausgehen, solange du vor zwölf zurückkommst.",
+        "fr": "Tu peux sortir, à condition que tu rentres avant minuit.",
+        "pt": "Você pode sair, desde que volte antes da meia-noite.",
+        "zh": "你可以出去，只要你十二点前回来。"
+      },
+      "names": [
+        "Madrid",
+        "el Prado"
+      ],
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "siempre que",
+              "en": "as long as (+ subjunctive); whenever (+ indicative)",
+              "it": "purché (+ congiuntivo); ogni volta che (+ indicativo)",
+              "uk": "за умови що (+ «subjuntivo»); щоразу, коли (+ дійсний спосіб)",
+              "de": "solange (+ subjuntivo); immer wenn (+ Indikativ)",
+              "fr": "à condition que (+ subjonctif) ; chaque fois que (+ indicatif)",
+              "pt": "desde que (+ subjuntivo); sempre que (+ indicativo)",
+              "zh": "只要（+ 虚拟式）；每当（+ 陈述式）",
+              "kind": "rail"
+            },
+            {
+              "es": "siempre y cuando",
+              "en": "as long as, provided that",
+              "it": "purché, a patto che",
+              "uk": "за умови що, лише якщо",
+              "de": "vorausgesetzt, dass; sofern",
+              "fr": "à condition que, pourvu que",
+              "pt": "desde que, contanto que",
+              "zh": "只要、前提是",
+              "kind": "rail"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "siempre que",
+              "kind": "rail"
+            },
+            {
+              "text": "+",
+              "kind": "chunk"
+            },
+            {
+              "text": "vuelvas",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "siempre que + the subjunctive sets a condition, like as long as: puedes salir, siempre que vuelvas antes de las doce.",
+            "it": "siempre que + il congiuntivo pone una condizione, come purché: puedes salir, siempre que vuelvas antes de las doce.",
+            "uk": "siempre que + «subjuntivo» ставить умову, як «за умови що»: puedes salir, siempre que vuelvas antes de las doce.",
+            "de": "siempre que + subjuntivo stellt eine Bedingung, wie „solange“: puedes salir, siempre que vuelvas antes de las doce.",
+            "fr": "siempre que + le subjonctif pose une condition, comme « à condition que » (qui prend aussi le subjonctif en français) : puedes salir, siempre que vuelvas antes de las doce.",
+            "pt": "siempre que + o subjuntivo estabelece uma condição, como o nosso desde que: puedes salir, siempre que vuelvas antes de las doce (você pode sair, desde que volte antes da meia-noite). Cuidado: o desde que espanhol só quer dizer «desde quando», nunca uma condição.",
+            "zh": "siempre que + 虚拟式提出一个条件，意思是“只要”：puedes salir, siempre que vuelvas antes de las doce。"
+          },
+          "examples": [
+            {
+              "es": "Puedes salir esta noche, siempre que vuelvas antes de las doce.",
+              "en": "You can go out tonight, as long as you come back before twelve.",
+              "it": "Puoi uscire stasera, purché torni prima di mezzanotte.",
+              "uk": "Сьогодні ввечері можеш піти погуляти, за умови що повернешся до дванадцятої.",
+              "de": "Du darfst heute Abend ausgehen, solange du vor zwölf zurückkommst.",
+              "fr": "Tu peux sortir ce soir, à condition que tu rentres avant minuit.",
+              "pt": "Você pode sair hoje à noite, desde que volte antes da meia-noite.",
+              "zh": "你今晚可以出去，只要你十二点前回来。"
+            },
+            {
+              "es": "Te dejo el libro, siempre que lo cuides.",
+              "en": "I'll lend you the book, as long as you look after it.",
+              "it": "Ti presto il libro, purché tu ne abbia cura.",
+              "uk": "Я позичу тобі книжку, за умови що ти будеш її берегти.",
+              "de": "Ich leihe dir das Buch, solange du gut darauf aufpasst.",
+              "fr": "Je te prête le livre, à condition que tu en prennes soin.",
+              "pt": "Eu te empresto o livro, desde que você cuide bem dele.",
+              "zh": "我把书借给你，只要你好好爱护它。"
+            },
+            {
+              "es": "Puedes coger mi coche, siempre que me lo devuelvas mañana.",
+              "en": "You can take my car, as long as you give it back to me tomorrow.",
+              "it": "Puoi prendere la mia macchina, purché me la restituisca domani.",
+              "uk": "Можеш узяти мою машину, за умови що завтра мені її повернеш.",
+              "de": "Du kannst mein Auto nehmen, solange du es mir morgen zurückgibst.",
+              "fr": "Tu peux prendre ma voiture, à condition que tu me la rendes demain.",
+              "pt": "Você pode pegar o meu carro, desde que me devolva amanhã.",
+              "zh": "你可以开我的车，只要明天还给我。"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Puedes salir esta noche, siempre que ",
+          "after": " antes de las doce.",
+          "options": [
+            "vuelvas",
+            "vuelves",
+            "volver"
+          ],
+          "answer": "vuelvas",
+          "en": "You can go out tonight, as long as you come back before twelve.",
+          "it": "Puoi uscire stasera, purché torni prima di mezzanotte.",
+          "uk": "Сьогодні ввечері можеш піти погуляти, за умови що повернешся до дванадцятої.",
+          "de": "Du darfst heute Abend ausgehen, solange du vor zwölf zurückkommst.",
+          "fr": "Tu peux sortir ce soir, à condition que tu rentres avant minuit.",
+          "pt": "Você pode sair hoje à noite, desde que volte antes da meia-noite.",
+          "zh": "你今晚可以出去，只要你十二点前回来。",
+          "hint": {
+            "en": "A condition: siempre que + the subjunctive.",
+            "it": "Una condizione: siempre que + il congiuntivo.",
+            "uk": "Умова: siempre que + «subjuntivo».",
+            "de": "Eine Bedingung: siempre que + subjuntivo.",
+            "fr": "Une condition : siempre que + le subjonctif.",
+            "pt": "Uma condição: siempre que + o subjuntivo.",
+            "zh": "条件：siempre que + 虚拟式。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "fire",
+          "before": "Te dejo el libro, siempre que lo ",
+          "after": ".",
+          "label": "cuidar",
+          "accepted": [
+            "cuides"
+          ],
+          "en": "I'll lend you the book, as long as you look after it.",
+          "it": "Ti presto il libro, purché tu ne abbia cura.",
+          "uk": "Я позичу тобі книжку, за умови що ти будеш її берегти.",
+          "de": "Ich leihe dir das Buch, solange du gut darauf aufpasst.",
+          "fr": "Je te prête le livre, à condition que tu en prennes soin.",
+          "pt": "Eu te empresto o livro, desde que você cuide bem dele.",
+          "zh": "我把书借给你，只要你好好爱护它。",
+          "hint": {
+            "en": "A condition for tú: the subjunctive cuides.",
+            "it": "Una condizione per tú: il congiuntivo cuides.",
+            "uk": "Умова для tú: «subjuntivo» cuides.",
+            "de": "Eine Bedingung für tú: der subjuntivo cuides.",
+            "fr": "Une condition pour tú : le subjonctif cuides.",
+            "pt": "Uma condição para tú: o subjuntivo cuides.",
+            "zh": "对 tú 提出的条件：虚拟式 cuides。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "siempre que",
+              "kind": "rail"
+            },
+            {
+              "text": "+",
+              "kind": "chunk"
+            },
+            {
+              "text": "voy",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "With the indicative, siempre que isn't a condition: it means whenever, every time: siempre que voy al pueblo, visito a mi abuela.",
+            "it": "Con l'indicativo, siempre que non è una condizione: vuol dire ogni volta che: siempre que voy al pueblo, visito a mi abuela.",
+            "uk": "З дійсним способом siempre que — це не умова: воно означає «щоразу, коли»: siempre que voy al pueblo, visito a mi abuela.",
+            "de": "Mit dem Indikativ ist siempre que keine Bedingung: Es heißt „immer wenn“, „jedes Mal, wenn“: siempre que voy al pueblo, visito a mi abuela.",
+            "fr": "Avec l'indicatif, siempre que n'est pas une condition : il veut dire chaque fois que, toutes les fois que : siempre que voy al pueblo, visito a mi abuela.",
+            "pt": "Com o indicativo, siempre que não é uma condição: quer dizer sempre que, toda vez que: siempre que voy al pueblo, visito a mi abuela (sempre que vou à cidadezinha, visito a minha avó). Atenção: para o futuro, o português usa o futuro do subjuntivo (sempre que você for), mas o espanhol usa o presente do subjuntivo (siempre que vayas).",
+            "zh": "接陈述式时，siempre que 就不是条件了：意思是“每当、每次”：siempre que voy al pueblo, visito a mi abuela。"
+          },
+          "examples": [
+            {
+              "es": "Siempre que voy a Madrid, visito el Prado.",
+              "en": "Whenever I go to Madrid, I visit the Prado.",
+              "it": "Ogni volta che vado a Madrid, visito il Prado.",
+              "uk": "Щоразу, коли я їду до Мадрида, я ходжу в Прадо.",
+              "de": "Immer wenn ich in Madrid bin, gehe ich in den Prado.",
+              "fr": "Chaque fois que je vais à Madrid, je visite le Prado.",
+              "pt": "Sempre que vou a Madri, visito o Prado.",
+              "zh": "每次去马德里，我都会去普拉多博物馆。"
+            },
+            {
+              "es": "Siempre que vengo, mi abuela me hace una tortilla.",
+              "en": "Whenever I come, my grandmother makes me a tortilla.",
+              "it": "Ogni volta che vengo, mia nonna mi fa una tortilla.",
+              "uk": "Щоразу, коли я приїжджаю, бабуся готує мені тортилью.",
+              "de": "Immer wenn ich komme, macht mir meine Oma eine Tortilla.",
+              "fr": "Chaque fois que je viens, ma grand-mère me fait une tortilla.",
+              "pt": "Sempre que venho, a minha avó faz uma tortilla para mim.",
+              "zh": "每次我来，奶奶都给我做 tortilla。"
+            },
+            {
+              "es": "Siempre que llueve, hay atasco en el centro.",
+              "en": "Whenever it rains, there are traffic jams in the centre.",
+              "it": "Ogni volta che piove, c'è traffico in centro.",
+              "uk": "Щоразу, коли йде дощ, у центрі затори.",
+              "de": "Immer wenn es regnet, gibt es Stau in der Innenstadt.",
+              "fr": "Chaque fois qu'il pleut, il y a des embouteillages dans le centre.",
+              "pt": "Sempre que chove, tem engarrafamento no centro.",
+              "zh": "每次下雨，市中心都堵车。"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Siempre que ",
+          "after": " a Madrid, como en el mismo bar.",
+          "options": [
+            "voy",
+            "vaya"
+          ],
+          "answer": "voy",
+          "en": "Whenever I go to Madrid, I eat at the same bar.",
+          "it": "Ogni volta che vado a Madrid, mangio nello stesso bar.",
+          "uk": "Щоразу, коли я їду до Мадрида, я їм у тому самому барі.",
+          "de": "Immer wenn ich nach Madrid fahre, esse ich in derselben Bar.",
+          "fr": "Chaque fois que je vais à Madrid, je mange dans le même bar.",
+          "pt": "Sempre que vou a Madri, como no mesmo bar.",
+          "zh": "每次去马德里，我都在同一家酒吧吃饭。",
+          "hint": {
+            "en": "Every time, a habit: the indicative voy.",
+            "it": "Ogni volta, un'abitudine: l'indicativo voy.",
+            "uk": "Щоразу, за звичкою: дійсний спосіб voy.",
+            "de": "Jedes Mal, eine Gewohnheit: der Indikativ voy.",
+            "fr": "Chaque fois, une habitude : l'indicatif voy.",
+            "pt": "Toda vez, um hábito: o indicativo voy.",
+            "zh": "每次都这样，是习惯：陈述式 voy。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "A friend asks if you see your grandmother often. Say: whenever I go to the village, I visit my grandmother.",
+            "it": "Un amico ti chiede se vedi spesso tua nonna. Rispondi: ogni volta che vado in paese, vado a trovare mia nonna.",
+            "uk": "Друг питає, чи часто ти бачишся з бабусею. Скажи: щоразу, коли я їду в село, я відвідую бабусю.",
+            "de": "Ein Freund fragt, ob du deine Oma oft siehst. Sag: Immer wenn ich ins Dorf fahre, besuche ich meine Oma.",
+            "fr": "Un ami te demande si tu vois souvent ta grand-mère. Dis : chaque fois que je vais au village, je rends visite à ma grand-mère.",
+            "pt": "Um amigo pergunta se você vê a sua avó com frequência. Diga: sempre que vou à cidadezinha, visito a minha avó.",
+            "zh": "一个朋友问你是不是经常见奶奶。你说：每次回村里，我都去看奶奶。"
+          },
+          "accepted": [
+            "Siempre que voy al pueblo, visito a mi abuela.",
+            "Visito a mi abuela siempre que voy al pueblo."
+          ],
+          "tiles": [
+            "Siempre que",
+            "voy",
+            "al pueblo,",
+            "visito a mi abuela",
+            "vaya",
+            "Siempre y cuando"
+          ],
+          "en": "Whenever I go to the village, I visit my grandmother.",
+          "it": "Ogni volta che vado in paese, vado a trovare mia nonna.",
+          "uk": "Щоразу, коли я їду в село, я відвідую бабусю.",
+          "de": "Immer wenn ich ins Dorf fahre, besuche ich meine Oma.",
+          "fr": "Chaque fois que je vais au village, je rends visite à ma grand-mère.",
+          "pt": "Sempre que vou à cidadezinha, visito a minha avó.",
+          "zh": "每次回村里，我都去看奶奶。",
+          "hint": {
+            "en": "Every time: siempre que + the indicative voy.",
+            "it": "Ogni volta: siempre que + l'indicativo voy.",
+            "uk": "Щоразу: siempre que + дійсний спосіб voy.",
+            "de": "Jedes Mal: siempre que + der Indikativ voy.",
+            "fr": "Chaque fois : siempre que + l'indicatif voy.",
+            "pt": "Toda vez: siempre que + o indicativo voy.",
+            "zh": "每次：siempre que + 陈述式 voy。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "siempre y cuando",
+              "kind": "rail"
+            },
+            {
+              "text": "+",
+              "kind": "chunk"
+            },
+            {
+              "text": "haga",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "siempre y cuando means the same as siempre que as a condition, but it sounds firmer, and it always takes the subjunctive.",
+            "it": "siempre y cuando vuol dire lo stesso di siempre que come condizione, ma suona più deciso, e vuole sempre il congiuntivo.",
+            "uk": "siempre y cuando як умова означає те саме, що й siempre que, але звучить твердіше й завжди вимагає «subjuntivo».",
+            "de": "siempre y cuando bedeutet als Bedingung dasselbe wie siempre que, klingt aber strenger und steht immer mit dem subjuntivo.",
+            "fr": "siempre y cuando veut dire la même chose que siempre que quand il pose une condition, mais il est plus ferme, et il prend toujours le subjonctif.",
+            "pt": "siempre y cuando quer dizer o mesmo que siempre que como condição, mas soa mais firme, e sempre leva o subjuntivo.",
+            "zh": "作为条件时，siempre y cuando 和 siempre que 意思一样，但语气更坚决，而且总是接虚拟式。"
+          },
+          "examples": [
+            {
+              "es": "Iremos a la playa, siempre y cuando haga buen tiempo.",
+              "en": "We'll go to the beach, as long as the weather's good.",
+              "it": "Andremo al mare, a patto che faccia bel tempo.",
+              "uk": "Ми поїдемо на пляж, за умови що буде гарна погода.",
+              "de": "Wir fahren an den Strand, sofern das Wetter gut ist.",
+              "fr": "On ira à la plage, à condition qu'il fasse beau.",
+              "pt": "Vamos à praia, contanto que o tempo esteja bom.",
+              "zh": "我们去海边，前提是天气好。"
+            },
+            {
+              "es": "Te lo dejo, siempre y cuando me lo devuelvas mañana.",
+              "en": "I'll lend it to you, provided you give it back to me tomorrow.",
+              "it": "Te lo presto, a patto che me lo restituisca domani.",
+              "uk": "Я тобі його позичу, лише якщо завтра ти мені його повернеш.",
+              "de": "Ich leihe es dir, vorausgesetzt, du gibst es mir morgen zurück.",
+              "fr": "Je te le prête, pourvu que tu me le rendes demain.",
+              "pt": "Eu te empresto, contanto que você me devolva amanhã.",
+              "zh": "我借给你，前提是你明天还给我。"
+            },
+            {
+              "es": "Puedes venir, siempre y cuando llegues pronto.",
+              "en": "You can come, as long as you get here early.",
+              "it": "Puoi venire, purché arrivi presto.",
+              "uk": "Можеш прийти, за умови що прийдеш рано.",
+              "de": "Du kannst kommen, vorausgesetzt, du bist früh da.",
+              "fr": "Tu peux venir, à condition que tu arrives tôt.",
+              "pt": "Você pode vir, desde que chegue cedo.",
+              "zh": "你可以来，只要你早点到。"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Iremos a la playa, siempre y cuando ",
+          "after": " buen tiempo.",
+          "options": [
+            "haga",
+            "hace",
+            "hizo"
+          ],
+          "answer": "haga",
+          "en": "We'll go to the beach, as long as the weather's good.",
+          "it": "Andremo al mare, a patto che faccia bel tempo.",
+          "uk": "Ми поїдемо на пляж, за умови що буде гарна погода.",
+          "de": "Wir fahren an den Strand, sofern das Wetter gut ist.",
+          "fr": "On ira à la plage, à condition qu'il fasse beau.",
+          "pt": "Vamos à praia, contanto que o tempo esteja bom.",
+          "zh": "我们去海边，前提是天气好。",
+          "hint": {
+            "en": "siempre y cuando always takes the subjunctive: haga.",
+            "it": "siempre y cuando vuole sempre il congiuntivo: haga.",
+            "uk": "siempre y cuando завжди вимагає «subjuntivo»: haga.",
+            "de": "siempre y cuando steht immer mit dem subjuntivo: haga.",
+            "fr": "siempre y cuando prend toujours le subjonctif : haga.",
+            "pt": "siempre y cuando sempre leva o subjuntivo: haga.",
+            "zh": "siempre y cuando 总是接虚拟式：haga。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "A colleague asks if she can borrow your car. Say: I'll lend it to you, provided you give it back to me tomorrow.",
+            "it": "Una collega ti chiede se può prendere in prestito la tua macchina. Rispondi: te la presto, a patto che me la restituisca domani.",
+            "uk": "Колега питає, чи може вона позичити твою машину. Скажи: я тобі її позичу, лише якщо завтра ти мені її повернеш.",
+            "de": "Eine Kollegin fragt, ob sie sich dein Auto leihen kann. Sag: Ich leihe ihn dir (lo: el coche), vorausgesetzt, du gibst ihn mir morgen zurück.",
+            "fr": "Une collègue te demande si elle peut t'emprunter ta voiture. Dis : je te la prête, pourvu que tu me la rendes demain.",
+            "pt": "Uma colega pergunta se pode pegar o seu carro emprestado. Diga: eu te empresto, contanto que você me devolva amanhã.",
+            "zh": "一个同事问能不能借你的车。你说：我借给你，前提是你明天还给我。"
+          },
+          "accepted": [
+            "Te lo dejo, siempre y cuando me lo devuelvas mañana.",
+            "Te lo dejo, siempre que me lo devuelvas mañana.",
+            "Te lo dejo siempre y cuando me lo devuelvas mañana."
+          ],
+          "tiles": [
+            "Te lo dejo,",
+            "siempre y cuando",
+            "me lo",
+            "devuelvas",
+            "mañana",
+            "devuelves",
+            "siempre que voy"
+          ],
+          "en": "I'll lend it to you, provided you give it back to me tomorrow.",
+          "it": "Te la presto, a patto che me la restituisca domani.",
+          "uk": "Я тобі її позичу, лише якщо завтра ти мені її повернеш.",
+          "de": "Ich leihe ihn dir (lo: el coche), vorausgesetzt, du gibst ihn mir morgen zurück.",
+          "fr": "Je te la prête, pourvu que tu me la rendes demain.",
+          "pt": "Eu te empresto, contanto que você me devolva amanhã.",
+          "zh": "我借给你，前提是你明天还给我。",
+          "hint": {
+            "en": "A firm condition: siempre y cuando + the subjunctive.",
+            "it": "Una condizione decisa: siempre y cuando + il congiuntivo.",
+            "uk": "Тверда умова: siempre y cuando + «subjuntivo».",
+            "de": "Eine strenge Bedingung: siempre y cuando + subjuntivo.",
+            "fr": "Une condition ferme : siempre y cuando + le subjonctif.",
+            "pt": "Uma condição firme: siempre y cuando + o subjuntivo.",
+            "zh": "坚决的条件：siempre y cuando + 虚拟式。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "Siempre que ",
+          "after": ", hay atasco en el centro.",
+          "options": [
+            "llueve",
+            "llueva"
+          ],
+          "answer": "llueve",
+          "en": "Whenever it rains, there are traffic jams in the centre.",
+          "it": "Ogni volta che piove, c'è traffico in centro.",
+          "uk": "Щоразу, коли йде дощ, у центрі затори.",
+          "de": "Immer wenn es regnet, gibt es Stau in der Innenstadt.",
+          "fr": "Chaque fois qu'il pleut, il y a des embouteillages dans le centre.",
+          "pt": "Sempre que chove, tem engarrafamento no centro.",
+          "zh": "每次下雨，市中心都堵车。",
+          "hint": {
+            "en": "Every time it happens: the indicative llueve.",
+            "it": "Ogni volta che succede: l'indicativo llueve.",
+            "uk": "Щоразу, коли це стається: дійсний спосіб llueve.",
+            "de": "Jedes Mal, wenn es passiert: der Indikativ llueve.",
+            "fr": "Chaque fois que ça arrive : l'indicatif llueve.",
+            "pt": "Toda vez que acontece: o indicativo llueve.",
+            "zh": "每次发生都这样：陈述式 llueve。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "Puedes venir a la fiesta, siempre que ",
+          "after": " algo de beber.",
+          "options": [
+            "traigas",
+            "traes",
+            "traer"
+          ],
+          "answer": "traigas",
+          "en": "You can come to the party, as long as you bring something to drink.",
+          "it": "Puoi venire alla festa, purché porti qualcosa da bere.",
+          "uk": "Можеш прийти на вечірку, за умови що принесеш щось випити.",
+          "de": "Du kannst zur Party kommen, solange du etwas zu trinken mitbringst.",
+          "fr": "Tu peux venir à la fête, à condition que tu apportes quelque chose à boire.",
+          "pt": "Você pode vir à festa, desde que traga alguma coisa para beber.",
+          "zh": "你可以来参加聚会，只要你带点喝的来。",
+          "hint": {
+            "en": "A condition: the subjunctive traigas.",
+            "it": "Una condizione: il congiuntivo traigas.",
+            "uk": "Умова: «subjuntivo» traigas.",
+            "de": "Eine Bedingung: der subjuntivo traigas.",
+            "fr": "Une condition : le subjonctif traigas.",
+            "pt": "Uma condição: o subjuntivo traigas.",
+            "zh": "条件：虚拟式 traigas。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "mix",
+          "before": "Vale, te ayudo con la mudanza, siempre y cuando tú me ",
+          "after": " a mí el mes que viene.",
+          "label": "ayudar",
+          "accepted": [
+            "ayudes"
+          ],
+          "en": "OK, I'll help you with the move, as long as you help me next month.",
+          "it": "Va bene, ti aiuto con il trasloco, purché tu aiuti me il mese prossimo.",
+          "uk": "Гаразд, я допоможу тобі з переїздом, лише якщо наступного місяця ти допоможеш мені.",
+          "de": "Okay, ich helfe dir beim Umzug, vorausgesetzt, du hilfst mir nächsten Monat.",
+          "fr": "D'accord, je t'aide pour le déménagement, pourvu que tu m'aides le mois prochain.",
+          "pt": "Tá bom, eu te ajudo com a mudança, contanto que você me ajude no mês que vem.",
+          "zh": "好吧，我帮你搬家，前提是下个月你也帮我。",
+          "hint": {
+            "en": "siempre y cuando + the subjunctive: ayudes.",
+            "it": "siempre y cuando + il congiuntivo: ayudes.",
+            "uk": "siempre y cuando + «subjuntivo»: ayudes.",
+            "de": "siempre y cuando + subjuntivo: ayudes.",
+            "fr": "siempre y cuando + le subjonctif : ayudes.",
+            "pt": "siempre y cuando + o subjuntivo: ayudes.",
+            "zh": "siempre y cuando + 虚拟式：ayudes。"
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "Your teenage son asks if he can go out tonight. Write in Spanish: «You can go out, as long as you come back before twelve.»",
+            "it": "Tuo figlio adolescente ti chiede se può uscire stasera. Scrivi in spagnolo: «Puoi uscire, purché torni prima di mezzanotte.»",
+            "uk": "Твій син-підліток питає, чи можна йому сьогодні ввечері піти погуляти. Напиши іспанською: «Можеш піти погуляти, за умови що повернешся до дванадцятої.»",
+            "de": "Dein Sohn im Teenageralter fragt, ob er heute Abend ausgehen darf. Schreib auf Spanisch: «Du darfst ausgehen, solange du vor zwölf zurückkommst.»",
+            "fr": "Ton fils adolescent te demande s'il peut sortir ce soir. Écris en espagnol : «Tu peux sortir, à condition que tu rentres avant minuit.»",
+            "pt": "O seu filho adolescente pergunta se pode sair hoje à noite. Escreva em espanhol: «Você pode sair, desde que volte antes da meia-noite.»",
+            "zh": "你十几岁的儿子问今晚能不能出去。用西班牙语写：«你可以出去，只要你十二点前回来。»"
+          },
+          "accepted": [
+            "Puedes salir, siempre que vuelvas antes de las doce.",
+            "Puedes salir, siempre y cuando vuelvas antes de las doce.",
+            "Puedes salir siempre que vuelvas antes de las doce.",
+            "Puedes salir siempre y cuando vuelvas antes de las doce.",
+            "Puedes salir, siempre que vuelvas a casa antes de las doce.",
+            "Puedes salir, siempre y cuando vuelvas a casa antes de las doce."
+          ],
+          "model": {
+            "es": "Puedes salir, siempre que vuelvas antes de las doce.",
+            "en": "You can go out, as long as you come back before twelve.",
+            "it": "Puoi uscire, purché torni prima di mezzanotte.",
+            "uk": "Можеш піти погуляти, за умови що повернешся до дванадцятої.",
+            "de": "Du darfst ausgehen, solange du vor zwölf zurückkommst.",
+            "fr": "Tu peux sortir, à condition que tu rentres avant minuit.",
+            "pt": "Você pode sair, desde que volte antes da meia-noite.",
+            "zh": "你可以出去，只要你十二点前回来。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u42l5",
+      "goal": {
+        "en": "Bring in a contrast formally with no obstante (however, nevertheless), say even so with aun así, and choose between aunque (one sentence) and no obstante (a new sentence).",
+        "it": "Introduci un contrasto in modo formale con no obstante (tuttavia, ciononostante), di' comunque con aun así, e scegli tra aunque (una sola frase) e no obstante (una frase nuova).",
+        "uk": "Офіційно вводь протиставлення за допомогою no obstante (проте, тим не менш), кажи «і все одно» за допомогою aun así і вибирай між aunque (одне речення) та no obstante (нове речення).",
+        "de": "Leite mit no obstante förmlich einen Gegensatz ein (jedoch, dennoch), sag mit aun así „trotzdem“ und wähle zwischen aunque (ein Satz) und no obstante (ein neuer Satz).",
+        "fr": "Introduis une opposition de façon soutenue avec no obstante (cependant, néanmoins), dis quand même avec aun así, et choisis entre aunque (une seule phrase) et no obstante (une nouvelle phrase).",
+        "pt": "Introduza um contraste de forma formal com no obstante (no entanto, contudo), diga mesmo assim com aun así e escolha entre aunque (uma só frase) e no obstante (uma frase nova).",
+        "zh": "用 no obstante（然而、不过）正式地引出转折，用 aun así 说“即便如此”，并在 aunque（同一个句子）和 no obstante（新的句子）之间做出选择。"
+      },
+      "target": {
+        "es": "El proyecto es caro. No obstante, creemos que es una buena idea.",
+        "en": "The project is expensive. Nevertheless, we think it's a good idea.",
+        "it": "Il progetto è costoso. Tuttavia, crediamo che sia una buona idea.",
+        "uk": "Проєкт дорогий. Проте ми вважаємо, що це добра ідея.",
+        "de": "Das Projekt ist teuer. Dennoch halten wir es für eine gute Idee.",
+        "fr": "Le projet coûte cher. Néanmoins, nous pensons que c'est une bonne idée.",
+        "pt": "O projeto é caro. No entanto, achamos que é uma boa ideia.",
+        "zh": "这个项目很贵。不过，我们认为这是个好主意。"
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "no obstante",
+              "en": "however, nevertheless",
+              "it": "tuttavia, ciononostante",
+              "uk": "проте, тим не менш",
+              "de": "jedoch, dennoch",
+              "fr": "cependant, néanmoins",
+              "pt": "no entanto, contudo",
+              "zh": "然而、不过",
+              "kind": "rail"
+            },
+            {
+              "es": "aun así",
+              "en": "even so",
+              "it": "comunque, lo stesso",
+              "uk": "і все одно, все ж",
+              "de": "trotzdem",
+              "fr": "quand même, malgré tout",
+              "pt": "mesmo assim",
+              "zh": "即便如此、尽管这样",
+              "kind": "rail"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "….",
+              "kind": "chunk"
+            },
+            {
+              "text": "No obstante,",
+              "kind": "rail"
+            },
+            {
+              "text": "…",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "no obstante means the same as sin embargo (however), but it's more formal: for meetings, presentations and writing. It starts the new sentence, with a comma after it.",
+            "it": "no obstante vuol dire lo stesso di sin embargo (però, tuttavia), ma è più formale: per riunioni, presentazioni e testi scritti. Apre la frase nuova ed è seguito da una virgola.",
+            "uk": "no obstante означає те саме, що й sin embargo (однак), але звучить офіційніше: для нарад, презентацій і письмових текстів. З нього починається нове речення, а після нього ставиться кома.",
+            "de": "no obstante bedeutet dasselbe wie sin embargo (aber, jedoch), ist aber förmlicher: für Besprechungen, Präsentationen und Texte. Es beginnt den neuen Satz, mit einem Komma danach.",
+            "fr": "no obstante veut dire la même chose que sin embargo (cependant), mais il est plus soutenu : pour les réunions, les présentations et l'écrit. Il ouvre la nouvelle phrase et il est suivi d'une virgule.",
+            "pt": "no obstante quer dizer o mesmo que sin embargo (porém, no entanto), mas é mais formal: para reuniões, apresentações e textos escritos. Abre a frase nova, com uma vírgula depois.",
+            "zh": "no obstante 和 sin embargo（然而）意思一样，但更正式：用于会议、演讲和书面语。它放在新句子的开头，后面加逗号。"
+          },
+          "examples": [
+            {
+              "es": "El proyecto es interesante. No obstante, es muy caro.",
+              "en": "The project is interesting. However, it's very expensive.",
+              "it": "Il progetto è interessante. Tuttavia, è molto caro.",
+              "uk": "Проєкт цікавий. Проте він дуже дорогий.",
+              "de": "Das Projekt ist interessant. Allerdings ist es sehr teuer.",
+              "fr": "Le projet est intéressant. Cependant, il coûte très cher.",
+              "pt": "O projeto é interessante. No entanto, é muito caro.",
+              "zh": "这个项目很有意思。然而，它非常贵。"
+            },
+            {
+              "es": "El hotel es caro; no obstante, merece la pena.",
+              "en": "The hotel is expensive; nevertheless, it's worth it.",
+              "it": "L'albergo è caro; tuttavia, ne vale la pena.",
+              "uk": "Готель дорогий; проте він того вартий.",
+              "de": "Das Hotel ist teuer; dennoch lohnt es sich.",
+              "fr": "L'hôtel est cher ; néanmoins, il en vaut la peine.",
+              "pt": "O hotel é caro; no entanto, vale a pena.",
+              "zh": "这家酒店很贵；不过，很值得。"
+            },
+            {
+              "es": "El viaje fue largo. No obstante, lo pasamos genial.",
+              "en": "The journey was long. Nevertheless, we had a great time.",
+              "it": "Il viaggio è stato lungo. Ciononostante, ci siamo divertiti un sacco.",
+              "uk": "Подорож була довгою. Проте ми чудово провели час.",
+              "de": "Die Reise war lang. Dennoch hatten wir eine tolle Zeit.",
+              "fr": "Le voyage a été long. Néanmoins, on s'est super bien amusés.",
+              "pt": "A viagem foi longa. Contudo, nos divertimos muito.",
+              "zh": "旅途很长。不过，我们玩得很开心。"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "El proyecto es interesante. No ",
+          "after": ", es muy caro.",
+          "options": [
+            "obstante",
+            "embargo",
+            "tanto"
+          ],
+          "answer": "obstante",
+          "en": "The project is interesting. However, it's very expensive.",
+          "it": "Il progetto è interessante. Tuttavia, è molto caro.",
+          "uk": "Проєкт цікавий. Проте він дуже дорогий.",
+          "de": "Das Projekt ist interessant. Allerdings ist es sehr teuer.",
+          "fr": "Le projet est intéressant. Cependant, il coûte très cher.",
+          "pt": "O projeto é interessante. No entanto, é muito caro.",
+          "zh": "这个项目很有意思。然而，它非常贵。",
+          "hint": {
+            "en": "The formal however: no obstante (or sin embargo).",
+            "it": "Il tuttavia formale: no obstante (o sin embargo).",
+            "uk": "Офіційне «проте»: no obstante (або sin embargo).",
+            "de": "Das förmliche „jedoch“: no obstante (oder sin embargo).",
+            "fr": "Le « cependant » soutenu : no obstante (ou sin embargo).",
+            "pt": "O no entanto formal: no obstante (ou sin embargo).",
+            "zh": "正式的“然而”：no obstante（或 sin embargo）。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "In a meeting, your boss asks what you think of a new plan. Say: the plan is good. However, we need more time.",
+            "it": "In una riunione, il tuo capo ti chiede cosa pensi di un nuovo piano. Rispondi: il piano è buono. Tuttavia, ci serve più tempo.",
+            "uk": "На нараді начальник питає, що ти думаєш про новий план. Скажи: план добрий. Проте нам потрібно більше часу.",
+            "de": "In einer Besprechung fragt dich dein Chef, was du von einem neuen Plan hältst. Sag: Der Plan ist gut. Allerdings brauchen wir mehr Zeit.",
+            "fr": "En réunion, ton chef te demande ce que tu penses d'un nouveau plan. Dis : le plan est bon. Cependant, nous avons besoin de plus de temps.",
+            "pt": "Em uma reunião, o seu chefe pergunta o que você acha de um plano novo. Diga: o plano é bom. No entanto, precisamos de mais tempo.",
+            "zh": "开会时，老板问你对一个新计划有什么看法。你说：这个计划很好。不过，我们需要更多时间。"
+          },
+          "accepted": [
+            "El plan es bueno. No obstante, necesitamos más tiempo.",
+            "El plan es bueno. Sin embargo, necesitamos más tiempo.",
+            "El plan es bueno; no obstante, necesitamos más tiempo."
+          ],
+          "tiles": [
+            "El plan es bueno.",
+            "No obstante,",
+            "necesitamos",
+            "más tiempo",
+            "Por lo tanto,",
+            "necesito"
+          ],
+          "en": "The plan is good. However, we need more time.",
+          "it": "Il piano è buono. Tuttavia, ci serve più tempo.",
+          "uk": "План добрий. Проте нам потрібно більше часу.",
+          "de": "Der Plan ist gut. Allerdings brauchen wir mehr Zeit.",
+          "fr": "Le plan est bon. Cependant, nous avons besoin de plus de temps.",
+          "pt": "O plano é bom. No entanto, precisamos de mais tempo.",
+          "zh": "这个计划很好。不过，我们需要更多时间。",
+          "hint": {
+            "en": "A contrast at a meeting: no obstante.",
+            "it": "Un contrasto in una riunione: no obstante.",
+            "uk": "Протиставлення на нараді: no obstante.",
+            "de": "Ein Gegensatz in einer Besprechung: no obstante.",
+            "fr": "Une opposition en réunion : no obstante.",
+            "pt": "Um contraste em uma reunião: no obstante.",
+            "zh": "会议上的转折：no obstante。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "….",
+              "kind": "chunk"
+            },
+            {
+              "text": "Aun así,",
+              "kind": "rail"
+            },
+            {
+              "text": "…",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "aun así (even so) admits the problem and goes ahead anyway. It's common in conversation. This aun has no accent.",
+            "it": "aun así (comunque, lo stesso) ammette il problema e va avanti lo stesso. È frequente nella conversazione. Questo aun non ha l'accento.",
+            "uk": "aun así (і все одно) визнає проблему, але все одно діє далі. Його часто вживають у розмові. Це aun пишеться без наголосу.",
+            "de": "aun así (trotzdem) gibt das Problem zu und macht trotzdem weiter. Es ist im Gespräch sehr üblich. Dieses aun hat keinen Akzent.",
+            "fr": "aun así (quand même) reconnaît le problème mais continue malgré tout. C'est courant dans la conversation. Ce aun ne prend pas d'accent.",
+            "pt": "aun así (mesmo assim) admite o problema e segue em frente assim mesmo. É comum na conversa. Este aun não tem acento.",
+            "zh": "aun así（即便如此）承认有问题，但照样去做。在日常对话中很常用。这里的 aun 不带重音符号。"
+          },
+          "examples": [
+            {
+              "es": "Es caro. Aun así, lo voy a comprar.",
+              "en": "It's expensive. Even so, I'm going to buy it.",
+              "it": "È caro. Lo compro lo stesso.",
+              "uk": "Це дорого. І все одно я це куплю.",
+              "de": "Es ist teuer. Trotzdem werde ich es kaufen.",
+              "fr": "C'est cher. Je vais quand même l'acheter.",
+              "pt": "É caro. Mesmo assim, vou comprar.",
+              "zh": "很贵。即便如此，我还是要买。"
+            },
+            {
+              "es": "Estaba cansada; aun así, fui a la fiesta.",
+              "en": "I was tired; even so, I went to the party.",
+              "it": "Ero stanca; sono andata comunque alla festa.",
+              "uk": "Я була втомлена; і все одно пішла на вечірку.",
+              "de": "Ich war müde (eine Frau spricht); trotzdem bin ich zur Party gegangen.",
+              "fr": "J'étais fatiguée ; je suis quand même allée à la fête.",
+              "pt": "Eu estava cansada; mesmo assim, fui à festa.",
+              "zh": "我很累；即便如此，我还是去了聚会。"
+            },
+            {
+              "es": "Llovía mucho. Aun así, salimos.",
+              "en": "It was raining hard. Even so, we went out.",
+              "it": "Pioveva molto. Siamo usciti lo stesso.",
+              "uk": "Ішов сильний дощ. І все одно ми вийшли.",
+              "de": "Es regnete stark. Trotzdem sind wir rausgegangen.",
+              "fr": "Il pleuvait fort. On est quand même sortis.",
+              "pt": "Estava chovendo forte. Mesmo assim, saímos.",
+              "zh": "雨下得很大。即便如此，我们还是出去了。"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Estaba muy cansado. ",
+          "after": " así, fui a la fiesta.",
+          "options": [
+            "Aun",
+            "Aunque",
+            "Por"
+          ],
+          "answer": "Aun",
+          "en": "I was very tired. Even so, I went to the party.",
+          "it": "Ero molto stanco. Sono andato comunque alla festa.",
+          "uk": "Я був дуже втомлений. І все одно пішов на вечірку.",
+          "de": "Ich war sehr müde. Trotzdem bin ich zur Party gegangen.",
+          "fr": "J'étais très fatigué. Je suis quand même allé à la fête.",
+          "pt": "Eu estava muito cansado. Mesmo assim, fui à festa.",
+          "zh": "我很累。即便如此，我还是去了聚会。",
+          "hint": {
+            "en": "Even so: aun así.",
+            "it": "Comunque: aun así.",
+            "uk": "І все одно: aun así.",
+            "de": "Trotzdem: aun así.",
+            "fr": "Quand même : aun así.",
+            "pt": "Mesmo assim: aun así.",
+            "zh": "即便如此：aun así。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "A friend says the concert tickets are really expensive. Say: I know. Even so, I'm going to buy them.",
+            "it": "Un amico ti dice che i biglietti del concerto sono carissimi. Rispondi: lo so. Li compro lo stesso.",
+            "uk": "Друг каже, що квитки на концерт дуже дорогі. Скажи: я знаю. І все одно я їх куплю.",
+            "de": "Ein Freund sagt, dass die Konzertkarten echt teuer sind. Sag: Ich weiß. Trotzdem werde ich sie (las: las entradas) kaufen.",
+            "fr": "Un ami te dit que les billets du concert sont vraiment chers. Dis : je sais. Je vais quand même les acheter.",
+            "pt": "Um amigo diz que os ingressos do show estão caríssimos. Diga: eu sei. Mesmo assim, vou comprar.",
+            "zh": "一个朋友说演唱会的票特别贵。你说：我知道。即便如此，我还是要买。"
+          },
+          "accepted": [
+            "Ya lo sé. Aun así, las voy a comprar.",
+            "Ya lo sé. Aun así, voy a comprarlas.",
+            "Lo sé. Aun así, las voy a comprar.",
+            "Ya lo sé. Aun así, las compro."
+          ],
+          "tiles": [
+            "Ya lo sé.",
+            "Aun así,",
+            "las voy",
+            "a comprar",
+            "Aunque",
+            "por lo tanto"
+          ],
+          "en": "I know. Even so, I'm going to buy them.",
+          "it": "Lo so. Li compro lo stesso.",
+          "uk": "Я знаю. І все одно я їх куплю.",
+          "de": "Ich weiß. Trotzdem werde ich sie (las: las entradas) kaufen.",
+          "fr": "Je sais. Je vais quand même les acheter.",
+          "pt": "Eu sei. Mesmo assim, vou comprar.",
+          "zh": "我知道。即便如此，我还是要买。",
+          "hint": {
+            "en": "Admit it and go ahead: aun así.",
+            "it": "Ammetti il problema e vai avanti: aun así.",
+            "uk": "Визнай проблему й дій далі: aun así.",
+            "de": "Gib es zu und mach weiter: aun así.",
+            "fr": "Reconnais le problème et continue : aun así.",
+            "pt": "Admita o problema e siga em frente: aun así.",
+            "zh": "承认问题，照样去做：aun así。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "Aunque…,",
+              "kind": "rail"
+            },
+            {
+              "text": "/",
+              "kind": "chunk"
+            },
+            {
+              "text": "…. No obstante,",
+              "kind": "rail"
+            }
+          ],
+          "rule": {
+            "en": "aunque joins the two facts in one sentence. no obstante and aun así start a new sentence, after a full stop or a semicolon.",
+            "it": "aunque unisce i due fatti in una sola frase. no obstante e aun así aprono una frase nuova, dopo un punto o un punto e virgola.",
+            "uk": "aunque поєднує два факти в одному реченні. no obstante та aun así починають нове речення після крапки або крапки з комою.",
+            "de": "aunque verbindet die beiden Tatsachen in einem Satz. no obstante und aun así beginnen einen neuen Satz, nach einem Punkt oder Semikolon.",
+            "fr": "aunque réunit les deux faits en une seule phrase. no obstante et aun así ouvrent une nouvelle phrase, après un point ou un point-virgule.",
+            "pt": "aunque junta os dois fatos em uma só frase. no obstante e aun así começam uma frase nova, depois de um ponto ou de um ponto e vírgula.",
+            "zh": "aunque 把两件事连在同一个句子里。no obstante 和 aun así 则放在新句子的开头，前面是句号或分号。"
+          },
+          "examples": [
+            {
+              "es": "Aunque el proyecto es caro, creemos que es una buena idea.",
+              "en": "Although the project is expensive, we think it's a good idea.",
+              "it": "Anche se il progetto è costoso, crediamo che sia una buona idea.",
+              "uk": "Хоча проєкт дорогий, ми вважаємо, що це добра ідея.",
+              "de": "Obwohl das Projekt teuer ist, halten wir es für eine gute Idee.",
+              "fr": "Même si le projet coûte cher, nous pensons que c'est une bonne idée.",
+              "pt": "Embora o projeto seja caro, achamos que é uma boa ideia.",
+              "zh": "虽然这个项目很贵，但我们认为这是个好主意。"
+            },
+            {
+              "es": "El proyecto es caro. No obstante, creemos que es una buena idea.",
+              "en": "The project is expensive. Nevertheless, we think it's a good idea.",
+              "it": "Il progetto è costoso. Tuttavia, crediamo che sia una buona idea.",
+              "uk": "Проєкт дорогий. Проте ми вважаємо, що це добра ідея.",
+              "de": "Das Projekt ist teuer. Dennoch halten wir es für eine gute Idee.",
+              "fr": "Le projet coûte cher. Néanmoins, nous pensons que c'est une bonne idée.",
+              "pt": "O projeto é caro. No entanto, achamos que é uma boa ideia.",
+              "zh": "这个项目很贵。不过，我们认为这是个好主意。"
+            },
+            {
+              "es": "Aunque llovía, salimos.",
+              "en": "Although it was raining, we went out.",
+              "it": "Anche se pioveva, siamo usciti.",
+              "uk": "Хоча йшов дощ, ми вийшли.",
+              "de": "Obwohl es regnete, sind wir rausgegangen.",
+              "fr": "Même s'il pleuvait, nous sommes sortis.",
+              "pt": "Embora estivesse chovendo, saímos.",
+              "zh": "虽然在下雨，我们还是出去了。"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "",
+          "after": " el proyecto es caro, creemos que es una buena idea.",
+          "options": [
+            "Aunque",
+            "No obstante"
+          ],
+          "answer": "Aunque",
+          "en": "Although the project is expensive, we think it's a good idea.",
+          "it": "Anche se il progetto è costoso, crediamo che sia una buona idea.",
+          "uk": "Хоча проєкт дорогий, ми вважаємо, що це добра ідея.",
+          "de": "Obwohl das Projekt teuer ist, halten wir es für eine gute Idee.",
+          "fr": "Même si le projet coûte cher, nous pensons que c'est une bonne idée.",
+          "pt": "Embora o projeto seja caro, achamos que é uma boa ideia.",
+          "zh": "虽然这个项目很贵，但我们认为这是个好主意。",
+          "hint": {
+            "en": "Both facts in one sentence: aunque.",
+            "it": "Due fatti in una sola frase: aunque.",
+            "uk": "Обидва факти в одному реченні: aunque.",
+            "de": "Beide Tatsachen in einem Satz: aunque.",
+            "fr": "Les deux faits en une seule phrase : aunque.",
+            "pt": "Os dois fatos em uma só frase: aunque.",
+            "zh": "两件事在同一个句子里：aunque。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "fire",
+          "before": "El proyecto es caro. ",
+          "after": ", creemos que es una buena idea.",
+          "options": [
+            "No obstante",
+            "Aunque"
+          ],
+          "answer": "No obstante",
+          "en": "The project is expensive. Nevertheless, we think it's a good idea.",
+          "it": "Il progetto è costoso. Tuttavia, crediamo che sia una buona idea.",
+          "uk": "Проєкт дорогий. Проте ми вважаємо, що це добра ідея.",
+          "de": "Das Projekt ist teuer. Dennoch halten wir es für eine gute Idee.",
+          "fr": "Le projet coûte cher. Néanmoins, nous pensons que c'est une bonne idée.",
+          "pt": "O projeto é caro. No entanto, achamos que é uma boa ideia.",
+          "zh": "这个项目很贵。不过，我们认为这是个好主意。",
+          "hint": {
+            "en": "A new sentence after the full stop: no obstante.",
+            "it": "Una frase nuova dopo il punto: no obstante.",
+            "uk": "Нове речення після крапки: no obstante.",
+            "de": "Ein neuer Satz nach dem Punkt: no obstante.",
+            "fr": "Une nouvelle phrase après le point : no obstante.",
+            "pt": "Uma frase nova depois do ponto: no obstante.",
+            "zh": "句号后的新句子：no obstante。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "El viaje fue muy largo; ",
+          "after": ", lo pasamos genial.",
+          "options": [
+            "no obstante",
+            "por lo tanto",
+            "ya que"
+          ],
+          "answer": "no obstante",
+          "en": "The journey was very long; nevertheless, we had a great time.",
+          "it": "Il viaggio è stato molto lungo; ciononostante, ci siamo divertiti un sacco.",
+          "uk": "Подорож була дуже довгою; проте ми чудово провели час.",
+          "de": "Die Reise war sehr lang; dennoch hatten wir eine tolle Zeit.",
+          "fr": "Le voyage a été très long ; néanmoins, on s'est super bien amusés.",
+          "pt": "A viagem foi muito longa; contudo, nos divertimos muito.",
+          "zh": "旅途很长；不过，我们玩得很开心。",
+          "hint": {
+            "en": "Two facts that clash: no obstante.",
+            "it": "Due fatti in contrasto: no obstante.",
+            "uk": "Два факти, що суперечать один одному: no obstante.",
+            "de": "Zwei Tatsachen, die sich widersprechen: no obstante.",
+            "fr": "Deux faits qui s'opposent : no obstante.",
+            "pt": "Dois fatos que se chocam: no obstante.",
+            "zh": "两件相互矛盾的事：no obstante。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "Hace frío. ",
+          "after": ", vamos a la playa.",
+          "options": [
+            "Aun así",
+            "Aunque",
+            "Ya que"
+          ],
+          "answer": "Aun así",
+          "en": "It's cold. Even so, we're going to the beach.",
+          "it": "Fa freddo. Andiamo al mare lo stesso.",
+          "uk": "Холодно. І все одно ми йдемо на пляж.",
+          "de": "Es ist kalt. Trotzdem fahren wir an den Strand.",
+          "fr": "Il fait froid. On va quand même à la plage.",
+          "pt": "Está frio. Mesmo assim, vamos à praia.",
+          "zh": "天很冷。即便如此，我们还是去海边。",
+          "hint": {
+            "en": "A new sentence, going ahead anyway: aun así.",
+            "it": "Una frase nuova, si va avanti lo stesso: aun así.",
+            "uk": "Нове речення, і все одно діємо далі: aun así.",
+            "de": "Ein neuer Satz, und es geht trotzdem weiter: aun así.",
+            "fr": "Une nouvelle phrase, on continue malgré tout : aun así.",
+            "pt": "Uma frase nova, seguindo em frente assim mesmo: aun así.",
+            "zh": "新的句子，照样去做：aun así。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "mix",
+          "intention": {
+            "en": "A friend asks about the flat you've just seen. Say: the flat is small. However, it's very nice.",
+            "it": "Un amico ti chiede dell'appartamento che hai appena visto. Rispondi: l'appartamento è piccolo. Tuttavia, è molto carino.",
+            "uk": "Друг питає про квартиру, яку ти щойно оглянув(-ла). Скажи: квартира маленька. Проте вона дуже гарна.",
+            "de": "Ein Freund fragt nach der Wohnung, die du dir gerade angesehen hast. Sag: Die Wohnung ist klein. Allerdings ist sie sehr schön.",
+            "fr": "Un ami te demande comment est l'appartement que tu viens de visiter. Dis : l'appartement est petit. Cependant, il est très joli.",
+            "pt": "Um amigo pergunta sobre o apartamento que você acabou de ver. Diga: o apartamento é pequeno. No entanto, é muito bonito.",
+            "zh": "一个朋友问起你刚看过的那套公寓。你说：这套公寓很小。不过，非常漂亮。"
+          },
+          "accepted": [
+            "El piso es pequeño. No obstante, es muy bonito.",
+            "El piso es pequeño. Sin embargo, es muy bonito.",
+            "El piso es pequeño. Aun así, es muy bonito.",
+            "El piso es pequeño; no obstante, es muy bonito.",
+            "Aunque el piso es pequeño, es muy bonito."
+          ],
+          "tiles": [
+            "El piso es pequeño.",
+            "No obstante,",
+            "es muy bonito",
+            "Aunque",
+            "ya que"
+          ],
+          "en": "The flat is small. However, it's very nice.",
+          "it": "L'appartamento è piccolo. Tuttavia, è molto carino.",
+          "uk": "Квартира маленька. Проте вона дуже гарна.",
+          "de": "Die Wohnung ist klein. Allerdings ist sie sehr schön.",
+          "fr": "L'appartement est petit. Cependant, il est très joli.",
+          "pt": "O apartamento é pequeno. No entanto, é muito bonito.",
+          "zh": "这套公寓很小。不过，非常漂亮。",
+          "hint": {
+            "en": "A new sentence that clashes: no obstante.",
+            "it": "Una frase nuova in contrasto: no obstante.",
+            "uk": "Нове речення, яке суперечить попередньому: no obstante.",
+            "de": "Ein neuer Satz mit Gegensatz: no obstante.",
+            "fr": "Une nouvelle phrase qui s'oppose : no obstante.",
+            "pt": "Uma frase nova que contrasta: no obstante.",
+            "zh": "转折的新句子：no obstante。"
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "You're recommending a hotel to a client. Write in Spanish: «The hotel is expensive. However, it's worth it.»",
+            "it": "Consigli un albergo a un cliente. Scrivi in spagnolo: «L'albergo è caro. Tuttavia, ne vale la pena.»",
+            "uk": "Ти радиш готель клієнтові. Напиши іспанською: «Готель дорогий. Проте він того вартий.»",
+            "de": "Du empfiehlst einem Kunden ein Hotel. Schreib auf Spanisch: «Das Hotel ist teuer. Allerdings lohnt es sich.»",
+            "fr": "Tu recommandes un hôtel à un client. Écris en espagnol : «L'hôtel est cher. Cependant, il en vaut la peine.»",
+            "pt": "Você está recomendando um hotel a um cliente. Escreva em espanhol: «O hotel é caro. No entanto, vale a pena.»",
+            "zh": "你在向一位客户推荐一家酒店。用西班牙语写：«这家酒店很贵。不过，很值得。»"
+          },
+          "accepted": [
+            "El hotel es caro. No obstante, merece la pena.",
+            "El hotel es caro. Sin embargo, merece la pena.",
+            "El hotel es caro; no obstante, merece la pena.",
+            "El hotel es caro. No obstante, vale la pena.",
+            "El hotel es caro. Sin embargo, vale la pena.",
+            "Aunque el hotel es caro, merece la pena.",
+            "El hotel es caro. Aun así, merece la pena."
+          ],
+          "model": {
+            "es": "El hotel es caro. No obstante, merece la pena.",
+            "en": "The hotel is expensive. However, it's worth it.",
+            "it": "L'albergo è caro. Tuttavia, ne vale la pena.",
+            "uk": "Готель дорогий. Проте він того вартий.",
+            "de": "Das Hotel ist teuer. Allerdings lohnt es sich.",
+            "fr": "L'hôtel est cher. Cependant, il en vaut la peine.",
+            "pt": "O hotel é caro. No entanto, vale a pena.",
+            "zh": "这家酒店很贵。不过，很值得。"
+          }
+        }
+      ]
+    }
+  ],
+  "boss": {
+    "id": "u42boss",
+    "goal": {
+      "en": "The town council in {city} is choosing one neighbourhood project to pay for this year. You and your neighbours want to turn an empty plot into a community vegetable garden. You have five minutes in front of the panel: present the project and answer their objections.",
+      "it": "Il comune di {city} sceglie un progetto di quartiere da finanziare quest'anno. Tu e i tuoi vicini volete trasformare un terreno vuoto in un orto di quartiere. Hai cinque minuti davanti alla commissione: presenta il progetto e rispondi alle obiezioni.",
+      "uk": "Міська рада у місті {city} вибирає один проєкт для свого району, який фінансуватиме цього року. Ви із сусідами хочете перетворити порожню ділянку на спільний город. У тебе п'ять хвилин перед комісією: презентуй проєкт і відповідай на заперечення.",
+      "de": "Die Stadtverwaltung von {city} wählt dieses Jahr ein Projekt aus einem Viertel aus, das sie finanziert. Du und deine Nachbarn wollt ein leeres Grundstück in einen Gemeinschaftsgarten verwandeln. Du hast fünf Minuten vor der Kommission: Stell das Projekt vor und beantworte ihre Einwände.",
+      "fr": "La mairie de {city} doit choisir un projet de quartier à financer cette année. Tes voisins et toi, vous voulez transformer un terrain vague en potager partagé. Tu as cinq minutes devant la commission : présente le projet et réponds à ses objections.",
+      "pt": "A prefeitura de {city} está escolhendo um projeto de bairro para financiar este ano. Você e os seus vizinhos querem transformar um terreno baldio em uma horta comunitária. Você tem cinco minutos diante da comissão: apresente o projeto e responda às objeções.",
+      "zh": "{city}市政府今年要选一个社区项目来出资。你和邻居们想把一块空地改成社区菜园。你有五分钟在评审委员会面前：介绍这个项目，并回应他们的质疑。"
+    },
+    "items": [
+      {
+        "type": "words",
+        "words": [
+          {
+            "es": "el huerto",
+            "en": "the vegetable garden",
+            "it": "l'orto",
+            "uk": "город",
+            "de": "der Gemüsegarten",
+            "fr": "le potager",
+            "pt": "a horta",
+            "zh": "菜园",
+            "kind": "chunk"
+          },
+          {
+            "es": "la comisión",
+            "en": "the panel, the committee",
+            "it": "la commissione",
+            "uk": "комісія",
+            "de": "die Kommission, der Ausschuss",
+            "fr": "la commission, le jury",
+            "pt": "a comissão",
+            "zh": "评审委员会、委员会",
+            "kind": "chunk"
+          },
+          {
+            "es": "ningún",
+            "en": "no, not a single (before a masculine noun)",
+            "it": "nessun",
+            "uk": "жоден, ніякий (перед іменником чоловічого роду)",
+            "de": "kein, kein einziger (vor einem männlichen Nomen)",
+            "fr": "aucun (devant un nom masculin)",
+            "pt": "nenhum (antes de substantivo masculino)",
+            "zh": "没有一个（用在阳性名词前）",
+            "kind": "chunk"
+          }
+        ]
+      },
+      {
+        "type": "build",
+        "intention": {
+          "en": "Open your presentation: good morning, we want to open a vegetable garden in the neighbourhood, since there isn't a single park.",
+          "it": "Apri la presentazione: buongiorno, vogliamo aprire un orto nel quartiere, dato che non c'è nessun parco.",
+          "uk": "Почни презентацію: добрий день, ми хочемо зробити город у нашому районі, оскільки тут немає жодного парку.",
+          "de": "Eröffne deine Präsentation: Guten Morgen, wir möchten im Viertel einen Gemüsegarten anlegen, da es keinen einzigen Park gibt.",
+          "fr": "Commence ta présentation : bonjour, nous voulons ouvrir un potager dans le quartier, puisqu'il n'y a aucun parc.",
+          "pt": "Abra a sua apresentação: bom dia, queremos abrir uma horta no bairro, já que não há nenhum parque.",
+          "zh": "开始你的介绍：早上好，我们想在社区里开一个菜园，因为这里连一个公园都没有。"
+        },
+        "accepted": [
+          "Buenos días, queremos abrir un huerto en el barrio, ya que no hay ningún parque.",
+          "Buenos días, queremos abrir un huerto en el barrio, puesto que no hay ningún parque.",
+          "Buenos días, ya que no hay ningún parque, queremos abrir un huerto en el barrio."
+        ],
+        "tiles": [
+          "Buenos días,",
+          "queremos abrir",
+          "un huerto",
+          "en el barrio,",
+          "ya que",
+          "no hay ningún parque",
+          "por lo tanto"
+        ],
+        "en": "Good morning, we want to open a vegetable garden in the neighbourhood, since there isn't a single park.",
+        "it": "Buongiorno, vogliamo aprire un orto nel quartiere, dato che non c'è nessun parco.",
+        "uk": "Добрий день, ми хочемо зробити город у нашому районі, оскільки тут немає жодного парку.",
+        "de": "Guten Morgen, wir möchten im Viertel einen Gemüsegarten anlegen, da es keinen einzigen Park gibt.",
+        "fr": "Bonjour, nous voulons ouvrir un potager dans le quartier, puisqu'il n'y a aucun parc.",
+        "pt": "Bom dia, queremos abrir uma horta no bairro, já que não há nenhum parque.",
+        "zh": "早上好，我们想在社区里开一个菜园，因为这里连一个公园都没有。",
+        "hint": {
+          "en": "The reason: ya que or puesto que.",
+          "it": "La ragione: ya que o puesto que.",
+          "uk": "Причина: ya que або puesto que.",
+          "de": "Der Grund: ya que oder puesto que.",
+          "fr": "La raison : ya que ou puesto que.",
+          "pt": "O motivo: ya que ou puesto que.",
+          "zh": "原因：ya que 或 puesto que。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "",
+        "after": " los niños del barrio no tienen dónde jugar, el huerto es también para ellos.",
+        "options": [
+          "Como",
+          "Porque",
+          "Por lo tanto"
+        ],
+        "answer": "Como",
+        "en": "As the children in the neighbourhood have nowhere to play, the garden is for them too.",
+        "it": "Siccome i bambini del quartiere non hanno dove giocare, l'orto è anche per loro.",
+        "uk": "Через те що дітям з нашого району ніде гратися, город буде й для них.",
+        "de": "Da die Kinder im Viertel nirgends spielen können, ist der Garten auch für sie.",
+        "fr": "Comme les enfants du quartier n'ont nulle part où jouer, le potager est aussi pour eux.",
+        "pt": "Como as crianças do bairro não têm onde brincar, a horta também é para elas.",
+        "zh": "因为社区里的孩子们没有地方玩，所以菜园也是给他们的。",
+        "hint": {
+          "en": "The reason opens the sentence: como, not porque.",
+          "it": "La ragione apre la frase: como, non porque.",
+          "uk": "Причина відкриває речення: como, а не porque.",
+          "de": "Der Grund eröffnet den Satz: como, nicht porque.",
+          "fr": "La raison ouvre la phrase : como, pas porque.",
+          "pt": "O motivo abre a frase: como, não porque.",
+          "zh": "原因放在句首：用 como，不用 porque。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "El huerto será de todos los vecinos; ",
+        "after": ", todos pueden venir.",
+        "options": [
+          "por lo tanto",
+          "ya que",
+          "aunque"
+        ],
+        "answer": "por lo tanto",
+        "en": "The garden will belong to all the neighbours; therefore, everyone can come.",
+        "it": "L'orto sarà di tutti i vicini; pertanto, tutti possono venire.",
+        "uk": "Город належатиме всім сусідам; отже, приходити зможуть усі.",
+        "de": "Der Garten wird allen Nachbarn gehören; daher kann jeder kommen.",
+        "fr": "Le potager appartiendra à tous les voisins ; par conséquent, tout le monde pourra venir.",
+        "pt": "A horta vai ser de todos os vizinhos; portanto, todo mundo pode vir.",
+        "zh": "菜园将属于所有邻居；因此，每个人都可以来。",
+        "hint": {
+          "en": "Everyone coming is the result: por lo tanto.",
+          "it": "Che tutti possano venire è la conseguenza: por lo tanto.",
+          "uk": "Те, що всі зможуть прийти, — це наслідок: por lo tanto.",
+          "de": "Dass alle kommen können, ist die Folge: por lo tanto.",
+          "fr": "Que tout le monde puisse venir, c'est la conséquence : por lo tanto.",
+          "pt": "Todo mundo poder vir é a consequência: por lo tanto.",
+          "zh": "每个人都能来是结果：por lo tanto。"
+        }
+      },
+      {
+        "type": "build",
+        "intention": {
+          "en": "A member of the panel says «Es un proyecto muy caro». Answer: even though it's expensive, it's good for the neighbourhood.",
+          "it": "Un membro della commissione dice «Es un proyecto muy caro». Rispondi: anche se è caro, è un bene per il quartiere.",
+          "uk": "Член комісії каже: «Es un proyecto muy caro». Відповідай: хоча це дорого, це добре для району.",
+          "de": "Ein Mitglied der Kommission sagt: «Es un proyecto muy caro». Antworte: Obwohl es teuer ist, ist es gut für das Viertel.",
+          "fr": "Un membre de la commission dit «Es un proyecto muy caro». Réponds : même si c'est cher, c'est bon pour le quartier.",
+          "pt": "Um membro da comissão diz «Es un proyecto muy caro». Responda: apesar de ser caro, é bom para o bairro.",
+          "zh": "一位评审说：«Es un proyecto muy caro»。你回答：虽然很贵，但它对社区有好处。"
+        },
+        "accepted": [
+          "A pesar de que es caro, es bueno para el barrio.",
+          "Aunque es caro, es bueno para el barrio.",
+          "A pesar de que es caro, es muy bueno para el barrio."
+        ],
+        "tiles": [
+          "A pesar de que",
+          "es caro,",
+          "es bueno",
+          "para el barrio",
+          "sea",
+          "No obstante"
+        ],
+        "en": "Even though it's expensive, it's good for the neighbourhood.",
+        "it": "Anche se è caro, è un bene per il quartiere.",
+        "uk": "Хоча це дорого, це добре для району.",
+        "de": "Obwohl es teuer ist, ist es gut für das Viertel.",
+        "fr": "Même si c'est cher, c'est bon pour le quartier.",
+        "pt": "Apesar de ser caro, é bom para o bairro.",
+        "zh": "虽然很贵，但它对社区有好处。",
+        "hint": {
+          "en": "You accept it's a fact: a pesar de que + the indicative es.",
+          "it": "Accetti che è un fatto: a pesar de que + l'indicativo es.",
+          "uk": "Ти визнаєш, що це факт: a pesar de que + дійсний спосіб es.",
+          "de": "Du akzeptierst, dass es eine Tatsache ist: a pesar de que + der Indikativ es.",
+          "fr": "Tu admets que c'est un fait : a pesar de que + l'indicatif es.",
+          "pt": "Você aceita que é um fato: a pesar de que + o indicativo es.",
+          "zh": "你承认这是事实：a pesar de que + 陈述式 es。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "El presupuesto puede ser pequeño, ",
+        "after": " los vecinos van a ayudar.",
+        "options": [
+          "ya que",
+          "no obstante",
+          "aunque"
+        ],
+        "answer": "ya que",
+        "en": "The budget can be small, since the neighbours are going to help.",
+        "it": "Il budget può essere piccolo, dato che i vicini daranno una mano.",
+        "uk": "Бюджет може бути невеликим, оскільки сусіди допомагатимуть.",
+        "de": "Das Budget kann klein sein, da die Nachbarn mithelfen werden.",
+        "fr": "Le budget peut être petit, puisque les voisins vont aider.",
+        "pt": "O orçamento pode ser pequeno, já que os vizinhos vão ajudar.",
+        "zh": "预算可以很少，因为邻居们会来帮忙。",
+        "hint": {
+          "en": "The neighbours' help is the reason: ya que.",
+          "it": "L'aiuto dei vicini è la ragione: ya que.",
+          "uk": "Допомога сусідів — це причина: ya que.",
+          "de": "Die Hilfe der Nachbarn ist der Grund: ya que.",
+          "fr": "L'aide des voisins est la raison : ya que.",
+          "pt": "A ajuda dos vizinhos é o motivo: ya que.",
+          "zh": "邻居们帮忙是原因：ya que。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "Los vecinos lo van a cuidar, siempre que el ayuntamiento nos ",
+        "after": " el agua.",
+        "options": [
+          "pague",
+          "paga",
+          "pagó"
+        ],
+        "answer": "pague",
+        "en": "The neighbours will look after it, as long as the council pays for the water.",
+        "it": "I vicini se ne prenderanno cura, purché il comune ci paghi l'acqua.",
+        "uk": "Сусіди доглядатимуть за городом, за умови що міська рада платитиме нам за воду.",
+        "de": "Die Nachbarn werden sich um ihn kümmern, solange die Stadt das Wasser bezahlt.",
+        "fr": "Les voisins s'en occuperont, à condition que la mairie paie l'eau.",
+        "pt": "Os vizinhos vão cuidar dela, desde que a prefeitura pague a água.",
+        "zh": "邻居们会照料菜园，只要市政府支付水费。",
+        "hint": {
+          "en": "A condition: siempre que + the subjunctive pague.",
+          "it": "Una condizione: siempre que + il congiuntivo pague.",
+          "uk": "Умова: siempre que + «subjuntivo» pague.",
+          "de": "Eine Bedingung: siempre que + der subjuntivo pague.",
+          "fr": "Une condition : siempre que + le subjonctif pague.",
+          "pt": "Uma condição: siempre que + o subjuntivo pague.",
+          "zh": "条件：siempre que + 虚拟式 pague。"
+        }
+      },
+      {
+        "type": "gap",
+        "before": "Siempre que ",
+        "after": " por el barrio, veo niños jugando en la calle.",
+        "label": "pasar",
+        "accepted": [
+          "paso"
+        ],
+        "en": "Whenever I walk through the neighbourhood, I see children playing in the street.",
+        "it": "Ogni volta che passo per il quartiere, vedo bambini che giocano per strada.",
+        "uk": "Щоразу, коли я проходжу нашим районом, я бачу дітей, які граються на вулиці.",
+        "de": "Immer wenn ich durch das Viertel gehe, sehe ich Kinder auf der Straße spielen.",
+        "fr": "Chaque fois que je passe dans le quartier, je vois des enfants qui jouent dans la rue.",
+        "pt": "Sempre que passo pelo bairro, vejo crianças brincando na rua.",
+        "zh": "每次走过社区，我都看到孩子们在街上玩。",
+        "hint": {
+          "en": "Every time: siempre que + the indicative paso.",
+          "it": "Ogni volta: siempre que + l'indicativo paso.",
+          "uk": "Щоразу: siempre que + дійсний спосіб paso.",
+          "de": "Jedes Mal: siempre que + der Indikativ paso.",
+          "fr": "Chaque fois : siempre que + l'indicatif paso.",
+          "pt": "Toda vez: siempre que + o indicativo paso.",
+          "zh": "每次：siempre que + 陈述式 paso。"
+        }
+      },
+      {
+        "type": "build",
+        "intention": {
+          "en": "The panel asks «¿Y si es más difícil de lo que pensáis?». Answer: even if it's difficult, we're going to go on.",
+          "it": "La commissione chiede «¿Y si es más difícil de lo que pensáis?». Rispondi: anche se dovesse essere difficile, andremo avanti.",
+          "uk": "Комісія питає: «¿Y si es más difícil de lo que pensáis?». Відповідай: навіть якщо буде важко, ми продовжимо.",
+          "de": "Die Kommission fragt: «¿Y si es más difícil de lo que pensáis?». Antworte: Auch wenn es schwierig wird, machen wir weiter.",
+          "fr": "La commission demande «¿Y si es más difícil de lo que pensáis?». Réponds : même si c'est difficile, nous allons continuer.",
+          "pt": "A comissão pergunta «¿Y si es más difícil de lo que pensáis?». Responda: mesmo que seja difícil, vamos seguir em frente.",
+          "zh": "评审委员会问：«¿Y si es más difícil de lo que pensáis?»。你回答：即使会很困难，我们也会坚持下去。"
+        },
+        "accepted": [
+          "A pesar de que sea difícil, vamos a seguir.",
+          "Aunque sea difícil, vamos a seguir.",
+          "Vamos a seguir a pesar de que sea difícil."
+        ],
+        "tiles": [
+          "A pesar de que",
+          "sea",
+          "difícil,",
+          "vamos a seguir",
+          "es",
+          "Aun así"
+        ],
+        "en": "Even if it's difficult, we're going to go on.",
+        "it": "Anche se dovesse essere difficile, andremo avanti.",
+        "uk": "Навіть якщо буде важко, ми продовжимо.",
+        "de": "Auch wenn es schwierig wird, machen wir weiter.",
+        "fr": "Même si c'est difficile, nous allons continuer.",
+        "pt": "Mesmo que seja difícil, vamos seguir em frente.",
+        "zh": "即使会很困难，我们也会坚持下去。",
+        "hint": {
+          "en": "It may happen, you don't know yet: the subjunctive sea.",
+          "it": "Potrebbe succedere, non lo sai ancora: il congiuntivo sea.",
+          "uk": "Це може статися, ти ще не знаєш: «subjuntivo» sea.",
+          "de": "Es könnte passieren, du weißt es noch nicht: der subjuntivo sea.",
+          "fr": "Ça pourrait arriver, tu ne le sais pas encore : le subjonctif sea.",
+          "pt": "Pode acontecer, você ainda não sabe: o subjuntivo sea.",
+          "zh": "可能会发生，你还不知道：虚拟式 sea。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "Sabemos que es difícil. ",
+        "after": ", creemos que el barrio lo necesita.",
+        "options": [
+          "No obstante",
+          "Aunque",
+          "Ya que"
+        ],
+        "answer": "No obstante",
+        "en": "We know it's difficult. Nevertheless, we believe the neighbourhood needs it.",
+        "it": "Sappiamo che è difficile. Tuttavia, crediamo che il quartiere ne abbia bisogno.",
+        "uk": "Ми знаємо, що це важко. Проте ми вважаємо, що районові це потрібно.",
+        "de": "Wir wissen, dass es schwierig ist. Dennoch glauben wir, dass das Viertel es braucht.",
+        "fr": "Nous savons que c'est difficile. Néanmoins, nous pensons que le quartier en a besoin.",
+        "pt": "Sabemos que é difícil. No entanto, acreditamos que o bairro precisa disso.",
+        "zh": "我们知道这很难。不过，我们相信社区需要它。",
+        "hint": {
+          "en": "A formal contrast in a new sentence: no obstante.",
+          "it": "Un contrasto formale in una frase nuova: no obstante.",
+          "uk": "Офіційне протиставлення в новому реченні: no obstante.",
+          "de": "Ein förmlicher Gegensatz in einem neuen Satz: no obstante.",
+          "fr": "Une opposition soutenue dans une nouvelle phrase : no obstante.",
+          "pt": "Um contraste formal em uma frase nova: no obstante.",
+          "zh": "新句子中正式的转折：no obstante。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "El huerto no cuesta mucho; ",
+        "after": ", el ayuntamiento lo puede pagar este año.",
+        "options": [
+          "por lo tanto",
+          "a pesar de que",
+          "siempre que"
+        ],
+        "answer": "por lo tanto",
+        "en": "The garden doesn't cost much; therefore, the council can pay for it this year.",
+        "it": "L'orto non costa molto; pertanto, il comune può pagarlo quest'anno.",
+        "uk": "Город коштує недорого; отже, міська рада може оплатити його цього року.",
+        "de": "Der Garten kostet nicht viel; daher kann die Stadt ihn dieses Jahr bezahlen.",
+        "fr": "Le potager ne coûte pas cher ; par conséquent, la mairie peut le financer cette année.",
+        "pt": "A horta não custa muito; portanto, a prefeitura pode pagar por ela este ano.",
+        "zh": "菜园花不了多少钱；因此，市政府今年就能出这笔钱。",
+        "hint": {
+          "en": "Being able to pay is the result: por lo tanto.",
+          "it": "Poterlo pagare è la conseguenza: por lo tanto.",
+          "uk": "Змога заплатити — це наслідок: por lo tanto.",
+          "de": "Bezahlen zu können ist die Folge: por lo tanto.",
+          "fr": "Pouvoir le payer, c'est la conséquence : por lo tanto.",
+          "pt": "Poder pagar é a consequência: por lo tanto.",
+          "zh": "能出这笔钱是结果：por lo tanto。"
+        }
+      },
+      {
+        "type": "build",
+        "intention": {
+          "en": "The panel says «Es interesante, pero este año no hay dinero». Answer: we understand. Even so, we'd like to start this year.",
+          "it": "La commissione dice «Es interesante, pero este año no hay dinero». Rispondi: lo capiamo. Ciononostante, ci piacerebbe cominciare quest'anno.",
+          "uk": "Комісія каже: «Es interesante, pero este año no hay dinero». Відповідай: ми розуміємо. І все одно ми хотіли б почати цього року.",
+          "de": "Die Kommission sagt: «Es interesante, pero este año no hay dinero». Antworte: Das verstehen wir. Trotzdem würden wir gern dieses Jahr anfangen.",
+          "fr": "La commission dit «Es interesante, pero este año no hay dinero». Réponds : nous comprenons. Nous aimerions quand même commencer cette année.",
+          "pt": "A comissão diz «Es interesante, pero este año no hay dinero». Responda: entendemos. Mesmo assim, gostaríamos de começar este ano.",
+          "zh": "评审委员会说：«Es interesante, pero este año no hay dinero»。你回答：我们理解。即便如此，我们还是希望今年就开始。"
+        },
+        "accepted": [
+          "Lo entendemos. Aun así, nos gustaría empezar este año.",
+          "Lo entendemos. No obstante, nos gustaría empezar este año.",
+          "Lo entendemos. Sin embargo, nos gustaría empezar este año."
+        ],
+        "tiles": [
+          "Lo entendemos.",
+          "Aun así,",
+          "nos gustaría",
+          "empezar",
+          "este año",
+          "Aunque",
+          "ya que"
+        ],
+        "en": "We understand. Even so, we'd like to start this year.",
+        "it": "Lo capiamo. Ciononostante, ci piacerebbe cominciare quest'anno.",
+        "uk": "Ми розуміємо. І все одно ми хотіли б почати цього року.",
+        "de": "Das verstehen wir. Trotzdem würden wir gern dieses Jahr anfangen.",
+        "fr": "Nous comprenons. Nous aimerions quand même commencer cette année.",
+        "pt": "Entendemos. Mesmo assim, gostaríamos de começar este ano.",
+        "zh": "我们理解。即便如此，我们还是希望今年就开始。",
+        "hint": {
+          "en": "Admit their point and go ahead: aun así.",
+          "it": "Ammetti il loro punto e vai avanti: aun así.",
+          "uk": "Визнай їхню думку й дій далі: aun así.",
+          "de": "Gib zu, dass sie recht haben, und mach weiter: aun así.",
+          "fr": "Reconnais leur argument et continue : aun así.",
+          "pt": "Admita o argumento deles e siga em frente: aun así.",
+          "zh": "承认他们的看法，照样坚持：aun así。"
+        }
+      },
+      {
+        "type": "write",
+        "instruction": {
+          "en": "Close your presentation. Write in Spanish: «In conclusion, the project isn't expensive; therefore, we can start next month.»",
+          "it": "Chiudi la presentazione. Scrivi in spagnolo: «In conclusione, il progetto non è caro; pertanto, possiamo cominciare il mese prossimo.»",
+          "uk": "Заверши презентацію. Напиши іспанською: «На завершення: проєкт недорогий; отже, ми можемо почати наступного місяця.»",
+          "de": "Schließ deine Präsentation ab. Schreib auf Spanisch: «Zusammenfassend: Das Projekt ist nicht teuer; daher können wir nächsten Monat anfangen.»",
+          "fr": "Termine ta présentation. Écris en espagnol : «En conclusion, le projet n'est pas cher ; par conséquent, nous pouvons commencer le mois prochain.»",
+          "pt": "Encerre a sua apresentação. Escreva em espanhol: «Em conclusão, o projeto não é caro; portanto, podemos começar no mês que vem.»",
+          "zh": "结束你的介绍。用西班牙语写：«总之，这个项目并不贵；因此，我们下个月就可以开始。»"
+        },
+        "accepted": [
+          "En conclusión, el proyecto no es caro; por lo tanto, podemos empezar el mes que viene.",
+          "En conclusión, el proyecto no es caro. Por lo tanto, podemos empezar el mes que viene.",
+          "En conclusión, el proyecto no es caro; por lo tanto, podemos empezar el próximo mes.",
+          "En conclusión, el proyecto no es caro; de modo que podemos empezar el mes que viene.",
+          "En resumen, el proyecto no es caro; por lo tanto, podemos empezar el mes que viene."
+        ],
+        "model": {
+          "es": "En conclusión, el proyecto no es caro; por lo tanto, podemos empezar el mes que viene.",
+          "en": "In conclusion, the project isn't expensive; therefore, we can start next month.",
+          "it": "In conclusione, il progetto non è caro; pertanto, possiamo cominciare il mese prossimo.",
+          "uk": "На завершення: проєкт недорогий; отже, ми можемо почати наступного місяця.",
+          "de": "Zusammenfassend: Das Projekt ist nicht teuer; daher können wir nächsten Monat anfangen.",
+          "fr": "En conclusion, le projet n'est pas cher ; par conséquent, nous pouvons commencer le mois prochain.",
+          "pt": "Em conclusão, o projeto não é caro; portanto, podemos começar no mês que vem.",
+          "zh": "总之，这个项目并不贵；因此，我们下个月就可以开始。"
+        }
+      }
+    ]
+  }
+}

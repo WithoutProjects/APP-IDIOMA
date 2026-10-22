@@ -1,0 +1,3227 @@
+{
+  "unit": "u41",
+  "lessons": [
+    {
+      "id": "u41l1",
+      "goal": {
+        "en": "Say what you've just done with acabar de (acabo de llegar), what you do again with volver a (te vuelvo a llamar luego), and promise it won't happen again: no volverá a pasar.",
+        "it": "Di' che cosa hai appena fatto con acabar de (acabo de llegar), che cosa rifai con volver a (te vuelvo a llamar luego), e prometti che non succederà più: no volverá a pasar.",
+        "uk": "Скажи, що ти щойно зробив(-ла), за допомогою acabar de (acabo de llegar), що робиш знову — за допомогою volver a (te vuelvo a llamar luego), і пообіцяй, що таке більше не повториться: no volverá a pasar.",
+        "de": "Sag mit acabar de, was du gerade getan hast (acabo de llegar), mit volver a, was du noch einmal tust (te vuelvo a llamar luego), und versprich, dass es nicht wieder vorkommt: no volverá a pasar.",
+        "fr": "Dis ce que tu viens de faire avec acabar de (acabo de llegar), ce que tu refais avec volver a (te vuelvo a llamar luego), et promets que ça ne se reproduira plus : no volverá a pasar.",
+        "pt": "Diga o que você acabou de fazer com acabar de (acabo de llegar), o que você faz de novo com volver a (te vuelvo a llamar luego) e prometa que não vai acontecer de novo: no volverá a pasar.",
+        "zh": "用 acabar de 说你刚做完的事（acabo de llegar），用 volver a 说你再做一次的事（te vuelvo a llamar luego），并保证不会再发生：no volverá a pasar。"
+      },
+      "target": {
+        "es": "Acabo de ver tu mensaje.",
+        "en": "I've just seen your message.",
+        "it": "Ho appena visto il tuo messaggio.",
+        "uk": "Я щойно побачив(-ла) твоє повідомлення.",
+        "de": "Ich habe gerade deine Nachricht gesehen.",
+        "fr": "Je viens de voir ton message.",
+        "pt": "Acabei de ver a sua mensagem.",
+        "zh": "我刚看到你的消息。"
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "acabar de",
+              "en": "to have just (done)",
+              "it": "avere appena (fatto)",
+              "uk": "щойно (зробити)",
+              "de": "gerade (getan) haben",
+              "fr": "venir de (faire)",
+              "pt": "acabar de (fazer)",
+              "zh": "刚（做完某事）",
+              "kind": "stem"
+            },
+            {
+              "es": "volver a",
+              "en": "to (do) again",
+              "it": "tornare a (fare), rifare",
+              "uk": "знову (робити), зробити ще раз",
+              "de": "(etwas) wieder tun, noch einmal tun",
+              "fr": "(faire) de nouveau, refaire",
+              "pt": "voltar a (fazer), fazer de novo",
+              "zh": "再（做某事）、又（做某事）",
+              "kind": "stem"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "acabo",
+              "kind": "stem"
+            },
+            {
+              "text": "de",
+              "kind": "rail"
+            },
+            {
+              "text": "llegar",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "acabar de + infinitive says you've just done something, a moment ago. Spanish uses the present: acabo de llegar (I've just arrived).",
+            "it": "acabar de + infinito dice che hai appena fatto qualcosa, un attimo fa. Lo spagnolo usa il presente: acabo de llegar (sono appena arrivato).",
+            "uk": "acabar de + інфінітив означає, що ти щойно щось зробив(-ла), хвилину тому. Іспанська тут вживає теперішній час: acabo de llegar (я щойно прийшов(-ла)).",
+            "de": "acabar de + Infinitiv sagt, dass du etwas gerade eben getan hast. Das Spanische nimmt dafür das Präsens: acabo de llegar (ich bin gerade angekommen).",
+            "fr": "acabar de + infinitif dit que tu viens de faire quelque chose, il y a un instant. C'est l'équivalent exact de « venir de » : acabo de llegar (je viens d'arriver).",
+            "pt": "acabar de + infinitivo diz que você acabou de fazer algo, há um instante. Atenção: o espanhol usa o presente, onde o português usa o pretérito: acabo de llegar (acabei de chegar). E no passado, acabé de comer quer dizer «terminei de comer», não «acabei de comer agora há pouco».",
+            "zh": "acabar de + 动词原形表示你刚刚做了某事，就在片刻之前。西班牙语用现在时：acabo de llegar（我刚到）。"
+          },
+          "examples": [
+            {
+              "es": "Acabo de llegar a casa.",
+              "en": "I've just got home.",
+              "it": "Sono appena arrivato a casa.",
+              "uk": "Я щойно прийшов(-ла) додому.",
+              "de": "Ich bin gerade nach Hause gekommen.",
+              "fr": "Je viens de rentrer à la maison.",
+              "pt": "Acabei de chegar em casa.",
+              "zh": "我刚到家。"
+            },
+            {
+              "es": "Acabamos de comer, gracias.",
+              "en": "We've just eaten, thanks.",
+              "it": "Abbiamo appena mangiato, grazie.",
+              "uk": "Ми щойно поїли, дякуємо.",
+              "de": "Wir haben gerade gegessen, danke.",
+              "fr": "On vient de manger, merci.",
+              "pt": "Acabamos de comer, obrigado.",
+              "zh": "我们刚吃过饭，谢谢。"
+            },
+            {
+              "es": "Mi hermana acaba de tener un niño.",
+              "en": "My sister has just had a baby boy.",
+              "it": "Mia sorella ha appena avuto un bambino.",
+              "uk": "Моя сестра щойно народила хлопчика.",
+              "de": "Meine Schwester hat gerade einen Jungen bekommen.",
+              "fr": "Ma sœur vient d'avoir un petit garçon.",
+              "pt": "Minha irmã acabou de ter um menino.",
+              "zh": "我姐姐刚生了个男孩。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "acabo",
+              "en": "I've just (acabo de…)",
+              "it": "(io) ho appena (acabo de…)",
+              "uk": "я щойно (acabo de…)",
+              "de": "ich habe / bin gerade (acabo de…)",
+              "fr": "je viens de (acabo de…)",
+              "pt": "(eu) acabei de (acabo de…)",
+              "zh": "我刚（acabo de…）"
+            },
+            {
+              "es": "acabas",
+              "en": "you've just (acabas de…)",
+              "it": "(tu) hai appena (acabas de…)",
+              "uk": "ти щойно (acabas de…)",
+              "de": "du hast / bist gerade (acabas de…)",
+              "fr": "tu viens de (acabas de…)",
+              "pt": "(você) acabou de (acabas de…)",
+              "zh": "你刚（acabas de…）"
+            },
+            {
+              "es": "acaba",
+              "en": "he / she has just; you've just (usted)",
+              "it": "(lui / lei) ha appena; (Lei) ha appena",
+              "uk": "він / вона щойно; ви щойно (usted)",
+              "de": "er / sie hat gerade; Sie haben gerade (usted)",
+              "fr": "il / elle vient de ; vous venez de (usted)",
+              "pt": "(ele / ela) acabou de; (o senhor / a senhora) acabou de",
+              "zh": "他／她刚；您刚（usted）"
+            },
+            {
+              "es": "acabamos",
+              "en": "we've just (acabamos de…)",
+              "it": "(noi) abbiamo appena (acabamos de…)",
+              "uk": "ми щойно (acabamos de…)",
+              "de": "wir haben / sind gerade (acabamos de…)",
+              "fr": "nous venons de (acabamos de…)",
+              "pt": "(nós) acabamos de (acabamos de…)",
+              "zh": "我们刚（acabamos de…）"
+            },
+            {
+              "es": "acaban",
+              "en": "they've just (acaban de…)",
+              "it": "(loro) hanno appena (acaban de…)",
+              "uk": "вони щойно (acaban de…)",
+              "de": "sie haben / sind gerade (acaban de…)",
+              "fr": "ils / elles viennent de (acaban de…)",
+              "pt": "(eles / elas) acabaram de (acaban de…)",
+              "zh": "他们刚（acaban de…）"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Lo siento, ",
+          "after": " de ver tu mensaje.",
+          "options": [
+            "acabo",
+            "acabas",
+            "acaba"
+          ],
+          "answer": "acabo",
+          "en": "Sorry, I've just seen your message.",
+          "it": "Scusa, ho appena visto il tuo messaggio.",
+          "uk": "Вибач, я щойно побачив(-ла) твоє повідомлення.",
+          "de": "Entschuldige, ich habe gerade deine Nachricht gesehen.",
+          "fr": "Désolé, je viens de voir ton message.",
+          "pt": "Desculpa, acabei de ver a sua mensagem.",
+          "zh": "抱歉，我刚看到你的消息。",
+          "hint": {
+            "en": "I've just: yo → acabo de.",
+            "it": "Io ho appena: yo → acabo de.",
+            "uk": "Я щойно: yo → acabo de.",
+            "de": "Ich habe gerade: yo → acabo de.",
+            "fr": "Je viens de : yo → acabo de.",
+            "pt": "Eu acabei de: yo → acabo de (no presente).",
+            "zh": "我刚：yo → acabo de。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "A friend calls and asks if you're still at work. Say: no, I've just got home.",
+            "it": "Un amico ti chiama e ti chiede se sei ancora al lavoro. Rispondi: no, sono appena arrivato a casa.",
+            "uk": "Друг телефонує й питає, чи ти ще на роботі. Скажи: ні, я щойно прийшов(-ла) додому.",
+            "de": "Ein Freund ruft an und fragt, ob du noch bei der Arbeit bist. Sag: Nein, ich bin gerade nach Hause gekommen.",
+            "fr": "Un ami t'appelle et te demande si tu es encore au travail. Dis : non, je viens de rentrer à la maison.",
+            "pt": "Um amigo liga e pergunta se você ainda está no trabalho. Diga: não, acabei de chegar em casa.",
+            "zh": "一个朋友打电话问你是不是还在上班。你说：没有，我刚到家。"
+          },
+          "accepted": [
+            "No, acabo de llegar a casa."
+          ],
+          "tiles": [
+            "No,",
+            "acabo",
+            "de",
+            "llegar",
+            "a casa",
+            "a",
+            "llegado"
+          ],
+          "en": "No, I've just got home.",
+          "it": "No, sono appena arrivato a casa.",
+          "uk": "Ні, я щойно прийшов(-ла) додому.",
+          "de": "Nein, ich bin gerade nach Hause gekommen.",
+          "fr": "Non, je viens de rentrer à la maison.",
+          "pt": "Não, acabei de chegar em casa.",
+          "zh": "没有，我刚到家。",
+          "hint": {
+            "en": "acabar de + the infinitive: acabo de llegar.",
+            "it": "acabar de + l'infinito: acabo de llegar.",
+            "uk": "acabar de + інфінітив: acabo de llegar.",
+            "de": "acabar de + Infinitiv: acabo de llegar.",
+            "fr": "acabar de + l'infinitif : acabo de llegar.",
+            "pt": "acabar de + o infinitivo, no presente: acabo de llegar.",
+            "zh": "acabar de + 动词原形：acabo de llegar。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "vuelvo",
+              "kind": "stem"
+            },
+            {
+              "text": "a",
+              "kind": "rail"
+            },
+            {
+              "text": "llamar",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "volver a + infinitive means to do something again: te vuelvo a llamar luego (I'll call you again later). In English you'd often just say again.",
+            "it": "volver a + infinito vuol dire rifare qualcosa, farla di nuovo: te vuelvo a llamar luego (ti richiamo dopo).",
+            "uk": "volver a + інфінітив означає робити щось знову: te vuelvo a llamar luego (я тобі ще передзвоню пізніше). Українською тут часто кажуть просто «знову», «ще раз» або вживають префікс пере-.",
+            "de": "volver a + Infinitiv heißt, etwas noch einmal tun: te vuelvo a llamar luego (ich rufe dich später noch mal an). Im Deutschen sagst du oft einfach „wieder“ oder „noch mal“.",
+            "fr": "volver a + infinitif veut dire refaire quelque chose, le faire de nouveau : te vuelvo a llamar luego (je te rappelle plus tard). En français, on utilise souvent le préfixe re- ou « de nouveau ».",
+            "pt": "volver a + infinitivo quer dizer fazer algo de novo, como o nosso voltar a: te vuelvo a llamar luego (te ligo de novo mais tarde).",
+            "zh": "volver a + 动词原形表示再做一次某事：te vuelvo a llamar luego（我待会儿再给你打电话）。相当于中文的“再”或“又”。"
+          },
+          "examples": [
+            {
+              "es": "Ahora no puedo hablar, te vuelvo a llamar luego.",
+              "en": "I can't talk now, I'll call you back later.",
+              "it": "Ora non posso parlare, ti richiamo dopo.",
+              "uk": "Зараз не можу говорити, передзвоню тобі пізніше.",
+              "de": "Ich kann gerade nicht reden, ich rufe dich später zurück.",
+              "fr": "Je ne peux pas parler maintenant, je te rappelle plus tard.",
+              "pt": "Agora não posso falar, te ligo de volta mais tarde.",
+              "zh": "我现在不方便说话，待会儿再给你打过去。"
+            },
+            {
+              "es": "¡Vaya! Ha vuelto a llover.",
+              "en": "Oh no! It's raining again.",
+              "it": "Accidenti! Ha ripreso a piovere.",
+              "uk": "Ну от! Знову пішов дощ.",
+              "de": "Oh nein! Es regnet schon wieder.",
+              "fr": "Oh non ! Il s'est remis à pleuvoir.",
+              "pt": "Ah, não! Voltou a chover.",
+              "zh": "哎呀！又下雨了。"
+            },
+            {
+              "es": "Ayer volví a ver la película.",
+              "en": "Yesterday I watched the film again.",
+              "it": "Ieri ho rivisto il film.",
+              "uk": "Учора я ще раз подивився(-лася) цей фільм.",
+              "de": "Gestern habe ich mir den Film noch einmal angesehen.",
+              "fr": "Hier, j'ai revu le film.",
+              "pt": "Ontem vi o filme de novo.",
+              "zh": "昨天我又看了一遍那部电影。"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Ahora no puedo hablar, te vuelvo ",
+          "after": " llamar luego.",
+          "options": [
+            "a",
+            "de",
+            "en"
+          ],
+          "answer": "a",
+          "en": "I can't talk now, I'll call you back later.",
+          "it": "Ora non posso parlare, ti richiamo dopo.",
+          "uk": "Зараз не можу говорити, передзвоню тобі пізніше.",
+          "de": "Ich kann gerade nicht reden, ich rufe dich später zurück.",
+          "fr": "Je ne peux pas parler maintenant, je te rappelle plus tard.",
+          "pt": "Agora não posso falar, te ligo de volta mais tarde.",
+          "zh": "我现在不方便说话，待会儿再给你打过去。",
+          "hint": {
+            "en": "Again: volver a + infinitive.",
+            "it": "Di nuovo: volver a + infinito.",
+            "uk": "Знову: volver a + інфінітив.",
+            "de": "Noch einmal: volver a + Infinitiv.",
+            "fr": "De nouveau : volver a + infinitif.",
+            "pt": "De novo: volver a + infinitivo.",
+            "zh": "再一次：volver a + 动词原形。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "fire",
+          "before": "¡Vaya! Ha ",
+          "after": " a llover.",
+          "label": "volver",
+          "accepted": [
+            "vuelto"
+          ],
+          "en": "Oh no! It's raining again.",
+          "it": "Accidenti! Ha ripreso a piovere.",
+          "uk": "Ну от! Знову пішов дощ.",
+          "de": "Oh nein! Es regnet schon wieder.",
+          "fr": "Oh non ! Il s'est remis à pleuvoir.",
+          "pt": "Ah, não! Voltou a chover.",
+          "zh": "哎呀！又下雨了。",
+          "hint": {
+            "en": "Present perfect of volver: ha vuelto (irregular participle).",
+            "it": "Passato prossimo di volver: ha vuelto (participio irregolare).",
+            "uk": "Форма з ha від volver: ha vuelto (неправильний дієприкметник).",
+            "de": "Perfekt von volver: ha vuelto (unregelmäßiges Partizip).",
+            "fr": "Passé composé de volver : ha vuelto (participe irrégulier).",
+            "pt": "Pretérito perfecto de volver: ha vuelto (particípio irregular).",
+            "zh": "volver 的现在完成时：ha vuelto（不规则的过去分词）。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "no",
+              "kind": "rail"
+            },
+            {
+              "text": "volverá",
+              "kind": "stem"
+            },
+            {
+              "text": "a pasar",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "With no, volver a promises something won't happen again: no volverá a pasar (it won't happen again), no vuelvo a comer aquí (I'm never eating here again).",
+            "it": "Con no, volver a promette che qualcosa non succederà più: no volverá a pasar (non succederà più), no vuelvo a comer aquí (non mangio mai più qui).",
+            "uk": "Із no дієслово volver a обіцяє, що щось більше не станеться: no volverá a pasar (це більше не повториться), no vuelvo a comer aquí (я тут більше ніколи не їстиму).",
+            "de": "Mit no verspricht volver a, dass etwas nicht wieder passiert: no volverá a pasar (das wird nicht wieder vorkommen), no vuelvo a comer aquí (hier esse ich nie wieder).",
+            "fr": "Avec no, volver a promet que quelque chose ne se reproduira plus : no volverá a pasar (ça ne se reproduira plus), no vuelvo a comer aquí (je ne mange plus jamais ici).",
+            "pt": "Com no, volver a promete que algo não vai acontecer de novo: no volverá a pasar (não vai acontecer de novo), no vuelvo a comer aquí (nunca mais como aqui).",
+            "zh": "加上 no，volver a 就是保证某事不会再发生：no volverá a pasar（不会再发生了），no vuelvo a comer aquí（我再也不在这儿吃饭了）。"
+          },
+          "examples": [
+            {
+              "es": "Lo siento, no volverá a pasar.",
+              "en": "I'm sorry, it won't happen again.",
+              "it": "Mi dispiace, non succederà più.",
+              "uk": "Перепрошую, це більше не повториться.",
+              "de": "Es tut mir leid, das wird nicht wieder vorkommen.",
+              "fr": "Je suis désolé, ça ne se reproduira plus.",
+              "pt": "Desculpe, não vai acontecer de novo.",
+              "zh": "对不起，不会再发生了。"
+            },
+            {
+              "es": "No vuelvo a comer en ese restaurante.",
+              "en": "I'm never eating in that restaurant again.",
+              "it": "Non mangio mai più in quel ristorante.",
+              "uk": "Я більше ніколи не їстиму в цьому ресторані.",
+              "de": "In dem Restaurant esse ich nie wieder.",
+              "fr": "Je ne mange plus jamais dans ce restaurant.",
+              "pt": "Nunca mais como naquele restaurante.",
+              "zh": "我再也不去那家餐厅吃饭了。"
+            },
+            {
+              "es": "Te prometo que no volveré a llegar tarde.",
+              "en": "I promise I won't be late again.",
+              "it": "Ti prometto che non arriverò più in ritardo.",
+              "uk": "Обіцяю тобі, що більше не запізнюватимусь.",
+              "de": "Ich verspreche dir, dass ich nicht mehr zu spät komme.",
+              "fr": "Je te promets que je ne serai plus en retard.",
+              "pt": "Prometo que não vou mais chegar atrasado.",
+              "zh": "我保证不会再迟到了。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "volverá",
+              "en": "it / he / she will (do) again; you'll (do) again (usted)",
+              "it": "(lui / lei / esso) tornerà a (fare); (Lei) tornerà a",
+              "uk": "воно / він / вона знову (зробить); ви знову (зробите) (usted)",
+              "de": "er / sie / es wird wieder (tun); Sie werden wieder (tun) (usted)",
+              "fr": "il / elle (le fera) de nouveau ; vous (le ferez) de nouveau (usted)",
+              "pt": "(ele / ela) vai voltar a (fazer); (o senhor / a senhora) vai voltar a",
+              "zh": "它／他／她会再（做某事）；您会再（usted）"
+            },
+            {
+              "es": "volveré",
+              "en": "I'll (do) again",
+              "it": "(io) tornerò a (fare)",
+              "uk": "я знову (зроблю)",
+              "de": "ich werde wieder (tun)",
+              "fr": "je (le ferai) de nouveau",
+              "pt": "(eu) vou voltar a (fazer)",
+              "zh": "我会再（做某事）"
+            },
+            {
+              "es": "pasará",
+              "en": "it will happen",
+              "it": "succederà",
+              "uk": "станеться",
+              "de": "es wird passieren",
+              "fr": "ça arrivera",
+              "pt": "vai acontecer",
+              "zh": "（某事）会发生"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Perdone, no ",
+          "after": " a pasar.",
+          "options": [
+            "volverá",
+            "vuelto",
+            "volver"
+          ],
+          "answer": "volverá",
+          "en": "I'm sorry, it won't happen again.",
+          "it": "Mi scusi, non succederà più.",
+          "uk": "Вибачте, це більше не повториться.",
+          "de": "Es tut mir leid, das wird nicht wieder vorkommen.",
+          "fr": "Je suis désolé, ça ne se reproduira plus.",
+          "pt": "Desculpe, não vai acontecer de novo.",
+          "zh": "对不起，不会再发生了。",
+          "hint": {
+            "en": "A promise about the future: no volverá a pasar.",
+            "it": "Una promessa sul futuro: no volverá a pasar.",
+            "uk": "Обіцянка на майбутнє: no volverá a pasar.",
+            "de": "Ein Versprechen für die Zukunft: no volverá a pasar.",
+            "fr": "Une promesse pour l'avenir : no volverá a pasar.",
+            "pt": "Uma promessa sobre o futuro: no volverá a pasar.",
+            "zh": "对将来的保证：no volverá a pasar。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "You've just had a terrible meal with a friend. Tell her: I'm never eating in that restaurant again.",
+            "it": "Hai appena mangiato malissimo con un'amica. Dille: non mangio mai più in quel ristorante.",
+            "uk": "Ти щойно жахливо пообідав(-ла) з подругою. Скажи їй: я більше ніколи не їстиму в цьому ресторані.",
+            "de": "Du hast gerade mit einer Freundin furchtbar schlecht gegessen. Sag ihr: In dem Restaurant esse ich nie wieder.",
+            "fr": "Tu viens de très mal manger avec une amie. Dis-lui : je ne mange plus jamais dans ce restaurant.",
+            "pt": "Você acabou de comer muito mal com uma amiga. Diga a ela: nunca mais como naquele restaurante.",
+            "zh": "你刚和一个朋友吃了一顿很糟糕的饭。对她说：我再也不去那家餐厅吃饭了。"
+          },
+          "accepted": [
+            "No vuelvo a comer en ese restaurante.",
+            "No volveré a comer en ese restaurante.",
+            "En ese restaurante no vuelvo a comer."
+          ],
+          "tiles": [
+            "No",
+            "vuelvo",
+            "a",
+            "comer",
+            "en ese restaurante",
+            "de",
+            "vuelto"
+          ],
+          "en": "I'm never eating in that restaurant again.",
+          "it": "Non mangio mai più in quel ristorante.",
+          "uk": "Я більше ніколи не їстиму в цьому ресторані.",
+          "de": "In dem Restaurant esse ich nie wieder.",
+          "fr": "Je ne mange plus jamais dans ce restaurant.",
+          "pt": "Nunca mais como naquele restaurante.",
+          "zh": "我再也不去那家餐厅吃饭了。",
+          "hint": {
+            "en": "no + volver a: no vuelvo a comer.",
+            "it": "no + volver a: no vuelvo a comer.",
+            "uk": "no + volver a: no vuelvo a comer.",
+            "de": "no + volver a: no vuelvo a comer.",
+            "fr": "no + volver a : no vuelvo a comer.",
+            "pt": "no + volver a: no vuelvo a comer.",
+            "zh": "no + volver a：no vuelvo a comer。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "¿Mi hermano? No está, ",
+          "after": " de salir.",
+          "options": [
+            "acaba",
+            "acabo",
+            "acaban"
+          ],
+          "answer": "acaba",
+          "en": "My brother? He isn't in, he's just gone out.",
+          "it": "Mio fratello? Non c'è, è appena uscito.",
+          "uk": "Мій брат? Його немає, він щойно вийшов.",
+          "de": "Mein Bruder? Er ist nicht da, er ist gerade weggegangen.",
+          "fr": "Mon frère ? Il n'est pas là, il vient de sortir.",
+          "pt": "Meu irmão? Ele não está, acabou de sair.",
+          "zh": "我哥哥？他不在，刚出去了。",
+          "hint": {
+            "en": "He has just: él → acaba de.",
+            "it": "Lui ha appena: él → acaba de.",
+            "uk": "Він щойно: él → acaba de.",
+            "de": "Er hat gerade: él → acaba de.",
+            "fr": "Il vient de : él → acaba de.",
+            "pt": "Ele acabou de: él → acaba de.",
+            "zh": "他刚：él → acaba de。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "mix",
+          "before": "Me encantó el libro: lo voy a ",
+          "after": " a leer.",
+          "label": "volver",
+          "accepted": [
+            "volver"
+          ],
+          "en": "I loved the book: I'm going to read it again.",
+          "it": "Il libro mi è piaciuto tantissimo: lo rileggerò.",
+          "uk": "Мені дуже сподобалася книжка: я збираюся прочитати її ще раз.",
+          "de": "Das Buch hat mir total gefallen: Ich werde es noch einmal lesen.",
+          "fr": "J'ai adoré ce livre : je vais le relire.",
+          "pt": "Adorei o livro: vou ler de novo.",
+          "zh": "我太喜欢这本书了，我要再读一遍。",
+          "hint": {
+            "en": "After voy a comes the infinitive: voy a volver a leer.",
+            "it": "Dopo voy a ci vuole l'infinito: voy a volver a leer.",
+            "uk": "Після voy a іде інфінітив: voy a volver a leer.",
+            "de": "Nach voy a kommt der Infinitiv: voy a volver a leer.",
+            "fr": "Après voy a vient l'infinitif : voy a volver a leer.",
+            "pt": "Depois de voy a vem o infinitivo: voy a volver a leer.",
+            "zh": "voy a 后面接动词原形：voy a volver a leer。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "mix",
+          "intention": {
+            "en": "A friend offers you and your partner something to eat. Say: no thanks, we've just eaten.",
+            "it": "Un amico offre qualcosa da mangiare a te e al tuo compagno. Rispondi: no grazie, abbiamo appena mangiato.",
+            "uk": "Друг пропонує тобі та твоїй другій половинці щось поїсти. Скажи: ні, дякую, ми щойно поїли.",
+            "de": "Ein Freund bietet dir und deinem Partner etwas zu essen an. Sag: Nein danke, wir haben gerade gegessen.",
+            "fr": "Un ami vous propose quelque chose à manger, à toi et à ton compagnon. Dis : non merci, on vient de manger.",
+            "pt": "Um amigo oferece algo para comer a você e ao seu parceiro. Diga: não, obrigado, acabamos de comer.",
+            "zh": "一个朋友请你和你的伴侣吃东西。你说：不用了，谢谢，我们刚吃过。"
+          },
+          "accepted": [
+            "No, gracias, acabamos de comer."
+          ],
+          "tiles": [
+            "No, gracias,",
+            "acabamos",
+            "de",
+            "comer",
+            "acabo",
+            "a"
+          ],
+          "en": "No thanks, we've just eaten.",
+          "it": "No grazie, abbiamo appena mangiato.",
+          "uk": "Ні, дякую, ми щойно поїли.",
+          "de": "Nein danke, wir haben gerade gegessen.",
+          "fr": "Non merci, on vient de manger.",
+          "pt": "Não, obrigado, acabamos de comer.",
+          "zh": "不用了，谢谢，我们刚吃过。",
+          "hint": {
+            "en": "We have just: nosotros → acabamos de.",
+            "it": "Noi abbiamo appena: nosotros → acabamos de.",
+            "uk": "Ми щойно: nosotros → acabamos de.",
+            "de": "Wir haben gerade: nosotros → acabamos de.",
+            "fr": "Nous venons de : nosotros → acabamos de.",
+            "pt": "Nós acabamos de: nosotros → acabamos de.",
+            "zh": "我们刚：nosotros → acabamos de。"
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "You arrived late at work and your boss isn't happy. Write in Spanish: «I'm sorry, it won't happen again.»",
+            "it": "Sei arrivato tardi al lavoro e il tuo capo non è contento. Scrivi in spagnolo: «Mi scusi, non succederà più.»",
+            "uk": "Ти запізнився(-лася) на роботу, і начальник незадоволений. Напиши іспанською: «Перепрошую, це більше не повториться.»",
+            "de": "Du bist zu spät zur Arbeit gekommen und dein Chef ist nicht begeistert. Schreib auf Spanisch: «Es tut mir leid, das wird nicht wieder vorkommen.»",
+            "fr": "Tu es arrivé en retard au travail et ton chef n'est pas content. Écris en espagnol : «Je suis désolé, ça ne se reproduira plus.»",
+            "pt": "Você chegou atrasado ao trabalho e o seu chefe não está contente. Escreva em espanhol: «Desculpe, não vai acontecer de novo.»",
+            "zh": "你上班迟到了，老板很不高兴。用西班牙语写：«对不起，不会再发生了。»"
+          },
+          "accepted": [
+            "Lo siento, no volverá a pasar.",
+            "Perdone, no volverá a pasar.",
+            "Perdón, no volverá a pasar.",
+            "Lo siento, no va a volver a pasar.",
+            "Perdone, no va a volver a pasar.",
+            "Lo siento mucho, no volverá a pasar.",
+            "Lo siento, no vuelve a pasar."
+          ],
+          "model": {
+            "es": "Lo siento, no volverá a pasar.",
+            "en": "I'm sorry, it won't happen again.",
+            "it": "Mi scusi, non succederà più.",
+            "uk": "Перепрошую, це більше не повториться.",
+            "de": "Es tut mir leid, das wird nicht wieder vorkommen.",
+            "fr": "Je suis désolé, ça ne se reproduira plus.",
+            "pt": "Desculpe, não vai acontecer de novo.",
+            "zh": "对不起，不会再发生了。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u41l2",
+      "goal": {
+        "en": "Say what's still going on with seguir + gerund (sigo viviendo en el mismo barrio), how long you've been doing something with llevar (llevo dos años estudiando español), and what still hasn't happened with seguir sin and llevar sin.",
+        "it": "Di' che cosa continua ancora con seguir + gerundio (sigo viviendo en el mismo barrio), da quanto tempo fai qualcosa con llevar (llevo dos años estudiando español), e che cosa non è ancora successo con seguir sin e llevar sin.",
+        "uk": "Скажи, що досі триває, за допомогою seguir + герундій (sigo viviendo en el mismo barrio), скільки часу ти вже щось робиш — за допомогою llevar (llevo dos años estudiando español), і чого досі не сталося — за допомогою seguir sin і llevar sin.",
+        "de": "Sag mit seguir + Gerundium, was immer noch andauert (sigo viviendo en el mismo barrio), mit llevar, seit wann du etwas tust (llevo dos años estudiando español), und mit seguir sin und llevar sin, was immer noch nicht passiert ist.",
+        "fr": "Dis ce qui continue encore avec seguir + gérondif (sigo viviendo en el mismo barrio), depuis combien de temps tu fais quelque chose avec llevar (llevo dos años estudiando español), et ce qui n'est toujours pas arrivé avec seguir sin et llevar sin.",
+        "pt": "Diga o que continua acontecendo com seguir + gerúndio (sigo viviendo en el mismo barrio), há quanto tempo você faz algo com llevar (llevo dos años estudiando español) e o que ainda não aconteceu com seguir sin e llevar sin.",
+        "zh": "用 seguir + -ando/-iendo 形式说仍在继续的事（sigo viviendo en el mismo barrio），用 llevar 说你做某事多久了（llevo dos años estudiando español），用 seguir sin 和 llevar sin 说还没发生的事。"
+      },
+      "target": {
+        "es": "Llevo dos años estudiando español.",
+        "en": "I've been learning Spanish for two years.",
+        "it": "Studio spagnolo da due anni.",
+        "uk": "Я вже два роки вивчаю іспанську.",
+        "de": "Ich lerne seit zwei Jahren Spanisch.",
+        "fr": "J'apprends l'espagnol depuis deux ans.",
+        "pt": "Estudo espanhol há dois anos.",
+        "zh": "我学西班牙语两年了。"
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "¿cuánto tiempo llevas…?",
+              "en": "how long have you been…?",
+              "it": "da quanto tempo…? (tu)",
+              "uk": "скільки часу ти вже…?",
+              "de": "Wie lange schon …? (du)",
+              "fr": "depuis combien de temps… ? (tu)",
+              "pt": "há quanto tempo você…?",
+              "zh": "你……多久了？",
+              "kind": "chunk"
+            },
+            {
+              "es": "lloviendo",
+              "en": "raining (gerund of llover)",
+              "it": "piovendo (gerundio di llover)",
+              "uk": "дощить, іде дощ (герундій від llover)",
+              "de": "regnend (Gerundium von llover)",
+              "fr": "en train de pleuvoir (gérondif de llover)",
+              "pt": "chovendo (gerúndio de llover)",
+              "zh": "正在下雨（llover 的 -iendo 形式）",
+              "kind": "stem"
+            },
+            {
+              "es": "saliendo",
+              "en": "going out, dating (gerund of salir)",
+              "it": "uscendo, frequentandosi (gerundio di salir)",
+              "uk": "виходячи; зустрічаючись (з кимось) (герундій від salir)",
+              "de": "ausgehend, zusammen sein (Gerundium von salir)",
+              "fr": "en train de sortir, sortir ensemble (gérondif de salir)",
+              "pt": "saindo, namorando (gerúndio de salir)",
+              "zh": "出去；在谈恋爱（salir 的 -iendo 形式）",
+              "kind": "stem"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "sigo",
+              "kind": "stem"
+            },
+            {
+              "text": "viviendo",
+              "kind": "ending"
+            }
+          ],
+          "rule": {
+            "en": "seguir + gerund says something is still going on: sigo viviendo aquí = todavía vivo aquí (I still live here). The gerund ends in -ando (AR verbs) or -iendo (ER and IR verbs).",
+            "it": "seguir + gerundio dice che qualcosa continua ancora: sigo viviendo aquí = todavía vivo aquí (abito ancora qui). Il gerundio finisce in -ando (verbi in AR) o -iendo (verbi in ER e IR).",
+            "uk": "seguir + герундій означає, що щось досі триває: sigo viviendo aquí = todavía vivo aquí (я досі живу тут). Герундій закінчується на -ando (дієслова на -AR) або на -iendo (дієслова на -ER та -IR).",
+            "de": "seguir + Gerundium sagt, dass etwas immer noch andauert: sigo viviendo aquí = todavía vivo aquí (ich wohne immer noch hier). Das Gerundium endet auf -ando (Verben auf -ar) oder -iendo (Verben auf -er und -ir).",
+            "fr": "seguir + gérondif dit que quelque chose continue encore : sigo viviendo aquí = todavía vivo aquí (j'habite toujours ici). Le gérondif se termine en -ando (verbes en AR) ou -iendo (verbes en ER et IR).",
+            "pt": "seguir + gerúndio diz que algo continua acontecendo, como o nosso continuar / seguir + gerúndio: sigo viviendo aquí = todavía vivo aquí (ainda moro aqui). O gerúndio termina em -ando (verbos em AR) ou -iendo (verbos em ER e IR).",
+            "zh": "seguir + -ando/-iendo 形式表示某事还在继续：sigo viviendo aquí = todavía vivo aquí（我还住在这儿）。AR 动词加 -ando，ER 和 IR 动词加 -iendo。"
+          },
+          "examples": [
+            {
+              "es": "Sigo viviendo en el mismo barrio.",
+              "en": "I still live in the same neighbourhood.",
+              "it": "Abito ancora nello stesso quartiere.",
+              "uk": "Я досі живу в тому самому районі.",
+              "de": "Ich wohne immer noch im selben Viertel.",
+              "fr": "J'habite toujours dans le même quartier.",
+              "pt": "Ainda moro no mesmo bairro.",
+              "zh": "我还住在原来那个街区。"
+            },
+            {
+              "es": "¿Sigues trabajando en {work}?",
+              "en": "Are you still working {workEn}?",
+              "it": "Lavori ancora {workIt}?",
+              "uk": "Ти досі працюєш {workUk}?",
+              "de": "Arbeitest du immer noch {workDe}?",
+              "fr": "Tu travailles toujours {workFr} ?",
+              "pt": "Você ainda trabalha {workPt}?",
+              "zh": "你还{workZh}工作吗？"
+            },
+            {
+              "es": "Sigue lloviendo.",
+              "en": "It's still raining.",
+              "it": "Continua a piovere.",
+              "uk": "Досі йде дощ.",
+              "de": "Es regnet immer noch.",
+              "fr": "Il pleut toujours.",
+              "pt": "Continua chovendo.",
+              "zh": "还在下雨。"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Hoy salgo tarde: sigo ",
+          "after": " en la oficina.",
+          "options": [
+            "trabajando",
+            "trabajar",
+            "trabajado"
+          ],
+          "answer": "trabajando",
+          "en": "I'm leaving late today: I'm still working at the office.",
+          "it": "Oggi esco tardi: sto ancora lavorando in ufficio.",
+          "uk": "Сьогодні я пізно піду з роботи: я ще працюю в офісі.",
+          "de": "Ich komme heute spät raus: Ich arbeite immer noch im Büro.",
+          "fr": "Je pars tard aujourd'hui : je suis encore en train de travailler au bureau.",
+          "pt": "Hoje vou sair tarde: ainda estou trabalhando no escritório.",
+          "zh": "我今天下班晚：我还在办公室工作。",
+          "hint": {
+            "en": "seguir + gerund: trabajar → trabajando.",
+            "it": "seguir + gerundio: trabajar → trabajando.",
+            "uk": "seguir + герундій: trabajar → trabajando.",
+            "de": "seguir + Gerundium: trabajar → trabajando.",
+            "fr": "seguir + gérondif : trabajar → trabajando.",
+            "pt": "seguir + gerúndio: trabajar → trabajando.",
+            "zh": "seguir + -ando 形式：trabajar → trabajando。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "You bump into an old classmate who asks if you still live in the same neighbourhood. Say: yes, I still live in the same neighbourhood.",
+            "it": "Incontri un vecchio compagno di scuola che ti chiede se abiti ancora nello stesso quartiere. Rispondi: sì, abito ancora nello stesso quartiere.",
+            "uk": "Ти випадково зустрічаєш колишнього однокласника, і він питає, чи ти досі живеш у тому самому районі. Скажи: так, я досі живу в тому самому районі.",
+            "de": "Du triffst einen alten Schulfreund, der fragt, ob du noch im selben Viertel wohnst. Sag: Ja, ich wohne immer noch im selben Viertel.",
+            "fr": "Tu croises un ancien camarade de classe qui te demande si tu habites toujours dans le même quartier. Dis : oui, j'habite toujours dans le même quartier.",
+            "pt": "Você encontra por acaso um antigo colega de escola que pergunta se você ainda mora no mesmo bairro. Diga: sim, ainda moro no mesmo bairro.",
+            "zh": "你碰到一个老同学，他问你是不是还住在原来那个街区。你说：对，我还住在原来那个街区。"
+          },
+          "accepted": [
+            "Sí, sigo viviendo en el mismo barrio.",
+            "Sí, todavía vivo en el mismo barrio.",
+            "Sí, sigo viviendo en el mismo barrio todavía."
+          ],
+          "tiles": [
+            "Sí,",
+            "sigo",
+            "viviendo",
+            "en el mismo barrio",
+            "vivido",
+            "sigue"
+          ],
+          "en": "Yes, I still live in the same neighbourhood.",
+          "it": "Sì, abito ancora nello stesso quartiere.",
+          "uk": "Так, я досі живу в тому самому районі.",
+          "de": "Ja, ich wohne immer noch im selben Viertel.",
+          "fr": "Oui, j'habite toujours dans le même quartier.",
+          "pt": "Sim, ainda moro no mesmo bairro.",
+          "zh": "对，我还住在原来那个街区。",
+          "hint": {
+            "en": "Still: seguir (yo sigo) + the gerund viviendo.",
+            "it": "Ancora: seguir (yo sigo) + il gerundio viviendo.",
+            "uk": "Досі: seguir (yo sigo) + герундій viviendo.",
+            "de": "Immer noch: seguir (yo sigo) + das Gerundium viviendo.",
+            "fr": "Toujours : seguir (yo sigo) + le gérondif viviendo.",
+            "pt": "Ainda: seguir (yo sigo) + o gerúndio viviendo.",
+            "zh": "还在：seguir（yo sigo）+ -iendo 形式 viviendo。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "llevo",
+              "kind": "stem"
+            },
+            {
+              "text": "dos años",
+              "kind": "time"
+            },
+            {
+              "text": "estudiando",
+              "kind": "ending"
+            }
+          ],
+          "rule": {
+            "en": "To say how long you've been doing something, use llevar + the time + the gerund: llevo dos años estudiando español. To ask: ¿cuánto tiempo llevas…?",
+            "it": "Per dire da quanto tempo fai qualcosa, usa llevar + il tempo + il gerundio: llevo dos años estudiando español (studio spagnolo da due anni). Per chiederlo: ¿cuánto tiempo llevas…?",
+            "uk": "Щоб сказати, скільки часу ти вже щось робиш, вживай llevar + час + герундій: llevo dos años estudiando español. Щоб спитати: ¿cuánto tiempo llevas…?",
+            "de": "Um zu sagen, seit wann du etwas tust, nimm llevar + die Zeitspanne + das Gerundium: llevo dos años estudiando español (ich lerne seit zwei Jahren Spanisch). Im Deutschen reicht „seit“ mit Präsens. Zum Fragen: ¿cuánto tiempo llevas…?",
+            "fr": "Pour dire depuis combien de temps tu fais quelque chose, utilise llevar + la durée + le gérondif : llevo dos años estudiando español (j'apprends l'espagnol depuis deux ans). Là où le français dit « depuis » avec le présent, l'espagnol utilise llevar. Pour le demander : ¿cuánto tiempo llevas…?",
+            "pt": "Para dizer há quanto tempo você faz algo, use llevar + o tempo + o gerúndio: llevo dos años estudiando español (estudo espanhol há dois anos). Para perguntar: ¿cuánto tiempo llevas…? Cuidado: não traduza por «levar»; em português «levei dois anos» quer dizer que algo demorou dois anos.",
+            "zh": "要说你做某事多久了，用 llevar + 时间 + -ando/-iendo 形式：llevo dos años estudiando español（我学西班牙语两年了）。问别人就说：¿cuánto tiempo llevas…?"
+          },
+          "examples": [
+            {
+              "es": "Llevo dos años estudiando español.",
+              "en": "I've been learning Spanish for two years.",
+              "it": "Studio spagnolo da due anni.",
+              "uk": "Я вже два роки вивчаю іспанську.",
+              "de": "Ich lerne seit zwei Jahren Spanisch.",
+              "fr": "J'apprends l'espagnol depuis deux ans.",
+              "pt": "Estudo espanhol há dois anos.",
+              "zh": "我学西班牙语两年了。"
+            },
+            {
+              "es": "Llevo media hora esperando el autobús.",
+              "en": "I've been waiting for the bus for half an hour.",
+              "it": "Aspetto l'autobus da mezz'ora.",
+              "uk": "Я вже пів години чекаю на автобус.",
+              "de": "Ich warte seit einer halben Stunde auf den Bus.",
+              "fr": "J'attends le bus depuis une demi-heure.",
+              "pt": "Estou esperando o ônibus há meia hora.",
+              "zh": "我等公交车等了半个小时了。"
+            },
+            {
+              "es": "Mi hermana y su novio llevan cinco años saliendo.",
+              "en": "My sister and her boyfriend have been going out for five years.",
+              "it": "Mia sorella e il suo ragazzo stanno insieme da cinque anni.",
+              "uk": "Моя сестра та її хлопець зустрічаються вже п'ять років.",
+              "de": "Meine Schwester und ihr Freund sind seit fünf Jahren zusammen.",
+              "fr": "Ma sœur et son copain sortent ensemble depuis cinq ans.",
+              "pt": "Minha irmã e o namorado dela estão namorando há cinco anos.",
+              "zh": "我姐姐和她男朋友在一起五年了。"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "",
+          "after": " media hora esperando el autobús.",
+          "options": [
+            "Llevo",
+            "Sigo",
+            "Acabo"
+          ],
+          "answer": "Llevo",
+          "en": "I've been waiting for the bus for half an hour.",
+          "it": "Aspetto l'autobus da mezz'ora.",
+          "uk": "Я вже пів години чекаю на автобус.",
+          "de": "Ich warte seit einer halben Stunde auf den Bus.",
+          "fr": "J'attends le bus depuis une demi-heure.",
+          "pt": "Estou esperando o ônibus há meia hora.",
+          "zh": "我等公交车等了半个小时了。",
+          "hint": {
+            "en": "How long: llevar + time + gerund.",
+            "it": "Da quanto tempo: llevar + tempo + gerundio.",
+            "uk": "Скільки часу: llevar + час + герундій.",
+            "de": "Seit wann: llevar + Zeitspanne + Gerundium.",
+            "fr": "Depuis combien de temps : llevar + durée + gérondif.",
+            "pt": "Há quanto tempo: llevar + tempo + gerúndio.",
+            "zh": "多久了：llevar + 时间 + -ando/-iendo 形式。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "A new colleague asks how long you've been working at the company. Say: I've been working here for three years.",
+            "it": "Un nuovo collega ti chiede da quanto tempo lavori nell'azienda. Rispondi: lavoro qui da tre anni.",
+            "uk": "Новий колега питає, скільки часу ти вже працюєш у компанії. Скажи: я працюю тут уже три роки.",
+            "de": "Eine neue Kollegin fragt dich, wie lange du schon in der Firma arbeitest. Sag: Ich arbeite seit drei Jahren hier.",
+            "fr": "Un nouveau collègue te demande depuis combien de temps tu travailles dans l'entreprise. Dis : je travaille ici depuis trois ans.",
+            "pt": "Um colega novo pergunta há quanto tempo você trabalha na empresa. Diga: trabalho aqui há três anos.",
+            "zh": "一个新同事问你在公司工作多久了。你说：我在这里工作三年了。"
+          },
+          "accepted": [
+            "Llevo tres años trabajando aquí.",
+            "Llevo tres años aquí.",
+            "Llevo tres años trabajando en la empresa."
+          ],
+          "tiles": [
+            "Llevo",
+            "tres años",
+            "trabajando",
+            "aquí",
+            "Sigo",
+            "trabajar"
+          ],
+          "en": "I've been working here for three years.",
+          "it": "Lavoro qui da tre anni.",
+          "uk": "Я працюю тут уже три роки.",
+          "de": "Ich arbeite seit drei Jahren hier.",
+          "fr": "Je travaille ici depuis trois ans.",
+          "pt": "Trabalho aqui há três anos.",
+          "zh": "我在这里工作三年了。",
+          "hint": {
+            "en": "llevo + the time + the gerund trabajando.",
+            "it": "llevo + il tempo + il gerundio trabajando.",
+            "uk": "llevo + час + герундій trabajando.",
+            "de": "llevo + die Zeitspanne + das Gerundium trabajando.",
+            "fr": "llevo + la durée + le gérondif trabajando.",
+            "pt": "llevo + o tempo + o gerúndio trabajando.",
+            "zh": "llevo + 时间 + -ando 形式 trabajando。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "sigo",
+              "kind": "stem"
+            },
+            {
+              "text": "sin",
+              "kind": "rail"
+            },
+            {
+              "text": "entender",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "With sin + infinitive, seguir and llevar say something still hasn't happened: sigo sin entender (I still don't understand), llevo un año sin fumar (I haven't smoked for a year).",
+            "it": "Con sin + infinito, seguir e llevar dicono che qualcosa non è ancora successo: sigo sin entender (ancora non capisco), llevo un año sin fumar (non fumo da un anno).",
+            "uk": "Із sin + інфінітив дієслова seguir і llevar кажуть, що чогось досі не сталося: sigo sin entender (я досі не розумію), llevo un año sin fumar (я вже рік не курю).",
+            "de": "Mit sin + Infinitiv sagen seguir und llevar, dass etwas immer noch nicht passiert ist: sigo sin entender (ich verstehe es immer noch nicht), llevo un año sin fumar (ich rauche seit einem Jahr nicht mehr).",
+            "fr": "Avec sin + infinitif, seguir et llevar disent que quelque chose n'est toujours pas arrivé : sigo sin entender (je ne comprends toujours pas), llevo un año sin fumar (je n'ai pas fumé depuis un an).",
+            "pt": "Com sin + infinitivo, seguir e llevar dizem que algo ainda não aconteceu: sigo sin entender (continuo sem entender), llevo un año sin fumar (estou há um ano sem fumar).",
+            "zh": "seguir 和 llevar 加上 sin + 动词原形，表示某事一直没有发生：sigo sin entender（我还是不明白），llevo un año sin fumar（我一年没抽烟了）。"
+          },
+          "examples": [
+            {
+              "es": "Sigo sin entender el problema.",
+              "en": "I still don't understand the problem.",
+              "it": "Ancora non capisco il problema.",
+              "uk": "Я досі не розумію, у чому проблема.",
+              "de": "Ich verstehe das Problem immer noch nicht.",
+              "fr": "Je ne comprends toujours pas le problème.",
+              "pt": "Continuo sem entender o problema.",
+              "zh": "我还是不明白这个问题。"
+            },
+            {
+              "es": "Llevo un año sin fumar.",
+              "en": "I haven't smoked for a year.",
+              "it": "Non fumo da un anno.",
+              "uk": "Я вже рік не курю.",
+              "de": "Ich rauche seit einem Jahr nicht mehr.",
+              "fr": "Je n'ai pas fumé depuis un an.",
+              "pt": "Estou há um ano sem fumar.",
+              "zh": "我一年没抽烟了。"
+            },
+            {
+              "es": "Llevamos una semana sin internet.",
+              "en": "We've been without internet for a week.",
+              "it": "Siamo senza internet da una settimana.",
+              "uk": "Ми вже тиждень без інтернету.",
+              "de": "Wir sind seit einer Woche ohne Internet.",
+              "fr": "On est sans internet depuis une semaine.",
+              "pt": "Estamos sem internet há uma semana.",
+              "zh": "我们没网已经一个星期了。"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Lo he leído tres veces y sigo ",
+          "after": " entender nada.",
+          "options": [
+            "sin",
+            "de",
+            "a"
+          ],
+          "answer": "sin",
+          "en": "I've read it three times and I still don't understand anything.",
+          "it": "L'ho letto tre volte e ancora non ci capisco niente.",
+          "uk": "Я прочитав(-ла) це тричі й досі нічого не розумію.",
+          "de": "Ich habe es dreimal gelesen und verstehe immer noch nichts.",
+          "fr": "Je l'ai lu trois fois et je n'y comprends toujours rien.",
+          "pt": "Li três vezes e continuo sem entender nada.",
+          "zh": "我读了三遍，还是什么都不明白。",
+          "hint": {
+            "en": "Still not: seguir sin + infinitive.",
+            "it": "Ancora non: seguir sin + infinito.",
+            "uk": "Досі не: seguir sin + інфінітив.",
+            "de": "Immer noch nicht: seguir sin + Infinitiv.",
+            "fr": "Toujours pas : seguir sin + infinitif.",
+            "pt": "Continuar sem: seguir sin + infinitivo.",
+            "zh": "还是没有：seguir sin + 动词原形。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "fire",
+          "before": "¡Estoy muy contento! ",
+          "after": " un año sin fumar.",
+          "label": "llevar",
+          "accepted": [
+            "Llevo"
+          ],
+          "en": "I'm really happy! I haven't smoked for a year.",
+          "it": "Sono contentissimo! Non fumo da un anno.",
+          "uk": "Я дуже радий(-а)! Я вже рік не курю.",
+          "de": "Ich bin so froh! Ich rauche seit einem Jahr nicht mehr.",
+          "fr": "Je suis vraiment content ! Je n'ai pas fumé depuis un an.",
+          "pt": "Estou muito feliz! Estou há um ano sem fumar.",
+          "zh": "我太高兴了！我一年没抽烟了。",
+          "hint": {
+            "en": "How long without: yo llevo + time + sin.",
+            "it": "Da quanto tempo senza: yo llevo + tempo + sin.",
+            "uk": "Скільки часу без чогось: yo llevo + час + sin.",
+            "de": "Seit wann ohne: yo llevo + Zeitspanne + sin.",
+            "fr": "Depuis combien de temps sans : yo llevo + durée + sin.",
+            "pt": "Há quanto tempo sem: yo llevo + tempo + sin.",
+            "zh": "多久没有：yo llevo + 时间 + sin。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "¿",
+          "after": " lloviendo? Quiero salir a correr.",
+          "options": [
+            "Sigue",
+            "Sigo",
+            "Siguen"
+          ],
+          "answer": "Sigue",
+          "en": "Is it still raining? I want to go out for a run.",
+          "it": "Piove ancora? Voglio uscire a correre.",
+          "uk": "Ще йде дощ? Я хочу піти на пробіжку.",
+          "de": "Regnet es immer noch? Ich will joggen gehen.",
+          "fr": "Il pleut toujours ? Je veux aller courir.",
+          "pt": "Ainda está chovendo? Quero sair para correr.",
+          "zh": "还在下雨吗？我想出去跑步。",
+          "hint": {
+            "en": "The rain is an it: sigue lloviendo.",
+            "it": "La pioggia è una terza persona singolare: sigue lloviendo.",
+            "uk": "Про дощ кажуть у третій особі однини: sigue lloviendo.",
+            "de": "Der Regen ist ein „es“: sigue lloviendo.",
+            "fr": "La pluie, c'est un « il » impersonnel : sigue lloviendo.",
+            "pt": "A chuva é uma terceira pessoa do singular: sigue lloviendo.",
+            "zh": "下雨用第三人称单数：sigue lloviendo。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "mix",
+          "before": "¿Cuánto tiempo ",
+          "after": " estudiando español?",
+          "label": "llevar",
+          "accepted": [
+            "llevas"
+          ],
+          "en": "How long have you been learning Spanish?",
+          "it": "Da quanto tempo studi spagnolo?",
+          "uk": "Скільки часу ти вже вивчаєш іспанську?",
+          "de": "Wie lange lernst du schon Spanisch?",
+          "fr": "Depuis combien de temps tu apprends l'espagnol ?",
+          "pt": "Há quanto tempo você estuda espanhol?",
+          "zh": "你学西班牙语多久了？",
+          "hint": {
+            "en": "Asking a friend: tú llevas.",
+            "it": "Lo chiedi a un amico: tú llevas.",
+            "uk": "Питаєш друга: tú llevas.",
+            "de": "Du fragst einen Freund: tú llevas.",
+            "fr": "Tu le demandes à un ami : tú llevas.",
+            "pt": "Você pergunta a um amigo: tú llevas.",
+            "zh": "问朋友：tú llevas。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "mix",
+          "intention": {
+            "en": "A friend asks about your sister and her boyfriend. Say: they've been going out for five years.",
+            "it": "Un amico ti chiede di tua sorella e del suo ragazzo. Rispondi: stanno insieme da cinque anni.",
+            "uk": "Друг питає про твою сестру та її хлопця. Скажи: вони зустрічаються вже п'ять років.",
+            "de": "Ein Freund fragt nach deiner Schwester und ihrem Freund. Sag: Sie sind seit fünf Jahren zusammen.",
+            "fr": "Un ami te demande des nouvelles de ta sœur et de son copain. Dis : ils sortent ensemble depuis cinq ans.",
+            "pt": "Um amigo pergunta pela sua irmã e pelo namorado dela. Diga: eles estão namorando há cinco anos.",
+            "zh": "一个朋友问起你姐姐和她男朋友。你说：他们在一起五年了。"
+          },
+          "accepted": [
+            "Llevan cinco años saliendo.",
+            "Llevan cinco años saliendo juntos.",
+            "Ya llevan cinco años saliendo."
+          ],
+          "tiles": [
+            "Llevan",
+            "cinco años",
+            "saliendo",
+            "Siguen",
+            "salir"
+          ],
+          "en": "They've been going out for five years.",
+          "it": "Stanno insieme da cinque anni.",
+          "uk": "Вони зустрічаються вже п'ять років.",
+          "de": "Sie sind seit fünf Jahren zusammen.",
+          "fr": "Ils sortent ensemble depuis cinq ans.",
+          "pt": "Eles estão namorando há cinco anos.",
+          "zh": "他们在一起五年了。",
+          "hint": {
+            "en": "They: llevan + time + the gerund saliendo.",
+            "it": "Loro: llevan + tempo + il gerundio saliendo.",
+            "uk": "Вони: llevan + час + герундій saliendo.",
+            "de": "Sie: llevan + Zeitspanne + das Gerundium saliendo.",
+            "fr": "Ils : llevan + durée + le gérondif saliendo.",
+            "pt": "Eles: llevan + tempo + o gerúndio saliendo.",
+            "zh": "他们：llevan + 时间 + -iendo 形式 saliendo。"
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "An old friend you haven't seen for years asks about your life. Write in Spanish: «I still live in {city} and I've been working {workEn} for two years.»",
+            "it": "Un vecchio amico che non vedi da anni ti chiede della tua vita. Scrivi in spagnolo: «Abito ancora a {city} e lavoro {workIt} da due anni.»",
+            "uk": "Старий друг, якого ти не бачив(-ла) багато років, питає, як у тебе справи. Напиши іспанською: «Я досі живу у місті {city} і вже два роки працюю {workUk}.»",
+            "de": "Ein alter Freund, den du seit Jahren nicht gesehen hast, fragt nach deinem Leben. Schreib auf Spanisch: «Ich wohne immer noch in {city} und arbeite seit zwei Jahren {workDe}.»",
+            "fr": "Un vieil ami que tu n'as pas vu depuis des années te demande des nouvelles de ta vie. Écris en espagnol : «J'habite toujours à {city} et je travaille {workFr} depuis deux ans.»",
+            "pt": "Um velho amigo que você não vê há anos pergunta da sua vida. Escreva em espanhol: «Ainda moro em {city} e trabalho {workPt} há dois anos.»",
+            "zh": "一个多年没见的老朋友问你过得怎么样。用西班牙语写：«我还住在{city}，{workZh}工作两年了。»"
+          },
+          "accepted": [
+            "Sigo viviendo en {city} y llevo dos años trabajando en {work}.",
+            "Todavía vivo en {city} y llevo dos años trabajando en {work}.",
+            "Sigo viviendo en {city} y llevo dos años en {work}.",
+            "Todavía vivo en {city} y llevo dos años en {work}.",
+            "Sigo viviendo en {city} y trabajo en {work} desde hace dos años.",
+            "Todavía vivo en {city} y trabajo en {work} desde hace dos años."
+          ],
+          "model": {
+            "es": "Sigo viviendo en {city} y llevo dos años trabajando en {work}.",
+            "en": "I still live in {city} and I've been working {workEn} for two years.",
+            "it": "Abito ancora a {city} e lavoro {workIt} da due anni.",
+            "uk": "Я досі живу у місті {city} і вже два роки працюю {workUk}.",
+            "de": "Ich wohne immer noch in {city} und arbeite seit zwei Jahren {workDe}.",
+            "fr": "J'habite toujours à {city} et je travaille {workFr} depuis deux ans.",
+            "pt": "Ainda moro em {city} e trabalho {workPt} há dois anos.",
+            "zh": "我还住在{city}，{workZh}工作两年了。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u41l3",
+      "goal": {
+        "en": "Say what you've stopped doing with dejar de (he dejado de fumar = ya no fumo), what suddenly started with ponerse a (se puso a llover), and when something starts and finishes with empezar a and terminar de.",
+        "it": "Di' che cosa hai smesso di fare con dejar de (he dejado de fumar = ya no fumo), che cosa è cominciato all'improvviso con ponerse a (se puso a llover), e quando qualcosa comincia e finisce con empezar a e terminar de.",
+        "uk": "Скажи, що ти перестав(-ла) робити, за допомогою dejar de (he dejado de fumar = ya no fumo), що раптом почалося — за допомогою ponerse a (se puso a llover), а коли щось починається й закінчується — за допомогою empezar a і terminar de.",
+        "de": "Sag mit dejar de, womit du aufgehört hast (he dejado de fumar = ya no fumo), mit ponerse a, was plötzlich angefangen hat (se puso a llover), und mit empezar a und terminar de, wann etwas anfängt und aufhört.",
+        "fr": "Dis ce que tu as arrêté de faire avec dejar de (he dejado de fumar = ya no fumo), ce qui a commencé tout à coup avec ponerse a (se puso a llover), et quand quelque chose commence et se termine avec empezar a et terminar de.",
+        "pt": "Diga o que você parou de fazer com dejar de (he dejado de fumar = ya no fumo), o que começou de repente com ponerse a (se puso a llover) e quando algo começa e termina com empezar a e terminar de.",
+        "zh": "用 dejar de 说你不再做的事（he dejado de fumar = ya no fumo），用 ponerse a 说突然开始的事（se puso a llover），用 empezar a 和 terminar de 说某事开始和结束。"
+      },
+      "target": {
+        "es": "Dejé de fumar hace dos años.",
+        "en": "I stopped smoking two years ago.",
+        "it": "Ho smesso di fumare due anni fa.",
+        "uk": "Я кинув(-ла) курити два роки тому.",
+        "de": "Ich habe vor zwei Jahren mit dem Rauchen aufgehört.",
+        "fr": "J'ai arrêté de fumer il y a deux ans.",
+        "pt": "Parei de fumar há dois anos.",
+        "zh": "我两年前戒烟了。"
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "dejar de",
+              "en": "to stop (doing)",
+              "it": "smettere di",
+              "uk": "перестати (щось робити)",
+              "de": "aufhören (zu tun)",
+              "fr": "arrêter de (faire)",
+              "pt": "deixar de, parar de",
+              "zh": "停止（做某事）、不再（做某事）",
+              "kind": "stem"
+            },
+            {
+              "es": "ponerse a",
+              "en": "to start (doing), to get down to",
+              "it": "mettersi a",
+              "uk": "почати (щось робити), узятися за (щось)",
+              "de": "anfangen (zu tun), sich an etwas setzen",
+              "fr": "se mettre à (faire)",
+              "pt": "começar a, pôr-se a",
+              "zh": "开始（做某事）、着手（做某事）",
+              "kind": "stem"
+            },
+            {
+              "es": "llorar",
+              "en": "to cry",
+              "it": "piangere",
+              "uk": "плакати",
+              "de": "weinen",
+              "fr": "pleurer",
+              "pt": "chorar",
+              "zh": "哭",
+              "kind": "stem"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "dejar",
+              "kind": "stem"
+            },
+            {
+              "text": "de",
+              "kind": "rail"
+            },
+            {
+              "text": "fumar",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "dejar de + infinitive means to stop doing something. What's left afterwards is ya no (not any more): he dejado de fumar = ya no fumo.",
+            "it": "dejar de + infinito vuol dire smettere di fare qualcosa. Il risultato si dice con ya no (non più): he dejado de fumar = ya no fumo (non fumo più).",
+            "uk": "dejar de + інфінітив означає перестати щось робити. Що лишається після цього — це ya no (уже не, більше не): he dejado de fumar = ya no fumo.",
+            "de": "dejar de + Infinitiv heißt, mit etwas aufhören. Was danach bleibt, ist ya no (nicht mehr): he dejado de fumar = ya no fumo (ich rauche nicht mehr).",
+            "fr": "dejar de + infinitif veut dire arrêter de faire quelque chose. Le résultat se dit avec ya no (ne… plus) : he dejado de fumar = ya no fumo (je ne fume plus).",
+            "pt": "dejar de + infinitivo quer dizer parar de fazer algo, como o nosso deixar de. O resultado se diz com ya no (não… mais): he dejado de fumar = ya no fumo (não fumo mais).",
+            "zh": "dejar de + 动词原形表示不再做某事。结果就用 ya no（不再）：he dejado de fumar = ya no fumo（我不抽烟了）。"
+          },
+          "examples": [
+            {
+              "es": "Dejé de fumar hace dos años.",
+              "en": "I stopped smoking two years ago.",
+              "it": "Ho smesso di fumare due anni fa.",
+              "uk": "Я кинув(-ла) курити два роки тому.",
+              "de": "Ich habe vor zwei Jahren mit dem Rauchen aufgehört.",
+              "fr": "J'ai arrêté de fumer il y a deux ans.",
+              "pt": "Parei de fumar há dois anos.",
+              "zh": "我两年前戒烟了。"
+            },
+            {
+              "es": "Ha dejado de llover: ¿salimos?",
+              "en": "It's stopped raining: shall we go out?",
+              "it": "Ha smesso di piovere: usciamo?",
+              "uk": "Дощ перестав: вийдемо?",
+              "de": "Es hat aufgehört zu regnen: Gehen wir raus?",
+              "fr": "Il a arrêté de pleuvoir : on sort ?",
+              "pt": "Parou de chover: vamos sair?",
+              "zh": "雨停了，我们出去吧？"
+            },
+            {
+              "es": "Ya no como carne.",
+              "en": "I don't eat meat any more.",
+              "it": "Non mangio più carne.",
+              "uk": "Я більше не їм м'яса.",
+              "de": "Ich esse kein Fleisch mehr.",
+              "fr": "Je ne mange plus de viande.",
+              "pt": "Não como mais carne.",
+              "zh": "我不再吃肉了。"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Ha dejado ",
+          "after": " llover: ¿salimos?",
+          "options": [
+            "de",
+            "a",
+            "que"
+          ],
+          "answer": "de",
+          "en": "It's stopped raining: shall we go out?",
+          "it": "Ha smesso di piovere: usciamo?",
+          "uk": "Дощ перестав: вийдемо?",
+          "de": "Es hat aufgehört zu regnen: Gehen wir raus?",
+          "fr": "Il a arrêté de pleuvoir : on sort ?",
+          "pt": "Parou de chover: vamos sair?",
+          "zh": "雨停了，我们出去吧？",
+          "hint": {
+            "en": "To stop: dejar de + infinitive.",
+            "it": "Smettere: dejar de + infinito.",
+            "uk": "Перестати: dejar de + інфінітив.",
+            "de": "Aufhören: dejar de + Infinitiv.",
+            "fr": "Arrêter de : dejar de + infinitif.",
+            "pt": "Parar de: dejar de + infinitivo.",
+            "zh": "停止：dejar de + 动词原形。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "A friend offers you a cigarette. Say: no thanks, I don't smoke any more.",
+            "it": "Un amico ti offre una sigaretta. Rispondi: no grazie, non fumo più.",
+            "uk": "Друг пропонує тобі сигарету. Скажи: ні, дякую, я вже не курю.",
+            "de": "Ein Freund bietet dir eine Zigarette an. Sag: Nein danke, ich rauche nicht mehr.",
+            "fr": "Un ami te propose une cigarette. Dis : non merci, je ne fume plus.",
+            "pt": "Um amigo te oferece um cigarro. Diga: não, obrigado, não fumo mais.",
+            "zh": "一个朋友递给你一支烟。你说：不用了，谢谢，我不抽烟了。"
+          },
+          "accepted": [
+            "No, gracias, ya no fumo.",
+            "No, gracias, he dejado de fumar.",
+            "No, gracias, dejé de fumar."
+          ],
+          "tiles": [
+            "No, gracias,",
+            "ya",
+            "no",
+            "fumo",
+            "todavía",
+            "fumar"
+          ],
+          "en": "No thanks, I don't smoke any more.",
+          "it": "No grazie, non fumo più.",
+          "uk": "Ні, дякую, я вже не курю.",
+          "de": "Nein danke, ich rauche nicht mehr.",
+          "fr": "Non merci, je ne fume plus.",
+          "pt": "Não, obrigado, não fumo mais.",
+          "zh": "不用了，谢谢，我不抽烟了。",
+          "hint": {
+            "en": "Not any more: ya no + the verb.",
+            "it": "Non più: ya no + il verbo.",
+            "uk": "Уже не: ya no + дієслово.",
+            "de": "Nicht mehr: ya no + das Verb.",
+            "fr": "Ne… plus : ya no + le verbe.",
+            "pt": "Não… mais: ya no + o verbo.",
+            "zh": "不再：ya no + 动词。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "se puso",
+              "kind": "stem"
+            },
+            {
+              "text": "a",
+              "kind": "rail"
+            },
+            {
+              "text": "llover",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "ponerse a + infinitive means to start doing something, often suddenly, or to get down to it: se puso a llover (it started to rain), me pongo a estudiar (I get down to studying).",
+            "it": "ponerse a + infinito vuol dire mettersi a fare qualcosa, spesso all'improvviso: se puso a llover (si è messo a piovere), me pongo a estudiar (mi metto a studiare).",
+            "uk": "ponerse a + інфінітив означає почати щось робити, часто раптово, або взятися за щось: se puso a llover (почався дощ), me pongo a estudiar (я сідаю вчитися).",
+            "de": "ponerse a + Infinitiv heißt, mit etwas anfangen, oft plötzlich, oder sich an etwas setzen: se puso a llover (es fing an zu regnen), me pongo a estudiar (ich setze mich ans Lernen).",
+            "fr": "ponerse a + infinitif veut dire se mettre à faire quelque chose, souvent tout à coup : se puso a llover (il s'est mis à pleuvoir), me pongo a estudiar (je me mets à étudier). C'est comme « se mettre à » en français.",
+            "pt": "ponerse a + infinitivo quer dizer começar a fazer algo, muitas vezes de repente, ou pôr-se a fazer algo: se puso a llover (começou a chover), me pongo a estudiar (eu me ponho a estudar).",
+            "zh": "ponerse a + 动词原形表示开始做某事，常常是突然开始，或者是着手去做：se puso a llover（突然下起雨来），me pongo a estudiar（我开始学习）。"
+          },
+          "examples": [
+            {
+              "es": "De repente se puso a llover.",
+              "en": "Suddenly it started to rain.",
+              "it": "All'improvviso si è messo a piovere.",
+              "uk": "Раптом почався дощ.",
+              "de": "Plötzlich fing es an zu regnen.",
+              "fr": "Tout à coup, il s'est mis à pleuvoir.",
+              "pt": "De repente começou a chover.",
+              "zh": "突然下起雨来了。"
+            },
+            {
+              "es": "Cuando le di la noticia, se puso a llorar.",
+              "en": "When I gave her the news, she started crying.",
+              "it": "Quando le ho dato la notizia, si è messa a piangere.",
+              "uk": "Коли я повідомив(-ла) їй новину, вона розплакалася.",
+              "de": "Als ich ihr die Nachricht überbracht habe, hat sie angefangen zu weinen.",
+              "fr": "Quand je lui ai annoncé la nouvelle, elle s'est mise à pleurer.",
+              "pt": "Quando dei a notícia a ela, ela começou a chorar.",
+              "zh": "我把消息告诉她的时候，她哭了起来。"
+            },
+            {
+              "es": "Después de cenar me pongo a estudiar.",
+              "en": "After dinner I get down to studying.",
+              "it": "Dopo cena mi metto a studiare.",
+              "uk": "Після вечері я сідаю вчитися.",
+              "de": "Nach dem Abendessen setze ich mich ans Lernen.",
+              "fr": "Après le dîner, je me mets à étudier.",
+              "pt": "Depois do jantar, eu me ponho a estudar.",
+              "zh": "晚饭后我开始学习。"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Estábamos en la playa y de repente se ",
+          "after": " a llover.",
+          "options": [
+            "puso",
+            "puse",
+            "pusieron"
+          ],
+          "answer": "puso",
+          "en": "We were at the beach and suddenly it started to rain.",
+          "it": "Eravamo in spiaggia e all'improvviso si è messo a piovere.",
+          "uk": "Ми були на пляжі, і раптом почався дощ.",
+          "de": "Wir waren am Strand und plötzlich fing es an zu regnen.",
+          "fr": "On était à la plage et tout à coup il s'est mis à pleuvoir.",
+          "pt": "Estávamos na praia e de repente começou a chover.",
+          "zh": "我们当时在海滩上，突然下起雨来了。",
+          "hint": {
+            "en": "The rain is an it: se puso a llover.",
+            "it": "La pioggia è una terza persona singolare: se puso a llover.",
+            "uk": "Про дощ кажуть у третій особі однини: se puso a llover.",
+            "de": "Der Regen ist ein „es“: se puso a llover.",
+            "fr": "La pluie, c'est un « il » impersonnel : se puso a llover.",
+            "pt": "A chuva é uma terceira pessoa do singular: se puso a llover.",
+            "zh": "下雨用第三人称单数：se puso a llover。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "A friend asks why you didn't answer her messages last night. Say: after dinner I got down to studying.",
+            "it": "Un'amica ti chiede perché ieri sera non hai risposto ai suoi messaggi. Rispondi: dopo cena mi sono messo a studiare.",
+            "uk": "Подруга питає, чому ти вчора ввечері не відповідав(-ла) на її повідомлення. Скажи: після вечері я сів(-ла) вчитися.",
+            "de": "Eine Freundin fragt, warum du gestern Abend nicht auf ihre Nachrichten geantwortet hast. Sag: Nach dem Abendessen habe ich mich ans Lernen gesetzt.",
+            "fr": "Une amie te demande pourquoi tu n'as pas répondu à ses messages hier soir. Dis : après le dîner, je me suis mis à étudier.",
+            "pt": "Uma amiga pergunta por que você não respondeu às mensagens dela ontem à noite. Diga: depois do jantar, eu me pus a estudar.",
+            "zh": "一个朋友问你昨晚为什么没回她的消息。你说：晚饭后我就开始学习了。"
+          },
+          "accepted": [
+            "Después de cenar me puse a estudiar."
+          ],
+          "tiles": [
+            "Después de cenar",
+            "me puse",
+            "a",
+            "estudiar",
+            "de",
+            "estudiando"
+          ],
+          "en": "After dinner I got down to studying.",
+          "it": "Dopo cena mi sono messo a studiare.",
+          "uk": "Після вечері я сів(-ла) вчитися.",
+          "de": "Nach dem Abendessen habe ich mich ans Lernen gesetzt.",
+          "fr": "Après le dîner, je me suis mis à étudier.",
+          "pt": "Depois do jantar, eu me pus a estudar.",
+          "zh": "晚饭后我就开始学习了。",
+          "hint": {
+            "en": "ponerse a + the infinitive: me puse a estudiar.",
+            "it": "ponerse a + l'infinito: me puse a estudiar.",
+            "uk": "ponerse a + інфінітив: me puse a estudiar.",
+            "de": "ponerse a + Infinitiv: me puse a estudiar.",
+            "fr": "ponerse a + l'infinitif : me puse a estudiar.",
+            "pt": "ponerse a + o infinitivo: me puse a estudiar.",
+            "zh": "ponerse a + 动词原形：me puse a estudiar。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "empecé",
+              "kind": "stem"
+            },
+            {
+              "text": "a",
+              "kind": "rail"
+            },
+            {
+              "text": "trabajar",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "empezar a + infinitive is the everyday way to say to start doing something; terminar de + infinitive says you've finished doing it.",
+            "it": "empezar a + infinito è il modo normale per dire cominciare a fare qualcosa; terminar de + infinito dice che hai finito di farla.",
+            "uk": "empezar a + інфінітив — звичайний повсякденний спосіб сказати «почати щось робити»; terminar de + інфінітив означає, що ти закінчив(-ла) це робити.",
+            "de": "empezar a + Infinitiv ist die ganz normale Art zu sagen, dass du mit etwas anfängst; terminar de + Infinitiv sagt, dass du damit fertig bist.",
+            "fr": "empezar a + infinitif est la façon courante de dire commencer à faire quelque chose ; terminar de + infinitif dit que tu as fini de le faire.",
+            "pt": "empezar a + infinitivo é o jeito do dia a dia de dizer começar a fazer algo; terminar de + infinitivo diz que você terminou de fazer.",
+            "zh": "empezar a + 动词原形是“开始做某事”最常用的说法；terminar de + 动词原形表示做完了某事。"
+          },
+          "examples": [
+            {
+              "es": "Empecé a estudiar español el año pasado.",
+              "en": "I started learning Spanish last year.",
+              "it": "Ho cominciato a studiare spagnolo l'anno scorso.",
+              "uk": "Я почав(-ла) вивчати іспанську минулого року.",
+              "de": "Ich habe letztes Jahr angefangen, Spanisch zu lernen.",
+              "fr": "J'ai commencé à apprendre l'espagnol l'année dernière.",
+              "pt": "Comecei a estudar espanhol no ano passado.",
+              "zh": "我去年开始学西班牙语。"
+            },
+            {
+              "es": "¿Has terminado de comer?",
+              "en": "Have you finished eating?",
+              "it": "Hai finito di mangiare?",
+              "uk": "Ти вже доїв(-ла)?",
+              "de": "Bist du fertig mit dem Essen?",
+              "fr": "Tu as fini de manger ?",
+              "pt": "Você terminou de comer?",
+              "zh": "你吃完了吗？"
+            },
+            {
+              "es": "Mañana empiezo a trabajar en una empresa nueva.",
+              "en": "Tomorrow I start working at a new company.",
+              "it": "Domani comincio a lavorare in una nuova azienda.",
+              "uk": "Завтра я починаю працювати в новій компанії.",
+              "de": "Morgen fange ich bei einer neuen Firma an zu arbeiten.",
+              "fr": "Demain, je commence à travailler dans une nouvelle entreprise.",
+              "pt": "Amanhã começo a trabalhar em uma empresa nova.",
+              "zh": "明天我开始在一家新公司上班。"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "¿Has terminado ",
+          "after": " comer? Te espero.",
+          "options": [
+            "de",
+            "a",
+            "con"
+          ],
+          "answer": "de",
+          "en": "Have you finished eating? I'll wait for you.",
+          "it": "Hai finito di mangiare? Ti aspetto.",
+          "uk": "Ти вже доїв(-ла)? Я на тебе почекаю.",
+          "de": "Bist du fertig mit dem Essen? Ich warte auf dich.",
+          "fr": "Tu as fini de manger ? Je t'attends.",
+          "pt": "Você terminou de comer? Eu te espero.",
+          "zh": "你吃完了吗？我等你。",
+          "hint": {
+            "en": "To finish: terminar de + infinitive.",
+            "it": "Finire: terminar de + infinito.",
+            "uk": "Закінчити: terminar de + інфінітив.",
+            "de": "Mit etwas fertig sein: terminar de + Infinitiv.",
+            "fr": "Finir de : terminar de + infinitif.",
+            "pt": "Terminar: terminar de + infinitivo.",
+            "zh": "做完：terminar de + 动词原形。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "fire",
+          "before": "",
+          "after": " a estudiar español el año pasado.",
+          "label": "empezar",
+          "accepted": [
+            "Empecé"
+          ],
+          "en": "I started learning Spanish last year.",
+          "it": "Ho cominciato a studiare spagnolo l'anno scorso.",
+          "uk": "Я почав(-ла) вивчати іспанську минулого року.",
+          "de": "Ich habe letztes Jahr angefangen, Spanisch zu lernen.",
+          "fr": "J'ai commencé à apprendre l'espagnol l'année dernière.",
+          "pt": "Comecei a estudar espanhol no ano passado.",
+          "zh": "我去年开始学西班牙语。",
+          "hint": {
+            "en": "The past for finished actions, yo: empecé (c before e).",
+            "it": "Il passato per le azioni concluse, yo: empecé (c davanti a e).",
+            "uk": "Минулий час для завершених дій, yo: empecé (c перед e).",
+            "de": "Die Vergangenheitsform für abgeschlossene Handlungen, yo: empecé (c vor e).",
+            "fr": "Le passé des actions terminées, yo : empecé (c devant e).",
+            "pt": "O passado para ações concluídas, yo: empecé (c antes de e).",
+            "zh": "表示已完成动作的过去时，yo：empecé（e 前面写 c）。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "Ya ",
+          "after": " fumo: lo dejé hace un año.",
+          "options": [
+            "no",
+            "todavía",
+            "sigo"
+          ],
+          "answer": "no",
+          "en": "I don't smoke any more: I gave up a year ago.",
+          "it": "Non fumo più: ho smesso un anno fa.",
+          "uk": "Я більше не курю: кинув(-ла) рік тому.",
+          "de": "Ich rauche nicht mehr: Ich habe vor einem Jahr aufgehört.",
+          "fr": "Je ne fume plus : j'ai arrêté il y a un an.",
+          "pt": "Não fumo mais: parei há um ano.",
+          "zh": "我不抽烟了：一年前就戒了。",
+          "hint": {
+            "en": "Not any more: ya no.",
+            "it": "Non più: ya no.",
+            "uk": "Уже не: ya no.",
+            "de": "Nicht mehr: ya no.",
+            "fr": "Ne… plus : ya no.",
+            "pt": "Não… mais: ya no.",
+            "zh": "不再：ya no。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "Cuando le di la noticia, se puso ",
+          "after": " llorar.",
+          "options": [
+            "a",
+            "de",
+            "en"
+          ],
+          "answer": "a",
+          "en": "When I gave him the news, he started crying.",
+          "it": "Quando gli ho dato la notizia, si è messo a piangere.",
+          "uk": "Коли я повідомив(-ла) йому новину, він розплакався.",
+          "de": "Als ich ihm die Nachricht überbracht habe, hat er angefangen zu weinen.",
+          "fr": "Quand je lui ai annoncé la nouvelle, il s'est mis à pleurer.",
+          "pt": "Quando dei a notícia a ele, ele começou a chorar.",
+          "zh": "我把消息告诉他的时候，他哭了起来。",
+          "hint": {
+            "en": "To start suddenly: ponerse a + infinitive.",
+            "it": "Cominciare all'improvviso: ponerse a + infinito.",
+            "uk": "Раптом почати: ponerse a + інфінітив.",
+            "de": "Plötzlich anfangen: ponerse a + Infinitiv.",
+            "fr": "Commencer tout à coup : ponerse a + infinitif.",
+            "pt": "Começar de repente: ponerse a + infinitivo.",
+            "zh": "突然开始：ponerse a + 动词原形。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "mix",
+          "intention": {
+            "en": "Your doctor asks if you still drink a lot of coffee. Say: no, I've stopped drinking coffee.",
+            "it": "Il medico ti chiede se bevi ancora molto caffè. Rispondi: no, ho smesso di bere caffè.",
+            "uk": "Лікар питає, чи ти досі п'єш багато кави. Скажи: ні, я перестав(-ла) пити каву.",
+            "de": "Deine Ärztin fragt, ob du immer noch viel Kaffee trinkst. Sag: Nein, ich habe aufgehört, Kaffee zu trinken.",
+            "fr": "Ton médecin te demande si tu bois toujours beaucoup de café. Dis : non, j'ai arrêté de boire du café.",
+            "pt": "O seu médico pergunta se você ainda toma muito café. Diga: não, parei de tomar café.",
+            "zh": "医生问你是不是还喝很多咖啡。你说：没有，我已经不喝咖啡了。"
+          },
+          "accepted": [
+            "No, he dejado de tomar café.",
+            "No, dejé de tomar café.",
+            "No, ya no tomo café.",
+            "No, he dejado de beber café.",
+            "No, ya no bebo café."
+          ],
+          "tiles": [
+            "No,",
+            "he dejado",
+            "de",
+            "tomar café",
+            "a",
+            "dejo"
+          ],
+          "en": "No, I've stopped drinking coffee.",
+          "it": "No, ho smesso di bere caffè.",
+          "uk": "Ні, я перестав(-ла) пити каву.",
+          "de": "Nein, ich habe aufgehört, Kaffee zu trinken.",
+          "fr": "Non, j'ai arrêté de boire du café.",
+          "pt": "Não, parei de tomar café.",
+          "zh": "没有，我已经不喝咖啡了。",
+          "hint": {
+            "en": "To stop: dejar de + infinitive.",
+            "it": "Smettere: dejar de + infinito.",
+            "uk": "Перестати: dejar de + інфінітив.",
+            "de": "Aufhören: dejar de + Infinitiv.",
+            "fr": "Arrêter de : dejar de + infinitif.",
+            "pt": "Parar de: dejar de + infinitivo.",
+            "zh": "停止：dejar de + 动词原形。"
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "A friend you haven't seen for a while says you look really well. Write in Spanish: «I stopped smoking two years ago and I started running.»",
+            "it": "Un amico che non vedi da un po' ti dice che hai un aspetto magnifico. Scrivi in spagnolo: «Ho smesso di fumare due anni fa e ho cominciato a correre.»",
+            "uk": "Подруга, яку ти давно не бачив(-ла), каже, що ти чудово виглядаєш. Напиши іспанською: «Я кинув(-ла) курити два роки тому й почав(-ла) бігати.»",
+            "de": "Ein Freund, den du länger nicht gesehen hast, sagt, dass du richtig gut aussiehst. Schreib auf Spanisch: «Ich habe vor zwei Jahren mit dem Rauchen aufgehört und mit dem Laufen angefangen.»",
+            "fr": "Un ami que tu n'as pas vu depuis un moment te dit que tu as très bonne mine. Écris en espagnol : «J'ai arrêté de fumer il y a deux ans et j'ai commencé à courir.»",
+            "pt": "Um amigo que você não vê há algum tempo diz que você está com uma cara ótima. Escreva em espanhol: «Parei de fumar há dois anos e comecei a correr.»",
+            "zh": "一个好久没见的朋友说你气色很好。用西班牙语写：«我两年前戒了烟，开始跑步了。»"
+          },
+          "accepted": [
+            "Dejé de fumar hace dos años y empecé a correr.",
+            "Hace dos años dejé de fumar y empecé a correr.",
+            "Dejé de fumar hace dos años y me puse a correr.",
+            "Dejé de fumar hace dos años y empecé a salir a correr."
+          ],
+          "model": {
+            "es": "Dejé de fumar hace dos años y empecé a correr.",
+            "en": "I stopped smoking two years ago and I started running.",
+            "it": "Ho smesso di fumare due anni fa e ho cominciato a correre.",
+            "uk": "Я кинув(-ла) курити два роки тому й почав(-ла) бігати.",
+            "de": "Ich habe vor zwei Jahren mit dem Rauchen aufgehört und mit dem Laufen angefangen.",
+            "fr": "J'ai arrêté de fumer il y a deux ans et j'ai commencé à courir.",
+            "pt": "Parei de fumar há dois anos e comecei a correr.",
+            "zh": "我两年前戒了烟，开始跑步了。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u41l4",
+      "goal": {
+        "en": "Say what's about to happen with estar a punto de (el tren está a punto de salir), what was about to happen when something got in the way (estaba a punto de salir cuando empezó a llover), and tell it apart from acabar de.",
+        "it": "Di' che cosa sta per succedere con estar a punto de (el tren está a punto de salir), che cosa stava per succedere quando qualcosa l'ha interrotto (estaba a punto de salir cuando empezó a llover), e distinguilo da acabar de.",
+        "uk": "Скажи, що ось-ось станеться, за допомогою estar a punto de (el tren está a punto de salir), що мало статися, коли щось завадило (estaba a punto de salir cuando empezó a llover), і навчися відрізняти це від acabar de.",
+        "de": "Sag mit estar a punto de, was gleich passiert (el tren está a punto de salir), was gerade passieren wollte, als etwas dazwischenkam (estaba a punto de salir cuando empezó a llover), und unterscheide es von acabar de.",
+        "fr": "Dis ce qui est sur le point d'arriver avec estar a punto de (el tren está a punto de salir), ce qui allait arriver quand quelque chose l'a interrompu (estaba a punto de salir cuando empezó a llover), et distingue-le de acabar de.",
+        "pt": "Diga o que está prestes a acontecer com estar a punto de (el tren está a punto de salir), o que estava prestes a acontecer quando algo atrapalhou (estaba a punto de salir cuando empezó a llover) e diferencie de acabar de.",
+        "zh": "用 estar a punto de 说马上要发生的事（el tren está a punto de salir），说被别的事打断、差点发生的事（estaba a punto de salir cuando empezó a llover），并把它和 acabar de 区分开。"
+      },
+      "target": {
+        "es": "Estoy a punto de salir de casa.",
+        "en": "I'm about to leave home.",
+        "it": "Sto per uscire di casa.",
+        "uk": "Я ось-ось вийду з дому.",
+        "de": "Ich bin kurz davor, aus dem Haus zu gehen.",
+        "fr": "Je suis sur le point de partir de chez moi.",
+        "pt": "Estou prestes a sair de casa.",
+        "zh": "我正要出门。"
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "a punto de",
+              "en": "about to",
+              "it": "sul punto di, per (stare per)",
+              "uk": "ось-ось, от-от",
+              "de": "kurz davor, gleich",
+              "fr": "sur le point de",
+              "pt": "prestes a, a ponto de",
+              "zh": "正要、马上就要",
+              "kind": "rail"
+            },
+            {
+              "es": "despegar",
+              "en": "to take off (a plane)",
+              "it": "decollare",
+              "uk": "злітати (про літак)",
+              "de": "abheben, starten (Flugzeug)",
+              "fr": "décoller (un avion)",
+              "pt": "decolar",
+              "zh": "起飞（飞机）",
+              "kind": "stem"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "estoy",
+              "kind": "stem"
+            },
+            {
+              "text": "a punto de",
+              "kind": "rail"
+            },
+            {
+              "text": "salir",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "estar a punto de + infinitive means to be about to do something, any minute now: estoy a punto de salir (I'm about to leave).",
+            "it": "estar a punto de + infinito vuol dire stare per fare qualcosa, tra un attimo: estoy a punto de salir (sto per uscire).",
+            "uk": "estar a punto de + інфінітив означає, що ти ось-ось щось зробиш, з хвилини на хвилину: estoy a punto de salir (я ось-ось вийду).",
+            "de": "estar a punto de + Infinitiv heißt, kurz davor sein, etwas zu tun, jeden Moment: estoy a punto de salir (ich gehe gleich los).",
+            "fr": "estar a punto de + infinitif veut dire être sur le point de faire quelque chose, d'un instant à l'autre : estoy a punto de salir (je suis sur le point de partir). C'est le même tour qu'en français.",
+            "pt": "estar a punto de + infinitivo quer dizer estar prestes a fazer algo, a qualquer momento: estoy a punto de salir (estou prestes a sair). Igualzinho ao nosso estar a ponto de.",
+            "zh": "estar a punto de + 动词原形表示马上就要做某事：estoy a punto de salir（我正要出门）。"
+          },
+          "examples": [
+            {
+              "es": "Estoy a punto de salir de casa.",
+              "en": "I'm about to leave home.",
+              "it": "Sto per uscire di casa.",
+              "uk": "Я ось-ось вийду з дому.",
+              "de": "Ich bin kurz davor, aus dem Haus zu gehen.",
+              "fr": "Je suis sur le point de partir de chez moi.",
+              "pt": "Estou prestes a sair de casa.",
+              "zh": "我正要出门。"
+            },
+            {
+              "es": "Corre, el tren está a punto de salir.",
+              "en": "Hurry, the train is about to leave.",
+              "it": "Corri, il treno sta per partire.",
+              "uk": "Швидше, потяг ось-ось рушить.",
+              "de": "Beeil dich, der Zug fährt gleich ab.",
+              "fr": "Dépêche-toi, le train est sur le point de partir.",
+              "pt": "Corre, o trem está prestes a sair.",
+              "zh": "快点，火车马上就要开了。"
+            },
+            {
+              "es": "El avión está a punto de despegar.",
+              "en": "The plane is about to take off.",
+              "it": "L'aereo sta per decollare.",
+              "uk": "Літак ось-ось злетить.",
+              "de": "Das Flugzeug hebt gleich ab.",
+              "fr": "L'avion est sur le point de décoller.",
+              "pt": "O avião está prestes a decolar.",
+              "zh": "飞机马上就要起飞了。"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Corre, la película está a punto ",
+          "after": " empezar.",
+          "options": [
+            "de",
+            "a",
+            "que"
+          ],
+          "answer": "de",
+          "en": "Hurry, the film is about to start.",
+          "it": "Corri, il film sta per cominciare.",
+          "uk": "Швидше, фільм ось-ось почнеться.",
+          "de": "Beeil dich, der Film fängt gleich an.",
+          "fr": "Dépêche-toi, le film est sur le point de commencer.",
+          "pt": "Corre, o filme está prestes a começar.",
+          "zh": "快点，电影马上就要开始了。",
+          "hint": {
+            "en": "About to: a punto de + infinitive.",
+            "it": "Stare per: a punto de + infinito.",
+            "uk": "Ось-ось: a punto de + інфінітив.",
+            "de": "Gleich: a punto de + Infinitiv.",
+            "fr": "Sur le point de : a punto de + infinitif.",
+            "pt": "Prestes a: a punto de + infinitivo.",
+            "zh": "马上就要：a punto de + 动词原形。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "A friend calls and asks if you're ready. Say: yes, I'm about to leave home.",
+            "it": "Un amico ti chiama e ti chiede se sei pronto. Rispondi: sì, sto per uscire di casa.",
+            "uk": "Друг телефонує й питає, чи ти готовий(-а). Скажи: так, я ось-ось вийду з дому.",
+            "de": "Ein Freund ruft an und fragt, ob du fertig bist. Sag: Ja, ich gehe gleich aus dem Haus.",
+            "fr": "Un ami t'appelle et te demande si tu es prêt. Dis : oui, je suis sur le point de partir de chez moi.",
+            "pt": "Um amigo liga e pergunta se você está pronto. Diga: sim, estou prestes a sair de casa.",
+            "zh": "一个朋友打电话问你准备好了没有。你说：好了，我正要出门。"
+          },
+          "accepted": [
+            "Sí, estoy a punto de salir de casa.",
+            "Sí, estoy a punto de salir."
+          ],
+          "tiles": [
+            "Sí,",
+            "estoy",
+            "a punto de",
+            "salir",
+            "de casa",
+            "acabo de",
+            "salgo"
+          ],
+          "en": "Yes, I'm about to leave home.",
+          "it": "Sì, sto per uscire di casa.",
+          "uk": "Так, я ось-ось вийду з дому.",
+          "de": "Ja, ich gehe gleich aus dem Haus.",
+          "fr": "Oui, je suis sur le point de partir de chez moi.",
+          "pt": "Sim, estou prestes a sair de casa.",
+          "zh": "好了，我正要出门。",
+          "hint": {
+            "en": "About to: estoy a punto de + infinitive.",
+            "it": "Stare per: estoy a punto de + infinito.",
+            "uk": "Ось-ось: estoy a punto de + інфінітив.",
+            "de": "Gleich: estoy a punto de + Infinitiv.",
+            "fr": "Sur le point de : estoy a punto de + infinitif.",
+            "pt": "Prestes a: estoy a punto de + infinitivo.",
+            "zh": "马上就要：estoy a punto de + 动词原形。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "estaba",
+              "kind": "stem"
+            },
+            {
+              "text": "a punto de",
+              "kind": "rail"
+            },
+            {
+              "text": "salir",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "In the past, use the imperfect: estaba a punto de says what was about to happen when something else got in the way: estaba a punto de salir cuando empezó a llover.",
+            "it": "Al passato si usa l'imperfetto: estaba a punto de dice che cosa stava per succedere quando qualcos'altro l'ha interrotto: estaba a punto de salir cuando empezó a llover.",
+            "uk": "У минулому вживай «imperfecto»: estaba a punto de каже, що мало статися, коли щось інше завадило: estaba a punto de salir cuando empezó a llover.",
+            "de": "In der Vergangenheit nimm das imperfecto: estaba a punto de sagt, was gerade passieren wollte, als etwas anderes dazwischenkam: estaba a punto de salir cuando empezó a llover.",
+            "fr": "Au passé, on utilise l'imparfait : estaba a punto de dit ce qui allait arriver quand autre chose l'a interrompu : estaba a punto de salir cuando empezó a llover (j'étais sur le point de sortir quand il a commencé à pleuvoir).",
+            "pt": "No passado, use o imperfeito: estaba a punto de diz o que estava prestes a acontecer quando outra coisa atrapalhou: estaba a punto de salir cuando empezó a llover (eu estava prestes a sair quando começou a chover).",
+            "zh": "说过去的事用过去未完成时：estaba a punto de 表示正要做某事时，被别的事打断了：estaba a punto de salir cuando empezó a llover。"
+          },
+          "examples": [
+            {
+              "es": "¡Estaba a punto de llamarte!",
+              "en": "I was just about to call you!",
+              "it": "Stavo per chiamarti!",
+              "uk": "Я якраз збирався(-лася) тобі подзвонити!",
+              "de": "Ich wollte dich gerade anrufen!",
+              "fr": "J'étais justement sur le point de t'appeler !",
+              "pt": "Eu estava prestes a te ligar!",
+              "zh": "我正要给你打电话呢！"
+            },
+            {
+              "es": "Estaba a punto de salir cuando empezó a llover.",
+              "en": "I was about to go out when it started to rain.",
+              "it": "Stavo per uscire quando ha cominciato a piovere.",
+              "uk": "Я вже збирався(-лася) виходити, коли почався дощ.",
+              "de": "Ich wollte gerade rausgehen, als es anfing zu regnen.",
+              "fr": "J'étais sur le point de sortir quand il a commencé à pleuvoir.",
+              "pt": "Eu estava prestes a sair quando começou a chover.",
+              "zh": "我正要出门，就下起雨来了。"
+            },
+            {
+              "es": "Estábamos a punto de cenar cuando llegaron nuestros amigos.",
+              "en": "We were about to have dinner when our friends arrived.",
+              "it": "Stavamo per cenare quando sono arrivati i nostri amici.",
+              "uk": "Ми вже збиралися вечеряти, коли прийшли наші друзі.",
+              "de": "Wir wollten gerade zu Abend essen, als unsere Freunde kamen.",
+              "fr": "On était sur le point de dîner quand nos amis sont arrivés.",
+              "pt": "Estávamos prestes a jantar quando os nossos amigos chegaram.",
+              "zh": "我们正要吃晚饭，朋友们就来了。"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "",
+          "after": " a punto de llamarte cuando me llamaste.",
+          "options": [
+            "Estaba",
+            "Estoy",
+            "Estaré"
+          ],
+          "answer": "Estaba",
+          "en": "I was about to call you when you called me.",
+          "it": "Stavo per chiamarti quando mi hai chiamato.",
+          "uk": "Я якраз збирався(-лася) тобі подзвонити, коли ти мені подзвонив(-ла).",
+          "de": "Ich wollte dich gerade anrufen, als du mich angerufen hast.",
+          "fr": "J'étais sur le point de t'appeler quand tu m'as appelé.",
+          "pt": "Eu estava prestes a te ligar quando você me ligou.",
+          "zh": "我正要给你打电话，你就打过来了。",
+          "hint": {
+            "en": "Something got in the way in the past: the imperfect estaba.",
+            "it": "Qualcosa l'ha interrotto nel passato: l'imperfetto estaba.",
+            "uk": "У минулому щось завадило: «imperfecto» estaba.",
+            "de": "In der Vergangenheit ist etwas dazwischengekommen: das imperfecto estaba.",
+            "fr": "Quelque chose l'a interrompu dans le passé : l'imparfait estaba.",
+            "pt": "Algo atrapalhou no passado: o imperfeito estaba.",
+            "zh": "过去有别的事打断：用过去未完成时 estaba。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "fire",
+          "before": "",
+          "after": " a punto de cenar cuando llegaron nuestros amigos.",
+          "label": "estar",
+          "accepted": [
+            "Estábamos"
+          ],
+          "en": "We were about to have dinner when our friends arrived.",
+          "it": "Stavamo per cenare quando sono arrivati i nostri amici.",
+          "uk": "Ми вже збиралися вечеряти, коли прийшли наші друзі.",
+          "de": "Wir wollten gerade zu Abend essen, als unsere Freunde kamen.",
+          "fr": "On était sur le point de dîner quand nos amis sont arrivés.",
+          "pt": "Estávamos prestes a jantar quando os nossos amigos chegaram.",
+          "zh": "我们正要吃晚饭，朋友们就来了。",
+          "hint": {
+            "en": "nosotros in the imperfect: estábamos.",
+            "it": "nosotros all'imperfetto: estábamos.",
+            "uk": "nosotros в «imperfecto»: estábamos.",
+            "de": "nosotros im imperfecto: estábamos.",
+            "fr": "nosotros à l'imparfait : estábamos.",
+            "pt": "nosotros no imperfeito: estábamos.",
+            "zh": "nosotros 的过去未完成时：estábamos。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "acaba de",
+              "kind": "rail"
+            },
+            {
+              "text": "/",
+              "kind": "chunk"
+            },
+            {
+              "text": "está a punto de",
+              "kind": "rail"
+            }
+          ],
+          "rule": {
+            "en": "acabar de looks back: it has just happened. estar a punto de looks forward: it's about to happen. El tren acaba de salir (it's just left) / el tren está a punto de salir (it's about to leave).",
+            "it": "acabar de guarda indietro: è appena successo. estar a punto de guarda avanti: sta per succedere. El tren acaba de salir (è appena partito) / el tren está a punto de salir (sta per partire).",
+            "uk": "acabar de дивиться назад: це щойно сталося. estar a punto de дивиться вперед: це ось-ось станеться. El tren acaba de salir (потяг щойно рушив) / el tren está a punto de salir (потяг ось-ось рушить).",
+            "de": "acabar de schaut zurück: Es ist gerade passiert. estar a punto de schaut nach vorn: Es passiert gleich. El tren acaba de salir (er ist gerade abgefahren) / el tren está a punto de salir (er fährt gleich ab).",
+            "fr": "acabar de regarde en arrière : ça vient d'arriver. estar a punto de regarde en avant : ça va arriver. El tren acaba de salir (le train vient de partir) / el tren está a punto de salir (le train est sur le point de partir).",
+            "pt": "acabar de olha para trás: acabou de acontecer. estar a punto de olha para a frente: está prestes a acontecer. El tren acaba de salir (o trem acabou de sair) / el tren está a punto de salir (o trem está prestes a sair).",
+            "zh": "acabar de 往回看：事情刚发生。estar a punto de 往前看：事情马上要发生。El tren acaba de salir（火车刚开走）／el tren está a punto de salir（火车马上要开了）。"
+          },
+          "examples": [
+            {
+              "es": "Corre, el tren está a punto de salir.",
+              "en": "Hurry, the train is about to leave.",
+              "it": "Corri, il treno sta per partire.",
+              "uk": "Швидше, потяг ось-ось рушить.",
+              "de": "Beeil dich, der Zug fährt gleich ab.",
+              "fr": "Dépêche-toi, le train est sur le point de partir.",
+              "pt": "Corre, o trem está prestes a sair.",
+              "zh": "快点，火车马上就要开了。"
+            },
+            {
+              "es": "Qué pena, el tren acaba de salir.",
+              "en": "What a shame, the train has just left.",
+              "it": "Che peccato, il treno è appena partito.",
+              "uk": "Шкода, потяг щойно поїхав.",
+              "de": "Wie schade, der Zug ist gerade abgefahren.",
+              "fr": "Dommage, le train vient de partir.",
+              "pt": "Que pena, o trem acabou de sair.",
+              "zh": "真可惜，火车刚开走。"
+            },
+            {
+              "es": "¿La película? Acaba de empezar.",
+              "en": "The film? It's just started.",
+              "it": "Il film? È appena cominciato.",
+              "uk": "Фільм? Він щойно почався.",
+              "de": "Der Film? Der hat gerade angefangen.",
+              "fr": "Le film ? Il vient de commencer.",
+              "pt": "O filme? Acabou de começar.",
+              "zh": "电影？刚开始。"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "¡Qué pena! Hemos llegado tarde y el tren ",
+          "after": " salir.",
+          "options": [
+            "acaba de",
+            "está a punto de"
+          ],
+          "answer": "acaba de",
+          "en": "What a shame! We've arrived late and the train has just left.",
+          "it": "Che peccato! Siamo arrivati tardi e il treno è appena partito.",
+          "uk": "Як шкода! Ми запізнилися, і потяг щойно поїхав.",
+          "de": "Wie schade! Wir sind zu spät gekommen und der Zug ist gerade abgefahren.",
+          "fr": "Dommage ! On est arrivés en retard et le train vient de partir.",
+          "pt": "Que pena! Chegamos atrasados e o trem acabou de sair.",
+          "zh": "真可惜！我们来晚了，火车刚开走。",
+          "hint": {
+            "en": "We're late, so it has already happened: acaba de.",
+            "it": "Siamo in ritardo, quindi è già successo: acaba de.",
+            "uk": "Ми запізнилися, отже, це вже сталося: acaba de.",
+            "de": "Wir sind zu spät, es ist also schon passiert: acaba de.",
+            "fr": "On est en retard, donc c'est déjà arrivé : acaba de.",
+            "pt": "Estamos atrasados, então já aconteceu: acaba de.",
+            "zh": "我们来晚了，所以事情已经发生了：acaba de。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "You're at the cinema door and your friend is still buying a drink. Say: hurry, the film is about to start.",
+            "it": "Sei all'ingresso del cinema e il tuo amico sta ancora comprando da bere. Digli: corri, il film sta per cominciare.",
+            "uk": "Ти біля входу в кінотеатр, а твій друг ще купує напій. Скажи: швидше, фільм ось-ось почнеться.",
+            "de": "Du stehst am Kinoeingang und dein Freund kauft immer noch etwas zu trinken. Sag: Beeil dich, der Film fängt gleich an.",
+            "fr": "Tu es à l'entrée du cinéma et ton ami est encore en train d'acheter à boire. Dis-lui : dépêche-toi, le film est sur le point de commencer.",
+            "pt": "Você está na porta do cinema e o seu amigo ainda está comprando uma bebida. Diga a ele: corre, o filme está prestes a começar.",
+            "zh": "你在电影院门口，朋友还在买饮料。对他说：快点，电影马上就要开始了。"
+          },
+          "accepted": [
+            "Corre, la película está a punto de empezar.",
+            "Corre, la película está a punto de empezar ya."
+          ],
+          "tiles": [
+            "Corre,",
+            "la película",
+            "está",
+            "a punto de",
+            "empezar",
+            "acaba de",
+            "empieza"
+          ],
+          "en": "Hurry, the film is about to start.",
+          "it": "Corri, il film sta per cominciare.",
+          "uk": "Швидше, фільм ось-ось почнеться.",
+          "de": "Beeil dich, der Film fängt gleich an.",
+          "fr": "Dépêche-toi, le film est sur le point de commencer.",
+          "pt": "Corre, o filme está prestes a começar.",
+          "zh": "快点，电影马上就要开始了。",
+          "hint": {
+            "en": "It hasn't started yet: está a punto de.",
+            "it": "Non è ancora cominciato: está a punto de.",
+            "uk": "Він ще не почався: está a punto de.",
+            "de": "Er hat noch nicht angefangen: está a punto de.",
+            "fr": "Il n'a pas encore commencé : está a punto de.",
+            "pt": "Ainda não começou: está a punto de.",
+            "zh": "还没开始：está a punto de。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "No puedo hablar ahora: ",
+          "after": " a punto de entrar en una reunión.",
+          "options": [
+            "estoy",
+            "acabo",
+            "llevo"
+          ],
+          "answer": "estoy",
+          "en": "I can't talk now: I'm about to go into a meeting.",
+          "it": "Non posso parlare ora: sto per entrare in una riunione.",
+          "uk": "Не можу зараз говорити: я ось-ось піду на нараду.",
+          "de": "Ich kann gerade nicht reden: Ich gehe gleich in eine Besprechung.",
+          "fr": "Je ne peux pas parler maintenant : je suis sur le point d'entrer en réunion.",
+          "pt": "Não posso falar agora: estou prestes a entrar em uma reunião.",
+          "zh": "我现在不方便说话：我马上要进去开会了。",
+          "hint": {
+            "en": "About to: estar a punto de.",
+            "it": "Stare per: estar a punto de.",
+            "uk": "Ось-ось: estar a punto de.",
+            "de": "Gleich: estar a punto de.",
+            "fr": "Sur le point de : estar a punto de.",
+            "pt": "Prestes a: estar a punto de.",
+            "zh": "马上就要：estar a punto de。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "Te llamo luego, el avión está a punto de ",
+          "after": ".",
+          "options": [
+            "despegar",
+            "despegado"
+          ],
+          "answer": "despegar",
+          "en": "I'll call you later, the plane is about to take off.",
+          "it": "Ti chiamo dopo, l'aereo sta per decollare.",
+          "uk": "Я подзвоню тобі пізніше, літак ось-ось злетить.",
+          "de": "Ich rufe dich später an, das Flugzeug hebt gleich ab.",
+          "fr": "Je t'appelle plus tard, l'avion est sur le point de décoller.",
+          "pt": "Te ligo mais tarde, o avião está prestes a decolar.",
+          "zh": "我待会儿给你打电话，飞机马上就要起飞了。",
+          "hint": {
+            "en": "After a punto de comes the infinitive.",
+            "it": "Dopo a punto de ci vuole l'infinito.",
+            "uk": "Після a punto de іде інфінітив.",
+            "de": "Nach a punto de kommt der Infinitiv.",
+            "fr": "Après a punto de vient l'infinitif.",
+            "pt": "Depois de a punto de vem o infinitivo.",
+            "zh": "a punto de 后面接动词原形。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "mix",
+          "intention": {
+            "en": "It's late and your partner asks if you're coming to bed. Say: I'm about to finish the book.",
+            "it": "È tardi e il tuo compagno ti chiede se vieni a letto. Rispondi: sto per finire il libro.",
+            "uk": "Уже пізно, і твоя друга половинка питає, чи ти йдеш спати. Скажи: я ось-ось дочитаю книжку.",
+            "de": "Es ist spät und dein Partner fragt, ob du ins Bett kommst. Sag: Ich bin mit dem Buch gleich fertig.",
+            "fr": "Il est tard et ton compagnon te demande si tu viens te coucher. Dis : je suis sur le point de finir le livre.",
+            "pt": "Está tarde e o seu parceiro pergunta se você vem para a cama. Diga: estou prestes a terminar o livro.",
+            "zh": "很晚了，你的伴侣问你来不来睡觉。你说：这本书我马上就看完了。"
+          },
+          "accepted": [
+            "Estoy a punto de terminar el libro.",
+            "Estoy a punto de acabar el libro."
+          ],
+          "tiles": [
+            "Estoy",
+            "a punto de",
+            "terminar",
+            "el libro",
+            "acabo de",
+            "terminado"
+          ],
+          "en": "I'm about to finish the book.",
+          "it": "Sto per finire il libro.",
+          "uk": "Я ось-ось дочитаю книжку.",
+          "de": "Ich bin mit dem Buch gleich fertig.",
+          "fr": "Je suis sur le point de finir le livre.",
+          "pt": "Estou prestes a terminar o livro.",
+          "zh": "这本书我马上就看完了。",
+          "hint": {
+            "en": "About to: estoy a punto de + infinitive.",
+            "it": "Stare per: estoy a punto de + infinito.",
+            "uk": "Ось-ось: estoy a punto de + інфінітив.",
+            "de": "Gleich: estoy a punto de + Infinitiv.",
+            "fr": "Sur le point de : estoy a punto de + infinitif.",
+            "pt": "Prestes a: estoy a punto de + infinitivo.",
+            "zh": "马上就要：estoy a punto de + 动词原形。"
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "A friend calls you just as you were picking up the phone to call her. Write in Spanish: «I was about to call you!»",
+            "it": "Un'amica ti chiama proprio mentre stavi per chiamarla tu. Scrivi in spagnolo: «Stavo per chiamarti!»",
+            "uk": "Подруга телефонує тобі саме тоді, коли ти брав(-ла) телефон, щоб їй подзвонити. Напиши іспанською: «Я якраз збирався(-лася) тобі подзвонити!»",
+            "de": "Eine Freundin ruft dich genau in dem Moment an, als du zum Telefon greifst, um sie anzurufen. Schreib auf Spanisch: «Ich wollte dich gerade anrufen!»",
+            "fr": "Une amie t'appelle juste au moment où tu prenais ton téléphone pour l'appeler. Écris en espagnol : «J'étais sur le point de t'appeler !»",
+            "pt": "Uma amiga te liga bem na hora em que você ia pegar o telefone para ligar para ela. Escreva em espanhol: «Eu estava prestes a te ligar!»",
+            "zh": "你正拿起手机要给一个朋友打电话，她就先打过来了。用西班牙语写：«我正要给你打电话呢！»"
+          },
+          "accepted": [
+            "¡Estaba a punto de llamarte!",
+            "¡Yo estaba a punto de llamarte!",
+            "¡Estaba a punto de llamarte yo!"
+          ],
+          "model": {
+            "es": "¡Estaba a punto de llamarte!",
+            "en": "I was about to call you!",
+            "it": "Stavo per chiamarti!",
+            "uk": "Я якраз збирався(-лася) тобі подзвонити!",
+            "de": "Ich wollte dich gerade anrufen!",
+            "fr": "J'étais sur le point de t'appeler !",
+            "pt": "Eu estava prestes a te ligar!",
+            "zh": "我正要给你打电话呢！"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u41l5",
+      "goal": {
+        "en": "Say what has to be done in general with hay que, what someone has to do with tener que, what you must or should do with debes and deberías, and tell no tienes que (you don't have to) from no debes (you mustn't).",
+        "it": "Di' che cosa bisogna fare in generale con hay que, che cosa deve fare qualcuno con tener que, che cosa devi o dovresti fare con debes e deberías, e distingui no tienes que (non sei obbligato) da no debes (non devi).",
+        "uk": "Скажи, що треба робити загалом, за допомогою hay que, що мусить зробити конкретна людина — за допомогою tener que, що ти мусиш або що тобі варто зробити — за допомогою debes і deberías, і навчися відрізняти no tienes que (тобі не обов'язково) від no debes (тобі не можна).",
+        "de": "Sag mit hay que, was man allgemein tun muss, mit tener que, was jemand tun muss, mit debes und deberías, was du tun musst oder solltest, und unterscheide no tienes que (du musst nicht) von no debes (du darfst nicht).",
+        "fr": "Dis ce qu'il faut faire en général avec hay que, ce que quelqu'un doit faire avec tener que, ce que tu dois ou devrais faire avec debes et deberías, et distingue no tienes que (tu n'es pas obligé) de no debes (tu ne dois pas).",
+        "pt": "Diga o que é preciso fazer em geral com hay que, o que alguém tem que fazer com tener que, o que você deve ou deveria fazer com debes e deberías, e diferencie no tienes que (você não precisa) de no debes (você não deve).",
+        "zh": "用 hay que 说一般情况下必须做的事，用 tener que 说某人必须做的事，用 debes 和 deberías 说你必须或应该做的事，并区分 no tienes que（你不必）和 no debes（你不可以）。"
+      },
+      "target": {
+        "es": "No tienes que venir, pero deberías.",
+        "en": "You don't have to come, but you should.",
+        "it": "Non sei obbligato a venire, ma dovresti.",
+        "uk": "Тобі не обов'язково приходити, але варто було б.",
+        "de": "Du musst nicht kommen, aber du solltest.",
+        "fr": "Tu n'es pas obligé de venir, mais tu devrais.",
+        "pt": "Você não precisa vir, mas deveria.",
+        "zh": "你不必来，但你应该来。"
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "obligatorio",
+              "en": "compulsory",
+              "it": "obbligatorio",
+              "uk": "обов'язковий",
+              "de": "Pflicht, vorgeschrieben",
+              "fr": "obligatoire",
+              "pt": "obrigatório",
+              "zh": "强制的、必须的",
+              "kind": "chunk"
+            },
+            {
+              "es": "prohibido",
+              "en": "forbidden, not allowed",
+              "it": "vietato",
+              "uk": "заборонений, заборонено",
+              "de": "verboten, nicht erlaubt",
+              "fr": "interdit",
+              "pt": "proibido",
+              "zh": "禁止的、不允许的",
+              "kind": "chunk"
+            },
+            {
+              "es": "el cinturón",
+              "en": "the seatbelt, the belt",
+              "it": "la cintura (di sicurezza), la cintura",
+              "uk": "ремінь безпеки, пасок",
+              "de": "der Sicherheitsgurt, der Gürtel",
+              "fr": "la ceinture (de sécurité), la ceinture",
+              "pt": "o cinto (de segurança), o cinto",
+              "zh": "安全带；腰带",
+              "kind": "chunk"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "hay que",
+              "kind": "rail"
+            },
+            {
+              "text": "/",
+              "kind": "chunk"
+            },
+            {
+              "text": "tengo que",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "hay que + infinitive says what's necessary in general, for anyone: hay que reservar. tener que says who has to do it: tengo que trabajar, tienes que venir.",
+            "it": "hay que + infinito dice che cosa bisogna fare in generale, per chiunque: hay que reservar (bisogna prenotare). tener que dice chi lo deve fare: tengo que trabajar (devo lavorare).",
+            "uk": "hay que + інфінітив каже, що потрібно загалом, будь-кому: hay que reservar. tener que каже, хто саме мусить це зробити: tengo que trabajar, tienes que venir.",
+            "de": "hay que + Infinitiv sagt, was allgemein nötig ist, für alle (wie „man muss“): hay que reservar. tener que sagt, wer es tun muss: tengo que trabajar, tienes que venir.",
+            "fr": "hay que + infinitif dit ce qu'il faut faire en général, pour tout le monde, comme « il faut » : hay que reservar (il faut réserver). tener que dit qui doit le faire : tengo que trabajar (je dois travailler), tienes que venir (tu dois venir).",
+            "pt": "hay que + infinitivo diz o que é preciso fazer em geral, para qualquer pessoa: hay que reservar (é preciso reservar). tener que diz quem tem que fazer: tengo que trabajar (tenho que trabalhar), tienes que venir (você tem que vir).",
+            "zh": "hay que + 动词原形表示一般情况下、对任何人来说都必须做的事：hay que reservar。tener que 则说出是谁必须做：tengo que trabajar，tienes que venir。"
+          },
+          "examples": [
+            {
+              "es": "En este restaurante hay que reservar.",
+              "en": "In this restaurant you have to book.",
+              "it": "In questo ristorante bisogna prenotare.",
+              "uk": "У цьому ресторані треба бронювати столик.",
+              "de": "In diesem Restaurant muss man reservieren.",
+              "fr": "Dans ce restaurant, il faut réserver.",
+              "pt": "Neste restaurante é preciso reservar.",
+              "zh": "这家餐厅得提前订位。"
+            },
+            {
+              "es": "Hoy tengo que trabajar hasta tarde.",
+              "en": "Today I have to work late.",
+              "it": "Oggi devo lavorare fino a tardi.",
+              "uk": "Сьогодні я мушу працювати допізна.",
+              "de": "Heute muss ich lange arbeiten.",
+              "fr": "Aujourd'hui, je dois travailler tard.",
+              "pt": "Hoje tenho que trabalhar até tarde.",
+              "zh": "今天我得工作到很晚。"
+            },
+            {
+              "es": "Tienes que probar la tortilla.",
+              "en": "You have to try the tortilla.",
+              "it": "Devi assaggiare la tortilla.",
+              "uk": "Ти обов'язково маєш скуштувати тортилью.",
+              "de": "Du musst die Tortilla probieren.",
+              "fr": "Tu dois goûter la tortilla.",
+              "pt": "Você tem que provar a tortilla.",
+              "zh": "你一定要尝尝 tortilla。"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Este restaurante siempre está lleno: ",
+          "after": " reservar.",
+          "options": [
+            "hay que",
+            "hay",
+            "tengo"
+          ],
+          "answer": "hay que",
+          "en": "This restaurant is always full: you have to book.",
+          "it": "Questo ristorante è sempre pieno: bisogna prenotare.",
+          "uk": "Цей ресторан завжди переповнений: треба бронювати столик.",
+          "de": "Dieses Restaurant ist immer voll: Man muss reservieren.",
+          "fr": "Ce restaurant est toujours plein : il faut réserver.",
+          "pt": "Este restaurante está sempre cheio: é preciso reservar.",
+          "zh": "这家餐厅总是满座：得提前订位。",
+          "hint": {
+            "en": "For anyone, in general: hay que + infinitive.",
+            "it": "Per chiunque, in generale: hay que + infinito.",
+            "uk": "Для будь-кого, загалом: hay que + інфінітив.",
+            "de": "Für alle, allgemein: hay que + Infinitiv.",
+            "fr": "Pour tout le monde, en général : hay que + infinitif.",
+            "pt": "Para qualquer pessoa, em geral: hay que + infinitivo.",
+            "zh": "对任何人、一般情况：hay que + 动词原形。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "A friend visiting your city wants to go to a famous museum. Tell her: you have to buy the tickets online.",
+            "it": "Un'amica in visita nella tua città vuole andare in un museo famoso. Dille: bisogna comprare i biglietti su internet.",
+            "uk": "Подруга приїхала у твоє місто й хоче піти до відомого музею. Скажи їй: квитки треба купувати онлайн.",
+            "de": "Eine Freundin besucht deine Stadt und will in ein berühmtes Museum. Sag ihr: Man muss die Eintrittskarten online kaufen.",
+            "fr": "Une amie en visite dans ta ville veut aller dans un musée célèbre. Dis-lui : il faut acheter les billets sur internet.",
+            "pt": "Uma amiga que está visitando a sua cidade quer ir a um museu famoso. Diga a ela: é preciso comprar os ingressos pela internet.",
+            "zh": "一个朋友来你的城市玩，想去一家有名的博物馆。告诉她：门票得在网上买。"
+          },
+          "accepted": [
+            "Hay que comprar las entradas por internet.",
+            "Tienes que comprar las entradas por internet.",
+            "Las entradas hay que comprarlas por internet."
+          ],
+          "tiles": [
+            "Hay",
+            "que",
+            "comprar",
+            "las entradas",
+            "por internet",
+            "tengo",
+            "de"
+          ],
+          "en": "You have to buy the tickets online.",
+          "it": "Bisogna comprare i biglietti su internet.",
+          "uk": "Квитки треба купувати онлайн.",
+          "de": "Man muss die Eintrittskarten online kaufen.",
+          "fr": "Il faut acheter les billets sur internet.",
+          "pt": "É preciso comprar os ingressos pela internet.",
+          "zh": "门票得在网上买。",
+          "hint": {
+            "en": "A rule for everyone: hay que + infinitive.",
+            "it": "Una regola per tutti: hay que + infinito.",
+            "uk": "Правило для всіх: hay que + інфінітив.",
+            "de": "Eine Regel für alle: hay que + Infinitiv.",
+            "fr": "Une règle pour tout le monde : hay que + infinitif.",
+            "pt": "Uma regra para todos: hay que + infinitivo.",
+            "zh": "对所有人的规定：hay que + 动词原形。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "debes",
+              "kind": "stem"
+            },
+            {
+              "text": "/",
+              "kind": "chunk"
+            },
+            {
+              "text": "deberías",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "debes + infinitive is a firm must, for rules and duties: debes llevar el cinturón. deberías (should) is the conditional, softer, for advice: deberías descansar.",
+            "it": "debes + infinito è un dovere deciso, per regole e obblighi: debes llevar el cinturón. deberías (dovresti) è il condizionale, più morbido, per i consigli: deberías descansar.",
+            "uk": "debes + інфінітив — тверде «мусиш», для правил і обов'язків: debes llevar el cinturón. deberías (тобі варто, слід було б) — це умовний спосіб («condicional»), м'якший, для порад: deberías descansar.",
+            "de": "debes + Infinitiv ist ein festes Muss, für Regeln und Pflichten: debes llevar el cinturón. deberías (du solltest) ist der condicional, weicher, für Ratschläge: deberías descansar.",
+            "fr": "debes + infinitif exprime une obligation ferme, pour les règles et les devoirs : debes llevar el cinturón. deberías (tu devrais) est le conditionnel, plus doux, pour les conseils : deberías descansar. Exactement comme « tu dois » et « tu devrais » en français.",
+            "pt": "debes + infinitivo é um dever firme, para regras e obrigações: debes llevar el cinturón (você deve usar o cinto). deberías (deveria) é o condicional (o nosso futuro do pretérito), mais suave, para conselhos: deberías descansar (você deveria descansar).",
+            "zh": "debes + 动词原形是语气坚决的“必须”，用于规定和义务：debes llevar el cinturón。deberías（应该）是条件式，语气更委婉，用来提建议：deberías descansar。"
+          },
+          "examples": [
+            {
+              "es": "En el coche debes llevar el cinturón.",
+              "en": "In the car you must wear your seatbelt.",
+              "it": "In macchina devi mettere la cintura.",
+              "uk": "У машині ти мусиш пристібатися ременем безпеки.",
+              "de": "Im Auto musst du dich anschnallen.",
+              "fr": "En voiture, tu dois mettre ta ceinture.",
+              "pt": "No carro você deve usar o cinto de segurança.",
+              "zh": "坐车时你必须系安全带。"
+            },
+            {
+              "es": "Estás muy cansado: deberías descansar.",
+              "en": "You're very tired: you should rest.",
+              "it": "Sei molto stanco: dovresti riposarti.",
+              "uk": "Ти дуже втомлений: тобі варто відпочити.",
+              "de": "Du bist sehr müde: Du solltest dich ausruhen.",
+              "fr": "Tu es très fatigué : tu devrais te reposer.",
+              "pt": "Você está muito cansado: deveria descansar.",
+              "zh": "你太累了：你应该休息一下。"
+            },
+            {
+              "es": "Deberías llamar a tu madre.",
+              "en": "You should call your mother.",
+              "it": "Dovresti chiamare tua madre.",
+              "uk": "Тобі варто подзвонити мамі.",
+              "de": "Du solltest deine Mutter anrufen.",
+              "fr": "Tu devrais appeler ta mère.",
+              "pt": "Você deveria ligar para a sua mãe.",
+              "zh": "你应该给你妈妈打个电话。"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Tienes fiebre: ",
+          "after": " ir al médico.",
+          "options": [
+            "deberías",
+            "debería",
+            "deber"
+          ],
+          "answer": "deberías",
+          "en": "You've got a temperature: you should go to the doctor's.",
+          "it": "Hai la febbre: dovresti andare dal medico.",
+          "uk": "У тебе температура: тобі варто піти до лікаря.",
+          "de": "Du hast Fieber: Du solltest zum Arzt gehen.",
+          "fr": "Tu as de la fièvre : tu devrais aller chez le médecin.",
+          "pt": "Você está com febre: deveria ir ao médico.",
+          "zh": "你发烧了：你应该去看医生。",
+          "hint": {
+            "en": "Advice to a friend (tú): deberías.",
+            "it": "Un consiglio a un amico (tú): deberías.",
+            "uk": "Порада другові (tú): deberías.",
+            "de": "Ein Rat an einen Freund (tú): deberías.",
+            "fr": "Un conseil à un ami (tú) : deberías.",
+            "pt": "Um conselho a um amigo (tú): deberías.",
+            "zh": "给朋友的建议（tú）：deberías。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "fire",
+          "before": "En el coche ",
+          "after": " llevar el cinturón: es obligatorio.",
+          "label": "deber",
+          "accepted": [
+            "debes",
+            "debe",
+            "debéis"
+          ],
+          "en": "In the car you must wear your seatbelt: it's compulsory.",
+          "it": "In macchina devi mettere la cintura: è obbligatorio.",
+          "uk": "У машині ти мусиш пристібатися ременем безпеки: це обов'язково.",
+          "de": "Im Auto musst du dich anschnallen: Das ist Pflicht.",
+          "fr": "En voiture, tu dois mettre ta ceinture : c'est obligatoire.",
+          "pt": "No carro você deve usar o cinto de segurança: é obrigatório.",
+          "zh": "坐车时你必须系安全带：这是规定。",
+          "hint": {
+            "en": "A firm rule for you: debes.",
+            "it": "Una regola decisa per te: debes.",
+            "uk": "Тверде правило для тебе: debes.",
+            "de": "Eine feste Regel für dich: debes.",
+            "fr": "Une règle ferme pour toi : debes.",
+            "pt": "Uma regra firme para você: debes.",
+            "zh": "对你的硬性规定：debes。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "no tienes que",
+              "kind": "stem"
+            },
+            {
+              "text": "≠",
+              "kind": "chunk"
+            },
+            {
+              "text": "no debes",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "In the negative they differ: no tienes que means you don't have to (it isn't necessary); no debes means you mustn't (don't do it). no hay que works like no tienes que, for anyone.",
+            "it": "Al negativo cambiano: no tienes que vuol dire non sei obbligato, non serve; no debes vuol dire non devi, non farlo. no hay que funziona come no tienes que, per chiunque.",
+            "uk": "У запереченні вони різняться: no tienes que означає «тобі не обов'язково» (у цьому немає потреби); no debes означає «тобі не можна» (не роби цього). no hay que працює як no tienes que, але для будь-кого.",
+            "de": "Verneint unterscheiden sie sich: no tienes que heißt „du musst nicht“ (es ist nicht nötig); no debes heißt „du darfst nicht“ (tu es nicht). Genau wie im Deutschen. no hay que funktioniert wie no tienes que, für alle.",
+            "fr": "À la forme négative, ils ne veulent plus dire la même chose : no tienes que veut dire tu n'es pas obligé (ce n'est pas nécessaire) ; no debes veut dire tu ne dois pas (ne le fais pas). no hay que fonctionne comme no tienes que, pour tout le monde. Attention : « il ne faut pas » en français est une interdiction, alors que no hay que dit seulement que ce n'est pas nécessaire.",
+            "pt": "Na negativa, eles mudam: no tienes que quer dizer você não precisa (não é necessário); no debes quer dizer você não deve (não faça isso). no hay que funciona como no tienes que, para qualquer pessoa.",
+            "zh": "否定的时候两者意思不同：no tienes que 表示你不必（没有必要）；no debes 表示你不可以（别这么做）。no hay que 和 no tienes que 一样，只是对任何人都适用。"
+          },
+          "examples": [
+            {
+              "es": "No tienes que venir si estás cansada.",
+              "en": "You don't have to come if you're tired.",
+              "it": "Non sei obbligata a venire se sei stanca.",
+              "uk": "Тобі не обов'язково приходити, якщо ти втомлена.",
+              "de": "Du musst nicht kommen, wenn du müde bist (zu einer Frau).",
+              "fr": "Tu n'es pas obligée de venir si tu es fatiguée.",
+              "pt": "Você não precisa vir se estiver cansada.",
+              "zh": "如果你累了，就不必来了。"
+            },
+            {
+              "es": "No debes aparcar aquí: está prohibido.",
+              "en": "You mustn't park here: it's not allowed.",
+              "it": "Non devi parcheggiare qui: è vietato.",
+              "uk": "Тут не можна паркуватися: це заборонено.",
+              "de": "Du darfst hier nicht parken: Das ist verboten.",
+              "fr": "Tu ne dois pas te garer ici : c'est interdit.",
+              "pt": "Você não deve estacionar aqui: é proibido.",
+              "zh": "你不可以在这里停车：这里禁止停车。"
+            },
+            {
+              "es": "El museo es gratis: no hay que pagar.",
+              "en": "The museum is free: you don't have to pay.",
+              "it": "Il museo è gratis: non si paga.",
+              "uk": "Музей безкоштовний: платити не треба.",
+              "de": "Das Museum ist kostenlos: Man muss nichts bezahlen.",
+              "fr": "Le musée est gratuit : pas besoin de payer.",
+              "pt": "O museu é grátis: não é preciso pagar.",
+              "zh": "博物馆是免费的：不用付钱。"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Aquí está prohibido fumar: no ",
+          "after": " fumar.",
+          "options": [
+            "debes",
+            "tienes que"
+          ],
+          "answer": "debes",
+          "en": "Smoking isn't allowed here: you mustn't smoke.",
+          "it": "Qui è vietato fumare: non devi fumare.",
+          "uk": "Тут заборонено курити: тобі не можна курити.",
+          "de": "Rauchen ist hier verboten: Du darfst nicht rauchen.",
+          "fr": "Ici, il est interdit de fumer : tu ne dois pas fumer.",
+          "pt": "Aqui é proibido fumar: você não deve fumar.",
+          "zh": "这里禁止吸烟：你不可以抽烟。",
+          "hint": {
+            "en": "Don't do it: no debes.",
+            "it": "Non farlo: no debes.",
+            "uk": "Не роби цього: no debes.",
+            "de": "Tu es nicht: no debes.",
+            "fr": "Ne le fais pas : no debes.",
+            "pt": "Não faça isso: no debes.",
+            "zh": "别这么做：no debes。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "fire",
+          "before": "El museo es gratis: no ",
+          "after": " pagar nada.",
+          "options": [
+            "tienes que",
+            "debes"
+          ],
+          "answer": "tienes que",
+          "en": "The museum is free: you don't have to pay anything.",
+          "it": "Il museo è gratis: non devi pagare niente.",
+          "uk": "Музей безкоштовний: тобі не треба нічого платити.",
+          "de": "Das Museum ist kostenlos: Du musst nichts bezahlen.",
+          "fr": "Le musée est gratuit : tu n'as rien à payer.",
+          "pt": "O museu é grátis: você não precisa pagar nada.",
+          "zh": "博物馆是免费的：你什么都不用付。",
+          "hint": {
+            "en": "It isn't necessary: no tienes que.",
+            "it": "Non è necessario: no tienes que.",
+            "uk": "У цьому немає потреби: no tienes que.",
+            "de": "Es ist nicht nötig: no tienes que.",
+            "fr": "Ce n'est pas nécessaire : no tienes que.",
+            "pt": "Não é necessário: no tienes que.",
+            "zh": "没有必要：no tienes que。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "mix",
+          "before": "Cuidado, no ",
+          "after": " aparcar aquí: está prohibido.",
+          "label": "deber",
+          "accepted": [
+            "debes",
+            "debe",
+            "debéis"
+          ],
+          "en": "Careful, you mustn't park here: it's not allowed.",
+          "it": "Attenzione, non devi parcheggiare qui: è vietato.",
+          "uk": "Обережно, тут не можна паркуватися: це заборонено.",
+          "de": "Vorsicht, du darfst hier nicht parken: Das ist verboten.",
+          "fr": "Attention, tu ne dois pas te garer ici : c'est interdit.",
+          "pt": "Cuidado, você não deve estacionar aqui: é proibido.",
+          "zh": "小心，你不可以在这里停车：这里禁止停车。",
+          "hint": {
+            "en": "Forbidden, so don't do it: no debes.",
+            "it": "È vietato, quindi non farlo: no debes.",
+            "uk": "Заборонено, тож не роби цього: no debes.",
+            "de": "Verboten, also tu es nicht: no debes.",
+            "fr": "C'est interdit, donc ne le fais pas : no debes.",
+            "pt": "É proibido, então não faça isso: no debes.",
+            "zh": "这是禁止的，所以别这么做：no debes。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "Estás muy cansado: ",
+          "after": " dormir más.",
+          "options": [
+            "deberías",
+            "deberíamos",
+            "tienes"
+          ],
+          "answer": "deberías",
+          "en": "You're very tired: you should sleep more.",
+          "it": "Sei molto stanco: dovresti dormire di più.",
+          "uk": "Ти дуже втомлений: тобі варто більше спати.",
+          "de": "Du bist sehr müde: Du solltest mehr schlafen.",
+          "fr": "Tu es très fatigué : tu devrais dormir plus.",
+          "pt": "Você está muito cansado: deveria dormir mais.",
+          "zh": "你太累了：你应该多睡点。",
+          "hint": {
+            "en": "Friendly advice: deberías + infinitive.",
+            "it": "Un consiglio da amico: deberías + infinito.",
+            "uk": "Дружня порада: deberías + інфінітив.",
+            "de": "Ein freundlicher Rat: deberías + Infinitiv.",
+            "fr": "Un conseil d'ami : deberías + infinitif.",
+            "pt": "Um conselho de amigo: deberías + infinitivo.",
+            "zh": "朋友间的建议：deberías + 动词原形。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "mix",
+          "intention": {
+            "en": "A friend wants to have dinner at a popular restaurant on Saturday. Say: on Saturdays you have to book.",
+            "it": "Un amico vuole cenare sabato in un ristorante molto frequentato. Digli: il sabato bisogna prenotare.",
+            "uk": "Друг хоче повечеряти в суботу в популярному ресторані. Скажи: по суботах треба бронювати столик.",
+            "de": "Ein Freund will am Samstag in einem beliebten Restaurant essen. Sag: Samstags muss man reservieren.",
+            "fr": "Un ami veut dîner samedi dans un restaurant très fréquenté. Dis-lui : le samedi, il faut réserver.",
+            "pt": "Um amigo quer jantar no sábado em um restaurante muito concorrido. Diga: aos sábados é preciso reservar.",
+            "zh": "一个朋友想周六去一家很火的餐厅吃晚饭。你说：周六得提前订位。"
+          },
+          "accepted": [
+            "Los sábados hay que reservar.",
+            "Los sábados tienes que reservar.",
+            "Hay que reservar los sábados.",
+            "Los sábados hay que reservar mesa."
+          ],
+          "tiles": [
+            "Los sábados",
+            "hay",
+            "que",
+            "reservar",
+            "tengo",
+            "de"
+          ],
+          "en": "On Saturdays you have to book.",
+          "it": "Il sabato bisogna prenotare.",
+          "uk": "По суботах треба бронювати столик.",
+          "de": "Samstags muss man reservieren.",
+          "fr": "Le samedi, il faut réserver.",
+          "pt": "Aos sábados é preciso reservar.",
+          "zh": "周六得提前订位。",
+          "hint": {
+            "en": "A rule for everyone: hay que.",
+            "it": "Una regola per tutti: hay que.",
+            "uk": "Правило для всіх: hay que.",
+            "de": "Eine Regel für alle: hay que.",
+            "fr": "Une règle pour tout le monde : hay que.",
+            "pt": "Uma regra para todos: hay que.",
+            "zh": "对所有人的规定：hay que。"
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "A friend asks if she really has to come to your party: she's very busy. Write in Spanish: «You don't have to come, but you should.»",
+            "it": "Un'amica ti chiede se deve proprio venire alla tua festa: è molto impegnata. Scrivi in spagnolo: «Non sei obbligata a venire, ma dovresti.»",
+            "uk": "Подруга питає, чи справді мусить прийти на твою вечірку: вона дуже зайнята. Напиши іспанською: «Тобі не обов'язково приходити, але варто було б.»",
+            "de": "Eine Freundin fragt, ob sie wirklich zu deiner Party kommen muss: Sie hat sehr viel zu tun. Schreib auf Spanisch: «Du musst nicht kommen, aber du solltest.»",
+            "fr": "Une amie te demande si elle doit vraiment venir à ta fête : elle est très occupée. Écris en espagnol : «Tu n'es pas obligée de venir, mais tu devrais.»",
+            "pt": "Uma amiga pergunta se ela tem mesmo que ir à sua festa: ela está muito ocupada. Escreva em espanhol: «Você não precisa vir, mas deveria.»",
+            "zh": "一个朋友问你她是不是非得来参加你的聚会：她很忙。用西班牙语写：«你不必来，但你应该来。»"
+          },
+          "accepted": [
+            "No tienes que venir, pero deberías.",
+            "No tienes que venir, pero deberías venir.",
+            "No tienes que venir pero deberías."
+          ],
+          "model": {
+            "es": "No tienes que venir, pero deberías.",
+            "en": "You don't have to come, but you should.",
+            "it": "Non sei obbligata a venire, ma dovresti.",
+            "uk": "Тобі не обов'язково приходити, але варто було б.",
+            "de": "Du musst nicht kommen, aber du solltest.",
+            "fr": "Tu n'es pas obligée de venir, mais tu devrais.",
+            "pt": "Você não precisa vir, mas deveria.",
+            "zh": "你不必来，但你应该来。"
+          }
+        }
+      ]
+    }
+  ],
+  "boss": {
+    "id": "u41boss",
+    "goal": {
+      "en": "You've just left your office job in {city} and moved with your partner to a village by the sea to open a bakery. An old friend has heard the news and calls you: he wants to know everything. Answer his questions.",
+      "it": "Hai appena lasciato il tuo lavoro in ufficio a {city} e ti sei trasferito con il tuo compagno in un paese sul mare per aprire una panetteria. Un vecchio amico ha saputo la notizia e ti chiama: vuole sapere tutto. Rispondi alle sue domande.",
+      "uk": "Ти щойно звільнився(-лася) з офісної роботи у місті {city} і переїхав(-ла) з партнером(-кою) до селища біля моря, щоб відкрити пекарню. Старий друг почув новину й телефонує тобі: він хоче знати все. Відповідай на його запитання.",
+      "de": "Du hast gerade deinen Bürojob in {city} gekündigt und bist mit deinem Partner in ein Dorf am Meer gezogen, um eine Bäckerei zu eröffnen. Ein alter Freund hat davon gehört und ruft dich an: Er will alles wissen. Beantworte seine Fragen.",
+      "fr": "Tu viens de quitter ton travail de bureau à {city} et tu t'es installé avec ton compagnon dans un village au bord de la mer pour ouvrir une boulangerie. Un vieil ami a appris la nouvelle et t'appelle : il veut tout savoir. Réponds à ses questions.",
+      "pt": "Você acabou de largar o seu emprego num escritório em {city} e se mudou com o seu parceiro para um vilarejo à beira-mar para abrir uma padaria. Um velho amigo ficou sabendo da novidade e te liga: ele quer saber de tudo. Responda às perguntas dele.",
+      "zh": "你刚辞去了在{city}的办公室工作，和你的伴侣搬到了海边的一个小镇，准备开一家面包店。一个老朋友听说了这个消息，给你打电话：他想知道所有的事。回答他的问题。"
+    },
+    "items": [
+      {
+        "type": "build",
+        "intention": {
+          "en": "Your friend asks «¿Es verdad que has dejado el trabajo?». Say: yes, I've just left my job at the office.",
+          "it": "Il tuo amico ti chiede «¿Es verdad que has dejado el trabajo?». Rispondi: sì, ho appena lasciato il mio lavoro in ufficio.",
+          "uk": "Друг питає: «¿Es verdad que has dejado el trabajo?». Скажи: так, я щойно звільнився(-лася) з офісної роботи.",
+          "de": "Dein Freund fragt: «¿Es verdad que has dejado el trabajo?». Sag: Ja, ich habe gerade meinen Job im Büro gekündigt.",
+          "fr": "Ton ami te demande «¿Es verdad que has dejado el trabajo?». Dis : oui, je viens de quitter mon travail au bureau.",
+          "pt": "O seu amigo pergunta «¿Es verdad que has dejado el trabajo?». Diga: sim, acabei de largar o meu emprego no escritório.",
+          "zh": "你的朋友问：«¿Es verdad que has dejado el trabajo?»。你说：对，我刚辞掉了办公室的工作。"
+        },
+        "accepted": [
+          "Sí, acabo de dejar mi trabajo en la oficina.",
+          "Sí, acabo de dejar el trabajo en la oficina.",
+          "Sí, acabo de dejar mi trabajo."
+        ],
+        "tiles": [
+          "Sí,",
+          "acabo de",
+          "dejar",
+          "mi trabajo",
+          "en la oficina",
+          "llevo",
+          "dejado"
+        ],
+        "en": "Yes, I've just left my job at the office.",
+        "it": "Sì, ho appena lasciato il mio lavoro in ufficio.",
+        "uk": "Так, я щойно звільнився(-лася) з офісної роботи.",
+        "de": "Ja, ich habe gerade meinen Job im Büro gekündigt.",
+        "fr": "Oui, je viens de quitter mon travail au bureau.",
+        "pt": "Sim, acabei de largar o meu emprego no escritório.",
+        "zh": "对，我刚辞掉了办公室的工作。",
+        "hint": {
+          "en": "It's just happened: acabo de + infinitive.",
+          "it": "È appena successo: acabo de + infinito.",
+          "uk": "Це щойно сталося: acabo de + інфінітив.",
+          "de": "Es ist gerade passiert: acabo de + Infinitiv.",
+          "fr": "Ça vient d'arriver : acabo de + infinitif.",
+          "pt": "Acabou de acontecer: acabo de + infinitivo.",
+          "zh": "刚发生的事：acabo de + 动词原形。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "Llevaba diez años ",
+        "after": " en esa empresa.",
+        "options": [
+          "trabajando",
+          "trabajar",
+          "trabajado"
+        ],
+        "answer": "trabajando",
+        "en": "I'd been working at that company for ten years.",
+        "it": "Lavoravo in quell'azienda da dieci anni.",
+        "uk": "Я пропрацював(-ла) у тій компанії десять років.",
+        "de": "Ich arbeitete schon seit zehn Jahren in dieser Firma.",
+        "fr": "Je travaillais dans cette entreprise depuis dix ans.",
+        "pt": "Eu trabalhava naquela empresa havia dez anos.",
+        "zh": "我在那家公司已经工作了十年。",
+        "hint": {
+          "en": "llevar + time + the gerund: trabajando.",
+          "it": "llevar + tempo + il gerundio: trabajando.",
+          "uk": "llevar + час + герундій: trabajando.",
+          "de": "llevar + Zeitspanne + das Gerundium: trabajando.",
+          "fr": "llevar + durée + le gérondif : trabajando.",
+          "pt": "llevar + tempo + o gerúndio: trabajando.",
+          "zh": "llevar + 时间 + -ando 形式：trabajando。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "Y ya ",
+        "after": " quería vivir en la ciudad: demasiado ruido.",
+        "options": [
+          "no",
+          "todavía",
+          "sigo"
+        ],
+        "answer": "no",
+        "en": "And I didn't want to live in the city any more: too much noise.",
+        "it": "E non volevo più vivere in città: troppo rumore.",
+        "uk": "І я вже не хотів(-ла) жити в місті: забагато шуму.",
+        "de": "Und ich wollte nicht mehr in der Stadt leben: zu viel Lärm.",
+        "fr": "Et je ne voulais plus vivre en ville : trop de bruit.",
+        "pt": "E eu não queria mais morar na cidade: barulho demais.",
+        "zh": "而且我不想再住在城里了：太吵了。",
+        "hint": {
+          "en": "Not any more: ya no.",
+          "it": "Non più: ya no.",
+          "uk": "Уже не: ya no.",
+          "de": "Nicht mehr: ya no.",
+          "fr": "Ne… plus : ya no.",
+          "pt": "Não… mais: ya no.",
+          "zh": "不再：ya no。"
+        }
+      },
+      {
+        "type": "build",
+        "intention": {
+          "en": "Your friend asks «¿Y dónde vives ahora?». Say: I've been living in a village near the sea for a month.",
+          "it": "Il tuo amico ti chiede «¿Y dónde vives ahora?». Rispondi: vivo in un paese vicino al mare da un mese.",
+          "uk": "Друг питає: «¿Y dónde vives ahora?». Скажи: я вже місяць живу в селищі біля моря.",
+          "de": "Dein Freund fragt: «¿Y dónde vives ahora?». Sag: Ich wohne seit einem Monat in einem Dorf am Meer.",
+          "fr": "Ton ami te demande «¿Y dónde vives ahora?». Dis : j'habite dans un village près de la mer depuis un mois.",
+          "pt": "O seu amigo pergunta «¿Y dónde vives ahora?». Diga: moro em um vilarejo perto do mar há um mês.",
+          "zh": "你的朋友问：«¿Y dónde vives ahora?»。你说：我住在海边的一个小镇上已经一个月了。"
+        },
+        "accepted": [
+          "Llevo un mes viviendo en un pueblo cerca del mar.",
+          "Llevo un mes en un pueblo cerca del mar.",
+          "Vivo en un pueblo cerca del mar desde hace un mes."
+        ],
+        "tiles": [
+          "Llevo",
+          "un mes",
+          "viviendo",
+          "en un pueblo",
+          "cerca del mar",
+          "Sigo",
+          "vivir"
+        ],
+        "en": "I've been living in a village near the sea for a month.",
+        "it": "Vivo in un paese vicino al mare da un mese.",
+        "uk": "Я вже місяць живу в селищі біля моря.",
+        "de": "Ich wohne seit einem Monat in einem Dorf am Meer.",
+        "fr": "J'habite dans un village près de la mer depuis un mois.",
+        "pt": "Moro em um vilarejo perto do mar há um mês.",
+        "zh": "我住在海边的一个小镇上已经一个月了。",
+        "hint": {
+          "en": "How long: llevo + time + gerund.",
+          "it": "Da quanto tempo: llevo + tempo + gerundio.",
+          "uk": "Скільки часу: llevo + час + герундій.",
+          "de": "Seit wann: llevo + Zeitspanne + Gerundium.",
+          "fr": "Depuis combien de temps : llevo + durée + gérondif.",
+          "pt": "Há quanto tempo: llevo + tempo + gerúndio.",
+          "zh": "多久了：llevo + 时间 + -ando/-iendo 形式。"
+        }
+      },
+      {
+        "type": "gap",
+        "before": "Mi pareja y yo ",
+        "after": " a punto de abrir una panadería.",
+        "label": "estar",
+        "accepted": [
+          "estamos"
+        ],
+        "en": "My partner and I are about to open a bakery.",
+        "it": "Io e il mio compagno stiamo per aprire una panetteria.",
+        "uk": "Ми з партнером(-кою) ось-ось відкриємо пекарню.",
+        "de": "Mein Partner und ich eröffnen bald eine Bäckerei.",
+        "fr": "Mon compagnon et moi, nous sommes sur le point d'ouvrir une boulangerie.",
+        "pt": "Eu e o meu parceiro estamos prestes a abrir uma padaria.",
+        "zh": "我和我的伴侣马上就要开一家面包店了。",
+        "hint": {
+          "en": "My partner and I = nosotros: estamos a punto de.",
+          "it": "Io e il mio compagno = nosotros: estamos a punto de.",
+          "uk": "Я і мій партнер = nosotros: estamos a punto de.",
+          "de": "Mein Partner und ich = nosotros: estamos a punto de.",
+          "fr": "Mon compagnon et moi = nosotros : estamos a punto de.",
+          "pt": "Eu e o meu parceiro = nosotros: estamos a punto de.",
+          "zh": "我和我的伴侣 = nosotros：estamos a punto de。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "En una panadería ",
+        "after": " levantarse a las cinco de la mañana.",
+        "options": [
+          "hay que",
+          "tengo que",
+          "debes"
+        ],
+        "answer": "hay que",
+        "en": "In a bakery you have to get up at five in the morning.",
+        "it": "In una panetteria bisogna alzarsi alle cinque del mattino.",
+        "uk": "У пекарні треба вставати о п'ятій ранку.",
+        "de": "In einer Bäckerei muss man um fünf Uhr morgens aufstehen.",
+        "fr": "Dans une boulangerie, il faut se lever à cinq heures du matin.",
+        "pt": "Em uma padaria é preciso acordar às cinco da manhã.",
+        "zh": "在面包店工作得早上五点起床。",
+        "hint": {
+          "en": "For anyone who works there: hay que + levantarse.",
+          "it": "Per chiunque ci lavori: hay que + levantarse.",
+          "uk": "Для кожного, хто там працює: hay que + levantarse.",
+          "de": "Für alle, die dort arbeiten: hay que + levantarse.",
+          "fr": "Pour tous ceux qui y travaillent : hay que + levantarse.",
+          "pt": "Para qualquer pessoa que trabalhe lá: hay que + levantarse.",
+          "zh": "对在那里工作的任何人：hay que + levantarse。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "Sigo ",
+        "after": " mucho, pero ahora soy feliz.",
+        "options": [
+          "trabajando",
+          "trabajar",
+          "trabajado"
+        ],
+        "answer": "trabajando",
+        "en": "I'm still working a lot, but now I'm happy.",
+        "it": "Lavoro ancora molto, ma ora sono felice.",
+        "uk": "Я досі багато працюю, але тепер я щасливий(-а).",
+        "de": "Ich arbeite immer noch viel, aber jetzt bin ich glücklich.",
+        "fr": "Je travaille toujours beaucoup, mais maintenant je suis heureux.",
+        "pt": "Continuo trabalhando muito, mas agora estou feliz.",
+        "zh": "我还是工作很多，但现在我很开心。",
+        "hint": {
+          "en": "seguir + the gerund: trabajando.",
+          "it": "seguir + il gerundio: trabajando.",
+          "uk": "seguir + герундій: trabajando.",
+          "de": "seguir + das Gerundium: trabajando.",
+          "fr": "seguir + le gérondif : trabajando.",
+          "pt": "seguir + o gerúndio: trabajando.",
+          "zh": "seguir + -ando 形式：trabajando。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "¡Y he dejado ",
+        "after": " coger el metro todos los días!",
+        "options": [
+          "de",
+          "a",
+          "sin"
+        ],
+        "answer": "de",
+        "en": "And I've stopped taking the metro every day!",
+        "it": "E ho smesso di prendere la metro tutti i giorni!",
+        "uk": "І я перестав(-ла) щодня їздити на метро!",
+        "de": "Und ich habe aufgehört, jeden Tag U-Bahn zu fahren!",
+        "fr": "Et j'ai arrêté de prendre le métro tous les jours !",
+        "pt": "E parei de pegar o metrô todos os dias!",
+        "zh": "而且我再也不用每天坐地铁了！",
+        "hint": {
+          "en": "To stop: dejar de + infinitive.",
+          "it": "Smettere: dejar de + infinito.",
+          "uk": "Перестати: dejar de + інфінітив.",
+          "de": "Aufhören: dejar de + Infinitiv.",
+          "fr": "Arrêter de : dejar de + infinitif.",
+          "pt": "Parar de: dejar de + infinitivo.",
+          "zh": "停止：dejar de + 动词原形。"
+        }
+      },
+      {
+        "type": "build",
+        "intention": {
+          "en": "Your friend asks if you miss the city. Say: no, I'm never living in a big city again.",
+          "it": "Il tuo amico ti chiede se ti manca la città. Rispondi: no, non vivrò mai più in una grande città.",
+          "uk": "Друг питає, чи ти сумуєш за містом. Скажи: ні, я більше ніколи не житиму у великому місті.",
+          "de": "Dein Freund fragt, ob du die Stadt vermisst. Sag: Nein, ich wohne nie wieder in einer Großstadt.",
+          "fr": "Ton ami te demande si la ville te manque. Dis : non, je ne vivrai plus jamais dans une grande ville.",
+          "pt": "O seu amigo pergunta se você sente falta da cidade. Diga: não, nunca mais vou morar em uma cidade grande.",
+          "zh": "你的朋友问你想不想念城市。你说：不想，我再也不会住在大城市了。"
+        },
+        "accepted": [
+          "No, no vuelvo a vivir en una ciudad grande.",
+          "No, no volveré a vivir en una ciudad grande.",
+          "No, nunca vuelvo a vivir en una ciudad grande."
+        ],
+        "tiles": [
+          "No,",
+          "no",
+          "vuelvo",
+          "a",
+          "vivir",
+          "en una ciudad grande",
+          "de",
+          "vuelto"
+        ],
+        "en": "No, I'm never living in a big city again.",
+        "it": "No, non vivrò mai più in una grande città.",
+        "uk": "Ні, я більше ніколи не житиму у великому місті.",
+        "de": "Nein, ich wohne nie wieder in einer Großstadt.",
+        "fr": "Non, je ne vivrai plus jamais dans une grande ville.",
+        "pt": "Não, nunca mais vou morar em uma cidade grande.",
+        "zh": "不想，我再也不会住在大城市了。",
+        "hint": {
+          "en": "Never again: no + volver a.",
+          "it": "Mai più: no + volver a.",
+          "uk": "Більше ніколи: no + volver a.",
+          "de": "Nie wieder: no + volver a.",
+          "fr": "Plus jamais : no + volver a.",
+          "pt": "Nunca mais: no + volver a.",
+          "zh": "再也不：no + volver a。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "El otro día me puse ",
+        "after": " hacer pan y me encantó.",
+        "options": [
+          "a",
+          "de",
+          "en"
+        ],
+        "answer": "a",
+        "en": "The other day I got down to making bread and I loved it.",
+        "it": "L'altro giorno mi sono messo a fare il pane e mi è piaciuto tantissimo.",
+        "uk": "Днями я взявся(-лася) пекти хліб, і мені страшенно сподобалося.",
+        "de": "Neulich habe ich mich ans Brotbacken gemacht und es hat mir total gefallen.",
+        "fr": "L'autre jour, je me suis mis à faire du pain et j'ai adoré.",
+        "pt": "Outro dia eu me pus a fazer pão e adorei.",
+        "zh": "前几天我动手做了面包，我特别喜欢。",
+        "hint": {
+          "en": "To get down to something: ponerse a + infinitive.",
+          "it": "Mettersi a fare qualcosa: ponerse a + infinito.",
+          "uk": "Узятися за щось: ponerse a + інфінітив.",
+          "de": "Sich an etwas machen: ponerse a + Infinitiv.",
+          "fr": "Se mettre à faire quelque chose : ponerse a + infinitif.",
+          "pt": "Pôr-se a fazer algo: ponerse a + infinitivo.",
+          "zh": "着手做某事：ponerse a + 动词原形。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "¿Tú también estás cansado de tu trabajo? ",
+        "after": " venir unos días al pueblo.",
+        "options": [
+          "Deberías",
+          "Debería",
+          "Deber"
+        ],
+        "answer": "Deberías",
+        "en": "Are you tired of your job too? You should come to the village for a few days.",
+        "it": "Anche tu sei stanco del tuo lavoro? Dovresti venire in paese per qualche giorno.",
+        "uk": "Ти теж утомився від своєї роботи? Тобі варто приїхати в селище на кілька днів.",
+        "de": "Hast du auch genug von deinem Job? Du solltest ein paar Tage ins Dorf kommen.",
+        "fr": "Toi aussi, tu en as marre de ton travail ? Tu devrais venir au village quelques jours.",
+        "pt": "Você também está cansado do seu trabalho? Você deveria vir ao vilarejo por alguns dias.",
+        "zh": "你也厌倦你的工作了吗？你应该来小镇住几天。",
+        "hint": {
+          "en": "Advice to a friend (tú): deberías.",
+          "it": "Un consiglio a un amico (tú): deberías.",
+          "uk": "Порада другові (tú): deberías.",
+          "de": "Ein Rat an einen Freund (tú): deberías.",
+          "fr": "Un conseil à un ami (tú) : deberías.",
+          "pt": "Um conselho a um amigo (tú): deberías.",
+          "zh": "给朋友的建议（tú）：deberías。"
+        }
+      },
+      {
+        "type": "write",
+        "instruction": {
+          "en": "Your friend asks how you feel about it all. Write in Spanish: «I've just changed my life and I'm very happy.»",
+          "it": "Il tuo amico ti chiede come ti senti. Scrivi in spagnolo: «Ho appena cambiato vita e sono molto felice.»",
+          "uk": "Друг питає, як ти почуваєшся після всього цього. Напиши іспанською: «Я щойно змінив(-ла) своє життя, і я дуже щасливий(-а).»",
+          "de": "Dein Freund fragt, wie es dir mit allem geht. Schreib auf Spanisch: «Ich habe gerade mein Leben umgekrempelt und bin sehr glücklich.»",
+          "fr": "Ton ami te demande comment tu te sens. Écris en espagnol : «Je viens de changer de vie et je suis très heureux.»",
+          "pt": "O seu amigo pergunta como você está se sentindo com tudo isso. Escreva em espanhol: «Acabei de mudar de vida e estou muito feliz.»",
+          "zh": "你的朋友问你对这一切感觉如何。用西班牙语写：«我刚刚改变了我的生活，我很开心。»"
+        },
+        "accepted": [
+          "Acabo de cambiar de vida y estoy muy feliz.",
+          "Acabo de cambiar de vida y soy muy feliz.",
+          "Acabo de cambiar mi vida y estoy muy feliz.",
+          "Acabo de cambiar de vida y estoy muy contento.",
+          "Acabo de cambiar de vida y estoy muy contenta.",
+          "Acabo de cambiar mi vida y soy muy feliz."
+        ],
+        "model": {
+          "es": "Acabo de cambiar de vida y estoy muy feliz.",
+          "en": "I've just changed my life and I'm very happy.",
+          "it": "Ho appena cambiato vita e sono molto felice.",
+          "uk": "Я щойно змінив(-ла) своє життя, і я дуже щасливий(-а).",
+          "de": "Ich habe gerade mein Leben umgekrempelt und bin sehr glücklich.",
+          "fr": "Je viens de changer de vie et je suis très heureux.",
+          "pt": "Acabei de mudar de vida e estou muito feliz.",
+          "zh": "我刚刚改变了我的生活，我很开心。"
+        }
+      }
+    ]
+  }
+}
