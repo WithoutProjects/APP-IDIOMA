@@ -90,6 +90,8 @@ def present(lemma):
             forms.append(s + ending)
         if base in YO:
             forms[0] = YO[base]
+        elif base.endswith(("ecer", "ocer", "ucir")) and base != "cocer":
+            forms[0] = base[:-3] + "zco"  # ofrecer → ofrezco, reducir → reduzco
     split = []
     for p, form in enumerate(forms):
         ending = endings[p]
