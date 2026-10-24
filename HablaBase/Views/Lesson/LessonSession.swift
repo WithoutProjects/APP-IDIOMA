@@ -37,8 +37,10 @@ final class LessonSession: ObservableObject {
     var hadMistakes: Bool { correct < answered }
 
     var isTest: Bool {
-        if case .unitTest = lesson.mode { return true }
-        return false
+        switch lesson.mode {
+        case .unitTest, .checkpoint: return true
+        case .lesson, .review: return false
+        }
     }
 
     var isReview: Bool {

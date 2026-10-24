@@ -164,6 +164,8 @@ struct Lesson: Identifiable {
         case lesson
         /// A unit test: no explanations, no energy cost, pass to skip the unit.
         case unitTest(unitId: String)
+        /// The exam at the end of a level: 10 questions from all its units, 8 right to move on.
+        case checkpoint(levelId: String)
         /// Practise missed forms: every right answer wins back a bolt of energy.
         case review
 

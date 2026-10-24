@@ -12,7 +12,7 @@ Si Xcode pide un equipo de firma para instalar en un iPhone real, elige tu cuent
 
 ## El recorrido (A0 → C2)
 
-Todo el camino está en [`HablaBase/Content/curriculum.json`](HablaBase/Content/curriculum.json): 8 niveles, 56 unidades y 281 lecciones. Cada unidad acaba con un boss (una escena con el tutor) y cada nivel con un examen oral.
+Todo el camino está en [`HablaBase/Content/curriculum.json`](HablaBase/Content/curriculum.json): 8 niveles, 56 unidades y 281 lecciones. Cada unidad acaba con un boss (una escena de la vida real) y cada nivel con un examen: 10 preguntas de todo el nivel, con 8 aciertos se abre el nivel siguiente.
 
 | Nivel | MCER | Nombre | Unidades |
 | --- | --- | --- | --- |
@@ -27,7 +27,7 @@ Todo el camino está en [`HablaBase/Content/curriculum.json`](HablaBase/Content/
 
 La app lee ese archivo para dibujar la ruta. Para cambiar el orden o los títulos basta con editar el JSON; los ejercicios de cada lección se añaden en `Content/`.
 
-## Qué hay ahora (v0.5)
+## Qué hay ahora (v1.0)
 
 - **Bienvenida**: nombre, ciudad, trabajo, idioma (English / Italiano / Українська / Deutsch / Français / Português / 中文), objetivo y minutos al día.
 - **Inicio**: racha, XP, energía, botón Continuar con el nivel y la unidad actuales, y la unidad en curso.
@@ -41,7 +41,12 @@ La app lee ese archivo para dibujar la ruta. Para cambiar el orden o los título
 - **Hablar**: dices en voz alta frases de tus lecciones y ves qué palabras se han entendido; la app te avisa de las que conviene pronunciar más claro (reconocimiento de voz en el iPhone).
 - **Escribir o decir**: en los ejercicios de completar, construir frases y traducir puedes elegir entre escribir la respuesta o decirla en voz alta. La app recuerda tu elección.
 - **Test de unidad**: 10 preguntas sin explicaciones. Con 8 aciertos la unidad (y todo lo anterior) queda superada, así quien ya sabe español puede avanzar rápido. Se genera con preguntas de todas las lecciones de la unidad.
-- **Conjugation Lab**: dos botones. *Repasar tablas* (tabla del presente que se ilumina con el dominio y banco Lego) y *Jugar* (Parejas: unir cada verbo con su persona; los demás juegos se abren por nivel).
+- **Examen de nivel**: al final de cada nivel, 10 preguntas sacadas de todas sus unidades. Con 8 aciertos se abre el nivel siguiente; si no, se puede repetir cuando quieras.
+- **Conjugation Lab**: dos botones. *Repasar tablas* (tabla del presente que se ilumina con el dominio y banco Lego) y *Jugar*, con tres juegos que se abren a medida que avanzas:
+  - *Parejas* (desde la Lección 1): unir cada verbo con su persona.
+  - *Contrarreloj* (desde la Lección 2): 60 segundos para elegir la forma correcta del mayor número de verbos. Cada 5 aciertos seguidos suman 3 segundos, un fallo enseña la forma correcta y al final salen los verbos que hay que repasar. Pregunta más a menudo las formas que fallas y guarda tu récord.
+  - *Caza de errores* (desde el boss de la Unidad 2): frases de tus propias lecciones; en algunas un verbo está en la persona equivocada («Nosotros habla…») y hay que tocarlo, o decir que la frase está bien. Tres fallos y se acaba; guarda tu récord.
+  Los juegos solo usan los verbos de las lecciones terminadas, y solo las personas y tiempos ya explicados: presente, pretérito perfecto, indefinido, imperfecto, futuro, condicional y subjuntivo (presente e imperfecto), cada uno a partir de su lección. Las tablas completas de 144 verbos están en `HablaBase/Content/verbs.json`, generadas con `python3 tools/build_verb_tables.py` (necesita `pip install verbecc`; el script comprueba a mano las formas difíciles). Para añadir un verbo, ponlo en la lista del script después de presentarlo en una lección.
 - **Progreso guardado en el teléfono**: se guarda en un archivo de la app después de cada cambio, sobrevive a las actualizaciones y entra en la copia de seguridad del iPhone. Está detrás de `ProgressStorage`, así que más adelante se puede añadir una cuenta en la nube (por ejemplo Supabase) sin tocar el resto.
 
 ## Para no perderse y seguir motivado
@@ -60,7 +65,8 @@ La app lee ese archivo para dibujar la ruta. Para cambiar el orden o los título
 - **Solo lo que funciona**: la pestaña Talk y los minijuegos que aún no existen no se muestran; cuando alguien termina las lecciones disponibles ve una tarjeta «Estás al día» en lugar de botones desactivados.
 - **Accesibilidad**: VoiceOver lee el estado de cada paso (hecho, siguiente, bloqueado), los textos crecen con el tamaño de letra del sistema y las bandejas de piezas pasan a otra línea si no caben.
 - **Icono provisional** (`hablo` en un bocadillo) y `ITSAppUsesNonExemptEncryption = NO`, así que no hay que contestar la pregunta de cifrado en cada subida.
-- **Pendiente antes de publicar**: tu equipo de desarrollo en Signing & Capabilities, confirmar el bundle ID `com.withoutprojects.hablabase` y el nombre en la tienda, un icono diseñado si quieres sustituir el provisional, capturas de pantalla, una URL de política de privacidad y más unidades (ahora llegan hasta la 44).
+- **Política de privacidad** dentro de la app (Perfil > Privacidad) en los 7 idiomas, y el texto para publicarla en una web en [`docs/app-store/privacy-policy.md`](docs/app-store/privacy-policy.md).
+- **Pendiente antes de publicar**: la lista paso a paso está en [`docs/app-store/checklist.md`](docs/app-store/checklist.md).
 
 ## Estructura
 

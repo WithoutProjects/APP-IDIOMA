@@ -88,7 +88,7 @@ struct GamesView: View {
                 ForEach(LabGame.built) { game in
                     if store.isCompleted(game.unlockedBy) {
                         NavigationLink {
-                            PairsGameView()
+                            destination(game)
                         } label: {
                             LabCard(title: game.title, detail: game.gloss, icon: game.icon, language: store.language)
                         }
@@ -103,6 +103,15 @@ struct GamesView: View {
             .padding(20)
         }
         .navigationTitle("Jugar")
+    }
+
+    @ViewBuilder
+    private func destination(_ game: LabGame) -> some View {
+        switch game.id {
+        case LabGame.sprintId: SprintGameView()
+        case LabGame.huntId: ErrorHuntView()
+        default: PairsGameView()
+        }
     }
 
     private func unlockTitle(_ game: LabGame) -> String {

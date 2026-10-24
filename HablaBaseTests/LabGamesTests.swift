@@ -1,0 +1,177 @@
+import XCTest
+@testable import HablaBase
+
+/// The verb tables and the two Lab games built on them: Contrarreloj and Caza de errores.
+@MainActor
+final class LabGamesTests: XCTestCase {
+    private let profile = Profile(name: "Ana", city: "Milán", workplace: .hospital,
+                                  nativeLanguage: .english, goal: .travel, dailyMinutes: 10)
+    private let book = VerbBook.shared
+
+    private func words(_ lemmas: [String]) -> [VocabWord] {
+        lemmas.map { VocabWord(es: $0, gloss: Gloss(en: $0, it: $0, uk: $0), kind: .stem) }
+    }
+
+    private func forms(_ lemma: String, _ tense: VerbTense) -> [String] {
+        Person.allCases.compactMap { book.verb(lemma)?.form(tense, $0)?.text }
+    }
+
+    // MARK: Verb tables
+
+    func testEveryVerbHasSixFormsInEveryTense() {
+        XCTAssertGreaterThan(book.verbs.count, 140)
+        for verb in book.verbs {
+            XCTAssertEqual(Set(verb.forms.keys), Set(VerbTense.allCases), verb.lemma)
+        }
+    }
+
+    func testHardFormsAreRight() {
+        XCTAssertEqual(forms("ser", .presente), ["soy", "eres", "es", "somos", "sois", "son"])
+        XCTAssertEqual(forms("tener", .indefinido), ["tuve", "tuviste", "tuvo", "tuvimos", "tuvisteis", "tuvieron"])
+        XCTAssertEqual(forms("hacer", .perfecto), ["he hecho", "has hecho", "ha hecho", "hemos hecho", "habéis hecho", "han hecho"])
+        XCTAssertEqual(forms("levantarse", .presente), ["me levanto", "te levantas", "se levanta", "nos levantamos", "os levantáis", "se levantan"])
+        XCTAssertEqual(forms("poder", .condicional).first, "podría")
+        XCTAssertEqual(forms("ir", .subjuntivoImperfecto).first, "fuera")
+    }
+
+    func testFormsSplitIntoStemAndEnding() {
+        let tuve = book.verb("tener")?.form(.indefinido, .yo)
+        XCTAssertEqual(tuve?.stem, "tuv")
+        XCTAssertEqual(tuve?.ending, "e")
+        XCTAssertEqual(book.verb("ser")?.form(.presente, .yo)?.stem, "soy")
+        XCTAssertEqual(book.verb("ser")?.form(.presente, .yo)?.ending, "")
+    }
+
+    func testPresentFormsMatchTheLessonsConjugator() {
+        for verb in Unit1.verbs {
+            for person in Person.allCases {
+                XCTAssertEqual(book.verb(verb.lemma)?.form(.presente, person)?.text,
+                               Conjugator.conjugate(verb, .presente, person).text, verb.lemma)
+            }
+        }
+    }
+
+    func testEveryVerbIsTaughtInALesson() {
+        let taught = Set(Curriculum.sharedPath.compactMap { LessonContent.lesson(id: $0.id, profile: profile) }
+            .flatMap(\.vocabulary).filter { $0.kind == .stem }.map(\.es))
+        for verb in book.verbs {
+            XCTAssertTrue(taught.contains(verb.lemma), "\(verb.lemma) is never on a vocabulary slide")
+        }
+    }
+
+    // MARK: What the learner can be asked
+
+    func testTheDeckFollowsThePath() {
+        let early = VerbDeck(completed: ["u1l1"], words: words(["hablar", "tener"]))
+        XCTAssertEqual(early.persons, [.yo, .tu, .el])
+        XCTAssertEqual(Set(early.cards.map(\.tense)), [.presente])
+        XCTAssertEqual(early.cards.count, 2 * 3)
+
+        let pastRegular: Set<String> = ["u1l1", "u2l1", "u2l2", "u2l3", "u15l2"]
+        let deck = VerbDeck(completed: pastRegular, words: words(["hablar", "tener"]))
+        XCTAssertEqual(deck.persons, Person.allCases)
+        XCTAssertTrue(deck.isOpen(book.verb("hablar")!, .indefinido))
+        XCTAssertFalse(deck.isOpen(book.verb("tener")!, .indefinido), "tuve waits for the irregular past lesson")
+        XCTAssertTrue(VerbDeck(completed: pastRegular.union(["u16l5"]), words: []).isOpen(book.verb("tener")!, .indefinido))
+    }
+
+    func testOnlyVerbsFromFinishedLessonsAreAsked() {
+        let deck = VerbDeck(completed: ["u1l1"], words: words(["hablar"]) + [VocabWord(es: "café", gloss: Gloss(en: "", it: "", uk: ""), kind: .chunk)])
+        XCTAssertEqual(deck.verbs.map(\.lemma), ["hablar"])
+    }
+
+    // MARK: Contrarreloj
+
+    func testSprintOptionsAreRealDistinctFormsWithTheAnswer() {
+        let deck = VerbDeck(completed: ["u1l1", "u2l1", "u2l2", "u2l3", "u15l2", "u16l5"], words: words(["tener", "hablar", "comer"]))
+        for _ in 0..<50 {
+            guard let question = SprintGame.question(deck: deck) else { return XCTFail("No question") }
+            let texts = question.options.map(\.text)
+            XCTAssertTrue(texts.contains(question.answer.text))
+            XCTAssertEqual(Set(texts).count, texts.count)
+            XCTAssertTrue((2...4).contains(texts.count))
+            let real = Set(VerbTense.allCases.flatMap { tense in Person.allCases.compactMap { question.card.verb.form(tense, $0)?.text } })
+            XCTAssertTrue(Set(texts).isSubset(of: real))
+        }
+    }
+
+    func testSprintNeverRepeatsTheSameCardTwiceInARow() {
+        let deck = VerbDeck(completed: ["u1l1"], words: words(["hablar", "comer"]))
+        var previous = SprintGame.question(deck: deck)?.card
+        for _ in 0..<30 {
+            let next = SprintGame.question(deck: deck, after: previous)?.card
+            XCTAssertNotEqual(next, previous)
+            previous = next
+        }
+    }
+
+    func testSprintWithoutVerbsHasNoQuestion() {
+        XCTAssertNil(SprintGame.question(deck: VerbDeck(completed: [], words: [])))
+    }
+
+    // MARK: Caza de errores
+
+    private var huntDeck: VerbDeck {
+        VerbDeck(completed: ["u1l1", "u2l1", "u2l2", "u2l3", "u14l1", "u14l4"], words: words(["hablar", "comer", "ser", "levantarse"]))
+    }
+
+    private func example(_ es: String) -> Example {
+        Example(es: es, gloss: Gloss(en: es, it: es, uk: es))
+    }
+
+    func testFindsTheVerbAfterTheSubject() {
+        let candidate = ErrorHunt.candidate(in: example("Nosotros hablamos español."), deck: huntDeck)
+        XCTAssertEqual(candidate?.span, 1..<2)
+        XCTAssertEqual(candidate?.person, .nosotros)
+        XCTAssertEqual(ErrorHunt.candidate(in: example("Yo no me levanto pronto."), deck: huntDeck)?.span, 2..<4)
+    }
+
+    func testSkipsSentencesWhereThePronounIsNotTheSubject() {
+        XCTAssertNil(ErrorHunt.candidate(in: example("Mi amiga y yo somos de Madrid."), deck: huntDeck))
+        XCTAssertNil(ErrorHunt.candidate(in: example("Con ella hablo español."), deck: huntDeck))
+        XCTAssertNil(ErrorHunt.candidate(in: example("Hablamos español."), deck: huntDeck))
+    }
+
+    func testAChangedVerbIsAlwaysReallyWrong() {
+        let candidate = ErrorHunt.candidate(in: example("Yo hablo español."), deck: huntDeck)!
+        let yoForms = Set(VerbTense.allCases.compactMap { candidate.verb.form($0, .yo)?.text })
+        for _ in 0..<30 {
+            let round = ErrorHunt.round(from: candidate, deck: huntDeck, withMistake: true)
+            let wrong = try! XCTUnwrap(round.wrongForm)
+            XCTAssertFalse(yoForms.contains(wrong))
+            XCTAssertEqual(round.words[round.wrongRange!].joined(separator: " "), wrong)
+            XCTAssertEqual(round.rightForm, "hablo")
+        }
+    }
+
+    func testPunctuationStaysAroundTheChangedVerb() {
+        let candidate = ErrorHunt.candidate(in: example("¿Tú has comido?"), deck: huntDeck)!
+        let round = ErrorHunt.round(from: candidate, deck: huntDeck, withMistake: true)
+        XCTAssertEqual(round.words.first, "¿Tú")
+        XCTAssertTrue(round.words.last?.hasSuffix("?") == true)
+        XCTAssertNotEqual(round.words.joined(separator: " "), "¿Tú has comido?")
+    }
+
+    func testARightSentenceIsShownAsItIs() {
+        let candidate = ErrorHunt.candidate(in: example("Ellos son de Roma."), deck: huntDeck)!
+        let round = ErrorHunt.round(from: candidate, deck: huntDeck, withMistake: false)
+        XCTAssertTrue(round.isCorrect)
+        XCTAssertEqual(round.words.joined(separator: " "), "Ellos son de Roma.")
+    }
+
+    func testFinishedLessonsGiveSentencesToHunt() {
+        let store = AppStore(storage: InMemoryProgressStorage())
+        store.completeOnboarding(profile)
+        store.completeUnit("u2")
+        let deck = VerbDeck(completed: store.state.completedLessons, words: store.learnedWords)
+        XCTAssertGreaterThanOrEqual(ErrorHunt.rounds(from: store.huntSentences, deck: deck).count, 10)
+    }
+
+    func testBestScoresAreKept() {
+        let store = AppStore(storage: InMemoryProgressStorage())
+        XCTAssertTrue(store.recordScore(12, in: LabGame.sprintId))
+        XCTAssertFalse(store.recordScore(8, in: LabGame.sprintId))
+        XCTAssertEqual(store.best(in: LabGame.sprintId), 12)
+        XCTAssertEqual(store.best(in: LabGame.huntId), 0)
+    }
+}
