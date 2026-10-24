@@ -167,6 +167,48 @@ final class LabGamesTests: XCTestCase {
         XCTAssertGreaterThanOrEqual(ErrorHunt.rounds(from: store.huntSentences, deck: deck).count, 10)
     }
 
+    // MARK: Dilo en español
+
+    private func word(_ es: String, _ en: String) -> VocabWord {
+        VocabWord(es: es, gloss: Gloss(en: en, it: en, uk: en), kind: .chunk)
+    }
+
+    func testEveryRightSpanishWordCounts() {
+        let cards = VoiceRecall.cards(from: [word("ellos", "they"), word("ellas", "they (all women)"), word("él / ella", "he / she")],
+                                      language: .english)
+        let they = cards.first { $0.prompt == "they" }
+        XCTAssertEqual(they?.answers, ["ellos", "ellas"])
+        XCTAssertTrue(VoiceRecall.matches("Ellas", card: they!))
+        XCTAssertTrue(VoiceRecall.matches("ellos", card: they!))
+        XCTAssertFalse(VoiceRecall.matches("nosotros", card: they!))
+        XCTAssertEqual(cards.first { $0.prompt == "he / she" }?.answers, ["él", "ella"])
+    }
+
+    func testAccentsAndArticlesAreForgiven() {
+        let card = VoiceRecall.cards(from: [word("el café", "coffee"), word("tú", "you")], language: .english)
+        XCTAssertTrue(VoiceRecall.matches("cafe", card: card[0]))
+        XCTAssertTrue(VoiceRecall.matches("el café", card: card[0]))
+        XCTAssertTrue(VoiceRecall.matches("tu", card: card[1]))
+        XCTAssertFalse(VoiceRecall.matches("cafetería", card: card[0]))
+    }
+
+    func testWordsSpeltTheSameAreLeftOut() {
+        XCTAssertTrue(VoiceRecall.cards(from: [word("pizza", "pizza")], language: .english).isEmpty)
+    }
+
+    func testARoundUsesOnlyLearnedWords() {
+        let store = AppStore(storage: InMemoryProgressStorage())
+        store.completeOnboarding(profile)
+        store.completeLesson("u1l1", xp: 0)
+        let cards = VoiceRecall.cards(from: store.learnedWords, language: .english)
+        XCTAssertFalse(cards.isEmpty)
+        let taught = Set(store.learnedWords.flatMap { VoiceRecall.variants(of: $0.es) })
+        for card in VoiceRecall.round(from: cards) {
+            XCTAssertTrue(card.answers.allSatisfy(taught.contains), card.prompt)
+        }
+        XCTAssertLessThanOrEqual(VoiceRecall.round(from: cards).count, VoiceRecall.rounds)
+    }
+
     func testBestScoresAreKept() {
         let store = AppStore(storage: InMemoryProgressStorage())
         XCTAssertTrue(store.recordScore(12, in: LabGame.sprintId))

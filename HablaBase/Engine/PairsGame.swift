@@ -51,6 +51,9 @@ struct LabGame: Identifiable {
         LabGame(id: LabGame.huntId, title: "Caza de errores",
                 gloss: Gloss(en: "Find the wrong verb in sentences from your lessons.", it: "Trova il verbo sbagliato nelle frasi delle tue lezioni.", uk: "Знайди неправильне дієслово в реченнях з твоїх уроків.", de: "Finde das falsche Verb in Sätzen aus deinen Lektionen.", fr: "Trouve le verbe faux dans des phrases de tes leçons.", pt: "Encontre o verbo errado em frases das suas lições.", zh: "在你课程的句子里找出错误的动词。"),
                 icon: "magnifyingglass", unlockedBy: "u2boss", isBuilt: true),
+        LabGame(id: LabGame.voiceId, title: "Dilo en español",
+                gloss: Gloss(en: "See a word you've learned and say it in Spanish.", it: "Vedi una parola che hai imparato e dilla in spagnolo.", uk: "Побач слово, яке ти вивчив, і скажи його іспанською.", de: "Sieh ein gelerntes Wort und sag es auf Spanisch.", fr: "Vois un mot que tu as appris et dis-le en espagnol.", pt: "Veja uma palavra que você aprendeu e diga em espanhol.", zh: "看到学过的词，用西班牙语说出来。"),
+                icon: "mic.fill", unlockedBy: "u1l1", isBuilt: true),
         LabGame(id: "tenses", title: "Presente, pasado o futuro",
                 gloss: Gloss(en: "Match each verb to its tense.", it: "Abbina ogni verbo al suo tempo.", uk: "З'єднай кожне дієслово з його часом.", de: "Ordne jedes Verb seiner Zeitform zu.", fr: "Associe chaque verbe à son temps.", pt: "Ligue cada verbo ao seu tempo verbal.", zh: "把每个动词和它的时态配对。"),
                 icon: "clock.arrow.circlepath", unlockedBy: "u14l1", isBuilt: false),
@@ -61,6 +64,7 @@ struct LabGame: Identifiable {
 
     static let sprintId = "sprint"
     static let huntId = "hunt"
+    static let voiceId = "voice"
 
     static var built: [LabGame] { all.filter(\.isBuilt) }
 }

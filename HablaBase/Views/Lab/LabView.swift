@@ -110,6 +110,7 @@ struct GamesView: View {
         switch game.id {
         case LabGame.sprintId: SprintGameView()
         case LabGame.huntId: ErrorHuntView()
+        case LabGame.voiceId: VoiceRecallView()
         default: PairsGameView()
         }
     }
