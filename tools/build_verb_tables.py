@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Builds HablaBase/Content/verbs.json: the full tables of the verbs the Lab games use.
+"""Builds HablaBase/Content/verb-tables.json: the full tables of the verbs the Lab games use.
 
 The tables come from verbecc (pip install verbecc), a conjugator built on hand-made
 templates for every known verb. The script refuses any verb verbecc only guesses, and
@@ -17,7 +17,7 @@ import os
 import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-OUT = os.path.join(ROOT, "HablaBase", "Content", "verbs.json")
+OUT = os.path.join(ROOT, "HablaBase", "Content", "verb-tables.json")
 
 VERBS = """
 hablar trabajar estudiar cocinar escuchar comer beber leer aprender vivir escribir
@@ -37,7 +37,7 @@ elegir aparcar construir pintar encender llorar confirmar
 """.split()
 
 TENSES = [
-    # (key in verbs.json, verbecc mood, verbecc tense)
+    # (key in verb-tables.json, verbecc mood, verbecc tense)
     ("presente", "indicativo", "presente"),
     ("perfecto", "indicativo", "pretérito-perfecto-compuesto"),
     ("indefinido", "indicativo", "pretérito-perfecto-simple"),

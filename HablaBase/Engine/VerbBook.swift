@@ -63,7 +63,7 @@ enum VerbTense: String, CaseIterable, Codable, Identifiable {
     }
 }
 
-/// One verb's full tables, from Content/verbs.json (built by tools/build_verb_tables.py).
+/// One verb's full tables, from Content/verb-tables.json (built by tools/build_verb_tables.py).
 struct VerbEntry: Decodable, Identifiable, Hashable {
     let lemma: String
     /// Six forms per tense, in Person order: yo, tú, él, nosotros, vosotros, ellos.
@@ -126,14 +126,14 @@ final class VerbBook {
 
     init(bundle: Bundle = .main) {
         var loaded: [VerbEntry] = []
-        if let url = bundle.url(forResource: "verbs", withExtension: "json") {
+        if let url = bundle.url(forResource: "verb-tables", withExtension: "json") {
             do {
                 loaded = try JSONDecoder().decode(File.self, from: Data(contentsOf: url)).verbs
             } catch {
-                assertionFailure("verbs.json does not match the format: \(error)")
+                assertionFailure("verb-tables.json does not match the format: \(error)")
             }
         } else {
-            assertionFailure("verbs.json is missing from the app bundle")
+            assertionFailure("verb-tables.json is missing from the app bundle")
         }
         verbs = loaded
         byLemma = Dictionary(loaded.map { ($0.lemma, $0) }, uniquingKeysWith: { first, _ in first })
