@@ -1,0 +1,3349 @@
+{
+  "unit": "u47",
+  "lessons": [
+    {
+      "id": "u47l1",
+      "goal": {
+        "en": "Use aunque in two ways: with the indicative for something you know is true and are telling someone (aunque llueve: it is raining), and with the subjunctive for something you don't know, or that doesn't matter (aunque llueva: even if it rains).",
+        "it": "Usa aunque in due modi: con l'indicativo per una cosa che sai che è vera e che stai dicendo a qualcuno (aunque llueve: piove davvero), e con il congiuntivo per una cosa che non sai, o che non conta (aunque llueva: anche se dovesse piovere).",
+        "uk": "Вживай aunque двома способами: з дійсним способом — для того, що ти знаєш напевно й повідомляєш співрозмовникові (aunque llueve: «хоча йде дощ» — дощ справді йде), і з «subjuntivo» — для того, чого ти не знаєш або що не має значення (aunque llueva: «навіть якщо піде дощ»).",
+        "de": "Verwende aunque auf zwei Arten: mit dem Indikativ für etwas, von dem du weißt, dass es stimmt, und das du jemandem mitteilst (aunque llueve: obwohl es regnet, es regnet wirklich), und mit dem subjuntivo (spanischer Konjunktiv) für etwas, das du nicht weißt oder das keine Rolle spielt (aunque llueva: selbst wenn es regnet).",
+        "fr": "Utiliser aunque de deux façons : avec l'indicatif pour quelque chose que tu sais vrai et que tu annonces à quelqu'un (aunque llueve : il pleut vraiment), et avec le subjonctif pour quelque chose que tu ne sais pas, ou qui n'a pas d'importance (aunque llueva : même s'il pleut).",
+        "pt": "Use aunque de duas formas: com o indicativo para algo que você sabe que é verdade e está contando a alguém (aunque llueve: está chovendo de fato), e com o subjuntivo para algo que você não sabe ou que não importa (aunque llueva: mesmo que chova).",
+        "zh": "aunque 有两种用法：接陈述式，说的是你知道是真的、并且在告诉对方的事（aunque llueve：虽然在下雨）；接虚拟式，说的是你不知道、或者无所谓的事（aunque llueva：即使下雨）。"
+      },
+      "target": {
+        "es": "Mañana vamos a la playa aunque llueva.",
+        "en": "Tomorrow we're going to the beach even if it rains.",
+        "it": "Domani andiamo al mare anche se dovesse piovere.",
+        "uk": "Завтра ми йдемо на пляж, навіть якщо піде дощ.",
+        "de": "Morgen fahren wir an den Strand, selbst wenn es regnet.",
+        "fr": "Demain, on va à la plage même s'il pleut.",
+        "pt": "Amanhã vamos à praia mesmo que chova.",
+        "zh": "明天就算下雨，我们也去海滩。"
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "la barbacoa",
+              "en": "the barbecue",
+              "it": "la grigliata, il barbecue",
+              "uk": "барбекю",
+              "de": "das Grillfest, das Grillen",
+              "fr": "le barbecue",
+              "pt": "o churrasco",
+              "zh": "烧烤",
+              "kind": "chunk"
+            },
+            {
+              "es": "de todas formas",
+              "en": "anyway, in any case",
+              "it": "comunque, in ogni caso",
+              "uk": "все одно, у будь-якому разі",
+              "de": "trotzdem, jedenfalls",
+              "fr": "de toute façon, en tout cas",
+              "pt": "de qualquer forma, de todo jeito",
+              "zh": "反正，无论如何",
+              "kind": "rail"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "aunque",
+              "kind": "rail"
+            },
+            {
+              "text": "+",
+              "kind": "chunk"
+            },
+            {
+              "text": "indicativo",
+              "kind": "ending"
+            }
+          ],
+          "rule": {
+            "en": "aunque + the indicative: it's true, you know it and you're telling the other person. It's like saying: this is so, but it doesn't stop me.",
+            "it": "aunque + l'indicativo: è vero, lo sai e lo stai dicendo all'altra persona. È come dire: è così, ma non mi ferma.",
+            "uk": "aunque + дійсний спосіб: це правда, ти це знаєш і повідомляєш іншому. Ніби кажеш: так і є, але мені це не заважає.",
+            "de": "aunque + Indikativ: Es stimmt, du weißt es und du sagst es der anderen Person, wie „obwohl“. Es ist, als würdest du sagen: So ist es, aber das hält mich nicht auf.",
+            "fr": "aunque + l'indicatif : c'est vrai, tu le sais et tu le dis à l'autre. C'est comme dire : c'est comme ça, mais ça ne m'arrête pas.",
+            "pt": "aunque + o indicativo: é verdade, você sabe e está contando para a outra pessoa. É como dizer: é assim, mas isso não me impede. Atenção: em português, embora pede subjuntivo mesmo para fatos (embora esteja chovendo); em espanhol, para um fato, use o indicativo: aunque llueve.",
+            "zh": "aunque + 陈述式：这是真的，你知道，并且在告诉对方。意思就像在说：事情是这样，但这拦不住我。"
+          },
+          "examples": [
+            {
+              "es": "Aunque llueve, voy a salir.",
+              "en": "It's raining, but I'm going out anyway.",
+              "it": "Anche se piove, esco lo stesso.",
+              "uk": "Хоча йде дощ, я все одно піду гуляти.",
+              "de": "Obwohl es regnet, gehe ich raus.",
+              "fr": "Il pleut, mais je vais sortir quand même.",
+              "pt": "Está chovendo, mas vou sair mesmo assim.",
+              "zh": "虽然在下雨，我还是要出门。"
+            },
+            {
+              "es": "Aunque estoy cansado, te ayudo.",
+              "en": "Although I'm tired, I'll help you.",
+              "it": "Anche se sono stanco, ti aiuto.",
+              "uk": "Хоча я втомлений, я тобі допоможу.",
+              "de": "Obwohl ich müde bin, helfe ich dir.",
+              "fr": "Je suis fatigué, mais je t'aide.",
+              "pt": "Apesar de estar cansado, eu te ajudo.",
+              "zh": "虽然我很累，我还是帮你。"
+            },
+            {
+              "es": "Aunque el piso es pequeño, tiene mucha luz.",
+              "en": "Although the flat is small, it gets a lot of light.",
+              "it": "Anche se l'appartamento è piccolo, è molto luminoso.",
+              "uk": "Хоча квартира маленька, у ній багато світла.",
+              "de": "Obwohl die Wohnung klein ist, hat sie viel Licht.",
+              "fr": "L'appartement est petit, mais il est très lumineux.",
+              "pt": "Apesar de o apartamento ser pequeno, ele é bem iluminado.",
+              "zh": "虽然这套公寓很小，但采光很好。"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Ayer, aunque ",
+          "after": " mucho, salimos a correr.",
+          "options": [
+            "llovía",
+            "llueva",
+            "llover"
+          ],
+          "answer": "llovía",
+          "en": "Yesterday, although it was raining a lot, we went out for a run.",
+          "it": "Ieri, anche se pioveva molto, siamo usciti a correre.",
+          "uk": "Учора, хоча йшов сильний дощ, ми пішли на пробіжку.",
+          "de": "Gestern sind wir laufen gegangen, obwohl es stark geregnet hat.",
+          "fr": "Hier, alors qu'il pleuvait beaucoup, on est allés courir.",
+          "pt": "Ontem, apesar de estar chovendo muito, saímos para correr.",
+          "zh": "昨天虽然雨下得很大，我们还是出去跑步了。",
+          "hint": {
+            "en": "Yesterday it really rained: a fact, so the indicative (the imperfect llovía).",
+            "it": "Ieri pioveva davvero: è un fatto, quindi l'indicativo (l'imperfetto llovía).",
+            "uk": "Учора дощ справді йшов: це факт, тож дійсний спосіб («imperfecto» llovía).",
+            "de": "Gestern hat es wirklich geregnet: eine Tatsache, also Indikativ (das Imperfekt llovía).",
+            "fr": "Hier, il a vraiment plu : c'est un fait, donc l'indicatif (l'imparfait llovía).",
+            "pt": "Ontem choveu de verdade: é um fato, então vai o indicativo (o imperfeito llovía).",
+            "zh": "昨天确实下雨了：这是事实，所以用陈述式（过去未完成时 llovía）。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "A friend asks if you're still coming to the gym. You're tired, but you're going. Say: although I'm tired, I'm coming.",
+            "it": "Un amico ti chiede se vieni ancora in palestra. Sei stanco, ma ci vai. Di': anche se sono stanco, vengo.",
+            "uk": "Друг питає, чи ти ще йдеш у спортзал. Ти втомився(-лася), але підеш. Скажи: хоча я втомлений(-а), я прийду.",
+            "de": "Ein Freund fragt, ob du noch mit ins Fitnessstudio kommst. Du bist müde, aber du gehst hin. Sag: Obwohl ich müde bin, komme ich.",
+            "fr": "Un ami te demande si tu viens toujours à la salle de sport. Tu es fatigué, mais tu y vas. Dis : je suis fatigué, mais je viens.",
+            "pt": "Um amigo pergunta se você ainda vai à academia. Você está cansado, mas vai. Diga: apesar de estar cansado, eu vou.",
+            "zh": "朋友问你还来不来健身房。你很累，但还是要去。说：虽然我很累，我还是会来。"
+          },
+          "accepted": [
+            "Aunque estoy cansado, voy.",
+            "Aunque estoy cansada, voy.",
+            "Voy aunque estoy cansado.",
+            "Voy aunque estoy cansada.",
+            "Aunque estoy cansado, voy de todas formas.",
+            "Aunque estoy cansada, voy de todas formas."
+          ],
+          "tiles": [
+            "Aunque",
+            "estoy",
+            "cansado,",
+            "cansada,",
+            "voy",
+            "esté",
+            "estar"
+          ],
+          "en": "Although I'm tired, I'm coming.",
+          "it": "Anche se sono stanco, vengo.",
+          "uk": "Хоча я втомлений(-а), я прийду.",
+          "de": "Obwohl ich müde bin, komme ich.",
+          "fr": "Je suis fatigué, mais je viens.",
+          "pt": "Apesar de estar cansado, eu vou.",
+          "zh": "虽然我很累，我还是会来。",
+          "hint": {
+            "en": "You know how you feel and you're saying it: indicative, estoy.",
+            "it": "Sai come ti senti e lo stai dicendo: indicativo, estoy.",
+            "uk": "Ти знаєш, як почуваєшся, і кажеш про це: дійсний спосіб, estoy.",
+            "de": "Du weißt, wie du dich fühlst, und sagst es: Indikativ, estoy.",
+            "fr": "Tu sais comment tu te sens et tu le dis : indicatif, estoy.",
+            "pt": "Você sabe como se sente e está dizendo isso: indicativo, estoy.",
+            "zh": "你知道自己的感觉，并且说出来：陈述式，estoy。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "aunque",
+              "kind": "rail"
+            },
+            {
+              "text": "+",
+              "kind": "chunk"
+            },
+            {
+              "text": "subjuntivo",
+              "kind": "ending"
+            }
+          ],
+          "rule": {
+            "en": "aunque + the subjunctive: you don't know if it will happen, but your plan doesn't change (even if). It's very common with things in the future.",
+            "it": "aunque + il congiuntivo: non sai se succederà, ma il tuo piano non cambia (anche se dovesse…). È molto comune con le cose future.",
+            "uk": "aunque + «subjuntivo»: ти не знаєш, чи це станеться, але твій план не змінюється («навіть якщо»). Дуже часто так кажуть про майбутнє.",
+            "de": "aunque + subjuntivo: Du weißt nicht, ob es passiert, aber dein Plan ändert sich nicht (selbst wenn, auch wenn). Das ist sehr häufig bei Dingen in der Zukunft.",
+            "fr": "aunque + le subjonctif : tu ne sais pas si ça va arriver, mais ton plan ne change pas (même si). C'est très fréquent pour parler du futur. Attention : en français, « même si » se construit avec l'indicatif, alors qu'en espagnol c'est le subjonctif.",
+            "pt": "aunque + o subjuntivo: você não sabe se vai acontecer, mas o seu plano não muda (mesmo que). É muito comum com coisas no futuro. É como o nosso «mesmo que chova».",
+            "zh": "aunque + 虚拟式：你不知道这件事会不会发生，但你的计划不变（即使……也……）。说将来的事时特别常用。"
+          },
+          "examples": [
+            {
+              "es": "Mañana vamos a la playa aunque llueva.",
+              "en": "Tomorrow we're going to the beach even if it rains.",
+              "it": "Domani andiamo al mare anche se dovesse piovere.",
+              "uk": "Завтра ми йдемо на пляж, навіть якщо піде дощ.",
+              "de": "Morgen fahren wir an den Strand, selbst wenn es regnet.",
+              "fr": "Demain, on va à la plage même s'il pleut.",
+              "pt": "Amanhã vamos à praia mesmo que chova.",
+              "zh": "明天就算下雨，我们也去海滩。"
+            },
+            {
+              "es": "Aunque llegues tarde, llámame.",
+              "en": "Even if you get home late, call me.",
+              "it": "Anche se dovessi arrivare tardi, chiamami.",
+              "uk": "Навіть якщо прийдеш додому пізно, подзвони мені.",
+              "de": "Auch wenn du spät nach Hause kommst, ruf mich an.",
+              "fr": "Même si tu rentres tard, appelle-moi.",
+              "pt": "Mesmo que você chegue tarde, me ligue.",
+              "zh": "就算你回家很晚，也给我打电话。"
+            },
+            {
+              "es": "Aunque cueste mucho, lo voy a comprar.",
+              "en": "Even if it costs a lot, I'm going to buy it.",
+              "it": "Anche se dovesse costare molto, lo compro.",
+              "uk": "Навіть якщо це коштуватиме дорого, я це куплю.",
+              "de": "Selbst wenn es viel kostet, kaufe ich es.",
+              "fr": "Même si ça coûte cher, je vais l'acheter.",
+              "pt": "Mesmo que custe caro, vou comprar.",
+              "zh": "就算很贵，我也要买。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "cueste",
+              "en": "(that) it costs: subjunctive of costar",
+              "it": "(che) costi: congiuntivo di costar",
+              "uk": "(щоб) коштувало: «subjuntivo» від costar",
+              "de": "(dass) es kostet: subjuntivo von costar",
+              "fr": "(que) ça coûte : subjonctif de costar",
+              "pt": "(que) custe: subjuntivo de costar",
+              "zh": "（它）花费：costar 的虚拟式"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "El sábado hacemos la barbacoa aunque ",
+          "after": ".",
+          "options": [
+            "llueva",
+            "llueve",
+            "llovía"
+          ],
+          "answer": "llueva",
+          "en": "On Saturday we're having the barbecue even if it rains.",
+          "it": "Sabato facciamo la grigliata anche se dovesse piovere.",
+          "uk": "У суботу в нас буде барбекю, навіть якщо піде дощ.",
+          "de": "Am Samstag grillen wir, selbst wenn es regnet.",
+          "fr": "Samedi, on fait le barbecue même s'il pleut.",
+          "pt": "No sábado vamos fazer o churrasco mesmo que chova.",
+          "zh": "星期六就算下雨，我们也照样烧烤。",
+          "hint": {
+            "en": "Saturday hasn't come, so you don't know: the subjunctive, llueva.",
+            "it": "Sabato non è ancora arrivato, quindi non lo sai: il congiuntivo, llueva.",
+            "uk": "Субота ще не настала, тож ти не знаєш: «subjuntivo», llueva.",
+            "de": "Der Samstag ist noch nicht da, also weißt du es nicht: der subjuntivo, llueva.",
+            "fr": "Samedi n'est pas encore arrivé, donc tu ne sais pas : le subjonctif, llueva.",
+            "pt": "O sábado ainda não chegou, então você não sabe: o subjuntivo, llueva.",
+            "zh": "星期六还没到，所以你不知道：虚拟式，llueva。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "fire",
+          "before": "Aunque ",
+          "after": " tarde, llámame, ¿vale?",
+          "label": "llegar",
+          "accepted": [
+            "llegues"
+          ],
+          "en": "Even if you get home late, call me, OK?",
+          "it": "Anche se dovessi arrivare tardi, chiamami, va bene?",
+          "uk": "Навіть якщо прийдеш додому пізно, подзвони мені, добре?",
+          "de": "Auch wenn du spät nach Hause kommst, ruf mich an, okay?",
+          "fr": "Même si tu rentres tard, appelle-moi, d'accord ?",
+          "pt": "Mesmo que você chegue tarde, me ligue, tá?",
+          "zh": "就算你回家很晚，也给我打电话，好吗？",
+          "hint": {
+            "en": "You don't know when they'll arrive: the subjunctive, llegues.",
+            "it": "Non sai quando arriverà: il congiuntivo, llegues.",
+            "uk": "Ти не знаєш, коли людина прийде: «subjuntivo», llegues.",
+            "de": "Du weißt nicht, wann die Person ankommt: der subjuntivo, llegues.",
+            "fr": "Tu ne sais pas quand il ou elle arrivera : le subjonctif, llegues.",
+            "pt": "Você não sabe quando a pessoa vai chegar: o subjuntivo, llegues.",
+            "zh": "你不知道对方什么时候到：虚拟式，llegues。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "no sé si…",
+              "kind": "chunk"
+            },
+            {
+              "text": "→",
+              "kind": "chunk"
+            },
+            {
+              "text": "aunque sea…",
+              "kind": "ending"
+            }
+          ],
+          "rule": {
+            "en": "The subjunctive also says: maybe it's true, maybe not, and it doesn't matter, it changes nothing. You often hear it when someone repeats an idea to say it's not important.",
+            "it": "Il congiuntivo dice anche: forse è vero, forse no, e non importa, non cambia niente. Si sente spesso quando qualcuno ripete un'idea per dire che non è importante.",
+            "uk": "«subjuntivo» також означає: може, це правда, а може, ні — і це неважливо, нічого не змінює. Його часто чути, коли хтось повторює чужу думку, щоб сказати, що вона не має значення.",
+            "de": "Der subjuntivo sagt auch: Vielleicht stimmt es, vielleicht nicht, und es ist egal, es ändert nichts. Du hörst ihn oft, wenn jemand einen Gedanken aufgreift, um zu sagen, dass er unwichtig ist.",
+            "fr": "Le subjonctif dit aussi : c'est peut-être vrai, peut-être pas, et ça n'a pas d'importance, ça ne change rien. On l'entend souvent quand quelqu'un reprend une idée pour dire qu'elle ne compte pas.",
+            "pt": "O subjuntivo também diz: talvez seja verdade, talvez não, e tanto faz, não muda nada. Você ouve isso com frequência quando alguém retoma uma ideia para dizer que ela não é importante.",
+            "zh": "虚拟式还可以表示：也许是真的，也许不是，但无所谓，什么都改变不了。别人重复一个说法、想表示它不重要时，常常会用。"
+          },
+          "examples": [
+            {
+              "es": "No sé si es verdad, pero aunque sea verdad, me da igual.",
+              "en": "I don't know if it's true, but even if it is, I don't care.",
+              "it": "Non so se è vero, ma anche se lo fosse, non m'importa.",
+              "uk": "Не знаю, чи це правда, але навіть якщо й правда, мені байдуже.",
+              "de": "Ich weiß nicht, ob es stimmt, aber selbst wenn es stimmt, ist es mir egal.",
+              "fr": "Je ne sais pas si c'est vrai, mais même si c'est le cas, ça m'est égal.",
+              "pt": "Não sei se é verdade, mas mesmo que seja, não me importa.",
+              "zh": "我不知道是不是真的，不过就算是真的，我也无所谓。"
+            },
+            {
+              "es": "Aunque sea caro, lo quiero de todas formas.",
+              "en": "Even if it's expensive, I want it anyway.",
+              "it": "Anche se fosse caro, lo voglio comunque.",
+              "uk": "Навіть якщо це дорого, я все одно цього хочу.",
+              "de": "Auch wenn es teuer sein sollte, will ich es trotzdem.",
+              "fr": "Même si c'est cher, je le veux quand même.",
+              "pt": "Mesmo que seja caro, quero de qualquer forma.",
+              "zh": "就算贵，我反正也想要。"
+            },
+            {
+              "es": "Aunque sea difícil, vamos a hacerlo.",
+              "en": "However hard it may be, we're going to do it.",
+              "it": "Per quanto possa essere difficile, lo faremo.",
+              "uk": "Хоч би як це було складно, ми це зробимо.",
+              "de": "Auch wenn es schwierig sein sollte, wir machen es.",
+              "fr": "Même si c'est difficile, on va le faire.",
+              "pt": "Por mais difícil que seja, vamos fazer isso.",
+              "zh": "不管有多难，我们都要做。"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "No sé si es verdad, pero aunque ",
+          "after": " verdad, me da igual.",
+          "options": [
+            "sea",
+            "es",
+            "era"
+          ],
+          "answer": "sea",
+          "en": "I don't know if it's true, but even if it is, I don't care.",
+          "it": "Non so se è vero, ma anche se lo fosse, non m'importa.",
+          "uk": "Не знаю, чи це правда, але навіть якщо й правда, мені байдуже.",
+          "de": "Ich weiß nicht, ob es stimmt, aber selbst wenn es stimmt, ist es mir egal.",
+          "fr": "Je ne sais pas si c'est vrai, mais même si c'est le cas, ça m'est égal.",
+          "pt": "Não sei se é verdade, mas mesmo que seja, não me importa.",
+          "zh": "我不知道是不是真的，不过就算是真的，我也无所谓。",
+          "hint": {
+            "en": "No sé si: you don't know, and it doesn't matter: sea.",
+            "it": "No sé si: non lo sai, e comunque non importa: sea.",
+            "uk": "No sé si: ти не знаєш, і це неважливо: sea.",
+            "de": "No sé si: Du weißt es nicht, und es ist egal: sea.",
+            "fr": "No sé si : tu ne sais pas, et ça n'a pas d'importance : sea.",
+            "pt": "No sé si: você não sabe, e tanto faz: sea.",
+            "zh": "No sé si：你不知道，而且无所谓：sea。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "A friend says that the new restaurant you want to try might be expensive. You don't care. Say: even if it's expensive, I want to go.",
+            "it": "Un'amica dice che il ristorante nuovo che vuoi provare potrebbe essere caro. Non t'importa. Di': anche se fosse caro, ci voglio andare.",
+            "uk": "Подруга каже, що новий ресторан, куди ти хочеш сходити, може бути дорогим. Тобі байдуже. Скажи: навіть якщо там дорого, я хочу піти.",
+            "de": "Eine Freundin sagt, dass das neue Restaurant, das du ausprobieren willst, teuer sein könnte. Das ist dir egal. Sag: Auch wenn es teuer sein sollte, will ich hin.",
+            "fr": "Un ami te dit que le nouveau restaurant que tu veux essayer est peut-être cher. Ça t'est égal. Dis : même si c'est cher, je veux y aller.",
+            "pt": "Um amigo diz que o restaurante novo que você quer conhecer pode ser caro. Você não se importa. Diga: mesmo que seja caro, eu quero ir.",
+            "zh": "你想去试试那家新餐厅，朋友说那里可能很贵。你不在乎。说：就算贵，我也想去。"
+          },
+          "accepted": [
+            "Aunque sea caro, quiero ir.",
+            "Quiero ir aunque sea caro.",
+            "Aunque sea caro, quiero ir de todas formas."
+          ],
+          "tiles": [
+            "Aunque",
+            "sea",
+            "caro,",
+            "quiero ir",
+            "ser",
+            "porque"
+          ],
+          "en": "Even if it's expensive, I want to go.",
+          "it": "Anche se fosse caro, ci voglio andare.",
+          "uk": "Навіть якщо там дорого, я хочу піти.",
+          "de": "Auch wenn es teuer sein sollte, will ich hin.",
+          "fr": "Même si c'est cher, je veux y aller.",
+          "pt": "Mesmo que seja caro, eu quero ir.",
+          "zh": "就算贵，我也想去。",
+          "hint": {
+            "en": "Maybe it's expensive, maybe not, and it doesn't matter: sea.",
+            "it": "Forse è caro, forse no, e non importa: sea.",
+            "uk": "Може, дорого, а може, ні, і це неважливо: sea.",
+            "de": "Vielleicht ist es teuer, vielleicht nicht, und es ist egal: sea.",
+            "fr": "C'est peut-être cher, peut-être pas, et ça n'a pas d'importance : sea.",
+            "pt": "Talvez seja caro, talvez não, e tanto faz: sea.",
+            "zh": "也许贵，也许不贵，都无所谓：sea。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "No sé qué tiempo hará mañana, pero voy en bici aunque ",
+          "after": " frío.",
+          "options": [
+            "haga",
+            "hace",
+            "hacía"
+          ],
+          "answer": "haga",
+          "en": "I don't know what the weather will be like tomorrow, but I'm cycling even if it's cold.",
+          "it": "Non so che tempo farà domani, ma vado in bici anche se dovesse fare freddo.",
+          "uk": "Не знаю, яка завтра буде погода, але я поїду на велосипеді, навіть якщо буде холодно.",
+          "de": "Ich weiß nicht, wie das Wetter morgen wird, aber ich fahre Rad, selbst wenn es kalt ist.",
+          "fr": "Je ne sais pas quel temps il fera demain, mais je vais faire du vélo même s'il fait froid.",
+          "pt": "Não sei como vai estar o tempo amanhã, mas vou de bicicleta mesmo que faça frio.",
+          "zh": "我不知道明天天气怎么样，但就算冷，我也要骑自行车。",
+          "hint": {
+            "en": "You don't know tomorrow's weather: the subjunctive, haga.",
+            "it": "Non sai che tempo farà domani: il congiuntivo, haga.",
+            "uk": "Ти не знаєш завтрашньої погоди: «subjuntivo», haga.",
+            "de": "Du kennst das Wetter von morgen nicht: der subjuntivo, haga.",
+            "fr": "Tu ne connais pas la météo de demain : le subjonctif, haga.",
+            "pt": "Você não sabe como vai estar o tempo amanhã: o subjuntivo, haga.",
+            "zh": "你不知道明天的天气：虚拟式，haga。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "mix",
+          "before": "Aunque ",
+          "after": " cansada, hoy cocino yo.",
+          "label": "estar",
+          "accepted": [
+            "estoy"
+          ],
+          "en": "Although I'm tired, I'm cooking today.",
+          "it": "Anche se sono stanca, oggi cucino io.",
+          "uk": "Хоча я втомлений(-а), сьогодні я готую.",
+          "de": "Obwohl ich müde bin, koche heute ich.",
+          "fr": "Je suis fatigué, mais aujourd'hui c'est moi qui cuisine.",
+          "pt": "Apesar de estar cansado, hoje eu cozinho.",
+          "zh": "虽然我很累，今天还是我做饭。",
+          "hint": {
+            "en": "You're telling them how you feel, a fact: estoy.",
+            "it": "Stai dicendo come ti senti, un fatto: estoy.",
+            "uk": "Ти кажеш, як почуваєшся, — це факт: estoy.",
+            "de": "Du sagst, wie du dich fühlst, eine Tatsache: estoy.",
+            "fr": "Tu dis comment tu te sens, c'est un fait : estoy.",
+            "pt": "Você está contando como se sente, um fato: estoy.",
+            "zh": "你在告诉对方你的感觉，是事实：estoy。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "La barbacoa fue genial, aunque al final ",
+          "after": " un poco.",
+          "options": [
+            "llovió",
+            "llueva",
+            "llover"
+          ],
+          "answer": "llovió",
+          "en": "The barbecue was great, although in the end it rained a bit.",
+          "it": "La grigliata è stata fantastica, anche se alla fine ha piovuto un po'.",
+          "uk": "Барбекю вдалося чудово, хоча наприкінці трохи пішов дощ.",
+          "de": "Das Grillfest war toll, obwohl es am Ende ein bisschen geregnet hat.",
+          "fr": "Le barbecue était génial, même si finalement il a un peu plu.",
+          "pt": "O churrasco foi ótimo, apesar de ter chovido um pouco no final.",
+          "zh": "烧烤很棒，虽然最后下了点雨。",
+          "hint": {
+            "en": "It already happened, so it's a fact: llovió.",
+            "it": "È già successo, quindi è un fatto: llovió.",
+            "uk": "Це вже сталося, тож це факт: llovió.",
+            "de": "Es ist schon passiert, also eine Tatsache: llovió.",
+            "fr": "C'est déjà arrivé, donc c'est un fait : llovió.",
+            "pt": "Já aconteceu, então é um fato: llovió.",
+            "zh": "这已经发生了，所以是事实：llovió。"
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "A friend wants to cancel tomorrow's trip because it might rain. Write in Spanish: «We're going even if it rains.»",
+            "it": "Un amico vuole annullare la gita di domani perché potrebbe piovere. Scrivi in spagnolo: «Ci andiamo anche se dovesse piovere.»",
+            "uk": "Друг хоче скасувати завтрашню поїздку, бо може піти дощ. Напиши іспанською: «Ми їдемо, навіть якщо піде дощ.»",
+            "de": "Ein Freund will den Ausflug morgen absagen, weil es regnen könnte. Schreib auf Spanisch: «Wir fahren, selbst wenn es regnet.»",
+            "fr": "Un ami veut annuler l'excursion de demain parce qu'il risque de pleuvoir. Écris en espagnol : «On y va même s'il pleut.»",
+            "pt": "Um amigo quer cancelar a viagem de amanhã porque pode chover. Escreva em espanhol: «Vamos mesmo que chova.»",
+            "zh": "朋友想取消明天的出游，因为可能会下雨。用西班牙语写：«就算下雨，我们也去。»"
+          },
+          "accepted": [
+            "Vamos aunque llueva.",
+            "Vamos de todas formas aunque llueva.",
+            "Aunque llueva, vamos.",
+            "Aunque llueva, vamos de todas formas.",
+            "Vamos a ir aunque llueva.",
+            "Aunque llueva, vamos a ir.",
+            "Iremos aunque llueva.",
+            "Aunque llueva, iremos.",
+            "Nosotros vamos aunque llueva."
+          ],
+          "model": {
+            "es": "Vamos aunque llueva.",
+            "en": "We're going even if it rains.",
+            "it": "Ci andiamo anche se dovesse piovere.",
+            "uk": "Ми їдемо, навіть якщо піде дощ.",
+            "de": "Wir fahren, selbst wenn es regnet.",
+            "fr": "On y va même s'il pleut.",
+            "pt": "Vamos mesmo que chova.",
+            "zh": "就算下雨，我们也去。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u47l2",
+      "goal": {
+        "en": "Talk about a fact with el hecho de que + the subjunctive: it's true, but you aren't giving news, you're saying what you think about it (el hecho de que vivas lejos no es un problema). Compare it with es verdad que + the indicative.",
+        "it": "Parla di un fatto con el hecho de que + il congiuntivo: è vero, ma non stai dando una notizia, stai dicendo cosa ne pensi (el hecho de que vivas lejos no es un problema). Confrontalo con es verdad que + l'indicativo.",
+        "uk": "Говори про факт за допомогою el hecho de que + «subjuntivo»: це правда, але ти не повідомляєш новину, а кажеш, що про неї думаєш (el hecho de que vivas lejos no es un problema). Порівняй з es verdad que + дійсний спосіб.",
+        "de": "Sprich über eine Tatsache mit el hecho de que + subjuntivo: Es stimmt, aber du verkündest keine Neuigkeit, du sagst, was du davon hältst (el hecho de que vivas lejos no es un problema). Vergleiche es mit es verdad que + Indikativ.",
+        "fr": "Parler d'un fait avec el hecho de que + le subjonctif : c'est vrai, mais tu n'annonces pas une nouvelle, tu dis ce que tu en penses (el hecho de que vivas lejos no es un problema). Compare avec es verdad que + l'indicatif.",
+        "pt": "Fale de um fato com el hecho de que + o subjuntivo: é verdade, mas você não está dando a notícia, está dizendo o que pensa sobre ela (el hecho de que vivas lejos no es un problema). Compare com es verdad que + o indicativo.",
+        "zh": "用 el hecho de que + 虚拟式谈论一个事实：它是真的，但你不是在报告新消息，而是在说你对它的看法（el hecho de que vivas lejos no es un problema）。并和 es verdad que + 陈述式作比较。"
+      },
+      "target": {
+        "es": "El hecho de que vivas lejos no es un problema.",
+        "en": "The fact that you live far away isn't a problem.",
+        "it": "Il fatto che tu viva lontano non è un problema.",
+        "uk": "Те, що ти живеш далеко, — не проблема.",
+        "de": "Dass du weit weg wohnst, ist kein Problem.",
+        "fr": "Le fait que tu habites loin n'est pas un problème.",
+        "pt": "O fato de você morar longe não é um problema.",
+        "zh": "你住得远，这不是问题。"
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "el hecho de que",
+              "en": "the fact that",
+              "it": "il fatto che",
+              "uk": "те, що; той факт, що",
+              "de": "die Tatsache, dass",
+              "fr": "le fait que",
+              "pt": "o fato de (que)",
+              "zh": "……这一事实，……这件事",
+              "kind": "rail"
+            },
+            {
+              "es": "significar",
+              "en": "to mean",
+              "it": "significare",
+              "uk": "означати",
+              "de": "bedeuten",
+              "fr": "signifier, vouloir dire",
+              "pt": "significar",
+              "zh": "意味着，表示",
+              "kind": "stem"
+            },
+            {
+              "es": "preocupar",
+              "en": "to worry (someone)",
+              "it": "preoccupare",
+              "uk": "турбувати (когось)",
+              "de": "(jemandem) Sorgen machen, beunruhigen",
+              "fr": "inquiéter (quelqu'un)",
+              "pt": "preocupar (alguém)",
+              "zh": "让（某人）担心",
+              "kind": "stem"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "el hecho de que",
+              "kind": "rail"
+            },
+            {
+              "text": "+",
+              "kind": "chunk"
+            },
+            {
+              "text": "subjuntivo",
+              "kind": "ending"
+            }
+          ],
+          "rule": {
+            "en": "After el hecho de que, use the subjunctive, even when it's true. You're not giving the news; you're saying what you think of it.",
+            "it": "Dopo el hecho de que si usa il congiuntivo, anche quando è vero. Non stai dando la notizia: stai dicendo cosa ne pensi.",
+            "uk": "Після el hecho de que вживай «subjuntivo», навіть коли це правда. Ти не повідомляєш новину, а кажеш, що про неї думаєш.",
+            "de": "Nach el hecho de que steht der subjuntivo, auch wenn es stimmt. Du verkündest nicht die Neuigkeit, du sagst, was du davon hältst. Im Deutschen steht nach „die Tatsache, dass“ einfach der Indikativ.",
+            "fr": "Après el hecho de que, on met le subjonctif, même quand c'est vrai. Tu n'annonces pas la nouvelle ; tu dis ce que tu en penses. Comme en français : « le fait que tu sois là ».",
+            "pt": "Depois de el hecho de que, use o subjuntivo, mesmo quando é verdade. Você não está dando a notícia; está dizendo o que acha dela. Em português costumamos usar o infinitivo (o fato de você morar longe); em espanhol, vai o subjuntivo: el hecho de que vivas lejos.",
+            "zh": "el hecho de que 后面用虚拟式，即使说的是真事。你不是在报告这个消息，而是在说你怎么看它。"
+          },
+          "examples": [
+            {
+              "es": "El hecho de que vivas lejos no es un problema.",
+              "en": "The fact that you live far away isn't a problem.",
+              "it": "Il fatto che tu viva lontano non è un problema.",
+              "uk": "Те, що ти живеш далеко, — не проблема.",
+              "de": "Dass du weit weg wohnst, ist kein Problem.",
+              "fr": "Le fait que tu habites loin n'est pas un problème.",
+              "pt": "O fato de você morar longe não é um problema.",
+              "zh": "你住得远，这不是问题。"
+            },
+            {
+              "es": "El hecho de que seas joven no significa nada.",
+              "en": "The fact that you're young doesn't mean anything.",
+              "it": "Il fatto che tu sia giovane non significa niente.",
+              "uk": "Те, що ти молода, нічого не означає.",
+              "de": "Dass du jung bist, bedeutet gar nichts.",
+              "fr": "Le fait que tu sois jeune ne veut rien dire.",
+              "pt": "O fato de você ser jovem não significa nada.",
+              "zh": "你年轻，这说明不了什么。"
+            },
+            {
+              "es": "Me preocupa el hecho de que no duermas.",
+              "en": "It worries me that you don't sleep.",
+              "it": "Mi preoccupa il fatto che tu non dorma.",
+              "uk": "Мене турбує те, що ти не спиш.",
+              "de": "Es macht mir Sorgen, dass du nicht schläfst.",
+              "fr": "Ça m'inquiète que tu ne dormes pas.",
+              "pt": "Me preocupa você não dormir.",
+              "zh": "你睡不好觉，这让我很担心。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "vivas",
+              "en": "(that) you live: subjunctive of vivir",
+              "it": "(che tu) viva: congiuntivo di vivir",
+              "uk": "(що) ти живеш: «subjuntivo» від vivir",
+              "de": "(dass) du wohnst: subjuntivo von vivir",
+              "fr": "(que) tu vives : subjonctif de vivir",
+              "pt": "(que) você more: subjuntivo de vivir",
+              "zh": "（你）住：vivir 的虚拟式"
+            },
+            {
+              "es": "significa",
+              "en": "it means",
+              "it": "significa",
+              "uk": "означає",
+              "de": "es bedeutet",
+              "fr": "ça signifie, ça veut dire",
+              "pt": "significa",
+              "zh": "它意味着"
+            },
+            {
+              "es": "preocupa",
+              "en": "it worries (me, you…)",
+              "it": "preoccupa",
+              "uk": "турбує (мене, тебе…)",
+              "de": "es macht (mir, dir…) Sorgen",
+              "fr": "ça inquiète (me, te…)",
+              "pt": "preocupa (a mim, a você…)",
+              "zh": "它让（我、你……）担心"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "El hecho de que ",
+          "after": " lejos no es un problema.",
+          "options": [
+            "vivas",
+            "vivieras",
+            "vivir"
+          ],
+          "answer": "vivas",
+          "en": "The fact that you live far away isn't a problem.",
+          "it": "Il fatto che tu viva lontano non è un problema.",
+          "uk": "Те, що ти живеш далеко, — не проблема.",
+          "de": "Dass du weit weg wohnst, ist kein Problem.",
+          "fr": "Le fait que tu habites loin n'est pas un problème.",
+          "pt": "O fato de você morar longe não é um problema.",
+          "zh": "你住得远，这不是问题。",
+          "hint": {
+            "en": "el hecho de que + the present subjunctive (no es is present): vivas.",
+            "it": "el hecho de que + il congiuntivo presente (no es è al presente): vivas.",
+            "uk": "el hecho de que + «subjuntivo» теперішнього часу (no es — теперішній час): vivas.",
+            "de": "el hecho de que + subjuntivo im Präsens (no es steht im Präsens): vivas.",
+            "fr": "el hecho de que + le présent du subjonctif (no es est au présent) : vivas.",
+            "pt": "el hecho de que + o presente do subjuntivo (no es está no presente): vivas.",
+            "zh": "el hecho de que + 现在时虚拟式（no es 是现在时）：vivas。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "A new colleague is worried because she's the youngest in the team. Tell her: the fact that you're young doesn't mean anything.",
+            "it": "Una nuova collega è preoccupata perché è la più giovane del gruppo. Dille: il fatto che tu sia giovane non significa niente.",
+            "uk": "Нова колега хвилюється, бо вона наймолодша в команді. Скажи їй: те, що ти молода, нічого не означає.",
+            "de": "Eine neue Kollegin macht sich Sorgen, weil sie die Jüngste im Team ist. Sag ihr: Dass du jung bist, bedeutet gar nichts.",
+            "fr": "Une nouvelle collègue s'inquiète parce qu'elle est la plus jeune de l'équipe. Dis-lui : le fait que tu sois jeune ne veut rien dire.",
+            "pt": "Uma colega nova está preocupada porque é a mais jovem da equipe. Diga a ela: o fato de você ser jovem não significa nada.",
+            "zh": "一位新同事很担心，因为她是团队里最年轻的。告诉她：你年轻，这说明不了什么。"
+          },
+          "accepted": [
+            "El hecho de que seas joven no significa nada."
+          ],
+          "tiles": [
+            "El hecho",
+            "de que",
+            "seas",
+            "joven",
+            "no significa",
+            "nada",
+            "fueras",
+            "es que"
+          ],
+          "en": "The fact that you're young doesn't mean anything.",
+          "it": "Il fatto che tu sia giovane non significa niente.",
+          "uk": "Те, що ти молода, нічого не означає.",
+          "de": "Dass du jung bist, bedeutet gar nichts.",
+          "fr": "Le fait que tu sois jeune ne veut rien dire.",
+          "pt": "O fato de você ser jovem não significa nada.",
+          "zh": "你年轻，这说明不了什么。",
+          "hint": {
+            "en": "el hecho de que + the subjunctive: seas.",
+            "it": "el hecho de que + il congiuntivo: seas.",
+            "uk": "el hecho de que + «subjuntivo»: seas.",
+            "de": "el hecho de que + subjuntivo: seas.",
+            "fr": "el hecho de que + le subjonctif : seas.",
+            "pt": "el hecho de que + o subjuntivo: seas.",
+            "zh": "el hecho de que + 虚拟式：seas。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "molestó",
+              "kind": "stem"
+            },
+            {
+              "text": "→",
+              "kind": "chunk"
+            },
+            {
+              "text": "el hecho de que llamaras",
+              "kind": "ending"
+            }
+          ],
+          "rule": {
+            "en": "When you talk about the past (fue, molestó, ayudó), the verb after el hecho de que goes into the imperfect subjunctive.",
+            "it": "Quando parli del passato (fue, molestó, ayudó), il verbo dopo el hecho de que va al congiuntivo imperfetto.",
+            "uk": "Коли говориш про минуле (fue, molestó, ayudó), дієслово після el hecho de que ставиться в «imperfecto de subjuntivo» (минулий кон'юнктив).",
+            "de": "Wenn du über die Vergangenheit sprichst (fue, molestó, ayudó), steht das Verb nach el hecho de que im imperfecto de subjuntivo (spanischer Konjunktiv Imperfekt).",
+            "fr": "Quand tu parles du passé (fue, molestó, ayudó), le verbe après el hecho de que se met à l'imperfecto de subjuntivo (subjonctif imparfait). En français courant, on garderait le subjonctif présent ou passé ; l'espagnol, lui, utilise vraiment ce temps à l'oral.",
+            "pt": "Quando você fala do passado (fue, molestó, ayudó), o verbo depois de el hecho de que vai para o imperfecto de subjuntivo (o pretérito imperfeito do subjuntivo).",
+            "zh": "说过去的事时（fue、molestó、ayudó），el hecho de que 后面的动词要用过去时虚拟式（imperfecto de subjuntivo）。"
+          },
+          "examples": [
+            {
+              "es": "Me molestó el hecho de que no me llamaras.",
+              "en": "It bothered me that you didn't call me.",
+              "it": "Mi ha dato fastidio il fatto che tu non mi abbia chiamato.",
+              "uk": "Мене зачепило те, що ти мені не подзвонив.",
+              "de": "Es hat mich geärgert, dass du mich nicht angerufen hast.",
+              "fr": "Ça m'a dérangé que tu ne m'appelles pas.",
+              "pt": "Me incomodou você não ter me ligado.",
+              "zh": "你没给我打电话，这让我很不舒服。"
+            },
+            {
+              "es": "El hecho de que llegaras tarde no fue un problema.",
+              "en": "The fact that you arrived late wasn't a problem.",
+              "it": "Il fatto che tu sia arrivato tardi non è stato un problema.",
+              "uk": "Те, що ти запізнився, не було проблемою.",
+              "de": "Dass du zu spät gekommen bist, war kein Problem.",
+              "fr": "Le fait que tu sois arrivé en retard n'a pas été un problème.",
+              "pt": "O fato de você ter chegado tarde não foi um problema.",
+              "zh": "你迟到了，这不是问题。"
+            },
+            {
+              "es": "El hecho de que estuvieras allí me ayudó mucho.",
+              "en": "The fact that you were there helped me a lot.",
+              "it": "Il fatto che tu fossi lì mi ha aiutato molto.",
+              "uk": "Те, що ти був там, мені дуже допомогло.",
+              "de": "Dass du da warst, hat mir sehr geholfen.",
+              "fr": "Le fait que tu sois là m'a beaucoup aidé.",
+              "pt": "O fato de você estar lá me ajudou muito.",
+              "zh": "你当时在场，这对我帮助很大。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "ayudó",
+              "en": "it helped",
+              "it": "ha aiutato",
+              "uk": "допомогло",
+              "de": "es hat geholfen",
+              "fr": "ça a aidé, il / elle a aidé",
+              "pt": "ajudou",
+              "zh": "它帮助了"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Me molestó mucho el hecho de que no me ",
+          "after": ".",
+          "options": [
+            "llamaras",
+            "llames",
+            "llamar"
+          ],
+          "answer": "llamaras",
+          "en": "It really bothered me that you didn't call me.",
+          "it": "Mi ha dato molto fastidio il fatto che tu non mi abbia chiamato.",
+          "uk": "Мене дуже зачепило те, що ти мені не подзвонив(-ла).",
+          "de": "Es hat mich sehr geärgert, dass du mich nicht angerufen hast.",
+          "fr": "Ça m'a vraiment dérangé que tu ne m'appelles pas.",
+          "pt": "Me incomodou muito você não ter me ligado.",
+          "zh": "你没给我打电话，这让我很不舒服。",
+          "hint": {
+            "en": "molestó is in the past: the imperfect subjunctive, llamaras.",
+            "it": "molestó è al passato: il congiuntivo imperfetto, llamaras.",
+            "uk": "molestó — минулий час: «imperfecto de subjuntivo», llamaras.",
+            "de": "molestó steht in der Vergangenheit: der imperfecto de subjuntivo, llamaras.",
+            "fr": "molestó est au passé : l'imperfecto de subjuntivo, llamaras.",
+            "pt": "molestó está no passado: o imperfecto de subjuntivo, llamaras.",
+            "zh": "molestó 是过去时：用过去时虚拟式，llamaras。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "fire",
+          "before": "El hecho de que ",
+          "after": " tarde no fue un problema.",
+          "label": "llegar",
+          "accepted": [
+            "llegaras"
+          ],
+          "en": "The fact that you arrived late wasn't a problem.",
+          "it": "Il fatto che tu sia arrivato tardi non è stato un problema.",
+          "uk": "Те, що ти запізнився(-лася), не було проблемою.",
+          "de": "Dass du zu spät gekommen bist, war kein Problem.",
+          "fr": "Le fait que tu sois arrivé en retard n'a pas été un problème.",
+          "pt": "O fato de você ter chegado tarde não foi um problema.",
+          "zh": "你迟到了，这不是问题。",
+          "hint": {
+            "en": "fue is in the past: the imperfect subjunctive, llegaras.",
+            "it": "fue è al passato: il congiuntivo imperfetto, llegaras.",
+            "uk": "fue — минулий час: «imperfecto de subjuntivo», llegaras.",
+            "de": "fue steht in der Vergangenheit: der imperfecto de subjuntivo, llegaras.",
+            "fr": "fue est au passé : l'imperfecto de subjuntivo, llegaras.",
+            "pt": "fue está no passado: o imperfecto de subjuntivo, llegaras.",
+            "zh": "fue 是过去时：用过去时虚拟式，llegaras。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "es verdad que",
+              "kind": "rail"
+            },
+            {
+              "text": "+",
+              "kind": "chunk"
+            },
+            {
+              "text": "indicativo",
+              "kind": "ending"
+            }
+          ],
+          "rule": {
+            "en": "To present something as true or as news, use es verdad que, está claro que or sé que + the indicative. With el hecho de que, the fact is already on the table and you comment on it.",
+            "it": "Per presentare una cosa come vera o come una notizia, usa es verdad que, está claro que o sé que + l'indicativo. Con el hecho de que il fatto è già sul tavolo e tu lo commenti.",
+            "uk": "Щоб подати щось як правду чи новину, вживай es verdad que, está claro que або sé que + дійсний спосіб. З el hecho de que факт уже відомий, і ти його коментуєш.",
+            "de": "Um etwas als wahr oder als Neuigkeit hinzustellen, nimm es verdad que, está claro que oder sé que + Indikativ. Mit el hecho de que liegt die Tatsache schon auf dem Tisch, und du kommentierst sie.",
+            "fr": "Pour présenter quelque chose comme vrai ou comme une nouvelle, utilise es verdad que, está claro que ou sé que + l'indicatif. Avec el hecho de que, le fait est déjà sur la table et tu le commentes.",
+            "pt": "Para apresentar algo como verdade ou como novidade, use es verdad que, está claro que ou sé que + o indicativo. Com el hecho de que, o fato já está na mesa e você comenta sobre ele.",
+            "zh": "要把一件事当作事实或新消息说出来，用 es verdad que、está claro que 或 sé que + 陈述式。用 el hecho de que 时，事实已经摆在那里，你只是在评论它。"
+          },
+          "examples": [
+            {
+              "es": "Es verdad que tienes poca experiencia.",
+              "en": "It's true that you have little experience.",
+              "it": "È vero che hai poca esperienza.",
+              "uk": "Правда, що в тебе мало досвіду.",
+              "de": "Es stimmt, dass du wenig Erfahrung hast.",
+              "fr": "C'est vrai que tu as peu d'expérience.",
+              "pt": "É verdade que você tem pouca experiência.",
+              "zh": "你确实经验不多。"
+            },
+            {
+              "es": "El hecho de que tengas poca experiencia no es un problema.",
+              "en": "The fact that you have little experience isn't a problem.",
+              "it": "Il fatto che tu abbia poca esperienza non è un problema.",
+              "uk": "Те, що в тебе мало досвіду, — не проблема.",
+              "de": "Dass du wenig Erfahrung hast, ist kein Problem.",
+              "fr": "Le fait que tu aies peu d'expérience n'est pas un problème.",
+              "pt": "O fato de você ter pouca experiência não é um problema.",
+              "zh": "你经验不多，这不是问题。"
+            },
+            {
+              "es": "Está claro que tienes razón.",
+              "en": "It's clear that you're right.",
+              "it": "È chiaro che hai ragione.",
+              "uk": "Ясно, що ти маєш рацію.",
+              "de": "Es ist klar, dass du recht hast.",
+              "fr": "C'est clair que tu as raison.",
+              "pt": "Está claro que você tem razão.",
+              "zh": "很明显你是对的。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "poca",
+              "en": "little, not much (feminine)",
+              "it": "poca",
+              "uk": "мало, небагато (жіночий рід)",
+              "de": "wenig (weiblich)",
+              "fr": "peu de (féminin)",
+              "pt": "pouca (feminino)",
+              "zh": "很少的，不多的（阴性）"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Es verdad que ",
+          "after": " poca experiencia, pero aprendes muy rápido.",
+          "options": [
+            "tienes",
+            "tengas",
+            "tener"
+          ],
+          "answer": "tienes",
+          "en": "It's true that you have little experience, but you learn really fast.",
+          "it": "È vero che hai poca esperienza, ma impari molto in fretta.",
+          "uk": "Правда, що в тебе мало досвіду, але ти дуже швидко вчишся.",
+          "de": "Es stimmt, dass du wenig Erfahrung hast, aber du lernst wirklich schnell.",
+          "fr": "C'est vrai que tu as peu d'expérience, mais tu apprends très vite.",
+          "pt": "É verdade que você tem pouca experiência, mas aprende muito rápido.",
+          "zh": "你确实经验不多，但你学得特别快。",
+          "hint": {
+            "en": "es verdad que presents it as true: the indicative, tienes.",
+            "it": "es verdad que lo presenta come vero: l'indicativo, tienes.",
+            "uk": "es verdad que подає це як правду: дійсний спосіб, tienes.",
+            "de": "es verdad que stellt es als wahr hin: Indikativ, tienes.",
+            "fr": "es verdad que le présente comme vrai : l'indicatif, tienes.",
+            "pt": "es verdad que apresenta como verdade: o indicativo, tienes.",
+            "zh": "es verdad que 把它当作事实说出来：陈述式，tienes。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "fire",
+          "before": "El hecho de que ",
+          "after": " poca experiencia no es un problema.",
+          "label": "tener",
+          "accepted": [
+            "tengas"
+          ],
+          "en": "The fact that you have little experience isn't a problem.",
+          "it": "Il fatto che tu abbia poca esperienza non è un problema.",
+          "uk": "Те, що в тебе мало досвіду, — не проблема.",
+          "de": "Dass du wenig Erfahrung hast, ist kein Problem.",
+          "fr": "Le fait que tu aies peu d'expérience n'est pas un problème.",
+          "pt": "O fato de você ter pouca experiência não é um problema.",
+          "zh": "你经验不多，这不是问题。",
+          "hint": {
+            "en": "el hecho de que + the subjunctive: tengas.",
+            "it": "el hecho de que + il congiuntivo: tengas.",
+            "uk": "el hecho de que + «subjuntivo»: tengas.",
+            "de": "el hecho de que + subjuntivo: tengas.",
+            "fr": "el hecho de que + le subjonctif : tengas.",
+            "pt": "el hecho de que + o subjuntivo: tengas.",
+            "zh": "el hecho de que + 虚拟式：tengas。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "Me molestó el hecho de que no me lo ",
+          "after": ".",
+          "options": [
+            "dijeras",
+            "digas",
+            "decir"
+          ],
+          "answer": "dijeras",
+          "en": "It bothered me that you didn't tell me.",
+          "it": "Mi ha dato fastidio il fatto che tu non me l'abbia detto.",
+          "uk": "Мене зачепило те, що ти мені не сказав(-ла).",
+          "de": "Es hat mich geärgert, dass du es mir nicht gesagt hast.",
+          "fr": "Ça m'a dérangé que tu ne me l'aies pas dit.",
+          "pt": "Me incomodou você não ter me contado.",
+          "zh": "你没告诉我，这让我很不舒服。",
+          "hint": {
+            "en": "Past (molestó): the imperfect subjunctive, dijeras.",
+            "it": "Passato (molestó): il congiuntivo imperfetto, dijeras.",
+            "uk": "Минуле (molestó): «imperfecto de subjuntivo», dijeras.",
+            "de": "Vergangenheit (molestó): der imperfecto de subjuntivo, dijeras.",
+            "fr": "Passé (molestó) : l'imperfecto de subjuntivo, dijeras.",
+            "pt": "Passado (molestó): o imperfecto de subjuntivo, dijeras.",
+            "zh": "过去时（molestó）：用过去时虚拟式，dijeras。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "mix",
+          "before": "Está claro que ",
+          "after": " razón.",
+          "label": "tener",
+          "accepted": [
+            "tienes"
+          ],
+          "en": "It's clear that you're right.",
+          "it": "È chiaro che hai ragione.",
+          "uk": "Ясно, що ти маєш рацію.",
+          "de": "Es ist klar, dass du recht hast.",
+          "fr": "C'est clair que tu as raison.",
+          "pt": "Está claro que você tem razão.",
+          "zh": "很明显你是对的。",
+          "hint": {
+            "en": "está claro que presents it as true: the indicative, tienes.",
+            "it": "está claro que lo presenta come vero: l'indicativo, tienes.",
+            "uk": "está claro que подає це як правду: дійсний спосіб, tienes.",
+            "de": "está claro que stellt es als wahr hin: Indikativ, tienes.",
+            "fr": "está claro que le présente comme vrai : l'indicatif, tienes.",
+            "pt": "está claro que apresenta como verdade: o indicativo, tienes.",
+            "zh": "está claro que 把它当作事实说出来：陈述式，tienes。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "mix",
+          "intention": {
+            "en": "A friend is worried because he lives far from the office where he's starting work. Tell him: the fact that you live far away isn't a problem.",
+            "it": "Un amico è preoccupato perché abita lontano dall'ufficio dove sta per cominciare a lavorare. Digli: il fatto che tu viva lontano non è un problema.",
+            "uk": "Друг хвилюється, бо живе далеко від офісу, де починає працювати. Скажи йому: те, що ти живеш далеко, — не проблема.",
+            "de": "Ein Freund macht sich Sorgen, weil er weit weg von dem Büro wohnt, in dem er bald anfängt. Sag ihm: Dass du weit weg wohnst, ist kein Problem.",
+            "fr": "Un ami s'inquiète parce qu'il habite loin du bureau où il commence à travailler. Dis-lui : le fait que tu habites loin n'est pas un problème.",
+            "pt": "Um amigo está preocupado porque mora longe do escritório onde vai começar a trabalhar. Diga a ele: o fato de você morar longe não é um problema.",
+            "zh": "一个朋友很担心，因为他住得离新工作的办公室很远。告诉他：你住得远，这不是问题。"
+          },
+          "accepted": [
+            "El hecho de que vivas lejos no es un problema.",
+            "El hecho de que vivas lejos no es ningún problema."
+          ],
+          "tiles": [
+            "El hecho",
+            "de que",
+            "vivas",
+            "lejos",
+            "no es",
+            "un problema",
+            "vivieras",
+            "es verdad"
+          ],
+          "en": "The fact that you live far away isn't a problem.",
+          "it": "Il fatto che tu viva lontano non è un problema.",
+          "uk": "Те, що ти живеш далеко, — не проблема.",
+          "de": "Dass du weit weg wohnst, ist kein Problem.",
+          "fr": "Le fait que tu habites loin n'est pas un problème.",
+          "pt": "O fato de você morar longe não é um problema.",
+          "zh": "你住得远，这不是问题。",
+          "hint": {
+            "en": "el hecho de que + the present subjunctive: vivas.",
+            "it": "el hecho de que + il congiuntivo presente: vivas.",
+            "uk": "el hecho de que + «subjuntivo» теперішнього часу: vivas.",
+            "de": "el hecho de que + subjuntivo im Präsens: vivas.",
+            "fr": "el hecho de que + le présent du subjonctif : vivas.",
+            "pt": "el hecho de que + o presente do subjuntivo: vivas.",
+            "zh": "el hecho de que + 现在时虚拟式：vivas。"
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "A colleague apologises for arriving late to yesterday's meeting. Write in Spanish: «The fact that you arrived late wasn't a problem.»",
+            "it": "Un collega si scusa per essere arrivato tardi alla riunione di ieri. Scrivi in spagnolo: «Il fatto che tu sia arrivato tardi non è stato un problema.»",
+            "uk": "Колега перепрошує, що запізнився на вчорашню нараду. Напиши іспанською: «Те, що ти запізнився, не було проблемою.»",
+            "de": "Ein Kollege entschuldigt sich, weil er gestern zu spät zur Besprechung gekommen ist. Schreib auf Spanisch: «Dass du zu spät gekommen bist, war kein Problem.»",
+            "fr": "Un collègue s'excuse d'être arrivé en retard à la réunion d'hier. Écris en espagnol : «Le fait que tu sois arrivé en retard n'a pas été un problème.»",
+            "pt": "Um colega pede desculpas por ter chegado atrasado à reunião de ontem. Escreva em espanhol: «O fato de você ter chegado tarde não foi um problema.»",
+            "zh": "一位同事为昨天开会迟到向你道歉。用西班牙语写：«你迟到了，这不是问题。»"
+          },
+          "accepted": [
+            "El hecho de que llegaras tarde no fue un problema.",
+            "El hecho de que llegaras tarde no fue ningún problema.",
+            "El hecho de que tú llegaras tarde no fue un problema."
+          ],
+          "model": {
+            "es": "El hecho de que llegaras tarde no fue un problema.",
+            "en": "The fact that you arrived late wasn't a problem.",
+            "it": "Il fatto che tu sia arrivato tardi non è stato un problema.",
+            "uk": "Те, що ти запізнився, не було проблемою.",
+            "de": "Dass du zu spät gekommen bist, war kein Problem.",
+            "fr": "Le fait que tu sois arrivé en retard n'a pas été un problème.",
+            "pt": "O fato de você ter chegado tarde não foi um problema.",
+            "zh": "你迟到了，这不是问题。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u47l3",
+      "goal": {
+        "en": "Offer a free choice with lo que quieras (whatever you want), como quieras, cuando quieras and donde quieras, and compare it with lo que quieres (the thing you want, which you know).",
+        "it": "Lascia libera scelta con lo que quieras (qualunque cosa tu voglia), como quieras, cuando quieras e donde quieras, e confrontalo con lo que quieres (la cosa che vuoi, che conosci).",
+        "uk": "Пропонуй вільний вибір за допомогою lo que quieras («що захочеш», «що завгодно»), como quieras, cuando quieras і donde quieras та порівняй з lo que quieres («те, що ти хочеш» — конкретна річ, яку ти знаєш).",
+        "de": "Lass die freie Wahl mit lo que quieras (was immer du willst, egal was), como quieras, cuando quieras und donde quieras, und vergleiche es mit lo que quieres (das, was du willst, und du weißt, was es ist).",
+        "fr": "Laisser le libre choix avec lo que quieras (ce que tu veux, n'importe quoi), como quieras, cuando quieras et donde quieras, et comparer avec lo que quieres (la chose que tu veux, qu'on connaît).",
+        "pt": "Ofereça uma escolha livre com lo que quieras (o que você quiser), como quieras, cuando quieras e donde quieras, e compare com lo que quieres (o que você quer, uma coisa que você conhece).",
+        "zh": "用 lo que quieras（随便你想要什么）、como quieras、cuando quieras 和 donde quieras 让对方随意选择，并和 lo que quieres（你想要的那个东西，你知道是什么）作比较。"
+      },
+      "target": {
+        "es": "Pide lo que quieras, invito yo.",
+        "en": "Order whatever you want, it's on me.",
+        "it": "Ordina quello che ti pare, offro io.",
+        "uk": "Замовляй що захочеш, я пригощаю.",
+        "de": "Bestell, was immer du willst, ich lade dich ein.",
+        "fr": "Commande ce que tu veux, c'est moi qui invite.",
+        "pt": "Peça o que você quiser, eu pago.",
+        "zh": "随便点，我请客。"
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "lo que quieras",
+              "en": "whatever you want",
+              "it": "qualunque cosa tu voglia, quello che ti pare",
+              "uk": "що захочеш, що завгодно",
+              "de": "was immer du willst, egal was",
+              "fr": "ce que tu veux (n'importe quoi)",
+              "pt": "o que você quiser",
+              "zh": "随便你想要什么，你想要什么都行",
+              "kind": "chunk"
+            },
+            {
+              "es": "como quieras",
+              "en": "as you like, however you want",
+              "it": "come preferisci, come ti pare",
+              "uk": "як захочеш, як тобі зручно",
+              "de": "wie du willst, wie es dir lieber ist",
+              "fr": "comme tu veux",
+              "pt": "como você quiser, do jeito que quiser",
+              "zh": "随你，你想怎么样都行",
+              "kind": "chunk"
+            },
+            {
+              "es": "cuando quieras",
+              "en": "whenever you like",
+              "it": "quando ti pare, quando vuoi tu",
+              "uk": "коли захочеш",
+              "de": "wann immer du willst",
+              "fr": "quand tu veux",
+              "pt": "quando você quiser",
+              "zh": "你什么时候想都行",
+              "kind": "chunk"
+            },
+            {
+              "es": "donde quieras",
+              "en": "wherever you like",
+              "it": "dove ti pare, dove vuoi tu",
+              "uk": "де захочеш",
+              "de": "wo immer du willst",
+              "fr": "où tu veux",
+              "pt": "onde você quiser",
+              "zh": "你想在哪儿都行",
+              "kind": "chunk"
+            },
+            {
+              "es": "un café con leche",
+              "en": "a white coffee, a coffee with milk",
+              "it": "un caffellatte",
+              "uk": "кава з молоком",
+              "de": "ein Milchkaffee",
+              "fr": "un café au lait, un café crème",
+              "pt": "um café com leite",
+              "zh": "一杯牛奶咖啡，一杯加奶的咖啡",
+              "kind": "chunk"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "lo que",
+              "kind": "rail"
+            },
+            {
+              "text": "+",
+              "kind": "chunk"
+            },
+            {
+              "text": "quieras",
+              "kind": "ending"
+            }
+          ],
+          "rule": {
+            "en": "lo que + the subjunctive means whatever, anything: you don't know what it is and anything is fine.",
+            "it": "lo que + il congiuntivo significa qualunque cosa: non sai che cosa sia e va bene tutto.",
+            "uk": "lo que + «subjuntivo» означає «що завгодно», «будь-що»: ти не знаєш, що саме це буде, і тобі підходить будь-який варіант.",
+            "de": "lo que + subjuntivo bedeutet „was immer, egal was“: Du weißt nicht, was es ist, und alles ist in Ordnung.",
+            "fr": "lo que + le subjonctif veut dire n'importe quoi, peu importe quoi : tu ne sais pas ce que c'est et tout convient. En français, on dit simplement « ce que tu veux » à l'indicatif ; l'espagnol, lui, marque la différence.",
+            "pt": "lo que + o subjuntivo quer dizer qualquer coisa: você não sabe o que é, e qualquer coisa serve. Atenção: em português dizemos «o que você quiser», com o futuro do subjuntivo; em espanhol, vai o presente do subjuntivo: lo que quieras.",
+            "zh": "lo que + 虚拟式表示“随便什么、不管什么”：你不知道是什么，而且什么都行。"
+          },
+          "examples": [
+            {
+              "es": "Pide lo que quieras, invito yo.",
+              "en": "Order whatever you want, it's on me.",
+              "it": "Ordina quello che ti pare, offro io.",
+              "uk": "Замовляй що захочеш, я пригощаю.",
+              "de": "Bestell, was immer du willst, ich lade dich ein.",
+              "fr": "Commande ce que tu veux, c'est moi qui invite.",
+              "pt": "Peça o que você quiser, eu pago.",
+              "zh": "随便点，我请客。"
+            },
+            {
+              "es": "Haz lo que quieras.",
+              "en": "Do whatever you want.",
+              "it": "Fai come ti pare.",
+              "uk": "Роби що захочеш.",
+              "de": "Mach, was immer du willst.",
+              "fr": "Fais ce que tu veux.",
+              "pt": "Faça o que você quiser.",
+              "zh": "你想做什么就做什么。"
+            },
+            {
+              "es": "Puedes comer lo que quieras.",
+              "en": "You can eat whatever you want.",
+              "it": "Puoi mangiare qualunque cosa tu voglia.",
+              "uk": "Можеш їсти що завгодно.",
+              "de": "Du kannst essen, was immer du willst.",
+              "fr": "Tu peux manger ce que tu veux.",
+              "pt": "Você pode comer o que quiser.",
+              "zh": "你想吃什么都可以吃。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "quieras",
+              "en": "(that) you want: subjunctive of querer",
+              "it": "(che tu) voglia: congiuntivo di querer",
+              "uk": "(щоб) ти хотів(-ла): «subjuntivo» від querer",
+              "de": "(dass) du willst: subjuntivo von querer",
+              "fr": "(que) tu veuilles : subjonctif de querer",
+              "pt": "(que) você queira: subjuntivo de querer",
+              "zh": "（你）想要：querer 的虚拟式"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "No sé qué te apetece, así que pide lo que ",
+          "after": "; invito yo.",
+          "options": [
+            "quieras",
+            "quieres",
+            "querer"
+          ],
+          "answer": "quieras",
+          "en": "I don't know what you fancy, so order whatever you want; it's on me.",
+          "it": "Non so che cosa ti vada, quindi ordina quello che ti pare; offro io.",
+          "uk": "Не знаю, чого тобі хочеться, тож замовляй що захочеш; я пригощаю.",
+          "de": "Ich weiß nicht, worauf du Lust hast, also bestell, was immer du willst; ich lade dich ein.",
+          "fr": "Je ne sais pas ce qui te fait envie, alors commande ce que tu veux ; c'est moi qui invite.",
+          "pt": "Não sei o que você está a fim de comer, então peça o que quiser; eu pago.",
+          "zh": "我不知道你想吃什么，所以你想点什么就点什么吧，我请客。",
+          "hint": {
+            "en": "You don't know what it'll be, anything is fine: quieras.",
+            "it": "Non sai che cosa sarà, va bene tutto: quieras.",
+            "uk": "Ти не знаєш, що це буде, підходить будь-що: quieras.",
+            "de": "Du weißt nicht, was es sein wird, alles ist in Ordnung: quieras.",
+            "fr": "Tu ne sais pas ce que ce sera, tout convient : quieras.",
+            "pt": "Você não sabe o que vai ser, qualquer coisa serve: quieras.",
+            "zh": "你不知道会是什么，什么都行：quieras。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "A friend asks which film you want to watch tonight. You really don't mind. Say: I don't mind, whatever you want.",
+            "it": "Un'amica ti chiede che film vuoi vedere stasera. Per te è uguale. Di': per me è uguale, quello che ti pare.",
+            "uk": "Друг питає, який фільм ти хочеш подивитися ввечері. Тобі справді все одно. Скажи: мені все одно, що захочеш.",
+            "de": "Eine Freundin fragt, welchen Film du heute Abend sehen willst. Dir ist es wirklich egal. Sag: Mir ist es egal, was immer du willst.",
+            "fr": "Un ami te demande quel film tu veux voir ce soir. Ça t'est vraiment égal. Dis : ça m'est égal, ce que tu veux.",
+            "pt": "Um amigo pergunta que filme você quer ver hoje à noite. Para você realmente tanto faz. Diga: para mim tanto faz, o que você quiser.",
+            "zh": "朋友问你今晚想看哪部电影。你真的都无所谓。说：我都行，随你。"
+          },
+          "accepted": [
+            "Me da igual, lo que quieras.",
+            "Lo que quieras, me da igual."
+          ],
+          "tiles": [
+            "Me da",
+            "igual,",
+            "lo que",
+            "quieras",
+            "quieres",
+            "cuál"
+          ],
+          "en": "I don't mind, whatever you want.",
+          "it": "Per me è uguale, quello che ti pare.",
+          "uk": "Мені все одно, що захочеш.",
+          "de": "Mir ist es egal, was immer du willst.",
+          "fr": "Ça m'est égal, ce que tu veux.",
+          "pt": "Para mim tanto faz, o que você quiser.",
+          "zh": "我都行，随你。",
+          "hint": {
+            "en": "Any film is fine: lo que quieras.",
+            "it": "Va bene qualsiasi film: lo que quieras.",
+            "uk": "Підходить будь-який фільм: lo que quieras.",
+            "de": "Jeder Film ist in Ordnung: lo que quieras.",
+            "fr": "N'importe quel film convient : lo que quieras.",
+            "pt": "Qualquer filme serve: lo que quieras.",
+            "zh": "哪部电影都行：lo que quieras。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "lo que",
+              "kind": "rail"
+            },
+            {
+              "text": "+",
+              "kind": "chunk"
+            },
+            {
+              "text": "quieres",
+              "kind": "ending"
+            }
+          ],
+          "rule": {
+            "en": "lo que + the indicative is one specific thing that you know: ya sé lo que quieres means you know exactly what it is.",
+            "it": "lo que + l'indicativo è una cosa precisa che conosci: ya sé lo que quieres vuol dire che sai esattamente che cos'è.",
+            "uk": "lo que + дійсний спосіб — це одна конкретна річ, яку ти знаєш: ya sé lo que quieres означає, що ти точно знаєш, чого людина хоче.",
+            "de": "lo que + Indikativ ist eine bestimmte Sache, die du kennst: ya sé lo que quieres heißt, dass du genau weißt, was es ist.",
+            "fr": "lo que + l'indicatif, c'est une chose précise que tu connais : ya sé lo que quieres veut dire que tu sais exactement ce que c'est.",
+            "pt": "lo que + o indicativo é uma coisa concreta que você conhece: ya sé lo que quieres quer dizer que você sabe exatamente o que é (o que você quer).",
+            "zh": "lo que + 陈述式指的是你知道的一样具体的东西：ya sé lo que quieres 表示你确切地知道那是什么。"
+          },
+          "examples": [
+            {
+              "es": "Ya sé lo que quieres: un café con leche.",
+              "en": "I know what you want: a white coffee.",
+              "it": "So già cosa vuoi: un caffellatte.",
+              "uk": "Я вже знаю, чого ти хочеш: каву з молоком.",
+              "de": "Ich weiß schon, was du willst: einen Milchkaffee.",
+              "fr": "Je sais ce que tu veux : un café au lait.",
+              "pt": "Já sei o que você quer: um café com leite.",
+              "zh": "我知道你想要什么：一杯牛奶咖啡。"
+            },
+            {
+              "es": "Eso es justo lo que quiero.",
+              "en": "That's exactly what I want.",
+              "it": "È proprio quello che voglio.",
+              "uk": "Це саме те, чого я хочу.",
+              "de": "Das ist genau das, was ich will.",
+              "fr": "C'est exactement ce que je veux.",
+              "pt": "Isso é exatamente o que eu quero.",
+              "zh": "这正是我想要的。"
+            },
+            {
+              "es": "No entiendo lo que dices.",
+              "en": "I don't understand what you're saying.",
+              "it": "Non capisco quello che dici.",
+              "uk": "Я не розумію, що ти кажеш.",
+              "de": "Ich verstehe nicht, was du sagst.",
+              "fr": "Je ne comprends pas ce que tu dis.",
+              "pt": "Não entendo o que você está dizendo.",
+              "zh": "我听不懂你在说什么。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "justo",
+              "en": "exactly, just",
+              "it": "proprio, esattamente",
+              "uk": "саме, якраз",
+              "de": "genau, gerade",
+              "fr": "exactement, justement",
+              "pt": "exatamente, justamente",
+              "zh": "正好，恰恰"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Ya sé lo que ",
+          "after": ": un café con leche, como siempre.",
+          "options": [
+            "quieres",
+            "quieras",
+            "querer"
+          ],
+          "answer": "quieres",
+          "en": "I know what you want: a white coffee, as always.",
+          "it": "So già cosa vuoi: un caffellatte, come sempre.",
+          "uk": "Я знаю, чого ти хочеш: каву з молоком, як завжди.",
+          "de": "Ich weiß schon, was du willst: einen Milchkaffee, wie immer.",
+          "fr": "Je sais ce que tu veux : un café au lait, comme toujours.",
+          "pt": "Já sei o que você quer: um café com leite, como sempre.",
+          "zh": "我知道你想要什么：一杯牛奶咖啡，跟平时一样。",
+          "hint": {
+            "en": "You know exactly what it is: the indicative, quieres.",
+            "it": "Sai esattamente che cos'è: l'indicativo, quieres.",
+            "uk": "Ти точно знаєш, що це: дійсний спосіб, quieres.",
+            "de": "Du weißt genau, was es ist: Indikativ, quieres.",
+            "fr": "Tu sais exactement ce que c'est : l'indicatif, quieres.",
+            "pt": "Você sabe exatamente o que é: o indicativo, quieres.",
+            "zh": "你确切地知道是什么：陈述式，quieres。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "fire",
+          "before": "Perdona, no entiendo lo que ",
+          "after": ".",
+          "label": "decir",
+          "accepted": [
+            "dices"
+          ],
+          "en": "Sorry, I don't understand what you're saying.",
+          "it": "Scusa, non capisco quello che dici.",
+          "uk": "Вибач, я не розумію, що ти кажеш.",
+          "de": "Entschuldige, ich verstehe nicht, was du sagst.",
+          "fr": "Pardon, je ne comprends pas ce que tu dis.",
+          "pt": "Desculpe, não entendo o que você está dizendo.",
+          "zh": "对不起，我听不懂你在说什么。",
+          "hint": {
+            "en": "The words the person is saying right now, real and specific: dices.",
+            "it": "Le parole che la persona sta dicendo adesso, reali e precise: dices.",
+            "uk": "Слова, які людина каже саме зараз, — реальні й конкретні: dices.",
+            "de": "Die Worte, die die Person gerade sagt, echt und konkret: dices.",
+            "fr": "Les mots que la personne dit en ce moment, réels et précis : dices.",
+            "pt": "As palavras que a pessoa está dizendo agora, reais e concretas: dices.",
+            "zh": "对方此刻正在说的话，真实而具体：dices。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "como / cuando / donde",
+              "kind": "rail"
+            },
+            {
+              "text": "+",
+              "kind": "chunk"
+            },
+            {
+              "text": "quieras",
+              "kind": "ending"
+            }
+          ],
+          "rule": {
+            "en": "The same idea works with como, cuando and donde: como quieras (however you like), cuando quieras, donde quieras. With usted: quiera.",
+            "it": "La stessa idea funziona con como, cuando e donde: como quieras (come preferisci), cuando quieras, donde quieras. Con usted: quiera.",
+            "uk": "Те саме працює з como, cuando і donde: como quieras («як захочеш»), cuando quieras, donde quieras. З usted: quiera.",
+            "de": "Dasselbe funktioniert mit como, cuando und donde: como quieras (wie du willst), cuando quieras, donde quieras. Mit usted: quiera.",
+            "fr": "La même idée marche avec como, cuando et donde : como quieras (comme tu veux), cuando quieras, donde quieras. Avec usted : quiera.",
+            "pt": "A mesma ideia funciona com como, cuando e donde: como quieras (como você quiser), cuando quieras, donde quieras. Com usted: quiera.",
+            "zh": "como、cuando 和 donde 也是同样的道理：como quieras（随你怎么样）、cuando quieras、donde quieras。对 usted 说：quiera。"
+          },
+          "examples": [
+            {
+              "es": "Me da igual; como quieras.",
+              "en": "I don't mind; whatever you prefer.",
+              "it": "Per me è uguale; come preferisci.",
+              "uk": "Мені все одно; як тобі зручніше.",
+              "de": "Mir ist es egal; wie du willst.",
+              "fr": "Ça m'est égal ; comme tu préfères.",
+              "pt": "Para mim tanto faz; como você preferir.",
+              "zh": "我无所谓，随你。"
+            },
+            {
+              "es": "Ven cuando quieras.",
+              "en": "Come whenever you like.",
+              "it": "Vieni quando ti pare.",
+              "uk": "Приходь коли захочеш.",
+              "de": "Komm, wann immer du willst.",
+              "fr": "Viens quand tu veux.",
+              "pt": "Venha quando quiser.",
+              "zh": "你什么时候想来就来。"
+            },
+            {
+              "es": "Siéntese donde quiera.",
+              "en": "Sit wherever you like. (usted)",
+              "it": "Si sieda dove preferisce.",
+              "uk": "Сідайте де хочете. (usted)",
+              "de": "Setzen Sie sich, wohin Sie möchten. (usted)",
+              "fr": "Asseyez-vous où vous voulez. (usted)",
+              "pt": "Sente-se onde quiser. (usted)",
+              "zh": "您随便坐。（usted）"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "quiera",
+              "en": "(that) you want (usted), (that) I / he / she want(s): subjunctive",
+              "it": "(che Lei / io / lui / lei) voglia: congiuntivo",
+              "uk": "(щоб) ви хотіли (usted), (щоб) я / він / вона хотів(-ла): «subjuntivo»",
+              "de": "(dass) Sie wollen (usted), (dass) ich / er / sie will: subjuntivo",
+              "fr": "(que) vous vouliez (usted), (que) je / il / elle veuille : subjonctif",
+              "pt": "(que) o senhor / a senhora queira (usted), (que) eu / ele / ela queira: subjuntivo",
+              "zh": "（您）想要（usted），（我 / 他 / 她）想要：虚拟式"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Me da igual ir en metro o en taxi: como ",
+          "after": ".",
+          "options": [
+            "quieras",
+            "quieres",
+            "querer"
+          ],
+          "answer": "quieras",
+          "en": "I don't mind going by metro or by taxi: whatever you prefer.",
+          "it": "Per me è uguale andare in metro o in taxi: come preferisci tu.",
+          "uk": "Мені все одно, метро чи таксі: як тобі зручніше.",
+          "de": "Mir ist es egal, ob wir mit der U-Bahn oder mit dem Taxi fahren: wie du willst.",
+          "fr": "Ça m'est égal d'y aller en métro ou en taxi : comme tu préfères.",
+          "pt": "Para mim tanto faz ir de metrô ou de táxi: como você preferir.",
+          "zh": "坐地铁还是打车我都行，随你。",
+          "hint": {
+            "en": "Any way is fine for you: como quieras.",
+            "it": "Per te va bene in qualsiasi modo: como quieras.",
+            "uk": "Тобі підходить будь-який варіант: como quieras.",
+            "de": "Jede Möglichkeit ist dir recht: como quieras.",
+            "fr": "Toutes les façons te conviennent : como quieras.",
+            "pt": "Para você, qualquer jeito serve: como quieras.",
+            "zh": "怎么去对你来说都行：como quieras。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "A client you call usted arrives at your office for a meeting. Say: good morning, sit wherever you like.",
+            "it": "Un cliente a cui dai del Lei arriva nel tuo ufficio per una riunione. Di': buongiorno, si sieda dove preferisce.",
+            "uk": "Клієнт, до якого ти звертаєшся на usted, приходить до тебе в офіс на зустріч. Скажи: добрий день, сідайте де хочете.",
+            "de": "Ein Kunde, den du siezt (usted), kommt zu einer Besprechung in dein Büro. Sag: Guten Morgen, setzen Sie sich, wohin Sie möchten.",
+            "fr": "Un client que tu vouvoies arrive à ton bureau pour une réunion. Dis : bonjour, asseyez-vous où vous voulez.",
+            "pt": "Um cliente que você trata por usted chega ao seu escritório para uma reunião. Diga: bom dia, sente-se onde o senhor quiser.",
+            "zh": "一位你用 usted 称呼的客户来你的办公室开会。说：早上好，您随便坐。"
+          },
+          "accepted": [
+            "Buenos días, siéntese donde quiera."
+          ],
+          "tiles": [
+            "Buenos días,",
+            "siéntese",
+            "donde",
+            "quiera",
+            "quieras",
+            "quiere"
+          ],
+          "en": "Good morning, sit wherever you like.",
+          "it": "Buongiorno, si sieda dove preferisce.",
+          "uk": "Добрий день, сідайте де хочете.",
+          "de": "Guten Morgen, setzen Sie sich, wohin Sie möchten.",
+          "fr": "Bonjour, asseyez-vous où vous voulez.",
+          "pt": "Bom dia, sente-se onde quiser.",
+          "zh": "早上好，您随便坐。",
+          "hint": {
+            "en": "usted takes quiera; tú takes quieras.",
+            "it": "usted vuole quiera; tú vuole quieras.",
+            "uk": "usted — quiera; tú — quieras.",
+            "de": "usted bekommt quiera, tú bekommt quieras.",
+            "fr": "usted prend quiera ; tú prend quieras.",
+            "pt": "usted pede quiera; tú pede quieras.",
+            "zh": "usted 用 quiera；tú 用 quieras。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "Ven a casa cuando ",
+          "after": "; siempre estoy.",
+          "options": [
+            "quieras",
+            "quieres",
+            "querer"
+          ],
+          "answer": "quieras",
+          "en": "Come round whenever you like; I'm always in.",
+          "it": "Vieni a casa quando ti pare; ci sono sempre.",
+          "uk": "Заходь коли захочеш; я завжди вдома.",
+          "de": "Komm vorbei, wann immer du willst; ich bin immer zu Hause.",
+          "fr": "Passe quand tu veux ; je suis toujours là.",
+          "pt": "Passe aqui quando quiser; estou sempre em casa.",
+          "zh": "你什么时候想来就过来，我一直在家。",
+          "hint": {
+            "en": "Any time is fine: cuando quieras.",
+            "it": "Va bene in qualsiasi momento: cuando quieras.",
+            "uk": "Підходить будь-який час: cuando quieras.",
+            "de": "Jede Zeit ist in Ordnung: cuando quieras.",
+            "fr": "N'importe quel moment convient : cuando quieras.",
+            "pt": "Qualquer hora serve: cuando quieras.",
+            "zh": "什么时候都行：cuando quieras。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "mix",
+          "before": "¡Gracias! Eso es justo lo que ",
+          "after": ".",
+          "label": "querer",
+          "accepted": [
+            "quería"
+          ],
+          "en": "Thanks! That's exactly what I wanted.",
+          "it": "Grazie! È proprio quello che volevo.",
+          "uk": "Дякую! Це саме те, чого я хотів(-ла).",
+          "de": "Danke! Das ist genau das, was ich wollte.",
+          "fr": "Merci ! C'est exactement ce que je voulais.",
+          "pt": "Obrigado! Era exatamente o que eu queria.",
+          "zh": "谢谢！这正是我想要的。",
+          "hint": {
+            "en": "A specific thing you had in mind: the indicative, quería.",
+            "it": "Una cosa precisa che avevi in mente: l'indicativo, quería.",
+            "uk": "Конкретна річ, яку ти мав(-ла) на думці: дійсний спосіб, quería.",
+            "de": "Eine bestimmte Sache, die du im Kopf hattest: Indikativ, quería.",
+            "fr": "Une chose précise que tu avais en tête : l'indicatif, quería.",
+            "pt": "Uma coisa concreta que você tinha em mente: o indicativo, quería.",
+            "zh": "你心里想的一样具体的东西：陈述式，quería。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "mix",
+          "intention": {
+            "en": "A friend asks what to bring to your dinner on Saturday. Answer: bring whatever you want.",
+            "it": "Un amico ti chiede che cosa portare alla tua cena di sabato. Rispondi: porta quello che ti pare.",
+            "uk": "Подруга питає, що принести на твою вечерю в суботу. Відповідай: принось що захочеш.",
+            "de": "Ein Freund fragt, was er zu deinem Abendessen am Samstag mitbringen soll. Antworte: Bring mit, was immer du willst.",
+            "fr": "Un ami te demande quoi apporter à ton dîner de samedi. Réponds : apporte ce que tu veux.",
+            "pt": "Um amigo pergunta o que levar para o seu jantar no sábado. Responda: traga o que você quiser.",
+            "zh": "朋友问星期六来你家吃晚饭要带什么。回答：你想带什么就带什么。"
+          },
+          "accepted": [
+            "Trae lo que quieras."
+          ],
+          "tiles": [
+            "Trae",
+            "lo que",
+            "quieras",
+            "quieres",
+            "cuando"
+          ],
+          "en": "Bring whatever you want.",
+          "it": "Porta quello che ti pare.",
+          "uk": "Принось що захочеш.",
+          "de": "Bring mit, was immer du willst.",
+          "fr": "Apporte ce que tu veux.",
+          "pt": "Traga o que você quiser.",
+          "zh": "你想带什么就带什么。",
+          "hint": {
+            "en": "Anything is fine: lo que quieras.",
+            "it": "Va bene qualsiasi cosa: lo que quieras.",
+            "uk": "Підходить будь-що: lo que quieras.",
+            "de": "Alles ist in Ordnung: lo que quieras.",
+            "fr": "Tout convient : lo que quieras.",
+            "pt": "Qualquer coisa serve: lo que quieras.",
+            "zh": "什么都行：lo que quieras。"
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "You're taking a friend out for dinner for her birthday. Write in Spanish: «Order whatever you want; it's on me.»",
+            "it": "Porti un'amica a cena per il suo compleanno. Scrivi in spagnolo: «Ordina quello che ti pare; offro io.»",
+            "uk": "Ти ведеш подругу на вечерю з нагоди її дня народження. Напиши іспанською: «Замовляй що захочеш; я пригощаю.»",
+            "de": "Du lädst eine Freundin zu ihrem Geburtstag zum Abendessen ein. Schreib auf Spanisch: «Bestell, was immer du willst; ich lade dich ein.»",
+            "fr": "Tu invites une amie au restaurant pour son anniversaire. Écris en espagnol : «Commande ce que tu veux ; c'est moi qui invite.»",
+            "pt": "Você vai levar uma amiga para jantar no aniversário dela. Escreva em espanhol: «Peça o que você quiser; eu pago.»",
+            "zh": "你请一个朋友吃晚饭给她过生日。用西班牙语写：«想吃什么随便点，我请客。»"
+          },
+          "accepted": [
+            "Pide lo que quieras; invito yo.",
+            "Pide lo que quieras; yo invito.",
+            "Puedes pedir lo que quieras; invito yo.",
+            "Puedes pedir lo que quieras; yo invito.",
+            "Invito yo; pide lo que quieras.",
+            "Yo invito; pide lo que quieras."
+          ],
+          "model": {
+            "es": "Pide lo que quieras; invito yo.",
+            "en": "Order whatever you want; it's on me.",
+            "it": "Ordina quello che ti pare; offro io.",
+            "uk": "Замовляй що захочеш; я пригощаю.",
+            "de": "Bestell, was immer du willst; ich lade dich ein.",
+            "fr": "Commande ce que tu veux ; c'est moi qui invite.",
+            "pt": "Peça o que você quiser; eu pago.",
+            "zh": "想吃什么随便点，我请客。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u47l4",
+      "goal": {
+        "en": "Say that nothing will change, however much someone tries: por mucho que / por más que + the subjunctive (por mucho que insistas), por mucha prisa que tengas, and digas lo que digas, pase lo que pase.",
+        "it": "Di che non cambierà niente, per quanto qualcuno ci provi: por mucho que / por más que + il congiuntivo (por mucho que insistas), por mucha prisa que tengas, e digas lo que digas, pase lo que pase.",
+        "uk": "Кажи, що нічого не зміниться, хоч би як хтось старався: por mucho que / por más que + «subjuntivo» (por mucho que insistas), por mucha prisa que tengas, а також digas lo que digas, pase lo que pase.",
+        "de": "Sag, dass sich nichts ändert, egal wie sehr sich jemand bemüht: por mucho que / por más que + subjuntivo (por mucho que insistas), por mucha prisa que tengas, und digas lo que digas, pase lo que pase.",
+        "fr": "Dire que rien ne changera, quels que soient les efforts de quelqu'un : por mucho que / por más que + le subjonctif (por mucho que insistas), por mucha prisa que tengas, et digas lo que digas, pase lo que pase.",
+        "pt": "Diga que nada vai mudar, por mais que alguém tente: por mucho que / por más que + o subjuntivo (por mucho que insistas), por mucha prisa que tengas, e digas lo que digas, pase lo que pase.",
+        "zh": "表示不管别人怎么努力，结果都不会变：por mucho que / por más que + 虚拟式（por mucho que insistas），por mucha prisa que tengas，以及 digas lo que digas、pase lo que pase。"
+      },
+      "target": {
+        "es": "Por mucho que insistas, no voy a ir.",
+        "en": "However much you insist, I'm not going.",
+        "it": "Per quanto tu insista, non ci vado.",
+        "uk": "Хоч би як ти наполягав, я не піду.",
+        "de": "So sehr du auch darauf bestehst, ich gehe nicht hin.",
+        "fr": "Tu peux insister autant que tu veux, je n'irai pas.",
+        "pt": "Por mais que você insista, eu não vou.",
+        "zh": "不管你怎么坚持，我都不去。"
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "por mucho que",
+              "en": "however much, no matter how much",
+              "it": "per quanto",
+              "uk": "хоч би скільки, хоч би як",
+              "de": "so sehr auch, egal wie sehr",
+              "fr": "avoir beau…, peu importe combien",
+              "pt": "por mais que",
+              "zh": "不管多么，无论怎样",
+              "kind": "rail"
+            },
+            {
+              "es": "por más que",
+              "en": "however much (same as por mucho que)",
+              "it": "per quanto (come por mucho que)",
+              "uk": "хоч би скільки (те саме, що por mucho que)",
+              "de": "so sehr auch (wie por mucho que)",
+              "fr": "avoir beau… (comme por mucho que)",
+              "pt": "por mais que (o mesmo que por mucho que)",
+              "zh": "不管多么（和 por mucho que 一样）",
+              "kind": "rail"
+            },
+            {
+              "es": "insistir",
+              "en": "to insist",
+              "it": "insistere",
+              "uk": "наполягати",
+              "de": "darauf bestehen, nicht lockerlassen",
+              "fr": "insister",
+              "pt": "insistir",
+              "zh": "坚持，一再要求",
+              "kind": "stem"
+            },
+            {
+              "es": "la prisa",
+              "en": "the hurry, the rush (tener prisa: to be in a hurry)",
+              "it": "la fretta (tener prisa: avere fretta)",
+              "uk": "поспіх (tener prisa: поспішати)",
+              "de": "die Eile (tener prisa: es eilig haben)",
+              "fr": "la hâte, la précipitation (tener prisa : être pressé)",
+              "pt": "a pressa (tener prisa: estar com pressa)",
+              "zh": "急，匆忙（tener prisa：赶时间）",
+              "kind": "chunk"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "por mucho que",
+              "kind": "rail"
+            },
+            {
+              "text": "+",
+              "kind": "chunk"
+            },
+            {
+              "text": "subjuntivo",
+              "kind": "ending"
+            }
+          ],
+          "rule": {
+            "en": "por mucho que + the subjunctive: however much it happens, the result doesn't change. por más que means the same.",
+            "it": "por mucho que + il congiuntivo: per quanto succeda, il risultato non cambia. por más que significa la stessa cosa.",
+            "uk": "por mucho que + «subjuntivo»: хоч би скільки це відбувалося, результат не зміниться. por más que означає те саме.",
+            "de": "por mucho que + subjuntivo: Egal wie sehr oder wie oft es passiert, das Ergebnis ändert sich nicht. por más que bedeutet dasselbe.",
+            "fr": "por mucho que + le subjonctif : on a beau le faire autant qu'on veut, le résultat ne change pas. por más que veut dire la même chose. Le français dit souvent « tu as beau… » ou « quoi que tu fasses ».",
+            "pt": "por mucho que + o subjuntivo: por mais que aconteça, o resultado não muda. por más que quer dizer o mesmo. É como o nosso «por mais que você insista».",
+            "zh": "por mucho que + 虚拟式：不管这件事发生得再多，结果都不会变。por más que 意思一样。"
+          },
+          "examples": [
+            {
+              "es": "Por mucho que insistas, no voy a ir.",
+              "en": "However much you insist, I'm not going.",
+              "it": "Per quanto tu insista, non ci vado.",
+              "uk": "Хоч би як ти наполягав, я не піду.",
+              "de": "So sehr du auch darauf bestehst, ich gehe nicht hin.",
+              "fr": "Tu peux insister autant que tu veux, je n'irai pas.",
+              "pt": "Por mais que você insista, eu não vou.",
+              "zh": "不管你怎么坚持，我都不去。"
+            },
+            {
+              "es": "Por mucho que corras, no vas a llegar a tiempo.",
+              "en": "However fast you run, you won't get there in time.",
+              "it": "Per quanto tu corra, non arriverai in tempo.",
+              "uk": "Хоч би як швидко ти біг, ти не встигнеш.",
+              "de": "So schnell du auch rennst, du kommst nicht rechtzeitig an.",
+              "fr": "Tu as beau courir, tu n'arriveras pas à temps.",
+              "pt": "Por mais que você corra, não vai chegar a tempo.",
+              "zh": "不管你跑得多快，你都赶不上了。"
+            },
+            {
+              "es": "Por más que llores, no te voy a dejar el coche.",
+              "en": "However much you cry, I'm not lending you the car.",
+              "it": "Per quanto tu pianga, non ti presto la macchina.",
+              "uk": "Хоч би скільки ти плакав, машину я тобі не дам.",
+              "de": "So sehr du auch weinst, ich leihe dir das Auto nicht.",
+              "fr": "Tu as beau pleurer, je ne te prête pas la voiture.",
+              "pt": "Por mais que você chore, não vou te emprestar o carro.",
+              "zh": "不管你怎么哭，我都不会把车借给你。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "insistas",
+              "en": "(that) you insist: subjunctive",
+              "it": "(che tu) insista: congiuntivo",
+              "uk": "(щоб) ти наполягав: «subjuntivo»",
+              "de": "(dass) du darauf bestehst: subjuntivo",
+              "fr": "(que) tu insistes : subjonctif",
+              "pt": "(que) você insista: subjuntivo",
+              "zh": "（你）坚持：虚拟式"
+            },
+            {
+              "es": "corras",
+              "en": "(that) you run: subjunctive",
+              "it": "(che tu) corra: congiuntivo",
+              "uk": "(щоб) ти біг: «subjuntivo»",
+              "de": "(dass) du rennst: subjuntivo",
+              "fr": "(que) tu coures : subjonctif",
+              "pt": "(que) você corra: subjuntivo",
+              "zh": "（你）跑：虚拟式"
+            },
+            {
+              "es": "llores",
+              "en": "(that) you cry: subjunctive",
+              "it": "(che tu) pianga: congiuntivo",
+              "uk": "(щоб) ти плакав: «subjuntivo»",
+              "de": "(dass) du weinst: subjuntivo",
+              "fr": "(que) tu pleures : subjonctif",
+              "pt": "(que) você chore: subjuntivo",
+              "zh": "（你）哭：虚拟式"
+            }
+          ]
+        },
+        {
+          "type": "gap",
+          "beat": "forge",
+          "before": "Por mucho que ",
+          "after": ", no voy a cambiar de opinión.",
+          "label": "insistir",
+          "accepted": [
+            "insistas"
+          ],
+          "en": "However much you insist, I'm not going to change my mind.",
+          "it": "Per quanto tu insista, non cambierò idea.",
+          "uk": "Хоч би як ти наполягав(-ла), я не передумаю.",
+          "de": "So sehr du auch darauf bestehst, ich ändere meine Meinung nicht.",
+          "fr": "Tu as beau insister, je ne vais pas changer d'avis.",
+          "pt": "Por mais que você insista, não vou mudar de ideia.",
+          "zh": "不管你怎么坚持，我都不会改变主意。",
+          "hint": {
+            "en": "por mucho que + the subjunctive: insistas.",
+            "it": "por mucho que + il congiuntivo: insistas.",
+            "uk": "por mucho que + «subjuntivo»: insistas.",
+            "de": "por mucho que + subjuntivo: insistas.",
+            "fr": "por mucho que + le subjonctif : insistas.",
+            "pt": "por mucho que + o subjuntivo: insistas.",
+            "zh": "por mucho que + 虚拟式：insistas。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "fire",
+          "before": "El tren sale en dos minutos: por mucho que ",
+          "after": ", no vas a llegar a tiempo.",
+          "label": "correr",
+          "accepted": [
+            "corras"
+          ],
+          "en": "The train leaves in two minutes: however fast you run, you won't make it.",
+          "it": "Il treno parte tra due minuti: per quanto tu corra, non arriverai in tempo.",
+          "uk": "Потяг відходить за дві хвилини: хоч би як швидко ти біг(-ла), не встигнеш.",
+          "de": "Der Zug fährt in zwei Minuten: So schnell du auch rennst, du schaffst es nicht.",
+          "fr": "Le train part dans deux minutes : tu as beau courir, tu ne l'auras pas.",
+          "pt": "O trem sai em dois minutos: por mais que você corra, não vai dar tempo.",
+          "zh": "火车两分钟后就开了：不管你跑得多快，都赶不上了。",
+          "hint": {
+            "en": "por mucho que + the subjunctive: corras.",
+            "it": "por mucho que + il congiuntivo: corras.",
+            "uk": "por mucho que + «subjuntivo»: corras.",
+            "de": "por mucho que + subjuntivo: corras.",
+            "fr": "por mucho que + le subjonctif : corras.",
+            "pt": "por mucho que + o subjuntivo: corras.",
+            "zh": "por mucho que + 虚拟式：corras。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "por",
+              "kind": "rail"
+            },
+            {
+              "text": "+",
+              "kind": "chunk"
+            },
+            {
+              "text": "mucho / mucha / muchos / muchas",
+              "kind": "ending"
+            },
+            {
+              "text": "+",
+              "kind": "chunk"
+            },
+            {
+              "text": "noun + que",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "With a noun in the middle, mucho agrees with it: por mucho dinero, por mucha prisa, por muchas veces. The verb is still in the subjunctive.",
+            "it": "Con un nome in mezzo, mucho si accorda con il nome: por mucho dinero, por mucha prisa, por muchas veces. Il verbo resta al congiuntivo.",
+            "uk": "Якщо посередині є іменник, mucho з ним узгоджується: por mucho dinero, por mucha prisa, por muchas veces. Дієслово все одно в «subjuntivo».",
+            "de": "Mit einem Nomen in der Mitte richtet sich mucho nach dem Nomen: por mucho dinero, por mucha prisa, por muchas veces. Das Verb bleibt im subjuntivo.",
+            "fr": "Avec un nom au milieu, mucho s'accorde avec lui : por mucho dinero, por mucha prisa, por muchas veces. Le verbe reste au subjonctif.",
+            "pt": "Com um substantivo no meio, mucho concorda com ele: por mucho dinero, por mucha prisa, por muchas veces. O verbo continua no subjuntivo.",
+            "zh": "中间有名词时，mucho 要和名词一致：por mucho dinero、por mucha prisa、por muchas veces。动词仍然用虚拟式。"
+          },
+          "examples": [
+            {
+              "es": "Por mucho dinero que tengas, no puedes comprar el tiempo.",
+              "en": "However much money you have, you can't buy time.",
+              "it": "Per quanti soldi tu abbia, non puoi comprare il tempo.",
+              "uk": "Хоч би скільки в тебе було грошей, час не купиш.",
+              "de": "Egal wie viel Geld du hast, Zeit kannst du nicht kaufen.",
+              "fr": "Tu as beau avoir beaucoup d'argent, tu ne peux pas acheter le temps.",
+              "pt": "Por mais dinheiro que você tenha, não pode comprar o tempo.",
+              "zh": "不管你有多少钱，都买不到时间。"
+            },
+            {
+              "es": "Por mucha prisa que tengas, conduce despacio.",
+              "en": "However much of a hurry you're in, drive slowly.",
+              "it": "Per quanta fretta tu abbia, guida piano.",
+              "uk": "Хоч би як ти поспішав, їдь повільно.",
+              "de": "Egal wie eilig du es hast, fahr langsam.",
+              "fr": "Tu as beau être très pressé, conduis doucement.",
+              "pt": "Por mais pressa que você tenha, dirija devagar.",
+              "zh": "不管你多赶时间，开车都要慢一点。"
+            },
+            {
+              "es": "Por muchas veces que me lo digas, no me lo creo.",
+              "en": "However many times you tell me, I don't believe it.",
+              "it": "Per quante volte tu me lo dica, non ci credo.",
+              "uk": "Хоч би скільки разів ти мені це казав, я не вірю.",
+              "de": "Egal wie oft du es mir sagst, ich glaube es nicht.",
+              "fr": "Tu as beau me le dire et me le répéter, je n'y crois pas.",
+              "pt": "Por mais vezes que você me diga isso, eu não acredito.",
+              "zh": "不管你跟我说多少遍，我都不信。"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Por ",
+          "after": " prisa que tengas, conduce despacio.",
+          "options": [
+            "mucha",
+            "mucho",
+            "muchas"
+          ],
+          "answer": "mucha",
+          "en": "However much of a hurry you're in, drive slowly.",
+          "it": "Per quanta fretta tu abbia, guida piano.",
+          "uk": "Хоч би як ти поспішав(-ла), їдь повільно.",
+          "de": "Egal wie eilig du es hast, fahr langsam.",
+          "fr": "Tu as beau être très pressé, conduis doucement.",
+          "pt": "Por mais pressa que você tenha, dirija devagar.",
+          "zh": "不管你多赶时间，开车都要慢一点。",
+          "hint": {
+            "en": "prisa is feminine and singular: mucha.",
+            "it": "prisa è femminile singolare: mucha.",
+            "uk": "prisa — жіночий рід, однина: mucha.",
+            "de": "prisa ist weiblich und Singular: mucha.",
+            "fr": "prisa est féminin singulier : mucha.",
+            "pt": "prisa é feminino e singular: mucha.",
+            "zh": "prisa 是阴性单数：mucha。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "fire",
+          "before": "Por ",
+          "after": " veces que me lo digas, no me lo creo.",
+          "label": "mucho",
+          "accepted": [
+            "muchas"
+          ],
+          "en": "However many times you tell me, I don't believe it.",
+          "it": "Per quante volte tu me lo dica, non ci credo.",
+          "uk": "Хоч би скільки разів ти мені це казав(-ла), я не вірю.",
+          "de": "Egal wie oft du es mir sagst, ich glaube es nicht.",
+          "fr": "Tu as beau me le dire et me le répéter, je n'y crois pas.",
+          "pt": "Por mais vezes que você me diga isso, eu não acredito.",
+          "zh": "不管你跟我说多少遍，我都不信。",
+          "hint": {
+            "en": "veces is feminine plural: muchas.",
+            "it": "veces è femminile plurale: muchas.",
+            "uk": "veces — жіночий рід, множина: muchas.",
+            "de": "veces ist weiblich und Plural: muchas.",
+            "fr": "veces est féminin pluriel : muchas.",
+            "pt": "veces é feminino plural: muchas.",
+            "zh": "veces 是阴性复数：muchas。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "digas",
+              "kind": "ending"
+            },
+            {
+              "text": "+",
+              "kind": "chunk"
+            },
+            {
+              "text": "lo que",
+              "kind": "rail"
+            },
+            {
+              "text": "+",
+              "kind": "chunk"
+            },
+            {
+              "text": "digas",
+              "kind": "ending"
+            }
+          ],
+          "rule": {
+            "en": "Say the same subjunctive twice with lo que in the middle and it means whatever: digas lo que digas (whatever you say), pase lo que pase (whatever happens).",
+            "it": "Ripeti lo stesso congiuntivo con lo que in mezzo e vuol dire qualunque cosa: digas lo que digas (qualunque cosa tu dica), pase lo que pase (qualunque cosa succeda).",
+            "uk": "Повтори той самий «subjuntivo» двічі з lo que посередині — і це означатиме «хоч би що»: digas lo que digas («хоч би що ти казав»), pase lo que pase («хоч би що сталося»).",
+            "de": "Sag denselben subjuntivo zweimal mit lo que in der Mitte, dann bedeutet es „egal was“: digas lo que digas (egal, was du sagst), pase lo que pase (egal, was passiert).",
+            "fr": "Répète le même subjonctif deux fois avec lo que au milieu et ça veut dire « quoi que » : digas lo que digas (quoi que tu dises), pase lo que pase (quoi qu'il arrive). Le français utilise aussi le subjonctif ici.",
+            "pt": "Repita o mesmo subjuntivo duas vezes com lo que no meio e isso quer dizer qualquer que seja: digas lo que digas (diga o que disser), pase lo que pase (aconteça o que acontecer). Em português a segunda forma muda (aconteça… acontecer); em espanhol, as duas são iguais.",
+            "zh": "把同一个虚拟式说两遍，中间放 lo que，意思就是“不管……什么”：digas lo que digas（不管你说什么），pase lo que pase（不管发生什么）。"
+          },
+          "examples": [
+            {
+              "es": "Digas lo que digas, voy a ir.",
+              "en": "Whatever you say, I'm going.",
+              "it": "Qualunque cosa tu dica, ci vado.",
+              "uk": "Хоч би що ти казав, я піду.",
+              "de": "Egal, was du sagst, ich gehe hin.",
+              "fr": "Quoi que tu dises, j'irai.",
+              "pt": "Diga o que disser, eu vou.",
+              "zh": "不管你说什么，我都要去。"
+            },
+            {
+              "es": "Pase lo que pase, te llamo.",
+              "en": "Whatever happens, I'll call you.",
+              "it": "Qualunque cosa succeda, ti chiamo.",
+              "uk": "Хоч би що сталося, я тобі подзвоню.",
+              "de": "Egal, was passiert, ich rufe dich an.",
+              "fr": "Quoi qu'il arrive, je t'appelle.",
+              "pt": "Aconteça o que acontecer, eu te ligo.",
+              "zh": "不管发生什么，我都给你打电话。"
+            },
+            {
+              "es": "Hagas lo que hagas, hazlo bien.",
+              "en": "Whatever you do, do it well.",
+              "it": "Qualunque cosa tu faccia, falla bene.",
+              "uk": "Хоч би що ти робив, роби це добре.",
+              "de": "Egal, was du machst, mach es gut.",
+              "fr": "Quoi que tu fasses, fais-le bien.",
+              "pt": "Faça o que fizer, faça bem-feito.",
+              "zh": "不管你做什么，都要做好。"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "",
+          "after": " lo que digas, no voy a cambiar de opinión.",
+          "options": [
+            "Digas",
+            "Dices",
+            "Dijeras"
+          ],
+          "answer": "Digas",
+          "en": "Whatever you say, I'm not going to change my mind.",
+          "it": "Qualunque cosa tu dica, non cambierò idea.",
+          "uk": "Хоч би що ти казав(-ла), я не передумаю.",
+          "de": "Egal, was du sagst, ich ändere meine Meinung nicht.",
+          "fr": "Quoi que tu dises, je ne vais pas changer d'avis.",
+          "pt": "Diga o que disser, não vou mudar de ideia.",
+          "zh": "不管你说什么，我都不会改变主意。",
+          "hint": {
+            "en": "The same subjunctive twice: digas lo que digas.",
+            "it": "Lo stesso congiuntivo due volte: digas lo que digas.",
+            "uk": "Той самий «subjuntivo» двічі: digas lo que digas.",
+            "de": "Derselbe subjuntivo zweimal: digas lo que digas.",
+            "fr": "Le même subjonctif deux fois : digas lo que digas.",
+            "pt": "O mesmo subjuntivo duas vezes: digas lo que digas.",
+            "zh": "同一个虚拟式说两遍：digas lo que digas。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "A friend is nervous about her exam tomorrow. Tell her: whatever happens, I'm with you.",
+            "it": "Un'amica è nervosa per l'esame di domani. Dille: qualunque cosa succeda, io sono con te.",
+            "uk": "Подруга хвилюється через завтрашній іспит. Скажи їй: хоч би що сталося, я з тобою.",
+            "de": "Eine Freundin ist nervös wegen ihrer Prüfung morgen. Sag ihr: Egal, was passiert, ich bin bei dir.",
+            "fr": "Une amie est nerveuse à cause de son examen de demain. Dis-lui : quoi qu'il arrive, je suis avec toi.",
+            "pt": "Uma amiga está nervosa com a prova de amanhã. Diga a ela: aconteça o que acontecer, estou com você.",
+            "zh": "朋友对明天的考试很紧张。告诉她：不管发生什么，我都在你身边。"
+          },
+          "accepted": [
+            "Pase lo que pase, estoy contigo.",
+            "Pase lo que pase, yo estoy contigo.",
+            "Estoy contigo, pase lo que pase."
+          ],
+          "tiles": [
+            "Pase",
+            "lo que",
+            "pase,",
+            "estoy",
+            "contigo",
+            "pasa",
+            "conmigo"
+          ],
+          "en": "Whatever happens, I'm with you.",
+          "it": "Qualunque cosa succeda, io sono con te.",
+          "uk": "Хоч би що сталося, я з тобою.",
+          "de": "Egal, was passiert, ich bin bei dir.",
+          "fr": "Quoi qu'il arrive, je suis avec toi.",
+          "pt": "Aconteça o que acontecer, estou com você.",
+          "zh": "不管发生什么，我都在你身边。",
+          "hint": {
+            "en": "Whatever happens: pase lo que pase.",
+            "it": "Qualunque cosa succeda: pase lo que pase.",
+            "uk": "Хоч би що сталося: pase lo que pase.",
+            "de": "Egal, was passiert: pase lo que pase.",
+            "fr": "Quoi qu'il arrive : pase lo que pase.",
+            "pt": "Aconteça o que acontecer: pase lo que pase.",
+            "zh": "不管发生什么：pase lo que pase。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "mix",
+          "intention": {
+            "en": "Your teenage son is begging to borrow your car tonight and starts crying. Tell him: however much you cry, I'm not lending you the car.",
+            "it": "Tuo figlio adolescente ti supplica di prestargli la macchina stasera e si mette a piangere. Digli: per quanto tu pianga, non ti presto la macchina.",
+            "uk": "Твій син-підліток благає дати йому машину на вечір і починає плакати. Скажи йому: хоч би скільки ти плакав, машину я тобі не дам.",
+            "de": "Dein Sohn im Teenageralter bettelt, dass er heute Abend dein Auto haben darf, und fängt an zu weinen. Sag ihm: So sehr du auch weinst, ich leihe dir das Auto nicht.",
+            "fr": "Ton fils adolescent te supplie de lui prêter ta voiture ce soir et se met à pleurer. Dis-lui : tu as beau pleurer, je ne te prête pas la voiture.",
+            "pt": "Seu filho adolescente está implorando para pegar seu carro emprestado hoje à noite e começa a chorar. Diga a ele: por mais que você chore, não vou te emprestar o carro.",
+            "zh": "你十几岁的儿子求你今晚把车借给他，还哭了起来。告诉他：不管你怎么哭，我都不会把车借给你。"
+          },
+          "accepted": [
+            "Por mucho que llores, no te voy a dejar el coche.",
+            "Por más que llores, no te voy a dejar el coche.",
+            "Por mucho que llores, no te dejo el coche.",
+            "Por más que llores, no te dejo el coche.",
+            "No te voy a dejar el coche por mucho que llores.",
+            "No te dejo el coche por mucho que llores."
+          ],
+          "tiles": [
+            "Por mucho que",
+            "llores,",
+            "no te voy",
+            "a dejar",
+            "el coche",
+            "llorar",
+            "muchas"
+          ],
+          "en": "However much you cry, I'm not lending you the car.",
+          "it": "Per quanto tu pianga, non ti presto la macchina.",
+          "uk": "Хоч би скільки ти плакав, машину я тобі не дам.",
+          "de": "So sehr du auch weinst, ich leihe dir das Auto nicht.",
+          "fr": "Tu as beau pleurer, je ne te prête pas la voiture.",
+          "pt": "Por mais que você chore, não vou te emprestar o carro.",
+          "zh": "不管你怎么哭，我都不会把车借给你。",
+          "hint": {
+            "en": "por mucho que + the subjunctive: llores.",
+            "it": "por mucho que + il congiuntivo: llores.",
+            "uk": "por mucho que + «subjuntivo»: llores.",
+            "de": "por mucho que + subjuntivo: llores.",
+            "fr": "por mucho que + le subjonctif : llores.",
+            "pt": "por mucho que + o subjuntivo: llores.",
+            "zh": "por mucho que + 虚拟式：llores。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "mix",
+          "before": "Por ",
+          "after": " amigos que tengas, la familia es la familia.",
+          "label": "mucho",
+          "accepted": [
+            "muchos"
+          ],
+          "en": "However many friends you have, family is family.",
+          "it": "Per quanti amici tu abbia, la famiglia è la famiglia.",
+          "uk": "Хоч би скільки в тебе було друзів, сім'я є сім'я.",
+          "de": "Egal wie viele Freunde du hast, Familie ist Familie.",
+          "fr": "Tu as beau avoir beaucoup d'amis, la famille, c'est la famille.",
+          "pt": "Por mais amigos que você tenha, família é família.",
+          "zh": "不管你有多少朋友，家人就是家人。",
+          "hint": {
+            "en": "amigos is masculine plural: muchos.",
+            "it": "amigos è maschile plurale: muchos.",
+            "uk": "amigos — чоловічий рід, множина: muchos.",
+            "de": "amigos ist männlich und Plural: muchos.",
+            "fr": "amigos est masculin pluriel : muchos.",
+            "pt": "amigos é masculino plural: muchos.",
+            "zh": "amigos 是阳性复数：muchos。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "Hagas lo que ",
+          "after": ", hazlo bien.",
+          "options": [
+            "hagas",
+            "haces",
+            "hiciste"
+          ],
+          "answer": "hagas",
+          "en": "Whatever you do, do it well.",
+          "it": "Qualunque cosa tu faccia, falla bene.",
+          "uk": "Хоч би що ти робив(-ла), роби це добре.",
+          "de": "Egal, was du machst, mach es gut.",
+          "fr": "Quoi que tu fasses, fais-le bien.",
+          "pt": "Faça o que fizer, faça bem-feito.",
+          "zh": "不管你做什么，都要做好。",
+          "hint": {
+            "en": "The same subjunctive twice: hagas lo que hagas.",
+            "it": "Lo stesso congiuntivo due volte: hagas lo que hagas.",
+            "uk": "Той самий «subjuntivo» двічі: hagas lo que hagas.",
+            "de": "Derselbe subjuntivo zweimal: hagas lo que hagas.",
+            "fr": "Le même subjonctif deux fois : hagas lo que hagas.",
+            "pt": "O mesmo subjuntivo duas vezes: hagas lo que hagas.",
+            "zh": "同一个虚拟式说两遍：hagas lo que hagas。"
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "A friend keeps asking you to come to a party, but you've decided not to go. Write in Spanish: «However much you insist, I'm not going.»",
+            "it": "Un amico continua a chiederti di andare a una festa, ma hai deciso di non andarci. Scrivi in spagnolo: «Per quanto tu insista, non ci vado.»",
+            "uk": "Друг усе кличе тебе на вечірку, але ти вирішив(-ла) не йти. Напиши іспанською: «Хоч би як ти наполягав, я не піду.»",
+            "de": "Ein Freund fragt dich immer wieder, ob du zu einer Party mitkommst, aber du hast beschlossen, nicht hinzugehen. Schreib auf Spanisch: «So sehr du auch darauf bestehst, ich gehe nicht hin.»",
+            "fr": "Un ami n'arrête pas de te demander de venir à une fête, mais tu as décidé de ne pas y aller. Écris en espagnol : «Tu peux insister autant que tu veux, je n'irai pas.»",
+            "pt": "Um amigo continua insistindo para você ir a uma festa, mas você decidiu não ir. Escreva em espanhol: «Por mais que você insista, eu não vou.»",
+            "zh": "一个朋友一直叫你去参加派对，但你已经决定不去了。用西班牙语写：«不管你怎么坚持，我都不去。»"
+          },
+          "accepted": [
+            "Por mucho que insistas, no voy a ir.",
+            "Por mucho que insistas, no voy.",
+            "Por más que insistas, no voy a ir.",
+            "Por más que insistas, no voy.",
+            "No voy a ir por mucho que insistas.",
+            "No voy por mucho que insistas.",
+            "No voy a ir por más que insistas.",
+            "No voy por más que insistas.",
+            "Por mucho que insistas, yo no voy a ir.",
+            "Por mucho que insistas, no pienso ir."
+          ],
+          "model": {
+            "es": "Por mucho que insistas, no voy a ir.",
+            "en": "However much you insist, I'm not going.",
+            "it": "Per quanto tu insista, non ci vado.",
+            "uk": "Хоч би як ти наполягав, я не піду.",
+            "de": "So sehr du auch darauf bestehst, ich gehe nicht hin.",
+            "fr": "Tu peux insister autant que tu veux, je n'irai pas.",
+            "pt": "Por mais que você insista, eu não vou.",
+            "zh": "不管你怎么坚持，我都不去。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u47l5",
+      "goal": {
+        "en": "Choose the mood on your own: the indicative for what you know and present as true, the subjunctive for what isn't known, for any option at all, or for a fact you're only commenting on. Add no es que… (subjunctive), es que… (indicative).",
+        "it": "Scegli il modo da solo: l'indicativo per quello che sai e presenti come vero, il congiuntivo per quello che non si sa, per qualsiasi possibilità, o per un fatto che stai solo commentando. Aggiungi no es que… (congiuntivo), es que… (indicativo).",
+        "uk": "Обирай спосіб самостійно: дійсний — для того, що ти знаєш і подаєш як правду; «subjuntivo» — для невідомого, для будь-якого варіанта або для факту, який ти лише коментуєш. Додай no es que… («subjuntivo») і es que… (дійсний спосіб).",
+        "de": "Wähle den Modus selbst: den Indikativ für das, was du weißt und als wahr hinstellst, den subjuntivo für das, was man nicht weiß, für jede beliebige Möglichkeit oder für eine Tatsache, die du nur kommentierst. Dazu kommt no es que… (subjuntivo), es que… (Indikativ).",
+        "fr": "Choisir le mode tout seul : l'indicatif pour ce que tu sais et présentes comme vrai, le subjonctif pour ce qu'on ne sait pas, pour n'importe quelle option, ou pour un fait que tu ne fais que commenter. En plus : no es que… (subjonctif), es que… (indicatif).",
+        "pt": "Escolha o modo sozinho: o indicativo para o que você sabe e apresenta como verdade, o subjuntivo para o que não se sabe, para qualquer opção, ou para um fato que você só está comentando. Acrescente no es que… (subjuntivo), es que… (indicativo).",
+        "zh": "自己选择语式：你知道并当作事实说出来的事用陈述式；不知道的事、随便哪个都行的事、或者你只是在评论的事实，用虚拟式。再加上 no es que…（虚拟式）和 es que…（陈述式）。"
+      },
+      "target": {
+        "es": "No es que no quiera, es que no puedo.",
+        "en": "It's not that I don't want to; I just can't.",
+        "it": "Non è che non voglia, è che non posso.",
+        "uk": "Не те щоб я не хотів; просто я не можу.",
+        "de": "Es ist nicht so, dass ich nicht will; ich kann einfach nicht.",
+        "fr": "Ce n'est pas que je ne veuille pas ; c'est juste que je ne peux pas.",
+        "pt": "Não é que eu não queira, é que não posso.",
+        "zh": "不是我不想，是我不能。"
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "enfadado / enfadada",
+              "en": "angry",
+              "it": "arrabbiato / arrabbiata",
+              "uk": "сердитий / сердита",
+              "de": "sauer, verärgert",
+              "fr": "fâché / fâchée, en colère",
+              "pt": "bravo / brava, irritado / irritada",
+              "zh": "生气的",
+              "kind": "chunk"
+            },
+            {
+              "es": "no es culpa tuya",
+              "en": "it's not your fault",
+              "it": "non è colpa tua",
+              "uk": "це не твоя вина",
+              "de": "es ist nicht deine Schuld",
+              "fr": "ce n'est pas ta faute",
+              "pt": "não é culpa sua",
+              "zh": "不是你的错",
+              "kind": "chunk"
+            },
+            {
+              "es": "no es que…",
+              "en": "it's not that…",
+              "it": "non è che…",
+              "uk": "не те щоб…",
+              "de": "es ist nicht so, dass…",
+              "fr": "ce n'est pas que…",
+              "pt": "não é que…",
+              "zh": "不是……",
+              "kind": "rail"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "¿lo sé y lo digo?",
+              "kind": "chunk"
+            },
+            {
+              "text": "→",
+              "kind": "chunk"
+            },
+            {
+              "text": "indicativo",
+              "kind": "ending"
+            }
+          ],
+          "rule": {
+            "en": "Ask yourself: do I know it and am I saying it as true? Then use the indicative. If it hasn't happened yet, or any option will do, use the subjunctive.",
+            "it": "Chiediti: lo so e lo sto dicendo come vero? Allora usa l'indicativo. Se non è ancora successo, o va bene qualsiasi possibilità, usa il congiuntivo.",
+            "uk": "Запитай себе: я це знаю і кажу як правду? Тоді вживай дійсний спосіб. Якщо цього ще не сталося або підходить будь-який варіант — «subjuntivo».",
+            "de": "Frag dich: Weiß ich es und sage ich es als wahr? Dann nimm den Indikativ. Wenn es noch nicht passiert ist oder jede Möglichkeit in Ordnung ist, nimm den subjuntivo.",
+            "fr": "Demande-toi : est-ce que je le sais et est-ce que je le dis comme vrai ? Alors, indicatif. Si ce n'est pas encore arrivé, ou si n'importe quelle option convient, subjonctif. Attention : après cuando, le français met le futur (« quand tu arriveras ») ; l'espagnol met le subjonctif.",
+            "pt": "Pergunte a si mesmo: eu sei disso e estou dizendo como verdade? Então use o indicativo. Se ainda não aconteceu, ou se qualquer opção serve, use o subjuntivo. Atenção: onde o português usa o futuro do subjuntivo (quando você chegar), o espanhol usa o presente do subjuntivo: cuando llegues.",
+            "zh": "问问自己：这件事我知道吗？我是把它当作事实说的吗？是的话就用陈述式。如果还没发生，或者哪个选项都行，就用虚拟式。"
+          },
+          "examples": [
+            {
+              "es": "Cuando llego a casa, ceno algo y me acuesto.",
+              "en": "When I get home, I have something to eat and go to bed.",
+              "it": "Quando arrivo a casa, mangio qualcosa e vado a letto.",
+              "uk": "Коли я приходжу додому, щось їм і лягаю спати.",
+              "de": "Wenn ich nach Hause komme, esse ich eine Kleinigkeit und gehe ins Bett.",
+              "fr": "Quand je rentre à la maison, je mange un petit quelque chose et je me couche.",
+              "pt": "Quando chego em casa, como alguma coisa e vou dormir.",
+              "zh": "我到家后，吃点东西就睡觉。"
+            },
+            {
+              "es": "Cuando llegues a casa, llámame.",
+              "en": "When you get home, call me.",
+              "it": "Quando arrivi a casa, chiamami.",
+              "uk": "Коли прийдеш додому, подзвони мені.",
+              "de": "Wenn du zu Hause ankommst, ruf mich an.",
+              "fr": "Quand tu arriveras à la maison, appelle-moi.",
+              "pt": "Quando você chegar em casa, me ligue.",
+              "zh": "你到家了给我打电话。"
+            },
+            {
+              "es": "Mañana salgo aunque llueva.",
+              "en": "Tomorrow I'm going out even if it rains.",
+              "it": "Domani esco anche se dovesse piovere.",
+              "uk": "Завтра я піду гуляти, навіть якщо піде дощ.",
+              "de": "Morgen gehe ich raus, selbst wenn es regnet.",
+              "fr": "Demain, je sors même s'il pleut.",
+              "pt": "Amanhã eu saio mesmo que chova.",
+              "zh": "明天就算下雨我也出门。"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Cuando ",
+          "after": " a casa, llámame, ¿vale?",
+          "options": [
+            "llegues",
+            "llegas",
+            "llegaste"
+          ],
+          "answer": "llegues",
+          "en": "When you get home, call me, OK?",
+          "it": "Quando arrivi a casa, chiamami, va bene?",
+          "uk": "Коли прийдеш додому, подзвони мені, добре?",
+          "de": "Wenn du zu Hause ankommst, ruf mich an, okay?",
+          "fr": "Quand tu arriveras à la maison, appelle-moi, d'accord ?",
+          "pt": "Quando você chegar em casa, me ligue, tá?",
+          "zh": "你到家了给我打个电话，好吗？",
+          "hint": {
+            "en": "It hasn't happened yet: the subjunctive, llegues.",
+            "it": "Non è ancora successo: il congiuntivo, llegues.",
+            "uk": "Це ще не сталося: «subjuntivo», llegues.",
+            "de": "Es ist noch nicht passiert: der subjuntivo, llegues.",
+            "fr": "Ce n'est pas encore arrivé : le subjonctif, llegues.",
+            "pt": "Ainda não aconteceu: o subjuntivo, llegues.",
+            "zh": "还没发生：虚拟式，llegues。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "fire",
+          "before": "Normalmente, cuando ",
+          "after": " a casa, ceno algo y me acuesto.",
+          "options": [
+            "llego",
+            "llegue",
+            "llegara"
+          ],
+          "answer": "llego",
+          "en": "Usually, when I get home, I have something to eat and go to bed.",
+          "it": "Di solito, quando arrivo a casa, mangio qualcosa e vado a letto.",
+          "uk": "Зазвичай, коли я приходжу додому, щось їм і лягаю спати.",
+          "de": "Normalerweise esse ich eine Kleinigkeit und gehe ins Bett, wenn ich nach Hause komme.",
+          "fr": "D'habitude, quand je rentre à la maison, je mange un petit quelque chose et je me couche.",
+          "pt": "Normalmente, quando chego em casa, como alguma coisa e vou dormir.",
+          "zh": "我一般到家后，吃点东西就睡觉。",
+          "hint": {
+            "en": "A habit you know: the indicative, llego.",
+            "it": "Un'abitudine che conosci: l'indicativo, llego.",
+            "uk": "Звичка, яку ти знаєш: дійсний спосіб, llego.",
+            "de": "Eine Gewohnheit, die du kennst: Indikativ, llego.",
+            "fr": "Une habitude que tu connais : l'indicatif, llego.",
+            "pt": "Um hábito que você conhece: o indicativo, llego.",
+            "zh": "你熟悉的习惯：陈述式，llego。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "sé que",
+              "kind": "rail"
+            },
+            {
+              "text": "→",
+              "kind": "chunk"
+            },
+            {
+              "text": "es",
+              "kind": "ending"
+            },
+            {
+              "text": "·",
+              "kind": "chunk"
+            },
+            {
+              "text": "es normal que",
+              "kind": "rail"
+            },
+            {
+              "text": "→",
+              "kind": "chunk"
+            },
+            {
+              "text": "sea",
+              "kind": "ending"
+            }
+          ],
+          "rule": {
+            "en": "A fact can take either mood. With sé que, es verdad que or está claro que you present it as true: indicative. With es normal que, me molesta que or el hecho de que you comment on it: subjunctive.",
+            "it": "Un fatto può prendere tutti e due i modi. Con sé que, es verdad que o está claro que lo presenti come vero: indicativo. Con es normal que, me molesta que o el hecho de que lo commenti: congiuntivo.",
+            "uk": "Факт може стояти в будь-якому способі. З sé que, es verdad que або está claro que ти подаєш його як правду: дійсний спосіб. З es normal que, me molesta que або el hecho de que ти його коментуєш: «subjuntivo».",
+            "de": "Eine Tatsache kann beide Modi haben. Mit sé que, es verdad que oder está claro que stellst du sie als wahr hin: Indikativ. Mit es normal que, me molesta que oder el hecho de que kommentierst du sie: subjuntivo.",
+            "fr": "Un fait peut prendre les deux modes. Avec sé que, es verdad que ou está claro que, tu le présentes comme vrai : indicatif. Avec es normal que, me molesta que ou el hecho de que, tu le commentes : subjonctif.",
+            "pt": "Um fato pode levar os dois modos. Com sé que, es verdad que ou está claro que você o apresenta como verdade: indicativo. Com es normal que, me molesta que ou el hecho de que você comenta sobre ele: subjuntivo.",
+            "zh": "同一个事实可以用两种语式。用 sé que、es verdad que 或 está claro que，是把它当作事实说出来：陈述式。用 es normal que、me molesta que 或 el hecho de que，是在评论它：虚拟式。"
+          },
+          "examples": [
+            {
+              "es": "Sé que estás cansado.",
+              "en": "I know you're tired.",
+              "it": "So che sei stanco.",
+              "uk": "Я знаю, що ти втомився.",
+              "de": "Ich weiß, dass du müde bist.",
+              "fr": "Je sais que tu es fatigué.",
+              "pt": "Eu sei que você está cansado.",
+              "zh": "我知道你累了。"
+            },
+            {
+              "es": "Es normal que estés cansado.",
+              "en": "It's normal for you to be tired.",
+              "it": "È normale che tu sia stanco.",
+              "uk": "Нормально, що ти втомився.",
+              "de": "Es ist normal, dass du müde bist.",
+              "fr": "C'est normal que tu sois fatigué.",
+              "pt": "É normal que você esteja cansado.",
+              "zh": "你累是很正常的。"
+            },
+            {
+              "es": "Me molesta que no me escuches.",
+              "en": "It bothers me that you don't listen to me.",
+              "it": "Mi dà fastidio che tu non mi ascolti.",
+              "uk": "Мене дратує, що ти мене не слухаєш.",
+              "de": "Es stört mich, dass du mir nicht zuhörst.",
+              "fr": "Ça me dérange que tu ne m'écoutes pas.",
+              "pt": "Me incomoda que você não me escute.",
+              "zh": "你不听我说话，这让我很不舒服。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "escuches",
+              "en": "(that) you listen: subjunctive",
+              "it": "(che tu) ascolti: congiuntivo",
+              "uk": "(щоб) ти слухав: «subjuntivo»",
+              "de": "(dass) du zuhörst: subjuntivo",
+              "fr": "(que) tu écoutes : subjonctif",
+              "pt": "(que) você escute: subjuntivo",
+              "zh": "（你）听：虚拟式"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Es normal que ",
+          "after": " cansado después de un día así.",
+          "options": [
+            "estés",
+            "estás",
+            "estar"
+          ],
+          "answer": "estés",
+          "en": "It's normal for you to be tired after a day like that.",
+          "it": "È normale che tu sia stanco dopo una giornata così.",
+          "uk": "Нормально, що ти втомився(-лася) після такого дня.",
+          "de": "Es ist normal, dass du nach so einem Tag müde bist.",
+          "fr": "C'est normal que tu sois fatigué après une journée pareille.",
+          "pt": "É normal que você esteja cansado depois de um dia desses.",
+          "zh": "过了这样的一天，你累是很正常的。",
+          "hint": {
+            "en": "es normal que comments on it: the subjunctive, estés.",
+            "it": "es normal que lo commenta: il congiuntivo, estés.",
+            "uk": "es normal que коментує: «subjuntivo», estés.",
+            "de": "es normal que kommentiert es: der subjuntivo, estés.",
+            "fr": "es normal que le commente : le subjonctif, estés.",
+            "pt": "es normal que comenta o fato: o subjuntivo, estés.",
+            "zh": "es normal que 是在评论：虚拟式，estés。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "fire",
+          "before": "Tranquilo, sé que no ",
+          "after": " culpa tuya.",
+          "label": "ser",
+          "accepted": [
+            "es"
+          ],
+          "en": "Don't worry, I know it's not your fault.",
+          "it": "Tranquillo, so che non è colpa tua.",
+          "uk": "Не хвилюйся, я знаю, що це не твоя вина.",
+          "de": "Keine Sorge, ich weiß, dass es nicht deine Schuld ist.",
+          "fr": "Ne t'inquiète pas, je sais que ce n'est pas ta faute.",
+          "pt": "Não se preocupe, eu sei que não é culpa sua.",
+          "zh": "别担心，我知道这不是你的错。",
+          "hint": {
+            "en": "sé que presents it as true: the indicative, es.",
+            "it": "sé que lo presenta come vero: l'indicativo, es.",
+            "uk": "sé que подає це як правду: дійсний спосіб, es.",
+            "de": "sé que stellt es als wahr hin: Indikativ, es.",
+            "fr": "sé que le présente comme vrai : l'indicatif, es.",
+            "pt": "sé que apresenta como verdade: o indicativo, es.",
+            "zh": "sé que 把它当作事实说出来：陈述式，es。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "no es que",
+              "kind": "rail"
+            },
+            {
+              "text": "+",
+              "kind": "chunk"
+            },
+            {
+              "text": "subjuntivo",
+              "kind": "ending"
+            },
+            {
+              "text": "·",
+              "kind": "chunk"
+            },
+            {
+              "text": "es que",
+              "kind": "rail"
+            },
+            {
+              "text": "+",
+              "kind": "chunk"
+            },
+            {
+              "text": "indicativo",
+              "kind": "ending"
+            }
+          ],
+          "rule": {
+            "en": "no es que + the subjunctive rejects a reason that isn't true. Then es que + the indicative gives the real reason.",
+            "it": "no es que + il congiuntivo respinge un motivo che non è vero. Poi es que + l'indicativo dà il motivo vero.",
+            "uk": "no es que + «subjuntivo» відкидає причину, яка не відповідає дійсності. Потім es que + дійсний спосіб називає справжню причину.",
+            "de": "no es que + subjuntivo weist einen Grund zurück, der nicht stimmt. Danach nennt es que + Indikativ den wahren Grund.",
+            "fr": "no es que + le subjonctif écarte une raison qui n'est pas la bonne. Ensuite, es que + l'indicatif donne la vraie raison. Comme en français : « ce n'est pas que je ne veuille pas, c'est que… ».",
+            "pt": "no es que + o subjuntivo rejeita um motivo que não é verdadeiro. Depois, es que + o indicativo dá o motivo real.",
+            "zh": "no es que + 虚拟式：否定一个不成立的理由。接着用 es que + 陈述式说出真正的理由。"
+          },
+          "examples": [
+            {
+              "es": "No es que no quiera, es que no puedo.",
+              "en": "It's not that I don't want to; I just can't.",
+              "it": "Non è che non voglia, è che non posso.",
+              "uk": "Не те щоб я не хотів; просто я не можу.",
+              "de": "Es ist nicht so, dass ich nicht will; ich kann einfach nicht.",
+              "fr": "Ce n'est pas que je ne veuille pas ; c'est juste que je ne peux pas.",
+              "pt": "Não é que eu não queira, é que não posso.",
+              "zh": "不是我不想，是我不能。"
+            },
+            {
+              "es": "No es que sea caro, es que no lo necesito.",
+              "en": "It's not that it's expensive; I just don't need it.",
+              "it": "Non è che sia caro, è che non mi serve.",
+              "uk": "Не те щоб це було дорого; просто мені це не потрібно.",
+              "de": "Es ist nicht so, dass es teuer ist; ich brauche es einfach nicht.",
+              "fr": "Ce n'est pas que ce soit cher ; c'est juste que je n'en ai pas besoin.",
+              "pt": "Não é que seja caro, é que eu não preciso.",
+              "zh": "不是因为它贵，是我不需要。"
+            },
+            {
+              "es": "No es que esté enfadado, es que estoy cansado.",
+              "en": "It's not that I'm angry; I'm just tired.",
+              "it": "Non è che sia arrabbiato, è che sono stanco.",
+              "uk": "Не те щоб я сердився; просто я втомився.",
+              "de": "Es ist nicht so, dass ich sauer bin; ich bin einfach müde.",
+              "fr": "Ce n'est pas que je sois fâché ; c'est juste que je suis fatigué.",
+              "pt": "Não é que eu esteja bravo, é que estou cansado.",
+              "zh": "我不是生气了，只是累了。"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "No es que no ",
+          "after": ", es que no puedo.",
+          "options": [
+            "quiera",
+            "quiero",
+            "querer"
+          ],
+          "answer": "quiera",
+          "en": "It's not that I don't want to; I just can't.",
+          "it": "Non è che non voglia, è che non posso.",
+          "uk": "Не те щоб я не хотів(-ла); просто я не можу.",
+          "de": "Es ist nicht so, dass ich nicht will; ich kann einfach nicht.",
+          "fr": "Ce n'est pas que je ne veuille pas ; c'est juste que je ne peux pas.",
+          "pt": "Não é que eu não queira, é que não posso.",
+          "zh": "不是我不想，是我不能。",
+          "hint": {
+            "en": "no es que rejects the reason: the subjunctive, quiera.",
+            "it": "no es que respinge il motivo: il congiuntivo, quiera.",
+            "uk": "no es que відкидає причину: «subjuntivo», quiera.",
+            "de": "no es que weist den Grund zurück: der subjuntivo, quiera.",
+            "fr": "no es que écarte la raison : le subjonctif, quiera.",
+            "pt": "no es que rejeita o motivo: o subjuntivo, quiera.",
+            "zh": "no es que 否定这个理由：虚拟式，quiera。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "You've been quiet all evening and a friend thinks you're angry with her. Say: it's not that I'm angry; I'm just tired.",
+            "it": "Sei stato zitto tutta la sera e un'amica pensa che tu sia arrabbiato con lei. Dille: non è che sia arrabbiato, è che sono stanco.",
+            "uk": "Ти весь вечір мовчав(-ла), і подруга думає, що ти на неї сердишся. Скажи: не те щоб я сердився(-лася); просто я втомився(-лася).",
+            "de": "Du warst den ganzen Abend still, und eine Freundin denkt, dass du sauer auf sie bist. Sag: Es ist nicht so, dass ich sauer bin; ich bin einfach müde.",
+            "fr": "Tu n'as presque rien dit de la soirée et une amie croit que tu es fâché contre elle. Dis : ce n'est pas que je sois fâché ; c'est juste que je suis fatigué.",
+            "pt": "Você ficou calado a noite toda e uma amiga acha que você está bravo com ela. Diga: não é que eu esteja bravo, é que estou cansado.",
+            "zh": "你整个晚上都没怎么说话，朋友以为你在生她的气。说：我不是生气了，只是累了。"
+          },
+          "accepted": [
+            "No es que esté enfadado, es que estoy cansado.",
+            "No es que esté enfadada, es que estoy cansada.",
+            "No es que esté enfadado; es que estoy muy cansado.",
+            "No es que esté enfadada; es que estoy muy cansada."
+          ],
+          "tiles": [
+            "No es que",
+            "esté",
+            "enfadado,",
+            "es que",
+            "estoy",
+            "cansado",
+            "estás"
+          ],
+          "en": "It's not that I'm angry; I'm just tired.",
+          "it": "Non è che sia arrabbiato, è che sono stanco.",
+          "uk": "Не те щоб я сердився(-лася); просто я втомився(-лася).",
+          "de": "Es ist nicht so, dass ich sauer bin; ich bin einfach müde.",
+          "fr": "Ce n'est pas que je sois fâché ; c'est juste que je suis fatigué.",
+          "pt": "Não é que eu esteja bravo, é que estou cansado.",
+          "zh": "我不是生气了，只是累了。",
+          "hint": {
+            "en": "no es que + esté (not the reason); es que + estoy (the real one).",
+            "it": "no es que + esté (non è il motivo); es que + estoy (quello vero).",
+            "uk": "no es que + esté (не та причина); es que + estoy (справжня).",
+            "de": "no es que + esté (nicht der Grund); es que + estoy (der wahre Grund).",
+            "fr": "no es que + esté (pas la raison) ; es que + estoy (la vraie).",
+            "pt": "no es que + esté (não é o motivo); es que + estoy (o motivo real).",
+            "zh": "no es que + esté（不是真正的理由）；es que + estoy（真正的理由）。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "Me molesta que no me ",
+          "after": " cuando hablo.",
+          "options": [
+            "escuches",
+            "escuchas",
+            "escuchar"
+          ],
+          "answer": "escuches",
+          "en": "It bothers me that you don't listen to me when I talk.",
+          "it": "Mi dà fastidio che tu non mi ascolti quando parlo.",
+          "uk": "Мене дратує, що ти мене не слухаєш, коли я говорю.",
+          "de": "Es stört mich, dass du mir nicht zuhörst, wenn ich rede.",
+          "fr": "Ça me dérange que tu ne m'écoutes pas quand je parle.",
+          "pt": "Me incomoda que você não me escute quando eu falo.",
+          "zh": "我说话的时候你不听，这让我很不舒服。",
+          "hint": {
+            "en": "me molesta que comments on it: the subjunctive, escuches.",
+            "it": "me molesta que lo commenta: il congiuntivo, escuches.",
+            "uk": "me molesta que коментує: «subjuntivo», escuches.",
+            "de": "me molesta que kommentiert es: der subjuntivo, escuches.",
+            "fr": "me molesta que le commente : le subjonctif, escuches.",
+            "pt": "me molesta que comenta o fato: o subjuntivo, escuches.",
+            "zh": "me molesta que 是在评论：虚拟式，escuches。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "mix",
+          "before": "Es verdad que ",
+          "after": " tarde, pero había mucho tráfico.",
+          "label": "llegar",
+          "accepted": [
+            "llegué"
+          ],
+          "en": "It's true that I arrived late, but there was a lot of traffic.",
+          "it": "È vero che sono arrivato tardi, ma c'era un sacco di traffico.",
+          "uk": "Правда, що я запізнився(-лася), але був великий затор.",
+          "de": "Es stimmt, dass ich zu spät gekommen bin, aber es war viel Verkehr.",
+          "fr": "C'est vrai que je suis arrivé en retard, mais il y avait beaucoup de circulation.",
+          "pt": "É verdade que eu cheguei tarde, mas tinha muito trânsito.",
+          "zh": "我确实迟到了，但是路上很堵。",
+          "hint": {
+            "en": "es verdad que + a past fact: the indicative, llegué.",
+            "it": "es verdad que + un fatto passato: l'indicativo, llegué.",
+            "uk": "es verdad que + факт у минулому: дійсний спосіб, llegué.",
+            "de": "es verdad que + eine Tatsache aus der Vergangenheit: Indikativ, llegué.",
+            "fr": "es verdad que + un fait passé : l'indicatif, llegué.",
+            "pt": "es verdad que + um fato passado: o indicativo, llegué.",
+            "zh": "es verdad que + 过去的事实：陈述式，llegué。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "No es que no me ",
+          "after": " tu idea, es que es muy cara.",
+          "options": [
+            "guste",
+            "gusta",
+            "gustaba"
+          ],
+          "answer": "guste",
+          "en": "It's not that I don't like your idea; it's just very expensive.",
+          "it": "Non è che la tua idea non mi piaccia, è che è carissima.",
+          "uk": "Не те щоб мені не подобалася твоя ідея; просто вона дуже дорога.",
+          "de": "Es ist nicht so, dass mir deine Idee nicht gefällt; sie ist einfach sehr teuer.",
+          "fr": "Ce n'est pas que ton idée ne me plaise pas ; c'est juste qu'elle coûte très cher.",
+          "pt": "Não é que eu não goste da sua ideia, é que ela é muito cara.",
+          "zh": "不是我不喜欢你的主意，只是太贵了。",
+          "hint": {
+            "en": "no es que rejects the reason: the subjunctive, guste.",
+            "it": "no es que respinge il motivo: il congiuntivo, guste.",
+            "uk": "no es que відкидає причину: «subjuntivo», guste.",
+            "de": "no es que weist den Grund zurück: der subjuntivo, guste.",
+            "fr": "no es que écarte la raison : le subjonctif, guste.",
+            "pt": "no es que rejeita o motivo: o subjuntivo, guste.",
+            "zh": "no es que 否定这个理由：虚拟式，guste。"
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "A friend invites you to dinner tonight, but you have to work. Write in Spanish: «It's not that I don't want to; the thing is I have to work.»",
+            "it": "Un'amica ti invita a cena stasera, ma devi lavorare. Scrivi in spagnolo: «Non è che non voglia; è che devo lavorare.»",
+            "uk": "Друг запрошує тебе сьогодні на вечерю, але тобі треба працювати. Напиши іспанською: «Не те щоб я не хотів; річ у тім, що мені треба працювати.»",
+            "de": "Eine Freundin lädt dich heute Abend zum Essen ein, aber du musst arbeiten. Schreib auf Spanisch: «Es ist nicht so, dass ich nicht will; ich muss einfach arbeiten.»",
+            "fr": "Un ami t'invite à dîner ce soir, mais tu dois travailler. Écris en espagnol : «Ce n'est pas que je ne veuille pas ; c'est que je dois travailler.»",
+            "pt": "Um amigo te convida para jantar hoje à noite, mas você tem que trabalhar. Escreva em espanhol: «Não é que eu não queira; é que tenho que trabalhar.»",
+            "zh": "朋友约你今晚吃饭，但你要工作。用西班牙语写：«不是我不想去，是我得工作。»"
+          },
+          "accepted": [
+            "No es que no quiera; es que tengo que trabajar.",
+            "No es que no quiera, es que tengo que trabajar.",
+            "No es que yo no quiera; es que tengo que trabajar.",
+            "No es que no quiera ir; es que tengo que trabajar."
+          ],
+          "model": {
+            "es": "No es que no quiera; es que tengo que trabajar.",
+            "en": "It's not that I don't want to; the thing is I have to work.",
+            "it": "Non è che non voglia; è che devo lavorare.",
+            "uk": "Не те щоб я не хотів; річ у тім, що мені треба працювати.",
+            "de": "Es ist nicht so, dass ich nicht will; ich muss einfach arbeiten.",
+            "fr": "Ce n'est pas que je ne veuille pas ; c'est que je dois travailler.",
+            "pt": "Não é que eu não queira; é que tenho que trabalhar.",
+            "zh": "不是我不想去，是我得工作。"
+          }
+        }
+      ]
+    }
+  ],
+  "boss": {
+    "id": "u47boss",
+    "goal": {
+      "en": "Two colleagues in your team have fallen out over a project: one is often late, and the other gets angry and raises her voice. You've asked them to a meeting. Talk to each of them, then to both, and help them work together again.",
+      "it": "Due colleghi del tuo gruppo hanno litigato per un progetto: uno arriva spesso in ritardo e l'altra si arrabbia e alza la voce. Li hai convocati a una riunione. Parla con ognuno dei due, poi con tutti e due, e aiutali a lavorare di nuovo insieme.",
+      "uk": "Двоє колег з твоєї команди посварилися через проєкт: один часто запізнюється, а інша сердиться й підвищує голос. Ти покликав(-ла) їх на зустріч. Поговори з кожним окремо, потім з обома, і допоможи їм знову працювати разом.",
+      "de": "Zwei Kollegen aus deinem Team haben sich wegen eines Projekts zerstritten: Er kommt oft zu spät, und sie wird wütend und laut. Du hast die beiden zu einer Besprechung gebeten. Sprich mit jedem einzeln, dann mit beiden, und hilf ihnen, wieder zusammenzuarbeiten.",
+      "fr": "Deux collègues de ton équipe se sont fâchés à cause d'un projet : l'un arrive souvent en retard, et l'autre s'énerve et hausse le ton. Tu les as convoqués à une réunion. Parle à chacun d'eux, puis aux deux, et aide-les à retravailler ensemble.",
+      "pt": "Dois colegas da sua equipe brigaram por causa de um projeto: um chega sempre atrasado, e a outra fica brava e levanta a voz. Você chamou os dois para uma reunião. Fale com cada um, depois com os dois juntos, e ajude-os a voltar a trabalhar juntos.",
+      "zh": "你团队里的两位同事因为一个项目闹翻了：一个经常迟到，另一个会发火、提高嗓门。你约他们开了个会。先分别和两人谈，再和他们一起谈，帮助他们重新合作。"
+    },
+    "items": [
+      {
+        "type": "words",
+        "words": [
+          {
+            "es": "el malentendido",
+            "en": "the misunderstanding",
+            "it": "il malinteso",
+            "uk": "непорозуміння",
+            "de": "das Missverständnis",
+            "fr": "le malentendu",
+            "pt": "o mal-entendido",
+            "zh": "误会",
+            "kind": "chunk"
+          },
+          {
+            "es": "ponerse de acuerdo",
+            "en": "to reach an agreement",
+            "it": "mettersi d'accordo",
+            "uk": "домовитися, дійти згоди",
+            "de": "sich einigen",
+            "fr": "se mettre d'accord",
+            "pt": "chegar a um acordo",
+            "zh": "达成一致",
+            "kind": "chunk"
+          }
+        ]
+      },
+      {
+        "type": "gap",
+        "before": "Gracias por venir. Me alegra que ",
+        "after": " aquí los dos.",
+        "label": "estar",
+        "accepted": [
+          "estéis"
+        ],
+        "en": "Thanks for coming. I'm glad you're both here.",
+        "it": "Grazie di essere venuti. Mi fa piacere che siate qui tutti e due.",
+        "uk": "Дякую, що прийшли. Я радий(-а), що ви обоє тут.",
+        "de": "Danke, dass ihr gekommen seid. Ich freue mich, dass ihr beide da seid.",
+        "fr": "Merci d'être venus. Je suis content que vous soyez là tous les deux.",
+        "pt": "Obrigado por virem. Fico feliz que vocês dois estejam aqui.",
+        "zh": "谢谢你们来。很高兴你们俩都在。",
+        "hint": {
+          "en": "me alegra que comments on a fact: the subjunctive; vosotros: estéis.",
+          "it": "me alegra que commenta un fatto: il congiuntivo; vosotros: estéis.",
+          "uk": "me alegra que коментує факт: «subjuntivo»; vosotros: estéis.",
+          "de": "me alegra que kommentiert eine Tatsache: der subjuntivo; vosotros: estéis.",
+          "fr": "me alegra que commente un fait : le subjonctif ; vosotros : estéis.",
+          "pt": "me alegra que comenta um fato: o subjuntivo; vosotros: estéis.",
+          "zh": "me alegra que 是在评论一个事实：虚拟式；vosotros：estéis。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "El hecho de que siempre ",
+        "after": " tarde molesta al equipo.",
+        "options": [
+          "llegues",
+          "llegaras",
+          "llegar"
+        ],
+        "answer": "llegues",
+        "en": "The fact that you're always late bothers the team.",
+        "it": "Il fatto che tu arrivi sempre in ritardo dà fastidio al gruppo.",
+        "uk": "Те, що ти постійно запізнюєшся, заважає команді.",
+        "de": "Dass du immer zu spät kommst, stört das Team.",
+        "fr": "Le fait que tu arrives toujours en retard dérange l'équipe.",
+        "pt": "O fato de você chegar sempre atrasado incomoda a equipe.",
+        "zh": "你总是迟到，这让团队很困扰。",
+        "hint": {
+          "en": "el hecho de que + the present subjunctive (molesta is present): llegues.",
+          "it": "el hecho de que + il congiuntivo presente (molesta è al presente): llegues.",
+          "uk": "el hecho de que + «subjuntivo» теперішнього часу (molesta — теперішній час): llegues.",
+          "de": "el hecho de que + subjuntivo im Präsens (molesta steht im Präsens): llegues.",
+          "fr": "el hecho de que + le présent du subjonctif (molesta est au présent) : llegues.",
+          "pt": "el hecho de que + o presente do subjuntivo (molesta está no presente): llegues.",
+          "zh": "el hecho de que + 现在时虚拟式（molesta 是现在时）：llegues。"
+        }
+      },
+      {
+        "type": "build",
+        "intention": {
+          "en": "He says the bus is often late. Tell him: I know, but even if the bus is late, you have to let us know.",
+          "it": "Lui dice che l'autobus è spesso in ritardo. Digli: lo so, ma anche se l'autobus dovesse arrivare tardi, devi avvisare.",
+          "uk": "Він каже, що автобус часто запізнюється. Скажи йому: я знаю, але навіть якщо автобус запізнюється, ти маєш нас попередити.",
+          "de": "Er sagt, dass der Bus oft Verspätung hat. Sag ihm: Ich weiß, aber auch wenn der Bus Verspätung hat, musst du Bescheid geben.",
+          "fr": "Il dit que le bus est souvent en retard. Dis-lui : je sais, mais même si le bus est en retard, tu dois nous prévenir.",
+          "pt": "Ele diz que o ônibus atrasa com frequência. Diga a ele: eu sei, mas mesmo que o ônibus atrase, você tem que nos avisar.",
+          "zh": "他说公交车经常晚点。告诉他：我知道，但就算公交车晚点，你也得通知我们。"
+        },
+        "accepted": [
+          "Ya lo sé, pero aunque el autobús llegue tarde, tienes que avisar.",
+          "Lo sé, pero aunque el autobús llegue tarde, tienes que avisar.",
+          "Ya lo sé, pero tienes que avisar aunque el autobús llegue tarde.",
+          "Lo sé, pero tienes que avisar aunque el autobús llegue tarde."
+        ],
+        "tiles": [
+          "Ya lo sé,",
+          "pero",
+          "aunque",
+          "el autobús",
+          "llegue tarde,",
+          "tienes que avisar",
+          "llegar",
+          "porque"
+        ],
+        "en": "I know, but even if the bus is late, you have to let us know.",
+        "it": "Lo so, ma anche se l'autobus dovesse arrivare tardi, devi avvisare.",
+        "uk": "Я знаю, але навіть якщо автобус запізнюється, ти маєш нас попередити.",
+        "de": "Ich weiß, aber auch wenn der Bus Verspätung hat, musst du Bescheid geben.",
+        "fr": "Je sais, mais même si le bus est en retard, tu dois nous prévenir.",
+        "pt": "Eu sei, mas mesmo que o ônibus atrase, você tem que nos avisar.",
+        "zh": "我知道，但就算公交车晚点，你也得通知我们。",
+        "hint": {
+          "en": "Any day it may happen, you don't know when: llegue.",
+          "it": "Può succedere un giorno qualsiasi, non sai quando: llegue.",
+          "uk": "Це може статися будь-якого дня, ти не знаєш коли: llegue.",
+          "de": "Es kann an jedem beliebigen Tag passieren, du weißt nicht, wann: llegue.",
+          "fr": "Ça peut arriver n'importe quel jour, tu ne sais pas quand : llegue.",
+          "pt": "Pode acontecer qualquer dia, você não sabe quando: llegue.",
+          "zh": "哪天都可能发生，你不知道是哪天：llegue。"
+        }
+      },
+      {
+        "type": "build",
+        "intention": {
+          "en": "He thinks everyone is angry with him. Tell him: it's not that the team is angry; we just need you.",
+          "it": "Lui pensa che tutti siano arrabbiati con lui. Digli: non è che il gruppo sia arrabbiato, è che abbiamo bisogno di te.",
+          "uk": "Він думає, що всі на нього сердяться. Скажи йому: не те щоб команда сердилася; просто ти нам потрібен.",
+          "de": "Er glaubt, dass alle sauer auf ihn sind. Sag ihm: Es ist nicht so, dass das Team sauer ist; wir brauchen dich einfach.",
+          "fr": "Il croit que tout le monde est fâché contre lui. Dis-lui : ce n'est pas que l'équipe soit fâchée ; c'est juste qu'on a besoin de toi.",
+          "pt": "Ele acha que todo mundo está bravo com ele. Diga a ele: não é que a equipe esteja brava; é que precisamos de você.",
+          "zh": "他以为大家都在生他的气。告诉他：不是团队在生你的气，是我们需要你。"
+        },
+        "accepted": [
+          "No es que el equipo esté enfadado; es que te necesitamos.",
+          "No es que el equipo esté enfadado, es que te necesitamos."
+        ],
+        "tiles": [
+          "No es que",
+          "el equipo",
+          "esté",
+          "enfadado;",
+          "es que",
+          "te necesitamos",
+          "está"
+        ],
+        "en": "It's not that the team is angry; we just need you.",
+        "it": "Non è che il gruppo sia arrabbiato, è che abbiamo bisogno di te.",
+        "uk": "Не те щоб команда сердилася; просто ти нам потрібен.",
+        "de": "Es ist nicht so, dass das Team sauer ist; wir brauchen dich einfach.",
+        "fr": "Ce n'est pas que l'équipe soit fâchée ; c'est juste qu'on a besoin de toi.",
+        "pt": "Não é que a equipe esteja brava; é que precisamos de você.",
+        "zh": "不是团队在生你的气，是我们需要你。",
+        "hint": {
+          "en": "no es que + the subjunctive: esté.",
+          "it": "no es que + il congiuntivo: esté.",
+          "uk": "no es que + «subjuntivo»: esté.",
+          "de": "no es que + subjuntivo: esté.",
+          "fr": "no es que + le subjonctif : esté.",
+          "pt": "no es que + o subjuntivo: esté.",
+          "zh": "no es que + 虚拟式：esté。"
+        }
+      },
+      {
+        "type": "gap",
+        "before": "Sé que en parte ",
+        "after": " razón.",
+        "label": "tener",
+        "accepted": [
+          "tienes"
+        ],
+        "en": "I know you're partly right.",
+        "it": "So che in parte hai ragione.",
+        "uk": "Я знаю, що ти частково маєш рацію.",
+        "de": "Ich weiß, dass du teilweise recht hast.",
+        "fr": "Je sais que tu as en partie raison.",
+        "pt": "Eu sei que você tem um pouco de razão.",
+        "zh": "我知道你有一部分道理。",
+        "hint": {
+          "en": "sé que presents it as true: the indicative, tienes.",
+          "it": "sé que lo presenta come vero: l'indicativo, tienes.",
+          "uk": "sé que подає це як правду: дійсний спосіб, tienes.",
+          "de": "sé que stellt es als wahr hin: Indikativ, tienes.",
+          "fr": "sé que le présente comme vrai : l'indicatif, tienes.",
+          "pt": "sé que apresenta como verdade: o indicativo, tienes.",
+          "zh": "sé que 把它当作事实说出来：陈述式，tienes。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "Pero por mucha razón que ",
+        "after": ", no puedes gritar en una reunión.",
+        "options": [
+          "tengas",
+          "tener",
+          "tuviste"
+        ],
+        "answer": "tengas",
+        "en": "But however right you are, you can't shout in a meeting.",
+        "it": "Ma per quanta ragione tu abbia, non puoi urlare in una riunione.",
+        "uk": "Але хоч би як ти мала рацію, кричати на нараді не можна.",
+        "de": "Aber egal wie sehr du recht hast, du kannst in einer Besprechung nicht schreien.",
+        "fr": "Mais tu as beau avoir raison, tu ne peux pas crier en réunion.",
+        "pt": "Mas, por mais razão que você tenha, não pode gritar numa reunião.",
+        "zh": "但不管你多有道理，开会时也不能大喊大叫。",
+        "hint": {
+          "en": "por mucha razón que + the present subjunctive: tengas.",
+          "it": "por mucha razón que + il congiuntivo presente: tengas.",
+          "uk": "por mucha razón que + «subjuntivo» теперішнього часу: tengas.",
+          "de": "por mucha razón que + subjuntivo im Präsens: tengas.",
+          "fr": "por mucha razón que + le présent du subjonctif : tengas.",
+          "pt": "por mucha razón que + o presente do subjuntivo: tengas.",
+          "zh": "por mucha razón que + 现在时虚拟式：tengas。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "No es que tu idea no ",
+        "after": " buena; es que necesitamos más tiempo.",
+        "options": [
+          "sea",
+          "es",
+          "era"
+        ],
+        "answer": "sea",
+        "en": "It's not that your idea isn't good; we just need more time.",
+        "it": "Non è che la tua idea non sia buona, è che ci serve più tempo.",
+        "uk": "Не те щоб твоя ідея була погана; просто нам потрібно більше часу.",
+        "de": "Es ist nicht so, dass deine Idee nicht gut ist; wir brauchen einfach mehr Zeit.",
+        "fr": "Ce n'est pas que ton idée ne soit pas bonne ; c'est juste qu'on a besoin de plus de temps.",
+        "pt": "Não é que a sua ideia não seja boa; é que precisamos de mais tempo.",
+        "zh": "不是你的主意不好，是我们需要更多时间。",
+        "hint": {
+          "en": "no es que rejects the reason: the subjunctive, sea.",
+          "it": "no es que respinge il motivo: il congiuntivo, sea.",
+          "uk": "no es que відкидає причину: «subjuntivo», sea.",
+          "de": "no es que weist den Grund zurück: der subjuntivo, sea.",
+          "fr": "no es que écarte la raison : le subjonctif, sea.",
+          "pt": "no es que rejeita o motivo: o subjuntivo, sea.",
+          "zh": "no es que 否定这个理由：虚拟式，sea。"
+        }
+      },
+      {
+        "type": "build",
+        "intention": {
+          "en": "Ask her to choose a day for the next meeting; any day is fine. Say: you can choose whatever day you want.",
+          "it": "Chiedile di scegliere un giorno per la prossima riunione; va bene qualsiasi giorno. Dille: puoi scegliere il giorno che preferisci.",
+          "uk": "Попроси її вибрати день для наступної зустрічі; підходить будь-який. Скажи: можеш вибрати який захочеш день.",
+          "de": "Bitte sie, einen Tag für die nächste Besprechung auszusuchen; jeder Tag ist in Ordnung. Sag: Du kannst dir aussuchen, welchen Tag du willst.",
+          "fr": "Demande-lui de choisir un jour pour la prochaine réunion ; n'importe quel jour convient. Dis : tu peux choisir le jour que tu veux.",
+          "pt": "Peça a ela que escolha um dia para a próxima reunião; qualquer dia serve. Diga: você pode escolher o dia que quiser.",
+          "zh": "请她为下次开会选一天，哪天都行。说：你想选哪天都可以。"
+        },
+        "accepted": [
+          "Puedes elegir el día que quieras."
+        ],
+        "tiles": [
+          "Puedes",
+          "elegir",
+          "el día",
+          "que",
+          "quieras",
+          "cuando"
+        ],
+        "en": "You can choose whatever day you want.",
+        "it": "Puoi scegliere il giorno che preferisci.",
+        "uk": "Можеш вибрати який захочеш день.",
+        "de": "Du kannst dir aussuchen, welchen Tag du willst.",
+        "fr": "Tu peux choisir le jour que tu veux.",
+        "pt": "Você pode escolher o dia que quiser.",
+        "zh": "你想选哪天都可以。",
+        "hint": {
+          "en": "Any day will do: que quieras.",
+          "it": "Va bene qualsiasi giorno: que quieras.",
+          "uk": "Підходить будь-який день: que quieras.",
+          "de": "Jeder beliebige Tag passt: que quieras.",
+          "fr": "N'importe quel jour convient : que quieras.",
+          "pt": "Qualquer dia serve: que quieras.",
+          "zh": "哪天都行：que quieras。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "Podéis pensar lo que ",
+        "after": ", pero el proyecto es de los dos.",
+        "options": [
+          "queráis",
+          "queréis",
+          "querer"
+        ],
+        "answer": "queráis",
+        "en": "You can think whatever you like, but the project belongs to both of you.",
+        "it": "Potete pensare quello che vi pare, ma il progetto è di tutti e due.",
+        "uk": "Можете думати що завгодно, але проєкт належить вам обом.",
+        "de": "Ihr könnt denken, was immer ihr wollt, aber das Projekt gehört euch beiden.",
+        "fr": "Vous pouvez penser ce que vous voulez, mais le projet est à vous deux.",
+        "pt": "Vocês podem pensar o que quiserem, mas o projeto é dos dois.",
+        "zh": "你们想怎么想都行，但这个项目是你们两个人的。",
+        "hint": {
+          "en": "Whatever, any thought at all: the subjunctive, queráis.",
+          "it": "Qualsiasi cosa: il congiuntivo, queráis.",
+          "uk": "Будь-що, будь-яка думка: «subjuntivo», queráis.",
+          "de": "Was immer, jeder beliebige Gedanke: der subjuntivo, queráis.",
+          "fr": "N'importe quoi, n'importe quelle pensée : le subjonctif, queráis.",
+          "pt": "Qualquer coisa, qualquer pensamento: o subjuntivo, queráis.",
+          "zh": "不管什么想法都行：虚拟式，queráis。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "",
+        "after": " lo que pase, somos un equipo.",
+        "options": [
+          "Pase",
+          "Pasa",
+          "Pasó"
+        ],
+        "answer": "Pase",
+        "en": "Whatever happens, we're a team.",
+        "it": "Qualunque cosa succeda, siamo una squadra.",
+        "uk": "Хоч би що сталося, ми команда.",
+        "de": "Egal, was passiert, wir sind ein Team.",
+        "fr": "Quoi qu'il arrive, on est une équipe.",
+        "pt": "Aconteça o que acontecer, somos uma equipe.",
+        "zh": "不管发生什么，我们都是一个团队。",
+        "hint": {
+          "en": "Whatever happens: pase lo que pase.",
+          "it": "Qualunque cosa succeda: pase lo que pase.",
+          "uk": "Хоч би що сталося: pase lo que pase.",
+          "de": "Egal, was passiert: pase lo que pase.",
+          "fr": "Quoi qu'il arrive : pase lo que pase.",
+          "pt": "Aconteça o que acontecer: pase lo que pase.",
+          "zh": "不管发生什么：pase lo que pase。"
+        }
+      },
+      {
+        "type": "gap",
+        "before": "Yo creo que todo fue un ",
+        "after": ".",
+        "label": "misunderstanding",
+        "accepted": [
+          "malentendido"
+        ],
+        "en": "I think it was all a misunderstanding.",
+        "it": "Secondo me è stato tutto un malinteso.",
+        "uk": "Думаю, це все було непорозуміння.",
+        "de": "Ich glaube, das Ganze war ein Missverständnis.",
+        "fr": "Je crois que tout ça, c'était un malentendu.",
+        "pt": "Acho que foi tudo um mal-entendido.",
+        "zh": "我觉得这一切都是个误会。",
+        "hint": {
+          "en": "A misunderstanding: un malentendido.",
+          "it": "Un malinteso: un malentendido.",
+          "uk": "Непорозуміння: un malentendido.",
+          "de": "Ein Missverständnis: un malentendido.",
+          "fr": "Un malentendu : un malentendido.",
+          "pt": "Um mal-entendido: un malentendido.",
+          "zh": "一个误会：un malentendido。"
+        }
+      },
+      {
+        "type": "write",
+        "instruction": {
+          "en": "To close the meeting, you speak to both of them. Write in Spanish: «The fact that you don't agree isn't a problem; the important thing is to reach an agreement.»",
+          "it": "Per chiudere la riunione, parli a tutti e due. Scrivi in spagnolo: «Il fatto che non siate d'accordo non è un problema; l'importante è mettersi d'accordo.»",
+          "uk": "Щоб завершити зустріч, ти звертаєшся до обох. Напиши іспанською: «Те, що ви не згодні, — не проблема; головне — домовитися.»",
+          "de": "Zum Abschluss der Besprechung sprichst du zu beiden. Schreib auf Spanisch: «Dass ihr nicht einer Meinung seid, ist kein Problem; das Wichtigste ist, sich zu einigen.»",
+          "fr": "Pour clore la réunion, tu t'adresses aux deux. Écris en espagnol : «Le fait que vous ne soyez pas d'accord n'est pas un problème ; l'important, c'est de se mettre d'accord.»",
+          "pt": "Para encerrar a reunião, você fala com os dois. Escreva em espanhol: «O fato de vocês não concordarem não é um problema; o importante é chegar a um acordo.»",
+          "zh": "会议快结束时，你对他们两个人说话。用西班牙语写：«你们意见不一致，这不是问题；重要的是达成一致。»"
+        },
+        "accepted": [
+          "El hecho de que no estéis de acuerdo no es un problema; lo importante es ponerse de acuerdo.",
+          "El hecho de que no estéis de acuerdo no es ningún problema; lo importante es ponerse de acuerdo.",
+          "El hecho de que no estéis de acuerdo no es un problema; lo importante es llegar a un acuerdo.",
+          "El hecho de que no estéis de acuerdo no es ningún problema; lo importante es llegar a un acuerdo."
+        ],
+        "model": {
+          "es": "El hecho de que no estéis de acuerdo no es un problema; lo importante es ponerse de acuerdo.",
+          "en": "The fact that you don't agree isn't a problem; the important thing is to reach an agreement.",
+          "it": "Il fatto che non siate d'accordo non è un problema; l'importante è mettersi d'accordo.",
+          "uk": "Те, що ви не згодні, — не проблема; головне — домовитися.",
+          "de": "Dass ihr nicht einer Meinung seid, ist kein Problem; das Wichtigste ist, sich zu einigen.",
+          "fr": "Le fait que vous ne soyez pas d'accord n'est pas un problème ; l'important, c'est de se mettre d'accord.",
+          "pt": "O fato de vocês não concordarem não é um problema; o importante é chegar a um acordo.",
+          "zh": "你们意见不一致，这不是问题；重要的是达成一致。"
+        }
+      }
+    ]
+  }
+}

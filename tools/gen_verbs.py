@@ -63,7 +63,7 @@ LIKE = {
 # Verbs used only in some persons (weather, "me duele", "se acaba").
 ONLY = {
     "llover": ["el"], "nevar": ["el"], "gustar": ["el", "ellos"], "encantar": ["el", "ellos"],
-    "doler": ["el", "ellos"], "importar": ["el", "ellos"], "acabarse": ["el", "ellos"],
+    "doler": ["el", "ellos"], "importar": ["el", "ellos"], "preocupar": ["el", "ellos"], "acabarse": ["el", "ellos"],
 }
 
 
