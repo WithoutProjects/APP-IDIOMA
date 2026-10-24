@@ -140,6 +140,9 @@ struct LessonView: View {
             // Passing skips the unit: everything up to its end counts as done.
             if session.passedTest { store.completeUnit(unitId) }
             store.addXP(session.completionXP)
+        case .checkpoint:
+            if session.passedTest { store.completeLesson(session.lesson.id, xp: 0) }
+            store.addXP(session.completionXP)
         case .review:
             store.addXP(session.completionXP)
         }
@@ -275,7 +278,7 @@ struct LessonCompleteView: View {
     private var headline: String {
         switch testPassed {
         case .none: return "¡Lección completada!"
-        case .some(true): return "¡Unidad superada!"
+        case .some(true): return isCheckpoint ? "¡Nivel superado!" : "¡Unidad superada!"
         case .some(false): return "¡Casi!"
         }
     }
@@ -283,10 +286,17 @@ struct LessonCompleteView: View {
     private var detail: String {
         switch testPassed {
         case .none: return lesson.mode.isReview ? language.localized("Your hearts are back.") : lesson.title
-        case .some(true): return language.localized("You can jump to the next unit.")
+        case .some(true): return isCheckpoint ? Self.nextLevel.text(language) : language.localized("You can jump to the next unit.")
         case .some(false): return language.localized("You need \(Lesson.testPassMark) of \(Lesson.testQuestions). The lessons will get you there.")
         }
     }
+
+    private var isCheckpoint: Bool {
+        if case .checkpoint = lesson.mode { return true }
+        return false
+    }
+
+    static let nextLevel = Gloss(en: "The next level is open.", it: "Il livello successivo è aperto.", uk: "Наступний рівень відкрито.", de: "Das nächste Niveau ist offen.", fr: "Le niveau suivant est ouvert.", pt: "O próximo nível está liberado.", zh: "下一个级别已开启。")
 
     private func stat(_ value: String, _ label: LocalizedStringKey) -> some View {
         VStack {

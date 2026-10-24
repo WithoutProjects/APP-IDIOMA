@@ -17,6 +17,8 @@ struct SavedState: Codable, Equatable {
     /// Mastery 0...5 per verb x tense x person cell (the verb SRS).
     var mastery: [FormKey: Int] = [:]
     var sentencesBuilt = 0
+    /// The best score in each Lab game, by game id.
+    var gameBests: [String: Int] = [:]
 
     init() {}
 
@@ -33,6 +35,7 @@ struct SavedState: Codable, Equatable {
         completedLessons = try c.decodeIfPresent(Set<String>.self, forKey: .completedLessons) ?? []
         mastery = try c.decodeIfPresent([FormKey: Int].self, forKey: .mastery) ?? [:]
         sentencesBuilt = try c.decodeIfPresent(Int.self, forKey: .sentencesBuilt) ?? 0
+        gameBests = try c.decodeIfPresent([String: Int].self, forKey: .gameBests) ?? [:]
     }
 }
 
@@ -129,6 +132,57 @@ final class AppStore: ObservableObject {
         }
         var seen: Set<String> = []
         return sentences.filter { seen.insert($0.es).inserted }
+    }
+
+    /// Finished lessons and bosses, in path order.
+    private var finishedLessons: [Lesson] {
+        guard let profile else { return [] }
+        return Curriculum.sharedPath
+            .filter { ($0.kind == .lesson || $0.kind == .boss) && isCompleted($0.id) }
+            .compactMap { LessonContent.lesson(id: $0.id, profile: profile) }
+    }
+
+    /// The words of every finished lesson: the Lab games only use the verbs among them.
+    var learnedWords: [VocabWord] {
+        finishedLessons.flatMap(\.vocabulary)
+    }
+
+    /// Every Spanish sentence of the finished lessons with its translation and every accepted way
+    /// to say it, for the sentence games of the Lab.
+    var practiceSentences: [PracticeSentence] {
+        finishedLessons.flatMap { lesson -> [PracticeSentence] in
+            var sentences: [PracticeSentence] = lesson.target.map { [PracticeSentence(example: $0)] } ?? []
+            for item in lesson.items {
+                switch item.kind {
+                case .frame(let card): sentences += card.examples.map { PracticeSentence(example: $0) }
+                case .builder(let builder): sentences.append(PracticeSentence(example: builder.model, accepted: builder.accepted))
+                case .freeWrite(let write): sentences.append(PracticeSentence(example: write.model, accepted: write.accepted))
+                case .gapFill(let gap): sentences.append(PracticeSentence(example: Example(es: gap.sentence, gloss: gap.gloss)))
+                case .choice(let choice): sentences.append(PracticeSentence(example: Example(es: choice.sentence, gloss: choice.gloss)))
+                default: break
+                }
+            }
+            return sentences
+        }
+    }
+
+    /// The sentences of the finished lessons, for "Caza de errores".
+    var huntSentences: [Example] {
+        practiceSentences.map(\.example)
+    }
+
+    // MARK: Lab games
+
+    func best(in game: String) -> Int {
+        state.gameBests[game] ?? 0
+    }
+
+    /// Keeps the score if it beats the record. True when it is a new record.
+    @discardableResult
+    func recordScore(_ score: Int, in game: String) -> Bool {
+        guard score > best(in: game) else { return false }
+        state.gameBests[game] = score
+        return true
     }
 
     // MARK: Practice events

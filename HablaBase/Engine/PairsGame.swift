@@ -41,23 +41,65 @@ struct LabGame: Identifiable {
     /// False while the game is designed but not built yet. Only built games are shown.
     let isBuilt: Bool
 
+    /// What the game practises; the Lab shows one section per kind.
+    enum Kind: CaseIterable {
+        case verbs, words, sentences
+
+        var title: Gloss {
+            switch self {
+            case .verbs: return Gloss(en: "Verbs", it: "Verbi", uk: "Дієслова", de: "Verben", fr: "Verbes", pt: "Verbos", zh: "动词")
+            case .words: return Gloss(en: "Words", it: "Parole", uk: "Слова", de: "Wörter", fr: "Mots", pt: "Palavras", zh: "词汇")
+            case .sentences: return Gloss(en: "Sentences", it: "Frasi", uk: "Речення", de: "Sätze", fr: "Phrases", pt: "Frases", zh: "句子")
+            }
+        }
+    }
+
+    var kind: Kind {
+        switch id {
+        case LabGame.voiceId, LabGame.wordMatchId: return .words
+        case LabGame.orderId, LabGame.dictationId, LabGame.huntId: return .sentences
+        default: return .verbs
+        }
+    }
+
     static let all: [LabGame] = [
         LabGame(id: "pairs", title: "Parejas",
                 gloss: Gloss(en: "Match each verb to the right person.", it: "Abbina ogni verbo alla persona giusta.", uk: "З'єднай кожне дієслово з правильною особою.", de: "Ordne jedes Verb der richtigen Person zu.", fr: "Associe chaque verbe à la bonne personne.", pt: "Ligue cada verbo à pessoa certa.", zh: "把每个动词和正确的人称配对。"),
                 icon: "rectangle.on.rectangle", unlockedBy: "u1l1", isBuilt: true),
-        LabGame(id: "rush", title: "Ending Rush",
-                gloss: Gloss(en: "60 seconds: flick each stem into the right person lane.", it: "60 secondi: lancia ogni radice nella corsia giusta.", uk: "60 секунд: кидай кожну основу на доріжку правильної особи.", de: "60 Sekunden: Schnipp jeden Stamm in die Bahn der richtigen Person.", fr: "60 secondes : lance chaque radical dans le couloir de la bonne personne.", pt: "60 segundos: lance cada radical na faixa da pessoa certa.", zh: "60 秒内：把每个词干甩进正确的人称跑道。"),
-                icon: "bolt.fill", unlockedBy: "u2l1", isBuilt: false),
-        LabGame(id: "hunt", title: "Caza de errores",
-                gloss: Gloss(en: "Spot and fix the wrong forms in a chat.", it: "Trova e correggi le forme sbagliate in una chat.", uk: "Знайди й виправ неправильні форми в чаті.", de: "Finde und korrigiere die falschen Formen in einem Chat.", fr: "Repère et corrige les formes fausses dans une conversation.", pt: "Encontre e corrija as formas erradas em uma conversa.", zh: "在聊天中找出并改正错误的形式。"),
-                icon: "magnifyingglass", unlockedBy: "u7l1", isBuilt: false),
-        LabGame(id: "tenses", title: "Presente, pasado o futuro",
-                gloss: Gloss(en: "Match each verb to its tense.", it: "Abbina ogni verbo al suo tempo.", uk: "З'єднай кожне дієслово з його часом.", de: "Ordne jedes Verb seiner Zeitform zu.", fr: "Associe chaque verbe à son temps.", pt: "Ligue cada verbo ao seu tempo verbal.", zh: "把每个动词和它的时态配对。"),
-                icon: "clock.arrow.circlepath", unlockedBy: "u14l1", isBuilt: false),
-        LabGame(id: "timemachine", title: "Máquina del tiempo",
-                gloss: Gloss(en: "Turn the time dial and re-conjugate the sentence.", it: "Gira la manopola del tempo e coniuga di nuovo la frase.", uk: "Поверни перемикач часу й переміни речення.", de: "Dreh am Zeitrad und konjugiere den Satz neu.", fr: "Tourne le cadran du temps et conjugue à nouveau la phrase.", pt: "Gire o seletor de tempo e conjugue a frase de novo.", zh: "转动时间旋钮，重新给句子变位。"),
-                icon: "dial.medium", unlockedBy: "u21l1", isBuilt: false),
+        LabGame(id: LabGame.sprintId, title: "Contrarreloj",
+                gloss: Gloss(en: "60 seconds: pick the right form of as many verbs as you can.", it: "60 secondi: scegli la forma giusta del maggior numero di verbi.", uk: "60 секунд: обери правильну форму якомога більшої кількості дієслів.", de: "60 Sekunden: Wähle die richtige Form von so vielen Verben wie möglich.", fr: "60 secondes : choisis la bonne forme du plus de verbes possible.", pt: "60 segundos: escolha a forma certa do maior número de verbos.", zh: "60 秒内：为尽可能多的动词选出正确形式。"),
+                icon: "stopwatch", unlockedBy: "u1l2", isBuilt: true),
+        LabGame(id: LabGame.huntId, title: "Caza de errores",
+                gloss: Gloss(en: "Find the wrong verb in sentences from your lessons.", it: "Trova il verbo sbagliato nelle frasi delle tue lezioni.", uk: "Знайди неправильне дієслово в реченнях з твоїх уроків.", de: "Finde das falsche Verb in Sätzen aus deinen Lektionen.", fr: "Trouve le verbe faux dans des phrases de tes leçons.", pt: "Encontre o verbo errado em frases das suas lições.", zh: "在你课程的句子里找出错误的动词。"),
+                icon: "magnifyingglass", unlockedBy: "u2boss", isBuilt: true),
+        LabGame(id: LabGame.voiceId, title: "Dilo en español",
+                gloss: Gloss(en: "See a word you've learned and say it in Spanish.", it: "Vedi una parola che hai imparato e dilla in spagnolo.", uk: "Побач слово, яке ти вивчив, і скажи його іспанською.", de: "Sieh ein gelerntes Wort und sag es auf Spanisch.", fr: "Vois un mot que tu as appris et dis-le en espagnol.", pt: "Veja uma palavra que você aprendeu e diga em espanhol.", zh: "看到学过的词，用西班牙语说出来。"),
+                icon: "mic.fill", unlockedBy: "u1l1", isBuilt: true),
+        LabGame(id: LabGame.wordMatchId, title: "Parejas de palabras",
+                gloss: Gloss(en: "Match the words you've learned with their Spanish.", it: "Abbina le parole che hai imparato al loro spagnolo.", uk: "З'єднай вивчені слова з їхніми іспанськими відповідниками.", de: "Ordne gelernte Wörter ihrem Spanisch zu.", fr: "Associe les mots appris à leur équivalent espagnol.", pt: "Ligue as palavras que você aprendeu ao espanhol delas.", zh: "把学过的词和对应的西班牙语配对。"),
+                icon: "square.grid.2x2", unlockedBy: "u1l1", isBuilt: true),
+        LabGame(id: LabGame.orderId, title: "Ordena la frase",
+                gloss: Gloss(en: "Put the words of a sentence from your lessons back in order.", it: "Rimetti in ordine le parole di una frase delle tue lezioni.", uk: "Розстав у правильному порядку слова речення з твоїх уроків.", de: "Bring die Wörter eines Satzes aus deinen Lektionen wieder in die richtige Reihenfolge.", fr: "Remets dans l'ordre les mots d'une phrase de tes leçons.", pt: "Coloque em ordem as palavras de uma frase das suas lições.", zh: "把你课程中一个句子的词语排回正确顺序。"),
+                icon: "list.number", unlockedBy: "u1l2", isBuilt: true),
+        LabGame(id: LabGame.dictationId, title: "Dictado",
+                gloss: Gloss(en: "Listen to a sentence you've learned and write it in Spanish.", it: "Ascolta una frase che hai imparato e scrivila in spagnolo.", uk: "Послухай речення, яке ти вивчив, і запиши його іспанською.", de: "Hör dir einen gelernten Satz an und schreib ihn auf Spanisch.", fr: "Écoute une phrase que tu as apprise et écris-la en espagnol.", pt: "Ouça uma frase que você aprendeu e escreva em espanhol.", zh: "听一个学过的句子，用西班牙语写下来。"),
+                icon: "ear", unlockedBy: "u2l1", isBuilt: true),
+        LabGame(id: LabGame.tensesId, title: "¿Qué tiempo es?",
+                gloss: Gloss(en: "See a verb form and say which tense it is.", it: "Guarda una forma verbale e indica in quale tempo è.", uk: "Подивись на форму дієслова й скажи, який це час.", de: "Sieh eine Verbform und sag, welche Zeitform es ist.", fr: "Regarde une forme verbale et dis à quel temps elle est.", pt: "Veja uma forma verbal e diga em que tempo está.", zh: "看一个动词形式，说出它是什么时态。"),
+                icon: "clock.arrow.circlepath", unlockedBy: "u14l1", isBuilt: true),
+        LabGame(id: LabGame.timeMachineId, title: "Máquina del tiempo",
+                gloss: Gloss(en: "Move a verb to another tense and write the new form.", it: "Porta un verbo in un altro tempo e scrivi la nuova forma.", uk: "Перенеси дієслово в інший час і напиши нову форму.", de: "Setz ein Verb in eine andere Zeitform und schreib die neue Form.", fr: "Mets un verbe à un autre temps et écris la nouvelle forme.", pt: "Passe um verbo para outro tempo e escreva a nova forma.", zh: "把动词换成另一个时态，写出新的形式。"),
+                icon: "dial.medium", unlockedBy: "u21l1", isBuilt: true),
     ]
+
+    static let sprintId = "sprint"
+    static let huntId = "hunt"
+    static let voiceId = "voice"
+    static let wordMatchId = "wordmatch"
+    static let orderId = "order"
+    static let dictationId = "dictation"
+    static let tensesId = "tenses"
+    static let timeMachineId = "timemachine"
 
     static var built: [LabGame] { all.filter(\.isBuilt) }
 }

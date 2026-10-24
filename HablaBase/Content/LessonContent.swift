@@ -8,6 +8,9 @@ enum LessonContent {
         if id.hasSuffix("test"), let test = unitTest(unitId: String(id.dropLast(4)), profile: profile) {
             return test
         }
+        if let level = Curriculum.shared.levels.first(where: { $0.checkpoint.id == id }) {
+            return checkpoint(level: level, profile: profile)
+        }
         if let lesson = Unit1.lesson(id: id, profile: profile) { return lesson }
         return LessonLibrary.shared.spec(id)?.lesson(profile: profile)
     }
@@ -27,33 +30,7 @@ enum LessonContent {
               unitLessons.allSatisfy({ if case .lesson = $0.mode { return true } else { return false } }) else { return nil }
 
         var rng = SystemRandomNumberGenerator()
-        // Short questions from each lesson, taken in turns so every lesson is tested.
-        var pools: [[LessonItem]] = unitLessons.map { lesson in
-            lesson.items.filter { item in
-                switch item.kind {
-                case .legoSnap, .gapFill, .choice: return true
-                default: return false
-                }
-            }.shuffled(using: &rng)
-        }
-        var picked: [LessonItem] = []
-        while picked.count < Lesson.testQuestions - 1, pools.contains(where: { !$0.isEmpty }) {
-            for index in pools.indices where !pools[index].isEmpty && picked.count < Lesson.testQuestions - 1 {
-                picked.append(pools[index].removeFirst())
-            }
-        }
-        // One sentence to build, from anywhere in the unit.
-        let builders = unitLessons.flatMap(\.items).filter { if case .builder = $0.kind { return true } else { return false } }
-        if let builder = builders.randomElement(using: &rng) {
-            picked.append(builder)
-        } else if let more = pools.flatMap({ $0 }).first {
-            picked.append(more)
-        }
-
-        let items = picked.enumerated().map { index, item in
-            LessonItem(id: "\(unitId)test-\(index)", beat: .test, kind: item.kind,
-                       heartsAtRisk: item.heartsAtRisk, formKeys: item.formKeys)
-        }
+        let items = testItems(from: unitLessons.map { [$0] }, idPrefix: "\(unitId)test", using: &rng)
         return Lesson(
             id: "\(unitId)test",
             title: unit.test.title,
@@ -67,6 +44,61 @@ enum LessonContent {
             mode: .unitTest(unitId: unitId),
             items: items.shuffled(using: &rng)
         )
+    }
+
+    /// The level exam: 10 questions from every unit of the level, 8 right to open the next level.
+    /// Nil until every lesson of the level exists.
+    static func checkpoint(level: CurriculumLevel, profile: Profile) -> Lesson? {
+        let units = level.units.map { lessons(ofUnit: $0.id, profile: profile) }
+        guard units.allSatisfy({ !$0.isEmpty }),
+              zip(units, level.units).allSatisfy({ $0.count == $1.lessons.count }) else { return nil }
+
+        var rng = SystemRandomNumberGenerator()
+        let items = testItems(from: units, idPrefix: level.checkpoint.id, using: &rng)
+        return Lesson(
+            id: level.checkpoint.id,
+            title: level.checkpoint.title,
+            titleGloss: Gloss(en: "Level \(level.number) exam", it: "Esame del livello \(level.number)", uk: "Іспит рівня \(level.number)", de: "Prüfung zu Niveau \(level.number)", fr: "Examen du niveau \(level.number)", pt: "Prova do nível \(level.number)", zh: "第 \(level.number) 级考试"),
+            goal: Gloss(en: "Get 8 out of 10 right to open the next level.", it: "Rispondi bene a 8 domande su 10 per aprire il livello successivo.",
+                       uk: "Дай 8 правильних відповідей із 10, щоб відкрити наступний рівень.",
+                       de: "Beantworte 8 von 10 Fragen richtig, um das nächste Niveau freizuschalten.",
+                       fr: "Réponds juste à 8 questions sur 10 pour ouvrir le niveau suivant.",
+                       pt: "Acerte 8 de 10 para liberar o próximo nível.",
+                       zh: "10 题答对 8 题即可开启下一个级别。"),
+            mode: .checkpoint(levelId: level.id),
+            items: items.shuffled(using: &rng)
+        )
+    }
+
+    /// Short questions taken in turns from each group (a lesson of a unit, or a unit of a level)
+    /// so every group is tested, plus one sentence to build. No explanations.
+    private static func testItems(from groups: [[Lesson]], idPrefix: String,
+                                  using rng: inout SystemRandomNumberGenerator) -> [LessonItem] {
+        var pools: [[LessonItem]] = groups.map { lessons in
+            lessons.flatMap(\.items).filter { item in
+                switch item.kind {
+                case .legoSnap, .gapFill, .choice: return true
+                default: return false
+                }
+            }.shuffled(using: &rng)
+        }
+        var picked: [LessonItem] = []
+        while picked.count < Lesson.testQuestions - 1, pools.contains(where: { !$0.isEmpty }) {
+            for index in pools.indices where !pools[index].isEmpty && picked.count < Lesson.testQuestions - 1 {
+                picked.append(pools[index].removeFirst())
+            }
+        }
+        // One sentence to build, from anywhere in the group.
+        let builders = groups.flatMap { $0 }.flatMap(\.items).filter { if case .builder = $0.kind { return true } else { return false } }
+        if let builder = builders.randomElement(using: &rng) {
+            picked.append(builder)
+        } else if let more = pools.flatMap({ $0 }).first {
+            picked.append(more)
+        }
+        return picked.enumerated().map { index, item in
+            LessonItem(id: "\(idPrefix)-\(index)", beat: .test, kind: item.kind,
+                       heartsAtRisk: item.heartsAtRisk, formKeys: item.formKeys)
+        }
     }
 }
 

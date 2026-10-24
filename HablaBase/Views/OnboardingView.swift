@@ -123,6 +123,10 @@ struct ProfileForm: View {
             }
 
             VoiceSettingsSection()
+
+            if header != nil {
+                AboutSection()
+            }
         }
     }
 }

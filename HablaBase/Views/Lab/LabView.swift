@@ -84,25 +84,51 @@ struct GamesView: View {
 
     var body: some View {
         ScrollView {
-            VStack(spacing: 14) {
-                ForEach(LabGame.built) { game in
-                    if store.isCompleted(game.unlockedBy) {
-                        NavigationLink {
-                            PairsGameView()
-                        } label: {
-                            LabCard(title: game.title, detail: game.gloss, icon: game.icon, language: store.language)
+            VStack(alignment: .leading, spacing: 24) {
+                ForEach(LabGame.Kind.allCases, id: \.self) { kind in
+                    let games = LabGame.built.filter { $0.kind == kind }
+                    if !games.isEmpty {
+                        VStack(alignment: .leading, spacing: 14) {
+                            Text(verbatim: kind.title.text(store.language))
+                                .font(.headline)
+                                .foregroundStyle(.secondary)
+                                .accessibilityAddTraits(.isHeader)
+                            ForEach(games) { game in
+                                if store.isCompleted(game.unlockedBy) {
+                                    NavigationLink {
+                                        destination(game)
+                                    } label: {
+                                        LabCard(title: game.title, detail: game.gloss, icon: game.icon, language: store.language)
+                                    }
+                                    .buttonStyle(.plain)
+                                } else {
+                                    LabCard(title: game.title, detail: game.gloss, icon: game.icon, language: store.language,
+                                            status: store.language.localized("Opens after \u{201C}\(unlockTitle(game))\u{201D}"))
+                                        .opacity(0.6)
+                                }
+                            }
                         }
-                        .buttonStyle(.plain)
-                    } else {
-                        LabCard(title: game.title, detail: game.gloss, icon: game.icon, language: store.language,
-                                status: store.language.localized("Opens after \u{201C}\(unlockTitle(game))\u{201D}"))
-                            .opacity(0.6)
                     }
                 }
             }
             .padding(20)
         }
         .navigationTitle("Jugar")
+    }
+
+    @ViewBuilder
+    private func destination(_ game: LabGame) -> some View {
+        switch game.id {
+        case LabGame.sprintId: SprintGameView()
+        case LabGame.huntId: ErrorHuntView()
+        case LabGame.voiceId: VoiceRecallView()
+        case LabGame.wordMatchId: WordMatchView()
+        case LabGame.orderId: SentenceOrderView()
+        case LabGame.dictationId: DictationView()
+        case LabGame.tensesId: TenseQuizView()
+        case LabGame.timeMachineId: TimeMachineView()
+        default: PairsGameView()
+        }
     }
 
     private func unlockTitle(_ game: LabGame) -> String {
