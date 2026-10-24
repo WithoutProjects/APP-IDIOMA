@@ -62,7 +62,7 @@ struct UnitDetailView: View {
                 .font(.subheadline)
                 .foregroundStyle(.secondary)
             Button(Journey.takeTest.text(store.language)) { start(unit.test.id) }
-                .buttonStyle(PrimaryButtonStyle(color: tone.main))
+                .buttonStyle(PrimaryButtonStyle(color: tone.fill))
                 .padding(.top, 4)
         }
         .padding(18)
@@ -164,9 +164,9 @@ struct StepRow: View {
         return ZStack {
             switch status {
             case .done:
-                shape.fill(tone.main)
+                shape.fill(tone.fill)
             case .current:
-                shape.fill(tone.main)
+                shape.fill(tone.fill)
                     .shadow(color: tone.main.opacity(0.35), radius: 12, y: 6)
             case .open:
                 shape.fill(tone.soft)

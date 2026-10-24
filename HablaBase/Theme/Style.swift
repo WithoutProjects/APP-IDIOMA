@@ -2,23 +2,28 @@ import SwiftUI
 
 /// The calm colours of the app: one muted tone per level, used for the road, the step tiles and the cards.
 struct Tone: Hashable {
+    /// Text, strokes and controls: deep on light backgrounds, lighter in dark mode, so text in the
+    /// tone always reads (contrast of at least 4.5:1).
     let main: Color
+    /// Solid fills under white text (buttons, tiles), deep enough in both modes.
+    let fill: Color
 
     /// A light tint of the tone for backgrounds and rings.
     var soft: Color { main.opacity(0.14) }
 
-    private init(_ r: Double, _ g: Double, _ b: Double) {
-        main = Color(red: r, green: g, blue: b)
+    private init(deep: (Double, Double, Double), light: (Double, Double, Double)) {
+        main = .adaptive(light: deep, dark: light)
+        fill = Color(red: deep.0, green: deep.1, blue: deep.2)
     }
 
-    static let sage = Tone(0.42, 0.60, 0.50)
-    static let dustyBlue = Tone(0.40, 0.55, 0.75)
-    static let terracotta = Tone(0.80, 0.47, 0.36)
-    static let plum = Tone(0.58, 0.45, 0.66)
-    static let ochre = Tone(0.80, 0.62, 0.30)
-    static let teal = Tone(0.30, 0.58, 0.60)
-    static let rose = Tone(0.80, 0.50, 0.58)
-    static let slate = Tone(0.42, 0.47, 0.56)
+    static let sage = Tone(deep: (0.31, 0.45, 0.37), light: (0.42, 0.60, 0.50))
+    static let dustyBlue = Tone(deep: (0.31, 0.43, 0.58), light: (0.41, 0.55, 0.75))
+    static let terracotta = Tone(deep: (0.61, 0.36, 0.27), light: (0.80, 0.47, 0.36))
+    static let plum = Tone(deep: (0.49, 0.38, 0.55), light: (0.62, 0.51, 0.69))
+    static let ochre = Tone(deep: (0.52, 0.40, 0.19), light: (0.80, 0.62, 0.30))
+    static let teal = Tone(deep: (0.23, 0.45, 0.47), light: (0.31, 0.59, 0.61))
+    static let rose = Tone(deep: (0.58, 0.36, 0.42), light: (0.80, 0.50, 0.58))
+    static let slate = Tone(deep: (0.38, 0.42, 0.50), light: (0.51, 0.55, 0.63))
 
     static let levels: [Tone] = [sage, dustyBlue, terracotta, plum, ochre, teal, rose, slate]
 
@@ -214,7 +219,7 @@ struct ToneTile<Content: View>: View {
             .font(.headline)
             .foregroundStyle(filled ? Color.white : tone.main)
             .frame(width: size, height: size)
-            .background(RoundedRectangle(cornerRadius: size * 0.3, style: .continuous).fill(filled ? tone.main : tone.soft))
+            .background(RoundedRectangle(cornerRadius: size * 0.3, style: .continuous).fill(filled ? tone.fill : tone.soft))
             .accessibilityHidden(true)
     }
 }
