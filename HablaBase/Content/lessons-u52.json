@@ -1,0 +1,3275 @@
+{
+  "unit": "u52",
+  "lessons": [
+    {
+      "id": "u52l1",
+      "goal": {
+        "en": "Read and tell a short story: había una vez and the imperfect set the scene (vivía, miraba), un día and de repente bring the action with the past for finished actions (llamó, abrió), and colorín colorado, este cuento se ha acabado closes a children's tale.",
+        "it": "Leggi e racconta una storia breve: había una vez e l'imperfetto preparano la scena (vivía, miraba), un día e de repente portano l'azione con il passato per le azioni concluse (llamó, abrió), e colorín colorado, este cuento se ha acabado chiude una fiaba.",
+        "uk": "Читай і розповідай коротку історію: había una vez та «imperfecto» малюють сцену (vivía, miraba), un día і de repente вводять дію в минулому часі для завершених дій (llamó, abrió), а colorín colorado, este cuento se ha acabado завершує дитячу казку.",
+        "de": "Lies und erzähl eine kurze Geschichte: había una vez und das Imperfekt bauen die Szene auf (vivía, miraba), un día und de repente bringen die Handlung mit der Vergangenheit für abgeschlossene Handlungen (llamó, abrió), und colorín colorado, este cuento se ha acabado beendet ein Kindermärchen.",
+        "fr": "Lis et raconte une petite histoire : había una vez et l'imparfait plantent le décor (vivía, miraba), un día et de repente lancent l'action avec le passé des actions terminées (llamó, abrió), et colorín colorado, este cuento se ha acabado termine un conte pour enfants.",
+        "pt": "Leia e conte uma história curta: había una vez e o imperfeito montam o cenário (vivía, miraba), un día e de repente trazem a ação com o passado das ações concluídas (llamó, abrió), e colorín colorado, este cuento se ha acabado fecha um conto infantil.",
+        "zh": "读懂并讲一个小故事：había una vez 和过去未完成时用来铺陈场景（vivía，miraba），un día 和 de repente 引出情节，用表示已完成动作的过去时（llamó，abrió），儿童故事用 colorín colorado, este cuento se ha acabado 结尾。"
+      },
+      "target": {
+        "es": "Había una vez un viejo que vivía solo cerca del mar.",
+        "en": "Once upon a time there was an old man who lived alone by the sea.",
+        "it": "C'era una volta un vecchio che viveva da solo vicino al mare.",
+        "uk": "Жив собі колись старий, який жив сам біля моря.",
+        "de": "Es war einmal ein alter Mann, der allein am Meer lebte.",
+        "fr": "Il était une fois un vieil homme qui vivait seul près de la mer.",
+        "pt": "Era uma vez um velho que morava sozinho perto do mar.",
+        "zh": "从前有一个老人，独自住在海边。"
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "el cuento",
+              "en": "the short story, the tale",
+              "it": "il racconto, la fiaba",
+              "uk": "оповідання, казка",
+              "de": "die Kurzgeschichte, das Märchen",
+              "fr": "la nouvelle, le conte",
+              "pt": "o conto",
+              "zh": "短篇小说，故事",
+              "kind": "chunk"
+            },
+            {
+              "es": "había una vez",
+              "en": "once upon a time (there was)",
+              "it": "c'era una volta",
+              "uk": "жив собі колись (був колись)",
+              "de": "es war einmal",
+              "fr": "il était une fois",
+              "pt": "era uma vez",
+              "zh": "从前（有……）",
+              "kind": "chunk"
+            },
+            {
+              "es": "el viejo / la vieja",
+              "en": "the old man / the old woman",
+              "it": "il vecchio / la vecchia",
+              "uk": "старий / стара",
+              "de": "der alte Mann / die alte Frau",
+              "fr": "le vieil homme / la vieille femme",
+              "pt": "o velho / a velha",
+              "zh": "老人 / 老太太",
+              "kind": "chunk"
+            },
+            {
+              "es": "las estrellas",
+              "en": "the stars",
+              "it": "le stelle",
+              "uk": "зорі",
+              "de": "die Sterne",
+              "fr": "les étoiles",
+              "pt": "as estrelas",
+              "zh": "星星",
+              "kind": "chunk"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "había una vez",
+              "kind": "chunk"
+            },
+            {
+              "text": "+",
+              "kind": "chunk"
+            },
+            {
+              "text": "vivía",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "A story opens with había una vez (once upon a time) and the imperfect, which paints the scene: who was there, what things were like, what people used to do.",
+            "it": "Una storia comincia con había una vez (c'era una volta) e l'imperfetto, che dipinge la scena: chi c'era, com'erano le cose, che cosa si faceva di solito.",
+            "uk": "Історія починається з había una vez (жив собі колись) та «imperfecto», який малює сцену: хто там був, яким усе було, що люди зазвичай робили.",
+            "de": "Eine Geschichte beginnt mit había una vez (es war einmal) und dem Imperfekt, das die Szene malt: wer da war, wie die Dinge waren, was die Leute immer taten.",
+            "fr": "Une histoire commence par había una vez (il était une fois) et l'imparfait, qui peint le décor : qui était là, comment étaient les choses, ce que les gens faisaient d'habitude. Comme en français.",
+            "pt": "Uma história começa com había una vez (era uma vez) e o imperfeito, que pinta o cenário: quem estava lá, como eram as coisas, o que as pessoas costumavam fazer.",
+            "zh": "故事用 había una vez（从前）开头，再用过去未完成时来描绘场景：有谁在，那时是什么样子，人们过去常做什么。"
+          },
+          "examples": [
+            {
+              "es": "Había una vez un viejo que vivía solo cerca del mar.",
+              "en": "Once upon a time there was an old man who lived alone by the sea.",
+              "it": "C'era una volta un vecchio che viveva da solo vicino al mare.",
+              "uk": "Жив собі колись старий, який жив сам біля моря.",
+              "de": "Es war einmal ein alter Mann, der allein am Meer lebte.",
+              "fr": "Il était une fois un vieil homme qui vivait seul près de la mer.",
+              "pt": "Era uma vez um velho que morava sozinho perto do mar.",
+              "zh": "从前有一个老人，独自住在海边。"
+            },
+            {
+              "es": "Todas las noches miraba las estrellas.",
+              "en": "Every night he looked at the stars.",
+              "it": "Tutte le sere guardava le stelle.",
+              "uk": "Щоночі він дивився на зорі.",
+              "de": "Jede Nacht schaute er die Sterne an.",
+              "fr": "Tous les soirs, il regardait les étoiles.",
+              "pt": "Todas as noites ele olhava as estrelas.",
+              "zh": "每天晚上他都看星星。"
+            },
+            {
+              "es": "La casa era pequeña y hacía frío.",
+              "en": "The house was small and it was cold.",
+              "it": "La casa era piccola e faceva freddo.",
+              "uk": "Хата була маленька, і було холодно.",
+              "de": "Das Haus war klein, und es war kalt.",
+              "fr": "La maison était petite et il faisait froid.",
+              "pt": "A casa era pequena e fazia frio.",
+              "zh": "房子很小，天气很冷。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "miraba",
+              "en": "he / she looked at, used to look at (imperfect)",
+              "it": "guardava",
+              "uk": "він / вона дивився(-лася), зазвичай дивився(-лася) («imperfecto»)",
+              "de": "er / sie schaute an, schaute immer an (Imperfekt)",
+              "fr": "il / elle regardait (imparfait)",
+              "pt": "ele / ela olhava (imperfeito)",
+              "zh": "他 / 她看，过去常看（过去未完成时）"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Había una vez una vieja que ",
+          "after": " en una casa pequeña y todas las noches miraba las estrellas.",
+          "options": [
+            "vivía",
+            "vivió"
+          ],
+          "answer": "vivía",
+          "en": "Once upon a time there was an old woman who lived in a small house, and every night she looked at the stars.",
+          "it": "C'era una volta una vecchia che viveva in una casa piccola e tutte le sere guardava le stelle.",
+          "uk": "Жила собі колись стара, яка жила в маленькій хатці, і щоночі вона дивилася на зорі.",
+          "de": "Es war einmal eine alte Frau, die in einem kleinen Haus lebte, und jede Nacht schaute sie die Sterne an.",
+          "fr": "Il était une fois une vieille femme qui vivait dans une petite maison, et tous les soirs elle regardait les étoiles.",
+          "pt": "Era uma vez uma velha que morava numa casa pequena, e todas as noites ela olhava as estrelas.",
+          "zh": "从前有一个老太太，住在一座小房子里，每天晚上她都看星星。",
+          "hint": {
+            "en": "Setting the scene: the imperfect, vivía.",
+            "it": "Per preparare la scena: l'imperfetto, vivía.",
+            "uk": "Опис сцени: «imperfecto», vivía.",
+            "de": "Die Szene aufbauen: das Imperfekt, vivía.",
+            "fr": "Pour planter le décor : l'imparfait, vivía.",
+            "pt": "Montando o cenário: o imperfeito, vivía.",
+            "zh": "铺陈场景：用过去未完成时，vivía。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "fire",
+          "before": "Todas las noches, el viejo ",
+          "after": " las estrellas.",
+          "label": "mirar",
+          "accepted": [
+            "miraba"
+          ],
+          "en": "Every night, the old man looked at the stars.",
+          "it": "Tutte le sere, il vecchio guardava le stelle.",
+          "uk": "Щоночі старий дивився на зорі.",
+          "de": "Jede Nacht schaute der alte Mann die Sterne an.",
+          "fr": "Tous les soirs, le vieil homme regardait les étoiles.",
+          "pt": "Todas as noites, o velho olhava as estrelas.",
+          "zh": "每天晚上，老人都看星星。",
+          "hint": {
+            "en": "Something he did every night: imperfect, miraba.",
+            "it": "Una cosa che faceva tutte le sere: imperfetto, miraba.",
+            "uk": "Те, що він робив щоночі: «imperfecto», miraba.",
+            "de": "Etwas, das er jede Nacht tat: Imperfekt, miraba.",
+            "fr": "Une chose qu'il faisait tous les soirs : imparfait, miraba.",
+            "pt": "Algo que ele fazia todas as noites: imperfeito, miraba.",
+            "zh": "他每天晚上都做的事：用过去未完成时，miraba。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "de repente",
+              "kind": "time"
+            },
+            {
+              "text": "+",
+              "kind": "chunk"
+            },
+            {
+              "text": "llamó",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "Then un día or de repente (suddenly) brings the action, in the past for finished actions: what happened, one event after another. The imperfect stays for the background.",
+            "it": "Poi un día o de repente (all'improvviso) porta l'azione, con il passato per le azioni concluse: che cosa è successo, un fatto dopo l'altro. L'imperfetto resta per lo sfondo.",
+            "uk": "Далі un día або de repente (раптом) вводять дію в минулому часі для завершених дій: що сталося, подія за подією. «Imperfecto» лишається для тла.",
+            "de": "Dann bringen un día oder de repente (plötzlich) die Handlung, in der Vergangenheit für abgeschlossene Handlungen: was passiert ist, ein Ereignis nach dem anderen. Das Imperfekt bleibt für den Hintergrund.",
+            "fr": "Ensuite, un día ou de repente (soudain) lance l'action, au passé des actions terminées : ce qui s'est passé, un événement après l'autre. L'imparfait reste pour le décor.",
+            "pt": "Depois, un día ou de repente traz a ação, no passado das ações concluídas: o que aconteceu, um fato depois do outro. O imperfeito fica para o pano de fundo.",
+            "zh": "接着用 un día 或 de repente（突然）引出情节，用表示已完成动作的过去时：发生了什么，一件接一件。过去未完成时仍然用来交代背景。"
+          },
+          "examples": [
+            {
+              "es": "Un día, llegó una carta.",
+              "en": "One day, a letter arrived.",
+              "it": "Un giorno arrivò una lettera.",
+              "uk": "Одного дня прийшов лист.",
+              "de": "Eines Tages kam ein Brief.",
+              "fr": "Un jour, une lettre est arrivée.",
+              "pt": "Um dia, chegou uma carta.",
+              "zh": "有一天，来了一封信。"
+            },
+            {
+              "es": "De repente, alguien llamó a la puerta.",
+              "en": "Suddenly, someone knocked at the door.",
+              "it": "All'improvviso qualcuno bussò alla porta.",
+              "uk": "Раптом хтось постукав у двері.",
+              "de": "Plötzlich klopfte jemand an die Tür.",
+              "fr": "Soudain, quelqu'un a frappé à la porte.",
+              "pt": "De repente, alguém bateu à porta.",
+              "zh": "突然，有人敲门。"
+            },
+            {
+              "es": "El viejo abrió la puerta y vio a una niña.",
+              "en": "The old man opened the door and saw a girl.",
+              "it": "Il vecchio aprì la porta e vide una bambina.",
+              "uk": "Старий відчинив двері й побачив дівчинку.",
+              "de": "Der alte Mann öffnete die Tür und sah ein Mädchen.",
+              "fr": "Le vieil homme a ouvert la porte et a vu une petite fille.",
+              "pt": "O velho abriu a porta e viu uma menina.",
+              "zh": "老人打开门，看见了一个小女孩。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "llamaba",
+              "en": "was knocking, was calling (imperfect of llamar)",
+              "it": "bussava, chiamava (imperfetto di llamar)",
+              "uk": "стукав, дзвонив («imperfecto» від llamar)",
+              "de": "klopfte gerade, rief gerade (Imperfekt von llamar)",
+              "fr": "frappait, appelait (imparfait de llamar)",
+              "pt": "batia (à porta), chamava (imperfeito de llamar)",
+              "zh": "正在敲（门），正在打（电话）（llamar 的过去未完成时）"
+            },
+            {
+              "es": "oía",
+              "en": "heard, could hear (imperfect of oír)",
+              "it": "sentiva, udiva (imperfetto di oír)",
+              "uk": "чув, було чути («imperfecto» від oír)",
+              "de": "hörte, konnte hören (Imperfekt von oír)",
+              "fr": "entendait (imparfait de oír)",
+              "pt": "ouvia (imperfeito de oír)",
+              "zh": "听到，听得见（oír 的过去未完成时）"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "De repente, alguien ",
+          "after": " a la puerta.",
+          "options": [
+            "llamó",
+            "llamaba"
+          ],
+          "answer": "llamó",
+          "en": "Suddenly, someone knocked at the door.",
+          "it": "All'improvviso qualcuno bussò alla porta.",
+          "uk": "Раптом хтось постукав у двері.",
+          "de": "Plötzlich klopfte jemand an die Tür.",
+          "fr": "Soudain, quelqu'un a frappé à la porte.",
+          "pt": "De repente, alguém bateu à porta.",
+          "zh": "突然，有人敲门。",
+          "hint": {
+            "en": "de repente brings an event: the past for finished actions, llamó.",
+            "it": "de repente porta un fatto: il passato per le azioni concluse, llamó.",
+            "uk": "de repente вводить подію: минулий час для завершених дій, llamó.",
+            "de": "de repente bringt ein Ereignis: die Vergangenheit für abgeschlossene Handlungen, llamó.",
+            "fr": "de repente introduit un événement : le passé des actions terminées, llamó.",
+            "pt": "de repente traz um acontecimento: o passado das ações concluídas, llamó.",
+            "zh": "de repente 引出一件事：用表示已完成动作的过去时，llamó。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "fire",
+          "before": "El viejo ",
+          "after": " la puerta y vio a una niña.",
+          "label": "abrir",
+          "accepted": [
+            "abrió"
+          ],
+          "en": "The old man opened the door and saw a girl.",
+          "it": "Il vecchio aprì la porta e vide una bambina.",
+          "uk": "Старий відчинив двері й побачив дівчинку.",
+          "de": "Der alte Mann öffnete die Tür und sah ein Mädchen.",
+          "fr": "Le vieil homme a ouvert la porte et a vu une petite fille.",
+          "pt": "O velho abriu a porta e viu uma menina.",
+          "zh": "老人打开门，看见了一个小女孩。",
+          "hint": {
+            "en": "One event after another: abrió, then vio.",
+            "it": "Un fatto dopo l'altro: abrió, poi vio.",
+            "uk": "Подія за подією: abrió, потім vio.",
+            "de": "Ein Ereignis nach dem anderen: abrió, dann vio.",
+            "fr": "Un événement après l'autre : abrió, puis vio.",
+            "pt": "Um fato depois do outro: abrió, depois vio.",
+            "zh": "一件事接着一件事：先 abrió，再 vio。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "colorín colorado",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "Spanish children's tales end with a little rhyme: y colorín colorado, este cuento se ha acabado (and that's the end of the story). Colorín and colorado are there only for the sound.",
+            "it": "Le fiabe spagnole finiscono con una piccola rima: y colorín colorado, este cuento se ha acabado (e vissero felici e contenti; lett. questa storia è finita). Colorín e colorado ci sono solo per il suono.",
+            "uk": "Іспанські дитячі казки закінчуються маленькою римою: y colorín colorado, este cuento se ha acabado (ось і казці кінець). Colorín і colorado там лише заради звучання.",
+            "de": "Spanische Kindermärchen enden mit einem kleinen Reim: y colorín colorado, este cuento se ha acabado (und aus ist die Geschichte), so wie deutsche Märchen mit „… und wenn sie nicht gestorben sind, dann leben sie noch heute“. Colorín und colorado stehen nur wegen des Klangs da.",
+            "fr": "Les contes pour enfants espagnols se terminent par une petite rime : y colorín colorado, este cuento se ha acabado (et voilà, l'histoire est finie). Colorín et colorado sont là seulement pour le son.",
+            "pt": "Os contos infantis espanhóis terminam com uma pequena rima: y colorín colorado, este cuento se ha acabado (e assim termina a história, como o nosso «entrou por uma porta, saiu pela outra»). Colorín e colorado só estão ali pelo som.",
+            "zh": "西班牙的儿童故事都以一句押韵的小顺口溜结尾：y colorín colorado, este cuento se ha acabado（故事讲完啦）。colorín 和 colorado 放在这里只是为了好听。"
+          },
+          "examples": [
+            {
+              "es": "Y colorín colorado, este cuento se ha acabado.",
+              "en": "And that's the end of the story.",
+              "it": "E questa storia è finita.",
+              "uk": "Ось і казці кінець. (досл.: і колорін-колорадо, ця казка закінчилася)",
+              "de": "Und damit ist die Geschichte aus.",
+              "fr": "Et voilà, l'histoire est finie.",
+              "pt": "E assim termina a história.",
+              "zh": "故事讲完啦。"
+            },
+            {
+              "es": "Y fueron felices para siempre.",
+              "en": "And they lived happily ever after.",
+              "it": "E vissero per sempre felici e contenti.",
+              "uk": "І жили вони довго й щасливо.",
+              "de": "Und sie lebten glücklich bis ans Ende ihrer Tage.",
+              "fr": "Et ils vécurent heureux pour toujours.",
+              "pt": "E viveram felizes para sempre.",
+              "zh": "从此他们过上了幸福的生活。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "colorín colorado",
+              "en": "(rhyming words that close a tale)",
+              "it": "(parole in rima che chiudono una fiaba)",
+              "uk": "(римовані слова, якими закінчують казку)",
+              "de": "(Reimwörter, die ein Märchen beenden)",
+              "fr": "(mots qui riment pour terminer un conte)",
+              "pt": "(palavras que rimam e fecham um conto)",
+              "zh": "（儿童故事结尾的押韵词）"
+            },
+            {
+              "es": "acabado",
+              "en": "finished, over (participle of acabar)",
+              "it": "finito (participio di acabar)",
+              "uk": "закінчений, завершений (дієприкметник від acabar)",
+              "de": "beendet, vorbei (Partizip von acabar)",
+              "fr": "fini, terminé (participe de acabar)",
+              "pt": "acabado, terminado (particípio de acabar)",
+              "zh": "结束了，完了（acabar 的过去分词）"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Y colorín colorado, este cuento se ha ",
+          "after": ".",
+          "options": [
+            "acabado",
+            "acabó",
+            "acaba"
+          ],
+          "answer": "acabado",
+          "en": "And that's the end of the story.",
+          "it": "E questa storia è finita.",
+          "uk": "Ось і казці кінець.",
+          "de": "Und damit ist die Geschichte aus.",
+          "fr": "Et voilà, l'histoire est finie.",
+          "pt": "E assim termina a história.",
+          "zh": "故事讲完啦。",
+          "hint": {
+            "en": "se ha + participle: se ha acabado.",
+            "it": "se ha + participio: se ha acabado.",
+            "uk": "se ha + дієприкметник: se ha acabado.",
+            "de": "se ha + Partizip: se ha acabado.",
+            "fr": "se ha + participe : se ha acabado.",
+            "pt": "se ha + particípio: se ha acabado.",
+            "zh": "se ha + 过去分词：se ha acabado。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "You've just told a child a bedtime story. Close it the Spanish way: and colorín colorado, this story is over.",
+            "it": "Hai appena raccontato una fiaba della buonanotte a un bambino. Chiudila alla spagnola: e colorín colorado, questa storia è finita.",
+            "uk": "Ти щойно розповів(-ла) дитині казку на ніч. Заверши її по-іспанськи: і colorín colorado, цій казці кінець.",
+            "de": "Du hast einem Kind gerade eine Gutenachtgeschichte erzählt. Beende sie auf Spanisch: und colorín colorado, diese Geschichte ist aus.",
+            "fr": "Tu viens de raconter une histoire du soir à un enfant. Termine-la à l'espagnole : et colorín colorado, cette histoire est finie.",
+            "pt": "Você acabou de contar uma história para uma criança dormir. Feche do jeito espanhol: e colorín colorado, esta história acabou.",
+            "zh": "你刚给一个孩子讲完睡前故事。用西班牙的方式结尾：y colorín colorado，这个故事讲完啦。"
+          },
+          "accepted": [
+            "Y colorín colorado, este cuento se ha acabado."
+          ],
+          "tiles": [
+            "Y colorín",
+            "colorado,",
+            "este cuento",
+            "se ha acabado",
+            "acabó",
+            "estrellas"
+          ],
+          "en": "And that's the end of the story.",
+          "it": "E questa storia è finita.",
+          "uk": "Ось і казці кінець.",
+          "de": "Und damit ist die Geschichte aus.",
+          "fr": "Et voilà, l'histoire est finie.",
+          "pt": "E assim termina a história.",
+          "zh": "故事讲完啦。",
+          "hint": {
+            "en": "The fixed ending: colorín colorado, este cuento se ha acabado.",
+            "it": "La chiusura fissa: colorín colorado, este cuento se ha acabado.",
+            "uk": "Стала кінцівка: colorín colorado, este cuento se ha acabado.",
+            "de": "Das feste Ende: colorín colorado, este cuento se ha acabado.",
+            "fr": "La fin figée : colorín colorado, este cuento se ha acabado.",
+            "pt": "O final fixo: colorín colorado, este cuento se ha acabado.",
+            "zh": "固定的结尾：colorín colorado, este cuento se ha acabado。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "Todos los días, la niña ",
+          "after": " al mar.",
+          "options": [
+            "iba",
+            "fue"
+          ],
+          "answer": "iba",
+          "en": "Every day, the girl went to the sea.",
+          "it": "Tutti i giorni la bambina andava al mare.",
+          "uk": "Щодня дівчинка ходила до моря.",
+          "de": "Jeden Tag ging das Mädchen ans Meer.",
+          "fr": "Tous les jours, la petite fille allait à la mer.",
+          "pt": "Todos os dias, a menina ia ao mar.",
+          "zh": "每天，小女孩都去海边。",
+          "hint": {
+            "en": "Every day is a habit: imperfect, iba.",
+            "it": "Tutti i giorni è un'abitudine: imperfetto, iba.",
+            "uk": "«Щодня» — це звичка: «imperfecto», iba.",
+            "de": "Jeden Tag ist eine Gewohnheit: Imperfekt, iba.",
+            "fr": "Tous les jours, c'est une habitude : imparfait, iba.",
+            "pt": "Todos os dias é um hábito: imperfeito, iba.",
+            "zh": "“每天”是习惯：用过去未完成时，iba。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "Una noche, de repente, el viejo ",
+          "after": " un ruido.",
+          "options": [
+            "oyó",
+            "oía"
+          ],
+          "answer": "oyó",
+          "en": "One night, suddenly, the old man heard a noise.",
+          "it": "Una notte, all'improvviso, il vecchio sentì un rumore.",
+          "uk": "Однієї ночі старий раптом почув шум.",
+          "de": "Eines Nachts hörte der alte Mann plötzlich ein Geräusch.",
+          "fr": "Une nuit, soudain, le vieil homme a entendu un bruit.",
+          "pt": "Uma noite, de repente, o velho ouviu um barulho.",
+          "zh": "一天晚上，突然，老人听到了一个声音。",
+          "hint": {
+            "en": "de repente: a single event, oyó.",
+            "it": "de repente: un fatto singolo, oyó.",
+            "uk": "de repente: одноразова подія, oyó.",
+            "de": "de repente: ein einzelnes Ereignis, oyó.",
+            "fr": "de repente : un seul événement, oyó.",
+            "pt": "de repente: um único acontecimento, oyó.",
+            "zh": "de repente：一次性的事件，oyó。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "mix",
+          "before": "Y colorín colorado, este ",
+          "after": " se ha acabado.",
+          "label": "story",
+          "accepted": [
+            "cuento"
+          ],
+          "en": "And that's the end of the story.",
+          "it": "E questa storia è finita.",
+          "uk": "Ось і казці кінець.",
+          "de": "Und damit ist die Geschichte aus.",
+          "fr": "Et voilà, l'histoire est finie.",
+          "pt": "E assim termina a história.",
+          "zh": "故事讲完啦。",
+          "hint": {
+            "en": "el cuento: the tale.",
+            "it": "el cuento: la fiaba.",
+            "uk": "el cuento: казка.",
+            "de": "el cuento: das Märchen, die Geschichte.",
+            "fr": "el cuento : le conte.",
+            "pt": "el cuento: o conto.",
+            "zh": "el cuento：故事。"
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "You're starting to tell a story to a child. Write in Spanish: «Once upon a time there was an old man who lived by the sea.»",
+            "it": "Stai cominciando a raccontare una storia a un bambino. Scrivi in spagnolo: «C'era una volta un vecchio che viveva vicino al mare.»",
+            "uk": "Ти починаєш розповідати дитині казку. Напиши іспанською: «Жив собі колись старий, який жив біля моря.»",
+            "de": "Du fängst an, einem Kind eine Geschichte zu erzählen. Schreib auf Spanisch: «Es war einmal ein alter Mann, der am Meer lebte.»",
+            "fr": "Tu commences à raconter une histoire à un enfant. Écris en espagnol : «Il était une fois un vieil homme qui vivait près de la mer.»",
+            "pt": "Você está começando a contar uma história para uma criança. Escreva em espanhol: «Era uma vez um velho que morava perto do mar.»",
+            "zh": "你开始给一个孩子讲故事。用西班牙语写：«从前有一个老人，住在海边。»"
+          },
+          "accepted": [
+            "Había una vez un viejo que vivía cerca del mar.",
+            "Había una vez un hombre viejo que vivía cerca del mar."
+          ],
+          "model": {
+            "es": "Había una vez un viejo que vivía cerca del mar.",
+            "en": "Once upon a time there was an old man who lived by the sea.",
+            "it": "C'era una volta un vecchio che viveva vicino al mare.",
+            "uk": "Жив собі колись старий, який жив біля моря.",
+            "de": "Es war einmal ein alter Mann, der am Meer lebte.",
+            "fr": "Il était une fois un vieil homme qui vivait près de la mer.",
+            "pt": "Era uma vez um velho que morava perto do mar.",
+            "zh": "从前有一个老人，住在海边。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u52l2",
+      "goal": {
+        "en": "Read a short poem aloud and hear its rhythm: el verso (the line), la rima consonante (corazón / canción) and la rima asonante (casa / mañana), and a famous short poem by Gustavo Adolfo Bécquer, from 1871.",
+        "it": "Leggi ad alta voce una breve poesia e sentine il ritmo: el verso, la rima consonante (corazón / canción) e la rima asonante (casa / mañana), e una famosa poesia breve di Gustavo Adolfo Bécquer, del 1871.",
+        "uk": "Прочитай уголос короткий вірш і відчуй його ритм: el verso (віршований рядок), la rima consonante (corazón / canción) і la rima asonante (casa / mañana), а також відомий короткий вірш Густаво Адольфо Беккера 1871 року.",
+        "de": "Lies ein kurzes Gedicht laut vor und hör seinen Rhythmus: el verso (der Vers), la rima consonante (corazón / canción) und la rima asonante (casa / mañana), dazu ein berühmtes kurzes Gedicht von Gustavo Adolfo Bécquer aus dem Jahr 1871.",
+        "fr": "Lis un court poème à voix haute et écoute son rythme : el verso (le vers), la rima consonante (corazón / canción) et la rima asonante (casa / mañana), et un court poème célèbre de Gustavo Adolfo Bécquer, de 1871.",
+        "pt": "Leia um poema curto em voz alta e escute o seu ritmo: el verso (o verso), la rima consonante (corazón / canción) e la rima asonante (casa / mañana), e um famoso poema curto de Gustavo Adolfo Bécquer, de 1871.",
+        "zh": "朗读一首短诗，感受它的节奏：el verso（诗行），la rima consonante（全韵：corazón / canción）和 la rima asonante（元音韵：casa / mañana），还有古斯塔沃·阿道夫·贝克尔 1871 年的一首有名的短诗。"
+      },
+      "target": {
+        "es": "¿Qué es poesía? ¿Y tú me lo preguntas? Poesía… eres tú.",
+        "en": "What is poetry? And you're asking me? Poetry… is you.",
+        "it": "Che cos'è la poesia? E tu me lo chiedi? La poesia… sei tu.",
+        "uk": "Що таке поезія? І ти мене про це питаєш? Поезія… це ти.",
+        "de": "Was ist Poesie? Und das fragst du mich? Poesie … bist du.",
+        "fr": "Qu'est-ce que la poésie ? Et c'est toi qui me le demandes ? La poésie… c'est toi.",
+        "pt": "O que é poesia? E é você que me pergunta? Poesia… é você.",
+        "zh": "什么是诗？你竟来问我？诗……就是你。"
+      },
+      "names": [
+        "Bécquer"
+      ],
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "la poesía",
+              "en": "poetry",
+              "it": "la poesia (l'arte)",
+              "uk": "поезія",
+              "de": "die Poesie, die Dichtung",
+              "fr": "la poésie",
+              "pt": "a poesia",
+              "zh": "诗，诗歌",
+              "kind": "chunk"
+            },
+            {
+              "es": "el poema",
+              "en": "the poem",
+              "it": "la poesia, il componimento",
+              "uk": "вірш",
+              "de": "das Gedicht",
+              "fr": "le poème",
+              "pt": "o poema",
+              "zh": "诗，一首诗",
+              "kind": "chunk"
+            },
+            {
+              "es": "el verso",
+              "en": "the line (of a poem)",
+              "it": "il verso",
+              "uk": "віршований рядок",
+              "de": "der Vers (eine Zeile eines Gedichts)",
+              "fr": "le vers",
+              "pt": "o verso",
+              "zh": "（诗的）一行",
+              "kind": "chunk"
+            },
+            {
+              "es": "la rima",
+              "en": "the rhyme",
+              "it": "la rima",
+              "uk": "рима",
+              "de": "der Reim",
+              "fr": "la rime",
+              "pt": "a rima",
+              "zh": "韵，押韵",
+              "kind": "chunk"
+            }
+          ]
+        },
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "el ritmo",
+              "en": "the rhythm",
+              "it": "il ritmo",
+              "uk": "ритм",
+              "de": "der Rhythmus",
+              "fr": "le rythme",
+              "pt": "o ritmo",
+              "zh": "节奏",
+              "kind": "chunk"
+            },
+            {
+              "es": "el corazón",
+              "en": "the heart",
+              "it": "il cuore",
+              "uk": "серце",
+              "de": "das Herz (el corazón ist maskulin)",
+              "fr": "le cœur",
+              "pt": "o coração",
+              "zh": "心",
+              "kind": "chunk"
+            },
+            {
+              "es": "la luna",
+              "en": "the moon",
+              "it": "la luna",
+              "uk": "місяць (на небі)",
+              "de": "der Mond (la luna ist feminin)",
+              "fr": "la lune",
+              "pt": "a lua",
+              "zh": "月亮",
+              "kind": "chunk"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "corazón",
+              "kind": "chunk"
+            },
+            {
+              "text": "·",
+              "kind": "chunk"
+            },
+            {
+              "text": "canción",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "Each line of a poem is un verso. Two versos rhyme when they end with the same sounds. In la rima consonante, everything from the stressed vowel on is the same: corazón / canción.",
+            "it": "Ogni riga di una poesia è un verso. Due versi fanno rima quando finiscono con gli stessi suoni. Nella rima consonante, tutto è uguale dalla vocale accentata in poi: corazón / canción.",
+            "uk": "Кожен рядок вірша — це un verso. Два versos римуються, коли закінчуються однаковими звуками. У la rima consonante все, починаючи з наголошеного голосного, однакове: corazón / canción.",
+            "de": "Jede Zeile eines Gedichts ist un verso. Zwei versos reimen sich, wenn sie mit denselben Lauten enden. Bei la rima consonante ist alles ab dem betonten Vokal gleich: corazón / canción.",
+            "fr": "Chaque ligne d'un poème est un verso. Deux versos riment quand ils finissent par les mêmes sons. Dans la rima consonante, tout est identique à partir de la voyelle accentuée : corazón / canción.",
+            "pt": "Cada linha de um poema é un verso. Dois versos rimam quando terminam com os mesmos sons. Na rima consonante, tudo é igual a partir da vogal tônica: corazón / canción.",
+            "zh": "诗的每一行叫 un verso。两行诗结尾的音相同，就是押韵。在 la rima consonante（全韵）里，从重读元音开始往后的音全都一样：corazón / canción。"
+          },
+          "examples": [
+            {
+              "es": "Te doy mi corazón / y te canto una canción.",
+              "en": "I give you my heart / and I sing you a song.",
+              "it": "Ti do il mio cuore / e ti canto una canzone.",
+              "uk": "Я віддаю тобі своє серце / і співаю тобі пісню.",
+              "de": "Ich gebe dir mein Herz / und singe dir ein Lied.",
+              "fr": "Je te donne mon cœur / et je te chante une chanson.",
+              "pt": "Eu te dou o meu coração / e te canto uma canção.",
+              "zh": "我把我的心给你 / 为你唱一首歌。"
+            },
+            {
+              "es": "Corazón rima con canción.",
+              "en": "Corazón rhymes with canción.",
+              "it": "Corazón fa rima con canción.",
+              "uk": "Corazón римується з canción.",
+              "de": "Corazón reimt sich auf canción.",
+              "fr": "Corazón rime avec canción.",
+              "pt": "Corazón rima com canción.",
+              "zh": "corazón 和 canción 押韵。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "rima con",
+              "en": "rhymes with",
+              "it": "fa rima con",
+              "uk": "римується з",
+              "de": "reimt sich auf",
+              "fr": "rime avec",
+              "pt": "rima com",
+              "zh": "和……押韵"
+            },
+            {
+              "es": "la rima consonante",
+              "en": "full rhyme (all the sounds match)",
+              "it": "la rima consonante (tutti i suoni uguali)",
+              "uk": "точна рима (збігаються всі звуки)",
+              "de": "der reine Reim (alle Laute stimmen überein)",
+              "fr": "la rime consonante (tous les sons sont identiques)",
+              "pt": "a rima consoante (todos os sons coincidem)",
+              "zh": "全韵（所有的音都相同）"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Corazón rima con ",
+          "after": ".",
+          "options": [
+            "canción",
+            "casa",
+            "luna"
+          ],
+          "answer": "canción",
+          "en": "Corazón rhymes with canción.",
+          "it": "Corazón fa rima con canción.",
+          "uk": "Corazón римується з canción.",
+          "de": "Corazón reimt sich auf canción.",
+          "fr": "Corazón rime avec canción.",
+          "pt": "Corazón rima com canción.",
+          "zh": "corazón 和 canción 押韵。",
+          "hint": {
+            "en": "-ón and -ón: the same sounds from the stressed vowel on.",
+            "it": "-ón e -ón: gli stessi suoni dalla vocale accentata in poi.",
+            "uk": "-ón і -ón: однакові звуки, починаючи з наголошеного голосного.",
+            "de": "-ón und -ón: dieselben Laute ab dem betonten Vokal.",
+            "fr": "-ón et -ón : les mêmes sons à partir de la voyelle accentuée.",
+            "pt": "-ón e -ón: os mesmos sons a partir da vogal tônica.",
+            "zh": "-ón 和 -ón：从重读元音开始音都一样。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "fire",
+          "before": "Te doy mi corazón / y te canto una ",
+          "after": ".",
+          "label": "song",
+          "accepted": [
+            "canción"
+          ],
+          "en": "I give you my heart / and I sing you a song.",
+          "it": "Ti do il mio cuore / e ti canto una canzone.",
+          "uk": "Я віддаю тобі своє серце / і співаю тобі пісню.",
+          "de": "Ich gebe dir mein Herz / und singe dir ein Lied.",
+          "fr": "Je te donne mon cœur / et je te chante une chanson.",
+          "pt": "Eu te dou o meu coração / e te canto uma canção.",
+          "zh": "我把我的心给你 / 为你唱一首歌。",
+          "hint": {
+            "en": "corazón rhymes with canción.",
+            "it": "corazón fa rima con canción.",
+            "uk": "corazón римується з canción.",
+            "de": "corazón reimt sich auf canción.",
+            "fr": "corazón rime avec canción.",
+            "pt": "corazón rima com canción.",
+            "zh": "corazón 和 canción 押韵。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "casa",
+              "kind": "chunk"
+            },
+            {
+              "text": "·",
+              "kind": "chunk"
+            },
+            {
+              "text": "mañana",
+              "kind": "chunk"
+            },
+            {
+              "text": "=",
+              "kind": "chunk"
+            },
+            {
+              "text": "a-a",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "In la rima asonante, only the vowels match from the stressed vowel on; the consonants can change. Casa and mañana: a-a. It's very common in Spanish songs and popular poems.",
+            "it": "Nella rima asonante coincidono solo le vocali dalla vocale accentata in poi; le consonanti possono cambiare. Casa e mañana: a-a. È molto comune nelle canzoni e nelle poesie popolari spagnole.",
+            "uk": "У la rima asonante, починаючи з наголошеного голосного, збігаються лише голосні; приголосні можуть бути різні. Casa і mañana: a-a. Така рима дуже поширена в іспанських піснях і народних віршах.",
+            "de": "Bei la rima asonante stimmen ab dem betonten Vokal nur die Vokale überein; die Konsonanten können wechseln. Casa und mañana: a-a. Das ist in spanischen Liedern und Volksgedichten sehr häufig.",
+            "fr": "Dans la rima asonante, seules les voyelles sont identiques à partir de la voyelle accentuée ; les consonnes peuvent changer. Casa et mañana : a-a. C'est très courant dans les chansons et les poèmes populaires espagnols. En français, on parle d'assonance.",
+            "pt": "Na rima asonante, só as vogais coincidem a partir da vogal tônica; as consoantes podem mudar. Casa e mañana: a-a. É muito comum nas canções e nos poemas populares espanhóis.",
+            "zh": "在 la rima asonante（元音韵）里，从重读元音开始只有元音相同，辅音可以不同。casa 和 mañana：a-a。这在西班牙语歌曲和民间诗歌里非常常见。"
+          },
+          "examples": [
+            {
+              "es": "Casa y mañana tienen rima asonante.",
+              "en": "Casa and mañana have assonant rhyme (a-a).",
+              "it": "Casa e mañana hanno una rima assonante (a-a).",
+              "uk": "Casa і mañana мають асонансну риму (a-a).",
+              "de": "Casa und mañana haben einen assonanten Reim (a-a).",
+              "fr": "Casa et mañana ont une rime assonante (a-a).",
+              "pt": "Casa e mañana têm rima toante (a-a).",
+              "zh": "casa 和 mañana 押元音韵（a-a）。"
+            },
+            {
+              "es": "Corazón y canción tienen rima consonante.",
+              "en": "Corazón and canción have full rhyme.",
+              "it": "Corazón e canción hanno una rima consonante.",
+              "uk": "Corazón і canción мають точну риму.",
+              "de": "Corazón und canción haben einen reinen Reim.",
+              "fr": "Corazón et canción ont une rime consonante.",
+              "pt": "Corazón e canción têm rima consoante.",
+              "zh": "corazón 和 canción 押全韵。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "la rima asonante",
+              "en": "assonant rhyme (only the vowels match)",
+              "it": "la rima assonante (solo le vocali uguali)",
+              "uk": "асонансна рима (збігаються лише голосні)",
+              "de": "der assonante Reim (nur die Vokale stimmen überein)",
+              "fr": "la rime assonante, l'assonance (seules les voyelles sont identiques)",
+              "pt": "a rima toante (só as vogais coincidem)",
+              "zh": "元音韵（只有元音相同）"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Casa y mañana tienen rima ",
+          "after": ".",
+          "options": [
+            "asonante",
+            "consonante"
+          ],
+          "answer": "asonante",
+          "en": "Casa and mañana have assonant rhyme.",
+          "it": "Casa e mañana hanno una rima assonante.",
+          "uk": "Casa і mañana мають асонансну риму.",
+          "de": "Casa und mañana haben einen assonanten Reim.",
+          "fr": "Casa et mañana ont une rime assonante.",
+          "pt": "Casa e mañana têm rima toante.",
+          "zh": "casa 和 mañana 押元音韵。",
+          "hint": {
+            "en": "Only the vowels match (a-a): asonante.",
+            "it": "Coincidono solo le vocali (a-a): asonante.",
+            "uk": "Збігаються лише голосні (a-a): asonante.",
+            "de": "Nur die Vokale stimmen überein (a-a): asonante.",
+            "fr": "Seules les voyelles sont identiques (a-a) : asonante.",
+            "pt": "Só as vogais coincidem (a-a): asonante.",
+            "zh": "只有元音相同（a-a）：asonante。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "fire",
+          "before": "Noche y coche tienen rima ",
+          "after": ".",
+          "options": [
+            "consonante",
+            "asonante"
+          ],
+          "answer": "consonante",
+          "en": "Noche and coche have full rhyme.",
+          "it": "Noche e coche hanno una rima consonante.",
+          "uk": "Noche і coche мають точну риму.",
+          "de": "Noche und coche haben einen reinen Reim.",
+          "fr": "Noche et coche ont une rime consonante.",
+          "pt": "Noche e coche têm rima consoante.",
+          "zh": "noche 和 coche 押全韵。",
+          "hint": {
+            "en": "-oche and -oche: every sound matches, so consonante.",
+            "it": "-oche e -oche: tutti i suoni coincidono, quindi consonante.",
+            "uk": "-oche і -oche: збігаються всі звуки, отже consonante.",
+            "de": "-oche und -oche: Jeder Laut stimmt überein, also consonante.",
+            "fr": "-oche et -oche : tous les sons sont identiques, donc consonante.",
+            "pt": "-oche e -oche: todos os sons coincidem, então consonante.",
+            "zh": "-oche 和 -oche：每个音都一样，所以是 consonante。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "¿Qué es poesía?",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "Read a poem slowly, with a short pause at the end of each verso. Here's a famous rima by Gustavo Adolfo Bécquer (1871): a woman asks the poet what poetry is, and he answers her.",
+            "it": "Leggi una poesia piano, con una breve pausa alla fine di ogni verso. Ecco una famosa rima di Gustavo Adolfo Bécquer (1871): una donna chiede al poeta che cos'è la poesia, e lui le risponde.",
+            "uk": "Читай вірш повільно, з короткою паузою в кінці кожного verso. Ось відома rima Густаво Адольфо Беккера (1871): жінка питає поета, що таке поезія, і він їй відповідає.",
+            "de": "Lies ein Gedicht langsam, mit einer kurzen Pause am Ende jedes verso. Hier ist eine berühmte rima von Gustavo Adolfo Bécquer (1871): Eine Frau fragt den Dichter, was Poesie ist, und er antwortet ihr.",
+            "fr": "Lis un poème lentement, avec une petite pause à la fin de chaque verso. Voici une rima célèbre de Gustavo Adolfo Bécquer (1871) : une femme demande au poète ce qu'est la poésie, et il lui répond.",
+            "pt": "Leia um poema devagar, com uma pequena pausa no fim de cada verso. Aqui está uma famosa rima de Gustavo Adolfo Bécquer (1871): uma mulher pergunta ao poeta o que é poesia, e ele responde.",
+            "zh": "读诗要慢，每个 verso 结尾稍作停顿。这是古斯塔沃·阿道夫·贝克尔（1871）的一首有名的 rima：一个女人问诗人什么是诗，诗人回答了她。"
+          },
+          "examples": [
+            {
+              "es": "¿Qué es poesía?, dices mientras clavas / en mi pupila tu pupila azul.",
+              "en": "What is poetry?, you ask, as you fix / your blue eyes on mine.",
+              "it": "Che cos'è la poesia?, dici mentre pianti / nella mia pupilla la tua pupilla azzurra.",
+              "uk": "«Що таке поезія?» — питаєш ти, впиваючись / у мої очі своїми блакитними очима.",
+              "de": "Was ist Poesie?, fragst du, während du / deine blauen Augen fest in meine senkst.",
+              "fr": "Qu'est-ce que la poésie ?, dis-tu en fixant / dans mes yeux tes yeux bleus.",
+              "pt": "O que é poesia?, você diz, enquanto crava / em minha pupila a sua pupila azul.",
+              "zh": "“什么是诗？”你说着，把你蓝色的眸子 / 凝望进我的眸子。"
+            },
+            {
+              "es": "¿Qué es poesía? ¿Y tú me lo preguntas? / Poesía… eres tú.",
+              "en": "What is poetry? And you're asking me? / Poetry… is you.",
+              "it": "Che cos'è la poesia? E tu me lo chiedi? / La poesia… sei tu.",
+              "uk": "Що таке поезія? І ти мене про це питаєш? / Поезія… це ти.",
+              "de": "Was ist Poesie? Und das fragst du mich? / Poesie … bist du.",
+              "fr": "Qu'est-ce que la poésie ? Et c'est toi qui me le demandes ? / La poésie… c'est toi.",
+              "pt": "O que é poesia? E é você que me pergunta? / Poesia… é você.",
+              "zh": "什么是诗？你竟来问我？/ 诗……就是你。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "clavas",
+              "en": "you fix (your eyes), lit. you nail",
+              "it": "pianti, fissi (lo sguardo); lett. inchiodi",
+              "uk": "впиваєшся (поглядом), досл.: забиваєш (як цвях)",
+              "de": "du heftest (deinen Blick), wörtl. du nagelst",
+              "fr": "tu fixes (ton regard), litt. tu cloues",
+              "pt": "você crava (os olhos), lit. você prega",
+              "zh": "你凝视（字面意思：你钉住）"
+            },
+            {
+              "es": "la pupila",
+              "en": "the pupil (of the eye)",
+              "it": "la pupilla",
+              "uk": "зіниця (ока)",
+              "de": "die Pupille",
+              "fr": "la pupille (de l'œil)",
+              "pt": "a pupila",
+              "zh": "瞳孔，眸子"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "¿Qué es poesía? ¿Y tú me lo preguntas? Poesía… eres ",
+          "after": ".",
+          "options": [
+            "tú",
+            "yo",
+            "azul"
+          ],
+          "answer": "tú",
+          "en": "What is poetry? And you're asking me? Poetry… is you.",
+          "it": "Che cos'è la poesia? E tu me lo chiedi? La poesia… sei tu.",
+          "uk": "Що таке поезія? І ти мене про це питаєш? Поезія… це ти.",
+          "de": "Was ist Poesie? Und das fragst du mich? Poesie … bist du.",
+          "fr": "Qu'est-ce que la poésie ? Et c'est toi qui me le demandes ? La poésie… c'est toi.",
+          "pt": "O que é poesia? E é você que me pergunta? Poesia… é você.",
+          "zh": "什么是诗？你竟来问我？诗……就是你。",
+          "hint": {
+            "en": "The poet's answer: the woman herself is poetry, eres tú.",
+            "it": "La risposta del poeta: la poesia è la donna stessa, eres tú.",
+            "uk": "Відповідь поета: поезія — це сама жінка, eres tú.",
+            "de": "Die Antwort des Dichters: Die Frau selbst ist die Poesie, eres tú.",
+            "fr": "La réponse du poète : la poésie, c'est la femme elle-même, eres tú.",
+            "pt": "A resposta do poeta: a própria mulher é a poesia, eres tú.",
+            "zh": "诗人的回答：这个女人本身就是诗，eres tú。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "fire",
+          "before": "En el poema, azul y tú tienen rima ",
+          "after": ".",
+          "options": [
+            "asonante",
+            "consonante"
+          ],
+          "answer": "asonante",
+          "en": "In the poem, azul and tú have assonant rhyme.",
+          "it": "Nella poesia, azul e tú hanno una rima assonante.",
+          "uk": "У вірші azul і tú мають асонансну риму.",
+          "de": "Im Gedicht haben azul und tú einen assonanten Reim.",
+          "fr": "Dans le poème, azul et tú ont une rime assonante.",
+          "pt": "No poema, azul e tú têm rima toante.",
+          "zh": "在这首诗里，azul 和 tú 押元音韵。",
+          "hint": {
+            "en": "Only the stressed u matches; azul has an l after it: asonante.",
+            "it": "Coincide solo la u accentata; azul ha una l dopo: asonante.",
+            "uk": "Збігається лише наголошене u; в azul після нього ще l: asonante.",
+            "de": "Nur das betonte u stimmt überein; bei azul folgt noch ein l: asonante.",
+            "fr": "Seul le u accentué est identique ; azul a un l après : asonante.",
+            "pt": "Só o u tônico coincide; azul tem um l depois: asonante.",
+            "zh": "只有重读的 u 相同；azul 后面还有个 l：所以是 asonante。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "Luna rima con ",
+          "after": ".",
+          "options": [
+            "una",
+            "casa",
+            "canción"
+          ],
+          "answer": "una",
+          "en": "Luna rhymes with una.",
+          "it": "Luna fa rima con una.",
+          "uk": "Мені дуже подобається останній рядок вірша: «Поезія… це ти».",
+          "de": "Luna reimt sich auf una.",
+          "fr": "Luna rime avec una.",
+          "pt": "Luna rima com una.",
+          "zh": "luna 和 una 押韵。",
+          "hint": {
+            "en": "-una and -una: the same sounds.",
+            "it": "-una e -una: gli stessi suoni.",
+            "uk": "Один рядок вірша — це un verso.",
+            "de": "-una und -una: dieselben Laute.",
+            "fr": "-una et -una : les mêmes sons.",
+            "pt": "-una e -una: os mesmos sons.",
+            "zh": "-una 和 -una：音都一样。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "Me encanta el último ",
+          "after": " del poema: «Poesía… eres tú».",
+          "options": [
+            "verso",
+            "poema",
+            "rima"
+          ],
+          "answer": "verso",
+          "en": "I love the last line of the poem: «Poesía… eres tú».",
+          "it": "Adoro l'ultimo verso della poesia: «Poesía… eres tú».",
+          "uk": "Luna римується з una.",
+          "de": "Ich liebe den letzten Vers des Gedichts: «Poesía… eres tú».",
+          "fr": "J'adore le dernier vers du poème : «Poesía… eres tú».",
+          "pt": "Adoro o último verso do poema: «Poesía… eres tú».",
+          "zh": "我很喜欢这首诗的最后一行：«Poesía… eres tú»。",
+          "hint": {
+            "en": "One line of a poem is un verso.",
+            "it": "Una riga di una poesia è un verso.",
+            "uk": "-una і -una: однакові звуки.",
+            "de": "Eine Zeile eines Gedichts ist un verso.",
+            "fr": "Une ligne d'un poème, c'est un verso.",
+            "pt": "Uma linha de um poema é un verso.",
+            "zh": "诗的一行叫 un verso。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "Casa y mañana no tienen rima consonante; tienen rima ",
+          "after": ".",
+          "options": [
+            "asonante",
+            "consonante"
+          ],
+          "answer": "asonante",
+          "en": "Casa and mañana don't have full rhyme; they have assonant rhyme.",
+          "it": "Casa e mañana non hanno una rima consonante; hanno una rima assonante.",
+          "uk": "Casa і mañana не мають точної рими; вони мають асонансну риму.",
+          "de": "Casa und mañana haben keinen reinen Reim; sie haben einen assonanten Reim.",
+          "fr": "Casa et mañana n'ont pas de rime consonante ; elles ont une rime assonante.",
+          "pt": "Casa e mañana não têm rima consoante; têm rima toante.",
+          "zh": "casa 和 mañana 不押全韵，押的是元音韵。",
+          "hint": {
+            "en": "Only the vowels match (a-a): asonante.",
+            "it": "Coincidono solo le vocali (a-a): asonante.",
+            "uk": "Збігаються лише голосні (a-a): asonante.",
+            "de": "Nur die Vokale stimmen überein (a-a): asonante.",
+            "fr": "Seules les voyelles sont identiques (a-a) : asonante.",
+            "pt": "Só as vogais coincidem (a-a): asonante.",
+            "zh": "只有元音相同（a-a）：asonante。"
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "You're reading Bécquer's poem aloud at a poetry evening and you reach the last line. Write in Spanish: «Poetry… is you.»",
+            "it": "Stai leggendo ad alta voce la poesia di Bécquer a una serata di poesia e arrivi all'ultimo verso. Scrivi in spagnolo: «La poesia… sei tu.»",
+            "uk": "Ти читаєш уголос вірш Беккера на поетичному вечорі й доходиш до останнього рядка. Напиши іспанською: «Поезія… це ти.»",
+            "de": "Du liest bei einem Poesieabend Bécquers Gedicht laut vor und kommst zum letzten Vers. Schreib auf Spanisch: «Poesie … bist du.»",
+            "fr": "Tu lis le poème de Bécquer à voix haute lors d'une soirée poésie et tu arrives au dernier vers. Écris en espagnol : «La poésie… c'est toi.»",
+            "pt": "Você está lendo em voz alta o poema de Bécquer num sarau de poesia e chega ao último verso. Escreva em espanhol: «Poesia… é você.»",
+            "zh": "你在一个诗歌朗诵晚会上朗读贝克尔的诗，读到了最后一行。用西班牙语写：«诗……就是你。»"
+          },
+          "accepted": [
+            "Poesía… eres tú.",
+            "Poesía eres tú.",
+            "La poesía eres tú.",
+            "Poesía... eres tú."
+          ],
+          "model": {
+            "es": "Poesía… eres tú.",
+            "en": "Poetry… is you.",
+            "it": "La poesia… sei tu.",
+            "uk": "Поезія… це ти.",
+            "de": "Poesie … bist du.",
+            "fr": "La poésie… c'est toi.",
+            "pt": "Poesia… é você.",
+            "zh": "诗……就是你。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u52l3",
+      "goal": {
+        "en": "Tell who is telling the story: a first-person narrator (abrí la puerta) is inside the story and only knows what he sees and feels; a third-person narrator (abrió la puerta) is outside it and can know everything, even what the characters think.",
+        "it": "Riconosci chi racconta la storia: un narratore in prima persona (abrí la puerta) è dentro la storia e sa solo quello che vede e sente; un narratore in terza persona (abrió la puerta) è fuori e può sapere tutto, anche quello che pensano i personaggi.",
+        "uk": "Визначай, хто розповідає історію: оповідач від першої особи (abrí la puerta) перебуває всередині історії і знає лише те, що бачить і відчуває; оповідач від третьої особи (abrió la puerta) — поза нею і може знати все, навіть те, що думають персонажі.",
+        "de": "Sag, wer die Geschichte erzählt: Ein Ich-Erzähler (abrí la puerta) ist Teil der Geschichte und weiß nur, was er sieht und fühlt; ein Er-Erzähler (abrió la puerta) steht außerhalb und kann alles wissen, sogar was die Figuren denken.",
+        "fr": "Dis qui raconte l'histoire : un narrateur à la première personne (abrí la puerta) est dans l'histoire et ne sait que ce qu'il voit et ressent ; un narrateur à la troisième personne (abrió la puerta) est en dehors et peut tout savoir, même ce que pensent les personnages.",
+        "pt": "Diga quem conta a história: um narrador em primeira pessoa (abrí la puerta) está dentro da história e só sabe o que vê e sente; um narrador em terceira pessoa (abrió la puerta) está fora dela e pode saber tudo, até o que os personagens pensam.",
+        "zh": "分清是谁在讲故事：第一人称的叙述者（abrí la puerta）在故事里面，只知道自己看到和感受到的；第三人称的叙述者（abrió la puerta）在故事外面，可以无所不知，连人物心里想什么都知道。"
+      },
+      "target": {
+        "es": "El cuento está escrito en primera persona: el narrador es un niño.",
+        "en": "The story is written in the first person: the narrator is a child.",
+        "it": "Il racconto è scritto in prima persona: il narratore è un bambino.",
+        "uk": "Оповідання написане від першої особи: оповідач — дитина.",
+        "de": "Die Geschichte ist in der ersten Person geschrieben: Der Erzähler ist ein Kind.",
+        "fr": "La nouvelle est écrite à la première personne : le narrateur est un enfant.",
+        "pt": "O conto está escrito em primeira pessoa: o narrador é uma criança.",
+        "zh": "这个故事是用第一人称写的：叙述者是个孩子。"
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "el narrador / la narradora",
+              "en": "the narrator",
+              "it": "il narratore / la narratrice",
+              "uk": "оповідач / оповідачка",
+              "de": "der Erzähler / die Erzählerin",
+              "fr": "le narrateur / la narratrice",
+              "pt": "o narrador / a narradora",
+              "zh": "叙述者",
+              "kind": "chunk"
+            },
+            {
+              "es": "en primera persona",
+              "en": "in the first person",
+              "it": "in prima persona",
+              "uk": "від першої особи",
+              "de": "in der ersten Person",
+              "fr": "à la première personne",
+              "pt": "em primeira pessoa",
+              "zh": "用第一人称",
+              "kind": "chunk"
+            },
+            {
+              "es": "en tercera persona",
+              "en": "in the third person",
+              "it": "in terza persona",
+              "uk": "від третьої особи",
+              "de": "in der dritten Person",
+              "fr": "à la troisième personne",
+              "pt": "em terceira pessoa",
+              "zh": "用第三人称",
+              "kind": "chunk"
+            },
+            {
+              "es": "el personaje",
+              "en": "the character (in a story)",
+              "it": "il personaggio",
+              "uk": "персонаж (в історії)",
+              "de": "die Figur (in einer Geschichte; el personaje ist maskulin)",
+              "fr": "le personnage",
+              "pt": "o personagem",
+              "zh": "（故事里的）人物",
+              "kind": "chunk"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "yo",
+              "kind": "ending"
+            },
+            {
+              "text": "+",
+              "kind": "chunk"
+            },
+            {
+              "text": "abrí",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "In a story en primera persona, the narrator is one of the characters and says yo: abrí la puerta. He can only tell what he sees, hears and feels.",
+            "it": "In una storia en primera persona, il narratore è uno dei personaggi e dice yo: abrí la puerta. Può raccontare solo quello che vede, sente e prova.",
+            "uk": "В історії en primera persona оповідач — один із персонажів і каже yo: abrí la puerta. Він може розповісти лише те, що бачить, чує і відчуває.",
+            "de": "In einer Geschichte en primera persona ist der Erzähler eine der Figuren und sagt yo: abrí la puerta. Er kann nur erzählen, was er sieht, hört und fühlt.",
+            "fr": "Dans une histoire en primera persona, le narrateur est l'un des personnages et dit yo : abrí la puerta. Il ne peut raconter que ce qu'il voit, entend et ressent.",
+            "pt": "Numa história en primera persona, o narrador é um dos personagens e diz yo: abrí la puerta. Ele só pode contar o que vê, ouve e sente.",
+            "zh": "在 en primera persona（第一人称）的故事里，叙述者是其中一个人物，说的是 yo：abrí la puerta。他只能讲自己看到、听到和感受到的。"
+          },
+          "examples": [
+            {
+              "es": "Aquella noche no pude dormir.",
+              "en": "That night I couldn't sleep.",
+              "it": "Quella notte non riuscii a dormire.",
+              "uk": "Тієї ночі я не зміг(-ла) заснути.",
+              "de": "In jener Nacht konnte ich nicht schlafen.",
+              "fr": "Cette nuit-là, je n'ai pas pu dormir.",
+              "pt": "Naquela noite eu não consegui dormir.",
+              "zh": "那天晚上我睡不着。"
+            },
+            {
+              "es": "Abrí la puerta y no vi a nadie.",
+              "en": "I opened the door and didn't see anyone.",
+              "it": "Aprii la porta e non vidi nessuno.",
+              "uk": "Я відчинив(-ла) двері й нікого не побачив(-ла).",
+              "de": "Ich öffnete die Tür und sah niemanden.",
+              "fr": "J'ai ouvert la porte et je n'ai vu personne.",
+              "pt": "Abri a porta e não vi ninguém.",
+              "zh": "我打开门，谁也没看见。"
+            },
+            {
+              "es": "El narrador dice «yo»: está escrito en primera persona.",
+              "en": "The narrator says «yo»: it's written in the first person.",
+              "it": "Il narratore dice «yo»: è scritto in prima persona.",
+              "uk": "Оповідач каже «yo»: текст написано від першої особи.",
+              "de": "Der Erzähler sagt «yo»: Es ist in der ersten Person geschrieben.",
+              "fr": "Le narrateur dit «yo» : c'est écrit à la première personne.",
+              "pt": "O narrador diz «yo»: está escrito em primeira pessoa.",
+              "zh": "叙述者说 «yo»：这是用第一人称写的。"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Abrí la puerta y no ",
+          "after": " a nadie.",
+          "options": [
+            "vi",
+            "vio"
+          ],
+          "answer": "vi",
+          "en": "I opened the door and didn't see anyone.",
+          "it": "Aprii la porta e non vidi nessuno.",
+          "uk": "Я відчинив(-ла) двері й нікого не побачив(-ла).",
+          "de": "Ich öffnete die Tür und sah niemanden.",
+          "fr": "J'ai ouvert la porte et je n'ai vu personne.",
+          "pt": "Abri a porta e não vi ninguém.",
+          "zh": "我打开门，谁也没看见。",
+          "hint": {
+            "en": "First person, yo: abrí… vi.",
+            "it": "Prima persona, yo: abrí… vi.",
+            "uk": "Перша особа, yo: abrí… vi.",
+            "de": "Erste Person, yo: abrí … vi.",
+            "fr": "Première personne, yo : abrí… vi.",
+            "pt": "Primeira pessoa, yo: abrí… vi.",
+            "zh": "第一人称，yo：abrí… vi。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "fire",
+          "before": "«Abrí la puerta y no vi a nadie»: el cuento está escrito en ",
+          "after": " persona.",
+          "options": [
+            "primera",
+            "tercera"
+          ],
+          "answer": "primera",
+          "en": "«Abrí la puerta y no vi a nadie»: the story is written in the first person.",
+          "it": "«Abrí la puerta y no vi a nadie»: il racconto è scritto in prima persona.",
+          "uk": "«Abrí la puerta y no vi a nadie»: оповідання написане від першої особи.",
+          "de": "«Abrí la puerta y no vi a nadie»: Die Geschichte ist in der ersten Person geschrieben.",
+          "fr": "«Abrí la puerta y no vi a nadie» : l'histoire est écrite à la première personne.",
+          "pt": "«Abrí la puerta y no vi a nadie»: o conto está escrito em primeira pessoa.",
+          "zh": "«Abrí la puerta y no vi a nadie»：这个故事是用第一人称写的。",
+          "hint": {
+            "en": "abrí and vi are yo forms: first person.",
+            "it": "abrí e vi sono forme di yo: prima persona.",
+            "uk": "abrí і vi — форми для yo: перша особа.",
+            "de": "abrí und vi sind yo-Formen: erste Person.",
+            "fr": "abrí et vi sont des formes de yo : première personne.",
+            "pt": "abrí e vi são formas de yo: primeira pessoa.",
+            "zh": "abrí 和 vi 是 yo 的形式：第一人称。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "ella",
+              "kind": "ending"
+            },
+            {
+              "text": "+",
+              "kind": "chunk"
+            },
+            {
+              "text": "abrió",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "In a story en tercera persona, the narrator is outside the story and uses él and ella: abrió la puerta. He can know everything, even what the characters think: sabía que…, pensaba que…",
+            "it": "In una storia en tercera persona, il narratore è fuori dalla storia e usa él ed ella: abrió la puerta. Può sapere tutto, anche quello che pensano i personaggi: sabía que…, pensaba que…",
+            "uk": "В історії en tercera persona оповідач перебуває поза історією і вживає él та ella: abrió la puerta. Він може знати все, навіть те, що думають персонажі: sabía que…, pensaba que…",
+            "de": "In einer Geschichte en tercera persona steht der Erzähler außerhalb der Geschichte und benutzt él und ella: abrió la puerta. Er kann alles wissen, sogar was die Figuren denken: sabía que…, pensaba que…",
+            "fr": "Dans une histoire en tercera persona, le narrateur est en dehors de l'histoire et utilise él et ella : abrió la puerta. Il peut tout savoir, même ce que pensent les personnages : sabía que…, pensaba que…",
+            "pt": "Numa história en tercera persona, o narrador está fora da história e usa él e ella: abrió la puerta. Ele pode saber tudo, até o que os personagens pensam: sabía que…, pensaba que…",
+            "zh": "在 en tercera persona（第三人称）的故事里，叙述者在故事外面，用 él 和 ella：abrió la puerta。他可以无所不知，连人物心里想什么都知道：sabía que…，pensaba que…"
+          },
+          "examples": [
+            {
+              "es": "La mujer abrió la puerta y no vio a nadie.",
+              "en": "The woman opened the door and didn't see anyone.",
+              "it": "La donna aprì la porta e non vide nessuno.",
+              "uk": "Жінка відчинила двері й нікого не побачила.",
+              "de": "Die Frau öffnete die Tür und sah niemanden.",
+              "fr": "La femme a ouvert la porte et n'a vu personne.",
+              "pt": "A mulher abriu a porta e não viu ninguém.",
+              "zh": "那个女人打开门，谁也没看见。"
+            },
+            {
+              "es": "Sabía que alguien la miraba.",
+              "en": "She knew that someone was watching her.",
+              "it": "Sapeva che qualcuno la guardava.",
+              "uk": "Вона знала, що хтось на неї дивиться.",
+              "de": "Sie wusste, dass jemand sie beobachtete.",
+              "fr": "Elle savait que quelqu'un la regardait.",
+              "pt": "Ela sabia que alguém a observava.",
+              "zh": "她知道有人在看着她。"
+            },
+            {
+              "es": "El niño pensaba que nadie lo quería.",
+              "en": "The boy thought that nobody loved him.",
+              "it": "Il bambino pensava che nessuno gli volesse bene.",
+              "uk": "Хлопчик думав, що його ніхто не любить.",
+              "de": "Der Junge dachte, dass ihn niemand liebte.",
+              "fr": "Le petit garçon pensait que personne ne l'aimait.",
+              "pt": "O menino achava que ninguém gostava dele.",
+              "zh": "那个男孩觉得没有人爱他。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "sabía",
+              "en": "I / he / she knew (imperfect of saber)",
+              "it": "sapevo / sapeva",
+              "uk": "я знав(-ла) / він знав / вона знала («imperfecto» від saber)",
+              "de": "ich / er / sie wusste (Imperfekt von saber)",
+              "fr": "je / il / elle savait (imparfait de saber)",
+              "pt": "eu / ele / ela sabia (imperfeito de saber)",
+              "zh": "我 / 他 / 她知道（saber 的过去未完成时）"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "La mujer abrió la puerta y no ",
+          "after": " a nadie.",
+          "options": [
+            "vio",
+            "vi"
+          ],
+          "answer": "vio",
+          "en": "The woman opened the door and didn't see anyone.",
+          "it": "La donna aprì la porta e non vide nessuno.",
+          "uk": "Жінка відчинила двері й нікого не побачила.",
+          "de": "Die Frau öffnete die Tür und sah niemanden.",
+          "fr": "La femme a ouvert la porte et n'a vu personne.",
+          "pt": "A mulher abriu a porta e não viu ninguém.",
+          "zh": "那个女人打开门，谁也没看见。",
+          "hint": {
+            "en": "Third person, ella: abrió… vio.",
+            "it": "Terza persona, ella: abrió… vio.",
+            "uk": "Третя особа, ella: abrió… vio.",
+            "de": "Dritte Person, ella: abrió … vio.",
+            "fr": "Troisième personne, ella : abrió… vio.",
+            "pt": "Terceira pessoa, ella: abrió… vio.",
+            "zh": "第三人称，ella：abrió… vio。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "fire",
+          "before": "La mujer ",
+          "after": " que alguien la miraba.",
+          "label": "saber",
+          "accepted": [
+            "sabía"
+          ],
+          "en": "The woman knew that someone was watching her.",
+          "it": "La donna sapeva che qualcuno la guardava.",
+          "uk": "Жінка знала, що хтось на неї дивиться.",
+          "de": "Die Frau wusste, dass jemand sie beobachtete.",
+          "fr": "La femme savait que quelqu'un la regardait.",
+          "pt": "A mulher sabia que alguém a observava.",
+          "zh": "那个女人知道有人在看着她。",
+          "hint": {
+            "en": "Knowing is a state in the background: imperfect, sabía.",
+            "it": "Sapere è uno stato, uno sfondo: imperfetto, sabía.",
+            "uk": "Знання — це стан на тлі подій: «imperfecto», sabía.",
+            "de": "Wissen ist ein Zustand im Hintergrund: Imperfekt, sabía.",
+            "fr": "Savoir, c'est un état, en arrière-plan : imparfait, sabía.",
+            "pt": "Saber é um estado de fundo: imperfeito, sabía.",
+            "zh": "“知道”是背景里的一种状态：用过去未完成时，sabía。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "ella abrió",
+              "kind": "stem"
+            },
+            {
+              "text": "→",
+              "kind": "chunk"
+            },
+            {
+              "text": "abrí",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "To retell a third-person story in the first person, change él or ella to yo, and every verb with it: abrió → abrí, llegó → llegué, su casa → mi casa. In the imperfect, yo and ella look the same: sabía.",
+            "it": "Per raccontare in prima persona una storia in terza persona, cambia él o ella in yo, e con loro ogni verbo: abrió → abrí, llegó → llegué, su casa → mi casa. All'imperfetto, yo ed ella hanno la stessa forma: sabía.",
+            "uk": "Щоб переказати історію від третьої особи від першої, заміни él чи ella на yo, а разом із ними й кожне дієслово: abrió → abrí, llegó → llegué, su casa → mi casa. В «imperfecto» форми для yo та ella однакові: sabía.",
+            "de": "Um eine Geschichte in der dritten Person in der ersten Person nachzuerzählen, ändere él oder ella zu yo, und jedes Verb mit: abrió → abrí, llegó → llegué, su casa → mi casa. Im Imperfekt sehen yo und ella gleich aus: sabía.",
+            "fr": "Pour raconter à la première personne une histoire écrite à la troisième, remplace él ou ella par yo, et change chaque verbe avec : abrió → abrí, llegó → llegué, su casa → mi casa. À l'imparfait, yo et ella ont la même forme : sabía.",
+            "pt": "Para recontar em primeira pessoa uma história em terceira pessoa, troque él ou ella por yo, e todos os verbos junto: abrió → abrí, llegó → llegué, su casa → mi casa. No imperfeito, yo e ella têm a mesma forma: sabía (como em português: eu sabia, ela sabia).",
+            "zh": "要把第三人称的故事改成第一人称来讲，就把 él 或 ella 换成 yo，所有动词也跟着变：abrió → abrí，llegó → llegué，su casa → mi casa。在过去未完成时里，yo 和 ella 的形式一样：sabía。"
+          },
+          "examples": [
+            {
+              "es": "Abrí la puerta de mi casa.",
+              "en": "I opened the door of my house. (from: ella abrió la puerta de su casa)",
+              "it": "Aprii la porta di casa mia. (da: ella abrió la puerta de su casa)",
+              "uk": "Я відчинив(-ла) двері свого дому. (з: ella abrió la puerta de su casa)",
+              "de": "Ich öffnete die Tür meines Hauses. (aus: ella abrió la puerta de su casa)",
+              "fr": "J'ai ouvert la porte de ma maison. (à partir de : ella abrió la puerta de su casa)",
+              "pt": "Abri a porta da minha casa. (de: ella abrió la puerta de su casa)",
+              "zh": "我打开了我家的门。（原句：ella abrió la puerta de su casa）"
+            },
+            {
+              "es": "Llegué tarde.",
+              "en": "I arrived late. (from: él llegó tarde)",
+              "it": "Arrivai tardi. (da: él llegó tarde)",
+              "uk": "Я прийшов(-ла) пізно. (з: él llegó tarde)",
+              "de": "Ich kam spät an. (aus: él llegó tarde)",
+              "fr": "Je suis arrivé en retard. (à partir de : él llegó tarde)",
+              "pt": "Cheguei atrasado. (de: él llegó tarde)",
+              "zh": "我来晚了。（原句：él llegó tarde）"
+            },
+            {
+              "es": "Yo sabía la verdad.",
+              "en": "I knew the truth. (from: ella sabía la verdad)",
+              "it": "Io sapevo la verità. (da: ella sabía la verdad)",
+              "uk": "Я знав(-ла) правду. (з: ella sabía la verdad)",
+              "de": "Ich kannte die Wahrheit. (aus: ella sabía la verdad)",
+              "fr": "Moi, je savais la vérité. (à partir de : ella sabía la verdad)",
+              "pt": "Eu sabia a verdade. (de: ella sabía la verdad)",
+              "zh": "我知道真相。（原句：ella sabía la verdad）"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Yo ",
+          "after": " de casa muy pronto.",
+          "options": [
+            "salí",
+            "salió"
+          ],
+          "answer": "salí",
+          "en": "I left home very early. (first-person version of: ella salió de casa muy pronto)",
+          "it": "Io uscii di casa molto presto. (in prima persona, da: ella salió de casa muy pronto)",
+          "uk": "Я вийшов(-ла) з дому дуже рано. (версія від першої особи для: ella salió de casa muy pronto)",
+          "de": "Ich ging sehr früh von zu Hause los. (Ich-Fassung von: ella salió de casa muy pronto)",
+          "fr": "Je suis parti de chez moi très tôt. (version à la première personne de : ella salió de casa muy pronto)",
+          "pt": "Saí de casa muito cedo. (versão em primeira pessoa de: ella salió de casa muy pronto)",
+          "zh": "我很早就出门了。（第一人称版本，原句：ella salió de casa muy pronto）",
+          "hint": {
+            "en": "Now the narrator is yo: salí.",
+            "it": "Adesso il narratore è yo: salí.",
+            "uk": "Тепер оповідач — yo: salí.",
+            "de": "Jetzt ist der Erzähler yo: salí.",
+            "fr": "Maintenant, le narrateur est yo : salí.",
+            "pt": "Agora o narrador é yo: salí.",
+            "zh": "现在叙述者是 yo：salí。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "Retell this sentence in the first person: «Ella abrió la puerta de su casa.»",
+            "it": "Racconta questa frase in prima persona: «Ella abrió la puerta de su casa.»",
+            "uk": "Перекажи це речення від першої особи: «Ella abrió la puerta de su casa.»",
+            "de": "Erzähl diesen Satz in der ersten Person nach: «Ella abrió la puerta de su casa.»",
+            "fr": "Redis cette phrase à la première personne : «Ella abrió la puerta de su casa.»",
+            "pt": "Reconte esta frase em primeira pessoa: «Ella abrió la puerta de su casa.»",
+            "zh": "用第一人称把这句话重新讲一遍：«Ella abrió la puerta de su casa.»"
+          },
+          "accepted": [
+            "Abrí la puerta de mi casa.",
+            "Yo abrí la puerta de mi casa."
+          ],
+          "tiles": [
+            "Abrí",
+            "la puerta",
+            "de mi casa",
+            "abrió",
+            "su"
+          ],
+          "en": "I opened the door of my house.",
+          "it": "Aprii la porta di casa mia.",
+          "uk": "Я відчинив(-ла) двері свого дому.",
+          "de": "Ich öffnete die Tür meines Hauses.",
+          "fr": "J'ai ouvert la porte de ma maison.",
+          "pt": "Abri a porta da minha casa.",
+          "zh": "我打开了我家的门。",
+          "hint": {
+            "en": "yo: abrí, and su casa becomes mi casa.",
+            "it": "yo: abrí, e su casa diventa mi casa.",
+            "uk": "yo: abrí, а su casa стає mi casa.",
+            "de": "yo: abrí, und aus su casa wird mi casa.",
+            "fr": "yo : abrí, et su casa devient mi casa.",
+            "pt": "yo: abrí, e su casa vira mi casa.",
+            "zh": "yo：abrí，su casa 要变成 mi casa。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "«La niña abrió la puerta»: está escrito en ",
+          "after": " persona.",
+          "options": [
+            "tercera",
+            "primera"
+          ],
+          "answer": "tercera",
+          "en": "«La niña abrió la puerta»: it's written in the third person.",
+          "it": "«La niña abrió la puerta»: è scritto in terza persona.",
+          "uk": "«La niña abrió la puerta»: текст написано від третьої особи.",
+          "de": "«La niña abrió la puerta»: Es ist in der dritten Person geschrieben.",
+          "fr": "«La niña abrió la puerta» : c'est écrit à la troisième personne.",
+          "pt": "«La niña abrió la puerta»: está escrito em terceira pessoa.",
+          "zh": "«La niña abrió la puerta»：这是用第三人称写的。",
+          "hint": {
+            "en": "la niña… abrió: the narrator talks about her, so third person.",
+            "it": "la niña… abrió: il narratore parla di lei, quindi terza persona.",
+            "uk": "la niña… abrió: оповідач розповідає про неї, отже це третя особа.",
+            "de": "la niña … abrió: Der Erzähler spricht über sie, also dritte Person.",
+            "fr": "la niña… abrió : le narrateur parle d'elle, donc troisième personne.",
+            "pt": "la niña… abrió: o narrador fala dela, então terceira pessoa.",
+            "zh": "la niña… abrió：叙述者在讲她，所以是第三人称。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "Llegué a casa muy tarde y ",
+          "after": " que no había nadie.",
+          "options": [
+            "vi",
+            "vio"
+          ],
+          "answer": "vi",
+          "en": "I got home very late and saw that there was nobody there.",
+          "it": "Arrivai a casa molto tardi e vidi che non c'era nessuno.",
+          "uk": "Я повернувся(-лася) додому дуже пізно й побачив(-ла), що там нікого немає.",
+          "de": "Ich kam sehr spät nach Hause und sah, dass niemand da war.",
+          "fr": "Je suis rentré très tard et j'ai vu qu'il n'y avait personne.",
+          "pt": "Cheguei em casa muito tarde e vi que não havia ninguém.",
+          "zh": "我很晚才到家，发现家里一个人也没有。",
+          "hint": {
+            "en": "llegué is yo, so vi.",
+            "it": "llegué è yo, quindi vi.",
+            "uk": "llegué — це yo, тому vi.",
+            "de": "llegué ist yo, also vi.",
+            "fr": "llegué, c'est yo, donc vi.",
+            "pt": "llegué é yo, então vi.",
+            "zh": "llegué 是 yo 的形式，所以用 vi。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "mix",
+          "before": "En este cuento, el ",
+          "after": " es un niño de diez años: dice «yo» todo el tiempo.",
+          "label": "narrator",
+          "accepted": [
+            "narrador"
+          ],
+          "en": "In this story, the narrator is a ten-year-old boy: he says «yo» all the time.",
+          "it": "In questo racconto, il narratore è un bambino di dieci anni: dice «yo» di continuo.",
+          "uk": "У цьому оповіданні оповідач — десятирічний хлопчик: він постійно каже «yo».",
+          "de": "In dieser Geschichte ist der Erzähler ein zehnjähriger Junge: Er sagt ständig «yo».",
+          "fr": "Dans cette histoire, le narrateur est un garçon de dix ans : il dit «yo» tout le temps.",
+          "pt": "Neste conto, o narrador é um menino de dez anos: ele diz «yo» o tempo todo.",
+          "zh": "在这个故事里，叙述者是一个十岁的男孩：他一直在说 «yo»。",
+          "hint": {
+            "en": "The one who tells the story: el narrador.",
+            "it": "Chi racconta la storia: el narrador.",
+            "uk": "Той, хто розповідає історію: el narrador.",
+            "de": "Wer die Geschichte erzählt: el narrador.",
+            "fr": "Celui qui raconte l'histoire : el narrador.",
+            "pt": "Quem conta a história: el narrador.",
+            "zh": "讲故事的人：el narrador。"
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "You're commenting on a story at your reading group. Write in Spanish: «The story is written in the first person: the narrator is a child.»",
+            "it": "Stai commentando un racconto al tuo gruppo di lettura. Scrivi in spagnolo: «Il racconto è scritto in prima persona: il narratore è un bambino.»",
+            "uk": "Ти обговорюєш оповідання у своєму читацькому клубі. Напиши іспанською: «Оповідання написане від першої особи: оповідач — дитина.»",
+            "de": "Du sprichst in deinem Lesekreis über eine Geschichte. Schreib auf Spanisch: «Die Geschichte ist in der ersten Person geschrieben: Der Erzähler ist ein Kind.»",
+            "fr": "Tu commentes une nouvelle dans ton club de lecture. Écris en espagnol : «La nouvelle est écrite à la première personne : le narrateur est un enfant.»",
+            "pt": "Você está comentando um conto no seu grupo de leitura. Escreva em espanhol: «O conto está escrito em primeira pessoa: o narrador é uma criança.»",
+            "zh": "你在读书小组里评论一个故事。用西班牙语写：«这个故事是用第一人称写的：叙述者是个孩子。»"
+          },
+          "accepted": [
+            "El cuento está escrito en primera persona: el narrador es un niño.",
+            "El cuento está escrito en primera persona; el narrador es un niño.",
+            "El cuento está escrito en primera persona y el narrador es un niño.",
+            "El cuento está escrito en primera persona: la narradora es una niña."
+          ],
+          "model": {
+            "es": "El cuento está escrito en primera persona: el narrador es un niño.",
+            "en": "The story is written in the first person: the narrator is a child.",
+            "it": "Il racconto è scritto in prima persona: il narratore è un bambino.",
+            "uk": "Оповідання написане від першої особи: оповідач — дитина.",
+            "de": "Die Geschichte ist in der ersten Person geschrieben: Der Erzähler ist ein Kind.",
+            "fr": "La nouvelle est écrite à la première personne : le narrateur est un enfant.",
+            "pt": "O conto está escrito em primeira pessoa: o narrador é uma criança.",
+            "zh": "这个故事是用第一人称写的：叙述者是个孩子。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u52l4",
+      "goal": {
+        "en": "Recognise the future subjunctive, an old form ending in -re that survives only in proverbs, fixed phrases and legal texts: adonde fueres, haz lo que vieres, sea como fuere, si el cliente no pagare… Understand it when you read it; when you speak, use today's forms (adonde vayas, sea como sea, si no paga).",
+        "it": "Riconosci il congiuntivo futuro, una forma antica in -re che sopravvive solo nei proverbi, in espressioni fisse e nei testi giuridici: adonde fueres, haz lo que vieres, sea como fuere, si el cliente no pagare… Capiscilo quando lo leggi; quando parli, usa le forme di oggi (adonde vayas, sea como sea, si no paga).",
+        "uk": "Розпізнавай «futuro de subjuntivo» (майбутній час кон'юнктиву) — стару форму на -re, яка збереглася лише в прислів'ях, сталих виразах і юридичних текстах: adonde fueres, haz lo que vieres, sea como fuere, si el cliente no pagare… Розумій її, коли читаєш; а в розмові вживай сучасні форми (adonde vayas, sea como sea, si no paga).",
+        "de": "Erkenne den futuro de subjuntivo (spanischer Konjunktiv Futur), eine alte Form auf -re, die nur noch in Sprichwörtern, festen Wendungen und Gesetzestexten überlebt: adonde fueres, haz lo que vieres, sea como fuere, si el cliente no pagare… Versteh ihn beim Lesen; beim Sprechen nimm die heutigen Formen (adonde vayas, sea como sea, si no paga).",
+        "fr": "Reconnais le futur du subjonctif (futuro de subjuntivo), une forme ancienne en -re qui ne survit que dans les proverbes, les expressions figées et les textes juridiques : adonde fueres, haz lo que vieres, sea como fuere, si el cliente no pagare… Comprends-le quand tu le lis ; quand tu parles, utilise les formes d'aujourd'hui (adonde vayas, sea como sea, si no paga).",
+        "pt": "Reconheça o futuro do subjuntivo, uma forma antiga terminada em -re que em espanhol só sobrevive em provérbios, expressões fixas e textos jurídicos: adonde fueres, haz lo que vieres, sea como fuere, si el cliente no pagare… Entenda quando ler; ao falar, use as formas atuais (adonde vayas, sea como sea, si no paga). Em português o futuro do subjuntivo continua vivo (aonde você for, quando vier), mas em espanhol não!",
+        "zh": "认识将来时虚拟式（futuro de subjuntivo）：这是一种以 -re 结尾的古老形式，只保留在谚语、固定说法和法律文本里：adonde fueres, haz lo que vieres，sea como fuere，si el cliente no pagare… 读到时能看懂就行；说话时用今天的形式（adonde vayas，sea como sea，si no paga）。"
+      },
+      "target": {
+        "es": "Adonde fueres, haz lo que vieres.",
+        "en": "When in Rome, do as the Romans do.",
+        "it": "Paese che vai, usanza che trovi.",
+        "uk": "У чужий монастир зі своїм статутом не ходять.",
+        "de": "Andere Länder, andere Sitten.",
+        "fr": "À Rome, fais comme les Romains.",
+        "pt": "Em Roma, faça como os romanos.",
+        "zh": "入乡随俗。（字面意思：无论你去哪里，就照你看到的去做）"
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "el refrán",
+              "en": "the proverb, the saying",
+              "it": "il proverbio",
+              "uk": "прислів'я, приказка",
+              "de": "das Sprichwort",
+              "fr": "le proverbe, le dicton",
+              "pt": "o provérbio, o ditado",
+              "zh": "谚语，俗话",
+              "kind": "chunk"
+            },
+            {
+              "es": "adonde",
+              "en": "(to) wherever, where (with a verb of movement)",
+              "it": "dove, ovunque (con un verbo di movimento)",
+              "uk": "куди (б), туди, куди (з дієсловом руху)",
+              "de": "wohin (auch), wo (bei einem Verb der Bewegung)",
+              "fr": "là où, où que (avec un verbe de mouvement)",
+              "pt": "aonde, para onde (com verbo de movimento)",
+              "zh": "（去）……的地方，去哪里（跟表示移动的动词连用）",
+              "kind": "rail"
+            },
+            {
+              "es": "sea como sea",
+              "en": "anyway, be that as it may",
+              "it": "comunque sia",
+              "uk": "як би там не було, так чи інак",
+              "de": "wie auch immer, wie dem auch sei",
+              "fr": "de toute façon, quoi qu'il en soit",
+              "pt": "de qualquer forma, seja como for",
+              "zh": "不管怎样，无论如何",
+              "kind": "chunk"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "fueres",
+              "kind": "stem"
+            },
+            {
+              "text": "=",
+              "kind": "chunk"
+            },
+            {
+              "text": "vayas",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "The future subjunctive ends in -re: fuere, tuviere, vieres. Nobody uses it in conversation any more; it lives on in proverbs. Adonde fueres, haz lo que vieres is today's adonde vayas, haz lo que veas.",
+            "it": "Il congiuntivo futuro finisce in -re: fuere, tuviere, vieres. Nessuno lo usa più in una conversazione; sopravvive nei proverbi. Adonde fueres, haz lo que vieres equivale all'odierno adonde vayas, haz lo que veas.",
+            "uk": "«Futuro de subjuntivo» закінчується на -re: fuere, tuviere, vieres. У розмові його вже ніхто не вживає; він живе в прислів'ях. Adonde fueres, haz lo que vieres сучасною мовою — adonde vayas, haz lo que veas.",
+            "de": "Der futuro de subjuntivo (spanischer Konjunktiv Futur) endet auf -re: fuere, tuviere, vieres. Im Gespräch benutzt ihn niemand mehr; er lebt in Sprichwörtern weiter. Adonde fueres, haz lo que vieres ist heute adonde vayas, haz lo que veas.",
+            "fr": "Le futur du subjonctif finit en -re : fuere, tuviere, vieres. Le français n'a pas cette forme, et en espagnol plus personne ne l'utilise dans la conversation ; elle survit dans les proverbes. Adonde fueres, haz lo que vieres, c'est aujourd'hui adonde vayas, haz lo que veas.",
+            "pt": "O futuro do subjuntivo termina em -re: fuere, tuviere, vieres. Ninguém o usa mais na conversa; ele sobrevive nos provérbios. Adonde fueres, haz lo que vieres equivale ao atual adonde vayas, haz lo que veas. Repare no paralelo com o português, que ainda usa essa forma: aonde for, faça como vir.",
+            "zh": "将来时虚拟式以 -re 结尾：fuere，tuviere，vieres。现在已经没有人在说话时用它了，它只活在谚语里。Adonde fueres, haz lo que vieres 就是今天的 adonde vayas, haz lo que veas。"
+          },
+          "examples": [
+            {
+              "es": "Adonde fueres, haz lo que vieres.",
+              "en": "When in Rome, do as the Romans do. (lit. wherever you go, do what you see)",
+              "it": "Paese che vai, usanza che trovi. (lett. dove andrai, fa' ciò che vedrai)",
+              "uk": "У чужий монастир зі своїм статутом не ходять. (досл.: куди б ти не пішов, роби те, що побачиш)",
+              "de": "Andere Länder, andere Sitten. (wörtl. wohin du auch gehst, tu, was du siehst)",
+              "fr": "À Rome, fais comme les Romains. (litt. où que tu ailles, fais ce que tu vois)",
+              "pt": "Em Roma, faça como os romanos. (lit. aonde você for, faça o que vir)",
+              "zh": "入乡随俗。（字面意思：无论你去哪里，就照你看到的去做）"
+            },
+            {
+              "es": "Adonde vayas, haz lo que veas.",
+              "en": "Wherever you go, do what you see. (today's Spanish)",
+              "it": "Dovunque tu vada, fa' quello che vedi. (spagnolo di oggi)",
+              "uk": "Куди б ти не пішов(-ла), роби те, що бачиш. (сучасна іспанська)",
+              "de": "Wohin du auch gehst, tu, was du siehst. (heutiges Spanisch)",
+              "fr": "Où que tu ailles, fais ce que tu vois. (espagnol d'aujourd'hui)",
+              "pt": "Aonde você for, faça o que vir. (espanhol atual)",
+              "zh": "无论你去哪里，就照你看到的去做。（今天的西班牙语）"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "fueres",
+              "en": "you go (old future subjunctive of ir) = vayas",
+              "it": "(tu) andrai, vada (antico congiuntivo futuro di ir) = vayas",
+              "uk": "ти підеш (старий «futuro de subjuntivo» від ir) = vayas",
+              "de": "du gehst (alter futuro de subjuntivo von ir) = vayas",
+              "fr": "tu vas (ancien futur du subjonctif de ir) = vayas",
+              "pt": "você for (antigo futuro do subjuntivo de ir) = vayas",
+              "zh": "你去（ir 古老的将来时虚拟式）= vayas"
+            },
+            {
+              "es": "vieres",
+              "en": "you see (old future subjunctive of ver) = veas",
+              "it": "(tu) vedrai, veda (antico congiuntivo futuro di ver) = veas",
+              "uk": "ти побачиш (старий «futuro de subjuntivo» від ver) = veas",
+              "de": "du siehst (alter futuro de subjuntivo von ver) = veas",
+              "fr": "tu vois (ancien futur du subjonctif de ver) = veas",
+              "pt": "você vir (antigo futuro do subjuntivo de ver) = veas",
+              "zh": "你看到（ver 古老的将来时虚拟式）= veas"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "«Adonde fueres, haz lo que vieres» quiere decir «adonde vayas, haz lo que ",
+          "after": "».",
+          "options": [
+            "veas",
+            "ves",
+            "viste"
+          ],
+          "answer": "veas",
+          "en": "«Adonde fueres, haz lo que vieres» means «wherever you go, do what you see».",
+          "it": "«Adonde fueres, haz lo que vieres» vuol dire «dovunque tu vada, fa' quello che vedi».",
+          "uk": "«Adonde fueres, haz lo que vieres» означає «куди б ти не пішов, роби те, що бачиш».",
+          "de": "«Adonde fueres, haz lo que vieres» bedeutet „Wohin du auch gehst, tu, was du siehst“.",
+          "fr": "«Adonde fueres, haz lo que vieres» veut dire «où que tu ailles, fais ce que tu vois».",
+          "pt": "«Adonde fueres, haz lo que vieres» quer dizer «aonde você for, faça o que vir».",
+          "zh": "«Adonde fueres, haz lo que vieres» 的意思是“无论你去哪里，就照你看到的去做”。",
+          "hint": {
+            "en": "vieres today is the present subjunctive: veas.",
+            "it": "vieres oggi è il congiuntivo presente: veas.",
+            "uk": "vieres сьогодні — це «subjuntivo» теперішнього часу: veas.",
+            "de": "vieres ist heute der subjuntivo im Präsens: veas.",
+            "fr": "Aujourd'hui, vieres se dit au subjonctif présent : veas.",
+            "pt": "vieres hoje é o presente do subjuntivo: veas.",
+            "zh": "vieres 在今天是现在时虚拟式：veas。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "fire",
+          "before": "«Adonde fueres, haz lo que vieres» quiere decir «adonde ",
+          "after": ", haz lo que veas».",
+          "label": "ir (tú)",
+          "accepted": [
+            "vayas"
+          ],
+          "en": "«Adonde fueres, haz lo que vieres» means «wherever you go, do what you see».",
+          "it": "«Adonde fueres, haz lo que vieres» vuol dire «dovunque tu vada, fa' quello che vedi».",
+          "uk": "«Adonde fueres, haz lo que vieres» означає «куди б ти не пішов, роби те, що бачиш».",
+          "de": "«Adonde fueres, haz lo que vieres» bedeutet „Wohin du auch gehst, tu, was du siehst“.",
+          "fr": "«Adonde fueres, haz lo que vieres» veut dire «où que tu ailles, fais ce que tu vois».",
+          "pt": "«Adonde fueres, haz lo que vieres» quer dizer «aonde você for, faça o que vir».",
+          "zh": "«Adonde fueres, haz lo que vieres» 的意思是“无论你去哪里，就照你看到的去做”。",
+          "hint": {
+            "en": "fueres today is the present subjunctive of ir: vayas.",
+            "it": "fueres oggi è il congiuntivo presente di ir: vayas.",
+            "uk": "fueres сьогодні — це «subjuntivo» теперішнього часу від ir: vayas.",
+            "de": "fueres ist heute der subjuntivo im Präsens von ir: vayas.",
+            "fr": "Aujourd'hui, fueres se dit au subjonctif présent de ir : vayas.",
+            "pt": "fueres hoje é o presente do subjuntivo de ir: vayas.",
+            "zh": "fueres 在今天是 ir 的现在时虚拟式：vayas。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "sea como fuere",
+              "kind": "chunk"
+            },
+            {
+              "text": "=",
+              "kind": "chunk"
+            },
+            {
+              "text": "sea como sea",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "A few fixed phrases keep fuere and sound formal or literary: sea como fuere (be that as it may), sea lo que fuere (whatever it may be). When you speak, say sea como sea and sea lo que sea.",
+            "it": "Alcune espressioni fisse conservano fuere e suonano formali o letterarie: sea como fuere (comunque sia), sea lo que fuere (qualunque cosa sia). Quando parli, di' sea como sea e sea lo que sea.",
+            "uk": "Кілька сталих виразів зберігають fuere і звучать офіційно чи книжно: sea como fuere (хай там як), sea lo que fuere (хай що б то було). У розмові кажи sea como sea і sea lo que sea.",
+            "de": "Ein paar feste Wendungen behalten fuere und klingen gehoben oder literarisch: sea como fuere (wie dem auch sei), sea lo que fuere (was es auch sein mag). Beim Sprechen sag sea como sea und sea lo que sea.",
+            "fr": "Quelques expressions figées gardent fuere et sonnent soutenues ou littéraires : sea como fuere (quoi qu'il en soit), sea lo que fuere (quoi que ce soit). Quand tu parles, dis sea como sea et sea lo que sea.",
+            "pt": "Algumas expressões fixas mantêm fuere e soam formais ou literárias: sea como fuere (seja como for), sea lo que fuere (seja o que for). Ao falar, diga sea como sea e sea lo que sea. Atenção: onde o português usa o futuro do subjuntivo (seja como for), o espanhol de hoje usa o presente do subjuntivo (sea como sea).",
+            "zh": "有几个固定说法还保留着 fuere，听起来很正式或很书面：sea como fuere（不管怎样），sea lo que fuere（不管是什么）。说话时要说 sea como sea 和 sea lo que sea。"
+          },
+          "examples": [
+            {
+              "es": "Sea como fuere, el narrador no dice la verdad.",
+              "en": "Be that as it may, the narrator isn't telling the truth.",
+              "it": "Comunque sia, il narratore non dice la verità.",
+              "uk": "Хай там як, оповідач не каже правди.",
+              "de": "Wie dem auch sei, der Erzähler sagt nicht die Wahrheit.",
+              "fr": "Quoi qu'il en soit, le narrateur ne dit pas la vérité.",
+              "pt": "Seja como for, o narrador não diz a verdade.",
+              "zh": "不管怎样，叙述者没有说实话。"
+            },
+            {
+              "es": "Sea como sea, mañana hablamos.",
+              "en": "Anyway, we'll talk tomorrow.",
+              "it": "Comunque sia, domani ne parliamo.",
+              "uk": "Так чи інак, завтра поговоримо.",
+              "de": "Wie auch immer, wir reden morgen.",
+              "fr": "De toute façon, on en reparle demain.",
+              "pt": "De qualquer forma, amanhã a gente conversa.",
+              "zh": "不管怎样，我们明天再说。"
+            },
+            {
+              "es": "Sea lo que sea, no se lo digas a nadie.",
+              "en": "Whatever it is, don't tell anyone.",
+              "it": "Qualunque cosa sia, non dirlo a nessuno.",
+              "uk": "Хай що б то було, нікому про це не кажи.",
+              "de": "Was es auch ist, erzähl es niemandem.",
+              "fr": "Quoi que ce soit, ne le dis à personne.",
+              "pt": "Seja o que for, não conte para ninguém.",
+              "zh": "不管是什么，都别告诉任何人。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "fuere",
+              "en": "(it) is, (it) may be: old future subjunctive of ser = sea",
+              "it": "sia, sarà: antico congiuntivo futuro di ser = sea",
+              "uk": "є, може бути: старий «futuro de subjuntivo» від ser = sea",
+              "de": "(es) ist, (es) sei: alter futuro de subjuntivo von ser = sea",
+              "fr": "(il) est, (il) soit : ancien futur du subjonctif de ser = sea",
+              "pt": "(ele) for, seja: antigo futuro do subjuntivo de ser = sea",
+              "zh": "（它）是，（它）可能是：ser 古老的将来时虚拟式 = sea"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "«Sea como fuere» quiere decir «sea como ",
+          "after": "».",
+          "options": [
+            "sea",
+            "es",
+            "fue"
+          ],
+          "answer": "sea",
+          "en": "«Sea como fuere» means «be that as it may».",
+          "it": "«Sea como fuere» vuol dire «comunque sia».",
+          "uk": "«Sea como fuere» означає «хай там як».",
+          "de": "«Sea como fuere» bedeutet „wie dem auch sei“.",
+          "fr": "«Sea como fuere» veut dire «quoi qu'il en soit».",
+          "pt": "«Sea como fuere» quer dizer «seja como for».",
+          "zh": "«Sea como fuere» 的意思是“不管怎样”。",
+          "hint": {
+            "en": "fuere today is the present subjunctive: sea.",
+            "it": "fuere oggi è il congiuntivo presente: sea.",
+            "uk": "fuere сьогодні — це «subjuntivo» теперішнього часу: sea.",
+            "de": "fuere ist heute der subjuntivo im Präsens: sea.",
+            "fr": "Aujourd'hui, fuere se dit au subjonctif présent : sea.",
+            "pt": "fuere hoje é o presente do subjuntivo: sea.",
+            "zh": "fuere 在今天是现在时虚拟式：sea。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "A friend is worried about a problem you can't solve tonight. Say it the everyday way: anyway, we'll talk tomorrow.",
+            "it": "Un amico è preoccupato per un problema che stasera non potete risolvere. Dillo come si dice oggi: comunque sia, domani ne parliamo.",
+            "uk": "Друга турбує проблема, яку сьогодні ввечері не розв'язати. Скажи це по-простому: так чи інак, завтра поговоримо.",
+            "de": "Ein Freund macht sich Sorgen wegen eines Problems, das ihr heute Abend nicht lösen könnt. Sag es auf die alltägliche Art: Wie auch immer, wir reden morgen.",
+            "fr": "Un ami s'inquiète pour un problème que tu ne peux pas régler ce soir. Dis-le de façon courante : de toute façon, on en reparle demain.",
+            "pt": "Um amigo está preocupado com um problema que vocês não podem resolver esta noite. Diga do jeito do dia a dia: de qualquer forma, amanhã a gente conversa.",
+            "zh": "一个朋友在为一个今晚解决不了的问题发愁。用日常的说法说：不管怎样，我们明天再说。"
+          },
+          "accepted": [
+            "Sea como sea, mañana hablamos.",
+            "Sea como sea, hablamos mañana."
+          ],
+          "tiles": [
+            "Sea como",
+            "sea,",
+            "mañana",
+            "hablamos",
+            "fue",
+            "hablo"
+          ],
+          "en": "Anyway, we'll talk tomorrow.",
+          "it": "Comunque sia, domani ne parliamo.",
+          "uk": "Так чи інак, завтра поговоримо.",
+          "de": "Wie auch immer, wir reden morgen.",
+          "fr": "De toute façon, on en reparle demain.",
+          "pt": "De qualquer forma, amanhã a gente conversa.",
+          "zh": "不管怎样，我们明天再说。",
+          "hint": {
+            "en": "In conversation, sea como sea; fuere is only for formal writing.",
+            "it": "In una conversazione, sea como sea; fuere è solo per lo scritto formale.",
+            "uk": "У розмові — sea como sea; fuere лише для офіційних текстів.",
+            "de": "Im Gespräch sea como sea; fuere ist nur für gehobene Texte.",
+            "fr": "Dans la conversation, sea como sea ; fuere, c'est seulement pour l'écrit soutenu.",
+            "pt": "Na conversa, sea como sea; fuere é só para a escrita formal.",
+            "zh": "说话时用 sea como sea；fuere 只用于正式的书面语。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "si no pagare",
+              "kind": "stem"
+            },
+            {
+              "text": "=",
+              "kind": "chunk"
+            },
+            {
+              "text": "si no paga",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "Old laws and some contracts still use it after si and quien: si el cliente no pagare… (should the client fail to pay…). Read it as today's Spanish: after si, the present (si no paga); after quien, the present subjunctive (quien tenga).",
+            "it": "Le leggi antiche e alcuni contratti lo usano ancora dopo si e quien: si el cliente no pagare… (qualora il cliente non pagasse…). Leggilo come lo spagnolo di oggi: dopo si, il presente (si no paga); dopo quien, il congiuntivo presente (quien tenga).",
+            "uk": "Старі закони й деякі договори досі вживають його після si і quien: si el cliente no pagare… (у разі, якщо клієнт не сплатить…). Читай це як сучасну іспанську: після si — теперішній час (si no paga); після quien — «subjuntivo» теперішнього часу (quien tenga).",
+            "de": "Alte Gesetze und manche Verträge benutzen ihn noch nach si und quien: si el cliente no pagare… (sollte der Kunde nicht zahlen …). Lies es wie heutiges Spanisch: nach si das Präsens (si no paga); nach quien der subjuntivo im Präsens (quien tenga).",
+            "fr": "Les vieilles lois et certains contrats l'utilisent encore après si et quien : si el cliente no pagare… (si le client venait à ne pas payer…). Lis-le comme de l'espagnol d'aujourd'hui : après si, le présent (si no paga) ; après quien, le subjonctif présent (quien tenga).",
+            "pt": "Leis antigas e alguns contratos ainda usam essa forma depois de si e quien: si el cliente no pagare… (caso o cliente não pague…). Leia como espanhol atual: depois de si, o presente (si no paga); depois de quien, o presente do subjuntivo (quien tenga). Cuidado: em português dizemos «se o cliente não pagar», «quem tiver», justamente com o futuro do subjuntivo que o espanhol abandonou.",
+            "zh": "旧的法律和一些合同在 si 和 quien 后面还会用它：si el cliente no pagare…（如客户未能付款……）。按今天的西班牙语来理解：si 后面用现在时（si no paga）；quien 后面用现在时虚拟式（quien tenga）。"
+          },
+          "examples": [
+            {
+              "es": "Si el cliente no pagare en el plazo, el contrato termina.",
+              "en": "Should the client fail to pay within the time frame, the contract ends.",
+              "it": "Qualora il cliente non pagasse entro i termini, il contratto termina.",
+              "uk": "У разі, якщо клієнт не сплатить у встановлений строк, договір припиняється.",
+              "de": "Sollte der Kunde nicht fristgerecht zahlen, endet der Vertrag.",
+              "fr": "Si le client venait à ne pas payer dans le délai, le contrat prend fin.",
+              "pt": "Caso o cliente não pague dentro do prazo, o contrato termina.",
+              "zh": "如客户未能在期限内付款，合同即告终止。"
+            },
+            {
+              "es": "Si el cliente no paga en el plazo, el contrato termina.",
+              "en": "If the client doesn't pay within the time frame, the contract ends. (today's Spanish)",
+              "it": "Se il cliente non paga entro i termini, il contratto termina. (spagnolo di oggi)",
+              "uk": "Якщо клієнт не платить у встановлений строк, договір припиняється. (сучасна іспанська)",
+              "de": "Wenn der Kunde nicht fristgerecht zahlt, endet der Vertrag. (heutiges Spanisch)",
+              "fr": "Si le client ne paie pas dans le délai, le contrat prend fin. (espagnol d'aujourd'hui)",
+              "pt": "Se o cliente não pagar dentro do prazo, o contrato termina. (espanhol atual)",
+              "zh": "如果客户没在期限内付款，合同就终止。（今天的西班牙语）"
+            },
+            {
+              "es": "Quien tuviere un problema, debe llamar a este número.",
+              "en": "Anyone who has a problem must call this number.",
+              "it": "Chiunque abbia un problema deve chiamare questo numero.",
+              "uk": "Кожен, хто має проблему, повинен зателефонувати за цим номером.",
+              "de": "Wer ein Problem hat, muss diese Nummer anrufen.",
+              "fr": "Toute personne qui a un problème doit appeler ce numéro.",
+              "pt": "Quem tiver um problema deve ligar para este número.",
+              "zh": "凡有问题者，须拨打此号码。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "pagare",
+              "en": "(should he / she) pay: old future subjunctive of pagar",
+              "it": "pagasse, pagherà: antico congiuntivo futuro di pagar",
+              "uk": "(у разі, якщо він / вона) сплатить: старий «futuro de subjuntivo» від pagar",
+              "de": "(sollte er / sie) zahlen: alter futuro de subjuntivo von pagar",
+              "fr": "(s'il / si elle venait à) payer : ancien futur du subjonctif de pagar",
+              "pt": "(caso ele / ela) pague: antigo futuro do subjuntivo de pagar",
+              "zh": "（如果他 / 她）付款：pagar 古老的将来时虚拟式"
+            },
+            {
+              "es": "tuviere",
+              "en": "(who) has: old future subjunctive of tener",
+              "it": "abbia, avrà: antico congiuntivo futuro di tener",
+              "uk": "(хто) має: старий «futuro de subjuntivo» від tener",
+              "de": "(wer) hat: alter futuro de subjuntivo von tener",
+              "fr": "(qui) a : ancien futur du subjonctif de tener",
+              "pt": "(quem) tiver: antigo futuro do subjuntivo de tener",
+              "zh": "（谁）有：tener 古老的将来时虚拟式"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "«Si el cliente no pagare» quiere decir «si el cliente no ",
+          "after": "».",
+          "options": [
+            "paga",
+            "pague",
+            "pagó"
+          ],
+          "answer": "paga",
+          "en": "«Si el cliente no pagare» means «if the client doesn't pay».",
+          "it": "«Si el cliente no pagare» vuol dire «se il cliente non paga».",
+          "uk": "«Si el cliente no pagare» означає «якщо клієнт не платить».",
+          "de": "«Si el cliente no pagare» bedeutet „wenn der Kunde nicht zahlt“.",
+          "fr": "«Si el cliente no pagare» veut dire «si le client ne paie pas».",
+          "pt": "«Si el cliente no pagare» quer dizer «se o cliente não pagar».",
+          "zh": "«Si el cliente no pagare» 的意思是“如果客户不付款”。",
+          "hint": {
+            "en": "After si, today's Spanish uses the present: paga.",
+            "it": "Dopo si, lo spagnolo di oggi usa il presente: paga.",
+            "uk": "Після si сучасна іспанська вживає теперішній час: paga.",
+            "de": "Nach si benutzt das heutige Spanisch das Präsens: paga.",
+            "fr": "Après si, l'espagnol d'aujourd'hui utilise le présent : paga.",
+            "pt": "Depois de si, o espanhol atual usa o presente: paga.",
+            "zh": "si 后面，今天的西班牙语用现在时：paga。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "fire",
+          "before": "«Quien tuviere un problema» quiere decir «quien ",
+          "after": " un problema».",
+          "label": "tener",
+          "accepted": [
+            "tenga",
+            "tiene"
+          ],
+          "en": "«Quien tuviere un problema» means «anyone who has a problem».",
+          "it": "«Quien tuviere un problema» vuol dire «chiunque abbia un problema».",
+          "uk": "«Quien tuviere un problema» означає «кожен, хто має проблему».",
+          "de": "«Quien tuviere un problema» bedeutet „wer ein Problem hat“.",
+          "fr": "«Quien tuviere un problema» veut dire «toute personne qui a un problème».",
+          "pt": "«Quien tuviere un problema» quer dizer «quem tiver um problema».",
+          "zh": "«Quien tuviere un problema» 的意思是“任何有问题的人”。",
+          "hint": {
+            "en": "After quien, for anyone at all: the present subjunctive, tenga.",
+            "it": "Dopo quien, per chiunque: il congiuntivo presente, tenga.",
+            "uk": "Після quien, коли мова про будь-кого: «subjuntivo» теперішнього часу, tenga.",
+            "de": "Nach quien, für irgendjemanden: der subjuntivo im Präsens, tenga.",
+            "fr": "Après quien, pour n'importe qui : le subjonctif présent, tenga.",
+            "pt": "Depois de quien, para qualquer pessoa: o presente do subjuntivo, tenga.",
+            "zh": "quien 后面泛指任何人时：用现在时虚拟式，tenga。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "«Sea lo que fuere» quiere decir «sea lo que ",
+          "after": "».",
+          "options": [
+            "sea",
+            "es",
+            "era"
+          ],
+          "answer": "sea",
+          "en": "«Sea lo que fuere» means «whatever it may be».",
+          "it": "«Sea lo que fuere» vuol dire «qualunque cosa sia».",
+          "uk": "«Sea lo que fuere» означає «хай що б то було».",
+          "de": "«Sea lo que fuere» bedeutet „was es auch sein mag“.",
+          "fr": "«Sea lo que fuere» veut dire «quoi que ce soit».",
+          "pt": "«Sea lo que fuere» quer dizer «seja o que for».",
+          "zh": "«Sea lo que fuere» 的意思是“不管是什么”。",
+          "hint": {
+            "en": "fuere today is sea.",
+            "it": "fuere oggi è sea.",
+            "uk": "fuere сьогодні — це sea.",
+            "de": "fuere ist heute sea.",
+            "fr": "Aujourd'hui, fuere se dit sea.",
+            "pt": "fuere hoje é sea.",
+            "zh": "fuere 在今天就是 sea。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "El refrán dice: «Adonde fueres, haz lo que ",
+          "after": "».",
+          "options": [
+            "vieres",
+            "ves",
+            "viste"
+          ],
+          "answer": "vieres",
+          "en": "The proverb says: «When in Rome, do as the Romans do».",
+          "it": "Il proverbio dice: «Paese che vai, usanza che trovi».",
+          "uk": "Прислів'я каже: «У чужий монастир зі своїм статутом не ходять».",
+          "de": "Das Sprichwort sagt: „Andere Länder, andere Sitten.“",
+          "fr": "Le proverbe dit : «À Rome, fais comme les Romains».",
+          "pt": "O provérbio diz: «Em Roma, faça como os romanos».",
+          "zh": "俗话说：«入乡随俗»。",
+          "hint": {
+            "en": "The proverb keeps the old forms: fueres… vieres.",
+            "it": "Il proverbio conserva le forme antiche: fueres… vieres.",
+            "uk": "Прислів'я зберігає старі форми: fueres… vieres.",
+            "de": "Das Sprichwort behält die alten Formen: fueres … vieres.",
+            "fr": "Le proverbe garde les formes anciennes : fueres… vieres.",
+            "pt": "O provérbio mantém as formas antigas: fueres… vieres.",
+            "zh": "这句谚语保留了古老的形式：fueres… vieres。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "mix",
+          "before": "«Si alguien tuviere preguntas» quiere decir «si alguien ",
+          "after": " preguntas».",
+          "label": "tener",
+          "accepted": [
+            "tiene"
+          ],
+          "en": "«Si alguien tuviere preguntas» means «if anyone has questions».",
+          "it": "«Si alguien tuviere preguntas» vuol dire «se qualcuno ha domande».",
+          "uk": "«Si alguien tuviere preguntas» означає «якщо в когось є запитання».",
+          "de": "«Si alguien tuviere preguntas» bedeutet „wenn jemand Fragen hat“.",
+          "fr": "«Si alguien tuviere preguntas» veut dire «si quelqu'un a des questions».",
+          "pt": "«Si alguien tuviere preguntas» quer dizer «se alguém tiver perguntas».",
+          "zh": "«Si alguien tuviere preguntas» 的意思是“如果有人有问题”。",
+          "hint": {
+            "en": "After si, the present: tiene.",
+            "it": "Dopo si, il presente: tiene.",
+            "uk": "Після si — теперішній час: tiene.",
+            "de": "Nach si das Präsens: tiene.",
+            "fr": "Après si, le présent : tiene.",
+            "pt": "Depois de si, o presente: tiene.",
+            "zh": "si 后面用现在时：tiene。"
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "A friend who has just moved to Spain asks why everyone has dinner so late. Answer with the old proverb. Write in Spanish: «When in Rome, do as the Romans do.»",
+            "it": "Un amico che si è appena trasferito in Spagna ti chiede perché tutti cenano così tardi. Rispondi con il vecchio proverbio. Scrivi in spagnolo: «Paese che vai, usanza che trovi.»",
+            "uk": "Подруга, яка щойно переїхала до Іспанії, питає, чому всі вечеряють так пізно. Відповідай старим прислів'ям. Напиши іспанською: «У чужий монастир зі своїм статутом не ходять.»",
+            "de": "Ein Freund, der gerade nach Spanien gezogen ist, fragt, warum alle so spät zu Abend essen. Antworte mit dem alten Sprichwort. Schreib auf Spanisch: «Andere Länder, andere Sitten.»",
+            "fr": "Un ami qui vient de s'installer en Espagne demande pourquoi tout le monde dîne si tard. Réponds avec le vieux proverbe. Écris en espagnol : «À Rome, fais comme les Romains.»",
+            "pt": "Um amigo que acabou de se mudar para a Espanha pergunta por que todo mundo janta tão tarde. Responda com o velho provérbio. Escreva em espanhol: «Em Roma, faça como os romanos.»",
+            "zh": "一个刚搬到西班牙的朋友问你，为什么大家晚饭都吃得那么晚。用那句古老的谚语回答。用西班牙语写：«入乡随俗。»"
+          },
+          "accepted": [
+            "Adonde fueres, haz lo que vieres.",
+            "Donde fueres, haz lo que vieres.",
+            "A donde fueres, haz lo que vieres."
+          ],
+          "model": {
+            "es": "Adonde fueres, haz lo que vieres.",
+            "en": "When in Rome, do as the Romans do.",
+            "it": "Paese che vai, usanza che trovi.",
+            "uk": "У чужий монастир зі своїм статутом не ходять.",
+            "de": "Andere Länder, andere Sitten.",
+            "fr": "À Rome, fais comme les Romains. (litt. où que tu ailles, fais ce que tu vois)",
+            "pt": "Em Roma, faça como os romanos.",
+            "zh": "入乡随俗。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u52l5",
+      "goal": {
+        "en": "Comment on a text: say what it's about (el texto trata de…, el tema principal es…), what the author does and why (el autor usa… para…), and draw conclusions with así pues and the very formal por ende.",
+        "it": "Commenta un testo: di' di che cosa parla (el texto trata de…, el tema principal es…), che cosa fa l'autore e perché (el autor usa… para…), e trai le conclusioni con así pues e il formalissimo por ende.",
+        "uk": "Коментуй текст: скажи, про що він (el texto trata de…, el tema principal es…), що робить автор і навіщо (el autor usa… para…), і роби висновки з así pues та дуже офіційним por ende.",
+        "de": "Kommentier einen Text: Sag, worum es geht (el texto trata de…, el tema principal es…), was der Autor macht und warum (el autor usa… para…), und zieh Schlüsse mit así pues und dem sehr förmlichen por ende.",
+        "fr": "Commente un texte : dis de quoi il parle (el texto trata de…, el tema principal es…), ce que fait l'auteur et pourquoi (el autor usa… para…), et tire des conclusions avec así pues et le très soutenu por ende.",
+        "pt": "Comente um texto: diga do que ele trata (el texto trata de…, el tema principal es…), o que o autor faz e por quê (el autor usa… para…), e tire conclusões com así pues e o muito formal por ende.",
+        "zh": "评论一篇文章：说出它讲的是什么（el texto trata de…，el tema principal es…），作者用了什么手法、为什么用（el autor usa… para…），再用 así pues 和非常正式的 por ende 得出结论。"
+      },
+      "target": {
+        "es": "El texto trata de un viejo que vive solo. Así pues, el tema principal es la soledad.",
+        "en": "The text is about an old man who lives alone. So the main theme is loneliness.",
+        "it": "Il testo parla di un vecchio che vive da solo. Quindi il tema principale è la solitudine.",
+        "uk": "Текст розповідає про старого, який живе сам. Отже, головна тема — самотність.",
+        "de": "Der Text handelt von einem alten Mann, der allein lebt. Das Hauptthema ist also die Einsamkeit.",
+        "fr": "Le texte parle d'un vieil homme qui vit seul. Ainsi, le thème principal est la solitude.",
+        "pt": "O texto fala de um velho que mora sozinho. Assim, o tema principal é a solidão.",
+        "zh": "这篇文章讲的是一个独自生活的老人。因此，主题是孤独。"
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "el texto",
+              "en": "the text",
+              "it": "il testo",
+              "uk": "текст",
+              "de": "der Text",
+              "fr": "le texte",
+              "pt": "o texto",
+              "zh": "文章，文本",
+              "kind": "chunk"
+            },
+            {
+              "es": "tratar de",
+              "en": "to be about (el texto trata de…)",
+              "it": "parlare di, trattare di (el texto trata de…)",
+              "uk": "йтися про, розповідати про (el texto trata de…)",
+              "de": "handeln von (el texto trata de…)",
+              "fr": "parler de, traiter de (el texto trata de…)",
+              "pt": "tratar de, falar de (el texto trata de…)",
+              "zh": "讲的是，关于（el texto trata de…）",
+              "kind": "stem"
+            },
+            {
+              "es": "la soledad",
+              "en": "loneliness, being alone",
+              "it": "la solitudine",
+              "uk": "самотність",
+              "de": "die Einsamkeit, das Alleinsein",
+              "fr": "la solitude",
+              "pt": "a solidão",
+              "zh": "孤独，独自一人",
+              "kind": "chunk"
+            },
+            {
+              "es": "así pues",
+              "en": "so, thus (to draw a conclusion)",
+              "it": "quindi, dunque (per trarre una conclusione)",
+              "uk": "отже, таким чином (щоб зробити висновок)",
+              "de": "also, somit (um einen Schluss zu ziehen)",
+              "fr": "ainsi, donc (pour tirer une conclusion)",
+              "pt": "assim, portanto (para tirar uma conclusão)",
+              "zh": "因此，所以（用来得出结论）",
+              "kind": "rail"
+            },
+            {
+              "es": "por ende",
+              "en": "therefore (very formal, written)",
+              "it": "pertanto, perciò (molto formale, scritto)",
+              "uk": "відтак, через це (дуже офіційне, письмове)",
+              "de": "folglich, daher (sehr förmlich, geschrieben)",
+              "fr": "par conséquent (très soutenu, écrit)",
+              "pt": "por conseguinte (muito formal, escrito)",
+              "zh": "因此，故（非常正式，书面语）",
+              "kind": "rail"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "el texto trata de…",
+              "kind": "chunk"
+            },
+            {
+              "text": "·",
+              "kind": "chunk"
+            },
+            {
+              "text": "el tema principal es…",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "Start a comment with what the text is about: el texto trata de… (+ a noun, or someone who…). Then name the main idea: el tema principal es…",
+            "it": "Comincia un commento dicendo di che cosa parla il testo: el texto trata de… (+ un nome, o qualcuno che…). Poi indica l'idea principale: el tema principal es…",
+            "uk": "Почни коментар із того, про що текст: el texto trata de… (+ іменник або хтось, хто…). Потім назви головну думку: el tema principal es…",
+            "de": "Beginn einen Kommentar damit, wovon der Text handelt: el texto trata de… (+ ein Nomen oder jemand, der …). Dann nenn die Hauptidee: el tema principal es…",
+            "fr": "Commence un commentaire par le sujet du texte : el texto trata de… (+ un nom, ou quelqu'un qui…). Puis donne l'idée principale : el tema principal es…",
+            "pt": "Comece um comentário dizendo do que o texto trata: el texto trata de… (+ um substantivo, ou alguém que…). Depois diga a ideia principal: el tema principal es…",
+            "zh": "评论的开头先说文章讲的是什么：el texto trata de…（+ 名词，或 alguien que…）。然后点出主要思想：el tema principal es…"
+          },
+          "examples": [
+            {
+              "es": "El texto trata de un viejo que vive solo.",
+              "en": "The text is about an old man who lives alone.",
+              "it": "Il testo parla di un vecchio che vive da solo.",
+              "uk": "Текст розповідає про старого, який живе сам.",
+              "de": "Der Text handelt von einem alten Mann, der allein lebt.",
+              "fr": "Le texte parle d'un vieil homme qui vit seul.",
+              "pt": "O texto fala de um velho que mora sozinho.",
+              "zh": "这篇文章讲的是一个独自生活的老人。"
+            },
+            {
+              "es": "El tema principal es la soledad.",
+              "en": "The main theme is loneliness.",
+              "it": "Il tema principale è la solitudine.",
+              "uk": "Головна тема — самотність.",
+              "de": "Das Hauptthema ist die Einsamkeit.",
+              "fr": "Le thème principal est la solitude.",
+              "pt": "O tema principal é a solidão.",
+              "zh": "主题是孤独。"
+            },
+            {
+              "es": "El cuento trata de una niña y su abuelo.",
+              "en": "The story is about a girl and her grandfather.",
+              "it": "Il racconto parla di una bambina e di suo nonno.",
+              "uk": "Оповідання розповідає про дівчинку та її дідуся.",
+              "de": "Die Geschichte handelt von einem Mädchen und seinem Großvater.",
+              "fr": "L'histoire parle d'une petite fille et de son grand-père.",
+              "pt": "O conto fala de uma menina e do avô dela.",
+              "zh": "这个故事讲的是一个小女孩和她的爷爷。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "trata",
+              "en": "it is about (tratar de)",
+              "it": "parla di, tratta di",
+              "uk": "він розповідає про, у ньому йдеться про (tratar de)",
+              "de": "es handelt von (tratar de)",
+              "fr": "il parle de (tratar de)",
+              "pt": "trata (de), fala (de)",
+              "zh": "它讲的是（tratar de）"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "El texto ",
+          "after": " de un viejo que vive solo cerca del mar.",
+          "options": [
+            "trata",
+            "tiene",
+            "dice"
+          ],
+          "answer": "trata",
+          "en": "The text is about an old man who lives alone by the sea.",
+          "it": "Il testo parla di un vecchio che vive da solo vicino al mare.",
+          "uk": "Текст розповідає про старого, який живе сам біля моря.",
+          "de": "Der Text handelt von einem alten Mann, der allein am Meer lebt.",
+          "fr": "Le texte parle d'un vieil homme qui vit seul près de la mer.",
+          "pt": "O texto fala de um velho que mora sozinho perto do mar.",
+          "zh": "这篇文章讲的是一个独自住在海边的老人。",
+          "hint": {
+            "en": "Being about something: tratar de, el texto trata de…",
+            "it": "Parlare di qualcosa: tratar de, el texto trata de…",
+            "uk": "Розповідати про щось: tratar de, el texto trata de…",
+            "de": "Von etwas handeln: tratar de, el texto trata de…",
+            "fr": "Parler de quelque chose : tratar de, el texto trata de…",
+            "pt": "Tratar de algo: tratar de, el texto trata de…",
+            "zh": "讲的是什么：tratar de，el texto trata de…"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "At your reading group, say what the story is mainly about: the main theme is loneliness.",
+            "it": "Al tuo gruppo di lettura, di' qual è il tema centrale del racconto: il tema principale è la solitudine.",
+            "uk": "У читацькому клубі скажи, про що здебільшого оповідання: головна тема — самотність.",
+            "de": "Sag in deinem Lesekreis, worum es in der Geschichte hauptsächlich geht: Das Hauptthema ist die Einsamkeit.",
+            "fr": "Dans ton club de lecture, dis de quoi parle surtout l'histoire : le thème principal est la solitude.",
+            "pt": "No seu grupo de leitura, diga do que a história trata principalmente: o tema principal é a solidão.",
+            "zh": "在读书小组里，说说这个故事主要讲什么：主题是孤独。"
+          },
+          "accepted": [
+            "El tema principal es la soledad."
+          ],
+          "tiles": [
+            "El tema",
+            "principal",
+            "es",
+            "la soledad",
+            "trata",
+            "está"
+          ],
+          "en": "The main theme is loneliness.",
+          "it": "Il tema principale è la solitudine.",
+          "uk": "Головна тема — самотність.",
+          "de": "Das Hauptthema ist die Einsamkeit.",
+          "fr": "Le thème principal est la solitude.",
+          "pt": "O tema principal é a solidão.",
+          "zh": "主题是孤独。",
+          "hint": {
+            "en": "el tema principal es + the theme.",
+            "it": "el tema principal es + il tema.",
+            "uk": "el tema principal es + тема.",
+            "de": "el tema principal es + das Thema.",
+            "fr": "el tema principal es + le thème.",
+            "pt": "el tema principal es + o tema.",
+            "zh": "el tema principal es + 主题。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "el autor usa…",
+              "kind": "stem"
+            },
+            {
+              "text": "+",
+              "kind": "chunk"
+            },
+            {
+              "text": "para…",
+              "kind": "rail"
+            }
+          ],
+          "rule": {
+            "en": "Then say what the author does and why: el autor usa… para… (the author uses… to…). Use the tools you know: el narrador, la primera persona, el imperfecto, la rima.",
+            "it": "Poi di' che cosa fa l'autore e perché: el autor usa… para… (l'autore usa… per…). Usa gli strumenti che conosci: el narrador, la primera persona, el imperfecto, la rima.",
+            "uk": "Потім скажи, що робить автор і навіщо: el autor usa… para… (автор використовує… щоб…). Користуйся інструментами, які знаєш: el narrador, la primera persona, el imperfecto, la rima.",
+            "de": "Dann sag, was der Autor macht und warum: el autor usa… para… (der Autor benutzt …, um … zu …). Nutz die Werkzeuge, die du kennst: el narrador, la primera persona, el imperfecto, la rima.",
+            "fr": "Ensuite, dis ce que fait l'auteur et pourquoi : el autor usa… para… (l'auteur utilise… pour…). Utilise les outils que tu connais : el narrador, la primera persona, el imperfecto, la rima.",
+            "pt": "Depois diga o que o autor faz e por quê: el autor usa… para… (o autor usa… para…). Use as ferramentas que você conhece: el narrador, la primera persona, el imperfecto, la rima.",
+            "zh": "接着说作者用了什么、为什么用：el autor usa… para…（作者用……来……）。用上你学过的工具：el narrador，la primera persona，el imperfecto，la rima。"
+          },
+          "examples": [
+            {
+              "es": "El autor usa la primera persona para contar lo que siente el niño.",
+              "en": "The author uses the first person to tell us what the boy feels.",
+              "it": "L'autore usa la prima persona per raccontare quello che prova il bambino.",
+              "uk": "Автор використовує першу особу, щоб розповісти, що відчуває хлопчик.",
+              "de": "Der Autor benutzt die erste Person, um zu erzählen, was der Junge fühlt.",
+              "fr": "L'auteur utilise la première personne pour nous raconter ce que ressent le petit garçon.",
+              "pt": "O autor usa a primeira pessoa para nos contar o que o menino sente.",
+              "zh": "作者用第一人称来告诉我们这个男孩的感受。"
+            },
+            {
+              "es": "El autor usa la rima para dar ritmo al poema.",
+              "en": "The author uses rhyme to give the poem rhythm.",
+              "it": "L'autore usa la rima per dare ritmo alla poesia.",
+              "uk": "Автор використовує риму, щоб надати віршу ритму.",
+              "de": "Der Autor benutzt den Reim, um dem Gedicht Rhythmus zu geben.",
+              "fr": "L'auteur utilise la rime pour donner du rythme au poème.",
+              "pt": "O autor usa a rima para dar ritmo ao poema.",
+              "zh": "作者用押韵来给诗带来节奏。"
+            },
+            {
+              "es": "La autora usa el imperfecto para describir el pueblo.",
+              "en": "The author uses the imperfect to describe the village.",
+              "it": "L'autrice usa l'imperfetto per descrivere il paese.",
+              "uk": "Авторка використовує «imperfecto», щоб описати селище.",
+              "de": "Die Autorin benutzt das Imperfekt, um das Dorf zu beschreiben.",
+              "fr": "L'autrice utilise l'imparfait pour décrire le village.",
+              "pt": "A autora usa o imperfeito para descrever o povoado.",
+              "zh": "作者用过去未完成时来描写这个村子。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "usar",
+              "en": "to use",
+              "it": "usare",
+              "uk": "використовувати",
+              "de": "benutzen",
+              "fr": "utiliser",
+              "pt": "usar",
+              "zh": "使用，用"
+            },
+            {
+              "es": "usa",
+              "en": "he / she uses",
+              "it": "usa",
+              "uk": "він / вона використовує",
+              "de": "er / sie benutzt",
+              "fr": "il / elle utilise",
+              "pt": "ele / ela usa",
+              "zh": "他 / 她使用"
+            },
+            {
+              "es": "la autora",
+              "en": "the author (a woman)",
+              "it": "l'autrice",
+              "uk": "авторка",
+              "de": "die Autorin",
+              "fr": "l'autrice",
+              "pt": "a autora",
+              "zh": "（女）作者"
+            },
+            {
+              "es": "describir",
+              "en": "to describe",
+              "it": "descrivere",
+              "uk": "описувати",
+              "de": "beschreiben",
+              "fr": "décrire",
+              "pt": "descrever",
+              "zh": "描写，描述"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "El autor ",
+          "after": " la primera persona para contar lo que siente el niño.",
+          "options": [
+            "usa",
+            "usar"
+          ],
+          "answer": "usa",
+          "en": "The author uses the first person to tell us what the boy feels.",
+          "it": "L'autore usa la prima persona per raccontare quello che prova il bambino.",
+          "uk": "Автор використовує першу особу, щоб розповісти, що відчуває хлопчик.",
+          "de": "Der Autor benutzt die erste Person, um zu erzählen, was der Junge fühlt.",
+          "fr": "L'auteur utilise la première personne pour nous raconter ce que ressent le petit garçon.",
+          "pt": "O autor usa a primeira pessoa para nos contar o que o menino sente.",
+          "zh": "作者用第一人称来告诉我们这个男孩的感受。",
+          "hint": {
+            "en": "el autor is él: usa.",
+            "it": "el autor è él: usa.",
+            "uk": "el autor — це él: usa.",
+            "de": "el autor ist él: usa.",
+            "fr": "el autor, c'est él : usa.",
+            "pt": "el autor é él: usa.",
+            "zh": "el autor 是 él：usa。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "fire",
+          "before": "El autor usa la rima ",
+          "after": " dar ritmo al poema.",
+          "label": "in order to",
+          "accepted": [
+            "para"
+          ],
+          "en": "The author uses rhyme to give the poem rhythm.",
+          "it": "L'autore usa la rima per dare ritmo alla poesia.",
+          "uk": "Автор використовує риму, щоб надати віршу ритму.",
+          "de": "Der Autor benutzt den Reim, um dem Gedicht Rhythmus zu geben.",
+          "fr": "L'auteur utilise la rime pour donner du rythme au poème.",
+          "pt": "O autor usa a rima para dar ritmo ao poema.",
+          "zh": "作者用押韵来给诗带来节奏。",
+          "hint": {
+            "en": "The purpose: para + infinitive.",
+            "it": "Lo scopo: para + infinito.",
+            "uk": "Мета: para + інфінітив.",
+            "de": "Der Zweck: para + Grundform.",
+            "fr": "Le but : para + infinitif.",
+            "pt": "A finalidade: para + infinitivo.",
+            "zh": "目的：para + 动词原形。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "así pues",
+              "kind": "rail"
+            },
+            {
+              "text": "·",
+              "kind": "chunk"
+            },
+            {
+              "text": "por ende",
+              "kind": "rail"
+            }
+          ],
+          "rule": {
+            "en": "To draw a conclusion, use así pues (so, thus) or por ende (therefore), which is very formal and mostly written. Both work like por lo tanto.",
+            "it": "Per trarre una conclusione, usa así pues (quindi, dunque) o por ende (pertanto), che è molto formale e soprattutto scritto. Funzionano tutti e due come por lo tanto.",
+            "uk": "Щоб зробити висновок, вживай así pues (отже, таким чином) або por ende (відтак) — він дуже офіційний і переважно письмовий. Обидва вирази працюють як por lo tanto.",
+            "de": "Um einen Schluss zu ziehen, nimm así pues (also, somit) oder por ende (folglich), das sehr förmlich ist und meist geschrieben wird. Beide funktionieren wie por lo tanto.",
+            "fr": "Pour tirer une conclusion, utilise así pues (ainsi, donc) ou por ende (par conséquent), très soutenu et surtout écrit. Les deux fonctionnent comme por lo tanto.",
+            "pt": "Para tirar uma conclusão, use así pues (assim, portanto) ou por ende (por conseguinte), que é muito formal e quase só escrito. Os dois funcionam como por lo tanto.",
+            "zh": "要得出结论，就用 así pues（因此，所以）或 por ende（故，因此），后者非常正式，主要用于书面语。两者的用法都和 por lo tanto 一样。"
+          },
+          "examples": [
+            {
+              "es": "El narrador es un niño; así pues, no lo entiende todo.",
+              "en": "The narrator is a child; so he doesn't understand everything.",
+              "it": "Il narratore è un bambino; quindi non capisce tutto.",
+              "uk": "Оповідач — дитина; отже, він не все розуміє.",
+              "de": "Der Erzähler ist ein Kind; also versteht er nicht alles.",
+              "fr": "Le narrateur est un enfant ; ainsi, il ne comprend pas tout.",
+              "pt": "O narrador é uma criança; assim, ele não entende tudo.",
+              "zh": "叙述者是个孩子；因此，他并不是什么都懂。"
+            },
+            {
+              "es": "El cuento está escrito en primera persona; por ende, solo conocemos un punto de vista.",
+              "en": "The story is written in the first person; therefore, we only know one point of view.",
+              "it": "Il racconto è scritto in prima persona; pertanto conosciamo un solo punto di vista.",
+              "uk": "Оповідання написане від першої особи; відтак ми знаємо лише одну точку зору.",
+              "de": "Die Geschichte ist in der ersten Person geschrieben; folglich kennen wir nur eine Sichtweise.",
+              "fr": "L'histoire est écrite à la première personne ; par conséquent, nous ne connaissons qu'un seul point de vue.",
+              "pt": "O conto está escrito em primeira pessoa; por conseguinte, só conhecemos um ponto de vista.",
+              "zh": "这个故事是用第一人称写的；故而，我们只知道一个视角。"
+            },
+            {
+              "es": "Así pues, el tema principal es la soledad.",
+              "en": "So the main theme is loneliness.",
+              "it": "Quindi il tema principale è la solitudine.",
+              "uk": "Отже, головна тема — самотність.",
+              "de": "Das Hauptthema ist also die Einsamkeit.",
+              "fr": "Ainsi, le thème principal est la solitude.",
+              "pt": "Assim, o tema principal é a solidão.",
+              "zh": "因此，主题是孤独。"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "El narrador es un niño; ",
+          "after": ", no lo entiende todo.",
+          "options": [
+            "así pues",
+            "sin embargo",
+            "aunque"
+          ],
+          "answer": "así pues",
+          "en": "The narrator is a child; so he doesn't understand everything.",
+          "it": "Il narratore è un bambino; quindi non capisce tutto.",
+          "uk": "Оповідач — дитина; отже, він не все розуміє.",
+          "de": "Der Erzähler ist ein Kind; also versteht er nicht alles.",
+          "fr": "Le narrateur est un enfant ; ainsi, il ne comprend pas tout.",
+          "pt": "O narrador é uma criança; assim, ele não entende tudo.",
+          "zh": "叙述者是个孩子；因此，他并不是什么都懂。",
+          "hint": {
+            "en": "A conclusion: así pues.",
+            "it": "Una conclusione: así pues.",
+            "uk": "Висновок: así pues.",
+            "de": "Ein Schluss: así pues.",
+            "fr": "Une conclusion : así pues.",
+            "pt": "Uma conclusão: así pues.",
+            "zh": "一个结论：así pues。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "fire",
+          "before": "El cuento está escrito en primera persona; por ",
+          "after": ", solo conocemos un punto de vista.",
+          "options": [
+            "ende",
+            "fin",
+            "favor"
+          ],
+          "answer": "ende",
+          "en": "The story is written in the first person; therefore, we only know one point of view.",
+          "it": "Il racconto è scritto in prima persona; pertanto conosciamo un solo punto di vista.",
+          "uk": "Оповідання написане від першої особи; відтак ми знаємо лише одну точку зору.",
+          "de": "Die Geschichte ist in der ersten Person geschrieben; folglich kennen wir nur eine Sichtweise.",
+          "fr": "L'histoire est écrite à la première personne ; par conséquent, nous ne connaissons qu'un seul point de vue.",
+          "pt": "O conto está escrito em primeira pessoa; por conseguinte, só conhecemos um ponto de vista.",
+          "zh": "这个故事是用第一人称写的；故而，我们只知道一个视角。",
+          "hint": {
+            "en": "por ende: therefore, very formal. Por fin means at last.",
+            "it": "por ende: pertanto, molto formale. Por fin vuol dire finalmente.",
+            "uk": "por ende: відтак, дуже офіційне. Por fin означає «нарешті».",
+            "de": "por ende: folglich, sehr förmlich. Por fin heißt endlich.",
+            "fr": "por ende : par conséquent, très soutenu. Por fin veut dire « enfin ».",
+            "pt": "por ende: por conseguinte, muito formal. Por fin quer dizer «finalmente».",
+            "zh": "por ende：因此，非常正式。Por fin 的意思是“终于”。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "El cuento trata ",
+          "after": " una niña y su abuelo.",
+          "options": [
+            "de",
+            "en",
+            "con"
+          ],
+          "answer": "de",
+          "en": "The story is about a girl and her grandfather.",
+          "it": "Il racconto parla di una bambina e di suo nonno.",
+          "uk": "Оповідання розповідає про дівчинку та її дідуся.",
+          "de": "Die Geschichte handelt von einem Mädchen und seinem Großvater.",
+          "fr": "L'histoire parle d'une petite fille et de son grand-père.",
+          "pt": "O conto fala de uma menina e do avô dela.",
+          "zh": "这个故事讲的是一个小女孩和她的爷爷。",
+          "hint": {
+            "en": "tratar de: always with de.",
+            "it": "tratar de: sempre con de.",
+            "uk": "tratar de: завжди з de.",
+            "de": "tratar de: immer mit de.",
+            "fr": "tratar de : toujours avec de.",
+            "pt": "tratar de: sempre com de.",
+            "zh": "tratar de：总是跟 de 连用。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "mix",
+          "before": "La autora ",
+          "after": " el imperfecto para describir el pueblo.",
+          "label": "usar",
+          "accepted": [
+            "usa"
+          ],
+          "en": "The author uses the imperfect to describe the village.",
+          "it": "L'autrice usa l'imperfetto per descrivere il paese.",
+          "uk": "Авторка використовує «imperfecto», щоб описати селище.",
+          "de": "Die Autorin benutzt das Imperfekt, um das Dorf zu beschreiben.",
+          "fr": "L'autrice utilise l'imparfait pour décrire le village.",
+          "pt": "A autora usa o imperfeito para descrever o povoado.",
+          "zh": "作者用过去未完成时来描写这个村子。",
+          "hint": {
+            "en": "la autora is ella: usa.",
+            "it": "la autora è ella: usa.",
+            "uk": "la autora — це ella: usa.",
+            "de": "la autora ist ella: usa.",
+            "fr": "la autora, c'est ella : usa.",
+            "pt": "la autora é ella: usa.",
+            "zh": "la autora 是 ella：usa。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "mix",
+          "intention": {
+            "en": "Close your comment at the reading group with the conclusion: so the main theme is loneliness.",
+            "it": "Chiudi il tuo commento al gruppo di lettura con la conclusione: quindi il tema principale è la solitudine.",
+            "uk": "Заверши свій коментар у читацькому клубі висновком: отже, головна тема — самотність.",
+            "de": "Beende deinen Kommentar im Lesekreis mit dem Schluss: Das Hauptthema ist also die Einsamkeit.",
+            "fr": "Termine ton commentaire au club de lecture avec la conclusion : ainsi, le thème principal est la solitude.",
+            "pt": "Feche o seu comentário no grupo de leitura com a conclusão: assim, o tema principal é a solidão.",
+            "zh": "在读书小组里，用结论来结束你的评论：因此，主题是孤独。"
+          },
+          "accepted": [
+            "Así pues, el tema principal es la soledad.",
+            "Por ende, el tema principal es la soledad."
+          ],
+          "tiles": [
+            "Así pues,",
+            "el tema",
+            "principal",
+            "es la soledad",
+            "sin embargo,",
+            "trata"
+          ],
+          "en": "So the main theme is loneliness.",
+          "it": "Quindi il tema principale è la solitudine.",
+          "uk": "Отже, головна тема — самотність.",
+          "de": "Das Hauptthema ist also die Einsamkeit.",
+          "fr": "Ainsi, le thème principal est la solitude.",
+          "pt": "Assim, o tema principal é a solidão.",
+          "zh": "因此，主题是孤独。",
+          "hint": {
+            "en": "así pues brings in the conclusion.",
+            "it": "así pues introduce la conclusione.",
+            "uk": "así pues вводить висновок.",
+            "de": "así pues leitet den Schluss ein.",
+            "fr": "así pues introduit la conclusion.",
+            "pt": "así pues introduz a conclusão.",
+            "zh": "así pues 引出结论。"
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "You're writing a short comment on a story for your Spanish class. Write in Spanish: «The text is about an old man who lives alone. The main theme is loneliness.»",
+            "it": "Stai scrivendo un breve commento a un racconto per il tuo corso di spagnolo. Scrivi in spagnolo: «Il testo parla di un vecchio che vive da solo. Il tema principale è la solitudine.»",
+            "uk": "Ти пишеш короткий коментар до оповідання для уроку іспанської. Напиши іспанською: «Текст розповідає про старого, який живе сам. Головна тема — самотність.»",
+            "de": "Du schreibst für deinen Spanischkurs einen kurzen Kommentar zu einer Geschichte. Schreib auf Spanisch: «Der Text handelt von einem alten Mann, der allein lebt. Das Hauptthema ist die Einsamkeit.»",
+            "fr": "Tu écris un court commentaire sur une nouvelle pour ton cours d'espagnol. Écris en espagnol : «Le texte parle d'un vieil homme qui vit seul. Le thème principal est la solitude.»",
+            "pt": "Você está escrevendo um breve comentário sobre um conto para a sua aula de espanhol. Escreva em espanhol: «O texto fala de um velho que mora sozinho. O tema principal é a solidão.»",
+            "zh": "你在为西班牙语课写一篇关于一个故事的短评。用西班牙语写：«这篇文章讲的是一个独自生活的老人。主题是孤独。»"
+          },
+          "accepted": [
+            "El texto trata de un viejo que vive solo. El tema principal es la soledad.",
+            "El texto trata de un hombre viejo que vive solo. El tema principal es la soledad.",
+            "El texto trata sobre un viejo que vive solo. El tema principal es la soledad.",
+            "El texto trata de un viejo que vive solo, y el tema principal es la soledad."
+          ],
+          "model": {
+            "es": "El texto trata de un viejo que vive solo. El tema principal es la soledad.",
+            "en": "The text is about an old man who lives alone. The main theme is loneliness.",
+            "it": "Il testo parla di un vecchio che vive da solo. Il tema principale è la solitudine.",
+            "uk": "Текст розповідає про старого, який живе сам. Головна тема — самотність.",
+            "de": "Der Text handelt von einem alten Mann, der allein lebt. Das Hauptthema ist die Einsamkeit.",
+            "fr": "Le texte parle d'un vieil homme qui vit seul. Le thème principal est la solitude.",
+            "pt": "O texto fala de um velho que mora sozinho. O tema principal é a solidão.",
+            "zh": "这篇文章讲的是一个独自生活的老人。主题是孤独。"
+          }
+        }
+      ]
+    }
+  ],
+  "boss": {
+    "id": "u52boss",
+    "goal": {
+      "en": "You run a monthly book club in {city}. This month everyone has read a short story: an old man lives alone by the sea, until one night a girl knocks at his door. The story is told by the old man himself. Lead the discussion line by line: open it, ask the group, comment on the story and close.",
+      "it": "Guidi un club del libro mensile a {city}. Questo mese tutti hanno letto un racconto: un vecchio vive da solo vicino al mare, finché una notte una bambina bussa alla sua porta. La storia la racconta il vecchio stesso. Guida la discussione riga per riga: aprila, fai domande al gruppo, commenta il racconto e chiudi.",
+      "uk": "Ти ведеш щомісячний книжковий клуб у місті {city}. Цього місяця всі прочитали оповідання: старий живе сам біля моря, аж поки однієї ночі в його двері не стукає дівчинка. Історію розповідає сам старий. Веди обговорення репліка за реплікою: відкрий його, розпитай групу, прокоментуй оповідання й заверши.",
+      "de": "Du leitest in {city} einen monatlichen Buchclub. Diesen Monat haben alle eine Kurzgeschichte gelesen: Ein alter Mann lebt allein am Meer, bis eines Nachts ein Mädchen an seine Tür klopft. Erzählt wird die Geschichte vom alten Mann selbst. Leite die Diskussion Satz für Satz: Eröffne sie, frag die Gruppe, kommentier die Geschichte und schließ ab.",
+      "fr": "Tu animes un club de lecture mensuel à {city}. Ce mois-ci, tout le monde a lu une nouvelle : un vieil homme vit seul près de la mer, jusqu'au soir où une petite fille frappe à sa porte. L'histoire est racontée par le vieil homme lui-même. Mène la discussion réplique par réplique : ouvre-la, interroge le groupe, commente l'histoire et conclus.",
+      "pt": "Você coordena um clube do livro mensal em {city}. Este mês todos leram um conto: um velho mora sozinho perto do mar, até que uma noite uma menina bate à sua porta. A história é contada pelo próprio velho. Conduza a conversa frase por frase: abra, faça perguntas ao grupo, comente o conto e encerre.",
+      "zh": "你在{city}组织一个每月一次的读书会。这个月大家读了一篇短篇小说：一个老人独自住在海边，直到一天夜里，一个小女孩来敲他的门。故事是由老人自己讲述的。一句一句地主持讨论：开场，向大家提问，评论这个故事，然后收尾。"
+    },
+    "items": [
+      {
+        "type": "words",
+        "words": [
+          {
+            "es": "el club de lectura",
+            "en": "the book club, the reading group",
+            "it": "il club del libro, il gruppo di lettura",
+            "uk": "книжковий клуб, читацький клуб",
+            "de": "der Buchclub, der Lesekreis",
+            "fr": "le club de lecture",
+            "pt": "o clube do livro, o grupo de leitura",
+            "zh": "读书会，读书小组",
+            "kind": "chunk"
+          },
+          {
+            "es": "¿qué os ha parecido?",
+            "en": "what did you think of it? (to several friends)",
+            "it": "che ve ne è sembrato?",
+            "uk": "як вам? що ви про це думаєте? (до кількох друзів)",
+            "de": "wie fandet ihr es? (zu mehreren Freunden)",
+            "fr": "qu'est-ce que vous en avez pensé ? (à plusieurs amis)",
+            "pt": "o que vocês acharam? (para vários amigos)",
+            "zh": "你们觉得怎么样？（对几个朋友说）",
+            "kind": "chunk"
+          }
+        ]
+      },
+      {
+        "type": "build",
+        "intention": {
+          "en": "Open the meeting: good evening, everyone. Today we're talking about a short story.",
+          "it": "Apri l'incontro: buonasera a tutti. Oggi parliamo di un racconto.",
+          "uk": "Відкрий зустріч: добрий вечір усім. Сьогодні ми говоримо про оповідання.",
+          "de": "Eröffne das Treffen: Guten Abend allerseits. Heute sprechen wir über eine Kurzgeschichte.",
+          "fr": "Ouvre la réunion : bonsoir à tous. Aujourd'hui, on parle d'une nouvelle.",
+          "pt": "Abra o encontro: boa noite a todos. Hoje vamos falar de um conto.",
+          "zh": "宣布开始：大家晚上好。今天我们来聊一篇短篇小说。"
+        },
+        "accepted": [
+          "Buenas noches a todos. Hoy hablamos de un cuento.",
+          "Buenas noches a todos. Hoy vamos a hablar de un cuento."
+        ],
+        "tiles": [
+          "Buenas noches",
+          "a todos.",
+          "Hoy hablamos",
+          "de un cuento",
+          "hablo",
+          "texto"
+        ],
+        "en": "Good evening, everyone. Today we're talking about a short story.",
+        "it": "Buonasera a tutti. Oggi parliamo di un racconto.",
+        "uk": "Добрий вечір усім. Сьогодні ми говоримо про оповідання.",
+        "de": "Guten Abend allerseits. Heute sprechen wir über eine Kurzgeschichte.",
+        "fr": "Bonsoir à tous. Aujourd'hui, on parle d'une nouvelle.",
+        "pt": "Boa noite a todos. Hoje vamos falar de um conto.",
+        "zh": "大家晚上好。今天我们来聊一篇短篇小说。",
+        "hint": {
+          "en": "To the group: hoy hablamos de…",
+          "it": "Al gruppo: hoy hablamos de…",
+          "uk": "До групи: hoy hablamos de…",
+          "de": "An die Gruppe: hoy hablamos de…",
+          "fr": "Au groupe : hoy hablamos de…",
+          "pt": "Para o grupo: hoy hablamos de…",
+          "zh": "对大家说：hoy hablamos de…"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "¿Qué os ha ",
+        "after": " el cuento?",
+        "options": [
+          "parecido",
+          "gustado",
+          "pasado"
+        ],
+        "answer": "parecido",
+        "en": "What did you think of the story?",
+        "it": "Che ve ne è sembrato del racconto?",
+        "uk": "Як вам оповідання?",
+        "de": "Wie fandet ihr die Geschichte?",
+        "fr": "Qu'est-ce que vous avez pensé de l'histoire ?",
+        "pt": "O que vocês acharam do conto?",
+        "zh": "你们觉得这个故事怎么样？",
+        "hint": {
+          "en": "¿qué os ha parecido…? asks for an opinion.",
+          "it": "¿qué os ha parecido…? chiede un'opinione.",
+          "uk": "¿qué os ha parecido…? — питання про думку.",
+          "de": "¿qué os ha parecido…? fragt nach einer Meinung.",
+          "fr": "¿qué os ha parecido…? demande un avis.",
+          "pt": "¿qué os ha parecido…? pede uma opinião.",
+          "zh": "¿qué os ha parecido…? 用来征求意见。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "El cuento ",
+        "after": " de un viejo que vive solo cerca del mar.",
+        "options": [
+          "trata",
+          "tiene",
+          "dice"
+        ],
+        "answer": "trata",
+        "en": "The story is about an old man who lives alone by the sea.",
+        "it": "Il racconto parla di un vecchio che vive da solo vicino al mare.",
+        "uk": "Оповідання розповідає про старого, який живе сам біля моря.",
+        "de": "Die Geschichte handelt von einem alten Mann, der allein am Meer lebt.",
+        "fr": "L'histoire parle d'un vieil homme qui vit seul près de la mer.",
+        "pt": "O conto fala de um velho que mora sozinho perto do mar.",
+        "zh": "这个故事讲的是一个独自住在海边的老人。",
+        "hint": {
+          "en": "tratar de: to be about.",
+          "it": "tratar de: parlare di.",
+          "uk": "tratar de: розповідати про.",
+          "de": "tratar de: handeln von.",
+          "fr": "tratar de : parler de.",
+          "pt": "tratar de: tratar de, falar de.",
+          "zh": "tratar de：讲的是。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "Al principio, el viejo ",
+        "after": " solo y todas las noches miraba las estrellas.",
+        "options": [
+          "vivía",
+          "vivió"
+        ],
+        "answer": "vivía",
+        "en": "At the beginning, the old man lived alone and every night he looked at the stars.",
+        "it": "All'inizio il vecchio viveva da solo e tutte le sere guardava le stelle.",
+        "uk": "Спочатку старий жив сам і щоночі дивився на зорі.",
+        "de": "Am Anfang lebte der alte Mann allein, und jede Nacht schaute er die Sterne an.",
+        "fr": "Au début, le vieil homme vivait seul et tous les soirs il regardait les étoiles.",
+        "pt": "No começo, o velho morava sozinho e todas as noites olhava as estrelas.",
+        "zh": "一开始，老人独自生活，每天晚上都看星星。",
+        "hint": {
+          "en": "The scene, with miraba: imperfect, vivía.",
+          "it": "La scena, con miraba: imperfetto, vivía.",
+          "uk": "Сцена, як і miraba: «imperfecto», vivía.",
+          "de": "Die Szene, mit miraba: Imperfekt, vivía.",
+          "fr": "Le décor, avec miraba : imparfait, vivía.",
+          "pt": "O cenário, como miraba: imperfeito, vivía.",
+          "zh": "场景，和 miraba 一样：用过去未完成时，vivía。"
+        }
+      },
+      {
+        "type": "gap",
+        "before": "Una noche, de repente, alguien ",
+        "after": " a la puerta.",
+        "label": "llamar",
+        "accepted": [
+          "llamó"
+        ],
+        "en": "One night, suddenly, someone knocked at the door.",
+        "it": "Una notte, all'improvviso, qualcuno bussò alla porta.",
+        "uk": "Однієї ночі раптом хтось постукав у двері.",
+        "de": "Eines Nachts klopfte plötzlich jemand an die Tür.",
+        "fr": "Une nuit, soudain, quelqu'un a frappé à la porte.",
+        "pt": "Uma noite, de repente, alguém bateu à porta.",
+        "zh": "一天夜里，突然，有人敲门。",
+        "hint": {
+          "en": "de repente: an event, the past for finished actions.",
+          "it": "de repente: un fatto, il passato per le azioni concluse.",
+          "uk": "de repente: подія, минулий час для завершених дій.",
+          "de": "de repente: ein Ereignis, die Vergangenheit für abgeschlossene Handlungen.",
+          "fr": "de repente : un événement, le passé des actions terminées.",
+          "pt": "de repente: um acontecimento, o passado das ações concluídas.",
+          "zh": "de repente：一个事件，用表示已完成动作的过去时。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "«Abrí la puerta y vi a una niña»: el cuento está escrito en ",
+        "after": " persona.",
+        "options": [
+          "primera",
+          "tercera"
+        ],
+        "answer": "primera",
+        "en": "«Abrí la puerta y vi a una niña»: the story is written in the first person.",
+        "it": "«Abrí la puerta y vi a una niña»: il racconto è scritto in prima persona.",
+        "uk": "«Abrí la puerta y vi a una niña»: оповідання написане від першої особи.",
+        "de": "«Abrí la puerta y vi a una niña»: Die Geschichte ist in der ersten Person geschrieben.",
+        "fr": "«Abrí la puerta y vi a una niña» : l'histoire est écrite à la première personne.",
+        "pt": "«Abrí la puerta y vi a una niña»: o conto está escrito em primeira pessoa.",
+        "zh": "«Abrí la puerta y vi a una niña»：这个故事是用第一人称写的。",
+        "hint": {
+          "en": "abrí and vi are yo forms: first person.",
+          "it": "abrí e vi sono forme di yo: prima persona.",
+          "uk": "abrí і vi — форми для yo: перша особа.",
+          "de": "abrí und vi sind yo-Formen: erste Person.",
+          "fr": "abrí et vi sont des formes de yo : première personne.",
+          "pt": "abrí e vi são formas de yo: primeira pessoa.",
+          "zh": "abrí 和 vi 是 yo 的形式：第一人称。"
+        }
+      },
+      {
+        "type": "gap",
+        "before": "El narrador es el viejo; ",
+        "after": " pues, solo sabemos lo que él ve.",
+        "label": "so, thus",
+        "accepted": [
+          "así"
+        ],
+        "en": "The narrator is the old man; so we only know what he sees.",
+        "it": "Il narratore è il vecchio; quindi sappiamo solo quello che vede lui.",
+        "uk": "Оповідач — старий; отже, ми знаємо лише те, що бачить він.",
+        "de": "Der Erzähler ist der alte Mann; also wissen wir nur, was er sieht.",
+        "fr": "Le narrateur est le vieil homme ; ainsi, nous ne savons que ce qu'il voit.",
+        "pt": "O narrador é o velho; assim, só sabemos o que ele vê.",
+        "zh": "叙述者就是那个老人；因此，我们只知道他看到的东西。",
+        "hint": {
+          "en": "así pues draws the conclusion.",
+          "it": "así pues trae la conclusione.",
+          "uk": "así pues робить висновок.",
+          "de": "así pues zieht den Schluss.",
+          "fr": "así pues tire la conclusion.",
+          "pt": "así pues tira a conclusão.",
+          "zh": "así pues 引出结论。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "El narrador solo sabe lo que ve; por ",
+        "after": ", nosotros tampoco sabemos quién es la niña.",
+        "options": [
+          "ende",
+          "fin",
+          "favor"
+        ],
+        "answer": "ende",
+        "en": "The narrator only knows what he sees; therefore, we don't know who the girl is either.",
+        "it": "Il narratore sa solo quello che vede; pertanto nemmeno noi sappiamo chi è la bambina.",
+        "uk": "Оповідач знає лише те, що бачить; відтак ми теж не знаємо, хто ця дівчинка.",
+        "de": "Der Erzähler weiß nur, was er sieht; folglich wissen wir auch nicht, wer das Mädchen ist.",
+        "fr": "Le narrateur ne sait que ce qu'il voit ; par conséquent, nous ne savons pas non plus qui est la petite fille.",
+        "pt": "O narrador só sabe o que vê; por conseguinte, também não sabemos quem é a menina.",
+        "zh": "叙述者只知道他看到的东西；故而，我们也不知道那个小女孩是谁。",
+        "hint": {
+          "en": "por ende: therefore, very formal.",
+          "it": "por ende: pertanto, molto formale.",
+          "uk": "por ende: відтак, дуже офіційне.",
+          "de": "por ende: folglich, sehr förmlich.",
+          "fr": "por ende : par conséquent, très soutenu.",
+          "pt": "por ende: por conseguinte, muito formal.",
+          "zh": "por ende：因此，非常正式。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "Para mí, el tema principal es la ",
+        "after": ".",
+        "options": [
+          "soledad",
+          "rima",
+          "verso"
+        ],
+        "answer": "soledad",
+        "en": "For me, the main theme is loneliness.",
+        "it": "Per me, il tema principale è la solitudine.",
+        "uk": "Як на мене, головна тема — самотність.",
+        "de": "Für mich ist das Hauptthema die Einsamkeit.",
+        "fr": "Pour moi, le thème principal est la solitude.",
+        "pt": "Para mim, o tema principal é a solidão.",
+        "zh": "在我看来，主题是孤独。",
+        "hint": {
+          "en": "An old man who lives alone: la soledad.",
+          "it": "Un vecchio che vive da solo: la soledad.",
+          "uk": "Старий, який живе сам: la soledad.",
+          "de": "Ein alter Mann, der allein lebt: la soledad.",
+          "fr": "Un vieil homme qui vit seul : la soledad.",
+          "pt": "Um velho que mora sozinho: la soledad.",
+          "zh": "一个独自生活的老人：la soledad。"
+        }
+      },
+      {
+        "type": "build",
+        "intention": {
+          "en": "Ask the group: in your opinion, what's the main theme?",
+          "it": "Chiedi al gruppo: secondo voi, qual è il tema principale?",
+          "uk": "Спитай групу: на вашу думку, яка головна тема?",
+          "de": "Frag die Gruppe: Was ist eurer Meinung nach das Hauptthema?",
+          "fr": "Demande au groupe : à votre avis, quel est le thème principal ?",
+          "pt": "Pergunte ao grupo: na opinião de vocês, qual é o tema principal?",
+          "zh": "问大家：你们觉得主题是什么？"
+        },
+        "accepted": [
+          "En vuestra opinión, ¿cuál es el tema principal?",
+          "¿Cuál es el tema principal, en vuestra opinión?"
+        ],
+        "tiles": [
+          "En vuestra",
+          "opinión,",
+          "¿cuál es",
+          "el tema",
+          "principal?",
+          "tu",
+          "qué"
+        ],
+        "en": "In your opinion, what's the main theme?",
+        "it": "Secondo voi, qual è il tema principale?",
+        "uk": "На вашу думку, яка головна тема?",
+        "de": "Was ist eurer Meinung nach das Hauptthema?",
+        "fr": "À votre avis, quel est le thème principal ?",
+        "pt": "Na opinião de vocês, qual é o tema principal?",
+        "zh": "你们觉得主题是什么？",
+        "hint": {
+          "en": "To the group: vuestra opinión.",
+          "it": "Al gruppo: vuestra opinión.",
+          "uk": "До групи: vuestra opinión.",
+          "de": "An die Gruppe: vuestra opinión.",
+          "fr": "Au groupe : vuestra opinión.",
+          "pt": "Para o grupo: vuestra opinión.",
+          "zh": "对大家说：vuestra opinión。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "Sea como ",
+        "after": ", el final es muy bonito.",
+        "options": [
+          "fuere",
+          "fueres",
+          "vieres"
+        ],
+        "answer": "fuere",
+        "en": "Be that as it may, the ending is very beautiful.",
+        "it": "Comunque sia, il finale è molto bello.",
+        "uk": "Хай там як, кінцівка дуже гарна.",
+        "de": "Wie dem auch sei, das Ende ist sehr schön.",
+        "fr": "Quoi qu'il en soit, la fin est très belle.",
+        "pt": "Seja como for, o final é muito bonito.",
+        "zh": "不管怎样，结尾非常美。",
+        "hint": {
+          "en": "The fixed phrase is sea como fuere.",
+          "it": "L'espressione fissa è sea como fuere.",
+          "uk": "Сталий вираз — sea como fuere.",
+          "de": "Die feste Wendung ist sea como fuere.",
+          "fr": "L'expression figée est sea como fuere.",
+          "pt": "A expressão fixa é sea como fuere.",
+          "zh": "固定说法是 sea como fuere。"
+        }
+      },
+      {
+        "type": "write",
+        "instruction": {
+          "en": "Close the meeting and announce next month's book. Write in Spanish: «So next month we're reading a book of poetry.»",
+          "it": "Chiudi l'incontro e annuncia il libro del mese prossimo. Scrivi in spagnolo: «Quindi il mese prossimo leggiamo un libro di poesia.»",
+          "uk": "Заверши зустріч і оголоси книжку наступного місяця. Напиши іспанською: «Отже, наступного місяця ми читаємо збірку поезії.»",
+          "de": "Schließ das Treffen und kündige das Buch für nächsten Monat an. Schreib auf Spanisch: «Also lesen wir nächsten Monat einen Gedichtband.»",
+          "fr": "Termine la réunion et annonce le livre du mois prochain. Écris en espagnol : «Donc, le mois prochain, on lit un livre de poésie.»",
+          "pt": "Encerre o encontro e anuncie o livro do próximo mês. Escreva em espanhol: «Assim, no mês que vem vamos ler um livro de poesia.»",
+          "zh": "宣布讨论结束，并公布下个月要读的书。用西班牙语写：«因此，下个月我们读一本诗集。»"
+        },
+        "accepted": [
+          "Así pues, el mes que viene leemos un libro de poesía.",
+          "Así pues, el próximo mes leemos un libro de poesía.",
+          "Así pues, el mes que viene vamos a leer un libro de poesía.",
+          "Así pues, el próximo mes vamos a leer un libro de poesía."
+        ],
+        "model": {
+          "es": "Así pues, el mes que viene leemos un libro de poesía.",
+          "en": "So next month we're reading a book of poetry.",
+          "it": "Quindi il mese prossimo leggiamo un libro di poesia.",
+          "uk": "Отже, наступного місяця ми читаємо збірку поезії.",
+          "de": "Also lesen wir nächsten Monat einen Gedichtband.",
+          "fr": "Donc, le mois prochain, on lit un livre de poésie.",
+          "pt": "Assim, no mês que vem vamos ler um livro de poesia.",
+          "zh": "因此，下个月我们读一本诗集。"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,3669 @@
+{
+  "unit": "u53",
+  "lessons": [
+    {
+      "id": "u53l1",
+      "goal": {
+        "en": "Read the news like a Spaniard: headlines in the present and without an article (el ayuntamiento abre…), se + verb for what is done (se amplía el horario), según fuentes to name a source without a name, and al parecer for news that isn't confirmed yet.",
+        "it": "Leggi le notizie come uno spagnolo: titoli al presente e senza articolo (el ayuntamiento abre…), se + verbo per ciò che si fa (se amplía el horario), según fuentes per citare una fonte senza nome, e al parecer per le notizie non ancora confermate.",
+        "uk": "Читай новини, як іспанець: заголовки в теперішньому часі й без артикля (el ayuntamiento abre…), se + дієслово для того, що робиться (se amplía el horario), según fuentes, щоб послатися на джерело без імені, і al parecer для новин, які ще не підтверджені.",
+        "de": "Lies Nachrichten wie ein Spanier: Schlagzeilen im Präsens und ohne Artikel (el ayuntamiento abre…), se + Verb für das, was getan wird (se amplía el horario), según fuentes, um eine Quelle ohne Namen zu nennen, und al parecer für Meldungen, die noch nicht bestätigt sind.",
+        "fr": "Lis la presse comme un Espagnol : des titres au présent et sans article (el ayuntamiento abre…), se + verbe pour ce qui se fait (se amplía el horario), según fuentes pour citer une source sans la nommer, et al parecer pour une nouvelle pas encore confirmée.",
+        "pt": "Leia as notícias como um espanhol: manchetes no presente e sem artigo (el ayuntamiento abre…), se + verbo para o que se faz (se amplía el horario), según fuentes para citar uma fonte sem dar nome e al parecer para notícias ainda não confirmadas.",
+        "zh": "像西班牙人一样读新闻：标题用现在时，开头不加冠词（el ayuntamiento abre…），用 se + 动词说“做了什么事”（se amplía el horario），用 según fuentes 引用不具名的消息来源，用 al parecer 报道尚未证实的消息。"
+      },
+      "target": {
+        "es": "Según fuentes municipales, el carril bici estará listo en mayo.",
+        "en": "According to council sources, the bike lane will be ready in May.",
+        "it": "Secondo fonti comunali, la pista ciclabile sarà pronta a maggio.",
+        "uk": "За даними джерел у міській раді, велодоріжка буде готова в травні.",
+        "de": "Laut Quellen aus dem Rathaus wird der Radweg im Mai fertig sein.",
+        "fr": "Selon des sources municipales, la piste cyclable sera prête en mai.",
+        "pt": "Segundo fontes da prefeitura, a ciclovia vai ficar pronta em maio.",
+        "zh": "据市政府消息人士透露，自行车道将于五月建成。"
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "la prensa",
+              "en": "the press, the newspapers",
+              "it": "la stampa, i giornali",
+              "uk": "преса, газети",
+              "de": "die Presse, die Zeitungen",
+              "fr": "la presse, les journaux",
+              "pt": "a imprensa, os jornais",
+              "zh": "新闻界，报刊",
+              "kind": "chunk"
+            },
+            {
+              "es": "la fuente",
+              "en": "the source (of a piece of news)",
+              "it": "la fonte (di una notizia)",
+              "uk": "джерело (новини)",
+              "de": "die Quelle (einer Nachricht)",
+              "fr": "la source (d'une information)",
+              "pt": "a fonte (de uma notícia)",
+              "zh": "（新闻的）消息来源",
+              "kind": "chunk"
+            },
+            {
+              "es": "al parecer",
+              "en": "apparently (not confirmed yet)",
+              "it": "a quanto pare (non ancora confermato)",
+              "uk": "схоже, начебто (ще не підтверджено)",
+              "de": "anscheinend (noch nicht bestätigt)",
+              "fr": "apparemment (pas encore confirmé)",
+              "pt": "ao que parece, pelo visto (ainda não confirmado)",
+              "zh": "看来，似乎（尚未证实）",
+              "kind": "rail"
+            },
+            {
+              "es": "municipal / municipales",
+              "en": "of the town council, municipal (singular / plural)",
+              "it": "comunale / comunali",
+              "uk": "міський, муніципальний (однина / множина)",
+              "de": "städtisch, Gemeinde- (Singular / Plural)",
+              "fr": "de la mairie, municipal (singulier / pluriel)",
+              "pt": "da prefeitura, municipal (singular / plural)",
+              "zh": "市政府的，市立的（单数 / 复数）",
+              "kind": "chunk"
+            }
+          ]
+        },
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "el carril bici",
+              "en": "the bike lane",
+              "it": "la pista ciclabile",
+              "uk": "велодоріжка",
+              "de": "der Radweg",
+              "fr": "la piste cyclable",
+              "pt": "a ciclovia, a ciclofaixa",
+              "zh": "自行车道",
+              "kind": "chunk"
+            },
+            {
+              "es": "la biblioteca",
+              "en": "the library",
+              "it": "la biblioteca",
+              "uk": "бібліотека",
+              "de": "die Bibliothek",
+              "fr": "la bibliothèque",
+              "pt": "a biblioteca",
+              "zh": "图书馆",
+              "kind": "chunk"
+            },
+            {
+              "es": "ampliar",
+              "en": "to extend, to widen",
+              "it": "ampliare, estendere",
+              "uk": "розширювати, подовжувати",
+              "de": "erweitern, verlängern",
+              "fr": "agrandir, élargir, prolonger",
+              "pt": "ampliar, estender",
+              "zh": "扩大，延长",
+              "kind": "stem"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "titular",
+              "kind": "chunk"
+            },
+            {
+              "text": "+",
+              "kind": "chunk"
+            },
+            {
+              "text": "abre",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "Headlines are short: they often drop the article at the start and use the present, even for news that has just happened. Read El ayuntamiento abre un carril bici as the council is opening (or has opened) a bike lane.",
+            "it": "I titoli sono brevi: spesso tolgono l'articolo all'inizio e usano il presente, anche per notizie appena successe. Leggi El ayuntamiento abre un carril bici come il comune apre (o ha aperto) una pista ciclabile.",
+            "uk": "Заголовки короткі: вони часто опускають артикль на початку й уживають теперішній час, навіть для новин, які щойно сталися. Читай El ayuntamiento abre un carril bici як «міська рада відкриває (або відкрила) велодоріжку».",
+            "de": "Schlagzeilen sind kurz: Oft fällt der Artikel am Anfang weg, und sie stehen im Präsens, auch bei Nachrichten, die gerade erst passiert sind. Lies El ayuntamiento abre un carril bici als: Die Stadt eröffnet (oder hat eröffnet) einen Radweg. Ganz wie im Deutschen: „Stadt eröffnet neuen Radweg“.",
+            "fr": "Les titres sont courts : ils suppriment souvent l'article du début et emploient le présent, même pour une nouvelle qui vient de se produire. Comprends El ayuntamiento abre un carril bici comme « la mairie ouvre (ou vient d'ouvrir) une piste cyclable ».",
+            "pt": "As manchetes são curtas: muitas vezes tiram o artigo do começo e usam o presente, mesmo para notícias que acabaram de acontecer. Leia El ayuntamiento abre un carril bici como a prefeitura abre (ou abriu) uma ciclovia.",
+            "zh": "新闻标题很短：开头常常省掉冠词，而且用现在时，哪怕是刚刚发生的事。El ayuntamiento abre un carril bici 应理解为：市政府开通（或已经开通）一条自行车道。"
+          },
+          "examples": [
+            {
+              "es": "El ayuntamiento abre un nuevo carril bici.",
+              "en": "Council opens new bike lane.",
+              "it": "Il comune apre una nuova pista ciclabile.",
+              "uk": "Міська рада відкриває нову велодоріжку.",
+              "de": "Stadt eröffnet neuen Radweg.",
+              "fr": "La mairie ouvre une nouvelle piste cyclable.",
+              "pt": "Prefeitura abre nova ciclovia.",
+              "zh": "市政府开通新自行车道。"
+            },
+            {
+              "es": "Nuevo horario para la biblioteca municipal.",
+              "en": "New opening hours for the town library.",
+              "it": "Nuovo orario per la biblioteca comunale.",
+              "uk": "Новий графік роботи міської бібліотеки.",
+              "de": "Neue Öffnungszeiten für die Stadtbibliothek.",
+              "fr": "Nouveaux horaires pour la bibliothèque municipale.",
+              "pt": "Novo horário para a biblioteca municipal.",
+              "zh": "市立图书馆启用新开放时间。"
+            },
+            {
+              "es": "La piscina municipal abre en junio.",
+              "en": "Town pool to open in June.",
+              "it": "La piscina comunale apre a giugno.",
+              "uk": "Міський басейн відкривається в червні.",
+              "de": "Städtisches Schwimmbad öffnet im Juni.",
+              "fr": "La piscine municipale ouvre en juin.",
+              "pt": "Piscina municipal abre em junho.",
+              "zh": "市立游泳池六月开放。"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "La biblioteca municipal ",
+          "after": " también los domingos.",
+          "options": [
+            "abre",
+            "abrió"
+          ],
+          "answer": "abre",
+          "en": "Town library opens on Sundays too. (a headline)",
+          "it": "La biblioteca comunale apre anche la domenica. (un titolo)",
+          "uk": "Міська бібліотека відкривається і в неділю. (заголовок)",
+          "de": "Stadtbibliothek öffnet auch sonntags. (eine Schlagzeile)",
+          "fr": "La bibliothèque municipale ouvre aussi le dimanche. (un titre)",
+          "pt": "Biblioteca municipal abre também aos domingos. (uma manchete)",
+          "zh": "市立图书馆周日也开放。（新闻标题）",
+          "hint": {
+            "en": "Headlines use the present: abre.",
+            "it": "I titoli usano il presente: abre.",
+            "uk": "Заголовки вживають теперішній час: abre.",
+            "de": "Schlagzeilen stehen im Präsens: abre.",
+            "fr": "Les titres emploient le présent : abre.",
+            "pt": "As manchetes usam o presente: abre.",
+            "zh": "标题用现在时：abre。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "You write the headlines for your neighbourhood's newsletter. Write today's: council opens new bike lane.",
+            "it": "Scrivi i titoli per il notiziario del tuo quartiere. Scrivi quello di oggi: il comune apre una nuova pista ciclabile.",
+            "uk": "Ти пишеш заголовки для бюлетеня свого району. Напиши сьогоднішній: міська рада відкриває нову велодоріжку.",
+            "de": "Du schreibst die Schlagzeilen für das Mitteilungsblatt deines Viertels. Schreib die von heute: Stadt eröffnet neuen Radweg.",
+            "fr": "Tu écris les titres du bulletin de ton quartier. Écris celui d'aujourd'hui : la mairie ouvre une nouvelle piste cyclable.",
+            "pt": "Você escreve as manchetes do boletim do seu bairro. Escreva a de hoje: prefeitura abre nova ciclovia.",
+            "zh": "你负责给街区的社区简报写标题。写今天的标题：市政府开通新自行车道。"
+          },
+          "accepted": [
+            "El ayuntamiento abre un nuevo carril bici."
+          ],
+          "tiles": [
+            "El ayuntamiento",
+            "abre",
+            "un nuevo",
+            "carril bici",
+            "abrió",
+            "la"
+          ],
+          "en": "Council opens new bike lane.",
+          "it": "Il comune apre una nuova pista ciclabile.",
+          "uk": "Міська рада відкриває нову велодоріжку.",
+          "de": "Stadt eröffnet neuen Radweg.",
+          "fr": "La mairie ouvre une nouvelle piste cyclable.",
+          "pt": "Prefeitura abre nova ciclovia.",
+          "zh": "市政府开通新自行车道。",
+          "hint": {
+            "en": "A headline: the present, abre.",
+            "it": "Un titolo: il presente, abre.",
+            "uk": "Заголовок: теперішній час, abre.",
+            "de": "Eine Schlagzeile: das Präsens, abre.",
+            "fr": "Un titre : le présent, abre.",
+            "pt": "Uma manchete: o presente, abre.",
+            "zh": "新闻标题：用现在时，abre。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "se",
+              "kind": "ending"
+            },
+            {
+              "text": "+",
+              "kind": "chunk"
+            },
+            {
+              "text": "amplía",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "News loves se + verb, which you know: it says what is done without saying who does it. The verb agrees with the thing: se amplía el horario (one thing), se amplían los horarios (several).",
+            "it": "Le notizie amano se + verbo, che conosci già: dice che cosa si fa senza dire chi lo fa. Il verbo concorda con la cosa: se amplía el horario (una cosa), se amplían los horarios (più cose).",
+            "uk": "Новини люблять se + дієслово, яке ти вже знаєш: воно каже, що робиться, не кажучи, хто це робить. Дієслово узгоджується з предметом: se amplía el horario (одна річ), se amplían los horarios (кілька).",
+            "de": "Nachrichten lieben se + Verb, das du schon kennst: Es sagt, was getan wird, ohne zu sagen, wer es tut (wie das deutsche Passiv: „wird erweitert“). Das Verb richtet sich nach der Sache: se amplía el horario (eine Sache), se amplían los horarios (mehrere).",
+            "fr": "La presse adore se + verbe, que tu connais déjà : il dit ce qui se fait sans dire qui le fait. Le verbe s'accorde avec la chose : se amplía el horario (une seule chose), se amplían los horarios (plusieurs).",
+            "pt": "As notícias adoram se + verbo, que você já conhece: diz o que se faz sem dizer quem faz. O verbo concorda com a coisa: se amplía el horario (uma coisa), se amplían los horarios (várias), como em português amplia-se o horário, ampliam-se os horários.",
+            "zh": "新闻特别爱用你已经学过的 se + 动词：它只说做了什么事，不说是谁做的。动词和那件事物保持一致：se amplía el horario（一样东西），se amplían los horarios（几样东西）。"
+          },
+          "examples": [
+            {
+              "es": "Se amplía el horario de la biblioteca.",
+              "en": "Library opening hours extended.",
+              "it": "Si amplia l'orario della biblioteca.",
+              "uk": "Графік роботи бібліотеки подовжено.",
+              "de": "Öffnungszeiten der Bibliothek werden verlängert.",
+              "fr": "Les horaires de la bibliothèque sont élargis.",
+              "pt": "Biblioteca amplia horário de funcionamento.",
+              "zh": "图书馆延长开放时间。"
+            },
+            {
+              "es": "Se aprueban los nuevos horarios escolares.",
+              "en": "New school timetables approved.",
+              "it": "Approvati i nuovi orari scolastici.",
+              "uk": "Затверджено новий шкільний розклад.",
+              "de": "Neue Schulzeiten beschlossen.",
+              "fr": "Les nouveaux horaires scolaires sont approuvés.",
+              "pt": "Aprovados os novos horários escolares.",
+              "zh": "新的学校作息时间获批。"
+            },
+            {
+              "es": "Se abren dos nuevos carriles bici.",
+              "en": "Two new bike lanes open.",
+              "it": "Aperte due nuove piste ciclabili.",
+              "uk": "Відкрито дві нові велодоріжки.",
+              "de": "Zwei neue Radwege eröffnet.",
+              "fr": "Ouverture de deux nouvelles pistes cyclables.",
+              "pt": "Abertas duas novas ciclovias.",
+              "zh": "两条新自行车道开通。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "amplía",
+              "en": "extends, is extended (se amplía)",
+              "it": "amplia, si amplia (se amplía)",
+              "uk": "розширює, розширюється (se amplía)",
+              "de": "erweitert, wird erweitert (se amplía)",
+              "fr": "élargit, est élargi (se amplía)",
+              "pt": "amplia, é ampliado (se amplía)",
+              "zh": "扩大，被延长（se amplía）"
+            },
+            {
+              "es": "amplían",
+              "en": "extend, are extended (se amplían)",
+              "it": "ampliano, si ampliano (se amplían)",
+              "uk": "розширюють, розширюються (se amplían)",
+              "de": "erweitern, werden erweitert (se amplían)",
+              "fr": "élargissent, sont élargis (se amplían)",
+              "pt": "ampliam, são ampliados (se amplían)",
+              "zh": "（复数）扩大，被延长（se amplían）"
+            },
+            {
+              "es": "aprueban",
+              "en": "approve, are approved (se aprueban)",
+              "it": "approvano, si approvano (se aprueban)",
+              "uk": "затверджують, затверджуються (se aprueban)",
+              "de": "beschließen, werden beschlossen (se aprueban)",
+              "fr": "approuvent, sont approuvés (se aprueban)",
+              "pt": "aprovam, são aprovados (se aprueban)",
+              "zh": "（复数）批准，被批准（se aprueban）"
+            },
+            {
+              "es": "aprueba",
+              "en": "approves, is approved (se aprueba)",
+              "it": "approva, si approva (se aprueba)",
+              "uk": "затверджує, затверджується (se aprueba)",
+              "de": "beschließt, wird beschlossen (se aprueba)",
+              "fr": "approuve, est approuvé (se aprueba)",
+              "pt": "aprova, é aprovado (se aprueba)",
+              "zh": "批准，被批准（se aprueba）"
+            },
+            {
+              "es": "los horarios",
+              "en": "the timetables, the opening hours",
+              "it": "gli orari",
+              "uk": "розклади, графіки роботи",
+              "de": "die Stundenpläne, die Öffnungszeiten",
+              "fr": "les horaires",
+              "pt": "os horários",
+              "zh": "时间表，开放时间"
+            },
+            {
+              "es": "escolares",
+              "en": "school (plural: los horarios escolares)",
+              "it": "scolastici (plurale: los horarios escolares)",
+              "uk": "шкільні (множина: los horarios escolares)",
+              "de": "Schul- (Plural: los horarios escolares)",
+              "fr": "scolaires (pluriel : los horarios escolares)",
+              "pt": "escolares (plural: los horarios escolares)",
+              "zh": "学校的（复数：los horarios escolares）"
+            },
+            {
+              "es": "nuevos",
+              "en": "new (masculine plural)",
+              "it": "nuovi",
+              "uk": "нові (чоловічий рід, множина)",
+              "de": "neu (männlich Plural)",
+              "fr": "nouveaux (masculin pluriel)",
+              "pt": "novos (masculino plural)",
+              "zh": "新的（阳性复数）"
+            },
+            {
+              "es": "los carriles",
+              "en": "the lanes",
+              "it": "le corsie, le piste",
+              "uk": "смуги, доріжки",
+              "de": "die Spuren, die Wege",
+              "fr": "les voies, les pistes",
+              "pt": "as faixas, as pistas",
+              "zh": "车道（复数）"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Se ",
+          "after": " dos nuevos carriles bici.",
+          "options": [
+            "abren",
+            "abre"
+          ],
+          "answer": "abren",
+          "en": "Two new bike lanes open. (a headline)",
+          "it": "Aperte due nuove piste ciclabili. (un titolo)",
+          "uk": "Відкрито дві нові велодоріжки. (заголовок)",
+          "de": "Zwei neue Radwege eröffnet. (eine Schlagzeile)",
+          "fr": "Ouverture de deux nouvelles pistes cyclables. (un titre)",
+          "pt": "Abertas duas novas ciclovias. (uma manchete)",
+          "zh": "两条新自行车道开通。（新闻标题）",
+          "hint": {
+            "en": "dos carriles is plural: se abren.",
+            "it": "dos carriles è plurale: se abren.",
+            "uk": "dos carriles — множина: se abren.",
+            "de": "dos carriles ist Plural: se abren.",
+            "fr": "dos carriles est au pluriel : se abren.",
+            "pt": "dos carriles está no plural: se abren.",
+            "zh": "dos carriles 是复数：se abren。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "fire",
+          "before": "Se ",
+          "after": " el horario de la biblioteca.",
+          "label": "ampliar",
+          "accepted": [
+            "amplía"
+          ],
+          "en": "Library opening hours extended. (a headline)",
+          "it": "Si amplia l'orario della biblioteca. (un titolo)",
+          "uk": "Графік роботи бібліотеки подовжено. (заголовок)",
+          "de": "Öffnungszeiten der Bibliothek werden verlängert. (eine Schlagzeile)",
+          "fr": "Les horaires de la bibliothèque sont élargis. (un titre)",
+          "pt": "Biblioteca amplia horário de funcionamento. (uma manchete)",
+          "zh": "图书馆延长开放时间。（新闻标题）",
+          "hint": {
+            "en": "One thing, el horario: se amplía.",
+            "it": "Una cosa sola, el horario: se amplía.",
+            "uk": "Одна річ, el horario: se amplía.",
+            "de": "Eine Sache, el horario: se amplía.",
+            "fr": "Une seule chose, el horario : se amplía.",
+            "pt": "Uma coisa só, el horario: se amplía.",
+            "zh": "只有一样东西，el horario：se amplía。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "según fuentes",
+              "kind": "rail"
+            },
+            {
+              "text": "·",
+              "kind": "chunk"
+            },
+            {
+              "text": "al parecer",
+              "kind": "rail"
+            }
+          ],
+          "rule": {
+            "en": "Según fuentes + an adjective names the source without a name: según fuentes municipales (according to council sources). Al parecer (apparently) warns you that the news isn't confirmed yet.",
+            "it": "Según fuentes + un aggettivo cita la fonte senza fare nomi: según fuentes municipales (secondo fonti comunali). Al parecer (a quanto pare) avverte che la notizia non è ancora confermata.",
+            "uk": "Según fuentes + прикметник називає джерело без імені: según fuentes municipales (за даними джерел у міській раді). Al parecer (схоже, начебто) попереджає, що новина ще не підтверджена.",
+            "de": "Según fuentes + ein Adjektiv nennt die Quelle ohne Namen: según fuentes municipales (laut Quellen aus dem Rathaus). Al parecer (anscheinend) warnt dich, dass die Nachricht noch nicht bestätigt ist.",
+            "fr": "Según fuentes + un adjectif cite la source sans la nommer : según fuentes municipales (selon des sources municipales). Al parecer (apparemment) t'avertit que la nouvelle n'est pas encore confirmée.",
+            "pt": "Según fuentes + um adjetivo cita a fonte sem dar nomes: según fuentes municipales (segundo fontes da prefeitura). Al parecer (ao que parece) avisa que a notícia ainda não está confirmada.",
+            "zh": "Según fuentes + 形容词，可以说出消息来源而不点名：según fuentes municipales（据市政府消息人士）。Al parecer（看来，似乎）提醒你这条消息还没有得到证实。"
+          },
+          "examples": [
+            {
+              "es": "Según fuentes municipales, el carril bici estará listo en mayo.",
+              "en": "According to council sources, the bike lane will be ready in May.",
+              "it": "Secondo fonti comunali, la pista ciclabile sarà pronta a maggio.",
+              "uk": "За даними джерел у міській раді, велодоріжка буде готова в травні.",
+              "de": "Laut Quellen aus dem Rathaus wird der Radweg im Mai fertig sein.",
+              "fr": "Selon des sources municipales, la piste cyclable sera prête en mai.",
+              "pt": "Segundo fontes da prefeitura, a ciclovia vai ficar pronta em maio.",
+              "zh": "据市政府消息人士透露，自行车道将于五月建成。"
+            },
+            {
+              "es": "Al parecer, la piscina no abrirá este verano.",
+              "en": "Apparently, the pool won't open this summer.",
+              "it": "A quanto pare, la piscina non aprirà quest'estate.",
+              "uk": "Схоже, цього літа басейн не відкриється.",
+              "de": "Anscheinend öffnet das Schwimmbad diesen Sommer nicht.",
+              "fr": "Apparemment, la piscine n'ouvrira pas cet été.",
+              "pt": "Ao que parece, a piscina não vai abrir neste verão.",
+              "zh": "看来，游泳池今年夏天不会开放了。"
+            },
+            {
+              "es": "Según fuentes de la biblioteca, el nuevo horario empieza en enero.",
+              "en": "According to library sources, the new hours start in January.",
+              "it": "Secondo fonti della biblioteca, il nuovo orario comincia a gennaio.",
+              "uk": "За даними джерел у бібліотеці, новий графік роботи починає діяти в січні.",
+              "de": "Laut Quellen aus der Bibliothek beginnen die neuen Öffnungszeiten im Januar.",
+              "fr": "Selon des sources de la bibliothèque, les nouveaux horaires commencent en janvier.",
+              "pt": "Segundo fontes da biblioteca, o novo horário começa em janeiro.",
+              "zh": "据图书馆消息人士透露，新的开放时间从一月开始实行。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "las fuentes",
+              "en": "the sources",
+              "it": "le fonti",
+              "uk": "джерела",
+              "de": "die Quellen",
+              "fr": "les sources",
+              "pt": "as fontes",
+              "zh": "消息来源（复数）"
+            },
+            {
+              "es": "abrirá",
+              "en": "it will open",
+              "it": "aprirà",
+              "uk": "відкриється",
+              "de": "er / sie / es wird öffnen",
+              "fr": "il / elle ouvrira",
+              "pt": "vai abrir, abrirá",
+              "zh": "它将开放，它将开门"
+            },
+            {
+              "es": "cerrará",
+              "en": "it will close",
+              "it": "chiuderà",
+              "uk": "закриється",
+              "de": "er / sie / es wird schließen",
+              "fr": "il / elle fermera",
+              "pt": "vai fechar, fechará",
+              "zh": "它将关闭，它将关门"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Según ",
+          "after": " municipales, la biblioteca cerrará en agosto.",
+          "options": [
+            "fuentes",
+            "prensa",
+            "parecer"
+          ],
+          "answer": "fuentes",
+          "en": "According to council sources, the library will close in August.",
+          "it": "Secondo fonti comunali, la biblioteca chiuderà ad agosto.",
+          "uk": "За даними джерел у міській раді, бібліотека закриється в серпні.",
+          "de": "Laut Quellen aus dem Rathaus wird die Bibliothek im August schließen.",
+          "fr": "Selon des sources municipales, la bibliothèque fermera en août.",
+          "pt": "Segundo fontes da prefeitura, a biblioteca vai fechar em agosto.",
+          "zh": "据市政府消息人士透露，图书馆将于八月闭馆。",
+          "hint": {
+            "en": "según fuentes + an adjective: según fuentes municipales.",
+            "it": "según fuentes + aggettivo: según fuentes municipales.",
+            "uk": "según fuentes + прикметник: según fuentes municipales.",
+            "de": "según fuentes + ein Adjektiv: según fuentes municipales.",
+            "fr": "según fuentes + un adjectif : según fuentes municipales.",
+            "pt": "según fuentes + um adjetivo: según fuentes municipales.",
+            "zh": "según fuentes + 形容词：según fuentes municipales。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "fire",
+          "before": "Al ",
+          "after": ", la piscina no abrirá este verano.",
+          "label": "apparently",
+          "accepted": [
+            "parecer"
+          ],
+          "en": "Apparently, the pool won't open this summer.",
+          "it": "A quanto pare, la piscina non aprirà quest'estate.",
+          "uk": "Схоже, цього літа басейн не відкриється.",
+          "de": "Anscheinend öffnet das Schwimmbad diesen Sommer nicht.",
+          "fr": "Apparemment, la piscine n'ouvrira pas cet été.",
+          "pt": "Ao que parece, a piscina não vai abrir neste verão.",
+          "zh": "看来，游泳池今年夏天不会开放了。",
+          "hint": {
+            "en": "al parecer: apparently, not confirmed yet.",
+            "it": "al parecer: a quanto pare, non ancora confermato.",
+            "uk": "al parecer: схоже, ще не підтверджено.",
+            "de": "al parecer: anscheinend, noch nicht bestätigt.",
+            "fr": "al parecer : apparemment, pas encore confirmé.",
+            "pt": "al parecer: ao que parece, ainda não confirmado.",
+            "zh": "al parecer：看来，尚未证实。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "Se ",
+          "after": " los nuevos horarios escolares.",
+          "options": [
+            "aprueban",
+            "aprueba"
+          ],
+          "answer": "aprueban",
+          "en": "New school timetables approved. (a headline)",
+          "it": "Approvati i nuovi orari scolastici. (un titolo)",
+          "uk": "Затверджено новий шкільний розклад. (заголовок)",
+          "de": "Neue Schulzeiten beschlossen. (eine Schlagzeile)",
+          "fr": "Les nouveaux horaires scolaires sont approuvés. (un titre)",
+          "pt": "Aprovados os novos horários escolares. (uma manchete)",
+          "zh": "新的学校作息时间获批。（新闻标题）",
+          "hint": {
+            "en": "los horarios is plural: se aprueban.",
+            "it": "los horarios è plurale: se aprueban.",
+            "uk": "los horarios — множина: se aprueban.",
+            "de": "los horarios ist Plural: se aprueban.",
+            "fr": "los horarios est au pluriel : se aprueban.",
+            "pt": "los horarios está no plural: se aprueban.",
+            "zh": "los horarios 是复数：se aprueban。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "",
+          "after": ", la biblioteca abrirá también los domingos, pero todavía no es seguro.",
+          "options": [
+            "Al parecer",
+            "Por supuesto",
+            "Sin embargo"
+          ],
+          "answer": "Al parecer",
+          "en": "Apparently, the library will also open on Sundays, but it isn't certain yet.",
+          "it": "A quanto pare, la biblioteca aprirà anche la domenica, ma non è ancora sicuro.",
+          "uk": "Схоже, бібліотека відкриватиметься й у неділю, але це ще не точно.",
+          "de": "Anscheinend wird die Bibliothek auch sonntags öffnen, aber es ist noch nicht sicher.",
+          "fr": "Apparemment, la bibliothèque ouvrira aussi le dimanche, mais ce n'est pas encore sûr.",
+          "pt": "Ao que parece, a biblioteca vai abrir também aos domingos, mas ainda não é certo.",
+          "zh": "看来，图书馆周日也会开放，不过还没有确定。",
+          "hint": {
+            "en": "Not confirmed yet: al parecer.",
+            "it": "Non ancora confermato: al parecer.",
+            "uk": "Ще не підтверджено: al parecer.",
+            "de": "Noch nicht bestätigt: al parecer.",
+            "fr": "Pas encore confirmé : al parecer.",
+            "pt": "Ainda não confirmado: al parecer.",
+            "zh": "尚未证实：al parecer。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "mix",
+          "intention": {
+            "en": "A friend asks when the new bike lane will be finished. Tell her what the paper says: according to council sources, it will be ready in May.",
+            "it": "Un'amica ti chiede quando sarà finita la nuova pista ciclabile. Dille che cosa dice il giornale: secondo fonti comunali, sarà pronta a maggio.",
+            "uk": "Подруга питає, коли добудують нову велодоріжку. Скажи їй, що пише газета: за даними джерел у міській раді, вона буде готова в травні.",
+            "de": "Eine Freundin fragt dich, wann der neue Radweg fertig wird. Sag ihr, was in der Zeitung steht: Laut Quellen aus dem Rathaus wird er im Mai fertig sein.",
+            "fr": "Une amie te demande quand la nouvelle piste cyclable sera terminée. Dis-lui ce que dit le journal : selon des sources municipales, elle sera prête en mai.",
+            "pt": "Uma amiga pergunta quando a nova ciclovia vai ficar pronta. Conte o que diz o jornal: segundo fontes da prefeitura, vai ficar pronta em maio.",
+            "zh": "一位朋友问你新的自行车道什么时候完工。告诉她报纸上是怎么说的：据市政府消息人士透露，它将于五月建成。"
+          },
+          "accepted": [
+            "Según fuentes municipales, estará listo en mayo.",
+            "Según fuentes municipales, el carril bici estará listo en mayo."
+          ],
+          "tiles": [
+            "Según fuentes",
+            "municipales,",
+            "estará listo",
+            "en mayo",
+            "al parecer",
+            "estaba"
+          ],
+          "en": "According to council sources, it will be ready in May.",
+          "it": "Secondo fonti comunali, sarà pronta a maggio.",
+          "uk": "За даними джерел у міській раді, вона буде готова в травні.",
+          "de": "Laut Quellen aus dem Rathaus wird er im Mai fertig sein.",
+          "fr": "Selon des sources municipales, elle sera prête en mai.",
+          "pt": "Segundo fontes da prefeitura, vai ficar pronta em maio.",
+          "zh": "据市政府消息人士透露，它将于五月建成。",
+          "hint": {
+            "en": "según fuentes municipales names the source.",
+            "it": "según fuentes municipales cita la fonte.",
+            "uk": "según fuentes municipales називає джерело.",
+            "de": "según fuentes municipales nennt die Quelle.",
+            "fr": "según fuentes municipales cite la source.",
+            "pt": "según fuentes municipales cita a fonte.",
+            "zh": "según fuentes municipales 说明了消息来源。"
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "You're reading the local paper aloud to a friend over breakfast. Write in Spanish: «Apparently, the library will also open on Sundays.»",
+            "it": "Stai leggendo ad alta voce il giornale locale a un amico a colazione. Scrivi in spagnolo: «A quanto pare, la biblioteca aprirà anche la domenica.»",
+            "uk": "Ти за сніданком читаєш другові вголос місцеву газету. Напиши іспанською: «Схоже, бібліотека відкриватиметься й у неділю.»",
+            "de": "Du liest einem Freund beim Frühstück die Lokalzeitung vor. Schreib auf Spanisch: «Anscheinend wird die Bibliothek auch sonntags öffnen.»",
+            "fr": "Tu lis le journal local à voix haute à un ami pendant le petit-déjeuner. Écris en espagnol : «Apparemment, la bibliothèque ouvrira aussi le dimanche.»",
+            "pt": "Você está lendo o jornal local em voz alta para um amigo no café da manhã. Escreva em espanhol: «Ao que parece, a biblioteca vai abrir também aos domingos.»",
+            "zh": "你在吃早饭时给朋友大声念本地报纸。用西班牙语写：«看来，图书馆周日也会开放。»"
+          },
+          "accepted": [
+            "Al parecer, la biblioteca abrirá también los domingos.",
+            "Al parecer, la biblioteca también abrirá los domingos.",
+            "Al parecer, la biblioteca va a abrir también los domingos.",
+            "Al parecer, la biblioteca también va a abrir los domingos.",
+            "Al parecer la biblioteca abrirá también los domingos."
+          ],
+          "model": {
+            "es": "Al parecer, la biblioteca abrirá también los domingos.",
+            "en": "Apparently, the library will also open on Sundays.",
+            "it": "A quanto pare, la biblioteca aprirà anche la domenica.",
+            "uk": "Схоже, бібліотека відкриватиметься й у неділю.",
+            "de": "Anscheinend wird die Bibliothek auch sonntags öffnen.",
+            "fr": "Apparemment, la bibliothèque ouvrira aussi le dimanche.",
+            "pt": "Ao que parece, a biblioteca vai abrir também aos domingos.",
+            "zh": "看来，图书馆周日也会开放。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u53l2",
+      "goal": {
+        "en": "Read the news with a critical eye: presunto and presuntamente for what hasn't been proved, supuestamente to show doubt, and the single words that take sides (reconoce, polémico) next to the neutral ones (dice, nuevo).",
+        "it": "Leggi le notizie con occhio critico: presunto e presuntamente per ciò che non è stato provato, supuestamente per mostrare un dubbio, e le singole parole che prendono posizione (reconoce, polémico) accanto a quelle neutre (dice, nuevo).",
+        "uk": "Читай новини критично: presunto і presuntamente для того, що не доведено, supuestamente, щоб показати сумнів, і окремі слова, які стають на чийсь бік (reconoce, polémico), поряд із нейтральними (dice, nuevo).",
+        "de": "Lies Nachrichten mit kritischem Blick: presunto und presuntamente für das, was nicht bewiesen ist, supuestamente, um Zweifel zu zeigen, und die einzelnen Wörter, die Partei ergreifen (reconoce, polémico), neben den neutralen (dice, nuevo).",
+        "fr": "Lis la presse avec un œil critique : presunto et presuntamente pour ce qui n'est pas prouvé, supuestamente pour exprimer un doute, et les mots qui prennent parti (reconoce, polémico) face aux mots neutres (dice, nuevo).",
+        "pt": "Leia as notícias com olhar crítico: presunto e presuntamente para o que não foi provado, supuestamente para mostrar dúvida, e as palavras que tomam partido (reconoce, polémico) ao lado das neutras (dice, nuevo).",
+        "zh": "用批判的眼光读新闻：presunto 和 presuntamente 用于尚未证明的事，supuestamente 用来表示怀疑，还要分清带有立场的词（reconoce，polémico）和中性的词（dice，nuevo）。"
+      },
+      "target": {
+        "es": "Supuestamente, el carril bici iba a estar listo en mayo.",
+        "en": "Supposedly, the bike lane was going to be ready in May.",
+        "it": "In teoria la pista ciclabile doveva essere pronta a maggio.",
+        "uk": "Нібито велодоріжка мала бути готова в травні.",
+        "de": "Angeblich sollte der Radweg im Mai fertig sein.",
+        "fr": "Soi-disant, la piste cyclable devait être prête en mai.",
+        "pt": "Em tese, a ciclovia ia ficar pronta em maio.",
+        "zh": "按说，自行车道五月就该建好了。"
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "el sesgo",
+              "en": "the bias",
+              "it": "la parzialità, il pregiudizio",
+              "uk": "упередженість, тенденційність",
+              "de": "die Voreingenommenheit, die Einseitigkeit",
+              "fr": "le parti pris, le biais",
+              "pt": "o viés, a parcialidade",
+              "zh": "偏见，倾向性",
+              "kind": "chunk"
+            },
+            {
+              "es": "el matiz",
+              "en": "the nuance, the shade of meaning",
+              "it": "la sfumatura",
+              "uk": "нюанс, відтінок значення",
+              "de": "die Nuance, die Bedeutungsschattierung",
+              "fr": "la nuance",
+              "pt": "o matiz, a nuance",
+              "zh": "细微差别，意思上的微妙之处",
+              "kind": "chunk"
+            },
+            {
+              "es": "presuntamente",
+              "en": "allegedly (not proved yet)",
+              "it": "presumibilmente (non ancora provato)",
+              "uk": "імовірно, як стверджується (ще не доведено)",
+              "de": "mutmaßlich (noch nicht bewiesen)",
+              "fr": "présumément, prétendument (pas encore prouvé)",
+              "pt": "supostamente, segundo a acusação (ainda não provado)",
+              "zh": "涉嫌，据称（尚未证明）",
+              "kind": "rail"
+            },
+            {
+              "es": "supuestamente",
+              "en": "supposedly (and you doubt it)",
+              "it": "in teoria, a quanto dicono (e ne dubiti)",
+              "uk": "нібито, мовляв (і ти в цьому сумніваєшся)",
+              "de": "angeblich (und du zweifelst daran)",
+              "fr": "soi-disant (et tu en doutes)",
+              "pt": "em tese, pelo que dizem (e você duvida)",
+              "zh": "按说，号称（而你对此表示怀疑）",
+              "kind": "rail"
+            }
+          ]
+        },
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "polémico / polémica",
+              "en": "controversial",
+              "it": "controverso / controversa",
+              "uk": "суперечливий / суперечлива, скандальний / скандальна",
+              "de": "umstritten",
+              "fr": "controversé, polémique",
+              "pt": "polêmico / polêmica",
+              "zh": "有争议的（阳性 / 阴性）",
+              "kind": "chunk"
+            },
+            {
+              "es": "neutral",
+              "en": "neutral",
+              "it": "neutrale",
+              "uk": "нейтральний",
+              "de": "neutral",
+              "fr": "neutre",
+              "pt": "neutro",
+              "zh": "中性的，中立的",
+              "kind": "chunk"
+            },
+            {
+              "es": "las bicicletas",
+              "en": "the bicycles",
+              "it": "le biciclette",
+              "uk": "велосипеди",
+              "de": "die Fahrräder",
+              "fr": "les vélos",
+              "pt": "as bicicletas",
+              "zh": "自行车（复数）",
+              "kind": "chunk"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "el presunto",
+              "kind": "chunk"
+            },
+            {
+              "text": "+",
+              "kind": "chunk"
+            },
+            {
+              "text": "ladrón",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "When something hasn't been proved yet, the news says el presunto… (the alleged…) before a noun, or presuntamente (allegedly) with a verb. Nobody is guilty until a judge says so.",
+            "it": "Quando una cosa non è ancora provata, le notizie dicono el presunto… (il presunto…) davanti a un nome, o presuntamente (presumibilmente) con un verbo. Nessuno è colpevole finché non lo dice un giudice.",
+            "uk": "Коли щось ще не доведено, у новинах кажуть el presunto… (імовірний…, підозрюваний…) перед іменником або presuntamente (імовірно, як стверджується) з дієсловом. Ніхто не винний, доки цього не скаже суддя.",
+            "de": "Wenn etwas noch nicht bewiesen ist, sagen die Nachrichten el presunto… (der mutmaßliche…) vor einem Nomen oder presuntamente (mutmaßlich, soll … haben) bei einem Verb. Niemand ist schuldig, bevor ein Richter es sagt.",
+            "fr": "Quand quelque chose n'est pas encore prouvé, la presse dit el presunto… (le présumé…, le présumé auteur…) devant un nom, ou presuntamente (présumément) avec un verbe. Personne n'est coupable tant qu'un juge ne l'a pas dit.",
+            "pt": "Quando algo ainda não foi provado, as notícias dizem el presunto… (o suposto…) antes de um substantivo, ou presuntamente (supostamente) com um verbo; em português o jornal também diz teria roubado. Atenção: em espanhol presunto não é o embutido (isso é jamón). Ninguém é culpado até que um juiz diga.",
+            "zh": "一件事还没有得到证明时，新闻在名词前说 el presunto…（涉嫌的……），或者和动词一起用 presuntamente（涉嫌，据称）。在法官判决之前，谁都不是罪犯。"
+          },
+          "examples": [
+            {
+              "es": "El presunto ladrón fue detenido ayer.",
+              "en": "The alleged thief was arrested yesterday.",
+              "it": "Il presunto ladro è stato arrestato ieri.",
+              "uk": "Імовірного злодія затримали вчора.",
+              "de": "Der mutmaßliche Dieb wurde gestern festgenommen.",
+              "fr": "Le voleur présumé a été arrêté hier.",
+              "pt": "O suposto ladrão foi preso ontem.",
+              "zh": "涉嫌盗窃的男子昨天被捕。"
+            },
+            {
+              "es": "Un hombre robó presuntamente veinte bicicletas.",
+              "en": "A man allegedly stole twenty bicycles.",
+              "it": "Un uomo avrebbe rubato venti biciclette.",
+              "uk": "Чоловік, як стверджується, викрав двадцять велосипедів.",
+              "de": "Ein Mann soll zwanzig Fahrräder gestohlen haben.",
+              "fr": "Un homme aurait volé vingt vélos.",
+              "pt": "Um homem teria roubado vinte bicicletas.",
+              "zh": "一名男子涉嫌偷了二十辆自行车。"
+            },
+            {
+              "es": "La presunta ladrona entró por la ventana.",
+              "en": "The alleged thief (a woman) got in through the window.",
+              "it": "La presunta ladra è entrata dalla finestra.",
+              "uk": "Імовірна злодійка залізла через вікно.",
+              "de": "Die mutmaßliche Diebin kam durch das Fenster herein.",
+              "fr": "La voleuse présumée est entrée par la fenêtre.",
+              "pt": "A suposta ladra entrou pela janela.",
+              "zh": "涉嫌盗窃的女子是从窗户进来的。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "el presunto / la presunta",
+              "en": "the alleged",
+              "it": "il presunto / la presunta",
+              "uk": "імовірний / імовірна, підозрюваний / підозрювана",
+              "de": "der / die mutmaßliche",
+              "fr": "le présumé / la présumée",
+              "pt": "o suposto / a suposta",
+              "zh": "涉嫌的（阳性 / 阴性）"
+            },
+            {
+              "es": "la ladrona",
+              "en": "the thief (a woman)",
+              "it": "la ladra",
+              "uk": "злодійка",
+              "de": "die Diebin",
+              "fr": "la voleuse",
+              "pt": "a ladra",
+              "zh": "（女）小偷"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "La policía ha detenido al ",
+          "after": " ladrón.",
+          "options": [
+            "presunto",
+            "presuntamente"
+          ],
+          "answer": "presunto",
+          "en": "The police have arrested the alleged thief.",
+          "it": "La polizia ha arrestato il presunto ladro.",
+          "uk": "Поліція затримала імовірного злодія.",
+          "de": "Die Polizei hat den mutmaßlichen Dieb festgenommen.",
+          "fr": "La police a arrêté le voleur présumé.",
+          "pt": "A polícia prendeu o suposto ladrão.",
+          "zh": "警方逮捕了涉嫌盗窃的男子。",
+          "hint": {
+            "en": "Before a noun (ladrón): presunto.",
+            "it": "Davanti a un nome (ladrón): presunto.",
+            "uk": "Перед іменником (ladrón): presunto.",
+            "de": "Vor einem Nomen (ladrón): presunto.",
+            "fr": "Devant un nom (ladrón) : presunto.",
+            "pt": "Antes de um substantivo (ladrón): presunto.",
+            "zh": "在名词（ladrón）前面：presunto。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "fire",
+          "before": "Un hombre robó ",
+          "after": " veinte bicicletas en el barrio.",
+          "label": "allegedly",
+          "accepted": [
+            "presuntamente"
+          ],
+          "en": "A man allegedly stole twenty bicycles in the neighbourhood.",
+          "it": "Un uomo avrebbe rubato venti biciclette nel quartiere.",
+          "uk": "Чоловік, як стверджується, викрав у районі двадцять велосипедів.",
+          "de": "Ein Mann soll im Viertel zwanzig Fahrräder gestohlen haben.",
+          "fr": "Un homme aurait volé vingt vélos dans le quartier.",
+          "pt": "Um homem teria roubado vinte bicicletas no bairro.",
+          "zh": "一名男子涉嫌在街区偷了二十辆自行车。",
+          "hint": {
+            "en": "With a verb (robó): presuntamente.",
+            "it": "Con un verbo (robó): presuntamente.",
+            "uk": "З дієсловом (robó): presuntamente.",
+            "de": "Bei einem Verb (robó): presuntamente.",
+            "fr": "Avec un verbe (robó) : presuntamente.",
+            "pt": "Com um verbo (robó): presuntamente.",
+            "zh": "和动词（robó）一起：presuntamente。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "supuestamente",
+              "kind": "rail"
+            },
+            {
+              "text": "+",
+              "kind": "chunk"
+            },
+            {
+              "text": "iba a…",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "Supuestamente (supposedly) shows doubt: that's what they say, but you aren't sure, or the facts say otherwise. It often goes with the imperfect: iba a estar, abría.",
+            "it": "Supuestamente (in teoria, a quanto dicono) mostra un dubbio: è quello che dicono, ma non ne sei sicuro, o i fatti dicono altro. Va spesso con l'imperfetto: iba a estar, abría.",
+            "uk": "Supuestamente (нібито, мовляв) показує сумнів: так кажуть, але ти не впевнений(-а), або факти свідчать про інше. Часто вживається з «imperfecto»: iba a estar, abría.",
+            "de": "Supuestamente (angeblich) zeigt Zweifel: Das sagen sie, aber du bist nicht sicher, oder die Fakten sagen etwas anderes. Es steht oft mit dem Imperfekt: iba a estar, abría.",
+            "fr": "Supuestamente (soi-disant) exprime un doute : c'est ce qu'on dit, mais tu n'en es pas sûr, ou les faits disent le contraire. Il va souvent avec l'imparfait : iba a estar, abría.",
+            "pt": "Supuestamente (em tese, pelo que dizem) mostra dúvida: é o que dizem, mas você não tem certeza, ou os fatos dizem outra coisa. Vem muitas vezes com o imperfeito: iba a estar, abría.",
+            "zh": "Supuestamente（按说，号称）表示怀疑：别人是这么说的，但你并不确定，或者事实恰恰相反。它常和过去未完成时一起用：iba a estar，abría。"
+          },
+          "examples": [
+            {
+              "es": "Supuestamente, el carril bici iba a estar listo en mayo.",
+              "en": "Supposedly, the bike lane was going to be ready in May.",
+              "it": "In teoria la pista ciclabile doveva essere pronta a maggio.",
+              "uk": "Нібито велодоріжка мала бути готова в травні.",
+              "de": "Angeblich sollte der Radweg im Mai fertig sein.",
+              "fr": "Soi-disant, la piste cyclable devait être prête en mai.",
+              "pt": "Em tese, a ciclovia ia ficar pronta em maio.",
+              "zh": "按说，自行车道五月就该建好了。"
+            },
+            {
+              "es": "Supuestamente, la piscina abría en junio, y sigue cerrada.",
+              "en": "The pool was supposedly opening in June, and it's still closed.",
+              "it": "In teoria la piscina apriva a giugno, ed è ancora chiusa.",
+              "uk": "Басейн нібито мав відкритися в червні, а він досі зачинений.",
+              "de": "Angeblich sollte das Schwimmbad im Juni öffnen, und es ist immer noch geschlossen.",
+              "fr": "La piscine devait soi-disant ouvrir en juin, et elle est toujours fermée.",
+              "pt": "Em tese, a piscina abria em junho, e continua fechada.",
+              "zh": "按说，游泳池六月就开放，可现在还关着。"
+            },
+            {
+              "es": "Supuestamente, el nuevo horario es mejor para todos.",
+              "en": "Supposedly, the new timetable is better for everyone.",
+              "it": "A quanto dicono, il nuovo orario è migliore per tutti.",
+              "uk": "Нібито новий розклад кращий для всіх.",
+              "de": "Angeblich sind die neuen Öffnungszeiten für alle besser.",
+              "fr": "Soi-disant, les nouveaux horaires sont meilleurs pour tout le monde.",
+              "pt": "Pelo que dizem, o novo horário é melhor para todos.",
+              "zh": "号称新的时间表对大家都更好。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "abría",
+              "en": "it opened, it was opening (imperfect of abrir)",
+              "it": "apriva (imperfetto di abrir)",
+              "uk": "відкривався, мав відкритися («imperfecto» від abrir)",
+              "de": "es öffnete, es sollte öffnen (Imperfekt von abrir)",
+              "fr": "il / elle ouvrait (imparfait de abrir)",
+              "pt": "abria, estava abrindo (imperfeito de abrir)",
+              "zh": "它（过去）开放，当时要开放（abrir 的过去未完成时）"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "",
+          "after": ", el carril bici iba a estar listo en mayo, y estamos en julio.",
+          "options": [
+            "Supuestamente",
+            "Por eso",
+            "Además"
+          ],
+          "answer": "Supuestamente",
+          "en": "Supposedly, the bike lane was going to be ready in May, and it's July.",
+          "it": "In teoria la pista ciclabile doveva essere pronta a maggio, e siamo a luglio.",
+          "uk": "Нібито велодоріжка мала бути готова в травні, а вже липень.",
+          "de": "Angeblich sollte der Radweg im Mai fertig sein, und jetzt ist Juli.",
+          "fr": "Soi-disant, la piste cyclable devait être prête en mai, et on est en juillet.",
+          "pt": "Em tese, a ciclovia ia ficar pronta em maio, e já estamos em julho.",
+          "zh": "按说，自行车道五月就该建好了，可现在都七月了。",
+          "hint": {
+            "en": "What they said and didn't happen: supuestamente.",
+            "it": "Quello che dicevano e non è successo: supuestamente.",
+            "uk": "Те, що казали, а воно не сталося: supuestamente.",
+            "de": "Was sie sagten und nicht passiert ist: supuestamente.",
+            "fr": "Ce qu'on a dit et qui ne s'est pas produit : supuestamente.",
+            "pt": "O que diziam e não aconteceu: supuestamente.",
+            "zh": "说过却没有发生的事：supuestamente。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "A neighbour tells you the pool opens in June. You doubt it. Say: supposedly, it opens in June.",
+            "it": "Un vicino ti dice che la piscina apre a giugno. Tu ne dubiti. Di': in teoria apre a giugno.",
+            "uk": "Сусід каже тобі, що басейн відкривається в червні. Ти в цьому сумніваєшся. Скажи: нібито він відкривається в червні.",
+            "de": "Ein Nachbar erzählt dir, dass das Schwimmbad im Juni öffnet. Du zweifelst daran. Sag: Angeblich öffnet es im Juni.",
+            "fr": "Un voisin te dit que la piscine ouvre en juin. Tu en doutes. Dis : soi-disant, elle ouvre en juin.",
+            "pt": "Um vizinho diz que a piscina abre em junho. Você duvida. Diga: em tese, abre em junho.",
+            "zh": "一位邻居告诉你，游泳池六月开放。你不太相信。说：按说，它六月开放。"
+          },
+          "accepted": [
+            "Supuestamente, abre en junio.",
+            "Supuestamente, la piscina abre en junio."
+          ],
+          "tiles": [
+            "Supuestamente,",
+            "abre",
+            "en junio",
+            "presunto",
+            "abro"
+          ],
+          "en": "Supposedly, it opens in June.",
+          "it": "In teoria apre a giugno.",
+          "uk": "Нібито він відкривається в червні.",
+          "de": "Angeblich öffnet es im Juni.",
+          "fr": "Soi-disant, elle ouvre en juin.",
+          "pt": "Em tese, abre em junho.",
+          "zh": "按说，它六月开放。",
+          "hint": {
+            "en": "supuestamente shows your doubt.",
+            "it": "supuestamente mostra il tuo dubbio.",
+            "uk": "supuestamente показує твій сумнів.",
+            "de": "supuestamente zeigt deinen Zweifel.",
+            "fr": "supuestamente montre ton doute.",
+            "pt": "supuestamente mostra a sua dúvida.",
+            "zh": "supuestamente 表示你的怀疑。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "dice",
+              "kind": "stem"
+            },
+            {
+              "text": "≠",
+              "kind": "chunk"
+            },
+            {
+              "text": "reconoce",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "One word can take sides. Dice que is neutral; reconoce que (admits that) suggests there was a problem. Nuevo is neutral; polémico (controversial) says people disagree. To report fairly, choose the neutral word.",
+            "it": "Una sola parola può prendere posizione. Dice que è neutro; reconoce que (ammette che) fa pensare che ci fosse un problema. Nuevo è neutro; polémico (controverso) dice che la gente non è d'accordo. Per informare in modo imparziale, scegli la parola neutra.",
+            "uk": "Одне слово може стати на чийсь бік. Dice que нейтральне; reconoce que (визнає, що) натякає, що була якась проблема. Nuevo нейтральне; polémico (суперечливий, скандальний) означає, що люди не згодні. Щоб повідомляти неупереджено, обирай нейтральне слово.",
+            "de": "Ein einziges Wort kann Partei ergreifen. Dice que (sagt, dass) ist neutral; reconoce que (räumt ein, gibt zu, dass) lässt vermuten, dass es ein Problem gab. Nuevo (neu) ist neutral; polémico (umstritten) sagt, dass die Leute uneinig sind. Wenn du fair berichten willst, wähle das neutrale Wort.",
+            "fr": "Un seul mot peut prendre parti. Dice que est neutre ; reconoce que (reconnaît que, admet que) suggère qu'il y avait un problème. Nuevo est neutre ; polémico (controversé) dit que les gens ne sont pas d'accord. Pour informer de façon impartiale, choisis le mot neutre.",
+            "pt": "Uma única palavra pode tomar partido. Dice que é neutro; reconoce que (admite que) dá a entender que havia um problema. Nuevo é neutro; polémico (polêmico) diz que as pessoas não concordam. Para informar com imparcialidade, escolha a palavra neutra.",
+            "zh": "一个词就能表明立场。Dice que（说）是中性的；reconoce que（承认）暗示之前有问题。Nuevo（新的）是中性的；polémico（有争议的）表示大家意见不一。要客观报道，就选中性的词。"
+          },
+          "examples": [
+            {
+              "es": "El ayuntamiento dice que el carril costará un millón de euros.",
+              "en": "The council says the lane will cost a million euros.",
+              "it": "Il comune dice che la pista costerà un milione di euro.",
+              "uk": "Міська рада каже, що доріжка коштуватиме мільйон євро.",
+              "de": "Die Stadt sagt, dass der Radweg eine Million Euro kosten wird.",
+              "fr": "La mairie dit que la piste coûtera un million d'euros.",
+              "pt": "A prefeitura diz que a ciclovia vai custar um milhão de euros.",
+              "zh": "市政府说，这条自行车道将耗资一百万欧元。"
+            },
+            {
+              "es": "El ayuntamiento reconoce que el carril costará un millón de euros.",
+              "en": "The council admits the lane will cost a million euros.",
+              "it": "Il comune ammette che la pista costerà un milione di euro.",
+              "uk": "Міська рада визнає, що доріжка коштуватиме мільйон євро.",
+              "de": "Die Stadt räumt ein, dass der Radweg eine Million Euro kosten wird.",
+              "fr": "La mairie reconnaît que la piste coûtera un million d'euros.",
+              "pt": "A prefeitura admite que a ciclovia vai custar um milhão de euros.",
+              "zh": "市政府承认，这条自行车道将耗资一百万欧元。"
+            },
+            {
+              "es": "El polémico carril bici abre hoy.",
+              "en": "Controversial bike lane opens today.",
+              "it": "Apre oggi la controversa pista ciclabile.",
+              "uk": "Скандальна велодоріжка відкривається сьогодні.",
+              "de": "Umstrittener Radweg öffnet heute.",
+              "fr": "La piste cyclable controversée ouvre aujourd'hui.",
+              "pt": "Polêmica ciclovia é inaugurada hoje.",
+              "zh": "备受争议的自行车道今天开通。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "reconoce",
+              "en": "admits",
+              "it": "ammette, riconosce",
+              "uk": "визнає",
+              "de": "räumt ein, gibt zu",
+              "fr": "reconnaît, admet",
+              "pt": "admite, reconhece",
+              "zh": "承认"
+            },
+            {
+              "es": "costará",
+              "en": "it will cost",
+              "it": "costerà",
+              "uk": "коштуватиме",
+              "de": "er / sie / es wird kosten",
+              "fr": "il / elle coûtera",
+              "pt": "vai custar, custará",
+              "zh": "它将花费，它将耗资"
+            },
+            {
+              "es": "un millón",
+              "en": "a million",
+              "it": "un milione",
+              "uk": "мільйон",
+              "de": "eine Million",
+              "fr": "un million",
+              "pt": "um milhão",
+              "zh": "一百万"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "El ayuntamiento ",
+          "after": " que la biblioteca cerrará en agosto.",
+          "options": [
+            "dice",
+            "reconoce"
+          ],
+          "answer": "dice",
+          "en": "The council says the library will close in August. (a neutral report)",
+          "it": "Il comune dice che la biblioteca chiuderà ad agosto. (una notizia neutra)",
+          "uk": "Міська рада каже, що бібліотека закриється в серпні. (нейтральне повідомлення)",
+          "de": "Die Stadt sagt, dass die Bibliothek im August schließen wird. (eine neutrale Meldung)",
+          "fr": "La mairie dit que la bibliothèque fermera en août. (une information neutre)",
+          "pt": "A prefeitura diz que a biblioteca vai fechar em agosto. (uma notícia neutra)",
+          "zh": "市政府说，图书馆将于八月闭馆。（中性的报道）",
+          "hint": {
+            "en": "Neutral: dice. Reconoce suggests there was a problem.",
+            "it": "Neutro: dice. Reconoce fa pensare a un problema.",
+            "uk": "Нейтрально: dice. Reconoce натякає, що була проблема.",
+            "de": "Neutral: dice. Reconoce lässt an ein Problem denken.",
+            "fr": "Neutre : dice. Reconoce suggère qu'il y avait un problème.",
+            "pt": "Neutro: dice. Reconoce dá a entender que havia um problema.",
+            "zh": "中性：dice。Reconoce（承认）暗示之前有问题。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "fire",
+          "before": "El ",
+          "after": " carril bici abre hoy: muchos vecinos no lo quieren.",
+          "options": [
+            "polémico",
+            "presunto"
+          ],
+          "answer": "polémico",
+          "en": "Controversial bike lane opens today: lots of residents don't want it.",
+          "it": "Apre oggi la controversa pista ciclabile: molti residenti non la vogliono.",
+          "uk": "Скандальна велодоріжка відкривається сьогодні: багато мешканців її не хочуть.",
+          "de": "Umstrittener Radweg öffnet heute: Viele Anwohner wollen ihn nicht.",
+          "fr": "La piste cyclable controversée ouvre aujourd'hui : beaucoup d'habitants n'en veulent pas.",
+          "pt": "Polêmica ciclovia é inaugurada hoje: muitos moradores não a querem.",
+          "zh": "备受争议的自行车道今天开通：很多居民并不想要它。",
+          "hint": {
+            "en": "People disagree: polémico. Presunto is for what hasn't been proved.",
+            "it": "La gente non è d'accordo: polémico. Presunto è per ciò che non è provato.",
+            "uk": "Люди не згодні: polémico. Presunto — для того, що не доведено.",
+            "de": "Die Leute sind uneinig: polémico. Presunto ist für das, was nicht bewiesen ist.",
+            "fr": "Les gens ne sont pas d'accord : polémico. Presunto, c'est pour ce qui n'est pas prouvé.",
+            "pt": "As pessoas não concordam: polémico. Presunto é para o que não foi provado.",
+            "zh": "大家意见不一：polémico。Presunto 用于尚未证明的事。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "Según la policía, el hombre robó ",
+          "after": " las bicicletas.",
+          "options": [
+            "presuntamente",
+            "presunto"
+          ],
+          "answer": "presuntamente",
+          "en": "According to the police, the man allegedly stole the bicycles.",
+          "it": "Secondo la polizia, l'uomo avrebbe rubato le biciclette.",
+          "uk": "За словами поліції, чоловік, як стверджується, викрав велосипеди.",
+          "de": "Laut Polizei soll der Mann die Fahrräder gestohlen haben.",
+          "fr": "Selon la police, l'homme aurait volé les vélos.",
+          "pt": "Segundo a polícia, o homem teria roubado as bicicletas.",
+          "zh": "据警方称，这名男子涉嫌偷了这些自行车。",
+          "hint": {
+            "en": "With a verb (robó): presuntamente.",
+            "it": "Con un verbo (robó): presuntamente.",
+            "uk": "З дієсловом (robó): presuntamente.",
+            "de": "Bei einem Verb (robó): presuntamente.",
+            "fr": "Avec un verbe (robó) : presuntamente.",
+            "pt": "Com um verbo (robó): presuntamente.",
+            "zh": "和动词（robó）一起：presuntamente。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "mix",
+          "before": "",
+          "after": ", la piscina abría en junio, y sigue cerrada.",
+          "label": "supposedly",
+          "accepted": [
+            "Supuestamente"
+          ],
+          "en": "The pool was supposedly opening in June, and it's still closed.",
+          "it": "In teoria la piscina apriva a giugno, ed è ancora chiusa.",
+          "uk": "Басейн нібито мав відкритися в червні, а він досі зачинений.",
+          "de": "Angeblich sollte das Schwimmbad im Juni öffnen, und es ist immer noch geschlossen.",
+          "fr": "La piscine devait soi-disant ouvrir en juin, et elle est toujours fermée.",
+          "pt": "Em tese, a piscina abria em junho, e continua fechada.",
+          "zh": "按说，游泳池六月就开放，可现在还关着。",
+          "hint": {
+            "en": "What they said and didn't happen: supuestamente.",
+            "it": "Quello che dicevano e non è successo: supuestamente.",
+            "uk": "Те, що казали, а воно не сталося: supuestamente.",
+            "de": "Was sie sagten und nicht passiert ist: supuestamente.",
+            "fr": "Ce qu'on a dit et qui ne s'est pas produit : supuestamente.",
+            "pt": "O que diziam e não aconteceu: supuestamente.",
+            "zh": "说过却没有发生的事：supuestamente。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "mix",
+          "intention": {
+            "en": "You're writing a neutral news item for the neighbourhood newsletter: the council says the bike lane will cost a million euros.",
+            "it": "Stai scrivendo una notizia neutra per il notiziario del quartiere: il comune dice che la pista ciclabile costerà un milione di euro.",
+            "uk": "Ти пишеш нейтральну новину для бюлетеня району: міська рада каже, що велодоріжка коштуватиме мільйон євро.",
+            "de": "Du schreibst eine neutrale Meldung für das Mitteilungsblatt des Viertels: Die Stadt sagt, dass der Radweg eine Million Euro kosten wird.",
+            "fr": "Tu écris une brève neutre pour le bulletin du quartier : la mairie dit que la piste cyclable coûtera un million d'euros.",
+            "pt": "Você está escrevendo uma notícia neutra para o boletim do bairro: a prefeitura diz que a ciclovia vai custar um milhão de euros.",
+            "zh": "你在给社区简报写一条中性的新闻：市政府说，自行车道将耗资一百万欧元。"
+          },
+          "accepted": [
+            "El ayuntamiento dice que el carril bici costará un millón de euros."
+          ],
+          "tiles": [
+            "El ayuntamiento",
+            "dice que",
+            "el carril bici",
+            "costará",
+            "un millón de euros",
+            "reconoce que",
+            "polémico"
+          ],
+          "en": "The council says the bike lane will cost a million euros.",
+          "it": "Il comune dice che la pista ciclabile costerà un milione di euro.",
+          "uk": "Міська рада каже, що велодоріжка коштуватиме мільйон євро.",
+          "de": "Die Stadt sagt, dass der Radweg eine Million Euro kosten wird.",
+          "fr": "La mairie dit que la piste cyclable coûtera un million d'euros.",
+          "pt": "A prefeitura diz que a ciclovia vai custar um milhão de euros.",
+          "zh": "市政府说，自行车道将耗资一百万欧元。",
+          "hint": {
+            "en": "Neutral: dice que, not reconoce que.",
+            "it": "Neutro: dice que, non reconoce que.",
+            "uk": "Нейтрально: dice que, а не reconoce que.",
+            "de": "Neutral: dice que, nicht reconoce que.",
+            "fr": "Neutre : dice que, pas reconoce que.",
+            "pt": "Neutro: dice que, não reconoce que.",
+            "zh": "中性：用 dice que，不用 reconoce que。"
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "A neighbour tells you the pool opens in June, but you don't believe it. Write in Spanish: «Supposedly it opens in June, but I don't believe it.»",
+            "it": "Un vicino ti dice che la piscina apre a giugno, ma tu non ci credi. Scrivi in spagnolo: «In teoria apre a giugno, ma io non ci credo.»",
+            "uk": "Сусід каже тобі, що басейн відкривається в червні, але ти в це не віриш. Напиши іспанською: «Нібито він відкривається в червні, але я в це не вірю.»",
+            "de": "Ein Nachbar erzählt dir, dass das Schwimmbad im Juni öffnet, aber du glaubst es nicht. Schreib auf Spanisch: «Angeblich öffnet es im Juni, aber das glaube ich nicht.»",
+            "fr": "Un voisin te dit que la piscine ouvre en juin, mais tu n'y crois pas. Écris en espagnol : «Soi-disant, elle ouvre en juin, mais je n'y crois pas.»",
+            "pt": "Um vizinho diz que a piscina abre em junho, mas você não acredita. Escreva em espanhol: «Em tese abre em junho, mas eu não acredito.»",
+            "zh": "一位邻居告诉你游泳池六月开放，但你不相信。用西班牙语写：«按说它六月开放，可我不信。»"
+          },
+          "accepted": [
+            "Supuestamente abre en junio, pero no me lo creo.",
+            "Supuestamente, abre en junio, pero yo no me lo creo.",
+            "Supuestamente abre en junio, pero no lo creo.",
+            "Supuestamente abre en junio, pero yo no lo creo.",
+            "Supuestamente la piscina abre en junio, pero no me lo creo.",
+            "Supuestamente la piscina abre en junio, pero no lo creo."
+          ],
+          "model": {
+            "es": "Supuestamente abre en junio, pero no me lo creo.",
+            "en": "Supposedly it opens in June, but I don't believe it.",
+            "it": "In teoria apre a giugno, ma io non ci credo.",
+            "uk": "Нібито він відкривається в червні, але я в це не вірю.",
+            "de": "Angeblich öffnet es im Juni, aber das glaube ich nicht.",
+            "fr": "Soi-disant, elle ouvre en juin, mais je n'y crois pas.",
+            "pt": "Em tese abre em junho, mas eu não acredito.",
+            "zh": "按说它六月开放，可我不信。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u53l3",
+      "goal": {
+        "en": "Give a short public speech: greet the audience (señoras y señores, queridos vecinos), ask the question everyone is thinking and answer it yourself (¿por qué…? porque…), and finish strong with no es solo…: es… and three ideas in a row.",
+        "it": "Fai un breve discorso in pubblico: saluta il pubblico (señoras y señores, queridos vecinos), fai la domanda che tutti hanno in testa e rispondi tu stesso (¿por qué…? porque…), e chiudi con forza con no es solo…: es… e tre idee di fila.",
+        "uk": "Виголоси коротку публічну промову: привітай слухачів (señoras y señores, queridos vecinos), постав запитання, яке всі мають на думці, і сам(-а) на нього відповідай (¿por qué…? porque…), а заверши сильно за допомогою no es solo…: es… і трьох ідей поспіль.",
+        "de": "Halte eine kurze öffentliche Rede: Begrüße das Publikum (señoras y señores, queridos vecinos), stell die Frage, die alle im Kopf haben, und beantworte sie selbst (¿por qué…? porque…), und schließ stark mit no es solo…: es… und drei Gedanken hintereinander.",
+        "fr": "Prononce un court discours en public : salue l'assistance (señoras y señores, queridos vecinos), pose la question que tout le monde se pose et réponds-y toi-même (¿por qué…? porque…), et termine en beauté avec no es solo…: es… et trois idées à la suite.",
+        "pt": "Faça um breve discurso em público: cumprimente o público (señoras y señores, queridos vecinos), faça a pergunta que todos têm na cabeça e responda você mesmo (¿por qué…? porque…), e termine com força com no es solo…: es… e três ideias seguidas.",
+        "zh": "做一个简短的公开演讲：向听众问好（señoras y señores，queridos vecinos），提出大家心里都在想的问题并自己回答（¿por qué…? porque…），最后用 no es solo…: es… 和一连串三个要点有力地收尾。"
+      },
+      "target": {
+        "es": "No es solo una biblioteca: es el corazón del barrio.",
+        "en": "It's not just a library: it's the heart of the neighbourhood.",
+        "it": "Non è solo una biblioteca: è il cuore del quartiere.",
+        "uk": "Це не просто бібліотека: це серце району.",
+        "de": "Sie ist nicht nur eine Bibliothek: Sie ist das Herz des Viertels.",
+        "fr": "Ce n'est pas seulement une bibliothèque : c'est le cœur du quartier.",
+        "pt": "Não é só uma biblioteca: é o coração do bairro.",
+        "zh": "它不只是一座图书馆：它是街区的心脏。"
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "el discurso",
+              "en": "the speech",
+              "it": "il discorso",
+              "uk": "промова",
+              "de": "die Rede",
+              "fr": "le discours",
+              "pt": "o discurso",
+              "zh": "演讲，讲话",
+              "kind": "chunk"
+            },
+            {
+              "es": "señoras y señores",
+              "en": "ladies and gentlemen",
+              "it": "signore e signori",
+              "uk": "пані та панове",
+              "de": "meine Damen und Herren",
+              "fr": "mesdames et messieurs",
+              "pt": "senhoras e senhores",
+              "zh": "女士们，先生们",
+              "kind": "chunk"
+            },
+            {
+              "es": "queridos vecinos",
+              "en": "dear neighbours",
+              "it": "cari vicini, cari concittadini",
+              "uk": "дорогі сусіди",
+              "de": "liebe Nachbarn, liebe Mitbürger",
+              "fr": "chers voisins",
+              "pt": "queridos vizinhos",
+              "zh": "亲爱的街坊邻居们",
+              "kind": "chunk"
+            },
+            {
+              "es": "conseguir",
+              "en": "to achieve, to manage to get",
+              "it": "ottenere, riuscire a ottenere",
+              "uk": "досягати, домагатися",
+              "de": "erreichen, schaffen, bekommen",
+              "fr": "obtenir, réussir à obtenir",
+              "pt": "conseguir, alcançar",
+              "zh": "取得，争取到",
+              "kind": "stem"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "señoras y señores",
+              "kind": "chunk"
+            },
+            {
+              "text": "+",
+              "kind": "chunk"
+            },
+            {
+              "text": "hoy estamos aquí para…",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "Open a speech by greeting the audience: señoras y señores (formal) or queridos vecinos, queridos amigos (warmer). Then say why you're all there: hoy estamos aquí para + infinitive.",
+            "it": "Apri un discorso salutando il pubblico: señoras y señores (formale) o queridos vecinos, queridos amigos (più caloroso). Poi di' perché siete lì: hoy estamos aquí para + infinito.",
+            "uk": "Почни промову з привітання слухачів: señoras y señores (офіційно) або queridos vecinos, queridos amigos (тепліше). Потім скажи, чому ви всі тут: hoy estamos aquí para + інфінітив.",
+            "de": "Beginne eine Rede mit einer Begrüßung des Publikums: señoras y señores (förmlich) oder queridos vecinos, queridos amigos (herzlicher). Dann sag, warum ihr alle da seid: hoy estamos aquí para + Infinitiv.",
+            "fr": "Ouvre un discours en saluant l'assistance : señoras y señores (formel) ou queridos vecinos, queridos amigos (plus chaleureux). Puis dis pourquoi vous êtes tous là : hoy estamos aquí para + infinitif.",
+            "pt": "Abra um discurso cumprimentando o público: señoras y señores (formal) ou queridos vecinos, queridos amigos (mais caloroso). Depois diga por que vocês estão ali: hoy estamos aquí para + infinitivo.",
+            "zh": "演讲开头先向听众问好：señoras y señores（正式）或 queridos vecinos，queridos amigos（更亲切）。然后说明大家为什么聚在这里：hoy estamos aquí para + 动词原形。"
+          },
+          "examples": [
+            {
+              "es": "Señoras y señores, buenas noches.",
+              "en": "Ladies and gentlemen, good evening.",
+              "it": "Signore e signori, buonasera.",
+              "uk": "Пані та панове, добрий вечір.",
+              "de": "Meine Damen und Herren, guten Abend.",
+              "fr": "Mesdames et messieurs, bonsoir.",
+              "pt": "Senhoras e senhores, boa noite.",
+              "zh": "女士们，先生们，晚上好。"
+            },
+            {
+              "es": "Queridos vecinos, hoy estamos aquí para inaugurar la nueva biblioteca.",
+              "en": "Dear neighbours, today we're here to open the new library.",
+              "it": "Cari vicini, oggi siamo qui per inaugurare la nuova biblioteca.",
+              "uk": "Дорогі сусіди, сьогодні ми зібралися тут, щоб відкрити нову бібліотеку.",
+              "de": "Liebe Nachbarn, heute sind wir hier, um die neue Bibliothek zu eröffnen.",
+              "fr": "Chers voisins, nous sommes ici aujourd'hui pour inaugurer la nouvelle bibliothèque.",
+              "pt": "Queridos vizinhos, hoje estamos aqui para inaugurar a nova biblioteca.",
+              "zh": "亲爱的街坊邻居们，今天我们聚在这里，为新图书馆揭幕。"
+            },
+            {
+              "es": "Queridos amigos, gracias por venir.",
+              "en": "Dear friends, thank you for coming.",
+              "it": "Cari amici, grazie di essere venuti.",
+              "uk": "Дорогі друзі, дякую, що прийшли.",
+              "de": "Liebe Freunde, danke, dass ihr gekommen seid.",
+              "fr": "Chers amis, merci d'être venus.",
+              "pt": "Queridos amigos, obrigado por virem.",
+              "zh": "亲爱的朋友们，谢谢你们的到来。"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Señoras y ",
+          "after": ", buenas noches.",
+          "options": [
+            "señores",
+            "queridos"
+          ],
+          "answer": "señores",
+          "en": "Ladies and gentlemen, good evening.",
+          "it": "Signore e signori, buonasera.",
+          "uk": "Пані та панове, добрий вечір.",
+          "de": "Meine Damen und Herren, guten Abend.",
+          "fr": "Mesdames et messieurs, bonsoir.",
+          "pt": "Senhoras e senhores, boa noite.",
+          "zh": "女士们，先生们，晚上好。",
+          "hint": {
+            "en": "The fixed greeting: señoras y señores.",
+            "it": "Il saluto fisso: señoras y señores.",
+            "uk": "Стале привітання: señoras y señores.",
+            "de": "Die feste Begrüßung: señoras y señores.",
+            "fr": "La formule fixe : señoras y señores.",
+            "pt": "O cumprimento fixo: señoras y señores.",
+            "zh": "固定的问候语：señoras y señores。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "You're opening the new library in your neighbourhood. Begin your speech: dear neighbours, today we're here to open the new library.",
+            "it": "Stai inaugurando la nuova biblioteca del tuo quartiere. Comincia il discorso: cari vicini, oggi siamo qui per inaugurare la nuova biblioteca.",
+            "uk": "Ти відкриваєш нову бібліотеку у своєму районі. Почни промову: дорогі сусіди, сьогодні ми зібралися тут, щоб відкрити нову бібліотеку.",
+            "de": "Du eröffnest die neue Bibliothek in deinem Viertel. Beginne deine Rede: Liebe Nachbarn, heute sind wir hier, um die neue Bibliothek zu eröffnen.",
+            "fr": "Tu inaugures la nouvelle bibliothèque de ton quartier. Commence ton discours : chers voisins, nous sommes ici aujourd'hui pour inaugurer la nouvelle bibliothèque.",
+            "pt": "Você está inaugurando a nova biblioteca do seu bairro. Comece o discurso: queridos vizinhos, hoje estamos aqui para inaugurar a nova biblioteca.",
+            "zh": "你在为街区的新图书馆揭幕。开始你的演讲：亲爱的街坊邻居们，今天我们聚在这里，为新图书馆揭幕。"
+          },
+          "accepted": [
+            "Queridos vecinos, hoy estamos aquí para inaugurar la nueva biblioteca."
+          ],
+          "tiles": [
+            "Queridos vecinos,",
+            "hoy estamos aquí",
+            "para inaugurar",
+            "la nueva biblioteca",
+            "vecino",
+            "por"
+          ],
+          "en": "Dear neighbours, today we're here to open the new library.",
+          "it": "Cari vicini, oggi siamo qui per inaugurare la nuova biblioteca.",
+          "uk": "Дорогі сусіди, сьогодні ми зібралися тут, щоб відкрити нову бібліотеку.",
+          "de": "Liebe Nachbarn, heute sind wir hier, um die neue Bibliothek zu eröffnen.",
+          "fr": "Chers voisins, nous sommes ici aujourd'hui pour inaugurer la nouvelle bibliothèque.",
+          "pt": "Queridos vizinhos, hoje estamos aqui para inaugurar a nova biblioteca.",
+          "zh": "亲爱的街坊邻居们，今天我们聚在这里，为新图书馆揭幕。",
+          "hint": {
+            "en": "Greet first, then hoy estamos aquí para + infinitive.",
+            "it": "Prima il saluto, poi hoy estamos aquí para + infinito.",
+            "uk": "Спершу привітання, потім hoy estamos aquí para + інфінітив.",
+            "de": "Erst begrüßen, dann hoy estamos aquí para + Infinitiv.",
+            "fr": "D'abord le salut, puis hoy estamos aquí para + infinitif.",
+            "pt": "Primeiro o cumprimento, depois hoy estamos aquí para + infinitivo.",
+            "zh": "先问好，再说 hoy estamos aquí para + 动词原形。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "¿por qué…?",
+              "kind": "rail"
+            },
+            {
+              "text": "+",
+              "kind": "chunk"
+            },
+            {
+              "text": "porque…",
+              "kind": "rail"
+            }
+          ],
+          "rule": {
+            "en": "Ask the question your audience is thinking, then answer it yourself: ¿por qué necesitamos…? Porque… It keeps people listening, and the answer sounds stronger.",
+            "it": "Fai la domanda che il pubblico ha in testa, poi rispondi tu stesso: ¿por qué necesitamos…? Porque… Tiene viva l'attenzione, e la risposta suona più forte.",
+            "uk": "Постав запитання, яке слухачі мають на думці, і сам(-а) на нього відповідай: ¿por qué necesitamos…? Porque… Так люди слухають уважно, а відповідь звучить переконливіше.",
+            "de": "Stell die Frage, die dein Publikum im Kopf hat, und beantworte sie dann selbst: ¿por qué necesitamos…? Porque… So hören die Leute weiter zu, und die Antwort klingt stärker.",
+            "fr": "Pose la question que ton public se pose, puis réponds-y toi-même : ¿por qué necesitamos…? Porque… Cela retient l'attention, et la réponse a plus de force.",
+            "pt": "Faça a pergunta que o público tem na cabeça e depois responda você mesmo: ¿por qué necesitamos…? Porque… Isso prende a atenção, e a resposta soa mais forte.",
+            "zh": "提出听众心里正在想的问题，然后自己回答：¿por qué necesitamos…? Porque…。这样能让大家一直听下去，答案也显得更有力。"
+          },
+          "examples": [
+            {
+              "es": "¿Por qué necesitamos un carril bici? Porque queremos una ciudad más limpia.",
+              "en": "Why do we need a bike lane? Because we want a cleaner city.",
+              "it": "Perché ci serve una pista ciclabile? Perché vogliamo una città più pulita.",
+              "uk": "Навіщо нам велодоріжка? Бо ми хочемо чистішого міста.",
+              "de": "Warum brauchen wir einen Radweg? Weil wir eine sauberere Stadt wollen.",
+              "fr": "Pourquoi avons-nous besoin d'une piste cyclable ? Parce que nous voulons une ville plus propre.",
+              "pt": "Por que precisamos de uma ciclovia? Porque queremos uma cidade mais limpa.",
+              "zh": "我们为什么需要一条自行车道？因为我们想要一座更干净的城市。"
+            },
+            {
+              "es": "¿Y qué hemos conseguido? Una biblioteca nueva.",
+              "en": "And what have we achieved? A new library.",
+              "it": "E che cosa abbiamo ottenuto? Una biblioteca nuova.",
+              "uk": "І чого ми досягли? Нової бібліотеки.",
+              "de": "Und was haben wir erreicht? Eine neue Bibliothek.",
+              "fr": "Et qu'avons-nous obtenu ? Une nouvelle bibliothèque.",
+              "pt": "E o que conseguimos? Uma biblioteca nova.",
+              "zh": "那我们取得了什么成果呢？一座新图书馆。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "conseguido",
+              "en": "achieved (participle of conseguir)",
+              "it": "ottenuto (participio di conseguir)",
+              "uk": "досягнутий (дієприкметник від conseguir)",
+              "de": "erreicht (Partizip von conseguir)",
+              "fr": "obtenu (participe de conseguir)",
+              "pt": "conseguido (particípio de conseguir)",
+              "zh": "取得的（conseguir 的过去分词）"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "¿Por qué necesitamos un carril bici? ",
+          "after": " queremos una ciudad más limpia.",
+          "options": [
+            "Porque",
+            "Por qué",
+            "Para"
+          ],
+          "answer": "Porque",
+          "en": "Why do we need a bike lane? Because we want a cleaner city.",
+          "it": "Perché ci serve una pista ciclabile? Perché vogliamo una città più pulita.",
+          "uk": "Навіщо нам велодоріжка? Бо ми хочемо чистішого міста.",
+          "de": "Warum brauchen wir einen Radweg? Weil wir eine sauberere Stadt wollen.",
+          "fr": "Pourquoi avons-nous besoin d'une piste cyclable ? Parce que nous voulons une ville plus propre.",
+          "pt": "Por que precisamos de uma ciclovia? Porque queremos uma cidade mais limpa.",
+          "zh": "我们为什么需要一条自行车道？因为我们想要一座更干净的城市。",
+          "hint": {
+            "en": "The answer starts with porque, in one word, no accent.",
+            "it": "La risposta comincia con porque, una parola, senza accento.",
+            "uk": "Відповідь починається з porque — одним словом, без знака наголосу.",
+            "de": "Die Antwort beginnt mit porque, in einem Wort, ohne Akzent.",
+            "fr": "La réponse commence par porque, en un seul mot, sans accent.",
+            "pt": "A resposta começa com porque, numa palavra só, sem acento.",
+            "zh": "回答以 porque 开头，写成一个词，不带重音符号。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "fire",
+          "before": "¿Y qué hemos ",
+          "after": " este año? Una biblioteca nueva y un parque.",
+          "label": "conseguir",
+          "accepted": [
+            "conseguido"
+          ],
+          "en": "And what have we achieved this year? A new library and a park.",
+          "it": "E che cosa abbiamo ottenuto quest'anno? Una biblioteca nuova e un parco.",
+          "uk": "І чого ми досягли цього року? Нової бібліотеки й парку.",
+          "de": "Und was haben wir dieses Jahr erreicht? Eine neue Bibliothek und einen Park.",
+          "fr": "Et qu'avons-nous obtenu cette année ? Une nouvelle bibliothèque et un parc.",
+          "pt": "E o que conseguimos este ano? Uma biblioteca nova e um parque.",
+          "zh": "那我们今年取得了什么成果呢？一座新图书馆和一个公园。",
+          "hint": {
+            "en": "hemos + participle: conseguido.",
+            "it": "hemos + participio: conseguido.",
+            "uk": "hemos + дієприкметник: conseguido.",
+            "de": "hemos + Partizip: conseguido.",
+            "fr": "hemos + participe : conseguido.",
+            "pt": "hemos + particípio: conseguido.",
+            "zh": "hemos + 过去分词：conseguido。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "no es solo…",
+              "kind": "chunk"
+            },
+            {
+              "text": ":",
+              "kind": "chunk"
+            },
+            {
+              "text": "es…",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "Finish strong with no es solo…: es… (it's not just…, it's…), or with three ideas in a row, the strongest one last. Speeches use both all the time.",
+            "it": "Chiudi con forza con no es solo…: es… (non è solo…, è…), o con tre idee di fila, la più forte per ultima. I discorsi li usano di continuo.",
+            "uk": "Заверши сильно за допомогою no es solo…: es… (це не просто…, це…) або трьох ідей поспіль, найсильнішу — наостанок. У промовах і те, і те трапляється постійно.",
+            "de": "Schließ stark mit no es solo…: es… (es ist nicht nur…, es ist…) oder mit drei Gedanken hintereinander, der stärkste zuletzt. Reden benutzen beides ständig.",
+            "fr": "Termine en beauté avec no es solo…: es… (ce n'est pas seulement…, c'est…), ou avec trois idées à la suite, la plus forte en dernier. Les discours emploient les deux sans arrêt.",
+            "pt": "Termine com força com no es solo…: es… (não é só…: é…), ou com três ideias seguidas, a mais forte por último. Os discursos usam as duas coisas o tempo todo.",
+            "zh": "用 no es solo…: es…（它不只是……，它是……）有力地收尾，或者一连说出三个要点，最有力的放在最后。演讲里这两种方法都很常用。"
+          },
+          "examples": [
+            {
+              "es": "No es solo un carril bici: es una ciudad mejor.",
+              "en": "It's not just a bike lane: it's a better city.",
+              "it": "Non è solo una pista ciclabile: è una città migliore.",
+              "uk": "Це не просто велодоріжка: це краще місто.",
+              "de": "Er ist nicht nur ein Radweg: Er ist eine bessere Stadt.",
+              "fr": "Ce n'est pas seulement une piste cyclable : c'est une ville meilleure.",
+              "pt": "Não é só uma ciclovia: é uma cidade melhor.",
+              "zh": "它不只是一条自行车道：它意味着一座更好的城市。"
+            },
+            {
+              "es": "Queremos una ciudad más limpia, más segura y más verde.",
+              "en": "We want a cleaner, safer and greener city.",
+              "it": "Vogliamo una città più pulita, più sicura e più verde.",
+              "uk": "Ми хочемо, щоб місто було чистішим, безпечнішим і зеленішим.",
+              "de": "Wir wollen eine sauberere, sicherere und grünere Stadt.",
+              "fr": "Nous voulons une ville plus propre, plus sûre et plus verte.",
+              "pt": "Queremos uma cidade mais limpa, mais segura e mais verde.",
+              "zh": "我们想要一座更干净、更安全、更绿色的城市。"
+            },
+            {
+              "es": "No es solo una biblioteca: es el corazón del barrio.",
+              "en": "It's not just a library: it's the heart of the neighbourhood.",
+              "it": "Non è solo una biblioteca: è il cuore del quartiere.",
+              "uk": "Це не просто бібліотека: це серце району.",
+              "de": "Sie ist nicht nur eine Bibliothek: Sie ist das Herz des Viertels.",
+              "fr": "Ce n'est pas seulement une bibliothèque : c'est le cœur du quartier.",
+              "pt": "Não é só uma biblioteca: é o coração do bairro.",
+              "zh": "它不只是一座图书馆：它是街区的心脏。"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "No es ",
+          "after": " un carril bici: es una ciudad mejor.",
+          "options": [
+            "solo",
+            "tan",
+            "muy"
+          ],
+          "answer": "solo",
+          "en": "It's not just a bike lane: it's a better city.",
+          "it": "Non è solo una pista ciclabile: è una città migliore.",
+          "uk": "Це не просто велодоріжка: це краще місто.",
+          "de": "Er ist nicht nur ein Radweg: Er ist eine bessere Stadt.",
+          "fr": "Ce n'est pas seulement une piste cyclable : c'est une ville meilleure.",
+          "pt": "Não é só uma ciclovia: é uma cidade melhor.",
+          "zh": "它不只是一条自行车道：它意味着一座更好的城市。",
+          "hint": {
+            "en": "no es solo…: es… (it's not just…, it's…).",
+            "it": "no es solo…: es… (non è solo…, è…).",
+            "uk": "no es solo…: es… (це не просто…, це…).",
+            "de": "no es solo…: es… (es ist nicht nur…, es ist…).",
+            "fr": "no es solo…: es… (ce n'est pas seulement…, c'est…).",
+            "pt": "no es solo…: es… (não é só…: é…).",
+            "zh": "no es solo…: es…（它不只是……，它是……）。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "End your speech with three ideas in a row: we want a cleaner, safer and greener city.",
+            "it": "Chiudi il discorso con tre idee di fila: vogliamo una città più pulita, più sicura e più verde.",
+            "uk": "Заверши промову трьома ідеями поспіль: ми хочемо, щоб місто було чистішим, безпечнішим і зеленішим.",
+            "de": "Beende deine Rede mit drei Gedanken hintereinander: Wir wollen eine sauberere, sicherere und grünere Stadt.",
+            "fr": "Termine ton discours avec trois idées à la suite : nous voulons une ville plus propre, plus sûre et plus verte.",
+            "pt": "Termine o seu discurso com três ideias seguidas: queremos uma cidade mais limpa, mais segura e mais verde.",
+            "zh": "用一连串三个要点结束你的演讲：我们想要一座更干净、更安全、更绿色的城市。"
+          },
+          "accepted": [
+            "Queremos una ciudad más limpia, más segura y más verde."
+          ],
+          "tiles": [
+            "Queremos",
+            "una ciudad",
+            "más limpia,",
+            "más segura",
+            "y más verde",
+            "quiero",
+            "menos"
+          ],
+          "en": "We want a cleaner, safer and greener city.",
+          "it": "Vogliamo una città più pulita, più sicura e più verde.",
+          "uk": "Ми хочемо, щоб місто було чистішим, безпечнішим і зеленішим.",
+          "de": "Wir wollen eine sauberere, sicherere und grünere Stadt.",
+          "fr": "Nous voulons une ville plus propre, plus sûre et plus verte.",
+          "pt": "Queremos uma cidade mais limpa, mais segura e mais verde.",
+          "zh": "我们想要一座更干净、更安全、更绿色的城市。",
+          "hint": {
+            "en": "Three ideas, each with más, joined with y before the last.",
+            "it": "Tre idee, ognuna con más, unite da y prima dell'ultima.",
+            "uk": "Три ідеї, кожна з más, і y перед останньою.",
+            "de": "Drei Gedanken, jeder mit más, vor dem letzten mit y verbunden.",
+            "fr": "Trois idées, chacune avec más, reliées par y avant la dernière.",
+            "pt": "Três ideias, cada uma com más, unidas com y antes da última.",
+            "zh": "三个要点，每个都带 más，最后一个前面用 y 连接。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "",
+          "after": " y señores, muchas gracias por venir.",
+          "options": [
+            "Señoras",
+            "Señores"
+          ],
+          "answer": "Señoras",
+          "en": "Ladies and gentlemen, thank you very much for coming.",
+          "it": "Signore e signori, grazie mille di essere venuti.",
+          "uk": "Пані та панове, щиро дякую, що прийшли.",
+          "de": "Meine Damen und Herren, vielen Dank, dass Sie gekommen sind.",
+          "fr": "Mesdames et messieurs, merci beaucoup d'être venus.",
+          "pt": "Senhoras e senhores, muito obrigado por virem.",
+          "zh": "女士们，先生们，非常感谢大家的到来。",
+          "hint": {
+            "en": "señoras y señores: the ladies first.",
+            "it": "señoras y señores: prima le signore.",
+            "uk": "señoras y señores: спершу пані.",
+            "de": "señoras y señores: die Damen zuerst.",
+            "fr": "señoras y señores : les dames d'abord.",
+            "pt": "señoras y señores: as senhoras primeiro.",
+            "zh": "señoras y señores：女士在前。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "mix",
+          "before": "¿Por qué es tan importante esta biblioteca? ",
+          "after": " es de todos.",
+          "label": "because",
+          "accepted": [
+            "Porque"
+          ],
+          "en": "Why is this library so important? Because it belongs to everyone.",
+          "it": "Perché questa biblioteca è così importante? Perché è di tutti.",
+          "uk": "Чому ця бібліотека така важлива? Бо вона належить усім.",
+          "de": "Warum ist diese Bibliothek so wichtig? Weil sie allen gehört.",
+          "fr": "Pourquoi cette bibliothèque est-elle si importante ? Parce qu'elle appartient à tout le monde.",
+          "pt": "Por que esta biblioteca é tão importante? Porque é de todos.",
+          "zh": "这座图书馆为什么这么重要？因为它属于每一个人。",
+          "hint": {
+            "en": "Answering your own question: porque.",
+            "it": "Rispondi alla tua domanda: porque.",
+            "uk": "Відповідаєш на власне запитання: porque.",
+            "de": "Deine eigene Frage beantworten: porque.",
+            "fr": "Tu réponds à ta propre question : porque.",
+            "pt": "Respondendo à sua própria pergunta: porque.",
+            "zh": "回答自己提出的问题：porque。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "mix",
+          "intention": {
+            "en": "Tell the audience what the new library really means: it's not just a library, it's the heart of the neighbourhood.",
+            "it": "Di' al pubblico che cosa significa davvero la nuova biblioteca: non è solo una biblioteca, è il cuore del quartiere.",
+            "uk": "Скажи слухачам, що насправді означає нова бібліотека: це не просто бібліотека, це серце району.",
+            "de": "Sag dem Publikum, was die neue Bibliothek wirklich bedeutet: Sie ist nicht nur eine Bibliothek, sie ist das Herz des Viertels.",
+            "fr": "Dis au public ce que la nouvelle bibliothèque représente vraiment : ce n'est pas seulement une bibliothèque, c'est le cœur du quartier.",
+            "pt": "Diga ao público o que a nova biblioteca realmente significa: não é só uma biblioteca, é o coração do bairro.",
+            "zh": "告诉听众新图书馆真正意味着什么：它不只是一座图书馆，它是街区的心脏。"
+          },
+          "accepted": [
+            "No es solo una biblioteca: es el corazón del barrio."
+          ],
+          "tiles": [
+            "No es solo",
+            "una biblioteca:",
+            "es el corazón",
+            "del barrio",
+            "muy",
+            "son"
+          ],
+          "en": "It's not just a library: it's the heart of the neighbourhood.",
+          "it": "Non è solo una biblioteca: è il cuore del quartiere.",
+          "uk": "Це не просто бібліотека: це серце району.",
+          "de": "Sie ist nicht nur eine Bibliothek: Sie ist das Herz des Viertels.",
+          "fr": "Ce n'est pas seulement une bibliothèque : c'est le cœur du quartier.",
+          "pt": "Não é só uma biblioteca: é o coração do bairro.",
+          "zh": "它不只是一座图书馆：它是街区的心脏。",
+          "hint": {
+            "en": "no es solo…: es…",
+            "it": "no es solo…: es…",
+            "uk": "no es solo…: es…",
+            "de": "no es solo…: es…",
+            "fr": "no es solo…: es…",
+            "pt": "no es solo…: es…",
+            "zh": "no es solo…: es…"
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "You're giving a speech at the opening of the new bike lane. Write in Spanish: «Ladies and gentlemen, it's not just a bike lane: it's a better city.»",
+            "it": "Stai facendo un discorso all'inaugurazione della nuova pista ciclabile. Scrivi in spagnolo: «Signore e signori, non è solo una pista ciclabile: è una città migliore.»",
+            "uk": "Ти виголошуєш промову на відкритті нової велодоріжки. Напиши іспанською: «Пані та панове, це не просто велодоріжка: це краще місто.»",
+            "de": "Du hältst eine Rede bei der Eröffnung des neuen Radwegs. Schreib auf Spanisch: «Meine Damen und Herren, er ist nicht nur ein Radweg: Er ist eine bessere Stadt.»",
+            "fr": "Tu fais un discours pour l'inauguration de la nouvelle piste cyclable. Écris en espagnol : «Mesdames et messieurs, ce n'est pas seulement une piste cyclable : c'est une ville meilleure.»",
+            "pt": "Você está fazendo um discurso na inauguração da nova ciclovia. Escreva em espanhol: «Senhoras e senhores, não é só uma ciclovia: é uma cidade melhor.»",
+            "zh": "你在新自行车道的开通仪式上发表演讲。用西班牙语写：«女士们，先生们，它不只是一条自行车道：它意味着一座更好的城市。»"
+          },
+          "accepted": [
+            "Señoras y señores, no es solo un carril bici: es una ciudad mejor.",
+            "Señoras y señores, no es solo un carril bici, es una ciudad mejor.",
+            "Señoras y señores, no es solo un carril bici; es una ciudad mejor."
+          ],
+          "model": {
+            "es": "Señoras y señores, no es solo un carril bici: es una ciudad mejor.",
+            "en": "Ladies and gentlemen, it's not just a bike lane: it's a better city.",
+            "it": "Signore e signori, non è solo una pista ciclabile: è una città migliore.",
+            "uk": "Пані та панове, це не просто велодоріжка: це краще місто.",
+            "de": "Meine Damen und Herren, er ist nicht nur ein Radweg: Er ist eine bessere Stadt.",
+            "fr": "Mesdames et messieurs, ce n'est pas seulement une piste cyclable : c'est une ville meilleure.",
+            "pt": "Senhoras e senhores, não é só uma ciclovia: é uma cidade melhor.",
+            "zh": "女士们，先生们，它不只是一条自行车道：它意味着一座更好的城市。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u53l4",
+      "goal": {
+        "en": "Rebut an argument politely but firmly: no es cierto que + the subjunctive to deny it, eso no significa que + the subjunctive to stop a wrong conclusion, ahora bien to accept a point and then object, and cabe señalar que to add a fact that matters.",
+        "it": "Confuta un argomento con garbo ma con fermezza: no es cierto que + congiuntivo per negarlo, eso no significa que + congiuntivo per fermare una conclusione sbagliata, ahora bien per accettare un punto e poi obiettare, e cabe señalar que per aggiungere un fatto importante.",
+        "uk": "Спростовуй аргумент ввічливо, але твердо: no es cierto que + «subjuntivo», щоб заперечити його, eso no significa que + «subjuntivo», щоб зупинити хибний висновок, ahora bien, щоб погодитися з думкою, а потім заперечити, і cabe señalar que, щоб додати важливий факт.",
+        "de": "Widerlege ein Argument höflich, aber bestimmt: no es cierto que + subjuntivo, um es zu bestreiten, eso no significa que + subjuntivo, um einen falschen Schluss zu stoppen, ahora bien, um einen Punkt zuzugeben und dann zu widersprechen, und cabe señalar que, um eine wichtige Tatsache hinzuzufügen.",
+        "fr": "Réfute un argument avec politesse mais fermeté : no es cierto que + subjuntivo pour le contester, eso no significa que + subjuntivo pour bloquer une fausse conclusion, ahora bien pour concéder un point puis objecter, et cabe señalar que pour ajouter un fait important.",
+        "pt": "Rebata um argumento com educação, mas com firmeza: no es cierto que + subjuntivo para negá-lo, eso no significa que + subjuntivo para barrar uma conclusão errada, ahora bien para aceitar um ponto e depois objetar, e cabe señalar que para acrescentar um fato importante.",
+        "zh": "礼貌而坚定地反驳对方的论点：用 no es cierto que + 虚拟式来否认，用 eso no significa que + 虚拟式来阻止错误的结论，用 ahora bien 先认可一点再提出异议，用 cabe señalar que 补充一个重要的事实。"
+      },
+      "target": {
+        "es": "No es cierto que el carril bici sea peligroso.",
+        "en": "It's not true that the bike lane is dangerous.",
+        "it": "Non è vero che la pista ciclabile sia pericolosa.",
+        "uk": "Неправда, що велодоріжка небезпечна.",
+        "de": "Es ist nicht wahr, dass der Radweg gefährlich ist.",
+        "fr": "Il n'est pas vrai que la piste cyclable soit dangereuse.",
+        "pt": "Não é verdade que a ciclovia seja perigosa.",
+        "zh": "说自行车道危险，这不是事实。"
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "refutar",
+              "en": "to rebut, to refute",
+              "it": "confutare",
+              "uk": "спростовувати",
+              "de": "widerlegen, entkräften",
+              "fr": "réfuter",
+              "pt": "rebater, refutar",
+              "zh": "反驳，驳斥",
+              "kind": "stem"
+            },
+            {
+              "es": "ahora bien",
+              "en": "that said, however",
+              "it": "detto questo, tuttavia",
+              "uk": "утім, проте, водночас",
+              "de": "allerdings, das gesagt",
+              "fr": "cela dit, toutefois",
+              "pt": "dito isso, no entanto",
+              "zh": "话虽如此，不过",
+              "kind": "rail"
+            },
+            {
+              "es": "cabe señalar que",
+              "en": "it's worth pointing out that",
+              "it": "va sottolineato che",
+              "uk": "варто зазначити, що",
+              "de": "es sei darauf hingewiesen, dass",
+              "fr": "il convient de signaler que",
+              "pt": "vale ressaltar que",
+              "zh": "值得指出的是",
+              "kind": "rail"
+            },
+            {
+              "es": "las obras",
+              "en": "the roadworks, the building works",
+              "it": "i lavori (stradali, edili)",
+              "uk": "ремонтні роботи, будівельні роботи",
+              "de": "die Bauarbeiten, die Baustelle",
+              "fr": "les travaux",
+              "pt": "as obras",
+              "zh": "（道路、建筑）施工，工程",
+              "kind": "chunk"
+            },
+            {
+              "es": "peligroso / peligrosa",
+              "en": "dangerous",
+              "it": "pericoloso / pericolosa",
+              "uk": "небезпечний / небезпечна",
+              "de": "gefährlich",
+              "fr": "dangereux / dangereuse",
+              "pt": "perigoso / perigosa",
+              "zh": "危险的（阳性 / 阴性）",
+              "kind": "chunk"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "no es cierto que",
+              "kind": "rail"
+            },
+            {
+              "text": "+",
+              "kind": "chunk"
+            },
+            {
+              "text": "sea",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "To deny what someone has said, use no es cierto que + the subjunctive. You know es cierto que + the indicative; with no, the verb after it changes to the subjunctive.",
+            "it": "Per negare quello che qualcuno ha detto, usa no es cierto que + congiuntivo. Conosci es cierto que + indicativo; con no, il verbo che segue passa al congiuntivo.",
+            "uk": "Щоб заперечити те, що хтось сказав, уживай no es cierto que + «subjuntivo». Ти знаєш es cierto que + дійсний спосіб; із no дієслово після нього переходить у «subjuntivo».",
+            "de": "Um zu bestreiten, was jemand gesagt hat, benutzt du no es cierto que + subjuntivo. Du kennst es cierto que + Indikativ; mit no wechselt das Verb danach in den subjuntivo. Im Deutschen bleibt der Indikativ („Es ist nicht wahr, dass er gefährlich ist“), im Spanischen nicht.",
+            "fr": "Pour contester ce que quelqu'un a dit, emploie no es cierto que + subjuntivo. Tu connais es cierto que + indicatif ; avec no, le verbe qui suit passe au subjuntivo, comme en français : il est vrai que c'est… / il n'est pas vrai que ce soit…",
+            "pt": "Para negar o que alguém disse, use no es cierto que + subjuntivo. Você já conhece es cierto que + indicativo; com no, o verbo seguinte passa para o subjuntivo, exatamente como em português: é verdade que é / não é verdade que seja.",
+            "zh": "要否认别人说的话，用 no es cierto que + 虚拟式。你已经学过 es cierto que + 陈述式；加上 no 以后，后面的动词就要改用虚拟式。"
+          },
+          "examples": [
+            {
+              "es": "No es cierto que el carril bici sea peligroso.",
+              "en": "It's not true that the bike lane is dangerous.",
+              "it": "Non è vero che la pista ciclabile sia pericolosa.",
+              "uk": "Неправда, що велодоріжка небезпечна.",
+              "de": "Es ist nicht wahr, dass der Radweg gefährlich ist.",
+              "fr": "Il n'est pas vrai que la piste cyclable soit dangereuse.",
+              "pt": "Não é verdade que a ciclovia seja perigosa.",
+              "zh": "说自行车道危险，这不是事实。"
+            },
+            {
+              "es": "No es cierto que la biblioteca cierre en agosto.",
+              "en": "It's not true that the library is closing in August.",
+              "it": "Non è vero che la biblioteca chiuda ad agosto.",
+              "uk": "Неправда, що бібліотека закривається в серпні.",
+              "de": "Es ist nicht wahr, dass die Bibliothek im August schließt.",
+              "fr": "Il n'est pas vrai que la bibliothèque ferme en août.",
+              "pt": "Não é verdade que a biblioteca vá fechar em agosto.",
+              "zh": "说图书馆八月要闭馆，这不是事实。"
+            },
+            {
+              "es": "Es cierto que las obras son largas.",
+              "en": "It's true that the works are taking a long time.",
+              "it": "È vero che i lavori sono lunghi.",
+              "uk": "Правда, що роботи тривають довго.",
+              "de": "Es stimmt, dass die Bauarbeiten lange dauern.",
+              "fr": "Il est vrai que les travaux sont longs.",
+              "pt": "É verdade que as obras estão demorando.",
+              "zh": "施工时间确实很长。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "cierre",
+              "en": "(that) it closes: subjunctive of cerrar",
+              "it": "(che) chiuda: congiuntivo di cerrar",
+              "uk": "(що) закривається: «subjuntivo» від cerrar",
+              "de": "(dass) es schließt: subjuntivo von cerrar",
+              "fr": "(qu')il / elle ferme : subjuntivo de cerrar",
+              "pt": "(que) feche: subjuntivo de cerrar",
+              "zh": "（……）关闭：cerrar 的虚拟式"
+            },
+            {
+              "es": "largas",
+              "en": "long (feminine plural)",
+              "it": "lunghe",
+              "uk": "довгі (жіночий рід, множина)",
+              "de": "lang (weiblich Plural)",
+              "fr": "longues (féminin pluriel)",
+              "pt": "longas, demoradas (feminino plural)",
+              "zh": "长的（阴性复数）"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "No es cierto que el carril bici ",
+          "after": " peligroso.",
+          "options": [
+            "sea",
+            "es"
+          ],
+          "answer": "sea",
+          "en": "It's not true that the bike lane is dangerous.",
+          "it": "Non è vero che la pista ciclabile sia pericolosa.",
+          "uk": "Неправда, що велодоріжка небезпечна.",
+          "de": "Es ist nicht wahr, dass der Radweg gefährlich ist.",
+          "fr": "Il n'est pas vrai que la piste cyclable soit dangereuse.",
+          "pt": "Não é verdade que a ciclovia seja perigosa.",
+          "zh": "说自行车道危险，这不是事实。",
+          "hint": {
+            "en": "no es cierto que + subjunctive: sea.",
+            "it": "no es cierto que + congiuntivo: sea.",
+            "uk": "no es cierto que + «subjuntivo»: sea.",
+            "de": "no es cierto que + subjuntivo: sea.",
+            "fr": "no es cierto que + subjuntivo : sea.",
+            "pt": "no es cierto que + subjuntivo: sea.",
+            "zh": "no es cierto que + 虚拟式：sea。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "fire",
+          "before": "No es cierto que la biblioteca ",
+          "after": " en agosto.",
+          "label": "cerrar",
+          "accepted": [
+            "cierre"
+          ],
+          "en": "It's not true that the library is closing in August.",
+          "it": "Non è vero che la biblioteca chiuda ad agosto.",
+          "uk": "Неправда, що бібліотека закривається в серпні.",
+          "de": "Es ist nicht wahr, dass die Bibliothek im August schließt.",
+          "fr": "Il n'est pas vrai que la bibliothèque ferme en août.",
+          "pt": "Não é verdade que a biblioteca vá fechar em agosto.",
+          "zh": "说图书馆八月要闭馆，这不是事实。",
+          "hint": {
+            "en": "no es cierto que + subjunctive: cierre.",
+            "it": "no es cierto que + congiuntivo: cierre.",
+            "uk": "no es cierto que + «subjuntivo»: cierre.",
+            "de": "no es cierto que + subjuntivo: cierre.",
+            "fr": "no es cierto que + subjuntivo : cierre.",
+            "pt": "no es cierto que + subjuntivo: cierre.",
+            "zh": "no es cierto que + 虚拟式：cierre。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "eso no significa que",
+              "kind": "rail"
+            },
+            {
+              "text": "+",
+              "kind": "chunk"
+            },
+            {
+              "text": "tengamos",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "Eso no significa que + the subjunctive stops someone drawing the wrong conclusion: the fact is true, the conclusion isn't.",
+            "it": "Eso no significa que + congiuntivo impedisce a qualcuno di trarre la conclusione sbagliata: il fatto è vero, la conclusione no.",
+            "uk": "Eso no significa que + «subjuntivo» не дає комусь зробити хибний висновок: факт правдивий, а висновок — ні.",
+            "de": "Eso no significa que + subjuntivo hält jemanden davon ab, den falschen Schluss zu ziehen: Die Tatsache stimmt, der Schluss nicht.",
+            "fr": "Eso no significa que + subjuntivo empêche quelqu'un de tirer une mauvaise conclusion : le fait est vrai, la conclusion ne l'est pas. Comme en français : cela ne veut pas dire que + subjonctif.",
+            "pt": "Eso no significa que + subjuntivo impede que alguém tire a conclusão errada: o fato é verdadeiro, a conclusão não.",
+            "zh": "Eso no significa que + 虚拟式能阻止对方得出错误的结论：事实是真的，结论却不成立。"
+          },
+          "examples": [
+            {
+              "es": "El carril bici es caro, pero eso no significa que sea un mal proyecto.",
+              "en": "The bike lane is expensive, but that doesn't mean it's a bad project.",
+              "it": "La pista ciclabile è cara, ma questo non significa che sia un cattivo progetto.",
+              "uk": "Велодоріжка дорога, але це не означає, що це поганий проєкт.",
+              "de": "Der Radweg ist teuer, aber das heißt nicht, dass er ein schlechtes Projekt ist.",
+              "fr": "La piste cyclable coûte cher, mais cela ne veut pas dire que ce soit un mauvais projet.",
+              "pt": "A ciclovia é cara, mas isso não significa que seja um projeto ruim.",
+              "zh": "自行车道是很贵，但这并不意味着它是个糟糕的项目。"
+            },
+            {
+              "es": "Hay obras, pero eso no significa que tengamos que cerrar la calle.",
+              "en": "There are roadworks, but that doesn't mean we have to close the street.",
+              "it": "Ci sono lavori, ma questo non significa che dobbiamo chiudere la strada.",
+              "uk": "Тут ремонтні роботи, але це не означає, що ми мусимо перекрити вулицю.",
+              "de": "Es gibt Bauarbeiten, aber das heißt nicht, dass wir die Straße sperren müssen.",
+              "fr": "Il y a des travaux, mais cela ne veut pas dire que nous devions fermer la rue.",
+              "pt": "Há obras, mas isso não significa que tenhamos que fechar a rua.",
+              "zh": "是有施工，但这并不意味着我们得封路。"
+            },
+            {
+              "es": "Eso no significa que el ayuntamiento tenga razón.",
+              "en": "That doesn't mean the council is right.",
+              "it": "Questo non significa che il comune abbia ragione.",
+              "uk": "Це не означає, що міська рада має рацію.",
+              "de": "Das heißt nicht, dass die Stadt recht hat.",
+              "fr": "Cela ne veut pas dire que la mairie ait raison.",
+              "pt": "Isso não significa que a prefeitura tenha razão.",
+              "zh": "这并不意味着市政府是对的。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "tengamos",
+              "en": "(that) we have: subjunctive of tener",
+              "it": "(che) abbiamo: congiuntivo di tener",
+              "uk": "(що) ми маємо, мусимо: «subjuntivo» від tener",
+              "de": "(dass) wir haben: subjuntivo von tener",
+              "fr": "(que) nous ayons : subjuntivo de tener",
+              "pt": "(que) tenhamos: subjuntivo de tener",
+              "zh": "（……）我们有：tener 的虚拟式"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Hay obras, pero eso no significa que ",
+          "after": " que cerrar la calle.",
+          "options": [
+            "tengamos",
+            "tenemos"
+          ],
+          "answer": "tengamos",
+          "en": "There are roadworks, but that doesn't mean we have to close the street.",
+          "it": "Ci sono lavori, ma questo non significa che dobbiamo chiudere la strada.",
+          "uk": "Тут ремонтні роботи, але це не означає, що ми мусимо перекрити вулицю.",
+          "de": "Es gibt Bauarbeiten, aber das heißt nicht, dass wir die Straße sperren müssen.",
+          "fr": "Il y a des travaux, mais cela ne veut pas dire que nous devions fermer la rue.",
+          "pt": "Há obras, mas isso não significa que tenhamos que fechar a rua.",
+          "zh": "是有施工，但这并不意味着我们得封路。",
+          "hint": {
+            "en": "eso no significa que + subjunctive: tengamos.",
+            "it": "eso no significa que + congiuntivo: tengamos.",
+            "uk": "eso no significa que + «subjuntivo»: tengamos.",
+            "de": "eso no significa que + subjuntivo: tengamos.",
+            "fr": "eso no significa que + subjuntivo : tengamos.",
+            "pt": "eso no significa que + subjuntivo: tengamos.",
+            "zh": "eso no significa que + 虚拟式：tengamos。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "fire",
+          "before": "El proyecto es caro, pero eso no ",
+          "after": " que sea malo.",
+          "label": "significar",
+          "accepted": [
+            "significa"
+          ],
+          "en": "The project is expensive, but that doesn't mean it's bad.",
+          "it": "Il progetto è caro, ma questo non significa che sia cattivo.",
+          "uk": "Проєкт дорогий, але це не означає, що він поганий.",
+          "de": "Das Projekt ist teuer, aber das heißt nicht, dass es schlecht ist.",
+          "fr": "Le projet coûte cher, mais cela ne veut pas dire qu'il soit mauvais.",
+          "pt": "O projeto é caro, mas isso não significa que seja ruim.",
+          "zh": "这个项目是很贵，但这并不意味着它不好。",
+          "hint": {
+            "en": "eso no significa que…",
+            "it": "eso no significa que…",
+            "uk": "eso no significa que…",
+            "de": "eso no significa que…",
+            "fr": "eso no significa que…",
+            "pt": "eso no significa que…",
+            "zh": "eso no significa que…"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "es verdad que…",
+              "kind": "chunk"
+            },
+            {
+              "text": "+",
+              "kind": "chunk"
+            },
+            {
+              "text": "ahora bien",
+              "kind": "rail"
+            }
+          ],
+          "rule": {
+            "en": "Ahora bien (that said, however) lets you accept a point and then object. Say the true part first, then ahora bien and your argument. It's more formal and stronger than pero.",
+            "it": "Ahora bien (detto questo, tuttavia) ti permette di accettare un punto e poi obiettare. Prima di' la parte vera, poi ahora bien e il tuo argomento. È più formale e più forte di pero.",
+            "uk": "Ahora bien (утім, проте) дає змогу погодитися з думкою, а потім заперечити. Спершу скажи те, що правда, потім ahora bien і свій аргумент. Це офіційніше й сильніше, ніж pero.",
+            "de": "Mit ahora bien (allerdings, das gesagt) gibst du einen Punkt zu und widersprichst dann. Sag zuerst den wahren Teil, dann ahora bien und dein Argument. Es ist förmlicher und stärker als pero.",
+            "fr": "Ahora bien (cela dit, toutefois) te permet de concéder un point puis d'objecter. Dis d'abord ce qui est vrai, puis ahora bien et ton argument. C'est plus soutenu et plus fort que pero.",
+            "pt": "Ahora bien (dito isso, no entanto) permite aceitar um ponto e depois objetar. Diga primeiro a parte verdadeira, depois ahora bien e o seu argumento. É mais formal e mais forte que pero.",
+            "zh": "Ahora bien（话虽如此，不过）让你先认可对方的一点，再提出异议。先说对方说得对的部分，再说 ahora bien 和你的论点。它比 pero 更正式，也更有分量。"
+          },
+          "examples": [
+            {
+              "es": "Es verdad que el carril bici es caro. Ahora bien, es necesario.",
+              "en": "It's true that the bike lane is expensive. That said, it's necessary.",
+              "it": "È vero che la pista ciclabile è cara. Detto questo, è necessaria.",
+              "uk": "Правда, що велодоріжка дорога. Утім, вона потрібна.",
+              "de": "Es stimmt, dass der Radweg teuer ist. Allerdings ist er notwendig.",
+              "fr": "Il est vrai que la piste cyclable coûte cher. Cela dit, elle est nécessaire.",
+              "pt": "É verdade que a ciclovia é cara. Dito isso, ela é necessária.",
+              "zh": "自行车道确实很贵。话虽如此，它是必要的。"
+            },
+            {
+              "es": "Las obras son molestas, es cierto. Ahora bien, solo duran un mes.",
+              "en": "The works are a nuisance, it's true. That said, they only last a month.",
+              "it": "I lavori danno fastidio, è vero. Tuttavia durano solo un mese.",
+              "uk": "Роботи дратують, це правда. Проте вони тривають лише місяць.",
+              "de": "Die Bauarbeiten sind lästig, das stimmt. Allerdings dauern sie nur einen Monat.",
+              "fr": "Les travaux sont gênants, c'est vrai. Cela dit, ils ne durent qu'un mois.",
+              "pt": "As obras incomodam, é verdade. No entanto, só duram um mês.",
+              "zh": "施工确实扰民，这没错。不过，只持续一个月。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "molestas",
+              "en": "annoying, a nuisance (feminine plural)",
+              "it": "fastidiosi, che danno fastidio",
+              "uk": "неприємні, що дратують (жіночий рід, множина)",
+              "de": "lästig, störend (weiblich Plural)",
+              "fr": "gênantes, pénibles (féminin pluriel)",
+              "pt": "incômodas, que incomodam (feminino plural)",
+              "zh": "令人烦扰的，扰民的（阴性复数）"
+            },
+            {
+              "es": "duran",
+              "en": "they last",
+              "it": "durano",
+              "uk": "тривають",
+              "de": "sie dauern",
+              "fr": "ils / elles durent",
+              "pt": "duram",
+              "zh": "它们持续"
+            },
+            {
+              "es": "duren",
+              "en": "(that) they last: subjunctive of durar",
+              "it": "(che) durino: congiuntivo di durar",
+              "uk": "(що) тривають: «subjuntivo» від durar",
+              "de": "(dass) sie dauern: subjuntivo von durar",
+              "fr": "(qu')ils / elles durent : subjuntivo de durar",
+              "pt": "(que) durem: subjuntivo de durar",
+              "zh": "（……）它们持续：durar 的虚拟式"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Es cierto que las obras son molestas. ",
+          "after": ", solo duran un mes.",
+          "options": [
+            "Ahora bien",
+            "Por eso",
+            "Así pues"
+          ],
+          "answer": "Ahora bien",
+          "en": "It's true that the works are a nuisance. That said, they only last a month.",
+          "it": "È vero che i lavori danno fastidio. Tuttavia durano solo un mese.",
+          "uk": "Правда, що роботи дратують. Утім, вони тривають лише місяць.",
+          "de": "Es stimmt, dass die Bauarbeiten lästig sind. Allerdings dauern sie nur einen Monat.",
+          "fr": "Il est vrai que les travaux sont gênants. Cela dit, ils ne durent qu'un mois.",
+          "pt": "É verdade que as obras incomodam. Dito isso, só duram um mês.",
+          "zh": "施工确实扰民。不过，只持续一个月。",
+          "hint": {
+            "en": "Accept, then object: ahora bien.",
+            "it": "Accetta, poi obietta: ahora bien.",
+            "uk": "Погодься, потім заперечи: ahora bien.",
+            "de": "Zugeben, dann widersprechen: ahora bien.",
+            "fr": "Concède, puis objecte : ahora bien.",
+            "pt": "Aceite e depois objete: ahora bien.",
+            "zh": "先认可，再反驳：ahora bien。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "In a debate, accept your opponent's point and then object: it's true that it's expensive. That said, it's necessary.",
+            "it": "In un dibattito, accetta il punto dell'avversario e poi obietta: è vero che è caro. Detto questo, è necessario.",
+            "uk": "У дебатах погодься з думкою опонента, а потім заперечи: правда, що це дорого. Утім, це потрібно.",
+            "de": "In einer Debatte gibst du deinem Gegner in einem Punkt recht und widersprichst dann: Es stimmt, dass es teuer ist. Allerdings ist es notwendig.",
+            "fr": "Dans un débat, concède le point de ton adversaire puis objecte : il est vrai que c'est cher. Cela dit, c'est nécessaire.",
+            "pt": "Num debate, aceite o argumento do seu adversário e depois objete: é verdade que é caro. Dito isso, é necessário.",
+            "zh": "在辩论中，先认可对手的观点，再提出异议：它确实很贵。话虽如此，它是必要的。"
+          },
+          "accepted": [
+            "Es verdad que es caro. Ahora bien, es necesario.",
+            "Es cierto que es caro. Ahora bien, es necesario."
+          ],
+          "tiles": [
+            "Es verdad que",
+            "es caro.",
+            "Ahora bien,",
+            "es necesario",
+            "por eso",
+            "sea"
+          ],
+          "en": "It's true that it's expensive. That said, it's necessary.",
+          "it": "È vero che è caro. Detto questo, è necessario.",
+          "uk": "Правда, що це дорого. Утім, це потрібно.",
+          "de": "Es stimmt, dass es teuer ist. Allerdings ist es notwendig.",
+          "fr": "Il est vrai que c'est cher. Cela dit, c'est nécessaire.",
+          "pt": "É verdade que é caro. Dito isso, é necessário.",
+          "zh": "它确实很贵。话虽如此，它是必要的。",
+          "hint": {
+            "en": "The true part first, then ahora bien.",
+            "it": "Prima la parte vera, poi ahora bien.",
+            "uk": "Спершу те, що правда, потім ahora bien.",
+            "de": "Erst der wahre Teil, dann ahora bien.",
+            "fr": "D'abord ce qui est vrai, puis ahora bien.",
+            "pt": "Primeiro a parte verdadeira, depois ahora bien.",
+            "zh": "先说对的部分，再说 ahora bien。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "cabe señalar que",
+              "kind": "rail"
+            },
+            {
+              "text": "+",
+              "kind": "chunk"
+            },
+            {
+              "text": "abre",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "Cabe señalar que… (it's worth pointing out that…) brings in a fact the others have forgotten and gives it weight. It's formal: for debates, speeches and writing. The verb after it is in the indicative.",
+            "it": "Cabe señalar que… (va sottolineato che…) introduce un fatto che gli altri hanno dimenticato e gli dà peso. È formale: per dibattiti, discorsi e testi scritti. Il verbo che segue è all'indicativo.",
+            "uk": "Cabe señalar que… (варто зазначити, що…) вводить факт, про який інші забули, і надає йому ваги. Це офіційний вислів: для дебатів, промов і письмових текстів. Дієслово після нього стоїть у дійсному способі.",
+            "de": "Cabe señalar que… (es sei darauf hingewiesen, dass…) bringt eine Tatsache ins Spiel, die die anderen vergessen haben, und gibt ihr Gewicht. Es ist förmlich: für Debatten, Reden und Texte. Das Verb danach steht im Indikativ.",
+            "fr": "Cabe señalar que… (il convient de signaler que…) introduit un fait que les autres ont oublié et lui donne du poids. C'est soutenu : pour les débats, les discours et l'écrit. Le verbe qui suit est à l'indicatif.",
+            "pt": "Cabe señalar que… (vale ressaltar que…) traz um fato que os outros esqueceram e dá peso a ele. É formal: para debates, discursos e textos escritos. O verbo seguinte fica no indicativo.",
+            "zh": "Cabe señalar que…（值得指出的是……）引出一个别人忘了的事实，并强调它的分量。它很正式：用于辩论、演讲和书面语。它后面的动词用陈述式。"
+          },
+          "examples": [
+            {
+              "es": "Cabe señalar que la biblioteca ya abre los sábados.",
+              "en": "It's worth pointing out that the library already opens on Saturdays.",
+              "it": "Va sottolineato che la biblioteca apre già il sabato.",
+              "uk": "Варто зазначити, що бібліотека вже працює в суботу.",
+              "de": "Es sei darauf hingewiesen, dass die Bibliothek schon samstags öffnet.",
+              "fr": "Il convient de signaler que la bibliothèque ouvre déjà le samedi.",
+              "pt": "Vale ressaltar que a biblioteca já abre aos sábados.",
+              "zh": "值得指出的是，图书馆周六已经开放了。"
+            },
+            {
+              "es": "Cabe señalar que las obras terminan en junio.",
+              "en": "It's worth pointing out that the works finish in June.",
+              "it": "Va sottolineato che i lavori finiscono a giugno.",
+              "uk": "Варто зазначити, що роботи закінчуються в червні.",
+              "de": "Es sei darauf hingewiesen, dass die Bauarbeiten im Juni enden.",
+              "fr": "Il convient de signaler que les travaux se terminent en juin.",
+              "pt": "Vale ressaltar que as obras terminam em junho.",
+              "zh": "值得指出的是，施工六月就结束。"
+            },
+            {
+              "es": "Cabe señalar que el carril bici es gratis.",
+              "en": "It's worth pointing out that the bike lane is free.",
+              "it": "Va sottolineato che la pista ciclabile è gratuita.",
+              "uk": "Варто зазначити, що велодоріжка безкоштовна.",
+              "de": "Es sei darauf hingewiesen, dass der Radweg kostenlos ist.",
+              "fr": "Il convient de signaler que la piste cyclable est gratuite.",
+              "pt": "Vale ressaltar que a ciclovia é gratuita.",
+              "zh": "值得指出的是，自行车道是免费的。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "señalar",
+              "en": "to point out",
+              "it": "sottolineare, far notare",
+              "uk": "зазначати, вказувати",
+              "de": "hinweisen, darauf aufmerksam machen",
+              "fr": "signaler, souligner",
+              "pt": "ressaltar, apontar",
+              "zh": "指出"
+            },
+            {
+              "es": "señalo",
+              "en": "I point out",
+              "it": "sottolineo, faccio notare",
+              "uk": "я зазначаю, я вказую",
+              "de": "ich weise darauf hin",
+              "fr": "je signale, je souligne",
+              "pt": "ressalto, aponto",
+              "zh": "我指出"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Cabe ",
+          "after": " que la biblioteca ya abre los sábados.",
+          "options": [
+            "señalar",
+            "señalo"
+          ],
+          "answer": "señalar",
+          "en": "It's worth pointing out that the library already opens on Saturdays.",
+          "it": "Va sottolineato che la biblioteca apre già il sabato.",
+          "uk": "Варто зазначити, що бібліотека вже працює в суботу.",
+          "de": "Es sei darauf hingewiesen, dass die Bibliothek schon samstags öffnet.",
+          "fr": "Il convient de signaler que la bibliothèque ouvre déjà le samedi.",
+          "pt": "Vale ressaltar que a biblioteca já abre aos sábados.",
+          "zh": "值得指出的是，图书馆周六已经开放了。",
+          "hint": {
+            "en": "The fixed phrase: cabe señalar que.",
+            "it": "L'espressione fissa: cabe señalar que.",
+            "uk": "Сталий вислів: cabe señalar que.",
+            "de": "Die feste Wendung: cabe señalar que.",
+            "fr": "La formule fixe : cabe señalar que.",
+            "pt": "A expressão fixa: cabe señalar que.",
+            "zh": "固定说法：cabe señalar que。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "fire",
+          "before": "",
+          "after": " señalar que las obras terminan en junio.",
+          "label": "it's worth (pointing out)",
+          "accepted": [
+            "Cabe"
+          ],
+          "en": "It's worth pointing out that the works finish in June.",
+          "it": "Va sottolineato che i lavori finiscono a giugno.",
+          "uk": "Варто зазначити, що роботи закінчуються в червні.",
+          "de": "Es sei darauf hingewiesen, dass die Bauarbeiten im Juni enden.",
+          "fr": "Il convient de signaler que les travaux se terminent en juin.",
+          "pt": "Vale ressaltar que as obras terminam em junho.",
+          "zh": "值得指出的是，施工六月就结束。",
+          "hint": {
+            "en": "cabe señalar que…",
+            "it": "cabe señalar que…",
+            "uk": "cabe señalar que…",
+            "de": "cabe señalar que…",
+            "fr": "cabe señalar que…",
+            "pt": "cabe señalar que…",
+            "zh": "cabe señalar que…"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "No es cierto que las obras ",
+          "after": " un año.",
+          "options": [
+            "duren",
+            "duran"
+          ],
+          "answer": "duren",
+          "en": "It's not true that the works will last a year.",
+          "it": "Non è vero che i lavori durino un anno.",
+          "uk": "Неправда, що роботи триватимуть рік.",
+          "de": "Es ist nicht wahr, dass die Bauarbeiten ein Jahr dauern werden.",
+          "fr": "Il n'est pas vrai que les travaux durent un an.",
+          "pt": "Não é verdade que as obras vão durar um ano.",
+          "zh": "说施工要持续一年，这不是事实。",
+          "hint": {
+            "en": "no es cierto que + subjunctive: duren.",
+            "it": "no es cierto que + congiuntivo: duren.",
+            "uk": "no es cierto que + «subjuntivo»: duren.",
+            "de": "no es cierto que + subjuntivo: duren.",
+            "fr": "no es cierto que + subjuntivo : duren.",
+            "pt": "no es cierto que + subjuntivo: duren.",
+            "zh": "no es cierto que + 虚拟式：duren。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "Eso no significa que el ayuntamiento no ",
+          "after": " razón.",
+          "options": [
+            "tenga",
+            "tiene"
+          ],
+          "answer": "tenga",
+          "en": "That doesn't mean the council isn't right.",
+          "it": "Questo non significa che il comune non abbia ragione.",
+          "uk": "Це не означає, що міська рада не має рації.",
+          "de": "Das heißt nicht, dass die Stadt nicht recht hat.",
+          "fr": "Cela ne veut pas dire que la mairie ait tort.",
+          "pt": "Isso não significa que a prefeitura não tenha razão.",
+          "zh": "这并不意味着市政府没有道理。",
+          "hint": {
+            "en": "eso no significa que + subjunctive: tenga.",
+            "it": "eso no significa que + congiuntivo: tenga.",
+            "uk": "eso no significa que + «subjuntivo»: tenga.",
+            "de": "eso no significa que + subjuntivo: tenga.",
+            "fr": "eso no significa que + subjuntivo : tenga.",
+            "pt": "eso no significa que + subjuntivo: tenga.",
+            "zh": "eso no significa que + 虚拟式：tenga。"
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "At a neighbours' meeting, someone says the new bike lane is dangerous. Write in Spanish: «It's not true that the bike lane is dangerous.»",
+            "it": "A una riunione di vicini, qualcuno dice che la nuova pista ciclabile è pericolosa. Scrivi in spagnolo: «Non è vero che la pista ciclabile sia pericolosa.»",
+            "uk": "На зборах мешканців хтось каже, що нова велодоріжка небезпечна. Напиши іспанською: «Неправда, що велодоріжка небезпечна.»",
+            "de": "Bei einer Nachbarschaftsversammlung sagt jemand, der neue Radweg sei gefährlich. Schreib auf Spanisch: «Es ist nicht wahr, dass der Radweg gefährlich ist.»",
+            "fr": "À une réunion de voisins, quelqu'un dit que la nouvelle piste cyclable est dangereuse. Écris en espagnol : «Il n'est pas vrai que la piste cyclable soit dangereuse.»",
+            "pt": "Numa reunião de vizinhos, alguém diz que a nova ciclovia é perigosa. Escreva em espanhol: «Não é verdade que a ciclovia seja perigosa.»",
+            "zh": "在一次邻里会议上，有人说新的自行车道很危险。用西班牙语写：«说自行车道危险，这不是事实。»"
+          },
+          "accepted": [
+            "No es cierto que el carril bici sea peligroso.",
+            "No es verdad que el carril bici sea peligroso."
+          ],
+          "model": {
+            "es": "No es cierto que el carril bici sea peligroso.",
+            "en": "It's not true that the bike lane is dangerous.",
+            "it": "Non è vero che la pista ciclabile sia pericolosa.",
+            "uk": "Неправда, що велодоріжка небезпечна.",
+            "de": "Es ist nicht wahr, dass der Radweg gefährlich ist.",
+            "fr": "Il n'est pas vrai que la piste cyclable soit dangereuse.",
+            "pt": "Não é verdade que a ciclovia seja perigosa.",
+            "zh": "说自行车道危险，这不是事实。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u53l5",
+      "goal": {
+        "en": "Chair a debate: welcome everyone, give someone the floor with tiene la palabra, keep order with le ruego que + the subjunctive, and wrap up with se nos acaba el tiempo, para terminar and muchas gracias a los dos.",
+        "it": "Modera un dibattito: dai il benvenuto, dai la parola a qualcuno con tiene la palabra, mantieni l'ordine con le ruego que + congiuntivo, e chiudi con se nos acaba el tiempo, para terminar e muchas gracias a los dos.",
+        "uk": "Модеруй дебати: привітай усіх, надай комусь слово за допомогою tiene la palabra, підтримуй порядок за допомогою le ruego que + «subjuntivo» і завершуй словами se nos acaba el tiempo, para terminar і muchas gracias a los dos.",
+        "de": "Moderiere eine Debatte: Begrüße alle, erteile jemandem mit tiene la palabra das Wort, sorge mit le ruego que + subjuntivo für Ordnung und schließ mit se nos acaba el tiempo, para terminar und muchas gracias a los dos.",
+        "fr": "Anime un débat : souhaite la bienvenue à tous, donne la parole avec tiene la palabra, maintiens l'ordre avec le ruego que + subjuntivo, et conclus avec se nos acaba el tiempo, para terminar et muchas gracias a los dos.",
+        "pt": "Modere um debate: dê as boas-vindas, passe a palavra a alguém com tiene la palabra, mantenha a ordem com le ruego que + subjuntivo e encerre com se nos acaba el tiempo, para terminar e muchas gracias a los dos.",
+        "zh": "主持一场辩论：欢迎大家，用 tiene la palabra 请某人发言，用 le ruego que + 虚拟式维持秩序，最后用 se nos acaba el tiempo，para terminar 和 muchas gracias a los dos 结束。"
+      },
+      "target": {
+        "es": "Le ruego que no interrumpa. Tiene la palabra la portavoz.",
+        "en": "I'd ask you not to interrupt. The spokeswoman has the floor.",
+        "it": "La prego di non interrompere. La parola alla portavoce.",
+        "uk": "Прошу Вас не перебивати. Слово надається речниці.",
+        "de": "Ich bitte Sie, nicht zu unterbrechen. Das Wort hat die Sprecherin.",
+        "fr": "Je vous prie de ne pas interrompre. La parole est à la porte-parole.",
+        "pt": "Peço ao senhor que não interrompa. A palavra está com a porta-voz.",
+        "zh": "请您不要打断。现在请发言人发言。"
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "moderar",
+              "en": "to chair, to moderate (a debate)",
+              "it": "moderare (un dibattito)",
+              "uk": "модерувати, вести (дебати)",
+              "de": "moderieren, leiten (eine Debatte)",
+              "fr": "animer, modérer (un débat)",
+              "pt": "moderar (um debate)",
+              "zh": "主持（辩论）",
+              "kind": "stem"
+            },
+            {
+              "es": "el debate",
+              "en": "the debate",
+              "it": "il dibattito",
+              "uk": "дебати",
+              "de": "die Debatte",
+              "fr": "le débat",
+              "pt": "o debate",
+              "zh": "辩论",
+              "kind": "chunk"
+            },
+            {
+              "es": "tiene la palabra",
+              "en": "has the floor, over to…",
+              "it": "ha la parola, la parola a…",
+              "uk": "має слово, слово надається…",
+              "de": "hat das Wort, das Wort geht an…",
+              "fr": "a la parole, la parole est à…",
+              "pt": "está com a palavra, a palavra é de…",
+              "zh": "（某人）发言，请……发言",
+              "kind": "chunk"
+            },
+            {
+              "es": "el portavoz / la portavoz",
+              "en": "the spokesman / the spokeswoman",
+              "it": "il portavoce / la portavoce",
+              "uk": "речник / речниця",
+              "de": "der Sprecher / die Sprecherin",
+              "fr": "le porte-parole / la porte-parole",
+              "pt": "o porta-voz / a porta-voz",
+              "zh": "发言人（男 / 女）",
+              "kind": "chunk"
+            },
+            {
+              "es": "los ciclistas",
+              "en": "the cyclists",
+              "it": "i ciclisti",
+              "uk": "велосипедисти",
+              "de": "die Radfahrer",
+              "fr": "les cyclistes",
+              "pt": "os ciclistas",
+              "zh": "骑自行车的人（复数）",
+              "kind": "chunk"
+            }
+          ]
+        },
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "le ruego que…",
+              "en": "I'd ask you to… (usted, + subjunctive)",
+              "it": "La prego di… (+ congiuntivo)",
+              "uk": "прошу Вас… (usted, + «subjuntivo»)",
+              "de": "ich bitte Sie, … (usted, + subjuntivo)",
+              "fr": "je vous prie de… (usted, + subjuntivo)",
+              "pt": "peço ao senhor / à senhora que… (usted, + subjuntivo)",
+              "zh": "我请您……（对 usted 说，+ 虚拟式）",
+              "kind": "chunk"
+            },
+            {
+              "es": "interrumpir",
+              "en": "to interrupt",
+              "it": "interrompere",
+              "uk": "перебивати",
+              "de": "unterbrechen",
+              "fr": "interrompre",
+              "pt": "interromper",
+              "zh": "打断",
+              "kind": "stem"
+            },
+            {
+              "es": "el turno",
+              "en": "the turn",
+              "it": "il turno",
+              "uk": "черга (говорити)",
+              "de": "die Reihe (wer dran ist)",
+              "fr": "le tour (de parole)",
+              "pt": "a vez",
+              "zh": "（发言的）顺序，轮次",
+              "kind": "chunk"
+            },
+            {
+              "es": "breve",
+              "en": "brief, short",
+              "it": "breve",
+              "uk": "стислий, короткий",
+              "de": "kurz",
+              "fr": "bref, court",
+              "pt": "breve, curto",
+              "zh": "简短的",
+              "kind": "chunk"
+            },
+            {
+              "es": "bienvenidos",
+              "en": "welcome (to several people)",
+              "it": "benvenuti",
+              "uk": "ласкаво просимо (кільком людям)",
+              "de": "willkommen (zu mehreren Personen)",
+              "fr": "bienvenue (à plusieurs personnes)",
+              "pt": "bem-vindos (a várias pessoas)",
+              "zh": "欢迎（对几个人说）",
+              "kind": "chunk"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "tiene la palabra",
+              "kind": "chunk"
+            },
+            {
+              "text": "+",
+              "kind": "chunk"
+            },
+            {
+              "text": "la portavoz",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "Open with buenas noches y bienvenidos al debate, then give someone the floor: tiene la palabra + the person. To a guest you call usted: tiene usted la palabra.",
+            "it": "Apri con buenas noches y bienvenidos al debate, poi dai la parola a qualcuno: tiene la palabra + la persona. A un ospite a cui dai del Lei: tiene usted la palabra.",
+            "uk": "Почни з buenas noches y bienvenidos al debate, потім надай комусь слово: tiene la palabra + людина. Гостеві, до якого звертаєшся на «Ви» (usted): tiene usted la palabra.",
+            "de": "Beginne mit buenas noches y bienvenidos al debate, dann erteile jemandem das Wort: tiene la palabra + die Person. Bei einem Gast, den du siezt (usted): tiene usted la palabra.",
+            "fr": "Ouvre avec buenas noches y bienvenidos al debate, puis donne la parole : tiene la palabra + la personne. À un invité que tu vouvoies (usted) : tiene usted la palabra.",
+            "pt": "Abra com buenas noches y bienvenidos al debate e depois passe a palavra a alguém: tiene la palabra + a pessoa. A um convidado que você trata de usted (o senhor / a senhora): tiene usted la palabra.",
+            "zh": "开场说 buenas noches y bienvenidos al debate，然后请某人发言：tiene la palabra + 这个人。对用 usted（您）称呼的嘉宾说：tiene usted la palabra。"
+          },
+          "examples": [
+            {
+              "es": "Buenas noches y bienvenidos al debate.",
+              "en": "Good evening and welcome to the debate.",
+              "it": "Buonasera e benvenuti al dibattito.",
+              "uk": "Добрий вечір і ласкаво просимо на дебати.",
+              "de": "Guten Abend und willkommen zur Debatte.",
+              "fr": "Bonsoir et bienvenue dans ce débat.",
+              "pt": "Boa noite e bem-vindos ao debate.",
+              "zh": "晚上好，欢迎收看本期辩论。"
+            },
+            {
+              "es": "Tiene la palabra la portavoz de los vecinos.",
+              "en": "Over to the residents' spokeswoman.",
+              "it": "La parola alla portavoce dei residenti.",
+              "uk": "Слово надається речниці мешканців.",
+              "de": "Das Wort hat die Sprecherin der Anwohner.",
+              "fr": "La parole est à la porte-parole des habitants.",
+              "pt": "A palavra está com a porta-voz dos moradores.",
+              "zh": "下面请居民发言人发言。"
+            },
+            {
+              "es": "Gracias. Ahora tiene usted la palabra.",
+              "en": "Thank you. Now you have the floor.",
+              "it": "Grazie. Ora la parola a Lei.",
+              "uk": "Дякую. Тепер слово Вам.",
+              "de": "Danke. Jetzt haben Sie das Wort.",
+              "fr": "Merci. À vous maintenant, vous avez la parole.",
+              "pt": "Obrigado. Agora a palavra é do senhor.",
+              "zh": "谢谢。现在请您发言。"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Tiene la ",
+          "after": " el portavoz de los ciclistas.",
+          "options": [
+            "palabra",
+            "turno"
+          ],
+          "answer": "palabra",
+          "en": "Over to the cyclists' spokesman.",
+          "it": "La parola al portavoce dei ciclisti.",
+          "uk": "Слово надається речникові велосипедистів.",
+          "de": "Das Wort hat der Sprecher der Radfahrer.",
+          "fr": "La parole est au porte-parole des cyclistes.",
+          "pt": "A palavra está com o porta-voz dos ciclistas.",
+          "zh": "下面请骑行者发言人发言。",
+          "hint": {
+            "en": "The fixed phrase: tiene la palabra.",
+            "it": "L'espressione fissa: tiene la palabra.",
+            "uk": "Сталий вислів: tiene la palabra.",
+            "de": "Die feste Wendung: tiene la palabra.",
+            "fr": "La formule fixe : tiene la palabra.",
+            "pt": "A expressão fixa: tiene la palabra.",
+            "zh": "固定说法：tiene la palabra。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "You're chairing a debate on the new bike lane. Give the floor to the residents' spokeswoman.",
+            "it": "Stai moderando un dibattito sulla nuova pista ciclabile. Dai la parola alla portavoce dei residenti.",
+            "uk": "Ти модеруєш дебати про нову велодоріжку. Надай слово речниці мешканців.",
+            "de": "Du moderierst eine Debatte über den neuen Radweg. Erteile der Sprecherin der Anwohner das Wort.",
+            "fr": "Tu animes un débat sur la nouvelle piste cyclable. Donne la parole à la porte-parole des habitants.",
+            "pt": "Você está moderando um debate sobre a nova ciclovia. Passe a palavra à porta-voz dos moradores.",
+            "zh": "你在主持一场关于新自行车道的辩论。请居民发言人发言。"
+          },
+          "accepted": [
+            "Tiene la palabra la portavoz de los vecinos.",
+            "La portavoz de los vecinos tiene la palabra."
+          ],
+          "tiles": [
+            "Tiene",
+            "la palabra",
+            "la portavoz",
+            "de los vecinos",
+            "tienes",
+            "el turno"
+          ],
+          "en": "Over to the residents' spokeswoman.",
+          "it": "La parola alla portavoce dei residenti.",
+          "uk": "Слово надається речниці мешканців.",
+          "de": "Das Wort hat die Sprecherin der Anwohner.",
+          "fr": "La parole est à la porte-parole des habitants.",
+          "pt": "A palavra está com a porta-voz dos moradores.",
+          "zh": "下面请居民发言人发言。",
+          "hint": {
+            "en": "tiene la palabra + the person.",
+            "it": "tiene la palabra + la persona.",
+            "uk": "tiene la palabra + людина.",
+            "de": "tiene la palabra + die Person.",
+            "fr": "tiene la palabra + la personne.",
+            "pt": "tiene la palabra + a pessoa.",
+            "zh": "tiene la palabra + 这个人。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "le ruego que",
+              "kind": "chunk"
+            },
+            {
+              "text": "+",
+              "kind": "chunk"
+            },
+            {
+              "text": "sea",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "Le ruego que + the subjunctive is a firm but very polite request: I'd ask you to… To several people: les ruego que.",
+            "it": "Le ruego que + congiuntivo è una richiesta ferma ma molto cortese: La prego di… A più persone: les ruego que.",
+            "uk": "Le ruego que + «subjuntivo» — тверде, але дуже ввічливе прохання: прошу Вас… До кількох людей: les ruego que.",
+            "de": "Le ruego que + subjuntivo ist eine bestimmte, aber sehr höfliche Bitte: Ich bitte Sie, … Zu mehreren Personen: les ruego que.",
+            "fr": "Le ruego que + subjuntivo est une demande ferme mais très polie : je vous prie de… À plusieurs personnes : les ruego que.",
+            "pt": "Le ruego que + subjuntivo é um pedido firme, mas muito educado: peço ao senhor / à senhora que… A várias pessoas: les ruego que (peço aos senhores que…).",
+            "zh": "Le ruego que + 虚拟式是一种坚定但非常礼貌的请求：我请您……。对几个人说：les ruego que。"
+          },
+          "examples": [
+            {
+              "es": "Le ruego que sea breve.",
+              "en": "I'd ask you to be brief.",
+              "it": "La prego di essere breve.",
+              "uk": "Прошу Вас бути стислим(-ою).",
+              "de": "Ich bitte Sie, sich kurz zu fassen.",
+              "fr": "Je vous prie d'être bref.",
+              "pt": "Peço ao senhor que seja breve.",
+              "zh": "请您简短一些。"
+            },
+            {
+              "es": "Le ruego que no interrumpa.",
+              "en": "I'd ask you not to interrupt.",
+              "it": "La prego di non interrompere.",
+              "uk": "Прошу Вас не перебивати.",
+              "de": "Ich bitte Sie, nicht zu unterbrechen.",
+              "fr": "Je vous prie de ne pas interrompre.",
+              "pt": "Peço ao senhor que não interrompa.",
+              "zh": "请您不要打断。"
+            },
+            {
+              "es": "Les ruego que respeten el turno.",
+              "en": "I'd ask you both to wait your turn.",
+              "it": "Vi prego di rispettare il turno.",
+              "uk": "Прошу вас обох дотримуватися черги.",
+              "de": "Ich bitte Sie beide, abzuwarten, bis Sie an der Reihe sind.",
+              "fr": "Je vous prie tous les deux de respecter votre tour de parole.",
+              "pt": "Peço aos senhores que respeitem a vez.",
+              "zh": "请二位按顺序发言。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "ruego",
+              "en": "I ask, I beg (le ruego que…)",
+              "it": "prego, chiedo (le ruego que…)",
+              "uk": "прошу, благаю (le ruego que…)",
+              "de": "ich bitte, ich ersuche (le ruego que…)",
+              "fr": "je prie, je demande (le ruego que…)",
+              "pt": "peço, rogo (le ruego que…)",
+              "zh": "我请求，我恳请（le ruego que…）"
+            },
+            {
+              "es": "interrumpa",
+              "en": "(that) you interrupt (usted): subjunctive of interrumpir",
+              "it": "(che) Lei interrompa: congiuntivo di interrumpir",
+              "uk": "(щоб) Ви перебивали (usted): «subjuntivo» від interrumpir",
+              "de": "(dass) Sie unterbrechen (usted): subjuntivo von interrumpir",
+              "fr": "(que) vous interrompiez (usted) : subjuntivo de interrumpir",
+              "pt": "(que) o senhor / a senhora interrompa (usted): subjuntivo de interrumpir",
+              "zh": "（……）您打断（usted）：interrumpir 的虚拟式"
+            },
+            {
+              "es": "respeten",
+              "en": "(that) you respect (ustedes): subjunctive of respetar",
+              "it": "(che) rispettiate: congiuntivo di respetar",
+              "uk": "(щоб) ви дотримувалися (ustedes): «subjuntivo» від respetar",
+              "de": "(dass) Sie respektieren (ustedes): subjuntivo von respetar",
+              "fr": "(que) vous respectiez (ustedes) : subjuntivo de respetar",
+              "pt": "(que) os senhores respeitem (ustedes): subjuntivo de respetar",
+              "zh": "（……）诸位尊重（ustedes）：respetar 的虚拟式"
+            },
+            {
+              "es": "respetan",
+              "en": "they respect, you respect (ustedes)",
+              "it": "rispettano",
+              "uk": "вони поважають, дотримуються; ви поважаєте (ustedes)",
+              "de": "sie respektieren, Sie respektieren (ustedes)",
+              "fr": "ils / elles respectent, vous respectez (ustedes)",
+              "pt": "respeitam; os senhores respeitam (ustedes)",
+              "zh": "他们尊重，诸位尊重（ustedes）"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Le ruego que ",
+          "after": " breve.",
+          "options": [
+            "sea",
+            "es",
+            "está"
+          ],
+          "answer": "sea",
+          "en": "I'd ask you to be brief.",
+          "it": "La prego di essere breve.",
+          "uk": "Прошу Вас бути стислим(-ою).",
+          "de": "Ich bitte Sie, sich kurz zu fassen.",
+          "fr": "Je vous prie d'être bref.",
+          "pt": "Peço ao senhor que seja breve.",
+          "zh": "请您简短一些。",
+          "hint": {
+            "en": "le ruego que + subjunctive: sea.",
+            "it": "le ruego que + congiuntivo: sea.",
+            "uk": "le ruego que + «subjuntivo»: sea.",
+            "de": "le ruego que + subjuntivo: sea.",
+            "fr": "le ruego que + subjuntivo : sea.",
+            "pt": "le ruego que + subjuntivo: sea.",
+            "zh": "le ruego que + 虚拟式：sea。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "fire",
+          "before": "Por favor, le ruego que no ",
+          "after": ".",
+          "label": "interrumpir",
+          "accepted": [
+            "interrumpa"
+          ],
+          "en": "Please, I'd ask you not to interrupt.",
+          "it": "Per favore, La prego di non interrompere.",
+          "uk": "Будь ласка, прошу Вас не перебивати.",
+          "de": "Bitte, ich bitte Sie, nicht zu unterbrechen.",
+          "fr": "S'il vous plaît, je vous prie de ne pas interrompre.",
+          "pt": "Por favor, peço ao senhor que não interrompa.",
+          "zh": "拜托，请您不要打断。",
+          "hint": {
+            "en": "le ruego que + subjunctive: interrumpa.",
+            "it": "le ruego que + congiuntivo: interrumpa.",
+            "uk": "le ruego que + «subjuntivo»: interrumpa.",
+            "de": "le ruego que + subjuntivo: interrumpa.",
+            "fr": "le ruego que + subjuntivo : interrumpa.",
+            "pt": "le ruego que + subjuntivo: interrumpa.",
+            "zh": "le ruego que + 虚拟式：interrumpa。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "se nos acaba el tiempo",
+              "kind": "chunk"
+            },
+            {
+              "text": "→",
+              "kind": "chunk"
+            },
+            {
+              "text": "para terminar",
+              "kind": "rail"
+            }
+          ],
+          "rule": {
+            "en": "To wrap up, warn that time is running out with se nos acaba el tiempo, ask the last question with para terminar…, and thank the guests: muchas gracias a los dos.",
+            "it": "Per chiudere, avverti che il tempo sta finendo con se nos acaba el tiempo, fai l'ultima domanda con para terminar…, e ringrazia gli ospiti: muchas gracias a los dos.",
+            "uk": "Щоб завершити, попередь, що час спливає, за допомогою se nos acaba el tiempo, постав останнє запитання з para terminar… і подякуй гостям: muchas gracias a los dos.",
+            "de": "Zum Abschluss kündigst du mit se nos acaba el tiempo an, dass die Zeit knapp wird, stellst mit para terminar… die letzte Frage und dankst den Gästen: muchas gracias a los dos.",
+            "fr": "Pour conclure, préviens que le temps file avec se nos acaba el tiempo, pose la dernière question avec para terminar…, et remercie les invités : muchas gracias a los dos.",
+            "pt": "Para encerrar, avise que o tempo está acabando com se nos acaba el tiempo, faça a última pergunta com para terminar… e agradeça aos convidados: muchas gracias a los dos.",
+            "zh": "收尾时，用 se nos acaba el tiempo 提醒时间快到了，用 para terminar… 提出最后一个问题，再感谢嘉宾：muchas gracias a los dos。"
+          },
+          "examples": [
+            {
+              "es": "Se nos acaba el tiempo.",
+              "en": "We're running out of time.",
+              "it": "Il tempo sta per scadere.",
+              "uk": "У нас закінчується час.",
+              "de": "Uns läuft die Zeit davon.",
+              "fr": "Nous arrivons à la fin de notre temps.",
+              "pt": "Nosso tempo está acabando.",
+              "zh": "我们的时间快到了。"
+            },
+            {
+              "es": "Para terminar, una pregunta muy breve.",
+              "en": "To finish, a very short question.",
+              "it": "Per finire, una domanda molto breve.",
+              "uk": "Наостанок — дуже коротке запитання.",
+              "de": "Zum Schluss eine ganz kurze Frage.",
+              "fr": "Pour terminer, une question très courte.",
+              "pt": "Para terminar, uma pergunta bem curta.",
+              "zh": "最后，一个很简短的问题。"
+            },
+            {
+              "es": "Muchas gracias a los dos y buenas noches.",
+              "en": "Thank you both very much, and good night.",
+              "it": "Grazie mille a tutti e due e buonanotte.",
+              "uk": "Щиро дякую вам обом і на добраніч.",
+              "de": "Vielen Dank an Sie beide und gute Nacht.",
+              "fr": "Merci beaucoup à tous les deux, et bonne nuit.",
+              "pt": "Muito obrigado aos dois e boa noite.",
+              "zh": "非常感谢二位，晚安。"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "",
+          "after": " terminar, una pregunta muy breve.",
+          "options": [
+            "Para",
+            "Por"
+          ],
+          "answer": "Para",
+          "en": "To finish, a very short question.",
+          "it": "Per finire, una domanda molto breve.",
+          "uk": "Наостанок — дуже коротке запитання.",
+          "de": "Zum Schluss eine ganz kurze Frage.",
+          "fr": "Pour terminer, une question très courte.",
+          "pt": "Para terminar, uma pergunta bem curta.",
+          "zh": "最后，一个很简短的问题。",
+          "hint": {
+            "en": "para terminar: to finish.",
+            "it": "para terminar: per finire.",
+            "uk": "para terminar: наостанок, на завершення.",
+            "de": "para terminar: zum Schluss.",
+            "fr": "para terminar : pour terminer.",
+            "pt": "para terminar: para terminar.",
+            "zh": "para terminar：最后。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "fire",
+          "before": "Lo siento, se nos acaba el ",
+          "after": ".",
+          "label": "time",
+          "accepted": [
+            "tiempo"
+          ],
+          "en": "I'm sorry, we're running out of time.",
+          "it": "Mi dispiace, il tempo sta per scadere.",
+          "uk": "Перепрошую, у нас закінчується час.",
+          "de": "Tut mir leid, uns läuft die Zeit davon.",
+          "fr": "Je suis désolé, nous arrivons à la fin de notre temps.",
+          "pt": "Sinto muito, nosso tempo está acabando.",
+          "zh": "抱歉，我们的时间快到了。",
+          "hint": {
+            "en": "se nos acaba el tiempo.",
+            "it": "se nos acaba el tiempo.",
+            "uk": "se nos acaba el tiempo.",
+            "de": "se nos acaba el tiempo.",
+            "fr": "se nos acaba el tiempo.",
+            "pt": "se nos acaba el tiempo.",
+            "zh": "se nos acaba el tiempo。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "Les ruego que ",
+          "after": " el turno.",
+          "options": [
+            "respeten",
+            "respetan"
+          ],
+          "answer": "respeten",
+          "en": "I'd ask you both to wait your turn.",
+          "it": "Vi prego di rispettare il turno.",
+          "uk": "Прошу вас обох дотримуватися черги.",
+          "de": "Ich bitte Sie beide, abzuwarten, bis Sie an der Reihe sind.",
+          "fr": "Je vous prie tous les deux de respecter votre tour de parole.",
+          "pt": "Peço aos senhores que respeitem a vez.",
+          "zh": "请二位按顺序发言。",
+          "hint": {
+            "en": "les ruego que + subjunctive: respeten.",
+            "it": "les ruego que + congiuntivo: respeten.",
+            "uk": "les ruego que + «subjuntivo»: respeten.",
+            "de": "les ruego que + subjuntivo: respeten.",
+            "fr": "les ruego que + subjuntivo : respeten.",
+            "pt": "les ruego que + subjuntivo: respeten.",
+            "zh": "les ruego que + 虚拟式：respeten。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "Gracias. Ahora ",
+          "after": " usted la palabra.",
+          "options": [
+            "tiene",
+            "tienes"
+          ],
+          "answer": "tiene",
+          "en": "Thank you. Now you have the floor.",
+          "it": "Grazie. Ora la parola a Lei.",
+          "uk": "Дякую. Тепер слово Вам.",
+          "de": "Danke. Jetzt haben Sie das Wort.",
+          "fr": "Merci. À vous maintenant, vous avez la parole.",
+          "pt": "Obrigado. Agora a palavra é do senhor.",
+          "zh": "谢谢。现在请您发言。",
+          "hint": {
+            "en": "With usted: tiene.",
+            "it": "Con usted: tiene.",
+            "uk": "Із usted: tiene.",
+            "de": "Mit usted (Sie): tiene.",
+            "fr": "Avec usted : tiene.",
+            "pt": "Com usted: tiene.",
+            "zh": "用 usted：tiene。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "mix",
+          "intention": {
+            "en": "Close the debate: thank you both very much, and good night.",
+            "it": "Chiudi il dibattito: grazie mille a tutti e due e buonanotte.",
+            "uk": "Заверши дебати: щиро дякую вам обом і на добраніч.",
+            "de": "Beende die Debatte: Vielen Dank an Sie beide und gute Nacht.",
+            "fr": "Clôture le débat : merci beaucoup à tous les deux, et bonne nuit.",
+            "pt": "Encerre o debate: muito obrigado aos dois e boa noite.",
+            "zh": "结束这场辩论：非常感谢二位，晚安。"
+          },
+          "accepted": [
+            "Muchas gracias a los dos y buenas noches."
+          ],
+          "tiles": [
+            "Muchas gracias",
+            "a los dos",
+            "y buenas noches",
+            "bienvenidos",
+            "tiene"
+          ],
+          "en": "Thank you both very much, and good night.",
+          "it": "Grazie mille a tutti e due e buonanotte.",
+          "uk": "Щиро дякую вам обом і на добраніч.",
+          "de": "Vielen Dank an Sie beide und gute Nacht.",
+          "fr": "Merci beaucoup à tous les deux, et bonne nuit.",
+          "pt": "Muito obrigado aos dois e boa noite.",
+          "zh": "非常感谢二位，晚安。",
+          "hint": {
+            "en": "Thank both guests: muchas gracias a los dos.",
+            "it": "Ringrazia i due ospiti: muchas gracias a los dos.",
+            "uk": "Подякуй обом гостям: muchas gracias a los dos.",
+            "de": "Danke beiden Gästen: muchas gracias a los dos.",
+            "fr": "Remercie les deux invités : muchas gracias a los dos.",
+            "pt": "Agradeça aos dois convidados: muchas gracias a los dos.",
+            "zh": "感谢两位嘉宾：muchas gracias a los dos。"
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "You're chairing a TV debate, and one guest keeps interrupting the residents' spokeswoman. Write in Spanish: «I'd ask you not to interrupt. The spokeswoman has the floor.»",
+            "it": "Stai moderando un dibattito in TV e un ospite continua a interrompere la portavoce dei residenti. Scrivi in spagnolo: «La prego di non interrompere. La parola alla portavoce.»",
+            "uk": "Ти модеруєш телевізійні дебати, і один гість постійно перебиває речницю мешканців. Напиши іспанською: «Прошу Вас не перебивати. Слово надається речниці.»",
+            "de": "Du moderierst eine Fernsehdebatte, und ein Gast unterbricht ständig die Sprecherin der Anwohner. Schreib auf Spanisch: «Ich bitte Sie, nicht zu unterbrechen. Das Wort hat die Sprecherin.»",
+            "fr": "Tu animes un débat télévisé, et un invité n'arrête pas d'interrompre la porte-parole des habitants. Écris en espagnol : «Je vous prie de ne pas interrompre. La parole est à la porte-parole.»",
+            "pt": "Você está moderando um debate na TV, e um convidado não para de interromper a porta-voz dos moradores. Escreva em espanhol: «Peço ao senhor que não interrompa. A palavra está com a porta-voz.»",
+            "zh": "你在主持一场电视辩论，有位嘉宾老是打断居民发言人。用西班牙语写：«请您不要打断。现在请发言人发言。»"
+          },
+          "accepted": [
+            "Le ruego que no interrumpa. Tiene la palabra la portavoz.",
+            "Le ruego que no interrumpa. La portavoz tiene la palabra.",
+            "Le ruego que no interrumpa: tiene la palabra la portavoz.",
+            "Por favor, le ruego que no interrumpa. Tiene la palabra la portavoz."
+          ],
+          "model": {
+            "es": "Le ruego que no interrumpa. Tiene la palabra la portavoz.",
+            "en": "I'd ask you not to interrupt. The spokeswoman has the floor.",
+            "it": "La prego di non interrompere. La parola alla portavoce.",
+            "uk": "Прошу Вас не перебивати. Слово надається речниці.",
+            "de": "Ich bitte Sie, nicht zu unterbrechen. Das Wort hat die Sprecherin.",
+            "fr": "Je vous prie de ne pas interrompre. La parole est à la porte-parole.",
+            "pt": "Peço ao senhor que não interrompa. A palavra está com a porta-voz.",
+            "zh": "请您不要打断。现在请发言人发言。"
+          }
+        }
+      ]
+    }
+  ],
+  "boss": {
+    "id": "u53boss",
+    "goal": {
+      "en": "You've been invited onto a live TV debate in {city} about the new bike lane on your street. You're for it; the other guest, whom you call usted, is against it. Answer the moderator, rebut the other guest's arguments and close with a clear message.",
+      "it": "Ti hanno invitato a un dibattito televisivo in diretta a {city} sulla nuova pista ciclabile della tua via. Tu sei a favore; l'altro ospite, a cui dai del Lei, è contrario. Rispondi al moderatore, confuta gli argomenti dell'altro ospite e chiudi con un messaggio chiaro.",
+      "uk": "Тебе запросили на телевізійні дебати в прямому ефірі у місті {city} про нову велодоріжку на твоїй вулиці. Ти — за; інший гість, до якого ти звертаєшся на «Ви» (usted), — проти. Відповідай модераторові, спростовуй аргументи іншого гостя і заверши чітким меседжем.",
+      "de": "Du bist zu einer Live-Fernsehdebatte in {city} über den neuen Radweg in deiner Straße eingeladen. Du bist dafür; der andere Gast, den du siezt (usted), ist dagegen. Antworte dem Moderator, widerlege die Argumente des anderen Gastes und schließ mit einer klaren Botschaft.",
+      "fr": "Tu es invité à un débat télévisé en direct à {city} sur la nouvelle piste cyclable de ta rue. Tu es pour ; l'autre invité, que tu vouvoies (usted), est contre. Réponds à l'animateur, réfute les arguments de l'autre invité et conclus par un message clair.",
+      "pt": "Você foi convidado para um debate ao vivo na TV em {city} sobre a nova ciclovia da sua rua. Você é a favor; o outro convidado, que você trata de usted (o senhor), é contra. Responda ao moderador, rebata os argumentos do outro convidado e encerre com uma mensagem clara.",
+      "zh": "你受邀参加{city}的一场电视直播辩论，话题是你家那条街上的新自行车道。你支持它；另一位嘉宾反对它，你用 usted（您）称呼他。回答主持人的问题，反驳另一位嘉宾的论点，最后传达一个清楚的信息。"
+    },
+    "items": [
+      {
+        "type": "words",
+        "words": [
+          {
+            "es": "en directo",
+            "en": "live (on TV or radio)",
+            "it": "in diretta",
+            "uk": "у прямому ефірі (на телебаченні чи радіо)",
+            "de": "live (im Fernsehen oder Radio)",
+            "fr": "en direct (à la télé ou à la radio)",
+            "pt": "ao vivo (na TV ou no rádio)",
+            "zh": "直播（电视或广播）",
+            "kind": "chunk"
+          },
+          {
+            "es": "el invitado / la invitada",
+            "en": "the guest",
+            "it": "l'ospite",
+            "uk": "гість / гостя",
+            "de": "der Gast (Mann / Frau)",
+            "fr": "l'invité / l'invitée",
+            "pt": "o convidado / a convidada",
+            "zh": "嘉宾，客人（男 / 女）",
+            "kind": "chunk"
+          },
+          {
+            "es": "la mayoría",
+            "en": "most (people), the majority",
+            "it": "la maggior parte, la maggioranza",
+            "uk": "більшість (людей)",
+            "de": "die meisten (Leute), die Mehrheit",
+            "fr": "la plupart (des gens), la majorité",
+            "pt": "a maioria, a maior parte",
+            "zh": "大多数（人）",
+            "kind": "chunk"
+          }
+        ]
+      },
+      {
+        "type": "build",
+        "intention": {
+          "en": "The moderator welcomes you to the programme. Answer: good evening, and thank you for the invitation.",
+          "it": "Il moderatore ti dà il benvenuto nel programma. Rispondi: buonasera e grazie per l'invito.",
+          "uk": "Модератор вітає тебе в програмі. Відповідай: добрий вечір, і дякую за запрошення.",
+          "de": "Der Moderator begrüßt dich in der Sendung. Antworte: Guten Abend, und danke für die Einladung.",
+          "fr": "L'animateur te souhaite la bienvenue dans l'émission. Réponds : bonsoir, et merci pour l'invitation.",
+          "pt": "O moderador dá as boas-vindas a você no programa. Responda: boa noite, e obrigado pelo convite.",
+          "zh": "主持人欢迎你来到节目。回答：晚上好，谢谢邀请。"
+        },
+        "accepted": [
+          "Buenas noches y gracias por la invitación.",
+          "Buenas noches, y gracias por la invitación."
+        ],
+        "tiles": [
+          "Buenas noches",
+          "y gracias",
+          "por la invitación",
+          "para",
+          "bienvenidos"
+        ],
+        "en": "Good evening, and thank you for the invitation.",
+        "it": "Buonasera e grazie per l'invito.",
+        "uk": "Добрий вечір, і дякую за запрошення.",
+        "de": "Guten Abend, und danke für die Einladung.",
+        "fr": "Bonsoir, et merci pour l'invitation.",
+        "pt": "Boa noite, e obrigado pelo convite.",
+        "zh": "晚上好，谢谢邀请。",
+        "hint": {
+          "en": "gracias por + a noun.",
+          "it": "gracias por + un nome.",
+          "uk": "gracias por + іменник.",
+          "de": "gracias por + ein Nomen.",
+          "fr": "gracias por + un nom.",
+          "pt": "gracias por + um substantivo.",
+          "zh": "gracias por + 名词。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "Gracias. Para mí, no es ",
+        "after": " un carril bici: es una ciudad mejor.",
+        "options": [
+          "solo",
+          "tan"
+        ],
+        "answer": "solo",
+        "en": "Thank you. For me, it's not just a bike lane: it's a better city.",
+        "it": "Grazie. Per me non è solo una pista ciclabile: è una città migliore.",
+        "uk": "Дякую. Для мене це не просто велодоріжка: це краще місто.",
+        "de": "Danke. Für mich ist er nicht nur ein Radweg: Er ist eine bessere Stadt.",
+        "fr": "Merci. Pour moi, ce n'est pas seulement une piste cyclable : c'est une ville meilleure.",
+        "pt": "Obrigado. Para mim, não é só uma ciclovia: é uma cidade melhor.",
+        "zh": "谢谢。对我来说，它不只是一条自行车道：它意味着一座更好的城市。",
+        "hint": {
+          "en": "no es solo…: es…",
+          "it": "no es solo…: es…",
+          "uk": "no es solo…: es…",
+          "de": "no es solo…: es…",
+          "fr": "no es solo…: es…",
+          "pt": "no es solo…: es…",
+          "zh": "no es solo…: es…"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "No es cierto que el carril bici ",
+        "after": " peligroso para los niños.",
+        "options": [
+          "sea",
+          "es"
+        ],
+        "answer": "sea",
+        "en": "It's not true that the bike lane is dangerous for children.",
+        "it": "Non è vero che la pista ciclabile sia pericolosa per i bambini.",
+        "uk": "Неправда, що велодоріжка небезпечна для дітей.",
+        "de": "Es ist nicht wahr, dass der Radweg für Kinder gefährlich ist.",
+        "fr": "Il n'est pas vrai que la piste cyclable soit dangereuse pour les enfants.",
+        "pt": "Não é verdade que a ciclovia seja perigosa para as crianças.",
+        "zh": "说自行车道对孩子们很危险，这不是事实。",
+        "hint": {
+          "en": "no es cierto que + subjunctive: sea.",
+          "it": "no es cierto que + congiuntivo: sea.",
+          "uk": "no es cierto que + «subjuntivo»: sea.",
+          "de": "no es cierto que + subjuntivo: sea.",
+          "fr": "no es cierto que + subjuntivo : sea.",
+          "pt": "no es cierto que + subjuntivo: sea.",
+          "zh": "no es cierto que + 虚拟式：sea。"
+        }
+      },
+      {
+        "type": "gap",
+        "before": "Es verdad que las obras son molestas. ",
+        "after": " bien, solo duran dos meses.",
+        "label": "that said",
+        "accepted": [
+          "Ahora"
+        ],
+        "en": "It's true that the works are a nuisance. That said, they only last two months.",
+        "it": "È vero che i lavori danno fastidio. Detto questo, durano solo due mesi.",
+        "uk": "Правда, що роботи дратують. Утім, вони тривають лише два місяці.",
+        "de": "Es stimmt, dass die Bauarbeiten lästig sind. Allerdings dauern sie nur zwei Monate.",
+        "fr": "Il est vrai que les travaux sont gênants. Cela dit, ils ne durent que deux mois.",
+        "pt": "É verdade que as obras incomodam. Dito isso, só duram dois meses.",
+        "zh": "施工确实扰民。话虽如此，只持续两个月。",
+        "hint": {
+          "en": "Accept, then object: ahora bien.",
+          "it": "Accetta, poi obietta: ahora bien.",
+          "uk": "Погодься, потім заперечи: ahora bien.",
+          "de": "Zugeben, dann widersprechen: ahora bien.",
+          "fr": "Concède, puis objecte : ahora bien.",
+          "pt": "Aceite e depois objete: ahora bien.",
+          "zh": "先认可，再反驳：ahora bien。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "Cabe ",
+        "after": " que en otras ciudades funciona muy bien.",
+        "options": [
+          "señalar",
+          "señalo"
+        ],
+        "answer": "señalar",
+        "en": "It's worth pointing out that in other cities it works very well.",
+        "it": "Va sottolineato che in altre città funziona molto bene.",
+        "uk": "Варто зазначити, що в інших містах це дуже добре працює.",
+        "de": "Es sei darauf hingewiesen, dass es in anderen Städten sehr gut funktioniert.",
+        "fr": "Il convient de signaler que dans d'autres villes, ça marche très bien.",
+        "pt": "Vale ressaltar que em outras cidades funciona muito bem.",
+        "zh": "值得指出的是，在其他城市它的效果非常好。",
+        "hint": {
+          "en": "The fixed phrase: cabe señalar que.",
+          "it": "L'espressione fissa: cabe señalar que.",
+          "uk": "Сталий вислів: cabe señalar que.",
+          "de": "Die feste Wendung: cabe señalar que.",
+          "fr": "La formule fixe : cabe señalar que.",
+          "pt": "A expressão fixa: cabe señalar que.",
+          "zh": "固定说法：cabe señalar que。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "Habrá menos coches, pero eso no significa que ",
+        "after": " que cerrar la calle.",
+        "options": [
+          "tengamos",
+          "tenemos"
+        ],
+        "answer": "tengamos",
+        "en": "There'll be fewer cars, but that doesn't mean we have to close the street.",
+        "it": "Ci saranno meno macchine, ma questo non significa che dobbiamo chiudere la strada.",
+        "uk": "Автомобілів стане менше, але це не означає, що ми мусимо перекрити вулицю.",
+        "de": "Es wird weniger Autos geben, aber das heißt nicht, dass wir die Straße sperren müssen.",
+        "fr": "Il y aura moins de voitures, mais cela ne veut pas dire que nous devions fermer la rue.",
+        "pt": "Vai haver menos carros, mas isso não significa que tenhamos que fechar a rua.",
+        "zh": "汽车会变少，但这并不意味着我们得封路。",
+        "hint": {
+          "en": "eso no significa que + subjunctive: tengamos.",
+          "it": "eso no significa que + congiuntivo: tengamos.",
+          "uk": "eso no significa que + «subjuntivo»: tengamos.",
+          "de": "eso no significa que + subjuntivo: tengamos.",
+          "fr": "eso no significa que + subjuntivo : tengamos.",
+          "pt": "eso no significa que + subjuntivo: tengamos.",
+          "zh": "eso no significa que + 虚拟式：tengamos。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "Usted dice que cuesta demasiado, pero según ",
+        "after": " municipales, cuesta menos de un millón.",
+        "options": [
+          "fuentes",
+          "prensa"
+        ],
+        "answer": "fuentes",
+        "en": "You say it costs too much, but according to council sources, it costs less than a million.",
+        "it": "Lei dice che costa troppo, ma secondo fonti comunali costa meno di un milione.",
+        "uk": "Ви кажете, що це коштує надто дорого, але за даними джерел у міській раді, це коштує менше мільйона.",
+        "de": "Sie sagen, er kostet zu viel, aber laut Quellen aus dem Rathaus kostet er weniger als eine Million.",
+        "fr": "Vous dites que ça coûte trop cher, mais selon des sources municipales, ça coûte moins d'un million.",
+        "pt": "O senhor diz que custa caro demais, mas, segundo fontes da prefeitura, custa menos de um milhão.",
+        "zh": "您说它花费太大，但据市政府消息人士透露，它的花费不到一百万。",
+        "hint": {
+          "en": "según fuentes + an adjective: según fuentes municipales.",
+          "it": "según fuentes + aggettivo: según fuentes municipales.",
+          "uk": "según fuentes + прикметник: según fuentes municipales.",
+          "de": "según fuentes + ein Adjektiv: según fuentes municipales.",
+          "fr": "según fuentes + un adjectif : según fuentes municipales.",
+          "pt": "según fuentes + um adjetivo: según fuentes municipales.",
+          "zh": "según fuentes + 形容词：según fuentes municipales。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "Usted habla del «",
+        "after": " carril bici», pero la mayoría de los vecinos está a favor.",
+        "options": [
+          "polémico",
+          "presunto"
+        ],
+        "answer": "polémico",
+        "en": "You talk about «the controversial bike lane», but most residents are in favour.",
+        "it": "Lei parla della «controversa pista ciclabile», ma la maggior parte dei residenti è a favore.",
+        "uk": "Ви говорите про «скандальну велодоріжку», але більшість мешканців — за.",
+        "de": "Sie sprechen vom «umstrittenen Radweg», aber die meisten Anwohner sind dafür.",
+        "fr": "Vous parlez de «la piste cyclable controversée», mais la plupart des habitants sont pour.",
+        "pt": "O senhor fala da «polêmica ciclovia», mas a maioria dos moradores é a favor.",
+        "zh": "您说的是“备受争议的自行车道”，但大多数居民是支持的。",
+        "hint": {
+          "en": "People disagree: polémico. Presunto is for what hasn't been proved.",
+          "it": "La gente non è d'accordo: polémico. Presunto è per ciò che non è provato.",
+          "uk": "Люди не згодні: polémico. Presunto — для того, що не доведено.",
+          "de": "Die Leute sind uneinig: polémico. Presunto ist für das, was nicht bewiesen ist.",
+          "fr": "Les gens ne sont pas d'accord : polémico. Presunto, c'est pour ce qui n'est pas prouvé.",
+          "pt": "As pessoas não concordam: polémico. Presunto é para o que não foi provado.",
+          "zh": "大家意见不一：polémico。Presunto 用于尚未证明的事。"
+        }
+      },
+      {
+        "type": "build",
+        "intention": {
+          "en": "The other guest interrupts you. Say to him, politely but firmly: excuse me, may I finish?",
+          "it": "L'altro ospite ti interrompe. Digli, con garbo ma con fermezza: mi scusi, mi lascia finire?",
+          "uk": "Інший гість тебе перебиває. Скажи йому ввічливо, але твердо: перепрошую, Ви дозволите мені договорити?",
+          "de": "Der andere Gast unterbricht dich. Sag ihm höflich, aber bestimmt: Entschuldigen Sie, darf ich ausreden?",
+          "fr": "L'autre invité te coupe la parole. Dis-lui, poliment mais fermement : excusez-moi, vous me laissez terminer ?",
+          "pt": "O outro convidado interrompe você. Diga a ele, com educação, mas com firmeza: com licença, o senhor me deixa terminar?",
+          "zh": "另一位嘉宾打断了你。礼貌而坚定地对他说：对不起，能让我说完吗？"
+        },
+        "accepted": [
+          "Perdone, ¿me deja terminar?",
+          "Disculpe, ¿me deja terminar?"
+        ],
+        "tiles": [
+          "Perdone,",
+          "¿me deja",
+          "terminar?",
+          "dejas",
+          "perdona"
+        ],
+        "en": "Excuse me, may I finish?",
+        "it": "Mi scusi, mi lascia finire?",
+        "uk": "Перепрошую, Ви дозволите мені договорити?",
+        "de": "Entschuldigen Sie, darf ich ausreden?",
+        "fr": "Excusez-moi, vous me laissez terminer ?",
+        "pt": "Com licença, o senhor me deixa terminar?",
+        "zh": "对不起，能让我说完吗？",
+        "hint": {
+          "en": "He's usted: perdone and deja.",
+          "it": "Gli dai del Lei: perdone e deja.",
+          "uk": "До нього ти звертаєшся на «Ви» (usted): perdone і deja.",
+          "de": "Du siezt ihn (usted): perdone und deja.",
+          "fr": "Tu le vouvoies (usted) : perdone et deja.",
+          "pt": "Ele é usted (o senhor): perdone e deja.",
+          "zh": "对他用 usted：perdone 和 deja。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "",
+        "after": ", el carril bici iba a ser malo para las tiendas, y las tiendas venden más.",
+        "options": [
+          "Supuestamente",
+          "Cabe señalar"
+        ],
+        "answer": "Supuestamente",
+        "en": "Supposedly, the bike lane was going to be bad for the shops, and the shops are selling more.",
+        "it": "In teoria la pista ciclabile doveva essere un male per i negozi, e i negozi vendono di più.",
+        "uk": "Нібито велодоріжка мала зашкодити крамницям, а крамниці продають більше.",
+        "de": "Angeblich sollte der Radweg schlecht für die Geschäfte sein, und die Geschäfte verkaufen mehr.",
+        "fr": "Soi-disant, la piste cyclable allait nuire aux commerces, et les commerces vendent davantage.",
+        "pt": "Em tese, a ciclovia ia ser ruim para as lojas, e as lojas estão vendendo mais.",
+        "zh": "按说，自行车道会对商店不利，可商店的生意反而更好了。",
+        "hint": {
+          "en": "What they said and didn't happen: supuestamente.",
+          "it": "Quello che dicevano e non è successo: supuestamente.",
+          "uk": "Те, що казали, а воно не сталося: supuestamente.",
+          "de": "Was sie sagten und nicht passiert ist: supuestamente.",
+          "fr": "Ce qu'on a dit et qui ne s'est pas produit : supuestamente.",
+          "pt": "O que diziam e não aconteceu: supuestamente.",
+          "zh": "说过却没有发生的事：supuestamente。"
+        }
+      },
+      {
+        "type": "gap",
+        "before": "Al ",
+        "after": ", usted no ha leído el proyecto.",
+        "label": "apparently",
+        "accepted": [
+          "parecer"
+        ],
+        "en": "Apparently, you haven't read the project.",
+        "it": "A quanto pare, Lei non ha letto il progetto.",
+        "uk": "Схоже, Ви не читали проєкту.",
+        "de": "Anscheinend haben Sie das Projekt nicht gelesen.",
+        "fr": "Apparemment, vous n'avez pas lu le projet.",
+        "pt": "Ao que parece, o senhor não leu o projeto.",
+        "zh": "看来，您没有读过这个项目方案。",
+        "hint": {
+          "en": "al parecer: apparently.",
+          "it": "al parecer: a quanto pare.",
+          "uk": "al parecer: схоже, начебто.",
+          "de": "al parecer: anscheinend.",
+          "fr": "al parecer : apparemment.",
+          "pt": "al parecer: ao que parece.",
+          "zh": "al parecer：看来。"
+        }
+      },
+      {
+        "type": "write",
+        "instruction": {
+          "en": "The moderator gives you the last word. Write in Spanish: «To finish: it's not true that the bike lane is bad for the shops.»",
+          "it": "Il moderatore ti dà l'ultima parola. Scrivi in spagnolo: «Per finire: non è vero che la pista ciclabile sia un male per i negozi.»",
+          "uk": "Модератор дає тобі останнє слово. Напиши іспанською: «Наостанок: неправда, що велодоріжка шкодить крамницям.»",
+          "de": "Der Moderator gibt dir das letzte Wort. Schreib auf Spanisch: «Zum Schluss: Es ist nicht wahr, dass der Radweg schlecht für die Geschäfte ist.»",
+          "fr": "L'animateur te donne le dernier mot. Écris en espagnol : «Pour terminer : il n'est pas vrai que la piste cyclable soit mauvaise pour les commerces.»",
+          "pt": "O moderador dá a você a última palavra. Escreva em espanhol: «Para terminar: não é verdade que a ciclovia seja ruim para as lojas.»",
+          "zh": "主持人请你做最后发言。用西班牙语写：«最后：说自行车道对商店不利，这不是事实。»"
+        },
+        "accepted": [
+          "Para terminar, no es cierto que el carril bici sea malo para las tiendas.",
+          "Para terminar: no es cierto que el carril bici sea malo para las tiendas.",
+          "Para terminar, no es verdad que el carril bici sea malo para las tiendas."
+        ],
+        "model": {
+          "es": "Para terminar, no es cierto que el carril bici sea malo para las tiendas.",
+          "en": "To finish: it's not true that the bike lane is bad for the shops.",
+          "it": "Per finire: non è vero che la pista ciclabile sia un male per i negozi.",
+          "uk": "Наостанок: неправда, що велодоріжка шкодить крамницям.",
+          "de": "Zum Schluss: Es ist nicht wahr, dass der Radweg schlecht für die Geschäfte ist.",
+          "fr": "Pour terminer, il n'est pas vrai que la piste cyclable soit mauvaise pour les commerces.",
+          "pt": "Para terminar: não é verdade que a ciclovia seja ruim para as lojas.",
+          "zh": "最后：说自行车道对商店不利，这不是事实。"
+        }
+      }
+    ]
+  }
+}

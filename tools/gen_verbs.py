@@ -30,15 +30,16 @@ FULL = {
     "freír": ["frío", "fríes", "fríe", "freímos", "freís", "fríen"],
     "dar": ["doy", "das", "da", "damos", "dais", "dan"],
     "ver": ["veo", "ves", "ve", "vemos", "veis", "ven"],
+    "ampliar": ["amplío", "amplías", "amplía", "ampliamos", "ampliáis", "amplían"],
     "construir": ["construyo", "construyes", "construye", "construimos", "construís", "construyen"],
 }
 
 # Stem changes in the stressed forms (yo, tú, él, ellos).
 STEM_CHANGE = {
     "ie": "querer preferir pensar empezar cerrar entender fregar perder sentir nevar recomendar "
-          "sentar encender despertar tener venir detener".split(),
+          "sentar encender despertar tener venir detener sostener".split(),
     "ue": "jugar poder volver costar dormir devolver probar aprobar encontrar doler soler sonar contar acostar llover".split(),
-    "i": "pedir repetir servir vestir seguir decir elegir".split(),
+    "i": "pedir repetir servir vestir seguir conseguir decir elegir".split(),
 }
 
 # Irregular yo forms.
@@ -47,6 +48,7 @@ YO = {
     "saber": "sé", "conducir": "conduzco", "decir": "digo", "venir": "vengo", "coger": "cojo",
     "seguir": "sigo", "nacer": "nazco", "crecer": "crezco", "caer": "caigo", "parecer": "parezco",
     "proponer": "propongo", "tener": "tengo", "detener": "detengo", "elegir": "elijo",
+    "sostener": "sostengo", "conseguir": "consigo",
 }
 
 # Infinitives whose gloss does not start with "to" (can, should).
@@ -63,7 +65,7 @@ LIKE = {
 # Verbs used only in some persons (weather, "me duele", "se acaba").
 ONLY = {
     "llover": ["el"], "nevar": ["el"], "gustar": ["el", "ellos"], "encantar": ["el", "ellos"],
-    "doler": ["el", "ellos"], "importar": ["el", "ellos"], "acabarse": ["el", "ellos"],
+    "doler": ["el", "ellos"], "importar": ["el", "ellos"], "preocupar": ["el", "ellos"], "acabarse": ["el", "ellos"],
 }
 
 
@@ -90,6 +92,8 @@ def present(lemma):
             forms.append(s + ending)
         if base in YO:
             forms[0] = YO[base]
+        elif base.endswith(("ecer", "ocer", "ucir")) and base != "cocer":
+            forms[0] = base[:-3] + "zco"  # ofrecer → ofrezco, reducir → reduzco
     split = []
     for p, form in enumerate(forms):
         ending = endings[p]

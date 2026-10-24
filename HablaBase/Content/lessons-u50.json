@@ -1,0 +1,3321 @@
+{
+  "unit": "u50",
+  "lessons": [
+    {
+      "id": "u50l1",
+      "goal": {
+        "en": "Give a presentation with a clear structure: open with hoy voy a hablar de… and el objetivo de esta presentación es…, move on with a continuación and en cuanto a…, and close with para terminar and gracias por su atención.",
+        "it": "Fai una presentazione con una struttura chiara: apri con hoy voy a hablar de… ed el objetivo de esta presentación es…, vai avanti con a continuación ed en cuanto a…, e chiudi con para terminar e gracias por su atención.",
+        "uk": "Проведи презентацію з чіткою структурою: почни з hoy voy a hablar de… і el objetivo de esta presentación es…, переходь далі за допомогою a continuación і en cuanto a…, а заверши за допомогою para terminar і gracias por su atención.",
+        "de": "Halte eine Präsentation mit einer klaren Struktur: Beginne mit hoy voy a hablar de… und el objetivo de esta presentación es…, mach weiter mit a continuación und en cuanto a… und schließe mit para terminar und gracias por su atención.",
+        "fr": "Fais une présentation bien structurée : commence par hoy voy a hablar de… et el objetivo de esta presentación es…, avance avec a continuación et en cuanto a…, et termine par para terminar et gracias por su atención.",
+        "pt": "Faça uma apresentação com uma estrutura clara: abra com hoy voy a hablar de… e el objetivo de esta presentación es…, avance com a continuación e en cuanto a…, e feche com para terminar e gracias por su atención.",
+        "zh": "做一个结构清晰的演讲：用 hoy voy a hablar de… 和 el objetivo de esta presentación es… 开场，用 a continuación 和 en cuanto a… 往下推进，用 para terminar 和 gracias por su atención 结束。"
+      },
+      "target": {
+        "es": "En cuanto al presupuesto, es más bajo que el año pasado.",
+        "en": "As for the budget, it's lower than last year.",
+        "it": "Per quanto riguarda il budget, è più basso dell'anno scorso.",
+        "uk": "Щодо бюджету, він нижчий, ніж торік.",
+        "de": "Was das Budget betrifft, ist es niedriger als im letzten Jahr.",
+        "fr": "Quant au budget, il est plus bas que l'année dernière.",
+        "pt": "Quanto ao orçamento, é mais baixo do que no ano passado.",
+        "zh": "至于预算，比去年低。"
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "la presentación",
+              "en": "the presentation",
+              "it": "la presentazione",
+              "uk": "презентація",
+              "de": "die Präsentation",
+              "fr": "la présentation",
+              "pt": "a apresentação",
+              "zh": "演讲，展示，报告",
+              "kind": "chunk"
+            },
+            {
+              "es": "a continuación",
+              "en": "next, now (moving on)",
+              "it": "di seguito, ora (passando oltre)",
+              "uk": "далі, тепер (переходячи до наступного)",
+              "de": "als Nächstes, nun (zum nächsten Punkt)",
+              "fr": "ensuite, à présent (pour passer à la suite)",
+              "pt": "a seguir, agora (passando adiante)",
+              "zh": "接下来，下面",
+              "kind": "rail"
+            },
+            {
+              "es": "en cuanto a",
+              "en": "as for, regarding",
+              "it": "per quanto riguarda",
+              "uk": "щодо, що стосується",
+              "de": "was … betrifft, bezüglich",
+              "fr": "quant à, en ce qui concerne",
+              "pt": "quanto a, em relação a",
+              "zh": "至于，关于",
+              "kind": "rail"
+            },
+            {
+              "es": "la atención",
+              "en": "the attention",
+              "it": "l'attenzione",
+              "uk": "увага",
+              "de": "die Aufmerksamkeit",
+              "fr": "l'attention",
+              "pt": "a atenção",
+              "zh": "注意，关注",
+              "kind": "chunk"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "hoy voy a hablar de…",
+              "kind": "chunk"
+            },
+            {
+              "text": "·",
+              "kind": "chunk"
+            },
+            {
+              "text": "el objetivo es…",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "Open a presentation by saying what it's about: hoy voy a hablar de… or el objetivo de esta presentación es… + infinitive. Greet everyone first: buenos días a todos.",
+            "it": "Apri una presentazione dicendo di che cosa parla: hoy voy a hablar de… o el objetivo de esta presentación es… + infinito. Prima saluta tutti: buenos días a todos.",
+            "uk": "Починай презентацію з того, про що вона: hoy voy a hablar de… або el objetivo de esta presentación es… + інфінітив. Спершу привітайся з усіма: buenos días a todos.",
+            "de": "Beginne eine Präsentation, indem du sagst, worum es geht: hoy voy a hablar de… oder el objetivo de esta presentación es… + Infinitiv. Begrüße vorher alle: buenos días a todos.",
+            "fr": "Commence une présentation en disant de quoi elle parle : hoy voy a hablar de… ou el objetivo de esta presentación es… + infinitif. Salue d'abord tout le monde : buenos días a todos.",
+            "pt": "Abra uma apresentação dizendo do que ela trata: hoy voy a hablar de… ou el objetivo de esta presentación es… + infinitivo. Antes, cumprimente todo mundo: buenos días a todos.",
+            "zh": "开场时说明主题：hoy voy a hablar de… 或 el objetivo de esta presentación es… + 动词原形。先向大家问好：buenos días a todos。"
+          },
+          "examples": [
+            {
+              "es": "Buenos días a todos. Hoy voy a hablar de nuestro proyecto.",
+              "en": "Good morning, everyone. Today I'm going to talk about our project.",
+              "it": "Buongiorno a tutti. Oggi parlerò del nostro progetto.",
+              "uk": "Доброго ранку всім. Сьогодні я розповім про наш проєкт.",
+              "de": "Guten Morgen zusammen. Heute spreche ich über unser Projekt.",
+              "fr": "Bonjour à tous. Aujourd'hui, je vais parler de notre projet.",
+              "pt": "Bom dia a todos. Hoje vou falar sobre o nosso projeto.",
+              "zh": "大家早上好。今天我要讲讲我们的项目。"
+            },
+            {
+              "es": "El objetivo de esta presentación es explicar el presupuesto.",
+              "en": "The aim of this presentation is to explain the budget.",
+              "it": "L'obiettivo di questa presentazione è spiegare il budget.",
+              "uk": "Мета цієї презентації — пояснити бюджет.",
+              "de": "Das Ziel dieser Präsentation ist es, das Budget zu erklären.",
+              "fr": "L'objectif de cette présentation est d'expliquer le budget.",
+              "pt": "O objetivo desta apresentação é explicar o orçamento.",
+              "zh": "这次演讲的目的是说明预算。"
+            },
+            {
+              "es": "Primero, voy a hablar del horario.",
+              "en": "First, I'm going to talk about the schedule.",
+              "it": "Prima di tutto, parlerò del calendario.",
+              "uk": "Спочатку я розповім про графік.",
+              "de": "Zuerst spreche ich über den Zeitplan.",
+              "fr": "D'abord, je vais parler du calendrier.",
+              "pt": "Primeiro, vou falar sobre o cronograma.",
+              "zh": "首先，我要讲讲时间安排。"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Buenos días a todos. Hoy voy a ",
+          "after": " de nuestro nuevo proyecto.",
+          "options": [
+            "hablar",
+            "hablo",
+            "hablando"
+          ],
+          "answer": "hablar",
+          "en": "Good morning, everyone. Today I'm going to talk about our new project.",
+          "it": "Buongiorno a tutti. Oggi parlerò del nostro nuovo progetto.",
+          "uk": "Доброго ранку всім. Сьогодні я розповім про наш новий проєкт.",
+          "de": "Guten Morgen zusammen. Heute spreche ich über unser neues Projekt.",
+          "fr": "Bonjour à tous. Aujourd'hui, je vais parler de notre nouveau projet.",
+          "pt": "Bom dia a todos. Hoje vou falar sobre o nosso novo projeto.",
+          "zh": "大家早上好。今天我要讲讲我们的新项目。",
+          "hint": {
+            "en": "voy a + infinitive: voy a hablar.",
+            "it": "voy a + infinito: voy a hablar.",
+            "uk": "voy a + інфінітив: voy a hablar.",
+            "de": "voy a + Infinitiv: voy a hablar.",
+            "fr": "voy a + infinitif : voy a hablar.",
+            "pt": "voy a + infinitivo: voy a hablar.",
+            "zh": "voy a + 动词原形：voy a hablar。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "You're starting a presentation for some clients. Say: the aim of this presentation is to explain the budget.",
+            "it": "Stai iniziando una presentazione per alcuni clienti. Di': l'obiettivo di questa presentazione è spiegare il budget.",
+            "uk": "Ти починаєш презентацію для клієнтів. Скажи: мета цієї презентації — пояснити бюджет.",
+            "de": "Du beginnst eine Präsentation vor einigen Kunden. Sag: Das Ziel dieser Präsentation ist es, das Budget zu erklären.",
+            "fr": "Tu commences une présentation devant des clients. Dis : l'objectif de cette présentation est d'expliquer le budget.",
+            "pt": "Você está começando uma apresentação para alguns clientes. Diga: o objetivo desta apresentação é explicar o orçamento.",
+            "zh": "你正要给几位客户做演讲。说：这次演讲的目的是说明预算。"
+          },
+          "accepted": [
+            "El objetivo de esta presentación es explicar el presupuesto."
+          ],
+          "tiles": [
+            "El objetivo",
+            "de esta",
+            "presentación",
+            "es explicar",
+            "el presupuesto",
+            "este",
+            "explico"
+          ],
+          "en": "The aim of this presentation is to explain the budget.",
+          "it": "L'obiettivo di questa presentazione è spiegare il budget.",
+          "uk": "Мета цієї презентації — пояснити бюджет.",
+          "de": "Das Ziel dieser Präsentation ist es, das Budget zu erklären.",
+          "fr": "L'objectif de cette présentation est d'expliquer le budget.",
+          "pt": "O objetivo desta apresentação é explicar o orçamento.",
+          "zh": "这次演讲的目的是说明预算。",
+          "hint": {
+            "en": "el objetivo es + infinitive: es explicar.",
+            "it": "el objetivo es + infinito: es explicar.",
+            "uk": "el objetivo es + інфінітив: es explicar.",
+            "de": "el objetivo es + Infinitiv: es explicar.",
+            "fr": "el objetivo es + infinitif : es explicar.",
+            "pt": "el objetivo es + infinitivo: es explicar.",
+            "zh": "el objetivo es + 动词原形：es explicar。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "a continuación",
+              "kind": "rail"
+            },
+            {
+              "text": "·",
+              "kind": "chunk"
+            },
+            {
+              "text": "en cuanto a",
+              "kind": "rail"
+            }
+          ],
+          "rule": {
+            "en": "To move to the next part, say a continuación (next). To start a new topic, say en cuanto a + the topic (a + el = al), then a comma.",
+            "it": "Per passare alla parte successiva, di' a continuación (di seguito). Per cominciare un nuovo argomento, di' en cuanto a + l'argomento (a + el = al), poi una virgola.",
+            "uk": "Щоб перейти до наступної частини, скажи a continuación (далі). Щоб почати нову тему, скажи en cuanto a + тема (a + el = al), а потім кома.",
+            "de": "Um zum nächsten Teil überzugehen, sagst du a continuación (als Nächstes). Um ein neues Thema zu beginnen, sagst du en cuanto a + das Thema (a + el = al), dann ein Komma.",
+            "fr": "Pour passer à la partie suivante, dis a continuación (ensuite). Pour aborder un nouveau sujet, dis en cuanto a + le sujet (a + el = al), puis une virgule.",
+            "pt": "Para passar à parte seguinte, diga a continuación (a seguir). Para começar um assunto novo, diga en cuanto a + o assunto (a + el = al) e depois uma vírgula.",
+            "zh": "进入下一部分时，说 a continuación（接下来）。开始一个新话题时，说 en cuanto a + 话题（a + el = al），后面加逗号。"
+          },
+          "examples": [
+            {
+              "es": "A continuación, les explico el presupuesto.",
+              "en": "Next, I'll explain the budget to you.",
+              "it": "Di seguito, vi spiego il budget.",
+              "uk": "Далі я поясню вам бюджет.",
+              "de": "Als Nächstes erkläre ich Ihnen das Budget.",
+              "fr": "Ensuite, je vais vous expliquer le budget.",
+              "pt": "A seguir, explico o orçamento aos senhores.",
+              "zh": "接下来，我向各位说明预算。"
+            },
+            {
+              "es": "En cuanto al horario, empezamos en mayo.",
+              "en": "As for the schedule, we start in May.",
+              "it": "Per quanto riguarda il calendario, cominciamo a maggio.",
+              "uk": "Щодо графіка, ми починаємо в травні.",
+              "de": "Was den Zeitplan betrifft: Wir beginnen im Mai.",
+              "fr": "Quant au calendrier, nous commençons en mai.",
+              "pt": "Quanto ao cronograma, começamos em maio.",
+              "zh": "至于时间安排，我们五月开始。"
+            },
+            {
+              "es": "En cuanto a la oferta, es muy buena.",
+              "en": "As for the offer, it's very good.",
+              "it": "Per quanto riguarda l'offerta, è molto buona.",
+              "uk": "Щодо пропозиції, вона дуже добра.",
+              "de": "Was das Angebot betrifft, ist es sehr gut.",
+              "fr": "Quant à l'offre, elle est très bonne.",
+              "pt": "Quanto à oferta, é muito boa.",
+              "zh": "至于这个报价，非常好。"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "En cuanto ",
+          "after": " horario, empezamos en septiembre.",
+          "options": [
+            "al",
+            "a la",
+            "de"
+          ],
+          "answer": "al",
+          "en": "As for the schedule, we start in September.",
+          "it": "Per quanto riguarda il calendario, cominciamo a settembre.",
+          "uk": "Щодо графіка, ми починаємо у вересні.",
+          "de": "Was den Zeitplan betrifft: Wir beginnen im September.",
+          "fr": "Quant au calendrier, nous commençons en septembre.",
+          "pt": "Quanto ao cronograma, começamos em setembro.",
+          "zh": "至于时间安排，我们九月开始。",
+          "hint": {
+            "en": "horario is masculine: a + el = al.",
+            "it": "horario è maschile: a + el = al.",
+            "uk": "horario — чоловічого роду: a + el = al.",
+            "de": "horario ist männlich: a + el = al.",
+            "fr": "horario est masculin : a + el = al.",
+            "pt": "horario é masculino: a + el = al.",
+            "zh": "horario 是阳性：a + el = al。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "You've finished the first part of your presentation. Move on and tell the audience: next, I'll explain the schedule to you.",
+            "it": "Hai finito la prima parte della presentazione. Passa oltre e di' al pubblico: di seguito, vi spiego il calendario.",
+            "uk": "Ти завершив(-ла) першу частину презентації. Перейди далі й скажи слухачам: далі я поясню вам графік.",
+            "de": "Du hast den ersten Teil deiner Präsentation beendet. Geh zum nächsten Teil über und sag dem Publikum: Als Nächstes erkläre ich Ihnen den Zeitplan.",
+            "fr": "Tu as fini la première partie de ta présentation. Passe à la suite et dis au public : ensuite, je vais vous expliquer le calendrier.",
+            "pt": "Você terminou a primeira parte da sua apresentação. Passe adiante e diga ao público: a seguir, explico o cronograma aos senhores.",
+            "zh": "你已经讲完了演讲的第一部分。往下推进，对听众说：接下来，我向各位说明时间安排。"
+          },
+          "accepted": [
+            "A continuación, les explico el horario.",
+            "A continuación, os explico el horario."
+          ],
+          "tiles": [
+            "A continuación,",
+            "les explico",
+            "el horario",
+            "en cuanto",
+            "explicar"
+          ],
+          "en": "Next, I'll explain the schedule to you.",
+          "it": "Di seguito, vi spiego il calendario.",
+          "uk": "Далі я поясню вам графік.",
+          "de": "Als Nächstes erkläre ich Ihnen den Zeitplan.",
+          "fr": "Ensuite, je vais vous expliquer le calendrier.",
+          "pt": "A seguir, explico o cronograma aos senhores.",
+          "zh": "接下来，我向各位说明时间安排。",
+          "hint": {
+            "en": "Moving on: a continuación.",
+            "it": "Per passare oltre: a continuación.",
+            "uk": "Переходиш далі: a continuación.",
+            "de": "Zum nächsten Teil: a continuación.",
+            "fr": "Pour passer à la suite : a continuación.",
+            "pt": "Para passar adiante: a continuación.",
+            "zh": "进入下一部分：a continuación。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "para terminar",
+              "kind": "rail"
+            },
+            {
+              "text": "·",
+              "kind": "chunk"
+            },
+            {
+              "text": "gracias por su atención",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "To close, say para terminar (to finish) and give your main idea. Then thank the audience, muchas gracias por su atención, and ask ¿tienen alguna pregunta?",
+            "it": "Per chiudere, di' para terminar (per finire) e dai la tua idea principale. Poi ringrazia il pubblico, muchas gracias por su atención, e chiedi ¿tienen alguna pregunta?",
+            "uk": "Щоб завершити, скажи para terminar (на завершення) і дай свою головну думку. Потім подякуй слухачам — muchas gracias por su atención — і спитай ¿tienen alguna pregunta?",
+            "de": "Zum Abschluss sagst du para terminar (zum Schluss) und nennst deine Hauptaussage. Dann dankst du dem Publikum, muchas gracias por su atención, und fragst ¿tienen alguna pregunta?",
+            "fr": "Pour conclure, dis para terminar (pour terminer) et donne ton idée principale. Ensuite, remercie le public, muchas gracias por su atención, et demande ¿tienen alguna pregunta?",
+            "pt": "Para fechar, diga para terminar e dê a sua ideia principal. Depois agradeça ao público, muchas gracias por su atención, e pergunte ¿tienen alguna pregunta?",
+            "zh": "结束时，说 para terminar（最后），并给出你的主要观点。然后感谢听众：muchas gracias por su atención，再问 ¿tienen alguna pregunta?"
+          },
+          "examples": [
+            {
+              "es": "Para terminar, el proyecto es caro, pero necesario.",
+              "en": "To finish, the project is expensive, but necessary.",
+              "it": "Per finire, il progetto è caro, ma necessario.",
+              "uk": "На завершення: проєкт дорогий, але потрібний.",
+              "de": "Zum Schluss: Das Projekt ist teuer, aber notwendig.",
+              "fr": "Pour terminer, le projet est cher, mais nécessaire.",
+              "pt": "Para terminar, o projeto é caro, mas necessário.",
+              "zh": "最后，这个项目很贵，但很必要。"
+            },
+            {
+              "es": "Muchas gracias por su atención.",
+              "en": "Thank you very much for your attention.",
+              "it": "Grazie mille per l'attenzione.",
+              "uk": "Щиро дякую за вашу увагу.",
+              "de": "Vielen Dank für Ihre Aufmerksamkeit.",
+              "fr": "Merci beaucoup de votre attention.",
+              "pt": "Muito obrigado pela sua atenção.",
+              "zh": "非常感谢各位的聆听。"
+            },
+            {
+              "es": "¿Tienen alguna pregunta?",
+              "en": "Do you have any questions?",
+              "it": "Avete qualche domanda?",
+              "uk": "У вас є запитання?",
+              "de": "Haben Sie Fragen?",
+              "fr": "Avez-vous des questions ?",
+              "pt": "Os senhores têm alguma pergunta?",
+              "zh": "各位有什么问题吗？"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Muchas gracias por su ",
+          "after": ".",
+          "options": [
+            "atención",
+            "atentamente"
+          ],
+          "answer": "atención",
+          "en": "Thank you very much for your attention.",
+          "it": "Grazie mille per l'attenzione.",
+          "uk": "Щиро дякую за вашу увагу.",
+          "de": "Vielen Dank für Ihre Aufmerksamkeit.",
+          "fr": "Merci beaucoup de votre attention.",
+          "pt": "Muito obrigado pela sua atenção.",
+          "zh": "非常感谢各位的聆听。",
+          "hint": {
+            "en": "After su you need the noun: atención.",
+            "it": "Dopo su serve il nome: atención.",
+            "uk": "Після su потрібен іменник: atención.",
+            "de": "Nach su brauchst du das Nomen: atención.",
+            "fr": "Après su, il faut le nom : atención.",
+            "pt": "Depois de su você precisa do substantivo: atención.",
+            "zh": "su 后面要用名词：atención。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "You've reached the end of your presentation. Say: thank you very much for your attention. Do you have any questions?",
+            "it": "Sei arrivato alla fine della presentazione. Di': grazie mille per l'attenzione. Avete qualche domanda?",
+            "uk": "Ти дійшов(-ла) до кінця презентації. Скажи: щиро дякую за вашу увагу. У вас є запитання?",
+            "de": "Du bist am Ende deiner Präsentation angekommen. Sag: Vielen Dank für Ihre Aufmerksamkeit. Haben Sie Fragen?",
+            "fr": "Tu arrives à la fin de ta présentation. Dis : merci beaucoup de votre attention. Avez-vous des questions ?",
+            "pt": "Você chegou ao fim da sua apresentação. Diga: muito obrigado pela sua atenção. Os senhores têm alguma pergunta?",
+            "zh": "你的演讲到了尾声。说：非常感谢各位的聆听。各位有什么问题吗？"
+          },
+          "accepted": [
+            "Muchas gracias por su atención. ¿Tienen alguna pregunta?",
+            "Gracias por su atención. ¿Tienen alguna pregunta?"
+          ],
+          "tiles": [
+            "Muchas gracias",
+            "por su",
+            "atención.",
+            "¿Tienen",
+            "alguna pregunta?",
+            "tu",
+            "tenéis"
+          ],
+          "en": "Thank you very much for your attention. Do you have any questions?",
+          "it": "Grazie mille per l'attenzione. Avete qualche domanda?",
+          "uk": "Щиро дякую за вашу увагу. У вас є запитання?",
+          "de": "Vielen Dank für Ihre Aufmerksamkeit. Haben Sie Fragen?",
+          "fr": "Merci beaucoup de votre attention. Avez-vous des questions ?",
+          "pt": "Muito obrigado pela sua atenção. Os senhores têm alguma pergunta?",
+          "zh": "非常感谢各位的聆听。各位有什么问题吗？",
+          "hint": {
+            "en": "To an audience, formally: su atención, ¿tienen…?",
+            "it": "A un pubblico, in modo formale: su atención, ¿tienen…?",
+            "uk": "До аудиторії, офіційно: su atención, ¿tienen…?",
+            "de": "Zu einem Publikum, formell: su atención, ¿tienen…?",
+            "fr": "À un public, de façon formelle : su atención, ¿tienen…?",
+            "pt": "Para um público, de modo formal: su atención, ¿tienen…?",
+            "zh": "对听众用正式说法：su atención，¿tienen…?"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "mix",
+          "before": "En cuanto ",
+          "after": " presupuesto, es más bajo que el año pasado.",
+          "label": "a + el",
+          "accepted": [
+            "al"
+          ],
+          "en": "As for the budget, it's lower than last year.",
+          "it": "Per quanto riguarda il budget, è più basso dell'anno scorso.",
+          "uk": "Щодо бюджету, він нижчий, ніж торік.",
+          "de": "Was das Budget betrifft, ist es niedriger als im letzten Jahr.",
+          "fr": "Quant au budget, il est plus bas que l'année dernière.",
+          "pt": "Quanto ao orçamento, é mais baixo do que no ano passado.",
+          "zh": "至于预算，比去年低。",
+          "hint": {
+            "en": "a + el = al.",
+            "it": "a + el = al.",
+            "uk": "a + el = al.",
+            "de": "a + el = al.",
+            "fr": "a + el = al.",
+            "pt": "a + el = al.",
+            "zh": "a + el = al。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "El ",
+          "after": " de esta presentación es explicar el nuevo horario.",
+          "options": [
+            "objetivo",
+            "atención",
+            "cuanto"
+          ],
+          "answer": "objetivo",
+          "en": "The aim of this presentation is to explain the new schedule.",
+          "it": "L'obiettivo di questa presentazione è spiegare il nuovo calendario.",
+          "uk": "Мета цієї презентації — пояснити новий графік.",
+          "de": "Das Ziel dieser Präsentation ist es, den neuen Zeitplan zu erklären.",
+          "fr": "L'objectif de cette présentation est d'expliquer le nouveau calendrier.",
+          "pt": "O objetivo desta apresentação é explicar o novo cronograma.",
+          "zh": "这次演讲的目的是说明新的时间安排。",
+          "hint": {
+            "en": "el objetivo de esta presentación: the aim.",
+            "it": "el objetivo de esta presentación: l'obiettivo.",
+            "uk": "el objetivo de esta presentación: мета.",
+            "de": "el objetivo de esta presentación: das Ziel.",
+            "fr": "el objetivo de esta presentación : l'objectif.",
+            "pt": "el objetivo de esta presentación: o objetivo.",
+            "zh": "el objetivo de esta presentación：目的。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "mix",
+          "intention": {
+            "en": "You're opening a presentation at a conference. Say: good morning, everyone. Today I'm going to talk about our company.",
+            "it": "Stai aprendo una presentazione a un convegno. Di': buongiorno a tutti. Oggi parlerò della nostra azienda.",
+            "uk": "Ти відкриваєш презентацію на конференції. Скажи: доброго ранку всім. Сьогодні я розповім про нашу компанію.",
+            "de": "Du eröffnest eine Präsentation auf einer Konferenz. Sag: Guten Morgen zusammen. Heute spreche ich über unser Unternehmen.",
+            "fr": "Tu ouvres une présentation lors d'un congrès. Dis : bonjour à tous. Aujourd'hui, je vais parler de notre entreprise.",
+            "pt": "Você está abrindo uma apresentação num congresso. Diga: bom dia a todos. Hoje vou falar sobre a nossa empresa.",
+            "zh": "你在一次会议上开始做演讲。说：大家早上好。今天我要讲讲我们公司。"
+          },
+          "accepted": [
+            "Buenos días a todos. Hoy voy a hablar de nuestra empresa."
+          ],
+          "tiles": [
+            "Buenos días",
+            "a todos.",
+            "Hoy voy a",
+            "hablar de",
+            "nuestra empresa",
+            "hablo",
+            "nuestro"
+          ],
+          "en": "Good morning, everyone. Today I'm going to talk about our company.",
+          "it": "Buongiorno a tutti. Oggi parlerò della nostra azienda.",
+          "uk": "Доброго ранку всім. Сьогодні я розповім про нашу компанію.",
+          "de": "Guten Morgen zusammen. Heute spreche ich über unser Unternehmen.",
+          "fr": "Bonjour à tous. Aujourd'hui, je vais parler de notre entreprise.",
+          "pt": "Bom dia a todos. Hoje vou falar sobre a nossa empresa.",
+          "zh": "大家早上好。今天我要讲讲我们公司。",
+          "hint": {
+            "en": "hoy voy a hablar de + the topic.",
+            "it": "hoy voy a hablar de + l'argomento.",
+            "uk": "hoy voy a hablar de + тема.",
+            "de": "hoy voy a hablar de + das Thema.",
+            "fr": "hoy voy a hablar de + le sujet.",
+            "pt": "hoy voy a hablar de + o assunto.",
+            "zh": "hoy voy a hablar de + 话题。"
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "You're presenting the budget to the managers of your company. Write in Spanish: «As for the budget, it's lower than last year. Thank you for your attention.»",
+            "it": "Stai presentando il budget ai dirigenti della tua azienda. Scrivi in spagnolo: «Per quanto riguarda il budget, è più basso dell'anno scorso. Grazie per l'attenzione.»",
+            "uk": "Ти представляєш бюджет керівникам своєї компанії. Напиши іспанською: «Щодо бюджету, він нижчий, ніж торік. Дякую за вашу увагу.»",
+            "de": "Du präsentierst der Geschäftsleitung deiner Firma das Budget. Schreib auf Spanisch: «Was das Budget betrifft, ist es niedriger als im letzten Jahr. Danke für Ihre Aufmerksamkeit.»",
+            "fr": "Tu présentes le budget aux cadres de ton entreprise. Écris en espagnol : «Quant au budget, il est plus bas que l'année dernière. Merci de votre attention.»",
+            "pt": "Você está apresentando o orçamento para os gerentes da sua empresa. Escreva em espanhol: «Quanto ao orçamento, é mais baixo do que no ano passado. Obrigado pela sua atenção.»",
+            "zh": "你在向公司的管理层介绍预算。用西班牙语写：«至于预算，比去年低。感谢各位的聆听。»"
+          },
+          "accepted": [
+            "En cuanto al presupuesto, es más bajo que el año pasado. Gracias por su atención.",
+            "En cuanto al presupuesto, es más bajo que el año pasado. Muchas gracias por su atención.",
+            "En cuanto al presupuesto, es más bajo que el del año pasado. Gracias por su atención.",
+            "En cuanto al presupuesto, es más bajo que el año pasado. Gracias por vuestra atención."
+          ],
+          "model": {
+            "es": "En cuanto al presupuesto, es más bajo que el año pasado. Gracias por su atención.",
+            "en": "As for the budget, it's lower than last year. Thank you for your attention.",
+            "it": "Per quanto riguarda il budget, è più basso dell'anno scorso. Grazie per l'attenzione.",
+            "uk": "Щодо бюджету, він нижчий, ніж торік. Дякую за вашу увагу.",
+            "de": "Was das Budget betrifft, ist es niedriger als im letzten Jahr. Danke für Ihre Aufmerksamkeit.",
+            "fr": "Quant au budget, il est plus bas que l'année dernière. Merci de votre attention.",
+            "pt": "Quanto ao orçamento, é mais baixo do que no ano passado. Obrigado pela sua atenção.",
+            "zh": "至于预算，比去年低。感谢各位的聆听。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u50l2",
+      "goal": {
+        "en": "Negotiate with clients: make an offer with nuestra propuesta es… and les ofrecemos…, set conditions with si + present and siempre que + subjunctive, and answer politely: me temo que no podemos… or es una propuesta razonable.",
+        "it": "Negozia con dei clienti: fai un'offerta con nuestra propuesta es… e les ofrecemos…, poni condizioni con si + presente e siempre que + congiuntivo, e rispondi con cortesia: me temo que no podemos… o es una propuesta razonable.",
+        "uk": "Веди переговори з клієнтами: роби пропозицію за допомогою nuestra propuesta es… і les ofrecemos…, став умови через si + теперішній час і siempre que + «subjuntivo», і відповідай ввічливо: me temo que no podemos… або es una propuesta razonable.",
+        "de": "Verhandle mit Kunden: Mach ein Angebot mit nuestra propuesta es… und les ofrecemos…, stell Bedingungen mit si + Präsens und siempre que + subjuntivo (spanischer Konjunktiv) und antworte höflich: me temo que no podemos… oder es una propuesta razonable.",
+        "fr": "Négocie avec des clients : fais une offre avec nuestra propuesta es… et les ofrecemos…, pose des conditions avec si + présent et siempre que + subjuntivo, et réponds poliment : me temo que no podemos… ou es una propuesta razonable.",
+        "pt": "Negocie com clientes: faça uma oferta com nuestra propuesta es… e les ofrecemos…, ponha condições com si + presente e siempre que + subjuntivo, e responda com educação: me temo que no podemos… ou es una propuesta razonable.",
+        "zh": "和客户谈判：用 nuestra propuesta es… 和 les ofrecemos… 提出报价，用 si + 现在时 和 siempre que + 虚拟式 提出条件，再礼貌地回应：me temo que no podemos… 或 es una propuesta razonable。"
+      },
+      "target": {
+        "es": "Les ofrecemos un descuento siempre que firmen este mes.",
+        "en": "We can offer you a discount as long as you sign this month.",
+        "it": "Vi offriamo uno sconto, purché firmiate questo mese.",
+        "uk": "Ми можемо запропонувати вам знижку за умови, що ви підпишете цього місяця.",
+        "de": "Wir bieten Ihnen einen Rabatt an, vorausgesetzt, Sie unterschreiben diesen Monat.",
+        "fr": "Nous vous proposons une remise à condition que vous signiez ce mois-ci.",
+        "pt": "Oferecemos aos senhores um desconto, desde que assinem este mês.",
+        "zh": "只要各位这个月签约，我们可以给各位打折。"
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "la propuesta",
+              "en": "the proposal",
+              "it": "la proposta",
+              "uk": "пропозиція",
+              "de": "der Vorschlag",
+              "fr": "la proposition",
+              "pt": "a proposta",
+              "zh": "提议，方案",
+              "kind": "chunk"
+            },
+            {
+              "es": "el precio",
+              "en": "the price",
+              "it": "il prezzo",
+              "uk": "ціна",
+              "de": "der Preis",
+              "fr": "le prix",
+              "pt": "o preço",
+              "zh": "价格",
+              "kind": "chunk"
+            },
+            {
+              "es": "el descuento",
+              "en": "the discount",
+              "it": "lo sconto",
+              "uk": "знижка",
+              "de": "der Rabatt",
+              "fr": "la remise, la réduction",
+              "pt": "o desconto",
+              "zh": "折扣",
+              "kind": "chunk"
+            },
+            {
+              "es": "ofrecer",
+              "en": "to offer",
+              "it": "offrire",
+              "uk": "пропонувати",
+              "de": "anbieten",
+              "fr": "offrir, proposer",
+              "pt": "oferecer",
+              "zh": "提供，给予",
+              "kind": "stem"
+            },
+            {
+              "es": "razonable",
+              "en": "reasonable",
+              "it": "ragionevole",
+              "uk": "розумний, слушний",
+              "de": "angemessen, vernünftig",
+              "fr": "raisonnable",
+              "pt": "razoável",
+              "zh": "合理的",
+              "kind": "chunk"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "nuestra propuesta es…",
+              "kind": "chunk"
+            },
+            {
+              "text": "·",
+              "kind": "chunk"
+            },
+            {
+              "text": "les ofrecemos…",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "Make an offer with nuestra propuesta es… or les ofrecemos… (we offer you). With clients, use les for ustedes and le for usted.",
+            "it": "Fai un'offerta con nuestra propuesta es… o les ofrecemos… (vi offriamo). Con i clienti, usa les per ustedes e le per usted.",
+            "uk": "Роби пропозицію за допомогою nuestra propuesta es… або les ofrecemos… (ми пропонуємо вам). З клієнтами вживай les для ustedes і le для usted.",
+            "de": "Mach ein Angebot mit nuestra propuesta es… oder les ofrecemos… (wir bieten Ihnen). Bei Kunden verwendest du les für ustedes und le für usted – beides ist im Deutschen „Ihnen“.",
+            "fr": "Fais une offre avec nuestra propuesta es… ou les ofrecemos… (nous vous proposons). Avec des clients, utilise les pour ustedes et le pour usted : en français, c'est vous dans les deux cas.",
+            "pt": "Faça uma oferta com nuestra propuesta es… ou les ofrecemos… (oferecemos aos senhores). Com clientes, use les para ustedes e le para usted.",
+            "zh": "用 nuestra propuesta es… 或 les ofrecemos…（我们向您们提供）提出报价。对客户，ustedes 用 les，usted 用 le。"
+          },
+          "examples": [
+            {
+              "es": "Nuestra propuesta es empezar en junio.",
+              "en": "Our proposal is to start in June.",
+              "it": "La nostra proposta è cominciare a giugno.",
+              "uk": "Наша пропозиція — почати в червні.",
+              "de": "Unser Vorschlag ist, im Juni zu beginnen.",
+              "fr": "Notre proposition est de commencer en juin.",
+              "pt": "A nossa proposta é começar em junho.",
+              "zh": "我们的提议是六月开始。"
+            },
+            {
+              "es": "Les ofrecemos un descuento de cien euros.",
+              "en": "We can offer you a discount of a hundred euros.",
+              "it": "Vi offriamo uno sconto di cento euro.",
+              "uk": "Ми можемо запропонувати вам знижку в сто євро.",
+              "de": "Wir bieten Ihnen einen Rabatt von hundert Euro an.",
+              "fr": "Nous vous proposons une remise de cent euros.",
+              "pt": "Oferecemos aos senhores um desconto de cem euros.",
+              "zh": "我们可以给各位一百欧元的折扣。"
+            },
+            {
+              "es": "Le ofrecemos un precio más bajo.",
+              "en": "We can offer you a lower price.",
+              "it": "Le offriamo un prezzo più basso.",
+              "uk": "Ми можемо запропонувати Вам нижчу ціну.",
+              "de": "Wir bieten Ihnen einen niedrigeren Preis an.",
+              "fr": "Nous vous proposons un prix plus bas.",
+              "pt": "Oferecemos ao senhor um preço mais baixo.",
+              "zh": "我们可以给您一个更低的价格。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "ofrecemos",
+              "en": "we offer",
+              "it": "(noi) offriamo",
+              "uk": "ми пропонуємо",
+              "de": "wir bieten an",
+              "fr": "nous offrons, nous proposons",
+              "pt": "(nós) oferecemos",
+              "zh": "我们提供"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Nuestra ",
+          "after": " es empezar el proyecto en junio.",
+          "options": [
+            "propuesta",
+            "precio",
+            "descuento"
+          ],
+          "answer": "propuesta",
+          "en": "Our proposal is to start the project in June.",
+          "it": "La nostra proposta è cominciare il progetto a giugno.",
+          "uk": "Наша пропозиція — почати проєкт у червні.",
+          "de": "Unser Vorschlag ist, das Projekt im Juni zu beginnen.",
+          "fr": "Notre proposition est de commencer le projet en juin.",
+          "pt": "A nossa proposta é começar o projeto em junho.",
+          "zh": "我们的提议是六月启动这个项目。",
+          "hint": {
+            "en": "nuestra is feminine: la propuesta.",
+            "it": "nuestra è femminile: la propuesta.",
+            "uk": "nuestra — жіночого роду: la propuesta.",
+            "de": "nuestra ist weiblich: la propuesta.",
+            "fr": "nuestra est féminin : la propuesta.",
+            "pt": "nuestra é feminino: la propuesta.",
+            "zh": "nuestra 是阴性：la propuesta。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "fire",
+          "before": "Les ",
+          "after": " un descuento de cien euros.",
+          "label": "ofrecer (nosotros)",
+          "accepted": [
+            "ofrecemos"
+          ],
+          "en": "We can offer you a discount of a hundred euros.",
+          "it": "Vi offriamo uno sconto di cento euro.",
+          "uk": "Ми можемо запропонувати вам знижку в сто євро.",
+          "de": "Wir bieten Ihnen einen Rabatt von hundert Euro an.",
+          "fr": "Nous vous proposons une remise de cent euros.",
+          "pt": "Oferecemos aos senhores um desconto de cem euros.",
+          "zh": "我们可以给各位一百欧元的折扣。",
+          "hint": {
+            "en": "nosotros: ofrecemos.",
+            "it": "nosotros: ofrecemos.",
+            "uk": "nosotros: ofrecemos.",
+            "de": "nosotros: ofrecemos.",
+            "fr": "nosotros : ofrecemos.",
+            "pt": "nosotros: ofrecemos.",
+            "zh": "nosotros：ofrecemos。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "si",
+              "kind": "rail"
+            },
+            {
+              "text": "+",
+              "kind": "chunk"
+            },
+            {
+              "text": "firman",
+              "kind": "stem"
+            },
+            {
+              "text": "·",
+              "kind": "chunk"
+            },
+            {
+              "text": "siempre que",
+              "kind": "rail"
+            },
+            {
+              "text": "+",
+              "kind": "chunk"
+            },
+            {
+              "text": "firmen",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "Set a condition with si + the present (si firman hoy…) or, more firmly, siempre que + the subjunctive (siempre que firmen hoy…).",
+            "it": "Poni una condizione con si + il presente (si firman hoy…) o, in modo più deciso, siempre que + il congiuntivo (siempre que firmen hoy…).",
+            "uk": "Став умову через si + теперішній час (si firman hoy…) або, твердіше, через siempre que + «subjuntivo» (siempre que firmen hoy…).",
+            "de": "Stell eine Bedingung mit si + Präsens (si firman hoy…) oder, nachdrücklicher, mit siempre que + subjuntivo (siempre que firmen hoy…). Im Deutschen bleibt beides Indikativ: wenn Sie / vorausgesetzt, Sie unterschreiben.",
+            "fr": "Pose une condition avec si + le présent (si firman hoy…) ou, de façon plus ferme, avec siempre que + le subjuntivo (siempre que firmen hoy…), comme à condition que + subjonctif en français.",
+            "pt": "Ponha uma condição com si + presente (si firman hoy…) ou, de forma mais firme, com siempre que + subjuntivo (siempre que firmen hoy…). Atenção: aqui siempre que quer dizer «desde que», não «sempre que». E depois de si o espanhol usa o presente, onde o português usa o futuro do subjuntivo: si firman hoy = se assinarem hoje.",
+            "zh": "提出条件可以用 si + 普通的现在时（si firman hoy…），或者用更坚定的 siempre que + 虚拟式（siempre que firmen hoy…）。"
+          },
+          "examples": [
+            {
+              "es": "Si firman hoy, les ofrecemos un descuento.",
+              "en": "If you sign today, we'll offer you a discount.",
+              "it": "Se firmate oggi, vi offriamo uno sconto.",
+              "uk": "Якщо ви підпишете сьогодні, ми запропонуємо вам знижку.",
+              "de": "Wenn Sie heute unterschreiben, bieten wir Ihnen einen Rabatt an.",
+              "fr": "Si vous signez aujourd'hui, nous vous proposons une remise.",
+              "pt": "Se os senhores assinarem hoje, nós lhes oferecemos um desconto.",
+              "zh": "如果各位今天签约，我们就给各位打折。"
+            },
+            {
+              "es": "Les hacemos un descuento siempre que firmen este mes.",
+              "en": "We'll give you a discount as long as you sign this month.",
+              "it": "Vi facciamo uno sconto, purché firmiate questo mese.",
+              "uk": "Ми зробимо вам знижку за умови, що ви підпишете цього місяця.",
+              "de": "Wir geben Ihnen einen Rabatt, vorausgesetzt, Sie unterschreiben diesen Monat.",
+              "fr": "Nous vous faisons une remise à condition que vous signiez ce mois-ci.",
+              "pt": "Damos um desconto aos senhores, desde que assinem este mês.",
+              "zh": "只要各位这个月签约，我们就给各位打折。"
+            },
+            {
+              "es": "Podemos bajar el precio si pagan ahora.",
+              "en": "We can lower the price if you pay now.",
+              "it": "Possiamo abbassare il prezzo se pagate adesso.",
+              "uk": "Ми можемо знизити ціну, якщо ви заплатите зараз.",
+              "de": "Wir können den Preis senken, wenn Sie jetzt bezahlen.",
+              "fr": "Nous pouvons baisser le prix si vous payez maintenant.",
+              "pt": "Podemos baixar o preço se os senhores pagarem agora.",
+              "zh": "如果各位现在付款，我们可以降价。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "firman",
+              "en": "you sign (ustedes); they sign",
+              "it": "(voi, formale) firmate; (loro) firmano",
+              "uk": "ви підписуєте (ustedes); вони підписують",
+              "de": "Sie unterschreiben (ustedes); sie unterschreiben",
+              "fr": "vous signez (ustedes) ; ils signent",
+              "pt": "os senhores assinam (ustedes); eles assinam",
+              "zh": "您们签（ustedes）；他们签"
+            },
+            {
+              "es": "firmen",
+              "en": "(that) you sign (ustedes): subjunctive",
+              "it": "(che voi, formale) firmiate: congiuntivo",
+              "uk": "(щоб) ви підписали (ustedes): «subjuntivo»",
+              "de": "(dass) Sie unterschreiben (ustedes): subjuntivo",
+              "fr": "(que) vous signiez (ustedes) : subjuntivo",
+              "pt": "(que) os senhores assinem (ustedes): subjuntivo",
+              "zh": "（让/只要）您们签（ustedes）：虚拟式"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Les hacemos un descuento siempre que ",
+          "after": " el contrato este mes.",
+          "options": [
+            "firmen",
+            "firman",
+            "firmar"
+          ],
+          "answer": "firmen",
+          "en": "We'll give you a discount as long as you sign the contract this month.",
+          "it": "Vi facciamo uno sconto, purché firmiate il contratto questo mese.",
+          "uk": "Ми зробимо вам знижку за умови, що ви підпишете договір цього місяця.",
+          "de": "Wir geben Ihnen einen Rabatt, vorausgesetzt, Sie unterschreiben den Vertrag diesen Monat.",
+          "fr": "Nous vous faisons une remise à condition que vous signiez le contrat ce mois-ci.",
+          "pt": "Damos um desconto aos senhores, desde que assinem o contrato este mês.",
+          "zh": "只要各位这个月签合同，我们就给各位打折。",
+          "hint": {
+            "en": "siempre que as a condition takes the subjunctive: firmen.",
+            "it": "siempre que come condizione vuole il congiuntivo: firmen.",
+            "uk": "siempre que як умова вимагає «subjuntivo»: firmen.",
+            "de": "siempre que als Bedingung verlangt den subjuntivo: firmen.",
+            "fr": "siempre que comme condition demande le subjuntivo : firmen.",
+            "pt": "siempre que como condição pede o subjuntivo: firmen.",
+            "zh": "siempre que 表示条件时用虚拟式：firmen。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "fire",
+          "before": "Si ",
+          "after": " hoy, podemos bajar el precio.",
+          "options": [
+            "pagan",
+            "paguen",
+            "pagar"
+          ],
+          "answer": "pagan",
+          "en": "If you pay today, we can lower the price.",
+          "it": "Se pagate oggi, possiamo abbassare il prezzo.",
+          "uk": "Якщо ви заплатите сьогодні, ми можемо знизити ціну.",
+          "de": "Wenn Sie heute bezahlen, können wir den Preis senken.",
+          "fr": "Si vous payez aujourd'hui, nous pouvons baisser le prix.",
+          "pt": "Se os senhores pagarem hoje, podemos baixar o preço.",
+          "zh": "如果各位今天付款，我们可以降价。",
+          "hint": {
+            "en": "si takes the normal present: pagan.",
+            "it": "si vuole il presente normale: pagan.",
+            "uk": "si вимагає звичайного теперішнього часу: pagan.",
+            "de": "si steht mit dem normalen Präsens: pagan.",
+            "fr": "si demande le présent normal, comme en français : pagan.",
+            "pt": "Depois de si vai o presente normal (não o futuro do subjuntivo do português): pagan.",
+            "zh": "si 后面用普通的现在时：pagan。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "me temo que no",
+              "kind": "chunk"
+            },
+            {
+              "text": "·",
+              "kind": "chunk"
+            },
+            {
+              "text": "es razonable",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "To say no to an offer, soften it: me temo que no podemos aceptar… To say yes: es una propuesta razonable. To counter, ask ¿qué le parece si…? + the present.",
+            "it": "Per dire di no a un'offerta, ammorbidisci: me temo que no podemos aceptar… Per dire di sì: es una propuesta razonable. Per controbattere, chiedi ¿qué le parece si…? + il presente.",
+            "uk": "Щоб відмовитися від пропозиції, пом'якши відмову: me temo que no podemos aceptar… Щоб погодитися: es una propuesta razonable. Щоб зробити зустрічну пропозицію, спитай ¿qué le parece si…? + теперішній час.",
+            "de": "Um ein Angebot abzulehnen, schwäche das Nein ab: me temo que no podemos aceptar… Um zuzustimmen: es una propuesta razonable. Für ein Gegenangebot fragst du ¿qué le parece si…? + Präsens.",
+            "fr": "Pour dire non à une offre, adoucis-le : me temo que no podemos aceptar… Pour dire oui : es una propuesta razonable. Pour faire une contre-proposition, demande ¿qué le parece si…? + le présent.",
+            "pt": "Para recusar uma oferta, suavize: me temo que no podemos aceptar… Para aceitar: es una propuesta razonable. Para fazer uma contraproposta, pergunte ¿qué le parece si…? + presente (onde o português diria «e se começarmos…?»).",
+            "zh": "拒绝一个报价时，语气要委婉：me temo que no podemos aceptar…。接受时说：es una propuesta razonable。还价时问：¿qué le parece si…? + 现在时。"
+          },
+          "examples": [
+            {
+              "es": "Me temo que no podemos aceptar ese precio.",
+              "en": "I'm afraid we can't accept that price.",
+              "it": "Temo che non possiamo accettare quel prezzo.",
+              "uk": "Боюся, ми не можемо прийняти таку ціну.",
+              "de": "Ich fürchte, diesen Preis können wir nicht akzeptieren.",
+              "fr": "Je crains que nous ne puissions pas accepter ce prix.",
+              "pt": "Receio que não possamos aceitar esse preço.",
+              "zh": "恐怕我们不能接受这个价格。"
+            },
+            {
+              "es": "Es una propuesta razonable; la aceptamos.",
+              "en": "It's a reasonable proposal; we accept it.",
+              "it": "È una proposta ragionevole; la accettiamo.",
+              "uk": "Це розумна пропозиція; ми її приймаємо.",
+              "de": "Das ist ein vernünftiger Vorschlag; wir nehmen ihn an.",
+              "fr": "C'est une proposition raisonnable ; nous l'acceptons.",
+              "pt": "É uma proposta razoável; nós a aceitamos.",
+              "zh": "这是一个合理的提议；我们接受。"
+            },
+            {
+              "es": "¿Qué le parece si empezamos en julio?",
+              "en": "How about starting in July?",
+              "it": "Che ne dice se cominciamo a luglio?",
+              "uk": "Як Ви дивитеся на те, щоб почати в липні?",
+              "de": "Was halten Sie davon, wenn wir im Juli beginnen?",
+              "fr": "Que diriez-vous de commencer en juillet ?",
+              "pt": "O que o senhor acha de começarmos em julho?",
+              "zh": "您看我们七月开始怎么样？"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "aceptamos",
+              "en": "we accept",
+              "it": "(noi) accettiamo",
+              "uk": "ми приймаємо",
+              "de": "wir nehmen an, wir akzeptieren",
+              "fr": "nous acceptons",
+              "pt": "(nós) aceitamos",
+              "zh": "我们接受"
+            }
+          ]
+        },
+        {
+          "type": "gap",
+          "beat": "forge",
+          "before": "Me ",
+          "after": " que no podemos aceptar ese precio.",
+          "label": "temer",
+          "accepted": [
+            "temo"
+          ],
+          "en": "I'm afraid we can't accept that price.",
+          "it": "Temo che non possiamo accettare quel prezzo.",
+          "uk": "Боюся, ми не можемо прийняти таку ціну.",
+          "de": "Ich fürchte, diesen Preis können wir nicht akzeptieren.",
+          "fr": "Je crains que nous ne puissions pas accepter ce prix.",
+          "pt": "Receio que não possamos aceitar esse preço.",
+          "zh": "恐怕我们不能接受这个价格。",
+          "hint": {
+            "en": "me temo que: a polite no.",
+            "it": "me temo que: un no cortese.",
+            "uk": "me temo que: ввічливе «ні».",
+            "de": "me temo que: ein höfliches Nein.",
+            "fr": "me temo que : un non poli.",
+            "pt": "me temo que: um «não» educado.",
+            "zh": "me temo que：礼貌地说“不”。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "The client makes an offer that you like. Accept it: it's a reasonable proposal; we accept it.",
+            "it": "Il cliente fa un'offerta che ti piace. Accettala: è una proposta ragionevole; la accettiamo.",
+            "uk": "Клієнт робить пропозицію, яка тобі подобається. Прийми її: це розумна пропозиція; ми її приймаємо.",
+            "de": "Der Kunde macht ein Angebot, das dir gefällt. Nimm es an: Das ist ein vernünftiger Vorschlag; wir nehmen ihn an.",
+            "fr": "Le client fait une offre qui te plaît. Accepte-la : c'est une proposition raisonnable ; nous l'acceptons.",
+            "pt": "O cliente faz uma oferta de que você gosta. Aceite: é uma proposta razoável; nós a aceitamos.",
+            "zh": "客户提出了一个你满意的报价。接受它：这是一个合理的提议；我们接受。"
+          },
+          "accepted": [
+            "Es una propuesta razonable; la aceptamos.",
+            "Es una propuesta muy razonable; la aceptamos."
+          ],
+          "tiles": [
+            "Es una",
+            "propuesta",
+            "razonable;",
+            "la aceptamos",
+            "lo",
+            "precio"
+          ],
+          "en": "It's a reasonable proposal; we accept it.",
+          "it": "È una proposta ragionevole; la accettiamo.",
+          "uk": "Це розумна пропозиція; ми її приймаємо.",
+          "de": "Das ist ein vernünftiger Vorschlag; wir nehmen ihn an.",
+          "fr": "C'est une proposition raisonnable ; nous l'acceptons.",
+          "pt": "É uma proposta razoável; nós a aceitamos.",
+          "zh": "这是一个合理的提议；我们接受。",
+          "hint": {
+            "en": "la propuesta is feminine, so la aceptamos.",
+            "it": "la propuesta è femminile, quindi la aceptamos.",
+            "uk": "la propuesta — жіночого роду, тож la aceptamos.",
+            "de": "la propuesta ist weiblich, also la aceptamos (im Deutschen: der Vorschlag → ihn).",
+            "fr": "la propuesta est féminin, donc la aceptamos.",
+            "pt": "la propuesta é feminino, então la aceptamos.",
+            "zh": "la propuesta 是阴性，所以说 la aceptamos。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "Si ",
+          "after": " hoy el contrato, les ofrecemos un descuento.",
+          "options": [
+            "firman",
+            "firmen",
+            "firmar"
+          ],
+          "answer": "firman",
+          "en": "If you sign the contract today, we'll offer you a discount.",
+          "it": "Se firmate il contratto oggi, vi offriamo uno sconto.",
+          "uk": "Якщо ви підпишете договір сьогодні, ми запропонуємо вам знижку.",
+          "de": "Wenn Sie den Vertrag heute unterschreiben, bieten wir Ihnen einen Rabatt an.",
+          "fr": "Si vous signez le contrat aujourd'hui, nous vous proposons une remise.",
+          "pt": "Se os senhores assinarem o contrato hoje, nós lhes oferecemos um desconto.",
+          "zh": "如果各位今天签合同，我们就给各位打折。",
+          "hint": {
+            "en": "si takes the normal present: firman.",
+            "it": "si vuole il presente normale: firman.",
+            "uk": "si вимагає звичайного теперішнього часу: firman.",
+            "de": "si steht mit dem normalen Präsens: firman.",
+            "fr": "si demande le présent normal : firman.",
+            "pt": "Depois de si vai o presente normal: firman.",
+            "zh": "si 后面用普通的现在时：firman。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "mix",
+          "before": "¿Qué le ",
+          "after": " si empezamos en julio?",
+          "label": "parecer",
+          "accepted": [
+            "parece"
+          ],
+          "en": "How about starting in July?",
+          "it": "Che ne dice se cominciamo a luglio?",
+          "uk": "Як Ви дивитеся на те, щоб почати в липні?",
+          "de": "Was halten Sie davon, wenn wir im Juli beginnen?",
+          "fr": "Que diriez-vous de commencer en juillet ?",
+          "pt": "O que o senhor acha de começarmos em julho?",
+          "zh": "您看我们七月开始怎么样？",
+          "hint": {
+            "en": "¿qué le parece si…?: a polite counter-offer.",
+            "it": "¿qué le parece si…?: una controproposta cortese.",
+            "uk": "¿qué le parece si…?: ввічлива зустрічна пропозиція.",
+            "de": "¿qué le parece si…?: ein höfliches Gegenangebot.",
+            "fr": "¿qué le parece si…? : une contre-proposition polie.",
+            "pt": "¿qué le parece si…?: uma contraproposta educada.",
+            "zh": "¿qué le parece si…?：礼貌地提出另一个方案。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "Lo siento, pero no podemos aceptar ese ",
+          "after": ".",
+          "options": [
+            "precio",
+            "propuesta",
+            "oferta"
+          ],
+          "answer": "precio",
+          "en": "I'm sorry, but we can't accept that price.",
+          "it": "Mi dispiace, ma non possiamo accettare quel prezzo.",
+          "uk": "Мені шкода, але ми не можемо прийняти таку ціну.",
+          "de": "Es tut mir leid, aber diesen Preis können wir nicht akzeptieren.",
+          "fr": "Je suis désolé, mais nous ne pouvons pas accepter ce prix.",
+          "pt": "Sinto muito, mas não podemos aceitar esse preço.",
+          "zh": "很抱歉，但我们不能接受这个价格。",
+          "hint": {
+            "en": "ese goes with a masculine noun: el precio.",
+            "it": "ese va con un nome maschile: el precio.",
+            "uk": "ese вживається з іменником чоловічого роду: el precio.",
+            "de": "ese steht bei einem männlichen Nomen: el precio.",
+            "fr": "ese va avec un nom masculin : el precio.",
+            "pt": "ese vai com um substantivo masculino: el precio.",
+            "zh": "ese 和阳性名词连用：el precio。"
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "You're negotiating with two clients you call ustedes. Write in Spanish: «We can offer you a discount as long as you sign this month.»",
+            "it": "Stai negoziando con due clienti a cui dai del Loro. Scrivi in spagnolo: «Vi offriamo uno sconto, purché firmiate questo mese.»",
+            "uk": "Ти ведеш переговори з двома клієнтами, до яких звертаєшся на ustedes. Напиши іспанською: «Ми можемо запропонувати вам знижку за умови, що ви підпишете цього місяця.»",
+            "de": "Du verhandelst mit zwei Kunden, die du mit ustedes ansprichst. Schreib auf Spanisch: «Wir bieten Ihnen einen Rabatt an, vorausgesetzt, Sie unterschreiben diesen Monat.»",
+            "fr": "Tu négocies avec deux clients que tu vouvoies (ustedes). Écris en espagnol : «Nous vous proposons une remise à condition que vous signiez ce mois-ci.»",
+            "pt": "Você está negociando com dois clientes que você trata por ustedes. Escreva em espanhol: «Oferecemos aos senhores um desconto, desde que assinem este mês.»",
+            "zh": "你在和两位客户谈判，你称呼他们 ustedes。用西班牙语写：«只要各位这个月签约，我们可以给各位打折。»"
+          },
+          "accepted": [
+            "Les ofrecemos un descuento siempre que firmen este mes.",
+            "Les podemos ofrecer un descuento siempre que firmen este mes.",
+            "Les ofrecemos un descuento siempre y cuando firmen este mes.",
+            "Siempre que firmen este mes, les ofrecemos un descuento."
+          ],
+          "model": {
+            "es": "Les ofrecemos un descuento siempre que firmen este mes.",
+            "en": "We can offer you a discount as long as you sign this month.",
+            "it": "Vi offriamo uno sconto, purché firmiate questo mese.",
+            "uk": "Ми можемо запропонувати вам знижку за умови, що ви підпишете цього місяця.",
+            "de": "Wir bieten Ihnen einen Rabatt an, vorausgesetzt, Sie unterschreiben diesen Monat.",
+            "fr": "Nous vous proposons une remise à condition que vous signiez ce mois-ci.",
+            "pt": "Oferecemos aos senhores um desconto, desde que assinem este mês.",
+            "zh": "只要各位这个月签约，我们可以给各位打折。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u50l3",
+      "goal": {
+        "en": "Give a colleague feedback kindly: start with what went well (has hecho un buen trabajo, tu punto fuerte es…), suggest changes with te sugiero que + subjunctive and quizás podrías…, and close with ¡sigue así!",
+        "it": "Dai un feedback a un collega con gentilezza: comincia da ciò che è andato bene (has hecho un buen trabajo, tu punto fuerte es…), suggerisci cambiamenti con te sugiero que + congiuntivo e quizás podrías…, e chiudi con ¡sigue así!",
+        "uk": "Давай колезі доброзичливий відгук: почни з того, що вдалося (has hecho un buen trabajo, tu punto fuerte es…), пропонуй зміни через te sugiero que + «subjuntivo» і quizás podrías…, а заверши словами ¡sigue así!",
+        "de": "Gib einer Kollegin oder einem Kollegen freundlich Feedback: Beginne mit dem, was gut gelaufen ist (has hecho un buen trabajo, tu punto fuerte es…), schlag Änderungen vor mit te sugiero que + subjuntivo und quizás podrías…, und schließe mit ¡sigue así!",
+        "fr": "Fais un retour à un collègue avec bienveillance : commence par ce qui s'est bien passé (has hecho un buen trabajo, tu punto fuerte es…), suggère des changements avec te sugiero que + subjuntivo et quizás podrías…, et termine par ¡sigue así!",
+        "pt": "Dê um feedback gentil a um colega: comece pelo que deu certo (has hecho un buen trabajo, tu punto fuerte es…), sugira mudanças com te sugiero que + subjuntivo e quizás podrías…, e feche com ¡sigue así!",
+        "zh": "友善地给同事反馈：先说做得好的地方（has hecho un buen trabajo，tu punto fuerte es…），用 te sugiero que + 虚拟式 和 quizás podrías… 提出修改建议，最后用 ¡sigue así! 结束。"
+      },
+      "target": {
+        "es": "Has hecho un buen trabajo. Te sugiero que hables más despacio.",
+        "en": "You've done a good job. I'd suggest you speak more slowly.",
+        "it": "Hai fatto un buon lavoro. Ti suggerisco di parlare più piano.",
+        "uk": "Ти добре попрацював(-ла). Я б радив(-ла) тобі говорити повільніше.",
+        "de": "Du hast gute Arbeit geleistet. Ich würde vorschlagen, dass du langsamer sprichst.",
+        "fr": "Tu as fait du bon travail. Je te suggère de parler plus lentement.",
+        "pt": "Você fez um bom trabalho. Sugiro que você fale mais devagar.",
+        "zh": "你做得很好。我建议你说慢一点。"
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "te sugiero que…",
+              "en": "I'd suggest you…",
+              "it": "ti suggerisco di…",
+              "uk": "я б радив(-ла) тобі…",
+              "de": "ich würde dir vorschlagen, dass du…",
+              "fr": "je te suggère de…",
+              "pt": "sugiro que você…",
+              "zh": "我建议你……",
+              "kind": "chunk"
+            },
+            {
+              "es": "el punto fuerte",
+              "en": "the strong point, the strength",
+              "it": "il punto di forza",
+              "uk": "сильна сторона",
+              "de": "die Stärke",
+              "fr": "le point fort",
+              "pt": "o ponto forte",
+              "zh": "长处，优点",
+              "kind": "chunk"
+            },
+            {
+              "es": "el punto débil",
+              "en": "the weak point, the weakness",
+              "it": "il punto debole",
+              "uk": "слабка сторона",
+              "de": "die Schwäche, der Schwachpunkt",
+              "fr": "le point faible",
+              "pt": "o ponto fraco",
+              "zh": "短处，弱点",
+              "kind": "chunk"
+            },
+            {
+              "es": "¡sigue así!",
+              "en": "keep it up!",
+              "it": "continua così!",
+              "uk": "так тримати!",
+              "de": "weiter so!",
+              "fr": "continue comme ça !",
+              "pt": "continue assim!",
+              "zh": "继续保持！",
+              "kind": "chunk"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "has hecho",
+              "kind": "stem"
+            },
+            {
+              "text": "+",
+              "kind": "chunk"
+            },
+            {
+              "text": "un buen trabajo",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "Start with what went well: has hecho un buen trabajo, lo que más me ha gustado es…, tu punto fuerte es… It makes the rest easier to hear.",
+            "it": "Comincia da ciò che è andato bene: has hecho un buen trabajo, lo que más me ha gustado es…, tu punto fuerte es… Così il resto è più facile da ascoltare.",
+            "uk": "Почни з того, що вдалося: has hecho un buen trabajo, lo que más me ha gustado es…, tu punto fuerte es… Так решту легше сприйняти.",
+            "de": "Beginne mit dem, was gut gelaufen ist: has hecho un buen trabajo, lo que más me ha gustado es…, tu punto fuerte es… So lässt sich der Rest leichter annehmen.",
+            "fr": "Commence par ce qui s'est bien passé : has hecho un buen trabajo, lo que más me ha gustado es…, tu punto fuerte es… Comme ça, la suite est plus facile à entendre.",
+            "pt": "Comece pelo que deu certo: has hecho un buen trabajo, lo que más me ha gustado es…, tu punto fuerte es… Assim o resto fica mais fácil de ouvir.",
+            "zh": "先说做得好的地方：has hecho un buen trabajo，lo que más me ha gustado es…，tu punto fuerte es…。这样后面的话更容易听进去。"
+          },
+          "examples": [
+            {
+              "es": "Has hecho un buen trabajo con el informe.",
+              "en": "You've done a good job on the report.",
+              "it": "Hai fatto un buon lavoro con la relazione.",
+              "uk": "Ти добре попрацював(-ла) над звітом.",
+              "de": "Du hast beim Bericht gute Arbeit geleistet.",
+              "fr": "Tu as fait du bon travail sur le rapport.",
+              "pt": "Você fez um bom trabalho com o relatório.",
+              "zh": "你的报告做得很好。"
+            },
+            {
+              "es": "Lo que más me ha gustado es el principio.",
+              "en": "What I liked most was the beginning.",
+              "it": "La cosa che mi è piaciuta di più è l'inizio.",
+              "uk": "Найбільше мені сподобався початок.",
+              "de": "Am besten hat mir der Anfang gefallen.",
+              "fr": "Ce qui m'a le plus plu, c'est le début.",
+              "pt": "O que eu mais gostei foi o começo.",
+              "zh": "我最喜欢的是开头。"
+            },
+            {
+              "es": "Tu punto fuerte es que explicas muy bien.",
+              "en": "Your strength is that you explain things really well.",
+              "it": "Il tuo punto di forza è che spieghi molto bene.",
+              "uk": "Твоя сильна сторона в тому, що ти дуже добре пояснюєш.",
+              "de": "Deine Stärke ist, dass du sehr gut erklärst.",
+              "fr": "Ton point fort, c'est que tu expliques très bien.",
+              "pt": "O seu ponto forte é que você explica muito bem.",
+              "zh": "你的长处是讲解得非常清楚。"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Has ",
+          "after": " un buen trabajo con el informe.",
+          "options": [
+            "hecho",
+            "hacer",
+            "hecha"
+          ],
+          "answer": "hecho",
+          "en": "You've done a good job on the report.",
+          "it": "Hai fatto un buon lavoro con la relazione.",
+          "uk": "Ти добре попрацював(-ла) над звітом.",
+          "de": "Du hast beim Bericht gute Arbeit geleistet.",
+          "fr": "Tu as fait du bon travail sur le rapport.",
+          "pt": "Você fez um bom trabalho com o relatório.",
+          "zh": "你的报告做得很好。",
+          "hint": {
+            "en": "haber + participle, which never changes: has hecho.",
+            "it": "haber + participio, che non cambia mai: has hecho.",
+            "uk": "haber + дієприкметник, який ніколи не змінюється: has hecho.",
+            "de": "haber + Partizip, das sich nie ändert: has hecho.",
+            "fr": "haber + participe, qui ne change jamais : has hecho.",
+            "pt": "haber + particípio, que nunca muda: has hecho.",
+            "zh": "haber + 过去分词，分词形式永远不变：has hecho。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "A colleague has just given a presentation. Start your feedback: what I liked most was the beginning.",
+            "it": "Un collega ha appena fatto una presentazione. Comincia il tuo feedback: la cosa che mi è piaciuta di più è l'inizio.",
+            "uk": "Колега щойно провів(-ла) презентацію. Почни свій відгук: найбільше мені сподобався початок.",
+            "de": "Ein Kollege hat gerade eine Präsentation gehalten. Beginne dein Feedback: Am besten hat mir der Anfang gefallen.",
+            "fr": "Un collègue vient de faire une présentation. Commence ton retour : ce qui m'a le plus plu, c'est le début.",
+            "pt": "Uma colega acabou de fazer uma apresentação. Comece o seu feedback: o que eu mais gostei foi o começo.",
+            "zh": "一位同事刚做完演讲。开始给他反馈：我最喜欢的是开头。"
+          },
+          "accepted": [
+            "Lo que más me ha gustado es el principio."
+          ],
+          "tiles": [
+            "Lo que",
+            "más",
+            "me ha gustado",
+            "es",
+            "el principio",
+            "gusta",
+            "final"
+          ],
+          "en": "What I liked most was the beginning.",
+          "it": "La cosa che mi è piaciuta di più è l'inizio.",
+          "uk": "Найбільше мені сподобався початок.",
+          "de": "Am besten hat mir der Anfang gefallen.",
+          "fr": "Ce qui m'a le plus plu, c'est le début.",
+          "pt": "O que eu mais gostei foi o começo.",
+          "zh": "我最喜欢的是开头。",
+          "hint": {
+            "en": "lo que más me ha gustado es…: the best part.",
+            "it": "lo que más me ha gustado es…: la parte migliore.",
+            "uk": "lo que más me ha gustado es…: найкраща частина.",
+            "de": "lo que más me ha gustado es…: der beste Teil.",
+            "fr": "lo que más me ha gustado es… : le meilleur moment.",
+            "pt": "lo que más me ha gustado es…: a melhor parte.",
+            "zh": "lo que más me ha gustado es…：最好的部分。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "te sugiero que",
+              "kind": "chunk"
+            },
+            {
+              "text": "+",
+              "kind": "chunk"
+            },
+            {
+              "text": "hables",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "Suggest a change gently with te sugiero que + the subjunctive, or with quizás podrías + infinitive. Both sound kind, not like an order.",
+            "it": "Suggerisci un cambiamento con gentilezza con te sugiero que + il congiuntivo, oppure con quizás podrías + infinito. Suonano gentili, non come un ordine.",
+            "uk": "Пропонуй зміну м'яко: te sugiero que + «subjuntivo» або quizás podrías + інфінітив. Обидва варіанти звучать доброзичливо, а не як наказ.",
+            "de": "Schlag eine Änderung sanft vor, mit te sugiero que + subjuntivo oder mit quizás podrías + Infinitiv. Beides klingt freundlich, nicht wie ein Befehl.",
+            "fr": "Suggère un changement avec douceur : te sugiero que + le subjuntivo (comme je suggère que tu… + subjonctif en français), ou quizás podrías + infinitif. Les deux sonnent gentils, pas comme un ordre.",
+            "pt": "Sugira uma mudança com delicadeza usando te sugiero que + subjuntivo (como em português: sugiro que você fale) ou quizás podrías + infinitivo. As duas formas soam gentis, não como uma ordem.",
+            "zh": "委婉地提出修改建议，用 te sugiero que + 虚拟式，或者 quizás podrías + 动词原形。两种说法听起来都很友善，不像命令。"
+          },
+          "examples": [
+            {
+              "es": "Te sugiero que hables más despacio.",
+              "en": "I'd suggest you speak more slowly.",
+              "it": "Ti suggerisco di parlare più piano.",
+              "uk": "Я б радив(-ла) тобі говорити повільніше.",
+              "de": "Ich würde vorschlagen, dass du langsamer sprichst.",
+              "fr": "Je te suggère de parler plus lentement.",
+              "pt": "Sugiro que você fale mais devagar.",
+              "zh": "我建议你说慢一点。"
+            },
+            {
+              "es": "Te sugiero que termines el informe antes del viernes.",
+              "en": "I'd suggest you finish the report before Friday.",
+              "it": "Ti suggerisco di finire la relazione prima di venerdì.",
+              "uk": "Я б радив(-ла) тобі закінчити звіт до п'ятниці.",
+              "de": "Ich würde vorschlagen, dass du den Bericht vor Freitag fertig machst.",
+              "fr": "Je te suggère de finir le rapport avant vendredi.",
+              "pt": "Sugiro que você termine o relatório antes de sexta-feira.",
+              "zh": "我建议你周五之前完成报告。"
+            },
+            {
+              "es": "Quizás podrías empezar con un ejemplo.",
+              "en": "Maybe you could start with an example.",
+              "it": "Forse potresti cominciare con un esempio.",
+              "uk": "Можливо, ти міг(-ла) б почати з прикладу.",
+              "de": "Vielleicht könntest du mit einem Beispiel anfangen.",
+              "fr": "Tu pourrais peut-être commencer par un exemple.",
+              "pt": "Talvez você pudesse começar com um exemplo.",
+              "zh": "也许你可以从一个例子开始。"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Te sugiero que ",
+          "after": " más despacio en la presentación.",
+          "options": [
+            "hables",
+            "hablas",
+            "hablar"
+          ],
+          "answer": "hables",
+          "en": "I'd suggest you speak more slowly in the presentation.",
+          "it": "Ti suggerisco di parlare più piano nella presentazione.",
+          "uk": "Я б радив(-ла) тобі говорити на презентації повільніше.",
+          "de": "Ich würde vorschlagen, dass du bei der Präsentation langsamer sprichst.",
+          "fr": "Je te suggère de parler plus lentement pendant la présentation.",
+          "pt": "Sugiro que você fale mais devagar na apresentação.",
+          "zh": "我建议你演讲时说慢一点。",
+          "hint": {
+            "en": "te sugiero que + subjunctive: hables.",
+            "it": "te sugiero que + congiuntivo: hables.",
+            "uk": "te sugiero que + «subjuntivo»: hables.",
+            "de": "te sugiero que + subjuntivo: hables.",
+            "fr": "te sugiero que + subjuntivo : hables.",
+            "pt": "te sugiero que + subjuntivo: hables.",
+            "zh": "te sugiero que + 虚拟式：hables。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "fire",
+          "before": "Te sugiero que ",
+          "after": " el informe antes del viernes.",
+          "label": "terminar",
+          "accepted": [
+            "termines"
+          ],
+          "en": "I'd suggest you finish the report before Friday.",
+          "it": "Ti suggerisco di finire la relazione prima di venerdì.",
+          "uk": "Я б радив(-ла) тобі закінчити звіт до п'ятниці.",
+          "de": "Ich würde vorschlagen, dass du den Bericht vor Freitag fertig machst.",
+          "fr": "Je te suggère de finir le rapport avant vendredi.",
+          "pt": "Sugiro que você termine o relatório antes de sexta-feira.",
+          "zh": "我建议你周五之前完成报告。",
+          "hint": {
+            "en": "te sugiero que + subjunctive: termines.",
+            "it": "te sugiero que + congiuntivo: termines.",
+            "uk": "te sugiero que + «subjuntivo»: termines.",
+            "de": "te sugiero que + subjuntivo: termines.",
+            "fr": "te sugiero que + subjuntivo : termines.",
+            "pt": "te sugiero que + subjuntivo: termines.",
+            "zh": "te sugiero que + 虚拟式：termines。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "tu punto débil",
+              "kind": "chunk"
+            },
+            {
+              "text": "·",
+              "kind": "chunk"
+            },
+            {
+              "text": "¡sigue así!",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "Name the weak point simply and calmly: tu punto débil es… Then end on a positive note, with es un buen trabajo or ¡sigue así!",
+            "it": "Indica il punto debole in modo semplice e tranquillo: tu punto débil es… Poi chiudi in positivo, con es un buen trabajo o ¡sigue así!",
+            "uk": "Назви слабку сторону просто й спокійно: tu punto débil es… А потім заверши на позитивній ноті: es un buen trabajo або ¡sigue así!",
+            "de": "Nenne den Schwachpunkt einfach und ruhig: tu punto débil es… Dann schließe positiv ab, mit es un buen trabajo oder ¡sigue así!",
+            "fr": "Dis le point faible simplement et calmement : tu punto débil es… Puis termine sur une note positive, avec es un buen trabajo ou ¡sigue así!",
+            "pt": "Diga o ponto fraco de forma simples e calma: tu punto débil es… Depois termine com algo positivo, com es un buen trabajo ou ¡sigue así!",
+            "zh": "简单、平静地指出弱点：tu punto débil es…。然后用积极的话结尾：es un buen trabajo 或 ¡sigue así!"
+          },
+          "examples": [
+            {
+              "es": "Tu punto débil es que hablas muy rápido.",
+              "en": "Your weak point is that you speak very fast.",
+              "it": "Il tuo punto debole è che parli molto in fretta.",
+              "uk": "Твоя слабка сторона в тому, що ти говориш дуже швидко.",
+              "de": "Dein Schwachpunkt ist, dass du sehr schnell sprichst.",
+              "fr": "Ton point faible, c'est que tu parles très vite.",
+              "pt": "O seu ponto fraco é que você fala muito rápido.",
+              "zh": "你的弱点是说话太快。"
+            },
+            {
+              "es": "Pero eso tiene fácil solución.",
+              "en": "But that's easy to fix.",
+              "it": "Ma è facile da risolvere.",
+              "uk": "Але це легко виправити.",
+              "de": "Aber das lässt sich leicht ändern.",
+              "fr": "Mais ça se règle facilement.",
+              "pt": "Mas isso é fácil de resolver.",
+              "zh": "不过这很容易解决。"
+            },
+            {
+              "es": "Es un informe muy bueno. ¡Sigue así!",
+              "en": "It's a very good report. Keep it up!",
+              "it": "È un'ottima relazione. Continua così!",
+              "uk": "Це дуже добрий звіт. Так тримати!",
+              "de": "Das ist ein sehr guter Bericht. Weiter so!",
+              "fr": "C'est un très bon rapport. Continue comme ça !",
+              "pt": "É um relatório muito bom. Continue assim!",
+              "zh": "这份报告非常好。继续保持！"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Tu punto ",
+          "after": " es que hablas muy rápido; tu punto fuerte, que explicas muy bien.",
+          "options": [
+            "débil",
+            "fuerte"
+          ],
+          "answer": "débil",
+          "en": "Your weak point is that you speak very fast; your strength, that you explain things really well.",
+          "it": "Il tuo punto debole è che parli molto in fretta; il tuo punto di forza, che spieghi molto bene.",
+          "uk": "Твоя слабка сторона в тому, що ти говориш дуже швидко; твоя сильна сторона — що ти дуже добре пояснюєш.",
+          "de": "Dein Schwachpunkt ist, dass du sehr schnell sprichst; deine Stärke, dass du sehr gut erklärst.",
+          "fr": "Ton point faible, c'est que tu parles très vite ; ton point fort, que tu expliques très bien.",
+          "pt": "O seu ponto fraco é que você fala muito rápido; o seu ponto forte, que você explica muito bem.",
+          "zh": "你的弱点是说话太快；你的长处是讲解得非常清楚。",
+          "hint": {
+            "en": "Speaking too fast is a problem: punto débil.",
+            "it": "Parlare troppo in fretta è un problema: punto débil.",
+            "uk": "Говорити надто швидко — це проблема: punto débil.",
+            "de": "Zu schnell sprechen ist ein Problem: punto débil.",
+            "fr": "Parler trop vite, c'est un problème : punto débil.",
+            "pt": "Falar rápido demais é um problema: punto débil.",
+            "zh": "说话太快是个问题：punto débil。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "Close your feedback warmly: it's a very good report. Keep it up!",
+            "it": "Chiudi il tuo feedback con calore: è un'ottima relazione. Continua così!",
+            "uk": "Заверши свій відгук тепло: це дуже добрий звіт. Так тримати!",
+            "de": "Schließe dein Feedback herzlich ab: Das ist ein sehr guter Bericht. Weiter so!",
+            "fr": "Termine ton retour chaleureusement : c'est un très bon rapport. Continue comme ça !",
+            "pt": "Feche o seu feedback com carinho: é um relatório muito bom. Continue assim!",
+            "zh": "热情地结束你的反馈：这份报告非常好。继续保持！"
+          },
+          "accepted": [
+            "Es un informe muy bueno. ¡Sigue así!",
+            "Es un muy buen informe. ¡Sigue así!"
+          ],
+          "tiles": [
+            "Es un informe",
+            "muy bueno.",
+            "¡Sigue",
+            "así!",
+            "sigues",
+            "débil"
+          ],
+          "en": "It's a very good report. Keep it up!",
+          "it": "È un'ottima relazione. Continua così!",
+          "uk": "Це дуже добрий звіт. Так тримати!",
+          "de": "Das ist ein sehr guter Bericht. Weiter so!",
+          "fr": "C'est un très bon rapport. Continue comme ça !",
+          "pt": "É um relatório muito bom. Continue assim!",
+          "zh": "这份报告非常好。继续保持！",
+          "hint": {
+            "en": "End on a positive note: ¡sigue así!",
+            "it": "Chiudi in positivo: ¡sigue así!",
+            "uk": "Заверши на позитивній ноті: ¡sigue así!",
+            "de": "Schließe positiv ab: ¡sigue así!",
+            "fr": "Termine sur une note positive : ¡sigue así!",
+            "pt": "Termine com algo positivo: ¡sigue así!",
+            "zh": "用积极的话结尾：¡sigue así!"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "Quizás ",
+          "after": " empezar con un ejemplo.",
+          "options": [
+            "podrías",
+            "puedas",
+            "poder"
+          ],
+          "answer": "podrías",
+          "en": "Maybe you could start with an example.",
+          "it": "Forse potresti cominciare con un esempio.",
+          "uk": "Можливо, ти міг(-ла) б почати з прикладу.",
+          "de": "Vielleicht könntest du mit einem Beispiel anfangen.",
+          "fr": "Tu pourrais peut-être commencer par un exemple.",
+          "pt": "Talvez você pudesse começar com um exemplo.",
+          "zh": "也许你可以从一个例子开始。",
+          "hint": {
+            "en": "quizás podrías + infinitive: a soft suggestion.",
+            "it": "quizás podrías + infinito: un suggerimento morbido.",
+            "uk": "quizás podrías + інфінітив: м'яка порада.",
+            "de": "quizás podrías + Infinitiv: ein sanfter Vorschlag.",
+            "fr": "quizás podrías + infinitif : une suggestion en douceur.",
+            "pt": "quizás podrías + infinitivo: uma sugestão suave.",
+            "zh": "quizás podrías + 动词原形：委婉的建议。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "mix",
+          "before": "Te sugiero que ",
+          "after": " un ejemplo al principio.",
+          "label": "poner",
+          "accepted": [
+            "pongas"
+          ],
+          "en": "I'd suggest you put an example at the beginning.",
+          "it": "Ti suggerisco di mettere un esempio all'inizio.",
+          "uk": "Я б радив(-ла) тобі навести приклад на початку.",
+          "de": "Ich würde vorschlagen, dass du am Anfang ein Beispiel bringst.",
+          "fr": "Je te suggère de mettre un exemple au début.",
+          "pt": "Sugiro que você coloque um exemplo no começo.",
+          "zh": "我建议你在开头举一个例子。",
+          "hint": {
+            "en": "te sugiero que + subjunctive: pongas.",
+            "it": "te sugiero que + congiuntivo: pongas.",
+            "uk": "te sugiero que + «subjuntivo»: pongas.",
+            "de": "te sugiero que + subjuntivo: pongas.",
+            "fr": "te sugiero que + subjuntivo : pongas.",
+            "pt": "te sugiero que + subjuntivo: pongas.",
+            "zh": "te sugiero que + 虚拟式：pongas。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "mix",
+          "intention": {
+            "en": "Tell a colleague what she does best when she presents: your strength is that you explain things really well.",
+            "it": "Di' a una collega che cosa fa meglio quando presenta: il tuo punto di forza è che spieghi molto bene.",
+            "uk": "Скажи колезі, що їй найкраще вдається, коли вона презентує: твоя сильна сторона в тому, що ти дуже добре пояснюєш.",
+            "de": "Sag einer Kollegin, was sie beim Präsentieren am besten macht: Deine Stärke ist, dass du sehr gut erklärst.",
+            "fr": "Dis à une collègue ce qu'elle fait le mieux quand elle présente : ton point fort, c'est que tu expliques très bien.",
+            "pt": "Diga a uma colega o que ela faz de melhor quando apresenta: o seu ponto forte é que você explica muito bem.",
+            "zh": "告诉一位女同事她做演讲时最擅长的是什么：你的长处是讲解得非常清楚。"
+          },
+          "accepted": [
+            "Tu punto fuerte es que explicas muy bien."
+          ],
+          "tiles": [
+            "Tu punto",
+            "fuerte",
+            "es que",
+            "explicas",
+            "muy bien",
+            "débil",
+            "expliques"
+          ],
+          "en": "Your strength is that you explain things really well.",
+          "it": "Il tuo punto di forza è che spieghi molto bene.",
+          "uk": "Твоя сильна сторона в тому, що ти дуже добре пояснюєш.",
+          "de": "Deine Stärke ist, dass du sehr gut erklärst.",
+          "fr": "Ton point fort, c'est que tu expliques très bien.",
+          "pt": "O seu ponto forte é que você explica muito bem.",
+          "zh": "你的长处是讲解得非常清楚。",
+          "hint": {
+            "en": "A fact you know, after es que: explicas.",
+            "it": "Un fatto che sai, dopo es que: explicas.",
+            "uk": "Факт, який ти знаєш, після es que: explicas.",
+            "de": "Eine Tatsache, die du kennst, nach es que: explicas.",
+            "fr": "Un fait que tu connais, après es que : explicas.",
+            "pt": "Um fato que você sabe, depois de es que: explicas.",
+            "zh": "es que 后面是你确定的事实：explicas。"
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "You're giving feedback to a colleague after his first presentation. Write in Spanish: «You've done a good job. I'd suggest you speak more slowly.»",
+            "it": "Stai dando un feedback a un collega dopo la sua prima presentazione. Scrivi in spagnolo: «Hai fatto un buon lavoro. Ti suggerisco di parlare più piano.»",
+            "uk": "Ти даєш відгук колезі після його першої презентації. Напиши іспанською: «Ти добре попрацював. Я б радив(-ла) тобі говорити повільніше.»",
+            "de": "Du gibst einem Kollegen nach seiner ersten Präsentation Feedback. Schreib auf Spanisch: «Du hast gute Arbeit geleistet. Ich würde vorschlagen, dass du langsamer sprichst.»",
+            "fr": "Tu fais un retour à un collègue après sa première présentation. Écris en espagnol : «Tu as fait du bon travail. Je te suggère de parler plus lentement.»",
+            "pt": "Você está dando feedback a um colega depois da primeira apresentação dele. Escreva em espanhol: «Você fez um bom trabalho. Sugiro que você fale mais devagar.»",
+            "zh": "一位同事刚做完他的第一次演讲，你在给他反馈。用西班牙语写：«你做得很好。我建议你说慢一点。»"
+          },
+          "accepted": [
+            "Has hecho un buen trabajo. Te sugiero que hables más despacio.",
+            "Has hecho un trabajo muy bueno. Te sugiero que hables más despacio.",
+            "Has hecho un muy buen trabajo. Te sugiero que hables más despacio.",
+            "Has hecho un buen trabajo. Te sugiero que hables un poco más despacio."
+          ],
+          "model": {
+            "es": "Has hecho un buen trabajo. Te sugiero que hables más despacio.",
+            "en": "You've done a good job. I'd suggest you speak more slowly.",
+            "it": "Hai fatto un buon lavoro. Ti suggerisco di parlare più piano.",
+            "uk": "Ти добре попрацював(-ла). Я б радив(-ла) тобі говорити повільніше.",
+            "de": "Du hast gute Arbeit geleistet. Ich würde vorschlagen, dass du langsamer sprichst.",
+            "fr": "Tu as fait du bon travail. Je te suggère de parler plus lentement.",
+            "pt": "Você fez um bom trabalho. Sugiro que você fale mais devagar.",
+            "zh": "你做得很好。我建议你说慢一点。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u50l4",
+      "goal": {
+        "en": "Handle a difficult meeting: disagree politely (no estoy del todo de acuerdo, entiendo tu punto de vista, pero…), bring up a topic with respecto a…, and keep things on track with ¿me dejas terminar? and volvamos al tema.",
+        "it": "Gestisci una riunione difficile: esprimi disaccordo con cortesia (no estoy del todo de acuerdo, entiendo tu punto de vista, pero…), introduci un argomento con respecto a… e tieni la discussione in carreggiata con ¿me dejas terminar? e volvamos al tema.",
+        "uk": "Впорайся зі складною нарадою: ввічливо не погоджуйся (no estoy del todo de acuerdo, entiendo tu punto de vista, pero…), порушуй тему за допомогою respecto a… і тримай розмову в руслі через ¿me dejas terminar? і volvamos al tema.",
+        "de": "Meistere eine schwierige Besprechung: Widersprich höflich (no estoy del todo de acuerdo, entiendo tu punto de vista, pero…), sprich ein Thema mit respecto a… an und halte die Besprechung auf Kurs mit ¿me dejas terminar? und volvamos al tema.",
+        "fr": "Gère une réunion difficile : exprime ton désaccord poliment (no estoy del todo de acuerdo, entiendo tu punto de vista, pero…), aborde un sujet avec respecto a…, et garde le cap avec ¿me dejas terminar? et volvamos al tema.",
+        "pt": "Lide com uma reunião difícil: discorde com educação (no estoy del todo de acuerdo, entiendo tu punto de vista, pero…), puxe um assunto com respecto a… e mantenha o foco com ¿me dejas terminar? e volvamos al tema.",
+        "zh": "应对一场困难的会议：礼貌地表达不同意见（no estoy del todo de acuerdo，entiendo tu punto de vista, pero…），用 respecto a… 提出一个话题，再用 ¿me dejas terminar? 和 volvamos al tema 让讨论不跑题。"
+      },
+      "target": {
+        "es": "No estoy del todo de acuerdo. Respecto al presupuesto, creo que es demasiado alto.",
+        "en": "I don't entirely agree. Regarding the budget, I think it's too high.",
+        "it": "Non sono del tutto d'accordo. Riguardo al budget, credo che sia troppo alto.",
+        "uk": "Я не зовсім згоден(-на). Щодо бюджету, я думаю, що він зависокий.",
+        "de": "Ich bin nicht ganz einverstanden. Was das Budget angeht, finde ich es zu hoch.",
+        "fr": "Je ne suis pas tout à fait d'accord. En ce qui concerne le budget, je pense qu'il est trop élevé.",
+        "pt": "Não concordo totalmente. Em relação ao orçamento, acho que está alto demais.",
+        "zh": "我不完全同意。关于预算，我觉得太高了。"
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "las reuniones",
+              "en": "the meetings",
+              "it": "le riunioni",
+              "uk": "наради, зустрічі",
+              "de": "die Besprechungen, die Meetings",
+              "fr": "les réunions",
+              "pt": "as reuniões",
+              "zh": "会议（复数）",
+              "kind": "chunk"
+            },
+            {
+              "es": "del todo",
+              "en": "entirely, completely",
+              "it": "del tutto",
+              "uk": "цілком, повністю",
+              "de": "ganz, völlig",
+              "fr": "tout à fait, complètement",
+              "pt": "totalmente, de todo",
+              "zh": "完全，彻底",
+              "kind": "chunk"
+            },
+            {
+              "es": "respecto a",
+              "en": "regarding, as for",
+              "it": "riguardo a, quanto a",
+              "uk": "щодо, стосовно",
+              "de": "bezüglich, was … angeht",
+              "fr": "en ce qui concerne, quant à",
+              "pt": "em relação a, quanto a",
+              "zh": "关于，至于",
+              "kind": "rail"
+            },
+            {
+              "es": "el tema",
+              "en": "the topic, the subject",
+              "it": "l'argomento, il tema",
+              "uk": "тема, питання",
+              "de": "das Thema",
+              "fr": "le sujet, le thème",
+              "pt": "o assunto, o tema",
+              "zh": "话题，主题",
+              "kind": "chunk"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "no estoy del todo",
+              "kind": "chunk"
+            },
+            {
+              "text": "+",
+              "kind": "chunk"
+            },
+            {
+              "text": "de acuerdo",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "Disagree without sounding rude: no estoy del todo de acuerdo (I don't entirely agree), or show you've listened first: entiendo tu punto de vista, pero…",
+            "it": "Esprimi disaccordo senza essere scortese: no estoy del todo de acuerdo (non sono del tutto d'accordo), oppure mostra prima di aver ascoltato: entiendo tu punto de vista, pero…",
+            "uk": "Не погоджуйся так, щоб не звучати грубо: no estoy del todo de acuerdo (я не зовсім згоден(-на)), або спершу покажи, що ти вислухав(-ла): entiendo tu punto de vista, pero…",
+            "de": "Widersprich, ohne unhöflich zu klingen: no estoy del todo de acuerdo (ich bin nicht ganz einverstanden), oder zeig zuerst, dass du zugehört hast: entiendo tu punto de vista, pero…",
+            "fr": "Exprime ton désaccord sans être impoli : no estoy del todo de acuerdo (je ne suis pas tout à fait d'accord), ou montre d'abord que tu as écouté : entiendo tu punto de vista, pero…",
+            "pt": "Discorde sem parecer grosseiro: no estoy del todo de acuerdo (não concordo totalmente), ou mostre primeiro que você ouviu: entiendo tu punto de vista, pero…",
+            "zh": "表达不同意见又不显得失礼：no estoy del todo de acuerdo（我不完全同意），或者先表明你听进去了：entiendo tu punto de vista, pero…"
+          },
+          "examples": [
+            {
+              "es": "No estoy del todo de acuerdo contigo.",
+              "en": "I don't entirely agree with you.",
+              "it": "Non sono del tutto d'accordo con te.",
+              "uk": "Я не зовсім згоден(-на) з тобою.",
+              "de": "Ich bin nicht ganz deiner Meinung.",
+              "fr": "Je ne suis pas tout à fait d'accord avec toi.",
+              "pt": "Não concordo totalmente com você.",
+              "zh": "我不完全同意你的看法。"
+            },
+            {
+              "es": "Entiendo tu punto de vista, pero el precio es muy alto.",
+              "en": "I understand your point of view, but the price is very high.",
+              "it": "Capisco il tuo punto di vista, ma il prezzo è molto alto.",
+              "uk": "Я розумію твою точку зору, але ціна дуже висока.",
+              "de": "Ich verstehe deinen Standpunkt, aber der Preis ist sehr hoch.",
+              "fr": "Je comprends ton point de vue, mais le prix est très élevé.",
+              "pt": "Entendo o seu ponto de vista, mas o preço está muito alto.",
+              "zh": "我理解你的观点，但价格太高了。"
+            },
+            {
+              "es": "Entiendo lo que dices, pero no es tan fácil.",
+              "en": "I understand what you're saying, but it's not that easy.",
+              "it": "Capisco quello che dici, ma non è così facile.",
+              "uk": "Я розумію, що ти кажеш, але це не так просто.",
+              "de": "Ich verstehe, was du sagst, aber so einfach ist es nicht.",
+              "fr": "Je comprends ce que tu dis, mais ce n'est pas si facile.",
+              "pt": "Entendo o que você está dizendo, mas não é tão fácil.",
+              "zh": "我明白你的意思，但没那么简单。"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "No estoy del ",
+          "after": " de acuerdo contigo.",
+          "options": [
+            "todo",
+            "tanto",
+            "punto"
+          ],
+          "answer": "todo",
+          "en": "I don't entirely agree with you.",
+          "it": "Non sono del tutto d'accordo con te.",
+          "uk": "Я не зовсім згоден(-на) з тобою.",
+          "de": "Ich bin nicht ganz deiner Meinung.",
+          "fr": "Je ne suis pas tout à fait d'accord avec toi.",
+          "pt": "Não concordo totalmente com você.",
+          "zh": "我不完全同意你的看法。",
+          "hint": {
+            "en": "del todo: entirely.",
+            "it": "del todo: del tutto.",
+            "uk": "del todo: цілком.",
+            "de": "del todo: ganz, völlig.",
+            "fr": "del todo : tout à fait.",
+            "pt": "del todo: totalmente.",
+            "zh": "del todo：完全。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "In a meeting, a colleague says the project is too expensive. Answer: I understand your point of view, but it's necessary.",
+            "it": "In una riunione, un collega dice che il progetto è troppo caro. Rispondi: capisco il tuo punto di vista, ma è necessario.",
+            "uk": "На нараді колега каже, що проєкт задорогий. Відповідай: я розумію твою точку зору, але це потрібно.",
+            "de": "In einer Besprechung sagt ein Kollege, das Projekt sei zu teuer. Antworte: Ich verstehe deinen Standpunkt, aber es ist notwendig.",
+            "fr": "En réunion, un collègue dit que le projet est trop cher. Réponds : je comprends ton point de vue, mais c'est nécessaire.",
+            "pt": "Numa reunião, um colega diz que o projeto é caro demais. Responda: entendo o seu ponto de vista, mas é necessário.",
+            "zh": "开会时，一位同事说这个项目太贵了。回答：我理解你的观点，但这是必要的。"
+          },
+          "accepted": [
+            "Entiendo tu punto de vista, pero es necesario.",
+            "Entiendo tu punto de vista, pero es muy necesario."
+          ],
+          "tiles": [
+            "Entiendo",
+            "tu punto",
+            "de vista,",
+            "pero",
+            "es necesario",
+            "sin embargo",
+            "vistas"
+          ],
+          "en": "I understand your point of view, but it's necessary.",
+          "it": "Capisco il tuo punto di vista, ma è necessario.",
+          "uk": "Я розумію твою точку зору, але це потрібно.",
+          "de": "Ich verstehe deinen Standpunkt, aber es ist notwendig.",
+          "fr": "Je comprends ton point de vue, mais c'est nécessaire.",
+          "pt": "Entendo o seu ponto de vista, mas é necessário.",
+          "zh": "我理解你的观点，但这是必要的。",
+          "hint": {
+            "en": "Show you've listened, then pero and your view.",
+            "it": "Mostra di aver ascoltato, poi pero e il tuo parere.",
+            "uk": "Покажи, що ти вислухав(-ла), потім pero і твоя думка.",
+            "de": "Zeig, dass du zugehört hast, dann pero und deine Meinung.",
+            "fr": "Montre que tu as écouté, puis pero et ton avis.",
+            "pt": "Mostre que você ouviu e depois diga pero e a sua opinião.",
+            "zh": "先表明你听进去了，然后用 pero 说出你的看法。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "respecto a",
+              "kind": "rail"
+            },
+            {
+              "text": "+",
+              "kind": "chunk"
+            },
+            {
+              "text": "el tema",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "respecto a + a topic (regarding) brings up a point or goes back to one. It works like en cuanto a; a + el = al.",
+            "it": "respecto a + un argomento (riguardo a) introduce un punto o ci torna sopra. Funziona come en cuanto a; a + el = al.",
+            "uk": "respecto a + тема (щодо) порушує питання або повертає до нього. Діє так само, як en cuanto a; a + el = al.",
+            "de": "respecto a + ein Thema (bezüglich) spricht einen Punkt an oder kommt auf einen zurück. Es funktioniert wie en cuanto a; a + el = al.",
+            "fr": "respecto a + un sujet (en ce qui concerne) aborde un point ou y revient. Ça marche comme en cuanto a ; a + el = al.",
+            "pt": "respecto a + um assunto (em relação a) puxa um ponto ou volta a ele. Funciona como en cuanto a; a + el = al.",
+            "zh": "respecto a + 话题（关于）用来提出一个问题，或回到某个问题上。用法和 en cuanto a 一样；a + el = al。"
+          },
+          "examples": [
+            {
+              "es": "Respecto al presupuesto, tenemos un problema.",
+              "en": "Regarding the budget, we have a problem.",
+              "it": "Riguardo al budget, abbiamo un problema.",
+              "uk": "Щодо бюджету, у нас проблема.",
+              "de": "Was das Budget angeht, haben wir ein Problem.",
+              "fr": "En ce qui concerne le budget, nous avons un problème.",
+              "pt": "Em relação ao orçamento, temos um problema.",
+              "zh": "关于预算，我们有个问题。"
+            },
+            {
+              "es": "Respecto a las reuniones, duran demasiado.",
+              "en": "As for the meetings, they go on too long.",
+              "it": "Quanto alle riunioni, durano troppo.",
+              "uk": "Щодо нарад, вони тривають надто довго.",
+              "de": "Was die Besprechungen angeht: Sie dauern zu lange.",
+              "fr": "Quant aux réunions, elles durent trop longtemps.",
+              "pt": "Quanto às reuniões, elas duram demais.",
+              "zh": "至于会议，开得太久了。"
+            },
+            {
+              "es": "Respecto a lo que dices, no estoy del todo de acuerdo.",
+              "en": "Regarding what you're saying, I don't entirely agree.",
+              "it": "Riguardo a quello che dici, non sono del tutto d'accordo.",
+              "uk": "Щодо того, що ти кажеш, я не зовсім згоден(-на).",
+              "de": "Was du da sagst – da bin ich nicht ganz einverstanden.",
+              "fr": "En ce qui concerne ce que tu dis, je ne suis pas tout à fait d'accord.",
+              "pt": "Em relação ao que você está dizendo, não concordo totalmente.",
+              "zh": "关于你说的，我不完全同意。"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Respecto ",
+          "after": " presupuesto, tenemos que hablar.",
+          "options": [
+            "al",
+            "a la",
+            "del"
+          ],
+          "answer": "al",
+          "en": "Regarding the budget, we need to talk.",
+          "it": "Riguardo al budget, dobbiamo parlare.",
+          "uk": "Щодо бюджету, нам треба поговорити.",
+          "de": "Was das Budget angeht, müssen wir reden.",
+          "fr": "En ce qui concerne le budget, il faut qu'on en parle.",
+          "pt": "Em relação ao orçamento, precisamos conversar.",
+          "zh": "关于预算，我们得谈谈。",
+          "hint": {
+            "en": "presupuesto is masculine: a + el = al.",
+            "it": "presupuesto è maschile: a + el = al.",
+            "uk": "presupuesto — чоловічого роду: a + el = al.",
+            "de": "presupuesto ist männlich: a + el = al.",
+            "fr": "presupuesto est masculin : a + el = al.",
+            "pt": "presupuesto é masculino: a + el = al.",
+            "zh": "presupuesto 是阳性：a + el = al。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "fire",
+          "before": "",
+          "after": " a las reuniones de los lunes, duran demasiado.",
+          "label": "regarding",
+          "accepted": [
+            "Respecto",
+            "En cuanto"
+          ],
+          "en": "Regarding the Monday meetings, they go on too long.",
+          "it": "Riguardo alle riunioni del lunedì, durano troppo.",
+          "uk": "Щодо нарад по понеділках, вони тривають надто довго.",
+          "de": "Was die Besprechungen am Montag angeht: Sie dauern zu lange.",
+          "fr": "En ce qui concerne les réunions du lundi, elles durent trop longtemps.",
+          "pt": "Em relação às reuniões de segunda-feira, elas duram demais.",
+          "zh": "关于周一的会议，开得太久了。",
+          "hint": {
+            "en": "respecto a + the topic.",
+            "it": "respecto a + l'argomento.",
+            "uk": "respecto a + тема.",
+            "de": "respecto a + das Thema.",
+            "fr": "respecto a + le sujet.",
+            "pt": "respecto a + o assunto.",
+            "zh": "respecto a + 话题。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "¿me dejas terminar?",
+              "kind": "chunk"
+            },
+            {
+              "text": "·",
+              "kind": "chunk"
+            },
+            {
+              "text": "volvamos al tema",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "If someone interrupts you, say perdona, ¿me dejas terminar? If the meeting drifts, bring it back with volvamos al tema (let's get back to the point).",
+            "it": "Se qualcuno ti interrompe, di' perdona, ¿me dejas terminar? Se la riunione si perde, riportala sul punto con volvamos al tema (torniamo all'argomento).",
+            "uk": "Якщо тебе перебивають, скажи perdona, ¿me dejas terminar? Якщо нарада відхиляється від теми, поверни її словами volvamos al tema (повернімося до теми).",
+            "de": "Wenn dich jemand unterbricht, sag perdona, ¿me dejas terminar? Wenn die Besprechung abschweift, hol sie mit volvamos al tema (kommen wir zum Thema zurück) zurück.",
+            "fr": "Si quelqu'un te coupe la parole, dis perdona, ¿me dejas terminar? Si la réunion s'égare, ramène-la au sujet avec volvamos al tema (revenons au sujet).",
+            "pt": "Se alguém interromper você, diga perdona, ¿me dejas terminar? Se a reunião sair do assunto, traga-a de volta com volvamos al tema (vamos voltar ao assunto).",
+            "zh": "如果有人打断你，就说 perdona, ¿me dejas terminar?。如果会议跑题了，就用 volvamos al tema（我们回到正题吧）把话题拉回来。"
+          },
+          "examples": [
+            {
+              "es": "Perdona, ¿me dejas terminar?",
+              "en": "Sorry, can I finish?",
+              "it": "Scusa, mi lasci finire?",
+              "uk": "Вибач, можна я закінчу?",
+              "de": "Entschuldige, lässt du mich ausreden?",
+              "fr": "Pardon, tu me laisses finir ?",
+              "pt": "Desculpa, você me deixa terminar?",
+              "zh": "不好意思，能让我说完吗？"
+            },
+            {
+              "es": "Volvamos al tema, por favor.",
+              "en": "Let's get back to the point, please.",
+              "it": "Torniamo all'argomento, per favore.",
+              "uk": "Повернімося до теми, будь ласка.",
+              "de": "Kommen wir bitte zum Thema zurück.",
+              "fr": "Revenons au sujet, s'il vous plaît.",
+              "pt": "Vamos voltar ao assunto, por favor.",
+              "zh": "请大家回到正题吧。"
+            },
+            {
+              "es": "Perdona, pero ese no es el tema de hoy.",
+              "en": "Sorry, but that's not today's topic.",
+              "it": "Scusa, ma non è questo l'argomento di oggi.",
+              "uk": "Вибач, але це не тема сьогоднішньої наради.",
+              "de": "Entschuldige, aber das ist nicht das Thema von heute.",
+              "fr": "Pardon, mais ce n'est pas le sujet d'aujourd'hui.",
+              "pt": "Desculpa, mas esse não é o assunto de hoje.",
+              "zh": "不好意思，但这不是今天的议题。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "volvamos",
+              "en": "let's go back",
+              "it": "torniamo",
+              "uk": "повернімося",
+              "de": "lass(t) uns zurückkehren, kommen wir zurück",
+              "fr": "revenons",
+              "pt": "vamos voltar, voltemos",
+              "zh": "我们回到……吧"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Perdona, ¿me ",
+          "after": " terminar?",
+          "options": [
+            "dejas",
+            "dejar"
+          ],
+          "answer": "dejas",
+          "en": "Sorry, can I finish?",
+          "it": "Scusa, mi lasci finire?",
+          "uk": "Вибач, можна я закінчу?",
+          "de": "Entschuldige, lässt du mich ausreden?",
+          "fr": "Pardon, tu me laisses finir ?",
+          "pt": "Desculpa, você me deixa terminar?",
+          "zh": "不好意思，能让我说完吗？",
+          "hint": {
+            "en": "A normal question to tú: ¿me dejas…?",
+            "it": "Una domanda normale a tú: ¿me dejas…?",
+            "uk": "Звичайне запитання до tú: ¿me dejas…?",
+            "de": "Eine normale Frage an tú: ¿me dejas…?",
+            "fr": "Une question normale à tú : ¿me dejas…?",
+            "pt": "Uma pergunta normal para tú: ¿me dejas…?",
+            "zh": "对 tú 提的普通问句：¿me dejas…?"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "The meeting is drifting into other topics. Say: let's get back to the point, please.",
+            "it": "La riunione sta finendo su altri argomenti. Di': torniamo all'argomento, per favore.",
+            "uk": "Нарада відхиляється на інші теми. Скажи: повернімося до теми, будь ласка.",
+            "de": "Die Besprechung schweift zu anderen Themen ab. Sag: Kommen wir bitte zum Thema zurück.",
+            "fr": "La réunion part sur d'autres sujets. Dis : revenons au sujet, s'il vous plaît.",
+            "pt": "A reunião está se desviando para outros assuntos. Diga: vamos voltar ao assunto, por favor.",
+            "zh": "会议开始扯到别的话题上了。说：请大家回到正题吧。"
+          },
+          "accepted": [
+            "Volvamos al tema, por favor.",
+            "Por favor, volvamos al tema."
+          ],
+          "tiles": [
+            "Volvamos",
+            "al tema,",
+            "por favor",
+            "volvemos",
+            "a la"
+          ],
+          "en": "Let's get back to the point, please.",
+          "it": "Torniamo all'argomento, per favore.",
+          "uk": "Повернімося до теми, будь ласка.",
+          "de": "Kommen wir bitte zum Thema zurück.",
+          "fr": "Revenons au sujet, s'il vous plaît.",
+          "pt": "Vamos voltar ao assunto, por favor.",
+          "zh": "请大家回到正题吧。",
+          "hint": {
+            "en": "Let's…: volvamos.",
+            "it": "Torniamo…: volvamos.",
+            "uk": "Повернімося…: volvamos.",
+            "de": "Kommen wir…, lasst uns…: volvamos.",
+            "fr": "Revenons… : volvamos.",
+            "pt": "Vamos…: volvamos.",
+            "zh": "我们……吧：volvamos。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "mix",
+          "before": "Lo siento, pero no estoy del todo de ",
+          "after": ".",
+          "label": "agreement",
+          "accepted": [
+            "acuerdo"
+          ],
+          "en": "I'm sorry, but I don't entirely agree.",
+          "it": "Mi dispiace, ma non sono del tutto d'accordo.",
+          "uk": "Мені шкода, але я не зовсім згоден(-на).",
+          "de": "Tut mir leid, aber ich bin nicht ganz einverstanden.",
+          "fr": "Je suis désolé, mais je ne suis pas tout à fait d'accord.",
+          "pt": "Sinto muito, mas não concordo totalmente.",
+          "zh": "抱歉，但我不完全同意。",
+          "hint": {
+            "en": "estar de acuerdo: to agree.",
+            "it": "estar de acuerdo: essere d'accordo.",
+            "uk": "estar de acuerdo: бути згодним.",
+            "de": "estar de acuerdo: einverstanden sein, einer Meinung sein.",
+            "fr": "estar de acuerdo : être d'accord.",
+            "pt": "estar de acuerdo: concordar.",
+            "zh": "estar de acuerdo：同意。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "mix",
+          "before": "",
+          "after": " al tema: ¿qué hacemos con el presupuesto?",
+          "label": "volver (let's)",
+          "accepted": [
+            "Volvamos"
+          ],
+          "en": "Let's get back to the point: what do we do about the budget?",
+          "it": "Torniamo all'argomento: che cosa facciamo con il budget?",
+          "uk": "Повернімося до теми: що ми робимо з бюджетом?",
+          "de": "Kommen wir zum Thema zurück: Was machen wir mit dem Budget?",
+          "fr": "Revenons au sujet : qu'est-ce qu'on fait pour le budget ?",
+          "pt": "Vamos voltar ao assunto: o que fazemos com o orçamento?",
+          "zh": "我们回到正题吧：预算怎么办？",
+          "hint": {
+            "en": "Let's go back: volvamos.",
+            "it": "Torniamo: volvamos.",
+            "uk": "Повернімося: volvamos.",
+            "de": "Kommen wir zurück: volvamos.",
+            "fr": "Revenons : volvamos.",
+            "pt": "Vamos voltar: volvamos.",
+            "zh": "我们回到……吧：volvamos。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "Respecto ",
+          "after": " reuniones, son demasiadas.",
+          "options": [
+            "a las",
+            "al",
+            "a los"
+          ],
+          "answer": "a las",
+          "en": "As for the meetings, there are too many of them.",
+          "it": "Quanto alle riunioni, sono troppe.",
+          "uk": "Щодо нарад, їх забагато.",
+          "de": "Was die Besprechungen angeht: Es sind zu viele.",
+          "fr": "Quant aux réunions, il y en a trop.",
+          "pt": "Quanto às reuniões, são demais.",
+          "zh": "至于会议，实在太多了。",
+          "hint": {
+            "en": "las reuniones is feminine plural: a las.",
+            "it": "las reuniones è femminile plurale: a las.",
+            "uk": "las reuniones — жіночого роду, множина: a las.",
+            "de": "las reuniones ist weiblich Plural: a las.",
+            "fr": "las reuniones est féminin pluriel : a las.",
+            "pt": "las reuniones é feminino plural: a las.",
+            "zh": "las reuniones 是阴性复数：a las。"
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "In a meeting, your boss presents the budget for next year. Write in Spanish: «I don't entirely agree. Regarding the budget, I think it's too high.»",
+            "it": "In una riunione, il tuo capo presenta il budget dell'anno prossimo. Scrivi in spagnolo: «Non sono del tutto d'accordo. Riguardo al budget, credo che sia troppo alto.»",
+            "uk": "На нараді твій начальник представляє бюджет на наступний рік. Напиши іспанською: «Я не зовсім згоден(-на). Щодо бюджету, я думаю, що він зависокий.»",
+            "de": "In einer Besprechung stellt deine Chefin das Budget für nächstes Jahr vor. Schreib auf Spanisch: «Ich bin nicht ganz einverstanden. Was das Budget angeht, finde ich es zu hoch.»",
+            "fr": "En réunion, ton chef présente le budget de l'année prochaine. Écris en espagnol : «Je ne suis pas tout à fait d'accord. En ce qui concerne le budget, je pense qu'il est trop élevé.»",
+            "pt": "Numa reunião, o seu chefe apresenta o orçamento do ano que vem. Escreva em espanhol: «Não concordo totalmente. Em relação ao orçamento, acho que está alto demais.»",
+            "zh": "开会时，你的老板介绍明年的预算。用西班牙语写：«我不完全同意。关于预算，我觉得太高了。»"
+          },
+          "accepted": [
+            "No estoy del todo de acuerdo. Respecto al presupuesto, creo que es demasiado alto.",
+            "No estoy del todo de acuerdo. En cuanto al presupuesto, creo que es demasiado alto.",
+            "No estoy del todo de acuerdo. Respecto al presupuesto, considero que es demasiado alto.",
+            "No estoy del todo de acuerdo. Respecto al presupuesto, me parece demasiado alto."
+          ],
+          "model": {
+            "es": "No estoy del todo de acuerdo. Respecto al presupuesto, creo que es demasiado alto.",
+            "en": "I don't entirely agree. Regarding the budget, I think it's too high.",
+            "it": "Non sono del tutto d'accordo. Riguardo al budget, credo che sia troppo alto.",
+            "uk": "Я не зовсім згоден(-на). Щодо бюджету, я думаю, що він зависокий.",
+            "de": "Ich bin nicht ganz einverstanden. Was das Budget angeht, finde ich es zu hoch.",
+            "fr": "Je ne suis pas tout à fait d'accord. En ce qui concerne le budget, je pense qu'il est trop élevé.",
+            "pt": "Não concordo totalmente. Em relação ao orçamento, acho que está alto demais.",
+            "zh": "我不完全同意。关于预算，我觉得太高了。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u50l5",
+      "goal": {
+        "en": "Network at a work event: ask ¿a qué te dedicas? and answer me dedico a…, greet with encantado de conocerte, and keep in touch with te dejo mi tarjeta and estamos en contacto.",
+        "it": "Fai networking a un evento di lavoro: chiedi ¿a qué te dedicas? e rispondi me dedico a…, saluta con encantado de conocerte e resta in contatto con te dejo mi tarjeta ed estamos en contacto.",
+        "uk": "Заводь корисні знайомства на робочому заході: питай ¿a qué te dedicas? і відповідай me dedico a…, вітайся словами encantado de conocerte і залишайся на зв'язку за допомогою te dejo mi tarjeta і estamos en contacto.",
+        "de": "Knüpf Kontakte auf einer beruflichen Veranstaltung: Frag ¿a qué te dedicas? und antworte me dedico a…, begrüße mit encantado de conocerte und bleib in Kontakt mit te dejo mi tarjeta und estamos en contacto.",
+        "fr": "Fais du réseautage lors d'un événement professionnel : demande ¿a qué te dedicas? et réponds me dedico a…, salue avec encantado de conocerte, et garde le contact avec te dejo mi tarjeta et estamos en contacto.",
+        "pt": "Faça networking num evento de trabalho: pergunte ¿a qué te dedicas? e responda me dedico a…, cumprimente com encantado de conocerte e mantenha contato com te dejo mi tarjeta e estamos en contacto.",
+        "zh": "在工作活动上结识人脉：问 ¿a qué te dedicas?，用 me dedico a… 回答，用 encantado de conocerte 打招呼，再用 te dejo mi tarjeta 和 estamos en contacto 保持联系。"
+      },
+      "target": {
+        "es": "Encantado de conocerte. Te dejo mi tarjeta; estamos en contacto.",
+        "en": "Nice to meet you. Here's my card; let's keep in touch.",
+        "it": "Piacere di conoscerti. Ti lascio il mio biglietto da visita; restiamo in contatto.",
+        "uk": "Приємно познайомитися. Ось моя візитівка; будьмо на зв'язку.",
+        "de": "Freut mich, dich kennenzulernen. Hier ist meine Karte; bleiben wir in Kontakt.",
+        "fr": "Enchanté de te rencontrer. Je te laisse ma carte ; on reste en contact.",
+        "pt": "Prazer em te conhecer. Aqui está o meu cartão; vamos manter contato.",
+        "zh": "很高兴认识你。这是我的名片；我们保持联系。"
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "¿a qué te dedicas?",
+              "en": "what do you do (for a living)?",
+              "it": "che lavoro fai?",
+              "uk": "чим ти займаєшся (за фахом)?",
+              "de": "was machst du beruflich?",
+              "fr": "qu'est-ce que tu fais dans la vie ?",
+              "pt": "o que você faz (da vida)?",
+              "zh": "你是做什么工作的？",
+              "kind": "chunk"
+            },
+            {
+              "es": "me dedico a…",
+              "en": "I work in…, I do… for a living",
+              "it": "mi occupo di…, lavoro nel…",
+              "uk": "я працюю в…, я займаюся…",
+              "de": "ich arbeite im Bereich…, ich bin beruflich…",
+              "fr": "je travaille dans…, je suis dans… (métier)",
+              "pt": "eu trabalho com…, eu me dedico a…",
+              "zh": "我从事……，我是做……的",
+              "kind": "chunk"
+            },
+            {
+              "es": "conocerte",
+              "en": "to meet you, to get to know you (tú)",
+              "it": "conoscerti",
+              "uk": "познайомитися з тобою, пізнати тебе (tú)",
+              "de": "dich kennenlernen (tú)",
+              "fr": "te rencontrer, faire ta connaissance (tú)",
+              "pt": "te conhecer (tú)",
+              "zh": "认识你（tú）",
+              "kind": "stem"
+            },
+            {
+              "es": "estamos en contacto",
+              "en": "let's keep in touch, we'll be in touch",
+              "it": "restiamo in contatto",
+              "uk": "будьмо на зв'язку, ми на зв'язку",
+              "de": "bleiben wir in Kontakt, wir hören voneinander",
+              "fr": "on reste en contact, on se tient au courant",
+              "pt": "vamos manter contato, a gente se fala",
+              "zh": "我们保持联系",
+              "kind": "chunk"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "¿a qué te dedicas?",
+              "kind": "chunk"
+            },
+            {
+              "text": "→",
+              "kind": "chunk"
+            },
+            {
+              "text": "me dedico a…",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "To ask what someone does, say ¿a qué te dedicas? Answer with me dedico a + a noun or an infinitive (a + el = al).",
+            "it": "Per chiedere che lavoro fa qualcuno, di' ¿a qué te dedicas? Rispondi con me dedico a + un nome o un infinito (a + el = al).",
+            "uk": "Щоб спитати, чим людина займається, скажи ¿a qué te dedicas? Відповідай me dedico a + іменник або інфінітив (a + el = al).",
+            "de": "Um zu fragen, was jemand beruflich macht, sagst du ¿a qué te dedicas? Antworte mit me dedico a + Nomen oder Infinitiv (a + el = al).",
+            "fr": "Pour demander à quelqu'un ce qu'il fait dans la vie, dis ¿a qué te dedicas? Réponds avec me dedico a + un nom ou un infinitif (a + el = al).",
+            "pt": "Para perguntar o que alguém faz, diga ¿a qué te dedicas? Responda com me dedico a + um substantivo ou um infinitivo (a + el = al).",
+            "zh": "问别人做什么工作，说 ¿a qué te dedicas?。回答用 me dedico a + 名词或动词原形（a + el = al）。"
+          },
+          "examples": [
+            {
+              "es": "¿A qué te dedicas?",
+              "en": "What do you do?",
+              "it": "Che lavoro fai?",
+              "uk": "Чим ти займаєшся?",
+              "de": "Was machst du beruflich?",
+              "fr": "Qu'est-ce que tu fais dans la vie ?",
+              "pt": "O que você faz?",
+              "zh": "你是做什么工作的？"
+            },
+            {
+              "es": "Me dedico al turismo.",
+              "en": "I work in tourism.",
+              "it": "Lavoro nel turismo.",
+              "uk": "Я працюю в туризмі.",
+              "de": "Ich arbeite im Tourismus.",
+              "fr": "Je travaille dans le tourisme.",
+              "pt": "Eu trabalho com turismo.",
+              "zh": "我从事旅游业。"
+            },
+            {
+              "es": "Me dedico a vender pisos.",
+              "en": "I sell flats for a living.",
+              "it": "Di mestiere vendo appartamenti.",
+              "uk": "Я заробляю на життя продажем квартир.",
+              "de": "Ich verkaufe beruflich Wohnungen.",
+              "fr": "Je vends des appartements, c'est mon métier.",
+              "pt": "Eu trabalho vendendo apartamentos.",
+              "zh": "我是卖房子的。"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Perdona, ¿y tú a qué te ",
+          "after": "?",
+          "options": [
+            "dedicas",
+            "dedico"
+          ],
+          "answer": "dedicas",
+          "en": "Sorry, and what do you do?",
+          "it": "Scusa, e tu che lavoro fai?",
+          "uk": "Вибач, а ти чим займаєшся?",
+          "de": "Entschuldige, und was machst du beruflich?",
+          "fr": "Pardon, et toi, qu'est-ce que tu fais dans la vie ?",
+          "pt": "Desculpa, e você, o que faz?",
+          "zh": "不好意思，那你是做什么工作的？",
+          "hint": {
+            "en": "Asking tú: te dedicas.",
+            "it": "Chiedendo a tú: te dedicas.",
+            "uk": "Питаєш до tú: te dedicas.",
+            "de": "Frage an tú: te dedicas.",
+            "fr": "Pour demander à tú : te dedicas.",
+            "pt": "Perguntando a tú: te dedicas.",
+            "zh": "问 tú：te dedicas。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "Someone at a conference asks you «¿A qué te dedicas?». Answer: I work in tourism; I work at a hotel in {city}.",
+            "it": "Qualcuno a un convegno ti chiede «¿A qué te dedicas?». Rispondi: lavoro nel turismo; lavoro in un hotel a {city}.",
+            "uk": "Хтось на конференції питає тебе «¿A qué te dedicas?». Відповідай: я працюю в туризмі; працюю в готелі у місті {city}.",
+            "de": "Jemand fragt dich auf einer Konferenz «¿A qué te dedicas?». Antworte: Ich arbeite im Tourismus; ich arbeite in einem Hotel in {city}.",
+            "fr": "Quelqu'un te demande à un congrès «¿A qué te dedicas?». Réponds : je travaille dans le tourisme ; je travaille dans un hôtel à {city}.",
+            "pt": "Num congresso, alguém pergunta a você «¿A qué te dedicas?». Responda: eu trabalho com turismo; trabalho num hotel em {city}.",
+            "zh": "在一次会议上，有人问你 «¿A qué te dedicas?»。回答：我从事旅游业；我在{city}的一家酒店工作。"
+          },
+          "accepted": [
+            "Me dedico al turismo; trabajo en un hotel de {city}.",
+            "Me dedico al turismo; trabajo en un hotel en {city}."
+          ],
+          "tiles": [
+            "Me dedico",
+            "al turismo;",
+            "trabajo",
+            "en un hotel",
+            "de {city}",
+            "te dedicas",
+            "a la"
+          ],
+          "en": "I work in tourism; I work at a hotel in {city}.",
+          "it": "Lavoro nel turismo; lavoro in un hotel a {city}.",
+          "uk": "Я працюю в туризмі; працюю в готелі у місті {city}.",
+          "de": "Ich arbeite im Tourismus; ich arbeite in einem Hotel in {city}.",
+          "fr": "Je travaille dans le tourisme ; je travaille dans un hôtel à {city}.",
+          "pt": "Eu trabalho com turismo; trabalho num hotel em {city}.",
+          "zh": "我从事旅游业；我在{city}的一家酒店工作。",
+          "hint": {
+            "en": "me dedico a + el turismo = al turismo.",
+            "it": "me dedico a + el turismo = al turismo.",
+            "uk": "me dedico a + el turismo = al turismo.",
+            "de": "me dedico a + el turismo = al turismo.",
+            "fr": "me dedico a + el turismo = al turismo.",
+            "pt": "me dedico a + el turismo = al turismo.",
+            "zh": "me dedico a + el turismo = al turismo。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "encantado / encantada",
+              "kind": "chunk"
+            },
+            {
+              "text": "+",
+              "kind": "chunk"
+            },
+            {
+              "text": "de conocerte",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "When you meet someone, say encantado / encantada de conocerte. If you've heard about them, add me han hablado mucho de ti.",
+            "it": "Quando conosci qualcuno, di' encantado / encantada de conocerte. Se hai sentito parlare di lui o di lei, aggiungi me han hablado mucho de ti.",
+            "uk": "Коли з кимось знайомишся, кажи encantado / encantada de conocerte. Якщо ти вже чув(-ла) про цю людину, додай me han hablado mucho de ti.",
+            "de": "Wenn du jemanden kennenlernst, sag encantado / encantada de conocerte (je nachdem, ob du ein Mann oder eine Frau bist). Wenn du schon von der Person gehört hast, füg me han hablado mucho de ti hinzu.",
+            "fr": "Quand tu rencontres quelqu'un, dis encantado / encantada de conocerte. Si on t'a parlé de cette personne, ajoute me han hablado mucho de ti.",
+            "pt": "Quando conhecer alguém, diga encantado / encantada de conocerte. Se já ouviu falar da pessoa, acrescente me han hablado mucho de ti.",
+            "zh": "认识新朋友时，说 encantado / encantada de conocerte。如果你听说过对方，可以加上 me han hablado mucho de ti。"
+          },
+          "examples": [
+            {
+              "es": "Encantado de conocerte.",
+              "en": "Nice to meet you. (said by a man)",
+              "it": "Piacere di conoscerti.",
+              "uk": "Приємно познайомитися. (каже чоловік)",
+              "de": "Freut mich, dich kennenzulernen. (sagt ein Mann)",
+              "fr": "Enchanté de te rencontrer. (dit par un homme)",
+              "pt": "Prazer em te conhecer. (dito por um homem)",
+              "zh": "很高兴认识你。（男性说）"
+            },
+            {
+              "es": "Encantada de conocerte; me han hablado mucho de ti.",
+              "en": "Nice to meet you; I've heard a lot about you. (said by a woman)",
+              "it": "Piacere di conoscerti; mi hanno parlato molto di te.",
+              "uk": "Приємно познайомитися; мені багато про тебе розповідали. (каже жінка)",
+              "de": "Freut mich, dich kennenzulernen; ich habe schon viel von dir gehört. (sagt eine Frau)",
+              "fr": "Enchantée de te rencontrer ; on m'a beaucoup parlé de toi. (dit par une femme)",
+              "pt": "Prazer em te conhecer; já me falaram muito de você. (dito por uma mulher)",
+              "zh": "很高兴认识你；久仰大名。（女性说）"
+            },
+            {
+              "es": "Me han hablado mucho de tu empresa.",
+              "en": "I've heard a lot about your company.",
+              "it": "Mi hanno parlato molto della tua azienda.",
+              "uk": "Мені багато розповідали про твою компанію.",
+              "de": "Ich habe schon viel von deiner Firma gehört.",
+              "fr": "On m'a beaucoup parlé de ton entreprise.",
+              "pt": "Já me falaram muito da sua empresa.",
+              "zh": "我常听人说起你们公司。"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Encantada de ",
+          "after": ".",
+          "options": [
+            "conocerte",
+            "conocer",
+            "conozco"
+          ],
+          "answer": "conocerte",
+          "en": "Nice to meet you.",
+          "it": "Piacere di conoscerti.",
+          "uk": "Приємно познайомитися.",
+          "de": "Freut mich, dich kennenzulernen. (sagt eine Frau)",
+          "fr": "Enchantée de te rencontrer.",
+          "pt": "Prazer em te conhecer.",
+          "zh": "很高兴认识你。",
+          "hint": {
+            "en": "de + infinitive, with te on the end: conocerte.",
+            "it": "de + infinito, con te in fondo: conocerte.",
+            "uk": "de + інфінітив, з te в кінці: conocerte.",
+            "de": "de + Infinitiv, mit te am Ende: conocerte.",
+            "fr": "de + infinitif, avec te collé à la fin : conocerte.",
+            "pt": "de + infinitivo, com te no final: conocerte.",
+            "zh": "de + 动词原形，te 接在词尾：conocerte。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "fire",
+          "before": "Encantado de conocerte; me han ",
+          "after": " mucho de ti.",
+          "label": "hablar",
+          "accepted": [
+            "hablado"
+          ],
+          "en": "Nice to meet you; I've heard a lot about you.",
+          "it": "Piacere di conoscerti; mi hanno parlato molto di te.",
+          "uk": "Приємно познайомитися; мені багато про тебе розповідали.",
+          "de": "Freut mich, dich kennenzulernen; ich habe schon viel von dir gehört. (sagt ein Mann)",
+          "fr": "Enchanté de te rencontrer ; on m'a beaucoup parlé de toi.",
+          "pt": "Prazer em te conhecer; já me falaram muito de você.",
+          "zh": "很高兴认识你；久仰大名。",
+          "hint": {
+            "en": "han + participle: hablado.",
+            "it": "han + participio: hablado.",
+            "uk": "han + дієприкметник: hablado.",
+            "de": "han + Partizip: hablado.",
+            "fr": "han + participe : hablado.",
+            "pt": "han + particípio: hablado.",
+            "zh": "han + 过去分词：hablado。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "te dejo mi tarjeta",
+              "kind": "chunk"
+            },
+            {
+              "text": "·",
+              "kind": "chunk"
+            },
+            {
+              "text": "estamos en contacto",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "Before you leave, give your card with te dejo mi tarjeta, ask ¿te importa que te escriba…? (+ subjunctive) and say goodbye with estamos en contacto.",
+            "it": "Prima di andare via, dai il tuo biglietto da visita con te dejo mi tarjeta, chiedi ¿te importa que te escriba…? (+ congiuntivo) e saluta con estamos en contacto.",
+            "uk": "Перед тим як піти, дай свою візитівку словами te dejo mi tarjeta, спитай ¿te importa que te escriba…? (+ «subjuntivo») і попрощайся словами estamos en contacto.",
+            "de": "Bevor du gehst, gib deine Karte mit te dejo mi tarjeta, frag ¿te importa que te escriba…? (+ subjuntivo) und verabschiede dich mit estamos en contacto.",
+            "fr": "Avant de partir, donne ta carte avec te dejo mi tarjeta, demande ¿te importa que te escriba…? (+ subjuntivo) et dis au revoir avec estamos en contacto.",
+            "pt": "Antes de ir embora, entregue o seu cartão com te dejo mi tarjeta, pergunte ¿te importa que te escriba…? (+ subjuntivo) e despeça-se com estamos en contacto.",
+            "zh": "离开之前，用 te dejo mi tarjeta 递上名片，问一句 ¿te importa que te escriba…?（+ 虚拟式），再用 estamos en contacto 道别。"
+          },
+          "examples": [
+            {
+              "es": "Te dejo mi tarjeta.",
+              "en": "Here's my card.",
+              "it": "Ti lascio il mio biglietto da visita.",
+              "uk": "Ось моя візитівка.",
+              "de": "Hier ist meine Karte.",
+              "fr": "Je te laisse ma carte.",
+              "pt": "Aqui está o meu cartão.",
+              "zh": "这是我的名片。"
+            },
+            {
+              "es": "¿Te importa que te escriba la semana que viene?",
+              "en": "Do you mind if I write to you next week?",
+              "it": "Ti dispiace se ti scrivo la settimana prossima?",
+              "uk": "Ти не проти, якщо я напишу тобі наступного тижня?",
+              "de": "Hast du etwas dagegen, wenn ich dir nächste Woche schreibe?",
+              "fr": "Ça te dérange si je t'écris la semaine prochaine ?",
+              "pt": "Você se importa se eu te escrever na semana que vem?",
+              "zh": "下周我给你写信，你介意吗？"
+            },
+            {
+              "es": "Estamos en contacto.",
+              "en": "Let's keep in touch.",
+              "it": "Restiamo in contatto.",
+              "uk": "Будьмо на зв'язку.",
+              "de": "Bleiben wir in Kontakt.",
+              "fr": "On reste en contact.",
+              "pt": "Vamos manter contato.",
+              "zh": "我们保持联系。"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "¿Te importa que te ",
+          "after": " la semana que viene?",
+          "options": [
+            "escriba",
+            "escribo",
+            "escribir"
+          ],
+          "answer": "escriba",
+          "en": "Do you mind if I write to you next week?",
+          "it": "Ti dispiace se ti scrivo la settimana prossima?",
+          "uk": "Ти не проти, якщо я напишу тобі наступного тижня?",
+          "de": "Hast du etwas dagegen, wenn ich dir nächste Woche schreibe?",
+          "fr": "Ça te dérange si je t'écris la semaine prochaine ?",
+          "pt": "Você se importa se eu te escrever na semana que vem?",
+          "zh": "下周我给你写信，你介意吗？",
+          "hint": {
+            "en": "¿te importa que…? + subjunctive: escriba.",
+            "it": "¿te importa que…? + congiuntivo: escriba.",
+            "uk": "¿te importa que…? + «subjuntivo»: escriba.",
+            "de": "¿te importa que…? + subjuntivo: escriba.",
+            "fr": "¿te importa que…? + subjuntivo : escriba. En français, on dit ça te dérange si + indicatif.",
+            "pt": "¿te importa que…? + subjuntivo: escriba.",
+            "zh": "¿te importa que…? + 虚拟式：escriba。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "The conversation is ending. Give the person your card and say: here's my card; let's keep in touch.",
+            "it": "La conversazione sta finendo. Dai il tuo biglietto da visita e di': ti lascio il mio biglietto; restiamo in contatto.",
+            "uk": "Розмова добігає кінця. Дай людині свою візитівку й скажи: ось моя візитівка; будьмо на зв'язку.",
+            "de": "Das Gespräch geht zu Ende. Gib der Person deine Karte und sag: Hier ist meine Karte; bleiben wir in Kontakt.",
+            "fr": "La conversation se termine. Donne ta carte à la personne et dis : je te laisse ma carte ; on reste en contact.",
+            "pt": "A conversa está terminando. Entregue o seu cartão à pessoa e diga: aqui está o meu cartão; vamos manter contato.",
+            "zh": "谈话快结束了。把名片递给对方，并说：这是我的名片；我们保持联系。"
+          },
+          "accepted": [
+            "Te dejo mi tarjeta; estamos en contacto.",
+            "Te dejo mi tarjeta. Estamos en contacto."
+          ],
+          "tiles": [
+            "Te dejo",
+            "mi tarjeta;",
+            "estamos",
+            "en contacto",
+            "dejas",
+            "somos"
+          ],
+          "en": "Here's my card; let's keep in touch.",
+          "it": "Ti lascio il mio biglietto da visita; restiamo in contatto.",
+          "uk": "Ось моя візитівка; будьмо на зв'язку.",
+          "de": "Hier ist meine Karte; bleiben wir in Kontakt.",
+          "fr": "Je te laisse ma carte ; on reste en contact.",
+          "pt": "Aqui está o meu cartão; vamos manter contato.",
+          "zh": "这是我的名片；我们保持联系。",
+          "hint": {
+            "en": "It's estar: estamos en contacto.",
+            "it": "È estar: estamos en contacto.",
+            "uk": "Тут estar: estamos en contacto.",
+            "de": "Es ist estar: estamos en contacto.",
+            "fr": "C'est estar : estamos en contacto.",
+            "pt": "É estar: estamos en contacto.",
+            "zh": "这里用 estar：estamos en contacto。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "mix",
+          "before": "Me ",
+          "after": " al turismo desde hace diez años.",
+          "label": "dedicarse",
+          "accepted": [
+            "dedico"
+          ],
+          "en": "I've worked in tourism for ten years.",
+          "it": "Lavoro nel turismo da dieci anni.",
+          "uk": "Я працюю в туризмі вже десять років.",
+          "de": "Ich arbeite seit zehn Jahren im Tourismus.",
+          "fr": "Je travaille dans le tourisme depuis dix ans.",
+          "pt": "Trabalho com turismo há dez anos.",
+          "zh": "我从事旅游业已经十年了。",
+          "hint": {
+            "en": "yo: me dedico.",
+            "it": "yo: me dedico.",
+            "uk": "yo: me dedico.",
+            "de": "yo: me dedico.",
+            "fr": "yo : me dedico.",
+            "pt": "yo: me dedico.",
+            "zh": "yo：me dedico。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "Encantado de conocerte; me han hablado mucho de ",
+          "after": ".",
+          "options": [
+            "ti",
+            "tú",
+            "te"
+          ],
+          "answer": "ti",
+          "en": "Nice to meet you; I've heard a lot about you.",
+          "it": "Piacere di conoscerti; mi hanno parlato molto di te.",
+          "uk": "Приємно познайомитися; мені багато про тебе розповідали.",
+          "de": "Freut mich, dich kennenzulernen; ich habe schon viel von dir gehört. (sagt ein Mann)",
+          "fr": "Enchanté de te rencontrer ; on m'a beaucoup parlé de toi.",
+          "pt": "Prazer em te conhecer; já me falaram muito de você.",
+          "zh": "很高兴认识你；久仰大名。",
+          "hint": {
+            "en": "After de, use ti.",
+            "it": "Dopo de, si usa ti.",
+            "uk": "Після de вживай ti.",
+            "de": "Nach de steht ti.",
+            "fr": "Après de, on utilise ti.",
+            "pt": "Depois de de, use ti.",
+            "zh": "de 后面用 ti。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "mix",
+          "intention": {
+            "en": "You've just been introduced to someone at a work dinner. Ask: and what do you do?",
+            "it": "Ti hanno appena presentato qualcuno a una cena di lavoro. Chiedi: e tu che lavoro fai?",
+            "uk": "Тебе щойно з кимось познайомили на діловій вечері. Спитай: а ти чим займаєшся?",
+            "de": "Bei einem Geschäftsessen hat man dir gerade jemanden vorgestellt. Frag: Und was machst du beruflich?",
+            "fr": "On vient de te présenter quelqu'un à un dîner professionnel. Demande : et toi, qu'est-ce que tu fais dans la vie ?",
+            "pt": "Você acabou de ser apresentado a alguém num jantar de trabalho. Pergunte: e você, o que faz?",
+            "zh": "在一次工作晚宴上，有人刚把某人介绍给你。问：那你是做什么工作的？"
+          },
+          "accepted": [
+            "¿Y tú a qué te dedicas?",
+            "Y tú, ¿a qué te dedicas?",
+            "¿Y a qué te dedicas?"
+          ],
+          "tiles": [
+            "¿Y tú",
+            "a qué",
+            "te dedicas?",
+            "me dedico",
+            "qué"
+          ],
+          "en": "And what do you do?",
+          "it": "E tu che lavoro fai?",
+          "uk": "А ти чим займаєшся?",
+          "de": "Und was machst du beruflich?",
+          "fr": "Et toi, qu'est-ce que tu fais dans la vie ?",
+          "pt": "E você, o que faz?",
+          "zh": "那你是做什么工作的？",
+          "hint": {
+            "en": "¿a qué te dedicas?: what do you do for a living?",
+            "it": "¿a qué te dedicas?: che lavoro fai?",
+            "uk": "¿a qué te dedicas?: чим ти заробляєш на життя?",
+            "de": "¿a qué te dedicas?: Was machst du beruflich?",
+            "fr": "¿a qué te dedicas? : qu'est-ce que tu fais dans la vie ?",
+            "pt": "¿a qué te dedicas?: o que você faz da vida?",
+            "zh": "¿a qué te dedicas?：你是做什么工作的？"
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "You're saying goodbye to someone you've just met at a conference. Write in Spanish: «Nice to meet you. Here's my card; let's keep in touch.»",
+            "it": "Stai salutando una persona che hai appena conosciuto a un convegno. Scrivi in spagnolo: «Piacere di conoscerti. Ti lascio il mio biglietto da visita; restiamo in contatto.»",
+            "uk": "Ти прощаєшся з людиною, з якою щойно познайомився(-лася) на конференції. Напиши іспанською: «Приємно познайомитися. Ось моя візитівка; будьмо на зв'язку.»",
+            "de": "Du verabschiedest dich von jemandem, den du gerade auf einer Konferenz kennengelernt hast. Schreib auf Spanisch: «Freut mich, dich kennenzulernen. Hier ist meine Karte; bleiben wir in Kontakt.»",
+            "fr": "Tu dis au revoir à quelqu'un que tu viens de rencontrer à un congrès. Écris en espagnol : «Enchanté de te rencontrer. Je te laisse ma carte ; on reste en contact.»",
+            "pt": "Você está se despedindo de alguém que acabou de conhecer num congresso. Escreva em espanhol: «Prazer em te conhecer. Aqui está o meu cartão; vamos manter contato.»",
+            "zh": "你在和一位刚在会议上认识的人道别。用西班牙语写：«很高兴认识你。这是我的名片；我们保持联系。»"
+          },
+          "accepted": [
+            "Encantado de conocerte. Te dejo mi tarjeta; estamos en contacto.",
+            "Encantada de conocerte. Te dejo mi tarjeta; estamos en contacto.",
+            "Encantado de conocerte. Te dejo mi tarjeta y estamos en contacto.",
+            "Encantada de conocerte. Te dejo mi tarjeta y estamos en contacto."
+          ],
+          "model": {
+            "es": "Encantado de conocerte. Te dejo mi tarjeta; estamos en contacto.",
+            "en": "Nice to meet you. Here's my card; let's keep in touch.",
+            "it": "Piacere di conoscerti. Ti lascio il mio biglietto da visita; restiamo in contatto.",
+            "uk": "Приємно познайомитися. Ось моя візитівка; будьмо на зв'язку.",
+            "de": "Freut mich, dich kennenzulernen. Hier ist meine Karte; bleiben wir in Kontakt.",
+            "fr": "Enchanté de te rencontrer. Je te laisse ma carte ; on reste en contact.",
+            "pt": "Prazer em te conhecer. Aqui está o meu cartão; vamos manter contato.",
+            "zh": "很高兴认识你。这是我的名片；我们保持联系。"
+          }
+        }
+      ]
+    }
+  ],
+  "boss": {
+    "id": "u50boss",
+    "goal": {
+      "en": "A demanding client, whom you call usted, has come to your office to discuss a big contract. She thinks your price is too high and your deadline too long. Present your offer, negotiate and close the deal.",
+      "it": "Una cliente esigente, a cui dai del Lei, è venuta nel tuo ufficio per discutere un contratto importante. Secondo lei il vostro prezzo è troppo alto e i tempi troppo lunghi. Presenta la tua offerta, negozia e chiudi l'accordo.",
+      "uk": "Вимоглива клієнтка, до якої ти звертаєшся на usted, прийшла до твого офісу обговорити великий контракт. Вона вважає, що ваша ціна зависока, а строк задовгий. Представ свою пропозицію, проведи переговори й уклади угоду.",
+      "de": "Eine anspruchsvolle Kundin, die du siezt (usted), ist in dein Büro gekommen, um über einen großen Auftrag zu sprechen. Sie findet euren Preis zu hoch und eure Frist zu lang. Stell dein Angebot vor, verhandle und schließ den Deal ab.",
+      "fr": "Une cliente exigeante, que tu vouvoies, est venue à ton bureau pour discuter d'un gros contrat. Elle trouve ton prix trop élevé et ton délai trop long. Présente ton offre, négocie et conclus l'affaire.",
+      "pt": "Uma cliente exigente, que você trata por usted, veio ao seu escritório para discutir um contrato grande. Ela acha que o seu preço está alto demais e o seu prazo, longo demais. Apresente a sua oferta, negocie e feche o negócio.",
+      "zh": "一位要求很高的女客户来到你的办公室，商谈一份大合同，你称呼她 usted。她觉得你们的价格太高，工期太长。介绍你的方案，进行谈判，然后谈成这笔交易。"
+    },
+    "items": [
+      {
+        "type": "words",
+        "words": [
+          {
+            "es": "el plazo",
+            "en": "the deadline, the time frame",
+            "it": "la scadenza, i tempi",
+            "uk": "строк, термін",
+            "de": "die Frist, der Zeitrahmen",
+            "fr": "le délai",
+            "pt": "o prazo",
+            "zh": "期限，工期",
+            "kind": "chunk"
+          },
+          {
+            "es": "cerrar un trato",
+            "en": "to close a deal",
+            "it": "chiudere un accordo",
+            "uk": "укласти угоду",
+            "de": "einen Deal abschließen, ein Geschäft abschließen",
+            "fr": "conclure une affaire",
+            "pt": "fechar um negócio, fechar um acordo",
+            "zh": "达成交易，谈成生意",
+            "kind": "chunk"
+          },
+          {
+            "es": "¡trato hecho!",
+            "en": "it's a deal!",
+            "it": "affare fatto!",
+            "uk": "домовилися!",
+            "de": "abgemacht!",
+            "fr": "marché conclu !",
+            "pt": "negócio fechado!",
+            "zh": "成交！",
+            "kind": "chunk"
+          }
+        ]
+      },
+      {
+        "type": "build",
+        "intention": {
+          "en": "The client arrives. Greet her and thank her: good morning; thank you for coming.",
+          "it": "Arriva la cliente. Salutala e ringraziala: buongiorno; grazie di essere venuta.",
+          "uk": "Клієнтка приходить. Привітайся й подякуй їй: доброго ранку; дякую, що прийшли.",
+          "de": "Die Kundin kommt an. Begrüße sie und bedank dich: Guten Morgen; danke, dass Sie gekommen sind.",
+          "fr": "La cliente arrive. Salue-la et remercie-la : bonjour ; merci d'être venue.",
+          "pt": "A cliente chega. Cumprimente-a e agradeça: bom dia; obrigado por ter vindo.",
+          "zh": "客户到了。向她问好并表示感谢：早上好；感谢您的光临。"
+        },
+        "accepted": [
+          "Buenos días; gracias por venir.",
+          "Buenos días; muchas gracias por venir."
+        ],
+        "tiles": [
+          "Buenos días;",
+          "gracias",
+          "por venir",
+          "vienes",
+          "hola"
+        ],
+        "en": "Good morning; thank you for coming.",
+        "it": "Buongiorno; grazie di essere venuta.",
+        "uk": "Доброго ранку; дякую, що прийшли.",
+        "de": "Guten Morgen; danke, dass Sie gekommen sind.",
+        "fr": "Bonjour ; merci d'être venue.",
+        "pt": "Bom dia; obrigado por ter vindo.",
+        "zh": "早上好；感谢您的光临。",
+        "hint": {
+          "en": "gracias por + infinitive: por venir.",
+          "it": "gracias por + infinito: por venir.",
+          "uk": "gracias por + інфінітив: por venir.",
+          "de": "gracias por + Infinitiv: por venir.",
+          "fr": "gracias por + infinitif : por venir.",
+          "pt": "gracias por + infinitivo: por venir.",
+          "zh": "gracias por + 动词原形：por venir。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "El objetivo de esta reunión es ",
+        "after": " un trato.",
+        "options": [
+          "cerrar",
+          "cerramos",
+          "cerrado"
+        ],
+        "answer": "cerrar",
+        "en": "The aim of this meeting is to close a deal.",
+        "it": "L'obiettivo di questa riunione è chiudere un accordo.",
+        "uk": "Мета цієї зустрічі — укласти угоду.",
+        "de": "Das Ziel dieser Besprechung ist es, einen Deal abzuschließen.",
+        "fr": "L'objectif de cette réunion est de conclure une affaire.",
+        "pt": "O objetivo desta reunião é fechar um negócio.",
+        "zh": "这次会议的目的是达成交易。",
+        "hint": {
+          "en": "el objetivo es + infinitive: cerrar.",
+          "it": "el objetivo es + infinito: cerrar.",
+          "uk": "el objetivo es + інфінітив: cerrar.",
+          "de": "el objetivo es + Infinitiv: cerrar.",
+          "fr": "el objetivo es + infinitif : cerrar.",
+          "pt": "el objetivo es + infinitivo: cerrar.",
+          "zh": "el objetivo es + 动词原形：cerrar。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "Nuestra ",
+        "after": " es empezar el proyecto en septiembre.",
+        "options": [
+          "propuesta",
+          "precio",
+          "plazo"
+        ],
+        "answer": "propuesta",
+        "en": "Our proposal is to start the project in September.",
+        "it": "La nostra proposta è cominciare il progetto a settembre.",
+        "uk": "Наша пропозиція — почати проєкт у вересні.",
+        "de": "Unser Vorschlag ist, das Projekt im September zu beginnen.",
+        "fr": "Notre proposition est de commencer le projet en septembre.",
+        "pt": "A nossa proposta é começar o projeto em setembro.",
+        "zh": "我们的提议是九月启动这个项目。",
+        "hint": {
+          "en": "nuestra is feminine: la propuesta.",
+          "it": "nuestra è femminile: la propuesta.",
+          "uk": "nuestra — жіночого роду: la propuesta.",
+          "de": "nuestra ist weiblich: la propuesta.",
+          "fr": "nuestra est féminin : la propuesta.",
+          "pt": "nuestra é feminino: la propuesta.",
+          "zh": "nuestra 是阴性：la propuesta。"
+        }
+      },
+      {
+        "type": "gap",
+        "before": "Entiendo su punto de ",
+        "after": ", pero es un precio razonable.",
+        "label": "view",
+        "accepted": [
+          "vista"
+        ],
+        "en": "I understand your point of view, but it's a reasonable price.",
+        "it": "Capisco il Suo punto di vista, ma è un prezzo ragionevole.",
+        "uk": "Я розумію Вашу точку зору, але це розумна ціна.",
+        "de": "Ich verstehe Ihren Standpunkt, aber es ist ein angemessener Preis.",
+        "fr": "Je comprends votre point de vue, mais c'est un prix raisonnable.",
+        "pt": "Entendo o ponto de vista da senhora, mas é um preço razoável.",
+        "zh": "我理解您的观点，但这是一个合理的价格。",
+        "hint": {
+          "en": "punto de vista; su for usted.",
+          "it": "punto de vista; su per usted.",
+          "uk": "punto de vista; su для usted.",
+          "de": "punto de vista; su für usted.",
+          "fr": "punto de vista ; su pour usted.",
+          "pt": "punto de vista; su para usted.",
+          "zh": "punto de vista；称呼 usted 用 su。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "Si ",
+        "after": " ahora, le ofrecemos un descuento de cien euros.",
+        "options": [
+          "paga",
+          "pague",
+          "pagar"
+        ],
+        "answer": "paga",
+        "en": "If you pay now, we'll offer you a discount of a hundred euros.",
+        "it": "Se paga adesso, Le offriamo uno sconto di cento euro.",
+        "uk": "Якщо Ви заплатите зараз, ми запропонуємо Вам знижку в сто євро.",
+        "de": "Wenn Sie jetzt bezahlen, bieten wir Ihnen einen Rabatt von hundert Euro an.",
+        "fr": "Si vous payez maintenant, nous vous proposons une remise de cent euros.",
+        "pt": "Se a senhora pagar agora, nós lhe oferecemos um desconto de cem euros.",
+        "zh": "如果您现在付款，我们给您一百欧元的折扣。",
+        "hint": {
+          "en": "si takes the normal present; usted: paga.",
+          "it": "si vuole il presente normale; usted: paga.",
+          "uk": "si вимагає звичайного теперішнього часу; usted: paga.",
+          "de": "si steht mit dem normalen Präsens; usted: paga.",
+          "fr": "si demande le présent normal ; usted : paga.",
+          "pt": "Depois de si vai o presente normal; usted: paga.",
+          "zh": "si 后面用普通的现在时；usted：paga。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "Respecto ",
+        "after": " plazo, podemos terminar en junio.",
+        "options": [
+          "al",
+          "a la",
+          "del"
+        ],
+        "answer": "al",
+        "en": "As for the deadline, we can finish in June.",
+        "it": "Quanto ai tempi, possiamo finire a giugno.",
+        "uk": "Щодо строку, ми можемо закінчити в червні.",
+        "de": "Was die Frist angeht, können wir im Juni fertig sein.",
+        "fr": "Quant au délai, nous pouvons terminer en juin.",
+        "pt": "Em relação ao prazo, podemos terminar em junho.",
+        "zh": "至于工期，我们可以在六月完成。",
+        "hint": {
+          "en": "el plazo: a + el = al.",
+          "it": "el plazo: a + el = al.",
+          "uk": "el plazo: a + el = al.",
+          "de": "el plazo: a + el = al.",
+          "fr": "el plazo : a + el = al.",
+          "pt": "el plazo: a + el = al.",
+          "zh": "el plazo：a + el = al。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "Le hacemos el descuento siempre que ",
+        "after": " el contrato esta semana.",
+        "options": [
+          "firme",
+          "firmar"
+        ],
+        "answer": "firme",
+        "en": "We'll give you the discount as long as you sign the contract this week.",
+        "it": "Le facciamo lo sconto, purché firmi il contratto questa settimana.",
+        "uk": "Ми зробимо Вам знижку за умови, що Ви підпишете договір цього тижня.",
+        "de": "Wir geben Ihnen den Rabatt, vorausgesetzt, Sie unterschreiben den Vertrag diese Woche.",
+        "fr": "Nous vous faisons la remise à condition que vous signiez le contrat cette semaine.",
+        "pt": "Damos o desconto à senhora, desde que assine o contrato esta semana.",
+        "zh": "只要您这周签合同，我们就给您这个折扣。",
+        "hint": {
+          "en": "siempre que as a condition: subjunctive; usted: firme.",
+          "it": "siempre que come condizione: congiuntivo; usted: firme.",
+          "uk": "siempre que як умова: «subjuntivo»; usted: firme.",
+          "de": "siempre que als Bedingung: subjuntivo; usted: firme.",
+          "fr": "siempre que comme condition : subjuntivo ; usted : firme.",
+          "pt": "siempre que como condição: subjuntivo; usted: firme.",
+          "zh": "siempre que 表示条件：用虚拟式；usted：firme。"
+        }
+      },
+      {
+        "type": "gap",
+        "before": "Me ",
+        "after": " que no podemos bajar más el precio.",
+        "label": "temer",
+        "accepted": [
+          "temo"
+        ],
+        "en": "I'm afraid we can't lower the price any further.",
+        "it": "Temo che non possiamo abbassare ulteriormente il prezzo.",
+        "uk": "Боюся, ми не можемо знизити ціну ще більше.",
+        "de": "Ich fürchte, wir können den Preis nicht weiter senken.",
+        "fr": "Je crains que nous ne puissions pas baisser davantage le prix.",
+        "pt": "Receio que não possamos baixar mais o preço.",
+        "zh": "恐怕我们不能再降价了。",
+        "hint": {
+          "en": "me temo que: a polite no.",
+          "it": "me temo que: un no cortese.",
+          "uk": "me temo que: ввічливе «ні».",
+          "de": "me temo que: ein höfliches Nein.",
+          "fr": "me temo que : un non poli.",
+          "pt": "me temo que: um «não» educado.",
+          "zh": "me temo que：礼貌地说“不”。"
+        }
+      },
+      {
+        "type": "build",
+        "intention": {
+          "en": "She says September is too late to start. Counter: how about starting in July?",
+          "it": "Dice che settembre è troppo tardi per cominciare. Controproponi: che ne dice se cominciamo a luglio?",
+          "uk": "Вона каже, що вересень — це надто пізно для початку. Запропонуй інше: як Ви дивитеся на те, щоб почати в липні?",
+          "de": "Sie sagt, September sei zu spät für den Start. Mach ein Gegenangebot: Was halten Sie davon, wenn wir im Juli beginnen?",
+          "fr": "Elle dit que septembre, c'est trop tard pour commencer. Fais une contre-proposition : que diriez-vous de commencer en juillet ?",
+          "pt": "Ela diz que setembro é tarde demais para começar. Faça uma contraproposta: o que a senhora acha de começarmos em julho?",
+          "zh": "她说九月开始太晚了。提出另一个方案：您看我们七月开始怎么样？"
+        },
+        "accepted": [
+          "¿Qué le parece si empezamos en julio?"
+        ],
+        "tiles": [
+          "¿Qué le",
+          "parece",
+          "si",
+          "empezamos",
+          "en julio?",
+          "empezar",
+          "te"
+        ],
+        "en": "How about starting in July?",
+        "it": "Che ne dice se cominciamo a luglio?",
+        "uk": "Як Ви дивитеся на те, щоб почати в липні?",
+        "de": "Was halten Sie davon, wenn wir im Juli beginnen?",
+        "fr": "Que diriez-vous de commencer en juillet ?",
+        "pt": "O que a senhora acha de começarmos em julho?",
+        "zh": "您看我们七月开始怎么样？",
+        "hint": {
+          "en": "¿qué le parece si…? + the present: empezamos.",
+          "it": "¿qué le parece si…? + il presente: empezamos.",
+          "uk": "¿qué le parece si…? + теперішній час: empezamos.",
+          "de": "¿qué le parece si…? + Präsens: empezamos.",
+          "fr": "¿qué le parece si…? + le présent : empezamos.",
+          "pt": "¿qué le parece si…? + presente: empezamos.",
+          "zh": "¿qué le parece si…? + 现在时：empezamos。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "No estoy del todo de ",
+        "after": " con usted, pero entiendo el problema.",
+        "options": [
+          "acuerdo",
+          "punto",
+          "tema"
+        ],
+        "answer": "acuerdo",
+        "en": "I don't entirely agree with you, but I understand the problem.",
+        "it": "Non sono del tutto d'accordo con Lei, ma capisco il problema.",
+        "uk": "Я не зовсім згоден(-на) з Вами, але розумію проблему.",
+        "de": "Ich bin nicht ganz Ihrer Meinung, aber ich verstehe das Problem.",
+        "fr": "Je ne suis pas tout à fait d'accord avec vous, mais je comprends le problème.",
+        "pt": "Não concordo totalmente com a senhora, mas entendo o problema.",
+        "zh": "我不完全同意您的看法，但我理解这个问题。",
+        "hint": {
+          "en": "estar de acuerdo: to agree.",
+          "it": "estar de acuerdo: essere d'accordo.",
+          "uk": "estar de acuerdo: бути згодним.",
+          "de": "estar de acuerdo: einverstanden sein, einer Meinung sein.",
+          "fr": "estar de acuerdo : être d'accord.",
+          "pt": "estar de acuerdo: concordar.",
+          "zh": "estar de acuerdo：同意。"
+        }
+      },
+      {
+        "type": "gap",
+        "before": "Es una propuesta ",
+        "after": "; la aceptamos.",
+        "label": "reasonable",
+        "accepted": [
+          "razonable"
+        ],
+        "en": "It's a reasonable proposal; we accept it.",
+        "it": "È una proposta ragionevole; la accettiamo.",
+        "uk": "Це розумна пропозиція; ми її приймаємо.",
+        "de": "Das ist ein vernünftiger Vorschlag; wir nehmen ihn an.",
+        "fr": "C'est une proposition raisonnable ; nous l'acceptons.",
+        "pt": "É uma proposta razoável; nós a aceitamos.",
+        "zh": "这是一个合理的提议；我们接受。",
+        "hint": {
+          "en": "razonable: reasonable.",
+          "it": "razonable: ragionevole.",
+          "uk": "razonable: розумний.",
+          "de": "razonable: vernünftig, angemessen.",
+          "fr": "razonable : raisonnable.",
+          "pt": "razonable: razoável.",
+          "zh": "razonable：合理的。"
+        }
+      },
+      {
+        "type": "build",
+        "intention": {
+          "en": "She agrees to everything. Close the deal: it's a deal! We'll send you the contract tomorrow.",
+          "it": "Accetta tutto. Chiudi l'accordo: affare fatto! Le mandiamo il contratto domani.",
+          "uk": "Вона на все погоджується. Уклади угоду: домовилися! Завтра ми надішлемо Вам договір.",
+          "de": "Sie ist mit allem einverstanden. Schließ den Deal ab: Abgemacht! Wir schicken Ihnen den Vertrag morgen.",
+          "fr": "Elle accepte tout. Conclus l'affaire : marché conclu ! Nous vous envoyons le contrat demain.",
+          "pt": "Ela concorda com tudo. Feche o negócio: negócio fechado! Enviamos o contrato para a senhora amanhã.",
+          "zh": "她全都同意了。谈成这笔交易：成交！我们明天把合同发给您。"
+        },
+        "accepted": [
+          "¡Trato hecho! Le mandamos el contrato mañana.",
+          "¡Trato hecho! Mañana le mandamos el contrato."
+        ],
+        "tiles": [
+          "¡Trato",
+          "hecho!",
+          "Le mandamos",
+          "el contrato",
+          "mañana",
+          "te",
+          "hecha"
+        ],
+        "en": "It's a deal! We'll send you the contract tomorrow.",
+        "it": "Affare fatto! Le mandiamo il contratto domani.",
+        "uk": "Домовилися! Завтра ми надішлемо Вам договір.",
+        "de": "Abgemacht! Wir schicken Ihnen den Vertrag morgen.",
+        "fr": "Marché conclu ! Nous vous envoyons le contrat demain.",
+        "pt": "Negócio fechado! Enviamos o contrato para a senhora amanhã.",
+        "zh": "成交！我们明天把合同发给您。",
+        "hint": {
+          "en": "¡trato hecho! closes the deal; le for usted.",
+          "it": "¡trato hecho! chiude l'accordo; le per usted.",
+          "uk": "¡trato hecho! закриває угоду; le для usted.",
+          "de": "¡trato hecho! schließt den Deal ab; le für usted.",
+          "fr": "¡trato hecho! conclut l'affaire ; le pour usted.",
+          "pt": "¡trato hecho! fecha o negócio; le para usted.",
+          "zh": "¡trato hecho! 表示成交；称呼 usted 用 le。"
+        }
+      },
+      {
+        "type": "write",
+        "instruction": {
+          "en": "The client is leaving. Write in Spanish: «Thank you for your time; we'll be in touch.»",
+          "it": "La cliente se ne sta andando. Scrivi in spagnolo: «Grazie per il Suo tempo; restiamo in contatto.»",
+          "uk": "Клієнтка йде. Напиши іспанською: «Дякую за Ваш час; будемо на зв'язку.»",
+          "de": "Die Kundin geht. Schreib auf Spanisch: «Danke für Ihre Zeit; wir bleiben in Kontakt.»",
+          "fr": "La cliente s'en va. Écris en espagnol : «Merci pour votre temps ; nous restons en contact.»",
+          "pt": "A cliente está indo embora. Escreva em espanhol: «Obrigado pelo seu tempo; vamos manter contato.»",
+          "zh": "客户要走了。用西班牙语写：«感谢您抽出时间；我们保持联系。»"
+        },
+        "accepted": [
+          "Gracias por su tiempo; estamos en contacto.",
+          "Muchas gracias por su tiempo; estamos en contacto.",
+          "Gracias por su tiempo. Estamos en contacto."
+        ],
+        "model": {
+          "es": "Gracias por su tiempo; estamos en contacto.",
+          "en": "Thank you for your time; we'll be in touch.",
+          "it": "Grazie per il Suo tempo; restiamo in contatto.",
+          "uk": "Дякую за Ваш час; будемо на зв'язку.",
+          "de": "Danke für Ihre Zeit; wir bleiben in Kontakt.",
+          "fr": "Merci pour votre temps ; nous restons en contact.",
+          "pt": "Obrigado pelo seu tempo; vamos manter contato.",
+          "zh": "感谢您抽出时间；我们保持联系。"
+        }
+      }
+    ]
+  }
+}
