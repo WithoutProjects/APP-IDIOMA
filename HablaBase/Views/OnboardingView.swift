@@ -83,6 +83,8 @@ struct ProfileForm: View {
     @Binding var profile: Profile
     /// Shown above the form on the Profile tab.
     var header: AnyView?
+    /// On the Profile tab: the reset button, in its own card at the end of the form.
+    var onReset: (() -> Void)?
 
     var body: some View {
         Form {
@@ -127,6 +129,13 @@ struct ProfileForm: View {
             if header != nil {
                 AboutSection()
             }
+
+            if let onReset {
+                Section {
+                    Button("Reset progress", role: .destructive, action: onReset)
+                        .frame(maxWidth: .infinity)
+                }
+            }
         }
     }
 }
@@ -143,11 +152,8 @@ struct ProfileView: View {
                                 ScreenHeader(eyebrow: Journey.currentLevel(store: store).map { Journey.caption($0, language: store.language) },
                                              title: "Profile",
                                              subtitle: profile.name)
-                            ))
-                    .safeAreaInset(edge: .bottom) {
-                        Button("Reset progress", role: .destructive) { confirmReset = true }
-                            .padding()
-                    }
+                            ),
+                            onReset: { confirmReset = true })
                     .confirmationDialog("Delete all progress and start again?", isPresented: $confirmReset, titleVisibility: .visible) {
                         Button("Reset", role: .destructive) { store.reset() }
                     }
