@@ -113,10 +113,18 @@ struct TablesView: View {
         }
         .padding(.horizontal, 8)
         .frame(maxWidth: .infinity, minHeight: 34)
-        .background(
-            RoundedRectangle(cornerRadius: 8)
-                .fill(tone.main.opacity(locked || !used ? 0.04 : 0.08 + 0.17 * Double(mastery)))
-        )
+        // A plain light cell keeps both colours of the form readable; mastery (0-5) is a thin bar below.
+        .background(RoundedRectangle(cornerRadius: 8).fill(Color(.systemBackground)))
+        .overlay(alignment: .bottomLeading) {
+            if !locked && used && mastery > 0 {
+                GeometryReader { geo in
+                    Capsule()
+                        .fill(tone.main.opacity(0.6))
+                        .frame(width: (geo.size.width - 16) * Double(mastery) / 5, height: 3)
+                        .offset(x: 8, y: geo.size.height - 5)
+                }
+            }
+        }
     }
 
     // MARK: Lego bench
