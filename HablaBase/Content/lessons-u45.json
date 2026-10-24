@@ -1,0 +1,3341 @@
+{
+  "unit": "u45",
+  "lessons": [
+    {
+      "id": "u45l1",
+      "goal": {
+        "en": "Sound natural in conversation with the little words Spaniards use all the time: pues to start an answer, bueno to accept or wrap up, and o sea and vamos to say something again in other words.",
+        "it": "Parla in modo naturale con le parole che gli spagnoli usano di continuo: pues per cominciare una risposta, bueno per accettare o chiudere, e o sea e vamos per ridire una cosa con altre parole.",
+        "uk": "Говори природно, як іспанці, з маленькими словами, які вони вживають постійно: pues — щоб почати відповідь, bueno — щоб погодитися або завершити розмову, а o sea і vamos — щоб сказати те саме іншими словами.",
+        "de": "Klinge im Gespräch natürlich – mit den kleinen Wörtern, die Spanier ständig benutzen: pues, um eine Antwort zu beginnen, bueno, um etwas anzunehmen oder abzuschließen, und o sea und vamos, um etwas mit anderen Worten noch einmal zu sagen.",
+        "fr": "Parle de façon naturelle avec les petits mots que les Espagnols utilisent tout le temps : pues pour commencer une réponse, bueno pour accepter ou conclure, et o sea et vamos pour redire une chose autrement.",
+        "pt": "Fale com naturalidade usando as palavrinhas que os espanhóis usam o tempo todo: pues para começar uma resposta, bueno para aceitar ou encerrar, e o sea e vamos para dizer algo de novo com outras palavras.",
+        "zh": "学会西班牙人一直挂在嘴边的小词，让对话听起来更自然：用 pues 开始回答，用 bueno 表示接受或结束话题，用 o sea 和 vamos 换个说法再说一遍。"
+      },
+      "target": {
+        "es": "Pues no sé, ¿tú qué prefieres?",
+        "en": "Well, I don't know, what would you prefer?",
+        "it": "Beh, non so, tu cosa preferisci?",
+        "uk": "Ну, не знаю, а ти що хочеш?",
+        "de": "Tja, ich weiß nicht, was ist dir lieber?",
+        "fr": "Ben, je ne sais pas, toi, tu préfères quoi ?",
+        "pt": "Bom, não sei, o que você prefere?",
+        "zh": "嗯，我不知道，你想怎么样？"
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "pues",
+              "en": "well… (to start an answer)",
+              "it": "beh…, allora… (per cominciare una risposta)",
+              "uk": "ну… (на початку відповіді)",
+              "de": "also…, tja… (am Anfang einer Antwort)",
+              "fr": "ben…, bon… (pour commencer une réponse)",
+              "pt": "bom…, olha… (para começar uma resposta)",
+              "zh": "嗯……，这个嘛……（用来开始回答）",
+              "kind": "rail"
+            },
+            {
+              "es": "o sea",
+              "en": "I mean, that is",
+              "it": "cioè",
+              "uk": "тобто, я маю на увазі",
+              "de": "also, ich meine, das heißt",
+              "fr": "c'est-à-dire, enfin",
+              "pt": "ou seja, quer dizer",
+              "zh": "也就是说，我是说",
+              "kind": "rail"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "pues",
+              "kind": "rail"
+            },
+            {
+              "text": "+",
+              "kind": "chunk"
+            },
+            {
+              "text": "answer",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "Pues (well…) opens an answer, especially when you need a second to think or the answer isn't a simple yes or no. It goes at the very start.",
+            "it": "Pues (beh…) apre una risposta, soprattutto quando ti serve un attimo per pensare o la risposta non è un semplice sì o no. Va proprio all'inizio.",
+            "uk": "Pues (ну…) починає відповідь, особливо коли тобі треба секунду подумати або коли відповідь — не просто „так“ чи „ні“. Ставиться на самому початку.",
+            "de": "Pues (also…, tja…) leitet eine Antwort ein, vor allem wenn du kurz nachdenken musst oder die Antwort kein einfaches Ja oder Nein ist. Es steht ganz am Anfang.",
+            "fr": "Pues (ben…, bon…) ouvre une réponse, surtout quand tu as besoin d'une seconde pour réfléchir ou que la réponse n'est pas un simple oui ou non. Il se place tout au début.",
+            "pt": "Pues (bom…) abre uma resposta, principalmente quando você precisa de um segundo para pensar ou a resposta não é um simples sim ou não. Fica bem no começo.",
+            "zh": "Pues（嗯……，这个嘛……）用来开始一个回答，尤其是你需要想一下，或者答案不是简单的“是”或“不是”的时候。它放在句子最开头。"
+          },
+          "examples": [
+            {
+              "es": "Pues no sé, ¿tú qué prefieres?",
+              "en": "Well, I don't know, what would you prefer?",
+              "it": "Beh, non so, tu cosa preferisci?",
+              "uk": "Ну, не знаю, а ти що хочеш?",
+              "de": "Tja, ich weiß nicht, was ist dir lieber?",
+              "fr": "Ben, je ne sais pas, toi, tu préfères quoi ?",
+              "pt": "Bom, não sei, o que você prefere?",
+              "zh": "嗯，我不知道，你想怎么样？"
+            },
+            {
+              "es": "Pues muy bien, gracias.",
+              "en": "Well, very well, thanks.",
+              "it": "Beh, molto bene, grazie.",
+              "uk": "Ну, дуже добре, дякую.",
+              "de": "Also, sehr gut, danke.",
+              "fr": "Ben, très bien, merci.",
+              "pt": "Ah, muito bem, obrigado.",
+              "zh": "嗯，挺好的，谢谢。"
+            },
+            {
+              "es": "Pues yo prefiero la playa.",
+              "en": "Well, I prefer the beach.",
+              "it": "Beh, io preferisco il mare.",
+              "uk": "Ну, я більше люблю пляж.",
+              "de": "Also, mir ist der Strand lieber.",
+              "fr": "Bon, moi, je préfère la plage.",
+              "pt": "Bom, eu prefiro a praia.",
+              "zh": "嗯，我更喜欢海边。"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "",
+          "after": " no sé, ¿tú qué prefieres?",
+          "options": [
+            "Pues",
+            "Porque",
+            "Cuando"
+          ],
+          "answer": "Pues",
+          "en": "Well, I don't know, what would you prefer?",
+          "it": "Beh, non so, tu cosa preferisci?",
+          "uk": "Ну, не знаю, а ти що хочеш?",
+          "de": "Tja, ich weiß nicht, was ist dir lieber?",
+          "fr": "Ben, je ne sais pas, toi, tu préfères quoi ?",
+          "pt": "Bom, não sei, o que você prefere?",
+          "zh": "嗯，我不知道，你想怎么样？",
+          "hint": {
+            "en": "To start an answer while you think, use pues.",
+            "it": "Per cominciare una risposta mentre pensi, usa pues.",
+            "uk": "Щоб почати відповідь, поки думаєш, вживай pues.",
+            "de": "Um eine Antwort zu beginnen, während du nachdenkst, nimm pues.",
+            "fr": "Pour commencer une réponse pendant que tu réfléchis, utilise pues.",
+            "pt": "Para começar uma resposta enquanto pensa, use pues.",
+            "zh": "边想边开始回答，用 pues。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "A friend asks «¿Qué tal el viaje?». It was so-so. Answer: well… it wasn't bad.",
+            "it": "Un'amica ti chiede «¿Qué tal el viaje?». È stato così così. Rispondi: beh… non è stato male.",
+            "uk": "Друг питає «¿Qué tal el viaje?». Поїздка була так собі. Відповідай: ну… було непогано.",
+            "de": "Eine Freundin fragt: «¿Qué tal el viaje?». Die Reise war so lala. Antworte: naja… sie war nicht schlecht.",
+            "fr": "Une amie te demande «¿Qué tal el viaje?». C'était moyen. Réponds : ben… ce n'était pas mal.",
+            "pt": "Uma amiga pergunta «¿Qué tal el viaje?». Foi mais ou menos. Responda: bom… não foi ruim.",
+            "zh": "一个朋友问你：«¿Qué tal el viaje?»。这次旅行一般般。回答：嗯……还不错。"
+          },
+          "accepted": [
+            "Pues no estuvo mal.",
+            "Pues no ha estado mal."
+          ],
+          "tiles": [
+            "Pues",
+            "no",
+            "estuvo",
+            "mal",
+            "porque",
+            "estar"
+          ],
+          "en": "Well, it wasn't bad.",
+          "it": "Beh, non è stato male.",
+          "uk": "Ну, було непогано.",
+          "de": "Naja, es war nicht schlecht.",
+          "fr": "Ben, ce n'était pas mal.",
+          "pt": "Bom, não foi ruim.",
+          "zh": "嗯，还不错。",
+          "hint": {
+            "en": "pues opens an answer that isn't a simple yes.",
+            "it": "pues apre una risposta che non è un semplice sì.",
+            "uk": "pues починає відповідь, яка не є простим „так“.",
+            "de": "pues leitet eine Antwort ein, die kein einfaches Ja ist.",
+            "fr": "pues ouvre une réponse qui n'est pas un simple oui.",
+            "pt": "pues abre uma resposta que não é um simples sim.",
+            "zh": "pues 用来开始一个不是简单“是”的回答。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "bueno",
+              "kind": "rail"
+            },
+            {
+              "text": "+",
+              "kind": "chunk"
+            },
+            {
+              "text": "vale / me voy",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "Bueno at the start accepts something, sometimes not very happily (bueno, vale), or wraps up a conversation before you leave or change topic.",
+            "it": "Bueno all'inizio accetta qualcosa, a volte non molto volentieri (bueno, vale), oppure chiude una conversazione prima di andare via o cambiare argomento.",
+            "uk": "Bueno на початку означає, що ти на щось погоджуєшся, іноді не дуже охоче (bueno, vale), або завершує розмову перед тим, як піти чи змінити тему.",
+            "de": "Bueno am Anfang nimmt etwas an, manchmal nicht ganz begeistert (bueno, vale), oder schließt ein Gespräch ab, bevor du gehst oder das Thema wechselst.",
+            "fr": "Bueno en début de phrase accepte quelque chose, parfois sans grand enthousiasme (bueno, vale), ou conclut une conversation avant de partir ou de changer de sujet.",
+            "pt": "Bueno no começo aceita algo, às vezes sem muita vontade (bueno, vale), ou encerra uma conversa antes de você ir embora ou mudar de assunto.",
+            "zh": "Bueno 放在开头，可以表示接受某件事，有时不太情愿（bueno, vale）；也可以在你要走或换话题之前结束对话。"
+          },
+          "examples": [
+            {
+              "es": "Bueno, vale, voy un rato.",
+              "en": "Oh, all right, I'll come for a bit.",
+              "it": "Va be', d'accordo, vengo per un po'.",
+              "uk": "Ну добре, гаразд, прийду ненадовго.",
+              "de": "Na gut, okay, ich komme kurz mit.",
+              "fr": "Bon, d'accord, je viens un moment.",
+              "pt": "Tá bom, tudo bem, eu vou um pouquinho.",
+              "zh": "好吧，行，我去待一会儿。"
+            },
+            {
+              "es": "Bueno, me voy, que es tarde.",
+              "en": "Right, I'm off, it's late.",
+              "it": "Bene, io vado, che è tardi.",
+              "uk": "Ну все, я пішов (пішла), вже пізно.",
+              "de": "So, ich gehe, es ist spät.",
+              "fr": "Bon, j'y vais, il est tard.",
+              "pt": "Bom, já vou, que está tarde.",
+              "zh": "好了，我走了，挺晚了。"
+            },
+            {
+              "es": "Bueno, ¿y tú qué tal?",
+              "en": "So, how about you?",
+              "it": "Allora, e tu come stai?",
+              "uk": "Ну, а ти як?",
+              "de": "Also, und wie geht's dir?",
+              "fr": "Bon, et toi, ça va ?",
+              "pt": "Bom, e você, como está?",
+              "zh": "那么，你呢？最近怎么样？"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "",
+          "after": " vale, pero solo un rato.",
+          "options": [
+            "Bueno,",
+            "Porque",
+            "Pero"
+          ],
+          "answer": "Bueno,",
+          "en": "Oh, all right, but just for a bit.",
+          "it": "Va be', d'accordo, ma solo per un po'.",
+          "uk": "Ну добре, гаразд, але тільки ненадовго.",
+          "de": "Na gut, okay, aber nur kurz.",
+          "fr": "Bon, d'accord, mais juste un moment.",
+          "pt": "Tá bom, tudo bem, mas só um pouquinho.",
+          "zh": "好吧，行，不过只待一会儿。",
+          "hint": {
+            "en": "To give in and accept, start with bueno.",
+            "it": "Per cedere e accettare, comincia con bueno.",
+            "uk": "Щоб поступитися й погодитися, почни з bueno.",
+            "de": "Um nachzugeben und etwas anzunehmen, fang mit bueno an.",
+            "fr": "Pour céder et accepter, commence par bueno.",
+            "pt": "Para ceder e aceitar, comece com bueno.",
+            "zh": "让步、接受的时候，用 bueno 开头。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "You've been chatting at a friend's flat and it's late. Say: right, I'm off, it's late.",
+            "it": "Stai chiacchierando a casa di un amico ed è tardi. Di': bene, io vado, che è tardi.",
+            "uk": "Ти балакаєш у друга вдома, а вже пізно. Скажи: ну все, я пішов (пішла), вже пізно.",
+            "de": "Du sitzt bei einem Freund in der Wohnung und quatschst, und es ist spät. Sag: so, ich gehe, es ist spät.",
+            "fr": "Tu discutes chez un ami et il est tard. Dis : bon, j'y vais, il est tard.",
+            "pt": "Você está batendo papo no apartamento de um amigo e já está tarde. Diga: bom, já vou, que está tarde.",
+            "zh": "你在朋友家聊天，时间已经很晚了。说：好了，我走了，挺晚了。"
+          },
+          "accepted": [
+            "Bueno, me voy, que es tarde.",
+            "Bueno, me voy, es tarde.",
+            "Bueno, me voy, que ya es tarde."
+          ],
+          "tiles": [
+            "Bueno,",
+            "me voy,",
+            "que",
+            "es tarde",
+            "buena",
+            "está"
+          ],
+          "en": "Right, I'm off, it's late.",
+          "it": "Bene, io vado, che è tardi.",
+          "uk": "Ну все, я пішов (пішла), вже пізно.",
+          "de": "So, ich gehe, es ist spät.",
+          "fr": "Bon, j'y vais, il est tard.",
+          "pt": "Bom, já vou, que está tarde.",
+          "zh": "好了，我走了，挺晚了。",
+          "hint": {
+            "en": "bueno wraps up before you leave.",
+            "it": "bueno chiude la conversazione prima di andare via.",
+            "uk": "bueno завершує розмову перед тим, як піти.",
+            "de": "bueno schließt das Gespräch ab, bevor du gehst.",
+            "fr": "bueno conclut la conversation avant de partir.",
+            "pt": "bueno encerra a conversa antes de você ir embora.",
+            "zh": "bueno 在你离开前结束对话。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "o sea",
+              "kind": "rail"
+            },
+            {
+              "text": "/",
+              "kind": "chunk"
+            },
+            {
+              "text": "vamos",
+              "kind": "rail"
+            }
+          ],
+          "rule": {
+            "en": "To say something again in other words, use o sea (I mean, that is). In Spain people also say vamos, often to sum up more strongly: es caro, vamos, carísimo.",
+            "it": "Per ridire una cosa con altre parole, usa o sea (cioè). In Spagna si dice anche vamos, spesso per riassumere con più forza: es caro, vamos, carísimo.",
+            "uk": "Щоб сказати те саме іншими словами, вживай o sea (тобто). В Іспанії також кажуть vamos, часто щоб підсумувати сильніше: es caro, vamos, carísimo.",
+            "de": "Um etwas mit anderen Worten noch einmal zu sagen, nimm o sea (also, ich meine, das heißt). In Spanien sagt man auch vamos, oft um etwas nachdrücklicher zusammenzufassen: es caro, vamos, carísimo.",
+            "fr": "Pour redire une chose autrement, utilise o sea (c'est-à-dire, enfin). En Espagne, on dit aussi vamos, souvent pour résumer avec plus de force : es caro, vamos, carísimo.",
+            "pt": "Para dizer algo de novo com outras palavras, use o sea (ou seja, quer dizer). Na Espanha também se diz vamos, muitas vezes para resumir com mais força: es caro, vamos, carísimo.",
+            "zh": "想换个说法再说一遍，用 o sea（也就是说，我是说）。在西班牙人们也说 vamos，常常是更强烈地总结一下：es caro, vamos, carísimo。"
+          },
+          "examples": [
+            {
+              "es": "Llego a las diez, o sea, un poco tarde.",
+              "en": "I'll get there at ten, I mean, a bit late.",
+              "it": "Arrivo alle dieci, cioè un po' tardi.",
+              "uk": "Я буду о десятій, тобто трохи пізно.",
+              "de": "Ich bin um zehn da, also ein bisschen spät.",
+              "fr": "J'arrive à dix heures, enfin, un peu tard.",
+              "pt": "Chego às dez, ou seja, um pouco tarde.",
+              "zh": "我十点到，也就是说，会晚一点。"
+            },
+            {
+              "es": "Es caro, vamos, carísimo.",
+              "en": "It's expensive, I mean, really expensive.",
+              "it": "È caro, anzi, carissimo.",
+              "uk": "Це дорого, ну тобто дуже дорого.",
+              "de": "Es ist teuer, also echt richtig teuer.",
+              "fr": "C'est cher, enfin, hyper cher.",
+              "pt": "É caro, quer dizer, caríssimo.",
+              "zh": "很贵，说白了，贵得要命。"
+            },
+            {
+              "es": "No me gustó nada; vamos, que no vuelvo.",
+              "en": "I didn't like it at all; basically, I'm not going back.",
+              "it": "Non mi è piaciuto per niente; insomma, non ci torno.",
+              "uk": "Мені зовсім не сподобалося; коротше, я туди не повернуся.",
+              "de": "Es hat mir überhaupt nicht gefallen; kurz gesagt, da gehe ich nicht mehr hin.",
+              "fr": "Ça ne m'a pas plu du tout ; bref, je n'y retourne pas.",
+              "pt": "Não gostei nada; enfim, não volto mais.",
+              "zh": "我一点也不喜欢；反正，我不会再去了。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "vamos",
+              "en": "I mean, basically (to sum up)",
+              "it": "insomma, cioè (per riassumere)",
+              "uk": "коротше, тобто (щоб підсумувати)",
+              "de": "also, kurz gesagt (zum Zusammenfassen)",
+              "fr": "bref, enfin (pour résumer)",
+              "pt": "quer dizer, enfim (para resumir)",
+              "zh": "说白了，反正（用来总结）"
+            }
+          ]
+        },
+        {
+          "type": "gap",
+          "beat": "forge",
+          "before": "Mañana estoy libre, o ",
+          "after": ", puedo ayudarte.",
+          "label": "o … (I mean)",
+          "accepted": [
+            "sea"
+          ],
+          "en": "I'm free tomorrow, I mean, I can help you.",
+          "it": "Domani sono libero, cioè, posso aiutarti.",
+          "uk": "Завтра я вільний(-а), тобто можу тобі допомогти.",
+          "de": "Ich habe morgen frei, das heißt, ich kann dir helfen.",
+          "fr": "Demain je suis libre, c'est-à-dire que je peux t'aider.",
+          "pt": "Amanhã estou livre, ou seja, posso te ajudar.",
+          "zh": "我明天有空，也就是说，我可以帮你。",
+          "hint": {
+            "en": "o sea: I mean, that is.",
+            "it": "o sea: cioè.",
+            "uk": "o sea: тобто.",
+            "de": "o sea: also, ich meine, das heißt.",
+            "fr": "o sea : c'est-à-dire, enfin.",
+            "pt": "o sea: ou seja, quer dizer.",
+            "zh": "o sea：也就是说，我是说。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "A friend asks about a restaurant you went to and hated. Say: I didn't like it at all; basically, I'm not going back.",
+            "it": "Un'amica ti chiede di un ristorante dove sei stato e che hai odiato. Di': non mi è piaciuto per niente; insomma, non ci torno.",
+            "uk": "Подруга питає про ресторан, де ти був(-ла) і який тобі страшенно не сподобався. Скажи: мені зовсім не сподобалося; коротше, я туди не повернуся.",
+            "de": "Eine Freundin fragt dich nach einem Restaurant, in dem du warst und das du furchtbar fandest. Sag: es hat mir überhaupt nicht gefallen; kurz gesagt, da gehe ich nicht mehr hin.",
+            "fr": "Une amie te demande comment était un restaurant où tu es allé et que tu as détesté. Dis : ça ne m'a pas plu du tout ; bref, je n'y retourne pas.",
+            "pt": "Uma amiga pergunta sobre um restaurante onde você foi e detestou. Diga: não gostei nada; enfim, não volto mais.",
+            "zh": "一个朋友问起你去过的一家餐厅，你非常讨厌那家店。说：我一点也不喜欢；反正，我不会再去了。"
+          },
+          "accepted": [
+            "No me gustó nada; vamos, que no vuelvo.",
+            "No me gustó nada; vamos, no vuelvo.",
+            "No me gustó nada; o sea, que no vuelvo.",
+            "No me gustó nada; o sea, no vuelvo."
+          ],
+          "tiles": [
+            "No me gustó",
+            "nada;",
+            "vamos,",
+            "que",
+            "no vuelvo",
+            "gusta",
+            "voy"
+          ],
+          "en": "I didn't like it at all; basically, I'm not going back.",
+          "it": "Non mi è piaciuto per niente; insomma, non ci torno.",
+          "uk": "Мені зовсім не сподобалося; коротше, я туди не повернуся.",
+          "de": "Es hat mir überhaupt nicht gefallen; kurz gesagt, da gehe ich nicht mehr hin.",
+          "fr": "Ça ne m'a pas plu du tout ; bref, je n'y retourne pas.",
+          "pt": "Não gostei nada; enfim, não volto mais.",
+          "zh": "我一点也不喜欢；反正，我不会再去了。",
+          "hint": {
+            "en": "vamos sums up what you've just said.",
+            "it": "vamos riassume quello che hai appena detto.",
+            "uk": "vamos підсумовує те, що ти щойно сказав(-ла).",
+            "de": "vamos fasst zusammen, was du gerade gesagt hast.",
+            "fr": "vamos résume ce que tu viens de dire.",
+            "pt": "vamos resume o que você acabou de dizer.",
+            "zh": "vamos 用来总结你刚才说的话。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "",
+          "after": " yo prefiero estar en casa.",
+          "options": [
+            "Pues",
+            "Cuando",
+            "Donde"
+          ],
+          "answer": "Pues",
+          "en": "Well, I'd rather stay at home.",
+          "it": "Beh, io preferisco stare a casa.",
+          "uk": "Ну, я краще залишуся вдома.",
+          "de": "Also, ich bleibe lieber zu Hause.",
+          "fr": "Ben, moi, je préfère rester à la maison.",
+          "pt": "Bom, eu prefiro ficar em casa.",
+          "zh": "嗯，我还是想待在家里。",
+          "hint": {
+            "en": "pues opens your answer.",
+            "it": "pues apre la tua risposta.",
+            "uk": "pues починає твою відповідь.",
+            "de": "pues leitet deine Antwort ein.",
+            "fr": "pues ouvre ta réponse.",
+            "pt": "pues abre a sua resposta.",
+            "zh": "用 pues 开始你的回答。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "mix",
+          "before": "Es caro, ",
+          "after": ", carísimo.",
+          "label": "I mean",
+          "accepted": [
+            "vamos",
+            "o sea"
+          ],
+          "en": "It's expensive, I mean, really expensive.",
+          "it": "È caro, anzi, carissimo.",
+          "uk": "Це дорого, ну тобто дуже дорого.",
+          "de": "Es ist teuer, also echt richtig teuer.",
+          "fr": "C'est cher, enfin, hyper cher.",
+          "pt": "É caro, quer dizer, caríssimo.",
+          "zh": "很贵，说白了，贵得要命。",
+          "hint": {
+            "en": "vamos or o sea: you say it again more strongly.",
+            "it": "vamos o o sea: lo ridici con più forza.",
+            "uk": "vamos або o sea: ти повторюєш те саме сильніше.",
+            "de": "vamos oder o sea: Du sagst es noch einmal, nachdrücklicher.",
+            "fr": "vamos ou o sea : tu le redis avec plus de force.",
+            "pt": "vamos ou o sea: você repete com mais força.",
+            "zh": "vamos 或 o sea：把话更强烈地再说一遍。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "mix",
+          "intention": {
+            "en": "A friend suggests a film you don't really fancy, but you give in. Say: oh, all right, let's go.",
+            "it": "Un amico propone un film che non ti va molto, ma alla fine cedi. Di': va be', d'accordo, andiamo.",
+            "uk": "Друг пропонує фільм, який тобі не дуже хочеться дивитися, але ти поступаєшся. Скажи: ну добре, гаразд, ходімо.",
+            "de": "Ein Freund schlägt einen Film vor, auf den du nicht so richtig Lust hast, aber du gibst nach. Sag: na gut, okay, gehen wir.",
+            "fr": "Un ami propose un film qui ne te tente pas trop, mais tu finis par céder. Dis : bon, d'accord, allons-y.",
+            "pt": "Um amigo sugere um filme que você não está muito a fim de ver, mas você cede. Diga: tá bom, tudo bem, vamos.",
+            "zh": "一个朋友提议去看一部你不太想看的电影，但你还是让步了。说：好吧，行，走吧。"
+          },
+          "accepted": [
+            "Bueno, vale, vamos.",
+            "Pues vale, vamos."
+          ],
+          "tiles": [
+            "Bueno,",
+            "vale,",
+            "vamos",
+            "buena",
+            "voy"
+          ],
+          "en": "Oh, all right, let's go.",
+          "it": "Va be', d'accordo, andiamo.",
+          "uk": "Ну добре, гаразд, ходімо.",
+          "de": "Na gut, okay, gehen wir.",
+          "fr": "Bon, d'accord, allons-y.",
+          "pt": "Tá bom, tudo bem, vamos.",
+          "zh": "好吧，行，走吧。",
+          "hint": {
+            "en": "bueno, vale: you accept, not very happily.",
+            "it": "bueno, vale: accetti, non molto volentieri.",
+            "uk": "bueno, vale: ти погоджуєшся, але не дуже охоче.",
+            "de": "bueno, vale: Du nimmst an, ohne große Begeisterung.",
+            "fr": "bueno, vale : tu acceptes, sans grand enthousiasme.",
+            "pt": "bueno, vale: você aceita, sem muita vontade.",
+            "zh": "bueno, vale：你接受了，但不太情愿。"
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "A colleague asks «¿Qué tal la reunión?». Write in Spanish: «Well, long. I mean, three hours.»",
+            "it": "Un collega ti chiede «¿Qué tal la reunión?». Scrivi in spagnolo: «Beh, lunga. Cioè, tre ore.»",
+            "uk": "Колега питає «¿Qué tal la reunión?». Напиши іспанською: «Ну, довга. Тобто три години.»",
+            "de": "Ein Kollege fragt: «¿Qué tal la reunión?». Schreib auf Spanisch: «Naja, lang. Also, drei Stunden.»",
+            "fr": "Un collègue te demande «¿Qué tal la reunión?». Écris en espagnol : «Ben, longue. Enfin, trois heures.»",
+            "pt": "Um colega pergunta «¿Qué tal la reunión?». Escreva em espanhol: «Bom, longa. Quer dizer, três horas.»",
+            "zh": "一个同事问你：«¿Qué tal la reunión?»。用西班牙语写：«嗯，很长。我是说，开了三个小时。»"
+          },
+          "accepted": [
+            "Pues larga. O sea, tres horas.",
+            "Pues larga. Vamos, tres horas.",
+            "Pues muy larga. O sea, tres horas.",
+            "Pues larga. O sea, de tres horas."
+          ],
+          "model": {
+            "es": "Pues larga. O sea, tres horas.",
+            "en": "Well, long. I mean, three hours.",
+            "it": "Beh, lunga. Cioè, tre ore.",
+            "uk": "Ну, довга. Тобто три години.",
+            "de": "Naja, lang. Also, drei Stunden.",
+            "fr": "Ben, longue. Enfin, trois heures.",
+            "pt": "Bom, longa. Quer dizer, três horas.",
+            "zh": "嗯，很长。我是说，开了三个小时。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u45l2",
+      "goal": {
+        "en": "Explain and excuse yourself the Spanish way: es que… to give a reason, lo que pasa es que… to explain a problem, and la verdad es que… to say something honestly.",
+        "it": "Spiegati e giustificati come fanno gli spagnoli: es que… per dare un motivo, lo que pasa es que… per spiegare un problema e la verdad es que… per dire una cosa con sincerità.",
+        "uk": "Пояснюй і виправдовуйся по-іспанськи: es que… — щоб назвати причину, lo que pasa es que… — щоб пояснити проблему, і la verdad es que… — щоб чесно щось сказати.",
+        "de": "Erkläre und entschuldige dich auf Spanisch: es que…, um einen Grund zu nennen, lo que pasa es que…, um ein Problem zu erklären, und la verdad es que…, um etwas ehrlich zu sagen.",
+        "fr": "Explique-toi et excuse-toi à l'espagnole : es que… pour donner une raison, lo que pasa es que… pour expliquer un problème et la verdad es que… pour dire une chose franchement.",
+        "pt": "Explique-se e dê desculpas do jeito espanhol: es que… para dar um motivo, lo que pasa es que… para explicar um problema e la verdad es que… para dizer algo com sinceridade.",
+        "zh": "像西班牙人一样解释和找理由：用 es que… 给出原因，用 lo que pasa es que… 说明问题，用 la verdad es que… 坦白地说出想法。"
+      },
+      "target": {
+        "es": "Perdona, es que había mucho tráfico.",
+        "en": "Sorry, the thing is there was a lot of traffic.",
+        "it": "Scusa, è che c'era un sacco di traffico.",
+        "uk": "Вибач, просто був великий затор.",
+        "de": "Entschuldige, es war halt so viel Verkehr.",
+        "fr": "Pardon, c'est qu'il y avait beaucoup de circulation.",
+        "pt": "Desculpa, é que tinha muito trânsito.",
+        "zh": "不好意思，主要是路上太堵了。"
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "es que…",
+              "en": "the thing is…, it's just that…",
+              "it": "è che…",
+              "uk": "справа в тому, що…; просто…",
+              "de": "es ist (nur) so, dass…; …halt",
+              "fr": "c'est que…",
+              "pt": "é que…",
+              "zh": "主要是……，只是因为……",
+              "kind": "rail"
+            },
+            {
+              "es": "lo que pasa es que…",
+              "en": "the thing is…, what's happening is…",
+              "it": "il fatto è che…",
+              "uk": "річ у тім, що…; справа в тому, що…",
+              "de": "die Sache ist die…, das Problem ist…",
+              "fr": "le truc, c'est que…, le problème, c'est que…",
+              "pt": "o que acontece é que…, é que…",
+              "zh": "问题是……，事情是这样的……",
+              "kind": "rail"
+            },
+            {
+              "es": "me apetece",
+              "en": "I feel like (doing it)",
+              "it": "mi va",
+              "uk": "мені хочеться",
+              "de": "ich habe Lust (dazu)",
+              "fr": "j'ai envie (de le faire), ça me dit",
+              "pt": "estou a fim, tenho vontade",
+              "zh": "我想（做某事），我有兴致",
+              "kind": "chunk"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "es que",
+              "kind": "rail"
+            },
+            {
+              "text": "+",
+              "kind": "chunk"
+            },
+            {
+              "text": "reason",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "Es que… (the thing is…) gives a reason or an excuse, often when you say no or say sorry. It's very common and sounds friendly.",
+            "it": "Es que… (è che…) dà un motivo o una scusa, spesso quando dici di no o chiedi scusa. È molto comune e suona gentile.",
+            "uk": "Es que… (просто…, справа в тому, що…) називає причину або виправдання, часто коли ти відмовляєш або перепрошуєш. Це дуже поширений вислів, і звучить він дружньо.",
+            "de": "Es que… (es ist nur so, dass…) nennt einen Grund oder eine Ausrede, oft wenn du absagst oder dich entschuldigst. Es ist sehr verbreitet und klingt freundlich. Im Deutschen sagt man oft einfach „…halt“ oder „weißt du, …“.",
+            "fr": "Es que… (c'est que…) donne une raison ou une excuse, souvent quand tu dis non ou que tu t'excuses. C'est très courant et ça sonne aimable.",
+            "pt": "Es que… (é que…) dá um motivo ou uma desculpa, muitas vezes quando você diz não ou pede desculpa. É muito comum e soa simpático. Em português também dizemos «é que».",
+            "zh": "Es que…（主要是……）用来给出原因或借口，常常在你拒绝别人或道歉的时候用。它非常常用，听起来很友好。"
+          },
+          "examples": [
+            {
+              "es": "Perdona, es que había mucho tráfico.",
+              "en": "Sorry, the thing is there was a lot of traffic.",
+              "it": "Scusa, è che c'era un sacco di traffico.",
+              "uk": "Вибач, просто був великий затор.",
+              "de": "Entschuldige, es war halt so viel Verkehr.",
+              "fr": "Pardon, c'est qu'il y avait beaucoup de circulation.",
+              "pt": "Desculpa, é que tinha muito trânsito.",
+              "zh": "不好意思，主要是路上太堵了。"
+            },
+            {
+              "es": "No puedo ir, es que tengo que trabajar.",
+              "en": "I can't come, it's just that I have to work.",
+              "it": "Non posso venire, è che devo lavorare.",
+              "uk": "Я не можу прийти, просто мені треба працювати.",
+              "de": "Ich kann nicht kommen, ich muss halt arbeiten.",
+              "fr": "Je ne peux pas venir, c'est que je dois travailler.",
+              "pt": "Não posso ir, é que tenho que trabalhar.",
+              "zh": "我去不了，主要是我得上班。"
+            },
+            {
+              "es": "Lo siento, es que no me apetece.",
+              "en": "Sorry, I just don't feel like it.",
+              "it": "Mi dispiace, è che non mi va.",
+              "uk": "Вибач, просто мені не хочеться.",
+              "de": "Tut mir leid, ich hab einfach keine Lust.",
+              "fr": "Désolé, c'est que je n'ai pas envie.",
+              "pt": "Sinto muito, é que não estou a fim.",
+              "zh": "抱歉，我就是不太想去。"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Lo siento, ",
+          "after": " que no tengo tiempo.",
+          "options": [
+            "es",
+            "está",
+            "soy"
+          ],
+          "answer": "es",
+          "en": "Sorry, the thing is I haven't got time.",
+          "it": "Mi dispiace, è che non ho tempo.",
+          "uk": "Вибач, просто в мене немає часу.",
+          "de": "Tut mir leid, ich hab halt keine Zeit.",
+          "fr": "Désolé, c'est que je n'ai pas le temps.",
+          "pt": "Desculpa, é que não tenho tempo.",
+          "zh": "抱歉，主要是我没时间。",
+          "hint": {
+            "en": "It's always es que, with ser.",
+            "it": "È sempre es que, con ser.",
+            "uk": "Завжди es que, із дієсловом ser.",
+            "de": "Es heißt immer es que, mit ser.",
+            "fr": "C'est toujours es que, avec ser.",
+            "pt": "É sempre es que, com ser.",
+            "zh": "永远是 es que，用 ser。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "You arrive late to meet a friend. Say: sorry, the thing is there was a lot of traffic.",
+            "it": "Arrivi tardi all'appuntamento con un'amica. Di': scusa, è che c'era un sacco di traffico.",
+            "uk": "Ти запізнюєшся на зустріч із подругою. Скажи: вибач, просто був великий затор.",
+            "de": "Du kommst zu spät zu einem Treffen mit einer Freundin. Sag: entschuldige, es war halt so viel Verkehr.",
+            "fr": "Tu arrives en retard à un rendez-vous avec une amie. Dis : pardon, c'est qu'il y avait beaucoup de circulation.",
+            "pt": "Você chega atrasado para encontrar uma amiga. Diga: desculpa, é que tinha muito trânsito.",
+            "zh": "你和朋友见面迟到了。说：不好意思，主要是路上太堵了。"
+          },
+          "accepted": [
+            "Perdona, es que había mucho tráfico.",
+            "Lo siento, es que había mucho tráfico.",
+            "Perdona, es que había muchísimo tráfico."
+          ],
+          "tiles": [
+            "Perdona,",
+            "es que",
+            "había",
+            "mucho",
+            "tráfico",
+            "hay",
+            "está"
+          ],
+          "en": "Sorry, the thing is there was a lot of traffic.",
+          "it": "Scusa, è che c'era un sacco di traffico.",
+          "uk": "Вибач, просто був великий затор.",
+          "de": "Entschuldige, es war halt so viel Verkehr.",
+          "fr": "Pardon, c'est qu'il y avait beaucoup de circulation.",
+          "pt": "Desculpa, é que tinha muito trânsito.",
+          "zh": "不好意思，主要是路上太堵了。",
+          "hint": {
+            "en": "es que + your reason.",
+            "it": "es que + il tuo motivo.",
+            "uk": "es que + твоя причина.",
+            "de": "es que + dein Grund.",
+            "fr": "es que + ta raison.",
+            "pt": "es que + o seu motivo.",
+            "zh": "es que + 你的理由。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "lo que pasa es que",
+              "kind": "rail"
+            },
+            {
+              "text": "+",
+              "kind": "chunk"
+            },
+            {
+              "text": "problem",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "Lo que pasa es que… (the thing is…) is a longer way to explain a problem, often after pero. It sounds a bit more careful than es que.",
+            "it": "Lo que pasa es que… (il fatto è che…) è un modo più lungo per spiegare un problema, spesso dopo pero. Suona un po' più accurato di es que.",
+            "uk": "Lo que pasa es que… (річ у тім, що…) — довший спосіб пояснити проблему, часто після pero. Звучить трохи обережніше, ніж es que.",
+            "de": "Lo que pasa es que… (die Sache ist die…, das Problem ist…) ist eine längere Art, ein Problem zu erklären, oft nach pero. Es klingt etwas vorsichtiger als es que.",
+            "fr": "Lo que pasa es que… (le truc, c'est que…) est une façon plus longue d'expliquer un problème, souvent après pero. Ça sonne un peu plus posé que es que.",
+            "pt": "Lo que pasa es que… (o que acontece é que…) é um jeito mais longo de explicar um problema, muitas vezes depois de pero. Soa um pouco mais cuidadoso que es que.",
+            "zh": "Lo que pasa es que…（问题是……）是解释问题时更长一点的说法，常常放在 pero 后面。它比 es que 听起来更委婉、更周到一些。"
+          },
+          "examples": [
+            {
+              "es": "Me encanta el plan; lo que pasa es que no tengo coche.",
+              "en": "I love the plan; the thing is I haven't got a car.",
+              "it": "Il piano mi piace un sacco; il fatto è che non ho la macchina.",
+              "uk": "Мені дуже подобається план; річ у тім, що в мене немає машини.",
+              "de": "Der Plan gefällt mir total; das Problem ist nur, ich habe kein Auto.",
+              "fr": "J'adore le projet ; le truc, c'est que je n'ai pas de voiture.",
+              "pt": "Adoro o plano; o que acontece é que não tenho carro.",
+              "zh": "我很喜欢这个计划；问题是我没有车。"
+            },
+            {
+              "es": "Quiero ir, pero lo que pasa es que trabajo el sábado.",
+              "en": "I want to come, but the thing is I'm working on Saturday.",
+              "it": "Voglio venire, ma il fatto è che sabato lavoro.",
+              "uk": "Я хочу прийти, але річ у тім, що в суботу я працюю.",
+              "de": "Ich will mitkommen, aber die Sache ist die: Ich arbeite am Samstag.",
+              "fr": "Je veux venir, mais le problème, c'est que je travaille samedi.",
+              "pt": "Quero ir, mas o que acontece é que trabalho no sábado.",
+              "zh": "我想去，但问题是我星期六要上班。"
+            },
+            {
+              "es": "Lo que pasa es que no tengo dinero.",
+              "en": "The thing is I haven't got any money.",
+              "it": "Il fatto è che non ho soldi.",
+              "uk": "Річ у тім, що в мене немає грошей.",
+              "de": "Das Problem ist, ich habe kein Geld.",
+              "fr": "Le problème, c'est que je n'ai pas d'argent.",
+              "pt": "O que acontece é que não tenho dinheiro.",
+              "zh": "问题是我没钱。"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Me gustaría ir; lo que ",
+          "after": " es que no tengo coche.",
+          "options": [
+            "pasa",
+            "pasar",
+            "pasado"
+          ],
+          "answer": "pasa",
+          "en": "I'd like to go; the thing is I haven't got a car.",
+          "it": "Mi piacerebbe andare; il fatto è che non ho la macchina.",
+          "uk": "Я хотів(-ла) б поїхати; річ у тім, що в мене немає машини.",
+          "de": "Ich würde gern hinfahren; das Problem ist nur, ich habe kein Auto.",
+          "fr": "J'aimerais y aller ; le truc, c'est que je n'ai pas de voiture.",
+          "pt": "Eu gostaria de ir; o que acontece é que não tenho carro.",
+          "zh": "我很想去；问题是我没有车。",
+          "hint": {
+            "en": "The fixed phrase is lo que pasa es que.",
+            "it": "L'espressione fissa è lo que pasa es que.",
+            "uk": "Сталий вислів — lo que pasa es que.",
+            "de": "Die feste Wendung heißt lo que pasa es que.",
+            "fr": "L'expression figée est lo que pasa es que.",
+            "pt": "A expressão fixa é lo que pasa es que.",
+            "zh": "固定说法是 lo que pasa es que。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "fire",
+          "before": "Quiero ir, pero lo que pasa ",
+          "after": " que trabajo el sábado.",
+          "label": "ser",
+          "accepted": [
+            "es"
+          ],
+          "en": "I want to come, but the thing is I'm working on Saturday.",
+          "it": "Voglio venire, ma il fatto è che sabato lavoro.",
+          "uk": "Я хочу прийти, але річ у тім, що в суботу я працюю.",
+          "de": "Ich will mitkommen, aber die Sache ist die: Ich arbeite am Samstag.",
+          "fr": "Je veux venir, mais le problème, c'est que je travaille samedi.",
+          "pt": "Quero ir, mas o que acontece é que trabalho no sábado.",
+          "zh": "我想去，但问题是我星期六要上班。",
+          "hint": {
+            "en": "lo que pasa es que: es, from ser.",
+            "it": "lo que pasa es que: es, da ser.",
+            "uk": "lo que pasa es que: es — від ser.",
+            "de": "lo que pasa es que: es, von ser.",
+            "fr": "lo que pasa es que : es, de ser.",
+            "pt": "lo que pasa es que: es, de ser.",
+            "zh": "lo que pasa es que：es 来自 ser。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "la verdad es que",
+              "kind": "rail"
+            },
+            {
+              "text": "+",
+              "kind": "chunk"
+            },
+            {
+              "text": "opinion",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "La verdad es que… (to be honest…) softens an honest opinion or admits something. It's friendly, not rude.",
+            "it": "La verdad es que… (a dire il vero…, sinceramente…) ammorbidisce un'opinione sincera o ammette qualcosa. È gentile, non sgarbato.",
+            "uk": "La verdad es que… (чесно кажучи…) пом'якшує чесну думку або визнання. Це звучить дружньо, а не грубо.",
+            "de": "La verdad es que… (ehrlich gesagt…) macht eine ehrliche Meinung weicher oder gibt etwas zu. Es klingt freundlich, nicht unhöflich.",
+            "fr": "La verdad es que… (à vrai dire…, franchement…) adoucit une opinion sincère ou reconnaît quelque chose. C'est aimable, pas impoli.",
+            "pt": "La verdad es que… (para falar a verdade…) suaviza uma opinião sincera ou admite algo. É simpático, não grosseiro.",
+            "zh": "La verdad es que…（说实话……）让坦白的看法听起来更柔和，或者用来承认某件事。它很友好，并不失礼。"
+          },
+          "examples": [
+            {
+              "es": "La verdad es que no me apetece salir.",
+              "en": "To be honest, I don't feel like going out.",
+              "it": "A dire il vero, non mi va di uscire.",
+              "uk": "Чесно кажучи, мені не хочеться нікуди йти.",
+              "de": "Ehrlich gesagt habe ich keine Lust auszugehen.",
+              "fr": "À vrai dire, je n'ai pas envie de sortir.",
+              "pt": "Para falar a verdade, não estou a fim de sair.",
+              "zh": "说实话，我不太想出去。"
+            },
+            {
+              "es": "La verdad es que el hotel no estaba mal.",
+              "en": "To be honest, the hotel wasn't bad.",
+              "it": "A dire il vero, l'albergo non era male.",
+              "uk": "Чесно кажучи, готель був непоганий.",
+              "de": "Ehrlich gesagt war das Hotel nicht schlecht.",
+              "fr": "À vrai dire, l'hôtel n'était pas mal.",
+              "pt": "Para falar a verdade, o hotel não era ruim.",
+              "zh": "说实话，那家酒店还不错。"
+            },
+            {
+              "es": "La verdad es que tienes razón.",
+              "en": "To be honest, you're right.",
+              "it": "Sinceramente, hai ragione.",
+              "uk": "Чесно кажучи, ти маєш рацію.",
+              "de": "Ehrlich gesagt hast du recht.",
+              "fr": "Franchement, tu as raison.",
+              "pt": "Para falar a verdade, você tem razão.",
+              "zh": "说实话，你说得对。"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "gap",
+          "beat": "forge",
+          "before": "La ",
+          "after": " es que no me apetece salir esta noche.",
+          "label": "to be honest",
+          "accepted": [
+            "verdad"
+          ],
+          "en": "To be honest, I don't feel like going out tonight.",
+          "it": "A dire il vero, stasera non mi va di uscire.",
+          "uk": "Чесно кажучи, сьогодні ввечері мені не хочеться нікуди йти.",
+          "de": "Ehrlich gesagt habe ich heute Abend keine Lust auszugehen.",
+          "fr": "À vrai dire, je n'ai pas envie de sortir ce soir.",
+          "pt": "Para falar a verdade, hoje à noite não estou a fim de sair.",
+          "zh": "说实话，我今晚不太想出去。",
+          "hint": {
+            "en": "The phrase is la verdad es que.",
+            "it": "L'espressione è la verdad es que.",
+            "uk": "Вислів — la verdad es que.",
+            "de": "Die Wendung heißt la verdad es que.",
+            "fr": "L'expression est la verdad es que.",
+            "pt": "A expressão é la verdad es que.",
+            "zh": "这个说法是 la verdad es que。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "A friend asks if you liked the film you saw together. You didn't much. Say: to be honest, it was a bit boring.",
+            "it": "Un'amica ti chiede se ti è piaciuto il film che avete visto insieme. Non molto. Di': a dire il vero, era un po' noioso.",
+            "uk": "Подруга питає, чи сподобався тобі фільм, який ви дивилися разом. Не дуже. Скажи: чесно кажучи, він був трохи нудний.",
+            "de": "Eine Freundin fragt, ob dir der Film gefallen hat, den ihr zusammen gesehen habt. Nicht so sehr. Sag: ehrlich gesagt war er ein bisschen langweilig.",
+            "fr": "Une amie te demande si tu as aimé le film que vous avez vu ensemble. Pas trop. Dis : à vrai dire, il était un peu ennuyeux.",
+            "pt": "Uma amiga pergunta se você gostou do filme que vocês viram juntos. Você não gostou muito. Diga: para falar a verdade, foi meio chato.",
+            "zh": "一个朋友问你喜不喜欢你们一起看的那部电影。你不太喜欢。说：说实话，有点无聊。"
+          },
+          "accepted": [
+            "La verdad es que fue un poco aburrida.",
+            "La verdad es que era un poco aburrida.",
+            "La verdad es que fue un poco aburrido."
+          ],
+          "tiles": [
+            "La verdad",
+            "es que",
+            "fue",
+            "un poco",
+            "aburrida",
+            "aburrido",
+            "está"
+          ],
+          "en": "To be honest, it was a bit boring.",
+          "it": "A dire il vero, era un po' noioso.",
+          "uk": "Чесно кажучи, він був трохи нудний.",
+          "de": "Ehrlich gesagt war er ein bisschen langweilig.",
+          "fr": "À vrai dire, il était un peu ennuyeux.",
+          "pt": "Para falar a verdade, foi meio chato.",
+          "zh": "说实话，有点无聊。",
+          "hint": {
+            "en": "la verdad es que softens an honest opinion; la película: aburrida.",
+            "it": "la verdad es que ammorbidisce un'opinione sincera; la película: aburrida.",
+            "uk": "la verdad es que пом'якшує чесну думку; la película: aburrida.",
+            "de": "la verdad es que macht eine ehrliche Meinung weicher; la película (weiblich): aburrida.",
+            "fr": "la verdad es que adoucit une opinion sincère ; la película : aburrida.",
+            "pt": "la verdad es que suaviza uma opinião sincera; la película: aburrida.",
+            "zh": "la verdad es que 让坦白的看法更柔和；la película：aburrida。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "No puedo ir al cine, ",
+          "after": " tengo un examen mañana.",
+          "options": [
+            "es que",
+            "de que",
+            "lo que"
+          ],
+          "answer": "es que",
+          "en": "I can't come to the cinema, the thing is I've got an exam tomorrow.",
+          "it": "Non posso venire al cinema, è che domani ho un esame.",
+          "uk": "Я не можу піти в кіно, просто в мене завтра іспит.",
+          "de": "Ich kann nicht mit ins Kino kommen, ich habe halt morgen eine Prüfung.",
+          "fr": "Je ne peux pas venir au cinéma, c'est que j'ai un examen demain.",
+          "pt": "Não posso ir ao cinema, é que amanhã tenho prova.",
+          "zh": "我去不了电影院，主要是我明天有考试。",
+          "hint": {
+            "en": "es que + the reason.",
+            "it": "es que + il motivo.",
+            "uk": "es que + причина.",
+            "de": "es que + der Grund.",
+            "fr": "es que + la raison.",
+            "pt": "es que + o motivo.",
+            "zh": "es que + 理由。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "mix",
+          "before": "Perdona, esta noche no salgo; es que ",
+          "after": " muy cansado.",
+          "label": "estar",
+          "accepted": [
+            "estoy"
+          ],
+          "en": "Sorry, I'm not going out tonight; the thing is I'm really tired.",
+          "it": "Scusa, stasera non esco; è che sono stanchissimo.",
+          "uk": "Вибач, я сьогодні нікуди не йду; просто я дуже втомлений(-а).",
+          "de": "Sorry, ich gehe heute Abend nicht aus; ich bin halt total müde.",
+          "fr": "Désolé, je ne sors pas ce soir ; c'est que je suis vraiment fatigué.",
+          "pt": "Desculpa, hoje à noite não vou sair; é que estou muito cansado.",
+          "zh": "抱歉，我今晚不出去了；主要是我太累了。",
+          "hint": {
+            "en": "Tiredness now: estar, so estoy.",
+            "it": "Stanchezza adesso: estar, quindi estoy.",
+            "uk": "Втома зараз: estar, тобто estoy.",
+            "de": "Müdigkeit im Moment: estar, also estoy.",
+            "fr": "La fatigue en ce moment : estar, donc estoy.",
+            "pt": "Cansaço agora: estar, então estoy.",
+            "zh": "现在很累：用 estar，所以是 estoy。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "mix",
+          "intention": {
+            "en": "Your boss asks you to stay late today, but you have a family dinner. Say: I'd love to, but the thing is I have a dinner with my family.",
+            "it": "Il tuo capo ti chiede di restare fino a tardi oggi, ma hai una cena di famiglia. Di': mi piacerebbe molto, ma il fatto è che ho una cena con la mia famiglia.",
+            "uk": "Начальник просить тебе сьогодні затриматися на роботі, але в тебе сімейна вечеря. Скажи: я б дуже хотів(-ла), але річ у тім, що в мене вечеря з родиною.",
+            "de": "Deine Chefin bittet dich, heute länger zu bleiben, aber du hast ein Familienessen. Sag: sehr gern, aber das Problem ist, ich habe ein Abendessen mit meiner Familie.",
+            "fr": "Ton chef te demande de rester tard aujourd'hui, mais tu as un dîner de famille. Dis : j'adorerais, mais le problème, c'est que j'ai un dîner avec ma famille.",
+            "pt": "O seu chefe pede para você ficar até mais tarde hoje, mas você tem um jantar de família. Diga: eu adoraria, mas o que acontece é que tenho um jantar com a minha família.",
+            "zh": "老板让你今天加班到很晚，但你有家庭聚餐。说：我很乐意，但问题是我要和家人一起吃晚饭。"
+          },
+          "accepted": [
+            "Me encantaría, pero lo que pasa es que tengo una cena con mi familia.",
+            "Me encantaría, pero es que tengo una cena con mi familia.",
+            "Me gustaría, pero lo que pasa es que tengo una cena con mi familia."
+          ],
+          "tiles": [
+            "Me encantaría,",
+            "pero",
+            "lo que pasa",
+            "es que",
+            "tengo",
+            "una cena",
+            "con mi familia",
+            "está"
+          ],
+          "en": "I'd love to, but the thing is I have a dinner with my family.",
+          "it": "Mi piacerebbe molto, ma il fatto è che ho una cena con la mia famiglia.",
+          "uk": "Я б дуже хотів(-ла), але річ у тім, що в мене вечеря з родиною.",
+          "de": "Sehr gern, aber das Problem ist, ich habe ein Abendessen mit meiner Familie.",
+          "fr": "J'adorerais, mais le problème, c'est que j'ai un dîner avec ma famille.",
+          "pt": "Eu adoraria, mas o que acontece é que tenho um jantar com a minha família.",
+          "zh": "我很乐意，但问题是我要和家人一起吃晚饭。",
+          "hint": {
+            "en": "pero lo que pasa es que explains the problem.",
+            "it": "pero lo que pasa es que spiega il problema.",
+            "uk": "pero lo que pasa es que пояснює проблему.",
+            "de": "pero lo que pasa es que erklärt das Problem.",
+            "fr": "pero lo que pasa es que explique le problème.",
+            "pt": "pero lo que pasa es que explica o problema.",
+            "zh": "pero lo que pasa es que 用来说明问题。"
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "A friend invites you to a concert tonight. Write in Spanish: «To be honest, I don't feel like it; the thing is I'm very tired.»",
+            "it": "Un'amica ti invita a un concerto stasera. Scrivi in spagnolo: «A dire il vero, non mi va; è che sono molto stanco.»",
+            "uk": "Подруга запрошує тебе сьогодні на концерт. Напиши іспанською: «Чесно кажучи, мені не хочеться; просто я дуже втомлений(-а).»",
+            "de": "Eine Freundin lädt dich heute Abend zu einem Konzert ein. Schreib auf Spanisch: «Ehrlich gesagt habe ich keine Lust; ich bin halt sehr müde.»",
+            "fr": "Une amie t'invite à un concert ce soir. Écris en espagnol : «À vrai dire, je n'ai pas envie ; c'est que je suis très fatigué.»",
+            "pt": "Uma amiga convida você para um show hoje à noite. Escreva em espanhol: «Para falar a verdade, não estou a fim; é que estou muito cansado.»",
+            "zh": "一个朋友邀请你今晚去听音乐会。用西班牙语写：«说实话，我不太想去；主要是我很累。»"
+          },
+          "accepted": [
+            "La verdad es que no me apetece; es que estoy muy cansado.",
+            "La verdad es que no me apetece; es que estoy muy cansada.",
+            "La verdad es que no me apetece; lo que pasa es que estoy muy cansado.",
+            "La verdad es que no me apetece; lo que pasa es que estoy muy cansada.",
+            "La verdad es que no me apetece, estoy muy cansado.",
+            "La verdad es que no me apetece, estoy muy cansada."
+          ],
+          "model": {
+            "es": "La verdad es que no me apetece; es que estoy muy cansado.",
+            "en": "To be honest, I don't feel like it; the thing is I'm very tired.",
+            "it": "A dire il vero, non mi va; è che sono molto stanco.",
+            "uk": "Чесно кажучи, мені не хочеться; просто я дуже втомлений(-а).",
+            "de": "Ehrlich gesagt habe ich keine Lust; ich bin halt sehr müde.",
+            "fr": "À vrai dire, je n'ai pas envie ; c'est que je suis très fatigué.",
+            "pt": "Para falar a verdade, não estou a fim; é que estou muito cansado.",
+            "zh": "说实话，我不太想去；主要是我很累。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u45l3",
+      "goal": {
+        "en": "Add nuance to what you say: de hecho to back it up with a stronger fact, en realidad to correct an idea, and más bien to say something more exactly.",
+        "it": "Aggiungi sfumature a quello che dici: de hecho per rafforzarlo con un fatto più forte, en realidad per correggere un'idea e más bien per dire una cosa in modo più preciso.",
+        "uk": "Додавай відтінки до того, що кажеш: de hecho — щоб підкріпити думку вагомішим фактом, en realidad — щоб виправити уявлення, і más bien — щоб висловитися точніше.",
+        "de": "Gib dem, was du sagst, Nuancen: de hecho, um es mit einer stärkeren Tatsache zu untermauern, en realidad, um eine Vorstellung zu korrigieren, und más bien, um etwas genauer zu sagen.",
+        "fr": "Nuance ce que tu dis : de hecho pour l'appuyer avec un fait plus fort, en realidad pour corriger une idée et más bien pour dire une chose plus précisément.",
+        "pt": "Dê nuances ao que você diz: de hecho para reforçar com um fato mais forte, en realidad para corrigir uma ideia e más bien para dizer algo com mais precisão.",
+        "zh": "给你的话增加细微差别：用 de hecho 拿更有力的事实来支持，用 en realidad 纠正一个看法，用 más bien 把话说得更准确。"
+      },
+      "target": {
+        "es": "Me encanta este barrio; de hecho, quiero vivir aquí.",
+        "en": "I love this neighbourhood; in fact, I want to live here.",
+        "it": "Adoro questo quartiere; anzi, voglio viverci.",
+        "uk": "Я обожнюю цей район; насправді я хочу тут жити.",
+        "de": "Ich liebe dieses Viertel; ich will sogar hier wohnen.",
+        "fr": "J'adore ce quartier ; d'ailleurs, je veux vivre ici.",
+        "pt": "Adoro este bairro; inclusive, quero morar aqui.",
+        "zh": "我很喜欢这个街区；其实，我想住在这里。"
+      },
+      "names": [
+        "Sevilla",
+        "Toledo",
+        "Madrid"
+      ],
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "de hecho",
+              "en": "in fact",
+              "it": "infatti, anzi",
+              "uk": "насправді, фактично",
+              "de": "tatsächlich, sogar",
+              "fr": "en fait, d'ailleurs, même",
+              "pt": "de fato, inclusive",
+              "zh": "事实上，其实",
+              "kind": "rail"
+            },
+            {
+              "es": "en realidad",
+              "en": "actually, really",
+              "it": "in realtà",
+              "uk": "насправді, взагалі-то",
+              "de": "eigentlich, in Wirklichkeit",
+              "fr": "en réalité, en fait",
+              "pt": "na verdade, na realidade",
+              "zh": "实际上，其实",
+              "kind": "rail"
+            },
+            {
+              "es": "más bien",
+              "en": "rather",
+              "it": "piuttosto",
+              "uk": "радше, швидше",
+              "de": "eher",
+              "fr": "plutôt",
+              "pt": "mais, antes",
+              "zh": "倒不如说，更像是",
+              "kind": "rail"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "idea",
+              "kind": "chunk"
+            },
+            {
+              "text": "+",
+              "kind": "chunk"
+            },
+            {
+              "text": "de hecho",
+              "kind": "rail"
+            },
+            {
+              "text": "+",
+              "kind": "chunk"
+            },
+            {
+              "text": "stronger fact",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "De hecho (in fact) backs up what you've just said with a stronger fact or an example. It usually starts the second sentence.",
+            "it": "De hecho (infatti, anzi) rafforza quello che hai appena detto con un fatto più forte o un esempio. Di solito apre la seconda frase.",
+            "uk": "De hecho (насправді, фактично) підкріплює те, що ти щойно сказав(-ла), вагомішим фактом або прикладом. Зазвичай воно починає друге речення.",
+            "de": "De hecho (tatsächlich, sogar) untermauert, was du gerade gesagt hast, mit einer stärkeren Tatsache oder einem Beispiel. Es steht meist am Anfang des zweiten Satzes.",
+            "fr": "De hecho (d'ailleurs, en fait) appuie ce que tu viens de dire avec un fait plus fort ou un exemple. Il ouvre généralement la deuxième phrase.",
+            "pt": "De hecho (de fato, inclusive) reforça o que você acabou de dizer com um fato mais forte ou um exemplo. Normalmente abre a segunda frase.",
+            "zh": "De hecho（事实上，其实）用一个更有力的事实或例子来支持你刚才说的话。它通常放在第二句话的开头。"
+          },
+          "examples": [
+            {
+              "es": "Me encanta Sevilla. De hecho, voy todos los años.",
+              "en": "I love Seville. In fact, I go every year.",
+              "it": "Adoro Siviglia. Infatti, ci vado tutti gli anni.",
+              "uk": "Я обожнюю Севілью. Насправді я їжджу туди щороку.",
+              "de": "Ich liebe Sevilla. Ich fahre tatsächlich jedes Jahr hin.",
+              "fr": "J'adore Séville. D'ailleurs, j'y vais tous les ans.",
+              "pt": "Adoro Sevilha. Inclusive, vou todo ano.",
+              "zh": "我很喜欢塞维利亚。事实上，我每年都去。"
+            },
+            {
+              "es": "Está muy cerca; de hecho, se puede ir andando.",
+              "en": "It's very close; in fact, you can walk there.",
+              "it": "È vicinissimo; anzi, ci si può andare a piedi.",
+              "uk": "Це зовсім близько; насправді туди можна дійти пішки.",
+              "de": "Es ist ganz nah; man kann sogar zu Fuß hingehen.",
+              "fr": "C'est tout près ; d'ailleurs, on peut y aller à pied.",
+              "pt": "Fica muito perto; inclusive, dá para ir a pé.",
+              "zh": "离得很近；其实，走着就能到。"
+            },
+            {
+              "es": "Sí, conozco ese restaurante. De hecho, fui la semana pasada.",
+              "en": "Yes, I know that restaurant. In fact, I went last week.",
+              "it": "Sì, conosco quel ristorante. Anzi, ci sono andato la settimana scorsa.",
+              "uk": "Так, я знаю цей ресторан. Насправді я був(-ла) там минулого тижня.",
+              "de": "Ja, ich kenne das Restaurant. Ich war sogar letzte Woche da.",
+              "fr": "Oui, je connais ce restaurant. J'y suis même allé la semaine dernière.",
+              "pt": "Sim, conheço esse restaurante. Inclusive, fui na semana passada.",
+              "zh": "对，我知道那家餐厅。其实，我上周刚去过。"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Me encanta este barrio. De ",
+          "after": ", quiero comprar un piso aquí.",
+          "options": [
+            "hecho",
+            "hacer",
+            "hago"
+          ],
+          "answer": "hecho",
+          "en": "I love this neighbourhood. In fact, I want to buy a flat here.",
+          "it": "Adoro questo quartiere. Anzi, voglio comprare un appartamento qui.",
+          "uk": "Я обожнюю цей район. Насправді я хочу купити тут квартиру.",
+          "de": "Ich liebe dieses Viertel. Ich will sogar eine Wohnung hier kaufen.",
+          "fr": "J'adore ce quartier. D'ailleurs, je veux acheter un appartement ici.",
+          "pt": "Adoro este bairro. Inclusive, quero comprar um apartamento aqui.",
+          "zh": "我很喜欢这个街区。其实，我想在这里买套房子。",
+          "hint": {
+            "en": "The fixed phrase is de hecho.",
+            "it": "L'espressione fissa è de hecho.",
+            "uk": "Сталий вислів — de hecho.",
+            "de": "Die feste Wendung heißt de hecho.",
+            "fr": "L'expression figée est de hecho.",
+            "pt": "A expressão fixa é de hecho.",
+            "zh": "固定说法是 de hecho。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "A friend asks if you know a new tapas bar. Answer: yes, in fact I went last week.",
+            "it": "Un amico ti chiede se conosci un nuovo bar di tapas. Rispondi: sì, anzi ci sono andato la settimana scorsa.",
+            "uk": "Друг питає, чи знаєш ти новий тапас-бар. Відповідай: так, насправді я був(-ла) там минулого тижня.",
+            "de": "Ein Freund fragt, ob du eine neue Tapas-Bar kennst. Antworte: ja, ich war sogar letzte Woche da.",
+            "fr": "Un ami te demande si tu connais un nouveau bar à tapas. Réponds : oui, j'y suis même allé la semaine dernière.",
+            "pt": "Um amigo pergunta se você conhece um bar de tapas novo. Responda: sim, inclusive fui na semana passada.",
+            "zh": "一个朋友问你知不知道一家新开的 tapas 酒吧。回答：知道，其实我上周就去过。"
+          },
+          "accepted": [
+            "Sí, de hecho fui la semana pasada.",
+            "Sí, de hecho estuve la semana pasada.",
+            "Sí, de hecho fui allí la semana pasada."
+          ],
+          "tiles": [
+            "Sí,",
+            "de hecho",
+            "fui",
+            "la semana pasada",
+            "hacer",
+            "voy"
+          ],
+          "en": "Yes, in fact I went last week.",
+          "it": "Sì, anzi ci sono andato la settimana scorsa.",
+          "uk": "Так, насправді я був(-ла) там минулого тижня.",
+          "de": "Ja, ich war sogar letzte Woche da.",
+          "fr": "Oui, j'y suis même allé la semaine dernière.",
+          "pt": "Sim, inclusive fui na semana passada.",
+          "zh": "知道，其实我上周就去过。",
+          "hint": {
+            "en": "de hecho adds a stronger fact: you've even been there.",
+            "it": "de hecho aggiunge un fatto più forte: ci sei perfino stato.",
+            "uk": "de hecho додає вагоміший факт: ти навіть там був(-ла).",
+            "de": "de hecho fügt eine stärkere Tatsache hinzu: Du warst sogar schon dort.",
+            "fr": "de hecho ajoute un fait plus fort : tu y es même allé.",
+            "pt": "de hecho acrescenta um fato mais forte: você até já foi lá.",
+            "zh": "de hecho 补充一个更有力的事实：你甚至已经去过了。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "seems",
+              "kind": "chunk"
+            },
+            {
+              "text": "+",
+              "kind": "chunk"
+            },
+            {
+              "text": "en realidad",
+              "kind": "rail"
+            },
+            {
+              "text": "+",
+              "kind": "chunk"
+            },
+            {
+              "text": "truth",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "En realidad (actually) corrects an idea: what seems true, or what someone thinks, isn't quite right. It often comes after pero.",
+            "it": "En realidad (in realtà) corregge un'idea: quello che sembra vero, o che qualcuno pensa, non è proprio così. Spesso viene dopo pero.",
+            "uk": "En realidad (взагалі-то, насправді) виправляє уявлення: те, що здається правдою або що хтось думає, не зовсім так. Часто стоїть після pero.",
+            "de": "En realidad (eigentlich) korrigiert eine Vorstellung: Was wahr scheint oder was jemand denkt, stimmt so nicht ganz. Es steht oft nach pero.",
+            "fr": "En realidad (en réalité, en fait) corrige une idée : ce qui semble vrai, ou ce que quelqu'un pense, n'est pas tout à fait juste. Il vient souvent après pero.",
+            "pt": "En realidad (na verdade) corrige uma ideia: o que parece verdade, ou o que alguém pensa, não é bem assim. Muitas vezes vem depois de pero.",
+            "zh": "En realidad（实际上）用来纠正一个看法：看起来是真的，或者别人以为的，其实并不完全对。它常常放在 pero 后面。"
+          },
+          "examples": [
+            {
+              "es": "Parece difícil, pero en realidad es muy fácil.",
+              "en": "It looks hard, but actually it's very easy.",
+              "it": "Sembra difficile, ma in realtà è facilissimo.",
+              "uk": "Здається складним, але насправді це дуже легко.",
+              "de": "Es sieht schwer aus, aber eigentlich ist es ganz leicht.",
+              "fr": "Ça a l'air difficile, mais en réalité c'est très facile.",
+              "pt": "Parece difícil, mas na verdade é muito fácil.",
+              "zh": "看起来很难，但实际上非常简单。"
+            },
+            {
+              "es": "En realidad, no soy de Madrid; soy de Toledo.",
+              "en": "Actually, I'm not from Madrid; I'm from Toledo.",
+              "it": "In realtà non sono di Madrid; sono di Toledo.",
+              "uk": "Взагалі-то я не з Мадрида; я з Толедо.",
+              "de": "Eigentlich bin ich nicht aus Madrid; ich bin aus Toledo.",
+              "fr": "En fait, je ne suis pas de Madrid ; je suis de Tolède.",
+              "pt": "Na verdade, não sou de Madri; sou de Toledo.",
+              "zh": "其实我不是马德里人；我是托莱多人。"
+            },
+            {
+              "es": "Todos piensan que es caro, pero en realidad no lo es.",
+              "en": "Everyone thinks it's expensive, but actually it isn't.",
+              "it": "Tutti pensano che sia caro, ma in realtà non lo è.",
+              "uk": "Усі думають, що це дорого, але насправді ні.",
+              "de": "Alle denken, es ist teuer, aber eigentlich ist es das nicht.",
+              "fr": "Tout le monde pense que c'est cher, mais en réalité ça ne l'est pas.",
+              "pt": "Todo mundo acha que é caro, mas na verdade não é.",
+              "zh": "大家都以为很贵，但实际上并不贵。"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Parece difícil, pero en ",
+          "after": " es muy fácil.",
+          "options": [
+            "realidad",
+            "hecho",
+            "bien"
+          ],
+          "answer": "realidad",
+          "en": "It looks hard, but actually it's very easy.",
+          "it": "Sembra difficile, ma in realtà è facilissimo.",
+          "uk": "Здається складним, але насправді це дуже легко.",
+          "de": "Es sieht schwer aus, aber eigentlich ist es ganz leicht.",
+          "fr": "Ça a l'air difficile, mais en réalité c'est très facile.",
+          "pt": "Parece difícil, mas na verdade é muito fácil.",
+          "zh": "看起来很难，但实际上非常简单。",
+          "hint": {
+            "en": "en realidad corrects what seems true.",
+            "it": "en realidad corregge quello che sembra vero.",
+            "uk": "en realidad виправляє те, що здається правдою.",
+            "de": "en realidad korrigiert, was wahr scheint.",
+            "fr": "en realidad corrige ce qui semble vrai.",
+            "pt": "en realidad corrige o que parece verdade.",
+            "zh": "en realidad 纠正看起来是真的事情。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "A new colleague thinks you're from Madrid. Tell him: actually, I'm from {city}.",
+            "it": "Un nuovo collega pensa che tu sia di Madrid. Digli: in realtà sono di {city}.",
+            "uk": "Новий колега думає, що ти з Мадрида. Скажи йому: взагалі-то я з міста {city}.",
+            "de": "Ein neuer Kollege denkt, du bist aus Madrid. Sag ihm: eigentlich bin ich aus {city}.",
+            "fr": "Un nouveau collègue pense que tu es de Madrid. Dis-lui : en fait, je suis de {city}.",
+            "pt": "Um colega novo acha que você é de Madri. Diga a ele: na verdade, sou de {city}.",
+            "zh": "一个新同事以为你是马德里人。告诉他：其实我是{city}人。"
+          },
+          "accepted": [
+            "En realidad, soy de {city}.",
+            "En realidad soy de {city}.",
+            "En realidad, yo soy de {city}."
+          ],
+          "tiles": [
+            "En realidad,",
+            "soy",
+            "de {city}",
+            "de hecho",
+            "estoy"
+          ],
+          "en": "Actually, I'm from {city}.",
+          "it": "In realtà sono di {city}.",
+          "uk": "Взагалі-то я з міста {city}.",
+          "de": "Eigentlich bin ich aus {city}.",
+          "fr": "En fait, je suis de {city}.",
+          "pt": "Na verdade, sou de {city}.",
+          "zh": "其实我是{city}人。",
+          "hint": {
+            "en": "en realidad corrects what he thinks.",
+            "it": "en realidad corregge quello che pensa.",
+            "uk": "en realidad виправляє те, що він думає.",
+            "de": "en realidad korrigiert, was er denkt.",
+            "fr": "en realidad corrige ce qu'il pense.",
+            "pt": "en realidad corrige o que ele pensa.",
+            "zh": "en realidad 纠正他的想法。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "no es…",
+              "kind": "chunk"
+            },
+            {
+              "text": "+",
+              "kind": "chunk"
+            },
+            {
+              "text": "más bien",
+              "kind": "rail"
+            },
+            {
+              "text": "+",
+              "kind": "chunk"
+            },
+            {
+              "text": "…",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "Más bien (rather) makes what you say more exact: it's not quite this, it's more like that. It goes before the word it changes.",
+            "it": "Más bien (piuttosto) rende più preciso quello che dici: non è proprio così, è più come quest'altro. Va prima della parola che cambia.",
+            "uk": "Más bien (радше) робить сказане точнішим: це не зовсім так, це радше ось так. Ставиться перед словом, яке уточнює.",
+            "de": "Más bien (eher) macht genauer, was du sagst: Es ist nicht ganz das, es ist eher jenes. Es steht vor dem Wort, das es verändert.",
+            "fr": "Más bien (plutôt) rend ce que tu dis plus précis : ce n'est pas tout à fait ça, c'est plutôt ça. Il se place avant le mot qu'il modifie.",
+            "pt": "Más bien (mais, antes) torna o que você diz mais preciso: não é bem isso, é mais aquilo. Fica antes da palavra que modifica.",
+            "zh": "Más bien（倒不如说，更像是）让你说的话更准确：不完全是这样，更像是那样。它放在它所修饰的词前面。"
+          },
+          "examples": [
+            {
+              "es": "No es caro; es más bien normal.",
+              "en": "It isn't expensive; it's rather average.",
+              "it": "Non è caro; è piuttosto nella media.",
+              "uk": "Це не дорого; радше звичайна ціна.",
+              "de": "Es ist nicht teuer; es ist eher normal.",
+              "fr": "Ce n'est pas cher ; c'est plutôt dans la moyenne.",
+              "pt": "Não é caro; é mais para normal.",
+              "zh": "不贵；倒不如说是一般价位。"
+            },
+            {
+              "es": "No estoy triste, más bien cansado.",
+              "en": "I'm not sad, more tired.",
+              "it": "Non sono triste, piuttosto stanco.",
+              "uk": "Я не сумний(-а), радше втомлений(-а).",
+              "de": "Ich bin nicht traurig, eher müde.",
+              "fr": "Je ne suis pas triste, plutôt fatigué.",
+              "pt": "Não estou triste, estou mais é cansado.",
+              "zh": "我不是难过，更像是累了。"
+            },
+            {
+              "es": "El piso es más bien pequeño.",
+              "en": "The flat is rather small.",
+              "it": "L'appartamento è piuttosto piccolo.",
+              "uk": "Квартира радше маленька.",
+              "de": "Die Wohnung ist eher klein.",
+              "fr": "L'appartement est plutôt petit.",
+              "pt": "O apartamento é meio pequeno.",
+              "zh": "这套房子偏小。"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "No es caro; es más ",
+          "after": " normal.",
+          "options": [
+            "bien",
+            "bueno",
+            "mejor"
+          ],
+          "answer": "bien",
+          "en": "It isn't expensive; it's rather average.",
+          "it": "Non è caro; è piuttosto nella media.",
+          "uk": "Це не дорого; радше звичайна ціна.",
+          "de": "Es ist nicht teuer; es ist eher normal.",
+          "fr": "Ce n'est pas cher ; c'est plutôt dans la moyenne.",
+          "pt": "Não é caro; é mais para normal.",
+          "zh": "不贵；倒不如说是一般价位。",
+          "hint": {
+            "en": "rather: más bien.",
+            "it": "piuttosto: más bien.",
+            "uk": "радше: más bien.",
+            "de": "eher: más bien.",
+            "fr": "plutôt : más bien.",
+            "pt": "mais para, antes: más bien.",
+            "zh": "倒不如说：más bien。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "A friend asks «¿Estás triste?». You're not. Answer: no, I'm more tired.",
+            "it": "Un'amica ti chiede «¿Estás triste?». Non lo sei. Rispondi: no, sono piuttosto stanco.",
+            "uk": "Подруга питає «¿Estás triste?». Ні. Відповідай: ні, я радше втомлений(-а).",
+            "de": "Eine Freundin fragt: «¿Estás triste?». Bist du nicht. Antworte: nein, ich bin eher müde.",
+            "fr": "Une amie te demande «¿Estás triste?». Tu ne l'es pas. Réponds : non, je suis plutôt fatigué.",
+            "pt": "Uma amiga pergunta «¿Estás triste?». Você não está. Responda: não, estou mais é cansado.",
+            "zh": "一个朋友问你：«¿Estás triste?»。你并不难过。回答：不是，我更像是累了。"
+          },
+          "accepted": [
+            "No, estoy más bien cansado.",
+            "No, estoy más bien cansada.",
+            "No, más bien cansado.",
+            "No, más bien cansada.",
+            "No, más bien estoy cansado.",
+            "No, más bien estoy cansada."
+          ],
+          "tiles": [
+            "No,",
+            "estoy",
+            "más bien",
+            "cansado",
+            "bueno",
+            "soy"
+          ],
+          "en": "No, I'm more tired.",
+          "it": "No, sono piuttosto stanco.",
+          "uk": "Ні, я радше втомлений(-а).",
+          "de": "Nein, ich bin eher müde.",
+          "fr": "Non, je suis plutôt fatigué.",
+          "pt": "Não, estou mais é cansado.",
+          "zh": "不是，我更像是累了。",
+          "hint": {
+            "en": "más bien goes before the word it changes.",
+            "it": "más bien va prima della parola che cambia.",
+            "uk": "más bien ставиться перед словом, яке уточнює.",
+            "de": "más bien steht vor dem Wort, das es verändert.",
+            "fr": "más bien se place avant le mot qu'il modifie.",
+            "pt": "más bien fica antes da palavra que modifica.",
+            "zh": "más bien 放在它所修饰的词前面。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "Todos piensan que es caro, pero en ",
+          "after": " no lo es.",
+          "options": [
+            "realidad",
+            "hecho",
+            "cierto"
+          ],
+          "answer": "realidad",
+          "en": "Everyone thinks it's expensive, but actually it isn't.",
+          "it": "Tutti pensano che sia caro, ma in realtà non lo è.",
+          "uk": "Усі думають, що це дорого, але насправді ні.",
+          "de": "Alle denken, es ist teuer, aber eigentlich ist es das nicht.",
+          "fr": "Tout le monde pense que c'est cher, mais en réalité ça ne l'est pas.",
+          "pt": "Todo mundo acha que é caro, mas na verdade não é.",
+          "zh": "大家都以为很贵，但实际上并不贵。",
+          "hint": {
+            "en": "Correcting an idea: en realidad.",
+            "it": "Per correggere un'idea: en realidad.",
+            "uk": "Щоб виправити уявлення: en realidad.",
+            "de": "Eine Vorstellung korrigieren: en realidad.",
+            "fr": "Pour corriger une idée : en realidad.",
+            "pt": "Para corrigir uma ideia: en realidad.",
+            "zh": "纠正一个看法：en realidad。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "mix",
+          "before": "El hotel está muy bien; de ",
+          "after": ", vamos a volver en verano.",
+          "label": "in fact",
+          "accepted": [
+            "hecho"
+          ],
+          "en": "The hotel is really nice; in fact, we're going back in the summer.",
+          "it": "L'albergo è molto carino; anzi, ci torniamo in estate.",
+          "uk": "Готель дуже гарний; насправді ми повертаємося туди влітку.",
+          "de": "Das Hotel ist wirklich schön; wir fahren sogar im Sommer wieder hin.",
+          "fr": "L'hôtel est vraiment sympa ; d'ailleurs, on y retourne cet été.",
+          "pt": "O hotel é muito bom; inclusive, vamos voltar no verão.",
+          "zh": "这家酒店真不错；其实，我们夏天还要再来。",
+          "hint": {
+            "en": "de hecho backs it up with a stronger fact.",
+            "it": "de hecho lo rafforza con un fatto più forte.",
+            "uk": "de hecho підкріплює думку вагомішим фактом.",
+            "de": "de hecho untermauert es mit einer stärkeren Tatsache.",
+            "fr": "de hecho l'appuie avec un fait plus fort.",
+            "pt": "de hecho reforça com um fato mais forte.",
+            "zh": "de hecho 用一个更有力的事实来支持。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "mix",
+          "intention": {
+            "en": "A friend thinks your new job must be very stressful. Tell her: actually, it's rather quiet.",
+            "it": "Un'amica pensa che il tuo nuovo lavoro sia molto stressante. Dille: in realtà è piuttosto tranquillo.",
+            "uk": "Подруга думає, що твоя нова робота, мабуть, дуже напружена. Скажи їй: взагалі-то вона радше спокійна.",
+            "de": "Eine Freundin denkt, dein neuer Job ist bestimmt sehr stressig. Sag ihr: eigentlich ist er eher ruhig.",
+            "fr": "Une amie pense que ton nouveau travail doit être très stressant. Dis-lui : en fait, c'est plutôt calme.",
+            "pt": "Uma amiga acha que o seu novo trabalho deve ser muito estressante. Diga a ela: na verdade, é mais para tranquilo.",
+            "zh": "一个朋友以为你的新工作一定压力很大。告诉她：其实，还挺清闲的。"
+          },
+          "accepted": [
+            "En realidad, es más bien tranquilo.",
+            "En realidad es más bien tranquilo."
+          ],
+          "tiles": [
+            "En realidad,",
+            "es",
+            "más bien",
+            "tranquilo",
+            "de hecho",
+            "bueno"
+          ],
+          "en": "Actually, it's rather quiet.",
+          "it": "In realtà è piuttosto tranquillo.",
+          "uk": "Взагалі-то вона радше спокійна.",
+          "de": "Eigentlich ist er eher ruhig.",
+          "fr": "En fait, c'est plutôt calme.",
+          "pt": "Na verdade, é mais para tranquilo.",
+          "zh": "其实，还挺清闲的。",
+          "hint": {
+            "en": "en realidad corrects her idea; más bien makes it exact.",
+            "it": "en realidad corregge la sua idea; más bien la rende precisa.",
+            "uk": "en realidad виправляє її уявлення; más bien робить сказане точним.",
+            "de": "en realidad korrigiert ihre Vorstellung; más bien macht es genauer.",
+            "fr": "en realidad corrige son idée ; más bien la rend précise.",
+            "pt": "en realidad corrige a ideia dela; más bien a torna precisa.",
+            "zh": "en realidad 纠正她的想法；más bien 让说法更准确。"
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "A friend asks if you like living in your new city. Write in Spanish: «I really like this city; in fact, I want to live here.»",
+            "it": "Un amico ti chiede se ti piace vivere nella tua nuova città. Scrivi in spagnolo: «Questa città mi piace molto; anzi, voglio viverci.»",
+            "uk": "Друг питає, чи подобається тобі жити в новому місті. Напиши іспанською: «Мені дуже подобається це місто; насправді я хочу тут жити.»",
+            "de": "Ein Freund fragt, ob du gern in deiner neuen Stadt wohnst. Schreib auf Spanisch: «Mir gefällt diese Stadt sehr gut; ich will sogar hier wohnen.»",
+            "fr": "Un ami te demande si tu aimes vivre dans ta nouvelle ville. Écris en espagnol : «Cette ville me plaît beaucoup ; d'ailleurs, je veux vivre ici.»",
+            "pt": "Um amigo pergunta se você gosta de morar na sua nova cidade. Escreva em espanhol: «Gosto muito desta cidade; inclusive, quero morar aqui.»",
+            "zh": "一个朋友问你喜不喜欢住在新城市。用西班牙语写：«我真的很喜欢这座城市；其实，我想住在这里。»"
+          },
+          "accepted": [
+            "Me gusta mucho esta ciudad; de hecho, quiero vivir aquí.",
+            "Me encanta esta ciudad; de hecho, quiero vivir aquí.",
+            "Me gusta mucho esta ciudad; de hecho, quiero vivir aquí siempre."
+          ],
+          "model": {
+            "es": "Me gusta mucho esta ciudad; de hecho, quiero vivir aquí.",
+            "en": "I really like this city; in fact, I want to live here.",
+            "it": "Questa città mi piace molto; anzi, voglio viverci.",
+            "uk": "Мені дуже подобається це місто; насправді я хочу тут жити.",
+            "de": "Mir gefällt diese Stadt sehr gut; ich will sogar hier wohnen.",
+            "fr": "Cette ville me plaît beaucoup ; d'ailleurs, je veux vivre ici.",
+            "pt": "Gosto muito desta cidade; inclusive, quero morar aqui.",
+            "zh": "我真的很喜欢这座城市；其实，我想住在这里。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u45l4",
+      "goal": {
+        "en": "Complain like a Spaniard: encima to add something that makes things worse, para colmo for the last straw, and ¡esto es el colmo! when you've had enough.",
+        "it": "Lamentati come uno spagnolo: encima per aggiungere qualcosa che peggiora la situazione, para colmo per la goccia che fa traboccare il vaso e ¡esto es el colmo! quando ne hai abbastanza.",
+        "uk": "Скаржся, як іспанець: encima — щоб додати щось, що ще більше погіршує ситуацію, para colmo — для останньої краплі, і ¡esto es el colmo! — коли тобі вже досить.",
+        "de": "Beschwer dich wie ein Spanier: encima, um etwas hinzuzufügen, das alles noch schlimmer macht, para colmo für den Gipfel des Ganzen und ¡esto es el colmo! wenn es dir reicht.",
+        "fr": "Râle comme un Espagnol : encima pour ajouter quelque chose qui empire la situation, para colmo pour la goutte d'eau qui fait déborder le vase et ¡esto es el colmo! quand tu en as assez.",
+        "pt": "Reclame como um espanhol: encima para acrescentar algo que piora as coisas, para colmo para a gota d'água e ¡esto es el colmo! quando você não aguenta mais.",
+        "zh": "像西班牙人一样抱怨：用 encima 补充让情况更糟的事，用 para colmo 说出“最后一根稻草”，受够了的时候就说 ¡esto es el colmo!。"
+      },
+      "target": {
+        "es": "Perdí el tren y, para colmo, empezó a llover.",
+        "en": "I missed the train and, to top it all, it started to rain.",
+        "it": "Ho perso il treno e, come se non bastasse, ha cominciato a piovere.",
+        "uk": "Я спізнився(-лася) на потяг, і на довершення всього почався дощ.",
+        "de": "Ich habe den Zug verpasst, und zu allem Überfluss fing es an zu regnen.",
+        "fr": "J'ai raté le train et, pour couronner le tout, il s'est mis à pleuvoir.",
+        "pt": "Perdi o trem e, para completar, começou a chover.",
+        "zh": "我错过了火车，更倒霉的是，还下起雨来了。"
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "encima",
+              "en": "on top of that (making it worse)",
+              "it": "per di più, pure (in peggio)",
+              "uk": "до того ж, ще й (на гірше)",
+              "de": "obendrein, auch noch (was es schlimmer macht)",
+              "fr": "en plus, par-dessus le marché (en pire)",
+              "pt": "ainda por cima (para piorar)",
+              "zh": "而且，还（让情况更糟）",
+              "kind": "rail"
+            },
+            {
+              "es": "para colmo",
+              "en": "to top it all",
+              "it": "come se non bastasse",
+              "uk": "на довершення всього",
+              "de": "zu allem Überfluss, als ob das nicht reichen würde",
+              "fr": "pour couronner le tout",
+              "pt": "para completar, pra piorar",
+              "zh": "更糟糕的是，雪上加霜的是",
+              "kind": "rail"
+            },
+            {
+              "es": "el colmo",
+              "en": "the last straw, the limit",
+              "it": "il colmo",
+              "uk": "остання крапля, верх усього",
+              "de": "der Gipfel, die Höhe",
+              "fr": "le comble, la goutte d'eau qui fait déborder le vase",
+              "pt": "o cúmulo, a gota d'água",
+              "zh": "最后一根稻草，忍无可忍",
+              "kind": "chunk"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "bad",
+              "kind": "chunk"
+            },
+            {
+              "text": "+",
+              "kind": "chunk"
+            },
+            {
+              "text": "y encima",
+              "kind": "rail"
+            },
+            {
+              "text": "+",
+              "kind": "chunk"
+            },
+            {
+              "text": "worse",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "además just adds; encima adds something that makes things worse, so it's perfect for complaining. It often comes as y encima.",
+            "it": "además aggiunge e basta; encima aggiunge qualcosa che peggiora la situazione, perciò è perfetto per lamentarsi. Spesso si trova come y encima.",
+            "uk": "además просто додає; encima додає щось, що ще більше погіршує ситуацію, тому воно ідеально підходить, щоб поскаржитися. Часто трапляється у вигляді y encima.",
+            "de": "además fügt einfach etwas hinzu; encima fügt etwas hinzu, das alles noch schlimmer macht, und ist deshalb perfekt zum Beschweren. Oft heißt es y encima (und obendrein).",
+            "fr": "además ajoute, tout simplement ; encima ajoute quelque chose qui empire la situation, c'est donc parfait pour râler. On le trouve souvent sous la forme y encima.",
+            "pt": "además só acrescenta; encima acrescenta algo que piora as coisas, por isso é perfeito para reclamar. Muitas vezes aparece como y encima.",
+            "zh": "además 只是单纯地补充；encima 补充的是让情况更糟的事，所以特别适合用来抱怨。常见的形式是 y encima。"
+          },
+          "examples": [
+            {
+              "es": "El piso es caro y encima es muy pequeño.",
+              "en": "The flat is expensive and, on top of that, it's tiny.",
+              "it": "L'appartamento è caro e per di più è piccolissimo.",
+              "uk": "Квартира дорога, і до того ж вона дуже маленька.",
+              "de": "Die Wohnung ist teuer und obendrein winzig.",
+              "fr": "L'appartement est cher et, en plus, il est minuscule.",
+              "pt": "O apartamento é caro e, ainda por cima, é minúsculo.",
+              "zh": "这套房子很贵，而且还特别小。"
+            },
+            {
+              "es": "Llegas tarde y encima no pides perdón.",
+              "en": "You're late and, on top of that, you don't say sorry.",
+              "it": "Arrivi tardi e non chiedi nemmeno scusa.",
+              "uk": "Ти запізнюєшся і ще й не перепрошуєш.",
+              "de": "Du kommst zu spät und entschuldigst dich obendrein nicht mal.",
+              "fr": "Tu arrives en retard et, en plus, tu ne t'excuses pas.",
+              "pt": "Você chega atrasado e, ainda por cima, não pede desculpa.",
+              "zh": "你迟到了，而且连声对不起都不说。"
+            },
+            {
+              "es": "Hace frío y encima no hay agua caliente.",
+              "en": "It's cold and, on top of that, there's no hot water.",
+              "it": "Fa freddo e per di più non c'è acqua calda.",
+              "uk": "Холодно, і до того ж немає гарячої води.",
+              "de": "Es ist kalt, und obendrein gibt es kein warmes Wasser.",
+              "fr": "Il fait froid et, en plus, il n'y a pas d'eau chaude.",
+              "pt": "Está frio e, ainda por cima, não tem água quente.",
+              "zh": "天很冷，而且还没有热水。"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "El hotel era caro y ",
+          "after": " la habitación estaba sucia.",
+          "options": [
+            "encima",
+            "pues",
+            "o sea"
+          ],
+          "answer": "encima",
+          "en": "The hotel was expensive and, on top of that, the room was dirty.",
+          "it": "L'albergo era caro e per di più la camera era sporca.",
+          "uk": "Готель був дорогий, і до того ж номер був брудний.",
+          "de": "Das Hotel war teuer, und obendrein war das Zimmer schmutzig.",
+          "fr": "L'hôtel était cher et, en plus, la chambre était sale.",
+          "pt": "O hotel era caro e, ainda por cima, o quarto estava sujo.",
+          "zh": "酒店很贵，而且房间还很脏。",
+          "hint": {
+            "en": "To add something worse: encima.",
+            "it": "Per aggiungere qualcosa di peggio: encima.",
+            "uk": "Щоб додати щось гірше: encima.",
+            "de": "Um etwas Schlimmeres hinzuzufügen: encima.",
+            "fr": "Pour ajouter quelque chose de pire : encima.",
+            "pt": "Para acrescentar algo pior: encima.",
+            "zh": "补充更糟的事：encima。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "You're complaining to a friend about your new flat. Say: it's small and, on top of that, there's a lot of noise.",
+            "it": "Ti stai lamentando con un'amica del tuo nuovo appartamento. Di': è piccolo e per di più c'è un sacco di rumore.",
+            "uk": "Ти скаржишся подрузі на свою нову квартиру. Скажи: вона маленька, і до того ж там дуже шумно.",
+            "de": "Du beschwerst dich bei einer Freundin über deine neue Wohnung. Sag: sie ist klein, und obendrein ist es sehr laut.",
+            "fr": "Tu te plains de ton nouvel appartement à une amie. Dis : c'est petit et, en plus, il y a beaucoup de bruit.",
+            "pt": "Você está reclamando com uma amiga do seu apartamento novo. Diga: é pequeno e, ainda por cima, tem muito barulho.",
+            "zh": "你在向一个朋友抱怨你的新公寓。说：房子很小，而且还很吵。"
+          },
+          "accepted": [
+            "Es pequeño y encima hay mucho ruido.",
+            "Es pequeño y, encima, hay mucho ruido."
+          ],
+          "tiles": [
+            "Es pequeño",
+            "y",
+            "encima",
+            "hay",
+            "mucho ruido",
+            "pues",
+            "está"
+          ],
+          "en": "It's small and, on top of that, there's a lot of noise.",
+          "it": "È piccolo e per di più c'è un sacco di rumore.",
+          "uk": "Вона маленька, і до того ж там дуже шумно.",
+          "de": "Sie ist klein, und obendrein ist es sehr laut.",
+          "fr": "C'est petit et, en plus, il y a beaucoup de bruit.",
+          "pt": "É pequeno e, ainda por cima, tem muito barulho.",
+          "zh": "房子很小，而且还很吵。",
+          "hint": {
+            "en": "encima adds something that makes it worse.",
+            "it": "encima aggiunge qualcosa che lo peggiora.",
+            "uk": "encima додає щось, що робить усе ще гіршим.",
+            "de": "encima fügt etwas hinzu, das es schlimmer macht.",
+            "fr": "encima ajoute quelque chose qui empire la situation.",
+            "pt": "encima acrescenta algo que piora as coisas.",
+            "zh": "encima 补充让情况更糟的事。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "…, …",
+              "kind": "chunk"
+            },
+            {
+              "text": "+",
+              "kind": "chunk"
+            },
+            {
+              "text": "y, para colmo,",
+              "kind": "rail"
+            },
+            {
+              "text": "+",
+              "kind": "chunk"
+            },
+            {
+              "text": "worst",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "Para colmo (to top it all) introduces the last and worst thing in a list of bad things, often in a story: y, para colmo, …",
+            "it": "Para colmo (come se non bastasse) introduce l'ultima e peggiore cosa di una lista di guai, spesso in un racconto: y, para colmo, …",
+            "uk": "Para colmo (на довершення всього) вводить останню й найгіршу річ у переліку неприємностей, часто в розповіді: y, para colmo, …",
+            "de": "Para colmo (zu allem Überfluss) leitet das letzte und schlimmste in einer Reihe von Missgeschicken ein, oft in einer Erzählung: y, para colmo, …",
+            "fr": "Para colmo (pour couronner le tout) introduit la dernière et la pire chose d'une liste de malheurs, souvent dans un récit : y, para colmo, …",
+            "pt": "Para colmo (para completar) introduz a última e pior coisa de uma lista de problemas, muitas vezes ao contar uma história: y, para colmo, …",
+            "zh": "Para colmo（更糟糕的是，雪上加霜的是）引出一连串倒霉事中最后、也是最糟的那一件，常用在讲故事的时候：y, para colmo, …"
+          },
+          "examples": [
+            {
+              "es": "Perdí el tren y, para colmo, empezó a llover.",
+              "en": "I missed the train and, to top it all, it started to rain.",
+              "it": "Ho perso il treno e, come se non bastasse, ha cominciato a piovere.",
+              "uk": "Я спізнився(-лася) на потяг, і на довершення всього почався дощ.",
+              "de": "Ich habe den Zug verpasst, und zu allem Überfluss fing es an zu regnen.",
+              "fr": "J'ai raté le train et, pour couronner le tout, il s'est mis à pleuvoir.",
+              "pt": "Perdi o trem e, para completar, começou a chover.",
+              "zh": "我错过了火车，更倒霉的是，还下起雨来了。"
+            },
+            {
+              "es": "Llegué tarde, no tenía el informe y, para colmo, se me rompió el móvil.",
+              "en": "I was late, I didn't have the report and, to top it all, my phone broke.",
+              "it": "Sono arrivato tardi, non avevo la relazione e, come se non bastasse, mi si è rotto il cellulare.",
+              "uk": "Я запізнився(-лася), у мене не було звіту, і на довершення всього в мене зламався мобільний.",
+              "de": "Ich kam zu spät, hatte den Bericht nicht dabei, und zu allem Überfluss ging mein Handy kaputt.",
+              "fr": "Je suis arrivé en retard, je n'avais pas le rapport et, pour couronner le tout, mon portable s'est cassé.",
+              "pt": "Cheguei atrasado, não estava com o relatório e, para completar, meu celular quebrou.",
+              "zh": "我迟到了，报告也没带，更糟糕的是，手机还坏了。"
+            },
+            {
+              "es": "Hacía frío, no había autobuses y, para colmo, empezó a nevar.",
+              "en": "It was cold, there were no buses and, to top it all, it started to snow.",
+              "it": "Faceva freddo, non c'erano autobus e, come se non bastasse, ha cominciato a nevicare.",
+              "uk": "Було холодно, не було автобусів, і на довершення всього почався сніг.",
+              "de": "Es war kalt, es fuhren keine Busse, und zu allem Überfluss fing es an zu schneien.",
+              "fr": "Il faisait froid, il n'y avait pas de bus et, pour couronner le tout, il s'est mis à neiger.",
+              "pt": "Estava frio, não tinha ônibus e, para completar, começou a nevar.",
+              "zh": "天很冷，没有公交车，更糟糕的是，还下起雪来了。"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Se me rompió el coche y, para ",
+          "after": ", empezó a llover.",
+          "options": [
+            "colmo",
+            "encima",
+            "además"
+          ],
+          "answer": "colmo",
+          "en": "My car broke down and, to top it all, it started to rain.",
+          "it": "Mi si è rotta la macchina e, come se non bastasse, ha cominciato a piovere.",
+          "uk": "У мене зламалася машина, і на довершення всього почався дощ.",
+          "de": "Mein Auto ist liegen geblieben, und zu allem Überfluss fing es an zu regnen.",
+          "fr": "Ma voiture est tombée en panne et, pour couronner le tout, il s'est mis à pleuvoir.",
+          "pt": "Meu carro quebrou e, para completar, começou a chover.",
+          "zh": "我的车坏了，更倒霉的是，还下起雨来了。",
+          "hint": {
+            "en": "The fixed phrase is para colmo.",
+            "it": "L'espressione fissa è para colmo.",
+            "uk": "Сталий вислів — para colmo.",
+            "de": "Die feste Wendung heißt para colmo.",
+            "fr": "L'expression figée est para colmo.",
+            "pt": "A expressão fixa é para colmo.",
+            "zh": "固定说法是 para colmo。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "fire",
+          "before": "Perdí el autobús y, ",
+          "after": " colmo, empezó a llover.",
+          "label": "to top it all",
+          "accepted": [
+            "para"
+          ],
+          "en": "I missed the bus and, to top it all, it started to rain.",
+          "it": "Ho perso l'autobus e, come se non bastasse, ha cominciato a piovere.",
+          "uk": "Я спізнився(-лася) на автобус, і на довершення всього почався дощ.",
+          "de": "Ich habe den Bus verpasst, und zu allem Überfluss fing es an zu regnen.",
+          "fr": "J'ai raté le bus et, pour couronner le tout, il s'est mis à pleuvoir.",
+          "pt": "Perdi o ônibus e, para completar, começou a chover.",
+          "zh": "我错过了公交车，更倒霉的是，还下起雨来了。",
+          "hint": {
+            "en": "para colmo: the last, worst thing.",
+            "it": "para colmo: l'ultima cosa, la peggiore.",
+            "uk": "para colmo: остання, найгірша річ.",
+            "de": "para colmo: das Letzte und Schlimmste.",
+            "fr": "para colmo : la dernière chose, la pire.",
+            "pt": "para colmo: a última coisa, a pior.",
+            "zh": "para colmo：最后、最糟的那件事。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "¡Esto es",
+              "kind": "chunk"
+            },
+            {
+              "text": "el colmo!",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "When you've really had enough, say ¡esto es el colmo! or ¡es el colmo! (this is the last straw!). It's angry but not rude.",
+            "it": "Quando ne hai davvero abbastanza, di' ¡esto es el colmo! o ¡es el colmo! (questo è il colmo!). È arrabbiato ma non volgare.",
+            "uk": "Коли тобі справді вже досить, скажи ¡esto es el colmo! або ¡es el colmo! (це вже остання крапля!). Це сердито, але не грубо.",
+            "de": "Wenn es dir wirklich reicht, sag ¡esto es el colmo! oder ¡es el colmo! (das ist doch die Höhe!). Das klingt wütend, aber nicht unhöflich.",
+            "fr": "Quand tu en as vraiment assez, dis ¡esto es el colmo! ou ¡es el colmo! (c'est le comble !). C'est fâché, mais pas grossier.",
+            "pt": "Quando você realmente não aguenta mais, diga ¡esto es el colmo! ou ¡es el colmo! (isso é o cúmulo!). É irritado, mas não grosseiro.",
+            "zh": "真的受够了的时候，就说 ¡esto es el colmo! 或 ¡es el colmo!（真是忍无可忍了！）。语气很生气，但并不粗鲁。"
+          },
+          "examples": [
+            {
+              "es": "¡Otra vez sin agua caliente! ¡Esto es el colmo!",
+              "en": "No hot water again! This is the last straw!",
+              "it": "Di nuovo senz'acqua calda! Questo è il colmo!",
+              "uk": "Знову немає гарячої води! Це вже остання крапля!",
+              "de": "Schon wieder kein warmes Wasser! Das ist doch die Höhe!",
+              "fr": "Encore pas d'eau chaude ! C'est le comble !",
+              "pt": "Sem água quente de novo! Isso é o cúmulo!",
+              "zh": "又没有热水了！真是忍无可忍了！"
+            },
+            {
+              "es": "¡Es el colmo! Tres horas esperando.",
+              "en": "This is ridiculous! Three hours waiting.",
+              "it": "È il colmo! Tre ore ad aspettare.",
+              "uk": "Це вже занадто! Три години чекання.",
+              "de": "Das ist doch der Gipfel! Drei Stunden warten.",
+              "fr": "C'est un comble ! Trois heures à attendre.",
+              "pt": "É o cúmulo! Três horas esperando.",
+              "zh": "太过分了！等了三个小时。"
+            },
+            {
+              "es": "¿Otra vez tarde? ¡Esto es el colmo!",
+              "en": "Late again? This is the last straw!",
+              "it": "Di nuovo in ritardo? Questo è il colmo!",
+              "uk": "Знову запізнюєшся? Це вже остання крапля!",
+              "de": "Schon wieder zu spät? Das ist doch die Höhe!",
+              "fr": "Encore en retard ? C'est le comble !",
+              "pt": "Atrasado de novo? Isso é o cúmulo!",
+              "zh": "又迟到？真是忍无可忍了！"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "¿Otra vez el tren tarde? ¡Esto es el ",
+          "after": "!",
+          "options": [
+            "colmo",
+            "encima",
+            "además"
+          ],
+          "answer": "colmo",
+          "en": "The train's late again? This is the last straw!",
+          "it": "Il treno è di nuovo in ritardo? Questo è il colmo!",
+          "uk": "Потяг знову запізнюється? Це вже остання крапля!",
+          "de": "Der Zug hat schon wieder Verspätung? Das ist doch die Höhe!",
+          "fr": "Le train est encore en retard ? C'est le comble !",
+          "pt": "O trem atrasou de novo? Isso é o cúmulo!",
+          "zh": "火车又晚点了？真是忍无可忍了！",
+          "hint": {
+            "en": "When you've had enough: ¡esto es el colmo!",
+            "it": "Quando ne hai abbastanza: ¡esto es el colmo!",
+            "uk": "Коли тобі вже досить: ¡esto es el colmo!",
+            "de": "Wenn es dir reicht: ¡esto es el colmo!",
+            "fr": "Quand tu en as assez : ¡esto es el colmo!",
+            "pt": "Quando você não aguenta mais: ¡esto es el colmo!",
+            "zh": "受够了的时候：¡esto es el colmo!"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "For the third time this week, there's no hot water in your hotel. Tell the receptionist: no hot water again! This is the last straw!",
+            "it": "Per la terza volta questa settimana, nel tuo albergo non c'è acqua calda. Di' al receptionist: di nuovo senz'acqua calda! Questo è il colmo!",
+            "uk": "Уже втретє за тиждень у твоєму готелі немає гарячої води. Скажи адміністраторові: знову немає гарячої води! Це вже остання крапля!",
+            "de": "Zum dritten Mal in dieser Woche gibt es in deinem Hotel kein warmes Wasser. Sag zum Rezeptionisten: schon wieder kein warmes Wasser! Das ist doch die Höhe!",
+            "fr": "Pour la troisième fois cette semaine, il n'y a pas d'eau chaude dans ton hôtel. Dis au réceptionniste : encore pas d'eau chaude ! C'est le comble !",
+            "pt": "Pela terceira vez nesta semana, não tem água quente no seu hotel. Diga ao recepcionista: sem água quente de novo! Isso é o cúmulo!",
+            "zh": "这周已经是第三次了，你住的酒店又没有热水。对前台说：又没有热水了！真是忍无可忍了！"
+          },
+          "accepted": [
+            "¡Otra vez sin agua caliente! ¡Esto es el colmo!",
+            "¡Otra vez sin agua caliente! ¡Es el colmo!"
+          ],
+          "tiles": [
+            "¡Otra vez",
+            "sin",
+            "agua caliente!",
+            "¡Esto es",
+            "el colmo!",
+            "encima",
+            "con"
+          ],
+          "en": "No hot water again! This is the last straw!",
+          "it": "Di nuovo senz'acqua calda! Questo è il colmo!",
+          "uk": "Знову немає гарячої води! Це вже остання крапля!",
+          "de": "Schon wieder kein warmes Wasser! Das ist doch die Höhe!",
+          "fr": "Encore pas d'eau chaude ! C'est le comble !",
+          "pt": "Sem água quente de novo! Isso é o cúmulo!",
+          "zh": "又没有热水了！真是忍无可忍了！",
+          "hint": {
+            "en": "¡esto es el colmo! when you've had enough.",
+            "it": "¡esto es el colmo! quando ne hai abbastanza.",
+            "uk": "¡esto es el colmo! — коли тобі вже досить.",
+            "de": "¡esto es el colmo!, wenn es dir reicht.",
+            "fr": "¡esto es el colmo! quand tu en as assez.",
+            "pt": "¡esto es el colmo! quando você não aguenta mais.",
+            "zh": "受够了的时候说 ¡esto es el colmo!。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "mix",
+          "before": "La comida estaba fría y ",
+          "after": " era carísima.",
+          "label": "on top of that",
+          "accepted": [
+            "encima"
+          ],
+          "en": "The food was cold and, on top of that, it was really expensive.",
+          "it": "Il cibo era freddo e per di più carissimo.",
+          "uk": "Їжа була холодна, і до того ж дуже дорога.",
+          "de": "Das Essen war kalt und obendrein richtig teuer.",
+          "fr": "La nourriture était froide et, en plus, elle était hyper chère.",
+          "pt": "A comida estava fria e, ainda por cima, era caríssima.",
+          "zh": "饭菜是凉的，而且还特别贵。",
+          "hint": {
+            "en": "encima: something that makes it worse.",
+            "it": "encima: qualcosa che peggiora la situazione.",
+            "uk": "encima: щось, що робить усе ще гіршим.",
+            "de": "encima: etwas, das es schlimmer macht.",
+            "fr": "encima : quelque chose qui empire la situation.",
+            "pt": "encima: algo que piora as coisas.",
+            "zh": "encima：让情况更糟的事。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "Llovía, no había autobuses y, ",
+          "after": " colmo, me dejé el paraguas en casa.",
+          "options": [
+            "para",
+            "por",
+            "de"
+          ],
+          "answer": "para",
+          "en": "It was raining, there were no buses and, to top it all, I'd left my umbrella at home.",
+          "it": "Pioveva, non c'erano autobus e, come se non bastasse, avevo lasciato l'ombrello a casa.",
+          "uk": "Ішов дощ, не було автобусів, і на довершення всього я залишив(-ла) парасольку вдома.",
+          "de": "Es regnete, es fuhren keine Busse, und zu allem Überfluss hatte ich meinen Regenschirm zu Hause gelassen.",
+          "fr": "Il pleuvait, il n'y avait pas de bus et, pour couronner le tout, j'avais laissé mon parapluie à la maison.",
+          "pt": "Estava chovendo, não tinha ônibus e, para completar, eu tinha deixado o guarda-chuva em casa.",
+          "zh": "下着雨，没有公交车，更糟糕的是，我把伞落在家里了。",
+          "hint": {
+            "en": "Always para colmo.",
+            "it": "Sempre para colmo.",
+            "uk": "Завжди para colmo.",
+            "de": "Immer para colmo.",
+            "fr": "Toujours para colmo.",
+            "pt": "Sempre para colmo.",
+            "zh": "永远是 para colmo。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "mix",
+          "intention": {
+            "en": "A friend arrives late for the third time this week. Say: you're always late and, on top of that, you don't say sorry.",
+            "it": "Un amico arriva in ritardo per la terza volta questa settimana. Digli: arrivi sempre tardi e per di più non chiedi scusa.",
+            "uk": "Друг уже втретє за тиждень запізнюється. Скажи: ти завжди запізнюєшся і ще й не перепрошуєш.",
+            "de": "Ein Freund kommt zum dritten Mal in dieser Woche zu spät. Sag: du kommst immer zu spät und entschuldigst dich obendrein nicht.",
+            "fr": "Un ami arrive en retard pour la troisième fois cette semaine. Dis-lui : tu arrives toujours en retard et, en plus, tu ne t'excuses pas.",
+            "pt": "Um amigo chega atrasado pela terceira vez nesta semana. Diga: você sempre chega atrasado e, ainda por cima, não pede desculpa.",
+            "zh": "一个朋友这周第三次迟到了。说：你总是迟到，而且连声对不起都不说。"
+          },
+          "accepted": [
+            "Siempre llegas tarde y encima no pides perdón.",
+            "Siempre llegas tarde y, encima, no pides perdón.",
+            "Llegas siempre tarde y encima no pides perdón."
+          ],
+          "tiles": [
+            "Siempre",
+            "llegas",
+            "tarde",
+            "y",
+            "encima",
+            "no pides",
+            "perdón",
+            "pues",
+            "pido"
+          ],
+          "en": "You're always late and, on top of that, you don't say sorry.",
+          "it": "Arrivi sempre tardi e per di più non chiedi scusa.",
+          "uk": "Ти завжди запізнюєшся і ще й не перепрошуєш.",
+          "de": "Du kommst immer zu spät und entschuldigst dich obendrein nicht.",
+          "fr": "Tu arrives toujours en retard et, en plus, tu ne t'excuses pas.",
+          "pt": "Você sempre chega atrasado e, ainda por cima, não pede desculpa.",
+          "zh": "你总是迟到，而且连声对不起都不说。",
+          "hint": {
+            "en": "y encima adds the part that makes it worse.",
+            "it": "y encima aggiunge la parte che lo peggiora.",
+            "uk": "y encima додає ту частину, яка робить усе ще гіршим.",
+            "de": "y encima fügt den Teil hinzu, der es schlimmer macht.",
+            "fr": "y encima ajoute la partie qui empire les choses.",
+            "pt": "y encima acrescenta a parte que piora as coisas.",
+            "zh": "y encima 补充让情况更糟的那部分。"
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "You're telling a friend about your awful morning. Write in Spanish: «I missed the bus and, to top it all, it started to rain.»",
+            "it": "Racconti a un'amica la tua mattinata terribile. Scrivi in spagnolo: «Ho perso l'autobus e, come se non bastasse, ha cominciato a piovere.»",
+            "uk": "Ти розповідаєш подрузі про свій жахливий ранок. Напиши іспанською: «Я спізнився(-лася) на автобус, і на довершення всього почався дощ.»",
+            "de": "Du erzählst einer Freundin von deinem furchtbaren Morgen. Schreib auf Spanisch: «Ich habe den Bus verpasst, und zu allem Überfluss fing es an zu regnen.»",
+            "fr": "Tu racontes ta matinée horrible à une amie. Écris en espagnol : «J'ai raté le bus et, pour couronner le tout, il s'est mis à pleuvoir.»",
+            "pt": "Você está contando para uma amiga sobre a sua manhã horrível. Escreva em espanhol: «Perdi o ônibus e, para completar, começou a chover.»",
+            "zh": "你在跟一个朋友讲你糟糕的早上。用西班牙语写：«我错过了公交车，更倒霉的是，还下起雨来了。»"
+          },
+          "accepted": [
+            "Perdí el autobús y, para colmo, empezó a llover.",
+            "Perdí el autobús y, para colmo, se puso a llover.",
+            "Perdí el autobús y encima empezó a llover."
+          ],
+          "model": {
+            "es": "Perdí el autobús y, para colmo, empezó a llover.",
+            "en": "I missed the bus and, to top it all, it started to rain.",
+            "it": "Ho perso l'autobus e, come se non bastasse, ha cominciato a piovere.",
+            "uk": "Я спізнився(-лася) на автобус, і на довершення всього почався дощ.",
+            "de": "Ich habe den Bus verpasst, und zu allem Überfluss fing es an zu regnen.",
+            "fr": "J'ai raté le bus et, pour couronner le tout, il s'est mis à pleuvoir.",
+            "pt": "Perdi o ônibus e, para completar, começou a chover.",
+            "zh": "我错过了公交车，更倒霉的是，还下起雨来了。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u45l5",
+      "goal": {
+        "en": "Close a topic and move on: en fin to wrap up (¿qué le vamos a hacer?), total, que… to get to the end of a story, and por cierto to change the subject.",
+        "it": "Chiudi un argomento e passa oltre: en fin per concludere (¿qué le vamos a hacer?), total, que… per arrivare alla fine di un racconto e por cierto per cambiare discorso.",
+        "uk": "Закривай тему й переходь до іншої: en fin — щоб підсумувати (¿qué le vamos a hacer?), total, que… — щоб перейти до кінця історії, і por cierto — щоб змінити тему.",
+        "de": "Schließ ein Thema ab und mach weiter: en fin zum Abschließen (¿qué le vamos a hacer?), total, que…, um zum Ende einer Geschichte zu kommen, und por cierto, um das Thema zu wechseln.",
+        "fr": "Clos un sujet et passe à autre chose : en fin pour conclure (¿qué le vamos a hacer?), total, que… pour arriver à la fin d'une histoire et por cierto pour changer de sujet.",
+        "pt": "Encerre um assunto e siga em frente: en fin para concluir (¿qué le vamos a hacer?), total, que… para chegar ao fim de uma história e por cierto para mudar de assunto.",
+        "zh": "结束一个话题，继续往下说：用 en fin 收尾（¿qué le vamos a hacer?），用 total, que… 讲到故事的结局，用 por cierto 换个话题。"
+      },
+      "target": {
+        "es": "En fin, ¿qué le vamos a hacer?",
+        "en": "Anyway, what can you do?",
+        "it": "Vabbè, che ci vuoi fare?",
+        "uk": "Ну що ж, нічого не поробиш.",
+        "de": "Naja, was soll man machen?",
+        "fr": "Bref, qu'est-ce que tu veux y faire ?",
+        "pt": "Enfim, fazer o quê?",
+        "zh": "算了，有什么办法呢？"
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "en fin",
+              "en": "anyway, oh well",
+              "it": "insomma, vabbè",
+              "uk": "ну що ж, коротше",
+              "de": "naja, na ja, wie auch immer",
+              "fr": "bref, enfin bon",
+              "pt": "enfim, bom",
+              "zh": "算了，总之",
+              "kind": "rail"
+            },
+            {
+              "es": "total, que…",
+              "en": "so, in the end…",
+              "it": "insomma, alla fine…",
+              "uk": "коротше, зрештою…",
+              "de": "kurz und gut…, am Ende…",
+              "fr": "bref, au final…",
+              "pt": "resumindo, no fim…",
+              "zh": "结果，总之最后……",
+              "kind": "rail"
+            },
+            {
+              "es": "¿qué le vamos a hacer?",
+              "en": "what can you do?",
+              "it": "che ci vuoi fare?",
+              "uk": "нічого не поробиш; що ж тут зробиш?",
+              "de": "was soll man machen?",
+              "fr": "qu'est-ce que tu veux y faire ?, on n'y peut rien",
+              "pt": "fazer o quê?",
+              "zh": "有什么办法呢？",
+              "kind": "chunk"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "en fin",
+              "kind": "rail"
+            },
+            {
+              "text": "+",
+              "kind": "chunk"
+            },
+            {
+              "text": "close",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "En fin (anyway, oh well) closes a topic, often with a sigh, when there's nothing more to say or nothing you can do about it.",
+            "it": "En fin (insomma, vabbè) chiude un argomento, spesso con un sospiro, quando non c'è altro da dire o non ci si può fare niente.",
+            "uk": "En fin (ну що ж, коротше) закриває тему, часто зі зітханням, коли більше нічого сказати або нічого не вдієш.",
+            "de": "En fin (naja, wie auch immer) schließt ein Thema ab, oft mit einem Seufzer, wenn es nichts mehr zu sagen gibt oder man nichts daran ändern kann.",
+            "fr": "En fin (bref, enfin bon) clôt un sujet, souvent avec un soupir, quand il n'y a plus rien à dire ou qu'on n'y peut rien.",
+            "pt": "En fin (enfim, bom) encerra um assunto, muitas vezes com um suspiro, quando não há mais nada a dizer ou nada a fazer.",
+            "zh": "En fin（算了，总之）用来结束一个话题，常常带着一声叹气，表示没什么可说的了，或者对这件事无能为力。"
+          },
+          "examples": [
+            {
+              "es": "En fin, ¿qué le vamos a hacer?",
+              "en": "Anyway, what can you do?",
+              "it": "Vabbè, che ci vuoi fare?",
+              "uk": "Ну що ж, нічого не поробиш.",
+              "de": "Naja, was soll man machen?",
+              "fr": "Bref, qu'est-ce que tu veux y faire ?",
+              "pt": "Enfim, fazer o quê?",
+              "zh": "算了，有什么办法呢？"
+            },
+            {
+              "es": "En fin, mañana será otro día.",
+              "en": "Oh well, tomorrow's another day.",
+              "it": "Vabbè, domani è un altro giorno.",
+              "uk": "Ну що ж, завтра буде новий день.",
+              "de": "Naja, morgen ist auch noch ein Tag.",
+              "fr": "Enfin bon, demain est un autre jour.",
+              "pt": "Enfim, amanhã é outro dia.",
+              "zh": "算了，明天又是新的一天。"
+            },
+            {
+              "es": "En fin, ya es tarde. Me voy.",
+              "en": "Anyway, it's late now. I'm off.",
+              "it": "Insomma, ormai è tardi. Io vado.",
+              "uk": "Коротше, вже пізно. Я пішов (пішла).",
+              "de": "Naja, es ist schon spät. Ich gehe.",
+              "fr": "Bref, il est tard maintenant. J'y vais.",
+              "pt": "Enfim, já está tarde. Vou indo.",
+              "zh": "总之，已经很晚了。我走了。"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "En ",
+          "after": ", mañana será otro día.",
+          "options": [
+            "fin",
+            "final",
+            "hecho"
+          ],
+          "answer": "fin",
+          "en": "Oh well, tomorrow's another day.",
+          "it": "Vabbè, domani è un altro giorno.",
+          "uk": "Ну що ж, завтра буде новий день.",
+          "de": "Naja, morgen ist auch noch ein Tag.",
+          "fr": "Enfin bon, demain est un autre jour.",
+          "pt": "Enfim, amanhã é outro dia.",
+          "zh": "算了，明天又是新的一天。",
+          "hint": {
+            "en": "To close a topic: en fin.",
+            "it": "Per chiudere un argomento: en fin.",
+            "uk": "Щоб закрити тему: en fin.",
+            "de": "Um ein Thema abzuschließen: en fin.",
+            "fr": "Pour clore un sujet : en fin.",
+            "pt": "Para encerrar um assunto: en fin.",
+            "zh": "结束一个话题：en fin。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "A friend tells you her flight has been cancelled and there's nothing to be done. Say: oh well, what can you do?",
+            "it": "Un'amica ti racconta che il suo volo è stato cancellato e non c'è niente da fare. Di': vabbè, che ci vuoi fare?",
+            "uk": "Подруга розповідає, що її рейс скасували і нічого не вдієш. Скажи: ну що ж, нічого не поробиш.",
+            "de": "Eine Freundin erzählt dir, dass ihr Flug gestrichen wurde und man nichts machen kann. Sag: naja, was soll man machen?",
+            "fr": "Une amie te raconte que son vol a été annulé et qu'il n'y a rien à faire. Dis : enfin bon, qu'est-ce que tu veux y faire ?",
+            "pt": "Uma amiga conta que o voo dela foi cancelado e não há nada a fazer. Diga: enfim, fazer o quê?",
+            "zh": "一个朋友告诉你她的航班被取消了，而且一点办法也没有。说：算了，有什么办法呢？"
+          },
+          "accepted": [
+            "En fin, ¿qué le vamos a hacer?"
+          ],
+          "tiles": [
+            "En fin,",
+            "¿qué",
+            "le vamos",
+            "a hacer?",
+            "hecho",
+            "vamos a"
+          ],
+          "en": "Oh well, what can you do?",
+          "it": "Vabbè, che ci vuoi fare?",
+          "uk": "Ну що ж, нічого не поробиш.",
+          "de": "Naja, was soll man machen?",
+          "fr": "Enfin bon, qu'est-ce que tu veux y faire ?",
+          "pt": "Enfim, fazer o quê?",
+          "zh": "算了，有什么办法呢？",
+          "hint": {
+            "en": "en fin closes the topic; ¿qué le vamos a hacer? accepts it.",
+            "it": "en fin chiude l'argomento; ¿qué le vamos a hacer? lo accetta.",
+            "uk": "en fin закриває тему; ¿qué le vamos a hacer? приймає ситуацію.",
+            "de": "en fin schließt das Thema ab; ¿qué le vamos a hacer? nimmt es hin.",
+            "fr": "en fin clôt le sujet ; ¿qué le vamos a hacer? l'accepte.",
+            "pt": "en fin encerra o assunto; ¿qué le vamos a hacer? aceita a situação.",
+            "zh": "en fin 结束话题；¿qué le vamos a hacer? 表示接受现实。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "story…",
+              "kind": "chunk"
+            },
+            {
+              "text": "+",
+              "kind": "chunk"
+            },
+            {
+              "text": "total, que",
+              "kind": "rail"
+            },
+            {
+              "text": "+",
+              "kind": "chunk"
+            },
+            {
+              "text": "result",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "In a story, total, que… (so, in the end…) skips the details and jumps to the result. It's very colloquial.",
+            "it": "In un racconto, total, que… (insomma, alla fine…) salta i dettagli e arriva al risultato. È molto colloquiale.",
+            "uk": "У розповіді total, que… (коротше, зрештою…) пропускає подробиці й одразу переходить до результату. Це дуже розмовний вислів.",
+            "de": "In einer Erzählung überspringt total, que… (kurz und gut…, am Ende…) die Einzelheiten und springt zum Ergebnis. Es ist sehr umgangssprachlich.",
+            "fr": "Dans un récit, total, que… (bref, au final…) saute les détails et passe directement au résultat. C'est très familier.",
+            "pt": "Numa história, total, que… (resumindo, no fim…) pula os detalhes e vai direto ao resultado. É bem coloquial.",
+            "zh": "讲故事的时候，total, que…（结果，总之最后……）跳过细节，直接说结果。它非常口语化。"
+          },
+          "examples": [
+            {
+              "es": "Total, que perdimos el tren.",
+              "en": "So, in the end, we missed the train.",
+              "it": "Insomma, alla fine abbiamo perso il treno.",
+              "uk": "Коротше, ми спізнилися на потяг.",
+              "de": "Kurz und gut, am Ende haben wir den Zug verpasst.",
+              "fr": "Bref, au final, on a raté le train.",
+              "pt": "Resumindo, perdemos o trem.",
+              "zh": "结果，我们没赶上火车。"
+            },
+            {
+              "es": "Había mucha cola y no había entradas. Total, que nos fuimos a casa.",
+              "en": "There was a long queue and no tickets left. So, in the end, we went home.",
+              "it": "C'era una fila lunghissima e non c'erano biglietti. Insomma, alla fine siamo tornati a casa.",
+              "uk": "Була величезна черга, і квитків не було. Коротше, ми пішли додому.",
+              "de": "Die Schlange war lang, und es gab keine Karten mehr. Kurz und gut, am Ende sind wir nach Hause gegangen.",
+              "fr": "Il y avait une longue file d'attente et il n'y avait plus de places. Bref, au final, on est rentrés à la maison.",
+              "pt": "Tinha uma fila enorme e não tinha mais ingresso. Resumindo, fomos para casa.",
+              "zh": "排了很长的队，票也卖完了。结果，我们就回家了。"
+            },
+            {
+              "es": "Total, que llegué a las tres de la mañana.",
+              "en": "So, in the end, I got home at three in the morning.",
+              "it": "Insomma, alla fine sono arrivato alle tre di notte.",
+              "uk": "Коротше, я дістався(-лася) додому о третій ночі.",
+              "de": "Kurz und gut, am Ende war ich um drei Uhr morgens zu Hause.",
+              "fr": "Bref, au final, je suis rentré à trois heures du matin.",
+              "pt": "Resumindo, cheguei às três da manhã.",
+              "zh": "结果，我凌晨三点才到家。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "cola",
+              "en": "queue",
+              "it": "fila, coda",
+              "uk": "черга",
+              "de": "Schlange (Warteschlange)",
+              "fr": "file d'attente, queue",
+              "pt": "fila",
+              "zh": "队，队伍"
+            },
+            {
+              "es": "entradas",
+              "en": "tickets (for a show)",
+              "it": "biglietti (per uno spettacolo)",
+              "uk": "квитки (на виставу, концерт)",
+              "de": "Eintrittskarten",
+              "fr": "places, billets (pour un spectacle)",
+              "pt": "ingressos (para um espetáculo)",
+              "zh": "票，门票（演出等）"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Perdí el tren y el taxi no vino… ",
+          "after": " que llegué a las once.",
+          "options": [
+            "Total,",
+            "Todo,",
+            "Tanto,"
+          ],
+          "answer": "Total,",
+          "en": "I missed the train and the taxi didn't come… So, in the end, I got there at eleven.",
+          "it": "Ho perso il treno e il taxi non è arrivato… Insomma, alla fine sono arrivato alle undici.",
+          "uk": "Я спізнився(-лася) на потяг, а таксі не приїхало… Коротше, я приїхав(-ла) об одинадцятій.",
+          "de": "Ich habe den Zug verpasst, und das Taxi kam nicht… Kurz und gut, am Ende war ich um elf da.",
+          "fr": "J'ai raté le train et le taxi n'est pas venu… Bref, au final, je suis arrivé à onze heures.",
+          "pt": "Perdi o trem e o táxi não veio… Resumindo, cheguei às onze.",
+          "zh": "我没赶上火车，出租车也没来……结果，我十一点才到。",
+          "hint": {
+            "en": "To jump to the end of a story: total, que.",
+            "it": "Per arrivare alla fine di un racconto: total, que.",
+            "uk": "Щоб перейти до кінця історії: total, que.",
+            "de": "Um zum Ende einer Geschichte zu springen: total, que.",
+            "fr": "Pour passer directement à la fin d'une histoire : total, que.",
+            "pt": "Para pular para o fim de uma história: total, que.",
+            "zh": "直接跳到故事的结局：total, que。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "fire",
+          "before": "Había mucha cola y no había entradas. Total, ",
+          "after": " nos fuimos a casa.",
+          "label": "so, in the end",
+          "accepted": [
+            "que"
+          ],
+          "en": "There was a long queue and no tickets left. So, in the end, we went home.",
+          "it": "C'era una fila lunghissima e non c'erano biglietti. Insomma, alla fine siamo tornati a casa.",
+          "uk": "Була величезна черга, і квитків не було. Коротше, ми пішли додому.",
+          "de": "Die Schlange war lang, und es gab keine Karten mehr. Kurz und gut, am Ende sind wir nach Hause gegangen.",
+          "fr": "Il y avait une longue file d'attente et il n'y avait plus de places. Bref, au final, on est rentrés à la maison.",
+          "pt": "Tinha uma fila enorme e não tinha mais ingresso. Resumindo, fomos para casa.",
+          "zh": "排了很长的队，票也卖完了。结果，我们就回家了。",
+          "hint": {
+            "en": "The phrase is total, que + the result.",
+            "it": "L'espressione è total, que + il risultato.",
+            "uk": "Вислів — total, que + результат.",
+            "de": "Die Wendung heißt total, que + das Ergebnis.",
+            "fr": "L'expression est total, que + le résultat.",
+            "pt": "A expressão é total, que + o resultado.",
+            "zh": "这个说法是 total, que + 结果。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "por cierto",
+              "kind": "rail"
+            },
+            {
+              "text": "+",
+              "kind": "chunk"
+            },
+            {
+              "text": "new topic",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "To change the subject, use por cierto (by the way). It brings in something you've just remembered.",
+            "it": "Per cambiare discorso, usa por cierto (a proposito). Introduce qualcosa che ti è appena venuto in mente.",
+            "uk": "Щоб змінити тему, вживай por cierto (до речі). Воно вводить те, що ти щойно згадав(-ла).",
+            "de": "Um das Thema zu wechseln, nimm por cierto (übrigens). Damit bringst du etwas ein, das dir gerade eingefallen ist.",
+            "fr": "Pour changer de sujet, utilise por cierto (au fait, à propos). Il introduit quelque chose qui vient de te revenir.",
+            "pt": "Para mudar de assunto, use por cierto (aliás, por falar nisso). Introduz algo de que você acabou de se lembrar.",
+            "zh": "想换个话题，用 por cierto（对了，顺便问一下）。它引出你刚刚想起来的事。"
+          },
+          "examples": [
+            {
+              "es": "Por cierto, ¿qué tal tu hermana?",
+              "en": "By the way, how's your sister?",
+              "it": "A proposito, come sta tua sorella?",
+              "uk": "До речі, як там твоя сестра?",
+              "de": "Übrigens, wie geht's deiner Schwester?",
+              "fr": "Au fait, comment va ta sœur ?",
+              "pt": "Aliás, como vai a sua irmã?",
+              "zh": "对了，你姐姐最近怎么样？"
+            },
+            {
+              "es": "En fin, ya está. Por cierto, ¿vienes el sábado?",
+              "en": "Anyway, that's that. By the way, are you coming on Saturday?",
+              "it": "Vabbè, ormai è fatta. A proposito, vieni sabato?",
+              "uk": "Ну що ж, усе. До речі, ти прийдеш у суботу?",
+              "de": "Naja, das war's. Übrigens, kommst du am Samstag?",
+              "fr": "Enfin bon, c'est fait. Au fait, tu viens samedi ?",
+              "pt": "Enfim, já foi. Aliás, você vem no sábado?",
+              "zh": "算了，就这样吧。对了，你星期六来吗？"
+            },
+            {
+              "es": "Por cierto, me encanta tu camisa.",
+              "en": "By the way, I love your shirt.",
+              "it": "A proposito, adoro la tua camicia.",
+              "uk": "До речі, мені дуже подобається твоя сорочка.",
+              "de": "Übrigens, dein Hemd gefällt mir total.",
+              "fr": "Au fait, j'adore ta chemise.",
+              "pt": "Aliás, adorei a sua camisa.",
+              "zh": "对了，我很喜欢你的衬衫。"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Por ",
+          "after": ", ¿qué tal tu hermana?",
+          "options": [
+            "cierto",
+            "colmo",
+            "hecho"
+          ],
+          "answer": "cierto",
+          "en": "By the way, how's your sister?",
+          "it": "A proposito, come sta tua sorella?",
+          "uk": "До речі, як там твоя сестра?",
+          "de": "Übrigens, wie geht's deiner Schwester?",
+          "fr": "Au fait, comment va ta sœur ?",
+          "pt": "Aliás, como vai a sua irmã?",
+          "zh": "对了，你姐姐最近怎么样？",
+          "hint": {
+            "en": "To change the subject: por cierto.",
+            "it": "Per cambiare discorso: por cierto.",
+            "uk": "Щоб змінити тему: por cierto.",
+            "de": "Um das Thema zu wechseln: por cierto.",
+            "fr": "Pour changer de sujet : por cierto.",
+            "pt": "Para mudar de assunto: por cierto.",
+            "zh": "换个话题：por cierto。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "You've just finished talking about work with a friend and you remember the party. Ask: by the way, are you coming on Saturday?",
+            "it": "Hai appena finito di parlare di lavoro con un amico e ti ricordi della festa. Chiedigli: a proposito, vieni sabato?",
+            "uk": "Ви з другом щойно закінчили говорити про роботу, і ти згадуєш про вечірку. Спитай: до речі, ти прийдеш у суботу?",
+            "de": "Du hast gerade mit einem Freund über die Arbeit gesprochen und dir fällt die Party ein. Frag: übrigens, kommst du am Samstag?",
+            "fr": "Tu viens de finir de parler boulot avec un ami et tu te souviens de la fête. Demande-lui : au fait, tu viens samedi ?",
+            "pt": "Você acabou de falar de trabalho com um amigo e se lembra da festa. Pergunte: aliás, você vem no sábado?",
+            "zh": "你刚和一个朋友聊完工作，突然想起了聚会的事。问他：对了，你星期六来吗？"
+          },
+          "accepted": [
+            "Por cierto, ¿vienes el sábado?",
+            "Por cierto, ¿el sábado vienes?"
+          ],
+          "tiles": [
+            "Por cierto,",
+            "¿vienes",
+            "el sábado?",
+            "de hecho",
+            "vas"
+          ],
+          "en": "By the way, are you coming on Saturday?",
+          "it": "A proposito, vieni sabato?",
+          "uk": "До речі, ти прийдеш у суботу?",
+          "de": "Übrigens, kommst du am Samstag?",
+          "fr": "Au fait, tu viens samedi ?",
+          "pt": "Aliás, você vem no sábado?",
+          "zh": "对了，你星期六来吗？",
+          "hint": {
+            "en": "por cierto changes the subject.",
+            "it": "por cierto cambia discorso.",
+            "uk": "por cierto змінює тему.",
+            "de": "por cierto wechselt das Thema.",
+            "fr": "por cierto change de sujet.",
+            "pt": "por cierto muda de assunto.",
+            "zh": "por cierto 用来换话题。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "",
+          "after": ", ¿qué le vamos a hacer?",
+          "options": [
+            "En fin",
+            "Por cierto",
+            "De hecho"
+          ],
+          "answer": "En fin",
+          "en": "Oh well, what can you do?",
+          "it": "Vabbè, che ci vuoi fare?",
+          "uk": "Ну що ж, нічого не поробиш.",
+          "de": "Naja, was soll man machen?",
+          "fr": "Enfin bon, qu'est-ce que tu veux y faire ?",
+          "pt": "Enfim, fazer o quê?",
+          "zh": "算了，有什么办法呢？",
+          "hint": {
+            "en": "en fin closes a topic with a sigh.",
+            "it": "en fin chiude un argomento con un sospiro.",
+            "uk": "en fin закриває тему зі зітханням.",
+            "de": "en fin schließt ein Thema mit einem Seufzer ab.",
+            "fr": "en fin clôt un sujet avec un soupir.",
+            "pt": "en fin encerra um assunto com um suspiro.",
+            "zh": "en fin 带着一声叹气结束话题。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "mix",
+          "before": "Se me rompió el coche y no había autobuses. ",
+          "after": " que llegué tarde al trabajo.",
+          "label": "so, in the end",
+          "accepted": [
+            "Total,",
+            "Total"
+          ],
+          "en": "My car broke down and there were no buses. So, in the end, I got to work late.",
+          "it": "Mi si è rotta la macchina e non c'erano autobus. Insomma, alla fine sono arrivato tardi al lavoro.",
+          "uk": "У мене зламалася машина, і не було автобусів. Коротше, я запізнився(-лася) на роботу.",
+          "de": "Mein Auto ist liegen geblieben, und es fuhren keine Busse. Kurz und gut, am Ende kam ich zu spät zur Arbeit.",
+          "fr": "Ma voiture est tombée en panne et il n'y avait pas de bus. Bref, au final, je suis arrivé en retard au travail.",
+          "pt": "Meu carro quebrou e não tinha ônibus. Resumindo, cheguei atrasado no trabalho.",
+          "zh": "我的车坏了，也没有公交车。结果，我上班迟到了。",
+          "hint": {
+            "en": "total, que jumps to the result.",
+            "it": "total, que arriva al risultato.",
+            "uk": "total, que одразу переходить до результату.",
+            "de": "total, que springt zum Ergebnis.",
+            "fr": "total, que passe directement au résultat.",
+            "pt": "total, que vai direto ao resultado.",
+            "zh": "total, que 直接跳到结果。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "mix",
+          "intention": {
+            "en": "After a long chat about a bad day, you want to leave. Say: anyway, it's late now. I'm off.",
+            "it": "Dopo una lunga chiacchierata su una brutta giornata, vuoi andare via. Di': insomma, ormai è tardi. Io vado.",
+            "uk": "Після довгої розмови про поганий день ти хочеш іти. Скажи: коротше, вже пізно. Я пішов (пішла).",
+            "de": "Nach einem langen Gespräch über einen schlechten Tag willst du gehen. Sag: naja, es ist schon spät. Ich gehe.",
+            "fr": "Après une longue discussion sur une mauvaise journée, tu veux partir. Dis : bref, il est tard maintenant. J'y vais.",
+            "pt": "Depois de uma longa conversa sobre um dia ruim, você quer ir embora. Diga: enfim, já está tarde. Vou indo.",
+            "zh": "聊了很久这糟糕的一天之后，你想走了。说：总之，已经很晚了。我走了。"
+          },
+          "accepted": [
+            "En fin, ya es tarde. Me voy.",
+            "En fin, es tarde. Me voy.",
+            "Bueno, ya es tarde. Me voy."
+          ],
+          "tiles": [
+            "En fin,",
+            "ya",
+            "es tarde.",
+            "Me voy.",
+            "Por cierto,",
+            "voy"
+          ],
+          "en": "Anyway, it's late now. I'm off.",
+          "it": "Insomma, ormai è tardi. Io vado.",
+          "uk": "Коротше, вже пізно. Я пішов (пішла).",
+          "de": "Naja, es ist schon spät. Ich gehe.",
+          "fr": "Bref, il est tard maintenant. J'y vais.",
+          "pt": "Enfim, já está tarde. Vou indo.",
+          "zh": "总之，已经很晚了。我走了。",
+          "hint": {
+            "en": "en fin closes the topic before you leave.",
+            "it": "en fin chiude l'argomento prima di andare via.",
+            "uk": "en fin закриває тему перед тим, як піти.",
+            "de": "en fin schließt das Thema ab, bevor du gehst.",
+            "fr": "en fin clôt le sujet avant de partir.",
+            "pt": "en fin encerra o assunto antes de você ir embora.",
+            "zh": "en fin 在你离开前结束话题。"
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "You're telling a friend about a concert you didn't get into. Write in Spanish: «There were no tickets left. So, in the end, we went home. Anyway, what can you do?»",
+            "it": "Racconti a un'amica di un concerto in cui non siete riusciti a entrare. Scrivi in spagnolo: «Non c'erano più biglietti. Insomma, alla fine siamo tornati a casa. Vabbè, che ci vuoi fare?»",
+            "uk": "Ти розповідаєш подрузі про концерт, на який вам не вдалося потрапити. Напиши іспанською: «Квитків не було. Коротше, ми пішли додому. Ну що ж, нічого не поробиш.»",
+            "de": "Du erzählst einer Freundin von einem Konzert, in das ihr nicht reingekommen seid. Schreib auf Spanisch: «Es gab keine Karten mehr. Kurz und gut, am Ende sind wir nach Hause gegangen. Naja, was soll man machen?»",
+            "fr": "Tu racontes à une amie un concert où vous n'avez pas pu entrer. Écris en espagnol : «Il n'y avait plus de places. Bref, au final, on est rentrés à la maison. Enfin bon, qu'est-ce que tu veux y faire ?»",
+            "pt": "Você está contando para uma amiga sobre um show em que vocês não conseguiram entrar. Escreva em espanhol: «Não tinha mais ingresso. Resumindo, fomos para casa. Enfim, fazer o quê?»",
+            "zh": "你在跟一个朋友讲你们没能进去的一场音乐会。用西班牙语写：«票已经卖完了。结果，我们就回家了。算了，有什么办法呢？»"
+          },
+          "accepted": [
+            "No había entradas. Total, que nos fuimos a casa. En fin, ¿qué le vamos a hacer?",
+            "No había entradas. Total, que volvimos a casa. En fin, ¿qué le vamos a hacer?"
+          ],
+          "model": {
+            "es": "No había entradas. Total, que nos fuimos a casa. En fin, ¿qué le vamos a hacer?",
+            "en": "There were no tickets left. So, in the end, we went home. Anyway, what can you do?",
+            "it": "Non c'erano più biglietti. Insomma, alla fine siamo tornati a casa. Vabbè, che ci vuoi fare?",
+            "uk": "Квитків не було. Коротше, ми пішли додому. Ну що ж, нічого не поробиш.",
+            "de": "Es gab keine Karten mehr. Kurz und gut, am Ende sind wir nach Hause gegangen. Naja, was soll man machen?",
+            "fr": "Il n'y avait plus de places. Bref, au final, on est rentrés à la maison. Enfin bon, qu'est-ce que tu veux y faire ?",
+            "pt": "Não tinha mais ingresso. Resumindo, fomos para casa. Enfim, fazer o quê?",
+            "zh": "票已经卖完了。结果，我们就回家了。算了，有什么办法呢？"
+          }
+        }
+      ]
+    }
+  ],
+  "boss": {
+    "id": "u45boss",
+    "goal": {
+      "en": "You're at a dinner at a friend's flat with a group of friends. Keep the conversation going: answer their questions, tell them about your terrible week and react to what they say.",
+      "it": "Sei a cena a casa di un'amica con un gruppo di amici. Tieni viva la conversazione: rispondi alle loro domande, racconta la tua settimana terribile e reagisci a quello che dicono.",
+      "uk": "Ти на вечері в подруги вдома з компанією друзів. Підтримуй розмову: відповідай на їхні запитання, розкажи про свій жахливий тиждень і реагуй на те, що вони кажуть.",
+      "de": "Du bist mit ein paar Freunden bei einer Freundin zum Abendessen eingeladen. Halte das Gespräch am Laufen: Beantworte ihre Fragen, erzähl von deiner furchtbaren Woche und reagiere auf das, was sie sagen.",
+      "fr": "Tu dînes chez une amie avec un groupe d'amis. Fais vivre la conversation : réponds à leurs questions, raconte ta semaine horrible et réagis à ce qu'ils disent.",
+      "pt": "Você está num jantar no apartamento de uma amiga com um grupo de amigos. Mantenha a conversa: responda às perguntas, conte sobre a sua semana horrível e reaja ao que eles dizem.",
+      "zh": "你和一群朋友在一个朋友家吃晚饭。让对话继续下去：回答他们的问题，讲讲你糟糕的一周，并对他们说的话做出回应。"
+    },
+    "items": [
+      {
+        "type": "choose",
+        "before": "Siento llegar tarde; ",
+        "after": " que había mucho tráfico.",
+        "options": [
+          "es",
+          "está",
+          "hay"
+        ],
+        "answer": "es",
+        "en": "Sorry I'm late; the thing is there was a lot of traffic.",
+        "it": "Scusate il ritardo; è che c'era un sacco di traffico.",
+        "uk": "Вибачте за запізнення; просто був великий затор.",
+        "de": "Entschuldigt die Verspätung; es war halt so viel Verkehr.",
+        "fr": "Désolé pour le retard ; c'est qu'il y avait beaucoup de circulation.",
+        "pt": "Desculpem o atraso; é que tinha muito trânsito.",
+        "zh": "抱歉我来晚了；主要是路上太堵了。",
+        "hint": {
+          "en": "es que gives your reason.",
+          "it": "es que dà il tuo motivo.",
+          "uk": "es que називає твою причину.",
+          "de": "es que nennt deinen Grund.",
+          "fr": "es que donne ta raison.",
+          "pt": "es que dá o seu motivo.",
+          "zh": "es que 给出你的理由。"
+        }
+      },
+      {
+        "type": "build",
+        "intention": {
+          "en": "A friend asks «¿Qué tal el trabajo?». It's been hard. Answer: well… a lot of work, to be honest.",
+          "it": "Un amico ti chiede «¿Qué tal el trabajo?». È stata dura. Rispondi: beh… un sacco di lavoro, a dire il vero.",
+          "uk": "Друг питає «¿Qué tal el trabajo?». Було важко. Відповідай: ну… багато роботи, чесно кажучи.",
+          "de": "Ein Freund fragt: «¿Qué tal el trabajo?». Es war hart. Antworte: naja… viel Arbeit, ehrlich gesagt.",
+          "fr": "Un ami te demande «¿Qué tal el trabajo?». Ça a été dur. Réponds : ben… beaucoup de travail, à vrai dire.",
+          "pt": "Um amigo pergunta «¿Qué tal el trabajo?». Foi puxado. Responda: bom… muito trabalho, para falar a verdade.",
+          "zh": "一个朋友问你：«¿Qué tal el trabajo?»。最近很辛苦。回答：嗯……工作很多，说实话。"
+        },
+        "accepted": [
+          "Pues mucho trabajo, la verdad.",
+          "Pues… mucho trabajo, la verdad.",
+          "Pues la verdad es que mucho trabajo."
+        ],
+        "tiles": [
+          "Pues",
+          "mucho trabajo,",
+          "la verdad",
+          "porque",
+          "muy"
+        ],
+        "en": "Well, a lot of work, to be honest.",
+        "it": "Beh, un sacco di lavoro, a dire il vero.",
+        "uk": "Ну, багато роботи, чесно кажучи.",
+        "de": "Naja, viel Arbeit, ehrlich gesagt.",
+        "fr": "Ben, beaucoup de travail, à vrai dire.",
+        "pt": "Bom, muito trabalho, para falar a verdade.",
+        "zh": "嗯，工作很多，说实话。",
+        "hint": {
+          "en": "pues opens the answer; la verdad at the end makes it honest.",
+          "it": "pues apre la risposta; la verdad alla fine la rende sincera.",
+          "uk": "pues починає відповідь; la verdad у кінці робить її чесною.",
+          "de": "pues leitet die Antwort ein; la verdad am Ende macht sie ehrlich.",
+          "fr": "pues ouvre la réponse ; la verdad à la fin la rend sincère.",
+          "pt": "pues abre a resposta; la verdad no final a torna sincera.",
+          "zh": "pues 开始回答；结尾的 la verdad 让回答显得坦诚。"
+        }
+      },
+      {
+        "type": "build",
+        "intention": {
+          "en": "Tell them about Monday: I missed the train and, to top it all, it started to rain.",
+          "it": "Racconta del lunedì: ho perso il treno e, come se non bastasse, ha cominciato a piovere.",
+          "uk": "Розкажи їм про понеділок: я спізнився(-лася) на потяг, і на довершення всього почався дощ.",
+          "de": "Erzähl ihnen vom Montag: ich habe den Zug verpasst, und zu allem Überfluss fing es an zu regnen.",
+          "fr": "Raconte ton lundi : j'ai raté le train et, pour couronner le tout, il s'est mis à pleuvoir.",
+          "pt": "Conte sobre a segunda-feira: perdi o trem e, para completar, começou a chover.",
+          "zh": "跟他们讲讲星期一的事：我错过了火车，更倒霉的是，还下起雨来了。"
+        },
+        "accepted": [
+          "Perdí el tren y, para colmo, empezó a llover.",
+          "Perdí el tren y encima empezó a llover."
+        ],
+        "tiles": [
+          "Perdí",
+          "el tren",
+          "y,",
+          "para colmo,",
+          "empezó",
+          "a llover",
+          "colmo",
+          "encima de"
+        ],
+        "en": "I missed the train and, to top it all, it started to rain.",
+        "it": "Ho perso il treno e, come se non bastasse, ha cominciato a piovere.",
+        "uk": "Я спізнився(-лася) на потяг, і на довершення всього почався дощ.",
+        "de": "Ich habe den Zug verpasst, und zu allem Überfluss fing es an zu regnen.",
+        "fr": "J'ai raté le train et, pour couronner le tout, il s'est mis à pleuvoir.",
+        "pt": "Perdi o trem e, para completar, começou a chover.",
+        "zh": "我错过了火车，更倒霉的是，还下起雨来了。",
+        "hint": {
+          "en": "para colmo brings in the worst part.",
+          "it": "para colmo introduce la parte peggiore.",
+          "uk": "para colmo вводить найгіршу частину.",
+          "de": "para colmo leitet den schlimmsten Teil ein.",
+          "fr": "para colmo introduit le pire.",
+          "pt": "para colmo introduz a pior parte.",
+          "zh": "para colmo 引出最糟的部分。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "Y el martes se rompió la lavadora y ",
+        "after": " no vino el técnico.",
+        "options": [
+          "encima",
+          "pues",
+          "o sea"
+        ],
+        "answer": "encima",
+        "en": "And on Tuesday the washing machine broke and, on top of that, the repairman didn't come.",
+        "it": "E martedì si è rotta la lavatrice e per di più il tecnico non è venuto.",
+        "uk": "А у вівторок зламалася пральна машина, і до того ж майстер не прийшов.",
+        "de": "Und am Dienstag ist die Waschmaschine kaputtgegangen, und obendrein kam der Techniker nicht.",
+        "fr": "Et mardi, la machine à laver est tombée en panne et, en plus, le réparateur n'est pas venu.",
+        "pt": "E na terça a máquina de lavar quebrou e, ainda por cima, o técnico não veio.",
+        "zh": "星期二洗衣机坏了，而且维修工还没来。",
+        "hint": {
+          "en": "encima adds something that makes it worse.",
+          "it": "encima aggiunge qualcosa che peggiora la situazione.",
+          "uk": "encima додає щось, що робить усе ще гіршим.",
+          "de": "encima fügt etwas hinzu, das es schlimmer macht.",
+          "fr": "encima ajoute quelque chose qui empire la situation.",
+          "pt": "encima acrescenta algo que piora as coisas.",
+          "zh": "encima 补充让情况更糟的事。"
+        }
+      },
+      {
+        "type": "gap",
+        "before": "El técnico llegó el jueves, a las nueve de la noche. Total, ",
+        "after": " no pude salir en toda la semana.",
+        "label": "so, in the end",
+        "accepted": [
+          "que"
+        ],
+        "en": "The repairman came on Thursday, at nine in the evening. So, in the end, I couldn't go out all week.",
+        "it": "Il tecnico è arrivato giovedì, alle nove di sera. Insomma, alla fine non sono potuto uscire per tutta la settimana.",
+        "uk": "Майстер прийшов у четвер, о дев'ятій вечора. Коротше, я цілий тиждень не міг (не могла) нікуди вийти.",
+        "de": "Der Techniker kam am Donnerstag, um neun Uhr abends. Kurz und gut, ich konnte die ganze Woche nicht ausgehen.",
+        "fr": "Le réparateur est venu jeudi, à neuf heures du soir. Bref, au final, je n'ai pas pu sortir de toute la semaine.",
+        "pt": "O técnico veio na quinta, às nove da noite. Resumindo, não consegui sair a semana toda.",
+        "zh": "维修工星期四晚上九点才来。结果，我一整个星期都没能出门。",
+        "hint": {
+          "en": "total, que jumps to the result.",
+          "it": "total, que arriva al risultato.",
+          "uk": "total, que одразу переходить до результату.",
+          "de": "total, que springt zum Ergebnis.",
+          "fr": "total, que passe directement au résultat.",
+          "pt": "total, que vai direto ao resultado.",
+          "zh": "total, que 直接跳到结果。"
+        }
+      },
+      {
+        "type": "build",
+        "intention": {
+          "en": "A friend says «¡Qué semana!». Close the topic: oh well, what can you do?",
+          "it": "Un'amica dice «¡Qué semana!». Chiudi l'argomento: vabbè, che ci vuoi fare?",
+          "uk": "Подруга каже «¡Qué semana!». Закрий тему: ну що ж, нічого не поробиш.",
+          "de": "Eine Freundin sagt: «¡Qué semana!». Schließ das Thema ab: naja, was soll man machen?",
+          "fr": "Une amie dit «¡Qué semana!». Clos le sujet : enfin bon, qu'est-ce que tu veux y faire ?",
+          "pt": "Uma amiga diz «¡Qué semana!». Encerre o assunto: enfim, fazer o quê?",
+          "zh": "一个朋友说：«¡Qué semana!»。结束这个话题：算了，有什么办法呢？"
+        },
+        "accepted": [
+          "En fin, ¿qué le vamos a hacer?"
+        ],
+        "tiles": [
+          "En fin,",
+          "¿qué",
+          "le vamos",
+          "a hacer?",
+          "de hecho",
+          "Por cierto,"
+        ],
+        "en": "Oh well, what can you do?",
+        "it": "Vabbè, che ci vuoi fare?",
+        "uk": "Ну що ж, нічого не поробиш.",
+        "de": "Naja, was soll man machen?",
+        "fr": "Enfin bon, qu'est-ce que tu veux y faire ?",
+        "pt": "Enfim, fazer o quê?",
+        "zh": "算了，有什么办法呢？",
+        "hint": {
+          "en": "en fin closes the topic.",
+          "it": "en fin chiude l'argomento.",
+          "uk": "en fin закриває тему.",
+          "de": "en fin schließt das Thema ab.",
+          "fr": "en fin clôt le sujet.",
+          "pt": "en fin encerra o assunto.",
+          "zh": "en fin 结束话题。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "Por ",
+        "after": ", ¿qué tal tu trabajo nuevo?",
+        "options": [
+          "cierto",
+          "colmo",
+          "hecho"
+        ],
+        "answer": "cierto",
+        "en": "By the way, how's your new job?",
+        "it": "A proposito, come va il tuo nuovo lavoro?",
+        "uk": "До речі, як твоя нова робота?",
+        "de": "Übrigens, wie läuft's in deinem neuen Job?",
+        "fr": "Au fait, comment se passe ton nouveau travail ?",
+        "pt": "Aliás, como vai o seu trabalho novo?",
+        "zh": "对了，你的新工作怎么样？",
+        "hint": {
+          "en": "To change the subject: por cierto.",
+          "it": "Per cambiare discorso: por cierto.",
+          "uk": "Щоб змінити тему: por cierto.",
+          "de": "Um das Thema zu wechseln: por cierto.",
+          "fr": "Pour changer de sujet : por cierto.",
+          "pt": "Para mudar de assunto: por cierto.",
+          "zh": "换个话题：por cierto。"
+        }
+      },
+      {
+        "type": "build",
+        "intention": {
+          "en": "She says «¿Es muy difícil?». Answer: it looks hard, but actually it's quite easy.",
+          "it": "Lei chiede «¿Es muy difícil?». Rispondi: sembra difficile, ma in realtà è abbastanza facile.",
+          "uk": "Вона питає «¿Es muy difícil?». Відповідай: здається складним, але насправді це досить легко.",
+          "de": "Sie fragt: «¿Es muy difícil?». Antworte: es sieht schwer aus, aber eigentlich ist es ziemlich leicht.",
+          "fr": "Elle demande «¿Es muy difícil?». Réponds : ça a l'air difficile, mais en réalité c'est assez facile.",
+          "pt": "Ela pergunta «¿Es muy difícil?». Responda: parece difícil, mas na verdade é bem fácil.",
+          "zh": "她问：«¿Es muy difícil?»。回答：看起来很难，但实际上挺简单的。"
+        },
+        "accepted": [
+          "Parece difícil, pero en realidad es bastante fácil."
+        ],
+        "tiles": [
+          "Parece",
+          "difícil,",
+          "pero",
+          "en realidad",
+          "es",
+          "bastante fácil",
+          "de hecho"
+        ],
+        "en": "It looks hard, but actually it's quite easy.",
+        "it": "Sembra difficile, ma in realtà è abbastanza facile.",
+        "uk": "Здається складним, але насправді це досить легко.",
+        "de": "Es sieht schwer aus, aber eigentlich ist es ziemlich leicht.",
+        "fr": "Ça a l'air difficile, mais en réalité c'est assez facile.",
+        "pt": "Parece difícil, mas na verdade é bem fácil.",
+        "zh": "看起来很难，但实际上挺简单的。",
+        "hint": {
+          "en": "en realidad corrects what seems true.",
+          "it": "en realidad corregge quello che sembra vero.",
+          "uk": "en realidad виправляє те, що здається правдою.",
+          "de": "en realidad korrigiert, was wahr scheint.",
+          "fr": "en realidad corrige ce qui semble vrai.",
+          "pt": "en realidad corrige o que parece verdade.",
+          "zh": "en realidad 纠正看起来是真的事情。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "Y me encanta mi barrio nuevo. De ",
+        "after": ", estoy buscando un piso para comprar allí.",
+        "options": [
+          "hecho",
+          "hacer",
+          "cierto"
+        ],
+        "answer": "hecho",
+        "en": "And I love my new neighbourhood. In fact, I'm looking for a flat to buy there.",
+        "it": "E adoro il mio nuovo quartiere. Anzi, sto cercando un appartamento da comprare lì.",
+        "uk": "І я обожнюю свій новий район. Насправді я шукаю там квартиру, щоб купити.",
+        "de": "Und ich liebe mein neues Viertel. Ich suche dort sogar eine Wohnung zum Kaufen.",
+        "fr": "Et j'adore mon nouveau quartier. D'ailleurs, je cherche un appartement à acheter là-bas.",
+        "pt": "E eu adoro o meu bairro novo. Inclusive, estou procurando um apartamento para comprar lá.",
+        "zh": "而且我很喜欢我的新街区。其实，我正在那儿找房子买。",
+        "hint": {
+          "en": "de hecho adds a stronger fact.",
+          "it": "de hecho aggiunge un fatto più forte.",
+          "uk": "de hecho додає вагоміший факт.",
+          "de": "de hecho fügt eine stärkere Tatsache hinzu.",
+          "fr": "de hecho ajoute un fait plus fort.",
+          "pt": "de hecho acrescenta um fato mais forte.",
+          "zh": "de hecho 补充一个更有力的事实。"
+        }
+      },
+      {
+        "type": "gap",
+        "before": "Mi jefe no es malo; es más ",
+        "after": " serio.",
+        "label": "rather",
+        "accepted": [
+          "bien"
+        ],
+        "en": "My boss isn't bad; he's rather serious.",
+        "it": "Il mio capo non è cattivo; è piuttosto serio.",
+        "uk": "Мій начальник не поганий; він радше серйозний.",
+        "de": "Mein Chef ist nicht böse; er ist eher ernst.",
+        "fr": "Mon chef n'est pas méchant ; il est plutôt sérieux.",
+        "pt": "O meu chefe não é mau; é mais para sério.",
+        "zh": "我的老板人不坏；倒不如说是比较严肃。",
+        "hint": {
+          "en": "rather: más bien.",
+          "it": "piuttosto: más bien.",
+          "uk": "радше: más bien.",
+          "de": "eher: más bien.",
+          "fr": "plutôt : más bien.",
+          "pt": "mais, antes: más bien.",
+          "zh": "倒不如说：más bien。"
+        }
+      },
+      {
+        "type": "build",
+        "intention": {
+          "en": "Your friend offers you more wine, but you start early tomorrow. Say: no, thanks; the thing is I'm working early tomorrow.",
+          "it": "La tua amica ti offre altro vino, ma domani cominci presto. Di': no, grazie; è che domani lavoro presto.",
+          "uk": "Подруга пропонує тобі ще вина, але завтра ти рано починаєш роботу. Скажи: ні, дякую; просто завтра я рано працюю.",
+          "de": "Deine Freundin bietet dir noch Wein an, aber du fängst morgen früh an. Sag: nein, danke; ich muss halt morgen früh zur Arbeit.",
+          "fr": "Ton amie te propose encore du vin, mais tu commences tôt demain. Dis : non, merci ; c'est que je travaille tôt demain.",
+          "pt": "A sua amiga oferece mais vinho, mas amanhã você começa cedo. Diga: não, obrigado; é que amanhã trabalho cedo.",
+          "zh": "朋友要再给你倒点葡萄酒，可是你明天上班很早。说：不了，谢谢；主要是我明天要早起上班。"
+        },
+        "accepted": [
+          "No, gracias; es que mañana trabajo temprano.",
+          "No, gracias; es que mañana trabajo pronto.",
+          "No, gracias; es que trabajo temprano mañana."
+        ],
+        "tiles": [
+          "No, gracias;",
+          "es que",
+          "mañana",
+          "trabajo",
+          "temprano",
+          "está",
+          "de que"
+        ],
+        "en": "No, thanks; the thing is I'm working early tomorrow.",
+        "it": "No, grazie; è che domani lavoro presto.",
+        "uk": "Ні, дякую; просто завтра я рано працюю.",
+        "de": "Nein, danke; ich muss halt morgen früh zur Arbeit.",
+        "fr": "Non, merci ; c'est que je travaille tôt demain.",
+        "pt": "Não, obrigado; é que amanhã trabalho cedo.",
+        "zh": "不了，谢谢；主要是我明天要早起上班。",
+        "hint": {
+          "en": "es que gives your reason for saying no.",
+          "it": "es que dà il motivo del tuo no.",
+          "uk": "es que називає причину твоєї відмови.",
+          "de": "es que nennt den Grund für dein Nein.",
+          "fr": "es que donne la raison de ton refus.",
+          "pt": "es que dá o motivo do seu não.",
+          "zh": "es que 给出你拒绝的理由。"
+        }
+      },
+      {
+        "type": "build",
+        "intention": {
+          "en": "After dinner, they want to go for a drink. You're tired, but you give in. Say: oh, all right, but just one.",
+          "it": "Dopo cena vogliono andare a bere qualcosa. Sei stanco, ma alla fine cedi. Di': va be', d'accordo, ma solo uno.",
+          "uk": "Після вечері всі хочуть піти чогось випити. Ти втомлений(-а), але поступаєшся. Скажи: ну добре, гаразд, але тільки по одній.",
+          "de": "Nach dem Essen wollen sie noch etwas trinken gehen. Du bist müde, gibst aber nach. Sag: na gut, okay, aber nur einen.",
+          "fr": "Après le dîner, ils veulent aller boire un verre. Tu es fatigué, mais tu finis par céder. Dis : bon, d'accord, mais un seul.",
+          "pt": "Depois do jantar, eles querem sair para tomar alguma coisa. Você está cansado, mas cede. Diga: tá bom, tudo bem, mas só um.",
+          "zh": "吃完晚饭，他们想去喝一杯。你很累，但还是让步了。说：好吧，行，不过只喝一杯。"
+        },
+        "accepted": [
+          "Bueno, vale, pero solo una.",
+          "Bueno, vale, pero solo uno.",
+          "Pues vale, pero solo una."
+        ],
+        "tiles": [
+          "Bueno,",
+          "vale,",
+          "pero",
+          "solo una",
+          "buena",
+          "porque"
+        ],
+        "en": "Oh, all right, but just one.",
+        "it": "Va be', d'accordo, ma solo uno.",
+        "uk": "Ну добре, гаразд, але тільки по одній.",
+        "de": "Na gut, okay, aber nur einen.",
+        "fr": "Bon, d'accord, mais un seul.",
+        "pt": "Tá bom, tudo bem, mas só um.",
+        "zh": "好吧，行，不过只喝一杯。",
+        "hint": {
+          "en": "bueno, vale: you give in.",
+          "it": "bueno, vale: cedi.",
+          "uk": "bueno, vale: ти поступаєшся.",
+          "de": "bueno, vale: Du gibst nach.",
+          "fr": "bueno, vale : tu cèdes.",
+          "pt": "bueno, vale: você cede.",
+          "zh": "bueno, vale：你让步了。"
+        }
+      },
+      {
+        "type": "write",
+        "instruction": {
+          "en": "At the end of the evening, you send the host a message. Write in Spanish: «Anyway, it's late now. Thanks for dinner, it was all delicious.»",
+          "it": "Alla fine della serata, mandi un messaggio alla padrona di casa. Scrivi in spagnolo: «Insomma, ormai è tardi. Grazie per la cena, era tutto buonissimo.»",
+          "uk": "Наприкінці вечора ти надсилаєш господині повідомлення. Напиши іспанською: «Коротше, вже пізно. Дякую за вечерю, все було дуже смачно.»",
+          "de": "Am Ende des Abends schickst du der Gastgeberin eine Nachricht. Schreib auf Spanisch: «Naja, es ist schon spät. Danke für das Abendessen, es war alles superlecker.»",
+          "fr": "À la fin de la soirée, tu envoies un message à ton hôtesse. Écris en espagnol : «Bref, il est tard maintenant. Merci pour le dîner, tout était délicieux.»",
+          "pt": "No fim da noite, você manda uma mensagem para a anfitriã. Escreva em espanhol: «Enfim, já está tarde. Obrigado pelo jantar, estava tudo uma delícia.»",
+          "zh": "晚上结束的时候，你给女主人发了一条消息。用西班牙语写：«总之，已经很晚了。谢谢你的晚餐，每道菜都特别好吃。»"
+        },
+        "accepted": [
+          "En fin, ya es tarde. Gracias por la cena, estaba todo buenísimo.",
+          "En fin, ya es tarde. Gracias por la cena, todo estaba buenísimo.",
+          "En fin, ya es tarde. Muchas gracias por la cena, estaba todo buenísimo.",
+          "En fin, es tarde. Gracias por la cena, estaba todo buenísimo.",
+          "Bueno, ya es tarde. Gracias por la cena, estaba todo buenísimo."
+        ],
+        "model": {
+          "es": "En fin, ya es tarde. Gracias por la cena, estaba todo buenísimo.",
+          "en": "Anyway, it's late now. Thanks for dinner, it was all delicious.",
+          "it": "Insomma, ormai è tardi. Grazie per la cena, era tutto buonissimo.",
+          "uk": "Коротше, вже пізно. Дякую за вечерю, все було дуже смачно.",
+          "de": "Naja, es ist schon spät. Danke für das Abendessen, es war alles superlecker.",
+          "fr": "Bref, il est tard maintenant. Merci pour le dîner, tout était délicieux.",
+          "pt": "Enfim, já está tarde. Obrigado pelo jantar, estava tudo uma delícia.",
+          "zh": "总之，已经很晚了。谢谢你的晚餐，每道菜都特别好吃。"
+        }
+      }
+    ]
+  }
+}
