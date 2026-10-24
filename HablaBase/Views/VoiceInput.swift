@@ -19,7 +19,7 @@ struct MicButton: View {
                 .font(size > 70 ? .largeTitle : .title)
                 .foregroundStyle(.white)
                 .frame(width: size, height: size)
-                .background(Circle().fill(listening ? Palette.warning : tone.main))
+                .background(Circle().fill(listening ? Palette.warningFill : tone.fill))
         }
         .accessibilityLabel(listening ? LocalizedStringKey("Stop") : LocalizedStringKey("Speak"))
     }

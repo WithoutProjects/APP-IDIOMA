@@ -85,7 +85,7 @@ struct DashboardView: View {
                             .padding(.vertical, 6)
                     }
                     Button("Continue") { activeLesson = store.playableLesson(node.id) }
-                        .buttonStyle(PrimaryButtonStyle(color: tone.main))
+                        .buttonStyle(PrimaryButtonStyle(color: tone.fill))
                 }
                 .padding(20)
                 .frame(maxWidth: .infinity, alignment: .leading)

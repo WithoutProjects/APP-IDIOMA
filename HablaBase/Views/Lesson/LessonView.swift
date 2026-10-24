@@ -171,7 +171,7 @@ struct FeedbackBar: View {
                 }
             }
             Button("Continue", action: onContinue)
-                .buttonStyle(PrimaryButtonStyle(color: color))
+                .buttonStyle(PrimaryButtonStyle(color: feedback.outcome.isCorrect ? Palette.successFill : Palette.warningFill))
                 .padding(.top, 4)
         }
         .padding(20)
@@ -267,7 +267,7 @@ struct LessonCompleteView: View {
             }
             Spacer()
             Button("Done", action: onDone)
-                .buttonStyle(PrimaryButtonStyle(color: tone.main))
+                .buttonStyle(PrimaryButtonStyle(color: tone.fill))
         }
         .padding(24)
     }

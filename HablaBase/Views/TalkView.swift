@@ -87,7 +87,7 @@ struct TalkView: View {
                 listener.reset()
                 index = (index + 1) % count
             }
-            .buttonStyle(PrimaryButtonStyle(color: passed ? Palette.success : nil))
+            .buttonStyle(PrimaryButtonStyle(color: passed ? Palette.successFill : nil))
         }
         .onChange(of: passed) { _, isPassed in
             // A few XP the first time each sentence comes out right.
