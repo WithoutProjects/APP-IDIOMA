@@ -147,22 +147,28 @@ final class AppStore: ObservableObject {
         finishedLessons.flatMap(\.vocabulary)
     }
 
-    /// Every Spanish sentence of the finished lessons with its translation, for "Caza de errores".
-    var huntSentences: [Example] {
-        finishedLessons.flatMap { lesson -> [Example] in
-            var sentences: [Example] = lesson.target.map { [$0] } ?? []
+    /// Every Spanish sentence of the finished lessons with its translation and every accepted way
+    /// to say it, for the sentence games of the Lab.
+    var practiceSentences: [PracticeSentence] {
+        finishedLessons.flatMap { lesson -> [PracticeSentence] in
+            var sentences: [PracticeSentence] = lesson.target.map { [PracticeSentence(example: $0)] } ?? []
             for item in lesson.items {
                 switch item.kind {
-                case .frame(let card): sentences += card.examples
-                case .builder(let builder): sentences.append(builder.model)
-                case .freeWrite(let write): sentences.append(write.model)
-                case .gapFill(let gap): sentences.append(Example(es: gap.sentence, gloss: gap.gloss))
-                case .choice(let choice): sentences.append(Example(es: choice.sentence, gloss: choice.gloss))
+                case .frame(let card): sentences += card.examples.map { PracticeSentence(example: $0) }
+                case .builder(let builder): sentences.append(PracticeSentence(example: builder.model, accepted: builder.accepted))
+                case .freeWrite(let write): sentences.append(PracticeSentence(example: write.model, accepted: write.accepted))
+                case .gapFill(let gap): sentences.append(PracticeSentence(example: Example(es: gap.sentence, gloss: gap.gloss)))
+                case .choice(let choice): sentences.append(PracticeSentence(example: Example(es: choice.sentence, gloss: choice.gloss)))
                 default: break
                 }
             }
             return sentences
         }
+    }
+
+    /// The sentences of the finished lessons, for "Caza de errores".
+    var huntSentences: [Example] {
+        practiceSentences.map(\.example)
     }
 
     // MARK: Lab games

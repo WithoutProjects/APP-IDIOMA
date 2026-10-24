@@ -1,7 +1,7 @@
 import XCTest
 @testable import HablaBase
 
-/// The verb tables and the two Lab games built on them: Contrarreloj and Caza de errores.
+/// The verb tables and the Lab games built on them and on the learner's own sentences.
 @MainActor
 final class LabGamesTests: XCTestCase {
     private let profile = Profile(name: "Ana", city: "Milán", workplace: .hospital,
@@ -231,6 +231,98 @@ final class LabGamesTests: XCTestCase {
         XCTAssertTrue(WordMatch.rounds(from: VoiceRecall.cards(from: store.learnedWords, language: .english)).isEmpty)
         store.completeLesson("u1l1", xp: 0)
         XCTAssertFalse(WordMatch.rounds(from: VoiceRecall.cards(from: store.learnedWords, language: .english)).isEmpty)
+    }
+
+    // MARK: Ordena la frase and Dictado
+
+    private func sentence(_ es: String, accepted: [String] = []) -> PracticeSentence {
+        PracticeSentence(example: example(es), accepted: accepted)
+    }
+
+    func testThePoolKeepsShortSingleSentencesOnce() {
+        let pool = SentenceGames.pool([sentence("Soy Ana."), sentence("soy ana"), sentence("Hola."),
+                                       sentence("Soy Ana. Soy de Roma."), sentence("Dice: «hola»."),
+                                       sentence("¿Eres de Roma?")], words: 2...9)
+        XCTAssertEqual(Set(pool.map(\.example.es)), ["Soy Ana.", "¿Eres de Roma?"])
+    }
+
+    func testTilesAreTheSentenceWordsInAnotherOrder() {
+        let item = sentence("¿Eres de Roma?")
+        for _ in 0..<20 {
+            let tiles = SentenceGames.tiles(for: item)
+            XCTAssertEqual(tiles.sorted(), ["Eres", "Roma", "de"].sorted())
+            XCTAssertNotEqual(tiles, ["Eres", "de", "Roma"])
+            XCTAssertEqual(SentenceGames.grade(["Eres", "de", "Roma"].joined(separator: " "), item), .correct)
+        }
+    }
+
+    func testDictationForgivesAccentsAndAcceptsEveryVariant() {
+        let item = sentence("Tú eres de Roma.", accepted: ["Eres de Roma."])
+        XCTAssertEqual(SentenceGames.grade("tu eres de roma", item), .accent(expected: "Tú eres de Roma."))
+        XCTAssertEqual(SentenceGames.grade("Eres de Roma", item), .correct)
+        XCTAssertFalse(SentenceGames.grade("Soy de Roma", item).isCorrect)
+    }
+
+    func testFinishedLessonsGiveSentencesToOrder() {
+        let store = AppStore(storage: InMemoryProgressStorage())
+        store.completeOnboarding(profile)
+        XCTAssertTrue(SentenceGames.pool(store.practiceSentences, words: 3...9).isEmpty)
+        store.completeUnit("u2")
+        let pool = SentenceGames.pool(store.practiceSentences, words: 3...9)
+        XCTAssertGreaterThanOrEqual(pool.count, SentenceGames.rounds)
+        XCTAssertLessThanOrEqual(SentenceGames.round(from: pool).count, SentenceGames.rounds)
+    }
+
+    // MARK: ¿Qué tiempo es? and Máquina del tiempo
+
+    private var tenseDeck: VerbDeck {
+        VerbDeck(completed: ["u1l1", "u2l1", "u2l2", "u2l3", "u14l1", "u14l4", "u15l2", "u16l5"],
+                 words: words(["hablar", "comer", "tener", "ser"]))
+    }
+
+    func testEveryTenseQuestionHasOneRightTense() {
+        let deck = tenseDeck
+        let questions = TenseQuiz.questions(deck: deck)
+        XCTAssertEqual(questions.count, TenseQuiz.rounds)
+        for question in questions {
+            XCTAssertTrue(question.options.contains(question.card.tense))
+            XCTAssertEqual(Set(question.options).count, question.options.count)
+            XCTAssertTrue(question.options.allSatisfy { deck.isOpen(question.card.verb, $0) })
+            let matching = question.options.filter { tense in
+                Person.allCases.contains { question.card.verb.form(tense, $0)?.text == question.card.form.text }
+            }
+            XCTAssertEqual(matching, [question.card.tense], question.card.form.text)
+        }
+    }
+
+    func testOnlyThePresentGivesNoTenseQuestion() {
+        XCTAssertTrue(TenseQuiz.questions(deck: VerbDeck(completed: ["u1l1"], words: words(["hablar"]))).isEmpty)
+    }
+
+    func testTheTimeMachineAlwaysChangesTheForm() {
+        let deck = tenseDeck
+        let questions = TimeMachine.questions(deck: deck)
+        XCTAssertFalse(questions.isEmpty)
+        XCTAssertLessThanOrEqual(questions.count, TimeMachine.rounds)
+        for question in questions {
+            XCTAssertNotEqual(question.to, question.from.tense)
+            XCTAssertTrue(deck.isOpen(question.from.verb, question.to))
+            XCTAssertNotEqual(question.answer.text, question.from.form.text)
+            XCTAssertEqual(question.answer.text, question.from.verb.form(question.to, question.from.person)?.text)
+        }
+    }
+
+    func testEveryLabGameHasAScreenAndAKind() {
+        let ids = LabGame.built.map(\.id)
+        XCTAssertEqual(Set(ids).count, ids.count)
+        XCTAssertEqual(LabGame.built.count, 9)
+        for kind in LabGame.Kind.allCases {
+            XCTAssertFalse(LabGame.built.filter { $0.kind == kind }.isEmpty)
+        }
+        let path = Set(Curriculum.sharedPath.map(\.id))
+        for game in LabGame.built {
+            XCTAssertTrue(path.contains(game.unlockedBy), game.id)
+        }
     }
 
     func testBestScoresAreKept() {
