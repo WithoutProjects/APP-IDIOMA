@@ -1,0 +1,3254 @@
+{
+  "unit": "u55",
+  "lessons": [
+    {
+      "id": "u55l1",
+      "goal": {
+        "en": "Answer on the spot without freezing: a ver (let's see) to think out loud for a second, pues mira (well, look) to launch into an answer, and digamos que (let's just say) to put something gently or roughly.",
+        "it": "Rispondi su due piedi senza bloccarti: a ver (vediamo) per pensare ad alta voce un secondo, pues mira (guarda) per lanciarti in una risposta, e digamos que (diciamo che) per dire una cosa con delicatezza o in modo approssimativo.",
+        "uk": "Відповідай одразу, не гублячись: a ver (так, подивимось) — щоб секунду подумати вголос, pues mira (ну дивись) — щоб розпочати відповідь, і digamos que (скажімо так) — щоб сказати щось м'якше або приблизно.",
+        "de": "Spontan antworten, ohne zu erstarren: a ver (mal sehen), um kurz laut nachzudenken, pues mira (also, schau mal), um mit der Antwort loszulegen, und digamos que (sagen wir mal so), um etwas sanft oder ungefähr auszudrücken.",
+        "fr": "Réponds du tac au tac sans te bloquer : a ver (voyons) pour réfléchir à voix haute une seconde, pues mira (bon, écoute) pour te lancer dans une réponse, et digamos que (disons que) pour dire une chose avec tact ou de façon approximative.",
+        "pt": "Responda na hora sem travar: a ver (vamos ver) para pensar em voz alta por um segundo, pues mira (olha) para engatar uma resposta e digamos que (digamos que) para dizer algo com delicadeza ou de forma aproximada.",
+        "zh": "当场回答，不卡壳：用 a ver（我看看）边想边说，争取一秒钟；用 pues mira（你看，是这样的）开始回答；用 digamos que（这么说吧）委婉地或大概地说一件事。"
+      },
+      "target": {
+        "es": "Pues mira, digamos que no soy muy puntual.",
+        "en": "Well, look, let's just say I'm not very punctual.",
+        "it": "Guarda, diciamo che non sono molto puntuale.",
+        "uk": "Ну дивись, скажімо так: я не дуже пунктуальний(-а).",
+        "de": "Also, schau mal, sagen wir mal so: Ich bin nicht besonders pünktlich.",
+        "fr": "Bon, écoute, disons que je ne suis pas très ponctuel.",
+        "pt": "Olha, digamos que eu não sou muito pontual.",
+        "zh": "你看，这么说吧，我不太守时。"
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "improvisar",
+              "en": "to improvise",
+              "it": "improvvisare",
+              "uk": "імпровізувати",
+              "de": "improvisieren",
+              "fr": "improviser",
+              "pt": "improvisar",
+              "zh": "即兴发挥，临场应变",
+              "kind": "stem"
+            },
+            {
+              "es": "a ver",
+              "en": "let's see (while you think)",
+              "it": "vediamo, allora (mentre pensi)",
+              "uk": "так, подивимось (поки ти думаєш)",
+              "de": "mal sehen, lass mal überlegen (während du nachdenkst)",
+              "fr": "voyons (pendant que tu réfléchis)",
+              "pt": "vamos ver, deixa eu ver (enquanto você pensa)",
+              "zh": "我看看，让我想想（边想边说）",
+              "kind": "rail"
+            },
+            {
+              "es": "pues mira",
+              "en": "well, look (to launch into an answer)",
+              "it": "guarda, beh (per lanciarti in una risposta)",
+              "uk": "ну дивись (щоб розпочати відповідь)",
+              "de": "also, schau mal (um mit einer Antwort loszulegen)",
+              "fr": "bon, écoute (pour te lancer dans une réponse)",
+              "pt": "olha, bom (para engatar uma resposta)",
+              "zh": "你看，是这样的（开始回答时）",
+              "kind": "rail"
+            },
+            {
+              "es": "digamos que",
+              "en": "let's say (that), let's just say",
+              "it": "diciamo che",
+              "uk": "скажімо (що), скажімо так",
+              "de": "sagen wir mal (so), sagen wir einfach",
+              "fr": "disons (que)",
+              "pt": "digamos que, vamos dizer que",
+              "zh": "这么说吧，可以说",
+              "kind": "rail"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "a ver…",
+              "kind": "rail"
+            },
+            {
+              "text": "+",
+              "kind": "chunk"
+            },
+            {
+              "text": "answer",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "A ver (let's see) buys you a second when a question takes you by surprise: you think out loud, then answer.",
+            "it": "A ver (vediamo) ti fa guadagnare un secondo quando una domanda ti coglie di sorpresa: pensi ad alta voce, poi rispondi.",
+            "uk": "A ver (так, подивимось) дає тобі секунду, коли запитання застає зненацька: ти думаєш уголос, а потім відповідаєш.",
+            "de": "A ver (mal sehen) verschafft dir eine Sekunde, wenn dich eine Frage überrascht: Du denkst laut nach und antwortest dann.",
+            "fr": "A ver (voyons) te fait gagner une seconde quand une question te prend au dépourvu : tu réfléchis à voix haute, puis tu réponds.",
+            "pt": "A ver (vamos ver) te dá um segundo quando uma pergunta te pega de surpresa: você pensa em voz alta e depois responde.",
+            "zh": "被问到意外的问题时，A ver（我看看）能帮你争取一秒钟：先边想边说出声，再回答。"
+          },
+          "examples": [
+            {
+              "es": "¿Cuántos idiomas hablo? A ver… cuatro.",
+              "en": "How many languages do I speak? Let's see… four.",
+              "it": "Quante lingue parlo? Vediamo… quattro.",
+              "uk": "Скільки мов я знаю? Так, подивимось… чотири.",
+              "de": "Wie viele Sprachen ich spreche? Mal sehen … vier.",
+              "fr": "Combien de langues je parle ? Voyons… quatre.",
+              "pt": "Quantos idiomas eu falo? Vamos ver… quatro.",
+              "zh": "我会说几种语言？我看看……四种。"
+            },
+            {
+              "es": "A ver, yo creo que sí.",
+              "en": "Let's see, I think so.",
+              "it": "Vediamo, io credo di sì.",
+              "uk": "Так, подивимось… я думаю, що так.",
+              "de": "Mal sehen, ich glaube schon.",
+              "fr": "Voyons, je crois que oui.",
+              "pt": "Vamos ver, eu acho que sim.",
+              "zh": "我看看，我觉得是。"
+            },
+            {
+              "es": "A ver, ¿qué te digo? Pues que estoy muy bien.",
+              "en": "Let's see, what can I tell you? Well, I'm very well.",
+              "it": "Vediamo, che ti dico? Beh, che sto molto bene.",
+              "uk": "Так, що тобі сказати? Ну, у мене все дуже добре.",
+              "de": "Mal sehen, was soll ich dir sagen? Na ja, mir geht's sehr gut.",
+              "fr": "Voyons, qu'est-ce que je peux te dire ? Eh bien, que je vais très bien.",
+              "pt": "Deixa eu ver, o que eu te digo? Bom, que eu estou muito bem.",
+              "zh": "我看看，跟你说什么呢？嗯，我过得很好。"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "A ",
+          "after": "… yo creo que sí.",
+          "options": [
+            "ver",
+            "mira",
+            "sea"
+          ],
+          "answer": "ver",
+          "en": "Let's see… I think so.",
+          "it": "Vediamo… io credo di sì.",
+          "uk": "Так, подивимось… я думаю, що так.",
+          "de": "Mal sehen … ich glaube schon.",
+          "fr": "Voyons… je crois que oui.",
+          "pt": "Vamos ver… eu acho que sim.",
+          "zh": "我看看……我觉得是。",
+          "hint": {
+            "en": "Thinking out loud before you answer: a ver.",
+            "it": "Per pensare ad alta voce prima di rispondere: a ver.",
+            "uk": "Щоб подумати вголос перед відповіддю: a ver.",
+            "de": "Laut nachdenken, bevor du antwortest: a ver.",
+            "fr": "Pour réfléchir à voix haute avant de répondre : a ver.",
+            "pt": "Para pensar em voz alta antes de responder: a ver.",
+            "zh": "回答前边想边说：a ver。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "A radio host suddenly asks how many languages you speak. Think out loud first, then answer: let's see… I speak three languages.",
+            "it": "Un conduttore radiofonico ti chiede all'improvviso quante lingue parli. Prima pensa ad alta voce, poi rispondi: vediamo… parlo tre lingue.",
+            "uk": "Ведучий на радіо раптом питає, скількома мовами ти розмовляєш. Спершу подумай уголос, потім відповідай: так, подивимось… я розмовляю трьома мовами.",
+            "de": "Ein Radiomoderator fragt dich plötzlich, wie viele Sprachen du sprichst. Denk zuerst laut nach, dann antworte: Mal sehen … ich spreche drei Sprachen.",
+            "fr": "Un animateur de radio te demande à brûle-pourpoint combien de langues tu parles. Réfléchis d'abord à voix haute, puis réponds : voyons… je parle trois langues.",
+            "pt": "Um apresentador de rádio te pergunta de repente quantos idiomas você fala. Primeiro pense em voz alta, depois responda: vamos ver… eu falo três idiomas.",
+            "zh": "电台主持人突然问你会说几种语言。先边想边说，再回答：我看看……我会说三种语言。"
+          },
+          "accepted": [
+            "A ver… hablo tres idiomas.",
+            "A ver, hablo tres idiomas."
+          ],
+          "tiles": [
+            "A ver…",
+            "hablo",
+            "tres",
+            "idiomas",
+            "sea",
+            "hablas"
+          ],
+          "en": "Let's see… I speak three languages.",
+          "it": "Vediamo… parlo tre lingue.",
+          "uk": "Так, подивимось… я розмовляю трьома мовами.",
+          "de": "Mal sehen … ich spreche drei Sprachen.",
+          "fr": "Voyons… je parle trois langues.",
+          "pt": "Vamos ver… eu falo três idiomas.",
+          "zh": "我看看……我会说三种语言。",
+          "hint": {
+            "en": "a ver gives you a second to count.",
+            "it": "a ver ti dà un secondo per contare.",
+            "uk": "a ver дає тобі секунду, щоб порахувати.",
+            "de": "a ver gibt dir eine Sekunde zum Zählen.",
+            "fr": "a ver te donne une seconde pour compter.",
+            "pt": "a ver te dá um segundo para contar.",
+            "zh": "a ver 给你一秒钟来数一数。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "pues mira,",
+              "kind": "rail"
+            },
+            {
+              "text": "+",
+              "kind": "chunk"
+            },
+            {
+              "text": "la explicación",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "Pues mira (well, look) launches a longer, friendly answer: it tells the other person «here comes the explanation». With usted it's pues mire.",
+            "it": "Pues mira (guarda) lancia una risposta più lunga e cordiale: dice all'altro «ecco la spiegazione». Con usted diventa pues mire.",
+            "uk": "Pues mira (ну дивись) відкриває довшу, дружню відповідь: так ти показуєш співрозмовникові, що зараз буде пояснення. Звертаючись на ви (usted), кажи pues mire.",
+            "de": "Pues mira (also, schau mal) leitet eine längere, freundliche Antwort ein: Es sagt dem anderen „jetzt kommt die Erklärung“. Mit usted heißt es pues mire.",
+            "fr": "Pues mira (bon, écoute) lance une réponse plus longue et amicale : il annonce à l'autre « voilà l'explication ». Avec usted, c'est pues mire.",
+            "pt": "Pues mira (olha) abre uma resposta mais longa e simpática: avisa o outro de que «lá vem a explicação». Com usted, fica pues mire.",
+            "zh": "Pues mira（你看，是这样的）用来开始一段比较长的、友好的回答：它告诉对方“我要开始解释了”。对 usted 说时是 pues mire。"
+          },
+          "examples": [
+            {
+              "es": "Pues mira, empecé por trabajo y ahora me encanta.",
+              "en": "Well, look, I started for work and now I love it.",
+              "it": "Guarda, ho cominciato per lavoro e adesso mi piace un sacco.",
+              "uk": "Ну дивись, я почав(-ла) через роботу, а тепер мені це дуже подобається.",
+              "de": "Also, schau mal, ich habe wegen der Arbeit angefangen, und jetzt liebe ich es.",
+              "fr": "Bon, écoute, j'ai commencé pour le travail et maintenant j'adore ça.",
+              "pt": "Olha, eu comecei por causa do trabalho e agora eu adoro.",
+              "zh": "你看，我一开始是因为工作学的，现在特别喜欢。"
+            },
+            {
+              "es": "Pues mira, te lo explico: es muy fácil.",
+              "en": "Well, look, I'll explain: it's very easy.",
+              "it": "Guarda, te lo spiego: è facilissimo.",
+              "uk": "Ну дивись, зараз поясню: це дуже просто.",
+              "de": "Also, schau mal, ich erklär's dir: Es ist ganz einfach.",
+              "fr": "Bon, écoute, je t'explique : c'est très facile.",
+              "pt": "Olha, vou te explicar: é muito fácil.",
+              "zh": "你看，我给你解释一下：很简单。"
+            },
+            {
+              "es": "Pues mire, señora, es una historia un poco larga.",
+              "en": "Well, you see, madam, it's a bit of a long story.",
+              "it": "Guardi, signora, è una storia un po' lunga.",
+              "uk": "Розумієте, пані, це трохи довга історія.",
+              "de": "Also, sehen Sie, meine Dame, das ist eine etwas längere Geschichte.",
+              "fr": "Eh bien, écoutez, madame, c'est une histoire un peu longue.",
+              "pt": "Olhe, senhora, é uma história um pouco longa.",
+              "zh": "是这样的，女士，这事说来话长。"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Pues ",
+          "after": ", empecé por trabajo y ahora me encanta.",
+          "options": [
+            "mira",
+            "ver",
+            "sea"
+          ],
+          "answer": "mira",
+          "en": "Well, look, I started for work and now I love it.",
+          "it": "Guarda, ho cominciato per lavoro e adesso mi piace un sacco.",
+          "uk": "Ну дивись, я почав(-ла) через роботу, а тепер мені це дуже подобається.",
+          "de": "Also, schau mal, ich habe wegen der Arbeit angefangen, und jetzt liebe ich es.",
+          "fr": "Bon, écoute, j'ai commencé pour le travail et maintenant j'adore ça.",
+          "pt": "Olha, eu comecei por causa do trabalho e agora eu adoro.",
+          "zh": "你看，我一开始是因为工作学的，现在特别喜欢。",
+          "hint": {
+            "en": "To launch your explanation: pues mira.",
+            "it": "Per lanciare la tua spiegazione: pues mira.",
+            "uk": "Щоб розпочати пояснення: pues mira.",
+            "de": "Um mit deiner Erklärung loszulegen: pues mira.",
+            "fr": "Pour lancer ton explication : pues mira.",
+            "pt": "Para engatar a sua explicação: pues mira.",
+            "zh": "开始解释：pues mira。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "fire",
+          "before": "Pues ",
+          "after": ", señora, es una historia un poco larga.",
+          "options": [
+            "mire",
+            "mira"
+          ],
+          "answer": "mire",
+          "en": "Well, you see, madam, it's a bit of a long story.",
+          "it": "Guardi, signora, è una storia un po' lunga.",
+          "uk": "Розумієте, пані, це трохи довга історія.",
+          "de": "Also, sehen Sie, meine Dame, das ist eine etwas längere Geschichte.",
+          "fr": "Eh bien, écoutez, madame, c'est une histoire un peu longue.",
+          "pt": "Olhe, senhora, é uma história um pouco longa.",
+          "zh": "是这样的，女士，这事说来话长。",
+          "hint": {
+            "en": "You call her señora, so usted: pues mire.",
+            "it": "La chiami señora, quindi usted: pues mire.",
+            "uk": "Ти кажеш їй señora, отже, на ви (usted): pues mire.",
+            "de": "Du nennst sie señora, also usted: pues mire.",
+            "fr": "Tu l'appelles señora, donc usted : pues mire.",
+            "pt": "Você a chama de señora, então é usted: pues mire.",
+            "zh": "你称她 señora，所以用 usted：pues mire。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "digamos que",
+              "kind": "rail"
+            },
+            {
+              "text": "+",
+              "kind": "chunk"
+            },
+            {
+              "text": "la verdad, más suave",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "Digamos que (let's just say) puts something gently, or gives a rough answer instead of an exact one. It's perfect when the honest answer is a bit awkward.",
+            "it": "Digamos que (diciamo che) dice una cosa con delicatezza, o dà una risposta approssimativa invece di una esatta. È perfetto quando la risposta sincera è un po' imbarazzante.",
+            "uk": "Digamos que (скажімо так) пом'якшує сказане або дає приблизну відповідь замість точної. Ідеально, коли чесна відповідь трохи незручна.",
+            "de": "Digamos que (sagen wir mal so) drückt etwas sanft aus oder gibt eine ungefähre statt einer genauen Antwort. Perfekt, wenn die ehrliche Antwort etwas unangenehm ist.",
+            "fr": "Digamos que (disons que) dit une chose avec tact, ou donne une réponse approximative au lieu d'une réponse exacte. C'est parfait quand la vérité est un peu gênante.",
+            "pt": "Digamos que (digamos que) diz algo com delicadeza ou dá uma resposta aproximada em vez de uma exata. É perfeito quando a resposta sincera é um pouco constrangedora.",
+            "zh": "Digamos que（这么说吧）可以委婉地说一件事，或者给一个大概的回答，而不是确切的回答。实话有点尴尬的时候，用它正合适。"
+          },
+          "examples": [
+            {
+              "es": "Digamos que no es mi plato favorito.",
+              "en": "Let's just say it isn't my favourite dish.",
+              "it": "Diciamo che non è il mio piatto preferito.",
+              "uk": "Скажімо так: це не моя улюблена страва.",
+              "de": "Sagen wir mal so: Es ist nicht mein Lieblingsgericht.",
+              "fr": "Disons que ce n'est pas mon plat préféré.",
+              "pt": "Digamos que não é o meu prato favorito.",
+              "zh": "这么说吧，这不是我最喜欢的菜。"
+            },
+            {
+              "es": "Digamos que llegué un poco tarde.",
+              "en": "Let's just say I arrived a bit late.",
+              "it": "Diciamo che sono arrivato un po' tardi.",
+              "uk": "Скажімо так: я трохи запізнився(-лася).",
+              "de": "Sagen wir mal so: Ich bin etwas zu spät gekommen.",
+              "fr": "Disons que je suis arrivé un peu en retard.",
+              "pt": "Digamos que eu cheguei um pouco atrasado.",
+              "zh": "这么说吧，我到得有点晚。"
+            },
+            {
+              "es": "¿Mi español? Digamos que me defiendo.",
+              "en": "My Spanish? Let's say I get by.",
+              "it": "Il mio spagnolo? Diciamo che me la cavo.",
+              "uk": "Моя іспанська? Скажімо так: якось даю собі раду.",
+              "de": "Mein Spanisch? Sagen wir mal, ich komme zurecht.",
+              "fr": "Mon espagnol ? Disons que je me débrouille.",
+              "pt": "O meu espanhol? Digamos que eu me viro.",
+              "zh": "我的西班牙语？可以说还过得去吧。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "me defiendo",
+              "en": "I get by, I manage",
+              "it": "me la cavo",
+              "uk": "я даю собі раду, я справляюся",
+              "de": "ich komme zurecht, ich schlage mich durch",
+              "fr": "je me débrouille, je m'en sors",
+              "pt": "eu me viro, eu me defendo",
+              "zh": "我还过得去，我应付得来"
+            }
+          ]
+        },
+        {
+          "type": "gap",
+          "beat": "forge",
+          "before": "",
+          "after": " que no es mi plato favorito.",
+          "label": "decir (let's say)",
+          "accepted": [
+            "Digamos"
+          ],
+          "en": "Let's just say it isn't my favourite dish.",
+          "it": "Diciamo che non è il mio piatto preferito.",
+          "uk": "Скажімо так: це не моя улюблена страва.",
+          "de": "Sagen wir mal so: Es ist nicht mein Lieblingsgericht.",
+          "fr": "Disons que ce n'est pas mon plat préféré.",
+          "pt": "Digamos que não é o meu prato favorito.",
+          "zh": "这么说吧，这不是我最喜欢的菜。",
+          "hint": {
+            "en": "Putting it gently: digamos que.",
+            "it": "Per dirlo con delicatezza: digamos que.",
+            "uk": "Щоб сказати м'якше: digamos que.",
+            "de": "Etwas sanft ausdrücken: digamos que.",
+            "fr": "Pour dire les choses avec tact : digamos que.",
+            "pt": "Para dizer com delicadeza: digamos que.",
+            "zh": "委婉地说：digamos que。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "A friend asks if you're a good cook. You're terrible, but say it gently: let's just say I don't cook very well.",
+            "it": "Un amico ti chiede se sei bravo a cucinare. Sei un disastro, ma dillo con delicatezza: diciamo che non cucino molto bene.",
+            "uk": "Друг питає, чи добре ти готуєш. Ти готуєш жахливо, але скажи це м'яко: скажімо так, я не дуже добре готую.",
+            "de": "Eine Freundin fragt, ob du gut kochst. Du kochst furchtbar, aber sag es sanft: Sagen wir mal so, ich koche nicht besonders gut.",
+            "fr": "Un ami te demande si tu cuisines bien. Tu es nul, mais dis-le avec tact : disons que je ne cuisine pas très bien.",
+            "pt": "Um amigo pergunta se você cozinha bem. Você é péssimo na cozinha, mas diga isso com delicadeza: digamos que eu não cozinho muito bem.",
+            "zh": "朋友问你厨艺好不好。你做饭很糟糕，但要说得委婉一点：这么说吧，我做饭不太行。"
+          },
+          "accepted": [
+            "Digamos que no cocino muy bien."
+          ],
+          "tiles": [
+            "Digamos",
+            "que",
+            "no cocino",
+            "muy bien",
+            "decimos",
+            "cocina"
+          ],
+          "en": "Let's just say I don't cook very well.",
+          "it": "Diciamo che non cucino molto bene.",
+          "uk": "Скажімо так: я не дуже добре готую.",
+          "de": "Sagen wir mal so: Ich koche nicht besonders gut.",
+          "fr": "Disons que je ne cuisine pas très bien.",
+          "pt": "Digamos que eu não cozinho muito bem.",
+          "zh": "这么说吧，我做饭不太行。",
+          "hint": {
+            "en": "digamos que softens the awkward truth.",
+            "it": "digamos que addolcisce una verità imbarazzante.",
+            "uk": "digamos que пом'якшує незручну правду.",
+            "de": "digamos que macht die unangenehme Wahrheit weicher.",
+            "fr": "digamos que adoucit la vérité gênante.",
+            "pt": "digamos que suaviza a verdade constrangedora.",
+            "zh": "digamos que 能让尴尬的实话听起来柔和些。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "A ",
+          "after": ", ¿qué te digo? Pues que estoy muy bien.",
+          "options": [
+            "ver",
+            "mira",
+            "sea"
+          ],
+          "answer": "ver",
+          "en": "Let's see, what can I tell you? Well, I'm very well.",
+          "it": "Vediamo, che ti dico? Beh, che sto molto bene.",
+          "uk": "Так, що тобі сказати? Ну, у мене все дуже добре.",
+          "de": "Mal sehen, was soll ich dir sagen? Na ja, mir geht's sehr gut.",
+          "fr": "Voyons, qu'est-ce que je peux te dire ? Eh bien, que je vais très bien.",
+          "pt": "Deixa eu ver, o que eu te digo? Bom, que eu estou muito bem.",
+          "zh": "我看看，跟你说什么呢？嗯，我过得很好。",
+          "hint": {
+            "en": "You think out loud: a ver.",
+            "it": "Pensi ad alta voce: a ver.",
+            "uk": "Ти думаєш уголос: a ver.",
+            "de": "Du denkst laut nach: a ver.",
+            "fr": "Tu réfléchis à voix haute : a ver.",
+            "pt": "Você pensa em voz alta: a ver.",
+            "zh": "你在边想边说：a ver。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "mix",
+          "before": "Pues ",
+          "after": ", te lo explico: es muy fácil.",
+          "label": "mirar (tú)",
+          "accepted": [
+            "mira"
+          ],
+          "en": "Well, look, I'll explain: it's very easy.",
+          "it": "Guarda, te lo spiego: è facilissimo.",
+          "uk": "Ну дивись, зараз поясню: це дуже просто.",
+          "de": "Also, schau mal, ich erklär's dir: Es ist ganz einfach.",
+          "fr": "Bon, écoute, je t'explique : c'est très facile.",
+          "pt": "Olha, vou te explicar: é muito fácil.",
+          "zh": "你看，我给你解释一下：很简单。",
+          "hint": {
+            "en": "te shows it's tú: pues mira.",
+            "it": "te indica che è tu: pues mira.",
+            "uk": "te показує, що це звертання на ти (tú): pues mira.",
+            "de": "te zeigt, dass es tú ist: pues mira.",
+            "fr": "te montre que c'est tú : pues mira.",
+            "pt": "te mostra que é tú: pues mira.",
+            "zh": "te 说明是对 tú 说话：pues mira。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "mix",
+          "intention": {
+            "en": "In a job interview, they ask about your weak points. Think out loud first, then put it gently: let's see… let's just say I'm not very punctual.",
+            "it": "A un colloquio di lavoro ti chiedono i tuoi punti deboli. Prima pensa ad alta voce, poi dillo con delicatezza: vediamo… diciamo che non sono molto puntuale.",
+            "uk": "На співбесіді тебе питають про твої слабкі сторони. Спершу подумай уголос, потім скажи м'яко: так, подивимось… скажімо так, я не дуже пунктуальний(-а).",
+            "de": "Im Vorstellungsgespräch fragt man dich nach deinen Schwächen. Denk zuerst laut nach, dann sag es sanft: Mal sehen … sagen wir mal so, ich bin nicht besonders pünktlich.",
+            "fr": "En entretien d'embauche, on t'interroge sur tes points faibles. Réfléchis d'abord à voix haute, puis dis-le avec tact : voyons… disons que je ne suis pas très ponctuel.",
+            "pt": "Numa entrevista de emprego, perguntam quais são os seus pontos fracos. Primeiro pense em voz alta, depois diga com delicadeza: vamos ver… digamos que eu não sou muito pontual.",
+            "zh": "面试时，对方问你有什么缺点。先边想边说，再委婉地说：我看看……这么说吧，我不太守时。"
+          },
+          "accepted": [
+            "A ver… digamos que no soy muy puntual.",
+            "A ver, digamos que no soy muy puntual."
+          ],
+          "tiles": [
+            "A ver…",
+            "digamos",
+            "que no soy",
+            "muy puntual",
+            "decimos",
+            "mira"
+          ],
+          "en": "Let's see… let's just say I'm not very punctual.",
+          "it": "Vediamo… diciamo che non sono molto puntuale.",
+          "uk": "Так, подивимось… скажімо так: я не дуже пунктуальний(-а).",
+          "de": "Mal sehen … sagen wir mal so: Ich bin nicht besonders pünktlich.",
+          "fr": "Voyons… disons que je ne suis pas très ponctuel.",
+          "pt": "Vamos ver… digamos que eu não sou muito pontual.",
+          "zh": "我看看……这么说吧，我不太守时。",
+          "hint": {
+            "en": "a ver to think, digamos que to soften.",
+            "it": "a ver per pensare, digamos que per addolcire.",
+            "uk": "a ver — щоб подумати, digamos que — щоб пом'якшити.",
+            "de": "a ver zum Nachdenken, digamos que zum Abschwächen.",
+            "fr": "a ver pour réfléchir, digamos que pour adoucir.",
+            "pt": "a ver para pensar, digamos que para suavizar.",
+            "zh": "a ver 用来思考，digamos que 用来缓和语气。"
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "A friend asks how your Spanish is going. Write in Spanish: «Well, look, let's just say I get by.»",
+            "it": "Un amico ti chiede come va il tuo spagnolo. Scrivi in spagnolo: «Guarda, diciamo che me la cavo.»",
+            "uk": "Друг питає, як просувається твоя іспанська. Напиши іспанською: «Ну дивись, скажімо так: я якось даю собі раду.»",
+            "de": "Ein Freund fragt, wie es mit deinem Spanisch läuft. Schreib auf Spanisch: «Also, schau mal, sagen wir mal, ich komme zurecht.»",
+            "fr": "Un ami te demande comment ça va avec ton espagnol. Écris en espagnol : «Bon, écoute, disons que je me débrouille.»",
+            "pt": "Um amigo pergunta como vai o seu espanhol. Escreva em espanhol: «Olha, digamos que eu me viro.»",
+            "zh": "朋友问你西班牙语学得怎么样。用西班牙语写：«你看，这么说吧，我还过得去。»"
+          },
+          "accepted": [
+            "Pues mira, digamos que me defiendo.",
+            "Pues mira: digamos que me defiendo.",
+            "Pues mira, digamos que me defiendo bien."
+          ],
+          "model": {
+            "es": "Pues mira, digamos que me defiendo.",
+            "en": "Well, look, let's just say I get by.",
+            "it": "Guarda, diciamo che me la cavo.",
+            "uk": "Ну дивись, скажімо так: я якось даю собі раду.",
+            "de": "Also, schau mal, sagen wir mal, ich komme zurecht.",
+            "fr": "Bon, écoute, disons que je me débrouille.",
+            "pt": "Olha, digamos que eu me viro.",
+            "zh": "你看，这么说吧，我还过得去。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u55l2",
+      "goal": {
+        "en": "Cut in politely and take your turn: perdona que te interrumpa (perdone que le interrumpa with usted), una cosa to slip in a quick question, perdona, sigue to give the turn back, and antes de que se me olvide for something you mustn't forget.",
+        "it": "Interrompi con garbo e prendi il tuo turno: perdona que te interrumpa (perdone que le interrumpa con usted), una cosa per infilare una domanda veloce, perdona, sigue per restituire la parola, e antes de que se me olvide per una cosa da non dimenticare.",
+        "uk": "Ввічливо перебивай і бери слово: perdona que te interrumpa (на ви — perdone que le interrumpa), una cosa — щоб вставити коротке запитання, perdona, sigue — щоб повернути слово, і antes de que se me olvide — для того, чого не можна забути.",
+        "de": "Höflich unterbrechen und zu Wort kommen: perdona que te interrumpa (mit usted: perdone que le interrumpa), una cosa für eine kurze Zwischenfrage, perdona, sigue, um das Wort zurückzugeben, und antes de que se me olvide für etwas, das du nicht vergessen darfst.",
+        "fr": "Interromps poliment et prends la parole : perdona que te interrumpa (perdone que le interrumpa avec usted), una cosa pour glisser une petite question, perdona, sigue pour rendre la parole, et antes de que se me olvide pour une chose à ne pas oublier.",
+        "pt": "Interrompa com educação e tome a palavra: perdona que te interrumpa (perdone que le interrumpa com usted), una cosa para encaixar uma pergunta rápida, perdona, sigue para devolver a palavra e antes de que se me olvide para algo que você não pode esquecer.",
+        "zh": "礼貌地插话，并接过话头：perdona que te interrumpa（对 usted 说 perdone que le interrumpa）；用 una cosa 插进一个简短的问题；用 perdona, sigue 把话头还给对方；用 antes de que se me olvide 说一件不能忘的事。"
+      },
+      "target": {
+        "es": "Perdona que te interrumpa, pero antes de que se me olvide: mañana no hay clase.",
+        "en": "Sorry to interrupt, but before I forget: there's no class tomorrow.",
+        "it": "Scusa se ti interrompo, ma prima che me ne dimentichi: domani non c'è lezione.",
+        "uk": "Вибач, що перебиваю, але поки не забув(-ла): завтра заняття не буде.",
+        "de": "Entschuldige, dass ich dich unterbreche, aber bevor ich's vergesse: Morgen ist kein Unterricht.",
+        "fr": "Pardon de t'interrompre, mais avant que j'oublie : demain, il n'y a pas cours.",
+        "pt": "Desculpa interromper, mas antes que eu esqueça: amanhã não tem aula.",
+        "zh": "不好意思打断一下，趁我还没忘：明天没课。"
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "perdona que te interrumpa",
+              "en": "sorry to interrupt (tú)",
+              "it": "scusa se ti interrompo",
+              "uk": "вибач, що перебиваю (tú)",
+              "de": "entschuldige, dass ich dich unterbreche (tú)",
+              "fr": "pardon de t'interrompre (tú)",
+              "pt": "desculpa interromper (tú)",
+              "zh": "不好意思打断一下（对 tú）",
+              "kind": "chunk"
+            },
+            {
+              "es": "perdone que le interrumpa",
+              "en": "sorry to interrupt (usted)",
+              "it": "mi scusi se la interrompo",
+              "uk": "вибачте, що перебиваю (usted)",
+              "de": "entschuldigen Sie, dass ich Sie unterbreche (usted)",
+              "fr": "pardon de vous interrompre (usted)",
+              "pt": "desculpe interromper (usted)",
+              "zh": "不好意思打断一下（对 usted）",
+              "kind": "chunk"
+            },
+            {
+              "es": "una cosa…",
+              "en": "one thing… (to cut in briefly)",
+              "it": "una cosa… (per intervenire un attimo)",
+              "uk": "одне питання… (щоб коротко втрутитися)",
+              "de": "eine Sache … (um kurz dazwischenzugehen)",
+              "fr": "une chose… (pour intervenir brièvement)",
+              "pt": "uma coisa… (para interromper rapidinho)",
+              "zh": "问一下……（简短地插话）",
+              "kind": "chunk"
+            },
+            {
+              "es": "antes de que se me olvide",
+              "en": "before I forget",
+              "it": "prima che me ne dimentichi",
+              "uk": "поки не забув(-ла)",
+              "de": "bevor ich's vergesse",
+              "fr": "avant que j'oublie",
+              "pt": "antes que eu esqueça",
+              "zh": "趁我还没忘，免得我忘了",
+              "kind": "chunk"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "perdona que",
+              "kind": "chunk"
+            },
+            {
+              "text": "+",
+              "kind": "chunk"
+            },
+            {
+              "text": "te interrumpa",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "To cut in politely, say perdona que te interrumpa (sorry to interrupt), then your point. It takes the subjunctive: (que yo) te interrumpa. With usted: perdone que le interrumpa.",
+            "it": "Per interrompere con garbo, di' perdona que te interrumpa (scusa se ti interrompo), poi quello che vuoi dire. Vuole il congiuntivo: (que yo) te interrumpa. Con usted: perdone que le interrumpa.",
+            "uk": "Щоб ввічливо перебити, скажи perdona que te interrumpa (вибач, що перебиваю), а потім свою думку. Після цього виразу вживається «subjuntivo»: (que yo) te interrumpa. На ви (usted): perdone que le interrumpa.",
+            "de": "Um höflich zu unterbrechen, sag perdona que te interrumpa (entschuldige, dass ich dich unterbreche) und dann dein Anliegen. Danach steht der subjuntivo (spanischer Konjunktiv): (que yo) te interrumpa – im Deutschen bleibt es beim normalen „unterbreche“. Mit usted: perdone que le interrumpa.",
+            "fr": "Pour interrompre poliment, dis perdona que te interrumpa (pardon de t'interrompre), puis ce que tu as à dire. Il demande le subjonctif : (que yo) te interrumpa. Le français dit « pardon de t'interrompre », avec un infinitif ; l'espagnol utilise que + subjonctif. Avec usted : perdone que le interrumpa.",
+            "pt": "Para interromper com educação, diga perdona que te interrumpa (desculpa interromper) e depois o que você quer dizer. Leva subjuntivo: (que yo) te interrumpa. Com usted: perdone que le interrumpa.",
+            "zh": "要礼貌地插话，先说 perdona que te interrumpa（不好意思打断一下），再说你的话。它后面要用虚拟式：(que yo) te interrumpa。对 usted 说：perdone que le interrumpa。"
+          },
+          "examples": [
+            {
+              "es": "Perdona que te interrumpa, pero eso no es verdad.",
+              "en": "Sorry to interrupt, but that isn't true.",
+              "it": "Scusa se ti interrompo, ma non è vero.",
+              "uk": "Вибач, що перебиваю, але це неправда.",
+              "de": "Entschuldige, dass ich dich unterbreche, aber das stimmt nicht.",
+              "fr": "Pardon de t'interrompre, mais ce n'est pas vrai.",
+              "pt": "Desculpa interromper, mas isso não é verdade.",
+              "zh": "不好意思打断一下，但这不是真的。"
+            },
+            {
+              "es": "Perdone que le interrumpa: ¿puedo hacer una pregunta?",
+              "en": "Sorry to interrupt: may I ask a question?",
+              "it": "Mi scusi se la interrompo: posso fare una domanda?",
+              "uk": "Вибачте, що перебиваю: можна запитання?",
+              "de": "Entschuldigen Sie, dass ich Sie unterbreche: Darf ich eine Frage stellen?",
+              "fr": "Pardon de vous interrompre : je peux poser une question ?",
+              "pt": "Desculpe interromper: posso fazer uma pergunta?",
+              "zh": "不好意思打断一下：我可以问个问题吗？"
+            },
+            {
+              "es": "Perdona que te interrumpa, pero se nos acaba el tiempo.",
+              "en": "Sorry to interrupt, but we're running out of time.",
+              "it": "Scusa se ti interrompo, ma il tempo sta per finire.",
+              "uk": "Вибач, що перебиваю, але в нас закінчується час.",
+              "de": "Entschuldige, dass ich dich unterbreche, aber uns läuft die Zeit davon.",
+              "fr": "Pardon de t'interrompre, mais on n'a presque plus de temps.",
+              "pt": "Desculpa interromper, mas o nosso tempo está acabando.",
+              "zh": "不好意思打断一下，我们时间快不够了。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "interrumpo",
+              "en": "I interrupt",
+              "it": "interrompo",
+              "uk": "я перебиваю",
+              "de": "ich unterbreche",
+              "fr": "j'interromps",
+              "pt": "eu interrompo",
+              "zh": "我打断"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Perdona que te ",
+          "after": ", pero eso no es verdad.",
+          "options": [
+            "interrumpa",
+            "interrumpo"
+          ],
+          "answer": "interrumpa",
+          "en": "Sorry to interrupt, but that isn't true.",
+          "it": "Scusa se ti interrompo, ma non è vero.",
+          "uk": "Вибач, що перебиваю, але це неправда.",
+          "de": "Entschuldige, dass ich dich unterbreche, aber das stimmt nicht.",
+          "fr": "Pardon de t'interrompre, mais ce n'est pas vrai.",
+          "pt": "Desculpa interromper, mas isso não é verdade.",
+          "zh": "不好意思打断一下，但这不是真的。",
+          "hint": {
+            "en": "perdona que + the subjunctive: interrumpa.",
+            "it": "perdona que + congiuntivo: interrumpa.",
+            "uk": "perdona que + «subjuntivo»: interrumpa.",
+            "de": "perdona que + subjuntivo: interrumpa.",
+            "fr": "perdona que + le subjonctif : interrumpa.",
+            "pt": "perdona que + subjuntivo: interrumpa.",
+            "zh": "perdona que + 虚拟式：interrumpa。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "fire",
+          "before": "",
+          "after": " que le interrumpa: ¿puedo hacer una pregunta?",
+          "options": [
+            "Perdone",
+            "Perdona"
+          ],
+          "answer": "Perdone",
+          "en": "Sorry to interrupt: may I ask a question?",
+          "it": "Mi scusi se la interrompo: posso fare una domanda?",
+          "uk": "Вибачте, що перебиваю: можна запитання?",
+          "de": "Entschuldigen Sie, dass ich Sie unterbreche: Darf ich eine Frage stellen?",
+          "fr": "Pardon de vous interrompre : je peux poser une question ?",
+          "pt": "Desculpe interromper: posso fazer uma pergunta?",
+          "zh": "不好意思打断一下：我可以问个问题吗？",
+          "hint": {
+            "en": "le shows it's usted: perdone.",
+            "it": "le indica che è usted: perdone.",
+            "uk": "le показує, що це звертання на ви (usted): perdone.",
+            "de": "le zeigt, dass es usted ist: perdone.",
+            "fr": "le montre que c'est usted : perdone.",
+            "pt": "le mostra que é usted: perdone.",
+            "zh": "le 说明是 usted：perdone。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "una cosa:",
+              "kind": "chunk"
+            },
+            {
+              "text": "…",
+              "kind": "chunk"
+            },
+            {
+              "text": "perdona, sigue",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "Una cosa… (one thing…) slips in a quick question without stopping the other person for long. Then give the turn back with perdona, sigue (sorry, go on).",
+            "it": "Una cosa… (una cosa…) infila una domanda veloce senza fermare l'altro troppo a lungo. Poi restituisci la parola con perdona, sigue (scusa, continua).",
+            "uk": "Una cosa… (одне питання…) дає змогу вставити коротке запитання, не зупиняючи співрозмовника надовго. Потім поверни йому слово: perdona, sigue (вибач, продовжуй).",
+            "de": "Una cosa … (eine Sache …) schiebt eine kurze Frage ein, ohne den anderen lange aufzuhalten. Danach gibst du das Wort zurück mit perdona, sigue (Entschuldige, mach weiter).",
+            "fr": "Una cosa… (une chose…) glisse une petite question sans arrêter l'autre trop longtemps. Ensuite, rends-lui la parole avec perdona, sigue (pardon, continue).",
+            "pt": "Una cosa… (uma coisa…) encaixa uma pergunta rápida sem parar o outro por muito tempo. Depois devolva a palavra com perdona, sigue (desculpa, pode continuar).",
+            "zh": "Una cosa…（问一下……）用来插进一个简短的问题，不会让对方停太久。然后用 perdona, sigue（不好意思，你接着说）把话头还给对方。"
+          },
+          "examples": [
+            {
+              "es": "Una cosa: ¿a qué hora empieza la reunión?",
+              "en": "One thing: what time does the meeting start?",
+              "it": "Una cosa: a che ora comincia la riunione?",
+              "uk": "Одне питання: о котрій починається нарада?",
+              "de": "Eine Sache: Um wie viel Uhr fängt das Meeting an?",
+              "fr": "Une chose : à quelle heure commence la réunion ?",
+              "pt": "Uma coisa: que horas começa a reunião?",
+              "zh": "问一下：会议几点开始？"
+            },
+            {
+              "es": "Perdona, una cosa: ¿vienes mañana?",
+              "en": "Sorry, one thing: are you coming tomorrow?",
+              "it": "Scusa, una cosa: vieni domani?",
+              "uk": "Вибач, одне питання: ти завтра прийдеш?",
+              "de": "Entschuldige, eine Sache: Kommst du morgen?",
+              "fr": "Pardon, une chose : tu viens demain ?",
+              "pt": "Desculpa, uma coisa: você vem amanhã?",
+              "zh": "不好意思，问一下：你明天来吗？"
+            },
+            {
+              "es": "Vale, gracias. Perdona, sigue.",
+              "en": "OK, thanks. Sorry, go on.",
+              "it": "Va bene, grazie. Scusa, continua.",
+              "uk": "Добре, дякую. Вибач, продовжуй.",
+              "de": "Okay, danke. Entschuldige, mach weiter.",
+              "fr": "D'accord, merci. Pardon, continue.",
+              "pt": "Tá bom, obrigado. Desculpa, pode continuar.",
+              "zh": "好的，谢谢。不好意思，你接着说。"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "gap",
+          "beat": "forge",
+          "before": "Una ",
+          "after": ": ¿a qué hora empieza la reunión?",
+          "label": "one thing",
+          "accepted": [
+            "cosa"
+          ],
+          "en": "One thing: what time does the meeting start?",
+          "it": "Una cosa: a che ora comincia la riunione?",
+          "uk": "Одне питання: о котрій починається нарада?",
+          "de": "Eine Sache: Um wie viel Uhr fängt das Meeting an?",
+          "fr": "Une chose : à quelle heure commence la réunion ?",
+          "pt": "Uma coisa: que horas começa a reunião?",
+          "zh": "问一下：会议几点开始？",
+          "hint": {
+            "en": "A quick question: una cosa.",
+            "it": "Una domanda veloce: una cosa.",
+            "uk": "Коротке запитання: una cosa.",
+            "de": "Eine kurze Frage: una cosa.",
+            "fr": "Une petite question : una cosa.",
+            "pt": "Uma pergunta rápida: una cosa.",
+            "zh": "简短的问题：una cosa。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "You've cut in on a friend to ask something quick, and you've got your answer. Give the turn back: OK, thanks. Sorry, go on.",
+            "it": "Hai interrotto un amico per chiedergli una cosa veloce e hai avuto la risposta. Restituiscigli la parola: va bene, grazie. Scusa, continua.",
+            "uk": "Ти перебив(-ла) друга, щоб швидко щось спитати, і вже отримав(-ла) відповідь. Поверни йому слово: добре, дякую. Вибач, продовжуй.",
+            "de": "Du hast eine Freundin kurz unterbrochen, um etwas zu fragen, und hast deine Antwort. Gib ihr das Wort zurück: Okay, danke. Entschuldige, mach weiter.",
+            "fr": "Tu as interrompu un ami pour lui demander quelque chose de rapide, et tu as ta réponse. Rends-lui la parole : d'accord, merci. Pardon, continue.",
+            "pt": "Você interrompeu um amigo para perguntar algo rápido e já tem a resposta. Devolva a palavra: tá bom, obrigado. Desculpa, pode continuar.",
+            "zh": "你打断朋友问了个小问题，已经得到了答案。把话头还给他：好的，谢谢。不好意思，你接着说。"
+          },
+          "accepted": [
+            "Vale, gracias. Perdona, sigue.",
+            "Vale, gracias. Perdona, sigue, sigue."
+          ],
+          "tiles": [
+            "Vale,",
+            "gracias.",
+            "Perdona,",
+            "sigue",
+            "perdone",
+            "sigues"
+          ],
+          "en": "OK, thanks. Sorry, go on.",
+          "it": "Va bene, grazie. Scusa, continua.",
+          "uk": "Добре, дякую. Вибач, продовжуй.",
+          "de": "Okay, danke. Entschuldige, mach weiter.",
+          "fr": "D'accord, merci. Pardon, continue.",
+          "pt": "Tá bom, obrigado. Desculpa, pode continuar.",
+          "zh": "好的，谢谢。不好意思，你接着说。",
+          "hint": {
+            "en": "To a friend: perdona, and sigue as a command.",
+            "it": "A un amico: perdona, e sigue come imperativo.",
+            "uk": "Другові: perdona, і sigue у наказовому способі.",
+            "de": "Zu einer Freundin: perdona, und sigue als Imperativ.",
+            "fr": "À un ami : perdona, et sigue à l'impératif.",
+            "pt": "Para um amigo: perdona, e sigue como imperativo.",
+            "zh": "对朋友说：perdona，再用命令式 sigue。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "antes de que",
+              "kind": "rail"
+            },
+            {
+              "text": "+",
+              "kind": "chunk"
+            },
+            {
+              "text": "se me olvide",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "Antes de que se me olvide (before I forget) brings in something you've just remembered and must say now. Antes de que always takes the subjunctive: olvide.",
+            "it": "Antes de que se me olvide (prima che me ne dimentichi) introduce una cosa che ti è appena venuta in mente e che devi dire subito. Antes de que vuole sempre il congiuntivo: olvide.",
+            "uk": "Antes de que se me olvide (поки не забув(-ла)) вводить те, що ти щойно згадав(-ла) і мусиш сказати зараз. Після antes de que завжди вживається «subjuntivo»: olvide.",
+            "de": "Antes de que se me olvide (bevor ich's vergesse) leitet etwas ein, das dir gerade eingefallen ist und das du jetzt sagen musst. Nach antes de que steht immer der subjuntivo: olvide.",
+            "fr": "Antes de que se me olvide (avant que j'oublie) introduit une chose dont tu viens de te souvenir et que tu dois dire tout de suite. Antes de que prend toujours le subjonctif : olvide, comme « avant que » en français.",
+            "pt": "Antes de que se me olvide (antes que eu esqueça) introduz algo de que você acabou de se lembrar e precisa dizer agora. Antes de que sempre leva subjuntivo: olvide.",
+            "zh": "Antes de que se me olvide（趁我还没忘）用来引出一件你刚想起来、必须马上说的事。Antes de que 后面一定用虚拟式：olvide。"
+          },
+          "examples": [
+            {
+              "es": "Antes de que se me olvide: mañana no hay clase.",
+              "en": "Before I forget: there's no class tomorrow.",
+              "it": "Prima che me ne dimentichi: domani non c'è lezione.",
+              "uk": "Поки не забув(-ла): завтра заняття не буде.",
+              "de": "Bevor ich's vergesse: Morgen ist kein Unterricht.",
+              "fr": "Avant que j'oublie : demain, il n'y a pas cours.",
+              "pt": "Antes que eu esqueça: amanhã não tem aula.",
+              "zh": "趁我还没忘：明天没课。"
+            },
+            {
+              "es": "Toma, mi número, antes de que se me olvide.",
+              "en": "Here's my number, before I forget.",
+              "it": "Tieni, il mio numero, prima che me ne dimentichi.",
+              "uk": "Ось, тримай мій номер, поки не забув(-ла).",
+              "de": "Hier, meine Nummer, bevor ich's vergesse.",
+              "fr": "Tiens, mon numéro, avant que j'oublie.",
+              "pt": "Aqui está o meu número, antes que eu esqueça.",
+              "zh": "给，我的电话号码，免得我忘了。"
+            },
+            {
+              "es": "Antes de que se me olvide, ¿me devuelves el libro?",
+              "en": "Before I forget, can you give me back the book?",
+              "it": "Prima che me ne dimentichi, mi ridai il libro?",
+              "uk": "Поки не забув(-ла): повернеш мені книжку?",
+              "de": "Bevor ich's vergesse: Gibst du mir das Buch zurück?",
+              "fr": "Avant que j'oublie, tu me rends le livre ?",
+              "pt": "Antes que eu esqueça, você me devolve o livro?",
+              "zh": "趁我还没忘，你能把书还给我吗？"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "se me olvida",
+              "en": "I forget, it slips my mind",
+              "it": "mi dimentico, mi sfugge",
+              "uk": "я забуваю, вилітає з голови",
+              "de": "ich vergesse es, es entfällt mir",
+              "fr": "j'oublie, ça m'échappe",
+              "pt": "eu esqueço, me foge da cabeça",
+              "zh": "我忘了，我一时想不起来"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Antes de que se me ",
+          "after": ": mañana no hay clase.",
+          "options": [
+            "olvide",
+            "olvida"
+          ],
+          "answer": "olvide",
+          "en": "Before I forget: there's no class tomorrow.",
+          "it": "Prima che me ne dimentichi: domani non c'è lezione.",
+          "uk": "Поки не забув(-ла): завтра заняття не буде.",
+          "de": "Bevor ich's vergesse: Morgen ist kein Unterricht.",
+          "fr": "Avant que j'oublie : demain, il n'y a pas cours.",
+          "pt": "Antes que eu esqueça: amanhã não tem aula.",
+          "zh": "趁我还没忘：明天没课。",
+          "hint": {
+            "en": "antes de que + the subjunctive: olvide.",
+            "it": "antes de que + congiuntivo: olvide.",
+            "uk": "antes de que + «subjuntivo»: olvide.",
+            "de": "antes de que + subjuntivo: olvide.",
+            "fr": "antes de que + le subjonctif : olvide.",
+            "pt": "antes de que + subjuntivo: olvide.",
+            "zh": "antes de que + 虚拟式：olvide。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "You're about to hang up on a colleague when you remember something. Say: before I forget, the meeting is at nine.",
+            "it": "Stai per chiudere la telefonata con un collega quando ti viene in mente una cosa. Di': prima che me ne dimentichi, la riunione è alle nove.",
+            "uk": "Ти вже кладеш слухавку після розмови з колегою, аж тут щось згадуєш. Скажи: поки не забув(-ла), нарада о дев'ятій.",
+            "de": "Du willst gerade bei einem Kollegen auflegen, da fällt dir etwas ein. Sag: Bevor ich's vergesse, das Meeting ist um neun.",
+            "fr": "Tu es sur le point de raccrocher avec un collègue quand tu te souviens de quelque chose. Dis : avant que j'oublie, la réunion est à neuf heures.",
+            "pt": "Você está quase desligando o telefone com um colega quando se lembra de uma coisa. Diga: antes que eu esqueça, a reunião é às nove.",
+            "zh": "你正要挂同事的电话，突然想起一件事。说：趁我还没忘，会议是九点。"
+          },
+          "accepted": [
+            "Antes de que se me olvide, la reunión es a las nueve.",
+            "Antes de que se me olvide: la reunión es a las nueve."
+          ],
+          "tiles": [
+            "Antes de que",
+            "se me olvide,",
+            "la reunión",
+            "es a las nueve",
+            "olvida",
+            "después"
+          ],
+          "en": "Before I forget, the meeting is at nine.",
+          "it": "Prima che me ne dimentichi, la riunione è alle nove.",
+          "uk": "Поки не забув(-ла): нарада о дев'ятій.",
+          "de": "Bevor ich's vergesse: Das Meeting ist um neun.",
+          "fr": "Avant que j'oublie, la réunion est à neuf heures.",
+          "pt": "Antes que eu esqueça, a reunião é às nove.",
+          "zh": "趁我还没忘，会议是九点。",
+          "hint": {
+            "en": "antes de que se me olvide + the news.",
+            "it": "antes de que se me olvide + la notizia.",
+            "uk": "antes de que se me olvide + новина.",
+            "de": "antes de que se me olvide + die Neuigkeit.",
+            "fr": "antes de que se me olvide + la nouvelle.",
+            "pt": "antes de que se me olvide + a novidade.",
+            "zh": "antes de que se me olvide + 要说的事。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "Perdone que ",
+          "after": " interrumpa, pero se nos acaba el tiempo.",
+          "options": [
+            "le",
+            "te"
+          ],
+          "answer": "le",
+          "en": "Sorry to interrupt, but we're running out of time.",
+          "it": "Mi scusi se la interrompo, ma il tempo sta per finire.",
+          "uk": "Вибачте, що перебиваю, але в нас закінчується час.",
+          "de": "Entschuldigen Sie, dass ich Sie unterbreche, aber uns läuft die Zeit davon.",
+          "fr": "Pardon de vous interrompre, mais on n'a presque plus de temps.",
+          "pt": "Desculpe interromper, mas o nosso tempo está acabando.",
+          "zh": "不好意思打断一下，我们时间快不够了。",
+          "hint": {
+            "en": "Perdone is usted, so le.",
+            "it": "Perdone è usted, quindi le.",
+            "uk": "Perdone — це usted, тож le.",
+            "de": "Perdone ist usted, also le.",
+            "fr": "Perdone, c'est usted, donc le.",
+            "pt": "Perdone é usted, então le.",
+            "zh": "Perdone 是 usted，所以用 le。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "mix",
+          "before": "Perdona, una ",
+          "after": ": ¿vienes mañana?",
+          "label": "one thing",
+          "accepted": [
+            "cosa"
+          ],
+          "en": "Sorry, one thing: are you coming tomorrow?",
+          "it": "Scusa, una cosa: vieni domani?",
+          "uk": "Вибач, одне питання: ти завтра прийдеш?",
+          "de": "Entschuldige, eine Sache: Kommst du morgen?",
+          "fr": "Pardon, une chose : tu viens demain ?",
+          "pt": "Desculpa, uma coisa: você vem amanhã?",
+          "zh": "不好意思，问一下：你明天来吗？",
+          "hint": {
+            "en": "A quick question: una cosa.",
+            "it": "Una domanda veloce: una cosa.",
+            "uk": "Коротке запитання: una cosa.",
+            "de": "Eine kurze Frage: una cosa.",
+            "fr": "Une petite question : una cosa.",
+            "pt": "Uma pergunta rápida: una cosa.",
+            "zh": "简短的问题：una cosa。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "mix",
+          "intention": {
+            "en": "You're chatting with a friend and remember you've got her book in your bag. Say: before I forget, here's your book.",
+            "it": "Stai chiacchierando con un'amica e ti ricordi che hai il suo libro nella borsa. Di': prima che me ne dimentichi, tieni il tuo libro.",
+            "uk": "Ти розмовляєш із подругою і згадуєш, що в тебе в сумці її книжка. Скажи: поки не забув(-ла), ось твоя книжка.",
+            "de": "Du plauderst mit einer Freundin, und dir fällt ein, dass du ihr Buch in der Tasche hast. Sag: Bevor ich's vergesse, hier ist dein Buch.",
+            "fr": "Tu discutes avec une amie et tu te rappelles que tu as son livre dans ton sac. Dis : avant que j'oublie, tiens, ton livre.",
+            "pt": "Você está conversando com uma amiga e se lembra de que está com o livro dela na bolsa. Diga: antes que eu esqueça, aqui está o seu livro.",
+            "zh": "你在和朋友聊天，想起她的书在你包里。说：趁我还没忘，给你书。"
+          },
+          "accepted": [
+            "Antes de que se me olvide, toma tu libro.",
+            "Toma tu libro, antes de que se me olvide."
+          ],
+          "tiles": [
+            "Antes de que",
+            "se me olvide,",
+            "toma",
+            "tu libro",
+            "olvida",
+            "tome"
+          ],
+          "en": "Before I forget, here's your book.",
+          "it": "Prima che me ne dimentichi, tieni il tuo libro.",
+          "uk": "Поки не забув(-ла): ось твоя книжка.",
+          "de": "Bevor ich's vergesse, hier ist dein Buch.",
+          "fr": "Avant que j'oublie, tiens, ton livre.",
+          "pt": "Antes que eu esqueça, aqui está o seu livro.",
+          "zh": "趁我还没忘，给你书。",
+          "hint": {
+            "en": "She's a friend: toma, and olvide after antes de que.",
+            "it": "È un'amica: toma, e olvide dopo antes de que.",
+            "uk": "Це подруга: toma, а після antes de que — olvide.",
+            "de": "Sie ist eine Freundin: toma, und olvide nach antes de que.",
+            "fr": "C'est une amie : toma, et olvide après antes de que.",
+            "pt": "Ela é sua amiga: toma, e olvide depois de antes de que.",
+            "zh": "她是朋友：用 toma，antes de que 后面用 olvide。"
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "In a meeting, you need to cut in on your director, whom you call usted. Write in Spanish: «Sorry to interrupt, but may I ask a question?»",
+            "it": "In una riunione devi interrompere il tuo direttore, a cui dai del Lei. Scrivi in spagnolo: «Mi scusi se la interrompo, ma posso fare una domanda?»",
+            "uk": "На нараді тобі треба перебити директора, до якого ти звертаєшся на ви (usted). Напиши іспанською: «Вибачте, що перебиваю, але можна запитання?»",
+            "de": "In einer Besprechung musst du deine Direktorin unterbrechen, die du siezt (usted). Schreib auf Spanisch: «Entschuldigen Sie, dass ich Sie unterbreche, aber darf ich eine Frage stellen?»",
+            "fr": "En réunion, tu dois interrompre ta directrice, que tu vouvoies (usted). Écris en espagnol : «Pardon de vous interrompre, mais je peux poser une question ?»",
+            "pt": "Numa reunião, você precisa interromper o seu diretor, que você trata por usted. Escreva em espanhol: «Desculpe interromper, mas posso fazer uma pergunta?»",
+            "zh": "开会时，你需要打断你的主管，你称他 usted。用西班牙语写：«不好意思打断一下，我可以问个问题吗？»"
+          },
+          "accepted": [
+            "Perdone que le interrumpa, pero ¿puedo hacer una pregunta?",
+            "Perdone que lo interrumpa, pero ¿puedo hacer una pregunta?",
+            "Perdone que la interrumpa, pero ¿puedo hacer una pregunta?",
+            "Perdone que le interrumpa: ¿puedo hacer una pregunta?"
+          ],
+          "model": {
+            "es": "Perdone que le interrumpa, pero ¿puedo hacer una pregunta?",
+            "en": "Sorry to interrupt, but may I ask a question?",
+            "it": "Mi scusi se la interrompo, ma posso fare una domanda?",
+            "uk": "Вибачте, що перебиваю, але можна запитання?",
+            "de": "Entschuldigen Sie, dass ich Sie unterbreche, aber darf ich eine Frage stellen?",
+            "fr": "Pardon de vous interrompre, mais je peux poser une question ?",
+            "pt": "Desculpe interromper, mas posso fazer uma pergunta?",
+            "zh": "不好意思打断一下，我可以问个问题吗？"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u55l3",
+      "goal": {
+        "en": "When someone misunderstands you, say it again: no me he explicado bien and lo que quiero decir es que…, me refiero a… to make clear what you're talking about, and o sea (the same idea, more simply) or mejor dicho (a correction), which you already know.",
+        "it": "Quando qualcuno ti fraintende, ridillo: no me he explicado bien e lo que quiero decir es que…, me refiero a… per chiarire di cosa parli, e o sea (la stessa idea, più semplice) o mejor dicho (una correzione), che conosci già.",
+        "uk": "Коли тебе зрозуміли неправильно, скажи це ще раз інакше: no me he explicado bien і lo que quiero decir es que…, me refiero a… — щоб уточнити, про що саме йдеться, а також уже знайомі тобі o sea (та сама думка простіше) або mejor dicho (виправлення).",
+        "de": "Wenn dich jemand missversteht, sag es noch einmal anders: no me he explicado bien und lo que quiero decir es que …, me refiero a …, um klarzustellen, wovon du sprichst, und o sea (dieselbe Idee, einfacher) oder mejor dicho (eine Korrektur), die du schon kennst.",
+        "fr": "Quand on te comprend mal, redis-le : no me he explicado bien et lo que quiero decir es que…, me refiero a… pour préciser de quoi tu parles, et o sea (la même idée, plus simplement) ou mejor dicho (une correction), que tu connais déjà.",
+        "pt": "Quando alguém te entende mal, diga de novo: no me he explicado bien e lo que quiero decir es que…, me refiero a… para deixar claro do que você está falando, e o sea (a mesma ideia, de forma mais simples) ou mejor dicho (uma correção), que você já conhece.",
+        "zh": "别人误解你的时候，换个说法再说一遍：用 no me he explicado bien 和 lo que quiero decir es que…；用 me refiero a… 说清楚你指的是什么；还有你已经学过的 o sea（同一个意思，说得更简单）和 mejor dicho（纠正）。"
+      },
+      "target": {
+        "es": "Perdona, no me he explicado bien. Lo que quiero decir es que necesito más tiempo.",
+        "en": "Sorry, I didn't put that well. What I mean is that I need more time.",
+        "it": "Scusa, non mi sono spiegato bene. Quello che voglio dire è che mi serve più tempo.",
+        "uk": "Вибач, я невдало висловився(-лася). Я хочу сказати, що мені потрібно більше часу.",
+        "de": "Entschuldige, ich habe mich nicht gut ausgedrückt. Was ich meine, ist, dass ich mehr Zeit brauche.",
+        "fr": "Pardon, je me suis mal exprimé. Ce que je veux dire, c'est que j'ai besoin de plus de temps.",
+        "pt": "Desculpa, eu não me expliquei bem. O que eu quero dizer é que eu preciso de mais tempo.",
+        "zh": "不好意思，我没说清楚。我的意思是，我需要更多时间。"
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "reformular",
+              "en": "to rephrase, to put another way",
+              "it": "riformulare",
+              "uk": "переформулювати, сказати інакше",
+              "de": "umformulieren, anders ausdrücken",
+              "fr": "reformuler",
+              "pt": "reformular, dizer de outro jeito",
+              "zh": "换个说法，重新表述",
+              "kind": "stem"
+            },
+            {
+              "es": "no me he explicado bien",
+              "en": "I didn't put that well, I haven't explained myself well",
+              "it": "non mi sono spiegato bene",
+              "uk": "я невдало висловився(-лася), я погано пояснив(-ла)",
+              "de": "ich habe mich nicht gut ausgedrückt, ich habe mich nicht klar ausgedrückt",
+              "fr": "je me suis mal exprimé, je ne me suis pas bien expliqué",
+              "pt": "eu não me expliquei bem",
+              "zh": "我没说清楚，我没解释清楚",
+              "kind": "chunk"
+            },
+            {
+              "es": "lo que quiero decir es que…",
+              "en": "what I mean is that…",
+              "it": "quello che voglio dire è che…",
+              "uk": "я хочу сказати, що…",
+              "de": "was ich meine, ist, dass …",
+              "fr": "ce que je veux dire, c'est que…",
+              "pt": "o que eu quero dizer é que…",
+              "zh": "我的意思是……",
+              "kind": "chunk"
+            }
+          ]
+        },
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "me refiero a…",
+              "en": "I mean…, I'm talking about…",
+              "it": "mi riferisco a…, intendo…",
+              "uk": "я маю на увазі…, я про…",
+              "de": "ich meine …, ich spreche von …",
+              "fr": "je parle de…, je veux parler de…",
+              "pt": "eu me refiro a…, estou falando de…",
+              "zh": "我指的是……，我说的是……",
+              "kind": "chunk"
+            },
+            {
+              "es": "¿me explico?",
+              "en": "do you see what I mean?",
+              "it": "mi spiego?",
+              "uk": "розумієш, про що я?",
+              "de": "verstehst du, was ich meine?",
+              "fr": "tu vois ce que je veux dire ?",
+              "pt": "entende o que eu quero dizer?",
+              "zh": "你明白我的意思吗？",
+              "kind": "chunk"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "no me he explicado bien.",
+              "kind": "chunk"
+            },
+            {
+              "text": "+",
+              "kind": "chunk"
+            },
+            {
+              "text": "lo que quiero decir es que…",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "If someone has misunderstood you, take the blame kindly: no me he explicado bien (I didn't put that well). Then say it again with lo que quiero decir es que…",
+            "it": "Se qualcuno ti ha frainteso, prenditi la colpa con gentilezza: no me he explicado bien (non mi sono spiegato bene). Poi ridillo con lo que quiero decir es que…",
+            "uk": "Якщо тебе зрозуміли неправильно, по-доброму візьми провину на себе: no me he explicado bien (я невдало висловився(-лася)). Потім скажи це ще раз за допомогою lo que quiero decir es que…",
+            "de": "Wenn dich jemand missverstanden hat, nimm die Schuld freundlich auf dich: no me he explicado bien (ich habe mich nicht gut ausgedrückt). Dann sag es noch einmal mit lo que quiero decir es que …",
+            "fr": "Si on t'a mal compris, prends gentiment la faute sur toi : no me he explicado bien (je me suis mal exprimé). Puis redis-le avec lo que quiero decir es que…",
+            "pt": "Se alguém te entendeu mal, assuma a culpa com gentileza: no me he explicado bien (eu não me expliquei bem). Depois diga de novo com lo que quiero decir es que…",
+            "zh": "如果有人误解了你，客气地把责任揽到自己身上：no me he explicado bien（我没说清楚）。然后用 lo que quiero decir es que… 再说一遍。"
+          },
+          "examples": [
+            {
+              "es": "Perdona, no me he explicado bien. Lo que quiero decir es que necesito más tiempo.",
+              "en": "Sorry, I didn't put that well. What I mean is that I need more time.",
+              "it": "Scusa, non mi sono spiegato bene. Quello che voglio dire è che mi serve più tempo.",
+              "uk": "Вибач, я невдало висловився(-лася). Я хочу сказати, що мені потрібно більше часу.",
+              "de": "Entschuldige, ich habe mich nicht gut ausgedrückt. Was ich meine, ist, dass ich mehr Zeit brauche.",
+              "fr": "Pardon, je me suis mal exprimé. Ce que je veux dire, c'est que j'ai besoin de plus de temps.",
+              "pt": "Desculpa, eu não me expliquei bem. O que eu quero dizer é que eu preciso de mais tempo.",
+              "zh": "不好意思，我没说清楚。我的意思是，我需要更多时间。"
+            },
+            {
+              "es": "No me he explicado bien: el problema no eres tú.",
+              "en": "I didn't put that well: you're not the problem.",
+              "it": "Non mi sono spiegato bene: il problema non sei tu.",
+              "uk": "Я невдало висловився(-лася): проблема не в тобі.",
+              "de": "Ich habe mich nicht gut ausgedrückt: Du bist nicht das Problem.",
+              "fr": "Je me suis mal exprimé : le problème, ce n'est pas toi.",
+              "pt": "Eu não me expliquei bem: o problema não é você.",
+              "zh": "我没说清楚：问题不在你。"
+            },
+            {
+              "es": "Lo que quiero decir es que me encanta la idea.",
+              "en": "What I mean is that I love the idea.",
+              "it": "Quello che voglio dire è che l'idea mi piace tantissimo.",
+              "uk": "Я хочу сказати, що ідея мені дуже подобається.",
+              "de": "Was ich meine, ist, dass ich die Idee toll finde.",
+              "fr": "Ce que je veux dire, c'est que j'adore l'idée.",
+              "pt": "O que eu quero dizer é que eu adoro a ideia.",
+              "zh": "我的意思是，我很喜欢这个主意。"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Perdona, no me he ",
+          "after": " bien.",
+          "options": [
+            "explicado",
+            "explicar",
+            "explico"
+          ],
+          "answer": "explicado",
+          "en": "Sorry, I didn't put that well.",
+          "it": "Scusa, non mi sono spiegato bene.",
+          "uk": "Вибач, я невдало висловився(-лася).",
+          "de": "Entschuldige, ich habe mich nicht gut ausgedrückt.",
+          "fr": "Pardon, je me suis mal exprimé.",
+          "pt": "Desculpa, eu não me expliquei bem.",
+          "zh": "不好意思，我没说清楚。",
+          "hint": {
+            "en": "he + participle: explicado.",
+            "it": "he + participio: explicado.",
+            "uk": "he + дієприкметник: explicado.",
+            "de": "he + Partizip: explicado.",
+            "fr": "he + participe : explicado.",
+            "pt": "he + particípio: explicado.",
+            "zh": "he + 过去分词：explicado。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "A colleague thinks you don't like her idea. Put it right: what I mean is that I love the idea.",
+            "it": "Una collega pensa che la sua idea non ti piaccia. Chiarisci: quello che voglio dire è che l'idea mi piace tantissimo.",
+            "uk": "Колега думає, що тобі не подобається її ідея. Виправ непорозуміння: я хочу сказати, що ідея мені дуже подобається.",
+            "de": "Eine Kollegin glaubt, dass dir ihre Idee nicht gefällt. Stell es richtig: Was ich meine, ist, dass ich die Idee toll finde.",
+            "fr": "Une collègue croit que son idée ne te plaît pas. Rectifie : ce que je veux dire, c'est que j'adore l'idée.",
+            "pt": "Uma colega acha que você não gostou da ideia dela. Esclareça: o que eu quero dizer é que eu adoro a ideia.",
+            "zh": "一位同事以为你不喜欢她的主意。纠正一下：我的意思是，我很喜欢这个主意。"
+          },
+          "accepted": [
+            "Lo que quiero decir es que me encanta la idea."
+          ],
+          "tiles": [
+            "Lo que",
+            "quiero decir",
+            "es que",
+            "me encanta",
+            "la idea",
+            "quieres",
+            "encantan"
+          ],
+          "en": "What I mean is that I love the idea.",
+          "it": "Quello che voglio dire è che l'idea mi piace tantissimo.",
+          "uk": "Я хочу сказати, що ідея мені дуже подобається.",
+          "de": "Was ich meine, ist, dass ich die Idee toll finde.",
+          "fr": "Ce que je veux dire, c'est que j'adore l'idée.",
+          "pt": "O que eu quero dizer é que eu adoro a ideia.",
+          "zh": "我的意思是，我很喜欢这个主意。",
+          "hint": {
+            "en": "lo que quiero decir es que + the clear version.",
+            "it": "lo que quiero decir es que + la versione chiara.",
+            "uk": "lo que quiero decir es que + чіткий варіант.",
+            "de": "lo que quiero decir es que + die klare Version.",
+            "fr": "lo que quiero decir es que + la version claire.",
+            "pt": "lo que quiero decir es que + a versão clara.",
+            "zh": "lo que quiero decir es que + 说清楚的版本。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "me refiero a",
+              "kind": "chunk"
+            },
+            {
+              "text": "+",
+              "kind": "chunk"
+            },
+            {
+              "text": "la persona, la cosa",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "Me refiero a… (I mean…) makes clear exactly which person or thing you're talking about. To ask someone: ¿a qué te refieres? (what do you mean?)",
+            "it": "Me refiero a… (mi riferisco a…) chiarisce esattamente di quale persona o cosa stai parlando. Per chiederlo a qualcuno: ¿a qué te refieres? (cosa intendi?)",
+            "uk": "Me refiero a… (я маю на увазі…) уточнює, про яку саме людину чи річ ти говориш. Щоб спитати співрозмовника: ¿a qué te refieres? (що ти маєш на увазі?)",
+            "de": "Me refiero a … (ich meine …) stellt genau klar, von welcher Person oder Sache du sprichst. Um jemanden zu fragen: ¿a qué te refieres? (was meinst du?)",
+            "fr": "Me refiero a… (je parle de…) précise exactement de quelle personne ou de quelle chose tu parles. Pour le demander à quelqu'un : ¿a qué te refieres? (qu'est-ce que tu veux dire ?)",
+            "pt": "Me refiero a… (eu me refiro a…) deixa claro exatamente de que pessoa ou coisa você está falando. Para perguntar ao outro: ¿a qué te refieres? (como assim?, o que você quer dizer?)",
+            "zh": "Me refiero a…（我指的是……）用来说清楚你说的到底是哪个人或哪件事。问别人时说：¿a qué te refieres?（你指的是什么？）"
+          },
+          "examples": [
+            {
+              "es": "No me refiero a ti: me refiero al jefe.",
+              "en": "I don't mean you: I mean the boss.",
+              "it": "Non mi riferisco a te: mi riferisco al capo.",
+              "uk": "Я не про тебе: я маю на увазі начальника.",
+              "de": "Ich meine nicht dich: Ich meine den Chef.",
+              "fr": "Je ne parle pas de toi : je parle du chef.",
+              "pt": "Não estou falando de você: estou falando do chefe.",
+              "zh": "我不是说你：我说的是老板。"
+            },
+            {
+              "es": "Me refiero a la reunión del lunes, no a la de hoy.",
+              "en": "I mean Monday's meeting, not today's.",
+              "it": "Mi riferisco alla riunione di lunedì, non a quella di oggi.",
+              "uk": "Я маю на увазі нараду в понеділок, а не сьогоднішню.",
+              "de": "Ich meine das Meeting vom Montag, nicht das von heute.",
+              "fr": "Je parle de la réunion de lundi, pas de celle d'aujourd'hui.",
+              "pt": "Estou falando da reunião de segunda, não da de hoje.",
+              "zh": "我指的是周一的会，不是今天的。"
+            },
+            {
+              "es": "Perdona, ¿a qué te refieres?",
+              "en": "Sorry, what do you mean?",
+              "it": "Scusa, cosa intendi?",
+              "uk": "Вибач, що ти маєш на увазі?",
+              "de": "Entschuldige, was meinst du?",
+              "fr": "Pardon, qu'est-ce que tu veux dire ?",
+              "pt": "Desculpa, o que você quer dizer?",
+              "zh": "不好意思，你指的是什么？"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "¿a qué te refieres?",
+              "en": "what do you mean? (tú)",
+              "it": "cosa intendi?, a cosa ti riferisci?",
+              "uk": "що ти маєш на увазі? (tú)",
+              "de": "was meinst du? (tú)",
+              "fr": "qu'est-ce que tu veux dire ? (tú)",
+              "pt": "o que você quer dizer?, como assim? (tú)",
+              "zh": "你指的是什么？（对 tú）"
+            }
+          ]
+        },
+        {
+          "type": "gap",
+          "beat": "forge",
+          "before": "No me ",
+          "after": " a ti: me refiero al jefe.",
+          "label": "I mean (referirse)",
+          "accepted": [
+            "refiero"
+          ],
+          "en": "I don't mean you: I mean the boss.",
+          "it": "Non mi riferisco a te: mi riferisco al capo.",
+          "uk": "Я не про тебе: я маю на увазі начальника.",
+          "de": "Ich meine nicht dich: Ich meine den Chef.",
+          "fr": "Je ne parle pas de toi : je parle du chef.",
+          "pt": "Não estou falando de você: estou falando do chefe.",
+          "zh": "我不是说你：我说的是老板。",
+          "hint": {
+            "en": "yo: me refiero.",
+            "it": "yo: me refiero.",
+            "uk": "yo: me refiero.",
+            "de": "yo: me refiero.",
+            "fr": "yo : me refiero.",
+            "pt": "yo: me refiero.",
+            "zh": "yo：me refiero。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "fire",
+          "before": "Perdona, no te entiendo. ¿A qué te ",
+          "after": "?",
+          "options": [
+            "refieres",
+            "refiero"
+          ],
+          "answer": "refieres",
+          "en": "Sorry, I don't follow you. What do you mean?",
+          "it": "Scusa, non ti capisco. Cosa intendi?",
+          "uk": "Вибач, я тебе не розумію. Що ти маєш на увазі?",
+          "de": "Entschuldige, ich verstehe dich nicht. Was meinst du?",
+          "fr": "Pardon, je ne te suis pas. Qu'est-ce que tu veux dire ?",
+          "pt": "Desculpa, não estou te entendendo. O que você quer dizer?",
+          "zh": "不好意思，我没听懂。你指的是什么？",
+          "hint": {
+            "en": "You're asking the other person (tú): te refieres.",
+            "it": "Lo chiedi all'altro (tu): te refieres.",
+            "uk": "Ти питаєш співрозмовника (tú): te refieres.",
+            "de": "Du fragst dein Gegenüber (tú): te refieres.",
+            "fr": "Tu poses la question à l'autre (tú) : te refieres.",
+            "pt": "Você está perguntando ao outro (tú): te refieres.",
+            "zh": "你在问对方（tú）：te refieres。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "o sea",
+              "kind": "rail"
+            },
+            {
+              "text": "≠",
+              "kind": "chunk"
+            },
+            {
+              "text": "mejor dicho",
+              "kind": "rail"
+            }
+          ],
+          "rule": {
+            "en": "Speaking live, o sea says the same idea again, more simply; mejor dicho corrects something you got wrong. Add ¿me explico? to check they've followed you.",
+            "it": "Quando parli a braccio, o sea ridice la stessa idea in modo più semplice; mejor dicho corregge una cosa che hai sbagliato. Aggiungi ¿me explico? per controllare che ti abbiano seguito.",
+            "uk": "У живій розмові o sea повторює ту саму думку простіше, а mejor dicho виправляє те, що ти сказав(-ла) неправильно. Додай ¿me explico?, щоб перевірити, чи тебе зрозуміли.",
+            "de": "Beim freien Sprechen sagt o sea dieselbe Idee noch einmal, einfacher; mejor dicho korrigiert etwas, das du falsch gesagt hast. Häng ¿me explico? an, um zu prüfen, ob man dir folgen konnte.",
+            "fr": "À l'oral, o sea redit la même idée plus simplement ; mejor dicho corrige une chose que tu as mal dite. Ajoute ¿me explico? pour vérifier qu'on t'a suivi.",
+            "pt": "Falando ao vivo, o sea repete a mesma ideia de forma mais simples; mejor dicho corrige algo que você disse errado. Acrescente ¿me explico? para confirmar que o outro te acompanhou.",
+            "zh": "说话的时候，o sea 用来把同一个意思说得更简单；mejor dicho 用来纠正说错的地方。加上 ¿me explico? 确认对方听懂了。"
+          },
+          "examples": [
+            {
+              "es": "Trabajo de lunes a jueves, o sea, el viernes estoy libre. ¿Me explico?",
+              "en": "I work Monday to Thursday, I mean, I'm free on Fridays. Do you see what I mean?",
+              "it": "Lavoro dal lunedì al giovedì, cioè il venerdì sono libero. Mi spiego?",
+              "uk": "Я працюю з понеділка по четвер, тобто в п'ятницю я вільний(-а). Розумієш, про що я?",
+              "de": "Ich arbeite von Montag bis Donnerstag, also, freitags habe ich frei. Verstehst du, was ich meine?",
+              "fr": "Je travaille du lundi au jeudi, c'est-à-dire que le vendredi, je suis libre. Tu vois ce que je veux dire ?",
+              "pt": "Eu trabalho de segunda a quinta, ou seja, na sexta estou livre. Entende o que eu quero dizer?",
+              "zh": "我周一到周四上班，也就是说，周五我有空。你明白我的意思吗？"
+            },
+            {
+              "es": "Somos veinte, mejor dicho, veintidós.",
+              "en": "There are twenty of us, or rather, twenty-two.",
+              "it": "Siamo in venti, anzi, in ventidue.",
+              "uk": "Нас двадцятеро, точніше, двадцять двоє.",
+              "de": "Wir sind zwanzig, besser gesagt, zweiundzwanzig.",
+              "fr": "Nous sommes vingt, ou plutôt vingt-deux.",
+              "pt": "Somos vinte, ou melhor, vinte e dois.",
+              "zh": "我们有二十个人，不对，是二十二个。"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Somos veinte, ",
+          "after": ", veintidós.",
+          "options": [
+            "mejor dicho",
+            "o sea"
+          ],
+          "answer": "mejor dicho",
+          "en": "There are twenty of us, or rather, twenty-two.",
+          "it": "Siamo in venti, anzi, in ventidue.",
+          "uk": "Нас двадцятеро, точніше, двадцять двоє.",
+          "de": "Wir sind zwanzig, besser gesagt, zweiundzwanzig.",
+          "fr": "Nous sommes vingt, ou plutôt vingt-deux.",
+          "pt": "Somos vinte, ou melhor, vinte e dois.",
+          "zh": "我们有二十个人，不对，是二十二个。",
+          "hint": {
+            "en": "Twenty was wrong, so you correct it: mejor dicho.",
+            "it": "Venti era sbagliato, quindi correggi: mejor dicho.",
+            "uk": "Двадцять було неправильно, тож ти виправляєш: mejor dicho.",
+            "de": "Zwanzig war falsch, also korrigierst du: mejor dicho.",
+            "fr": "Vingt, c'était faux, alors tu corriges : mejor dicho.",
+            "pt": "Vinte estava errado, então você corrige: mejor dicho.",
+            "zh": "二十说错了，所以要纠正：mejor dicho。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "fire",
+          "before": "Trabajo de lunes a jueves, ",
+          "after": ", el viernes estoy libre.",
+          "options": [
+            "o sea",
+            "mejor dicho"
+          ],
+          "answer": "o sea",
+          "en": "I work Monday to Thursday, I mean, I'm free on Fridays.",
+          "it": "Lavoro dal lunedì al giovedì, cioè il venerdì sono libero.",
+          "uk": "Я працюю з понеділка по четвер, тобто в п'ятницю я вільний(-а).",
+          "de": "Ich arbeite von Montag bis Donnerstag, also, freitags habe ich frei.",
+          "fr": "Je travaille du lundi au jeudi, c'est-à-dire que le vendredi, je suis libre.",
+          "pt": "Eu trabalho de segunda a quinta, ou seja, na sexta estou livre.",
+          "zh": "我周一到周四上班，也就是说，周五我有空。",
+          "hint": {
+            "en": "Nothing was wrong: the same idea, more simply: o sea.",
+            "it": "Niente era sbagliato: la stessa idea, più semplice: o sea.",
+            "uk": "Помилки не було — та сама думка, тільки простіше: o sea.",
+            "de": "Nichts war falsch, nur dieselbe Idee, einfacher: o sea.",
+            "fr": "Rien n'était faux : la même idée, plus simplement : o sea.",
+            "pt": "Nada estava errado: a mesma ideia, mais simples: o sea.",
+            "zh": "没有说错：只是把同一个意思说得更简单：o sea。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "mix",
+          "before": "Lo que quiero ",
+          "after": " es que necesito más tiempo.",
+          "label": "decir",
+          "accepted": [
+            "decir"
+          ],
+          "en": "What I mean is that I need more time.",
+          "it": "Quello che voglio dire è che mi serve più tempo.",
+          "uk": "Я хочу сказати, що мені потрібно більше часу.",
+          "de": "Was ich meine, ist, dass ich mehr Zeit brauche.",
+          "fr": "Ce que je veux dire, c'est que j'ai besoin de plus de temps.",
+          "pt": "O que eu quero dizer é que eu preciso de mais tempo.",
+          "zh": "我的意思是，我需要更多时间。",
+          "hint": {
+            "en": "The fixed phrase: lo que quiero decir es que.",
+            "it": "L'espressione fissa: lo que quiero decir es que.",
+            "uk": "Сталий вислів: lo que quiero decir es que.",
+            "de": "Die feste Wendung: lo que quiero decir es que.",
+            "fr": "L'expression figée : lo que quiero decir es que.",
+            "pt": "A expressão fixa: lo que quiero decir es que.",
+            "zh": "固定说法：lo que quiero decir es que。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "No me he explicado bien. ",
+          "after": " que quiero decir es que el problema no eres tú.",
+          "options": [
+            "Lo",
+            "El",
+            "La"
+          ],
+          "answer": "Lo",
+          "en": "I didn't put that well. What I mean is that you're not the problem.",
+          "it": "Non mi sono spiegato bene. Quello che voglio dire è che il problema non sei tu.",
+          "uk": "Я невдало висловився(-лася). Я хочу сказати, що проблема не в тобі.",
+          "de": "Ich habe mich nicht gut ausgedrückt. Was ich meine, ist, dass du nicht das Problem bist.",
+          "fr": "Je me suis mal exprimé. Ce que je veux dire, c'est que le problème, ce n'est pas toi.",
+          "pt": "Eu não me expliquei bem. O que eu quero dizer é que o problema não é você.",
+          "zh": "我没说清楚。我的意思是，问题不在你。",
+          "hint": {
+            "en": "What I mean: lo que.",
+            "it": "Quello che: lo que.",
+            "uk": "«Те, що я хочу сказати»: lo que.",
+            "de": "Was ich meine: lo que.",
+            "fr": "Ce que je veux dire : lo que.",
+            "pt": "O que eu quero dizer: lo que.",
+            "zh": "我的意思：lo que。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "mix",
+          "intention": {
+            "en": "A friend says something you don't understand. Ask: sorry, what do you mean?",
+            "it": "Un amico dice una cosa che non capisci. Chiedi: scusa, cosa intendi?",
+            "uk": "Друг каже щось, чого ти не розумієш. Спитай: вибач, що ти маєш на увазі?",
+            "de": "Ein Freund sagt etwas, das du nicht verstehst. Frag: Entschuldige, was meinst du?",
+            "fr": "Un ami dit quelque chose que tu ne comprends pas. Demande : pardon, qu'est-ce que tu veux dire ?",
+            "pt": "Um amigo diz algo que você não entende. Pergunte: desculpa, o que você quer dizer?",
+            "zh": "朋友说了一句你听不懂的话。问：不好意思，你指的是什么？"
+          },
+          "accepted": [
+            "Perdona, ¿a qué te refieres?"
+          ],
+          "tiles": [
+            "Perdona,",
+            "¿a qué",
+            "te refieres?",
+            "me refiero",
+            "perdone"
+          ],
+          "en": "Sorry, what do you mean?",
+          "it": "Scusa, cosa intendi?",
+          "uk": "Вибач, що ти маєш на увазі?",
+          "de": "Entschuldige, was meinst du?",
+          "fr": "Pardon, qu'est-ce que tu veux dire ?",
+          "pt": "Desculpa, o que você quer dizer?",
+          "zh": "不好意思，你指的是什么？",
+          "hint": {
+            "en": "Asking a friend: perdona and te refieres.",
+            "it": "A un amico: perdona e te refieres.",
+            "uk": "Питаєш друга: perdona і te refieres.",
+            "de": "Du fragst einen Freund: perdona und te refieres.",
+            "fr": "À un ami : perdona et te refieres.",
+            "pt": "Perguntando a um amigo: perdona e te refieres.",
+            "zh": "问朋友：用 perdona 和 te refieres。"
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "In a meeting, your team has misunderstood your proposal. Write in Spanish: «I didn't put that well. I don't mean the price: I mean the deadline.»",
+            "it": "In una riunione la tua squadra ha frainteso la tua proposta. Scrivi in spagnolo: «Non mi sono spiegato bene. Non mi riferisco al prezzo: mi riferisco alla scadenza.»",
+            "uk": "На нараді команда неправильно зрозуміла твою пропозицію. Напиши іспанською: «Я невдало висловився(-лася). Я не про ціну: я маю на увазі терміни.»",
+            "de": "In einer Besprechung hat dein Team deinen Vorschlag missverstanden. Schreib auf Spanisch: «Ich habe mich nicht gut ausgedrückt. Ich meine nicht den Preis: Ich meine die Frist.»",
+            "fr": "En réunion, ton équipe a mal compris ta proposition. Écris en espagnol : «Je me suis mal exprimé. Je ne parle pas du prix : je parle du délai.»",
+            "pt": "Numa reunião, a sua equipe entendeu mal a sua proposta. Escreva em espanhol: «Eu não me expliquei bem. Não estou falando do preço: estou falando do prazo.»",
+            "zh": "开会时，你的团队误解了你的提议。用西班牙语写：«我没说清楚。我说的不是价格，是期限。»"
+          },
+          "accepted": [
+            "No me he explicado bien. No me refiero al precio: me refiero al plazo.",
+            "No me he explicado bien. No me refiero al precio, me refiero al plazo.",
+            "Perdón, no me he explicado bien. No me refiero al precio: me refiero al plazo."
+          ],
+          "model": {
+            "es": "No me he explicado bien. No me refiero al precio: me refiero al plazo.",
+            "en": "I didn't put that well. I don't mean the price: I mean the deadline.",
+            "it": "Non mi sono spiegato bene. Non mi riferisco al prezzo: mi riferisco alla scadenza.",
+            "uk": "Я невдало висловився(-лася). Я не про ціну: я маю на увазі терміни.",
+            "de": "Ich habe mich nicht gut ausgedrückt. Ich meine nicht den Preis: Ich meine die Frist.",
+            "fr": "Je me suis mal exprimé. Je ne parle pas du prix : je parle du délai.",
+            "pt": "Eu não me expliquei bem. Não estou falando do preço: estou falando do prazo.",
+            "zh": "我没说清楚。我说的不是价格，是期限。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u55l4",
+      "goal": {
+        "en": "Buy a few seconds when a question catches you out: es una buena pregunta (that's a good question), déjame pensar (let me think), and ¿cómo te diría? (how can I put it?) while you look for the word. With usted: déjeme, ¿cómo le diría?",
+        "it": "Prendi qualche secondo quando una domanda ti spiazza: es una buena pregunta (bella domanda), déjame pensar (fammi pensare), e ¿cómo te diría? (come dire?) mentre cerchi la parola. Con usted: déjeme, ¿cómo le diría?",
+        "uk": "Вигравай кілька секунд, коли запитання застає тебе зненацька: es una buena pregunta (гарне запитання), déjame pensar (дай подумати) і ¿cómo te diría? (як би це сказати?), поки шукаєш слово. На ви (usted): déjeme, ¿cómo le diría?",
+        "de": "Ein paar Sekunden gewinnen, wenn dich eine Frage kalt erwischt: es una buena pregunta (das ist eine gute Frage), déjame pensar (lass mich nachdenken) und ¿cómo te diría? (wie soll ich sagen?), während du nach dem Wort suchst. Mit usted: déjeme, ¿cómo le diría?",
+        "fr": "Gagne quelques secondes quand une question te prend de court : es una buena pregunta (c'est une bonne question), déjame pensar (laisse-moi réfléchir) et ¿cómo te diría? (comment dire ?) pendant que tu cherches le mot. Avec usted : déjeme, ¿cómo le diría?",
+        "pt": "Ganhe alguns segundos quando uma pergunta te pega desprevenido: es una buena pregunta (é uma boa pergunta), déjame pensar (deixa eu pensar) e ¿cómo te diría? (como eu diria?) enquanto você procura a palavra. Com usted: déjeme, ¿cómo le diría?",
+        "zh": "被问题难住时争取几秒钟：es una buena pregunta（这是个好问题），déjame pensar（让我想想），找词的时候说 ¿cómo te diría?（怎么说呢？）。对 usted 说：déjeme，¿cómo le diría?"
+      },
+      "target": {
+        "es": "Es una buena pregunta. Déjame pensar…",
+        "en": "That's a good question. Let me think…",
+        "it": "Bella domanda. Fammi pensare…",
+        "uk": "Гарне запитання. Дай подумати…",
+        "de": "Das ist eine gute Frage. Lass mich nachdenken …",
+        "fr": "C'est une bonne question. Laisse-moi réfléchir…",
+        "pt": "É uma boa pergunta. Deixa eu pensar…",
+        "zh": "这是个好问题。让我想想……"
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "ganar tiempo",
+              "en": "to buy time",
+              "it": "prendere tempo",
+              "uk": "вигравати час",
+              "de": "Zeit gewinnen",
+              "fr": "gagner du temps",
+              "pt": "ganhar tempo",
+              "zh": "争取时间，拖延时间",
+              "kind": "chunk"
+            },
+            {
+              "es": "la muletilla",
+              "en": "the filler (a word you say while you think)",
+              "it": "l'intercalare (una parola che dici mentre pensi)",
+              "uk": "слово-паразит, заповнювач паузи (те, що кажеш, поки думаєш)",
+              "de": "das Füllwort (ein Wort, das man beim Nachdenken sagt)",
+              "fr": "le tic de langage (un mot que tu dis pendant que tu réfléchis)",
+              "pt": "a muleta (uma palavra que você diz enquanto pensa)",
+              "zh": "口头禅，填充词（边想边说时说的词）",
+              "kind": "chunk"
+            },
+            {
+              "es": "es una buena pregunta",
+              "en": "that's a good question",
+              "it": "bella domanda, è una bella domanda",
+              "uk": "гарне запитання",
+              "de": "das ist eine gute Frage",
+              "fr": "c'est une bonne question",
+              "pt": "é uma boa pergunta",
+              "zh": "这是个好问题",
+              "kind": "chunk"
+            }
+          ]
+        },
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "déjame pensar",
+              "en": "let me think (tú)",
+              "it": "fammi pensare",
+              "uk": "дай подумати (tú)",
+              "de": "lass mich nachdenken (tú)",
+              "fr": "laisse-moi réfléchir (tú)",
+              "pt": "deixa eu pensar (tú)",
+              "zh": "让我想想（对 tú）",
+              "kind": "chunk"
+            },
+            {
+              "es": "déjeme pensar",
+              "en": "let me think (usted)",
+              "it": "mi lasci pensare",
+              "uk": "дайте подумати (usted)",
+              "de": "lassen Sie mich nachdenken (usted)",
+              "fr": "laissez-moi réfléchir (usted)",
+              "pt": "deixe-me pensar (usted)",
+              "zh": "让我想想（对 usted）",
+              "kind": "chunk"
+            },
+            {
+              "es": "¿cómo te diría?",
+              "en": "how can I put it? (tú)",
+              "it": "come dire?, come te lo posso dire?",
+              "uk": "як би це сказати? (tú)",
+              "de": "wie soll ich sagen? (tú)",
+              "fr": "comment dire ? (tú)",
+              "pt": "como eu diria? (tú)",
+              "zh": "怎么说呢？（对 tú）",
+              "kind": "chunk"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "es una buena pregunta",
+              "kind": "chunk"
+            },
+            {
+              "text": "→",
+              "kind": "chunk"
+            },
+            {
+              "text": "tiempo",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "When a question is hard, es una buena pregunta (that's a good question) wins you time politely. It's a classic in interviews, and it flatters the person asking.",
+            "it": "Quando una domanda è difficile, es una buena pregunta (bella domanda) ti fa guadagnare tempo con garbo. È un classico dei colloqui, e lusinga chi fa la domanda.",
+            "uk": "Коли запитання складне, es una buena pregunta (гарне запитання) ввічливо дає тобі час. Це класика співбесід, і до того ж це приємно тому, хто питає.",
+            "de": "Wenn eine Frage schwierig ist, verschafft dir es una buena pregunta (das ist eine gute Frage) höflich Zeit. Ein Klassiker im Vorstellungsgespräch, und es schmeichelt dem, der fragt.",
+            "fr": "Quand une question est difficile, es una buena pregunta (c'est une bonne question) te fait gagner du temps poliment. C'est un classique des entretiens, et ça flatte la personne qui pose la question.",
+            "pt": "Quando uma pergunta é difícil, es una buena pregunta (é uma boa pergunta) te faz ganhar tempo com educação. É um clássico das entrevistas, e ainda elogia quem perguntou.",
+            "zh": "问题很难的时候，es una buena pregunta（这是个好问题）能礼貌地帮你争取时间。这是面试里的经典说法，还能让提问的人听着舒服。"
+          },
+          "examples": [
+            {
+              "es": "Es una buena pregunta. La verdad es que no lo sé.",
+              "en": "That's a good question. To be honest, I don't know.",
+              "it": "Bella domanda. A dire il vero, non lo so.",
+              "uk": "Гарне запитання. Чесно кажучи, я не знаю.",
+              "de": "Das ist eine gute Frage. Ehrlich gesagt weiß ich es nicht.",
+              "fr": "C'est une bonne question. À vrai dire, je ne sais pas.",
+              "pt": "É uma boa pergunta. Para ser sincero, eu não sei.",
+              "zh": "这是个好问题。说实话，我不知道。"
+            },
+            {
+              "es": "Es una muy buena pregunta.",
+              "en": "That's a very good question.",
+              "it": "È un'ottima domanda.",
+              "uk": "Дуже гарне запитання.",
+              "de": "Das ist eine sehr gute Frage.",
+              "fr": "C'est une très bonne question.",
+              "pt": "É uma pergunta muito boa.",
+              "zh": "这是个非常好的问题。"
+            },
+            {
+              "es": "Es una buena pregunta: nunca lo he pensado.",
+              "en": "That's a good question: I've never thought about it.",
+              "it": "Bella domanda: non ci ho mai pensato.",
+              "uk": "Гарне запитання: я ніколи про це не думав(-ла).",
+              "de": "Das ist eine gute Frage: Darüber habe ich nie nachgedacht.",
+              "fr": "C'est une bonne question : je n'y ai jamais pensé.",
+              "pt": "É uma boa pergunta: eu nunca pensei nisso.",
+              "zh": "这是个好问题：我从来没想过。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "pensado",
+              "en": "thought (participle of pensar)",
+              "it": "pensato (participio di pensar)",
+              "uk": "подумав, думав (дієприкметник від pensar)",
+              "de": "gedacht (Partizip von pensar)",
+              "fr": "pensé (participe de pensar)",
+              "pt": "pensado (particípio de pensar)",
+              "zh": "想过（pensar 的过去分词）"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Es una buena ",
+          "after": ". La verdad es que no lo sé.",
+          "options": [
+            "pregunta",
+            "respuesta"
+          ],
+          "answer": "pregunta",
+          "en": "That's a good question. To be honest, I don't know.",
+          "it": "Bella domanda. A dire il vero, non lo so.",
+          "uk": "Гарне запитання. Чесно кажучи, я не знаю.",
+          "de": "Das ist eine gute Frage. Ehrlich gesagt weiß ich es nicht.",
+          "fr": "C'est une bonne question. À vrai dire, je ne sais pas.",
+          "pt": "É uma boa pergunta. Para ser sincero, eu não sei.",
+          "zh": "这是个好问题。说实话，我不知道。",
+          "hint": {
+            "en": "You're praising their question: una buena pregunta.",
+            "it": "Lodi la loro domanda: una buena pregunta.",
+            "uk": "Ти хвалиш їхнє запитання: una buena pregunta.",
+            "de": "Du lobst die Frage: una buena pregunta.",
+            "fr": "Tu fais l'éloge de sa question : una buena pregunta.",
+            "pt": "Você está elogiando a pergunta: una buena pregunta.",
+            "zh": "你在夸对方的问题：una buena pregunta。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "In a job interview, they ask where you see yourself in ten years. Win some time: that's a very good question.",
+            "it": "A un colloquio di lavoro ti chiedono dove ti vedi tra dieci anni. Prendi tempo: è un'ottima domanda.",
+            "uk": "На співбесіді тебе питають, де ти бачиш себе через десять років. Вигравай трохи часу: дуже гарне запитання.",
+            "de": "Im Vorstellungsgespräch fragt man dich, wo du dich in zehn Jahren siehst. Gewinn etwas Zeit: Das ist eine sehr gute Frage.",
+            "fr": "En entretien d'embauche, on te demande où tu te vois dans dix ans. Gagne un peu de temps : c'est une très bonne question.",
+            "pt": "Numa entrevista de emprego, perguntam onde você se vê daqui a dez anos. Ganhe um tempinho: é uma pergunta muito boa.",
+            "zh": "面试时，对方问你十年后想做什么。争取点时间：这是个非常好的问题。"
+          },
+          "accepted": [
+            "Es una muy buena pregunta."
+          ],
+          "tiles": [
+            "Es una",
+            "muy buena",
+            "pregunta",
+            "respuesta",
+            "está"
+          ],
+          "en": "That's a very good question.",
+          "it": "È un'ottima domanda.",
+          "uk": "Дуже гарне запитання.",
+          "de": "Das ist eine sehr gute Frage.",
+          "fr": "C'est une très bonne question.",
+          "pt": "É uma pergunta muito boa.",
+          "zh": "这是个非常好的问题。",
+          "hint": {
+            "en": "es una buena pregunta, with muy for extra time.",
+            "it": "es una buena pregunta, con muy per guadagnare ancora tempo.",
+            "uk": "es una buena pregunta, а muy — щоб виграти ще трохи часу.",
+            "de": "es una buena pregunta, mit muy für extra Zeit.",
+            "fr": "es una buena pregunta, avec muy pour gagner encore du temps.",
+            "pt": "es una buena pregunta, com muy para ganhar mais tempo.",
+            "zh": "es una buena pregunta，加上 muy 再多争取一点时间。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "déjame",
+              "kind": "stem"
+            },
+            {
+              "text": "+",
+              "kind": "chunk"
+            },
+            {
+              "text": "pensar",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "Déjame pensar (let me think) openly asks for a moment. Déjame is dejar + me, a command to tú; with usted it's déjeme pensar. Add un momento if you need longer.",
+            "it": "Déjame pensar (fammi pensare) chiede apertamente un attimo. Déjame è dejar + me, un imperativo per tu; con usted è déjeme pensar. Aggiungi un momento se ti serve più tempo.",
+            "uk": "Déjame pensar (дай подумати) відкрито просить хвилинку. Déjame — це dejar + me, наказовий спосіб для tú; на ви (usted) — déjeme pensar. Якщо треба більше часу, додай un momento.",
+            "de": "Déjame pensar (lass mich nachdenken) bittet offen um einen Moment. Déjame ist dejar + me, ein Imperativ an tú; mit usted heißt es déjeme pensar. Häng un momento an, wenn du länger brauchst.",
+            "fr": "Déjame pensar (laisse-moi réfléchir) demande ouvertement un instant. Déjame, c'est dejar + me, un impératif à tú ; avec usted, c'est déjeme pensar. Ajoute un momento s'il te faut plus longtemps.",
+            "pt": "Déjame pensar (deixa eu pensar) pede um momento abertamente. Déjame é dejar + me, um imperativo para tú; com usted fica déjeme pensar. Acrescente un momento se precisar de mais tempo.",
+            "zh": "Déjame pensar（让我想想）是直接请对方给你一点时间。Déjame 是 dejar + me，是对 tú 的命令式；对 usted 说 déjeme pensar。如果需要更久，可以加 un momento。"
+          },
+          "examples": [
+            {
+              "es": "Déjame pensar… sí, el martes puedo.",
+              "en": "Let me think… yes, I can do Tuesday.",
+              "it": "Fammi pensare… sì, martedì posso.",
+              "uk": "Дай подумати… так, у вівторок я можу.",
+              "de": "Lass mich nachdenken … ja, am Dienstag kann ich.",
+              "fr": "Laisse-moi réfléchir… oui, mardi, je peux.",
+              "pt": "Deixa eu pensar… sim, na terça eu posso.",
+              "zh": "让我想想……可以，周二我可以。"
+            },
+            {
+              "es": "Un momento, déjeme pensar.",
+              "en": "Just a moment, let me think.",
+              "it": "Un attimo, mi lasci pensare.",
+              "uk": "Хвилинку, дайте подумати.",
+              "de": "Einen Moment, lassen Sie mich nachdenken.",
+              "fr": "Un instant, laissez-moi réfléchir.",
+              "pt": "Um momento, deixe-me pensar.",
+              "zh": "请稍等，让我想想。"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Un momento, ",
+          "after": " pensar, señora.",
+          "options": [
+            "déjeme",
+            "déjame"
+          ],
+          "answer": "déjeme",
+          "en": "Just a moment, let me think, madam.",
+          "it": "Un attimo, mi lasci pensare, signora.",
+          "uk": "Хвилинку, дайте подумати, пані.",
+          "de": "Einen Moment, lassen Sie mich nachdenken, meine Dame.",
+          "fr": "Un instant, laissez-moi réfléchir, madame.",
+          "pt": "Um momento, deixe-me pensar, senhora.",
+          "zh": "请稍等，让我想想，女士。",
+          "hint": {
+            "en": "You call her señora, so usted: déjeme.",
+            "it": "La chiami señora, quindi usted: déjeme.",
+            "uk": "Ти кажеш їй señora, отже, на ви (usted): déjeme.",
+            "de": "Du nennst sie señora, also usted: déjeme.",
+            "fr": "Tu l'appelles señora, donc usted : déjeme.",
+            "pt": "Você a chama de señora, então é usted: déjeme.",
+            "zh": "你称她 señora，所以用 usted：déjeme。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "fire",
+          "before": "",
+          "after": " pensar… sí, el martes puedo.",
+          "label": "dejar (tú)",
+          "accepted": [
+            "Déjame"
+          ],
+          "en": "Let me think… yes, I can do Tuesday.",
+          "it": "Fammi pensare… sì, martedì posso.",
+          "uk": "Дай подумати… так, у вівторок я можу.",
+          "de": "Lass mich nachdenken … ja, am Dienstag kann ich.",
+          "fr": "Laisse-moi réfléchir… oui, mardi, je peux.",
+          "pt": "Deixa eu pensar… sim, na terça eu posso.",
+          "zh": "让我想想……可以，周二我可以。",
+          "hint": {
+            "en": "dejar + me, as a tú command: déjame.",
+            "it": "dejar + me, come imperativo per tu: déjame.",
+            "uk": "dejar + me, наказовий спосіб для tú: déjame.",
+            "de": "dejar + me als Imperativ an tú: déjame.",
+            "fr": "dejar + me, à l'impératif de tú : déjame.",
+            "pt": "dejar + me, como imperativo de tú: déjame.",
+            "zh": "dejar + me，对 tú 的命令式：déjame。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "¿cómo te diría?",
+              "kind": "chunk"
+            },
+            {
+              "text": "…",
+              "kind": "chunk"
+            },
+            {
+              "text": "la palabra",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "While you look for the right word, say ¿cómo te diría? (how can I put it?): the conditional diría makes you sound like you're thinking aloud. With usted: ¿cómo le diría?",
+            "it": "Mentre cerchi la parola giusta, di' ¿cómo te diría? (come dire?): il condizionale diría fa capire che stai pensando ad alta voce. Con usted: ¿cómo le diría?",
+            "uk": "Поки шукаєш потрібне слово, кажи ¿cómo te diría? (як би це сказати?): «condicional» diría створює враження, що ти думаєш уголос. На ви (usted): ¿cómo le diría?",
+            "de": "Während du nach dem richtigen Wort suchst, sag ¿cómo te diría? (wie soll ich sagen?): Der condicional diría (Konjunktiv II: würde sagen) lässt dich klingen, als würdest du laut nachdenken. Mit usted: ¿cómo le diría?",
+            "fr": "Pendant que tu cherches le bon mot, dis ¿cómo te diría? (comment dire ?) : le conditionnel diría donne l'impression que tu réfléchis à voix haute, un peu comme « comment dirais-je ? » en français. Avec usted : ¿cómo le diría?",
+            "pt": "Enquanto procura a palavra certa, diga ¿cómo te diría? (como eu diria?): o condicional diría faz parecer que você está pensando em voz alta, como o nosso futuro do pretérito. Com usted: ¿cómo le diría?",
+            "zh": "找合适的词的时候，可以说 ¿cómo te diría?（怎么说呢？）：条件式 diría 让你听起来像是在边想边说。对 usted 说：¿cómo le diría?"
+          },
+          "examples": [
+            {
+              "es": "Es… ¿cómo te diría?… un poco difícil.",
+              "en": "It's… how can I put it?… a bit difficult.",
+              "it": "È… come dire?… un po' difficile.",
+              "uk": "Це… як би це сказати?… трохи складно.",
+              "de": "Es ist … wie soll ich sagen? … ein bisschen schwierig.",
+              "fr": "C'est… comment dire ?… un peu difficile.",
+              "pt": "É… como eu diria?… um pouco difícil.",
+              "zh": "这……怎么说呢……有点难。"
+            },
+            {
+              "es": "Fue una experiencia… ¿cómo le diría?… inolvidable.",
+              "en": "It was an experience… how can I put it?… unforgettable.",
+              "it": "È stata un'esperienza… come dire?… indimenticabile.",
+              "uk": "Це був досвід… як би це сказати?… незабутній.",
+              "de": "Es war eine Erfahrung … wie soll ich sagen? … unvergesslich.",
+              "fr": "Ça a été une expérience… comment dire ?… inoubliable.",
+              "pt": "Foi uma experiência… como eu diria?… inesquecível.",
+              "zh": "那是一段……怎么说呢……难忘的经历。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "¿cómo le diría?",
+              "en": "how can I put it? (usted)",
+              "it": "come dire?, come glielo posso dire?",
+              "uk": "як би це сказати? (usted)",
+              "de": "wie soll ich sagen? (usted)",
+              "fr": "comment dire ? (usted)",
+              "pt": "como eu diria? (usted)",
+              "zh": "怎么说呢？（对 usted）"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Es… ¿cómo te ",
+          "after": "?… un poco difícil.",
+          "options": [
+            "diría",
+            "dirías"
+          ],
+          "answer": "diría",
+          "en": "It's… how can I put it?… a bit difficult.",
+          "it": "È… come dire?… un po' difficile.",
+          "uk": "Це… як би це сказати?… трохи складно.",
+          "de": "Es ist … wie soll ich sagen? … ein bisschen schwierig.",
+          "fr": "C'est… comment dire ?… un peu difficile.",
+          "pt": "É… como eu diria?… um pouco difícil.",
+          "zh": "这……怎么说呢……有点难。",
+          "hint": {
+            "en": "You're the one speaking: diría (yo).",
+            "it": "Sei tu che parli: diría (yo).",
+            "uk": "Говориш ти сам(-а): diría (yo).",
+            "de": "Du bist derjenige, der spricht: diría (yo).",
+            "fr": "C'est toi qui parles : diría (yo).",
+            "pt": "Quem está falando é você: diría (yo).",
+            "zh": "说话的是你：diría（yo）。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "A journalist, whom you call usted, asks about your first year in Spain. Look for the word: it was… how can I put it?… unforgettable.",
+            "it": "Un giornalista, a cui dai del Lei, ti chiede del tuo primo anno in Spagna. Cerca la parola: è stato… come dire?… indimenticabile.",
+            "uk": "Журналіст, до якого ти звертаєшся на ви (usted), питає про твій перший рік в Іспанії. Пошукай слово: це було… як би це сказати?… незабутньо.",
+            "de": "Eine Journalistin, die du siezt (usted), fragt nach deinem ersten Jahr in Spanien. Such nach dem Wort: Es war … wie soll ich sagen? … unvergesslich.",
+            "fr": "Un journaliste, que tu vouvoies (usted), te pose des questions sur ta première année en Espagne. Cherche le mot : ça a été… comment dire ?… inoubliable.",
+            "pt": "Um jornalista, que você trata por usted, pergunta sobre o seu primeiro ano na Espanha. Procure a palavra: foi… como eu diria?… inesquecível.",
+            "zh": "一位记者问起你在西班牙的第一年，你称他 usted。边找词边说：那……怎么说呢……让人难忘。"
+          },
+          "accepted": [
+            "Fue… ¿cómo le diría?… inolvidable."
+          ],
+          "tiles": [
+            "Fue…",
+            "¿cómo",
+            "le diría?…",
+            "inolvidable",
+            "te",
+            "dices"
+          ],
+          "en": "It was… how can I put it?… unforgettable.",
+          "it": "È stato… come dire?… indimenticabile.",
+          "uk": "Це було… як би це сказати?… незабутньо.",
+          "de": "Es war … wie soll ich sagen? … unvergesslich.",
+          "fr": "Ça a été… comment dire ?… inoubliable.",
+          "pt": "Foi… como eu diria?… inesquecível.",
+          "zh": "那……怎么说呢……让人难忘。",
+          "hint": {
+            "en": "With usted: ¿cómo le diría?",
+            "it": "Con usted: ¿cómo le diría?",
+            "uk": "На ви (usted): ¿cómo le diría?",
+            "de": "Mit usted: ¿cómo le diría?",
+            "fr": "Avec usted : ¿cómo le diría?",
+            "pt": "Com usted: ¿cómo le diría?",
+            "zh": "对 usted 说：¿cómo le diría?"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "",
+          "after": " una buena pregunta: nunca lo he pensado.",
+          "options": [
+            "Es",
+            "Está",
+            "Hay"
+          ],
+          "answer": "Es",
+          "en": "That's a good question: I've never thought about it.",
+          "it": "Bella domanda: non ci ho mai pensato.",
+          "uk": "Гарне запитання: я ніколи про це не думав(-ла).",
+          "de": "Das ist eine gute Frage: Darüber habe ich nie nachgedacht.",
+          "fr": "C'est une bonne question : je n'y ai jamais pensé.",
+          "pt": "É uma boa pergunta: eu nunca pensei nisso.",
+          "zh": "这是个好问题：我从来没想过。",
+          "hint": {
+            "en": "The fixed phrase: es una buena pregunta.",
+            "it": "L'espressione fissa: es una buena pregunta.",
+            "uk": "Сталий вислів: es una buena pregunta.",
+            "de": "Die feste Wendung: es una buena pregunta.",
+            "fr": "L'expression figée : es una buena pregunta.",
+            "pt": "A expressão fixa: es una buena pregunta.",
+            "zh": "固定说法：es una buena pregunta。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "¿Cómo ",
+          "after": " diría? Es un poco difícil.",
+          "options": [
+            "te",
+            "me"
+          ],
+          "answer": "te",
+          "en": "How can I put it? It's a bit difficult.",
+          "it": "Come dire? È un po' difficile.",
+          "uk": "Як би це сказати? Це трохи складно.",
+          "de": "Wie soll ich sagen? Es ist ein bisschen schwierig.",
+          "fr": "Comment dire ? C'est un peu difficile.",
+          "pt": "Como eu diria? É um pouco difícil.",
+          "zh": "怎么说呢？这有点难。",
+          "hint": {
+            "en": "To a tú listener: ¿cómo te diría?",
+            "it": "A chi dai del tu: ¿cómo te diría?",
+            "uk": "Співрозмовникові на ти (tú): ¿cómo te diría?",
+            "de": "Zu jemandem, den du duzt (tú): ¿cómo te diría?",
+            "fr": "À quelqu'un que tu tutoies : ¿cómo te diría?",
+            "pt": "Para quem você trata por tú: ¿cómo te diría?",
+            "zh": "对用 tú 称呼的人说：¿cómo te diría?"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "mix",
+          "intention": {
+            "en": "A friend asks if you can come on Saturday, and you're not sure. Say: let me think… yes, I can.",
+            "it": "Un amico ti chiede se puoi venire sabato e non sei sicuro. Di': fammi pensare… sì, posso.",
+            "uk": "Друг питає, чи зможеш ти прийти в суботу, а ти не впевнений(-а). Скажи: дай подумати… так, можу.",
+            "de": "Ein Freund fragt, ob du am Samstag kommen kannst, und du bist dir nicht sicher. Sag: Lass mich nachdenken … ja, ich kann.",
+            "fr": "Un ami te demande si tu peux venir samedi, et tu n'es pas sûr. Dis : laisse-moi réfléchir… oui, je peux.",
+            "pt": "Um amigo pergunta se você pode vir no sábado, e você não tem certeza. Diga: deixa eu pensar… sim, eu posso.",
+            "zh": "朋友问你周六能不能来，你不太确定。说：让我想想……可以，我能来。"
+          },
+          "accepted": [
+            "Déjame pensar… sí, puedo.",
+            "Déjame pensar, sí, puedo."
+          ],
+          "tiles": [
+            "Déjame",
+            "pensar…",
+            "sí,",
+            "puedo",
+            "déjeme",
+            "puedes"
+          ],
+          "en": "Let me think… yes, I can.",
+          "it": "Fammi pensare… sì, posso.",
+          "uk": "Дай подумати… так, можу.",
+          "de": "Lass mich nachdenken … ja, ich kann.",
+          "fr": "Laisse-moi réfléchir… oui, je peux.",
+          "pt": "Deixa eu pensar… sim, eu posso.",
+          "zh": "让我想想……可以，我能来。",
+          "hint": {
+            "en": "A friend is tú: déjame.",
+            "it": "Un amico è tu: déjame.",
+            "uk": "Друг — це tú: déjame.",
+            "de": "Einen Freund duzt du (tú): déjame.",
+            "fr": "Un ami, c'est tú : déjame.",
+            "pt": "Um amigo é tú: déjame.",
+            "zh": "朋友之间用 tú：déjame。"
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "A TV presenter, whom you call usted, asks you a tricky question. Write in Spanish: «That's a good question. Let me think…»",
+            "it": "Un presentatore televisivo, a cui dai del Lei, ti fa una domanda difficile. Scrivi in spagnolo: «Bella domanda. Mi lasci pensare…»",
+            "uk": "Телеведучий, до якого ти звертаєшся на ви (usted), ставить тобі каверзне запитання. Напиши іспанською: «Гарне запитання. Дайте подумати…»",
+            "de": "Eine Fernsehmoderatorin, die du siezt (usted), stellt dir eine knifflige Frage. Schreib auf Spanisch: «Das ist eine gute Frage. Lassen Sie mich nachdenken …»",
+            "fr": "Un présentateur de télé, que tu vouvoies (usted), te pose une question piège. Écris en espagnol : «C'est une bonne question. Laissez-moi réfléchir…»",
+            "pt": "Um apresentador de TV, que você trata por usted, te faz uma pergunta difícil. Escreva em espanhol: «É uma boa pergunta. Deixe-me pensar…»",
+            "zh": "一位电视主持人问了你一个刁钻的问题，你称他 usted。用西班牙语写：«这是个好问题。让我想想……»"
+          },
+          "accepted": [
+            "Es una buena pregunta. Déjeme pensar.",
+            "Es una buena pregunta, déjeme pensar.",
+            "Es una muy buena pregunta. Déjeme pensar."
+          ],
+          "model": {
+            "es": "Es una buena pregunta. Déjeme pensar.",
+            "en": "That's a good question. Let me think…",
+            "it": "Bella domanda. Mi lasci pensare…",
+            "uk": "Гарне запитання. Дайте подумати…",
+            "de": "Das ist eine gute Frage. Lassen Sie mich nachdenken …",
+            "fr": "C'est une bonne question. Laissez-moi réfléchir.",
+            "pt": "É uma boa pergunta. Deixe-me pensar.",
+            "zh": "这是个好问题。让我想想……"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u55l5",
+      "goal": {
+        "en": "Tell a short anecdote that keeps people listening: open with ¿a que no sabes qué me pasó? (guess what happened to me!), set the scene with resulta que…, and reach the end with y al final… or total, que…",
+        "it": "Racconta un breve aneddoto che tenga tutti ad ascoltare: apri con ¿a que no sabes qué me pasó? (non indovinerai mai cosa mi è successo!), prepara la scena con resulta que…, e arriva alla fine con y al final… o total, que…",
+        "uk": "Розкажи коротку історію так, щоб тебе слухали: почни з ¿a que no sabes qué me pasó? (уяви, що зі мною сталося!), опиши ситуацію за допомогою resulta que… і дійди до кінця з y al final… або total, que…",
+        "de": "Erzähl eine kurze Anekdote, bei der alle zuhören: Fang an mit ¿a que no sabes qué me pasó? (rate mal, was mir passiert ist!), beschreib die Situation mit resulta que … und komm zum Schluss mit y al final … oder total, que …",
+        "fr": "Raconte une petite anecdote qui tient ton public en haleine : commence par ¿a que no sabes qué me pasó? (devine ce qui m'est arrivé !), plante le décor avec resulta que…, et arrive à la fin avec y al final… ou total, que…",
+        "pt": "Conte uma historinha curta que prenda a atenção de todo mundo: comece com ¿a que no sabes qué me pasó? (você não sabe o que me aconteceu!), monte a cena com resulta que… e chegue ao final com y al final… ou total, que…",
+        "zh": "讲一个让人想听下去的小故事：用 ¿a que no sabes qué me pasó?（你猜我遇到什么事了？）开头，用 resulta que… 交代情况，用 y al final… 或 total, que… 讲到结局。"
+      },
+      "target": {
+        "es": "¿A que no sabes qué me pasó ayer?",
+        "en": "Guess what happened to me yesterday!",
+        "it": "Non indovinerai mai cosa mi è successo ieri!",
+        "uk": "Уяви, що зі мною вчора сталося!",
+        "de": "Rate mal, was mir gestern passiert ist!",
+        "fr": "Devine ce qui m'est arrivé hier !",
+        "pt": "Você não sabe o que me aconteceu ontem!",
+        "zh": "你猜我昨天遇到什么事了？"
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "la anécdota",
+              "en": "the anecdote, the little story",
+              "it": "l'aneddoto",
+              "uk": "анекдот, кумедна історія (з життя)",
+              "de": "die Anekdote, die kleine Geschichte",
+              "fr": "l'anecdote, la petite histoire",
+              "pt": "a anedota, o causo",
+              "zh": "趣事，小故事",
+              "kind": "chunk"
+            },
+            {
+              "es": "¿a que no sabes…?",
+              "en": "guess…!, I bet you don't know…",
+              "it": "non indovinerai mai…!, scommetto che non sai…",
+              "uk": "уяви…!, ні за що не вгадаєш…",
+              "de": "rate mal …!, du errätst nie …",
+              "fr": "devine… !, je parie que tu ne sais pas…",
+              "pt": "você não sabe…!, aposto que você não sabe…",
+              "zh": "你猜……？，你肯定不知道……",
+              "kind": "chunk"
+            },
+            {
+              "es": "resulta que…",
+              "en": "so what happened was…, it turns out that…",
+              "it": "il fatto è che…, è successo che…",
+              "uk": "річ у тім, що…, виявилося, що…",
+              "de": "also, es war so …, es stellt sich heraus, dass …",
+              "fr": "en fait…, il se trouve que…",
+              "pt": "acontece que…, aí que…",
+              "zh": "是这样的……，结果……",
+              "kind": "rail"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "¿a que no sabes",
+              "kind": "chunk"
+            },
+            {
+              "text": "+",
+              "kind": "chunk"
+            },
+            {
+              "text": "qué me pasó?",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "Open an anecdote with ¿a que no sabes qué me pasó? (guess what happened to me!). It isn't a real question: it gets everyone listening. It works with other news too: ¿a que no sabes a quién vi?",
+            "it": "Apri un aneddoto con ¿a que no sabes qué me pasó? (non indovinerai mai cosa mi è successo!). Non è una vera domanda: serve a far ascoltare tutti. Funziona anche con altre notizie: ¿a que no sabes a quién vi?",
+            "uk": "Починай історію з ¿a que no sabes qué me pasó? (уяви, що зі мною сталося!). Це не справжнє запитання: так ти привертаєш увагу всіх. Підходить і для інших новин: ¿a que no sabes a quién vi?",
+            "de": "Beginn eine Anekdote mit ¿a que no sabes qué me pasó? (rate mal, was mir passiert ist!). Das ist keine echte Frage: Sie sorgt dafür, dass alle zuhören. Es funktioniert auch mit anderen Neuigkeiten: ¿a que no sabes a quién vi?",
+            "fr": "Commence une anecdote par ¿a que no sabes qué me pasó? (devine ce qui m'est arrivé !). Ce n'est pas une vraie question : ça attire l'attention de tout le monde. Ça marche aussi pour d'autres nouvelles : ¿a que no sabes a quién vi?",
+            "pt": "Comece uma historinha com ¿a que no sabes qué me pasó? (você não sabe o que me aconteceu!). Não é uma pergunta de verdade: serve para todo mundo prestar atenção. Também funciona com outras novidades: ¿a que no sabes a quién vi?",
+            "zh": "讲故事时用 ¿a que no sabes qué me pasó?（你猜我遇到什么事了？）开头。这不是真的在提问：而是让大家都竖起耳朵听。说别的新鲜事也可以用：¿a que no sabes a quién vi?"
+          },
+          "examples": [
+            {
+              "es": "¿A que no sabes qué me pasó ayer?",
+              "en": "Guess what happened to me yesterday!",
+              "it": "Non indovinerai mai cosa mi è successo ieri!",
+              "uk": "Уяви, що зі мною вчора сталося!",
+              "de": "Rate mal, was mir gestern passiert ist!",
+              "fr": "Devine ce qui m'est arrivé hier !",
+              "pt": "Você não sabe o que me aconteceu ontem!",
+              "zh": "你猜我昨天遇到什么事了？"
+            },
+            {
+              "es": "¿A que no sabes a quién vi en el metro?",
+              "en": "Guess who I saw on the metro!",
+              "it": "Non indovinerai mai chi ho visto in metro!",
+              "uk": "Уяви, кого я бачив(-ла) в метро!",
+              "de": "Rate mal, wen ich in der U-Bahn gesehen habe!",
+              "fr": "Devine qui j'ai vu dans le métro !",
+              "pt": "Você não sabe quem eu vi no metrô!",
+              "zh": "你猜我在地铁上看见谁了？"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "¿A que no ",
+          "after": " qué me pasó ayer?",
+          "options": [
+            "sabes",
+            "sepas",
+            "conoces"
+          ],
+          "answer": "sabes",
+          "en": "Guess what happened to me yesterday!",
+          "it": "Non indovinerai mai cosa mi è successo ieri!",
+          "uk": "Уяви, що зі мною вчора сталося!",
+          "de": "Rate mal, was mir gestern passiert ist!",
+          "fr": "Devine ce qui m'est arrivé hier !",
+          "pt": "Você não sabe o que me aconteceu ontem!",
+          "zh": "你猜我昨天遇到什么事了？",
+          "hint": {
+            "en": "The fixed opening: ¿a que no sabes…?",
+            "it": "L'apertura fissa: ¿a que no sabes…?",
+            "uk": "Сталий початок: ¿a que no sabes…?",
+            "de": "Der feste Einstieg: ¿a que no sabes …?",
+            "fr": "L'ouverture figée : ¿a que no sabes…?",
+            "pt": "A abertura fixa: ¿a que no sabes…?",
+            "zh": "固定的开头：¿a que no sabes…?"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "You've just seen your favourite singer on the metro. Tell a friend: guess who I saw on the metro!",
+            "it": "Hai appena visto il tuo cantante preferito in metro. Dillo a un amico: non indovinerai mai chi ho visto in metro!",
+            "uk": "Ти щойно бачив(-ла) в метро свого улюбленого співака. Розкажи другові: уяви, кого я бачив(-ла) в метро!",
+            "de": "Du hast gerade deinen Lieblingssänger in der U-Bahn gesehen. Erzähl es einer Freundin: Rate mal, wen ich in der U-Bahn gesehen habe!",
+            "fr": "Tu viens de voir ton chanteur préféré dans le métro. Raconte-le à un ami : devine qui j'ai vu dans le métro !",
+            "pt": "Você acabou de ver o seu cantor favorito no metrô. Conte para um amigo: você não sabe quem eu vi no metrô!",
+            "zh": "你刚在地铁上看见了你最喜欢的歌手。告诉朋友：你猜我在地铁上看见谁了？"
+          },
+          "accepted": [
+            "¿A que no sabes a quién vi en el metro?"
+          ],
+          "tiles": [
+            "¿A que",
+            "no sabes",
+            "a quién",
+            "vi",
+            "en el metro?",
+            "sepas",
+            "conoces"
+          ],
+          "en": "Guess who I saw on the metro!",
+          "it": "Non indovinerai mai chi ho visto in metro!",
+          "uk": "Уяви, кого я бачив(-ла) в метро!",
+          "de": "Rate mal, wen ich in der U-Bahn gesehen habe!",
+          "fr": "Devine qui j'ai vu dans le métro !",
+          "pt": "Você não sabe quem eu vi no metrô!",
+          "zh": "你猜我在地铁上看见谁了？",
+          "hint": {
+            "en": "¿a que no sabes + the question?",
+            "it": "¿a que no sabes + la domanda?",
+            "uk": "¿a que no sabes + запитання?",
+            "de": "¿a que no sabes + die Frage?",
+            "fr": "¿a que no sabes + la question ?",
+            "pt": "¿a que no sabes + a pergunta?",
+            "zh": "¿a que no sabes + 问题？"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "resulta que",
+              "kind": "rail"
+            },
+            {
+              "text": "+",
+              "kind": "chunk"
+            },
+            {
+              "text": "estaba… y vi…",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "Resulta que… (so what happened was…) sets up the situation. The background goes in the imperfect (estaba), the events in the past for finished actions (vi).",
+            "it": "Resulta que… (il fatto è che…) prepara la situazione. Lo sfondo va all'imperfetto (estaba), i fatti al passato per le azioni concluse (vi).",
+            "uk": "Resulta que… (річ у тім, що…) описує ситуацію. Тло розповіді — в «imperfecto» (estaba), події — в минулому часі для завершених дій (vi).",
+            "de": "Resulta que … (also, es war so …) beschreibt die Ausgangssituation. Der Hintergrund steht im Imperfekt (estaba), die Ereignisse in der Vergangenheitsform für abgeschlossene Handlungen (vi).",
+            "fr": "Resulta que… (en fait…, figure-toi que…) plante la situation. Le décor va à l'imparfait (estaba), comme en français, et les événements au passé des actions terminées (vi).",
+            "pt": "Resulta que… (acontece que…) monta a situação. O pano de fundo vai no pretérito imperfeito (estaba), e os fatos no passado das ações concluídas (vi).",
+            "zh": "Resulta que…（是这样的……）用来交代情况。背景用过去未完成时（estaba），发生的事件用表示已完成动作的过去时（vi）。"
+          },
+          "examples": [
+            {
+              "es": "Resulta que estaba en el metro y vi a mi jefe.",
+              "en": "So I was on the metro, and I saw my boss.",
+              "it": "Il fatto è che ero in metro e ho visto il mio capo.",
+              "uk": "Значить, їду я в метро і бачу свого начальника.",
+              "de": "Also, ich war in der U-Bahn und habe meinen Chef gesehen.",
+              "fr": "En fait, j'étais dans le métro et j'ai vu mon chef.",
+              "pt": "Acontece que eu estava no metrô e vi o meu chefe.",
+              "zh": "是这样的，我当时在地铁上，看见了我的老板。"
+            },
+            {
+              "es": "Resulta que el restaurante estaba cerrado.",
+              "en": "It turned out the restaurant was closed.",
+              "it": "È venuto fuori che il ristorante era chiuso.",
+              "uk": "Виявилося, що ресторан був зачинений.",
+              "de": "Es stellte sich heraus, dass das Restaurant geschlossen war.",
+              "fr": "En fait, le restaurant était fermé.",
+              "pt": "Aí que o restaurante estava fechado.",
+              "zh": "结果餐厅关门了。"
+            },
+            {
+              "es": "Resulta que perdí las llaves.",
+              "en": "So what happened was, I lost my keys.",
+              "it": "Il fatto è che ho perso le chiavi.",
+              "uk": "Річ у тім, що я загубив(-ла) ключі.",
+              "de": "Also, es war so: Ich habe meine Schlüssel verloren.",
+              "fr": "Figure-toi que j'ai perdu mes clés.",
+              "pt": "Acontece que eu perdi as chaves.",
+              "zh": "是这样的，我把钥匙弄丢了。"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Resulta que ",
+          "after": " en el metro y vi a mi jefe.",
+          "options": [
+            "estaba",
+            "estuve"
+          ],
+          "answer": "estaba",
+          "en": "So I was on the metro, and I saw my boss.",
+          "it": "Il fatto è che ero in metro e ho visto il mio capo.",
+          "uk": "Значить, їду я в метро і бачу свого начальника.",
+          "de": "Also, ich war in der U-Bahn und habe meinen Chef gesehen.",
+          "fr": "En fait, j'étais dans le métro et j'ai vu mon chef.",
+          "pt": "Acontece que eu estava no metrô e vi o meu chefe.",
+          "zh": "是这样的，我当时在地铁上，看见了我的老板。",
+          "hint": {
+            "en": "The background of the story: the imperfect, estaba.",
+            "it": "Lo sfondo della storia: l'imperfetto, estaba.",
+            "uk": "Тло історії: «imperfecto», estaba.",
+            "de": "Der Hintergrund der Geschichte: das Imperfekt, estaba.",
+            "fr": "Le décor de l'histoire : l'imparfait, estaba.",
+            "pt": "O pano de fundo da história: o pretérito imperfeito, estaba.",
+            "zh": "故事的背景：过去未完成时，estaba。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "fire",
+          "before": "",
+          "after": " que el restaurante estaba cerrado.",
+          "label": "resultar",
+          "accepted": [
+            "Resulta",
+            "Resultó"
+          ],
+          "en": "It turned out the restaurant was closed.",
+          "it": "È venuto fuori che il ristorante era chiuso.",
+          "uk": "Виявилося, що ресторан був зачинений.",
+          "de": "Es stellte sich heraus, dass das Restaurant geschlossen war.",
+          "fr": "En fait, le restaurant était fermé.",
+          "pt": "Aí que o restaurante estava fechado.",
+          "zh": "结果餐厅关门了。",
+          "hint": {
+            "en": "To set up the story: resulta que.",
+            "it": "Per preparare la storia: resulta que.",
+            "uk": "Щоб описати ситуацію: resulta que.",
+            "de": "Um die Geschichte einzuleiten: resulta que.",
+            "fr": "Pour planter l'histoire : resulta que.",
+            "pt": "Para montar a história: resulta que.",
+            "zh": "交代故事的情况：resulta que。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "y al final",
+              "kind": "rail"
+            },
+            {
+              "text": "/",
+              "kind": "chunk"
+            },
+            {
+              "text": "total, que",
+              "kind": "rail"
+            }
+          ],
+          "rule": {
+            "en": "To finish, tell the last thing that happened with y al final… (and in the end…), or skip the details and jump to the result with total, que…, which you know.",
+            "it": "Per chiudere, racconta l'ultima cosa successa con y al final… (e alla fine…), oppure salta i dettagli e vai dritto al risultato con total, que…, che conosci già.",
+            "uk": "Щоб завершити, розкажи останню подію за допомогою y al final… (і зрештою…) або пропусти подробиці й одразу переходь до результату з уже знайомим тобі total, que…",
+            "de": "Zum Schluss erzählst du mit y al final … (und am Ende …), was zuletzt passiert ist, oder du überspringst die Einzelheiten und springst mit total, que …, das du schon kennst, direkt zum Ergebnis.",
+            "fr": "Pour finir, raconte la dernière chose qui s'est passée avec y al final… (et finalement…), ou saute les détails pour aller droit au résultat avec total, que…, que tu connais.",
+            "pt": "Para terminar, conte a última coisa que aconteceu com y al final… (e no final…) ou pule os detalhes e vá direto ao resultado com total, que…, que você já conhece.",
+            "zh": "结尾时，用 y al final…（最后……）说出最后发生的事；或者用你已经学过的 total, que… 跳过细节，直接说结果。"
+          },
+          "examples": [
+            {
+              "es": "Esperamos una hora y al final no vino nadie.",
+              "en": "We waited an hour, and in the end nobody came.",
+              "it": "Abbiamo aspettato un'ora e alla fine non è venuto nessuno.",
+              "uk": "Ми чекали годину, і зрештою ніхто не прийшов.",
+              "de": "Wir haben eine Stunde gewartet, und am Ende ist niemand gekommen.",
+              "fr": "On a attendu une heure, et finalement personne n'est venu.",
+              "pt": "Esperamos uma hora e no final não veio ninguém.",
+              "zh": "我们等了一个小时，最后谁也没来。"
+            },
+            {
+              "es": "Y al final el tren salió con dos horas de retraso.",
+              "en": "And in the end the train left two hours late.",
+              "it": "E alla fine il treno è partito con due ore di ritardo.",
+              "uk": "І зрештою потяг вирушив із двогодинним запізненням.",
+              "de": "Und am Ende ist der Zug mit zwei Stunden Verspätung abgefahren.",
+              "fr": "Et finalement, le train est parti avec deux heures de retard.",
+              "pt": "E no final o trem saiu com duas horas de atraso.",
+              "zh": "最后火车晚了两个小时才开。"
+            },
+            {
+              "es": "Total, que dormí en casa de mi hermana.",
+              "en": "So, in the end, I slept at my sister's.",
+              "it": "Insomma, ho dormito da mia sorella.",
+              "uk": "Коротше, я переночував(-ла) у сестри.",
+              "de": "Kurz und gut, ich habe bei meiner Schwester geschlafen.",
+              "fr": "Bref, j'ai dormi chez ma sœur.",
+              "pt": "Resumindo, eu dormi na casa da minha irmã.",
+              "zh": "反正最后，我在我姐姐家睡的。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "dormí",
+              "en": "I slept (past for finished actions)",
+              "it": "ho dormito (passato per le azioni concluse)",
+              "uk": "я спав(-ла), ночував(-ла) (минулий час для завершених дій)",
+              "de": "ich habe geschlafen (Vergangenheitsform für abgeschlossene Handlungen)",
+              "fr": "j'ai dormi (passé des actions terminées)",
+              "pt": "eu dormi (passado das ações concluídas)",
+              "zh": "我睡了（表示已完成动作的过去时）"
+            }
+          ]
+        },
+        {
+          "type": "gap",
+          "beat": "forge",
+          "before": "Esperamos una hora y al ",
+          "after": " no vino nadie.",
+          "label": "in the end (al …)",
+          "accepted": [
+            "final"
+          ],
+          "en": "We waited an hour, and in the end nobody came.",
+          "it": "Abbiamo aspettato un'ora e alla fine non è venuto nessuno.",
+          "uk": "Ми чекали годину, і зрештою ніхто не прийшов.",
+          "de": "Wir haben eine Stunde gewartet, und am Ende ist niemand gekommen.",
+          "fr": "On a attendu une heure, et finalement personne n'est venu.",
+          "pt": "Esperamos uma hora e no final não veio ninguém.",
+          "zh": "我们等了一个小时，最后谁也没来。",
+          "hint": {
+            "en": "The last event: y al final.",
+            "it": "L'ultimo fatto: y al final.",
+            "uk": "Остання подія: y al final.",
+            "de": "Das letzte Ereignis: y al final.",
+            "fr": "Le dernier événement : y al final.",
+            "pt": "O último acontecimento: y al final.",
+            "zh": "最后发生的事：y al final。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "Finish your story about the late train: and in the end, I got home at midnight.",
+            "it": "Concludi la tua storia sul treno in ritardo: e alla fine sono arrivato a casa a mezzanotte.",
+            "uk": "Заверши свою історію про потяг, що запізнився: і зрештою я дістався(-лася) додому опівночі.",
+            "de": "Beende deine Geschichte über den verspäteten Zug: Und am Ende bin ich um Mitternacht nach Hause gekommen.",
+            "fr": "Termine ton histoire du train en retard : et finalement, je suis arrivé chez moi à minuit.",
+            "pt": "Termine a sua história do trem atrasado: e no final eu cheguei em casa à meia-noite.",
+            "zh": "把你那个火车晚点的故事讲完：最后，我半夜才到家。"
+          },
+          "accepted": [
+            "Y al final llegué a casa a medianoche.",
+            "Y al final, llegué a casa a medianoche."
+          ],
+          "tiles": [
+            "Y al final",
+            "llegué",
+            "a casa",
+            "a medianoche",
+            "llego",
+            "fin"
+          ],
+          "en": "And in the end, I got home at midnight.",
+          "it": "E alla fine sono arrivato a casa a mezzanotte.",
+          "uk": "І зрештою я дістався(-лася) додому опівночі.",
+          "de": "Und am Ende bin ich um Mitternacht nach Hause gekommen.",
+          "fr": "Et finalement, je suis arrivé chez moi à minuit.",
+          "pt": "E no final eu cheguei em casa à meia-noite.",
+          "zh": "最后，我半夜才到家。",
+          "hint": {
+            "en": "y al final + the past for finished actions: llegué.",
+            "it": "y al final + il passato per le azioni concluse: llegué.",
+            "uk": "y al final + минулий час для завершених дій: llegué.",
+            "de": "y al final + Vergangenheitsform für abgeschlossene Handlungen: llegué.",
+            "fr": "y al final + le passé des actions terminées : llegué.",
+            "pt": "y al final + o passado das ações concluídas: llegué.",
+            "zh": "y al final + 表示已完成动作的过去时：llegué。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "¿A que no sabes qué me ",
+          "after": " ayer?",
+          "options": [
+            "pasó",
+            "pasa",
+            "pase"
+          ],
+          "answer": "pasó",
+          "en": "Guess what happened to me yesterday!",
+          "it": "Non indovinerai mai cosa mi è successo ieri!",
+          "uk": "Уяви, що зі мною вчора сталося!",
+          "de": "Rate mal, was mir gestern passiert ist!",
+          "fr": "Devine ce qui m'est arrivé hier !",
+          "pt": "Você não sabe o que me aconteceu ontem!",
+          "zh": "你猜我昨天遇到什么事了？",
+          "hint": {
+            "en": "One event, finished: pasó.",
+            "it": "Un fatto concluso: pasó.",
+            "uk": "Одна подія, завершена: pasó.",
+            "de": "Ein einzelnes, abgeschlossenes Ereignis: pasó.",
+            "fr": "Un seul événement, terminé : pasó.",
+            "pt": "Um acontecimento, concluído: pasó.",
+            "zh": "一件已经结束的事：pasó。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "Resulta que no ",
+          "after": " entradas, así que nos fuimos a casa.",
+          "options": [
+            "había",
+            "hay"
+          ],
+          "answer": "había",
+          "en": "It turned out there were no tickets left, so we went home.",
+          "it": "Il fatto è che non c'erano più biglietti, quindi siamo tornati a casa.",
+          "uk": "Виявилося, що квитків уже не було, тож ми пішли додому.",
+          "de": "Es stellte sich heraus, dass es keine Karten mehr gab, also sind wir nach Hause gegangen.",
+          "fr": "En fait, il n'y avait plus de places, alors on est rentrés à la maison.",
+          "pt": "Aí que não tinha mais ingresso, então a gente foi para casa.",
+          "zh": "结果票已经卖完了，所以我们就回家了。",
+          "hint": {
+            "en": "The background, in the past: the imperfect, había.",
+            "it": "Lo sfondo, al passato: l'imperfetto, había.",
+            "uk": "Тло в минулому: «imperfecto», había.",
+            "de": "Der Hintergrund in der Vergangenheit: das Imperfekt, había.",
+            "fr": "Le décor, au passé : l'imparfait, había.",
+            "pt": "O pano de fundo, no passado: o pretérito imperfeito, había.",
+            "zh": "过去的背景：过去未完成时，había。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "mix",
+          "before": "Perdí el tren y no había autobuses. ",
+          "after": ", que llegué tarde a la reunión.",
+          "label": "so, in the end",
+          "accepted": [
+            "Total",
+            "Total,"
+          ],
+          "en": "I missed the train and there were no buses. So, in the end, I was late for the meeting.",
+          "it": "Ho perso il treno e non c'erano autobus. Insomma, sono arrivato tardi alla riunione.",
+          "uk": "Я спізнився(-лася) на потяг, а автобусів не було. Коротше, я запізнився(-лася) на нараду.",
+          "de": "Ich habe den Zug verpasst, und es fuhren keine Busse. Kurz und gut, am Ende bin ich zu spät zum Meeting gekommen.",
+          "fr": "J'ai raté le train et il n'y avait pas de bus. Bref, je suis arrivé en retard à la réunion.",
+          "pt": "Eu perdi o trem e não tinha ônibus. Resumindo, eu cheguei atrasado na reunião.",
+          "zh": "我没赶上火车，也没有公交车。反正最后，我开会迟到了。",
+          "hint": {
+            "en": "Skipping to the result: total, que.",
+            "it": "Per saltare al risultato: total, que.",
+            "uk": "Щоб одразу перейти до результату: total, que.",
+            "de": "Direkt zum Ergebnis springen: total, que.",
+            "fr": "Pour sauter au résultat : total, que.",
+            "pt": "Para ir direto ao resultado: total, que.",
+            "zh": "跳过细节直接说结果：total, que。"
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "A friend asks how your weekend was. Write in Spanish: «Guess what happened to me! It turns out I lost my keys, and in the end I slept at my sister's.»",
+            "it": "Un amico ti chiede com'è andato il fine settimana. Scrivi in spagnolo: «Non indovinerai mai cosa mi è successo! Il fatto è che ho perso le chiavi, e alla fine ho dormito da mia sorella.»",
+            "uk": "Друг питає, як минули твої вихідні. Напиши іспанською: «Уяви, що зі мною сталося! Виявилося, що я загубив(-ла) ключі, і зрештою я переночував(-ла) у сестри.»",
+            "de": "Eine Freundin fragt, wie dein Wochenende war. Schreib auf Spanisch: «Rate mal, was mir passiert ist! Ich habe meine Schlüssel verloren, und am Ende habe ich bei meiner Schwester geschlafen.»",
+            "fr": "Un ami te demande comment s'est passé ton week-end. Écris en espagnol : «Devine ce qui m'est arrivé ! En fait, j'ai perdu mes clés, et finalement j'ai dormi chez ma sœur.»",
+            "pt": "Um amigo pergunta como foi o seu fim de semana. Escreva em espanhol: «Você não sabe o que me aconteceu! Acontece que eu perdi as chaves e no final dormi na casa da minha irmã.»",
+            "zh": "朋友问你周末过得怎么样。用西班牙语写：«你猜我遇到什么事了？是这样的，我把钥匙弄丢了，最后在我姐姐家睡的。»"
+          },
+          "accepted": [
+            "¿A que no sabes qué me pasó? Resulta que perdí las llaves y al final dormí en casa de mi hermana.",
+            "¿A que no sabes qué me pasó? Resulta que perdí las llaves, y al final dormí en casa de mi hermana."
+          ],
+          "model": {
+            "es": "¿A que no sabes qué me pasó? Resulta que perdí las llaves y al final dormí en casa de mi hermana.",
+            "en": "Guess what happened to me! It turns out I lost my keys, and in the end I slept at my sister's.",
+            "it": "Non indovinerai mai cosa mi è successo! Il fatto è che ho perso le chiavi, e alla fine ho dormito da mia sorella.",
+            "uk": "Уяви, що зі мною сталося! Виявилося, що я загубив(-ла) ключі, і зрештою я переночував(-ла) у сестри.",
+            "de": "Rate mal, was mir passiert ist! Ich habe meine Schlüssel verloren, und am Ende habe ich bei meiner Schwester geschlafen.",
+            "fr": "Devine ce qui m'est arrivé ! En fait, j'ai perdu mes clés, et finalement j'ai dormi chez ma sœur.",
+            "pt": "Você não sabe o que me aconteceu! Acontece que eu perdi as chaves e no final dormi na casa da minha irmã.",
+            "zh": "你猜我遇到什么事了？是这样的，我把钥匙弄丢了，最后在我姐姐家睡的。"
+          }
+        }
+      ]
+    }
+  ],
+  "boss": {
+    "id": "u55boss",
+    "goal": {
+      "en": "You're the guest on a live morning programme on a local radio station in {city}. The host, who calls you tú, wants to know about your life in Spain, and listeners can phone in. Answer on the spot: buy time, cut in politely, put things right and tell a good anecdote.",
+      "it": "Sei ospite di un programma mattutino in diretta su una radio locale di {city}. La conduttrice, che ti dà del tu, vuole sapere della tua vita in Spagna, e gli ascoltatori possono telefonare. Rispondi su due piedi: prendi tempo, interrompi con garbo, chiarisci e racconta un bel aneddoto.",
+      "uk": "Ти — гість ранкової програми в прямому ефірі на місцевій радіостанції у місті {city}. Ведуча, яка звертається до тебе на ти, хоче дізнатися про твоє життя в Іспанії, а слухачі можуть телефонувати в студію. Відповідай одразу: вигравай час, ввічливо перебивай, виправляй непорозуміння і розкажи гарну історію.",
+      "de": "Du bist Gast in einer Live-Morgensendung bei einem Lokalradio in {city}. Die Moderatorin duzt dich (tú) und möchte etwas über dein Leben in Spanien erfahren, und Hörer können anrufen. Antworte spontan: Gewinn Zeit, unterbrich höflich, stell Dinge richtig und erzähl eine gute Anekdote.",
+      "fr": "Tu es l'invité d'une matinale en direct sur une radio locale de {city}. L'animatrice, qui te tutoie, veut connaître ta vie en Espagne, et les auditeurs peuvent appeler. Réponds du tac au tac : gagne du temps, interromps poliment, rectifie et raconte une bonne anecdote.",
+      "pt": "Você é o convidado de um programa matinal ao vivo numa rádio local de {city}. A apresentadora, que te trata por tú, quer saber da sua vida na Espanha, e os ouvintes podem ligar. Responda na hora: ganhe tempo, interrompa com educação, esclareça o que você quis dizer e conte uma boa historinha.",
+      "zh": "你是{city}一家地方电台早间直播节目的嘉宾。主持人用 tú 称呼你，想了解你在西班牙的生活，听众也可以打电话进来。当场回答：争取时间，礼貌地插话，纠正误会，再讲一个精彩的小故事。"
+    },
+    "names": [
+      "Madrid"
+    ],
+    "items": [
+      {
+        "type": "words",
+        "words": [
+          {
+            "es": "la emisora",
+            "en": "the radio station",
+            "it": "l'emittente, la radio",
+            "uk": "радіостанція",
+            "de": "der Radiosender",
+            "fr": "la station de radio",
+            "pt": "a emissora de rádio",
+            "zh": "电台",
+            "kind": "chunk"
+          },
+          {
+            "es": "el / la oyente",
+            "en": "the listener",
+            "it": "l'ascoltatore / l'ascoltatrice",
+            "uk": "слухач / слухачка",
+            "de": "der Hörer / die Hörerin",
+            "fr": "l'auditeur / l'auditrice",
+            "pt": "o / a ouvinte",
+            "zh": "听众",
+            "kind": "chunk"
+          }
+        ]
+      },
+      {
+        "type": "build",
+        "intention": {
+          "en": "The host welcomes you on air. Answer: good morning, and thank you for the invitation.",
+          "it": "La conduttrice ti dà il benvenuto in onda. Rispondi: buongiorno, e grazie per l'invito.",
+          "uk": "Ведуча вітає тебе в ефірі. Відповідай: доброго ранку, і дякую за запрошення.",
+          "de": "Die Moderatorin begrüßt dich auf Sendung. Antworte: Guten Morgen, und danke für die Einladung.",
+          "fr": "L'animatrice t'accueille à l'antenne. Réponds : bonjour, et merci pour l'invitation.",
+          "pt": "A apresentadora te dá as boas-vindas no ar. Responda: bom dia, e obrigado pelo convite.",
+          "zh": "主持人在节目中欢迎你。回答：早上好，谢谢你们的邀请。"
+        },
+        "accepted": [
+          "Buenos días y gracias por la invitación.",
+          "Buenos días, y gracias por la invitación."
+        ],
+        "tiles": [
+          "Buenos días",
+          "y gracias",
+          "por la invitación",
+          "para",
+          "buenas"
+        ],
+        "en": "Good morning, and thank you for the invitation.",
+        "it": "Buongiorno, e grazie per l'invito.",
+        "uk": "Доброго ранку, і дякую за запрошення.",
+        "de": "Guten Morgen, und danke für die Einladung.",
+        "fr": "Bonjour, et merci pour l'invitation.",
+        "pt": "Bom dia, e obrigado pelo convite.",
+        "zh": "早上好，谢谢你们的邀请。",
+        "hint": {
+          "en": "gracias por + a noun.",
+          "it": "gracias por + un nome.",
+          "uk": "gracias por + іменник.",
+          "de": "gracias por + Nomen.",
+          "fr": "gracias por + un nom.",
+          "pt": "gracias por + um substantivo.",
+          "zh": "gracias por + 名词。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "Pues ",
+        "after": ", es una historia un poco larga.",
+        "options": [
+          "mira",
+          "ver",
+          "sea"
+        ],
+        "answer": "mira",
+        "en": "Well, look, it's a bit of a long story.",
+        "it": "Guarda, è una storia un po' lunga.",
+        "uk": "Ну дивись, це трохи довга історія.",
+        "de": "Also, schau mal, das ist eine etwas längere Geschichte.",
+        "fr": "Bon, écoute, c'est une histoire un peu longue.",
+        "pt": "Olha, é uma história um pouco longa.",
+        "zh": "你看，这事说来话长。",
+        "hint": {
+          "en": "To launch your answer: pues mira.",
+          "it": "Per lanciare la tua risposta: pues mira.",
+          "uk": "Щоб розпочати відповідь: pues mira.",
+          "de": "Um mit deiner Antwort loszulegen: pues mira.",
+          "fr": "Pour lancer ta réponse : pues mira.",
+          "pt": "Para engatar a sua resposta: pues mira.",
+          "zh": "开始回答：pues mira。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "Resulta que ",
+        "after": " en un hotel en mi país y un día me llamaron de Madrid.",
+        "options": [
+          "trabajaba",
+          "trabajé"
+        ],
+        "answer": "trabajaba",
+        "en": "So I was working in a hotel in my country, and one day they called me from Madrid.",
+        "it": "Il fatto è che lavoravo in un albergo nel mio paese e un giorno mi hanno chiamato da Madrid.",
+        "uk": "Значить, я працював(-ла) у готелі в себе на батьківщині, і одного дня мені зателефонували з Мадрида.",
+        "de": "Also, es war so: Ich habe in meinem Land in einem Hotel gearbeitet, und eines Tages haben sie mich aus Madrid angerufen.",
+        "fr": "En fait, je travaillais dans un hôtel dans mon pays, et un jour on m'a appelé de Madrid.",
+        "pt": "Acontece que eu trabalhava num hotel no meu país, e um dia me ligaram de Madri.",
+        "zh": "是这样的，我当时在我们国家的一家酒店工作，有一天马德里那边给我打来了电话。",
+        "hint": {
+          "en": "The background: the imperfect, trabajaba.",
+          "it": "Lo sfondo: l'imperfetto, trabajaba.",
+          "uk": "Тло: «imperfecto», trabajaba.",
+          "de": "Der Hintergrund: das Imperfekt, trabajaba.",
+          "fr": "Le décor : l'imparfait, trabajaba.",
+          "pt": "O pano de fundo: o pretérito imperfeito, trabajaba.",
+          "zh": "背景：过去未完成时，trabajaba。"
+        }
+      },
+      {
+        "type": "gap",
+        "before": "¿Mi español? ",
+        "after": " que me defiendo.",
+        "label": "decir (let's say)",
+        "accepted": [
+          "Digamos"
+        ],
+        "en": "My Spanish? Let's say I get by.",
+        "it": "Il mio spagnolo? Diciamo che me la cavo.",
+        "uk": "Моя іспанська? Скажімо так: якось даю собі раду.",
+        "de": "Mein Spanisch? Sagen wir mal, ich komme zurecht.",
+        "fr": "Mon espagnol ? Disons que je me débrouille.",
+        "pt": "O meu espanhol? Digamos que eu me viro.",
+        "zh": "我的西班牙语？可以说还过得去吧。",
+        "hint": {
+          "en": "A modest, rough answer: digamos que.",
+          "it": "Una risposta modesta e approssimativa: digamos que.",
+          "uk": "Скромна, приблизна відповідь: digamos que.",
+          "de": "Eine bescheidene, ungefähre Antwort: digamos que.",
+          "fr": "Une réponse modeste et approximative : digamos que.",
+          "pt": "Uma resposta modesta e aproximada: digamos que.",
+          "zh": "谦虚、大概的回答：digamos que。"
+        }
+      },
+      {
+        "type": "build",
+        "intention": {
+          "en": "The host asks what you miss most about your country. You weren't expecting it. Buy time: that's a good question. Let me think…",
+          "it": "La conduttrice ti chiede cosa ti manca di più del tuo paese. Non te l'aspettavi. Prendi tempo: bella domanda. Fammi pensare…",
+          "uk": "Ведуча питає, за чим ти найбільше сумуєш зі своєї країни. Ти цього не чекав(-ла). Вигравай час: гарне запитання. Дай подумати…",
+          "de": "Die Moderatorin fragt, was du an deinem Land am meisten vermisst. Damit hast du nicht gerechnet. Gewinn Zeit: Das ist eine gute Frage. Lass mich nachdenken …",
+          "fr": "L'animatrice te demande ce qui te manque le plus de ton pays. Tu ne t'y attendais pas. Gagne du temps : c'est une bonne question. Laisse-moi réfléchir…",
+          "pt": "A apresentadora pergunta do que você mais sente falta do seu país. Você não esperava por essa. Ganhe tempo: é uma boa pergunta. Deixa eu pensar…",
+          "zh": "主持人问你最想念你们国家的什么。你没想到会被问这个。争取点时间：这是个好问题。让我想想……"
+        },
+        "accepted": [
+          "Es una buena pregunta. Déjame pensar…",
+          "Es una buena pregunta. Déjame pensar."
+        ],
+        "tiles": [
+          "Es una",
+          "buena pregunta.",
+          "Déjame",
+          "pensar…",
+          "déjeme",
+          "respuesta"
+        ],
+        "en": "That's a good question. Let me think…",
+        "it": "Bella domanda. Fammi pensare…",
+        "uk": "Гарне запитання. Дай подумати…",
+        "de": "Das ist eine gute Frage. Lass mich nachdenken …",
+        "fr": "C'est une bonne question. Laisse-moi réfléchir…",
+        "pt": "É uma boa pergunta. Deixa eu pensar…",
+        "zh": "这是个好问题。让我想想……",
+        "hint": {
+          "en": "She calls you tú, so déjame.",
+          "it": "Ti dà del tu, quindi déjame.",
+          "uk": "Вона звертається до тебе на ти, тож déjame.",
+          "de": "Sie duzt dich (tú), also déjame.",
+          "fr": "Elle te tutoie, donc déjame.",
+          "pt": "Ela te trata por tú, então déjame.",
+          "zh": "她用 tú 称呼你，所以用 déjame。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "Echo de menos… ¿cómo te ",
+        "after": "?… el mar.",
+        "options": [
+          "diría",
+          "dirías"
+        ],
+        "answer": "diría",
+        "en": "I miss… how can I put it?… the sea.",
+        "it": "Mi manca… come dire?… il mare.",
+        "uk": "Я сумую за… як би це сказати?… морем.",
+        "de": "Ich vermisse … wie soll ich sagen? … das Meer.",
+        "fr": "Ce qui me manque… comment dire ?… c'est la mer.",
+        "pt": "Eu sinto falta… como eu diria?… do mar.",
+        "zh": "我想念……怎么说呢……大海。",
+        "hint": {
+          "en": "You're looking for the word: ¿cómo te diría?",
+          "it": "Stai cercando la parola: ¿cómo te diría?",
+          "uk": "Ти шукаєш слово: ¿cómo te diría?",
+          "de": "Du suchst nach dem Wort: ¿cómo te diría?",
+          "fr": "Tu cherches le mot : ¿cómo te diría?",
+          "pt": "Você está procurando a palavra: ¿cómo te diría?",
+          "zh": "你在找词：¿cómo te diría?"
+        }
+      },
+      {
+        "type": "build",
+        "intention": {
+          "en": "The host says «O sea, que no te gusta España». That's not what you meant. Put it right: I didn't put that well. What I mean is that I love Spain.",
+          "it": "La conduttrice dice «O sea, que no te gusta España». Non intendevi questo. Chiarisci: non mi sono spiegato bene. Quello che voglio dire è che la Spagna mi piace tantissimo.",
+          "uk": "Ведуча каже: «O sea, que no te gusta España». Ти мав(-ла) на увазі зовсім не це. Виправ непорозуміння: я невдало висловився(-лася). Я хочу сказати, що мені дуже подобається Іспанія.",
+          "de": "Die Moderatorin sagt «O sea, que no te gusta España». So hast du das nicht gemeint. Stell es richtig: Ich habe mich nicht gut ausgedrückt. Was ich meine, ist, dass ich Spanien liebe.",
+          "fr": "L'animatrice dit « O sea, que no te gusta España ». Ce n'est pas ce que tu voulais dire. Rectifie : je me suis mal exprimé. Ce que je veux dire, c'est que j'adore l'Espagne.",
+          "pt": "A apresentadora diz «O sea, que no te gusta España». Não foi isso que você quis dizer. Esclareça: eu não me expliquei bem. O que eu quero dizer é que eu adoro a Espanha.",
+          "zh": "主持人说：«O sea, que no te gusta España»。你不是这个意思。纠正一下：我没说清楚。我的意思是，我特别喜欢西班牙。"
+        },
+        "accepted": [
+          "No me he explicado bien. Lo que quiero decir es que me encanta España.",
+          "No me he explicado bien: lo que quiero decir es que me encanta España."
+        ],
+        "tiles": [
+          "No me he",
+          "explicado bien.",
+          "Lo que",
+          "quiero decir",
+          "es que",
+          "me encanta España",
+          "explicar",
+          "quieres"
+        ],
+        "en": "I didn't put that well. What I mean is that I love Spain.",
+        "it": "Non mi sono spiegato bene. Quello che voglio dire è che la Spagna mi piace tantissimo.",
+        "uk": "Я невдало висловився(-лася). Я хочу сказати, що мені дуже подобається Іспанія.",
+        "de": "Ich habe mich nicht gut ausgedrückt. Was ich meine, ist, dass ich Spanien liebe.",
+        "fr": "Je me suis mal exprimé. Ce que je veux dire, c'est que j'adore l'Espagne.",
+        "pt": "Eu não me expliquei bem. O que eu quero dizer é que eu adoro a Espanha.",
+        "zh": "我没说清楚。我的意思是，我特别喜欢西班牙。",
+        "hint": {
+          "en": "Take the blame kindly, then say it again.",
+          "it": "Prenditi la colpa con gentilezza, poi ridillo.",
+          "uk": "По-доброму візьми провину на себе, а потім скажи ще раз.",
+          "de": "Nimm die Schuld freundlich auf dich und sag es dann noch einmal.",
+          "fr": "Prends gentiment la faute sur toi, puis redis-le.",
+          "pt": "Assuma a culpa com gentileza e depois diga de novo.",
+          "zh": "客气地把责任揽到自己身上，然后再说一遍。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "Perdona que te ",
+        "after": ", pero eso no es así.",
+        "options": [
+          "interrumpa",
+          "interrumpo"
+        ],
+        "answer": "interrumpa",
+        "en": "Sorry to interrupt, but that's not how it is.",
+        "it": "Scusa se ti interrompo, ma non è così.",
+        "uk": "Вибач, що перебиваю, але це не так.",
+        "de": "Entschuldige, dass ich dich unterbreche, aber so ist es nicht.",
+        "fr": "Pardon de t'interrompre, mais ce n'est pas comme ça.",
+        "pt": "Desculpa interromper, mas não é bem assim.",
+        "zh": "不好意思打断一下，但不是这样的。",
+        "hint": {
+          "en": "perdona que + the subjunctive: interrumpa.",
+          "it": "perdona que + congiuntivo: interrumpa.",
+          "uk": "perdona que + «subjuntivo»: interrumpa.",
+          "de": "perdona que + subjuntivo: interrumpa.",
+          "fr": "perdona que + le subjonctif : interrumpa.",
+          "pt": "perdona que + subjuntivo: interrumpa.",
+          "zh": "perdona que + 虚拟式：interrumpa。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "¿A que no ",
+        "after": " qué me pasó el primer día?",
+        "options": [
+          "sabes",
+          "sepas"
+        ],
+        "answer": "sabes",
+        "en": "Guess what happened to me on my first day!",
+        "it": "Non indovinerai mai cosa mi è successo il primo giorno!",
+        "uk": "Уяви, що зі мною сталося в перший день!",
+        "de": "Rate mal, was mir an meinem ersten Tag passiert ist!",
+        "fr": "Devine ce qui m'est arrivé le premier jour !",
+        "pt": "Você não sabe o que me aconteceu no meu primeiro dia!",
+        "zh": "你猜我第一天遇到什么事了？",
+        "hint": {
+          "en": "The fixed opening: ¿a que no sabes…?",
+          "it": "L'apertura fissa: ¿a que no sabes…?",
+          "uk": "Сталий початок: ¿a que no sabes…?",
+          "de": "Der feste Einstieg: ¿a que no sabes …?",
+          "fr": "L'ouverture figée : ¿a que no sabes…?",
+          "pt": "A abertura fixa: ¿a que no sabes…?",
+          "zh": "固定的开头：¿a que no sabes…?"
+        }
+      },
+      {
+        "type": "gap",
+        "before": "Tomé el autobús que no era, pregunté a todo el mundo y al ",
+        "after": " llegué a otro pueblo.",
+        "label": "in the end (al …)",
+        "accepted": [
+          "final"
+        ],
+        "en": "I took the wrong bus, asked everyone, and in the end I ended up in another village.",
+        "it": "Ho preso l'autobus sbagliato, ho chiesto a tutti e alla fine sono arrivato in un altro paese.",
+        "uk": "Я сів(-ла) не на той автобус, усіх розпитував(-ла), і зрештою опинився(-лася) в іншому селі.",
+        "de": "Ich habe den falschen Bus genommen, alle gefragt, und am Ende bin ich in einem anderen Dorf gelandet.",
+        "fr": "Je me suis trompé de bus, j'ai demandé à tout le monde, et finalement je me suis retrouvé dans un autre village.",
+        "pt": "Eu peguei o ônibus errado, perguntei para todo mundo e no final fui parar em outro vilarejo.",
+        "zh": "我坐错了公交车，问了所有人，最后跑到了另一个村子。",
+        "hint": {
+          "en": "The last event: y al final.",
+          "it": "L'ultimo fatto: y al final.",
+          "uk": "Остання подія: y al final.",
+          "de": "Das letzte Ereignis: y al final.",
+          "fr": "Le dernier événement : y al final.",
+          "pt": "O último acontecimento: y al final.",
+          "zh": "最后发生的事：y al final。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "Pues ",
+        "after": ", señora, hay que hablar todos los días.",
+        "options": [
+          "mire",
+          "mira"
+        ],
+        "answer": "mire",
+        "en": "Well, you see, madam, you have to speak every day.",
+        "it": "Guardi, signora, bisogna parlare tutti i giorni.",
+        "uk": "Розумієте, пані, треба розмовляти щодня.",
+        "de": "Also, sehen Sie, meine Dame, man muss jeden Tag sprechen.",
+        "fr": "Eh bien, écoutez, madame, il faut parler tous les jours.",
+        "pt": "Olhe, senhora, é preciso falar todos os dias.",
+        "zh": "是这样的，女士，得每天都说。",
+        "hint": {
+          "en": "A listener you call señora: usted, pues mire.",
+          "it": "Un'ascoltatrice che chiami señora: usted, pues mire.",
+          "uk": "Слухачка, якій ти кажеш señora: usted, pues mire.",
+          "de": "Eine Hörerin, die du señora nennst: usted, pues mire.",
+          "fr": "Une auditrice que tu appelles señora : usted, pues mire.",
+          "pt": "Uma ouvinte que você chama de señora: usted, pues mire.",
+          "zh": "你称这位听众 señora：用 usted，pues mire。"
+        }
+      },
+      {
+        "type": "write",
+        "instruction": {
+          "en": "Time's nearly up, and the host asks if you're staying in Spain or going back to your country. Write in Spanish: «That's a good question. Let's just say I'm staying in Spain.»",
+          "it": "Il tempo sta per finire e la conduttrice ti chiede se resti in Spagna o torni nel tuo paese. Scrivi in spagnolo: «Bella domanda. Diciamo che resto in Spagna.»",
+          "uk": "Час ефіру майже вийшов, і ведуча питає, чи ти залишаєшся в Іспанії, чи повертаєшся на батьківщину. Напиши іспанською: «Гарне запитання. Скажімо так: я залишаюся в Іспанії.»",
+          "de": "Die Zeit ist fast um, und die Moderatorin fragt, ob du in Spanien bleibst oder in dein Land zurückgehst. Schreib auf Spanisch: «Das ist eine gute Frage. Sagen wir mal so: Ich bleibe in Spanien.»",
+          "fr": "L'émission touche à sa fin, et l'animatrice te demande si tu restes en Espagne ou si tu rentres dans ton pays. Écris en espagnol : «C'est une bonne question. Disons que je reste en Espagne.»",
+          "pt": "O tempo está quase acabando, e a apresentadora pergunta se você vai ficar na Espanha ou voltar para o seu país. Escreva em espanhol: «É uma boa pergunta. Digamos que eu vou ficar na Espanha.»",
+          "zh": "时间快到了，主持人问你是留在西班牙，还是回你们国家。用西班牙语写：«这是个好问题。这么说吧，我会留在西班牙。»"
+        },
+        "accepted": [
+          "Es una buena pregunta. Digamos que me quedo en España.",
+          "Es una buena pregunta: digamos que me quedo en España.",
+          "Es una muy buena pregunta. Digamos que me quedo en España."
+        ],
+        "model": {
+          "es": "Es una buena pregunta. Digamos que me quedo en España.",
+          "en": "That's a good question. Let's just say I'm staying in Spain.",
+          "it": "Bella domanda. Diciamo che resto in Spagna.",
+          "uk": "Гарне запитання. Скажімо так: я залишаюся в Іспанії.",
+          "de": "Das ist eine gute Frage. Sagen wir mal so: Ich bleibe in Spanien.",
+          "fr": "C'est une bonne question. Disons que je reste en Espagne.",
+          "pt": "É uma boa pergunta. Digamos que eu vou ficar na Espanha.",
+          "zh": "这是个好问题。这么说吧，我会留在西班牙。"
+        }
+      }
+    ]
+  }
+}

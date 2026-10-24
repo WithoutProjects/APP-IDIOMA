@@ -26,8 +26,10 @@ final class ReleaseTests: XCTestCase {
         }
     }
 
-    func testALevelExamWaitsForEveryLessonOfTheLevel() {
-        // Level 8's units are not written yet.
-        XCTAssertNil(LessonContent.lesson(id: "level8check", profile: profile))
+    func testEveryLevelHasItsExam() {
+        for level in Curriculum.shared.levels {
+            XCTAssertEqual(LessonContent.lesson(id: level.checkpoint.id, profile: profile)?.questionCount,
+                           Lesson.testQuestions, level.checkpoint.id)
+        }
     }
 }

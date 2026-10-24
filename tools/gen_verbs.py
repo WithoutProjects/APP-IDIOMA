@@ -38,7 +38,7 @@ FULL = {
 STEM_CHANGE = {
     "ie": "querer preferir pensar empezar cerrar entender fregar perder sentir nevar recomendar "
           "sentar encender despertar tener venir detener sostener".split(),
-    "ue": "jugar poder volver costar dormir devolver probar aprobar encontrar doler soler sonar contar acostar llover".split(),
+    "ue": "jugar poder mostrar comprobar volver costar dormir devolver probar aprobar encontrar doler soler sonar contar acostar llover".split(),
     "i": "pedir repetir servir vestir seguir conseguir decir elegir".split(),
 }
 
@@ -65,7 +65,7 @@ LIKE = {
 # Verbs used only in some persons (weather, "me duele", "se acaba").
 ONLY = {
     "llover": ["el"], "nevar": ["el"], "gustar": ["el", "ellos"], "encantar": ["el", "ellos"],
-    "doler": ["el", "ellos"], "importar": ["el", "ellos"], "preocupar": ["el", "ellos"], "acabarse": ["el", "ellos"],
+    "doler": ["el", "ellos"], "importar": ["el", "ellos"], "preocupar": ["el", "ellos"], "interesar": ["el", "ellos"], "acabarse": ["el", "ellos"],
 }
 
 

@@ -36,7 +36,7 @@ La app lee ese archivo para dibujar la ruta. Para cambiar el orden o los título
 - **Vocabulario primero**: cada palabra nueva se presenta en slides (palabra y traducción) y luego se une con su traducción antes de usarla en un ejercicio. Un test automático comprueba que ninguna lección usa palabras sin presentar.
 - **Lección 1, Yo, tú, él**: las terminaciones de yo, tú y él/ella con Lego Snap y huecos para escribir el verbo, y un mix final.
 - **Lección 2, Me presento**: frases con tus datos (Sentence Builder) y una frase final escrita con *y*.
-- **Unidades 1 a 54 completas** (A0–C2): 270 lecciones y 54 bosses. Las lecciones 1 y 2 están en `Content/Unit1.swift`; el resto en `Content/lessons-u{n}.json`, con el formato y las reglas en `docs/content-format.md`. `python3 tools/validate_content.py` comprueba que ninguna lección usa una palabra antes de presentarla, el máximo de 15 preguntas y que cada ejercicio tiene solución. El plan de vocabulario está en `docs/vocab-plan.json`. `python3 tools/gen_verbs.py` regenera `Content/verbs.json`, la lista de verbos (con sus formas del presente) que usa «Repasar tablas»: hay que ejecutarlo al añadir unidades.
+- **Las 56 unidades del curso están completas** (A0–C2): 280 lecciones y 56 bosses. Las lecciones 1 y 2 están en `Content/Unit1.swift`; el resto en `Content/lessons-u{n}.json`, con el formato y las reglas en `docs/content-format.md`. `python3 tools/validate_content.py` comprueba que ninguna lección usa una palabra antes de presentarla, el máximo de 15 preguntas y que cada ejercicio tiene solución. El plan de vocabulario está en `docs/vocab-plan.json`. `python3 tools/gen_verbs.py` regenera `Content/verbs.json`, la lista de verbos (con sus formas del presente) que usa «Repasar tablas»: hay que ejecutarlo al añadir unidades.
 - **Apuntes**: explicaciones y vocabulario de la unidad actual y de las anteriores.
 - **Hablar**: dices en voz alta frases de tus lecciones y ves qué palabras se han entendido; la app te avisa de las que conviene pronunciar más claro (reconocimiento de voz en el iPhone).
 - **Escribir o decir**: en los ejercicios de completar, construir frases y traducir puedes elegir entre escribir la respuesta o decirla en voz alta. La app recuerda tu elección.
@@ -67,7 +67,7 @@ La app lee ese archivo para dibujar la ruta. Para cambiar el orden o los título
 - **Accesibilidad**: VoiceOver lee el estado de cada paso (hecho, siguiente, bloqueado), los textos crecen con el tamaño de letra del sistema y las bandejas de piezas pasan a otra línea si no caben.
 - **Icono provisional** (`hablo` en un bocadillo) y `ITSAppUsesNonExemptEncryption = NO`, así que no hay que contestar la pregunta de cifrado en cada subida.
 - **Política de privacidad** dentro de la app (Perfil > Privacidad) en los 7 idiomas, y el texto para publicarla en una web en [`docs/app-store/privacy-policy.md`](docs/app-store/privacy-policy.md).
-- **Pendiente antes de publicar**: la lista paso a paso está en [`docs/app-store/checklist.md`](docs/app-store/checklist.md).
+- **Pendiente antes de publicar**: tu equipo de desarrollo en Signing & Capabilities, confirmar el bundle ID `com.withoutprojects.hablabase` y el nombre en la tienda, un icono diseñado si quieres sustituir el provisional, capturas de pantalla y una URL de política de privacidad. La lista paso a paso está en [`docs/app-store/checklist.md`](docs/app-store/checklist.md). El temario (unidades 1 a 56) está completo.
 
 ## Estructura
 
