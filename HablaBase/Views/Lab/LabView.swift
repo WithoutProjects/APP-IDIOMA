@@ -111,6 +111,7 @@ struct GamesView: View {
         case LabGame.sprintId: SprintGameView()
         case LabGame.huntId: ErrorHuntView()
         case LabGame.voiceId: VoiceRecallView()
+        case LabGame.wordMatchId: WordMatchView()
         default: PairsGameView()
         }
     }

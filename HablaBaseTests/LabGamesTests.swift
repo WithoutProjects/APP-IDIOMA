@@ -209,6 +209,30 @@ final class LabGamesTests: XCTestCase {
         XCTAssertLessThanOrEqual(VoiceRecall.round(from: cards).count, VoiceRecall.rounds)
     }
 
+    // MARK: Parejas de palabras
+
+    func testEveryWordPairHasOnlyOnePartner() {
+        let words = [word("ellos", "they"), word("ellas", "they (all women)"), word("no", "no"), word("no", "not"),
+                     word("sí", "yes"), word("agua", "water"), word("té", "tea"), word("hola", "hello")]
+        let cards = VoiceRecall.cards(from: words, language: .english)
+        for _ in 0..<20 {
+            for round in WordMatch.rounds(from: cards) {
+                let spanish = round.flatMap { $0.answers.map(VoiceRecall.simplified) }
+                XCTAssertEqual(Set(spanish).count, spanish.count)
+                XCTAssertLessThanOrEqual(round.count, WordMatch.perRound)
+            }
+        }
+        XCTAssertEqual(WordMatch.spanish(cards[0]), "ellos / ellas")
+    }
+
+    func testWordMatchUsesOnlyLearnedWords() {
+        let store = AppStore(storage: InMemoryProgressStorage())
+        store.completeOnboarding(profile)
+        XCTAssertTrue(WordMatch.rounds(from: VoiceRecall.cards(from: store.learnedWords, language: .english)).isEmpty)
+        store.completeLesson("u1l1", xp: 0)
+        XCTAssertFalse(WordMatch.rounds(from: VoiceRecall.cards(from: store.learnedWords, language: .english)).isEmpty)
+    }
+
     func testBestScoresAreKept() {
         let store = AppStore(storage: InMemoryProgressStorage())
         XCTAssertTrue(store.recordScore(12, in: LabGame.sprintId))

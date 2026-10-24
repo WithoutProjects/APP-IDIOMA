@@ -54,6 +54,9 @@ struct LabGame: Identifiable {
         LabGame(id: LabGame.voiceId, title: "Dilo en español",
                 gloss: Gloss(en: "See a word you've learned and say it in Spanish.", it: "Vedi una parola che hai imparato e dilla in spagnolo.", uk: "Побач слово, яке ти вивчив, і скажи його іспанською.", de: "Sieh ein gelerntes Wort und sag es auf Spanisch.", fr: "Vois un mot que tu as appris et dis-le en espagnol.", pt: "Veja uma palavra que você aprendeu e diga em espanhol.", zh: "看到学过的词，用西班牙语说出来。"),
                 icon: "mic.fill", unlockedBy: "u1l1", isBuilt: true),
+        LabGame(id: LabGame.wordMatchId, title: "Parejas de palabras",
+                gloss: Gloss(en: "Match the words you've learned with their Spanish.", it: "Abbina le parole che hai imparato al loro spagnolo.", uk: "З'єднай вивчені слова з їхніми іспанськими відповідниками.", de: "Ordne gelernte Wörter ihrem Spanisch zu.", fr: "Associe les mots appris à leur équivalent espagnol.", pt: "Ligue as palavras que você aprendeu ao espanhol delas.", zh: "把学过的词和对应的西班牙语配对。"),
+                icon: "square.grid.2x2", unlockedBy: "u1l1", isBuilt: true),
         LabGame(id: "tenses", title: "Presente, pasado o futuro",
                 gloss: Gloss(en: "Match each verb to its tense.", it: "Abbina ogni verbo al suo tempo.", uk: "З'єднай кожне дієслово з його часом.", de: "Ordne jedes Verb seiner Zeitform zu.", fr: "Associe chaque verbe à son temps.", pt: "Ligue cada verbo ao seu tempo verbal.", zh: "把每个动词和它的时态配对。"),
                 icon: "clock.arrow.circlepath", unlockedBy: "u14l1", isBuilt: false),
@@ -65,6 +68,7 @@ struct LabGame: Identifiable {
     static let sprintId = "sprint"
     static let huntId = "hunt"
     static let voiceId = "voice"
+    static let wordMatchId = "wordmatch"
 
     static var built: [LabGame] { all.filter(\.isBuilt) }
 }
