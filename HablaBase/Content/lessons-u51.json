@@ -1,0 +1,3180 @@
+{
+  "unit": "u51",
+  "lessons": [
+    {
+      "id": "u51l1",
+      "goal": {
+        "en": "Use irony the Spanish way: praise something bad (¡qué bien, otra vez lloviendo!), praise someone for the opposite of what they do (tú, siempre tan puntual), and sigh ¡lo que me faltaba! when one more thing goes wrong.",
+        "it": "Usa l'ironia alla spagnola: loda una cosa brutta (¡qué bien, otra vez lloviendo!), loda qualcuno per il contrario di quello che fa (tú, siempre tan puntual) e sospira ¡lo que me faltaba! quando va storta un'altra cosa.",
+        "uk": "Іронізуй по-іспанськи: хвали щось погане (¡qué bien, otra vez lloviendo!), хвали людину за протилежне до того, що вона робить (tú, siempre tan puntual), і зітхай ¡lo que me faltaba!, коли ще щось іде не так.",
+        "de": "Setz Ironie auf Spanisch ein: Lob etwas Schlechtes (¡qué bien, otra vez lloviendo!), lob jemanden für das Gegenteil von dem, was er tut (tú, siempre tan puntual), und seufz ¡lo que me faltaba!, wenn noch etwas schiefgeht.",
+        "fr": "Utilise l'ironie à l'espagnole : fais l'éloge de quelque chose de mauvais (¡qué bien, otra vez lloviendo!), complimente quelqu'un pour le contraire de ce qu'il fait (tú, siempre tan puntual), et soupire ¡lo que me faltaba! quand encore une chose tourne mal.",
+        "pt": "Use a ironia do jeito espanhol: elogie algo ruim (¡qué bien, otra vez lloviendo!), elogie alguém pelo contrário do que ele faz (tú, siempre tan puntual) e suspire ¡lo que me faltaba! quando mais uma coisa dá errado.",
+        "zh": "用西班牙式的反话来表达：夸一件糟糕的事（¡qué bien, otra vez lloviendo!），用跟对方行为正相反的话去“夸”他（tú, siempre tan puntual），倒霉事一件接一件时叹一句 ¡lo que me faltaba!。"
+      },
+      "target": {
+        "es": "¡Qué bien, otra vez lloviendo!",
+        "en": "Great, raining again!",
+        "it": "Che bello, piove di nuovo!",
+        "uk": "Чудово, знову дощ!",
+        "de": "Na toll, schon wieder Regen!",
+        "fr": "Super, il pleut encore !",
+        "pt": "Que ótimo, chovendo de novo!",
+        "zh": "太好了，又下雨了！"
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "la ironía",
+              "en": "irony",
+              "it": "l'ironia",
+              "uk": "іронія",
+              "de": "die Ironie",
+              "fr": "l'ironie",
+              "pt": "a ironia",
+              "zh": "反语，讽刺",
+              "kind": "chunk"
+            },
+            {
+              "es": "irónico / irónica",
+              "en": "ironic",
+              "it": "ironico / ironica",
+              "uk": "іронічний / іронічна",
+              "de": "ironisch",
+              "fr": "ironique",
+              "pt": "irônico / irônica",
+              "zh": "反讽的，说反话的",
+              "kind": "chunk"
+            },
+            {
+              "es": "puntual",
+              "en": "punctual, on time",
+              "it": "puntuale",
+              "uk": "пунктуальний, вчасний",
+              "de": "pünktlich",
+              "fr": "ponctuel, à l'heure",
+              "pt": "pontual",
+              "zh": "准时的，守时的",
+              "kind": "chunk"
+            },
+            {
+              "es": "¡lo que me faltaba!",
+              "en": "that's all I needed! (ironic)",
+              "it": "ci mancava solo questa! (ironico)",
+              "uk": "тільки цього мені бракувало! (іронічно)",
+              "de": "das hat mir gerade noch gefehlt! (ironisch)",
+              "fr": "il ne manquait plus que ça ! (ironique)",
+              "pt": "era só o que me faltava! (irônico)",
+              "zh": "我就缺这个了！（反话）",
+              "kind": "chunk"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "¡qué bien!",
+              "kind": "chunk"
+            },
+            {
+              "text": "+",
+              "kind": "chunk"
+            },
+            {
+              "text": "algo malo",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "Irony means saying the opposite of what you mean. Praise something bad with ¡qué bien!, ¡genial! or ¡perfecto!: nobody likes rain on holiday, so everyone understands. Say it slowly, in a flat voice.",
+            "it": "L'ironia è dire il contrario di quello che pensi. Lodi una cosa brutta con ¡qué bien!, ¡genial! o ¡perfecto!: a nessuno piace la pioggia in vacanza, quindi tutti capiscono. Dillo piano, con voce piatta.",
+            "uk": "Іронія — це коли кажеш протилежне до того, що маєш на увазі. Хвали щось погане словами ¡qué bien!, ¡genial! або ¡perfecto!: дощ у відпустці ніхто не любить, тож усі зрозуміють. Кажи це повільно, рівним голосом.",
+            "de": "Ironie heißt, das Gegenteil von dem zu sagen, was man meint. Lob etwas Schlechtes mit ¡qué bien!, ¡genial! oder ¡perfecto!: Niemand mag Regen im Urlaub, also verstehen es alle. Sag es langsam und mit flacher Stimme.",
+            "fr": "L'ironie, c'est dire le contraire de ce qu'on pense. Fais l'éloge de quelque chose de mauvais avec ¡qué bien!, ¡genial! ou ¡perfecto! : personne n'aime la pluie en vacances, donc tout le monde comprend. Dis-le lentement, d'une voix neutre.",
+            "pt": "Ironia é dizer o contrário do que você pensa. Elogie algo ruim com ¡qué bien!, ¡genial! ou ¡perfecto!: ninguém gosta de chuva nas férias, então todo mundo entende. Fale devagar, com voz monótona.",
+            "zh": "反话就是说出跟本意相反的话。用 ¡qué bien!、¡genial! 或 ¡perfecto! 来夸一件糟糕的事：度假时没人喜欢下雨，所以大家都听得懂。说的时候要慢，语气要平淡。"
+          },
+          "examples": [
+            {
+              "es": "¡Qué bien, otra vez lloviendo!",
+              "en": "Great, raining again!",
+              "it": "Che bello, piove di nuovo!",
+              "uk": "Чудово, знову дощ!",
+              "de": "Na toll, schon wieder Regen!",
+              "fr": "Super, il pleut encore !",
+              "pt": "Que ótimo, chovendo de novo!",
+              "zh": "太好了，又下雨了！"
+            },
+            {
+              "es": "¡Genial, el tren llega tarde otra vez!",
+              "en": "Brilliant, the train's late again!",
+              "it": "Fantastico, il treno è di nuovo in ritardo!",
+              "uk": "Блискуче, потяг знову запізнюється!",
+              "de": "Super, der Zug hat schon wieder Verspätung!",
+              "fr": "Génial, le train est encore en retard !",
+              "pt": "Genial, o trem está atrasado de novo!",
+              "zh": "太棒了，火车又晚点了！"
+            },
+            {
+              "es": "¡Perfecto, ahora no funciona el ordenador!",
+              "en": "Perfect, now the computer isn't working!",
+              "it": "Perfetto, adesso non funziona il computer!",
+              "uk": "Ідеально, тепер не працює комп'ютер!",
+              "de": "Perfekt, jetzt funktioniert der Computer nicht!",
+              "fr": "Parfait, maintenant l'ordinateur ne marche plus !",
+              "pt": "Perfeito, agora o computador não funciona!",
+              "zh": "完美，现在电脑又坏了！"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "¡Qué ",
+          "after": ", otra vez lloviendo!",
+          "options": [
+            "bien",
+            "mal"
+          ],
+          "answer": "bien",
+          "en": "Great, raining again! (ironic: it's the third day of rain on your holiday)",
+          "it": "Che bello, piove di nuovo! (ironico: è il terzo giorno di pioggia in vacanza)",
+          "uk": "Чудово, знову дощ! (іронічно: у твоїй відпустці вже третій день дощить)",
+          "de": "Na toll, schon wieder Regen! (ironisch: Es ist der dritte Regentag in deinem Urlaub)",
+          "fr": "Super, il pleut encore ! (ironique : c'est le troisième jour de pluie pendant tes vacances)",
+          "pt": "Que ótimo, chovendo de novo! (irônico: é o terceiro dia de chuva nas suas férias)",
+          "zh": "太好了，又下雨了！（反话：这是你度假时连续第三天下雨）",
+          "hint": {
+            "en": "Irony praises the bad thing: ¡qué bien!",
+            "it": "L'ironia loda la cosa brutta: ¡qué bien!",
+            "uk": "Іронія хвалить погане: ¡qué bien!",
+            "de": "Ironie lobt das Schlechte: ¡qué bien!",
+            "fr": "L'ironie fait l'éloge de la mauvaise chose : ¡qué bien!",
+            "pt": "A ironia elogia a coisa ruim: ¡qué bien!",
+            "zh": "反话就是去夸那件糟糕的事：¡qué bien!"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "Your train is late for the third time this week. Say it with irony: brilliant, the train's late again!",
+            "it": "Il tuo treno è in ritardo per la terza volta questa settimana. Dillo con ironia: fantastico, il treno è di nuovo in ritardo!",
+            "uk": "Твій потяг запізнюється вже втретє за тиждень. Скажи це з іронією: блискуче, потяг знову запізнюється!",
+            "de": "Dein Zug hat diese Woche zum dritten Mal Verspätung. Sag es mit Ironie: Super, der Zug hat schon wieder Verspätung!",
+            "fr": "Ton train est en retard pour la troisième fois cette semaine. Dis-le avec ironie : génial, le train est encore en retard !",
+            "pt": "Seu trem está atrasado pela terceira vez nesta semana. Diga com ironia: genial, o trem está atrasado de novo!",
+            "zh": "你坐的火车这周第三次晚点了。用反话说：太棒了，火车又晚点了！"
+          },
+          "accepted": [
+            "¡Genial, el tren llega tarde otra vez!",
+            "¡Genial, otra vez llega tarde el tren!",
+            "¡Genial, el tren otra vez llega tarde!"
+          ],
+          "tiles": [
+            "¡Genial,",
+            "el tren",
+            "llega tarde",
+            "otra vez!",
+            "llegas",
+            "pronto"
+          ],
+          "en": "Brilliant, the train's late again!",
+          "it": "Fantastico, il treno è di nuovo in ritardo!",
+          "uk": "Блискуче, потяг знову запізнюється!",
+          "de": "Super, der Zug hat schon wieder Verspätung!",
+          "fr": "Génial, le train est encore en retard !",
+          "pt": "Genial, o trem está atrasado de novo!",
+          "zh": "太棒了，火车又晚点了！",
+          "hint": {
+            "en": "Praise the bad news: ¡genial! + what went wrong.",
+            "it": "Lodi la brutta notizia: ¡genial! + quello che è andato storto.",
+            "uk": "Похвали погану новину: ¡genial! + те, що пішло не так.",
+            "de": "Lob die schlechte Nachricht: ¡genial! + was schiefgegangen ist.",
+            "fr": "Fais l'éloge de la mauvaise nouvelle : ¡genial! + ce qui s'est mal passé.",
+            "pt": "Elogie a notícia ruim: ¡genial! + o que deu errado.",
+            "zh": "夸那个坏消息：¡genial! + 出了什么问题。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "tú,",
+              "kind": "chunk"
+            },
+            {
+              "text": "siempre tan",
+              "kind": "rail"
+            },
+            {
+              "text": "+",
+              "kind": "chunk"
+            },
+            {
+              "text": "puntual",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "To tease a friend, praise them for the opposite of what they've just done: tú, siempre tan puntual to someone an hour late. It's affectionate irony, for people you know well.",
+            "it": "Per prendere in giro un amico, lodalo per il contrario di quello che ha appena fatto: tú, siempre tan puntual a chi arriva con un'ora di ritardo. È un'ironia affettuosa, per le persone che conosci bene.",
+            "uk": "Щоб піддражнити друга, похвали його за протилежне до того, що він щойно зробив: tú, siempre tan puntual тому, хто запізнився на годину. Це дружня іронія — для людей, яких добре знаєш.",
+            "de": "Um einen Freund aufzuziehen, lob ihn für das Gegenteil von dem, was er gerade getan hat: tú, siempre tan puntual zu jemandem, der eine Stunde zu spät kommt. Das ist liebevolle Ironie, für Leute, die du gut kennst.",
+            "fr": "Pour taquiner un ami, complimente-le pour le contraire de ce qu'il vient de faire : tú, siempre tan puntual à quelqu'un qui a une heure de retard. C'est une ironie affectueuse, pour les gens que tu connais bien.",
+            "pt": "Para brincar com um amigo, elogie-o pelo contrário do que ele acabou de fazer: tú, siempre tan puntual para alguém que chegou uma hora atrasado. É uma ironia carinhosa, para pessoas que você conhece bem.",
+            "zh": "想逗朋友的时候，就用跟他刚做的事正相反的话去“夸”他：对迟到一小时的人说 tú, siempre tan puntual。这是一种亲昵的反话，只对很熟的人说。"
+          },
+          "examples": [
+            {
+              "es": "Tú, siempre tan puntual.",
+              "en": "You, always so punctual.",
+              "it": "Tu, sempre così puntuale.",
+              "uk": "Ти, як завжди, такий пунктуальний.",
+              "de": "Du, immer so pünktlich.",
+              "fr": "Toi, toujours si ponctuel.",
+              "pt": "Você, sempre tão pontual.",
+              "zh": "你啊，总是这么准时。"
+            },
+            {
+              "es": "¡Qué pronto llegas!",
+              "en": "Nice and early, I see!",
+              "it": "Però, che anticipo!",
+              "uk": "О, як рано ти прийшов!",
+              "de": "Na, du bist ja früh dran!",
+              "fr": "Tu es bien en avance, à ce que je vois !",
+              "pt": "Chegou cedinho, hein!",
+              "zh": "来得可真早啊！"
+            },
+            {
+              "es": "Tú, siempre tan simpático.",
+              "en": "You, always so friendly.",
+              "it": "Tu, sempre così simpatico.",
+              "uk": "Ти, як завжди, такий привітний.",
+              "de": "Du, immer so freundlich.",
+              "fr": "Toi, toujours si aimable.",
+              "pt": "Você, sempre tão simpático.",
+              "zh": "你啊，总是这么友好。"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Tú, siempre ",
+          "after": " puntual.",
+          "options": [
+            "tan",
+            "tanto",
+            "como"
+          ],
+          "answer": "tan",
+          "en": "You, always so punctual. (to a friend who's an hour late)",
+          "it": "Tu, sempre così puntuale. (a un amico in ritardo di un'ora)",
+          "uk": "Ти, як завжди, такий пунктуальний. (другові, який запізнився на годину)",
+          "de": "Du, immer so pünktlich. (zu einem Freund, der eine Stunde zu spät kommt)",
+          "fr": "Toi, toujours si ponctuel. (à un ami qui a une heure de retard)",
+          "pt": "Você, sempre tão pontual. (para um amigo que está uma hora atrasado)",
+          "zh": "你啊，总是这么准时。（对一个迟到了一小时的朋友说）",
+          "hint": {
+            "en": "Before an adjective, so is tan.",
+            "it": "Davanti a un aggettivo, così è tan.",
+            "uk": "Перед прикметником «такий» — це tan.",
+            "de": "Vor einem Adjektiv heißt so tan.",
+            "fr": "Devant un adjectif, « si » se dit tan.",
+            "pt": "Antes de um adjetivo, «tão» é tan.",
+            "zh": "在形容词前面，“这么”用 tan。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "A friend turns up an hour late for dinner. Tease her with irony: nice and early, I see!",
+            "it": "Un'amica arriva a cena con un'ora di ritardo. Prendila in giro con ironia: però, che anticipo!",
+            "uk": "Подруга приходить на вечерю на годину пізніше. Піддражни її з іронією: о, як рано ти прийшла!",
+            "de": "Eine Freundin kommt eine Stunde zu spät zum Abendessen. Zieh sie mit Ironie auf: Na, du bist ja früh dran!",
+            "fr": "Une amie arrive au dîner avec une heure de retard. Taquine-la avec ironie : tu es bien en avance, à ce que je vois !",
+            "pt": "Uma amiga chega uma hora atrasada para o jantar. Brinque com ela com ironia: chegou cedinho, hein!",
+            "zh": "一个朋友来吃晚饭迟到了一个小时。用反话逗逗她：来得可真早啊！"
+          },
+          "accepted": [
+            "¡Qué pronto llegas!"
+          ],
+          "tiles": [
+            "¡Qué",
+            "pronto",
+            "llegas!",
+            "llego",
+            "eres"
+          ],
+          "en": "Nice and early, I see!",
+          "it": "Però, che anticipo!",
+          "uk": "О, як рано ти прийшла!",
+          "de": "Na, du bist ja früh dran!",
+          "fr": "Tu es bien en avance, à ce que je vois !",
+          "pt": "Chegou cedinho, hein!",
+          "zh": "来得可真早啊！",
+          "hint": {
+            "en": "Irony: praise the opposite of what happened. She's late, so pronto.",
+            "it": "Ironia: lodi il contrario di quello che è successo. È in ritardo, quindi pronto.",
+            "uk": "Іронія: хвали протилежне до того, що сталося. Вона запізнилася, тому pronto.",
+            "de": "Ironie: Lob das Gegenteil von dem, was passiert ist. Sie ist zu spät, also pronto.",
+            "fr": "Ironie : fais l'éloge du contraire de ce qui s'est passé. Elle est en retard, donc pronto.",
+            "pt": "Ironia: elogie o contrário do que aconteceu. Ela está atrasada, então pronto.",
+            "zh": "反话：夸的正好跟事实相反。她迟到了，所以用 pronto。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "¡lo que me faltaba!",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "When one more thing goes wrong, sigh ¡lo que me faltaba! (lit. just what I was missing). It's ironic: you act as if the new problem were the one thing you were waiting for.",
+            "it": "Quando va storta un'altra cosa, sospira ¡lo que me faltaba! (lett. proprio quello che mi mancava). È ironico: fai finta che il nuovo problema sia l'unica cosa che aspettavi.",
+            "uk": "Коли ще щось іде не так, зітхни: ¡lo que me faltaba! (дослівно: саме того, чого мені бракувало). Це іронія: ти робиш вигляд, ніби саме на цю нову проблему й чекав.",
+            "de": "Wenn noch etwas schiefgeht, seufz ¡lo que me faltaba! (wörtl. genau das, was mir noch fehlte). Das ist ironisch: Du tust so, als wäre das neue Problem genau das, worauf du gewartet hast. Wie im Deutschen: „Das hat mir gerade noch gefehlt!“",
+            "fr": "Quand encore une chose tourne mal, soupire ¡lo que me faltaba! (litt. ce qui me manquait). C'est ironique : tu fais comme si ce nouveau problème était la seule chose que tu attendais.",
+            "pt": "Quando mais uma coisa dá errado, suspire ¡lo que me faltaba! (literalmente: o que me faltava). É irônico: você age como se o novo problema fosse a única coisa que estava esperando.",
+            "zh": "又有一件事出了岔子时，就叹一句 ¡lo que me faltaba!（字面意思：正是我缺的东西）。这是反话：你装作这个新麻烦正是你一直在等的东西。"
+          },
+          "examples": [
+            {
+              "es": "Se me ha roto el móvil. ¡Lo que me faltaba!",
+              "en": "My phone's broken. That's all I needed!",
+              "it": "Mi si è rotto il cellulare. Ci mancava solo questa!",
+              "uk": "У мене зламався мобільний. Тільки цього мені бракувало!",
+              "de": "Mein Handy ist kaputtgegangen. Das hat mir gerade noch gefehlt!",
+              "fr": "Mon portable est cassé. Il ne manquait plus que ça !",
+              "pt": "Meu celular quebrou. Era só o que me faltava!",
+              "zh": "我的手机坏了。我就缺这个了！"
+            },
+            {
+              "es": "Y encima llueve. ¡Lo que me faltaba!",
+              "en": "And on top of that it's raining. That's all I needed!",
+              "it": "E per di più piove. Ci mancava solo questa!",
+              "uk": "А ще й дощ іде. Тільки цього мені бракувало!",
+              "de": "Und obendrein regnet es. Das hat mir gerade noch gefehlt!",
+              "fr": "Et en plus, il pleut. Il ne manquait plus que ça !",
+              "pt": "E ainda por cima está chovendo. Era só o que me faltava!",
+              "zh": "而且还下雨了。我就缺这个了！"
+            },
+            {
+              "es": "¡Lo que faltaba! Ahora no hay agua caliente.",
+              "en": "That's all we needed! Now there's no hot water.",
+              "it": "Ci mancava solo questa! Adesso non c'è l'acqua calda.",
+              "uk": "Тільки цього бракувало! Тепер немає гарячої води.",
+              "de": "Das hat uns gerade noch gefehlt! Jetzt gibt es kein warmes Wasser.",
+              "fr": "Il ne manquait plus que ça ! Maintenant, il n'y a plus d'eau chaude.",
+              "pt": "Era só o que faltava! Agora não tem água quente.",
+              "zh": "就缺这个了！现在连热水都没了。"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Perdí el tren y encima empezó a llover. ¡Lo que me ",
+          "after": "!",
+          "options": [
+            "faltaba",
+            "gustaba"
+          ],
+          "answer": "faltaba",
+          "en": "I missed the train and on top of that it started to rain. That's all I needed!",
+          "it": "Ho perso il treno e per di più ha cominciato a piovere. Ci mancava solo questa!",
+          "uk": "Я спізнився(-лася) на потяг, а ще й дощ почався. Тільки цього мені бракувало!",
+          "de": "Ich habe den Zug verpasst, und obendrein hat es angefangen zu regnen. Das hat mir gerade noch gefehlt!",
+          "fr": "J'ai raté le train et en plus il s'est mis à pleuvoir. Il ne manquait plus que ça !",
+          "pt": "Perdi o trem e ainda por cima começou a chover. Era só o que me faltava!",
+          "zh": "我没赶上火车，而且还开始下雨了。我就缺这个了！",
+          "hint": {
+            "en": "The fixed phrase is ¡lo que me faltaba!",
+            "it": "L'espressione fissa è ¡lo que me faltaba!",
+            "uk": "Сталий вираз — ¡lo que me faltaba!",
+            "de": "Die feste Wendung ist ¡lo que me faltaba!",
+            "fr": "L'expression figée est ¡lo que me faltaba!",
+            "pt": "A expressão fixa é ¡lo que me faltaba!",
+            "zh": "固定说法是 ¡lo que me faltaba!"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "fire",
+          "before": "Y encima no hay agua caliente. ¡Lo que me ",
+          "after": "!",
+          "label": "faltar",
+          "accepted": [
+            "faltaba"
+          ],
+          "en": "And on top of that there's no hot water. That's all I needed!",
+          "it": "E per di più non c'è l'acqua calda. Ci mancava solo questa!",
+          "uk": "А ще й гарячої води немає. Тільки цього мені бракувало!",
+          "de": "Und obendrein gibt es kein warmes Wasser. Das hat mir gerade noch gefehlt!",
+          "fr": "Et en plus, il n'y a pas d'eau chaude. Il ne manquait plus que ça !",
+          "pt": "E ainda por cima não tem água quente. Era só o que me faltava!",
+          "zh": "而且还没有热水。我就缺这个了！",
+          "hint": {
+            "en": "¡lo que me faltaba!: always this form.",
+            "it": "¡lo que me faltaba!: sempre questa forma.",
+            "uk": "¡lo que me faltaba!: завжди в такій формі.",
+            "de": "¡lo que me faltaba!: immer in dieser Form.",
+            "fr": "¡lo que me faltaba! : toujours cette forme.",
+            "pt": "¡lo que me faltaba!: sempre nesta forma.",
+            "zh": "¡lo que me faltaba!：永远是这个形式。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "¡",
+          "after": ", otra vez sin agua caliente!",
+          "options": [
+            "Perfecto",
+            "Menos mal"
+          ],
+          "answer": "Perfecto",
+          "en": "Perfect, no hot water again! (ironic)",
+          "it": "Perfetto, di nuovo senza acqua calda! (ironico)",
+          "uk": "Ідеально, знову немає гарячої води! (іронічно)",
+          "de": "Perfekt, schon wieder kein warmes Wasser! (ironisch)",
+          "fr": "Parfait, encore pas d'eau chaude ! (ironique)",
+          "pt": "Perfeito, sem água quente de novo! (irônico)",
+          "zh": "完美，又没热水了！（反话）",
+          "hint": {
+            "en": "Ironic praise: ¡perfecto! for something bad. Menos mal means what a relief.",
+            "it": "Lode ironica: ¡perfecto! per una cosa brutta. Menos mal vuol dire meno male.",
+            "uk": "Іронічна похвала: ¡perfecto! про щось погане. Menos mal означає «яке полегшення».",
+            "de": "Ironisches Lob: ¡perfecto! für etwas Schlechtes. Menos mal heißt zum Glück.",
+            "fr": "Éloge ironique : ¡perfecto! pour quelque chose de mauvais. Menos mal veut dire « heureusement ».",
+            "pt": "Elogio irônico: ¡perfecto! para algo ruim. Menos mal quer dizer «ainda bem».",
+            "zh": "反话式的夸奖：用 ¡perfecto! 来说一件糟糕的事。Menos mal 的意思是“还好，幸好”。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "Tú, siempre tan ",
+          "after": ".",
+          "options": [
+            "puntual",
+            "tarde"
+          ],
+          "answer": "puntual",
+          "en": "You, always so punctual. (to a friend who's always late)",
+          "it": "Tu, sempre così puntuale. (a un amico sempre in ritardo)",
+          "uk": "Ти, як завжди, такий пунктуальний. (другові, який завжди запізнюється)",
+          "de": "Du, immer so pünktlich. (zu einem Freund, der immer zu spät kommt)",
+          "fr": "Toi, toujours si ponctuel. (à un ami qui est toujours en retard)",
+          "pt": "Você, sempre tão pontual. (para um amigo que sempre se atrasa)",
+          "zh": "你啊，总是这么准时。（对一个总是迟到的朋友说）",
+          "hint": {
+            "en": "Praise the opposite: he's always late, so puntual.",
+            "it": "Lodi il contrario: è sempre in ritardo, quindi puntual.",
+            "uk": "Хвали протилежне: він завжди запізнюється, тому puntual.",
+            "de": "Lob das Gegenteil: Er kommt immer zu spät, also puntual.",
+            "fr": "Fais l'éloge du contraire : il est toujours en retard, donc puntual.",
+            "pt": "Elogie o contrário: ele sempre se atrasa, então puntual.",
+            "zh": "夸的是相反的情况：他总是迟到，所以用 puntual。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "mix",
+          "intention": {
+            "en": "Your train has been cancelled, and now it's starting to rain. Sigh with irony: brilliant! That's all I needed!",
+            "it": "Il tuo treno è stato cancellato, e adesso comincia a piovere. Sospira con ironia: fantastico! Ci mancava solo questa!",
+            "uk": "Твій потяг скасували, а тепер ще й дощ починається. Зітхни з іронією: блискуче! Тільки цього мені бракувало!",
+            "de": "Dein Zug ist ausgefallen, und jetzt fängt es auch noch an zu regnen. Seufz mit Ironie: Super! Das hat mir gerade noch gefehlt!",
+            "fr": "Ton train a été annulé, et maintenant il commence à pleuvoir. Soupire avec ironie : génial ! Il ne manquait plus que ça !",
+            "pt": "Seu trem foi cancelado e agora está começando a chover. Suspire com ironia: genial! Era só o que me faltava!",
+            "zh": "你的火车被取消了，现在又开始下雨了。用反话叹一句：太棒了！我就缺这个了！"
+          },
+          "accepted": [
+            "¡Genial! ¡Lo que me faltaba!",
+            "¡Qué bien! ¡Lo que me faltaba!",
+            "¡Perfecto! ¡Lo que me faltaba!"
+          ],
+          "tiles": [
+            "¡Genial!",
+            "¡Lo que",
+            "me faltaba!",
+            "gustaba",
+            "mal"
+          ],
+          "en": "Brilliant! That's all I needed!",
+          "it": "Fantastico! Ci mancava solo questa!",
+          "uk": "Блискуче! Тільки цього мені бракувало!",
+          "de": "Super! Das hat mir gerade noch gefehlt!",
+          "fr": "Génial ! Il ne manquait plus que ça !",
+          "pt": "Genial! Era só o que me faltava!",
+          "zh": "太棒了！我就缺这个了！",
+          "hint": {
+            "en": "Ironic praise, then the fixed phrase ¡lo que me faltaba!",
+            "it": "Lode ironica, poi l'espressione fissa ¡lo que me faltaba!",
+            "uk": "Іронічна похвала, а потім сталий вираз ¡lo que me faltaba!",
+            "de": "Ironisches Lob, dann die feste Wendung ¡lo que me faltaba!",
+            "fr": "Un éloge ironique, puis l'expression figée ¡lo que me faltaba!",
+            "pt": "Elogio irônico e depois a expressão fixa ¡lo que me faltaba!",
+            "zh": "先来一句反话式的夸奖，再用固定说法 ¡lo que me faltaba!"
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "It's the third day of rain on your holiday. Message a friend, with irony. Write in Spanish: «Great, raining again! That's all I needed!»",
+            "it": "È il terzo giorno di pioggia in vacanza. Scrivi a un amico, con ironia. Scrivi in spagnolo: «Che bello, piove di nuovo! Ci mancava solo questa!»",
+            "uk": "У твоїй відпустці вже третій день дощить. Напиши другові з іронією. Напиши іспанською: «Чудово, знову дощ! Тільки цього мені бракувало!»",
+            "de": "Es ist der dritte Regentag in deinem Urlaub. Schreib einer Freundin eine Nachricht, mit Ironie. Schreib auf Spanisch: «Na toll, schon wieder Regen! Das hat mir gerade noch gefehlt!»",
+            "fr": "C'est le troisième jour de pluie pendant tes vacances. Envoie un message à un ami, avec ironie. Écris en espagnol : «Super, il pleut encore ! Il ne manquait plus que ça !»",
+            "pt": "É o terceiro dia de chuva nas suas férias. Mande uma mensagem a um amigo, com ironia. Escreva em espanhol: «Que ótimo, chovendo de novo! Era só o que me faltava!»",
+            "zh": "你度假时已经连续下了三天雨。用反话给朋友发条消息。用西班牙语写：«太好了，又下雨了！我就缺这个了！»"
+          },
+          "accepted": [
+            "¡Qué bien, otra vez lloviendo! ¡Lo que me faltaba!",
+            "¡Genial, otra vez lloviendo! ¡Lo que me faltaba!",
+            "¡Qué bien, lloviendo otra vez! ¡Lo que me faltaba!",
+            "¡Genial, lloviendo otra vez! ¡Lo que me faltaba!",
+            "¡Qué bien, otra vez llueve! ¡Lo que me faltaba!",
+            "¡Qué bien, otra vez lloviendo! ¡Lo que faltaba!"
+          ],
+          "model": {
+            "es": "¡Qué bien, otra vez lloviendo! ¡Lo que me faltaba!",
+            "en": "Great, raining again! That's all I needed!",
+            "it": "Che bello, piove di nuovo! Ci mancava solo questa!",
+            "uk": "Чудово, знову дощ! Тільки цього мені бракувало!",
+            "de": "Na toll, schon wieder Regen! Das hat mir gerade noch gefehlt!",
+            "fr": "Super, il pleut encore ! Il ne manquait plus que ça !",
+            "pt": "Que ótimo, chovendo de novo! Era só o que me faltava!",
+            "zh": "太好了，又下雨了！我就缺这个了！"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u51l2",
+      "goal": {
+        "en": "Spot and use double meanings: with ser and estar, listo means clever or ready and rico means rich or tasty; one word can mean two things (el banco: a bank or a bench); and talk about a pun with tiene doble sentido, ¿lo pillas? and no lo pillo.",
+        "it": "Riconosci e usa i doppi sensi: con ser ed estar, listo vuol dire intelligente o pronto e rico ricco o buono; una parola può voler dire due cose (el banco: una banca o una panchina); e parla di un gioco di parole con tiene doble sentido, ¿lo pillas? e no lo pillo.",
+        "uk": "Помічай і вживай подвійні значення: із ser та estar listo означає «розумний» або «готовий», а rico — «багатий» або «смачний»; одне слово може означати дві речі (el banco: банк або лавка); а про каламбур говори так: tiene doble sentido, ¿lo pillas? і no lo pillo.",
+        "de": "Erkenne und nutze Doppeldeutigkeiten: Mit ser und estar heißt listo klug oder fertig und rico reich oder lecker; ein Wort kann zwei Dinge bedeuten (el banco: eine Bank für Geld oder eine Sitzbank); und sprich über ein Wortspiel mit tiene doble sentido, ¿lo pillas? und no lo pillo.",
+        "fr": "Repère et utilise les doubles sens : avec ser et estar, listo veut dire intelligent ou prêt et rico veut dire riche ou délicieux ; un même mot peut avoir deux sens (el banco : une banque ou un banc) ; et parle d'un jeu de mots avec tiene doble sentido, ¿lo pillas? et no lo pillo.",
+        "pt": "Perceba e use duplos sentidos: com ser e estar, listo quer dizer inteligente ou pronto, e rico quer dizer rico ou gostoso; uma palavra pode ter dois significados (el banco: um banco de dinheiro ou um banco de praça); e fale de um trocadilho com tiene doble sentido, ¿lo pillas? e no lo pillo.",
+        "zh": "识别并使用双关：listo 和 rico 跟 ser 或 estar 连用时意思不同，listo 是“聪明”或“准备好了”，rico 是“有钱”或“好吃”；一个词可以有两个意思（el banco：银行，也是长椅）；谈论双关语时会用 tiene doble sentido、¿lo pillas? 和 no lo pillo。"
+      },
+      "target": {
+        "es": "La paella está muy rica, pero yo no soy rico.",
+        "en": "The paella is delicious, but I'm not rich.",
+        "it": "La paella è buonissima, ma io non sono ricco.",
+        "uk": "Паела дуже смачна, але я не багатий.",
+        "de": "Die Paella ist sehr lecker, aber ich bin nicht reich.",
+        "fr": "La paella est délicieuse, mais moi, je ne suis pas riche.",
+        "pt": "A paella está uma delícia, mas eu não sou rico.",
+        "zh": "这海鲜饭很好吃，可我并不富有。"
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "el doble sentido",
+              "en": "the double meaning",
+              "it": "il doppio senso",
+              "uk": "подвійне значення",
+              "de": "die Doppeldeutigkeit, der doppelte Sinn",
+              "fr": "le double sens",
+              "pt": "o duplo sentido",
+              "zh": "双关，双重含义",
+              "kind": "chunk"
+            },
+            {
+              "es": "¿lo pillas?",
+              "en": "get it? (casual)",
+              "it": "hai capito?, ci arrivi? (colloquiale)",
+              "uk": "зрозумів? (розмовне)",
+              "de": "kapiert? (locker)",
+              "fr": "tu piges ? (familier)",
+              "pt": "sacou? (informal)",
+              "zh": "懂了吗？（口语）",
+              "kind": "chunk"
+            },
+            {
+              "es": "no lo pillo",
+              "en": "I don't get it (casual)",
+              "it": "non ci arrivo, non capisco (colloquiale)",
+              "uk": "не розумію, не доганяю (розмовне)",
+              "de": "ich kapier's nicht (locker)",
+              "fr": "je ne pige pas (familier)",
+              "pt": "não saquei (informal)",
+              "zh": "我没懂（口语）",
+              "kind": "chunk"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "ser listo",
+              "kind": "chunk"
+            },
+            {
+              "text": "·",
+              "kind": "chunk"
+            },
+            {
+              "text": "estar listo",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "Some adjectives change meaning with ser or estar, and jokes love it. Ser listo: to be clever; estar listo: to be ready. Ser rico: to be rich; estar rico: to taste good.",
+            "it": "Alcuni aggettivi cambiano significato con ser o estar, e le battute ci giocano. Ser listo: essere intelligente; estar listo: essere pronto. Ser rico: essere ricco; estar rico: essere buono (da mangiare).",
+            "uk": "Деякі прикметники змінюють значення з ser чи estar, і жарти це обожнюють. Ser listo — бути розумним; estar listo — бути готовим. Ser rico — бути багатим; estar rico — бути смачним.",
+            "de": "Manche Adjektive ändern ihre Bedeutung mit ser oder estar, und Witze lieben das. Ser listo: klug sein; estar listo: fertig, bereit sein. Ser rico: reich sein; estar rico: lecker sein.",
+            "fr": "Certains adjectifs changent de sens avec ser ou estar, et les blagues adorent ça. Ser listo : être intelligent ; estar listo : être prêt. Ser rico : être riche ; estar rico : être bon (au goût).",
+            "pt": "Alguns adjetivos mudam de sentido com ser ou estar, e as piadas adoram isso. Ser listo: ser inteligente; estar listo: estar pronto. Ser rico: ser rico; estar rico: estar gostoso.",
+            "zh": "有些形容词跟 ser 或 estar 连用时意思会变，笑话特别爱用这一点。ser listo：聪明；estar listo：准备好了。ser rico：有钱；estar rico：好吃。"
+          },
+          "examples": [
+            {
+              "es": "Eres muy lista.",
+              "en": "You're very clever.",
+              "it": "Sei molto intelligente.",
+              "uk": "Ти дуже розумна.",
+              "de": "Du bist sehr klug. (zu einer Frau)",
+              "fr": "Tu es très intelligente.",
+              "pt": "Você é muito inteligente.",
+              "zh": "你真聪明。"
+            },
+            {
+              "es": "¿Estás lista? Nos vamos.",
+              "en": "Are you ready? We're leaving.",
+              "it": "Sei pronta? Andiamo.",
+              "uk": "Ти готова? Ми виходимо.",
+              "de": "Bist du fertig? Wir gehen. (zu einer Frau)",
+              "fr": "Tu es prête ? On y va.",
+              "pt": "Você está pronta? Vamos embora.",
+              "zh": "你准备好了吗？我们要走了。"
+            },
+            {
+              "es": "Esta paella está muy rica.",
+              "en": "This paella is delicious.",
+              "it": "Questa paella è buonissima.",
+              "uk": "Ця паела дуже смачна.",
+              "de": "Diese Paella ist sehr lecker.",
+              "fr": "Cette paella est délicieuse.",
+              "pt": "Esta paella está uma delícia.",
+              "zh": "这海鲜饭真好吃。"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "¿",
+          "after": " listo? El taxi ya está en la puerta.",
+          "options": [
+            "Estás",
+            "Eres"
+          ],
+          "answer": "Estás",
+          "en": "Are you ready? The taxi's already at the door.",
+          "it": "Sei pronto? Il taxi è già alla porta.",
+          "uk": "Ти готовий(-а)? Таксі вже під дверима.",
+          "de": "Bist du fertig? Das Taxi steht schon vor der Tür.",
+          "fr": "Tu es prête ? Le taxi est déjà devant la porte.",
+          "pt": "Você está pronto? O táxi já está na porta.",
+          "zh": "你准备好了吗？出租车已经到门口了。",
+          "hint": {
+            "en": "Ready is estar listo; ser listo means clever.",
+            "it": "Pronto è estar listo; ser listo vuol dire intelligente.",
+            "uk": "«Готовий» — це estar listo; ser listo означає «розумний».",
+            "de": "Fertig, bereit ist estar listo; ser listo heißt klug.",
+            "fr": "Prêt se dit estar listo ; ser listo veut dire intelligent.",
+            "pt": "Pronto é estar listo; ser listo quer dizer inteligente.",
+            "zh": "“准备好了”是 estar listo；ser listo 的意思是“聪明”。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "fire",
+          "before": "¡Qué buena tu tortilla! ",
+          "after": " muy rica.",
+          "label": "ser / estar",
+          "accepted": [
+            "Está"
+          ],
+          "en": "Your tortilla's great! It's delicious.",
+          "it": "Che buona la tua tortilla! È buonissima.",
+          "uk": "Твоя тортилья чудова! Вона дуже смачна.",
+          "de": "Deine Tortilla ist super! Sie ist lecker.",
+          "fr": "Ta tortilla est super ! Elle est délicieuse.",
+          "pt": "Sua tortilla está ótima! Está uma delícia.",
+          "zh": "你做的土豆饼太棒了！真好吃。",
+          "hint": {
+            "en": "Tasty is estar rico; es rica would mean it's rich.",
+            "it": "Buono da mangiare è estar rico; es rica vorrebbe dire che è ricca.",
+            "uk": "«Смачний» — це estar rico; es rica означало б «вона багата».",
+            "de": "Lecker ist estar rico; es rica würde heißen, sie ist reich.",
+            "fr": "Délicieux se dit estar rico ; es rica voudrait dire qu'elle est riche.",
+            "pt": "Gostoso é estar rico; es rica significaria que ela é rica.",
+            "zh": "“好吃”是 estar rico；es rica 的意思会变成“它很有钱”。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "el banco",
+              "kind": "chunk"
+            },
+            {
+              "text": "=",
+              "kind": "chunk"
+            },
+            {
+              "text": "dinero",
+              "kind": "chunk"
+            },
+            {
+              "text": "/",
+              "kind": "chunk"
+            },
+            {
+              "text": "parque",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "A double meaning (un doble sentido) is a word you can read two ways. El banco is a bank, where you keep money, and also a bench, in a park. To point it out, say «banco» tiene doble sentido.",
+            "it": "Un doppio senso (un doble sentido) è una parola che si può leggere in due modi. El banco è una banca, dove tieni i soldi, e anche una panchina, nel parco. Per farlo notare, di' «banco» tiene doble sentido.",
+            "uk": "Подвійне значення (un doble sentido) — це слово, яке можна зрозуміти двояко. El banco — це банк, де тримають гроші, а також лавка в парку. Щоб на це вказати, скажи: «banco» tiene doble sentido.",
+            "de": "Eine Doppeldeutigkeit (un doble sentido) ist ein Wort, das man auf zwei Arten verstehen kann. El banco ist eine Bank, wo du Geld hast, und auch eine Sitzbank im Park, genau wie im Deutschen. Um darauf hinzuweisen, sag «banco» tiene doble sentido.",
+            "fr": "Un double sens (un doble sentido), c'est un mot qu'on peut comprendre de deux façons. El banco, c'est une banque, où tu gardes ton argent, et aussi un banc, dans un parc. Pour le faire remarquer, dis «banco» tiene doble sentido.",
+            "pt": "Um duplo sentido (un doble sentido) é uma palavra que pode ser lida de dois jeitos. El banco é o banco onde você guarda dinheiro e também o banco de sentar, no parque. Em português acontece o mesmo, então aqui a piada funciona! Para apontar isso, diga «banco» tiene doble sentido.",
+            "zh": "双关（un doble sentido）就是一个词可以有两种理解。el banco 既是存钱的银行，也是公园里的长椅。想指出这一点，就说 «banco» tiene doble sentido。"
+          },
+          "examples": [
+            {
+              "es": "Te espero en el banco del parque.",
+              "en": "I'll wait for you on the bench in the park.",
+              "it": "Ti aspetto sulla panchina del parco.",
+              "uk": "Чекатиму на тебе на лавці в парку.",
+              "de": "Ich warte auf dich auf der Bank im Park.",
+              "fr": "Je t'attends sur le banc du parc.",
+              "pt": "Espero você no banco do parque.",
+              "zh": "我在公园的长椅上等你。"
+            },
+            {
+              "es": "Voy al banco, pero al del parque: no tengo dinero.",
+              "en": "I'm going to the bank… the one in the park, the bench: I've got no money.",
+              "it": "Vado in banca… anzi, sulla panchina del parco: non ho soldi.",
+              "uk": "Я йду в банк… той, що в парку, на лавку: грошей у мене немає.",
+              "de": "Ich gehe zur Bank … zu der im Park, der Sitzbank: Ich habe kein Geld.",
+              "fr": "Je vais à la banque… enfin, au banc du parc : je n'ai pas d'argent.",
+              "pt": "Vou ao banco… mas ao do parque, o de sentar: estou sem dinheiro.",
+              "zh": "我要去 banco……不过是公园里那个，长椅：我没钱了。"
+            },
+            {
+              "es": "«Banco» tiene doble sentido.",
+              "en": "«Banco» has a double meaning.",
+              "it": "«Banco» ha un doppio senso.",
+              "uk": "«Banco» має подвійне значення.",
+              "de": "«Banco» hat einen doppelten Sinn.",
+              "fr": "«Banco» a un double sens.",
+              "pt": "«Banco» tem duplo sentido.",
+              "zh": "«Banco» 有两个意思。"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Voy al banco, pero al del ",
+          "after": ": no tengo dinero.",
+          "options": [
+            "parque",
+            "centro"
+          ],
+          "answer": "parque",
+          "en": "I'm going to the bank… the one in the park, the bench: I've got no money.",
+          "it": "Vado in banca… anzi, sulla panchina del parco: non ho soldi.",
+          "uk": "Я йду в банк… той, що в парку, на лавку: грошей у мене немає.",
+          "de": "Ich gehe zur Bank … zu der im Park, der Sitzbank: Ich habe kein Geld.",
+          "fr": "Je vais à la banque… enfin, au banc du parc : je n'ai pas d'argent.",
+          "pt": "Vou ao banco… mas ao do parque, o de sentar: estou sem dinheiro.",
+          "zh": "我要去 banco……不过是公园里那个，长椅：我没钱了。",
+          "hint": {
+            "en": "The joke: with no money, the only banco left is the bench in the park.",
+            "it": "La battuta: senza soldi, l'unico banco che resta è la panchina del parco.",
+            "uk": "Жарт у тому, що без грошей тобі лишається тільки banco — лавка в парку.",
+            "de": "Der Witz: Ohne Geld bleibt als banco nur die Sitzbank im Park.",
+            "fr": "La blague : sans argent, le seul banco qui reste, c'est le banc du parc. (jeu de mots : banco = banque et banc)",
+            "pt": "A piada: sem dinheiro, o único banco que sobra é o banco de sentar no parque.",
+            "zh": "笑点在于：没钱了，唯一还能去的 banco 就是公园里的长椅。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "A friend didn't laugh at your joke about the bank. Explain: «banco» has a double meaning.",
+            "it": "Un amico non ha riso alla tua battuta sulla banca. Spiega: «banco» ha un doppio senso.",
+            "uk": "Друг не засміявся з твого жарту про банк. Поясни: «banco» має подвійне значення.",
+            "de": "Ein Freund hat über deinen Witz mit der Bank nicht gelacht. Erklär es: «banco» hat einen doppelten Sinn.",
+            "fr": "Un ami n'a pas ri à ta blague sur la banque. Explique : «banco» a un double sens.",
+            "pt": "Um amigo não riu da sua piada sobre o banco. Explique: «banco» tem duplo sentido.",
+            "zh": "一个朋友没听懂你那个关于 banco 的笑话。解释一下：«banco» 有两个意思。"
+          },
+          "accepted": [
+            "«Banco» tiene doble sentido.",
+            "Banco tiene doble sentido."
+          ],
+          "tiles": [
+            "«Banco»",
+            "tiene",
+            "doble",
+            "sentido",
+            "es",
+            "dice"
+          ],
+          "en": "«Banco» has a double meaning.",
+          "it": "«Banco» ha un doppio senso.",
+          "uk": "«Banco» має подвійне значення.",
+          "de": "«Banco» hat einen doppelten Sinn.",
+          "fr": "«Banco» a un double sens.",
+          "pt": "«Banco» tem duplo sentido.",
+          "zh": "«Banco» 有两个意思。",
+          "hint": {
+            "en": "tener doble sentido: to have a double meaning.",
+            "it": "tener doble sentido: avere un doppio senso.",
+            "uk": "tener doble sentido: мати подвійне значення.",
+            "de": "tener doble sentido: einen doppelten Sinn haben.",
+            "fr": "tener doble sentido : avoir un double sens.",
+            "pt": "tener doble sentido: ter duplo sentido.",
+            "zh": "tener doble sentido：有双重含义。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "¿lo pillas?",
+              "kind": "chunk"
+            },
+            {
+              "text": "·",
+              "kind": "chunk"
+            },
+            {
+              "text": "no lo pillo",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "After a pun, check with ¿lo pillas? (get it?). If you don't get one, say no lo pillo and ask ¿qué quiere decir? Both are casual: use them with friends.",
+            "it": "Dopo un gioco di parole, controlla con ¿lo pillas? (ci arrivi?). Se non capisci, di' no lo pillo e chiedi ¿qué quiere decir? Sono colloquiali: usali con gli amici.",
+            "uk": "Після каламбуру перепитай: ¿lo pillas? (зрозумів?). Якщо ти не зрозумів жарт, скажи no lo pillo і спитай ¿qué quiere decir? Обидва вирази розмовні: вживай їх із друзями.",
+            "de": "Frag nach einem Wortspiel mit ¿lo pillas? (kapiert?) nach. Wenn du eins nicht verstehst, sag no lo pillo und frag ¿qué quiere decir? Beides ist locker: Benutz es mit Freunden.",
+            "fr": "Après un jeu de mots, vérifie avec ¿lo pillas? (tu piges ?). Si tu ne comprends pas, dis no lo pillo et demande ¿qué quiere decir? Les deux sont familiers : utilise-les entre amis.",
+            "pt": "Depois de um trocadilho, confira com ¿lo pillas? (sacou?). Se você não entender, diga no lo pillo e pergunte ¿qué quiere decir? As duas são informais: use com amigos.",
+            "zh": "说完一个双关语，可以问一句 ¿lo pillas?（懂了吗？）。如果你没听懂，就说 no lo pillo，再问 ¿qué quiere decir?。这两个说法都很口语：跟朋友之间用。"
+          },
+          "examples": [
+            {
+              "es": "«Rico» quiere decir dos cosas, ¿lo pillas?",
+              "en": "«Rico» means two things, get it?",
+              "it": "«Rico» vuol dire due cose, ci arrivi?",
+              "uk": "«Rico» означає дві речі, зрозумів?",
+              "de": "«Rico» bedeutet zwei Dinge, kapiert?",
+              "fr": "«Rico» veut dire deux choses, tu piges ?",
+              "pt": "«Rico» quer dizer duas coisas, sacou?",
+              "zh": "«Rico» 有两个意思，懂了吗？"
+            },
+            {
+              "es": "Perdona, no lo pillo.",
+              "en": "Sorry, I don't get it.",
+              "it": "Scusa, non ci arrivo.",
+              "uk": "Вибач, не доганяю.",
+              "de": "Sorry, ich kapier's nicht.",
+              "fr": "Désolé, je ne pige pas.",
+              "pt": "Desculpe, não saquei.",
+              "zh": "不好意思，我没懂。"
+            },
+            {
+              "es": "¿Qué quiere decir «listo» aquí?",
+              "en": "What does «listo» mean here?",
+              "it": "Che cosa vuol dire «listo» qui?",
+              "uk": "Що означає «listo» тут?",
+              "de": "Was bedeutet «listo» hier?",
+              "fr": "Qu'est-ce que «listo» veut dire ici ?",
+              "pt": "O que «listo» quer dizer aqui?",
+              "zh": "这里的 «listo» 是什么意思？"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Perdona, no lo ",
+          "after": ". ¿Qué quiere decir?",
+          "options": [
+            "pillo",
+            "pillas"
+          ],
+          "answer": "pillo",
+          "en": "Sorry, I don't get it. What does it mean?",
+          "it": "Scusa, non ci arrivo. Che cosa vuol dire?",
+          "uk": "Вибач, не доганяю. Що це означає?",
+          "de": "Sorry, ich kapier's nicht. Was bedeutet das?",
+          "fr": "Désolé, je ne pige pas. Qu'est-ce que ça veut dire ?",
+          "pt": "Desculpe, não saquei. O que quer dizer?",
+          "zh": "不好意思，我没懂。这是什么意思？",
+          "hint": {
+            "en": "I don't get it: yo, so pillo.",
+            "it": "Non ci arrivo io: yo, quindi pillo.",
+            "uk": "«Я не доганяю»: yo, тому pillo.",
+            "de": "Ich kapier's nicht: yo, also pillo.",
+            "fr": "Je ne pige pas : yo, donc pillo.",
+            "pt": "Não saquei: yo, então pillo.",
+            "zh": "“我没懂”：主语是 yo，所以用 pillo。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "fire",
+          "before": "«Rico» quiere decir dos ",
+          "after": ", ¿lo pillas?",
+          "label": "things",
+          "accepted": [
+            "cosas"
+          ],
+          "en": "«Rico» means two things, get it?",
+          "it": "«Rico» vuol dire due cose, ci arrivi?",
+          "uk": "«Rico» означає дві речі, зрозумів?",
+          "de": "«Rico» bedeutet zwei Dinge, kapiert?",
+          "fr": "«Rico» veut dire deux choses, tu piges ?",
+          "pt": "«Rico» quer dizer duas coisas, sacou?",
+          "zh": "«Rico» 有两个意思，懂了吗？",
+          "hint": {
+            "en": "dos cosas: two things.",
+            "it": "dos cosas: due cose.",
+            "uk": "dos cosas: дві речі.",
+            "de": "dos cosas: zwei Dinge.",
+            "fr": "dos cosas : deux choses.",
+            "pt": "dos cosas: duas coisas.",
+            "zh": "dos cosas：两个意思，两样东西。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "Mi jefe ",
+          "after": " muy rico: tiene tres pisos.",
+          "options": [
+            "es",
+            "está"
+          ],
+          "answer": "es",
+          "en": "My boss is very rich: he's got three flats.",
+          "it": "Il mio capo è molto ricco: ha tre appartamenti.",
+          "uk": "Мій начальник дуже багатий: у нього три квартири.",
+          "de": "Mein Chef ist sehr reich: Er hat drei Wohnungen.",
+          "fr": "Mon patron est très riche : il a trois appartements.",
+          "pt": "Meu chefe é muito rico: tem três apartamentos.",
+          "zh": "我老板很有钱：他有三套房子。",
+          "hint": {
+            "en": "Rich is ser rico; está rico would mean he tastes good.",
+            "it": "Ricco è ser rico; está rico vorrebbe dire che è buono da mangiare.",
+            "uk": "«Багатий» — це ser rico; está rico означало б, що він смачний.",
+            "de": "Reich ist ser rico; está rico würde heißen, er schmeckt gut.",
+            "fr": "Riche se dit ser rico ; está rico voudrait dire qu'il a bon goût (à manger).",
+            "pt": "Rico é ser rico; está rico significaria que ele é gostoso.",
+            "zh": "“有钱”是 ser rico；está rico 的意思会变成“他很好吃”。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "¿Ya ",
+          "after": " lista? El tren sale en diez minutos.",
+          "options": [
+            "estás",
+            "eres"
+          ],
+          "answer": "estás",
+          "en": "Are you ready yet? The train leaves in ten minutes.",
+          "it": "Sei già pronta? Il treno parte tra dieci minuti.",
+          "uk": "Ти вже готова? Потяг відходить за десять хвилин.",
+          "de": "Bist du endlich fertig? Der Zug fährt in zehn Minuten. (zu einer Frau)",
+          "fr": "Tu es enfin prête ? Le train part dans dix minutes.",
+          "pt": "Você já está pronta? O trem sai em dez minutos.",
+          "zh": "你准备好了没有？火车还有十分钟就开了。",
+          "hint": {
+            "en": "Ready is estar lista.",
+            "it": "Pronta è estar lista.",
+            "uk": "«Готова» — це estar lista.",
+            "de": "Fertig, bereit ist estar lista.",
+            "fr": "Prête se dit estar lista.",
+            "pt": "Pronta é estar lista.",
+            "zh": "“准备好了”是 estar lista。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "mix",
+          "intention": {
+            "en": "A friend tells you a pun and you don't get it. Say: sorry, I don't get it. What does it mean?",
+            "it": "Un amico ti fa un gioco di parole e non ci arrivi. Di': scusa, non ci arrivo. Che cosa vuol dire?",
+            "uk": "Друг розповідає тобі каламбур, а ти його не розумієш. Скажи: вибач, не доганяю. Що це означає?",
+            "de": "Ein Freund erzählt dir ein Wortspiel, und du verstehst es nicht. Sag: Sorry, ich kapier's nicht. Was bedeutet das?",
+            "fr": "Un ami te fait un jeu de mots et tu ne le comprends pas. Dis : désolé, je ne pige pas. Qu'est-ce que ça veut dire ?",
+            "pt": "Um amigo conta um trocadilho e você não entende. Diga: desculpe, não saquei. O que quer dizer?",
+            "zh": "一个朋友给你讲了个双关笑话，你没听懂。说：不好意思，我没懂。这是什么意思？"
+          },
+          "accepted": [
+            "Perdona, no lo pillo. ¿Qué quiere decir?",
+            "Lo siento, no lo pillo. ¿Qué quiere decir?",
+            "Perdona, no lo entiendo. ¿Qué quiere decir?"
+          ],
+          "tiles": [
+            "Perdona,",
+            "no lo pillo.",
+            "¿Qué",
+            "quiere decir?",
+            "pillas",
+            "dice"
+          ],
+          "en": "Sorry, I don't get it. What does it mean?",
+          "it": "Scusa, non ci arrivo. Che cosa vuol dire?",
+          "uk": "Вибач, не доганяю. Що це означає?",
+          "de": "Sorry, ich kapier's nicht. Was bedeutet das?",
+          "fr": "Désolé, je ne pige pas. Qu'est-ce que ça veut dire ?",
+          "pt": "Desculpe, não saquei. O que quer dizer?",
+          "zh": "不好意思，我没懂。这是什么意思？",
+          "hint": {
+            "en": "no lo pillo for yo; ¿qué quiere decir? to ask the meaning.",
+            "it": "no lo pillo per yo; ¿qué quiere decir? per chiedere il significato.",
+            "uk": "no lo pillo для yo; ¿qué quiere decir?, щоб спитати значення.",
+            "de": "no lo pillo für yo; ¿qué quiere decir? fragt nach der Bedeutung.",
+            "fr": "no lo pillo pour yo ; ¿qué quiere decir? pour demander le sens.",
+            "pt": "no lo pillo para yo; ¿qué quiere decir? para perguntar o significado.",
+            "zh": "主语是 yo 就说 no lo pillo；问意思用 ¿qué quiere decir?"
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "A friend has made a paella and you make a joke about it. Write in Spanish: «The paella is delicious, but I'm not rich: I'm broke.»",
+            "it": "Un amico ha fatto una paella e tu ci scherzi su. Scrivi in spagnolo: «La paella è buonissima, ma io non sono ricco: sono al verde.»",
+            "uk": "Друг приготував паелу, і ти жартуєш про неї. Напиши іспанською: «Паела дуже смачна, але я не багатий: у мене ні копійки.»",
+            "de": "Ein Freund hat eine Paella gemacht, und du machst einen Witz darüber. Schreib auf Spanisch: «Die Paella ist sehr lecker, aber ich bin nicht reich: Ich bin pleite.»",
+            "fr": "Un ami a fait une paella et tu fais une blague dessus. Écris en espagnol : «La paella est délicieuse, mais moi, je ne suis pas riche : je suis fauché.»",
+            "pt": "Um amigo fez uma paella e você faz uma piada sobre ela. Escreva em espanhol: «A paella está uma delícia, mas eu não sou rico: estou duro.»",
+            "zh": "一个朋友做了海鲜饭，你拿它开了个玩笑。用西班牙语写：«这海鲜饭很好吃，可我并不富有：我身无分文。»"
+          },
+          "accepted": [
+            "La paella está muy rica, pero yo no soy rico: estoy sin blanca.",
+            "La paella está muy rica, pero yo no soy rica: estoy sin blanca.",
+            "La paella está muy rica, pero no soy rico: estoy sin blanca.",
+            "La paella está muy rica, pero no soy rica: estoy sin blanca.",
+            "La paella está buenísima, pero yo no soy rico: estoy sin blanca.",
+            "La paella está buenísima, pero yo no soy rica: estoy sin blanca."
+          ],
+          "model": {
+            "es": "La paella está muy rica, pero yo no soy rico: estoy sin blanca.",
+            "en": "The paella is delicious, but I'm not rich: I'm broke.",
+            "it": "La paella è buonissima, ma io non sono ricco: sono al verde.",
+            "uk": "Паела дуже смачна, але я не багатий: у мене ні копійки.",
+            "de": "Die Paella ist sehr lecker, aber ich bin nicht reich: Ich bin pleite.",
+            "fr": "La paella est délicieuse, mais moi, je ne suis pas riche : je suis fauché.",
+            "pt": "A paella está uma delícia, mas eu não sou rico: estou duro.",
+            "zh": "这海鲜饭很好吃，可我并不富有：我身无分文。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u51l3",
+      "goal": {
+        "en": "Tell a short joke the Spanish way: ask first (¿te cuento un chiste?, ¿te sabes el chiste de…?), tell it in the present with esto es un hombre que…, keep the funny line for the end, and react with ¡qué bueno!, ¡qué malo! or no me hace gracia.",
+        "it": "Racconta una barzelletta breve alla spagnola: chiedi prima (¿te cuento un chiste?, ¿te sabes el chiste de…?), raccontala al presente con esto es un hombre que…, tieni la battuta per la fine e reagisci con ¡qué bueno!, ¡qué malo! o no me hace gracia.",
+        "uk": "Розкажи короткий жарт по-іспанськи: спершу спитай (¿te cuento un chiste?, ¿te sabes el chiste de…?), розповідай у теперішньому часі з esto es un hombre que…, смішну фразу залиш на кінець і реагуй так: ¡qué bueno!, ¡qué malo! або no me hace gracia.",
+        "de": "Erzähl einen kurzen Witz auf Spanisch: Frag zuerst (¿te cuento un chiste?, ¿te sabes el chiste de…?), erzähl ihn im Präsens mit esto es un hombre que…, heb die Pointe für den Schluss auf und reagier mit ¡qué bueno!, ¡qué malo! oder no me hace gracia.",
+        "fr": "Raconte une petite blague à l'espagnole : demande d'abord (¿te cuento un chiste?, ¿te sabes el chiste de…?), raconte-la au présent avec esto es un hombre que…, garde la chute pour la fin, et réagis avec ¡qué bueno!, ¡qué malo! ou no me hace gracia.",
+        "pt": "Conte uma piada curta do jeito espanhol: pergunte antes (¿te cuento un chiste?, ¿te sabes el chiste de…?), conte no presente com esto es un hombre que…, guarde a parte engraçada para o final e reaja com ¡qué bueno!, ¡qué malo! ou no me hace gracia.",
+        "zh": "用西班牙人的方式讲个小笑话：先问一句（¿te cuento un chiste?、¿te sabes el chiste de…?），用现在时讲，开头用 esto es un hombre que…，把笑点留到最后，再用 ¡qué bueno!、¡qué malo! 或 no me hace gracia 来回应。"
+      },
+      "target": {
+        "es": "¿Te cuento un chiste? Es muy bueno.",
+        "en": "Shall I tell you a joke? It's really good.",
+        "it": "Ti racconto una barzelletta? È molto bella.",
+        "uk": "Розповісти тобі анекдот? Він дуже хороший.",
+        "de": "Soll ich dir einen Witz erzählen? Der ist echt gut.",
+        "fr": "Je te raconte une blague ? Elle est très bonne.",
+        "pt": "Posso te contar uma piada? É muito boa.",
+        "zh": "我给你讲个笑话吧？特别好笑。"
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "el chiste",
+              "en": "the joke",
+              "it": "la barzelletta",
+              "uk": "жарт, анекдот",
+              "de": "der Witz",
+              "fr": "la blague",
+              "pt": "a piada",
+              "zh": "笑话",
+              "kind": "chunk"
+            },
+            {
+              "es": "contar un chiste",
+              "en": "to tell a joke",
+              "it": "raccontare una barzelletta",
+              "uk": "розповісти анекдот",
+              "de": "einen Witz erzählen",
+              "fr": "raconter une blague",
+              "pt": "contar uma piada",
+              "zh": "讲笑话",
+              "kind": "stem"
+            },
+            {
+              "es": "¿te sabes el chiste de…?",
+              "en": "do you know the one about…?",
+              "it": "la sai quella di…?",
+              "uk": "знаєш анекдот про…?",
+              "de": "kennst du den mit …?",
+              "fr": "tu connais celle de… ?",
+              "pt": "você conhece aquela do…?",
+              "zh": "你听过……的那个笑话吗？",
+              "kind": "chunk"
+            },
+            {
+              "es": "hacer gracia",
+              "en": "to be funny (to someone): me hace gracia",
+              "it": "far ridere: me hace gracia (mi fa ridere)",
+              "uk": "смішити (когось): me hace gracia — мені смішно",
+              "de": "lustig sein (für jemanden): me hace gracia = ich finde es lustig",
+              "fr": "faire rire (quelqu'un) : me hace gracia",
+              "pt": "achar graça (alguém): me hace gracia",
+              "zh": "让（某人）觉得好笑：me hace gracia",
+              "kind": "chunk"
+            },
+            {
+              "es": "el hombre",
+              "en": "the man",
+              "it": "l'uomo",
+              "uk": "чоловік",
+              "de": "der Mann",
+              "fr": "l'homme",
+              "pt": "o homem",
+              "zh": "男人，人",
+              "kind": "chunk"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "¿te cuento",
+              "kind": "stem"
+            },
+            {
+              "text": "+",
+              "kind": "chunk"
+            },
+            {
+              "text": "un chiste?",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "Before a joke, ask: ¿te cuento un chiste? (shall I tell you a joke?) or ¿te sabes el chiste de…? (do you know the one about…?). Then everyone is ready to listen.",
+            "it": "Prima di una barzelletta, chiedi: ¿te cuento un chiste? (ti racconto una barzelletta?) o ¿te sabes el chiste de…? (la sai quella di…?). Così tutti sono pronti ad ascoltare.",
+            "uk": "Перед жартом спитай: ¿te cuento un chiste? (розповісти тобі анекдот?) або ¿te sabes el chiste de…? (знаєш анекдот про…?). Тоді всі готові слухати.",
+            "de": "Frag vor einem Witz: ¿te cuento un chiste? (soll ich dir einen Witz erzählen?) oder ¿te sabes el chiste de…? (kennst du den mit …?). Dann sind alle bereit zuzuhören.",
+            "fr": "Avant une blague, demande : ¿te cuento un chiste? (je te raconte une blague ?) ou ¿te sabes el chiste de…? (tu connais celle de… ?). Comme ça, tout le monde est prêt à écouter.",
+            "pt": "Antes de uma piada, pergunte: ¿te cuento un chiste? (posso te contar uma piada?) ou ¿te sabes el chiste de…? (você conhece aquela do…?). Assim todo mundo fica pronto para ouvir.",
+            "zh": "讲笑话之前先问：¿te cuento un chiste?（我给你讲个笑话吧？）或 ¿te sabes el chiste de…?（你听过……的那个笑话吗？）。这样大家就都准备好听了。"
+          },
+          "examples": [
+            {
+              "es": "¿Te cuento un chiste?",
+              "en": "Shall I tell you a joke?",
+              "it": "Ti racconto una barzelletta?",
+              "uk": "Розповісти тобі анекдот?",
+              "de": "Soll ich dir einen Witz erzählen?",
+              "fr": "Je te raconte une blague ?",
+              "pt": "Posso te contar uma piada?",
+              "zh": "我给你讲个笑话吧？"
+            },
+            {
+              "es": "¿Te sabes el chiste del semáforo?",
+              "en": "Do you know the one about the traffic light?",
+              "it": "La sai quella del semaforo?",
+              "uk": "Знаєш анекдот про світлофор?",
+              "de": "Kennst du den mit der Ampel?",
+              "fr": "Tu connais celle du feu rouge ?",
+              "pt": "Você conhece aquela do semáforo?",
+              "zh": "你听过红绿灯的那个笑话吗？"
+            },
+            {
+              "es": "Te cuento uno muy bueno.",
+              "en": "I'll tell you a really good one.",
+              "it": "Te ne racconto una molto bella.",
+              "uk": "Розповім тобі дуже хороший.",
+              "de": "Ich erzähl dir einen richtig guten.",
+              "fr": "Je vais t'en raconter une très bonne.",
+              "pt": "Vou te contar uma muito boa.",
+              "zh": "我给你讲个特别好笑的。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "cuento",
+              "en": "I tell (te cuento: I'll tell you)",
+              "it": "(io) racconto (te cuento: ti racconto)",
+              "uk": "розповідаю (te cuento: я тобі розповім)",
+              "de": "ich erzähle (te cuento: ich erzähl dir)",
+              "fr": "je raconte (te cuento : je te raconte)",
+              "pt": "eu conto (te cuento: vou te contar)",
+              "zh": "我讲（te cuento：我给你讲）"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "¿Te ",
+          "after": " un chiste?",
+          "options": [
+            "cuento",
+            "contar"
+          ],
+          "answer": "cuento",
+          "en": "Shall I tell you a joke?",
+          "it": "Ti racconto una barzelletta?",
+          "uk": "Розповісти тобі анекдот?",
+          "de": "Soll ich dir einen Witz erzählen?",
+          "fr": "Je te raconte une blague ?",
+          "pt": "Posso te contar uma piada?",
+          "zh": "我给你讲个笑话吧？",
+          "hint": {
+            "en": "Asking to tell one: yo, so cuento.",
+            "it": "Chiedi se la racconti tu: yo, quindi cuento.",
+            "uk": "Пропонуєш розповісти: yo, тому cuento.",
+            "de": "Du fragst, ob du einen erzählen sollst: yo, also cuento.",
+            "fr": "Tu proposes d'en raconter une : yo, donc cuento.",
+            "pt": "Para se oferecer para contar uma: yo, então cuento.",
+            "zh": "提议讲笑话的是 yo，所以用 cuento。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "Before telling a friend a joke, ask: do you know the one about the traffic light?",
+            "it": "Prima di raccontare una barzelletta a un amico, chiedi: la sai quella del semaforo?",
+            "uk": "Перш ніж розповісти другові анекдот, спитай: знаєш анекдот про світлофор?",
+            "de": "Bevor du einem Freund einen Witz erzählst, frag: Kennst du den mit der Ampel?",
+            "fr": "Avant de raconter une blague à un ami, demande : tu connais celle du feu rouge ?",
+            "pt": "Antes de contar uma piada a um amigo, pergunte: você conhece aquela do semáforo?",
+            "zh": "给朋友讲笑话之前先问：你听过红绿灯的那个笑话吗？"
+          },
+          "accepted": [
+            "¿Te sabes el chiste del semáforo?"
+          ],
+          "tiles": [
+            "¿Te sabes",
+            "el chiste",
+            "del semáforo?",
+            "sé",
+            "cuento"
+          ],
+          "en": "Do you know the one about the traffic light?",
+          "it": "La sai quella del semaforo?",
+          "uk": "Знаєш анекдот про світлофор?",
+          "de": "Kennst du den mit der Ampel?",
+          "fr": "Tu connais celle du feu rouge ?",
+          "pt": "Você conhece aquela do semáforo?",
+          "zh": "你听过红绿灯的那个笑话吗？",
+          "hint": {
+            "en": "¿te sabes el chiste de…? (de + el = del).",
+            "it": "¿te sabes el chiste de…? (de + el = del).",
+            "uk": "¿te sabes el chiste de…? (de + el = del).",
+            "de": "¿te sabes el chiste de…? (de + el = del).",
+            "fr": "¿te sabes el chiste de…? (de + el = del).",
+            "pt": "¿te sabes el chiste de…? (de + el = del).",
+            "zh": "¿te sabes el chiste de…?（de + el = del）。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "esto es un hombre que…",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "Tell a joke in the present, in short sentences, and keep the funny line for the very end. A classic start: esto es un hombre que… (there's this man who…).",
+            "it": "Racconta una barzelletta al presente, con frasi brevi, e tieni la battuta per la fine. Un inizio classico: esto es un hombre que… (c'è un uomo che…).",
+            "uk": "Розповідай анекдот у теперішньому часі, короткими реченнями, а смішну фразу залиш на самий кінець. Класичний початок: esto es un hombre que… (приходить якось чоловік…).",
+            "de": "Erzähl einen Witz im Präsens, in kurzen Sätzen, und heb die Pointe für ganz am Ende auf. Ein klassischer Anfang: esto es un hombre que… (wie im Deutschen „Geht ein Mann …“).",
+            "fr": "Raconte une blague au présent, avec des phrases courtes, et garde la chute pour la toute fin. Un début classique : esto es un hombre que… (c'est l'histoire d'un homme qui…).",
+            "pt": "Conte a piada no presente, em frases curtas, e guarde a parte engraçada para o finalzinho. Um começo clássico: esto es un hombre que… (é um homem que…, como o nosso «era uma vez um cara que…»).",
+            "zh": "讲笑话用现在时，句子要短，笑点要留到最后。经典的开头是：esto es un hombre que…（有这么一个人……）。"
+          },
+          "examples": [
+            {
+              "es": "Esto es un hombre que va al médico y le dice: «Nadie me escucha».",
+              "en": "There's this man who goes to the doctor and says: «Nobody listens to me».",
+              "it": "C'è un uomo che va dal medico e gli dice: «Nessuno mi ascolta».",
+              "uk": "Приходить якось чоловік до лікаря і каже: «Мене ніхто не слухає».",
+              "de": "Geht ein Mann zum Arzt und sagt zu ihm: „Niemand hört mir zu.“",
+              "fr": "C'est l'histoire d'un homme qui va chez le médecin et lui dit : «Personne ne m'écoute».",
+              "pt": "É um homem que vai ao médico e diz: «Ninguém me escuta».",
+              "zh": "有这么一个人去看医生，他说：«谁都不听我说话。»"
+            },
+            {
+              "es": "Y el médico dice: «¡El siguiente!»",
+              "en": "And the doctor says: «Next!»",
+              "it": "E il medico dice: «Il prossimo!»",
+              "uk": "А лікар каже: «Наступний!»",
+              "de": "Und der Arzt sagt: „Der Nächste!“",
+              "fr": "Et le médecin dit : «Au suivant !»",
+              "pt": "E o médico diz: «O próximo!»",
+              "zh": "医生说：«下一位！»"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Esto ",
+          "after": " un hombre que va al médico.",
+          "options": [
+            "es",
+            "está",
+            "hay"
+          ],
+          "answer": "es",
+          "en": "There's this man who goes to the doctor.",
+          "it": "C'è un uomo che va dal medico.",
+          "uk": "Приходить якось чоловік до лікаря.",
+          "de": "Geht ein Mann zum Arzt.",
+          "fr": "C'est l'histoire d'un homme qui va chez le médecin.",
+          "pt": "É um homem que vai ao médico.",
+          "zh": "有这么一个人去看医生。",
+          "hint": {
+            "en": "The classic start is esto es un hombre que…",
+            "it": "L'inizio classico è esto es un hombre que…",
+            "uk": "Класичний початок — esto es un hombre que…",
+            "de": "Der klassische Anfang ist esto es un hombre que…",
+            "fr": "Le début classique, c'est esto es un hombre que…",
+            "pt": "O começo clássico é esto es un hombre que…",
+            "zh": "经典开头是 esto es un hombre que…"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "fire",
+          "before": "Esto es un hombre que va al médico y el médico le ",
+          "after": ": «¡El siguiente!»",
+          "label": "decir",
+          "accepted": [
+            "dice"
+          ],
+          "en": "There's this man who goes to the doctor and the doctor says to him: «Next!»",
+          "it": "C'è un uomo che va dal medico e il medico gli dice: «Il prossimo!»",
+          "uk": "Приходить якось чоловік до лікаря, а лікар йому каже: «Наступний!»",
+          "de": "Geht ein Mann zum Arzt, und der Arzt sagt zu ihm: „Der Nächste!“",
+          "fr": "C'est l'histoire d'un homme qui va chez le médecin, et le médecin lui dit : «Au suivant !»",
+          "pt": "É um homem que vai ao médico e o médico diz para ele: «O próximo!»",
+          "zh": "有这么一个人去看医生，医生对他说：«下一位！»",
+          "hint": {
+            "en": "Jokes are told in the present: dice.",
+            "it": "Le barzellette si raccontano al presente: dice.",
+            "uk": "Анекдоти розповідають у теперішньому часі: dice.",
+            "de": "Witze erzählt man im Präsens: dice.",
+            "fr": "Les blagues se racontent au présent : dice.",
+            "pt": "As piadas são contadas no presente: dice.",
+            "zh": "笑话用现在时讲：dice。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "¡qué bueno!",
+              "kind": "chunk"
+            },
+            {
+              "text": "·",
+              "kind": "chunk"
+            },
+            {
+              "text": "¡qué malo!",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "React to a joke with ¡qué bueno! when you like it, and ¡qué malo! for a joke so bad it's funny. Me hace mucha gracia: I find it really funny. If you don't: no me hace gracia.",
+            "it": "Reagisci a una barzelletta con ¡qué bueno! se ti piace, e ¡qué malo! per una battuta così brutta che fa ridere. Me hace mucha gracia: mi fa molto ridere. Se non ti piace: no me hace gracia.",
+            "uk": "Реагуй на анекдот так: ¡qué bueno!, коли він тобі подобається, і ¡qué malo! — про жарт, настільки поганий, що аж смішний. Me hace mucha gracia: мені дуже смішно. Якщо не смішно: no me hace gracia.",
+            "de": "Reagier auf einen Witz mit ¡qué bueno!, wenn er dir gefällt, und mit ¡qué malo! bei einem Witz, der so schlecht ist, dass er schon wieder lustig ist. Me hace mucha gracia: Ich finde ihn echt lustig. Wenn nicht: no me hace gracia.",
+            "fr": "Réagis à une blague avec ¡qué bueno! quand elle te plaît, et ¡qué malo! pour une blague tellement nulle qu'elle en devient drôle. Me hace mucha gracia : je la trouve très drôle. Sinon : no me hace gracia.",
+            "pt": "Reaja a uma piada com ¡qué bueno! quando gostar, e com ¡qué malo! para uma piada tão ruim que fica engraçada. Me hace mucha gracia: acho muita graça. Se não achar: no me hace gracia.",
+            "zh": "觉得笑话好笑，就说 ¡qué bueno!；笑话烂到好笑，就说 ¡qué malo!。me hace mucha gracia：我觉得很好笑。不好笑的话：no me hace gracia。"
+          },
+          "examples": [
+            {
+              "es": "¡Qué bueno! Me hace mucha gracia.",
+              "en": "That's a good one! I find it really funny.",
+              "it": "Bellissima! Mi fa molto ridere.",
+              "uk": "Оце добрий! Мені дуже смішно.",
+              "de": "Der ist gut! Ich finde ihn echt lustig.",
+              "fr": "Elle est bonne ! Je la trouve très drôle.",
+              "pt": "Essa é boa! Achei muita graça.",
+              "zh": "这个好！我觉得太好笑了。"
+            },
+            {
+              "es": "¡Qué malo! Pero me encanta.",
+              "en": "That's terrible! But I love it.",
+              "it": "Che battuta pessima! Però mi piace un sacco.",
+              "uk": "Жахливий! Але мені подобається.",
+              "de": "Der ist ja furchtbar! Aber ich liebe ihn.",
+              "fr": "Elle est nulle ! Mais j'adore.",
+              "pt": "Que piada ruim! Mas eu adoro.",
+              "zh": "太烂了！不过我好喜欢。"
+            },
+            {
+              "es": "Lo siento, no me hace gracia.",
+              "en": "Sorry, I don't find it funny.",
+              "it": "Scusa, non mi fa ridere.",
+              "uk": "Вибач, мені не смішно.",
+              "de": "Tut mir leid, ich finde ihn nicht lustig.",
+              "fr": "Désolé, je ne la trouve pas drôle.",
+              "pt": "Desculpe, não achei graça.",
+              "zh": "不好意思，我不觉得好笑。"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "¡Qué bueno! Me ",
+          "after": " mucha gracia.",
+          "options": [
+            "hace",
+            "hago",
+            "tiene"
+          ],
+          "answer": "hace",
+          "en": "That's a good one! I find it really funny.",
+          "it": "Bellissima! Mi fa molto ridere.",
+          "uk": "Оце добрий! Мені дуже смішно.",
+          "de": "Der ist gut! Ich finde ihn echt lustig.",
+          "fr": "Elle est bonne ! Je la trouve très drôle.",
+          "pt": "Essa é boa! Achei muita graça.",
+          "zh": "这个好！我觉得太好笑了。",
+          "hint": {
+            "en": "The joke is the subject: me hace gracia.",
+            "it": "Il soggetto è la barzelletta: me hace gracia.",
+            "uk": "Підмет тут — анекдот: me hace gracia.",
+            "de": "Der Witz ist das Subjekt: me hace gracia.",
+            "fr": "La blague est le sujet : me hace gracia.",
+            "pt": "A piada é o sujeito: me hace gracia.",
+            "zh": "笑话是主语：me hace gracia。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "A friend tells you a terrible pun, and you laugh anyway. Say: that's terrible! But I love it.",
+            "it": "Un amico ti fa un gioco di parole pessimo, e ridi lo stesso. Di': che battuta pessima! Però mi piace un sacco.",
+            "uk": "Друг розповідає тобі жахливий каламбур, а ти все одно смієшся. Скажи: жахливий! Але мені подобається.",
+            "de": "Ein Freund erzählt dir ein furchtbares Wortspiel, und du lachst trotzdem. Sag: Der ist ja furchtbar! Aber ich liebe ihn.",
+            "fr": "Un ami te fait un jeu de mots nul, et tu ris quand même. Dis : elle est nulle ! Mais j'adore.",
+            "pt": "Um amigo conta um trocadilho horrível e você ri mesmo assim. Diga: que piada ruim! Mas eu adoro.",
+            "zh": "一个朋友讲了个超烂的谐音梗，你还是笑了。说：太烂了！不过我好喜欢。"
+          },
+          "accepted": [
+            "¡Qué malo! Pero me encanta."
+          ],
+          "tiles": [
+            "¡Qué malo!",
+            "Pero",
+            "me encanta",
+            "bueno",
+            "gusto"
+          ],
+          "en": "That's terrible! But I love it.",
+          "it": "Che battuta pessima! Però mi piace un sacco.",
+          "uk": "Жахливий! Але мені подобається.",
+          "de": "Der ist ja furchtbar! Aber ich liebe ihn.",
+          "fr": "Elle est nulle ! Mais j'adore.",
+          "pt": "Que piada ruim! Mas eu adoro.",
+          "zh": "太烂了！不过我好喜欢。",
+          "hint": {
+            "en": "¡qué malo! for a joke so bad it's funny.",
+            "it": "¡qué malo! per una battuta così brutta che fa ridere.",
+            "uk": "¡qué malo! — про жарт, настільки поганий, що аж смішний.",
+            "de": "¡qué malo! für einen Witz, der so schlecht ist, dass er lustig ist.",
+            "fr": "¡qué malo! pour une blague tellement nulle qu'elle en devient drôle.",
+            "pt": "¡qué malo! para uma piada tão ruim que fica engraçada.",
+            "zh": "笑话烂到好笑，就说 ¡qué malo!"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "¿Te ",
+          "after": " el chiste del semáforo?",
+          "options": [
+            "sabes",
+            "sé"
+          ],
+          "answer": "sabes",
+          "en": "Do you know the one about the traffic light?",
+          "it": "La sai quella del semaforo?",
+          "uk": "Знаєш анекдот про світлофор?",
+          "de": "Kennst du den mit der Ampel?",
+          "fr": "Tu connais celle du feu rouge ?",
+          "pt": "Você conhece aquela do semáforo?",
+          "zh": "你听过红绿灯的那个笑话吗？",
+          "hint": {
+            "en": "Asking tú: ¿te sabes…?",
+            "it": "Chiedi a tu: ¿te sabes…?",
+            "uk": "Питаєш у tú: ¿te sabes…?",
+            "de": "Du fragst mit tú: ¿te sabes…?",
+            "fr": "Tu poses la question avec tú : ¿te sabes…?",
+            "pt": "Perguntando a tú: ¿te sabes…?",
+            "zh": "问的是 tú：¿te sabes…?"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "mix",
+          "before": "Esto es un hombre que ",
+          "after": " al médico y le dice: «Nadie me escucha».",
+          "label": "ir",
+          "accepted": [
+            "va"
+          ],
+          "en": "There's this man who goes to the doctor and says: «Nobody listens to me».",
+          "it": "C'è un uomo che va dal medico e gli dice: «Nessuno mi ascolta».",
+          "uk": "Приходить якось чоловік до лікаря і каже: «Мене ніхто не слухає».",
+          "de": "Geht ein Mann zum Arzt und sagt: „Niemand hört mir zu.“",
+          "fr": "C'est l'histoire d'un homme qui va chez le médecin et dit : «Personne ne m'écoute».",
+          "pt": "É um homem que vai ao médico e diz: «Ninguém me escuta».",
+          "zh": "有这么一个人去看医生，他说：«谁都不听我说话。»",
+          "hint": {
+            "en": "Jokes are told in the present: va.",
+            "it": "Le barzellette si raccontano al presente: va.",
+            "uk": "Анекдоти розповідають у теперішньому часі: va.",
+            "de": "Witze erzählt man im Präsens: va.",
+            "fr": "Les blagues se racontent au présent : va.",
+            "pt": "As piadas são contadas no presente: va.",
+            "zh": "笑话用现在时讲：va。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "Lo siento, no me hace ",
+          "after": ".",
+          "options": [
+            "gracia",
+            "chiste"
+          ],
+          "answer": "gracia",
+          "en": "Sorry, I don't find it funny.",
+          "it": "Scusa, non mi fa ridere.",
+          "uk": "Вибач, мені не смішно.",
+          "de": "Tut mir leid, ich finde ihn nicht lustig.",
+          "fr": "Désolé, je ne la trouve pas drôle.",
+          "pt": "Desculpe, não achei graça.",
+          "zh": "不好意思，我不觉得好笑。",
+          "hint": {
+            "en": "The phrase is hacer gracia.",
+            "it": "L'espressione è hacer gracia.",
+            "uk": "Вираз — hacer gracia.",
+            "de": "Die Wendung ist hacer gracia.",
+            "fr": "L'expression, c'est hacer gracia.",
+            "pt": "A expressão é hacer gracia.",
+            "zh": "固定说法是 hacer gracia。"
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "You're having dinner with a friend. Write in Spanish: «Shall I tell you a joke? It's really good.»",
+            "it": "Sei a cena con un amico. Scrivi in spagnolo: «Ti racconto una barzelletta? È molto bella.»",
+            "uk": "Ти вечеряєш із другом. Напиши іспанською: «Розповісти тобі анекдот? Він дуже хороший.»",
+            "de": "Du bist mit einem Freund beim Abendessen. Schreib auf Spanisch: «Soll ich dir einen Witz erzählen? Der ist echt gut.»",
+            "fr": "Tu dînes avec un ami. Écris en espagnol : «Je te raconte une blague ? Elle est très bonne.»",
+            "pt": "Você está jantando com um amigo. Escreva em espanhol: «Posso te contar uma piada? É muito boa.»",
+            "zh": "你在和朋友吃晚饭。用西班牙语写：«我给你讲个笑话吧？特别好笑。»"
+          },
+          "accepted": [
+            "¿Te cuento un chiste? Es muy bueno.",
+            "¿Te cuento un chiste? Es buenísimo.",
+            "¿Te cuento un chiste? Es muy bueno, de verdad."
+          ],
+          "model": {
+            "es": "¿Te cuento un chiste? Es muy bueno.",
+            "en": "Shall I tell you a joke? It's really good.",
+            "it": "Ti racconto una barzelletta? È molto bella.",
+            "uk": "Розповісти тобі анекдот? Він дуже хороший.",
+            "de": "Soll ich dir einen Witz erzählen? Der ist echt gut.",
+            "fr": "Je te raconte une blague ? Elle est très bonne.",
+            "pt": "Posso te contar uma piada? É muito boa.",
+            "zh": "我给你讲个笑话吧？特别好笑。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u51l4",
+      "goal": {
+        "en": "Make a point with polite sarcasm: gracias por avisar and tómate tu tiempo, ¡ni que fueras mi jefe! (as if you were my boss!) with ni que + the imperfect subjunctive, and vamos, que… to say what the facts really mean.",
+        "it": "Fai notare qualcosa con un sarcasmo cortese: gracias por avisar e tómate tu tiempo, ¡ni que fueras mi jefe! (neanche fossi il mio capo!) con ni que + il congiuntivo imperfetto, e vamos, que… per dire che cosa significano davvero i fatti.",
+        "uk": "Висловлюй свою думку з ввічливим сарказмом: gracias por avisar і tómate tu tiempo, ¡ni que fueras mi jefe! (можна подумати, ти мій начальник!) з ni que + «imperfecto de subjuntivo» (минулий кон'юнктив), а також vamos, que…, щоб сказати, що насправді означають факти.",
+        "de": "Sag deine Meinung mit höflichem Sarkasmus: gracias por avisar und tómate tu tiempo, ¡ni que fueras mi jefe! (als ob du mein Chef wärst!) mit ni que + imperfecto de subjuntivo, und vamos, que…, um zu sagen, was die Fakten wirklich bedeuten.",
+        "fr": "Fais passer un message avec un sarcasme poli : gracias por avisar et tómate tu tiempo, ¡ni que fueras mi jefe! (comme si tu étais mon chef !) avec ni que + l'imperfecto de subjuntivo (l'imparfait du subjonctif), et vamos, que… pour dire ce que les faits veulent vraiment dire.",
+        "pt": "Defenda um ponto com sarcasmo educado: gracias por avisar e tómate tu tiempo, ¡ni que fueras mi jefe! (até parece que você é meu chefe!) com ni que + o imperfecto de subjuntivo (o pretérito imperfeito do subjuntivo), e vamos, que… para dizer o que os fatos realmente significam.",
+        "zh": "用客气的讽刺来表明态度：gracias por avisar 和 tómate tu tiempo，用 ni que + «imperfecto de subjuntivo»（过去时虚拟式）说 ¡ni que fueras mi jefe!（说得好像你是我老板似的！），再用 vamos, que… 点明事实到底意味着什么。"
+      },
+      "target": {
+        "es": "¡Ni que fueras mi jefe!",
+        "en": "As if you were my boss!",
+        "it": "Neanche fossi il mio capo!",
+        "uk": "Можна подумати, ти мій начальник!",
+        "de": "Als ob du mein Chef wärst!",
+        "fr": "Comme si tu étais mon chef !",
+        "pt": "Até parece que você é meu chefe!",
+        "zh": "说得好像你是我老板似的！"
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "el sarcasmo",
+              "en": "sarcasm",
+              "it": "il sarcasmo",
+              "uk": "сарказм",
+              "de": "der Sarkasmus",
+              "fr": "le sarcasme",
+              "pt": "o sarcasmo",
+              "zh": "讽刺，挖苦",
+              "kind": "chunk"
+            },
+            {
+              "es": "gracias por avisar",
+              "en": "thanks for letting me know",
+              "it": "grazie per avermi avvisato",
+              "uk": "дякую, що попередив(-ла)",
+              "de": "danke, dass du Bescheid sagst",
+              "fr": "merci de m'avoir prévenu",
+              "pt": "obrigado por avisar",
+              "zh": "谢谢你通知我",
+              "kind": "chunk"
+            },
+            {
+              "es": "tómate tu tiempo",
+              "en": "take your time",
+              "it": "prenditi il tuo tempo, fai con calma",
+              "uk": "не поспішай",
+              "de": "lass dir Zeit",
+              "fr": "prends ton temps",
+              "pt": "fique à vontade, sem pressa",
+              "zh": "你慢慢来，不着急",
+              "kind": "chunk"
+            },
+            {
+              "es": "ni que…",
+              "en": "as if… (+ imperfect subjunctive)",
+              "it": "neanche… (+ congiuntivo imperfetto)",
+              "uk": "можна подумати… (+ «imperfecto de subjuntivo»)",
+              "de": "als ob … (+ imperfecto de subjuntivo)",
+              "fr": "comme si… (+ imperfecto de subjuntivo)",
+              "pt": "até parece que… / como se… (+ imperfecto de subjuntivo)",
+              "zh": "说得好像……似的（+ 过去时虚拟式）",
+              "kind": "rail"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "gracias por avisar",
+              "kind": "chunk"
+            },
+            {
+              "text": "·",
+              "kind": "chunk"
+            },
+            {
+              "text": "tómate tu tiempo",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "Polite sarcasm uses kind words to point out a problem: gracias por avisar to someone who tells you too late, tómate tu tiempo to someone who's very slow. The words are polite; the message isn't.",
+            "it": "Il sarcasmo cortese usa parole gentili per far notare un problema: gracias por avisar a chi ti avvisa troppo tardi, tómate tu tiempo a chi è lentissimo. Le parole sono cortesi; il messaggio no.",
+            "uk": "Ввічливий сарказм використовує добрі слова, щоб вказати на проблему: gracias por avisar тому, хто сказав тобі запізно, tómate tu tiempo тому, хто дуже повільний. Слова ввічливі, а от посил — ні.",
+            "de": "Höflicher Sarkasmus benutzt freundliche Worte, um auf ein Problem hinzuweisen: gracias por avisar zu jemandem, der dir etwas zu spät sagt, tómate tu tiempo zu jemandem, der sehr langsam ist. Die Worte sind höflich, die Botschaft nicht.",
+            "fr": "Le sarcasme poli utilise des mots gentils pour signaler un problème : gracias por avisar à quelqu'un qui te prévient trop tard, tómate tu tiempo à quelqu'un de très lent. Les mots sont polis ; le message, non.",
+            "pt": "O sarcasmo educado usa palavras gentis para apontar um problema: gracias por avisar para quem avisa tarde demais, tómate tu tiempo para quem é muito lento. As palavras são educadas; a mensagem, não.",
+            "zh": "客气的讽刺是用好听的话来指出问题：对通知得太晚的人说 gracias por avisar，对动作特别慢的人说 tómate tu tiempo。话是客气的，意思可不客气。"
+          },
+          "examples": [
+            {
+              "es": "¿La reunión era ayer? Gracias por avisar.",
+              "en": "The meeting was yesterday? Thanks for letting me know.",
+              "it": "La riunione era ieri? Grazie per avermi avvisato.",
+              "uk": "Нарада була вчора? Дякую, що попередив(-ла).",
+              "de": "Die Besprechung war gestern? Danke, dass du Bescheid sagst.",
+              "fr": "La réunion, c'était hier ? Merci de m'avoir prévenu.",
+              "pt": "A reunião era ontem? Obrigado por avisar.",
+              "zh": "会议是昨天？谢谢你通知我啊。"
+            },
+            {
+              "es": "Tranquilo, tómate tu tiempo: solo llevo una hora esperando.",
+              "en": "Don't worry, take your time: I've only been waiting an hour.",
+              "it": "Tranquillo, fai con calma: aspetto solo da un'ora.",
+              "uk": "Спокійно, не поспішай: я чекаю всього лише годину.",
+              "de": "Keine Sorge, lass dir Zeit: Ich warte erst seit einer Stunde.",
+              "fr": "T'inquiète, prends ton temps : ça fait seulement une heure que j'attends.",
+              "pt": "Calma, fique à vontade: só estou esperando há uma hora.",
+              "zh": "别着急，你慢慢来：我也就等了一个小时而已。"
+            },
+            {
+              "es": "Muchas gracias por tu ayuda, de verdad.",
+              "en": "Thanks so much for your help, really. (to someone who did nothing)",
+              "it": "Grazie mille per il tuo aiuto, davvero. (a chi non ha fatto niente)",
+              "uk": "Щиро дякую за допомогу, справді. (тому, хто нічого не зробив)",
+              "de": "Vielen Dank für deine Hilfe, wirklich. (zu jemandem, der nichts getan hat)",
+              "fr": "Merci beaucoup pour ton aide, vraiment. (à quelqu'un qui n'a rien fait)",
+              "pt": "Muito obrigado pela sua ajuda, de verdade. (para alguém que não fez nada)",
+              "zh": "真是太感谢你的帮忙了，真的。（对一个什么都没做的人说）"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "gap",
+          "beat": "forge",
+          "before": "¿El examen era hoy? Gracias por ",
+          "after": ".",
+          "label": "to let (me) know",
+          "accepted": [
+            "avisar",
+            "avisarme"
+          ],
+          "en": "The exam was today? Thanks for letting me know.",
+          "it": "L'esame era oggi? Grazie per avermi avvisato.",
+          "uk": "Іспит був сьогодні? Дякую, що попередив(-ла).",
+          "de": "Die Prüfung war heute? Danke, dass du Bescheid sagst.",
+          "fr": "L'examen, c'était aujourd'hui ? Merci de m'avoir prévenu.",
+          "pt": "A prova era hoje? Obrigado por avisar.",
+          "zh": "考试是今天？谢谢你通知我啊。",
+          "hint": {
+            "en": "Too late to be useful: gracias por avisar.",
+            "it": "Troppo tardi per servire: gracias por avisar.",
+            "uk": "Запізно, щоб стати в пригоді: gracias por avisar.",
+            "de": "Zu spät, um zu nützen: gracias por avisar.",
+            "fr": "Trop tard pour servir à quelque chose : gracias por avisar.",
+            "pt": "Tarde demais para servir de algo: gracias por avisar.",
+            "zh": "晚到已经没用了：gracias por avisar。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "A colleague is taking ages to send you a document you need. Say, with polite sarcasm: don't worry, take your time.",
+            "it": "Un collega ci mette una vita a mandarti un documento che ti serve. Di', con sarcasmo cortese: tranquillo, fai con calma.",
+            "uk": "Колега вже цілу вічність не надсилає тобі потрібний документ. Скажи з ввічливим сарказмом: спокійно, не поспішай.",
+            "de": "Ein Kollege braucht ewig, um dir ein Dokument zu schicken, das du brauchst. Sag mit höflichem Sarkasmus: Keine Sorge, lass dir Zeit.",
+            "fr": "Un collègue met une éternité à t'envoyer un document dont tu as besoin. Dis-lui, avec un sarcasme poli : t'inquiète, prends ton temps.",
+            "pt": "Um colega está demorando uma eternidade para mandar um documento de que você precisa. Diga, com sarcasmo educado: calma, fique à vontade.",
+            "zh": "有个同事迟迟不把你要的文件发过来。用客气的讽刺说：别着急，你慢慢来。"
+          },
+          "accepted": [
+            "Tranquilo, tómate tu tiempo.",
+            "Tranquila, tómate tu tiempo.",
+            "No te preocupes, tómate tu tiempo."
+          ],
+          "tiles": [
+            "Tranquilo,",
+            "tómate",
+            "tu tiempo",
+            "toma",
+            "prisa"
+          ],
+          "en": "Don't worry, take your time.",
+          "it": "Tranquillo, fai con calma.",
+          "uk": "Спокійно, не поспішай.",
+          "de": "Keine Sorge, lass dir Zeit.",
+          "fr": "T'inquiète, prends ton temps.",
+          "pt": "Calma, fique à vontade.",
+          "zh": "别着急，你慢慢来。",
+          "hint": {
+            "en": "Kind words, clear message: tómate tu tiempo.",
+            "it": "Parole gentili, messaggio chiaro: tómate tu tiempo.",
+            "uk": "Добрі слова, ясний посил: tómate tu tiempo.",
+            "de": "Freundliche Worte, klare Botschaft: tómate tu tiempo.",
+            "fr": "Des mots gentils, un message clair : tómate tu tiempo.",
+            "pt": "Palavras gentis, mensagem clara: tómate tu tiempo.",
+            "zh": "话很客气，意思很明白：tómate tu tiempo。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "¡ni que",
+              "kind": "rail"
+            },
+            {
+              "text": "+",
+              "kind": "chunk"
+            },
+            {
+              "text": "fueras",
+              "kind": "stem"
+            },
+            {
+              "text": "…!",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "¡Ni que…! + the imperfect subjunctive means as if…!: you reject something with a sarcastic comparison. ¡Ni que fueras mi jefe! means you aren't my boss, so stop giving me orders.",
+            "it": "¡Ni que…! + il congiuntivo imperfetto vuol dire neanche…!: rifiuti qualcosa con un paragone sarcastico. ¡Ni que fueras mi jefe! vuol dire non sei il mio capo, quindi smettila di darmi ordini.",
+            "uk": "¡Ni que…! + «imperfecto de subjuntivo» означає «можна подумати…!»: ти відкидаєш щось саркастичним порівнянням. ¡Ni que fueras mi jefe! означає: ти не мій начальник, тож перестань мені наказувати.",
+            "de": "¡Ni que…! + imperfecto de subjuntivo (spanischer Konjunktiv Imperfekt) heißt als ob …!: Du weist etwas mit einem sarkastischen Vergleich zurück. Wie im Deutschen „Als ob du mein Chef wärst!“ steht danach eine Form der Unwirklichkeit. ¡Ni que fueras mi jefe! heißt: Du bist nicht mein Chef, also hör auf, mir Befehle zu geben.",
+            "fr": "¡Ni que…! + l'imperfecto de subjuntivo veut dire « comme si… ! » : tu rejettes quelque chose avec une comparaison sarcastique. ¡Ni que fueras mi jefe! veut dire : tu n'es pas mon chef, alors arrête de me donner des ordres. Attention : en français, « comme si » est suivi de l'imparfait de l'indicatif (comme si tu étais) ; en espagnol, il faut le subjonctif.",
+            "pt": "¡Ni que…! + o imperfecto de subjuntivo quer dizer «até parece que…!» ou «como se…!»: você rejeita algo com uma comparação sarcástica. ¡Ni que fueras mi jefe! quer dizer que você não é meu chefe, então pare de me dar ordens. Repare que em português dizemos «até parece que você é» (indicativo), mas em espanhol vem o subjuntivo: fueras.",
+            "zh": "¡Ni que…! + 过去时虚拟式的意思是“说得好像……似的！”：用一个讽刺的比较来反驳对方。¡Ni que fueras mi jefe! 的意思是：你又不是我老板，别对我指手画脚。"
+          },
+          "examples": [
+            {
+              "es": "¡Ni que fueras mi jefe!",
+              "en": "As if you were my boss!",
+              "it": "Neanche fossi il mio capo!",
+              "uk": "Можна подумати, ти мій начальник!",
+              "de": "Als ob du mein Chef wärst!",
+              "fr": "Comme si tu étais mon chef !",
+              "pt": "Até parece que você é meu chefe!",
+              "zh": "说得好像你是我老板似的！"
+            },
+            {
+              "es": "¡Ni que fuera tan difícil!",
+              "en": "As if it were that hard!",
+              "it": "Neanche fosse così difficile!",
+              "uk": "Можна подумати, що це так складно!",
+              "de": "Als ob das so schwer wäre!",
+              "fr": "Comme si c'était si difficile !",
+              "pt": "Até parece que é tão difícil!",
+              "zh": "说得好像这有多难似的！"
+            },
+            {
+              "es": "¡Ni que tuviera diez años!",
+              "en": "As if I were ten years old!",
+              "it": "Neanche avessi dieci anni!",
+              "uk": "Можна подумати, мені десять років!",
+              "de": "Als ob ich zehn Jahre alt wäre!",
+              "fr": "Comme si j'avais dix ans !",
+              "pt": "Até parece que eu tenho dez anos!",
+              "zh": "说得好像我才十岁似的！"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "¡Ni que ",
+          "after": " mi madre!",
+          "options": [
+            "fueras",
+            "eres",
+            "seas"
+          ],
+          "answer": "fueras",
+          "en": "As if you were my mother!",
+          "it": "Neanche fossi mia madre!",
+          "uk": "Можна подумати, ти моя мама!",
+          "de": "Als ob du meine Mutter wärst!",
+          "fr": "Comme si tu étais ma mère !",
+          "pt": "Até parece que você é minha mãe!",
+          "zh": "说得好像你是我妈似的！",
+          "hint": {
+            "en": "ni que + imperfect subjunctive: fueras.",
+            "it": "ni que + congiuntivo imperfetto: fueras.",
+            "uk": "ni que + «imperfecto de subjuntivo»: fueras.",
+            "de": "ni que + imperfecto de subjuntivo: fueras.",
+            "fr": "ni que + imperfecto de subjuntivo : fueras.",
+            "pt": "ni que + imperfecto de subjuntivo: fueras.",
+            "zh": "ni que + 过去时虚拟式：fueras。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "fire",
+          "before": "¡Ni que ",
+          "after": " tan difícil! Solo es una tortilla.",
+          "label": "ser",
+          "accepted": [
+            "fuera",
+            "fuese"
+          ],
+          "en": "As if it were that hard! It's only a tortilla.",
+          "it": "Neanche fosse così difficile! È solo una tortilla.",
+          "uk": "Можна подумати, що це так складно! Це ж просто тортилья.",
+          "de": "Als ob das so schwer wäre! Es ist doch nur eine Tortilla.",
+          "fr": "Comme si c'était si difficile ! Ce n'est qu'une tortilla.",
+          "pt": "Até parece que é tão difícil! É só uma tortilla.",
+          "zh": "说得好像这有多难似的！不就是个土豆饼嘛。",
+          "hint": {
+            "en": "ni que + imperfect subjunctive of ser: fuera.",
+            "it": "ni que + congiuntivo imperfetto di ser: fuera.",
+            "uk": "ni que + «imperfecto de subjuntivo» дієслова ser: fuera.",
+            "de": "ni que + imperfecto de subjuntivo von ser: fuera.",
+            "fr": "ni que + imperfecto de subjuntivo de ser : fuera.",
+            "pt": "ni que + imperfecto de subjuntivo de ser: fuera.",
+            "zh": "ni que + ser 的过去时虚拟式：fuera。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "vamos, que…",
+              "kind": "rail"
+            }
+          ],
+          "rule": {
+            "en": "Vamos, que… sums up what you've just said in plain words, and that's often where the irony lands: list the facts, then say what they really mean.",
+            "it": "Vamos, que… riassume in parole semplici quello che hai appena detto, ed è spesso lì che arriva l'ironia: elenca i fatti, poi di' che cosa significano davvero.",
+            "uk": "Vamos, que… підсумовує простими словами те, що ти щойно сказав(-ла), і саме тут часто спрацьовує іронія: перелічи факти, а потім скажи, що вони насправді означають.",
+            "de": "Vamos, que… fasst in klaren Worten zusammen, was du gerade gesagt hast, und genau da sitzt oft die Ironie: Zähl die Fakten auf, dann sag, was sie wirklich bedeuten.",
+            "fr": "Vamos, que… résume en mots simples ce que tu viens de dire, et c'est souvent là que tombe l'ironie : énumère les faits, puis dis ce qu'ils veulent vraiment dire.",
+            "pt": "Vamos, que… resume o que você acabou de dizer em palavras simples, e muitas vezes é aí que a ironia aparece: liste os fatos e depois diga o que eles realmente significam.",
+            "zh": "vamos, que… 用大白话总结你刚说的内容，反话往往就落在这里：先列出事实，再说出它们真正的意思。"
+          },
+          "examples": [
+            {
+              "es": "Has llegado una hora tarde y sin regalo. Vamos, que eres el amigo perfecto.",
+              "en": "You've turned up an hour late, with no present. In other words, you're the perfect friend.",
+              "it": "Sei arrivato con un'ora di ritardo e senza regalo. Insomma, sei l'amico perfetto.",
+              "uk": "Ти прийшов на годину пізніше, та ще й без подарунка. Одне слово, ти ідеальний друг.",
+              "de": "Du kommst eine Stunde zu spät und ohne Geschenk. Mit anderen Worten: Du bist der perfekte Freund.",
+              "fr": "Tu arrives avec une heure de retard, et sans cadeau. Bref, tu es l'ami parfait.",
+              "pt": "Você chegou uma hora atrasado e sem presente. Ou seja, você é o amigo perfeito.",
+              "zh": "你迟到了一个小时，还没带礼物。也就是说，你真是个完美的朋友。"
+            },
+            {
+              "es": "Nunca me llamas. Vamos, que me echas mucho de menos.",
+              "en": "You never call me. In other words, you really miss me.",
+              "it": "Non mi chiami mai. Insomma, ti manco tantissimo.",
+              "uk": "Ти мені ніколи не дзвониш. Одне слово, ти дуже за мною сумуєш.",
+              "de": "Du rufst mich nie an. Mit anderen Worten: Du vermisst mich sehr.",
+              "fr": "Tu ne m'appelles jamais. Bref, je te manque beaucoup.",
+              "pt": "Você nunca me liga. Ou seja, sente muito a minha falta.",
+              "zh": "你从来不给我打电话。也就是说，你可想我了。"
+            },
+            {
+              "es": "El hotel está lejos de la playa y no tiene piscina. Vamos, que es perfecto.",
+              "en": "The hotel's far from the beach and has no pool. In other words, it's perfect.",
+              "it": "L'albergo è lontano dalla spiaggia e non ha la piscina. Insomma, è perfetto.",
+              "uk": "Готель далеко від пляжу і без басейну. Одне слово, він ідеальний.",
+              "de": "Das Hotel ist weit vom Strand und hat keinen Pool. Mit anderen Worten: Es ist perfekt.",
+              "fr": "L'hôtel est loin de la plage et n'a pas de piscine. Bref, il est parfait.",
+              "pt": "O hotel fica longe da praia e não tem piscina. Ou seja, é perfeito.",
+              "zh": "酒店离海滩很远，还没有游泳池。也就是说，简直完美。"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "Nunca me llamas. ",
+          "after": ", que me echas mucho de menos.",
+          "options": [
+            "Vamos",
+            "Encima",
+            "Ni"
+          ],
+          "answer": "Vamos",
+          "en": "You never call me. In other words, you really miss me.",
+          "it": "Non mi chiami mai. Insomma, ti manco tantissimo.",
+          "uk": "Ти мені ніколи не дзвониш. Одне слово, ти дуже за мною сумуєш.",
+          "de": "Du rufst mich nie an. Mit anderen Worten: Du vermisst mich sehr.",
+          "fr": "Tu ne m'appelles jamais. Bref, je te manque beaucoup.",
+          "pt": "Você nunca me liga. Ou seja, sente muito a minha falta.",
+          "zh": "你从来不给我打电话。也就是说，你可想我了。",
+          "hint": {
+            "en": "vamos, que… sums up, with irony.",
+            "it": "vamos, que… riassume, con ironia.",
+            "uk": "vamos, que… підсумовує з іронією.",
+            "de": "vamos, que… fasst zusammen, mit Ironie.",
+            "fr": "vamos, que… résume, avec ironie.",
+            "pt": "vamos, que… resume, com ironia.",
+            "zh": "vamos, que… 用来总结，带着反话的意味。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "A friend arrives late, without the wine he promised, and eats all the ham. Sum it up with irony: in other words, you're the perfect friend.",
+            "it": "Un amico arriva tardi, senza il vino che aveva promesso, e si mangia tutto il prosciutto. Riassumi con ironia: insomma, sei l'amico perfetto.",
+            "uk": "Друг приходить із запізненням, без вина, яке обіцяв, і з'їдає весь хамон. Підсумуй з іронією: одне слово, ти ідеальний друг.",
+            "de": "Ein Freund kommt zu spät, ohne den versprochenen Wein, und isst den ganzen Schinken auf. Fass es mit Ironie zusammen: Mit anderen Worten: Du bist der perfekte Freund.",
+            "fr": "Un ami arrive en retard, sans le vin qu'il avait promis, et mange tout le jambon. Résume avec ironie : bref, tu es l'ami parfait.",
+            "pt": "Um amigo chega atrasado, sem o vinho que prometeu, e come todo o presunto. Resuma com ironia: ou seja, você é o amigo perfeito.",
+            "zh": "一个朋友来晚了，答应带的葡萄酒也没带，还把火腿全吃光了。用反话总结一下：也就是说，你真是个完美的朋友。"
+          },
+          "accepted": [
+            "Vamos, que eres el amigo perfecto."
+          ],
+          "tiles": [
+            "Vamos,",
+            "que eres",
+            "el amigo",
+            "perfecto",
+            "ni que",
+            "fueras"
+          ],
+          "en": "In other words, you're the perfect friend.",
+          "it": "Insomma, sei l'amico perfetto.",
+          "uk": "Одне слово, ти ідеальний друг.",
+          "de": "Mit anderen Worten: Du bist der perfekte Freund.",
+          "fr": "Bref, tu es l'ami parfait.",
+          "pt": "Ou seja, você é o amigo perfeito.",
+          "zh": "也就是说，你真是个完美的朋友。",
+          "hint": {
+            "en": "vamos, que + what the facts really mean.",
+            "it": "vamos, que + quello che i fatti significano davvero.",
+            "uk": "vamos, que + те, що насправді означають факти.",
+            "de": "vamos, que + was die Fakten wirklich bedeuten.",
+            "fr": "vamos, que + ce que les faits veulent vraiment dire.",
+            "pt": "vamos, que + o que os fatos realmente significam.",
+            "zh": "vamos, que + 事实真正的意思。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "¡Ni que ",
+          "after": " mi jefe!",
+          "options": [
+            "fueras",
+            "fuiste",
+            "eres"
+          ],
+          "answer": "fueras",
+          "en": "As if you were my boss!",
+          "it": "Neanche fossi il mio capo!",
+          "uk": "Можна подумати, ти мій начальник!",
+          "de": "Als ob du mein Chef wärst!",
+          "fr": "Comme si tu étais mon chef !",
+          "pt": "Até parece que você é meu chefe!",
+          "zh": "说得好像你是我老板似的！",
+          "hint": {
+            "en": "ni que always takes the imperfect subjunctive: fueras.",
+            "it": "ni que vuole sempre il congiuntivo imperfetto: fueras.",
+            "uk": "Після ni que завжди йде «imperfecto de subjuntivo»: fueras.",
+            "de": "Nach ni que steht immer der imperfecto de subjuntivo: fueras.",
+            "fr": "ni que est toujours suivi de l'imperfecto de subjuntivo : fueras.",
+            "pt": "ni que sempre pede o imperfecto de subjuntivo: fueras.",
+            "zh": "ni que 后面总是用过去时虚拟式：fueras。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "¿El concierto era ayer? ",
+          "after": " por avisar.",
+          "options": [
+            "Gracias",
+            "Perdona"
+          ],
+          "answer": "Gracias",
+          "en": "The concert was yesterday? Thanks for letting me know.",
+          "it": "Il concerto era ieri? Grazie per avermi avvisato.",
+          "uk": "Концерт був учора? Дякую, що попередив(-ла).",
+          "de": "Das Konzert war gestern? Danke, dass du Bescheid sagst.",
+          "fr": "Le concert, c'était hier ? Merci de m'avoir prévenu.",
+          "pt": "O show era ontem? Obrigado por avisar.",
+          "zh": "音乐会是昨天？谢谢你通知我啊。",
+          "hint": {
+            "en": "The fixed phrase is gracias por avisar.",
+            "it": "L'espressione fissa è gracias por avisar.",
+            "uk": "Сталий вираз — gracias por avisar.",
+            "de": "Die feste Wendung ist gracias por avisar.",
+            "fr": "L'expression figée est gracias por avisar.",
+            "pt": "A expressão fixa é gracias por avisar.",
+            "zh": "固定说法是 gracias por avisar。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "mix",
+          "before": "Has llegado tarde y sin regalo. ",
+          "after": ", que eres el amigo perfecto.",
+          "label": "in other words",
+          "accepted": [
+            "Vamos"
+          ],
+          "en": "You've turned up late, with no present. In other words, you're the perfect friend.",
+          "it": "Sei arrivato tardi e senza regalo. Insomma, sei l'amico perfetto.",
+          "uk": "Ти прийшов із запізненням, та ще й без подарунка. Одне слово, ти ідеальний друг.",
+          "de": "Du kommst zu spät und ohne Geschenk. Mit anderen Worten: Du bist der perfekte Freund.",
+          "fr": "Tu arrives en retard, et sans cadeau. Bref, tu es l'ami parfait.",
+          "pt": "Você chegou atrasado e sem presente. Ou seja, você é o amigo perfeito.",
+          "zh": "你来晚了，还没带礼物。也就是说，你真是个完美的朋友。",
+          "hint": {
+            "en": "vamos, que… sums up the facts, with irony.",
+            "it": "vamos, que… riassume i fatti, con ironia.",
+            "uk": "vamos, que… підсумовує факти з іронією.",
+            "de": "vamos, que… fasst die Fakten zusammen, mit Ironie.",
+            "fr": "vamos, que… résume les faits, avec ironie.",
+            "pt": "vamos, que… resume os fatos, com ironia.",
+            "zh": "vamos, que… 用反话总结事实。"
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "Your brother keeps telling you what to wear. Write in Spanish: «As if you were my mother! I'm thirty years old.»",
+            "it": "Tuo fratello continua a dirti cosa metterti. Scrivi in spagnolo: «Neanche fossi mia madre! Ho trent'anni.»",
+            "uk": "Брат постійно вказує тобі, що вдягати. Напиши іспанською: «Можна подумати, ти моя мама! Мені тридцять років.»",
+            "de": "Dein Bruder sagt dir ständig, was du anziehen sollst. Schreib auf Spanisch: «Als ob du meine Mutter wärst! Ich bin dreißig Jahre alt.»",
+            "fr": "Ton frère n'arrête pas de te dire comment t'habiller. Écris en espagnol : «Comme si tu étais ma mère ! J'ai trente ans.»",
+            "pt": "Seu irmão vive dizendo que roupa você deve usar. Escreva em espanhol: «Até parece que você é minha mãe! Eu tenho trinta anos.»",
+            "zh": "你哥哥总是管你穿什么。用西班牙语写：«说得好像你是我妈似的！我都三十岁了。»"
+          },
+          "accepted": [
+            "¡Ni que fueras mi madre! Tengo treinta años.",
+            "¡Ni que fueras mi madre! Ya tengo treinta años."
+          ],
+          "model": {
+            "es": "¡Ni que fueras mi madre! Tengo treinta años.",
+            "en": "As if you were my mother! I'm thirty years old.",
+            "it": "Neanche fossi mia madre! Ho trent'anni.",
+            "uk": "Можна подумати, ти моя мама! Мені тридцять років.",
+            "de": "Als ob du meine Mutter wärst! Ich bin dreißig Jahre alt.",
+            "fr": "Comme si tu étais ma mère ! J'ai trente ans.",
+            "pt": "Até parece que você é minha mãe! Eu tenho trinta anos.",
+            "zh": "说得好像你是我妈似的！我都三十岁了。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u51l5",
+      "goal": {
+        "en": "Play with words: the playful rhymes ¿qué pasa, calabaza?, nada, nada, limonada and ¡chao, pescao!; puns that join sounds (techo de menos sounds like te echo de menos); and idioms taken literally (¿una mano? ¡te echo las dos!).",
+        "it": "Gioca con le parole: le rime scherzose ¿qué pasa, calabaza?, nada, nada, limonada e ¡chao, pescao!; i giochi di parole che uniscono i suoni (techo de menos suona come te echo de menos); e le espressioni prese alla lettera (¿una mano? ¡te echo las dos!).",
+        "uk": "Грайся словами: жартівливі римовані вирази ¿qué pasa, calabaza?, nada, nada, limonada і ¡chao, pescao!; каламбури, що поєднують звуки (techo de menos звучить як te echo de menos); і сталі вирази, які розуміють буквально (¿una mano? ¡te echo las dos!).",
+        "de": "Spiel mit Wörtern: die verspielten Reime ¿qué pasa, calabaza?, nada, nada, limonada und ¡chao, pescao!; Wortspiele, die Laute verbinden (techo de menos klingt wie te echo de menos); und Redewendungen, wörtlich genommen (¿una mano? ¡te echo las dos!).",
+        "fr": "Joue avec les mots : les rimes amusantes ¿qué pasa, calabaza?, nada, nada, limonada et ¡chao, pescao! ; les jeux de mots qui collent des sons (techo de menos se prononce comme te echo de menos) ; et les expressions prises au pied de la lettre (¿una mano? ¡te echo las dos!).",
+        "pt": "Brinque com as palavras: as rimas brincalhonas ¿qué pasa, calabaza?, nada, nada, limonada e ¡chao, pescao!; trocadilhos que juntam sons (techo de menos soa como te echo de menos); e expressões levadas ao pé da letra (¿una mano? ¡te echo las dos!).",
+        "zh": "玩文字游戏：俏皮的押韵说法 ¿qué pasa, calabaza?、nada, nada, limonada 和 ¡chao, pescao!；靠读音拼合的谐音梗（techo de menos 听起来就像 te echo de menos）；还有把习语按字面意思理解（¿una mano? ¡te echo las dos!）。"
+      },
+      "target": {
+        "es": "¿Qué le dice un techo a otro? Techo de menos.",
+        "en": "What does one ceiling say to another? I miss you.",
+        "it": "Che cosa dice un soffitto a un altro? Mi manchi.",
+        "uk": "Що каже одна стеля іншій? Сумую за тобою.",
+        "de": "Was sagt eine Zimmerdecke zur anderen? Ich vermisse dich.",
+        "fr": "Qu'est-ce qu'un plafond dit à un autre ? Tu me manques. (jeu de mots : techo de menos = te echo de menos)",
+        "pt": "O que um teto diz para o outro? Sinto sua falta.",
+        "zh": "一个天花板对另一个天花板说什么？我想你。"
+      },
+      "items": [
+        {
+          "type": "words",
+          "words": [
+            {
+              "es": "el juego de palabras",
+              "en": "the pun, wordplay",
+              "it": "il gioco di parole",
+              "uk": "гра слів, каламбур",
+              "de": "das Wortspiel",
+              "fr": "le jeu de mots",
+              "pt": "o trocadilho, o jogo de palavras",
+              "zh": "文字游戏，双关语",
+              "kind": "chunk"
+            },
+            {
+              "es": "el techo",
+              "en": "the ceiling",
+              "it": "il soffitto",
+              "uk": "стеля",
+              "de": "die Zimmerdecke (el techo ist maskulin)",
+              "fr": "le plafond",
+              "pt": "o teto",
+              "zh": "天花板",
+              "kind": "chunk"
+            },
+            {
+              "es": "¿qué pasa, calabaza?",
+              "en": "what's up? (playful rhyme, lit. what's up, pumpkin?)",
+              "it": "come va? (rima scherzosa, lett. che succede, zucca?)",
+              "uk": "як справи? (жартівлива рима, досл.: що сталося, гарбузе?)",
+              "de": "was geht? (verspielter Reim, wörtl. was geht, Kürbis?)",
+              "fr": "quoi de neuf ? (rime amusante, litt. quoi de neuf, citrouille ?)",
+              "pt": "e aí? (rima brincalhona, lit. «e aí, abóbora?»)",
+              "zh": "怎么样啊？（俏皮的押韵说法，字面意思：怎么了，南瓜？）",
+              "kind": "chunk"
+            },
+            {
+              "es": "nada, nada, limonada",
+              "en": "nothing much (playful rhyme, lit. nothing, nothing, lemonade)",
+              "it": "niente di che (rima scherzosa, lett. niente, niente, limonata)",
+              "uk": "нічого особливого (жартівлива рима, досл.: нічого, нічого, лимонад)",
+              "de": "nichts Besonderes (verspielter Reim, wörtl. nichts, nichts, Limonade)",
+              "fr": "rien de spécial (rime amusante, litt. rien, rien, limonade)",
+              "pt": "nada de mais (rima brincalhona, lit. «nada, nada, limonada»)",
+              "zh": "没什么（俏皮的押韵说法，字面意思：没什么，没什么，柠檬水）",
+              "kind": "chunk"
+            }
+          ]
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "¿qué pasa,",
+              "kind": "chunk"
+            },
+            {
+              "text": "calabaza?",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "Spaniards play with rhymes in casual greetings: ¿qué pasa, calabaza? (what's up?) and the answer nada, nada, limonada (nothing much). The pumpkin and the lemonade are only there because they rhyme.",
+            "it": "Gli spagnoli giocano con le rime nei saluti informali: ¿qué pasa, calabaza? (come va?) e la risposta nada, nada, limonada (niente di che). La zucca e la limonata ci sono solo perché fanno rima.",
+            "uk": "Іспанці граються римами в невимушених привітаннях: ¿qué pasa, calabaza? (як справи?) і відповідь nada, nada, limonada (нічого особливого). Гарбуз і лимонад там лише тому, що римуються.",
+            "de": "Spanier spielen bei lockeren Begrüßungen mit Reimen, ähnlich wie im Deutschen „Alles klar, Herr Kommissar?“: ¿qué pasa, calabaza? (was geht?) und die Antwort nada, nada, limonada (nichts Besonderes). Der Kürbis und die Limonade sind nur da, weil sie sich reimen.",
+            "fr": "Les Espagnols jouent avec les rimes dans les salutations familières : ¿qué pasa, calabaza? (quoi de neuf ?) et la réponse nada, nada, limonada (rien de spécial). La citrouille et la limonade sont là seulement parce qu'elles riment.",
+            "pt": "Os espanhóis brincam com rimas nos cumprimentos informais: ¿qué pasa, calabaza? (e aí?) e a resposta nada, nada, limonada (nada de mais). A abóbora e a limonada só estão ali porque rimam.",
+            "zh": "西班牙人在随意的打招呼里喜欢玩押韵：¿qué pasa, calabaza?（怎么样啊？），回答是 nada, nada, limonada（没什么）。南瓜和柠檬水出现在这里只是为了押韵。"
+          },
+          "examples": [
+            {
+              "es": "¡Hola! ¿Qué pasa, calabaza?",
+              "en": "Hi! What's up?",
+              "it": "Ciao! Come va?",
+              "uk": "Привіт! Як справи?",
+              "de": "Hallo! Was geht?",
+              "fr": "Salut ! Quoi de neuf ?",
+              "pt": "Oi! E aí?",
+              "zh": "嗨！怎么样啊？"
+            },
+            {
+              "es": "Nada, nada, limonada. ¿Y tú?",
+              "en": "Nothing much. And you?",
+              "it": "Niente di che. E tu?",
+              "uk": "Нічого особливого. А в тебе?",
+              "de": "Nichts Besonderes. Und bei dir?",
+              "fr": "Rien de spécial. Et toi ?",
+              "pt": "Nada de mais. E você?",
+              "zh": "没什么。你呢？"
+            },
+            {
+              "es": "¡Chao, pescao!",
+              "en": "Bye-bye! (lit. bye, fish)",
+              "it": "Ciao ciao! (lett. ciao, pesce)",
+              "uk": "Бувай-бувай! (досл.: бувай, рибко)",
+              "de": "Tschüssi! (wörtl. tschüss, Fisch)",
+              "fr": "Tchao ! (litt. tchao, poisson)",
+              "pt": "Tchauzinho! (lit. «tchau, peixe»)",
+              "zh": "拜拜！（字面意思：再见，鱼）"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "¡chao, pescao!",
+              "en": "bye-bye! (playful rhyme, lit. bye, fish)",
+              "it": "ciao ciao! (rima scherzosa, lett. ciao, pesce)",
+              "uk": "бувай-бувай! (жартівлива рима, досл.: бувай, рибко)",
+              "de": "tschüssi! (verspielter Reim, wörtl. tschüss, Fisch)",
+              "fr": "tchao ! (rime amusante, litt. tchao, poisson)",
+              "pt": "tchauzinho! (rima brincalhona, lit. «tchau, peixe»)",
+              "zh": "拜拜！（俏皮的押韵说法，字面意思：再见，鱼）"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "¡Hola! ¿Qué pasa, ",
+          "after": "?",
+          "options": [
+            "calabaza",
+            "limonada",
+            "pescao"
+          ],
+          "answer": "calabaza",
+          "en": "Hi! What's up?",
+          "it": "Ciao! Come va?",
+          "uk": "Привіт! Як справи?",
+          "de": "Hallo! Was geht?",
+          "fr": "Salut ! Quoi de neuf ?",
+          "pt": "Oi! E aí?",
+          "zh": "嗨！怎么样啊？",
+          "hint": {
+            "en": "pasa rhymes with calabaza.",
+            "it": "pasa fa rima con calabaza.",
+            "uk": "pasa римується з calabaza.",
+            "de": "pasa reimt sich auf calabaza.",
+            "fr": "pasa rime avec calabaza.",
+            "pt": "pasa rima com calabaza.",
+            "zh": "pasa 和 calabaza 押韵。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "fire",
+          "before": "Nada, nada, ",
+          "after": ". ¿Y tú, qué tal?",
+          "label": "lemonade (rhyme)",
+          "accepted": [
+            "limonada"
+          ],
+          "en": "Nothing much. And you, how are you?",
+          "it": "Niente di che. E tu, come stai?",
+          "uk": "Нічого особливого. А ти як?",
+          "de": "Nichts Besonderes. Und du, wie geht's dir?",
+          "fr": "Rien de spécial. Et toi, comment tu vas ?",
+          "pt": "Nada de mais. E você, como vai?",
+          "zh": "没什么。你呢，你怎么样？",
+          "hint": {
+            "en": "nada rhymes with limonada.",
+            "it": "nada fa rima con limonada.",
+            "uk": "nada римується з limonada.",
+            "de": "nada reimt sich auf limonada.",
+            "fr": "nada rime avec limonada.",
+            "pt": "nada rima com limonada.",
+            "zh": "nada 和 limonada 押韵。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "techo",
+              "kind": "chunk"
+            },
+            {
+              "text": "=",
+              "kind": "chunk"
+            },
+            {
+              "text": "te echo",
+              "kind": "stem"
+            }
+          ],
+          "rule": {
+            "en": "Many puns join or split sounds: techo de menos sounds exactly like te echo de menos (I miss you). Riddle jokes often start ¿qué le dice un… a otro? (what does one… say to another?).",
+            "it": "Molti giochi di parole uniscono o separano i suoni: techo de menos suona esattamente come te echo de menos (mi manchi). Le battute a indovinello cominciano spesso con ¿qué le dice un… a otro? (che cosa dice un… a un altro?).",
+            "uk": "Багато каламбурів поєднують або розділяють звуки: techo de menos звучить точнісінько як te echo de menos (я сумую за тобою). Анекдоти-загадки часто починаються так: ¿qué le dice un… a otro? (що каже один… іншому?).",
+            "de": "Viele Wortspiele verbinden oder trennen Laute: techo de menos klingt genau wie te echo de menos (ich vermisse dich). Rätselwitze beginnen oft mit ¿qué le dice un… a otro? (was sagt ein … zum anderen?).",
+            "fr": "Beaucoup de jeux de mots collent ou séparent des sons : techo de menos se prononce exactement comme te echo de menos (tu me manques). Les devinettes commencent souvent par ¿qué le dice un… a otro? (qu'est-ce qu'un… dit à un autre ?).",
+            "pt": "Muitos trocadilhos juntam ou separam sons: techo de menos soa exatamente como te echo de menos (sinto sua falta). As piadas de adivinha costumam começar com ¿qué le dice un… a otro? (o que um… diz para o outro?).",
+            "zh": "很多谐音梗是把读音连起来或拆开：techo de menos 听起来跟 te echo de menos（我想你）一模一样。谜语式的笑话常常以 ¿qué le dice un… a otro?（一个……对另一个……说什么？）开头。"
+          },
+          "examples": [
+            {
+              "es": "¿Qué le dice un techo a otro? Techo de menos.",
+              "en": "What does one ceiling say to another? I miss you (techo de menos = te echo de menos).",
+              "it": "Che cosa dice un soffitto a un altro? Mi manchi (techo de menos = te echo de menos).",
+              "uk": "Що каже одна стеля іншій? Сумую за тобою (techo de menos = te echo de menos: «стеля» звучить як «я тебе»).",
+              "de": "Was sagt eine Zimmerdecke zur anderen? Ich vermisse dich. (techo de menos = te echo de menos)",
+              "fr": "Qu'est-ce qu'un plafond dit à un autre ? Tu me manques (techo de menos = te echo de menos).",
+              "pt": "O que um teto diz para o outro? Sinto sua falta (techo de menos = te echo de menos).",
+              "zh": "一个天花板对另一个天花板说什么？我想你（techo de menos = te echo de menos）。"
+            },
+            {
+              "es": "¿Qué le dice un semáforo a otro? No me mires, que me estoy cambiando.",
+              "en": "What does one traffic light say to another? Don't look at me, I'm changing (colour, or clothes).",
+              "it": "Che cosa dice un semaforo a un altro? Non guardarmi, mi sto cambiando (di colore, o di vestiti).",
+              "uk": "Що каже один світлофор іншому? Не дивись на мене, я перевдягаюся (каламбур: cambiarse — і змінювати колір, і перевдягатися).",
+              "de": "Was sagt eine Ampel zur anderen? Schau mich nicht an, ich zieh mich gerade um. (Wortspiel: cambiarse = die Farbe wechseln oder sich umziehen)",
+              "fr": "Qu'est-ce qu'un feu de circulation dit à un autre ? Ne me regarde pas, je me change (de couleur, ou de vêtements).",
+              "pt": "O que um semáforo diz para o outro? Não olhe para mim, que eu estou me trocando (mudando de cor, ou de roupa).",
+              "zh": "一个红绿灯对另一个红绿灯说什么？别看我，我在换呢（换颜色，也可以是换衣服）。"
+            },
+            {
+              "es": "Te echo de menos.",
+              "en": "I miss you.",
+              "it": "Mi manchi.",
+              "uk": "Я сумую за тобою.",
+              "de": "Ich vermisse dich.",
+              "fr": "Tu me manques.",
+              "pt": "Sinto sua falta.",
+              "zh": "我想你。"
+            }
+          ],
+          "teaches": [
+            {
+              "es": "mires",
+              "en": "(don't) look (no me mires: don't look at me)",
+              "it": "(non) guardare (no me mires: non guardarmi)",
+              "uk": "(не) дивись (no me mires: не дивись на мене)",
+              "de": "schau (nicht) (no me mires: schau mich nicht an)",
+              "fr": "(ne) regarde (pas) (no me mires : ne me regarde pas)",
+              "pt": "olhe (no me mires: não olhe para mim)",
+              "zh": "（别）看（no me mires：别看我）"
+            },
+            {
+              "es": "cambiando",
+              "en": "changing (me estoy cambiando: I'm getting changed)",
+              "it": "cambiando (me estoy cambiando: mi sto cambiando)",
+              "uk": "змінюючи (me estoy cambiando: я перевдягаюся)",
+              "de": "wechselnd (me estoy cambiando: ich zieh mich gerade um)",
+              "fr": "en train de changer (me estoy cambiando : je suis en train de me changer)",
+              "pt": "trocando, mudando (me estoy cambiando: estou me trocando)",
+              "zh": "换（me estoy cambiando：我在换衣服）"
+            }
+          ]
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "¿Qué le dice un techo a otro? ",
+          "after": " de menos.",
+          "options": [
+            "Techo",
+            "Echo",
+            "Te"
+          ],
+          "answer": "Techo",
+          "en": "What does one ceiling say to another? I miss you.",
+          "it": "Che cosa dice un soffitto a un altro? Mi manchi.",
+          "uk": "Що каже одна стеля іншій? Сумую за тобою.",
+          "de": "Was sagt eine Zimmerdecke zur anderen? Ich vermisse dich.",
+          "fr": "Qu'est-ce qu'un plafond dit à un autre ? Tu me manques.",
+          "pt": "O que um teto diz para o outro? Sinto sua falta.",
+          "zh": "一个天花板对另一个天花板说什么？我想你。",
+          "hint": {
+            "en": "techo sounds like te echo: the ceiling says te echo de menos.",
+            "it": "techo suona come te echo: il soffitto dice te echo de menos.",
+            "uk": "techo звучить як te echo: стеля каже te echo de menos.",
+            "de": "techo klingt wie te echo: Die Decke sagt te echo de menos.",
+            "fr": "techo se prononce comme te echo : le plafond dit te echo de menos.",
+            "pt": "techo soa como te echo: o teto diz te echo de menos.",
+            "zh": "techo 听起来像 te echo：天花板说的是 te echo de menos。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "fire",
+          "intention": {
+            "en": "You're telling the traffic light joke. Give the punchline: don't look at me, I'm changing.",
+            "it": "Stai raccontando la barzelletta del semaforo. Di' la battuta finale: non guardarmi, mi sto cambiando.",
+            "uk": "Ти розповідаєш анекдот про світлофор. Скажи кінцівку: не дивись на мене, я перевдягаюся.",
+            "de": "Du erzählst den Ampelwitz. Bring die Pointe: Schau mich nicht an, ich zieh mich gerade um.",
+            "fr": "Tu racontes la blague du feu de circulation. Donne la chute : ne me regarde pas, je me change.",
+            "pt": "Você está contando a piada do semáforo. Diga o final: não olhe para mim, que eu estou me trocando.",
+            "zh": "你在讲红绿灯的笑话。说出笑点：别看我，我在换衣服呢。"
+          },
+          "accepted": [
+            "No me mires, que me estoy cambiando."
+          ],
+          "tiles": [
+            "No me mires,",
+            "que me estoy",
+            "cambiando",
+            "miras",
+            "cambio"
+          ],
+          "en": "Don't look at me, I'm changing.",
+          "it": "Non guardarmi, mi sto cambiando.",
+          "uk": "Не дивись на мене, я перевдягаюся.",
+          "de": "Schau mich nicht an, ich zieh mich gerade um.",
+          "fr": "Ne me regarde pas, je me change.",
+          "pt": "Não olhe para mim, que eu estou me trocando.",
+          "zh": "别看我，我在换衣服呢。",
+          "hint": {
+            "en": "no me mires: a negative command. Cambiarse: change colour, or change clothes.",
+            "it": "no me mires: imperativo negativo. Cambiarse: cambiare colore, o cambiarsi d'abito.",
+            "uk": "no me mires: заперечний наказ. Cambiarse: змінити колір або перевдягнутися.",
+            "de": "no me mires: ein verneinter Befehl. Cambiarse: die Farbe wechseln oder sich umziehen.",
+            "fr": "no me mires : un impératif négatif. Cambiarse : changer de couleur, ou se changer (de vêtements).",
+            "pt": "no me mires: uma ordem negativa. Cambiarse: mudar de cor, ou trocar de roupa.",
+            "zh": "no me mires：否定命令式。cambiarse：变换颜色，或者换衣服。"
+          }
+        },
+        {
+          "type": "explain",
+          "bricks": [
+            {
+              "text": "un ojo de la cara",
+              "kind": "chunk"
+            },
+            {
+              "text": "+",
+              "kind": "chunk"
+            },
+            {
+              "text": "…y el otro",
+              "kind": "chunk"
+            }
+          ],
+          "rule": {
+            "en": "You can play with an idiom by taking it literally: costar un ojo de la cara becomes …y el otro también (and the other eye too). The surprise is what makes it funny.",
+            "it": "Puoi giocare con un'espressione prendendola alla lettera: costar un ojo de la cara diventa …y el otro también (e anche l'altro occhio). È la sorpresa che fa ridere.",
+            "uk": "Можна гратися сталим виразом, розуміючи його буквально: costar un ojo de la cara (коштувати шалених грошей, досл.: коштувати око з лиця) перетворюється на …y el otro también (і друге око теж). Смішно саме через несподіванку.",
+            "de": "Du kannst mit einer Redewendung spielen, indem du sie wörtlich nimmst: costar un ojo de la cara (wörtl. ein Auge aus dem Gesicht kosten, also ein Vermögen kosten) wird zu …y el otro también (und das andere Auge auch). Die Überraschung macht es lustig.",
+            "fr": "Tu peux jouer avec une expression en la prenant au pied de la lettre : costar un ojo de la cara devient …y el otro también (et l'autre œil aussi). C'est la surprise qui rend ça drôle.",
+            "pt": "Você pode brincar com uma expressão levando-a ao pé da letra: costar un ojo de la cara vira …y el otro también (e o outro olho também). A surpresa é o que faz rir.",
+            "zh": "你可以把习语按字面意思来理解：costar un ojo de la cara（贵得要命，字面意思：要花掉脸上的一只眼睛）就变成了 …y el otro también（……另一只也搭上）。出人意料才好笑。"
+          },
+          "examples": [
+            {
+              "es": "Este piso cuesta un ojo de la cara… y el otro también.",
+              "en": "This flat costs an arm and a leg… and the other arm too. (lit. an eye… and the other one too)",
+              "it": "Questo appartamento costa un occhio della testa… e anche l'altro.",
+              "uk": "Ця квартира коштує шалених грошей… і ще стільки ж. (досл.: коштує око з лиця… і друге теж)",
+              "de": "Diese Wohnung kostet ein Vermögen … und noch eins dazu. (wörtl. ein Auge … und das andere auch)",
+              "fr": "Cet appartement coûte les yeux de la tête… et le reste du corps aussi. (litt. un œil de la tête… et l'autre aussi)",
+              "pt": "Este apartamento custa um olho da cara… e o outro também.",
+              "zh": "这套房子贵得要掉一只眼睛……另一只也得搭上。（costar un ojo de la cara 意思是“贵得要命”，字面意思：要花掉一只眼睛）"
+            },
+            {
+              "es": "¿Una mano? ¡Te echo las dos!",
+              "en": "A hand? I'll lend you both!",
+              "it": "Una mano? Te ne do due!",
+              "uk": "Руку допомоги? Я подам тобі обидві!",
+              "de": "Eine Hand? Ich leih dir beide! (echar una mano = helfen, wörtl. eine Hand reichen)",
+              "fr": "Un coup de main ? Je t'en donne deux !",
+              "pt": "Uma mão? Eu te dou as duas!",
+              "zh": "帮一把手？我两只手都借给你！"
+            }
+          ],
+          "teaches": []
+        },
+        {
+          "type": "choose",
+          "beat": "forge",
+          "before": "¿Una mano? ¡Te echo las ",
+          "after": "!",
+          "options": [
+            "dos",
+            "manos",
+            "una"
+          ],
+          "answer": "dos",
+          "en": "A hand? I'll lend you both!",
+          "it": "Una mano? Te ne do due!",
+          "uk": "Руку допомоги? Я подам тобі обидві!",
+          "de": "Eine Hand? Ich leih dir beide!",
+          "fr": "Un coup de main ? Je t'en donne deux !",
+          "pt": "Uma mão? Eu te dou as duas!",
+          "zh": "帮一把手？我两只手都借给你！",
+          "hint": {
+            "en": "Taken literally: not one hand, but both, las dos.",
+            "it": "Alla lettera: non una mano, ma tutte e due, las dos.",
+            "uk": "Буквально: не одну руку, а обидві — las dos.",
+            "de": "Wörtlich genommen: nicht eine Hand, sondern beide, las dos.",
+            "fr": "Pris au pied de la lettre : pas une main, mais les deux, las dos.",
+            "pt": "Ao pé da letra: não uma mão, mas as duas, las dos.",
+            "zh": "按字面理解：不是一只手，而是两只都给，las dos。"
+          }
+        },
+        {
+          "type": "gap",
+          "beat": "fire",
+          "before": "Esta cena cuesta un ojo de la cara… y el ",
+          "after": " también.",
+          "label": "other",
+          "accepted": [
+            "otro"
+          ],
+          "en": "This dinner costs an arm and a leg… and the other arm too.",
+          "it": "Questa cena costa un occhio della testa… e anche l'altro.",
+          "uk": "Ця вечеря коштує око з лиця… і друге око теж.",
+          "de": "Dieses Abendessen kostet ein Auge aus dem Kopf … und das andere auch. (also: sündhaft teuer)",
+          "fr": "Ce dîner coûte les yeux de la tête… et le reste du corps aussi. (litt. un œil… et l'autre aussi)",
+          "pt": "Este jantar custa um olho da cara… e o outro também.",
+          "zh": "这顿晚饭贵得要掉一只眼睛……另一只也得搭上。",
+          "hint": {
+            "en": "el ojo is masculine: y el otro.",
+            "it": "el ojo è maschile: y el otro.",
+            "uk": "el ojo — чоловічого роду: y el otro.",
+            "de": "el ojo ist maskulin: y el otro.",
+            "fr": "el ojo est masculin : y el otro.",
+            "pt": "el ojo é masculino: y el otro.",
+            "zh": "el ojo 是阳性：y el otro。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "¿Qué le dice un techo a otro? Techo de ",
+          "after": ".",
+          "options": [
+            "menos",
+            "más"
+          ],
+          "answer": "menos",
+          "en": "What does one ceiling say to another? I miss you.",
+          "it": "Che cosa dice un soffitto a un altro? Mi manchi.",
+          "uk": "Що каже одна стеля іншій? Сумую за тобою.",
+          "de": "Was sagt eine Zimmerdecke zur anderen? Ich vermisse dich.",
+          "fr": "Qu'est-ce qu'un plafond dit à un autre ? Tu me manques.",
+          "pt": "O que um teto diz para o outro? Sinto sua falta.",
+          "zh": "一个天花板对另一个天花板说什么？我想你。",
+          "hint": {
+            "en": "te echo de menos: I miss you.",
+            "it": "te echo de menos: mi manchi.",
+            "uk": "te echo de menos: я сумую за тобою.",
+            "de": "te echo de menos: ich vermisse dich.",
+            "fr": "te echo de menos : tu me manques.",
+            "pt": "te echo de menos: sinto sua falta.",
+            "zh": "te echo de menos：我想你。"
+          }
+        },
+        {
+          "type": "choose",
+          "beat": "mix",
+          "before": "¡Chao, ",
+          "after": "!",
+          "options": [
+            "pescao",
+            "calabaza",
+            "limonada"
+          ],
+          "answer": "pescao",
+          "en": "Bye-bye! (playful rhyme)",
+          "it": "Ciao ciao! (rima scherzosa)",
+          "uk": "Бувай-бувай! (жартівлива рима)",
+          "de": "Tschüssi! (verspielter Reim)",
+          "fr": "Tchao ! (rime amusante)",
+          "pt": "Tchauzinho! (rima brincalhona)",
+          "zh": "拜拜！（俏皮的押韵说法）",
+          "hint": {
+            "en": "chao rhymes with pescao.",
+            "it": "chao fa rima con pescao.",
+            "uk": "chao римується з pescao.",
+            "de": "chao reimt sich auf pescao.",
+            "fr": "chao rime avec pescao.",
+            "pt": "chao rima com pescao.",
+            "zh": "chao 和 pescao 押韵。"
+          }
+        },
+        {
+          "type": "build",
+          "beat": "mix",
+          "intention": {
+            "en": "You run into a good friend in the street. Greet her with the playful rhyme: hi! What's up?",
+            "it": "Incontri una cara amica per strada. Salutala con la rima scherzosa: ciao! Come va?",
+            "uk": "Ти зустрічаєш на вулиці добру подругу. Привітайся з нею жартівливою римою: привіт! Як справи?",
+            "de": "Du triffst auf der Straße eine gute Freundin. Begrüß sie mit dem verspielten Reim: Hallo! Was geht?",
+            "fr": "Tu croises une bonne amie dans la rue. Salue-la avec la rime amusante : salut ! Quoi de neuf ?",
+            "pt": "Você encontra uma boa amiga na rua. Cumprimente-a com a rima brincalhona: oi! E aí?",
+            "zh": "你在街上碰见一个好朋友。用俏皮的押韵说法跟她打招呼：嗨！怎么样啊？"
+          },
+          "accepted": [
+            "¡Hola! ¿Qué pasa, calabaza?"
+          ],
+          "tiles": [
+            "¡Hola!",
+            "¿Qué pasa,",
+            "calabaza?",
+            "limonada",
+            "pasas"
+          ],
+          "en": "Hi! What's up?",
+          "it": "Ciao! Come va?",
+          "uk": "Привіт! Як справи?",
+          "de": "Hallo! Was geht?",
+          "fr": "Salut ! Quoi de neuf ?",
+          "pt": "Oi! E aí?",
+          "zh": "嗨！怎么样啊？",
+          "hint": {
+            "en": "pasa rhymes with calabaza.",
+            "it": "pasa fa rima con calabaza.",
+            "uk": "pasa римується з calabaza.",
+            "de": "pasa reimt sich auf calabaza.",
+            "fr": "pasa rime avec calabaza.",
+            "pt": "pasa rima com calabaza.",
+            "zh": "pasa 和 calabaza 押韵。"
+          }
+        },
+        {
+          "type": "write",
+          "beat": "mix",
+          "instruction": {
+            "en": "A friend asks if you can lend her a hand with her move on Saturday. Play with the idiom. Write in Spanish: «A hand? I'll lend you both! See you on Saturday.»",
+            "it": "Un'amica ti chiede se puoi darle una mano con il trasloco sabato. Gioca con l'espressione. Scrivi in spagnolo: «Una mano? Te ne do due! Ci vediamo sabato.»",
+            "uk": "Подруга питає, чи зможеш ти допомогти їй з переїздом у суботу (досл.: подати руку). Пограйся сталим виразом. Напиши іспанською: «Руку допомоги? Я подам тобі обидві! Побачимося в суботу.»",
+            "de": "Eine Freundin fragt, ob du ihr am Samstag beim Umzug zur Hand gehen kannst. Spiel mit der Redewendung. Schreib auf Spanisch: «Eine Hand? Ich leih dir beide! Wir sehen uns am Samstag.»",
+            "fr": "Une amie te demande si tu peux lui donner un coup de main pour son déménagement samedi. Joue avec l'expression. Écris en espagnol : «Un coup de main ? Je t'en donne deux ! On se voit samedi.»",
+            "pt": "Uma amiga pergunta se você pode dar uma mão na mudança dela no sábado. Brinque com a expressão. Escreva em espanhol: «Uma mão? Eu te dou as duas! Nos vemos no sábado.»",
+            "zh": "一个朋友问你周六能不能帮她搬家。拿这个习语开个玩笑。用西班牙语写：«帮一把手？我两只手都借给你！周六见。»"
+          },
+          "accepted": [
+            "¿Una mano? ¡Te echo las dos! Nos vemos el sábado.",
+            "¿Una mano? Te echo las dos. Nos vemos el sábado.",
+            "¿Una mano? ¡Te echo las dos! Nos vemos el sábado, entonces."
+          ],
+          "model": {
+            "es": "¿Una mano? ¡Te echo las dos! Nos vemos el sábado.",
+            "en": "A hand? I'll lend you both! See you on Saturday.",
+            "it": "Una mano? Te ne do due! Ci vediamo sabato.",
+            "uk": "Руку допомоги? Я подам тобі обидві! Побачимося в суботу.",
+            "de": "Eine Hand? Ich leih dir beide! Wir sehen uns am Samstag.",
+            "fr": "Un coup de main ? Je t'en donne deux ! On se voit samedi.",
+            "pt": "Uma mão? Eu te dou as duas! Nos vemos no sábado.",
+            "zh": "帮一把手？我两只手都借给你！周六见。"
+          }
+        }
+      ]
+    }
+  ],
+  "boss": {
+    "id": "u51boss",
+    "goal": {
+      "en": "It's open-mic night at a comedy bar in Madrid, and it's your turn. Perform a short comic monologue about your terrible week, line by line: use irony, a double meaning, polite sarcasm and a joke, and answer the audience.",
+      "it": "È la serata a microfono aperto in un locale comico di Madrid, e tocca a te. Esegui un breve monologo comico sulla tua settimana terribile, riga per riga: usa l'ironia, un doppio senso, il sarcasmo cortese e una barzelletta, e rispondi al pubblico.",
+      "uk": "У комедійному барі в Мадриді вечір відкритого мікрофона, і настала твоя черга. Виступи з коротким комічним монологом про свій жахливий тиждень, репліка за реплікою: використай іронію, подвійне значення, ввічливий сарказм і анекдот, а також відповідай публіці.",
+      "de": "Es ist Open-Mic-Abend in einer Comedy-Bar in Madrid, und du bist dran. Führ Satz für Satz einen kurzen Comedy-Monolog über deine furchtbare Woche auf: Setz Ironie, eine Doppeldeutigkeit, höflichen Sarkasmus und einen Witz ein, und antworte dem Publikum.",
+      "fr": "C'est la soirée scène ouverte dans un bar comique de Madrid, et c'est ton tour. Joue un petit monologue comique sur ta semaine horrible, réplique par réplique : utilise l'ironie, un double sens, un sarcasme poli et une blague, et réponds au public.",
+      "pt": "É noite de microfone aberto num bar de comédia em Madri, e chegou a sua vez. Apresente um curto monólogo cômico sobre a sua semana horrível, frase por frase: use ironia, um duplo sentido, sarcasmo educado e uma piada, e responda à plateia.",
+      "zh": "今晚是马德里一家喜剧酒吧的开放麦之夜，轮到你上台了。一句一句地讲一段关于你倒霉一周的脱口秀：用上反话、双关、客气的讽刺和一个笑话，还要回应观众。"
+    },
+    "items": [
+      {
+        "type": "words",
+        "words": [
+          {
+            "es": "el monólogo",
+            "en": "the stand-up routine, the monologue",
+            "it": "il monologo",
+            "uk": "стендап-номер, монолог",
+            "de": "die Stand-up-Nummer, der Monolog",
+            "fr": "le monologue, le sketch de stand-up",
+            "pt": "o stand-up, o monólogo",
+            "zh": "脱口秀，独角戏",
+            "kind": "chunk"
+          },
+          {
+            "es": "¡buenas noches a todos!",
+            "en": "good evening, everyone!",
+            "it": "buonasera a tutti!",
+            "uk": "добрий вечір усім!",
+            "de": "guten Abend allerseits!",
+            "fr": "bonsoir à tous !",
+            "pt": "boa noite a todos!",
+            "zh": "大家晚上好！",
+            "kind": "chunk"
+          }
+        ]
+      },
+      {
+        "type": "build",
+        "intention": {
+          "en": "Open your monologue: good evening, everyone! Shall I tell you about my week?",
+          "it": "Apri il tuo monologo: buonasera a tutti! Vi racconto la mia settimana?",
+          "uk": "Почни свій монолог: добрий вечір усім! Розповісти вам про мій тиждень?",
+          "de": "Eröffne deinen Monolog: Guten Abend allerseits! Soll ich euch von meiner Woche erzählen?",
+          "fr": "Commence ton monologue : bonsoir à tous ! Je vous raconte ma semaine ?",
+          "pt": "Abra o seu monólogo: boa noite a todos! Posso contar para vocês como foi a minha semana?",
+          "zh": "开场：大家晚上好！我给你们讲讲我这一周吧？"
+        },
+        "accepted": [
+          "¡Buenas noches a todos! ¿Os cuento mi semana?"
+        ],
+        "tiles": [
+          "¡Buenas noches",
+          "a todos!",
+          "¿Os cuento",
+          "mi semana?",
+          "te",
+          "contar"
+        ],
+        "en": "Good evening, everyone! Shall I tell you about my week?",
+        "it": "Buonasera a tutti! Vi racconto la mia settimana?",
+        "uk": "Добрий вечір усім! Розповісти вам про мій тиждень?",
+        "de": "Guten Abend allerseits! Soll ich euch von meiner Woche erzählen?",
+        "fr": "Bonsoir à tous ! Je vous raconte ma semaine ?",
+        "pt": "Boa noite a todos! Posso contar para vocês como foi a minha semana?",
+        "zh": "大家晚上好！我给你们讲讲我这一周吧？",
+        "hint": {
+          "en": "To the whole audience: os cuento.",
+          "it": "A tutto il pubblico: os cuento.",
+          "uk": "Звертаєшся до всієї публіки: os cuento.",
+          "de": "An das ganze Publikum: os cuento.",
+          "fr": "À tout le public : os cuento.",
+          "pt": "Para toda a plateia: os cuento.",
+          "zh": "对全场观众说：os cuento。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "El lunes, lluvia; el martes, lluvia; el miércoles, lluvia. ¡Qué ",
+        "after": " tiempo!",
+        "options": [
+          "buen",
+          "mal"
+        ],
+        "answer": "buen",
+        "en": "Monday, rain; Tuesday, rain; Wednesday, rain. Lovely weather! (ironic)",
+        "it": "Lunedì, pioggia; martedì, pioggia; mercoledì, pioggia. Che bel tempo! (ironico)",
+        "uk": "Понеділок — дощ; вівторок — дощ; середа — дощ. Яка гарна погода! (іронічно)",
+        "de": "Montag Regen, Dienstag Regen, Mittwoch Regen. Was für ein schönes Wetter! (ironisch)",
+        "fr": "Lundi, pluie ; mardi, pluie ; mercredi, pluie. Quel beau temps ! (ironique)",
+        "pt": "Segunda, chuva; terça, chuva; quarta, chuva. Que tempo lindo! (irônico)",
+        "zh": "周一下雨，周二下雨，周三还是下雨。天气真好啊！（反话）",
+        "hint": {
+          "en": "Irony praises the bad thing: ¡qué buen tiempo!",
+          "it": "L'ironia loda la cosa brutta: ¡qué buen tiempo!",
+          "uk": "Іронія хвалить погане: ¡qué buen tiempo!",
+          "de": "Ironie lobt das Schlechte: ¡qué buen tiempo!",
+          "fr": "L'ironie fait l'éloge de la mauvaise chose : ¡qué buen tiempo!",
+          "pt": "A ironia elogia a coisa ruim: ¡qué buen tiempo!",
+          "zh": "反话就是夸那件糟糕的事：¡qué buen tiempo!"
+        }
+      },
+      {
+        "type": "gap",
+        "before": "Y el jueves se me rompió el paraguas. ¡Lo que me ",
+        "after": "!",
+        "label": "faltar",
+        "accepted": [
+          "faltaba"
+        ],
+        "en": "And on Thursday my umbrella broke. That's all I needed!",
+        "it": "E giovedì mi si è rotto l'ombrello. Ci mancava solo questa!",
+        "uk": "А в четвер у мене зламалася парасолька. Тільки цього мені бракувало!",
+        "de": "Und am Donnerstag ist mein Regenschirm kaputtgegangen. Das hat mir gerade noch gefehlt!",
+        "fr": "Et jeudi, mon parapluie s'est cassé. Il ne manquait plus que ça !",
+        "pt": "E na quinta o meu guarda-chuva quebrou. Era só o que me faltava!",
+        "zh": "周四我的伞又坏了。我就缺这个了！",
+        "hint": {
+          "en": "The fixed phrase is ¡lo que me faltaba!",
+          "it": "L'espressione fissa è ¡lo que me faltaba!",
+          "uk": "Сталий вираз — ¡lo que me faltaba!",
+          "de": "Die feste Wendung ist ¡lo que me faltaba!",
+          "fr": "L'expression figée est ¡lo que me faltaba!",
+          "pt": "A expressão fixa é ¡lo que me faltaba!",
+          "zh": "固定说法是 ¡lo que me faltaba!"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "Mi compañero llega a las once todos los días. Él, siempre ",
+        "after": " puntual.",
+        "options": [
+          "tan",
+          "tanto"
+        ],
+        "answer": "tan",
+        "en": "My colleague gets in at eleven every day. Him, always so punctual.",
+        "it": "Il mio collega arriva alle undici tutti i giorni. Lui, sempre così puntuale.",
+        "uk": "Мій колега щодня приходить об одинадцятій. Він, як завжди, такий пунктуальний.",
+        "de": "Mein Kollege kommt jeden Tag um elf. Er, immer so pünktlich.",
+        "fr": "Mon collègue arrive à onze heures tous les jours. Lui, toujours si ponctuel.",
+        "pt": "Meu colega chega às onze todos os dias. Ele, sempre tão pontual.",
+        "zh": "我同事每天十一点才到。他啊，总是这么准时。",
+        "hint": {
+          "en": "Ironic praise: siempre tan + adjective.",
+          "it": "Lode ironica: siempre tan + aggettivo.",
+          "uk": "Іронічна похвала: siempre tan + прикметник.",
+          "de": "Ironisches Lob: siempre tan + Adjektiv.",
+          "fr": "Éloge ironique : siempre tan + adjectif.",
+          "pt": "Elogio irônico: siempre tan + adjetivo.",
+          "zh": "反话式的夸奖：siempre tan + 形容词。"
+        }
+      },
+      {
+        "type": "gap",
+        "before": "El viernes me dice que la reunión era el jueves. Gracias por ",
+        "after": ".",
+        "label": "to let (me) know",
+        "accepted": [
+          "avisar",
+          "avisarme"
+        ],
+        "en": "On Friday he tells me the meeting was on Thursday. Thanks for letting me know.",
+        "it": "Venerdì mi dice che la riunione era giovedì. Grazie per avermi avvisato.",
+        "uk": "У п'ятницю він каже мені, що нарада була в четвер. Дякую, що попередив.",
+        "de": "Am Freitag sagt er mir, dass die Besprechung am Donnerstag war. Danke, dass du Bescheid sagst.",
+        "fr": "Vendredi, il me dit que la réunion était jeudi. Merci de m'avoir prévenu.",
+        "pt": "Na sexta ele me diz que a reunião era na quinta. Obrigado por avisar.",
+        "zh": "周五他告诉我会议是周四开的。谢谢你通知我啊。",
+        "hint": {
+          "en": "Polite sarcasm for news that comes too late: gracias por avisar.",
+          "it": "Sarcasmo cortese per una notizia che arriva tardi: gracias por avisar.",
+          "uk": "Ввічливий сарказм про новину, яка приходить запізно: gracias por avisar.",
+          "de": "Höflicher Sarkasmus für Neuigkeiten, die zu spät kommen: gracias por avisar.",
+          "fr": "Sarcasme poli pour une nouvelle qui arrive trop tard : gracias por avisar.",
+          "pt": "Sarcasmo educado para uma notícia que chega tarde demais: gracias por avisar.",
+          "zh": "消息来得太晚，用客气的讽刺：gracias por avisar。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "Y encima mi jefe me dice que trabaje el sábado. ¡Ni que ",
+        "after": " mi padre!",
+        "options": [
+          "fuera",
+          "era",
+          "sea"
+        ],
+        "answer": "fuera",
+        "en": "And on top of that my boss tells me to work on Saturday. As if he were my father!",
+        "it": "E per di più il mio capo mi dice di lavorare sabato. Neanche fosse mio padre!",
+        "uk": "А ще й начальник каже мені працювати в суботу. Можна подумати, він мій батько!",
+        "de": "Und obendrein sagt mir mein Chef, dass ich am Samstag arbeiten soll. Als ob er mein Vater wäre!",
+        "fr": "Et en plus, mon chef me dit de travailler samedi. Comme s'il était mon père !",
+        "pt": "E ainda por cima o meu chefe me manda trabalhar no sábado. Até parece que ele é o meu pai!",
+        "zh": "而且我老板还让我周六上班。说得好像他是我爸似的！",
+        "hint": {
+          "en": "ni que + imperfect subjunctive: fuera.",
+          "it": "ni que + congiuntivo imperfetto: fuera.",
+          "uk": "ni que + «imperfecto de subjuntivo»: fuera.",
+          "de": "ni que + imperfecto de subjuntivo: fuera.",
+          "fr": "ni que + imperfecto de subjuntivo : fuera.",
+          "pt": "ni que + imperfecto de subjuntivo: fuera.",
+          "zh": "ni que + 过去时虚拟式：fuera。"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "El sábado ceno paella. La paella ",
+        "after": " muy rica; yo, después de pagar, ya no tanto.",
+        "options": [
+          "está",
+          "es"
+        ],
+        "answer": "está",
+        "en": "On Saturday I have paella for dinner. The paella is very tasty (rica); me, after paying, not so rich any more.",
+        "it": "Sabato ceno con la paella. La paella è buonissima (rica); io, dopo aver pagato, non sono più tanto ricco.",
+        "uk": "У суботу я вечеряю паелою. Паела дуже смачна (rica), а я після оплати вже не такий багатий.",
+        "de": "Am Samstag esse ich Paella zu Abend. Die Paella ist sehr lecker (rica); ich dagegen bin nach dem Bezahlen nicht mehr so reich.",
+        "fr": "Samedi, je mange une paella au dîner. La paella est très bonne (rica) ; moi, après avoir payé, je ne suis plus si riche. (jeu de mots : rico = délicieux et riche)",
+        "pt": "No sábado janto uma paella. A paella está muito gostosa (rica); já eu, depois de pagar, não sou mais tão rico.",
+        "zh": "周六我晚饭吃了海鲜饭。海鲜饭很好吃（rica）；而我呢，付完钱以后，就没那么 rico（有钱）了。",
+        "hint": {
+          "en": "Tasty is estar rica; the joke is that after paying you aren't rico (rich) any more.",
+          "it": "Buona da mangiare è estar rica; la battuta è che dopo aver pagato non sei più rico (ricco).",
+          "uk": "«Смачна» — це estar rica; жарт у тому, що після оплати ти вже не rico (багатий).",
+          "de": "Lecker ist estar rica; der Witz ist, dass du nach dem Bezahlen nicht mehr rico (reich) bist.",
+          "fr": "Délicieux se dit estar rica ; la blague, c'est qu'après avoir payé tu n'es plus rico (riche).",
+          "pt": "Gostosa é estar rica; a piada é que, depois de pagar, você já não é rico.",
+          "zh": "“好吃”是 estar rica；笑点在于付完钱你就不再 rico（有钱）了。"
+        }
+      },
+      {
+        "type": "build",
+        "intention": {
+          "en": "Sum up your week for the audience, with irony: in other words, it was a brilliant week.",
+          "it": "Riassumi la tua settimana per il pubblico, con ironia: insomma, è stata una settimana fantastica.",
+          "uk": "Підсумуй свій тиждень для публіки з іронією: одне слово, тиждень був блискучий.",
+          "de": "Fass deine Woche für das Publikum zusammen, mit Ironie: Mit anderen Worten: Es war eine großartige Woche.",
+          "fr": "Résume ta semaine pour le public, avec ironie : bref, c'était une semaine géniale.",
+          "pt": "Resuma a sua semana para a plateia, com ironia: ou seja, foi uma semana genial.",
+          "zh": "用反话给观众总结你的这一周：也就是说，这一周真是棒极了。"
+        },
+        "accepted": [
+          "Vamos, que fue una semana genial.",
+          "Vamos, que ha sido una semana genial."
+        ],
+        "tiles": [
+          "Vamos,",
+          "que fue",
+          "una semana",
+          "genial",
+          "ni que",
+          "era"
+        ],
+        "en": "In other words, it was a brilliant week.",
+        "it": "Insomma, è stata una settimana fantastica.",
+        "uk": "Одне слово, тиждень був блискучий.",
+        "de": "Mit anderen Worten: Es war eine großartige Woche.",
+        "fr": "Bref, c'était une semaine géniale.",
+        "pt": "Ou seja, foi uma semana genial.",
+        "zh": "也就是说，这一周真是棒极了。",
+        "hint": {
+          "en": "vamos, que… sums up, with irony.",
+          "it": "vamos, que… riassume, con ironia.",
+          "uk": "vamos, que… підсумовує з іронією.",
+          "de": "vamos, que… fasst zusammen, mit Ironie.",
+          "fr": "vamos, que… résume, avec ironie.",
+          "pt": "vamos, que… resume, com ironia.",
+          "zh": "vamos, que… 用来总结，带着反话的意味。"
+        }
+      },
+      {
+        "type": "build",
+        "intention": {
+          "en": "Now a joke. Ask the audience: do you know the one about the traffic light?",
+          "it": "Adesso una barzelletta. Chiedi al pubblico: la sapete quella del semaforo?",
+          "uk": "Тепер анекдот. Спитай публіку: знаєте анекдот про світлофор?",
+          "de": "Jetzt ein Witz. Frag das Publikum: Kennt ihr den mit der Ampel?",
+          "fr": "Maintenant, une blague. Demande au public : vous connaissez celle du feu rouge ?",
+          "pt": "Agora, uma piada. Pergunte à plateia: vocês conhecem aquela do semáforo?",
+          "zh": "现在来个笑话。问观众：你们听过红绿灯的那个笑话吗？"
+        },
+        "accepted": [
+          "¿Os sabéis el chiste del semáforo?"
+        ],
+        "tiles": [
+          "¿Os sabéis",
+          "el chiste",
+          "del semáforo?",
+          "sabe",
+          "cuento"
+        ],
+        "en": "Do you know the one about the traffic light?",
+        "it": "La sapete quella del semaforo?",
+        "uk": "Знаєте анекдот про світлофор?",
+        "de": "Kennt ihr den mit der Ampel?",
+        "fr": "Vous connaissez celle du feu rouge ?",
+        "pt": "Vocês conhecem aquela do semáforo?",
+        "zh": "你们听过红绿灯的那个笑话吗？",
+        "hint": {
+          "en": "To the whole audience: ¿os sabéis…?",
+          "it": "A tutto il pubblico: ¿os sabéis…?",
+          "uk": "Звертаєшся до всієї публіки: ¿os sabéis…?",
+          "de": "An das ganze Publikum: ¿os sabéis…?",
+          "fr": "À tout le public : ¿os sabéis…?",
+          "pt": "Para toda a plateia: ¿os sabéis…?",
+          "zh": "对全场观众说：¿os sabéis…?"
+        }
+      },
+      {
+        "type": "choose",
+        "before": "¿Qué le dice un semáforo a otro? No me mires, que me estoy ",
+        "after": ".",
+        "options": [
+          "cambiando",
+          "cambio",
+          "cambiar"
+        ],
+        "answer": "cambiando",
+        "en": "What does one traffic light say to another? Don't look at me, I'm changing.",
+        "it": "Che cosa dice un semaforo a un altro? Non guardarmi, mi sto cambiando.",
+        "uk": "Що каже один світлофор іншому? Не дивись на мене, я перевдягаюся.",
+        "de": "Was sagt eine Ampel zur anderen? Schau mich nicht an, ich zieh mich gerade um.",
+        "fr": "Qu'est-ce qu'un feu de circulation dit à un autre ? Ne me regarde pas, je me change.",
+        "pt": "O que um semáforo diz para o outro? Não olhe para mim, que eu estou me trocando.",
+        "zh": "一个红绿灯对另一个红绿灯说什么？别看我，我在换衣服呢。",
+        "hint": {
+          "en": "estar + -ando: me estoy cambiando.",
+          "it": "estar + -ando: me estoy cambiando.",
+          "uk": "estar + -ando: me estoy cambiando.",
+          "de": "estar + -ando: me estoy cambiando.",
+          "fr": "estar + -ando : me estoy cambiando.",
+          "pt": "estar + -ando: me estoy cambiando.",
+          "zh": "estar + -ando：me estoy cambiando。"
+        }
+      },
+      {
+        "type": "build",
+        "intention": {
+          "en": "Someone in the front row isn't laughing. Ask him, with a smile: don't you get it? It has a double meaning.",
+          "it": "Uno spettatore in prima fila non ride. Chiedigli, con un sorriso: non ci arrivi? Ha un doppio senso.",
+          "uk": "Хтось у першому ряду не сміється. Спитай його з усмішкою: не доганяєш? Тут подвійне значення.",
+          "de": "Jemand in der ersten Reihe lacht nicht. Frag ihn mit einem Lächeln: Kapierst du's nicht? Das hat einen doppelten Sinn.",
+          "fr": "Quelqu'un au premier rang ne rit pas. Demande-lui, avec un sourire : tu ne piges pas ? Ça a un double sens.",
+          "pt": "Alguém na primeira fila não está rindo. Pergunte a ele, sorrindo: não sacou? Tem duplo sentido.",
+          "zh": "第一排有个人没笑。笑着问他：你没懂吗？这是个双关。"
+        },
+        "accepted": [
+          "¿No lo pillas? Tiene doble sentido."
+        ],
+        "tiles": [
+          "¿No lo",
+          "pillas?",
+          "Tiene",
+          "doble sentido",
+          "pillo",
+          "es"
+        ],
+        "en": "Don't you get it? It has a double meaning.",
+        "it": "Non ci arrivi? Ha un doppio senso.",
+        "uk": "Не доганяєш? Тут подвійне значення.",
+        "de": "Kapierst du's nicht? Das hat einen doppelten Sinn.",
+        "fr": "Tu ne piges pas ? Ça a un double sens.",
+        "pt": "Não sacou? Tem duplo sentido.",
+        "zh": "你没懂吗？这是个双关。",
+        "hint": {
+          "en": "¿lo pillas? for tú; tener doble sentido.",
+          "it": "¿lo pillas? per tú; tener doble sentido.",
+          "uk": "¿lo pillas? для tú; tener doble sentido.",
+          "de": "¿lo pillas? für tú; tener doble sentido.",
+          "fr": "¿lo pillas? pour tú ; tener doble sentido.",
+          "pt": "¿lo pillas? para tú; tener doble sentido.",
+          "zh": "对 tú 用 ¿lo pillas?；tener doble sentido。"
+        }
+      },
+      {
+        "type": "write",
+        "instruction": {
+          "en": "Close your monologue. Write in Spanish: «Thank you very much, you've been a great audience. Good night!»",
+          "it": "Chiudi il tuo monologo. Scrivi in spagnolo: «Grazie mille, siete stati un pubblico fantastico. Buonanotte!»",
+          "uk": "Заверши свій монолог. Напиши іспанською: «Дуже дякую, ви були чудовою публікою. На добраніч!»",
+          "de": "Beende deinen Monolog. Schreib auf Spanisch: «Vielen Dank, ihr wart ein tolles Publikum. Gute Nacht!»",
+          "fr": "Termine ton monologue. Écris en espagnol : «Merci beaucoup, vous avez été un public génial. Bonne nuit !»",
+          "pt": "Feche o seu monólogo. Escreva em espanhol: «Muito obrigado, vocês foram uma plateia incrível. Boa noite!»",
+          "zh": "给你的脱口秀收个尾。用西班牙语写：«非常感谢，你们是很棒的观众。晚安！»"
+        },
+        "accepted": [
+          "Muchas gracias, habéis sido un público genial. ¡Buenas noches!",
+          "Muchas gracias, sois un público genial. ¡Buenas noches!",
+          "Gracias, habéis sido un público genial. ¡Buenas noches!"
+        ],
+        "model": {
+          "es": "Muchas gracias, habéis sido un público genial. ¡Buenas noches!",
+          "en": "Thank you very much, you've been a great audience. Good night!",
+          "it": "Grazie mille, siete stati un pubblico fantastico. Buonanotte!",
+          "uk": "Дуже дякую, ви були чудовою публікою. На добраніч!",
+          "de": "Vielen Dank, ihr wart ein tolles Publikum. Gute Nacht!",
+          "fr": "Merci beaucoup, vous avez été un public génial. Bonne nuit !",
+          "pt": "Muito obrigado, vocês foram uma plateia incrível. Boa noite!",
+          "zh": "非常感谢，你们是很棒的观众。晚安！"
+        }
+      }
+    ]
+  }
+}
