@@ -56,8 +56,8 @@ struct LabGame: Identifiable {
 
     var kind: Kind {
         switch id {
-        case LabGame.voiceId, LabGame.wordMatchId: return .words
-        case LabGame.orderId, LabGame.dictationId, LabGame.huntId: return .sentences
+        case LabGame.voiceId, LabGame.wordMatchId, LabGame.meaningId, LabGame.genderId, LabGame.oppositesId: return .words
+        case LabGame.orderId, LabGame.dictationId, LabGame.huntId, LabGame.sayingsId: return .sentences
         default: return .verbs
         }
     }
@@ -90,6 +90,21 @@ struct LabGame: Identifiable {
         LabGame(id: LabGame.timeMachineId, title: "Máquina del tiempo",
                 gloss: Gloss(en: "Move a verb to another tense and write the new form.", it: "Porta un verbo in un altro tempo e scrivi la nuova forma.", uk: "Перенеси дієслово в інший час і напиши нову форму.", de: "Setz ein Verb in eine andere Zeitform und schreib die neue Form.", fr: "Mets un verbe à un autre temps et écris la nouvelle forme.", pt: "Passe um verbo para outro tempo e escreva a nova forma.", zh: "把动词换成另一个时态，写出新的形式。"),
                 icon: "dial.medium", unlockedBy: "u21l1", isBuilt: true),
+        LabGame(id: LabGame.raceId, title: "Carrera de verbos",
+                gloss: Gloss(en: "Write whole verb tables against the clock. Beat your best time.", it: "Scrivi tabelle intere di verbi contro il tempo. Batti il tuo miglior tempo.", uk: "Пиши цілі таблиці дієслів на час. Побий свій найкращий час.", de: "Schreib ganze Verbtabellen gegen die Uhr. Schlag deine Bestzeit.", fr: "Écris des tableaux de verbes entiers contre la montre. Bats ton meilleur temps.", pt: "Escreva tabelas inteiras de verbos contra o relógio. Supere seu melhor tempo.", zh: "限时写出完整的动词变位表。打破你的最好成绩。"),
+                icon: "flag.checkered", unlockedBy: "u2l3", isBuilt: true),
+        LabGame(id: LabGame.meaningId, title: "¿Qué significa?",
+                gloss: Gloss(en: "See and hear a Spanish word you've learned, and pick what it means.", it: "Vedi e ascolta una parola spagnola che hai imparato e scegli che cosa significa.", uk: "Побач і почуй іспанське слово, яке ти вивчив, і обери, що воно означає.", de: "Sieh und hör ein gelerntes spanisches Wort und wähle, was es bedeutet.", fr: "Vois et écoute un mot espagnol que tu as appris, et choisis ce qu'il veut dire.", pt: "Veja e ouça uma palavra em espanhol que você aprendeu e escolha o que ela significa.", zh: "看并听一个学过的西班牙语词，选出它的意思。"),
+                icon: "questionmark.bubble", unlockedBy: "u1l1", isBuilt: true),
+        LabGame(id: LabGame.genderId, title: "¿El o la?",
+                gloss: Gloss(en: "Is it el or la? Quick rounds with the nouns you've learned.", it: "È el o la? Round veloci con i nomi che hai imparato.", uk: "El чи la? Швидкі раунди з іменниками, які ти вивчив.", de: "El oder la? Schnelle Runden mit den Nomen, die du gelernt hast.", fr: "El ou la ? Des manches rapides avec les noms que tu as appris.", pt: "É el ou la? Rodadas rápidas com os substantivos que você aprendeu.", zh: "是 el 还是 la？用学过的名词快速答题。"),
+                icon: "textformat", unlockedBy: "u4l3", isBuilt: true),
+        LabGame(id: LabGame.oppositesId, title: "Contrarios",
+                gloss: Gloss(en: "Find the opposite: alto and bajo, abrir and cerrar.", it: "Trova il contrario: alto e bajo, abrir e cerrar.", uk: "Знайди протилежність: alto і bajo, abrir і cerrar.", de: "Finde das Gegenteil: alto und bajo, abrir und cerrar.", fr: "Trouve le contraire : alto et bajo, abrir et cerrar.", pt: "Encontre o contrário: alto e bajo, abrir e cerrar.", zh: "找出反义词：alto 和 bajo，abrir 和 cerrar。"),
+                icon: "arrow.left.arrow.right", unlockedBy: "u3l5", isBuilt: true),
+        LabGame(id: LabGame.sayingsId, title: "Termina el refrán",
+                gloss: Gloss(en: "Finish real Spanish sayings and learn what they mean.", it: "Completa veri proverbi spagnoli e scopri che cosa significano.", uk: "Закінчуй справжні іспанські прислів'я і дізнавайся, що вони означають.", de: "Vervollständige echte spanische Sprichwörter und lerne, was sie bedeuten.", fr: "Termine de vrais proverbes espagnols et découvre ce qu'ils veulent dire.", pt: "Complete ditados espanhóis de verdade e aprenda o que eles significam.", zh: "补全真正的西班牙俗语，了解它们的意思。"),
+                icon: "quote.bubble", unlockedBy: "u24l1", isBuilt: true),
     ]
 
     static let sprintId = "sprint"
@@ -100,6 +115,11 @@ struct LabGame: Identifiable {
     static let dictationId = "dictation"
     static let tensesId = "tenses"
     static let timeMachineId = "timemachine"
+    static let meaningId = "meaning"
+    static let raceId = "race"
+    static let sayingsId = "sayings"
+    static let genderId = "gender"
+    static let oppositesId = "opposites"
 
     static var built: [LabGame] { all.filter(\.isBuilt) }
 }

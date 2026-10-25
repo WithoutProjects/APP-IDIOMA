@@ -54,8 +54,8 @@ A FULL COURSE, A0 TO C2
 VERBS YOU CAN SEE
 In every verb table the stem is blue and the ending is orange: habl + o, habl + as, habl + a. Conjugation stops being a list to memorise and becomes a set of building blocks. Review any table in the Lab whenever you need it.
 
-THE LAB: 9 GAMES
-Practise what you have learned, never anything you haven't. Games unlock as you progress and use only the words and sentences from your own lessons:
+THE LAB: 14 GAMES
+Practise what you have learned, never anything you haven't. Games unlock as you progress and use the words and sentences from your own lessons:
 - Parejas: match each verb form to its person.
 - Contrarreloj: 60 seconds, as many correct verb forms as you can.
 - ¿Qué tiempo es?: name the tense of a verb form.
@@ -65,6 +65,11 @@ Practise what you have learned, never anything you haven't. Games unlock as you 
 - Ordena la frase: put a sentence from your lessons back in order.
 - Dictado: hear a sentence and write it. Tap twice to hear it slowly.
 - Caza de errores: find the wrong verb in a sentence.
+- Carrera de verbos: write whole verb tables against the clock and beat your best time.
+- ¿Qué significa?: hear a Spanish word and pick what it means.
+- ¿El o la?: quick rounds on the gender of the nouns you know.
+- Contrarios: find the opposite, like alto and bajo.
+- Termina el refrán: finish real Spanish sayings, with word-for-word translations and their meaning.
 
 LISTEN AND SPEAK
 Sentences are read aloud by a natural voice. In Speak, you hear a sentence from your finished lessons, say it out loud and see which words came through clearly.

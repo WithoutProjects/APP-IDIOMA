@@ -242,6 +242,18 @@ final class AppStore: ObservableObject {
         return true
     }
 
+    /// For races, where less is better: keeps the time in seconds if it beats the record.
+    /// A finished race is study too. True when it is a new record.
+    @discardableResult
+    func recordTime(_ seconds: Int, in game: String) -> Bool {
+        guard seconds > 0 else { return false }
+        recordStudyDay()
+        let record = best(in: game)
+        guard record == 0 || seconds < record else { return false }
+        state.gameBests[game] = seconds
+        return true
+    }
+
     // MARK: Practice events
 
     func addXP(_ amount: Int) {

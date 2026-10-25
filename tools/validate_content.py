@@ -221,6 +221,39 @@ class Checker:
         self.known |= known - names
 
 
+def check_sayings(checker, lesson_ids):
+    """sayings.json, for "Termina el refrán": every text in every language, a real unlocking
+    lesson, and no two sayings with the same end (each question has one right answer)."""
+    path = CONTENT / "sayings.json"
+    try:
+        sayings = json.loads(path.read_text())["sayings"]
+    except (OSError, json.JSONDecodeError, KeyError) as e:
+        checker.error(path.name, f"cannot read: {e}")
+        return
+    ids, ends = set(), set()
+    for saying in sayings:
+        sid = saying.get("id", "?")
+        where = f"{path.name}:{sid}"
+        if sid in ids:
+            checker.error(where, "duplicate id")
+        ids.add(sid)
+        for field in ("start", "end"):
+            if not saying.get(field, "").strip():
+                checker.error(where, f"empty {field}")
+        end = normalize(saying.get("end", ""))
+        if end in ends:
+            checker.error(where, "another saying has the same end")
+        ends.add(end)
+        if saying.get("unlockedBy") not in lesson_ids:
+            checker.error(where, f'unlockedBy "{saying.get("unlockedBy")}" is not a lesson')
+        for field in ("startLiteral", "endLiteral", "meaning"):
+            for lang in LANGS:
+                if not (saying.get(field) or {}).get(lang, "").strip():
+                    checker.error(where, f"{field} has no {lang}")
+    if len(sayings) < 3:
+        checker.error(path.name, "the game needs at least 3 sayings")
+
+
 def main(selected):
     curriculum = json.loads((CONTENT / "curriculum.json").read_text())
     plan = json.loads(PLAN.read_text()) if PLAN.exists() else {}
@@ -269,6 +302,9 @@ def main(selected):
             extra = set(specs) - {l["id"] for l in unit["lessons"]}
             if extra and check:
                 checker.error(uid, f"lessons not in the curriculum: {sorted(extra)}")
+
+    if not selected:
+        check_sayings(checker, {l["id"] for u in units for l in u["lessons"]})
 
     for w in checker.warnings:
         if not selected or any(w.startswith(u + "l") or w.startswith(u + "b") for u in selected):

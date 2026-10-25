@@ -24,7 +24,7 @@ struct LabView: View {
                         GamesView()
                     } label: {
                         LabCard(title: "Jugar",
-                                detail: Gloss(en: "Verb minigames for your level.", it: "Minigiochi di verbi per il tuo livello.", uk: "Мініігри з дієсловами для твого рівня.", de: "Verb-Minispiele für dein Niveau.", fr: "Des mini-jeux de verbes adaptés à ton niveau.", pt: "Minijogos de verbos para o seu nível.", zh: "适合你级别的动词小游戏。"),
+                                detail: Gloss(en: "Minigames for your level: verbs, words and sayings.", it: "Minigiochi per il tuo livello: verbi, parole e proverbi.", uk: "Мініігри для твого рівня: дієслова, слова й прислів'я.", de: "Minispiele für dein Niveau: Verben, Wörter und Sprichwörter.", fr: "Des mini-jeux adaptés à ton niveau : verbes, mots et proverbes.", pt: "Minijogos para o seu nível: verbos, palavras e ditados.", zh: "适合你级别的小游戏：动词、词汇和俗语。"),
                                 icon: "gamecontroller.fill", language: store.language)
                     }
                     .buttonStyle(.plain)
@@ -127,6 +127,11 @@ struct GamesView: View {
         case LabGame.dictationId: DictationView()
         case LabGame.tensesId: TenseQuizView()
         case LabGame.timeMachineId: TimeMachineView()
+        case LabGame.raceId: VerbRaceView()
+        case LabGame.meaningId: MeaningQuizView()
+        case LabGame.genderId: GenderGameView()
+        case LabGame.oppositesId: OppositesView()
+        case LabGame.sayingsId: SayingsView()
         default: PairsGameView()
         }
     }

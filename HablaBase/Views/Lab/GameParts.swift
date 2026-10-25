@@ -148,3 +148,43 @@ enum GameTexts {
         return SprintGameView.bestLabel.text(language) + " \(value)" + (total.map { "/\($0)" } ?? "")
     }
 }
+
+/// One answer of a choice game: neutral before the pick, then green for the answer and
+/// orange for a wrong pick.
+struct GameOption: View {
+    let title: String
+    /// A smaller line under the title, such as a literal translation.
+    var detail: String?
+    let isAnswer: Bool
+    let isPicked: Bool
+    let revealed: Bool
+    let action: () -> Void
+
+    var body: some View {
+        let showRight = revealed && isAnswer
+        let showWrong = revealed && isPicked && !isAnswer
+        Button(action: action) {
+            VStack(alignment: .leading, spacing: 3) {
+                Text(verbatim: title)
+                    .font(.headline)
+                    .multilineTextAlignment(.leading)
+                if let detail {
+                    Text(verbatim: detail)
+                        .font(.subheadline)
+                        .foregroundStyle(.secondary)
+                        .multilineTextAlignment(.leading)
+                }
+            }
+            .padding(.horizontal, 18)
+            .padding(.vertical, 12)
+            .frame(maxWidth: .infinity, minHeight: 54, alignment: .leading)
+            .background(RoundedRectangle(cornerRadius: 16, style: .continuous)
+                .fill(showRight ? Palette.success.opacity(0.15) : showWrong ? Palette.warning.opacity(0.15) : Palette.card))
+            .overlay(RoundedRectangle(cornerRadius: 16, style: .continuous)
+                .strokeBorder(showRight ? Palette.success : showWrong ? Palette.warning : .clear, lineWidth: 2))
+        }
+        .buttonStyle(.plain)
+        .disabled(revealed)
+        .accessibilityAddTraits(showRight ? .isSelected : [])
+    }
+}
