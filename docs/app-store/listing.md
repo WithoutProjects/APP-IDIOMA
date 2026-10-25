@@ -67,7 +67,11 @@ Welcome to Hablo, the first version. The full course from A0 to C2, explanations
 
 En la primera versión (1.0) Apple no muestra este campo; sirve para la 1.1.
 
-**Category**: Education (secundaria: Reference, opcional)
-**Support URL** (obligatoria): una página pública con un correo de contacto, por ejemplo una página de GitHub Pages o Notion.
-**Marketing URL** (opcional): la web de Hablo cuando exista; si no, déjalo vacío.
-**Privacy policy URL** (obligatoria): la página con privacy-policy.md publicada.
+**Category**: Education
+**Version**: 1.0
+**Copyright**: 2026 WithoutProjects
+**Support URL**: https://withoutprojects.github.io/APP-IDIOMA/support/
+**Marketing URL**: https://withoutprojects.github.io/APP-IDIOMA/
+**Privacy policy URL**: https://withoutprojects.github.io/APP-IDIOMA/privacy/
+
+The site lives in docs/ (index.html, support/, privacy/) and is served by GitHub Pages from the default branch, folder /docs.
