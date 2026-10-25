@@ -146,6 +146,8 @@ struct LessonView: View {
         case .review:
             store.addXP(session.completionXP)
         }
+        // Any finished session counts as a study day, even a test that was not passed yet.
+        store.recordStudyDay()
         finished = true
     }
 }

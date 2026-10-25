@@ -1,6 +1,6 @@
-# HablaBase
+# Hablo
 
-App para aprender español (iOS, SwiftUI). El diseño completo está en la guía maestra de HablaBase.
+App para aprender español (iOS, SwiftUI). El diseño completo está en la guía maestra de Hablo. (En el código el proyecto y el target siguen llamándose `HablaBase`; el usuario solo ve «Hablo».)
 
 ## Abrir en Xcode
 
@@ -30,7 +30,7 @@ La app lee ese archivo para dibujar la ruta. Para cambiar el orden o los título
 ## Qué hay ahora (v1.0)
 
 - **Bienvenida**: nombre, ciudad, trabajo, idioma (English / Italiano / Українська / Deutsch / Français / Português / 中文), objetivo y minutos al día.
-- **Inicio**: racha, XP, energía, botón Continuar con el nivel y la unidad actuales, y la unidad en curso.
+- **Inicio**: XP, energía, la tarjeta «Días seguidos» (racha, récord y los últimos 7 días), botón Continuar con el nivel y la unidad actuales, y la unidad en curso.
 - **Recorrido A0–C2**: todos los niveles, unidades, lecciones, bosses, tests y exámenes, con el progreso de cada unidad.
 - **Formato de lección**: explicación, 2 ejercicios, siguiente explicación, 2 ejercicios… y un bloque final que lo mezcla todo. Cada bloque tiene como máximo 15 preguntas, contando los fallos que se repiten al final.
 - **Vocabulario primero**: cada palabra nueva se presenta en slides (palabra y traducción) y luego se une con su traducción antes de usarla en un ejercicio. Un test automático comprueba que ninguna lección usa palabras sin presentar.
@@ -42,7 +42,7 @@ La app lee ese archivo para dibujar la ruta. Para cambiar el orden o los título
 - **Escribir o decir**: en los ejercicios de completar, construir frases y traducir puedes elegir entre escribir la respuesta o decirla en voz alta. La app recuerda tu elección.
 - **Test de unidad**: 10 preguntas sin explicaciones. Con 8 aciertos la unidad (y todo lo anterior) queda superada, así quien ya sabe español puede avanzar rápido. Se genera con preguntas de todas las lecciones de la unidad.
 - **Examen de nivel**: al final de cada nivel, 10 preguntas sacadas de todas sus unidades. Con 8 aciertos se abre el nivel siguiente; si no, se puede repetir cuando quieras.
-- **Conjugation Lab**: dos botones. *Repasar tablas* (tabla del presente que se ilumina con el dominio y banco Lego) y *Jugar*, con nueve juegos agrupados en Verbos, Palabras y Frases, que se abren a medida que avanzas:
+- **Conjugation Lab**: dos botones. *Repasar tablas* (tabla del presente que se ilumina con el dominio y banco Lego) y *Jugar*, con catorce juegos agrupados en Verbos, Palabras y Frases, que se abren a medida que avanzas:
   - *Parejas* (desde la Lección 1): unir cada verbo con su persona.
   - *Contrarreloj* (desde la Lección 2): 60 segundos para elegir la forma correcta del mayor número de verbos. Cada 5 aciertos seguidos suman 3 segundos, un fallo enseña la forma correcta y al final salen los verbos que hay que repasar. Pregunta más a menudo las formas que fallas y guarda tu récord.
   - *Caza de errores* (desde el boss de la Unidad 2): frases de tus propias lecciones; en algunas un verbo está en la persona equivocada («Nosotros habla…») y hay que tocarlo, o decir que la frase está bien. Tres fallos y se acaba; guarda tu récord.
@@ -52,6 +52,11 @@ La app lee ese archivo para dibujar la ruta. Para cambiar el orden o los título
   - *Dictado* (desde la Unidad 2): oyes una frase de tus lecciones (un segundo toque la lee despacio) y la escribes en español. Las tildes que faltan se señalan pero cuentan como acierto.
   - *¿Qué tiempo es?* (desde la Unidad 14): sale una forma («hablé», «he comido») y eliges su tiempo entre los que ya conoces. Solo salen formas que pertenecen a un único tiempo.
   - *Máquina del tiempo* (desde la Unidad 21): una forma en un tiempo («tú hablas») y la escribes en otro («hablaste»). Pregunta antes las formas que fallas.
+  - *Carrera de verbos* (desde la lección de vosotros, Unidad 2): tres verbos enteros, todas las personas, escritos contra el reloj. Cada forma pasa sola en cuanto es correcta (las tildes que faltan se apuntan para repasar); «Mostrar» enseña la forma y suma 5 segundos. El récord es el mejor tiempo. Es lo contrario de Contrarreloj: allí el tiempo es fijo y se elige entre opciones; aquí se escribe la tabla completa y cuenta lo que tardas.
+  - *¿Qué significa?* (desde la Lección 1): sale y suena una palabra española ya aprendida y eliges su significado entre cuatro. Las opciones falsas son del mismo tipo (un verbo con verbos) y nunca dos significan lo mismo.
+  - *¿El o la?* (desde «Voy a la playa», Unidad 4): un sustantivo aprendido sin artículo y dos botones, el y la. Si aciertas pasa solo; si fallas explica las excepciones (el día, la mano, el agua). Quedan fuera los que las lecciones dan con los dos artículos.
+  - *Contrarios* (desde «¿Ser o estar?», Unidad 3): eliges el contrario de una palabra (alto → bajo) entre cuatro palabras que ya conoces. Usa 26 parejas y solo pregunta las que tienen aprendidas las dos palabras.
+  - *Termina el refrán* (desde «Había una vez», Unidad 24): el principio de un refrán con su traducción literal y tres finales, cada uno traducido. Después se oye entero con su significado. 30 refranes en `HablaBase/Content/sayings.json`, con traducción literal y significado en los 7 idiomas; los que usan imperativo o subjuntivo se abren con esa lección (Unidades 30 a 32). `tools/validate_content.py` los comprueba.
   Los juegos solo usan los verbos de las lecciones terminadas, y solo las personas y tiempos ya explicados: presente, pretérito perfecto, indefinido, imperfecto, futuro, condicional y subjuntivo (presente e imperfecto), cada uno a partir de su lección. Las tablas completas de 144 verbos están en `HablaBase/Content/verb-tables.json`, generadas con `python3 tools/build_verb_tables.py` (necesita `pip install verbecc`; el script comprueba a mano las formas difíciles). Para añadir un verbo, ponlo en la lista del script después de presentarlo en una lección.
 - **Progreso guardado en el teléfono**: se guarda en un archivo de la app después de cada cambio, sobrevive a las actualizaciones y entra en la copia de seguridad del iPhone. Está detrás de `ProgressStorage`, así que más adelante se puede añadir una cuenta en la nube (por ejemplo Supabase) sin tocar el resto.
 
@@ -63,6 +68,8 @@ La app lee ese archivo para dibujar la ruta. Para cambiar el orden o los título
 - **Tocar una palabra para ver su traducción**: solo las palabras ya presentadas en las diapositivas.
 - **Minirepaso si te atascas**: dos fallos seguidos en el mismo punto muestran la regla con un ejemplo y una pregunta gemela más fácil. No quita corazones.
 - **Corazones que no castigan**: los fallos al escribir quitan un corazón, la «Segunda oportunidad» lo devuelve, se rellenan cada día y nunca bloquean. Con 0 aparece «Recupera tus corazones», un repaso de tus errores.
+- **Racha tranquila**: cuenta un día cuando terminas una lección, un test, un repaso o un juego del Lab con puntos. Si faltas un día vuelve a empezar, sin avisos ni castigos.
+- **Recordatorio diario** (Perfil): desactivado por defecto; al activarlo se pide permiso de notificaciones. Una notificación local al día a la hora elegida, en el idioma del perfil, y ninguna los días en que ya has estudiado. Se programan 14 días por adelantado y se rehacen al estudiar o abrir la app.
 
 ## Preparada para la App Store
 

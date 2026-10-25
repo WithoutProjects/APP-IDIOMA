@@ -14,6 +14,7 @@ struct HablaBaseApp: App {
 
 struct RootView: View {
     @EnvironmentObject private var store: AppStore
+    @Environment(\.scenePhase) private var scenePhase
 
     var body: some View {
         if store.profile == nil {
@@ -33,6 +34,12 @@ struct RootView: View {
             }
             .environment(\.locale, store.language.locale)
             .levelTone(Journey.currentTone(store: store))
+            .onChange(of: scenePhase) { _, phase in
+                // A new day may have started: refill the hearts and plan the reminders again.
+                guard phase == .active else { return }
+                store.refillEnergyIfNewDay()
+                if store.state.reminder != nil { store.planReminders() }
+            }
         }
     }
 }

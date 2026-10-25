@@ -1,0 +1,994 @@
+{
+ "sayings": [
+  {
+   "id": "tarde",
+   "start": "Más vale tarde",
+   "end": "que nunca",
+   "unlockedBy": "u24l1",
+   "startLiteral": {
+    "en": "Better late",
+    "it": "Meglio tardi",
+    "uk": "Краще пізно,",
+    "de": "Besser spät",
+    "fr": "Mieux vaut tard",
+    "pt": "Antes tarde",
+    "zh": "迟到总比"
+   },
+   "endLiteral": {
+    "en": "than never",
+    "it": "che mai",
+    "uk": "ніж ніколи",
+    "de": "als nie",
+    "fr": "que jamais",
+    "pt": "do que nunca",
+    "zh": "永远不到好"
+   },
+   "meaning": {
+    "en": "Doing something late is better than not doing it at all.",
+    "it": "Fare qualcosa in ritardo è meglio che non farla affatto.",
+    "uk": "Зробити щось із запізненням краще, ніж не зробити зовсім.",
+    "de": "Etwas spät zu tun ist besser, als es gar nicht zu tun.",
+    "fr": "Faire quelque chose en retard vaut mieux que ne pas le faire du tout.",
+    "pt": "Fazer algo com atraso é melhor do que não fazer.",
+    "zh": "晚做总比不做好。"
+   }
+  },
+  {
+   "id": "poco",
+   "start": "Poco a poco",
+   "end": "se va lejos",
+   "unlockedBy": "u24l1",
+   "startLiteral": {
+    "en": "Little by little",
+    "it": "Poco a poco",
+    "uk": "Потроху",
+    "de": "Nach und nach",
+    "fr": "Petit à petit",
+    "pt": "Pouco a pouco",
+    "zh": "一点一点地，"
+   },
+   "endLiteral": {
+    "en": "you go far",
+    "it": "si va lontano",
+    "uk": "можна зайти далеко",
+    "de": "kommt man weit",
+    "fr": "on va loin",
+    "pt": "se vai longe",
+    "zh": "就能走得很远"
+   },
+   "meaning": {
+    "en": "Small, steady steps take you a long way, like learning a language.",
+    "it": "Piccoli passi costanti portano lontano, come quando si impara una lingua.",
+    "uk": "Маленькі, але постійні кроки ведуть далеко, як у вивченні мови.",
+    "de": "Kleine, regelmäßige Schritte bringen dich weit, wie beim Sprachenlernen.",
+    "fr": "De petits pas réguliers mènent loin, comme quand on apprend une langue.",
+    "pt": "Passos pequenos e constantes levam longe, como aprender um idioma.",
+    "zh": "坚持小步前进就能走得很远，就像学语言一样。"
+   }
+  },
+  {
+   "id": "practica",
+   "start": "La práctica",
+   "end": "hace al maestro",
+   "unlockedBy": "u24l1",
+   "startLiteral": {
+    "en": "Practice",
+    "it": "La pratica",
+    "uk": "Практика",
+    "de": "Die Übung",
+    "fr": "La pratique",
+    "pt": "A prática",
+    "zh": "练习"
+   },
+   "endLiteral": {
+    "en": "makes the master",
+    "it": "fa il maestro",
+    "uk": "робить майстра",
+    "de": "macht den Meister",
+    "fr": "fait le maître",
+    "pt": "faz o mestre",
+    "zh": "造就大师"
+   },
+   "meaning": {
+    "en": "You get good at something by doing it again and again.",
+    "it": "Si diventa bravi in qualcosa facendola e rifacendola.",
+    "uk": "Майстерність приходить, коли робиш щось знову і знову.",
+    "de": "Man wird gut in etwas, indem man es immer wieder tut.",
+    "fr": "On devient bon en faisant une chose encore et encore.",
+    "pt": "A gente fica bom em algo fazendo de novo e de novo.",
+    "zh": "反复去做，才能把事情做好。"
+   }
+  },
+  {
+   "id": "querer",
+   "start": "Querer",
+   "end": "es poder",
+   "unlockedBy": "u24l1",
+   "startLiteral": {
+    "en": "To want",
+    "it": "Volere",
+    "uk": "Хотіти",
+    "de": "Wollen",
+    "fr": "Vouloir",
+    "pt": "Querer",
+    "zh": "想要"
+   },
+   "endLiteral": {
+    "en": "is to be able",
+    "it": "è potere",
+    "uk": "означає могти",
+    "de": "ist Können",
+    "fr": "c'est pouvoir",
+    "pt": "é poder",
+    "zh": "就是能够"
+   },
+   "meaning": {
+    "en": "If you really want something, you will find a way to do it.",
+    "it": "Se vuoi davvero qualcosa, troverai il modo di farla.",
+    "uk": "Якщо чогось справді хочеш, знайдеш спосіб це зробити.",
+    "de": "Wenn du etwas wirklich willst, findest du einen Weg.",
+    "fr": "Si tu veux vraiment quelque chose, tu trouveras un moyen d'y arriver.",
+    "pt": "Se você quer muito algo, encontra um jeito de fazer.",
+    "zh": "真心想做的事，总能找到办法。"
+   }
+  },
+  {
+   "id": "oro",
+   "start": "El tiempo",
+   "end": "es oro",
+   "unlockedBy": "u24l1",
+   "startLiteral": {
+    "en": "Time",
+    "it": "Il tempo",
+    "uk": "Час",
+    "de": "Zeit",
+    "fr": "Le temps",
+    "pt": "O tempo",
+    "zh": "时间"
+   },
+   "endLiteral": {
+    "en": "is gold",
+    "it": "è oro",
+    "uk": "це золото",
+    "de": "ist Gold",
+    "fr": "c'est de l'or",
+    "pt": "é ouro",
+    "zh": "就是金子"
+   },
+   "meaning": {
+    "en": "Time is valuable: don't waste it.",
+    "it": "Il tempo è prezioso: non sprecarlo.",
+    "uk": "Час цінний: не марнуй його.",
+    "de": "Zeit ist wertvoll: Verschwende sie nicht.",
+    "fr": "Le temps est précieux : ne le gaspille pas.",
+    "pt": "O tempo é valioso: não desperdice.",
+    "zh": "时间很宝贵，不要浪费。"
+   }
+  },
+  {
+   "id": "hoy",
+   "start": "Hoy por ti,",
+   "end": "mañana por mí",
+   "unlockedBy": "u24l1",
+   "startLiteral": {
+    "en": "Today for you,",
+    "it": "Oggi per te,",
+    "uk": "Сьогодні для тебе,",
+    "de": "Heute für dich,",
+    "fr": "Aujourd'hui pour toi,",
+    "pt": "Hoje por você,",
+    "zh": "今天为你，"
+   },
+   "endLiteral": {
+    "en": "tomorrow for me",
+    "it": "domani per me",
+    "uk": "завтра для мене",
+    "de": "morgen für mich",
+    "fr": "demain pour moi",
+    "pt": "amanhã por mim",
+    "zh": "明天为我"
+   },
+   "meaning": {
+    "en": "I help you today, and one day you will help me.",
+    "it": "Oggi ti aiuto io, e un giorno mi aiuterai tu.",
+    "uk": "Сьогодні я допомагаю тобі, а колись ти допоможеш мені.",
+    "de": "Heute helfe ich dir, und eines Tages hilfst du mir.",
+    "fr": "Aujourd'hui je t'aide, et un jour tu m'aideras.",
+    "pt": "Hoje eu te ajudo, e um dia você me ajuda.",
+    "zh": "今天我帮你，将来你帮我。"
+   }
+  },
+  {
+   "id": "cara",
+   "start": "A mal tiempo,",
+   "end": "buena cara",
+   "unlockedBy": "u24l1",
+   "startLiteral": {
+    "en": "To bad weather,",
+    "it": "Al brutto tempo,",
+    "uk": "На погану погоду —",
+    "de": "Bei schlechtem Wetter",
+    "fr": "Au mauvais temps,",
+    "pt": "Para o mau tempo,",
+    "zh": "天气不好，"
+   },
+   "endLiteral": {
+    "en": "a good face",
+    "it": "buona faccia",
+    "uk": "добре обличчя",
+    "de": "ein gutes Gesicht",
+    "fr": "bon visage",
+    "pt": "cara boa",
+    "zh": "也要有好脸色"
+   },
+   "meaning": {
+    "en": "When things go badly, stay positive.",
+    "it": "Quando le cose vanno male, resta positivo.",
+    "uk": "Коли все йде погано, залишайся позитивним.",
+    "de": "Wenn es schlecht läuft, bleib positiv.",
+    "fr": "Quand les choses vont mal, reste positif.",
+    "pt": "Quando as coisas vão mal, mantenha o bom humor.",
+    "zh": "事情不顺的时候，也要保持乐观。"
+   }
+  },
+  {
+   "id": "ruido",
+   "start": "Mucho ruido",
+   "end": "y pocas nueces",
+   "unlockedBy": "u24l1",
+   "startLiteral": {
+    "en": "Lots of noise",
+    "it": "Molto rumore",
+    "uk": "Багато шуму",
+    "de": "Viel Lärm",
+    "fr": "Beaucoup de bruit",
+    "pt": "Muito barulho",
+    "zh": "响声很大，"
+   },
+   "endLiteral": {
+    "en": "and few nuts",
+    "it": "e poche noci",
+    "uk": "і мало горіхів",
+    "de": "und wenige Nüsse",
+    "fr": "et peu de noix",
+    "pt": "e poucas nozes",
+    "zh": "核桃很少"
+   },
+   "meaning": {
+    "en": "A lot of talk or fuss, but little real result.",
+    "it": "Tante chiacchiere o tanto clamore, ma pochi risultati veri.",
+    "uk": "Багато розмов чи галасу, але мало справжнього результату.",
+    "de": "Viel Gerede oder Aufregung, aber wenig echtes Ergebnis.",
+    "fr": "Beaucoup de paroles ou d'agitation, mais peu de vrais résultats.",
+    "pt": "Muito falatório ou alarde, mas pouco resultado de verdade.",
+    "zh": "雷声大，雨点小：说得多，做成的少。"
+   }
+  },
+  {
+   "id": "palo",
+   "start": "De tal palo,",
+   "end": "tal astilla",
+   "unlockedBy": "u24l1",
+   "startLiteral": {
+    "en": "From such a stick,",
+    "it": "Da tale bastone,",
+    "uk": "Яка палиця,",
+    "de": "Von solchem Holz",
+    "fr": "De tel bâton,",
+    "pt": "De tal pau,",
+    "zh": "什么样的木头，"
+   },
+   "endLiteral": {
+    "en": "such a splinter",
+    "it": "tale scheggia",
+    "uk": "така й тріска",
+    "de": "solch ein Span",
+    "fr": "tel copeau",
+    "pt": "tal lasca",
+    "zh": "就有什么样的木屑"
+   },
+   "meaning": {
+    "en": "Children are often like their parents.",
+    "it": "I figli spesso somigliano ai genitori.",
+    "uk": "Діти часто схожі на своїх батьків.",
+    "de": "Kinder sind oft wie ihre Eltern.",
+    "fr": "Les enfants ressemblent souvent à leurs parents.",
+    "pt": "Os filhos costumam ser parecidos com os pais.",
+    "zh": "孩子往往像他们的父母。"
+   }
+  },
+  {
+   "id": "perro",
+   "start": "Perro ladrador,",
+   "end": "poco mordedor",
+   "unlockedBy": "u24l1",
+   "startLiteral": {
+    "en": "A barking dog",
+    "it": "Cane che abbaia",
+    "uk": "Собака, що гавкає,",
+    "de": "Ein bellender Hund",
+    "fr": "Chien qui aboie",
+    "pt": "Cão que ladra",
+    "zh": "爱叫的狗"
+   },
+   "endLiteral": {
+    "en": "bites little",
+    "it": "morde poco",
+    "uk": "мало кусає",
+    "de": "beißt wenig",
+    "fr": "mord peu",
+    "pt": "morde pouco",
+    "zh": "很少咬人"
+   },
+   "meaning": {
+    "en": "People who threaten a lot rarely do anything.",
+    "it": "Chi minaccia tanto raramente passa ai fatti.",
+    "uk": "Хто багато погрожує, той рідко щось робить.",
+    "de": "Wer viel droht, tut selten etwas.",
+    "fr": "Ceux qui menacent beaucoup passent rarement à l'acte.",
+    "pt": "Quem ameaça muito raramente faz alguma coisa.",
+    "zh": "爱放狠话的人，很少真的动手。"
+   }
+  },
+  {
+   "id": "boca",
+   "start": "En boca cerrada",
+   "end": "no entran moscas",
+   "unlockedBy": "u24l1",
+   "startLiteral": {
+    "en": "Into a closed mouth",
+    "it": "In bocca chiusa",
+    "uk": "У закритий рот",
+    "de": "In einen geschlossenen Mund",
+    "fr": "Dans une bouche fermée",
+    "pt": "Em boca fechada",
+    "zh": "闭着的嘴里"
+   },
+   "endLiteral": {
+    "en": "no flies get in",
+    "it": "non entrano mosche",
+    "uk": "мухи не залітають",
+    "de": "kommen keine Fliegen",
+    "fr": "les mouches n'entrent pas",
+    "pt": "não entra mosca",
+    "zh": "飞不进苍蝇"
+   },
+   "meaning": {
+    "en": "Sometimes it's wiser to stay quiet.",
+    "it": "A volte è più saggio stare zitti.",
+    "uk": "Іноді мудріше промовчати.",
+    "de": "Manchmal ist es klüger, zu schweigen.",
+    "fr": "Parfois, il vaut mieux se taire.",
+    "pt": "Às vezes é mais sábio ficar calado.",
+    "zh": "有时候，不说话更明智。"
+   }
+  },
+  {
+   "id": "ojos",
+   "start": "Ojos que no ven,",
+   "end": "corazón que no siente",
+   "unlockedBy": "u24l1",
+   "startLiteral": {
+    "en": "Eyes that don't see,",
+    "it": "Occhi che non vedono,",
+    "uk": "Очі, що не бачать,",
+    "de": "Augen, die nicht sehen,",
+    "fr": "Yeux qui ne voient pas,",
+    "pt": "Olhos que não veem,",
+    "zh": "眼睛看不见，"
+   },
+   "endLiteral": {
+    "en": "heart that doesn't feel",
+    "it": "cuore che non sente",
+    "uk": "серце, що не відчуває",
+    "de": "Herz, das nicht fühlt",
+    "fr": "cœur qui ne ressent pas",
+    "pt": "coração que não sente",
+    "zh": "心里就不难过"
+   },
+   "meaning": {
+    "en": "What you don't know can't hurt you.",
+    "it": "Quello che non sai non ti fa soffrire.",
+    "uk": "Чого не знаєш, те не болить.",
+    "de": "Was man nicht weiß, tut einem nicht weh.",
+    "fr": "Ce qu'on ne sait pas ne peut pas nous faire de peine.",
+    "pt": "O que você não sabe não te machuca.",
+    "zh": "不知道的事，就不会让你难过。"
+   }
+  },
+  {
+   "id": "pajaro",
+   "start": "Más vale pájaro en mano",
+   "end": "que ciento volando",
+   "unlockedBy": "u24l1",
+   "startLiteral": {
+    "en": "Better a bird in the hand",
+    "it": "Meglio un uccello in mano",
+    "uk": "Краще пташка в руці,",
+    "de": "Besser ein Vogel in der Hand",
+    "fr": "Mieux vaut un oiseau dans la main",
+    "pt": "Mais vale um pássaro na mão",
+    "zh": "手里的一只鸟"
+   },
+   "endLiteral": {
+    "en": "than a hundred flying",
+    "it": "che cento che volano",
+    "uk": "ніж сто в польоті",
+    "de": "als hundert, die fliegen",
+    "fr": "que cent qui volent",
+    "pt": "do que cem voando",
+    "zh": "胜过天上飞的一百只"
+   },
+   "meaning": {
+    "en": "Something sure is better than many things you might get.",
+    "it": "Una cosa sicura è meglio di tante cose che forse avrai.",
+    "uk": "Щось певне краще, ніж багато того, що, можливо, отримаєш.",
+    "de": "Etwas Sicheres ist besser als vieles, das man vielleicht bekommt.",
+    "fr": "Une chose sûre vaut mieux que beaucoup de choses qu'on aura peut-être.",
+    "pt": "Algo garantido é melhor do que muitas coisas que talvez você consiga.",
+    "zh": "确定到手的东西，胜过许多可能得到的东西。"
+   }
+  },
+  {
+   "id": "habito",
+   "start": "El hábito",
+   "end": "no hace al monje",
+   "unlockedBy": "u24l1",
+   "startLiteral": {
+    "en": "The habit (a monk's robe)",
+    "it": "L'abito",
+    "uk": "Ряса",
+    "de": "Die Kutte",
+    "fr": "L'habit",
+    "pt": "O hábito (a roupa do monge)",
+    "zh": "僧袍"
+   },
+   "endLiteral": {
+    "en": "doesn't make the monk",
+    "it": "non fa il monaco",
+    "uk": "не робить ченцем",
+    "de": "macht nicht den Mönch",
+    "fr": "ne fait pas le moine",
+    "pt": "não faz o monge",
+    "zh": "成就不了僧人"
+   },
+   "meaning": {
+    "en": "Don't judge people by their clothes or their looks.",
+    "it": "Non giudicare le persone dai vestiti o dall'aspetto.",
+    "uk": "Не суди людей за одягом чи зовнішністю.",
+    "de": "Beurteile Menschen nicht nach ihrer Kleidung oder ihrem Aussehen.",
+    "fr": "Ne juge pas les gens à leurs vêtements ou à leur apparence.",
+    "pt": "Não julgue as pessoas pela roupa ou pela aparência.",
+    "zh": "不要以衣着和外表判断一个人。"
+   }
+  },
+  {
+   "id": "abarca",
+   "start": "Quien mucho abarca",
+   "end": "poco aprieta",
+   "unlockedBy": "u24l1",
+   "startLiteral": {
+    "en": "Whoever grabs a lot",
+    "it": "Chi troppo abbraccia",
+    "uk": "Хто багато обіймає,",
+    "de": "Wer viel umfasst,",
+    "fr": "Qui embrasse beaucoup",
+    "pt": "Quem muito abarca",
+    "zh": "揽得太多的人"
+   },
+   "endLiteral": {
+    "en": "holds little tight",
+    "it": "poco stringe",
+    "uk": "той мало втримає",
+    "de": "hält wenig fest",
+    "fr": "serre peu",
+    "pt": "pouco aperta",
+    "zh": "抓得不牢"
+   },
+   "meaning": {
+    "en": "If you try to do too many things at once, you won't do any of them well.",
+    "it": "Se provi a fare troppe cose insieme, non ne farai bene nessuna.",
+    "uk": "Якщо береш на себе забагато одразу, нічого не зробиш добре.",
+    "de": "Wer zu viel auf einmal macht, macht nichts davon richtig.",
+    "fr": "Si tu essaies de faire trop de choses à la fois, tu n'en feras aucune bien.",
+    "pt": "Se você tenta fazer coisas demais ao mesmo tempo, não faz nenhuma bem.",
+    "zh": "同时做太多事，哪件都做不好。"
+   }
+  },
+  {
+   "id": "madruga",
+   "start": "A quien madruga,",
+   "end": "Dios le ayuda",
+   "unlockedBy": "u24l1",
+   "startLiteral": {
+    "en": "Whoever gets up early,",
+    "it": "Chi si alza presto,",
+    "uk": "Хто рано встає,",
+    "de": "Wer früh aufsteht,",
+    "fr": "Celui qui se lève tôt,",
+    "pt": "Quem cedo madruga,",
+    "zh": "早起的人，"
+   },
+   "endLiteral": {
+    "en": "God helps",
+    "it": "Dio lo aiuta",
+    "uk": "тому Бог допомагає",
+    "de": "dem hilft Gott",
+    "fr": "Dieu l'aide",
+    "pt": "Deus ajuda",
+    "zh": "上帝会帮助他"
+   },
+   "meaning": {
+    "en": "Starting early and working hard pays off.",
+    "it": "Cominciare presto e impegnarsi dà i suoi frutti.",
+    "uk": "Хто рано починає й старається, той досягає свого.",
+    "de": "Früh anfangen und fleißig sein lohnt sich.",
+    "fr": "Commencer tôt et travailler dur, ça paie.",
+    "pt": "Começar cedo e se esforçar compensa.",
+    "zh": "早点开始、努力去做，就会有回报。"
+   }
+  },
+  {
+   "id": "camaron",
+   "start": "Camarón que se duerme",
+   "end": "se lo lleva la corriente",
+   "unlockedBy": "u24l1",
+   "startLiteral": {
+    "en": "A shrimp that falls asleep",
+    "it": "Il gambero che si addormenta",
+    "uk": "Креветку, що засинає,",
+    "de": "Die Garnele, die einschläft,",
+    "fr": "La crevette qui s'endort,",
+    "pt": "Camarão que dorme",
+    "zh": "睡着的虾"
+   },
+   "endLiteral": {
+    "en": "gets carried off by the current",
+    "it": "se lo porta via la corrente",
+    "uk": "забирає течія",
+    "de": "nimmt die Strömung mit",
+    "fr": "le courant l'emporte",
+    "pt": "a onda leva",
+    "zh": "会被水流冲走"
+   },
+   "meaning": {
+    "en": "If you're not alert, you'll miss your chance.",
+    "it": "Se non stai attento, perdi l'occasione.",
+    "uk": "Якщо не будеш уважним, проґавиш свій шанс.",
+    "de": "Wenn du nicht aufpasst, verpasst du deine Chance.",
+    "fr": "Si tu ne restes pas attentif, tu rates ta chance.",
+    "pt": "Se você não ficar atento, perde a oportunidade.",
+    "zh": "不保持警觉，就会错过机会。"
+   }
+  },
+  {
+   "id": "dicho",
+   "start": "Del dicho al hecho",
+   "end": "hay mucho trecho",
+   "unlockedBy": "u24l1",
+   "startLiteral": {
+    "en": "From what's said to what's done",
+    "it": "Dal detto al fatto",
+    "uk": "Від сказаного до зробленого",
+    "de": "Vom Gesagten zum Getanen",
+    "fr": "Du dit au fait",
+    "pt": "Do dito ao feito",
+    "zh": "从说到做"
+   },
+   "endLiteral": {
+    "en": "there's a long way",
+    "it": "c'è un bel tratto",
+    "uk": "довгий шлях",
+    "de": "ist es ein weiter Weg",
+    "fr": "il y a un long chemin",
+    "pt": "há um longo caminho",
+    "zh": "有很长的路"
+   },
+   "meaning": {
+    "en": "Saying you'll do something is much easier than doing it.",
+    "it": "Dire che farai qualcosa è molto più facile che farla.",
+    "uk": "Пообіцяти щось набагато легше, ніж зробити.",
+    "de": "Etwas zu versprechen ist viel leichter, als es zu tun.",
+    "fr": "Dire qu'on va faire quelque chose est bien plus facile que de le faire.",
+    "pt": "Dizer que vai fazer algo é muito mais fácil do que fazer.",
+    "zh": "说要做某事，比真正去做容易得多。"
+   }
+  },
+  {
+   "id": "rie",
+   "start": "Quien ríe el último",
+   "end": "ríe mejor",
+   "unlockedBy": "u24l1",
+   "startLiteral": {
+    "en": "Whoever laughs last",
+    "it": "Chi ride ultimo",
+    "uk": "Хто сміється останнім,",
+    "de": "Wer zuletzt lacht,",
+    "fr": "Qui rit le dernier",
+    "pt": "Quem ri por último",
+    "zh": "最后笑的人"
+   },
+   "endLiteral": {
+    "en": "laughs best",
+    "it": "ride meglio",
+    "uk": "той сміється найкраще",
+    "de": "lacht am besten",
+    "fr": "rit le mieux",
+    "pt": "ri melhor",
+    "zh": "笑得最好"
+   },
+   "meaning": {
+    "en": "Don't celebrate too soon: the final result is what counts.",
+    "it": "Non festeggiare troppo presto: conta il risultato finale.",
+    "uk": "Не радій зарано: важливий кінцевий результат.",
+    "de": "Freu dich nicht zu früh: Das Endergebnis zählt.",
+    "fr": "Ne te réjouis pas trop tôt : c'est le résultat final qui compte.",
+    "pt": "Não comemore cedo demais: o que conta é o resultado final.",
+    "zh": "别高兴得太早，最后的结果才算数。"
+   }
+  },
+  {
+   "id": "madrugar",
+   "start": "No por mucho madrugar",
+   "end": "amanece más temprano",
+   "unlockedBy": "u24l1",
+   "startLiteral": {
+    "en": "Not by getting up very early",
+    "it": "Non per alzarsi molto presto",
+    "uk": "Від того, що рано встанеш,",
+    "de": "Vom vielen Frühaufstehen",
+    "fr": "Ce n'est pas en se levant très tôt",
+    "pt": "Não é por muito madrugar",
+    "zh": "并不是起得越早，"
+   },
+   "endLiteral": {
+    "en": "does the day break sooner",
+    "it": "si fa giorno prima",
+    "uk": "раніше не світає",
+    "de": "wird es nicht früher hell",
+    "fr": "que le jour se lève plus tôt",
+    "pt": "que amanhece mais cedo",
+    "zh": "天就亮得越早"
+   },
+   "meaning": {
+    "en": "Some things take their time; rushing doesn't help.",
+    "it": "Certe cose richiedono il loro tempo: avere fretta non serve.",
+    "uk": "Деякі речі потребують часу: поспіх не допоможе.",
+    "de": "Manche Dinge brauchen ihre Zeit: Eile hilft nicht.",
+    "fr": "Certaines choses prennent du temps : se précipiter ne sert à rien.",
+    "pt": "Algumas coisas levam tempo: ter pressa não adianta.",
+    "zh": "有些事需要时间，急也没用。"
+   }
+  },
+  {
+   "id": "roma",
+   "start": "Hablando del rey de Roma,",
+   "end": "por la puerta asoma",
+   "unlockedBy": "u24l1",
+   "startLiteral": {
+    "en": "Speaking of the king of Rome,",
+    "it": "Parlando del re di Roma,",
+    "uk": "Говорячи про римського короля,",
+    "de": "Wenn man vom König von Rom spricht,",
+    "fr": "En parlant du roi de Rome,",
+    "pt": "Falando do rei de Roma,",
+    "zh": "说起罗马国王，"
+   },
+   "endLiteral": {
+    "en": "he shows up at the door",
+    "it": "spunta dalla porta",
+    "uk": "він з'являється у дверях",
+    "de": "erscheint er in der Tür",
+    "fr": "il apparaît à la porte",
+    "pt": "ele aparece na porta",
+    "zh": "他就从门口出现了"
+   },
+   "meaning": {
+    "en": "Said when the person you're talking about turns up.",
+    "it": "Si dice quando arriva proprio la persona di cui si sta parlando.",
+    "uk": "Так кажуть, коли з'являється людина, про яку щойно говорили.",
+    "de": "Man sagt es, wenn die Person kommt, über die man gerade spricht.",
+    "fr": "On le dit quand la personne dont on parle arrive.",
+    "pt": "Diz-se quando aparece a pessoa de quem se está falando.",
+    "zh": "正在谈论某人时，他正好出现了。"
+   }
+  },
+  {
+   "id": "nunca",
+   "start": "Nunca es tarde",
+   "end": "si la dicha es buena",
+   "unlockedBy": "u24l1",
+   "startLiteral": {
+    "en": "It's never late",
+    "it": "Non è mai tardi",
+    "uk": "Ніколи не пізно,",
+    "de": "Es ist nie zu spät,",
+    "fr": "Il n'est jamais trop tard",
+    "pt": "Nunca é tarde",
+    "zh": "永远不晚，"
+   },
+   "endLiteral": {
+    "en": "if the joy is good",
+    "it": "se la gioia è buona",
+    "uk": "якщо радість добра",
+    "de": "wenn das Glück gut ist",
+    "fr": "si le bonheur est bon",
+    "pt": "se a alegria é boa",
+    "zh": "只要是好事"
+   },
+   "meaning": {
+    "en": "A good thing is welcome, even if it arrives late.",
+    "it": "Una cosa bella è sempre benvenuta, anche se arriva tardi.",
+    "uk": "Добру річ завжди раді бачити, навіть якщо вона приходить пізно.",
+    "de": "Etwas Gutes ist willkommen, auch wenn es spät kommt.",
+    "fr": "Une bonne chose est la bienvenue, même si elle arrive tard.",
+    "pt": "Uma coisa boa é bem-vinda, mesmo que chegue tarde.",
+    "zh": "好事来得晚也值得欢迎。"
+   }
+  },
+  {
+   "id": "entendedor",
+   "start": "A buen entendedor,",
+   "end": "pocas palabras bastan",
+   "unlockedBy": "u24l1",
+   "startLiteral": {
+    "en": "For someone who understands well,",
+    "it": "A buon intenditor,",
+    "uk": "Тому, хто добре розуміє,",
+    "de": "Dem, der gut versteht,",
+    "fr": "À bon entendeur,",
+    "pt": "Para bom entendedor,",
+    "zh": "对明白人来说，"
+   },
+   "endLiteral": {
+    "en": "few words are enough",
+    "it": "poche parole bastano",
+    "uk": "вистачить кількох слів",
+    "de": "genügen wenige Worte",
+    "fr": "peu de mots suffisent",
+    "pt": "poucas palavras bastam",
+    "zh": "几句话就够了"
+   },
+   "meaning": {
+    "en": "A smart person understands without long explanations.",
+    "it": "Una persona sveglia capisce senza lunghe spiegazioni.",
+    "uk": "Розумна людина зрозуміє без довгих пояснень.",
+    "de": "Ein kluger Mensch versteht ohne lange Erklärungen.",
+    "fr": "Une personne fine comprend sans longues explications.",
+    "pt": "Uma pessoa esperta entende sem longas explicações.",
+    "zh": "聪明人不需要长篇解释就能明白。"
+   }
+  },
+  {
+   "id": "zapatero",
+   "start": "Zapatero,",
+   "end": "a tus zapatos",
+   "unlockedBy": "u24l1",
+   "startLiteral": {
+    "en": "Shoemaker,",
+    "it": "Calzolaio,",
+    "uk": "Шевцю,",
+    "de": "Schuster,",
+    "fr": "Cordonnier,",
+    "pt": "Sapateiro,",
+    "zh": "鞋匠，"
+   },
+   "endLiteral": {
+    "en": "to your shoes",
+    "it": "alle tue scarpe",
+    "uk": "до своїх чобіт",
+    "de": "bleib bei deinen Schuhen",
+    "fr": "à tes chaussures",
+    "pt": "aos seus sapatos",
+    "zh": "管好你的鞋"
+   },
+   "meaning": {
+    "en": "Stick to what you know; don't give opinions on things you don't understand.",
+    "it": "Occupati di ciò che sai; non dare opinioni su cose che non conosci.",
+    "uk": "Займайся тим, що знаєш, і не суди про те, чого не розумієш.",
+    "de": "Bleib bei dem, was du kannst, und urteile nicht über Dinge, die du nicht verstehst.",
+    "fr": "Occupe-toi de ce que tu connais ; ne donne pas ton avis sur ce que tu ne comprends pas.",
+    "pt": "Cuide do que você sabe; não opine sobre o que não entende.",
+    "zh": "做你懂的事，别对不懂的事指手画脚。"
+   }
+  },
+  {
+   "id": "dime",
+   "start": "Dime con quién andas",
+   "end": "y te diré quién eres",
+   "unlockedBy": "u30l5",
+   "startLiteral": {
+    "en": "Tell me who you go around with",
+    "it": "Dimmi con chi vai",
+    "uk": "Скажи мені, з ким ти ходиш,",
+    "de": "Sag mir, mit wem du gehst,",
+    "fr": "Dis-moi qui tu fréquentes",
+    "pt": "Diga-me com quem andas",
+    "zh": "告诉我你和谁在一起，"
+   },
+   "endLiteral": {
+    "en": "and I'll tell you who you are",
+    "it": "e ti dirò chi sei",
+    "uk": "і я скажу, хто ти",
+    "de": "und ich sage dir, wer du bist",
+    "fr": "et je te dirai qui tu es",
+    "pt": "e eu te direi quem és",
+    "zh": "我就告诉你你是谁"
+   },
+   "meaning": {
+    "en": "The people you spend time with say a lot about you.",
+    "it": "Le persone che frequenti dicono molto di te.",
+    "uk": "Люди, з якими ти проводиш час, багато про тебе говорять.",
+    "de": "Die Menschen, mit denen du Zeit verbringst, sagen viel über dich.",
+    "fr": "Les gens que tu fréquentes en disent long sur toi.",
+    "pt": "As pessoas com quem você anda dizem muito sobre você.",
+    "zh": "和你来往的人，很能说明你是什么样的人。"
+   }
+  },
+  {
+   "id": "cuervos",
+   "start": "Cría cuervos",
+   "end": "y te sacarán los ojos",
+   "unlockedBy": "u30l1",
+   "startLiteral": {
+    "en": "Raise crows",
+    "it": "Alleva corvi",
+    "uk": "Вигодуй воронів,",
+    "de": "Zieh Raben groß,",
+    "fr": "Élève des corbeaux",
+    "pt": "Crie corvos",
+    "zh": "养乌鸦，"
+   },
+   "endLiteral": {
+    "en": "and they'll peck your eyes out",
+    "it": "e ti caveranno gli occhi",
+    "uk": "і вони виклюють тобі очі",
+    "de": "und sie hacken dir die Augen aus",
+    "fr": "et ils t'arracheront les yeux",
+    "pt": "e eles te arrancarão os olhos",
+    "zh": "它们会啄掉你的眼睛"
+   },
+   "meaning": {
+    "en": "If you help someone bad, they may turn against you.",
+    "it": "Se aiuti una persona cattiva, può rivoltarsi contro di te.",
+    "uk": "Якщо допомагаєш поганій людині, вона може обернутися проти тебе.",
+    "de": "Wenn du einem schlechten Menschen hilfst, kann er sich gegen dich wenden.",
+    "fr": "Si tu aides une mauvaise personne, elle peut se retourner contre toi.",
+    "pt": "Se você ajuda alguém ruim, ele pode se voltar contra você.",
+    "zh": "帮助坏人，他可能会反过来害你。"
+   }
+  },
+  {
+   "id": "caballo",
+   "start": "A caballo regalado",
+   "end": "no le mires el diente",
+   "unlockedBy": "u30l3",
+   "startLiteral": {
+    "en": "At a horse given as a gift",
+    "it": "A caval donato",
+    "uk": "Подарованому коню",
+    "de": "Einem geschenkten Pferd",
+    "fr": "À cheval donné",
+    "pt": "A cavalo dado",
+    "zh": "别人送的马，"
+   },
+   "endLiteral": {
+    "en": "don't look at its teeth",
+    "it": "non guardare i denti",
+    "uk": "не дивись у зуби",
+    "de": "schau nicht auf die Zähne",
+    "fr": "ne regarde pas les dents",
+    "pt": "não olhe os dentes",
+    "zh": "别看它的牙"
+   },
+   "meaning": {
+    "en": "Don't criticise a gift; be grateful for it.",
+    "it": "Non criticare un regalo: sii grato.",
+    "uk": "Не критикуй подарунок, а будь вдячним за нього.",
+    "de": "Kritisiere kein Geschenk, sei dankbar dafür.",
+    "fr": "Ne critique pas un cadeau ; sois reconnaissant.",
+    "pt": "Não critique um presente; agradeça.",
+    "zh": "别挑剔礼物，要心存感激。"
+   }
+  },
+  {
+   "id": "agua",
+   "start": "Agua que no has de beber,",
+   "end": "déjala correr",
+   "unlockedBy": "u30l5",
+   "startLiteral": {
+    "en": "Water you're not going to drink,",
+    "it": "Acqua che non devi bere,",
+    "uk": "Воду, яку не питимеш,",
+    "de": "Wasser, das du nicht trinken wirst,",
+    "fr": "L'eau que tu ne boiras pas,",
+    "pt": "Água que você não vai beber,",
+    "zh": "不打算喝的水，"
+   },
+   "endLiteral": {
+    "en": "let it run",
+    "it": "lasciala scorrere",
+    "uk": "дай їй текти",
+    "de": "lass es fließen",
+    "fr": "laisse-la couler",
+    "pt": "deixe correr",
+    "zh": "就让它流走吧"
+   },
+   "meaning": {
+    "en": "Don't get involved in things that aren't for you or that you don't want.",
+    "it": "Non immischiarti in cose che non fanno per te o che non vuoi.",
+    "uk": "Не втручайся в те, що тобі не потрібно або чого ти не хочеш.",
+    "de": "Misch dich nicht in Dinge ein, die nicht für dich sind oder die du nicht willst.",
+    "fr": "Ne te mêle pas de ce qui n'est pas pour toi ou que tu ne veux pas.",
+    "pt": "Não se meta no que não é para você ou no que você não quer.",
+    "zh": "与你无关或你不想要的事，就别去掺和。"
+   }
+  },
+  {
+   "id": "mal",
+   "start": "No hay mal",
+   "end": "que por bien no venga",
+   "unlockedBy": "u32l3",
+   "startLiteral": {
+    "en": "There's no bad thing",
+    "it": "Non c'è male",
+    "uk": "Немає лиха,",
+    "de": "Es gibt kein Übel,",
+    "fr": "Il n'y a pas de mal",
+    "pt": "Não há mal",
+    "zh": "没有一件坏事"
+   },
+   "endLiteral": {
+    "en": "that doesn't come for some good",
+    "it": "che non venga per un bene",
+    "uk": "яке не прийшло б на добре",
+    "de": "das nicht für etwas Gutes kommt",
+    "fr": "qui ne vienne pour un bien",
+    "pt": "que não venha para o bem",
+    "zh": "不带来好处"
+   },
+   "meaning": {
+    "en": "Something good can come out of a bad situation.",
+    "it": "Da una brutta situazione può nascere qualcosa di buono.",
+    "uk": "З поганої ситуації може вийти щось добре.",
+    "de": "Aus einer schlechten Lage kann etwas Gutes entstehen.",
+    "fr": "Quelque chose de bon peut sortir d'une mauvaise situation.",
+    "pt": "Algo bom pode sair de uma situação ruim.",
+    "zh": "坏事也可能带来好的结果。"
+   }
+  },
+  {
+   "id": "manana",
+   "start": "No dejes para mañana",
+   "end": "lo que puedas hacer hoy",
+   "unlockedBy": "u31l5",
+   "startLiteral": {
+    "en": "Don't leave for tomorrow",
+    "it": "Non rimandare a domani",
+    "uk": "Не відкладай на завтра",
+    "de": "Verschieb nicht auf morgen,",
+    "fr": "Ne remets pas à demain",
+    "pt": "Não deixe para amanhã",
+    "zh": "不要留到明天，"
+   },
+   "endLiteral": {
+    "en": "what you can do today",
+    "it": "quello che puoi fare oggi",
+    "uk": "те, що можеш зробити сьогодні",
+    "de": "was du heute tun kannst",
+    "fr": "ce que tu peux faire aujourd'hui",
+    "pt": "o que você pode fazer hoje",
+    "zh": "今天能做的事"
+   },
+   "meaning": {
+    "en": "Do things now instead of putting them off.",
+    "it": "Fai le cose subito invece di rimandarle.",
+    "uk": "Роби справи зараз, а не відкладай їх.",
+    "de": "Erledige Dinge jetzt, statt sie aufzuschieben.",
+    "fr": "Fais les choses maintenant au lieu de les repousser.",
+    "pt": "Faça as coisas agora em vez de adiar.",
+    "zh": "事情要马上做，别拖延。"
+   }
+  }
+ ]
+}

@@ -315,7 +315,7 @@ final class LabGamesTests: XCTestCase {
     func testEveryLabGameHasAScreenAndAKind() {
         let ids = LabGame.built.map(\.id)
         XCTAssertEqual(Set(ids).count, ids.count)
-        XCTAssertEqual(LabGame.built.count, 9)
+        XCTAssertEqual(LabGame.built.count, 14)
         for kind in LabGame.Kind.allCases {
             XCTAssertFalse(LabGame.built.filter { $0.kind == kind }.isEmpty)
         }
@@ -323,6 +323,139 @@ final class LabGamesTests: XCTestCase {
         for game in LabGame.built {
             XCTAssertTrue(path.contains(game.unlockedBy), game.id)
         }
+    }
+
+    // MARK: ¿Qué significa?, ¿El o la? and Contrarios
+
+    private func word(_ es: String, _ en: String, _ kind: Brick = .chunk) -> VocabWord {
+        VocabWord(es: es, gloss: Gloss(en: en, it: en, uk: en), kind: kind)
+    }
+
+    func testEveryMeaningQuestionHasOneRightMeaning() {
+        let words = [word("ellos", "they"), word("ellas", "they (all women)"), word("la casa", "the house"),
+                     word("pizza", "pizza"), word("hablar", "to speak", .stem), word("comer", "to eat", .stem),
+                     word("el café", "the coffee"), word("aquí", "here")]
+        let cards = MeaningQuiz.cards(from: words, language: .english)
+        XCTAssertFalse(cards.contains { $0.spanish == "pizza" }, "a word spelt the same is no test")
+        for question in MeaningQuiz.questions(from: cards) {
+            XCTAssertTrue(question.options.contains(question.card.meaning))
+            XCTAssertEqual(Set(question.options.map(Grader.normalize)).count, question.options.count)
+            XCTAssertEqual(question.options.filter { $0 == question.card.meaning }.count, 1)
+        }
+        XCTAssertTrue(MeaningQuiz.questions(from: Array(cards.prefix(1))).isEmpty)
+    }
+
+    func testGenderCardsKeepOnlyNounsWithOneArticle() {
+        let words = [word("la casa", "the house"), word("el día", "the day"), word("la mano", "the hand"),
+                     word("el agua", "the water"), word("el capital", "the capital (money)"),
+                     word("la capital", "the capital (city)"), word("el/la estudiante", "the student"),
+                     word("la semana que viene", "next week"), word("libro", "book")]
+        let cards = GenderGame.cards(from: words, language: .english)
+        XCTAssertEqual(cards.map(\.spanish), ["la casa", "el día", "la mano", "el agua"])
+        XCTAssertNil(GenderGame.tip(for: cards[0]))
+        XCTAssertEqual(GenderGame.tip(for: cards[1]), .masculineInA)
+        XCTAssertEqual(GenderGame.tip(for: cards[2]), .feminineInO)
+        XCTAssertEqual(GenderGame.tip(for: cards[3]), .stressedA)
+    }
+
+    func testOppositesOnlyAskLearnedPairs() {
+        XCTAssertTrue(Opposites.questions(words: [word("alto", "tall"), word("bajo", "short")]).isEmpty)
+        let words = [word("alto", "tall"), word("bajo", "short"), word("bueno", "good"), word("malo", "bad"),
+                     word("abrir", "to open", .stem), word("cerrar", "to close", .stem), word("grande", "big")]
+        let questions = Opposites.questions(words: words)
+        XCTAssertEqual(questions.count, 3)
+        for question in questions {
+            XCTAssertTrue(Opposites.pairs.contains { ($0.0 == question.word.es && $0.1 == question.answer.es) || ($0.1 == question.word.es && $0.0 == question.answer.es) })
+            XCTAssertTrue(question.options.contains(question.answer))
+            XCTAssertFalse(question.options.contains(question.word))
+            XCTAssertEqual(Set(question.options).count, question.options.count)
+            XCTAssertFalse(question.options.contains { $0.es == "grande" }, "pequeño isn't learned, so grande stays out")
+        }
+    }
+
+    func testOppositesPairsAreAllTaughtInTheCourse() {
+        let taught = Set(Curriculum.sharedPath.compactMap { LessonContent.lesson(id: $0.id, profile: profile) }
+            .flatMap(\.vocabulary).map(\.es))
+        for (first, second) in Opposites.pairs {
+            XCTAssertTrue(taught.contains(first), first)
+            XCTAssertTrue(taught.contains(second), second)
+        }
+    }
+
+    func testWordGamesHaveWordsWhenTheyOpen() {
+        let store = AppStore(storage: InMemoryProgressStorage())
+        store.completeOnboarding(profile)
+        store.completeUnit("u4")
+        XCTAssertGreaterThanOrEqual(GenderGame.cards(from: store.learnedWords, language: .english).count, 10)
+        XCTAssertGreaterThanOrEqual(Opposites.questions(words: store.learnedWords).count, 5)
+        XCTAssertEqual(MeaningQuiz.questions(from: MeaningQuiz.cards(from: store.learnedWords, language: .english)).count, MeaningQuiz.rounds)
+    }
+
+    // MARK: Termina el refrán
+
+    func testEverySayingIsCompleteInEveryLanguage() {
+        let sayings = SayingBook.shared.sayings
+        XCTAssertGreaterThanOrEqual(sayings.count, 30)
+        let path = Set(Curriculum.sharedPath.map(\.id))
+        XCTAssertEqual(Set(sayings.map(\.end)).count, sayings.count, "two sayings can't share an end")
+        for saying in sayings {
+            XCTAssertTrue(path.contains(saying.unlockedBy), saying.id)
+            for language in NativeLanguage.allCases {
+                XCTAssertFalse(saying.startLiteral.text(language).isEmpty, saying.id)
+                XCTAssertFalse(saying.endLiteral.text(language).isEmpty, saying.id)
+                XCTAssertFalse(saying.meaning.text(language).isEmpty, saying.id)
+            }
+            XCTAssertNotNil(saying.meaning.zh, saying.id)
+        }
+    }
+
+    func testSayingsOpenWithTheirGrammar() {
+        let book = SayingBook.shared
+        XCTAssertTrue(book.open(completed: ["u23l5"]).isEmpty)
+        let early = book.open(completed: ["u24l1"])
+        XCTAssertGreaterThanOrEqual(early.count, SayingsGame.rounds)
+        XCTAssertFalse(early.contains { $0.id == "dime" }, "Dime… waits for the imperative with pronouns")
+        XCTAssertTrue(book.open(completed: ["u24l1", "u30l5"]).contains { $0.id == "dime" })
+        for question in SayingsGame.questions(from: early) {
+            XCTAssertEqual(question.options.count, SayingsGame.optionCount)
+            XCTAssertTrue(question.options.contains(question.saying))
+            XCTAssertEqual(Set(question.options).count, question.options.count)
+        }
+    }
+
+    // MARK: Carrera de verbos
+
+    func testARaceWritesWholeTablesInOpenTenses() {
+        let deck = tenseDeck
+        let tables = VerbRace.tables(deck: deck)
+        XCTAssertEqual(tables.count, VerbRace.verbsPerRace)
+        XCTAssertEqual(Set(tables.map(\.verb)).count, tables.count)
+        for table in tables {
+            XCTAssertEqual(table.persons, Person.allCases)
+            XCTAssertTrue(deck.isOpen(table.verb, table.tense))
+        }
+        XCTAssertTrue(VerbRace.tables(deck: VerbDeck(completed: ["u1l1"], words: [])).isEmpty)
+    }
+
+    func testARaceForgivesAccentsButNotWrongForms() {
+        let form = VerbForm(stem: "habl", ending: "é")
+        XCTAssertTrue(VerbRace.matches("hablé", form))
+        XCTAssertTrue(VerbRace.matches("Hable ", form))
+        XCTAssertFalse(VerbRace.isExact("hable", form))
+        XCTAssertFalse(VerbRace.matches("habl", form))
+        XCTAssertFalse(VerbRace.matches("", form))
+        XCTAssertEqual(VerbRace.time(elapsed: 41.2, skips: 2), 52)
+        XCTAssertEqual(VerbRace.clock(48), "48 s")
+        XCTAssertEqual(VerbRace.clock(65), "1:05")
+    }
+
+    func testTheFastestRaceIsTheRecordAndCountsAsStudy() {
+        let store = AppStore(storage: InMemoryProgressStorage())
+        XCTAssertTrue(store.recordTime(60, in: LabGame.raceId))
+        XCTAssertEqual(store.currentStreak, 1)
+        XCTAssertFalse(store.recordTime(75, in: LabGame.raceId))
+        XCTAssertTrue(store.recordTime(48, in: LabGame.raceId))
+        XCTAssertEqual(store.best(in: LabGame.raceId), 48)
     }
 
     func testBestScoresAreKept() {
