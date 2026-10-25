@@ -21,13 +21,13 @@ struct PrivacyView: View {
     static let title = Gloss(en: "Privacy", it: "Privacy", uk: "Конфіденційність", de: "Datenschutz", fr: "Confidentialité", pt: "Privacidade", zh: "隐私")
 
     static let paragraphs: [Gloss] = [
-        Gloss(en: "HablaBase has no accounts, no ads and no tracking. We do not collect any data about you.",
-              it: "HablaBase non ha account, pubblicità né tracciamento. Non raccogliamo nessun dato su di te.",
-              uk: "У HablaBase немає облікових записів, реклами чи відстеження. Ми не збираємо жодних даних про тебе.",
-              de: "HablaBase hat keine Konten, keine Werbung und kein Tracking. Wir erheben keine Daten über dich.",
-              fr: "HablaBase n'a ni compte, ni publicité, ni pistage. Nous ne collectons aucune donnée sur toi.",
-              pt: "O HablaBase não tem contas, anúncios nem rastreamento. Não coletamos nenhum dado sobre você.",
-              zh: "HablaBase 没有账号、没有广告、没有追踪。我们不收集任何关于你的数据。"),
+        Gloss(en: "Hablo has no accounts, no ads and no tracking. We do not collect any data about you.",
+              it: "Hablo non ha account, pubblicità né tracciamento. Non raccogliamo nessun dato su di te.",
+              uk: "У Hablo немає облікових записів, реклами чи відстеження. Ми не збираємо жодних даних про тебе.",
+              de: "Hablo hat keine Konten, keine Werbung und kein Tracking. Wir erheben keine Daten über dich.",
+              fr: "Hablo n'a ni compte, ni publicité, ni pistage. Nous ne collectons aucune donnée sur toi.",
+              pt: "O Hablo não tem contas, anúncios nem rastreamento. Não coletamos nenhum dado sobre você.",
+              zh: "Hablo 没有账号、没有广告、没有追踪。我们不收集任何关于你的数据。"),
         Gloss(en: "Your name, city, answers and progress are saved only on this iPhone and in its backup. They are never sent to us or to anyone else.",
               it: "Il tuo nome, la città, le risposte e i progressi sono salvati solo su questo iPhone e nel suo backup. Non vengono mai inviati a noi né a nessun altro.",
               uk: "Твоє ім'я, місто, відповіді та прогрес зберігаються лише на цьому iPhone і в його резервній копії. Вони ніколи не надсилаються ні нам, ні комусь іншому.",
@@ -40,7 +40,7 @@ struct PrivacyView: View {
               uk: "Коли ти відповідаєш голосом, iPhone перетворює сказане на текст. На iPhone, які це підтримують, це відбувається на самому телефоні; інакше аудіо обробляє розпізнавання мовлення Apple згідно з політикою конфіденційності Apple. HablaBase не зберігає записів.",
               de: "Wenn du per Sprache antwortest, wandelt dein iPhone das Gesagte in Text um. Auf iPhones, die das unterstützen, passiert das auf dem Gerät; sonst verarbeitet die Spracherkennung von Apple den Ton gemäß Apples Datenschutzrichtlinie. HablaBase speichert keine Aufnahmen.",
               fr: "Quand tu réponds à voix haute, ton iPhone transforme ce que tu dis en texte. Sur les iPhone compatibles, cela se fait sur l'appareil ; sinon, la reconnaissance vocale d'Apple traite l'audio selon la politique de confidentialité d'Apple. HablaBase ne garde aucun enregistrement.",
-              pt: "Quando você responde por voz, o iPhone transforma o que você diz em texto. Nos iPhones compatíveis isso acontece no próprio aparelho; caso contrário, o reconhecimento de fala da Apple processa o áudio conforme a política de privacidade da Apple. O HablaBase não guarda gravações.",
+              pt: "Quando você responde por voz, o iPhone transforma o que você diz em texto. Nos iPhones compatíveis isso acontece no próprio aparelho; caso contrário, o reconhecimento de fala da Apple processa o áudio conforme a política de privacidade da Apple. O Hablo não guarda gravações.",
               zh: "当你用语音回答时，iPhone 会把你说的话转成文字。在支持的 iPhone 上，这一过程在手机上完成；否则由 Apple 的语音识别按照 Apple 的隐私政策处理音频。HablaBase 不保存任何录音。"),
         Gloss(en: "The Spanish you hear is read by your iPhone's own voices, without the internet.",
               it: "Lo spagnolo che ascolti è letto dalle voci del tuo iPhone, senza internet.",
@@ -49,6 +49,13 @@ struct PrivacyView: View {
               fr: "L'espagnol que tu entends est lu par les voix de ton iPhone, sans internet.",
               pt: "O espanhol que você ouve é lido pelas vozes do próprio iPhone, sem internet.",
               zh: "你听到的西班牙语由 iPhone 自带的语音朗读，无需联网。"),
+        Gloss(en: "If you turn on the daily reminder, your iPhone itself schedules and shows it. Nothing is sent to any server.",
+              it: "Se attivi il promemoria giornaliero, è il tuo iPhone a programmarlo e mostrarlo. Non viene inviato nulla a nessun server.",
+              uk: "Якщо ввімкнути щоденне нагадування, його планує й показує сам iPhone. Нічого не надсилається на жоден сервер.",
+              de: "Wenn du die tägliche Erinnerung einschaltest, plant und zeigt dein iPhone sie selbst an. Nichts wird an einen Server gesendet.",
+              fr: "Si tu actives le rappel quotidien, c'est ton iPhone qui le programme et l'affiche. Rien n'est envoyé à aucun serveur.",
+              pt: "Se você ativar o lembrete diário, o próprio iPhone o agenda e mostra. Nada é enviado a nenhum servidor.",
+              zh: "如果你开启每日提醒，提醒由 iPhone 本身安排并显示，不会向任何服务器发送数据。"),
         Gloss(en: "To delete everything, tap Reset progress in Profile, or delete the app.",
               it: "Per cancellare tutto, tocca Azzera i progressi nel Profilo, oppure elimina l'app.",
               uk: "Щоб усе видалити, натисни «Скинути прогрес» у Профілі або видали застосунок.",
@@ -71,7 +78,7 @@ struct AboutSection: View {
                 Label(PrivacyView.title.text(store.language), systemImage: "hand.raised.fill")
             }
         } footer: {
-            Text(verbatim: "HablaBase \(Self.version)")
+            Text(verbatim: "Hablo \(Self.version)")
         }
     }
 

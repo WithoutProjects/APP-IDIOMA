@@ -7,8 +7,14 @@ struct SavedState: Codable, Equatable {
 
     var profile: Profile?
     var xp = 0
+    /// Days in a row with study, as of `lastPracticeDay`; `Streak.current` says if it still holds.
     var streak = 0
     var lastPracticeDay: String?
+    var bestStreak = 0
+    /// The recent days with study, as day keys ("2026-10-25"), for the week row.
+    var practiceDays: Set<String> = []
+    /// The daily reminder the learner turned on in Profile; nil when it is off.
+    var reminder: StudyReminder?
     var energy = SavedState.maxEnergy
     /// The day energy was last refilled; it fills up again every new day.
     var energyDay: String?
@@ -30,6 +36,10 @@ struct SavedState: Codable, Equatable {
         xp = try c.decodeIfPresent(Int.self, forKey: .xp) ?? 0
         streak = try c.decodeIfPresent(Int.self, forKey: .streak) ?? 0
         lastPracticeDay = try c.decodeIfPresent(String.self, forKey: .lastPracticeDay)
+        bestStreak = try c.decodeIfPresent(Int.self, forKey: .bestStreak) ?? streak
+        practiceDays = try c.decodeIfPresent(Set<String>.self, forKey: .practiceDays)
+            ?? Streak.rebuiltDays(streak: streak, lastDay: lastPracticeDay)
+        reminder = try c.decodeIfPresent(StudyReminder.self, forKey: .reminder)
         energy = try c.decodeIfPresent(Int.self, forKey: .energy) ?? SavedState.maxEnergy
         energyDay = try c.decodeIfPresent(String.self, forKey: .energyDay)
         completedLessons = try c.decodeIfPresent(Set<String>.self, forKey: .completedLessons) ?? []
@@ -42,15 +52,18 @@ struct SavedState: Codable, Equatable {
 @MainActor
 final class AppStore: ObservableObject {
     private let storage: ProgressStorage
+    private let reminders: ReminderScheduling
 
     @Published private(set) var state: SavedState {
         didSet { storage.save(state) }
     }
 
-    init(storage: ProgressStorage = FileProgressStorage()) {
+    init(storage: ProgressStorage = FileProgressStorage(), reminders: ReminderScheduling = NotificationReminders()) {
         self.storage = storage
+        self.reminders = reminders
         state = storage.load() ?? SavedState()
         refillEnergyIfNewDay()
+        if state.reminder != nil { planReminders() }
     }
 
     var profile: Profile? { state.profile }
@@ -61,11 +74,53 @@ final class AppStore: ObservableObject {
     }
 
     func updateProfile(_ profile: Profile) {
+        let languageOrTimeChanged = profile.nativeLanguage != state.profile?.nativeLanguage
+            || profile.dailyMinutes != state.profile?.dailyMinutes
         state.profile = profile
+        // The reminders speak the learner's language and mention their daily minutes.
+        if languageOrTimeChanged && state.reminder != nil { planReminders() }
     }
 
     func reset() {
         state = SavedState()
+        planReminders()
+    }
+
+    // MARK: Streak and reminder
+
+    /// Days in a row with study, counting today or yesterday; zero after a day without study.
+    var currentStreak: Int { Streak.current(state) }
+
+    var studiedToday: Bool { Streak.studiedToday(state) }
+
+    /// The last seven days for the week row, oldest first.
+    var studyWeek: [StudyDay] { Streak.week(state) }
+
+    /// Counts today as a study day and moves today's reminder out of the way.
+    func recordStudyDay(today: Date = .now) {
+        let wasStudied = state.lastPracticeDay == Streak.dayKey(today)
+        Streak.record(&state, today: today)
+        if !wasStudied && state.reminder != nil { planReminders(now: today) }
+    }
+
+    /// Turns the daily reminder on at this time, or off with nil. Ask for permission first.
+    func setReminder(_ reminder: StudyReminder?) {
+        state.reminder = reminder
+        planReminders()
+    }
+
+    /// Plans the next two weeks of reminders again: call it when the app comes back, since the
+    /// day, the streak or the language may have changed.
+    func planReminders(now: Date = .now) {
+        guard let reminder = state.reminder, let profile = state.profile else {
+            reminders.replace(with: [])
+            return
+        }
+        let studied = Streak.studiedToday(state, today: now)
+        let dates = reminder.fireDates(from: now, studiedToday: studied)
+        let messages = StudyReminder.messages(count: dates.count, streak: Streak.current(state, today: now),
+                                              minutes: profile.dailyMinutes, language: profile.nativeLanguage)
+        reminders.replace(with: zip(dates, messages).map { PlannedReminder(date: $0, message: $1) })
     }
 
     // MARK: Path
@@ -180,6 +235,8 @@ final class AppStore: ObservableObject {
     /// Keeps the score if it beats the record. True when it is a new record.
     @discardableResult
     func recordScore(_ score: Int, in game: String) -> Bool {
+        // A Lab game with points is study too: it counts for the streak.
+        if score > 0 { recordStudyDay() }
         guard score > best(in: game) else { return false }
         state.gameBests[game] = score
         return true
@@ -228,7 +285,7 @@ final class AppStore: ObservableObject {
     func completeLesson(_ lessonId: String, xp: Int) {
         state.completedLessons.insert(lessonId)
         state.xp += xp
-        touchStreak()
+        recordStudyDay()
     }
 
     /// A passed unit test skips the unit: every step up to the end of that unit counts as done.
@@ -238,31 +295,15 @@ final class AppStore: ObservableObject {
         for node in path[...last] {
             state.completedLessons.insert(node.id)
         }
-        touchStreak()
+        recordStudyDay()
     }
 
     func mastery(of key: FormKey) -> Int {
         state.mastery[key] ?? 0
     }
 
-    /// A streak day needs the daily minimum (one lesson for now).
-    private func touchStreak(today: Date = .now) {
-        let calendar = Calendar.current
-        let todayKey = Self.dayKey(today)
-        guard state.lastPracticeDay != todayKey else { return }
-        if let last = state.lastPracticeDay,
-           let yesterday = calendar.date(byAdding: .day, value: -1, to: today),
-           last == Self.dayKey(yesterday) {
-            state.streak += 1
-        } else {
-            state.streak = 1
-        }
-        state.lastPracticeDay = todayKey
-    }
-
     private static func dayKey(_ date: Date) -> String {
-        let parts = Calendar.current.dateComponents([.year, .month, .day], from: date)
-        return String(format: "%04d-%02d-%02d", parts.year ?? 0, parts.month ?? 0, parts.day ?? 0)
+        Streak.dayKey(date)
     }
 }
 

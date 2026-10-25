@@ -1,6 +1,6 @@
-# HablaBase
+# Hablo
 
-App para aprender español (iOS, SwiftUI). El diseño completo está en la guía maestra de HablaBase.
+App para aprender español (iOS, SwiftUI). El diseño completo está en la guía maestra de Hablo. (En el código el proyecto y el target siguen llamándose `HablaBase`; el usuario solo ve «Hablo».)
 
 ## Abrir en Xcode
 
@@ -30,7 +30,7 @@ La app lee ese archivo para dibujar la ruta. Para cambiar el orden o los título
 ## Qué hay ahora (v1.0)
 
 - **Bienvenida**: nombre, ciudad, trabajo, idioma (English / Italiano / Українська / Deutsch / Français / Português / 中文), objetivo y minutos al día.
-- **Inicio**: racha, XP, energía, botón Continuar con el nivel y la unidad actuales, y la unidad en curso.
+- **Inicio**: XP, energía, la tarjeta «Días seguidos» (racha, récord y los últimos 7 días), botón Continuar con el nivel y la unidad actuales, y la unidad en curso.
 - **Recorrido A0–C2**: todos los niveles, unidades, lecciones, bosses, tests y exámenes, con el progreso de cada unidad.
 - **Formato de lección**: explicación, 2 ejercicios, siguiente explicación, 2 ejercicios… y un bloque final que lo mezcla todo. Cada bloque tiene como máximo 15 preguntas, contando los fallos que se repiten al final.
 - **Vocabulario primero**: cada palabra nueva se presenta en slides (palabra y traducción) y luego se une con su traducción antes de usarla en un ejercicio. Un test automático comprueba que ninguna lección usa palabras sin presentar.
@@ -63,6 +63,8 @@ La app lee ese archivo para dibujar la ruta. Para cambiar el orden o los título
 - **Tocar una palabra para ver su traducción**: solo las palabras ya presentadas en las diapositivas.
 - **Minirepaso si te atascas**: dos fallos seguidos en el mismo punto muestran la regla con un ejemplo y una pregunta gemela más fácil. No quita corazones.
 - **Corazones que no castigan**: los fallos al escribir quitan un corazón, la «Segunda oportunidad» lo devuelve, se rellenan cada día y nunca bloquean. Con 0 aparece «Recupera tus corazones», un repaso de tus errores.
+- **Racha tranquila**: cuenta un día cuando terminas una lección, un test, un repaso o un juego del Lab con puntos. Si faltas un día vuelve a empezar, sin avisos ni castigos.
+- **Recordatorio diario** (Perfil): desactivado por defecto; al activarlo se pide permiso de notificaciones. Una notificación local al día a la hora elegida, en el idioma del perfil, y ninguna los días en que ya has estudiado. Se programan 14 días por adelantado y se rehacen al estudiar o abrir la app.
 
 ## Preparada para la App Store
 

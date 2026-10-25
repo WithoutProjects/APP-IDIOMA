@@ -1,7 +1,7 @@
 import SwiftUI
 
-/// Home: a greeting with the counters, one button for "what do I do now?", fluency growing,
-/// and the whole road from A0 to C2 below.
+/// Home: a greeting with the counters, one button for "what do I do now?", the days in a row,
+/// fluency growing, and the whole road from A0 to C2 below.
 struct DashboardView: View {
     @EnvironmentObject private var store: AppStore
     @State private var activeLesson: Lesson?
@@ -17,6 +17,7 @@ struct DashboardView: View {
                         rechargeCard
                     }
                     continueCard
+                    StreakCard()
                     fluencyCard
                 }
                 .padding(.horizontal, 20)
@@ -44,12 +45,6 @@ struct DashboardView: View {
                 .lineLimit(1)
                 .minimumScaleFactor(0.7)
             HStack(spacing: 16) {
-                Label {
-                    Text(verbatim: "\(store.state.streak)")
-                } icon: {
-                    Image(systemName: "flame.fill").foregroundStyle(Tone.terracotta.main)
-                }
-                    .accessibilityLabel(Text("Streak: \(store.state.streak) days"))
                 Label {
                     Text("\(store.state.xp) XP")
                 } icon: {

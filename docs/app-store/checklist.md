@@ -1,4 +1,4 @@
-# Publicar HablaBase en la App Store
+# Publicar Hablo en la App Store
 
 Lo que ya está hecho en el código, y lo que solo puedes hacer tú (cuenta de Apple, firmas, textos de la tienda).
 
@@ -19,7 +19,7 @@ Lo que ya está hecho en el código, y lo que solo puedes hacer tú (cuenta de A
 2. **Apple Developer Program** (99 €/año) si aún no lo tienes: developer.apple.com/programs.
 3. **Firma**: en Xcode, target HablaBase > Signing & Capabilities > *Team*: tu equipo. Deja *Automatically manage signing* activado.
 4. **Bundle ID**: ahora es `com.withoutprojects.hablabase`. Cámbialo si quieres otro; una vez publicado ya no se puede cambiar.
-5. **Nombre en la tienda**: «HablaBase» es el nombre de trabajo. El nombre en App Store Connect tiene que estar libre (máx. 30 caracteres). Si eliges otro, cambia también *Display Name* en Xcode.
+5. **Nombre en la tienda**: la app se llama «Hablo» (*Display Name* en Xcode ya es Hablo). En App Store Connect el nombre tiene que estar libre (máx. 30 caracteres): la ficha propone «Hablo: Learn Spanish». El proyecto y el target de Xcode siguen llamándose `HablaBase`; no se ven en ningún sitio.
 6. **Icono**: el actual es provisional. Hace falta un PNG de 1024×1024 sin transparencia; sustituye `HablaBase/Assets.xcassets/AppIcon.appiconset/AppIcon.png`.
 7. **Revisión de traducciones**: ucraniano, alemán, francés, portugués de Brasil y chino se tradujeron con IA. Antes de publicar en esos idiomas, que un nativo revise al menos la bienvenida, el Lab y las primeras unidades. Si no da tiempo, pídeme que oculte esos idiomas hasta que estén revisados: publicas en inglés e italiano y los añades en una actualización.
 8. **Política de privacidad en una web**: App Store Connect pide una URL. Publica [`privacy-policy.md`](privacy-policy.md) (por ejemplo con GitHub Pages o Notion) y pon tu correo de contacto donde dice `[tu correo]`.

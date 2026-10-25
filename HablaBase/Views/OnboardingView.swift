@@ -29,7 +29,7 @@ struct OnboardingView: View {
                         .padding()
                         .background(.bar)
                 }
-                .navigationTitle("HablaBase")
+                .navigationTitle(Text(verbatim: "Hablo"))
         }
         // The form switches language as soon as the learner picks theirs.
         .environment(\.locale, draft.nativeLanguage.locale)
@@ -55,7 +55,7 @@ struct WelcomeView: View {
     var body: some View {
         VStack(spacing: 0) {
             VStack(alignment: .leading, spacing: 12) {
-                Text(verbatim: "HablaBase")
+                Text(verbatim: "Hablo")
                     .font(.system(size: 44, weight: .bold))
                 Text(Self.tagline.text(language))
                     .font(.title3.weight(.medium))
@@ -122,6 +122,10 @@ struct ProfileForm: View {
                 Text("Your sentence bank")
             } footer: {
                 Text("Your first Spanish sentences will be about you: your name, your city and your work.")
+            }
+
+            if header != nil {
+                ReminderSection()
             }
 
             VoiceSettingsSection()
