@@ -85,8 +85,9 @@ enum SpeechSpeed: String, CaseIterable, Identifiable {
 
     var rate: Float {
         switch self {
-        case .normal: return AVSpeechUtteranceDefaultSpeechRate * 0.82
-        case .slow: return AVSpeechUtteranceDefaultSpeechRate * 0.62
+        // The system's own rate is how a person speaks; much slower drags the vowels out.
+        case .normal: return AVSpeechUtteranceDefaultSpeechRate
+        case .slow: return AVSpeechUtteranceDefaultSpeechRate * 0.78
         }
     }
 }
@@ -100,12 +101,19 @@ enum Speaker {
     private static var lastText = ""
     private static var lastTime = Date.distantPast
 
-    /// The most natural es-ES voice available, never a novelty voice.
+    /// The most natural es-ES voice installed: Premium, then Enhanced, then the standard Siri
+    /// voice (Mónica). Never a novelty voice, a Personal Voice or one of the Eloquence voices
+    /// (Eddy, Flo, Grandpa, Rocko…), which sound slurred and are not marked as novelty.
     static var bestVoice: AVSpeechSynthesisVoice? {
-        let spanish = AVSpeechSynthesisVoice.speechVoices().filter {
-            $0.language == "es-ES" && !$0.voiceTraits.contains(.isNoveltyVoice)
+        let spanish = AVSpeechSynthesisVoice.speechVoices().filter { voice in
+            voice.language == "es-ES"
+                && !voice.voiceTraits.contains(.isNoveltyVoice)
+                && !voice.voiceTraits.contains(.isPersonalVoice)
+                && !voice.identifier.lowercased().contains("eloquence")
         }
-        return spanish.max { $0.quality.rawValue < $1.quality.rawValue }
+        let best = spanish.map(\.quality.rawValue).max()
+        let finest = spanish.filter { $0.quality.rawValue == best }
+        return finest.first { $0.identifier.contains("Monica") } ?? finest.first
             ?? AVSpeechSynthesisVoice(language: "es-ES")
     }
 
@@ -128,6 +136,7 @@ enum Speaker {
         let utterance = AVSpeechUtterance(string: text)
         utterance.voice = bestVoice
         utterance.rate = speed.rate
+        utterance.pitchMultiplier = 1
         utterance.preUtteranceDelay = 0.05
         utterance.postUtteranceDelay = 0.1
         synthesizer.speak(utterance)
