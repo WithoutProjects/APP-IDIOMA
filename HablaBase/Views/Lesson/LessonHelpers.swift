@@ -85,9 +85,10 @@ enum SpeechSpeed: String, CaseIterable, Identifiable {
 
     var rate: Float {
         switch self {
-        // The system's own rate is how a person speaks; much slower drags the vowels out.
-        case .normal: return AVSpeechUtteranceDefaultSpeechRate
-        case .slow: return AVSpeechUtteranceDefaultSpeechRate * 0.78
+        // A little under the system's rate is calm and clear for a learner; much slower drags
+        // the vowels out.
+        case .normal: return AVSpeechUtteranceDefaultSpeechRate * 0.9
+        case .slow: return AVSpeechUtteranceDefaultSpeechRate * 0.75
         }
     }
 }
