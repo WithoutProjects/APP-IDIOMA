@@ -1,6 +1,7 @@
 import SwiftUI
 
-/// The verb workshop. Two doors: review the tables, or play verb games for your level.
+/// The workshop: review the verb tables, play games for your level, swipe through words and
+/// open the folder of saved ones.
 struct LabView: View {
     @EnvironmentObject private var store: AppStore
 
@@ -28,6 +29,23 @@ struct LabView: View {
                                 icon: "gamecontroller.fill", language: store.language)
                     }
                     .buttonStyle(.plain)
+                    NavigationLink {
+                        WordFeedView()
+                    } label: {
+                        LabCard(title: WordFeedView.title,
+                                detail: Self.feedDetail,
+                                icon: "rectangle.stack.fill", language: store.language)
+                    }
+                    .buttonStyle(.plain)
+                    NavigationLink {
+                        FavoriteWordsView()
+                    } label: {
+                        LabCard(title: FavoriteWordsView.title,
+                                detail: FavoriteWordsView.detail,
+                                icon: "folder.fill", language: store.language,
+                                count: store.favoriteWords.isEmpty ? nil : FavoriteWordsView.count(store.favoriteWords.count, language: store.language))
+                    }
+                    .buttonStyle(.plain)
                 }
                 .padding(20)
             }
@@ -35,7 +53,14 @@ struct LabView: View {
         }
     }
 
-    static let intro = Gloss(en: "Practise your verbs outside the lessons.", it: "Allena i tuoi verbi fuori dalle lezioni.", uk: "Тренуй дієслова поза уроками.", de: "Übe deine Verben außerhalb der Lektionen.", fr: "Entraîne tes verbes en dehors des leçons.", pt: "Pratique seus verbos fora das lições.", zh: "在课程之外练习动词。")
+    static let feedDetail = Gloss(en: "Swipe up through Spanish words and save your favourites.",
+                                  it: "Scorri le parole spagnole e salva le tue preferite.",
+                                  uk: "Гортай іспанські слова й зберігай улюблені.",
+                                  de: "Wisch dich durch spanische Wörter und speichere deine Lieblinge.",
+                                  fr: "Fais défiler des mots espagnols et garde tes préférés.",
+                                  pt: "Deslize por palavras em espanhol e salve as suas favoritas.",
+                                  zh: "向上滑动浏览西班牙语单词，收藏你喜欢的词。")
+    static let intro = Gloss(en: "Practise outside the lessons: verbs, games and words.", it: "Allenati fuori dalle lezioni: verbi, giochi e parole.", uk: "Тренуйся поза уроками: дієслова, ігри та слова.", de: "Üben außerhalb der Lektionen: Verben, Spiele und Wörter.", fr: "Entraîne-toi en dehors des leçons : verbes, jeux et mots.", pt: "Pratique fora das lições: verbos, jogos e palavras.", zh: "在课程之外练习：动词、游戏和单词。")
 }
 
 /// A calm card: a tinted icon tile in the level's tone, the title and one line on what is inside.
@@ -45,6 +70,9 @@ struct LabCard: View {
     let icon: String
     let language: NativeLanguage
     var status: String?
+    /// A quiet line under the detail, e.g. how many words are saved.
+    var count: String?
+    @Environment(\.tone) var tone
 
     var body: some View {
         HStack(spacing: 16) {
@@ -57,6 +85,11 @@ struct LabCard: View {
                     .font(.subheadline)
                     .foregroundStyle(.secondary)
                     .multilineTextAlignment(.leading)
+                if let count {
+                    Text(verbatim: count)
+                        .font(.caption.weight(.semibold))
+                        .foregroundStyle(tone.main)
+                }
                 if let status {
                     Label(status, systemImage: "lock.fill")
                         .font(.caption)

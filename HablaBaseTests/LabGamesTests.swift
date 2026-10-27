@@ -465,4 +465,54 @@ final class LabGamesTests: XCTestCase {
         XCTAssertEqual(store.best(in: LabGame.sprintId), 12)
         XCTAssertEqual(store.best(in: LabGame.huntId), 0)
     }
+
+    // MARK: Palabras al azar
+
+    func testTheWordFeedStaysWithinTheLearnersLevel() {
+        let words = WordFeed.words(upToLevel: 1, profile: profile)
+        XCTAssertGreaterThan(words.count, 100)
+        XCTAssertEqual(Set(words.map(\.id)).count, words.count, "each word appears once")
+        let levelOne = Set(Curriculum.shared.levels[0].units.flatMap(\.lessons).map(\.id))
+        for word in words {
+            XCTAssertTrue(levelOne.contains(word.lessonId), "\(word.es) comes from beyond level 1")
+            XCTAssertFalse(word.gloss.text(.german).isEmpty, word.es)
+        }
+        XCTAssertGreaterThan(WordFeed.words(upToLevel: 2, profile: profile).count, words.count)
+    }
+
+    func testFeedExamplesUseTheWord() {
+        let words = WordFeed.words(upToLevel: 2, profile: profile)
+        XCTAssertGreaterThan(words.filter { $0.example != nil }.count, words.count / 3)
+        let sentences = [Example(es: "Vivo en una casa grande.", gloss: Gloss(en: "", it: "", uk: "")),
+                         Example(es: "Mi casa es bonita.", gloss: Gloss(en: "", it: "", uk: ""))]
+        XCTAssertEqual(WordFeed.example(for: "la casa", in: sentences)?.es, "Mi casa es bonita.")
+        XCTAssertNil(WordFeed.example(for: "el perro", in: sentences))
+        XCTAssertNil(WordFeed.example(for: "mi casa es bonita", in: sentences), "a sentence is no example of itself")
+    }
+
+    func testANewRoundNeverRepeatsTheLastWord() {
+        let words = WordFeed.words(upToLevel: 1, profile: profile)
+        for _ in 0..<50 {
+            let last = words.randomElement()
+            XCTAssertNotEqual(WordFeed.deck(words, after: last).first?.id, last?.id)
+        }
+        XCTAssertEqual(WordFeed.deck(words).count, words.count)
+    }
+
+    func testFavouritesAreSavedNewestFirstAndSurviveARestart() throws {
+        let storage = InMemoryProgressStorage()
+        let store = AppStore(storage: storage)
+        let words = Array(WordFeed.words(upToLevel: 1, profile: profile).prefix(3))
+        store.toggleFavorite(words[0])
+        store.toggleFavorite(words[1])
+        XCTAssertEqual(store.favoriteWords.map(\.id), [words[1].id, words[0].id])
+        store.toggleFavorite(words[0])
+        XCTAssertFalse(store.isFavorite(words[0]))
+        store.toggleFavorite(words[2])
+        store.removeFavorites(at: IndexSet(integer: 0))
+        XCTAssertEqual(AppStore(storage: storage).favoriteWords, [words[1]])
+
+        let old = #"{"xp": 3}"#.data(using: .utf8)!
+        XCTAssertEqual(try JSONDecoder().decode(SavedState.self, from: old).favoriteWords, [])
+    }
 }
