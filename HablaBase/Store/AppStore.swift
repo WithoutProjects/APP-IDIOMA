@@ -25,6 +25,8 @@ struct SavedState: Codable, Equatable {
     var sentencesBuilt = 0
     /// The best score in each Lab game, by game id.
     var gameBests: [String: Int] = [:]
+    /// The learner's favourites folder from "Palabras al azar", newest first.
+    var favoriteWords: [FeedWord] = []
 
     init() {}
 
@@ -46,6 +48,7 @@ struct SavedState: Codable, Equatable {
         mastery = try c.decodeIfPresent([FormKey: Int].self, forKey: .mastery) ?? [:]
         sentencesBuilt = try c.decodeIfPresent(Int.self, forKey: .sentencesBuilt) ?? 0
         gameBests = try c.decodeIfPresent([String: Int].self, forKey: .gameBests) ?? [:]
+        favoriteWords = try c.decodeIfPresent([FeedWord].self, forKey: .favoriteWords) ?? []
     }
 }
 
@@ -205,20 +208,7 @@ final class AppStore: ObservableObject {
     /// Every Spanish sentence of the finished lessons with its translation and every accepted way
     /// to say it, for the sentence games of the Lab.
     var practiceSentences: [PracticeSentence] {
-        finishedLessons.flatMap { lesson -> [PracticeSentence] in
-            var sentences: [PracticeSentence] = lesson.target.map { [PracticeSentence(example: $0)] } ?? []
-            for item in lesson.items {
-                switch item.kind {
-                case .frame(let card): sentences += card.examples.map { PracticeSentence(example: $0) }
-                case .builder(let builder): sentences.append(PracticeSentence(example: builder.model, accepted: builder.accepted))
-                case .freeWrite(let write): sentences.append(PracticeSentence(example: write.model, accepted: write.accepted))
-                case .gapFill(let gap): sentences.append(PracticeSentence(example: Example(es: gap.sentence, gloss: gap.gloss)))
-                case .choice(let choice): sentences.append(PracticeSentence(example: Example(es: choice.sentence, gloss: choice.gloss)))
-                default: break
-                }
-            }
-            return sentences
-        }
+        finishedLessons.flatMap(\.practiceSentences)
     }
 
     /// The sentences of the finished lessons, for "Caza de errores".
@@ -252,6 +242,27 @@ final class AppStore: ObservableObject {
         guard record == 0 || seconds < record else { return false }
         state.gameBests[game] = seconds
         return true
+    }
+
+    // MARK: Favourite words
+
+    var favoriteWords: [FeedWord] { state.favoriteWords }
+
+    func isFavorite(_ word: FeedWord) -> Bool {
+        state.favoriteWords.contains { $0.id == word.id }
+    }
+
+    /// Saves the word at the top of the favourites folder, or takes it out if it is already there.
+    func toggleFavorite(_ word: FeedWord) {
+        if isFavorite(word) {
+            state.favoriteWords.removeAll { $0.id == word.id }
+        } else {
+            state.favoriteWords.insert(word, at: 0)
+        }
+    }
+
+    func removeFavorites(at offsets: IndexSet) {
+        state.favoriteWords.remove(atOffsets: offsets)
     }
 
     // MARK: Practice events

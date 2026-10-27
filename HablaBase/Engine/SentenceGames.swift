@@ -18,6 +18,24 @@ struct PracticeSentence: Hashable {
     var words: [String] { example.es.split(separator: " ").map(String.init) }
 }
 
+extension Lesson {
+    /// Every Spanish sentence of the lesson with its translation and every accepted way to say it.
+    var practiceSentences: [PracticeSentence] {
+        var sentences: [PracticeSentence] = target.map { [PracticeSentence(example: $0)] } ?? []
+        for item in items {
+            switch item.kind {
+            case .frame(let card): sentences += card.examples.map { PracticeSentence(example: $0) }
+            case .builder(let builder): sentences.append(PracticeSentence(example: builder.model, accepted: builder.accepted))
+            case .freeWrite(let write): sentences.append(PracticeSentence(example: write.model, accepted: write.accepted))
+            case .gapFill(let gap): sentences.append(PracticeSentence(example: Example(es: gap.sentence, gloss: gap.gloss)))
+            case .choice(let choice): sentences.append(PracticeSentence(example: Example(es: choice.sentence, gloss: choice.gloss)))
+            default: break
+            }
+        }
+        return sentences
+    }
+}
+
 /// "Ordena la frase" and "Dictado": both use short sentences from the learner's own lessons,
 /// so every word has been introduced.
 enum SentenceGames {

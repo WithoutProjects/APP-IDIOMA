@@ -154,7 +154,7 @@ struct Gloss: Hashable, Codable {
 }
 
 /// A Spanish sentence with its translations.
-struct Example: Hashable {
+struct Example: Hashable, Codable {
     let es: String
     let gloss: Gloss
 }
