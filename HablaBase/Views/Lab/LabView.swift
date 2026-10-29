@@ -17,7 +17,7 @@ struct LabView: View {
                         TablesView()
                     } label: {
                         LabCard(title: "Repasar tablas",
-                                detail: Gloss(en: "Your verb tables and the Lego bench.", it: "Le tue tabelle dei verbi e il banco Lego.", uk: "Твої таблиці дієслів і лего-майстерня.", de: "Deine Verbtabellen und die Lego-Werkbank.", fr: "Tes tableaux de verbes et l'atelier Lego.", pt: "Suas tabelas de verbos e a bancada Lego.", zh: "你的动词变位表和积木台。"),
+                                detail: Gloss(en: "Verb tables tense by tense, and a search for any verb.", it: "Le tabelle dei verbi tempo per tempo e la ricerca di qualsiasi verbo.", uk: "Таблиці дієслів за часами й пошук будь-якого дієслова.", de: "Verbtabellen nach Zeitform und eine Suche für jedes Verb.", fr: "Les tableaux de verbes temps par temps, et la recherche de n'importe quel verbe.", pt: "Tabelas de verbos tempo por tempo e a busca de qualquer verbo.", zh: "按时态整理的动词变位表，还能搜索任意动词。"),
                                 icon: "tablecells", language: store.language)
                     }
                     .buttonStyle(.plain)
