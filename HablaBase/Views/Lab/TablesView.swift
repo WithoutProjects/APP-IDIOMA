@@ -129,7 +129,7 @@ struct TablesView: View {
                 }
             }
             Spacer(minLength: 0)
-            Text(verbatim: (learned ? WordFeedView.learned : WordFeedView.upcoming).text(store.language))
+            Text(verbatim: (learned ? Self.learnedText : Self.upcomingText).text(store.language))
                 .font(.caption)
                 .foregroundStyle(.secondary)
             Image(systemName: "chevron.right")
@@ -183,6 +183,8 @@ struct TablesView: View {
                              pt: "Uma pasta para cada tempo: como se forma, os verbos modelo e os irregulares para aprender. Busque um verbo para vê-lo em todos os tempos.",
                              zh: "每个时态一个文件夹：构成方法、示范动词和需要记住的不规则动词。搜索任意动词，查看它在所有时态中的变位。")
     static let searchText = Gloss(en: "Find a verb: tener, pongo…", it: "Cerca un verbo: tener, pongo…", uk: "Знайти дієслово: tener, pongo…", de: "Verb suchen: tener, pongo…", fr: "Chercher un verbe : tener, pongo…", pt: "Buscar um verbo: tener, pongo…", zh: "查找动词：tener、pongo…")
+    static let learnedText = Gloss(en: "You know it", it: "Lo conosci", uk: "Ти його знаєш", de: "Kennst du", fr: "Tu le connais", pt: "Você já sabe", zh: "已学过")
+    static let upcomingText = Gloss(en: "Coming up", it: "In arrivo", uk: "Попереду", de: "Kommt bald", fr: "Bientôt", pt: "Em breve", zh: "即将学到")
     static let noResultText = Gloss(en: "No verb found", it: "Nessun verbo trovato", uk: "Дієслово не знайдено", de: "Kein Verb gefunden", fr: "Aucun verbe trouvé", pt: "Nenhum verbo encontrado", zh: "没有找到动词")
     static let noResultHint = Gloss(en: "Try the infinitive (tener) or a form you saw (tengo).", it: "Prova con l'infinito (tener) o con una forma che hai visto (tengo).", uk: "Спробуй інфінітив (tener) або форму, яку ти бачив (tengo).", de: "Versuch es mit dem Infinitiv (tener) oder einer Form, die du gesehen hast (tengo).", fr: "Essaie l'infinitif (tener) ou une forme que tu as vue (tengo).", pt: "Tente o infinitivo (tener) ou uma forma que você viu (tengo).", zh: "试试不定式（tener）或你见过的变位形式（tengo）。")
 }
@@ -404,7 +406,7 @@ struct VerbDetailView: View {
                     tenseCard(tense, locked: false)
                 }
                 if !ahead.isEmpty {
-                    Eyebrow(text: WordFeedView.upcoming.text(store.language))
+                    Eyebrow(text: TablesView.upcomingText.text(store.language))
                         .padding(.top, 8)
                     ForEach(ahead) { tense in
                         tenseCard(tense, locked: true)
