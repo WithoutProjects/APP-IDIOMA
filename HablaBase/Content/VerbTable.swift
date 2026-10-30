@@ -1,6 +1,7 @@
 import Foundation
 
-/// A verb in the Lab's tables: every verb the course teaches, from verbs.json (built by tools/gen_verbs.py).
+/// Every verb the course teaches, from verbs.json (built by tools/gen_verbs.py): the lesson that
+/// introduces it and its meaning. The forms in every tense come from VerbBook (verb-tables.json).
 struct TableVerb: Decodable, Identifiable {
     let lemma: String
     /// The lesson that introduces it; the verb joins the tables once that lesson is done.
@@ -37,17 +38,13 @@ enum VerbTable {
         return verbs
     }()
 
-    /// Verbs whose lesson is done, newest first.
-    static func unlocked(completed: Set<String>) -> [TableVerb] {
-        all.filter { completed.contains($0.lesson) }.reversed()
-    }
+    private static let byLemma = Dictionary(all.map { ($0.lemma, $0) }, uniquingKeysWith: { first, _ in first })
 
-    /// Unit 1 teaches yo, tú, él; Unit 2 adds nosotros, ellos and vosotros, one lesson each.
-    static func unlockedPersons(completed: Set<String>) -> [Person] {
-        var persons = Unit1.unlockedPersons(completed: completed)
-        if completed.contains("u2l1") { persons.append(.nosotros) }
-        if completed.contains("u2l3") { persons.append(.vosotros) }
-        if completed.contains("u2l2") { persons.append(.ellos) }
-        return persons
+    /// The meaning the verb's vocabulary slide gives it.
+    static func meaning(_ lemma: String) -> Gloss? { byLemma[lemma]?.meaning }
+
+    /// A verb is learned once the lesson that introduces it is done.
+    static func isLearned(_ lemma: String, completed: Set<String>) -> Bool {
+        byLemma[lemma].map { completed.contains($0.lesson) } ?? false
     }
 }

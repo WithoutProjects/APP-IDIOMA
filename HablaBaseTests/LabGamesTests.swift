@@ -59,6 +59,45 @@ final class LabGamesTests: XCTestCase {
         }
     }
 
+    // MARK: Repasar tablas
+
+    private func tableForms(_ lemma: String, _ tense: TableTense) -> [String] {
+        book.verb(lemma).flatMap { tense.forms($0) }?.map(\.text) ?? []
+    }
+
+    func testCompoundTensesSwapHaber() {
+        XCTAssertEqual(tableForms("hacer", .pluscuamperfecto), ["había hecho", "habías hecho", "había hecho", "habíamos hecho", "habíais hecho", "habían hecho"])
+        XCTAssertEqual(tableForms("ir", .condicionalCompuesto).first, "habría ido")
+        XCTAssertEqual(tableForms("saber", .subjuntivoPluscuamperfecto).first, "hubiera sabido")
+        XCTAssertEqual(tableForms("despertarse", .pluscuamperfecto).last, "se habían despertado")
+        XCTAssertEqual(book.verb("hablar").flatMap { TableTense.participle($0) }?.text, "hablado")
+        XCTAssertEqual(book.verb("decir").flatMap { TableTense.participle($0) }?.text, "dicho")
+        XCTAssertEqual(book.verb("ir").flatMap { TableTense.participle($0) }?.text, "ido")
+    }
+
+    func testEveryTenseFolderHasModelsIrregularsAndAGate() {
+        let lessons = Set(Curriculum.sharedPath.map(\.id))
+        for tense in TableTense.allCases {
+            XCTAssertTrue(lessons.contains(tense.gate), "\(tense) gate \(tense.gate)")
+            XCTAssertNotNil(tense.unit, "\(tense)")
+            for lemma in TableTense.models {
+                XCTAssertEqual(book.verb(lemma).flatMap { tense.forms($0) }?.count, 6, "\(lemma) \(tense)")
+            }
+            let irregular = tense.keyIrregulars.compactMap { book.verb($0) }.filter { tense.isIrregular($0) }
+            XCTAssertFalse(irregular.isEmpty, "\(tense) shows no irregular verb")
+        }
+    }
+
+    func testTheSearchFindsInfinitivesFormsAndMeanings() {
+        let find = { TablesView.find(TablesView.fold($0), completed: [], language: .english).map(\.lemma) }
+        XCTAssertEqual(find("tener").first, "tener")
+        XCTAssertTrue(find("pongo").contains("poner"))
+        XCTAssertTrue(find("hecho").contains("hacer"))
+        XCTAssertTrue(find("Tuvieron").contains("tener"))
+        XCTAssertTrue(find("to eat").contains("comer"))
+        XCTAssertTrue(find("zzz").isEmpty)
+    }
+
     // MARK: What the learner can be asked
 
     func testTheDeckFollowsThePath() {
